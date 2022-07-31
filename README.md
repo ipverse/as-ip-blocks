@@ -1,6 +1,6 @@
 # ipverse-asn-ip
 
-IPv4 and IPv6 subnets (e.g. 100.2.30.0/22) organized by announcing autonomous systems. All subnets are aggregated to save space. The data is available in TXT and JSON format. This is a JSON example for AS1234:
+IPv4 and IPv6 subnets (e.g. 100.2.30.0/22) organized by announcing autonomous systems (AS). All subnets are aggregated to save space. The data is available in TXT and JSON format. This is a JSON example for AS1234:
 ```
 {
   "asn": 1234,
