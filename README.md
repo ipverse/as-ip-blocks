@@ -43,7 +43,7 @@ The data (IPv4 + IPv4 combined) is available in JSON format as well:
 To download the latest autonomous system lookup table used to enhance the generated route data:  
 ```$ curl -O https://raw.githubusercontent.com/ipverse/asn-info/master/as.csv```
 
-See https://github.com/ipverse/asn-info for more information about ``as.csv```  
+See https://github.com/ipverse/asn-info for more information about ```as.csv```  
 
 If you plan to use the routing data for firewalling purposes, have a look at:
 
