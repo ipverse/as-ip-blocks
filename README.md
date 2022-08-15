@@ -2,7 +2,9 @@
 
 IPv4 and IPv6 networks in CIDR notation (e.g. 100.2.30.0/22) organized by announcing autonomous systems (AS).
 All networks are aggregated to save space.
-The data is available in TXT and JSON format. This is a JSON example for AS1234:
+The data is available both in **TXT** Plaintext or **JSON** format.  
+
+This is a JSON example for AS1234:
 ```
 {
   "asn": 1234,
@@ -39,7 +41,7 @@ To download the announced networks for a specific autonomous system (AS1234 IPv4
 The same for all IPv6 networks from AS1234:  
 ```$ curl https://raw.githubusercontent.com/ipverse/asn-ip/master/as/1234/ipv6-aggregated.txt```
 
-The data (IPv4 + IPv4 combined) is available in JSON format as well:  
+The data (IPv4 + IPv6 combined) is available in JSON format as well:  
 ```$ curl https://raw.githubusercontent.com/ipverse/asn-ip/master/as/1234/aggregated.json```
 
 To download the latest autonomous system list which is used enhance the generated route data:  
