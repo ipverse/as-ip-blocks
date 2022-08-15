@@ -52,6 +52,6 @@ If you plan to use the routing data for firewalling purposes, have a look at:
   - [ipset-blacklistlist](https://github.com/trick77/ipset-blacklist) ipset/iptables based Bash script, IPv4 only
   - [todo](https://localhost) insert link to a popular project with nftables and IPv6 support
 
-## Yeah, but how to I get the ASN for an IP address?
+## Yeah, but how do I get the ASN for an IP address?
 
 Check out this excellent blog post: https://blog.jiayu.co/2018/10/quick-url-to-asn-lookups/
