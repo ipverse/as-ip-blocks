@@ -62,7 +62,7 @@ See [ipverse-asn-info](https://github.com/ipverse/asn-info) for more information
 If you plan to use the routing data for firewalling purposes, have a look at:
 
   - [ipset-blacklistlist](https://github.com/trick77/ipset-blacklist) ipset/iptables based Bash script, IPv4 only
-  - [ipverse-tools-crowdsec](https://github.com/ipverse/tools/blob/main/crowdsec/README.md) Ban networks using Crowdesc's `cscli` command
+  - [ipverse-tools-crowdsec](https://github.com/ipverse/tools/blob/main/crowdsec/README.md) Ban networks using Crowdsec's `cscli` command
   - [todo](https://localhost) insert link to a popular project with nftables and IPv6 support
 
 ## Yeah, but how do I get the ASN for an IP address?
