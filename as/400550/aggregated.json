@@ -3,9 +3,13 @@
   "handle": "SM",
   "description": "Suburban Marine, Inc.",
   "subnets": {
-    "ipv4": [],
+    "ipv4": [
+      "23.133.232.0/24"
+    ],
     "ipv6": [
-      "2602:fb9e:2::/48"
+      "2602:fb9e::/47",
+      "2602:fb9e:2::/48",
+      "2602:fb9e:16::/47"
     ]
   }
 }
