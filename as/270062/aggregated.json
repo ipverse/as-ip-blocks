@@ -3,7 +3,13 @@
   "handle": "FIBERNET-TV",
   "description": "FIBERNET TV SAS",
   "subnets": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [
+      "131.100.48.0/24",
+      "131.100.51.0/24"
+    ],
+    "ipv6": [
+      "2803:3e0::/34",
+      "2803:3e0:6000::/35"
+    ]
   }
 }
