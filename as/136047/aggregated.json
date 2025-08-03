@@ -1,11 +1,16 @@
 {
   "asn": 136047,
-  "handle": "INFODEV-AP",
+  "handle": "INFODEV-AS-AP",
   "description": "Info Developers Pvt. Ltd.",
   "subnets": {
     "ipv4": [
       "103.109.228.0/22"
     ],
-    "ipv6": []
+    "ipv6": [
+      "2401:e20::/40",
+      "2401:e20:1000::/40",
+      "2401:e20:2000::/36",
+      "2401:e20:3000::/40"
+    ]
   }
 }

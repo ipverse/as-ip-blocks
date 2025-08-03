@@ -1,6 +1,6 @@
 {
   "asn": 136210,
-  "handle": "ITSPECTRUM-AP",
+  "handle": "ITSPECTRUM-AS-AP",
   "description": "IT Spectrum Company Limited",
   "subnets": {
     "ipv4": [
@@ -9,7 +9,9 @@
       "202.157.190.0/23"
     ],
     "ipv6": [
-      "2400:ecc0::/32"
+      "2400:ecc0:1001::/48",
+      "2400:ecc0:1008::/48",
+      "2400:ecc0:19fe::/47"
     ]
   }
 }
