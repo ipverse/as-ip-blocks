@@ -1,22 +1,12 @@
 # as-ip-blocks (formerly asn-ip)
 
-> **📢 Heads up:** This repo has a new name and the data format has changed. Terribly sorry but if you're using this in production, check out [MIGRATION.md](MIGRATION.md) for what you need to update. The data is provided as-is on a best-effort basis.
+> **📢 New and improved:** This repo has been upgraded with a clearer name (`as-ip-blocks`) and enhanced JSON format. Metadata is now properly nested, and data quality indicators have been added via the `origin` field to show whether metadata comes from authoritative sources, is inferred, or overlaid. If you're using the JSON format in production, check out [MIGRATION.md](MIGRATION.md) for the quick changes needed (TXT files are unchanged). The data is provided as-is on a best-effort basis.
 
-Daily-updated IP prefix datasets for every autonomous system, sourced from BGP routing table announcements. No APIs, no databases - just simple file downloads.
+Daily-updated datasets about every autonomous system (AS), sourced from BGP routing table announcements. No APIs, no databases - just simple file downloads.
 
-Each AS gets its own directory with aggregated IPv4 and IPv6 prefixes in both plaintext and JSON formats. Perfect for firewall rules, network analysis, or tracking what IP ranges belong to specific organizations. Git history lets you see how an AS's announcements change over time.
+Each AS gets its own directory with aggregated IPv4 and IPv6 prefixes in both JSON and plaintext formats. Perfect for firewall rules, network analysis, or tracking what IP ranges belong to specific organizations. Git history lets you see how an AS's announcements change over time.
 
-Available formats: plaintext and JSON
-
-**Plaintext format** (AS1234 IPv4):
-```
-# AS1234 (FORTUM)
-# Fortum
-#
-132.171.0.0/16
-137.96.0.0/16
-193.110.32.0/21
-```
+Available formats: JSON and plaintext
 
 **JSON format** (includes both IPv4 and IPv6):
 ```json
@@ -40,10 +30,28 @@ Available formats: plaintext and JSON
 }
 ```
 
+**Plaintext format** (AS1234 IPv4):
+```
+# AS1234 (FORTUM)
+# Fortum
+#
+132.171.0.0/16
+137.96.0.0/16
+193.110.32.0/21
+```
+
+**Plaintext format** (AS1234 IPv6):
+```
+# AS1234 (FORTUM)
+# Fortum
+#
+2405:1800::/32
+```
+
 **Metadata fields:**
 - **origin**: Metadata source indicator
   - `authoritative`: From authoritative source
-  - `inferred`: Derived from incomplete or missing authoritative data; may be inaccurate
+  - `inferred`: Inferred from routing information; may be inaccurate
   - `overlaid`: Overlay from [as-overlay](https://github.com/ipverse/as-overlay) applied
   - `none`: No metadata available
 
@@ -59,6 +67,12 @@ For AS metadata (ASN, handle, description, country code) see [as-metadata](https
 
 Download the announced prefixes for a specific autonomous system:
 
+
+**AS1234 in JSON format:**
+```bash
+curl https://raw.githubusercontent.com/ipverse/as-ip-blocks/master/as/1234/aggregated.json
+```
+
 **AS1234 IPv4 addresses:**
 ```bash
 curl https://raw.githubusercontent.com/ipverse/as-ip-blocks/master/as/1234/ipv4-aggregated.txt
@@ -67,11 +81,6 @@ curl https://raw.githubusercontent.com/ipverse/as-ip-blocks/master/as/1234/ipv4-
 **AS1234 IPv6 addresses:**
 ```bash
 curl https://raw.githubusercontent.com/ipverse/as-ip-blocks/master/as/1234/ipv6-aggregated.txt
-```
-
-**AS1234 combined (IPv4 + IPv6) in JSON format:**
-```bash
-curl https://raw.githubusercontent.com/ipverse/as-ip-blocks/master/as/1234/aggregated.json
 ```
 
 For AS metadata (ASN, handle, description, country code), see [as-metadata](https://github.com/ipverse/as-metadata).
