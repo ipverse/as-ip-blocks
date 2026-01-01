@@ -67,7 +67,7 @@ as/1/ipv6-aggregated.txt
 
 ### TXT format
 
-The TXT format remains the same with separate IPv4 and IPv6 files and comment headers:
+The TXT format remains the same with separate IPv4 and IPv6 files:
 
 ipv4-aggregated.txt:
 ```
