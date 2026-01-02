@@ -1,6 +1,6 @@
 # as-ip-blocks (formerly asn-ip)
 
-> **📢 New and improved:** This repo has been upgraded with a clearer name (`as-ip-blocks`) and enhanced JSON format. Metadata is now properly nested, and data quality indicators have been added via the `origin` field to show whether metadata comes from authoritative sources, is inferred, or overlaid. If you're using the JSON format in production, check out [MIGRATION.md](MIGRATION.md) for the quick changes needed (TXT files are unchanged). The data is provided as-is on a best-effort basis.
+> **📢 New and improved:** This repo has been upgraded with a clearer name (`as-ip-blocks`) and enhanced JSON format. Metadata is now properly nested, and data quality indicators have been added via the `origin` field to show whether metadata comes from authoritative sources, is inferred, or overlaid. If you're using the JSON format in production, check out [MIGRATION.md](MIGRATION.md) for the quick changes needed (plaintext files are unchanged). The data is provided as-is on a best-effort basis.
 
 Daily-updated datasets about every autonomous system (AS), sourced from BGP routing table announcements. No APIs, no databases - just simple file downloads.
 
@@ -103,6 +103,10 @@ Check out this excellent blog post: https://blog.jiayu.co/2018/10/quick-url-to-a
 - Threat hunting and security research
 - Figure out which IPs belong to a specific organization
 - Pretty much anything where you need to map ASNs to their announced prefixes
+
+## Related projects
+
+- **[as-overlay](https://github.com/ipverse/as-overlay)**: Autonomous system metadata overlays that supplement and enhance the authoritative data in this repository. When overlay data is applied, entries will have an `origin` value of `overlaid` in the JSON format.
 
 ## Questions or issues?
 
