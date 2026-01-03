@@ -1,9 +1,12 @@
 {
-  "asn": 11749,
-  "handle": "MPINET",
-  "description": "MPInet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11749,
+  "metadata" : {
+    "handle" : "MPINET",
+    "description" : "MPInet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.90.17.0/24",
       "66.90.18.0/24",
       "66.90.28.0/22",
@@ -40,6 +43,6 @@
       "216.97.216.0/21",
       "216.230.32.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

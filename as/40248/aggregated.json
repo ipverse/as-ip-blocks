@@ -1,11 +1,14 @@
 {
-  "asn": 40248,
-  "handle": "CSL0-AS",
-  "description": "County of San Luis Obispo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40248,
+  "metadata" : {
+    "handle" : "CSL0-AS",
+    "description" : "County of San Luis Obispo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.88.224.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

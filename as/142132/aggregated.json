@@ -1,9 +1,12 @@
 {
-  "asn": 142132,
-  "handle": "M2GCL-AS-AP",
-  "description": "263 Global Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142132,
+  "metadata" : {
+    "handle" : "M2GCL-AS-AP",
+    "description" : "263 Global Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.252.211.0/24",
       "45.207.33.0/24",
       "103.166.174.0/23",
@@ -38,7 +41,7 @@
       "206.54.24.0/23",
       "212.135.31.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:b0e0::/40"
     ]
   }

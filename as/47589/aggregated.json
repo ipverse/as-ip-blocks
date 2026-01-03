@@ -1,9 +1,12 @@
 {
-  "asn": 47589,
-  "handle": "KTC3G",
-  "description": "Kuwait Telecommunications Company K.S.C.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47589,
+  "metadata" : {
+    "handle" : "KTC3G",
+    "description" : "Kuwait Telecommunications Company K.S.C.C.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.231.0.0/16",
       "62.150.164.0/22",
       "62.150.202.0/23",
@@ -18,7 +21,7 @@
       "185.192.236.0/22",
       "213.189.74.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:4780::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 9614,
-  "handle": "OCT",
-  "description": "Oita Cable Telecom Co ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9614,
+  "metadata" : {
+    "handle" : "OCT",
+    "description" : "Oita Cable Telecom Co ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.238.0.0/19",
       "61.122.48.0/20",
       "61.195.224.0/20",
@@ -29,6 +32,6 @@
       "219.100.212.0/22",
       "219.113.80.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

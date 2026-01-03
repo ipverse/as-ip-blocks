@@ -1,12 +1,15 @@
 {
-  "asn": 268252,
-  "handle": "BAHIA-WIFI",
-  "description": "BAHIA WIFI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268252,
+  "metadata" : {
+    "handle" : "BAHIA-WIFI",
+    "description" : "BAHIA WIFI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.236.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4e4c::/32"
     ]
   }

@@ -1,16 +1,19 @@
 {
-  "asn": 16117,
-  "handle": "GAVLENET",
-  "description": "Gavle Energi AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16117,
+  "metadata" : {
+    "handle" : "GAVLENET",
+    "description" : "Gavle Energi AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.116.224.0/19",
       "79.142.208.0/20",
       "84.23.128.0/19",
       "185.98.244.0/22",
       "213.141.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:b48::/29"
     ]
   }

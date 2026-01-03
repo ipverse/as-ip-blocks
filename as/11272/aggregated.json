@@ -1,9 +1,12 @@
 {
-  "asn": 11272,
-  "handle": "TELEPAK-NETWORKS-INC",
-  "description": "C Spire Fiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11272,
+  "metadata" : {
+    "handle" : "TELEPAK-NETWORKS-INC",
+    "description" : "C Spire Fiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.42.176.0/20",
       "38.140.64.0/19",
       "50.86.0.0/16",
@@ -26,7 +29,7 @@
       "207.179.32.0/19",
       "207.181.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f4a0::/32"
     ]
   }

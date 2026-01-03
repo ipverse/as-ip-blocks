@@ -1,12 +1,15 @@
 {
-  "asn": 199103,
-  "handle": "MAKLAUT-AS",
-  "description": "SIA Maklaut",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199103,
+  "metadata" : {
+    "handle" : "MAKLAUT-AS",
+    "description" : "SIA Maklaut",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.105.200.0/22",
       "185.220.92.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 43071,
-  "handle": "PCL",
-  "description": "PCL Data AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43071,
+  "metadata" : {
+    "handle" : "PCL",
+    "description" : "PCL Data AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.194.22.0/23",
       "91.212.228.0/24",
       "185.29.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:9620::/32"
     ]
   }

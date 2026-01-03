@@ -1,13 +1,16 @@
 {
-  "asn": 136103,
-  "handle": "IDNIC-USM-AS-ID",
-  "description": "Universitas Semarang",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136103,
+  "metadata" : {
+    "handle" : "IDNIC-USM-AS-ID",
+    "description" : "Universitas Semarang",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.90.210.0/24",
       "103.134.212.0/24",
       "103.134.214.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 152395,
-  "handle": "IDNIC-GIGNETWORK-AS-ID",
-  "description": "PT Giga Global Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152395,
+  "metadata" : {
+    "handle" : "IDNIC-GIGNETWORK-AS-ID",
+    "description" : "PT Giga Global Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.20.90.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:84c0::/48"
     ]
   }

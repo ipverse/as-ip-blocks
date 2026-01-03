@@ -1,9 +1,12 @@
 {
-  "asn": 44803,
-  "handle": "WEBDOCK-AS",
-  "description": "Webdock.io ApS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44803,
+  "metadata" : {
+    "handle" : "WEBDOCK-AS",
+    "description" : "Webdock.io ApS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.132.97.0/24",
       "45.136.70.0/23",
       "45.148.28.0/22",
@@ -18,7 +21,7 @@
       "193.182.128.0/20",
       "217.78.237.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:1301:4050::/48",
       "2a0f:f01::/32"
     ]

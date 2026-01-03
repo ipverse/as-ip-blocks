@@ -1,16 +1,19 @@
 {
-  "asn": 42136,
-  "handle": "DVTK-AS",
-  "description": "DVTK LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42136,
+  "metadata" : {
+    "handle" : "DVTK-AS",
+    "description" : "DVTK LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.204.232.0/22",
       "93.114.142.0/24",
       "185.141.238.0/23",
       "185.203.144.0/22",
       "194.247.20.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:e140::/29"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 50905,
-  "handle": "LAND-DATA-AS",
-  "description": "LAND-DATA Beteiligungs GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50905,
+  "metadata" : {
+    "handle" : "LAND-DATA-AS",
+    "description" : "LAND-DATA Beteiligungs GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.216.23.0/24",
       "193.33.214.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

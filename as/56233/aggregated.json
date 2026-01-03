@@ -1,9 +1,12 @@
 {
-  "asn": 56233,
-  "handle": "ATSINDO-AS-ID",
-  "description": "PT Asia Teknologi Solusi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56233,
+  "metadata" : {
+    "handle" : "ATSINDO-AS-ID",
+    "description" : "PT Asia Teknologi Solusi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.252.144.0/23",
       "59.153.80.0/22",
       "103.14.110.0/23",
@@ -14,6 +17,6 @@
       "120.89.94.0/23",
       "192.140.224.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

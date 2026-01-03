@@ -1,12 +1,15 @@
 {
-  "asn": 270334,
-  "handle": "NET-100A",
-  "description": "NET 100A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270334,
+  "metadata" : {
+    "handle" : "NET-100A",
+    "description" : "NET 100A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "189.113.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6a68::/33",
       "2804:6a68:8000::/34"
     ]

@@ -1,11 +1,14 @@
 {
-  "asn": 60085,
-  "handle": "CONNECT-AS",
-  "description": "LLC Connect",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60085,
+  "metadata" : {
+    "handle" : "CONNECT-AS",
+    "description" : "LLC Connect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.170.250.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

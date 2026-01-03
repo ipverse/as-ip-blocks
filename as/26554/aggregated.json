@@ -1,9 +1,12 @@
 {
-  "asn": 26554,
-  "handle": "US-SIGNAL",
-  "description": "US Signal Company L.L.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26554,
+  "metadata" : {
+    "handle" : "US-SIGNAL",
+    "description" : "US Signal Company L.L.C.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.141.128.0/18",
       "64.186.32.0/19",
       "65.23.64.0/19",
@@ -26,7 +29,7 @@
       "216.120.185.0/24",
       "216.120.192.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:b2c0::/32",
       "2607:f7d8::/32"
     ]

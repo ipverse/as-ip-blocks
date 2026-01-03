@@ -1,13 +1,16 @@
 {
-  "asn": 8478,
-  "handle": "ASN-GIGNETWORKS",
-  "description": "GIG Networks AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8478,
+  "metadata" : {
+    "handle" : "ASN-GIGNETWORKS",
+    "description" : "GIG Networks AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.74.176.0/20",
       "185.90.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:17a8::/32"
     ]
   }

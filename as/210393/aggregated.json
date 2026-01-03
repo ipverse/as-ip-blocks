@@ -1,12 +1,15 @@
 {
-  "asn": 210393,
-  "handle": "EVGROUP-AS",
-  "description": "EV Group GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210393,
+  "metadata" : {
+    "handle" : "EVGROUP-AS",
+    "description" : "EV Group GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.31.6.0/24",
       "178.211.158.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

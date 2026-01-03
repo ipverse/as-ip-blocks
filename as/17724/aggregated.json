@@ -1,9 +1,12 @@
 {
-  "asn": 17724,
-  "handle": "DTAC-AS-TH-AP",
-  "description": "Total Access Communication PLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17724,
+  "metadata" : {
+    "handle" : "DTAC-AS-TH-AP",
+    "description" : "Total Access Communication PLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "111.84.12.0/24",
       "111.84.52.0/22",
       "111.84.178.0/23",
@@ -11,6 +14,6 @@
       "202.91.16.0/23",
       "202.91.20.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

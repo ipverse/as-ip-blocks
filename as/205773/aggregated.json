@@ -1,10 +1,13 @@
 {
-  "asn": 205773,
-  "handle": "TELECOM-SERVICE-AS",
-  "description": "LLC Telecom-Service",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 205773,
+  "metadata" : {
+    "handle" : "TELECOM-SERVICE-AS",
+    "description" : "LLC Telecom-Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a06:68c0::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 27651,
-  "handle": "ENTEL-CHILE",
-  "description": "ENTEL CHILE S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27651,
+  "metadata" : {
+    "handle" : "ENTEL-CHILE",
+    "description" : "ENTEL CHILE S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "11.96.0.0/24",
       "152.231.64.0/18",
       "164.77.0.0/16",
@@ -49,7 +52,7 @@
       "200.72.0.0/16",
       "200.111.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:300:6220::/43",
       "2800:300:6240::/42",
       "2800:300:62a0::/43",

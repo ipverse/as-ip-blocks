@@ -1,9 +1,12 @@
 {
-  "asn": 213035,
-  "handle": "AS-SERVERION",
-  "description": "Des Capital B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213035,
+  "metadata" : {
+    "handle" : "AS-SERVERION",
+    "description" : "Des Capital B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.216.181.0/24",
       "87.121.69.0/24",
       "104.164.27.0/24",
@@ -25,7 +28,7 @@
       "212.192.243.0/24",
       "212.193.29.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:3f40::/47",
       "2a10:1440::/29"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 137654,
-  "handle": "NETSTRA-AS-IN",
-  "description": "Netstra Communications Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137654,
+  "metadata" : {
+    "handle" : "NETSTRA-AS-IN",
+    "description" : "Netstra Communications Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.255.66.0/23",
       "43.230.134.0/23",
       "103.41.196.0/23",
@@ -12,7 +15,7 @@
       "103.238.240.0/22",
       "103.250.108.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:cbc0::/48"
     ]
   }

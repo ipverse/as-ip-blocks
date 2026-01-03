@@ -1,12 +1,15 @@
 {
-  "asn": 136266,
-  "handle": "AUTOMATIONSYSTEM-AS-AP",
-  "description": "Automation System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136266,
+  "metadata" : {
+    "handle" : "AUTOMATIONSYSTEM-AS-AP",
+    "description" : "Automation System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.85.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:af40::/32"
     ]
   }

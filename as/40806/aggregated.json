@@ -1,12 +1,15 @@
 {
-  "asn": 40806,
-  "handle": "GRAPHENEOS",
-  "description": "GrapheneOS Foundation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40806,
+  "metadata" : {
+    "handle" : "GRAPHENEOS",
+    "description" : "GrapheneOS Foundation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.149.124.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f4d9::/46",
       "2602:f4d9:4::/48"
     ]

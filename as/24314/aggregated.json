@@ -1,12 +1,15 @@
 {
-  "asn": 24314,
-  "handle": "UPSI-AS-AP",
-  "description": "UPSI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24314,
+  "metadata" : {
+    "handle" : "UPSI-AS-AP",
+    "description" : "UPSI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.45.132.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:2880:c001::/48",
       "2407:2880:c002::/48"
     ]

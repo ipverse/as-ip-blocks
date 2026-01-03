@@ -1,10 +1,13 @@
 {
-  "asn": 16140,
-  "handle": "MEDIACTIVE-NETWORK",
-  "description": "MEDIACTIVE SAS",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 16140,
+  "metadata" : {
+    "handle" : "MEDIACTIVE-NETWORK",
+    "description" : "MEDIACTIVE SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a03:d280:1f00::/40"
     ]
   }

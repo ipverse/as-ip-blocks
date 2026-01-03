@@ -1,9 +1,12 @@
 {
-  "asn": 31500,
-  "handle": "GNM-AS",
-  "description": "Global Network Management Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31500,
+  "metadata" : {
+    "handle" : "GNM-AS",
+    "description" : "Global Network Management Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.243.69.0/24",
       "91.108.40.0/24",
       "91.108.50.0/24",
@@ -18,7 +21,7 @@
       "178.18.232.0/24",
       "185.26.75.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:b28::/32",
       "2a03:5f80::/46"
     ]

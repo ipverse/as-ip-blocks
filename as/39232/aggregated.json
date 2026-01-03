@@ -1,9 +1,12 @@
 {
-  "asn": 39232,
-  "handle": "UNINET",
-  "description": "Uninet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39232,
+  "metadata" : {
+    "handle" : "UNINET",
+    "description" : "Uninet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.134.48.0/20",
       "37.26.0.0/18",
       "37.114.128.0/18",
@@ -34,7 +37,7 @@
       "188.227.208.0/20",
       "217.25.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:7740::/32"
     ]
   }

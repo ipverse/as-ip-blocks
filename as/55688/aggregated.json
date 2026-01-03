@@ -1,9 +1,12 @@
 {
-  "asn": 55688,
-  "handle": "BEON-AS-ID",
-  "description": "PT. Beon Intermedia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55688,
+  "metadata" : {
+    "handle" : "BEON-AS-ID",
+    "description" : "PT. Beon Intermedia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.147.122.0/24",
       "101.50.0.0/22",
       "103.16.116.0/23",
@@ -16,7 +19,7 @@
       "154.19.37.0/24",
       "157.66.34.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:3b00::/48",
       "2406:a040:ff01::/48"
     ]

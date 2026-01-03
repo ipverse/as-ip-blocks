@@ -1,16 +1,19 @@
 {
-  "asn": 41001,
-  "handle": "SAFESPRINGSE",
-  "description": "Safespring AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41001,
+  "metadata" : {
+    "handle" : "SAFESPRINGSE",
+    "description" : "Safespring AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.189.28.0/22",
       "192.121.132.0/23",
       "192.121.208.0/23",
       "194.14.20.0/23",
       "212.162.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:d400::/47",
       "2a09:d400:400::/48",
       "2a0a:bcc0::/29"

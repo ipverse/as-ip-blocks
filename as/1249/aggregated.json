@@ -1,14 +1,17 @@
 {
-  "asn": 1249,
-  "handle": "FIVE-COLLEGES-AS",
-  "description": "University of Massachusetts - AMHERST",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1249,
+  "metadata" : {
+    "handle" : "FIVE-COLLEGES-AS",
+    "description" : "University of Massachusetts - AMHERST",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.19.64.0/18",
       "128.119.0.0/16",
       "192.80.83.0/24",
       "192.189.138.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

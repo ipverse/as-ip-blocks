@@ -1,9 +1,12 @@
 {
-  "asn": 46453,
-  "handle": "ABBOTT-AS46453",
-  "description": "Abbott Laboratories",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46453,
+  "metadata" : {
+    "handle" : "ABBOTT-AS46453",
+    "description" : "Abbott Laboratories",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.36.216.0/22",
       "136.237.10.0/24",
       "136.237.59.0/24",
@@ -11,6 +14,6 @@
       "136.237.65.0/24",
       "150.202.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

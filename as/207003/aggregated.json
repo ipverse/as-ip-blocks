@@ -1,16 +1,19 @@
 {
-  "asn": 207003,
-  "handle": "WEB1-AS",
-  "description": "Web1 Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207003,
+  "metadata" : {
+    "handle" : "WEB1-AS",
+    "description" : "Web1 Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "151.244.8.0/24",
       "185.159.237.0/24",
       "185.188.30.0/24",
       "185.218.192.0/22",
       "193.163.5.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:a700::/29",
       "2a0b:dbc0::/29",
       "2a10:f2c0::/29"

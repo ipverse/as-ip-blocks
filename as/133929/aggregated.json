@@ -1,9 +1,12 @@
 {
-  "asn": 133929,
-  "handle": "TWOWINCOLIMITED-AS-AP",
-  "description": "TWOWIN CO. LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133929,
+  "metadata" : {
+    "handle" : "TWOWINCOLIMITED-AS-AP",
+    "description" : "TWOWIN CO. LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.225.59.0/24",
       "43.229.116.0/22",
       "45.200.104.0/22",
@@ -24,7 +27,7 @@
       "156.224.1.0/24",
       "185.243.6.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:2c00::/48",
       "2001:df2:5100::/48"
     ]

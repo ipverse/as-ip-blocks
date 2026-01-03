@@ -1,9 +1,12 @@
 {
-  "asn": 9528,
-  "handle": "CBE-AS",
-  "description": "Chungcheongbuk-do Education Research and Information Institute",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9528,
+  "metadata" : {
+    "handle" : "CBE-AS",
+    "description" : "Chungcheongbuk-do Education Research and Information Institute",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.108.9.0/24",
       "61.108.19.0/24",
       "61.108.20.0/24",
@@ -137,6 +140,6 @@
       "211.114.161.0/24",
       "211.114.167.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

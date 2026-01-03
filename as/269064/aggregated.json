@@ -1,12 +1,15 @@
 {
-  "asn": 269064,
-  "handle": "MULTICOM-INTERNET",
-  "description": "MULTICOM INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269064,
+  "metadata" : {
+    "handle" : "MULTICOM-INTERNET",
+    "description" : "MULTICOM INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.179.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5ee8::/33",
       "2804:5ee8:c000::/34"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 215523,
-  "handle": "YAYZI-AS",
-  "description": "Yayzi Broadband Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215523,
+  "metadata" : {
+    "handle" : "YAYZI-AS",
+    "description" : "Yayzi Broadband Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.135.100.0/23",
       "82.29.8.0/21",
       "141.11.200.0/23",
@@ -12,7 +15,7 @@
       "217.145.76.0/24",
       "217.180.36.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:3b00::/29"
     ]
   }

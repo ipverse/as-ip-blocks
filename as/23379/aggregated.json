@@ -1,14 +1,17 @@
 {
-  "asn": 23379,
-  "handle": "AS-BBT",
-  "description": "Blackburn Technologies II LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23379,
+  "metadata" : {
+    "handle" : "AS-BBT",
+    "description" : "Blackburn Technologies II LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.167.48.0/24",
       "23.179.192.0/23",
       "45.33.192.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:98c0::/32"
     ]
   }

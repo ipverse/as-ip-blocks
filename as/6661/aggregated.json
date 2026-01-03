@@ -1,9 +1,12 @@
 {
-  "asn": 6661,
-  "handle": "EPT-LU",
-  "description": "POST Luxembourg",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6661,
+  "metadata" : {
+    "handle" : "EPT-LU",
+    "description" : "POST Luxembourg",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.157.152.0/21",
       "78.141.128.0/18",
       "83.99.0.0/17",
@@ -23,7 +26,7 @@
       "213.135.224.0/19",
       "213.166.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:7e8::/32"
     ]
   }

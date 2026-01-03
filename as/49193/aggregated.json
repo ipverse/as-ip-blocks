@@ -1,13 +1,16 @@
 {
-  "asn": 49193,
-  "handle": "AS-UNIFON",
-  "description": "Unifon AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49193,
+  "metadata" : {
+    "handle" : "AS-UNIFON",
+    "description" : "Unifon AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.207.100.0/24",
       "193.36.178.0/24",
       "194.6.238.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

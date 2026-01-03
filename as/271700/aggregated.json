@@ -1,16 +1,19 @@
 {
-  "asn": 271700,
-  "handle": "STEC-GUAIBA",
-  "description": "STEC GUAIBA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271700,
+  "metadata" : {
+    "handle" : "STEC-GUAIBA",
+    "description" : "STEC GUAIBA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.65.164.0/22",
       "177.67.160.0/21",
       "189.84.56.0/22",
       "201.54.184.0/24",
       "201.54.186.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7fa4::/32"
     ]
   }

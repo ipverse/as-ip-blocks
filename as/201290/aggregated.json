@@ -1,9 +1,12 @@
 {
-  "asn": 201290,
-  "handle": "BLACKGATE",
-  "description": "BlackGATE B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201290,
+  "metadata" : {
+    "handle" : "BLACKGATE",
+    "description" : "BlackGATE B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.128.0.0/22",
       "45.153.252.0/22",
       "46.231.16.0/21",
@@ -22,7 +25,7 @@
       "195.191.206.0/23",
       "212.115.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:3600::/29",
       "2a0d:6e00::/29"
     ]

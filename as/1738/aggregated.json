@@ -1,9 +1,12 @@
 {
-  "asn": 1738,
-  "handle": "OKOBANK-AS",
-  "description": "OP Osuuskunta",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1738,
+  "metadata" : {
+    "handle" : "OKOBANK-AS",
+    "description" : "OP Osuuskunta",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.124.0.0/23",
       "157.124.4.0/22",
       "157.124.17.0/24",
@@ -11,6 +14,6 @@
       "157.124.23.0/24",
       "157.124.32.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

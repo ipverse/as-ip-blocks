@@ -1,13 +1,16 @@
 {
-  "asn": 62103,
-  "handle": "AIRLINK-AS",
-  "description": "AirLink Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62103,
+  "metadata" : {
+    "handle" : "AIRLINK-AS",
+    "description" : "AirLink Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.11.23.0/24",
       "141.101.229.0/24",
       "178.170.181.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

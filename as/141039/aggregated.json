@@ -1,9 +1,12 @@
 {
-  "asn": 141039,
-  "handle": "PACKETHUBSA-AS-AP",
-  "description": "PacketHub S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141039,
+  "metadata" : {
+    "handle" : "PACKETHUBSA-AS-AP",
+    "description" : "PacketHub S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.157.0/24",
       "5.182.32.0/24",
       "45.14.195.0/24",
@@ -25,7 +28,7 @@
       "194.146.14.0/24",
       "195.179.200.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:e8c0:10::/48",
       "2407:e8c0:14::/46",
       "2407:e8c0:18::/46",

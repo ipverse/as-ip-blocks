@@ -1,12 +1,15 @@
 {
-  "asn": 60997,
-  "handle": "STADTKOELN1",
-  "description": "Stadt Koeln",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60997,
+  "metadata" : {
+    "handle" : "STADTKOELN1",
+    "description" : "Stadt Koeln",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.27.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2b80::/48"
     ]
   }

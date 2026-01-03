@@ -1,9 +1,12 @@
 {
-  "asn": 13476,
-  "handle": "MSU-BOZEMAN",
-  "description": "Montana State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13476,
+  "metadata" : {
+    "handle" : "MSU-BOZEMAN",
+    "description" : "Montana State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "153.90.0.0/16",
       "192.31.215.0/24",
       "192.42.7.0/24",
@@ -22,7 +25,7 @@
       "207.196.224.0/20",
       "207.196.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:3640::/32"
     ]
   }

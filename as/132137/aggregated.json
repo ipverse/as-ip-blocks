@@ -1,9 +1,12 @@
 {
-  "asn": 132137,
-  "handle": "SOIPL-IN",
-  "description": "Shree Omkar Infocom Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132137,
+  "metadata" : {
+    "handle" : "SOIPL-IN",
+    "description" : "Shree Omkar Infocom Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.112.0.0/22",
       "45.123.92.0/22",
       "45.252.68.0/23",
@@ -23,7 +26,7 @@
       "183.87.240.0/21",
       "183.87.248.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:e500::/32"
     ]
   }

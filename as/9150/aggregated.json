@@ -1,9 +1,12 @@
 {
-  "asn": 9150,
-  "handle": "INTERCONNECT",
-  "description": "ML Consultancy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9150,
+  "metadata" : {
+    "handle" : "INTERCONNECT",
+    "description" : "ML Consultancy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.222.191.0/24",
       "185.12.120.0/22",
       "185.65.124.0/24",
@@ -13,7 +16,7 @@
       "213.206.192.0/18",
       "213.207.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4018::/32",
       "2a03:88c0::/32",
       "2a04:f840::/40",

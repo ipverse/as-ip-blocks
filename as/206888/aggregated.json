@@ -1,9 +1,12 @@
 {
-  "asn": 206888,
-  "handle": "HANMING-AS",
-  "description": "HanMing HK Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206888,
+  "metadata" : {
+    "handle" : "HANMING-AS",
+    "description" : "HanMing HK Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.114.124.0/22",
       "69.165.78.0/23",
       "103.79.184.0/23",
@@ -16,7 +19,7 @@
       "167.253.79.0/24",
       "204.77.131.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:cb80::/48",
       "2400:7ac0::/32"
     ]

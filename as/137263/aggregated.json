@@ -1,9 +1,12 @@
 {
-  "asn": 137263,
-  "handle": "NETEASE-AS-AP",
-  "description": "NETEASE (HONG KONG) LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137263,
+  "metadata" : {
+    "handle" : "NETEASE-AS-AP",
+    "description" : "NETEASE (HONG KONG) LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.195.16.0/21",
       "45.195.24.0/24",
       "45.195.138.0/24",
@@ -28,7 +31,7 @@
       "193.233.194.0/23",
       "210.79.60.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:9d40::/32"
     ]
   }

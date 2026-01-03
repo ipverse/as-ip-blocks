@@ -1,12 +1,15 @@
 {
-  "asn": 33786,
-  "handle": "KNET",
-  "description": "K-Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33786,
+  "metadata" : {
+    "handle" : "KNET",
+    "description" : "K-Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.75.48.0/20",
       "196.29.224.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

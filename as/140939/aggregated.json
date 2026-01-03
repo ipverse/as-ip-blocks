@@ -1,12 +1,15 @@
 {
-  "asn": 140939,
-  "handle": "TENPAGE-AS-AP",
-  "description": "Tenpage Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140939,
+  "metadata" : {
+    "handle" : "TENPAGE-AS-AP",
+    "description" : "Tenpage Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.92.16.0/24",
       "103.153.165.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

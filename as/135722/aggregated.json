@@ -1,9 +1,12 @@
 {
-  "asn": 135722,
-  "handle": "GLOBAL-AS",
-  "description": "Teleglobal Communications Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135722,
+  "metadata" : {
+    "handle" : "GLOBAL-AS",
+    "description" : "Teleglobal Communications Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.68.8.0/22",
       "103.112.4.0/24",
       "103.127.60.0/23",
@@ -12,7 +15,7 @@
       "160.22.153.0/24",
       "202.71.156.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:9f00::/48",
       "2401:a760::/32"
     ]

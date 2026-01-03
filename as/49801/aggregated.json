@@ -1,9 +1,12 @@
 {
-  "asn": 49801,
-  "handle": "SOTOON-CLOUD-INFRASTRUCTURE",
-  "description": "Hezardastan Unit Cloud Computing PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49801,
+  "metadata" : {
+    "handle" : "SOTOON-CLOUD-INFRASTRUCTURE",
+    "description" : "Hezardastan Unit Cloud Computing PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.111.5.0/24",
       "78.111.6.0/24",
       "87.247.168.0/21",
@@ -11,7 +14,7 @@
       "185.166.107.0/24",
       "193.29.26.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:a440::/29",
       "2a10:f980::/29"
     ]

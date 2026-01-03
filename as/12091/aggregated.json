@@ -1,9 +1,12 @@
 {
-  "asn": 12091,
-  "handle": "MTNNS-1",
-  "description": "MTN SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12091,
+  "metadata" : {
+    "handle" : "MTNNS-1",
+    "description" : "MTN SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.112.0.0/19",
       "41.112.32.0/20",
       "41.112.64.0/19",
@@ -39,6 +42,6 @@
       "197.70.0.0/17",
       "197.78.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

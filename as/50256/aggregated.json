@@ -1,11 +1,14 @@
 {
-  "asn": 50256,
-  "handle": "VIC-AS",
-  "description": "State Enterprise Agriculture Information and Rural Business Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50256,
+  "metadata" : {
+    "handle" : "VIC-AS",
+    "description" : "State Enterprise Agriculture Information and Rural Business Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.252.240.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

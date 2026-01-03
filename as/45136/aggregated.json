@@ -1,11 +1,14 @@
 {
-  "asn": 45136,
-  "handle": "SONIC-AS-AP",
-  "description": "Sonic Point Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45136,
+  "metadata" : {
+    "handle" : "SONIC-AS-AP",
+    "description" : "Sonic Point Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "119.235.40.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

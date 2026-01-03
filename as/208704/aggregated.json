@@ -1,13 +1,16 @@
 {
-  "asn": 208704,
-  "handle": "APRR",
-  "description": "APRR SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208704,
+  "metadata" : {
+    "handle" : "APRR",
+    "description" : "APRR SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.87.176.0/22",
       "193.56.184.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:f2c0::/29"
     ]
   }

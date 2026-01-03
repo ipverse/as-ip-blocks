@@ -1,13 +1,16 @@
 {
-  "asn": 132602,
-  "handle": "BANGLADESH-AS-AP",
-  "description": "Bangladesh Submarine Cable Company Limited (BSCCL)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132602,
+  "metadata" : {
+    "handle" : "BANGLADESH-AS-AP",
+    "description" : "Bangladesh Submarine Cable Company Limited (BSCCL)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.16.152.0/22",
       "163.47.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:4b00::/32"
     ]
   }

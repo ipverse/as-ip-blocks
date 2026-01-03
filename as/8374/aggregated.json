@@ -1,9 +1,12 @@
 {
-  "asn": 8374,
-  "handle": "PLUSNET",
-  "description": "Polkomtel Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8374,
+  "metadata" : {
+    "handle" : "PLUSNET",
+    "description" : "Polkomtel Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.172.224.0/19",
       "31.0.0.0/16",
       "31.6.246.0/24",
@@ -21,7 +24,7 @@
       "193.41.112.0/23",
       "212.2.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:2e0::/28",
       "2a01:bb80::/32"
     ]

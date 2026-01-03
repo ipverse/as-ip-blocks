@@ -1,13 +1,16 @@
 {
-  "asn": 210626,
-  "handle": "LIPICER-AS",
-  "description": "Lipicer KG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210626,
+  "metadata" : {
+    "handle" : "LIPICER-AS",
+    "description" : "Lipicer KG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.199.70.0/24",
       "91.242.247.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:af40::/29"
     ]
   }

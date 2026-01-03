@@ -1,9 +1,12 @@
 {
-  "asn": 50512,
-  "handle": "BARNAUL-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50512,
+  "metadata" : {
+    "handle" : "BARNAUL-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.3.37.0/24",
       "5.166.64.0/18",
       "37.112.176.0/20",
@@ -32,7 +35,7 @@
       "188.233.208.0/20",
       "213.183.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:400::/38"
     ]
   }

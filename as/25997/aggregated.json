@@ -1,9 +1,12 @@
 {
-  "asn": 25997,
-  "handle": "OMMLA-1",
-  "description": "O\u0027Melveny \u0026 Myers LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25997,
+  "metadata" : {
+    "handle" : "OMMLA-1",
+    "description" : "O'Melveny & Myers LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "151.194.16.0/22",
       "151.194.24.0/23",
       "151.194.64.0/21",
@@ -12,6 +15,6 @@
       "151.194.88.0/22",
       "151.194.105.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

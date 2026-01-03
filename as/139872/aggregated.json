@@ -1,12 +1,15 @@
 {
-  "asn": 139872,
-  "handle": "RAPIDNET-AS-AP",
-  "description": "Rapid Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139872,
+  "metadata" : {
+    "handle" : "RAPIDNET-AS-AP",
+    "description" : "Rapid Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.145.208.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:2780::/48"
     ]
   }

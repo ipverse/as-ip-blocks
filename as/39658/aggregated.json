@@ -1,13 +1,16 @@
 {
-  "asn": 39658,
-  "handle": "SCB-AS",
-  "description": "Statistics Sweden",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39658,
+  "metadata" : {
+    "handle" : "SCB-AS",
+    "description" : "Statistics Sweden",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.180.124.0/24",
       "194.50.107.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:9080::/32"
     ]
   }

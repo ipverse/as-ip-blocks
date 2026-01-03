@@ -1,9 +1,12 @@
 {
-  "asn": 39522,
-  "handle": "CONVERGED",
-  "description": "Converged Communication Solutions Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39522,
+  "metadata" : {
+    "handle" : "CONVERGED",
+    "description" : "Converged Communication Solutions Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.138.222.0/23",
       "89.104.224.0/19",
       "185.248.64.0/22",
@@ -12,7 +15,7 @@
       "194.26.19.0/24",
       "195.90.108.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:9b00::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 3855,
-  "handle": "LOGIC-3855",
-  "description": "Logic Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3855,
+  "metadata" : {
+    "handle" : "LOGIC-3855",
+    "description" : "Logic Communications Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.115.0.0/20",
       "66.55.112.0/20",
       "104.218.168.0/21",
@@ -19,7 +22,7 @@
       "207.228.128.0/18",
       "216.249.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4910::/32",
       "2606:b80::/32"
     ]

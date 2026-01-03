@@ -1,12 +1,15 @@
 {
-  "asn": 207110,
-  "handle": "DEBEKA",
-  "description": "D e b e k a Krankenversicherungsverein auf Gegenseitigkeit",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207110,
+  "metadata" : {
+    "handle" : "DEBEKA",
+    "description" : "D e b e k a Krankenversicherungsverein auf Gegenseitigkeit",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.39.110.0/23",
       "212.7.177.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

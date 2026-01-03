@@ -1,13 +1,16 @@
 {
-  "asn": 394855,
-  "handle": "STRATUS-VIDEO",
-  "description": "Stratus Video LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394855,
+  "metadata" : {
+    "handle" : "STRATUS-VIDEO",
+    "description" : "Stratus Video LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "108.163.0.0/22",
       "108.163.5.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:5e:a000::/47"
     ]
   }

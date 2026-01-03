@@ -1,11 +1,14 @@
 {
-  "asn": 202189,
-  "handle": "NS-AS",
-  "description": "NS Groep N.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202189,
+  "metadata" : {
+    "handle" : "NS-AS",
+    "description" : "NS Groep N.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "145.15.244.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

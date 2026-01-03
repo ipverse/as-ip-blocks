@@ -1,12 +1,15 @@
 {
-  "asn": 19521,
-  "handle": "AS-EPOXYTEL-US",
-  "description": "Epoxytel Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19521,
+  "metadata" : {
+    "handle" : "AS-EPOXYTEL-US",
+    "description" : "Epoxytel Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.144.168.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fac2:3::/48"
     ]
   }

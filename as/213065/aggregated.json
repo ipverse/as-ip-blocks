@@ -1,13 +1,16 @@
 {
-  "asn": 213065,
-  "handle": "UWV",
-  "description": "Uitvoeringsinstituut werknemersverzekeringen",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213065,
+  "metadata" : {
+    "handle" : "UWV",
+    "description" : "Uitvoeringsinstituut werknemersverzekeringen",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "145.84.0.0/22",
       "145.84.24.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:3502:1122::/47"
     ]
   }

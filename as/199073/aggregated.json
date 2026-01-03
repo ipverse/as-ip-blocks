@@ -1,12 +1,16 @@
 {
-  "asn": 199073,
-  "handle": "IMPLETECH-AS",
-  "description": "ImpleTech Limited",
-  "subnets": {
-    "ipv4": [
-      "142.249.113.0/24"
+  "asn" : 199073,
+  "metadata" : {
+    "handle" : "IMPLETECH-AS",
+    "description" : "ImpleTech Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
+      "142.249.113.0/24",
+      "144.79.170.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:dfc1:1b01::/48",
       "2a05:dfc1:1b06::/48",
       "2a05:dfc1:1b09::/48",

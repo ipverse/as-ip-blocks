@@ -1,9 +1,12 @@
 {
-  "asn": 395717,
-  "handle": "BLUEARCHIVE-ZONE-1",
-  "description": "Wasabi Technologies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395717,
+  "metadata" : {
+    "handle" : "BLUEARCHIVE-ZONE-1",
+    "description" : "Wasabi Technologies Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.131.252.0/23",
       "27.131.254.0/24",
       "38.27.106.0/24",
@@ -25,6 +28,6 @@
       "154.61.149.0/24",
       "206.148.5.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

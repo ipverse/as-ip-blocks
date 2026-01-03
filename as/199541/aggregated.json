@@ -1,9 +1,12 @@
 {
-  "asn": 199541,
-  "handle": "EUROCONTROL-AS",
-  "description": "EUROCONTROL the European Organisation for the Safety of Air Navigation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199541,
+  "metadata" : {
+    "handle" : "EUROCONTROL-AS",
+    "description" : "EUROCONTROL the European Organisation for the Safety of Air Navigation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.196.0.0/16",
       "153.98.1.0/24",
       "153.98.5.0/24",
@@ -30,6 +33,6 @@
       "193.221.170.0/24",
       "193.221.181.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

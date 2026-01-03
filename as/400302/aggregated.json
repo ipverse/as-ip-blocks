@@ -1,15 +1,18 @@
 {
-  "asn": 400302,
-  "handle": "AS-PIKNIK",
-  "description": "PiKNiK \u0026 Company Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400302,
+  "metadata" : {
+    "handle" : "AS-PIKNIK",
+    "description" : "PiKNiK & Company Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.70.220.0/24",
       "38.87.169.0/24",
       "38.101.146.0/24",
       "170.205.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:550:9c00::/48",
       "2602:fa01:33::/48",
       "2602:fa01:34::/48"

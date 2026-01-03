@@ -1,10 +1,13 @@
 {
-  "asn": 210715,
-  "handle": "PISKOT-AS",
-  "description": "Nik Rozman",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 210715,
+  "metadata" : {
+    "handle" : "PISKOT-AS",
+    "description" : "Nik Rozman",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a07:22c1:38::/48",
       "2a0f:9400:7718::/48"
     ]

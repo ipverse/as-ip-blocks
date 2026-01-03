@@ -1,9 +1,12 @@
 {
-  "asn": 8368,
-  "handle": "BENESOL-BACKBONE",
-  "description": "Dstny BE N.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8368,
+  "metadata" : {
+    "handle" : "BENESOL-BACKBONE",
+    "description" : "Dstny BE N.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.136.0/22",
       "31.3.72.0/21",
       "37.26.176.0/21",
@@ -109,7 +112,7 @@
       "217.22.240.0/23",
       "217.22.248.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4158::/29",
       "2001:4c40::/32",
       "2a00:c78::/32",

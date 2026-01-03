@@ -1,9 +1,12 @@
 {
-  "asn": 16611,
-  "handle": "INFINIAHOST",
-  "description": "InfiniaHost.com",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16611,
+  "metadata" : {
+    "handle" : "INFINIAHOST",
+    "description" : "InfiniaHost.com",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.131.184.0/23",
       "23.131.186.0/24",
       "23.132.20.0/24",
@@ -17,7 +20,7 @@
       "149.112.111.0/24",
       "151.241.220.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:2de::/36",
       "2602:fa07::/47",
       "2606:ae40::/32"

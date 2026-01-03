@@ -1,15 +1,18 @@
 {
-  "asn": 52545,
-  "handle": "BJ-NET-PROVEDOR",
-  "description": "BJ NET Provedor de Internet Ltda. - ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52545,
+  "metadata" : {
+    "handle" : "BJ-NET-PROVEDOR",
+    "description" : "BJ NET Provedor de Internet Ltda. - ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.72.48.0/22",
       "168.121.168.0/22",
       "170.82.168.0/22",
       "179.107.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:e1c::/32"
     ]
   }

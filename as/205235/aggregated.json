@@ -1,12 +1,15 @@
 {
-  "asn": 205235,
-  "handle": "LABITAT",
-  "description": "Labitat",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205235,
+  "metadata" : {
+    "handle" : "LABITAT",
+    "description" : "Labitat",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.145.93.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:fbe4:1ab::/48",
       "2a0e:8f02:f059::/48"
     ]

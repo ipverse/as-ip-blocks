@@ -1,13 +1,16 @@
 {
-  "asn": 43354,
-  "handle": "ZDF-AS",
-  "description": "ZDF Zweites Deutsches Fernsehen",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43354,
+  "metadata" : {
+    "handle" : "ZDF-AS",
+    "description" : "ZDF Zweites Deutsches Fernsehen",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.197.28.0/22",
       "194.45.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:4d0::/48"
     ]
   }

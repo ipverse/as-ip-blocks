@@ -1,14 +1,17 @@
 {
-  "asn": 146908,
-  "handle": "INTERCITY-AS-IN",
-  "description": "INTERCITY FIBER NETWORKS PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 146908,
+  "metadata" : {
+    "handle" : "INTERCITY-AS-IN",
+    "description" : "INTERCITY FIBER NETWORKS PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.167.102.0/23",
       "103.173.194.0/23",
       "103.184.126.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:16c0::/48"
     ]
   }

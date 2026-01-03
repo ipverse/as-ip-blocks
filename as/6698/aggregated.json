@@ -1,9 +1,12 @@
 {
-  "asn": 6698,
-  "handle": "VIRTUALSYSTEMS",
-  "description": "Virtual Systems LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6698,
+  "metadata" : {
+    "handle" : "VIRTUALSYSTEMS",
+    "description" : "Virtual Systems LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.56.59.0/24",
       "31.59.128.0/24",
       "45.11.57.0/24",
@@ -33,6 +36,6 @@
       "213.111.150.0/24",
       "213.111.152.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

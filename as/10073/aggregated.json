@@ -1,9 +1,12 @@
 {
-  "asn": 10073,
-  "handle": "KNOU-AS",
-  "description": "Korea National Open University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10073,
+  "metadata" : {
+    "handle" : "KNOU-AS",
+    "description" : "Korea National Open University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.43.90.0/24",
       "61.43.98.0/23",
       "203.232.172.0/23",
@@ -15,6 +18,6 @@
       "203.249.44.0/23",
       "210.119.207.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

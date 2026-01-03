@@ -1,12 +1,15 @@
 {
-  "asn": 395183,
-  "handle": "ETEC-CORP-AS",
-  "description": "ETEC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395183,
+  "metadata" : {
+    "handle" : "ETEC-CORP-AS",
+    "description" : "ETEC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.192.88.0/24",
       "209.34.2.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

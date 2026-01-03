@@ -1,9 +1,12 @@
 {
-  "asn": 45570,
-  "handle": "NETPRES-AS-AP",
-  "description": "Network Presence",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45570,
+  "metadata" : {
+    "handle" : "NETPRES-AS-AP",
+    "description" : "Network Presence",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.1.204.0/22",
       "113.212.96.0/22",
       "125.63.48.0/20",
@@ -12,7 +15,7 @@
       "203.0.155.0/24",
       "203.17.225.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:c400::/31"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 7703,
-  "handle": "BEKKERS-AS-AP",
-  "description": "AAPT Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7703,
+  "metadata" : {
+    "handle" : "BEKKERS-AS-AP",
+    "description" : "AAPT Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.13.164.0/24",
       "203.17.29.0/24",
       "203.19.253.0/24",
@@ -20,6 +23,6 @@
       "203.56.255.0/24",
       "210.8.158.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 44462,
-  "handle": "MUERZNET-AS",
-  "description": "Stadtwerke Muerzzuschlag GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44462,
+  "metadata" : {
+    "handle" : "MUERZNET-AS",
+    "description" : "Stadtwerke Muerzzuschlag GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.21.112.0/20",
       "185.178.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:4d80::/29"
     ]
   }

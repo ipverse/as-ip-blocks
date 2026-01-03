@@ -1,9 +1,12 @@
 {
-  "asn": 202616,
-  "handle": "WE-FTTH-AS",
-  "description": "Wien Energie GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202616,
+  "metadata" : {
+    "handle" : "WE-FTTH-AS",
+    "description" : "Wien Energie GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.0.72.0/23",
       "195.69.173.0/24",
       "213.255.218.0/23",
@@ -12,7 +15,7 @@
       "217.194.149.0/24",
       "217.194.154.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:98c6::/31"
     ]
   }

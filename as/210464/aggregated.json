@@ -1,13 +1,16 @@
 {
-  "asn": 210464,
-  "handle": "AVSISP",
-  "description": "ANDREW KRISTULI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210464,
+  "metadata" : {
+    "handle" : "AVSISP",
+    "description" : "ANDREW KRISTULI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.57.56.0/24",
       "85.155.228.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:79c7:f200::/39",
       "2a0a:79c7:f500::/40",
       "2a0a:79c7:f600::/40",

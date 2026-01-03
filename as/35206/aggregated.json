@@ -1,9 +1,12 @@
 {
-  "asn": 35206,
-  "handle": "NOVATREND-AS",
-  "description": "NovaTrend Services GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35206,
+  "metadata" : {
+    "handle" : "NOVATREND-AS",
+    "description" : "NovaTrend Services GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.232.176.0/21",
       "91.221.118.0/23",
       "185.67.192.0/22",
@@ -11,7 +14,7 @@
       "194.150.248.0/23",
       "195.182.222.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:6200::/29"
     ]
   }

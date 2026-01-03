@@ -1,9 +1,12 @@
 {
-  "asn": 37006,
-  "handle": "LIQUIDTELECOMMUNICATIONRWANDA",
-  "description": "Liquid Telecommunication Rwanda Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37006,
+  "metadata" : {
+    "handle" : "LIQUIDTELECOMMUNICATIONRWANDA",
+    "description" : "Liquid Telecommunication Rwanda Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.60.150.0/23",
       "41.173.28.0/22",
       "41.173.32.0/22",
@@ -25,7 +28,7 @@
       "196.12.144.0/20",
       "196.216.80.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fe30::/32"
     ]
   }

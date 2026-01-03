@@ -1,9 +1,12 @@
 {
-  "asn": 10178,
-  "handle": "KAKAOPAY-AS",
-  "description": "Kakaopay Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10178,
+  "metadata" : {
+    "handle" : "KAKAOPAY-AS",
+    "description" : "Kakaopay Corp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.32.180.0/24",
       "113.29.178.0/24",
       "113.29.182.0/23",
@@ -15,6 +18,6 @@
       "211.181.143.0/24",
       "211.249.206.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

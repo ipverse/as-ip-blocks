@@ -1,13 +1,16 @@
 {
-  "asn": 20568,
-  "handle": "AHRT-PRO-AS",
-  "description": "4iG Telecommunications Holding Zrt",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20568,
+  "metadata" : {
+    "handle" : "AHRT-PRO-AS",
+    "description" : "4iG Telecommunications Holding Zrt",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.144.100.0/24",
       "130.93.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:9900:100::/48"
     ]
   }

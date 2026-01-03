@@ -1,9 +1,12 @@
 {
-  "asn": 269832,
-  "handle": "MDS-TELECOM-CA",
-  "description": "MDS TELECOM C.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269832,
+  "metadata" : {
+    "handle" : "MDS-TELECOM-CA",
+    "description" : "MDS TELECOM C.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.41.0.0/19",
       "38.96.12.0/24",
       "38.97.46.0/24",
@@ -12,7 +15,7 @@
       "154.27.128.0/19",
       "190.93.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:f180:4::/48",
       "2803:f60::/32"
     ]

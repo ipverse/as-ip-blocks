@@ -1,12 +1,15 @@
 {
-  "asn": 401672,
-  "handle": "MRI-SOFTWARE-01",
-  "description": "MRI Software",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401672,
+  "metadata" : {
+    "handle" : "MRI-SOFTWARE-01",
+    "description" : "MRI Software",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.244.88.0/24",
       "38.135.182.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

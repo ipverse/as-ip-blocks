@@ -1,9 +1,12 @@
 {
-  "asn": 17088,
-  "handle": "CURRENEX",
-  "description": "Currenex Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17088,
+  "metadata" : {
+    "handle" : "CURRENEX",
+    "description" : "Currenex Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.130.13.0/24",
       "63.111.184.0/23",
       "64.210.171.0/24",
@@ -26,6 +29,6 @@
       "208.89.236.0/23",
       "208.89.239.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

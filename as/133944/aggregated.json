@@ -1,9 +1,12 @@
 {
-  "asn": 133944,
-  "handle": "TRAFFICFORCE-INTERNET-SERVICES",
-  "description": "trafficforce UAB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133944,
+  "metadata" : {
+    "handle" : "TRAFFICFORCE-INTERNET-SERVICES",
+    "description" : "trafficforce UAB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.245.116.0/23",
       "45.141.80.0/22",
       "64.137.17.0/24",
@@ -32,7 +35,7 @@
       "216.173.103.0/24",
       "216.173.109.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:e9c5::/32",
       "2a12:f180::/29"
     ]

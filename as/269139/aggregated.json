@@ -1,12 +1,15 @@
 {
-  "asn": 269139,
-  "handle": "AN-TELECOM",
-  "description": "AN TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269139,
+  "metadata" : {
+    "handle" : "AN-TELECOM",
+    "description" : "AN TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.180.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6000::/32"
     ]
   }

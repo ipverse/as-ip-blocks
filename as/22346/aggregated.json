@@ -1,14 +1,17 @@
 {
-  "asn": 22346,
-  "handle": "NRZ-NETWORK",
-  "description": "Newroads Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22346,
+  "metadata" : {
+    "handle" : "NRZ-NETWORK",
+    "description" : "Newroads Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.18.32.0/20",
       "162.211.16.0/23",
       "209.183.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f6e0::/32"
     ]
   }

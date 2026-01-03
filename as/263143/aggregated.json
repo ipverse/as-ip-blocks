@@ -1,12 +1,15 @@
 {
-  "asn": 263143,
-  "handle": "HOUSE-NET",
-  "description": "House Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263143,
+  "metadata" : {
+    "handle" : "HOUSE-NET",
+    "description" : "House Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "191.242.196.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1764::/32"
     ]
   }

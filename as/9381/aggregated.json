@@ -1,9 +1,12 @@
 {
-  "asn": 9381,
-  "handle": "HKBNES-AS-AP",
-  "description": "HKBN Enterprise Solutions HK Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9381,
+  "metadata" : {
+    "handle" : "HKBNES-AS-AP",
+    "description" : "HKBN Enterprise Solutions HK Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.47.61.0/24",
       "43.224.4.0/22",
       "43.224.48.0/22",
@@ -191,7 +194,7 @@
       "220.232.255.0/24",
       "223.255.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:8000::/31"
     ]
   }

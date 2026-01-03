@@ -1,9 +1,12 @@
 {
-  "asn": 32694,
-  "handle": "HBCOMM",
-  "description": "H\u0026B Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32694,
+  "metadata" : {
+    "handle" : "HBCOMM",
+    "description" : "H&B Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.245.132.0/22",
       "63.245.136.0/24",
       "63.245.138.0/23",
@@ -12,6 +15,6 @@
       "63.245.172.0/23",
       "74.115.36.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

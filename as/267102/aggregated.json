@@ -1,12 +1,15 @@
 {
-  "asn": 267102,
-  "handle": "CONECTA-INTERNET",
-  "description": "CONECTA INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267102,
+  "metadata" : {
+    "handle" : "CONECTA-INTERNET",
+    "description" : "CONECTA INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.228.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2710::/32",
       "2804:482c::/32"
     ]

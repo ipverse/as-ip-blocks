@@ -1,16 +1,19 @@
 {
-  "asn": 62166,
-  "handle": "SPADHAUSEN",
-  "description": "Spadhausen SRL Unipersonale",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62166,
+  "metadata" : {
+    "handle" : "SPADHAUSEN",
+    "description" : "Spadhausen SRL Unipersonale",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.83.172.0/22",
       "185.208.44.0/22",
       "185.240.68.0/22",
       "193.25.203.0/24",
       "193.58.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:9d40::/29"
     ]
   }

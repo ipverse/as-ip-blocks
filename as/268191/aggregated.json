@@ -1,14 +1,17 @@
 {
-  "asn": 268191,
-  "handle": "MARTINS-TELECOM",
-  "description": "MARTINS TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268191,
+  "metadata" : {
+    "handle" : "MARTINS-TELECOM",
+    "description" : "MARTINS TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.235.176.0/22",
       "177.86.229.0/24",
       "177.86.230.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4d58::/32"
     ]
   }

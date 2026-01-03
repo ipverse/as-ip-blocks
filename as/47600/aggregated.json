@@ -1,9 +1,12 @@
 {
-  "asn": 47600,
-  "handle": "RUBIXDATACENTER",
-  "description": "RUBIX DATACENTER SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47600,
+  "metadata" : {
+    "handle" : "RUBIXDATACENTER",
+    "description" : "RUBIX DATACENTER SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.91.89.0/24",
       "80.245.56.0/24",
       "80.245.58.0/23",
@@ -14,6 +17,6 @@
       "217.71.114.0/24",
       "217.71.122.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

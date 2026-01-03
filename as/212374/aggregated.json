@@ -1,9 +1,12 @@
 {
-  "asn": 212374,
-  "handle": "VZGMBH-NET",
-  "description": "Virtuozzo International GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212374,
+  "metadata" : {
+    "handle" : "VZGMBH-NET",
+    "description" : "Virtuozzo International GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.168.225.0/24",
       "69.168.226.0/23",
       "69.168.232.0/24",
@@ -13,6 +16,6 @@
       "185.231.243.0/24",
       "199.115.104.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

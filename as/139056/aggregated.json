@@ -1,9 +1,12 @@
 {
-  "asn": 139056,
-  "handle": "FOCL-AS-AP",
-  "description": "FAST ONE (CAMBODIA) CO. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139056,
+  "metadata" : {
+    "handle" : "FOCL-AS-AP",
+    "description" : "FAST ONE (CAMBODIA) CO. LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.130.248.0/22",
       "45.195.70.0/23",
       "103.139.16.0/23",
@@ -11,7 +14,7 @@
       "156.247.17.0/24",
       "156.247.18.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:ffa0::/32"
     ]
   }

@@ -1,15 +1,17 @@
 {
-  "asn": 272024,
-  "handle": "EVERNET",
-  "description": "EVERNET SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272024,
+  "metadata" : {
+    "handle" : "EVERNET",
+    "description" : "EVERNET SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.189.24.0/23",
       "181.189.26.0/24"
     ],
-    "ipv6": [
-      "2803:2510::/34",
-      "2803:2510:8000::/34"
+    "ipv6" : [
+      "2803:2510::/32"
     ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 7315,
-  "handle": "OTECEL",
-  "description": "Otecel S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7315,
+  "metadata" : {
+    "handle" : "OTECEL",
+    "description" : "Otecel S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.188.200.0/23",
       "186.65.3.0/24",
       "186.65.19.0/24",
@@ -14,6 +17,6 @@
       "186.65.52.0/22",
       "200.7.234.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 32108,
-  "handle": "ASN-WSECU",
-  "description": "WSECU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32108,
+  "metadata" : {
+    "handle" : "ASN-WSECU",
+    "description" : "WSECU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.224.43.0/24",
       "50.224.44.0/24",
       "65.125.209.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 396287,
-  "handle": "NEXTPOWEREDBYNAECLLC",
-  "description": "Next Powered by NAEC LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396287,
+  "metadata" : {
+    "handle" : "NEXTPOWEREDBYNAECLLC",
+    "description" : "Next Powered by NAEC LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.121.68.0/22",
       "148.170.192.0/19",
       "205.147.64.0/20",
@@ -11,6 +14,6 @@
       "209.198.160.0/20",
       "216.41.128.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 197799,
-  "handle": "MOLNDAL-AS",
-  "description": "Molndals kommun",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197799,
+  "metadata" : {
+    "handle" : "MOLNDAL-AS",
+    "description" : "Molndals kommun",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.193.200.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:1e40::/32"
     ]
   }

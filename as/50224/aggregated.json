@@ -1,14 +1,17 @@
 {
-  "asn": 50224,
-  "handle": "MYTHICALKITTEN",
-  "description": "MTRL GROUP LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50224,
+  "metadata" : {
+    "handle" : "MYTHICALKITTEN",
+    "description" : "MTRL GROUP LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.103.125.0/24",
       "140.235.75.0/24",
       "142.248.23.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:54c1::/36",
       "2a0a:6040::/40",
       "2a11:3a06::/32",

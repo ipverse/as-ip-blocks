@@ -1,9 +1,12 @@
 {
-  "asn": 22364,
-  "handle": "AS-22364",
-  "description": "Telefonica Global Solutions USA INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22364,
+  "metadata" : {
+    "handle" : "AS-22364",
+    "description" : "Telefonica Global Solutions USA INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.119.64.0/21",
       "66.231.224.0/19",
       "69.24.192.0/20",
@@ -11,7 +14,7 @@
       "204.126.98.0/24",
       "216.177.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:d400::/32"
     ]
   }

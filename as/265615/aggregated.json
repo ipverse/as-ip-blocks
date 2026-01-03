@@ -1,9 +1,12 @@
 {
-  "asn": 265615,
-  "handle": "ASSETEL",
-  "description": "Assetel SA de CV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265615,
+  "metadata" : {
+    "handle" : "ASSETEL",
+    "description" : "Assetel SA de CV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.19.92.0/24",
       "38.22.172.0/24",
       "38.22.187.0/24",
@@ -16,7 +19,7 @@
       "201.151.178.0/24",
       "201.163.96.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:36c::/32"
     ]
   }

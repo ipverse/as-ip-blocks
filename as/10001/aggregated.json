@@ -1,9 +1,12 @@
 {
-  "asn": 10001,
-  "handle": "MICSNET",
-  "description": "Mics Network Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10001,
+  "metadata" : {
+    "handle" : "MICSNET",
+    "description" : "Mics Network Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.128.128.0/19",
       "61.195.240.0/20",
       "122.49.192.0/21",
@@ -15,7 +18,7 @@
       "211.133.224.0/20",
       "219.124.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:7c00::/32"
     ]
   }

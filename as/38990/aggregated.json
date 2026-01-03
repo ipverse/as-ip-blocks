@@ -1,13 +1,16 @@
 {
-  "asn": 38990,
-  "handle": "AGNITIO-AS",
-  "description": "Agnitio AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38990,
+  "metadata" : {
+    "handle" : "AGNITIO-AS",
+    "description" : "Agnitio AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.157.56.0/22",
       "194.88.144.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:138::/48",
       "2a06:500::/29"
     ]

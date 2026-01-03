@@ -1,14 +1,17 @@
 {
-  "asn": 210728,
-  "handle": "CYSO-AS-DE",
-  "description": "Cyso Group B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210728,
+  "metadata" : {
+    "handle" : "CYSO-AS-DE",
+    "description" : "Cyso Group B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.246.243.0/24",
       "194.26.103.0/24",
       "213.173.39.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:2440::/32"
     ]
   }

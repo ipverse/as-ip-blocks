@@ -1,11 +1,14 @@
 {
-  "asn": 18090,
-  "handle": "MAGMA",
-  "description": "IMS Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18090,
+  "metadata" : {
+    "handle" : "MAGMA",
+    "description" : "IMS Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "219.101.80.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

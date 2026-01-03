@@ -1,16 +1,19 @@
 {
-  "asn": 55639,
-  "handle": "ASIAWEB-SERVICE-HK",
-  "description": "Asia Web Services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55639,
+  "metadata" : {
+    "handle" : "ASIAWEB-SERVICE-HK",
+    "description" : "Asia Web Services Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.15.28.0/22",
       "111.90.157.0/24",
       "180.235.132.0/22",
       "202.52.136.0/24",
       "202.53.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:c700::/43",
       "2401:c700:20::/44"
     ]

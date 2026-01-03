@@ -1,9 +1,12 @@
 {
-  "asn": 40933,
-  "handle": "TRIANGLE-COMMUNICATIONS",
-  "description": "Triangle Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40933,
+  "metadata" : {
+    "handle" : "TRIANGLE-COMMUNICATIONS",
+    "description" : "Triangle Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.187.192.0/20",
       "65.19.243.0/24",
       "65.19.246.0/24",
@@ -47,6 +50,6 @@
       "216.220.26.0/23",
       "216.220.28.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

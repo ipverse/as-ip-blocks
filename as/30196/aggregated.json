@@ -1,13 +1,16 @@
 {
-  "asn": 30196,
-  "handle": "CAPSCENTERS",
-  "description": "CAPS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30196,
+  "metadata" : {
+    "handle" : "CAPSCENTERS",
+    "description" : "CAPS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.216.133.0/24",
       "50.216.134.0/24",
       "65.196.5.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

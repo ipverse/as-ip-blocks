@@ -1,11 +1,14 @@
 {
-  "asn": 45728,
-  "handle": "IDNIC-ID",
-  "description": "Indonesia Network Information Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45728,
+  "metadata" : {
+    "handle" : "IDNIC-ID",
+    "description" : "Indonesia Network Information Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "180.222.216.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

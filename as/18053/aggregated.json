@@ -1,16 +1,19 @@
 {
-  "asn": 18053,
-  "handle": "SNET-AS-AP",
-  "description": "Special Communication Organization",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18053,
+  "metadata" : {
+    "handle" : "SNET-AS-AP",
+    "description" : "Special Communication Organization",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.137.24.0/22",
       "115.186.48.0/22",
       "118.107.128.0/20",
       "203.81.236.0/23",
       "203.81.238.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:8300::/32"
     ]
   }

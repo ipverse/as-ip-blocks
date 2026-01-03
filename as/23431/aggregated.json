@@ -1,14 +1,17 @@
 {
-  "asn": 23431,
-  "handle": "AHSW-ROSEVILLE",
-  "description": "Adventist Health",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23431,
+  "metadata" : {
+    "handle" : "AHSW-ROSEVILLE",
+    "description" : "Adventist Health",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.61.224.0/23",
       "204.61.250.0/24",
       "206.210.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:5000::/48"
     ]
   }

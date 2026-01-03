@@ -1,9 +1,12 @@
 {
-  "asn": 207203,
-  "handle": "TIMEWARP-AS",
-  "description": "TIMEWARP IT Consulting GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207203,
+  "metadata" : {
+    "handle" : "TIMEWARP-AS",
+    "description" : "TIMEWARP IT Consulting GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.153.140.0/22",
       "45.156.240.0/22",
       "91.209.2.0/24",
@@ -16,7 +19,7 @@
       "193.228.80.0/22",
       "194.247.10.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:7700::/29",
       "2a0a:440::/29"
     ]

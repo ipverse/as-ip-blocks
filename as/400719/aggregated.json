@@ -1,14 +1,17 @@
 {
-  "asn": 400719,
-  "handle": "RJN-SERVICES",
-  "description": "RJN Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400719,
+  "metadata" : {
+    "handle" : "RJN-SERVICES",
+    "description" : "RJN Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.140.168.0/24",
       "44.18.60.0/24",
       "207.174.50.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470:109::/48",
       "2602:80f:c000::/47"
     ]

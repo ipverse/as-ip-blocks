@@ -1,9 +1,12 @@
 {
-  "asn": 13807,
-  "handle": "GREAT-PLAINS-COMMUNICATIONS",
-  "description": "Great Plains Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13807,
+  "metadata" : {
+    "handle" : "GREAT-PLAINS-COMMUNICATIONS",
+    "description" : "Great Plains Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.51.32.0/21",
       "24.51.52.0/22",
       "24.51.56.0/21",
@@ -33,7 +36,7 @@
       "216.8.192.0/18",
       "223.165.96.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:c80::/32",
       "2604:9500::/32",
       "2607:5e80::/32",

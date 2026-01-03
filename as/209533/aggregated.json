@@ -1,10 +1,13 @@
 {
-  "asn": 209533,
-  "handle": "BGPTUNNEL",
-  "description": "iFog GmbH",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 209533,
+  "metadata" : {
+    "handle" : "BGPTUNNEL",
+    "description" : "iFog GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0c:9a47:20::/48"
     ]
   }

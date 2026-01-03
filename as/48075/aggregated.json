@@ -1,9 +1,12 @@
 {
-  "asn": 48075,
-  "handle": "SWIFTASN",
-  "description": "S.W.I.F.T. SC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48075,
+  "metadata" : {
+    "handle" : "SWIFTASN",
+    "description" : "S.W.I.F.T. SC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.134.144.0/23",
       "149.134.146.0/24",
       "149.134.148.0/24",
@@ -16,6 +19,6 @@
       "149.134.177.0/24",
       "149.134.178.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

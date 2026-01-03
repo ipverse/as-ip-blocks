@@ -1,9 +1,12 @@
 {
-  "asn": 18337,
-  "handle": "KSUCC-AS",
-  "description": "KyungSan University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18337,
+  "metadata" : {
+    "handle" : "KSUCC-AS",
+    "description" : "KyungSan University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "113.198.192.0/23",
       "113.198.194.0/24",
       "113.198.196.0/23",
@@ -15,6 +18,6 @@
       "211.39.120.0/23",
       "211.39.122.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

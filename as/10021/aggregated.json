@@ -1,9 +1,12 @@
 {
-  "asn": 10021,
-  "handle": "KVH",
-  "description": "KVH Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10021,
+  "metadata" : {
+    "handle" : "KVH",
+    "description" : "KVH Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.110.22.0/23",
       "27.110.24.0/21",
       "27.110.32.0/20",
@@ -35,7 +38,7 @@
       "202.95.220.0/22",
       "203.167.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:6002::/48",
       "2400:1000::/32"
     ]

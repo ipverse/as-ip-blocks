@@ -1,12 +1,15 @@
 {
-  "asn": 60153,
-  "handle": "INPADI",
-  "description": "Inpadi ApS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60153,
+  "metadata" : {
+    "handle" : "INPADI",
+    "description" : "Inpadi ApS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.55.196.0/22",
       "185.182.64.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

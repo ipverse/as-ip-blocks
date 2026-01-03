@@ -1,12 +1,15 @@
 {
-  "asn": 149483,
-  "handle": "CITYONLINE-AS-AP",
-  "description": "City Online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149483,
+  "metadata" : {
+    "handle" : "CITYONLINE-AS-AP",
+    "description" : "City Online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.180.203.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:5f40::/48"
     ]
   }

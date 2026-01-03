@@ -1,9 +1,12 @@
 {
-  "asn": 207054,
-  "handle": "FLYNET-IT",
-  "description": "FLYNET SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207054,
+  "metadata" : {
+    "handle" : "FLYNET-IT",
+    "description" : "FLYNET SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.10.12.0/22",
       "45.15.92.0/22",
       "66.81.144.0/21",
@@ -11,7 +14,7 @@
       "185.231.192.0/22",
       "194.58.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:1a00::/29",
       "2a0e:2680::/29"
     ]

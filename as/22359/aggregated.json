@@ -1,13 +1,16 @@
 {
-  "asn": 22359,
-  "handle": "NETSKRTSYSTEMS-UK",
-  "description": "Netskrt",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22359,
+  "metadata" : {
+    "handle" : "NETSKRTSYSTEMS-UK",
+    "description" : "Netskrt",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.161.210.0/23",
       "154.61.142.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:8240:102::/48",
       "2607:8240:f102::/48",
       "2607:8240:fffc::/48"

@@ -1,9 +1,12 @@
 {
-  "asn": 12041,
-  "handle": "AS-AFILIAS1",
-  "description": "Afilias Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12041,
+  "metadata" : {
+    "handle" : "AS-AFILIAS1",
+    "description" : "Afilias Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.22.0.0/22",
       "65.22.6.0/23",
       "65.22.8.0/23",
@@ -145,7 +148,7 @@
       "199.254.54.0/23",
       "199.254.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:500:b::/48",
       "2001:500:c::/46",
       "2001:500:16::/47",

@@ -1,9 +1,12 @@
 {
-  "asn": 132847,
-  "handle": "NETSG-AS-AP",
-  "description": "Network Solutions Group Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132847,
+  "metadata" : {
+    "handle" : "NETSG-AS-AP",
+    "description" : "Network Solutions Group Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.147.120.0/22",
       "103.74.171.0/24",
       "103.99.241.0/24",
@@ -14,7 +17,7 @@
       "203.27.118.0/24",
       "207.65.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:c240::/32"
     ]
   }

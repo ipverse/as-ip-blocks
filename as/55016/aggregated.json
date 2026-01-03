@@ -1,14 +1,17 @@
 {
-  "asn": 55016,
-  "handle": "IMPER-AS-1",
-  "description": "Imperium Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55016,
+  "metadata" : {
+    "handle" : "IMPER-AS-1",
+    "description" : "Imperium Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.167.224.0/24",
       "44.31.26.0/24",
       "44.184.136.0/22",
       "162.208.88.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

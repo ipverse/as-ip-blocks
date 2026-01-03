@@ -1,12 +1,15 @@
 {
-  "asn": 1967,
-  "handle": "METU-NET",
-  "description": "Middle East Technical University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1967,
+  "metadata" : {
+    "handle" : "METU-NET",
+    "description" : "Middle East Technical University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.122.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:a98:30::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 264284,
-  "handle": "TRANSDADOS-TELECOM",
-  "description": "Transdados Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264284,
+  "metadata" : {
+    "handle" : "TRANSDADOS-TELECOM",
+    "description" : "Transdados Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.121.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2580::/35",
       "2804:2580:4000::/35"
     ]

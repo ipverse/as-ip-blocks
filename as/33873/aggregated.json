@@ -1,9 +1,12 @@
 {
-  "asn": 33873,
-  "handle": "ARVATO-SYSTEMS-AS",
-  "description": "Arvato Systems GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33873,
+  "metadata" : {
+    "handle" : "ARVATO-SYSTEMS-AS",
+    "description" : "Arvato Systems GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.17.160.0/19",
       "91.105.240.0/21",
       "109.235.136.0/21",
@@ -15,7 +18,7 @@
       "194.31.6.0/23",
       "194.127.102.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:6b0::/48",
       "2a01:4a8::/32"
     ]

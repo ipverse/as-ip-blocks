@@ -1,9 +1,12 @@
 {
-  "asn": 60966,
-  "handle": "NIKEM-NET",
-  "description": "Nikem Net Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60966,
+  "metadata" : {
+    "handle" : "NIKEM-NET",
+    "description" : "Nikem Net Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.83.156.0/23",
       "78.83.158.0/24",
       "78.90.198.0/23",
@@ -12,6 +15,6 @@
       "95.111.40.0/24",
       "95.111.92.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

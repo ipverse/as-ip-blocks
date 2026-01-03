@@ -1,14 +1,17 @@
 {
-  "asn": 33348,
-  "handle": "PIERCE-COUNTY",
-  "description": "Pierce County",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33348,
+  "metadata" : {
+    "handle" : "PIERCE-COUNTY",
+    "description" : "Pierce County",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.5.0.0/16",
       "192.103.148.0/23",
       "192.103.150.0/24",
       "192.103.152.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

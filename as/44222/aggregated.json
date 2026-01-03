@@ -1,12 +1,15 @@
 {
-  "asn": 44222,
-  "handle": "AS-CLOUDITY",
-  "description": "Nuno Felgueiras",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44222,
+  "metadata" : {
+    "handle" : "AS-CLOUDITY",
+    "description" : "Nuno Felgueiras",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.83.212.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:9f00::/32"
     ]
   }

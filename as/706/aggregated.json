@@ -1,9 +1,12 @@
 {
-  "asn": 706,
-  "handle": "TEST-AUSTIN-IBM-AS",
-  "description": "Advanced Workstations Division IBM Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 706,
+  "metadata" : {
+    "handle" : "TEST-AUSTIN-IBM-AS",
+    "description" : "Advanced Workstations Division IBM Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.33.6.0/23",
       "129.33.140.0/24",
       "129.33.199.0/24",
@@ -18,6 +21,6 @@
       "129.42.208.0/24",
       "170.226.62.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

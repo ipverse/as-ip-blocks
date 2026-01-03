@@ -1,13 +1,16 @@
 {
-  "asn": 132269,
-  "handle": "COMMSPHERE-AS-AP",
-  "description": "CommSphere",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132269,
+  "metadata" : {
+    "handle" : "COMMSPHERE-AS-AP",
+    "description" : "CommSphere",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.148.234.0/24",
       "103.149.217.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:f680::/48"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 8904,
-  "handle": "BANK-OF-RUSSIA",
-  "description": "Bank of Russia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8904,
+  "metadata" : {
+    "handle" : "BANK-OF-RUSSIA",
+    "description" : "Bank of Russia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.40.192.0/21",
       "212.40.202.0/23",
       "212.40.204.0/22",
       "212.40.208.0/21",
       "212.40.223.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

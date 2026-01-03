@@ -1,9 +1,12 @@
 {
-  "asn": 62000,
-  "handle": "NETRIX-AS",
-  "description": "SERVERD SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62000,
+  "metadata" : {
+    "handle" : "NETRIX-AS",
+    "description" : "SERVERD SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.147.96.0/22",
       "45.155.168.0/22",
       "46.203.90.0/24",
@@ -15,7 +18,7 @@
       "193.168.144.0/22",
       "195.246.112.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:abc0::/29",
       "2a09:6382::/31",
       "2a09:6384::/31",

@@ -1,11 +1,14 @@
 {
-  "asn": 141340,
-  "handle": "IITM-AS",
-  "description": "IIT Madras",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141340,
+  "metadata" : {
+    "handle" : "IITM-AS",
+    "description" : "IIT Madras",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.158.42.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

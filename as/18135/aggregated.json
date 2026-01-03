@@ -1,9 +1,12 @@
 {
-  "asn": 18135,
-  "handle": "BTV",
-  "description": "BTV CO. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18135,
+  "metadata" : {
+    "handle" : "BTV",
+    "description" : "BTV CO. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "42.83.0.0/18",
       "103.205.48.0/22",
       "153.124.224.0/21",
@@ -14,7 +17,7 @@
       "219.100.88.0/22",
       "219.103.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:d500::/32"
     ]
   }

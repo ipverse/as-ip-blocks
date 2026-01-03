@@ -1,12 +1,15 @@
 {
-  "asn": 199910,
-  "handle": "APATOR-AS",
-  "description": "Apator SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199910,
+  "metadata" : {
+    "handle" : "APATOR-AS",
+    "description" : "Apator SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.160.97.0/24",
       "85.202.51.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 41719,
-  "handle": "SKTVSPEKTR-AS",
-  "description": "SKTV Spektr LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41719,
+  "metadata" : {
+    "handle" : "SKTVSPEKTR-AS",
+    "description" : "SKTV Spektr LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.135.130.0/24",
       "45.136.102.0/23",
       "45.136.207.0/24",
@@ -16,6 +19,6 @@
       "194.93.28.0/22",
       "194.190.69.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

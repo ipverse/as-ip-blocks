@@ -1,12 +1,15 @@
 {
-  "asn": 12206,
-  "handle": "DNPNE",
-  "description": "DNP Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12206,
+  "metadata" : {
+    "handle" : "DNPNE",
+    "description" : "DNP Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.247.175.0/24",
       "67.230.84.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

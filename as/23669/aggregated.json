@@ -1,11 +1,14 @@
 {
-  "asn": 23669,
-  "handle": "UIP-SYD1-AS-AP",
-  "description": "United IP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23669,
+  "metadata" : {
+    "handle" : "UIP-SYD1-AS-AP",
+    "description" : "United IP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.93.160.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 60297,
-  "handle": "CG-UK",
-  "description": "Capgemini UK plc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60297,
+  "metadata" : {
+    "handle" : "CG-UK",
+    "description" : "Capgemini UK plc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.33.76.0/22",
       "194.60.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:cbe0:100::/40",
       "2a00:cbe0:200::/40"
     ]

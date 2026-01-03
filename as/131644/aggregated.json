@@ -1,9 +1,12 @@
 {
-  "asn": 131644,
-  "handle": "TWNIC-AS",
-  "description": "Taiwan Network Information Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131644,
+  "metadata" : {
+    "handle" : "TWNIC-AS",
+    "description" : "Taiwan Network Information Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.67.121.0/24",
       "101.101.101.0/24",
       "101.102.103.0/24",
@@ -11,6 +14,6 @@
       "119.75.240.0/22",
       "182.173.0.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

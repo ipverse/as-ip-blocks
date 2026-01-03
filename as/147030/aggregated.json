@@ -1,12 +1,15 @@
 {
-  "asn": 147030,
-  "handle": "MYNET-AS-AP",
-  "description": "Mynet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147030,
+  "metadata" : {
+    "handle" : "MYNET-AS-AP",
+    "description" : "Mynet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.173.58.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:e2c0::/32"
     ]
   }

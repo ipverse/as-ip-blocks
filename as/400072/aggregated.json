@@ -1,9 +1,12 @@
 {
-  "asn": 400072,
-  "handle": "THUND-20",
-  "description": "THUNDERBOX INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400072,
+  "metadata" : {
+    "handle" : "THUND-20",
+    "description" : "THUNDERBOX INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.229.118.0/24",
       "23.229.127.0/24",
       "23.236.250.0/24",
@@ -29,7 +32,7 @@
       "208.73.40.0/22",
       "212.32.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:52c0::/34"
     ]
   }

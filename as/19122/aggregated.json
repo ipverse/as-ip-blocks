@@ -1,9 +1,12 @@
 {
-  "asn": 19122,
-  "handle": "ESTRUXTURE-ON-19122",
-  "description": "eStruxture Data Centers Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19122,
+  "metadata" : {
+    "handle" : "ESTRUXTURE-ON-19122",
+    "description" : "eStruxture Data Centers Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.132.48.0/20",
       "69.165.84.0/22",
       "192.34.55.0/24",
@@ -11,7 +14,7 @@
       "216.71.120.0/24",
       "216.170.124.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fbb0::/36",
       "2605:9000:c::/48"
     ]

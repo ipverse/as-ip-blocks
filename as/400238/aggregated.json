@@ -1,9 +1,12 @@
 {
-  "asn": 400238,
-  "handle": "PIEG-01",
-  "description": "PIE\u0026G",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400238,
+  "metadata" : {
+    "handle" : "PIEG-01",
+    "description" : "PIE&G",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.73.224.0/20",
       "147.185.189.0/24",
       "147.185.208.0/24",
@@ -27,7 +30,7 @@
       "216.87.61.0/24",
       "216.114.68.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc02::/36"
     ]
   }

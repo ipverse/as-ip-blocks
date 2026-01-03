@@ -1,9 +1,12 @@
 {
-  "asn": 35100,
-  "handle": "PATRIKWEB-CORE",
-  "description": "Patrik Lagerman",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35100,
+  "metadata" : {
+    "handle" : "PATRIKWEB-CORE",
+    "description" : "Patrik Lagerman",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.57.240.0/21",
       "31.44.224.0/20",
       "91.90.24.0/21",
@@ -15,7 +18,7 @@
       "193.183.208.0/22",
       "195.144.4.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7900::/31"
     ]
   }

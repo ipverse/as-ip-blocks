@@ -1,9 +1,12 @@
 {
-  "asn": 4155,
-  "handle": "USDA-1",
-  "description": "USDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4155,
+  "metadata" : {
+    "handle" : "USDA-1",
+    "description" : "USDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.49.0.0/16",
       "150.118.0.0/15",
       "150.120.0.0/16",
@@ -25,7 +28,7 @@
       "198.22.127.0/24",
       "199.128.0.0/11"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:1200::/24"
     ]
   }

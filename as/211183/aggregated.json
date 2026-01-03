@@ -1,9 +1,12 @@
 {
-  "asn": 211183,
-  "handle": "ADMINVPS",
-  "description": "AdminVPS OOO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211183,
+  "metadata" : {
+    "handle" : "ADMINVPS",
+    "description" : "AdminVPS OOO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.35.124.0/22",
       "5.253.62.0/24",
       "37.140.241.0/24",
@@ -29,6 +32,6 @@
       "195.93.252.0/24",
       "217.171.146.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

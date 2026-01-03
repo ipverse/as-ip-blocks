@@ -1,9 +1,12 @@
 {
-  "asn": 40092,
-  "handle": "ONIAAS",
-  "description": "HostPapa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40092,
+  "metadata" : {
+    "handle" : "ONIAAS",
+    "description" : "HostPapa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.56.216.0/21",
       "45.114.224.0/22",
       "66.84.21.0/24",
@@ -23,7 +26,7 @@
       "216.7.88.0/22",
       "216.222.192.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:9780::/32",
       "2605:6f00::/32",
       "2605:6f03::/32",

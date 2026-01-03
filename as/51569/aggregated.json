@@ -1,9 +1,12 @@
 {
-  "asn": 51569,
-  "handle": "FIBERING",
-  "description": "Fiberwide S.p.a",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51569,
+  "metadata" : {
+    "handle" : "FIBERING",
+    "description" : "Fiberwide S.p.a.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.132.208.0/22",
       "46.20.80.0/20",
       "83.139.202.0/23",
@@ -17,7 +20,7 @@
       "185.95.136.0/22",
       "185.159.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:b580::/29"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 272851,
-  "handle": "GIGA-FIBRA",
-  "description": "GIGA FIBRA SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272851,
+  "metadata" : {
+    "handle" : "GIGA-FIBRA",
+    "description" : "GIGA FIBRA SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.52.152.0/21",
       "186.194.56.0/21",
       "187.73.136.0/21",
       "201.46.115.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:8290::/32"
     ]
   }

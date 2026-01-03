@@ -1,9 +1,12 @@
 {
-  "asn": 34373,
-  "handle": "XXLNET",
-  "description": "XXLnet B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34373,
+  "metadata" : {
+    "handle" : "XXLNET",
+    "description" : "XXLnet B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.143.36.0/23",
       "45.128.64.0/22",
       "45.132.40.0/22",
@@ -24,7 +27,7 @@
       "195.253.200.0/21",
       "217.61.253.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4140::/29",
       "2a06:900::/29",
       "2a06:7bc0::/29",

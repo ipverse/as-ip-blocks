@@ -1,13 +1,16 @@
 {
-  "asn": 63229,
-  "handle": "NOCTURNAL",
-  "description": "Nocturnal Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63229,
+  "metadata" : {
+    "handle" : "NOCTURNAL",
+    "description" : "Nocturnal Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.195.80.0/23",
       "216.48.108.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe8d::/36"
     ]
   }

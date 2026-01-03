@@ -1,11 +1,14 @@
 {
-  "asn": 54410,
-  "handle": "BDHS-AS",
-  "description": "Bozeman Deaconess Health Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54410,
+  "metadata" : {
+    "handle" : "BDHS-AS",
+    "description" : "Bozeman Deaconess Health Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "205.166.158.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

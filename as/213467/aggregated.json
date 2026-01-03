@@ -1,12 +1,15 @@
 {
-  "asn": 213467,
-  "handle": "PROADMIN-AS",
-  "description": "ProAdmin - Lukasz Piwowarczyk",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213467,
+  "metadata" : {
+    "handle" : "PROADMIN-AS",
+    "description" : "ProAdmin - Lukasz Piwowarczyk",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.195.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:102c::/48",
       "2a0e:8f02:2020::/44"
     ]

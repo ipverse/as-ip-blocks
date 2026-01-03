@@ -1,11 +1,14 @@
 {
-  "asn": 11500,
-  "handle": "MSOE-INTERNET",
-  "description": "Milwaukee School of Engineering",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11500,
+  "metadata" : {
+    "handle" : "MSOE-INTERNET",
+    "description" : "Milwaukee School of Engineering",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "155.92.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 57599,
-  "handle": "ISP-ONLINE-AS",
-  "description": "Private Enterprise On Line",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57599,
+  "metadata" : {
+    "handle" : "ISP-ONLINE-AS",
+    "description" : "Private Enterprise On Line",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.233.90.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

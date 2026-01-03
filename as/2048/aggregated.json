@@ -1,9 +1,12 @@
 {
-  "asn": 2048,
-  "handle": "LANET-1",
-  "description": "State of Louisiana Office of Technology Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2048,
+  "metadata" : {
+    "handle" : "LANET-1",
+    "description" : "State of Louisiana Office of Technology Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "76.165.205.0/24",
       "159.39.0.0/16",
       "162.75.0.0/16",
@@ -22,6 +25,6 @@
       "204.196.0.0/16",
       "205.172.48.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

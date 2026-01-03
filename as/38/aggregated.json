@@ -1,15 +1,18 @@
 {
-  "asn": 38,
-  "handle": "UIUC",
-  "description": "University of Illinois",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38,
+  "metadata" : {
+    "handle" : "UIUC",
+    "description" : "University of Illinois",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.36.64.0/18",
       "128.174.0.0/16",
       "130.126.0.0/16",
       "192.17.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:e00::/47"
     ]
   }

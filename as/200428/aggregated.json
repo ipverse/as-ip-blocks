@@ -1,9 +1,12 @@
 {
-  "asn": 200428,
-  "handle": "SOUTHERNHILL",
-  "description": "SouthernHill BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200428,
+  "metadata" : {
+    "handle" : "SOUTHERNHILL",
+    "description" : "SouthernHill BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.93.92.0/22",
       "185.92.60.0/22",
       "185.107.188.0/22",
@@ -12,7 +15,7 @@
       "185.229.208.0/22",
       "217.20.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:ef40::/29",
       "2a06:4540::/29",
       "2a0a:2640::/29",

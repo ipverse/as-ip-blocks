@@ -1,9 +1,12 @@
 {
-  "asn": 25780,
-  "handle": "HUGESERVER-NETWORKS",
-  "description": "HugeServer Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25780,
+  "metadata" : {
+    "handle" : "HUGESERVER-NETWORKS",
+    "description" : "HugeServer Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.186.176.0/24",
       "107.161.48.0/24",
       "107.167.244.0/22",
@@ -11,7 +14,7 @@
       "198.203.28.0/24",
       "199.241.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:34c0::/32",
       "2605:8680::/48",
       "2605:8680:12::/47",

@@ -1,14 +1,17 @@
 {
-  "asn": 59953,
-  "handle": "PUREFIBRE-AS",
-  "description": "Purefibre Internet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59953,
+  "metadata" : {
+    "handle" : "PUREFIBRE-AS",
+    "description" : "Purefibre Internet Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.109.232.0/21",
       "185.78.8.0/22",
       "185.248.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:f280::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 59583,
-  "handle": "ASNETKAZAHSTAN",
-  "description": "Network Kazakhstan LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59583,
+  "metadata" : {
+    "handle" : "ASNETKAZAHSTAN",
+    "description" : "Network Kazakhstan LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.159.29.0/24",
       "85.159.31.0/24",
       "89.219.29.0/24",
@@ -13,6 +16,6 @@
       "185.191.28.0/22",
       "195.88.2.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

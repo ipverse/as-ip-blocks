@@ -1,9 +1,12 @@
 {
-  "asn": 3233,
-  "handle": "ICI-ROTLD",
-  "description": "Institutul National de Cercetare-Dezvoltare in informatica - ICI Bucuresti",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3233,
+  "metadata" : {
+    "handle" : "ICI-ROTLD",
+    "description" : "Institutul National de Cercetare-Dezvoltare in informatica - ICI Bucuresti",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.181.249.0/24",
       "85.120.47.0/24",
       "85.120.49.0/24",
@@ -35,7 +38,7 @@
       "194.105.16.0/24",
       "212.35.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5e80::/32"
     ]
   }

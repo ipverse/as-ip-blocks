@@ -1,9 +1,12 @@
 {
-  "asn": 6431,
-  "handle": "ATT-RESEARCH",
-  "description": "AT\u0026T Enterprises LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6431,
+  "metadata" : {
+    "handle" : "ATT-RESEARCH",
+    "description" : "AT&T Enterprises LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.106.32.0/22",
       "135.197.0.0/16",
       "135.205.0.0/16",
@@ -11,7 +14,7 @@
       "192.20.225.0/24",
       "207.140.168.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:f00::/41"
     ]
   }

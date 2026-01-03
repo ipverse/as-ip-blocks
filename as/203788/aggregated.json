@@ -1,12 +1,15 @@
 {
-  "asn": 203788,
-  "handle": "TELNECT-ASN",
-  "description": "Telnect AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203788,
+  "metadata" : {
+    "handle" : "TELNECT-ASN",
+    "description" : "Telnect AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.165.107.0/24",
       "192.165.224.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 135872,
-  "handle": "GTPLKCBPL-AS",
-  "description": "GTPL KCBPL BROADBAND PVT LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135872,
+  "metadata" : {
+    "handle" : "GTPLKCBPL-AS",
+    "description" : "GTPL KCBPL BROADBAND PVT LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.251.68.0/22",
       "103.59.88.0/24",
       "103.60.219.0/24",
@@ -31,7 +34,7 @@
       "146.196.44.0/22",
       "160.238.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:5740::/32"
     ]
   }

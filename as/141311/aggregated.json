@@ -1,13 +1,16 @@
 {
-  "asn": 141311,
-  "handle": "NETMATIX-AS",
-  "description": "Netmatix Network Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141311,
+  "metadata" : {
+    "handle" : "NETMATIX-AS",
+    "description" : "Netmatix Network Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.158.131.0/24",
       "192.51.175.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:e5c0::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 55043,
-  "handle": "MARCO-TECHNOLOGIES-DC",
-  "description": "Marco Technologies LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55043,
+  "metadata" : {
+    "handle" : "MARCO-TECHNOLOGIES-DC",
+    "description" : "Marco Technologies LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.244.193.0/24",
       "66.195.142.0/24",
       "198.245.158.0/24",
@@ -14,6 +17,6 @@
       "209.62.169.0/24",
       "209.62.170.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

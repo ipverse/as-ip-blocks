@@ -1,13 +1,16 @@
 {
-  "asn": 141746,
-  "handle": "DISASTER-AS-AP",
-  "description": "Disaster Science",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141746,
+  "metadata" : {
+    "handle" : "DISASTER-AS-AP",
+    "description" : "Disaster Science",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.196.0/24",
       "163.223.226.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:4e40::/48"
     ]
   }

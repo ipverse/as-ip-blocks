@@ -1,14 +1,17 @@
 {
-  "asn": 211720,
-  "handle": "DATASHIELD-CH",
-  "description": "Datashield Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211720,
+  "metadata" : {
+    "handle" : "DATASHIELD-CH",
+    "description" : "Datashield Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.56.81.0/24",
       "185.56.83.0/24",
       "185.231.32.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:4d00::/36"
     ]
   }

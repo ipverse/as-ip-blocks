@@ -1,11 +1,14 @@
 {
-  "asn": 47300,
-  "handle": "INRS-AS",
-  "description": "Institut National Recherche Securite",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47300,
+  "metadata" : {
+    "handle" : "INRS-AS",
+    "description" : "Institut National Recherche Securite",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.203.108.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 46637,
-  "handle": "ROCK-FALLS-FIBERNET",
-  "description": "City of Rock Falls",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46637,
+  "metadata" : {
+    "handle" : "ROCK-FALLS-FIBERNET",
+    "description" : "City of Rock Falls",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.113.128.0/20",
       "209.197.96.0/21",
       "216.7.80.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

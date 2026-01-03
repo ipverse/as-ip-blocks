@@ -1,14 +1,17 @@
 {
-  "asn": 26557,
-  "handle": "CARLET-NET",
-  "description": "Carleton College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26557,
+  "metadata" : {
+    "handle" : "CARLET-NET",
+    "description" : "Carleton College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.22.0.0/19",
       "137.22.64.0/19",
       "137.22.128.0/19",
       "137.22.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

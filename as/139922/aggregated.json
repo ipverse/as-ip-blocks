@@ -1,9 +1,12 @@
 {
-  "asn": 139922,
-  "handle": "DMNPL-AS-AP",
-  "description": "DISH MEDIA NETWORK PUBLIC LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139922,
+  "metadata" : {
+    "handle" : "DMNPL-AS-AP",
+    "description" : "DISH MEDIA NETWORK PUBLIC LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.123.60.0/23",
       "103.139.152.0/24",
       "103.147.62.0/23",
@@ -17,7 +20,7 @@
       "103.191.130.0/23",
       "160.250.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:be80::/48",
       "2001:df7:cc80::/48",
       "2405:acc0::/32"

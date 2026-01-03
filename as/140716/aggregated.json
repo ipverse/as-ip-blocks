@@ -1,9 +1,12 @@
 {
-  "asn": 140716,
-  "handle": "UNICOM-JSWX-IDC",
-  "description": "China Unicom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140716,
+  "metadata" : {
+    "handle" : "UNICOM-JSWX-IDC",
+    "description" : "China Unicom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.226.165.0/24",
       "43.226.166.0/24",
       "43.231.41.0/24",
@@ -54,7 +57,7 @@
       "218.98.37.0/24",
       "218.98.59.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2408:8000:a018::/48",
       "2408:873d:2000::/36",
       "2408:883a:700::/41",

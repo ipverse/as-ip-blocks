@@ -1,12 +1,15 @@
 {
-  "asn": 131112,
-  "handle": "MMTC-AS-ID",
-  "description": "Sekolah Tinggi Multi Media MMTC Yogyakarta",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131112,
+  "metadata" : {
+    "handle" : "MMTC-AS-ID",
+    "description" : "Sekolah Tinggi Multi Media MMTC Yogyakarta",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.6.214.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:7440::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 30786,
-  "handle": "LOCAL-CH",
-  "description": "Swisscom Directories AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30786,
+  "metadata" : {
+    "handle" : "LOCAL-CH",
+    "description" : "Swisscom Directories AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.101.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:1d80::/29"
     ]
   }

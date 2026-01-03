@@ -1,9 +1,12 @@
 {
-  "asn": 50928,
-  "handle": "SYNTSIB-AS",
-  "description": "PJSC MegaFon",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50928,
+  "metadata" : {
+    "handle" : "SYNTSIB-AS",
+    "description" : "PJSC MegaFon",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.173.248.0/21",
       "37.29.80.0/22",
       "46.29.192.0/21",
@@ -15,7 +18,7 @@
       "188.170.248.0/22",
       "188.170.252.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:9780::/37",
       "2a00:9780:800::/39"
     ]

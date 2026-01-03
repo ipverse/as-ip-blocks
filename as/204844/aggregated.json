@@ -1,13 +1,16 @@
 {
-  "asn": 204844,
-  "handle": "NCSE-NETWORK-GLOBAL",
-  "description": "NCSE NETWORK LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204844,
+  "metadata" : {
+    "handle" : "NCSE-NETWORK-GLOBAL",
+    "description" : "NCSE NETWORK LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.146.248.0/24",
       "151.246.244.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:faad::/40",
       "2a06:a005:14f0::/44",
       "2a06:a005:1b40::/44",

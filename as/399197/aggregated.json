@@ -1,12 +1,15 @@
 {
-  "asn": 399197,
-  "handle": "RMW-237",
-  "description": "Region of Waterloo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399197,
+  "metadata" : {
+    "handle" : "RMW-237",
+    "description" : "Region of Waterloo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.237.24.0/23",
       "192.237.28.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

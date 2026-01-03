@@ -1,12 +1,15 @@
 {
-  "asn": 268885,
-  "handle": "KINET-PROVEDOR-INTERNET",
-  "description": "KINET PROVEDOR DE INTERNET E SERVICOS DE TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268885,
+  "metadata" : {
+    "handle" : "KINET-PROVEDOR-INTERNET",
+    "description" : "KINET PROVEDOR DE INTERNET E SERVICOS DE TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.175.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5c10::/32"
     ]
   }

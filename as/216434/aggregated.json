@@ -1,9 +1,12 @@
 {
-  "asn": 216434,
-  "handle": "AITY",
-  "description": "aity AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216434,
+  "metadata" : {
+    "handle" : "AITY",
+    "description" : "aity AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.160.64.0/22",
       "195.160.68.0/24",
       "195.160.70.0/23",
@@ -12,6 +15,6 @@
       "195.160.80.0/23",
       "195.160.88.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

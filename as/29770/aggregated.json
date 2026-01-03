@@ -1,9 +1,12 @@
 {
-  "asn": 29770,
-  "handle": "THE-INTERNET-SUBWAY",
-  "description": "The Internet Subway",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29770,
+  "metadata" : {
+    "handle" : "THE-INTERNET-SUBWAY",
+    "description" : "The Internet Subway",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.146.232.0/24",
       "65.38.124.0/23",
       "204.150.128.0/19",
@@ -12,6 +15,6 @@
       "209.196.148.0/24",
       "209.196.150.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

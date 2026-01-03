@@ -1,14 +1,17 @@
 {
-  "asn": 133043,
-  "handle": "ESL-AS-AP",
-  "description": "Enhanced Solutions Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133043,
+  "metadata" : {
+    "handle" : "ESL-AS-AP",
+    "description" : "Enhanced Solutions Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.245.172.0/22",
       "103.206.34.0/24",
       "103.240.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:c300::/32"
     ]
   }

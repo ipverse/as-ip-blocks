@@ -1,9 +1,12 @@
 {
-  "asn": 12027,
-  "handle": "HYTRON-CA",
-  "description": "Hytron Network Services (US) LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12027,
+  "metadata" : {
+    "handle" : "HYTRON-CA",
+    "description" : "Hytron Network Services (US) LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.41.34.0/23",
       "109.122.46.0/24",
       "139.28.50.0/24",
@@ -12,6 +15,6 @@
       "167.148.33.0/24",
       "193.142.18.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

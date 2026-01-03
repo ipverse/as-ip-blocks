@@ -1,12 +1,15 @@
 {
-  "asn": 401197,
-  "handle": "KCORE-01",
-  "description": "kCore Cloud LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401197,
+  "metadata" : {
+    "handle" : "KCORE-01",
+    "description" : "kCore Cloud LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.184.211.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f897::/40"
     ]
   }

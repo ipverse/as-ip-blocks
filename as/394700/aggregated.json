@@ -1,9 +1,12 @@
 {
-  "asn": 394700,
-  "handle": "THE-SCHOOL-DISTRICT-OF-PALM-BEACH-COUNTY",
-  "description": "The School District of Palm Beach County",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394700,
+  "metadata" : {
+    "handle" : "THE-SCHOOL-DISTRICT-OF-PALM-BEACH-COUNTY",
+    "description" : "The School District of Palm Beach County",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.161.2.0/23",
       "165.161.4.0/22",
       "165.161.8.0/23",
@@ -13,6 +16,6 @@
       "165.161.232.0/24",
       "165.161.239.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

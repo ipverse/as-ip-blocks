@@ -1,9 +1,12 @@
 {
-  "asn": 54478,
-  "handle": "FNF-CLOUD1",
-  "description": "Fidelity National Financial Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54478,
+  "metadata" : {
+    "handle" : "FNF-CLOUD1",
+    "description" : "Fidelity National Financial Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.88.12.0/22",
       "170.88.50.0/24",
       "170.88.52.0/24",
@@ -11,6 +14,6 @@
       "170.88.84.0/23",
       "170.88.176.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

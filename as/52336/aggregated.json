@@ -1,14 +1,17 @@
 {
-  "asn": 52336,
-  "handle": "AUTORIDAD-NACIONAL-PARA",
-  "description": "Autoridad Nacional para la Innovación Gubernamental",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52336,
+  "metadata" : {
+    "handle" : "AUTORIDAD-NACIONAL-PARA",
+    "description" : "Autoridad Nacional para la Innovación Gubernamental",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.250.112.0/22",
       "168.77.210.0/23",
       "168.77.212.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:158::/36"
     ]
   }

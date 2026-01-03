@@ -1,9 +1,12 @@
 {
-  "asn": 44206,
-  "handle": "SIBSET-KRS-AS",
-  "description": "Sibirskie Seti Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44206,
+  "metadata" : {
+    "handle" : "SIBSET-KRS-AS",
+    "description" : "Sibirskie Seti Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.240.160.0/20",
       "79.99.216.0/21",
       "80.253.224.0/20",
@@ -11,6 +14,6 @@
       "94.127.248.0/21",
       "185.103.160.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

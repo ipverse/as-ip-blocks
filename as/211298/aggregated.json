@@ -1,14 +1,17 @@
 {
-  "asn": 211298,
-  "handle": "DRIFTNET",
-  "description": "Driftnet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211298,
+  "metadata" : {
+    "handle" : "DRIFTNET",
+    "description" : "Driftnet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.236.176.0/24",
       "185.247.137.0/24",
       "193.163.125.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:4880::/30"
     ]
   }

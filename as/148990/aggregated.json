@@ -1,9 +1,12 @@
 {
-  "asn": 148990,
-  "handle": "CHENGYI-AS-AP",
-  "description": "miaola",
-  "subnets": {
-    "ipv4": [
+  "asn" : 148990,
+  "metadata" : {
+    "handle" : "CHENGYI-AS-AP",
+    "description" : "miaola",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.19.128.0/24",
       "154.19.130.0/24",
       "154.19.133.0/24",
@@ -16,6 +19,6 @@
       "154.19.151.0/24",
       "154.19.157.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

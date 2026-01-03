@@ -1,9 +1,12 @@
 {
-  "asn": 9674,
-  "handle": "FET-TW",
-  "description": "Far EastTone Telecommunication Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9674,
+  "metadata" : {
+    "handle" : "FET-TW",
+    "description" : "Far EastTone Telecommunication Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.51.0.0/16",
       "27.52.0.0/15",
       "27.240.0.0/13",
@@ -26,7 +29,7 @@
       "211.73.128.0/19",
       "211.77.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:e180::/32"
     ]
   }

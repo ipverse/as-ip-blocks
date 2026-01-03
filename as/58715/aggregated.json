@@ -1,9 +1,12 @@
 {
-  "asn": 58715,
-  "handle": "EARTHTELECOMMUNICATION-AS",
-  "description": "Earth Telecommunication ( pvt ) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58715,
+  "metadata" : {
+    "handle" : "EARTHTELECOMMUNICATION-AS",
+    "description" : "Earth Telecommunication ( pvt ) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.113.132.0/22",
       "45.114.84.0/22",
       "59.152.96.0/20",
@@ -24,7 +27,7 @@
       "144.48.116.0/22",
       "182.48.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:4f80::/32"
     ]
   }

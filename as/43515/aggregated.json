@@ -1,16 +1,19 @@
 {
-  "asn": 43515,
-  "handle": "YOUTUBE",
-  "description": "Google Ireland Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43515,
+  "metadata" : {
+    "handle" : "YOUTUBE",
+    "description" : "Google Ireland Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.15.112.0/20",
       "104.237.160.0/19",
       "208.65.152.0/22",
       "208.117.224.0/19",
       "216.239.60.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4860:4805::/48",
       "2620:11a:a000::/40"
     ]

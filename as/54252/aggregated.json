@@ -1,9 +1,12 @@
 {
-  "asn": 54252,
-  "handle": "SP-NYJ",
-  "description": "Sprious LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54252,
+  "metadata" : {
+    "handle" : "SP-NYJ",
+    "description" : "Sprious LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.6.24.0/24",
       "45.38.55.0/24",
       "64.93.39.0/24",
@@ -78,6 +81,6 @@
       "216.126.59.0/24",
       "216.185.41.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

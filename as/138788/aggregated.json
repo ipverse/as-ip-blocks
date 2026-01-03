@@ -1,14 +1,17 @@
 {
-  "asn": 138788,
-  "handle": "ANCPL-AS-IN",
-  "description": "Acushnet Communication Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138788,
+  "metadata" : {
+    "handle" : "ANCPL-AS-IN",
+    "description" : "Acushnet Communication Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.135.70.0/24",
       "103.137.19.0/24",
       "103.203.251.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:53c0::/48"
     ]
   }

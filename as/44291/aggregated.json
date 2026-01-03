@@ -1,14 +1,17 @@
 {
-  "asn": 44291,
-  "handle": "INFOMIR-NET",
-  "description": "Infomir LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44291,
+  "metadata" : {
+    "handle" : "INFOMIR-NET",
+    "description" : "Infomir LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.142.192.0/20",
       "185.70.16.0/22",
       "217.73.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:8500::/32"
     ]
   }

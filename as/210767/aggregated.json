@@ -1,14 +1,17 @@
 {
-  "asn": 210767,
-  "handle": "LINKHOST",
-  "description": "Link Host Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210767,
+  "metadata" : {
+    "handle" : "LINKHOST",
+    "description" : "Link Host Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.151.0/24",
       "188.64.139.0/24",
       "193.161.200.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:fc0::/29"
     ]
   }

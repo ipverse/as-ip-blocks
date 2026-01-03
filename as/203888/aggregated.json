@@ -1,12 +1,15 @@
 {
-  "asn": 203888,
-  "handle": "USKVM",
-  "description": "USKVM LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203888,
+  "metadata" : {
+    "handle" : "USKVM",
+    "description" : "USKVM LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.32.161.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:9a40:84c0::/44"
     ]
   }

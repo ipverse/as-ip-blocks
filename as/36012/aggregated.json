@@ -1,9 +1,12 @@
 {
-  "asn": 36012,
-  "handle": "HUNTER-COMM",
-  "description": "HUNTER COMMUNICATIONS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36012,
+  "metadata" : {
+    "handle" : "HUNTER-COMM",
+    "description" : "HUNTER COMMUNICATIONS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.178.160.0/20",
       "69.9.128.0/19",
       "74.51.16.0/20",
@@ -15,7 +18,7 @@
       "208.186.8.0/23",
       "216.115.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:c800::/32"
     ]
   }

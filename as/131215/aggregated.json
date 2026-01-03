@@ -1,9 +1,12 @@
 {
-  "asn": 131215,
-  "handle": "SANCHARONLINE-IN",
-  "description": "116 MADHAV DARSHAN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131215,
+  "metadata" : {
+    "handle" : "SANCHARONLINE-IN",
+    "description" : "116 MADHAV DARSHAN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.113.252.0/22",
       "45.116.120.0/22",
       "103.15.56.0/22",
@@ -14,7 +17,7 @@
       "112.140.188.0/22",
       "150.107.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:76c0::/48"
     ]
   }

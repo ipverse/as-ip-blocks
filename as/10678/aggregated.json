@@ -1,12 +1,15 @@
 {
-  "asn": 10678,
-  "handle": "TRENDS-NET",
-  "description": "@trends.ca",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10678,
+  "metadata" : {
+    "handle" : "TRENDS-NET",
+    "description" : "@trends.ca",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.130.183.0/24",
       "216.126.88.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

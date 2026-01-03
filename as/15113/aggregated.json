@@ -1,15 +1,18 @@
 {
-  "asn": 15113,
-  "handle": "AMX-LLC-AS",
-  "description": "Harman International Industries Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15113,
+  "metadata" : {
+    "handle" : "AMX-LLC-AS",
+    "description" : "Harman International Industries Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.116.234.0/23",
       "194.113.220.0/24",
       "199.27.112.0/21",
       "205.157.63.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f56a:7::/48",
       "2602:f56a:9::/48",
       "2602:f56a:b::/48",

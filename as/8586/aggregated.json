@@ -1,9 +1,12 @@
 {
-  "asn": 8586,
-  "handle": "OBSL-AS",
-  "description": "TalkTalk Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8586,
+  "metadata" : {
+    "handle" : "OBSL-AS",
+    "description" : "TalkTalk Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.102.80.0/20",
       "37.152.32.0/20",
       "62.8.96.0/19",
@@ -20,7 +23,7 @@
       "213.83.64.0/18",
       "213.246.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4160::/32"
     ]
   }

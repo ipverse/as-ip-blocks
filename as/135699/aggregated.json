@@ -1,14 +1,17 @@
 {
-  "asn": 135699,
-  "handle": "STNINFO-AS",
-  "description": "Stn Infotech Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135699,
+  "metadata" : {
+    "handle" : "STNINFO-AS",
+    "description" : "Stn Infotech Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.71.52.0/22",
       "103.74.68.0/22",
       "103.140.185.0/24",
       "103.181.144.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

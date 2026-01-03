@@ -1,12 +1,15 @@
 {
-  "asn": 215252,
-  "handle": "LANTEC-AS",
-  "description": "Lantec Services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215252,
+  "metadata" : {
+    "handle" : "LANTEC-AS",
+    "description" : "Lantec Services Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.62.44.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:13a8::/48"
     ]
   }

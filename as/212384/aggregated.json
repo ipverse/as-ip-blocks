@@ -1,9 +1,12 @@
 {
-  "asn": 212384,
-  "handle": "INTERNET-3",
-  "description": "Simoresta UAB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212384,
+  "metadata" : {
+    "handle" : "INTERNET-3",
+    "description" : "Simoresta UAB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.59.0/24",
       "37.140.244.0/24",
       "37.252.27.0/24",
@@ -122,6 +125,6 @@
       "216.247.108.0/24",
       "217.28.128.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

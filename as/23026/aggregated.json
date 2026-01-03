@@ -1,12 +1,15 @@
 {
-  "asn": 23026,
-  "handle": "SETEC-ASTRONOMY",
-  "description": "SETEC ASTRONOMY INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23026,
+  "metadata" : {
+    "handle" : "SETEC-ASTRONOMY",
+    "description" : "SETEC ASTRONOMY INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.59.144.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:809:f000::/48",
       "2607:6100:1005::/48"
     ]

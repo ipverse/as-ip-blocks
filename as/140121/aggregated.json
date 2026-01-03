@@ -1,14 +1,17 @@
 {
-  "asn": 140121,
-  "handle": "HICOMIN-AS-IN",
-  "description": "Hcin Networks Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140121,
+  "metadata" : {
+    "handle" : "HICOMIN-AS-IN",
+    "description" : "Hcin Networks Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.3.185.0/24",
       "103.47.126.0/24",
       "103.152.156.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:dfa0::/32"
     ]
   }

@@ -1,16 +1,19 @@
 {
-  "asn": 136198,
-  "handle": "CHINANET-GUANGDONG-YUEXI-MAN",
-  "description": "CHINANET Guangdong province Yuexi MAN network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136198,
+  "metadata" : {
+    "handle" : "CHINANET-GUANGDONG-YUEXI-MAN",
+    "description" : "CHINANET Guangdong province Yuexi MAN network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.19.103.0/24",
       "146.222.79.0/24",
       "146.222.81.0/24",
       "146.222.94.0/24",
       "219.128.80.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:108:4044::/48",
       "240e:108:4844::/48",
       "240e:3b0:222f::/48",

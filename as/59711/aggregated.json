@@ -1,9 +1,12 @@
 {
-  "asn": 59711,
-  "handle": "HZ-EU-AS",
-  "description": "HZ Hosting Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59711,
+  "metadata" : {
+    "handle" : "HZ-EU-AS",
+    "description" : "HZ Hosting Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.149.248.0/23",
       "5.149.254.0/23",
       "45.38.120.0/23",
@@ -105,7 +108,7 @@
       "213.169.244.0/23",
       "213.232.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:8640::/48",
       "2a01:8640:2::/48",
       "2a01:8640:6::/48",

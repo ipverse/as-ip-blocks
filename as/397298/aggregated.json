@@ -1,9 +1,12 @@
 {
-  "asn": 397298,
-  "handle": "PEOPLES-TELECOM-LLC",
-  "description": "Peoples Telecommunications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397298,
+  "metadata" : {
+    "handle" : "PEOPLES-TELECOM-LLC",
+    "description" : "Peoples Telecommunications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.115.148.0/24",
       "50.115.158.0/24",
       "52.124.26.0/23",
@@ -11,6 +14,6 @@
       "64.250.60.0/23",
       "164.152.206.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

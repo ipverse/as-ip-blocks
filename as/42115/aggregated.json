@@ -1,14 +1,17 @@
 {
-  "asn": 42115,
-  "handle": "BASHCELL-AS",
-  "description": "MTS PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42115,
+  "metadata" : {
+    "handle" : "BASHCELL-AS",
+    "description" : "MTS PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.29.151.0/24",
       "95.139.67.0/24",
       "178.155.0.0/22",
       "213.87.192.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

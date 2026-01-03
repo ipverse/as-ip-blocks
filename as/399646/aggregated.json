@@ -1,9 +1,12 @@
 {
-  "asn": 399646,
-  "handle": "DARTNODE",
-  "description": "Snaju Development",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399646,
+  "metadata" : {
+    "handle" : "DARTNODE",
+    "description" : "Snaju Development",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.26.125.0/24",
       "23.26.133.0/24",
       "23.27.135.0/24",
@@ -23,7 +26,7 @@
       "166.88.160.0/24",
       "209.135.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f9f3::/36",
       "2a12:bec4:12ab::/48"
     ]

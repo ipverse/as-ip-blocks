@@ -1,9 +1,12 @@
 {
-  "asn": 15817,
-  "handle": "MITTWALD-AS",
-  "description": "Robert Meyer trading as Mittwald CM Service GmbH \u0026 Co. KG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15817,
+  "metadata" : {
+    "handle" : "MITTWALD-AS",
+    "description" : "Robert Meyer trading as Mittwald CM Service GmbH & Co. KG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.220.120.0/21",
       "37.202.0.0/21",
       "45.144.184.0/22",
@@ -30,7 +33,7 @@
       "193.53.246.0/23",
       "193.53.250.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:2a00::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 12886,
-  "handle": "LEWTELNET",
-  "description": "LEW TelNet GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12886,
+  "metadata" : {
+    "handle" : "LEWTELNET",
+    "description" : "LEW TelNet GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.204.160.0/19",
       "94.101.120.0/22",
       "103.21.236.0/22",
@@ -26,7 +29,7 @@
       "213.209.128.0/24",
       "213.209.142.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:113c::/48",
       "2001:67c:2bac::/48",
       "2a02:f90::/32"

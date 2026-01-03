@@ -1,9 +1,12 @@
 {
-  "asn": 33084,
-  "handle": "DC-NET",
-  "description": "DC-Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33084,
+  "metadata" : {
+    "handle" : "DC-NET",
+    "description" : "DC-Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.245.168.0/21",
       "164.82.1.0/24",
       "164.82.2.0/23",
@@ -20,7 +23,7 @@
       "164.82.254.0/24",
       "166.91.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:190::/48"
     ]
   }

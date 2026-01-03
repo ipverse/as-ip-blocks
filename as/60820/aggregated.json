@@ -1,12 +1,15 @@
 {
-  "asn": 60820,
-  "handle": "WIFI4ALL-AS",
-  "description": "WiFi4all B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60820,
+  "metadata" : {
+    "handle" : "WIFI4ALL-AS",
+    "description" : "WiFi4all B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.250.192.0/21",
       "185.64.108.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

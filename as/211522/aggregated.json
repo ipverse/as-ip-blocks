@@ -1,9 +1,12 @@
 {
-  "asn": 211522,
-  "handle": "HYPERCORELTD",
-  "description": "Hypercore Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211522,
+  "metadata" : {
+    "handle" : "HYPERCORELTD",
+    "description" : "Hypercore Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.60.152.0/23",
       "62.60.216.0/23",
       "62.60.244.0/22",
@@ -20,6 +23,6 @@
       "178.253.55.0/24",
       "194.67.201.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

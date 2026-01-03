@@ -1,9 +1,12 @@
 {
-  "asn": 11273,
-  "handle": "FDCSGNET",
-  "description": "Fiserv Solutions LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11273,
+  "metadata" : {
+    "handle" : "FDCSGNET",
+    "description" : "Fiserv Solutions LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.33.109.0/24",
       "12.111.214.0/24",
       "12.145.177.0/24",
@@ -74,6 +77,6 @@
       "216.66.214.0/24",
       "216.66.216.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

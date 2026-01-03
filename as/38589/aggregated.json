@@ -1,14 +1,17 @@
 {
-  "asn": 38589,
-  "handle": "NIDA-AS-AP",
-  "description": "Education Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38589,
+  "metadata" : {
+    "handle" : "NIDA-AS-AP",
+    "description" : "Education Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.21.149.0/24",
       "202.28.16.0/24",
       "202.29.108.0/23",
       "202.44.72.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 396839,
-  "handle": "TEKTONIC-PHL",
-  "description": "TekTonic",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396839,
+  "metadata" : {
+    "handle" : "TEKTONIC-PHL",
+    "description" : "TekTonic",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.123.149.0/24",
       "72.18.84.0/23",
       "108.161.142.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:4300:1::/48"
     ]
   }

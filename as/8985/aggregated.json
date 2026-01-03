@@ -1,9 +1,12 @@
 {
-  "asn": 8985,
-  "handle": "MSK-IX-SERVICES",
-  "description": "Join-stock company Internet ExchangeMSK-IX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8985,
+  "metadata" : {
+    "handle" : "MSK-IX-SERVICES",
+    "description" : "Join-stock company Internet ExchangeMSK-IX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.76.209.0/24",
       "193.232.64.0/24",
       "193.232.76.0/24",
@@ -21,7 +24,7 @@
       "195.209.147.0/24",
       "195.209.148.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:6d0:8000::/47",
       "2001:6d0:ffc7::/48",
       "2001:6d0:ffd8::/48",

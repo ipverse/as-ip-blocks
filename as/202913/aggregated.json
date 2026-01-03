@@ -1,14 +1,17 @@
 {
-  "asn": 202913,
-  "handle": "CLOUDWIFI",
-  "description": "CLOUDWIFI SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202913,
+  "metadata" : {
+    "handle" : "CLOUDWIFI",
+    "description" : "CLOUDWIFI SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.148.196.0/22",
       "80.78.128.0/22",
       "185.130.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:da00::/29"
     ]
   }

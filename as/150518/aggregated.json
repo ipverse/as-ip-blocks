@@ -1,11 +1,14 @@
 {
-  "asn": 150518,
-  "handle": "IDNIC-PMK-AS-ID",
-  "description": "Kemenko PMK RI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150518,
+  "metadata" : {
+    "handle" : "IDNIC-PMK-AS-ID",
+    "description" : "Kemenko PMK RI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.127.154.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

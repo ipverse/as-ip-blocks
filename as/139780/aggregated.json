@@ -1,13 +1,16 @@
 {
-  "asn": 139780,
-  "handle": "BIC-AS-AP",
-  "description": "Brother\u0027s ICT Connectivity",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139780,
+  "metadata" : {
+    "handle" : "BIC-AS-AP",
+    "description" : "Brother's ICT Connectivity",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.145.44.0/23",
       "103.225.219.0/24",
       "160.250.9.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

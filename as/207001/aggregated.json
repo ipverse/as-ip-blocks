@@ -1,10 +1,13 @@
 {
-  "asn": 207001,
-  "handle": "LOSAMIGOS",
-  "description": "Association LOS AMIGOS",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 207001,
+  "metadata" : {
+    "handle" : "LOSAMIGOS",
+    "description" : "Association LOS AMIGOS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a01:e901:161::/48",
       "2a01:e901:171::/48",
       "2a0b:b81:3501::/48",

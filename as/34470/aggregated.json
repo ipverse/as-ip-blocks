@@ -1,13 +1,16 @@
 {
-  "asn": 34470,
-  "handle": "PTKOM-AS",
-  "description": "PortTelekom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34470,
+  "metadata" : {
+    "handle" : "PTKOM-AS",
+    "description" : "PortTelekom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.95.128.0/19",
       "192.124.171.0/24",
       "193.124.9.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

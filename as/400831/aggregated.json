@@ -1,12 +1,15 @@
 {
-  "asn": 400831,
-  "handle": "PINGITS",
-  "description": "Ping ITS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400831,
+  "metadata" : {
+    "handle" : "PINGITS",
+    "description" : "Ping ITS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "98.158.239.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:b3:6000::/48"
     ]
   }

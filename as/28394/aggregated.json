@@ -1,9 +1,12 @@
 {
-  "asn": 28394,
-  "handle": "BICENTEL",
-  "description": "Bicentel SA de CV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28394,
+  "metadata" : {
+    "handle" : "BICENTEL",
+    "description" : "Bicentel SA de CV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.77.68.0/22",
       "38.147.148.0/22",
       "45.168.232.0/22",
@@ -15,7 +18,7 @@
       "200.0.90.0/23",
       "200.0.92.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:217::/32"
     ]
   }

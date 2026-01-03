@@ -1,9 +1,12 @@
 {
-  "asn": 37239,
-  "handle": "ICTGLOBE",
-  "description": "ICTGlobe Management (Pty) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37239,
+  "metadata" : {
+    "handle" : "ICTGLOBE",
+    "description" : "ICTGlobe Management (Pty) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.76.200.0/21",
       "102.206.82.0/23",
       "102.214.228.0/22",
@@ -21,7 +24,7 @@
       "196.46.184.0/22",
       "197.234.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fe78::/32"
     ]
   }

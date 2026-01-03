@@ -1,11 +1,14 @@
 {
-  "asn": 9915,
-  "handle": "LEEMON-AS",
-  "description": "Leemon Professional Consultant",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9915,
+  "metadata" : {
+    "handle" : "LEEMON-AS",
+    "description" : "Leemon Professional Consultant",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.67.160.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

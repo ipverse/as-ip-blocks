@@ -1,9 +1,12 @@
 {
-  "asn": 36492,
-  "handle": "GOOGLEWIFI",
-  "description": "Google LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36492,
+  "metadata" : {
+    "handle" : "GOOGLEWIFI",
+    "description" : "Google LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.9.224.0/23",
       "64.9.228.0/23",
       "64.9.236.0/22",
@@ -42,7 +45,7 @@
       "209.107.186.0/24",
       "209.107.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:ca00:f::/48",
       "2604:ca00:100::/41",
       "2604:ca00:180::/43",

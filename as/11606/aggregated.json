@@ -1,14 +1,17 @@
 {
-  "asn": 11606,
-  "handle": "ARCHTOP-FIBER-WVTC02",
-  "description": "Archtop Fiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11606,
+  "metadata" : {
+    "handle" : "ARCHTOP-FIBER-WVTC02",
+    "description" : "Archtop Fiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.210.32.0/20",
       "204.255.24.0/21",
       "208.228.96.0/21",
       "216.6.128.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

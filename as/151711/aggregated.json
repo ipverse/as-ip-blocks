@@ -1,13 +1,18 @@
 {
-  "asn": 151711,
-  "handle": "ANNEX-AS-IN",
-  "description": "DAILY FANTASY TECHNOLOGIES PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
-      "116.199.204.0/24"
+  "asn" : 151711,
+  "metadata" : {
+    "handle" : "ANNEX-AS-IN",
+    "description" : "DAILY FANTASY TECHNOLOGIES PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
+      "116.199.204.0/24",
+      "203.23.1.0/24"
     ],
-    "ipv6": [
-      "2001:df3:1a40::/48"
+    "ipv6" : [
+      "2001:df3:1a40::/48",
+      "2001:df6:1340::/48"
     ]
   }
 }

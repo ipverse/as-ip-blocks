@@ -1,9 +1,12 @@
 {
-  "asn": 139006,
-  "handle": "ZCPL-AS-AP",
-  "description": "Zoho Corporation PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139006,
+  "metadata" : {
+    "handle" : "ZCPL-AS-AP",
+    "description" : "Zoho Corporation PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "101.97.36.0/24",
       "103.91.166.0/24",
       "103.138.128.0/23",
@@ -12,7 +15,7 @@
       "169.148.168.0/22",
       "199.67.70.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:5a20:4::/46",
       "2400:5a20:a::/47",
       "2602:801:c00a::/47",

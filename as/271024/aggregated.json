@@ -1,14 +1,17 @@
 {
-  "asn": 271024,
-  "handle": "WLNET-TELECON",
-  "description": "WLNET TELECON",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271024,
+  "metadata" : {
+    "handle" : "WLNET-TELECON",
+    "description" : "WLNET TELECON",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.179.106.0/23",
       "45.227.101.0/24",
       "45.227.102.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:751c::/32"
     ]
   }

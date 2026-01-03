@@ -1,13 +1,16 @@
 {
-  "asn": 203605,
-  "handle": "SYNOTIO-AS",
-  "description": "Synotio AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203605,
+  "metadata" : {
+    "handle" : "SYNOTIO-AS",
+    "description" : "Synotio AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.198.192.0/22",
       "194.103.96.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:8e40::/29"
     ]
   }

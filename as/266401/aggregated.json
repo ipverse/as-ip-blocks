@@ -1,12 +1,15 @@
 {
-  "asn": 266401,
-  "handle": "CNA-NET",
-  "description": "CNA NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266401,
+  "metadata" : {
+    "handle" : "CNA-NET",
+    "description" : "CNA NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.81.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3748::/32"
     ]
   }

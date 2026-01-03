@@ -1,9 +1,12 @@
 {
-  "asn": 14397,
-  "handle": "AS-DNS",
-  "description": "1st Class Hosting LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14397,
+  "metadata" : {
+    "handle" : "AS-DNS",
+    "description" : "1st Class Hosting LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.49.128.0/23",
       "65.49.149.0/24",
       "104.251.115.0/24",
@@ -13,7 +16,7 @@
       "104.251.124.0/22",
       "192.55.95.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:c180::/36"
     ]
   }

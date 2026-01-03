@@ -1,9 +1,12 @@
 {
-  "asn": 205993,
-  "handle": "CAFETECNOLOGIA",
-  "description": "Cafe Tecnologia LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205993,
+  "metadata" : {
+    "handle" : "CAFETECNOLOGIA",
+    "description" : "Cafe Tecnologia LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.102.190.0/24",
       "85.255.120.0/21",
       "86.105.186.0/24",
@@ -16,6 +19,6 @@
       "188.214.155.0/24",
       "188.214.193.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

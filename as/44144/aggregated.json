@@ -1,9 +1,12 @@
 {
-  "asn": 44144,
-  "handle": "OMEGASOFT",
-  "description": "HostRoyale Technologies Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44144,
+  "metadata" : {
+    "handle" : "OMEGASOFT",
+    "description" : "HostRoyale Technologies Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.223.188.0/23",
       "45.12.179.0/24",
       "45.82.199.0/24",
@@ -15,6 +18,6 @@
       "104.232.218.0/24",
       "104.232.220.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

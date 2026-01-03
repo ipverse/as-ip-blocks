@@ -1,9 +1,12 @@
 {
-  "asn": 3339,
-  "handle": "FIBRAWORLD-AS",
-  "description": "FIBRAWORLD TELECOM S.A.U",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3339,
+  "metadata" : {
+    "handle" : "FIBRAWORLD-AS",
+    "description" : "FIBRAWORLD TELECOM S.A.U.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.29.186.0/23",
       "89.29.188.0/23",
       "89.29.208.0/20",
@@ -27,6 +30,6 @@
       "213.181.82.0/23",
       "213.181.95.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

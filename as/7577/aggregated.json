@@ -1,9 +1,12 @@
 {
-  "asn": 7577,
-  "handle": "VTC-AS-AP",
-  "description": "Joint Universities Computer Centre Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7577,
+  "metadata" : {
+    "handle" : "VTC-AS-AP",
+    "description" : "Joint Universities Computer Centre Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.94.174.0/24",
       "202.20.100.0/23",
       "202.40.208.0/21",
@@ -11,6 +14,6 @@
       "202.75.88.0/22",
       "202.75.93.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

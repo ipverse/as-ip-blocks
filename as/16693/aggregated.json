@@ -1,12 +1,15 @@
 {
-  "asn": 16693,
-  "handle": "AS-MIKES-HARD",
-  "description": "mikes hard lemonade",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16693,
+  "metadata" : {
+    "handle" : "AS-MIKES-HARD",
+    "description" : "mikes hard lemonade",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.91.23.0/24",
       "208.88.142.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

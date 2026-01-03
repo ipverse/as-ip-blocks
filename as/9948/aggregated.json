@@ -1,12 +1,15 @@
 {
-  "asn": 9948,
-  "handle": "NICEMONEY-AS",
-  "description": "NICE TCM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9948,
+  "metadata" : {
+    "handle" : "NICEMONEY-AS",
+    "description" : "NICE TCM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.126.13.0/24",
       "220.118.52.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

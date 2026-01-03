@@ -1,12 +1,15 @@
 {
-  "asn": 401511,
-  "handle": "MULLINAX-AUTOMOTIVE",
-  "description": "Mullinax Ford",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401511,
+  "metadata" : {
+    "handle" : "MULLINAX-AUTOMOTIVE",
+    "description" : "Mullinax Ford",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.129.228.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:e2c0:3::/48",
       "2607:e2c0:7::/48",
       "2607:e2c0:11::/48"

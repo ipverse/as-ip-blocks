@@ -1,9 +1,12 @@
 {
-  "asn": 136199,
-  "handle": "CHINANET-GUANGDONG-YUEDONG-MAN",
-  "description": "CHINANET Guangdong province Yuedong MAN network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136199,
+  "metadata" : {
+    "handle" : "CHINANET-GUANGDONG-YUEDONG-MAN",
+    "description" : "CHINANET Guangdong province Yuedong MAN network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.21.80.0/22",
       "14.21.104.0/24",
       "14.117.0.0/16",
@@ -60,7 +63,7 @@
       "219.130.128.0/19",
       "219.130.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:108:404d::/48",
       "240e:108:484d::/48"
     ]

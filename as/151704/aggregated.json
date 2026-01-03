@@ -1,9 +1,12 @@
 {
-  "asn": 151704,
-  "handle": "BHARATDC-AS",
-  "description": "BHARAT DATACENTER",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151704,
+  "metadata" : {
+    "handle" : "BHARATDC-AS",
+    "description" : "BHARAT DATACENTER",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.72.138.0/23",
       "45.95.3.0/24",
       "46.70.192.0/19",
@@ -13,7 +16,7 @@
       "157.10.98.0/23",
       "157.254.24.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:5cc0::/48",
       "2a0b:4e07:1c00::/47"
     ]

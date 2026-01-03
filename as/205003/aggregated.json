@@ -1,11 +1,14 @@
 {
-  "asn": 205003,
-  "handle": "HOLTER-AS",
-  "description": "Holter Verwaltungs GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205003,
+  "metadata" : {
+    "handle" : "HOLTER-AS",
+    "description" : "Holter Verwaltungs GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.183.28.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

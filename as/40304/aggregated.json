@@ -1,11 +1,14 @@
 {
-  "asn": 40304,
-  "handle": "DRYTEL",
-  "description": "Bell Canada",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40304,
+  "metadata" : {
+    "handle" : "DRYTEL",
+    "description" : "Bell Canada",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.202.144.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

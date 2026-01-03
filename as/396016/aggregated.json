@@ -1,16 +1,19 @@
 {
-  "asn": 396016,
-  "handle": "HYATT-CORP2",
-  "description": "Hyatt Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396016,
+  "metadata" : {
+    "handle" : "HYATT-CORP2",
+    "description" : "Hyatt Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "140.95.170.0/23",
       "140.95.178.0/23",
       "140.95.206.0/24",
       "140.95.227.0/24",
       "140.95.236.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:186:4::/46"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 200845,
-  "handle": "AVATEL-AS",
-  "description": "AVATEL TELECOM SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200845,
+  "metadata" : {
+    "handle" : "AVATEL-AS",
+    "description" : "AVATEL TELECOM SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.112.0/22",
       "5.181.100.0/22",
       "5.182.73.0/24",
@@ -354,7 +357,7 @@
       "217.114.44.0/24",
       "217.198.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:300::/32",
       "2a0e:8000::/32"
     ]

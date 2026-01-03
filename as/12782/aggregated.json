@@ -1,9 +1,12 @@
 {
-  "asn": 12782,
-  "handle": "UPPSALA-LANS-LANDSTING",
-  "description": "Uppsala Lans Landsting",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12782,
+  "metadata" : {
+    "handle" : "UPPSALA-LANS-LANDSTING",
+    "description" : "Uppsala Lans Landsting",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.36.32.0/23",
       "192.36.34.0/24",
       "192.36.104.0/24",
@@ -14,7 +17,7 @@
       "192.165.246.0/24",
       "195.252.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:58:20::/47"
     ]
   }

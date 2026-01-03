@@ -1,13 +1,16 @@
 {
-  "asn": 50144,
-  "handle": "UNIMATRIX-AS",
-  "description": "Unimatrix IT Solutions Kft",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50144,
+  "metadata" : {
+    "handle" : "UNIMATRIX-AS",
+    "description" : "Unimatrix IT Solutions Kft.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.159.236.0/23",
       "5.159.238.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:dd80:1001::/48",
       "2a14:dd80:1004::/48"
     ]

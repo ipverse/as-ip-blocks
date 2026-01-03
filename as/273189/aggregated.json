@@ -1,9 +1,12 @@
 {
-  "asn": 273189,
-  "handle": "CA-NETWORK",
-  "description": "CA NETWORK S.A. DE C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273189,
+  "metadata" : {
+    "handle" : "CA-NETWORK",
+    "description" : "CA NETWORK S.A. DE C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.67.246.0/23",
       "45.89.82.0/23",
       "80.80.90.0/23",
@@ -11,7 +14,7 @@
       "204.157.225.0/24",
       "204.157.226.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:7a50::/32"
     ]
   }

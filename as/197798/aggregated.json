@@ -1,13 +1,16 @@
 {
-  "asn": 197798,
-  "handle": "NET-CONNECT",
-  "description": "Net-Connect s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197798,
+  "metadata" : {
+    "handle" : "NET-CONNECT",
+    "description" : "Net-Connect s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.192.64.0/19",
       "45.129.156.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:28c0::/29"
     ]
   }

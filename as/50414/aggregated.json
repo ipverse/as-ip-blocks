@@ -1,12 +1,15 @@
 {
-  "asn": 50414,
-  "handle": "CODEBGP-MONITOR",
-  "description": "ThousandEyes LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50414,
+  "metadata" : {
+    "handle" : "CODEBGP-MONITOR",
+    "description" : "ThousandEyes LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.46.55.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:bc0::/47",
       "2a12:bc0:2::/48"
     ]

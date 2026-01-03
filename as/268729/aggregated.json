@@ -1,12 +1,15 @@
 {
-  "asn": 268729,
-  "handle": "WNETT-FIBRA",
-  "description": "Wnett Fibra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268729,
+  "metadata" : {
+    "handle" : "WNETT-FIBRA",
+    "description" : "Wnett Fibra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.171.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:59d8::/32"
     ]
   }

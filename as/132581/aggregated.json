@@ -1,14 +1,17 @@
 {
-  "asn": 132581,
-  "handle": "VICTRACK-AS-AP",
-  "description": "VICTORIAN RAIL TRACK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132581,
+  "metadata" : {
+    "handle" : "VICTRACK-AS-AP",
+    "description" : "VICTORIAN RAIL TRACK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.11.167.0/24",
       "203.27.24.0/23",
       "203.149.89.0/24",
       "203.149.91.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

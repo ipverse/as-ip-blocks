@@ -1,9 +1,12 @@
 {
-  "asn": 45560,
-  "handle": "TOPNET-IPT-AS-AP",
-  "description": "Top Global",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45560,
+  "metadata" : {
+    "handle" : "TOPNET-IPT-AS-AP",
+    "description" : "Top Global",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.188.46.0/23",
       "112.78.26.0/23",
       "112.78.104.0/22",
@@ -11,6 +14,6 @@
       "113.197.76.0/23",
       "123.255.230.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

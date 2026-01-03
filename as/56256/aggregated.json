@@ -1,13 +1,16 @@
 {
-  "asn": 56256,
-  "handle": "PERPUSNAS-AS-ID",
-  "description": "Perpustakaan Nasional RI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56256,
+  "metadata" : {
+    "handle" : "PERPUSNAS-AS-ID",
+    "description" : "Perpustakaan Nasional RI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.28.21.0/24",
       "103.41.109.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:3a00::/48"
     ]
   }

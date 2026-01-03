@@ -1,15 +1,18 @@
 {
-  "asn": 396993,
-  "handle": "SORAXUS",
-  "description": "Soraxus Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396993,
+  "metadata" : {
+    "handle" : "SORAXUS",
+    "description" : "Soraxus Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.248.21.0/24",
       "195.178.121.0/24",
       "198.135.169.0/24",
       "199.47.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f743:100::/40",
       "2602:f743:200::/40",
       "2602:f743:400::/40"

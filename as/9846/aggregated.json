@@ -1,11 +1,14 @@
 {
-  "asn": 9846,
-  "handle": "FIRSTDATA-AS",
-  "description": "KPN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9846,
+  "metadata" : {
+    "handle" : "FIRSTDATA-AS",
+    "description" : "KPN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.182.8.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

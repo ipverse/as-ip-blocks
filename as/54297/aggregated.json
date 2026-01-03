@@ -1,12 +1,15 @@
 {
-  "asn": 54297,
-  "handle": "SRS-AS",
-  "description": "Savannah River Site",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54297,
+  "metadata" : {
+    "handle" : "SRS-AS",
+    "description" : "Savannah River Site",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.33.240.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:b0:8000::/48"
     ]
   }

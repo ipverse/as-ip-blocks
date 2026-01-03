@@ -1,13 +1,16 @@
 {
-  "asn": 35073,
-  "handle": "PAKOM-AS",
-  "description": "P.A Granlund kommunikation AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35073,
+  "metadata" : {
+    "handle" : "PAKOM-AS",
+    "description" : "P.A Granlund kommunikation AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.71.97.0/24",
       "195.238.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:18fc::/48"
     ]
   }

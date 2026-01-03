@@ -1,9 +1,12 @@
 {
-  "asn": 215730,
-  "handle": "H2NEXUS-AS",
-  "description": "H2NEXUS LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215730,
+  "metadata" : {
+    "handle" : "H2NEXUS-AS",
+    "description" : "H2NEXUS LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.253.0/24",
       "45.144.52.0/23",
       "64.188.91.0/24",
@@ -24,7 +27,7 @@
       "192.124.178.0/24",
       "212.102.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:4142::/31",
       "2a0e:d600::/32",
       "2a0e:d604:1::/48"

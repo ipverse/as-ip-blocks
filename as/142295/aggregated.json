@@ -1,13 +1,16 @@
 {
-  "asn": 142295,
-  "handle": "NET-AS-AP",
-  "description": "Net gate (pvt) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142295,
+  "metadata" : {
+    "handle" : "NET-AS-AP",
+    "description" : "Net gate (pvt) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.12.79.0/24",
       "103.167.158.0/23",
       "103.182.14.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

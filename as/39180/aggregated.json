@@ -1,9 +1,12 @@
 {
-  "asn": 39180,
-  "handle": "LASOTEL",
-  "description": "LASOTEL SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39180,
+  "metadata" : {
+    "handle" : "LASOTEL",
+    "description" : "LASOTEL SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.148.240.0/21",
       "81.18.176.0/20",
       "93.191.40.0/21",
@@ -16,7 +19,7 @@
       "188.93.40.0/21",
       "195.13.34.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:378::/31"
     ]
   }

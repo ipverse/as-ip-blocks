@@ -1,11 +1,14 @@
 {
-  "asn": 11023,
-  "handle": "SYSSRC",
-  "description": "System Source",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11023,
+  "metadata" : {
+    "handle" : "SYSSRC",
+    "description" : "System Source",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.251.32.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

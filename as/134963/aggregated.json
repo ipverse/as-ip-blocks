@@ -1,9 +1,12 @@
 {
-  "asn": 134963,
-  "handle": "ASEPL-AS-AP",
-  "description": "Alibaba Cloud (Singapore) Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134963,
+  "metadata" : {
+    "handle" : "ASEPL-AS-AP",
+    "description" : "Alibaba Cloud (Singapore) Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.208.136.0/22",
       "8.209.122.0/24",
       "8.211.228.0/22",
@@ -82,7 +85,7 @@
       "205.198.43.0/24",
       "209.146.118.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:8680:4004::/46",
       "2401:8680:4100::/48",
       "2401:8680:4102::/48"

@@ -1,13 +1,16 @@
 {
-  "asn": 41563,
-  "handle": "OST-AS",
-  "description": "OSTKOM SIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41563,
+  "metadata" : {
+    "handle" : "OST-AS",
+    "description" : "OSTKOM SIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.254.128.0/18",
       "185.182.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:2ac0::/29"
     ]
   }

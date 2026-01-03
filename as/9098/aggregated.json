@@ -1,12 +1,15 @@
 {
-  "asn": 9098,
-  "handle": "SDNS",
-  "description": "Seven Digital Network Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9098,
+  "metadata" : {
+    "handle" : "SDNS",
+    "description" : "Seven Digital Network Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.191.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:f600:4045::/48"
     ]
   }

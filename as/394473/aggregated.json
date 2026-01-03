@@ -1,9 +1,12 @@
 {
-  "asn": 394473,
-  "handle": "BTC-ONLINE",
-  "description": "Brantley Telephone Company Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394473,
+  "metadata" : {
+    "handle" : "BTC-ONLINE",
+    "description" : "Brantley Telephone Company Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.120.88.0/22",
       "192.190.154.0/23",
       "192.190.156.0/22",
@@ -12,6 +15,6 @@
       "199.250.252.0/23",
       "209.16.148.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

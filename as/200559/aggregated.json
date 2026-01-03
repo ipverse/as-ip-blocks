@@ -1,12 +1,15 @@
 {
-  "asn": 200559,
-  "handle": "BOTKYRKA-KOMMUN-ASN",
-  "description": "Botkyrka Kommun",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200559,
+  "metadata" : {
+    "handle" : "BOTKYRKA-KOMMUN-ASN",
+    "description" : "Botkyrka Kommun",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.71.40.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2edc::/48"
     ]
   }

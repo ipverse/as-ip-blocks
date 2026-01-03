@@ -1,9 +1,12 @@
 {
-  "asn": 136907,
-  "handle": "HWCLOUDS-AS-AP",
-  "description": "HUAWEI INTERNATIONAL PTE. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136907,
+  "metadata" : {
+    "handle" : "HWCLOUDS-AS-AP",
+    "description" : "HUAWEI INTERNATIONAL PTE. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.178.32.0/19",
       "14.137.132.0/22",
       "14.137.136.0/21",
@@ -175,7 +178,7 @@
       "219.83.121.0/24",
       "219.83.122.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:a140:43::/48",
       "2405:f080::/39",
       "2405:f080:200::/47",

@@ -1,13 +1,16 @@
 {
-  "asn": 12155,
-  "handle": "AS-HMPL",
-  "description": "Henderson Municipal Power \u0026 Light",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12155,
+  "metadata" : {
+    "handle" : "AS-HMPL",
+    "description" : "Henderson Municipal Power & Light",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.75.240.0/20",
       "199.36.192.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe7d::/36"
     ]
   }

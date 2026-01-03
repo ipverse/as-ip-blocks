@@ -1,9 +1,12 @@
 {
-  "asn": 16733,
-  "handle": "SYMANTEC-CORPORATION",
-  "description": "Gen Digital Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16733,
+  "metadata" : {
+    "handle" : "SYMANTEC-CORPORATION",
+    "description" : "Gen Digital Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "155.64.16.0/23",
       "155.64.24.0/24",
       "155.64.34.0/24",
@@ -18,7 +21,7 @@
       "166.98.140.0/24",
       "166.98.242.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:154:a08::/48",
       "2620:154:a10::/48"
     ]

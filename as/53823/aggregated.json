@@ -1,13 +1,16 @@
 {
-  "asn": 53823,
-  "handle": "SMTA",
-  "description": "Scio Mutual Telephone Association",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53823,
+  "metadata" : {
+    "handle" : "SMTA",
+    "description" : "Scio Mutual Telephone Association",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.15.0.0/21",
       "209.172.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:48c0::/32"
     ]
   }

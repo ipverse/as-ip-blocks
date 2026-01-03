@@ -1,9 +1,12 @@
 {
-  "asn": 15011,
-  "handle": "JAGUAR-1",
-  "description": "Jaguar Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15011,
+  "metadata" : {
+    "handle" : "JAGUAR-1",
+    "description" : "Jaguar Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.92.152.0/21",
       "38.109.28.0/22",
       "38.126.184.0/21",
@@ -37,6 +40,6 @@
       "216.188.192.0/19",
       "217.180.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

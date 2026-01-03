@@ -1,9 +1,12 @@
 {
-  "asn": 131717,
-  "handle": "IDNIC-CIFO-AS-ID",
-  "description": "PT Citra Jelajah Informatika",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131717,
+  "metadata" : {
+    "handle" : "IDNIC-CIFO-AS-ID",
+    "description" : "PT Citra Jelajah Informatika",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.118.112.0/22",
       "103.14.20.0/23",
       "103.25.166.0/23",
@@ -13,7 +16,7 @@
       "115.178.52.0/23",
       "115.178.54.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:10c0::/32"
     ]
   }

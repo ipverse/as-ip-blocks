@@ -1,11 +1,14 @@
 {
-  "asn": 6832,
-  "handle": "DPU-AS",
-  "description": "Daugavpils university",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6832,
+  "metadata" : {
+    "handle" : "DPU-AS",
+    "description" : "Daugavpils university",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.148.144.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

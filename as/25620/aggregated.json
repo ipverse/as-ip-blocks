@@ -1,9 +1,12 @@
 {
-  "asn": 25620,
-  "handle": "COTAS",
-  "description": "COTAS LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25620,
+  "metadata" : {
+    "handle" : "COTAS",
+    "description" : "COTAS LTDA.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.171.192.0/18",
       "190.180.0.0/17",
       "190.186.0.0/16",
@@ -13,7 +16,7 @@
       "200.119.192.0/19",
       "201.222.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:390::/32"
     ]
   }

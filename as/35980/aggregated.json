@@ -1,13 +1,16 @@
 {
-  "asn": 35980,
-  "handle": "GCL-01",
-  "description": "Good Connections LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35980,
+  "metadata" : {
+    "handle" : "GCL-01",
+    "description" : "Good Connections LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.144.98.0/24",
       "204.10.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:eec0:1::/48",
       "2607:eec0:2::/47",
       "2607:eec0:4::/47",

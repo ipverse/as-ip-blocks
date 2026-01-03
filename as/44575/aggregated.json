@@ -1,9 +1,12 @@
 {
-  "asn": 44575,
-  "handle": "MWTV-AS1",
-  "description": "SIA MWTV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44575,
+  "metadata" : {
+    "handle" : "MWTV-AS1",
+    "description" : "SIA MWTV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "92.63.80.0/22",
       "92.63.84.0/24",
       "92.63.86.0/24",
@@ -11,6 +14,6 @@
       "92.63.92.0/23",
       "193.110.164.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 23859,
-  "handle": "UNSW-AS-AP",
-  "description": "Australian Academic and Research Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23859,
+  "metadata" : {
+    "handle" : "UNSW-AS-AP",
+    "description" : "Australian Academic and Research Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.94.0.0/16",
       "131.236.0.0/16",
       "149.171.0.0/16",
       "203.10.48.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

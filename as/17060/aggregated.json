@@ -1,9 +1,12 @@
 {
-  "asn": 17060,
-  "handle": "E-NETWORKS",
-  "description": "NBCUniversal",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17060,
+  "metadata" : {
+    "handle" : "E-NETWORKS",
+    "description" : "NBCUniversal",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.239.57.0/24",
       "64.129.180.0/24",
       "70.39.32.0/23",
@@ -11,6 +14,6 @@
       "70.39.36.0/23",
       "70.39.40.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

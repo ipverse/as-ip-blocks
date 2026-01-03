@@ -1,12 +1,15 @@
 {
-  "asn": 201750,
-  "handle": "CONTRASEC",
-  "description": "Contrasec Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201750,
+  "metadata" : {
+    "handle" : "CONTRASEC",
+    "description" : "Contrasec Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.252.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:2640::/32"
     ]
   }

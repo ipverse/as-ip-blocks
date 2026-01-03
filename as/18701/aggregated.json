@@ -1,9 +1,12 @@
 {
-  "asn": 18701,
-  "handle": "PPCO-US",
-  "description": "ConocoPhillips Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18701,
+  "metadata" : {
+    "handle" : "PPCO-US",
+    "description" : "ConocoPhillips Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.32.16.0/23",
       "138.32.24.0/22",
       "138.32.32.0/19",
@@ -12,6 +15,6 @@
       "138.32.232.0/22",
       "138.32.248.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

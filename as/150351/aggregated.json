@@ -1,11 +1,14 @@
 {
-  "asn": 150351,
-  "handle": "SYSSOLUTION-AS-AP",
-  "description": "SYSSOLUTION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150351,
+  "metadata" : {
+    "handle" : "SYSSOLUTION-AS-AP",
+    "description" : "SYSSOLUTION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.17.150.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

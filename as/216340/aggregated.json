@@ -1,10 +1,13 @@
 {
-  "asn": 216340,
-  "handle": "MAPL-AS",
-  "description": "TheMaple Inc",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 216340,
+  "metadata" : {
+    "handle" : "MAPL-AS",
+    "description" : "TheMaple Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a05:dfc1:8f22::/48",
       "2a05:dfc1:8f82::/48",
       "2a0c:9a40:8300::/48"

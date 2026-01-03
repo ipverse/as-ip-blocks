@@ -1,14 +1,17 @@
 {
-  "asn": 27708,
-  "handle": "GCA-TELECOM",
-  "description": "GCA Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27708,
+  "metadata" : {
+    "handle" : "GCA-TELECOM",
+    "description" : "GCA Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.151.176.0/22",
       "190.151.180.0/24",
       "190.151.182.0/23",
       "190.151.184.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

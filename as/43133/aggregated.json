@@ -1,13 +1,16 @@
 {
-  "asn": 43133,
-  "handle": "COSMONOVA-BROADCAST-AS",
-  "description": "Cosmonova Broadcast LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43133,
+  "metadata" : {
+    "handle" : "COSMONOVA-BROADCAST-AS",
+    "description" : "Cosmonova Broadcast LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.196.132.0/22",
       "185.102.85.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:9780::/29"
     ]
   }

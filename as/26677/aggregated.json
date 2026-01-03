@@ -1,9 +1,12 @@
 {
-  "asn": 26677,
-  "handle": "ORION-ASN",
-  "description": "ORION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26677,
+  "metadata" : {
+    "handle" : "ORION-ASN",
+    "description" : "ORION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.97.16.0/20",
       "142.51.70.0/23",
       "142.155.0.0/22",
@@ -25,7 +28,7 @@
       "199.212.254.0/24",
       "205.211.94.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:b340::/32",
       "2607:fd78::/32"
     ]

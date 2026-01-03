@@ -1,14 +1,17 @@
 {
-  "asn": 2088,
-  "handle": "FR-RENATER-MAYOTTE",
-  "description": "Renater",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2088,
+  "metadata" : {
+    "handle" : "FR-RENATER-MAYOTTE",
+    "description" : "Renater",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.51.58.0/24",
       "193.54.33.0/24",
       "193.55.5.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:661:a000::/35"
     ]
   }

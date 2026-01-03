@@ -1,12 +1,15 @@
 {
-  "asn": 394570,
-  "handle": "ALASU",
-  "description": "Alabama State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394570,
+  "metadata" : {
+    "handle" : "ALASU",
+    "description" : "Alabama State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.111.112.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:c1c0::/32"
     ]
   }

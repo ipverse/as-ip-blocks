@@ -1,9 +1,12 @@
 {
-  "asn": 43205,
-  "handle": "BULSATCOM-BG-AS",
-  "description": "Vivacom Bulgaria EAD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43205,
+  "metadata" : {
+    "handle" : "BULSATCOM-BG-AS",
+    "description" : "Vivacom Bulgaria EAD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.143.192.0/18",
       "46.40.64.0/18",
       "46.47.64.0/18",
@@ -19,7 +22,7 @@
       "212.75.0.0/19",
       "213.214.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:6800::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 35559,
-  "handle": "SOMEADDRESS",
-  "description": "Someaddress Networks Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35559,
+  "metadata" : {
+    "handle" : "SOMEADDRESS",
+    "description" : "Someaddress Networks Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.117.226.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1b58::/47"
     ]
   }

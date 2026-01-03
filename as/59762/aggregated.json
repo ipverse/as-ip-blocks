@@ -1,12 +1,15 @@
 {
-  "asn": 59762,
-  "handle": "INSTALTELECOM-AS",
-  "description": "PE InstalTelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59762,
+  "metadata" : {
+    "handle" : "INSTALTELECOM-AS",
+    "description" : "PE InstalTelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.170.97.0/24",
       "93.170.253.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

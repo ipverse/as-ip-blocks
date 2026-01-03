@@ -1,9 +1,12 @@
 {
-  "asn": 45459,
-  "handle": "SOLARIX-INTERNET-AS-AP",
-  "description": "Solarix Networks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45459,
+  "metadata" : {
+    "handle" : "SOLARIX-INTERNET-AS-AP",
+    "description" : "Solarix Networks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.215.112.0/21",
       "103.14.40.0/22",
       "112.109.64.0/21",
@@ -21,7 +24,7 @@
       "210.79.50.0/24",
       "210.79.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:3800::/47",
       "2404:3800:8::/46"
     ]

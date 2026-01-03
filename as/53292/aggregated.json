@@ -1,9 +1,12 @@
 {
-  "asn": 53292,
-  "handle": "MWAY",
-  "description": "ManagedWay",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53292,
+  "metadata" : {
+    "handle" : "MWAY",
+    "description" : "ManagedWay",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.113.48.0/23",
       "64.113.50.0/24",
       "64.113.53.0/24",
@@ -30,7 +33,7 @@
       "209.104.141.0/24",
       "209.104.143.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:cc00::/48",
       "2604:cc00:c::/47",
       "2604:cc00:1a::/48",

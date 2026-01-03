@@ -1,12 +1,15 @@
 {
-  "asn": 8067,
-  "handle": "WSCNET-AS",
-  "description": "Westfield State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8067,
+  "metadata" : {
+    "handle" : "WSCNET-AS",
+    "description" : "Westfield State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.241.144.0/20",
       "207.159.160.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

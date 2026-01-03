@@ -1,15 +1,18 @@
 {
-  "asn": 42876,
-  "handle": "UNIT-IT-SERVICES-APS",
-  "description": "Unit IT Services ApS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42876,
+  "metadata" : {
+    "handle" : "UNIT-IT-SERVICES-APS",
+    "description" : "Unit IT Services ApS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.221.224.0/19",
       "86.54.12.0/22",
       "185.130.189.0/24",
       "193.47.186.0/24",
       "194.60.243.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

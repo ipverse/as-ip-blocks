@@ -1,9 +1,12 @@
 {
-  "asn": 134465,
-  "handle": "HARVILMEDIA-AS-AP",
-  "description": "M/S HARVIL MEDIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134465,
+  "metadata" : {
+    "handle" : "HARVILMEDIA-AS-AP",
+    "description" : "M/S HARVIL MEDIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.231.93.0/24",
       "46.37.122.0/24",
       "94.249.151.0/24",
@@ -14,6 +17,6 @@
       "166.0.244.0/24",
       "175.29.21.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

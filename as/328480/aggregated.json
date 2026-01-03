@@ -1,13 +1,16 @@
 {
-  "asn": 328480,
-  "handle": "TOOMUCHWIFI",
-  "description": "Too Much Wifi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328480,
+  "metadata" : {
+    "handle" : "TOOMUCHWIFI",
+    "description" : "Too Much Wifi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.68.120.0/22",
       "102.219.168.0/22",
       "102.221.232.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

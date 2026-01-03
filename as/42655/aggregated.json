@@ -1,14 +1,17 @@
 {
-  "asn": 42655,
-  "handle": "BESTHOSTING-AS",
-  "description": "ON-LINE Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42655,
+  "metadata" : {
+    "handle" : "BESTHOSTING-AS",
+    "description" : "ON-LINE Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.41.216.0/21",
       "194.28.172.0/22",
       "195.248.234.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2224::/48"
     ]
   }

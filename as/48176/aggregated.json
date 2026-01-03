@@ -1,9 +1,12 @@
 {
-  "asn": 48176,
-  "handle": "OOOSET-AS",
-  "description": "MTS PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48176,
+  "metadata" : {
+    "handle" : "OOOSET-AS",
+    "description" : "MTS PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.18.152.0/21",
       "62.122.240.0/21",
       "81.177.56.0/21",
@@ -31,7 +34,7 @@
       "213.222.232.0/21",
       "213.222.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:aa00::/36"
     ]
   }

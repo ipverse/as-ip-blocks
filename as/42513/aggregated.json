@@ -1,14 +1,17 @@
 {
-  "asn": 42513,
-  "handle": "NATILIK-AS",
-  "description": "Natilik Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42513,
+  "metadata" : {
+    "handle" : "NATILIK-AS",
+    "description" : "Natilik Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "188.116.46.0/24",
       "192.111.100.0/24",
       "194.62.4.0/23",
       "194.62.8.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

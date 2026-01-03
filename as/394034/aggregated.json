@@ -1,9 +1,12 @@
 {
-  "asn": 394034,
-  "handle": "BROOKLYN-FIBER",
-  "description": "Brooklyn Fiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394034,
+  "metadata" : {
+    "handle" : "BROOKLYN-FIBER",
+    "description" : "Brooklyn Fiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.83.38.0/23",
       "38.84.204.0/23",
       "38.89.128.0/23",
@@ -14,7 +17,7 @@
       "38.125.194.0/24",
       "184.104.184.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:15e0::/32"
     ]
   }

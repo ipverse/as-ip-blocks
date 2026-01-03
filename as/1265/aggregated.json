@@ -1,12 +1,15 @@
 {
-  "asn": 1265,
-  "handle": "SAINT-MARYS-AS",
-  "description": "Saint Mary\u0027s College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1265,
+  "metadata" : {
+    "handle" : "SAINT-MARYS-AS",
+    "description" : "Saint Mary's College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.53.0.0/18",
       "147.53.64.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

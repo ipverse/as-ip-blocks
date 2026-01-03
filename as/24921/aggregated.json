@@ -1,9 +1,12 @@
 {
-  "asn": 24921,
-  "handle": "LMT-3G",
-  "description": "Latvijas Mobilais Telefons SIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24921,
+  "metadata" : {
+    "handle" : "LMT-3G",
+    "description" : "Latvijas Mobilais Telefons SIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.252.168.0/22",
       "45.140.32.0/22",
       "45.149.160.0/22",
@@ -23,7 +26,7 @@
       "212.93.127.0/24",
       "213.175.79.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:ec00:b100::/40",
       "2a03:ec00:b300::/40",
       "2a03:ec00:b400::/40",

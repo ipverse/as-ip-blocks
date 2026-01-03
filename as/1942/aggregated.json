@@ -1,9 +1,12 @@
 {
-  "asn": 1942,
-  "handle": "FR-TIGRE",
-  "description": "Renater",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1942,
+  "metadata" : {
+    "handle" : "FR-TIGRE",
+    "description" : "Renater",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.149.140.0/22",
       "129.88.0.0/16",
       "130.190.0.0/16",
@@ -15,6 +18,6 @@
       "192.93.174.0/23",
       "192.93.176.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 9751,
-  "handle": "ASTCA-AS-AP",
-  "description": "American Samoa Telecommunications Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9751,
+  "metadata" : {
+    "handle" : "ASTCA-AS-AP",
+    "description" : "American Samoa Telecommunications Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.41.132.0/23",
       "38.101.165.0/24",
       "38.111.133.0/24",
@@ -19,7 +22,7 @@
       "208.15.230.0/24",
       "208.136.102.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:2140::/32"
     ]
   }

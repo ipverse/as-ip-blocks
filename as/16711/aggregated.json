@@ -1,13 +1,16 @@
 {
-  "asn": 16711,
-  "handle": "EHI-NA-AS-2",
-  "description": "Enterprise Holdings Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16711,
+  "metadata" : {
+    "handle" : "EHI-NA-AS-2",
+    "description" : "Enterprise Holdings Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.78.80.0/24",
       "148.78.90.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:103:e008::/47"
     ]
   }

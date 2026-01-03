@@ -1,9 +1,12 @@
 {
-  "asn": 22394,
-  "handle": "CELLCO",
-  "description": "Verizon Business",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22394,
+  "metadata" : {
+    "handle" : "CELLCO",
+    "description" : "Verizon Business",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.40.0.0/13",
       "63.54.0.0/15",
       "63.58.0.0/15",
@@ -73,7 +76,7 @@
       "199.224.32.0/19",
       "204.147.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4888::/32",
       "2600:1000::/28",
       "2600:1010::/29",

@@ -1,12 +1,15 @@
 {
-  "asn": 270270,
-  "handle": "GAMA-TELECOM",
-  "description": "Gama Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270270,
+  "metadata" : {
+    "handle" : "GAMA-TELECOM",
+    "description" : "Gama Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.123.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6970::/32"
     ]
   }

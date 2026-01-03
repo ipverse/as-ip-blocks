@@ -1,13 +1,16 @@
 {
-  "asn": 51224,
-  "handle": "LINKLAB-AS",
-  "description": "link-lab GbR Schmidt Waehlisch",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51224,
+  "metadata" : {
+    "handle" : "LINKLAB-AS",
+    "description" : "link-lab GbR Schmidt Waehlisch",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.216.216.0/24",
       "194.13.70.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:254::/48",
       "2a05:e747::/32"
     ]

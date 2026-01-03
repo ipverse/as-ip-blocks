@@ -1,9 +1,12 @@
 {
-  "asn": 39783,
-  "handle": "WEBHUSET-AS",
-  "description": "Webhuset AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39783,
+  "metadata" : {
+    "handle" : "WEBHUSET-AS",
+    "description" : "Webhuset AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.24.128.0/21",
       "46.226.8.0/21",
       "62.122.248.0/21",
@@ -15,7 +18,7 @@
       "185.35.184.0/22",
       "193.93.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2690::/32"
     ]
   }

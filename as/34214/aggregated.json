@@ -1,12 +1,15 @@
 {
-  "asn": 34214,
-  "handle": "IPMG-AS",
-  "description": "TOV IP Media Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34214,
+  "metadata" : {
+    "handle" : "IPMG-AS",
+    "description" : "TOV IP Media Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.49.0.0/22",
       "194.88.1.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

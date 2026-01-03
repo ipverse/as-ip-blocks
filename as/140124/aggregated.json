@@ -1,13 +1,16 @@
 {
-  "asn": 140124,
-  "handle": "LEEWAY-AS-IN",
-  "description": "Leeway Softtech Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140124,
+  "metadata" : {
+    "handle" : "LEEWAY-AS-IN",
+    "description" : "Leeway Softtech Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.204.0/24",
       "103.153.179.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:4f40::/48"
     ]
   }

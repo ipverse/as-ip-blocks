@@ -1,9 +1,12 @@
 {
-  "asn": 35004,
-  "handle": "NETGRUP",
-  "description": "Branch Enterprise Netgroup-Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35004,
+  "metadata" : {
+    "handle" : "NETGRUP",
+    "description" : "Branch Enterprise Netgroup-Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.131.164.0/24",
       "45.131.166.0/24",
       "93.170.116.0/22",
@@ -13,6 +16,6 @@
       "195.74.72.0/24",
       "195.162.80.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

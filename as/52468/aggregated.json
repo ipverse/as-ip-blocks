@@ -1,9 +1,12 @@
 {
-  "asn": 52468,
-  "handle": "UFINET-PANAMA",
-  "description": "UFINET PANAMA S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52468,
+  "metadata" : {
+    "handle" : "UFINET-PANAMA",
+    "description" : "UFINET PANAMA S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.52.211.0/24",
       "38.52.213.0/24",
       "38.211.251.0/24",
@@ -192,7 +195,7 @@
       "204.199.151.0/24",
       "206.132.99.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:1b:f800::/48",
       "2801:1e:e800::/48",
       "2801:1f:2800::/48",

@@ -1,13 +1,16 @@
 {
-  "asn": 270022,
-  "handle": "FULLNET",
-  "description": "FULLNET SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270022,
+  "metadata" : {
+    "handle" : "FULLNET",
+    "description" : "FULLNET SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.40.109.0/24",
       "186.38.56.0/24",
       "191.52.208.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

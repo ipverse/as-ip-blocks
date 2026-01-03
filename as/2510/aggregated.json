@@ -1,9 +1,12 @@
 {
-  "asn": 2510,
-  "handle": "INFOWEB",
-  "description": "FUJITSU LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2510,
+  "metadata" : {
+    "handle" : "INFOWEB",
+    "description" : "FUJITSU LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.1.0.0/17",
       "61.121.64.0/18",
       "61.124.64.0/18",
@@ -64,7 +67,7 @@
       "222.158.0.0/18",
       "222.158.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:258::/32"
     ]
   }

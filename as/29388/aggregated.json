@@ -1,12 +1,15 @@
 {
-  "asn": 29388,
-  "handle": "ASN-BESTCOM",
-  "description": "Best Telecom ISP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29388,
+  "metadata" : {
+    "handle" : "ASN-BESTCOM",
+    "description" : "Best Telecom ISP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "217.72.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5800::/32"
     ]
   }

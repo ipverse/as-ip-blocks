@@ -1,12 +1,15 @@
 {
-  "asn": 39990,
-  "handle": "BCG",
-  "description": "Boulder County Government",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39990,
+  "metadata" : {
+    "handle" : "BCG",
+    "description" : "Boulder County Government",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "97.107.70.0/24",
       "192.188.155.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

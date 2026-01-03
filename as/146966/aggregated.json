@@ -1,9 +1,12 @@
 {
-  "asn": 146966,
-  "handle": "CHINANET-YANGZHOUNORTH-IDC",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 146966,
+  "metadata" : {
+    "handle" : "CHINANET-YANGZHOUNORTH-IDC",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.71.79.0/24",
       "49.71.126.0/23",
       "49.86.40.0/22",
@@ -60,7 +63,7 @@
       "222.191.77.0/24",
       "222.191.78.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:1a:160::/44",
       "240e:978:1d04::/48",
       "240e:978:2900::/40",

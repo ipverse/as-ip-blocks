@@ -1,13 +1,16 @@
 {
-  "asn": 199900,
-  "handle": "ASN-BEDSYS",
-  "description": "Bedriftssystemer AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199900,
+  "metadata" : {
+    "handle" : "ASN-BEDSYS",
+    "description" : "Bedriftssystemer AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.207.226.0/23",
       "185.41.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5020::/47"
     ]
   }

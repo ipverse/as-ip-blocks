@@ -1,9 +1,12 @@
 {
-  "asn": 396292,
-  "handle": "EPSILON-EGI",
-  "description": "Epsilon Data Management LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396292,
+  "metadata" : {
+    "handle" : "EPSILON-EGI",
+    "description" : "Epsilon Data Management LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.54.38.0/23",
       "142.54.201.0/24",
       "142.54.243.0/24",
@@ -16,6 +19,6 @@
       "159.127.101.0/24",
       "159.127.103.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

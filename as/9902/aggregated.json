@@ -1,9 +1,12 @@
 {
-  "asn": 9902,
-  "handle": "NEOCOMISP-KH-AP",
-  "description": "NeocomISP Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9902,
+  "metadata" : {
+    "handle" : "NEOCOMISP-KH-AP",
+    "description" : "NeocomISP Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.194.192.0/20",
       "103.23.136.0/22",
       "103.25.93.0/24",
@@ -31,7 +34,7 @@
       "203.80.160.0/23",
       "203.167.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:5100::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 270277,
-  "handle": "NEXUS-TELECOM",
-  "description": "Nexus Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270277,
+  "metadata" : {
+    "handle" : "NEXUS-TELECOM",
+    "description" : "Nexus Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.124.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:698c::/32"
     ]
   }

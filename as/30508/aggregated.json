@@ -1,11 +1,14 @@
 {
-  "asn": 30508,
-  "handle": "TXDPS",
-  "description": "Texas Department of Public Safety",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30508,
+  "metadata" : {
+    "handle" : "TXDPS",
+    "description" : "Texas Department of Public Safety",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.193.254.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

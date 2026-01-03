@@ -1,9 +1,12 @@
 {
-  "asn": 27983,
-  "handle": "RED-INTERCABLE-DIGITAL",
-  "description": "Red Intercable Digital S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27983,
+  "metadata" : {
+    "handle" : "RED-INTERCABLE-DIGITAL",
+    "description" : "Red Intercable Digital S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.71.56.0/22",
       "45.161.132.0/22",
       "45.166.82.0/23",
@@ -134,6 +137,6 @@
       "190.185.237.0/24",
       "190.185.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 45374,
-  "handle": "CCS-AS",
-  "description": "CCS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45374,
+  "metadata" : {
+    "handle" : "CCS-AS",
+    "description" : "CCS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.96.64.0/20",
       "61.96.168.0/21",
       "61.96.176.0/23",
@@ -35,6 +38,6 @@
       "211.187.13.0/24",
       "211.187.15.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

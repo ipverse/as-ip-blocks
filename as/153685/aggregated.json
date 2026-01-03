@@ -1,9 +1,14 @@
 {
-  "asn": 153685,
-  "handle": "SBL-AS-AP",
-  "description": "S.I.S.P Broadband",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": []
+  "asn" : 153685,
+  "metadata" : {
+    "handle" : "SBL-AS-AP",
+    "description" : "S.I.S.P Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
+      "163.223.92.0/23"
+    ],
+    "ipv6" : [ ]
   }
 }

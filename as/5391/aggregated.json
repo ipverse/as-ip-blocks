@@ -1,9 +1,12 @@
 {
-  "asn": 5391,
-  "handle": "T-HT",
-  "description": "Hrvatski Telekom d.d",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5391,
+  "metadata" : {
+    "handle" : "T-HT",
+    "description" : "Hrvatski Telekom d.d.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.216.192.0/19",
       "31.217.0.0/17",
       "46.188.128.0/17",
@@ -19,7 +22,7 @@
       "195.29.0.0/16",
       "213.202.71.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:c30::/29"
     ]
   }

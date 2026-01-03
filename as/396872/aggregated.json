@@ -1,9 +1,12 @@
 {
-  "asn": 396872,
-  "handle": "ADVANCED-INTERNET",
-  "description": "Advanced Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396872,
+  "metadata" : {
+    "handle" : "ADVANCED-INTERNET",
+    "description" : "Advanced Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.132.224.0/23",
       "130.12.128.0/22",
       "142.202.24.0/22",
@@ -21,7 +24,7 @@
       "216.7.63.0/24",
       "216.39.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe65:20::/43",
       "2602:fe65:40::/43",
       "2602:fe65:60::/44"

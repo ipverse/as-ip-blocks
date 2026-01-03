@@ -1,14 +1,17 @@
 {
-  "asn": 399728,
-  "handle": "PFOUNDATION",
-  "description": "P Foundation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399728,
+  "metadata" : {
+    "handle" : "PFOUNDATION",
+    "description" : "P Foundation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.87.123.0/24",
       "38.146.216.0/24",
       "172.98.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:98:e000::/48",
       "2620:98:e002::/47",
       "2620:98:e004::/47",

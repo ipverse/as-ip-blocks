@@ -1,9 +1,12 @@
 {
-  "asn": 32133,
-  "handle": "AS-TING-BACKBONE",
-  "description": "Ting Fiber Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32133,
+  "metadata" : {
+    "handle" : "AS-TING-BACKBONE",
+    "description" : "Ting Fiber Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.96.64.0/19",
       "64.98.6.0/23",
       "64.98.10.0/23",
@@ -25,7 +28,7 @@
       "169.197.52.0/22",
       "169.197.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:8e80:52::/47",
       "2606:8e80:64::/48",
       "2606:8e80:800::/37",

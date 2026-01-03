@@ -1,9 +1,12 @@
 {
-  "asn": 63383,
-  "handle": "SINGLE-DIGITS",
-  "description": "Single Digits Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63383,
+  "metadata" : {
+    "handle" : "SINGLE-DIGITS",
+    "description" : "Single Digits Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "75.102.131.0/24",
       "75.102.132.0/24",
       "75.102.134.0/23",
@@ -11,6 +14,6 @@
       "75.102.141.0/24",
       "75.102.142.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

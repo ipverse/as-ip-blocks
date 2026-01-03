@@ -1,13 +1,16 @@
 {
-  "asn": 203434,
-  "handle": "OPEN-CIRCLE",
-  "description": "Open Circle AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203434,
+  "metadata" : {
+    "handle" : "OPEN-CIRCLE",
+    "description" : "Open Circle AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.66.232.0/22",
       "185.134.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:b0a0::/29"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 35368,
-  "handle": "AS-DBNETZ",
-  "description": "DB InfraGO AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35368,
+  "metadata" : {
+    "handle" : "AS-DBNETZ",
+    "description" : "DB InfraGO AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.36.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:6440::/29"
     ]
   }

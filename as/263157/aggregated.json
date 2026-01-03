@@ -1,9 +1,12 @@
 {
-  "asn": 263157,
-  "handle": "TU-CASA-INALAMBRICA-MEXICO",
-  "description": "Tu Casa Inalambrica de Mexico",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263157,
+  "metadata" : {
+    "handle" : "TU-CASA-INALAMBRICA-MEXICO",
+    "description" : "Tu Casa Inalambrica de Mexico",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.65.129.0/24",
       "38.65.130.0/24",
       "38.65.134.0/23",
@@ -29,7 +32,7 @@
       "154.17.72.0/24",
       "170.0.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:2f7::/32"
     ]
   }

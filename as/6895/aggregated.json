@@ -1,13 +1,16 @@
 {
-  "asn": 6895,
-  "handle": "ESPANIX-RS-AS",
-  "description": "ASOCIACION ESPANIX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6895,
+  "metadata" : {
+    "handle" : "ESPANIX-RS-AS",
+    "description" : "ASOCIACION ESPANIX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.79.172.0/23",
       "185.79.174.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:7f8:f::/48"
     ]
   }

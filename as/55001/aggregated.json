@@ -1,13 +1,16 @@
 {
-  "asn": 55001,
-  "handle": "CYBERSTREET-NET",
-  "description": "CyberStreet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55001,
+  "metadata" : {
+    "handle" : "CYBERSTREET-NET",
+    "description" : "CyberStreet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.68.204.0/23",
       "162.219.208.0/22",
       "204.145.237.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 9351,
-  "handle": "ZLAN",
-  "description": "ZTV CO. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9351,
+  "metadata" : {
+    "handle" : "ZLAN",
+    "description" : "ZTV CO. LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.113.192.0/19",
       "61.125.144.0/20",
       "61.198.48.0/20",
@@ -35,7 +38,7 @@
       "219.109.240.0/20",
       "219.113.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:900::/32"
     ]
   }

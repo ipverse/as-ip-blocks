@@ -1,12 +1,15 @@
 {
-  "asn": 54874,
-  "handle": "REDLILY",
-  "description": "Red Lily Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54874,
+  "metadata" : {
+    "handle" : "REDLILY",
+    "description" : "Red Lily Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.167.213.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:f440::/32"
     ]
   }

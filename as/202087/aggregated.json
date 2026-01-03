@@ -1,9 +1,12 @@
 {
-  "asn": 202087,
-  "handle": "AJSEGIB-AS",
-  "description": "GIBFIBRE LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202087,
+  "metadata" : {
+    "handle" : "AJSEGIB-AS",
+    "description" : "GIBFIBRE LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.89.212.0/22",
       "45.94.8.0/22",
       "94.26.93.0/24",
@@ -23,7 +26,7 @@
       "185.94.76.0/22",
       "192.190.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:50c0::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 46357,
-  "handle": "CALPOLY-NETLAB",
-  "description": "California Polytechnic State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46357,
+  "metadata" : {
+    "handle" : "CALPOLY-NETLAB",
+    "description" : "California Polytechnic State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.94.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:dd0::/48"
     ]
   }

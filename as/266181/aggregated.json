@@ -1,14 +1,17 @@
 {
-  "asn": 266181,
-  "handle": "GOLDEN-LINK",
-  "description": "GOLDEN LINK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266181,
+  "metadata" : {
+    "handle" : "GOLDEN-LINK",
+    "description" : "GOLDEN LINK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.6.100.0/22",
       "186.233.112.0/21",
       "187.120.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5b0::/32",
       "2804:3bf0::/32"
     ]

@@ -1,14 +1,17 @@
 {
-  "asn": 28788,
-  "handle": "UNILOGICNET-AS",
-  "description": "Dustin NL B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28788,
+  "metadata" : {
+    "handle" : "UNILOGICNET-AS",
+    "description" : "Dustin NL B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.133.192.0/18",
       "91.206.246.0/23",
       "194.88.236.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4128::/32",
       "2a03:71e0::/32"
     ]

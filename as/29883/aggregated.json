@@ -1,11 +1,14 @@
 {
-  "asn": 29883,
-  "handle": "AS-IHS",
-  "description": "Internet Hosting Servers",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29883,
+  "metadata" : {
+    "handle" : "AS-IHS",
+    "description" : "Internet Hosting Servers",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.57.0.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

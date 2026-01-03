@@ -1,12 +1,15 @@
 {
-  "asn": 206070,
-  "handle": "MROUTE",
-  "description": "Master Route LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206070,
+  "metadata" : {
+    "handle" : "MROUTE",
+    "description" : "Master Route LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.36.63.0/24",
       "185.197.104.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 50045,
-  "handle": "MONNET-AS",
-  "description": "PJSC Montazh",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50045,
+  "metadata" : {
+    "handle" : "MONNET-AS",
+    "description" : "PJSC Montazh",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.77.160.0/24",
       "176.117.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2518:e000::/36"
     ]
   }

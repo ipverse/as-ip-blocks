@@ -1,12 +1,15 @@
 {
-  "asn": 44780,
-  "handle": "EVERSCALE-AS",
-  "description": "kyberio GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44780,
+  "metadata" : {
+    "handle" : "EVERSCALE-AS",
+    "description" : "kyberio GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.149.92.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:790:4::/48",
       "2a02:790:6::/48"
     ]

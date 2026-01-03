@@ -1,9 +1,12 @@
 {
-  "asn": 13517,
-  "handle": "BAKER-MCKENZIE",
-  "description": "Baker \u0026 McKenzie",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13517,
+  "metadata" : {
+    "handle" : "BAKER-MCKENZIE",
+    "description" : "Baker & McKenzie",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.85.72.0/24",
       "64.124.189.0/24",
       "66.227.118.0/24",
@@ -12,6 +15,6 @@
       "208.193.53.0/24",
       "212.222.13.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 136267,
-  "handle": "INFO-INTERNET-AS-AP",
-  "description": "Info Internet Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136267,
+  "metadata" : {
+    "handle" : "INFO-INTERNET-AS-AP",
+    "description" : "Info Internet Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.85.196.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:afc0::/32"
     ]
   }

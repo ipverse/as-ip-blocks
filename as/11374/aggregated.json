@@ -1,12 +1,15 @@
 {
-  "asn": 11374,
-  "handle": "WORKSMART-NETWORK-BACKBONE",
-  "description": "Panterra Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11374,
+  "metadata" : {
+    "handle" : "WORKSMART-NETWORK-BACKBONE",
+    "description" : "Panterra Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.77.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe6f:1::/48",
       "2602:fe6f:2::/47"
     ]

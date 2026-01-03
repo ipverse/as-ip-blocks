@@ -1,14 +1,17 @@
 {
-  "asn": 149528,
-  "handle": "INDIBANK-AS-IN",
-  "description": "INDIAN BANK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149528,
+  "metadata" : {
+    "handle" : "INDIBANK-AS-IN",
+    "description" : "INDIAN BANK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.239.76.0/24",
       "43.239.79.0/24",
       "103.183.72.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:60e0::/47"
     ]
   }

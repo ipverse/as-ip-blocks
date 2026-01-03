@@ -1,15 +1,18 @@
 {
-  "asn": 44358,
-  "handle": "DOMREG-ANY-AS",
-  "description": "Kauno Technologijos Universitetas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44358,
+  "metadata" : {
+    "handle" : "DOMREG-ANY-AS",
+    "description" : "Kauno Technologijos Universitetas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.150.42.0/24",
       "194.0.3.0/24",
       "194.0.18.0/23",
       "194.0.20.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:6::/48",
       "2001:678:19::/48",
       "2001:678:88::/48",

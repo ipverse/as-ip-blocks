@@ -1,12 +1,15 @@
 {
-  "asn": 23828,
-  "handle": "CHERRY-NET",
-  "description": "Misaki Town",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23828,
+  "metadata" : {
+    "handle" : "CHERRY-NET",
+    "description" : "Misaki Town",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.58.116.0/22",
       "202.73.136.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

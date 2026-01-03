@@ -1,9 +1,12 @@
 {
-  "asn": 2527,
-  "handle": "SO-NET",
-  "description": "Sony Network Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2527,
+  "metadata" : {
+    "handle" : "SO-NET",
+    "description" : "Sony Network Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.2.0.0/19",
       "36.2.160.0/19",
       "36.2.192.0/19",
@@ -79,7 +82,7 @@
       "220.211.0.0/16",
       "223.132.0.0/14"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:3b8::/32",
       "240d::/27"
     ]

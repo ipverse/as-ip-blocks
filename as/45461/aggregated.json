@@ -1,13 +1,16 @@
 {
-  "asn": 45461,
-  "handle": "TELENET-AS-AP",
-  "description": "TeleNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45461,
+  "metadata" : {
+    "handle" : "TELENET-AS-AP",
+    "description" : "TeleNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "113.20.32.0/21",
       "113.20.47.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:200::/32"
     ]
   }

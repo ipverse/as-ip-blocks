@@ -1,9 +1,12 @@
 {
-  "asn": 14265,
-  "handle": "US-TELEPACIFIC",
-  "description": "TPx Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14265,
+  "metadata" : {
+    "handle" : "US-TELEPACIFIC",
+    "description" : "TPx Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.251.192.0/19",
       "50.115.64.0/20",
       "64.21.192.0/19",
@@ -271,7 +274,7 @@
       "216.237.60.0/22",
       "216.241.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:f100::/32",
       "2607:2c00::/32"
     ]

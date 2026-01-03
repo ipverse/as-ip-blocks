@@ -1,9 +1,12 @@
 {
-  "asn": 19524,
-  "handle": "COMERICA-INC",
-  "description": "Comerica Incorporated",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19524,
+  "metadata" : {
+    "handle" : "COMERICA-INC",
+    "description" : "Comerica Incorporated",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.15.6.0/23",
       "170.228.0.0/22",
       "170.228.4.0/23",
@@ -21,6 +24,6 @@
       "170.228.220.0/24",
       "170.228.252.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

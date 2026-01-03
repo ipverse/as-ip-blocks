@@ -1,9 +1,12 @@
 {
-  "asn": 11320,
-  "handle": "LIGHTEDGE-AS-02",
-  "description": "LightEdge Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11320,
+  "metadata" : {
+    "handle" : "LIGHTEDGE-AS-02",
+    "description" : "LightEdge Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "52.129.112.0/21",
       "64.22.192.0/19",
       "64.28.96.0/20",
@@ -49,7 +52,7 @@
       "216.243.192.0/19",
       "216.243.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:4400::/29",
       "2604:a400::/32",
       "2607:f190::/32"

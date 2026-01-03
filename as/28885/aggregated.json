@@ -1,9 +1,12 @@
 {
-  "asn": 28885,
-  "handle": "OMANTEL-NAP-AS",
-  "description": "Oman Telecommunications Company (S.A.O.G)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28885,
+  "metadata" : {
+    "handle" : "OMANTEL-NAP-AS",
+    "description" : "Oman Telecommunications Company (S.A.O.G)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.32.192.0/18",
       "5.36.0.0/15",
       "37.40.0.0/19",
@@ -34,7 +37,7 @@
       "188.140.128.0/17",
       "212.72.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1670::/32",
       "2605:5c0:c040::/44",
       "2605:5c0:c080::/44",

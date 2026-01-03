@@ -1,9 +1,12 @@
 {
-  "asn": 43966,
-  "handle": "ITREGION-AS",
-  "description": "OOO IT-Region",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43966,
+  "metadata" : {
+    "handle" : "ITREGION-AS",
+    "description" : "OOO IT-Region",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.173.64.0/22",
       "79.173.77.0/24",
       "79.173.80.0/20",
@@ -12,6 +15,6 @@
       "94.243.236.0/22",
       "193.111.252.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

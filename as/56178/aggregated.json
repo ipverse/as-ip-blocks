@@ -1,12 +1,15 @@
 {
-  "asn": 56178,
-  "handle": "LATCH-AS-AP",
-  "description": "Latch Networks Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56178,
+  "metadata" : {
+    "handle" : "LATCH-AS-AP",
+    "description" : "Latch Networks Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.61.26.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:440::/48"
     ]
   }

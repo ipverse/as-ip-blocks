@@ -1,12 +1,15 @@
 {
-  "asn": 1015,
-  "handle": "SERVERSTARTERHOST",
-  "description": "Server Starter Host LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1015,
+  "metadata" : {
+    "handle" : "SERVERSTARTERHOST",
+    "description" : "Server Starter Host LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.17.53.0/24",
       "193.57.8.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 60848,
-  "handle": "MNEMONIC-SVG",
-  "description": "mnemonic AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60848,
+  "metadata" : {
+    "handle" : "MNEMONIC-SVG",
+    "description" : "mnemonic AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.127.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2188:2000::/36"
     ]
   }

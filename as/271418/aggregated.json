@@ -1,12 +1,15 @@
 {
-  "asn": 271418,
-  "handle": "FREYNET-TELECOM",
-  "description": "freynet telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271418,
+  "metadata" : {
+    "handle" : "FREYNET-TELECOM",
+    "description" : "freynet telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.224.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7b38:4000::/34",
       "2804:7b38:8000::/34"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 30313,
-  "handle": "IRS",
-  "description": "Internal Revenue Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30313,
+  "metadata" : {
+    "handle" : "IRS",
+    "description" : "Internal Revenue Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "152.216.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:30::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 60558,
-  "handle": "SECUREDSERVERS-EU",
-  "description": "PHOENIX NAP LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60558,
+  "metadata" : {
+    "handle" : "SECUREDSERVERS-EU",
+    "description" : "PHOENIX NAP LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.235.232.0/21",
       "37.140.238.0/23",
       "83.229.100.0/24",
@@ -20,7 +23,7 @@
       "185.56.136.0/22",
       "185.62.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8860:100::/40",
       "2a01:b960:2301::/48"
     ]

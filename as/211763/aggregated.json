@@ -1,13 +1,16 @@
 {
-  "asn": 211763,
-  "handle": "CPS-IT",
-  "description": "CPS - IT GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211763,
+  "metadata" : {
+    "handle" : "CPS-IT",
+    "description" : "CPS - IT GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.161.115.0/24",
       "91.236.160.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:10f4::/48"
     ]
   }

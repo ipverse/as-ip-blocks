@@ -1,12 +1,15 @@
 {
-  "asn": 36482,
-  "handle": "PLACER-ASN",
-  "description": "County of Placer",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36482,
+  "metadata" : {
+    "handle" : "PLACER-ASN",
+    "description" : "County of Placer",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.103.32.0/20",
       "199.103.48.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

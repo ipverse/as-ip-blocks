@@ -1,12 +1,15 @@
 {
-  "asn": 60027,
-  "handle": "DTV-AS",
-  "description": "DTV Haber ve Gorsel Yayincilik A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60027,
+  "metadata" : {
+    "handle" : "DTV-AS",
+    "description" : "DTV Haber ve Gorsel Yayincilik A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.93.50.0/24",
       "195.214.154.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 25424,
-  "handle": "INEXT-CZ",
-  "description": "CEZNET s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25424,
+  "metadata" : {
+    "handle" : "INEXT-CZ",
+    "description" : "CEZNET s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.9.192.0/21",
       "77.92.192.0/19",
       "85.92.32.0/19",
@@ -12,7 +15,7 @@
       "188.244.48.0/20",
       "212.111.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e580::/29",
       "2a0a:3340::/29"
     ]

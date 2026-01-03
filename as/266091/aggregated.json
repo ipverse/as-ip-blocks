@@ -1,12 +1,15 @@
 {
-  "asn": 266091,
-  "handle": "GIGANET-INTERNET",
-  "description": "Giganet Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266091,
+  "metadata" : {
+    "handle" : "GIGANET-INTERNET",
+    "description" : "Giganet Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.5.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3a78::/32"
     ]
   }

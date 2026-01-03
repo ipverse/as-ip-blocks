@@ -1,9 +1,12 @@
 {
-  "asn": 212238,
-  "handle": "CDNEXT",
-  "description": "Datacamp Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212238,
+  "metadata" : {
+    "handle" : "CDNEXT",
+    "description" : "Datacamp Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.148.0/23",
       "2.56.150.0/24",
       "2.58.74.0/24",
@@ -1871,7 +1874,7 @@
       "217.217.124.0/22",
       "217.217.240.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f7f8:1::/48",
       "2605:2c40:500::/48",
       "2607:740:28::/47",

@@ -1,9 +1,12 @@
 {
-  "asn": 9631,
-  "handle": "YSU-AS",
-  "description": "youngsan university",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9631,
+  "metadata" : {
+    "handle" : "YSU-AS",
+    "description" : "youngsan university",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.75.198.0/23",
       "61.75.200.0/23",
       "61.76.236.0/22",
@@ -17,6 +20,6 @@
       "221.164.5.0/24",
       "221.164.68.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 20571,
-  "handle": "EXOMI",
-  "description": "Exomi Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20571,
+  "metadata" : {
+    "handle" : "EXOMI",
+    "description" : "Exomi Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "217.169.64.0/22",
       "217.169.70.0/24",
       "217.169.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:b7c0::/32"
     ]
   }

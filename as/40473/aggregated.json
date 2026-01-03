@@ -1,9 +1,12 @@
 {
-  "asn": 40473,
-  "handle": "AS-PLATINUM-COMMUNICATIONS",
-  "description": "Xplore Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40473,
+  "metadata" : {
+    "handle" : "AS-PLATINUM-COMMUNICATIONS",
+    "description" : "Xplore Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.22.80.0/20",
       "69.31.192.0/18",
       "192.253.204.0/22",
@@ -13,6 +16,6 @@
       "216.37.112.0/20",
       "216.45.96.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

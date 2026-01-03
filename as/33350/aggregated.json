@@ -1,15 +1,18 @@
 {
-  "asn": 33350,
-  "handle": "APS-ARIZONA-PUBLIC-SERVICE-CORPORATION",
-  "description": "Arizona Public Service Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33350,
+  "metadata" : {
+    "handle" : "APS-ARIZONA-PUBLIC-SERVICE-CORPORATION",
+    "description" : "Arizona Public Service Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.91.0.0/24",
       "137.91.5.0/24",
       "137.91.11.0/24",
       "137.91.102.0/23",
       "137.91.114.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

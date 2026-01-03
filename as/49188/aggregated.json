@@ -1,9 +1,12 @@
 {
-  "asn": 49188,
-  "handle": "THREE-A-HUB",
-  "description": "Three A Hub EOOD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49188,
+  "metadata" : {
+    "handle" : "THREE-A-HUB",
+    "description" : "Three A Hub EOOD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.108.250.0/24",
       "78.128.4.0/24",
       "95.169.197.0/24",
@@ -13,7 +16,7 @@
       "109.160.80.0/24",
       "185.163.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:9d00::/29"
     ]
   }

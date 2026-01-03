@@ -1,14 +1,17 @@
 {
-  "asn": 43247,
-  "handle": "YOOMONEY-AS",
-  "description": "YooMoney NBCO LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43247,
+  "metadata" : {
+    "handle" : "YOOMONEY-AS",
+    "description" : "YooMoney NBCO LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.75.152.0/21",
       "109.235.160.0/21",
       "185.71.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5180::/32"
     ]
   }

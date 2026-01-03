@@ -1,12 +1,15 @@
 {
-  "asn": 4557,
-  "handle": "SOUTHEAST-TEXAS-GIGAPOP",
-  "description": "Rice University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4557,
+  "metadata" : {
+    "handle" : "SOUTHEAST-TEXAS-GIGAPOP",
+    "description" : "Rice University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.32.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:468:1a00::/40"
     ]
   }

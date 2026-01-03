@@ -1,9 +1,12 @@
 {
-  "asn": 58681,
-  "handle": "NSWPOLSERV-AS-AP",
-  "description": "New South Wales Police",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58681,
+  "metadata" : {
+    "handle" : "NSWPOLSERV-AS-AP",
+    "description" : "New South Wales Police",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "166.64.0.0/22",
       "166.64.4.0/23",
       "166.64.8.0/24",
@@ -16,6 +19,6 @@
       "166.64.100.0/24",
       "166.64.112.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

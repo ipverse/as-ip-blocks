@@ -1,9 +1,12 @@
 {
-  "asn": 134366,
-  "handle": "CCHL-AS-AP",
-  "description": "Cloud Computing HK Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134366,
+  "metadata" : {
+    "handle" : "CCHL-AS-AP",
+    "description" : "Cloud Computing HK Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.242.52.0/24",
       "43.242.55.0/24",
       "45.120.216.0/22",
@@ -15,6 +18,6 @@
       "139.198.112.0/23",
       "139.198.120.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

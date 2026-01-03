@@ -1,12 +1,15 @@
 {
-  "asn": 36286,
-  "handle": "RLEWAN-01",
-  "description": "NGA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36286,
+  "metadata" : {
+    "handle" : "RLEWAN-01",
+    "description" : "NGA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.160.174.0/24",
       "216.66.52.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

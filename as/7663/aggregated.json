@@ -1,9 +1,12 @@
 {
-  "asn": 7663,
-  "handle": "FFNET",
-  "description": "FUJI NEXTERA LABO INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7663,
+  "metadata" : {
+    "handle" : "FFNET",
+    "description" : "FUJI NEXTERA LABO INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.167.32.0/24",
       "210.167.34.0/23",
       "210.167.40.0/22",
@@ -11,6 +14,6 @@
       "210.167.52.0/24",
       "210.167.62.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

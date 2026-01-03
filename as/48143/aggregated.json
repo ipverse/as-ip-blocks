@@ -1,13 +1,16 @@
 {
-  "asn": 48143,
-  "handle": "MIRANTIS-AS",
-  "description": "Mirantis IT LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48143,
+  "metadata" : {
+    "handle" : "MIRANTIS-AS",
+    "description" : "Mirantis IT LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.207.132.0/23",
       "91.218.144.0/22",
       "194.213.110.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

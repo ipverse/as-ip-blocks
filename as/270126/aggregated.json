@@ -1,13 +1,16 @@
 {
-  "asn": 270126,
-  "handle": "NEUTRAL-NETWORKS",
-  "description": "NEUTRAL NETWORKS S de RL de CV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270126,
+  "metadata" : {
+    "handle" : "NEUTRAL-NETWORKS",
+    "description" : "NEUTRAL NETWORKS S de RL de CV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.58.144.0/22",
       "190.171.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:3cf::/32",
       "2806:402:4000::/48"
     ]

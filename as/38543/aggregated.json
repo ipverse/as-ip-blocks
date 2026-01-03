@@ -1,12 +1,15 @@
 {
-  "asn": 38543,
-  "handle": "IBM-TH-AS-AP",
-  "description": "IBM THAILAND NETWORK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38543,
+  "metadata" : {
+    "handle" : "IBM-TH-AS-AP",
+    "description" : "IBM THAILAND NETWORK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.144.208.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:fb0:10d0::/48"
     ]
   }

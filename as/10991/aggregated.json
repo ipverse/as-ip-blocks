@@ -1,9 +1,12 @@
 {
-  "asn": 10991,
-  "handle": "CAPGE-HOSTING-MRO",
-  "description": "CAPGEMINI AMERICA INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10991,
+  "metadata" : {
+    "handle" : "CAPGE-HOSTING-MRO",
+    "description" : "CAPGEMINI AMERICA INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.90.101.0/24",
       "80.90.102.0/24",
       "80.253.212.0/23",
@@ -30,6 +33,6 @@
       "206.208.228.0/23",
       "206.208.231.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 50611,
-  "handle": "KNIPP-IRONDNS1-AS",
-  "description": "Knipp Medien und Kommunikation GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50611,
+  "metadata" : {
+    "handle" : "KNIPP-IRONDNS1-AS",
+    "description" : "Knipp Medien und Kommunikation GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.119.138.0/23",
       "195.253.65.0/24",
       "195.253.88.0/22",
@@ -14,7 +17,7 @@
       "195.253.124.0/23",
       "195.253.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5b0:5::/48",
       "2a01:5b0:6::/48",
       "2a01:5b0:9::/48",

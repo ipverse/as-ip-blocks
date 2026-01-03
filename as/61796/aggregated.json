@@ -1,12 +1,15 @@
 {
-  "asn": 61796,
-  "handle": "NS-INTERNET",
-  "description": "NS Internet Ltda ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61796,
+  "metadata" : {
+    "handle" : "NS-INTERNET",
+    "description" : "NS Internet Ltda ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "201.159.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1978::/32"
     ]
   }

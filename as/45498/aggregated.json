@@ -1,9 +1,12 @@
 {
-  "asn": 45498,
-  "handle": "SMART-AXIATA-KH",
-  "description": "Smart Axiata Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45498,
+  "metadata" : {
+    "handle" : "SMART-AXIATA-KH",
+    "description" : "Smart Axiata Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.109.112.0/22",
       "103.145.136.0/23",
       "117.20.112.0/21",
@@ -11,7 +14,7 @@
       "202.129.236.0/24",
       "203.118.242.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:9700:1000::/40",
       "2401:9700:2000::/38",
       "2401:9700:2400::/42",

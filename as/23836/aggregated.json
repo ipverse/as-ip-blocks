@@ -1,13 +1,16 @@
 {
-  "asn": 23836,
-  "handle": "RELNET",
-  "description": "RELATION Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23836,
+  "metadata" : {
+    "handle" : "RELNET",
+    "description" : "RELATION Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.142.8.0/21",
       "203.99.224.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:44a8::/32"
     ]
   }

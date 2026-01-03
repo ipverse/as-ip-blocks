@@ -1,12 +1,15 @@
 {
-  "asn": 40127,
-  "handle": "LMANET",
-  "description": "Longwood Medical and Academic Area (LMA)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40127,
+  "metadata" : {
+    "handle" : "LMANET",
+    "description" : "Longwood Medical and Academic Area (LMA)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.174.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:90c0::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 52442,
-  "handle": "UNIVERSIDAD-NACIONAL-LUJAN",
-  "description": "Universidad Nacional de Luján",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52442,
+  "metadata" : {
+    "handle" : "UNIVERSIDAD-NACIONAL-LUJAN",
+    "description" : "Universidad Nacional de Luján",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.210.96.0/21",
       "190.104.80.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:110:1018::/48"
     ]
   }

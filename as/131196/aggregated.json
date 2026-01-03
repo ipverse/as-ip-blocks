@@ -1,11 +1,14 @@
 {
-  "asn": 131196,
-  "handle": "ENABLENET-AS-AP",
-  "description": "Enable Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131196,
+  "metadata" : {
+    "handle" : "ENABLENET-AS-AP",
+    "description" : "Enable Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.36.221.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

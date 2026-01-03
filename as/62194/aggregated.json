@@ -1,9 +1,12 @@
 {
-  "asn": 62194,
-  "handle": "NOKIAWING",
-  "description": "Nokia Oyj",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62194,
+  "metadata" : {
+    "handle" : "NOKIAWING",
+    "description" : "Nokia Oyj",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.168.118.0/23",
       "135.87.2.0/23",
       "135.87.16.0/22",
@@ -15,6 +18,6 @@
       "135.103.6.0/23",
       "135.103.17.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

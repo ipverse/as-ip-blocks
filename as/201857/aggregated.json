@@ -1,12 +1,15 @@
 {
-  "asn": 201857,
-  "handle": "LIVEDNS",
-  "description": "LiveDns Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201857,
+  "metadata" : {
+    "handle" : "LIVEDNS",
+    "description" : "LiveDns Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.60.168.0/22",
       "185.68.120.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

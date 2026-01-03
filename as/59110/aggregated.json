@@ -1,12 +1,15 @@
 {
-  "asn": 59110,
-  "handle": "BPS",
-  "description": "BPS Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59110,
+  "metadata" : {
+    "handle" : "BPS",
+    "description" : "BPS Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.49.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:85c0::/32"
     ]
   }

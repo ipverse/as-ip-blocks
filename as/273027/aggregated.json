@@ -1,12 +1,15 @@
 {
-  "asn": 273027,
-  "handle": "UNIVERSIDAD-ANTIOQUIA",
-  "description": "UNIVERSIDAD DE ANTIOQUIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273027,
+  "metadata" : {
+    "handle" : "UNIVERSIDAD-ANTIOQUIA",
+    "description" : "UNIVERSIDAD DE ANTIOQUIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.24.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:1ba:f::/48",
       "2801:1ba:10::/48",
       "2801:1ba:2f::/48",

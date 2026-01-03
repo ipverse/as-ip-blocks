@@ -1,12 +1,15 @@
 {
-  "asn": 136624,
-  "handle": "SNRU-AS-AP",
-  "description": "Sakon Nakhon Rajabhat University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136624,
+  "metadata" : {
+    "handle" : "SNRU-AS-AP",
+    "description" : "Sakon Nakhon Rajabhat University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.29.24.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:3c8:cb01::/48"
     ]
   }

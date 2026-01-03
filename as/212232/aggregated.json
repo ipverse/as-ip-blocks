@@ -1,10 +1,13 @@
 {
-  "asn": 212232,
-  "handle": "BGPTOOLS",
-  "description": "Port 179 LTD",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 212232,
+  "metadata" : {
+    "handle" : "BGPTOOLS",
+    "description" : "Port 179 LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0b:6b86:d00::/40",
       "2a0c:2f05:100::/48",
       "2a0c:2f05:270::/48"

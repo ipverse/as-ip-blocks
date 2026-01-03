@@ -1,16 +1,19 @@
 {
-  "asn": 63351,
-  "handle": "ASN-SCF-45",
-  "description": "Southern Caribbean Fiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63351,
+  "metadata" : {
+    "handle" : "ASN-SCF-45",
+    "description" : "Southern Caribbean Fiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.86.161.0/24",
       "38.86.162.0/23",
       "38.87.192.0/22",
       "199.91.162.0/24",
       "207.90.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:3180::/32"
     ]
   }

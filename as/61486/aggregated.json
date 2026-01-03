@@ -1,13 +1,16 @@
 {
-  "asn": 61486,
-  "handle": "UNIVERSIDAD-NACIONAL-QUILMES",
-  "description": "Universidad Nacional de Quilmes",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61486,
+  "metadata" : {
+    "handle" : "UNIVERSIDAD-NACIONAL-QUILMES",
+    "description" : "Universidad Nacional de Quilmes",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.210.72.0/22",
       "207.248.74.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:11:2000::/48"
     ]
   }

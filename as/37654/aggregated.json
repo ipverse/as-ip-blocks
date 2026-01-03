@@ -1,9 +1,12 @@
 {
-  "asn": 37654,
-  "handle": "RWEDNET-AS",
-  "description": "Rwanda Ministry of Education",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37654,
+  "metadata" : {
+    "handle" : "RWEDNET-AS",
+    "description" : "Rwanda Ministry of Education",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.68.64.0/22",
       "154.68.68.0/23",
       "154.68.70.0/24",
@@ -11,6 +14,6 @@
       "154.68.94.0/24",
       "154.68.126.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

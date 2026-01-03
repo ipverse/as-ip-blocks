@@ -1,12 +1,15 @@
 {
-  "asn": 60200,
-  "handle": "VCC-UK",
-  "description": "Victor Connect Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60200,
+  "metadata" : {
+    "handle" : "VCC-UK",
+    "description" : "Victor Connect Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.34.172.0/23",
       "185.34.174.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

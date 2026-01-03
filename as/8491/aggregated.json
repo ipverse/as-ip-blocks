@@ -1,15 +1,18 @@
 {
-  "asn": 8491,
-  "handle": "BSH-AS",
-  "description": "Scientific-Production Enterprise Business Sviaz Holding LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8491,
+  "metadata" : {
+    "handle" : "BSH-AS",
+    "description" : "Scientific-Production Enterprise Business Sviaz Holding LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.95.32.0/20",
       "82.194.224.0/19",
       "87.238.96.0/21",
       "89.188.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:8640::/32"
     ]
   }

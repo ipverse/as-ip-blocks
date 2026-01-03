@@ -1,12 +1,15 @@
 {
-  "asn": 268611,
-  "handle": "WJ-NET",
-  "description": "WJ NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268611,
+  "metadata" : {
+    "handle" : "WJ-NET",
+    "description" : "WJ NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.164.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:53dc::/32"
     ]
   }

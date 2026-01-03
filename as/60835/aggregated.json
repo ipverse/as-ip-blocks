@@ -1,11 +1,14 @@
 {
-  "asn": 60835,
-  "handle": "NSOMED",
-  "description": "GBUZ NSO SSMP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60835,
+  "metadata" : {
+    "handle" : "NSOMED",
+    "description" : "GBUZ NSO SSMP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.76.158.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

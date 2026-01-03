@@ -1,12 +1,15 @@
 {
-  "asn": 61876,
-  "handle": "DELTA-CONNECT",
-  "description": "DELTA CONNECT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61876,
+  "metadata" : {
+    "handle" : "DELTA-CONNECT",
+    "description" : "DELTA CONNECT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "201.150.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1ab0::/32"
     ]
   }

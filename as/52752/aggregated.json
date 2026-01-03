@@ -1,9 +1,12 @@
 {
-  "asn": 52752,
-  "handle": "VEGAS-TELECOM-INFORMATICA",
-  "description": "Vegas Telecom Informática Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52752,
+  "metadata" : {
+    "handle" : "VEGAS-TELECOM-INFORMATICA",
+    "description" : "Vegas Telecom Informática Ltda.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.155.163.0/24",
       "177.155.166.0/24",
       "177.155.172.0/23",
@@ -12,7 +15,7 @@
       "189.76.76.0/23",
       "189.76.78.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:11e8::/32",
       "2804:3d58:1800::/40"
     ]

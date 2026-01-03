@@ -1,9 +1,12 @@
 {
-  "asn": 2639,
-  "handle": "ZOHO-AS",
-  "description": "ZOHO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2639,
+  "metadata" : {
+    "handle" : "ZOHO-AS",
+    "description" : "ZOHO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.39.54.0/23",
       "8.40.222.0/23",
       "65.154.166.0/24",
@@ -25,7 +28,7 @@
       "204.141.42.0/23",
       "204.141.160.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:801:c000::/47",
       "2602:801:c004::/46",
       "2602:801:c008::/47",

@@ -1,9 +1,12 @@
 {
-  "asn": 8674,
-  "handle": "NETNOD-IX",
-  "description": "Netnod AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8674,
+  "metadata" : {
+    "handle" : "NETNOD-IX",
+    "description" : "Netnod AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.72.224.0/21",
       "185.42.136.0/23",
       "192.36.144.0/24",
@@ -16,7 +19,7 @@
       "194.146.106.0/23",
       "213.32.232.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1010::/47",
       "2a01:3f0::/31"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 150820,
-  "handle": "LIENVPS-VN",
-  "description": "LIENVPS TECHNOLOGY COMPANY LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150820,
+  "metadata" : {
+    "handle" : "LIENVPS-VN",
+    "description" : "LIENVPS TECHNOLOGY COMPANY LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.174.0/23",
       "157.15.38.0/23",
       "157.20.62.0/23",
@@ -18,6 +21,6 @@
       "165.99.14.0/23",
       "203.175.96.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

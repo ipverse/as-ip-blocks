@@ -1,9 +1,12 @@
 {
-  "asn": 17501,
-  "handle": "WLINK-NEPAL-AS-AP",
-  "description": "WorldLink Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17501,
+  "metadata" : {
+    "handle" : "WLINK-NEPAL-AS-AP",
+    "description" : "WorldLink Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.34.0.0/17",
       "72.9.128.0/20",
       "103.211.148.0/23",
@@ -15,7 +18,7 @@
       "202.129.248.0/22",
       "202.166.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:1a00::/32"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 43200,
-  "handle": "PCSUPPORT",
-  "description": "TUSSA IKT AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43200,
+  "metadata" : {
+    "handle" : "PCSUPPORT",
+    "description" : "TUSSA IKT AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.26.32.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 9042,
-  "handle": "SIX",
-  "description": "SIX Group Services AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9042,
+  "metadata" : {
+    "handle" : "SIX",
+    "description" : "SIX Group Services AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.109.6.0/23",
       "146.109.70.0/23",
       "153.46.96.0/20",
@@ -11,7 +14,7 @@
       "193.5.76.0/22",
       "193.247.180.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:4640:100::/40",
       "2a01:4640:200::/40",
       "2a01:4640:c800::/40"

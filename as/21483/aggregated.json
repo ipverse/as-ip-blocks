@@ -1,9 +1,12 @@
 {
-  "asn": 21483,
-  "handle": "TEL-AS",
-  "description": "PJSC Vimpelcom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21483,
+  "metadata" : {
+    "handle" : "TEL-AS",
+    "description" : "PJSC Vimpelcom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.104.192.0/22",
       "79.104.200.0/22",
       "79.104.216.0/21",
@@ -26,6 +29,6 @@
       "213.221.28.0/24",
       "213.221.35.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

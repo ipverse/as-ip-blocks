@@ -1,9 +1,12 @@
 {
-  "asn": 21499,
-  "handle": "GODADDY-SXB",
-  "description": "Host Europe GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21499,
+  "metadata" : {
+    "handle" : "GODADDY-SXB",
+    "description" : "Host Europe GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.148.200.0/21",
       "46.252.192.0/20",
       "80.246.48.0/20",
@@ -31,7 +34,7 @@
       "188.121.52.0/22",
       "188.121.56.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f208:d310::/44",
       "2607:f208:df05::/48",
       "2a00:1169::/39"

@@ -1,14 +1,17 @@
 {
-  "asn": 7559,
-  "handle": "DONGA-NET-AS",
-  "description": "donga.com",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7559,
+  "metadata" : {
+    "handle" : "DONGA-NET-AS",
+    "description" : "donga.com",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.115.128.0/24",
       "210.115.130.0/24",
       "210.115.136.0/21",
       "210.115.158.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

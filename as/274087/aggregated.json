@@ -1,14 +1,17 @@
 {
-  "asn": 274087,
-  "handle": "FIBERLINK-EIRL",
-  "description": "FIBERLINK E.I.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 274087,
+  "metadata" : {
+    "handle" : "FIBERLINK-EIRL",
+    "description" : "FIBERLINK E.I.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.52.200.0/23",
       "38.56.113.0/24",
       "64.76.73.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:46d0:e000::/35"
     ]
   }

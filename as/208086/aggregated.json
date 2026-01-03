@@ -1,13 +1,16 @@
 {
-  "asn": 208086,
-  "handle": "DIGDIR-AS",
-  "description": "Digitaliseringsdirektoratet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208086,
+  "metadata" : {
+    "handle" : "DIGDIR-AS",
+    "description" : "Digitaliseringsdirektoratet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.41.44.0/24",
       "78.41.47.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:11c0:3::/48",
       "2a06:11c0:4::/48"
     ]

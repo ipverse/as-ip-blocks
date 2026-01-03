@@ -1,13 +1,16 @@
 {
-  "asn": 204706,
-  "handle": "KOLESA-AS",
-  "description": "JSC Kolesa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204706,
+  "metadata" : {
+    "handle" : "KOLESA-AS",
+    "description" : "JSC Kolesa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.143.129.0/24",
       "185.143.130.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:f080::/30"
     ]
   }

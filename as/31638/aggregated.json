@@ -1,9 +1,12 @@
 {
-  "asn": 31638,
-  "handle": "ASN-LEPIDA",
-  "description": "Lepida S.c.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31638,
+  "metadata" : {
+    "handle" : "ASN-LEPIDA",
+    "description" : "Lepida S.c.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.144.184.0/21",
       "37.156.96.0/22",
       "37.156.148.0/22",
@@ -49,7 +52,7 @@
       "193.200.213.0/24",
       "195.62.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:1158::/48",
       "2a02:20d8::/29"
     ]

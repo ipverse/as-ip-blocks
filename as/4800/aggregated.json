@@ -1,9 +1,12 @@
 {
-  "asn": 4800,
-  "handle": "LINTASARTA-AS-AP",
-  "description": "PT Aplikanusa Lintasarta",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4800,
+  "metadata" : {
+    "handle" : "LINTASARTA-AS-AP",
+    "description" : "PT Aplikanusa Lintasarta",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.37.64.0/23",
       "36.37.67.0/24",
       "36.37.68.0/22",
@@ -128,7 +131,7 @@
       "210.87.94.0/23",
       "210.87.102.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8000::/32"
     ]
   }

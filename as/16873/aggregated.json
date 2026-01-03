@@ -1,12 +1,15 @@
 {
-  "asn": 16873,
-  "handle": "AS-HARTS",
-  "description": "HART SYSTEMS INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16873,
+  "metadata" : {
+    "handle" : "AS-HARTS",
+    "description" : "HART SYSTEMS INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.29.42.0/24",
       "12.38.173.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

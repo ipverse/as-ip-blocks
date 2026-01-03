@@ -1,12 +1,15 @@
 {
-  "asn": 397720,
-  "handle": "NOVUS-INSIGHT",
-  "description": "Novus Insight",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397720,
+  "metadata" : {
+    "handle" : "NOVUS-INSIGHT",
+    "description" : "Novus Insight",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "136.175.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fdc2::/48",
       "2602:fdc2:a::/48",
       "2602:fdc2:55::/48",

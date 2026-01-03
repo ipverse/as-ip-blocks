@@ -1,9 +1,12 @@
 {
-  "asn": 13713,
-  "handle": "ARCOT",
-  "description": "Avago Technologies U.S. Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13713,
+  "metadata" : {
+    "handle" : "ARCOT",
+    "description" : "Avago Technologies U.S. Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.119.3.0/24",
       "144.49.60.0/23",
       "144.49.62.0/24",
@@ -12,6 +15,6 @@
       "216.18.144.0/23",
       "216.18.146.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

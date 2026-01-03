@@ -1,12 +1,15 @@
 {
-  "asn": 152633,
-  "handle": "ACH-AS-AP",
-  "description": "omnom ITS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152633,
+  "metadata" : {
+    "handle" : "ACH-AS-AP",
+    "description" : "omnom ITS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.27.231.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:8760:5::/48"
     ]
   }

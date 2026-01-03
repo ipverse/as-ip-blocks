@@ -1,9 +1,12 @@
 {
-  "asn": 29194,
-  "handle": "ASN-TVT",
-  "description": "MTS PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29194,
+  "metadata" : {
+    "handle" : "ASN-TVT",
+    "description" : "MTS PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.66.184.0/22",
       "77.66.188.0/23",
       "83.151.0.0/20",
@@ -27,6 +30,6 @@
       "217.173.16.0/21",
       "217.173.28.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

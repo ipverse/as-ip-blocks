@@ -1,14 +1,17 @@
 {
-  "asn": 209240,
-  "handle": "ISANET",
-  "description": "ISA.NET Sh.p.k",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209240,
+  "metadata" : {
+    "handle" : "ISANET",
+    "description" : "ISA.NET Sh.p.k.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.21.70.0/24",
       "79.174.27.0/24",
       "92.119.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:bc40::/29"
     ]
   }

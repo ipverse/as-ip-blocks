@@ -1,12 +1,15 @@
 {
-  "asn": 139708,
-  "handle": "GONI-COMMUNICATION-AS-AP",
-  "description": "GONI communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139708,
+  "metadata" : {
+    "handle" : "GONI-COMMUNICATION-AS-AP",
+    "description" : "GONI communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.143.234.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:9e80::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 17864,
-  "handle": "SKB-TBROAD-HANVIT-AS",
-  "description": "SK Broadband Co Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17864,
+  "metadata" : {
+    "handle" : "SKB-TBROAD-HANVIT-AS",
+    "description" : "SK Broadband Co Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.119.128.0/17",
       "61.97.16.0/20",
       "61.106.192.0/19",
@@ -14,6 +17,6 @@
       "218.37.192.0/18",
       "218.101.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 48111,
-  "handle": "WESTNETZ",
-  "description": "Westnetz w.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48111,
+  "metadata" : {
+    "handle" : "WESTNETZ",
+    "description" : "Westnetz w.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.142.180.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:2ec0::/32"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 28224,
-  "handle": "MHNET-TELECOM",
-  "description": "MHNET TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28224,
+  "metadata" : {
+    "handle" : "MHNET-TELECOM",
+    "description" : "MHNET TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.100.96.0/22",
       "170.247.192.0/22",
       "177.126.192.0/20",
       "189.126.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1bd8::/32"
     ]
   }

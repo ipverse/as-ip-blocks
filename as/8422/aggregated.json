@@ -1,9 +1,12 @@
 {
-  "asn": 8422,
-  "handle": "NETCOLOGNE",
-  "description": "NetCologne Gesellschaft fur Telekommunikation mbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8422,
+  "metadata" : {
+    "handle" : "NETCOLOGNE",
+    "description" : "NetCologne Gesellschaft fur Telekommunikation mbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.34.0.0/15",
       "81.173.128.0/17",
       "83.138.60.0/24",
@@ -39,7 +42,7 @@
       "213.168.64.0/18",
       "213.196.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:458::/48",
       "2001:67c:5d4::/48",
       "2001:4dd0::/29",

@@ -1,9 +1,12 @@
 {
-  "asn": 206283,
-  "handle": "YAHSAT-FRANKFURT",
-  "description": "Star Satellite Communications Company - PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206283,
+  "metadata" : {
+    "handle" : "YAHSAT-FRANKFURT",
+    "description" : "Star Satellite Communications Company - PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.92.248.0/24",
       "41.193.240.0/23",
       "41.193.254.0/23",
@@ -33,7 +36,7 @@
       "204.157.156.0/24",
       "206.42.114.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:fe8:8f00::/48",
       "2a02:f401::/32",
       "2a02:f402::/31",

@@ -1,9 +1,12 @@
 {
-  "asn": 42724,
-  "handle": "TALIDO",
-  "description": "TALIDO Bilisim Teknolojileri Sanayi ve Ticaret Anonim Sirketi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42724,
+  "metadata" : {
+    "handle" : "TALIDO",
+    "description" : "TALIDO Bilisim Teknolojileri Sanayi ve Ticaret Anonim Sirketi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.155.127.0/24",
       "93.177.100.0/24",
       "185.235.77.0/24",
@@ -12,6 +15,6 @@
       "194.36.86.0/23",
       "194.169.120.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

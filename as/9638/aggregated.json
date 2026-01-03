@@ -1,9 +1,12 @@
 {
-  "asn": 9638,
-  "handle": "NH-AS",
-  "description": "National Agricultural Cooperative federation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9638,
+  "metadata" : {
+    "handle" : "NH-AS",
+    "description" : "National Agricultural Cooperative federation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.214.72.0/23",
       "1.214.92.0/24",
       "1.230.199.0/24",
@@ -39,6 +42,6 @@
       "211.41.104.0/24",
       "222.98.13.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

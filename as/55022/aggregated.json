@@ -1,12 +1,15 @@
 {
-  "asn": 55022,
-  "handle": "QUESYS-AS1",
-  "description": "Quesys Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55022,
+  "metadata" : {
+    "handle" : "QUESYS-AS1",
+    "description" : "Quesys Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.153.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fffd::/36"
     ]
   }

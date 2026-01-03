@@ -1,15 +1,18 @@
 {
-  "asn": 141529,
-  "handle": "VMPSIP-AS-IN",
-  "description": "Vmps Internet Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141529,
+  "metadata" : {
+    "handle" : "VMPSIP-AS-IN",
+    "description" : "Vmps Internet Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.153.32.0/23",
       "103.155.208.0/23",
       "103.160.64.0/23",
       "103.196.0.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:c680::/48"
     ]
   }

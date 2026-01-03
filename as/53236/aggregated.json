@@ -1,14 +1,17 @@
 {
-  "asn": 53236,
-  "handle": "ACESSO-INTERNET-FIBRA",
-  "description": "ACESSO Internet Fibra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53236,
+  "metadata" : {
+    "handle" : "ACESSO-INTERNET-FIBRA",
+    "description" : "ACESSO Internet Fibra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.83.204.0/22",
       "170.150.176.0/22",
       "177.10.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2f0::/32"
     ]
   }

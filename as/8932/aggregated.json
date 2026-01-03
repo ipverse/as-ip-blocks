@@ -1,14 +1,17 @@
 {
-  "asn": 8932,
-  "handle": "UCOMINT",
-  "description": "Ucom CJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8932,
+  "metadata" : {
+    "handle" : "UCOMINT",
+    "description" : "Ucom CJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.36.124.0/22",
       "46.162.220.0/22",
       "185.48.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:cc40:1::/48",
       "2a00:cc40:2::/48"
     ]

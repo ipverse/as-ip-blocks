@@ -1,9 +1,12 @@
 {
-  "asn": 135477,
-  "handle": "JAVADIGITAL-AS-ID",
-  "description": "PT. Java Digital Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135477,
+  "metadata" : {
+    "handle" : "JAVADIGITAL-AS-ID",
+    "description" : "PT. Java Digital Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.3.58.0/24",
       "103.15.214.0/23",
       "103.76.148.0/22",
@@ -13,7 +16,7 @@
       "202.47.88.0/24",
       "203.29.26.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:6f80::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 22368,
-  "handle": "TELEBUCARAMANGA",
-  "description": "TELEBUCARAMANGA S.A. E.S.P",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22368,
+  "metadata" : {
+    "handle" : "TELEBUCARAMANGA",
+    "description" : "TELEBUCARAMANGA S.A. E.S.P.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "152.200.204.0/24",
       "170.80.8.0/22",
       "181.174.0.0/21",
@@ -59,6 +62,6 @@
       "201.221.157.0/24",
       "201.221.158.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

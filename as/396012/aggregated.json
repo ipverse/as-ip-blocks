@@ -1,12 +1,15 @@
 {
-  "asn": 396012,
-  "handle": "COS-ASN01",
-  "description": "City of Scottsdale",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396012,
+  "metadata" : {
+    "handle" : "COS-ASN01",
+    "description" : "City of Scottsdale",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.253.206.0/23",
       "192.206.21.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

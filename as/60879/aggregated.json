@@ -1,14 +1,17 @@
 {
-  "asn": 60879,
-  "handle": "SYSTEMPROJECTS-AS",
-  "description": "System Projects LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60879,
+  "metadata" : {
+    "handle" : "SYSTEMPROJECTS-AS",
+    "description" : "System Projects LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.172.128.0/21",
       "95.172.140.0/24",
       "185.24.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:74e0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 27609,
-  "handle": "USC-UNIVERSITY-HOSPITAL",
-  "description": "USC-University Hospital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27609,
+  "metadata" : {
+    "handle" : "USC-UNIVERSITY-HOSPITAL",
+    "description" : "USC-University Hospital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.247.0.0/21",
       "63.247.8.0/22",
       "63.247.13.0/24",
@@ -26,6 +29,6 @@
       "207.151.83.0/24",
       "207.151.84.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

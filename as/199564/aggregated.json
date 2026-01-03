@@ -1,12 +1,15 @@
 {
-  "asn": 199564,
-  "handle": "MPA-NET",
-  "description": "Medical Products Agency",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199564,
+  "metadata" : {
+    "handle" : "MPA-NET",
+    "description" : "Medical Products Agency",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.71.155.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:148c::/48"
     ]
   }

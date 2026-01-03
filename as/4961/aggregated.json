@@ -1,9 +1,12 @@
 {
-  "asn": 4961,
-  "handle": "DISC-AS",
-  "description": "Daewoo Information Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4961,
+  "metadata" : {
+    "handle" : "DISC-AS",
+    "description" : "Daewoo Information Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "152.149.40.0/21",
       "152.149.48.0/20",
       "152.149.64.0/18",
@@ -18,6 +21,6 @@
       "211.217.22.0/24",
       "219.240.92.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

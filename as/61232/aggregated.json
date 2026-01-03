@@ -1,14 +1,17 @@
 {
-  "asn": 61232,
-  "handle": "REDIT",
-  "description": "redIT Services AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61232,
+  "metadata" : {
+    "handle" : "REDIT",
+    "description" : "redIT Services AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.152.16.0/22",
       "195.242.163.0/24",
       "195.242.164.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:7cc0::/32"
     ]
   }

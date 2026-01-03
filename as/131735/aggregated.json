@@ -1,14 +1,17 @@
 {
-  "asn": 131735,
-  "handle": "IDNIC-TNC-ID",
-  "description": "PT Telemedia Network Cakrawala",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131735,
+  "metadata" : {
+    "handle" : "IDNIC-TNC-ID",
+    "description" : "PT Telemedia Network Cakrawala",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.15.240.0/22",
       "103.52.64.0/22",
       "103.231.81.0/24",
       "103.231.82.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

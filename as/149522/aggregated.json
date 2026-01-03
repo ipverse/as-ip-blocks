@@ -1,15 +1,18 @@
 {
-  "asn": 149522,
-  "handle": "ONECUBITCOLTD-AS-AP",
-  "description": "OneCubit Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149522,
+  "metadata" : {
+    "handle" : "ONECUBITCOLTD-AS-AP",
+    "description" : "OneCubit Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.69.120.0/22",
       "103.55.156.0/24",
       "103.115.140.0/23",
       "103.182.122.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:5ce0::/44",
       "2400:5ce0:10::/46",
       "2400:5ce0:18::/45",

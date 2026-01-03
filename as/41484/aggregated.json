@@ -1,16 +1,19 @@
 {
-  "asn": 41484,
-  "handle": "NYNET",
-  "description": "NYnet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41484,
+  "metadata" : {
+    "handle" : "NYNET",
+    "description" : "NYnet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.25.0.0/21",
       "37.72.112.0/21",
       "176.62.208.0/21",
       "185.4.156.0/22",
       "185.68.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5680::/32"
     ]
   }

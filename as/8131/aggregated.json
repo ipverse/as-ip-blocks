@@ -1,12 +1,15 @@
 {
-  "asn": 8131,
-  "handle": "PEPBOYS",
-  "description": "Pep Boys",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8131,
+  "metadata" : {
+    "handle" : "PEPBOYS",
+    "description" : "Pep Boys",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.220.16.0/20",
       "168.220.32.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

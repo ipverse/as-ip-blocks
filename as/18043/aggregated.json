@@ -1,12 +1,15 @@
 {
-  "asn": 18043,
-  "handle": "HCCG-AS",
-  "description": "Hsinchu City Government",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18043,
+  "metadata" : {
+    "handle" : "HCCG-AS",
+    "description" : "Hsinchu City Government",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.79.66.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:3ce0::/32"
     ]
   }

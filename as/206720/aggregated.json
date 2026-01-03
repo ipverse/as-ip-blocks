@@ -1,9 +1,12 @@
 {
-  "asn": 206720,
-  "handle": "AIRBUS-TRANSIT",
-  "description": "AIRBUS SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206720,
+  "metadata" : {
+    "handle" : "AIRBUS-TRANSIT",
+    "description" : "AIRBUS SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "140.94.0.0/16",
       "185.187.244.0/22",
       "193.56.32.0/24",
@@ -13,6 +16,6 @@
       "193.56.40.0/24",
       "193.56.45.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

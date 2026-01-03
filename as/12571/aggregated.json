@@ -1,13 +1,16 @@
 {
-  "asn": 12571,
-  "handle": "INCAS-AS",
-  "description": "INCAS GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12571,
+  "metadata" : {
+    "handle" : "INCAS-AS",
+    "description" : "INCAS GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.128.100.0/22",
       "212.76.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1d48::/32"
     ]
   }

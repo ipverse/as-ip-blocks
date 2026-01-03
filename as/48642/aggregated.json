@@ -1,9 +1,12 @@
 {
-  "asn": 48642,
-  "handle": "FOR-AS",
-  "description": "Joint stock company For",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48642,
+  "metadata" : {
+    "handle" : "FOR-AS",
+    "description" : "Joint stock company For",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.43.128.0/19",
       "5.199.192.0/19",
       "45.131.56.0/22",
@@ -42,7 +45,7 @@
       "217.151.224.0/22",
       "217.151.232.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:f940::/32",
       "2a0d:b600::/29"
     ]

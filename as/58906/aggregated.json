@@ -1,9 +1,12 @@
 {
-  "asn": 58906,
-  "handle": "SIPL-AS",
-  "description": "Shivansh Infotech pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58906,
+  "metadata" : {
+    "handle" : "SIPL-AS",
+    "description" : "Shivansh Infotech pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.240.5.0/24",
       "45.248.25.0/24",
       "103.47.14.0/24",
@@ -14,6 +17,6 @@
       "103.225.204.0/24",
       "103.248.122.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

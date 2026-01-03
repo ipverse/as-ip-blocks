@@ -1,12 +1,15 @@
 {
-  "asn": 273456,
-  "handle": "OK-NET",
-  "description": "ok net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273456,
+  "metadata" : {
+    "handle" : "OK-NET",
+    "description" : "ok net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.196.148.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8eec::/32"
     ]
   }

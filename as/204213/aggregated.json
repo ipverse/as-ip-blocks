@@ -1,9 +1,12 @@
 {
-  "asn": 204213,
-  "handle": "NETMIHAN",
-  "description": "Netmihan Communication Company Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204213,
+  "metadata" : {
+    "handle" : "NETMIHAN",
+    "description" : "Netmihan Communication Company Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.106.142.0/24",
       "89.32.248.0/22",
       "89.39.208.0/24",
@@ -14,6 +17,6 @@
       "188.212.22.0/24",
       "217.144.104.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

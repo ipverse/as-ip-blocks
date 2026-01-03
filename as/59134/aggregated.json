@@ -1,9 +1,12 @@
 {
-  "asn": 59134,
-  "handle": "IDNIC-DATACOMM-AS-ID",
-  "description": "PT. Datacomm Diangraha",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59134,
+  "metadata" : {
+    "handle" : "IDNIC-DATACOMM-AS-ID",
+    "description" : "PT. Datacomm Diangraha",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.47.64.0/20",
       "38.47.80.0/22",
       "38.47.84.0/24",
@@ -17,6 +20,6 @@
       "103.179.32.0/23",
       "103.252.50.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

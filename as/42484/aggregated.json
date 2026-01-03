@@ -1,9 +1,12 @@
 {
-  "asn": 42484,
-  "handle": "NAUKANET-AS",
-  "description": "LLC Nauka-Svyaz",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42484,
+  "metadata" : {
+    "handle" : "NAUKANET-AS",
+    "description" : "LLC Nauka-Svyaz",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.13.111.0/24",
       "81.13.112.0/24",
       "194.67.129.0/24",
@@ -12,6 +15,6 @@
       "213.252.101.0/24",
       "213.252.108.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

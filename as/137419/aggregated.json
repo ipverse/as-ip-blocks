@@ -1,11 +1,14 @@
 {
-  "asn": 137419,
-  "handle": "NETFOX-AS-AP",
-  "description": "NET FOX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137419,
+  "metadata" : {
+    "handle" : "NETFOX-AS-AP",
+    "description" : "NET FOX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.107.228.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 42038,
-  "handle": "VLADLINK-AS",
-  "description": "Krivets Sergey Sergeevich",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42038,
+  "metadata" : {
+    "handle" : "VLADLINK-AS",
+    "description" : "Krivets Sergey Sergeevich",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.100.64.0/18",
       "37.8.144.0/20",
       "45.158.188.0/22",
@@ -11,6 +14,6 @@
       "109.126.0.0/18",
       "185.3.172.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

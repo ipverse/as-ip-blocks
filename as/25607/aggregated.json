@@ -1,9 +1,12 @@
 {
-  "asn": 25607,
-  "handle": "IBW-COMMUNICATIONS",
-  "description": "IBW Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25607,
+  "metadata" : {
+    "handle" : "IBW-COMMUNICATIONS",
+    "description" : "IBW Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.0.32.0/19",
       "165.98.130.0/24",
       "165.98.224.0/24",
@@ -13,7 +16,7 @@
       "191.103.112.0/20",
       "200.85.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:800::/32"
     ]
   }

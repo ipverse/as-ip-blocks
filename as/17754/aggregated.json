@@ -1,9 +1,12 @@
 {
-  "asn": 17754,
-  "handle": "EXCELL-AS",
-  "description": "Excellmedia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17754,
+  "metadata" : {
+    "handle" : "EXCELL-AS",
+    "description" : "Excellmedia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "175.101.0.0/19",
       "175.101.32.0/22",
       "175.101.36.0/23",
@@ -37,7 +40,7 @@
       "202.133.48.0/20",
       "202.153.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:fb00::/47",
       "2401:fb00:4::/48",
       "2401:fb00:7fee::/47",

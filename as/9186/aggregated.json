@@ -1,16 +1,19 @@
 {
-  "asn": 9186,
-  "handle": "ONI",
-  "description": "ONITELECOM - INFOCOMUNICACOES S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9186,
+  "metadata" : {
+    "handle" : "ONI",
+    "description" : "ONITELECOM - INFOCOMUNICACOES S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.19.200.0/22",
       "84.252.89.0/24",
       "84.252.90.0/23",
       "195.245.128.0/18",
       "213.58.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:a40::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 212911,
-  "handle": "TABDIGITAL",
-  "description": "SIA Network Operations Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212911,
+  "metadata" : {
+    "handle" : "TABDIGITAL",
+    "description" : "SIA Network Operations Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.220.119.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:f6c0:1::/48"
     ]
   }

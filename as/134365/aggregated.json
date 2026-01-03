@@ -1,9 +1,12 @@
 {
-  "asn": 134365,
-  "handle": "ANSHENG-AS-AP",
-  "description": "Ansheng Network Technology Co. Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134365,
+  "metadata" : {
+    "handle" : "ANSHENG-AS-AP",
+    "description" : "Ansheng Network Technology Co. Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.197.144.0/21",
       "150.129.218.0/24",
       "154.194.248.0/21",
@@ -12,6 +15,6 @@
       "156.226.176.0/21",
       "156.239.52.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

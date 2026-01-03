@@ -1,9 +1,12 @@
 {
-  "asn": 202204,
-  "handle": "TROLLFJORD",
-  "description": "Trollfjord Bredband AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202204,
+  "metadata" : {
+    "handle" : "TROLLFJORD",
+    "description" : "Trollfjord Bredband AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.24.0/22",
       "78.26.0.0/18",
       "85.113.72.0/21",
@@ -16,7 +19,7 @@
       "185.124.54.0/23",
       "185.161.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ea0::/29",
       "2a09:5c0::/29"
     ]

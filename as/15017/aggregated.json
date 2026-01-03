@@ -1,14 +1,17 @@
 {
-  "asn": 15017,
-  "handle": "MUFSD-ASN-01",
-  "description": "Malverne Union Free School District",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15017,
+  "metadata" : {
+    "handle" : "MUFSD-ASN-01",
+    "description" : "Malverne Union Free School District",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.179.48.0/24",
       "104.166.122.0/24",
       "170.24.185.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:2940::/32"
     ]
   }

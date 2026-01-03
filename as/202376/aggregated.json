@@ -1,9 +1,12 @@
 {
-  "asn": 202376,
-  "handle": "ARVID-LOGICUM",
-  "description": "Arvid Logicum OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202376,
+  "metadata" : {
+    "handle" : "ARVID-LOGICUM",
+    "description" : "Arvid Logicum OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.166.0/23",
       "81.25.69.0/24",
       "109.94.209.0/24",
@@ -11,7 +14,7 @@
       "149.5.210.0/23",
       "176.118.167.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:f540::/31"
     ]
   }

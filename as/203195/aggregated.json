@@ -1,12 +1,15 @@
 {
-  "asn": 203195,
-  "handle": "DTLINK",
-  "description": "DT-Link Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203195,
+  "metadata" : {
+    "handle" : "DTLINK",
+    "description" : "DT-Link Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.141.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:a8a0::/29"
     ]
   }

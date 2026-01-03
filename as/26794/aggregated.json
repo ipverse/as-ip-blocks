@@ -1,14 +1,17 @@
 {
-  "asn": 26794,
-  "handle": "DCN-AS",
-  "description": "Dakota Carrier Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26794,
+  "metadata" : {
+    "handle" : "DCN-AS",
+    "description" : "Dakota Carrier Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.97.224.0/19",
       "108.163.96.0/19",
       "216.147.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fe40::/32"
     ]
   }

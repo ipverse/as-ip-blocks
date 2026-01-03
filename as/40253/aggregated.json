@@ -1,10 +1,13 @@
 {
-  "asn": 40253,
-  "handle": "ELYSIA-ROOT-LC",
-  "description": "Elysia Root L.C",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 40253,
+  "metadata" : {
+    "handle" : "ELYSIA-ROOT-LC",
+    "description" : "Elysia Root L.C.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2602:f494:3::/48",
       "2602:fed2:7080::/48"
     ]

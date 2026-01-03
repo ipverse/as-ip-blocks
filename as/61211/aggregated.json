@@ -1,9 +1,12 @@
 {
-  "asn": 61211,
-  "handle": "SETCOR",
-  "description": "SETCOR d.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61211,
+  "metadata" : {
+    "handle" : "SETCOR",
+    "description" : "SETCOR d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.163.184.0/22",
       "185.15.28.0/22",
       "185.62.72.0/22",
@@ -11,7 +14,7 @@
       "194.36.45.0/24",
       "194.36.46.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:bb40::/32"
     ]
   }

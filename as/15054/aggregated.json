@@ -1,9 +1,12 @@
 {
-  "asn": 15054,
-  "handle": "OMEGA-TX",
-  "description": "Northeast Texas Broadband LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15054,
+  "metadata" : {
+    "handle" : "OMEGA-TX",
+    "description" : "Northeast Texas Broadband LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.236.80.0/20",
       "63.246.48.0/20",
       "66.209.32.0/20",
@@ -12,7 +15,7 @@
       "161.38.218.0/23",
       "204.11.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:3f40::/32"
     ]
   }

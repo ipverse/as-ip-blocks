@@ -1,9 +1,12 @@
 {
-  "asn": 36315,
-  "handle": "SERVPAC",
-  "description": "Servpac Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36315,
+  "metadata" : {
+    "handle" : "SERVPAC",
+    "description" : "Servpac Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.29.224.0/19",
       "23.91.32.0/19",
       "45.73.192.0/18",
@@ -23,6 +26,6 @@
       "206.126.0.0/20",
       "207.2.104.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

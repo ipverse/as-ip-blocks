@@ -1,9 +1,12 @@
 {
-  "asn": 208988,
-  "handle": "BUCHHOLZ-DIGITAL",
-  "description": "Buchholz Digital GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208988,
+  "metadata" : {
+    "handle" : "BUCHHOLZ-DIGITAL",
+    "description" : "Buchholz Digital GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.214.150.0/23",
       "37.10.68.0/23",
       "37.10.110.0/23",
@@ -21,7 +24,7 @@
       "185.125.232.0/22",
       "185.195.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:71a0::/32"
     ]
   }

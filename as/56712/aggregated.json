@@ -1,12 +1,15 @@
 {
-  "asn": 56712,
-  "handle": "SUMERNET-AS",
-  "description": "Agata Sumera",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56712,
+  "metadata" : {
+    "handle" : "SUMERNET-AS",
+    "description" : "Agata Sumera",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.226.228.0/22",
       "185.152.76.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

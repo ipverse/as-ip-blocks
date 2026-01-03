@@ -1,13 +1,16 @@
 {
-  "asn": 263537,
-  "handle": "VIA-FIBRA-INTERNET",
-  "description": "Via Fibra Internet Banda Larga EIRELI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263537,
+  "metadata" : {
+    "handle" : "VIA-FIBRA-INTERNET",
+    "description" : "Via Fibra Internet Banda Larga EIRELI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.70.140.0/22",
       "191.5.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1384::/32"
     ]
   }

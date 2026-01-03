@@ -1,9 +1,12 @@
 {
-  "asn": 31499,
-  "handle": "YCC-AS",
-  "description": "Ekaterinburg-2000 LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31499,
+  "metadata" : {
+    "handle" : "YCC-AS",
+    "description" : "Ekaterinburg-2000 LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.95.168.0/21",
       "178.22.44.0/22",
       "185.11.228.0/22",
@@ -12,7 +15,7 @@
       "213.151.0.0/19",
       "217.148.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:4440::/32"
     ]
   }

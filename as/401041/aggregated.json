@@ -1,9 +1,12 @@
 {
-  "asn": 401041,
-  "handle": "AXIS-SECURITY",
-  "description": "Axis Security",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401041,
+  "metadata" : {
+    "handle" : "AXIS-SECURITY",
+    "description" : "Axis Security",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.25.9.0/24",
       "192.67.137.0/24",
       "192.67.138.0/23",
@@ -18,6 +21,6 @@
       "198.55.38.0/24",
       "198.55.40.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

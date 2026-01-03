@@ -1,9 +1,12 @@
 {
-  "asn": 30083,
-  "handle": "AS-30083-US-VELIA-NET",
-  "description": "velia.net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30083,
+  "metadata" : {
+    "handle" : "AS-30083-US-VELIA-NET",
+    "description" : "velia.net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.30.32.0/20",
       "69.64.32.0/19",
       "148.72.128.0/24",
@@ -30,7 +33,7 @@
       "209.126.96.0/19",
       "209.239.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:de00::/32",
       "2a13:9500:36::/48"
     ]

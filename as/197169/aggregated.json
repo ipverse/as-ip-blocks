@@ -1,11 +1,14 @@
 {
-  "asn": 197169,
-  "handle": "TAXNET-AS",
-  "description": "ZAO TaxNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197169,
+  "metadata" : {
+    "handle" : "TAXNET-AS",
+    "description" : "ZAO TaxNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.224.52.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

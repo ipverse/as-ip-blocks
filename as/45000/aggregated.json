@@ -1,11 +1,14 @@
 {
-  "asn": 45000,
-  "handle": "SBER-EKB-AS",
-  "description": "Sberbank of Russia PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45000,
+  "metadata" : {
+    "handle" : "SBER-EKB-AS",
+    "description" : "Sberbank of Russia PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.0.185.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 10958,
-  "handle": "ROYELLCOMMUNICATIONSINC",
-  "description": "Royell Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10958,
+  "metadata" : {
+    "handle" : "ROYELLCOMMUNICATIONSINC",
+    "description" : "Royell Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.214.241.0/24",
       "147.161.4.0/22",
       "162.216.108.0/22",
@@ -13,7 +16,7 @@
       "208.80.144.0/21",
       "208.91.176.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:7a80::/28"
     ]
   }

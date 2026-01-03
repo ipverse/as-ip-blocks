@@ -1,9 +1,12 @@
 {
-  "asn": 17444,
-  "handle": "HKBNESL-AS-AP",
-  "description": "HKBN Enterprise Solutions Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17444,
+  "metadata" : {
+    "handle" : "HKBNESL-AS-AP",
+    "description" : "HKBN Enterprise Solutions Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.64.128.0/17",
       "59.188.0.0/20",
       "59.188.16.0/22",
@@ -115,7 +118,7 @@
       "210.245.160.0/19",
       "210.245.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:4a00::/32"
     ]
   }

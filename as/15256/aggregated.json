@@ -1,14 +1,17 @@
 {
-  "asn": 15256,
-  "handle": "ITAU-UNIBANCO",
-  "description": "Itau Unibanco S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15256,
+  "metadata" : {
+    "handle" : "ITAU-UNIBANCO",
+    "description" : "Itau Unibanco S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.243.33.0/24",
       "138.59.160.0/22",
       "200.186.244.0/24",
       "200.196.144.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 212336,
-  "handle": "BYTEVIRTLLC",
-  "description": "ByteVirt LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212336,
+  "metadata" : {
+    "handle" : "BYTEVIRTLLC",
+    "description" : "ByteVirt LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.95.123.0/24",
       "31.57.172.0/24",
       "38.49.36.0/24",
@@ -26,7 +29,7 @@
       "208.68.180.0/24",
       "213.210.4.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:bec0:162::/48",
       "2a12:bec0:164::/48",
       "2a12:bec0:167::/48",

@@ -1,14 +1,17 @@
 {
-  "asn": 7727,
-  "handle": "HONDUTEL",
-  "description": "Hondutel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7727,
+  "metadata" : {
+    "handle" : "HONDUTEL",
+    "description" : "Hondutel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.221.8.0/22",
       "181.210.0.0/16",
       "190.130.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:100::/32"
     ]
   }

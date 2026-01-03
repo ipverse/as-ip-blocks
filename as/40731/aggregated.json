@@ -1,12 +1,15 @@
 {
-  "asn": 40731,
-  "handle": "LATIN-IP",
-  "description": "Latin IP LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40731,
+  "metadata" : {
+    "handle" : "LATIN-IP",
+    "description" : "Latin IP LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.152.200.0/23",
       "104.152.202.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

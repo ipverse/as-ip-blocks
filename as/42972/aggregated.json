@@ -1,12 +1,15 @@
 {
-  "asn": 42972,
-  "handle": "CPCR-AS",
-  "description": "JSC DPD RUS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42972,
+  "metadata" : {
+    "handle" : "CPCR-AS",
+    "description" : "JSC DPD RUS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.75.168.0/21",
       "91.209.80.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

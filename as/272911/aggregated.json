@@ -1,14 +1,17 @@
 {
-  "asn": 272911,
-  "handle": "FALCO-TELECOM",
-  "description": "FALCO TELECOM S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272911,
+  "metadata" : {
+    "handle" : "FALCO-TELECOM",
+    "description" : "FALCO TELECOM S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.57.64.0/21",
       "38.190.147.0/24",
       "38.252.202.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:4e90::/32"
     ]
   }

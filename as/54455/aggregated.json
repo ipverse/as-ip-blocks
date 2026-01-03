@@ -1,14 +1,17 @@
 {
-  "asn": 54455,
-  "handle": "MADEIT",
-  "description": "MadeIT inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54455,
+  "metadata" : {
+    "handle" : "MADEIT",
+    "description" : "MadeIT inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.219.144.0/22",
       "67.219.150.0/23",
       "199.114.216.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:1580::/32"
     ]
   }

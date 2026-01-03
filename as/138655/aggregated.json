@@ -1,9 +1,12 @@
 {
-  "asn": 138655,
-  "handle": "TES-PL-AS-AP",
-  "description": "Trans World Enterprise Services (Private) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138655,
+  "metadata" : {
+    "handle" : "TES-PL-AS-AP",
+    "description" : "Trans World Enterprise Services (Private) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.86.39.0/24",
       "103.140.31.0/24",
       "119.63.138.0/24",
@@ -21,6 +24,6 @@
       "154.57.221.0/24",
       "154.57.222.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

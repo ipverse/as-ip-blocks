@@ -1,9 +1,12 @@
 {
-  "asn": 24323,
-  "handle": "AAMRA-NETWORKS-AS-AP",
-  "description": "Aamra Networks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24323,
+  "metadata" : {
+    "handle" : "AAMRA-NETWORKS-AS-AP",
+    "description" : "Aamra Networks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.245.192.0/23",
       "43.245.194.0/24",
       "45.64.132.0/22",
@@ -22,7 +25,7 @@
       "203.190.254.0/23",
       "203.202.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:c000::/32"
     ]
   }

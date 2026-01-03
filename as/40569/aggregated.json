@@ -1,12 +1,15 @@
 {
-  "asn": 40569,
-  "handle": "AS-HTR",
-  "description": "Hosting Tornado LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40569,
+  "metadata" : {
+    "handle" : "AS-HTR",
+    "description" : "Hosting Tornado LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.171.168.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f981::/40"
     ]
   }

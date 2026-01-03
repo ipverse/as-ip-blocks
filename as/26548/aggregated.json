@@ -1,9 +1,12 @@
 {
-  "asn": 26548,
-  "handle": "PUREVOLTAGE-INC",
-  "description": "PureVoltage Hosting Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26548,
+  "metadata" : {
+    "handle" : "PUREVOLTAGE-INC",
+    "description" : "PureVoltage Hosting Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.181.170.0/24",
       "5.183.252.0/24",
       "23.141.252.0/24",
@@ -135,7 +138,7 @@
       "216.180.125.0/24",
       "217.145.224.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f5e5::/36",
       "2602:fa42:201::/48",
       "2602:fad3::/40",

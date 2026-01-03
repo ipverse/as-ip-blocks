@@ -1,14 +1,17 @@
 {
-  "asn": 140120,
-  "handle": "GRACEWAY-AS-IN",
-  "description": "Graceway Infrastructure And Services Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140120,
+  "metadata" : {
+    "handle" : "GRACEWAY-AS-IN",
+    "description" : "Graceway Infrastructure And Services Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.151.234.0/23",
       "103.173.50.0/24",
       "103.176.212.0/24",
       "103.182.146.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

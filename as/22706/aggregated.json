@@ -1,11 +1,14 @@
 {
-  "asn": 22706,
-  "handle": "MAZA-GLOBAL-CARRIER",
-  "description": "MAZA Global Carrier",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22706,
+  "metadata" : {
+    "handle" : "MAZA-GLOBAL-CARRIER",
+    "description" : "MAZA Global Carrier",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.152.88.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

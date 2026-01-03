@@ -1,9 +1,12 @@
 {
-  "asn": 262216,
-  "handle": "TELCONET-S-A",
-  "description": "TELCONET S A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262216,
+  "metadata" : {
+    "handle" : "TELCONET-S-A",
+    "description" : "TELCONET S A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.0.104.0/22",
       "177.184.91.0/24",
       "190.60.175.0/24",
@@ -11,7 +14,7 @@
       "200.80.8.0/23",
       "200.80.22.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:5a00::/32"
     ]
   }

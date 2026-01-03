@@ -1,13 +1,16 @@
 {
-  "asn": 40773,
-  "handle": "FRANTIC-LLC",
-  "description": "Frantic LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40773,
+  "metadata" : {
+    "handle" : "FRANTIC-LLC",
+    "description" : "Frantic LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "108.175.112.0/20",
       "208.89.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:4f:2000::/48"
     ]
   }

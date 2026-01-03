@@ -1,9 +1,12 @@
 {
-  "asn": 59491,
-  "handle": "LIVENET-PL",
-  "description": "Livenet Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59491,
+  "metadata" : {
+    "handle" : "LIVENET-PL",
+    "description" : "Livenet Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.6.68.0/22",
       "91.188.125.0/24",
       "91.238.134.0/23",
@@ -17,7 +20,7 @@
       "212.59.243.0/24",
       "212.59.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2430:3::/48",
       "2a02:2430:5::/48",
       "2a02:2430:6::/47",

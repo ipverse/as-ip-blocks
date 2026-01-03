@@ -1,14 +1,17 @@
 {
-  "asn": 33811,
-  "handle": "PIXELPARK-AS",
-  "description": "Digitas GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33811,
+  "metadata" : {
+    "handle" : "PIXELPARK-AS",
+    "description" : "Digitas GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.74.232.0/21",
       "93.188.104.0/21",
       "217.66.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:978:a700::/48"
     ]
   }

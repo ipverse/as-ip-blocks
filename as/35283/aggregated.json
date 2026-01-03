@@ -1,9 +1,12 @@
 {
-  "asn": 35283,
-  "handle": "NETWORTH-MAIN-AS",
-  "description": "NETWORTH TELECOM SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35283,
+  "metadata" : {
+    "handle" : "NETWORTH-MAIN-AS",
+    "description" : "NETWORTH TELECOM SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.19.16.0/20",
       "85.31.104.0/21",
       "86.106.152.0/22",
@@ -12,7 +15,7 @@
       "193.106.36.0/22",
       "195.26.96.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1b58::/29"
     ]
   }

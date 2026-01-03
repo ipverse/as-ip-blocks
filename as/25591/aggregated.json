@@ -1,9 +1,12 @@
 {
-  "asn": 25591,
-  "handle": "BCLAN-AS",
-  "description": "BCLan LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25591,
+  "metadata" : {
+    "handle" : "BCLAN-AS",
+    "description" : "BCLan LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.101.208.0/21",
       "5.183.64.0/21",
       "5.188.144.0/22",
@@ -19,6 +22,6 @@
       "185.140.134.0/23",
       "217.175.0.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

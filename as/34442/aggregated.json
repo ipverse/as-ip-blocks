@@ -1,9 +1,12 @@
 {
-  "asn": 34442,
-  "handle": "AMATISNETWORKS",
-  "description": "BNW TECHNOLOGY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34442,
+  "metadata" : {
+    "handle" : "AMATISNETWORKS",
+    "description" : "BNW TECHNOLOGY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.232.192.0/21",
       "77.246.16.0/20",
       "80.77.240.0/20",
@@ -15,7 +18,7 @@
       "195.8.116.0/24",
       "195.80.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1990::/32"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 38818,
-  "handle": "YOKOUNANET-MN-AS-AP",
-  "description": "YokozunaNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38818,
+  "metadata" : {
+    "handle" : "YOKOUNANET-MN-AS-AP",
+    "description" : "YokozunaNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.0.128.0/19",
       "49.0.168.0/21",
       "49.0.176.0/21",
       "203.34.37.0/24",
       "203.174.26.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

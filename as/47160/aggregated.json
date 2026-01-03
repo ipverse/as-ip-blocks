@@ -1,9 +1,12 @@
 {
-  "asn": 47160,
-  "handle": "MOJI",
-  "description": "MOJI SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47160,
+  "metadata" : {
+    "handle" : "MOJI",
+    "description" : "MOJI SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.14.68.0/22",
       "45.112.120.0/23",
       "45.112.122.0/24",
@@ -13,7 +16,7 @@
       "185.126.228.0/22",
       "195.190.1.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:c480::/29",
       "2a0f:3400::/40",
       "2a0f:3400:200::/40"

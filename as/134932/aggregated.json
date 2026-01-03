@@ -1,9 +1,12 @@
 {
-  "asn": 134932,
-  "handle": "VIPL789-AS-IN",
-  "description": "VORTEX INFOWAY PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134932,
+  "metadata" : {
+    "handle" : "VIPL789-AS-IN",
+    "description" : "VORTEX INFOWAY PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.79.100.0/24",
       "103.79.102.0/24",
       "103.141.116.0/23",
@@ -12,7 +15,7 @@
       "103.186.132.0/23",
       "157.20.184.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:7e60::/32",
       "2407:35c0::/32"
     ]

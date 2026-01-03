@@ -1,9 +1,12 @@
 {
-  "asn": 57446,
-  "handle": "TELEMONT-AS",
-  "description": "Telemont Service S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57446,
+  "metadata" : {
+    "handle" : "TELEMONT-AS",
+    "description" : "Telemont Service S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.106.171.0/24",
       "89.33.86.0/24",
       "89.34.173.0/24",
@@ -12,6 +15,6 @@
       "89.39.148.0/24",
       "89.44.123.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

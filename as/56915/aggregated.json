@@ -1,12 +1,15 @@
 {
-  "asn": 56915,
-  "handle": "MALINA-AS",
-  "description": "Malina LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56915,
+  "metadata" : {
+    "handle" : "MALINA-AS",
+    "description" : "Malina LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.229.119.0/24",
       "185.192.245.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

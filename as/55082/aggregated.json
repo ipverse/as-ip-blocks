@@ -1,15 +1,18 @@
 {
-  "asn": 55082,
-  "handle": "WINKCDN",
-  "description": "WINK Streaming LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55082,
+  "metadata" : {
+    "handle" : "WINKCDN",
+    "description" : "WINK Streaming LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.201.145.0/24",
       "128.201.146.0/23",
       "162.249.44.0/24",
       "162.252.236.0/24",
       "198.135.249.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

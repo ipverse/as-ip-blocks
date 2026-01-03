@@ -1,15 +1,18 @@
 {
-  "asn": 202213,
-  "handle": "COMPAGNIE-IBM-FRANCE-AS",
-  "description": "COMPAGNIE IBM FRANCE SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202213,
+  "metadata" : {
+    "handle" : "COMPAGNIE-IBM-FRANCE-AS",
+    "description" : "COMPAGNIE IBM FRANCE SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.208.250.0/24",
       "185.112.228.0/22",
       "193.240.34.0/24",
       "193.240.63.0/24",
       "208.50.60.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

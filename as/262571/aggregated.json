@@ -1,12 +1,15 @@
 {
-  "asn": 262571,
-  "handle": "SM-NETWORKS",
-  "description": "SM Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262571,
+  "metadata" : {
+    "handle" : "SM-NETWORKS",
+    "description" : "SM Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.73.160.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:63c::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 39855,
-  "handle": "MOD-EU",
-  "description": "Mod Mission Critical LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39855,
+  "metadata" : {
+    "handle" : "MOD-EU",
+    "description" : "Mod Mission Critical LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.10.194.0/24",
       "5.10.196.0/24",
       "5.10.198.0/24",
@@ -334,7 +337,7 @@
       "217.74.21.0/24",
       "217.74.22.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:e00:104::/48",
       "2a04:e00:108::/48",
       "2a04:e00:201::/48",

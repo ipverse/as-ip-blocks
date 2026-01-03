@@ -1,13 +1,16 @@
 {
-  "asn": 49191,
-  "handle": "SOFTERIUM-AS",
-  "description": "Global Software Investment OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49191,
+  "metadata" : {
+    "handle" : "SOFTERIUM-AS",
+    "description" : "Global Software Investment OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.129.164.0/24",
       "185.190.249.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:ddc0::/46"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 400196,
-  "handle": "NETSKRTSYSTEMS-GLOBAL",
-  "description": "Netskrt",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400196,
+  "metadata" : {
+    "handle" : "NETSKRTSYSTEMS-GLOBAL",
+    "description" : "Netskrt",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "205.178.178.0/24",
       "207.22.32.0/22",
       "208.52.177.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:8240:f11a::/48",
       "2607:8240:ff1b::/48",
       "2607:8240:ffff::/48"

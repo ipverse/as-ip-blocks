@@ -1,13 +1,16 @@
 {
-  "asn": 47481,
-  "handle": "AS-LHD",
-  "description": "Lime HD LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47481,
+  "metadata" : {
+    "handle" : "AS-LHD",
+    "description" : "Lime HD LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.24.46.0/23",
       "194.35.48.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:fec0:21::/48",
       "2a0d:fec0:77::/48",
       "2a0d:fec0:98::/47",

@@ -1,9 +1,12 @@
 {
-  "asn": 24723,
-  "handle": "ATMAN-OFFICE-INTERNET-AS",
-  "description": "Atman Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24723,
+  "metadata" : {
+    "handle" : "ATMAN-OFFICE-INTERNET-AS",
+    "description" : "Atman Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.229.158.0/23",
       "77.79.198.0/24",
       "77.83.100.0/23",
@@ -15,7 +18,7 @@
       "206.252.236.0/22",
       "206.252.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1a68:2c::/48",
       "2001:1a68:37::/48"
     ]

@@ -1,13 +1,16 @@
 {
-  "asn": 393564,
-  "handle": "WSU-SPO-AS",
-  "description": "Washington State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393564,
+  "metadata" : {
+    "handle" : "WSU-SPO-AS",
+    "description" : "Washington State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.166.36.0/22",
       "134.121.188.0/24",
       "192.94.22.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

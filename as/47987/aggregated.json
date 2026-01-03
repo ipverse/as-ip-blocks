@@ -1,9 +1,12 @@
 {
-  "asn": 47987,
-  "handle": "DELTAHOST-KYIV",
-  "description": "Zemlyaniy Dmitro Leonidovich",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47987,
+  "metadata" : {
+    "handle" : "DELTAHOST-KYIV",
+    "description" : "Zemlyaniy Dmitro Leonidovich",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.9.236.0/22",
       "87.247.152.0/22",
       "91.218.36.0/24",
@@ -17,7 +20,7 @@
       "193.228.52.0/22",
       "194.147.217.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:1740::/29",
       "2a07:a400::/29",
       "2a0b:9300::/29",

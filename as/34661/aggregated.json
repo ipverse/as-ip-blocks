@@ -1,9 +1,12 @@
 {
-  "asn": 34661,
-  "handle": "BREEZE-NETWORK",
-  "description": "TOV TRK Briz",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34661,
+  "metadata" : {
+    "handle" : "BREEZE-NETWORK",
+    "description" : "TOV TRK Briz",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.130.244.0/22",
       "45.140.44.0/22",
       "45.147.140.0/22",
@@ -25,7 +28,7 @@
       "195.123.252.0/22",
       "213.231.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1e20::/29"
     ]
   }

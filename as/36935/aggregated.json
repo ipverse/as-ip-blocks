@@ -1,9 +1,12 @@
 {
-  "asn": 36935,
-  "handle": "VODAFONE-EG",
-  "description": "Vodafone Data",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36935,
+  "metadata" : {
+    "handle" : "VODAFONE-EG",
+    "description" : "Vodafone Data",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.206.128.0/19",
       "41.223.20.0/22",
       "62.68.247.0/24",
@@ -51,7 +54,7 @@
       "213.212.216.0/24",
       "213.212.229.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4220::/33"
     ]
   }

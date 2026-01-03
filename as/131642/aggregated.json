@@ -1,9 +1,12 @@
 {
-  "asn": 131642,
-  "handle": "PNI-AS-TW",
-  "description": "Pittqiao Network Information Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131642,
+  "metadata" : {
+    "handle" : "PNI-AS-TW",
+    "description" : "Pittqiao Network Information Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.12.62.0/23",
       "103.20.99.0/24",
       "103.64.20.0/23",
@@ -26,7 +29,7 @@
       "202.148.222.0/23",
       "211.76.176.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:cdc0::/32",
       "2a13:2200::/47"
     ]

@@ -1,11 +1,14 @@
 {
-  "asn": 137970,
-  "handle": "AAA-AS-AP",
-  "description": "Rocket Signal",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137970,
+  "metadata" : {
+    "handle" : "AAA-AS-AP",
+    "description" : "Rocket Signal",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.74.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

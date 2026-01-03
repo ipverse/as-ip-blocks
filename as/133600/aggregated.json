@@ -1,11 +1,14 @@
 {
-  "asn": 133600,
-  "handle": "ESSEC-AS-AP",
-  "description": "ESSEC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133600,
+  "metadata" : {
+    "handle" : "ESSEC-AS-AP",
+    "description" : "ESSEC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.237.142.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 211974,
-  "handle": "AIRECOM",
-  "description": "Airecom Internet S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211974,
+  "metadata" : {
+    "handle" : "AIRECOM",
+    "description" : "Airecom Internet S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.34.39.0/24",
       "149.34.45.0/24",
       "185.203.220.0/22",
       "195.5.76.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:9740::/29"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 135125,
-  "handle": "TALMURI-AS-AP",
-  "description": "Talmuri Computer System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135125,
+  "metadata" : {
+    "handle" : "TALMURI-AS-AP",
+    "description" : "Talmuri Computer System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.250.20.0/22",
       "103.210.16.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

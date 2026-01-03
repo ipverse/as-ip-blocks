@@ -1,13 +1,16 @@
 {
-  "asn": 137132,
-  "handle": "MYHSB-AS",
-  "description": "High Speed Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137132,
+  "metadata" : {
+    "handle" : "MYHSB-AS",
+    "description" : "High Speed Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.110.168.0/22",
       "103.135.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:b040:fd::/48",
       "2402:b040:fde9::/48",
       "2402:b040:ffff::/48"

@@ -1,10 +1,13 @@
 {
-  "asn": 274692,
-  "handle": "UNIQUELINK-PROVEDOR-INTERNET",
-  "description": "UNIQUELINK PROVEDOR DE INTERNET",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 274692,
+  "metadata" : {
+    "handle" : "UNIQUELINK-PROVEDOR-INTERNET",
+    "description" : "UNIQUELINK PROVEDOR DE INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2804:9224::/32"
     ]
   }

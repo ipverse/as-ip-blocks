@@ -1,9 +1,12 @@
 {
-  "asn": 38203,
-  "handle": "ADNTELECOMLTD-BD",
-  "description": "ADN Telecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38203,
+  "metadata" : {
+    "handle" : "ADNTELECOMLTD-BD",
+    "description" : "ADN Telecom Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.18.0/24",
       "103.4.116.0/22",
       "103.65.132.0/23",
@@ -19,7 +22,7 @@
       "202.51.176.0/20",
       "203.194.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:9220::/32",
       "2402:b500::/48",
       "2402:b500:5::/48",

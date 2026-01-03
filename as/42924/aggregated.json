@@ -1,12 +1,15 @@
 {
-  "asn": 42924,
-  "handle": "VCSI",
-  "description": "VINCI CONSTRUCTION SI SNC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42924,
+  "metadata" : {
+    "handle" : "VCSI",
+    "description" : "VINCI CONSTRUCTION SI SNC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.188.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:bc80::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 32034,
-  "handle": "NEWCOM-INTL",
-  "description": "SPEEDCAST LATAM INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32034,
+  "metadata" : {
+    "handle" : "NEWCOM-INTL",
+    "description" : "SPEEDCAST LATAM INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "70.35.146.0/23",
       "70.35.148.0/22",
       "70.35.158.0/24",
@@ -18,6 +21,6 @@
       "216.226.64.0/23",
       "216.226.66.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

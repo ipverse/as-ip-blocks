@@ -1,9 +1,12 @@
 {
-  "asn": 7539,
-  "handle": "TWAREN-TW",
-  "description": "National Center for High-performance Computing",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7539,
+  "metadata" : {
+    "handle" : "TWAREN-TW",
+    "description" : "National Center for High-performance Computing",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.124.72.0/22",
       "103.160.220.0/24",
       "140.110.0.0/16",
@@ -12,7 +15,7 @@
       "211.73.64.0/19",
       "211.79.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:e10::/32"
     ]
   }

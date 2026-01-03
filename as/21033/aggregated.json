@@ -1,9 +1,12 @@
 {
-  "asn": 21033,
-  "handle": "ESSILOR",
-  "description": "ESSILOR International SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21033,
+  "metadata" : {
+    "handle" : "ESSILOR",
+    "description" : "ESSILOR International SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.242.5.0/24",
       "193.242.6.0/23",
       "193.242.9.0/24",
@@ -12,6 +15,6 @@
       "193.242.42.0/23",
       "193.242.46.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

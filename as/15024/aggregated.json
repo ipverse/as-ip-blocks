@@ -1,9 +1,12 @@
 {
-  "asn": 15024,
-  "handle": "PACKET-WORKS",
-  "description": "Packetworks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15024,
+  "metadata" : {
+    "handle" : "PACKET-WORKS",
+    "description" : "Packetworks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.235.96.0/20",
       "192.197.189.0/24",
       "198.133.174.0/24",
@@ -11,6 +14,6 @@
       "204.138.113.0/24",
       "206.174.176.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

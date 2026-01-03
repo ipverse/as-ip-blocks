@@ -1,11 +1,14 @@
 {
-  "asn": 134242,
-  "handle": "UTBOX-AS-AP",
-  "description": "UTBox Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134242,
+  "metadata" : {
+    "handle" : "UTBOX-AS-AP",
+    "description" : "UTBox Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.111.16.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

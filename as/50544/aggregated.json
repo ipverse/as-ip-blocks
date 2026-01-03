@@ -1,9 +1,12 @@
 {
-  "asn": 50544,
-  "handle": "KRSK-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50544,
+  "metadata" : {
+    "handle" : "KRSK-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.112.192.0/20",
       "109.195.64.0/20",
       "109.234.128.0/21",
@@ -17,7 +20,7 @@
       "217.74.160.0/20",
       "217.117.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:3000::/38"
     ]
   }

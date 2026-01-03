@@ -1,12 +1,15 @@
 {
-  "asn": 30327,
-  "handle": "ALFA-MUTUAL",
-  "description": "Alfa Mutual Insurance Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30327,
+  "metadata" : {
+    "handle" : "ALFA-MUTUAL",
+    "description" : "Alfa Mutual Insurance Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.5.124.0/24",
       "198.154.79.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

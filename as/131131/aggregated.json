@@ -1,12 +1,15 @@
 {
-  "asn": 131131,
-  "handle": "VNNIC-AS-VN",
-  "description": "VNNIC-AS-VN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131131,
+  "metadata" : {
+    "handle" : "VNNIC-AS-VN",
+    "description" : "VNNIC-AS-VN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "117.122.1.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:dc8:2001::/48"
     ]
   }

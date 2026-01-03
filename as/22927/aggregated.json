@@ -1,9 +1,12 @@
 {
-  "asn": 22927,
-  "handle": "TELEFONICA-ARGENTINA",
-  "description": "Telefonica de Argentina",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22927,
+  "metadata" : {
+    "handle" : "TELEFONICA-ARGENTINA",
+    "description" : "Telefonica de Argentina",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.177.200.0/23",
       "45.235.224.0/23",
       "131.0.104.0/22",
@@ -46,7 +49,7 @@
       "201.250.0.0/15",
       "201.254.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:380::/32",
       "2800:a00:d000::/40",
       "2800:a00:d400::/40",

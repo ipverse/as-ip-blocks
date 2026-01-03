@@ -1,13 +1,16 @@
 {
-  "asn": 264137,
-  "handle": "DUX-TELECOM",
-  "description": "DUX TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264137,
+  "metadata" : {
+    "handle" : "DUX-TELECOM",
+    "description" : "DUX TELECOM LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.97.96.0/22",
       "170.0.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2304::/33",
       "2804:2304:8000::/34",
       "2804:2304:f000::/36"

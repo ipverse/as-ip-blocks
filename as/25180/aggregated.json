@@ -1,9 +1,12 @@
 {
-  "asn": 25180,
-  "handle": "EXPONENTIAL-E-AS",
-  "description": "Exponential-E Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25180,
+  "metadata" : {
+    "handle" : "EXPONENTIAL-E-AS",
+    "description" : "Exponential-E Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.148.0.0/17",
       "5.148.128.0/19",
       "5.252.220.0/22",
@@ -45,7 +48,7 @@
       "212.93.80.0/20",
       "212.148.230.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1d40::/32",
       "2a05:ab40::/29",
       "2a0d:9b84:1000::/36"

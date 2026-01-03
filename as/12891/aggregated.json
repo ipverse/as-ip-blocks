@@ -1,13 +1,16 @@
 {
-  "asn": 12891,
-  "handle": "TSK-NET",
-  "description": "Genel Kurmay Baskanligi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12891,
+  "metadata" : {
+    "handle" : "TSK-NET",
+    "description" : "Genel Kurmay Baskanligi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.110.208.0/24",
       "193.110.210.0/23",
       "193.110.212.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

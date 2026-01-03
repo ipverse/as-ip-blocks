@@ -1,9 +1,12 @@
 {
-  "asn": 4787,
-  "handle": "ASN-CBN",
-  "description": "PT Cyberindo Aditama",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4787,
+  "metadata" : {
+    "handle" : "ASN-CBN",
+    "description" : "PT Cyberindo Aditama",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "101.50.16.0/20",
       "103.86.148.0/22",
       "103.86.152.0/21",
@@ -59,7 +62,7 @@
       "202.179.136.0/22",
       "210.210.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:d10::/32",
       "2403:3440::/32",
       "2403:34c0::/32",

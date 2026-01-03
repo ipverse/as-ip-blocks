@@ -1,9 +1,12 @@
 {
-  "asn": 12616,
-  "handle": "HOSTING-MSK",
-  "description": "Citytelecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12616,
+  "metadata" : {
+    "handle" : "HOSTING-MSK",
+    "description" : "Citytelecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.28.24.0/24",
       "31.28.27.0/24",
       "62.152.59.0/24",
@@ -20,7 +23,7 @@
       "185.38.86.0/24",
       "195.128.50.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:13c0:201::/48"
     ]
   }

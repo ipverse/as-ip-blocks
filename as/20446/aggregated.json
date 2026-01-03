@@ -1,15 +1,19 @@
 {
-  "asn": 20446,
-  "handle": "DUKELANA-20446",
-  "description": "Dukelana LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20446,
+  "metadata" : {
+    "handle" : "DUKELANA-20446",
+    "description" : "Dukelana LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.30.66.0/24",
       "204.154.108.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f4ca::/48",
       "2602:f4ca:1d::/48",
+      "2602:f4ca:e3::/48",
       "2602:f4ca:e4::/47"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 19105,
-  "handle": "FIRSTBANK",
-  "description": "FirstBank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19105,
+  "metadata" : {
+    "handle" : "FIRSTBANK",
+    "description" : "FirstBank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "205.243.23.0/24",
       "208.89.180.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 55895,
-  "handle": "ECHIGO-IX",
-  "description": "N.S.Computer Service Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55895,
+  "metadata" : {
+    "handle" : "ECHIGO-IX",
+    "description" : "N.S.Computer Service Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "117.102.169.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:e000:105::/48"
     ]
   }

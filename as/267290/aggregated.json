@@ -1,12 +1,15 @@
 {
-  "asn": 267290,
-  "handle": "MAIS-LINK",
-  "description": "Mais Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267290,
+  "metadata" : {
+    "handle" : "MAIS-LINK",
+    "description" : "Mais Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.233.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4b34::/32"
     ]
   }

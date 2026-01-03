@@ -1,9 +1,12 @@
 {
-  "asn": 58923,
-  "handle": "INTERCLOUDLTD-AS-AP",
-  "description": "InterCloud ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58923,
+  "metadata" : {
+    "handle" : "INTERCLOUDLTD-AS-AP",
+    "description" : "InterCloud ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.255.68.0/22",
       "103.23.40.0/22",
       "103.120.192.0/22",
@@ -13,7 +16,7 @@
       "163.53.149.0/24",
       "163.53.150.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:f100::/32"
     ]
   }

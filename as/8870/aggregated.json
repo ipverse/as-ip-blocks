@@ -1,9 +1,12 @@
 {
-  "asn": 8870,
-  "handle": "OVDC-AS",
-  "description": "Overseas Technologies LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8870,
+  "metadata" : {
+    "handle" : "OVDC-AS",
+    "description" : "Overseas Technologies LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.197.128.0/22",
       "91.222.64.0/22",
       "93.171.240.0/22",
@@ -13,6 +16,6 @@
       "195.66.146.0/23",
       "195.137.218.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

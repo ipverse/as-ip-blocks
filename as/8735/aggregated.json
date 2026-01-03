@@ -1,9 +1,12 @@
 {
-  "asn": 8735,
-  "handle": "ATOS-DE-NUREMBERG",
-  "description": "Atos Information Technology GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8735,
+  "metadata" : {
+    "handle" : "ATOS-DE-NUREMBERG",
+    "description" : "Atos Information Technology GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.188.250.0/24",
       "193.227.203.0/24",
       "194.8.118.0/24",
@@ -16,6 +19,6 @@
       "194.145.80.0/22",
       "194.145.86.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

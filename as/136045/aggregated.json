@@ -1,11 +1,14 @@
 {
-  "asn": 136045,
-  "handle": "DOWNSTREAM-AS-AP",
-  "description": "Downstream Connect",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136045,
+  "metadata" : {
+    "handle" : "DOWNSTREAM-AS-AP",
+    "description" : "Downstream Connect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.168.218.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

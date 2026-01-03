@@ -1,13 +1,16 @@
 {
-  "asn": 147121,
-  "handle": "IDNIC-MARVATEL-AS-ID",
-  "description": "PT Marva Global Telekomunikasi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147121,
+  "metadata" : {
+    "handle" : "IDNIC-MARVATEL-AS-ID",
+    "description" : "PT Marva Global Telekomunikasi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.141.196.0/23",
       "103.175.236.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:17c0::/48"
     ]
   }

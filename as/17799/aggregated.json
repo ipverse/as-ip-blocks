@@ -1,9 +1,12 @@
 {
-  "asn": 17799,
-  "handle": "CHINATELECOM-LN-AS-AP",
-  "description": "asn for Liaoning Provincial Net of CT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17799,
+  "metadata" : {
+    "handle" : "CHINATELECOM-LN-AS-AP",
+    "description" : "asn for Liaoning Provincial Net of CT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "42.248.152.0/21",
       "42.249.128.0/19",
       "115.168.37.0/24",
@@ -21,7 +24,7 @@
       "219.148.209.0/24",
       "219.148.210.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:1:f800::/37",
       "240e:41:c000::/37",
       "240e:86:8000::/36",

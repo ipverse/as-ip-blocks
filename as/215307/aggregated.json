@@ -1,13 +1,16 @@
 {
-  "asn": 215307,
-  "handle": "MOVETEL",
-  "description": "Movetel LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215307,
+  "metadata" : {
+    "handle" : "MOVETEL",
+    "description" : "Movetel LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.234.11.0/24",
       "193.169.128.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:1f40::/32"
     ]
   }

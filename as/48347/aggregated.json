@@ -1,9 +1,12 @@
 {
-  "asn": 48347,
-  "handle": "MTW-AS",
-  "description": "JSC Mediasoft ekspert",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48347,
+  "metadata" : {
+    "handle" : "MTW-AS",
+    "description" : "JSC Mediasoft ekspert",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.129.122.0/24",
       "37.228.88.0/22",
       "37.228.92.0/23",
@@ -72,7 +75,7 @@
       "217.21.55.0/24",
       "217.21.58.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:f440::/32",
       "2a04:2e80:10::/48"
     ]

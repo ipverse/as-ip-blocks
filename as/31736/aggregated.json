@@ -1,9 +1,12 @@
 {
-  "asn": 31736,
-  "handle": "SENSELAN-AS",
-  "description": "senseLAN GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31736,
+  "metadata" : {
+    "handle" : "SENSELAN-AS",
+    "description" : "senseLAN GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.8.240.0/22",
       "77.37.8.0/24",
       "83.222.128.0/19",
@@ -24,7 +27,7 @@
       "203.16.207.0/24",
       "212.108.104.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:7d4::/48",
       "2a02:3b0::/32",
       "2a03:1360::/32",

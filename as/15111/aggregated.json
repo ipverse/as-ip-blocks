@@ -1,13 +1,16 @@
 {
-  "asn": 15111,
-  "handle": "HERMANMILLER",
-  "description": "MillerKnoll Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15111,
+  "metadata" : {
+    "handle" : "HERMANMILLER",
+    "description" : "MillerKnoll Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.62.123.0/24",
       "198.62.124.0/22",
       "198.153.160.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

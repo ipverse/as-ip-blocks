@@ -1,9 +1,12 @@
 {
-  "asn": 399310,
-  "handle": "SOUTH-SOUND-911",
-  "description": "South Sound 911",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399310,
+  "metadata" : {
+    "handle" : "SOUTH-SOUND-911",
+    "description" : "South Sound 911",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.103.179.0/24",
       "192.103.180.0/22",
       "192.103.184.0/22",
@@ -16,6 +19,6 @@
       "192.103.218.0/23",
       "192.103.220.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

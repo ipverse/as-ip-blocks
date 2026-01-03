@@ -1,9 +1,12 @@
 {
-  "asn": 11054,
-  "handle": "LIVEPERSON",
-  "description": "LivePerson Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11054,
+  "metadata" : {
+    "handle" : "LIVEPERSON",
+    "description" : "LivePerson Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.251.40.0/22",
       "103.42.132.0/22",
       "162.252.72.0/22",
@@ -13,7 +16,7 @@
       "185.6.224.0/22",
       "208.89.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:6400:8::/45",
       "2a03:6400:10::/46",
       "2a03:6400:14::/47",

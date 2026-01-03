@@ -1,12 +1,15 @@
 {
-  "asn": 137100,
-  "handle": "NBSP-AS",
-  "description": "Netmax Broadband Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137100,
+  "metadata" : {
+    "handle" : "NBSP-AS",
+    "description" : "Netmax Broadband Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.105.108.0/22",
       "103.118.144.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

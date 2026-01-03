@@ -1,13 +1,16 @@
 {
-  "asn": 203712,
-  "handle": "XARTIC-AS",
-  "description": "Xarxes Esteses de Comunicacions SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203712,
+  "metadata" : {
+    "handle" : "XARTIC-AS",
+    "description" : "Xarxes Esteses de Comunicacions SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.18.132.0/22",
       "185.126.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:7040::/32"
     ]
   }

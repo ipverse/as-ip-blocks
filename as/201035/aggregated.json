@@ -1,14 +1,17 @@
 {
-  "asn": 201035,
-  "handle": "LUENECOM-AS",
-  "description": "LueneCom Kommunikationsloesungen GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201035,
+  "metadata" : {
+    "handle" : "LUENECOM-AS",
+    "description" : "LueneCom Kommunikationsloesungen GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.159.76.0/22",
       "46.253.240.0/20",
       "185.209.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:1c40::/29"
     ]
   }

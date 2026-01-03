@@ -1,12 +1,15 @@
 {
-  "asn": 14827,
-  "handle": "WSDOT-ASN",
-  "description": "Washington State Department of Transportation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14827,
+  "metadata" : {
+    "handle" : "WSDOT-ASN",
+    "description" : "Washington State Department of Transportation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.110.0.0/16",
       "198.238.212.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

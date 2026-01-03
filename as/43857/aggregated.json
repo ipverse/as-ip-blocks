@@ -1,12 +1,15 @@
 {
-  "asn": 43857,
-  "handle": "FRAPORT",
-  "description": "Fraport AG Frankfurt Airport Services Worldwide",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43857,
+  "metadata" : {
+    "handle" : "FRAPORT",
+    "description" : "Fraport AG Frankfurt Airport Services Worldwide",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.234.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:5740::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 36223,
-  "handle": "SPANISHFORK-COMMUNITY-NETWORK",
-  "description": "Spanish Fork City",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36223,
+  "metadata" : {
+    "handle" : "SPANISHFORK-COMMUNITY-NETWORK",
+    "description" : "Spanish Fork City",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.78.240.0/20",
       "67.199.160.0/19",
       "104.243.48.0/20",
@@ -11,7 +14,7 @@
       "160.7.232.0/21",
       "160.7.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:6d00:1::/48",
       "2604:6d00:1000::/48",
       "2604:6d00:2000::/48",

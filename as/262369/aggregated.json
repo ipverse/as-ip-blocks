@@ -1,14 +1,17 @@
 {
-  "asn": 262369,
-  "handle": "OK-VIRTUAL-PROVEDOR",
-  "description": "ok virtual provedor de internet ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262369,
+  "metadata" : {
+    "handle" : "OK-VIRTUAL-PROVEDOR",
+    "description" : "ok virtual provedor de internet ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.0.44.0/22",
       "143.137.68.0/22",
       "177.130.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:86c::/32"
     ]
   }

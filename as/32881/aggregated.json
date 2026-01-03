@@ -1,14 +1,17 @@
 {
-  "asn": 32881,
-  "handle": "SERVERNORTH",
-  "description": "Server North",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32881,
+  "metadata" : {
+    "handle" : "SERVERNORTH",
+    "description" : "Server North",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "98.124.60.0/22",
       "204.138.33.0/24",
       "205.233.48.0/21",
       "205.233.56.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 11827,
-  "handle": "WSU-PUL-AS",
-  "description": "Washington State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11827,
+  "metadata" : {
+    "handle" : "WSU-PUL-AS",
+    "description" : "Washington State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.166.44.0/22",
       "69.166.48.0/21",
       "69.166.56.0/22",
@@ -20,7 +23,7 @@
       "192.94.21.0/24",
       "198.17.13.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:a8c0:100::/40"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 58392,
-  "handle": "SWW-AS-ID",
-  "description": "PT. Sewiwi Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58392,
+  "metadata" : {
+    "handle" : "SWW-AS-ID",
+    "description" : "PT. Sewiwi Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.11.134.0/23",
       "103.40.54.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:6000::/48"
     ]
   }

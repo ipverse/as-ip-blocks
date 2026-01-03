@@ -1,9 +1,12 @@
 {
-  "asn": 23788,
-  "handle": "HICT",
-  "description": "JCOM Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23788,
+  "metadata" : {
+    "handle" : "HICT",
+    "description" : "JCOM Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.192.68.0/22",
       "110.172.0.0/20",
       "119.82.192.0/20",
@@ -12,6 +15,6 @@
       "202.162.128.0/19",
       "219.100.152.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

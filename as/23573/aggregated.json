@@ -1,14 +1,17 @@
 {
-  "asn": 23573,
-  "handle": "OCIC-AS",
-  "description": "OCI Information Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23573,
+  "metadata" : {
+    "handle" : "OCIC-AS",
+    "description" : "OCI Information Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.43.203.0/24",
       "203.233.22.0/24",
       "222.106.252.0/24",
       "222.111.190.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

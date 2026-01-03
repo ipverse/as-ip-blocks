@@ -1,12 +1,15 @@
 {
-  "asn": 262811,
-  "handle": "MENDEX-NETWORKS",
-  "description": "Mendex Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262811,
+  "metadata" : {
+    "handle" : "MENDEX-NETWORKS",
+    "description" : "Mendex Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.97.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2314::/32"
     ]
   }

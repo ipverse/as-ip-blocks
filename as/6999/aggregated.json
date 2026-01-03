@@ -1,11 +1,14 @@
 {
-  "asn": 6999,
-  "handle": "UU-ITNNET",
-  "description": "Interactive Telecom Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6999,
+  "metadata" : {
+    "handle" : "UU-ITNNET",
+    "description" : "Interactive Telecom Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.76.176.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

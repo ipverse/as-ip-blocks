@@ -1,9 +1,12 @@
 {
-  "asn": 6453,
-  "handle": "AS6453",
-  "description": "TATA COMMUNICATIONS (AMERICA) INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6453,
+  "metadata" : {
+    "handle" : "AS6453",
+    "description" : "TATA COMMUNICATIONS (AMERICA) INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.23.0.0/19",
       "41.206.160.0/20",
       "41.206.176.0/21",
@@ -55,7 +58,7 @@
       "212.12.182.0/24",
       "216.6.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:5a0::/32",
       "2001:678:8a0::/48",
       "2001:42c8::/32",

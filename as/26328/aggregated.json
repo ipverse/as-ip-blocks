@@ -1,9 +1,12 @@
 {
-  "asn": 26328,
-  "handle": "BLASTCOMM",
-  "description": "Blast Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26328,
+  "metadata" : {
+    "handle" : "BLASTCOMM",
+    "description" : "Blast Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.49.192.0/23",
       "69.49.197.0/24",
       "69.49.199.0/24",
@@ -12,7 +15,7 @@
       "162.245.28.0/22",
       "216.152.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:5b00::/32"
     ]
   }

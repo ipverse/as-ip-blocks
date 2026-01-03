@@ -1,16 +1,19 @@
 {
-  "asn": 262544,
-  "handle": "RAZAOINFO-INTERNET",
-  "description": "RazaoInfo Internet Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262544,
+  "metadata" : {
+    "handle" : "RAZAOINFO-INTERNET",
+    "description" : "RazaoInfo Internet Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.99.112.0/22",
       "168.195.172.0/22",
       "177.70.64.0/20",
       "177.75.80.0/20",
       "201.150.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1020::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 398033,
-  "handle": "DEPT-OF-LABOR",
-  "description": "U.S. Department of Labor - OASAM/DIRM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398033,
+  "metadata" : {
+    "handle" : "DEPT-OF-LABOR",
+    "description" : "U.S. Department of Labor - OASAM/DIRM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "152.180.10.0/23",
       "152.180.20.0/23",
       "166.96.0.0/23",
@@ -14,7 +17,7 @@
       "205.173.200.0/23",
       "205.173.202.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f250:1009::/48",
       "2607:f250:8000::/48",
       "2607:f250:9000::/48",

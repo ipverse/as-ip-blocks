@@ -1,9 +1,12 @@
 {
-  "asn": 10376,
-  "handle": "WELLSFARGO-10372-10376",
-  "description": "Wells Fargo Bank N.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10376,
+  "metadata" : {
+    "handle" : "WELLSFARGO-10372-10376",
+    "description" : "Wells Fargo Bank N.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "171.72.225.0/24",
       "171.72.226.0/23",
       "171.72.228.0/22",
@@ -12,6 +15,6 @@
       "204.86.136.0/22",
       "204.86.144.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,10 +1,13 @@
 {
-  "asn": 1024,
-  "handle": "CANAD112",
-  "description": "12393239 Canada Inc",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 1024,
+  "metadata" : {
+    "handle" : "CANAD112",
+    "description" : "12393239 Canada Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2602:fca7:4::/48",
       "2602:fca7:7::/48",
       "2602:fca7:d::/48"

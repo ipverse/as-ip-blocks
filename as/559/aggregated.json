@@ -1,9 +1,12 @@
 {
-  "asn": 559,
-  "handle": "SWITCH",
-  "description": "SWITCH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 559,
+  "metadata" : {
+    "handle" : "SWITCH",
+    "description" : "SWITCH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.130.64.0/18",
       "86.119.0.0/16",
       "89.206.64.0/18",
@@ -111,7 +114,7 @@
       "195.176.160.0/19",
       "195.176.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:620::/29",
       "2001:67c:10ec::/48",
       "2001:67c:16dc::/48",

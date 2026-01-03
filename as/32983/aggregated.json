@@ -1,12 +1,15 @@
 {
-  "asn": 32983,
-  "handle": "CORELIGHTNET-GOVCLOUD",
-  "description": "Corelight Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32983,
+  "metadata" : {
+    "handle" : "CORELIGHTNET-GOVCLOUD",
+    "description" : "Corelight Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.29.20.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f9e7:30::/47",
       "2602:f9e7:38::/47"
     ]

@@ -1,10 +1,13 @@
 {
-  "asn": 140083,
-  "handle": "CHINANET-ANHUI-AS-AP",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 140083,
+  "metadata" : {
+    "handle" : "CHINANET-ANHUI-AS-AP",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "240e:6:d130::/44",
       "240e:95a:3000::/36"
     ]

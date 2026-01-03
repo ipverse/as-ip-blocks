@@ -1,12 +1,15 @@
 {
-  "asn": 199295,
-  "handle": "LOCUST-AS",
-  "description": "LLC VK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199295,
+  "metadata" : {
+    "handle" : "LOCUST-AS",
+    "description" : "LLC VK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.32.144.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:114f:4::/46"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 34246,
-  "handle": "RU-FORWARD-ENERGY-CHL",
-  "description": "PJSC Forward Energy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34246,
+  "metadata" : {
+    "handle" : "RU-FORWARD-ENERGY-CHL",
+    "description" : "PJSC Forward Energy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.68.200.0/23",
       "109.68.203.0/24",
       "109.68.204.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

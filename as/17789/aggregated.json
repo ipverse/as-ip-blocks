@@ -1,12 +1,15 @@
 {
-  "asn": 17789,
-  "handle": "CNCGROUP-SH-IDC",
-  "description": "CNCGROUP IP network of ShangHai IDC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17789,
+  "metadata" : {
+    "handle" : "CNCGROUP-SH-IDC",
+    "description" : "CNCGROUP IP network of ShangHai IDC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.99.128.0/17",
       "42.0.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

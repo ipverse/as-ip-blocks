@@ -1,9 +1,12 @@
 {
-  "asn": 6718,
-  "handle": "NAV",
-  "description": "NAV COMMUNICATIONS SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6718,
+  "metadata" : {
+    "handle" : "NAV",
+    "description" : "NAV COMMUNICATIONS SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.154.224.0/24",
       "37.156.37.0/24",
       "80.96.42.0/24",
@@ -27,7 +30,7 @@
       "193.162.136.0/24",
       "195.206.164.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ece0::/32",
       "2a04:6c80::/48",
       "2a05:1c00::/30",

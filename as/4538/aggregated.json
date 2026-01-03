@@ -1,9 +1,12 @@
 {
-  "asn": 4538,
-  "handle": "ERX-CERNET-BKB",
-  "description": "China Education and Research Network Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4538,
+  "metadata" : {
+    "handle" : "ERX-CERNET-BKB",
+    "description" : "China Education and Research Network Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.51.0.0/16",
       "1.184.0.0/15",
       "42.244.0.0/14",
@@ -81,7 +84,7 @@
       "223.2.0.0/15",
       "223.128.0.0/15"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:da8:257::/48",
       "2001:daa:1::/48",
       "2001:daa:2::/47",

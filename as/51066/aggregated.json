@@ -1,9 +1,12 @@
 {
-  "asn": 51066,
-  "handle": "AUSTROCONTROL-AS",
-  "description": "Austro Control Oesterreichische Gesellschaft fuer Zivilluftfahrt mit beschraenkter Haftung",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51066,
+  "metadata" : {
+    "handle" : "AUSTROCONTROL-AS",
+    "description" : "Austro Control Oesterreichische Gesellschaft fuer Zivilluftfahrt mit beschraenkter Haftung",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.80.132.0/22",
       "193.80.136.0/21",
       "193.80.144.0/20",
@@ -11,7 +14,7 @@
       "193.81.1.0/24",
       "195.254.190.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:210::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 30449,
-  "handle": "AZSTATE",
-  "description": "State of Arizona",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30449,
+  "metadata" : {
+    "handle" : "AZSTATE",
+    "description" : "State of Arizona",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.36.0.0/16",
       "159.87.0.0/16",
       "162.59.0.0/16",
@@ -16,6 +19,6 @@
       "207.108.136.0/24",
       "207.225.162.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

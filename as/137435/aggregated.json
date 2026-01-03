@@ -1,11 +1,14 @@
 {
-  "asn": 137435,
-  "handle": "WINKCOMMUNICATION-AS-AP",
-  "description": "Wink Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137435,
+  "metadata" : {
+    "handle" : "WINKCOMMUNICATION-AS-AP",
+    "description" : "Wink Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.108.112.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 33619,
-  "handle": "AMD-MARKHAM",
-  "description": "Advanced Micro Devices Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33619,
+  "metadata" : {
+    "handle" : "AMD-MARKHAM",
+    "description" : "Advanced Micro Devices Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.204.2.0/23",
       "165.204.10.0/23",
       "165.204.14.0/23",
@@ -26,6 +29,6 @@
       "165.204.184.0/24",
       "165.204.186.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

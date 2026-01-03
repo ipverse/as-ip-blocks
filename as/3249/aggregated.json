@@ -1,9 +1,12 @@
 {
-  "asn": 3249,
-  "handle": "ESTPAK",
-  "description": "Telia Eesti AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3249,
+  "metadata" : {
+    "handle" : "ESTPAK",
+    "description" : "Telia Eesti AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.157.64.0/18",
       "46.131.0.0/16",
       "62.65.32.0/19",
@@ -35,7 +38,7 @@
       "217.71.32.0/20",
       "217.159.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:7d0::/32",
       "2a00:16e0::/32",
       "2a01:158::/32",

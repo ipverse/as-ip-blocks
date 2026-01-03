@@ -1,12 +1,15 @@
 {
-  "asn": 137557,
-  "handle": "IGCL-AS-AP",
-  "description": "International gateway co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137557,
+  "metadata" : {
+    "handle" : "IGCL-AS-AP",
+    "description" : "International gateway co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.113.44.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:b740::/32"
     ]
   }

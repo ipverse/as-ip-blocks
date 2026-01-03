@@ -1,11 +1,14 @@
 {
-  "asn": 18721,
-  "handle": "ACDLABS-AS",
-  "description": "ACD/Labs",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18721,
+  "metadata" : {
+    "handle" : "ACDLABS-AS",
+    "description" : "ACD/Labs",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.153.135.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

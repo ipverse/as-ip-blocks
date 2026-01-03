@@ -1,14 +1,17 @@
 {
-  "asn": 214707,
-  "handle": "RCELL",
-  "description": "RCell LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214707,
+  "metadata" : {
+    "handle" : "RCELL",
+    "description" : "RCell LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.224.208.0/21",
       "205.209.64.0/19",
       "213.177.185.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:6540::/31",
       "2a14:6546::/31"
     ]

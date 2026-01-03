@@ -1,12 +1,15 @@
 {
-  "asn": 36235,
-  "handle": "GREENSHIELD",
-  "description": "Green Shield Canada",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36235,
+  "metadata" : {
+    "handle" : "GREENSHIELD",
+    "description" : "Green Shield Canada",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.71.147.0/24",
       "199.71.240.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

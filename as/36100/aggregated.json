@@ -1,9 +1,12 @@
 {
-  "asn": 36100,
-  "handle": "MTC-BROADBAND",
-  "description": "MTC Broadband Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36100,
+  "metadata" : {
+    "handle" : "MTC-BROADBAND",
+    "description" : "MTC Broadband Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.57.154.0/23",
       "38.57.244.0/23",
       "38.76.80.0/22",
@@ -22,6 +25,6 @@
       "199.231.80.0/22",
       "208.64.72.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 213220,
-  "handle": "DATA-DELTA-AS",
-  "description": "Delta Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213220,
+  "metadata" : {
+    "handle" : "DATA-DELTA-AS",
+    "description" : "Delta Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.10.111.0/24",
       "45.11.95.0/24",
       "45.81.32.0/24",
@@ -34,7 +37,7 @@
       "212.22.82.0/24",
       "213.108.196.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:1301:4120::/48",
       "2a06:d643::/32",
       "2a09:e305::/32",

@@ -1,12 +1,15 @@
 {
-  "asn": 45457,
-  "handle": "HEALTHCOMM-AS-AP",
-  "description": "MEDICAL DIRECTOR",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45457,
+  "metadata" : {
+    "handle" : "HEALTHCOMM-AS-AP",
+    "description" : "MEDICAL DIRECTOR",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "113.11.233.0/24",
       "113.11.235.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

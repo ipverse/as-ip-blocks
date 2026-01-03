@@ -1,9 +1,12 @@
 {
-  "asn": 764,
-  "handle": "FI-PMO-AS",
-  "description": "Prime Minister\u0027s Office",
-  "subnets": {
-    "ipv4": [
+  "asn" : 764,
+  "metadata" : {
+    "handle" : "FI-PMO-AS",
+    "description" : "Prime Minister's Office",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.49.11.0/24",
       "192.49.12.0/24",
       "192.49.14.0/24",
@@ -30,6 +33,6 @@
       "192.49.147.0/24",
       "194.211.231.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 3562,
-  "handle": "SNLL-NET-AS",
-  "description": "Sandia National Laboratories",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3562,
+  "metadata" : {
+    "handle" : "SNLL-NET-AS",
+    "description" : "Sandia National Laboratories",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.252.0.0/16",
       "146.246.0.0/16",
       "192.73.207.0/24",
@@ -12,7 +15,7 @@
       "198.206.221.0/24",
       "204.238.65.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:106:6000::/44"
     ]
   }

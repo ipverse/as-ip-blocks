@@ -1,13 +1,16 @@
 {
-  "asn": 36446,
-  "handle": "OCOSA",
-  "description": "OCOSA Communication LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36446,
+  "metadata" : {
+    "handle" : "OCOSA",
+    "description" : "OCOSA Communication LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "70.169.206.0/24",
       "208.65.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:7180::/36"
     ]
   }

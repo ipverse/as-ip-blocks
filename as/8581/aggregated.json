@@ -1,9 +1,12 @@
 {
-  "asn": 8581,
-  "handle": "UOI",
-  "description": "University Of Ioannina",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8581,
+  "metadata" : {
+    "handle" : "UOI",
+    "description" : "University Of Ioannina",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.212.184.0/21",
       "83.212.192.0/21",
       "194.177.199.0/24",
@@ -12,7 +15,7 @@
       "195.251.192.0/21",
       "195.251.200.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:648:2e01::/48"
     ]
   }

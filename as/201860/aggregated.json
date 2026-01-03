@@ -1,13 +1,16 @@
 {
-  "asn": 201860,
-  "handle": "MYTELCO",
-  "description": "MyTelco Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201860,
+  "metadata" : {
+    "handle" : "MYTELCO",
+    "description" : "MyTelco Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.60.237.0/24",
       "185.60.238.0/23",
       "185.98.107.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

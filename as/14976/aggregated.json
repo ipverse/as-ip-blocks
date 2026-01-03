@@ -1,14 +1,17 @@
 {
-  "asn": 14976,
-  "handle": "SMART-CITY-DNCC",
-  "description": "SMART CITY NETWORKS LIMITED PARTNERSHIP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14976,
+  "metadata" : {
+    "handle" : "SMART-CITY-DNCC",
+    "description" : "SMART CITY NETWORKS LIMITED PARTNERSHIP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.92.204.0/22",
       "208.115.67.0/24",
       "208.115.90.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:b180:510::/44"
     ]
   }

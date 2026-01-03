@@ -1,12 +1,15 @@
 {
-  "asn": 22230,
-  "handle": "NETDOCUMENTS-US",
-  "description": "NetDocuments",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22230,
+  "metadata" : {
+    "handle" : "NETDOCUMENTS-US",
+    "description" : "NetDocuments",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.156.109.0/24",
       "192.100.0.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

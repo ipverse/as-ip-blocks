@@ -1,9 +1,12 @@
 {
-  "asn": 45687,
-  "handle": "MCT-INTERNET",
-  "description": "Minamikyusyu CableTV Net Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45687,
+  "metadata" : {
+    "handle" : "MCT-INTERNET",
+    "description" : "Minamikyusyu CableTV Net Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.54.96.0/20",
       "27.54.112.0/22",
       "103.74.160.0/22",
@@ -11,7 +14,7 @@
       "202.223.60.0/22",
       "219.100.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:30c0::/32"
     ]
   }

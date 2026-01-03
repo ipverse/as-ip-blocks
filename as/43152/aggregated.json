@@ -1,14 +1,17 @@
 {
-  "asn": 43152,
-  "handle": "SC-NTEL-AS",
-  "description": "JSC SC NTEL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43152,
+  "metadata" : {
+    "handle" : "SC-NTEL-AS",
+    "description" : "JSC SC NTEL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.95.200.0/24",
       "77.95.202.0/24",
       "77.95.204.0/23",
       "77.95.207.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

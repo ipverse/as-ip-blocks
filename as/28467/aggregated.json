@@ -1,13 +1,16 @@
 {
-  "asn": 28467,
-  "handle": "OPTICAL-LINE-TERMINAL",
-  "description": "OPTICAL LINE TERMINAL SAS DE CV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28467,
+  "metadata" : {
+    "handle" : "OPTICAL-LINE-TERMINAL",
+    "description" : "OPTICAL LINE TERMINAL SAS DE CV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.42.71.0/24",
       "89.45.209.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1225::/32"
     ]
   }

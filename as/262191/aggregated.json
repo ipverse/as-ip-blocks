@@ -1,9 +1,12 @@
 {
-  "asn": 262191,
-  "handle": "LIBERTY-NETWORKS-COLOMBIA",
-  "description": "LIBERTY NETWORKS DE COLOMBIA S.A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262191,
+  "metadata" : {
+    "handle" : "LIBERTY-NETWORKS-COLOMBIA",
+    "description" : "LIBERTY NETWORKS DE COLOMBIA S.A.S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.243.170.0/24",
       "37.10.70.0/24",
       "37.10.108.0/24",
@@ -82,7 +85,7 @@
       "200.112.206.0/23",
       "201.150.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:b70::/48",
       "2800:b70:2::/47",
       "2800:b70:4::/47",

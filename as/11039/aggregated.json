@@ -1,13 +1,16 @@
 {
-  "asn": 11039,
-  "handle": "GWU",
-  "description": "The George Washington University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11039,
+  "metadata" : {
+    "handle" : "GWU",
+    "description" : "The George Washington University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.164.0.0/16",
       "161.253.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:69c0:5000::/36",
       "2606:69c0:9000::/36"
     ]

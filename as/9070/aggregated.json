@@ -1,9 +1,12 @@
 {
-  "asn": 9070,
-  "handle": "COOOLBOX",
-  "description": "Cooolbox AD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9070,
+  "metadata" : {
+    "handle" : "COOOLBOX",
+    "description" : "Cooolbox AD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.130.128.0/17",
       "84.21.196.0/22",
       "84.21.200.0/21",
@@ -40,6 +43,6 @@
       "217.75.140.0/23",
       "217.75.144.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

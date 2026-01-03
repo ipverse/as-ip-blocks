@@ -1,14 +1,17 @@
 {
-  "asn": 138818,
-  "handle": "IIS-AS-ID",
-  "description": "Internet Ini Saja",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138818,
+  "metadata" : {
+    "handle" : "IIS-AS-ID",
+    "description" : "Internet Ini Saja",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.103.136.0/24",
       "103.103.138.0/24",
       "114.141.91.0/24",
       "114.141.92.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

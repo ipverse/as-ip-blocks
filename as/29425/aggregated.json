@@ -1,13 +1,16 @@
 {
-  "asn": 29425,
-  "handle": "SAKHCOM-AS",
-  "description": "Sakh.com LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29425,
+  "metadata" : {
+    "handle" : "SAKHCOM-AS",
+    "description" : "Sakh.com LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.255.136.0/21",
       "195.149.105.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:95a0::/32"
     ]
   }

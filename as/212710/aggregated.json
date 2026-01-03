@@ -1,12 +1,15 @@
 {
-  "asn": 212710,
-  "handle": "TEAMVIEWER-AMEA",
-  "description": "TeamViewer Germany GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212710,
+  "metadata" : {
+    "handle" : "TEAMVIEWER-AMEA",
+    "description" : "TeamViewer Germany GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.58.100.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:2900::/48",
       "2a09:2900:8::/48",
       "2a09:2900:3000::/40",

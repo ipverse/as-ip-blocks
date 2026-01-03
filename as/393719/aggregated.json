@@ -1,13 +1,16 @@
 {
-  "asn": 393719,
-  "handle": "FIBERLINK",
-  "description": "FiberLink",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393719,
+  "metadata" : {
+    "handle" : "FIBERLINK",
+    "description" : "FiberLink",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.222.234.0/24",
       "162.222.239.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:4340::/32"
     ]
   }

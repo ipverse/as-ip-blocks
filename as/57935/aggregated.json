@@ -1,9 +1,12 @@
 {
-  "asn": 57935,
-  "handle": "NRP-TEKNOLOJI",
-  "description": "Nrp Teknoloji Limited Sirketi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57935,
+  "metadata" : {
+    "handle" : "NRP-TEKNOLOJI",
+    "description" : "Nrp Teknoloji Limited Sirketi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.61.27.0/24",
       "92.119.56.0/24",
       "92.119.59.0/24",
@@ -11,7 +14,7 @@
       "185.73.113.0/24",
       "185.73.115.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:4100::/47"
     ]
   }

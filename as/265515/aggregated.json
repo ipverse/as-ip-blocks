@@ -1,9 +1,12 @@
 {
-  "asn": 265515,
-  "handle": "TELEVERA-RED-S-P-I",
-  "description": "TELEVERA RED S. A. P. I. DE C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265515,
+  "metadata" : {
+    "handle" : "TELEVERA-RED-S-P-I",
+    "description" : "TELEVERA RED S. A. P. I. DE C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.210.33.0/24",
       "95.210.95.0/24",
       "107.180.136.0/21",
@@ -18,7 +21,7 @@
       "200.108.83.0/24",
       "201.159.244.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:283:4000::/35",
       "2806:283:6000::/36",
       "2806:283:7000::/37"

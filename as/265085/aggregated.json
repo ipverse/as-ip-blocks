@@ -1,12 +1,15 @@
 {
-  "asn": 265085,
-  "handle": "LINFORTEL-INTERNET",
-  "description": "Linfortel Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265085,
+  "metadata" : {
+    "handle" : "LINFORTEL-INTERNET",
+    "description" : "Linfortel Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.233.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3290::/32"
     ]
   }

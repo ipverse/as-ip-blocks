@@ -1,14 +1,17 @@
 {
-  "asn": 61223,
-  "handle": "LINKFOR-AS",
-  "description": "LINKFOR LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61223,
+  "metadata" : {
+    "handle" : "LINKFOR-AS",
+    "description" : "LINKFOR LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.23.104.0/24",
       "91.214.117.0/24",
       "170.168.23.0/24",
       "213.108.6.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

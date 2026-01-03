@@ -1,13 +1,16 @@
 {
-  "asn": 198771,
-  "handle": "EXTREMELABS-AS",
-  "description": "Extreme Labs AD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198771,
+  "metadata" : {
+    "handle" : "EXTREMELABS-AS",
+    "description" : "Extreme Labs AD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.10.24.0/24",
       "91.239.13.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1728:2b::/48"
     ]
   }

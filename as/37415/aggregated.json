@@ -1,12 +1,15 @@
 {
-  "asn": 37415,
-  "handle": "AFRINET",
-  "description": "AFRINET SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37415,
+  "metadata" : {
+    "handle" : "AFRINET",
+    "description" : "AFRINET SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.222.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:eca0::/32"
     ]
   }

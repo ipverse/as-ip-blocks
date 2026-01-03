@@ -1,9 +1,12 @@
 {
-  "asn": 43350,
-  "handle": "NFORCE",
-  "description": "NForce Entertainment B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43350,
+  "metadata" : {
+    "handle" : "NFORCE",
+    "description" : "NForce Entertainment B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.104.136.0/22",
       "31.222.239.0/24",
       "37.143.32.0/22",
@@ -84,7 +87,7 @@
       "217.65.73.0/24",
       "217.114.41.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:a18::/48",
       "2a00:1768::/34",
       "2a00:1768:4000::/35",

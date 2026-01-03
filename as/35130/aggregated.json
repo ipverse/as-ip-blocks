@@ -1,14 +1,17 @@
 {
-  "asn": 35130,
-  "handle": "SFERANET-AS",
-  "description": "REGISTER S.P.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35130,
+  "metadata" : {
+    "handle" : "SFERANET-AS",
+    "description" : "REGISTER S.P.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.91.48.0/21",
       "80.91.57.0/24",
       "185.196.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:6000::/33",
       "2a02:6000:ffff::/48"
     ]

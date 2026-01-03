@@ -1,9 +1,12 @@
 {
-  "asn": 42675,
-  "handle": "OBEHOSTING",
-  "description": "Obehosting AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42675,
+  "metadata" : {
+    "handle" : "OBEHOSTING",
+    "description" : "Obehosting AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.15.16.0/24",
       "45.148.16.0/22",
       "46.227.64.0/21",
@@ -13,7 +16,7 @@
       "217.64.148.0/23",
       "217.64.150.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:a880:3101::/48",
       "2a07:a880:4601::/48",
       "2a07:a880:4602::/47",

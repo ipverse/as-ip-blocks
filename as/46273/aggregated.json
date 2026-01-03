@@ -1,9 +1,12 @@
 {
-  "asn": 46273,
-  "handle": "APOG-ALBANY",
-  "description": "Apogee Telecom Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46273,
+  "metadata" : {
+    "handle" : "APOG-ALBANY",
+    "description" : "Apogee Telecom Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.189.80.0/21",
       "64.189.96.0/24",
       "64.189.224.0/20",
@@ -19,6 +22,6 @@
       "76.78.228.0/23",
       "204.137.248.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 265620,
-  "handle": "UFINET-MEXICO",
-  "description": "UFINET MEXICO S. DE R.L. DE C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265620,
+  "metadata" : {
+    "handle" : "UFINET-MEXICO",
+    "description" : "UFINET MEXICO S. DE R.L. DE C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.189.61.0/24",
       "45.189.62.0/23",
       "181.78.220.0/22",
       "190.61.32.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:3a0::/32"
     ]
   }

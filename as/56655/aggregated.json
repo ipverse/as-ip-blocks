@@ -1,9 +1,12 @@
 {
-  "asn": 56655,
-  "handle": "GIGAHOST",
-  "description": "Gigahost AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56655,
+  "metadata" : {
+    "handle" : "GIGAHOST",
+    "description" : "Gigahost AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.56.194.0/24",
       "31.56.217.0/24",
       "31.57.15.0/24",
@@ -34,7 +37,7 @@
       "198.140.141.0/24",
       "202.50.55.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:94e0::/30",
       "2a07:a342:7000::/36"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 53784,
-  "handle": "SNHHS",
-  "description": "Southern New Hampshire Health System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53784,
+  "metadata" : {
+    "handle" : "SNHHS",
+    "description" : "Southern New Hampshire Health System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.211.153.0/24",
       "70.20.49.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

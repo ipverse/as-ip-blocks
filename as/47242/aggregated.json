@@ -1,9 +1,12 @@
 {
-  "asn": 47242,
-  "handle": "HOST-SPA",
-  "description": "Host SpA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47242,
+  "metadata" : {
+    "handle" : "HOST-SPA",
+    "description" : "Host SpA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.31.144.0/20",
       "82.119.36.0/24",
       "83.220.28.0/23",
@@ -14,6 +17,6 @@
       "185.201.64.0/23",
       "185.201.66.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

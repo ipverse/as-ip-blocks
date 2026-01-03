@@ -1,12 +1,15 @@
 {
-  "asn": 63376,
-  "handle": "TOUCHTONE-CUSTS",
-  "description": "TouchTone Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63376,
+  "metadata" : {
+    "handle" : "TOUCHTONE-CUSTS",
+    "description" : "TouchTone Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "140.174.30.0/24",
       "140.174.37.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 43545,
-  "handle": "TELEDATA",
-  "description": "Teledata UK Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43545,
+  "metadata" : {
+    "handle" : "TELEDATA",
+    "description" : "Teledata UK Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.74.104.0/21",
       "78.40.144.0/21",
       "80.84.64.0/19",
@@ -14,7 +17,7 @@
       "212.84.69.0/24",
       "212.84.73.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:24d0::/32"
     ]
   }

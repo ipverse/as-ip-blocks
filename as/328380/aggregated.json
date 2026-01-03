@@ -1,12 +1,15 @@
 {
-  "asn": 328380,
-  "handle": "PRIME-BANK-AS",
-  "description": "PRIME BANK LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328380,
+  "metadata" : {
+    "handle" : "PRIME-BANK-AS",
+    "description" : "PRIME BANK LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.130.102.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43f8:11c0::/48"
     ]
   }

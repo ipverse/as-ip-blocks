@@ -1,9 +1,12 @@
 {
-  "asn": 58893,
-  "handle": "GESNET-AS-AP",
-  "description": "Gemnet Enterprise Solutions Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58893,
+  "metadata" : {
+    "handle" : "GESNET-AS-AP",
+    "description" : "Gemnet Enterprise Solutions Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.242.176.0/22",
       "103.11.220.0/24",
       "103.12.58.0/24",
@@ -17,7 +20,7 @@
       "203.80.128.0/24",
       "203.80.130.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:5b80::/32"
     ]
   }

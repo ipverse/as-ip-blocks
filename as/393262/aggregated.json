@@ -1,9 +1,12 @@
 {
-  "asn": 393262,
-  "handle": "TODYL-CLOUD",
-  "description": "Todyl Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393262,
+  "metadata" : {
+    "handle" : "TODYL-CLOUD",
+    "description" : "Todyl Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.10.131.0/24",
       "64.39.237.0/24",
       "66.198.228.0/23",
@@ -25,6 +28,6 @@
       "216.41.226.0/24",
       "216.122.28.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

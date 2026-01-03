@@ -1,13 +1,16 @@
 {
-  "asn": 10183,
-  "handle": "KCISA-AS",
-  "description": "Korea Culture Information Service Agency",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10183,
+  "metadata" : {
+    "handle" : "KCISA-AS",
+    "description" : "Korea Culture Information Service Agency",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "175.125.91.0/24",
       "210.108.46.0/24",
       "210.108.60.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

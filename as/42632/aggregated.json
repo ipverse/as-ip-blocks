@@ -1,9 +1,12 @@
 {
-  "asn": 42632,
-  "handle": "MNOGOBYTE-AS",
-  "description": "MnogoByte LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42632,
+  "metadata" : {
+    "handle" : "MNOGOBYTE-AS",
+    "description" : "MnogoByte LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.220.160.0/23",
       "77.220.164.0/22",
       "77.220.168.0/21",
@@ -18,7 +21,7 @@
       "212.76.144.0/22",
       "212.76.152.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:878:1::/48",
       "2a02:878:2::/48",
       "2a02:878:a::/48",

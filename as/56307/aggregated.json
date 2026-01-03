@@ -1,9 +1,12 @@
 {
-  "asn": 56307,
-  "handle": "AC3-AS-AP",
-  "description": "AUSTRALIAN CENTRE FOR ADVANCED COMPUTING AND COMMUNICATION PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56307,
+  "metadata" : {
+    "handle" : "AC3-AS-AP",
+    "description" : "AUSTRALIAN CENTRE FOR ADVANCED COMPUTING AND COMMUNICATION PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.227.20.0/22",
       "139.5.172.0/23",
       "202.47.84.0/23",
@@ -17,7 +20,7 @@
       "203.166.218.0/24",
       "203.202.0.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:3a00::/48"
     ]
   }

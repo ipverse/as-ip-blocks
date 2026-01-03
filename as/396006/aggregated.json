@@ -1,9 +1,12 @@
 {
-  "asn": 396006,
-  "handle": "SPITWSPOTS-HOM",
-  "description": "SPITwSPOTS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396006,
+  "metadata" : {
+    "handle" : "SPITWSPOTS-HOM",
+    "description" : "SPITwSPOTS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "98.96.176.0/21",
       "104.254.224.0/21",
       "142.214.233.0/24",
@@ -13,6 +16,6 @@
       "198.163.184.0/21",
       "209.237.172.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

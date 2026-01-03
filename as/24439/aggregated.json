@@ -1,16 +1,19 @@
 {
-  "asn": 24439,
-  "handle": "NTAMAR-AS-AP",
-  "description": "National Telecommunications Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24439,
+  "metadata" : {
+    "handle" : "NTAMAR-AS-AP",
+    "description" : "National Telecommunications Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.86.23.0/24",
       "64.86.76.0/24",
       "103.202.148.0/23",
       "117.103.88.0/21",
       "203.78.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:400::/32"
     ]
   }

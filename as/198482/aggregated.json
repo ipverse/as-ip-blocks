@@ -1,9 +1,12 @@
 {
-  "asn": 198482,
-  "handle": "PERNIKLAN",
-  "description": "Pernik Lan Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198482,
+  "metadata" : {
+    "handle" : "PERNIKLAN",
+    "description" : "Pernik Lan Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.187.208.0/22",
       "85.187.212.0/24",
       "85.187.220.0/23",
@@ -14,6 +17,6 @@
       "151.237.10.0/24",
       "151.237.94.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 21439,
-  "handle": "MORGAN-STANLEY",
-  "description": "Morgan Stanley \u0026 Co. International PLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21439,
+  "metadata" : {
+    "handle" : "MORGAN-STANLEY",
+    "description" : "Morgan Stanley & Co. International PLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.20.185.0/24",
       "170.74.208.0/24",
       "193.240.169.0/24",
@@ -11,6 +14,6 @@
       "199.5.0.0/24",
       "205.228.64.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

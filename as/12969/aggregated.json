@@ -1,9 +1,12 @@
 {
-  "asn": 12969,
-  "handle": "VODAFONE-ICELAND",
-  "description": "Ljosleidarinn ehf",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12969,
+  "metadata" : {
+    "handle" : "VODAFONE-ICELAND",
+    "description" : "Ljosleidarinn ehf",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.23.64.0/19",
       "46.239.192.0/18",
       "62.145.128.0/19",
@@ -27,7 +30,7 @@
       "217.151.160.0/19",
       "217.171.208.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4d60::/32",
       "2a02:48::/32"
     ]

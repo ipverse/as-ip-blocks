@@ -1,12 +1,15 @@
 {
-  "asn": 20383,
-  "handle": "EXCHANGEBANK-AS",
-  "description": "Exchange Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20383,
+  "metadata" : {
+    "handle" : "EXCHANGEBANK-AS",
+    "description" : "Exchange Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.83.180.0/24",
       "199.83.182.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

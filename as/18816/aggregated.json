@@ -1,9 +1,12 @@
 {
-  "asn": 18816,
-  "handle": "ANDREWCORP-AOP",
-  "description": "CommScope",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18816,
+  "metadata" : {
+    "handle" : "ANDREWCORP-AOP",
+    "description" : "CommScope",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.242.20.0/24",
       "134.242.22.0/24",
       "134.242.64.0/22",
@@ -12,6 +15,6 @@
       "198.90.66.0/24",
       "198.90.68.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

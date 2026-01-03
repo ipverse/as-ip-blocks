@@ -1,13 +1,16 @@
 {
-  "asn": 19615,
-  "handle": "SITEL-US",
-  "description": "Sitel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19615,
+  "metadata" : {
+    "handle" : "SITEL-US",
+    "description" : "Sitel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.80.64.0/23",
       "209.80.92.0/22",
       "209.80.100.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

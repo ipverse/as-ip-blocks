@@ -1,11 +1,14 @@
 {
-  "asn": 45998,
-  "handle": "NMC-AS",
-  "description": "National Medical Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45998,
+  "metadata" : {
+    "handle" : "NMC-AS",
+    "description" : "National Medical Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "175.118.2.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 44124,
-  "handle": "RYBNET-AS",
-  "description": "Rybnet Sp. z o.o. Sp. k",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44124,
+  "metadata" : {
+    "handle" : "RYBNET-AS",
+    "description" : "Rybnet Sp. z o.o. Sp. k.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.31.136.0/21",
       "79.124.96.0/19",
       "81.161.104.0/22",
@@ -12,7 +15,7 @@
       "195.20.218.0/23",
       "195.225.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:6600::/32"
     ]
   }

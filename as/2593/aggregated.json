@@ -1,13 +1,16 @@
 {
-  "asn": 2593,
-  "handle": "ASN-VSIX",
-  "description": "Universita di Padova",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2593,
+  "metadata" : {
+    "handle" : "ASN-VSIX",
+    "description" : "Universita di Padova",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.140.128.0/21",
       "185.213.112.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:8d00::/29"
     ]
   }

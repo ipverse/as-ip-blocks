@@ -1,11 +1,14 @@
 {
-  "asn": 9483,
-  "handle": "DPL-AS-AP",
-  "description": "Flatnet Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9483,
+  "metadata" : {
+    "handle" : "DPL-AS-AP",
+    "description" : "Flatnet Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.50.109.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

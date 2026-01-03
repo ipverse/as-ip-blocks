@@ -1,12 +1,15 @@
 {
-  "asn": 3306,
-  "handle": "KILOHERTZ-NET",
-  "description": "Kilohertz AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3306,
+  "metadata" : {
+    "handle" : "KILOHERTZ-NET",
+    "description" : "Kilohertz AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.71.164.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1bb8::/48"
     ]
   }

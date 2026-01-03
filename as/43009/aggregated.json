@@ -1,9 +1,12 @@
 {
-  "asn": 43009,
-  "handle": "INFOBIP-AS",
-  "description": "Infobip Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43009,
+  "metadata" : {
+    "handle" : "INFOBIP-AS",
+    "description" : "Infobip Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.140.31.0/24",
       "81.23.248.0/21",
       "83.166.64.0/22",
@@ -23,7 +26,7 @@
       "202.22.174.0/23",
       "208.93.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1af0:9020::/48",
       "2a0c:55c0:1::/48"
     ]

@@ -1,13 +1,16 @@
 {
-  "asn": 135234,
-  "handle": "FIBRONET-AS-IN",
-  "description": "SHERIE PLEXUS ISP PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135234,
+  "metadata" : {
+    "handle" : "FIBRONET-AS-IN",
+    "description" : "SHERIE PLEXUS ISP PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.66.48.0/22",
       "103.171.48.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:b580::/32"
     ]
   }

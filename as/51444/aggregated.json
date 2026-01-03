@@ -1,9 +1,12 @@
 {
-  "asn": 51444,
-  "handle": "IT-LITE-NET",
-  "description": "IT Lite LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51444,
+  "metadata" : {
+    "handle" : "IT-LITE-NET",
+    "description" : "IT Lite LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.18.2.0/23",
       "37.18.83.0/24",
       "37.230.212.0/23",
@@ -11,6 +14,6 @@
       "178.170.164.0/23",
       "185.227.36.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

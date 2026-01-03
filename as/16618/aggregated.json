@@ -1,9 +1,12 @@
 {
-  "asn": 16618,
-  "handle": "FUC-AS-16618",
-  "description": "Finastra USA Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16618,
+  "metadata" : {
+    "handle" : "FUC-AS-16618",
+    "description" : "Finastra USA Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.104.196.0/24",
       "12.152.198.0/24",
       "12.152.200.0/24",
@@ -17,6 +20,6 @@
       "207.174.77.0/24",
       "207.174.98.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

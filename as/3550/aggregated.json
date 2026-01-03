@@ -1,14 +1,17 @@
 {
-  "asn": 3550,
-  "handle": "PHNET-AS-AP",
-  "description": "Philippine Network Foundation Inc (PHNet)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3550,
+  "metadata" : {
+    "handle" : "PHNET-AS-AP",
+    "description" : "Philippine Network Foundation Inc (PHNet)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.220.0.0/21",
       "165.220.24.0/21",
       "165.220.32.0/19",
       "165.220.64.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

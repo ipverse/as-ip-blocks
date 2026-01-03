@@ -1,9 +1,12 @@
 {
-  "asn": 28111,
-  "handle": "GRUPO-SOLUNET",
-  "description": "Grupo Solunet SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28111,
+  "metadata" : {
+    "handle" : "GRUPO-SOLUNET",
+    "description" : "Grupo Solunet SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.0.160.0/23",
       "190.0.163.0/24",
       "190.0.165.0/24",
@@ -13,6 +16,6 @@
       "190.0.188.0/22",
       "190.112.0.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

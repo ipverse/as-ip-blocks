@@ -1,12 +1,15 @@
 {
-  "asn": 39038,
-  "handle": "KERNEL-AS",
-  "description": "Kernel AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39038,
+  "metadata" : {
+    "handle" : "KERNEL-AS",
+    "description" : "Kernel AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.250.112.0/21",
       "80.250.124.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

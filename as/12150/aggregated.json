@@ -1,9 +1,12 @@
 {
-  "asn": 12150,
-  "handle": "COTELCAM",
-  "description": "COTELCAM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12150,
+  "metadata" : {
+    "handle" : "COTELCAM",
+    "description" : "COTELCAM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.52.64.0/19",
       "38.210.32.0/20",
       "143.0.244.0/22",
@@ -12,7 +15,7 @@
       "200.59.0.0/20",
       "200.61.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:e080::/32"
     ]
   }

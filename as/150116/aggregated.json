@@ -1,11 +1,14 @@
 {
-  "asn": 150116,
-  "handle": "ONETEN-AS-AP",
-  "description": "ONETEN COMMUNICATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150116,
+  "metadata" : {
+    "handle" : "ONETEN-AS-AP",
+    "description" : "ONETEN COMMUNICATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.191.18.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

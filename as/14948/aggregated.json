@@ -1,9 +1,12 @@
 {
-  "asn": 14948,
-  "handle": "IQVIA-CARLSTADT",
-  "description": "IQVIA Holdings Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14948,
+  "metadata" : {
+    "handle" : "IQVIA-CARLSTADT",
+    "description" : "IQVIA Holdings Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.44.124.0/24",
       "162.44.164.0/22",
       "162.44.181.0/24",
@@ -17,6 +20,6 @@
       "162.44.248.0/23",
       "162.44.251.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

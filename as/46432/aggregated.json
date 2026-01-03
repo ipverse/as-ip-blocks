@@ -1,9 +1,12 @@
 {
-  "asn": 46432,
-  "handle": "AS-MITRA",
-  "description": "Miami Transcoding Services Llc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46432,
+  "metadata" : {
+    "handle" : "AS-MITRA",
+    "description" : "Miami Transcoding Services Llc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.139.96.0/24",
       "65.110.47.0/24",
       "67.210.111.0/24",
@@ -13,7 +16,7 @@
       "208.88.245.0/24",
       "208.88.246.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe59:20::/48",
       "2602:fe59:30::/48",
       "2602:fe59:40::/48"

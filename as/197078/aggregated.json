@@ -1,9 +1,12 @@
 {
-  "asn": 197078,
-  "handle": "YARNET-AS",
-  "description": "Yarnet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197078,
+  "metadata" : {
+    "handle" : "YARNET-AS",
+    "description" : "Yarnet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.159.112.0/21",
       "37.1.80.0/21",
       "46.229.176.0/20",
@@ -16,7 +19,7 @@
       "188.68.176.0/21",
       "212.232.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:84c0::/32"
     ]
   }

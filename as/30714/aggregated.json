@@ -1,12 +1,15 @@
 {
-  "asn": 30714,
-  "handle": "PHX-ASN",
-  "description": "Axway Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30714,
+  "metadata" : {
+    "handle" : "PHX-ASN",
+    "description" : "Axway Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.67.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:ad:8000::/40"
     ]
   }

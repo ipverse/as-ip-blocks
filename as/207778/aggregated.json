@@ -1,12 +1,15 @@
 {
-  "asn": 207778,
-  "handle": "LINSERVERS",
-  "description": "Jacobus Huijbrechts",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207778,
+  "metadata" : {
+    "handle" : "LINSERVERS",
+    "description" : "Jacobus Huijbrechts",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.204.192.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:3a0::/48",
       "2a07:54c1:4931::/48",
       "2a0a:6040:d500::/40"

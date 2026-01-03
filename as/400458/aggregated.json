@@ -1,13 +1,16 @@
 {
-  "asn": 400458,
-  "handle": "FEXTEL-DC",
-  "description": "ViciDial Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400458,
+  "metadata" : {
+    "handle" : "FEXTEL-DC",
+    "description" : "ViciDial Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.148.104.0/24",
       "194.164.84.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fbc0::/48"
     ]
   }

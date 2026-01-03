@@ -1,9 +1,12 @@
 {
-  "asn": 25490,
-  "handle": "STC-AS",
-  "description": "PJSC Rostelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25490,
+  "metadata" : {
+    "handle" : "STC-AS",
+    "description" : "PJSC Rostelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.183.0.0/19",
       "62.183.32.0/20",
       "62.183.48.0/23",
@@ -61,7 +64,7 @@
       "109.172.72.0/24",
       "193.33.132.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:8040::/32"
     ]
   }

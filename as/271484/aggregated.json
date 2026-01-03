@@ -1,12 +1,15 @@
 {
-  "asn": 271484,
-  "handle": "NORT-TELECOM",
-  "description": "NORT TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271484,
+  "metadata" : {
+    "handle" : "NORT-TELECOM",
+    "description" : "NORT TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.233.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7c40::/32"
     ]
   }

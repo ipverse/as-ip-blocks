@@ -1,9 +1,12 @@
 {
-  "asn": 37892,
-  "handle": "WAI-NET",
-  "description": "Cable Media WAIWAI Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37892,
+  "metadata" : {
+    "handle" : "WAI-NET",
+    "description" : "Cable Media WAIWAI Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "124.247.0.0/17",
       "124.247.128.0/18",
       "202.145.20.0/22",
@@ -11,7 +14,7 @@
       "202.145.28.0/22",
       "202.220.6.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:c840::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 57878,
-  "handle": "PRAGER-IT",
-  "description": "Prager Connect GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57878,
+  "metadata" : {
+    "handle" : "PRAGER-IT",
+    "description" : "Prager Connect GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.151.175.0/24",
       "62.122.24.0/24",
       "185.177.20.0/24",
@@ -13,6 +16,6 @@
       "185.238.243.0/24",
       "212.46.59.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

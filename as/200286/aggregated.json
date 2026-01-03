@@ -1,11 +1,14 @@
 {
-  "asn": 200286,
-  "handle": "EWO-CH-AS",
-  "description": "Elektrizitaetswerk Obwalden",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200286,
+  "metadata" : {
+    "handle" : "EWO-CH-AS",
+    "description" : "Elektrizitaetswerk Obwalden",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.59.52.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

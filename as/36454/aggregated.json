@@ -1,9 +1,12 @@
 {
-  "asn": 36454,
-  "handle": "WHG-DAL",
-  "description": "WHG Hosting Services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36454,
+  "metadata" : {
+    "handle" : "WHG-DAL",
+    "description" : "WHG Hosting Services Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.181.112.0/24",
       "65.181.116.0/24",
       "65.181.123.0/24",
@@ -24,6 +27,6 @@
       "198.38.90.0/24",
       "199.175.48.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

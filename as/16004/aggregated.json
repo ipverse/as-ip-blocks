@@ -1,12 +1,15 @@
 {
-  "asn": 16004,
-  "handle": "MIXITA-AS",
-  "description": "MIX S.r.L. - Milan Internet eXchange",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16004,
+  "metadata" : {
+    "handle" : "MIXITA-AS",
+    "description" : "MIX S.r.L. - Milan Internet eXchange",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "217.29.72.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1ac0::/32"
     ]
   }

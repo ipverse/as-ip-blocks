@@ -1,9 +1,12 @@
 {
-  "asn": 158,
-  "handle": "ERI-AS",
-  "description": "Ericsson Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 158,
+  "metadata" : {
+    "handle" : "ERI-AS",
+    "description" : "Ericsson Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.87.0.0/16",
       "129.192.0.0/18",
       "129.192.64.0/19",
@@ -70,7 +73,7 @@
       "194.237.142.0/24",
       "213.159.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1b70:a1::/48",
       "2001:1b70:6202::/48",
       "2001:1b70:82a3::/48",

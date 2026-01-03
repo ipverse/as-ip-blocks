@@ -1,9 +1,12 @@
 {
-  "asn": 11995,
-  "handle": "OHSU",
-  "description": "Oregon Health \u0026 Science University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11995,
+  "metadata" : {
+    "handle" : "OHSU",
+    "description" : "Oregon Health & Science University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.95.0.0/23",
       "129.95.16.0/20",
       "129.95.32.0/20",
@@ -12,6 +15,6 @@
       "137.53.0.0/16",
       "204.63.232.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

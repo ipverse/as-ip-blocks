@@ -1,9 +1,12 @@
 {
-  "asn": 62442,
-  "handle": "DADE-SAMANE-FANAVA",
-  "description": "Dade Samane Fanava Company (PJS)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62442,
+  "metadata" : {
+    "handle" : "DADE-SAMANE-FANAVA",
+    "description" : "Dade Samane Fanava Company (PJS)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.157.32.0/19",
       "94.183.177.0/24",
       "95.38.45.0/24",
@@ -11,7 +14,7 @@
       "185.221.239.0/24",
       "185.222.210.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:aa01::/32",
       "2a10:8180::/29"
     ]

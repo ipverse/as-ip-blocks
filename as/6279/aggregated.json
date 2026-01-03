@@ -1,15 +1,18 @@
 {
-  "asn": 6279,
-  "handle": "BTN-TWO",
-  "description": "PCCW Global Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6279,
+  "metadata" : {
+    "handle" : "BTN-TWO",
+    "description" : "PCCW Global Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.17.184.0/22",
       "37.17.188.0/23",
       "37.17.191.0/24",
       "65.72.192.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8800:500::/47",
       "2a03:5400:100::/47",
       "2a03:5400:102::/48"

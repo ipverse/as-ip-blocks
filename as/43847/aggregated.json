@@ -1,9 +1,12 @@
 {
-  "asn": 43847,
-  "handle": "NBISERV-AS",
-  "description": "Martin Prager trading as NbIServ",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43847,
+  "metadata" : {
+    "handle" : "NBISERV-AS",
+    "description" : "Martin Prager trading as NbIServ",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.185.104.0/24",
       "31.185.110.0/23",
       "45.149.216.0/23",
@@ -11,7 +14,7 @@
       "46.182.20.0/23",
       "46.182.23.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2970::/29",
       "2a0f:7600::/32"
     ]

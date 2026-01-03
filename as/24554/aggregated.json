@@ -1,9 +1,12 @@
 {
-  "asn": 24554,
-  "handle": "AS-FIVE-NET-IN",
-  "description": "Microscan Internet Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24554,
+  "metadata" : {
+    "handle" : "AS-FIVE-NET-IN",
+    "description" : "Microscan Internet Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.255.108.0/22",
       "43.224.172.0/22",
       "43.241.116.0/22",
@@ -29,7 +32,7 @@
       "183.87.224.0/20",
       "202.177.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:b00::/32"
     ]
   }

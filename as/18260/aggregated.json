@@ -1,9 +1,12 @@
 {
-  "asn": 18260,
-  "handle": "E-CATV",
-  "description": "EHIME CATV CO. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18260,
+  "metadata" : {
+    "handle" : "E-CATV",
+    "description" : "EHIME CATV CO. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.53.192.0/19",
       "27.106.208.0/21",
       "27.106.224.0/19",
@@ -26,7 +29,7 @@
       "219.109.56.0/21",
       "220.156.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:df00::/32"
     ]
   }

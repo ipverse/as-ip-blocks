@@ -1,9 +1,12 @@
 {
-  "asn": 202228,
-  "handle": "NETSERVICEPL-AS",
-  "description": "Krzysztof Jan Klaptocz trading as Netservice",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202228,
+  "metadata" : {
+    "handle" : "NETSERVICEPL-AS",
+    "description" : "Krzysztof Jan Klaptocz trading as Netservice",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.146.12.0/23",
       "89.35.234.0/24",
       "89.35.250.0/23",
@@ -15,6 +18,6 @@
       "185.193.116.0/22",
       "185.207.148.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

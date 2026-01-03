@@ -1,13 +1,16 @@
 {
-  "asn": 132932,
-  "handle": "ITTHINGS-AS",
-  "description": "It Things",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132932,
+  "metadata" : {
+    "handle" : "ITTHINGS-AS",
+    "description" : "It Things",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.189.40.0/23",
       "103.208.52.0/22",
       "103.243.62.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

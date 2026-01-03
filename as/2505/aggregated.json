@@ -1,14 +1,17 @@
 {
-  "asn": 2505,
-  "handle": "HEPNET-J",
-  "description": "High Energy Accelerator Research Organization KEK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2505,
+  "metadata" : {
+    "handle" : "HEPNET-J",
+    "description" : "High Energy Accelerator Research Organization KEK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.87.0.0/16",
       "192.153.112.0/24",
       "192.153.114.0/24",
       "202.13.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

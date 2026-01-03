@@ -1,12 +1,15 @@
 {
-  "asn": 205449,
-  "handle": "DEVNET",
-  "description": "DevNet Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205449,
+  "metadata" : {
+    "handle" : "DEVNET",
+    "description" : "DevNet Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.163.56.0/22",
       "185.218.88.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

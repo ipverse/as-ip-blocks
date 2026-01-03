@@ -1,9 +1,12 @@
 {
-  "asn": 132337,
-  "handle": "ANSPL-AS-AP",
-  "description": "AXCLUSIVE PTE. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132337,
+  "metadata" : {
+    "handle" : "ANSPL-AS-AP",
+    "description" : "AXCLUSIVE PTE. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.69.212.0/22",
       "103.148.238.0/23",
       "103.196.48.0/22",
@@ -15,7 +18,7 @@
       "209.146.43.0/24",
       "209.146.57.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:c140::/32"
     ]
   }

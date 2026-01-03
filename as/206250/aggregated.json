@@ -1,12 +1,15 @@
 {
-  "asn": 206250,
-  "handle": "AS-ALLSYSTEMS",
-  "description": "Allsystems B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206250,
+  "metadata" : {
+    "handle" : "AS-ALLSYSTEMS",
+    "description" : "Allsystems B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.42.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:62a0::/32"
     ]
   }

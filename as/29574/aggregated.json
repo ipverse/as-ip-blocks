@@ -1,12 +1,15 @@
 {
-  "asn": 29574,
-  "handle": "VNTU-AS",
-  "description": "Vinnytsia National Technical University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29574,
+  "metadata" : {
+    "handle" : "VNTU-AS",
+    "description" : "Vinnytsia National Technical University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.146.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5c40:7::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 396955,
-  "handle": "INTERNET2-BLEND",
-  "description": "Internet2",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396955,
+  "metadata" : {
+    "handle" : "INTERNET2-BLEND",
+    "description" : "Internet2",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.57.22.0/24",
       "163.253.19.0/24",
       "163.253.30.0/23",
@@ -14,7 +17,7 @@
       "163.253.63.0/24",
       "192.52.179.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:468:1f10::/47",
       "2001:468:2600::/48",
       "2001:468:2610::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 205111,
-  "handle": "ZOHO-EU",
-  "description": "ZOHO Corporation B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205111,
+  "metadata" : {
+    "handle" : "ZOHO-EU",
+    "description" : "ZOHO Corporation B.V",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.103.153.0/24",
       "91.103.155.0/24",
       "144.89.64.0/22",
@@ -15,6 +18,6 @@
       "199.67.88.0/22",
       "213.161.74.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

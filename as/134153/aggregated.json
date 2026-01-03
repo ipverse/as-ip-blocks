@@ -1,14 +1,17 @@
 {
-  "asn": 134153,
-  "handle": "XPLORECYBERNET-AS-AP",
-  "description": "Xplore Net BD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134153,
+  "metadata" : {
+    "handle" : "XPLORECYBERNET-AS-AP",
+    "description" : "Xplore Net BD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.96.104.0/22",
       "103.138.26.0/23",
       "103.176.18.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:7c40::/32"
     ]
   }

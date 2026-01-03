@@ -1,9 +1,12 @@
 {
-  "asn": 52041,
-  "handle": "SCALEBLADE",
-  "description": "Scaleblade Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52041,
+  "metadata" : {
+    "handle" : "SCALEBLADE",
+    "description" : "Scaleblade Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.61.173.0/24",
       "45.84.91.0/24",
       "75.153.84.0/23",
@@ -16,7 +19,7 @@
       "194.46.57.0/24",
       "194.180.36.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:bec0:6a0::/44",
       "2a12:bec0:7000::/47",
       "2a12:bec1::/47",

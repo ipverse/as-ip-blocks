@@ -1,9 +1,12 @@
 {
-  "asn": 399821,
-  "handle": "LCREMC",
-  "description": "LaGrange County Rural Electric Membership Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399821,
+  "metadata" : {
+    "handle" : "LCREMC",
+    "description" : "LaGrange County Rural Electric Membership Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.150.128.0/22",
       "67.202.214.0/24",
       "68.233.46.0/23",
@@ -13,7 +16,7 @@
       "167.150.84.0/23",
       "198.232.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:5b40::/32"
     ]
   }

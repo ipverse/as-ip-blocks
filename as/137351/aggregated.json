@@ -1,12 +1,15 @@
 {
-  "asn": 137351,
-  "handle": "DJASANET-AS-ID",
-  "description": "PT. Djaya Sampoerna Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137351,
+  "metadata" : {
+    "handle" : "DJASANET-AS-ID",
+    "description" : "PT. Djaya Sampoerna Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.114.144.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:f900::/48"
     ]
   }

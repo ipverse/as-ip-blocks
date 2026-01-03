@@ -1,9 +1,12 @@
 {
-  "asn": 25875,
-  "handle": "VARIOUS",
-  "description": "FriendFinder Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25875,
+  "metadata" : {
+    "handle" : "VARIOUS",
+    "description" : "FriendFinder Networks Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.165.96.0/21",
       "69.165.104.0/22",
       "69.165.108.0/23",
@@ -12,7 +15,7 @@
       "208.88.180.0/23",
       "208.88.182.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:9f00:3::/48"
     ]
   }

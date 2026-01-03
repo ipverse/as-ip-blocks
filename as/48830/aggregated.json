@@ -1,9 +1,12 @@
 {
-  "asn": 48830,
-  "handle": "TEC-AS",
-  "description": "TransEuroCom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48830,
+  "metadata" : {
+    "handle" : "TEC-AS",
+    "description" : "TransEuroCom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.132.14.0/24",
       "85.132.19.0/24",
       "85.132.104.0/23",
@@ -16,6 +19,6 @@
       "94.20.70.0/24",
       "185.36.200.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

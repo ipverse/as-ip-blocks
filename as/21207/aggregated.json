@@ -1,9 +1,12 @@
 {
-  "asn": 21207,
-  "handle": "RWE",
-  "description": "E.ON Verwaltungs GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21207,
+  "metadata" : {
+    "handle" : "RWE",
+    "description" : "E.ON Verwaltungs GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "153.100.0.0/18",
       "153.100.192.0/18",
       "193.25.64.0/20",
@@ -11,7 +14,7 @@
       "193.25.84.0/22",
       "193.25.88.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:ad40::/29"
     ]
   }

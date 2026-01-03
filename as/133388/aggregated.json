@@ -1,13 +1,16 @@
 {
-  "asn": 133388,
-  "handle": "IHIPL-AS-AP",
-  "description": "IMS Health India Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133388,
+  "metadata" : {
+    "handle" : "IHIPL-AS-AP",
+    "description" : "IMS Health India Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.7.24.0/24",
       "162.44.150.0/23",
       "162.44.250.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

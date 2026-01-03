@@ -1,12 +1,15 @@
 {
-  "asn": 5485,
-  "handle": "SMARTHELP",
-  "description": "SMARTHELP AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5485,
+  "metadata" : {
+    "handle" : "SMARTHELP",
+    "description" : "SMARTHELP AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.124.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:b0c0::/29"
     ]
   }

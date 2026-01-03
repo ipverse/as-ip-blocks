@@ -1,11 +1,14 @@
 {
-  "asn": 53380,
-  "handle": "LGCNS-AS",
-  "description": "LG CNS America Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53380,
+  "metadata" : {
+    "handle" : "LGCNS-AS",
+    "description" : "LG CNS America Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "136.166.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

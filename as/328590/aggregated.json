@@ -1,11 +1,14 @@
 {
-  "asn": 328590,
-  "handle": "SOMLINK-WIRELESS-AS",
-  "description": "Somlink Wireless Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328590,
+  "metadata" : {
+    "handle" : "SOMLINK-WIRELESS-AS",
+    "description" : "Somlink Wireless Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.38.48.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 25408,
-  "handle": "WESTCALL-SPB-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25408,
+  "metadata" : {
+    "handle" : "WESTCALL-SPB-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.182.89.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1c78::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 137182,
-  "handle": "BLUE-WIRELESS-SG",
-  "description": "BLUE WIRELESS PTE LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137182,
+  "metadata" : {
+    "handle" : "BLUE-WIRELESS-SG",
+    "description" : "BLUE WIRELESS PTE LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.45.112.0/21",
       "38.57.132.0/23",
       "38.92.72.0/21",
@@ -21,7 +24,7 @@
       "154.57.172.0/22",
       "154.62.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:9c0::/46",
       "2402:9c0:5::/48",
       "2402:9c0:6::/48"

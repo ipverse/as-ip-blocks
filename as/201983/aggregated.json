@@ -1,9 +1,12 @@
 {
-  "asn": 201983,
-  "handle": "ANSLUTEN-AS",
-  "description": "Ansluten Hosting i Sverige AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201983,
+  "metadata" : {
+    "handle" : "ANSLUTEN-AS",
+    "description" : "Ansluten Hosting i Sverige AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.132.52.0/22",
       "139.28.236.0/22",
       "185.57.104.0/22",
@@ -16,7 +19,7 @@
       "194.0.231.0/24",
       "212.237.200.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:dcc0::/29"
     ]
   }

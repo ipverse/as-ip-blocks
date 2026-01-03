@@ -1,14 +1,17 @@
 {
-  "asn": 32624,
-  "handle": "WESTEXCONNECTHQ",
-  "description": "TELSTAR1 INTERNET SERVICES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32624,
+  "metadata" : {
+    "handle" : "WESTEXCONNECTHQ",
+    "description" : "TELSTAR1 INTERNET SERVICES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.40.208.0/20",
       "148.64.32.0/20",
       "172.103.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:2180::/32"
     ]
   }

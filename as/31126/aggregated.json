@@ -1,9 +1,12 @@
 {
-  "asn": 31126,
-  "handle": "SODETEL-AS",
-  "description": "SODETEL S.A.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31126,
+  "metadata" : {
+    "handle" : "SODETEL-AS",
+    "description" : "SODETEL S.A.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.8.128.0/19",
       "89.108.128.0/22",
       "89.108.133.0/24",
@@ -16,7 +19,7 @@
       "212.40.128.0/19",
       "212.101.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5900::/29"
     ]
   }

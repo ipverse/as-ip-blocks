@@ -1,9 +1,12 @@
 {
-  "asn": 14374,
-  "handle": "AGRI-VALLEY",
-  "description": "Agri-Valley Services Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14374,
+  "metadata" : {
+    "handle" : "AGRI-VALLEY",
+    "description" : "Agri-Valley Services Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.211.64.0/22",
       "66.211.69.0/24",
       "66.211.70.0/23",
@@ -32,7 +35,7 @@
       "209.178.192.0/21",
       "209.195.224.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:ca00::/32"
     ]
   }

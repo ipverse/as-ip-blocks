@@ -1,9 +1,12 @@
 {
-  "asn": 30880,
-  "handle": "SPACEDUMP-AS",
-  "description": "SpaceDump IT AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30880,
+  "metadata" : {
+    "handle" : "SPACEDUMP-AS",
+    "description" : "SpaceDump IT AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.98.192.0/22",
       "192.36.115.0/24",
       "192.71.51.0/24",
@@ -12,7 +15,7 @@
       "194.236.124.0/24",
       "212.63.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:298::/31"
     ]
   }

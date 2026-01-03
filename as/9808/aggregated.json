@@ -1,9 +1,12 @@
 {
-  "asn": 9808,
-  "handle": "CHINAMOBILE-CN",
-  "description": "China Mobile",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9808,
+  "metadata" : {
+    "handle" : "CHINAMOBILE-CN",
+    "description" : "China Mobile",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.128.0.0/10",
       "36.212.0.0/17",
       "36.212.128.0/19",
@@ -125,7 +128,7 @@
       "223.161.248.0/23",
       "223.161.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:1320::/32",
       "2401:8be0::/48",
       "2407:8f40:2::/48",

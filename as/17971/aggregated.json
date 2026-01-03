@@ -1,9 +1,12 @@
 {
-  "asn": 17971,
-  "handle": "TTSSB-MY",
-  "description": "TM TECHNOLOGY SERVICES SDN BHD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17971,
+  "metadata" : {
+    "handle" : "TTSSB-MY",
+    "description" : "TM TECHNOLOGY SERVICES SDN BHD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.236.193.0/24",
       "49.236.198.0/24",
       "49.236.202.0/24",
@@ -32,6 +35,6 @@
       "202.75.62.0/23",
       "210.48.144.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

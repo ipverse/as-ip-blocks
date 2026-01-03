@@ -1,9 +1,12 @@
 {
-  "asn": 20875,
-  "handle": "HPTNET-AS",
-  "description": "JP HT d.d. Mostar",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20875,
+  "metadata" : {
+    "handle" : "HPTNET-AS",
+    "description" : "JP HT d.d. Mostar",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.133.128.0/19",
       "37.8.128.0/20",
       "46.35.128.0/19",
@@ -19,6 +22,6 @@
       "212.39.96.0/19",
       "212.125.144.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 21334,
-  "handle": "ASN-VODAFONE-HU",
-  "description": "One Hungary Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21334,
+  "metadata" : {
+    "handle" : "ASN-VODAFONE-HU",
+    "description" : "One Hungary Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.63.192.0/18",
       "5.148.192.0/18",
       "5.206.128.0/18",
@@ -32,7 +35,7 @@
       "212.96.32.0/19",
       "213.222.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:870::/32",
       "2a01:8f8::/32",
       "2a02:ab80::/28"

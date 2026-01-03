@@ -1,11 +1,14 @@
 {
-  "asn": 2877,
-  "handle": "LSC-AS",
-  "description": "LSC SIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2877,
+  "metadata" : {
+    "handle" : "LSC-AS",
+    "description" : "LSC SIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.50.105.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

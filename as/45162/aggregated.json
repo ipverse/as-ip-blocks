@@ -1,12 +1,15 @@
 {
-  "asn": 45162,
-  "handle": "VICTRACK-AS-AP",
-  "description": "VICTORIAN RAIL TRACK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45162,
+  "metadata" : {
+    "handle" : "VICTRACK-AS-AP",
+    "description" : "VICTORIAN RAIL TRACK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.194.68.0/24",
       "203.149.88.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 8371,
-  "handle": "VIMPELCOM-NN",
-  "description": "PJSC Vimpelcom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8371,
+  "metadata" : {
+    "handle" : "VIMPELCOM-NN",
+    "description" : "PJSC Vimpelcom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.189.0.0/19",
       "92.242.64.0/19",
       "95.31.49.0/24",
@@ -11,6 +14,6 @@
       "195.98.32.0/19",
       "212.92.128.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

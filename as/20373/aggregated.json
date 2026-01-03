@@ -1,12 +1,15 @@
 {
-  "asn": 20373,
-  "handle": "MARLEYINDEX-US",
-  "description": "Marley Index LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20373,
+  "metadata" : {
+    "handle" : "MARLEYINDEX-US",
+    "description" : "Marley Index LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.180.184.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f939:99::/48",
       "2602:f939:100::/47"
     ]

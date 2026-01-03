@@ -1,9 +1,12 @@
 {
-  "asn": 213877,
-  "handle": "U1HOST-AS",
-  "description": "u1host ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213877,
+  "metadata" : {
+    "handle" : "U1HOST-AS",
+    "description" : "u1host ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.188.73.0/24",
       "64.188.75.0/24",
       "64.188.92.0/22",
@@ -31,7 +34,7 @@
       "185.207.133.0/24",
       "213.21.241.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:ecc0:40::/42",
       "2a01:ecc0:200::/42",
       "2a01:ecc0:1000::/36"

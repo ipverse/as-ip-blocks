@@ -1,9 +1,12 @@
 {
-  "asn": 201665,
-  "handle": "KSTNETWORKS",
-  "description": "Anonymizer LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201665,
+  "metadata" : {
+    "handle" : "KSTNETWORKS",
+    "description" : "Anonymizer LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.102.239.0/24",
       "66.163.208.0/24",
       "66.163.212.0/24",
@@ -31,6 +34,6 @@
       "209.59.50.0/24",
       "209.59.59.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

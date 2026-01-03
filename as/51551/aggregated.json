@@ -1,15 +1,18 @@
 {
-  "asn": 51551,
-  "handle": "CAPITA-AS",
-  "description": "Capita Business Services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51551,
+  "metadata" : {
+    "handle" : "CAPITA-AS",
+    "description" : "Capita Business Services Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.16.0.0/21",
       "46.183.192.0/21",
       "82.203.64.0/18",
       "185.26.16.0/22",
       "195.190.22.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 399091,
-  "handle": "INTERDATALINK-INC",
-  "description": "Inter Data Link Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399091,
+  "metadata" : {
+    "handle" : "INTERDATALINK-INC",
+    "description" : "Inter Data Link Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.170.144.0/23",
       "23.234.148.0/22",
       "91.242.100.0/23",
@@ -12,7 +15,7 @@
       "172.81.20.0/22",
       "198.22.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:1340::/32"
     ]
   }

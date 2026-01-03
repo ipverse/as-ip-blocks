@@ -1,14 +1,17 @@
 {
-  "asn": 60670,
-  "handle": "WIDEFM-LTD",
-  "description": "WideFM Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60670,
+  "metadata" : {
+    "handle" : "WIDEFM-LTD",
+    "description" : "WideFM Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.155.108.0/22",
       "62.68.95.0/24",
       "185.180.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:ad80::/29"
     ]
   }

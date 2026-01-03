@@ -1,12 +1,15 @@
 {
-  "asn": 209297,
-  "handle": "AS-NICHI-YOROZUYA",
-  "description": "NICHI YOROZUYA LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209297,
+  "metadata" : {
+    "handle" : "AS-NICHI-YOROZUYA",
+    "description" : "NICHI YOROZUYA LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.32.148.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:feda:bc0::/44",
       "2a0c:b641:690::/44"
     ]

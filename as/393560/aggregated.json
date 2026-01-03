@@ -1,13 +1,16 @@
 {
-  "asn": 393560,
-  "handle": "AKAMAI-TEST",
-  "description": "Akamai Technologies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393560,
+  "metadata" : {
+    "handle" : "AKAMAI-TEST",
+    "description" : "Akamai Technologies Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.191.170.0/24",
       "168.143.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:6c00:2000::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 9730,
-  "handle": "BHARTITELESONIC-AS-IN-AP",
-  "description": "Bharti Airtel Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9730,
+  "metadata" : {
+    "handle" : "BHARTITELESONIC-AS-IN-AP",
+    "description" : "Bharti Airtel Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.144.97.0/24",
       "59.145.72.0/23",
       "61.246.50.0/24",
@@ -12,7 +15,7 @@
       "203.101.99.0/24",
       "203.193.178.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:a800:4001::/48"
     ]
   }

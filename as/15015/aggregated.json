@@ -1,12 +1,15 @@
 {
-  "asn": 15015,
-  "handle": "SGC",
-  "description": "Spring Grove Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15015,
+  "metadata" : {
+    "handle" : "SGC",
+    "description" : "Spring Grove Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.173.166.0/23",
       "69.173.168.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

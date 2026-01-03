@@ -1,9 +1,12 @@
 {
-  "asn": 106,
-  "handle": "GDAIS-ASN-106",
-  "description": "General Dynamics Mission Systems Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 106,
+  "metadata" : {
+    "handle" : "GDAIS-ASN-106",
+    "description" : "General Dynamics Mission Systems Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.121.28.0/24",
       "137.100.16.0/20",
       "137.100.132.0/22",
@@ -11,6 +14,6 @@
       "137.100.144.0/20",
       "192.206.187.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

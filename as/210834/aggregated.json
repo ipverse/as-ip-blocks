@@ -1,14 +1,17 @@
 {
-  "asn": 210834,
-  "handle": "LU-CIX-IT",
-  "description": "LU-CIX Management G.I.E",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210834,
+  "metadata" : {
+    "handle" : "LU-CIX-IT",
+    "description" : "LU-CIX Management G.I.E.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.215.70.0/23",
       "188.93.169.0/24",
       "188.93.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:880::/36"
     ]
   }

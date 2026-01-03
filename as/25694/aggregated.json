@@ -1,9 +1,12 @@
 {
-  "asn": 25694,
-  "handle": "ATOMIC",
-  "description": "Atomic Data LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25694,
+  "metadata" : {
+    "handle" : "ATOMIC",
+    "description" : "Atomic Data LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.244.48.0/20",
       "69.67.16.0/20",
       "71.5.104.0/21",
@@ -11,7 +14,7 @@
       "199.66.72.0/22",
       "204.153.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:ad00::/32"
     ]
   }

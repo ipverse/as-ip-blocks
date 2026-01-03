@@ -1,16 +1,19 @@
 {
-  "asn": 204561,
-  "handle": "EURASERV-L2",
-  "description": "Diogenius SPRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204561,
+  "metadata" : {
+    "handle" : "EURASERV-L2",
+    "description" : "Diogenius SPRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.148.49.0/24",
       "128.127.182.0/24",
       "154.6.220.0/22",
       "178.211.131.0/24",
       "185.192.46.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:8a40::/29"
     ]
   }

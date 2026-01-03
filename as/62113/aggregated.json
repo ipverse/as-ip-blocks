@@ -1,12 +1,15 @@
 {
-  "asn": 62113,
-  "handle": "KRACON-AS",
-  "description": "Kracon ApS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62113,
+  "metadata" : {
+    "handle" : "KRACON-AS",
+    "description" : "Kracon ApS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.38.24.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:fbe0::/31"
     ]
   }

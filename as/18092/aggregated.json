@@ -1,9 +1,12 @@
 {
-  "asn": 18092,
-  "handle": "CSF",
-  "description": "Kyushu Tele Communications Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18092,
+  "metadata" : {
+    "handle" : "CSF",
+    "description" : "Kyushu Tele Communications Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.122.8.0/22",
       "61.44.224.0/19",
       "110.172.32.0/20",
@@ -18,7 +21,7 @@
       "219.103.112.0/20",
       "219.117.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:1900::/32"
     ]
   }

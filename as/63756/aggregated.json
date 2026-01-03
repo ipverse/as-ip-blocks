@@ -1,12 +1,15 @@
 {
-  "asn": 63756,
-  "handle": "VSTV-AS-VN",
-  "description": "VSTV-VN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63756,
+  "metadata" : {
+    "handle" : "VSTV-AS-VN",
+    "description" : "VSTV-VN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.199.13.0/24",
       "103.199.14.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

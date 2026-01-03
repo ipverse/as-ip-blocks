@@ -1,13 +1,16 @@
 {
-  "asn": 49718,
-  "handle": "NTS-REAL-AS",
-  "description": "Nizhnevolzhskie Telecommunication Networks Real LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49718,
+  "metadata" : {
+    "handle" : "NTS-REAL-AS",
+    "description" : "Nizhnevolzhskie Telecommunication Networks Real LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "176.100.64.0/18",
       "213.108.168.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:1301:4003::/48"
     ]
   }

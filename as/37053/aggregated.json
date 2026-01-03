@@ -1,9 +1,12 @@
 {
-  "asn": 37053,
-  "handle": "RSAWEB-AS",
-  "description": "RSAWEB (PTY) LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37053,
+  "metadata" : {
+    "handle" : "RSAWEB-AS",
+    "description" : "RSAWEB (PTY) LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.71.0.0/17",
       "41.74.176.0/20",
       "41.79.36.0/22",
@@ -24,7 +27,7 @@
       "196.1.130.0/24",
       "196.46.31.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f800::/28"
     ]
   }

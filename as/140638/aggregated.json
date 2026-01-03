@@ -1,9 +1,12 @@
 {
-  "asn": 140638,
-  "handle": "CHINANET-IOT-SICHUAN",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140638,
+  "metadata" : {
+    "handle" : "CHINANET-IOT-SICHUAN",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.113.178.0/23",
       "36.113.180.0/22",
       "36.113.210.0/23",
@@ -16,7 +19,7 @@
       "117.61.143.0/24",
       "117.61.150.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:874::/40",
       "240e:874:100::/41",
       "240e:874:180::/42",

@@ -1,12 +1,15 @@
 {
-  "asn": 152671,
-  "handle": "SPARCS-AS",
-  "description": "SPARCS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152671,
+  "metadata" : {
+    "handle" : "SPARCS-AS",
+    "description" : "SPARCS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.117.237.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:320:237::/48",
       "2a06:9f81:3042::/48"
     ]

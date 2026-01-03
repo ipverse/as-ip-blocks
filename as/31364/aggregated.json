@@ -1,9 +1,12 @@
 {
-  "asn": 31364,
-  "handle": "INTELBI-AS",
-  "description": "Joint Stock Company TransTeleCom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31364,
+  "metadata" : {
+    "handle" : "INTELBI-AS",
+    "description" : "Joint Stock Company TransTeleCom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.246.128.0/19",
       "83.246.160.0/21",
       "83.246.168.0/23",
@@ -12,6 +15,6 @@
       "83.246.176.0/20",
       "83.246.192.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

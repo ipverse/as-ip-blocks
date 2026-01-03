@@ -1,14 +1,17 @@
 {
-  "asn": 60567,
-  "handle": "RIXHOST",
-  "description": "SIA RixHost",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60567,
+  "metadata" : {
+    "handle" : "RIXHOST",
+    "description" : "SIA RixHost",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.248.144.0/23",
       "185.29.8.0/23",
       "185.29.10.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:4840:200::/47"
     ]
   }

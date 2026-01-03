@@ -1,9 +1,12 @@
 {
-  "asn": 327791,
-  "handle": "CENTRACOM",
-  "description": "Centracom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 327791,
+  "metadata" : {
+    "handle" : "CENTRACOM",
+    "description" : "Centracom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.69.184.0/21",
       "102.207.124.0/23",
       "102.207.126.0/24",
@@ -13,6 +16,6 @@
       "196.43.231.0/24",
       "196.216.215.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

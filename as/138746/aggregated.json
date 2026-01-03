@@ -1,14 +1,17 @@
 {
-  "asn": 138746,
-  "handle": "LIVEFIBR-AS-IN",
-  "description": "Live Fibernet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138746,
+  "metadata" : {
+    "handle" : "LIVEFIBR-AS-IN",
+    "description" : "Live Fibernet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.125.154.0/23",
       "103.158.144.0/23",
       "160.22.44.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:5680::/48"
     ]
   }

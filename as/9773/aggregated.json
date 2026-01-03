@@ -1,9 +1,12 @@
 {
-  "asn": 9773,
-  "handle": "HANCOMWITH-AS",
-  "description": "HancomWITH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9773,
+  "metadata" : {
+    "handle" : "HANCOMWITH-AS",
+    "description" : "HancomWITH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.237.174.0/24",
       "1.237.176.0/24",
       "1.237.245.0/24",
@@ -11,6 +14,6 @@
       "203.246.176.0/21",
       "218.234.34.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

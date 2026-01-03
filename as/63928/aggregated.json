@@ -1,9 +1,12 @@
 {
-  "asn": 63928,
-  "handle": "FREECOMM-AS-AP",
-  "description": "Freecomm Hong Kong Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63928,
+  "metadata" : {
+    "handle" : "FREECOMM-AS-AP",
+    "description" : "Freecomm Hong Kong Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.227.237.0/24",
       "43.227.238.0/24",
       "103.47.24.0/22",
@@ -12,6 +15,6 @@
       "119.235.180.0/24",
       "119.235.182.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

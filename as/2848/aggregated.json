@@ -1,14 +1,17 @@
 {
-  "asn": 2848,
-  "handle": "MSU",
-  "description": "Federal State Budgetary Educational Institution of Higher Education Lomonosov Moscow State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2848,
+  "metadata" : {
+    "handle" : "MSU",
+    "description" : "Federal State Budgetary Educational Institution of Higher Education Lomonosov Moscow State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.249.160.0/20",
       "93.180.0.0/18",
       "188.44.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:f480::/32"
     ]
   }

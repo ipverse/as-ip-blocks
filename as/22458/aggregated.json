@@ -1,9 +1,12 @@
 {
-  "asn": 22458,
-  "handle": "NETSOURCE",
-  "description": "CONVERGEONE HOLDINGS INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22458,
+  "metadata" : {
+    "handle" : "NETSOURCE",
+    "description" : "CONVERGEONE HOLDINGS INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.150.163.0/24",
       "65.182.160.0/22",
       "65.182.164.0/23",
@@ -25,7 +28,7 @@
       "192.189.4.0/24",
       "207.191.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:f80::/32"
     ]
   }

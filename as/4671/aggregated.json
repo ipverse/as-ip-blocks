@@ -1,10 +1,13 @@
 {
-  "asn": 4671,
-  "handle": "KTOA-AS",
-  "description": "KTOA",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 4671,
+  "metadata" : {
+    "handle" : "KTOA-AS",
+    "description" : "KTOA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2401:8ac0:120::/48"
     ]
   }

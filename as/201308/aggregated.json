@@ -1,12 +1,15 @@
 {
-  "asn": 201308,
-  "handle": "CASTLEGEM",
-  "description": "Castlegem SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201308,
+  "metadata" : {
+    "handle" : "CASTLEGEM",
+    "description" : "Castlegem SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.239.46.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2160:7111::/48",
       "2a02:2160:7112::/47"
     ]

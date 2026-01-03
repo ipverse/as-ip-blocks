@@ -1,13 +1,16 @@
 {
-  "asn": 136733,
-  "handle": "RACKSCENTRAL-AS-AP",
-  "description": "Racks Central Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136733,
+  "metadata" : {
+    "handle" : "RACKSCENTRAL-AS-AP",
+    "description" : "Racks Central Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.94.224.0/22",
       "150.107.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:8900::/48"
     ]
   }

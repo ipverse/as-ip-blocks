@@ -1,13 +1,16 @@
 {
-  "asn": 200603,
-  "handle": "FIXME-AS",
-  "description": "FIXME GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200603,
+  "metadata" : {
+    "handle" : "FIXME-AS",
+    "description" : "FIXME GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.244.3.0/24",
       "185.79.125.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:5740::/29"
     ]
   }

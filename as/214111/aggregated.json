@@ -1,14 +1,17 @@
 {
-  "asn": 214111,
-  "handle": "TAPHIP",
-  "description": "TapHip Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214111,
+  "metadata" : {
+    "handle" : "TAPHIP",
+    "description" : "TapHip Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.55.109.0/24",
       "38.55.110.0/24",
       "91.208.109.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:67c1:a170::/44"
     ]
   }

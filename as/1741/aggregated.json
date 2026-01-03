@@ -1,9 +1,12 @@
 {
-  "asn": 1741,
-  "handle": "FUNETAS",
-  "description": "CSC - Tieteen tietotekniikan keskus Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1741,
+  "metadata" : {
+    "handle" : "FUNETAS",
+    "description" : "CSC - Tieteen tietotekniikan keskus Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.50.0.0/16",
       "128.214.0.0/16",
       "130.231.0.0/16",
@@ -23,7 +26,7 @@
       "193.166.0.0/15",
       "195.148.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:708::/32"
     ]
   }

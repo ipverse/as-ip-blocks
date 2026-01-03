@@ -1,10 +1,13 @@
 {
-  "asn": 398024,
-  "handle": "ELEMENT-4-SWGR",
-  "description": "Element Four",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 398024,
+  "metadata" : {
+    "handle" : "ELEMENT-4-SWGR",
+    "description" : "Element Four",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2606:a600:4001::/48"
     ]
   }

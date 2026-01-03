@@ -1,9 +1,12 @@
 {
-  "asn": 200656,
-  "handle": "NOKIA-EMEA",
-  "description": "Nokia Solutions and Networks Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200656,
+  "metadata" : {
+    "handle" : "NOKIA-EMEA",
+    "description" : "Nokia Solutions and Networks Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.254.194.0/24",
       "87.254.196.0/24",
       "87.254.213.0/24",
@@ -20,7 +23,7 @@
       "194.34.56.0/24",
       "194.113.59.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8a02:10::/44",
       "2a00:8a02:8010::/44",
       "2a03:5342:10::/44",

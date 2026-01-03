@@ -1,13 +1,16 @@
 {
-  "asn": 201318,
-  "handle": "SUEDWESTFALENIT-AS",
-  "description": "Suedwestfalen-IT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201318,
+  "metadata" : {
+    "handle" : "SUEDWESTFALENIT-AS",
+    "description" : "Suedwestfalen-IT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.216.128.0/24",
       "185.41.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:100e:bef8::/48"
     ]
   }

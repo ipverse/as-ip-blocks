@@ -1,12 +1,15 @@
 {
-  "asn": 264503,
-  "handle": "PROVEDOR-R-COSTA",
-  "description": "provedor r costa internet ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264503,
+  "metadata" : {
+    "handle" : "PROVEDOR-R-COSTA-INTERNET",
+    "description" : "provedor r costa internet ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.255.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:20a4::/32"
     ]
   }

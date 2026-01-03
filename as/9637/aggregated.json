@@ -1,9 +1,12 @@
 {
-  "asn": 9637,
-  "handle": "KBSI-AS",
-  "description": "Korea Basic Science Institute",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9637,
+  "metadata" : {
+    "handle" : "KBSI-AS",
+    "description" : "Korea Basic Science Institute",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.230.121.0/24",
       "203.230.122.0/23",
       "203.253.239.0/24",
@@ -12,6 +15,6 @@
       "210.125.80.0/22",
       "210.125.86.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

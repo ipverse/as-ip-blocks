@@ -1,13 +1,16 @@
 {
-  "asn": 10660,
-  "handle": "SYSNET-AS",
-  "description": "SYSNET Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10660,
+  "metadata" : {
+    "handle" : "SYSNET-AS",
+    "description" : "SYSNET Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.118.196.0/24",
       "64.118.198.0/23",
       "64.118.200.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

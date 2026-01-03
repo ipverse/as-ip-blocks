@@ -1,9 +1,12 @@
 {
-  "asn": 60781,
-  "handle": "LEASEWEB-NL-AMS-01",
-  "description": "LeaseWeb Netherlands B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60781,
+  "metadata" : {
+    "handle" : "LEASEWEB-NL-AMS-01",
+    "description" : "LeaseWeb Netherlands B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.100.0/24",
       "2.59.20.0/24",
       "5.79.64.0/18",
@@ -353,7 +356,7 @@
       "213.218.243.0/24",
       "213.227.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:10c::/48",
       "2001:1af8::/32",
       "2a00:5020::/48",

@@ -1,12 +1,15 @@
 {
-  "asn": 134999,
-  "handle": "AAL-AS-AP",
-  "description": "Adelaide Airport Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134999,
+  "metadata" : {
+    "handle" : "AAL-AS-AP",
+    "description" : "Adelaide Airport Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.90.3.0/24",
       "103.205.80.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

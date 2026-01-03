@@ -1,9 +1,14 @@
 {
-  "asn": 399916,
-  "handle": "PACKETSTREAM-NAM",
-  "description": "PACKETSTREAM LLC",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": []
+  "asn" : 399916,
+  "metadata" : {
+    "handle" : "PACKETSTREAM-NAM",
+    "description" : "PACKETSTREAM LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
+      "2402:be0:fefb::/48"
+    ]
   }
 }

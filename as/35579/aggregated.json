@@ -1,9 +1,12 @@
 {
-  "asn": 35579,
-  "handle": "KELAG1",
-  "description": "KELAG-Karntner Elektrizitats - Aktiengesellschaft",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35579,
+  "metadata" : {
+    "handle" : "KELAG1",
+    "description" : "KELAG-Karntner Elektrizitats - Aktiengesellschaft",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.122.220.0/22",
       "78.142.66.0/23",
       "78.142.80.0/22",
@@ -22,7 +25,7 @@
       "195.16.250.0/24",
       "195.69.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:5080::/29"
     ]
   }

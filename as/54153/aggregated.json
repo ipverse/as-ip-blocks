@@ -1,12 +1,15 @@
 {
-  "asn": 54153,
-  "handle": "LACMTA-ASN",
-  "description": "Los Angeles County Metropolitan Transportation Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54153,
+  "metadata" : {
+    "handle" : "LACMTA-ASN",
+    "description" : "Los Angeles County Metropolitan Transportation Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.202.178.0/23",
       "206.202.182.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

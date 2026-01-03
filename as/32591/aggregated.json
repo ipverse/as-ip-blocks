@@ -1,12 +1,15 @@
 {
-  "asn": 32591,
-  "handle": "CANOPS",
-  "description": "CanOps",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32591,
+  "metadata" : {
+    "handle" : "CANOPS",
+    "description" : "CanOps",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.140.52.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f633::/48"
     ]
   }

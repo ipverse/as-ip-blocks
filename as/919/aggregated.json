@@ -1,9 +1,12 @@
 {
-  "asn": 919,
-  "handle": "AS919",
-  "description": "The Howard University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 919,
+  "metadata" : {
+    "handle" : "AS919",
+    "description" : "The Howard University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.238.16.0/20",
       "138.238.32.0/19",
       "138.238.64.0/18",
@@ -13,6 +16,6 @@
       "138.238.224.0/20",
       "138.238.240.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

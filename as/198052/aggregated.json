@@ -1,12 +1,15 @@
 {
-  "asn": 198052,
-  "handle": "MOST-AS",
-  "description": "LLC Most",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198052,
+  "metadata" : {
+    "handle" : "MOST-AS",
+    "description" : "LLC Most",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.231.94.0/23",
       "91.238.200.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

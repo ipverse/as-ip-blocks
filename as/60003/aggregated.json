@@ -1,12 +1,15 @@
 {
-  "asn": 60003,
-  "handle": "IUBARI",
-  "description": "iubari GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60003,
+  "metadata" : {
+    "handle" : "IUBARI",
+    "description" : "iubari GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.60.72.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:71a0::/32"
     ]
   }

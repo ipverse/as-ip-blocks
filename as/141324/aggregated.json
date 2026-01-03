@@ -1,9 +1,12 @@
 {
-  "asn": 141324,
-  "handle": "HIGHTE-AS",
-  "description": "Hightec Network Solutions (OPC) Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141324,
+  "metadata" : {
+    "handle" : "HIGHTE-AS",
+    "description" : "Hightec Network Solutions (OPC) Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.50.22.0/23",
       "103.157.186.0/23",
       "103.167.122.0/23",
@@ -11,7 +14,7 @@
       "103.175.103.0/24",
       "103.180.220.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:2980::/48",
       "2407:6a40::/32",
       "2407:dec0::/32"

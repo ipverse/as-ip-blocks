@@ -1,12 +1,15 @@
 {
-  "asn": 42405,
-  "handle": "PAN-NET-AS",
-  "description": "PAN-NET SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42405,
+  "metadata" : {
+    "handle" : "PAN-NET-AS",
+    "description" : "PAN-NET SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.42.200.0/22",
       "91.213.135.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

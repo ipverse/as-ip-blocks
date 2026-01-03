@@ -1,13 +1,16 @@
 {
-  "asn": 135766,
-  "handle": "WANDOOR-AS",
-  "description": "Wandoor Multiventures Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135766,
+  "metadata" : {
+    "handle" : "WANDOOR-AS",
+    "description" : "Wandoor Multiventures Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.127.100.0/22",
       "103.144.114.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:71c0::/48",
       "2406:d40::/32"
     ]

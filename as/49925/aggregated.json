@@ -1,13 +1,16 @@
 {
-  "asn": 49925,
-  "handle": "STHNET-AS",
-  "description": "LLC South Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49925,
+  "metadata" : {
+    "handle" : "STHNET-AS",
+    "description" : "LLC South Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.190.24.0/22",
       "194.226.111.0/24",
       "195.208.108.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 7483,
-  "handle": "SKYCLOUD-NET",
-  "description": "Skycloud Computing co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7483,
+  "metadata" : {
+    "handle" : "SKYCLOUD-NET",
+    "description" : "Skycloud Computing co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.251.56.0/22",
       "103.24.52.0/22",
       "103.42.144.0/22",
@@ -17,7 +20,7 @@
       "103.198.152.0/23",
       "223.26.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:63e0::/46",
       "2400:63e0:4::/47",
       "2400:63e0:6::/48",

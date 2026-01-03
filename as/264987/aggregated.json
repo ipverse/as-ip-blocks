@@ -1,14 +1,17 @@
 {
-  "asn": 264987,
-  "handle": "RBR-TELECOM-SERVICOS",
-  "description": "RBR TELECOM SERVICOS DE TELEFONIA LIMITADA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264987,
+  "metadata" : {
+    "handle" : "RBR-TELECOM-SERVICOS",
+    "description" : "RBR TELECOM SERVICOS DE TELEFONIA LIMITADA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.224.2.0/23",
       "170.84.12.0/22",
       "181.191.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3104::/32"
     ]
   }

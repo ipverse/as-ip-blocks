@@ -1,9 +1,12 @@
 {
-  "asn": 29255,
-  "handle": "ZAJIL-AS",
-  "description": "Etihad Etisalat a joint stock company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29255,
+  "metadata" : {
+    "handle" : "ZAJIL-AS",
+    "description" : "Etihad Etisalat a joint stock company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.147.192.0/19",
       "85.194.64.0/18",
       "89.237.128.0/18",
@@ -11,6 +14,6 @@
       "185.29.92.0/22",
       "212.24.224.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

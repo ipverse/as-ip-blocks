@@ -1,9 +1,12 @@
 {
-  "asn": 33623,
-  "handle": "ALHNVL-HAYNEVILLE-TELEPHONE",
-  "description": "Hayneville Telephone Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33623,
+  "metadata" : {
+    "handle" : "ALHNVL-HAYNEVILLE-TELEPHONE",
+    "description" : "Hayneville Telephone Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.130.158.0/23",
       "199.227.130.0/24",
       "208.111.112.0/20",
@@ -16,6 +19,6 @@
       "209.136.168.0/23",
       "216.85.85.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

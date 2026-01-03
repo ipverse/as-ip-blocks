@@ -1,12 +1,15 @@
 {
-  "asn": 14195,
-  "handle": "CONTEGO-AS",
-  "description": "Contego Solutions LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14195,
+  "metadata" : {
+    "handle" : "CONTEGO-AS",
+    "description" : "Contego Solutions LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.194.202.0/23",
       "206.123.78.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

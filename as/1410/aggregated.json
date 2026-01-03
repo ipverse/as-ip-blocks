@@ -1,13 +1,16 @@
 {
-  "asn": 1410,
-  "handle": "CELLONE-IP",
-  "description": "SMITH BAGLEY INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1410,
+  "metadata" : {
+    "handle" : "CELLONE-IP",
+    "description" : "SMITH BAGLEY INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.132.2.0/24",
       "162.246.60.0/22",
       "192.199.224.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

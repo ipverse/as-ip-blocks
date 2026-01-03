@@ -1,12 +1,15 @@
 {
-  "asn": 133745,
-  "handle": "INTERNET-AS-AP",
-  "description": "InternetNZ",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133745,
+  "metadata" : {
+    "handle" : "INTERNET-AS-AP",
+    "description" : "InternetNZ",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.46.178.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:dce:2::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 400488,
-  "handle": "IZONE-BB-01",
-  "description": "iZone Broadband LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400488,
+  "metadata" : {
+    "handle" : "IZONE-BB-01",
+    "description" : "iZone Broadband LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.130.232.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:a040::/32"
     ]
   }

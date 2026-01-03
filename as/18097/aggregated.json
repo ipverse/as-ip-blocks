@@ -1,9 +1,12 @@
 {
-  "asn": 18097,
-  "handle": "DCN",
-  "description": "D.C.N. Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18097,
+  "metadata" : {
+    "handle" : "DCN",
+    "description" : "D.C.N. Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.109.120.0/22",
       "45.113.172.0/22",
       "103.36.140.0/22",
@@ -18,7 +21,7 @@
       "216.179.198.0/23",
       "219.105.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:c400::/32"
     ]
   }

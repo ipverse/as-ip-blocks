@@ -1,11 +1,14 @@
 {
-  "asn": 37066,
-  "handle": "MFA-AS",
-  "description": "Ministry of Foreign Affairs",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37066,
+  "metadata" : {
+    "handle" : "MFA-AS",
+    "description" : "Ministry of Foreign Affairs",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.191.80.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

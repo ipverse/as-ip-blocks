@@ -1,9 +1,12 @@
 {
-  "asn": 22561,
-  "handle": "CENTURYLINK-LEGACY-LIGHTCORE",
-  "description": "CenturyLink Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22561,
+  "metadata" : {
+    "handle" : "CENTURYLINK-LEGACY-LIGHTCORE",
+    "description" : "CenturyLink Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.40.72.0/23",
       "64.40.74.0/24",
       "64.40.78.0/23",
@@ -155,6 +158,6 @@
       "216.166.192.0/18",
       "216.231.160.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

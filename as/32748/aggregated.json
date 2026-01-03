@@ -1,9 +1,12 @@
 {
-  "asn": 32748,
-  "handle": "STEADFAST",
-  "description": "Steadfast",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32748,
+  "metadata" : {
+    "handle" : "STEADFAST",
+    "description" : "Steadfast",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.29.128.0/19",
       "50.31.64.0/18",
       "67.202.64.0/18",
@@ -17,7 +20,7 @@
       "208.117.32.0/20",
       "216.86.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:ed00:5::/48"
     ]
   }

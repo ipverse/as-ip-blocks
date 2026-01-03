@@ -1,13 +1,16 @@
 {
-  "asn": 31152,
-  "handle": "ENGEL-AS",
-  "description": "Engel Austria GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31152,
+  "metadata" : {
+    "handle" : "ENGEL-AS",
+    "description" : "Engel Austria GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.107.24.0/21",
       "194.107.32.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2efc::/48"
     ]
   }

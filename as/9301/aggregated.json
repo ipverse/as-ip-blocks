@@ -1,9 +1,12 @@
 {
-  "asn": 9301,
-  "handle": "EWN-AS-AP",
-  "description": "Cynergic Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9301,
+  "metadata" : {
+    "handle" : "EWN-AS-AP",
+    "description" : "Cynergic Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "122.200.164.0/23",
       "122.200.168.0/24",
       "122.200.171.0/24",
@@ -15,6 +18,6 @@
       "203.31.101.0/24",
       "203.56.99.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

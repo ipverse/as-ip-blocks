@@ -1,9 +1,12 @@
 {
-  "asn": 54427,
-  "handle": "NETTA-2-54427",
-  "description": "NetTally Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54427,
+  "metadata" : {
+    "handle" : "NETTA-2-54427",
+    "description" : "NetTally Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.44.16.0/22",
       "199.44.20.0/24",
       "199.44.25.0/24",
@@ -27,6 +30,6 @@
       "199.44.232.0/22",
       "199.44.248.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

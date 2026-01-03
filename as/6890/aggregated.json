@@ -1,10 +1,13 @@
 {
-  "asn": 6890,
-  "handle": "IRM-AS",
-  "description": "Internet Resources Management SRL",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 6890,
+  "metadata" : {
+    "handle" : "IRM-AS",
+    "description" : "Internet Resources Management SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:67c:2ed4::/48"
     ]
   }

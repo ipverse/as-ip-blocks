@@ -1,9 +1,12 @@
 {
-  "asn": 40545,
-  "handle": "EMPIRE-40545",
-  "description": "Empire Access",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40545,
+  "metadata" : {
+    "handle" : "EMPIRE-40545",
+    "description" : "Empire Access",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.21.40.0/21",
       "38.21.160.0/20",
       "38.21.208.0/20",
@@ -28,7 +31,7 @@
       "162.210.112.0/22",
       "199.190.196.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:380::/32"
     ]
   }

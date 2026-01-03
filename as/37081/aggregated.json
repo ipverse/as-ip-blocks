@@ -1,15 +1,18 @@
 {
-  "asn": 37081,
-  "handle": "MOVICEL-AS",
-  "description": "Movicel Telecomunicacoes S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37081,
+  "metadata" : {
+    "handle" : "MOVICEL-AS",
+    "description" : "Movicel Telecomunicacoes S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.70.128.0/17",
       "41.210.192.0/18",
       "154.65.128.0/17",
       "155.89.0.0/16",
       "197.241.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

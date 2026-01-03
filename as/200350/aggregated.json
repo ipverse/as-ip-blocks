@@ -1,9 +1,12 @@
 {
-  "asn": 200350,
-  "handle": "YANDEXCLOUD",
-  "description": "Yandex.Cloud LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200350,
+  "metadata" : {
+    "handle" : "YANDEXCLOUD",
+    "description" : "Yandex.Cloud LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.44.8.0/21",
       "37.230.172.0/22",
       "37.230.188.0/22",
@@ -31,7 +34,7 @@
       "213.165.192.0/19",
       "217.28.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:1447:20::/44",
       "2a0d:d6c0::/31"
     ]

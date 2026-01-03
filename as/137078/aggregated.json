@@ -1,12 +1,15 @@
 {
-  "asn": 137078,
-  "handle": "AONEONLINE-AS-AP",
-  "description": "A one online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137078,
+  "metadata" : {
+    "handle" : "AONEONLINE-AS-AP",
+    "description" : "A one online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.175.130.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:1a20::/45",
       "2400:1a20:8::/47"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 20902,
-  "handle": "DEGNET",
-  "description": "DegNet GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20902,
+  "metadata" : {
+    "handle" : "DEGNET",
+    "description" : "DegNet GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.229.0.0/20",
       "80.73.96.0/21",
       "80.73.108.0/24",
@@ -15,7 +18,7 @@
       "193.192.14.0/24",
       "194.0.184.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2088::/48",
       "2a00:1230::/29"
     ]

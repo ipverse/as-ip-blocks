@@ -1,9 +1,12 @@
 {
-  "asn": 12353,
-  "handle": "VODAFONE-PT",
-  "description": "Vodafone Portugal - Communicacoes Pessoais S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12353,
+  "metadata" : {
+    "handle" : "VODAFONE-PT",
+    "description" : "Vodafone Portugal - Communicacoes Pessoais S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.43.0.0/18",
       "5.158.0.0/18",
       "5.249.0.0/17",
@@ -33,7 +36,7 @@
       "212.18.160.0/19",
       "213.30.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:818::/29"
     ]
   }

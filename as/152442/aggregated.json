@@ -1,12 +1,15 @@
 {
-  "asn": 152442,
-  "handle": "IDNIC-ERKAFIBER-ID",
-  "description": "PT Erka Jaringan Utama",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152442,
+  "metadata" : {
+    "handle" : "IDNIC-ERKAFIBER-ID",
+    "description" : "PT Erka Jaringan Utama",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.66.86.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:b040::/48"
     ]
   }

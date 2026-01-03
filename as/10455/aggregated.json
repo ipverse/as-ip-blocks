@@ -1,9 +1,12 @@
 {
-  "asn": 10455,
-  "handle": "LUCENT-CIO",
-  "description": "Nokia of America Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10455,
+  "metadata" : {
+    "handle" : "LUCENT-CIO",
+    "description" : "Nokia of America Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.183.10.0/23",
       "93.183.49.0/24",
       "93.183.50.0/23",
@@ -17,7 +20,7 @@
       "135.249.0.0/16",
       "135.250.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8a01::/44",
       "2a00:8a01:8000::/44",
       "2a00:8a03:82a1::/48",

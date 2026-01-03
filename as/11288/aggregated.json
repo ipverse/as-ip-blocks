@@ -1,12 +1,15 @@
 {
-  "asn": 11288,
-  "handle": "IDMS101",
-  "description": "InfraDMS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11288,
+  "metadata" : {
+    "handle" : "IDMS101",
+    "description" : "InfraDMS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.112.200.0/21",
       "198.74.228.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

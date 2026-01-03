@@ -1,9 +1,12 @@
 {
-  "asn": 132055,
-  "handle": "EYELLEN-AP",
-  "description": "Ernst \u0026 Young Services Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132055,
+  "metadata" : {
+    "handle" : "EYELLEN-AP",
+    "description" : "Ernst & Young Services Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.134.54.0/24",
       "198.134.56.0/24",
       "199.52.53.0/24",
@@ -13,6 +16,6 @@
       "199.52.74.0/23",
       "199.52.80.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

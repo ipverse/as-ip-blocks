@@ -1,9 +1,12 @@
 {
-  "asn": 398037,
-  "handle": "NVIDIA-NGC-NSV",
-  "description": "NVIDIA Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398037,
+  "metadata" : {
+    "handle" : "NVIDIA-NGC-NSV",
+    "description" : "NVIDIA Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.44.54.0/24",
       "24.51.5.0/24",
       "24.51.6.0/23",
@@ -12,6 +15,6 @@
       "198.100.171.0/24",
       "198.100.172.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

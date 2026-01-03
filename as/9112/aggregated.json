@@ -1,13 +1,16 @@
 {
-  "asn": 9112,
-  "handle": "POZMAN",
-  "description": "Institute of Bioorganic Chemistry Polish Academy of Science Poznan Supercomputing and Networking Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9112,
+  "metadata" : {
+    "handle" : "POZMAN",
+    "description" : "Institute of Bioorganic Chemistry Polish Academy of Science Poznan Supercomputing and Networking Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.3.160.0/19",
       "150.254.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:808::/35"
     ]
   }

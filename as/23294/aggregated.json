@@ -1,15 +1,18 @@
 {
-  "asn": 23294,
-  "handle": "ULM-1",
-  "description": "The University of Louisiana at Monroe",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23294,
+  "metadata" : {
+    "handle" : "ULM-1",
+    "description" : "The University of Louisiana at Monroe",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "76.165.32.0/20",
       "192.135.131.0/24",
       "198.202.242.0/24",
       "198.232.231.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:1a70::/48"
     ]
   }

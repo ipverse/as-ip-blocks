@@ -1,12 +1,15 @@
 {
-  "asn": 210483,
-  "handle": "NETCOIL",
-  "description": "Netcoil AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210483,
+  "metadata" : {
+    "handle" : "NETCOIL",
+    "description" : "Netcoil AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.107.130.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:cd40::/48",
       "2a11:cd40:2000::/48",
       "2a11:cd40:f00d::/48"

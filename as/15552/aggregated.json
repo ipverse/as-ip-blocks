@@ -1,9 +1,12 @@
 {
-  "asn": 15552,
-  "handle": "CK",
-  "description": "LLC Real-net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15552,
+  "metadata" : {
+    "handle" : "CK",
+    "description" : "LLC Real-net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.56.136.0/21",
       "5.57.216.0/21",
       "5.101.224.0/19",
@@ -15,7 +18,7 @@
       "185.6.216.0/22",
       "212.232.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:d2c0::/29"
     ]
   }

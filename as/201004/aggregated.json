@@ -1,12 +1,15 @@
 {
-  "asn": 201004,
-  "handle": "GLOBALTT-AS",
-  "description": "Global Telephone \u0026 Telecommunication S.A. (GT\u0026T)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201004,
+  "metadata" : {
+    "handle" : "GLOBALTT-AS",
+    "description" : "Global Telephone & Telecommunication S.A. (GT&T)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "217.30.16.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:a1a0::/32"
     ]
   }

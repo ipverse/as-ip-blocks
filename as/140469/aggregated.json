@@ -1,14 +1,17 @@
 {
-  "asn": 140469,
-  "handle": "WANET-AS-ID",
-  "description": "PT Wahyu Adidaya Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140469,
+  "metadata" : {
+    "handle" : "WANET-AS-ID",
+    "description" : "PT Wahyu Adidaya Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.153.190.0/23",
       "202.10.53.0/24",
       "202.57.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:4940::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 45364,
-  "handle": "YTN-AS",
-  "description": "YTN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45364,
+  "metadata" : {
+    "handle" : "YTN-AS",
+    "description" : "YTN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.220.78.0/24",
       "211.169.46.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

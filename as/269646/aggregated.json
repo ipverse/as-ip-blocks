@@ -1,12 +1,15 @@
 {
-  "asn": 269646,
-  "handle": "G4-TELECOM-FIBRA",
-  "description": "G4 Telecom Fibra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269646,
+  "metadata" : {
+    "handle" : "G4-TELECOM-FIBRA",
+    "description" : "G4 Telecom Fibra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.190.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:67b8::/32"
     ]
   }

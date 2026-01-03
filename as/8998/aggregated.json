@@ -1,12 +1,15 @@
 {
-  "asn": 8998,
-  "handle": "TUMTTL-AS",
-  "description": "Russian company LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8998,
+  "metadata" : {
+    "handle" : "TUMTTL-AS",
+    "description" : "Russian company LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.1.53.0/24",
       "91.203.38.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 45312,
-  "handle": "MLD-ID",
-  "description": "PT MEDIA LINTAS DATA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45312,
+  "metadata" : {
+    "handle" : "MLD-ID",
+    "description" : "PT MEDIA LINTAS DATA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.247.32.0/22",
       "103.14.44.0/23",
       "103.18.32.0/23",
@@ -13,6 +16,6 @@
       "202.81.60.0/23",
       "202.81.62.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 45010,
-  "handle": "MEGATUUTTI",
-  "description": "S1 Networks Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45010,
+  "metadata" : {
+    "handle" : "MEGATUUTTI",
+    "description" : "S1 Networks Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.90.48.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

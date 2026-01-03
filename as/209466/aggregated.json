@@ -1,13 +1,17 @@
 {
-  "asn": 209466,
-  "handle": "DROVIACOMPUTACAO",
-  "description": "Drovia Computacao em Nuvem Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209466,
+  "metadata" : {
+    "handle" : "DROVIACOMPUTACAO",
+    "description" : "Drovia Computacao em Nuvem Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.20.196.0/24"
     ],
-    "ipv6": [
-      "2a0c:b641:a0::/44"
+    "ipv6" : [
+      "2a0c:b641:a0::/44",
+      "2a13:9500:119::/48"
     ]
   }
 }

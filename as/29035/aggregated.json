@@ -1,12 +1,15 @@
 {
-  "asn": 29035,
-  "handle": "DANET-AS",
-  "description": "DaNet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29035,
+  "metadata" : {
+    "handle" : "DANET-AS",
+    "description" : "DaNet Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.170.4.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:29c3::/32"
     ]
   }

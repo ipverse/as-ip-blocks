@@ -1,16 +1,19 @@
 {
-  "asn": 48324,
-  "handle": "DE-WEBGO",
-  "description": "webgo GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48324,
+  "metadata" : {
+    "handle" : "DE-WEBGO",
+    "description" : "webgo GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.17.224.0/21",
       "45.153.56.0/22",
       "89.44.8.0/24",
       "185.10.70.0/24",
       "185.30.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:5fc1::/32"
     ]
   }

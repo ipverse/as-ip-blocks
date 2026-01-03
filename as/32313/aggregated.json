@@ -1,13 +1,16 @@
 {
-  "asn": 32313,
-  "handle": "BIGNETWORK",
-  "description": "Big Network Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32313,
+  "metadata" : {
+    "handle" : "BIGNETWORK",
+    "description" : "Big Network Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.156.48.0/24",
       "134.195.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:bec0::/32"
     ]
   }

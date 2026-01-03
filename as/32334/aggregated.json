@@ -1,13 +1,16 @@
 {
-  "asn": 32334,
-  "handle": "CLOUDCALL-AS",
-  "description": "CloudCall Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32334,
+  "metadata" : {
+    "handle" : "CLOUDCALL-AS",
+    "description" : "CloudCall Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.150.128.0/24",
       "192.30.36.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:17:a000::/48"
     ]
   }

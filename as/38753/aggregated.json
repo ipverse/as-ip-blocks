@@ -1,15 +1,18 @@
 {
-  "asn": 38753,
-  "handle": "SOLUSINDO-AS-ID",
-  "description": "Solusindo Bintang Pratama PT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38753,
+  "metadata" : {
+    "handle" : "SOLUSINDO-AS-ID",
+    "description" : "Solusindo Bintang Pratama PT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.131.0.0/21",
       "45.115.64.0/22",
       "103.29.4.0/22",
       "119.110.80.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:ae00::/48",
       "2401:ae00:2::/48",
       "2401:ae00:8::/48",

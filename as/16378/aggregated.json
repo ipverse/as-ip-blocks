@@ -1,12 +1,15 @@
 {
-  "asn": 16378,
-  "handle": "OTTO-NET",
-  "description": "Otto GmbH \u0026 Co. KGaA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16378,
+  "metadata" : {
+    "handle" : "OTTO-NET",
+    "description" : "Otto GmbH & Co. KGaA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.85.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:d700::/32"
     ]
   }

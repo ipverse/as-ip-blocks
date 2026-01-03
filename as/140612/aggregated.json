@@ -1,14 +1,17 @@
 {
-  "asn": 140612,
-  "handle": "DESHCOMMUNICATIONS-AS-AP",
-  "description": "DESH COMMUNICATIONS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140612,
+  "metadata" : {
+    "handle" : "DESHCOMMUNICATIONS-AS-AP",
+    "description" : "DESH COMMUNICATIONS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.139.53.0/24",
       "103.151.0.0/23",
       "103.172.39.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8860::/32"
     ]
   }

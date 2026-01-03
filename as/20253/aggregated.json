@@ -1,9 +1,12 @@
 {
-  "asn": 20253,
-  "handle": "QWILTED-PROD-01",
-  "description": "Qwilt Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20253,
+  "metadata" : {
+    "handle" : "QWILTED-PROD-01",
+    "description" : "Qwilt Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.201.208.0/23",
       "84.201.210.0/24",
       "84.201.212.0/24",
@@ -12,7 +15,7 @@
       "217.20.54.0/24",
       "217.20.56.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:bc40:15::/48",
       "2606:bc40:19::/48",
       "2606:bc40:1a::/48",

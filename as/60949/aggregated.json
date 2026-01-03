@@ -1,9 +1,12 @@
 {
-  "asn": 60949,
-  "handle": "AS-4XSOLUTIONS",
-  "description": "4x Solutions UK LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60949,
+  "metadata" : {
+    "handle" : "AS-4XSOLUTIONS",
+    "description" : "4x Solutions UK LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.6.48.0/24",
       "45.144.215.0/24",
       "62.72.169.0/24",
@@ -26,6 +29,6 @@
       "163.5.197.0/24",
       "185.4.220.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

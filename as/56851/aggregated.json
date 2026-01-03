@@ -1,9 +1,12 @@
 {
-  "asn": 56851,
-  "handle": "VPS-UA-AS",
-  "description": "PE Skurykhin Mukola Volodumurovuch",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56851,
+  "metadata" : {
+    "handle" : "VPS-UA-AS",
+    "description" : "PE Skurykhin Mukola Volodumurovuch",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.131.16.0/20",
       "45.83.192.0/22",
       "45.94.156.0/22",
@@ -12,6 +15,6 @@
       "185.91.72.0/22",
       "193.111.60.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

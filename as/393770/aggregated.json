@@ -1,13 +1,16 @@
 {
-  "asn": 393770,
-  "handle": "BICOM-US",
-  "description": "Bicom Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393770,
+  "metadata" : {
+    "handle" : "BICOM-US",
+    "description" : "Bicom Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.129.56.0/22",
       "192.151.130.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:e4c0::/47"
     ]
   }

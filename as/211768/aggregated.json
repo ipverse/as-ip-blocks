@@ -1,9 +1,12 @@
 {
-  "asn": 211768,
-  "handle": "SCHWARZ-IT-LEGACY",
-  "description": "INTAC Services GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211768,
+  "metadata" : {
+    "handle" : "SCHWARZ-IT-LEGACY",
+    "description" : "INTAC Services GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.83.160.0/22",
       "185.86.188.0/23",
       "185.86.190.0/24",
@@ -12,7 +15,7 @@
       "193.148.188.0/24",
       "193.148.190.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:b500:2010::/44",
       "2a06:b500:204f::/48"
     ]

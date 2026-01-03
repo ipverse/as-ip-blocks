@@ -1,11 +1,14 @@
 {
-  "asn": 59478,
-  "handle": "IPSERVICE-AS",
-  "description": "LLC IP SERVICE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59478,
+  "metadata" : {
+    "handle" : "IPSERVICE-AS",
+    "description" : "LLC IP SERVICE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.241.192.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

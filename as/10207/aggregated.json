@@ -1,9 +1,12 @@
 {
-  "asn": 10207,
-  "handle": "INTERVOLVE-ADELAIDE-AS-AP",
-  "description": "Intervolve Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10207,
+  "metadata" : {
+    "handle" : "INTERVOLVE-ADELAIDE-AS-AP",
+    "description" : "Intervolve Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "101.234.128.0/22",
       "101.234.135.0/24",
       "101.234.138.0/23",
@@ -16,7 +19,7 @@
       "122.100.12.0/23",
       "223.25.224.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:5800:1000::/48",
       "2406:5800:ff00::/48"
     ]

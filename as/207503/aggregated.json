@@ -1,9 +1,12 @@
 {
-  "asn": 207503,
-  "handle": "NEU-MEDIANET",
-  "description": "neu-medianet GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207503,
+  "metadata" : {
+    "handle" : "NEU-MEDIANET",
+    "description" : "neu-medianet GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.193.248.0/24",
       "82.193.254.0/24",
       "85.199.112.0/22",
@@ -14,6 +17,6 @@
       "212.110.232.0/21",
       "212.110.240.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

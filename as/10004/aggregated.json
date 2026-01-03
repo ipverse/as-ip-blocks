@@ -1,9 +1,12 @@
 {
-  "asn": 10004,
-  "handle": "AS-PHOENIX-J",
-  "description": "Phoenix Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10004,
+  "metadata" : {
+    "handle" : "AS-PHOENIX-J",
+    "description" : "Phoenix Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "115.179.57.0/24",
       "115.179.200.0/24",
       "133.247.90.0/23",
@@ -15,7 +18,7 @@
       "210.185.128.0/19",
       "211.133.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:440::/32"
     ]
   }

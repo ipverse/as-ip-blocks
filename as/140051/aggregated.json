@@ -1,12 +1,15 @@
 {
-  "asn": 140051,
-  "handle": "GWPL-AS-AP",
-  "description": "Gippsland Wifi Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140051,
+  "metadata" : {
+    "handle" : "GWPL-AS-AP",
+    "description" : "Gippsland Wifi Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.199.82.0/23",
       "203.80.131.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

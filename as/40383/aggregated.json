@@ -1,13 +1,16 @@
 {
-  "asn": 40383,
-  "handle": "RCC-CCTL",
-  "description": "Rogers Communications Canada Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40383,
+  "metadata" : {
+    "handle" : "RCC-CCTL",
+    "description" : "Rogers Communications Canada Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.239.0.0/20",
       "208.74.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:4c00::/32"
     ]
   }

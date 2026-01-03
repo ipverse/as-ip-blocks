@@ -1,9 +1,12 @@
 {
-  "asn": 29286,
-  "handle": "SKYLOGIC-AS",
-  "description": "SKYLOGIC S.P.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29286,
+  "metadata" : {
+    "handle" : "SKYLOGIC-AS",
+    "description" : "SKYLOGIC S.P.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.61.192.0/21",
       "5.175.64.0/20",
       "37.72.192.0/19",
@@ -73,7 +76,7 @@
       "213.180.247.0/24",
       "213.209.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ca0::/32",
       "2a03:b7c0::/32"
     ]

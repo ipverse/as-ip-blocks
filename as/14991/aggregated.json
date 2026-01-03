@@ -1,9 +1,12 @@
 {
-  "asn": 14991,
-  "handle": "IL2K",
-  "description": "ElkhartNet Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14991,
+  "metadata" : {
+    "handle" : "IL2K",
+    "description" : "ElkhartNet Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.171.176.0/21",
       "207.32.224.0/21",
       "207.32.232.0/22",
@@ -12,6 +15,6 @@
       "207.32.240.0/22",
       "207.32.252.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

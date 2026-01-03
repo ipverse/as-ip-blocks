@@ -1,12 +1,15 @@
 {
-  "asn": 132228,
-  "handle": "VANGOV-AS-AP",
-  "description": "Vanuatu Government",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132228,
+  "metadata" : {
+    "handle" : "VANGOV-AS-AP",
+    "description" : "Vanuatu Government",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.7.197.0/24",
       "103.226.23.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

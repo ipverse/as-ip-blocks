@@ -1,9 +1,12 @@
 {
-  "asn": 263725,
-  "handle": "MULTICABLE-HONDURAS",
-  "description": "MULTICABLE DE HONDURAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263725,
+  "metadata" : {
+    "handle" : "MULTICABLE-HONDURAS",
+    "description" : "MULTICABLE DE HONDURAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.7.24.0/21",
       "38.188.184.0/21",
       "45.166.92.0/23",
@@ -14,7 +17,7 @@
       "177.10.184.0/23",
       "177.10.186.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:7780::/32"
     ]
   }

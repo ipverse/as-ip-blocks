@@ -1,9 +1,12 @@
 {
-  "asn": 27924,
-  "handle": "AMPLIA-COMMUNICATIONS",
-  "description": "AMPLIA COMMUNICATIONS LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27924,
+  "metadata" : {
+    "handle" : "AMPLIA-COMMUNICATIONS",
+    "description" : "AMPLIA COMMUNICATIONS LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.18.32.0/19",
       "38.190.137.0/24",
       "38.190.138.0/23",
@@ -14,7 +17,7 @@
       "200.125.160.0/21",
       "201.238.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:180::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 48407,
-  "handle": "TIGRISNET-IRAQ",
-  "description": "TigrisNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48407,
+  "metadata" : {
+    "handle" : "TIGRISNET-IRAQ",
+    "description" : "TigrisNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.90.16.0/24",
       "81.90.18.0/23",
       "81.90.20.0/22",
@@ -13,6 +16,6 @@
       "93.94.53.0/24",
       "93.94.54.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

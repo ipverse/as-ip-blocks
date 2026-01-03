@@ -1,12 +1,15 @@
 {
-  "asn": 63799,
-  "handle": "GHOST",
-  "description": "Ghost Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63799,
+  "metadata" : {
+    "handle" : "GHOST",
+    "description" : "Ghost Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.108.46.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:e860::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 199883,
-  "handle": "ARUBACLOUDLTD-ASN",
-  "description": "Aruba S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199883,
+  "metadata" : {
+    "handle" : "ARUBACLOUDLTD-ASN",
+    "description" : "Aruba S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.36.220.0/22",
       "89.38.144.0/22",
       "89.40.120.0/22",
@@ -13,7 +16,7 @@
       "217.61.16.0/21",
       "217.61.112.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6e60::/32"
     ]
   }

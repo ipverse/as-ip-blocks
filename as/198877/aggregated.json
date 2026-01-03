@@ -1,12 +1,15 @@
 {
-  "asn": 198877,
-  "handle": "UTAIR-AS",
-  "description": "UTair Aviation JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198877,
+  "metadata" : {
+    "handle" : "UTAIR-AS",
+    "description" : "UTair Aviation JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.240.25.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:19f4::/48"
     ]
   }

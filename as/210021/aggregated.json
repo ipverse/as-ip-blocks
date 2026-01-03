@@ -1,9 +1,12 @@
 {
-  "asn": 210021,
-  "handle": "DIL",
-  "description": "DIL Technology Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210021,
+  "metadata" : {
+    "handle" : "DIL",
+    "description" : "DIL Technology Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.14.229.0/24",
       "31.14.230.0/23",
       "86.105.144.0/23",
@@ -13,7 +16,7 @@
       "185.206.80.0/22",
       "185.206.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:27c0::/47",
       "2a05:27c0:2::/48",
       "2a05:27c0:4::/48"

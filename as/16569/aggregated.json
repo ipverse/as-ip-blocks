@@ -1,12 +1,15 @@
 {
-  "asn": 16569,
-  "handle": "DMZ",
-  "description": "City of Calgary",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16569,
+  "metadata" : {
+    "handle" : "DMZ",
+    "description" : "City of Calgary",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.41.148.0/24",
       "198.160.191.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 1790,
-  "handle": "COGENT-1790",
-  "description": "Cogent Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1790,
+  "metadata" : {
+    "handle" : "COGENT-1790",
+    "description" : "Cogent Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.160.84.0/24",
       "80.66.142.0/24",
       "198.176.213.0/24",
@@ -12,6 +15,6 @@
       "208.11.210.0/24",
       "208.27.234.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

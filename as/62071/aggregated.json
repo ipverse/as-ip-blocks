@@ -1,11 +1,14 @@
 {
-  "asn": 62071,
-  "handle": "DATAHOST-AS",
-  "description": "Datahost SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62071,
+  "metadata" : {
+    "handle" : "DATAHOST-AS",
+    "description" : "Datahost SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.212.8.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

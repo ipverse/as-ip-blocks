@@ -1,9 +1,12 @@
 {
-  "asn": 32440,
-  "handle": "LONI",
-  "description": "Louisiana Board of Regents/Louisiana Optical Network Initiative (LONI)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32440,
+  "metadata" : {
+    "handle" : "LONI",
+    "description" : "Louisiana Board of Regents/Louisiana Optical Network Initiative (LONI)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "76.165.0.0/16",
       "104.141.0.0/16",
       "198.51.92.0/24",
@@ -16,7 +19,7 @@
       "206.218.180.0/23",
       "208.100.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f390::/32"
     ]
   }

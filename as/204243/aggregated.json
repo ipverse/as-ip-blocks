@@ -1,12 +1,15 @@
 {
-  "asn": 204243,
-  "handle": "HFP-AS",
-  "description": "HFP Informationssysteme GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204243,
+  "metadata" : {
+    "handle" : "HFP-AS",
+    "description" : "HFP Informationssysteme GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.110.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:ab80::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 17320,
-  "handle": "CFCU",
-  "description": "Coastal Federal Credit Union",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17320,
+  "metadata" : {
+    "handle" : "CFCU",
+    "description" : "Coastal Federal Credit Union",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.195.222.0/24",
       "173.95.66.0/24",
       "192.206.183.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

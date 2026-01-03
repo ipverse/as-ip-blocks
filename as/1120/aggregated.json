@@ -1,13 +1,16 @@
 {
-  "asn": 1120,
-  "handle": "ACONET-SERVICES",
-  "description": "ACONET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1120,
+  "metadata" : {
+    "handle" : "ACONET-SERVICES",
+    "description" : "ACONET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.104.145.0/24",
       "193.171.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:628:453::/48",
       "2001:628:2000::/48"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 265133,
-  "handle": "RADIUS",
-  "description": ". Radius",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265133,
+  "metadata" : {
+    "handle" : "RADIUS",
+    "description" : ". Radius",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.208.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2b14::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 47849,
-  "handle": "NETCOMLAN-AS",
-  "description": "Global Communication Net Plc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47849,
+  "metadata" : {
+    "handle" : "NETCOMLAN-AS",
+    "description" : "Global Communication Net Plc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.222.162.0/24",
       "109.160.76.0/23",
       "185.165.223.0/24",
@@ -12,6 +15,6 @@
       "212.70.134.0/23",
       "212.70.138.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

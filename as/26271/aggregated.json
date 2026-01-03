@@ -1,9 +1,12 @@
 {
-  "asn": 26271,
-  "handle": "CMSINTERNET",
-  "description": "CMSInter.net LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26271,
+  "metadata" : {
+    "handle" : "CMSINTERNET",
+    "description" : "CMSInter.net LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.25.192.0/20",
       "107.161.128.0/20",
       "107.181.192.0/19",
@@ -12,7 +15,7 @@
       "162.250.24.0/21",
       "207.241.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:e400::/34",
       "2606:e400:8000::/36"
     ]

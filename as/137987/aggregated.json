@@ -1,12 +1,15 @@
 {
-  "asn": 137987,
-  "handle": "SK1-AS-AP",
-  "description": "SK Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137987,
+  "metadata" : {
+    "handle" : "SK1-AS-AP",
+    "description" : "SK Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.119.94.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:db40::/48"
     ]
   }

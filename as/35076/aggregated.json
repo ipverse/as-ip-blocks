@@ -1,12 +1,15 @@
 {
-  "asn": 35076,
-  "handle": "NAME-SERVICE-AS",
-  "description": "LLC Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35076,
+  "metadata" : {
+    "handle" : "NAME-SERVICE-AS",
+    "description" : "LLC Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.238.32.0/19",
       "185.139.118.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

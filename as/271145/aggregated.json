@@ -1,12 +1,15 @@
 {
-  "asn": 271145,
-  "handle": "PIAUI-LINK",
-  "description": "PIAUI LINK S/A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271145,
+  "metadata" : {
+    "handle" : "PIAUI-LINK",
+    "description" : "PIAUI LINK S/A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "201.71.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:76f4::/32"
     ]
   }

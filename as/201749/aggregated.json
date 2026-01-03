@@ -1,9 +1,12 @@
 {
-  "asn": 201749,
-  "handle": "IQ-SUPERCELL",
-  "description": "SUPER CELL NETWORK FOR INTERNET SERVICES LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201749,
+  "metadata" : {
+    "handle" : "IQ-SUPERCELL",
+    "description" : "SUPER CELL NETWORK FOR INTERNET SERVICES LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.175.159.0/24",
       "37.205.112.0/21",
       "45.139.105.0/24",
@@ -24,7 +27,7 @@
       "195.85.223.0/24",
       "195.85.226.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:a540::/31"
     ]
   }

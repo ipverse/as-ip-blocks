@@ -1,15 +1,18 @@
 {
-  "asn": 24233,
-  "handle": "SUPERLOOP-AS-AP",
-  "description": "SUPERLOOP (AUSTRALIA) PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24233,
+  "metadata" : {
+    "handle" : "SUPERLOOP-AS-AP",
+    "description" : "SUPERLOOP (AUSTRALIA) PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.255.42.0/24",
       "125.253.59.0/24",
       "203.132.76.0/22",
       "203.132.80.0/21",
       "203.212.16.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,10 +1,13 @@
 {
-  "asn": 24239,
-  "handle": "TWD2-NET-AS-AP",
-  "description": "TWD2 Education and Research Network",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 24239,
+  "metadata" : {
+    "handle" : "TWD2-NET-AS-AP",
+    "description" : "TWD2 Education and Research Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0c:b641:571::/48",
       "2a0e:aa06:490::/44"
     ]

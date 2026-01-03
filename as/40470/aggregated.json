@@ -1,14 +1,17 @@
 {
-  "asn": 40470,
-  "handle": "PROTECTED-CA",
-  "description": "Protected.CA Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40470,
+  "metadata" : {
+    "handle" : "PROTECTED-CA",
+    "description" : "Protected.CA Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.102.69.0/24",
       "205.173.252.0/22",
       "205.233.33.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:4480:1::/48",
       "2607:4480:2::/47"
     ]

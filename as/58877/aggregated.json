@@ -1,12 +1,15 @@
 {
-  "asn": 58877,
-  "handle": "CSUNIC1-AS-AP",
-  "description": "Charles Sturt University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58877,
+  "metadata" : {
+    "handle" : "CSUNIC1-AS-AP",
+    "description" : "Charles Sturt University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.166.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:2d00::/32"
     ]
   }

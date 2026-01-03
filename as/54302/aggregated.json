@@ -1,9 +1,12 @@
 {
-  "asn": 54302,
-  "handle": "UNA-IP-ASN-01",
-  "description": "University of North Alabama",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54302,
+  "metadata" : {
+    "handle" : "UNA-IP-ASN-01",
+    "description" : "University of North Alabama",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.34.56.0/22",
       "136.242.80.0/23",
       "199.88.20.0/24",
@@ -11,6 +14,6 @@
       "204.29.104.0/24",
       "216.109.53.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

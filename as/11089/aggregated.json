@@ -1,11 +1,14 @@
 {
-  "asn": 11089,
-  "handle": "ERGON-NETWORK",
-  "description": "ERGON",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11089,
+  "metadata" : {
+    "handle" : "ERGON-NETWORK",
+    "description" : "ERGON",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.75.140.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

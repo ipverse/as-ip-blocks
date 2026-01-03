@@ -1,12 +1,15 @@
 {
-  "asn": 23774,
-  "handle": "A-DNS-JP",
-  "description": "Japan Registry Service Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23774,
+  "metadata" : {
+    "handle" : "A-DNS-JP",
+    "description" : "Japan Registry Service Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.119.1.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:dc4::/32"
     ]
   }

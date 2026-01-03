@@ -1,9 +1,12 @@
 {
-  "asn": 34456,
-  "handle": "RIALCOM-AS",
-  "description": "Rial Com JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34456,
+  "metadata" : {
+    "handle" : "RIALCOM-AS",
+    "description" : "Rial Com JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.1.0.0/18",
       "46.249.0.0/20",
       "62.176.0.0/19",
@@ -17,6 +20,6 @@
       "185.72.188.0/22",
       "213.159.216.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

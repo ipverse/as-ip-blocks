@@ -1,9 +1,12 @@
 {
-  "asn": 24012,
-  "handle": "RAPL-AS-AP",
-  "description": "Refinitiv Australia PTY Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24012,
+  "metadata" : {
+    "handle" : "RAPL-AS-AP",
+    "description" : "Refinitiv Australia PTY Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.40.87.0/24",
       "146.242.24.0/24",
       "146.242.36.0/24",
@@ -22,6 +25,6 @@
       "192.165.214.0/23",
       "199.249.40.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

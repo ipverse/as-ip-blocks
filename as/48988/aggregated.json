@@ -1,9 +1,12 @@
 {
-  "asn": 48988,
-  "handle": "KZ-MSS",
-  "description": "Modern Server Solutions LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48988,
+  "metadata" : {
+    "handle" : "KZ-MSS",
+    "description" : "Modern Server Solutions LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.253.228.0/23",
       "88.218.68.0/22",
       "108.174.78.0/24",
@@ -11,7 +14,7 @@
       "213.148.0.0/20",
       "213.148.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:8280::/32"
     ]
   }

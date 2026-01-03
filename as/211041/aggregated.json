@@ -1,14 +1,17 @@
 {
-  "asn": 211041,
-  "handle": "SWOOTH-AS",
-  "description": "Connectra B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211041,
+  "metadata" : {
+    "handle" : "SWOOTH-AS",
+    "description" : "Connectra B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.166.229.0/24",
       "185.172.167.0/24",
       "188.64.138.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:fb0::/48",
       "2a0e:fd45:2ba0::/44"
     ]

@@ -1,13 +1,16 @@
 {
-  "asn": 213152,
-  "handle": "NBU",
-  "description": "Narodni bezpecnostni urad Czech Republic",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213152,
+  "metadata" : {
+    "handle" : "NBU",
+    "description" : "Narodni bezpecnostni urad Czech Republic",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.37.226.0/23",
       "193.37.230.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:b480::/29"
     ]
   }

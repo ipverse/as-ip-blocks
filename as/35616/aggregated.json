@@ -1,12 +1,15 @@
 {
-  "asn": 35616,
-  "handle": "PERCHEY",
-  "description": "Association Gitoyen",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35616,
+  "metadata" : {
+    "handle" : "PERCHEY",
+    "description" : "Association Gitoyen",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.23.29.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:9ac1::/32"
     ]
   }

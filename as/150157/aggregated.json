@@ -1,11 +1,14 @@
 {
-  "asn": 150157,
-  "handle": "CARTRACK-AS-AP",
-  "description": "Cartrack",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150157,
+  "metadata" : {
+    "handle" : "CARTRACK-AS-AP",
+    "description" : "Cartrack",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.15.227.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

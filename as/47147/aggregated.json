@@ -1,14 +1,17 @@
 {
-  "asn": 47147,
-  "handle": "AS-ANX",
-  "description": "Anexia Cloud Solutions GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47147,
+  "metadata" : {
+    "handle" : "AS-ANX",
+    "description" : "Anexia Cloud Solutions GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.16.25.0/24",
       "144.208.208.0/22",
       "213.227.190.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:11c0:47::/48",
       "2a00:11c0:48::/48"
     ]

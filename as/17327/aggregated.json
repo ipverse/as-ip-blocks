@@ -1,13 +1,16 @@
 {
-  "asn": 17327,
-  "handle": "TSTC-AS",
-  "description": "Texas State Technical College at Waco",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17327,
+  "metadata" : {
+    "handle" : "TSTC-AS",
+    "description" : "Texas State Technical College at Waco",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.109.0.0/16",
       "192.133.126.0/24",
       "207.54.192.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

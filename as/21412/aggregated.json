@@ -1,9 +1,12 @@
 {
-  "asn": 21412,
-  "handle": "CGATES-AS",
-  "description": "UAB Cgates",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21412,
+  "metadata" : {
+    "handle" : "CGATES-AS",
+    "description" : "UAB Cgates",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.20.0.0/16",
       "37.157.144.0/21",
       "46.251.32.0/19",
@@ -23,7 +26,7 @@
       "212.117.0.0/19",
       "217.17.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:7600::/32",
       "2a01:a1c0::/32",
       "2a04:ce00::/29",

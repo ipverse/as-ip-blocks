@@ -1,14 +1,17 @@
 {
-  "asn": 149946,
-  "handle": "IDNIC-MPI-AS-ID",
-  "description": "PT Multinet Perkasa Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149946,
+  "metadata" : {
+    "handle" : "IDNIC-MPI-AS-ID",
+    "description" : "PT Multinet Perkasa Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.57.8.0/24",
       "103.57.10.0/23",
       "117.102.160.0/23",
       "175.184.248.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

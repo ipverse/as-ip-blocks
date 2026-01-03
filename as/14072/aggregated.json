@@ -1,9 +1,12 @@
 {
-  "asn": 14072,
-  "handle": "WASH-DC-CITY-GOVT",
-  "description": "Government of the District of Columbia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14072,
+  "metadata" : {
+    "handle" : "WASH-DC-CITY-GOVT",
+    "description" : "Government of the District of Columbia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.82.32.0/23",
       "164.82.36.0/22",
       "164.82.40.0/22",
@@ -15,6 +18,6 @@
       "164.82.148.0/22",
       "166.91.253.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

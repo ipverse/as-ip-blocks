@@ -1,9 +1,12 @@
 {
-  "asn": 200553,
-  "handle": "INTERFIBRA",
-  "description": "Interfibra S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200553,
+  "metadata" : {
+    "handle" : "INTERFIBRA",
+    "description" : "Interfibra S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.198.141.0/24",
       "91.198.147.0/24",
       "91.198.158.0/24",
@@ -11,7 +14,7 @@
       "185.100.32.0/22",
       "185.202.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:3680::/29",
       "2a0a:d640::/29"
     ]

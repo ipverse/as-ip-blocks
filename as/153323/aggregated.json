@@ -1,13 +1,16 @@
 {
-  "asn": 153323,
-  "handle": "POWER-AS-AP",
-  "description": "Power Bridge ICT Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153323,
+  "metadata" : {
+    "handle" : "POWER-AS-AP",
+    "description" : "Power Bridge ICT Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.110.53.0/24",
       "103.110.54.0/24",
       "160.187.20.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

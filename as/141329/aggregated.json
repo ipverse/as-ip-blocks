@@ -1,9 +1,12 @@
 {
-  "asn": 141329,
-  "handle": "UDUPI-AS-IN",
-  "description": "Udupi Fastnet Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141329,
+  "metadata" : {
+    "handle" : "UDUPI-AS-IN",
+    "description" : "Udupi Fastnet Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.224.125.0/24",
       "103.48.144.0/24",
       "103.50.20.0/23",
@@ -19,7 +22,7 @@
       "103.210.0.0/23",
       "103.217.80.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:8140::/48",
       "2407:c040::/47",
       "2407:c040:2::/48",

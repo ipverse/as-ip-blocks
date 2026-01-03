@@ -1,9 +1,12 @@
 {
-  "asn": 6082,
-  "handle": "IPIFONY-AS",
-  "description": "IPiFony Systems Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6082,
+  "metadata" : {
+    "handle" : "IPIFONY-AS",
+    "description" : "IPiFony Systems Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.182.128.0/22",
       "66.182.149.0/24",
       "66.182.156.0/22",
@@ -11,7 +14,7 @@
       "66.182.172.0/22",
       "199.71.210.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:121:a000::/44"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 38471,
-  "handle": "BCNET-AS-AP",
-  "description": "BC Net Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38471,
+  "metadata" : {
+    "handle" : "BCNET-AS-AP",
+    "description" : "BC Net Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "123.136.73.0/24",
       "123.136.74.0/24",
       "123.136.76.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

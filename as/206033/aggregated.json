@@ -1,13 +1,16 @@
 {
-  "asn": 206033,
-  "handle": "REPOXLABS",
-  "description": "Repox Labs Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206033,
+  "metadata" : {
+    "handle" : "REPOXLABS",
+    "description" : "Repox Labs Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.38.38.0/23",
       "103.49.130.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:29c0:2f::/48",
       "2a11:29c0:3a::/48",
       "2a13:9500:6b::/48"

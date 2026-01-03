@@ -1,9 +1,12 @@
 {
-  "asn": 57529,
-  "handle": "GTNT-AS",
-  "description": "ZAO GTNT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57529,
+  "metadata" : {
+    "handle" : "GTNT-AS",
+    "description" : "ZAO GTNT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.131.160.0/23",
       "45.132.36.0/23",
       "193.232.60.0/22",
@@ -14,6 +17,6 @@
       "212.192.88.0/21",
       "213.109.100.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

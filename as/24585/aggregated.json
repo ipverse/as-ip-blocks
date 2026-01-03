@@ -1,12 +1,15 @@
 {
-  "asn": 24585,
-  "handle": "CH-SWISSLIFE",
-  "description": "Swiss Life AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24585,
+  "metadata" : {
+    "handle" : "CH-SWISSLIFE",
+    "description" : "Swiss Life AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.255.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:d000::/29"
     ]
   }

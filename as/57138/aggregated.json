@@ -1,12 +1,15 @@
 {
-  "asn": 57138,
-  "handle": "DOH-MULLVAD",
-  "description": "LOCIX LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57138,
+  "metadata" : {
+    "handle" : "DOH-MULLVAD",
+    "description" : "LOCIX LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.242.2.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:e340::/32"
     ]
   }

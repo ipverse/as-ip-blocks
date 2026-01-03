@@ -1,9 +1,12 @@
 {
-  "asn": 64096,
-  "handle": "BIH-GLOBAL",
-  "description": "INTERNET HARBOR INTERNATIONAL CO. LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64096,
+  "metadata" : {
+    "handle" : "BIH-GLOBAL",
+    "description" : "INTERNET HARBOR INTERNATIONAL CO. LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.228.180.0/22",
       "103.47.200.0/22",
       "103.103.176.0/22",
@@ -14,7 +17,7 @@
       "202.27.96.0/24",
       "202.50.76.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:ff80::/32",
       "2a0d:9fc0::/31"
     ]

@@ -1,16 +1,19 @@
 {
-  "asn": 33941,
-  "handle": "GCONNECT",
-  "description": "GConnect Technology Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33941,
+  "metadata" : {
+    "handle" : "GCONNECT",
+    "description" : "GConnect Technology Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.136.120.0/21",
       "84.21.128.0/19",
       "195.82.96.0/24",
       "195.82.107.0/24",
       "212.85.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:570::/32"
     ]
   }

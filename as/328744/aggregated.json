@@ -1,12 +1,15 @@
 {
-  "asn": 328744,
-  "handle": "PLATINUM-BROADBAND-AS",
-  "description": "Platinum Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328744,
+  "metadata" : {
+    "handle" : "PLATINUM-BROADBAND-AS",
+    "description" : "Platinum Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.221.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:e9e8::/32"
     ]
   }

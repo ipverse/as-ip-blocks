@@ -1,12 +1,15 @@
 {
-  "asn": 12409,
-  "handle": "HRNET",
-  "description": "TRUSTTEAM SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12409,
+  "metadata" : {
+    "handle" : "HRNET",
+    "description" : "TRUSTTEAM SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.94.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:fc80::/32"
     ]
   }

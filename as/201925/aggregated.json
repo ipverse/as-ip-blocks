@@ -1,16 +1,19 @@
 {
-  "asn": 201925,
-  "handle": "EPIX-EPINET",
-  "description": "Stowarzyszenie e-Poludnie",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201925,
+  "metadata" : {
+    "handle" : "EPIX-EPINET",
+    "description" : "Stowarzyszenie e-Poludnie",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.207.104.0/24",
       "185.165.151.0/24",
       "194.126.165.0/24",
       "194.126.166.0/23",
       "217.117.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:f783:2::/48"
     ]
   }

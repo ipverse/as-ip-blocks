@@ -1,9 +1,12 @@
 {
-  "asn": 29988,
-  "handle": "RCC-RDC-AS",
-  "description": "Rogers Communications Canada Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29988,
+  "metadata" : {
+    "handle" : "RCC-RDC-AS",
+    "description" : "Rogers Communications Canada Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.26.128.0/22",
       "64.26.135.0/24",
       "64.26.136.0/22",
@@ -122,6 +125,6 @@
       "216.254.209.0/24",
       "216.254.223.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

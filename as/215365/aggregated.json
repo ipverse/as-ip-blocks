@@ -1,14 +1,17 @@
 {
-  "asn": 215365,
-  "handle": "THREATOFF",
-  "description": "Tom Gewiese",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215365,
+  "metadata" : {
+    "handle" : "THREATOFF",
+    "description" : "Tom Gewiese",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.83.142.0/23",
       "77.90.15.0/24",
       "77.90.60.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:1283:9000::/38",
       "2a14:7c0:1000::/38"
     ]

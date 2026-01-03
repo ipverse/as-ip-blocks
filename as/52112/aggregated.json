@@ -1,12 +1,15 @@
 {
-  "asn": 52112,
-  "handle": "GENTLENT-AS",
-  "description": "Gentlent GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52112,
+  "metadata" : {
+    "handle" : "GENTLENT-AS",
+    "description" : "Gentlent GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.207.13.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:2500::/48",
       "2a13:9640::/44",
       "2a13:9641::/48"

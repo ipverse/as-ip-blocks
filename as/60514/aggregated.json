@@ -1,12 +1,15 @@
 {
-  "asn": 60514,
-  "handle": "NGN",
-  "description": "NextGenNetwork SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60514,
+  "metadata" : {
+    "handle" : "NGN",
+    "description" : "NextGenNetwork SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.57.47.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:df4::/48"
     ]
   }

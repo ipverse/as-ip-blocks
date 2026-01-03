@@ -1,9 +1,12 @@
 {
-  "asn": 398194,
-  "handle": "UPRISE",
-  "description": "Uprise LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398194,
+  "metadata" : {
+    "handle" : "UPRISE",
+    "description" : "Uprise LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.72.240.0/22",
       "156.146.16.0/21",
       "156.146.24.0/22",
@@ -11,6 +14,6 @@
       "170.203.224.0/20",
       "198.135.164.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 132298,
-  "handle": "ADCL-AS-AP",
-  "description": "Antaranga Dot Com Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132298,
+  "metadata" : {
+    "handle" : "ADCL-AS-AP",
+    "description" : "Antaranga Dot Com Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.73.104.0/22",
       "103.133.200.0/22",
       "103.135.252.0/22",
@@ -11,7 +14,7 @@
       "160.202.144.0/24",
       "160.202.146.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:f680:1::/48",
       "2406:f680:7000::/47"
     ]

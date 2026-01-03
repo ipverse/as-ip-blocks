@@ -1,9 +1,12 @@
 {
-  "asn": 41745,
-  "handle": "FORTIS-AS",
-  "description": "Baykov Ilya Sergeevich",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41745,
+  "metadata" : {
+    "handle" : "FORTIS-AS",
+    "description" : "Baykov Ilya Sergeevich",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.39.249.0/24",
       "5.39.250.0/24",
       "5.144.176.0/24",
@@ -108,7 +111,7 @@
       "212.192.9.0/24",
       "213.21.240.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:afc0:9::/48"
     ]
   }

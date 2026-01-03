@@ -1,9 +1,12 @@
 {
-  "asn": 216129,
-  "handle": "GUARDNETWORK-AS",
-  "description": "SEBEK sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216129,
+  "metadata" : {
+    "handle" : "GUARDNETWORK-AS",
+    "description" : "SEBEK sp. z o.o",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.58.85.0/24",
       "107.161.154.0/24",
       "143.20.155.0/24",
@@ -12,7 +15,7 @@
       "199.83.103.0/24",
       "202.181.188.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:d200::/32",
       "2a13:d201::/46"
     ]

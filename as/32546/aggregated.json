@@ -1,14 +1,17 @@
 {
-  "asn": 32546,
-  "handle": "SMARSH",
-  "description": "Smarsh Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32546,
+  "metadata" : {
+    "handle" : "SMARSH",
+    "description" : "Smarsh Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.47.168.0/24",
       "199.47.170.0/24",
       "199.59.52.0/23",
       "199.59.54.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

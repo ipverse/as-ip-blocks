@@ -1,12 +1,15 @@
 {
-  "asn": 25451,
-  "handle": "RUNTT",
-  "description": "RU LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25451,
+  "metadata" : {
+    "handle" : "RUNTT",
+    "description" : "RU LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.105.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4600::/32"
     ]
   }

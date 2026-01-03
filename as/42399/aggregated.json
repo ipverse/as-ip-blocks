@@ -1,11 +1,14 @@
 {
-  "asn": 42399,
-  "handle": "HCRU-AS",
-  "description": "JSC RU-CENTER",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42399,
+  "metadata" : {
+    "handle" : "HCRU-AS",
+    "description" : "JSC RU-CENTER",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.189.112.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

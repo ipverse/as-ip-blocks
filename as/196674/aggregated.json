@@ -1,15 +1,18 @@
 {
-  "asn": 196674,
-  "handle": "SPEEDFLOW-AS",
-  "description": "Speedflow Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 196674,
+  "metadata" : {
+    "handle" : "SPEEDFLOW-AS",
+    "description" : "Speedflow Communications Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.248.214.0/24",
       "193.104.107.0/24",
       "194.28.164.0/23",
       "194.28.167.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2270::/48"
     ]
   }

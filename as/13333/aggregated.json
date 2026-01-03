@@ -1,9 +1,12 @@
 {
-  "asn": 13333,
-  "handle": "CCI-PA-AS-1",
-  "description": "Fidium",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13333,
+  "metadata" : {
+    "handle" : "CCI-PA-AS-1",
+    "description" : "Fidium",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.37.48.0/20",
       "66.212.128.0/19",
       "67.20.224.0/19",
@@ -22,7 +25,7 @@
       "209.105.166.0/23",
       "209.195.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:b380::/32"
     ]
   }

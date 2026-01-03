@@ -1,12 +1,15 @@
 {
-  "asn": 269180,
-  "handle": "VIPNET-CONEXAO",
-  "description": "VIPNET Conexão",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269180,
+  "metadata" : {
+    "handle" : "VIPNET-CONEXAO",
+    "description" : "VIPNET Conexão",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.181.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:609c::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 21040,
-  "handle": "DATAPARK",
-  "description": "Datapark AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21040,
+  "metadata" : {
+    "handle" : "DATAPARK",
+    "description" : "Datapark AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.203.248.0/21",
       "84.20.56.0/21",
       "109.94.162.0/24",
@@ -14,7 +17,7 @@
       "185.178.120.0/22",
       "213.196.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:24e8::/29",
       "2a11:2780::/29"
     ]

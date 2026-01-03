@@ -1,9 +1,12 @@
 {
-  "asn": 198225,
-  "handle": "MDDSL-AS",
-  "description": "MDDSL - Mitteldeutsche Gesellschaft fuer Kommunikation mbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198225,
+  "metadata" : {
+    "handle" : "MDDSL-AS",
+    "description" : "MDDSL - Mitteldeutsche Gesellschaft fuer Kommunikation mbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.31.172.0/22",
       "85.208.128.0/22",
       "164.40.192.0/20",
@@ -11,7 +14,7 @@
       "185.148.184.0/22",
       "185.215.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:32a0::/32"
     ]
   }

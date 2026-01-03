@@ -1,12 +1,15 @@
 {
-  "asn": 202719,
-  "handle": "PRANET",
-  "description": "Pranet s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202719,
+  "metadata" : {
+    "handle" : "PRANET",
+    "description" : "Pranet s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.156.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:61a0::/32"
     ]
   }

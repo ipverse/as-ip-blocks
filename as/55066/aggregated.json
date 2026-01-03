@@ -1,9 +1,12 @@
 {
-  "asn": 55066,
-  "handle": "ESTRUXTURE-BC-B",
-  "description": "eStruxture Data Centers Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55066,
+  "metadata" : {
+    "handle" : "ESTRUXTURE-BC-B",
+    "description" : "eStruxture Data Centers Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.76.248.0/23",
       "38.87.86.0/24",
       "38.96.152.0/24",
@@ -15,7 +18,7 @@
       "208.82.120.0/24",
       "208.82.122.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:9000:d::/48"
     ]
   }

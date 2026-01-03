@@ -1,9 +1,12 @@
 {
-  "asn": 29357,
-  "handle": "WATANIYATELECOM-AS",
-  "description": "NATIONAL MOBILE TELECOMMUNICATIONS COMPANY K.S.C.P",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29357,
+  "metadata" : {
+    "handle" : "WATANIYATELECOM-AS",
+    "description" : "NATIONAL MOBILE TELECOMMUNICATIONS COMPANY K.S.C.P.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.89.0.0/16",
       "178.53.0.0/23",
       "178.53.32.0/21",
@@ -30,7 +33,7 @@
       "188.71.192.0/18",
       "217.69.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1850::/31"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 42774,
-  "handle": "BB-AS",
-  "description": "Blue Bridge MSP UAB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42774,
+  "metadata" : {
+    "handle" : "BB-AS",
+    "description" : "Blue Bridge MSP UAB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.255.208.0/21",
       "185.141.160.0/22",
       "194.110.220.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 210217,
-  "handle": "VAPS-AS",
-  "description": "VAPS GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210217,
+  "metadata" : {
+    "handle" : "VAPS-AS",
+    "description" : "VAPS GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.71.34.0/24",
       "195.216.144.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

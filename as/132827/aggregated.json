@@ -1,9 +1,12 @@
 {
-  "asn": 132827,
-  "handle": "GATEWAY-AS-AP",
-  "description": "GATEWAY INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132827,
+  "metadata" : {
+    "handle" : "GATEWAY-AS-AP",
+    "description" : "GATEWAY INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.123.208.0/22",
       "43.229.240.0/22",
       "43.231.223.0/24",
@@ -42,6 +45,6 @@
       "216.179.204.0/23",
       "216.179.224.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

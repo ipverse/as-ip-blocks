@@ -1,9 +1,12 @@
 {
-  "asn": 398019,
-  "handle": "DYNU",
-  "description": "Dynu Systems Incorporated",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398019,
+  "metadata" : {
+    "handle" : "DYNU",
+    "description" : "Dynu Systems Incorporated",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.51.56.0/22",
       "140.235.16.0/22",
       "142.202.188.0/22",
@@ -11,7 +14,7 @@
       "172.81.60.0/22",
       "207.174.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff23::/48",
       "2602:ff23:50::/48"
     ]

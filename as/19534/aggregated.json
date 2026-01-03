@@ -1,11 +1,14 @@
 {
-  "asn": 19534,
-  "handle": "LCTC-AS1",
-  "description": "Lee County Tax Collector",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19534,
+  "metadata" : {
+    "handle" : "LCTC-AS1",
+    "description" : "Lee County Tax Collector",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.197.25.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

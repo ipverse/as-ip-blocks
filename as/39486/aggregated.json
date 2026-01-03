@@ -1,9 +1,12 @@
 {
-  "asn": 39486,
-  "handle": "HOSTROYALE",
-  "description": "HostRoyale Technologies Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39486,
+  "metadata" : {
+    "handle" : "HOSTROYALE",
+    "description" : "HostRoyale Technologies Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.225.191.0/24",
       "43.228.237.0/24",
       "45.134.79.0/24",
@@ -19,6 +22,6 @@
       "194.104.104.0/22",
       "194.116.248.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

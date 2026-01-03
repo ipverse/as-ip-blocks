@@ -1,12 +1,15 @@
 {
-  "asn": 60654,
-  "handle": "METD-AS",
-  "description": "Metdesk Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60654,
+  "metadata" : {
+    "handle" : "METD-AS",
+    "description" : "Metdesk Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.42.253.0/24",
       "195.5.189.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

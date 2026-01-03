@@ -1,9 +1,12 @@
 {
-  "asn": 10013,
-  "handle": "FBDC",
-  "description": "FreeBit Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10013,
+  "metadata" : {
+    "handle" : "FBDC",
+    "description" : "FreeBit Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.128.64.0/18",
       "27.54.124.0/22",
       "27.120.64.0/18",
@@ -310,7 +313,7 @@
       "220.215.96.0/19",
       "221.121.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:2e8::/32",
       "2001:3e0::/32"
     ]

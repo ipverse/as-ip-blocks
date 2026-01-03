@@ -1,13 +1,16 @@
 {
-  "asn": 262343,
-  "handle": "NET-AKI-INTERNET",
-  "description": "Net Aki Internet Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262343,
+  "metadata" : {
+    "handle" : "NET-AKI-INTERNET",
+    "description" : "Net Aki Internet Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.255.124.0/22",
       "177.126.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:80c::/32"
     ]
   }

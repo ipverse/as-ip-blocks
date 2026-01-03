@@ -1,13 +1,16 @@
 {
-  "asn": 401048,
-  "handle": "SUPREME-SERVERS",
-  "description": "Supreme Servers",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401048,
+  "metadata" : {
+    "handle" : "SUPREME-SERVERS",
+    "description" : "Supreme Servers",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.95.243.0/24",
       "162.252.170.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:fe80:20::/44"
     ]
   }

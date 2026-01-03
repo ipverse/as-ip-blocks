@@ -1,9 +1,12 @@
 {
-  "asn": 14010,
-  "handle": "JACKHENRY",
-  "description": "Jack Henry \u0026 Associates Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14010,
+  "metadata" : {
+    "handle" : "JACKHENRY",
+    "description" : "Jack Henry & Associates Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.110.238.0/24",
       "52.128.75.0/24",
       "52.128.79.0/24",
@@ -35,6 +38,6 @@
       "216.116.90.0/23",
       "216.116.95.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

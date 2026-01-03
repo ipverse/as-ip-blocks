@@ -1,9 +1,12 @@
 {
-  "asn": 14249,
-  "handle": "INTERNET-ENGINE",
-  "description": "Internet Engine S.A. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14249,
+  "metadata" : {
+    "handle" : "INTERNET-ENGINE",
+    "description" : "Internet Engine S.A. de C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.4.48.0/24",
       "200.38.33.0/24",
       "200.38.35.0/24",
@@ -18,6 +21,6 @@
       "200.38.60.0/23",
       "200.38.62.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

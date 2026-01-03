@@ -1,9 +1,12 @@
 {
-  "asn": 20650,
-  "handle": "IPNEXIA-AS",
-  "description": "IP NEXIA N.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20650,
+  "metadata" : {
+    "handle" : "IPNEXIA-AS",
+    "description" : "IP NEXIA N.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.72.232.0/24",
       "77.72.234.0/24",
       "77.72.236.0/23",
@@ -13,6 +16,6 @@
       "217.145.44.0/23",
       "217.145.46.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

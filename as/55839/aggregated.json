@@ -1,9 +1,12 @@
 {
-  "asn": 55839,
-  "handle": "MICROSENSE-AS-AP",
-  "description": "Microsense Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55839,
+  "metadata" : {
+    "handle" : "MICROSENSE-AS-AP",
+    "description" : "Microsense Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.245.136.0/22",
       "103.184.22.0/23",
       "103.234.156.0/22",
@@ -14,6 +17,6 @@
       "150.107.192.0/22",
       "163.47.208.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

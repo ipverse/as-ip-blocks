@@ -1,12 +1,15 @@
 {
-  "asn": 24280,
-  "handle": "HIS-TKIDC",
-  "description": "Hitachi Systems Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24280,
+  "metadata" : {
+    "handle" : "HIS-TKIDC",
+    "description" : "Hitachi Systems Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.48.202.0/23",
       "202.48.204.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

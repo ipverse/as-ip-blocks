@@ -1,9 +1,12 @@
 {
-  "asn": 215728,
-  "handle": "CLOUDWEBMANAGE",
-  "description": "Kamatera Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215728,
+  "metadata" : {
+    "handle" : "CLOUDWEBMANAGE",
+    "description" : "Kamatera Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.26.37.0/24",
       "23.26.131.0/24",
       "23.27.4.0/23",
@@ -31,6 +34,6 @@
       "198.20.132.0/24",
       "205.186.67.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

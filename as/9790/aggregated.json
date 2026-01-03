@@ -1,9 +1,12 @@
 {
-  "asn": 9790,
-  "handle": "TWO-DEGREES-AS-AP",
-  "description": "Two Degrees Mobile Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9790,
+  "metadata" : {
+    "handle" : "TWO-DEGREES-AS-AP",
+    "description" : "Two Degrees Mobile Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "60.234.0.0/16",
       "101.98.0.0/16",
       "101.100.128.0/19",
@@ -52,7 +55,7 @@
       "219.88.240.0/20",
       "223.165.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:4800::/32",
       "2402:6000::/32",
       "2402:8200::/32",

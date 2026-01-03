@@ -1,16 +1,19 @@
 {
-  "asn": 34907,
-  "handle": "IP-SERVICES-AS",
-  "description": "IP SERVICES Sp. zo.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34907,
+  "metadata" : {
+    "handle" : "IP-SERVICES-AS",
+    "description" : "IP SERVICES Sp. zo.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.78.118.0/24",
       "185.62.1.0/24",
       "193.3.162.0/24",
       "194.31.232.0/24",
       "195.245.200.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:178c::/48",
       "2a04:4f80::/29",
       "2a06:5cc0::/29",

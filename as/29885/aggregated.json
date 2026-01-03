@@ -1,12 +1,15 @@
 {
-  "asn": 29885,
-  "handle": "UCHHS-AS",
-  "description": "Univeristy of Chicago Hospitals \u0026 Health System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29885,
+  "metadata" : {
+    "handle" : "UCHHS-AS",
+    "description" : "Univeristy of Chicago Hospitals & Health System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.107.48.0/24",
       "165.68.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

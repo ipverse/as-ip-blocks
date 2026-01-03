@@ -1,9 +1,12 @@
 {
-  "asn": 34920,
-  "handle": "SIMPLY-ROMFORD",
-  "description": "Team Blue Carrier Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34920,
+  "metadata" : {
+    "handle" : "SIMPLY-ROMFORD",
+    "description" : "Team Blue Carrier Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.172.240.0/20",
       "37.220.96.0/21",
       "46.231.112.0/21",
@@ -18,7 +21,7 @@
       "185.77.80.0/22",
       "185.77.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7b8::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 34327,
-  "handle": "E-PUBLISH",
-  "description": "JSC E-Publish",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34327,
+  "metadata" : {
+    "handle" : "E-PUBLISH",
+    "description" : "JSC E-Publish",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.193.68.0/23",
       "176.119.218.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 151338,
-  "handle": "POLONETWORK-AS-AP",
-  "description": "POLONETWORK LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151338,
+  "metadata" : {
+    "handle" : "POLONETWORK-AS-AP",
+    "description" : "POLONETWORK LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.142.200.0/24",
       "23.145.24.0/24",
       "38.150.0.0/24",
@@ -15,7 +18,7 @@
       "154.40.63.0/24",
       "208.75.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:70e0:bab::/48",
       "2400:70e0:baf::/48",
       "2400:70e0:b000::/48",

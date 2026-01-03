@@ -1,9 +1,12 @@
 {
-  "asn": 19254,
-  "handle": "KOCH-INDUSTRIES",
-  "description": "Koch Industries Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19254,
+  "metadata" : {
+    "handle" : "KOCH-INDUSTRIES",
+    "description" : "Koch Industries Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.209.128.0/19",
       "146.209.222.0/23",
       "146.209.224.0/23",
@@ -15,6 +18,6 @@
       "205.132.112.0/21",
       "206.220.176.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

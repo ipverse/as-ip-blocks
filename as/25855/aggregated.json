@@ -1,12 +1,15 @@
 {
-  "asn": 25855,
-  "handle": "ETS-TELCO",
-  "description": "ETS TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25855,
+  "metadata" : {
+    "handle" : "ETS-TELCO",
+    "description" : "ETS TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.147.88.0/24",
       "157.15.220.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

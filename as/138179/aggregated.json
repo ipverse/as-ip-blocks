@@ -1,9 +1,12 @@
 {
-  "asn": 138179,
-  "handle": "PMT-AS-AP",
-  "description": "PACIFIC MOBILE TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138179,
+  "metadata" : {
+    "handle" : "PMT-AS-AP",
+    "description" : "PACIFIC MOBILE TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.129.120.0/22",
       "114.141.112.0/23",
       "192.171.104.0/23",
@@ -11,7 +14,7 @@
       "192.171.108.0/23",
       "192.171.110.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:7cc0::/32"
     ]
   }

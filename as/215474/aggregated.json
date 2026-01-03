@@ -1,9 +1,12 @@
 {
-  "asn": 215474,
-  "handle": "BIIL-RU-AS",
-  "description": "BIIL RU LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215474,
+  "metadata" : {
+    "handle" : "BIIL-RU-AS",
+    "description" : "BIIL RU LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "108.165.220.0/24",
       "108.165.231.0/24",
       "108.165.233.0/24",
@@ -22,6 +25,6 @@
       "193.23.194.0/24",
       "193.23.222.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

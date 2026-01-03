@@ -1,11 +1,14 @@
 {
-  "asn": 44336,
-  "handle": "NAIS",
-  "description": "State enterprise National Information Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44336,
+  "metadata" : {
+    "handle" : "NAIS",
+    "description" : "State enterprise National Information Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.93.204.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

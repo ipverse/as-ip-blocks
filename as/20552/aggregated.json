@@ -1,9 +1,12 @@
 {
-  "asn": 20552,
-  "handle": "HORYZONT",
-  "description": "Horyzont Technologie Internetowe sp.z.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20552,
+  "metadata" : {
+    "handle" : "HORYZONT",
+    "description" : "Horyzont Technologie Internetowe sp.z.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.199.97.0/24",
       "91.216.30.0/24",
       "93.105.72.0/23",
@@ -15,7 +18,7 @@
       "185.119.12.0/22",
       "217.168.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:d88::/32"
     ]
   }

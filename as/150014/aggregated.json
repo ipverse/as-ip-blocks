@@ -1,12 +1,15 @@
 {
-  "asn": 150014,
-  "handle": "GLOBNT-AS-IN",
-  "description": "GLOBNET BROADBAND SERVICE PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150014,
+  "metadata" : {
+    "handle" : "GLOBNT-AS-IN",
+    "description" : "GLOBNET BROADBAND SERVICE PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.68.126.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:12c0::/48"
     ]
   }

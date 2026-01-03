@@ -1,13 +1,16 @@
 {
-  "asn": 50952,
-  "handle": "DATAIX-AS",
-  "description": "Global Network Management Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50952,
+  "metadata" : {
+    "handle" : "DATAIX-AS",
+    "description" : "Global Network Management Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.161.252.0/24",
       "178.18.235.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5f80:9::/48",
       "2a03:5f80:b::/48"
     ]

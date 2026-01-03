@@ -1,14 +1,17 @@
 {
-  "asn": 47815,
-  "handle": "SERVERWARE",
-  "description": "Server-Ware GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47815,
+  "metadata" : {
+    "handle" : "SERVERWARE",
+    "description" : "Server-Ware GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.125.64.0/21",
       "188.92.200.0/21",
       "194.30.185.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:4080::/32"
     ]
   }

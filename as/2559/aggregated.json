@@ -1,9 +1,12 @@
 {
-  "asn": 2559,
-  "handle": "VISANET-1",
-  "description": "VISA INTERNATIONAL SERVICE ASSOCIATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2559,
+  "metadata" : {
+    "handle" : "VISANET-1",
+    "description" : "VISA INTERNATIONAL SERVICE ASSOCIATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.185.176.0/20",
       "198.80.42.0/23",
       "198.217.136.0/22",
@@ -13,6 +16,6 @@
       "198.241.128.0/17",
       "199.68.156.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

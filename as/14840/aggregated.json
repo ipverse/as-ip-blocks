@@ -1,9 +1,12 @@
 {
-  "asn": 14840,
-  "handle": "BRDIGITAL-TELECOM",
-  "description": "BR.Digital Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14840,
+  "metadata" : {
+    "handle" : "BRDIGITAL-TELECOM",
+    "description" : "BR.Digital Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.211.128.0/18",
       "186.211.192.0/19",
       "186.211.224.0/21",
@@ -36,7 +39,7 @@
       "201.16.112.0/22",
       "201.16.120.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8::/31",
       "2804:a::/32",
       "2804:b::/34",

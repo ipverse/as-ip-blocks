@@ -1,12 +1,15 @@
 {
-  "asn": 147081,
-  "handle": "IDNIC-PUSATNET-AS-ID",
-  "description": "PT Pusat Net Media",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147081,
+  "metadata" : {
+    "handle" : "IDNIC-PUSATNET-AS-ID",
+    "description" : "PT Pusat Net Media",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.173.164.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:5be0::/39",
       "2401:5be0:300::/48"
     ]

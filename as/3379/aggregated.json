@@ -1,9 +1,12 @@
 {
-  "asn": 3379,
-  "handle": "KAISER-NCAL",
-  "description": "Kaiser Foundation Health Plan Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3379,
+  "metadata" : {
+    "handle" : "KAISER-NCAL",
+    "description" : "Kaiser Foundation Health Plan Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.138.248.0/24",
       "12.160.226.0/24",
       "12.222.26.0/24",
@@ -22,7 +25,7 @@
       "198.140.8.0/21",
       "199.16.0.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:190::/32"
     ]
   }

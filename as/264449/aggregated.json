@@ -1,12 +1,15 @@
 {
-  "asn": 264449,
-  "handle": "ZOOM-NET",
-  "description": "ZOOM NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264449,
+  "metadata" : {
+    "handle" : "ZOOM-NET",
+    "description" : "ZOOM NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.255.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1ed8::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 45170,
-  "handle": "NREN-AS-NP",
-  "description": "Nepal R\u0026E Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45170,
+  "metadata" : {
+    "handle" : "NREN-AS-NP",
+    "description" : "Nepal R&E Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.0.4.0/22",
       "183.91.132.0/22",
       "202.52.0.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:2c00::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 51847,
-  "handle": "NEAROUTE",
-  "description": "Nearoute Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51847,
+  "metadata" : {
+    "handle" : "NEAROUTE",
+    "description" : "Nearoute Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.26.80.0/24",
       "23.147.232.0/24",
       "23.169.168.0/24",
@@ -44,7 +47,7 @@
       "207.174.4.0/24",
       "209.146.123.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8a20:100::/44",
       "2400:8a20:110::/46",
       "2400:8a20:114::/48",

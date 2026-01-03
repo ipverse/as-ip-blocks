@@ -1,14 +1,17 @@
 {
-  "asn": 142401,
-  "handle": "IMNETWORKS-AS-ID",
-  "description": "PT Inter Koneksi Media",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142401,
+  "metadata" : {
+    "handle" : "IMNETWORKS-AS-ID",
+    "description" : "PT Inter Koneksi Media",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.172.240.0/24",
       "151.242.55.0/24",
       "202.81.63.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:9840::/48"
     ]
   }

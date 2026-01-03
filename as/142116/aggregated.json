@@ -1,12 +1,15 @@
 {
-  "asn": 142116,
-  "handle": "UPLINKMEPTYLTD-AS-AP",
-  "description": "UplinkMe",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142116,
+  "metadata" : {
+    "handle" : "UPLINKMEPTYLTD-AS-AP",
+    "description" : "UplinkMe",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.166.132.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:56c0::/32"
     ]
   }

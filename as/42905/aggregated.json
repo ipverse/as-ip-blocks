@@ -1,9 +1,12 @@
 {
-  "asn": 42905,
-  "handle": "LIMANET",
-  "description": "LIMANET Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42905,
+  "metadata" : {
+    "handle" : "LIMANET",
+    "description" : "LIMANET Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.163.216.0/21",
       "91.193.194.0/24",
       "91.199.245.0/24",
@@ -13,7 +16,7 @@
       "193.200.151.0/24",
       "195.62.36.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:680:9100::/40"
     ]
   }

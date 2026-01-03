@@ -1,12 +1,15 @@
 {
-  "asn": 204190,
-  "handle": "UMS",
-  "description": "Gmina Miasto Szczecin",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204190,
+  "metadata" : {
+    "handle" : "UMS",
+    "description" : "Gmina Miasto Szczecin",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.71.240.0/23",
       "185.71.242.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

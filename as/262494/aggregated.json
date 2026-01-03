@@ -1,9 +1,12 @@
 {
-  "asn": 262494,
-  "handle": "VIRTEX-TELECOM",
-  "description": "Virtex Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262494,
+  "metadata" : {
+    "handle" : "VIRTEX-TELECOM",
+    "description" : "Virtex Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.163.108.0/22",
       "45.179.112.0/22",
       "45.226.88.0/22",
@@ -16,7 +19,7 @@
       "179.125.124.0/22",
       "179.191.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:ad8::/32",
       "2804:1510::/32",
       "2804:4678::/32"

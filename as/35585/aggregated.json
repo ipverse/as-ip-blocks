@@ -1,12 +1,15 @@
 {
-  "asn": 35585,
-  "handle": "KOMNET-AS",
-  "description": "FHU Komnet Grzegorz Poltorak",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35585,
+  "metadata" : {
+    "handle" : "KOMNET-AS",
+    "description" : "FHU Komnet Grzegorz Poltorak",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.43.228.0/22",
       "194.24.174.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

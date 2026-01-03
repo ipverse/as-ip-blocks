@@ -1,9 +1,12 @@
 {
-  "asn": 27887,
-  "handle": "WIND-TELECOM",
-  "description": "WIND Telecom S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27887,
+  "metadata" : {
+    "handle" : "WIND-TELECOM",
+    "description" : "WIND Telecom S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.189.128.0/19",
       "179.43.192.0/18",
       "186.1.64.0/18",
@@ -11,7 +14,7 @@
       "190.122.96.0/19",
       "200.26.168.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:1400::/32",
       "2803:5ce0:700::/40"
     ]

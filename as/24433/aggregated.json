@@ -1,13 +1,16 @@
 {
-  "asn": 24433,
-  "handle": "CQU-AS-AP",
-  "description": "Australian Academic and Research Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24433,
+  "metadata" : {
+    "handle" : "CQU-AS-AP",
+    "description" : "Australian Academic and Research Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.77.0.0/16",
       "203.15.122.0/24",
       "203.27.220.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 9660,
-  "handle": "KANNET-AS-AP",
-  "description": "Kannet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9660,
+  "metadata" : {
+    "handle" : "KANNET-AS-AP",
+    "description" : "Kannet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.77.128.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 37013,
-  "handle": "SATCOM-AS",
-  "description": "Satcom Networks Africa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37013,
+  "metadata" : {
+    "handle" : "SATCOM-AS",
+    "description" : "Satcom Networks Africa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.223.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fd10::/32"
     ]
   }

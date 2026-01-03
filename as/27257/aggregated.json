@@ -1,9 +1,12 @@
 {
-  "asn": 27257,
-  "handle": "WEBAIR-INTERNET",
-  "description": "Webair Internet Development Company Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27257,
+  "metadata" : {
+    "handle" : "WEBAIR-INTERNET",
+    "description" : "Webair Internet Development Company Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.76.71.0/24",
       "50.115.224.0/20",
       "66.207.40.0/21",
@@ -34,7 +37,7 @@
       "209.200.0.0/18",
       "216.130.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:9e00::/32"
     ]
   }

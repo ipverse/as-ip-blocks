@@ -1,12 +1,15 @@
 {
-  "asn": 16423,
-  "handle": "NETTOGO-BLK",
-  "description": "NETTOGO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16423,
+  "metadata" : {
+    "handle" : "NETTOGO-BLK",
+    "description" : "NETTOGO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.21.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:3080::/32"
     ]
   }

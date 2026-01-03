@@ -1,11 +1,14 @@
 {
-  "asn": 50488,
-  "handle": "UTELCOM",
-  "description": "LLC Utelcom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50488,
+  "metadata" : {
+    "handle" : "UTELCOM",
+    "description" : "LLC Utelcom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.107.0.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

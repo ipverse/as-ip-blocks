@@ -1,12 +1,15 @@
 {
-  "asn": 208015,
-  "handle": "TCC-AS",
-  "description": "The Cluster Company GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208015,
+  "metadata" : {
+    "handle" : "TCC-AS",
+    "description" : "The Cluster Company GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.92.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:20c0::/29"
     ]
   }

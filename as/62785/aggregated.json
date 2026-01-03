@@ -1,14 +1,17 @@
 {
-  "asn": 62785,
-  "handle": "AMAZON-FC",
-  "description": "Amazon.com Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62785,
+  "metadata" : {
+    "handle" : "AMAZON-FC",
+    "description" : "Amazon.com Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "172.96.97.0/24",
       "172.96.100.0/24",
       "172.96.110.0/24",
       "173.83.0.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 39975,
-  "handle": "GOCODEIT-DNS-ANYCAST",
-  "description": "GoCodeIT Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39975,
+  "metadata" : {
+    "handle" : "GOCODEIT-DNS-ANYCAST",
+    "description" : "GoCodeIT Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.119.148.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd50:f::/48"
     ]
   }

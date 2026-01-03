@@ -1,9 +1,12 @@
 {
-  "asn": 12455,
-  "handle": "JAMBONET",
-  "description": "Kenyan Post \u0026 Telecommunications Company / Telkom Kenya Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12455,
+  "metadata" : {
+    "handle" : "JAMBONET",
+    "description" : "Kenyan Post & Telecommunications Company / Telkom Kenya Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.24.96.0/19",
       "102.166.0.0/15",
       "154.122.0.0/15",
@@ -11,7 +14,7 @@
       "197.156.128.0/18",
       "212.49.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fb60::/32"
     ]
   }

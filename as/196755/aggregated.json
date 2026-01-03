@@ -1,9 +1,12 @@
 {
-  "asn": 196755,
-  "handle": "NET-3STARS-AS",
-  "description": "Sewan Belgium SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 196755,
+  "metadata" : {
+    "handle" : "NET-3STARS-AS",
+    "description" : "Sewan Belgium SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.251.108.0/22",
       "85.119.188.0/22",
       "157.143.248.0/21",
@@ -16,7 +19,7 @@
       "217.181.251.0/24",
       "217.181.252.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:10c0::/29"
     ]
   }

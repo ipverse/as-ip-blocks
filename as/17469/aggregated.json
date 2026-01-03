@@ -1,9 +1,12 @@
 {
-  "asn": 17469,
-  "handle": "ACCESSTEL-AS-AP",
-  "description": "Access Telecom (BD) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17469,
+  "metadata" : {
+    "handle" : "ACCESSTEL-AS-AP",
+    "description" : "Access Telecom (BD) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "175.29.124.0/22",
       "175.29.140.0/22",
       "175.29.144.0/22",
@@ -13,7 +16,7 @@
       "203.76.144.0/21",
       "203.82.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:150::/32"
     ]
   }

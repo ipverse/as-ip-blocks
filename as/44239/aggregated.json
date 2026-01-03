@@ -1,9 +1,12 @@
 {
-  "asn": 44239,
-  "handle": "PROINITY",
-  "description": "proinity GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44239,
+  "metadata" : {
+    "handle" : "PROINITY",
+    "description" : "proinity GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.70.195.0/24",
       "68.70.196.0/24",
       "68.70.198.0/23",
@@ -14,7 +17,7 @@
       "185.172.148.0/23",
       "185.172.151.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:4d00:1::/48",
       "2a0b:4d00:2::/48",
       "2a0b:4d00:4::/48",

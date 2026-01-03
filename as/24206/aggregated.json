@@ -1,12 +1,15 @@
 {
-  "asn": 24206,
-  "handle": "CHANNEL11-AS-ID",
-  "description": "PT Cakra Lintas Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24206,
+  "metadata" : {
+    "handle" : "CHANNEL11-AS-ID",
+    "description" : "PT Cakra Lintas Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "110.44.168.0/23",
       "203.84.141.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

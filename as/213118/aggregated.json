@@ -1,14 +1,17 @@
 {
-  "asn": 213118,
-  "handle": "INDIS",
-  "description": "indis Kommunikationssysteme GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213118,
+  "metadata" : {
+    "handle" : "INDIS",
+    "description" : "indis Kommunikationssysteme GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.142.34.0/23",
       "79.142.40.0/23",
       "94.154.125.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:fd40:1000::/36"
     ]
   }

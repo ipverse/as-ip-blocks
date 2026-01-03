@@ -1,12 +1,15 @@
 {
-  "asn": 132403,
-  "handle": "HBDD-AS-AP",
-  "description": "Bizzly",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132403,
+  "metadata" : {
+    "handle" : "HBDD-AS-AP",
+    "description" : "Bizzly",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.213.50.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:2360::/48"
     ]
   }

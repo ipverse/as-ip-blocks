@@ -1,12 +1,15 @@
 {
-  "asn": 135554,
-  "handle": "LINK-AS-AP",
-  "description": "Link Line",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135554,
+  "metadata" : {
+    "handle" : "LINK-AS-AP",
+    "description" : "Link Line",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.123.33.0/24",
       "103.123.34.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

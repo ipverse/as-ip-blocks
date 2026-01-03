@@ -1,9 +1,12 @@
 {
-  "asn": 11519,
-  "handle": "BANCO-MERCANTIL-NORTE",
-  "description": "Banco Mercantil del Norte S.A. Institucion de Banca Multiple Grupo Financiero Banorte",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11519,
+  "metadata" : {
+    "handle" : "BANCO-MERCANTIL-NORTE",
+    "description" : "Banco Mercantil del Norte S.A. Institucion de Banca Multiple Grupo Financiero Banorte",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.100.234.0/24",
       "200.10.247.0/24",
       "200.10.248.0/24",
@@ -12,6 +15,6 @@
       "200.33.202.0/24",
       "207.248.104.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

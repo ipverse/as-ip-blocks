@@ -1,14 +1,17 @@
 {
-  "asn": 3725,
-  "handle": "ASN-SONY",
-  "description": "Sony Pictures Technologies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3725,
+  "metadata" : {
+    "handle" : "ASN-SONY",
+    "description" : "Sony Pictures Technologies Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.33.98.0/24",
       "160.33.110.0/24",
       "160.33.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fd28:a000::/48",
       "2607:fd28:a010::/47"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 132125,
-  "handle": "BRAINTRUST-AS-AP",
-  "description": "Braintrust Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132125,
+  "metadata" : {
+    "handle" : "BRAINTRUST-AS-AP",
+    "description" : "Braintrust Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.247.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:f300::/32"
     ]
   }

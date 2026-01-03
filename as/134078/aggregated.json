@@ -1,9 +1,12 @@
 {
-  "asn": 134078,
-  "handle": "NETPLUZ-AS-AP",
-  "description": "NETPLUZ HOLDINGS PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134078,
+  "metadata" : {
+    "handle" : "NETPLUZ-AS-AP",
+    "description" : "NETPLUZ HOLDINGS PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.112.76.0/22",
       "61.13.0.0/23",
       "61.13.2.0/24",
@@ -32,7 +35,7 @@
       "203.149.168.0/22",
       "203.149.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:ed00::/48",
       "2404:1100::/32"
     ]

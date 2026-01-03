@@ -1,9 +1,12 @@
 {
-  "asn": 7256,
-  "handle": "VIACOM-AS",
-  "description": "Viacom Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7256,
+  "metadata" : {
+    "handle" : "VIACOM-AS",
+    "description" : "Viacom Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "166.77.0.0/23",
       "166.77.3.0/24",
       "166.77.4.0/24",
@@ -24,6 +27,6 @@
       "166.77.174.0/24",
       "204.110.112.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

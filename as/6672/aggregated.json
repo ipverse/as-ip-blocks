@@ -1,13 +1,16 @@
 {
-  "asn": 6672,
-  "handle": "ASRELCOMSPB",
-  "description": "LIMITED LIABILITY COMPANY RELCOM-SPB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6672,
+  "metadata" : {
+    "handle" : "ASRELCOMSPB",
+    "description" : "LIMITED LIABILITY COMPANY RELCOM-SPB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.202.8.0/21",
       "212.113.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:9d8::/32"
     ]
   }

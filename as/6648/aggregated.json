@@ -1,11 +1,13 @@
 {
-  "asn": 6648,
-  "handle": "BAYAN-TELECOMMUNICATIONS",
-  "description": "Sky Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6648,
+  "metadata" : {
+    "handle" : "BAYAN-TELECOMMUNICATIONS",
+    "description" : "Sky Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.108.0.0/16",
-      "103.14.60.0/22",
       "121.96.0.0/15",
       "125.212.0.0/17",
       "161.126.48.0/22",
@@ -17,6 +19,6 @@
       "208.235.224.0/21",
       "210.4.0.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

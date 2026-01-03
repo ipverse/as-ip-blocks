@@ -1,9 +1,12 @@
 {
-  "asn": 39960,
-  "handle": "BARNES-AND-NOBLE",
-  "description": "Barnes \u0026 Noble Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39960,
+  "metadata" : {
+    "handle" : "BARNES-AND-NOBLE",
+    "description" : "Barnes & Noble Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.204.48.0/24",
       "161.221.10.0/23",
       "161.221.18.0/23",
@@ -21,6 +24,6 @@
       "161.221.98.0/24",
       "208.185.172.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

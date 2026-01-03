@@ -1,14 +1,17 @@
 {
-  "asn": 400289,
-  "handle": "AS-MFWIRELESS",
-  "description": "MFWireless",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400289,
+  "metadata" : {
+    "handle" : "AS-MFWIRELESS",
+    "description" : "MFWireless",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.132.40.0/24",
       "23.152.8.0/24",
       "203.23.164.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:9440::/32"
     ]
   }

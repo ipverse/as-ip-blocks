@@ -1,9 +1,12 @@
 {
-  "asn": 518,
-  "handle": "DNIC-AS-00518",
-  "description": "United States Department of Defense (DoD)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 518,
+  "metadata" : {
+    "handle" : "DNIC-AS-00518",
+    "description" : "United States Department of Defense (DoD)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.9.178.0/23",
       "199.9.180.0/22",
       "199.9.224.0/23",
@@ -12,7 +15,7 @@
       "199.9.232.0/21",
       "199.9.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:480:421::/48",
       "2001:480:1610::/48"
     ]

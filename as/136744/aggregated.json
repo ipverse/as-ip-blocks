@@ -1,9 +1,12 @@
 {
-  "asn": 136744,
-  "handle": "DPTL-AS-AP",
-  "description": "DREAM POWER TECHNOLOGY LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136744,
+  "metadata" : {
+    "handle" : "DPTL-AS-AP",
+    "description" : "DREAM POWER TECHNOLOGY LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.92.36.0/23",
       "38.96.253.0/24",
       "38.97.41.0/24",
@@ -43,6 +46,6 @@
       "212.30.61.0/24",
       "213.209.151.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

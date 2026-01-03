@@ -1,15 +1,18 @@
 {
-  "asn": 38027,
-  "handle": "MOST-AS-AP",
-  "description": "Information Center Ministry of Sci and Tech",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38027,
+  "metadata" : {
+    "handle" : "MOST-AS-AP",
+    "description" : "Information Center Ministry of Sci and Tech",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.160.0.0/17",
       "168.160.152.0/24",
       "168.160.158.0/23",
       "168.160.160.0/21",
       "168.160.168.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

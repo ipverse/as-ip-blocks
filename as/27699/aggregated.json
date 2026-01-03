@@ -1,9 +1,12 @@
 {
-  "asn": 27699,
-  "handle": "TELEFONICA-BRASIL",
-  "description": "TELEFÔNICA BRASIL S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27699,
+  "metadata" : {
+    "handle" : "TELEFONICA-BRASIL",
+    "description" : "TELEFÔNICA BRASIL S.A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "152.249.0.0/16",
       "152.250.0.0/16",
       "152.254.128.0/17",
@@ -84,7 +87,7 @@
       "201.92.0.0/15",
       "201.95.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:431:8000::/36",
       "2804:431:9000::/37",
       "2804:431:a000::/38",

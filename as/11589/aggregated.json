@@ -1,9 +1,12 @@
 {
-  "asn": 11589,
-  "handle": "STOWE-COMMUNICATIONS",
-  "description": "Stowe Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11589,
+  "metadata" : {
+    "handle" : "STOWE-COMMUNICATIONS",
+    "description" : "Stowe Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "52.124.4.0/22",
       "64.94.148.0/24",
       "160.223.200.0/23",
@@ -12,6 +15,6 @@
       "198.212.196.0/23",
       "199.188.176.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

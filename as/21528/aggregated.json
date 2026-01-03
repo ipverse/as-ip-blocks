@@ -1,13 +1,16 @@
 {
-  "asn": 21528,
-  "handle": "ALASCONNECT",
-  "description": "AlasConnect Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21528,
+  "metadata" : {
+    "handle" : "ALASCONNECT",
+    "description" : "AlasConnect Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.219.64.0/22",
       "216.115.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:8000::/32"
     ]
   }

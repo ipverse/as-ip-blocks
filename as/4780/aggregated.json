@@ -1,9 +1,12 @@
 {
-  "asn": 4780,
-  "handle": "SEEDNET",
-  "description": "Digital United Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4780,
+  "metadata" : {
+    "handle" : "SEEDNET",
+    "description" : "Digital United Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.36.112.0/22",
       "42.0.64.0/18",
       "49.213.170.0/24",
@@ -193,7 +196,7 @@
       "221.169.0.0/16",
       "222.157.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:cd8::/32",
       "2001:4580::/26"
     ]

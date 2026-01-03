@@ -1,9 +1,12 @@
 {
-  "asn": 51790,
-  "handle": "SIEL",
-  "description": "SIEL d.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51790,
+  "metadata" : {
+    "handle" : "SIEL",
+    "description" : "SIEL d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.136.188.0/22",
       "46.19.8.0/21",
       "91.230.238.0/24",
@@ -18,7 +21,7 @@
       "209.16.152.0/22",
       "217.61.252.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:28b0::/31",
       "2a02:28b2::/32",
       "2a02:28b7::/32"

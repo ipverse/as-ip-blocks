@@ -1,14 +1,17 @@
 {
-  "asn": 400339,
-  "handle": "TRINITY-CYBER-01",
-  "description": "Trinity Cyber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400339,
+  "metadata" : {
+    "handle" : "TRINITY-CYBER-01",
+    "description" : "Trinity Cyber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.136.240.0/22",
       "147.136.244.0/23",
       "147.136.246.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:ab40:1::/48",
       "2606:ab40:20::/43",
       "2606:ab40:40::/43",

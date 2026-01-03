@@ -1,12 +1,15 @@
 {
-  "asn": 23962,
-  "handle": "VNIX-AS-VN",
-  "description": "Vietnam Internet Network Information Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23962,
+  "metadata" : {
+    "handle" : "VNIX-AS-VN",
+    "description" : "Vietnam Internet Network Information Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "117.122.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:dc8:3000::/48"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 12325,
-  "handle": "IRM-AS",
-  "description": "Internet Resources Management SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12325,
+  "metadata" : {
+    "handle" : "IRM-AS",
+    "description" : "Internet Resources Management SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.8.80.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

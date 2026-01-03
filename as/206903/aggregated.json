@@ -1,11 +1,14 @@
 {
-  "asn": 206903,
-  "handle": "SMCPSAS",
-  "description": "SMCP Group SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206903,
+  "metadata" : {
+    "handle" : "SMCPSAS",
+    "description" : "SMCP Group SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.172.154.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

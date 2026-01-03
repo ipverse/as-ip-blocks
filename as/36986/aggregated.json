@@ -1,9 +1,12 @@
 {
-  "asn": 36986,
-  "handle": "AINET",
-  "description": "Africom Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36986,
+  "metadata" : {
+    "handle" : "AINET",
+    "description" : "Africom Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.57.64.0/21",
       "41.57.72.0/22",
       "41.221.144.0/22",
@@ -11,6 +14,6 @@
       "41.221.150.0/23",
       "41.221.152.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

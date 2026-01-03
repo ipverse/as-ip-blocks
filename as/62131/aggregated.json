@@ -1,12 +1,15 @@
 {
-  "asn": 62131,
-  "handle": "EGON-NET",
-  "description": "Glesys AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62131,
+  "metadata" : {
+    "handle" : "EGON-NET",
+    "description" : "Glesys AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.201.96.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:d34::/48"
     ]
   }

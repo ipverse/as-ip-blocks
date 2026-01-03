@@ -1,13 +1,16 @@
 {
-  "asn": 29620,
-  "handle": "TAMI-AS",
-  "description": "P.H.U. TAMI - Wojciech Sterna",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29620,
+  "metadata" : {
+    "handle" : "TAMI-AS",
+    "description" : "P.H.U. TAMI - Wojciech Sterna",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.17.214.0/24",
       "195.149.118.0/24",
       "195.245.94.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

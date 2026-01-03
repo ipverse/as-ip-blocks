@@ -1,9 +1,12 @@
 {
-  "asn": 206466,
-  "handle": "PALEXPO",
-  "description": "Palexpo SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206466,
+  "metadata" : {
+    "handle" : "PALEXPO",
+    "description" : "Palexpo SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.185.236.0/22",
       "194.6.170.0/24",
       "194.6.173.0/24",
@@ -11,7 +14,7 @@
       "194.209.199.0/24",
       "195.65.142.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:6880::/32"
     ]
   }

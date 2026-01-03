@@ -1,9 +1,12 @@
 {
-  "asn": 135402,
-  "handle": "US-FXCAPITAL",
-  "description": "Wired ISP Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135402,
+  "metadata" : {
+    "handle" : "US-FXCAPITAL",
+    "description" : "Wired ISP Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.181.130.0/24",
       "31.56.123.0/24",
       "31.57.182.0/24",
@@ -50,6 +53,6 @@
       "213.145.67.0/24",
       "220.158.205.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

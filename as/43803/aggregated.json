@@ -1,9 +1,12 @@
 {
-  "asn": 43803,
-  "handle": "SPEEDMEDIA-AS",
-  "description": "Speedmedia Sp z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43803,
+  "metadata" : {
+    "handle" : "SPEEDMEDIA-AS",
+    "description" : "Speedmedia Sp z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.200.76.0/23",
       "193.29.255.0/24",
       "213.155.175.0/24",
@@ -11,6 +14,6 @@
       "213.155.182.0/23",
       "213.155.188.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

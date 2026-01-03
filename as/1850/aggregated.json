@@ -1,13 +1,16 @@
 {
-  "asn": 1850,
-  "handle": "ISNIC",
-  "description": "Internet a Islandi hf",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1850,
+  "metadata" : {
+    "handle" : "ISNIC",
+    "description" : "Internet a Islandi hf",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.93.156.0/22",
       "193.4.58.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:6c::/48"
     ]
   }

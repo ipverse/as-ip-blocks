@@ -1,15 +1,18 @@
 {
-  "asn": 36738,
-  "handle": "AS-NVA1-1",
-  "description": "Athenahealth",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36738,
+  "metadata" : {
+    "handle" : "AS-NVA1-1",
+    "description" : "Athenahealth",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.208.24.0/22",
       "162.220.216.0/22",
       "204.165.246.0/23",
       "208.78.140.0/23",
       "208.78.143.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 56567,
-  "handle": "NORSITEL-AS",
-  "description": "Norsitel GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56567,
+  "metadata" : {
+    "handle" : "NORSITEL-AS",
+    "description" : "Norsitel GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.114.148.0/22",
       "185.220.192.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

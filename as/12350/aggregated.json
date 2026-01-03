@@ -1,9 +1,12 @@
 {
-  "asn": 12350,
-  "handle": "VTX-NETWORK",
-  "description": "VTX Services SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12350,
+  "metadata" : {
+    "handle" : "VTX-NETWORK",
+    "description" : "VTX Services SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.23.64.0/20",
       "144.85.0.0/16",
       "185.133.28.0/22",
@@ -34,7 +37,7 @@
       "213.5.152.0/21",
       "213.162.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4c78::/32",
       "2a03:a360::/32"
     ]

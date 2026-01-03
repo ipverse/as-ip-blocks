@@ -1,12 +1,15 @@
 {
-  "asn": 60680,
-  "handle": "OMANTRA-AS",
-  "description": "Telecommunications Regulatory Authority (TRA)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60680,
+  "metadata" : {
+    "handle" : "OMANTRA-AS",
+    "description" : "Telecommunications Regulatory Authority (TRA)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.27.88.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:9120:1::/48",
       "2a00:9120:2::/48"
     ]

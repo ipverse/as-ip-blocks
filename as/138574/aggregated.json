@@ -1,11 +1,14 @@
 {
-  "asn": 138574,
-  "handle": "GLOBALNET-AS-AP",
-  "description": "Global Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138574,
+  "metadata" : {
+    "handle" : "GLOBALNET-AS-AP",
+    "description" : "Global Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.133.134.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

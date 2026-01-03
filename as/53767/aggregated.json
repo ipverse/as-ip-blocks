@@ -1,15 +1,18 @@
 {
-  "asn": 53767,
-  "handle": "ICASTCENTER",
-  "description": "iCastCenter",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53767,
+  "metadata" : {
+    "handle" : "ICASTCENTER",
+    "description" : "iCastCenter",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.36.20.0/22",
       "162.251.160.0/22",
       "199.180.72.0/21",
       "204.77.222.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:9d00::/32"
     ]
   }

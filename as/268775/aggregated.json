@@ -1,12 +1,15 @@
 {
-  "asn": 268775,
-  "handle": "MY-ZONE-INTERNET",
-  "description": "MY ZONE INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268775,
+  "metadata" : {
+    "handle" : "MY-ZONE-INTERNET",
+    "description" : "MY ZONE INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.172.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5a78::/32"
     ]
   }

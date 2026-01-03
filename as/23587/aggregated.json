@@ -1,12 +1,15 @@
 {
-  "asn": 23587,
-  "handle": "KCB-AS",
-  "description": "Korea Credit Bureau",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23587,
+  "metadata" : {
+    "handle" : "KCB-AS",
+    "description" : "Korea Credit Bureau",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.5.41.0/24",
       "219.255.136.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

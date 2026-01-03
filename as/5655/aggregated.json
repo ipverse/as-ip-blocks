@@ -1,9 +1,12 @@
 {
-  "asn": 5655,
-  "handle": "DECADE-DOM",
-  "description": "Decade Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5655,
+  "metadata" : {
+    "handle" : "DECADE-DOM",
+    "description" : "Decade Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.245.16.0/23",
       "198.245.19.0/24",
       "198.245.21.0/24",
@@ -22,6 +25,6 @@
       "207.167.128.0/23",
       "207.167.130.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

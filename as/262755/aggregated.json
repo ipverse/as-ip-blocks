@@ -1,9 +1,12 @@
 {
-  "asn": 262755,
-  "handle": "AONET-SERVICOS-COMUNICACAO",
-  "description": "AONET SERVICOS DE COMUNICACAO LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262755,
+  "metadata" : {
+    "handle" : "AONET-SERVICOS-COMUNICACAO",
+    "description" : "AONET SERVICOS DE COMUNICACAO LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.0.32.0/22",
       "168.0.248.0/22",
       "170.81.188.0/22",
@@ -11,7 +14,7 @@
       "186.224.0.0/20",
       "186.224.16.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:19c::/32"
     ]
   }

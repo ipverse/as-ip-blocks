@@ -1,9 +1,12 @@
 {
-  "asn": 42557,
-  "handle": "XIDRAS",
-  "description": "Xidras GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42557,
+  "metadata" : {
+    "handle" : "XIDRAS",
+    "description" : "Xidras GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.195.94.0/23",
       "95.130.120.0/22",
       "95.130.125.0/24",
@@ -11,6 +14,6 @@
       "185.52.188.0/22",
       "193.239.248.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

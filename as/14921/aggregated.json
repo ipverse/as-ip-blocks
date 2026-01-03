@@ -1,9 +1,12 @@
 {
-  "asn": 14921,
-  "handle": "CENTURYLINK-LEGACY-EMBARQ-HDRV",
-  "description": "CenturyLink Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14921,
+  "metadata" : {
+    "handle" : "CENTURYLINK-LEGACY-EMBARQ-HDRV",
+    "description" : "CenturyLink Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.165.119.0/24",
       "63.174.8.0/21",
       "65.40.176.0/21",
@@ -35,6 +38,6 @@
       "205.162.192.0/20",
       "208.14.144.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

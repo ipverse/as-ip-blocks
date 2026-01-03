@@ -1,9 +1,12 @@
 {
-  "asn": 36924,
-  "handle": "GVA-CANALBOX",
-  "description": "GVA Cote d\u0027Ivoire SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36924,
+  "metadata" : {
+    "handle" : "GVA-CANALBOX",
+    "description" : "GVA Cote d'Ivoire SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.75.64.0/20",
       "102.22.128.0/18",
       "102.23.0.0/18",
@@ -28,7 +31,7 @@
       "196.250.64.0/18",
       "197.255.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:2080::/32",
       "2c0f:e00::/31",
       "2c0f:2fc0::/32",

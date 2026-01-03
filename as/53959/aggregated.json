@@ -1,9 +1,12 @@
 {
-  "asn": 53959,
-  "handle": "PSDATA",
-  "description": "Public Service Data Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53959,
+  "metadata" : {
+    "handle" : "PSDATA",
+    "description" : "Public Service Data Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.66.208.0/22",
       "38.101.200.0/21",
       "38.147.40.0/21",
@@ -28,6 +31,6 @@
       "216.198.96.0/22",
       "216.198.112.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

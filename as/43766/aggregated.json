@@ -1,9 +1,12 @@
 {
-  "asn": 43766,
-  "handle": "MTC-KSA-AS",
-  "description": "Mobile Telecommunication Company Saudi Arabia Joint-Stock company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43766,
+  "metadata" : {
+    "handle" : "MTC-KSA-AS",
+    "description" : "Mobile Telecommunication Company Saudi Arabia Joint-Stock company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.209.112.0/22",
       "51.36.0.0/16",
       "51.39.0.0/16",
@@ -50,7 +53,7 @@
       "207.143.0.0/16",
       "212.62.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2994::/48",
       "2600:1417:2400::/48",
       "2a00:5400:f00a::/47",

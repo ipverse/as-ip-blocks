@@ -1,9 +1,12 @@
 {
-  "asn": 64011,
-  "handle": "RESERVED",
-  "description": "APNIC ASN block",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64011,
+  "metadata" : {
+    "handle" : "WORCESTER-POLYTECHNIC-INSTITUTE",
+    "description" : "Worcester Polytechnic Institute",
+    "origin" : "inferred"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "107.72.96.0/23",
       "107.80.6.0/24",
       "107.84.152.0/24",
@@ -13,7 +16,7 @@
       "166.184.9.0/24",
       "166.220.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:380:f103::/48",
       "2600:380:f107::/48",
       "2600:380:f10b::/48",

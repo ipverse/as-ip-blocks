@@ -1,15 +1,18 @@
 {
-  "asn": 45706,
-  "handle": "TGG-AS-ID",
-  "description": "Tele Globe Global PT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45706,
+  "metadata" : {
+    "handle" : "TGG-AS-ID",
+    "description" : "Tele Globe Global PT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.123.0.0/21",
       "103.18.28.0/22",
       "103.244.216.0/23",
       "150.107.248.0/22",
       "202.43.114.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

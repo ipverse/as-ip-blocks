@@ -1,14 +1,17 @@
 {
-  "asn": 151396,
-  "handle": "SJN-AS-AP",
-  "description": "Sajilo Net Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151396,
+  "metadata" : {
+    "handle" : "SJN-AS-AP",
+    "description" : "Sajilo Net Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.134.216.0/22",
       "103.146.218.0/23",
       "103.214.0.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:720::/32"
     ]
   }

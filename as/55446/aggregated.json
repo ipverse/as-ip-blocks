@@ -1,15 +1,18 @@
 {
-  "asn": 55446,
-  "handle": "CENTDEVTEL-NON-AS-AP",
-  "description": "CENTRE FOR DEVELOPMENT OF TELEMATICS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55446,
+  "metadata" : {
+    "handle" : "CENTDEVTEL-NON-AS-AP",
+    "description" : "CENTRE FOR DEVELOPMENT OF TELEMATICS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.128.108.0/22",
       "196.1.105.0/24",
       "196.1.106.0/24",
       "196.1.110.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:9a00:1::/48",
       "2407:9a00:2::/47",
       "2407:9a00:4::/48"

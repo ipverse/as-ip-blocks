@@ -1,9 +1,12 @@
 {
-  "asn": 58075,
-  "handle": "X2COM",
-  "description": "X2com BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58075,
+  "metadata" : {
+    "handle" : "X2COM",
+    "description" : "X2com BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.235.80.0/21",
       "45.95.68.0/22",
       "45.150.244.0/22",
@@ -28,7 +31,7 @@
       "194.110.30.0/24",
       "194.110.72.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:9380::/29"
     ]
   }

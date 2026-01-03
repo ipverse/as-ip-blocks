@@ -1,9 +1,12 @@
 {
-  "asn": 47886,
-  "handle": "EQUINIX-NL-ASN",
-  "description": "Equinix (Netherlands) B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47886,
+  "metadata" : {
+    "handle" : "EQUINIX-NL-ASN",
+    "description" : "Equinix (Netherlands) B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.3.19.0/24",
       "91.208.229.0/24",
       "185.106.52.0/22",
@@ -16,7 +19,7 @@
       "213.193.212.0/24",
       "213.193.232.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2e4::/48",
       "2a0b:d240::/32"
     ]

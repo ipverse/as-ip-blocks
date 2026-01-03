@@ -1,15 +1,18 @@
 {
-  "asn": 48209,
-  "handle": "LANCRONIX-AS",
-  "description": "OOO LANCRONIX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48209,
+  "metadata" : {
+    "handle" : "LANCRONIX-AS",
+    "description" : "OOO LANCRONIX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "188.75.0.0/19",
       "188.75.32.0/21",
       "188.75.40.0/24",
       "188.75.48.0/20",
       "217.79.224.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

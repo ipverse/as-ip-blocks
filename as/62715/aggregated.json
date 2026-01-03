@@ -1,9 +1,12 @@
 {
-  "asn": 62715,
-  "handle": "CRASHPLAN",
-  "description": "CrashPlan",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62715,
+  "metadata" : {
+    "handle" : "CRASHPLAN",
+    "description" : "CrashPlan",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.222.252.0/24",
       "67.222.255.0/24",
       "68.65.192.0/23",
@@ -17,6 +20,6 @@
       "216.9.197.0/24",
       "216.9.198.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

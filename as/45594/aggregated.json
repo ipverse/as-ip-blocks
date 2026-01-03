@@ -1,9 +1,12 @@
 {
-  "asn": 45594,
-  "handle": "OPTICOMMCOPTYLTD-AS-AP",
-  "description": "Opticomm Co Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45594,
+  "metadata" : {
+    "handle" : "OPTICOMMCOPTYLTD-AS-AP",
+    "description" : "Opticomm Co Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.246.100.0/22",
       "110.93.18.0/24",
       "110.93.21.0/24",
@@ -11,6 +14,6 @@
       "180.189.144.0/22",
       "203.175.187.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

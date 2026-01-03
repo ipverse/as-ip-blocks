@@ -1,9 +1,12 @@
 {
-  "asn": 56958,
-  "handle": "RAIOLANETWORKS",
-  "description": "Raiola Networks S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56958,
+  "metadata" : {
+    "handle" : "RAIOLANETWORKS",
+    "description" : "Raiola Networks S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.130.16.0/22",
       "45.142.228.0/22",
       "91.132.103.0/24",
@@ -12,7 +15,7 @@
       "185.237.234.0/23",
       "201.46.112.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:d280::/30"
     ]
   }

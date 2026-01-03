@@ -1,12 +1,15 @@
 {
-  "asn": 14107,
-  "handle": "PCINW-PN001",
-  "description": "Preferred Connections Inc. NW",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14107,
+  "metadata" : {
+    "handle" : "PCINW-PN001",
+    "description" : "Preferred Connections Inc. NW",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.5.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:2400::/32"
     ]
   }

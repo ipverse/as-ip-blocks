@@ -1,12 +1,15 @@
 {
-  "asn": 27644,
-  "handle": "THREATSTOP",
-  "description": "ThreatSTOP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27644,
+  "metadata" : {
+    "handle" : "THREATSTOP",
+    "description" : "ThreatSTOP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.124.129.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:11e:f000::/44"
     ]
   }

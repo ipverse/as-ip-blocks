@@ -1,14 +1,17 @@
 {
-  "asn": 137651,
-  "handle": "ACTIV-AS",
-  "description": "Activline Telecom Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137651,
+  "metadata" : {
+    "handle" : "ACTIV-AS",
+    "description" : "Activline Telecom Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.148.1.0/24",
       "103.152.114.0/24",
       "103.176.70.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:f080::/48"
     ]
   }

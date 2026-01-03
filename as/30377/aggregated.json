@@ -1,9 +1,12 @@
 {
-  "asn": 30377,
-  "handle": "MACST-DUB",
-  "description": "MacStadium Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30377,
+  "metadata" : {
+    "handle" : "MACST-DUB",
+    "description" : "MacStadium Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.254.22.0/23",
       "207.254.24.0/21",
       "207.254.68.0/22",
@@ -11,7 +14,7 @@
       "207.254.112.0/22",
       "208.83.0.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:6480:6000::/35"
     ]
   }

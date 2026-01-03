@@ -1,9 +1,12 @@
 {
-  "asn": 26347,
-  "handle": "DREAMHOST-AS",
-  "description": "New Dream Network LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26347,
+  "metadata" : {
+    "handle" : "DREAMHOST-AS",
+    "description" : "New Dream Network LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.90.32.0/19",
       "64.111.96.0/19",
       "66.33.192.0/20",
@@ -17,7 +20,7 @@
       "208.97.128.0/18",
       "208.113.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f298:5::/48",
       "2607:f298:6::/48",
       "2607:f298:6050::/44"

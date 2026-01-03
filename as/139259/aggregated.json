@@ -1,9 +1,12 @@
 {
-  "asn": 139259,
-  "handle": "ADC-AS-AP",
-  "description": "ADC GROUP CO. LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139259,
+  "metadata" : {
+    "handle" : "ADC-AS-AP",
+    "description" : "ADC GROUP CO. LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.252.84.0/22",
       "45.252.100.0/22",
       "45.252.144.0/22",
@@ -16,6 +19,6 @@
       "103.221.92.0/23",
       "103.221.95.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 32696,
-  "handle": "TVD-EDISON-777",
-  "description": "Tri State Voice \u0026 Data LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32696,
+  "metadata" : {
+    "handle" : "TVD-EDISON-777",
+    "description" : "Tri State Voice & Data LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.19.188.0/24",
       "8.22.168.0/24",
       "8.224.49.0/24",
@@ -13,6 +16,6 @@
       "63.212.135.0/24",
       "173.251.19.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

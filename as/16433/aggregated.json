@@ -1,9 +1,12 @@
 {
-  "asn": 16433,
-  "handle": "NCTC-ISP",
-  "description": "NORTH CENTRAL TELEPHONE COOPERATIVE CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16433,
+  "metadata" : {
+    "handle" : "NCTC-ISP",
+    "description" : "NORTH CENTRAL TELEPHONE COOPERATIVE CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.38.4.0/23",
       "66.38.40.0/22",
       "66.38.96.0/19",
@@ -28,7 +31,7 @@
       "208.76.160.0/21",
       "216.20.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:f00::/32"
     ]
   }

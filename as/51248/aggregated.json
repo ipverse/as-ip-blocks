@@ -1,9 +1,12 @@
 {
-  "asn": 51248,
-  "handle": "HOST-TELECOM",
-  "description": "Host-Telecom.com s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51248,
+  "metadata" : {
+    "handle" : "HOST-TELECOM",
+    "description" : "Host-Telecom.com s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.43.224.0/21",
       "45.10.191.0/24",
       "45.151.183.0/24",
@@ -16,7 +19,7 @@
       "192.145.98.0/24",
       "193.161.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:1840::/46",
       "2a10:9687::/32"
     ]

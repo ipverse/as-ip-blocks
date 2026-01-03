@@ -1,9 +1,12 @@
 {
-  "asn": 9684,
-  "handle": "HANWHA-AS",
-  "description": "HANWHA Corp. Information Service div",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9684,
+  "metadata" : {
+    "handle" : "HANWHA-AS",
+    "description" : "HANWHA Corp. Information Service div.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.209.204.0/24",
       "14.47.119.0/24",
       "14.47.120.0/24",
@@ -21,6 +24,6 @@
       "218.146.32.0/24",
       "218.146.34.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 12070,
-  "handle": "ANYCAST-01",
-  "description": "ANYCAST LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12070,
+  "metadata" : {
+    "handle" : "ANYCAST-01",
+    "description" : "ANYCAST LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.224.168.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

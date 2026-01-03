@@ -1,14 +1,17 @@
 {
-  "asn": 45349,
-  "handle": "TFL-AS-AP",
-  "description": "InterNet Services Telecom Fiji Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45349,
+  "metadata" : {
+    "handle" : "TFL-AS-AP",
+    "description" : "InterNet Services Telecom Fiji Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.137.176.0/23",
       "202.137.179.0/24",
       "202.137.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:f800::/32"
     ]
   }

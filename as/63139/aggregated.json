@@ -1,9 +1,12 @@
 {
-  "asn": 63139,
-  "handle": "BEDGE-CO-LIMITED",
-  "description": "BEDGE CO LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63139,
+  "metadata" : {
+    "handle" : "BEDGE-CO-LIMITED",
+    "description" : "BEDGE CO LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.54.46.0/24",
       "38.54.48.0/24",
       "38.60.170.0/24",
@@ -95,7 +98,7 @@
       "156.229.65.0/24",
       "175.176.194.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:a140:34::/48",
       "2404:a140:4e::/48",
       "2602:fa80::/48",

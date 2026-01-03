@@ -1,12 +1,15 @@
 {
-  "asn": 50801,
-  "handle": "DAVID-FROEHLICH",
-  "description": "David Froehlich",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50801,
+  "metadata" : {
+    "handle" : "DAVID-FROEHLICH",
+    "description" : "David Froehlich",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.120.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:6f44::/40"
     ]
   }

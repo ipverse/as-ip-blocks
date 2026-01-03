@@ -1,12 +1,15 @@
 {
-  "asn": 400674,
-  "handle": "CLAY-COUNTY-CONNECT",
-  "description": "Clay County Connect Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400674,
+  "metadata" : {
+    "handle" : "CLAY-COUNTY-CONNECT",
+    "description" : "Clay County Connect Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.173.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:ccc0::/32"
     ]
   }

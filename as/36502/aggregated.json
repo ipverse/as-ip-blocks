@@ -1,9 +1,12 @@
 {
-  "asn": 36502,
-  "handle": "CERNER-CORPORATE-AS",
-  "description": "Cerner Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36502,
+  "metadata" : {
+    "handle" : "CERNER-CORPORATE-AS",
+    "description" : "Cerner Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.140.0.0/22",
       "159.140.8.0/21",
       "159.140.104.0/22",
@@ -11,7 +14,7 @@
       "159.140.252.0/24",
       "159.140.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:1e2::/36"
     ]
   }

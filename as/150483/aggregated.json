@@ -1,12 +1,15 @@
 {
-  "asn": 150483,
-  "handle": "IDNIC-KNA-AS-ID",
-  "description": "PT Kuantan Net Akses",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150483,
+  "metadata" : {
+    "handle" : "IDNIC-KNA-AS-ID",
+    "description" : "PT Kuantan Net Akses",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.54.168.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:dec0::/48"
     ]
   }

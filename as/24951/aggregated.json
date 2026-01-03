@@ -1,9 +1,12 @@
 {
-  "asn": 24951,
-  "handle": "EVERYWARE-NET",
-  "description": "EveryWare AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24951,
+  "metadata" : {
+    "handle" : "EVERYWARE-NET",
+    "description" : "EveryWare AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.244.48.0/20",
       "185.50.224.0/23",
       "185.50.226.0/24",
@@ -23,7 +26,7 @@
       "217.71.80.0/20",
       "217.196.176.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:fb00::/29"
     ]
   }

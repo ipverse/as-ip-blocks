@@ -1,14 +1,17 @@
 {
-  "asn": 262278,
-  "handle": "CROSS-CONECTION-PROVEDOR",
-  "description": "CROSS CONECTION PROVEDOR DE INTERNET LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262278,
+  "metadata" : {
+    "handle" : "CROSS-CONECTION-PROVEDOR",
+    "description" : "CROSS CONECTION PROVEDOR DE INTERNET LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.190.220.0/24",
       "45.190.222.0/23",
       "177.11.40.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1ec4::/32"
     ]
   }

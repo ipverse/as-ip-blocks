@@ -1,9 +1,12 @@
 {
-  "asn": 138982,
-  "handle": "CHINANET-HUBEI-JIANGXIA-IDC",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138982,
+  "metadata" : {
+    "handle" : "CHINANET-HUBEI-JIANGXIA-IDC",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "111.172.192.0/21",
       "111.172.204.0/24",
       "111.172.216.0/22",
@@ -12,7 +15,7 @@
       "119.97.168.0/21",
       "119.97.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:105:e600::/39",
       "240e:108:1161::/48",
       "240e:95c:5000::/36",

@@ -1,9 +1,12 @@
 {
-  "asn": 35048,
-  "handle": "BITERIKA-AS",
-  "description": "Biterika Group LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35048,
+  "metadata" : {
+    "handle" : "BITERIKA-AS",
+    "description" : "Biterika Group LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.50.0/24",
       "5.183.130.0/24",
       "31.40.203.0/24",
@@ -68,7 +71,7 @@
       "212.115.49.0/24",
       "213.226.101.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:d647::/32",
       "2a07:ca07::/32",
       "2a0a:5680::/29",

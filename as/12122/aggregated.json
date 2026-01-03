@@ -1,9 +1,12 @@
 {
-  "asn": 12122,
-  "handle": "STJHS",
-  "description": "St. Joseph Health System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12122,
+  "metadata" : {
+    "handle" : "STJHS",
+    "description" : "St. Joseph Health System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "156.72.6.0/23",
       "156.72.30.0/23",
       "156.72.60.0/23",
@@ -13,6 +16,6 @@
       "156.72.160.0/23",
       "170.173.84.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

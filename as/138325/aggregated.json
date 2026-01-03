@@ -1,11 +1,14 @@
 {
-  "asn": 138325,
-  "handle": "ETHERLINK-AS-AP",
-  "description": "Ether Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138325,
+  "metadata" : {
+    "handle" : "ETHERLINK-AS-AP",
+    "description" : "Ether Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.122.248.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

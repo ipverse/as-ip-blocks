@@ -1,14 +1,17 @@
 {
-  "asn": 204527,
-  "handle": "BJNIP",
-  "description": "bejuno GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204527,
+  "metadata" : {
+    "handle" : "BJNIP",
+    "description" : "bejuno GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.130.5.0/24",
       "185.130.6.0/24",
       "210.93.220.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:8300:e00::/47",
       "2403:8300:e02::/48",
       "2403:8300:e04::/46",

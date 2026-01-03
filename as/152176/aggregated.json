@@ -1,13 +1,16 @@
 {
-  "asn": 152176,
-  "handle": "ISHANETWORK-AS-AP",
-  "description": "Isha Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152176,
+  "metadata" : {
+    "handle" : "ISHANETWORK-AS-AP",
+    "description" : "Isha Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.17.177.0/24",
       "103.134.202.0/24",
       "160.187.238.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

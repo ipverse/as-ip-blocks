@@ -1,9 +1,12 @@
 {
-  "asn": 38166,
-  "handle": "SCB1-AS-HK-AP",
-  "description": "Standard Chartered Bank (Hong Kong) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38166,
+  "metadata" : {
+    "handle" : "SCB1-AS-HK-AP",
+    "description" : "Standard Chartered Bank (Hong Kong) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.75.175.0/24",
       "166.81.5.0/24",
       "166.81.9.0/24",
@@ -41,6 +44,6 @@
       "206.42.118.0/23",
       "206.42.120.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 8173,
-  "handle": "STARBOARD",
-  "description": "Starboard Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8173,
+  "metadata" : {
+    "handle" : "STARBOARD",
+    "description" : "Starboard Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.143.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f860::/40"
     ]
   }

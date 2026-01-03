@@ -1,9 +1,12 @@
 {
-  "asn": 15640,
-  "handle": "FPIC-AS",
-  "description": "MTS PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15640,
+  "metadata" : {
+    "handle" : "FPIC-AS",
+    "description" : "MTS PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.16.32.0/19",
       "77.43.128.0/17",
       "77.93.96.0/22",
@@ -13,7 +16,7 @@
       "195.222.128.0/19",
       "213.87.42.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:e480::/32"
     ]
   }

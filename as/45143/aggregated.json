@@ -1,9 +1,12 @@
 {
-  "asn": 45143,
-  "handle": "SINGTELMOBILE-AS-AP",
-  "description": "Singapore Telecom Mobile Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45143,
+  "metadata" : {
+    "handle" : "SINGTELMOBILE-AS-AP",
+    "description" : "Singapore Telecom Mobile Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.100.128.0/17",
       "111.65.31.0/24",
       "111.65.32.0/19",
@@ -13,7 +16,7 @@
       "202.78.56.0/23",
       "202.78.58.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:1c00::/32"
     ]
   }

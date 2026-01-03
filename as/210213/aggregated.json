@@ -1,14 +1,17 @@
 {
-  "asn": 210213,
-  "handle": "STATE-ICT-AS",
-  "description": "VAS Latvijas Valsts radio un televizijas centrs",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210213,
+  "metadata" : {
+    "handle" : "STATE-ICT-AS",
+    "description" : "VAS Latvijas Valsts radio un televizijas centrs",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.244.146.0/24",
       "195.244.153.0/24",
       "195.244.156.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1780:dc00::/40"
     ]
   }

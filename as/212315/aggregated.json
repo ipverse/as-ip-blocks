@@ -1,14 +1,17 @@
 {
-  "asn": 212315,
-  "handle": "FTCZ-NET",
-  "description": "Frantisek Toman",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212315,
+  "metadata" : {
+    "handle" : "FTCZ-NET",
+    "description" : "Frantisek Toman",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.176.32.0/24",
       "194.164.239.0/24",
       "195.200.23.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:2040::/29"
     ]
   }

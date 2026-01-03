@@ -1,13 +1,16 @@
 {
-  "asn": 49375,
-  "handle": "AS-NOONEINTERNET",
-  "description": "No One Internet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49375,
+  "metadata" : {
+    "handle" : "AS-NOONEINTERNET",
+    "description" : "No One Internet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.17.240.0/20",
       "188.94.40.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1648::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 8405,
-  "handle": "SONTHEIMER-IT",
-  "description": "PE Sontheimer Bernd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8405,
+  "metadata" : {
+    "handle" : "SONTHEIMER-IT",
+    "description" : "PE Sontheimer Bernd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.252.124.0/22",
       "45.87.16.0/22",
       "185.218.168.0/22",
@@ -12,6 +15,6 @@
       "193.36.42.0/24",
       "193.188.154.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

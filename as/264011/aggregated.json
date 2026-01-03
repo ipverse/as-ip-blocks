@@ -1,12 +1,15 @@
 {
-  "asn": 264011,
-  "handle": "TREND-CONNECT",
-  "description": "TREND CONNECT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264011,
+  "metadata" : {
+    "handle" : "TREND-CONNECT",
+    "description" : "TREND CONNECT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.0.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2960::/32"
     ]
   }

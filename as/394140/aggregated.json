@@ -1,9 +1,12 @@
 {
-  "asn": 394140,
-  "handle": "NATIVENETWORK-1",
-  "description": "Native Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394140,
+  "metadata" : {
+    "handle" : "NATIVENETWORK-1",
+    "description" : "Native Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.46.136.0/22",
       "38.72.136.0/24",
       "38.94.99.0/24",
@@ -15,6 +18,6 @@
       "64.74.14.0/24",
       "162.253.51.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

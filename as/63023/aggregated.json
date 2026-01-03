@@ -1,9 +1,12 @@
 {
-  "asn": 63023,
-  "handle": "AS-GLOBALTELEHOST",
-  "description": "GTHost",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63023,
+  "metadata" : {
+    "handle" : "AS-GLOBALTELEHOST",
+    "description" : "GTHost",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.117.0/24",
       "2.59.62.0/24",
       "5.8.18.0/24",
@@ -197,7 +200,7 @@
       "216.177.129.0/24",
       "216.247.104.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:7580:f2::/48",
       "2604:86c0::/33",
       "2604:86c0:8000::/34",

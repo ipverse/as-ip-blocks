@@ -1,14 +1,17 @@
 {
-  "asn": 19755,
-  "handle": "CRUISE-NETENG-ASN",
-  "description": "Cruise LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19755,
+  "metadata" : {
+    "handle" : "CRUISE-NETENG-ASN",
+    "description" : "Cruise LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.177.102.0/24",
       "162.223.176.0/23",
       "199.73.126.0/23",
       "208.184.11.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

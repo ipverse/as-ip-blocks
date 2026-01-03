@@ -1,13 +1,16 @@
 {
-  "asn": 47340,
-  "handle": "ROCHE-AS",
-  "description": "Roche Diagnostics GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47340,
+  "metadata" : {
+    "handle" : "ROCHE-AS",
+    "description" : "Roche Diagnostics GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.120.84.0/23",
       "194.120.88.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:c440:2a00::/40"
     ]
   }

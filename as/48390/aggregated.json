@@ -1,12 +1,15 @@
 {
-  "asn": 48390,
-  "handle": "DSNETWORK",
-  "description": "Association Romandix",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48390,
+  "metadata" : {
+    "handle" : "DSNETWORK",
+    "description" : "Association Romandix",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.20.3.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:d0c0::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 199452,
-  "handle": "MS3-AS",
-  "description": "MS3 Networks Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199452,
+  "metadata" : {
+    "handle" : "MS3-AS",
+    "description" : "MS3 Networks Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.129.48.0/20",
       "149.88.112.0/20",
       "154.60.90.0/23",
@@ -14,6 +17,6 @@
       "154.62.144.0/20",
       "185.2.192.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 13893,
-  "handle": "EHI-NA-AS-1",
-  "description": "Enterprise Holdings Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13893,
+  "metadata" : {
+    "handle" : "EHI-NA-AS-1",
+    "description" : "Enterprise Holdings Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.116.51.0/24",
       "65.197.19.0/24",
       "65.207.197.0/24",
@@ -13,7 +16,7 @@
       "148.78.95.0/24",
       "208.47.116.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:103:e001::/48",
       "2620:103:e002::/48",
       "2620:103:e019::/48",

@@ -1,14 +1,17 @@
 {
-  "asn": 209578,
-  "handle": "SVEANET",
-  "description": "Svea Internet AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209578,
+  "metadata" : {
+    "handle" : "SVEANET",
+    "description" : "Svea Internet AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.20.96.0/22",
       "193.180.64.0/21",
       "193.182.96.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:cf40::/32"
     ]
   }

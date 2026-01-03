@@ -1,12 +1,15 @@
 {
-  "asn": 60461,
-  "handle": "INTERCOLO-SECURITY",
-  "description": "intercolo GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60461,
+  "metadata" : {
+    "handle" : "INTERCOLO-SECURITY",
+    "description" : "intercolo GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.114.44.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ccc5::/32"
     ]
   }

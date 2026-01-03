@@ -1,9 +1,12 @@
 {
-  "asn": 198984,
-  "handle": "BIALNET-AS",
-  "description": "BIALNET SP. Z O.O",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198984,
+  "metadata" : {
+    "handle" : "BIALNET-AS",
+    "description" : "BIALNET SP. Z O.O.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.155.148.0/22",
       "91.199.12.0/24",
       "91.239.152.0/22",
@@ -13,6 +16,6 @@
       "195.136.175.0/24",
       "195.136.184.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

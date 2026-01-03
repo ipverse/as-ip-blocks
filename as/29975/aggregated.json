@@ -1,9 +1,12 @@
 {
-  "asn": 29975,
-  "handle": "VODACOM-ZA",
-  "description": "Vodacom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29975,
+  "metadata" : {
+    "handle" : "VODACOM-ZA",
+    "description" : "Vodacom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.1.0.0/16",
       "41.2.0.0/18",
       "41.3.0.0/16",
@@ -30,6 +33,6 @@
       "196.46.160.0/20",
       "196.207.32.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

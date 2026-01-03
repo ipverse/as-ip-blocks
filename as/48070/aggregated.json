@@ -1,12 +1,15 @@
 {
-  "asn": 48070,
-  "handle": "DSM",
-  "description": "DSM (GB) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48070,
+  "metadata" : {
+    "handle" : "DSM",
+    "description" : "DSM (GB) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.126.232.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:5700::/32",
       "2a11:5707::/32"
     ]

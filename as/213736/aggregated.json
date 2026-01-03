@@ -1,9 +1,12 @@
 {
-  "asn": 213736,
-  "handle": "UK-ASN",
-  "description": "Zantan GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213736,
+  "metadata" : {
+    "handle" : "UK-ASN",
+    "description" : "Zantan GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.27.184.0/22",
       "151.242.245.0/24",
       "151.242.247.0/24",
@@ -13,7 +16,7 @@
       "154.92.31.0/24",
       "156.251.70.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:cc00:e001::/48"
     ]
   }

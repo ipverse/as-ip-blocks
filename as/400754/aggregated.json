@@ -1,9 +1,12 @@
 {
-  "asn": 400754,
-  "handle": "GO-DADDY-COM-LLC",
-  "description": "GoDaddy.com LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400754,
+  "metadata" : {
+    "handle" : "GO-DADDY-COM-LLC",
+    "description" : "GoDaddy.com LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.62.152.0/24",
       "50.63.4.0/23",
       "97.74.72.0/22",
@@ -18,6 +21,6 @@
       "198.71.254.0/24",
       "208.109.132.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

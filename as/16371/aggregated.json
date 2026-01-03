@@ -1,9 +1,12 @@
 {
-  "asn": 16371,
-  "handle": "ACENS-AS",
-  "description": "acens Technologies S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16371,
+  "metadata" : {
+    "handle" : "ACENS-AS",
+    "description" : "acens Technologies S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.6.48.0/22",
       "77.240.112.0/20",
       "79.139.120.0/21",
@@ -34,7 +37,7 @@
       "213.149.224.0/19",
       "217.116.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:3b8::/32"
     ]
   }

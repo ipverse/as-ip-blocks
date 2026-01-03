@@ -1,12 +1,15 @@
 {
-  "asn": 202240,
-  "handle": "INNFLOW-CH-001",
-  "description": "Innflow AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202240,
+  "metadata" : {
+    "handle" : "INNFLOW-CH-001",
+    "description" : "Innflow AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.98.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:bc40::/29"
     ]
   }

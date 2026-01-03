@@ -1,9 +1,12 @@
 {
-  "asn": 36231,
-  "handle": "TEMPEST-HOSTING",
-  "description": "Tempest Hosting LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36231,
+  "metadata" : {
+    "handle" : "TEMPEST-HOSTING",
+    "description" : "Tempest Hosting LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.88.228.0/22",
       "64.52.81.0/24",
       "66.92.176.0/24",
@@ -22,7 +25,7 @@
       "209.237.141.0/24",
       "216.126.207.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:f240::/32"
     ]
   }

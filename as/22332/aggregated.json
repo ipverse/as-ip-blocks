@@ -1,13 +1,16 @@
 {
-  "asn": 22332,
-  "handle": "WDC-US",
-  "description": "Western Digital Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22332,
+  "metadata" : {
+    "handle" : "WDC-US",
+    "description" : "Western Digital Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.253.60.0/22",
       "129.253.180.0/22",
       "129.253.184.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

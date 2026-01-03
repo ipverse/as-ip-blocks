@@ -1,11 +1,14 @@
 {
-  "asn": 55098,
-  "handle": "LOB-AS",
-  "description": "Live Oak Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55098,
+  "metadata" : {
+    "handle" : "LOB-AS",
+    "description" : "Live Oak Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.235.16.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

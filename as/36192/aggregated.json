@@ -1,12 +1,15 @@
 {
-  "asn": 36192,
-  "handle": "AS-HOSTCIRCLE-01",
-  "description": "HOSTCIRCLE INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36192,
+  "metadata" : {
+    "handle" : "AS-HOSTCIRCLE-01",
+    "description" : "HOSTCIRCLE INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.83.152.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:ef40:2::/48"
     ]
   }

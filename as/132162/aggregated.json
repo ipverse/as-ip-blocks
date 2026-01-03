@@ -1,12 +1,15 @@
 {
-  "asn": 132162,
-  "handle": "SANTOS-AS-AP",
-  "description": "Santos Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132162,
+  "metadata" : {
+    "handle" : "SANTOS-AS-AP",
+    "description" : "Santos Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.6.116.0/24",
       "103.54.238.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

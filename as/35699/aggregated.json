@@ -1,9 +1,12 @@
 {
-  "asn": 35699,
-  "handle": "ADAMOEU-AS",
-  "description": "Adamo Telecom Iberia S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35699,
+  "metadata" : {
+    "handle" : "ADAMOEU-AS",
+    "description" : "Adamo Telecom Iberia S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.254.126.0/24",
       "45.130.132.0/22",
       "45.133.138.0/23",
@@ -51,7 +54,7 @@
       "212.97.88.0/21",
       "216.147.96.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1af0::/29"
     ]
   }

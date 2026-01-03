@@ -1,14 +1,17 @@
 {
-  "asn": 1448,
-  "handle": "UNITED-BROADBAND",
-  "description": "United Cooperative Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1448,
+  "metadata" : {
+    "handle" : "UNITED-BROADBAND",
+    "description" : "United Cooperative Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "156.146.128.0/17",
       "158.41.128.0/17",
       "158.51.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:9840::/32"
     ]
   }

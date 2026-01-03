@@ -1,12 +1,15 @@
 {
-  "asn": 136935,
-  "handle": "LOCALPREFPTYLTD-AS-AP",
-  "description": "LocalPref Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136935,
+  "metadata" : {
+    "handle" : "LOCALPREFPTYLTD-AS-AP",
+    "description" : "LocalPref Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.30.130.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:bc20::/32"
     ]
   }

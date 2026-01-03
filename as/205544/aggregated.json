@@ -1,9 +1,12 @@
 {
-  "asn": 205544,
-  "handle": "LEASEWEB-UK-LON-11",
-  "description": "Leaseweb UK Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205544,
+  "metadata" : {
+    "handle" : "LEASEWEB-UK-LON-11",
+    "description" : "Leaseweb UK Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.19.56.0/21",
       "23.81.32.0/21",
       "23.106.32.0/21",
@@ -38,7 +41,7 @@
       "193.160.76.0/22",
       "194.56.232.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1b88::/32",
       "2a04:88c4::/30",
       "2a0d:3000::/30",

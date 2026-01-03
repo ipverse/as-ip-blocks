@@ -1,9 +1,12 @@
 {
-  "asn": 16082,
-  "handle": "SPITFIRE",
-  "description": "Spitfire Network Services Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16082,
+  "metadata" : {
+    "handle" : "SPITFIRE",
+    "description" : "Spitfire Network Services Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.24.0.0/21",
       "37.77.176.0/21",
       "62.133.0.0/19",
@@ -17,7 +20,7 @@
       "212.237.64.0/19",
       "217.13.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:b90::/32"
     ]
   }

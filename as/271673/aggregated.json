@@ -1,13 +1,16 @@
 {
-  "asn": 271673,
-  "handle": "ST-NET-TELECOM",
-  "description": "ST NET TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271673,
+  "metadata" : {
+    "handle" : "ST-NET-TELECOM",
+    "description" : "ST NET TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.255.130.0/24",
       "201.218.190.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7f34::/32"
     ]
   }

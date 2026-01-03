@@ -1,11 +1,14 @@
 {
-  "asn": 33577,
-  "handle": "RFA-AS",
-  "description": "Radio Free Asia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33577,
+  "metadata" : {
+    "handle" : "RFA-AS",
+    "description" : "Radio Free Asia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.103.23.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

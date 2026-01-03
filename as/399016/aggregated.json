@@ -1,15 +1,18 @@
 {
-  "asn": 399016,
-  "handle": "CFOC-1",
-  "description": "Canadian Fiber Optics Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399016,
+  "metadata" : {
+    "handle" : "CFOC-1",
+    "description" : "Canadian Fiber Optics Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.168.208.0/24",
       "64.227.208.0/22",
       "96.9.100.0/24",
       "96.9.103.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:3c0::/32"
     ]
   }

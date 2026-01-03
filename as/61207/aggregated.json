@@ -1,9 +1,12 @@
 {
-  "asn": 61207,
-  "handle": "ILAIT",
-  "description": "Hostek AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61207,
+  "metadata" : {
+    "handle" : "ILAIT",
+    "description" : "Hostek AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.237.208.0/21",
       "89.221.240.0/23",
       "89.221.243.0/24",
@@ -15,7 +18,7 @@
       "195.35.82.0/23",
       "212.16.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:fc00::/29"
     ]
   }

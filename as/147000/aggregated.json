@@ -1,11 +1,14 @@
 {
-  "asn": 147000,
-  "handle": "CGPL-AS-AP",
-  "description": "Consortium Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147000,
+  "metadata" : {
+    "handle" : "CGPL-AS-AP",
+    "description" : "Consortium Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.172.174.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

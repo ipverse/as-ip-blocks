@@ -1,12 +1,15 @@
 {
-  "asn": 24006,
-  "handle": "LIVERTON-AS-NZ",
-  "description": "Liverton Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24006,
+  "metadata" : {
+    "handle" : "LIVERTON-AS-NZ",
+    "description" : "Liverton Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.160.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:b400::/32"
     ]
   }

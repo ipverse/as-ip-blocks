@@ -1,15 +1,18 @@
 {
-  "asn": 203483,
-  "handle": "GARMIN-EMEA",
-  "description": "Garmin International Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203483,
+  "metadata" : {
+    "handle" : "GARMIN-EMEA",
+    "description" : "Garmin International Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.11.92.0/24",
       "185.11.94.0/23",
       "185.132.76.0/23",
       "185.207.93.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:9680:2::/47"
     ]
   }

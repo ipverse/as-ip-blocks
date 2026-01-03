@@ -1,9 +1,12 @@
 {
-  "asn": 6102,
-  "handle": "CBSCORPORATE",
-  "description": "CBS inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6102,
+  "metadata" : {
+    "handle" : "CBSCORPORATE",
+    "description" : "CBS inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.228.128.0/17",
       "170.20.0.0/16",
       "192.238.64.0/18",
@@ -11,6 +14,6 @@
       "198.99.120.0/23",
       "198.99.122.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

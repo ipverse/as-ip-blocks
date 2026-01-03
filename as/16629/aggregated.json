@@ -1,9 +1,12 @@
 {
-  "asn": 16629,
-  "handle": "CTC-CORP",
-  "description": "CTC. CORP S.A. (TELEFONICA EMPRESAS)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16629,
+  "metadata" : {
+    "handle" : "CTC-CORP",
+    "description" : "CTC. CORP S.A. (TELEFONICA EMPRESAS)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.84.208.0/22",
       "181.212.0.0/16",
       "186.40.128.0/17",
@@ -19,7 +22,7 @@
       "201.236.168.0/21",
       "201.236.176.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:4e0:c000::/34",
       "2800:590:1000::/36",
       "2800:590:2000::/36"

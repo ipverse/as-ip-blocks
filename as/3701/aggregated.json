@@ -1,9 +1,12 @@
 {
-  "asn": 3701,
-  "handle": "LINK-OREGON",
-  "description": "University of Oregon",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3701,
+  "metadata" : {
+    "handle" : "LINK-OREGON",
+    "description" : "University of Oregon",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "140.211.0.0/16",
       "163.41.0.0/16",
       "198.237.0.0/20",
@@ -15,7 +18,7 @@
       "204.87.204.0/24",
       "207.98.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:bc80::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 49468,
-  "handle": "MAGHOST-RO",
-  "description": "MAGIT\u0027ST SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49468,
+  "metadata" : {
+    "handle" : "MAGHOST-RO",
+    "description" : "MAGIT'ST SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.8.45.0/24",
       "45.8.46.0/23",
       "45.13.36.0/24",
@@ -28,6 +31,6 @@
       "194.246.84.0/24",
       "194.246.100.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

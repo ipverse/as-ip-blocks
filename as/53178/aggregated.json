@@ -1,14 +1,17 @@
 {
-  "asn": 53178,
-  "handle": "SCNET-EQUIPAMENTOS-INFORMATICA",
-  "description": "SCNet Equipamentos de Informática Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53178,
+  "metadata" : {
+    "handle" : "SCNET-EQUIPAMENTOS-INFORMATICA",
+    "description" : "SCNet Equipamentos de Informática Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.181.216.0/22",
       "186.226.112.0/20",
       "191.240.128.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1100::/32"
     ]
   }

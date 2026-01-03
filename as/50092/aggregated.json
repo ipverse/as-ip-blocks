@@ -1,12 +1,15 @@
 {
-  "asn": 50092,
-  "handle": "DRLINE-AS",
-  "description": "DRLINE Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50092,
+  "metadata" : {
+    "handle" : "DRLINE-AS",
+    "description" : "DRLINE Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.244.64.0/22",
       "195.211.232.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

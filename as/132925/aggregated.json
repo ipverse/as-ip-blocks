@@ -1,9 +1,12 @@
 {
-  "asn": 132925,
-  "handle": "IDEASTACK-AS-IN",
-  "description": "Ideastack Solutions Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132925,
+  "metadata" : {
+    "handle" : "IDEASTACK-AS-IN",
+    "description" : "Ideastack Solutions Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.4.0/23",
       "38.130.252.0/24",
       "43.224.132.0/22",
@@ -34,6 +37,6 @@
       "150.129.1.0/24",
       "210.16.101.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

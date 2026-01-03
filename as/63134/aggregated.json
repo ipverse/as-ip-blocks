@@ -1,9 +1,12 @@
 {
-  "asn": 63134,
-  "handle": "IHR-TELECOM",
-  "description": "Developpement Innovations Haut-Richelieu",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63134,
+  "metadata" : {
+    "handle" : "IHR-TELECOM",
+    "description" : "Developpement Innovations Haut-Richelieu",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.8.176.0/20",
       "76.164.216.0/22",
       "169.150.4.0/22",
@@ -11,6 +14,6 @@
       "199.204.184.0/22",
       "205.173.160.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

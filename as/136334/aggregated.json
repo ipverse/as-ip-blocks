@@ -1,9 +1,12 @@
 {
-  "asn": 136334,
-  "handle": "VNPL-AS",
-  "description": "Vortex Netsol Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136334,
+  "metadata" : {
+    "handle" : "VNPL-AS",
+    "description" : "Vortex Netsol Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.248.64.0/22",
       "45.250.44.0/22",
       "103.88.220.0/22",
@@ -19,7 +22,7 @@
       "206.84.234.0/23",
       "206.84.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:b00::/48",
       "2400:97a0::/32"
     ]

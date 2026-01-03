@@ -1,9 +1,12 @@
 {
-  "asn": 29518,
-  "handle": "BREDBAND2",
-  "description": "Bredband2 AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29518,
+  "metadata" : {
+    "handle" : "BREDBAND2",
+    "description" : "Bredband2 AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.44.192.0/20",
       "5.172.144.0/21",
       "31.192.192.0/20",
@@ -89,7 +92,7 @@
       "217.76.80.0/20",
       "217.115.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:21dc::/48",
       "2001:67c:22b8::/48",
       "2001:67c:2968::/48",

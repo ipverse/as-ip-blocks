@@ -1,9 +1,12 @@
 {
-  "asn": 33372,
-  "handle": "SPARTAN-AS",
-  "description": "Spartan Stores Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33372,
+  "metadata" : {
+    "handle" : "SPARTAN-AS",
+    "description" : "Spartan Stores Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "155.110.160.0/24",
       "155.110.168.0/21",
       "155.110.220.0/23",
@@ -12,6 +15,6 @@
       "198.212.237.0/24",
       "198.212.238.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

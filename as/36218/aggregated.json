@@ -1,9 +1,12 @@
 {
-  "asn": 36218,
-  "handle": "WHG-CAN",
-  "description": "WHG Hosting Services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36218,
+  "metadata" : {
+    "handle" : "WHG-CAN",
+    "description" : "WHG Hosting Services Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.250.237.0/24",
       "192.250.238.0/24",
       "199.103.56.0/23",
@@ -13,6 +16,6 @@
       "208.88.4.0/22",
       "209.42.24.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

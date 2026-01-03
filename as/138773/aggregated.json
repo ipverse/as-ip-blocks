@@ -1,14 +1,17 @@
 {
-  "asn": 138773,
-  "handle": "RFTAR-AS",
-  "description": "RFTAR NETWORKS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138773,
+  "metadata" : {
+    "handle" : "RFTAR-AS",
+    "description" : "RFTAR NETWORKS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.139.219.0/24",
       "103.167.115.0/24",
       "202.137.252.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:44a0::/32"
     ]
   }

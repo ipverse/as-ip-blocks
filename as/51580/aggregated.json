@@ -1,9 +1,12 @@
 {
-  "asn": 51580,
-  "handle": "TIMENET-AS",
-  "description": "TIMENET SPA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51580,
+  "metadata" : {
+    "handle" : "TIMENET-AS",
+    "description" : "TIMENET SPA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.172.96.0/22",
       "31.193.16.0/20",
       "46.17.152.0/21",
@@ -29,6 +32,6 @@
       "193.176.246.0/24",
       "194.110.56.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

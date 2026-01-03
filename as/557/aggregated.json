@@ -1,9 +1,12 @@
 {
-  "asn": 557,
-  "handle": "UMAINE-SYS-AS",
-  "description": "University of Maine System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 557,
+  "metadata" : {
+    "handle" : "UMAINE-SYS-AS",
+    "description" : "University of Maine System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.45.64.0/18",
       "65.18.0.0/18",
       "65.18.64.0/19",
@@ -21,7 +24,7 @@
       "207.166.224.0/19",
       "209.222.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:48::/32"
     ]
   }

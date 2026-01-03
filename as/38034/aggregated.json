@@ -1,12 +1,15 @@
 {
-  "asn": 38034,
-  "handle": "RESERVE-CSLOXINFO-TH",
-  "description": "CSLOXINFO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38034,
+  "metadata" : {
+    "handle" : "RESERVE-CSLOXINFO-TH",
+    "description" : "CSLOXINFO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.208.138.0/23",
       "170.40.250.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

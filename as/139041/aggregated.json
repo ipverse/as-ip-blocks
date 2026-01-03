@@ -1,13 +1,16 @@
 {
-  "asn": 139041,
-  "handle": "CBS-AS-AP",
-  "description": "CAFE-7040",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139041,
+  "metadata" : {
+    "handle" : "CBS-AS-AP",
+    "description" : "CAFE-7040",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.138.226.0/23",
       "103.239.14.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:1c20::/33"
     ]
   }

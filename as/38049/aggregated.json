@@ -1,11 +1,14 @@
 {
-  "asn": 38049,
-  "handle": "CFG-AS-AP",
-  "description": "Collins Foods Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38049,
+  "metadata" : {
+    "handle" : "CFG-AS-AP",
+    "description" : "Collins Foods Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.57.4.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

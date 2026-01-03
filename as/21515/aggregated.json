@@ -1,13 +1,16 @@
 {
-  "asn": 21515,
-  "handle": "NET-SISQTEL-NET1",
-  "description": "SISKIYOU TELEPHONE COMPANY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21515,
+  "metadata" : {
+    "handle" : "NET-SISQTEL-NET1",
+    "description" : "SISKIYOU TELEPHONE COMPANY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.119.26.0/23",
       "137.119.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:9800::/32"
     ]
   }

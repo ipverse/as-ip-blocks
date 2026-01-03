@@ -1,9 +1,12 @@
 {
-  "asn": 53356,
-  "handle": "FREE-RANGE-CLOUD",
-  "description": "Free Range Cloud Hosting Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53356,
+  "metadata" : {
+    "handle" : "FREE-RANGE-CLOUD",
+    "description" : "Free Range Cloud Hosting Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.129.32.0/24",
       "23.133.64.0/24",
       "23.152.224.0/24",
@@ -93,7 +96,7 @@
       "216.24.216.0/24",
       "217.25.12.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f90c::/40",
       "2602:f91e::/40",
       "2602:f92d::/40",

@@ -1,9 +1,12 @@
 {
-  "asn": 57888,
-  "handle": "TELESAT-AS",
-  "description": "Telesat d.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57888,
+  "metadata" : {
+    "handle" : "TELESAT-AS",
+    "description" : "Telesat d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.59.160.0/21",
       "5.149.64.0/20",
       "5.149.80.0/21",
@@ -20,6 +23,6 @@
       "194.99.16.0/22",
       "217.9.20.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 46516,
-  "handle": "GLOBEIX",
-  "description": "HostRoyale LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46516,
+  "metadata" : {
+    "handle" : "GLOBEIX",
+    "description" : "HostRoyale LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.41.160.0/22",
       "45.41.168.0/22",
       "45.41.172.0/23",
@@ -15,7 +18,7 @@
       "104.232.208.0/22",
       "162.251.136.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:2700::/29"
     ]
   }

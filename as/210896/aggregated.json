@@ -1,12 +1,15 @@
 {
-  "asn": 210896,
-  "handle": "IX-1-AS-SERVICES",
-  "description": "Private entrepreneur Barsky Dmitro Oleksandrovych",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210896,
+  "metadata" : {
+    "handle" : "IX-1-AS-SERVICES",
+    "description" : "Private entrepreneur Barsky Dmitro Oleksandrovych",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.239.24.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:d540:1111::/48",
       "2a0c:d540:1112::/47",
       "2a13:f780::/29"

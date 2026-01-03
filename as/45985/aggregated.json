@@ -1,9 +1,12 @@
 {
-  "asn": 45985,
-  "handle": "SAMSUNGCLOUDPLATFORM-AS",
-  "description": "SamsungSDS Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45985,
+  "metadata" : {
+    "handle" : "SAMSUNGCLOUDPLATFORM-AS",
+    "description" : "SamsungSDS Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "112.106.168.0/22",
       "112.106.232.0/22",
       "112.107.101.0/24",
@@ -25,6 +28,6 @@
       "203.246.216.0/22",
       "203.246.224.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 209109,
-  "handle": "DATASPHERE-LIMITED",
-  "description": "DataSphere (H.K) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209109,
+  "metadata" : {
+    "handle" : "DATASPHERE-LIMITED",
+    "description" : "DataSphere (H.K) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.135.220.0/24",
       "23.141.244.0/24",
       "142.249.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f613:100::/40",
       "2602:f7dc:5::/48",
       "2602:f7dc:7::/48",

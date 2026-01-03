@@ -1,13 +1,16 @@
 {
-  "asn": 401077,
-  "handle": "UMBRACORP",
-  "description": "Umbra Industries Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401077,
+  "metadata" : {
+    "handle" : "UMBRACORP",
+    "description" : "Umbra Industries Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.186.40.0/24",
       "185.43.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:cc:6000::/48"
     ]
   }

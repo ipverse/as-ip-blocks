@@ -1,9 +1,12 @@
 {
-  "asn": 62658,
-  "handle": "WYAN-AS",
-  "description": "City of Wyandotte",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62658,
+  "metadata" : {
+    "handle" : "WYAN-AS",
+    "description" : "City of Wyandotte",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.7.140.0/22",
       "38.52.164.0/22",
       "50.173.184.0/21",
@@ -12,6 +15,6 @@
       "192.149.10.0/24",
       "199.33.76.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

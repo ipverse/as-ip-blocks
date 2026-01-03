@@ -1,12 +1,15 @@
 {
-  "asn": 400653,
-  "handle": "UPENN-WHARTON-SF",
-  "description": "University of Pennsylvania",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400653,
+  "metadata" : {
+    "handle" : "UPENN-WHARTON-SF",
+    "description" : "University of Pennsylvania",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.123.192.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f470:5000::/48"
     ]
   }

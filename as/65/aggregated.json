@@ -1,12 +1,15 @@
 {
-  "asn": 65,
-  "handle": "AF-RASN-65",
-  "description": "Air Force Systems Networking",
-  "subnets": {
-    "ipv4": [
+  "asn" : 65,
+  "metadata" : {
+    "handle" : "AF-RASN-65",
+    "description" : "Air Force Systems Networking",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.19.163.0/24",
       "192.111.86.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

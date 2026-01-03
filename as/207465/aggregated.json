@@ -1,12 +1,15 @@
 {
-  "asn": 207465,
-  "handle": "NETDEF-US",
-  "description": "Network Device Education Foundation Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207465,
+  "metadata" : {
+    "handle" : "NETDEF-US",
+    "description" : "Network Device Education Foundation Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.147.139.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:e480:1::/48",
       "2a07:e480:2::/48",
       "2a07:e480:aaa::/48"

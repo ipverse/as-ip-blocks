@@ -1,9 +1,12 @@
 {
-  "asn": 53956,
-  "handle": "NEFCOM-COMMUNICATIONS",
-  "description": "Northeast Florida Long Distance Co. Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53956,
+  "metadata" : {
+    "handle" : "NEFCOM-COMMUNICATIONS",
+    "description" : "Northeast Florida Long Distance Co. Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.223.192.0/22",
       "67.223.207.0/24",
       "67.223.217.0/24",
@@ -15,6 +18,6 @@
       "76.72.237.0/24",
       "76.72.239.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

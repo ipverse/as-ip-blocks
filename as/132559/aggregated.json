@@ -1,9 +1,12 @@
 {
-  "asn": 132559,
-  "handle": "GATIK-AS-IN",
-  "description": "Gatik Business Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132559,
+  "metadata" : {
+    "handle" : "GATIK-AS-IN",
+    "description" : "Gatik Business Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.255.84.0/22",
       "103.16.68.0/22",
       "103.146.216.0/23",
@@ -12,7 +15,7 @@
       "103.186.68.0/23",
       "160.22.87.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:3600::/48",
       "2400:6ee0::/32",
       "2405:a140::/32"

@@ -1,9 +1,12 @@
 {
-  "asn": 209835,
-  "handle": "AVANZAFIBRA",
-  "description": "Despliegue de Redes de Telecomunicaciones S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209835,
+  "metadata" : {
+    "handle" : "AVANZAFIBRA",
+    "description" : "Despliegue de Redes de Telecomunicaciones S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.232.0/22",
       "38.159.172.0/24",
       "45.149.182.0/23",
@@ -15,7 +18,7 @@
       "185.185.94.0/23",
       "185.227.100.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:fc40:1::/48",
       "2a09:fc40:2::/47",
       "2a09:fc40:4::/47",

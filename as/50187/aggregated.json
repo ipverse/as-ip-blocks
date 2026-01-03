@@ -1,9 +1,12 @@
 {
-  "asn": 50187,
-  "handle": "BWC",
-  "description": "BaikalWestCom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50187,
+  "metadata" : {
+    "handle" : "BWC",
+    "description" : "BaikalWestCom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.146.0/23",
       "31.44.244.0/23",
       "31.44.247.0/24",
@@ -13,7 +16,7 @@
       "195.93.148.0/23",
       "212.67.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:26c0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 12007,
-  "handle": "RAYASN",
-  "description": "Raytheon Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12007,
+  "metadata" : {
+    "handle" : "RAYASN",
+    "description" : "Raytheon Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.13.0.0/16",
       "138.127.56.0/23",
       "192.27.7.0/24",
@@ -13,6 +16,6 @@
       "192.199.109.0/24",
       "199.46.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

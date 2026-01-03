@@ -1,12 +1,15 @@
 {
-  "asn": 64442,
-  "handle": "CH-SECURITAS-SOP-RZ01",
-  "description": "Securitas AG Schweizerische Bewachungsgesellschaft",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64442,
+  "metadata" : {
+    "handle" : "CH-SECURITAS-SOP-RZ01",
+    "description" : "Securitas AG Schweizerische Bewachungsgesellschaft",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.161.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:c180::/29"
     ]
   }

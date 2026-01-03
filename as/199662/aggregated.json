@@ -1,14 +1,17 @@
 {
-  "asn": 199662,
-  "handle": "EXION",
-  "description": "Exion Networks SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199662,
+  "metadata" : {
+    "handle" : "EXION",
+    "description" : "Exion Networks SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.3.129.0/24",
       "31.3.131.0/24",
       "31.3.134.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:4c80::/29"
     ]
   }

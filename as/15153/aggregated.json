@@ -1,9 +1,12 @@
 {
-  "asn": 15153,
-  "handle": "STARWIRELESS-15153",
-  "description": "StarVision Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15153,
+  "metadata" : {
+    "handle" : "STARWIRELESS-15153",
+    "description" : "StarVision Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.21.224.0/19",
       "38.66.112.0/20",
       "66.207.224.0/19",
@@ -13,7 +16,7 @@
       "206.74.220.0/22",
       "216.251.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:1300::/32"
     ]
   }

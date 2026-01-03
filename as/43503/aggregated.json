@@ -1,9 +1,12 @@
 {
-  "asn": 43503,
-  "handle": "HERBST-AS",
-  "description": "Herbst Datentechnik GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43503,
+  "metadata" : {
+    "handle" : "HERBST-AS",
+    "description" : "Herbst Datentechnik GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.30.80.0/21",
       "46.226.112.0/21",
       "81.16.48.0/20",
@@ -11,6 +14,6 @@
       "91.203.200.0/22",
       "109.234.120.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

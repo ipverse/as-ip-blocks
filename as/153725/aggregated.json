@@ -1,12 +1,15 @@
 {
-  "asn": 153725,
-  "handle": "TENONET-AS-AP",
-  "description": "Tenonet (Hangzhou) Co Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153725,
+  "metadata" : {
+    "handle" : "TENONET-AS-AP",
+    "description" : "Tenonet (Hangzhou) Co Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.223.178.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:f860:86::/47",
       "2401:f860:88::/47",
       "2401:f860:90::/46",

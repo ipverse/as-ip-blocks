@@ -1,9 +1,12 @@
 {
-  "asn": 60475,
-  "handle": "XMATICA-AS",
-  "description": "Progettofibra Srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60475,
+  "metadata" : {
+    "handle" : "XMATICA-AS",
+    "description" : "Progettofibra Srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.178.120.0/21",
       "5.253.196.0/23",
       "37.202.16.0/21",
@@ -13,7 +16,7 @@
       "185.241.200.0/22",
       "193.168.52.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:ff00::/29"
     ]
   }

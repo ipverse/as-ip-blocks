@@ -1,9 +1,12 @@
 {
-  "asn": 48635,
-  "handle": "CLDIN-NL",
-  "description": "Your Hosting B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48635,
+  "metadata" : {
+    "handle" : "CLDIN-NL",
+    "description" : "Your Hosting B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.57.0/24",
       "5.157.80.0/21",
       "31.25.96.0/21",
@@ -64,7 +67,7 @@
       "195.238.74.0/23",
       "213.189.29.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:3a4::/48",
       "2001:678:76c::/48",
       "2001:67c:28fc::/48",

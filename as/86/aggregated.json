@@ -1,12 +1,15 @@
 {
-  "asn": 86,
-  "handle": "DXC-AS86",
-  "description": "DXC US Latin America Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 86,
+  "metadata" : {
+    "handle" : "DXC-AS86",
+    "description" : "DXC US Latin America Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.87.86.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f028:86::/48",
       "2607:f028:a10::/44",
       "2607:f028:a20::/44",

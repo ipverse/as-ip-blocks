@@ -1,9 +1,12 @@
 {
-  "asn": 18033,
-  "handle": "CMBTGD-AS",
-  "description": "CMB TAEGU BROADCASTING",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18033,
+  "metadata" : {
+    "handle" : "CMBTGD-AS",
+    "description" : "CMB TAEGU BROADCASTING",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.241.106.0/23",
       "43.241.108.0/22",
       "49.143.180.0/22",
@@ -15,6 +18,6 @@
       "125.62.216.0/21",
       "203.166.208.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

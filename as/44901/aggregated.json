@@ -1,9 +1,12 @@
 {
-  "asn": 44901,
-  "handle": "BELCLOUD",
-  "description": "Belcloud LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44901,
+  "metadata" : {
+    "handle" : "BELCLOUD",
+    "description" : "Belcloud LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.137.220.0/22",
       "78.40.142.0/24",
       "85.217.170.0/23",
@@ -55,7 +58,7 @@
       "193.135.174.0/24",
       "212.73.150.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:5740::/31",
       "2a09:be80::/32",
       "2a14:640::/48"

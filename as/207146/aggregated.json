@@ -1,13 +1,16 @@
 {
-  "asn": 207146,
-  "handle": "NETIKOM-AS",
-  "description": "Netikom SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207146,
+  "metadata" : {
+    "handle" : "NETIKOM-AS",
+    "description" : "Netikom SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.161.232.0/22",
       "162.33.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:2c40::/29"
     ]
   }

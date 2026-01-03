@@ -1,14 +1,17 @@
 {
-  "asn": 400731,
-  "handle": "VTS-SERVICES",
-  "description": "VTS Services Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400731,
+  "metadata" : {
+    "handle" : "VTS-SERVICES",
+    "description" : "VTS Services Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.239.70.0/24",
       "64.255.14.0/24",
       "162.244.211.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:812:c000::/44"
     ]
   }

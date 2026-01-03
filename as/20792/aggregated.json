@@ -1,15 +1,18 @@
 {
-  "asn": 20792,
-  "handle": "VISTEC-AS",
-  "description": "VISTEC Internet Service GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20792,
+  "metadata" : {
+    "handle" : "VISTEC-AS",
+    "description" : "VISTEC Internet Service GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.87.189.0/24",
       "185.95.192.0/22",
       "212.237.228.0/24",
       "213.216.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:d5c::/48",
       "2a02:13c0::/32",
       "2a0f:fa42::/32"

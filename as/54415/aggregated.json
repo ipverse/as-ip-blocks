@@ -1,13 +1,16 @@
 {
-  "asn": 54415,
-  "handle": "WIZ-JP-AS-AP",
-  "description": "WIZ K.K",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54415,
+  "metadata" : {
+    "handle" : "WIZ-JP-AS-AP",
+    "description" : "WIZ K.K.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.99.168.0/22",
       "209.146.50.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:b140::/46",
       "2401:b140:4::/47"
     ]

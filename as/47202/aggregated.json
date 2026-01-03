@@ -1,9 +1,12 @@
 {
-  "asn": 47202,
-  "handle": "LAZER",
-  "description": "Lazer Telecomunicacoes S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47202,
+  "metadata" : {
+    "handle" : "LAZER",
+    "description" : "Lazer Telecomunicacoes S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.31.224.0/21",
       "94.126.144.0/21",
       "103.117.124.0/22",
@@ -13,6 +16,6 @@
       "193.218.156.0/22",
       "195.184.240.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

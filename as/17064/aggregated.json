@@ -1,9 +1,12 @@
 {
-  "asn": 17064,
-  "handle": "TISD-VIC",
-  "description": "TISD Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17064,
+  "metadata" : {
+    "handle" : "TISD-VIC",
+    "description" : "TISD Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.18.96.0/22",
       "64.123.96.0/21",
       "64.123.104.0/23",
@@ -11,6 +14,6 @@
       "207.174.223.0/24",
       "207.243.120.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

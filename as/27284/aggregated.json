@@ -1,14 +1,17 @@
 {
-  "asn": 27284,
-  "handle": "FOURPLEX-ASN",
-  "description": "Fourplex Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27284,
+  "metadata" : {
+    "handle" : "FOURPLEX-ASN",
+    "description" : "Fourplex Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.134.76.0/24",
       "38.135.24.0/23",
       "38.225.240.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f6f6::/47",
       "2602:f6f6:2::/48",
       "2602:f6f6:10::/44"

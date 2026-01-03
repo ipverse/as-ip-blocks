@@ -1,9 +1,12 @@
 {
-  "asn": 202662,
-  "handle": "AS-HYTRON",
-  "description": "Hytron Network Services Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202662,
+  "metadata" : {
+    "handle" : "AS-HYTRON",
+    "description" : "Hytron Network Services Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.56.31.0/24",
       "38.150.12.0/22",
       "82.152.160.0/21",
@@ -13,7 +16,7 @@
       "157.254.20.0/22",
       "191.96.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:b60:a::/48",
       "2401:b60:12::/47",
       "2401:b60:14::/48",

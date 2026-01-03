@@ -1,9 +1,12 @@
 {
-  "asn": 9627,
-  "handle": "TCR-AP",
-  "description": "TCR Holdings Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9627,
+  "metadata" : {
+    "handle" : "TCR-AP",
+    "description" : "TCR Holdings Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.193.192.0/20",
       "116.193.208.0/24",
       "116.193.210.0/23",
@@ -28,6 +31,6 @@
       "220.247.178.0/23",
       "220.247.180.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

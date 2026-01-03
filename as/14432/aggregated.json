@@ -1,12 +1,15 @@
 {
-  "asn": 14432,
-  "handle": "GREX",
-  "description": "NTRC-Grenada",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14432,
+  "metadata" : {
+    "handle" : "GREX",
+    "description" : "NTRC-Grenada",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.126.244.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:504:35::/48"
     ]
   }

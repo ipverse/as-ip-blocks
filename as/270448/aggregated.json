@@ -1,12 +1,15 @@
 {
-  "asn": 270448,
-  "handle": "MV-NET",
-  "description": "MV NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270448,
+  "metadata" : {
+    "handle" : "MV-NET",
+    "description" : "MV NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.115.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6c24::/32"
     ]
   }

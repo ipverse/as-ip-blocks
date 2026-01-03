@@ -1,14 +1,17 @@
 {
-  "asn": 268671,
-  "handle": "RL-NET-INTERNET",
-  "description": "RL NET INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268671,
+  "metadata" : {
+    "handle" : "RL-NET-INTERNET",
+    "description" : "RL NET INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.165.84.0/22",
       "128.201.128.0/22",
       "177.72.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:54d0::/32"
     ]
   }

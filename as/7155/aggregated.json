@@ -1,9 +1,12 @@
 {
-  "asn": 7155,
-  "handle": "VIASAT-SP-BACKBONE",
-  "description": "ViaSat Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7155,
+  "metadata" : {
+    "handle" : "VIASAT-SP-BACKBONE",
+    "description" : "ViaSat Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.8.184.0/21",
       "37.1.160.0/21",
       "37.1.176.0/20",
@@ -90,7 +93,7 @@
       "213.151.184.0/22",
       "213.209.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:6800::/24",
       "2804:4ab8::/32",
       "2a0f:1b00::/29"

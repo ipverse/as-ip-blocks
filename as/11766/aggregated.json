@@ -1,15 +1,18 @@
 {
-  "asn": 11766,
-  "handle": "MERIPLEX-1-AS",
-  "description": "Meriplex Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11766,
+  "metadata" : {
+    "handle" : "MERIPLEX-1-AS",
+    "description" : "Meriplex Communications Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.60.64.0/20",
       "76.8.128.0/20",
       "162.211.200.0/21",
       "206.127.168.0/22",
       "216.23.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 8607,
-  "handle": "TIMICO",
-  "description": "Digital Space Group Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8607,
+  "metadata" : {
+    "handle" : "TIMICO",
+    "description" : "Digital Space Group Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.105.160.0/19",
       "62.121.0.0/19",
       "77.76.64.0/18",
@@ -25,7 +28,7 @@
       "212.87.64.0/19",
       "213.131.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1a20::/32",
       "2001:40a0::/32",
       "2a01:178::/32",

@@ -1,14 +1,17 @@
 {
-  "asn": 20861,
-  "handle": "FUJITSU-SE-AS",
-  "description": "Fujitsu Sweden AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20861,
+  "metadata" : {
+    "handle" : "FUJITSU-SE-AS",
+    "description" : "Fujitsu Sweden AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.67.192.0/20",
       "140.150.80.0/20",
       "140.150.240.0/20",
       "185.101.56.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

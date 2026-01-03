@@ -1,9 +1,12 @@
 {
-  "asn": 141342,
-  "handle": "FIBERISHPVTLTD-AS-AP",
-  "description": "FIBERISH (PVT) LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141342,
+  "metadata" : {
+    "handle" : "FIBERISHPVTLTD-AS-AP",
+    "description" : "FIBERISH (PVT) LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.72.0.0/23",
       "103.72.2.0/24",
       "103.82.120.0/22",
@@ -32,7 +35,7 @@
       "203.128.29.0/24",
       "203.128.30.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8220::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 32489,
-  "handle": "AMANAHA-NEW",
-  "description": "Amanah Tech Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32489,
+  "metadata" : {
+    "handle" : "AMANAHA-NEW",
+    "description" : "Amanah Tech Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.111.104.0/24",
       "38.111.106.0/24",
       "38.113.188.0/22",
@@ -28,7 +31,7 @@
       "199.189.26.0/23",
       "204.187.100.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:550:907::/48",
       "2606:6080:1000::/47",
       "2606:6080:1002::/48",

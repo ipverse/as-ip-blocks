@@ -1,13 +1,16 @@
 {
-  "asn": 134761,
-  "handle": "CHINANET-NINGXIA-ZHONGWEI-IDC",
-  "description": "CHINANET NINGXIA province ZHONGWEI IDC network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134761,
+  "metadata" : {
+    "handle" : "CHINANET-NINGXIA-ZHONGWEI-IDC",
+    "description" : "CHINANET NINGXIA province ZHONGWEI IDC network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.103.128.0/17",
       "203.33.202.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:3:8000::/36",
       "240e:43:f800::/37",
       "240e:8f:e000::/35",

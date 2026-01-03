@@ -1,12 +1,15 @@
 {
-  "asn": 55574,
-  "handle": "PRODAPT-IN",
-  "description": "PRODAPT-IN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55574,
+  "metadata" : {
+    "handle" : "PRODAPT-IN",
+    "description" : "PRODAPT-IN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.52.128.0/24",
       "202.59.228.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

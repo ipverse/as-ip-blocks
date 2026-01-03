@@ -1,12 +1,15 @@
 {
-  "asn": 142108,
-  "handle": "ROTKONETWORKSOU-AS-AP",
-  "description": "Rotko Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142108,
+  "metadata" : {
+    "handle" : "ROTKONETWORKSOU-AS-AP",
+    "description" : "Rotko Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.22.180.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:a860::/32"
     ]
   }

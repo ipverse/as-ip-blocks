@@ -1,9 +1,12 @@
 {
-  "asn": 36522,
-  "handle": "BELLMOBILITY-1",
-  "description": "BELL MOBILITY INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36522,
+  "metadata" : {
+    "handle" : "BELLMOBILITY-1",
+    "description" : "BELL MOBILITY INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.69.67.0/24",
       "67.69.68.0/24",
       "67.69.70.0/23",
@@ -138,7 +141,7 @@
       "216.208.237.0/24",
       "216.208.238.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:b100:f000::/38",
       "2605:b100:f400::/39"
     ]

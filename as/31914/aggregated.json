@@ -1,13 +1,16 @@
 {
-  "asn": 31914,
-  "handle": "HBNI",
-  "description": "Hutterian Broadband Network Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31914,
+  "metadata" : {
+    "handle" : "HBNI",
+    "description" : "Hutterian Broadband Network Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.64.216.0/23",
       "162.249.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:6280::/32"
     ]
   }

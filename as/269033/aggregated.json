@@ -1,12 +1,15 @@
 {
-  "asn": 269033,
-  "handle": "EXTREMNET-TELECOM",
-  "description": "Extremnet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269033,
+  "metadata" : {
+    "handle" : "EXTREMNET-TELECOM",
+    "description" : "Extremnet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.177.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5e70::/32"
     ]
   }

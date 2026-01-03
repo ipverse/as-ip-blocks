@@ -1,9 +1,12 @@
 {
-  "asn": 46811,
-  "handle": "SILVERIP-ASN",
-  "description": "SilverIP Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46811,
+  "metadata" : {
+    "handle" : "SILVERIP-ASN",
+    "description" : "SilverIP Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.31.16.0/22",
       "108.160.192.0/22",
       "108.160.196.0/23",
@@ -16,7 +19,7 @@
       "198.54.108.0/23",
       "198.161.136.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:e880::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 202090,
-  "handle": "ACTIVECLOUD-BY-AS",
-  "description": "Aktivnie Tehnologii LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202090,
+  "metadata" : {
+    "handle" : "ACTIVECLOUD-BY-AS",
+    "description" : "Aktivnie Tehnologii LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.91.190.0/23",
       "178.159.44.0/22",
       "185.47.152.0/23",
@@ -11,7 +14,7 @@
       "185.99.142.0/24",
       "193.176.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:b1c0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 24406,
-  "handle": "CNNIC-CRITICAL-AP",
-  "description": "China Internet Network Infomation Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24406,
+  "metadata" : {
+    "handle" : "CNNIC-CRITICAL-AP",
+    "description" : "China Internet Network Infomation Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "42.83.130.0/24",
       "42.83.132.0/23",
       "125.208.32.0/23",
@@ -14,7 +17,7 @@
       "203.119.26.0/23",
       "203.119.30.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:dc7::/47",
       "2001:dc7:2::/48",
       "2001:dc7:1000::/48",

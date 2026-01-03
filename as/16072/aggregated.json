@@ -1,9 +1,12 @@
 {
-  "asn": 16072,
-  "handle": "FDD",
-  "description": "First Data GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16072,
+  "metadata" : {
+    "handle" : "FDD",
+    "description" : "First Data GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.186.205.0/24",
       "170.186.207.0/24",
       "217.73.32.0/23",
@@ -11,6 +14,6 @@
       "217.73.40.0/23",
       "217.73.42.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

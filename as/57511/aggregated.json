@@ -1,9 +1,12 @@
 {
-  "asn": 57511,
-  "handle": "ITEL-AS-NUMBER",
-  "description": "Innovative Telecom Systems FZE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57511,
+  "metadata" : {
+    "handle" : "ITEL-AS-NUMBER",
+    "description" : "Innovative Telecom Systems FZE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.132.164.0/22",
       "158.255.77.0/24",
       "181.41.216.0/24",
@@ -11,6 +14,6 @@
       "185.135.156.0/24",
       "194.110.242.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

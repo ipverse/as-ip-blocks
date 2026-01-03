@@ -1,12 +1,15 @@
 {
-  "asn": 29636,
-  "handle": "CATALYST2-AS",
-  "description": "Team Blue Carrier Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29636,
+  "metadata" : {
+    "handle" : "CATALYST2-AS",
+    "description" : "Team Blue Carrier Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.18.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4c20::/32"
     ]
   }

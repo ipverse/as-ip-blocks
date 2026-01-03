@@ -1,13 +1,16 @@
 {
-  "asn": 210869,
-  "handle": "GLC-NETCOM",
-  "description": "GLC NETCOM S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210869,
+  "metadata" : {
+    "handle" : "GLC-NETCOM",
+    "description" : "GLC NETCOM S.R.L",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.210.94.0/23",
       "45.13.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:df00::/32"
     ]
   }

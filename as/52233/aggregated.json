@@ -1,9 +1,12 @@
 {
-  "asn": 52233,
-  "handle": "COLUMBUS-COMMUNICATIONS-CURACAO",
-  "description": "Columbus Communications Curacao NV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52233,
+  "metadata" : {
+    "handle" : "COLUMBUS-COMMUNICATIONS-CURACAO",
+    "description" : "Columbus Communications Curacao NV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.245.108.0/23",
       "131.221.144.0/22",
       "138.219.140.0/22",
@@ -37,7 +40,7 @@
       "200.26.206.0/23",
       "200.26.208.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:530::/32"
     ]
   }

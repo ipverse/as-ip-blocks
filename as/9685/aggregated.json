@@ -1,11 +1,14 @@
 {
-  "asn": 9685,
-  "handle": "FACT-AS",
-  "description": "KOAT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9685,
+  "metadata" : {
+    "handle" : "FACT-AS",
+    "description" : "KOAT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "222.117.144.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

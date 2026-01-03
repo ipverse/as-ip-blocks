@@ -1,10 +1,13 @@
 {
-  "asn": 153034,
-  "handle": "WANGLIN-AS-AP",
-  "description": "Wang Lin",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 153034,
+  "metadata" : {
+    "handle" : "WANGLIN-AS-AP",
+    "description" : "Wang Lin",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2406:840:fdc0::/44",
       "2406:840:fe92::/48"
     ]

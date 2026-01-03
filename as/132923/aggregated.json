@@ -1,9 +1,12 @@
 {
-  "asn": 132923,
-  "handle": "VIHAAN-AS-IN",
-  "description": "Vihaan Telecommunication Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132923,
+  "metadata" : {
+    "handle" : "VIHAAN-AS-IN",
+    "description" : "Vihaan Telecommunication Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.228.228.0/23",
       "43.228.231.0/24",
       "103.85.90.0/24",
@@ -12,7 +15,7 @@
       "103.215.158.0/23",
       "103.240.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:8340::/39"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 46303,
-  "handle": "POPP-COM",
-  "description": "POPP.com Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46303,
+  "metadata" : {
+    "handle" : "POPP-COM",
+    "description" : "POPP.com Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.86.120.0/22",
       "63.87.112.0/20",
       "65.240.28.0/22",
@@ -14,6 +17,6 @@
       "208.254.148.0/24",
       "216.14.176.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 133399,
-  "handle": "HITECH1-AS-AP",
-  "description": "HI-TECH SOLUTIONS LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133399,
+  "metadata" : {
+    "handle" : "HITECH1-AS-AP",
+    "description" : "HI-TECH SOLUTIONS LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.64.116.0/22",
       "103.226.112.0/22",
       "103.240.133.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:ab80::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 58036,
-  "handle": "SKYLINE-AS",
-  "description": "LLC SKY LINE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58036,
+  "metadata" : {
+    "handle" : "SKYLINE-AS",
+    "description" : "LLC SKY LINE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.32.86.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:e6c7:f000::/36"
     ]
   }

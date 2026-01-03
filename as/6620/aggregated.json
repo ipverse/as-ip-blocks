@@ -1,9 +1,12 @@
 {
-  "asn": 6620,
-  "handle": "AS-6620",
-  "description": "AMA Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6620,
+  "metadata" : {
+    "handle" : "AS-6620",
+    "description" : "AMA Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.119.38.0/23",
       "65.218.72.0/22",
       "65.218.76.0/24",
@@ -45,6 +48,6 @@
       "209.40.172.0/22",
       "209.40.176.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 21497,
-  "handle": "UMC-AS",
-  "description": "PrJSC VF UKRAINE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21497,
+  "metadata" : {
+    "handle" : "UMC-AS",
+    "description" : "PrJSC VF UKRAINE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.144.0.0/16",
       "46.133.0.0/16",
       "77.52.0.0/16",
@@ -47,7 +50,7 @@
       "217.24.172.0/23",
       "217.24.174.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:f50::/32"
     ]
   }

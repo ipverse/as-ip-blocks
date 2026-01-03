@@ -1,9 +1,12 @@
 {
-  "asn": 199925,
-  "handle": "AZCOM-AS",
-  "description": "Phan Nhat Nghi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199925,
+  "metadata" : {
+    "handle" : "AZCOM-AS",
+    "description" : "Phan Nhat Nghi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.59.70.0/24",
       "45.128.13.0/24",
       "45.149.37.0/24",
@@ -17,7 +20,7 @@
       "184.174.51.0/24",
       "202.134.233.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:dfc1:100::/40",
       "2a05:dfc1:3700::/40",
       "2a05:dfc1:3d00::/40",

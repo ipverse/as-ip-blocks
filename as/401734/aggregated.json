@@ -1,13 +1,16 @@
 {
-  "asn": 401734,
-  "handle": "LANTASTIC",
-  "description": "LANtastic Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401734,
+  "metadata" : {
+    "handle" : "LANTASTIC",
+    "description" : "LANtastic Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.139.44.0/24",
       "209.92.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f640::/36"
     ]
   }

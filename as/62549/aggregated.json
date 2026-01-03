@@ -1,14 +1,17 @@
 {
-  "asn": 62549,
-  "handle": "PARKLAND-COLLEGE-01",
-  "description": "Parkland College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62549,
+  "metadata" : {
+    "handle" : "PARKLAND-COLLEGE-01",
+    "description" : "Parkland College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.150.80.0/22",
       "209.175.168.0/22",
       "216.125.248.0/22",
       "216.125.252.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 62366,
-  "handle": "STOLICA-AS",
-  "description": "Stolica Telecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62366,
+  "metadata" : {
+    "handle" : "STOLICA-AS",
+    "description" : "Stolica Telecom Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.139.17.0/24",
       "45.139.18.0/23",
       "93.171.135.0/24",
       "95.46.1.0/24",
       "146.158.76.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

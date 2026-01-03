@@ -1,12 +1,15 @@
 {
-  "asn": 136700,
-  "handle": "SEFARO-AS",
-  "description": "Sefaro Networks Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136700,
+  "metadata" : {
+    "handle" : "SEFARO-AS",
+    "description" : "Sefaro Networks Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.102.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:6240::/32"
     ]
   }

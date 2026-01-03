@@ -1,9 +1,12 @@
 {
-  "asn": 14259,
-  "handle": "GTD-INTERNET",
-  "description": "Gtd Internet S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14259,
+  "metadata" : {
+    "handle" : "GTD-INTERNET",
+    "description" : "Gtd Internet S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.239.112.0/24",
       "152.230.0.0/16",
       "168.231.201.0/24",
@@ -34,7 +37,7 @@
       "200.124.32.0/19",
       "201.238.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:160::/32",
       "2800:8e0::/32"
     ]

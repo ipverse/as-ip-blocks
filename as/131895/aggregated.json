@@ -1,12 +1,15 @@
 {
-  "asn": 131895,
-  "handle": "OIST-NET",
-  "description": "Okinawa Institute of science and technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131895,
+  "metadata" : {
+    "handle" : "OIST-NET",
+    "description" : "Okinawa Institute of science and technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.226.54.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:d800::/48"
     ]
   }

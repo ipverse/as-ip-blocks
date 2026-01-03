@@ -1,15 +1,18 @@
 {
-  "asn": 46484,
-  "handle": "TRELLIXANY",
-  "description": "Trellix",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46484,
+  "metadata" : {
+    "handle" : "TRELLIXANY",
+    "description" : "Trellix",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.109.230.0/23",
       "103.245.44.0/22",
       "161.69.24.0/21",
       "185.212.104.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:8d40:40::/44",
       "2607:8d40:80::/44",
       "2607:8d40:a0::/44",

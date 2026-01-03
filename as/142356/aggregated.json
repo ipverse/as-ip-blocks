@@ -1,12 +1,15 @@
 {
-  "asn": 142356,
-  "handle": "IDNIC-AMANET-AS-ID",
-  "description": "PT Aderani Multi Akses",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142356,
+  "metadata" : {
+    "handle" : "IDNIC-AMANET-AS-ID",
+    "description" : "PT Aderani Multi Akses",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.169.194.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:a9c0::/32"
     ]
   }

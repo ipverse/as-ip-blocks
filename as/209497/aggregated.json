@@ -1,12 +1,15 @@
 {
-  "asn": 209497,
-  "handle": "SRCA",
-  "description": "Saudi Red Crescent Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209497,
+  "metadata" : {
+    "handle" : "SRCA",
+    "description" : "Saudi Red Crescent Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.3.172.0/24",
       "149.3.175.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

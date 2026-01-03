@@ -1,9 +1,12 @@
 {
-  "asn": 18638,
-  "handle": "DHDC-CA",
-  "description": "Datahive.ca",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18638,
+  "metadata" : {
+    "handle" : "DHDC-CA",
+    "description" : "Datahive.ca",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.171.224.0/24",
       "216.171.226.0/23",
       "216.171.230.0/23",
@@ -12,7 +15,7 @@
       "216.171.237.0/24",
       "216.171.238.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:c580::/32"
     ]
   }

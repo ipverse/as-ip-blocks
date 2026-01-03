@@ -1,11 +1,14 @@
 {
-  "asn": 397888,
-  "handle": "HSN-AS",
-  "description": "Health Sciences North",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397888,
+  "metadata" : {
+    "handle" : "HSN-AS",
+    "description" : "Health Sciences North",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.68.222.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

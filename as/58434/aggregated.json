@@ -1,13 +1,16 @@
 {
-  "asn": 58434,
-  "handle": "MOBILIZER-AU",
-  "description": "Mobilizer Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58434,
+  "metadata" : {
+    "handle" : "MOBILIZER-AU",
+    "description" : "Mobilizer Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.96.252.0/22",
       "203.147.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:2f00::/32"
     ]
   }

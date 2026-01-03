@@ -1,9 +1,12 @@
 {
-  "asn": 39287,
-  "handle": "ABSTRACT",
-  "description": "ab stract ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39287,
+  "metadata" : {
+    "handle" : "ABSTRACT",
+    "description" : "ab stract ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.142.140.0/22",
       "45.158.116.0/22",
       "80.78.16.0/20",
@@ -14,7 +17,7 @@
       "197.231.220.0/22",
       "198.167.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2354::/48",
       "2001:67c:2358::/48",
       "2620:18:c000::/48",

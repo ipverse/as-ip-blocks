@@ -1,11 +1,14 @@
 {
-  "asn": 136406,
-  "handle": "SPEED-LINK-AS-AP",
-  "description": "M/S Speed Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136406,
+  "metadata" : {
+    "handle" : "SPEED-LINK-AS-AP",
+    "description" : "M/S Speed Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.86.193.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

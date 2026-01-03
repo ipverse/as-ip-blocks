@@ -1,12 +1,15 @@
 {
-  "asn": 150723,
-  "handle": "MEGA-AS-JP",
-  "description": "Mega Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150723,
+  "metadata" : {
+    "handle" : "MEGA-AS-JP",
+    "description" : "Mega Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.99.35.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:e7c0::/48"
     ]
   }

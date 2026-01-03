@@ -1,9 +1,12 @@
 {
-  "asn": 14828,
-  "handle": "HBCI-1999TA",
-  "description": "Hiawatha Broadband Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14828,
+  "metadata" : {
+    "handle" : "HBCI-1999TA",
+    "description" : "Hiawatha Broadband Communications Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.24.96.0/20",
       "23.235.0.0/20",
       "63.163.64.0/24",
@@ -22,7 +25,7 @@
       "206.230.104.0/21",
       "207.138.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:9b80::/32"
     ]
   }

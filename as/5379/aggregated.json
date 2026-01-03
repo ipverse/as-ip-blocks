@@ -1,12 +1,15 @@
 {
-  "asn": 5379,
-  "handle": "MK-UKIM-1",
-  "description": "Univerzitet Sv. Kiril i Metodij",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5379,
+  "metadata" : {
+    "handle" : "MK-UKIM-1",
+    "description" : "Univerzitet Sv. Kiril i Metodij",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.149.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:e48::/32"
     ]
   }

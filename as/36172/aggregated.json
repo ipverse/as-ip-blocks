@@ -1,12 +1,15 @@
 {
-  "asn": 36172,
-  "handle": "MHCC-AS001",
-  "description": "MOUNT HOOD COMMUNITY COLLEGE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36172,
+  "metadata" : {
+    "handle" : "MHCC-AS001",
+    "description" : "MOUNT HOOD COMMUNITY COLLEGE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.230.190.0/23",
       "65.100.48.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 54240,
-  "handle": "SN-2006",
-  "description": "Syndeo Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54240,
+  "metadata" : {
+    "handle" : "SN-2006",
+    "description" : "Syndeo Networks Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.65.204.0/23",
       "38.131.244.0/22",
       "66.225.32.0/20",
@@ -13,6 +16,6 @@
       "204.8.160.0/21",
       "216.82.160.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

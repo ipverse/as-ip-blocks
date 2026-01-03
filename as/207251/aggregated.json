@@ -1,9 +1,12 @@
 {
-  "asn": 207251,
-  "handle": "CASPEL",
-  "description": "CASPEL LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207251,
+  "metadata" : {
+    "handle" : "CASPEL",
+    "description" : "CASPEL LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.171.104.0/22",
       "45.194.120.0/24",
       "85.132.32.0/22",
@@ -13,6 +16,6 @@
       "109.235.196.0/24",
       "185.161.224.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

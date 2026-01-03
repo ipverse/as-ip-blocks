@@ -1,9 +1,12 @@
 {
-  "asn": 14178,
-  "handle": "MEGACABLE-COMUNICACIONES-MEXICO",
-  "description": "Megacable Comunicaciones de Mexico S.A. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14178,
+  "metadata" : {
+    "handle" : "MEGACABLE-COMUNICACIONES-MEXICO",
+    "description" : "Megacable Comunicaciones de Mexico S.A. de C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.210.20.0/24",
       "45.65.92.0/22",
       "45.130.138.0/24",
@@ -36,7 +39,7 @@
       "201.149.0.0/18",
       "201.149.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:240::/32"
     ]
   }

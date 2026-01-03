@@ -1,9 +1,12 @@
 {
-  "asn": 3486,
-  "handle": "JPMORGAN-AS3486",
-  "description": "JPMorgan Chase \u0026 Co",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3486,
+  "metadata" : {
+    "handle" : "JPMORGAN-AS3486",
+    "description" : "JPMorgan Chase & Co.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.143.0.0/16",
       "198.36.0.0/22",
       "204.86.14.0/23",
@@ -11,7 +14,7 @@
       "206.253.186.0/23",
       "206.253.188.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:11:40::/42"
     ]
   }

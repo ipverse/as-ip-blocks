@@ -1,9 +1,12 @@
 {
-  "asn": 52116,
-  "handle": "ORIONTELEKOM-DPI-AS",
-  "description": "Orion Telekom Tim d.o.o.Beograd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52116,
+  "metadata" : {
+    "handle" : "ORIONTELEKOM-DPI-AS",
+    "description" : "Orion Telekom Tim d.o.o.Beograd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.105.31.0/24",
       "81.18.49.0/24",
       "81.18.52.0/23",
@@ -29,6 +32,6 @@
       "212.69.12.0/24",
       "212.69.18.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

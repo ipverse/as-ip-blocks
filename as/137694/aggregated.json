@@ -1,9 +1,12 @@
 {
-  "asn": 137694,
-  "handle": "CHINATELECOM-XINJIANG-KEZHOU-MAN",
-  "description": "CHINATELECOM Xinjiang Kezhou MAN network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137694,
+  "metadata" : {
+    "handle" : "CHINATELECOM-XINJIANG-KEZHOU-MAN",
+    "description" : "CHINATELECOM Xinjiang Kezhou MAN network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.96.6.0/23",
       "36.96.36.0/23",
       "36.96.216.0/21",
@@ -80,7 +83,7 @@
       "218.84.240.0/23",
       "222.80.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:11:5000::/37",
       "240e:348:5e00::/39",
       "240e:348:6000::/38",

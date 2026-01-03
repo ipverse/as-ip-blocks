@@ -1,14 +1,17 @@
 {
-  "asn": 10235,
-  "handle": "NAB-AS-AP",
-  "description": "National Australia Bank Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10235,
+  "metadata" : {
+    "handle" : "NAB-AS-AP",
+    "description" : "National Australia Bank Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "155.60.0.0/16",
       "164.53.0.0/16",
       "203.8.32.0/19",
       "203.57.240.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

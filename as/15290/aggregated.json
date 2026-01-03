@@ -1,9 +1,12 @@
 {
-  "asn": 15290,
-  "handle": "ZAYO-CAN-15290",
-  "description": "Zayo Bandwidth",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15290,
+  "metadata" : {
+    "handle" : "ZAYO-CAN-15290",
+    "description" : "Zayo Bandwidth",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.46.20.0/24",
       "66.46.26.0/24",
       "66.46.46.0/23",
@@ -103,7 +106,7 @@
       "216.191.238.0/24",
       "216.191.252.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4c8:100d::/48",
       "2001:4c8:1015::/48",
       "2001:4c8:101a::/47",

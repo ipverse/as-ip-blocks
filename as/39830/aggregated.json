@@ -1,12 +1,15 @@
 {
-  "asn": 39830,
-  "handle": "TIGF-AS",
-  "description": "Terega SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39830,
+  "metadata" : {
+    "handle" : "TIGF-AS",
+    "description" : "Terega SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.173.124.0/23",
       "83.173.126.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

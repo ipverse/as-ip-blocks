@@ -1,9 +1,12 @@
 {
-  "asn": 29028,
-  "handle": "COMPUKOS-AS",
-  "description": "DirectVPS B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29028,
+  "metadata" : {
+    "handle" : "COMPUKOS-AS",
+    "description" : "DirectVPS B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.150.138.0/24",
       "141.105.120.0/21",
       "178.21.112.0/21",
@@ -13,7 +16,7 @@
       "194.169.248.0/24",
       "195.22.122.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2308::/32"
     ]
   }

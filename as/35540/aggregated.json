@@ -1,13 +1,16 @@
 {
-  "asn": 35540,
-  "handle": "OVH-TELECOM",
-  "description": "OVH SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35540,
+  "metadata" : {
+    "handle" : "OVH-TELECOM",
+    "description" : "OVH SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.190.0.0/16",
       "151.127.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:41d0:fc00::/38"
     ]
   }

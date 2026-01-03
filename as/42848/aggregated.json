@@ -1,14 +1,17 @@
 {
-  "asn": 42848,
-  "handle": "EC-AS",
-  "description": "European Commission",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42848,
+  "metadata" : {
+    "handle" : "EC-AS",
+    "description" : "European Commission",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.67.0.0/16",
       "158.166.0.0/15",
       "158.168.0.0/15"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7080::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 58400,
-  "handle": "UNNES-AS-ID",
-  "description": "Universitas Negeri Semarang",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58400,
+  "metadata" : {
+    "handle" : "UNNES-AS-ID",
+    "description" : "Universitas Negeri Semarang",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.23.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:260::/48"
     ]
   }

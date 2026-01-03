@@ -1,9 +1,12 @@
 {
-  "asn": 61323,
-  "handle": "UKFAST",
-  "description": "ANS ACADEMY LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61323,
+  "metadata" : {
+    "handle" : "UKFAST",
+    "description" : "ANS ACADEMY LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.193.0.0/20",
       "37.220.88.0/21",
       "45.67.172.0/22",
@@ -52,7 +55,7 @@
       "194.39.164.0/22",
       "212.36.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:21a8::/47",
       "2a02:22d0::/32",
       "2a09:ba00:4::/48",

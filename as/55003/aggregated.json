@@ -1,14 +1,17 @@
 {
-  "asn": 55003,
-  "handle": "COLUMBIA-WIRELESS",
-  "description": "Columbia Wireless Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55003,
+  "metadata" : {
+    "handle" : "COLUMBIA-WIRELESS",
+    "description" : "Columbia Wireless Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.74.54.0/24",
       "69.25.63.0/24",
       "162.210.160.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:f080::/32"
     ]
   }

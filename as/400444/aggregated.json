@@ -1,12 +1,15 @@
 {
-  "asn": 400444,
-  "handle": "MAGNERA-NA1",
-  "description": "Glatfelter Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400444,
+  "metadata" : {
+    "handle" : "MAGNERA-NA1",
+    "description" : "Glatfelter Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.7.18.0/24",
       "198.203.136.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 17164,
-  "handle": "CENTRACAREHEALTHSYSTEM",
-  "description": "CentraCare Health",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17164,
+  "metadata" : {
+    "handle" : "CENTRACAREHEALTHSYSTEM",
+    "description" : "CentraCare Health",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.234.230.0/24",
       "65.61.50.0/23",
       "67.206.183.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 12417,
-  "handle": "DHH-AS",
-  "description": "Plus Hosting Grupa d.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12417,
+  "metadata" : {
+    "handle" : "DHH-AS",
+    "description" : "Plus Hosting Grupa d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.234.46.0/24",
       "178.218.160.0/20",
       "185.220.24.0/22",
       "212.44.127.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:ee41::/32"
     ]
   }

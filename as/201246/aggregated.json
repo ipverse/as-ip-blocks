@@ -1,14 +1,17 @@
 {
-  "asn": 201246,
-  "handle": "AVM-INFO-AS",
-  "description": "AVM Informatique SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201246,
+  "metadata" : {
+    "handle" : "AVM-INFO-AS",
+    "description" : "AVM Informatique SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.58.8.0/22",
       "185.80.16.0/22",
       "188.114.120.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:7980::/29"
     ]
   }

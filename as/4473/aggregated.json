@@ -1,9 +1,12 @@
 {
-  "asn": 4473,
-  "handle": "ATTIS-ASN4473",
-  "description": "AT\u0026T Enterprises LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4473,
+  "metadata" : {
+    "handle" : "ATTIS-ASN4473",
+    "description" : "AT&T Enterprises LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.17.241.0/24",
       "12.29.116.0/22",
       "12.71.77.0/24",
@@ -28,7 +31,7 @@
       "209.65.163.0/24",
       "209.65.164.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:9bc0:1020::/43"
     ]
   }

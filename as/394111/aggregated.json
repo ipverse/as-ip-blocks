@@ -1,9 +1,12 @@
 {
-  "asn": 394111,
-  "handle": "FRTCCNET",
-  "description": "Foothills Rural Telephone Cooperative Corporation Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394111,
+  "metadata" : {
+    "handle" : "FRTCCNET",
+    "description" : "Foothills Rural Telephone Cooperative Corporation Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.110.132.0/22",
       "64.147.224.0/20",
       "172.97.16.0/20",
@@ -12,7 +15,7 @@
       "207.174.144.0/21",
       "216.213.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:6f00::/32"
     ]
   }

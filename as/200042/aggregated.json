@@ -1,11 +1,14 @@
 {
-  "asn": 200042,
-  "handle": "NC-NW-NO",
-  "description": "Netcenter AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200042,
+  "metadata" : {
+    "handle" : "NC-NW-NO",
+    "description" : "Netcenter AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.174.17.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

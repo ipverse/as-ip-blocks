@@ -1,13 +1,16 @@
 {
-  "asn": 266208,
-  "handle": "ALLFIBER-TELECOM-SERVICOS",
-  "description": "Allfiber Telecom Serviços de Telecomunicações",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266208,
+  "metadata" : {
+    "handle" : "ALLFIBER-TELECOM-SERVICOS",
+    "description" : "Allfiber Telecom Serviços de Telecomunicações",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.41.122.0/24",
       "192.140.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3c64::/32"
     ]
   }

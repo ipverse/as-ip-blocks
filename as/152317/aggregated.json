@@ -1,15 +1,18 @@
 {
-  "asn": 152317,
-  "handle": "WPDA-AS-AP",
-  "description": "Wangdue Phodrang Dzongkhag Administration",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152317,
+  "metadata" : {
+    "handle" : "WPDA-AS-AP",
+    "description" : "Wangdue Phodrang Dzongkhag Administration",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.10.120.0/22",
       "157.10.128.0/23",
       "157.10.136.0/21",
       "157.10.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:b760::/32"
     ]
   }

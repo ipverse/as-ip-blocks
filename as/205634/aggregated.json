@@ -1,9 +1,12 @@
 {
-  "asn": 205634,
-  "handle": "PF",
-  "description": "Prime Formation GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205634,
+  "metadata" : {
+    "handle" : "PF",
+    "description" : "Prime Formation GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.147.120.0/24",
       "45.87.187.0/24",
       "64.137.111.0/24",
@@ -14,7 +17,7 @@
       "162.141.79.0/24",
       "188.209.131.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:79c0:f00::/46",
       "2a0a:79c0:f07::/48"
     ]

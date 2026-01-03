@@ -1,9 +1,12 @@
 {
-  "asn": 15165,
-  "handle": "MTC-LRCOMMUNICATIONS",
-  "description": "Mutual Telephone Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15165,
+  "metadata" : {
+    "handle" : "MTC-LRCOMMUNICATIONS",
+    "description" : "Mutual Telephone Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.115.144.0/23",
       "50.115.146.0/24",
       "50.115.156.0/24",
@@ -17,7 +20,7 @@
       "63.245.184.0/24",
       "63.245.187.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:4e80::/32"
     ]
   }

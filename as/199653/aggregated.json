@@ -1,9 +1,12 @@
 {
-  "asn": 199653,
-  "handle": "ARUBAFR-AS",
-  "description": "Aruba S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199653,
+  "metadata" : {
+    "handle" : "ARUBAFR-AS",
+    "description" : "Aruba S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.36.212.0/22",
       "89.38.148.0/22",
       "89.40.112.0/22",
@@ -13,7 +16,7 @@
       "185.35.64.0/22",
       "217.61.96.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:2c40::/32"
     ]
   }

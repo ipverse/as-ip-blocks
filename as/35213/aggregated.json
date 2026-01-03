@@ -1,16 +1,19 @@
 {
-  "asn": 35213,
-  "handle": "COMPNETUA-AS",
-  "description": "TOV Kompjuternie Merezhi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35213,
+  "metadata" : {
+    "handle" : "COMPNETUA-AS",
+    "description" : "TOV Kompjuternie Merezhi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.201.168.0/24",
       "91.205.64.0/22",
       "91.239.136.0/22",
       "176.111.51.0/24",
       "193.0.247.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:31c::/48",
       "2a13:61c0::/29"
     ]

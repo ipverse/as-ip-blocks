@@ -1,16 +1,19 @@
 {
-  "asn": 8553,
-  "handle": "AVENSYS",
-  "description": "Avensys Networks Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8553,
+  "metadata" : {
+    "handle" : "AVENSYS",
+    "description" : "Avensys Networks Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.10.224.0/21",
       "195.10.233.0/24",
       "195.10.234.0/23",
       "195.10.236.0/22",
       "195.10.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ce0::/32"
     ]
   }

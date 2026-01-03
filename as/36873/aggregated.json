@@ -1,9 +1,12 @@
 {
-  "asn": 36873,
-  "handle": "VNL1-AS",
-  "description": "Airtel Networks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36873,
+  "metadata" : {
+    "handle" : "VNL1-AS",
+    "description" : "Airtel Networks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.221.160.0/22",
       "105.112.0.0/21",
       "105.112.8.0/22",
@@ -46,7 +49,7 @@
       "197.214.50.0/24",
       "197.214.56.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:2280:2::/47",
       "2c0f:2280:4::/48",
       "2c0f:2280:a::/48",

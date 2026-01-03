@@ -1,14 +1,17 @@
 {
-  "asn": 32248,
-  "handle": "AETHERPAW",
-  "description": "AetherPaw LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32248,
+  "metadata" : {
+    "handle" : "AETHERPAW",
+    "description" : "AetherPaw LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.250.48.0/22",
       "162.250.52.0/23",
       "162.250.55.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:3f80::/32"
     ]
   }

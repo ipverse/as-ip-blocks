@@ -1,14 +1,17 @@
 {
-  "asn": 4859,
-  "handle": "CEISTNET-AS-AP",
-  "description": "The State Information Center of P.R.China",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4859,
+  "metadata" : {
+    "handle" : "CEISTNET-AS-AP",
+    "description" : "The State Information Center of P.R.China",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.15.4.0/22",
       "203.207.96.0/21",
       "203.207.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:c300::/32"
     ]
   }

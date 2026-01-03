@@ -1,12 +1,15 @@
 {
-  "asn": 30672,
-  "handle": "AS30672",
-  "description": "QMACS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30672,
+  "metadata" : {
+    "handle" : "AS30672",
+    "description" : "QMACS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.200.112.0/24",
       "64.129.52.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

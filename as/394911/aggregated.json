@@ -1,9 +1,12 @@
 {
-  "asn": 394911,
-  "handle": "COM1-ASN",
-  "description": "Comm1",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394911,
+  "metadata" : {
+    "handle" : "COM1-ASN",
+    "description" : "Comm1",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.66.244.0/22",
       "172.82.12.0/22",
       "206.183.136.0/22",
@@ -12,6 +15,6 @@
       "208.90.11.0/24",
       "208.126.70.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

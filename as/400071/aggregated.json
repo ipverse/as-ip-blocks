@@ -1,12 +1,15 @@
 {
-  "asn": 400071,
-  "handle": "SIMON-TEL-AS",
-  "description": "Simon Telephonics",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400071,
+  "metadata" : {
+    "handle" : "SIMON-TEL-AS",
+    "description" : "Simon Telephonics",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.73.182.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc31::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 24451,
-  "handle": "PDS-GROUP-AS-AP",
-  "description": "Philippine Dealing System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24451,
+  "metadata" : {
+    "handle" : "PDS-GROUP-AS-AP",
+    "description" : "Philippine Dealing System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.71.71.0/24",
       "203.177.81.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

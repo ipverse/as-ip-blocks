@@ -1,13 +1,16 @@
 {
-  "asn": 58912,
-  "handle": "CTSL-BD",
-  "description": "Chittagong Telecom Services Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58912,
+  "metadata" : {
+    "handle" : "CTSL-BD",
+    "description" : "Chittagong Telecom Services Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.124.12.0/22",
       "103.25.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:9ac0::/35",
       "2407:9ac0:8000::/35"
     ]

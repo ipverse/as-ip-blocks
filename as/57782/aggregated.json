@@ -1,13 +1,16 @@
 {
-  "asn": 57782,
-  "handle": "CYNTHIA-AS",
-  "description": "Cynthia Maja Revstrom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57782,
+  "metadata" : {
+    "handle" : "CYNTHIA-AS",
+    "description" : "Cynthia Maja Revstrom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.110.168.0/24",
       "185.202.104.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:1a45::/48",
       "2a0d:1a45:a::/47",
       "2a0d:1a45:26::/48",

@@ -1,11 +1,14 @@
 {
-  "asn": 30400,
-  "handle": "ALTALINK",
-  "description": "AltaLink LP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30400,
+  "metadata" : {
+    "handle" : "ALTALINK",
+    "description" : "AltaLink LP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.81.8.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

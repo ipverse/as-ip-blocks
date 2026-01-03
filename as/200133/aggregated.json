@@ -1,12 +1,15 @@
 {
-  "asn": 200133,
-  "handle": "CHU-AS",
-  "description": "HUmani Society",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200133,
+  "metadata" : {
+    "handle" : "CHU-AS",
+    "description" : "HUmani Society",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.36.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:c4e0::/32"
     ]
   }

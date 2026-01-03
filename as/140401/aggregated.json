@@ -1,15 +1,18 @@
 {
-  "asn": 140401,
-  "handle": "PROXINET-AS-ID",
-  "description": "PT Proxi Jaringan Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140401,
+  "metadata" : {
+    "handle" : "PROXINET-AS-ID",
+    "description" : "PT Proxi Jaringan Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.198.249.0/24",
       "103.150.218.0/23",
       "103.184.54.0/23",
       "103.187.116.0/23",
       "149.7.63.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

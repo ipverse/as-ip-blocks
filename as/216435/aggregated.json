@@ -1,16 +1,19 @@
 {
-  "asn": 216435,
-  "handle": "PLIMMOBILE-AS",
-  "description": "Plim Mobile Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216435,
+  "metadata" : {
+    "handle" : "PLIMMOBILE-AS",
+    "description" : "Plim Mobile Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.157.184.0/23",
       "38.212.128.0/20",
       "38.212.144.0/22",
       "38.212.148.0/24",
       "151.245.115.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:500::/40",
       "2a10:500:1300::/40",
       "2a10:500:1700::/40",

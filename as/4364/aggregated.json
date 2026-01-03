@@ -1,12 +1,15 @@
 {
-  "asn": 4364,
-  "handle": "IGLOU",
-  "description": "IgLou Internet Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4364,
+  "metadata" : {
+    "handle" : "IGLOU",
+    "description" : "IgLou Internet Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.253.96.0/19",
       "192.107.41.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

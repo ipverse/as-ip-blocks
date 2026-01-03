@@ -1,11 +1,14 @@
 {
-  "asn": 23558,
-  "handle": "KNFC-AS",
-  "description": "KepcoNF",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23558,
+  "metadata" : {
+    "handle" : "KNFC-AS",
+    "description" : "KepcoNF",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "219.251.240.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

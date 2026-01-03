@@ -1,12 +1,15 @@
 {
-  "asn": 274152,
-  "handle": "SURFLINK",
-  "description": "SURFLINK SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 274152,
+  "metadata" : {
+    "handle" : "SURFLINK",
+    "description" : "SURFLINK SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.252.106.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5330:402::/48"
     ]
   }

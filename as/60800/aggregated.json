@@ -1,9 +1,12 @@
 {
-  "asn": 60800,
-  "handle": "NHL-AS1",
-  "description": "Netwise Hosting Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60800,
+  "metadata" : {
+    "handle" : "NHL-AS1",
+    "description" : "Netwise Hosting Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.109.11.0/24",
       "91.210.100.0/22",
       "103.82.0.0/22",
@@ -13,7 +16,7 @@
       "185.42.16.0/22",
       "185.222.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:ec40::/29"
     ]
   }

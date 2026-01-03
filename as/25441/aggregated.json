@@ -1,9 +1,12 @@
 {
-  "asn": 25441,
-  "handle": "IBIS-AS",
-  "description": "Imagine Communications Group Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25441,
+  "metadata" : {
+    "handle" : "IBIS-AS",
+    "description" : "Imagine Communications Group Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.231.32.0/19",
       "78.135.128.0/17",
       "83.141.64.0/18",
@@ -14,7 +17,7 @@
       "89.127.254.0/23",
       "185.247.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4d68::/32"
     ]
   }

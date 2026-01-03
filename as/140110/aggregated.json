@@ -1,12 +1,15 @@
 {
-  "asn": 140110,
-  "handle": "VSSCTVPM-AS-IN",
-  "description": "Vikram Sarabhai Space Centre",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140110,
+  "metadata" : {
+    "handle" : "VSSCTVPM-AS-IN",
+    "description" : "Vikram Sarabhai Space Centre",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.149.122.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:2580::/48"
     ]
   }

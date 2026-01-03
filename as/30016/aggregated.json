@@ -1,9 +1,12 @@
 {
-  "asn": 30016,
-  "handle": "AS01-NATC-4-NA",
-  "description": "North American Telecommunications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30016,
+  "metadata" : {
+    "handle" : "AS01-NATC-4-NA",
+    "description" : "North American Telecommunications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.7.223.0/24",
       "8.10.62.0/24",
       "204.10.152.0/24",
@@ -13,6 +16,6 @@
       "208.73.24.0/24",
       "208.73.27.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

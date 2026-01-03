@@ -1,9 +1,12 @@
 {
-  "asn": 26819,
-  "handle": "TOIBGP1",
-  "description": "Telos Online Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26819,
+  "metadata" : {
+    "handle" : "TOIBGP1",
+    "description" : "Telos Online Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.28.184.0/23",
       "66.250.48.0/23",
       "66.250.120.0/22",
@@ -11,6 +14,6 @@
       "142.214.238.0/24",
       "199.117.96.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

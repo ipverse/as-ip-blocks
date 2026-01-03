@@ -1,13 +1,16 @@
 {
-  "asn": 35125,
-  "handle": "SMOLENSK-AS",
-  "description": "PJSC Rostelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35125,
+  "metadata" : {
+    "handle" : "SMOLENSK-AS",
+    "description" : "PJSC Rostelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.174.140.0/23",
       "95.158.192.0/18",
       "212.3.128.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

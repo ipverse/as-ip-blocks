@@ -1,9 +1,12 @@
 {
-  "asn": 12337,
-  "handle": "NORIS-NETWORK",
-  "description": "noris network AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12337,
+  "metadata" : {
+    "handle" : "NORIS-NETWORK",
+    "description" : "noris network AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.13.185.0/24",
       "31.13.187.0/24",
       "45.88.236.0/22",
@@ -64,7 +67,7 @@
       "213.183.0.0/19",
       "217.19.160.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:fc4::/48",
       "2001:67c:192c::/48",
       "2001:67c:1933::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 24722,
-  "handle": "BABILON-AS",
-  "description": "LLC Babilon-T",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24722,
+  "metadata" : {
+    "handle" : "BABILON-AS",
+    "description" : "LLC Babilon-T",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.98.152.0/21",
       "46.20.192.0/20",
       "79.170.184.0/21",
@@ -16,7 +19,7 @@
       "193.111.10.0/23",
       "217.11.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:cec0::/32"
     ]
   }

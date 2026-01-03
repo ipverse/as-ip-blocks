@@ -1,12 +1,15 @@
 {
-  "asn": 33999,
-  "handle": "GLOBALLOGIC-AS",
-  "description": "GlobalLogic Ukraine Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33999,
+  "metadata" : {
+    "handle" : "GLOBALLOGIC-AS",
+    "description" : "GlobalLogic Ukraine Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.234.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:c8::/48"
     ]
   }

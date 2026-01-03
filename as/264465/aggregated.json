@@ -1,13 +1,16 @@
 {
-  "asn": 264465,
-  "handle": "LINK-DATA-INTERNET",
-  "description": "LINK DATA INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264465,
+  "metadata" : {
+    "handle" : "LINK-DATA-INTERNET",
+    "description" : "LINK DATA INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.255.120.0/22",
       "143.208.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:201c:1000::/36",
       "2804:201c:7000::/36",
       "2804:201c:8000::/36"

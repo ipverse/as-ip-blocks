@@ -1,9 +1,12 @@
 {
-  "asn": 44587,
-  "handle": "MEGACOM-AS",
-  "description": "MEGACOM-IT LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44587,
+  "metadata" : {
+    "handle" : "MEGACOM-AS",
+    "description" : "MEGACOM-IT LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.59.120.0/21",
       "77.94.2.0/24",
       "194.8.84.0/23",
@@ -12,6 +15,6 @@
       "195.209.131.0/24",
       "217.151.228.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

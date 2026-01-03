@@ -1,14 +1,17 @@
 {
-  "asn": 54116,
-  "handle": "STROM",
-  "description": "Strom Holdings LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54116,
+  "metadata" : {
+    "handle" : "STROM",
+    "description" : "Strom Holdings LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.145.192.0/24",
       "199.115.201.0/24",
       "199.115.202.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:feb3::/47"
     ]
   }

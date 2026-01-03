@@ -1,9 +1,12 @@
 {
-  "asn": 137702,
-  "handle": "CHINATELECOM-JIANGSU-NANJING-IDC",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137702,
+  "metadata" : {
+    "handle" : "CHINATELECOM-JIANGSU-NANJING-IDC",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.249.208.0/23",
       "45.252.106.0/23",
       "58.212.8.0/23",
@@ -73,7 +76,7 @@
       "203.119.28.0/23",
       "221.231.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:1a:10::/44",
       "240e:1a:40::/44",
       "240e:5a:6c00::/38",

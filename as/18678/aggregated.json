@@ -1,9 +1,12 @@
 {
-  "asn": 18678,
-  "handle": "INTERNEXA",
-  "description": "INTERNEXA S.A. E.S.P",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18678,
+  "metadata" : {
+    "handle" : "INTERNEXA",
+    "description" : "INTERNEXA S.A. E.S.P",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.245.96.0/24",
       "65.208.69.0/24",
       "152.231.26.0/24",
@@ -26,7 +29,7 @@
       "191.97.48.0/20",
       "200.24.0.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:310::/33",
       "2800:650:10::/48",
       "2801:19:400::/48",

@@ -1,15 +1,18 @@
 {
-  "asn": 198004,
-  "handle": "INTERKONEKT-AS",
-  "description": "Tomasz Furman trading as INTERKONEKT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198004,
+  "metadata" : {
+    "handle" : "INTERKONEKT-AS",
+    "description" : "Tomasz Furman trading as INTERKONEKT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.135.180.0/22",
       "91.233.156.0/22",
       "91.233.160.0/23",
       "176.103.72.0/21",
       "185.234.240.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

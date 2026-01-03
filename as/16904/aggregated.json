@@ -1,9 +1,12 @@
 {
-  "asn": 16904,
-  "handle": "ARVIG-16904",
-  "description": "Arvig Enterprises Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16904,
+  "metadata" : {
+    "handle" : "ARVIG-16904",
+    "description" : "Arvig Enterprises Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.137.48.0/24",
       "23.151.208.0/24",
       "23.176.176.0/24",
@@ -33,7 +36,7 @@
       "216.133.128.0/20",
       "216.150.18.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:a00::/28",
       "2602:fcae::/36",
       "2606:9300::/32",

@@ -1,9 +1,12 @@
 {
-  "asn": 49434,
-  "handle": "FBWNETWORKS",
-  "description": "FBW NETWORKS SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49434,
+  "metadata" : {
+    "handle" : "FBWNETWORKS",
+    "description" : "FBW NETWORKS SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.44.236.0/23",
       "45.138.220.0/22",
       "79.110.237.0/24",
@@ -19,7 +22,7 @@
       "193.178.0.0/24",
       "194.31.251.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:ca00::/29",
       "2a0a:2f82::/32",
       "2a0f:9240::/32",

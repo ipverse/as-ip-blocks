@@ -1,12 +1,15 @@
 {
-  "asn": 271321,
-  "handle": "UNIQUE-DATA-CENTER",
-  "description": "Unique Data Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271321,
+  "metadata" : {
+    "handle" : "UNIQUE-DATA-CENTER",
+    "description" : "Unique Data Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.113.60.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:79b0::/32"
     ]
   }

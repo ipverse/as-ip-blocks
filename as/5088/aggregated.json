@@ -1,12 +1,15 @@
 {
-  "asn": 5088,
-  "handle": "AS5088",
-  "description": "FOX CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5088,
+  "metadata" : {
+    "handle" : "AS5088",
+    "description" : "FOX CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.37.180.0/24",
       "206.15.96.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

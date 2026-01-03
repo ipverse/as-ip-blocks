@@ -1,9 +1,12 @@
 {
-  "asn": 62627,
-  "handle": "WORLDNET-TELECOMMUNICATIONS",
-  "description": "WorldNet Telecommunications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62627,
+  "metadata" : {
+    "handle" : "WORLDNET-TELECOMMUNICATIONS",
+    "description" : "WorldNet Telecommunications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.249.128.0/21",
       "23.249.137.0/24",
       "23.249.138.0/23",
@@ -23,6 +26,6 @@
       "104.254.170.0/23",
       "199.71.93.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

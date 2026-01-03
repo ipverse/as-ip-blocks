@@ -1,9 +1,12 @@
 {
-  "asn": 35526,
-  "handle": "MASTERBIT-AS",
-  "description": "Smart Technology LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35526,
+  "metadata" : {
+    "handle" : "MASTERBIT-AS",
+    "description" : "Smart Technology LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.218.108.0/23",
       "91.218.111.0/24",
       "176.100.240.0/22",
@@ -12,7 +15,7 @@
       "185.200.120.0/24",
       "194.88.210.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:f640::/29"
     ]
   }

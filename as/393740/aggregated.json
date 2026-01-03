@@ -1,9 +1,12 @@
 {
-  "asn": 393740,
-  "handle": "PROGRESSIVETEL",
-  "description": "Progressive Rural Telephone Cooperative Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393740,
+  "metadata" : {
+    "handle" : "PROGRESSIVETEL",
+    "description" : "Progressive Rural Telephone Cooperative Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.124.230.0/23",
       "147.124.234.0/23",
       "161.38.61.0/24",
@@ -12,6 +15,6 @@
       "206.180.152.0/22",
       "216.181.102.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

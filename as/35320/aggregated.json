@@ -1,14 +1,17 @@
 {
-  "asn": 35320,
-  "handle": "ETT-AS",
-  "description": "Eurotranstelecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35320,
+  "metadata" : {
+    "handle" : "ETT-AS",
+    "description" : "Eurotranstelecom Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.154.160.0/19",
       "80.93.112.0/20",
       "185.12.140.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5f0::/32"
     ]
   }

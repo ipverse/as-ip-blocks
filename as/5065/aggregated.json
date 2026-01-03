@@ -1,9 +1,12 @@
 {
-  "asn": 5065,
-  "handle": "BUNNY-COMMUNICATIONS-GLOBAL",
-  "description": "Bunny Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5065,
+  "metadata" : {
+    "handle" : "BUNNY-COMMUNICATIONS-GLOBAL",
+    "description" : "Bunny Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.168.0/23",
       "23.26.101.0/24",
       "23.26.113.0/24",
@@ -417,7 +420,7 @@
       "217.217.29.0/24",
       "223.29.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470:42c::/48",
       "2604:1560::/32",
       "2606:58c0::/32"

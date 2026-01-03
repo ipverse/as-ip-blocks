@@ -1,12 +1,15 @@
 {
-  "asn": 25109,
-  "handle": "HUK-COBURG",
-  "description": "HUK-COBURG VVaG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25109,
+  "metadata" : {
+    "handle" : "HUK-COBURG",
+    "description" : "HUK-COBURG VVaG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.201.176.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:d340::/29"
     ]
   }

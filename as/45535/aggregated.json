@@ -1,9 +1,12 @@
 {
-  "asn": 45535,
-  "handle": "AXP-NET-AS-AP",
-  "description": "American Express Banking Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45535,
+  "metadata" : {
+    "handle" : "AXP-NET-AS-AP",
+    "description" : "American Express Banking Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.71.202.0/23",
       "139.71.210.0/23",
       "139.71.212.0/23",
@@ -11,6 +14,6 @@
       "139.71.220.0/23",
       "139.71.222.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

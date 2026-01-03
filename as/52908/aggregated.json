@@ -1,13 +1,16 @@
 {
-  "asn": 52908,
-  "handle": "JP-PROVIDERS-EIRELLI",
-  "description": "JP Providers Eirelli",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52908,
+  "metadata" : {
+    "handle" : "JP-PROVIDERS-EIRELLI",
+    "description" : "JP Providers Eirelli",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.23.120.0/21",
       "191.5.224.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:139c::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 134276,
-  "handle": "ORBITB-AS-IN",
-  "description": "Orbit Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134276,
+  "metadata" : {
+    "handle" : "ORBITB-AS-IN",
+    "description" : "Orbit Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.163.192.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:b240::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 23117,
-  "handle": "ICOE-NETWORK",
-  "description": "Imperial County Office of Education",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23117,
+  "metadata" : {
+    "handle" : "ICOE-NETWORK",
+    "description" : "Imperial County Office of Education",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.102.5.0/24",
       "204.102.6.0/24",
       "205.154.68.0/24",
@@ -17,6 +20,6 @@
       "207.62.116.0/23",
       "209.132.157.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

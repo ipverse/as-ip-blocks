@@ -1,13 +1,16 @@
 {
-  "asn": 46539,
-  "handle": "SHADOW-INTERNET",
-  "description": "Shadow Internet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46539,
+  "metadata" : {
+    "handle" : "SHADOW-INTERNET",
+    "description" : "Shadow Internet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.159.144.0/24",
       "192.187.138.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:cb40::/32"
     ]
   }

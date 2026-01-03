@@ -1,9 +1,12 @@
 {
-  "asn": 4474,
-  "handle": "TCT-AS",
-  "description": "TCT West Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4474,
+  "metadata" : {
+    "handle" : "TCT-AS",
+    "description" : "TCT West Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.51.50.0/23",
       "24.72.192.0/21",
       "24.72.200.0/22",
@@ -17,7 +20,7 @@
       "216.166.135.0/24",
       "216.166.159.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:8c00::/32"
     ]
   }

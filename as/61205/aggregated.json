@@ -1,9 +1,12 @@
 {
-  "asn": 61205,
-  "handle": "INFOMIL",
-  "description": "Infomil S.A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61205,
+  "metadata" : {
+    "handle" : "INFOMIL",
+    "description" : "Infomil S.A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.136.92.0/22",
       "46.247.144.0/20",
       "94.198.200.0/21",
@@ -15,7 +18,7 @@
       "188.213.56.0/21",
       "193.138.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:c2c0::/32"
     ]
   }

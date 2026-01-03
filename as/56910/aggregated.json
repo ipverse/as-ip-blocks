@@ -1,9 +1,12 @@
 {
-  "asn": 56910,
-  "handle": "LAMDAHELLIX",
-  "description": "Digital Realty Hellas Single Member S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56910,
+  "metadata" : {
+    "handle" : "LAMDAHELLIX",
+    "description" : "Digital Realty Hellas Single Member S.A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.177.56.0/21",
       "86.106.173.0/24",
       "91.216.180.0/24",
@@ -13,7 +16,7 @@
       "188.214.127.0/24",
       "194.30.178.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:3e00::/29"
     ]
   }

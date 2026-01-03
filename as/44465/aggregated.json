@@ -1,11 +1,14 @@
 {
-  "asn": 44465,
-  "handle": "SAMA-AS",
-  "description": "Saudi Central Bank (SAMA)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44465,
+  "metadata" : {
+    "handle" : "SAMA-AS",
+    "description" : "Saudi Central Bank (SAMA)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "92.43.172.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

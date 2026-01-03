@@ -1,14 +1,17 @@
 {
-  "asn": 22418,
-  "handle": "COLOG",
-  "description": "Cologuard",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22418,
+  "metadata" : {
+    "handle" : "COLOG",
+    "description" : "Cologuard",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.105.222.0/24",
       "64.118.94.0/24",
       "192.157.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:eb80:6::/48"
     ]
   }

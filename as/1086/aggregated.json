@@ -1,14 +1,17 @@
 {
-  "asn": 1086,
-  "handle": "GET-REAL-CABLE-ASN",
-  "description": "Get LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1086,
+  "metadata" : {
+    "handle" : "GET-REAL-CABLE-ASN",
+    "description" : "Get LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.66.16.0/22",
       "66.103.121.0/24",
       "66.103.122.0/23",
       "66.103.124.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

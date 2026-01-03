@@ -1,9 +1,12 @@
 {
-  "asn": 203346,
-  "handle": "AS-232WEB",
-  "description": "Proper Support LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203346,
+  "metadata" : {
+    "handle" : "AS-232WEB",
+    "description" : "Proper Support LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.156.64.0/23",
       "46.102.182.0/23",
       "77.81.84.0/23",
@@ -84,6 +87,6 @@
       "193.254.60.0/22",
       "194.41.60.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

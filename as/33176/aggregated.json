@@ -1,9 +1,12 @@
 {
-  "asn": 33176,
-  "handle": "DTCCAAS",
-  "description": "DTC Cable",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33176,
+  "metadata" : {
+    "handle" : "DTCCAAS",
+    "description" : "DTC Cable",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.39.76.0/23",
       "12.152.152.0/21",
       "38.46.42.0/23",
@@ -12,6 +15,6 @@
       "208.83.168.0/21",
       "216.116.135.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

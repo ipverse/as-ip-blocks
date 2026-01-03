@@ -1,13 +1,16 @@
 {
-  "asn": 32541,
-  "handle": "CCI-DATA-01",
-  "description": "CCI Networks Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32541,
+  "metadata" : {
+    "handle" : "CCI-DATA-01",
+    "description" : "CCI Networks Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.206.225.0/24",
       "71.4.81.0/24",
       "208.253.200.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

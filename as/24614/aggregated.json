@@ -1,9 +1,12 @@
 {
-  "asn": 24614,
-  "handle": "SAKARYA-NET-AS",
-  "description": "Sakarya University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24614,
+  "metadata" : {
+    "handle" : "SAKARYA-NET-AS",
+    "description" : "Sakarya University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.140.252.0/23",
       "193.255.252.0/22",
       "194.27.188.0/22",
@@ -11,6 +14,6 @@
       "194.27.238.0/23",
       "194.27.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

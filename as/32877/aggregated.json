@@ -1,12 +1,15 @@
 {
-  "asn": 32877,
-  "handle": "SKYWAYNETWORKS",
-  "description": "Skyway Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32877,
+  "metadata" : {
+    "handle" : "SKYWAYNETWORKS",
+    "description" : "Skyway Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.200.180.0/23",
       "209.136.72.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

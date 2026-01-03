@@ -1,12 +1,15 @@
 {
-  "asn": 142551,
-  "handle": "KINGSHOST-AS-AP",
-  "description": "KingsHost",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142551,
+  "metadata" : {
+    "handle" : "KINGSHOST-AS-AP",
+    "description" : "KingsHost",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.130.115.0/24",
       "144.79.216.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

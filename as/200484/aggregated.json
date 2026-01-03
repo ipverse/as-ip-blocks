@@ -1,9 +1,12 @@
 {
-  "asn": 200484,
-  "handle": "SENDINBLUE-ASN",
-  "description": "Sendinblue SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200484,
+  "metadata" : {
+    "handle" : "SENDINBLUE-ASN",
+    "description" : "Sendinblue SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.179.120.0/21",
       "77.32.128.0/18",
       "77.32.192.0/19",
@@ -18,6 +21,6 @@
       "212.146.192.0/18",
       "213.32.128.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

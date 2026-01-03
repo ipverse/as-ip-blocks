@@ -1,10 +1,13 @@
 {
-  "asn": 200368,
-  "handle": "ABNORMALFREQUENCY-AS",
-  "description": "Abnormal Frequency Single Member P.C",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 200368,
+  "metadata" : {
+    "handle" : "ABNORMALFREQUENCY-AS",
+    "description" : "Abnormal Frequency Single Member P.C.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:67c:b44::/48"
     ]
   }

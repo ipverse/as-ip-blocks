@@ -1,9 +1,12 @@
 {
-  "asn": 16623,
-  "handle": "AHS",
-  "description": "Alberta Health Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16623,
+  "metadata" : {
+    "handle" : "AHS",
+    "description" : "Alberta Health Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.48.0.0/16",
       "142.199.0.0/16",
       "198.161.2.0/23",
@@ -11,6 +14,6 @@
       "198.161.12.0/23",
       "198.161.231.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

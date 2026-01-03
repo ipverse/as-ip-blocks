@@ -1,14 +1,17 @@
 {
-  "asn": 37900,
-  "handle": "MATSURI",
-  "description": "NTT Communications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37900,
+  "metadata" : {
+    "handle" : "MATSURI",
+    "description" : "NTT Communications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.2.89.0/24",
       "202.2.91.0/24",
       "202.4.244.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:c800:fff1::/48",
       "2402:c800:fff3::/48",
       "2402:c800:fff6::/48"

@@ -1,12 +1,15 @@
 {
-  "asn": 13543,
-  "handle": "COOKEVILLE-TN-GOV",
-  "description": "City of Cookeville",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13543,
+  "metadata" : {
+    "handle" : "COOKEVILLE-TN-GOV",
+    "description" : "City of Cookeville",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.253.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:f4:c000::/48"
     ]
   }

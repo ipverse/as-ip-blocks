@@ -1,9 +1,12 @@
 {
-  "asn": 41436,
-  "handle": "CLOUDWEBMANAGE-EU",
-  "description": "Kamatera Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41436,
+  "metadata" : {
+    "handle" : "CLOUDWEBMANAGE-EU",
+    "description" : "Kamatera Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.180.180.0/22",
       "45.91.168.0/23",
       "63.250.56.0/23",
@@ -23,7 +26,7 @@
       "194.146.38.0/23",
       "195.238.121.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:c5c0:200::/48",
       "2a07:3b80:3::/48"
     ]

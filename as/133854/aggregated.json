@@ -1,9 +1,12 @@
 {
-  "asn": 133854,
-  "handle": "X-PRESS-AS-AP",
-  "description": "X-press Technologies Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133854,
+  "metadata" : {
+    "handle" : "X-PRESS-AS-AP",
+    "description" : "X-press Technologies Limited.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.54.148.0/22",
       "43.224.108.0/22",
       "103.43.148.0/24",
@@ -14,7 +17,7 @@
       "202.144.200.0/24",
       "202.144.202.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:c680::/32"
     ]
   }

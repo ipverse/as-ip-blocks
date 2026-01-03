@@ -1,13 +1,16 @@
 {
-  "asn": 54825,
-  "handle": "PACKET",
-  "description": "Packet Host Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54825,
+  "metadata" : {
+    "handle" : "PACKET",
+    "description" : "Packet Host Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "145.40.84.0/23",
       "147.28.218.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:1380:10::/44",
       "2604:1380:90::/44",
       "2604:1380:1000::/36",

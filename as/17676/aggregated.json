@@ -1,9 +1,12 @@
 {
-  "asn": 17676,
-  "handle": "GIGAINFRA",
-  "description": "SoftBank Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17676,
+  "metadata" : {
+    "handle" : "GIGAINFRA",
+    "description" : "SoftBank Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.112.0.0/14",
       "36.240.0.0/13",
       "45.112.128.0/22",
@@ -148,7 +151,7 @@
       "221.64.0.0/11",
       "221.96.0.0/12"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:2000::/20",
       "2403:7a00::/32",
       "2403:9900::/24"

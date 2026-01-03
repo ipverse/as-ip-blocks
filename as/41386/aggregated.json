@@ -1,12 +1,15 @@
 {
-  "asn": 41386,
-  "handle": "BIS-AS",
-  "description": "Bank for International Settlements (BIS)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41386,
+  "metadata" : {
+    "handle" : "BIS-AS",
+    "description" : "Bank for International Settlements (BIS)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.146.80.0/22",
       "193.135.2.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

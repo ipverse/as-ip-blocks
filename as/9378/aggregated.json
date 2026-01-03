@@ -1,9 +1,12 @@
 {
-  "asn": 9378,
-  "handle": "CABLENET",
-  "description": "JCOM Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9378,
+  "metadata" : {
+    "handle" : "CABLENET",
+    "description" : "JCOM Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.113.248.0/22",
       "27.116.0.0/20",
       "61.215.128.0/19",
@@ -17,6 +20,6 @@
       "218.45.112.0/20",
       "219.124.16.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

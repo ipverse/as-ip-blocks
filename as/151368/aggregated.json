@@ -1,11 +1,14 @@
 {
-  "asn": 151368,
-  "handle": "GOTMYHOST-AS-AP",
-  "description": "GOTMYHOST",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151368,
+  "metadata" : {
+    "handle" : "GOTMYHOST-AS-AP",
+    "description" : "GOTMYHOST",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.187.131.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

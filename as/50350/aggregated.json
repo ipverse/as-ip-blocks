@@ -1,11 +1,14 @@
 {
-  "asn": 50350,
-  "handle": "MKS-AS",
-  "description": "MKS Pamp SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50350,
+  "metadata" : {
+    "handle" : "MKS-AS",
+    "description" : "MKS Pamp SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.104.238.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

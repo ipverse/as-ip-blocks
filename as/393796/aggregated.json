@@ -1,9 +1,12 @@
 {
-  "asn": 393796,
-  "handle": "GBTA-ASN",
-  "description": "Golden Belt Telephone",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393796,
+  "metadata" : {
+    "handle" : "GBTA-ASN",
+    "description" : "Golden Belt Telephone",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.7.201.0/24",
       "8.28.76.0/24",
       "38.58.208.0/20",
@@ -13,7 +16,7 @@
       "130.51.32.0/23",
       "206.85.168.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:7640::/32"
     ]
   }

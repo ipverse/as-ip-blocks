@@ -1,9 +1,12 @@
 {
-  "asn": 4907,
-  "handle": "BGPNETPTELTD-AS-AP",
-  "description": "BGPNET PTE. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4907,
+  "metadata" : {
+    "handle" : "BGPNETPTELTD-AS-AP",
+    "description" : "BGPNET PTE. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.182.143.0/24",
       "43.248.172.0/22",
       "45.197.232.0/21",
@@ -21,6 +24,6 @@
       "154.38.108.0/24",
       "161.248.14.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

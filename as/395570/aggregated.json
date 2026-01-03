@@ -1,9 +1,12 @@
 {
-  "asn": 395570,
-  "handle": "FIBRESTREAM",
-  "description": "Beanfield Technologies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395570,
+  "metadata" : {
+    "handle" : "FIBRESTREAM",
+    "description" : "Beanfield Technologies Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.42.8.0/22",
       "45.42.12.0/23",
       "45.42.14.0/24",
@@ -21,6 +24,6 @@
       "162.250.174.0/24",
       "204.11.218.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

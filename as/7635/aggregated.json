@@ -1,11 +1,14 @@
 {
-  "asn": 7635,
-  "handle": "TCC-AS-AP",
-  "description": "Townsville City Council",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7635,
+  "metadata" : {
+    "handle" : "TCC-AS-AP",
+    "description" : "Townsville City Council",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.24.71.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

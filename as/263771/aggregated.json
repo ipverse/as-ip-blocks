@@ -1,9 +1,12 @@
 {
-  "asn": 263771,
-  "handle": "IP-NET-CA",
-  "description": "IP NET C.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263771,
+  "metadata" : {
+    "handle" : "IP-NET-CA",
+    "description" : "IP NET C.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.216.241.0/24",
       "190.216.244.0/24",
       "190.216.251.0/24",
@@ -15,7 +18,7 @@
       "201.234.235.0/24",
       "204.199.176.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:3980::/32"
     ]
   }

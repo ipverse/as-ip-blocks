@@ -1,13 +1,16 @@
 {
-  "asn": 28058,
-  "handle": "STEALTH-TELECOM-ECUADOR",
-  "description": "Stealth Telecom del Ecuador",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28058,
+  "metadata" : {
+    "handle" : "STEALTH-TELECOM-ECUADOR",
+    "description" : "Stealth Telecom del Ecuador",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.60.48.0/23",
       "179.60.50.0/24",
       "200.105.112.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 152098,
-  "handle": "HEXAZN-AS-AP",
-  "description": "Hexazn",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152098,
+  "metadata" : {
+    "handle" : "HEXAZN-AS-AP",
+    "description" : "Hexazn",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.40.0/23",
       "155.35.34.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:1ec0::/48"
     ]
   }

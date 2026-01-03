@@ -1,12 +1,15 @@
 {
-  "asn": 152291,
-  "handle": "NHNGPUSERVICE-AS",
-  "description": "NHNCLOUD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152291,
+  "metadata" : {
+    "handle" : "NHNGPUSERVICE-AS",
+    "description" : "NHNCLOUD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.150.32.0/22",
       "59.150.36.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

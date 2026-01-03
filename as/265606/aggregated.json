@@ -1,16 +1,19 @@
 {
-  "asn": 265606,
-  "handle": "DIGY-NETWORKS",
-  "description": "DIGY NETWORKS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265606,
+  "metadata" : {
+    "handle" : "DIGY-NETWORKS",
+    "description" : "DIGY NETWORKS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.188.124.0/22",
       "148.230.4.0/24",
       "148.230.15.0/24",
       "200.71.108.0/22",
       "200.225.60.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:362::/32"
     ]
   }

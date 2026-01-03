@@ -1,9 +1,12 @@
 {
-  "asn": 209420,
-  "handle": "START-AS",
-  "description": "START LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209420,
+  "metadata" : {
+    "handle" : "START-AS",
+    "description" : "START LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.207.68.0/23",
       "31.207.70.0/24",
       "31.207.72.0/24",
@@ -11,6 +14,6 @@
       "192.145.16.0/23",
       "192.145.18.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

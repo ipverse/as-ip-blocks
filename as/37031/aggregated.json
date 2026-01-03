@@ -1,12 +1,15 @@
 {
-  "asn": 37031,
-  "handle": "MIST-EG",
-  "description": "MISR Information Services and Trading",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37031,
+  "metadata" : {
+    "handle" : "MIST-EG",
+    "description" : "MISR Information Services and Trading",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.217.224.0/21",
       "41.222.168.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

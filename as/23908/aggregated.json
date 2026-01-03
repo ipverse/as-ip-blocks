@@ -1,11 +1,14 @@
 {
-  "asn": 23908,
-  "handle": "AIRPORT-AS",
-  "description": "IIAC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23908,
+  "metadata" : {
+    "handle" : "AIRPORT-AS",
+    "description" : "IIAC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.84.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

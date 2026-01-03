@@ -1,9 +1,12 @@
 {
-  "asn": 57634,
-  "handle": "SKAT-POPOVO-AS",
-  "description": "SKAT POPOVO Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57634,
+  "metadata" : {
+    "handle" : "SKAT-POPOVO-AS",
+    "description" : "SKAT POPOVO Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.13.192.0/24",
       "31.13.199.0/24",
       "31.13.209.0/24",
@@ -17,6 +20,6 @@
       "94.156.171.0/24",
       "212.73.151.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 257,
-  "handle": "DNIC-AS-00257",
-  "description": "Navy Network Information Center (NNIC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 257,
+  "metadata" : {
+    "handle" : "DNIC-AS-00257",
+    "description" : "Navy Network Information Center (NNIC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.102.229.0/24",
       "205.155.65.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f380:804::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 997,
-  "handle": "BSL-AS-AP",
-  "description": "Beyotta Services LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 997,
+  "metadata" : {
+    "handle" : "BSL-AS-AP",
+    "description" : "Beyotta Services LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.93.244.0/24",
       "93.93.247.0/24",
       "103.19.8.0/23",
@@ -14,7 +17,7 @@
       "144.48.6.0/23",
       "205.210.165.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:1640::/32"
     ]
   }

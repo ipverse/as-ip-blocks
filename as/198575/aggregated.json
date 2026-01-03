@@ -1,12 +1,15 @@
 {
-  "asn": 198575,
-  "handle": "MANCHE-AS",
-  "description": "Departement de la Manche",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198575,
+  "metadata" : {
+    "handle" : "MANCHE-AS",
+    "description" : "Departement de la Manche",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.146.66.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:6e40::/32"
     ]
   }

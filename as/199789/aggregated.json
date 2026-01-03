@@ -1,12 +1,15 @@
 {
-  "asn": 199789,
-  "handle": "ROUTE128-AS",
-  "description": "Route 128 GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199789,
+  "metadata" : {
+    "handle" : "ROUTE128-AS",
+    "description" : "Route 128 GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.60.74.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:b98::/48",
       "2001:67c:29a4::/48"
     ]

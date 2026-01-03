@@ -1,12 +1,15 @@
 {
-  "asn": 53202,
-  "handle": "ACESSO10-TELECOM",
-  "description": "Acesso10 Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53202,
+  "metadata" : {
+    "handle" : "ACESSO10-TELECOM",
+    "description" : "Acesso10 Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.235.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1dc::/32"
     ]
   }

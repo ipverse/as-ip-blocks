@@ -1,14 +1,17 @@
 {
-  "asn": 19746,
-  "handle": "MMU-FIBER",
-  "description": "Marshall Municipal Utilities",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19746,
+  "metadata" : {
+    "handle" : "MMU-FIBER",
+    "description" : "Marshall Municipal Utilities",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.92.88.0/21",
       "45.59.80.0/20",
       "64.111.46.0/24",
       "162.253.61.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

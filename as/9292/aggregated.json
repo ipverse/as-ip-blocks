@@ -1,9 +1,12 @@
 {
-  "asn": 9292,
-  "handle": "TEMASEKPOLY-SG",
-  "description": "Temasek Polytechnic",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9292,
+  "metadata" : {
+    "handle" : "TEMASEKPOLY-SG",
+    "description" : "Temasek Polytechnic",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "152.226.3.0/24",
       "152.226.32.0/20",
       "152.226.64.0/24",
@@ -19,6 +22,6 @@
       "152.226.240.0/21",
       "152.226.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

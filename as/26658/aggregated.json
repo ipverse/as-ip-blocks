@@ -1,9 +1,12 @@
 {
-  "asn": 26658,
-  "handle": "HENGTONG-IDC-LLC",
-  "description": "HT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26658,
+  "metadata" : {
+    "handle" : "HENGTONG-IDC-LLC",
+    "description" : "HT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.249.176.0/21",
       "23.249.184.0/22",
       "27.0.156.0/22",
@@ -84,6 +87,6 @@
       "220.158.244.0/22",
       "220.158.252.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

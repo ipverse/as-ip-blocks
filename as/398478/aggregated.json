@@ -1,9 +1,12 @@
 {
-  "asn": 398478,
-  "handle": "PEG-HK",
-  "description": "PEG TECH INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398478,
+  "metadata" : {
+    "handle" : "PEG-HK",
+    "description" : "PEG TECH INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.6.224.0/19",
       "38.11.128.0/19",
       "38.11.224.0/19",
@@ -56,6 +59,6 @@
       "156.227.160.0/20",
       "222.167.192.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

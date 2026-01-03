@@ -1,9 +1,12 @@
 {
-  "asn": 41843,
-  "handle": "ERTH-OMSK-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41843,
+  "metadata" : {
+    "handle" : "ERTH-OMSK-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.164.32.0/20",
       "62.78.80.0/24",
       "62.78.84.0/23",
@@ -19,7 +22,7 @@
       "188.233.240.0/20",
       "188.234.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:5400::/38"
     ]
   }

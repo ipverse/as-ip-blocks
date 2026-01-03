@@ -1,12 +1,15 @@
 {
-  "asn": 16077,
-  "handle": "REGUS-PARIS-SAS",
-  "description": "Regus Paris SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16077,
+  "metadata" : {
+    "handle" : "REGUS-PARIS-SAS",
+    "description" : "Regus Paris SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.41.180.0/23",
       "193.108.203.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

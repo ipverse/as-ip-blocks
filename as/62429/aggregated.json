@@ -1,9 +1,12 @@
 {
-  "asn": 62429,
-  "handle": "CSTNET",
-  "description": "C.S.T. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62429,
+  "metadata" : {
+    "handle" : "CSTNET",
+    "description" : "C.S.T. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.24.87.0/24",
       "80.87.144.0/20",
       "91.195.16.0/23",
@@ -12,7 +15,7 @@
       "185.35.116.0/22",
       "185.124.64.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:db20::/32"
     ]
   }

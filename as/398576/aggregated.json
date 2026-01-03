@@ -1,9 +1,12 @@
 {
-  "asn": 398576,
-  "handle": "PCBPRTLND",
-  "description": "Premium Choice Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398576,
+  "metadata" : {
+    "handle" : "PCBPRTLND",
+    "description" : "Premium Choice Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.46.36.0/22",
       "38.57.144.0/22",
       "38.74.200.0/22",
@@ -12,6 +15,6 @@
       "216.66.31.0/24",
       "216.66.44.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

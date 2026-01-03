@@ -1,9 +1,12 @@
 {
-  "asn": 4010,
-  "handle": "DNIC-AS-04010",
-  "description": "Headquarters USAISC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4010,
+  "metadata" : {
+    "handle" : "DNIC-AS-04010",
+    "description" : "Headquarters USAISC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.165.0.0/16",
       "137.161.0.0/16",
       "140.194.0.0/16",
@@ -23,6 +26,6 @@
       "155.88.0.0/16",
       "198.17.86.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

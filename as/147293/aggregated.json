@@ -1,9 +1,12 @@
 {
-  "asn": 147293,
-  "handle": "NEAROUTE-AS-AP",
-  "description": "NEAROUTE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147293,
+  "metadata" : {
+    "handle" : "NEAROUTE-AS-AP",
+    "description" : "NEAROUTE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.146.232.0/23",
       "46.20.109.0/24",
       "82.22.78.0/24",
@@ -18,7 +21,7 @@
       "154.64.227.0/24",
       "185.113.66.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8a20:120::/47",
       "2400:8a20:122::/48",
       "2407:d840:40::/48"

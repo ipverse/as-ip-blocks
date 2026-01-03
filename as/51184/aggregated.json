@@ -1,9 +1,12 @@
 {
-  "asn": 51184,
-  "handle": "FONIRA",
-  "description": "Fonira Telekom GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51184,
+  "metadata" : {
+    "handle" : "FONIRA",
+    "description" : "Fonira Telekom GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.180.152.0/22",
       "91.206.8.0/23",
       "116.204.196.0/22",
@@ -15,7 +18,7 @@
       "193.238.236.0/22",
       "217.116.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1b98::/32",
       "2a02:1748::/32",
       "2a06:d180::/29",

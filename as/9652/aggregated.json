@@ -1,9 +1,12 @@
 {
-  "asn": 9652,
-  "handle": "ECN-AS-AP",
-  "description": "ECN Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9652,
+  "metadata" : {
+    "handle" : "ECN-AS-AP",
+    "description" : "ECN Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.127.192.0/19",
       "27.127.224.0/20",
       "103.227.181.0/24",
@@ -17,7 +20,7 @@
       "203.185.224.0/21",
       "203.201.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:6880::/32"
     ]
   }

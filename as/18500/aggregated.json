@@ -1,12 +1,15 @@
 {
-  "asn": 18500,
-  "handle": "PACCAR",
-  "description": "PACCAR INFORMATION TECHNOLOGY DIVISION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18500,
+  "metadata" : {
+    "handle" : "PACCAR",
+    "description" : "PACCAR INFORMATION TECHNOLOGY DIVISION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.69.0.0/23",
       "160.69.3.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

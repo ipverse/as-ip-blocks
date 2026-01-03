@@ -1,9 +1,12 @@
 {
-  "asn": 23854,
-  "handle": "NINE-AS-AP",
-  "description": "Fairfax Media Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23854,
+  "metadata" : {
+    "handle" : "NINE-AS-AP",
+    "description" : "Fairfax Media Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "119.15.64.0/24",
       "119.15.66.0/24",
       "119.15.68.0/22",
@@ -16,6 +19,6 @@
       "203.27.199.0/24",
       "203.31.75.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

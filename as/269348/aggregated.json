@@ -1,14 +1,17 @@
 {
-  "asn": 269348,
-  "handle": "REDES-METRO",
-  "description": "REDES METRO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269348,
+  "metadata" : {
+    "handle" : "REDES-METRO",
+    "description" : "REDES METRO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.71.96.0/22",
       "45.184.232.0/22",
       "128.201.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:633c::/32"
     ]
   }

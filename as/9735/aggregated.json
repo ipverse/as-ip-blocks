@@ -1,13 +1,16 @@
 {
-  "asn": 9735,
-  "handle": "HKDNR-AS-AP",
-  "description": "Hong Kong Domain Name Registration Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9735,
+  "metadata" : {
+    "handle" : "HKDNR-AS-AP",
+    "description" : "Hong Kong Domain Name Registration Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.119.2.0/24",
       "203.119.87.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:dca:1000::/36",
       "2001:dca:2000::/35",
       "2001:dca:4000::/36"

@@ -1,12 +1,15 @@
 {
-  "asn": 206080,
-  "handle": "INOVEX",
-  "description": "inovex GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206080,
+  "metadata" : {
+    "handle" : "INOVEX",
+    "description" : "inovex GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.113.124.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:9900::/29"
     ]
   }

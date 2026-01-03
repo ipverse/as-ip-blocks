@@ -1,9 +1,12 @@
 {
-  "asn": 210,
-  "handle": "WEST-NET-WEST",
-  "description": "Utah Education Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210,
+  "metadata" : {
+    "handle" : "WEST-NET-WEST",
+    "description" : "Utah Education Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.250.0.0/16",
       "137.190.0.0/16",
       "140.197.0.0/16",
@@ -31,7 +34,7 @@
       "205.118.0.0/15",
       "205.120.0.0/13"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1948::/32"
     ]
   }

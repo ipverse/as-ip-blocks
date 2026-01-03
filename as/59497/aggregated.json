@@ -1,9 +1,12 @@
 {
-  "asn": 59497,
-  "handle": "BUKNET-AS",
-  "description": "Buknet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59497,
+  "metadata" : {
+    "handle" : "BUKNET-AS",
+    "description" : "Buknet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.239.104.0/22",
       "176.110.102.0/23",
       "185.189.184.0/22",
@@ -14,7 +17,7 @@
       "194.44.96.0/23",
       "194.44.99.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:87c0::/29"
     ]
   }

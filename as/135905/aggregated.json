@@ -1,9 +1,12 @@
 {
-  "asn": 135905,
-  "handle": "VNPT-AS-VN",
-  "description": "VIETNAM POSTS AND TELECOMMUNICATIONS GROUP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135905,
+  "metadata" : {
+    "handle" : "VNPT-AS-VN",
+    "description" : "VIETNAM POSTS AND TELECOMMUNICATIONS GROUP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.225.0.0/16",
       "45.120.224.0/22",
       "45.124.84.0/22",
@@ -112,7 +115,7 @@
       "222.255.25.0/24",
       "222.255.38.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:6140::/48",
       "2001:df2:ca00::/48",
       "2001:df3:900::/48",

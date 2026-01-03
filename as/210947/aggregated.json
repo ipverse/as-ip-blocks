@@ -1,12 +1,15 @@
 {
-  "asn": 210947,
-  "handle": "ZUGSPITZNET-AS",
-  "description": "ZugspitzNet GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210947,
+  "metadata" : {
+    "handle" : "ZUGSPITZNET-AS",
+    "description" : "ZugspitzNet GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.110.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:5680::/29"
     ]
   }

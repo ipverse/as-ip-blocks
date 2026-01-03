@@ -1,9 +1,12 @@
 {
-  "asn": 30781,
-  "handle": "JAGUAR-AS",
-  "description": "Free Pro SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30781,
+  "metadata" : {
+    "handle" : "JAGUAR-AS",
+    "description" : "Free Pro SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.226.0.0/21",
       "31.7.248.0/21",
       "31.98.0.0/19",
@@ -79,7 +82,7 @@
       "212.85.229.0/24",
       "212.85.230.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:b64::/48",
       "2a00:68c0::/32",
       "2a00:78c0::/29",

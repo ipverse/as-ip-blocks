@@ -1,15 +1,18 @@
 {
-  "asn": 50989,
-  "handle": "DCS-NETWORKS-AS",
-  "description": "SITAB Infrastruktur",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50989,
+  "metadata" : {
+    "handle" : "DCS-NETWORKS-AS",
+    "description" : "SITAB Infrastruktur",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.104.214.0/24",
       "193.234.15.0/24",
       "193.234.32.0/21",
       "195.189.182.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1c20::/32"
     ]
   }

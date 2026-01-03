@@ -1,9 +1,12 @@
 {
-  "asn": 22911,
-  "handle": "SINAP-TIX",
-  "description": "SINAP-TIX LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22911,
+  "metadata" : {
+    "handle" : "SINAP-TIX",
+    "description" : "SINAP-TIX LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "52.144.40.0/22",
       "64.79.156.0/23",
       "66.23.212.0/22",
@@ -14,7 +17,7 @@
       "199.189.116.0/22",
       "199.204.210.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fc28::/32"
     ]
   }

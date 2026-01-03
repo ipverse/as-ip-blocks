@@ -1,9 +1,12 @@
 {
-  "asn": 53732,
-  "handle": "INNSYS",
-  "description": "InnSys Incorporated",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53732,
+  "metadata" : {
+    "handle" : "INNSYS",
+    "description" : "InnSys Incorporated",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.138.128.0/23",
       "23.167.24.0/23",
       "23.183.192.0/23",
@@ -17,7 +20,7 @@
       "209.142.0.0/18",
       "216.211.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:bd80::/32"
     ]
   }

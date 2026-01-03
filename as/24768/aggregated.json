@@ -1,9 +1,12 @@
 {
-  "asn": 24768,
-  "handle": "ALMOUROLTEC",
-  "description": "ALMOUROLTEC SERVICOS DE INFORMATICA E INTERNET LDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24768,
+  "metadata" : {
+    "handle" : "ALMOUROLTEC",
+    "description" : "ALMOUROLTEC SERVICOS DE INFORMATICA E INTERNET LDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.253.181.0/24",
       "5.253.182.0/23",
       "23.26.92.0/24",
@@ -33,7 +36,7 @@
       "185.170.67.0/24",
       "213.182.195.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1650::/32"
     ]
   }

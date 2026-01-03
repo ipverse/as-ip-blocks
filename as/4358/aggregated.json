@@ -1,9 +1,12 @@
 {
-  "asn": 4358,
-  "handle": "XNET",
-  "description": "XNet Information Systems Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4358,
+  "metadata" : {
+    "handle" : "XNET",
+    "description" : "XNet Information Systems Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.147.221.0/24",
       "198.246.244.0/23",
       "199.245.227.0/24",
@@ -12,6 +15,6 @@
       "207.227.8.0/21",
       "207.227.16.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

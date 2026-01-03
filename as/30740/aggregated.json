@@ -1,13 +1,16 @@
 {
-  "asn": 30740,
-  "handle": "EXA-NETWORKS",
-  "description": "Exa Networks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30740,
+  "metadata" : {
+    "handle" : "EXA-NETWORKS",
+    "description" : "Exa Networks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.219.0.0/16",
       "185.140.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:b80::/29"
     ]
   }

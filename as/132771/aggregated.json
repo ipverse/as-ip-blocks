@@ -1,9 +1,12 @@
 {
-  "asn": 132771,
-  "handle": "FIBREAIR-AS",
-  "description": "Fibre Air Services Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132771,
+  "metadata" : {
+    "handle" : "FIBREAIR-AS",
+    "description" : "Fibre Air Services Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.113.96.0/22",
       "103.147.136.0/23",
       "103.167.174.0/23",
@@ -12,7 +15,7 @@
       "103.170.44.0/23",
       "103.173.210.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:26c0::/32"
     ]
   }

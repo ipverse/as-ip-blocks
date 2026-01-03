@@ -1,12 +1,15 @@
 {
-  "asn": 54367,
-  "handle": "RILIN",
-  "description": "State of Rhode Island General Assembly",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54367,
+  "metadata" : {
+    "handle" : "RILIN",
+    "description" : "State of Rhode Island General Assembly",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.115.170.0/24",
       "206.35.212.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,16 +1,19 @@
 {
-  "asn": 28131,
-  "handle": "NETCOM-PROVEDOR-INTERNET",
-  "description": "NET.COM PROVEDOR DE INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28131,
+  "metadata" : {
+    "handle" : "NETCOM-PROVEDOR-INTERNET",
+    "description" : "NET.COM PROVEDOR DE INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.0.192.0/22",
       "167.249.112.0/22",
       "170.0.240.0/22",
       "170.81.176.0/22",
       "186.208.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:170::/32"
     ]
   }

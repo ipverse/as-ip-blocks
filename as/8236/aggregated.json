@@ -1,13 +1,16 @@
 {
-  "asn": 8236,
-  "handle": "DNA-CE",
-  "description": "DNA Oyj",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8236,
+  "metadata" : {
+    "handle" : "DNA-CE",
+    "description" : "DNA Oyj",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.105.76.0/24",
       "195.234.142.0/24",
       "195.234.196.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

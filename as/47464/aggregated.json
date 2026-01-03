@@ -1,10 +1,13 @@
 {
-  "asn": 47464,
-  "handle": "AM-AS",
-  "description": "Address Management Inc",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 47464,
+  "metadata" : {
+    "handle" : "AM-AS",
+    "description" : "Address Management Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a07:ca00::/30",
       "2a07:ca04::/31",
       "2a07:ca06::/32"

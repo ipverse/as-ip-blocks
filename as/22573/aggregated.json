@@ -1,9 +1,12 @@
 {
-  "asn": 22573,
-  "handle": "NWTEL",
-  "description": "Northwestel Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22573,
+  "metadata" : {
+    "handle" : "NWTEL",
+    "description" : "Northwestel Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.117.208.0/20",
       "76.9.32.0/19",
       "198.135.216.0/24",
@@ -30,6 +33,6 @@
       "216.126.120.0/23",
       "216.126.122.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

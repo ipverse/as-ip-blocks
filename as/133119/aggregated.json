@@ -1,9 +1,12 @@
 {
-  "asn": 133119,
-  "handle": "UNICOM-CN",
-  "description": "China Unicom IP network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133119,
+  "metadata" : {
+    "handle" : "UNICOM-CN",
+    "description" : "China Unicom IP network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.181.0.0/16",
       "120.52.0.0/16",
       "120.133.16.0/21",
@@ -12,7 +15,7 @@
       "123.58.240.0/20",
       "220.192.72.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:be00::/48",
       "2408:877e::/32"
     ]

@@ -1,15 +1,18 @@
 {
-  "asn": 393524,
-  "handle": "MISSOURICOM",
-  "description": "New Florence Telephone Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393524,
+  "metadata" : {
+    "handle" : "MISSOURICOM",
+    "description" : "New Florence Telephone Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.134.16.0/23",
       "23.135.18.0/24",
       "104.192.96.0/22",
       "104.245.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff44::/37"
     ]
   }

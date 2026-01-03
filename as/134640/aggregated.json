@@ -1,12 +1,15 @@
 {
-  "asn": 134640,
-  "handle": "IDNIC-DCI-AS-ID",
-  "description": "PT DCI Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134640,
+  "metadata" : {
+    "handle" : "IDNIC-DCI-AS-ID",
+    "description" : "PT DCI Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.22.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:a00::/48"
     ]
   }

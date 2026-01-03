@@ -1,13 +1,16 @@
 {
-  "asn": 4986,
-  "handle": "INTERSTAR",
-  "description": "InterStar Network Services Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4986,
+  "metadata" : {
+    "handle" : "INTERSTAR",
+    "description" : "InterStar Network Services Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.10.160.0/20",
       "74.123.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:8b80::/32"
     ]
   }

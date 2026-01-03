@@ -1,12 +1,15 @@
 {
-  "asn": 10851,
-  "handle": "SJCB",
-  "description": "St Johns County BOCC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10851,
+  "metadata" : {
+    "handle" : "SJCB",
+    "description" : "St Johns County BOCC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.251.206.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:137:5000::/44",
       "2620:137:5090::/44"
     ]

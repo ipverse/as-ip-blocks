@@ -1,13 +1,16 @@
 {
-  "asn": 57961,
-  "handle": "RASH-AS",
-  "description": "RASH - Rrjeti Akademik Shqiptar",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57961,
+  "metadata" : {
+    "handle" : "RASH-AS",
+    "description" : "RASH - Rrjeti Akademik Shqiptar",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.139.112.0/21",
       "185.63.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:9f40::/32"
     ]
   }

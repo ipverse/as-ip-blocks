@@ -1,13 +1,16 @@
 {
-  "asn": 42289,
-  "handle": "ITMO-AS",
-  "description": "ITMO University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42289,
+  "metadata" : {
+    "handle" : "ITMO-AS",
+    "description" : "ITMO University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.234.192.0/19",
       "194.85.160.0/22",
       "194.85.164.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

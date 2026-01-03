@@ -1,13 +1,16 @@
 {
-  "asn": 63183,
-  "handle": "YTHING-NET-1",
-  "description": "Ything LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63183,
+  "metadata" : {
+    "handle" : "YTHING-NET-1",
+    "description" : "Ything LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.190.88.0/24",
       "142.249.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f7fc::/48",
       "2602:f7fc:53::/48",
       "2602:f7fc:400::/39",

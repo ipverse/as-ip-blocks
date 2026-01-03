@@ -1,9 +1,12 @@
 {
-  "asn": 12488,
-  "handle": "KRYSTAL",
-  "description": "Krystal Hosting Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12488,
+  "metadata" : {
+    "handle" : "KRYSTAL",
+    "description" : "Krystal Hosting Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.100.204.0/22",
       "77.72.0.0/21",
       "91.194.74.0/23",
@@ -21,7 +24,7 @@
       "185.194.88.0/22",
       "185.199.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:2800::/32",
       "2a03:2802::/31",
       "2a03:2804::/32",

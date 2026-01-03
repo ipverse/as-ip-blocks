@@ -1,12 +1,15 @@
 {
-  "asn": 396155,
-  "handle": "COA",
-  "description": "City of Arlington",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396155,
+  "metadata" : {
+    "handle" : "COA",
+    "description" : "City of Arlington",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "97.65.254.0/24",
       "172.83.48.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

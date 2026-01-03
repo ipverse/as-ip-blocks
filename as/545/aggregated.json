@@ -1,13 +1,16 @@
 {
-  "asn": 545,
-  "handle": "NRI",
-  "description": "Corporation for National Research Initiatives",
-  "subnets": {
-    "ipv4": [
+  "asn" : 545,
+  "metadata" : {
+    "handle" : "NRI",
+    "description" : "Corporation for National Research Initiatives",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.194.67.0/24",
       "132.151.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:80d:3000::/44"
     ]
   }

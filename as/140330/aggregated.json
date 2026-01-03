@@ -1,13 +1,16 @@
 {
-  "asn": 140330,
-  "handle": "CHINATELECOM-FUJIAN-XIAMEN-5G-NETWORK",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140330,
+  "metadata" : {
+    "handle" : "CHINATELECOM-FUJIAN-XIAMEN-5G-NETWORK",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.154.226.0/24",
       "117.25.187.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:14:1000::/36",
       "240e:14:9000::/36",
       "240e:55::/34",

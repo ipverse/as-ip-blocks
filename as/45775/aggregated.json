@@ -1,9 +1,12 @@
 {
-  "asn": 45775,
-  "handle": "WISHNET-AS-AP",
-  "description": "WISH NET PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45775,
+  "metadata" : {
+    "handle" : "WISHNET-AS-AP",
+    "description" : "WISH NET PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.131.208.0/21",
       "43.226.28.0/22",
       "43.231.240.0/22",
@@ -27,7 +30,7 @@
       "139.5.228.0/22",
       "223.223.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:85c0::/32"
     ]
   }

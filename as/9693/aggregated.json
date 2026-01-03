@@ -1,15 +1,18 @@
 {
-  "asn": 9693,
-  "handle": "KFTCCA-AS",
-  "description": "KFTC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9693,
+  "metadata" : {
+    "handle" : "KFTCCA-AS",
+    "description" : "KFTC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.141.18.0/23",
       "203.81.8.0/23",
       "203.81.11.0/24",
       "203.175.188.0/22",
       "203.233.91.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 51728,
-  "handle": "SELTIMIL-AS",
-  "description": "Seltimil Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51728,
+  "metadata" : {
+    "handle" : "SELTIMIL-AS",
+    "description" : "Seltimil Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.66.160.0/20",
       "91.190.192.0/21",
       "146.66.24.0/22",
       "185.40.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ac00::/32"
     ]
   }

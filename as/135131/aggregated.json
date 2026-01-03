@@ -1,12 +1,15 @@
 {
-  "asn": 135131,
-  "handle": "BROTHERSONLINE-AS-AP",
-  "description": "BROTHERS ONLINE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135131,
+  "metadata" : {
+    "handle" : "BROTHERSONLINE-AS-AP",
+    "description" : "BROTHERS ONLINE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.114.166.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:f940::/48"
     ]
   }

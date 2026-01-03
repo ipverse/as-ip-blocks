@@ -1,9 +1,12 @@
 {
-  "asn": 16746,
-  "handle": "RELIANTENERGY",
-  "description": "CenterPoint Energy Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16746,
+  "metadata" : {
+    "handle" : "RELIANTENERGY",
+    "description" : "CenterPoint Energy Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.81.13.0/24",
       "158.81.16.0/22",
       "158.81.24.0/22",
@@ -19,6 +22,6 @@
       "158.81.82.0/24",
       "158.81.96.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

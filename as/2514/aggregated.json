@@ -1,9 +1,12 @@
 {
-  "asn": 2514,
-  "handle": "INFOSPHERE",
-  "description": "NTT PC Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2514,
+  "metadata" : {
+    "handle" : "INFOSPHERE",
+    "description" : "NTT PC Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.33.0.0/16",
       "23.232.128.0/17",
       "61.194.0.0/16",
@@ -146,7 +149,7 @@
       "219.118.64.0/20",
       "219.122.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:2c0::/32",
       "2400:3e80::/32",
       "2400:a800::/32"

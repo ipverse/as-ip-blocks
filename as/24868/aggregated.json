@@ -1,13 +1,16 @@
 {
-  "asn": 24868,
-  "handle": "ASN-HBV",
-  "description": "Bauer Systems KG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24868,
+  "metadata" : {
+    "handle" : "ASN-HBV",
+    "description" : "Bauer Systems KG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.195.218.0/23",
       "195.39.234.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:4d4::/48"
     ]
   }

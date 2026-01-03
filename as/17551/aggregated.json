@@ -1,9 +1,12 @@
 {
-  "asn": 17551,
-  "handle": "ANYCAST-AS-AP",
-  "description": "Anycast Holdings Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17551,
+  "metadata" : {
+    "handle" : "ANYCAST-AS-AP",
+    "description" : "Anycast Holdings Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.192.56.0/22",
       "103.15.148.0/22",
       "103.29.172.0/23",
@@ -35,7 +38,7 @@
       "210.56.243.0/24",
       "210.56.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:b880::/32",
       "2402:1560::/32",
       "2407:5400::/32"

@@ -1,9 +1,12 @@
 {
-  "asn": 35415,
-  "handle": "WEBZILLA",
-  "description": "Webzilla B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35415,
+  "metadata" : {
+    "handle" : "WEBZILLA",
+    "description" : "Webzilla B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.11.80.0/21",
       "67.58.108.0/24",
       "67.58.110.0/24",
@@ -56,7 +59,7 @@
       "208.69.116.0/23",
       "208.69.119.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1178::/32"
     ]
   }

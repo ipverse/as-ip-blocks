@@ -1,9 +1,12 @@
 {
-  "asn": 206375,
-  "handle": "NETSPEED",
-  "description": "NETSPEED INTERNET A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206375,
+  "metadata" : {
+    "handle" : "NETSPEED",
+    "description" : "NETSPEED INTERNET A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.135.204.0/22",
       "78.135.91.0/24",
       "78.135.94.0/23",
@@ -21,7 +24,7 @@
       "188.132.247.0/24",
       "188.132.248.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:bf40::/44",
       "2a0b:bf40:10::/45",
       "2a0b:bf40:18::/47"

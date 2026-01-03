@@ -1,12 +1,15 @@
 {
-  "asn": 10208,
-  "handle": "THENET-AS-ID-AP",
-  "description": "PT. Millenium Internetindo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10208,
+  "metadata" : {
+    "handle" : "THENET-AS-ID-AP",
+    "description" : "PT. Millenium Internetindo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.153.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:9600::/32"
     ]
   }

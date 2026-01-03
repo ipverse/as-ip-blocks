@@ -1,9 +1,12 @@
 {
-  "asn": 54182,
-  "handle": "AXIA-CONNECT",
-  "description": "Bell Canada",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54182,
+  "metadata" : {
+    "handle" : "AXIA-CONNECT",
+    "description" : "Bell Canada",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.59.72.0/21",
       "104.219.192.0/22",
       "136.175.79.0/24",
@@ -23,7 +26,7 @@
       "208.78.126.0/24",
       "209.206.112.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:7980::/32"
     ]
   }

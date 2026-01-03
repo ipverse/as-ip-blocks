@@ -1,9 +1,12 @@
 {
-  "asn": 18164,
-  "handle": "MOKPO-AS",
-  "description": "Mokpo University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18164,
+  "metadata" : {
+    "handle" : "MOKPO-AS",
+    "description" : "Mokpo University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.84.218.0/23",
       "61.84.220.0/23",
       "114.70.92.0/22",
@@ -17,6 +20,6 @@
       "220.67.88.0/23",
       "220.149.52.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

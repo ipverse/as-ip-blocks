@@ -1,9 +1,12 @@
 {
-  "asn": 64289,
-  "handle": "MACARNE",
-  "description": "Macarne.com",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64289,
+  "metadata" : {
+    "handle" : "MACARNE",
+    "description" : "Macarne.com",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.151.136.0/24",
       "23.155.72.0/24",
       "103.20.101.0/24",
@@ -15,7 +18,7 @@
       "204.139.12.0/22",
       "206.71.158.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:e74::/48",
       "2600:3500:c22::/48",
       "2602:2ea::/36",

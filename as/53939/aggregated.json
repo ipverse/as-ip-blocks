@@ -1,9 +1,12 @@
 {
-  "asn": 53939,
-  "handle": "DLR-SEATTLE",
-  "description": "Telx",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53939,
+  "metadata" : {
+    "handle" : "DLR-SEATTLE",
+    "description" : "Telx",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.246.160.0/19",
       "66.228.208.0/22",
       "67.158.222.0/23",
@@ -13,7 +16,7 @@
       "216.145.0.0/20",
       "216.145.16.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:8200:c000::/36",
       "2607:fb58:d300::/40"
     ]

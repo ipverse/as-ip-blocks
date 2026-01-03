@@ -1,9 +1,12 @@
 {
-  "asn": 49855,
-  "handle": "PLUTEX",
-  "description": "PLUTEX GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49855,
+  "metadata" : {
+    "handle" : "PLUTEX",
+    "description" : "PLUTEX GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.24.144.0/21",
       "91.202.40.0/22",
       "91.212.95.0/24",
@@ -11,7 +14,7 @@
       "185.98.240.0/22",
       "202.49.88.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:18e8::/48",
       "2a02:16d0::/32"
     ]

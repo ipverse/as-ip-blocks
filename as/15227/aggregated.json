@@ -1,9 +1,12 @@
 {
-  "asn": 15227,
-  "handle": "LUMOS",
-  "description": "LUMOS Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15227,
+  "metadata" : {
+    "handle" : "LUMOS",
+    "description" : "LUMOS Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.90.66.0/23",
       "63.110.160.0/21",
       "63.126.208.0/21",
@@ -17,6 +20,6 @@
       "209.234.0.0/18",
       "216.30.192.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

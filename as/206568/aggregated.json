@@ -1,13 +1,16 @@
 {
-  "asn": 206568,
-  "handle": "FR-ALTSYSNET",
-  "description": "ALTSYSNET.COM SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206568,
+  "metadata" : {
+    "handle" : "FR-ALTSYSNET",
+    "description" : "ALTSYSNET.COM SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.176.232.0/24",
       "185.176.234.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:2582::/32",
       "2a0a:2584::/31"
     ]

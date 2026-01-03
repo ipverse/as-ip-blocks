@@ -1,12 +1,15 @@
 {
-  "asn": 153127,
-  "handle": "IDNIC-TOPSETTING-AS-ID",
-  "description": "PT Topsetting Sentra Akses",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153127,
+  "metadata" : {
+    "handle" : "IDNIC-TOPSETTING-AS-ID",
+    "description" : "PT Topsetting Sentra Akses",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.187.150.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:58c0::/48"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 396258,
-  "handle": "SEATTLEU-AS",
-  "description": "Seattle University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396258,
+  "metadata" : {
+    "handle" : "SEATTLEU-AS",
+    "description" : "Seattle University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.194.72.0/24",
       "192.48.211.0/24",
       "192.222.32.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

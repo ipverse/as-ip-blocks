@@ -1,9 +1,12 @@
 {
-  "asn": 133337,
-  "handle": "IDNIC-MSS-AS-ID",
-  "description": "PT Menara Sinar Semesta",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133337,
+  "metadata" : {
+    "handle" : "IDNIC-MSS-AS-ID",
+    "description" : "PT Menara Sinar Semesta",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.57.183.0/24",
       "74.0.16.0/23",
       "102.129.168.0/24",
@@ -12,7 +15,7 @@
       "151.242.204.0/24",
       "178.92.118.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:9e40::/48"
     ]
   }

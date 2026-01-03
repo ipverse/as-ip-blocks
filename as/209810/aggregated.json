@@ -1,9 +1,12 @@
 {
-  "asn": 209810,
-  "handle": "NETCORESERVICES",
-  "description": "Netcore services s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209810,
+  "metadata" : {
+    "handle" : "NETCORESERVICES",
+    "description" : "Netcore services s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.129.106.0/24",
       "85.92.96.0/22",
       "89.190.128.0/22",
@@ -11,7 +14,7 @@
       "194.31.188.0/22",
       "194.50.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:1980::/29"
     ]
   }

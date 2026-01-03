@@ -1,12 +1,15 @@
 {
-  "asn": 34915,
-  "handle": "METROSERV-AS",
-  "description": "METROPOLITAN SERVICES SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34915,
+  "metadata" : {
+    "handle" : "METROSERV-AS",
+    "description" : "METROPOLITAN SERVICES SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.5.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:ca80::/31",
       "2a0c:ca82::/32"
     ]

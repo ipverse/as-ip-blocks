@@ -1,9 +1,12 @@
 {
-  "asn": 32354,
-  "handle": "UNWIRED",
-  "description": "Unwired",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32354,
+  "metadata" : {
+    "handle" : "UNWIRED",
+    "description" : "Unwired",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.244.56.0/21",
       "172.81.188.0/22",
       "173.239.64.0/20",
@@ -14,7 +17,7 @@
       "208.80.116.0/22",
       "208.87.216.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f640::/32"
     ]
   }

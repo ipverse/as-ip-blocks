@@ -1,12 +1,15 @@
 {
-  "asn": 49281,
-  "handle": "M100",
-  "description": "M100 LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49281,
+  "metadata" : {
+    "handle" : "M100",
+    "description" : "M100 LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.198.106.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:a300::/32"
     ]
   }

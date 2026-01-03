@@ -1,16 +1,19 @@
 {
-  "asn": 50362,
-  "handle": "KTM-PLUS-AS",
-  "description": "LLC CABLE TELEVISION COMPANY CABLE TELEVISION NETWORKS PLUS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50362,
+  "metadata" : {
+    "handle" : "KTM-PLUS-AS",
+    "description" : "LLC CABLE TELEVISION COMPANY CABLE TELEVISION NETWORKS PLUS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.209.201.0/24",
       "91.209.202.0/23",
       "109.196.176.0/20",
       "185.21.176.0/22",
       "195.170.179.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:1a40::/47"
     ]
   }

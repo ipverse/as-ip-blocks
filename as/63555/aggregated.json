@@ -1,9 +1,12 @@
 {
-  "asn": 63555,
-  "handle": "CNBIDCC",
-  "description": "Beijing Beilong Yunhai Network Data Technology Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63555,
+  "metadata" : {
+    "handle" : "CNBIDCC",
+    "description" : "Beijing Beilong Yunhai Network Data Technology Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "223.0.1.0/24",
       "223.0.2.0/24",
       "223.0.8.0/22",
@@ -14,6 +17,6 @@
       "223.0.40.0/23",
       "223.0.126.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

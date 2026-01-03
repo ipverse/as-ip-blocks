@@ -1,9 +1,12 @@
 {
-  "asn": 13414,
-  "handle": "TWITTER",
-  "description": "Twitter Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13414,
+  "metadata" : {
+    "handle" : "TWITTER",
+    "description" : "Twitter Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.63.0.0/18",
       "69.195.160.0/19",
       "103.252.112.0/22",
@@ -18,7 +21,7 @@
       "202.160.128.0/22",
       "209.237.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:6680:f000::/36",
       "2606:1f80:f000::/36",
       "2a04:9d40:f000::/36"

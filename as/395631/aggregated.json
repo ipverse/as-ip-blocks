@@ -1,12 +1,15 @@
 {
-  "asn": 395631,
-  "handle": "KASD",
-  "description": "Kutztown Area School District",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395631,
+  "metadata" : {
+    "handle" : "KASD",
+    "description" : "Kutztown Area School District",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.131.176.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:139:4000::/44"
     ]
   }

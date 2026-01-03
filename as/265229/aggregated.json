@@ -1,13 +1,16 @@
 {
-  "asn": 265229,
-  "handle": "INTERLIGADOS-FIBRA",
-  "description": "INTERLIGADOS FIBRA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265229,
+  "metadata" : {
+    "handle" : "INTERLIGADOS-FIBRA",
+    "description" : "INTERLIGADOS FIBRA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.0.52.0/22",
       "170.247.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2c98::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 271451,
-  "handle": "WINLINK-TELECOM",
-  "description": "WinLink Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271451,
+  "metadata" : {
+    "handle" : "WINLINK-TELECOM",
+    "description" : "WinLink Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.174.240.0/23",
       "181.174.243.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7bbc::/32"
     ]
   }

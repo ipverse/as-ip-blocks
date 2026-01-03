@@ -1,12 +1,15 @@
 {
-  "asn": 29264,
-  "handle": "CDN-CANAL-PLUS",
-  "description": "CANAL+ TECH SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29264,
+  "metadata" : {
+    "handle" : "CDN-CANAL-PLUS",
+    "description" : "CANAL+ TECH SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.86.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:bd40:d13::/48",
       "2a05:bd40:d17::/48",
       "2a05:bd40:cd13::/48"

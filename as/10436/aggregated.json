@@ -1,9 +1,12 @@
 {
-  "asn": 10436,
-  "handle": "INSTITUTO-TECNOLOGICO-ESTUDIOS",
-  "description": "Instituto Tecnológico y de Estudios Superiores de Monterrey",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10436,
+  "metadata" : {
+    "handle" : "INSTITUTO-TECNOLOGICO-ESTUDIOS",
+    "description" : "Instituto Tecnológico y de Estudios Superiores de Monterrey",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.254.0.0/19",
       "132.254.32.0/20",
       "132.254.72.0/21",
@@ -16,6 +19,6 @@
       "148.241.192.0/20",
       "148.241.224.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

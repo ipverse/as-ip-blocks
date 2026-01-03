@@ -1,9 +1,12 @@
 {
-  "asn": 23381,
-  "handle": "TRAVELERS",
-  "description": "Travelers Property Casualty Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23381,
+  "metadata" : {
+    "handle" : "TRAVELERS",
+    "description" : "Travelers Property Casualty Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.175.129.0/24",
       "170.202.64.0/22",
       "170.202.72.0/24",
@@ -21,6 +24,6 @@
       "170.202.203.0/24",
       "170.202.207.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

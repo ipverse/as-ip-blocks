@@ -1,9 +1,12 @@
 {
-  "asn": 131918,
-  "handle": "SCN-NET",
-  "description": "SHONAN CABLE NETWORK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131918,
+  "metadata" : {
+    "handle" : "SCN-NET",
+    "description" : "SHONAN CABLE NETWORK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.93.60.0/22",
       "110.74.80.0/20",
       "110.74.96.0/20",
@@ -17,7 +20,7 @@
       "220.215.48.0/20",
       "220.215.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:25c0::/32"
     ]
   }

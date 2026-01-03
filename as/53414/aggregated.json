@@ -1,9 +1,12 @@
 {
-  "asn": 53414,
-  "handle": "SYNTENIC-NET1",
-  "description": "CloudOps Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53414,
+  "metadata" : {
+    "handle" : "SYNTENIC-NET1",
+    "description" : "CloudOps Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.129.20.0/23",
       "45.72.188.0/24",
       "69.196.181.0/24",
@@ -11,6 +14,6 @@
       "192.155.69.0/24",
       "199.84.5.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

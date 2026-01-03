@@ -1,12 +1,15 @@
 {
-  "asn": 269111,
-  "handle": "NETLINK-PROVEDOR",
-  "description": "Netlink Provedor",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269111,
+  "metadata" : {
+    "handle" : "NETLINK-PROVEDOR",
+    "description" : "Netlink Provedor",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.178.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5f98::/32"
     ]
   }

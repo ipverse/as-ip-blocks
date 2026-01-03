@@ -1,9 +1,14 @@
 {
-  "asn": 149414,
-  "handle": "NARIA-AS-AP",
-  "description": "Naria Online",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": []
+  "asn" : 149414,
+  "metadata" : {
+    "handle" : "NARIA-AS-AP",
+    "description" : "Naria Online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
+      "103.178.220.0/24"
+    ],
+    "ipv6" : [ ]
   }
 }

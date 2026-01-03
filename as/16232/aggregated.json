@@ -1,9 +1,12 @@
 {
-  "asn": 16232,
-  "handle": "ASN-TIM",
-  "description": "Telecom Italia S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16232,
+  "metadata" : {
+    "handle" : "ASN-TIM",
+    "description" : "Telecom Italia S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.192.0.0/13",
       "5.168.0.0/14",
       "62.18.0.0/15",
@@ -14,7 +17,7 @@
       "213.230.128.0/19",
       "217.200.0.0/14"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:8980::/32"
     ]
   }

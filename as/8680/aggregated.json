@@ -1,9 +1,12 @@
 {
-  "asn": 8680,
-  "handle": "SURE-INTERNATIONAL-LIMITED",
-  "description": "Sure (Guernsey) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8680,
+  "metadata" : {
+    "handle" : "SURE-INTERNATIONAL-LIMITED",
+    "description" : "Sure (Guernsey) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.42.128.0/21",
       "5.253.76.0/24",
       "37.18.136.0/21",
@@ -55,7 +58,7 @@
       "212.30.0.0/19",
       "217.19.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:94a0::/32",
       "2a02:7380::/32",
       "2a04:b240::/29"

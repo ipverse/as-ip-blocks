@@ -1,9 +1,12 @@
 {
-  "asn": 198330,
-  "handle": "XEFI",
-  "description": "XEFI LYON SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198330,
+  "metadata" : {
+    "handle" : "XEFI",
+    "description" : "XEFI LYON SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.10.180.0/22",
       "45.12.224.0/22",
       "79.110.56.0/22",
@@ -13,7 +16,7 @@
       "185.128.64.0/22",
       "185.243.1.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:c280::/32"
     ]
   }

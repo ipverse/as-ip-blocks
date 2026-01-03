@@ -1,12 +1,15 @@
 {
-  "asn": 30301,
-  "handle": "INTRUST-WICHITA",
-  "description": "INTRUST Bank N.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30301,
+  "metadata" : {
+    "handle" : "INTRUST-WICHITA",
+    "description" : "INTRUST Bank N.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.205.240.0/23",
       "192.231.238.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

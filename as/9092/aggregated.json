@@ -1,13 +1,16 @@
 {
-  "asn": 9092,
-  "handle": "OPENSYSTEMS-AS",
-  "description": "Open Systems AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9092,
+  "metadata" : {
+    "handle" : "OPENSYSTEMS-AS",
+    "description" : "Open Systems AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.156.224.0/20",
       "213.156.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:db0::/32"
     ]
   }

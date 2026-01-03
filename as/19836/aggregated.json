@@ -1,9 +1,12 @@
 {
-  "asn": 19836,
-  "handle": "VERISIGNGRS",
-  "description": "VeriSign Infrastructure \u0026 Operations",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19836,
+  "metadata" : {
+    "handle" : "VERISIGNGRS",
+    "description" : "VeriSign Infrastructure & Operations",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.30.45.0/24",
       "192.41.162.0/24",
       "192.42.175.0/24",
@@ -20,7 +23,7 @@
       "199.7.71.0/24",
       "216.168.228.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:500:122::/47",
       "2001:500:126::/47",
       "2001:500:135::/48",

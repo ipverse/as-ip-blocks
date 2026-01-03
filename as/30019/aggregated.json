@@ -1,11 +1,14 @@
 {
-  "asn": 30019,
-  "handle": "PSBC",
-  "description": "BLOODWORKS NORTHWEST",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30019,
+  "metadata" : {
+    "handle" : "PSBC",
+    "description" : "BLOODWORKS NORTHWEST",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.184.15.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

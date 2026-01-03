@@ -1,9 +1,12 @@
 {
-  "asn": 3598,
-  "handle": "MICROSOFT-CORP-AS",
-  "description": "Microsoft Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3598,
+  "metadata" : {
+    "handle" : "MICROSOFT-CORP-AS",
+    "description" : "Microsoft Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.53.0.0/16",
       "131.107.0.0/16",
       "157.54.0.0/16",
@@ -14,7 +17,7 @@
       "194.69.96.0/19",
       "198.105.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4898::/32",
       "2404:f801::/32",
       "2a01:110::/32"

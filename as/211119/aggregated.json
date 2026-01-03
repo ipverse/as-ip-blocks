@@ -1,11 +1,14 @@
 {
-  "asn": 211119,
-  "handle": "RIGNET-NG-AS",
-  "description": "Rignet AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211119,
+  "metadata" : {
+    "handle" : "RIGNET-NG-AS",
+    "description" : "Rignet AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.126.24.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

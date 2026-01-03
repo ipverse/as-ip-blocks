@@ -1,9 +1,12 @@
 {
-  "asn": 9494,
-  "handle": "KOSINET-AS",
-  "description": "National Infomation Society Agency",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9494,
+  "metadata" : {
+    "handle" : "KOSINET-AS",
+    "description" : "National Infomation Society Agency",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.30.64.0/20",
       "202.30.80.0/22",
       "202.30.84.0/23",
@@ -14,6 +17,6 @@
       "203.254.51.0/24",
       "203.254.52.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

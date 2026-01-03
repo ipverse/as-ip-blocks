@@ -1,9 +1,12 @@
 {
-  "asn": 6786,
-  "handle": "CRONON-BERLIN-AS",
-  "description": "Cronon GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6786,
+  "metadata" : {
+    "handle" : "CRONON-BERLIN-AS",
+    "description" : "Cronon GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.169.4.0/24",
       "81.169.191.0/24",
       "85.214.9.0/24",
@@ -17,7 +20,7 @@
       "194.121.50.0/24",
       "217.74.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:238:cca::/48",
       "2a01:238:3000::/36",
       "2a01:238:e000::/35",

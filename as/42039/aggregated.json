@@ -1,13 +1,16 @@
 {
-  "asn": 42039,
-  "handle": "STTB-AS",
-  "description": "Stowarzyszenie Telewizja Teofilow B",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42039,
+  "metadata" : {
+    "handle" : "STTB-AS",
+    "description" : "Stowarzyszenie Telewizja Teofilow B",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.90.56.0/21",
       "91.225.184.0/22",
       "194.36.168.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

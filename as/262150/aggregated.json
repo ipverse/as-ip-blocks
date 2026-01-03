@@ -1,9 +1,12 @@
 {
-  "asn": 262150,
-  "handle": "EMPRESA-PROVINCIAL-ENERGIA",
-  "description": "Empresa Provincial de Energia de Cordoba",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262150,
+  "metadata" : {
+    "handle" : "EMPRESA-PROVINCIAL-ENERGIA",
+    "description" : "Empresa Provincial de Energia de Cordoba",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.72.204.0/23",
       "131.72.206.0/24",
       "190.96.112.0/23",
@@ -15,7 +18,7 @@
       "200.105.108.0/24",
       "200.105.110.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:7300::/32"
     ]
   }

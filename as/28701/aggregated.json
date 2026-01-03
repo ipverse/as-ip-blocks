@@ -1,12 +1,15 @@
 {
-  "asn": 28701,
-  "handle": "VERTICAL-AS",
-  "description": "vertical IT-Service GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28701,
+  "metadata" : {
+    "handle" : "VERTICAL-AS",
+    "description" : "vertical IT-Service GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.156.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:4000::/29"
     ]
   }

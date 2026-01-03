@@ -1,12 +1,15 @@
 {
-  "asn": 26224,
-  "handle": "INCOMM-NET0",
-  "description": "InComm",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26224,
+  "metadata" : {
+    "handle" : "INCOMM-NET0",
+    "description" : "InComm",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.147.172.0/22",
       "74.122.144.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

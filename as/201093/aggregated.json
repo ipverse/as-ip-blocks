@@ -1,13 +1,16 @@
 {
-  "asn": 201093,
-  "handle": "TELIT-AS",
-  "description": "Telit Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201093,
+  "metadata" : {
+    "handle" : "TELIT-AS",
+    "description" : "Telit Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.226.112.0/22",
       "185.86.42.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:b4c0::/47"
     ]
   }

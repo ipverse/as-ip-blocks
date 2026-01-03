@@ -1,9 +1,12 @@
 {
-  "asn": 396990,
-  "handle": "CTS-MONTICELLO",
-  "description": "Monticello - Wayne County Telecommunication Board",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396990,
+  "metadata" : {
+    "handle" : "CTS-MONTICELLO",
+    "description" : "Monticello - Wayne County Telecommunication Board",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.188.64.0/23",
       "23.188.66.0/24",
       "38.79.160.0/22",
@@ -12,7 +15,7 @@
       "162.155.42.0/24",
       "199.30.74.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fcda::/36",
       "2604:ba40::/32"
     ]

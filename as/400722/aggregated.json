@@ -1,11 +1,14 @@
 {
-  "asn": 400722,
-  "handle": "SGP-NIDR",
-  "description": "PIMCO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400722,
+  "metadata" : {
+    "handle" : "SGP-NIDR",
+    "description" : "PIMCO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.77.152.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

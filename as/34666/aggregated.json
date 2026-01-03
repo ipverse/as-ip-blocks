@@ -1,12 +1,15 @@
 {
-  "asn": 34666,
-  "handle": "GLB1-AS",
-  "description": "JSC Global Erty",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34666,
+  "metadata" : {
+    "handle" : "GLB1-AS",
+    "description" : "JSC Global Erty",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.188.56.0/23",
       "81.16.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

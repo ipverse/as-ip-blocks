@@ -1,13 +1,16 @@
 {
-  "asn": 8440,
-  "handle": "SNCNET-AS",
-  "description": "S.SETEVAYA SVYAZ OOO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8440,
+  "metadata" : {
+    "handle" : "SNCNET-AS",
+    "description" : "S.SETEVAYA SVYAZ OOO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.6.0.0/21",
       "212.6.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8b60::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 2152,
-  "handle": "CENIC-2152",
-  "description": "CENIC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2152,
+  "metadata" : {
+    "handle" : "CENIC-2152",
+    "description" : "CENIC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.39.112.0/20",
       "69.48.214.0/23",
       "76.78.96.0/21",
@@ -104,7 +107,7 @@
       "209.188.128.0/17",
       "216.231.241.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f380::/32"
     ]
   }

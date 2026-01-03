@@ -1,12 +1,15 @@
 {
-  "asn": 42162,
-  "handle": "QNET",
-  "description": "QualityNet AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42162,
+  "metadata" : {
+    "handle" : "QNET",
+    "description" : "QualityNet AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.31.152.0/21",
       "185.70.80.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

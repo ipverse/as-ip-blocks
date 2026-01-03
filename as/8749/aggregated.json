@@ -1,9 +1,12 @@
 {
-  "asn": 8749,
-  "handle": "REDCOM-AS",
-  "description": "JSC Redcom-lnternet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8749,
+  "metadata" : {
+    "handle" : "REDCOM-AS",
+    "description" : "JSC Redcom-lnternet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.32.101.0/24",
       "45.140.92.0/22",
       "46.183.128.0/21",
@@ -17,7 +20,7 @@
       "185.3.180.0/22",
       "212.19.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:c040::/32"
     ]
   }

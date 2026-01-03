@@ -1,15 +1,18 @@
 {
-  "asn": 141846,
-  "handle": "NETFIX-AS-IN",
-  "description": "Netfix Networks Opc Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141846,
+  "metadata" : {
+    "handle" : "NETFIX-AS-IN",
+    "description" : "Netfix Networks Opc Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.97.226.0/23",
       "103.166.14.0/23",
       "103.233.218.0/23",
       "160.191.122.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:5140::/48"
     ]
   }

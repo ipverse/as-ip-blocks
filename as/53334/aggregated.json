@@ -1,9 +1,12 @@
 {
-  "asn": 53334,
-  "handle": "TUT-AS",
-  "description": "Total Uptime Technologies LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53334,
+  "metadata" : {
+    "handle" : "TUT-AS",
+    "description" : "Total Uptime Technologies LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.178.64.0/24",
       "72.13.122.0/23",
       "104.153.196.0/22",
@@ -17,7 +20,7 @@
       "216.21.12.0/23",
       "216.59.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ffe2:10::/48",
       "2602:ffe2:53::/48",
       "2602:ffe2:54::/48",

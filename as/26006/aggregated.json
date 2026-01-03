@@ -1,13 +1,16 @@
 {
-  "asn": 26006,
-  "handle": "EXODO",
-  "description": "Exodo LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26006,
+  "metadata" : {
+    "handle" : "EXODO",
+    "description" : "Exodo LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.168.136.0/24",
       "130.12.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f9bd::/40",
       "2a05:dfc1:a10::/44"
     ]

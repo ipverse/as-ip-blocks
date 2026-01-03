@@ -1,9 +1,12 @@
 {
-  "asn": 16796,
-  "handle": "MERLIN-NET",
-  "description": "MERLIN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16796,
+  "metadata" : {
+    "handle" : "MERLIN-NET",
+    "description" : "MERLIN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.13.0.0/16",
       "192.34.70.0/24",
       "192.139.19.0/24",
@@ -20,7 +23,7 @@
       "206.211.216.0/23",
       "216.73.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:80:8000::/48",
       "2620:b0::/48"
     ]

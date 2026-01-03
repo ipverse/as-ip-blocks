@@ -1,9 +1,12 @@
 {
-  "asn": 28198,
-  "handle": "SEMPRE-TELECOMUNICACOES",
-  "description": "SEMPRE TELECOMUNICACOES LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28198,
+  "metadata" : {
+    "handle" : "SEMPRE-TELECOMUNICACOES",
+    "description" : "SEMPRE TELECOMUNICACOES LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.201.176.0/22",
       "131.100.84.0/22",
       "131.221.48.0/22",
@@ -34,7 +37,7 @@
       "191.5.32.0/20",
       "192.140.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:c90::/32"
     ]
   }

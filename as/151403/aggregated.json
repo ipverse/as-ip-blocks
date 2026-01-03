@@ -1,10 +1,13 @@
 {
-  "asn": 151403,
-  "handle": "ACLOUDPLANET-AS-AP",
-  "description": "A Cloud Planet",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 151403,
+  "metadata" : {
+    "handle" : "ACLOUDPLANET-AS-AP",
+    "description" : "A Cloud Planet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2401:aa0:1::/48",
       "2401:aa0:2::/48"
     ]

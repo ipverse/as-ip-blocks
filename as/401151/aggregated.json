@@ -1,11 +1,14 @@
 {
-  "asn": 401151,
-  "handle": "MCOR-AS",
-  "description": "Marion County",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401151,
+  "metadata" : {
+    "handle" : "MCOR-AS",
+    "description" : "Marion County",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.145.221.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,10 +1,13 @@
 {
-  "asn": 134488,
-  "handle": "CTJ-AS-AP",
-  "description": "CTJ\u0027s Global Network",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 134488,
+  "metadata" : {
+    "handle" : "CTJ-AS-AP",
+    "description" : "CTJ's Global Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2406:840:e80f::/48"
     ]
   }

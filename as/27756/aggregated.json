@@ -1,14 +1,17 @@
 {
-  "asn": 27756,
-  "handle": "SERVICIO-SATELITAL",
-  "description": "Servicio Satelital S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27756,
+  "metadata" : {
+    "handle" : "SERVICIO-SATELITAL",
+    "description" : "Servicio Satelital S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "191.97.25.0/24",
       "200.115.0.0/21",
       "200.115.8.0/22",
       "200.115.12.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 36982,
-  "handle": "UCT",
-  "description": "University of Cape Town",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36982,
+  "metadata" : {
+    "handle" : "UCT",
+    "description" : "University of Cape Town",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.158.0.0/16",
       "154.114.25.0/24",
       "154.115.112.0/20",
@@ -13,7 +16,7 @@
       "196.47.192.0/18",
       "197.239.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4200:300::/44",
       "2001:43f8:70::/45"
     ]

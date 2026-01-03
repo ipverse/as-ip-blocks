@@ -1,9 +1,12 @@
 {
-  "asn": 50304,
-  "handle": "BLIX",
-  "description": "Blix Solutions AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50304,
+  "metadata" : {
+    "handle" : "BLIX",
+    "description" : "Blix Solutions AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.169.48.0/21",
       "37.202.56.0/21",
       "45.38.92.0/24",
@@ -77,7 +80,7 @@
       "195.64.118.0/24",
       "213.163.240.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:27ec::/48",
       "2a02:20c8::/32",
       "2a02:e340::/32",

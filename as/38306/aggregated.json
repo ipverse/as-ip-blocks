@@ -1,14 +1,17 @@
 {
-  "asn": 38306,
-  "handle": "FISERVIN-ASN-IN",
-  "description": "Fiserv India",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38306,
+  "metadata" : {
+    "handle" : "FISERVIN-ASN-IN",
+    "description" : "Fiserv India",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.1.128.0/24",
       "103.1.130.0/23",
       "122.255.72.0/23",
       "122.255.75.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

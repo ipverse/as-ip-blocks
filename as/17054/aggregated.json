@@ -1,9 +1,12 @@
 {
-  "asn": 17054,
-  "handle": "EXPEDIENT",
-  "description": "Expedient",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17054,
+  "metadata" : {
+    "handle" : "EXPEDIENT",
+    "description" : "Expedient",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.45.61.0/24",
       "45.33.204.0/24",
       "52.124.17.0/24",
@@ -61,7 +64,7 @@
       "216.230.96.0/19",
       "216.239.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f4d0::/32"
     ]
   }

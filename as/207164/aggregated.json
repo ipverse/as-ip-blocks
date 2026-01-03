@@ -1,13 +1,16 @@
 {
-  "asn": 207164,
-  "handle": "PRIMANET",
-  "description": "PRIMANET SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207164,
+  "metadata" : {
+    "handle" : "PRIMANET",
+    "description" : "PRIMANET SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.15.224.0/22",
       "185.164.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:5180::/29"
     ]
   }

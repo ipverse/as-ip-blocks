@@ -1,9 +1,12 @@
 {
-  "asn": 151106,
-  "handle": "HOSTYCARE-AS-IN",
-  "description": "SRMAK TECHNOLOGICAL SYSTEM PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151106,
+  "metadata" : {
+    "handle" : "HOSTYCARE-AS-IN",
+    "description" : "SRMAK TECHNOLOGICAL SYSTEM PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.17.193.0/24",
       "103.52.48.0/22",
       "103.55.84.0/22",
@@ -33,7 +36,7 @@
       "125.62.80.0/22",
       "165.99.222.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:bec0::/47",
       "2001:df5:4980::/48",
       "2001:df5:b340::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 140227,
-  "handle": "HKCICL-AS-AP",
-  "description": "Hong Kong Communications International Co. Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140227,
+  "metadata" : {
+    "handle" : "HKCICL-AS-AP",
+    "description" : "Hong Kong Communications International Co. Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.47.192.0/20",
       "38.47.208.0/22",
       "38.47.212.0/23",
@@ -48,7 +51,7 @@
       "206.119.88.0/22",
       "218.98.111.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:f080::/48",
       "2400:9e20:1111::/48"
     ]

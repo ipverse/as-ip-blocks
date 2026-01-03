@@ -1,14 +1,17 @@
 {
-  "asn": 55017,
-  "handle": "VDC",
-  "description": "VDC Virtual Data Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55017,
+  "metadata" : {
+    "handle" : "VDC",
+    "description" : "VDC Virtual Data Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.27.96.0/19",
       "104.219.220.0/22",
       "192.238.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:12c0::/32"
     ]
   }

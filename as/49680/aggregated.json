@@ -1,9 +1,12 @@
 {
-  "asn": 49680,
-  "handle": "DCI",
-  "description": "Armaghan Rahe Talaie",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49680,
+  "metadata" : {
+    "handle" : "DCI",
+    "description" : "Armaghan Rahe Talaie",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.142.224.0/22",
       "95.142.228.0/23",
       "95.142.230.0/24",
@@ -11,6 +14,6 @@
       "95.142.234.0/23",
       "95.142.236.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

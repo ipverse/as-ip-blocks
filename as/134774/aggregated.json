@@ -1,9 +1,12 @@
 {
-  "asn": 134774,
-  "handle": "CHINANET-GUANGDONG-SHENZHEN-MAN",
-  "description": "CHINANET Guangdong province Shenzhen MAN network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134774,
+  "metadata" : {
+    "handle" : "CHINANET-GUANGDONG-SHENZHEN-MAN",
+    "description" : "CHINANET Guangdong province Shenzhen MAN network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.26.0.0/17",
       "14.31.16.0/20",
       "113.84.0.0/16",
@@ -18,7 +21,7 @@
       "218.18.110.0/24",
       "220.231.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:f9:c000::/34",
       "240e:fa::/32",
       "240e:fe:2000::/35",

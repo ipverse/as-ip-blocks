@@ -1,12 +1,15 @@
 {
-  "asn": 20044,
-  "handle": "SA-ESTADO-MINAS",
-  "description": "S/A ESTADO DE MINAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20044,
+  "metadata" : {
+    "handle" : "SA-ESTADO-MINAS",
+    "description" : "S/A ESTADO DE MINAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.188.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:564::/32"
     ]
   }

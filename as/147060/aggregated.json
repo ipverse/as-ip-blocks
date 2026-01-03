@@ -1,9 +1,12 @@
 {
-  "asn": 147060,
-  "handle": "HCSLIMITED-AS-AP",
-  "description": "HUA SHENG YUN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147060,
+  "metadata" : {
+    "handle" : "HCSLIMITED-AS-AP",
+    "description" : "HUA SHENG YUN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.79.3.0/24",
       "151.246.6.0/24",
       "154.19.129.0/24",
@@ -18,6 +21,6 @@
       "154.19.158.0/24",
       "209.146.108.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

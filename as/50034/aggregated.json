@@ -1,12 +1,15 @@
 {
-  "asn": 50034,
-  "handle": "EURONICS-EG-AS",
-  "description": "EURONICS Deutschland eG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50034,
+  "metadata" : {
+    "handle" : "EURONICS-EG-AS",
+    "description" : "EURONICS Deutschland eG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.104.95.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:4c8::/48"
     ]
   }

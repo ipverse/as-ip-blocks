@@ -1,12 +1,15 @@
 {
-  "asn": 398222,
-  "handle": "CITY-OF-WPB",
-  "description": "City of West Palm Beach",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398222,
+  "metadata" : {
+    "handle" : "CITY-OF-WPB",
+    "description" : "City of West Palm Beach",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.202.196.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:7b:2000::/48"
     ]
   }

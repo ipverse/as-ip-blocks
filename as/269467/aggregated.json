@@ -1,12 +1,15 @@
 {
-  "asn": 269467,
-  "handle": "P4NET-TELECOM",
-  "description": "P4NET Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269467,
+  "metadata" : {
+    "handle" : "P4NET-TELECOM",
+    "description" : "P4NET Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.187.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6514::/32"
     ]
   }

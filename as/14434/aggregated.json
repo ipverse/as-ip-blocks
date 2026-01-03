@@ -1,9 +1,12 @@
 {
-  "asn": 14434,
-  "handle": "VIPNAS1",
-  "description": "VI POWERNET LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14434,
+  "metadata" : {
+    "handle" : "VIPNAS1",
+    "description" : "VI POWERNET LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.112.145.0/24",
       "65.112.146.0/23",
       "65.112.148.0/24",
@@ -25,6 +28,6 @@
       "208.30.96.0/19",
       "209.221.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

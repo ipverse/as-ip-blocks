@@ -1,9 +1,12 @@
 {
-  "asn": 212830,
-  "handle": "PSJCLOUD",
-  "description": "Invermae Solutions SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212830,
+  "metadata" : {
+    "handle" : "PSJCLOUD",
+    "description" : "Invermae Solutions SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.246.92.0/22",
       "185.119.48.0/22",
       "185.128.52.0/22",
@@ -16,6 +19,6 @@
       "217.67.164.0/24",
       "217.67.172.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

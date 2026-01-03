@@ -1,12 +1,15 @@
 {
-  "asn": 28039,
-  "handle": "UNIVERSIDAD-EAN",
-  "description": "Universidad EAN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28039,
+  "metadata" : {
+    "handle" : "UNIVERSIDAD-EAN",
+    "description" : "Universidad EAN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.0.187.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:0:100::/48"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 32383,
-  "handle": "ROME-NET",
-  "description": "ROME Sverdrup",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32383,
+  "metadata" : {
+    "handle" : "ROME-NET",
+    "description" : "ROME Sverdrup",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.54.121.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

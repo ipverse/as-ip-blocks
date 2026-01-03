@@ -1,12 +1,15 @@
 {
-  "asn": 274794,
-  "handle": "HIPER-TELECOM",
-  "description": "Hiper Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 274794,
+  "metadata" : {
+    "handle" : "HIPER-TELECOM",
+    "description" : "Hiper Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.28.153.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:93b0::/32"
     ]
   }

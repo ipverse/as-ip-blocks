@@ -1,12 +1,15 @@
 {
-  "asn": 201225,
-  "handle": "MANGA-AS",
-  "description": "MANGA CORP LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201225,
+  "metadata" : {
+    "handle" : "MANGA-AS",
+    "description" : "MANGA CORP LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.232.160.0/23",
       "185.236.180.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

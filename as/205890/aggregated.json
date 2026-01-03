@@ -1,12 +1,15 @@
 {
-  "asn": 205890,
-  "handle": "ETES-AS",
-  "description": "ETES GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205890,
+  "metadata" : {
+    "handle" : "ETES-AS",
+    "description" : "ETES GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.196.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:de40::/32"
     ]
   }

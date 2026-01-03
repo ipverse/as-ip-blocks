@@ -1,12 +1,15 @@
 {
-  "asn": 141178,
-  "handle": "SFC-AS-AP",
-  "description": "Super Fast Connectivity",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141178,
+  "metadata" : {
+    "handle" : "SFC-AS-AP",
+    "description" : "Super Fast Connectivity",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.155.174.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:d480::/48"
     ]
   }

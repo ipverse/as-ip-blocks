@@ -1,13 +1,16 @@
 {
-  "asn": 54375,
-  "handle": "CENTRE-COLLEGE",
-  "description": "Centre College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54375,
+  "metadata" : {
+    "handle" : "CENTRE-COLLEGE",
+    "description" : "Centre College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.12.38.0/24",
       "192.102.218.0/24",
       "198.187.248.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

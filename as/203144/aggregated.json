@@ -1,9 +1,12 @@
 {
-  "asn": 203144,
-  "handle": "HS-HOST9X",
-  "description": "Host9x Web Solutions Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203144,
+  "metadata" : {
+    "handle" : "HS-HOST9X",
+    "description" : "Host9x Web Solutions Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.15.209.0/24",
       "45.86.190.0/23",
       "45.89.50.0/23",
@@ -23,6 +26,6 @@
       "194.76.186.0/24",
       "217.74.20.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 34803,
-  "handle": "BGL",
-  "description": "Broadband Gibraltar Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34803,
+  "metadata" : {
+    "handle" : "BGL",
+    "description" : "Broadband Gibraltar Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.115.128.0/19",
       "185.104.220.0/22",
       "195.166.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:638::/32"
     ]
   }

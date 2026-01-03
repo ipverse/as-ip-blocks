@@ -1,13 +1,16 @@
 {
-  "asn": 273238,
-  "handle": "CABLE-EXITO",
-  "description": "CABLE EXITO S.A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273238,
+  "metadata" : {
+    "handle" : "CABLE-EXITO",
+    "description" : "CABLE EXITO S.A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.196.178.0/23",
       "38.255.6.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:4150::/46",
       "2803:4150:b::/48",
       "2803:4150:10::/47",

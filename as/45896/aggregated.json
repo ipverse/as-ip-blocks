@@ -1,9 +1,12 @@
 {
-  "asn": 45896,
-  "handle": "MOBIFONEGLOBAL-AS-VN",
-  "description": "Mobifone Global JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45896,
+  "metadata" : {
+    "handle" : "MOBIFONEGLOBAL-AS-VN",
+    "description" : "Mobifone Global JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.125.200.0/21",
       "45.125.208.0/22",
       "103.19.164.0/22",
@@ -13,7 +16,7 @@
       "103.237.64.0/24",
       "111.91.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:2e8::/48",
       "2406:51c0::/32"
     ]

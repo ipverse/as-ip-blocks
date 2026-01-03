@@ -1,9 +1,12 @@
 {
-  "asn": 198440,
-  "handle": "GIGANET",
-  "description": "AllPoints Fibre Networks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198440,
+  "metadata" : {
+    "handle" : "GIGANET",
+    "description" : "AllPoints Fibre Networks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.48.224.0/24",
       "37.48.229.0/24",
       "37.48.230.0/24",
@@ -15,7 +18,7 @@
       "206.245.192.0/20",
       "217.168.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:87c0::/29"
     ]
   }

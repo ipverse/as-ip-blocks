@@ -1,11 +1,14 @@
 {
-  "asn": 205001,
-  "handle": "XTEK-INVEST",
-  "description": "XTEK Invest SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205001,
+  "metadata" : {
+    "handle" : "XTEK-INVEST",
+    "description" : "XTEK Invest SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.96.41.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

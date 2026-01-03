@@ -1,13 +1,16 @@
 {
-  "asn": 133799,
-  "handle": "GOMEDS-AS-ID",
-  "description": "PT. GOMEDS NETWORK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133799,
+  "metadata" : {
+    "handle" : "GOMEDS-AS-ID",
+    "description" : "PT. GOMEDS NETWORK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.42.252.0/22",
       "123.108.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:be80::/32"
     ]
   }

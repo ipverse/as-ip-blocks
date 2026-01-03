@@ -1,12 +1,15 @@
 {
-  "asn": 52768,
-  "handle": "ALSOL-PROVEDOR-INTERNET",
-  "description": "Alsol Provedor de Internet Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52768,
+  "metadata" : {
+    "handle" : "ALSOL-PROVEDOR-INTERNET",
+    "description" : "Alsol Provedor de Internet Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.39.168.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:b5c::/32"
     ]
   }

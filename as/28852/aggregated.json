@@ -1,9 +1,12 @@
 {
-  "asn": 28852,
-  "handle": "AERIS-AS",
-  "description": "Aeris Communications INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28852,
+  "metadata" : {
+    "handle" : "AERIS-AS",
+    "description" : "Aeris Communications INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.192.8.0/23",
       "129.192.97.0/24",
       "129.192.98.0/24",
@@ -12,7 +15,7 @@
       "193.181.245.0/24",
       "193.181.246.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1a10:9120::/44",
       "2001:1a10:9130::/45",
       "2001:1b75::/36",

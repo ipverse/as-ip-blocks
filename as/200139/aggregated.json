@@ -1,13 +1,16 @@
 {
-  "asn": 200139,
-  "handle": "STATENS-VEGVESEN",
-  "description": "Statens Vegvesen",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200139,
+  "metadata" : {
+    "handle" : "STATENS-VEGVESEN",
+    "description" : "Statens Vegvesen",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.2.0.0/16",
       "185.36.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:ae80::/29"
     ]
   }

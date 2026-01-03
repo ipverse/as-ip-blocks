@@ -1,9 +1,12 @@
 {
-  "asn": 46506,
-  "handle": "SIMPLEHELIX",
-  "description": "SimpleHelix.com",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46506,
+  "metadata" : {
+    "handle" : "SIMPLEHELIX",
+    "description" : "SimpleHelix.com",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.58.77.0/24",
       "67.58.87.0/24",
       "74.51.113.0/24",
@@ -18,7 +21,7 @@
       "199.231.228.0/22",
       "206.126.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:ccc0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 8075,
-  "handle": "MICROSOFT-CORP-MSN-AS-BLOCK",
-  "description": "Microsoft Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8075,
+  "metadata" : {
+    "handle" : "MICROSOFT-CORP-MSN-AS-BLOCK",
+    "description" : "Microsoft Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.186.0.0/16",
       "2.58.103.0/24",
       "4.144.0.0/12",
@@ -748,7 +751,7 @@
       "217.169.202.0/24",
       "217.176.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:698::/47",
       "2001:df0:7::/48",
       "2001:df0:d7::/48",

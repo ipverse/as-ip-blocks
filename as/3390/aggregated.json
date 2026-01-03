@@ -1,16 +1,19 @@
 {
-  "asn": 3390,
-  "handle": "UMKCNET",
-  "description": "University of Missouri - Kansas City",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3390,
+  "metadata" : {
+    "handle" : "UMKCNET",
+    "description" : "University of Missouri - Kansas City",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.193.0.0/16",
       "204.56.0.0/21",
       "204.76.182.0/23",
       "204.76.184.0/22",
       "204.76.188.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:e0:a040::/44"
     ]
   }

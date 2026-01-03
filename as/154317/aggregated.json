@@ -1,11 +1,14 @@
 {
-  "asn": 154317,
-  "handle": "VYOMCLOUD-AS",
-  "description": "VyomCloud",
-  "subnets": {
-    "ipv4": [
+  "asn" : 154317,
+  "metadata" : {
+    "handle" : "VYOMCLOUD-AS",
+    "description" : "VyomCloud",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.250.224.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

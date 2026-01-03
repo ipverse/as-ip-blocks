@@ -1,9 +1,12 @@
 {
-  "asn": 33680,
-  "handle": "TELEPERFORMANCE-USA",
-  "description": "TELEPERFORMANCE USA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33680,
+  "metadata" : {
+    "handle" : "TELEPERFORMANCE-USA",
+    "description" : "TELEPERFORMANCE USA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.5.81.0/24",
       "64.5.90.0/23",
       "64.5.93.0/24",
@@ -23,6 +26,6 @@
       "216.152.216.0/24",
       "216.152.222.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

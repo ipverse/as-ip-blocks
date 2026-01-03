@@ -1,9 +1,12 @@
 {
-  "asn": 6789,
-  "handle": "CRELCOM-NET",
-  "description": "CRELCOM LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6789,
+  "metadata" : {
+    "handle" : "CRELCOM-NET",
+    "description" : "CRELCOM LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.149.244.0/22",
       "80.245.112.0/20",
       "83.136.222.0/24",
@@ -53,7 +56,7 @@
       "194.247.33.0/24",
       "217.147.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1d80::/32",
       "2a06:6480::/29"
     ]

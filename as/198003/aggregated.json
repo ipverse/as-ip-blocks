@@ -1,11 +1,14 @@
 {
-  "asn": 198003,
-  "handle": "PROXIAD-AS",
-  "description": "Proxiad Bulgaria EAD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198003,
+  "metadata" : {
+    "handle" : "PROXIAD-AS",
+    "description" : "Proxiad Bulgaria EAD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.103.125.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

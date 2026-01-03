@@ -1,9 +1,12 @@
 {
-  "asn": 141107,
-  "handle": "IDNIC-LINKGO-AS-ID",
-  "description": "PT Linkgo Metro Teknologi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141107,
+  "metadata" : {
+    "handle" : "IDNIC-LINKGO-AS-ID",
+    "description" : "PT Linkgo Metro Teknologi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.66.86.0/24",
       "103.157.26.0/23",
       "103.169.6.0/23",
@@ -12,6 +15,6 @@
       "103.216.188.0/24",
       "103.220.47.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

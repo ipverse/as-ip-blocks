@@ -1,9 +1,12 @@
 {
-  "asn": 133334,
-  "handle": "DCNBSI-AS-AP",
-  "description": "DCTV Cable Network \u0026 Broadband Services Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133334,
+  "metadata" : {
+    "handle" : "DCNBSI-AS-AP",
+    "description" : "DCTV Cable Network & Broadband Services Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.228.0/22",
       "45.124.56.0/22",
       "103.31.72.0/22",
@@ -13,7 +16,7 @@
       "103.203.52.0/22",
       "103.225.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:b80::/32"
     ]
   }

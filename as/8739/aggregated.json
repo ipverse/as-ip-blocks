@@ -1,9 +1,12 @@
 {
-  "asn": 8739,
-  "handle": "ICDSOFT",
-  "description": "ICDSoft Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8739,
+  "metadata" : {
+    "handle" : "ICDSOFT",
+    "description" : "ICDSoft Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.139.131.0/24",
       "64.14.68.0/24",
       "64.14.72.0/23",
@@ -29,6 +32,6 @@
       "216.35.205.0/24",
       "216.35.207.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 215481,
-  "handle": "FLEXYNODE-AS",
-  "description": "Bram de Graaf trading as FlexyNode",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215481,
+  "metadata" : {
+    "handle" : "FLEXYNODE-AS",
+    "description" : "Bram de Graaf trading as FlexyNode",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.116.104.0/24",
       "185.229.35.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:9500:65::/48"
     ]
   }

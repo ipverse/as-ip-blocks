@@ -1,9 +1,12 @@
 {
-  "asn": 57630,
-  "handle": "AS-84GRAMS",
-  "description": "84 Grams AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57630,
+  "metadata" : {
+    "handle" : "AS-84GRAMS",
+    "description" : "84 Grams AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.152.152.0/23",
       "31.12.80.0/22",
       "46.33.16.0/23",
@@ -53,7 +56,7 @@
       "194.179.134.0/23",
       "217.11.175.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:7e00::/29",
       "2a03:7f20::/29"
     ]

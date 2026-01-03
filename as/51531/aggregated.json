@@ -1,9 +1,12 @@
 {
-  "asn": 51531,
-  "handle": "DECIX-MGMT-AS",
-  "description": "DE-CIX Management GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51531,
+  "metadata" : {
+    "handle" : "DECIX-MGMT-AS",
+    "description" : "DE-CIX Management GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.129.80.0/22",
       "45.159.240.0/22",
       "46.31.120.0/21",
@@ -12,7 +15,7 @@
       "81.89.92.0/22",
       "185.70.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:4::/48",
       "2a02:c50::/34",
       "2a02:c50:6000::/35",

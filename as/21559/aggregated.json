@@ -1,9 +1,12 @@
 {
-  "asn": 21559,
-  "handle": "OSNET",
-  "description": "OSNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21559,
+  "metadata" : {
+    "handle" : "OSNET",
+    "description" : "OSNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.2.160.0/19",
       "38.87.232.0/21",
       "38.107.88.0/21",
@@ -31,7 +34,7 @@
       "204.77.10.0/23",
       "208.81.58.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:1cc0::/32"
     ]
   }

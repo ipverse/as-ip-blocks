@@ -1,9 +1,12 @@
 {
-  "asn": 39020,
-  "handle": "COMVIVE-AS",
-  "description": "Comvive Servidores S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39020,
+  "metadata" : {
+    "handle" : "COMVIVE-AS",
+    "description" : "Comvive Servidores S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.145.168.0/21",
       "37.235.53.0/24",
       "45.80.14.0/24",
@@ -28,7 +31,7 @@
       "217.61.134.0/23",
       "217.61.142.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1d70::/32",
       "2a07:f7c7:ffff::/48"
     ]

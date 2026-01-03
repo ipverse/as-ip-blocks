@@ -1,15 +1,18 @@
 {
-  "asn": 135273,
-  "handle": "NTCASIA-AS-AP",
-  "description": "NTC ASIA LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135273,
+  "metadata" : {
+    "handle" : "NTCASIA-AS-AP",
+    "description" : "NTC ASIA LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.156.76.0/23",
       "103.211.244.0/22",
       "146.196.88.0/22",
       "167.179.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:a340::/32"
     ]
   }

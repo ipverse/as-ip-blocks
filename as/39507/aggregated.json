@@ -1,9 +1,12 @@
 {
-  "asn": 39507,
-  "handle": "IPIVISION-AS",
-  "description": "Biznes Swiatlowodem Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39507,
+  "metadata" : {
+    "handle" : "IPIVISION-AS",
+    "description" : "Biznes Swiatlowodem Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.130.216.0/21",
       "46.253.208.0/20",
       "91.221.158.0/23",
@@ -28,6 +31,6 @@
       "188.191.216.0/21",
       "194.180.220.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

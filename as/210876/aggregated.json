@@ -1,9 +1,12 @@
 {
-  "asn": 210876,
-  "handle": "SERPAIO",
-  "description": "Invermae Solutions SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210876,
+  "metadata" : {
+    "handle" : "SERPAIO",
+    "description" : "Invermae Solutions SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.134.84.0/22",
       "45.147.116.0/22",
       "45.159.76.0/22",
@@ -20,6 +23,6 @@
       "217.67.166.0/23",
       "217.67.168.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

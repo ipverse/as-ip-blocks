@@ -1,12 +1,15 @@
 {
-  "asn": 208789,
-  "handle": "SENAT-AS",
-  "description": "SENAT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208789,
+  "metadata" : {
+    "handle" : "SENAT-AS",
+    "description" : "SENAT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.85.52.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:b880::/31"
     ]
   }

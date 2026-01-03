@@ -1,9 +1,12 @@
 {
-  "asn": 45458,
-  "handle": "SBN-AWN-AS-02-AP",
-  "description": "ADVANCED WIRELESS NETWORK COMPANY LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45458,
+  "metadata" : {
+    "handle" : "SBN-AWN-AS-02-AP",
+    "description" : "ADVANCED WIRELESS NETWORK COMPANY LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.207.7.0/24",
       "14.207.128.0/22",
       "14.207.132.0/23",
@@ -168,7 +171,7 @@
       "210.1.46.0/24",
       "210.1.49.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:9800:7::/48",
       "2405:9800:9::/48",
       "2405:9800:a::/48",

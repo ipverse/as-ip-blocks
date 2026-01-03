@@ -1,9 +1,12 @@
 {
-  "asn": 23552,
-  "handle": "KORNU-AS",
-  "description": "Korea Nazarene University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23552,
+  "metadata" : {
+    "handle" : "KORNU-AS",
+    "description" : "Korea Nazarene University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.27.163.0/24",
       "59.27.164.0/22",
       "59.27.168.0/24",
@@ -14,6 +17,6 @@
       "211.229.160.0/22",
       "220.123.80.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

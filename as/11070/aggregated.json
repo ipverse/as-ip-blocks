@@ -1,9 +1,12 @@
 {
-  "asn": 11070,
-  "handle": "META-AS",
-  "description": "Metanet Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11070,
+  "metadata" : {
+    "handle" : "META-AS",
+    "description" : "Metanet Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "107.182.0.0/23",
       "107.182.10.0/24",
       "107.182.13.0/24",
@@ -13,6 +16,6 @@
       "192.225.172.0/23",
       "192.225.175.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 41798,
-  "handle": "TTC-AS",
-  "description": "JSC Transtelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41798,
+  "metadata" : {
+    "handle" : "TTC-AS",
+    "description" : "JSC Transtelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.96.0/22",
       "37.17.176.0/21",
       "37.208.40.0/21",
@@ -42,7 +45,7 @@
       "212.23.218.0/24",
       "212.46.53.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ab40::/32"
     ]
   }

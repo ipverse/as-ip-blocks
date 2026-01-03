@@ -1,12 +1,15 @@
 {
-  "asn": 215553,
-  "handle": "VAARTFIBER-AS",
-  "description": "Stichting VaartFiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215553,
+  "metadata" : {
+    "handle" : "VAARTFIBER-AS",
+    "description" : "Stichting VaartFiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "188.93.116.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:1400:1000::/48"
     ]
   }

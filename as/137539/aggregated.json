@@ -1,12 +1,15 @@
 {
-  "asn": 137539,
-  "handle": "UNICOM-HARBIN-IDC",
-  "description": "China Unicom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137539,
+  "metadata" : {
+    "handle" : "UNICOM-HARBIN-IDC",
+    "description" : "China Unicom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.182.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2408:877c::/32"
     ]
   }

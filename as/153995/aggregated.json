@@ -1,9 +1,12 @@
 {
-  "asn": 153995,
-  "handle": "TOWNLINK-AS-AP",
-  "description": "Townlink Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153995,
+  "metadata" : {
+    "handle" : "TOWNLINK-AS-AP",
+    "description" : "Townlink Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.86.72.0/22",
       "103.147.16.0/22",
       "103.147.196.0/23",
@@ -11,7 +14,7 @@
       "103.161.158.0/23",
       "165.101.74.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:1260::/32"
     ]
   }

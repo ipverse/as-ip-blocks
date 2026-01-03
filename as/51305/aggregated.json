@@ -1,13 +1,16 @@
 {
-  "asn": 51305,
-  "handle": "TPV-POLSKA-AS",
-  "description": "TPV Displays Polska Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51305,
+  "metadata" : {
+    "handle" : "TPV-POLSKA-AS",
+    "description" : "TPV Displays Polska Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.127.93.0/24",
       "195.226.198.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:10a0:b::/48"
     ]
   }

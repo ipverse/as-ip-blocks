@@ -1,13 +1,16 @@
 {
-  "asn": 38683,
-  "handle": "NEC-AS",
-  "description": "National Electoin Commission",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38683,
+  "metadata" : {
+    "handle" : "NEC-AS",
+    "description" : "National Electoin Commission",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.63.127.0/24",
       "58.184.177.0/24",
       "103.105.160.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

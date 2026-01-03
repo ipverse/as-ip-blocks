@@ -1,9 +1,12 @@
 {
-  "asn": 61349,
-  "handle": "MAXITEL",
-  "description": "MaxiTEL Telecom B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61349,
+  "metadata" : {
+    "handle" : "MAXITEL",
+    "description" : "MaxiTEL Telecom B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.144.88.0/23",
       "5.144.92.0/24",
       "45.153.0.0/22",
@@ -13,7 +16,7 @@
       "185.173.12.0/22",
       "193.178.196.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:4340::/31",
       "2a04:4343::/32",
       "2a04:4344::/32"

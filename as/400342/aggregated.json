@@ -1,9 +1,12 @@
 {
-  "asn": 400342,
-  "handle": "EDGENAT-CLOUD",
-  "description": "EDGENAT CLOUD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400342,
+  "metadata" : {
+    "handle" : "EDGENAT-CLOUD",
+    "description" : "EDGENAT CLOUD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.177.136.0/24",
       "23.178.184.0/24",
       "45.135.161.0/24",
@@ -15,7 +18,7 @@
       "151.243.95.0/24",
       "155.117.148.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:1da0:ff00::/40",
       "2a0c:6984::/30"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 27665,
-  "handle": "COLUMBUS-COMMUNICATIONS-TRINIDAD",
-  "description": "Columbus Communications Trinidad Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27665,
+  "metadata" : {
+    "handle" : "COLUMBUS-COMMUNICATIONS-TRINIDAD",
+    "description" : "Columbus Communications Trinidad Limited.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.100.160.0/22",
       "138.59.24.0/22",
       "143.0.172.0/22",
@@ -15,7 +18,7 @@
       "190.213.0.0/16",
       "200.1.104.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:e00::/28"
     ]
   }

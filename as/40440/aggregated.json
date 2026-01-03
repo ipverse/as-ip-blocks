@@ -1,11 +1,14 @@
 {
-  "asn": 40440,
-  "handle": "NRTC-CA",
-  "description": "NRTC Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40440,
+  "metadata" : {
+    "handle" : "NRTC-CA",
+    "description" : "NRTC Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.62.64.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

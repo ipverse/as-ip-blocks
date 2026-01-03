@@ -1,9 +1,12 @@
 {
-  "asn": 35566,
-  "handle": "KARTEL-AS",
-  "description": "Kar-Tel LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35566,
+  "metadata" : {
+    "handle" : "KARTEL-AS",
+    "description" : "Kar-Tel LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.34.47.0/24",
       "5.34.73.0/24",
       "5.34.89.0/24",
@@ -40,6 +43,6 @@
       "212.76.4.0/24",
       "212.76.20.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

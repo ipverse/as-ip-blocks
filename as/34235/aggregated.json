@@ -1,9 +1,12 @@
 {
-  "asn": 34235,
-  "handle": "ITINSELLCLOUD-AS",
-  "description": "ITINSELL CLOUD SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34235,
+  "metadata" : {
+    "handle" : "ITINSELLCLOUD-AS",
+    "description" : "ITINSELL CLOUD SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.179.192.0/21",
       "46.18.208.0/21",
       "91.223.253.0/24",
@@ -12,6 +15,6 @@
       "194.8.75.0/24",
       "194.242.53.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

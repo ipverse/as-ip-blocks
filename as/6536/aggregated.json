@@ -1,15 +1,18 @@
 {
-  "asn": 6536,
-  "handle": "CITYNET",
-  "description": "CityNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6536,
+  "metadata" : {
+    "handle" : "CITYNET",
+    "description" : "CityNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.135.224.0/19",
       "66.118.64.0/19",
       "67.231.224.0/20",
       "69.43.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f030::/32"
     ]
   }

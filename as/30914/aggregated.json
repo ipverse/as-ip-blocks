@@ -1,9 +1,12 @@
 {
-  "asn": 30914,
-  "handle": "IOKO-AS",
-  "description": "Redcentric Solutions Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30914,
+  "metadata" : {
+    "handle" : "IOKO-AS",
+    "description" : "Redcentric Solutions Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.98.0.0/19",
       "83.98.64.0/20",
       "83.98.96.0/19",
@@ -12,6 +15,6 @@
       "185.173.66.0/24",
       "194.130.104.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

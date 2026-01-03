@@ -1,15 +1,18 @@
 {
-  "asn": 8351,
-  "handle": "PLANET-DE",
-  "description": "PLANET IC GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8351,
+  "metadata" : {
+    "handle" : "PLANET-DE",
+    "description" : "PLANET IC GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.105.137.0/24",
       "194.59.16.0/23",
       "195.98.192.0/19",
       "213.254.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:320::/29"
     ]
   }

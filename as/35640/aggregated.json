@@ -1,12 +1,15 @@
 {
-  "asn": 35640,
-  "handle": "MIGRAPH-AS",
-  "description": "OOO MIGRAPH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35640,
+  "metadata" : {
+    "handle" : "MIGRAPH-AS",
+    "description" : "OOO MIGRAPH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.88.204.0/23",
       "195.211.192.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 139508,
-  "handle": "WIDENET-AS-IN",
-  "description": "Wide Netcom India",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139508,
+  "metadata" : {
+    "handle" : "WIDENET-AS-IN",
+    "description" : "Wide Netcom India",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.146.232.0/23",
       "103.172.220.0/23",
       "103.181.4.0/23",
       "163.227.235.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:b8c0::/48"
     ]
   }

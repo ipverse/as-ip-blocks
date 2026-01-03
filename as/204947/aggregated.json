@@ -1,13 +1,16 @@
 {
-  "asn": 204947,
-  "handle": "SPEED-NET-SRL",
-  "description": "SPEED-NET S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204947,
+  "metadata" : {
+    "handle" : "SPEED-NET-SRL",
+    "description" : "SPEED-NET S.R.L",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.63.100.0/22",
       "185.234.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:2100::/29"
     ]
   }

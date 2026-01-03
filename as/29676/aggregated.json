@@ -1,9 +1,12 @@
 {
-  "asn": 29676,
-  "handle": "GRADWELL",
-  "description": "Gradwell Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29676,
+  "metadata" : {
+    "handle" : "GRADWELL",
+    "description" : "Gradwell Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.135.96.0/22",
       "109.224.192.0/20",
       "109.224.220.0/23",
@@ -16,6 +19,6 @@
       "212.11.77.0/24",
       "212.11.78.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

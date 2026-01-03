@@ -1,9 +1,12 @@
 {
-  "asn": 38456,
-  "handle": "SPEEDCAST-AU",
-  "description": "Speedcast Managed Services Pty Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38456,
+  "metadata" : {
+    "handle" : "SPEEDCAST-AU",
+    "description" : "Speedcast Managed Services Pty Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.11.160.0/22",
       "103.112.101.0/24",
       "103.249.49.0/24",
@@ -27,6 +30,6 @@
       "203.86.220.0/23",
       "203.86.222.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

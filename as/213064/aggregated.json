@@ -1,12 +1,15 @@
 {
-  "asn": 213064,
-  "handle": "CW-AS",
-  "description": "Carsten Wolfrum",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213064,
+  "metadata" : {
+    "handle" : "CW-AS",
+    "description" : "Carsten Wolfrum",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.134.90.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:d2c2:1::/48",
       "2a0e:b107:b50::/44"
     ]

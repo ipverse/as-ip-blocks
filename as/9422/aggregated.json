@@ -1,9 +1,12 @@
 {
-  "asn": 9422,
-  "handle": "SOLNET-ID",
-  "description": "PT SOLNET INDONESIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9422,
+  "metadata" : {
+    "handle" : "SOLNET-ID",
+    "description" : "PT SOLNET INDONESIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.225.184.0/22",
       "43.255.57.0/24",
       "103.70.132.0/22",
@@ -16,7 +19,7 @@
       "202.43.228.0/22",
       "202.154.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:7c0:100::/43",
       "2407:7c0:9422::/48"
     ]

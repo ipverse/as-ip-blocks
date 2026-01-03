@@ -1,9 +1,12 @@
 {
-  "asn": 9678,
-  "handle": "HOSTINGINSIDE",
-  "description": "HostingInside LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9678,
+  "metadata" : {
+    "handle" : "HOSTINGINSIDE",
+    "description" : "HostingInside LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.240.0/22",
       "45.123.117.0/24",
       "103.37.4.0/23",
@@ -15,7 +18,7 @@
       "203.66.151.0/24",
       "223.26.0.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:95c0::/36",
       "2403:cfc0:1004::/48"
     ]

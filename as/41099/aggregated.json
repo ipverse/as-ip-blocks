@@ -1,9 +1,12 @@
 {
-  "asn": 41099,
-  "handle": "GLOBALREACH",
-  "description": "Global Reach Networks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41099,
+  "metadata" : {
+    "handle" : "GLOBALREACH",
+    "description" : "Global Reach Networks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.9.15.0/24",
       "193.9.29.0/24",
       "193.9.255.0/24",
@@ -11,6 +14,6 @@
       "195.10.209.0/24",
       "195.10.222.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

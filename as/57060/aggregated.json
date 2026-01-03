@@ -1,11 +1,14 @@
 {
-  "asn": 57060,
-  "handle": "RDH-AS",
-  "description": "RDH SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57060,
+  "metadata" : {
+    "handle" : "RDH-AS",
+    "description" : "RDH SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.105.27.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

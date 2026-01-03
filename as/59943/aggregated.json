@@ -1,9 +1,12 @@
 {
-  "asn": 59943,
-  "handle": "LEVEL27-AS",
-  "description": "Level 27 BVBA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59943,
+  "metadata" : {
+    "handle" : "LEVEL27-AS",
+    "description" : "Level 27 BVBA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.64.0/24",
       "91.208.211.0/24",
       "91.223.195.0/24",
@@ -16,7 +19,7 @@
       "194.247.160.0/23",
       "195.225.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5b40::/31",
       "2a09:e940::/48"
     ]

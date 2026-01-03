@@ -1,9 +1,12 @@
 {
-  "asn": 203059,
-  "handle": "VION-AS",
-  "description": "Consorzio Energetico Val Venosta Soc. Coop",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203059,
+  "metadata" : {
+    "handle" : "VION-AS",
+    "description" : "Consorzio Energetico Val Venosta Soc. Coop.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.91.120.0/24",
       "45.95.211.0/24",
       "91.218.77.0/24",
@@ -17,7 +20,7 @@
       "194.156.132.0/23",
       "194.156.150.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:5080::/29"
     ]
   }

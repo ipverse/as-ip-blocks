@@ -1,13 +1,16 @@
 {
-  "asn": 6775,
-  "handle": "FINK-TELECOM-SERVICES",
-  "description": "Andreas Fink trading as Fink Telecom Services GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6775,
+  "metadata" : {
+    "handle" : "FINK-TELECOM-SERVICES",
+    "description" : "Andreas Fink trading as Fink Telecom Services GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.134.224.0/19",
       "85.209.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4b28::/29",
       "2a01:528::/29"
     ]

@@ -1,10 +1,13 @@
 {
-  "asn": 150139,
-  "handle": "CONETIX-AS-AP",
-  "description": "Conetix Pty Ltd",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 150139,
+  "metadata" : {
+    "handle" : "CONETIX-AS-AP",
+    "description" : "Conetix Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2403:6900:c000::/36"
     ]
   }

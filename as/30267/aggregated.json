@@ -1,11 +1,14 @@
 {
-  "asn": 30267,
-  "handle": "CITY-WACO-01",
-  "description": "City of Waco",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30267,
+  "metadata" : {
+    "handle" : "CITY-WACO-01",
+    "description" : "City of Waco",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.79.137.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

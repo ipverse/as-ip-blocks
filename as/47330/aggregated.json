@@ -1,9 +1,12 @@
 {
-  "asn": 47330,
-  "handle": "MOBINNET-AS",
-  "description": "Mobin Net Communication Company (Private Joint Stock)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47330,
+  "metadata" : {
+    "handle" : "MOBINNET-AS",
+    "description" : "Mobin Net Communication Company (Private Joint Stock)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.156.28.0/23",
       "91.209.186.0/24",
       "92.114.16.0/22",
@@ -12,6 +15,6 @@
       "188.213.66.0/23",
       "188.213.68.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

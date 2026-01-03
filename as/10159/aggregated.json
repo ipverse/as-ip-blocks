@@ -1,9 +1,12 @@
 {
-  "asn": 10159,
-  "handle": "HAUNET-AS",
-  "description": "Korea Aerospace University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10159,
+  "metadata" : {
+    "handle" : "HAUNET-AS",
+    "description" : "Korea Aerospace University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "118.128.241.0/24",
       "118.128.242.0/23",
       "203.253.144.0/20",
@@ -13,6 +16,6 @@
       "220.149.192.0/21",
       "220.149.200.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 401760,
-  "handle": "NETKIND",
-  "description": "Netkind LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401760,
+  "metadata" : {
+    "handle" : "NETKIND",
+    "description" : "Netkind LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.140.20.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:d9:2000::/48"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 48225,
-  "handle": "TELSI-AS",
-  "description": "JSC Telsi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48225,
+  "metadata" : {
+    "handle" : "TELSI-AS",
+    "description" : "JSC Telsi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.189.219.0/24",
       "46.252.251.0/24",
       "91.209.59.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

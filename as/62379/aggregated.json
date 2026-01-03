@@ -1,14 +1,17 @@
 {
-  "asn": 62379,
-  "handle": "FREEWAY",
-  "description": "FREEWAY LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62379,
+  "metadata" : {
+    "handle" : "FREEWAY",
+    "description" : "FREEWAY LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.76.166.0/24",
       "195.209.136.0/24",
       "195.209.185.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:a9c7:185::/48"
     ]
   }

@@ -1,16 +1,19 @@
 {
-  "asn": 196714,
-  "handle": "TNETKOM-AS",
-  "description": "Thueringer Netkom GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 196714,
+  "metadata" : {
+    "handle" : "TNETKOM-AS",
+    "description" : "Thueringer Netkom GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.3.80.0/21",
       "91.137.0.0/18",
       "109.73.16.0/20",
       "171.33.184.0/21",
       "185.38.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2250::/32",
       "2a04:7440::/30",
       "2a04:8480::/30"

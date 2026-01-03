@@ -1,13 +1,16 @@
 {
-  "asn": 1887,
-  "handle": "NASK-ACADEMIC",
-  "description": "NAUKOWA I AKADEMICKA SIEC KOMPUTEROWA - PANSTWOWY INSTYTUT BADAWCZY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1887,
+  "metadata" : {
+    "handle" : "NASK-ACADEMIC",
+    "description" : "NAUKOWA I AKADEMICKA SIEC KOMPUTEROWA - PANSTWOWY INSTYTUT BADAWCZY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.81.0.0/16",
       "195.187.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1488::/32"
     ]
   }

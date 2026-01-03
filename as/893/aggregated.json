@@ -1,12 +1,15 @@
 {
-  "asn": 893,
-  "handle": "NINJA-IX-FOUNDATION-ASN",
-  "description": "Ninja-IX Foundation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 893,
+  "metadata" : {
+    "handle" : "NINJA-IX-FOUNDATION-ASN",
+    "description" : "Ninja-IX Foundation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.137.88.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470:3b6::/48",
       "2602:fb61::/40"
     ]

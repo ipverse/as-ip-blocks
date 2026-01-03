@@ -1,15 +1,18 @@
 {
-  "asn": 263032,
-  "handle": "VERO",
-  "description": "VERO S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263032,
+  "metadata" : {
+    "handle" : "VERO",
+    "description" : "VERO S.A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.90.44.0/22",
       "170.238.192.0/22",
       "177.137.56.0/21",
       "186.250.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2d24::/32"
     ]
   }

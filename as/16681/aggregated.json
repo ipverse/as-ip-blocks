@@ -1,9 +1,12 @@
 {
-  "asn": 16681,
-  "handle": "ETS",
-  "description": "Educational Testing Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16681,
+  "metadata" : {
+    "handle" : "ETS",
+    "description" : "Educational Testing Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.81.10.0/23",
       "144.81.53.0/24",
       "144.81.54.0/24",
@@ -14,6 +17,6 @@
       "144.81.191.0/24",
       "144.81.192.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

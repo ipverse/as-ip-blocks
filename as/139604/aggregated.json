@@ -1,13 +1,16 @@
 {
-  "asn": 139604,
-  "handle": "ARROWNET-AS-AP",
-  "description": "Arrow Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139604,
+  "metadata" : {
+    "handle" : "ARROWNET-AS-AP",
+    "description" : "Arrow Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.142.80.0/23",
       "103.175.133.0/24",
       "103.176.2.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

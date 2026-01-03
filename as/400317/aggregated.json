@@ -1,9 +1,12 @@
 {
-  "asn": 400317,
-  "handle": "ORCHEST",
-  "description": "GoldConnect",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400317,
+  "metadata" : {
+    "handle" : "ORCHEST",
+    "description" : "GoldConnect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.160.134.0/24",
       "63.160.140.0/24",
       "63.160.145.0/24",
@@ -14,6 +17,6 @@
       "204.119.27.0/24",
       "204.119.60.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

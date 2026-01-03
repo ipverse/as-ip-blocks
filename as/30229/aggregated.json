@@ -1,13 +1,16 @@
 {
-  "asn": 30229,
-  "handle": "SE2-BGP-AS",
-  "description": "SE2 Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30229,
+  "metadata" : {
+    "handle" : "SE2-BGP-AS",
+    "description" : "SE2 Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.13.70.0/23",
       "12.13.72.0/23",
       "72.204.246.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

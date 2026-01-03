@@ -1,12 +1,15 @@
 {
-  "asn": 272201,
-  "handle": "ACSNET-TELECOM",
-  "description": "ACSNET TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272201,
+  "metadata" : {
+    "handle" : "ACSNET-TELECOM",
+    "description" : "ACSNET TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.48.139.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:837c::/32"
     ]
   }

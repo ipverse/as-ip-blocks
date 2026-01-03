@@ -1,15 +1,18 @@
 {
-  "asn": 137990,
-  "handle": "SUNIWAY1-AS-AP",
-  "description": "SUNIWAY GROUP LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137990,
+  "metadata" : {
+    "handle" : "SUNIWAY1-AS-AP",
+    "description" : "SUNIWAY GROUP LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.119.128.0/22",
       "154.197.28.0/23",
       "202.43.225.0/24",
       "202.43.226.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:940::/32",
       "2403:43c0::/32"
     ]

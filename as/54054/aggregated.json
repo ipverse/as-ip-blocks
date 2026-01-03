@@ -1,15 +1,18 @@
 {
-  "asn": 54054,
-  "handle": "DETEQUE",
-  "description": "Deteque",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54054,
+  "metadata" : {
+    "handle" : "DETEQUE",
+    "description" : "Deteque",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.219.56.0/22",
       "192.48.223.0/24",
       "192.110.255.0/24",
       "199.168.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:700::/32",
       "2620:8c:4000::/48"
     ]

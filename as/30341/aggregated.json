@@ -1,11 +1,14 @@
 {
-  "asn": 30341,
-  "handle": "SCTA-ASN",
-  "description": "South Central Telephone Association",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30341,
+  "metadata" : {
+    "handle" : "SCTA-ASN",
+    "description" : "South Central Telephone Association",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.248.0.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

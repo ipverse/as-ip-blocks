@@ -1,9 +1,12 @@
 {
-  "asn": 398395,
-  "handle": "LEVELONESERVERS",
-  "description": "PureVoltage Hosting Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398395,
+  "metadata" : {
+    "handle" : "LEVELONESERVERS",
+    "description" : "PureVoltage Hosting Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.43.12.0/23",
       "45.43.24.0/24",
       "45.59.115.0/24",
@@ -35,7 +38,7 @@
       "216.126.226.0/24",
       "216.126.228.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:8360:f::/48",
       "2602:fb54:146::/48",
       "2606:fc40::/41"

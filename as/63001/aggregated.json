@@ -1,12 +1,15 @@
 {
-  "asn": 63001,
-  "handle": "NTS-ALEXANDRIA-01",
-  "description": "Vexus Fiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63001,
+  "metadata" : {
+    "handle" : "NTS-ALEXANDRIA-01",
+    "description" : "Vexus Fiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.158.136.0/23",
       "38.172.109.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

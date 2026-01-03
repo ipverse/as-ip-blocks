@@ -1,9 +1,12 @@
 {
-  "asn": 207083,
-  "handle": "HOSTSLIM-GLOBAL-NETWORK",
-  "description": "HostSlim B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207083,
+  "metadata" : {
+    "handle" : "HOSTSLIM-GLOBAL-NETWORK",
+    "description" : "HostSlim B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.254.0/24",
       "69.12.83.0/24",
       "103.214.4.0/22",
@@ -14,7 +17,7 @@
       "206.123.128.0/24",
       "216.144.231.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:17c0::/32",
       "2a06:5b80::/29",
       "2a09:3c00::/29",

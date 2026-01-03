@@ -1,12 +1,15 @@
 {
-  "asn": 393292,
-  "handle": "SKIZNET-AS-01",
-  "description": "SkizNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393292,
+  "metadata" : {
+    "handle" : "SKIZNET-AS-01",
+    "description" : "SkizNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.154.151.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc47::/36"
     ]
   }

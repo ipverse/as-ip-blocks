@@ -1,9 +1,12 @@
 {
-  "asn": 61173,
-  "handle": "GWSN-AS",
-  "description": "Green Web Samaneh Novin PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61173,
+  "metadata" : {
+    "handle" : "GWSN-AS",
+    "description" : "Green Web Samaneh Novin PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.182.44.0/23",
       "5.182.46.0/24",
       "45.159.112.0/22",
@@ -20,7 +23,7 @@
       "193.141.64.0/23",
       "193.141.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:ab80::/47",
       "2a05:ab80:3::/48",
       "2a05:ab80:100::/48",

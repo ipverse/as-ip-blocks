@@ -1,14 +1,17 @@
 {
-  "asn": 400469,
-  "handle": "CLAVERACK-COMMUNICATIONS-ASN",
-  "description": "CLAVERACK COMMUNICATIONS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400469,
+  "metadata" : {
+    "handle" : "CLAVERACK-COMMUNICATIONS-ASN",
+    "description" : "CLAVERACK COMMUNICATIONS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.188.248.0/23",
       "165.140.76.0/22",
       "198.73.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:f140::/32"
     ]
   }

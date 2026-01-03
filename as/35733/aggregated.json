@@ -1,12 +1,15 @@
 {
-  "asn": 35733,
-  "handle": "EURID",
-  "description": "EURid vzw",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35733,
+  "metadata" : {
+    "handle" : "EURID",
+    "description" : "EURid vzw",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.36.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:40::/48",
       "2001:67c:9c::/48"
     ]

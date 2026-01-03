@@ -1,9 +1,12 @@
 {
-  "asn": 51570,
-  "handle": "SPB-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51570,
+  "metadata" : {
+    "handle" : "SPB-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.3.9.0/24",
       "5.3.19.0/24",
       "5.3.24.0/23",
@@ -39,7 +42,7 @@
       "188.187.234.0/24",
       "217.12.72.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:6c00::/38"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 55960,
-  "handle": "BJ-GUANGHUAN-AP",
-  "description": "Beijing Guanghuan Xinwang Digital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55960,
+  "metadata" : {
+    "handle" : "BJ-GUANGHUAN-AP",
+    "description" : "Beijing Guanghuan Xinwang Digital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.195.0.0/20",
       "43.196.0.0/16",
       "52.80.0.0/15",
@@ -32,7 +35,7 @@
       "71.137.0.0/18",
       "140.179.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:7fc0::/40",
       "2400:7fc0:220::/44",
       "2400:7fc0:240::/44",

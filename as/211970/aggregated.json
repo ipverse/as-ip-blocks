@@ -1,9 +1,12 @@
 {
-  "asn": 211970,
-  "handle": "TARIK-ALTHURAYA",
-  "description": "Tarik Al-thuraya Company For Communications Service Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211970,
+  "metadata" : {
+    "handle" : "TARIK-ALTHURAYA",
+    "description" : "Tarik Al-thuraya Company For Communications Service Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.117.230.0/24",
       "131.117.233.0/24",
       "185.21.139.0/24",
@@ -15,6 +18,8 @@
       "212.126.113.0/24",
       "212.126.115.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [
+      "2a04:2dc0::/48"
+    ]
   }
 }

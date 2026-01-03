@@ -1,9 +1,12 @@
 {
-  "asn": 150895,
-  "handle": "EZTECH-VN",
-  "description": "EZ TECHNOLOGY COMPANY LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150895,
+  "metadata" : {
+    "handle" : "EZTECH-VN",
+    "description" : "EZ TECHNOLOGY COMPANY LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.26.0/23",
       "103.20.102.0/23",
       "103.67.162.0/23",
@@ -37,7 +40,7 @@
       "163.223.210.0/23",
       "163.227.230.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:37e0::/48"
     ]
   }

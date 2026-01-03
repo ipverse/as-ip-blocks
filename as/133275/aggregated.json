@@ -1,9 +1,12 @@
 {
-  "asn": 133275,
-  "handle": "GIGANTIC-AS",
-  "description": "Gigantic Infotel Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133275,
+  "metadata" : {
+    "handle" : "GIGANTIC-AS",
+    "description" : "Gigantic Infotel Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.248.236.0/22",
       "43.249.52.0/22",
       "45.115.4.0/24",
@@ -45,7 +48,7 @@
       "210.16.82.0/23",
       "220.158.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:4340::/48"
     ]
   }

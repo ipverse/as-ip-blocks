@@ -1,13 +1,16 @@
 {
-  "asn": 59647,
-  "handle": "EKT",
-  "description": "EKT AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59647,
+  "metadata" : {
+    "handle" : "EKT",
+    "description" : "EKT AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.186.192.0/21",
       "213.230.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:b3c0::/32"
     ]
   }

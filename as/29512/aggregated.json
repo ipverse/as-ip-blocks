@@ -1,9 +1,12 @@
 {
-  "asn": 29512,
-  "handle": "TVK-WROC-AS",
-  "description": "TVK ZJAWIONA ELZBIETA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29512,
+  "metadata" : {
+    "handle" : "TVK-WROC-AS",
+    "description" : "TVK ZJAWIONA ELZBIETA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.110.0.0/20",
       "94.231.224.0/21",
       "94.231.232.0/22",
@@ -11,7 +14,7 @@
       "94.231.238.0/24",
       "195.140.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:fbc0::/29"
     ]
   }

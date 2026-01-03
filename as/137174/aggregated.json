@@ -1,12 +1,15 @@
 {
-  "asn": 137174,
-  "handle": "AIRWIRE-AS",
-  "description": "Airwire Infocom Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137174,
+  "metadata" : {
+    "handle" : "AIRWIRE-AS",
+    "description" : "Airwire Infocom Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.112.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:e4e0::/46",
       "2400:e4e0:4::/48"
     ]

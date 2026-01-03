@@ -1,13 +1,16 @@
 {
-  "asn": 46300,
-  "handle": "HSC-WAP",
-  "description": "Valley Fiber Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46300,
+  "metadata" : {
+    "handle" : "HSC-WAP",
+    "description" : "Valley Fiber Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.133.208.0/24",
       "199.19.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fdc1::/36",
       "2605:4040::/32"
     ]

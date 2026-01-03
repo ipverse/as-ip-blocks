@@ -1,9 +1,12 @@
 {
-  "asn": 47406,
-  "handle": "RLNET-AS",
-  "description": "ERRE ELLE NET s.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47406,
+  "metadata" : {
+    "handle" : "RLNET-AS",
+    "description" : "ERRE ELLE NET s.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.202.28.0/22",
       "185.118.72.0/22",
       "185.123.36.0/22",
@@ -11,6 +14,6 @@
       "185.176.200.0/22",
       "185.211.15.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

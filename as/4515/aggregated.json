@@ -1,9 +1,12 @@
 {
-  "asn": 4515,
-  "handle": "PCCW-AS-AP",
-  "description": "PCCW IMS Ltd (PCCW Business Internet Access)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4515,
+  "metadata" : {
+    "handle" : "PCCW-AS-AP",
+    "description" : "PCCW IMS Ltd (PCCW Business Internet Access)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.76.140.0/23",
       "38.248.20.0/23",
       "42.3.226.0/24",
@@ -90,7 +93,7 @@
       "220.246.0.0/19",
       "223.197.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:c800::/30",
       "2400:c804::/31",
       "2403:27c0:c02::/47",

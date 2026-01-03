@@ -1,12 +1,15 @@
 {
-  "asn": 206671,
-  "handle": "NOTMIKE",
-  "description": "Michael Jones",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206671,
+  "metadata" : {
+    "handle" : "NOTMIKE",
+    "description" : "Michael Jones",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.31.110.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:91c::/48",
       "2a14:7581:9400::/40"
     ]

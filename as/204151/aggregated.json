@@ -1,9 +1,12 @@
 {
-  "asn": 204151,
-  "handle": "KVIKNET-DK",
-  "description": "EWII Bredbaand A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204151,
+  "metadata" : {
+    "handle" : "KVIKNET-DK",
+    "description" : "EWII Bredbaand A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.32.144.0/21",
       "78.31.252.0/22",
       "87.104.240.0/20",
@@ -12,7 +15,7 @@
       "194.45.76.0/22",
       "212.237.176.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8200::/32",
       "2a06:4000::/29",
       "2a12:3d80::/29"

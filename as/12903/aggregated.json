@@ -1,9 +1,12 @@
 {
-  "asn": 12903,
-  "handle": "GARANTI-TECH",
-  "description": "Turkiye Garanti Bankasi A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12903,
+  "metadata" : {
+    "handle" : "GARANTI-TECH",
+    "description" : "Turkiye Garanti Bankasi A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.188.192.0/22",
       "193.218.113.0/24",
       "194.29.208.0/21",
@@ -14,6 +17,6 @@
       "217.68.219.0/24",
       "217.68.220.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

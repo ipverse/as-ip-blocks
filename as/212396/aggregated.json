@@ -1,9 +1,12 @@
 {
-  "asn": 212396,
-  "handle": "FYFEWEB",
-  "description": "FyfeWeb Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212396,
+  "metadata" : {
+    "handle" : "FYFEWEB",
+    "description" : "FyfeWeb Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.83.30.0/24",
       "45.84.57.0/24",
       "45.85.88.0/24",
@@ -17,7 +20,7 @@
       "193.110.160.0/24",
       "193.228.225.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:ee40:753::/48",
       "2a03:ee40:7531::/48",
       "2a0b:9e47:ffff::/48"

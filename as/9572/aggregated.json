@@ -1,9 +1,12 @@
 {
-  "asn": 9572,
-  "handle": "HUFSNET-AS",
-  "description": "Hankuk University of Foreign Studies Computer Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9572,
+  "metadata" : {
+    "handle" : "HUFSNET-AS",
+    "description" : "Hankuk University of Foreign Studies Computer Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.232.224.0/20",
       "203.253.64.0/19",
       "211.195.85.0/24",
@@ -11,6 +14,6 @@
       "220.67.128.0/22",
       "220.120.182.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

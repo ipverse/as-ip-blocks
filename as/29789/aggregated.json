@@ -1,9 +1,12 @@
 {
-  "asn": 29789,
-  "handle": "REFLECTED",
-  "description": "Reflected Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29789,
+  "metadata" : {
+    "handle" : "REFLECTED",
+    "description" : "Reflected Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.88.240.0/24",
       "64.88.244.0/23",
       "64.88.246.0/24",
@@ -20,7 +23,7 @@
       "209.239.160.0/20",
       "216.18.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:18b8::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 205467,
-  "handle": "BASEIP-LAX",
-  "description": "Base IP B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205467,
+  "metadata" : {
+    "handle" : "BASEIP-LAX",
+    "description" : "Base IP B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.38.15.0/24",
       "45.38.18.0/24",
       "50.117.11.0/24",
@@ -12,7 +15,7 @@
       "81.171.62.0/23",
       "85.12.0.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:788:213::/48"
     ]
   }

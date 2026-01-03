@@ -1,9 +1,12 @@
 {
-  "asn": 24863,
-  "handle": "LINKDOTNET-AS",
-  "description": "Link Egypt (Link.NET)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24863,
+  "metadata" : {
+    "handle" : "LINKDOTNET-AS",
+    "description" : "Link Egypt (Link.NET)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.128.0.0/14",
       "41.178.0.0/16",
       "41.196.0.0/16",
@@ -21,7 +24,7 @@
       "197.160.0.0/13",
       "213.131.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0e::/20"
     ]
   }

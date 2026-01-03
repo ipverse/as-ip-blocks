@@ -1,12 +1,15 @@
 {
-  "asn": 268899,
-  "handle": "NAVEGAR-TELECOM",
-  "description": "Navegar Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268899,
+  "metadata" : {
+    "handle" : "NAVEGAR-TELECOM",
+    "description" : "Navegar Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.175.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5c48::/32"
     ]
   }

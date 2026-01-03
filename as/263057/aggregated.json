@@ -1,14 +1,17 @@
 {
-  "asn": 263057,
-  "handle": "CONNECT-NETWORK",
-  "description": "Connect Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263057,
+  "metadata" : {
+    "handle" : "CONNECT-NETWORK",
+    "description" : "Connect Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.228.16.0/22",
       "170.244.236.0/22",
       "186.232.40.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:930::/32"
     ]
   }

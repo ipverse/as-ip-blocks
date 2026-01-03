@@ -1,9 +1,12 @@
 {
-  "asn": 42263,
-  "handle": "WIITCLOUDEDGE",
-  "description": "WIIT AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42263,
+  "metadata" : {
+    "handle" : "WIITCLOUDEDGE",
+    "description" : "WIIT AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.253.192.0/22",
       "45.94.108.0/22",
       "45.136.96.0/22",
@@ -16,7 +19,7 @@
       "185.182.32.0/22",
       "192.70.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:c320::/29"
     ]
   }

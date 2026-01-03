@@ -1,13 +1,16 @@
 {
-  "asn": 146918,
-  "handle": "CABLECOM-AS-IN",
-  "description": "Cablecom Network Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 146918,
+  "metadata" : {
+    "handle" : "CABLECOM-AS-IN",
+    "description" : "Cablecom Network Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.172.9.0/24",
       "157.10.96.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:5a80::/48"
     ]
   }

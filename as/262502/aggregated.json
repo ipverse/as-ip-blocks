@@ -1,14 +1,17 @@
 {
-  "asn": 262502,
-  "handle": "FLYLINK-TELECOM",
-  "description": "FLYLink Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262502,
+  "metadata" : {
+    "handle" : "FLYLINK-TELECOM",
+    "description" : "FLYLink Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.250.80.0/22",
       "177.66.184.0/21",
       "190.7.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:18a8::/32"
     ]
   }

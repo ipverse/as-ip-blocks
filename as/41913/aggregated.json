@@ -1,9 +1,12 @@
 {
-  "asn": 41913,
-  "handle": "COMPUTERLINE",
-  "description": "Computerline GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41913,
+  "metadata" : {
+    "handle" : "COMPUTERLINE",
+    "description" : "Computerline GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.36.170.0/23",
       "91.103.152.0/22",
       "91.135.64.0/20",
@@ -13,7 +16,7 @@
       "185.20.208.0/22",
       "185.172.198.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:278::/32",
       "2a12:8b40:10::/47",
       "2a12:8b40:20::/47"

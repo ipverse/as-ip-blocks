@@ -1,9 +1,12 @@
 {
-  "asn": 25862,
-  "handle": "ISNX",
-  "description": "ISNX LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25862,
+  "metadata" : {
+    "handle" : "ISNX",
+    "description" : "ISNX LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.246.180.0/24",
       "43.246.182.0/23",
       "43.251.70.0/24",
@@ -15,6 +18,6 @@
       "103.253.58.0/24",
       "123.108.6.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

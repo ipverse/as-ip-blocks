@@ -1,12 +1,15 @@
 {
-  "asn": 55623,
-  "handle": "KIDI-AS",
-  "description": "Korea Insurance Development Institute",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55623,
+  "metadata" : {
+    "handle" : "KIDI-AS",
+    "description" : "Korea Insurance Development Institute",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.107.27.0/24",
       "175.124.157.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

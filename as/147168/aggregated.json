@@ -1,13 +1,16 @@
 {
-  "asn": 147168,
-  "handle": "NTTINDONESIA-AS-ID",
-  "description": "PT NTT Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147168,
+  "metadata" : {
+    "handle" : "NTTINDONESIA-AS-ID",
+    "description" : "PT NTT Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.178.8.0/24",
       "202.171.8.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:c8:8::/48"
     ]
   }

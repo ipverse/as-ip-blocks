@@ -1,12 +1,15 @@
 {
-  "asn": 43607,
-  "handle": "BACH-IT",
-  "description": "Florian Bach",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43607,
+  "metadata" : {
+    "handle" : "BACH-IT",
+    "description" : "Florian Bach",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.17.2.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:2480::/32"
     ]
   }

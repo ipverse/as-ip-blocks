@@ -1,9 +1,12 @@
 {
-  "asn": 134548,
-  "handle": "DXTL-HK",
-  "description": "DingFeng XinHui(HongKong) Technology Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134548,
+  "metadata" : {
+    "handle" : "DXTL-HK",
+    "description" : "DingFeng XinHui(HongKong) Technology Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.182.216.0/22",
       "23.234.0.0/18",
       "27.123.232.0/22",
@@ -68,7 +71,7 @@
       "198.44.224.0/19",
       "216.250.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:fc00::/48",
       "2401:da40:1000::/36",
       "2401:da40:2000::/35",

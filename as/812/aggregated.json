@@ -1,9 +1,12 @@
 {
-  "asn": 812,
-  "handle": "ROGERS-COMMUNICATIONS",
-  "description": "Rogers Communications Canada Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 812,
+  "metadata" : {
+    "handle" : "ROGERS-COMMUNICATIONS",
+    "description" : "Rogers Communications Canada Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.155.64.0/24",
       "24.102.0.0/18",
       "24.114.0.0/16",
@@ -246,7 +249,7 @@
       "216.176.216.0/21",
       "216.185.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:506:20::/48",
       "2605:8d80::/32",
       "2606:f900::/32",

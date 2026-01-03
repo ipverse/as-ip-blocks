@@ -1,12 +1,15 @@
 {
-  "asn": 37073,
-  "handle": "IPP-BURKINA-AS",
-  "description": "Internet Puissance Plus Burkina SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37073,
+  "metadata" : {
+    "handle" : "IPP-BURKINA-AS",
+    "description" : "Internet Puissance Plus Burkina SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.216.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:5a40::/32"
     ]
   }

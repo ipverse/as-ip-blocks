@@ -1,9 +1,12 @@
 {
-  "asn": 33494,
-  "handle": "IHNET",
-  "description": "IHNetworks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33494,
+  "metadata" : {
+    "handle" : "IHNET",
+    "description" : "IHNetworks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.235.229.0/24",
       "64.235.231.0/24",
       "64.235.242.0/23",
@@ -30,6 +33,6 @@
       "216.193.228.0/24",
       "216.193.249.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

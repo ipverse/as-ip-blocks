@@ -1,9 +1,12 @@
 {
-  "asn": 19740,
-  "handle": "SUDJAM",
-  "description": "Sudjam LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19740,
+  "metadata" : {
+    "handle" : "SUDJAM",
+    "description" : "Sudjam LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.173.112.0/23",
       "23.173.114.0/24",
       "38.101.113.0/24",
@@ -44,7 +47,7 @@
       "208.78.240.0/21",
       "208.81.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:1b40:100::/40",
       "2606:1b40:300::/40",
       "2606:1b40:500::/40",

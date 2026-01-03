@@ -1,13 +1,16 @@
 {
-  "asn": 61221,
-  "handle": "IVALUA-AS",
-  "description": "IVALUA SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61221,
+  "metadata" : {
+    "handle" : "IVALUA-AS",
+    "description" : "IVALUA SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.252.144.0/24",
       "5.252.146.0/24",
       "185.14.244.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 266400,
-  "handle": "FERENZ-NETWORKS",
-  "description": "Ferenz Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266400,
+  "metadata" : {
+    "handle" : "FERENZ-NETWORKS",
+    "description" : "Ferenz Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.57.174.0/23",
       "45.224.128.0/22",
       "74.1.74.0/23",
@@ -16,7 +19,7 @@
       "181.215.211.0/24",
       "181.215.215.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3744::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 37225,
-  "handle": "NETWIDE",
-  "description": "Netwide Internet Services cc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37225,
+  "metadata" : {
+    "handle" : "NETWIDE",
+    "description" : "Netwide Internet Services cc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.76.176.0/21",
       "41.85.224.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

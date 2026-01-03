@@ -1,11 +1,14 @@
 {
-  "asn": 1255,
-  "handle": "SMITHCOLLEGE-AS",
-  "description": "Smith College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1255,
+  "metadata" : {
+    "handle" : "SMITHCOLLEGE-AS",
+    "description" : "Smith College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.229.0.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

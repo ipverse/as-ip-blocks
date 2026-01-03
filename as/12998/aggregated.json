@@ -1,15 +1,18 @@
 {
-  "asn": 12998,
-  "handle": "BGNET-AS",
-  "description": "BGNet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12998,
+  "metadata" : {
+    "handle" : "BGNET-AS",
+    "description" : "BGNet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.200.0/22",
       "91.196.100.0/22",
       "193.227.206.0/23",
       "195.3.156.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:2c0:5::/48"
     ]
   }

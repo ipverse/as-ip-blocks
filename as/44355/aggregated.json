@@ -1,12 +1,15 @@
 {
-  "asn": 44355,
-  "handle": "COLOCATION",
-  "description": "Colocation Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44355,
+  "metadata" : {
+    "handle" : "COLOCATION",
+    "description" : "Colocation Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.57.167.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:85c0:2::/48",
       "2a0f:85c2:100::/40"
     ]

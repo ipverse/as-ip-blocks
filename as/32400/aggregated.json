@@ -1,16 +1,19 @@
 {
-  "asn": 32400,
-  "handle": "HWSERVICES-32400",
-  "description": "Ntirety Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32400,
+  "metadata" : {
+    "handle" : "HWSERVICES-32400",
+    "description" : "Ntirety Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.70.192.0/19",
       "207.150.192.0/20",
       "216.139.208.0/20",
       "216.139.224.0/19",
       "216.185.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:8200::/32"
     ]
   }

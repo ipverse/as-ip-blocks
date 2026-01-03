@@ -1,12 +1,15 @@
 {
-  "asn": 271459,
-  "handle": "PROVEDOR-POWERNET",
-  "description": "PROVEDOR POWERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271459,
+  "metadata" : {
+    "handle" : "PROVEDOR-POWERNET",
+    "description" : "PROVEDOR POWERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.0.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7bdc::/39"
     ]
   }

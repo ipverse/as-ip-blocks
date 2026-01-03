@@ -1,9 +1,12 @@
 {
-  "asn": 58087,
-  "handle": "FLORIANKOLB",
-  "description": "Florian Kolb",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58087,
+  "metadata" : {
+    "handle" : "FLORIANKOLB",
+    "description" : "Florian Kolb",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.231.116.0/24",
       "5.253.247.0/24",
       "37.114.37.0/24",
@@ -28,7 +31,7 @@
       "185.14.92.0/24",
       "194.15.36.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:97c0:3e3::/48",
       "2a0e:97c0:711::/48"
     ]

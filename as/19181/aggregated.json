@@ -1,9 +1,12 @@
 {
-  "asn": 19181,
-  "handle": "CWIE",
-  "description": "CWIE LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19181,
+  "metadata" : {
+    "handle" : "CWIE",
+    "description" : "CWIE LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.153.56.0/22",
       "131.153.83.0/24",
       "131.153.164.0/24",
@@ -11,7 +14,7 @@
       "131.153.224.0/24",
       "131.153.233.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:6003:2307::/48",
       "2607:ff00:700::/40"
     ]

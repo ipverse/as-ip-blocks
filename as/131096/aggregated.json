@@ -1,11 +1,14 @@
 {
-  "asn": 131096,
-  "handle": "MASTERCAR-AS",
-  "description": "Master Motors Management",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131096,
+  "metadata" : {
+    "handle" : "MASTERCAR-AS",
+    "description" : "Master Motors Management",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "220.75.200.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

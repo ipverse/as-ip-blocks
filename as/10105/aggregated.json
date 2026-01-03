@@ -1,16 +1,19 @@
 {
-  "asn": 10105,
-  "handle": "OMNI",
-  "description": "OMNIconnect Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10105,
+  "metadata" : {
+    "handle" : "OMNI",
+    "description" : "OMNIconnect Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.125.124.0/24",
       "117.104.160.0/21",
       "203.143.64.0/20",
       "203.143.80.0/23",
       "203.143.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:6800::/32"
     ]
   }

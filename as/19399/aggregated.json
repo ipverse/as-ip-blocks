@@ -1,9 +1,12 @@
 {
-  "asn": 19399,
-  "handle": "SLL",
-  "description": "Region Stockholm",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19399,
+  "metadata" : {
+    "handle" : "SLL",
+    "description" : "Region Stockholm",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "136.155.0.0/16",
       "147.180.0.0/16",
       "159.38.0.0/16",
@@ -19,7 +22,7 @@
       "194.4.8.0/23",
       "194.14.182.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:f060::/32"
     ]
   }

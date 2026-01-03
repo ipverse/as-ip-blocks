@@ -1,9 +1,12 @@
 {
-  "asn": 60446,
-  "handle": "DATEMA",
-  "description": "Datema Bilisim Ticaret Anonim Sirketi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60446,
+  "metadata" : {
+    "handle" : "DATEMA",
+    "description" : "Datema Bilisim Ticaret Anonim Sirketi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.210.37.0/24",
       "31.210.38.0/23",
       "31.210.40.0/24",
@@ -24,6 +27,6 @@
       "188.132.250.0/23",
       "212.68.55.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

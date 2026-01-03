@@ -1,13 +1,16 @@
 {
-  "asn": 32809,
-  "handle": "DRN-AS",
-  "description": "Dickey Rural Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32809,
+  "metadata" : {
+    "handle" : "DRN-AS",
+    "description" : "Dickey Rural Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.141.0.0/20",
       "65.23.160.0/19",
       "209.188.64.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

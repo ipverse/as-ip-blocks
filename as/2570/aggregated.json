@@ -1,9 +1,12 @@
 {
-  "asn": 2570,
-  "handle": "TAS-SPARK-NZ",
-  "description": "Spark New Zealand Trading Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2570,
+  "metadata" : {
+    "handle" : "TAS-SPARK-NZ",
+    "description" : "Spark New Zealand Trading Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.171.18.0/24",
       "146.171.25.0/24",
       "146.171.41.0/24",
@@ -21,7 +24,7 @@
       "210.55.184.0/23",
       "210.55.216.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:9800:2f::/48"
     ]
   }

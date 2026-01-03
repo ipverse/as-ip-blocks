@@ -1,12 +1,15 @@
 {
-  "asn": 267155,
-  "handle": "VOE-INTERNET",
-  "description": "VOE INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267155,
+  "metadata" : {
+    "handle" : "VOE-INTERNET",
+    "description" : "VOE INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.229.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:48f4::/32"
     ]
   }

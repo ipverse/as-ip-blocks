@@ -1,13 +1,16 @@
 {
-  "asn": 28859,
-  "handle": "ZUGERNET",
-  "description": "Convotis Schweiz AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28859,
+  "metadata" : {
+    "handle" : "ZUGERNET",
+    "description" : "Convotis Schweiz AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.94.32.0/20",
       "212.94.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:368::/32"
     ]
   }

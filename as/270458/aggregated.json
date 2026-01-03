@@ -1,12 +1,15 @@
 {
-  "asn": 270458,
-  "handle": "FIBRA-MAIS",
-  "description": "FIBRA MAIS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270458,
+  "metadata" : {
+    "handle" : "FIBRA-MAIS",
+    "description" : "FIBRA MAIS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.6.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6c4c::/32"
     ]
   }

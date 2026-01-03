@@ -1,12 +1,15 @@
 {
-  "asn": 205002,
-  "handle": "AS-IWAO",
-  "description": "CUBESOL s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205002,
+  "metadata" : {
+    "handle" : "AS-IWAO",
+    "description" : "CUBESOL s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.233.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:cf00::/29"
     ]
   }

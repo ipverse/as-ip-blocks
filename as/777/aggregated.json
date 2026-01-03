@@ -1,9 +1,12 @@
 {
-  "asn": 777,
-  "handle": "CEA-SACLAY",
-  "description": "CEA-Saclay",
-  "subnets": {
-    "ipv4": [
+  "asn" : 777,
+  "metadata" : {
+    "handle" : "CEA-SACLAY",
+    "description" : "CEA-Saclay",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.165.0.0/16",
       "132.168.0.0/15",
       "192.54.143.0/24",
@@ -12,6 +15,6 @@
       "192.54.208.0/23",
       "192.93.124.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

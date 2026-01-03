@@ -1,13 +1,16 @@
 {
-  "asn": 43655,
-  "handle": "SENERMOB",
-  "description": "SENER Mobility S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43655,
+  "metadata" : {
+    "handle" : "SENERMOB",
+    "description" : "SENER Mobility S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.24.136.0/21",
       "193.148.2.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e70::/32"
     ]
   }

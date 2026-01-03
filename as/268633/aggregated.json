@@ -1,12 +1,15 @@
 {
-  "asn": 268633,
-  "handle": "73S-TELECOM",
-  "description": "73s Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268633,
+  "metadata" : {
+    "handle" : "73S-TELECOM",
+    "description" : "73s Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.164.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:542c::/35"
     ]
   }

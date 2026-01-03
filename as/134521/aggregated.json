@@ -1,14 +1,17 @@
 {
-  "asn": 134521,
-  "handle": "DIALPAD-AS-AP",
-  "description": "Dialpad Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134521,
+  "metadata" : {
+    "handle" : "DIALPAD-AS-AP",
+    "description" : "Dialpad Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.35.124.0/23",
       "103.35.127.0/24",
       "199.27.150.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:e580:f900::/40",
       "2a05:e580:fa00::/39",
       "2a05:e580:fd00::/40",

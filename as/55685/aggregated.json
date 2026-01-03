@@ -1,9 +1,12 @@
 {
-  "asn": 55685,
-  "handle": "JLM-AS-ID",
-  "description": "PT Jala Lintas Media",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55685,
+  "metadata" : {
+    "handle" : "JLM-AS-ID",
+    "description" : "PT Jala Lintas Media",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.20.188.0/23",
       "103.20.191.0/24",
       "103.60.180.0/23",
@@ -33,7 +36,7 @@
       "203.161.16.0/24",
       "203.161.19.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:e100::/47",
       "2404:e100:3::/48",
       "2404:e100:4::/46",

@@ -1,9 +1,12 @@
 {
-  "asn": 32758,
-  "handle": "TOTELCSI",
-  "description": "TotelCSI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32758,
+  "metadata" : {
+    "handle" : "TOTELCSI",
+    "description" : "TotelCSI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.245.128.0/22",
       "63.245.148.0/23",
       "63.245.152.0/24",
@@ -17,6 +20,6 @@
       "66.109.120.0/21",
       "199.119.168.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 150108,
-  "handle": "TELEHOUSEPVTLTD-AS-AP",
-  "description": "TeleHouse Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150108,
+  "metadata" : {
+    "handle" : "TELEHOUSEPVTLTD-AS-AP",
+    "description" : "TeleHouse Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.122.222.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:f160::/32"
     ]
   }

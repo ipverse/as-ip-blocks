@@ -1,9 +1,12 @@
 {
-  "asn": 9962,
-  "handle": "SUNCHON-AS",
-  "description": "Sunchon National University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9962,
+  "metadata" : {
+    "handle" : "SUNCHON-AS",
+    "description" : "Sunchon National University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "114.70.43.0/24",
       "114.70.44.0/22",
       "114.70.48.0/23",
@@ -20,6 +23,6 @@
       "220.149.20.0/22",
       "220.149.36.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

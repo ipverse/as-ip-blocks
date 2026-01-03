@@ -1,9 +1,12 @@
 {
-  "asn": 139659,
-  "handle": "LUCID-AS-AP",
-  "description": "LUCIDACLOUD LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139659,
+  "metadata" : {
+    "handle" : "LUCID-AS-AP",
+    "description" : "LUCIDACLOUD LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.38.250.0/23",
       "38.55.192.0/22",
       "38.55.198.0/23",
@@ -23,7 +26,7 @@
       "149.104.24.0/21",
       "193.134.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:7880::/48"
     ]
   }

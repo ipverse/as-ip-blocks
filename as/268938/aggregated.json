@@ -1,12 +1,15 @@
 {
-  "asn": 268938,
-  "handle": "GTEC-FIBRA",
-  "description": "GTEC FIBRA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268938,
+  "metadata" : {
+    "handle" : "GTEC-FIBRA",
+    "description" : "GTEC FIBRA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.174.10.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5ce8::/32"
     ]
   }

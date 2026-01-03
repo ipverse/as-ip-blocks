@@ -1,9 +1,12 @@
 {
-  "asn": 3136,
-  "handle": "STATE-OF-WISCONSIN-AS1",
-  "description": "State of WI Dept. of Administration",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3136,
+  "metadata" : {
+    "handle" : "STATE-OF-WISCONSIN-AS1",
+    "description" : "State of WI Dept. of Administration",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.47.0.0/16",
       "159.158.0.0/16",
       "165.189.0.0/16",
@@ -16,7 +19,7 @@
       "198.150.110.0/24",
       "198.150.235.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:8840::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 63293,
-  "handle": "FACEBOOK-OFFNET",
-  "description": "Facebook Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63293,
+  "metadata" : {
+    "handle" : "FACEBOOK-OFFNET",
+    "description" : "Facebook Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.132.112.0/24",
       "102.132.114.0/23",
       "102.132.116.0/23",
@@ -44,7 +47,7 @@
       "157.240.182.0/23",
       "157.240.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:2887:ff00::/48",
       "2a03:2887:ff02::/48",
       "2a03:2887:ff04::/46",

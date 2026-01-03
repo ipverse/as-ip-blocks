@@ -1,13 +1,16 @@
 {
-  "asn": 133817,
-  "handle": "INTIDATA-AS-ID",
-  "description": "PT Inti Data Telematika",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133817,
+  "metadata" : {
+    "handle" : "INTIDATA-AS-ID",
+    "description" : "PT Inti Data Telematika",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.53.76.0/22",
       "103.187.214.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:5580::/32"
     ]
   }

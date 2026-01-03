@@ -1,9 +1,12 @@
 {
-  "asn": 45700,
-  "handle": "IDNIC-STARLINK-AS-ID",
-  "description": "PT Starlink Services Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45700,
+  "metadata" : {
+    "handle" : "IDNIC-STARLINK-AS-ID",
+    "description" : "PT Starlink Services Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.131.248.0/23",
       "27.131.251.0/24",
       "103.228.240.0/22",
@@ -13,7 +16,7 @@
       "202.65.224.0/20",
       "202.125.100.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:e320::/39",
       "2401:e320:400::/39",
       "2401:e320:c00::/38"

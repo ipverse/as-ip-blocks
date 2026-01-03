@@ -1,13 +1,16 @@
 {
-  "asn": 213893,
-  "handle": "IPTR-AS",
-  "description": "IPTransit Business LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213893,
+  "metadata" : {
+    "handle" : "IPTR-AS",
+    "description" : "IPTransit Business LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.110.62.0/24",
       "91.196.160.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:d940:1b::/48"
     ]
   }

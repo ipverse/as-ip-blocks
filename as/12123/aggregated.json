@@ -1,11 +1,14 @@
 {
-  "asn": 12123,
-  "handle": "SPOKANE-TRANSIT-01",
-  "description": "Spokane Transit Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12123,
+  "metadata" : {
+    "handle" : "SPOKANE-TRANSIT-01",
+    "description" : "Spokane Transit Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.239.6.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

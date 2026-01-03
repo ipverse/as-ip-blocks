@@ -1,9 +1,12 @@
 {
-  "asn": 46639,
-  "handle": "HUGHES-TELEMATICS",
-  "description": "Verizon Business",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46639,
+  "metadata" : {
+    "handle" : "HUGHES-TELEMATICS",
+    "description" : "Verizon Business",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.17.66.0/24",
       "8.38.73.0/24",
       "8.42.219.0/24",
@@ -12,7 +15,7 @@
       "65.205.158.0/24",
       "65.212.67.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:40f1::/48",
       "2600:40f1:101::/48"
     ]

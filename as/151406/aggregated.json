@@ -1,13 +1,16 @@
 {
-  "asn": 151406,
-  "handle": "YEAHHOSTSDNBHD-AS-AP",
-  "description": "Yeahhost Sdn Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151406,
+  "metadata" : {
+    "handle" : "YEAHHOSTSDNBHD-AS-AP",
+    "description" : "Yeahhost Sdn Bhd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.224.93.0/24",
       "115.187.22.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:9540::/48"
     ]
   }

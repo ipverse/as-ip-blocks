@@ -1,13 +1,16 @@
 {
-  "asn": 45945,
-  "handle": "WEBSERVER-MY",
-  "description": "Acme Commerce Sdn Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45945,
+  "metadata" : {
+    "handle" : "WEBSERVER-MY",
+    "description" : "Acme Commerce Sdn Bhd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.245.125.0/24",
       "103.1.148.0/22",
       "124.150.140.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

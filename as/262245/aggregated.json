@@ -1,12 +1,15 @@
 {
-  "asn": 262245,
-  "handle": "UNIVERSIDAD-LA-SABANA",
-  "description": "UNIVERSIDAD DE LA SABANA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262245,
+  "metadata" : {
+    "handle" : "UNIVERSIDAD-LA-SABANA",
+    "description" : "UNIVERSIDAD DE LA SABANA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "201.221.122.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:0:370::/48"
     ]
   }

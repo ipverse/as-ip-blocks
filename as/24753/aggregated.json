@@ -1,9 +1,12 @@
 {
-  "asn": 24753,
-  "handle": "GCE-NET",
-  "description": "Globecomm Europe B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24753,
+  "metadata" : {
+    "handle" : "GCE-NET",
+    "description" : "Globecomm Europe B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.32.32.0/24",
       "81.85.52.0/22",
       "81.85.96.0/22",
@@ -13,6 +16,6 @@
       "213.187.139.0/24",
       "213.187.152.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

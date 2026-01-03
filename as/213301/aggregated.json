@@ -1,9 +1,12 @@
 {
-  "asn": 213301,
-  "handle": "SURVIVOR",
-  "description": "SURVIVOR Bilisim Teknolojileri A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213301,
+  "metadata" : {
+    "handle" : "SURVIVOR",
+    "description" : "SURVIVOR Bilisim Teknolojileri A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.255.57.0/24",
       "5.255.61.0/24",
       "5.255.62.0/23",
@@ -27,6 +30,6 @@
       "185.174.68.0/24",
       "185.252.210.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

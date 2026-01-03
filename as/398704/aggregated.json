@@ -1,9 +1,12 @@
 {
-  "asn": 398704,
-  "handle": "STACKSINC-BACKBONE",
-  "description": "STACKS INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398704,
+  "metadata" : {
+    "handle" : "STACKSINC-BACKBONE",
+    "description" : "STACKS INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.46.72.0/21",
       "38.79.16.0/21",
       "38.92.68.0/22",
@@ -66,7 +69,7 @@
       "205.198.112.0/20",
       "216.239.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:9a40::/48",
       "2405:5240::/38",
       "2405:5240:800::/38",

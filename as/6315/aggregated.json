@@ -1,9 +1,12 @@
 {
-  "asn": 6315,
-  "handle": "XMISSION",
-  "description": "XMission L.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6315,
+  "metadata" : {
+    "handle" : "XMISSION",
+    "description" : "XMission L.C.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.40.48.0/24",
       "68.69.160.0/20",
       "102.129.218.0/23",
@@ -27,7 +30,7 @@
       "204.228.128.0/19",
       "207.135.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:6680:31::/48",
       "2606:6680:32::/48",
       "2607:24c0::/32",

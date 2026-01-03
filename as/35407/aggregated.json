@@ -1,14 +1,17 @@
 {
-  "asn": 35407,
-  "handle": "SMN-AS",
-  "description": "Santa Monica Networks SIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35407,
+  "metadata" : {
+    "handle" : "SMN-AS",
+    "description" : "Santa Monica Networks SIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.233.251.0/24",
       "185.159.110.0/24",
       "193.138.30.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:d8::/48",
       "2001:678:b90::/48"
     ]

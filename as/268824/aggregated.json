@@ -1,13 +1,16 @@
 {
-  "asn": 268824,
-  "handle": "CONNECTMAX-TELECOM",
-  "description": "CONNECTMAX TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268824,
+  "metadata" : {
+    "handle" : "CONNECTMAX-TELECOM",
+    "description" : "CONNECTMAX TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.172.200.0/22",
       "179.107.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5b30::/32"
     ]
   }

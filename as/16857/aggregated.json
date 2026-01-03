@@ -1,9 +1,12 @@
 {
-  "asn": 16857,
-  "handle": "CENTEX",
-  "description": "Central Texas Telecommunications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16857,
+  "metadata" : {
+    "handle" : "CENTEX",
+    "description" : "Central Texas Telecommunications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.208.96.0/24",
       "66.208.99.0/24",
       "66.208.102.0/23",
@@ -20,6 +23,6 @@
       "209.55.72.0/21",
       "209.55.96.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

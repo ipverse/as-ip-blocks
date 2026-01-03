@@ -1,9 +1,12 @@
 {
-  "asn": 24675,
-  "handle": "LGCSB-AS",
-  "description": "Irish Government",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24675,
+  "metadata" : {
+    "handle" : "LGCSB-AS",
+    "description" : "Irish Government",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.178.1.0/24",
       "193.178.2.0/23",
       "193.178.4.0/22",
@@ -13,6 +16,6 @@
       "193.178.29.0/24",
       "193.178.30.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

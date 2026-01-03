@@ -1,13 +1,16 @@
 {
-  "asn": 43120,
-  "handle": "LANET-VN",
-  "description": "Lanet Network Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43120,
+  "metadata" : {
+    "handle" : "LANET-VN",
+    "description" : "Lanet Network Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.111.87.0/24",
       "95.215.216.0/22",
       "176.39.32.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

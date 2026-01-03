@@ -1,9 +1,12 @@
 {
-  "asn": 5690,
-  "handle": "VIANET-INC-5690",
-  "description": "Vianet Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5690,
+  "metadata" : {
+    "handle" : "VIANET-INC-5690",
+    "description" : "Vianet Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.138.96.0/19",
       "66.159.112.0/20",
       "66.185.192.0/19",
@@ -26,7 +29,7 @@
       "206.130.64.0/24",
       "209.91.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:8300::/28"
     ]
   }

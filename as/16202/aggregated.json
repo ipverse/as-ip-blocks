@@ -1,9 +1,12 @@
 {
-  "asn": 16202,
-  "handle": "TC-PRIMACOM",
-  "description": "Tele Columbus AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16202,
+  "metadata" : {
+    "handle" : "TC-PRIMACOM",
+    "description" : "Tele Columbus AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.64.128.0/17",
       "83.221.64.0/19",
       "89.186.128.0/19",
@@ -12,7 +15,7 @@
       "185.44.148.0/22",
       "217.68.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:c1a0::/32",
       "2a02:2454:8000::/33",
       "2a02:2457:100::/40"

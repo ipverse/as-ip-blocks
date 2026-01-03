@@ -1,13 +1,16 @@
 {
-  "asn": 24236,
-  "handle": "YAHOO-BANGALORE-AS-AP",
-  "description": "Yahoo IS-NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24236,
+  "metadata" : {
+    "handle" : "YAHOO-BANGALORE-AS-AP",
+    "description" : "Yahoo IS-NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.46.19.0/24",
       "203.83.248.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:8600:efae::/48"
     ]
   }

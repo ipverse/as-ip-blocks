@@ -1,13 +1,16 @@
 {
-  "asn": 29606,
-  "handle": "BORWOOD-AS",
-  "description": "Borwood Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29606,
+  "metadata" : {
+    "handle" : "BORWOOD-AS",
+    "description" : "Borwood Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "169.239.184.0/22",
       "217.78.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:4f40::/32"
     ]
   }

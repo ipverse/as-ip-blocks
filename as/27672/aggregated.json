@@ -1,9 +1,12 @@
 {
-  "asn": 27672,
-  "handle": "SERVICIO-EQUIPO-TELEFONIA",
-  "description": "SERVICIO Y EQUIPO EN TELEFONÍA INTERNET Y TV S.A. DE C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27672,
+  "metadata" : {
+    "handle" : "SERVICIO-EQUIPO-TELEFONIA",
+    "description" : "SERVICIO Y EQUIPO EN TELEFONÍA INTERNET Y TV S.A. DE C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.224.176.0/21",
       "177.240.128.0/19",
       "187.244.25.0/24",
@@ -16,7 +19,7 @@
       "200.77.138.0/23",
       "200.77.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:260:1009::/48",
       "2806:266:300::/40",
       "2806:266:400::/40",

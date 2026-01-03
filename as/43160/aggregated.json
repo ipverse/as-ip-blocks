@@ -1,9 +1,12 @@
 {
-  "asn": 43160,
-  "handle": "ES-MDC-DATACENTER",
-  "description": "AVATEL TELECOM SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43160,
+  "metadata" : {
+    "handle" : "ES-MDC-DATACENTER",
+    "description" : "AVATEL TELECOM SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.158.80.0/23",
       "5.158.83.0/24",
       "37.235.32.0/21",
@@ -12,7 +15,7 @@
       "149.100.19.0/24",
       "154.54.220.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:b5c0::/32"
     ]
   }

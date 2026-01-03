@@ -1,11 +1,14 @@
 {
-  "asn": 141744,
-  "handle": "CPA-AS-AP",
-  "description": "CPA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141744,
+  "metadata" : {
+    "handle" : "CPA-AS-AP",
+    "description" : "CPA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.163.96.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

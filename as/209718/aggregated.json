@@ -1,10 +1,13 @@
 {
-  "asn": 209718,
-  "handle": "REDPANDA-DNS-AS",
-  "description": "Jori Vanneste",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 209718,
+  "metadata" : {
+    "handle" : "REDPANDA-DNS-AS",
+    "description" : "Jori Vanneste",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:678:c44::/48",
       "2001:678:c6c::/48",
       "2001:67c:e7c::/48",

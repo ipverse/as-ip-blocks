@@ -1,9 +1,12 @@
 {
-  "asn": 393737,
-  "handle": "PLAINSINTERNET",
-  "description": "Cpuonsite",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393737,
+  "metadata" : {
+    "handle" : "PLAINSINTERNET",
+    "description" : "Cpuonsite",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.152.216.0/24",
       "23.174.192.0/24",
       "38.65.84.0/22",
@@ -18,6 +21,6 @@
       "139.64.252.0/22",
       "165.140.28.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

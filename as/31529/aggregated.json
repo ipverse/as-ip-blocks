@@ -1,16 +1,19 @@
 {
-  "asn": 31529,
-  "handle": "DENIC-ANYCAST-AS",
-  "description": "DENIC eG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31529,
+  "metadata" : {
+    "handle" : "DENIC-ANYCAST-AS",
+    "description" : "DENIC eG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.151.141.0/24",
       "185.151.142.0/24",
       "194.0.0.0/24",
       "194.0.11.0/24",
       "194.246.96.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:2::/48",
       "2001:678:e::/48",
       "2a02:568:fe00::/48",

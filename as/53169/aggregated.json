@@ -1,15 +1,18 @@
 {
-  "asn": 53169,
-  "handle": "TCHE-TURBO-PROVEDOR",
-  "description": "Tche Turbo Provedor de Internet LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53169,
+  "metadata" : {
+    "handle" : "TCHE-TURBO-PROVEDOR",
+    "description" : "Tche Turbo Provedor de Internet LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.239.68.0/22",
       "177.190.112.0/20",
       "186.209.128.0/20",
       "187.108.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1684::/32"
     ]
   }

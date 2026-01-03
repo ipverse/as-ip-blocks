@@ -1,13 +1,16 @@
 {
-  "asn": 7774,
-  "handle": "ALASKA",
-  "description": "University of Alaska",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7774,
+  "metadata" : {
+    "handle" : "ALASKA",
+    "description" : "University of Alaska",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.229.0.0/16",
       "199.165.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f318::/32"
     ]
   }

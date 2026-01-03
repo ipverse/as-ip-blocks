@@ -1,15 +1,18 @@
 {
-  "asn": 29420,
-  "handle": "NLINE-AS",
-  "description": "JSC Promtelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29420,
+  "metadata" : {
+    "handle" : "NLINE-AS",
+    "description" : "JSC Promtelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.251.192.0/24",
       "213.251.194.0/24",
       "213.251.196.0/23",
       "213.251.199.0/24",
       "213.251.224.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 267800,
-  "handle": "TESAM-PERU",
-  "description": "TE.SA.M. PERU S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267800,
+  "metadata" : {
+    "handle" : "TESAM-PERU",
+    "description" : "TE.SA.M. PERU S.A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.172.8.0/24",
       "45.172.10.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

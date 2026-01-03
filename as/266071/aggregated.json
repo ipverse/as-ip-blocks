@@ -1,12 +1,15 @@
 {
-  "asn": 266071,
-  "handle": "R3-INTERNET",
-  "description": "R3 INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266071,
+  "metadata" : {
+    "handle" : "R3-INTERNET",
+    "description" : "R3 INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.4.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3a1c::/32"
     ]
   }

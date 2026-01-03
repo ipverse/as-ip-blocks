@@ -1,9 +1,12 @@
 {
-  "asn": 32719,
-  "handle": "BEPC-AS",
-  "description": "Basin Electric Power Coop",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32719,
+  "metadata" : {
+    "handle" : "BEPC-AS",
+    "description" : "Basin Electric Power Coop",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.255.104.0/21",
       "208.85.224.0/21",
       "209.62.224.0/23",
@@ -17,7 +20,7 @@
       "209.62.248.0/21",
       "216.235.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:e600::/32"
     ]
   }

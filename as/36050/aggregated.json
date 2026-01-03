@@ -1,14 +1,17 @@
 {
-  "asn": 36050,
-  "handle": "FLOKY",
-  "description": "Fifth Third Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36050,
+  "metadata" : {
+    "handle" : "FLOKY",
+    "description" : "Fifth Third Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.152.100.0/24",
       "205.243.79.0/24",
       "216.82.176.0/20",
       "216.131.48.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

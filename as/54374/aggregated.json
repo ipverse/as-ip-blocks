@@ -1,9 +1,12 @@
 {
-  "asn": 54374,
-  "handle": "WMTA",
-  "description": "WMTel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54374,
+  "metadata" : {
+    "handle" : "WMTA",
+    "description" : "WMTel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.55.151.0/24",
       "67.55.245.0/24",
       "69.63.17.0/24",
@@ -17,6 +20,6 @@
       "216.51.134.0/24",
       "216.248.104.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

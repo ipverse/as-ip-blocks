@@ -1,9 +1,12 @@
 {
-  "asn": 19685,
-  "handle": "HCIS-1",
-  "description": "CSI Telecom Group Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19685,
+  "metadata" : {
+    "handle" : "HCIS-1",
+    "description" : "CSI Telecom Group Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.245.224.0/23",
       "63.245.227.0/24",
       "63.245.228.0/23",
@@ -24,6 +27,6 @@
       "74.207.31.0/24",
       "204.107.173.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

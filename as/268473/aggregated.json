@@ -1,12 +1,15 @@
 {
-  "asn": 268473,
-  "handle": "LINKSUL-INTERNET",
-  "description": "LinkSul internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268473,
+  "metadata" : {
+    "handle" : "LINKSUL-INTERNET",
+    "description" : "LinkSul internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.161.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:51bc::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 39891,
-  "handle": "ALJAWWALSTC-AS",
-  "description": "Saudi Telecom Company JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39891,
+  "metadata" : {
+    "handle" : "ALJAWWALSTC-AS",
+    "description" : "Saudi Telecom Company JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.90.64.0/18",
       "2.90.128.0/17",
       "5.41.0.0/16",
@@ -77,7 +80,7 @@
       "212.215.232.0/22",
       "212.215.238.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:16a2:c000::/41",
       "2001:16a2:c080::/42",
       "2001:16a2:c0c0::/43",

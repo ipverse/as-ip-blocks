@@ -1,12 +1,15 @@
 {
-  "asn": 35302,
-  "handle": "LATVENERGO-AS-2",
-  "description": "AS Latvenergo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35302,
+  "metadata" : {
+    "handle" : "LATVENERGO-AS-2",
+    "description" : "AS Latvenergo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.15.230.0/24",
       "95.131.118.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

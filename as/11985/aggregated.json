@@ -1,14 +1,17 @@
 {
-  "asn": 11985,
-  "handle": "ASN-SSA",
-  "description": "Social Security Administration",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11985,
+  "metadata" : {
+    "handle" : "ASN-SSA",
+    "description" : "Social Security Administration",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.200.0.0/18",
       "137.200.228.0/24",
       "199.173.224.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1930:c00::/38",
       "2001:1930:3c10::/48"
     ]

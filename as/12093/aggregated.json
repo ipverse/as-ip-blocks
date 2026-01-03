@@ -1,13 +1,16 @@
 {
-  "asn": 12093,
-  "handle": "UWATERLOO",
-  "description": "University of Waterloo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12093,
+  "metadata" : {
+    "handle" : "UWATERLOO",
+    "description" : "University of Waterloo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.97.0.0/16",
       "198.96.155.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:101:f000::/47"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 36483,
-  "handle": "GOSSAMERTHREADS",
-  "description": "Gossamer Threads Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36483,
+  "metadata" : {
+    "handle" : "GOSSAMERTHREADS",
+    "description" : "Gossamer Threads Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "172.255.48.0/22",
       "172.255.52.0/23",
       "172.255.54.0/24",
@@ -11,6 +14,6 @@
       "204.187.12.0/22",
       "208.70.244.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

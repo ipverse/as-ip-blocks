@@ -1,13 +1,16 @@
 {
-  "asn": 401291,
-  "handle": "ROBINSONHSS",
-  "description": "RobinsonHSS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401291,
+  "metadata" : {
+    "handle" : "ROBINSONHSS",
+    "description" : "RobinsonHSS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.186.136.0/24",
       "69.194.152.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f877::/40"
     ]
   }

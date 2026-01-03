@@ -1,12 +1,15 @@
 {
-  "asn": 199364,
-  "handle": "RAX-AS",
-  "description": "RAX.BG EOOD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199364,
+  "metadata" : {
+    "handle" : "RAX-AS",
+    "description" : "RAX.BG EOOD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.31.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:af60::/32",
       "2a06:7340:1782::/48",
       "2a06:7343:1f2c::/48",

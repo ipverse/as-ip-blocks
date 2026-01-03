@@ -1,13 +1,16 @@
 {
-  "asn": 205119,
-  "handle": "TELEKS-MK",
-  "description": "TELEKS DOOEL Skopje",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205119,
+  "metadata" : {
+    "handle" : "TELEKS-MK",
+    "description" : "TELEKS DOOEL Skopje",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.225.28.0/22",
       "185.233.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:4500::/29",
       "2a0d:6280::/29",
       "2a0d:6880::/29"

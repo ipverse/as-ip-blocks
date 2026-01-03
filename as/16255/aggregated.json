@@ -1,11 +1,14 @@
 {
-  "asn": 16255,
-  "handle": "IRIDIUM-AS",
-  "description": "IridiumProvider OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16255,
+  "metadata" : {
+    "handle" : "IRIDIUM-AS",
+    "description" : "IridiumProvider OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.232.29.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

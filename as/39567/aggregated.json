@@ -1,13 +1,16 @@
 {
-  "asn": 39567,
-  "handle": "MD6-FR",
-  "description": "MD6 Consulting SASU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39567,
+  "metadata" : {
+    "handle" : "MD6-FR",
+    "description" : "MD6 Consulting SASU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.65.28.0/22",
       "185.231.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:18e0::/32"
     ]
   }

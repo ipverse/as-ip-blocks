@@ -1,12 +1,15 @@
 {
-  "asn": 147069,
-  "handle": "CORE-AS2-AP",
-  "description": "Coretel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147069,
+  "metadata" : {
+    "handle" : "CORE-AS2-AP",
+    "description" : "Coretel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.83.56.0/24",
       "103.172.103.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

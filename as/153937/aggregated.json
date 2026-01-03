@@ -1,12 +1,15 @@
 {
-  "asn": 153937,
-  "handle": "IDNIC-RDP-AS-ID",
-  "description": "PT Ring Data Prima",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153937,
+  "metadata" : {
+    "handle" : "IDNIC-RDP-AS-ID",
+    "description" : "PT Ring Data Prima",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.99.71.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:8cc0::/48"
     ]
   }

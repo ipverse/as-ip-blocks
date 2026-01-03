@@ -1,12 +1,15 @@
 {
-  "asn": 36786,
-  "handle": "UNIVERSITE-LAVAL",
-  "description": "Universite Laval",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36786,
+  "metadata" : {
+    "handle" : "UNIVERSITE-LAVAL",
+    "description" : "Universite Laval",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.203.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:510:130::/48",
       "2620:0:1af0::/48"
     ]

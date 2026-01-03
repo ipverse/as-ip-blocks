@@ -1,9 +1,12 @@
 {
-  "asn": 9970,
-  "handle": "KUT-AS",
-  "description": "Korea University of Technology and Education",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9970,
+  "metadata" : {
+    "handle" : "KUT-AS",
+    "description" : "Korea University of Technology and Education",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.255.220.0/23",
       "210.119.188.0/22",
       "210.181.142.0/23",
@@ -14,6 +17,6 @@
       "218.150.182.0/23",
       "220.68.64.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

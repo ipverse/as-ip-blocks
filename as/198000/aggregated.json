@@ -1,12 +1,15 @@
 {
-  "asn": 198000,
-  "handle": "SMPOLNOC",
-  "description": "Spoldzielnia Mieszkaniowa Polnoc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198000,
+  "metadata" : {
+    "handle" : "SMPOLNOC",
+    "description" : "Spoldzielnia Mieszkaniowa Polnoc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.48.168.0/22",
       "212.96.224.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

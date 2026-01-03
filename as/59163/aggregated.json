@@ -1,12 +1,15 @@
 {
-  "asn": 59163,
-  "handle": "GLAU-AS-IN",
-  "description": "GLA University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59163,
+  "metadata" : {
+    "handle" : "GLAU-AS-IN",
+    "description" : "GLA University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.127.224.0/22",
       "103.196.212.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

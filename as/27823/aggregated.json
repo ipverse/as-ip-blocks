@@ -1,9 +1,12 @@
 {
-  "asn": 27823,
-  "handle": "DATTATECCOM",
-  "description": "Dattatec.com",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27823,
+  "metadata" : {
+    "handle" : "DATTATECCOM",
+    "description" : "Dattatec.com",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.97.32.0/20",
       "138.36.236.0/22",
       "138.219.40.0/22",
@@ -18,7 +21,7 @@
       "200.45.208.0/24",
       "200.58.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:6c0::/32"
     ]
   }

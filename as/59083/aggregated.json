@@ -1,16 +1,19 @@
 {
-  "asn": 59083,
-  "handle": "KHTECH",
-  "description": "Shanghai Kuanhui Tech. Co. ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59083,
+  "metadata" : {
+    "handle" : "KHTECH",
+    "description" : "Shanghai Kuanhui Tech. Co. ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.254.153.0/24",
       "43.254.154.0/23",
       "59.153.168.0/24",
       "103.10.0.0/22",
       "103.24.117.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:1b80::/48"
     ]
   }

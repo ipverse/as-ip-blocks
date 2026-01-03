@@ -1,13 +1,16 @@
 {
-  "asn": 30664,
-  "handle": "ELEMENT",
-  "description": "Element Vehicle Management Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30664,
+  "metadata" : {
+    "handle" : "ELEMENT",
+    "description" : "Element Vehicle Management Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.175.50.0/23",
       "198.175.52.0/23",
       "198.175.54.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

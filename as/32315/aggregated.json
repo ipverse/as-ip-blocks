@@ -1,12 +1,15 @@
 {
-  "asn": 32315,
-  "handle": "WJBTN-AS",
-  "description": "The Western James Bay Telecom Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32315,
+  "metadata" : {
+    "handle" : "WJBTN-AS",
+    "description" : "The Western James Bay Telecom Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.186.80.0/24",
       "74.120.52.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

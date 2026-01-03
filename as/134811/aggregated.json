@@ -1,12 +1,15 @@
 {
-  "asn": 134811,
-  "handle": "TDMOF-AS-AP",
-  "description": "Treasury Department",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134811,
+  "metadata" : {
+    "handle" : "TDMOF-AS-AP",
+    "description" : "Treasury Department",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.199.170.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:7c00::/48"
     ]
   }

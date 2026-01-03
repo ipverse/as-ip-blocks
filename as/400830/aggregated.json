@@ -1,14 +1,17 @@
 {
-  "asn": 400830,
-  "handle": "BAYFIELD-WIRELESS",
-  "description": "Bayfield Wireless",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400830,
+  "metadata" : {
+    "handle" : "BAYFIELD-WIRELESS",
+    "description" : "Bayfield Wireless",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.150.96.0/24",
       "74.116.208.0/22",
       "136.175.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:f9c0:2::/47",
       "2604:f9c0:4::/46",
       "2604:f9c0:8::/47",

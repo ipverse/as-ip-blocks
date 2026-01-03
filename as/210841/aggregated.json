@@ -1,9 +1,12 @@
 {
-  "asn": 210841,
-  "handle": "SURE-STHELENA",
-  "description": "Sure South Atlantic Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210841,
+  "metadata" : {
+    "handle" : "SURE-STHELENA",
+    "description" : "Sure South Atlantic Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.73.219.0/24",
       "80.73.220.0/22",
       "91.232.129.0/24",
@@ -11,6 +14,6 @@
       "91.232.208.0/24",
       "91.232.235.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

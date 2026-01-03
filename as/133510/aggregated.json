@@ -1,14 +1,17 @@
 {
-  "asn": 133510,
-  "handle": "IBPL-AS-AP",
-  "description": "Infinet Broadband Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133510,
+  "metadata" : {
+    "handle" : "IBPL-AS-AP",
+    "description" : "Infinet Broadband Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.139.96.0/23",
       "103.194.124.0/22",
       "203.8.10.0/24",
       "203.31.118.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

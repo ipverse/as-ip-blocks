@@ -1,9 +1,12 @@
 {
-  "asn": 134240,
-  "handle": "SBN-ISP-AS-AP",
-  "description": "Super Broadband Network Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134240,
+  "metadata" : {
+    "handle" : "SBN-ISP-AS-AP",
+    "description" : "Super Broadband Network Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.254.4.0/24",
       "27.254.11.0/24",
       "27.254.15.0/24",
@@ -24,7 +27,7 @@
       "110.49.141.0/24",
       "110.49.142.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:9800:d001::/48",
       "2405:9800:d200::/48"
     ]

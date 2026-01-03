@@ -1,9 +1,12 @@
 {
-  "asn": 62874,
-  "handle": "WEB2OBJECTS",
-  "description": "Web2Objects LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62874,
+  "metadata" : {
+    "handle" : "WEB2OBJECTS",
+    "description" : "Web2Objects LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.41.128.0/22",
       "45.41.140.0/22",
       "45.56.132.0/22",
@@ -45,7 +48,7 @@
       "167.160.48.0/22",
       "204.225.218.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ffb7:594::/48",
       "2602:ffb7:5a0::/46",
       "2602:ffb7:d00::/40",

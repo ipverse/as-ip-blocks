@@ -1,9 +1,12 @@
 {
-  "asn": 27889,
-  "handle": "TELECOMUNICACIONES-MOVILNET",
-  "description": "Telecomunicaciones MOVILNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27889,
+  "metadata" : {
+    "handle" : "TELECOMUNICACIONES-MOVILNET",
+    "description" : "Telecomunicaciones MOVILNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.17.0.0/16",
       "181.18.0.0/15",
       "181.34.0.0/15",
@@ -28,7 +31,7 @@
       "201.238.38.0/24",
       "201.238.62.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:500:a::/47",
       "2800:500:e::/47",
       "2800:500:10::/48"

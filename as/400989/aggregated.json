@@ -1,12 +1,15 @@
 {
-  "asn": 400989,
-  "handle": "YDIO",
-  "description": "Ydio LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400989,
+  "metadata" : {
+    "handle" : "YDIO",
+    "description" : "Ydio LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.111.83.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:a940:b000::/38",
       "2607:a940:b400::/39",
       "2607:a940:b600::/40"

@@ -1,9 +1,12 @@
 {
-  "asn": 12660,
-  "handle": "SHARIF-EDU-NET",
-  "description": "Sharif University Of Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12660,
+  "metadata" : {
+    "handle" : "SHARIF-EDU-NET",
+    "description" : "Sharif University Of Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.189.80.0/22",
       "81.31.160.0/19",
       "94.184.128.0/21",
@@ -12,6 +15,6 @@
       "194.225.80.0/21",
       "213.233.160.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

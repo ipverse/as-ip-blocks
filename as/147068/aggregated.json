@@ -1,12 +1,15 @@
 {
-  "asn": 147068,
-  "handle": "NRSP1-AS-AP",
-  "description": "National Rural Support Programme",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147068,
+  "metadata" : {
+    "handle" : "NRSP1-AS-AP",
+    "description" : "National Rural Support Programme",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.142.126.0/24",
       "103.172.140.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

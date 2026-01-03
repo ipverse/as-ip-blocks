@@ -1,9 +1,12 @@
 {
-  "asn": 8447,
-  "handle": "A1TELEKOM-AT",
-  "description": "A1 Telekom Austria AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8447,
+  "metadata" : {
+    "handle" : "A1TELEKOM-AT",
+    "description" : "A1 Telekom Austria AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.132.35.0/24",
       "46.74.0.0/15",
       "46.206.0.0/15",
@@ -102,7 +105,7 @@
       "213.240.64.0/18",
       "217.149.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:e90::/48",
       "2001:67c:5fc::/48",
       "2001:67c:2604::/48",

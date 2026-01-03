@@ -1,9 +1,12 @@
 {
-  "asn": 17802,
-  "handle": "MACQUARIE-BANK-AS-AP",
-  "description": "Macquarie Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17802,
+  "metadata" : {
+    "handle" : "MACQUARIE-BANK-AS-AP",
+    "description" : "Macquarie Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.42.0/24",
       "202.43.128.0/22",
       "202.43.138.0/23",
@@ -13,6 +16,6 @@
       "203.210.76.0/23",
       "203.210.79.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

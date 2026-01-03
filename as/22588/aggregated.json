@@ -1,12 +1,15 @@
 {
-  "asn": 22588,
-  "handle": "DOMIN-AS",
-  "description": "DOMINION ENTERPRISES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22588,
+  "metadata" : {
+    "handle" : "DOMIN-AS",
+    "description" : "DOMINION ENTERPRISES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.154.43.0/24",
       "204.154.44.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

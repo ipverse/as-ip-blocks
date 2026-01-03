@@ -1,9 +1,12 @@
 {
-  "asn": 45184,
-  "handle": "DEN-ISP-AS-IN-AP",
-  "description": "DEN Networks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45184,
+  "metadata" : {
+    "handle" : "DEN-ISP-AS-IN-AP",
+    "description" : "DEN Networks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.121.28.0/22",
       "103.61.112.0/22",
       "103.81.182.0/24",
@@ -33,7 +36,7 @@
       "120.89.79.0/24",
       "150.129.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:4300:1::/48",
       "2401:4300:2::/47",
       "2401:4300:4::/47",

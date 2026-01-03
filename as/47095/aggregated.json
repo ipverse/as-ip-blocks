@@ -1,9 +1,12 @@
 {
-  "asn": 47095,
-  "handle": "MURRAY-ELECTRIC-SYSTEM",
-  "description": "Murray Electric System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47095,
+  "metadata" : {
+    "handle" : "MURRAY-ELECTRIC-SYSTEM",
+    "description" : "Murray Electric System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.149.18.0/23",
       "63.149.60.0/23",
       "63.150.210.0/23",
@@ -17,6 +20,6 @@
       "162.220.176.0/22",
       "208.44.252.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

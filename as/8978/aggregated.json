@@ -1,13 +1,16 @@
 {
-  "asn": 8978,
-  "handle": "ASN-HOLYSEE",
-  "description": "Holy See - Vatican City State",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8978,
+  "metadata" : {
+    "handle" : "ASN-HOLYSEE",
+    "description" : "Holy See - Vatican City State",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.43.128.0/22",
       "212.77.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:b8::/32"
     ]
   }

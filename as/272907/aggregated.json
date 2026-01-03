@@ -1,12 +1,15 @@
 {
-  "asn": 272907,
-  "handle": "CDMNET-CA",
-  "description": "CDM.NET C.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272907,
+  "metadata" : {
+    "handle" : "CDMNET-CA",
+    "description" : "CDM.NET C.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.255.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:f690::/32"
     ]
   }

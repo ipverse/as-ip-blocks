@@ -1,15 +1,18 @@
 {
-  "asn": 55077,
-  "handle": "LIGHTSPEED-TECHNOLOGIES",
-  "description": "LIGHT SPEED TECHNOLOGIES LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55077,
+  "metadata" : {
+    "handle" : "LIGHTSPEED-TECHNOLOGIES",
+    "description" : "LIGHT SPEED TECHNOLOGIES LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.128.208.0/24",
       "103.25.230.0/24",
       "104.36.4.0/22",
       "198.44.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff31::/36"
     ]
   }

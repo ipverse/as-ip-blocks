@@ -1,12 +1,15 @@
 {
-  "asn": 50161,
-  "handle": "VELES-AS",
-  "description": "LLC VELES ISP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50161,
+  "metadata" : {
+    "handle" : "VELES-AS",
+    "description" : "LLC VELES ISP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.222.168.0/22",
       "195.211.240.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

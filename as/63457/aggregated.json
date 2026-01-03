@@ -1,9 +1,12 @@
 {
-  "asn": 63457,
-  "handle": "EMPIRE-CONNECT",
-  "description": "Liberty Connect",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63457,
+  "metadata" : {
+    "handle" : "EMPIRE-CONNECT",
+    "description" : "Liberty Connect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.219.184.0/22",
       "192.197.122.0/23",
       "199.204.240.0/21",
@@ -17,6 +20,6 @@
       "209.16.168.0/23",
       "209.16.170.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

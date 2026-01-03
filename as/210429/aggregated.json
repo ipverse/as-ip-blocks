@@ -1,9 +1,12 @@
 {
-  "asn": 210429,
-  "handle": "HIZAKURA-NL",
-  "description": "Hizakura B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210429,
+  "metadata" : {
+    "handle" : "HIZAKURA-NL",
+    "description" : "Hizakura B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.133.117.0/24",
       "45.133.118.0/24",
       "45.142.164.0/24",
@@ -11,7 +14,7 @@
       "185.46.68.0/24",
       "194.147.221.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:9080::/32"
     ]
   }

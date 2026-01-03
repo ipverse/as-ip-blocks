@@ -1,14 +1,17 @@
 {
-  "asn": 196922,
-  "handle": "HOFMEIR-AS",
-  "description": "Hofmeir Media GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 196922,
+  "metadata" : {
+    "handle" : "HOFMEIR-AS",
+    "description" : "Hofmeir Media GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.232.184.0/21",
       "178.248.240.0/21",
       "185.115.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1308::/29"
     ]
   }

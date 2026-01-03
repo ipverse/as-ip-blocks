@@ -1,12 +1,15 @@
 {
-  "asn": 212509,
-  "handle": "ON-ISP",
-  "description": "ONENEO GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212509,
+  "metadata" : {
+    "handle" : "ON-ISP",
+    "description" : "ONENEO GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.154.136.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:7a01::/32",
       "2a0e:7a06::/32",
       "2a0e:7a07::/34"

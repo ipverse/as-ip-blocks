@@ -1,12 +1,15 @@
 {
-  "asn": 43601,
-  "handle": "BCC-AS",
-  "description": "JSC BankCenterCredit",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43601,
+  "metadata" : {
+    "handle" : "BCC-AS",
+    "description" : "JSC BankCenterCredit",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.198.63.0/24",
       "195.47.220.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

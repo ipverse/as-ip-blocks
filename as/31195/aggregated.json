@@ -1,9 +1,12 @@
 {
-  "asn": 31195,
-  "handle": "MF-DV-AS",
-  "description": "PJSC MegaFon",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31195,
+  "metadata" : {
+    "handle" : "MF-DV-AS",
+    "description" : "PJSC MegaFon",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.173.132.0/22",
       "31.173.143.0/24",
       "31.173.225.0/24",
@@ -44,7 +47,7 @@
       "213.138.221.0/24",
       "217.8.86.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:d006::/38",
       "2a03:d006:400::/39",
       "2a03:d006:600::/40"

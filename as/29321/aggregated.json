@@ -1,16 +1,19 @@
 {
-  "asn": 29321,
-  "handle": "CENTRONETAS",
-  "description": "O2 Czech Republic a.s",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29321,
+  "metadata" : {
+    "handle" : "CENTRONETAS",
+    "description" : "O2 Czech Republic a.s.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.243.96.0/20",
       "94.143.168.0/21",
       "109.239.64.0/20",
       "194.59.240.0/22",
       "217.195.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:b20::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 22645,
-  "handle": "LEARN-COMMODITY",
-  "description": "LEARN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22645,
+  "metadata" : {
+    "handle" : "LEARN-COMMODITY",
+    "description" : "LEARN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.21.240.0/20",
       "64.92.176.0/20",
       "74.200.128.0/18",
@@ -11,7 +14,7 @@
       "208.76.224.0/22",
       "208.79.131.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f928::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 33522,
-  "handle": "CPANEL-INC",
-  "description": "cPanel LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33522,
+  "metadata" : {
+    "handle" : "CPANEL-INC",
+    "description" : "cPanel LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "184.94.192.0/20",
       "208.74.120.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:28a2::/48",
       "2620:0:28a4::/48",
       "2620:0:28a8::/48"

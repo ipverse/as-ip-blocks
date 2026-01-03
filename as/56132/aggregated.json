@@ -1,9 +1,12 @@
 {
-  "asn": 56132,
-  "handle": "MONASHUNI-AU-AS-AP",
-  "description": "Monash University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56132,
+  "metadata" : {
+    "handle" : "MONASHUNI-AU-AS-AP",
+    "description" : "Monash University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.246.232.0/22",
       "49.127.0.0/16",
       "59.191.208.0/20",
@@ -15,7 +18,7 @@
       "203.6.141.0/24",
       "203.23.136.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:2400::/32"
     ]
   }

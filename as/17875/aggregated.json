@@ -1,11 +1,14 @@
 {
-  "asn": 17875,
-  "handle": "ECBANK-AS",
-  "description": "ec-bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17875,
+  "metadata" : {
+    "handle" : "ECBANK-AS",
+    "description" : "ec-bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "211.183.67.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

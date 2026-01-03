@@ -1,15 +1,18 @@
 {
-  "asn": 23756,
-  "handle": "PADINET-AS-ID",
-  "description": "PADINET - Padi Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23756,
+  "metadata" : {
+    "handle" : "PADINET-AS-ID",
+    "description" : "PADINET - Padi Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.242.204.0/22",
       "117.102.224.0/19",
       "150.107.132.0/22",
       "202.6.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:6200::/32"
     ]
   }

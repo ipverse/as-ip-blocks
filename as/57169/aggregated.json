@@ -1,9 +1,12 @@
 {
-  "asn": 57169,
-  "handle": "EDIS-AS-EU",
-  "description": "EDIS GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57169,
+  "metadata" : {
+    "handle" : "EDIS-AS-EU",
+    "description" : "EDIS GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.180.114.0/24",
       "5.187.33.0/24",
       "37.235.48.0/24",
@@ -84,7 +87,7 @@
       "213.183.54.0/23",
       "213.183.56.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:f80:7::/48",
       "2a03:f80:31::/48",
       "2a03:f80:32::/48",

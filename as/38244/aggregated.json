@@ -1,9 +1,12 @@
 {
-  "asn": 38244,
-  "handle": "VINAGAME-AS-VN",
-  "description": "VNG Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38244,
+  "metadata" : {
+    "handle" : "VINAGAME-AS-VN",
+    "description" : "VNG Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.127.252.0/22",
       "49.213.64.0/18",
       "58.84.0.0/22",
@@ -14,7 +17,7 @@
       "120.138.64.0/20",
       "122.201.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:13::/48",
       "2001:df0:1a::/48",
       "2402:4e0::/32"

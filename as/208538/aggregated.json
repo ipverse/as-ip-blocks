@@ -1,12 +1,15 @@
 {
-  "asn": 208538,
-  "handle": "FORSAGE-GROUP-AS",
-  "description": "PE Forsage Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208538,
+  "metadata" : {
+    "handle" : "FORSAGE-GROUP-AS",
+    "description" : "PE Forsage Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.171.245.0/24",
       "146.120.227.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 137259,
-  "handle": "ILINK-AS-AP",
-  "description": "i-Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137259,
+  "metadata" : {
+    "handle" : "ILINK-AS-AP",
+    "description" : "i-Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.31.222.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:50c0::/48"
     ]
   }

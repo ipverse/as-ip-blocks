@@ -1,12 +1,15 @@
 {
-  "asn": 27343,
-  "handle": "MONSANTO-INET",
-  "description": "Monsanto",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27343,
+  "metadata" : {
+    "handle" : "MONSANTO-INET",
+    "description" : "Monsanto",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.234.226.0/23",
       "149.234.232.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 22566,
-  "handle": "IP-MATRIX",
-  "description": "IP Matrix S.A. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22566,
+  "metadata" : {
+    "handle" : "IP-MATRIX",
+    "description" : "IP Matrix S.A. de C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.221.132.0/23",
       "67.16.192.0/21",
       "129.192.192.0/24",
@@ -26,6 +29,6 @@
       "201.161.56.0/24",
       "208.50.208.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

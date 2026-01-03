@@ -1,11 +1,14 @@
 {
-  "asn": 3858,
-  "handle": "NPPDNET",
-  "description": "Nebraska Public Power District",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3858,
+  "metadata" : {
+    "handle" : "NPPDNET",
+    "description" : "Nebraska Public Power District",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.132.206.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

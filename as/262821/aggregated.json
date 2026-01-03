@@ -1,14 +1,17 @@
 {
-  "asn": 262821,
-  "handle": "PHS-INTERNET-SUPRIMENTOS",
-  "description": "PHS INTERNET E SUPRIMENTOS LTDA - ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262821,
+  "metadata" : {
+    "handle" : "PHS-INTERNET-SUPRIMENTOS",
+    "description" : "PHS INTERNET E SUPRIMENTOS LTDA - ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.94.100.0/22",
       "186.250.232.0/21",
       "186.251.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:54b4::/32"
     ]
   }

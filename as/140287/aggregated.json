@@ -1,13 +1,16 @@
 {
-  "asn": 140287,
-  "handle": "OKNET-AS-AP",
-  "description": "OK Network and Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140287,
+  "metadata" : {
+    "handle" : "OKNET-AS-AP",
+    "description" : "OK Network and Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.112.237.0/24",
       "103.149.146.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:2b80::/48"
     ]
   }

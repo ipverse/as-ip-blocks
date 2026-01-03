@@ -1,12 +1,15 @@
 {
-  "asn": 62512,
-  "handle": "SANDWICH-NET",
-  "description": "Sandwich Internet Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62512,
+  "metadata" : {
+    "handle" : "SANDWICH-NET",
+    "description" : "Sandwich Internet Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.252.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff3a::/36"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 206160,
-  "handle": "AGARIKUCHI-AS",
-  "description": "Simon Mott",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206160,
+  "metadata" : {
+    "handle" : "AGARIKUCHI-AS",
+    "description" : "Simon Mott",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.141.253.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:2781:a4a3::/48"
     ]
   }

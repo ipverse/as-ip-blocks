@@ -1,9 +1,12 @@
 {
-  "asn": 6703,
-  "handle": "ALKAR-AS",
-  "description": "PRIVATE JOINT-STOCK COMPANY FARLEP-INVEST",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6703,
+  "metadata" : {
+    "handle" : "ALKAR-AS",
+    "description" : "PRIVATE JOINT-STOCK COMPANY FARLEP-INVEST",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.221.32.0/23",
       "62.221.35.0/24",
       "62.221.50.0/23",
@@ -89,6 +92,6 @@
       "217.24.175.0/24",
       "217.146.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

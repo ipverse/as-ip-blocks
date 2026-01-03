@@ -1,9 +1,12 @@
 {
-  "asn": 201917,
-  "handle": "VF-GROUP-DC1",
-  "description": "Vodafone Group Services GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201917,
+  "metadata" : {
+    "handle" : "VF-GROUP-DC1",
+    "description" : "Vodafone Group Services GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.25.148.0/24",
       "46.108.222.0/24",
       "46.190.217.0/24",
@@ -25,6 +28,6 @@
       "195.233.149.0/24",
       "195.233.155.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

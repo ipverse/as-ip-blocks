@@ -1,12 +1,15 @@
 {
-  "asn": 50220,
-  "handle": "ROPARDO-AS",
-  "description": "ROPARDO SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50220,
+  "metadata" : {
+    "handle" : "ROPARDO-AS",
+    "description" : "ROPARDO SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.39.88.0/24",
       "193.104.180.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

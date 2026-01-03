@@ -1,12 +1,15 @@
 {
-  "asn": 212725,
-  "handle": "AS-OVANAKER-SE",
-  "description": "Ovanakers kommun",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212725,
+  "metadata" : {
+    "handle" : "AS-OVANAKER-SE",
+    "description" : "Ovanakers kommun",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.181.160.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:24b8::/48"
     ]
   }

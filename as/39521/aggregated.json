@@ -1,9 +1,12 @@
 {
-  "asn": 39521,
-  "handle": "TNGNET",
-  "description": "TNGNET B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39521,
+  "metadata" : {
+    "handle" : "TNGNET",
+    "description" : "TNGNET B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.10.16.0/23",
       "45.10.18.0/24",
       "45.88.5.0/24",
@@ -43,7 +46,7 @@
       "212.107.4.0/22",
       "217.194.153.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:e4c0::/31",
       "2a05:e4c7::/36",
       "2a07:3bc0::/29"

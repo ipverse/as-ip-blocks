@@ -1,15 +1,18 @@
 {
-  "asn": 29128,
-  "handle": "DSIP-AS",
-  "description": "Digital Service Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29128,
+  "metadata" : {
+    "handle" : "DSIP-AS",
+    "description" : "Digital Service Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.223.118.0/24",
       "185.127.244.0/22",
       "194.116.194.0/23",
       "195.39.248.0/23",
       "195.64.142.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

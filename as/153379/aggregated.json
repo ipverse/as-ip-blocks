@@ -1,11 +1,14 @@
 {
-  "asn": 153379,
-  "handle": "NS-AS-AP",
-  "description": "NS INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153379,
+  "metadata" : {
+    "handle" : "NS-AS-AP",
+    "description" : "NS INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.191.115.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

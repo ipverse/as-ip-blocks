@@ -1,9 +1,12 @@
 {
-  "asn": 58552,
-  "handle": "MULTIDATA-ID-AP",
-  "description": "PT Multidata Rancana Prima",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58552,
+  "metadata" : {
+    "handle" : "MULTIDATA-ID-AP",
+    "description" : "PT Multidata Rancana Prima",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.240.230.0/23",
       "103.11.28.0/22",
       "103.143.223.0/24",
@@ -13,7 +16,7 @@
       "202.72.199.0/24",
       "202.72.204.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:a0a0:4::/48",
       "2401:a0a0:6::/47",
       "2404:fd00::/32"

@@ -1,9 +1,12 @@
 {
-  "asn": 34747,
-  "handle": "ISI-AS",
-  "description": "PJSC Vimpelcom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34747,
+  "metadata" : {
+    "handle" : "ISI-AS",
+    "description" : "PJSC Vimpelcom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.41.128.0/21",
       "77.41.136.0/22",
       "77.41.140.0/23",
@@ -12,6 +15,6 @@
       "83.143.48.0/22",
       "83.143.54.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

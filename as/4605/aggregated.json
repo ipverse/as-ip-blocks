@@ -1,9 +1,12 @@
 {
-  "asn": 4605,
-  "handle": "ERX-HKBUNET",
-  "description": "Hong Kong Baptist University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4605,
+  "metadata" : {
+    "handle" : "ERX-HKBUNET",
+    "description" : "Hong Kong Baptist University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.182.0.0/16",
       "175.159.144.0/21",
       "175.159.152.0/22",
@@ -12,7 +15,7 @@
       "202.125.240.0/21",
       "202.125.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:ce0:6::/48"
     ]
   }

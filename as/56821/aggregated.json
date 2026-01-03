@@ -1,12 +1,15 @@
 {
-  "asn": 56821,
-  "handle": "KNVNET1-AS",
-  "description": "KnVnet services s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56821,
+  "metadata" : {
+    "handle" : "KNVNET1-AS",
+    "description" : "KnVnet services s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.239.24.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:4007::/32",
       "2a14:9880::/32"
     ]

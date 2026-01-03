@@ -1,13 +1,16 @@
 {
-  "asn": 36367,
-  "handle": "AGN-TECH",
-  "description": "Alchemy Global Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36367,
+  "metadata" : {
+    "handle" : "AGN-TECH",
+    "description" : "Alchemy Global Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.208.60.0/23",
       "67.208.63.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:5e40:200::/48",
       "2607:5e40:400::/48",
       "2607:5e40:2000::/48"

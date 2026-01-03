@@ -1,9 +1,12 @@
 {
-  "asn": 6503,
-  "handle": "AXTEL",
-  "description": "Axtel S.A.B. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6503,
+  "metadata" : {
+    "handle" : "AXTEL",
+    "description" : "Axtel S.A.B. de C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.96.221.0/24",
       "80.180.53.0/24",
       "148.240.0.0/22",
@@ -442,7 +445,7 @@
       "201.158.128.0/17",
       "207.249.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:c4:3fb::/48",
       "2801:c4:3fd::/48",
       "2806::/28"

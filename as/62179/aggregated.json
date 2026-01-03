@@ -1,16 +1,19 @@
 {
-  "asn": 62179,
-  "handle": "ECOFON",
-  "description": "UAB Ecofon",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62179,
+  "metadata" : {
+    "handle" : "ECOFON",
+    "description" : "UAB Ecofon",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.31.184.0/21",
       "84.32.192.0/20",
       "88.135.16.0/20",
       "185.44.72.0/22",
       "185.110.135.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7220::/32"
     ]
   }

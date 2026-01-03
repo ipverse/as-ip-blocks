@@ -1,12 +1,15 @@
 {
-  "asn": 153053,
-  "handle": "LTSCL-AS-AP",
-  "description": "Lesamoa.net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153053,
+  "metadata" : {
+    "handle" : "LTSCL-AS-AP",
+    "description" : "Lesamoa.net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.25.96.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:ae60::/32"
     ]
   }

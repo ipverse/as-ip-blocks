@@ -1,16 +1,19 @@
 {
-  "asn": 48072,
-  "handle": "ALSATIS-AS",
-  "description": "Alsatis SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48072,
+  "metadata" : {
+    "handle" : "ALSATIS-AS",
+    "description" : "Alsatis SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.1.240.0/20",
       "46.22.80.0/20",
       "85.209.224.0/22",
       "92.245.128.0/19",
       "185.77.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:11e0::/32"
     ]
   }

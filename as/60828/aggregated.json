@@ -1,11 +1,14 @@
 {
-  "asn": 60828,
-  "handle": "UIP-AS",
-  "description": "LLC UIP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60828,
+  "metadata" : {
+    "handle" : "UIP-AS",
+    "description" : "LLC UIP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.233.123.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

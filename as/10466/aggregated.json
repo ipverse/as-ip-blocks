@@ -1,12 +1,15 @@
 {
-  "asn": 10466,
-  "handle": "MAGPI",
-  "description": "MAGPI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10466,
+  "metadata" : {
+    "handle" : "MAGPI",
+    "description" : "MAGPI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.27.100.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:468:1800::/40"
     ]
   }

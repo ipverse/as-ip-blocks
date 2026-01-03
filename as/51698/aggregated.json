@@ -1,16 +1,19 @@
 {
-  "asn": 51698,
-  "handle": "ACTIVEHOST-RU-AS",
-  "description": "ActiveHost RU LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51698,
+  "metadata" : {
+    "handle" : "ACTIVEHOST-RU-AS",
+    "description" : "ActiveHost RU LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.230.244.0/24",
       "91.227.152.0/23",
       "178.159.248.0/21",
       "185.47.154.0/23",
       "185.65.138.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:9160::/48"
     ]
   }

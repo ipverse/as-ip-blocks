@@ -1,12 +1,15 @@
 {
-  "asn": 266280,
-  "handle": "SAGA-INTERNET",
-  "description": "Saga Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266280,
+  "metadata" : {
+    "handle" : "SAGA-INTERNET",
+    "description" : "Saga Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.78.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3550::/32"
     ]
   }

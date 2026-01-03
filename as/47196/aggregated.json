@@ -1,9 +1,12 @@
 {
-  "asn": 47196,
-  "handle": "GARANT-PARK-INTERNET",
-  "description": "Garant-Park-Internet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47196,
+  "metadata" : {
+    "handle" : "GARANT-PARK-INTERNET",
+    "description" : "Garant-Park-Internet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.143.136.0/22",
       "46.173.209.0/24",
       "46.173.210.0/23",
@@ -15,7 +18,7 @@
       "195.22.152.0/23",
       "195.128.120.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5a00:1::/48",
       "2a0f:6f80::/29"
     ]

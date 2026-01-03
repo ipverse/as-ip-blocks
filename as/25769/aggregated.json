@@ -1,9 +1,12 @@
 {
-  "asn": 25769,
-  "handle": "GVTEL",
-  "description": "Garden Valley Telephone Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25769,
+  "metadata" : {
+    "handle" : "GVTEL",
+    "description" : "Garden Valley Telephone Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.235.64.0/19",
       "66.219.0.0/20",
       "167.94.84.0/22",
@@ -13,7 +16,7 @@
       "209.177.77.0/24",
       "216.122.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:8500::/32"
     ]
   }

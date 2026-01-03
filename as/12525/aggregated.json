@@ -1,14 +1,17 @@
 {
-  "asn": 12525,
-  "handle": "INTERNETLTD",
-  "description": "INTERNET Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12525,
+  "metadata" : {
+    "handle" : "INTERNETLTD",
+    "description" : "INTERNET Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.198.166.0/23",
       "194.105.56.0/24",
       "195.13.223.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:554::/48"
     ]
   }

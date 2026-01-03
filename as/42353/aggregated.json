@@ -1,9 +1,12 @@
 {
-  "asn": 42353,
-  "handle": "SIMWOOD",
-  "description": "Simwood eSMS Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42353,
+  "metadata" : {
+    "handle" : "SIMWOOD",
+    "description" : "Simwood eSMS Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.233.5.0/24",
       "178.22.136.0/21",
       "185.63.140.0/24",
@@ -11,6 +14,6 @@
       "194.0.210.0/24",
       "207.170.190.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

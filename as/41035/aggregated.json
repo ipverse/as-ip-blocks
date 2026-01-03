@@ -1,12 +1,15 @@
 {
-  "asn": 41035,
-  "handle": "CPH-AS",
-  "description": "Banque CPH SC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41035,
+  "metadata" : {
+    "handle" : "CPH-AS",
+    "description" : "Banque CPH SC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.84.24.0/24",
       "194.176.110.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

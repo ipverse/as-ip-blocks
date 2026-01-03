@@ -1,12 +1,15 @@
 {
-  "asn": 200504,
-  "handle": "SOFTAX",
-  "description": "Softax sp.j",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200504,
+  "metadata" : {
+    "handle" : "SOFTAX",
+    "description" : "Softax sp.j.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.183.21.0/24",
       "193.192.169.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

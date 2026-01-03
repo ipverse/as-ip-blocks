@@ -1,12 +1,15 @@
 {
-  "asn": 211102,
-  "handle": "PREVINET-AS",
-  "description": "Previnet S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211102,
+  "metadata" : {
+    "handle" : "PREVINET-AS",
+    "description" : "Previnet S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.223.96.0/24",
       "193.223.110.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

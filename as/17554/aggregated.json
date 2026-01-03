@@ -1,9 +1,12 @@
 {
-  "asn": 17554,
-  "handle": "CITIC-HK-AP",
-  "description": "Citic Telecom International (Data) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17554,
+  "metadata" : {
+    "handle" : "CITIC-HK-AP",
+    "description" : "Citic Telecom International (Data) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.0.167.0/24",
       "202.0.168.0/24",
       "202.0.172.0/24",
@@ -19,7 +22,7 @@
       "203.160.45.0/24",
       "203.160.46.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4480::/32"
     ]
   }

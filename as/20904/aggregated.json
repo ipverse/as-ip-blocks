@@ -1,9 +1,12 @@
 {
-  "asn": 20904,
-  "handle": "NETPLAZA-AS",
-  "description": "Cinia Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20904,
+  "metadata" : {
+    "handle" : "NETPLAZA-AS",
+    "description" : "Cinia Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.61.94.0/24",
       "37.35.80.0/21",
       "46.254.208.0/24",
@@ -23,7 +26,7 @@
       "188.64.0.0/21",
       "212.6.54.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1a58::/32",
       "2a00:74a0::/32",
       "2a04:240::/29"

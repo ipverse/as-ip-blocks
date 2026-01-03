@@ -1,13 +1,16 @@
 {
-  "asn": 201725,
-  "handle": "TONETIC-AS",
-  "description": "Firma Tonetic Krzysztof Adamczyk",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201725,
+  "metadata" : {
+    "handle" : "TONETIC-AS",
+    "description" : "Firma Tonetic Krzysztof Adamczyk",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.163.8.0/21",
       "91.231.244.0/22",
       "176.97.248.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

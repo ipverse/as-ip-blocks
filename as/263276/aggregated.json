@@ -1,16 +1,19 @@
 {
-  "asn": 263276,
-  "handle": "BBG-TELECOM",
-  "description": "BBG TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263276,
+  "metadata" : {
+    "handle" : "BBG-TELECOM",
+    "description" : "BBG TELECOM LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.178.124.0/22",
       "168.90.224.0/22",
       "168.195.180.0/22",
       "179.108.248.0/21",
       "191.243.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1638::/32"
     ]
   }

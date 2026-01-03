@@ -1,12 +1,15 @@
 {
-  "asn": 26569,
-  "handle": "COLLEGENET",
-  "description": "CollegeNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26569,
+  "metadata" : {
+    "handle" : "COLLEGENET",
+    "description" : "CollegeNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.122.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:9b:4000::/48"
     ]
   }

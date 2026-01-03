@@ -1,12 +1,15 @@
 {
-  "asn": 134005,
-  "handle": "HIFISURF-AS-IN",
-  "description": "Hifi Surf Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134005,
+  "metadata" : {
+    "handle" : "HIFISURF-AS-IN",
+    "description" : "Hifi Surf Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.156.100.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:c4c0::/48"
     ]
   }

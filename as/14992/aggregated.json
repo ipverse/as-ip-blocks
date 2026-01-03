@@ -1,9 +1,12 @@
 {
-  "asn": 14992,
-  "handle": "CRYSTALTECH",
-  "description": "NewtekOne Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14992,
+  "metadata" : {
+    "handle" : "CRYSTALTECH",
+    "description" : "NewtekOne Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.134.192.0/18",
       "63.135.96.0/19",
       "64.242.41.0/24",
@@ -18,6 +21,6 @@
       "216.119.64.0/18",
       "216.197.96.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

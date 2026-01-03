@@ -1,9 +1,12 @@
 {
-  "asn": 41872,
-  "handle": "FLASHCABLE",
-  "description": "GIB-Solutions AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41872,
+  "metadata" : {
+    "handle" : "FLASHCABLE",
+    "description" : "GIB-Solutions AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.110.200.0/21",
       "37.209.176.0/20",
       "81.92.96.0/20",
@@ -22,7 +25,7 @@
       "195.90.112.0/23",
       "212.35.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:6500::/32",
       "2a05:80::/29"
     ]

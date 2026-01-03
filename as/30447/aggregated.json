@@ -1,9 +1,12 @@
 {
-  "asn": 30447,
-  "handle": "INFB2-AS",
-  "description": "Internet Names For Business Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30447,
+  "metadata" : {
+    "handle" : "INFB2-AS",
+    "description" : "Internet Names For Business Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.29.144.0/20",
       "66.175.0.0/18",
       "66.226.64.0/21",
@@ -18,7 +21,7 @@
       "216.55.144.0/20",
       "216.55.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1810:3000::/36",
       "2001:1810:4000::/35",
       "2001:1810:9980::/48"

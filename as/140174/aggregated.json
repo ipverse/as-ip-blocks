@@ -1,9 +1,12 @@
 {
-  "asn": 140174,
-  "handle": "MITHRILTELECOM-AS",
-  "description": "Mithril Telecommunications Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140174,
+  "metadata" : {
+    "handle" : "MITHRILTELECOM-AS",
+    "description" : "Mithril Telecommunications Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.241.66.0/24",
       "103.61.68.0/24",
       "103.149.16.0/24",
@@ -12,6 +15,6 @@
       "103.224.152.0/23",
       "103.224.154.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

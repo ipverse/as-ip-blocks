@@ -1,9 +1,12 @@
 {
-  "asn": 138886,
-  "handle": "DBN-AS-ID",
-  "description": "PT Data Buana Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138886,
+  "metadata" : {
+    "handle" : "DBN-AS-ID",
+    "description" : "PT Data Buana Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.13.137.0/24",
       "103.73.159.0/24",
       "103.141.108.0/23",
@@ -13,7 +16,7 @@
       "202.58.72.0/21",
       "202.154.44.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:1640::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 62651,
-  "handle": "NETPROTECT-DP",
-  "description": "Strong Technology LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62651,
+  "metadata" : {
+    "handle" : "NETPROTECT-DP",
+    "description" : "Strong Technology LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.255.204.0/23",
       "36.255.206.0/24",
       "64.145.65.0/24",
@@ -47,7 +50,7 @@
       "216.151.184.0/24",
       "216.151.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:5d80:6000::/39",
       "2404:5d80:6600::/40",
       "2404:5d80:7200::/40",

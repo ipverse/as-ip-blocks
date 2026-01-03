@@ -1,9 +1,12 @@
 {
-  "asn": 58495,
-  "handle": "HSPNET-AS-ID",
-  "description": "PT Parsaoran Global Datatrans",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58495,
+  "metadata" : {
+    "handle" : "HSPNET-AS-ID",
+    "description" : "PT Parsaoran Global Datatrans",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.86.0/23",
       "36.50.88.0/23",
       "36.50.100.0/23",
@@ -103,7 +106,7 @@
       "210.87.80.0/21",
       "210.87.100.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:2f80:1::/48",
       "2404:2f80:ff00::/47",
       "2404:2f80:ff02::/48",

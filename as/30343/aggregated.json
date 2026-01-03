@@ -1,12 +1,15 @@
 {
-  "asn": 30343,
-  "handle": "DFWCHECKPOINT",
-  "description": "Check Point Software Technologies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30343,
+  "metadata" : {
+    "handle" : "DFWCHECKPOINT",
+    "description" : "Check Point Software Technologies Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.228.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:2a09::/48"
     ]
   }

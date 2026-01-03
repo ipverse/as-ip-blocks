@@ -1,12 +1,15 @@
 {
-  "asn": 136166,
-  "handle": "ANGELONE-AS-AP",
-  "description": "ANGEL ONE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136166,
+  "metadata" : {
+    "handle" : "ANGELONE-AS-AP",
+    "description" : "ANGEL ONE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.82.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8740:1000::/48",
       "2400:8740:2000::/40"
     ]

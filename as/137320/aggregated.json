@@ -1,11 +1,14 @@
 {
-  "asn": 137320,
-  "handle": "ISP-AS-ID",
-  "description": "PT. Internet Service Provider",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137320,
+  "metadata" : {
+    "handle" : "ISP-AS-ID",
+    "description" : "PT. Internet Service Provider",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.110.120.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

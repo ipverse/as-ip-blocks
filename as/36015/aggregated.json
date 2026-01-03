@@ -1,11 +1,14 @@
 {
-  "asn": 36015,
-  "handle": "MRHS",
-  "description": "Maury Regional Hospital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36015,
+  "metadata" : {
+    "handle" : "MRHS",
+    "description" : "Maury Regional Hospital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "205.142.116.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

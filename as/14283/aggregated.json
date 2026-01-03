@@ -1,12 +1,15 @@
 {
-  "asn": 14283,
-  "handle": "BLUEONE",
-  "description": "blueone.net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14283,
+  "metadata" : {
+    "handle" : "BLUEONE",
+    "description" : "blueone.net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.200.80.0/23",
       "192.200.88.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

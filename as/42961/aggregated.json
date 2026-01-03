@@ -1,9 +1,12 @@
 {
-  "asn": 42961,
-  "handle": "GPRS-AS",
-  "description": "Mobile Telecommunications Company K.S.C.P",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42961,
+  "metadata" : {
+    "handle" : "GPRS-AS",
+    "description" : "Mobile Telecommunications Company K.S.C.P.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.203.0.0/16",
       "31.214.0.0/17",
       "37.34.128.0/17",
@@ -17,7 +20,7 @@
       "188.236.0.0/16",
       "212.43.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4520::/32",
       "2a00:4522::/31"
     ]

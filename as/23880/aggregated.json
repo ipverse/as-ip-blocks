@@ -1,12 +1,15 @@
 {
-  "asn": 23880,
-  "handle": "YAHOO-AEA",
-  "description": "Yahoo Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23880,
+  "metadata" : {
+    "handle" : "YAHOO-AEA",
+    "description" : "Yahoo Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.82.117.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1288:f043::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 139978,
-  "handle": "RTRWNET-AS-ID",
-  "description": "PT Jaringan Rtrwnet Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139978,
+  "metadata" : {
+    "handle" : "RTRWNET-AS-ID",
+    "description" : "PT Jaringan Rtrwnet Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.148.18.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:c7c0::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 268526,
-  "handle": "CONECT-VIRTUA-PROVEDOR",
-  "description": "Conect Virtua Provedor de Internet Banda Larga",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268526,
+  "metadata" : {
+    "handle" : "CONECT-VIRTUA-PROVEDOR",
+    "description" : "Conect Virtua Provedor de Internet Banda Larga",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.162.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5290::/32"
     ]
   }

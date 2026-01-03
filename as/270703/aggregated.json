@@ -1,12 +1,15 @@
 {
-  "asn": 270703,
-  "handle": "ALLTEC-INTERNET",
-  "description": "ALLTEC INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270703,
+  "metadata" : {
+    "handle" : "ALLTEC-INTERNET",
+    "description" : "ALLTEC INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.209.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:700c::/32"
     ]
   }

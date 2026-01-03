@@ -1,9 +1,12 @@
 {
-  "asn": 4546,
-  "handle": "SPGI-AS",
-  "description": "S\u0026P Global Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4546,
+  "metadata" : {
+    "handle" : "SPGI-AS",
+    "description" : "S&P Global Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.24.112.0/22",
       "12.26.55.0/24",
       "12.33.127.0/24",
@@ -28,6 +31,6 @@
       "204.8.128.0/22",
       "213.41.91.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

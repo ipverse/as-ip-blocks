@@ -1,12 +1,15 @@
 {
-  "asn": 139338,
-  "handle": "CYBER2-AS-AP",
-  "description": "Cyber Planet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139338,
+  "metadata" : {
+    "handle" : "CYBER2-AS-AP",
+    "description" : "Cyber Planet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.141.123.0/24",
       "103.141.132.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

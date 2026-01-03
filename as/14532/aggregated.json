@@ -1,14 +1,17 @@
 {
-  "asn": 14532,
-  "handle": "CBOSS",
-  "description": "CBOSS INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14532,
+  "metadata" : {
+    "handle" : "CBOSS",
+    "description" : "CBOSS INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.203.10.0/23",
       "66.203.13.0/24",
       "66.203.14.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:3380:4301::/48",
       "2605:3380:4802::/48",
       "2605:3380:4805::/48",

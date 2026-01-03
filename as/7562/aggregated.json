@@ -1,9 +1,12 @@
 {
-  "asn": 7562,
-  "handle": "HCNSEOCHO-AS",
-  "description": "HCN Dongjak",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7562,
+  "metadata" : {
+    "handle" : "HCNSEOCHO-AS",
+    "description" : "HCN Dongjak",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.222.128.0/18",
       "1.222.192.0/20",
       "27.35.4.0/22",
@@ -82,6 +85,6 @@
       "211.47.92.0/24",
       "211.47.94.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

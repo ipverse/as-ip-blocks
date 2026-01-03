@@ -1,9 +1,12 @@
 {
-  "asn": 35805,
-  "handle": "SILKNET-AS",
-  "description": "JSC Silknet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35805,
+  "metadata" : {
+    "handle" : "SILKNET-AS",
+    "description" : "JSC Silknet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.152.0.0/17",
       "31.146.0.0/16",
       "37.110.160.0/19",
@@ -25,7 +28,7 @@
       "213.131.32.0/19",
       "213.217.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:9c80::/29"
     ]
   }

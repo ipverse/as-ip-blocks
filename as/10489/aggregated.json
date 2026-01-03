@@ -1,12 +1,15 @@
 {
-  "asn": 10489,
-  "handle": "ARMOUR-AS",
-  "description": "Armour Cloud LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10489,
+  "metadata" : {
+    "handle" : "ARMOUR-AS",
+    "description" : "Armour Cloud LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.250.0.0/21",
       "209.250.15.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

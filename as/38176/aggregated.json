@@ -1,9 +1,12 @@
 {
-  "asn": 38176,
-  "handle": "ABS-AS-AP",
-  "description": "ABS (HK) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38176,
+  "metadata" : {
+    "handle" : "ABS-AS-AP",
+    "description" : "ABS (HK) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.47.88.0/21",
       "41.78.198.0/24",
       "113.208.64.0/19",
@@ -11,7 +14,7 @@
       "203.202.224.0/22",
       "203.202.228.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:1400::/32",
       "2a0a:1a40::/32"
     ]

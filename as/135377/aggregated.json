@@ -1,9 +1,12 @@
 {
-  "asn": 135377,
-  "handle": "UCLOUD-HK-AS-AP",
-  "description": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135377,
+  "metadata" : {
+    "handle" : "UCLOUD-HK-AS-AP",
+    "description" : "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.91.96.0/22",
       "23.91.100.0/23",
       "23.236.126.0/24",
@@ -145,7 +148,7 @@
       "181.215.203.0/24",
       "202.10.72.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:82c0::/42",
       "2404:82c0:40::/46",
       "2404:82c0:44::/47",

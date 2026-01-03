@@ -1,9 +1,12 @@
 {
-  "asn": 137693,
-  "handle": "CHINATELECOM-GUANGXI-NANNING-IDC",
-  "description": "CHINATELECOM Guangxi Nanning IDC networkdescr: Nanning Guangxi Province P.R.China",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137693,
+  "metadata" : {
+    "handle" : "CHINATELECOM-GUANGXI-NANNING-IDC",
+    "description" : "CHINATELECOM Guangxi Nanning IDC networkdescr: Nanning Guangxi Province P.R.China.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "113.13.18.0/23",
       "113.14.96.0/23",
       "113.14.98.0/24",
@@ -47,7 +50,7 @@
       "222.218.184.0/21",
       "222.218.192.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:49:5800::/37",
       "240e:a5:4800::/37",
       "240e:108:8d::/48",

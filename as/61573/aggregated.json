@@ -1,12 +1,15 @@
 {
-  "asn": 61573,
-  "handle": "IP-TELECOM",
-  "description": "IP TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61573,
+  "metadata" : {
+    "handle" : "IP-TELECOM",
+    "description" : "IP TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.122.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:25e4::/32"
     ]
   }

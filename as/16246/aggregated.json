@@ -1,9 +1,12 @@
 {
-  "asn": 16246,
-  "handle": "AS16246",
-  "description": "O2 Czech Republic a.s",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16246,
+  "metadata" : {
+    "handle" : "AS16246",
+    "description" : "O2 Czech Republic a.s.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.87.232.0/21",
       "78.108.152.0/21",
       "82.150.160.0/19",
@@ -18,7 +21,7 @@
       "188.175.0.0/16",
       "213.180.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:350::/29",
       "2a03:b4c0::/32"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 134469,
-  "handle": "DS2PL-AS-AP",
-  "description": "Digital Singapore 2 Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134469,
+  "metadata" : {
+    "handle" : "DS2PL-AS-AP",
+    "description" : "Digital Singapore 2 Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.127.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:ec40::/32"
     ]
   }

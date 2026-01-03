@@ -1,9 +1,12 @@
 {
-  "asn": 38266,
-  "handle": "VIL-AS-AP",
-  "description": "Vodafone Idea Ltd. (VIL)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38266,
+  "metadata" : {
+    "handle" : "VIL-AS-AP",
+    "description" : "Vodafone Idea Ltd. (VIL)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.38.0.0/17",
       "1.38.128.0/19",
       "1.38.160.0/21",
@@ -60,7 +63,7 @@
       "184.29.24.0/22",
       "203.88.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:3a80::/47",
       "2402:3a80:2::/48",
       "2402:3a80:8::/47",

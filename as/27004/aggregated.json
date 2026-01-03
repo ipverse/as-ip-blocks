@@ -1,12 +1,15 @@
 {
-  "asn": 27004,
-  "handle": "SFB",
-  "description": "Star Financial Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27004,
+  "metadata" : {
+    "handle" : "SFB",
+    "description" : "Star Financial Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.141.133.0/24",
       "64.186.54.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

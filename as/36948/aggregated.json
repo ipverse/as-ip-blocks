@@ -1,12 +1,15 @@
 {
-  "asn": 36948,
-  "handle": "KENIC",
-  "description": "Kenya Network Information Centre (KENIC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36948,
+  "metadata" : {
+    "handle" : "KENIC",
+    "description" : "Kenya Network Information Centre (KENIC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "196.1.4.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43f8:10::/48"
     ]
   }

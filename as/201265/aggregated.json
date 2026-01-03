@@ -1,13 +1,16 @@
 {
-  "asn": 201265,
-  "handle": "ANAFRA-AS",
-  "description": "ANAFRA a.s",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201265,
+  "metadata" : {
+    "handle" : "ANAFRA-AS",
+    "description" : "ANAFRA a.s.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.32.161.0/24",
       "185.32.162.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:a5a1::/32"
     ]
   }

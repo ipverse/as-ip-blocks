@@ -1,12 +1,15 @@
 {
-  "asn": 394234,
-  "handle": "AS-IRSC",
-  "description": "Indian River State College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394234,
+  "metadata" : {
+    "handle" : "AS-IRSC",
+    "description" : "Indian River State College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.56.91.0/24",
       "64.56.92.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

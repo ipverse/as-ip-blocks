@@ -1,9 +1,12 @@
 {
-  "asn": 53586,
-  "handle": "WITTE-1",
-  "description": "Wittenberg Telephone Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53586,
+  "metadata" : {
+    "handle" : "WITTE-1",
+    "description" : "Wittenberg Telephone Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.10.244.0/23",
       "141.193.14.0/24",
       "141.193.66.0/23",
@@ -13,6 +16,6 @@
       "199.127.176.0/22",
       "199.168.92.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

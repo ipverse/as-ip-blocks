@@ -1,9 +1,12 @@
 {
-  "asn": 13287,
-  "handle": "NIXVAL",
-  "description": "FALBOX S.L. trading as NIXVAL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13287,
+  "metadata" : {
+    "handle" : "NIXVAL",
+    "description" : "FALBOX S.L. trading as NIXVAL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.44.33.0/24",
       "91.211.144.0/24",
       "109.234.81.0/24",
@@ -34,7 +37,7 @@
       "213.162.216.0/22",
       "213.162.221.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:a220::/32",
       "2a02:23a0::/32",
       "2a06:c980::/29",

@@ -1,12 +1,15 @@
 {
-  "asn": 265250,
-  "handle": "NET-MAX",
-  "description": "NET MAX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265250,
+  "metadata" : {
+    "handle" : "NET-MAX",
+    "description" : "NET MAX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.0.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2ce8::/32"
     ]
   }

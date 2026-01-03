@@ -1,15 +1,18 @@
 {
-  "asn": 52188,
-  "handle": "MK-UKIM-FCSE",
-  "description": "Univerzitet Sv. Kiril i Metodij",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52188,
+  "metadata" : {
+    "handle" : "MK-UKIM-FCSE",
+    "description" : "Univerzitet Sv. Kiril i Metodij",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.153.48.0/23",
       "185.153.50.0/24",
       "194.149.135.0/24",
       "194.149.136.0/23",
       "194.149.138.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

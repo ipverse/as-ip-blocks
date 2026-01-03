@@ -1,9 +1,12 @@
 {
-  "asn": 31287,
-  "handle": "IPACCT-AS",
-  "description": "IPACCT CABLE Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31287,
+  "metadata" : {
+    "handle" : "IPACCT-AS",
+    "description" : "IPACCT CABLE Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.66.44.0/23",
       "45.66.47.0/24",
       "46.55.252.0/22",
@@ -35,7 +38,7 @@
       "185.200.40.0/22",
       "195.85.215.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:b6c0::/32",
       "2a01:9e40::/32",
       "2a03:b540::/32"

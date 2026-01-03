@@ -1,9 +1,12 @@
 {
-  "asn": 32590,
-  "handle": "VALVE-CORPORATION",
-  "description": "Valve Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32590,
+  "metadata" : {
+    "handle" : "VALVE-CORPORATION",
+    "description" : "Valve Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.121.184.0/24",
       "103.10.124.0/23",
       "103.28.54.0/24",
@@ -27,7 +30,7 @@
       "208.64.200.0/22",
       "208.78.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:3fc0::/46",
       "2404:3fc0:8::/47",
       "2404:3fc0:a::/48",

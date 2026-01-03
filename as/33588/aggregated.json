@@ -1,9 +1,12 @@
 {
-  "asn": 33588,
-  "handle": "BRESNAN-33588",
-  "description": "Charter Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33588,
+  "metadata" : {
+    "handle" : "BRESNAN-33588",
+    "description" : "Charter Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "35.131.32.0/19",
       "35.132.0.0/24",
       "35.132.32.0/24",
@@ -40,7 +43,7 @@
       "192.61.246.0/23",
       "192.61.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:6c00:2::/47",
       "2600:6c34::/30",
       "2600:6c66::/31",

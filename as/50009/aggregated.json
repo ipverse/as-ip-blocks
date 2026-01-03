@@ -1,15 +1,18 @@
 {
-  "asn": 50009,
-  "handle": "QUARTZ-AS",
-  "description": "QUARTZ TELECOM LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50009,
+  "metadata" : {
+    "handle" : "QUARTZ-AS",
+    "description" : "QUARTZ TELECOM LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.249.16.0/20",
       "109.94.0.0/19",
       "176.109.32.0/20",
       "185.80.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:7e80::/29"
     ]
   }

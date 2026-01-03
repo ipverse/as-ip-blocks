@@ -1,9 +1,12 @@
 {
-  "asn": 4670,
-  "handle": "HYUNDAI",
-  "description": "Shinbiro",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4670,
+  "metadata" : {
+    "handle" : "HYUNDAI",
+    "description" : "Shinbiro",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.180.0.0/16",
       "61.110.0.0/19",
       "61.110.48.0/20",
@@ -47,6 +50,6 @@
       "211.191.240.0/20",
       "211.239.174.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

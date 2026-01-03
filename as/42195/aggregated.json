@@ -1,12 +1,15 @@
 {
-  "asn": 42195,
-  "handle": "AIST-TELECOMMUNICATIONS",
-  "description": "CS AIST",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42195,
+  "metadata" : {
+    "handle" : "AIST-TELECOMMUNICATIONS",
+    "description" : "CS AIST",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.16.247.0/24",
       "194.110.219.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

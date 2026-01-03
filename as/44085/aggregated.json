@@ -1,11 +1,14 @@
 {
-  "asn": 44085,
-  "handle": "DARS-AS",
-  "description": "DARS d.d",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44085,
+  "metadata" : {
+    "handle" : "DARS-AS",
+    "description" : "DARS d.d.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.199.23.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

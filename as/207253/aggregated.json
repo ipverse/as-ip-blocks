@@ -1,9 +1,12 @@
 {
-  "asn": 207253,
-  "handle": "AS-ZEAG",
-  "description": "NetCom BW GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207253,
+  "metadata" : {
+    "handle" : "AS-ZEAG",
+    "description" : "NetCom BW GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.218.208.0/22",
       "185.160.200.0/22",
       "185.210.8.0/22",
@@ -13,6 +16,6 @@
       "193.84.240.0/22",
       "193.106.32.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

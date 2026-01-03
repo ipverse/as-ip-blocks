@@ -1,12 +1,15 @@
 {
-  "asn": 197973,
-  "handle": "SKRA-NET",
-  "description": "Registers Iceland",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197973,
+  "metadata" : {
+    "handle" : "SKRA-NET",
+    "description" : "Registers Iceland",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.140.232.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:6b80::/32"
     ]
   }

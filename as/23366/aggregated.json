@@ -1,9 +1,12 @@
 {
-  "asn": 23366,
-  "handle": "LSUHEALTHSCIENCESCTR",
-  "description": "LSU Health Sciences Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23366,
+  "metadata" : {
+    "handle" : "LSUHEALTHSCIENCESCTR",
+    "description" : "LSU Health Sciences Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "155.58.2.0/23",
       "155.58.6.0/24",
       "155.58.11.0/24",
@@ -25,6 +28,6 @@
       "155.58.251.0/24",
       "155.58.254.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

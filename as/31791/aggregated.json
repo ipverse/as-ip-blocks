@@ -1,12 +1,15 @@
 {
-  "asn": 31791,
-  "handle": "REGION16-ESC",
-  "description": "Region 16 Education Service Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31791,
+  "metadata" : {
+    "handle" : "REGION16-ESC",
+    "description" : "Region 16 Education Service Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.62.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:4b40::/32"
     ]
   }

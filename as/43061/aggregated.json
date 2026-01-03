@@ -1,12 +1,15 @@
 {
-  "asn": 43061,
-  "handle": "SI-STELKOM",
-  "description": "Stelkom d.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43061,
+  "metadata" : {
+    "handle" : "SI-STELKOM",
+    "description" : "Stelkom d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.94.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:d90::/32"
     ]
   }

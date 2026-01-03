@@ -1,9 +1,12 @@
 {
-  "asn": 21520,
-  "handle": "INSTITUTO-TECNOLOGICO-AUTONOMO",
-  "description": "Instituto Tecnologico Autonomo de Mexico(ITAM)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21520,
+  "metadata" : {
+    "handle" : "INSTITUTO-TECNOLOGICO-AUTONOMO",
+    "description" : "Instituto Tecnologico Autonomo de Mexico(ITAM)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.205.13.0/24",
       "148.205.36.0/22",
       "148.205.40.0/22",
@@ -27,6 +30,6 @@
       "148.205.228.0/22",
       "148.205.236.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

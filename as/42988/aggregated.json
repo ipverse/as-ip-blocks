@@ -1,11 +1,14 @@
 {
-  "asn": 42988,
-  "handle": "TPSERV-AS",
-  "description": "OOO Teleport-Service Regions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42988,
+  "metadata" : {
+    "handle" : "TPSERV-AS",
+    "description" : "OOO Teleport-Service Regions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.74.184.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

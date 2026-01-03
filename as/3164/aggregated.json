@@ -1,9 +1,12 @@
 {
-  "asn": 3164,
-  "handle": "ASTIMP-IT",
-  "description": "Astimp IT Solution SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3164,
+  "metadata" : {
+    "handle" : "ASTIMP-IT",
+    "description" : "Astimp IT Solution SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.83.43.0/24",
       "37.156.67.0/24",
       "37.156.225.0/24",
@@ -15,7 +18,7 @@
       "185.88.28.0/22",
       "188.241.194.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:c5c0::/48"
     ]
   }

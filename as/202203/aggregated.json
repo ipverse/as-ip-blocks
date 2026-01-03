@@ -1,14 +1,17 @@
 {
-  "asn": 202203,
-  "handle": "D-NET-COM-AS",
-  "description": "D-NET Communication Services SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202203,
+  "metadata" : {
+    "handle" : "D-NET-COM-AS",
+    "description" : "D-NET Communication Services SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.121.8.0/22",
       "89.31.24.0/22",
       "93.120.91.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:ea00::/32"
     ]
   }

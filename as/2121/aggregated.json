@@ -1,12 +1,15 @@
 {
-  "asn": 2121,
-  "handle": "RIPE-MEETING-AS",
-  "description": "Reseaux IP Europeens Network Coordination Centre (RIPE NCC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2121,
+  "metadata" : {
+    "handle" : "RIPE-MEETING-AS",
+    "description" : "Reseaux IP Europeens Network Coordination Centre (RIPE NCC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.0.24.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:64::/48"
     ]
   }

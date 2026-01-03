@@ -1,12 +1,15 @@
 {
-  "asn": 264020,
-  "handle": "FAST-TELECOM",
-  "description": "FAST TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264020,
+  "metadata" : {
+    "handle" : "FAST-TELECOM",
+    "description" : "FAST TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.0.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2988::/32"
     ]
   }

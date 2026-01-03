@@ -1,12 +1,15 @@
 {
-  "asn": 32038,
-  "handle": "ALCORN-LOR-01",
-  "description": "Institutions of Higher Learning",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32038,
+  "metadata" : {
+    "handle" : "ALCORN-LOR-01",
+    "description" : "Institutions of Higher Learning",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.147.192.0/24",
       "209.147.207.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

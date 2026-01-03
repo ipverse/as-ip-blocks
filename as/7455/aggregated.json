@@ -1,11 +1,14 @@
 {
-  "asn": 7455,
-  "handle": "MOTO-INT1-AS",
-  "description": "Motorists Mutual Insurance Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7455,
+  "metadata" : {
+    "handle" : "MOTO-INT1-AS",
+    "description" : "Motorists Mutual Insurance Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.105.158.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

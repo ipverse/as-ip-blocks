@@ -1,15 +1,18 @@
 {
-  "asn": 51341,
-  "handle": "GCS-AS",
-  "description": "Gigakom Sistems OOO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51341,
+  "metadata" : {
+    "handle" : "GCS-AS",
+    "description" : "Gigakom Sistems OOO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.255.25.0/24",
       "91.218.84.0/22",
       "91.236.140.0/22",
       "213.109.201.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:af80::/29"
     ]
   }

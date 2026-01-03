@@ -1,9 +1,12 @@
 {
-  "asn": 63152,
-  "handle": "CASCADE-COMMUNICATIONS-01",
-  "description": "Cascade Communications Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63152,
+  "metadata" : {
+    "handle" : "CASCADE-COMMUNICATIONS-01",
+    "description" : "Cascade Communications Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.123.212.0/22",
       "167.142.163.0/24",
       "199.120.93.0/24",
@@ -11,6 +14,6 @@
       "208.126.196.0/22",
       "216.49.174.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

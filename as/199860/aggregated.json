@@ -1,9 +1,12 @@
 {
-  "asn": 199860,
-  "handle": "XELENT-AS",
-  "description": "ATOMDATA JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199860,
+  "metadata" : {
+    "handle" : "XELENT-AS",
+    "description" : "ATOMDATA JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.188.104.0/22",
       "46.229.216.0/21",
       "78.155.208.0/21",
@@ -12,7 +15,7 @@
       "185.44.12.0/22",
       "193.43.41.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6520::/32"
     ]
   }

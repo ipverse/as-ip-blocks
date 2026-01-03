@@ -1,9 +1,12 @@
 {
-  "asn": 23031,
-  "handle": "TELECU-TELECOMUNICACIONES-ECUADOR",
-  "description": "TELECU TELECOMUNICACIONES DEL ECUADOR TELECUSA S.A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23031,
+  "metadata" : {
+    "handle" : "TELECU-TELECOMUNICACIONES-ECUADOR",
+    "description" : "TELECU TELECOMUNICACIONES DEL ECUADOR TELECUSA S.A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.231.66.0/23",
       "179.0.40.0/22",
       "181.233.48.0/22",
@@ -19,7 +22,7 @@
       "205.235.4.0/24",
       "205.235.6.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:c310::/37",
       "2803:c310:900::/48",
       "2803:c310:902::/48",

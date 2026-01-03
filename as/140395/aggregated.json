@@ -1,12 +1,15 @@
 {
-  "asn": 140395,
-  "handle": "RDI-AS-ID",
-  "description": "PT RADNET DIGITAL INDONESIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140395,
+  "metadata" : {
+    "handle" : "RDI-AS-ID",
+    "description" : "PT RADNET DIGITAL INDONESIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.150.150.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:5c0::/32"
     ]
   }

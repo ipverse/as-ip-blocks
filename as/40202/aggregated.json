@@ -1,13 +1,16 @@
 {
-  "asn": 40202,
-  "handle": "EHS-01",
-  "description": "Edgar HighSpeed Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40202,
+  "metadata" : {
+    "handle" : "EHS-01",
+    "description" : "Edgar HighSpeed Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.167.64.0/24",
       "23.179.160.0/24",
       "130.51.240.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

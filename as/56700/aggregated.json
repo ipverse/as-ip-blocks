@@ -1,12 +1,15 @@
 {
-  "asn": 56700,
-  "handle": "OSTERAKER",
-  "description": "Osterakers Kommun",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56700,
+  "metadata" : {
+    "handle" : "OSTERAKER",
+    "description" : "Osterakers Kommun",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.198.92.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:3cc::/48"
     ]
   }

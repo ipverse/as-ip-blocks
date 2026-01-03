@@ -1,9 +1,12 @@
 {
-  "asn": 30081,
-  "handle": "CACHENETWORKS",
-  "description": "CacheFly",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30081,
+  "metadata" : {
+    "handle" : "CACHENETWORKS",
+    "description" : "CacheFly",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.88.132.0/22",
       "50.31.196.0/23",
       "50.31.201.0/24",
@@ -46,7 +49,7 @@
       "216.246.104.0/24",
       "216.246.118.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:4c40::/32",
       "2a07:9a40::/29"
     ]

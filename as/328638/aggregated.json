@@ -1,9 +1,12 @@
 {
-  "asn": 328638,
-  "handle": "LETABANETWORKS",
-  "description": "Letaba Networks (Pty) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328638,
+  "metadata" : {
+    "handle" : "LETABANETWORKS",
+    "description" : "Letaba Networks (Pty) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.141.64.0/19",
       "102.207.180.0/22",
       "102.216.104.0/22",
@@ -12,7 +15,7 @@
       "160.226.160.0/20",
       "196.6.112.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f0a0::/32"
     ]
   }

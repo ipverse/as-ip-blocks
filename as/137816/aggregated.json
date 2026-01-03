@@ -1,14 +1,17 @@
 {
-  "asn": 137816,
-  "handle": "CLOUDNET-AS-AP",
-  "description": "Cloud Net Technologies Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137816,
+  "metadata" : {
+    "handle" : "CLOUDNET-AS-AP",
+    "description" : "Cloud Net Technologies Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.71.47.0/24",
       "38.75.92.0/24",
       "103.114.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:d1c0::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 31772,
-  "handle": "FCSA-AS-2",
-  "description": "Farm Credit Services of America",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31772,
+  "metadata" : {
+    "handle" : "FCSA-AS-2",
+    "description" : "Farm Credit Services of America",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.81.170.0/23",
       "209.182.250.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

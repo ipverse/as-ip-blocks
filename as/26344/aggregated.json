@@ -1,9 +1,12 @@
 {
-  "asn": 26344,
-  "handle": "REALPAGE-INC",
-  "description": "Real Page Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26344,
+  "metadata" : {
+    "handle" : "REALPAGE-INC",
+    "description" : "Real Page Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.20.53.0/24",
       "8.39.132.0/24",
       "8.39.216.0/24",
@@ -15,7 +18,7 @@
       "120.28.20.0/24",
       "222.127.19.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:2980:1000::/40"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 36563,
-  "handle": "TELX-DALLAS",
-  "description": "Telx",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36563,
+  "metadata" : {
+    "handle" : "TELX-DALLAS",
+    "description" : "Telx",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.40.32.0/20",
       "45.56.204.0/22",
       "192.235.111.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:cf80::/32"
     ]
   }

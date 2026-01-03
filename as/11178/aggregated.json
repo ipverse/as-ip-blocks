@@ -1,9 +1,12 @@
 {
-  "asn": 11178,
-  "handle": "RS-ACCESSPLUS",
-  "description": "AccessPlus",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11178,
+  "metadata" : {
+    "handle" : "RS-ACCESSPLUS",
+    "description" : "AccessPlus",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.20.178.0/23",
       "8.20.186.0/23",
       "8.20.190.0/24",
@@ -20,7 +23,7 @@
       "168.245.150.0/24",
       "192.156.251.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:7240::/32"
     ]
   }

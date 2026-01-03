@@ -1,15 +1,18 @@
 {
-  "asn": 38254,
-  "handle": "ITLAB-AS-AP",
-  "description": "Pang-Wei Tsai",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38254,
+  "metadata" : {
+    "handle" : "ITLAB-AS-AP",
+    "description" : "Pang-Wei Tsai",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.31.69.0/24",
       "103.122.119.0/24",
       "103.129.145.0/24",
       "103.167.250.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:c480::/48",
       "2403:7f40:e000::/36"
     ]

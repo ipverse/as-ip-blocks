@@ -1,12 +1,15 @@
 {
-  "asn": 35824,
-  "handle": "COMMASTER-AS",
-  "description": "Commaster Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35824,
+  "metadata" : {
+    "handle" : "COMMASTER-AS",
+    "description" : "Commaster Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.192.72.0/23",
       "91.192.75.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

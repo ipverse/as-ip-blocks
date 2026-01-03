@@ -1,9 +1,12 @@
 {
-  "asn": 147040,
-  "handle": "NEBULA-AS-AP",
-  "description": "NEBULA SYSTEMS SDN BHD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147040,
+  "metadata" : {
+    "handle" : "NEBULA-AS-AP",
+    "description" : "NEBULA SYSTEMS SDN BHD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.4.108.0/24",
       "103.35.136.0/22",
       "103.173.114.0/23",
@@ -16,6 +19,6 @@
       "202.87.112.0/21",
       "202.87.120.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

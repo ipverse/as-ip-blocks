@@ -1,15 +1,18 @@
 {
-  "asn": 202207,
-  "handle": "EAM",
-  "description": "ASPA CLOUD SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202207,
+  "metadata" : {
+    "handle" : "EAM",
+    "description" : "ASPA CLOUD SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.56.160.0/21",
       "5.181.44.0/22",
       "94.250.246.0/23",
       "185.5.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:1c0::/32"
     ]
   }

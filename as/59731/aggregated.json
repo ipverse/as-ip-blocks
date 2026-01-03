@@ -1,12 +1,15 @@
 {
-  "asn": 59731,
-  "handle": "LIFELINK-AS",
-  "description": "Life-Link LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59731,
+  "metadata" : {
+    "handle" : "LIFELINK-AS",
+    "description" : "Life-Link LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.132.206.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:1301:4005::/48"
     ]
   }

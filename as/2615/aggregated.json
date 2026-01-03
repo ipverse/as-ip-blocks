@@ -1,9 +1,12 @@
 {
-  "asn": 2615,
-  "handle": "BECHTEL",
-  "description": "Bechtel Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2615,
+  "metadata" : {
+    "handle" : "BECHTEL",
+    "description" : "Bechtel Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.1.9.0/24",
       "147.1.10.0/23",
       "147.1.16.0/23",
@@ -35,6 +38,6 @@
       "147.1.244.0/23",
       "147.1.247.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

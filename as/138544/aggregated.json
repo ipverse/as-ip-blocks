@@ -1,12 +1,15 @@
 {
-  "asn": 138544,
-  "handle": "HK-ONLINE-AS",
-  "description": "HK ONLINE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138544,
+  "metadata" : {
+    "handle" : "HK-ONLINE-AS",
+    "description" : "HK ONLINE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.132.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:3d40::/32"
     ]
   }

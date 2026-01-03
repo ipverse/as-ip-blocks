@@ -1,11 +1,14 @@
 {
-  "asn": 50379,
-  "handle": "ISCNET-AS",
-  "description": "Internet Services and Communications AD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50379,
+  "metadata" : {
+    "handle" : "ISCNET-AS",
+    "description" : "Internet Services and Communications AD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.191.60.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

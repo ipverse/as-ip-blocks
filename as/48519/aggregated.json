@@ -1,16 +1,19 @@
 {
-  "asn": 48519,
-  "handle": "KNIPP-AMS-AS",
-  "description": "Knipp Medien und Kommunikation GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48519,
+  "metadata" : {
+    "handle" : "KNIPP-AMS-AS",
+    "description" : "Knipp Medien und Kommunikation GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.95.96.0/23",
       "185.119.136.0/23",
       "195.253.48.0/22",
       "195.253.84.0/22",
       "195.253.101.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1c3e:96::/47",
       "2a01:5b0:2::/48",
       "2a01:5b0:8::/48",

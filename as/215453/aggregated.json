@@ -1,13 +1,16 @@
 {
-  "asn": 215453,
-  "handle": "NUFIBRE-AS",
-  "description": "Nufibre Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215453,
+  "metadata" : {
+    "handle" : "NUFIBRE-AS",
+    "description" : "Nufibre Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.18.86.0/23",
       "213.18.240.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:4744::/32"
     ]
   }

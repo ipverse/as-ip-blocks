@@ -1,12 +1,15 @@
 {
-  "asn": 17372,
-  "handle": "BMO-TOR2",
-  "description": "Bank of Montreal",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17372,
+  "metadata" : {
+    "handle" : "BMO-TOR2",
+    "description" : "Bank of Montreal",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.43.44.0/24",
       "142.43.46.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

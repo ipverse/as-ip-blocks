@@ -1,9 +1,12 @@
 {
-  "asn": 9308,
-  "handle": "CHINA-ABITCOOL",
-  "description": "Abitcool(China) Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9308,
+  "metadata" : {
+    "handle" : "CHINA-ABITCOOL",
+    "description" : "Abitcool(China) Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.83.128.0/18",
       "59.151.0.0/18",
       "120.132.132.0/24",
@@ -29,6 +32,6 @@
       "211.151.226.0/23",
       "211.152.96.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

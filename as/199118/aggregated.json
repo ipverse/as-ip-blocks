@@ -1,16 +1,19 @@
 {
-  "asn": 199118,
-  "handle": "HPLS-AS",
-  "description": "Heinlein-Support GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199118,
+  "metadata" : {
+    "handle" : "HPLS-AS",
+    "description" : "Heinlein-Support GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.241.56.0/21",
       "91.198.250.0/24",
       "91.223.20.0/24",
       "185.97.172.0/22",
       "195.10.208.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2050::/48"
     ]
   }

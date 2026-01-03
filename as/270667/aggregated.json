@@ -1,12 +1,15 @@
 {
-  "asn": 270667,
-  "handle": "OMEGA-TECH-INTERNET",
-  "description": "Omega Tech Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270667,
+  "metadata" : {
+    "handle" : "OMEGA-TECH-INTERNET",
+    "description" : "Omega Tech Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.10.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6f88::/32"
     ]
   }

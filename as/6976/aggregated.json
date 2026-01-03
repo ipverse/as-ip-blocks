@@ -1,9 +1,12 @@
 {
-  "asn": 6976,
-  "handle": "VZN-VOL2",
-  "description": "Verizon Business",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6976,
+  "metadata" : {
+    "handle" : "VZN-VOL2",
+    "description" : "Verizon Business",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.180.0.0/21",
       "206.46.36.0/22",
       "206.46.40.0/21",
@@ -15,6 +18,6 @@
       "206.46.232.0/24",
       "206.46.245.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 40370,
-  "handle": "BCDTRAVELINET1",
-  "description": "BCD Travel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40370,
+  "metadata" : {
+    "handle" : "BCDTRAVELINET1",
+    "description" : "BCD Travel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.75.144.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

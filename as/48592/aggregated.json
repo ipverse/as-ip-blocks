@@ -1,15 +1,18 @@
 {
-  "asn": 48592,
-  "handle": "DORNA-AS",
-  "description": "Dorna Network LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48592,
+  "metadata" : {
+    "handle" : "DORNA-AS",
+    "description" : "Dorna Network LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.81.76.0/24",
       "77.81.78.0/24",
       "77.81.82.0/23",
       "128.65.160.0/22",
       "185.39.180.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

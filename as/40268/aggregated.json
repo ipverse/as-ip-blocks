@@ -1,12 +1,15 @@
 {
-  "asn": 40268,
-  "handle": "ICON-INTERNET",
-  "description": "ICON Internet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40268,
+  "metadata" : {
+    "handle" : "ICON-INTERNET",
+    "description" : "ICON Internet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.171.232.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f97d:10::/48",
       "2602:f97d:15::/48"
     ]

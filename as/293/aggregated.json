@@ -1,9 +1,12 @@
 {
-  "asn": 293,
-  "handle": "ESNET",
-  "description": "ESnet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 293,
+  "metadata" : {
+    "handle" : "ESNET",
+    "description" : "ESnet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.55.0.0/16",
       "134.167.0.0/16",
       "192.74.210.0/24",
@@ -28,7 +31,7 @@
       "199.201.157.0/24",
       "199.201.158.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:400::/32",
       "2620:8f:4001::/48"
     ]

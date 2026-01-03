@@ -1,15 +1,18 @@
 {
-  "asn": 50066,
-  "handle": "SRSTUBES-AS",
-  "description": "Serious Tubes Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50066,
+  "metadata" : {
+    "handle" : "SRSTUBES-AS",
+    "description" : "Serious Tubes Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.14.0.0/24",
       "194.14.165.0/24",
       "194.14.246.0/23",
       "194.68.0.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2a0::/48"
     ]
   }

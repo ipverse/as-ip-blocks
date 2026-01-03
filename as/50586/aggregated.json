@@ -1,11 +1,14 @@
 {
-  "asn": 50586,
-  "handle": "CMRBANK-AS",
-  "description": "CMRBank (LLC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50586,
+  "metadata" : {
+    "handle" : "CMRBANK-AS",
+    "description" : "CMRBank (LLC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.19.6.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 22903,
-  "handle": "EDGE-HOSTING",
-  "description": "Databank Holdings Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22903,
+  "metadata" : {
+    "handle" : "EDGE-HOSTING",
+    "description" : "Databank Holdings Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.19.204.0/23",
       "64.19.213.0/24",
       "64.19.220.0/23",
@@ -43,7 +46,7 @@
       "212.69.159.0/24",
       "216.120.184.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:1980:107::/48"
     ]
   }

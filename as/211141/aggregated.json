@@ -1,14 +1,17 @@
 {
-  "asn": 211141,
-  "handle": "PINKBEAR",
-  "description": "PINKBEAR SLU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211141,
+  "metadata" : {
+    "handle" : "PINKBEAR",
+    "description" : "PINKBEAR SLU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.80.13.0/24",
       "45.80.15.0/24",
       "185.120.182.0/24",
       "185.226.195.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

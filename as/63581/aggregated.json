@@ -1,9 +1,12 @@
 {
-  "asn": 63581,
-  "handle": "GXRTVNET",
-  "description": "GUANGXI RADIO \u0026 TELEVISION INFORMATION NETWORK CO. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63581,
+  "metadata" : {
+    "handle" : "GXRTVNET",
+    "description" : "GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.255.68.0/22",
       "103.228.208.0/22",
       "219.232.66.0/23",
@@ -14,7 +17,7 @@
       "219.232.88.0/22",
       "219.232.92.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:cb80::/32"
     ]
   }

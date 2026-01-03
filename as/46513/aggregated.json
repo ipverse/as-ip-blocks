@@ -1,9 +1,12 @@
 {
-  "asn": 46513,
-  "handle": "ALARM-PROD-US-AS",
-  "description": "Alarm.com Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46513,
+  "metadata" : {
+    "handle" : "ALARM-PROD-US-AS",
+    "description" : "Alarm.com Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.97.80.0/23",
       "149.97.82.0/24",
       "149.97.90.0/23",
@@ -14,7 +17,7 @@
       "209.222.135.0/24",
       "216.36.42.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:8e40:1::/48",
       "2606:8e40:200::/39",
       "2606:8e40:400::/39"

@@ -1,15 +1,18 @@
 {
-  "asn": 34287,
-  "handle": "VOLGOGRAD-GSM-AS",
-  "description": "T2 Mobile LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34287,
+  "metadata" : {
+    "handle" : "VOLGOGRAD-GSM-AS",
+    "description" : "T2 Mobile LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.69.144.0/21",
       "80.69.152.0/23",
       "80.69.155.0/24",
       "80.69.156.0/22",
       "91.143.0.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

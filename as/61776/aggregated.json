@@ -1,14 +1,17 @@
 {
-  "asn": 61776,
-  "handle": "PROVEDOR-ACESSO-INTERNET",
-  "description": "Provedor de Acesso à Internet Eireli",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61776,
+  "metadata" : {
+    "handle" : "PROVEDOR-ACESSO-INTERNET",
+    "description" : "Provedor de Acesso à Internet Eireli",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.208.136.0/22",
       "177.53.136.0/22",
       "200.196.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:192c::/36",
       "2804:192c:2000::/35",
       "2804:192c:4000::/36",

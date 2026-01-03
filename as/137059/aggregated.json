@@ -1,15 +1,18 @@
 {
-  "asn": 137059,
-  "handle": "EASYNET1-AS-AP",
-  "description": "EasyNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137059,
+  "metadata" : {
+    "handle" : "EASYNET1-AS-AP",
+    "description" : "EasyNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.103.88.0/23",
       "103.132.185.0/24",
       "103.171.142.0/23",
       "114.130.78.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8fa0::/47",
       "2400:8fa0:10::/47",
       "2400:8fa0:12::/48"

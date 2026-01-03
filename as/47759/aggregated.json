@@ -1,9 +1,12 @@
 {
-  "asn": 47759,
-  "handle": "POIG-AS",
-  "description": "POIG Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47759,
+  "metadata" : {
+    "handle" : "POIG-AS",
+    "description" : "POIG Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.173.0.0/23",
       "178.173.5.0/24",
       "178.173.11.0/24",
@@ -17,7 +20,7 @@
       "178.173.112.0/21",
       "178.173.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:3480::/29"
     ]
   }

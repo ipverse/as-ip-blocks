@@ -1,9 +1,12 @@
 {
-  "asn": 202395,
-  "handle": "FAB-NET",
-  "description": "Fiberaccessbolaget i Sverige AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202395,
+  "metadata" : {
+    "handle" : "FAB-NET",
+    "description" : "Fiberaccessbolaget i Sverige AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.242.208.0/22",
       "185.254.80.0/22",
       "192.165.252.0/24",
@@ -12,7 +15,7 @@
       "193.183.224.0/22",
       "195.226.220.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:dd00::/29"
     ]
   }

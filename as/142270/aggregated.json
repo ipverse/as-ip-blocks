@@ -1,13 +1,16 @@
 {
-  "asn": 142270,
-  "handle": "PSICL-AS-AP",
-  "description": "ohae/posinet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142270,
+  "metadata" : {
+    "handle" : "PSICL-AS-AP",
+    "description" : "ohae/posinet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.71.9.0/24",
       "203.76.253.0/24",
       "203.76.254.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

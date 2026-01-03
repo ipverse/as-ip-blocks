@@ -1,12 +1,15 @@
 {
-  "asn": 16659,
-  "handle": "CROWN-AS-1",
-  "description": "Crown Castle USA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16659,
+  "metadata" : {
+    "handle" : "CROWN-AS-1",
+    "description" : "Crown Castle USA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.213.130.0/24",
       "162.254.108.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

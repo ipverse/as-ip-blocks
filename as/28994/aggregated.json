@@ -1,13 +1,16 @@
 {
-  "asn": 28994,
-  "handle": "SITEL-AS",
-  "description": "Sitel Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28994,
+  "metadata" : {
+    "handle" : "SITEL-AS",
+    "description" : "Sitel Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.142.160.0/20",
       "217.27.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:420::/32"
     ]
   }

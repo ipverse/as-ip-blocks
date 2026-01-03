@@ -1,9 +1,12 @@
 {
-  "asn": 17267,
-  "handle": "VGI-TECHNOLOGY",
-  "description": "VGI Technology Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17267,
+  "metadata" : {
+    "handle" : "VGI-TECHNOLOGY",
+    "description" : "VGI Technology Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.149.240.0/24",
       "23.177.248.0/24",
       "38.65.80.0/24",
@@ -13,7 +16,7 @@
       "184.105.110.0/24",
       "199.89.49.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd97::/47",
       "2602:fd97:c::/48"
     ]

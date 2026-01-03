@@ -1,9 +1,12 @@
 {
-  "asn": 59116,
-  "handle": "AIGTKK",
-  "description": "AIG Technologies KK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59116,
+  "metadata" : {
+    "handle" : "AIGTKK",
+    "description" : "AIG Technologies KK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.105.8.0/24",
       "170.105.10.0/24",
       "170.105.12.0/22",
@@ -13,7 +16,7 @@
       "170.105.29.0/24",
       "170.105.30.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:13f:700c::/46",
       "2620:13f:701c::/48",
       "2620:13f:701e::/48"

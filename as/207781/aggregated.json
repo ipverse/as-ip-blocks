@@ -1,10 +1,13 @@
 {
-  "asn": 207781,
-  "handle": "MCL-AS",
-  "description": "Marcel Menzel",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 207781,
+  "metadata" : {
+    "handle" : "MCL-AS",
+    "description" : "Marcel Menzel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a09:e1c1:efc0::/46",
       "2a09:e1c1:efc4::/48"
     ]

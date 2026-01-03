@@ -1,9 +1,12 @@
 {
-  "asn": 31362,
-  "handle": "PROTECTNET",
-  "description": "NETPROTECT SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31362,
+  "metadata" : {
+    "handle" : "PROTECTNET",
+    "description" : "NETPROTECT SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.14.43.0/24",
       "31.14.53.0/24",
       "31.14.54.0/24",
@@ -22,6 +25,6 @@
       "89.42.214.0/24",
       "89.44.104.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

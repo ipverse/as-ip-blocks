@@ -1,16 +1,19 @@
 {
-  "asn": 35962,
-  "handle": "MSA-ASN",
-  "description": "Management Science Associates Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35962,
+  "metadata" : {
+    "handle" : "MSA-ASN",
+    "description" : "Management Science Associates Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.235.243.0/24",
       "65.123.167.0/24",
       "199.33.135.0/24",
       "206.193.230.0/24",
       "207.108.9.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:f4c0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 133398,
-  "handle": "TELE-AS",
-  "description": "Tele Asia Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133398,
+  "metadata" : {
+    "handle" : "TELE-AS",
+    "description" : "Tele Asia Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.123.88.0/22",
       "45.123.188.0/23",
       "45.123.191.0/24",
@@ -16,7 +19,7 @@
       "104.234.198.0/24",
       "212.100.169.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:f9c0:2600::/40",
       "2406:4300::/32",
       "2a10:1fc0::/48"

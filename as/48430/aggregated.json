@@ -1,16 +1,19 @@
 {
-  "asn": 48430,
-  "handle": "FIRSTDC-AS",
-  "description": "Perviy TSOD LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48430,
+  "metadata" : {
+    "handle" : "FIRSTDC-AS",
+    "description" : "Perviy TSOD LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.231.222.0/24",
       "185.139.212.0/22",
       "188.119.120.0/24",
       "194.156.100.0/22",
       "195.95.204.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:29b8::/48",
       "2a07:1840::/32"
     ]

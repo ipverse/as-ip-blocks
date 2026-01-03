@@ -1,12 +1,15 @@
 {
-  "asn": 262657,
-  "handle": "DENTEL-TELECOM",
-  "description": "DENTEL Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262657,
+  "metadata" : {
+    "handle" : "DENTEL-TELECOM",
+    "description" : "DENTEL Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.7.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1818::/32"
     ]
   }

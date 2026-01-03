@@ -1,12 +1,15 @@
 {
-  "asn": 60478,
-  "handle": "KSYS",
-  "description": "K-sys SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60478,
+  "metadata" : {
+    "handle" : "KSYS",
+    "description" : "K-sys SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.31.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:b420::/32"
     ]
   }

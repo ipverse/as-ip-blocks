@@ -1,16 +1,19 @@
 {
-  "asn": 19465,
-  "handle": "AS-GOSFIELD",
-  "description": "Gosfield North Communications Co-operative Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19465,
+  "metadata" : {
+    "handle" : "AS-GOSFIELD",
+    "description" : "Gosfield North Communications Co-operative Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.188.176.0/24",
       "142.46.192.0/24",
       "162.212.112.0/22",
       "199.83.200.0/21",
       "216.180.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:63c0::/32"
     ]
   }

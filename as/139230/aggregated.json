@@ -1,12 +1,15 @@
 {
-  "asn": 139230,
-  "handle": "HAMS-AS-AP",
-  "description": "HAMS Garments Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139230,
+  "metadata" : {
+    "handle" : "HAMS-AS-AP",
+    "description" : "HAMS Garments Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.140.94.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:b780::/48"
     ]
   }

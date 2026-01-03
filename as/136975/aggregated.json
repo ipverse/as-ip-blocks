@@ -1,14 +1,17 @@
 {
-  "asn": 136975,
-  "handle": "GNET-AS-AP",
-  "description": "Next Tier Trading Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136975,
+  "metadata" : {
+    "handle" : "GNET-AS-AP",
+    "description" : "Next Tier Trading Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.101.16.0/22",
       "154.18.220.0/23",
       "154.18.222.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:3240::/32"
     ]
   }

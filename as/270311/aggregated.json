@@ -1,12 +1,15 @@
 {
-  "asn": 270311,
-  "handle": "BSB-LINK-FIBRA",
-  "description": "BSB Link Fibra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270311,
+  "metadata" : {
+    "handle" : "BSB-LINK-FIBRA",
+    "description" : "BSB Link Fibra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "189.113.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6a20::/34",
       "2804:6a20:e000::/35"
     ]

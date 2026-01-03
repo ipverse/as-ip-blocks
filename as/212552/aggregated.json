@@ -1,9 +1,12 @@
 {
-  "asn": 212552,
-  "handle": "BITCOMMAND",
-  "description": "BitCommand LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212552,
+  "metadata" : {
+    "handle" : "BITCOMMAND",
+    "description" : "BitCommand LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.225.90.0/24",
       "45.146.241.0/24",
       "45.195.200.0/24",
@@ -40,7 +43,7 @@
       "202.133.88.0/22",
       "217.197.97.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:7981:467::/48",
       "2a14:7981:470::/46",
       "2a14:7981:2002::/48",

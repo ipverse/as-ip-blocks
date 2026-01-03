@@ -1,9 +1,12 @@
 {
-  "asn": 21100,
-  "handle": "ITLDC-EU",
-  "description": "GREEN FLOID LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21100,
+  "metadata" : {
+    "handle" : "ITLDC-EU",
+    "description" : "GREEN FLOID LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.34.180.0/23",
       "45.128.150.0/24",
       "46.28.65.0/24",
@@ -33,7 +36,7 @@
       "217.12.218.0/23",
       "217.12.220.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2f5c::/48",
       "2a02:27a9::/32",
       "2a02:27ab::/32",

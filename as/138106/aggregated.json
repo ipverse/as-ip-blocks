@@ -1,14 +1,17 @@
 {
-  "asn": 138106,
-  "handle": "LTN-AS-ID",
-  "description": "PT Lintas Telematika Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138106,
+  "metadata" : {
+    "handle" : "LTN-AS-ID",
+    "description" : "PT Lintas Telematika Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.126.9.0/24",
       "103.126.10.0/23",
       "114.199.92.0/24",
       "161.248.116.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

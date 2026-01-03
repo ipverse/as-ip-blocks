@@ -1,9 +1,12 @@
 {
-  "asn": 3734,
-  "handle": "SCCO",
-  "description": "Santa Clara County Office of Education",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3734,
+  "metadata" : {
+    "handle" : "SCCO",
+    "description" : "Santa Clara County Office of Education",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.254.0.0/16",
       "170.91.128.0/18",
       "199.233.182.0/24",
@@ -17,6 +20,6 @@
       "207.31.0.0/18",
       "209.68.128.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 62205,
-  "handle": "UNITEL",
-  "description": "Unitel LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62205,
+  "metadata" : {
+    "handle" : "UNITEL",
+    "description" : "Unitel LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.174.184.0/22",
       "79.174.188.0/23",
       "79.174.190.0/24",
@@ -22,7 +25,7 @@
       "195.70.193.0/24",
       "212.192.49.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:72a0::/32"
     ]
   }

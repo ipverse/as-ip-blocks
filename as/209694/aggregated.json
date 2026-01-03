@@ -1,11 +1,14 @@
 {
-  "asn": 209694,
-  "handle": "PI-TELECOM-AS",
-  "description": "piTelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209694,
+  "metadata" : {
+    "handle" : "PI-TELECOM-AS",
+    "description" : "piTelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.103.87.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

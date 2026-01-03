@@ -1,13 +1,16 @@
 {
-  "asn": 61702,
-  "handle": "DELTA-TELECOM",
-  "description": "DELTA TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61702,
+  "metadata" : {
+    "handle" : "DELTA-TELECOM",
+    "description" : "DELTA TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.0.220.0/22",
       "138.185.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1afc::/35",
       "2804:1afc:2000::/36"
     ]

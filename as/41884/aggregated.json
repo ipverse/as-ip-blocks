@@ -1,13 +1,16 @@
 {
-  "asn": 41884,
-  "handle": "CERT-SE-AS",
-  "description": "Swedish Civil Contingencies Agency",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41884,
+  "metadata" : {
+    "handle" : "CERT-SE-AS",
+    "description" : "Swedish Civil Contingencies Agency",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.121.218.0/24",
       "195.200.72.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1c::/48"
     ]
   }

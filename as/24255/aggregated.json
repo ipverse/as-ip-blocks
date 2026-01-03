@@ -1,9 +1,12 @@
 {
-  "asn": 24255,
-  "handle": "T-CATV",
-  "description": "Koshinomiyako Network Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24255,
+  "metadata" : {
+    "handle" : "T-CATV",
+    "description" : "Koshinomiyako Network Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.33.0.0/18",
       "103.198.212.0/22",
       "182.50.164.0/22",
@@ -11,7 +14,7 @@
       "202.127.80.0/20",
       "219.100.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:5300::/32"
     ]
   }

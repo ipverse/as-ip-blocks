@@ -1,9 +1,12 @@
 {
-  "asn": 24538,
-  "handle": "DIGISATNET-AS-ID",
-  "description": "DIGITAL SATELLITE INDONESIA PT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24538,
+  "metadata" : {
+    "handle" : "DIGISATNET-AS-ID",
+    "description" : "DIGITAL SATELLITE INDONESIA PT.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.246.185.0/24",
       "122.200.51.0/24",
       "203.81.184.0/24",
@@ -11,7 +14,7 @@
       "203.81.188.0/23",
       "203.81.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:2600::/32",
       "2406:b480:204::/48"
     ]

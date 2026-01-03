@@ -1,9 +1,12 @@
 {
-  "asn": 21840,
-  "handle": "NET3",
-  "description": "WiredISP Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21840,
+  "metadata" : {
+    "handle" : "NET3",
+    "description" : "WiredISP Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.57.229.0/24",
       "31.58.101.0/24",
       "45.91.138.0/24",
@@ -41,6 +44,6 @@
       "212.2.237.0/24",
       "212.135.242.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

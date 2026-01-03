@@ -1,9 +1,12 @@
 {
-  "asn": 63182,
-  "handle": "RAPIDSCALE",
-  "description": "RapidScale Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63182,
+  "metadata" : {
+    "handle" : "RAPIDSCALE",
+    "description" : "RapidScale Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.251.44.0/22",
       "63.234.29.0/24",
       "64.22.154.0/23",
@@ -44,6 +47,6 @@
       "209.81.64.0/19",
       "209.242.137.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

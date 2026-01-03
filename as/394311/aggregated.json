@@ -1,9 +1,12 @@
 {
-  "asn": 394311,
-  "handle": "DIGTCI",
-  "description": "Digicel Turks and Caicos Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394311,
+  "metadata" : {
+    "handle" : "DIGTCI",
+    "description" : "Digicel Turks and Caicos Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.54.204.0/22",
       "162.212.12.0/24",
       "173.225.254.0/24",
@@ -11,7 +14,7 @@
       "199.103.28.0/22",
       "204.110.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff48::/36"
     ]
   }

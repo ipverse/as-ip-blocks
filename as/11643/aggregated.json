@@ -1,9 +1,12 @@
 {
-  "asn": 11643,
-  "handle": "EBAY",
-  "description": "eBay Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11643,
+  "metadata" : {
+    "handle" : "EBAY",
+    "description" : "eBay Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.4.252.0/22",
       "66.135.192.0/19",
       "66.211.160.0/21",
@@ -12,6 +15,6 @@
       "209.140.128.0/19",
       "216.113.176.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

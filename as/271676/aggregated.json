@@ -1,12 +1,15 @@
 {
-  "asn": 271676,
-  "handle": "ACESSE-WIFI",
-  "description": "ACESSE WIFI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271676,
+  "metadata" : {
+    "handle" : "ACESSE-WIFI",
+    "description" : "ACESSE WIFI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.189.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7f40:8000::/34"
     ]
   }

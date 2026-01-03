@@ -1,13 +1,16 @@
 {
-  "asn": 215147,
-  "handle": "SCHLEYER-EDV",
-  "description": "Schleyer-EDV UG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215147,
+  "metadata" : {
+    "handle" : "SCHLEYER-EDV",
+    "description" : "Schleyer-EDV UG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.151.56.0/24",
       "111.235.151.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:1283:8000::/36",
       "2a06:1283:c110::/44",
       "2a09:54c3:a100::/47",

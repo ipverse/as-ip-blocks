@@ -1,9 +1,12 @@
 {
-  "asn": 33548,
-  "handle": "UNWIRED-NOC",
-  "description": "Unwired Broadband LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33548,
+  "metadata" : {
+    "handle" : "UNWIRED-NOC",
+    "description" : "Unwired Broadband LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.227.96.0/19",
       "64.192.0.0/21",
       "64.193.92.0/22",
@@ -24,7 +27,7 @@
       "207.177.128.0/18",
       "209.54.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:6e80::/28"
     ]
   }

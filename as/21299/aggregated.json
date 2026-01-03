@@ -1,9 +1,12 @@
 {
-  "asn": 21299,
-  "handle": "KAR-TEL-AS",
-  "description": "Kar-Tel LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21299,
+  "metadata" : {
+    "handle" : "KAR-TEL-AS",
+    "description" : "Kar-Tel LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.34.0.0/17",
       "5.101.52.0/22",
       "5.101.56.0/22",
@@ -74,7 +77,7 @@
       "212.76.0.0/19",
       "213.5.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:4b40::/36",
       "2a01:4b40:1000::/37",
       "2a01:4b40:3000::/36",

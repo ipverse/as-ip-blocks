@@ -1,10 +1,13 @@
 {
-  "asn": 400522,
-  "handle": "ROOTCLOUD",
-  "description": "rootcloud LLC",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 400522,
+  "metadata" : {
+    "handle" : "ROOTCLOUD",
+    "description" : "rootcloud LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a07:c740::/29",
       "2a07:eb40::/29",
       "2a07:f640::/29",

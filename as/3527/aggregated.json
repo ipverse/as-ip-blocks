@@ -1,9 +1,12 @@
 {
-  "asn": 3527,
-  "handle": "NIH-NET",
-  "description": "National Institutes of Health",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3527,
+  "metadata" : {
+    "handle" : "NIH-NET",
+    "description" : "National Institutes of Health",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.231.0.0/16",
       "137.187.0.0/16",
       "156.40.0.0/16",
@@ -13,7 +16,7 @@
       "192.231.145.0/24",
       "192.231.146.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f220:400::/43"
     ]
   }

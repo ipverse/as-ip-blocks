@@ -1,13 +1,16 @@
 {
-  "asn": 10069,
-  "handle": "SMLINE-AS",
-  "description": "Seoul Metro",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10069,
+  "metadata" : {
+    "handle" : "SMLINE-AS",
+    "description" : "Seoul Metro",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.231.20.0/24",
       "211.54.2.0/24",
       "218.38.73.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

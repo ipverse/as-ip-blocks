@@ -1,11 +1,14 @@
 {
-  "asn": 135152,
-  "handle": "GNTL-AS-AP",
-  "description": "Global Network Transit Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135152,
+  "metadata" : {
+    "handle" : "GNTL-AS-AP",
+    "description" : "Global Network Transit Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.30.16.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

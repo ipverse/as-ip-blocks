@@ -1,10 +1,13 @@
 {
-  "asn": 53723,
-  "handle": "ROUTESI-MAIN",
-  "description": "Routesi LLC",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 53723,
+  "metadata" : {
+    "handle" : "ROUTESI-MAIN",
+    "description" : "Routesi LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2602:f60b::/40"
     ]
   }

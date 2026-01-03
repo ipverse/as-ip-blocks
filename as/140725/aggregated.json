@@ -1,11 +1,14 @@
 {
-  "asn": 140725,
-  "handle": "THAICUSTOMS-AS-AP",
-  "description": "Thai Customs Department",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140725,
+  "metadata" : {
+    "handle" : "THAICUSTOMS-AS-AP",
+    "description" : "Thai Customs Department",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.152.53.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

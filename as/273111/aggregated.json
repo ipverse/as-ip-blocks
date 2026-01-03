@@ -1,13 +1,16 @@
 {
-  "asn": 273111,
-  "handle": "REDITEL-ISP",
-  "description": "Reditel ISP SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273111,
+  "metadata" : {
+    "handle" : "REDITEL-ISP",
+    "description" : "Reditel ISP SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.50.152.0/23",
       "200.50.154.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:2850:1000::/36"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 37608,
-  "handle": "IRENALA-AS",
-  "description": "iRENALA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37608,
+  "metadata" : {
+    "handle" : "IRENALA-AS",
+    "description" : "iRENALA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.242.96.0/20",
       "192.139.15.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

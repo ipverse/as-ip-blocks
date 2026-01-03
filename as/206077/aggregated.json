@@ -1,9 +1,12 @@
 {
-  "asn": 206077,
-  "handle": "LECRINTV",
-  "description": "Lecrin Television S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206077,
+  "metadata" : {
+    "handle" : "LECRINTV",
+    "description" : "Lecrin Television S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.172.193.0/24",
       "45.80.81.0/24",
       "84.236.245.0/24",
@@ -15,6 +18,6 @@
       "217.26.188.0/23",
       "217.76.252.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

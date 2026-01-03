@@ -1,9 +1,15 @@
 {
-  "asn": 141361,
-  "handle": "BCNL-AS-AP",
-  "description": "Bliss Communication Network (Pvt) Ltd",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": []
+  "asn" : 141361,
+  "metadata" : {
+    "handle" : "BCNL-AS-AP",
+    "description" : "Bliss Communication Network (Pvt) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
+      "103.157.154.0/23",
+      "119.157.80.0/22"
+    ],
+    "ipv6" : [ ]
   }
 }

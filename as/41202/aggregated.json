@@ -1,9 +1,12 @@
 {
-  "asn": 41202,
-  "handle": "UNITEL",
-  "description": "UNITEL LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41202,
+  "metadata" : {
+    "handle" : "UNITEL",
+    "description" : "UNITEL LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.110.208.0/21",
       "45.144.40.0/23",
       "46.8.72.0/22",
@@ -12,6 +15,6 @@
       "176.96.254.0/24",
       "185.183.240.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

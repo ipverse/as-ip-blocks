@@ -1,13 +1,16 @@
 {
-  "asn": 61636,
-  "handle": "LOGICLINK-TELECOM-EIRELI",
-  "description": "logicLINK Telecom - EIRELI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61636,
+  "metadata" : {
+    "handle" : "LOGICLINK-TELECOM-EIRELI",
+    "description" : "logicLINK Telecom - EIRELI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.100.120.0/22",
       "143.137.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1c14::/32"
     ]
   }

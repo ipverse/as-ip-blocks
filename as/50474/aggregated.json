@@ -1,15 +1,18 @@
 {
-  "asn": 50474,
-  "handle": "O2SWITCH",
-  "description": "O2SWITCH SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50474,
+  "metadata" : {
+    "handle" : "O2SWITCH",
+    "description" : "O2SWITCH SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.143.168.0/22",
       "78.40.8.0/22",
       "109.234.160.0/21",
       "185.154.136.0/22",
       "185.246.44.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

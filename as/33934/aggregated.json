@@ -1,9 +1,12 @@
 {
-  "asn": 33934,
-  "handle": "VOLGOGRADEC-AS",
-  "description": "PJSC Rostelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33934,
+  "metadata" : {
+    "handle" : "VOLGOGRADEC-AS",
+    "description" : "PJSC Rostelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.239.128.0/18",
       "85.172.112.0/20",
       "85.172.168.0/22",
@@ -14,6 +17,6 @@
       "178.34.64.0/22",
       "178.35.128.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

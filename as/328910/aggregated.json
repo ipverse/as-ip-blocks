@@ -1,12 +1,15 @@
 {
-  "asn": 328910,
-  "handle": "DEVBOKS-AS",
-  "description": "Devboks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328910,
+  "metadata" : {
+    "handle" : "DEVBOKS-AS",
+    "description" : "Devboks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.209.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:2100::/32"
     ]
   }

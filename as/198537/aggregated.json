@@ -1,9 +1,12 @@
 {
-  "asn": 198537,
-  "handle": "PL-KAMNET",
-  "description": "Kamil Turon trading as KAMNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198537,
+  "metadata" : {
+    "handle" : "PL-KAMNET",
+    "description" : "Kamil Turon trading as KAMNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.221.100.0/22",
       "45.159.236.0/22",
       "77.83.40.0/22",
@@ -19,7 +22,7 @@
       "195.14.26.0/23",
       "195.14.112.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:4bc0::/29"
     ]
   }

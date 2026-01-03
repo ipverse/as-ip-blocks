@@ -1,12 +1,15 @@
 {
-  "asn": 44971,
-  "handle": "GOETEC-AS",
-  "description": "University of Kent",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44971,
+  "metadata" : {
+    "handle" : "GOETEC-AS",
+    "description" : "University of Kent",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.24.112.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:6c00:f000::/36"
     ]
   }

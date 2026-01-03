@@ -1,9 +1,12 @@
 {
-  "asn": 33551,
-  "handle": "SISTERS-OF-MERCY-HEALTH-SYSTEM",
-  "description": "Sisters of Mercy Health System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33551,
+  "metadata" : {
+    "handle" : "SISTERS-OF-MERCY-HEALTH-SYSTEM",
+    "description" : "Sisters of Mercy Health System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.29.0.0/21",
       "170.29.9.0/24",
       "170.29.10.0/23",
@@ -16,6 +19,6 @@
       "170.29.72.0/23",
       "170.29.144.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

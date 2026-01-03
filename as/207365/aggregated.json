@@ -1,12 +1,15 @@
 {
-  "asn": 207365,
-  "handle": "AMP",
-  "description": "Aeroport Marseille Provence SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207365,
+  "metadata" : {
+    "handle" : "AMP",
+    "description" : "Aeroport Marseille Provence SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.73.225.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:1080::/29"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 210780,
-  "handle": "WUPPERTAL",
-  "description": "Stadt Wuppertal",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210780,
+  "metadata" : {
+    "handle" : "WUPPERTAL",
+    "description" : "Stadt Wuppertal",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.252.214.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:2e40::/29"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 208687,
-  "handle": "JURASSIC-FIBRE",
-  "description": "AllPoints Fibre Networks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208687,
+  "metadata" : {
+    "handle" : "JURASSIC-FIBRE",
+    "description" : "AllPoints Fibre Networks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.89.4.0/22",
       "141.195.160.0/19",
       "185.147.244.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:5580::/29"
     ]
   }

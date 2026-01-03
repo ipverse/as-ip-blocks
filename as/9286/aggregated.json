@@ -1,9 +1,12 @@
 {
-  "asn": 9286,
-  "handle": "KINXIDC-AS",
-  "description": "KINX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9286,
+  "metadata" : {
+    "handle" : "KINXIDC-AS",
+    "description" : "KINX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.201.0.0/16",
       "14.129.1.0/24",
       "14.129.2.0/23",
@@ -54,7 +57,7 @@
       "203.246.160.0/20",
       "210.97.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:2700::/48",
       "2401:2700:a::/48"
     ]

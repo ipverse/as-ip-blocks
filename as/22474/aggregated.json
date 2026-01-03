@@ -1,14 +1,17 @@
 {
-  "asn": 22474,
-  "handle": "SAINT-LUKES-HEALTH-SYSTEM-AS",
-  "description": "Saint Luke\u0027s Health System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22474,
+  "metadata" : {
+    "handle" : "SAINT-LUKES-HEALTH-SYSTEM-AS",
+    "description" : "Saint Luke's Health System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.33.28.0/23",
       "75.37.209.0/24",
       "192.148.254.0/23",
       "208.188.112.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

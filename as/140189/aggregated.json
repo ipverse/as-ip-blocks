@@ -1,12 +1,15 @@
 {
-  "asn": 140189,
-  "handle": "TREELINK-AS-IN",
-  "description": "Treelink Broadband Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140189,
+  "metadata" : {
+    "handle" : "TREELINK-AS-IN",
+    "description" : "Treelink Broadband Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.156.144.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:d340::/48"
     ]
   }

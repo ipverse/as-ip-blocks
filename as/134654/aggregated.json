@@ -1,12 +1,15 @@
 {
-  "asn": 134654,
-  "handle": "DATAUTAMA-NAP-IX",
-  "description": "PT Datautama Dinamika - NAP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134654,
+  "metadata" : {
+    "handle" : "DATAUTAMA-NAP-IX",
+    "description" : "PT Datautama Dinamika - NAP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.147.254.0/24",
       "175.184.238.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

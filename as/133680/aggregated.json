@@ -1,9 +1,12 @@
 {
-  "asn": 133680,
-  "handle": "SOFTECHINFOSOL-AS",
-  "description": "SOFTECH INFOSOL PVT. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133680,
+  "metadata" : {
+    "handle" : "SOFTECHINFOSOL-AS",
+    "description" : "SOFTECH INFOSOL PVT. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.24.135.0/24",
       "103.50.214.0/23",
       "103.136.84.0/24",
@@ -12,7 +15,7 @@
       "103.204.231.0/24",
       "203.76.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:de00::/48"
     ]
   }

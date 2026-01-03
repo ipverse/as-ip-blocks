@@ -1,13 +1,16 @@
 {
-  "asn": 9253,
-  "handle": "MYTV-HK",
-  "description": "MyTV Super Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9253,
+  "metadata" : {
+    "handle" : "MYTV-HK",
+    "description" : "MyTV Super Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.115.196.0/22",
       "103.84.220.0/22",
       "202.126.48.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

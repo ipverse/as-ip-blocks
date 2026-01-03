@@ -1,15 +1,18 @@
 {
-  "asn": 5048,
-  "handle": "FIBER",
-  "description": "FIBERNET Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5048,
+  "metadata" : {
+    "handle" : "FIBER",
+    "description" : "FIBERNET Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.160.64.0/19",
       "69.168.64.0/19",
       "207.173.223.0/24",
       "209.90.64.0/18",
       "216.83.128.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

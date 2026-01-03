@@ -1,15 +1,18 @@
 {
-  "asn": 14450,
-  "handle": "GEICO01",
-  "description": "GEICO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14450,
+  "metadata" : {
+    "handle" : "GEICO01",
+    "description" : "GEICO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.185.128.0/19",
       "162.217.36.0/22",
       "205.143.200.0/24",
       "205.143.202.0/24",
       "205.143.204.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

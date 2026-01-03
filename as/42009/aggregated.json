@@ -1,13 +1,16 @@
 {
-  "asn": 42009,
-  "handle": "AVR-AS",
-  "description": "AVR Group Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42009,
+  "metadata" : {
+    "handle" : "AVR-AS",
+    "description" : "AVR Group Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.103.176.0/21",
       "176.98.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:308::/32"
     ]
   }

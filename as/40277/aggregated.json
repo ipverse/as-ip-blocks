@@ -1,11 +1,14 @@
 {
-  "asn": 40277,
-  "handle": "CROUSE-HOSPITAL-AS",
-  "description": "Crouse Hospital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40277,
+  "metadata" : {
+    "handle" : "CROUSE-HOSPITAL-AS",
+    "description" : "Crouse Hospital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.129.121.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

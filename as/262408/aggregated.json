@@ -1,13 +1,16 @@
 {
-  "asn": 262408,
-  "handle": "CEPAIN-TELECOM",
-  "description": "CEPAIN TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262408,
+  "metadata" : {
+    "handle" : "CEPAIN-TELECOM",
+    "description" : "CEPAIN TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.0.240.0/22",
       "177.38.160.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2d0c::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 61177,
-  "handle": "NTG-AS",
-  "description": "NettiTieto Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61177,
+  "metadata" : {
+    "handle" : "NTG-AS",
+    "description" : "NettiTieto Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.16.96.0/24",
       "185.16.99.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 28685,
-  "handle": "ASN-ROUTIT",
-  "description": "Routit BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28685,
+  "metadata" : {
+    "handle" : "ASN-ROUTIT",
+    "description" : "Routit BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.0.80.0/20",
       "37.153.192.0/18",
       "46.44.128.0/18",
@@ -28,7 +31,7 @@
       "213.144.224.0/19",
       "213.247.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:22a0::/32"
     ]
   }

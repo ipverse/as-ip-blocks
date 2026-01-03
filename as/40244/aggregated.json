@@ -1,9 +1,12 @@
 {
-  "asn": 40244,
-  "handle": "TURNKEY-INTERNET",
-  "description": "Turnkey Internet Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40244,
+  "metadata" : {
+    "handle" : "TURNKEY-INTERNET",
+    "description" : "Turnkey Internet Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.128.116.0/23",
       "64.128.190.0/23",
       "64.208.60.0/22",
@@ -41,7 +44,7 @@
       "209.240.110.0/24",
       "216.71.105.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:4500:24::/48",
       "2604:7c00::/32",
       "2606:ed00:4::/48"

@@ -1,9 +1,12 @@
 {
-  "asn": 49453,
-  "handle": "GLOBALLAYER",
-  "description": "Global Layer B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49453,
+  "metadata" : {
+    "handle" : "GLOBALLAYER",
+    "description" : "Global Layer B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.188.86.0/23",
       "37.123.210.0/24",
       "45.133.250.0/24",
@@ -39,7 +42,7 @@
       "213.152.188.0/23",
       "213.152.190.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1678:127::/48",
       "2a00:1678:a2b::/48",
       "2a00:1678:1122::/48",

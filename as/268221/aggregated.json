@@ -1,12 +1,15 @@
 {
-  "asn": 268221,
-  "handle": "FIBER-BANDA-LARGA",
-  "description": "FIBER BANDA LARGA SERV DE CONEXAO INT E LIVROS DIG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268221,
+  "metadata" : {
+    "handle" : "FIBER-BANDA-LARGA",
+    "description" : "FIBER BANDA LARGA SERV DE CONEXAO INT E LIVROS DIG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.236.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4dd0::/32"
     ]
   }

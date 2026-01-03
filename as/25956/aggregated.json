@@ -1,9 +1,12 @@
 {
-  "asn": 25956,
-  "handle": "LOGIXCOMM-AS4",
-  "description": "Logix",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25956,
+  "metadata" : {
+    "handle" : "LOGIXCOMM-AS4",
+    "description" : "Logix",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.64.0.0/18",
       "66.196.192.0/19",
       "66.196.224.0/21",
@@ -41,7 +44,7 @@
       "216.215.80.0/20",
       "216.215.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:b400::/32"
     ]
   }

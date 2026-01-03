@@ -1,12 +1,15 @@
 {
-  "asn": 212144,
-  "handle": "FUTURE-NETWORK-01",
-  "description": "trafficforce UAB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212144,
+  "metadata" : {
+    "handle" : "FUTURE-NETWORK-01",
+    "description" : "trafficforce UAB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.154.118.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:b540::/29",
       "2a12:cac0::/29"
     ]

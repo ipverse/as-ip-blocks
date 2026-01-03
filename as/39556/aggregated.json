@@ -1,9 +1,12 @@
 {
-  "asn": 39556,
-  "handle": "PINHOSTING-AS",
-  "description": "PIN Hosting Europe GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39556,
+  "metadata" : {
+    "handle" : "PINHOSTING-AS",
+    "description" : "PIN Hosting Europe GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.8.45.0/24",
       "5.8.46.0/23",
       "5.8.56.0/23",
@@ -15,6 +18,6 @@
       "46.161.24.0/24",
       "185.232.28.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

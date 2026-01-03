@@ -1,9 +1,12 @@
 {
-  "asn": 53282,
-  "handle": "SKYWAVE",
-  "description": "Skywave Wireless Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53282,
+  "metadata" : {
+    "handle" : "SKYWAVE",
+    "description" : "Skywave Wireless Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.238.154.0/23",
       "64.49.40.0/22",
       "65.113.196.0/23",
@@ -12,7 +15,7 @@
       "162.221.48.0/21",
       "204.156.121.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff59::/36",
       "2605:c840:ff::/48"
     ]

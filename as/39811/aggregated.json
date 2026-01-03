@@ -1,15 +1,18 @@
 {
-  "asn": 39811,
-  "handle": "MTSNET-FAR-EAST-AS",
-  "description": "MTS PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39811,
+  "metadata" : {
+    "handle" : "MTSNET-FAR-EAST-AS",
+    "description" : "MTS PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.109.46.0/24",
       "85.140.127.0/24",
       "213.87.96.0/23",
       "213.87.102.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5f80::/32",
       "2a02:5f83::/32"
     ]

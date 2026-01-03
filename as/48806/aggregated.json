@@ -1,9 +1,12 @@
 {
-  "asn": 48806,
-  "handle": "STACKSTER",
-  "description": "Stackster LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48806,
+  "metadata" : {
+    "handle" : "STACKSTER",
+    "description" : "Stackster LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.222.252.0/24",
       "37.72.134.0/24",
       "37.77.57.0/24",
@@ -40,7 +43,7 @@
       "217.114.36.0/24",
       "217.119.133.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:e00:100::/47"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 25160,
-  "handle": "VORBOSS",
-  "description": "Vorboss Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25160,
+  "metadata" : {
+    "handle" : "VORBOSS",
+    "description" : "Vorboss Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.10.144.0/20",
       "31.28.65.0/24",
       "31.28.67.0/24",
@@ -38,7 +41,7 @@
       "194.8.254.0/23",
       "195.250.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e340::/29",
       "2a01:a220::/29",
       "2a10:d700::/29"

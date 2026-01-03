@@ -1,9 +1,12 @@
 {
-  "asn": 48173,
-  "handle": "UNBELIEVABLE-AS",
-  "description": "Orange Business Digital Germany GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48173,
+  "metadata" : {
+    "handle" : "UNBELIEVABLE-AS",
+    "description" : "Orange Business Digital Germany GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.39.240.0/21",
       "5.179.200.0/21",
       "5.179.208.0/20",
@@ -28,7 +31,7 @@
       "194.15.76.0/22",
       "212.45.104.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:cd0::/32",
       "2a03:7c40::/32"
     ]

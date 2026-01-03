@@ -1,9 +1,12 @@
 {
-  "asn": 24462,
-  "handle": "HKJC-AS-HK-AP",
-  "description": "The Hong Kong Jockey Club",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24462,
+  "metadata" : {
+    "handle" : "HKJC-AS-HK-AP",
+    "description" : "The Hong Kong Jockey Club",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.64.251.0/24",
       "101.78.204.0/22",
       "116.92.130.0/24",
@@ -20,6 +23,6 @@
       "218.189.74.0/24",
       "220.232.228.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

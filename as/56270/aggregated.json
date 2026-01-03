@@ -1,14 +1,17 @@
 {
-  "asn": 56270,
-  "handle": "ROJAN-AU",
-  "description": "Rojan Australia Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56270,
+  "metadata" : {
+    "handle" : "ROJAN-AU",
+    "description" : "Rojan Australia Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.246.233.0/24",
       "203.1.8.0/23",
       "203.1.10.0/24",
       "203.1.15.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

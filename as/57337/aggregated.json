@@ -1,14 +1,17 @@
 {
-  "asn": 57337,
-  "handle": "VRT-AS",
-  "description": "VR Telecom SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57337,
+  "metadata" : {
+    "handle" : "VRT-AS",
+    "description" : "VR Telecom SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.238.126.0/24",
       "185.11.220.0/24",
       "185.11.222.0/23",
       "195.95.156.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

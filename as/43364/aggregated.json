@@ -1,9 +1,12 @@
 {
-  "asn": 43364,
-  "handle": "MEDIANET-AS",
-  "description": "Medi@net S.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43364,
+  "metadata" : {
+    "handle" : "MEDIANET-AS",
+    "description" : "Medi@net S.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "92.245.164.0/22",
       "92.245.176.0/22",
       "92.245.189.0/24",
@@ -12,7 +15,7 @@
       "185.212.152.0/22",
       "213.178.222.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:d80::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 212865,
-  "handle": "NETCONNECT",
-  "description": "netconnect AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212865,
+  "metadata" : {
+    "handle" : "NETCONNECT",
+    "description" : "netconnect AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.120.0/22",
       "5.57.201.0/24",
       "5.57.202.0/23",
@@ -25,7 +28,7 @@
       "185.164.154.0/23",
       "194.69.196.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:8f00:8::/48",
       "2a0d:d00::/29",
       "2a0e:2400::/29"

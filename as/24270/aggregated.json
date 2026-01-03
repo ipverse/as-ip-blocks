@@ -1,14 +1,17 @@
 {
-  "asn": 24270,
-  "handle": "CRC-KCC",
-  "description": "CRC Solutions Corp.",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24270,
+  "metadata" : {
+    "handle" : "CRC-KCC",
+    "description" : "CRC Solutions Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.68.144.0/22",
       "202.83.144.0/21",
       "203.99.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:2700::/32"
     ]
   }

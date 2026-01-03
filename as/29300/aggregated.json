@@ -1,14 +1,17 @@
 {
-  "asn": 29300,
-  "handle": "AS-DIRECTCONNECT",
-  "description": "BAHNHOF AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29300,
+  "metadata" : {
+    "handle" : "AS-DIRECTCONNECT",
+    "description" : "BAHNHOF AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.88.77.0/24",
       "82.148.160.0/21",
       "93.184.120.0/21",
       "109.169.96.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

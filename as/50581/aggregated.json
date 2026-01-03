@@ -1,9 +1,12 @@
 {
-  "asn": 50581,
-  "handle": "UTG",
-  "description": "Ukrainian Telecommunication Group LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50581,
+  "metadata" : {
+    "handle" : "UTG",
+    "description" : "Ukrainian Telecommunication Group LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.204.0/22",
       "31.43.33.0/24",
       "31.43.34.0/23",
@@ -18,7 +21,7 @@
       "195.95.165.0/24",
       "195.211.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2d40::/48",
       "2a0e:2c40::/29"
     ]

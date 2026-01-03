@@ -1,9 +1,12 @@
 {
-  "asn": 394972,
-  "handle": "VALLEY-COMMUNICATIONS",
-  "description": "Valley Electric Association",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394972,
+  "metadata" : {
+    "handle" : "VALLEY-COMMUNICATIONS",
+    "description" : "Valley Electric Association",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.162.0.0/24",
       "65.132.40.0/24",
       "158.140.32.0/20",
@@ -18,6 +21,6 @@
       "216.73.104.0/21",
       "216.73.112.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 59752,
-  "handle": "JPRU-AS",
-  "description": "JPRU Services \u0026 Consulting GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59752,
+  "metadata" : {
+    "handle" : "JPRU-AS",
+    "description" : "JPRU Services & Consulting GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.177.168.0/21",
       "185.95.128.0/22",
       "193.109.237.0/24",
       "195.49.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:2500::/32"
     ]
   }

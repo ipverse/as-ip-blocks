@@ -1,12 +1,15 @@
 {
-  "asn": 25060,
-  "handle": "INE-AS",
-  "description": "Instituto Nacional de Estatistica I.P",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25060,
+  "metadata" : {
+    "handle" : "INE-AS",
+    "description" : "Instituto Nacional de Estatistica I.P.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.192.4.0/22",
       "193.192.8.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

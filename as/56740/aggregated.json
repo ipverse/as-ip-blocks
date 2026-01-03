@@ -1,9 +1,12 @@
 {
-  "asn": 56740,
-  "handle": "DATAHATA-AS",
-  "description": "DataHata Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56740,
+  "metadata" : {
+    "handle" : "DATAHATA-AS",
+    "description" : "DataHata Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.130.200.0/21",
       "46.8.188.0/23",
       "79.98.54.0/24",
@@ -26,7 +29,7 @@
       "217.21.44.0/24",
       "217.21.52.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2268::/48",
       "2a0a:7d80:2::/48",
       "2a0a:7d80:1000::/36"

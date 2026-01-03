@@ -1,9 +1,12 @@
 {
-  "asn": 52419,
-  "handle": "CESOP",
-  "description": "CESOP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52419,
+  "metadata" : {
+    "handle" : "CESOP",
+    "description" : "CESOP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.3.152.0/21",
       "38.7.8.0/22",
       "38.17.0.0/20",
@@ -12,7 +15,7 @@
       "205.164.244.0/22",
       "216.28.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:3480::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 393387,
-  "handle": "PORT-OF-TACOMA-ASN",
-  "description": "Port of Tacoma",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393387,
+  "metadata" : {
+    "handle" : "PORT-OF-TACOMA-ASN",
+    "description" : "Port of Tacoma",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.113.101.0/24",
       "162.255.80.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

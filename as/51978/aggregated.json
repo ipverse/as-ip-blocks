@@ -1,9 +1,12 @@
 {
-  "asn": 51978,
-  "handle": "WEMACOM",
-  "description": "WEMACOM Telekommunikation GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51978,
+  "metadata" : {
+    "handle" : "WEMACOM",
+    "description" : "WEMACOM Telekommunikation GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.30.112.0/21",
       "46.35.32.0/20",
       "64.190.238.0/23",
@@ -12,7 +15,7 @@
       "185.8.136.0/22",
       "194.182.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:b580::/32"
     ]
   }

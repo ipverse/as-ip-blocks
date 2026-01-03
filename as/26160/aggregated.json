@@ -1,12 +1,15 @@
 {
-  "asn": 26160,
-  "handle": "LCEC-BGPNET-YHWH",
-  "description": "LCEC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26160,
+  "metadata" : {
+    "handle" : "LCEC-BGPNET-YHWH",
+    "description" : "LCEC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "76.7.47.0/24",
       "204.152.90.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

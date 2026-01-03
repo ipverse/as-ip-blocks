@@ -1,14 +1,17 @@
 {
-  "asn": 42300,
-  "handle": "TOPCONNECT-AS",
-  "description": "TOP CONNECT OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42300,
+  "metadata" : {
+    "handle" : "TOPCONNECT-AS",
+    "description" : "TOP CONNECT OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.240.240.0/22",
       "178.236.200.0/23",
       "178.236.202.0/24",
       "194.15.248.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

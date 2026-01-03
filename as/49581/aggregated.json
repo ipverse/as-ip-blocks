@@ -1,9 +1,12 @@
 {
-  "asn": 49581,
-  "handle": "FERDINANDZINK",
-  "description": "Ferdinand Zink trading as Tube-Hosting",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49581,
+  "metadata" : {
+    "handle" : "FERDINANDZINK",
+    "description" : "Ferdinand Zink trading as Tube-Hosting",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.113.0/24",
       "5.83.128.0/24",
       "5.83.131.0/24",
@@ -44,7 +47,7 @@
       "194.34.252.0/24",
       "209.131.67.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2fc0:11::/48",
       "2a12:8640::/29",
       "2a12:b200::/29",

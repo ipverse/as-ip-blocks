@@ -1,14 +1,17 @@
 {
-  "asn": 137023,
-  "handle": "ASIAN-AS-AP",
-  "description": "Asian city online bd ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137023,
+  "metadata" : {
+    "handle" : "ASIAN-AS-AP",
+    "description" : "Asian city online bd ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.102.27.0/24",
       "103.130.11.0/24",
       "103.131.180.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:dec0::/32"
     ]
   }

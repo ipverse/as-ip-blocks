@@ -1,9 +1,12 @@
 {
-  "asn": 46261,
-  "handle": "QUICKPACKET",
-  "description": "QuickPacket LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46261,
+  "metadata" : {
+    "handle" : "QUICKPACKET",
+    "description" : "QuickPacket LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.44.255.0/24",
       "23.226.32.0/22",
       "23.226.215.0/24",
@@ -236,7 +239,7 @@
       "216.158.222.0/24",
       "217.18.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:a880::/48",
       "2605:a880:8000::/48",
       "2607:3f00::/43",

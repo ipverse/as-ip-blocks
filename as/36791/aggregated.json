@@ -1,9 +1,12 @@
 {
-  "asn": 36791,
-  "handle": "PDXHOSTING",
-  "description": "Portland Internet Hosting LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36791,
+  "metadata" : {
+    "handle" : "PDXHOSTING",
+    "description" : "Portland Internet Hosting LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.221.94.0/23",
       "91.227.72.0/23",
       "193.25.104.0/23",
@@ -11,7 +14,7 @@
       "195.66.142.0/23",
       "208.72.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470:50::/48",
       "2602:faa6::/36",
       "2a05:dfc1:1e00::/40"

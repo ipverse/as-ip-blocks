@@ -1,9 +1,12 @@
 {
-  "asn": 138608,
-  "handle": "CLOUDHOST-AS-AP",
-  "description": "Cloud Host Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138608,
+  "metadata" : {
+    "handle" : "CLOUDHOST-AS-AP",
+    "description" : "Cloud Host Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.13.206.0/23",
       "103.30.194.0/23",
       "103.37.124.0/23",
@@ -17,6 +20,6 @@
       "103.210.54.0/23",
       "103.250.10.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

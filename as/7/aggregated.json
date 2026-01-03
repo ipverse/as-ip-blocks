@@ -1,9 +1,12 @@
 {
-  "asn": 7,
-  "handle": "DSTL",
-  "description": "The Defence Science and Technology Laboratory",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7,
+  "metadata" : {
+    "handle" : "DSTL",
+    "description" : "The Defence Science and Technology Laboratory",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.80.0.0/16",
       "192.5.28.0/23",
       "192.5.30.0/24",
@@ -16,7 +19,7 @@
       "194.34.138.0/24",
       "194.61.92.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:3b40::/29"
     ]
   }

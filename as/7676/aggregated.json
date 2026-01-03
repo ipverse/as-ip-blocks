@@ -1,9 +1,12 @@
 {
-  "asn": 7676,
-  "handle": "TAM",
-  "description": "TAM Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7676,
+  "metadata" : {
+    "handle" : "TAM",
+    "description" : "TAM Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.174.60.0/23",
       "103.174.142.0/23",
       "112.140.168.0/21",
@@ -28,7 +31,7 @@
       "219.121.208.0/20",
       "219.122.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:12e0::/32",
       "2400:3aa0::/32",
       "2407:fc40::/32"

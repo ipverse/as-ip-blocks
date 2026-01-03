@@ -1,9 +1,12 @@
 {
-  "asn": 42147,
-  "handle": "CORREOS",
-  "description": "Sociedad Estatal Correos y Telegrafos S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42147,
+  "metadata" : {
+    "handle" : "CORREOS",
+    "description" : "Sociedad Estatal Correos y Telegrafos S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.148.129.0/24",
       "193.148.130.0/24",
       "193.148.138.0/23",
@@ -13,6 +16,6 @@
       "193.148.150.0/24",
       "193.148.158.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

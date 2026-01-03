@@ -1,9 +1,12 @@
 {
-  "asn": 31856,
-  "handle": "CABS",
-  "description": "YoAfrica (Pvt) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31856,
+  "metadata" : {
+    "handle" : "CABS",
+    "description" : "YoAfrica (Pvt) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.190.32.0/20",
       "41.190.48.0/22",
       "41.190.54.0/23",
@@ -15,7 +18,7 @@
       "196.44.186.0/23",
       "196.44.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f4a0::/32"
     ]
   }

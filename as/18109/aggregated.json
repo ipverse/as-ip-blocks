@@ -1,14 +1,17 @@
 {
-  "asn": 18109,
-  "handle": "MAISHANET-AS-AP",
-  "description": "Maisha Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18109,
+  "metadata" : {
+    "handle" : "MAISHANET-AS-AP",
+    "description" : "Maisha Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.86.196.0/22",
       "119.148.100.0/24",
       "119.148.102.0/23",
       "157.20.114.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

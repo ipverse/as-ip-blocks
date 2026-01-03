@@ -1,9 +1,12 @@
 {
-  "asn": 42337,
-  "handle": "RESPINA-AS",
-  "description": "Respina Networks \u0026 Beyond PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42337,
+  "metadata" : {
+    "handle" : "RESPINA-AS",
+    "description" : "Respina Networks & Beyond PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.188.40.0/22",
       "2.188.72.0/22",
       "2.188.160.0/21",
@@ -101,7 +104,7 @@
       "193.27.9.0/24",
       "195.24.233.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:15c8::/29",
       "2a05:7a80:fffe::/48",
       "2a05:9080:2::/48",

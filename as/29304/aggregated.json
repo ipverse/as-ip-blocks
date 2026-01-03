@@ -1,9 +1,12 @@
 {
-  "asn": 29304,
-  "handle": "SATISNET-AS",
-  "description": "JSC SATIS-TL-94",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29304,
+  "metadata" : {
+    "handle" : "SATISNET-AS",
+    "description" : "JSC SATIS-TL-94",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.112.0.0/20",
       "82.112.18.0/23",
       "82.112.20.0/22",
@@ -11,6 +14,6 @@
       "82.112.28.0/23",
       "82.112.30.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

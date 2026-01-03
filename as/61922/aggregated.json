@@ -1,12 +1,15 @@
 {
-  "asn": 61922,
-  "handle": "CNX-TELECOM",
-  "description": "CNX TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61922,
+  "metadata" : {
+    "handle" : "CNX-TELECOM",
+    "description" : "CNX TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.7.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1830::/32"
     ]
   }

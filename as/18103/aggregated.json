@@ -1,9 +1,12 @@
 {
-  "asn": 18103,
-  "handle": "NEUVIZ-AS-ID-AP",
-  "description": "Neuviz Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18103,
+  "metadata" : {
+    "handle" : "NEUVIZ-AS-ID-AP",
+    "description" : "Neuviz Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.248.24.0/22",
       "103.10.96.0/22",
       "103.23.242.0/23",
@@ -14,7 +17,7 @@
       "203.128.64.0/19",
       "203.201.51.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:1b00::/32"
     ]
   }

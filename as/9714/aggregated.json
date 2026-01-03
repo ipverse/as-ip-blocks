@@ -1,9 +1,12 @@
 {
-  "asn": 9714,
-  "handle": "VOCUS-CLOUD-SERVICES-AS",
-  "description": "VOCUS PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9714,
+  "metadata" : {
+    "handle" : "VOCUS-CLOUD-SERVICES-AS",
+    "description" : "VOCUS PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.255.28.0/22",
       "116.240.192.0/20",
       "202.138.0.0/24",
@@ -12,7 +15,7 @@
       "210.50.0.0/21",
       "210.50.192.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:4800:1100::/40",
       "2407:dc00::/38"
     ]

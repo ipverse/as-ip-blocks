@@ -1,9 +1,12 @@
 {
-  "asn": 54527,
-  "handle": "ASTUTEHOSTING",
-  "description": "Astute Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54527,
+  "metadata" : {
+    "handle" : "ASTUTEHOSTING",
+    "description" : "Astute Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.38.40.0/23",
       "65.38.42.0/24",
       "104.37.74.0/23",
@@ -16,7 +19,7 @@
       "162.245.146.0/23",
       "199.167.16.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:d500:201::/48",
       "2607:d500:202::/48",
       "2607:d500:302::/48",

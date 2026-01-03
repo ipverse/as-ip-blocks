@@ -1,9 +1,12 @@
 {
-  "asn": 56322,
-  "handle": "SERVERASTRA-AS",
-  "description": "ServerAstra Kft",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56322,
+  "metadata" : {
+    "handle" : "SERVERASTRA-AS",
+    "description" : "ServerAstra Kft.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.142.217.0/24",
       "82.21.225.0/24",
       "82.21.226.0/24",
@@ -21,7 +24,7 @@
       "185.163.204.0/24",
       "217.28.130.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:c800::/47",
       "2a10:c800:400::/47"
     ]

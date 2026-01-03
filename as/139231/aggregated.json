@@ -1,10 +1,13 @@
 {
-  "asn": 139231,
-  "handle": "ZERO-AS-AP",
-  "description": "Zero",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 139231,
+  "metadata" : {
+    "handle" : "ZERO-AS-AP",
+    "description" : "Zero",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2406:840:fefb::/48"
     ]
   }

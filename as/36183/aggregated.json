@@ -1,9 +1,12 @@
 {
-  "asn": 36183,
-  "handle": "AKAMAI-AS",
-  "description": "Akamai Technologies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36183,
+  "metadata" : {
+    "handle" : "AKAMAI-AS",
+    "description" : "Akamai Technologies Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "172.224.0.0/22",
       "172.224.4.0/23",
       "172.224.7.0/24",
@@ -257,7 +260,7 @@
       "172.226.220.0/24",
       "172.226.226.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:26f7:2::/48",
       "2a02:26f7:4::/48",
       "2a02:26f7:6::/48",

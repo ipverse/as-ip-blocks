@@ -1,15 +1,18 @@
 {
-  "asn": 32709,
-  "handle": "1-JOINK",
-  "description": "Joink LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32709,
+  "metadata" : {
+    "handle" : "1-JOINK",
+    "description" : "Joink LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.134.128.0/18",
       "168.92.64.0/18",
       "168.92.192.0/19",
       "205.137.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:ea80::/32"
     ]
   }

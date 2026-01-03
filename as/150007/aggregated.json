@@ -1,12 +1,15 @@
 {
-  "asn": 150007,
-  "handle": "FIBRANET-AS-IN",
-  "description": "FIBRA NETWAY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150007,
+  "metadata" : {
+    "handle" : "FIBRANET-AS-IN",
+    "description" : "FIBRA NETWAY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.191.86.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:6940::/48"
     ]
   }

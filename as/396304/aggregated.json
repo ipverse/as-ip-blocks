@@ -1,9 +1,12 @@
 {
-  "asn": 396304,
-  "handle": "ANU-DIGI",
-  "description": "Antigua Wireless ventures Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396304,
+  "metadata" : {
+    "handle" : "ANU-DIGI",
+    "description" : "Antigua Wireless ventures Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.143.86.0/24",
       "63.143.105.0/24",
       "63.143.109.0/24",
@@ -15,7 +18,7 @@
       "208.66.49.0/24",
       "208.66.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:9e40::/32"
     ]
   }

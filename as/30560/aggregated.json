@@ -1,9 +1,12 @@
 {
-  "asn": 30560,
-  "handle": "GE-MS001",
-  "description": "GE Precision HealthCare LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30560,
+  "metadata" : {
+    "handle" : "GE-MS001",
+    "description" : "GE Precision HealthCare LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.214.209.0/24",
       "193.37.88.0/24",
       "193.37.91.0/24",
@@ -14,6 +17,6 @@
       "207.67.80.0/24",
       "207.67.88.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

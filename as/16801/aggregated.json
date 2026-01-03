@@ -1,15 +1,18 @@
 {
-  "asn": 16801,
-  "handle": "ET-NET",
-  "description": "Energy Transfer LP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16801,
+  "metadata" : {
+    "handle" : "ET-NET",
+    "description" : "Energy Transfer LP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.105.50.0/23",
       "151.179.0.0/16",
       "198.50.32.0/22",
       "198.50.36.0/24",
       "198.50.60.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

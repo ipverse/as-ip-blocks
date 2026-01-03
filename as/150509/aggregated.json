@@ -1,12 +1,15 @@
 {
-  "asn": 150509,
-  "handle": "TWINSDATAPRATAMA-AS-ID",
-  "description": "PT Twins Data Pratama",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150509,
+  "metadata" : {
+    "handle" : "TWINSDATAPRATAMA-AS-ID",
+    "description" : "PT Twins Data Pratama",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.61.16.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:dc40::/48"
     ]
   }

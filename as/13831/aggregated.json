@@ -1,13 +1,16 @@
 {
-  "asn": 13831,
-  "handle": "POGOZONE-OA",
-  "description": "PogoZone",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13831,
+  "metadata" : {
+    "handle" : "POGOZONE-OA",
+    "description" : "PogoZone",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.114.32.0/20",
       "198.182.207.0/24",
       "198.182.208.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

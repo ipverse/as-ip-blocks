@@ -1,13 +1,16 @@
 {
-  "asn": 44097,
-  "handle": "AUTONOMOUS-CLOSET",
-  "description": "CLEMENT CAVADORE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44097,
+  "metadata" : {
+    "handle" : "AUTONOMOUS-CLOSET",
+    "description" : "CLEMENT CAVADORE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.27.0.0/24",
       "193.43.214.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:ec::/48"
     ]
   }

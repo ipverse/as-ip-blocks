@@ -1,14 +1,17 @@
 {
-  "asn": 31720,
-  "handle": "ENGINET-AS",
-  "description": "EngiNet OOO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31720,
+  "metadata" : {
+    "handle" : "ENGINET-AS",
+    "description" : "EngiNet OOO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.67.240.0/22",
       "80.67.244.0/24",
       "80.67.246.0/23",
       "80.67.248.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

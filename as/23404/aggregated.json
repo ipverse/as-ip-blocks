@@ -1,9 +1,12 @@
 {
-  "asn": 23404,
-  "handle": "RITTERNET",
-  "description": "Ritter Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23404,
+  "metadata" : {
+    "handle" : "RITTERNET",
+    "description" : "Ritter Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.178.176.0/24",
       "64.178.180.0/24",
       "64.178.184.0/23",
@@ -26,7 +29,7 @@
       "207.65.56.0/22",
       "216.163.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fa08::/32"
     ]
   }

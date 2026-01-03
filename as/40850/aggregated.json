@@ -1,15 +1,18 @@
 {
-  "asn": 40850,
-  "handle": "AS-UPIX-40850",
-  "description": "UPIX NETWORKS INTERNATIONAL LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40850,
+  "metadata" : {
+    "handle" : "AS-UPIX-40850",
+    "description" : "UPIX NETWORKS INTERNATIONAL LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.140.64.0/22",
       "138.118.116.0/22",
       "177.128.128.0/22",
       "191.5.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:2ec0::/32"
     ]
   }

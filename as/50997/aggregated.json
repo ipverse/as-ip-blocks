@@ -1,12 +1,15 @@
 {
-  "asn": 50997,
-  "handle": "NETSPRING-AS",
-  "description": "netspring gmbh",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50997,
+  "metadata" : {
+    "handle" : "NETSPRING-AS",
+    "description" : "netspring gmbh",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.210.16.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:204::/48"
     ]
   }

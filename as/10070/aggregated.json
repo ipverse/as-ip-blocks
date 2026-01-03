@@ -1,12 +1,15 @@
 {
-  "asn": 10070,
-  "handle": "KRISS-AS",
-  "description": "KRISS SubDAEJONnetworks connected to backbone",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10070,
+  "metadata" : {
+    "handle" : "KRISS-AS",
+    "description" : "KRISS SubDAEJONnetworks connected to backbone",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.254.160.0/21",
       "210.98.16.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

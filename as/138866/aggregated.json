@@ -1,13 +1,16 @@
 {
-  "asn": 138866,
-  "handle": "MMD-AS-ID",
-  "description": "PT Mitra Media Data",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138866,
+  "metadata" : {
+    "handle" : "MMD-AS-ID",
+    "description" : "PT Mitra Media Data",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.140.130.0/23",
       "103.142.194.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:fec0::/32"
     ]
   }

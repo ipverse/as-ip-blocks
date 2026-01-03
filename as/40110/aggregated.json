@@ -1,11 +1,14 @@
 {
-  "asn": 40110,
-  "handle": "CCI-ASN",
-  "description": "CCI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40110,
+  "metadata" : {
+    "handle" : "CCI-ASN",
+    "description" : "CCI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.182.253.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

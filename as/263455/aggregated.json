@@ -1,12 +1,15 @@
 {
-  "asn": 263455,
-  "handle": "LEV-TELECOM",
-  "description": "LEV Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263455,
+  "metadata" : {
+    "handle" : "LEV-TELECOM",
+    "description" : "LEV Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.190.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1214::/32"
     ]
   }

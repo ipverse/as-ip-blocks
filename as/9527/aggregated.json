@@ -1,12 +1,15 @@
 {
-  "asn": 9527,
-  "handle": "VP01-AS",
-  "description": "VP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9527,
+  "metadata" : {
+    "handle" : "VP01-AS",
+    "description" : "VP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.239.100.0/24",
       "211.119.189.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

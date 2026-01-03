@@ -1,14 +1,17 @@
 {
-  "asn": 42518,
-  "handle": "UNETCOM-AS",
-  "description": "Unet Communication LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42518,
+  "metadata" : {
+    "handle" : "UNETCOM-AS",
+    "description" : "Unet Communication LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.192.188.0/22",
       "91.215.120.0/22",
       "146.120.64.0/20",
       "146.120.80.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

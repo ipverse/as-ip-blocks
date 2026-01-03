@@ -1,12 +1,15 @@
 {
-  "asn": 18758,
-  "handle": "ADRECOM",
-  "description": "Adrecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18758,
+  "metadata" : {
+    "handle" : "ADRECOM",
+    "description" : "Adrecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.254.141.0/24",
       "162.254.143.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

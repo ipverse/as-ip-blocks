@@ -1,12 +1,15 @@
 {
-  "asn": 62315,
-  "handle": "NN-LEASE-AS",
-  "description": "NN Lease SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62315,
+  "metadata" : {
+    "handle" : "NN-LEASE-AS",
+    "description" : "NN Lease SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.250.246.0/24",
       "193.32.10.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 27828,
-  "handle": "UNIVERSIDAD-MAYOR-SAN-ANDRES",
-  "description": "UNIVERSIDAD MAYOR DE SAN ANDRES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27828,
+  "metadata" : {
+    "handle" : "UNIVERSIDAD-MAYOR-SAN-ANDRES",
+    "description" : "UNIVERSIDAD MAYOR DE SAN ANDRES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.7.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:104:8::/47",
       "2801:104:16::/47",
       "2801:104:20::/44",

@@ -1,9 +1,12 @@
 {
-  "asn": 35063,
-  "handle": "TKCHOPIN-AS",
-  "description": "Chopin Telewizja Kablowa spolka z ograniczona odpowiedzialnoscia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35063,
+  "metadata" : {
+    "handle" : "TKCHOPIN-AS",
+    "description" : "Chopin Telewizja Kablowa spolka z ograniczona odpowiedzialnoscia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.7.40.0/21",
       "46.29.144.0/21",
       "85.237.160.0/19",
@@ -11,7 +14,7 @@
       "212.109.160.0/21",
       "217.171.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:9500::/32"
     ]
   }

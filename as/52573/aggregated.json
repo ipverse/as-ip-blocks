@@ -1,9 +1,12 @@
 {
-  "asn": 52573,
-  "handle": "UNE-TELECOM",
-  "description": "Une Telecom Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52573,
+  "metadata" : {
+    "handle" : "UNE-TELECOM",
+    "description" : "Une Telecom Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.152.96.0/22",
       "45.6.228.0/22",
       "45.65.168.0/22",
@@ -32,7 +35,7 @@
       "186.250.252.0/22",
       "201.182.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:ce4::/32"
     ]
   }

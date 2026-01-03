@@ -1,9 +1,12 @@
 {
-  "asn": 28338,
-  "handle": "NET-BOTANIC-INTERNET",
-  "description": "Net Botanic Internet Inteligente SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28338,
+  "metadata" : {
+    "handle" : "NET-BOTANIC-INTERNET",
+    "description" : "Net Botanic Internet Inteligente SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.87.24.0/23",
       "177.87.26.0/24",
       "189.45.0.0/20",
@@ -12,6 +15,6 @@
       "189.84.236.0/24",
       "189.84.239.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 41369,
-  "handle": "DATACENTER-AS",
-  "description": "Advania Finland Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41369,
+  "metadata" : {
+    "handle" : "DATACENTER-AS",
+    "description" : "Advania Finland Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.250.160.0/21",
       "77.240.16.0/23",
       "77.240.24.0/21",
@@ -19,7 +22,7 @@
       "194.48.220.0/22",
       "195.60.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:f5c0::/32",
       "2a0c:c6c0::/29"
     ]

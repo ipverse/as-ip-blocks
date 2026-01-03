@@ -1,16 +1,19 @@
 {
-  "asn": 7578,
-  "handle": "GSL",
-  "description": "GSL Networks Pty LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7578,
+  "metadata" : {
+    "handle" : "GSL",
+    "description" : "GSL Networks Pty LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.217.251.0/24",
       "38.57.36.0/22",
       "103.137.13.0/24",
       "206.148.22.0/24",
       "223.165.7.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:3bc0::/32",
       "2401:3cc0::/32",
       "2404:b9c0::/32"

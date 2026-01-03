@@ -1,14 +1,17 @@
 {
-  "asn": 56990,
-  "handle": "SYSCOMM",
-  "description": "Syscomm Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56990,
+  "metadata" : {
+    "handle" : "SYSCOMM",
+    "description" : "Syscomm Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.45.0.0/21",
       "91.229.173.0/24",
       "185.57.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:dc00::/29"
     ]
   }

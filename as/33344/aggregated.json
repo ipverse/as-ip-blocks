@@ -1,11 +1,14 @@
 {
-  "asn": 33344,
-  "handle": "PUBLIC-AS",
-  "description": "American Petroleum Institute",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33344,
+  "metadata" : {
+    "handle" : "PUBLIC-AS",
+    "description" : "American Petroleum Institute",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.132.44.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

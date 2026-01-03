@@ -1,10 +1,13 @@
 {
-  "asn": 401420,
-  "handle": "WANN",
-  "description": "Wann Networks",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 401420,
+  "metadata" : {
+    "handle" : "WANN",
+    "description" : "Wann Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2602:f7bf::/40"
     ]
   }

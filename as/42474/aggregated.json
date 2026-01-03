@@ -1,14 +1,17 @@
 {
-  "asn": 42474,
-  "handle": "IL",
-  "description": "SmartApe OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42474,
+  "metadata" : {
+    "handle" : "IL",
+    "description" : "SmartApe OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.8.19.0/24",
       "185.239.48.0/23",
       "193.169.228.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:dd01::/32"
     ]
   }

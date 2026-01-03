@@ -1,9 +1,12 @@
 {
-  "asn": 201589,
-  "handle": "EDGEAMLLC",
-  "description": "EDGEAM LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201589,
+  "metadata" : {
+    "handle" : "EDGEAMLLC",
+    "description" : "EDGEAM LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.101.36.0/22",
       "5.101.71.0/24",
       "31.184.232.0/23",
@@ -11,7 +14,7 @@
       "91.108.187.0/24",
       "185.238.152.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:1ec0::/44",
       "2a13:1ec0:100::/43",
       "2a13:1ec0:200::/44",

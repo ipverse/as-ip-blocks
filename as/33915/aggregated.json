@@ -1,9 +1,12 @@
 {
-  "asn": 33915,
-  "handle": "TNF-AS",
-  "description": "Vodafone Libertel B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33915,
+  "metadata" : {
+    "handle" : "TNF-AS",
+    "description" : "Vodafone Libertel B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.199.188.0/22",
       "24.132.0.0/16",
       "31.136.0.0/14",
@@ -141,7 +144,7 @@
       "217.112.112.0/20",
       "217.120.0.0/14"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:b88::/33",
       "2001:1c00::/23",
       "2001:41f0::/29",

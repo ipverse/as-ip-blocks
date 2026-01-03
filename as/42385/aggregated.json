@@ -1,9 +1,12 @@
 {
-  "asn": 42385,
-  "handle": "RIPN-RU",
-  "description": "Join-stock company Internet ExchangeMSK-IX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42385,
+  "metadata" : {
+    "handle" : "RIPN-RU",
+    "description" : "Join-stock company Internet ExchangeMSK-IX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.62.48.0/24",
       "193.232.66.0/23",
       "193.232.74.0/24",
@@ -21,7 +24,7 @@
       "194.190.124.0/23",
       "194.190.127.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:14::/47",
       "2001:678:16::/48",
       "2001:678:18::/48",

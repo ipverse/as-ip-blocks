@@ -1,12 +1,15 @@
 {
-  "asn": 4762,
-  "handle": "MAHIDOL-BORDER-AS",
-  "description": "Mahidol University Thailand",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4762,
+  "metadata" : {
+    "handle" : "MAHIDOL-BORDER-AS",
+    "description" : "Mahidol University Thailand",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.28.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:3c8:1202::/48",
       "2001:3c8:1606::/48",
       "2001:3c8:2707::/48"

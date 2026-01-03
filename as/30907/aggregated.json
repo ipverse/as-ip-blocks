@@ -1,11 +1,14 @@
 {
-  "asn": 30907,
-  "handle": "SAGE-AS",
-  "description": "SAGE SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30907,
+  "metadata" : {
+    "handle" : "SAGE-AS",
+    "description" : "SAGE SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.30.141.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

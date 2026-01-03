@@ -1,9 +1,12 @@
 {
-  "asn": 28349,
-  "handle": "CABONNET-INTERNET",
-  "description": "CABONNET INTERNET LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28349,
+  "metadata" : {
+    "handle" : "CABONNET-INTERNET",
+    "description" : "CABONNET INTERNET LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.154.72.0/21",
       "187.85.200.0/21",
       "187.85.208.0/21",
@@ -16,7 +19,7 @@
       "189.126.184.0/22",
       "189.126.188.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:a50::/34"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 28158,
-  "handle": "AMPERNET-TELECOMUNICACOES",
-  "description": "Ampernet Telecomunicações Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28158,
+  "metadata" : {
+    "handle" : "AMPERNET-TELECOMUNICACOES",
+    "description" : "Ampernet Telecomunicações Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.255.29.0/24",
       "45.162.40.0/22",
       "45.189.144.0/22",
@@ -19,7 +22,7 @@
       "187.109.96.0/20",
       "187.120.232.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3a4::/32",
       "2804:6fc::/32"
     ]

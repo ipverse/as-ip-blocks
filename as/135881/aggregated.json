@@ -1,13 +1,16 @@
 {
-  "asn": 135881,
-  "handle": "SPARKNET-AS-AP",
-  "description": "Spark Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135881,
+  "metadata" : {
+    "handle" : "SPARKNET-AS-AP",
+    "description" : "Spark Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.230.211.0/24",
       "103.78.224.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:ff80::/32"
     ]
   }

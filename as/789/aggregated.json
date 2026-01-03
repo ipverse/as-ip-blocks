@@ -1,11 +1,14 @@
 {
-  "asn": 789,
-  "handle": "IN2P3",
-  "description": "Renater",
-  "subnets": {
-    "ipv4": [
+  "asn" : 789,
+  "metadata" : {
+    "handle" : "IN2P3",
+    "description" : "Renater",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.158.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 41727,
-  "handle": "ERTH-KIROV-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41727,
+  "metadata" : {
+    "handle" : "ERTH-KIROV-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.167.160.0/20",
       "46.252.112.0/20",
       "91.144.148.0/22",
@@ -15,7 +18,7 @@
       "176.212.0.0/20",
       "188.187.249.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:2c00::/38"
     ]
   }

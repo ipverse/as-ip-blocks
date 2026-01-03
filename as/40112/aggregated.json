@@ -1,11 +1,14 @@
 {
-  "asn": 40112,
-  "handle": "OPPD-AS",
-  "description": "Omaha Public Power District",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40112,
+  "metadata" : {
+    "handle" : "OPPD-AS",
+    "description" : "Omaha Public Power District",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.246.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

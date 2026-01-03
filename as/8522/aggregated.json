@@ -1,13 +1,16 @@
 {
-  "asn": 8522,
-  "handle": "FORTH-AS",
-  "description": "Foundation of Research and Technology Hellas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8522,
+  "metadata" : {
+    "handle" : "FORTH-AS",
+    "description" : "Foundation of Research and Technology Hellas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.91.0.0/16",
       "192.67.249.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:648:2c30::/48"
     ]
   }

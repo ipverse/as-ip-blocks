@@ -1,11 +1,14 @@
 {
-  "asn": 150202,
-  "handle": "IDNIC-NANAKA-AS-ID",
-  "description": "PT Nanaka Network Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150202,
+  "metadata" : {
+    "handle" : "IDNIC-NANAKA-AS-ID",
+    "description" : "PT Nanaka Network Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.52.6.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

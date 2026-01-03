@@ -1,16 +1,19 @@
 {
-  "asn": 13993,
-  "handle": "MOTIVE-COMM",
-  "description": "Nokia of America Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13993,
+  "metadata" : {
+    "handle" : "MOTIVE-COMM",
+    "description" : "Nokia of America Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.235.16.0/20",
       "199.117.180.0/24",
       "207.71.32.0/24",
       "209.67.208.0/24",
       "216.39.83.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:12b::/48"
     ]
   }

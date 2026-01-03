@@ -1,9 +1,12 @@
 {
-  "asn": 13628,
-  "handle": "CENCORA-INTERNET",
-  "description": "AMERISOURCEBERGEN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13628,
+  "metadata" : {
+    "handle" : "CENCORA-INTERNET",
+    "description" : "AMERISOURCEBERGEN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.30.173.0/24",
       "12.68.144.0/23",
       "64.225.248.0/21",
@@ -17,6 +20,6 @@
       "209.182.172.0/23",
       "209.182.174.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

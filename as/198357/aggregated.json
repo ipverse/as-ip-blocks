@@ -1,9 +1,12 @@
 {
-  "asn": 198357,
-  "handle": "PADIDAR",
-  "description": "Padidar Technology PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198357,
+  "metadata" : {
+    "handle" : "PADIDAR",
+    "description" : "Padidar Technology PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.159.48.0/24",
       "5.159.50.0/23",
       "5.159.52.0/23",
@@ -14,6 +17,6 @@
       "185.3.202.0/23",
       "188.240.212.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

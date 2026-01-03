@@ -1,14 +1,17 @@
 {
-  "asn": 35632,
-  "handle": "IRIS64-AS",
-  "description": "Societe Francaise Du Radiotelephone - SFR SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35632,
+  "metadata" : {
+    "handle" : "IRIS64-AS",
+    "description" : "Societe Francaise Du Radiotelephone - SFR SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.84.0.0/16",
       "87.100.0.0/17",
       "188.141.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:7180::/46"
     ]
   }

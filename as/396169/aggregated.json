@@ -1,12 +1,15 @@
 {
-  "asn": 396169,
-  "handle": "AS-GHCIL-01",
-  "description": "HCI LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396169,
+  "metadata" : {
+    "handle" : "AS-GHCIL-01",
+    "description" : "HCI LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.172.75.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:aac0::/32"
     ]
   }

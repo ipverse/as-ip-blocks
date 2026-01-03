@@ -1,12 +1,15 @@
 {
-  "asn": 138570,
-  "handle": "CT-ANQING-IDC",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138570,
+  "metadata" : {
+    "handle" : "CT-ANQING-IDC",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "60.171.129.0/24",
       "117.66.24.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

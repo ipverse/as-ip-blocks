@@ -1,14 +1,17 @@
 {
-  "asn": 198345,
-  "handle": "VUB-AS",
-  "description": "Viesoji istaiga Vilniaus universiteto bustas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198345,
+  "metadata" : {
+    "handle" : "VUB-AS",
+    "description" : "Viesoji istaiga Vilniaus universiteto bustas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.32.160.0/22",
       "91.233.176.0/22",
       "194.28.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4048:105::/48"
     ]
   }

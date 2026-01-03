@@ -1,12 +1,15 @@
 {
-  "asn": 37368,
-  "handle": "BLUEDUST",
-  "description": "Bluedust Wireless",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37368,
+  "metadata" : {
+    "handle" : "BLUEDUST",
+    "description" : "Bluedust Wireless",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.79.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f080::/32"
     ]
   }

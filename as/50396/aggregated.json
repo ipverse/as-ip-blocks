@@ -1,13 +1,16 @@
 {
-  "asn": 50396,
-  "handle": "FORMAT-C-AS",
-  "description": "LLC Format-center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50396,
+  "metadata" : {
+    "handle" : "FORMAT-C-AS",
+    "description" : "LLC Format-center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.91.64.0/24",
       "91.232.70.0/24",
       "176.123.56.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

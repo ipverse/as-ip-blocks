@@ -1,12 +1,15 @@
 {
-  "asn": 266410,
-  "handle": "BELNET-EIRELLI",
-  "description": "BELNET EIRELLI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266410,
+  "metadata" : {
+    "handle" : "BELNET-EIRELLI",
+    "description" : "BELNET EIRELLI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.80.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3768::/32"
     ]
   }

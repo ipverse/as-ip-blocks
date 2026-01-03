@@ -1,9 +1,12 @@
 {
-  "asn": 13119,
-  "handle": "ACI-COM-AS",
-  "description": "Zachodniopomorski Uniwersytet Technologiczny w Szczecinie Akademickie Centrum Informatyki",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13119,
+  "metadata" : {
+    "handle" : "ACI-COM-AS",
+    "description" : "Zachodniopomorski Uniwersytet Technologiczny w Szczecinie Akademickie Centrum Informatyki",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.94.16.0/20",
       "109.69.88.0/23",
       "212.14.50.0/23",
@@ -14,7 +17,7 @@
       "212.14.62.0/23",
       "213.155.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4c5c::/30"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 34467,
-  "handle": "SOTCOM-AS",
-  "description": "JSC Telephone Company Sotcom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34467,
+  "metadata" : {
+    "handle" : "SOTCOM-AS",
+    "description" : "JSC Telephone Company Sotcom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.72.112.0/20",
       "93.92.82.0/23",
       "93.92.84.0/22",
@@ -12,6 +15,6 @@
       "178.255.124.0/23",
       "185.23.32.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 401023,
-  "handle": "KWIKBIT-INTERNET",
-  "description": "Kwikbit Internet Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401023,
+  "metadata" : {
+    "handle" : "KWIKBIT-INTERNET",
+    "description" : "Kwikbit Internet Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.185.8.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f912::/48"
     ]
   }

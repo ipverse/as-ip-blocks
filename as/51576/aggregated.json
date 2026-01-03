@@ -1,11 +1,14 @@
 {
-  "asn": 51576,
-  "handle": "IPBROADCAST-AS",
-  "description": "IP Broadcast GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51576,
+  "metadata" : {
+    "handle" : "IPBROADCAST-AS",
+    "description" : "IP Broadcast GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.95.190.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

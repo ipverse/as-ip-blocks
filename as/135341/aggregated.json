@@ -1,9 +1,12 @@
 {
-  "asn": 135341,
-  "handle": "ORANGE2-AS-AP",
-  "description": "Orange Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135341,
+  "metadata" : {
+    "handle" : "ORANGE2-AS-AP",
+    "description" : "Orange Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.117.62.0/23",
       "103.93.141.0/24",
       "103.109.92.0/24",
@@ -24,7 +27,7 @@
       "160.187.108.0/24",
       "165.99.34.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:4c0:10::/48"
     ]
   }

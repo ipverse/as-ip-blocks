@@ -1,12 +1,15 @@
 {
-  "asn": 151148,
-  "handle": "TELESAR-AS",
-  "description": "Sar Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151148,
+  "metadata" : {
+    "handle" : "TELESAR-AS",
+    "description" : "Sar Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.90.205.0/24",
       "103.90.206.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

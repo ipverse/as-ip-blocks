@@ -1,11 +1,14 @@
 {
-  "asn": 1772,
-  "handle": "DNIC-AS-01772",
-  "description": "Navy Network Information Center (NNIC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1772,
+  "metadata" : {
+    "handle" : "DNIC-AS-01772",
+    "description" : "Navy Network Information Center (NNIC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.160.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

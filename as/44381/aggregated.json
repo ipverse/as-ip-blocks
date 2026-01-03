@@ -1,9 +1,12 @@
 {
-  "asn": 44381,
-  "handle": "ITSJEFEN-AS",
-  "description": "ITsjefen AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44381,
+  "metadata" : {
+    "handle" : "ITSJEFEN-AS",
+    "description" : "ITsjefen AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.145.152.0/21",
       "44.31.78.0/24",
       "45.154.232.0/23",
@@ -12,7 +15,7 @@
       "193.160.138.0/24",
       "217.144.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2c8::/32"
     ]
   }

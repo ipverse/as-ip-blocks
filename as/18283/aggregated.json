@@ -1,9 +1,12 @@
 {
-  "asn": 18283,
-  "handle": "CCV",
-  "description": "Chupicom Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18283,
+  "metadata" : {
+    "handle" : "CCV",
+    "description" : "Chupicom Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "101.50.32.0/20",
       "101.50.48.0/21",
       "124.66.224.0/19",
@@ -12,7 +15,7 @@
       "202.213.176.0/20",
       "218.223.224.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:1a80::/32"
     ]
   }

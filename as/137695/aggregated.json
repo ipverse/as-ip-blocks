@@ -1,9 +1,12 @@
 {
-  "asn": 137695,
-  "handle": "CHINATELECOM-XINJIANG-WULUMUQI-MAN",
-  "description": "CHINATELECOM Xinjiang Wulumuqi MAN network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137695,
+  "metadata" : {
+    "handle" : "CHINATELECOM-XINJIANG-WULUMUQI-MAN",
+    "description" : "CHINATELECOM Xinjiang Wulumuqi MAN network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.105.160.0/21",
       "36.105.208.0/21",
       "36.107.224.0/21",
@@ -46,7 +49,7 @@
       "222.81.120.0/21",
       "222.83.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:11:8800::/37",
       "240e:51:5800::/37",
       "240e:108:8b::/48",

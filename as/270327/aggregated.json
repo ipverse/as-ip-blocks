@@ -1,12 +1,15 @@
 {
-  "asn": 270327,
-  "handle": "SECRETARIA-MUNICIPAL-GESTAO",
-  "description": "SECRETARIA MUNICIPAL DE GESTAO - SEMGE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270327,
+  "metadata" : {
+    "handle" : "SECRETARIA-MUNICIPAL-GESTAO",
+    "description" : "SECRETARIA MUNICIPAL DE GESTAO - SEMGE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.195.57.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:80:3890::/48"
     ]
   }

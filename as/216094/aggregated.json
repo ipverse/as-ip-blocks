@@ -1,12 +1,15 @@
 {
-  "asn": 216094,
-  "handle": "FNW-AS",
-  "description": "Fiber Network WUG GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216094,
+  "metadata" : {
+    "handle" : "FNW-AS",
+    "description" : "Fiber Network WUG GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.161.248.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:7701::/32"
     ]
   }

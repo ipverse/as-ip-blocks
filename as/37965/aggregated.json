@@ -1,9 +1,12 @@
 {
-  "asn": 37965,
-  "handle": "CNNIC-PBSL-AP",
-  "description": "Pacnet Business Solutions LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37965,
+  "metadata" : {
+    "handle" : "CNNIC-PBSL-AP",
+    "description" : "Pacnet Business Solutions LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "222.126.128.0/22",
       "222.126.132.0/23",
       "222.126.140.0/22",
@@ -29,6 +32,6 @@
       "222.126.236.0/22",
       "222.126.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

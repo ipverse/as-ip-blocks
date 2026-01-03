@@ -1,9 +1,12 @@
 {
-  "asn": 9919,
-  "handle": "NCIC-TW",
-  "description": "New Century InfoComm Tech Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9919,
+  "metadata" : {
+    "handle" : "NCIC-TW",
+    "description" : "New Century InfoComm Tech Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.104.111.0/24",
       "61.56.192.0/18",
       "61.61.33.0/24",
@@ -71,7 +74,7 @@
       "218.210.0.0/15",
       "220.228.0.0/15"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:8000::/26"
     ]
   }

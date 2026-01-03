@@ -1,9 +1,12 @@
 {
-  "asn": 1930,
-  "handle": "RCCN",
-  "description": "Fundacao para a Ciencia e a Tecnologia I.P",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1930,
+  "metadata" : {
+    "handle" : "RCCN",
+    "description" : "Fundacao para a Ciencia e a Tecnologia I.P.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.83.0.0/16",
       "158.162.0.0/19",
       "158.162.64.0/19",
@@ -78,7 +81,7 @@
       "194.117.48.0/23",
       "194.210.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:690::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 25598,
-  "handle": "FENACO",
-  "description": "fenaco Genossenschaft",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25598,
+  "metadata" : {
+    "handle" : "FENACO",
+    "description" : "fenaco Genossenschaft",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.200.144.0/24",
       "195.245.237.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:8780::/32"
     ]
   }

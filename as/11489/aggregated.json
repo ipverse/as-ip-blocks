@@ -1,9 +1,12 @@
 {
-  "asn": 11489,
-  "handle": "BACI",
-  "description": "Bell Canada",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11489,
+  "metadata" : {
+    "handle" : "BACI",
+    "description" : "Bell Canada",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.221.0.0/16",
       "142.82.11.0/24",
       "142.82.47.0/24",
@@ -25,6 +28,6 @@
       "199.202.96.0/24",
       "206.167.52.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 14920,
-  "handle": "EVERTEC",
-  "description": "Evertec",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14920,
+  "metadata" : {
+    "handle" : "EVERTEC",
+    "description" : "Evertec",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.178.200.0/24",
       "64.178.211.0/24",
       "64.178.212.0/22",
@@ -11,6 +14,6 @@
       "64.178.219.0/24",
       "64.178.220.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

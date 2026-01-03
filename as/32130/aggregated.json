@@ -1,12 +1,15 @@
 {
-  "asn": 32130,
-  "handle": "BRIGHT-HORIZONS",
-  "description": "Bright Horizons",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32130,
+  "metadata" : {
+    "handle" : "BRIGHT-HORIZONS",
+    "description" : "Bright Horizons",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.132.120.0/23",
       "91.132.123.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

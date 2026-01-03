@@ -1,14 +1,17 @@
 {
-  "asn": 56568,
-  "handle": "XCOMMUNICATION-AS",
-  "description": "X-COMMUNICATION LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56568,
+  "metadata" : {
+    "handle" : "XCOMMUNICATION-AS",
+    "description" : "X-COMMUNICATION LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.46.96.0/22",
       "91.235.176.0/22",
       "185.113.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:6780::/29"
     ]
   }

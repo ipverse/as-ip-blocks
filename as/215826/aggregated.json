@@ -1,9 +1,12 @@
 {
-  "asn": 215826,
-  "handle": "PARTNER-HOSTING-LTD",
-  "description": "Partner Hosting LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215826,
+  "metadata" : {
+    "handle" : "PARTNER-HOSTING-LTD",
+    "description" : "Partner Hosting LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.252.153.0/24",
       "5.252.155.0/24",
       "45.150.34.0/24",
@@ -27,7 +30,7 @@
       "195.10.205.0/24",
       "213.176.79.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:9a40:9404::/47"
     ]
   }

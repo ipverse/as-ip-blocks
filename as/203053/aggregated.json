@@ -1,9 +1,12 @@
 {
-  "asn": 203053,
-  "handle": "CLAUSWEB",
-  "description": "CLAUS WEB srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203053,
+  "metadata" : {
+    "handle" : "CLAUSWEB",
+    "description" : "CLAUS WEB srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.14.56.0/24",
       "37.156.4.0/24",
       "37.156.180.0/23",
@@ -29,6 +32,6 @@
       "188.212.255.0/24",
       "188.214.214.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

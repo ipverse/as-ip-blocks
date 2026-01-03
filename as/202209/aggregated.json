@@ -1,9 +1,12 @@
 {
-  "asn": 202209,
-  "handle": "TVTRYAVNA-AS",
-  "description": "Erma Consulting Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202209,
+  "metadata" : {
+    "handle" : "TVTRYAVNA-AS",
+    "description" : "Erma Consulting Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.204.129.0/24",
       "82.103.82.0/24",
       "82.103.93.0/24",
@@ -12,6 +15,6 @@
       "212.91.177.0/24",
       "217.79.33.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 141909,
-  "handle": "IDNIC-ADITAMA-AS-ID",
-  "description": "PT Aditama Netmedia Solusindo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141909,
+  "metadata" : {
+    "handle" : "IDNIC-ADITAMA-AS-ID",
+    "description" : "PT Aditama Netmedia Solusindo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.121.186.0/23",
       "103.164.150.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:f240::/48",
       "2001:df7:7d80::/48"
     ]

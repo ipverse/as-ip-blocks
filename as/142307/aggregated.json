@@ -1,9 +1,12 @@
 {
-  "asn": 142307,
-  "handle": "CYB-AS-ID",
-  "description": "PT CYB Media Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142307,
+  "metadata" : {
+    "handle" : "CYB-AS-ID",
+    "description" : "PT CYB Media Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.46.232.0/22",
       "38.188.207.0/24",
       "38.191.164.0/23",
@@ -11,6 +14,6 @@
       "103.168.44.0/24",
       "103.179.84.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

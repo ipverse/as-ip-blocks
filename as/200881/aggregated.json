@@ -1,9 +1,12 @@
 {
-  "asn": 200881,
-  "handle": "NORRKOPING",
-  "description": "Norrkopings Kommun",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200881,
+  "metadata" : {
+    "handle" : "NORRKOPING",
+    "description" : "Norrkopings Kommun",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.235.86.0/23",
       "193.235.88.0/21",
       "194.68.138.0/23",
@@ -11,7 +14,7 @@
       "194.68.144.0/22",
       "194.68.148.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2dd0::/48"
     ]
   }

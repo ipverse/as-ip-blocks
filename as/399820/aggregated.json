@@ -1,9 +1,12 @@
 {
-  "asn": 399820,
-  "handle": "ATOMIC-NETWORKS-1",
-  "description": "Atomic Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399820,
+  "metadata" : {
+    "handle" : "ATOMIC-NETWORKS-1",
+    "description" : "Atomic Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.146.184.0/24",
       "45.61.170.0/24",
       "64.49.8.0/23",
@@ -11,7 +14,7 @@
       "166.1.173.0/24",
       "204.137.14.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc2f:100::/40",
       "2602:fc2f:f00::/48"
     ]

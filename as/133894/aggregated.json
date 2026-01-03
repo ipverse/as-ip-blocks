@@ -1,9 +1,12 @@
 {
-  "asn": 133894,
-  "handle": "EASYCONNECTISP-AS-AP",
-  "description": "Easy Connect- ISP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133894,
+  "metadata" : {
+    "handle" : "EASYCONNECTISP-AS-AP",
+    "description" : "Easy Connect- ISP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.230.209.0/24",
       "103.46.208.0/22",
       "103.88.192.0/22",
@@ -12,6 +15,6 @@
       "116.204.240.0/24",
       "160.191.140.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

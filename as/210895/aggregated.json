@@ -1,9 +1,12 @@
 {
-  "asn": 210895,
-  "handle": "PODAON-PL-1",
-  "description": "Podaon SIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210895,
+  "metadata" : {
+    "handle" : "PODAON-PL-1",
+    "description" : "Podaon SIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.66.11.0/24",
       "45.131.183.0/24",
       "81.91.177.0/24",
@@ -14,7 +17,7 @@
       "188.137.244.0/24",
       "212.162.154.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:4ac0:8::/45"
     ]
   }

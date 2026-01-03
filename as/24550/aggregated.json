@@ -1,9 +1,12 @@
 {
-  "asn": 24550,
-  "handle": "WEBSURFERNP-AS-NP",
-  "description": "Websurfer Nepal Communication System Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24550,
+  "metadata" : {
+    "handle" : "WEBSURFERNP-AS-NP",
+    "description" : "Websurfer Nepal Communication System Pvt. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.228.192.0/22",
       "103.94.252.0/22",
       "103.225.244.0/22",
@@ -11,7 +14,7 @@
       "116.90.224.0/20",
       "118.91.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:9700::/32"
     ]
   }

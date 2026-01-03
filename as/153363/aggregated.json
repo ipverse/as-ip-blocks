@@ -1,12 +1,15 @@
 {
-  "asn": 153363,
-  "handle": "CHCL-AS-AP",
-  "description": "Cloud HM Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153363,
+  "metadata" : {
+    "handle" : "CHCL-AS-AP",
+    "description" : "Cloud HM Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.187.249.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:68c0::/48"
     ]
   }

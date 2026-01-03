@@ -1,9 +1,12 @@
 {
-  "asn": 42649,
-  "handle": "BBN",
-  "description": "Baffin Bay Networks AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42649,
+  "metadata" : {
+    "handle" : "BBN",
+    "description" : "Baffin Bay Networks AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.86.104.0/23",
       "185.149.56.0/23",
       "185.149.59.0/24",
@@ -19,7 +22,7 @@
       "194.68.159.0/24",
       "194.68.160.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:56c4::/48",
       "2a0a:56c4:8001::/48",
       "2a0a:56c4:8101::/48",

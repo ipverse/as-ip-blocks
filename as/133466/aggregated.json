@@ -1,15 +1,18 @@
 {
-  "asn": 133466,
-  "handle": "BOSCH-NET-AP",
-  "description": "Robert Bosch GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133466,
+  "metadata" : {
+    "handle" : "BOSCH-NET-AP",
+    "description" : "Robert Bosch GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.112.36.0/22",
       "103.4.124.0/22",
       "103.221.240.0/22",
       "149.226.192.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:d00::/32"
     ]
   }

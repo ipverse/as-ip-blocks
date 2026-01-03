@@ -1,12 +1,15 @@
 {
-  "asn": 211286,
-  "handle": "MEASUREMENT-NETWORK",
-  "description": "Tobias Fiebig",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211286,
+  "metadata" : {
+    "handle" : "MEASUREMENT-NETWORK",
+    "description" : "Tobias Fiebig",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.39.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:8d04::/32"
     ]
   }

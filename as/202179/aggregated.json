@@ -1,12 +1,15 @@
 {
-  "asn": 202179,
-  "handle": "IDS-AS",
-  "description": "Intercom Data Service sh.p.k",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202179,
+  "metadata" : {
+    "handle" : "IDS-AS",
+    "description" : "Intercom Data Service sh.p.k",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.50.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:a960::/48",
       "2a01:a960:8::/47"
     ]

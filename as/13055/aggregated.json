@@ -1,9 +1,12 @@
 {
-  "asn": 13055,
-  "handle": "CSVLG-AS",
-  "description": "MTS PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13055,
+  "metadata" : {
+    "handle" : "CSVLG-AS",
+    "description" : "MTS PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.144.64.0/22",
       "5.144.72.0/21",
       "37.72.64.0/20",
@@ -13,6 +16,6 @@
       "213.176.224.0/22",
       "213.176.240.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

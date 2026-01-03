@@ -1,13 +1,16 @@
 {
-  "asn": 50531,
-  "handle": "ABAX",
-  "description": "ABAX as",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50531,
+  "metadata" : {
+    "handle" : "ABAX",
+    "description" : "ABAX as",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.53.191.0/24",
       "185.89.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:8220::/32"
     ]
   }

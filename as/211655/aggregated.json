@@ -1,12 +1,15 @@
 {
-  "asn": 211655,
-  "handle": "NASK-DNS-ANYCAST2",
-  "description": "NAUKOWA I AKADEMICKA SIEC KOMPUTEROWA - PANSTWOWY INSTYTUT BADAWCZY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211655,
+  "metadata" : {
+    "handle" : "NASK-DNS-ANYCAST2",
+    "description" : "NAUKOWA I AKADEMICKA SIEC KOMPUTEROWA - PANSTWOWY INSTYTUT BADAWCZY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.102.225.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:7f9::/48"
     ]
   }

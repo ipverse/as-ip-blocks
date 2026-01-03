@@ -1,16 +1,19 @@
 {
-  "asn": 199912,
-  "handle": "LAYER7-PAR1",
-  "description": "Layer7 Networks GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199912,
+  "metadata" : {
+    "handle" : "LAYER7-PAR1",
+    "description" : "Layer7 Networks GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.214.24.0/24",
       "91.238.180.0/24",
       "91.239.208.0/24",
       "185.55.240.0/24",
       "194.24.161.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:5e40::/31"
     ]
   }

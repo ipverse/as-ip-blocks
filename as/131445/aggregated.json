@@ -1,9 +1,12 @@
 {
-  "asn": 131445,
-  "handle": "AIS3G-2100-AS-AP",
-  "description": "ADVANCED WIRELESS NETWORK COMPANY LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131445,
+  "metadata" : {
+    "handle" : "AIS3G-2100-AS-AP",
+    "description" : "ADVANCED WIRELESS NETWORK COMPANY LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.207.0.0/24",
       "14.207.3.0/24",
       "14.207.4.0/24",
@@ -61,7 +64,7 @@
       "182.232.232.0/21",
       "182.232.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:44c8:132::/47",
       "2001:44c8:4010::/44",
       "2001:44c8:4020::/43",

@@ -1,9 +1,12 @@
 {
-  "asn": 21852,
-  "handle": "DISNW1",
-  "description": "State Of Arkansas Division of Information Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21852,
+  "metadata" : {
+    "handle" : "DISNW1",
+    "description" : "State Of Arkansas Division of Information Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.204.0.0/16",
       "150.208.0.0/17",
       "150.208.160.0/19",
@@ -13,6 +16,6 @@
       "170.211.0.0/16",
       "205.153.140.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

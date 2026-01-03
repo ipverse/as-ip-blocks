@@ -1,9 +1,12 @@
 {
-  "asn": 30404,
-  "handle": "BLUESTREAMFIBER",
-  "description": "Blue Stream",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30404,
+  "metadata" : {
+    "handle" : "BLUESTREAMFIBER",
+    "description" : "Blue Stream",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.51.192.0/19",
       "24.233.160.0/19",
       "57.135.0.0/16",
@@ -27,7 +30,7 @@
       "208.70.96.0/21",
       "216.225.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:e400::/28",
       "2607:fe20::/32"
     ]

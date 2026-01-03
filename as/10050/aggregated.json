@@ -1,12 +1,15 @@
 {
-  "asn": 10050,
-  "handle": "NL-AS",
-  "description": "The National Library of Korea",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10050,
+  "metadata" : {
+    "handle" : "NL-AS",
+    "description" : "The National Library of Korea",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "124.137.58.0/24",
       "125.61.100.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

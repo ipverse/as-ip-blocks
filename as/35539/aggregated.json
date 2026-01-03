@@ -1,9 +1,12 @@
 {
-  "asn": 35539,
-  "handle": "INFOLINK-T-AS",
-  "description": "Information and Communication Technologies LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35539,
+  "metadata" : {
+    "handle" : "INFOLINK-T-AS",
+    "description" : "Information and Communication Technologies LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.134.192.0/21",
       "46.160.192.0/18",
       "93.95.160.0/21",
@@ -11,7 +14,7 @@
       "95.131.208.0/21",
       "217.194.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5fc0::/32"
     ]
   }

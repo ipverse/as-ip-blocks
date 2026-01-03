@@ -1,9 +1,12 @@
 {
-  "asn": 12586,
-  "handle": "ASGHOSTNET",
-  "description": "GHOSTnet GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12586,
+  "metadata" : {
+    "handle" : "ASGHOSTNET",
+    "description" : "GHOSTnet GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.83.128.0/20",
       "5.175.129.0/24",
       "5.175.130.0/23",
@@ -69,7 +72,7 @@
       "195.162.4.0/23",
       "217.69.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:12d8::/29",
       "2a00:19d0::/29",
       "2a00:cdc0::/32",

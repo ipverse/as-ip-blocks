@@ -1,14 +1,17 @@
 {
-  "asn": 7641,
-  "handle": "CHINABTN",
-  "description": "China Broadcasting TV Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7641,
+  "metadata" : {
+    "handle" : "CHINABTN",
+    "description" : "China Broadcasting TV Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "211.89.0.0/16",
       "211.146.0.0/16",
       "211.156.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:600::/32"
     ]
   }

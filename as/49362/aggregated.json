@@ -1,9 +1,12 @@
 {
-  "asn": 49362,
-  "handle": "DSV",
-  "description": "DSV A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49362,
+  "metadata" : {
+    "handle" : "DSV",
+    "description" : "DSV A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "145.218.0.0/16",
       "157.168.0.0/16",
       "192.124.32.0/24",
@@ -24,7 +27,7 @@
       "196.4.68.0/23",
       "196.4.70.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:aa00::/29"
     ]
   }

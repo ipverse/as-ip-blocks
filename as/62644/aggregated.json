@@ -1,13 +1,16 @@
 {
-  "asn": 62644,
-  "handle": "NBCSN-DMZ",
-  "description": "NBC Sports Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62644,
+  "metadata" : {
+    "handle" : "NBCSN-DMZ",
+    "description" : "NBC Sports Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.205.7.0/24",
       "50.229.84.0/24",
       "198.55.26.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

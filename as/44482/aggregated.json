@@ -1,14 +1,17 @@
 {
-  "asn": 44482,
-  "handle": "ZURB-AS",
-  "description": "TOV TRK Radioservice",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44482,
+  "metadata" : {
+    "handle" : "ZURB-AS",
+    "description" : "TOV TRK Radioservice",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.199.138.0/24",
       "91.225.92.0/22",
       "194.28.52.0/22",
       "195.238.116.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

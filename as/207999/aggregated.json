@@ -1,12 +1,15 @@
 {
-  "asn": 207999,
-  "handle": "RCSE",
-  "description": "regiocom SE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207999,
+  "metadata" : {
+    "handle" : "RCSE",
+    "description" : "regiocom SE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.130.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:8d80::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 62077,
-  "handle": "DTI-DC-PEERING",
-  "description": "DT Iletisim Hizmetleri A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62077,
+  "metadata" : {
+    "handle" : "DTI-DC-PEERING",
+    "description" : "DT Iletisim Hizmetleri A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.212.0/23",
       "62.244.233.0/24",
       "62.244.246.0/24",
@@ -11,6 +14,6 @@
       "83.229.62.0/24",
       "188.132.178.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

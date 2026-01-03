@@ -1,13 +1,16 @@
 {
-  "asn": 34636,
-  "handle": "LASER-AS",
-  "description": "Laser Company Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34636,
+  "metadata" : {
+    "handle" : "LASER-AS",
+    "description" : "Laser Company Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.67.100.0/22",
       "185.233.13.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:f080::/29"
     ]
   }

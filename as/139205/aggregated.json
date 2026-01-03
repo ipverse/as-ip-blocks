@@ -1,15 +1,18 @@
 {
-  "asn": 139205,
-  "handle": "IDNIC-JALABYTE-ID",
-  "description": "PT Jala Informatika Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139205,
+  "metadata" : {
+    "handle" : "IDNIC-JALABYTE-ID",
+    "description" : "PT Jala Informatika Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.155.227.0/24",
       "103.122.246.0/24",
       "144.79.174.0/24",
       "185.65.203.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:7840::/48"
     ]
   }

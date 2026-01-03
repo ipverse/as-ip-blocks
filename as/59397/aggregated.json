@@ -1,12 +1,15 @@
 {
-  "asn": 59397,
-  "handle": "REMOD-AS",
-  "description": "Remod Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59397,
+  "metadata" : {
+    "handle" : "REMOD-AS",
+    "description" : "Remod Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.75.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:4d22::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 26210,
-  "handle": "AXS-BOLIVIA-S-A",
-  "description": "AXS Bolivia S. A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26210,
+  "metadata" : {
+    "handle" : "AXS-BOLIVIA-S-A",
+    "description" : "AXS Bolivia S. A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.145.132.0/23",
       "45.145.134.0/24",
       "82.21.156.0/24",
@@ -46,7 +49,7 @@
       "200.105.215.0/24",
       "200.105.216.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:88::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 577,
-  "handle": "BACOM",
-  "description": "Bell Canada",
-  "subnets": {
-    "ipv4": [
+  "asn" : 577,
+  "metadata" : {
+    "handle" : "BACOM",
+    "description" : "Bell Canada",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.142.116.0/24",
       "44.31.12.0/23",
       "44.31.14.0/24",
@@ -281,7 +284,7 @@
       "216.19.64.0/20",
       "216.208.0.0/15"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4958::/32",
       "2602:812:2001::/48",
       "2602:812:2002::/48",

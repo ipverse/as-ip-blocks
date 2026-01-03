@@ -1,9 +1,12 @@
 {
-  "asn": 55352,
-  "handle": "FIVENET-IN",
-  "description": "Microscan Internet Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55352,
+  "metadata" : {
+    "handle" : "FIVENET-IN",
+    "description" : "Microscan Internet Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.255.180.0/22",
       "36.255.184.0/22",
       "43.231.132.0/22",
@@ -70,7 +73,7 @@
       "175.100.176.0/20",
       "202.168.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:9e00::/46",
       "2406:9e00:4::/48",
       "2406:9e00:7::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 25899,
-  "handle": "LSNET",
-  "description": "LS Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25899,
+  "metadata" : {
+    "handle" : "LSNET",
+    "description" : "LS Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.251.229.0/24",
       "67.59.64.0/19",
       "67.210.192.0/20",
@@ -32,7 +35,7 @@
       "216.110.192.0/19",
       "216.116.38.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:400::/32",
       "2607:fa40::/32"
     ]

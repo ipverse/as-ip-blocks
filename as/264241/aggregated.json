@@ -1,13 +1,16 @@
 {
-  "asn": 264241,
-  "handle": "NETSUL-SERVICO-PROVEDOR",
-  "description": "Netsul Servico de Provedor Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264241,
+  "metadata" : {
+    "handle" : "NETSUL-SERVICO-PROVEDOR",
+    "description" : "Netsul Servico de Provedor Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.118.4.0/22",
       "168.196.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:24c4::/32"
     ]
   }

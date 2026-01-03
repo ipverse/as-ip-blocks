@@ -1,9 +1,12 @@
 {
-  "asn": 136501,
-  "handle": "HKBNES-AS-AP",
-  "description": "HKBN Enterprise Solutions HK Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136501,
+  "metadata" : {
+    "handle" : "HKBNES-AS-AP",
+    "description" : "HKBN Enterprise Solutions HK Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.226.131.0/24",
       "82.153.219.0/24",
       "95.134.6.0/24",
@@ -17,7 +20,7 @@
       "202.155.84.0/22",
       "202.155.92.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:60c7:8100::/48"
     ]
   }

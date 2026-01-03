@@ -1,14 +1,17 @@
 {
-  "asn": 29317,
-  "handle": "SLZ-AS",
-  "description": "Sascha Lenz",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29317,
+  "metadata" : {
+    "handle" : "SLZ-AS",
+    "description" : "Sascha Lenz",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.194.118.0/23",
       "91.194.124.0/23",
       "195.137.210.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1578:100::/40"
     ]
   }

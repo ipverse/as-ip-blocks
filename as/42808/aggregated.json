@@ -1,9 +1,12 @@
 {
-  "asn": 42808,
-  "handle": "VIRTELA-NET-VNLAMS1",
-  "description": "NTT Global Networks Incorporated",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42808,
+  "metadata" : {
+    "handle" : "VIRTELA-NET-VNLAMS1",
+    "description" : "NTT Global Networks Incorporated",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.247.0.0/24",
       "77.247.13.0/24",
       "134.188.0.0/16",
@@ -13,6 +16,6 @@
       "206.197.58.0/24",
       "212.11.81.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

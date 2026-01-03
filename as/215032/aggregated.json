@@ -1,12 +1,15 @@
 {
-  "asn": 215032,
-  "handle": "ELKOMA-AS",
-  "description": "Elkoma LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215032,
+  "metadata" : {
+    "handle" : "ELKOMA-AS",
+    "description" : "Elkoma LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.171.180.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:1034::/48"
     ]
   }

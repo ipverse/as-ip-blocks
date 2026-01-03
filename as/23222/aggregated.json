@@ -1,13 +1,16 @@
 {
-  "asn": 23222,
-  "handle": "CHARTER-23222-RENO-C3",
-  "description": "Charter Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23222,
+  "metadata" : {
+    "handle" : "CHARTER-23222-RENO-C3",
+    "description" : "Charter Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "76.58.18.0/23",
       "192.61.88.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:107:4200::/40",
       "2602:107:e800::/43"
     ]

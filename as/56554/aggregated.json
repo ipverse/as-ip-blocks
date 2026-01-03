@@ -1,12 +1,15 @@
 {
-  "asn": 56554,
-  "handle": "IETF-MEETING",
-  "description": "Internet Society",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56554,
+  "metadata" : {
+    "handle" : "IETF-MEETING",
+    "description" : "Internet Society",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.130.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:370::/48",
       "2001:67c:1230::/46"
     ]

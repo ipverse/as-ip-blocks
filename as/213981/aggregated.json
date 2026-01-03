@@ -1,12 +1,15 @@
 {
-  "asn": 213981,
-  "handle": "RTLP",
-  "description": "RTLP SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213981,
+  "metadata" : {
+    "handle" : "RTLP",
+    "description" : "RTLP SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.104.142.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:3a40::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 7557,
-  "handle": "KTNET-AS",
-  "description": "Korea Trade Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7557,
+  "metadata" : {
+    "handle" : "KTNET-AS",
+    "description" : "Korea Trade Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.233.192.0/19",
       "203.233.224.0/20",
       "203.242.128.0/17",
@@ -14,6 +17,6 @@
       "210.217.128.0/19",
       "211.37.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

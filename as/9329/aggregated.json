@@ -1,9 +1,12 @@
 {
-  "asn": 9329,
-  "handle": "SLTINT-AS-AP",
-  "description": "Sri Lanka Telecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9329,
+  "metadata" : {
+    "handle" : "SLTINT-AS-AP",
+    "description" : "Sri Lanka Telecom Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.75.84.0/24",
       "112.134.0.0/15",
       "119.235.4.0/22",
@@ -19,7 +22,7 @@
       "220.247.192.0/18",
       "222.165.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:d000::/32"
     ]
   }

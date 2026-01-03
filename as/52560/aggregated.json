@@ -1,14 +1,17 @@
 {
-  "asn": 52560,
-  "handle": "ATK-TELECOMUNICACOES",
-  "description": "ATK Telecomunicações Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52560,
+  "metadata" : {
+    "handle" : "ATK-TELECOMUNICACOES",
+    "description" : "ATK Telecomunicações Ltda.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.0.144.0/22",
       "177.86.68.0/22",
       "186.235.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1660::/32"
     ]
   }

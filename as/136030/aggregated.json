@@ -1,9 +1,12 @@
 {
-  "asn": 136030,
-  "handle": "REDTONE-AS-AP",
-  "description": "Redtone Telecommunications Pakistan (Private) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136030,
+  "metadata" : {
+    "handle" : "REDTONE-AS-AP",
+    "description" : "Redtone Telecommunications Pakistan (Private) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.225.98.0/23",
       "103.85.128.0/24",
       "103.85.131.0/24",
@@ -22,6 +25,6 @@
       "206.42.122.0/23",
       "206.42.125.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

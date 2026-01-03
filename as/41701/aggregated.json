@@ -1,16 +1,19 @@
 {
-  "asn": 41701,
-  "handle": "CAP-FIN-AS",
-  "description": "Capgemini Finland Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41701,
+  "metadata" : {
+    "handle" : "CAP-FIN-AS",
+    "description" : "Capgemini Finland Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.155.56.0/22",
       "145.247.0.0/16",
       "157.129.0.0/16",
       "192.165.244.0/24",
       "194.103.234.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:21d8::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 30997,
-  "handle": "GIXA-AS",
-  "description": "Ghana Internet Exchange Association",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30997,
+  "metadata" : {
+    "handle" : "GIXA-AS",
+    "description" : "Ghana Internet Exchange Association",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "196.49.14.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43f8:ae1::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 50629,
-  "handle": "LWLCOM",
-  "description": "LWLcom GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50629,
+  "metadata" : {
+    "handle" : "LWLCOM",
+    "description" : "LWLcom GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.172.0.0/18",
       "31.172.96.0/21",
       "31.209.80.0/20",
@@ -29,7 +32,7 @@
       "194.31.192.0/24",
       "195.182.2.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:194::/48",
       "2001:67c:708::/48",
       "2a00:c380::/32",

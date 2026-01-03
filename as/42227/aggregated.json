@@ -1,16 +1,19 @@
 {
-  "asn": 42227,
-  "handle": "AIRWIRE-AS",
-  "description": "Airwire Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42227,
+  "metadata" : {
+    "handle" : "AIRWIRE-AS",
+    "description" : "Airwire Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.189.64.0/21",
       "93.89.240.0/20",
       "185.176.12.0/22",
       "188.93.0.0/21",
       "195.222.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:278::/32"
     ]
   }

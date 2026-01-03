@@ -1,13 +1,16 @@
 {
-  "asn": 329048,
-  "handle": "NETCOM-AS",
-  "description": "NETCOM sa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 329048,
+  "metadata" : {
+    "handle" : "NETCOM-AS",
+    "description" : "NETCOM sa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.205.52.0/23",
       "102.205.55.0/24",
       "102.216.27.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

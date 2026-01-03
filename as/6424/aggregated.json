@@ -1,9 +1,12 @@
 {
-  "asn": 6424,
-  "handle": "EDGOO",
-  "description": "EDGOO NETWORKS UNIPESSOAL LDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6424,
+  "metadata" : {
+    "handle" : "EDGOO",
+    "description" : "EDGOO NETWORKS UNIPESSOAL LDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.96.0/22",
       "82.215.71.0/24",
       "103.243.124.0/22",
@@ -19,7 +22,7 @@
       "193.163.151.0/24",
       "212.52.23.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:b18::/32",
       "2a0b:e740::/29",
       "2a0d:82c0::/29",

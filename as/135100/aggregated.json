@@ -1,12 +1,15 @@
 {
-  "asn": 135100,
-  "handle": "MOL-AS-AP",
-  "description": "Maxnet Online Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135100,
+  "metadata" : {
+    "handle" : "MOL-AS-AP",
+    "description" : "Maxnet Online Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.209.80.0/23",
       "103.209.83.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

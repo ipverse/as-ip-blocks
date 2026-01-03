@@ -1,12 +1,15 @@
 {
-  "asn": 38293,
-  "handle": "MFA-AS-TH-AP",
-  "description": "Ministry of Foreign Affairs",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38293,
+  "metadata" : {
+    "handle" : "MFA-AS-TH-AP",
+    "description" : "Ministry of Foreign Affairs",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "122.0.0.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:e80::/32"
     ]
   }

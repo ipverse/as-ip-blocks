@@ -1,9 +1,12 @@
 {
-  "asn": 13857,
-  "handle": "ONLINEMAC",
-  "description": "Online Northwest",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13857,
+  "metadata" : {
+    "handle" : "ONLINEMAC",
+    "description" : "Online Northwest",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.168.112.0/20",
       "144.86.148.0/22",
       "199.66.196.0/22",
@@ -11,7 +14,7 @@
       "208.83.192.0/21",
       "208.85.232.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:be40::/32"
     ]
   }

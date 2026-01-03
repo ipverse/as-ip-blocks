@@ -1,13 +1,16 @@
 {
-  "asn": 39212,
-  "handle": "ANDEO",
-  "description": "Andeo AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39212,
+  "metadata" : {
+    "handle" : "ANDEO",
+    "description" : "Andeo AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.182.24.0/24",
       "185.182.26.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:df80:24::/48",
       "2a0a:df80:26::/48"
     ]

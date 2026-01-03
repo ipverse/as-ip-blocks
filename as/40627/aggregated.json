@@ -1,9 +1,12 @@
 {
-  "asn": 40627,
-  "handle": "RC-COLO1",
-  "description": "RingCentral Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40627,
+  "metadata" : {
+    "handle" : "RC-COLO1",
+    "description" : "RingCentral Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.81.240.0/20",
       "80.81.128.0/20",
       "103.44.68.0/22",
@@ -15,7 +18,7 @@
       "199.255.120.0/22",
       "208.87.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:77::/48"
     ]
   }

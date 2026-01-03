@@ -1,12 +1,15 @@
 {
-  "asn": 2263,
-  "handle": "FR-RENATER-IMTA-RENNES",
-  "description": "Renater",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2263,
+  "metadata" : {
+    "handle" : "FR-RENATER-IMTA-RENNES",
+    "description" : "Renater",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.44.77.0/24",
       "192.108.119.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 270574,
-  "handle": "RRNET-PROVEDOR",
-  "description": "RRNET PROVEDOR",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270574,
+  "metadata" : {
+    "handle" : "RRNET-PROVEDOR",
+    "description" : "RRNET PROVEDOR",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.26.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6e14::/32"
     ]
   }

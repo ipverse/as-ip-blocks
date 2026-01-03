@@ -1,14 +1,17 @@
 {
-  "asn": 56068,
-  "handle": "LIGHTSPEED-TECHNOLOGY-AS-AP",
-  "description": "Lightspeed Technology Group Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56068,
+  "metadata" : {
+    "handle" : "LIGHTSPEED-TECHNOLOGY-AS-AP",
+    "description" : "Lightspeed Technology Group Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.37.204.0/22",
       "202.49.80.0/23",
       "206.62.34.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:f6::/48",
       "2402:1f20::/32"
     ]

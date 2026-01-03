@@ -1,9 +1,12 @@
 {
-  "asn": 6762,
-  "handle": "SEABONE-NET",
-  "description": "TELECOM ITALIA SPARKLE S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6762,
+  "metadata" : {
+    "handle" : "SEABONE-NET",
+    "description" : "TELECOM ITALIA SPARKLE S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.16.19.0/24",
       "2.16.70.0/23",
       "2.16.146.0/23",
@@ -216,7 +219,7 @@
       "213.144.160.0/19",
       "216.131.39.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:41a8::/32",
       "2800:870::/32"
     ]

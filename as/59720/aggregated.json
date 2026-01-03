@@ -1,13 +1,16 @@
 {
-  "asn": 59720,
-  "handle": "BOFIBER",
-  "description": "Bofiber AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59720,
+  "metadata" : {
+    "handle" : "BOFIBER",
+    "description" : "Bofiber AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.5.232.0/22",
       "213.166.184.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:cd00::/29"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 31766,
-  "handle": "UPS-12-ASN",
-  "description": "University of Puget Sound",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31766,
+  "metadata" : {
+    "handle" : "UPS-12-ASN",
+    "description" : "University of Puget Sound",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.124.98.0/24",
       "207.207.96.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

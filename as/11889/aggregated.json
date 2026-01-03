@@ -1,9 +1,12 @@
 {
-  "asn": 11889,
-  "handle": "IVANET-DAL",
-  "description": "iBasis Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11889,
+  "metadata" : {
+    "handle" : "IVANET-DAL",
+    "description" : "iBasis Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.80.79.0/24",
       "149.7.8.0/24",
       "149.13.168.0/23",
@@ -17,7 +20,7 @@
       "216.168.188.0/23",
       "216.168.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:bf80:100::/40"
     ]
   }

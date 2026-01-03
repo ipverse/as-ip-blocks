@@ -1,9 +1,12 @@
 {
-  "asn": 42388,
-  "handle": "ANX-CLOUDDNS",
-  "description": "Anexia Cloud Solutions GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42388,
+  "metadata" : {
+    "handle" : "ANX-CLOUDDNS",
+    "description" : "Anexia Cloud Solutions GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.16.16.0/24",
       "144.208.243.0/24",
       "185.81.208.0/24",
@@ -12,7 +15,7 @@
       "213.227.191.0/24",
       "217.146.18.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:380:52::/48",
       "2605:380:aa1::/48",
       "2803:ad80:aa1::/48",

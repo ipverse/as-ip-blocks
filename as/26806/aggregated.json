@@ -1,14 +1,17 @@
 {
-  "asn": 26806,
-  "handle": "SRNET-SASKATCHEWAN-RESEARCH-NETWORK",
-  "description": "SRNet Saskatchewan Research Network Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26806,
+  "metadata" : {
+    "handle" : "SRNET-SASKATCHEWAN-RESEARCH-NETWORK",
+    "description" : "SRNet Saskatchewan Research Network Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.169.21.0/24",
       "198.169.22.0/23",
       "208.75.72.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:f6::/48"
     ]
   }

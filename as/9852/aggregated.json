@@ -1,14 +1,17 @@
 {
-  "asn": 9852,
-  "handle": "SAMIL-AS",
-  "description": "Samil PwC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9852,
+  "metadata" : {
+    "handle" : "SAMIL-AS",
+    "description" : "Samil PwC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.108.80.0/22",
       "210.108.84.0/24",
       "210.120.73.0/24",
       "211.51.39.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

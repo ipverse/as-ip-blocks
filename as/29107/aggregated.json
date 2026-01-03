@@ -1,9 +1,12 @@
 {
-  "asn": 29107,
-  "handle": "SYNAPSE-AS",
-  "description": "Synapse Network LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29107,
+  "metadata" : {
+    "handle" : "SYNAPSE-AS",
+    "description" : "Synapse Network LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.87.144.0/21",
       "91.216.176.0/24",
       "92.249.64.0/18",
@@ -13,7 +16,7 @@
       "194.0.88.0/22",
       "195.69.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2b14::/48",
       "2a07:76c0:2::/48"
     ]

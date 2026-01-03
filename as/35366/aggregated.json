@@ -1,9 +1,12 @@
 {
-  "asn": 35366,
-  "handle": "ISPPRO-AS",
-  "description": "ISPpro Internet KG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35366,
+  "metadata" : {
+    "handle" : "ISPPRO-AS",
+    "description" : "ISPpro Internet KG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.7.0.0/18",
       "81.89.96.0/20",
       "84.23.64.0/19",
@@ -11,7 +14,7 @@
       "91.143.80.0/20",
       "185.2.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:180::/32"
     ]
   }

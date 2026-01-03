@@ -1,12 +1,15 @@
 {
-  "asn": 30259,
-  "handle": "BROADASPECT",
-  "description": "BroadAspect",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30259,
+  "metadata" : {
+    "handle" : "BROADASPECT",
+    "description" : "BroadAspect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.9.58.0/24",
       "204.48.124.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

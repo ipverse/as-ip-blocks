@@ -1,9 +1,12 @@
 {
-  "asn": 20845,
-  "handle": "DIGICABLE",
-  "description": "DIGI Tavkozlesi es Szolgaltato Kft",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20845,
+  "metadata" : {
+    "handle" : "DIGICABLE",
+    "description" : "DIGI Tavkozlesi es Szolgaltato Kft.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.77.196.0/22",
       "62.77.240.0/23",
       "62.77.248.0/21",
@@ -119,7 +122,7 @@
       "213.197.80.0/20",
       "217.197.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:368::/29"
     ]
   }

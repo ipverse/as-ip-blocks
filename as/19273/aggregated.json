@@ -1,9 +1,12 @@
 {
-  "asn": 19273,
-  "handle": "LGEENERGY",
-  "description": "Louisville Gas \u0026 Electric",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19273,
+  "metadata" : {
+    "handle" : "LGEENERGY",
+    "description" : "Louisville Gas & Electric",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.119.0.0/24",
       "170.119.3.0/24",
       "170.119.50.0/23",
@@ -24,6 +27,6 @@
       "170.119.173.0/24",
       "170.119.176.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

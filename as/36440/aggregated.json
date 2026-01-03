@@ -1,9 +1,12 @@
 {
-  "asn": 36440,
-  "handle": "TGNA-WCNC",
-  "description": "TEGNA Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36440,
+  "metadata" : {
+    "handle" : "TGNA-WCNC",
+    "description" : "TEGNA Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.8.2.0/24",
       "167.8.25.0/24",
       "167.8.26.0/24",
@@ -11,6 +14,6 @@
       "167.8.72.0/24",
       "167.8.88.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

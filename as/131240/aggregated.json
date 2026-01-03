@@ -1,11 +1,14 @@
 {
-  "asn": 131240,
-  "handle": "ULTRANETLLC-AS-AP",
-  "description": "Ultranet Zone LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131240,
+  "metadata" : {
+    "handle" : "ULTRANETLLC-AS-AP",
+    "description" : "Ultranet Zone LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.68.107.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

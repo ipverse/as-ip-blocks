@@ -1,15 +1,18 @@
 {
-  "asn": 263281,
-  "handle": "CBR-TELECOM",
-  "description": "CBR TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263281,
+  "metadata" : {
+    "handle" : "CBR-TELECOM",
+    "description" : "CBR TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.125.105.0/24",
       "179.125.106.0/23",
       "179.125.109.0/24",
       "179.125.110.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1650::/35"
     ]
   }

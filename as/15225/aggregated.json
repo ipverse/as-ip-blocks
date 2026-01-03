@@ -1,13 +1,16 @@
 {
-  "asn": 15225,
-  "handle": "PERSECO",
-  "description": "Perseco",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15225,
+  "metadata" : {
+    "handle" : "PERSECO",
+    "description" : "Perseco",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.154.48.0/22",
       "204.154.52.0/24",
       "204.154.54.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 27948,
-  "handle": "CORPORACION-NACIONAL-TELECOMUNICACIONES",
-  "description": "CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27948,
+  "metadata" : {
+    "handle" : "CORPORACION-NACIONAL-TELECOMUNICACIONES",
+    "description" : "CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.113.192.0/24",
       "181.196.0.0/22",
       "181.211.208.0/21",
@@ -14,6 +17,6 @@
       "190.214.76.0/22",
       "190.214.216.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

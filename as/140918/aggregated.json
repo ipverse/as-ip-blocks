@@ -1,12 +1,15 @@
 {
-  "asn": 140918,
-  "handle": "CMKL-AS-AP",
-  "description": "CMKL University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140918,
+  "metadata" : {
+    "handle" : "CMKL-AS-AP",
+    "description" : "CMKL University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.153.118.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:4480::/48"
     ]
   }

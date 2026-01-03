@@ -1,9 +1,12 @@
 {
-  "asn": 18593,
-  "handle": "GSHULLGR",
-  "description": "The Goldman Sachs Group Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18593,
+  "metadata" : {
+    "handle" : "GSHULLGR",
+    "description" : "The Goldman Sachs Group Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.167.228.0/24",
       "69.74.251.0/24",
       "138.8.74.0/24",
@@ -19,6 +22,6 @@
       "199.99.28.0/24",
       "205.161.205.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

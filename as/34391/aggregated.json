@@ -1,9 +1,12 @@
 {
-  "asn": 34391,
-  "handle": "PARITEL-01-AS",
-  "description": "PARITEL OPERATEUR SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34391,
+  "metadata" : {
+    "handle" : "PARITEL-01-AS",
+    "description" : "PARITEL OPERATEUR SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.134.96.0/21",
       "62.213.160.0/19",
       "85.158.112.0/21",
@@ -11,7 +14,7 @@
       "185.22.216.0/22",
       "185.35.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5980::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 8814,
-  "handle": "AZT-AS",
-  "description": "Aztelekom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8814,
+  "metadata" : {
+    "handle" : "AZT-AS",
+    "description" : "Aztelekom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.69.52.0/24",
       "80.69.54.0/23",
       "80.69.58.0/23",
@@ -24,6 +27,6 @@
       "212.47.144.0/21",
       "212.47.159.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

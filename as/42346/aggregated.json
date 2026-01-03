@@ -1,9 +1,12 @@
 {
-  "asn": 42346,
-  "handle": "AS-TINEO",
-  "description": "NorthC Schweiz AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42346,
+  "metadata" : {
+    "handle" : "AS-TINEO",
+    "description" : "NorthC Schweiz AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.137.24.0/21",
       "89.248.32.0/20",
       "91.217.151.0/24",
@@ -19,7 +22,7 @@
       "212.120.32.0/19",
       "213.213.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:5480::/29",
       "2a02:ab0::/29"
     ]

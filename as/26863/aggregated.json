@@ -1,9 +1,12 @@
 {
-  "asn": 26863,
-  "handle": "GAMESERVERKINGS",
-  "description": "Gameserverkings",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26863,
+  "metadata" : {
+    "handle" : "GAMESERVERKINGS",
+    "description" : "Gameserverkings",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.40.8.0/23",
       "104.129.132.0/23",
       "104.143.2.0/23",
@@ -13,6 +16,6 @@
       "208.52.152.0/23",
       "216.39.240.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

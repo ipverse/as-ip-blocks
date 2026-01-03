@@ -1,9 +1,12 @@
 {
-  "asn": 10780,
-  "handle": "PURE-STORAGE",
-  "description": "Pure Storage INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10780,
+  "metadata" : {
+    "handle" : "PURE-STORAGE",
+    "description" : "Pure Storage INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.0.113.0/24",
       "37.0.114.0/24",
       "37.0.116.0/22",
@@ -17,6 +20,6 @@
       "208.88.152.0/24",
       "208.88.157.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 273043,
-  "handle": "TV-CABLE-COM-CA",
-  "description": "TV CABLE COM CA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273043,
+  "metadata" : {
+    "handle" : "TV-CABLE-COM-CA",
+    "description" : "TV CABLE COM CA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.134.224.0/23",
       "38.134.226.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:eb90:1100::/40"
     ]
   }

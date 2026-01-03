@@ -1,9 +1,12 @@
 {
-  "asn": 2847,
-  "handle": "LITNET",
-  "description": "Kauno Technologijos Universitetas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2847,
+  "metadata" : {
+    "handle" : "LITNET",
+    "description" : "Kauno Technologijos Universitetas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.171.0.0/18",
       "158.129.0.0/17",
       "158.129.192.0/18",
@@ -13,7 +16,7 @@
       "193.219.152.0/21",
       "193.219.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:778::/32"
     ]
   }

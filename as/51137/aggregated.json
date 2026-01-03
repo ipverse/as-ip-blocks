@@ -1,12 +1,15 @@
 {
-  "asn": 51137,
-  "handle": "VVS-MBH-AS",
-  "description": "Stadtwerke Saarbrucken GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51137,
+  "metadata" : {
+    "handle" : "VVS-MBH-AS",
+    "description" : "Stadtwerke Saarbrucken GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.250.120.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2a28::/32"
     ]
   }

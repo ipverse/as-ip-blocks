@@ -1,9 +1,12 @@
 {
-  "asn": 51200,
-  "handle": "DIDI-AS",
-  "description": "LLC Digital Dialogue-Nets",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51200,
+  "metadata" : {
+    "handle" : "DIDI-AS",
+    "description" : "LLC Digital Dialogue-Nets",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.29.232.0/23",
       "62.76.94.0/23",
       "91.230.136.0/22",
@@ -27,6 +30,6 @@
       "212.192.202.0/23",
       "212.193.101.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

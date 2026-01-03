@@ -1,9 +1,12 @@
 {
-  "asn": 209342,
-  "handle": "NIC-SDAIA-DEEM",
-  "description": "NIC (National Information Center)- SDAIA ( Saudi Data and Artificial Intelligence Authority )",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209342,
+  "metadata" : {
+    "handle" : "NIC-SDAIA-DEEM",
+    "description" : "NIC (National Information Center)- SDAIA ( Saudi Data and Artificial Intelligence Authority )",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.9.128.0/22",
       "66.9.136.0/22",
       "66.9.141.0/24",
@@ -14,7 +17,7 @@
       "86.60.96.0/24",
       "185.54.145.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:1f80:1::/48",
       "2a07:1f80:3::/48",
       "2a07:1f80:4::/47"

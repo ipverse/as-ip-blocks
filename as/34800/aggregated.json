@@ -1,12 +1,15 @@
 {
-  "asn": 34800,
-  "handle": "SBAG",
-  "description": "Securebit AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34800,
+  "metadata" : {
+    "handle" : "SBAG",
+    "description" : "Securebit AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.50.99.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:ccc2::/32"
     ]
   }

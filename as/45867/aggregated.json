@@ -1,15 +1,18 @@
 {
-  "asn": 45867,
-  "handle": "CBA-NON-AS-AP",
-  "description": "Commonwealth Bank of Australia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45867,
+  "metadata" : {
+    "handle" : "CBA-NON-AS-AP",
+    "description" : "Commonwealth Bank of Australia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "140.168.64.0/18",
       "140.168.128.0/18",
       "140.168.236.0/22",
       "140.168.250.0/24",
       "203.17.185.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

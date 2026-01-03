@@ -1,9 +1,12 @@
 {
-  "asn": 6696,
-  "handle": "VERIXI",
-  "description": "VERIXI SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6696,
+  "metadata" : {
+    "handle" : "VERIXI",
+    "description" : "VERIXI SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.149.136.0/23",
       "5.149.138.0/24",
       "5.149.140.0/23",
@@ -42,7 +45,7 @@
       "194.1.205.0/24",
       "194.6.227.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1528::/32",
       "2a00:8da0::/32"
     ]

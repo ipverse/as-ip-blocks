@@ -1,15 +1,18 @@
 {
-  "asn": 15720,
-  "handle": "POSTE-ITALIANE-SPA",
-  "description": "Poste Italiane S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15720,
+  "metadata" : {
+    "handle" : "POSTE-ITALIANE-SPA",
+    "description" : "Poste Italiane S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.241.2.0/23",
       "62.241.4.0/22",
       "62.241.8.0/21",
       "62.241.16.0/22",
       "62.241.20.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

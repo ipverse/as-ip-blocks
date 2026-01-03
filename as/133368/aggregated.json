@@ -1,11 +1,14 @@
 {
-  "asn": 133368,
-  "handle": "NET3LINK-AS-AP",
-  "description": "Net 3 Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133368,
+  "metadata" : {
+    "handle" : "NET3LINK-AS-AP",
+    "description" : "Net 3 Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.189.176.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

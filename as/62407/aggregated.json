@@ -1,12 +1,15 @@
 {
-  "asn": 62407,
-  "handle": "MHCOM-AS",
-  "description": "MHCOM GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62407,
+  "metadata" : {
+    "handle" : "MHCOM-AS",
+    "description" : "MHCOM GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.97.148.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:6cc0::/48"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 38258,
-  "handle": "SONY-APAC-AP",
-  "description": "Sony Electronics (S) Pte. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38258,
+  "metadata" : {
+    "handle" : "SONY-APAC-AP",
+    "description" : "Sony Electronics (S) Pte. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.240.128.0/22",
       "121.100.32.0/20",
       "146.215.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:3c00::/32"
     ]
   }

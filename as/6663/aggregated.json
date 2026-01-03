@@ -1,9 +1,12 @@
 {
-  "asn": 6663,
-  "handle": "TTI-NET",
-  "description": "Euroweb Romania S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6663,
+  "metadata" : {
+    "handle" : "TTI-NET",
+    "description" : "Euroweb Romania S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.210.8.0/21",
       "46.29.0.0/21",
       "46.102.108.0/24",
@@ -47,7 +50,7 @@
       "195.146.11.0/24",
       "217.156.53.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2720::/32",
       "2a03:6e0:8000::/33"
     ]

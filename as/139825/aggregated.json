@@ -1,11 +1,14 @@
 {
-  "asn": 139825,
-  "handle": "HM1-AS-AP",
-  "description": "HM Enterprise",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139825,
+  "metadata" : {
+    "handle" : "HM1-AS-AP",
+    "description" : "HM Enterprise",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.145.210.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

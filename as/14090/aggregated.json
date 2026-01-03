@@ -1,9 +1,12 @@
 {
-  "asn": 14090,
-  "handle": "NDTELCO",
-  "description": "North Dakota Telephone Co",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14090,
+  "metadata" : {
+    "handle" : "NDTELCO",
+    "description" : "North Dakota Telephone Co.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.21.224.0/22",
       "64.21.249.0/24",
       "64.21.250.0/23",
@@ -19,6 +22,6 @@
       "76.10.112.0/22",
       "209.243.28.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 400000,
-  "handle": "PCB",
-  "description": "PCB Piezotronics Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400000,
+  "metadata" : {
+    "handle" : "PCB",
+    "description" : "PCB Piezotronics Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.209.50.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

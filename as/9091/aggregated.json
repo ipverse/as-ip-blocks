@@ -1,11 +1,14 @@
 {
-  "asn": 9091,
-  "handle": "SWEDBANK-AS",
-  "description": "Swedbank AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9091,
+  "metadata" : {
+    "handle" : "SWEDBANK-AS",
+    "description" : "Swedbank AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.8.10.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

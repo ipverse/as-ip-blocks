@@ -1,13 +1,16 @@
 {
-  "asn": 131143,
-  "handle": "CHINATRUST-AS-TW",
-  "description": "Chinatrust Commercial Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131143,
+  "metadata" : {
+    "handle" : "CHINATRUST-AS-TW",
+    "description" : "Chinatrust Commercial Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.126.164.0/22",
       "175.184.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:3300::/32"
     ]
   }

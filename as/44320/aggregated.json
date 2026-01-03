@@ -1,9 +1,12 @@
 {
-  "asn": 44320,
-  "handle": "SEBNET-AS",
-  "description": "Skandinaviska Enskilda Banken AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44320,
+  "metadata" : {
+    "handle" : "SEBNET-AS",
+    "description" : "Skandinaviska Enskilda Banken AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.178.50.0/24",
       "129.178.52.0/24",
       "129.178.54.0/24",
@@ -23,6 +26,6 @@
       "129.178.188.0/24",
       "129.178.192.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

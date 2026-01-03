@@ -1,9 +1,12 @@
 {
-  "asn": 395876,
-  "handle": "HUXCOMM-01",
-  "description": "Huxley Communications Cooperative",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395876,
+  "metadata" : {
+    "handle" : "HUXCOMM-01",
+    "description" : "Huxley Communications Cooperative",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.191.0.0/19",
       "66.43.251.0/24",
       "67.55.163.0/24",
@@ -12,7 +15,7 @@
       "216.51.192.0/24",
       "216.51.199.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:a440::/32"
     ]
   }

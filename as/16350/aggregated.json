@@ -1,13 +1,16 @@
 {
-  "asn": 16350,
-  "handle": "ECHELON-AS",
-  "description": "Root Holding B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16350,
+  "metadata" : {
+    "handle" : "ECHELON-AS",
+    "description" : "Root Holding B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.6.160.0/22",
       "217.119.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1398::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 46009,
-  "handle": "YABESK-AS",
-  "description": "YABESK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46009,
+  "metadata" : {
+    "handle" : "YABESK-AS",
+    "description" : "YABESK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.35.192.0/21",
       "58.103.2.0/23",
       "58.103.4.0/22",
@@ -24,6 +27,6 @@
       "211.221.104.0/24",
       "218.148.22.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

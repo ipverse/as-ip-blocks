@@ -1,9 +1,12 @@
 {
-  "asn": 3301,
-  "handle": "TELIANET-SWEDEN",
-  "description": "Telia Company AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3301,
+  "metadata" : {
+    "handle" : "TELIANET-SWEDEN",
+    "description" : "Telia Company AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.248.0.0/14",
       "2.255.128.0/18",
       "45.149.212.0/24",
@@ -268,7 +271,7 @@
       "217.197.56.0/21",
       "217.208.0.0/13"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:330::/48",
       "2001:678:704::/48",
       "2001:678:784::/48",

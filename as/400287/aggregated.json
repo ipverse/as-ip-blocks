@@ -1,12 +1,15 @@
 {
-  "asn": 400287,
-  "handle": "TEAMPHARR-ASN",
-  "description": "City of Pharr TX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400287,
+  "metadata" : {
+    "handle" : "TEAMPHARR-ASN",
+    "description" : "City of Pharr TX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.255.96.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:afc0::/32"
     ]
   }

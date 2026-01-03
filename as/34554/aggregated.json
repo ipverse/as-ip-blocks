@@ -1,13 +1,16 @@
 {
-  "asn": 34554,
-  "handle": "ANTANET",
-  "description": "Antares Kommunikationstechnik AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34554,
+  "metadata" : {
+    "handle" : "ANTANET",
+    "description" : "Antares Kommunikationstechnik AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.75.112.0/20",
       "185.196.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6a8::/32"
     ]
   }

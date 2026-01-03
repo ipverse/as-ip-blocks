@@ -1,11 +1,14 @@
 {
-  "asn": 42211,
-  "handle": "MDE-AS",
-  "description": "Ministerio de Defensa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42211,
+  "metadata" : {
+    "handle" : "MDE-AS",
+    "description" : "Ministerio de Defensa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.33.2.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

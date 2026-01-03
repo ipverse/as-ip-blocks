@@ -1,9 +1,12 @@
 {
-  "asn": 23862,
-  "handle": "DILNET-AS-AP",
-  "description": "University of the Philippines",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23862,
+  "metadata" : {
+    "handle" : "DILNET-AS-AP",
+    "description" : "University of the Philippines",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.53.58.0/23",
       "202.92.128.0/22",
       "202.92.132.0/24",
@@ -12,6 +15,6 @@
       "202.92.141.0/24",
       "202.92.159.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

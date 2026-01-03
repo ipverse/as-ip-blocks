@@ -1,9 +1,12 @@
 {
-  "asn": 133246,
-  "handle": "SOFTWORLD-AS-IN",
-  "description": "softnet network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133246,
+  "metadata" : {
+    "handle" : "SOFTWORLD-AS-IN",
+    "description" : "softnet network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.240.8.0/22",
       "103.68.95.0/24",
       "103.81.208.0/22",
@@ -11,7 +14,7 @@
       "103.173.191.0/24",
       "103.232.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:ab40::/48"
     ]
   }

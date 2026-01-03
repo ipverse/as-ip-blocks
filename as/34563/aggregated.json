@@ -1,12 +1,15 @@
 {
-  "asn": 34563,
-  "handle": "MICROSEC-AS",
-  "description": "Microsec zrt",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34563,
+  "metadata" : {
+    "handle" : "MICROSEC-AS",
+    "description" : "Microsec zrt.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.216.70.0/24",
       "193.42.222.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

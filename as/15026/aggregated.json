@@ -1,9 +1,12 @@
 {
-  "asn": 15026,
-  "handle": "ACXIOM",
-  "description": "Acxiom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15026,
+  "metadata" : {
+    "handle" : "ACXIOM",
+    "description" : "Acxiom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.64.16.0/22",
       "139.61.68.0/22",
       "139.61.80.0/23",
@@ -16,6 +19,6 @@
       "204.107.111.0/24",
       "216.60.222.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

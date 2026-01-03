@@ -1,14 +1,17 @@
 {
-  "asn": 29239,
-  "handle": "I-NETPARTNER-AS",
-  "description": "I-NetPartner GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29239,
+  "metadata" : {
+    "handle" : "I-NETPARTNER-AS",
+    "description" : "I-NetPartner GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.186.120.0/22",
       "31.186.124.0/24",
       "217.23.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5900::/29"
     ]
   }

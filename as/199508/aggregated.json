@@ -1,9 +1,12 @@
 {
-  "asn": 199508,
-  "handle": "S1NETWORKS-AS",
-  "description": "S1 Networks Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199508,
+  "metadata" : {
+    "handle" : "S1NETWORKS-AS",
+    "description" : "S1 Networks Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.8.128.0/22",
       "62.220.224.0/22",
       "62.220.252.0/22",
@@ -19,7 +22,7 @@
       "195.20.149.0/24",
       "195.192.250.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2ce8::/48",
       "2a01:b5a0::/32",
       "2a03:6f40::/32"

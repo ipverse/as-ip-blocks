@@ -1,12 +1,15 @@
 {
-  "asn": 264262,
-  "handle": "BOSSNET-PROVEDOR-INTERNET",
-  "description": "BOSSNET PROVEDOR DE INTERNET - ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264262,
+  "metadata" : {
+    "handle" : "BOSSNET-PROVEDOR-INTERNET",
+    "description" : "BOSSNET PROVEDOR DE INTERNET - ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.118.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2524::/32"
     ]
   }

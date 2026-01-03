@@ -1,12 +1,15 @@
 {
-  "asn": 204556,
-  "handle": "SYSADMINOK",
-  "description": "SysAdminOK SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204556,
+  "metadata" : {
+    "handle" : "SYSADMINOK",
+    "description" : "SysAdminOK SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.246.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:7b80::/29"
     ]
   }

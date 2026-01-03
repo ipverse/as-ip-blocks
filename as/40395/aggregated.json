@@ -1,9 +1,12 @@
 {
-  "asn": 40395,
-  "handle": "VIRTBIZ-DALLAS",
-  "description": "VIRTBIZ Internet Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40395,
+  "metadata" : {
+    "handle" : "VIRTBIZ-DALLAS",
+    "description" : "VIRTBIZ Internet Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.26.211.0/24",
       "208.67.248.0/21",
       "208.77.144.0/23",
@@ -12,7 +15,7 @@
       "208.77.216.0/21",
       "208.80.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:1c00::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 198961,
-  "handle": "ORION-TELEKOM-MONTENEGRO",
-  "description": "Orion Telekom Tim d.o.o.Beograd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198961,
+  "metadata" : {
+    "handle" : "ORION-TELEKOM-MONTENEGRO",
+    "description" : "Orion Telekom Tim d.o.o.Beograd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.221.176.0/22",
       "37.221.181.0/24",
       "37.221.182.0/23",
@@ -15,6 +18,6 @@
       "212.69.22.0/23",
       "212.69.24.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

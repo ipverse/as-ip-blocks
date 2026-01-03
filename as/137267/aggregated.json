@@ -1,14 +1,17 @@
 {
-  "asn": 137267,
-  "handle": "CTL-AS-AP",
-  "description": "CBROS Technologies Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137267,
+  "metadata" : {
+    "handle" : "CTL-AS-AP",
+    "description" : "CBROS Technologies Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.106.110.0/23",
       "203.27.18.0/24",
       "203.33.188.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:a300::/48",
       "2400:1360::/32"
     ]

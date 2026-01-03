@@ -1,12 +1,15 @@
 {
-  "asn": 64029,
-  "handle": "RWN-AS-ID",
-  "description": "PT. RAMA WIMA NUSANTARA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64029,
+  "metadata" : {
+    "handle" : "RWN-AS-ID",
+    "description" : "PT. RAMA WIMA NUSANTARA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.214.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:c780::/32"
     ]
   }

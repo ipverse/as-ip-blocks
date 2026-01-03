@@ -1,9 +1,12 @@
 {
-  "asn": 45815,
-  "handle": "HOSTCOIN-AS-IN-AP",
-  "description": "ESDS Software Solution Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45815,
+  "metadata" : {
+    "handle" : "HOSTCOIN-AS-IN-AP",
+    "description" : "ESDS Software Solution Limited.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.103.163.0/24",
       "94.249.213.0/24",
       "103.154.75.0/24",
@@ -13,7 +16,7 @@
       "174.141.236.0/24",
       "174.141.238.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:5300:1::/48",
       "2400:5300:3::/48",
       "2400:5300:4::/48"

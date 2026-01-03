@@ -1,9 +1,12 @@
 {
-  "asn": 15164,
-  "handle": "UPNLLC",
-  "description": "Unite Private Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15164,
+  "metadata" : {
+    "handle" : "UPNLLC",
+    "description" : "Unite Private Networks LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "52.119.108.0/24",
       "64.112.31.0/24",
       "64.251.216.0/21",
@@ -34,7 +37,7 @@
       "208.82.104.0/21",
       "209.71.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe04::/36",
       "2607:da00::/32"
     ]

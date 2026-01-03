@@ -1,13 +1,16 @@
 {
-  "asn": 44030,
-  "handle": "OTRADNOE-AS",
-  "description": "Lentel Business Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44030,
+  "metadata" : {
+    "handle" : "OTRADNOE-AS",
+    "description" : "Lentel Business Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "176.99.64.0/19",
       "195.2.232.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2084::/48"
     ]
   }

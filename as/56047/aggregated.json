@@ -1,9 +1,12 @@
 {
-  "asn": 56047,
-  "handle": "CMNET-HUNAN-AP",
-  "description": "China Mobile Communications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56047,
+  "metadata" : {
+    "handle" : "CMNET-HUNAN-AP",
+    "description" : "China Mobile Communications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.133.12.0/22",
       "36.133.16.0/21",
       "36.133.152.0/21",
@@ -55,7 +58,7 @@
       "223.160.112.0/22",
       "223.161.246.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2409:8050::/40",
       "2409:8050:800::/40",
       "2409:8050:1000::/40",

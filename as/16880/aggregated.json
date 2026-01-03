@@ -1,9 +1,12 @@
 {
-  "asn": 16880,
-  "handle": "AS2-TRENDMICRO-COM",
-  "description": "TREND MICRO INCORPORATED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16880,
+  "metadata" : {
+    "handle" : "AS2-TRENDMICRO-COM",
+    "description" : "TREND MICRO INCORPORATED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.180.80.0/20",
       "150.70.0.0/20",
       "150.70.176.0/20",
@@ -12,7 +15,7 @@
       "216.99.134.0/24",
       "216.104.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:101:4034::/48",
       "2620:101:4036::/48",
       "2620:101:403c::/48"

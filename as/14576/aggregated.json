@@ -1,9 +1,12 @@
 {
-  "asn": 14576,
-  "handle": "HOSTING-SOLUTIONS",
-  "description": "Hosting Solution Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14576,
+  "metadata" : {
+    "handle" : "HOSTING-SOLUTIONS",
+    "description" : "Hosting Solution Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.95.1.0/24",
       "45.159.188.0/22",
       "104.193.252.0/22",
@@ -28,7 +31,7 @@
       "204.155.30.0/24",
       "212.23.202.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:5e00::/36",
       "2606:5e00:f000::/36",
       "2a07:4dc0::/29",

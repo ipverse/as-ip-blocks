@@ -1,9 +1,12 @@
 {
-  "asn": 17529,
-  "handle": "MEDIACAT",
-  "description": "STARCAT Co . LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17529,
+  "metadata" : {
+    "handle" : "MEDIACAT",
+    "description" : "STARCAT Co . LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.146.0.0/18",
       "58.146.64.0/19",
       "61.211.128.0/20",
@@ -17,7 +20,7 @@
       "211.128.16.0/20",
       "219.100.227.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:3b0::/32"
     ]
   }

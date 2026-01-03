@@ -1,9 +1,12 @@
 {
-  "asn": 1820,
-  "handle": "WNET",
-  "description": "WNET TELECOM USA Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1820,
+  "metadata" : {
+    "handle" : "WNET",
+    "description" : "WNET TELECOM USA Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.172.136.0/21",
       "31.223.224.0/21",
       "64.49.64.0/19",
@@ -38,7 +41,7 @@
       "212.110.152.0/22",
       "217.20.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:feb2::/36",
       "2a01:6b0::/32",
       "2a13:8800::/29"

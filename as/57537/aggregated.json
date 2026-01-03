@@ -1,13 +1,16 @@
 {
-  "asn": 57537,
-  "handle": "NETDSIGN-AS",
-  "description": "Net-D-Sign GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57537,
+  "metadata" : {
+    "handle" : "NETDSIGN-AS",
+    "description" : "Net-D-Sign GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.152.232.0/22",
       "213.148.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:2cc0::/32"
     ]
   }

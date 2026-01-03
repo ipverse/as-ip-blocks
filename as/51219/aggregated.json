@@ -1,9 +1,12 @@
 {
-  "asn": 51219,
-  "handle": "K2-INT",
-  "description": "K2 Integration JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51219,
+  "metadata" : {
+    "handle" : "K2-INT",
+    "description" : "K2 Integration JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.8.180.0/23",
       "5.35.64.0/22",
       "5.35.72.0/21",
@@ -22,7 +25,7 @@
       "194.242.120.0/22",
       "217.73.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:e5c0::/29"
     ]
   }

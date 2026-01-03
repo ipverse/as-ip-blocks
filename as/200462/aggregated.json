@@ -1,14 +1,17 @@
 {
-  "asn": 200462,
-  "handle": "AS-ETH",
-  "description": "Lennart Seitz trading as ETH-Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200462,
+  "metadata" : {
+    "handle" : "AS-ETH",
+    "description" : "Lennart Seitz trading as ETH-Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.52.0/23",
       "5.180.192.0/23",
       "45.86.124.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:6fc0:10::/44",
       "2a09:e1c0::/32",
       "2a0c:8900::/29",

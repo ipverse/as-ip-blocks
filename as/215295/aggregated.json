@@ -1,10 +1,13 @@
 {
-  "asn": 215295,
-  "handle": "SKYFRITT",
-  "description": "Skyfritt AS",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 215295,
+  "metadata" : {
+    "handle" : "SKYFRITT",
+    "description" : "Skyfritt AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:67c:f90::/48",
       "2a01:ffc7:1::/48",
       "2a01:ffc7:ff::/48"

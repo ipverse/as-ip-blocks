@@ -1,9 +1,12 @@
 {
-  "asn": 2576,
-  "handle": "DOT-AS",
-  "description": "U. S. Department of Transportation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2576,
+  "metadata" : {
+    "handle" : "DOT-AS",
+    "description" : "U. S. Department of Transportation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "152.119.0.0/16",
       "152.120.0.0/16",
       "152.122.0.0/16",
@@ -20,7 +23,7 @@
       "204.152.44.0/23",
       "204.238.19.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:19e8::/47",
       "2001:19e8:2::/48",
       "2001:19e8:a::/48",

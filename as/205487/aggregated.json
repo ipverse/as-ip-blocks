@@ -1,12 +1,15 @@
 {
-  "asn": 205487,
-  "handle": "DGNSERVICE",
-  "description": "DGN Deutsches Gesundheitsnetz Service GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205487,
+  "metadata" : {
+    "handle" : "DGNSERVICE",
+    "description" : "DGN Deutsches Gesundheitsnetz Service GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.236.252.0/22",
       "195.85.220.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

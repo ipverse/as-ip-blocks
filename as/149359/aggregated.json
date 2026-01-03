@@ -1,16 +1,19 @@
 {
-  "asn": 149359,
-  "handle": "IDNIC-PDM-AS-ID",
-  "description": "PT Persada Data Multimedia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149359,
+  "metadata" : {
+    "handle" : "IDNIC-PDM-AS-ID",
+    "description" : "PT Persada Data Multimedia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.0.26.0/23",
       "103.19.78.0/23",
       "103.176.107.0/24",
       "103.180.118.0/23",
       "103.215.71.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:5ee0::/32"
     ]
   }

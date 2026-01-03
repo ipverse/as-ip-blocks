@@ -1,9 +1,12 @@
 {
-  "asn": 49304,
-  "handle": "SAKURA-AS",
-  "description": "SAKURA LINK LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49304,
+  "metadata" : {
+    "handle" : "SAKURA-AS",
+    "description" : "SAKURA LINK LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.3.24.0/21",
       "46.3.32.0/20",
       "46.3.96.0/20",
@@ -20,7 +23,7 @@
       "206.251.52.0/22",
       "217.217.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:f460:1000::/40",
       "2a05:dfc1:8b50::/48",
       "2a05:dfc1:8b60::/48",

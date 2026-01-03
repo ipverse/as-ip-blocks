@@ -1,14 +1,17 @@
 {
-  "asn": 39781,
-  "handle": "DIABOLOCOM",
-  "description": "Diabolocom SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39781,
+  "metadata" : {
+    "handle" : "DIABOLOCOM",
+    "description" : "Diabolocom SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.98.56.0/21",
       "185.106.216.0/22",
       "193.227.107.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1758::/29"
     ]
   }

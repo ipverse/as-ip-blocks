@@ -1,9 +1,12 @@
 {
-  "asn": 200924,
-  "handle": "SIS2",
-  "description": "Stiegeler Internet Service GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200924,
+  "metadata" : {
+    "handle" : "SIS2",
+    "description" : "Stiegeler Internet Service GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.83.176.0/20",
       "5.182.107.0/24",
       "31.14.29.0/24",
@@ -39,7 +42,7 @@
       "217.61.255.0/24",
       "217.147.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:5dc::/48",
       "2001:678:a7c::/48",
       "2001:678:c9c::/48",

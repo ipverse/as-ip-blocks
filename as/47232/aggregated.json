@@ -1,9 +1,12 @@
 {
-  "asn": 47232,
-  "handle": "ISPALLIANCE",
-  "description": "ISP Alliance a.s",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47232,
+  "metadata" : {
+    "handle" : "ISPALLIANCE",
+    "description" : "ISP Alliance a.s.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.39.200.0/23",
       "46.29.224.0/21",
       "78.111.112.0/20",
@@ -17,7 +20,7 @@
       "195.26.25.0/24",
       "217.75.208.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:17a0::/29",
       "2a03:2a80::/29",
       "2a04:7bc0::/29"

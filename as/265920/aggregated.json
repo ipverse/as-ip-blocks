@@ -1,12 +1,15 @@
 {
-  "asn": 265920,
-  "handle": "NETWORK-INTERNET",
-  "description": "Network Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265920,
+  "metadata" : {
+    "handle" : "NETWORK-INTERNET",
+    "description" : "Network Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.196.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3fdc::/32"
     ]
   }

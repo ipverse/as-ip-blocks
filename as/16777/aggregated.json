@@ -1,12 +1,15 @@
 {
-  "asn": 16777,
-  "handle": "NET-PROVPHP",
-  "description": "Providence Health Plan",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16777,
+  "metadata" : {
+    "handle" : "NET-PROVPHP",
+    "description" : "Providence Health Plan",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.64.75.0/24",
       "170.220.56.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 25222,
-  "handle": "AS-ISOL",
-  "description": "Inmarsat Solutions B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25222,
+  "metadata" : {
+    "handle" : "AS-ISOL",
+    "description" : "Inmarsat Solutions B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.67.0.0/22",
       "78.40.66.0/23",
       "78.40.68.0/22",
@@ -28,7 +31,7 @@
       "216.86.240.0/20",
       "216.129.170.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:1500:8000::/33",
       "2605:db00::/32",
       "2a03:1c80::/32"

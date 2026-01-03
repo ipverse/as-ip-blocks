@@ -1,12 +1,15 @@
 {
-  "asn": 396501,
-  "handle": "CIRA-5",
-  "description": "CIRA Canadian Internet Registration Authority Autorit Canadienne pour les enregistrements Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396501,
+  "metadata" : {
+    "handle" : "CIRA-5",
+    "description" : "CIRA Canadian Internet Registration Authority Autorit Canadienne pour les enregistrements Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.159.199.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:10a:80ac::/48"
     ]
   }

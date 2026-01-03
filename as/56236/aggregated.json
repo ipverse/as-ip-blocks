@@ -1,12 +1,15 @@
 {
-  "asn": 56236,
-  "handle": "BNN-AS-ID",
-  "description": "Badan Narkotika Nasional",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56236,
+  "metadata" : {
+    "handle" : "BNN-AS-ID",
+    "description" : "Badan Narkotika Nasional",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.3.70.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:3600::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 30219,
-  "handle": "MLB-ADVANCED-MEDIA",
-  "description": "Major League Baseball Advanced Media LP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30219,
+  "metadata" : {
+    "handle" : "MLB-ADVANCED-MEDIA",
+    "description" : "Major League Baseball Advanced Media LP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.212.81.0/24",
       "162.212.82.0/24",
       "199.76.96.0/24",
@@ -24,6 +27,6 @@
       "209.102.207.0/24",
       "209.102.213.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

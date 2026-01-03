@@ -1,11 +1,14 @@
 {
-  "asn": 401822,
-  "handle": "ROCKFORD-CITY-01",
-  "description": "City of Rockford",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401822,
+  "metadata" : {
+    "handle" : "ROCKFORD-CITY-01",
+    "description" : "City of Rockford",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.104.11.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

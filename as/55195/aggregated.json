@@ -1,9 +1,12 @@
 {
-  "asn": 55195,
-  "handle": "CIRA-CLOUD1",
-  "description": "CIRA Canadian Internet Registration Authority Autorit Canadienne pour les enregistrements Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55195,
+  "metadata" : {
+    "handle" : "CIRA-CLOUD1",
+    "description" : "CIRA Canadian Internet Registration Authority Autorit Canadienne pour les enregistrements Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.112.126.0/24",
       "149.112.160.0/24",
       "162.219.48.0/24",
@@ -14,7 +17,7 @@
       "199.4.144.0/24",
       "199.253.251.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:500:a7::/48",
       "2001:678:74::/48",
       "2620:10a:801d::/48",

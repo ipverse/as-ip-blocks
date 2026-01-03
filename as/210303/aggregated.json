@@ -1,12 +1,15 @@
 {
-  "asn": 210303,
-  "handle": "HPA",
-  "description": "Hamburg Port Authority AoeR",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210303,
+  "metadata" : {
+    "handle" : "HPA",
+    "description" : "Hamburg Port Authority AoeR",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.107.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:8900::/29"
     ]
   }

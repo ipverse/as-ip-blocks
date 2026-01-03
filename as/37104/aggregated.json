@@ -1,12 +1,15 @@
 {
-  "asn": 37104,
-  "handle": "STANBIC-AS",
-  "description": "STANBIC IBTC BANK PLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37104,
+  "metadata" : {
+    "handle" : "STANBIC-AS",
+    "description" : "STANBIC IBTC BANK PLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.203.115.0/24",
       "41.203.116.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

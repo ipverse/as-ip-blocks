@@ -1,9 +1,12 @@
 {
-  "asn": 24703,
-  "handle": "UN-UKRAINE-AS",
-  "description": "United Networks of Ukraine Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24703,
+  "metadata" : {
+    "handle" : "UN-UKRAINE-AS",
+    "description" : "United Networks of Ukraine Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.122.71.0/24",
       "91.210.188.0/23",
       "91.210.190.0/24",
@@ -15,6 +18,6 @@
       "195.128.16.0/22",
       "195.234.212.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

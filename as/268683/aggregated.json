@@ -1,12 +1,15 @@
 {
-  "asn": 268683,
-  "handle": "REDE-BANDA-LARGA",
-  "description": "rede banda larga",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268683,
+  "metadata" : {
+    "handle" : "REDE-BANDA-LARGA",
+    "description" : "rede banda larga",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.165.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5500::/34",
       "2804:5500:8000::/34"
     ]

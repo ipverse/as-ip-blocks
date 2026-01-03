@@ -1,9 +1,12 @@
 {
-  "asn": 3743,
-  "handle": "ARCEL-2",
-  "description": "Cleveland Cliffs Steel LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3743,
+  "metadata" : {
+    "handle" : "ARCEL-2",
+    "description" : "Cleveland Cliffs Steel LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "156.144.51.0/24",
       "156.144.99.0/24",
       "156.144.100.0/24",
@@ -11,6 +14,6 @@
       "156.144.208.0/24",
       "156.144.249.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

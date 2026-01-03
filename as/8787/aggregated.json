@@ -1,12 +1,15 @@
 {
-  "asn": 8787,
-  "handle": "AMARISTECH",
-  "description": "Amaris Technologies GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8787,
+  "metadata" : {
+    "handle" : "AMARISTECH",
+    "description" : "Amaris Technologies GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.9.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:1f60::/32"
     ]
   }

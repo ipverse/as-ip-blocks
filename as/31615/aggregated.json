@@ -1,9 +1,12 @@
 {
-  "asn": 31615,
-  "handle": "ODIDO",
-  "description": "Odido Netherlands B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31615,
+  "metadata" : {
+    "handle" : "ODIDO",
+    "description" : "Odido Netherlands B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.241.192.0/18",
       "89.205.128.0/17",
       "91.141.128.0/17",
@@ -11,6 +14,6 @@
       "178.227.0.0/16",
       "178.228.0.0/14"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

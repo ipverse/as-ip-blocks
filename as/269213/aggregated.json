@@ -1,12 +1,15 @@
 {
-  "asn": 269213,
-  "handle": "UPLINK-MAIS-FIBRA",
-  "description": "UPLINK MAIS FIBRA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269213,
+  "metadata" : {
+    "handle" : "UPLINK-MAIS-FIBRA",
+    "description" : "UPLINK MAIS FIBRA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.182.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:611c::/32"
     ]
   }

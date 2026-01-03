@@ -1,10 +1,13 @@
 {
-  "asn": 202909,
-  "handle": "KUEBLER",
-  "description": "Benjamin Kuebler",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 202909,
+  "metadata" : {
+    "handle" : "KUEBLER",
+    "description" : "Benjamin Kuebler",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:678:1180::/48",
       "2a0a:79c0:1200::/40"
     ]

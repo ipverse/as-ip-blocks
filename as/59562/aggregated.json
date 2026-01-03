@@ -1,12 +1,15 @@
 {
-  "asn": 59562,
-  "handle": "SENSIO-AS",
-  "description": "Sensio AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59562,
+  "metadata" : {
+    "handle" : "SENSIO-AS",
+    "description" : "Sensio AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.240.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:8980::/29"
     ]
   }

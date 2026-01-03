@@ -1,13 +1,16 @@
 {
-  "asn": 48283,
-  "handle": "SIDN-ANYCAST",
-  "description": "Stichting Internet Domeinregistratie Nederland",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48283,
+  "metadata" : {
+    "handle" : "SIDN-ANYCAST",
+    "description" : "Stichting Internet Domeinregistratie Nederland",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.0.28.0/24",
       "194.0.30.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:2c::/48",
       "2001:678:34::/48",
       "2001:678:38::/48"

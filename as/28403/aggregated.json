@@ -1,9 +1,12 @@
 {
-  "asn": 28403,
-  "handle": "RADIOMOVIL-DIPSA",
-  "description": "RadioMovil Dipsa S.A. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28403,
+  "metadata" : {
+    "handle" : "RADIOMOVIL-DIPSA",
+    "description" : "RadioMovil Dipsa S.A. de C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.233.151.0/24",
       "187.141.42.0/24",
       "187.216.195.0/24",
@@ -33,7 +36,7 @@
       "201.144.195.0/24",
       "201.144.196.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:370:1010::/44",
       "2806:370:10a0::/43",
       "2806:370:10c0::/44",

@@ -1,9 +1,12 @@
 {
-  "asn": 207019,
-  "handle": "TNCL",
-  "description": "Clouvider Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207019,
+  "metadata" : {
+    "handle" : "TNCL",
+    "description" : "Clouvider Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.56.25.0/24",
       "143.14.22.0/24",
       "143.20.139.0/24",
@@ -12,6 +15,6 @@
       "155.117.242.0/24",
       "193.93.54.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

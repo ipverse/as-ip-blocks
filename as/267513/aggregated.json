@@ -1,14 +1,17 @@
 {
-  "asn": 267513,
-  "handle": "SEANET-TELECOM-CARAZINHO",
-  "description": "Seanet Telecom Carazinho Eireli",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267513,
+  "metadata" : {
+    "handle" : "SEANET-TELECOM-CARAZINHO",
+    "description" : "Seanet Telecom Carazinho Eireli",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.194.56.0/22",
       "186.227.72.0/22",
       "186.251.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5614::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 33284,
-  "handle": "LBI-ASN",
-  "description": "LBiSat LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33284,
+  "metadata" : {
+    "handle" : "LBI-ASN",
+    "description" : "LBiSat LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.118.48.0/23",
       "64.118.50.0/24",
       "64.118.53.0/24",
@@ -20,6 +23,6 @@
       "216.10.56.0/22",
       "216.10.61.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

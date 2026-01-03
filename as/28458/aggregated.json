@@ -1,9 +1,12 @@
 {
-  "asn": 28458,
-  "handle": "IENTC",
-  "description": "IENTC S DE RL DE CV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28458,
+  "metadata" : {
+    "handle" : "IENTC",
+    "description" : "IENTC S DE RL DE CV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.19.39.0/24",
       "38.49.128.0/19",
       "38.65.136.0/22",
@@ -32,7 +35,7 @@
       "206.135.52.0/24",
       "207.248.114.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:c4:2a1::/48",
       "2806:202::/32"
     ]

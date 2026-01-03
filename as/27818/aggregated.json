@@ -1,15 +1,18 @@
 {
-  "asn": 27818,
-  "handle": "COTESMA",
-  "description": "Cotesma",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27818,
+  "metadata" : {
+    "handle" : "COTESMA",
+    "description" : "Cotesma",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.161.152.0/22",
       "181.114.128.0/19",
       "200.47.43.0/24",
       "201.220.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:3380:1003::/48",
       "2803:3380:1100::/40",
       "2803:3380:1200::/40",

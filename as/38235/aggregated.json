@@ -1,9 +1,12 @@
 {
-  "asn": 38235,
-  "handle": "MEKONGNET-ADC-AS-AP",
-  "description": "ANGKOR DATA COMMUNICATION GROUP CO. LTD. (A D C)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38235,
+  "metadata" : {
+    "handle" : "MEKONGNET-ADC-AS-AP",
+    "description" : "ANGKOR DATA COMMUNICATION GROUP CO. LTD. (A D C)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.47.32.0/21",
       "45.120.147.0/24",
       "103.90.148.0/22",
@@ -27,7 +30,7 @@
       "203.176.128.0/20",
       "209.146.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:da00::/32"
     ]
   }

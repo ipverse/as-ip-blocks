@@ -1,9 +1,12 @@
 {
-  "asn": 54439,
-  "handle": "MCGM-FIBERNET3",
-  "description": "Montgomery County Government Maryland",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54439,
+  "metadata" : {
+    "handle" : "MCGM-FIBERNET3",
+    "description" : "Montgomery County Government Maryland",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.26.21.0/24",
       "192.41.166.0/23",
       "192.41.168.0/23",
@@ -12,6 +15,6 @@
       "208.76.117.0/24",
       "208.76.119.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

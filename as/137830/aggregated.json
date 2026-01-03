@@ -1,13 +1,16 @@
 {
-  "asn": 137830,
-  "handle": "WIREITSERVICES-AS-AP",
-  "description": "Wire IT Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137830,
+  "metadata" : {
+    "handle" : "WIREITSERVICES-AS-AP",
+    "description" : "Wire IT Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.69.112.0/22",
       "64.204.208.0/22",
       "64.204.240.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

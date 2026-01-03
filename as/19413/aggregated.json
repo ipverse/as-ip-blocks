@@ -1,14 +1,17 @@
 {
-  "asn": 19413,
-  "handle": "ROANOKE-CONNECT-ASN-1",
-  "description": "Roanoke Connect",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19413,
+  "metadata" : {
+    "handle" : "ROANOKE-CONNECT-ASN-1",
+    "description" : "Roanoke Connect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "108.161.192.0/20",
       "158.51.180.0/22",
       "170.39.252.0/22",
       "207.167.68.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

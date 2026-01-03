@@ -1,9 +1,12 @@
 {
-  "asn": 136993,
-  "handle": "CVTL-AS-AP",
-  "description": "CLOUD VALLEY TECHNOLOGY LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136993,
+  "metadata" : {
+    "handle" : "CVTL-AS-AP",
+    "description" : "CLOUD VALLEY TECHNOLOGY LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.69.132.0/22",
       "103.69.152.0/22",
       "103.206.188.0/22",
@@ -11,6 +14,6 @@
       "137.59.100.0/22",
       "180.149.236.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

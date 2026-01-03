@@ -1,13 +1,16 @@
 {
-  "asn": 274607,
-  "handle": "GHT-TELECOM",
-  "description": "GHT Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 274607,
+  "metadata" : {
+    "handle" : "GHT-TELECOM",
+    "description" : "GHT Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.211.155.0/24",
       "38.226.117.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:90ec::/32"
     ]
   }

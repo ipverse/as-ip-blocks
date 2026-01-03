@@ -1,13 +1,16 @@
 {
-  "asn": 36811,
-  "handle": "WIZTECH-INTERNET",
-  "description": "Wiztech Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36811,
+  "metadata" : {
+    "handle" : "WIZTECH-INTERNET",
+    "description" : "Wiztech Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.31.253.0/24",
       "205.233.35.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:64::/48"
     ]
   }

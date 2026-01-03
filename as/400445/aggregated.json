@@ -1,11 +1,14 @@
 {
-  "asn": 400445,
-  "handle": "NUSENDA-ADMIN-01",
-  "description": "NUSENDA FEDERAL CREDIT UNION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400445,
+  "metadata" : {
+    "handle" : "NUSENDA-ADMIN-01",
+    "description" : "NUSENDA FEDERAL CREDIT UNION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.169.2.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

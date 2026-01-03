@@ -1,12 +1,15 @@
 {
-  "asn": 202865,
-  "handle": "SPC",
-  "description": "Dicastero per la Comunicazione",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202865,
+  "metadata" : {
+    "handle" : "SPC",
+    "description" : "Dicastero per la Comunicazione",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.152.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:8100::/29"
     ]
   }

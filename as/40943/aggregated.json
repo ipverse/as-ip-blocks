@@ -1,14 +1,17 @@
 {
-  "asn": 40943,
-  "handle": "RURALBROADBAND",
-  "description": "Rural Broadband L.L.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40943,
+  "metadata" : {
+    "handle" : "RURALBROADBAND",
+    "description" : "Rural Broadband L.L.C.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.167.208.0/22",
       "208.91.184.0/22",
       "216.187.155.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:3d40::/32"
     ]
   }

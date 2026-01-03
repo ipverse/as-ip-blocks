@@ -1,9 +1,12 @@
 {
-  "asn": 13878,
-  "handle": "SCALA-DATA-CENTERS",
-  "description": "Scala Data Centers",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13878,
+  "metadata" : {
+    "handle" : "SCALA-DATA-CENTERS",
+    "description" : "Scala Data Centers",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.234.192.0/19",
       "189.36.0.0/17",
       "200.143.0.0/18",
@@ -14,7 +17,7 @@
       "201.77.192.0/18",
       "201.84.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2ae4::/32"
     ]
   }

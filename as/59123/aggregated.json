@@ -1,14 +1,17 @@
 {
-  "asn": 59123,
-  "handle": "KAKAKUCOM",
-  "description": "Kakaku.com Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59123,
+  "metadata" : {
+    "handle" : "KAKAKUCOM",
+    "description" : "Kakaku.com Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.70.240.0/22",
       "133.247.72.0/22",
       "219.100.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:4580::/32"
     ]
   }

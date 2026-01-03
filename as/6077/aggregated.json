@@ -1,12 +1,15 @@
 {
-  "asn": 6077,
-  "handle": "BCBSNE",
-  "description": "Blue Cross Blue Shield of Nebraska",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6077,
+  "metadata" : {
+    "handle" : "BCBSNE",
+    "description" : "Blue Cross Blue Shield of Nebraska",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.203.221.0/24",
       "204.137.0.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

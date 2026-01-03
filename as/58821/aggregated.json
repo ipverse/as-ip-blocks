@@ -1,9 +1,12 @@
 {
-  "asn": 58821,
-  "handle": "IDNIC-LJN-AS-ID",
-  "description": "PT Lintas Jaringan Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58821,
+  "metadata" : {
+    "handle" : "IDNIC-LJN-AS-ID",
+    "description" : "PT Lintas Jaringan Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.26.176.0/23",
       "103.134.74.0/24",
       "103.155.198.0/23",
@@ -17,7 +20,7 @@
       "157.10.97.0/24",
       "165.101.42.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:9f80::/48"
     ]
   }

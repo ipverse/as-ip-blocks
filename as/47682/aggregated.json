@@ -1,13 +1,16 @@
 {
-  "asn": 47682,
-  "handle": "A2-AS",
-  "description": "A2 Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47682,
+  "metadata" : {
+    "handle" : "A2-AS",
+    "description" : "A2 Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.197.182.0/24",
       "91.205.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:18c::/48"
     ]
   }

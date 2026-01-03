@@ -1,9 +1,12 @@
 {
-  "asn": 133524,
-  "handle": "GTCL-AS-AP",
-  "description": "Global Technology Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133524,
+  "metadata" : {
+    "handle" : "GTCL-AS-AP",
+    "description" : "Global Technology Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.47.40.0/21",
       "43.242.134.0/23",
       "43.245.44.0/22",
@@ -14,7 +17,7 @@
       "185.133.212.0/22",
       "204.157.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:2a80::/32"
     ]
   }

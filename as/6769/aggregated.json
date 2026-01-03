@@ -1,9 +1,12 @@
 {
-  "asn": 6769,
-  "handle": "SICN",
-  "description": "Kertinis valstybes telekomunikaciju centras",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6769,
+  "metadata" : {
+    "handle" : "SICN",
+    "description" : "Kertinis valstybes telekomunikaciju centras",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.146.192.0/23",
       "89.207.148.0/22",
       "91.198.17.0/24",
@@ -15,7 +18,7 @@
       "193.219.14.0/24",
       "195.182.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4c20::/32"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 56268,
-  "handle": "SREERAM-NED1-IN",
-  "description": "Northeast Dataa Network Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56268,
+  "metadata" : {
+    "handle" : "SREERAM-NED1-IN",
+    "description" : "Northeast Dataa Network Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.224.128.0/22",
       "103.57.80.0/22",
       "103.252.24.0/22",
       "202.38.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:580::/32"
     ]
   }

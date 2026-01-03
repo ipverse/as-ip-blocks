@@ -1,9 +1,12 @@
 {
-  "asn": 24544,
-  "handle": "OVERCASTS-AS-AP",
-  "description": "Cloudie Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24544,
+  "metadata" : {
+    "handle" : "OVERCASTS-AS-AP",
+    "description" : "Cloudie Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.224.248.0/23",
       "45.116.76.0/22",
       "103.96.72.0/22",
@@ -19,6 +22,6 @@
       "185.243.240.0/22",
       "202.122.64.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

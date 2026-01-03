@@ -1,11 +1,14 @@
 {
-  "asn": 209821,
-  "handle": "MIDNET-AS",
-  "description": "AO MIRS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209821,
+  "metadata" : {
+    "handle" : "MIDNET-AS",
+    "description" : "AO MIRS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.19.112.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 135426,
-  "handle": "ZTECORPORATION-AS-AP",
-  "description": "ZTE Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135426,
+  "metadata" : {
+    "handle" : "ZTECORPORATION-AS-AP",
+    "description" : "ZTE Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.30.148.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:bd60::/32"
     ]
   }

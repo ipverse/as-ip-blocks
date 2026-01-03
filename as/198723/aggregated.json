@@ -1,12 +1,15 @@
 {
-  "asn": 198723,
-  "handle": "UNI-READING",
-  "description": "University of Reading",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198723,
+  "metadata" : {
+    "handle" : "UNI-READING",
+    "description" : "University of Reading",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.39.122.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:2bf::/48"
     ]
   }

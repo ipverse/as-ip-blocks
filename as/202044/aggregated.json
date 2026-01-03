@@ -1,9 +1,12 @@
 {
-  "asn": 202044,
-  "handle": "GETECHBROTHERS-INTERNET",
-  "description": "Getechbrothers MB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202044,
+  "metadata" : {
+    "handle" : "GETECHBROTHERS-INTERNET",
+    "description" : "Getechbrothers MB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.129.200.0/24",
       "64.137.56.0/23",
       "64.137.92.0/23",
@@ -19,7 +22,7 @@
       "138.128.148.0/24",
       "216.173.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:c40::/30",
       "2a13:1882::/31",
       "2a13:1884::/31",

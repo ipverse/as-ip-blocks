@@ -1,12 +1,15 @@
 {
-  "asn": 207487,
-  "handle": "ROUTING-CAFE",
-  "description": "Gustav Caplan",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207487,
+  "metadata" : {
+    "handle" : "ROUTING-CAFE",
+    "description" : "Gustav Caplan",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.134.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:14c0::/47",
       "2a14:14c0:2::/48"
     ]

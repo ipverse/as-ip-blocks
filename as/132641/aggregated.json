@@ -1,9 +1,12 @@
 {
-  "asn": 132641,
-  "handle": "NETCITI-AS-ID",
-  "description": "PT Netciti Persada",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132641,
+  "metadata" : {
+    "handle" : "NETCITI-AS-ID",
+    "description" : "PT Netciti Persada",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.102.78.0/23",
       "43.251.96.0/22",
       "103.19.108.0/22",
@@ -15,7 +18,7 @@
       "103.145.240.0/24",
       "103.145.244.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:a500:c3e7::/48"
     ]
   }

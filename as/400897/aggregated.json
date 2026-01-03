@@ -1,9 +1,12 @@
 {
-  "asn": 400897,
-  "handle": "PETROSKY",
-  "description": "PETROSKY CLOUD LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400897,
+  "metadata" : {
+    "handle" : "PETROSKY",
+    "description" : "PETROSKY CLOUD LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.69.14.0/23",
       "38.128.251.0/24",
       "40.27.216.0/23",
@@ -11,6 +14,6 @@
       "163.5.254.0/24",
       "188.227.196.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

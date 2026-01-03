@@ -1,13 +1,16 @@
 {
-  "asn": 34749,
-  "handle": "GLBASP-ASN",
-  "description": "GLOBAL SERVICE PROVIDER S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34749,
+  "metadata" : {
+    "handle" : "GLBASP-ASN",
+    "description" : "GLOBAL SERVICE PROVIDER S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.94.160.0/21",
       "193.168.50.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ea80::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 40294,
-  "handle": "CHARTER-40294-DC",
-  "description": "Charter Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40294,
+  "metadata" : {
+    "handle" : "CHARTER-40294-DC",
+    "description" : "Charter Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "47.43.16.0/20",
       "47.43.32.0/19",
       "47.43.80.0/20",
@@ -11,7 +14,7 @@
       "98.8.40.0/21",
       "98.8.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:6c7f:9330::/44",
       "2600:6c7f:9340::/44"
     ]

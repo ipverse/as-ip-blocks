@@ -1,12 +1,15 @@
 {
-  "asn": 137554,
-  "handle": "DREAMNET-AS-AP",
-  "description": "Dream.Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137554,
+  "metadata" : {
+    "handle" : "DREAMNET-AS-AP",
+    "description" : "Dream.Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.113.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:b540::/32"
     ]
   }

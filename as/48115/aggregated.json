@@ -1,13 +1,16 @@
 {
-  "asn": 48115,
-  "handle": "DGM-AS",
-  "description": "DGM EOOD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48115,
+  "metadata" : {
+    "handle" : "DGM-AS",
+    "description" : "DGM EOOD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.209.8.0/24",
       "94.156.36.0/24",
       "94.156.101.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

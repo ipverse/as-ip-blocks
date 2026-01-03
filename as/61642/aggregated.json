@@ -1,13 +1,16 @@
 {
-  "asn": 61642,
-  "handle": "NEXNETT-BRASIL-TELECOM",
-  "description": "NEXNETT Brasil Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61642,
+  "metadata" : {
+    "handle" : "NEXNETT-BRASIL-TELECOM",
+    "description" : "NEXNETT Brasil Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.224.192.0/20",
       "131.100.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1c3c::/32"
     ]
   }

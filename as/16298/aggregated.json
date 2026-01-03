@@ -1,13 +1,16 @@
 {
-  "asn": 16298,
-  "handle": "INTERBOX-AS",
-  "description": "Lubbers Box Telematica BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16298,
+  "metadata" : {
+    "handle" : "INTERBOX-AS",
+    "description" : "Lubbers Box Telematica BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.190.232.0/22",
       "217.119.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:29b0::/32"
     ]
   }

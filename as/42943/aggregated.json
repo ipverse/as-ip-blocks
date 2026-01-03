@@ -1,9 +1,12 @@
 {
-  "asn": 42943,
-  "handle": "TOPNET",
-  "description": "Dar Al-Mustawred Trading Group Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42943,
+  "metadata" : {
+    "handle" : "TOPNET",
+    "description" : "Dar Al-Mustawred Trading Group Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.240.80.0/22",
       "77.240.86.0/23",
       "77.240.88.0/21",
@@ -11,7 +14,7 @@
       "85.184.236.0/23",
       "185.109.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:1a40::/29"
     ]
   }

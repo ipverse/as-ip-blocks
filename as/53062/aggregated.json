@@ -1,9 +1,12 @@
 {
-  "asn": 53062,
-  "handle": "ALT-|-GRUPO-BRASIL-TECPAR",
-  "description": "ALT | GRUPO BRASIL TECPAR",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53062,
+  "metadata" : {
+    "handle" : "ALT-|-GRUPO-BRASIL-TECPAR",
+    "description" : "ALT | GRUPO BRASIL TECPAR",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.7.128.0/22",
       "45.235.18.0/24",
       "131.0.76.0/23",
@@ -19,7 +22,7 @@
       "187.85.144.0/20",
       "200.53.30.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3b0::/32"
     ]
   }

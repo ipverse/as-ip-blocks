@@ -1,9 +1,12 @@
 {
-  "asn": 44217,
-  "handle": "IQNETWORKS",
-  "description": "IQ Networks for Data and Internet Services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44217,
+  "metadata" : {
+    "handle" : "IQNETWORKS",
+    "description" : "IQ Networks for Data and Internet Services Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.201.193.0/24",
       "62.201.194.0/23",
       "62.201.196.0/23",
@@ -24,7 +27,7 @@
       "89.33.66.0/23",
       "185.90.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:b60::/32"
     ]
   }

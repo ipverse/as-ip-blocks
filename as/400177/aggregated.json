@@ -1,10 +1,13 @@
 {
-  "asn": 400177,
-  "handle": "RC",
-  "description": "rootcloud LLC",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 400177,
+  "metadata" : {
+    "handle" : "RC",
+    "description" : "rootcloud LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a09:3c80::/29",
       "2a09:bb00::/29",
       "2a09:cb00::/29",

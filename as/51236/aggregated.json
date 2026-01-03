@@ -1,12 +1,15 @@
 {
-  "asn": 51236,
-  "handle": "AS-MADJIN",
-  "description": "MADJIN SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51236,
+  "metadata" : {
+    "handle" : "AS-MADJIN",
+    "description" : "MADJIN SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.140.248.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:1080::/29"
     ]
   }

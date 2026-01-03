@@ -1,14 +1,17 @@
 {
-  "asn": 35292,
-  "handle": "ELXSI-AS",
-  "description": "Martin Kluge",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35292,
+  "metadata" : {
+    "handle" : "ELXSI-AS",
+    "description" : "Martin Kluge",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.31.168.0/21",
       "87.239.136.0/21",
       "193.47.73.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:2a0::/48"
     ]
   }

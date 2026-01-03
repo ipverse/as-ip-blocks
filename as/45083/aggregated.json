@@ -1,11 +1,14 @@
 {
-  "asn": 45083,
-  "handle": "BGTELECOM",
-  "description": "China UNICOM Beijing Branch",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45083,
+  "metadata" : {
+    "handle" : "BGTELECOM",
+    "description" : "China UNICOM Beijing Branch",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.45.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

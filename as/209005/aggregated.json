@@ -1,12 +1,15 @@
 {
-  "asn": 209005,
-  "handle": "SB-AS",
-  "description": "SB-Line OOO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209005,
+  "metadata" : {
+    "handle" : "SB-AS",
+    "description" : "SB-Line OOO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.8.20.0/24",
       "109.248.229.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

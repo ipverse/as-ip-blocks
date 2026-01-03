@@ -1,14 +1,17 @@
 {
-  "asn": 53223,
-  "handle": "MASTER-NET-TELECOM",
-  "description": "Master Net Telecom LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53223,
+  "metadata" : {
+    "handle" : "MASTER-NET-TELECOM",
+    "description" : "Master Net Telecom LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.255.140.0/22",
       "177.67.148.0/22",
       "186.251.80.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2088::/32"
     ]
   }

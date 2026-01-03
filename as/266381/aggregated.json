@@ -1,13 +1,16 @@
 {
-  "asn": 266381,
-  "handle": "GALAX-TELECOM",
-  "description": "Galax Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266381,
+  "metadata" : {
+    "handle" : "GALAX-TELECOM",
+    "description" : "Galax Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.80.244.0/24",
       "170.80.246.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:36f0::/33"
     ]
   }

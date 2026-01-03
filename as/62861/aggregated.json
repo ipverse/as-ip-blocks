@@ -1,15 +1,18 @@
 {
-  "asn": 62861,
-  "handle": "RAYCOM-MEDIA-RSA",
-  "description": "Gray Media Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62861,
+  "metadata" : {
+    "handle" : "RAYCOM-MEDIA-RSA",
+    "description" : "Gray Media Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.37.196.0/23",
       "12.181.15.0/24",
       "12.181.23.0/24",
       "12.192.200.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:130:30c0::/48"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 139726,
-  "handle": "GYC-AS-AP",
-  "description": "Guangdong Yunjie Communication Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139726,
+  "metadata" : {
+    "handle" : "GYC-AS-AP",
+    "description" : "Guangdong Yunjie Communication Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.144.52.0/23",
       "103.150.212.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:8b80::/48",
       "2405:66c0::/32"
     ]

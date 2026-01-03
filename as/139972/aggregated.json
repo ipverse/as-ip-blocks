@@ -1,14 +1,17 @@
 {
-  "asn": 139972,
-  "handle": "PLBNET-AS-ID",
-  "description": "PT. Putra Lebak Banten",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139972,
+  "metadata" : {
+    "handle" : "PLBNET-AS-ID",
+    "description" : "PT. Putra Lebak Banten",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.126.119.0/24",
       "103.147.246.0/23",
       "202.47.67.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:c440::/32"
     ]
   }

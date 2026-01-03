@@ -1,13 +1,16 @@
 {
-  "asn": 211993,
-  "handle": "SOVERIN",
-  "description": "Soverin B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211993,
+  "metadata" : {
+    "handle" : "SOVERIN",
+    "description" : "Soverin B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.58.0/24",
       "185.233.34.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:de80::/47",
       "2a10:de80:b101::/48",
       "2a10:de80:b12a::/48",

@@ -1,12 +1,15 @@
 {
-  "asn": 133742,
-  "handle": "STOP-AS-AP",
-  "description": "State Trading Organization Plc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133742,
+  "metadata" : {
+    "handle" : "STOP-AS-AP",
+    "description" : "State Trading Organization Plc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.76.2.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:6a00::/48"
     ]
   }

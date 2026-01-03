@@ -1,9 +1,12 @@
 {
-  "asn": 395111,
-  "handle": "KVCNET-2009",
-  "description": "KVCHOSTING.COM LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395111,
+  "metadata" : {
+    "handle" : "KVCNET-2009",
+    "description" : "KVCHOSTING.COM LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.20.96.0/22",
       "38.87.144.0/23",
       "38.87.148.0/24",
@@ -24,6 +27,6 @@
       "216.122.168.0/24",
       "216.122.170.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

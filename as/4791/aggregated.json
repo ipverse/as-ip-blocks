@@ -1,9 +1,12 @@
 {
-  "asn": 4791,
-  "handle": "JOONGANGLIBO-AS",
-  "description": "JoongAng Ilbo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4791,
+  "metadata" : {
+    "handle" : "JOONGANGLIBO-AS",
+    "description" : "JoongAng Ilbo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.209.9.0/24",
       "117.52.114.0/23",
       "117.52.116.0/24",
@@ -17,6 +20,6 @@
       "203.249.152.0/24",
       "203.249.157.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

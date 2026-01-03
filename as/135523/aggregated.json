@@ -1,9 +1,12 @@
 {
-  "asn": 135523,
-  "handle": "MULTINET-IE-AS-AP",
-  "description": "Multinet Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135523,
+  "metadata" : {
+    "handle" : "MULTINET-IE-AS-AP",
+    "description" : "Multinet Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.152.255.0/24",
       "111.92.157.0/24",
       "125.209.66.0/24",
@@ -26,6 +29,6 @@
       "202.142.183.0/24",
       "202.142.190.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

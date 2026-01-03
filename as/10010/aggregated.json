@@ -1,9 +1,12 @@
 {
-  "asn": 10010,
-  "handle": "TOKAI",
-  "description": "TOKAI Communications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10010,
+  "metadata" : {
+    "handle" : "TOKAI",
+    "description" : "TOKAI Communications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.98.0.0/17",
       "27.98.128.0/18",
       "27.121.0.0/18",
@@ -112,7 +115,7 @@
       "220.148.0.0/16",
       "220.216.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:af80::/33",
       "2403:1f00::/32",
       "2403:7800::/32",

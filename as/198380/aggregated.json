@@ -1,9 +1,12 @@
 {
-  "asn": 198380,
-  "handle": "NOVAQUADRI-AS",
-  "description": "BLUNOVA S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198380,
+  "metadata" : {
+    "handle" : "NOVAQUADRI-AS",
+    "description" : "BLUNOVA S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.90.240.0/21",
       "185.93.204.0/22",
       "185.154.236.0/22",
@@ -13,6 +16,6 @@
       "193.24.40.0/23",
       "217.196.138.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

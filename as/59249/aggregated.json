@@ -1,16 +1,19 @@
 {
-  "asn": 59249,
-  "handle": "MOFNET-BD",
-  "description": "Mowna Optical Fiber Network (MOFNET)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59249,
+  "metadata" : {
+    "handle" : "MOFNET-BD",
+    "description" : "Mowna Optical Fiber Network (MOFNET)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.84.33.0/24",
       "58.84.34.0/23",
       "103.197.49.0/24",
       "103.254.94.0/24",
       "103.254.167.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:9d80::/32"
     ]
   }

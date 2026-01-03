@@ -1,9 +1,12 @@
 {
-  "asn": 18429,
-  "handle": "EXTRALAN-TW",
-  "description": "Extra-Lan Technologies Co. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18429,
+  "metadata" : {
+    "handle" : "EXTRALAN-TW",
+    "description" : "Extra-Lan Technologies Co. LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.147.0.0/18",
       "45.64.232.0/22",
       "61.57.128.0/19",
@@ -11,7 +14,7 @@
       "123.50.32.0/19",
       "124.155.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:4900:1000::/36",
       "2407:4900:fd01::/48",
       "2407:4900:ff01::/48"

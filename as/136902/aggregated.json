@@ -1,9 +1,12 @@
 {
-  "asn": 136902,
-  "handle": "ALEGRA-AS-IN",
-  "description": "Alegra Communication Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136902,
+  "metadata" : {
+    "handle" : "ALEGRA-AS-IN",
+    "description" : "Alegra Communication Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.231.205.0/24",
       "43.231.206.0/24",
       "103.98.85.0/24",
@@ -13,7 +16,7 @@
       "103.157.182.0/23",
       "103.175.54.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:24a0::/33"
     ]
   }

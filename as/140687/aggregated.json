@@ -1,14 +1,17 @@
 {
-  "asn": 140687,
-  "handle": "ISEVEN-AS-AP",
-  "description": "I Seven",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140687,
+  "metadata" : {
+    "handle" : "ISEVEN-AS-AP",
+    "description" : "I Seven",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.26.11.0/24",
       "103.67.236.0/22",
       "103.182.210.0/23",
       "115.84.170.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

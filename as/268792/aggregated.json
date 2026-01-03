@@ -1,13 +1,16 @@
 {
-  "asn": 268792,
-  "handle": "FLASH-NETCOM",
-  "description": "FLASH NET.COM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268792,
+  "metadata" : {
+    "handle" : "FLASH-NETCOM",
+    "description" : "FLASH NET.COM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.173.20.0/24",
       "45.173.22.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5abc::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 138070,
-  "handle": "JAMPER-AS-ID",
-  "description": "PT Jejaring Mitra Persada",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138070,
+  "metadata" : {
+    "handle" : "JAMPER-AS-ID",
+    "description" : "PT Jejaring Mitra Persada",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.123.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:9fc0::/48"
     ]
   }

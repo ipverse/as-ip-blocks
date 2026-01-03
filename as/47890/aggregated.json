@@ -1,9 +1,12 @@
 {
-  "asn": 47890,
-  "handle": "UNMANAGED-DEDICATED-SERVERS",
-  "description": "UNMANAGED LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47890,
+  "metadata" : {
+    "handle" : "UNMANAGED-DEDICATED-SERVERS",
+    "description" : "UNMANAGED LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.120.0/23",
       "2.57.122.0/24",
       "45.13.37.0/24",
@@ -28,7 +31,7 @@
       "207.182.48.0/21",
       "207.182.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:9f00:2::/48",
       "2a0e:1d80:7::/48",
       "2a10:9100:6::/48",

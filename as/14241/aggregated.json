@@ -1,12 +1,15 @@
 {
-  "asn": 14241,
-  "handle": "ONE-AS",
-  "description": "Oakland Schools",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14241,
+  "metadata" : {
+    "handle" : "ONE-AS",
+    "description" : "Oakland Schools",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "136.228.33.0/24",
       "216.11.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

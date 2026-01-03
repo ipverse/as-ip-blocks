@@ -1,12 +1,15 @@
 {
-  "asn": 58930,
-  "handle": "MTGCL-AS-AP",
-  "description": "My Telecom Group Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58930,
+  "metadata" : {
+    "handle" : "MTGCL-AS-AP",
+    "description" : "My Telecom Group Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.64.40.0/24",
       "202.172.16.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

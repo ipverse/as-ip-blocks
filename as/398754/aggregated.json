@@ -1,15 +1,18 @@
 {
-  "asn": 398754,
-  "handle": "COASTCONNECT-01",
-  "description": "CoastConnect LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398754,
+  "metadata" : {
+    "handle" : "COASTCONNECT-01",
+    "description" : "CoastConnect LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.250.64.0/19",
       "134.231.16.0/20",
       "140.106.128.0/19",
       "152.36.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:eec0::/32"
     ]
   }

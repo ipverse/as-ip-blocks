@@ -1,13 +1,16 @@
 {
-  "asn": 44329,
-  "handle": "NTS-AS",
-  "description": "NTS Netzwerk Telekom Service AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44329,
+  "metadata" : {
+    "handle" : "NTS-AS",
+    "description" : "NTS Netzwerk Telekom Service AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.109.88.0/24",
       "194.50.28.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:ac::/48"
     ]
   }

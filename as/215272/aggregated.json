@@ -1,9 +1,12 @@
 {
-  "asn": 215272,
-  "handle": "CLOUDVPS-AS",
-  "description": "Yedinyye Resheniya LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215272,
+  "metadata" : {
+    "handle" : "CLOUDVPS-AS",
+    "description" : "Yedinyye Resheniya LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.44.44.0/24",
       "45.128.205.0/24",
       "45.129.186.0/24",
@@ -12,6 +15,6 @@
       "185.251.38.0/24",
       "193.47.42.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

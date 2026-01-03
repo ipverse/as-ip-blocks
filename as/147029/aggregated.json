@@ -1,11 +1,14 @@
 {
-  "asn": 147029,
-  "handle": "SKY2-AS-AP",
-  "description": "Sky Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147029,
+  "metadata" : {
+    "handle" : "SKY2-AS-AP",
+    "description" : "Sky Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.173.60.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

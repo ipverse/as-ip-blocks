@@ -1,9 +1,12 @@
 {
-  "asn": 63430,
-  "handle": "5X5",
-  "description": "5x5 Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63430,
+  "metadata" : {
+    "handle" : "5X5",
+    "description" : "5x5 Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.82.221.0/24",
       "38.95.231.0/24",
       "38.102.224.0/24",
@@ -16,7 +19,7 @@
       "192.243.37.0/24",
       "209.20.128.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fdc4::/48"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 45289,
-  "handle": "INDOTRANS-AS-ID",
-  "description": "Indotrans Data PT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45289,
+  "metadata" : {
+    "handle" : "INDOTRANS-AS-ID",
+    "description" : "Indotrans Data PT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.3.59.0/24",
       "103.44.100.0/24",
       "103.241.179.0/24",
       "120.89.88.0/23",
       "203.148.84.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

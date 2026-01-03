@@ -1,9 +1,12 @@
 {
-  "asn": 41749,
-  "handle": "NETCOMPUTERS-AS",
-  "description": "GENERAL SYSTEM SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41749,
+  "metadata" : {
+    "handle" : "NETCOMPUTERS-AS",
+    "description" : "GENERAL SYSTEM SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.106.134.0/24",
       "89.43.54.0/24",
       "89.44.125.0/24",
@@ -11,6 +14,6 @@
       "89.47.88.0/24",
       "188.241.188.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

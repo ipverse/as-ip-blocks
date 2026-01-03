@@ -1,9 +1,12 @@
 {
-  "asn": 3801,
-  "handle": "MISNET",
-  "description": "Mikrotec Internet Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3801,
+  "metadata" : {
+    "handle" : "MISNET",
+    "description" : "Mikrotec Internet Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.176.0.0/22",
       "69.176.5.0/24",
       "69.176.7.0/24",
@@ -37,13 +40,14 @@
       "76.8.184.0/24",
       "76.8.187.0/24",
       "76.8.189.0/24",
+      "76.8.191.0/24",
       "104.156.112.0/20",
       "143.55.16.0/20",
       "149.248.128.0/19",
       "204.68.227.0/24",
       "204.68.228.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:43c0::/32",
       "2607:c00::/32"
     ]

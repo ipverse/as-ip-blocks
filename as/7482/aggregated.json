@@ -1,9 +1,12 @@
 {
-  "asn": 7482,
-  "handle": "APOL-AS",
-  "description": "Asia Pacific On-line Service Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7482,
+  "metadata" : {
+    "handle" : "APOL-AS",
+    "description" : "Asia Pacific On-line Service Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "60.244.0.0/16",
       "124.218.0.0/16",
       "124.219.0.0/17",
@@ -26,7 +29,7 @@
       "223.22.0.0/18",
       "223.22.66.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:0:2000::/36"
     ]
   }

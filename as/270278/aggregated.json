@@ -1,12 +1,15 @@
 {
-  "asn": 270278,
-  "handle": "ALLANET-INTERNET-SERVICES",
-  "description": "AllaNet - Internet Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270278,
+  "metadata" : {
+    "handle" : "ALLANET-INTERNET-SERVICES",
+    "description" : "AllaNet - Internet Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.124.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6990::/32"
     ]
   }

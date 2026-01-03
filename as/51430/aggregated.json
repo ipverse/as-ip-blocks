@@ -1,9 +1,12 @@
 {
-  "asn": 51430,
-  "handle": "ALTUS",
-  "description": "AltusHost B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51430,
+  "metadata" : {
+    "handle" : "ALTUS",
+    "description" : "AltusHost B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.3.152.0/21",
       "37.46.112.0/20",
       "79.142.64.0/20",
@@ -27,7 +30,7 @@
       "185.10.56.0/22",
       "213.5.64.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:7142::/31",
       "2a00:7144::/32",
       "2a00:7145::/48",

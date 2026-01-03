@@ -1,15 +1,18 @@
 {
-  "asn": 134767,
-  "handle": "CHINANET-SICHUAN-CHENGDU-MAN",
-  "description": "CHINANET Sichuan province Chengdu MAN network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134767,
+  "metadata" : {
+    "handle" : "CHINANET-SICHUAN-CHENGDU-MAN",
+    "description" : "CHINANET Sichuan province Chengdu MAN network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "106.56.52.0/22",
       "106.56.56.0/21",
       "106.60.48.0/21",
       "220.164.253.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:12:9800::/47",
       "240e:34c:510e::/47",
       "240e:34c:51e0::/43",

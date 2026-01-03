@@ -1,13 +1,16 @@
 {
-  "asn": 200748,
-  "handle": "GOSB-ASN",
-  "description": "EPT Grand-Orly Seine Bievre",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200748,
+  "metadata" : {
+    "handle" : "GOSB-ASN",
+    "description" : "EPT Grand-Orly Seine Bievre",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.154.32.0/22",
       "185.241.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:a780::/31"
     ]
   }

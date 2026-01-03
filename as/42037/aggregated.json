@@ -1,12 +1,15 @@
 {
-  "asn": 42037,
-  "handle": "MOZILLA-BERLIN",
-  "description": "Mozilla Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42037,
+  "metadata" : {
+    "handle" : "MOZILLA-BERLIN",
+    "description" : "Mozilla Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.155.182.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8c40:238::/48"
     ]
   }

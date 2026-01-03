@@ -1,12 +1,15 @@
 {
-  "asn": 206201,
-  "handle": "DEVANTIS-AS",
-  "description": "Devantis SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206201,
+  "metadata" : {
+    "handle" : "DEVANTIS-AS",
+    "description" : "Devantis SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.193.180.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:3bc0::/31"
     ]
   }

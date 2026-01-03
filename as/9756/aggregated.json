@@ -1,9 +1,12 @@
 {
-  "asn": 9756,
-  "handle": "SKB-CHEONANVITSSEN-AS",
-  "description": "SK Broadband Co Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9756,
+  "metadata" : {
+    "handle" : "SKB-CHEONANVITSSEN-AS",
+    "description" : "SK Broadband Co Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.117.192.0/18",
       "43.230.216.0/22",
       "103.50.40.0/22",
@@ -13,6 +16,6 @@
       "210.210.192.0/18",
       "211.247.0.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

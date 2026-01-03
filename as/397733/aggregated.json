@@ -1,9 +1,12 @@
 {
-  "asn": 397733,
-  "handle": "AS-NYSED",
-  "description": "New York State Education Department",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397733,
+  "metadata" : {
+    "handle" : "AS-NYSED",
+    "description" : "New York State Education Department",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.10.0.0/18",
       "149.10.64.0/22",
       "149.10.100.0/22",
@@ -29,6 +32,6 @@
       "149.10.246.0/23",
       "149.10.248.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 266550,
-  "handle": "WTD-TELECOM",
-  "description": "WTD TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266550,
+  "metadata" : {
+    "handle" : "WTD-TELECOM",
+    "description" : "WTD TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.140.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3dbc::/37",
       "2804:3dbc:c000::/38"
     ]

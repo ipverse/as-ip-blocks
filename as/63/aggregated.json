@@ -1,15 +1,18 @@
 {
-  "asn": 63,
-  "handle": "LL-MI",
-  "description": "Massachusetts Institute of Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63,
+  "metadata" : {
+    "handle" : "LL-MI",
+    "description" : "Massachusetts Institute of Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.55.0.0/16",
       "192.5.136.0/22",
       "192.5.140.0/23",
       "192.26.149.0/24",
       "192.26.150.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

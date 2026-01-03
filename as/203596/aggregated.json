@@ -1,9 +1,12 @@
 {
-  "asn": 203596,
-  "handle": "CELYA",
-  "description": "CELYA SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203596,
+  "metadata" : {
+    "handle" : "CELYA",
+    "description" : "CELYA SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.213.223.0/24",
       "91.216.15.0/24",
       "185.14.176.0/24",
@@ -13,7 +16,7 @@
       "193.108.216.0/24",
       "193.109.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:a400::/29"
     ]
   }

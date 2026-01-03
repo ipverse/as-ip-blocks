@@ -1,12 +1,15 @@
 {
-  "asn": 57933,
-  "handle": "IRISNET",
-  "description": "IRISnet SCRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57933,
+  "metadata" : {
+    "handle" : "IRISNET",
+    "description" : "IRISnet SCRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.247.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:f480::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 137655,
-  "handle": "AANS-AS-IN",
-  "description": "Angel Air Network Solutions Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137655,
+  "metadata" : {
+    "handle" : "AANS-AS-IN",
+    "description" : "Angel Air Network Solutions Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.80.54.0/24",
       "103.121.174.0/24",
       "103.140.2.0/24",
@@ -19,7 +22,7 @@
       "163.61.24.0/24",
       "163.223.136.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:a180::/48",
       "2001:df2:8c80::/48",
       "2001:df6:5080::/48",

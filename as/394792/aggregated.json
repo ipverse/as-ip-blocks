@@ -1,12 +1,15 @@
 {
-  "asn": 394792,
-  "handle": "RAYUS-AS",
-  "description": "RAYUS Radiology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394792,
+  "metadata" : {
+    "handle" : "RAYUS-AS",
+    "description" : "RAYUS Radiology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.153.118.0/24",
       "192.158.16.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

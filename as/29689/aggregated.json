@@ -1,14 +1,17 @@
 {
-  "asn": 29689,
-  "handle": "ORIGO-AS",
-  "description": "Origo ehf",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29689,
+  "metadata" : {
+    "handle" : "ORIGO-AS",
+    "description" : "Origo ehf",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.248.16.0/20",
       "87.121.23.0/24",
       "185.30.184.0/22",
       "217.28.176.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

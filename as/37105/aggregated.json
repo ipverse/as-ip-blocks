@@ -1,9 +1,12 @@
 {
-  "asn": 37105,
-  "handle": "RAIN-GROUP-HOLDINGS",
-  "description": "RAIN GROUP HOLDINGS (PTY) LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37105,
+  "metadata" : {
+    "handle" : "RAIN-GROUP-HOLDINGS",
+    "description" : "RAIN GROUP HOLDINGS (PTY) LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.56.0.0/16",
       "41.73.32.0/19",
       "41.208.192.0/18",
@@ -14,7 +17,7 @@
       "196.46.64.0/21",
       "197.184.0.0/15"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43e8::/32",
       "2c0e:8000::/24",
       "2c0f:ffd8::/32"

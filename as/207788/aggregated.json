@@ -1,15 +1,18 @@
 {
-  "asn": 207788,
-  "handle": "YOLO-AS",
-  "description": "YOLO COLO AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207788,
+  "metadata" : {
+    "handle" : "YOLO-AS",
+    "description" : "YOLO COLO AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.43.159.0/24",
       "195.47.210.0/24",
       "195.47.212.0/24",
       "195.47.216.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:b6c0::/29"
     ]
   }

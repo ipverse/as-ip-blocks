@@ -1,9 +1,12 @@
 {
-  "asn": 397651,
-  "handle": "SNEAKER-SERVER",
-  "description": "Sneaker Server LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397651,
+  "metadata" : {
+    "handle" : "SNEAKER-SERVER",
+    "description" : "Sneaker Server LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.11.122.0/24",
       "103.11.66.0/24",
       "103.28.69.0/24",
@@ -21,7 +24,7 @@
       "193.46.67.0/24",
       "208.94.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:88c0::/32"
     ]
   }

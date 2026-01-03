@@ -1,12 +1,15 @@
 {
-  "asn": 207300,
-  "handle": "SERVEUR-TECH",
-  "description": "Stephane Blondeau",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207300,
+  "metadata" : {
+    "handle" : "SERVEUR-TECH",
+    "description" : "Stephane Blondeau",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.154.97.0/24",
       "164.215.102.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

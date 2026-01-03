@@ -1,9 +1,12 @@
 {
-  "asn": 15879,
-  "handle": "KPN-INTERNEDSERVICES",
-  "description": "Vancis IP B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15879,
+  "metadata" : {
+    "handle" : "KPN-INTERNEDSERVICES",
+    "description" : "Vancis IP B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.226.40.0/21",
       "46.255.104.0/21",
       "77.245.80.0/20",
@@ -35,7 +38,7 @@
       "217.149.64.0/20",
       "217.194.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1a4::/48",
       "2001:898::/29",
       "2001:9a0::/32",

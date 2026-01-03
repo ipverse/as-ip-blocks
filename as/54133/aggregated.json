@@ -1,15 +1,18 @@
 {
-  "asn": 54133,
-  "handle": "UNMETERED",
-  "description": "UnmeteredInternet.com",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54133,
+  "metadata" : {
+    "handle" : "UNMETERED",
+    "description" : "UnmeteredInternet.com",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.218.60.0/23",
       "104.218.62.0/24",
       "161.129.60.0/24",
       "205.137.251.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe13:2c0::/44",
       "2602:fe13:2f0::/44",
       "2602:fe13:800::/48",

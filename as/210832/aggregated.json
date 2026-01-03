@@ -1,12 +1,15 @@
 {
-  "asn": 210832,
-  "handle": "CERTIGNA-TESSI",
-  "description": "Certigna SASU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210832,
+  "metadata" : {
+    "handle" : "CERTIGNA-TESSI",
+    "description" : "Certigna SASU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.199.221.0/24",
       "185.149.14.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

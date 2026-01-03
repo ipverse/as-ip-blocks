@@ -1,9 +1,12 @@
 {
-  "asn": 33470,
-  "handle": "CANBYTELEPHONEASSOCIATION",
-  "description": "Canby Telephone Association",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33470,
+  "metadata" : {
+    "handle" : "CANBYTELEPHONEASSOCIATION",
+    "description" : "Canby Telephone Association",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.28.232.0/22",
       "65.182.224.0/19",
       "67.22.240.0/20",
@@ -11,7 +14,7 @@
       "198.89.116.0/22",
       "216.105.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:d200::/32"
     ]
   }

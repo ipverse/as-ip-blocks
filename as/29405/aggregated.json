@@ -1,9 +1,12 @@
 {
-  "asn": 29405,
-  "handle": "VNET-AS",
-  "description": "VNET a.s",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29405,
+  "metadata" : {
+    "handle" : "VNET-AS",
+    "description" : "VNET a.s.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.149.176.0/23",
       "46.229.224.0/20",
       "81.89.48.0/20",
@@ -29,7 +32,7 @@
       "193.163.77.0/24",
       "217.73.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:12c::/48",
       "2a00:10d8::/32",
       "2a01:390::/32",

@@ -1,13 +1,16 @@
 {
-  "asn": 5739,
-  "handle": "UCSC",
-  "description": "University of California Santa Cruz",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5739,
+  "metadata" : {
+    "handle" : "UCSC",
+    "description" : "University of California Santa Cruz",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.114.0.0/16",
       "169.233.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f5f0::/32"
     ]
   }

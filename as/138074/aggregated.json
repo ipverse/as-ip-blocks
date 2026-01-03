@@ -1,15 +1,18 @@
 {
-  "asn": 138074,
-  "handle": "WOWNET-AS-ID",
-  "description": "PT. Wowrack Cepat Teknologi Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138074,
+  "metadata" : {
+    "handle" : "WOWNET-AS-ID",
+    "description" : "PT. Wowrack Cepat Teknologi Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.123.96.0/22",
       "202.43.250.0/23",
       "202.43.253.0/24",
       "202.43.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:9f40::/32"
     ]
   }

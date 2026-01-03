@@ -1,12 +1,15 @@
 {
-  "asn": 61025,
-  "handle": "COCCA-ASN",
-  "description": "CoCCA Registry Services (NZ) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61025,
+  "metadata" : {
+    "handle" : "COCCA-ASN",
+    "description" : "CoCCA Registry Services (NZ) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.17.236.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:dd40::/32",
       "2a03:dd42::/32"
     ]

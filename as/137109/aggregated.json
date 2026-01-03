@@ -1,9 +1,12 @@
 {
-  "asn": 137109,
-  "handle": "GRACETEL-AS-IN",
-  "description": "Grace Teleinfra Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137109,
+  "metadata" : {
+    "handle" : "GRACETEL-AS-IN",
+    "description" : "Grace Teleinfra Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.109.12.0/22",
       "103.139.226.0/24",
       "103.152.180.0/24",
@@ -20,7 +23,7 @@
       "160.30.14.0/23",
       "160.30.74.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:95c0::/32"
     ]
   }

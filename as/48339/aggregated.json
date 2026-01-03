@@ -1,16 +1,19 @@
 {
-  "asn": 48339,
-  "handle": "RRZ-SUED-AS",
-  "description": "Raiffeisen Rechenzentrum GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48339,
+  "metadata" : {
+    "handle" : "RRZ-SUED-AS",
+    "description" : "Raiffeisen Rechenzentrum GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.207.134.0/23",
       "91.209.112.0/24",
       "149.154.96.0/21",
       "185.189.80.0/22",
       "195.234.0.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:afc0::/32"
     ]
   }

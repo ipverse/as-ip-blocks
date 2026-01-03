@@ -1,9 +1,12 @@
 {
-  "asn": 57717,
-  "handle": "FBX-AS",
-  "description": "FiberXpress BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57717,
+  "metadata" : {
+    "handle" : "FBX-AS",
+    "description" : "FiberXpress BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.202.208.0/24",
       "185.173.235.0/24",
       "185.216.140.0/23",
@@ -11,7 +14,7 @@
       "185.225.112.0/24",
       "194.50.17.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:b7c0::/29"
     ]
   }

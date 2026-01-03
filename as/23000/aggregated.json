@@ -1,15 +1,18 @@
 {
-  "asn": 23000,
-  "handle": "WESCOM",
-  "description": "Wescom Credit Union",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23000,
+  "metadata" : {
+    "handle" : "WESCOM",
+    "description" : "Wescom Credit Union",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.69.136.0/23",
       "208.69.138.0/24",
       "208.69.140.0/23",
       "208.69.142.0/24",
       "209.77.178.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 139358,
-  "handle": "KANSUIUN-AS-AP",
-  "description": "Kansuiun Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139358,
+  "metadata" : {
+    "handle" : "KANSUIUN-AS-AP",
+    "description" : "Kansuiun Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.200.87.0/24",
       "103.82.169.0/24",
       "103.211.71.0/24",
@@ -13,7 +16,7 @@
       "202.179.152.0/24",
       "216.38.171.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:e141::/48",
       "2401:e60:20::/44",
       "2401:e60:100::/40"

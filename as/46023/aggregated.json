@@ -1,9 +1,12 @@
 {
-  "asn": 46023,
-  "handle": "QUANTUMNET-AS-ID",
-  "description": "PT Quantum Tera Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46023,
+  "metadata" : {
+    "handle" : "QUANTUMNET-AS-ID",
+    "description" : "PT Quantum Tera Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.252.8.0/22",
       "103.24.104.0/22",
       "103.75.52.0/22",
@@ -12,7 +15,7 @@
       "175.106.8.0/21",
       "203.145.62.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:b900::/32"
     ]
   }

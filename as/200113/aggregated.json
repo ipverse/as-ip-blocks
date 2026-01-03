@@ -1,14 +1,17 @@
 {
-  "asn": 200113,
-  "handle": "AS60721",
-  "description": "Global Servers LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200113,
+  "metadata" : {
+    "handle" : "AS60721",
+    "description" : "Global Servers LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.177.184.0/24",
       "149.18.96.0/24",
       "194.87.251.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:f180:11::/48"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 63386,
-  "handle": "THEGEO-NET",
-  "description": "The Greater Eastern Oregon Network LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63386,
+  "metadata" : {
+    "handle" : "THEGEO-NET",
+    "description" : "The Greater Eastern Oregon Network LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "98.142.34.0/24",
       "206.192.245.0/24",
       "206.192.246.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fefb::/36"
     ]
   }

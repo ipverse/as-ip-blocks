@@ -1,9 +1,12 @@
 {
-  "asn": 135097,
-  "handle": "MYCLOUD-AS-AP",
-  "description": "LUOGELANG (FRANCE) LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135097,
+  "metadata" : {
+    "handle" : "MYCLOUD-AS-AP",
+    "description" : "LUOGELANG (FRANCE) LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.91.6.0/24",
       "154.91.8.0/21",
       "154.91.16.0/20",
@@ -28,7 +31,7 @@
       "156.241.64.0/18",
       "156.245.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:f580::/48"
     ]
   }

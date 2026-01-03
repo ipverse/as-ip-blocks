@@ -1,9 +1,12 @@
 {
-  "asn": 15433,
-  "handle": "TISM",
-  "description": "Telecom Italia San Marino S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15433,
+  "metadata" : {
+    "handle" : "TISM",
+    "description" : "Telecom Italia San Marino S.p.A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.193.32.0/21",
       "77.242.208.0/20",
       "109.235.104.0/21",
@@ -13,6 +16,6 @@
       "185.86.62.0/23",
       "194.183.64.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

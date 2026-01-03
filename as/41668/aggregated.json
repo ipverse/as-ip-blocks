@@ -1,9 +1,12 @@
 {
-  "asn": 41668,
-  "handle": "ERTH-KAZAN-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41668,
+  "metadata" : {
+    "handle" : "ERTH-KAZAN-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.3.144.0/20",
       "91.144.140.0/22",
       "91.144.188.0/24",
@@ -13,7 +16,7 @@
       "188.187.246.0/24",
       "188.234.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:2800::/38"
     ]
   }

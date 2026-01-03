@@ -1,11 +1,14 @@
 {
-  "asn": 7024,
-  "handle": "PIXELGATE",
-  "description": "PixelGate",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7024,
+  "metadata" : {
+    "handle" : "PIXELGATE",
+    "description" : "PixelGate",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.254.64.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

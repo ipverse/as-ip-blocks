@@ -1,12 +1,15 @@
 {
-  "asn": 150050,
-  "handle": "BENVAR-AS-IN",
-  "description": "Benvar Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150050,
+  "metadata" : {
+    "handle" : "BENVAR-AS-IN",
+    "description" : "Benvar Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.191.40.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:94a0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 20986,
-  "handle": "EASYTEAM",
-  "description": "EasyTeam SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20986,
+  "metadata" : {
+    "handle" : "EASYTEAM",
+    "description" : "EasyTeam SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.236.153.0/24",
       "185.51.216.0/22",
       "185.111.52.0/22",
@@ -11,7 +14,7 @@
       "185.112.16.0/22",
       "185.249.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:5940::/29"
     ]
   }

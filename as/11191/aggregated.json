@@ -1,9 +1,12 @@
 {
-  "asn": 11191,
-  "handle": "CALNET",
-  "description": "Cal.net Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11191,
+  "metadata" : {
+    "handle" : "CALNET",
+    "description" : "Cal.net Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.133.96.0/22",
       "38.133.104.0/21",
       "52.129.40.0/22",
@@ -21,6 +24,6 @@
       "216.57.64.0/20",
       "216.86.176.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

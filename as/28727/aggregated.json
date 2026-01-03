@@ -1,14 +1,17 @@
 {
-  "asn": 28727,
-  "handle": "ASN-NRACTI",
-  "description": "Autoritatea Nationala pentru Administrare si Reglementare in Comunicatii",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28727,
+  "metadata" : {
+    "handle" : "ASN-NRACTI",
+    "description" : "Autoritatea Nationala pentru Administrare si Reglementare in Comunicatii",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.96.153.0/24",
       "80.96.175.0/24",
       "185.59.240.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:628::/48"
     ]
   }

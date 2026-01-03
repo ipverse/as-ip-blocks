@@ -1,9 +1,12 @@
 {
-  "asn": 25227,
-  "handle": "ASN-AVANTEL-MSK",
-  "description": "JSC Avantel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25227,
+  "metadata" : {
+    "handle" : "ASN-AVANTEL-MSK",
+    "description" : "JSC Avantel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.61.8.0/22",
       "5.61.12.0/24",
       "31.13.16.0/21",
@@ -84,7 +87,7 @@
       "217.23.146.0/24",
       "217.23.151.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:9800::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 3132,
-  "handle": "RED-CIENTIFICA-PERUANA",
-  "description": "Red Cientifica Peruana",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3132,
+  "metadata" : {
+    "handle" : "RED-CIENTIFICA-PERUANA",
+    "description" : "Red Cientifica Peruana",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.41.186.0/24",
       "38.52.202.0/24",
       "38.56.109.0/24",
@@ -22,7 +25,7 @@
       "200.1.178.0/24",
       "209.45.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:690::/32",
       "2801:150::/32"
     ]

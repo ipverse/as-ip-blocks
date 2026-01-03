@@ -1,12 +1,15 @@
 {
-  "asn": 400201,
-  "handle": "AS-SFLSC",
-  "description": "SFLSC LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400201,
+  "metadata" : {
+    "handle" : "AS-SFLSC",
+    "description" : "SFLSC LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.129.88.0/24",
       "131.143.200.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

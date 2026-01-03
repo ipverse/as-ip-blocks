@@ -1,14 +1,17 @@
 {
-  "asn": 149400,
-  "handle": "CYBERAKSES-AS-ID",
-  "description": "PT Cyber Akses Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149400,
+  "metadata" : {
+    "handle" : "CYBERAKSES-AS-ID",
+    "description" : "PT Cyber Akses Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.70.94.0/23",
       "103.181.248.0/23",
       "202.164.220.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:15a0::/32"
     ]
   }

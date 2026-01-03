@@ -1,14 +1,17 @@
 {
-  "asn": 205157,
-  "handle": "CIDNOC",
-  "description": "Daniel Cid",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205157,
+  "metadata" : {
+    "handle" : "CIDNOC",
+    "description" : "Daniel Cid",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "76.76.0.0/23",
       "185.70.162.0/23",
       "185.228.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:2a00:1::/48",
       "2a0d:2a00:2::/48",
       "2a0d:2a00:c0::/48",

@@ -1,12 +1,15 @@
 {
-  "asn": 201626,
-  "handle": "PODILLIA-AS",
-  "description": "Podillia-hotel PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201626,
+  "metadata" : {
+    "handle" : "PODILLIA-AS",
+    "description" : "Podillia-hotel PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.111.228.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:780::/48"
     ]
   }

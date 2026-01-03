@@ -1,12 +1,15 @@
 {
-  "asn": 141375,
-  "handle": "CIL-AS-AP",
-  "description": "Central Internet Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141375,
+  "metadata" : {
+    "handle" : "CIL-AS-AP",
+    "description" : "Central Internet Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.157.202.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:2c80::/48"
     ]
   }

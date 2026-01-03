@@ -1,9 +1,12 @@
 {
-  "asn": 271,
-  "handle": "BCNET-AS",
-  "description": "BCNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271,
+  "metadata" : {
+    "handle" : "BCNET-AS",
+    "description" : "BCNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.128.240.0/20",
       "128.189.0.0/16",
       "134.87.0.0/16",
@@ -25,7 +28,7 @@
       "209.87.16.0/20",
       "209.87.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f8f0:10::/48",
       "2607:f8f0:20::/48",
       "2607:f8f0:30::/48",

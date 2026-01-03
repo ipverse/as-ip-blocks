@@ -1,9 +1,12 @@
 {
-  "asn": 394384,
-  "handle": "EDGE-BROADBAND",
-  "description": "Edge Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394384,
+  "metadata" : {
+    "handle" : "EDGE-BROADBAND",
+    "description" : "Edge Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.235.3.0/24",
       "38.71.88.0/21",
       "192.68.24.0/24",
@@ -11,7 +14,7 @@
       "198.206.160.0/24",
       "216.24.40.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:6a80::/32"
     ]
   }

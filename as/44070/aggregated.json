@@ -1,13 +1,16 @@
 {
-  "asn": 44070,
-  "handle": "MCNET-AS",
-  "description": "O2 Czech Republic a.s",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44070,
+  "metadata" : {
+    "handle" : "MCNET-AS",
+    "description" : "O2 Czech Republic a.s.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.41.8.0/21",
       "89.31.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:c540::/29"
     ]
   }

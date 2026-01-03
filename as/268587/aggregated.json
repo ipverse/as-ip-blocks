@@ -1,12 +1,15 @@
 {
-  "asn": 268587,
-  "handle": "AF-TELECOM",
-  "description": "A.F Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268587,
+  "metadata" : {
+    "handle" : "AF-TELECOM",
+    "description" : "A.F Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.163.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:537c::/32"
     ]
   }

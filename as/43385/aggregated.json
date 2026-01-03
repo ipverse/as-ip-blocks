@@ -1,12 +1,15 @@
 {
-  "asn": 43385,
-  "handle": "GSGLOBALCOM-AS",
-  "description": "Globalcom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43385,
+  "metadata" : {
+    "handle" : "GSGLOBALCOM-AS",
+    "description" : "Globalcom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.108.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7f20::/48"
     ]
   }

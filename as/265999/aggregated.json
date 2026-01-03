@@ -1,14 +1,17 @@
 {
-  "asn": 265999,
-  "handle": "CIANET-PROVEDOR-INTERNET",
-  "description": "Cianet Provedor de Internet EIRELI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265999,
+  "metadata" : {
+    "handle" : "CIANET-PROVEDOR-INTERNET",
+    "description" : "Cianet Provedor de Internet EIRELI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.94.96.0/24",
       "138.94.99.0/24",
       "164.163.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4108::/32"
     ]
   }

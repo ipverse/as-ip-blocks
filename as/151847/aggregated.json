@@ -1,13 +1,16 @@
 {
-  "asn": 151847,
-  "handle": "FASTMAILPTYLTD-AS-AP",
-  "description": "Fastmail",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151847,
+  "metadata" : {
+    "handle" : "FASTMAILPTYLTD-AS-AP",
+    "description" : "Fastmail",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.168.172.0/24",
       "202.12.124.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:1680::/48"
     ]
   }

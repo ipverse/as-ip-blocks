@@ -1,12 +1,15 @@
 {
-  "asn": 400990,
-  "handle": "SU-ASN-01",
-  "description": "Shepherd University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400990,
+  "metadata" : {
+    "handle" : "SU-ASN-01",
+    "description" : "Shepherd University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.145.192.0/24",
       "216.145.195.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

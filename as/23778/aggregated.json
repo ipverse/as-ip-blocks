@@ -1,9 +1,12 @@
 {
-  "asn": 23778,
-  "handle": "CANET",
-  "description": "IMIZU CABLE NETWORK CO. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23778,
+  "metadata" : {
+    "handle" : "CANET",
+    "description" : "IMIZU CABLE NETWORK CO. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.18.24.0/22",
       "116.50.48.0/21",
       "133.88.48.0/20",
@@ -15,7 +18,7 @@
       "211.19.196.0/22",
       "219.100.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:cbc0::/32"
     ]
   }

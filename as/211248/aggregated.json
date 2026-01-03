@@ -1,14 +1,17 @@
 {
-  "asn": 211248,
-  "handle": "CZ-ARTEMIS4",
-  "description": "Artemis NET s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211248,
+  "metadata" : {
+    "handle" : "CZ-ARTEMIS4",
+    "description" : "Artemis NET s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.221.2.0/23",
       "185.45.104.0/22",
       "193.35.44.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:2a40::/29"
     ]
   }

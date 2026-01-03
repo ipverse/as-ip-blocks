@@ -1,12 +1,15 @@
 {
-  "asn": 42622,
-  "handle": "DCSTO-AS",
-  "description": "Videnca AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42622,
+  "metadata" : {
+    "handle" : "DCSTO-AS",
+    "description" : "Videnca AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.72.0.0/20",
       "185.84.212.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

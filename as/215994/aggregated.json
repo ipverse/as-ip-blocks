@@ -1,12 +1,15 @@
 {
-  "asn": 215994,
-  "handle": "CMB-MONACO",
-  "description": "CMB Monaco SAM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215994,
+  "metadata" : {
+    "handle" : "CMB-MONACO",
+    "description" : "CMB Monaco SAM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.230.188.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:ba80::/29"
     ]
   }

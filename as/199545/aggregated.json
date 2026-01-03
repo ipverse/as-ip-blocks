@@ -1,13 +1,16 @@
 {
-  "asn": 199545,
-  "handle": "STACKET",
-  "description": "Stacket Group ApS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199545,
+  "metadata" : {
+    "handle" : "STACKET",
+    "description" : "Stacket Group ApS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.121.118.0/23",
       "193.234.88.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:bec::/48",
       "2a12:bec0:e02::/47",
       "2a12:bec0:e04::/48"

@@ -1,9 +1,12 @@
 {
-  "asn": 17816,
-  "handle": "CHINA169-GZ",
-  "description": "China Unicom IP network China169 Guangdong province",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17816,
+  "metadata" : {
+    "handle" : "CHINA169-GZ",
+    "description" : "China Unicom IP network China169 Guangdong province",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.36.0.0/14",
       "27.40.0.0/13",
       "27.106.128.0/18",
@@ -45,7 +48,7 @@
       "221.4.0.0/16",
       "221.5.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2408:8001:3000::/36",
       "2408:805c::/30",
       "2408:8060::/33",

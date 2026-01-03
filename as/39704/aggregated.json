@@ -1,9 +1,12 @@
 {
-  "asn": 39704,
-  "handle": "CJ2-AS",
-  "description": "CJ2 Hosting B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39704,
+  "metadata" : {
+    "handle" : "CJ2-AS",
+    "description" : "CJ2 Hosting B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.22.248.0/21",
       "46.182.216.0/21",
       "91.192.36.0/22",
@@ -20,7 +23,7 @@
       "195.216.246.0/24",
       "213.132.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:f14::/48",
       "2a00:1bd0::/29",
       "2a03:c3c0::/29",

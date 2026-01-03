@@ -1,9 +1,12 @@
 {
-  "asn": 49010,
-  "handle": "HERNING-KOMMUNE-AS",
-  "description": "Herning Kommune",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49010,
+  "metadata" : {
+    "handle" : "HERNING-KOMMUNE-AS",
+    "description" : "Herning Kommune",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.252.76.0/22",
       "86.62.24.0/22",
       "91.207.2.0/23",
@@ -16,7 +19,7 @@
       "193.162.102.0/24",
       "193.187.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:19f8::/32",
       "2a09:5500::/29",
       "2a0a:5400::/29"

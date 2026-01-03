@@ -1,9 +1,12 @@
 {
-  "asn": 48500,
-  "handle": "IRPNET-AS",
-  "description": "Irpinia Net-Com SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48500,
+  "metadata" : {
+    "handle" : "IRPNET-AS",
+    "description" : "Irpinia Net-Com SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.99.224.0/20",
       "94.230.64.0/21",
       "109.104.224.0/21",
@@ -12,6 +15,6 @@
       "217.196.128.0/21",
       "217.196.140.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

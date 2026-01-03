@@ -1,9 +1,12 @@
 {
-  "asn": 53153,
-  "handle": "CINTE-TELECOM-COMERCIO",
-  "description": "CINTE Telecom Comercio e Servicos Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53153,
+  "metadata" : {
+    "handle" : "CINTE-TELECOM-COMERCIO",
+    "description" : "CINTE Telecom Comercio e Servicos Ltda.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.204.220.0/22",
       "186.209.97.0/24",
       "186.209.98.0/23",
@@ -19,6 +22,6 @@
       "187.61.107.0/24",
       "187.61.108.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

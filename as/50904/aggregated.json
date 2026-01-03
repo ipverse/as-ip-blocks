@@ -1,14 +1,17 @@
 {
-  "asn": 50904,
-  "handle": "SE-NORDLO-ELEVATE-AS",
-  "description": "Nordlo Elevate AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50904,
+  "metadata" : {
+    "handle" : "SE-NORDLO-ELEVATE-AS",
+    "description" : "Nordlo Elevate AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.216.224.0/21",
       "91.216.24.0/24",
       "185.18.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:d540::/32"
     ]
   }

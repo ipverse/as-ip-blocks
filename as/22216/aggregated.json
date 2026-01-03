@@ -1,9 +1,12 @@
 {
-  "asn": 22216,
-  "handle": "SIEMENS-PLM",
-  "description": "Siemens Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22216,
+  "metadata" : {
+    "handle" : "SIEMENS-PLM",
+    "description" : "Siemens Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.244.5.0/24",
       "134.244.29.0/24",
       "134.244.30.0/24",
@@ -16,7 +19,7 @@
       "134.244.252.0/22",
       "146.122.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ad87:3b01::/48",
       "2a00:ad87:3b02::/48",
       "2a00:ad87:3b04::/48",

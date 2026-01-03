@@ -1,9 +1,12 @@
 {
-  "asn": 400529,
-  "handle": "INFRALY-LLC",
-  "description": "Infraly LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400529,
+  "metadata" : {
+    "handle" : "INFRALY-LLC",
+    "description" : "Infraly LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.161.168.0/23",
       "23.164.88.0/24",
       "45.8.201.0/24",
@@ -31,7 +34,7 @@
       "194.69.160.0/24",
       "205.234.243.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:3500:c20::/48",
       "2602:fabf::/40"
     ]

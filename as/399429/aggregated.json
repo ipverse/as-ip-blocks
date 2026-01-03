@@ -1,9 +1,12 @@
 {
-  "asn": 399429,
-  "handle": "STJOES-HAM-01",
-  "description": "St. Joseph\u0027s Healthcare Hamilton",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399429,
+  "metadata" : {
+    "handle" : "STJOES-HAM-01",
+    "description" : "St. Joseph's Healthcare Hamilton",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.238.0.0/24",
       "142.238.33.0/24",
       "142.238.50.0/24",
@@ -28,6 +31,6 @@
       "142.238.252.0/24",
       "142.238.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

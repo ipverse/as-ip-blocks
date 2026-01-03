@@ -1,9 +1,12 @@
 {
-  "asn": 394453,
-  "handle": "ITO-DG",
-  "description": "Ensono LP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394453,
+  "metadata" : {
+    "handle" : "ITO-DG",
+    "description" : "Ensono LP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.72.50.0/24",
       "69.4.8.0/23",
       "198.134.142.0/24",
@@ -14,6 +17,6 @@
       "208.200.56.0/21",
       "208.226.208.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

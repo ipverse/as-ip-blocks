@@ -1,9 +1,12 @@
 {
-  "asn": 142299,
-  "handle": "CLOUDFORESTCOLTD-AS-AP",
-  "description": "CLOUDFOREST CO. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142299,
+  "metadata" : {
+    "handle" : "CLOUDFORESTCOLTD-AS-AP",
+    "description" : "CLOUDFOREST CO. LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.254.168.0/24",
       "45.83.207.0/24",
       "45.141.26.0/23",
@@ -25,7 +28,7 @@
       "188.212.158.0/23",
       "203.147.2.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:7040::/32"
     ]
   }

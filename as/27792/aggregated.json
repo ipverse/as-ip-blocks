@@ -1,9 +1,12 @@
 {
-  "asn": 27792,
-  "handle": "WILTEL-COMUNICACIONES",
-  "description": "Wiltel Comunicaciones SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27792,
+  "metadata" : {
+    "handle" : "WILTEL-COMUNICACIONES",
+    "description" : "Wiltel Comunicaciones SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.202.24.0/22",
       "170.84.212.0/22",
       "181.189.192.0/19",
@@ -11,7 +14,7 @@
       "190.6.112.0/21",
       "200.2.120.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:5a0::/32"
     ]
   }

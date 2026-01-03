@@ -1,9 +1,12 @@
 {
-  "asn": 19625,
-  "handle": "ZTVI",
-  "description": "Metro Communications Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19625,
+  "metadata" : {
+    "handle" : "ZTVI",
+    "description" : "Metro Communications Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.188.240.0/24",
       "203.11.220.0/24",
       "203.12.131.0/24",
@@ -12,7 +15,7 @@
       "203.23.165.0/24",
       "203.23.166.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc59::/40"
     ]
   }

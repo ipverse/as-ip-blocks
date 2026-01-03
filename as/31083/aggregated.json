@@ -1,9 +1,12 @@
 {
-  "asn": 31083,
-  "handle": "TELEPOINT",
-  "description": "Telepoint Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31083,
+  "metadata" : {
+    "handle" : "TELEPOINT",
+    "description" : "Telepoint Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.104.175.0/24",
       "77.76.0.0/24",
       "77.76.14.0/24",
@@ -59,6 +62,6 @@
       "217.174.152.0/23",
       "217.174.155.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

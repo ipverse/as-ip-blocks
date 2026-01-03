@@ -1,14 +1,17 @@
 {
-  "asn": 4307,
-  "handle": "SVINET-1",
-  "description": "SOUTH VALLEY INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4307,
+  "metadata" : {
+    "handle" : "SVINET-1",
+    "description" : "SOUTH VALLEY INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.111.224.0/21",
       "65.111.239.0/24",
       "216.139.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:4b00::/32"
     ]
   }

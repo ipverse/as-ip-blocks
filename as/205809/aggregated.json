@@ -1,9 +1,12 @@
 {
-  "asn": 205809,
-  "handle": "MEGA",
-  "description": "MEGA Cloud Services Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205809,
+  "metadata" : {
+    "handle" : "MEGA",
+    "description" : "MEGA Cloud Services Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.203.126.0/23",
       "82.21.172.0/24",
       "82.29.203.0/24",
@@ -12,7 +15,7 @@
       "162.208.16.0/24",
       "185.206.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:e40:1::/48",
       "2a0b:e40:2::/47",
       "2a0b:e41:1::/48",

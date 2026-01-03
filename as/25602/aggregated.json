@@ -1,9 +1,12 @@
 {
-  "asn": 25602,
-  "handle": "TRAVELERSPCAS2",
-  "description": "Travelers Property Casualty Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25602,
+  "metadata" : {
+    "handle" : "TRAVELERSPCAS2",
+    "description" : "Travelers Property Casualty Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.175.130.0/24",
       "170.202.22.0/24",
       "170.202.25.0/24",
@@ -11,6 +14,6 @@
       "170.202.53.0/24",
       "204.117.78.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

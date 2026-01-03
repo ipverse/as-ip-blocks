@@ -1,9 +1,12 @@
 {
-  "asn": 35706,
-  "handle": "NAO",
-  "description": "Net at Once Sweden AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35706,
+  "metadata" : {
+    "handle" : "NAO",
+    "description" : "Net at Once Sweden AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.210.248.0/21",
       "77.105.192.0/18",
       "82.197.224.0/19",
@@ -13,7 +16,7 @@
       "185.51.224.0/22",
       "217.10.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4db8::/32"
     ]
   }

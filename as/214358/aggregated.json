@@ -1,12 +1,15 @@
 {
-  "asn": 214358,
-  "handle": "MTEL-CH-AS",
-  "description": "MTEL Schweiz GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214358,
+  "metadata" : {
+    "handle" : "MTEL-CH-AS",
+    "description" : "MTEL Schweiz GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.121.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:3b00:200::/39",
       "2001:3b00:400::/40"
     ]

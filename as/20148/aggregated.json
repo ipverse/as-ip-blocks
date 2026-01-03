@@ -1,9 +1,12 @@
 {
-  "asn": 20148,
-  "handle": "VANTIVA-CH",
-  "description": "Vantiva USA Shared Services Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20148,
+  "metadata" : {
+    "handle" : "VANTIVA-CH",
+    "description" : "Vantiva USA Shared Services Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.11.8.0/24",
       "141.11.254.0/24",
       "205.143.192.0/23",
@@ -11,7 +14,7 @@
       "205.143.196.0/23",
       "205.143.198.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:5c8:f7fc::/48"
     ]
   }

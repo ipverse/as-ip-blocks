@@ -1,9 +1,12 @@
 {
-  "asn": 7105,
-  "handle": "DOWJONES-AS",
-  "description": "Dow Jones \u0026 Company Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7105,
+  "metadata" : {
+    "handle" : "DOWJONES-AS",
+    "description" : "Dow Jones & Company Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.240.102.0/24",
       "199.201.3.0/24",
       "205.203.100.0/24",
@@ -20,6 +23,6 @@
       "208.144.114.0/23",
       "208.144.119.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

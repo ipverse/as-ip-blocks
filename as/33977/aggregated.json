@@ -1,9 +1,12 @@
 {
-  "asn": 33977,
-  "handle": "BANAT-TELECOM-AS",
-  "description": "Banat Telecom Satelit S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33977,
+  "metadata" : {
+    "handle" : "BANAT-TELECOM-AS",
+    "description" : "Banat Telecom Satelit S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.14.57.0/24",
       "31.14.58.0/23",
       "77.81.87.0/24",
@@ -27,6 +30,6 @@
       "185.244.108.0/22",
       "188.214.126.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

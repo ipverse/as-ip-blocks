@@ -1,12 +1,15 @@
 {
-  "asn": 399925,
-  "handle": "CITY-IT-INTERNET-01",
-  "description": "City of Gainesville",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399925,
+  "metadata" : {
+    "handle" : "CITY-IT-INTERNET-01",
+    "description" : "City of Gainesville",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.190.222.0/23",
       "198.212.142.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

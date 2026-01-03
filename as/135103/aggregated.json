@@ -1,10 +1,13 @@
 {
-  "asn": 135103,
-  "handle": "ALEX-NEO-AS-AP",
-  "description": "Alex Neo Jing Hui",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 135103,
+  "metadata" : {
+    "handle" : "ALEX-NEO-AS-AP",
+    "description" : "Alex Neo Jing Hui",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:df4:75c0::/48",
       "2a06:9f45:1::/48",
       "2a06:9f45:2::/48",

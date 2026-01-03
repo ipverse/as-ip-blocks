@@ -1,12 +1,15 @@
 {
-  "asn": 212651,
-  "handle": "D-CONECT-AS",
-  "description": "D-CONECT LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212651,
+  "metadata" : {
+    "handle" : "D-CONECT-AS",
+    "description" : "D-CONECT LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.239.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:e38::/48"
     ]
   }

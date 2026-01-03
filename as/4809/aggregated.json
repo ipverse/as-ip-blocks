@@ -1,9 +1,12 @@
 {
-  "asn": 4809,
-  "handle": "CHINATELECOM-CORE-WAN-CN2",
-  "description": "China Telecom Next Generation Carrier Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4809,
+  "metadata" : {
+    "handle" : "CHINATELECOM-CORE-WAN-CN2",
+    "description" : "China Telecom Next Generation Carrier Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.71.103.0/24",
       "1.71.119.0/24",
       "1.81.92.0/23",
@@ -188,7 +191,7 @@
       "222.189.67.0/24",
       "222.189.72.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:9380:9001::/48",
       "2400:9380:9002::/48",
       "2400:9380:9005::/48",

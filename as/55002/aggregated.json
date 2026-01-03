@@ -1,12 +1,15 @@
 {
-  "asn": 55002,
-  "handle": "DEFENSE-NET",
-  "description": "F5 Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55002,
+  "metadata" : {
+    "handle" : "DEFENSE-NET",
+    "description" : "F5 Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "107.162.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:e180::/32"
     ]
   }

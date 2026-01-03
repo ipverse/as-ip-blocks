@@ -1,15 +1,18 @@
 {
-  "asn": 38296,
-  "handle": "NSTDA-TH-AS-AP",
-  "description": "National Electronics and Computer Technology Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38296,
+  "metadata" : {
+    "handle" : "NSTDA-TH-AS-AP",
+    "description" : "National Electronics and Computer Technology Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.185.129.0/24",
       "203.185.130.0/23",
       "203.185.132.0/22",
       "203.185.136.0/23",
       "203.185.144.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

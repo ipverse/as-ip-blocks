@@ -1,15 +1,18 @@
 {
-  "asn": 6723,
-  "handle": "UA-XAIM",
-  "description": "AS6723 LIMITED LIABILITY COMPANY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6723,
+  "metadata" : {
+    "handle" : "UA-XAIM",
+    "description" : "AS6723 LIMITED LIABILITY COMPANY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.255.176.0/22",
       "178.255.180.0/23",
       "178.255.183.0/24",
       "185.5.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6d80:f000::/36"
     ]
   }

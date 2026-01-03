@@ -1,9 +1,12 @@
 {
-  "asn": 4179,
-  "handle": "CITY-OF-LA",
-  "description": "City of Los Angeles",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4179,
+  "metadata" : {
+    "handle" : "CITY-OF-LA",
+    "description" : "City of Los Angeles",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.149.11.0/24",
       "161.149.14.0/24",
       "161.149.40.0/24",
@@ -24,6 +27,6 @@
       "161.149.223.0/24",
       "161.149.240.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

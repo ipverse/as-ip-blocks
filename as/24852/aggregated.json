@@ -1,9 +1,12 @@
 {
-  "asn": 24852,
-  "handle": "VINITA",
-  "description": "UAB INIT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24852,
+  "metadata" : {
+    "handle" : "VINITA",
+    "description" : "UAB INIT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.132.160.0/20",
       "84.55.32.0/22",
       "84.55.36.0/23",
@@ -31,7 +34,7 @@
       "217.147.40.0/23",
       "217.147.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7c80::/33"
     ]
   }

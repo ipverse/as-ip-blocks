@@ -1,15 +1,18 @@
 {
-  "asn": 62040,
-  "handle": "ITK-AS",
-  "description": "Innovative Telecommunications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62040,
+  "metadata" : {
+    "handle" : "ITK-AS",
+    "description" : "Innovative Telecommunications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.14.4.0/24",
       "185.49.240.0/22",
       "193.176.80.0/24",
       "193.176.83.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:bb80::/29"
     ]
   }

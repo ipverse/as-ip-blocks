@@ -1,9 +1,12 @@
 {
-  "asn": 2764,
-  "handle": "AAPT",
-  "description": "AAPT Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2764,
+  "metadata" : {
+    "handle" : "AAPT",
+    "description" : "AAPT Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.100.0.0/15",
       "61.29.0.0/17",
       "61.69.0.0/17",
@@ -75,7 +78,7 @@
       "210.87.0.0/18",
       "210.89.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:c78::/31",
       "2001:df5:f042::/47",
       "2404:bf40:8443::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 30325,
-  "handle": "SSTC-NET-1",
-  "description": "South Slope Cooperative Telephone Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30325,
+  "metadata" : {
+    "handle" : "SSTC-NET-1",
+    "description" : "South Slope Cooperative Telephone Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.43.207.0/24",
       "66.43.210.0/24",
       "66.43.217.0/24",
@@ -47,7 +50,7 @@
       "216.248.122.0/23",
       "216.248.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:ad00::/32"
     ]
   }

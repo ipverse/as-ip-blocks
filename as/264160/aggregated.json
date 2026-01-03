@@ -1,12 +1,15 @@
 {
-  "asn": 264160,
-  "handle": "PRYMUS-PROVEDOR-ACESSO",
-  "description": "PRYMUS PROVEDOR DE ACESSO À REDES TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264160,
+  "metadata" : {
+    "handle" : "PRYMUS-PROVEDOR-ACESSO",
+    "description" : "PRYMUS PROVEDOR DE ACESSO À REDES TELECOM LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.99.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2368::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 29580,
-  "handle": "A1BG-RSG",
-  "description": "A1 Bulgaria EAD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29580,
+  "metadata" : {
+    "handle" : "A1BG-RSG",
+    "description" : "A1 Bulgaria EAD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.53.240.0/21",
       "37.63.36.0/22",
       "37.63.40.0/21",
@@ -268,7 +271,7 @@
       "217.18.251.0/24",
       "217.79.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4804:800::/37",
       "2a00:4804:4800::/37",
       "2a00:4804:b800::/37"

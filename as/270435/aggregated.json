@@ -1,12 +1,15 @@
 {
-  "asn": 270435,
-  "handle": "NAVEGA-JA-INTERNET",
-  "description": "Navega Ja Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270435,
+  "metadata" : {
+    "handle" : "NAVEGA-JA-INTERNET",
+    "description" : "Navega Ja Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.89.18.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6bf0::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 400699,
-  "handle": "KITSAPWIFI",
-  "description": "KitsapWiFi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400699,
+  "metadata" : {
+    "handle" : "KITSAPWIFI",
+    "description" : "KitsapWiFi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.253.72.0/24",
       "205.164.243.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f852::/36"
     ]
   }

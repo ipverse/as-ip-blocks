@@ -1,12 +1,15 @@
 {
-  "asn": 10106,
-  "handle": "GIPPSTAFE-AS-AP",
-  "description": "TAFE Gippsland",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10106,
+  "metadata" : {
+    "handle" : "GIPPSTAFE-AS-AP",
+    "description" : "TAFE Gippsland",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.52.135.0/24",
       "203.189.95.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

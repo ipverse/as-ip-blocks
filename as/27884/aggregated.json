@@ -1,9 +1,12 @@
 {
-  "asn": 27884,
-  "handle": "CABLECOLOR",
-  "description": "CABLECOLOR S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27884,
+  "metadata" : {
+    "handle" : "CABLECOLOR",
+    "description" : "CABLECOLOR S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.225.232.0/22",
       "38.255.112.0/22",
       "45.4.136.0/22",
@@ -20,7 +23,7 @@
       "201.158.48.0/22",
       "201.220.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:b10::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 208185,
-  "handle": "NETGATE-SOLUTION-AS",
-  "description": "Net Gate Telecom S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208185,
+  "metadata" : {
+    "handle" : "NETGATE-SOLUTION-AS",
+    "description" : "Net Gate Telecom S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.143.96.0/24",
       "69.33.192.0/24",
       "77.90.148.0/24",
@@ -14,6 +17,6 @@
       "172.111.246.0/24",
       "185.148.243.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 10708,
-  "handle": "SELECTNET-AS",
-  "description": "SelectNet Internet Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10708,
+  "metadata" : {
+    "handle" : "SELECTNET-AS",
+    "description" : "SelectNet Internet Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.67.130.0/24",
       "207.67.137.0/24",
       "207.137.0.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

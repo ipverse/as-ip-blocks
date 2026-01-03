@@ -1,12 +1,15 @@
 {
-  "asn": 210180,
-  "handle": "KALEVAFI",
-  "description": "Kaleva Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210180,
+  "metadata" : {
+    "handle" : "KALEVAFI",
+    "description" : "Kaleva Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.143.125.0/24",
       "193.143.126.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

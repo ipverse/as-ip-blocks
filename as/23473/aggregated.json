@@ -1,9 +1,12 @@
 {
-  "asn": 23473,
-  "handle": "PAVLOVMEDIA",
-  "description": "PAVLOV MEDIA INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23473,
+  "metadata" : {
+    "handle" : "PAVLOVMEDIA",
+    "description" : "PAVLOV MEDIA INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.30.128.0/21",
       "50.30.136.0/23",
       "50.30.139.0/24",
@@ -263,7 +266,7 @@
       "216.171.52.0/22",
       "216.171.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f2c8::/32",
       "2607:f750:20::/47",
       "2607:f750:700::/40",

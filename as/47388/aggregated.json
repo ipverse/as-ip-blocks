@@ -1,9 +1,12 @@
 {
-  "asn": 47388,
-  "handle": "EMAG-AS",
-  "description": "Dante International SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47388,
+  "metadata" : {
+    "handle" : "EMAG-AS",
+    "description" : "Dante International SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.174.144.0/21",
       "80.96.217.0/24",
       "80.97.16.0/22",
@@ -11,6 +14,6 @@
       "94.176.42.0/23",
       "188.215.93.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 210879,
-  "handle": "SPARTEO",
-  "description": "Sparteo SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210879,
+  "metadata" : {
+    "handle" : "SPARTEO",
+    "description" : "Sparteo SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.216.61.0/24",
       "185.141.130.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:4980::/29"
     ]
   }

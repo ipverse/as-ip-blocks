@@ -1,12 +1,15 @@
 {
-  "asn": 200724,
-  "handle": "MTEL-AT",
-  "description": "MTEL Austrija GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200724,
+  "metadata" : {
+    "handle" : "MTEL-AT",
+    "description" : "MTEL Austrija GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.121.127.0/24",
       "213.33.53.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

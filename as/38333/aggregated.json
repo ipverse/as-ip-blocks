@@ -1,9 +1,12 @@
 {
-  "asn": 38333,
-  "handle": "SYMBIO-AS-AU-AP",
-  "description": "Symbio Networks Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38333,
+  "metadata" : {
+    "handle" : "SYMBIO-AS-AU-AP",
+    "description" : "Symbio Networks Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.34.224.0/21",
       "59.86.160.0/19",
       "103.5.96.0/22",
@@ -29,6 +32,6 @@
       "203.222.64.0/18",
       "207.136.0.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

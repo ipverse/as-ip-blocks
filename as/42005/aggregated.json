@@ -1,9 +1,12 @@
 {
-  "asn": 42005,
-  "handle": "LIGHTSTORM-COMMUNICATIONS-SRO-SK-AS",
-  "description": "LightStorm Services s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42005,
+  "metadata" : {
+    "handle" : "LIGHTSTORM-COMMUNICATIONS-SRO-SK-AS",
+    "description" : "LightStorm Services s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "92.240.224.0/22",
       "92.240.232.0/23",
       "92.240.238.0/23",
@@ -15,7 +18,7 @@
       "185.78.152.0/22",
       "185.155.50.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:10d9::/32"
     ]
   }

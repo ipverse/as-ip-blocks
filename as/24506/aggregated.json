@@ -1,9 +1,12 @@
 {
-  "asn": 24506,
-  "handle": "YAHOOGLOBAL-AS-AP",
-  "description": "Yahoo Global Holdings B.V. Taiwan Branch",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24506,
+  "metadata" : {
+    "handle" : "YAHOOGLOBAL-AS-AP",
+    "description" : "Yahoo Global Holdings B.V. Taiwan Branch",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.123.40.0/23",
       "27.123.48.0/21",
       "27.123.198.0/23",
@@ -14,7 +17,7 @@
       "202.165.110.0/23",
       "203.188.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:2000:ec::/46",
       "2406:2000:1a4::/46",
       "2406:2000:ef68::/48"

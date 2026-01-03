@@ -1,9 +1,12 @@
 {
-  "asn": 39122,
-  "handle": "BLACKNIGHT-AS",
-  "description": "Blacknight Internet Solutions Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39122,
+  "metadata" : {
+    "handle" : "BLACKNIGHT-AS",
+    "description" : "Blacknight Internet Solutions Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.22.128.0/20",
       "64.96.3.0/24",
       "64.255.40.0/24",
@@ -28,7 +31,7 @@
       "194.9.222.0/24",
       "200.69.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:57:4003::/48",
       "2a01:a8::/32",
       "2a01:aa::/32",

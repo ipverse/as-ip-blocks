@@ -1,12 +1,15 @@
 {
-  "asn": 147006,
-  "handle": "STARIT-AS-AP",
-  "description": "Star IT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147006,
+  "metadata" : {
+    "handle" : "STARIT-AS-AP",
+    "description" : "Star IT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.74.11.0/24",
       "157.10.242.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

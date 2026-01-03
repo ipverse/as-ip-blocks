@@ -1,9 +1,12 @@
 {
-  "asn": 131965,
-  "handle": "XSERVER",
-  "description": "Xserver Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131965,
+  "metadata" : {
+    "handle" : "XSERVER",
+    "description" : "Xserver Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.131.192.0/18",
       "103.3.0.0/22",
       "103.54.156.0/22",
@@ -30,7 +33,7 @@
       "222.228.64.0/20",
       "223.27.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:b1a0::/32"
     ]
   }

@@ -1,10 +1,13 @@
 {
-  "asn": 62311,
-  "handle": "INTERSENSOR-AS",
-  "description": "Intersensor SRL",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 62311,
+  "metadata" : {
+    "handle" : "INTERSENSOR-AS",
+    "description" : "Intersensor SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:67c:18c0::/48"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 10155,
-  "handle": "KOSME-AS",
-  "description": "KOSME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10155,
+  "metadata" : {
+    "handle" : "KOSME-AS",
+    "description" : "KOSME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "117.52.165.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

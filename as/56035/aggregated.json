@@ -1,13 +1,16 @@
 {
-  "asn": 56035,
-  "handle": "RESEAU",
-  "description": "Reseau Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56035,
+  "metadata" : {
+    "handle" : "RESEAU",
+    "description" : "Reseau Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "110.173.228.0/22",
       "120.88.0.0/22",
       "203.24.93.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

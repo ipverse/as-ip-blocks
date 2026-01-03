@@ -1,10 +1,13 @@
 {
-  "asn": 24381,
-  "handle": "BGPE-AS",
-  "description": "Infininet Global Pty Ltd",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 24381,
+  "metadata" : {
+    "handle" : "BGPE-AS",
+    "description" : "Infininet Global Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2401:2060:b000::/48"
     ]
   }

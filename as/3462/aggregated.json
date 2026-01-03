@@ -1,9 +1,12 @@
 {
-  "asn": 3462,
-  "handle": "HINET",
-  "description": "Chunghwa Telecom Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3462,
+  "metadata" : {
+    "handle" : "HINET",
+    "description" : "Chunghwa Telecom Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.34.0.0/15",
       "1.160.0.0/12",
       "36.224.0.0/12",
@@ -56,7 +59,7 @@
       "220.132.0.0/14",
       "220.136.0.0/13"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:b000:100::/40",
       "2001:b000:400::/38",
       "2001:b001::/32",

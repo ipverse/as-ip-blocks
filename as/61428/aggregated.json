@@ -1,12 +1,15 @@
 {
-  "asn": 61428,
-  "handle": "FOX",
-  "description": "Fox-IT Group B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61428,
+  "metadata" : {
+    "handle" : "FOX",
+    "description" : "Fox-IT Group B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.6.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:dc0::/32"
     ]
   }

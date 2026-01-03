@@ -1,9 +1,12 @@
 {
-  "asn": 38174,
-  "handle": "CAPGEMINITECH-AS-AP",
-  "description": "Capgemini Technology Services India Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38174,
+  "metadata" : {
+    "handle" : "CAPGEMINITECH-AS-AP",
+    "description" : "Capgemini Technology Services India Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "120.29.234.0/23",
       "123.242.246.0/23",
       "123.242.252.0/22",
@@ -11,6 +14,6 @@
       "203.189.180.0/22",
       "203.191.34.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

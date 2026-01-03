@@ -1,11 +1,14 @@
 {
-  "asn": 400403,
-  "handle": "AS-LSTRAT-RTP",
-  "description": "Local Stratus",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400403,
+  "metadata" : {
+    "handle" : "AS-LSTRAT-RTP",
+    "description" : "Local Stratus",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.185.186.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

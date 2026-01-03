@@ -1,14 +1,17 @@
 {
-  "asn": 43995,
-  "handle": "NL-KABELTEX",
-  "description": "Netwerk Exploitatiemaatschappij B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43995,
+  "metadata" : {
+    "handle" : "NL-KABELTEX",
+    "description" : "Netwerk Exploitatiemaatschappij B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.159.44.0/22",
       "82.151.32.0/19",
       "185.77.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:e040::/29",
       "2a0f:7180::/29"
     ]

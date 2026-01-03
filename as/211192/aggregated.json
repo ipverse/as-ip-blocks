@@ -1,9 +1,12 @@
 {
-  "asn": 211192,
-  "handle": "NETWAVE-AS-AP",
-  "description": "NetWave Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211192,
+  "metadata" : {
+    "handle" : "NETWAVE-AS-AP",
+    "description" : "NetWave Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.114.24.0/23",
       "50.114.87.0/24",
       "62.171.249.0/24",
@@ -56,6 +59,6 @@
       "217.180.56.0/24",
       "217.180.62.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

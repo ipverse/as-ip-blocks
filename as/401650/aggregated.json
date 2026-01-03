@@ -1,9 +1,12 @@
 {
-  "asn": 401650,
-  "handle": "VL",
-  "description": "888 Ventures LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401650,
+  "metadata" : {
+    "handle" : "VL",
+    "description" : "888 Ventures LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.74.20.0/24",
       "45.74.28.0/24",
       "45.74.37.0/24",
@@ -27,6 +30,6 @@
       "199.15.208.0/22",
       "208.79.176.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

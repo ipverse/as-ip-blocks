@@ -1,12 +1,15 @@
 {
-  "asn": 10308,
-  "handle": "NEIUNET",
-  "description": "Northeastern Illinois University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10308,
+  "metadata" : {
+    "handle" : "NEIUNET",
+    "description" : "Northeastern Illinois University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.99.13.0/24",
       "66.99.14.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 204383,
-  "handle": "CZ-SPCOM-AS",
-  "description": "SPCom s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204383,
+  "metadata" : {
+    "handle" : "CZ-SPCOM-AS",
+    "description" : "SPCom s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.78.77.0/24",
       "77.78.78.0/23",
       "77.78.94.0/24",
@@ -24,7 +27,7 @@
       "217.11.243.0/24",
       "217.11.246.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:fc0::/29"
     ]
   }

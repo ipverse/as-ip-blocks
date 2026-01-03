@@ -1,9 +1,12 @@
 {
-  "asn": 135089,
-  "handle": "CHINANET-GUANGZHOU-SOUTHBASE-IDC",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135089,
+  "metadata" : {
+    "handle" : "CHINANET-GUANGZHOU-SOUTHBASE-IDC",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.18.32.0/19",
       "14.18.64.0/18",
       "14.22.20.0/22",
@@ -81,7 +84,7 @@
       "219.128.195.0/24",
       "219.128.212.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:108:11e6::/48",
       "240e:982:e401::/48",
       "240e:982:e402::/48",

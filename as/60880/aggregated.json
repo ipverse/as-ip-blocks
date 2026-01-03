@@ -1,9 +1,12 @@
 {
-  "asn": 60880,
-  "handle": "AS60880",
-  "description": "Horizon Telecom B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60880,
+  "metadata" : {
+    "handle" : "AS60880",
+    "description" : "Horizon Telecom B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.133.84.0/22",
       "185.159.127.0/24",
       "185.197.188.0/22",
@@ -12,7 +15,7 @@
       "192.145.24.0/22",
       "194.164.116.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:7cc0::/29"
     ]
   }

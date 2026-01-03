@@ -1,15 +1,18 @@
 {
-  "asn": 142327,
-  "handle": "IDNIC-IPN-AS-ID",
-  "description": "PT Internet Prima Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142327,
+  "metadata" : {
+    "handle" : "IDNIC-IPN-AS-ID",
+    "description" : "PT Internet Prima Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.252.104.0/24",
       "103.168.250.0/23",
       "124.40.248.0/24",
       "124.40.253.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:9740::/48"
     ]
   }

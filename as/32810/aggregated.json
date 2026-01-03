@@ -1,12 +1,15 @@
 {
-  "asn": 32810,
-  "handle": "ITCE-888-01",
-  "description": "IT Colo Exchange",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32810,
+  "metadata" : {
+    "handle" : "ITCE-888-01",
+    "description" : "IT Colo Exchange",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.84.67.0/24",
       "38.106.31.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

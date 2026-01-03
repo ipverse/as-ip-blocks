@@ -1,12 +1,15 @@
 {
-  "asn": 15698,
-  "handle": "ENBW-AG",
-  "description": "EnBW Energie Baden-Wuerttemberg AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15698,
+  "metadata" : {
+    "handle" : "ENBW-AG",
+    "description" : "EnBW Energie Baden-Wuerttemberg AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.35.72.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:f400::/32"
     ]
   }

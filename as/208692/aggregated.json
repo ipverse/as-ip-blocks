@@ -1,12 +1,15 @@
 {
-  "asn": 208692,
-  "handle": "ASN-NCIS",
-  "description": "Kripos",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208692,
+  "metadata" : {
+    "handle" : "ASN-NCIS",
+    "description" : "Kripos",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.88.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:8c00::/32"
     ]
   }

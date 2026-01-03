@@ -1,12 +1,15 @@
 {
-  "asn": 19718,
-  "handle": "NCNI",
-  "description": "MCNC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19718,
+  "metadata" : {
+    "handle" : "NCNI",
+    "description" : "MCNC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "152.22.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:28:f020::/48"
     ]
   }

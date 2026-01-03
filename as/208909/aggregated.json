@@ -1,9 +1,12 @@
 {
-  "asn": 208909,
-  "handle": "AS-VERA",
-  "description": "Gurbtec Iguana Telecom SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208909,
+  "metadata" : {
+    "handle" : "AS-VERA",
+    "description" : "Gurbtec Iguana Telecom SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.128.0/22",
       "5.183.220.0/22",
       "45.15.136.0/22",
@@ -19,7 +22,7 @@
       "185.219.136.0/22",
       "195.211.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:fde0::/32",
       "2a01:57a0::/32",
       "2a09:d940::/29",

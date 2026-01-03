@@ -1,9 +1,12 @@
 {
-  "asn": 4790,
-  "handle": "CHOSUN-AS",
-  "description": "Chosun ilbo Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4790,
+  "metadata" : {
+    "handle" : "CHOSUN-AS",
+    "description" : "Chosun ilbo Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.56.152.0/23",
       "121.128.28.0/23",
       "121.128.166.0/24",
@@ -15,6 +18,6 @@
       "210.94.149.0/24",
       "218.152.28.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

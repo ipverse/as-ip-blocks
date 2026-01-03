@@ -1,12 +1,15 @@
 {
-  "asn": 215069,
-  "handle": "OOCM",
-  "description": "Office of Consensus Maintenance LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215069,
+  "metadata" : {
+    "handle" : "OOCM",
+    "description" : "Office of Consensus Maintenance LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.32.75.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:f2c0:ffd0::/47",
       "2a11:f2c0:ffd4::/46",
       "2a11:f2c0:ffdc::/47"

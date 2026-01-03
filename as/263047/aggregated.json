@@ -1,9 +1,12 @@
 {
-  "asn": 263047,
-  "handle": "LINKFULL-MELHOR-FORNECEDOR",
-  "description": "Linkfull melhor fornecedor dos provedores",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263047,
+  "metadata" : {
+    "handle" : "LINKFULL-MELHOR-FORNECEDOR",
+    "description" : "Linkfull melhor fornecedor dos provedores",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.174.140.0/22",
       "45.188.224.0/22",
       "177.129.208.0/21",
@@ -12,7 +15,7 @@
       "187.61.112.0/21",
       "191.243.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:908::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 22157,
-  "handle": "AS1-A2W",
-  "description": "mGage",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22157,
+  "metadata" : {
+    "handle" : "AS1-A2W",
+    "description" : "mGage",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.71.240.0/23",
       "208.71.243.0/24",
       "208.71.246.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

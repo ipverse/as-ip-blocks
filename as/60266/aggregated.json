@@ -1,13 +1,16 @@
 {
-  "asn": 60266,
-  "handle": "EMBEDIT-AS",
-  "description": "EmbedIT s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60266,
+  "metadata" : {
+    "handle" : "EMBEDIT-AS",
+    "description" : "EmbedIT s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.33.157.0/24",
       "185.33.159.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:cb20::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 18046,
-  "handle": "DONGFONG-TW",
-  "description": "DongFong Technology Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18046,
+  "metadata" : {
+    "handle" : "DONGFONG-TW",
+    "description" : "DongFong Technology Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.102.0.0/24",
       "14.102.83.0/24",
       "43.248.16.0/22",
@@ -61,7 +64,7 @@
       "203.89.96.0/23",
       "220.158.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:1780::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 56971,
-  "handle": "AS56971",
-  "description": "CGI GLOBAL LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56971,
+  "metadata" : {
+    "handle" : "AS56971",
+    "description" : "CGI GLOBAL LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.144.179.0/24",
       "5.178.96.0/24",
       "31.15.16.0/23",
@@ -99,7 +102,7 @@
       "217.60.248.0/23",
       "217.60.252.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:7c00:3::/48",
       "2a13:7c00:4::/48",
       "2a13:7c00:6::/47",

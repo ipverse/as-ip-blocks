@@ -1,12 +1,15 @@
 {
-  "asn": 58000,
-  "handle": "MTN-NET-AS",
-  "description": "Nikita Sergienko",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58000,
+  "metadata" : {
+    "handle" : "MTN-NET-AS",
+    "description" : "Nikita Sergienko",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.40.135.0/24",
       "91.237.182.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

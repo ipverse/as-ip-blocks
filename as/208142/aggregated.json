@@ -1,9 +1,12 @@
 {
-  "asn": 208142,
-  "handle": "ROCKET-TELECOM-AS",
-  "description": "LLC Rocket Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208142,
+  "metadata" : {
+    "handle" : "ROCKET-TELECOM-AS",
+    "description" : "LLC Rocket Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.96.0/24",
       "62.140.248.0/24",
       "80.64.26.0/24",
@@ -11,6 +14,6 @@
       "178.23.186.0/24",
       "185.147.38.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

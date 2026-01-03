@@ -1,9 +1,12 @@
 {
-  "asn": 151358,
-  "handle": "FPL-AS-AP",
-  "description": "Finovy Pte. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151358,
+  "metadata" : {
+    "handle" : "FPL-AS-AP",
+    "description" : "Finovy Pte. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.117.116.0/24",
       "103.151.210.0/24",
       "103.210.226.0/23",
@@ -13,7 +16,7 @@
       "206.237.60.0/23",
       "206.237.62.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:4a0:a::/47"
     ]
   }

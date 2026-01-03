@@ -1,12 +1,15 @@
 {
-  "asn": 10569,
-  "handle": "RED-CENIAINTERNET",
-  "description": "Red CENIAInternet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10569,
+  "metadata" : {
+    "handle" : "RED-CENIAINTERNET",
+    "description" : "Red CENIAInternet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "169.158.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1340::/32"
     ]
   }

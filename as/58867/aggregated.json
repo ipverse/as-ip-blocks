@@ -1,11 +1,14 @@
 {
-  "asn": 58867,
-  "handle": "SGGS-ANYCAST-AS",
-  "description": "SG.GS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58867,
+  "metadata" : {
+    "handle" : "SGGS-ANYCAST-AS",
+    "description" : "SG.GS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.47.176.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

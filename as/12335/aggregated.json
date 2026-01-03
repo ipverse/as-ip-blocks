@@ -1,12 +1,15 @@
 {
-  "asn": 12335,
-  "handle": "TARIO",
-  "description": "Tario Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12335,
+  "metadata" : {
+    "handle" : "TARIO",
+    "description" : "Tario Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.53.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2f8::/32"
     ]
   }

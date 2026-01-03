@@ -1,13 +1,16 @@
 {
-  "asn": 23747,
-  "handle": "IIHPL-AS-AP",
-  "description": "Claratti Workspace",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23747,
+  "metadata" : {
+    "handle" : "IIHPL-AS-AP",
+    "description" : "Claratti Workspace",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.103.148.0/22",
       "103.143.216.0/23",
       "103.143.250.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

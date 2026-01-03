@@ -1,12 +1,15 @@
 {
-  "asn": 32397,
-  "handle": "OCHIN-PDX",
-  "description": "OCHIN INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32397,
+  "metadata" : {
+    "handle" : "OCHIN-PDX",
+    "description" : "OCHIN INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.51.253.0/24",
       "192.169.10.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

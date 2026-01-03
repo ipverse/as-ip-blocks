@@ -1,9 +1,12 @@
 {
-  "asn": 11251,
-  "handle": "DSTL-2-11251",
-  "description": "Disney Streaming Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11251,
+  "metadata" : {
+    "handle" : "DSTL-2-11251",
+    "description" : "Disney Streaming Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.5.5.0/24",
       "139.104.124.0/23",
       "139.104.126.0/24",
@@ -15,7 +18,7 @@
       "139.104.210.0/24",
       "157.23.224.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:dc0:8001::/48",
       "2405:dc0:8008::/48",
       "2620:138:3000::/46",

@@ -1,9 +1,12 @@
 {
-  "asn": 16814,
-  "handle": "NSS",
-  "description": "NSS S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16814,
+  "metadata" : {
+    "handle" : "NSS",
+    "description" : "NSS S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.189.224.0/20",
       "186.189.248.0/22",
       "190.2.0.0/18",
@@ -14,7 +17,7 @@
       "200.123.128.0/18",
       "201.216.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:40::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 135709,
-  "handle": "LTCIN-AS-IN",
-  "description": "Lightstorm Telecom Connectivity Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135709,
+  "metadata" : {
+    "handle" : "LTCIN-AS-IN",
+    "description" : "Lightstorm Telecom Connectivity Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.159.217.0/24",
       "103.206.64.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:dd40:2000::/35"
     ]
   }

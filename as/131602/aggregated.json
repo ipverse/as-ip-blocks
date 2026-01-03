@@ -1,9 +1,12 @@
 {
-  "asn": 131602,
-  "handle": "HYA",
-  "description": "Hsin Yeong An Cable TV Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131602,
+  "metadata" : {
+    "handle" : "HYA",
+    "description" : "Hsin Yeong An Cable TV Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "60.245.96.0/20",
       "60.245.112.0/21",
       "103.252.128.0/22",
@@ -30,6 +33,6 @@
       "220.229.66.0/23",
       "220.229.68.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

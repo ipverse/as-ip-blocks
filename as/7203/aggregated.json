@@ -1,9 +1,12 @@
 {
-  "asn": 7203,
-  "handle": "LEASEWEB-USA-SFO",
-  "description": "Leaseweb USA Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7203,
+  "metadata" : {
+    "handle" : "LEASEWEB-USA-SFO",
+    "description" : "Leaseweb USA Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.19.88.0/21",
       "23.19.160.0/21",
       "23.19.196.0/23",
@@ -108,7 +111,7 @@
       "212.42.205.0/24",
       "216.22.38.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:fe80::/32",
       "2607:f5b5::/47",
       "2a0f:1e84::/32"

@@ -1,9 +1,12 @@
 {
-  "asn": 14237,
-  "handle": "BEAMSPEED1",
-  "description": "Beamspeed LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14237,
+  "metadata" : {
+    "handle" : "BEAMSPEED1",
+    "description" : "Beamspeed LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.57.179.0/24",
       "38.57.180.0/22",
       "38.123.224.0/23",
@@ -17,7 +20,7 @@
       "208.47.103.0/24",
       "216.152.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:e580::/32"
     ]
   }

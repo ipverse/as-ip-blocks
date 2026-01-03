@@ -1,13 +1,16 @@
 {
-  "asn": 133182,
-  "handle": "RRNTL-AS-AP",
-  "description": "Running River Network Technology Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133182,
+  "metadata" : {
+    "handle" : "RRNTL-AS-AP",
+    "description" : "Running River Network Technology Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.250.201.0/24",
       "165.101.124.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:c5c0::/48"
     ]
   }

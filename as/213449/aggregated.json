@@ -1,14 +1,17 @@
 {
-  "asn": 213449,
-  "handle": "JOW-AS-1",
-  "description": "Jann-Ole Wagenaar",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213449,
+  "metadata" : {
+    "handle" : "JOW-AS-1",
+    "description" : "Jann-Ole Wagenaar",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.175.170.0/24",
       "89.106.95.0/24",
       "89.144.63.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:a005:1630::/44",
       "2a0c:b641:260::/44",
       "2a10:fa82:8000::/43",

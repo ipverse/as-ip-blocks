@@ -1,12 +1,15 @@
 {
-  "asn": 141134,
-  "handle": "VCDNET-AS-ID",
-  "description": "PT Vissie Cyber Data",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141134,
+  "metadata" : {
+    "handle" : "VCDNET-AS-ID",
+    "description" : "PT Vissie Cyber Data",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.158.250.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:c5c0::/32"
     ]
   }

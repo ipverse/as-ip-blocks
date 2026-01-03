@@ -1,9 +1,12 @@
 {
-  "asn": 152689,
-  "handle": "HASANHOST-AS-AP",
-  "description": "Hasan Host",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152689,
+  "metadata" : {
+    "handle" : "HASANHOST-AS-AP",
+    "description" : "Hasan Host",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.164.164.0/22",
       "68.164.180.0/22",
       "68.164.252.0/22",
@@ -13,6 +16,6 @@
       "68.165.216.0/22",
       "68.165.244.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

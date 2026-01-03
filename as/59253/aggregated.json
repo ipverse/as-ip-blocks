@@ -1,9 +1,12 @@
 {
-  "asn": 59253,
-  "handle": "LEASEWEB-APAC-SIN-11",
-  "description": "LEASEWEB SINGAPORE PTE. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59253,
+  "metadata" : {
+    "handle" : "LEASEWEB-APAC-SIN-11",
+    "description" : "LEASEWEB SINGAPORE PTE. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.106.48.0/21",
       "23.106.64.0/20",
       "23.106.120.0/21",
@@ -66,7 +69,7 @@
       "209.58.160.0/20",
       "209.58.176.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:800::/48",
       "2402:a7c0::/32",
       "2405:a280:22::/48"

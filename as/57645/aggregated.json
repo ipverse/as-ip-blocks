@@ -1,14 +1,17 @@
 {
-  "asn": 57645,
-  "handle": "LICARD-AS",
-  "description": "OOO LICARD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57645,
+  "metadata" : {
+    "handle" : "LICARD-AS",
+    "description" : "OOO LICARD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.76.28.0/24",
       "91.234.16.0/24",
       "194.85.6.0/24",
       "194.226.45.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

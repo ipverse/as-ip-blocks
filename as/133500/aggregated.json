@@ -1,11 +1,14 @@
 {
-  "asn": 133500,
-  "handle": "LGW-AS-AP",
-  "description": "Lao Gateway Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133500,
+  "metadata" : {
+    "handle" : "LGW-AS-AP",
+    "description" : "Lao Gateway Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.232.80.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

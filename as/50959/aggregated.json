@@ -1,14 +1,17 @@
 {
-  "asn": 50959,
-  "handle": "BEEONLINE-AS",
-  "description": "BEEONLINE OJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50959,
+  "metadata" : {
+    "handle" : "BEEONLINE-AS",
+    "description" : "BEEONLINE OJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.171.64.0/23",
       "45.15.43.0/24",
       "91.216.134.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:4900::/29"
     ]
   }

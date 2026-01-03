@@ -1,15 +1,18 @@
 {
-  "asn": 55313,
-  "handle": "HANELCOM-AS-VN",
-  "description": "Hanel Communication JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55313,
+  "metadata" : {
+    "handle" : "HANELCOM-AS-VN",
+    "description" : "Hanel Communication JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.118.16.0/20",
       "45.126.92.0/22",
       "103.2.220.0/22",
       "103.245.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:9bc0::/32"
     ]
   }

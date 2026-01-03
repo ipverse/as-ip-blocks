@@ -1,9 +1,12 @@
 {
-  "asn": 49981,
-  "handle": "WORLDSTREAM",
-  "description": "WorldStream B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49981,
+  "metadata" : {
+    "handle" : "WORLDSTREAM",
+    "description" : "WorldStream B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.168.0/22",
       "5.252.152.0/24",
       "37.202.210.0/24",
@@ -99,7 +102,7 @@
       "212.119.35.0/24",
       "217.23.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:7c80::/30",
       "2a03:69c0:100::/40",
       "2a06:3880::/29",

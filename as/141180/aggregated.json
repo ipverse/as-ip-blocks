@@ -1,9 +1,12 @@
 {
-  "asn": 141180,
-  "handle": "HIPL-AS-AP",
-  "description": "HUAWEI INTERNATIONAL PTE. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141180,
+  "metadata" : {
+    "handle" : "HIPL-AS-AP",
+    "description" : "HUAWEI INTERNATIONAL PTE. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.119.4.0/24",
       "87.119.7.0/24",
       "87.119.9.0/24",
@@ -12,6 +15,6 @@
       "87.119.17.0/24",
       "87.119.18.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

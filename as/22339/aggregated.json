@@ -1,12 +1,15 @@
 {
-  "asn": 22339,
-  "handle": "UDBQ-1",
-  "description": "University of Dubuque",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22339,
+  "metadata" : {
+    "handle" : "UDBQ-1",
+    "description" : "University of Dubuque",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.135.164.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f6ca::/40"
     ]
   }

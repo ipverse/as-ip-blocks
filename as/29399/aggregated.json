@@ -1,9 +1,12 @@
 {
-  "asn": 29399,
-  "handle": "RAMTEK-AS",
-  "description": "Ramtek Telekomunikasyon Hizmetleri Sanayi Ve Ticaret Limited Sirketi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29399,
+  "metadata" : {
+    "handle" : "RAMTEK-AS",
+    "description" : "Ramtek Telekomunikasyon Hizmetleri Sanayi Ve Ticaret Limited Sirketi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.253.86.0/23",
       "170.84.252.0/23",
       "178.250.88.0/21",
@@ -15,7 +18,7 @@
       "195.149.85.0/24",
       "212.85.224.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5d00::/30"
     ]
   }

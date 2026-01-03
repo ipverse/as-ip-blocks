@@ -1,12 +1,15 @@
 {
-  "asn": 43550,
-  "handle": "DSC-AS",
-  "description": "JSC Avantel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43550,
+  "metadata" : {
+    "handle" : "DSC-AS",
+    "description" : "JSC Avantel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.57.192.0/20",
       "185.37.164.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

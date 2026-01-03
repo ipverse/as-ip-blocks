@@ -1,15 +1,18 @@
 {
-  "asn": 23990,
-  "handle": "MIGUM-AS",
-  "description": "MigumCableNetwork",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23990,
+  "metadata" : {
+    "handle" : "MIGUM-AS",
+    "description" : "MigumCableNetwork",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.102.226.0/24",
       "61.104.42.0/23",
       "61.104.45.0/24",
       "114.52.239.0/24",
       "114.52.240.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

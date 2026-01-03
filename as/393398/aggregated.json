@@ -1,9 +1,12 @@
 {
-  "asn": 393398,
-  "handle": "ASN-DIS",
-  "description": "1515 ROUNDTABLE DR PROPERTY LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393398,
+  "metadata" : {
+    "handle" : "ASN-DIS",
+    "description" : "1515 ROUNDTABLE DR PROPERTY LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.107.221.0/24",
       "38.107.242.0/23",
       "38.107.250.0/24",
@@ -26,7 +29,7 @@
       "190.102.98.0/24",
       "216.126.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:1280:1::/48",
       "2605:e480::/32",
       "2803:d000:fffe::/48"

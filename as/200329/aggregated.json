@@ -1,12 +1,16 @@
 {
-  "asn": 200329,
-  "handle": "HYPERTOAST-AS",
-  "description": "Monil Chheda",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 200329,
+  "metadata" : {
+    "handle" : "HYPERTOAST-AS",
+    "description" : "Monil Chheda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0a:6040:b00::/48",
       "2a0a:6040:b30::/48",
+      "2a0a:6040:b40::/48",
       "2a0a:6040:b70::/48",
       "2a0a:6040:b90::/48",
       "2a0a:6040:bc0::/48"

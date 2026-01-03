@@ -1,14 +1,17 @@
 {
-  "asn": 62241,
-  "handle": "FORESTNET",
-  "description": "Forest Net LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62241,
+  "metadata" : {
+    "handle" : "FORESTNET",
+    "description" : "Forest Net LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.93.132.0/22",
       "185.48.56.0/22",
       "185.245.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:9520::/29"
     ]
   }

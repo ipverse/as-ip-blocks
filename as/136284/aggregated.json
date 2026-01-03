@@ -1,9 +1,12 @@
 {
-  "asn": 136284,
-  "handle": "PTPL-AS-IN",
-  "description": "Paradise Telecom Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136284,
+  "metadata" : {
+    "handle" : "PTPL-AS-IN",
+    "description" : "Paradise Telecom Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.86.180.0/22",
       "103.97.164.0/22",
       "103.121.154.0/23",
@@ -13,7 +16,7 @@
       "103.163.98.0/24",
       "103.191.205.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:d80::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 56209,
-  "handle": "AIRLINK-AS-AP",
-  "description": "AIRLINK TELESERVICES PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56209,
+  "metadata" : {
+    "handle" : "AIRLINK-AS-AP",
+    "description" : "AIRLINK TELESERVICES PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.17.80.0/22",
       "103.178.46.0/23",
       "103.181.34.0/23",
@@ -14,7 +17,7 @@
       "202.71.0.0/22",
       "202.71.24.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:a3e0::/46",
       "2401:a3e0:4::/47",
       "2406:2100::/48",

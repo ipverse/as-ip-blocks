@@ -1,9 +1,12 @@
 {
-  "asn": 35434,
-  "handle": "PIRXNET-AS",
-  "description": "PirxNet Grzegorz Bialas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35434,
+  "metadata" : {
+    "handle" : "PIRXNET-AS",
+    "description" : "PirxNet Grzegorz Bialas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.230.0.0/19",
       "83.230.32.0/20",
       "83.230.48.0/22",
@@ -24,7 +27,7 @@
       "213.227.72.0/22",
       "217.73.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2780::/32"
     ]
   }

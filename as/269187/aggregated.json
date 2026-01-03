@@ -1,12 +1,15 @@
 {
-  "asn": 269187,
-  "handle": "PR-LINK",
-  "description": "PR LINK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269187,
+  "metadata" : {
+    "handle" : "PR-LINK",
+    "description" : "PR LINK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.181.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:60bc::/32"
     ]
   }

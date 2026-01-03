@@ -1,14 +1,17 @@
 {
-  "asn": 44863,
-  "handle": "STARNET-AS",
-  "description": "STARNET TC LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44863,
+  "metadata" : {
+    "handle" : "STARNET-AS",
+    "description" : "STARNET TC LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.93.185.0/24",
       "185.93.187.0/24",
       "193.138.245.0/24",
       "193.138.246.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

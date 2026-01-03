@@ -1,9 +1,12 @@
 {
-  "asn": 131127,
-  "handle": "GTEL-VN",
-  "description": "GLOBAL TECHNOLOGY - TELECOMMUNICATIONS CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131127,
+  "metadata" : {
+    "handle" : "GTEL-VN",
+    "description" : "GLOBAL TECHNOLOGY - TELECOMMUNICATIONS CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "183.91.160.0/23",
       "183.91.168.0/23",
       "183.91.171.0/24",
@@ -12,6 +15,6 @@
       "183.91.180.0/24",
       "183.91.184.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 10062,
-  "handle": "BHA-AS",
-  "description": "Branksome Hall Asia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10062,
+  "metadata" : {
+    "handle" : "BHA-AS",
+    "description" : "Branksome Hall Asia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.249.108.0/24",
       "58.229.99.0/24",
       "58.238.84.0/24",
       "222.122.101.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

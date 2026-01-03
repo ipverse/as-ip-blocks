@@ -1,14 +1,17 @@
 {
-  "asn": 25631,
-  "handle": "GALLAUDET",
-  "description": "Gallaudet University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25631,
+  "metadata" : {
+    "handle" : "GALLAUDET",
+    "description" : "Gallaudet University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.231.0.0/21",
       "134.231.10.0/24",
       "192.26.10.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:d2::/48"
     ]
   }

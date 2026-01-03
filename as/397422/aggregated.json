@@ -1,9 +1,12 @@
 {
-  "asn": 397422,
-  "handle": "MINET01",
-  "description": "MINET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397422,
+  "metadata" : {
+    "handle" : "MINET01",
+    "description" : "MINET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.41.56.0/21",
       "38.158.224.0/21",
       "67.59.83.0/24",
@@ -30,7 +33,7 @@
       "209.237.92.0/22",
       "216.110.214.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:9ec0::/32"
     ]
   }

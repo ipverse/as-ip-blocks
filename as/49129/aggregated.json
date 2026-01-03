@@ -1,15 +1,18 @@
 {
-  "asn": 49129,
-  "handle": "CGC-AS",
-  "description": "LTD CGC Co",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49129,
+  "metadata" : {
+    "handle" : "CGC-AS",
+    "description" : "LTD CGC Co",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.192.0.0/18",
       "77.242.48.0/20",
       "80.77.48.0/20",
       "178.236.48.0/20",
       "185.110.164.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 206814,
-  "handle": "SCI-NETWORK-AS",
-  "description": "SCI-Network pInc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206814,
+  "metadata" : {
+    "handle" : "SCI-NETWORK-AS",
+    "description" : "SCI-Network pInc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.111.124.0/23",
       "77.247.197.0/24",
       "89.135.60.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:b540::/29"
     ]
   }

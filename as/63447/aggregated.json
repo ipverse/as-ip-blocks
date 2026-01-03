@@ -1,14 +1,17 @@
 {
-  "asn": 63447,
-  "handle": "GOTEKKY",
-  "description": "Gotekky",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63447,
+  "metadata" : {
+    "handle" : "GOTEKKY",
+    "description" : "Gotekky",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.245.200.0/22",
       "204.107.204.0/24",
       "204.225.174.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff98::/36"
     ]
   }

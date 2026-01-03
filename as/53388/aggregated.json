@@ -1,16 +1,19 @@
 {
-  "asn": 53388,
-  "handle": "TEFEXIA",
-  "description": "Tefexia LC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53388,
+  "metadata" : {
+    "handle" : "TEFEXIA",
+    "description" : "Tefexia LC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.128.236.0/24",
       "23.140.36.0/24",
       "95.135.125.0/24",
       "142.248.230.0/23",
       "142.249.252.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:eb40::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 34993,
-  "handle": "ODISO-AS",
-  "description": "CYLLENE ITS SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34993,
+  "metadata" : {
+    "handle" : "ODISO-AS",
+    "description" : "CYLLENE ITS SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.148.252.0/22",
       "89.248.208.0/24",
       "89.248.210.0/23",
@@ -13,7 +16,7 @@
       "193.25.122.0/23",
       "193.25.168.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:1580::/29"
     ]
   }

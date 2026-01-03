@@ -1,9 +1,12 @@
 {
-  "asn": 56443,
-  "handle": "IWL-44-56443",
-  "description": "IP WAY LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56443,
+  "metadata" : {
+    "handle" : "IWL-44-56443",
+    "description" : "IP WAY LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.233.10.0/23",
       "104.233.22.0/23",
       "104.233.27.0/24",
@@ -13,6 +16,6 @@
       "185.127.176.0/22",
       "185.128.132.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

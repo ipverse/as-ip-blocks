@@ -1,9 +1,12 @@
 {
-  "asn": 6939,
-  "handle": "HURRICANE",
-  "description": "Hurricane Electric LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6939,
+  "metadata" : {
+    "handle" : "HURRICANE",
+    "description" : "Hurricane Electric LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.27.29.0/24",
       "23.146.80.0/24",
       "23.171.48.0/24",
@@ -374,7 +377,7 @@
       "217.149.103.0/24",
       "217.156.91.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470::/32",
       "2001:49e8::/32",
       "2400:7a00::/32",

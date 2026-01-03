@@ -1,13 +1,16 @@
 {
-  "asn": 15800,
-  "handle": "COORDINATOR-AS",
-  "description": "COORDINATOR LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15800,
+  "metadata" : {
+    "handle" : "COORDINATOR-AS",
+    "description" : "COORDINATOR LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.12.112.0/23",
       "185.12.115.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:f080::/30"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 394601,
-  "handle": "GNX-ASN",
-  "description": "Global Nexus",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394601,
+  "metadata" : {
+    "handle" : "GNX-ASN",
+    "description" : "Global Nexus",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.85.2.0/24",
       "204.119.138.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 60524,
-  "handle": "LAF1",
-  "description": "Lebanese Armed Forces",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60524,
+  "metadata" : {
+    "handle" : "LAF1",
+    "description" : "Lebanese Armed Forces",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.153.84.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

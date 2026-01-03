@@ -1,14 +1,17 @@
 {
-  "asn": 54270,
-  "handle": "LS1",
-  "description": "Light Source 1 Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54270,
+  "metadata" : {
+    "handle" : "LS1",
+    "description" : "Light Source 1 Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.98.62.0/24",
       "38.102.241.0/24",
       "38.106.54.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:e6c0::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 400436,
-  "handle": "KCNA-ASN-01",
-  "description": "Kentucky Communications Network Authority (KCNA)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400436,
+  "metadata" : {
+    "handle" : "KCNA-ASN-01",
+    "description" : "Kentucky Communications Network Authority (KCNA)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.87.4.0/22",
       "216.69.9.0/24",
       "216.69.10.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

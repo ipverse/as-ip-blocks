@@ -1,13 +1,16 @@
 {
-  "asn": 20217,
-  "handle": "PERCEPTA-GW1-AS",
-  "description": "Percepta",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20217,
+  "metadata" : {
+    "handle" : "PERCEPTA-GW1-AS",
+    "description" : "Percepta",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.110.172.0/24",
       "65.18.224.0/24",
       "65.18.231.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

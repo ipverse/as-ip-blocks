@@ -1,9 +1,12 @@
 {
-  "asn": 15133,
-  "handle": "EDGECAST",
-  "description": "Edgecast Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15133,
+  "metadata" : {
+    "handle" : "EDGECAST",
+    "description" : "Edgecast Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.21.80.0/24",
       "93.184.215.0/24",
       "108.161.240.0/24",
@@ -19,7 +22,7 @@
       "192.229.254.0/23",
       "198.7.16.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:2800:1::/48",
       "2606:2800:8::/47",
       "2606:2800:e::/47",

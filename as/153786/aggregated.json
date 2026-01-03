@@ -1,9 +1,12 @@
 {
-  "asn": 153786,
-  "handle": "SERVERSTEP-AS-AP",
-  "description": "SERVERSTEP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153786,
+  "metadata" : {
+    "handle" : "SERVERSTEP-AS-AP",
+    "description" : "SERVERSTEP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.0.57.0/24",
       "103.49.129.0/24",
       "103.54.154.0/24",
@@ -13,7 +16,7 @@
       "163.5.186.0/24",
       "163.5.209.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:e920:8800::/48"
     ]
   }

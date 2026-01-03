@@ -1,11 +1,14 @@
 {
-  "asn": 401800,
-  "handle": "ILSOS",
-  "description": "Illinois Secretary of State",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401800,
+  "metadata" : {
+    "handle" : "ILSOS",
+    "description" : "Illinois Secretary of State",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.15.0.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

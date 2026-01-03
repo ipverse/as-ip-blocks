@@ -1,13 +1,16 @@
 {
-  "asn": 204099,
-  "handle": "I4A",
-  "description": "i4a GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204099,
+  "metadata" : {
+    "handle" : "I4A",
+    "description" : "i4a GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.29.90.0/23",
       "185.222.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:7800::/29"
     ]
   }

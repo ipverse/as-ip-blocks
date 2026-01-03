@@ -1,11 +1,14 @@
 {
-  "asn": 50099,
-  "handle": "VKB-AS",
-  "description": "Volkskreditbank AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50099,
+  "metadata" : {
+    "handle" : "VKB-AS",
+    "description" : "Volkskreditbank AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.8.127.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

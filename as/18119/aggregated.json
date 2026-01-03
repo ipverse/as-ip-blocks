@@ -1,9 +1,12 @@
 {
-  "asn": 18119,
-  "handle": "ACSDATA-NZ",
-  "description": "Advanced Computer Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18119,
+  "metadata" : {
+    "handle" : "ACSDATA-NZ",
+    "description" : "Advanced Computer Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.255.24.0/22",
       "103.5.156.0/22",
       "103.29.246.0/23",
@@ -19,7 +22,7 @@
       "202.125.99.0/24",
       "202.126.80.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4428::/32"
     ]
   }

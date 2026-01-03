@@ -1,9 +1,12 @@
 {
-  "asn": 41560,
-  "handle": "UT-SVR",
-  "description": "UGMK-Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41560,
+  "metadata" : {
+    "handle" : "UT-SVR",
+    "description" : "UGMK-Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.2.32.0/19",
       "46.160.128.0/21",
       "46.160.136.0/24",
@@ -19,6 +22,6 @@
       "185.13.132.0/23",
       "185.13.134.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 4773,
-  "handle": "MOBILEONELTD-AS-AP",
-  "description": "M1 LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4773,
+  "metadata" : {
+    "handle" : "MOBILEONELTD-AS-AP",
+    "description" : "M1 LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.104.0.0/16",
       "43.245.104.0/22",
       "49.245.0.0/16",
@@ -27,7 +30,7 @@
       "180.129.0.0/17",
       "202.65.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:7400::/32"
     ]
   }

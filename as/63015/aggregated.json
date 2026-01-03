@@ -1,12 +1,15 @@
 {
-  "asn": 63015,
-  "handle": "DALLAS-DATACENTER",
-  "description": "Dallas Data Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63015,
+  "metadata" : {
+    "handle" : "DALLAS-DATACENTER",
+    "description" : "Dallas Data Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.250.224.0/22",
       "162.250.230.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 269648,
-  "handle": "NOVA-WIFI",
-  "description": "Nova Wifi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269648,
+  "metadata" : {
+    "handle" : "NOVA-WIFI",
+    "description" : "Nova Wifi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.189.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:67c0::/32"
     ]
   }

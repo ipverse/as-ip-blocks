@@ -1,9 +1,12 @@
 {
-  "asn": 34362,
-  "handle": "VOLJATEL-HR-AS",
-  "description": "Terrakom d.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34362,
+  "metadata" : {
+    "handle" : "VOLJATEL-HR-AS",
+    "description" : "Terrakom d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.94.64.0/19",
       "176.62.0.0/20",
       "176.62.16.0/21",
@@ -13,6 +16,6 @@
       "176.62.32.0/20",
       "185.80.192.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

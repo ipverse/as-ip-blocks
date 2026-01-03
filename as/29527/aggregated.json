@@ -1,9 +1,12 @@
 {
-  "asn": 29527,
-  "handle": "ASTUTIUM-AS",
-  "description": "Astutium Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29527,
+  "metadata" : {
+    "handle" : "ASTUTIUM-AS",
+    "description" : "Astutium Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.76.212.0/22",
       "80.76.216.0/22",
       "83.243.96.0/21",
@@ -16,7 +19,7 @@
       "194.150.120.0/22",
       "217.148.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4bf0:1::/48"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 52449,
-  "handle": "MY-TECH-BZ",
-  "description": "My Tech BZ",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52449,
+  "metadata" : {
+    "handle" : "MY-TECH-BZ",
+    "description" : "My Tech BZ",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.97.156.0/22",
       "167.249.200.0/22",
       "168.195.76.0/22",
       "170.247.220.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

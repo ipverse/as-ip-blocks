@@ -1,15 +1,18 @@
 {
-  "asn": 24284,
-  "handle": "CYBERAGENT",
-  "description": "CyberAgent Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24284,
+  "metadata" : {
+    "handle" : "CYBERAGENT",
+    "description" : "CyberAgent Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.112.64.0/20",
       "180.233.139.0/24",
       "180.233.140.0/22",
       "203.80.29.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:4200:1200::/48",
       "2402:4200:1300::/48",
       "2402:4200:13ff::/48"

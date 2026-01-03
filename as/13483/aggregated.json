@@ -1,9 +1,12 @@
 {
-  "asn": 13483,
-  "handle": "INFOR-AS13483",
-  "description": "Infor (US) LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13483,
+  "metadata" : {
+    "handle" : "INFOR-AS13483",
+    "description" : "Infor (US) LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.172.38.0/23",
       "159.172.243.0/24",
       "159.172.244.0/24",
@@ -13,6 +16,6 @@
       "207.54.40.0/21",
       "207.54.48.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

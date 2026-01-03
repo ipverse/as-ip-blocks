@@ -1,9 +1,12 @@
 {
-  "asn": 62121,
-  "handle": "OBOX-NETWORKS",
-  "description": "Christian Ebsen ApS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62121,
+  "metadata" : {
+    "handle" : "OBOX-NETWORKS",
+    "description" : "Christian Ebsen ApS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.209.39.0/24",
       "185.93.192.0/22",
       "193.46.69.0/24",
@@ -12,7 +15,7 @@
       "195.189.130.0/23",
       "195.242.130.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:564::/48",
       "2a02:cf40::/29"
     ]

@@ -1,15 +1,18 @@
 {
-  "asn": 133403,
-  "handle": "ORIGINNETPTYLTD-AS-AP",
-  "description": "Origin Net Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133403,
+  "metadata" : {
+    "handle" : "ORIGINNETPTYLTD-AS-AP",
+    "description" : "Origin Net Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.122.228.0/23",
       "45.122.230.0/24",
       "103.42.189.0/24",
       "103.63.100.0/24",
       "103.227.60.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

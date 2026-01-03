@@ -1,13 +1,16 @@
 {
-  "asn": 400727,
-  "handle": "CVEC-ISP",
-  "description": "Concho Valley Electric Cooperative Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400727,
+  "metadata" : {
+    "handle" : "CVEC-ISP",
+    "description" : "Concho Valley Electric Cooperative Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.35.100.0/22",
       "209.35.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:440::/32"
     ]
   }

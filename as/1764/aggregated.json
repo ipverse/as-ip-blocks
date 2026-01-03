@@ -1,9 +1,12 @@
 {
-  "asn": 1764,
-  "handle": "NEXTLAYER-AS",
-  "description": "Next Layer Telekommunikationsdienstleistungs- und Beratungs GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1764,
+  "metadata" : {
+    "handle" : "NEXTLAYER-AS",
+    "description" : "Next Layer Telekommunikationsdienstleistungs- und Beratungs GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "20.154.73.0/24",
       "20.154.74.0/24",
       "45.88.240.0/22",
@@ -66,7 +69,7 @@
       "217.194.150.0/24",
       "217.194.156.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:22a0::/48",
       "2001:67c:2600::/48",
       "2001:4b60:100::/48",

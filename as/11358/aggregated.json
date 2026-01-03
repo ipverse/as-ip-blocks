@@ -1,13 +1,16 @@
 {
-  "asn": 11358,
-  "handle": "TENNANT-SOFTWARE",
-  "description": "Tennant Software",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11358,
+  "metadata" : {
+    "handle" : "TENNANT-SOFTWARE",
+    "description" : "Tennant Software",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.186.184.0/24",
       "168.151.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f97e::/47",
       "2602:f97e:fff::/48"
     ]

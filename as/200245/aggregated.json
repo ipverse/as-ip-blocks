@@ -1,13 +1,16 @@
 {
-  "asn": 200245,
-  "handle": "MANCHENUMOP-ASN",
-  "description": "Syndicat Mixte Manche Numerique",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200245,
+  "metadata" : {
+    "handle" : "MANCHENUMOP-ASN",
+    "description" : "Syndicat Mixte Manche Numerique",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.85.44.0/22",
       "185.169.104.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:2240::/29"
     ]
   }

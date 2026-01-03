@@ -1,9 +1,12 @@
 {
-  "asn": 39699,
-  "handle": "SSPOY-AS",
-  "description": "Lounea Palvelut Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39699,
+  "metadata" : {
+    "handle" : "SSPOY-AS",
+    "description" : "Lounea Palvelut Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.152.104.0/22",
       "45.156.104.0/22",
       "62.121.32.0/19",
@@ -12,7 +15,7 @@
       "86.60.128.0/17",
       "185.132.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:50a0::/32"
     ]
   }

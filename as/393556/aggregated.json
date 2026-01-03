@@ -1,13 +1,16 @@
 {
-  "asn": 393556,
-  "handle": "NSH167",
-  "description": "Northside Hospital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393556,
+  "metadata" : {
+    "handle" : "NSH167",
+    "description" : "Northside Hospital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.183.210.0/23",
       "167.183.212.0/24",
       "167.183.216.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

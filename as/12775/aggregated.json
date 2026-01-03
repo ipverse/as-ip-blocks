@@ -1,12 +1,15 @@
 {
-  "asn": 12775,
-  "handle": "JPCINET",
-  "description": "JPC Infonet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12775,
+  "metadata" : {
+    "handle" : "JPCINET",
+    "description" : "JPC Infonet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.113.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5400::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 141231,
-  "handle": "FREEDOM1-AS-AP",
-  "description": "Freedom Online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141231,
+  "metadata" : {
+    "handle" : "FREEDOM1-AS-AP",
+    "description" : "Freedom Online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.156.222.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:ff80::/48"
     ]
   }

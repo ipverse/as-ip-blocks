@@ -1,9 +1,12 @@
 {
-  "asn": 201167,
-  "handle": "CASTEL-AS",
-  "description": "Caspian Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201167,
+  "metadata" : {
+    "handle" : "CASTEL-AS",
+    "description" : "Caspian Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.212.235.0/24",
       "85.132.8.0/22",
       "85.132.97.0/24",
@@ -12,7 +15,7 @@
       "94.20.96.0/22",
       "185.43.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:49e0::/32"
     ]
   }

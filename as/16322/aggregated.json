@@ -1,9 +1,12 @@
 {
-  "asn": 16322,
-  "handle": "PARSONLINE",
-  "description": "Parsan Lin Co. PJS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16322,
+  "metadata" : {
+    "handle" : "PARSONLINE",
+    "description" : "Parsan Lin Co. PJS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.214.146.0/23",
       "31.214.228.0/22",
       "37.10.64.0/22",
@@ -13,7 +16,7 @@
       "82.99.192.0/18",
       "109.230.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1a88::/32"
     ]
   }

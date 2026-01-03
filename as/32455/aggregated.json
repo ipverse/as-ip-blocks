@@ -1,11 +1,14 @@
 {
-  "asn": 32455,
-  "handle": "NEXTFLEX-ASN",
-  "description": "NextFlex",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32455,
+  "metadata" : {
+    "handle" : "NEXTFLEX-ASN",
+    "description" : "NextFlex",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.77.201.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

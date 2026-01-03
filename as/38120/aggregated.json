@@ -1,9 +1,12 @@
 {
-  "asn": 38120,
-  "handle": "GBNTV-AS",
-  "description": "LG HelloVision Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38120,
+  "metadata" : {
+    "handle" : "GBNTV-AS",
+    "description" : "LG HelloVision Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.102.199.0/24",
       "58.102.200.0/23",
       "59.152.128.0/18",
@@ -27,6 +30,6 @@
       "219.252.214.0/23",
       "219.252.216.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

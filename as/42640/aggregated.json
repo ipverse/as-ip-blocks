@@ -1,11 +1,14 @@
 {
-  "asn": 42640,
-  "handle": "VENDIO-AS",
-  "description": "Vendio SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42640,
+  "metadata" : {
+    "handle" : "VENDIO-AS",
+    "description" : "Vendio SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.248.228.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

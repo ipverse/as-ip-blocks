@@ -1,13 +1,16 @@
 {
-  "asn": 206236,
-  "handle": "DEFAULTGATEWAY-SOUTH",
-  "description": "default gateway UG (haftungsbeschraenkt)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206236,
+  "metadata" : {
+    "handle" : "DEFAULTGATEWAY-SOUTH",
+    "description" : "default gateway UG (haftungsbeschraenkt)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.14.232.0/23",
       "195.245.66.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:bf7:fc00::/44",
       "2a0e:1580::/29",
       "2a10:1a40::/29"

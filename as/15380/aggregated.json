@@ -1,12 +1,15 @@
 {
-  "asn": 15380,
-  "handle": "ANSCZ",
-  "description": "Air Navigation Services of the Czech Republic state enterprise",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15380,
+  "metadata" : {
+    "handle" : "ANSCZ",
+    "description" : "Air Navigation Services of the Czech Republic state enterprise",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.0.231.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:a20::/48"
     ]
   }

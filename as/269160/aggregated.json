@@ -1,12 +1,15 @@
 {
-  "asn": 269160,
-  "handle": "DBLOCK-NET",
-  "description": "Dblock Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269160,
+  "metadata" : {
+    "handle" : "DBLOCK-NET",
+    "description" : "Dblock Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.181.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6054:c000::/34"
     ]
   }

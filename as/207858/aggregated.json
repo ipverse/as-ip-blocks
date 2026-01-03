@@ -1,15 +1,18 @@
 {
-  "asn": 207858,
-  "handle": "DMBZ-AS",
-  "description": "Dmytro Moiseiev",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207858,
+  "metadata" : {
+    "handle" : "DMBZ-AS",
+    "description" : "Dmytro Moiseiev",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.28.255.0/24",
       "193.29.1.0/24",
       "193.29.4.0/24",
       "193.29.8.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:7a40::/29"
     ]
   }

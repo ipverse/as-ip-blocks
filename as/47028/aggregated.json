@@ -1,9 +1,12 @@
 {
-  "asn": 47028,
-  "handle": "TVC-ASN",
-  "description": "Twin Valley Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47028,
+  "metadata" : {
+    "handle" : "TVC-ASN",
+    "description" : "Twin Valley Communications Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.44.160.0/19",
       "63.245.142.0/24",
       "71.19.208.0/21",
@@ -14,6 +17,6 @@
       "192.159.94.0/24",
       "209.182.112.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

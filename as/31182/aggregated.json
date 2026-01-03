@@ -1,14 +1,17 @@
 {
-  "asn": 31182,
-  "handle": "SB24-AS",
-  "description": "SAMAN BANK PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31182,
+  "metadata" : {
+    "handle" : "SB24-AS",
+    "description" : "SAMAN BANK PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.66.134.0/23",
       "193.8.139.0/24",
       "193.56.181.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:5ec0::/29"
     ]
   }

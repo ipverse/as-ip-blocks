@@ -1,11 +1,14 @@
 {
-  "asn": 134203,
-  "handle": "NEBULEX-AS-AP",
-  "description": "Nebulex Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134203,
+  "metadata" : {
+    "handle" : "NEBULEX-AS-AP",
+    "description" : "Nebulex Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.58.32.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

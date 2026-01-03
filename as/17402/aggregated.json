@@ -1,9 +1,12 @@
 {
-  "asn": 17402,
-  "handle": "CENTURYLINK-LEGACY-EMBARQ-CHSK",
-  "description": "CenturyLink Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17402,
+  "metadata" : {
+    "handle" : "CENTURYLINK-LEGACY-EMBARQ-CHSK",
+    "description" : "CenturyLink Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.41.112.0/21",
       "65.41.192.0/22",
       "66.247.104.0/22",
@@ -31,6 +34,6 @@
       "184.7.160.0/20",
       "206.154.0.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

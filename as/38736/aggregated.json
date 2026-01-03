@@ -1,12 +1,15 @@
 {
-  "asn": 38736,
-  "handle": "VNNIC-AS-VN",
-  "description": "Vietnam Internet network information center (VNNIC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38736,
+  "metadata" : {
+    "handle" : "VNNIC-AS-VN",
+    "description" : "Vietnam Internet network information center (VNNIC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.119.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:dc8:1000::/48"
     ]
   }

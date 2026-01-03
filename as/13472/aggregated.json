@@ -1,12 +1,15 @@
 {
-  "asn": 13472,
-  "handle": "MATRIX-CCHN",
-  "description": "Matrix Medical Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13472,
+  "metadata" : {
+    "handle" : "MATRIX-CCHN",
+    "description" : "Matrix Medical Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.51.128.0/24",
       "209.51.134.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

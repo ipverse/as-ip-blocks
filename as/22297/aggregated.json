@@ -1,9 +1,12 @@
 {
-  "asn": 22297,
-  "handle": "JELECOS-AS-01",
-  "description": "Jelecos LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22297,
+  "metadata" : {
+    "handle" : "JELECOS-AS-01",
+    "description" : "Jelecos LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.88.75.0/24",
       "72.142.150.0/24",
       "104.171.205.0/24",
@@ -16,7 +19,7 @@
       "216.130.164.0/24",
       "216.138.253.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:9e07::/32"
     ]
   }

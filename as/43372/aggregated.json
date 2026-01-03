@@ -1,9 +1,12 @@
 {
-  "asn": 43372,
-  "handle": "TELNAP",
-  "description": "TELNAP TELECOM Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43372,
+  "metadata" : {
+    "handle" : "TELNAP",
+    "description" : "TELNAP TELECOM Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.158.4.0/22",
       "88.220.112.0/24",
       "88.220.130.0/23",
@@ -15,7 +18,7 @@
       "195.88.232.0/24",
       "195.136.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:7e80::/29"
     ]
   }

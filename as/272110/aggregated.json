@@ -1,15 +1,18 @@
 {
-  "asn": 272110,
-  "handle": "FENIX-NETWORKS",
-  "description": "FENIX NETWORKS S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272110,
+  "metadata" : {
+    "handle" : "FENIX-NETWORKS",
+    "description" : "FENIX NETWORKS S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "172.121.177.0/24",
       "192.177.100.0/24",
       "200.26.184.0/24",
       "200.26.187.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:7710::/32"
     ]
   }

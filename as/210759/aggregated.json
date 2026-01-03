@@ -1,13 +1,16 @@
 {
-  "asn": 210759,
-  "handle": "ASN-BIT",
-  "description": "Stadt Bremerhaven trading as Betrieb fuer Informationstechnologie Bremerhaven",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210759,
+  "metadata" : {
+    "handle" : "ASN-BIT",
+    "description" : "Stadt Bremerhaven trading as Betrieb fuer Informationstechnologie Bremerhaven",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.204.96.0/23",
       "185.204.98.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:f540::/29"
     ]
   }

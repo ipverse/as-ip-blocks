@@ -1,16 +1,19 @@
 {
-  "asn": 7250,
-  "handle": "SURRY-TELEPHONE-MEMB-CORP",
-  "description": "Surry Telephone Membership Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7250,
+  "metadata" : {
+    "handle" : "SURRY-TELEPHONE-MEMB-CORP",
+    "description" : "Surry Telephone Membership Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.2.112.0/20",
       "38.2.192.0/19",
       "38.240.96.0/19",
       "173.212.0.0/19",
       "173.212.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:8a00::/32"
     ]
   }

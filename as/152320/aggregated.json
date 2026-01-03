@@ -1,16 +1,19 @@
 {
-  "asn": 152320,
-  "handle": "GOALNOW-AS-AP",
-  "description": "GOALNOW NETWORK TECHNOLOGY CO. LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152320,
+  "metadata" : {
+    "handle" : "GOALNOW-AS-AP",
+    "description" : "GOALNOW NETWORK TECHNOLOGY CO. LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.254.25.0/24",
       "45.254.26.0/23",
       "103.85.72.0/22",
       "103.223.120.0/22",
       "203.175.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:a640::/47"
     ]
   }

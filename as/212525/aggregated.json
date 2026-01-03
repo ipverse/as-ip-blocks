@@ -1,15 +1,18 @@
 {
-  "asn": 212525,
-  "handle": "ITPC-DATACENTER",
-  "description": "Informatics and Telecommunications Public Company (ITPC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212525,
+  "metadata" : {
+    "handle" : "ITPC-DATACENTER",
+    "description" : "Informatics and Telecommunications Public Company (ITPC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.109.224.0/24",
       "78.109.234.0/23",
       "78.109.238.0/24",
       "185.52.101.0/24",
-      "185.52.103.0/24"
+      "185.52.102.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

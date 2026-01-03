@@ -1,13 +1,16 @@
 {
-  "asn": 215116,
-  "handle": "IP-BARKOWSKI-AS",
-  "description": "LLC IT Business",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215116,
+  "metadata" : {
+    "handle" : "IP-BARKOWSKI-AS",
+    "description" : "LLC IT Business",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.103.132.0/24",
       "185.103.134.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:f6c0::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 61157,
-  "handle": "PLUSSERVER-ASN1",
-  "description": "PlusServer GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61157,
+  "metadata" : {
+    "handle" : "PLUSSERVER-ASN1",
+    "description" : "PlusServer GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.131.232.0/21",
       "45.151.20.0/23",
       "46.22.32.0/20",
@@ -177,7 +180,7 @@
       "217.172.173.0/24",
       "217.172.174.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:e18::/48",
       "2001:aa8::/32",
       "2a00:e10::/32",

@@ -1,14 +1,17 @@
 {
-  "asn": 269843,
-  "handle": "BANTEL",
-  "description": "BANTEL SAC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269843,
+  "metadata" : {
+    "handle" : "BANTEL",
+    "description" : "BANTEL SAC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.250.115.0/24",
       "38.250.118.0/23",
       "45.189.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:e0::/45",
       "2803:e0:8::/46",
       "2803:e0:c::/47"

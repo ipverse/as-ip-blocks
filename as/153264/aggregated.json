@@ -1,13 +1,16 @@
 {
-  "asn": 153264,
-  "handle": "STORMCON-AS-IN",
-  "description": "Stormnet Connect Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153264,
+  "metadata" : {
+    "handle" : "STORMCON-AS-IN",
+    "description" : "Stormnet Connect Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.144.172.0/23",
       "163.61.2.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:bb80::/48",
       "2001:df4:fd40::/48"
     ]

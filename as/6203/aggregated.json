@@ -1,9 +1,12 @@
 {
-  "asn": 6203,
-  "handle": "SCIPIO-TECH-6203",
-  "description": "Peace Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6203,
+  "metadata" : {
+    "handle" : "SCIPIO-TECH-6203",
+    "description" : "Peace Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.107.130.0/24",
       "207.65.0.0/19",
       "207.65.40.0/24",
@@ -20,6 +23,6 @@
       "216.153.16.0/21",
       "216.153.32.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

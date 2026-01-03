@@ -1,9 +1,12 @@
 {
-  "asn": 49935,
-  "handle": "SMARTEYE",
-  "description": "SmartEye B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49935,
+  "metadata" : {
+    "handle" : "SMARTEYE",
+    "description" : "SmartEye B.V",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.172.140.0/23",
       "83.172.144.0/22",
       "83.172.148.0/24",
@@ -12,7 +15,7 @@
       "185.135.191.0/24",
       "195.62.90.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:1740::/29"
     ]
   }

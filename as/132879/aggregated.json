@@ -1,12 +1,15 @@
 {
-  "asn": 132879,
-  "handle": "RMU-AS-AP",
-  "description": "Rajabhat Mahasarakham University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132879,
+  "metadata" : {
+    "handle" : "RMU-AS-AP",
+    "description" : "Rajabhat Mahasarakham University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.29.22.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:3c8:a702::/48"
     ]
   }

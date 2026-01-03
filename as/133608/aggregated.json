@@ -1,12 +1,15 @@
 {
-  "asn": 133608,
-  "handle": "LIVERTON1-AS-AP",
-  "description": "Liverton Security",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133608,
+  "metadata" : {
+    "handle" : "LIVERTON1-AS-AP",
+    "description" : "Liverton Security",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.172.233.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:dac0:2::/48"
     ]
   }

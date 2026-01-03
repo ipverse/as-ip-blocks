@@ -1,9 +1,12 @@
 {
-  "asn": 393349,
-  "handle": "EA-SANTA-CLARA",
-  "description": "Electronic Arts Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393349,
+  "metadata" : {
+    "handle" : "EA-SANTA-CLARA",
+    "description" : "Electronic Arts Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.153.0.0/20",
       "159.153.60.0/23",
       "159.153.88.0/23",
@@ -13,6 +16,6 @@
       "159.153.204.0/23",
       "159.153.222.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

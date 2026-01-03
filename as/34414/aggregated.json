@@ -1,9 +1,12 @@
 {
-  "asn": 34414,
-  "handle": "NOKIA-APAC",
-  "description": "Nokia Oyj",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34414,
+  "metadata" : {
+    "handle" : "NOKIA-APAC",
+    "description" : "Nokia Oyj",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.228.104.0/24",
       "131.228.108.0/24",
       "131.228.110.0/24",
@@ -15,7 +18,7 @@
       "203.17.66.0/24",
       "203.62.196.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8a04::/44",
       "2a00:8a04:8000::/44",
       "2a03:5344::/44",

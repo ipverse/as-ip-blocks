@@ -1,12 +1,15 @@
 {
-  "asn": 52599,
-  "handle": "A-REDE-TELECOM",
-  "description": "A Rede Telecom LTDA ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52599,
+  "metadata" : {
+    "handle" : "A-REDE-TELECOM",
+    "description" : "A Rede Telecom LTDA ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.197.32.0/22",
       "177.124.40.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

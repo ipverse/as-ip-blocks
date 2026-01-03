@@ -1,11 +1,14 @@
 {
-  "asn": 206010,
-  "handle": "RFS",
-  "description": "Umbra Service Center Management",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206010,
+  "metadata" : {
+    "handle" : "RFS",
+    "description" : "Umbra Service Center Management",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.198.144.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

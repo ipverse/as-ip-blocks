@@ -1,14 +1,17 @@
 {
-  "asn": 272011,
-  "handle": "TELEMARCH",
-  "description": "TELEMARCH S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272011,
+  "metadata" : {
+    "handle" : "TELEMARCH",
+    "description" : "TELEMARCH S.R.L",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.59.42.0/24",
       "38.51.48.0/23",
       "154.88.189.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:d910::/32"
     ]
   }

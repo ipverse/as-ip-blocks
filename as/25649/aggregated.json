@@ -1,9 +1,12 @@
 {
-  "asn": 25649,
-  "handle": "AYERA-AS",
-  "description": "AYERA TECHNOLOGIES INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25649,
+  "metadata" : {
+    "handle" : "AYERA-AS",
+    "description" : "AYERA TECHNOLOGIES INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.242.160.0/20",
       "74.112.192.0/21",
       "74.202.195.0/24",
@@ -29,7 +32,7 @@
       "216.84.200.0/21",
       "216.84.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fa38::/32"
     ]
   }

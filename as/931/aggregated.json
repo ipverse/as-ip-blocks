@@ -1,9 +1,12 @@
 {
-  "asn": 931,
-  "handle": "AS-HYONIX-US",
-  "description": "Hyonix",
-  "subnets": {
-    "ipv4": [
+  "asn" : 931,
+  "metadata" : {
+    "handle" : "AS-HYONIX-US",
+    "description" : "Hyonix",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.226.52.0/22",
       "5.226.138.0/24",
       "5.252.165.0/24",
@@ -81,7 +84,7 @@
       "217.146.81.0/24",
       "217.146.88.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:3a60:1500::/40",
       "2401:3a60:3100::/40",
       "2401:3a60:3300::/40",

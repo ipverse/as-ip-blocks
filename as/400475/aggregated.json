@@ -1,9 +1,12 @@
 {
-  "asn": 400475,
-  "handle": "NUCLEARFALLOUT-DAL",
-  "description": "Nuclearfallout Enterprises Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400475,
+  "metadata" : {
+    "handle" : "NUCLEARFALLOUT-DAL",
+    "description" : "Nuclearfallout Enterprises Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.91.114.0/24",
       "74.91.120.0/24",
       "74.91.126.0/24",
@@ -11,7 +14,7 @@
       "162.248.90.0/23",
       "192.223.29.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:6ac0:5000::/36"
     ]
   }

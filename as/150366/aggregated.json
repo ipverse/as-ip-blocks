@@ -1,12 +1,15 @@
 {
-  "asn": 150366,
-  "handle": "DEMAE-CAN-NW",
-  "description": "demae-can co. ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150366,
+  "metadata" : {
+    "handle" : "DEMAE-CAN-NW",
+    "description" : "demae-can co. ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.134.234.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:fba0::/32"
     ]
   }

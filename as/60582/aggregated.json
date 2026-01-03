@@ -1,14 +1,17 @@
 {
-  "asn": 60582,
-  "handle": "WINTHER-AS",
-  "description": "Winther Wireless AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60582,
+  "metadata" : {
+    "handle" : "WINTHER-AS",
+    "description" : "Winther Wireless AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.234.100.0/23",
       "193.234.156.0/23",
       "193.235.20.0/23",
       "194.68.81.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

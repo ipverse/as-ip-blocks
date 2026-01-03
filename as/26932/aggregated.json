@@ -1,9 +1,12 @@
 {
-  "asn": 26932,
-  "handle": "HUBNET",
-  "description": "BRAVO TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26932,
+  "metadata" : {
+    "handle" : "HUBNET",
+    "description" : "BRAVO TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.133.220.0/24",
       "38.74.16.0/20",
       "38.80.88.0/22",
@@ -23,6 +26,6 @@
       "192.64.128.0/20",
       "199.83.160.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

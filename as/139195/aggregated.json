@@ -1,9 +1,12 @@
 {
-  "asn": 139195,
-  "handle": "SEANSMEDIAPVTLTD-AS-AP",
-  "description": "Seans Media Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139195,
+  "metadata" : {
+    "handle" : "SEANSMEDIAPVTLTD-AS-AP",
+    "description" : "Seans Media Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.183.101.0/24",
       "103.42.73.0/24",
       "103.42.74.0/23",
@@ -13,7 +16,7 @@
       "103.189.216.0/23",
       "119.161.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:4900::/48",
       "2404:e740::/32"
     ]

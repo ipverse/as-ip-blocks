@@ -1,9 +1,12 @@
 {
-  "asn": 25019,
-  "handle": "SAUDINETSTC-AS",
-  "description": "Saudi Telecom Company JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25019,
+  "metadata" : {
+    "handle" : "SAUDINETSTC-AS",
+    "description" : "Saudi Telecom Company JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.88.0.0/14",
       "5.41.0.0/16",
       "5.156.0.0/16",
@@ -143,7 +146,7 @@
       "212.118.128.0/19",
       "212.215.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:16a0:1::/48",
       "2001:16a0:2::/47",
       "2001:16a0:6000::/48",

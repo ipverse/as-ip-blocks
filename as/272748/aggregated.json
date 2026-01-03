@@ -1,11 +1,14 @@
 {
-  "asn": 272748,
-  "handle": "RIVERNET-ISP",
-  "description": "RiverNET ISP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272748,
+  "metadata" : {
+    "handle" : "RIVERNET-ISP",
+    "description" : "RiverNET ISP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.226.90.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

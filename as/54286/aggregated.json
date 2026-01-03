@@ -1,13 +1,16 @@
 {
-  "asn": 54286,
-  "handle": "AS-TAIPEI-ARIN",
-  "description": "TAIPEI101 NETWORK LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54286,
+  "metadata" : {
+    "handle" : "AS-TAIPEI-ARIN",
+    "description" : "TAIPEI101 NETWORK LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.147.120.0/24",
       "64.49.28.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:faa8:8b::/48"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 42264,
-  "handle": "ITFUSION-AS",
-  "description": "ITFUSION SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42264,
+  "metadata" : {
+    "handle" : "ITFUSION-AS",
+    "description" : "ITFUSION SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.33.24.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 15347,
-  "handle": "IBEX-GLOBAL-SOLUTIONS",
-  "description": "IBEX Global Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15347,
+  "metadata" : {
+    "handle" : "15347",
+    "description" : "IBEX Global Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.9.198.0/23",
       "38.133.204.0/23",
       "63.161.164.0/22",
@@ -15,6 +18,6 @@
       "208.192.204.0/22",
       "221.132.119.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 23191,
-  "handle": "LEMOYNE",
-  "description": "Le Moyne College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23191,
+  "metadata" : {
+    "handle" : "LEMOYNE",
+    "description" : "Le Moyne College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.231.122.0/23",
       "192.231.124.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

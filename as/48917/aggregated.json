@@ -1,9 +1,12 @@
 {
-  "asn": 48917,
-  "handle": "OPTINETYAMBOL",
-  "description": "Optinet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48917,
+  "metadata" : {
+    "handle" : "OPTINETYAMBOL",
+    "description" : "Optinet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.204.158.0/24",
       "78.83.128.0/22",
       "78.83.132.0/23",
@@ -25,6 +28,6 @@
       "130.185.222.0/24",
       "130.185.240.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

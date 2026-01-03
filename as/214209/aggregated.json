@@ -1,9 +1,12 @@
 {
-  "asn": 214209,
-  "handle": "INTERNET-MAGNATE",
-  "description": "Internet Magnate (Pty) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214209,
+  "metadata" : {
+    "handle" : "INTERNET-MAGNATE",
+    "description" : "Internet Magnate (Pty) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.137.99.0/24",
       "82.153.138.0/24",
       "93.113.25.0/24",
@@ -12,7 +15,7 @@
       "143.20.185.0/24",
       "151.242.30.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:9400:7e11::/48"
     ]
   }

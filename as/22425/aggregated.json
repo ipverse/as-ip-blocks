@@ -1,11 +1,14 @@
 {
-  "asn": 22425,
-  "handle": "FL-AS",
-  "description": "Finish Line",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22425,
+  "metadata" : {
+    "handle" : "FL-AS",
+    "description" : "Finish Line",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.59.172.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

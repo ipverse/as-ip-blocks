@@ -1,15 +1,18 @@
 {
-  "asn": 9857,
-  "handle": "KOGAS-AS",
-  "description": "KOREA GAS CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9857,
+  "metadata" : {
+    "handle" : "KOGAS-AS",
+    "description" : "KOREA GAS CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.36.228.0/24",
       "210.124.38.0/24",
       "210.124.209.0/24",
       "210.124.210.0/23",
       "211.253.204.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

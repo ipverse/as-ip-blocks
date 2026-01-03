@@ -1,11 +1,14 @@
 {
-  "asn": 140327,
-  "handle": "ADVENTONE-AS-AP",
-  "description": "Advent One",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140327,
+  "metadata" : {
+    "handle" : "ADVENTONE-AS-AP",
+    "description" : "Advent One",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.16.64.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

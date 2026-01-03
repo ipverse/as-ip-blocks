@@ -1,11 +1,14 @@
 {
-  "asn": 23633,
-  "handle": "LOCAL-IX",
-  "description": "Niigata Communication Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23633,
+  "metadata" : {
+    "handle" : "LOCAL-IX",
+    "description" : "Niigata Communication Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.59.144.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 15692,
-  "handle": "RAZORBLUE",
-  "description": "Razorblue Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15692,
+  "metadata" : {
+    "handle" : "RAZORBLUE",
+    "description" : "Razorblue Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.105.0.0/24",
       "86.105.225.0/24",
       "89.37.68.0/23",
@@ -14,7 +17,7 @@
       "188.215.28.0/23",
       "193.169.192.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:f540::/30"
     ]
   }

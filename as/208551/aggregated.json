@@ -1,13 +1,16 @@
 {
-  "asn": 208551,
-  "handle": "AABENRAAKOMMUNE",
-  "description": "Aabenraa Kommune",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208551,
+  "metadata" : {
+    "handle" : "AABENRAAKOMMUNE",
+    "description" : "Aabenraa Kommune",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.129.212.0/22",
       "193.3.159.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:fb80::/29"
     ]
   }

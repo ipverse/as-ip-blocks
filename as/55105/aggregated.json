@@ -1,14 +1,17 @@
 {
-  "asn": 55105,
-  "handle": "NCC-ASN",
-  "description": "NORTHWEST COMMUNICATIONS COOPERATIVE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55105,
+  "metadata" : {
+    "handle" : "NCC-ASN",
+    "description" : "NORTHWEST COMMUNICATIONS COOPERATIVE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.131.176.0/20",
       "69.57.80.0/20",
       "150.252.208.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:800::/32"
     ]
   }

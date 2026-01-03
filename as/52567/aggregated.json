@@ -1,14 +1,17 @@
 {
-  "asn": 52567,
-  "handle": "NEXNET-FIBRA-INTERNET",
-  "description": "NEXNET FIBRA INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52567,
+  "metadata" : {
+    "handle" : "NEXNET-FIBRA-INTERNET",
+    "description" : "NEXNET FIBRA INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.86.56.0/22",
       "177.86.60.0/23",
       "177.86.62.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8e54::/32"
     ]
   }

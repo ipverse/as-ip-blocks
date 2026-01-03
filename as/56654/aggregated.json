@@ -1,9 +1,12 @@
 {
-  "asn": 56654,
-  "handle": "AS56654",
-  "description": "Infinity Telecom SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56654,
+  "metadata" : {
+    "handle" : "AS56654",
+    "description" : "Infinity Telecom SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.81.68.0/22",
       "81.181.250.0/24",
       "85.204.164.0/22",
@@ -14,7 +17,7 @@
       "188.214.244.0/22",
       "188.214.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:f980::/29"
     ]
   }

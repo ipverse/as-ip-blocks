@@ -1,9 +1,12 @@
 {
-  "asn": 52000,
-  "handle": "MIRHOSTING",
-  "description": "MIRhosting B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52000,
+  "metadata" : {
+    "handle" : "MIRHOSTING",
+    "description" : "MIRhosting B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.180.97.0/24",
       "31.15.19.0/24",
       "31.184.242.0/24",
@@ -32,7 +35,7 @@
       "195.210.8.0/24",
       "217.196.100.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:740:5f::/48",
       "2a03:afc0:1::/48",
       "2a03:afc0:2::/47",

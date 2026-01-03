@@ -1,13 +1,16 @@
 {
-  "asn": 267357,
-  "handle": "LIVENET-TELECOM",
-  "description": "Livenet telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267357,
+  "metadata" : {
+    "handle" : "LIVENET-TELECOM",
+    "description" : "Livenet telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.234.104.0/22",
       "131.196.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4c38::/32"
     ]
   }

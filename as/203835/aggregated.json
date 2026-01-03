@@ -1,13 +1,16 @@
 {
-  "asn": 203835,
-  "handle": "SAMBATEL",
-  "description": "SAMBATEL CONSULTING SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203835,
+  "metadata" : {
+    "handle" : "SAMBATEL",
+    "description" : "SAMBATEL CONSULTING SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.215.98.0/23",
       "185.254.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:4fc0::/29"
     ]
   }

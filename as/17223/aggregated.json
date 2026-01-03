@@ -1,9 +1,12 @@
 {
-  "asn": 17223,
-  "handle": "DATABANK-LATISYS",
-  "description": "Latisys-Chicago LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17223,
+  "metadata" : {
+    "handle" : "DATABANK-LATISYS",
+    "description" : "Latisys-Chicago LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.15.184.0/22",
       "64.64.192.0/21",
       "67.217.174.0/24",
@@ -30,7 +33,7 @@
       "207.223.32.0/20",
       "208.78.168.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:8f00::/32"
     ]
   }

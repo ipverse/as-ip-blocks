@@ -1,12 +1,15 @@
 {
-  "asn": 9643,
-  "handle": "SIGNGATE-AS",
-  "description": "KICA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9643,
+  "metadata" : {
+    "handle" : "SIGNGATE-AS",
+    "description" : "KICA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "114.108.186.0/24",
       "211.35.96.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

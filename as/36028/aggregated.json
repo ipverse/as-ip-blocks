@@ -1,12 +1,15 @@
 {
-  "asn": 36028,
-  "handle": "TYSON-ENT-DC-VA1",
-  "description": "NEW CCH LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36028,
+  "metadata" : {
+    "handle" : "TYSON-ENT-DC-VA1",
+    "description" : "NEW CCH LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.254.67.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:1880:1400::/40"
     ]
   }

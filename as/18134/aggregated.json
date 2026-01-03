@@ -1,9 +1,12 @@
 {
-  "asn": 18134,
-  "handle": "KITANET",
-  "description": "JCOM Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18134,
+  "metadata" : {
+    "handle" : "KITANET",
+    "description" : "JCOM Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.55.196.0/22",
       "111.125.144.0/21",
       "113.197.16.0/20",
@@ -13,6 +16,6 @@
       "219.100.24.0/22",
       "219.112.128.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

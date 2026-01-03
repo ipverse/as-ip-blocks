@@ -1,11 +1,14 @@
 {
-  "asn": 263229,
-  "handle": "NAP-PERU",
-  "description": "NAP Peru",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263229,
+  "metadata" : {
+    "handle" : "NAP-PERU",
+    "description" : "NAP Peru",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "201.131.67.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

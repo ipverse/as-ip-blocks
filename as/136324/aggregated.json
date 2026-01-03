@@ -1,13 +1,16 @@
 {
-  "asn": 136324,
-  "handle": "IDBIBANK-AS-IN",
-  "description": "Idbi Bank Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136324,
+  "metadata" : {
+    "handle" : "IDBIBANK-AS-IN",
+    "description" : "Idbi Bank Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.93.44.0/23",
       "103.93.83.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:3700::/48"
     ]
   }

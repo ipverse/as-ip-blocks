@@ -1,13 +1,16 @@
 {
-  "asn": 203208,
-  "handle": "CTU-AS4-2",
-  "description": "Czech Telecommunication Office",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203208,
+  "metadata" : {
+    "handle" : "CTU-AS4-2",
+    "description" : "Czech Telecommunication Office",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.68.212.0/23",
       "185.68.214.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:1c40::/30",
       "2a05:1c44::/31",
       "2a05:1c46::/32"

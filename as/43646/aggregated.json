@@ -1,9 +1,12 @@
 {
-  "asn": 43646,
-  "handle": "TDF",
-  "description": "TDF SASU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43646,
+  "metadata" : {
+    "handle" : "TDF",
+    "description" : "TDF SASU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.197.164.0/22",
       "94.247.232.0/21",
       "95.81.128.0/18",
@@ -12,7 +15,7 @@
       "213.205.96.0/19",
       "217.71.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1080::/32",
       "2a02:3e8::/32",
       "2a02:e10::/32",

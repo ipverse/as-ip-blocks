@@ -1,9 +1,12 @@
 {
-  "asn": 57468,
-  "handle": "AZA-TELECOM",
-  "description": "AZA TELECOM SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57468,
+  "metadata" : {
+    "handle" : "AZA-TELECOM",
+    "description" : "AZA TELECOM SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.15.220.0/22",
       "185.6.208.0/22",
       "185.144.32.0/22",
@@ -12,6 +15,6 @@
       "193.28.190.0/24",
       "194.60.240.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

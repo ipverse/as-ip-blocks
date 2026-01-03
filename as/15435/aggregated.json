@@ -1,9 +1,12 @@
 {
-  "asn": 15435,
-  "handle": "KABELFOON",
-  "description": "DELTA Fiber Nederland B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15435,
+  "metadata" : {
+    "handle" : "KABELFOON",
+    "description" : "DELTA Fiber Nederland B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.45.0.0/16",
       "62.238.128.0/17",
       "81.172.128.0/17",
@@ -20,7 +23,7 @@
       "217.63.64.0/19",
       "217.102.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:45c::/48",
       "2001:67c:2c24::/48",
       "2001:67c:2ef0::/48",

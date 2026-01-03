@@ -1,12 +1,15 @@
 {
-  "asn": 203969,
-  "handle": "YMC-AS",
-  "description": "YMC AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203969,
+  "metadata" : {
+    "handle" : "YMC-AS",
+    "description" : "YMC AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.110.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:5880:dd::/48"
     ]
   }

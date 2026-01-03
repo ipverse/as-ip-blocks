@@ -1,9 +1,12 @@
 {
-  "asn": 20054,
-  "handle": "AS13832",
-  "description": "Oracle Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20054,
+  "metadata" : {
+    "handle" : "AS13832",
+    "description" : "Oracle Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.87.128.0/21",
       "139.87.136.0/22",
       "139.87.144.0/22",
@@ -24,7 +27,7 @@
       "155.248.112.0/21",
       "155.248.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2603:c0f8::/39",
       "2603:c0f8:200::/40",
       "2603:c0f8:1000::/38",

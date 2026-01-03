@@ -1,9 +1,12 @@
 {
-  "asn": 33480,
-  "handle": "WEBWERKSAS1",
-  "description": "Web Werks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33480,
+  "metadata" : {
+    "handle" : "WEBWERKSAS1",
+    "description" : "Web Werks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.7.148.0/23",
       "80.91.87.0/24",
       "103.52.180.0/24",
@@ -39,7 +42,7 @@
       "208.116.242.0/23",
       "209.120.245.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:7500:100::/40",
       "2401:7500:ff6::/47",
       "2401:7500:1003::/48",

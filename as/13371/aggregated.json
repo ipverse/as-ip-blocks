@@ -1,16 +1,19 @@
 {
-  "asn": 13371,
-  "handle": "DUKE-INTERCHANGE",
-  "description": "Duke University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13371,
+  "metadata" : {
+    "handle" : "DUKE-INTERCHANGE",
+    "description" : "Duke University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.159.64.0/18",
       "152.3.0.0/16",
       "152.16.0.0/16",
       "152.22.224.0/20",
       "198.86.29.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:2704:100::/48",
       "2620:0:690::/47"
     ]

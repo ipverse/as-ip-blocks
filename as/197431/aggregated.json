@@ -1,15 +1,18 @@
 {
-  "asn": 197431,
-  "handle": "GEMIUS-NETWORK",
-  "description": "GEMIUS SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197431,
+  "metadata" : {
+    "handle" : "GEMIUS-NETWORK",
+    "description" : "GEMIUS SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.232.225.0/24",
       "85.232.246.0/24",
       "91.221.126.0/23",
       "213.189.48.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2634::/48"
     ]
   }

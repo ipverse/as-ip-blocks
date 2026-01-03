@@ -1,11 +1,14 @@
 {
-  "asn": 401102,
-  "handle": "WATCHFIRE-HQ-ASN-1",
-  "description": "Watchfire",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401102,
+  "metadata" : {
+    "handle" : "WATCHFIRE-HQ-ASN-1",
+    "description" : "Watchfire",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.149.6.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

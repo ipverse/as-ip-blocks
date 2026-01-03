@@ -1,9 +1,12 @@
 {
-  "asn": 9245,
-  "handle": "COMPASS-NZ-AP",
-  "description": "Compass Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9245,
+  "metadata" : {
+    "handle" : "COMPASS-NZ-AP",
+    "description" : "Compass Communications Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.9.216.0/22",
       "103.211.120.0/22",
       "117.104.176.0/21",
@@ -16,7 +19,7 @@
       "202.174.6.0/23",
       "203.152.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:8400::/32"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 26490,
-  "handle": "PIKE-EXTERNAL-BGP",
-  "description": "Pike Enterprises LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26490,
+  "metadata" : {
+    "handle" : "PIKE-EXTERNAL-BGP",
+    "description" : "Pike Enterprises LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.218.24.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 32329,
-  "handle": "MONKEYBRAINS",
-  "description": "Another Corporate ISP LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32329,
+  "metadata" : {
+    "handle" : "MONKEYBRAINS",
+    "description" : "Another Corporate ISP LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.135.32.0/24",
       "44.4.57.0/24",
       "52.119.112.0/20",
@@ -31,7 +34,7 @@
       "208.69.40.0/22",
       "208.90.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f598::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 401443,
-  "handle": "WAP-AC",
-  "description": "WAP.AC LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401443,
+  "metadata" : {
+    "handle" : "WAP-AC",
+    "description" : "WAP.AC LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.26.140.0/24",
       "23.94.192.0/24",
       "23.128.164.0/24",
@@ -20,7 +23,7 @@
       "185.151.146.0/24",
       "216.238.55.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:814:f0ff::/48"
     ]
   }

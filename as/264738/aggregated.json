@@ -1,9 +1,12 @@
 {
-  "asn": 264738,
-  "handle": "SEBASTIAN-SOUTO",
-  "description": "Sebastian Souto (SSSERVICIOS)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264738,
+  "metadata" : {
+    "handle" : "SEBASTIAN-SOUTO",
+    "description" : "Sebastian Souto (SSSERVICIOS)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.225.222.0/23",
       "138.118.212.0/22",
       "167.249.54.0/23",
@@ -11,7 +14,7 @@
       "170.233.116.0/22",
       "181.191.142.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:5440::/48",
       "2803:5440:ca::/48",
       "2803:5440:aca::/48",

@@ -1,12 +1,15 @@
 {
-  "asn": 42231,
-  "handle": "PRSBM-AS",
-  "description": "PJSC Promsvyazbank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42231,
+  "metadata" : {
+    "handle" : "PRSBM-AS",
+    "description" : "PJSC Promsvyazbank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.223.63.0/24",
       "193.200.10.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

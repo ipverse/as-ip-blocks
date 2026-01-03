@@ -1,14 +1,17 @@
 {
-  "asn": 24465,
-  "handle": "KSEC-AP",
-  "description": "Kasikorn Securities PCL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24465,
+  "metadata" : {
+    "handle" : "KSEC-AP",
+    "description" : "Kasikorn Securities PCL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.149.104.0/24",
       "202.183.134.0/24",
       "210.1.38.0/24",
       "210.1.53.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

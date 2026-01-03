@@ -1,9 +1,12 @@
 {
-  "asn": 205080,
-  "handle": "SITA-CORPORATE",
-  "description": "Societe Internationale de Telecommunications Aeronautiques",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205080,
+  "metadata" : {
+    "handle" : "SITA-CORPORATE",
+    "description" : "Societe Internationale de Telecommunications Aeronautiques",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "57.188.4.0/24",
       "57.188.7.0/24",
       "57.188.8.0/24",
@@ -23,7 +26,7 @@
       "57.188.56.0/23",
       "57.188.61.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:90c0:1000::/42",
       "2a0a:90c0:1043::/48",
       "2a0a:90c0:1047::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 396123,
-  "handle": "WAVEBAND-LLC",
-  "description": "WAVE.BAND LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396123,
+  "metadata" : {
+    "handle" : "WAVEBAND-LLC",
+    "description" : "WAVE.BAND LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.137.16.0/24",
       "38.105.18.0/24",
       "38.146.160.0/24",
@@ -11,6 +14,6 @@
       "52.124.1.0/24",
       "216.176.205.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

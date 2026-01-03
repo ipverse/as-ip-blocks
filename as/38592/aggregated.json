@@ -1,9 +1,12 @@
 {
-  "asn": 38592,
-  "handle": "CTGONLINE-AS-AP",
-  "description": "Chittagong Online Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38592,
+  "metadata" : {
+    "handle" : "CTGONLINE-AS-AP",
+    "description" : "Chittagong Online Limited.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "101.2.160.0/21",
       "103.5.232.0/22",
       "119.10.168.0/21",
@@ -11,7 +14,7 @@
       "202.65.168.0/21",
       "203.80.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:2300::/32"
     ]
   }

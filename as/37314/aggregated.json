@@ -1,9 +1,12 @@
 {
-  "asn": 37314,
-  "handle": "SYREX-PTY-LTD",
-  "description": "Inq Digital South Africa (Pty) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37314,
+  "metadata" : {
+    "handle" : "SYREX-PTY-LTD",
+    "description" : "Inq Digital South Africa (Pty) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.79.20.0/22",
       "102.69.236.0/23",
       "102.219.224.0/23",
@@ -12,7 +15,7 @@
       "168.155.16.0/24",
       "192.70.200.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f1a0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 13056,
-  "handle": "RT-TMB-AS",
-  "description": "PJSC Rostelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13056,
+  "metadata" : {
+    "handle" : "RT-TMB-AS",
+    "description" : "PJSC Rostelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.76.160.0/19",
       "78.132.128.0/17",
       "91.202.20.0/22",
@@ -12,6 +15,6 @@
       "194.226.132.0/24",
       "213.135.128.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 50842,
-  "handle": "SERVERFORGE",
-  "description": "ServerForge LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50842,
+  "metadata" : {
+    "handle" : "SERVERFORGE",
+    "description" : "ServerForge LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.12.241.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fb68:40::/42",
       "2602:fb68:80::/42"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 3807,
-  "handle": "UMTNET-ASN",
-  "description": "University of Montana",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3807,
+  "metadata" : {
+    "handle" : "UMTNET-ASN",
+    "description" : "University of Montana",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "150.131.0.0/16",
       "192.73.48.0/24",
       "192.160.47.0/24",
@@ -27,7 +30,7 @@
       "207.196.192.0/20",
       "207.196.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:104:8000::/40"
     ]
   }

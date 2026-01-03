@@ -1,12 +1,15 @@
 {
-  "asn": 266153,
-  "handle": "WEBLINE-TELECOM",
-  "description": "WebLine Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266153,
+  "metadata" : {
+    "handle" : "WEBLINE-TELECOM",
+    "description" : "WebLine Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.196.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3b80::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 55284,
-  "handle": "USAC-1",
-  "description": "Universal Service Administrative Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55284,
+  "metadata" : {
+    "handle" : "USAC-1",
+    "description" : "Universal Service Administrative Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.90.137.0/24",
       "198.22.178.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

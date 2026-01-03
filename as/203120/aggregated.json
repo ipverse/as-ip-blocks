@@ -1,12 +1,15 @@
 {
-  "asn": 203120,
-  "handle": "GTGL",
-  "description": "Global Telecom Group LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203120,
+  "metadata" : {
+    "handle" : "GTGL",
+    "description" : "Global Telecom Group LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.210.246.0/23",
       "185.144.180.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

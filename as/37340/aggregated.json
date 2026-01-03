@@ -1,9 +1,12 @@
 {
-  "asn": 37340,
-  "handle": "SPECTRANET",
-  "description": "SPECTRANET LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37340,
+  "metadata" : {
+    "handle" : "SPECTRANET",
+    "description" : "SPECTRANET LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.217.0.0/17",
       "154.118.0.0/18",
       "154.118.64.0/21",
@@ -17,7 +20,7 @@
       "197.255.168.0/22",
       "197.255.172.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f5a0::/32"
     ]
   }

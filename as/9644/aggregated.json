@@ -1,9 +1,12 @@
 {
-  "asn": 9644,
-  "handle": "SKTELECOM-NET-AS",
-  "description": "SK Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9644,
+  "metadata" : {
+    "handle" : "SKTELECOM-NET-AS",
+    "description" : "SK Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.160.0.0/12",
       "27.176.0.0/13",
       "42.16.0.0/12",
@@ -39,7 +42,7 @@
       "220.103.0.0/16",
       "223.32.0.0/11"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:2d8::/32",
       "2001:f28::/32"
     ]

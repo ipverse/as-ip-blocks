@@ -1,9 +1,12 @@
 {
-  "asn": 58779,
-  "handle": "I4HKLIMITED-AS",
-  "description": "i4HK Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58779,
+  "metadata" : {
+    "handle" : "I4HKLIMITED-AS",
+    "description" : "i4HK Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.243.224.0/22",
       "43.252.168.0/22",
       "103.25.254.0/23",
@@ -20,7 +23,7 @@
       "122.115.76.0/24",
       "203.191.24.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:ef00::/32"
     ]
   }

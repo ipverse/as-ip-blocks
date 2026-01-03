@@ -1,12 +1,15 @@
 {
-  "asn": 45293,
-  "handle": "UT-AS-ID",
-  "description": "Universitas Terbuka",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45293,
+  "metadata" : {
+    "handle" : "UT-AS-ID",
+    "description" : "Universitas Terbuka",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.153.49.0/24",
       "203.217.140.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

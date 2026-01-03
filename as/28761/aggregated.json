@@ -1,9 +1,12 @@
 {
-  "asn": 28761,
-  "handle": "CRIMEACOM-LLC",
-  "description": "CrimeaCom South LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28761,
+  "metadata" : {
+    "handle" : "CRIMEACOM-LLC",
+    "description" : "CrimeaCom South LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.194.163.0/24",
       "91.224.30.0/23",
       "91.232.116.0/24",
@@ -18,7 +21,7 @@
       "195.3.244.0/22",
       "195.26.80.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:5840::/31"
     ]
   }

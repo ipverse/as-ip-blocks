@@ -1,16 +1,19 @@
 {
-  "asn": 25596,
-  "handle": "CAMBRIUM-AS",
-  "description": "Odido Netherlands B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25596,
+  "metadata" : {
+    "handle" : "CAMBRIUM-AS",
+    "description" : "Odido Netherlands B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.197.192.0/19",
       "84.245.0.0/19",
       "84.245.32.0/20",
       "185.6.48.0/22",
       "217.19.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:58::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 32255,
-  "handle": "PPLNET-AS",
-  "description": "PPL Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32255,
+  "metadata" : {
+    "handle" : "PPLNET-AS",
+    "description" : "PPL Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.155.6.0/24",
       "167.155.163.0/24",
       "167.155.169.0/24",
@@ -15,6 +18,6 @@
       "167.155.199.0/24",
       "192.152.88.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

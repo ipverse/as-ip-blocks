@@ -1,9 +1,12 @@
 {
-  "asn": 393340,
-  "handle": "COXAUTO",
-  "description": "Cox Enterprises Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393340,
+  "metadata" : {
+    "handle" : "COXAUTO",
+    "description" : "Cox Enterprises Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.70.56.0/24",
       "67.97.218.0/23",
       "67.97.222.0/23",
@@ -25,6 +28,6 @@
       "216.69.226.0/24",
       "216.69.228.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

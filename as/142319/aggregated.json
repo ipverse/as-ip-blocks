@@ -1,14 +1,17 @@
 {
-  "asn": 142319,
-  "handle": "IDNIC-VIBERLINK-AS-ID",
-  "description": "PT Telemedia Komunikasi Pratama",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142319,
+  "metadata" : {
+    "handle" : "IDNIC-VIBERLINK-AS-ID",
+    "description" : "PT Telemedia Komunikasi Pratama",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.26.188.0/23",
       "103.168.190.0/24",
       "103.186.35.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:c2c0::/48"
     ]
   }

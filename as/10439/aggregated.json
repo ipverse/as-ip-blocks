@@ -1,9 +1,12 @@
 {
-  "asn": 10439,
-  "handle": "CARINET",
-  "description": "CariNet Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10439,
+  "metadata" : {
+    "handle" : "CARINET",
+    "description" : "CariNet Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.240.192.0/18",
       "71.6.128.0/17",
       "135.84.216.0/24",
@@ -11,7 +14,7 @@
       "216.75.0.0/18",
       "216.98.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:ff10::/32"
     ]
   }

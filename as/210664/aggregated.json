@@ -1,12 +1,15 @@
 {
-  "asn": 210664,
-  "handle": "VNETX",
-  "description": "Virtua-Networks SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210664,
+  "metadata" : {
+    "handle" : "VNETX",
+    "description" : "Virtua-Networks SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.150.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:4b40::/32"
     ]
   }

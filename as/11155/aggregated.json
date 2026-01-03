@@ -1,12 +1,15 @@
 {
-  "asn": 11155,
-  "handle": "DELIGHTSPEED-01",
-  "description": "DE LightSpeed",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11155,
+  "metadata" : {
+    "handle" : "DELIGHTSPEED-01",
+    "description" : "DE LightSpeed",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.124.16.0/20",
       "162.118.64.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

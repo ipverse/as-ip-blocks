@@ -1,9 +1,12 @@
 {
-  "asn": 23188,
-  "handle": "WIN",
-  "description": "Wabash Independent Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23188,
+  "metadata" : {
+    "handle" : "WIN",
+    "description" : "Wabash Independent Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.153.16.0/22",
       "162.212.60.0/22",
       "199.102.152.0/22",
@@ -11,6 +14,6 @@
       "206.125.154.0/23",
       "206.125.156.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

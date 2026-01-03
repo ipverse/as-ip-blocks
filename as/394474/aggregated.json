@@ -1,9 +1,12 @@
 {
-  "asn": 394474,
-  "handle": "WHITELABELCOLO393",
-  "description": "WhiteLabelColo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394474,
+  "metadata" : {
+    "handle" : "WHITELABELCOLO393",
+    "description" : "WhiteLabelColo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.5.64.0/22",
       "167.250.108.0/22",
       "170.244.92.0/22",
@@ -11,6 +14,6 @@
       "191.102.128.0/18",
       "212.6.51.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

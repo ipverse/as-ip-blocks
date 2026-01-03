@@ -1,14 +1,17 @@
 {
-  "asn": 55555,
-  "handle": "DELION-AP",
-  "description": "Delion Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55555,
+  "metadata" : {
+    "handle" : "DELION-AP",
+    "description" : "Delion Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.245.28.0/22",
       "103.246.96.0/22",
       "180.200.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:b100::/32"
     ]
   }

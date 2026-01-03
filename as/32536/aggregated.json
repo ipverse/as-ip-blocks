@@ -1,12 +1,15 @@
 {
-  "asn": 32536,
-  "handle": "4WEB-CA",
-  "description": "4WEB.CA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32536,
+  "metadata" : {
+    "handle" : "4WEB-CA",
+    "description" : "4WEB.CA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.96.28.0/22",
       "199.180.28.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,16 +1,19 @@
 {
-  "asn": 8865,
-  "handle": "ASN-BIAMAN-EDU",
-  "description": "Politechnika Bialostocka",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8865,
+  "metadata" : {
+    "handle" : "ASN-BIAMAN-EDU",
+    "description" : "Politechnika Bialostocka",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.128.152.0/21",
       "82.139.128.0/19",
       "82.139.168.0/21",
       "82.139.176.0/21",
       "212.33.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1770::/33"
     ]
   }

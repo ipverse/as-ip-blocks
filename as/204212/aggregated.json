@@ -1,12 +1,15 @@
 {
-  "asn": 204212,
-  "handle": "AS-LYREG3",
-  "description": "La Lyre du G3",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204212,
+  "metadata" : {
+    "handle" : "AS-LYREG3",
+    "description" : "La Lyre du G3",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.106.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:6c80::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 4621,
-  "handle": "UNINET-AS-AP",
-  "description": "Office of Info.Tech. Admin. for Educational Development",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4621,
+  "metadata" : {
+    "handle" : "UNINET-AS-AP",
+    "description" : "Office of Info.Tech. Admin. for Educational Development",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.1.160.0/22",
       "182.93.128.0/17",
       "202.28.0.0/15",
@@ -15,7 +18,7 @@
       "203.158.232.0/21",
       "203.159.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:3c8::/32",
       "2403:6100::/32"
     ]

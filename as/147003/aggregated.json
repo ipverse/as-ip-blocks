@@ -1,9 +1,12 @@
 {
-  "asn": 147003,
-  "handle": "AITPL-AS-AP",
-  "description": "ALLIANCE INTELLIGENT TECHNOLOGIES PTE. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147003,
+  "metadata" : {
+    "handle" : "AITPL-AS-AP",
+    "description" : "ALLIANCE INTELLIGENT TECHNOLOGIES PTE. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.47.121.0/24",
       "104.234.15.0/24",
       "154.40.52.0/23",
@@ -15,6 +18,6 @@
       "206.237.127.0/24",
       "216.247.105.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

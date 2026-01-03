@@ -1,14 +1,17 @@
 {
-  "asn": 166,
-  "handle": "IDA-AS",
-  "description": "Institute for Defense Analyses",
-  "subnets": {
-    "ipv4": [
+  "asn" : 166,
+  "metadata" : {
+    "handle" : "IDA-AS",
+    "description" : "Institute for Defense Analyses",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.246.0.0/16",
       "164.217.0.0/16",
       "198.97.168.0/24",
       "198.133.241.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

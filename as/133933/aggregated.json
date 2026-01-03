@@ -1,9 +1,12 @@
 {
-  "asn": 133933,
-  "handle": "NETSAT1-PK",
-  "description": "NetSat Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133933,
+  "metadata" : {
+    "handle" : "NETSAT1-PK",
+    "description" : "NetSat Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.192.128.0/22",
       "14.192.132.0/23",
       "14.192.136.0/24",
@@ -20,7 +23,7 @@
       "103.48.24.0/23",
       "103.104.84.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:9ec0::/32"
     ]
   }

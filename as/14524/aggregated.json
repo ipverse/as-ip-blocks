@@ -1,13 +1,16 @@
 {
-  "asn": 14524,
-  "handle": "SERCO-NA",
-  "description": "SERCO NA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14524,
+  "metadata" : {
+    "handle" : "SERCO-NA",
+    "description" : "SERCO NA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.188.186.0/24",
       "208.156.64.0/22",
       "209.27.15.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

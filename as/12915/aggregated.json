@@ -1,12 +1,15 @@
 {
-  "asn": 12915,
-  "handle": "EPAG-AS",
-  "description": "EPAG Domainservices GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12915,
+  "metadata" : {
+    "handle" : "EPAG-AS",
+    "description" : "EPAG Domainservices GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.123.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:4000:8000::/48"
     ]
   }

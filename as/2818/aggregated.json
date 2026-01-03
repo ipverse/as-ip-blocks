@@ -1,13 +1,16 @@
 {
-  "asn": 2818,
-  "handle": "BBC",
-  "description": "BBC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2818,
+  "metadata" : {
+    "handle" : "BBC",
+    "description" : "BBC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.185.0.0/16",
       "212.58.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:41c0::/31",
       "2001:41c2::/32"
     ]

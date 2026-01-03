@@ -1,12 +1,15 @@
 {
-  "asn": 152919,
-  "handle": "SAIL-AS-AP",
-  "description": "ICONNECT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152919,
+  "metadata" : {
+    "handle" : "SAIL-AS-AP",
+    "description" : "ICONNECT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.22.184.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:a8e0::/32"
     ]
   }

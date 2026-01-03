@@ -1,14 +1,17 @@
 {
-  "asn": 11483,
-  "handle": "CONVIVA-AS",
-  "description": "Conviva Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11483,
+  "metadata" : {
+    "handle" : "CONVIVA-AS",
+    "description" : "Conviva Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.5.250.0/24",
       "8.15.246.0/24",
       "199.127.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:10b:7000::/47",
       "2620:10b:7002::/48"
     ]

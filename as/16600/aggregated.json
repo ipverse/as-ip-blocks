@@ -1,12 +1,15 @@
 {
-  "asn": 16600,
-  "handle": "UTHEALTHCENTER-TYLER",
-  "description": "University of Texas Health Science Center at Tyler",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16600,
+  "metadata" : {
+    "handle" : "UTHEALTHCENTER-TYLER",
+    "description" : "University of Texas Health Science Center at Tyler",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.114.128.0/17",
       "192.88.11.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

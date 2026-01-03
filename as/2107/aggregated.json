@@ -1,9 +1,12 @@
 {
-  "asn": 2107,
-  "handle": "ARNES-NET",
-  "description": "ARNES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2107,
+  "metadata" : {
+    "handle" : "ARNES-NET",
+    "description" : "ARNES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.200.0.0/17",
       "92.244.64.0/19",
       "95.87.128.0/18",
@@ -29,7 +32,7 @@
       "194.249.0.0/16",
       "212.235.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1470::/29"
     ]
   }

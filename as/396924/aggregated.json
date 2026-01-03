@@ -1,9 +1,12 @@
 {
-  "asn": 396924,
-  "handle": "SKYLANDS-NETWORKS",
-  "description": "Skylands Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396924,
+  "metadata" : {
+    "handle" : "SKYLANDS-NETWORKS",
+    "description" : "Skylands Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.141.82.0/24",
       "66.246.149.0/24",
       "66.246.232.0/24",
@@ -12,7 +15,7 @@
       "208.86.84.0/22",
       "216.118.88.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:f940::/32"
     ]
   }

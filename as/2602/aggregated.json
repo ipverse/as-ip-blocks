@@ -1,9 +1,12 @@
 {
-  "asn": 2602,
-  "handle": "RESTENA",
-  "description": "Fondation RESTENA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2602,
+  "metadata" : {
+    "handle" : "RESTENA",
+    "description" : "Fondation RESTENA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.64.0.0/16",
       "185.149.136.0/22",
       "192.103.2.0/24",
@@ -11,7 +14,7 @@
       "193.168.1.0/24",
       "193.168.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:a18::/29"
     ]
   }

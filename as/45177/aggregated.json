@@ -1,9 +1,12 @@
 {
-  "asn": 45177,
-  "handle": "DEVOLI-AS-AP",
-  "description": "Devoli LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45177,
+  "metadata" : {
+    "handle" : "DEVOLI-AS-AP",
+    "description" : "Devoli LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.1.32.0/19",
       "45.64.48.0/22",
       "101.110.112.0/22",
@@ -30,7 +33,7 @@
       "203.84.224.0/20",
       "203.211.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:ee80::/32",
       "2401:1880::/32",
       "2401:7000::/32",

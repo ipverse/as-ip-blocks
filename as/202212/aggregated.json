@@ -1,12 +1,15 @@
 {
-  "asn": 202212,
-  "handle": "DWEBS-AS",
-  "description": "DWebs Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202212,
+  "metadata" : {
+    "handle" : "DWEBS-AS",
+    "description" : "DWebs Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.50.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:a860::/32"
     ]
   }

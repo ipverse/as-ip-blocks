@@ -1,12 +1,15 @@
 {
-  "asn": 268935,
-  "handle": "VIBENET-TELECOM",
-  "description": "VibeNet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268935,
+  "metadata" : {
+    "handle" : "VIBENET-TELECOM",
+    "description" : "VibeNet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.176.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5cdc::/32"
     ]
   }

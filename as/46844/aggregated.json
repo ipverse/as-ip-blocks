@@ -1,9 +1,12 @@
 {
-  "asn": 46844,
-  "handle": "SHARKTECH",
-  "description": "Sharktech",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46844,
+  "metadata" : {
+    "handle" : "SHARKTECH",
+    "description" : "Sharktech",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.1.20.0/22",
       "45.58.128.0/18",
       "64.32.0.0/19",
@@ -47,7 +50,7 @@
       "212.116.236.0/24",
       "216.18.229.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fed2:708f::/48",
       "2604:c980:4600::/40",
       "2610:150::/32",

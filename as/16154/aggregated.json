@@ -1,9 +1,12 @@
 {
-  "asn": 16154,
-  "handle": "TELECOMS-AS",
-  "description": "Telecoms-Net Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16154,
+  "metadata" : {
+    "handle" : "TELECOMS-AS",
+    "description" : "Telecoms-Net Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.95.29.0/24",
       "80.95.30.0/24",
       "88.213.195.0/24",
@@ -19,7 +22,7 @@
       "217.79.92.0/24",
       "217.79.95.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:7900::/32"
     ]
   }

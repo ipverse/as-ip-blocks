@@ -1,9 +1,12 @@
 {
-  "asn": 53443,
-  "handle": "CITY-OF-WINNIPEG",
-  "description": "City of Winnipeg",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53443,
+  "metadata" : {
+    "handle" : "CITY-OF-WINNIPEG",
+    "description" : "City of Winnipeg",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.197.129.0/24",
       "192.197.130.0/23",
       "192.197.132.0/24",
@@ -11,6 +14,6 @@
       "198.163.48.0/20",
       "198.163.68.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

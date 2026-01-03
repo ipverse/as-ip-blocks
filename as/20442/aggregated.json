@@ -1,9 +1,12 @@
 {
-  "asn": 20442,
-  "handle": "YNHHSC",
-  "description": "Yale-New Haven Health Services Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20442,
+  "metadata" : {
+    "handle" : "YNHHSC",
+    "description" : "Yale-New Haven Health Services Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.252.240.0/21",
       "74.113.112.0/21",
       "75.5.201.0/24",
@@ -15,6 +18,6 @@
       "204.90.81.0/24",
       "205.167.18.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

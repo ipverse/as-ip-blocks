@@ -1,12 +1,15 @@
 {
-  "asn": 154006,
-  "handle": "KHBNETWORKS-AS-AP",
-  "description": "KHB Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 154006,
+  "metadata" : {
+    "handle" : "KHBNETWORKS-AS-AP",
+    "description" : "KHB Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.101.100.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:cd40::/48"
     ]
   }

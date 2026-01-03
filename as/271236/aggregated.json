@@ -1,12 +1,15 @@
 {
-  "asn": 271236,
-  "handle": "SUANET-TELECOM",
-  "description": "Suanet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271236,
+  "metadata" : {
+    "handle" : "SUANET-TELECOM",
+    "description" : "Suanet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "201.54.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7858::/32"
     ]
   }

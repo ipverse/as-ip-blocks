@@ -1,12 +1,15 @@
 {
-  "asn": 16913,
-  "handle": "LOYNO-EDU",
-  "description": "Loyola University New Orleans",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16913,
+  "metadata" : {
+    "handle" : "LOYNO-EDU",
+    "description" : "Loyola University New Orleans",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.164.0.0/19",
       "141.164.64.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

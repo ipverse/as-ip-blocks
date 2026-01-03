@@ -1,9 +1,12 @@
 {
-  "asn": 199081,
-  "handle": "LANCOM",
-  "description": "Lancom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199081,
+  "metadata" : {
+    "handle" : "LANCOM",
+    "description" : "Lancom Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.172.192.0/20",
       "45.66.185.0/24",
       "45.66.186.0/23",
@@ -29,7 +32,7 @@
       "185.232.240.0/22",
       "195.35.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:4fc0:4000::/46",
       "2a02:4fc0:4100::/40"
     ]

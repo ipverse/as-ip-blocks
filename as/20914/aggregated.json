@@ -1,12 +1,15 @@
 {
-  "asn": 20914,
-  "handle": "CCC-RHEINTAL",
-  "description": "Gluecklich GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20914,
+  "metadata" : {
+    "handle" : "CCC-RHEINTAL",
+    "description" : "Gluecklich GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.76.0.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ce8::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 9444,
-  "handle": "HKT-AS-AP",
-  "description": "Hong Kong Telecommunications (HKT) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9444,
+  "metadata" : {
+    "handle" : "HKT-AS-AP",
+    "description" : "Hong Kong Telecommunications (HKT) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.65.190.0/23",
       "116.48.213.0/24",
       "116.48.214.0/23",
@@ -11,6 +14,6 @@
       "202.4.192.0/19",
       "223.130.32.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

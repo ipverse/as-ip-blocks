@@ -1,9 +1,12 @@
 {
-  "asn": 56038,
-  "handle": "RACKCORP-AP",
-  "description": "Network Synergy Corporation Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56038,
+  "metadata" : {
+    "handle" : "RACKCORP-AP",
+    "description" : "Network Synergy Corporation Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.43.116.0/22",
       "103.69.72.0/22",
       "103.233.30.0/23",
@@ -14,7 +17,7 @@
       "185.207.8.0/22",
       "203.170.24.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:4a00:1::/48"
     ]
   }

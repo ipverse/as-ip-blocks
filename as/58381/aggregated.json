@@ -1,9 +1,12 @@
 {
-  "asn": 58381,
-  "handle": "WOWRACK-AS-ID",
-  "description": "Wow Internet Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58381,
+  "metadata" : {
+    "handle" : "WOWRACK-AS-ID",
+    "description" : "Wow Internet Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.5.50.0/23",
       "103.20.90.0/23",
       "163.53.192.0/22",
@@ -14,7 +17,7 @@
       "202.43.248.0/23",
       "216.244.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:4160::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 3472,
-  "handle": "DNIC-AS-03472",
-  "description": "United States Department of Defense (DoD)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3472,
+  "metadata" : {
+    "handle" : "DNIC-AS-03472",
+    "description" : "United States Department of Defense (DoD)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.9.81.0/24",
       "199.9.84.0/24",
       "199.9.87.0/24",
       "199.9.91.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

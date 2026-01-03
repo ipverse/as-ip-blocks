@@ -1,12 +1,15 @@
 {
-  "asn": 8222,
-  "handle": "NORIS",
-  "description": "noris network AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8222,
+  "metadata" : {
+    "handle" : "NORIS",
+    "description" : "noris network AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "188.92.119.0/24",
       "194.59.179.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

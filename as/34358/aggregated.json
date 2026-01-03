@@ -1,9 +1,12 @@
 {
-  "asn": 34358,
-  "handle": "CYBER-FOLKS-RO-DC-FLO",
-  "description": "Cyber-Folks SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34358,
+  "metadata" : {
+    "handle" : "CYBER-FOLKS-RO-DC-FLO",
+    "description" : "Cyber Folks SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.251.128.0/19",
       "37.251.160.0/20",
       "37.251.248.0/21",
@@ -46,6 +49,6 @@
       "217.156.44.0/23",
       "217.156.103.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

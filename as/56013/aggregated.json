@@ -1,9 +1,12 @@
 {
-  "asn": 56013,
-  "handle": "SDSC",
-  "description": "SAMSUNG SDS CHINA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56013,
+  "metadata" : {
+    "handle" : "SDSC",
+    "description" : "SAMSUNG SDS CHINA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.106.204.0/22",
       "103.8.52.0/22",
       "103.14.136.0/22",
@@ -12,6 +15,6 @@
       "218.249.68.0/24",
       "218.249.156.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

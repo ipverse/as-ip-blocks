@@ -1,13 +1,16 @@
 {
-  "asn": 137315,
-  "handle": "IDNIC-POLIWANGI-AS-ID",
-  "description": "Politeknik Negeri Banyuwangi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137315,
+  "metadata" : {
+    "handle" : "IDNIC-POLIWANGI-AS-ID",
+    "description" : "Politeknik Negeri Banyuwangi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.109.210.0/24",
       "103.164.60.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:4b00::/48"
     ]
   }

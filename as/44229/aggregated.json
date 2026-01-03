@@ -1,12 +1,15 @@
 {
-  "asn": 44229,
-  "handle": "DTST-AS-01",
-  "description": "nfon AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44229,
+  "metadata" : {
+    "handle" : "DTST-AS-01",
+    "description" : "nfon AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "92.60.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:a780::/32"
     ]
   }

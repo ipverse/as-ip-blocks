@@ -1,9 +1,12 @@
 {
-  "asn": 11570,
-  "handle": "AS11570",
-  "description": "Eastern New Mexico University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11570,
+  "metadata" : {
+    "handle" : "AS11570",
+    "description" : "Eastern New Mexico University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.94.216.0/24",
       "192.207.226.0/24",
       "198.59.106.0/23",
@@ -13,6 +16,6 @@
       "204.134.85.0/24",
       "206.206.156.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 6206,
-  "handle": "NETROUTING-AS",
-  "description": "Netrouting B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6206,
+  "metadata" : {
+    "handle" : "NETROUTING-AS",
+    "description" : "Netrouting B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.46.192.0/21",
       "45.88.216.0/24",
       "45.89.48.0/24",
@@ -27,7 +30,7 @@
       "194.110.67.0/24",
       "209.135.176.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:c740::/32",
       "2602:fc48::/36",
       "2a00:dd0::/32"

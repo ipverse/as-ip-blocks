@@ -1,12 +1,15 @@
 {
-  "asn": 274022,
-  "handle": "SUCRENET-CA",
-  "description": "SUCRENET C.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 274022,
+  "metadata" : {
+    "handle" : "SUCRENET-CA",
+    "description" : "SUCRENET C.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.247.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:4cd0::/32"
     ]
   }

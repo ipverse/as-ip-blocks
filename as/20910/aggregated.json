@@ -1,9 +1,12 @@
 {
-  "asn": 20910,
-  "handle": "BALTKOM-AS",
-  "description": "SIA BITE Latvija",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20910,
+  "metadata" : {
+    "handle" : "BALTKOM-AS",
+    "description" : "SIA BITE Latvija",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.148.168.0/21",
       "62.84.0.0/20",
       "62.205.192.0/18",
@@ -25,7 +28,7 @@
       "217.198.224.0/20",
       "217.199.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:9000::/29",
       "2a00:f4a0::/29",
       "2a03:6740::/29"

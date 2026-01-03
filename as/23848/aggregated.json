@@ -1,9 +1,12 @@
 {
-  "asn": 23848,
-  "handle": "PINGANCOM",
-  "description": "Shenzhen Ping An Communication Technology Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23848,
+  "metadata" : {
+    "handle" : "PINGANCOM",
+    "description" : "Shenzhen Ping An Communication Technology Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.230.221.0/24",
       "43.230.222.0/23",
       "45.65.20.0/22",
@@ -28,7 +31,7 @@
       "124.196.84.0/23",
       "202.69.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:7180:a000::/48",
       "2404:7180:a010::/48",
       "2404:7180:aa00::/48",

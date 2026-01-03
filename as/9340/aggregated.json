@@ -1,9 +1,12 @@
 {
-  "asn": 9340,
-  "handle": "INDONET-AS-AP",
-  "description": "INDO Internet PT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9340,
+  "metadata" : {
+    "handle" : "INDONET-AS-AP",
+    "description" : "INDO Internet PT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.145.227.0/24",
       "117.54.0.0/16",
       "180.150.244.0/23",
@@ -17,7 +20,7 @@
       "202.159.56.0/21",
       "202.159.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:170::/32"
     ]
   }

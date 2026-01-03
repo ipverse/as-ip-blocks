@@ -1,9 +1,12 @@
 {
-  "asn": 138456,
-  "handle": "OCTL-AS-AP",
-  "description": "OceanBlue Cloud Technology Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138456,
+  "metadata" : {
+    "handle" : "OCTL-AS-AP",
+    "description" : "OceanBlue Cloud Technology Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.46.158.0/23",
       "38.134.174.0/24",
       "38.247.81.0/24",
@@ -20,7 +23,7 @@
       "154.213.2.0/23",
       "156.252.21.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:3700::/48"
     ]
   }

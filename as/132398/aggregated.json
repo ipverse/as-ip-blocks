@@ -1,12 +1,15 @@
 {
-  "asn": 132398,
-  "handle": "SCEI-AS-AP",
-  "description": "Science and Engineering Institutes",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132398,
+  "metadata" : {
+    "handle" : "SCEI-AS-AP",
+    "description" : "Science and Engineering Institutes",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.72.192.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:2600::/48"
     ]
   }

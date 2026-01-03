@@ -1,12 +1,15 @@
 {
-  "asn": 214459,
-  "handle": "BEW-ISP",
-  "description": "BEW Bergische Energie- und Wasser GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214459,
+  "metadata" : {
+    "handle" : "BEW-ISP",
+    "description" : "BEW Bergische Energie- und Wasser GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.38.32.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:7a05::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 17598,
-  "handle": "YBNTV-AS",
-  "description": "LG HelloVision Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17598,
+  "metadata" : {
+    "handle" : "YBNTV-AS",
+    "description" : "LG HelloVision Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.251.120.0/22",
       "61.41.219.0/24",
       "61.41.220.0/22",
@@ -22,6 +25,6 @@
       "210.206.209.0/24",
       "210.206.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

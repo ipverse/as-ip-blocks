@@ -1,13 +1,16 @@
 {
-  "asn": 401429,
-  "handle": "PRIME-ONE",
-  "description": "Prime One Net LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401429,
+  "metadata" : {
+    "handle" : "PRIME-ONE",
+    "description" : "Prime One Net LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.83.57.0/24",
       "64.239.112.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:ddc0::/39"
     ]
   }

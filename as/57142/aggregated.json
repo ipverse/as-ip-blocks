@@ -1,9 +1,12 @@
 {
-  "asn": 57142,
-  "handle": "AS-FIBER23",
-  "description": "Fiber 23 SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57142,
+  "metadata" : {
+    "handle" : "AS-FIBER23",
+    "description" : "Fiber 23 SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.107.30.0/24",
       "86.107.54.0/24",
       "86.107.181.0/24",
@@ -17,7 +20,7 @@
       "176.126.175.0/24",
       "188.240.208.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:9500:b8::/48"
     ]
   }

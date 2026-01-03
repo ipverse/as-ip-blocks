@@ -1,13 +1,16 @@
 {
-  "asn": 60539,
-  "handle": "HUICAST-TELECOM",
-  "description": "Huicast Telecom Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60539,
+  "metadata" : {
+    "handle" : "HUICAST-TELECOM",
+    "description" : "Huicast Telecom Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.160.111.0/24",
       "161.248.28.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:aac0::/29"
     ]
   }

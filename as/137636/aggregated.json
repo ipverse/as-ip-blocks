@@ -1,13 +1,16 @@
 {
-  "asn": 137636,
-  "handle": "TELIGUS-AS",
-  "description": "Teligus Networks Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137636,
+  "metadata" : {
+    "handle" : "TELIGUS-AS",
+    "description" : "Teligus Networks Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.124.108.0/24",
       "103.160.121.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:1900::/48",
       "2400:b460::/32"
     ]

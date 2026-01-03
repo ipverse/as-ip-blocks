@@ -1,11 +1,14 @@
 {
-  "asn": 33010,
-  "handle": "INTERCHURCH",
-  "description": "The Interchurch Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33010,
+  "metadata" : {
+    "handle" : "INTERCHURCH",
+    "description" : "The Interchurch Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.81.36.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

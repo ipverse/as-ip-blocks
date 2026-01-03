@@ -1,11 +1,14 @@
 {
-  "asn": 41526,
-  "handle": "XNAME-AS",
-  "description": "Association XNAME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41526,
+  "metadata" : {
+    "handle" : "XNAME-AS",
+    "description" : "Association XNAME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.234.42.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

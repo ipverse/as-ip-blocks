@@ -1,10 +1,13 @@
 {
-  "asn": 152911,
-  "handle": "SYICT-AS",
-  "description": "SY ICT",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 152911,
+  "metadata" : {
+    "handle" : "SYICT-AS",
+    "description" : "SY ICT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2406:840:fa60::/44",
       "2406:840:fe9e::/48"
     ]

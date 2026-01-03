@@ -1,9 +1,12 @@
 {
-  "asn": 1540,
-  "handle": "DNIC-ASBLK-01534-01546",
-  "description": "Headquarters USAISC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1540,
+  "metadata" : {
+    "handle" : "DNIC-ASBLK-01534-01546",
+    "description" : "Headquarters USAISC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "6.16.70.0/23",
       "6.16.80.0/23",
       "6.16.90.0/23",
@@ -151,7 +154,7 @@
       "214.3.94.0/24",
       "214.37.198.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2608:103:2740::/48",
       "2608:104:500::/48",
       "2608:104:2a20::/48",

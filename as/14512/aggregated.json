@@ -1,12 +1,15 @@
 {
-  "asn": 14512,
-  "handle": "BENTLEY-AS",
-  "description": "Bentley University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14512,
+  "metadata" : {
+    "handle" : "BENTLEY-AS",
+    "description" : "Bentley University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.133.0.0/16",
       "162.120.86.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

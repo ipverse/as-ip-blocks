@@ -1,13 +1,16 @@
 {
-  "asn": 267192,
-  "handle": "TELCOM-PROVEDOR-ACESSO",
-  "description": "TELCOM PROVEDOR DE ACESSO LTDA - EPP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267192,
+  "metadata" : {
+    "handle" : "TELCOM-PROVEDOR-ACESSO",
+    "description" : "TELCOM PROVEDOR DE ACESSO LTDA - EPP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.180.52.0/22",
       "45.231.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4998::/32"
     ]
   }

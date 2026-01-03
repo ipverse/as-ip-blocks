@@ -1,9 +1,12 @@
 {
-  "asn": 7014,
-  "handle": "XO-AS7014",
-  "description": "Verizon Business",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7014,
+  "metadata" : {
+    "handle" : "XO-AS7014",
+    "description" : "Verizon Business",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.0.192.0/24",
       "192.43.230.0/23",
       "198.134.48.0/24",
@@ -13,6 +16,6 @@
       "206.205.23.0/24",
       "216.4.237.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 46841,
-  "handle": "FORKNETWORKING",
-  "description": "Fork Networking LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46841,
+  "metadata" : {
+    "handle" : "FORKNETWORKING",
+    "description" : "Fork Networking LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.179.96.0/24",
       "38.111.134.0/23",
       "100.42.16.0/20",
@@ -19,7 +22,7 @@
       "199.87.228.0/22",
       "209.222.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:b480::/32"
     ]
   }

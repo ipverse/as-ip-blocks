@@ -1,13 +1,16 @@
 {
-  "asn": 34767,
-  "handle": "STONERICH-AS",
-  "description": "Otto M. Steinmann e.U",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34767,
+  "metadata" : {
+    "handle" : "STONERICH-AS",
+    "description" : "Otto M. Steinmann e.U.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.75.240.0/20",
       "185.53.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:7a80::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 3064,
-  "handle": "AFFINITY-FTL",
-  "description": "Ntirety Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3064,
+  "metadata" : {
+    "handle" : "AFFINITY-FTL",
+    "description" : "Ntirety Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.6.220.0/22",
       "63.208.1.0/24",
       "64.26.29.0/24",
@@ -24,6 +27,6 @@
       "216.87.160.0/19",
       "216.110.128.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

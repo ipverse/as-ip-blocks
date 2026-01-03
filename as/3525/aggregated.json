@@ -1,12 +1,15 @@
 {
-  "asn": 3525,
-  "handle": "ALBERTSONS",
-  "description": "UNFI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3525,
+  "metadata" : {
+    "handle" : "ALBERTSONS",
+    "description" : "UNFI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "169.155.196.0/23",
       "169.155.200.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

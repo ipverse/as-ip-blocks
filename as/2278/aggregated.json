@@ -1,14 +1,17 @@
 {
-  "asn": 2278,
-  "handle": "ORANGELABS",
-  "description": "Orange S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2278,
+  "metadata" : {
+    "handle" : "ORANGELABS",
+    "description" : "Orange S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.105.128.0/17",
       "161.106.0.0/16",
       "192.144.77.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:cf00::/42"
     ]
   }

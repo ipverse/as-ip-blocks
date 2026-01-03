@@ -1,9 +1,12 @@
 {
-  "asn": 212609,
-  "handle": "INTERNET-6",
-  "description": "Karolio IT paslaugos UAB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212609,
+  "metadata" : {
+    "handle" : "INTERNET-6",
+    "description" : "Karolio IT paslaugos UAB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.235.0/24",
       "5.252.187.0/24",
       "14.102.224.0/23",
@@ -65,6 +68,6 @@
       "213.109.155.0/24",
       "213.218.248.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

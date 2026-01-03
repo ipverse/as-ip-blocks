@@ -1,11 +1,14 @@
 {
-  "asn": 140898,
-  "handle": "NETCITY-AS-AP",
-  "description": "Net City",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140898,
+  "metadata" : {
+    "handle" : "NETCITY-AS-AP",
+    "description" : "Net City",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.153.28.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

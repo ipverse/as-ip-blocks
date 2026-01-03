@@ -1,13 +1,16 @@
 {
-  "asn": 150045,
-  "handle": "METANET-AS-IN",
-  "description": "Metanet Telecommunications India Opc Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150045,
+  "metadata" : {
+    "handle" : "METANET-AS-IN",
+    "description" : "Metanet Telecommunications India Opc Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.158.212.0/23",
       "103.191.112.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:ff40::/48",
       "2001:df1:9240::/48"
     ]

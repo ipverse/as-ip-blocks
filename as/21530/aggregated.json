@@ -1,13 +1,16 @@
 {
-  "asn": 21530,
-  "handle": "FISERV-EPF-OMAHA",
-  "description": "Fiserv Solutions LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21530,
+  "metadata" : {
+    "handle" : "FISERV-EPF-OMAHA",
+    "description" : "Fiserv Solutions LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.186.154.0/24",
       "216.66.210.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:10f:400c::/48"
     ]
   }

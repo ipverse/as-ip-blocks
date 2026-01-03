@@ -1,9 +1,12 @@
 {
-  "asn": 212042,
-  "handle": "AS-ISTQSERVERS",
-  "description": "Istqrar for Servers Services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212042,
+  "metadata" : {
+    "handle" : "AS-ISTQSERVERS",
+    "description" : "Istqrar for Servers Services Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.57.130.0/24",
       "31.58.140.0/24",
       "45.87.29.0/24",
@@ -11,6 +14,6 @@
       "154.83.136.0/24",
       "217.74.17.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

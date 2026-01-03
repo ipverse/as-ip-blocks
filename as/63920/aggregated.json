@@ -1,9 +1,12 @@
 {
-  "asn": 63920,
-  "handle": "VOSTRO-AS-AP",
-  "description": "VostroNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63920,
+  "metadata" : {
+    "handle" : "VOSTRO-AS-AP",
+    "description" : "VostroNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.225.48.0/23",
       "43.225.50.0/24",
       "103.44.32.0/23",
@@ -12,7 +15,7 @@
       "103.208.164.0/23",
       "103.208.166.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:cd80:100::/40",
       "2401:cd80:200::/39",
       "2401:cd81::/48"

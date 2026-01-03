@@ -1,9 +1,12 @@
 {
-  "asn": 2698,
-  "handle": "IASTATE-AS",
-  "description": "Iowa State University of Science and Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2698,
+  "metadata" : {
+    "handle" : "IASTATE-AS",
+    "description" : "Iowa State University of Science and Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.113.64.0/19",
       "65.110.224.0/19",
       "129.186.0.0/16",
@@ -12,7 +15,7 @@
       "192.245.179.0/24",
       "205.237.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:130:100::/40"
     ]
   }

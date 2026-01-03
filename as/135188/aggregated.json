@@ -1,9 +1,12 @@
 {
-  "asn": 135188,
-  "handle": "ENETENTERTAINMENT",
-  "description": "E Net Entertainment Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135188,
+  "metadata" : {
+    "handle" : "ENETENTERTAINMENT",
+    "description" : "E Net Entertainment Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.80.32.0/19",
       "45.249.48.0/23",
       "45.249.51.0/24",
@@ -13,7 +16,7 @@
       "103.174.110.0/23",
       "149.13.190.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:1220::/32",
       "2407:42c0::/32",
       "2407:8b40::/32"

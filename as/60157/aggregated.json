@@ -1,12 +1,15 @@
 {
-  "asn": 60157,
-  "handle": "ANTHEUS",
-  "description": "Antheus Telecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60157,
+  "metadata" : {
+    "handle" : "ANTHEUS",
+    "description" : "Antheus Telecom Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.54.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:4560::/48",
       "2a02:4560:24::/47"
     ]

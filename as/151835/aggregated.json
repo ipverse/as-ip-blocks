@@ -1,13 +1,16 @@
 {
-  "asn": 151835,
-  "handle": "AIRNET-BSL-AS-AP",
-  "description": "Airnet Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151835,
+  "metadata" : {
+    "handle" : "AIRNET-BSL-AS-AP",
+    "description" : "Airnet Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.190.72.0/24",
       "103.240.2.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:fbc0::/48"
     ]
   }

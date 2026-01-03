@@ -1,9 +1,12 @@
 {
-  "asn": 60771,
-  "handle": "C-CORP-AS",
-  "description": "Comiten Corp LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60771,
+  "metadata" : {
+    "handle" : "C-CORP-AS",
+    "description" : "Comiten Corp LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.187.97.0/24",
       "93.187.98.0/23",
       "93.187.100.0/22",
@@ -14,6 +17,6 @@
       "195.72.140.0/22",
       "195.208.48.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

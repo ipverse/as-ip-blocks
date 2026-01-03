@@ -1,12 +1,15 @@
 {
-  "asn": 62538,
-  "handle": "IPFAIL",
-  "description": "ipFail Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62538,
+  "metadata" : {
+    "handle" : "IPFAIL",
+    "description" : "ipFail Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.157.112.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:c640::/32"
     ]
   }

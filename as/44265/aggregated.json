@@ -1,15 +1,18 @@
 {
-  "asn": 44265,
-  "handle": "SMOLTELECOM-NET",
-  "description": "OOO Smoltelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44265,
+  "metadata" : {
+    "handle" : "SMOLTELECOM-NET",
+    "description" : "OOO Smoltelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.145.160.0/21",
       "5.145.192.0/18",
       "37.44.40.0/21",
       "92.241.96.0/19",
       "185.180.160.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

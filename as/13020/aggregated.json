@@ -1,12 +1,15 @@
 {
-  "asn": 13020,
-  "handle": "CCCV-AS",
-  "description": "Chaos Computer Club Veranstaltungsgesellschaft mbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13020,
+  "metadata" : {
+    "handle" : "CCCV-AS",
+    "description" : "Chaos Computer Club Veranstaltungsgesellschaft mbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.45.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:20a1::/48"
     ]
   }

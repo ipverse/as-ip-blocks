@@ -1,13 +1,16 @@
 {
-  "asn": 52440,
-  "handle": "UNIVERSIDAD-LA-PUNTA",
-  "description": "Universidad de La Punta",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52440,
+  "metadata" : {
+    "handle" : "UNIVERSIDAD-LA-PUNTA",
+    "description" : "Universidad de La Punta",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.85.155.0/24",
       "201.222.56.0/22",
       "204.199.12.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

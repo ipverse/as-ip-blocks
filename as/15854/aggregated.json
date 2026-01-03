@@ -1,9 +1,12 @@
 {
-  "asn": 15854,
-  "handle": "HP-WEBSERVICES",
-  "description": "EntServ Deutschland GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15854,
+  "metadata" : {
+    "handle" : "HP-WEBSERVICES",
+    "description" : "EntServ Deutschland GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.27.0.0/16",
       "149.206.0.0/16",
       "149.211.0.0/16",
@@ -13,6 +16,6 @@
       "195.203.0.0/16",
       "217.27.0.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

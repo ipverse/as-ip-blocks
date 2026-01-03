@@ -1,14 +1,17 @@
 {
-  "asn": 34524,
-  "handle": "DIGICOM-AS",
-  "description": "Digital Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34524,
+  "metadata" : {
+    "handle" : "DIGICOM-AS",
+    "description" : "Digital Communications Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.104.176.0/22",
       "5.104.180.0/23",
       "185.18.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:d6c0::/29"
     ]
   }

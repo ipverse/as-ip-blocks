@@ -1,12 +1,15 @@
 {
-  "asn": 55910,
-  "handle": "SITNET-AS",
-  "description": "Shibaura Institute of Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55910,
+  "metadata" : {
+    "handle" : "SITNET-AS",
+    "description" : "Shibaura Institute of Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.18.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:4c0::/48"
     ]
   }

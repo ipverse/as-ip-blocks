@@ -1,15 +1,18 @@
 {
-  "asn": 14511,
-  "handle": "POLAR-COMMUNICATIONS",
-  "description": "Polar Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14511,
+  "metadata" : {
+    "handle" : "POLAR-COMMUNICATIONS",
+    "description" : "Polar Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.231.96.0/20",
       "66.231.112.0/21",
       "216.196.72.0/21",
       "216.196.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:188::/32"
     ]
   }

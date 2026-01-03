@@ -1,15 +1,18 @@
 {
-  "asn": 51546,
-  "handle": "QAVAT",
-  "description": "Qavat AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51546,
+  "metadata" : {
+    "handle" : "QAVAT",
+    "description" : "Qavat AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.218.20.0/22",
       "185.127.228.0/22",
       "185.176.96.0/22",
       "185.181.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:9920::/32",
       "2a09:9680::/29",
       "2a0a:f80::/29",

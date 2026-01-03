@@ -1,13 +1,16 @@
 {
-  "asn": 140470,
-  "handle": "ADI-AS-ID",
-  "description": "PT Andalan Dinamika Informatika",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140470,
+  "metadata" : {
+    "handle" : "ADI-AS-ID",
+    "description" : "PT Andalan Dinamika Informatika",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.159.196.0/23",
       "157.20.36.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:f340:2::/48"
     ]
   }

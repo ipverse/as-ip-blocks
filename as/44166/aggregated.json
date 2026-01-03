@@ -1,12 +1,15 @@
 {
-  "asn": 44166,
-  "handle": "NTD-AS",
-  "description": "NTD SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44166,
+  "metadata" : {
+    "handle" : "NTD-AS",
+    "description" : "NTD SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.141.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:dac0::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 1616,
-  "handle": "DATABANK-CORELINK",
-  "description": "CoreLink Data Centers",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1616,
+  "metadata" : {
+    "handle" : "DATABANK-CORELINK",
+    "description" : "CoreLink Data Centers",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.64.206.0/23",
       "64.64.211.0/24",
       "64.64.220.0/23",
@@ -11,6 +14,6 @@
       "76.9.188.0/23",
       "199.16.40.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

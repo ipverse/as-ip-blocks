@@ -1,9 +1,12 @@
 {
-  "asn": 13443,
-  "handle": "LINKEDIN",
-  "description": "LinkedIn Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13443,
+  "metadata" : {
+    "handle" : "LINKEDIN",
+    "description" : "LinkedIn Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.42.64.0/22",
       "128.241.35.0/24",
       "128.242.95.0/24",
@@ -23,7 +26,7 @@
       "216.52.20.0/24",
       "216.52.22.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:2300:ff00::/40",
       "2620:119:5000::/42",
       "2620:119:5041::/48",

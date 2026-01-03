@@ -1,12 +1,15 @@
 {
-  "asn": 1025,
-  "handle": "VCHS-EDGE-1",
-  "description": "Valor Christian High School",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1025,
+  "metadata" : {
+    "handle" : "VCHS-EDGE-1",
+    "description" : "Valor Christian High School",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.209.24.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fcb8:f000::/36"
     ]
   }

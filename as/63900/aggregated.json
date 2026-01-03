@@ -1,12 +1,15 @@
 {
-  "asn": 63900,
-  "handle": "AS-ZUSO",
-  "description": "ZUSO Generation Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63900,
+  "metadata" : {
+    "handle" : "AS-ZUSO",
+    "description" : "ZUSO Generation Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.252.12.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:30e0::/32"
     ]
   }

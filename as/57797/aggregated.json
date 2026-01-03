@@ -1,12 +1,15 @@
 {
-  "asn": 57797,
-  "handle": "SYSLEVEL",
-  "description": "SysLevel SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57797,
+  "metadata" : {
+    "handle" : "SYSLEVEL",
+    "description" : "SysLevel SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.27.84.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:8ac0::/40",
       "2a12:8ac1::/32"
     ]

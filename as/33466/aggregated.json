@@ -1,11 +1,14 @@
 {
-  "asn": 33466,
-  "handle": "FLVS-AS",
-  "description": "Florida Virtual School",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33466,
+  "metadata" : {
+    "handle" : "FLVS-AS",
+    "description" : "Florida Virtual School",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.26.27.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

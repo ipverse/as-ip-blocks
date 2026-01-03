@@ -1,9 +1,12 @@
 {
-  "asn": 13896,
-  "handle": "8X8-FUZE",
-  "description": "8x8 Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13896,
+  "metadata" : {
+    "handle" : "8X8-FUZE",
+    "description" : "8x8 Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.252.184.0/22",
       "103.197.96.0/22",
       "162.223.96.0/22",
@@ -15,6 +18,6 @@
       "206.81.184.0/23",
       "206.81.191.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

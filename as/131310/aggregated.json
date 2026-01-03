@@ -1,9 +1,12 @@
 {
-  "asn": 131310,
-  "handle": "PLT-NET-MY",
-  "description": "PLTPRO Data Centre Sdn. Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131310,
+  "metadata" : {
+    "handle" : "PLT-NET-MY",
+    "description" : "PLTPRO Data Centre Sdn. Bhd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.6.236.0/22",
       "103.21.252.0/22",
       "103.246.88.0/22",
@@ -15,7 +18,7 @@
       "150.129.69.0/24",
       "150.129.70.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:6300::/32"
     ]
   }

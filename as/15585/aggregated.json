@@ -1,9 +1,12 @@
 {
-  "asn": 15585,
-  "handle": "BEWAN-AS",
-  "description": "Finanzdirektion des Kantons Bern",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15585,
+  "metadata" : {
+    "handle" : "BEWAN-AS",
+    "description" : "Finanzdirektion des Kantons Bern",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.118.0.0/16",
       "194.124.78.0/23",
       "194.124.80.0/20",
@@ -12,7 +15,7 @@
       "194.124.136.0/22",
       "194.124.140.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:2904::/32"
     ]
   }

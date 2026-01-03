@@ -1,12 +1,15 @@
 {
-  "asn": 49286,
-  "handle": "LOBULOUS-AS",
-  "description": "Lobulous Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49286,
+  "metadata" : {
+    "handle" : "LOBULOUS-AS",
+    "description" : "Lobulous Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.150.60.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:3a40::/36",
       "2a0a:6040:6a00::/40"
     ]

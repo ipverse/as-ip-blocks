@@ -1,9 +1,12 @@
 {
-  "asn": 46010,
-  "handle": "DIRECT-AS",
-  "description": "SAMJUNG DATA SERVICE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46010,
+  "metadata" : {
+    "handle" : "DIRECT-AS",
+    "description" : "SAMJUNG DATA SERVICE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "223.130.64.0/23",
       "223.130.69.0/24",
       "223.130.70.0/23",
@@ -21,6 +24,6 @@
       "223.130.120.0/22",
       "223.130.124.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

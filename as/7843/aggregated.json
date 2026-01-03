@@ -1,9 +1,12 @@
 {
-  "asn": 7843,
-  "handle": "TWC-7843-BB",
-  "description": "Charter Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7843,
+  "metadata" : {
+    "handle" : "TWC-7843-BB",
+    "description" : "Charter Communications Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "16.14.224.0/20",
       "16.191.0.0/23",
       "24.26.64.0/20",
@@ -53,7 +56,7 @@
       "174.108.138.0/24",
       "209.18.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1998::/32",
       "2600:5800::/31",
       "2600:c000::/40",

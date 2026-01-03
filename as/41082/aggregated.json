@@ -1,9 +1,12 @@
 {
-  "asn": 41082,
-  "handle": "URALTRANSCOM-AS",
-  "description": "Company Uraltranskom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41082,
+  "metadata" : {
+    "handle" : "URALTRANSCOM-AS",
+    "description" : "Company Uraltranskom Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.215.128.0/22",
       "91.220.170.0/24",
       "193.124.88.0/24",
@@ -19,6 +22,6 @@
       "195.133.90.0/23",
       "195.189.108.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

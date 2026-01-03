@@ -1,12 +1,15 @@
 {
-  "asn": 139875,
-  "handle": "NIE-AS-AP",
-  "description": "Noakhali Internet Exchange",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139875,
+  "metadata" : {
+    "handle" : "NIE-AS-AP",
+    "description" : "Noakhali Internet Exchange",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.99.248.0/24",
       "103.135.76.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

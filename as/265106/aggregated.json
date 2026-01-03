@@ -1,12 +1,15 @@
 {
-  "asn": 265106,
-  "handle": "PROVEDOR-TURBOFI",
-  "description": "Provedor Turbofi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265106,
+  "metadata" : {
+    "handle" : "PROVEDOR-TURBOFI",
+    "description" : "Provedor Turbofi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.254.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:32f0::/32"
     ]
   }

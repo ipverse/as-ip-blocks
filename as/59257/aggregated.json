@@ -1,9 +1,12 @@
 {
-  "asn": 59257,
-  "handle": "CMPAKLIMITED-AS-AP",
-  "description": "CMPak Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59257,
+  "metadata" : {
+    "handle" : "CMPAKLIMITED-AS-AP",
+    "description" : "CMPak Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.243.132.0/22",
       "45.116.232.0/22",
       "103.255.4.0/22",
@@ -17,7 +20,7 @@
       "209.150.152.0/21",
       "223.123.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:ad80::/46",
       "2402:ad80:10::/47",
       "2402:ad80:12::/48",

@@ -1,12 +1,15 @@
 {
-  "asn": 263952,
-  "handle": "CONNECT-TELECOM",
-  "description": "CONNECT TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263952,
+  "metadata" : {
+    "handle" : "CONNECT-TELECOM",
+    "description" : "CONNECT TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.255.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2848::/32"
     ]
   }

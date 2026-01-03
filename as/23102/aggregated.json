@@ -1,12 +1,15 @@
 {
-  "asn": 23102,
-  "handle": "RMU-EDU",
-  "description": "Robert Morris University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23102,
+  "metadata" : {
+    "handle" : "RMU-EDU",
+    "description" : "Robert Morris University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.206.176.0/20",
       "192.203.233.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

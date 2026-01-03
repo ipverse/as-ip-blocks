@@ -1,9 +1,12 @@
 {
-  "asn": 8816,
-  "handle": "IT-STCOM",
-  "description": "Metrolink S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8816,
+  "metadata" : {
+    "handle" : "IT-STCOM",
+    "description" : "Metrolink S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.84.228.0/22",
       "185.183.7.0/24",
       "193.43.96.0/24",
@@ -11,7 +14,7 @@
       "212.121.64.0/19",
       "217.174.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:4d0::/32"
     ]
   }

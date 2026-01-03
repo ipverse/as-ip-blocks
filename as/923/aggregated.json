@@ -1,13 +1,16 @@
 {
-  "asn": 923,
-  "handle": "HWS",
-  "description": "Hammy Web Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 923,
+  "metadata" : {
+    "handle" : "HWS",
+    "description" : "Hammy Web Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.144.156.0/24",
       "131.143.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fbf5::/48",
       "2602:fbf5:3::/48"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 20853,
-  "handle": "ETOP-AS",
-  "description": "eTOP sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20853,
+  "metadata" : {
+    "handle" : "ETOP-AS",
+    "description" : "eTOP sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.31.168.0/21",
       "31.56.145.0/24",
       "45.145.217.0/24",
@@ -51,7 +54,7 @@
       "205.234.154.0/24",
       "216.246.106.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:c90::/32",
       "2a05:4480::/29",
       "2a0c:8240::/47"

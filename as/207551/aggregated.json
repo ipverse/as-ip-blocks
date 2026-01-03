@@ -1,16 +1,19 @@
 {
-  "asn": 207551,
-  "handle": "AS-SPEEDIUM",
-  "description": "Wijnand Schouten",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207551,
+  "metadata" : {
+    "handle" : "AS-SPEEDIUM",
+    "description" : "Wijnand Schouten",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.35.53.0/24",
       "117.55.199.0/24",
       "194.164.87.0/24",
       "202.181.153.0/24",
       "212.6.53.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:2080:2::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 31245,
-  "handle": "ATI-ISP",
-  "description": "ATI - Agence Tunisienne Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31245,
+  "metadata" : {
+    "handle" : "ATI-ISP",
+    "description" : "ATI - Agence Tunisienne Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.225.12.0/24",
       "41.227.8.0/22",
       "41.227.12.0/24",
@@ -48,7 +51,7 @@
       "197.10.248.0/23",
       "197.10.252.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4350:2000::/48",
       "2001:4350:a000::/48"
     ]

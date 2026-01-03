@@ -1,9 +1,12 @@
 {
-  "asn": 60071,
-  "handle": "RENDSZERNET-AS",
-  "description": "RendszerNET Kft",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60071,
+  "metadata" : {
+    "handle" : "RENDSZERNET-AS",
+    "description" : "RendszerNET Kft.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.229.72.0/24",
       "87.229.103.0/24",
       "87.229.104.0/24",
@@ -13,6 +16,6 @@
       "217.13.96.0/23",
       "217.144.51.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

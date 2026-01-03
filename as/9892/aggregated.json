@@ -1,9 +1,12 @@
 {
-  "asn": 9892,
-  "handle": "ICONZ-WEBVISIONS-AP",
-  "description": "Iconz-Webvisions Pte. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9892,
+  "metadata" : {
+    "handle" : "ICONZ-WEBVISIONS-AP",
+    "description" : "Iconz-Webvisions Pte. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "114.129.33.0/24",
       "114.129.36.0/24",
       "114.129.38.0/24",
@@ -23,7 +26,7 @@
       "203.142.16.0/21",
       "203.142.27.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:4800::/46",
       "2404:4800:20::/48"
     ]

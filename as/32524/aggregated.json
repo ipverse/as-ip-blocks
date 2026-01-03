@@ -1,9 +1,12 @@
 {
-  "asn": 32524,
-  "handle": "GRUPO-SMS",
-  "description": "Grupo-SMS USA LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32524,
+  "metadata" : {
+    "handle" : "GRUPO-SMS",
+    "description" : "Grupo-SMS USA LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.244.128.0/20",
       "68.225.24.0/24",
       "100.42.192.0/20",
@@ -15,7 +18,7 @@
       "204.107.103.0/24",
       "208.82.136.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:dc80::/32"
     ]
   }

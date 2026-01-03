@@ -1,9 +1,12 @@
 {
-  "asn": 6327,
-  "handle": "SHAW",
-  "description": "Shaw Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6327,
+  "metadata" : {
+    "handle" : "SHAW",
+    "description" : "Shaw Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.247.196.0/22",
       "24.64.0.0/13",
       "24.76.0.0/14",
@@ -87,7 +90,7 @@
       "208.118.88.0/21",
       "208.118.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4e8::/32",
       "2604:3d00::/28",
       "2607:f798:250f::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 198610,
-  "handle": "BEGET-AS",
-  "description": "Beget LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198610,
+  "metadata" : {
+    "handle" : "BEGET-AS",
+    "description" : "Beget LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.240.0/23",
       "5.35.82.0/23",
       "5.35.84.0/22",
@@ -81,6 +84,6 @@
       "217.114.0.0/20",
       "217.172.24.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

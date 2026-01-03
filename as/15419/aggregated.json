@@ -1,9 +1,12 @@
 {
-  "asn": 15419,
-  "handle": "LRTC-AS",
-  "description": "SC Lithuanian Radio and TV Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15419,
+  "metadata" : {
+    "handle" : "LRTC-AS",
+    "description" : "SC Lithuanian Radio and TV Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.140.131.0/24",
       "82.140.178.0/24",
       "82.140.189.0/24",
@@ -24,7 +27,7 @@
       "217.9.242.0/24",
       "217.9.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2630::/29"
     ]
   }

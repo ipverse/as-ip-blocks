@@ -1,13 +1,16 @@
 {
-  "asn": 398647,
-  "handle": "TRITECH-FIBER",
-  "description": "Tritech Fiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398647,
+  "metadata" : {
+    "handle" : "TRITECH-FIBER",
+    "description" : "Tritech Fiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.73.93.0/24",
       "199.73.94.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fbe0::/36"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 34901,
-  "handle": "GDC-AS",
-  "description": "GDC Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34901,
+  "metadata" : {
+    "handle" : "GDC-AS",
+    "description" : "GDC Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.221.90.0/23",
       "212.22.65.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

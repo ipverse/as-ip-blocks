@@ -1,16 +1,19 @@
 {
-  "asn": 3582,
-  "handle": "UONET",
-  "description": "University of Oregon",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3582,
+  "metadata" : {
+    "handle" : "UONET",
+    "description" : "University of Oregon",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.223.0.0/16",
       "163.41.128.0/17",
       "184.171.0.0/17",
       "207.98.0.0/18",
       "207.98.72.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:468:d01::/48",
       "2607:8400::/32"
     ]

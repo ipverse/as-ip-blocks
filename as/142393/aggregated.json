@@ -1,9 +1,12 @@
 {
-  "asn": 142393,
-  "handle": "IDNIC-MEDIASOLUSISUKSES-AS-ID",
-  "description": "PT Media Solusi Sukses",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142393,
+  "metadata" : {
+    "handle" : "IDNIC-MEDIASOLUSISUKSES-AS-ID",
+    "description" : "PT Media Solusi Sukses",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.44.248.0/23",
       "103.146.38.0/24",
       "103.170.33.0/24",
@@ -11,6 +14,6 @@
       "150.107.104.0/23",
       "154.18.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

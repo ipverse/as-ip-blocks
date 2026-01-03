@@ -1,9 +1,12 @@
 {
-  "asn": 7477,
-  "handle": "SKYMESHPTYLTD-AS-AP",
-  "description": "SkyMesh Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7477,
+  "metadata" : {
+    "handle" : "SKYMESHPTYLTD-AS-AP",
+    "description" : "SkyMesh Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.206.236.0/22",
       "114.129.160.0/20",
       "114.129.176.0/21",
@@ -14,7 +17,7 @@
       "203.168.40.0/24",
       "210.16.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:a400::/32"
     ]
   }

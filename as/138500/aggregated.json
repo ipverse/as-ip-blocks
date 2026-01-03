@@ -1,12 +1,15 @@
 {
-  "asn": 138500,
-  "handle": "FIBERTEL2-AS-AP",
-  "description": "FIBERTEL FIBERNET PVT. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138500,
+  "metadata" : {
+    "handle" : "FIBERTEL2-AS-AP",
+    "description" : "FIBERTEL FIBERNET PVT. LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.127.48.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:f9e0::/32"
     ]
   }

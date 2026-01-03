@@ -1,9 +1,12 @@
 {
-  "asn": 58291,
-  "handle": "COLOCENTER",
-  "description": "ColoCenter b.v",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58291,
+  "metadata" : {
+    "handle" : "COLOCENTER",
+    "description" : "ColoCenter b.v.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.39.184.0/21",
       "45.11.28.0/22",
       "185.79.152.0/22",
@@ -11,7 +14,7 @@
       "185.140.184.0/22",
       "213.156.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:cdc::/48",
       "2a01:4c01::/32",
       "2a02:f640::/29",

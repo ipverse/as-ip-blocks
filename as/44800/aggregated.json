@@ -1,12 +1,15 @@
 {
-  "asn": 44800,
-  "handle": "BELNETUA-AS",
-  "description": "BELNET LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44800,
+  "metadata" : {
+    "handle" : "BELNETUA-AS",
+    "description" : "BELNET LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.175.184.0/21",
       "195.28.30.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

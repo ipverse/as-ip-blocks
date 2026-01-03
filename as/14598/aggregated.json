@@ -1,14 +1,17 @@
 {
-  "asn": 14598,
-  "handle": "YCP-ASN",
-  "description": "York College of Pennsylvania",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14598,
+  "metadata" : {
+    "handle" : "YCP-ASN",
+    "description" : "York College of Pennsylvania",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.68.137.0/24",
       "50.234.135.0/24",
       "192.245.87.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f907::/36"
     ]
   }

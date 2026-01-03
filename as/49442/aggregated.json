@@ -1,12 +1,15 @@
 {
-  "asn": 49442,
-  "handle": "SONET-AS",
-  "description": "Solar Network Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49442,
+  "metadata" : {
+    "handle" : "SONET-AS",
+    "description" : "Solar Network Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.46.100.0/22",
       "95.47.120.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

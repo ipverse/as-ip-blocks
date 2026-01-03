@@ -1,9 +1,12 @@
 {
-  "asn": 199939,
-  "handle": "KEEN-AS",
-  "description": "KeenSystems B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199939,
+  "metadata" : {
+    "handle" : "KEEN-AS",
+    "description" : "KeenSystems B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.133.248.0/23",
       "45.139.120.0/23",
       "89.19.60.0/22",
@@ -12,7 +15,7 @@
       "185.156.160.0/22",
       "212.237.253.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5860::/32",
       "2a0d:bb40::/32"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 27843,
-  "handle": "WIN-EMPRESAS",
-  "description": "WIN EMPRESAS S.A.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27843,
+  "metadata" : {
+    "handle" : "WIN-EMPRESAS",
+    "description" : "WIN EMPRESAS S.A.C.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.243.103.0/24",
       "38.19.144.0/20",
       "38.210.240.0/21",
@@ -89,7 +92,7 @@
       "209.45.124.0/23",
       "209.45.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:120::/32",
       "2803:3140::/32"
     ]

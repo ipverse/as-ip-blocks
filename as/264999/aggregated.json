@@ -1,12 +1,15 @@
 {
-  "asn": 264999,
-  "handle": "UMPLAY-TELECOM",
-  "description": "UMPLAY TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264999,
+  "metadata" : {
+    "handle" : "UMPLAY-TELECOM",
+    "description" : "UMPLAY TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.84.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3130::/32"
     ]
   }

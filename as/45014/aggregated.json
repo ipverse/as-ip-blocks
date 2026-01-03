@@ -1,9 +1,12 @@
 {
-  "asn": 45014,
-  "handle": "NCONNECT",
-  "description": "Nuco Technologies Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45014,
+  "metadata" : {
+    "handle" : "NCONNECT",
+    "description" : "Nuco Technologies Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.159.196.0/24",
       "46.175.13.0/24",
       "80.93.160.0/21",
@@ -26,7 +29,7 @@
       "194.150.252.0/23",
       "217.172.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1a90::/33",
       "2a00:1a90:c000::/34",
       "2a02:cb0::/40",

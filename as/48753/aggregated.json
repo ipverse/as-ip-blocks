@@ -1,9 +1,12 @@
 {
-  "asn": 48753,
-  "handle": "AVAHOHST",
-  "description": "AVA HOST SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48753,
+  "metadata" : {
+    "handle" : "AVAHOHST",
+    "description" : "AVA HOST SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.10.217.0/24",
       "37.221.66.0/24",
       "80.97.160.0/23",
@@ -16,7 +19,7 @@
       "217.156.66.0/23",
       "217.156.122.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:5f44::/48"
     ]
   }

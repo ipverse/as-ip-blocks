@@ -1,9 +1,12 @@
 {
-  "asn": 29831,
-  "handle": "FONENET",
-  "description": "FONE.NET LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29831,
+  "metadata" : {
+    "handle" : "FONENET",
+    "description" : "FONE.NET LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.57.48.0/20",
       "128.254.132.0/22",
       "137.119.144.0/20",
@@ -14,7 +17,7 @@
       "206.168.249.0/24",
       "216.198.115.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:61c0::/32"
     ]
   }

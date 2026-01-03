@@ -1,12 +1,15 @@
 {
-  "asn": 16896,
-  "handle": "NCN",
-  "description": "NCN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16896,
+  "metadata" : {
+    "handle" : "NCN",
+    "description" : "NCN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.32.41.0/24",
       "64.128.251.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

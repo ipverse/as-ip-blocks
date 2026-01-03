@@ -1,9 +1,12 @@
 {
-  "asn": 197071,
-  "handle": "ACTIVE-SERVERS",
-  "description": "active 1 GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197071,
+  "metadata" : {
+    "handle" : "ACTIVE-SERVERS",
+    "description" : "active 1 GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.83.135.0/24",
       "5.175.206.0/24",
       "31.214.149.0/24",
@@ -35,7 +38,7 @@
       "191.101.51.0/24",
       "193.25.201.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:d40:3::/48",
       "2a05:bec0::/29",
       "2a0e:97c0:3e4::/48",

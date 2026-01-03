@@ -1,12 +1,15 @@
 {
-  "asn": 203952,
-  "handle": "NS-AS-2",
-  "description": "NS Groep N.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203952,
+  "metadata" : {
+    "handle" : "NS-AS-2",
+    "description" : "NS Groep N.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "145.15.40.0/23",
       "145.15.112.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

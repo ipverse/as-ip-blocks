@@ -1,9 +1,12 @@
 {
-  "asn": 39494,
-  "handle": "RU-CENTER-AS",
-  "description": "JSC RU-CENTER",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39494,
+  "metadata" : {
+    "handle" : "RU-CENTER-AS",
+    "description" : "JSC RU-CENTER",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.177.85.0/24",
       "31.177.86.0/23",
       "79.174.72.0/22",
@@ -11,7 +14,7 @@
       "89.111.128.0/18",
       "91.217.21.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:d8::/32",
       "2a02:2090:e400::/48",
       "2a02:2090:e800::/48",

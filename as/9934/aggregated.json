@@ -1,9 +1,12 @@
 {
-  "asn": 9934,
-  "handle": "MICOM-MN-AS",
-  "description": "Mongolia Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9934,
+  "metadata" : {
+    "handle" : "MICOM-MN-AS",
+    "description" : "Mongolia Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.242.44.0/22",
       "202.5.196.0/24",
       "202.179.0.0/22",
@@ -15,6 +18,6 @@
       "202.179.22.0/23",
       "202.179.24.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

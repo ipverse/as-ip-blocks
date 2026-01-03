@@ -1,9 +1,12 @@
 {
-  "asn": 24432,
-  "handle": "AXIATA-ROBI-AS-AP",
-  "description": "Axiata (Bangladesh) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24432,
+  "metadata" : {
+    "handle" : "AXIATA-ROBI-AS-AP",
+    "description" : "Axiata (Bangladesh) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.255.80.0/22",
       "42.0.4.0/22",
       "58.145.184.0/21",
@@ -16,7 +19,7 @@
       "202.181.18.0/23",
       "203.13.162.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:1c40:1::/48",
       "2404:1c40:2::/47",
       "2404:1c40:4::/46",

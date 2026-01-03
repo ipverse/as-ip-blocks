@@ -1,9 +1,12 @@
 {
-  "asn": 3170,
-  "handle": "VELOXSERV",
-  "description": "VeloxServ Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3170,
+  "metadata" : {
+    "handle" : "VELOXSERV",
+    "description" : "VeloxServ Communications Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.175.0/24",
       "5.198.137.0/24",
       "5.198.138.0/23",
@@ -48,7 +51,7 @@
       "195.74.52.0/22",
       "195.191.218.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:32c::/48",
       "2001:67c:128::/48",
       "2606:6680:3::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 43915,
-  "handle": "TRUESPEED",
-  "description": "TrueSpeed Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43915,
+  "metadata" : {
+    "handle" : "TRUESPEED",
+    "description" : "TrueSpeed Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.181.104.0/22",
       "31.210.27.0/24",
       "45.66.36.0/22",
@@ -52,7 +55,7 @@
       "217.171.100.0/22",
       "217.171.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:5940::/32"
     ]
   }

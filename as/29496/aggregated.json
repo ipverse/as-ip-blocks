@@ -1,12 +1,15 @@
 {
-  "asn": 29496,
-  "handle": "LINK-SERVICE-AS",
-  "description": "Link-Service Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29496,
+  "metadata" : {
+    "handle" : "LINK-SERVICE-AS",
+    "description" : "Link-Service Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.200.76.0/23",
       "194.146.110.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

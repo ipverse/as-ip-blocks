@@ -1,15 +1,18 @@
 {
-  "asn": 33921,
-  "handle": "LEBARA-AS",
-  "description": "Lebara Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33921,
+  "metadata" : {
+    "handle" : "LEBARA-AS",
+    "description" : "Lebara Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.42.207.0/24",
       "45.92.79.0/24",
       "84.246.112.0/22",
       "194.213.108.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:a380::/40"
     ]
   }

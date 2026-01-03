@@ -1,9 +1,12 @@
 {
-  "asn": 214529,
-  "handle": "DSNET",
-  "description": "DAM TELECOM SERVICES SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214529,
+  "metadata" : {
+    "handle" : "DSNET",
+    "description" : "DAM TELECOM SERVICES SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.247.29.0/24",
       "84.247.55.0/24",
       "84.247.56.0/24",
@@ -13,6 +16,6 @@
       "188.211.27.0/24",
       "188.211.30.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

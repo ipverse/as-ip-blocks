@@ -1,14 +1,17 @@
 {
-  "asn": 2504,
-  "handle": "NCA5",
-  "description": "Kyoto University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2504,
+  "metadata" : {
+    "handle" : "NCA5",
+    "description" : "Kyoto University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.54.0.0/16",
       "133.3.0.0/16",
       "192.50.8.0/23",
       "192.50.24.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

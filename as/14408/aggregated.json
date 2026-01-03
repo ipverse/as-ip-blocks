@@ -1,9 +1,12 @@
 {
-  "asn": 14408,
-  "handle": "AS-EMPIRECLS-SECAUCUS",
-  "description": "Empire International Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14408,
+  "metadata" : {
+    "handle" : "AS-EMPIRECLS-SECAUCUS",
+    "description" : "Empire International Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.207.144.0/24",
       "66.207.147.0/24",
       "66.207.149.0/24",
@@ -12,6 +15,6 @@
       "66.207.157.0/24",
       "66.207.158.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 56485,
-  "handle": "THEHOST-AS",
-  "description": "TheHost LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56485,
+  "metadata" : {
+    "handle" : "THEHOST-AS",
+    "description" : "TheHost LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.72.129.0/24",
       "43.252.24.0/22",
       "45.11.198.0/24",
@@ -38,7 +41,7 @@
       "194.113.32.0/24",
       "194.113.58.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:b180::/29",
       "2a0b:1600::/29",
       "2a0c:f00::/32",

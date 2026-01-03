@@ -1,13 +1,16 @@
 {
-  "asn": 212966,
-  "handle": "OOKAMI-IT-AS",
-  "description": "Markus Wolf",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212966,
+  "metadata" : {
+    "handle" : "OOKAMI-IT-AS",
+    "description" : "Markus Wolf",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.154.32.0/24",
       "139.28.98.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:fd45:2f00::/48"
     ]
   }

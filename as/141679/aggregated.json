@@ -1,9 +1,12 @@
 {
-  "asn": 141679,
-  "handle": "CHINATELECOM-IDC-BTHBD-AP",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141679,
+  "metadata" : {
+    "handle" : "CHINATELECOM-IDC-BTHBD-AP",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.110.213.0/24",
       "36.110.216.0/24",
       "36.110.226.0/23",
@@ -37,7 +40,7 @@
       "220.154.0.0/20",
       "220.154.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:89c0:1150::/48",
       "240e:900::/40",
       "240e:904:2802::/47",

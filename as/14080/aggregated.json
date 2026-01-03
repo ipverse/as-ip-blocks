@@ -1,9 +1,12 @@
 {
-  "asn": 14080,
-  "handle": "TELMEX-COLOMBIA",
-  "description": "Telmex Colombia S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14080,
+  "metadata" : {
+    "handle" : "TELMEX-COLOMBIA",
+    "description" : "Telmex Colombia S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.142.241.0/24",
       "168.228.108.0/22",
       "170.238.64.0/23",
@@ -277,7 +280,7 @@
       "201.221.164.0/22",
       "201.221.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:480::/31",
       "2800:482::/32",
       "2800:484::/31",

@@ -1,9 +1,12 @@
 {
-  "asn": 7629,
-  "handle": "EPLDT-AS-AP",
-  "description": "VITRO Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7629,
+  "metadata" : {
+    "handle" : "EPLDT-AS-AP",
+    "description" : "VITRO Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.118.36.0/22",
       "103.1.116.0/22",
       "103.233.32.0/22",
@@ -15,7 +18,7 @@
       "203.172.0.0/19",
       "222.126.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:d8::/36",
       "2404:d8:9000::/36",
       "2404:d8:a000::/36",

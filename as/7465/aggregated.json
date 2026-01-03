@@ -1,9 +1,12 @@
 {
-  "asn": 7465,
-  "handle": "PROCERGS-CIA-PROCESSAMENTO",
-  "description": "PROCERGS - Cia de Processamento de Dados do RGS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7465,
+  "metadata" : {
+    "handle" : "PROCERGS-CIA-PROCESSAMENTO",
+    "description" : "PROCERGS - Cia de Processamento de Dados do RGS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.189.128.0/19",
       "200.198.128.0/19",
       "200.198.160.0/20",
@@ -11,6 +14,6 @@
       "200.233.8.0/24",
       "200.233.12.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

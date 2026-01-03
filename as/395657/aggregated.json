@@ -1,9 +1,12 @@
 {
-  "asn": 395657,
-  "handle": "HOPLITE-ASN",
-  "description": "Hoplite Industries Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395657,
+  "metadata" : {
+    "handle" : "HOPLITE-ASN",
+    "description" : "Hoplite Industries Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.183.0.0/24",
       "38.45.128.0/22",
       "38.74.70.0/23",
@@ -14,6 +17,6 @@
       "38.109.213.0/24",
       "38.127.94.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

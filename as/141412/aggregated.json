@@ -1,12 +1,15 @@
 {
-  "asn": 141412,
-  "handle": "RAMDIAONLINE-AS-AP",
-  "description": "RAMDIA ONLINE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141412,
+  "metadata" : {
+    "handle" : "RAMDIAONLINE-AS-AP",
+    "description" : "RAMDIA ONLINE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.158.132.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:5480::/48"
     ]
   }

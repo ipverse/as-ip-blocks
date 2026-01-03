@@ -1,9 +1,12 @@
 {
-  "asn": 25400,
-  "handle": "TELIA-NORWAY-AS",
-  "description": "Telia Norge AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25400,
+  "metadata" : {
+    "handle" : "TELIA-NORWAY-AS",
+    "description" : "Telia Norge AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.83.224.0/21",
       "5.153.104.0/21",
       "46.212.0.0/16",
@@ -79,7 +82,7 @@
       "213.236.128.0/17",
       "217.68.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:69c::/48",
       "2001:67c:c2c::/48",
       "2a02:228::/29",

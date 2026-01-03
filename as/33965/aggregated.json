@@ -1,9 +1,12 @@
 {
-  "asn": 33965,
-  "handle": "LITECOM",
-  "description": "LITECOM AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33965,
+  "metadata" : {
+    "handle" : "LITECOM",
+    "description" : "LITECOM AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.144.192.0/18",
       "91.212.109.0/24",
       "91.213.194.0/24",
@@ -13,7 +16,7 @@
       "193.228.197.0/24",
       "195.162.166.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:e70::/32"
     ]
   }

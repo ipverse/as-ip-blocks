@@ -1,9 +1,12 @@
 {
-  "asn": 198239,
-  "handle": "OLLINK-AS",
-  "description": "OLLINK SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198239,
+  "metadata" : {
+    "handle" : "OLLINK-AS",
+    "description" : "OLLINK SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.245.34.0/24",
       "80.245.46.0/24",
       "91.232.224.0/24",
@@ -11,7 +14,7 @@
       "185.198.76.0/22",
       "193.17.196.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:25e4::/48",
       "2001:978:9e01::/48"
     ]

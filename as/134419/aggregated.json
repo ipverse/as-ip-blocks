@@ -1,9 +1,12 @@
 {
-  "asn": 134419,
-  "handle": "CHINATELECOM-GUANGXI-BEIHAI-MAN",
-  "description": "Beihai",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134419,
+  "metadata" : {
+    "handle" : "CHINATELECOM-GUANGXI-BEIHAI-MAN",
+    "description" : "Beihai",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "106.127.184.0/21",
       "113.14.100.0/22",
       "113.14.104.0/21",
@@ -50,7 +53,7 @@
       "222.218.160.0/20",
       "222.218.176.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:9:6000::/36",
       "240e:49:9000::/38",
       "240e:a6::/35",

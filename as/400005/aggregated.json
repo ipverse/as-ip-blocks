@@ -1,12 +1,15 @@
 {
-  "asn": 400005,
-  "handle": "WILCO-WIRELESS",
-  "description": "Wilco Wireless Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400005,
+  "metadata" : {
+    "handle" : "WILCO-WIRELESS",
+    "description" : "Wilco Wireless Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.185.240.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc46::/38"
     ]
   }

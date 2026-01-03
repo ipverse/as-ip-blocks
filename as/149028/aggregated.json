@@ -1,11 +1,14 @@
 {
-  "asn": 149028,
-  "handle": "HIC-AS-AP",
-  "description": "HAMS internet connection",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149028,
+  "metadata" : {
+    "handle" : "HIC-AS-AP",
+    "description" : "HAMS internet connection",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.176.248.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

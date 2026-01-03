@@ -1,9 +1,12 @@
 {
-  "asn": 125,
-  "handle": "HI-NET-AS",
-  "description": "Honeywell International Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 125,
+  "metadata" : {
+    "handle" : "HI-NET-AS",
+    "description" : "Honeywell International Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.35.217.0/24",
       "103.232.224.0/24",
       "199.62.28.0/23",
@@ -30,6 +33,6 @@
       "199.64.222.0/24",
       "199.64.226.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

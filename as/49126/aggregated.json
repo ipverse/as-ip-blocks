@@ -1,9 +1,12 @@
 {
-  "asn": 49126,
-  "handle": "AS49126",
-  "description": "IHS Kurumsal Teknoloji Hizmetleri A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49126,
+  "metadata" : {
+    "handle" : "AS49126",
+    "description" : "IHS Kurumsal Teknoloji Hizmetleri A.S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.102.90.0/23",
       "94.138.192.0/19",
       "185.48.180.0/22",
@@ -12,6 +15,6 @@
       "185.153.220.0/22",
       "185.216.112.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

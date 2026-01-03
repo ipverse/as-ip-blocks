@@ -1,13 +1,16 @@
 {
-  "asn": 8241,
-  "handle": "RELLINE-AS",
-  "description": "Nets and Services JCS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8241,
+  "metadata" : {
+    "handle" : "RELLINE-AS",
+    "description" : "Nets and Services JCS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.146.64.0/19",
       "213.181.0.0/20",
       "213.181.16.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 29802,
-  "handle": "HVC-AS",
-  "description": "HIVELOCITY Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29802,
+  "metadata" : {
+    "handle" : "HVC-AS",
+    "description" : "HIVELOCITY Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.22.0/24",
       "2.58.28.0/24",
       "5.102.104.0/22",
@@ -485,7 +488,7 @@
       "217.79.252.0/23",
       "217.79.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f5b3:1::/48",
       "2602:f972:a::/48",
       "2602:f972:10::/48",

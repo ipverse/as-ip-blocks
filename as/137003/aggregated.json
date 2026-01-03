@@ -1,12 +1,15 @@
 {
-  "asn": 137003,
-  "handle": "INSEAD1-AS-AP",
-  "description": "INSEAD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137003,
+  "metadata" : {
+    "handle" : "INSEAD1-AS-AP",
+    "description" : "INSEAD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.101.238.0/24",
       "185.216.95.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

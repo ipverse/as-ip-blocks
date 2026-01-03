@@ -1,9 +1,12 @@
 {
-  "asn": 23749,
-  "handle": "GLOBAL-TRANSIT-AS-HKCOLO-AP",
-  "description": "hkcolo limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23749,
+  "metadata" : {
+    "handle" : "GLOBAL-TRANSIT-AS-HKCOLO-AP",
+    "description" : "hkcolo limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "112.213.64.0/24",
       "112.213.69.0/24",
       "112.213.79.0/24",
@@ -12,7 +15,7 @@
       "202.122.108.0/23",
       "202.122.110.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:3c60::/32"
     ]
   }

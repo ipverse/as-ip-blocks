@@ -1,16 +1,19 @@
 {
-  "asn": 135310,
-  "handle": "INSPIREBROADBAND-AS-AP",
-  "description": "Inspire Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135310,
+  "metadata" : {
+    "handle" : "INSPIREBROADBAND-AS-AP",
+    "description" : "Inspire Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.148.179.0/24",
       "103.213.236.0/22",
       "163.61.106.0/23",
       "165.101.176.0/23",
       "192.140.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:d940::/48",
       "2401:ee60::/32",
       "2404:b180::/32"

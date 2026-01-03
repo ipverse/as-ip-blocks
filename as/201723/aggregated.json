@@ -1,12 +1,15 @@
 {
-  "asn": 201723,
-  "handle": "RVDMEIJDEN-AS",
-  "description": "R. van der Meijden",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201723,
+  "metadata" : {
+    "handle" : "RVDMEIJDEN-AS",
+    "description" : "R. van der Meijden",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.54.95.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:3d4::/48",
       "2001:67c:6bc::/48"
     ]

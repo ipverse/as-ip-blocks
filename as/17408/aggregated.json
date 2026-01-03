@@ -1,9 +1,12 @@
 {
-  "asn": 17408,
-  "handle": "ABOVE-AS-AP",
-  "description": "AboveNet Communications Taiwan Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17408,
+  "metadata" : {
+    "handle" : "ABOVE-AS-AP",
+    "description" : "AboveNet Communications Taiwan Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.243.255.0/24",
       "103.5.116.0/22",
       "103.123.140.0/22",
@@ -50,7 +53,7 @@
       "223.26.69.0/24",
       "223.26.70.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:7e00:1::/48",
       "2405:7e00:17::/48",
       "2405:7e00:1000::/36",

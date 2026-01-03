@@ -1,13 +1,17 @@
 {
-  "asn": 135632,
-  "handle": "CNSPL-AS-AP",
-  "description": "Cactus Network Solutions (CNS) Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135632,
+  "metadata" : {
+    "handle" : "CNSPL-AS-AP",
+    "description" : "Cactus Network Solutions (CNS) Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.77.9.0/24",
       "103.77.10.0/23",
-      "116.206.164.0/22"
+      "116.206.165.0/24",
+      "116.206.166.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

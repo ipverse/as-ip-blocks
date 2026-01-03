@@ -1,13 +1,16 @@
 {
-  "asn": 151004,
-  "handle": "IDNIC-JARINGANPUTRANUSANTARA-AS-ID",
-  "description": "PT Jaringan Putra Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151004,
+  "metadata" : {
+    "handle" : "IDNIC-JARINGANPUTRANUSANTARA-AS-ID",
+    "description" : "PT Jaringan Putra Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.214.250.0/24",
       "103.251.69.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:b0c0::/48"
     ]
   }

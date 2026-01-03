@@ -1,9 +1,12 @@
 {
-  "asn": 58682,
-  "handle": "LEVEL3-BD",
-  "description": "LEVEL3 CARRIER LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58682,
+  "metadata" : {
+    "handle" : "LEVEL3-BD",
+    "description" : "LEVEL3 CARRIER LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.224.115.0/24",
       "43.228.209.0/24",
       "103.15.40.0/22",
@@ -14,7 +17,7 @@
       "103.230.16.0/23",
       "202.181.16.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:c900::/45",
       "2404:c900:8::/48",
       "2404:c900:a::/47",

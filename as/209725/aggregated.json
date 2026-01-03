@@ -1,15 +1,18 @@
 {
-  "asn": 209725,
-  "handle": "FASTFIBER",
-  "description": "Localitel bvba",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209725,
+  "metadata" : {
+    "handle" : "FASTFIBER",
+    "description" : "Localitel bvba",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.86.93.0/24",
       "45.86.95.0/24",
       "78.24.120.0/24",
       "93.92.17.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:69c0::/32"
     ]
   }

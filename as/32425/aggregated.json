@@ -1,14 +1,17 @@
 {
-  "asn": 32425,
-  "handle": "SKB3-ARIN-BGP",
-  "description": "Pixel Factory",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32425,
+  "metadata" : {
+    "handle" : "SKB3-ARIN-BGP",
+    "description" : "Pixel Factory",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.181.229.0/24",
       "204.122.18.0/24",
       "208.73.136.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:29e0::/32",
       "2620:a8:c000::/48"
     ]

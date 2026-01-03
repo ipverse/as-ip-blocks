@@ -1,12 +1,15 @@
 {
-  "asn": 395033,
-  "handle": "FIBERDROPLLC",
-  "description": "fiberdrop LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395033,
+  "metadata" : {
+    "handle" : "FIBERDROPLLC",
+    "description" : "fiberdrop LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.129.128.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff19::/36"
     ]
   }

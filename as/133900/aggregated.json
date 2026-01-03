@@ -1,12 +1,15 @@
 {
-  "asn": 133900,
-  "handle": "GSI-AP",
-  "description": "Gilead Sciences Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133900,
+  "metadata" : {
+    "handle" : "GSI-AP",
+    "description" : "Gilead Sciences Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.44.102.0/23",
       "171.22.100.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

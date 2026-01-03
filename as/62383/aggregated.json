@@ -1,12 +1,15 @@
 {
-  "asn": 62383,
-  "handle": "LDS-AS",
-  "description": "Lambrechts Data Services VOF",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62383,
+  "metadata" : {
+    "handle" : "LDS-AS",
+    "description" : "Lambrechts Data Services VOF",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.18.150.0/24",
       "188.210.92.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

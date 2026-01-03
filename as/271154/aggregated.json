@@ -1,13 +1,16 @@
 {
-  "asn": 271154,
-  "handle": "IHG-SERVICOS-TELECOM",
-  "description": "IHG SERVICOS TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271154,
+  "metadata" : {
+    "handle" : "IHG-SERVICOS-TELECOM",
+    "description" : "IHG SERVICOS TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.42.144.0/23",
       "179.42.147.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7718::/32"
     ]
   }

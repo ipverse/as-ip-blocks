@@ -1,9 +1,12 @@
 {
-  "asn": 7734,
-  "handle": "TDBANK",
-  "description": "Toronto Dominion Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7734,
+  "metadata" : {
+    "handle" : "TDBANK",
+    "description" : "Toronto Dominion Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.108.217.0/24",
       "142.205.0.0/23",
       "142.205.2.0/24",
@@ -41,6 +44,6 @@
       "162.12.220.0/22",
       "162.12.236.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

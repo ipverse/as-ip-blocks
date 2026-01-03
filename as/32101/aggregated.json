@@ -1,12 +1,15 @@
 {
-  "asn": 32101,
-  "handle": "ASN-KLYS",
-  "description": "Kelly Supply Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32101,
+  "metadata" : {
+    "handle" : "ASN-KLYS",
+    "description" : "Kelly Supply Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.20.192.0/20",
       "69.20.208.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

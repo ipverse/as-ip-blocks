@@ -1,9 +1,12 @@
 {
-  "asn": 48950,
-  "handle": "GLOBALCOLOCATION",
-  "description": "Global Custom Data Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48950,
+  "metadata" : {
+    "handle" : "GLOBALCOLOCATION",
+    "description" : "Global Custom Data Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.222.3.0/24",
       "158.222.5.0/24",
       "158.222.7.0/24",
@@ -35,6 +38,6 @@
       "196.245.231.0/24",
       "196.247.144.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

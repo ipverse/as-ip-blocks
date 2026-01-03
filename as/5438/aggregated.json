@@ -1,9 +1,12 @@
 {
-  "asn": 5438,
-  "handle": "ATI-TN",
-  "description": "Agence Tunisienne d\u0027Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5438,
+  "metadata" : {
+    "handle" : "ATI-TN",
+    "description" : "Agence Tunisienne d'Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.240.0.0/24",
       "102.240.6.0/24",
       "102.240.8.0/23",
@@ -26,6 +29,6 @@
       "197.11.44.0/23",
       "197.11.47.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

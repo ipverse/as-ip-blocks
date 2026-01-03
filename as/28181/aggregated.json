@@ -1,12 +1,15 @@
 {
-  "asn": 28181,
-  "handle": "MASTER-TELECOM",
-  "description": "MASTER TELECOM LTDA ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28181,
+  "metadata" : {
+    "handle" : "MASTER-TELECOM",
+    "description" : "MASTER TELECOM LTDA ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.97.16.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:dac::/32"
     ]
   }

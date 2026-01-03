@@ -1,12 +1,15 @@
 {
-  "asn": 40035,
-  "handle": "HASTINGS-INSURANCE-CO",
-  "description": "Hastings Insurance Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40035,
+  "metadata" : {
+    "handle" : "HASTINGS-INSURANCE-CO",
+    "description" : "Hastings Insurance Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.204.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:a7:c000::/47",
       "2620:a7:c004::/47"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 400439,
-  "handle": "CONSOLIDATEDTELCOM-AS",
-  "description": "Consolidated Telcom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400439,
+  "metadata" : {
+    "handle" : "CONSOLIDATEDTELCOM-AS",
+    "description" : "Consolidated Telcom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.51.224.0/20",
       "72.20.64.0/19",
       "104.192.24.0/22",
@@ -16,6 +19,6 @@
       "199.45.232.0/22",
       "204.153.0.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

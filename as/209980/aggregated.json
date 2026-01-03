@@ -1,12 +1,15 @@
 {
-  "asn": 209980,
-  "handle": "MARLINK-EU-OMNIACCESS",
-  "description": "Marlink AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209980,
+  "metadata" : {
+    "handle" : "MARLINK-EU-OMNIACCESS",
+    "description" : "Marlink AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.185.140.0/24",
       "193.220.160.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

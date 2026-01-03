@@ -1,12 +1,15 @@
 {
-  "asn": 152392,
-  "handle": "IDNIC-BJN-AS-ID",
-  "description": "PT Bakung Jaya Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152392,
+  "metadata" : {
+    "handle" : "IDNIC-BJN-AS-ID",
+    "description" : "PT Bakung Jaya Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.20.44.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:c340::/48"
     ]
   }

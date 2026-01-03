@@ -1,14 +1,17 @@
 {
-  "asn": 141077,
-  "handle": "RSTNET-AS-ID",
-  "description": "RSTNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141077,
+  "metadata" : {
+    "handle" : "RSTNET-AS-ID",
+    "description" : "RSTNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.156.16.0/23",
       "103.173.162.0/24",
       "103.178.2.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:7bc0::/32"
     ]
   }

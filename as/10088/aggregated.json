@@ -1,9 +1,12 @@
 {
-  "asn": 10088,
-  "handle": "KWANGWOON-AS",
-  "description": "KWANGWOON UNIVERSITY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10088,
+  "metadata" : {
+    "handle" : "KWANGWOON-AS",
+    "description" : "KWANGWOON UNIVERSITY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "114.70.61.0/24",
       "114.70.62.0/23",
       "114.70.64.0/23",
@@ -26,6 +29,6 @@
       "223.194.48.0/23",
       "223.194.53.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 136384,
-  "handle": "OPTIX-AS-AP",
-  "description": "Optix Pakistan (Pvt.) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136384,
+  "metadata" : {
+    "handle" : "OPTIX-AS-AP",
+    "description" : "Optix Pakistan (Pvt.) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.251.252.0/22",
       "103.86.52.0/22",
       "202.165.227.0/24",
@@ -17,7 +20,7 @@
       "205.164.128.0/19",
       "206.0.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:b940:a::/47",
       "2400:b940:c::/46",
       "2400:b940:10::/46",

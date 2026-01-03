@@ -1,9 +1,12 @@
 {
-  "asn": 62314,
-  "handle": "ATMOSPHERICA-AS",
-  "description": "Atmospherica Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62314,
+  "metadata" : {
+    "handle" : "ATMOSPHERICA-AS",
+    "description" : "Atmospherica Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.20.37.0/24",
       "89.20.38.0/23",
       "89.20.40.0/24",
@@ -16,6 +19,6 @@
       "93.171.178.0/23",
       "146.120.91.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

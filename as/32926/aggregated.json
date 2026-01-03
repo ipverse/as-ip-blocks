@@ -1,12 +1,15 @@
 {
-  "asn": 32926,
-  "handle": "MSLC",
-  "description": "Massachusetts State Lottery Commission",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32926,
+  "metadata" : {
+    "handle" : "MSLC",
+    "description" : "Massachusetts State Lottery Commission",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.247.182.0/24",
       "67.217.231.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

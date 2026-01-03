@@ -1,12 +1,15 @@
 {
-  "asn": 43031,
-  "handle": "V-LAN-AS",
-  "description": "V-LAN OOO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43031,
+  "metadata" : {
+    "handle" : "V-LAN-AS",
+    "description" : "V-LAN OOO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.202.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2000::/48"
     ]
   }

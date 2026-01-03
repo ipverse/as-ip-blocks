@@ -1,9 +1,12 @@
 {
-  "asn": 55134,
-  "handle": "SKYNET360-LLC-7863492000",
-  "description": "SKYNET360 LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55134,
+  "metadata" : {
+    "handle" : "SKYNET360-LLC-7863492000",
+    "description" : "SKYNET360 LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.173.72.0/24",
       "69.54.224.0/24",
       "69.54.227.0/24",
@@ -11,7 +14,7 @@
       "70.42.200.0/22",
       "172.111.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc67::/36"
     ]
   }

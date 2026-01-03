@@ -1,14 +1,17 @@
 {
-  "asn": 29259,
-  "handle": "DE-IABG-TELEPORT",
-  "description": "IABG Teleport GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29259,
+  "metadata" : {
+    "handle" : "DE-IABG-TELEPORT",
+    "description" : "IABG Teleport GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.170.0.0/18",
       "84.11.0.0/16",
       "102.213.196.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1b10::/32"
     ]
   }

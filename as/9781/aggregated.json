@@ -1,9 +1,12 @@
 {
-  "asn": 9781,
-  "handle": "GCS-AS",
-  "description": "GREEN CABLE TELEVISION STATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9781,
+  "metadata" : {
+    "handle" : "GCS-AS",
+    "description" : "GREEN CABLE TELEVISION STATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.113.0.0/17",
       "114.199.0.0/18",
       "119.17.0.0/19",
@@ -11,6 +14,6 @@
       "121.55.128.0/18",
       "125.208.192.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

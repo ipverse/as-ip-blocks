@@ -1,13 +1,16 @@
 {
-  "asn": 12259,
-  "handle": "EBOCOM",
-  "description": "EBOCOM LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12259,
+  "metadata" : {
+    "handle" : "EBOCOM",
+    "description" : "EBOCOM LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.201.111.0/24",
       "206.83.206.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:115:2000::/47",
       "2620:115:2002::/48"
     ]

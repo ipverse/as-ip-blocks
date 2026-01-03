@@ -1,14 +1,17 @@
 {
-  "asn": 39847,
-  "handle": "CAP-CONNEXION-AS",
-  "description": "C@P CONNEXION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39847,
+  "metadata" : {
+    "handle" : "CAP-CONNEXION-AS",
+    "description" : "C@P CONNEXION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.185.160.0/19",
       "178.18.176.0/20",
       "185.150.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:b280::/32"
     ]
   }

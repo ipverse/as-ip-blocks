@@ -1,11 +1,14 @@
 {
-  "asn": 135365,
-  "handle": "SMIRITY-AS-AP",
-  "description": "Smirity Cable",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135365,
+  "metadata" : {
+    "handle" : "SMIRITY-AS-AP",
+    "description" : "Smirity Cable",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.253.176.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

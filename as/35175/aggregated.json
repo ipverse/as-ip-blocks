@@ -1,13 +1,16 @@
 {
-  "asn": 35175,
-  "handle": "OUKA-AS",
-  "description": "Oulun kaupunki",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35175,
+  "metadata" : {
+    "handle" : "OUKA-AS",
+    "description" : "Oulun kaupunki",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.194.208.0/21",
       "85.194.216.0/22",
       "185.117.220.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

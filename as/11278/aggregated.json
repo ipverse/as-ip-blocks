@@ -1,9 +1,12 @@
 {
-  "asn": 11278,
-  "handle": "NINTENDO",
-  "description": "Nintendo Of America inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11278,
+  "metadata" : {
+    "handle" : "NINTENDO",
+    "description" : "Nintendo Of America inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.14.212.0/24",
       "8.45.177.0/24",
       "173.226.198.0/24",
@@ -14,7 +17,7 @@
       "205.166.76.0/24",
       "207.108.201.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:a0:e0::/48"
     ]
   }

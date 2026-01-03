@@ -1,9 +1,12 @@
 {
-  "asn": 48266,
-  "handle": "AS-CATIXS",
-  "description": "Catixs Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48266,
+  "metadata" : {
+    "handle" : "AS-CATIXS",
+    "description" : "Catixs Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.61.0/24",
       "43.252.22.0/24",
       "45.67.200.0/23",
@@ -31,7 +34,7 @@
       "212.135.40.0/21",
       "212.135.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:9320::/48",
       "2a06:a005:90::/44",
       "2a06:a005:a0::/44",

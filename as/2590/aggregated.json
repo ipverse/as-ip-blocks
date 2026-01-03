@@ -1,15 +1,18 @@
 {
-  "asn": 2590,
-  "handle": "DTP-AS",
-  "description": "Data Techno Park Sp. z o. o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2590,
+  "metadata" : {
+    "handle" : "DTP-AS",
+    "description" : "Data Techno Park Sp. z o. o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.133.144.0/22",
       "85.219.244.0/22",
       "89.174.32.0/23",
       "89.174.229.0/24",
       "185.125.124.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

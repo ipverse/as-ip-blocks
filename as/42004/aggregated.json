@@ -1,9 +1,12 @@
 {
-  "asn": 42004,
-  "handle": "ULGRP-AS",
-  "description": "VOIP-UN LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42004,
+  "metadata" : {
+    "handle" : "ULGRP-AS",
+    "description" : "VOIP-UN LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.10.32.0/20",
       "85.91.32.0/22",
       "91.151.0.0/20",
@@ -12,7 +15,7 @@
       "194.143.154.0/23",
       "195.8.192.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:19d8::/32"
     ]
   }

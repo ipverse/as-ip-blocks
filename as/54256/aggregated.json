@@ -1,13 +1,16 @@
 {
-  "asn": 54256,
-  "handle": "VELOCITY-COMMUNICATIONS",
-  "description": "Velocity Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54256,
+  "metadata" : {
+    "handle" : "VELOCITY-COMMUNICATIONS",
+    "description" : "Velocity Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.153.168.0/24",
       "198.252.222.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:2d9::/32"
     ]
   }

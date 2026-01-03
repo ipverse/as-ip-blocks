@@ -1,9 +1,12 @@
 {
-  "asn": 4917,
-  "handle": "AMDOCS-AS",
-  "description": "AMDOCS Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4917,
+  "metadata" : {
+    "handle" : "AMDOCS-AS",
+    "description" : "AMDOCS Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.187.160.0/21",
       "12.200.76.0/24",
       "12.232.86.0/24",
@@ -19,6 +22,6 @@
       "216.99.194.0/24",
       "216.208.197.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

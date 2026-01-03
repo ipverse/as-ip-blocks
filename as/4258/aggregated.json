@@ -1,14 +1,17 @@
 {
-  "asn": 4258,
-  "handle": "ATG-4258",
-  "description": "Accretive Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4258,
+  "metadata" : {
+    "handle" : "ATG-4258",
+    "description" : "Accretive Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.66.184.0/24",
       "207.66.190.0/23",
       "207.178.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:e600::/32"
     ]
   }

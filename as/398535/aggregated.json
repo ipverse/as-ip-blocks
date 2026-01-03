@@ -1,16 +1,19 @@
 {
-  "asn": 398535,
-  "handle": "ESUHSD-ASN-1",
-  "description": "EAST SIDE UNION HIGH SCHOOL DIST",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398535,
+  "metadata" : {
+    "handle" : "ESUHSD-ASN-1",
+    "description" : "EAST SIDE UNION HIGH SCHOOL DIST",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.91.0.0/17",
       "170.91.192.0/18",
       "198.148.64.0/21",
       "198.148.72.0/22",
       "198.148.76.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:137:1000::/40"
     ]
   }

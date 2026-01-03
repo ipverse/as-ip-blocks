@@ -1,15 +1,18 @@
 {
-  "asn": 25731,
-  "handle": "KNOX-BOX-NETWORKS",
-  "description": "Knox Box Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25731,
+  "metadata" : {
+    "handle" : "KNOX-BOX-NETWORKS",
+    "description" : "Knox Box Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.145.216.0/24",
       "44.56.128.0/24",
       "44.90.55.0/24",
       "142.202.95.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fab5::/40"
     ]
   }

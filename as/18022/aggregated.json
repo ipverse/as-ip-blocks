@@ -1,11 +1,14 @@
 {
-  "asn": 18022,
-  "handle": "SMART-AS-AP",
-  "description": "SMART NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18022,
+  "metadata" : {
+    "handle" : "SMART-AS-AP",
+    "description" : "SMART NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.72.214.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 7011,
-  "handle": "FRONTIER-AND-CITIZENS",
-  "description": "Frontier Communications of America Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7011,
+  "metadata" : {
+    "handle" : "FRONTIER-AND-CITIZENS",
+    "description" : "Frontier Communications of America Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.52.95.0/24",
       "50.33.6.0/24",
       "50.36.196.0/22",
@@ -306,6 +309,6 @@
       "216.67.218.0/24",
       "216.67.220.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

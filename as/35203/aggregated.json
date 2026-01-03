@@ -1,12 +1,15 @@
 {
-  "asn": 35203,
-  "handle": "CH-GOLDENPHONE",
-  "description": "Goldenphone GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35203,
+  "metadata" : {
+    "handle" : "CH-GOLDENPHONE",
+    "description" : "Goldenphone GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.67.48.0/22",
       "154.44.132.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 150452,
-  "handle": "LANDUPS-AS-AP",
-  "description": "LANDUPS LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150452,
+  "metadata" : {
+    "handle" : "LANDUPS-AS-AP",
+    "description" : "LANDUPS LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.28.68.0/24",
       "103.46.184.0/23",
       "103.135.101.0/24",
@@ -12,7 +15,7 @@
       "162.245.220.0/23",
       "208.87.96.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:c620:10::/47",
       "2400:c620:12::/48",
       "2400:c620:20::/44"

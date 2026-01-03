@@ -1,9 +1,12 @@
 {
-  "asn": 216383,
-  "handle": "ONLINESERVER2",
-  "description": "ONLINE SERVER TELEKOMUNIKASYON LIMITED SIRKETI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216383,
+  "metadata" : {
+    "handle" : "ONLINESERVER2",
+    "description" : "ONLINE SERVER TELEKOMUNIKASYON LIMITED SIRKETI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.90.51.0/24",
       "45.136.5.0/24",
       "87.248.129.0/24",
@@ -13,7 +16,7 @@
       "185.81.98.0/24",
       "193.111.76.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:3e40::/29",
       "2a13:c4c7::/32"
     ]

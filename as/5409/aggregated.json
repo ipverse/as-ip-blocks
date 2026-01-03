@@ -1,14 +1,17 @@
 {
-  "asn": 5409,
-  "handle": "TPL-ASN",
-  "description": "toplink GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5409,
+  "metadata" : {
+    "handle" : "TPL-ASN",
+    "description" : "toplink GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.95.80.0/22",
       "212.126.192.0/19",
       "213.218.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4180::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 48294,
-  "handle": "CC-AS",
-  "description": "Spectrum Internet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48294,
+  "metadata" : {
+    "handle" : "CC-AS",
+    "description" : "Spectrum Internet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.86.222.0/23",
       "45.91.36.0/22",
       "91.132.128.0/22",
@@ -20,6 +23,6 @@
       "188.164.224.0/21",
       "194.150.200.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

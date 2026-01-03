@@ -1,9 +1,12 @@
 {
-  "asn": 400633,
-  "handle": "PRTC-MCKEE",
-  "description": "Peoples Rural Telephone Cooperative Corporation Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400633,
+  "metadata" : {
+    "handle" : "PRTC-MCKEE",
+    "description" : "Peoples Rural Telephone Cooperative Corporation Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.226.160.0/20",
       "64.119.48.0/20",
       "64.190.44.0/22",
@@ -23,6 +26,6 @@
       "168.100.48.0/20",
       "216.246.204.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

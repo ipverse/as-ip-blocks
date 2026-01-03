@@ -1,9 +1,12 @@
 {
-  "asn": 11700,
-  "handle": "CA-CW-E",
-  "description": "CW-E",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11700,
+  "metadata" : {
+    "handle" : "CA-CW-E",
+    "description" : "CW-E",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.207.0.0/16",
       "199.71.12.0/24",
       "199.71.141.0/24",
@@ -17,6 +20,6 @@
       "207.219.101.0/24",
       "209.202.75.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 12834,
-  "handle": "DANFOSS-AS",
-  "description": "Danfoss A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12834,
+  "metadata" : {
+    "handle" : "DANFOSS-AS",
+    "description" : "Danfoss A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.162.34.0/24",
       "194.175.35.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

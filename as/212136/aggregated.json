@@ -1,9 +1,12 @@
 {
-  "asn": 212136,
-  "handle": "NUBES",
-  "description": "NUBES llc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212136,
+  "metadata" : {
+    "handle" : "NUBES",
+    "description" : "NUBES llc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.172.178.0/24",
       "5.181.12.0/24",
       "81.22.46.0/23",
@@ -16,7 +19,7 @@
       "194.31.9.0/24",
       "213.232.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:aa80::/29"
     ]
   }

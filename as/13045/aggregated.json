@@ -1,9 +1,12 @@
 {
-  "asn": 13045,
-  "handle": "HTP-AS",
-  "description": "htp GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13045,
+  "metadata" : {
+    "handle" : "HTP-AS",
+    "description" : "htp GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.156.124.0/23",
       "45.156.126.0/24",
       "81.14.128.0/17",
@@ -16,7 +19,7 @@
       "195.8.104.0/24",
       "212.59.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:7d4::/48",
       "2001:678:9d4::/48",
       "2001:678:b10::/48",

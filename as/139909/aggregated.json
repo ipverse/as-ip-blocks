@@ -1,12 +1,15 @@
 {
-  "asn": 139909,
-  "handle": "COLLECTIVEGATEWAY-AS-AP",
-  "description": "COLLECTIVE GATEWAY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139909,
+  "metadata" : {
+    "handle" : "COLLECTIVEGATEWAY-AS-AP",
+    "description" : "COLLECTIVE GATEWAY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.146.248.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:7480::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 54004,
-  "handle": "OPTIMUM-WIFI2",
-  "description": "Optimum WiFi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54004,
+  "metadata" : {
+    "handle" : "OPTIMUM-WIFI2",
+    "description" : "Optimum WiFi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.141.124.0/24",
       "23.141.132.0/24",
       "23.142.60.0/24",
@@ -91,7 +94,7 @@
       "216.107.18.0/24",
       "216.155.18.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fda8::/32"
     ]
   }

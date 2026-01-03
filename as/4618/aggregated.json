@@ -1,9 +1,12 @@
 {
-  "asn": 4618,
-  "handle": "INET-TH-AS",
-  "description": "Internet Thailand Company Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4618,
+  "metadata" : {
+    "handle" : "INET-TH-AS",
+    "description" : "Internet Thailand Company Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.159.240.0/20",
       "103.125.92.0/22",
       "103.138.176.0/22",
@@ -14,7 +17,7 @@
       "203.154.0.0/16",
       "210.4.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:c00::/32",
       "2403:f040:14::/48"
     ]

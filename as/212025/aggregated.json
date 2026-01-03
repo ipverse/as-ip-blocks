@@ -1,13 +1,16 @@
 {
-  "asn": 212025,
-  "handle": "CUKMAN-AS",
-  "description": "Cukman Kresimir",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212025,
+  "metadata" : {
+    "handle" : "CUKMAN-AS",
+    "description" : "Cukman Kresimir",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.158.145.0/24",
       "193.124.207.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:2406:11ea::/48"
     ]
   }

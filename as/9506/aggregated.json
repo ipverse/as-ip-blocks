@@ -1,9 +1,12 @@
 {
-  "asn": 9506,
-  "handle": "SINGTEL-FIBRE",
-  "description": "Singapore Telecommunications Ltd Magix Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9506,
+  "metadata" : {
+    "handle" : "SINGTEL-FIBRE",
+    "description" : "Singapore Telecommunications Ltd Magix Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.100.0.0/17",
       "42.60.0.0/16",
       "42.61.128.0/17",
@@ -43,7 +46,7 @@
       "220.255.64.0/18",
       "220.255.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:d800::/30"
     ]
   }

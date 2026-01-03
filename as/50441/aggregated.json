@@ -1,11 +1,14 @@
 {
-  "asn": 50441,
-  "handle": "KVNO-AS",
-  "description": "Kassenaerztliche Vereinigung Nordrhein",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50441,
+  "metadata" : {
+    "handle" : "KVNO-AS",
+    "description" : "Kassenaerztliche Vereinigung Nordrhein",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.105.19.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

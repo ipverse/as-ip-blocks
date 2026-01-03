@@ -1,13 +1,16 @@
 {
-  "asn": 53866,
-  "handle": "QTS-AS",
-  "description": "Omeda Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53866,
+  "metadata" : {
+    "handle" : "QTS-AS",
+    "description" : "Omeda Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.180.130.0/24",
       "205.162.40.0/21",
       "209.10.197.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

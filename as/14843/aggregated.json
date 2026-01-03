@@ -1,9 +1,12 @@
 {
-  "asn": 14843,
-  "handle": "THINGS-NET",
-  "description": "1610851 Ontario Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14843,
+  "metadata" : {
+    "handle" : "THINGS-NET",
+    "description" : "1610851 Ontario Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.75.253.0/24",
       "198.96.117.0/24",
       "198.96.118.0/23",
@@ -14,6 +17,6 @@
       "204.138.156.0/23",
       "205.189.135.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

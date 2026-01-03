@@ -1,9 +1,12 @@
 {
-  "asn": 53987,
-  "handle": "ENBRIDGEPIPELINES",
-  "description": "Enbridge Pipelines Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53987,
+  "metadata" : {
+    "handle" : "ENBRIDGEPIPELINES",
+    "description" : "Enbridge Pipelines Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.141.1.0/24",
       "161.141.2.0/23",
       "161.141.5.0/24",
@@ -16,6 +19,6 @@
       "161.141.64.0/24",
       "207.34.126.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

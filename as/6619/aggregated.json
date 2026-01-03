@@ -1,9 +1,12 @@
 {
-  "asn": 6619,
-  "handle": "SAMSUNGSDS-AS",
-  "description": "SamsungSDS Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6619,
+  "metadata" : {
+    "handle" : "SAMSUNGSDS-AS",
+    "description" : "SamsungSDS Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "4.35.69.0/24",
       "8.30.92.0/24",
       "8.35.94.0/23",
@@ -49,7 +52,7 @@
       "211.45.0.0/19",
       "211.189.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:330::/32",
       "2404:181::/32",
       "2404:188::/30",

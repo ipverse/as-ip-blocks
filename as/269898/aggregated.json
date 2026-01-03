@@ -1,15 +1,18 @@
 {
-  "asn": 269898,
-  "handle": "SOFTBUTTERFLY",
-  "description": "SOFTBUTTERFLY SAC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269898,
+  "metadata" : {
+    "handle" : "SOFTBUTTERFLY",
+    "description" : "SOFTBUTTERFLY SAC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.19.100.0/24",
       "45.190.170.0/24",
       "45.191.196.0/22",
       "204.157.233.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:34e0::/32"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 214172,
-  "handle": "PURESERVERS",
-  "description": "DePowered Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214172,
+  "metadata" : {
+    "handle" : "PURESERVERS",
+    "description" : "DePowered Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.253.188.0/24",
       "23.189.104.0/24",
       "91.108.243.0/24",
       "212.192.4.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:6044:6200::/40"
     ]
   }

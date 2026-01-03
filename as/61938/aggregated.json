@@ -1,12 +1,15 @@
 {
-  "asn": 61938,
-  "handle": "MEGNET-TELECOM",
-  "description": "Meg@Net Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61938,
+  "metadata" : {
+    "handle" : "MEGNET-TELECOM",
+    "description" : "Meg@Net Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "201.130.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1888::/32"
     ]
   }

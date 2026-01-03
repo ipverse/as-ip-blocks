@@ -1,15 +1,18 @@
 {
-  "asn": 45272,
-  "handle": "HEXNET-AS-AP",
-  "description": "Hexaware Technologies Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45272,
+  "metadata" : {
+    "handle" : "HEXNET-AS-AP",
+    "description" : "Hexaware Technologies Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "115.69.80.0/22",
       "115.69.84.0/24",
       "115.69.88.0/24",
       "115.69.90.0/24",
       "115.69.95.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

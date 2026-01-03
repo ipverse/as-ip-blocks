@@ -1,9 +1,12 @@
 {
-  "asn": 202619,
-  "handle": "DOVECOM",
-  "description": "Dovecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202619,
+  "metadata" : {
+    "handle" : "DOVECOM",
+    "description" : "Dovecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.158.32.0/20",
       "176.109.176.0/20",
       "176.109.224.0/19",
@@ -11,7 +14,7 @@
       "193.192.36.0/23",
       "194.246.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:26f8::/48",
       "2a03:a9c0::/29",
       "2a0d:ec0::/29"

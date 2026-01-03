@@ -1,9 +1,12 @@
 {
-  "asn": 214798,
-  "handle": "VPS1",
-  "description": "Digital City FZE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214798,
+  "metadata" : {
+    "handle" : "VPS1",
+    "description" : "Digital City FZE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.129.140.0/24",
       "109.120.158.0/24",
       "130.49.160.0/24",
@@ -13,7 +16,7 @@
       "185.169.107.0/24",
       "194.135.46.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:31c0:cafe::/48"
     ]
   }

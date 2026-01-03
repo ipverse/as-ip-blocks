@@ -1,9 +1,12 @@
 {
-  "asn": 18241,
-  "handle": "SPINET",
-  "description": "State Power Information Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18241,
+  "metadata" : {
+    "handle" : "SPINET",
+    "description" : "State Power Information Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.77.176.0/22",
       "210.77.180.0/23",
       "210.77.182.0/24",
@@ -11,7 +14,7 @@
       "210.77.189.0/24",
       "210.77.190.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:6f00:c101::/48",
       "2405:6f00:c102::/48",
       "2405:6f00:c170::/47",

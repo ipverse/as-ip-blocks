@@ -1,11 +1,14 @@
 {
-  "asn": 44011,
-  "handle": "TKS2000-AS",
-  "description": "OOO TKS2000",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44011,
+  "metadata" : {
+    "handle" : "TKS2000-AS",
+    "description" : "OOO TKS2000",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.241.24.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 271968,
-  "handle": "CENTRIC-MOBILITY",
-  "description": "CENTRIC MOBILITY (CEMO) S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271968,
+  "metadata" : {
+    "handle" : "CENTRIC-MOBILITY",
+    "description" : "CENTRIC MOBILITY (CEMO) S.R.L",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.243.76.0/23",
       "168.243.78.0/24",
       "190.110.36.0/22",
       "217.76.245.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:2e10::/32"
     ]
   }

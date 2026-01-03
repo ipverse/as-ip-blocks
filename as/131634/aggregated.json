@@ -1,9 +1,12 @@
 {
-  "asn": 131634,
-  "handle": "MOBATW-AS",
-  "description": "MOBA Private Limited Taiwan Branch",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131634,
+  "metadata" : {
+    "handle" : "MOBATW-AS",
+    "description" : "MOBA Private Limited Taiwan Branch",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "60.199.50.0/24",
       "103.117.4.0/22",
       "103.127.228.0/22",
@@ -17,6 +20,6 @@
       "124.108.191.0/24",
       "210.17.80.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

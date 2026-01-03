@@ -1,9 +1,12 @@
 {
-  "asn": 9523,
-  "handle": "MOKWON-AS",
-  "description": "Mokwon University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9523,
+  "metadata" : {
+    "handle" : "MOKWON-AS",
+    "description" : "Mokwon University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.245.49.0/24",
       "1.245.50.0/24",
       "114.70.140.0/23",
@@ -19,6 +22,6 @@
       "220.81.195.0/24",
       "220.81.196.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

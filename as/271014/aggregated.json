@@ -1,12 +1,15 @@
 {
-  "asn": 271014,
-  "handle": "MDN-NETWORK",
-  "description": "MDN Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271014,
+  "metadata" : {
+    "handle" : "MDN-NETWORK",
+    "description" : "MDN Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "191.7.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:74f4::/32"
     ]
   }

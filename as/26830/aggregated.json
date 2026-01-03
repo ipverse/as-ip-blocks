@@ -1,12 +1,15 @@
 {
-  "asn": 26830,
-  "handle": "ASN-OPERS",
-  "description": "OPERS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26830,
+  "metadata" : {
+    "handle" : "ASN-OPERS",
+    "description" : "OPERS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.126.253.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:84:8000::/48"
     ]
   }

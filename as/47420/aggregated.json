@@ -1,12 +1,15 @@
 {
-  "asn": 47420,
-  "handle": "TOLUNA",
-  "description": "Toluna SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47420,
+  "metadata" : {
+    "handle" : "TOLUNA",
+    "description" : "Toluna SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "176.52.185.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:f181:3000::/48"
     ]
   }

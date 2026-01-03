@@ -1,15 +1,18 @@
 {
-  "asn": 10044,
-  "handle": "RDA-AS",
-  "description": "Rural Development Administration (RDA)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10044,
+  "metadata" : {
+    "handle" : "RDA-AS",
+    "description" : "Rural Development Administration (RDA)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.241.54.0/23",
       "203.241.57.0/24",
       "203.241.59.0/24",
       "203.241.60.0/23",
       "203.241.70.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

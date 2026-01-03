@@ -1,14 +1,17 @@
 {
-  "asn": 47689,
-  "handle": "PUDU",
-  "description": "Pudu LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47689,
+  "metadata" : {
+    "handle" : "PUDU",
+    "description" : "Pudu LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.144.196.0/24",
       "64.187.208.0/23",
       "91.193.114.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:81c::/48",
       "2001:67c:b90::/48",
       "2602:f57d::/40",

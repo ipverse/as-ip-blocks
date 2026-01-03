@@ -1,13 +1,16 @@
 {
-  "asn": 137959,
-  "handle": "VTL-AS-AP",
-  "description": "Vision Technologies Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137959,
+  "metadata" : {
+    "handle" : "VTL-AS-AP",
+    "description" : "Vision Technologies Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.31.178.0/23",
       "103.118.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:2e40:1::/48",
       "2403:2e40:2::/47",
       "2403:2e40:10::/48"

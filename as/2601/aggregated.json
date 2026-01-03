@@ -1,12 +1,15 @@
 {
-  "asn": 2601,
-  "handle": "RADIOLINK-AS",
-  "description": "Pitline Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2601,
+  "metadata" : {
+    "handle" : "RADIOLINK-AS",
+    "description" : "Pitline Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.9.31.0/24",
       "193.28.177.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

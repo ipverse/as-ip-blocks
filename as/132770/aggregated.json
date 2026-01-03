@@ -1,9 +1,12 @@
 {
-  "asn": 132770,
-  "handle": "GAZON-AS-IN",
-  "description": "Gazon Communications India Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132770,
+  "metadata" : {
+    "handle" : "GAZON-AS-IN",
+    "description" : "Gazon Communications India Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.227.20.0/22",
       "43.228.72.0/22",
       "43.241.24.0/22",
@@ -39,7 +42,7 @@
       "165.101.204.0/24",
       "202.136.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:24c0::/32",
       "2404:4980::/32"
     ]

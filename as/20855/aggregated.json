@@ -1,12 +1,15 @@
 {
-  "asn": 20855,
-  "handle": "AIRDATA-AS",
-  "description": "Airdata AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20855,
+  "metadata" : {
+    "handle" : "AIRDATA-AS",
+    "description" : "Airdata AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.107.160.0/19",
       "213.220.160.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

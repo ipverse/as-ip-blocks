@@ -1,9 +1,12 @@
 {
-  "asn": 10557,
-  "handle": "CNW",
-  "description": "Connect Northwest Internet Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10557,
+  "metadata" : {
+    "handle" : "CNW",
+    "description" : "Connect Northwest Internet Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.20.0/22",
       "5.252.248.0/22",
       "23.27.15.0/24",
@@ -101,6 +104,6 @@
       "216.18.230.0/24",
       "216.172.142.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

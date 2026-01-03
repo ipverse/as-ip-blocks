@@ -1,9 +1,12 @@
 {
-  "asn": 6373,
-  "handle": "OPUS1",
-  "description": "Opus One",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6373,
+  "metadata" : {
+    "handle" : "OPUS1",
+    "description" : "Opus One",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.35.195.0/24",
       "192.245.12.0/23",
       "192.245.15.0/24",
@@ -12,7 +15,7 @@
       "204.52.218.0/24",
       "207.182.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:7c80:57::/48"
     ]
   }

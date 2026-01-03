@@ -1,14 +1,17 @@
 {
-  "asn": 53859,
-  "handle": "RACE",
-  "description": "Race Tech LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53859,
+  "metadata" : {
+    "handle" : "RACE",
+    "description" : "Race Tech LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.110.48.0/23",
       "209.237.132.0/23",
       "216.71.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd41::/36"
     ]
   }

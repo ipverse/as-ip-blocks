@@ -1,13 +1,16 @@
 {
-  "asn": 270777,
-  "handle": "RGSUL-INTERNET-EIRELI",
-  "description": "RGSul Internet Eireli",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270777,
+  "metadata" : {
+    "handle" : "RGSUL-INTERNET-EIRELI",
+    "description" : "RGSul Internet Eireli",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.161.119.0/24",
       "201.71.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7140::/33",
       "2804:7140:ff00::/40"
     ]

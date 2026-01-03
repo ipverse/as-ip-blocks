@@ -1,11 +1,14 @@
 {
-  "asn": 39460,
-  "handle": "WIENKANAL-AS",
-  "description": "Wien Kanal (WKN)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39460,
+  "metadata" : {
+    "handle" : "WIENKANAL-AS",
+    "description" : "Wien Kanal (WKN)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.66.92.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

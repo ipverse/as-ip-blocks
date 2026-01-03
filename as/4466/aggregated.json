@@ -1,9 +1,12 @@
 {
-  "asn": 4466,
-  "handle": "EASYLINK2",
-  "description": "AT\u0026T Enterprises LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4466,
+  "metadata" : {
+    "handle" : "EASYLINK2",
+    "description" : "AT&T Enterprises LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.80.54.0/24",
       "12.80.76.0/23",
       "12.80.81.0/24",
@@ -72,7 +75,7 @@
       "204.127.199.0/24",
       "205.233.22.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:32::/48"
     ]
   }

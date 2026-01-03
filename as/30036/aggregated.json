@@ -1,9 +1,12 @@
 {
-  "asn": 30036,
-  "handle": "MEDIACOM-ENTERPRISE-BUSINESS",
-  "description": "Mediacom Communications Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30036,
+  "metadata" : {
+    "handle" : "MEDIACOM-ENTERPRISE-BUSINESS",
+    "description" : "Mediacom Communications Corp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.129.208.0/20",
       "45.59.0.0/20",
       "50.80.0.0/16",
@@ -350,7 +353,7 @@
       "216.108.218.0/23",
       "216.108.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:2d80::/38",
       "2604:2d80:400::/41",
       "2604:2d80:c00::/38",

@@ -1,11 +1,14 @@
 {
-  "asn": 17594,
-  "handle": "SMBS-AS",
-  "description": "SMBS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17594,
+  "metadata" : {
+    "handle" : "SMBS-AS",
+    "description" : "SMBS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "211.55.9.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

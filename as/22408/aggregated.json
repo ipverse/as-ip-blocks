@@ -1,9 +1,12 @@
 {
-  "asn": 22408,
-  "handle": "WKNET",
-  "description": "West Ky Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22408,
+  "metadata" : {
+    "handle" : "WKNET",
+    "description" : "West Ky Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.66.160.0/19",
       "152.38.96.0/19",
       "199.255.64.0/21",
@@ -14,6 +17,6 @@
       "208.92.104.0/21",
       "216.122.224.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

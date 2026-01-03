@@ -1,9 +1,12 @@
 {
-  "asn": 3360,
-  "handle": "DXC-AS3360",
-  "description": "DXC US Latin America Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3360,
+  "metadata" : {
+    "handle" : "DXC-AS3360",
+    "description" : "DXC US Latin America Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "15.176.32.0/20",
       "15.176.48.0/24",
       "15.176.64.0/20",
@@ -207,7 +210,7 @@
       "217.27.4.0/24",
       "217.27.7.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:df00:1::/48",
       "2401:df00:2::/48",
       "2401:df00:7::/48",

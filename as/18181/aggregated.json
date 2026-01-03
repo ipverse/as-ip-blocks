@@ -1,11 +1,14 @@
 {
-  "asn": 18181,
-  "handle": "NHRINET",
-  "description": "National Health Research Institutes",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18181,
+  "metadata" : {
+    "handle" : "NHRINET",
+    "description" : "National Health Research Institutes",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "211.76.160.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

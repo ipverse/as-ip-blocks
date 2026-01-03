@@ -1,12 +1,15 @@
 {
-  "asn": 268448,
-  "handle": "AC-TELECOM-PROVEDOR-INTERNET",
-  "description": "AC TELECOM - PROVEDOR DE INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268448,
+  "metadata" : {
+    "handle" : "AC-TELECOM-PROVEDOR-INTERNET",
+    "description" : "AC TELECOM - PROVEDOR DE INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.161.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5160::/32"
     ]
   }

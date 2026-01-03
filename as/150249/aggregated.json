@@ -1,9 +1,12 @@
 {
-  "asn": 150249,
-  "handle": "IDNIC-ATHARVA-AS-ID",
-  "description": "PT Atharva Telematika Persada",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150249,
+  "metadata" : {
+    "handle" : "IDNIC-ATHARVA-AS-ID",
+    "description" : "PT Atharva Telematika Persada",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.56.30.0/24",
       "31.56.43.0/24",
       "103.83.192.0/24",
@@ -12,7 +15,7 @@
       "143.20.49.0/24",
       "151.242.133.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:7340::/48",
       "2a06:9f44::/32",
       "2a0a:280:2a00::/40"

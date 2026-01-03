@@ -1,9 +1,12 @@
 {
-  "asn": 24547,
-  "handle": "CMNET-V4HEBEI-AS-AP",
-  "description": "China Mobile",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24547,
+  "metadata" : {
+    "handle" : "CMNET-V4HEBEI-AS-AP",
+    "description" : "China Mobile",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.134.82.0/23",
       "36.137.88.0/23",
       "36.139.40.0/23",
@@ -55,7 +58,7 @@
       "223.160.136.0/22",
       "223.161.224.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2409:8004::/31",
       "2409:8008::/32",
       "2409:800b:2c00::/40",

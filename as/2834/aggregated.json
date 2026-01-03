@@ -1,14 +1,17 @@
 {
-  "asn": 2834,
-  "handle": "UUNET",
-  "description": "Uppsala University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2834,
+  "metadata" : {
+    "handle" : "UUNET",
+    "description" : "Uppsala University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.238.0.0/18",
       "130.238.64.0/19",
       "130.238.128.0/17",
       "193.10.132.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 49223,
-  "handle": "EVEREST-AS",
-  "description": "EVEREST TV AND RADIO COMPANY LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49223,
+  "metadata" : {
+    "handle" : "EVEREST-AS",
+    "description" : "EVEREST TV AND RADIO COMPANY LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.44.250.0/24",
       "5.181.54.0/24",
       "37.140.240.0/24",
@@ -87,7 +90,7 @@
       "213.226.92.0/22",
       "217.30.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:100::/29"
     ]
   }

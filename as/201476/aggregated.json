@@ -1,9 +1,12 @@
 {
-  "asn": 201476,
-  "handle": "WOLFNET",
-  "description": "ISP Alliance a.s",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201476,
+  "metadata" : {
+    "handle" : "WOLFNET",
+    "description" : "ISP Alliance a.s.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.12.0/22",
       "77.104.194.0/24",
       "77.104.210.0/24",
@@ -17,7 +20,7 @@
       "185.73.104.0/21",
       "185.167.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:4260::/29"
     ]
   }

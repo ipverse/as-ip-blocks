@@ -1,9 +1,12 @@
 {
-  "asn": 396952,
-  "handle": "NET253",
-  "description": "Net253 LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396952,
+  "metadata" : {
+    "handle" : "NET253",
+    "description" : "Net253 LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.140.108.0/24",
       "142.248.72.0/22",
       "192.69.184.0/22",
@@ -11,7 +14,7 @@
       "204.238.8.0/24",
       "208.87.163.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fec2::/32"
     ]
   }

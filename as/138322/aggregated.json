@@ -1,9 +1,12 @@
 {
-  "asn": 138322,
-  "handle": "AWCC-AS-AP",
-  "description": "Afghan Wireless Communication Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138322,
+  "metadata" : {
+    "handle" : "AWCC-AS-AP",
+    "description" : "Afghan Wireless Communication Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.88.192.0/19",
       "43.250.136.0/24",
       "43.250.138.0/24",
@@ -12,7 +15,7 @@
       "103.42.0.0/24",
       "152.36.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:e500::/48",
       "2400:e500:35::/48",
       "2400:e500:36::/48",

@@ -1,12 +1,15 @@
 {
-  "asn": 263317,
-  "handle": "VOXTECH-TELECOM",
-  "description": "VoxTech Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263317,
+  "metadata" : {
+    "handle" : "VOXTECH-TELECOM",
+    "description" : "VoxTech Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "191.7.120.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1438::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 62579,
-  "handle": "VIRTUALSHIELD",
-  "description": "VirtualShield LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62579,
+  "metadata" : {
+    "handle" : "VIRTUALSHIELD",
+    "description" : "VirtualShield LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.234.8.0/24",
       "104.234.17.0/24",
       "104.234.33.0/24",
@@ -32,6 +35,6 @@
       "104.234.219.0/24",
       "104.234.253.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

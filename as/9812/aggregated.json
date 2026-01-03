@@ -1,9 +1,12 @@
 {
-  "asn": 9812,
-  "handle": "CNNIC-CN-COLNET",
-  "description": "Oriental Cable Network Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9812,
+  "metadata" : {
+    "handle" : "CNNIC-CN-COLNET",
+    "description" : "Oriental Cable Network Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.24.0.0/15",
       "60.63.0.0/16",
       "61.87.192.0/18",
@@ -24,7 +27,7 @@
       "221.137.0.0/16",
       "223.248.0.0/14"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:6600::/32",
       "2401:800::/32"
     ]

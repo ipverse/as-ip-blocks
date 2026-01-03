@@ -1,12 +1,15 @@
 {
-  "asn": 134413,
-  "handle": "KMNIX-AS-AP",
-  "description": "KMNIX LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134413,
+  "metadata" : {
+    "handle" : "KMNIX-AS-AP",
+    "description" : "KMNIX LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "123.253.224.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:840:fef2::/48"
     ]
   }

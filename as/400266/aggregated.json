@@ -1,11 +1,14 @@
 {
-  "asn": 400266,
-  "handle": "WFIBER-ASN",
-  "description": "Wind Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400266,
+  "metadata" : {
+    "handle" : "WFIBER-ASN",
+    "description" : "Wind Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.23.208.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

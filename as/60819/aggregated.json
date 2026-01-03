@@ -1,9 +1,12 @@
 {
-  "asn": 60819,
-  "handle": "SAFENAMES-AS",
-  "description": "Safenames Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60819,
+  "metadata" : {
+    "handle" : "SAFENAMES-AS",
+    "description" : "Safenames Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.3.64.0/21",
       "31.14.216.0/23",
       "46.102.117.0/24",
@@ -43,7 +46,7 @@
       "188.241.147.0/24",
       "217.19.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:a900::/32"
     ]
   }

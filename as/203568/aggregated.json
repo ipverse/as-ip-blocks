@@ -1,16 +1,19 @@
 {
-  "asn": 203568,
-  "handle": "AIRBAND",
-  "description": "Airband Community Internet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203568,
+  "metadata" : {
+    "handle" : "AIRBAND",
+    "description" : "Airband Community Internet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "92.243.76.0/22",
       "185.130.156.0/22",
       "185.214.220.0/22",
       "193.222.252.0/23",
       "193.223.70.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:6a80::/29"
     ]
   }

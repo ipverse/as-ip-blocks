@@ -1,11 +1,14 @@
 {
-  "asn": 133604,
-  "handle": "MDHB-AS-AP",
-  "description": "MidCentral District Health Board",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133604,
+  "metadata" : {
+    "handle" : "MDHB-AS-AP",
+    "description" : "MidCentral District Health Board",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.238.60.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

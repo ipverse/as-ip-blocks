@@ -1,12 +1,15 @@
 {
-  "asn": 33503,
-  "handle": "MCW-1-AS",
-  "description": "Medical College of Wisconsin",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33503,
+  "metadata" : {
+    "handle" : "MCW-1-AS",
+    "description" : "Medical College of Wisconsin",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.106.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:10d::/44"
     ]
   }

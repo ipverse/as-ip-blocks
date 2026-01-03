@@ -1,11 +1,14 @@
 {
-  "asn": 153300,
-  "handle": "IAHOST-AS-IN",
-  "description": "Iamem It Consulting",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153300,
+  "metadata" : {
+    "handle" : "IAHOST-AS-IN",
+    "description" : "Iamem It Consulting",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.248.223.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 42895,
-  "handle": "INTRA-AS",
-  "description": "INTRA Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42895,
+  "metadata" : {
+    "handle" : "INTRA-AS",
+    "description" : "INTRA Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.193.224.0/22",
       "91.219.176.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

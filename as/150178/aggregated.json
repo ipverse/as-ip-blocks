@@ -1,13 +1,16 @@
 {
-  "asn": 150178,
-  "handle": "EXABYTELTD-AS-AP",
-  "description": "Exabyte ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150178,
+  "metadata" : {
+    "handle" : "EXABYTELTD-AS-AP",
+    "description" : "Exabyte ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.135.139.0/24",
       "103.198.94.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:a3a0::/32"
     ]
   }

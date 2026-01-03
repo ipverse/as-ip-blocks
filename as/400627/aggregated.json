@@ -1,11 +1,14 @@
 {
-  "asn": 400627,
-  "handle": "DGH-PUBLIC",
-  "description": "Dayton General Hospital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400627,
+  "metadata" : {
+    "handle" : "DGH-PUBLIC",
+    "description" : "Dayton General Hospital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.225.5.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 9738,
-  "handle": "BRENNANIT-AS9738-AP",
-  "description": "Brennan Voice and Data Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9738,
+  "metadata" : {
+    "handle" : "BRENNANIT-AS9738-AP",
+    "description" : "Brennan Voice and Data Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.14.96.0/19",
       "103.28.196.0/22",
       "192.231.141.0/24",
@@ -13,7 +16,7 @@
       "203.25.120.0/24",
       "210.18.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:c800::/32"
     ]
   }

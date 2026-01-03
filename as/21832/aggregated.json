@@ -1,9 +1,12 @@
 {
-  "asn": 21832,
-  "handle": "KELLINCOM-1",
-  "description": "Kellin Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21832,
+  "metadata" : {
+    "handle" : "KELLINCOM-1",
+    "description" : "Kellin Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.246.196.0/22",
       "172.83.240.0/21",
       "192.173.6.0/23",
@@ -14,6 +17,6 @@
       "207.86.121.0/24",
       "207.86.122.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

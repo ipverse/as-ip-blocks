@@ -1,13 +1,16 @@
 {
-  "asn": 201646,
-  "handle": "AS-FLEXL",
-  "description": "Flex-l Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201646,
+  "metadata" : {
+    "handle" : "AS-FLEXL",
+    "description" : "Flex-l Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.67.244.0/22",
       "185.81.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:26e0::/32"
     ]
   }

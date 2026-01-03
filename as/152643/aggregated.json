@@ -1,12 +1,15 @@
 {
-  "asn": 152643,
-  "handle": "RNCOMMUNICATIONS-AS-AP",
-  "description": "R.N.Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152643,
+  "metadata" : {
+    "handle" : "RNCOMMUNICATIONS-AS-AP",
+    "description" : "R.N.Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.37.46.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:fa60::/32"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 400701,
-  "handle": "NCCB-COOP",
-  "description": "National Broadband Coop",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400701,
+  "metadata" : {
+    "handle" : "NCCB-COOP",
+    "description" : "National Broadband Coop",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.168.140.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

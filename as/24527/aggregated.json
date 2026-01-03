@@ -1,14 +1,17 @@
 {
-  "asn": 24527,
-  "handle": "DAKARANET-AS-ID",
-  "description": "PT Hanasta Dakara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24527,
+  "metadata" : {
+    "handle" : "DAKARANET-AS-ID",
+    "description" : "PT Hanasta Dakara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.148.46.0/23",
       "183.81.152.0/21",
       "203.160.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:6c40::/46",
       "2405:6c40:6::/47",
       "2405:6c40:8::/47",

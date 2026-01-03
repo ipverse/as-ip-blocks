@@ -1,9 +1,12 @@
 {
-  "asn": 64249,
-  "handle": "ENDOFFICE",
-  "description": "Charles River Operation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64249,
+  "metadata" : {
+    "handle" : "ENDOFFICE",
+    "description" : "Charles River Operation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.182.51.0/24",
       "5.182.199.0/24",
       "38.124.1.0/24",
@@ -53,7 +56,7 @@
       "206.197.231.0/24",
       "207.32.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4830:c210::/48",
       "2001:4830:c900::/40",
       "2602:fe6d::/36",

@@ -1,9 +1,12 @@
 {
-  "asn": 200904,
-  "handle": "FOXCLOUD",
-  "description": "FOXCLOUD LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200904,
+  "metadata" : {
+    "handle" : "FOXCLOUD",
+    "description" : "FOXCLOUD LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.130.75.0/24",
       "38.135.104.0/23",
       "38.135.122.0/23",
@@ -13,6 +16,6 @@
       "194.156.64.0/23",
       "194.156.66.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

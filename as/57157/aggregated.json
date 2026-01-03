@@ -1,13 +1,16 @@
 {
-  "asn": 57157,
-  "handle": "BI-AS",
-  "description": "bi. SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57157,
+  "metadata" : {
+    "handle" : "BI-AS",
+    "description" : "bi. SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.29.244.0/22",
       "193.56.15.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:d1c0::/32"
     ]
   }

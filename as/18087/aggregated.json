@@ -1,12 +1,15 @@
 {
-  "asn": 18087,
-  "handle": "TOYO",
-  "description": "Toyo University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18087,
+  "metadata" : {
+    "handle" : "TOYO",
+    "description" : "Toyo University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "133.79.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:5600::/48"
     ]
   }

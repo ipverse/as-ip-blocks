@@ -1,12 +1,15 @@
 {
-  "asn": 6882,
-  "handle": "RTRT-PEGASO",
-  "description": "Regione Toscana",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6882,
+  "metadata" : {
+    "handle" : "RTRT-PEGASO",
+    "description" : "Regione Toscana",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.109.128.0/19",
       "159.213.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

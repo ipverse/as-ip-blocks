@@ -1,11 +1,14 @@
 {
-  "asn": 151062,
-  "handle": "MATINNET-AS-AP",
-  "description": "Matin Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151062,
+  "metadata" : {
+    "handle" : "MATINNET-AS-AP",
+    "description" : "Matin Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.99.188.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

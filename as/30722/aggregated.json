@@ -1,9 +1,12 @@
 {
-  "asn": 30722,
-  "handle": "VODAFONE-IT-ASN",
-  "description": "Vodafone Italia S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30722,
+  "metadata" : {
+    "handle" : "VODAFONE-IT-ASN",
+    "description" : "Vodafone Italia S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.32.0.0/12",
       "5.77.96.0/19",
       "5.88.0.0/13",
@@ -58,7 +61,7 @@
       "212.14.152.0/21",
       "212.78.8.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:820::/32",
       "2a01:827::/32",
       "2a01:8d0::/32"

@@ -1,11 +1,14 @@
 {
-  "asn": 150330,
-  "handle": "BREEZE-AS-AP",
-  "description": "Breeze Online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150330,
+  "metadata" : {
+    "handle" : "BREEZE-AS-AP",
+    "description" : "Breeze Online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.6.250.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

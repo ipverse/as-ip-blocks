@@ -1,14 +1,17 @@
 {
-  "asn": 136805,
-  "handle": "NGVPL-AS-AP",
-  "description": "Next Generation Voice PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136805,
+  "metadata" : {
+    "handle" : "NGVPL-AS-AP",
+    "description" : "Next Generation Voice PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.96.141.0/24",
       "103.109.123.0/24",
       "103.109.132.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:df00::/48"
     ]
   }

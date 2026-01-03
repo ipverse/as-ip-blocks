@@ -1,14 +1,17 @@
 {
-  "asn": 15388,
-  "handle": "OMC-AS",
-  "description": "OMCnet Internet Service GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15388,
+  "metadata" : {
+    "handle" : "OMC-AS",
+    "description" : "OMCnet Internet Service GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.254.63.0/24",
       "185.62.64.0/22",
       "212.77.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2800::/29"
     ]
   }

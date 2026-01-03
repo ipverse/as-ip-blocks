@@ -1,9 +1,12 @@
 {
-  "asn": 13259,
-  "handle": "DELTA-TELESYSTEMS-AS",
-  "description": "Delta Telesystems Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13259,
+  "metadata" : {
+    "handle" : "DELTA-TELESYSTEMS-AS",
+    "description" : "Delta Telesystems Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.147.64.0/24",
       "82.147.72.0/24",
       "82.147.74.0/24",
@@ -14,7 +17,7 @@
       "188.0.40.0/21",
       "193.107.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:68c::/48"
     ]
   }

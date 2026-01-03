@@ -1,12 +1,15 @@
 {
-  "asn": 47860,
-  "handle": "OTC-AS",
-  "description": "OOO OTC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47860,
+  "metadata" : {
+    "handle" : "OTC-AS",
+    "description" : "OOO OTC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.188.160.0/24",
       "89.188.180.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

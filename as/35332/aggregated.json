@@ -1,9 +1,12 @@
 {
-  "asn": 35332,
-  "handle": "DATAWEB",
-  "description": "DataWeb B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35332,
+  "metadata" : {
+    "handle" : "DATAWEB",
+    "description" : "DataWeb B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.235.112.0/21",
       "45.89.144.0/22",
       "77.242.112.0/20",
@@ -18,7 +21,7 @@
       "208.88.128.0/22",
       "217.23.149.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:5b4::/48",
       "2001:678:880::/48",
       "2001:67c:a3c::/48",

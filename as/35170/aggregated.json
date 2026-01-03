@@ -1,15 +1,18 @@
 {
-  "asn": 35170,
-  "handle": "LEUCOM-AS",
-  "description": "InfraLeuna GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35170,
+  "metadata" : {
+    "handle" : "LEUCOM-AS",
+    "description" : "InfraLeuna GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "153.97.148.0/24",
       "164.177.160.0/21",
       "185.108.172.0/22",
       "193.239.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:b6c0::/29"
     ]
   }

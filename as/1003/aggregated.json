@@ -1,13 +1,16 @@
 {
-  "asn": 1003,
-  "handle": "ANDREWNET",
-  "description": "andrewnet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1003,
+  "metadata" : {
+    "handle" : "ANDREWNET",
+    "description" : "andrewnet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.143.82.0/24",
       "45.41.37.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc26:1::/48",
       "2602:fc26:6::/47",
       "2602:fc26:8::/48",

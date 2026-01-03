@@ -1,9 +1,12 @@
 {
-  "asn": 205023,
-  "handle": "TINOU-CONSULTING-FZCO",
-  "description": "TINOU CONSULTING - FZCO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205023,
+  "metadata" : {
+    "handle" : "TINOU-CONSULTING-FZCO",
+    "description" : "TINOU CONSULTING - FZCO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.148.51.0/24",
       "45.152.37.0/24",
       "45.154.237.0/24",
@@ -14,6 +17,6 @@
       "195.88.210.0/24",
       "213.185.92.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

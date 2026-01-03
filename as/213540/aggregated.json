@@ -1,13 +1,16 @@
 {
-  "asn": 213540,
-  "handle": "UXSTREAM-ASN",
-  "description": "UXStream AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213540,
+  "metadata" : {
+    "handle" : "UXSTREAM-ASN",
+    "description" : "UXStream AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.68.165.0/24",
       "194.132.9.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:c900::/32"
     ]
   }

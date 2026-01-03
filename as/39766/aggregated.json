@@ -1,12 +1,15 @@
 {
-  "asn": 39766,
-  "handle": "NETKABEL-AS",
-  "description": "TRD Net Kabel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39766,
+  "metadata" : {
+    "handle" : "NETKABEL-AS",
+    "description" : "TRD Net Kabel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.185.192.0/19",
       "185.14.204.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

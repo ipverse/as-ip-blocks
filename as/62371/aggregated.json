@@ -1,9 +1,12 @@
 {
-  "asn": 62371,
-  "handle": "PROTON",
-  "description": "Proton AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62371,
+  "metadata" : {
+    "handle" : "PROTON",
+    "description" : "Proton AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.135.106.0/23",
       "109.224.244.0/24",
       "109.224.247.0/24",
@@ -12,7 +15,7 @@
       "185.205.70.0/24",
       "194.0.147.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:2701:f00::/43",
       "2a05:2701:f40::/43",
       "2a05:2701:fe00::/47",

@@ -1,11 +1,14 @@
 {
-  "asn": 50200,
-  "handle": "NETLINK",
-  "description": "INTERKVM HOST SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50200,
+  "metadata" : {
+    "handle" : "NETLINK",
+    "description" : "INTERKVM HOST SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.6.142.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

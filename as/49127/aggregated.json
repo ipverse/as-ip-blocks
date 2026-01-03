@@ -1,9 +1,12 @@
 {
-  "asn": 49127,
-  "handle": "ASIMO-AS",
-  "description": "Asimo Networks B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49127,
+  "metadata" : {
+    "handle" : "ASIMO-AS",
+    "description" : "Asimo Networks B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.98.157.0/24",
       "86.106.75.0/24",
       "91.217.253.0/24",
@@ -15,7 +18,7 @@
       "193.37.216.0/22",
       "193.189.141.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:7d40::/32",
       "2a0a:ed80::/29",
       "2a0d:9c80::/29"

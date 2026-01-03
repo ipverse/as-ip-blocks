@@ -1,12 +1,15 @@
 {
-  "asn": 265026,
-  "handle": "ADN-LINK",
-  "description": "ADN LINK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265026,
+  "metadata" : {
+    "handle" : "ADN-LINK",
+    "description" : "ADN LINK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.84.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:319c::/32"
     ]
   }

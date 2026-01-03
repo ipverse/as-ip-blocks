@@ -1,9 +1,12 @@
 {
-  "asn": 9031,
-  "handle": "EDPNETAPP",
-  "description": "EDPNET Belgium BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9031,
+  "metadata" : {
+    "handle" : "EDPNETAPP",
+    "description" : "EDPNET Belgium BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.109.64.0/18",
       "79.132.224.0/19",
       "85.234.192.0/19",
@@ -16,7 +19,7 @@
       "213.211.128.0/18",
       "213.219.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:578::/32"
     ]
   }

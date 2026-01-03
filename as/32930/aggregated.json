@@ -1,11 +1,14 @@
 {
-  "asn": 32930,
-  "handle": "MMCHS",
-  "description": "Meadville Medical Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32930,
+  "metadata" : {
+    "handle" : "MMCHS",
+    "description" : "Meadville Medical Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.40.68.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

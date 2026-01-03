@@ -1,13 +1,16 @@
 {
-  "asn": 34370,
-  "handle": "CSC",
-  "description": "CSCBank SAL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34370,
+  "metadata" : {
+    "handle" : "CSC",
+    "description" : "CSCBank SAL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.164.77.0/24",
       "185.164.79.0/24",
       "193.227.181.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 40321,
-  "handle": "ESB",
-  "description": "Emigrant Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40321,
+  "metadata" : {
+    "handle" : "ESB",
+    "description" : "Emigrant Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.198.73.0/24",
       "68.163.112.0/24",
       "206.53.4.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

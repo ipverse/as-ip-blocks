@@ -1,13 +1,16 @@
 {
-  "asn": 34233,
-  "handle": "SUPERIOR-AS",
-  "description": "Superior B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34233,
+  "metadata" : {
+    "handle" : "SUPERIOR-AS",
+    "description" : "Superior B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.137.192.0/22",
       "83.137.196.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:a0c0::/32"
     ]
   }

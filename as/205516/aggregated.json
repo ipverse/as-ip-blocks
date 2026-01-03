@@ -1,9 +1,12 @@
 {
-  "asn": 205516,
-  "handle": "NLS-ASTANA",
-  "description": "NLS ASTANA LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205516,
+  "metadata" : {
+    "handle" : "NLS-ASTANA",
+    "description" : "NLS ASTANA LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.35.80.0/23",
       "37.233.81.0/24",
       "45.8.116.0/22",
@@ -36,7 +39,7 @@
       "195.12.114.0/23",
       "195.12.127.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:abc0::/29",
       "2a0e:db80::/29"
     ]

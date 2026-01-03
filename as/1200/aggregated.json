@@ -1,14 +1,17 @@
 {
-  "asn": 1200,
-  "handle": "AMS-IX1",
-  "description": "Amsterdam Internet Exchange B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1200,
+  "metadata" : {
+    "handle" : "AMS-IX1",
+    "description" : "Amsterdam Internet Exchange B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.200.16.0/22",
       "185.55.136.0/22",
       "195.69.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1a8::/48"
     ]
   }

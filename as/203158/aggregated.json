@@ -1,13 +1,16 @@
 {
-  "asn": 203158,
-  "handle": "HJA-AS",
-  "description": "Herrljunga Kommun",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203158,
+  "metadata" : {
+    "handle" : "HJA-AS",
+    "description" : "Herrljunga Kommun",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.103.44.0/24",
       "194.103.48.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:13d8::/48"
     ]
   }

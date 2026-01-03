@@ -1,12 +1,15 @@
 {
-  "asn": 266850,
-  "handle": "NODO-ZERO-BAHIA",
-  "description": "NODO ZERO BAHIA SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266850,
+  "metadata" : {
+    "handle" : "NODO-ZERO-BAHIA",
+    "description" : "NODO ZERO BAHIA SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.239.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:82a0:2000::/36"
     ]
   }

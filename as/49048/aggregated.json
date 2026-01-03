@@ -1,9 +1,12 @@
 {
-  "asn": 49048,
-  "handle": "TVER-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49048,
+  "metadata" : {
+    "handle" : "TVER-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.165.128.0/20",
       "5.167.96.0/20",
       "37.112.64.0/19",
@@ -13,7 +16,7 @@
       "176.213.96.0/21",
       "188.187.221.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:7400::/38"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 262805,
-  "handle": "REDE-MINAS-TELECOM",
-  "description": "REDE MINAS TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262805,
+  "metadata" : {
+    "handle" : "REDE-MINAS-TELECOM",
+    "description" : "REDE MINAS TELECOM LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.128.92.0/22",
       "186.250.40.0/22",
       "186.250.44.0/23",
       "186.250.47.0/24",
       "186.250.104.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

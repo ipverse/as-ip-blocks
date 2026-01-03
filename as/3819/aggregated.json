@@ -1,9 +1,12 @@
 {
-  "asn": 3819,
-  "handle": "ARIN-EDGEPRIZM-ASN",
-  "description": "EdgePrizm",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3819,
+  "metadata" : {
+    "handle" : "ARIN-EDGEPRIZM-ASN",
+    "description" : "EdgePrizm",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.78.149.0/24",
       "38.247.121.0/24",
       "38.247.122.0/24",
@@ -13,7 +16,7 @@
       "204.74.116.0/23",
       "204.74.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f69a:2::/47",
       "2602:f69a:4::/48",
       "2602:f69a:6::/47",

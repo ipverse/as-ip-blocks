@@ -1,9 +1,12 @@
 {
-  "asn": 11164,
-  "handle": "INTERNET2-I2PX",
-  "description": "Internet2",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11164,
+  "metadata" : {
+    "handle" : "INTERNET2-I2PX",
+    "description" : "Internet2",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.57.20.0/23",
       "64.57.29.0/24",
       "163.253.16.0/23",
@@ -11,7 +14,7 @@
       "163.253.23.0/24",
       "198.71.47.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:468:17::/48",
       "2001:468:f00::/40",
       "2001:468:1f0c::/48",

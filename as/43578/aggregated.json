@@ -1,9 +1,12 @@
 {
-  "asn": 43578,
-  "handle": "BITNAP",
-  "description": "TEMPLUS BARCELONA S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43578,
+  "metadata" : {
+    "handle" : "BITNAP",
+    "description" : "TEMPLUS BARCELONA S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.226.172.0/24",
       "77.246.176.0/24",
       "77.246.179.0/24",
@@ -13,7 +16,7 @@
       "77.246.190.0/23",
       "185.74.80.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:b880::/48",
       "2a04:b880:5::/48",
       "2a05:4700:50::/48",

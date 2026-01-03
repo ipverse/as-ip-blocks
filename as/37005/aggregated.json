@@ -1,12 +1,15 @@
 {
-  "asn": 37005,
-  "handle": "ACCESSBK-AS",
-  "description": "ACCESS BANK PLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37005,
+  "metadata" : {
+    "handle" : "ACCESSBK-AS",
+    "description" : "ACCESS BANK PLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.212.229.0/24",
       "196.22.6.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

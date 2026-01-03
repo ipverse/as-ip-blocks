@@ -1,9 +1,12 @@
 {
-  "asn": 3292,
-  "handle": "TDC",
-  "description": "TDC Holding A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3292,
+  "metadata" : {
+    "handle" : "TDC",
+    "description" : "TDC Holding A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.21.28.0/22",
       "2.104.0.0/14",
       "2.108.0.0/15",
@@ -148,7 +151,7 @@
       "217.28.164.0/22",
       "217.28.168.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2ae0::/48",
       "2001:6c8::/29",
       "2a00:eec0::/32",

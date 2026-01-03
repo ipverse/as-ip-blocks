@@ -1,13 +1,16 @@
 {
-  "asn": 19586,
-  "handle": "FIRST-CITY-INTERNET",
-  "description": "First City Internet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19586,
+  "metadata" : {
+    "handle" : "FIRST-CITY-INTERNET",
+    "description" : "First City Internet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.15.112.0/22",
       "208.73.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fb8c::/45"
     ]
   }

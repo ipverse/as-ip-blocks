@@ -1,12 +1,15 @@
 {
-  "asn": 47213,
-  "handle": "IKA-TELECOM-AS",
-  "description": "IKA Telecom LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47213,
+  "metadata" : {
+    "handle" : "IKA-TELECOM-AS",
+    "description" : "IKA Telecom LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.190.8.0/24",
       "194.226.164.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 395040,
-  "handle": "GHMO-52",
-  "description": "Green Hills Telephone Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395040,
+  "metadata" : {
+    "handle" : "GHMO-52",
+    "description" : "Green Hills Telephone Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.226.119.0/24",
       "64.111.56.0/24",
       "64.111.63.0/24",
@@ -17,6 +20,6 @@
       "209.152.148.0/24",
       "216.146.240.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

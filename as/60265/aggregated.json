@@ -1,12 +1,15 @@
 {
-  "asn": 60265,
-  "handle": "QBIX",
-  "description": "Qbix GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60265,
+  "metadata" : {
+    "handle" : "QBIX",
+    "description" : "Qbix GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.199.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:bf00:1000::/36"
     ]
   }

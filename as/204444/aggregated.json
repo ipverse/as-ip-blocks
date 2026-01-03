@@ -1,9 +1,12 @@
 {
-  "asn": 204444,
-  "handle": "LANTECH-AS",
-  "description": "LanTech Piotr Pilek",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204444,
+  "metadata" : {
+    "handle" : "LANTECH-AS",
+    "description" : "LanTech Piotr Pilek",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.94.27.0/24",
       "80.94.28.0/23",
       "194.76.41.0/24",
@@ -12,7 +15,7 @@
       "212.14.60.0/24",
       "213.155.167.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2b68::/48"
     ]
   }

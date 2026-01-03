@@ -1,9 +1,12 @@
 {
-  "asn": 43357,
-  "handle": "OWL",
-  "description": "Owl Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43357,
+  "metadata" : {
+    "handle" : "OWL",
+    "description" : "Owl Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.130.20.0/22",
       "45.147.50.0/23",
       "80.66.198.0/24",
@@ -18,7 +21,7 @@
       "194.127.164.0/24",
       "194.127.167.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:d9c0:3000::/47",
       "2a07:d880::/32",
       "2a07:d881:3::/48",

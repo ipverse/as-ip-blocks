@@ -1,9 +1,12 @@
 {
-  "asn": 5483,
-  "handle": "MAGYAR-TELEKOM-MAIN-AS",
-  "description": "Magyar Telekom Plc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5483,
+  "metadata" : {
+    "handle" : "MAGYAR-TELEKOM-MAIN-AS",
+    "description" : "Magyar Telekom Plc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.38.128.0/17",
       "5.56.33.0/24",
       "5.56.37.0/24",
@@ -72,7 +75,7 @@
       "217.65.96.0/19",
       "217.116.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4c48::/29",
       "2a00:1110::/29",
       "2a03:f80:36::/48",

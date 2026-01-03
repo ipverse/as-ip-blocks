@@ -1,9 +1,12 @@
 {
-  "asn": 209394,
-  "handle": "MWS-RNPP-LON",
-  "description": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209394,
+  "metadata" : {
+    "handle" : "MWS-RNPP-LON",
+    "description" : "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.35.70.0/23",
       "129.35.88.0/21",
       "129.35.150.0/23",
@@ -11,6 +14,6 @@
       "129.35.241.0/24",
       "158.87.108.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

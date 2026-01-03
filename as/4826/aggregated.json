@@ -1,9 +1,12 @@
 {
-  "asn": 4826,
-  "handle": "VOCUS-BACKBONE-AS",
-  "description": "VOCUS PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4826,
+  "metadata" : {
+    "handle" : "VOCUS-BACKBONE-AS",
+    "description" : "VOCUS PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.106.200.0/22",
       "40.27.160.0/22",
       "40.27.196.0/22",
@@ -138,7 +141,7 @@
       "223.27.96.0/21",
       "223.255.232.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:4600::/48",
       "2001:df3:a880::/48",
       "2001:df7:5100::/48",

@@ -1,12 +1,15 @@
 {
-  "asn": 266214,
-  "handle": "UTIL-PROVEDOR-INTERNET",
-  "description": "UTIL PROVEDOR DE INTERNET LTDA - ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266214,
+  "metadata" : {
+    "handle" : "UTIL-PROVEDOR-INTERNET",
+    "description" : "UTIL PROVEDOR DE INTERNET LTDA - ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.123.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3c78::/48",
       "2804:3c78:4000::/48",
       "2804:3c78:8000::/33"

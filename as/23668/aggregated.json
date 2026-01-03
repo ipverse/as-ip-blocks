@@ -1,9 +1,12 @@
 {
-  "asn": 23668,
-  "handle": "KPU-AS",
-  "description": "TECH UNIVERSITY OF KOREA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23668,
+  "metadata" : {
+    "handle" : "KPU-AS",
+    "description" : "TECH UNIVERSITY OF KOREA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.93.24.0/23",
       "210.93.48.0/21",
       "210.93.56.0/22",
@@ -14,6 +17,6 @@
       "220.149.216.0/23",
       "220.149.218.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

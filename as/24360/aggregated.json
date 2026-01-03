@@ -1,10 +1,13 @@
 {
-  "asn": 24360,
-  "handle": "CNGI-ZHZ-IX-AS-AP",
-  "description": "CERNET2 IX at Zhengzhou University",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 24360,
+  "metadata" : {
+    "handle" : "CNGI-ZHZ-IX-AS-AP",
+    "description" : "CERNET2 IX at Zhengzhou University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2402:e480::/32"
     ]
   }

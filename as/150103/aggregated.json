@@ -1,12 +1,15 @@
 {
-  "asn": 150103,
-  "handle": "FASTWAYVP-AS-IN",
-  "description": "FASTWAY NETWORKING SERVICE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150103,
+  "metadata" : {
+    "handle" : "FASTWAYVP-AS-IN",
+    "description" : "FASTWAY NETWORKING SERVICE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.42.128.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:e740::/48"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 50392,
-  "handle": "CAMPUS-RV-AS",
-  "description": "LLC Campus Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50392,
+  "metadata" : {
+    "handle" : "CAMPUS-RV-AS",
+    "description" : "LLC Campus Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.237.244.0/22",
       "176.121.13.0/24",
       "176.121.15.0/24",
       "193.106.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:fc00:e000::/48"
     ]
   }

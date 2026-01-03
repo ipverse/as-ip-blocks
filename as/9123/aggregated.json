@@ -1,9 +1,12 @@
 {
-  "asn": 9123,
-  "handle": "TIMEWEB-AS",
-  "description": "JSC TIMEWEB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9123,
+  "metadata" : {
+    "handle" : "TIMEWEB-AS",
+    "description" : "JSC TIMEWEB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.40.0/22",
       "5.23.48.0/21",
       "5.42.220.0/24",
@@ -333,7 +336,7 @@
       "217.199.252.0/23",
       "217.199.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:6f00::/29",
       "2a09:17c4::/32",
       "2a09:6283::/32",

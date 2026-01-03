@@ -1,13 +1,16 @@
 {
-  "asn": 200322,
-  "handle": "XANKOM",
-  "description": "XANKOM SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200322,
+  "metadata" : {
+    "handle" : "XANKOM",
+    "description" : "XANKOM SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.217.154.0/24",
       "185.245.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:7080::/29"
     ]
   }

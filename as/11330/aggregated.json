@@ -1,11 +1,14 @@
 {
-  "asn": 11330,
-  "handle": "BANKPLUS-NETWORK-01",
-  "description": "BankPlus",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11330,
+  "metadata" : {
+    "handle" : "BANKPLUS-NETWORK-01",
+    "description" : "BankPlus",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.32.45.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

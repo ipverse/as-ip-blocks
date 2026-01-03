@@ -1,9 +1,12 @@
 {
-  "asn": 210423,
-  "handle": "AS-ATUAXANELA",
-  "description": "ATUAXANELA S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210423,
+  "metadata" : {
+    "handle" : "AS-ATUAXANELA",
+    "description" : "ATUAXANELA S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.108.228.0/22",
       "79.108.232.0/21",
       "80.91.70.0/24",
@@ -17,6 +20,6 @@
       "154.60.106.0/23",
       "217.61.80.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

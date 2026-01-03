@@ -1,12 +1,15 @@
 {
-  "asn": 137884,
-  "handle": "GNS-AS-AP",
-  "description": "Gazipur Network System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137884,
+  "metadata" : {
+    "handle" : "GNS-AS-AP",
+    "description" : "Gazipur Network System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.116.116.0/23",
       "103.116.118.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

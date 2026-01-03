@@ -1,9 +1,12 @@
 {
-  "asn": 41733,
-  "handle": "ZTELECOM-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41733,
+  "metadata" : {
+    "handle" : "ZTELECOM-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.16.144.0/20",
       "5.16.192.0/18",
       "5.17.0.0/16",
@@ -33,6 +36,6 @@
       "195.177.120.0/22",
       "212.75.224.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

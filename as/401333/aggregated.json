@@ -1,12 +1,15 @@
 {
-  "asn": 401333,
-  "handle": "CERANET",
-  "description": "CeraNet Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401333,
+  "metadata" : {
+    "handle" : "CERANET",
+    "description" : "CeraNet Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "75.98.239.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:d4c0::/32"
     ]
   }

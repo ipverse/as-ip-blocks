@@ -1,12 +1,15 @@
 {
-  "asn": 207210,
-  "handle": "SW-COTTBUS-AS",
-  "description": "Stadtwerke Cottbus GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207210,
+  "metadata" : {
+    "handle" : "SW-COTTBUS-AS",
+    "description" : "Stadtwerke Cottbus GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.162.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:f000::/32"
     ]
   }

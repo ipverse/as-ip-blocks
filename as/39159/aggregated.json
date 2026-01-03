@@ -1,9 +1,12 @@
 {
-  "asn": 39159,
-  "handle": "NV-RL",
-  "description": "R.L Internet and Networks Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39159,
+  "metadata" : {
+    "handle" : "NV-RL",
+    "description" : "R.L Internet and Networks Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.5.20.0/24",
       "83.229.22.0/24",
       "83.229.63.0/24",
@@ -13,6 +16,6 @@
       "213.255.197.0/24",
       "217.194.157.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

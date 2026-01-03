@@ -1,9 +1,12 @@
 {
-  "asn": 4771,
-  "handle": "SPARKNZ",
-  "description": "Spark New Zealand Trading Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4771,
+  "metadata" : {
+    "handle" : "SPARKNZ",
+    "description" : "Spark New Zealand Trading Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.95.104.0/22",
       "115.188.0.0/16",
       "115.189.0.0/18",
@@ -175,7 +178,7 @@
       "222.155.224.0/20",
       "222.155.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:9800:11::/48",
       "2403:9800:6000::/40",
       "2403:9800:6200::/39",

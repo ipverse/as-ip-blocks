@@ -1,13 +1,16 @@
 {
-  "asn": 328196,
-  "handle": "POWERNET",
-  "description": "POWERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328196,
+  "metadata" : {
+    "handle" : "POWERNET",
+    "description" : "POWERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.210.76.0/22",
       "164.160.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f1d8::/32"
     ]
   }

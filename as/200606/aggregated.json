@@ -1,9 +1,12 @@
 {
-  "asn": 200606,
-  "handle": "VIATEL-AS",
-  "description": "Viatel Sweden Aktiebolag",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200606,
+  "metadata" : {
+    "handle" : "VIATEL-AS",
+    "description" : "Viatel Sweden Aktiebolag",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.121.226.0/24",
       "192.165.131.0/24",
       "193.182.110.0/24",
@@ -12,6 +15,6 @@
       "194.71.245.0/24",
       "194.103.43.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

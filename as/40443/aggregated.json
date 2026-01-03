@@ -1,9 +1,12 @@
 {
-  "asn": 40443,
-  "handle": "CDK-GLOBAL",
-  "description": "CDK Global LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40443,
+  "metadata" : {
+    "handle" : "CDK-GLOBAL",
+    "description" : "CDK Global LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.59.112.0/24",
       "192.110.64.0/20",
       "198.133.214.0/24",
@@ -20,7 +23,7 @@
       "216.231.224.0/24",
       "216.231.228.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:1f8:f011::/48",
       "2620:1f8:f012::/48",
       "2620:1f8:f046::/48",

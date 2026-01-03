@@ -1,13 +1,16 @@
 {
-  "asn": 32639,
-  "handle": "SOLARNETONE",
-  "description": "SolarNetOne Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32639,
+  "metadata" : {
+    "handle" : "SOLARNETONE",
+    "description" : "SolarNetOne Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.130.80.0/24",
       "204.239.2.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fdf2::/36"
     ]
   }

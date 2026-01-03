@@ -1,9 +1,12 @@
 {
-  "asn": 209788,
-  "handle": "CONVEX-REGIONS",
-  "description": "LLC Cifrovie Seti Urala",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209788,
+  "metadata" : {
+    "handle" : "CONVEX-REGIONS",
+    "description" : "LLC Cifrovie Seti Urala",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.183.44.0/23",
       "95.183.46.0/24",
       "188.68.80.0/24",
@@ -11,6 +14,6 @@
       "188.68.92.0/23",
       "192.54.76.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

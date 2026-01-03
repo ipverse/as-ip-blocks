@@ -1,9 +1,12 @@
 {
-  "asn": 26630,
-  "handle": "LPS-3",
-  "description": "Black Knight IP Holding Company LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26630,
+  "metadata" : {
+    "handle" : "LPS-3",
+    "description" : "Black Knight IP Holding Company LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.113.192.0/22",
       "74.113.196.0/24",
       "173.226.72.0/24",
@@ -12,6 +15,6 @@
       "204.86.88.0/24",
       "208.93.241.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

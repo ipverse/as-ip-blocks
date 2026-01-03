@@ -1,9 +1,12 @@
 {
-  "asn": 139201,
-  "handle": "CHINANET-JIANGXI-JIUJIANG-IDC",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139201,
+  "metadata" : {
+    "handle" : "CHINANET-JIANGXI-JIUJIANG-IDC",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.53.86.0/23",
       "59.53.88.0/24",
       "59.54.54.0/24",
@@ -30,7 +33,7 @@
       "218.95.38.0/23",
       "220.177.22.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:13:7000::/36",
       "240e:cf:9000::/36",
       "240e:108:1171::/48",

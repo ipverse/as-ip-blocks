@@ -1,13 +1,16 @@
 {
-  "asn": 399111,
-  "handle": "CAMELLIA-FIBER",
-  "description": "CAMELLIA FIBER",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399111,
+  "metadata" : {
+    "handle" : "CAMELLIA-FIBER",
+    "description" : "CAMELLIA FIBER",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.128.180.0/22",
       "216.73.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:3cc0::/32"
     ]
   }

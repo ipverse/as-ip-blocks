@@ -1,12 +1,15 @@
 {
-  "asn": 151475,
-  "handle": "CADUCEUS-AS-AP",
-  "description": "Caduceus Systems Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151475,
+  "metadata" : {
+    "handle" : "CADUCEUS-AS-AP",
+    "description" : "Caduceus Systems Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.158.134.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:a0c0::/48"
     ]
   }

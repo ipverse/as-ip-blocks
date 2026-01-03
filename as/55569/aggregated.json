@@ -1,12 +1,15 @@
 {
-  "asn": 55569,
-  "handle": "CRITEO-AS-AP",
-  "description": "Criteo Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55569,
+  "metadata" : {
+    "handle" : "CRITEO-AS-AP",
+    "description" : "Criteo Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "182.161.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:2600:4::/47",
       "2406:2600:7::/48",
       "2406:2600:8::/47",

@@ -1,9 +1,12 @@
 {
-  "asn": 12338,
-  "handle": "EUSKALTEL",
-  "description": "Euskaltel S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12338,
+  "metadata" : {
+    "handle" : "EUSKALTEL",
+    "description" : "Euskaltel S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.159.128.0/18",
       "37.218.0.0/17",
       "46.231.0.0/21",
@@ -23,7 +26,7 @@
       "212.89.1.0/24",
       "212.142.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:7b00::/29"
     ]
   }

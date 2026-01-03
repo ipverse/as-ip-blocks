@@ -1,9 +1,12 @@
 {
-  "asn": 214574,
-  "handle": "BITERIKA-ZEL-AS",
-  "description": "Biterika Group LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214574,
+  "metadata" : {
+    "handle" : "BITERIKA-ZEL-AS",
+    "description" : "Biterika Group LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.15.236.0/23",
       "45.87.252.0/23",
       "45.134.252.0/23",
@@ -15,6 +18,6 @@
       "193.58.168.0/23",
       "194.156.96.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

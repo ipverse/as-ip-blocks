@@ -1,13 +1,16 @@
 {
-  "asn": 23004,
-  "handle": "VIEWTRADE",
-  "description": "VIEWTRADE SECURITIES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23004,
+  "metadata" : {
+    "handle" : "VIEWTRADE",
+    "description" : "VIEWTRADE SECURITIES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.109.111.0/24",
       "65.115.240.0/24",
       "209.148.40.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

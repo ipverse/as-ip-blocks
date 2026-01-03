@@ -1,12 +1,15 @@
 {
-  "asn": 203933,
-  "handle": "SK-DC-AS",
-  "description": "DataCentrum",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203933,
+  "metadata" : {
+    "handle" : "SK-DC-AS",
+    "description" : "DataCentrum",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.74.196.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:47a0::/47"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 30336,
-  "handle": "XITTEL-AS",
-  "description": "Telecommunications Xittel inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30336,
+  "metadata" : {
+    "handle" : "XITTEL-AS",
+    "description" : "Telecommunications Xittel inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.119.128.0/20",
       "69.196.16.0/20",
       "204.19.247.0/24",
@@ -40,6 +43,6 @@
       "216.113.44.0/24",
       "216.113.96.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 37999,
-  "handle": "TVNZ-AS-NZ",
-  "description": "Television New Zealand",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37999,
+  "metadata" : {
+    "handle" : "TVNZ-AS-NZ",
+    "description" : "Television New Zealand",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.36.33.0/24",
       "202.89.4.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

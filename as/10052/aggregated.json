@@ -1,12 +1,15 @@
 {
-  "asn": 10052,
-  "handle": "KNU-AS",
-  "description": "Kyungpook National University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10052,
+  "metadata" : {
+    "handle" : "KNU-AS",
+    "description" : "Kyungpook National University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "155.230.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:c000:c025::/48"
     ]
   }

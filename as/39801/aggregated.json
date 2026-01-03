@@ -1,13 +1,16 @@
 {
-  "asn": 39801,
-  "handle": "FRANCE-IX-L3P",
-  "description": "France IX Services SASU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39801,
+  "metadata" : {
+    "handle" : "FRANCE-IX-L3P",
+    "description" : "France IX Services SASU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.146.35.0/24",
       "77.95.68.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:a4c0:cd10::/44",
       "2a00:a4c0:cd20::/44"
     ]

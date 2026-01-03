@@ -1,12 +1,15 @@
 {
-  "asn": 60124,
-  "handle": "AMIGOS-AS",
-  "description": "LLC NTT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60124,
+  "metadata" : {
+    "handle" : "AMIGOS-AS",
+    "description" : "LLC NTT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.243.170.0/24",
       "178.170.252.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

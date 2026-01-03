@@ -1,11 +1,14 @@
 {
-  "asn": 32603,
-  "handle": "MAL-156-MULTIHOME-ISP-BGP",
-  "description": "Matrix Applications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32603,
+  "metadata" : {
+    "handle" : "MAL-156-MULTIHOME-ISP-BGP",
+    "description" : "Matrix Applications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.83.161.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

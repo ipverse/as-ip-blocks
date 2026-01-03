@@ -1,9 +1,12 @@
 {
-  "asn": 47176,
-  "handle": "GASCOMCH",
-  "description": "GAS\u0026COM AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47176,
+  "metadata" : {
+    "handle" : "GASCOMCH",
+    "description" : "GAS&COM AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.4.0/24",
       "91.222.84.0/22",
       "93.190.72.0/21",
@@ -12,7 +15,7 @@
       "185.159.204.0/22",
       "185.238.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:aa47::/32",
       "2a05:2740::/29"
     ]

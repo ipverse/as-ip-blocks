@@ -1,9 +1,12 @@
 {
-  "asn": 17055,
-  "handle": "UTAH",
-  "description": "University of Utah",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17055,
+  "metadata" : {
+    "handle" : "UTAH",
+    "description" : "University of Utah",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.110.0.0/16",
       "155.97.0.0/16",
       "155.98.0.0/15",
@@ -12,7 +15,7 @@
       "199.104.93.0/24",
       "204.99.128.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:c340::/32"
     ]
   }

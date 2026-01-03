@@ -1,11 +1,14 @@
 {
-  "asn": 23731,
-  "handle": "TGS-AS-AP",
-  "description": "Tibra Global Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23731,
+  "metadata" : {
+    "handle" : "TGS-AS-AP",
+    "description" : "Tibra Global Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.175.120.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

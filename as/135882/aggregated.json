@@ -1,13 +1,16 @@
 {
-  "asn": 135882,
-  "handle": "SPARKONLINE-AS-AP",
-  "description": "Spark Online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135882,
+  "metadata" : {
+    "handle" : "SPARKONLINE-AS-AP",
+    "description" : "Spark Online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.78.252.0/23",
       "103.78.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:1140::/32"
     ]
   }

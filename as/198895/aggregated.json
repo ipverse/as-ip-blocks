@@ -1,16 +1,19 @@
 {
-  "asn": 198895,
-  "handle": "APEXBROADBAND",
-  "description": "Techade Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198895,
+  "metadata" : {
+    "handle" : "APEXBROADBAND",
+    "description" : "Techade Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.140.133.0/24",
       "46.229.241.0/24",
       "46.229.242.0/24",
       "188.65.167.0/24",
       "193.16.149.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:2580::/29"
     ]
   }

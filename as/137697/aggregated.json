@@ -1,9 +1,12 @@
 {
-  "asn": 137697,
-  "handle": "CHINATELECOM-JIANGSU-YANGZHOU-IDC",
-  "description": "CHINATELECOM JiangSu YangZhou IDC networkdescr: YangZhou Jiangsu Province P.R.China",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137697,
+  "metadata" : {
+    "handle" : "CHINATELECOM-JIANGSU-YANGZHOU-IDC",
+    "description" : "CHINATELECOM JiangSu YangZhou IDC networkdescr: YangZhou Jiangsu Province P.R.China.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.242.196.0/22",
       "45.113.200.0/22",
       "45.117.8.0/22",
@@ -84,7 +87,7 @@
       "222.189.237.0/24",
       "222.189.238.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:e9:b000::/37",
       "240e:978:900::/40",
       "240e:978:1900::/40",

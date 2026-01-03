@@ -1,9 +1,12 @@
 {
-  "asn": 134540,
-  "handle": "TTML-AS-AP",
-  "description": "Tata Teleservices (Maharashtra) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134540,
+  "metadata" : {
+    "handle" : "TTML-AS-AP",
+    "description" : "Tata Teleservices (Maharashtra) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.96.80.0/20",
       "14.96.96.0/20",
       "27.107.128.0/20",
@@ -89,7 +92,7 @@
       "202.189.252.0/23",
       "202.189.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:d400:a2::/48",
       "2406:e00::/47",
       "2406:e00:4::/47"

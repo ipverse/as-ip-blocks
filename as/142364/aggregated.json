@@ -1,12 +1,15 @@
 {
-  "asn": 142364,
-  "handle": "SDN-AS-ID",
-  "description": "PT Subnet Data Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142364,
+  "metadata" : {
+    "handle" : "SDN-AS-ID",
+    "description" : "PT Subnet Data Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.170.100.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:c6c0::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 58401,
-  "handle": "XROUTE-AS-ID",
-  "description": "PT. DEWATA TELEMATIKA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58401,
+  "metadata" : {
+    "handle" : "XROUTE-AS-ID",
+    "description" : "PT. DEWATA TELEMATIKA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.23.141.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:9c80:1::/48"
     ]
   }

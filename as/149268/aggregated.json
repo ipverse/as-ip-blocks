@@ -1,9 +1,12 @@
 {
-  "asn": 149268,
-  "handle": "ROARNET-AS-IN",
-  "description": "Roarnet Broadband Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149268,
+  "metadata" : {
+    "handle" : "ROARNET-AS-IN",
+    "description" : "Roarnet Broadband Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.75.40.0/23",
       "103.75.43.0/24",
       "103.144.193.0/24",
@@ -13,7 +16,7 @@
       "103.181.2.0/23",
       "103.182.83.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:b840::/48",
       "2001:df6:2280::/48"
     ]

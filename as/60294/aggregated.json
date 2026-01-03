@@ -1,9 +1,12 @@
 {
-  "asn": 60294,
-  "handle": "DE-DGW",
-  "description": "Deutsche Glasfaser Wholesale GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60294,
+  "metadata" : {
+    "handle" : "DE-DGW",
+    "description" : "Deutsche Glasfaser Wholesale GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.245.216.0/21",
       "80.74.48.0/20",
       "82.198.64.0/19",
@@ -18,7 +21,7 @@
       "185.113.120.0/22",
       "185.158.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:6020::/32",
       "2a00:61e0::/32",
       "2a03:fc0::/32",

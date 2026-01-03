@@ -1,12 +1,15 @@
 {
-  "asn": 62711,
-  "handle": "MAXWELL",
-  "description": "Maxwell Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62711,
+  "metadata" : {
+    "handle" : "MAXWELL",
+    "description" : "Maxwell Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.175.200.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f921::/38"
     ]
   }

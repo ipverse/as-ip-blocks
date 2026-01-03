@@ -1,9 +1,12 @@
 {
-  "asn": 53813,
-  "handle": "ZSCALER-INC",
-  "description": "ZSCALER INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53813,
+  "metadata" : {
+    "handle" : "ZSCALER-INC",
+    "description" : "ZSCALER INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.62.169.0/24",
       "101.2.192.0/20",
       "101.2.208.0/24",
@@ -123,7 +126,7 @@
       "209.55.212.0/23",
       "209.55.219.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:7aa0:1200::/39",
       "2400:7aa0:1400::/38",
       "2400:7aa0:1800::/37",

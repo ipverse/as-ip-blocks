@@ -1,9 +1,12 @@
 {
-  "asn": 11396,
-  "handle": "TWC-ASN",
-  "description": "Williams Information Technology LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11396,
+  "metadata" : {
+    "handle" : "TWC-ASN",
+    "description" : "Williams Information Technology LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "151.142.65.0/24",
       "151.142.66.0/24",
       "151.142.68.0/22",
@@ -12,6 +15,6 @@
       "151.142.224.0/19",
       "170.21.246.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

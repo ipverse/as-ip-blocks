@@ -1,12 +1,15 @@
 {
-  "asn": 31738,
-  "handle": "NRCDE-AS",
-  "description": "LLC NRTSDO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31738,
+  "metadata" : {
+    "handle" : "NRCDE-AS",
+    "description" : "LLC NRTSDO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.62.0.0/22",
       "195.62.6.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

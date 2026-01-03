@@ -1,9 +1,12 @@
 {
-  "asn": 29614,
-  "handle": "GHANATEL-AS",
-  "description": "Ghana Telecommunications Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29614,
+  "metadata" : {
+    "handle" : "GHANATEL-AS",
+    "description" : "Ghana Telecommunications Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.66.192.0/18",
       "41.155.0.0/17",
       "41.204.32.0/19",
@@ -13,7 +16,7 @@
       "102.176.0.0/17",
       "197.251.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f430::/32"
     ]
   }

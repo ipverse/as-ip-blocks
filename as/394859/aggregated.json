@@ -1,16 +1,19 @@
 {
-  "asn": 394859,
-  "handle": "VBCS",
-  "description": "Valparaiso Broadband Communication Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394859,
+  "metadata" : {
+    "handle" : "VBCS",
+    "description" : "Valparaiso Broadband Communication Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.77.221.0/24",
       "142.190.112.0/24",
       "204.49.178.0/23",
       "204.49.180.0/22",
       "204.49.184.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:b5c0::/32"
     ]
   }

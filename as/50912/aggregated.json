@@ -1,12 +1,15 @@
 {
-  "asn": 50912,
-  "handle": "SYSCOM-AS",
-  "description": "SYSCOM DIGITAL SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50912,
+  "metadata" : {
+    "handle" : "SYSCOM-AS",
+    "description" : "SYSCOM DIGITAL SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.216.27.0/24",
       "188.215.79.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,16 +1,19 @@
 {
-  "asn": 200735,
-  "handle": "AS-MUENET",
-  "description": "MN Glasfaser GmbH trading as MUENET GmbH \u0026 Co. KG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200735,
+  "metadata" : {
+    "handle" : "AS-MUENET",
+    "description" : "MN Glasfaser GmbH trading as MUENET GmbH & Co. KG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.208.236.0/23",
       "145.255.48.0/23",
       "145.255.52.0/24",
       "185.55.72.0/22",
       "185.140.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:8e40::/33"
     ]
   }

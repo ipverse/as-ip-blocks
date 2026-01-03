@@ -1,9 +1,12 @@
 {
-  "asn": 131702,
-  "handle": "IDNIC-MORA-IX-AS-ID",
-  "description": "Moratelindo Internet Exchange Point",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131702,
+  "metadata" : {
+    "handle" : "IDNIC-MORA-IX-AS-ID",
+    "description" : "Moratelindo Internet Exchange Point",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.121.217.0/24",
       "45.121.219.0/24",
       "103.8.63.0/24",
@@ -11,7 +14,7 @@
       "103.129.251.0/24",
       "103.154.227.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:dc00:4003::/48",
       "2400:dc00:4008::/48",
       "2400:dc00:8100::/47",

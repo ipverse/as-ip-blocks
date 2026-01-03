@@ -1,13 +1,16 @@
 {
-  "asn": 395878,
-  "handle": "SERVOSPHERE-LLC",
-  "description": "SERVOSPHERE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395878,
+  "metadata" : {
+    "handle" : "SERVOSPHERE-LLC",
+    "description" : "SERVOSPHERE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.56.46.0/24",
       "40.27.0.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f697:1::/48",
       "2602:f697:4::/48",
       "2602:f697:e0::/44"

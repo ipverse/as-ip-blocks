@@ -1,9 +1,12 @@
 {
-  "asn": 9890,
-  "handle": "ATOSINFOTECH-SG-AP",
-  "description": "ATOS Information Technology (Singapore) Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9890,
+  "metadata" : {
+    "handle" : "ATOSINFOTECH-SG-AP",
+    "description" : "ATOS Information Technology (Singapore) Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.115.98.0/24",
       "143.99.144.0/24",
       "143.99.202.0/24",
@@ -15,7 +18,7 @@
       "203.95.80.0/20",
       "203.127.206.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ad87:4600::/48"
     ]
   }

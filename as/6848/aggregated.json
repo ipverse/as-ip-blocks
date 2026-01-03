@@ -1,9 +1,12 @@
 {
-  "asn": 6848,
-  "handle": "TELENET-AS",
-  "description": "Telenet BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6848,
+  "metadata" : {
+    "handle" : "TELENET-AS",
+    "description" : "Telenet BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.23.128.0/17",
       "45.131.62.0/23",
       "46.253.160.0/20",
@@ -73,7 +76,7 @@
       "217.72.224.0/20",
       "217.168.120.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1902::/47",
       "2a00:1cf8::/32",
       "2a01:498::/32",

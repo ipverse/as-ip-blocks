@@ -1,9 +1,12 @@
 {
-  "asn": 36352,
-  "handle": "AS-COLOCROSSING",
-  "description": "HostPapa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36352,
+  "metadata" : {
+    "handle" : "AS-COLOCROSSING",
+    "description" : "HostPapa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.181.182.0/24",
       "5.226.171.0/24",
       "5.226.173.0/24",
@@ -893,7 +896,7 @@
       "216.246.74.0/24",
       "216.246.108.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f692:1::/48",
       "2602:f692:2::/48",
       "2605:6f01::/32",

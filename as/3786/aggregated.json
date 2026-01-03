@@ -1,9 +1,12 @@
 {
-  "asn": 3786,
-  "handle": "LGDACOM",
-  "description": "LG DACOM Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3786,
+  "metadata" : {
+    "handle" : "LGDACOM",
+    "description" : "LG DACOM Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.208.0.0/12",
       "23.35.108.0/23",
       "23.35.192.0/21",
@@ -409,7 +412,7 @@
       "223.195.146.0/24",
       "223.195.223.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:270::/33",
       "2001:270:8000::/34",
       "2001:270:c000::/35",

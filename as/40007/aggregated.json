@@ -1,9 +1,12 @@
 {
-  "asn": 40007,
-  "handle": "STFX-UNIVERSITY",
-  "description": "St. Francis Xavier University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40007,
+  "metadata" : {
+    "handle" : "STFX-UNIVERSITY",
+    "description" : "St. Francis Xavier University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.109.0.0/18",
       "141.109.96.0/19",
       "141.109.176.0/21",
@@ -12,7 +15,7 @@
       "141.109.192.0/19",
       "141.109.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:410:a01c::/48"
     ]
   }

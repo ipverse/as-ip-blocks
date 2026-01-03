@@ -1,9 +1,12 @@
 {
-  "asn": 49635,
-  "handle": "CLOUDING",
-  "description": "CLOUDI NEXTGEN SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49635,
+  "metadata" : {
+    "handle" : "CLOUDING",
+    "description" : "CLOUDI NEXTGEN SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.0.172.0/22",
       "46.183.112.0/21",
       "79.143.88.0/21",
@@ -19,6 +22,6 @@
       "200.234.224.0/20",
       "217.71.200.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

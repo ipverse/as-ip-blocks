@@ -1,13 +1,16 @@
 {
-  "asn": 34622,
-  "handle": "BIK",
-  "description": "Bredband i Kristianstad AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34622,
+  "metadata" : {
+    "handle" : "BIK",
+    "description" : "Bredband i Kristianstad AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.197.128.0/18",
       "194.103.210.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:e840::/29"
     ]
   }

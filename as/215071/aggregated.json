@@ -1,9 +1,12 @@
 {
-  "asn": 215071,
-  "handle": "SERVERSWITCH",
-  "description": "Server Switch Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215071,
+  "metadata" : {
+    "handle" : "SERVERSWITCH",
+    "description" : "Server Switch Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.57.207.0/24",
       "156.226.5.0/24",
       "156.227.5.0/24",
@@ -15,6 +18,6 @@
       "213.193.254.0/23",
       "217.179.222.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

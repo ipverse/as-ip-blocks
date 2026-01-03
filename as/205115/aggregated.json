@@ -1,9 +1,12 @@
 {
-  "asn": 205115,
-  "handle": "AVACOMM",
-  "description": "AVACOMM Systems GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205115,
+  "metadata" : {
+    "handle" : "AVACOMM",
+    "description" : "AVACOMM Systems GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.120.56.0/23",
       "87.120.70.0/23",
       "87.120.82.0/23",
@@ -15,7 +18,7 @@
       "178.249.236.0/22",
       "185.134.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:eb40::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 6222,
-  "handle": "CENTURYLINK-LEGACY-EMBARQ-CLTN",
-  "description": "CenturyLink Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6222,
+  "metadata" : {
+    "handle" : "CENTURYLINK-LEGACY-EMBARQ-CLTN",
+    "description" : "CenturyLink Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.161.208.0/21",
       "65.40.120.0/22",
       "65.40.192.0/21",
@@ -41,6 +44,6 @@
       "207.14.188.0/22",
       "208.17.74.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

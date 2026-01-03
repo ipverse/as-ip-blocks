@@ -1,9 +1,12 @@
 {
-  "asn": 20559,
-  "handle": "FUNDAMENTS-AS",
-  "description": "Fundaments B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20559,
+  "metadata" : {
+    "handle" : "FUNDAMENTS-AS",
+    "description" : "Fundaments B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.172.40.0/21",
       "31.200.208.0/21",
       "37.220.168.0/21",
@@ -35,7 +38,7 @@
       "194.213.112.0/23",
       "213.249.72.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:d10::/32",
       "2a00:d1c0::/32",
       "2a01:448:72::/48",

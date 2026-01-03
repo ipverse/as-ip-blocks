@@ -1,9 +1,12 @@
 {
-  "asn": 38389,
-  "handle": "FWORKER-AS",
-  "description": "FAMOUS WORKER",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38389,
+  "metadata" : {
+    "handle" : "FWORKER-AS",
+    "description" : "FAMOUS WORKER",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.255.6.0/24",
       "58.123.183.0/24",
       "103.219.124.0/23",
@@ -13,6 +16,6 @@
       "211.210.115.0/24",
       "211.210.124.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

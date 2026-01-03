@@ -1,13 +1,16 @@
 {
-  "asn": 17678,
-  "handle": "WIND",
-  "description": "Gunma Internet Co .ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17678,
+  "metadata" : {
+    "handle" : "WIND",
+    "description" : "Gunma Internet Co .ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "218.45.48.0/20",
       "218.223.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:d00::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 25111,
-  "handle": "COLOPLAST-AS",
-  "description": "Coloplast A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25111,
+  "metadata" : {
+    "handle" : "COLOPLAST-AS",
+    "description" : "Coloplast A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.0.56.0/22",
       "193.0.60.0/24",
       "194.0.134.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:184::/48"
     ]
   }

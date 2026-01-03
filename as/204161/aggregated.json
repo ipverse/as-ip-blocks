@@ -1,9 +1,12 @@
 {
-  "asn": 204161,
-  "handle": "TRITEL-MSK-204161",
-  "description": "Alexey Geiner",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204161,
+  "metadata" : {
+    "handle" : "TRITEL-MSK-204161",
+    "description" : "Alexey Geiner",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.9.140.0/23",
       "46.148.176.0/20",
       "91.207.97.0/24",
@@ -13,6 +16,6 @@
       "195.88.14.0/23",
       "195.216.212.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

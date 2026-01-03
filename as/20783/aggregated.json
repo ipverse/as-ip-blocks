@@ -1,13 +1,16 @@
 {
-  "asn": 20783,
-  "handle": "POP",
-  "description": "pop-interactive GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20783,
+  "metadata" : {
+    "handle" : "POP",
+    "description" : "pop-interactive GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.222.192.0/18",
       "212.79.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1b30::/29"
     ]
   }

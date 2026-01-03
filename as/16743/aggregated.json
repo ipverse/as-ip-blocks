@@ -1,15 +1,18 @@
 {
-  "asn": 16743,
-  "handle": "FTSBROADBAND",
-  "description": "FTS Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16743,
+  "metadata" : {
+    "handle" : "FTSBROADBAND",
+    "description" : "FTS Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.3.64.0/23",
       "72.34.16.0/20",
       "192.216.82.0/24",
       "198.31.32.0/23",
       "198.31.163.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

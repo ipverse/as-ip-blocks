@@ -1,13 +1,16 @@
 {
-  "asn": 15370,
-  "handle": "MFISOFT-AS",
-  "description": "Citadel LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15370,
+  "metadata" : {
+    "handle" : "MFISOFT-AS",
+    "description" : "Citadel LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.162.88.0/23",
       "192.162.91.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:28e4::/48"
     ]
   }

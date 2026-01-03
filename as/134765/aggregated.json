@@ -1,9 +1,12 @@
 {
-  "asn": 134765,
-  "handle": "CHINANET-YUNNAN-IDC1",
-  "description": "CHINANET Yunnan province IDC1 network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134765,
+  "metadata" : {
+    "handle" : "CHINANET-YUNNAN-IDC1",
+    "description" : "CHINANET Yunnan province IDC1 network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.228.76.0/22",
       "43.254.252.0/22",
       "61.166.151.0/24",
@@ -34,6 +37,6 @@
       "220.165.7.0/24",
       "220.165.8.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

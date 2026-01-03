@@ -1,9 +1,12 @@
 {
-  "asn": 152644,
-  "handle": "QINIU-AS-AP",
-  "description": "QINIU (CHINA) limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152644,
+  "metadata" : {
+    "handle" : "QINIU-AS-AP",
+    "description" : "QINIU (CHINA) limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.123.103.0/24",
       "38.125.160.0/24",
       "38.226.195.0/24",
@@ -14,7 +17,7 @@
       "204.141.218.0/24",
       "204.141.229.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:418:149b::/48",
       "2001:418:149c::/48"
     ]

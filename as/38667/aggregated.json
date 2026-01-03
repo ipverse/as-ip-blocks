@@ -1,15 +1,18 @@
 {
-  "asn": 38667,
-  "handle": "KAKAOBANK-AS",
-  "description": "KakaoBank Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38667,
+  "metadata" : {
+    "handle" : "KAKAOBANK-AS",
+    "description" : "KakaoBank Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.252.176.0/23",
       "61.252.178.0/24",
       "61.252.191.0/24",
       "103.66.192.0/22",
       "103.254.248.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

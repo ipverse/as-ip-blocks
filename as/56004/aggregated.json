@@ -1,10 +1,13 @@
 {
-  "asn": 56004,
-  "handle": "SHERNET",
-  "description": "Information Center of Shanghai Municipal Education Commission",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 56004,
+  "metadata" : {
+    "handle" : "SHERNET",
+    "description" : "Information Center of Shanghai Municipal Education Commission",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2405:d900::/32"
     ]
   }

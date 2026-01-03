@@ -1,12 +1,15 @@
 {
-  "asn": 40591,
-  "handle": "BUCKNELLUNIVERSITY",
-  "description": "Bucknell University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40591,
+  "metadata" : {
+    "handle" : "BUCKNELLUNIVERSITY",
+    "description" : "Bucknell University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.82.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:d90::/48"
     ]
   }

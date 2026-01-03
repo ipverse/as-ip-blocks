@@ -1,9 +1,12 @@
 {
-  "asn": 40866,
-  "handle": "MYSERVER-DOT-ORG",
-  "description": "San Diego Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40866,
+  "metadata" : {
+    "handle" : "MYSERVER-DOT-ORG",
+    "description" : "San Diego Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.4.120.0/22",
       "8.25.32.0/23",
       "8.25.36.0/22",
@@ -15,6 +18,6 @@
       "209.16.132.0/22",
       "216.105.47.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

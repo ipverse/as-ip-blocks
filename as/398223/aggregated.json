@@ -1,14 +1,17 @@
 {
-  "asn": 398223,
-  "handle": "POMONA-01",
-  "description": "Pomona Consulting LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398223,
+  "metadata" : {
+    "handle" : "POMONA-01",
+    "description" : "Pomona Consulting LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.149.16.0/24",
       "104.250.232.0/23",
       "104.250.234.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:803:4070::/46",
       "2602:803:4075::/48",
       "2602:803:4077::/48"

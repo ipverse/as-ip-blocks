@@ -1,14 +1,17 @@
 {
-  "asn": 137699,
-  "handle": "CHINATELECOM-JIANGSU-SUQIAN-IDC",
-  "description": "CHINATELECOM Jiangsu Suqian IDC network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137699,
+  "metadata" : {
+    "handle" : "CHINATELECOM-JIANGSU-SUQIAN-IDC",
+    "description" : "CHINATELECOM Jiangsu Suqian IDC network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.198.192.0/18",
       "121.226.193.0/24",
       "180.101.79.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:1ec0:1600::/48"
     ]
   }

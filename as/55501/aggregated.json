@@ -1,9 +1,12 @@
 {
-  "asn": 55501,
-  "handle": "CONNECTEL-PK",
-  "description": "Web Concepts (Pvt) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55501,
+  "metadata" : {
+    "handle" : "CONNECTEL-PK",
+    "description" : "Web Concepts (Pvt) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.105.208.0/22",
       "103.155.4.0/23",
       "103.155.63.0/24",
@@ -13,6 +16,6 @@
       "160.250.96.0/24",
       "202.166.160.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

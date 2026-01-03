@@ -1,12 +1,15 @@
 {
-  "asn": 60585,
-  "handle": "SITEL-VSAT-ASN",
-  "description": "SITEL-VSAT sro",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60585,
+  "metadata" : {
+    "handle" : "SITEL-VSAT-ASN",
+    "description" : "SITEL-VSAT sro",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.28.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:9ee0::/32"
     ]
   }

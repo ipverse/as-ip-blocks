@@ -1,9 +1,12 @@
 {
-  "asn": 6057,
-  "handle": "ADMINISTRACION-NACIONAL-TELECOMUNICACIONES",
-  "description": "Administracion Nacional de Telecomunicaciones",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6057,
+  "metadata" : {
+    "handle" : "ADMINISTRACION-NACIONAL-TELECOMUNICACIONES",
+    "description" : "Administracion Nacional de Telecomunicaciones",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.208.208.0/22",
       "167.56.0.0/13",
       "167.108.0.0/16",
@@ -19,7 +22,7 @@
       "201.217.128.0/18",
       "201.221.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:a0::/28"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 60459,
-  "handle": "FLEXLINE-AS",
-  "description": "OOO Flexline-N",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60459,
+  "metadata" : {
+    "handle" : "FLEXLINE-AS",
+    "description" : "OOO Flexline-N",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.30.192.0/22",
       "195.28.48.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

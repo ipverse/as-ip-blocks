@@ -1,14 +1,17 @@
 {
-  "asn": 50598,
-  "handle": "SFS-SERVICES-AG",
-  "description": "SFS Group Schweiz AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50598,
+  "metadata" : {
+    "handle" : "SFS-SERVICES-AG",
+    "description" : "SFS Group Schweiz AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.93.112.0/21",
       "194.93.120.0/23",
       "194.93.122.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:2fc0::/29"
     ]
   }

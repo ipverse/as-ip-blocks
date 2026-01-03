@@ -1,12 +1,15 @@
 {
-  "asn": 20330,
-  "handle": "NYS-UNIFIED-COURTS",
-  "description": "New York State Unified Court System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20330,
+  "metadata" : {
+    "handle" : "NYS-UNIFIED-COURTS",
+    "description" : "New York State Unified Court System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.29.40.0/21",
       "207.29.128.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

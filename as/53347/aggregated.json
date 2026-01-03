@@ -1,9 +1,12 @@
 {
-  "asn": 53347,
-  "handle": "PREMIER-COMMUNICATIONS",
-  "description": "Premier Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53347,
+  "metadata" : {
+    "handle" : "PREMIER-COMMUNICATIONS",
+    "description" : "Premier Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.43.202.0/24",
       "67.22.192.0/20",
       "67.55.139.0/24",
@@ -36,7 +39,7 @@
       "216.51.241.0/24",
       "216.51.242.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fe28::/32"
     ]
   }

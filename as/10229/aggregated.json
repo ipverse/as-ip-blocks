@@ -1,9 +1,12 @@
 {
-  "asn": 10229,
-  "handle": "YAHOO-TW1",
-  "description": "Yahoo Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10229,
+  "metadata" : {
+    "handle" : "YAHOO-TW1",
+    "description" : "Yahoo Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "117.104.191.0/24",
       "119.160.240.0/20",
       "124.108.72.0/23",
@@ -19,7 +22,7 @@
       "203.83.216.0/23",
       "203.84.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:2000:fc::/46",
       "2406:2000:1a0::/46",
       "2406:2000:ef67::/48",

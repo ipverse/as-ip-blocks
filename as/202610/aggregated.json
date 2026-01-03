@@ -1,12 +1,15 @@
 {
-  "asn": 202610,
-  "handle": "NEKO-AS",
-  "description": "NekoClaw Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202610,
+  "metadata" : {
+    "handle" : "NEKO-AS",
+    "description" : "NekoClaw Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.31.231.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:d940:90a5::/48"
     ]
   }

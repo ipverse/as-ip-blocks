@@ -1,9 +1,12 @@
 {
-  "asn": 397563,
-  "handle": "ADEOXTECH",
-  "description": "ADEOX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397563,
+  "metadata" : {
+    "handle" : "ADEOXTECH",
+    "description" : "ADEOX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.122.100.0/22",
       "80.253.252.0/23",
       "91.151.80.0/24",
@@ -14,6 +17,6 @@
       "213.142.142.0/24",
       "213.142.152.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

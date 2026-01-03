@@ -1,14 +1,17 @@
 {
-  "asn": 17069,
-  "handle": "COOP-TELEFONICA-VILLA",
-  "description": "Coop Telefonica Villa Gesell Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17069,
+  "metadata" : {
+    "handle" : "COOP-TELEFONICA-VILLA",
+    "description" : "Coop Telefonica Villa Gesell Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.117.112.0/22",
       "181.192.0.0/19",
       "204.157.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:2300::/32"
     ]
   }

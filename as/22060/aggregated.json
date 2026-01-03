@@ -1,9 +1,12 @@
 {
-  "asn": 22060,
-  "handle": "NETSPECTRUM",
-  "description": "Netspectrum Wireless Internet Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22060,
+  "metadata" : {
+    "handle" : "NETSPECTRUM",
+    "description" : "Netspectrum Wireless Internet Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.39.16.0/21",
       "38.45.228.0/22",
       "66.205.252.0/22",
@@ -12,6 +15,6 @@
       "199.19.160.0/21",
       "216.238.32.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

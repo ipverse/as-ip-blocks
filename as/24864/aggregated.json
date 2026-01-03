@@ -1,16 +1,19 @@
 {
-  "asn": 24864,
-  "handle": "R-IT-AS",
-  "description": "Raiffeisen Informatik GmbH \u0026 Co KG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24864,
+  "metadata" : {
+    "handle" : "R-IT-AS",
+    "description" : "Raiffeisen Informatik GmbH & Co KG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.144.0/23",
       "89.188.64.0/21",
       "185.159.56.0/22",
       "193.110.28.0/22",
       "217.13.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:7c8::/32"
     ]
   }

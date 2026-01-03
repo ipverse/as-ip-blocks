@@ -1,10 +1,13 @@
 {
-  "asn": 33972,
-  "handle": "MASTERHOST-AS",
-  "description": "LLC MASTERHOST",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 33972,
+  "metadata" : {
+    "handle" : "MASTERHOST-AS",
+    "description" : "LLC MASTERHOST",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a00:15f8:c::/47"
     ]
   }

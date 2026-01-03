@@ -1,13 +1,16 @@
 {
-  "asn": 134874,
-  "handle": "ACMEDIGINET-AS",
-  "description": "Acme Diginet Corporation Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134874,
+  "metadata" : {
+    "handle" : "ACMEDIGINET-AS",
+    "description" : "Acme Diginet Corporation Pvt. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.206.224.0/22",
       "146.196.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:27c0::/32"
     ]
   }

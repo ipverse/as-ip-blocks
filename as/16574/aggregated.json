@@ -1,9 +1,12 @@
 {
-  "asn": 16574,
-  "handle": "GTEK-COMMUNICATIONS",
-  "description": "Gtek Computers LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16574,
+  "metadata" : {
+    "handle" : "GTEK-COMMUNICATIONS",
+    "description" : "Gtek Computers LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.24.208.0/23",
       "8.24.210.0/24",
       "8.24.212.0/22",
@@ -14,10 +17,9 @@
       "50.93.156.0/24",
       "50.93.158.0/23",
       "65.90.11.0/24",
-      "65.91.196.0/24",
-      "65.91.198.0/23",
+      "65.91.196.0/22",
       "206.198.244.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

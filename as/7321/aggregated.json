@@ -1,9 +1,12 @@
 {
-  "asn": 7321,
-  "handle": "LNET-ASN",
-  "description": "LocalNet Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7321,
+  "metadata" : {
+    "handle" : "LNET-ASN",
+    "description" : "LocalNet Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "169.207.0.0/16",
       "207.89.128.0/24",
       "207.89.130.0/24",
@@ -23,6 +26,6 @@
       "216.196.32.0/19",
       "216.197.0.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

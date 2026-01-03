@@ -1,13 +1,16 @@
 {
-  "asn": 61572,
-  "handle": "CONTROLADORIA-GERAL-UNIAO",
-  "description": "CONTROLADORIA-GERAL DA UNIÃO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61572,
+  "metadata" : {
+    "handle" : "CONTROLADORIA-GERAL-UNIAO",
+    "description" : "CONTROLADORIA-GERAL DA UNIÃO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.117.132.0/23",
       "138.117.134.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:80:3200::/48",
       "2801:80:3280::/42"
     ]

@@ -1,15 +1,18 @@
 {
-  "asn": 24334,
-  "handle": "CYBERPORT-HK-AP",
-  "description": "Hong Kong Cyberport Management Company Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24334,
+  "metadata" : {
+    "handle" : "CYBERPORT-HK-AP",
+    "description" : "Hong Kong Cyberport Management Company Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.11.88.0/22",
       "202.83.240.0/21",
       "202.171.208.0/21",
       "203.142.88.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:1a0::/30"
     ]
   }

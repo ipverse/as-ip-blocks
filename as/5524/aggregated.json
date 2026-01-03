@@ -1,9 +1,12 @@
 {
-  "asn": 5524,
-  "handle": "BREEDBANDNEDERLAND",
-  "description": "Signet B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5524,
+  "metadata" : {
+    "handle" : "BREEDBANDNEDERLAND",
+    "description" : "Signet B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.3.8.0/21",
       "46.226.56.0/21",
       "85.10.172.0/22",
@@ -15,7 +18,7 @@
       "185.95.176.0/22",
       "194.53.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:23b8::/48",
       "2a00:c080::/32",
       "2a03:4f00::/32",

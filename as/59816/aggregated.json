@@ -1,9 +1,12 @@
 {
-  "asn": 59816,
-  "handle": "BLYNX",
-  "description": "4on LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59816,
+  "metadata" : {
+    "handle" : "BLYNX",
+    "description" : "4on LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.70.132.0/22",
       "185.241.36.0/23",
       "185.241.38.0/24",
@@ -12,7 +15,7 @@
       "193.169.216.0/23",
       "194.147.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:2a00::/29"
     ]
   }

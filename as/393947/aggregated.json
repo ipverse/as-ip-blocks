@@ -1,12 +1,15 @@
 {
-  "asn": 393947,
-  "handle": "FIRMFARM-ASN-V1",
-  "description": "Firm Farm",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393947,
+  "metadata" : {
+    "handle" : "FIRMFARM-ASN-V1",
+    "description" : "Firm Farm",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.120.84.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:820::/32"
     ]
   }

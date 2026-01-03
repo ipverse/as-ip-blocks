@@ -1,12 +1,15 @@
 {
-  "asn": 9771,
-  "handle": "SYNNARA-AS",
-  "description": "Media Synnara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9771,
+  "metadata" : {
+    "handle" : "SYNNARA-AS",
+    "description" : "Media Synnara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "211.61.169.0/24",
       "211.247.254.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

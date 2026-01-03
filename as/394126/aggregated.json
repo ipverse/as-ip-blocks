@@ -1,9 +1,12 @@
 {
-  "asn": 394126,
-  "handle": "ECSD-PUBLIC-ASN",
-  "description": "The School District of Escambia County",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394126,
+  "metadata" : {
+    "handle" : "ECSD-PUBLIC-ASN",
+    "description" : "The School District of Escambia County",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.78.75.0/24",
       "204.78.76.0/23",
       "204.78.78.0/24",
@@ -16,6 +19,6 @@
       "204.78.125.0/24",
       "204.78.126.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

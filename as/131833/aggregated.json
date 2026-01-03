@@ -1,15 +1,18 @@
 {
-  "asn": 131833,
-  "handle": "KIACOR-AS",
-  "description": "Kia Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131833,
+  "metadata" : {
+    "handle" : "KIACOR-AS",
+    "description" : "Kia Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.3.230.0/24",
       "64.124.96.0/24",
       "103.187.34.0/23",
       "208.184.45.0/24",
       "209.198.182.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

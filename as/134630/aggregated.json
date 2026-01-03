@@ -1,14 +1,17 @@
 {
-  "asn": 134630,
-  "handle": "PALAPANET-AS-ID",
-  "description": "PT Palapa Global Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134630,
+  "metadata" : {
+    "handle" : "PALAPANET-AS-ID",
+    "description" : "PT Palapa Global Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.156.20.0/24",
       "49.156.22.0/23",
       "103.200.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:8680:1::/48"
     ]
   }

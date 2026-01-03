@@ -1,12 +1,15 @@
 {
-  "asn": 23263,
-  "handle": "EL-INTERNET-NORTHWEST",
-  "description": "E.L. Internet Northwest",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23263,
+  "metadata" : {
+    "handle" : "EL-INTERNET-NORTHWEST",
+    "description" : "E.L. Internet Northwest",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.183.176.0/24",
       "205.220.208.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

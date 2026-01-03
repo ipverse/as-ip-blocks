@@ -1,12 +1,15 @@
 {
-  "asn": 198031,
-  "handle": "TRUSTICA-AS",
-  "description": "Trustica s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198031,
+  "metadata" : {
+    "handle" : "TRUSTICA-AS",
+    "description" : "Trustica s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.146.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:a780::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 204035,
-  "handle": "ONECORP",
-  "description": "oneCorp GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204035,
+  "metadata" : {
+    "handle" : "ONECORP",
+    "description" : "oneCorp GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.228.132.0/24",
       "37.228.134.0/24",
       "146.19.118.0/24",
@@ -20,7 +23,7 @@
       "193.56.173.0/24",
       "194.125.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:1c40::/32",
       "2a06:7f80::/29"
     ]

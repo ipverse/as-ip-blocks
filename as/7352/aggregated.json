@@ -1,16 +1,19 @@
 {
-  "asn": 7352,
-  "handle": "WECOM-INC",
-  "description": "WECOM LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7352,
+  "metadata" : {
+    "handle" : "WECOM-INC",
+    "description" : "WECOM LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.189.128.0/24",
       "104.166.0.0/22",
       "104.166.4.0/24",
       "104.166.8.0/21",
       "198.54.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:cd00::/32"
     ]
   }

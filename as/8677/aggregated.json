@@ -1,9 +1,12 @@
 {
-  "asn": 8677,
-  "handle": "WORLDLINE",
-  "description": "Worldline SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8677,
+  "metadata" : {
+    "handle" : "WORLDLINE",
+    "description" : "Worldline SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.106.184.0/21",
       "160.92.1.0/24",
       "160.92.2.0/23",
@@ -41,6 +44,6 @@
       "193.58.80.0/21",
       "193.201.76.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 213027,
-  "handle": "INFRARUN",
-  "description": "infra.run Service GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213027,
+  "metadata" : {
+    "handle" : "INFRARUN",
+    "description" : "infra.run Service GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.92.48.0/22",
       "91.203.106.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:f70::/48",
       "2001:678:f74::/48",
       "2a11:a00::/29"

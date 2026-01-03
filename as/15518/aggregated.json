@@ -1,16 +1,19 @@
 {
-  "asn": 15518,
-  "handle": "CIRC-AS",
-  "description": "Circular Informationssysteme GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15518,
+  "metadata" : {
+    "handle" : "CIRC-AS",
+    "description" : "Circular Informationssysteme GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.86.160.0/20",
       "212.86.180.0/22",
       "212.86.188.0/22",
       "213.153.64.0/22",
       "213.153.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1180::/32"
     ]
   }

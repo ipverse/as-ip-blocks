@@ -1,9 +1,12 @@
 {
-  "asn": 46450,
-  "handle": "PILOT",
-  "description": "Pilot Fiber Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46450,
+  "metadata" : {
+    "handle" : "PILOT",
+    "description" : "Pilot Fiber Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.225.96.0/23",
       "45.14.166.0/24",
       "45.67.145.0/24",
@@ -108,7 +111,7 @@
       "217.197.168.0/24",
       "217.197.171.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:3580::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 40299,
-  "handle": "ATOS",
-  "description": "Atos",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40299,
+  "metadata" : {
+    "handle" : "ATOS",
+    "description" : "Atos",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.75.237.0/24",
       "192.75.238.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

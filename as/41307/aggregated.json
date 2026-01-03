@@ -1,15 +1,18 @@
 {
-  "asn": 41307,
-  "handle": "TPP",
-  "description": "Telepark Passau GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41307,
+  "metadata" : {
+    "handle" : "TPP",
+    "description" : "Telepark Passau GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.133.192.0/19",
       "89.28.136.0/21",
       "109.69.96.0/21",
       "185.39.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:ca00::/29"
     ]
   }

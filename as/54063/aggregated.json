@@ -1,14 +1,17 @@
 {
-  "asn": 54063,
-  "handle": "MHHS-AS",
-  "description": "Memorial Hermann Health System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54063,
+  "metadata" : {
+    "handle" : "MHHS-AS",
+    "description" : "Memorial Hermann Health System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.22.21.0/24",
       "198.22.23.0/24",
       "198.22.24.0/23",
       "198.51.61.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

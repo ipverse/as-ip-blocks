@@ -1,12 +1,15 @@
 {
-  "asn": 269017,
-  "handle": "GTV-INTERNET",
-  "description": "GTV Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269017,
+  "metadata" : {
+    "handle" : "GTV-INTERNET",
+    "description" : "GTV Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.178.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5e30::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 8492,
-  "handle": "OBIT-AS",
-  "description": "OBIT Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8492,
+  "metadata" : {
+    "handle" : "OBIT-AS",
+    "description" : "OBIT Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.8.17.0/24",
       "37.77.129.0/24",
       "37.77.130.0/23",
@@ -85,7 +88,7 @@
       "195.189.134.0/23",
       "217.79.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:590::/32",
       "2a05:a400::/29"
     ]

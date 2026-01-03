@@ -1,9 +1,12 @@
 {
-  "asn": 63497,
-  "handle": "ARANANETWORK-AS-ID",
-  "description": "PT. Arana Teknologi Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63497,
+  "metadata" : {
+    "handle" : "ARANANETWORK-AS-ID",
+    "description" : "PT. Arana Teknologi Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.90.25.0/24",
       "103.90.26.0/24",
       "103.134.104.0/23",
@@ -11,6 +14,6 @@
       "103.232.242.0/23",
       "103.250.199.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

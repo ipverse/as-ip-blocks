@@ -1,9 +1,12 @@
 {
-  "asn": 204004,
-  "handle": "AIREBULLAS",
-  "description": "Fibranet Tecnologia y Sistemas SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204004,
+  "metadata" : {
+    "handle" : "AIREBULLAS",
+    "description" : "Fibranet Tecnologia y Sistemas SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.59.80.0/22",
       "77.241.58.0/24",
       "92.246.80.0/23",
@@ -11,6 +14,6 @@
       "185.107.16.0/22",
       "185.117.44.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

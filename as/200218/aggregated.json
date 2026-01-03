@@ -1,12 +1,15 @@
 {
-  "asn": 200218,
-  "handle": "TNTEL-AS",
-  "description": "Tvoy Novy Telecom LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200218,
+  "metadata" : {
+    "handle" : "TNTEL-AS",
+    "description" : "Tvoy Novy Telecom LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.170.212.0/22",
       "93.171.0.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

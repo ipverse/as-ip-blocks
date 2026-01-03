@@ -1,12 +1,15 @@
 {
-  "asn": 63506,
-  "handle": "IDNIC-BASARNAS-AS-ID",
-  "description": "Badan SAR Nasional",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63506,
+  "metadata" : {
+    "handle" : "IDNIC-BASARNAS-AS-ID",
+    "description" : "Badan SAR Nasional",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.40.94.0/24",
       "157.20.24.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

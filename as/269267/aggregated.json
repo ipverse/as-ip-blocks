@@ -1,12 +1,15 @@
 {
-  "asn": 269267,
-  "handle": "PROLINK-INTERNET-FIBRA",
-  "description": "ProLink Internet Fibra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269267,
+  "metadata" : {
+    "handle" : "PROLINK-INTERNET-FIBRA",
+    "description" : "ProLink Internet Fibra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.182.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:61f4::/32"
     ]
   }

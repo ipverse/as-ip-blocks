@@ -1,11 +1,14 @@
 {
-  "asn": 50545,
-  "handle": "SOFTCLUB-AS",
-  "description": "OOO 1C-Softclub",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50545,
+  "metadata" : {
+    "handle" : "SOFTCLUB-AS",
+    "description" : "OOO 1C-Softclub",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.191.136.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

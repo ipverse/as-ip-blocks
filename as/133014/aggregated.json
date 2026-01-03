@@ -1,9 +1,12 @@
 {
-  "asn": 133014,
-  "handle": "UTM-AS-AP",
-  "description": "Universiti Teknologi Malaysia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133014,
+  "metadata" : {
+    "handle" : "UTM-AS-AP",
+    "description" : "Universiti Teknologi Malaysia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.139.0.0/17",
       "161.139.128.0/20",
       "161.139.152.0/21",
@@ -11,7 +14,7 @@
       "161.139.208.0/20",
       "161.139.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:41f::/48"
     ]
   }

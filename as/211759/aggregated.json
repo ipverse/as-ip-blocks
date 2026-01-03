@@ -1,14 +1,17 @@
 {
-  "asn": 211759,
-  "handle": "MIKU-NETWORK",
-  "description": "Miku Network Technology Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211759,
+  "metadata" : {
+    "handle" : "MIKU-NETWORK",
+    "description" : "Miku Network Technology Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.163.8.0/24",
       "151.243.38.0/24",
       "157.254.154.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:b60:200::/44",
       "2401:b60:3150::/44",
       "2a12:3fc2:ab41::/48",

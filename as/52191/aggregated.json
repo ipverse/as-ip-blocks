@@ -1,14 +1,17 @@
 {
-  "asn": 52191,
-  "handle": "LOCALKA-NET-AS",
-  "description": "PE Saychik Pavlo Evgenovuch",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52191,
+  "metadata" : {
+    "handle" : "LOCALKA-NET-AS",
+    "description" : "PE Saychik Pavlo Evgenovuch",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.195.10.0/23",
       "91.219.168.0/22",
       "91.224.8.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:21f0::/48"
     ]
   }

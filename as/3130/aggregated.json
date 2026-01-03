@@ -1,14 +1,17 @@
 {
-  "asn": 3130,
-  "handle": "RGNET-SEA",
-  "description": "RGnet OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3130,
+  "metadata" : {
+    "handle" : "RGNET-SEA",
+    "description" : "RGnet OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.28.0.0/23",
       "147.28.7.0/24",
       "198.180.153.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:418:1::/48"
     ]
   }

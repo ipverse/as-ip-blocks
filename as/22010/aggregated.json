@@ -1,12 +1,15 @@
 {
-  "asn": 22010,
-  "handle": "PRIMER-BANCO-ISTMO",
-  "description": "Primer Banco del Istmo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22010,
+  "metadata" : {
+    "handle" : "PRIMER-BANCO-ISTMO",
+    "description" : "Primer Banco del Istmo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.222.59.0/24",
       "200.46.145.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 19690,
-  "handle": "HYATT-CORP",
-  "description": "Hyatt Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19690,
+  "metadata" : {
+    "handle" : "HYATT-CORP",
+    "description" : "Hyatt Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "140.95.190.0/23",
       "140.95.205.0/24",
       "140.95.207.0/24",
@@ -13,7 +16,7 @@
       "140.95.235.0/24",
       "140.95.242.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:186:8::/46"
     ]
   }

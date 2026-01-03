@@ -1,13 +1,16 @@
 {
-  "asn": 141309,
-  "handle": "YAKSHEN-AS",
-  "description": "Yaksh Enterprises",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141309,
+  "metadata" : {
+    "handle" : "YAKSHEN-AS",
+    "description" : "Yaksh Enterprises",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.158.104.0/23",
       "157.15.34.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:ab80::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 4686,
-  "handle": "BEKKOAME",
-  "description": "BEKKOAME INTERNET INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4686,
+  "metadata" : {
+    "handle" : "BEKKOAME",
+    "description" : "BEKKOAME INTERNET INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.231.244.0/22",
       "45.114.112.0/22",
       "45.114.184.0/22",
@@ -53,7 +56,7 @@
       "220.150.223.0/24",
       "220.158.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:5200::/32"
     ]
   }

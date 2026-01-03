@@ -1,16 +1,19 @@
 {
-  "asn": 12826,
-  "handle": "CYLLENE-ITS",
-  "description": "CYLLENE ITS SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12826,
+  "metadata" : {
+    "handle" : "CYLLENE-ITS",
+    "description" : "CYLLENE ITS SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.80.237.0/24",
       "91.151.64.0/20",
       "185.23.132.0/23",
       "185.55.164.0/22",
       "195.101.158.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ef60::/32"
     ]
   }

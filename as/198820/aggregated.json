@@ -1,14 +1,17 @@
 {
-  "asn": 198820,
-  "handle": "RADIONETWORK-AS",
-  "description": "Limited Liability Company Radio Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198820,
+  "metadata" : {
+    "handle" : "RADIONETWORK-AS",
+    "description" : "Limited Liability Company Radio Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.231.40.0/22",
       "176.118.48.0/21",
       "193.19.252.0/22",
       "194.0.52.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

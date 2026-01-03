@@ -1,9 +1,12 @@
 {
-  "asn": 29954,
-  "handle": "JLL-AM-CHI",
-  "description": "Jones Lang LaSalle Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29954,
+  "metadata" : {
+    "handle" : "JLL-AM-CHI",
+    "description" : "Jones Lang LaSalle Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.44.16.0/24",
       "204.44.18.0/23",
       "204.44.20.0/22",
@@ -15,6 +18,6 @@
       "205.144.74.0/24",
       "205.144.76.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

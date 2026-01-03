@@ -1,9 +1,12 @@
 {
-  "asn": 6334,
-  "handle": "ASN-TSG",
-  "description": "Sabre GLBL Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6334,
+  "metadata" : {
+    "handle" : "ASN-TSG",
+    "description" : "Sabre GLBL Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "151.193.0.0/20",
       "151.193.48.0/20",
       "151.193.64.0/20",
@@ -12,6 +15,6 @@
       "151.193.124.0/22",
       "151.193.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

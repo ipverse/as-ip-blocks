@@ -1,12 +1,15 @@
 {
-  "asn": 57521,
-  "handle": "SIMPLYSOFT-AS",
-  "description": "Simplysoft GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57521,
+  "metadata" : {
+    "handle" : "SIMPLYSOFT-AS",
+    "description" : "Simplysoft GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.10.39.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:bc1::/46",
       "2a13:bc2::/48"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 8728,
-  "handle": "AS-INFONET",
-  "description": "AS INFONET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8728,
+  "metadata" : {
+    "handle" : "AS-INFONET",
+    "description" : "AS INFONET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.147.160.0/19",
       "84.52.0.0/18",
       "89.235.192.0/18",
@@ -11,7 +14,7 @@
       "185.200.68.0/22",
       "212.7.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1b28::/32"
     ]
   }

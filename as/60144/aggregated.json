@@ -1,9 +1,12 @@
 {
-  "asn": 60144,
-  "handle": "THREE-W-INFRA-AS",
-  "description": "3W Infra B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60144,
+  "metadata" : {
+    "handle" : "THREE-W-INFRA-AS",
+    "description" : "3W Infra B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.138.36.0/22",
       "45.150.76.0/22",
       "91.215.156.0/22",
@@ -19,7 +22,7 @@
       "193.42.108.0/22",
       "193.104.200.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5060::/32",
       "2a07:f9c0::/29",
       "2a09:0:12::/48",

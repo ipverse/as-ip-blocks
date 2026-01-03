@@ -1,11 +1,14 @@
 {
-  "asn": 64418,
-  "handle": "VI-PORT-AS",
-  "description": "VI-PORT LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64418,
+  "metadata" : {
+    "handle" : "VI-PORT-AS",
+    "description" : "VI-PORT LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.121.111.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

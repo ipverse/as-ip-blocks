@@ -1,15 +1,18 @@
 {
-  "asn": 393684,
-  "handle": "INFINITYLINK",
-  "description": "Infinity Network Services Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393684,
+  "metadata" : {
+    "handle" : "INFINITYLINK",
+    "description" : "Infinity Network Services Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.152.16.0/24",
       "38.83.12.0/22",
       "38.83.24.0/21",
       "104.245.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff5f::/36",
       "2606:94c0::/32",
       "2606:9540::/32"

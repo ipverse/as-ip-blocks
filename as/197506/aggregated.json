@@ -1,13 +1,16 @@
 {
-  "asn": 197506,
-  "handle": "LEVEL7-AS",
-  "description": "Level7 s.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197506,
+  "metadata" : {
+    "handle" : "LEVEL7-AS",
+    "description" : "Level7 s.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.44.16.0/20",
       "45.144.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:d400::/32"
     ]
   }

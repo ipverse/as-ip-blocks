@@ -1,13 +1,16 @@
 {
-  "asn": 134356,
-  "handle": "NBCCOLTD-AS-AP",
-  "description": "NBC Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134356,
+  "metadata" : {
+    "handle" : "NBCCOLTD-AS-AP",
+    "description" : "NBC Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.140.10.0/23",
       "183.177.110.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:4c40::/32"
     ]
   }

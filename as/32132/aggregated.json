@@ -1,9 +1,12 @@
 {
-  "asn": 32132,
-  "handle": "AS-FOCNL-01",
-  "description": "Fiber Optic Cable Network LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32132,
+  "metadata" : {
+    "handle" : "AS-FOCNL-01",
+    "description" : "Fiber Optic Cable Network LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.175.203.0/24",
       "5.231.59.0/24",
       "5.231.94.0/24",
@@ -24,6 +27,6 @@
       "178.18.144.0/24",
       "185.190.228.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

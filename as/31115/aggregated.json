@@ -1,9 +1,12 @@
 {
-  "asn": 31115,
-  "handle": "INTRED-AS",
-  "description": "INTRED S.P.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31115,
+  "metadata" : {
+    "handle" : "INTRED-AS",
+    "description" : "INTRED S.P.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.172.64.0/19",
       "31.171.136.0/21",
       "62.97.32.0/19",
@@ -18,7 +21,7 @@
       "195.134.176.0/21",
       "213.225.234.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:9840::/32"
     ]
   }

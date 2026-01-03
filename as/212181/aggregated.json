@@ -1,12 +1,15 @@
 {
-  "asn": 212181,
-  "handle": "EDEKA-SB",
-  "description": "EDEKA Suedbayern Beteiligungsgesellschaft mbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212181,
+  "metadata" : {
+    "handle" : "EDEKA-SB",
+    "description" : "EDEKA Suedbayern Beteiligungsgesellschaft mbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.47.149.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:1180::/31"
     ]
   }

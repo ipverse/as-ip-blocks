@@ -1,13 +1,16 @@
 {
-  "asn": 268335,
-  "handle": "ORACLON-TELECOM",
-  "description": "ORACLON TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268335,
+  "metadata" : {
+    "handle" : "ORACLON-TELECOM",
+    "description" : "ORACLON TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.211.113.0/24",
       "45.238.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4f90::/32"
     ]
   }

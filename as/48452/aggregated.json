@@ -1,9 +1,12 @@
 {
-  "asn": 48452,
-  "handle": "TRAFFIC-NET",
-  "description": "Telco power Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48452,
+  "metadata" : {
+    "handle" : "TRAFFIC-NET",
+    "description" : "Telco power Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.228.38.0/24",
       "94.26.0.0/22",
       "94.26.36.0/24",
@@ -16,6 +19,6 @@
       "94.26.92.0/24",
       "94.26.104.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

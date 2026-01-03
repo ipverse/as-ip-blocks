@@ -1,10 +1,13 @@
 {
-  "asn": 153168,
-  "handle": "LUBIN-AS-AP",
-  "description": "Lu Bin",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 153168,
+  "metadata" : {
+    "handle" : "LUBIN-AS-AP",
+    "description" : "Lu Bin",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2406:840:fd50::/44",
       "2406:840:fe9a::/48"
     ]

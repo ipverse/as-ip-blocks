@@ -1,14 +1,17 @@
 {
-  "asn": 63297,
-  "handle": "PACIFIC-SERVERS",
-  "description": "Pacific Servers Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63297,
+  "metadata" : {
+    "handle" : "PACIFIC-SERVERS",
+    "description" : "Pacific Servers Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.51.184.0/22",
       "192.243.214.0/23",
       "199.60.63.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:cf80::/32"
     ]
   }

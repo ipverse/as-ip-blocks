@@ -1,9 +1,12 @@
 {
-  "asn": 206991,
-  "handle": "IXIR",
-  "description": "Iksir Internet Hizmetleri A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206991,
+  "metadata" : {
+    "handle" : "IXIR",
+    "description" : "Iksir Internet Hizmetleri A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.95.237.0/24",
       "85.95.238.0/23",
       "85.95.240.0/22",
@@ -11,6 +14,6 @@
       "185.123.100.0/23",
       "185.169.64.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

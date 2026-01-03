@@ -1,9 +1,12 @@
 {
-  "asn": 133982,
-  "handle": "EXCITEL-AS-IN",
-  "description": "Excitel Broadband Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133982,
+  "metadata" : {
+    "handle" : "EXCITEL-AS-IN",
+    "description" : "Excitel Broadband Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.254.160.0/21",
       "38.254.168.0/23",
       "38.254.170.0/24",
@@ -58,7 +61,7 @@
       "205.254.180.0/22",
       "205.254.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:9640::/32",
       "2407:aec0::/32"
     ]

@@ -1,11 +1,14 @@
 {
-  "asn": 2002,
-  "handle": "KYN-GTS",
-  "description": "Kyndryl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2002,
+  "metadata" : {
+    "handle" : "KYN-GTS",
+    "description" : "Kyndryl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.41.168.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

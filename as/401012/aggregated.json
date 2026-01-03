@@ -1,12 +1,15 @@
 {
-  "asn": 401012,
-  "handle": "LTIS-BB",
-  "description": "Laurens Technologies Internet Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401012,
+  "metadata" : {
+    "handle" : "LTIS-BB",
+    "description" : "Laurens Technologies Internet Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.181.72.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f956:70::/45",
       "2602:f956:78::/47",
       "2602:f956:80::/48",

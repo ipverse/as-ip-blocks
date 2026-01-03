@@ -1,9 +1,12 @@
 {
-  "asn": 21353,
-  "handle": "ARTCOMS-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21353,
+  "metadata" : {
+    "handle" : "ARTCOMS-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.16.0.0/20",
       "5.16.16.0/22",
       "5.44.54.0/24",
@@ -45,6 +48,6 @@
       "188.133.152.0/21",
       "217.12.64.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

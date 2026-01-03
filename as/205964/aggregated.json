@@ -1,9 +1,12 @@
 {
-  "asn": 205964,
-  "handle": "CODE200-180",
-  "description": "UAB code200",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205964,
+  "metadata" : {
+    "handle" : "CODE200-180",
+    "description" : "UAB code200",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.137.70.0/23",
       "64.137.105.0/24",
       "64.137.107.0/24",
@@ -18,7 +21,7 @@
       "193.36.76.0/24",
       "209.35.99.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:6cc1::/32"
     ]
   }

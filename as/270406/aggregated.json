@@ -1,12 +1,15 @@
 {
-  "asn": 270406,
-  "handle": "FAA-PROVEDOR",
-  "description": "F.A.A PROVEDOR LTDA - ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270406,
+  "metadata" : {
+    "handle" : "FAA-PROVEDOR",
+    "description" : "F.A.A PROVEDOR LTDA - ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.111.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6b88::/32"
     ]
   }

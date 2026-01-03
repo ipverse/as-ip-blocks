@@ -1,9 +1,12 @@
 {
-  "asn": 19435,
-  "handle": "DNET-ISP",
-  "description": "Dnet Internet Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19435,
+  "metadata" : {
+    "handle" : "DNET-ISP",
+    "description" : "Dnet Internet Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.85.176.0/23",
       "64.85.182.0/23",
       "64.85.184.0/24",
@@ -12,6 +15,6 @@
       "184.171.131.0/24",
       "184.171.140.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

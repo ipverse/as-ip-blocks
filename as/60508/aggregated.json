@@ -1,9 +1,12 @@
 {
-  "asn": 60508,
-  "handle": "PINOSPUENTE-AS",
-  "description": "T.V.C. PINOS PUENTE SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60508,
+  "metadata" : {
+    "handle" : "PINOSPUENTE-AS",
+    "description" : "T.V.C. PINOS PUENTE SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.236.183.0/24",
       "84.236.207.0/24",
       "88.148.102.0/24",
@@ -12,6 +15,6 @@
       "176.227.153.0/24",
       "178.156.25.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

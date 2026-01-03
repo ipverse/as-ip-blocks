@@ -1,9 +1,12 @@
 {
-  "asn": 27176,
-  "handle": "DATAWAGON",
-  "description": "DataWagon LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27176,
+  "metadata" : {
+    "handle" : "DATAWAGON",
+    "description" : "DataWagon LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.172.181.0/24",
       "23.140.216.0/24",
       "37.16.76.0/24",
@@ -50,7 +53,7 @@
       "206.206.102.0/24",
       "213.170.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:aa80::/32",
       "2a07:6c80::/29"
     ]

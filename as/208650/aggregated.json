@@ -1,12 +1,15 @@
 {
-  "asn": 208650,
-  "handle": "SONIO-AS",
-  "description": "Sonio AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208650,
+  "metadata" : {
+    "handle" : "SONIO-AS",
+    "description" : "Sonio AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.202.134.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:d6c0:135::/48"
     ]
   }

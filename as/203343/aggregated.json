@@ -1,12 +1,15 @@
 {
-  "asn": 203343,
-  "handle": "STORMGEO-EU",
-  "description": "StormGeo AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203343,
+  "metadata" : {
+    "handle" : "STORMGEO-EU",
+    "description" : "StormGeo AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.120.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:a5c0::/32"
     ]
   }

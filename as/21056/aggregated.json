@@ -1,9 +1,12 @@
 {
-  "asn": 21056,
-  "handle": "ASN-WELCOMEITALIA",
-  "description": "Vianova S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21056,
+  "metadata" : {
+    "handle" : "ASN-WELCOMEITALIA",
+    "description" : "Vianova S.p.A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.84.140.0/22",
       "45.143.36.0/22",
       "45.151.12.0/22",
@@ -41,7 +44,7 @@
       "194.58.216.0/22",
       "213.182.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:14f8::/32"
     ]
   }

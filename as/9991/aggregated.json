@@ -1,12 +1,15 @@
 {
-  "asn": 9991,
-  "handle": "SHUDO-U",
-  "description": "Hiroshima Shudo University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9991,
+  "metadata" : {
+    "handle" : "SHUDO-U",
+    "description" : "Hiroshima Shudo University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "150.32.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:b340::/48"
     ]
   }

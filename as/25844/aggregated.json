@@ -1,9 +1,12 @@
 {
-  "asn": 25844,
-  "handle": "SKADDEN1",
-  "description": "Skadden Arps Slate Meagher \u0026 Flom LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25844,
+  "metadata" : {
+    "handle" : "SKADDEN1",
+    "description" : "Skadden Arps Slate Meagher & Flom LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.90.0.0/22",
       "162.90.96.0/22",
       "162.90.116.0/24",
@@ -12,6 +15,6 @@
       "162.90.192.0/20",
       "162.90.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

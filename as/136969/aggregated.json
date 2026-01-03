@@ -1,9 +1,12 @@
 {
-  "asn": 136969,
-  "handle": "KKNETWROK-AS-AP",
-  "description": "KK Networks (Pvt) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136969,
+  "metadata" : {
+    "handle" : "KKNETWROK-AS-AP",
+    "description" : "KK Networks (Pvt) Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.12.196.0/22",
       "103.73.100.0/22",
       "103.125.176.0/22",
@@ -15,7 +18,7 @@
       "103.188.92.0/23",
       "163.223.4.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:f480::/32"
     ]
   }

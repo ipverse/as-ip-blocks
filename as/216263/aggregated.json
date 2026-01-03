@@ -1,12 +1,15 @@
 {
-  "asn": 216263,
-  "handle": "RADICENTER",
-  "description": "Radicenter OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216263,
+  "metadata" : {
+    "handle" : "RADICENTER",
+    "description" : "Radicenter OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.86.211.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:c5c0::/32"
     ]
   }

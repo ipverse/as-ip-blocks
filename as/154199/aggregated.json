@@ -1,11 +1,14 @@
 {
-  "asn": 154199,
-  "handle": "SRSCOMMUNICATION-AS-AP",
-  "description": "SRS COMMUNICATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 154199,
+  "metadata" : {
+    "handle" : "SRSCOMMUNICATION-AS-AP",
+    "description" : "SRS COMMUNICATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.136.74.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

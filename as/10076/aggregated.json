@@ -1,13 +1,16 @@
 {
-  "asn": 10076,
-  "handle": "ASN-ERDEMNET",
-  "description": "Mongolian Technical University Computer Science Mgmt School",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10076,
+  "metadata" : {
+    "handle" : "ASN-ERDEMNET",
+    "description" : "Mongolian Technical University Computer Science Mgmt School",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.248.142.0/23",
       "202.5.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:ec80::/32"
     ]
   }

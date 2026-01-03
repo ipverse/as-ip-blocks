@@ -1,9 +1,12 @@
 {
-  "asn": 56044,
-  "handle": "CMNET-AS-LIAONING",
-  "description": "China Mobile Communications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56044,
+  "metadata" : {
+    "handle" : "CMNET-AS-LIAONING",
+    "description" : "China Mobile Communications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.128.0.0/15",
       "36.130.0.0/16",
       "36.131.0.0/19",
@@ -63,7 +66,7 @@
       "223.160.148.0/22",
       "223.161.226.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2409:8014::/30",
       "2409:8087:1400::/38",
       "2409:8714::/30",

@@ -1,14 +1,17 @@
 {
-  "asn": 22355,
-  "handle": "FROGFOOT",
-  "description": "Frogfoot Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22355,
+  "metadata" : {
+    "handle" : "FROGFOOT",
+    "description" : "Frogfoot Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.85.0.0/17",
       "41.206.192.0/19",
       "196.1.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:ffc8::/32"
     ]
   }

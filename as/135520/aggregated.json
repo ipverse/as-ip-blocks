@@ -1,11 +1,14 @@
 {
-  "asn": 135520,
-  "handle": "OVERTHEWIRE-AU",
-  "description": "Over the Wire Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135520,
+  "metadata" : {
+    "handle" : "OVERTHEWIRE-AU",
+    "description" : "Over the Wire Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.43.226.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

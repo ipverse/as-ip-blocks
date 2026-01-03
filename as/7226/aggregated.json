@@ -1,9 +1,12 @@
 {
-  "asn": 7226,
-  "handle": "DATABANK-LATISYS",
-  "description": "Latisys-Denver LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7226,
+  "metadata" : {
+    "handle" : "DATABANK-LATISYS",
+    "description" : "Latisys-Denver LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.247.79.0/24",
       "64.22.68.0/24",
       "64.22.75.0/24",
@@ -62,7 +65,7 @@
       "209.51.139.0/24",
       "209.51.144.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:ef80::/32"
     ]
   }

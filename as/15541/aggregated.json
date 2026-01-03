@@ -1,9 +1,12 @@
 {
-  "asn": 15541,
-  "handle": "CETI-AS",
-  "description": "Marcin Bochenek trading as CETI s.c",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15541,
+  "metadata" : {
+    "handle" : "CETI-AS",
+    "description" : "Marcin Bochenek trading as CETI s.c.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.121.128.0/22",
       "62.121.132.0/23",
       "62.121.135.0/24",
@@ -17,6 +20,6 @@
       "62.121.150.0/24",
       "62.121.152.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

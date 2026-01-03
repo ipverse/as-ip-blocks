@@ -1,9 +1,12 @@
 {
-  "asn": 22192,
-  "handle": "SSHENET",
-  "description": "Pennsylvania State System of Higher Education",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22192,
+  "metadata" : {
+    "handle" : "SSHENET",
+    "description" : "Pennsylvania State System of Higher Education",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.108.160.0/23",
       "204.108.168.0/23",
       "204.108.190.0/23",
@@ -16,7 +19,7 @@
       "204.235.162.0/23",
       "204.235.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:2240:800::/37"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 400556,
-  "handle": "LAGLESS-AS",
-  "description": "Elcro Digital Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400556,
+  "metadata" : {
+    "handle" : "LAGLESS-AS",
+    "description" : "Elcro Digital Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.202.199.0/24",
       "45.45.195.0/24",
       "82.22.19.0/24",
@@ -14,7 +17,7 @@
       "143.20.135.0/24",
       "199.119.136.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f71e:100::/48",
       "2602:f71e:310::/44"
     ]

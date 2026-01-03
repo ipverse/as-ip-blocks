@@ -1,12 +1,15 @@
 {
-  "asn": 396322,
-  "handle": "PC-ASN",
-  "description": "Peace Corps",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396322,
+  "metadata" : {
+    "handle" : "PC-ASN",
+    "description" : "Peace Corps",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.205.231.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2601:1201::/40",
       "2601:1202::/48",
       "2601:1202:3::/48",

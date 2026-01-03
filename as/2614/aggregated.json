@@ -1,9 +1,12 @@
 {
-  "asn": 2614,
-  "handle": "ROEDUNET",
-  "description": "Agentia de Administrare a Retelei Nationale de Informatica pentru Educatie si Cercetare",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2614,
+  "metadata" : {
+    "handle" : "ROEDUNET",
+    "description" : "Agentia de Administrare a Retelei Nationale de Informatica pentru Educatie si Cercetare",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.14.19.0/24",
       "37.128.224.0/20",
       "46.243.112.0/21",
@@ -73,7 +76,7 @@
       "217.73.160.0/20",
       "217.156.12.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:b30::/29"
     ]
   }

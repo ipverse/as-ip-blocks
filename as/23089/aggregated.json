@@ -1,9 +1,12 @@
 {
-  "asn": 23089,
-  "handle": "HOTWIRE-COMMUNICATIONS",
-  "description": "Hotwire Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23089,
+  "metadata" : {
+    "handle" : "HOTWIRE-COMMUNICATIONS",
+    "description" : "Hotwire Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.2.184.0/23",
       "8.2.217.0/24",
       "8.2.220.0/22",
@@ -211,7 +214,7 @@
       "209.247.124.0/22",
       "216.228.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:8200:1::/48",
       "2604:8200:5::/48",
       "2604:8200:98::/48",

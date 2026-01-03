@@ -1,12 +1,15 @@
 {
-  "asn": 23842,
-  "handle": "SZINC-AS-AP",
-  "description": "Shenzhen Information and Network Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23842,
+  "metadata" : {
+    "handle" : "SZINC-AS-AP",
+    "description" : "Shenzhen Information and Network Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.91.32.0/19",
       "203.175.128.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

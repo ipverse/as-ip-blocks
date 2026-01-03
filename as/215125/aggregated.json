@@ -1,12 +1,15 @@
 {
-  "asn": 215125,
-  "handle": "CYBEROLOGY-AS",
-  "description": "Church of Cyberology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215125,
+  "metadata" : {
+    "handle" : "CYBEROLOGY-AS",
+    "description" : "Church of Cyberology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.42.116.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:e60::/48"
     ]
   }

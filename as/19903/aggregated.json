@@ -1,9 +1,12 @@
 {
-  "asn": 19903,
-  "handle": "REACHBROADBAND",
-  "description": "Reach Broadband LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19903,
+  "metadata" : {
+    "handle" : "REACHBROADBAND",
+    "description" : "Reach Broadband LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "107.178.16.0/22",
       "107.178.21.0/24",
       "107.178.22.0/23",
@@ -11,6 +14,6 @@
       "107.178.27.0/24",
       "107.178.29.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

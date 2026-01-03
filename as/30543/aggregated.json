@@ -1,12 +1,15 @@
 {
-  "asn": 30543,
-  "handle": "TVCC-5-AS",
-  "description": "Treasure Valley Community College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30543,
+  "metadata" : {
+    "handle" : "TVCC-5-AS",
+    "description" : "Treasure Valley Community College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.60.240.0/21",
       "199.104.9.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

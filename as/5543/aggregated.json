@@ -1,10 +1,13 @@
 {
-  "asn": 5543,
-  "handle": "TEST-ASN1",
-  "description": "Joint Stock Company TransTeleCom",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 5543,
+  "metadata" : {
+    "handle" : "TEST-ASN1",
+    "description" : "Joint Stock Company TransTeleCom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a02:e840:1001::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 51588,
-  "handle": "SESAN",
-  "description": "SESAN SERVICE NUMERIQUE DE SANTE GCS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51588,
+  "metadata" : {
+    "handle" : "SESAN",
+    "description" : "SESAN SERVICE NUMERIQUE DE SANTE GCS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.56.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:3100::/29"
     ]
   }

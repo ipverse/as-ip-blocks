@@ -1,16 +1,19 @@
 {
-  "asn": 139623,
-  "handle": "MYNETPTYLTD-AS-AP",
-  "description": "My Net Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139623,
+  "metadata" : {
+    "handle" : "MYNETPTYLTD-AS-AP",
+    "description" : "My Net Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.93.232.0/22",
       "103.142.158.0/23",
       "157.15.218.0/23",
       "163.227.46.0/23",
       "202.71.188.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:90c0::/48",
       "2401:31c0::/32",
       "2401:7f20::/32",

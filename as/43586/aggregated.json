@@ -1,12 +1,15 @@
 {
-  "asn": 43586,
-  "handle": "INTERLINK",
-  "description": "UAB Porenta",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43586,
+  "metadata" : {
+    "handle" : "INTERLINK",
+    "description" : "UAB Porenta",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.24.76.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1908:c000::/35"
     ]
   }

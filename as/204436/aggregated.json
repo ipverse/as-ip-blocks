@@ -1,13 +1,16 @@
 {
-  "asn": 204436,
-  "handle": "KUALO-AS",
-  "description": "Kualo Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204436,
+  "metadata" : {
+    "handle" : "KUALO-AS",
+    "description" : "Kualo Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.197.228.0/22",
       "185.181.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:cb80::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 400441,
-  "handle": "HYPHA-US1",
-  "description": "WINAC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400441,
+  "metadata" : {
+    "handle" : "HYPHA-US1",
+    "description" : "WINAC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.139.38.0/24",
       "216.21.17.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

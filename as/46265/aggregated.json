@@ -1,12 +1,15 @@
 {
-  "asn": 46265,
-  "handle": "NETSKRTSYSTEMS-CANADA",
-  "description": "Netskrt",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46265,
+  "metadata" : {
+    "handle" : "NETSKRTSYSTEMS-CANADA",
+    "description" : "Netskrt",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.88.78.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:8240:2::/48",
       "2607:8240:101::/48"
     ]

@@ -1,14 +1,17 @@
 {
-  "asn": 213939,
-  "handle": "SIT-TELECOM",
-  "description": "Steffen Schiffel GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213939,
+  "metadata" : {
+    "handle" : "SIT-TELECOM",
+    "description" : "Steffen Schiffel GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.178.105.0/24",
       "62.164.197.0/24",
       "212.108.103.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:e340::/29"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 133761,
-  "handle": "FORESTTH-AS-AP",
-  "description": "Mr. Naphat",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133761,
+  "metadata" : {
+    "handle" : "FORESTTH-AS-AP",
+    "description" : "Mr. Naphat",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.204.26.0/24",
       "110.170.148.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:fb0:1071::/48"
     ]
   }

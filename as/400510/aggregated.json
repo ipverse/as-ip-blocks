@@ -1,12 +1,15 @@
 {
-  "asn": 400510,
-  "handle": "AS-UMGTCN",
-  "description": "United Management Group LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400510,
+  "metadata" : {
+    "handle" : "AS-UMGTCN",
+    "description" : "United Management Group LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.202.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe17::/36"
     ]
   }

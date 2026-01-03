@@ -1,12 +1,15 @@
 {
-  "asn": 268878,
-  "handle": "LYRANET-TELECOM",
-  "description": "LyraNet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268878,
+  "metadata" : {
+    "handle" : "LYRANET-TELECOM",
+    "description" : "LyraNet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.174.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5bf0::/32"
     ]
   }

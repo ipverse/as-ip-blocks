@@ -1,9 +1,12 @@
 {
-  "asn": 47402,
-  "handle": "MULTIMEDIA-AS",
-  "description": "Multimedia BG EOOD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47402,
+  "metadata" : {
+    "handle" : "MULTIMEDIA-AS",
+    "description" : "Multimedia BG EOOD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.238.184.0/21",
       "84.238.196.0/22",
       "84.238.200.0/22",
@@ -13,6 +16,6 @@
       "84.238.240.0/20",
       "185.7.204.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

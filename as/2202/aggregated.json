@@ -1,13 +1,16 @@
 {
-  "asn": 2202,
-  "handle": "FR-RENATER-REAUMUR",
-  "description": "Renater",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2202,
+  "metadata" : {
+    "handle" : "FR-RENATER-REAUMUR",
+    "description" : "Renater",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.210.0.0/16",
       "193.56.108.0/22",
       "193.56.230.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 41066,
-  "handle": "RTCOMM-SIBIR-AS",
-  "description": "JSC RTComm.RU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41066,
+  "metadata" : {
+    "handle" : "RTCOMM-SIBIR-AS",
+    "description" : "JSC RTComm.RU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.172.144.0/21",
       "95.172.152.0/22",
       "95.172.156.0/24",
       "95.172.158.0/23",
       "185.13.0.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

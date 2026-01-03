@@ -1,13 +1,16 @@
 {
-  "asn": 63510,
-  "handle": "UNSYIAH-AS-ID",
-  "description": "Syiah Kuala University (Unsyiah)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63510,
+  "metadata" : {
+    "handle" : "UNSYIAH-AS-ID",
+    "description" : "Syiah Kuala University (Unsyiah)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.41.169.0/24",
       "202.4.186.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:b6::/48"
     ]
   }

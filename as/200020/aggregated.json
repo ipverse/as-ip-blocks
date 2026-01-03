@@ -1,13 +1,16 @@
 {
-  "asn": 200020,
-  "handle": "NBIP-AS",
-  "description": "Stichting NBIP-NaWas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200020,
+  "metadata" : {
+    "handle" : "NBIP-AS",
+    "description" : "Stichting NBIP-NaWas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.62.131.0/24",
       "212.114.112.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:608::/48"
     ]
   }

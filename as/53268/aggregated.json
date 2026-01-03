@@ -1,13 +1,16 @@
 {
-  "asn": 53268,
-  "handle": "EIS-SFO-AS",
-  "description": "EIS Group INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53268,
+  "metadata" : {
+    "handle" : "EIS-SFO-AS",
+    "description" : "EIS Group INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.99.17.0/24",
       "65.49.55.0/24",
       "173.226.120.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

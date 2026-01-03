@@ -1,9 +1,12 @@
 {
-  "asn": 64079,
-  "handle": "CTGL-IPX",
-  "description": "China Telecom Global Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64079,
+  "metadata" : {
+    "handle" : "CTGL-IPX",
+    "description" : "China Telecom Global Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.144.140.0/24",
       "23.144.180.0/24",
       "61.29.244.0/24",
@@ -15,6 +18,6 @@
       "203.86.124.0/23",
       "220.247.138.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

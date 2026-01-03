@@ -1,9 +1,12 @@
 {
-  "asn": 30745,
-  "handle": "SITENETWORK-AS",
-  "description": "Site LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30745,
+  "metadata" : {
+    "handle" : "SITENETWORK-AS",
+    "description" : "Site LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.202.132.0/22",
       "82.202.144.0/21",
       "82.202.152.0/22",
@@ -11,7 +14,7 @@
       "193.25.8.0/22",
       "193.25.12.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:6e80::/29"
     ]
   }

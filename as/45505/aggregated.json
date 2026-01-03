@@ -1,11 +1,14 @@
 {
-  "asn": 45505,
-  "handle": "T-GLOBAL-AS-AP",
-  "description": "T-Global Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45505,
+  "metadata" : {
+    "handle" : "T-GLOBAL-AS-AP",
+    "description" : "T-Global Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "113.52.154.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

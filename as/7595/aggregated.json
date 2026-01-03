@@ -1,13 +1,16 @@
 {
-  "asn": 7595,
-  "handle": "READYSPACE-SG",
-  "description": "Readyspace Network Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7595,
+  "metadata" : {
+    "handle" : "READYSPACE-SG",
+    "description" : "Readyspace Network Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.3.164.0/24",
       "117.120.0.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:ed00::/32"
     ]
   }

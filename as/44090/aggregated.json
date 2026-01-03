@@ -1,9 +1,12 @@
 {
-  "asn": 44090,
-  "handle": "MAHANNET-AS",
-  "description": "Enteghal Dadeh Mahan Co. PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44090,
+  "metadata" : {
+    "handle" : "MAHANNET-AS",
+    "description" : "Enteghal Dadeh Mahan Co. PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.3.0/24",
       "5.202.72.0/22",
       "5.202.102.0/24",
@@ -17,7 +20,7 @@
       "213.176.7.0/24",
       "213.176.127.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:74c0::/32"
     ]
   }

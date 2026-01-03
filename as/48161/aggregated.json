@@ -1,9 +1,12 @@
 {
-  "asn": 48161,
-  "handle": "NG-AS",
-  "description": "NEXTGEN COMMUNICATIONS SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48161,
+  "metadata" : {
+    "handle" : "NG-AS",
+    "description" : "NEXTGEN COMMUNICATIONS SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.214.0.0/17",
       "46.214.128.0/19",
       "46.214.160.0/20",
@@ -50,6 +53,6 @@
       "188.173.224.0/19",
       "193.16.148.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

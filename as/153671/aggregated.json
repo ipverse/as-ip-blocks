@@ -1,9 +1,12 @@
 {
-  "asn": 153671,
-  "handle": "LGHL-AS-AP",
-  "description": "liasail global hongkong limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153671,
+  "metadata" : {
+    "handle" : "LGHL-AS-AP",
+    "description" : "liasail global hongkong limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.82.171.0/24",
       "154.81.152.0/22",
       "154.196.128.0/24",
@@ -20,6 +23,6 @@
       "156.242.104.0/22",
       "160.202.44.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

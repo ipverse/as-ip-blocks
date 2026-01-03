@@ -1,9 +1,12 @@
 {
-  "asn": 6830,
-  "handle": "LIBERTYGLOBAL",
-  "description": "Liberty Global Europe Holding B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6830,
+  "metadata" : {
+    "handle" : "LIBERTYGLOBAL",
+    "description" : "Liberty Global Europe Holding B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.133.162.0/23",
       "5.133.164.0/22",
       "5.179.32.0/19",
@@ -108,7 +111,7 @@
       "217.23.240.0/20",
       "217.67.76.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:730::/29",
       "2a02:8080::/29",
       "2a02:ab00::/29"

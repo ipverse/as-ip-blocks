@@ -1,14 +1,17 @@
 {
-  "asn": 49554,
-  "handle": "SIORAS-AS",
-  "description": "P.P.Shirshov Institute of Oceanology RAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49554,
+  "metadata" : {
+    "handle" : "SIORAS-AS",
+    "description" : "P.P.Shirshov Institute of Oceanology RAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.225.112.0/22",
       "193.232.202.0/24",
       "193.232.213.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:c00::/48"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 401298,
-  "handle": "SIPNAV-WEST",
-  "description": "SipNav LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401298,
+  "metadata" : {
+    "handle" : "SIPNAV-WEST",
+    "description" : "SipNav LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.96.93.0/24",
       "88.151.128.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:92c0:1400::/40"
     ]
   }

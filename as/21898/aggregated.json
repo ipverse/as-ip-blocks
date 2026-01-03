@@ -1,9 +1,12 @@
 {
-  "asn": 21898,
-  "handle": "PTN-AS1",
-  "description": "Plant TiftNet Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21898,
+  "metadata" : {
+    "handle" : "PTN-AS1",
+    "description" : "Plant TiftNet Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.87.224.0/21",
       "69.87.236.0/22",
       "74.209.64.0/20",
@@ -15,7 +18,7 @@
       "209.164.254.0/24",
       "216.105.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:7c00::/32"
     ]
   }

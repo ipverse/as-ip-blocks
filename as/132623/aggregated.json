@@ -1,10 +1,13 @@
 {
-  "asn": 132623,
-  "handle": "TSUKERU-AS",
-  "description": "Tsukeru Networks",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 132623,
+  "metadata" : {
+    "handle" : "TSUKERU-AS",
+    "description" : "Tsukeru Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2406:840:fcc0::/44",
       "2406:840:fef7::/48"
     ]

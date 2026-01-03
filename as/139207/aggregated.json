@@ -1,12 +1,15 @@
 {
-  "asn": 139207,
-  "handle": "SERVERWORLD-AS-AP",
-  "description": "Serverworld",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139207,
+  "metadata" : {
+    "handle" : "SERVERWORLD-AS-AP",
+    "description" : "Serverworld",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.15.141.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:9e80::/48"
     ]
   }

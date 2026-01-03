@@ -1,13 +1,16 @@
 {
-  "asn": 149699,
-  "handle": "IDNIC-RSUD-MOEWARDI-AS-ID",
-  "description": "RSUD Dr Moewardi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149699,
+  "metadata" : {
+    "handle" : "IDNIC-RSUD-MOEWARDI-AS-ID",
+    "description" : "RSUD Dr Moewardi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.186.166.0/24",
       "103.242.86.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:f5a0::/32"
     ]
   }

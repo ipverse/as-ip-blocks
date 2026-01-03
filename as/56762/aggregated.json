@@ -1,10 +1,13 @@
 {
-  "asn": 56762,
-  "handle": "OLYMPIC2",
-  "description": "Olympic Input/Output LLC",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 56762,
+  "metadata" : {
+    "handle" : "OLYMPIC2",
+    "description" : "Olympic Input/Output LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:67c:b8c::/48",
       "2a07:54c1:41ff::/48"
     ]

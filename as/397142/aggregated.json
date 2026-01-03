@@ -1,9 +1,12 @@
 {
-  "asn": 397142,
-  "handle": "FORT-COLLINS-CONNEXION",
-  "description": "City of Fort Collins",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397142,
+  "metadata" : {
+    "handle" : "FORT-COLLINS-CONNEXION",
+    "description" : "City of Fort Collins",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.163.32.0/24",
       "38.15.32.0/19",
       "38.75.232.0/21",
@@ -18,7 +21,7 @@
       "204.133.79.0/24",
       "204.133.83.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:b40::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 138407,
-  "handle": "CMNET-GZIDC-CN",
-  "description": "China Mobile Communications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138407,
+  "metadata" : {
+    "handle" : "CMNET-GZIDC-CN",
+    "description" : "China Mobile Communications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "117.135.194.0/23",
       "117.135.198.0/24",
       "117.135.206.0/23",
@@ -52,7 +55,7 @@
       "117.187.252.0/23",
       "117.187.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2409:806a:3000::/48",
       "2409:806a:b020::/44",
       "2409:8c6a:1412::/48",

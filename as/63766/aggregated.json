@@ -1,15 +1,18 @@
 {
-  "asn": 63766,
-  "handle": "VEGAGAME-AS-VN",
-  "description": "VEGAGAME-VN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63766,
+  "metadata" : {
+    "handle" : "VEGAGAME-AS-VN",
+    "description" : "VEGAGAME-VN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.78.93.0/24",
       "103.78.94.0/23",
       "103.216.120.0/22",
       "157.119.244.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:1e00::/48"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 272199,
-  "handle": "ENTELCO-TELECOM",
-  "description": "ENTELCO TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272199,
+  "metadata" : {
+    "handle" : "ENTELCO-TELECOM",
+    "description" : "ENTELCO TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.176.86.0/23",
       "138.122.176.0/22",
       "168.227.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8374::/32"
     ]
   }

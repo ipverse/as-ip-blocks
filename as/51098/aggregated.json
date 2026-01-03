@@ -1,11 +1,14 @@
 {
-  "asn": 51098,
-  "handle": "ROSA-AS",
-  "description": "Agentia Spatiala Romana",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51098,
+  "metadata" : {
+    "handle" : "ROSA-AS",
+    "description" : "Agentia Spatiala Romana",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.116.136.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

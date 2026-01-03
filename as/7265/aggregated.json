@@ -1,9 +1,12 @@
 {
-  "asn": 7265,
-  "handle": "WOW-INTERNET",
-  "description": "WideOpenWest Finance LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7265,
+  "metadata" : {
+    "handle" : "WOW-INTERNET",
+    "description" : "WideOpenWest Finance LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.47.192.0/24",
       "216.47.199.0/24",
       "216.47.200.0/22",
@@ -14,6 +17,6 @@
       "216.47.220.0/24",
       "216.47.222.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

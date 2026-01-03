@@ -1,9 +1,12 @@
 {
-  "asn": 62957,
-  "handle": "HOSPITALITY-NETWORK",
-  "description": "HOSPITALITY NETWORK LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62957,
+  "metadata" : {
+    "handle" : "HOSPITALITY-NETWORK",
+    "description" : "HOSPITALITY NETWORK LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.48.81.0/24",
       "24.120.34.0/24",
       "24.120.99.0/24",
@@ -31,6 +34,6 @@
       "98.173.106.0/23",
       "98.188.92.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

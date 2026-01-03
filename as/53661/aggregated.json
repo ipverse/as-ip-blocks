@@ -1,9 +1,12 @@
 {
-  "asn": 53661,
-  "handle": "PPI",
-  "description": "PPI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53661,
+  "metadata" : {
+    "handle" : "PPI",
+    "description" : "PPI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.59.184.0/22",
       "199.59.188.0/24",
       "199.59.190.0/23",
@@ -11,6 +14,6 @@
       "199.115.69.0/24",
       "199.115.70.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

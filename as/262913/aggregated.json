@@ -1,9 +1,12 @@
 {
-  "asn": 262913,
-  "handle": "KONECTA-MEXICO",
-  "description": "Konecta de Mexico S. de R.L. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262913,
+  "metadata" : {
+    "handle" : "KONECTA-MEXICO",
+    "description" : "Konecta de Mexico S. de R.L. de C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.166.216.0/22",
       "66.23.208.0/24",
       "131.72.228.0/22",
@@ -18,7 +21,7 @@
       "200.124.75.0/24",
       "201.159.16.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:21a::/40",
       "2806:21a:102::/48",
       "2806:21a:a05::/48",

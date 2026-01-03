@@ -1,11 +1,14 @@
 {
-  "asn": 208345,
-  "handle": "MEBIUS-AS",
-  "description": "Mebius JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208345,
+  "metadata" : {
+    "handle" : "MEBIUS-AS",
+    "description" : "Mebius JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.139.16.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

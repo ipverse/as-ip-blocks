@@ -1,9 +1,12 @@
 {
-  "asn": 33911,
-  "handle": "TENNET",
-  "description": "TENNET TELECOM SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33911,
+  "metadata" : {
+    "handle" : "TENNET",
+    "description" : "TENNET TELECOM SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.81.181.0/24",
       "85.120.50.0/23",
       "89.34.24.0/23",
@@ -13,6 +16,6 @@
       "193.202.126.0/24",
       "195.254.134.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

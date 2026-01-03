@@ -1,9 +1,12 @@
 {
-  "asn": 17670,
-  "handle": "MNCKABELMEDIACOM-ID",
-  "description": "PT. MNC Kabel Mediacom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17670,
+  "metadata" : {
+    "handle" : "MNCKABELMEDIACOM-ID",
+    "description" : "PT. MNC Kabel Mediacom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.162.236.0/24",
       "103.196.164.0/23",
       "103.213.128.0/22",
@@ -15,6 +18,6 @@
       "202.80.220.0/22",
       "202.147.192.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

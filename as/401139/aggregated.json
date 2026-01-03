@@ -1,12 +1,15 @@
 {
-  "asn": 401139,
-  "handle": "PRIVATE-NETWORK",
-  "description": "PRIVATE NETWORKS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401139,
+  "metadata" : {
+    "handle" : "PRIVATE-NETWORK",
+    "description" : "PRIVATE NETWORKS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.181.168.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f8b1::/36"
     ]
   }

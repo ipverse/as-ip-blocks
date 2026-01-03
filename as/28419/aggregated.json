@@ -1,15 +1,18 @@
 {
-  "asn": 28419,
-  "handle": "SENAL-INTERACTIVA",
-  "description": "Señal Interactiva S.A De C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28419,
+  "metadata" : {
+    "handle" : "SENAL-INTERACTIVA",
+    "description" : "Señal Interactiva S.A De C.V",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.5.92.0/22",
       "154.198.186.0/23",
       "154.201.16.0/23",
       "156.233.28.0/22",
       "200.34.204.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

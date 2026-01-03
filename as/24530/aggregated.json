@@ -1,14 +1,17 @@
 {
-  "asn": 24530,
-  "handle": "POWERNET-AS-ID",
-  "description": "PT. Power Telecom Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24530,
+  "metadata" : {
+    "handle" : "POWERNET-AS-ID",
+    "description" : "PT. Power Telecom Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.178.196.0/23",
       "119.10.176.0/21",
       "203.190.48.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:d940::/32"
     ]
   }

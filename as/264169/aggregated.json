@@ -1,13 +1,16 @@
 {
-  "asn": 264169,
-  "handle": "WNP-INTERNET",
-  "description": "WNP INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264169,
+  "metadata" : {
+    "handle" : "WNP-INTERNET",
+    "description" : "WNP INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.189.168.0/22",
       "138.94.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:238c::/34",
       "2804:238c:5100::/45",
       "2804:238c:6000::/35",

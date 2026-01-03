@@ -1,13 +1,16 @@
 {
-  "asn": 201698,
-  "handle": "DVAG-DE",
-  "description": "Deutsche Vermoegensberatung Aktiengesellschaft DVAG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201698,
+  "metadata" : {
+    "handle" : "DVAG-DE",
+    "description" : "Deutsche Vermoegensberatung Aktiengesellschaft DVAG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "156.67.4.0/23",
       "185.64.156.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:f8c0::/29"
     ]
   }

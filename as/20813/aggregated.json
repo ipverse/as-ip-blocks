@@ -1,12 +1,15 @@
 {
-  "asn": 20813,
-  "handle": "HOU-AS",
-  "description": "Hellenic Open University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20813,
+  "metadata" : {
+    "handle" : "HOU-AS",
+    "description" : "Hellenic Open University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.108.160.0/23",
       "194.24.226.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

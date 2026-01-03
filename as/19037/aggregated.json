@@ -1,9 +1,12 @@
 {
-  "asn": 19037,
-  "handle": "AMX-ARGENTINA",
-  "description": "AMX Argentina S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19037,
+  "metadata" : {
+    "handle" : "AMX-ARGENTINA",
+    "description" : "AMX Argentina S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.177.104.0/24",
       "170.51.1.0/24",
       "170.51.2.0/23",
@@ -294,6 +297,6 @@
       "200.123.115.0/24",
       "200.123.116.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

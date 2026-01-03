@@ -1,13 +1,16 @@
 {
-  "asn": 39150,
-  "handle": "HOSTING-TELECOM-AS",
-  "description": "HOSTING TELECOM LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39150,
+  "metadata" : {
+    "handle" : "HOSTING-TELECOM-AS",
+    "description" : "HOSTING TELECOM LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.196.137.0/24",
       "195.182.8.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:d0c0::/31",
       "2a02:ec40::/32",
       "2a04:8681::/32",

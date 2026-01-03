@@ -1,12 +1,15 @@
 {
-  "asn": 60833,
-  "handle": "NLMK-AS",
-  "description": "PJSC NLMK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60833,
+  "metadata" : {
+    "handle" : "NLMK-AS",
+    "description" : "PJSC NLMK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.20.194.0/24",
       "91.229.189.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

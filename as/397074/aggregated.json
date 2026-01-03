@@ -1,9 +1,12 @@
 {
-  "asn": 397074,
-  "handle": "TJXCOS-CORP-ASN",
-  "description": "Marshalls",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397074,
+  "metadata" : {
+    "handle" : "TJXCOS-CORP-ASN",
+    "description" : "Marshalls",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.233.1.0/24",
       "168.233.3.0/24",
       "168.233.6.0/23",
@@ -19,6 +22,6 @@
       "168.233.220.0/22",
       "168.233.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

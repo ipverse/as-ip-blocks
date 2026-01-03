@@ -1,9 +1,12 @@
 {
-  "asn": 55340,
-  "handle": "TELECARD-AS-AP",
-  "description": "Telecard Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55340,
+  "metadata" : {
+    "handle" : "TELECARD-AS-AP",
+    "description" : "Telecard Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.0.40.0/23",
       "116.0.43.0/24",
       "116.0.44.0/24",
@@ -13,7 +16,7 @@
       "116.0.61.0/24",
       "116.0.62.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:a960:6::/48",
       "2400:a960:a::/47"
     ]

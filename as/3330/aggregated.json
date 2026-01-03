@@ -1,9 +1,12 @@
 {
-  "asn": 3330,
-  "handle": "PROFINET-AT",
-  "description": "eww ag",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3330,
+  "metadata" : {
+    "handle" : "PROFINET-AT",
+    "description" : "eww ag",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.249.64.0/18",
       "91.208.80.0/24",
       "91.209.33.0/24",
@@ -15,7 +18,7 @@
       "195.149.75.0/24",
       "195.242.175.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:29cc::/48",
       "2001:67c:2aa8::/48",
       "2a02:5e0::/32"

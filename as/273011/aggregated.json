@@ -1,13 +1,14 @@
 {
-  "asn": 273011,
-  "handle": "DATAVOIP-CA",
-  "description": "DATAVOIP C.A",
-  "subnets": {
-    "ipv4": [
-      "38.172.138.0/23"
+  "asn" : 273011,
+  "metadata" : {
+    "handle" : "DATAVOIP-CA",
+    "description" : "DATAVOIP C.A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
+      "38.172.138.0/24"
     ],
-    "ipv6": [
-      "2803:390::/32"
-    ]
+    "ipv6" : [ ]
   }
 }

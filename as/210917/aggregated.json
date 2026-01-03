@@ -1,14 +1,17 @@
 {
-  "asn": 210917,
-  "handle": "TBOND",
-  "description": "Taurus Bond Srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210917,
+  "metadata" : {
+    "handle" : "TBOND",
+    "description" : "Taurus Bond Srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.94.24.0/24",
       "185.234.110.0/24",
       "193.30.116.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:4b00::/29"
     ]
   }

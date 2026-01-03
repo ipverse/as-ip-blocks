@@ -1,9 +1,12 @@
 {
-  "asn": 64245,
-  "handle": "AS-DIGITALFYRE",
-  "description": "DigitalFyre Internet Solutions LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64245,
+  "metadata" : {
+    "handle" : "AS-DIGITALFYRE",
+    "description" : "DigitalFyre Internet Solutions LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.114.119.0/24",
       "104.145.226.0/24",
       "104.145.228.0/24",
@@ -19,7 +22,7 @@
       "185.145.156.0/23",
       "185.145.158.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:2f80:42::/48",
       "2402:2f80:64::/48",
       "2602:ffb0:22::/48",

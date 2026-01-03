@@ -1,15 +1,18 @@
 {
-  "asn": 36962,
-  "handle": "MTNZ-AS",
-  "description": "MTN Zambia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36962,
+  "metadata" : {
+    "handle" : "MTNZ-AS",
+    "description" : "MTN Zambia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.216.64.0/19",
       "41.223.116.0/22",
       "102.210.160.0/22",
       "102.212.180.0/22",
       "213.193.32.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

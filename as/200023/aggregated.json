@@ -1,9 +1,12 @@
 {
-  "asn": 200023,
-  "handle": "QONNECTED-AS",
-  "description": "Qonnected B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200023,
+  "metadata" : {
+    "handle" : "QONNECTED-AS",
+    "description" : "Qonnected B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.82.184.0/22",
       "45.83.206.0/24",
       "45.92.248.0/22",
@@ -22,7 +25,7 @@
       "194.176.127.0/24",
       "202.49.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:7c00::/29",
       "2a0e:7180::/29"
     ]

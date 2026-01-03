@@ -1,12 +1,15 @@
 {
-  "asn": 61607,
-  "handle": "ASSOCIACAO-REMESSA",
-  "description": "Associação Remessa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61607,
+  "metadata" : {
+    "handle" : "ASSOCIACAO-REMESSA",
+    "description" : "Associação Remessa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.232.243.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1f50::/32"
     ]
   }

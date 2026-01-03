@@ -1,9 +1,12 @@
 {
-  "asn": 17853,
-  "handle": "LGTELECOM-AS",
-  "description": "LGTELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17853,
+  "metadata" : {
+    "handle" : "LGTELECOM-AS",
+    "description" : "LGTELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.33.197.0/24",
       "61.43.164.0/24",
       "61.43.179.0/24",
@@ -48,7 +51,7 @@
       "223.172.0.0/16",
       "223.174.0.0/15"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4430:f::/48",
       "2001:4430:4000::/35",
       "2001:4430:6000::/36",

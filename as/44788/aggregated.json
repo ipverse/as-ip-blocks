@@ -1,14 +1,17 @@
 {
-  "asn": 44788,
-  "handle": "ASN-CRITEO-EUROPE",
-  "description": "Criteo Technology SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44788,
+  "metadata" : {
+    "handle" : "ASN-CRITEO-EUROPE",
+    "description" : "Criteo Technology SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.250.1.0/24",
       "178.250.7.0/24",
       "185.235.84.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2638:2::/47",
       "2a02:2638:4::/46",
       "2a02:2638:b::/48",

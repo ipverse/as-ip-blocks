@@ -1,9 +1,12 @@
 {
-  "asn": 22213,
-  "handle": "SALK-AS",
-  "description": "Salk Institute",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22213,
+  "metadata" : {
+    "handle" : "SALK-AS",
+    "description" : "Salk Institute",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "153.105.81.0/24",
       "192.31.153.0/24",
       "198.186.182.0/24",
@@ -12,6 +15,6 @@
       "198.202.68.0/23",
       "198.202.70.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

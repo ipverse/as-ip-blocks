@@ -1,12 +1,15 @@
 {
-  "asn": 269150,
-  "handle": "DISKNET-INTERNET-BANDA-LARGA",
-  "description": "DiskNet Internet Banda Larga",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269150,
+  "metadata" : {
+    "handle" : "DISKNET-INTERNET-BANDA-LARGA",
+    "description" : "DiskNet Internet Banda Larga",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.180.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:602c::/32"
     ]
   }

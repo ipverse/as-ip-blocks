@@ -1,12 +1,15 @@
 {
-  "asn": 18409,
-  "handle": "BOT-TH-AS",
-  "description": "Bank of Thailand",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18409,
+  "metadata" : {
+    "handle" : "BOT-TH-AS",
+    "description" : "Bank of Thailand",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.90.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:e680::/32"
     ]
   }

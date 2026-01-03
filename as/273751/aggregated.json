@@ -1,12 +1,15 @@
 {
-  "asn": 273751,
-  "handle": "MNET-TELECOM",
-  "description": "Mnet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273751,
+  "metadata" : {
+    "handle" : "MNET-TELECOM",
+    "description" : "Mnet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.28.246.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8bb0::/32"
     ]
   }

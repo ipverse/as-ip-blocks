@@ -1,11 +1,14 @@
 {
-  "asn": 52045,
-  "handle": "VIZIT-AS",
-  "description": "PTRC-VIZIT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52045,
+  "metadata" : {
+    "handle" : "VIZIT-AS",
+    "description" : "PTRC-VIZIT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.41.21.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

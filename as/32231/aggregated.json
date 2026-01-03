@@ -1,13 +1,16 @@
 {
-  "asn": 32231,
-  "handle": "PATHWARD",
-  "description": "Pathward N.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32231,
+  "metadata" : {
+    "handle" : "PATHWARD",
+    "description" : "Pathward N.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.113.7.0/24",
       "65.123.45.0/24",
       "135.84.36.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

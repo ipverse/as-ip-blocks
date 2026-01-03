@@ -1,12 +1,15 @@
 {
-  "asn": 273350,
-  "handle": "GNS-TELECOM",
-  "description": "Gns Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273350,
+  "metadata" : {
+    "handle" : "GNS-TELECOM",
+    "description" : "Gns Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.224.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4560::/32",
       "2804:8d54::/32"
     ]

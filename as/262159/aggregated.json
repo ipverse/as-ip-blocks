@@ -1,9 +1,12 @@
 {
-  "asn": 262159,
-  "handle": "DIGITAL-TV-CABLE-EDMUND",
-  "description": "Digital TV CABLE DE EDMUND S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262159,
+  "metadata" : {
+    "handle" : "DIGITAL-TV-CABLE-EDMUND",
+    "description" : "Digital TV CABLE DE EDMUND S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.36.76.0/22",
       "143.137.112.0/22",
       "168.228.132.0/22",
@@ -11,7 +14,7 @@
       "179.60.112.0/20",
       "190.211.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:2880::/32"
     ]
   }

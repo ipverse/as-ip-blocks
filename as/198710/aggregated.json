@@ -1,9 +1,12 @@
 {
-  "asn": 198710,
-  "handle": "UUU-TELECOM-AS",
-  "description": "3U TELECOM GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198710,
+  "metadata" : {
+    "handle" : "UUU-TELECOM-AS",
+    "description" : "3U TELECOM GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.86.180.0/24",
       "81.209.132.0/24",
       "81.209.151.0/24",
@@ -18,7 +21,7 @@
       "193.142.97.0/24",
       "195.78.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:8e40::/29",
       "2a05:e700::/29"
     ]

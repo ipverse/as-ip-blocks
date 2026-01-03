@@ -1,14 +1,17 @@
 {
-  "asn": 200712,
-  "handle": "OUTPOST24",
-  "description": "Outpost 24 AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200712,
+  "metadata" : {
+    "handle" : "OUTPOST24",
+    "description" : "Outpost 24 AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.254.231.0/24",
       "91.216.32.0/24",
       "185.92.170.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1084::/48",
       "2a13:5240::/32",
       "2a13:5242::/32",

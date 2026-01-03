@@ -1,9 +1,12 @@
 {
-  "asn": 131775,
-  "handle": "IDNIC-JALANET-AS-ID",
-  "description": "PT. Jupiter Jala Arta",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131775,
+  "metadata" : {
+    "handle" : "IDNIC-JALANET-AS-ID",
+    "description" : "PT. Jupiter Jala Arta",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.16.198.0/23",
       "103.131.51.0/24",
       "103.230.246.0/24",
@@ -11,6 +14,6 @@
       "163.227.124.0/24",
       "202.74.236.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

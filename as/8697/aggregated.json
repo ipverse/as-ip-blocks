@@ -1,14 +1,17 @@
 {
-  "asn": 8697,
-  "handle": "JTC-AS8697",
-  "description": "Jordan Telecommunications PSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8697,
+  "metadata" : {
+    "handle" : "JTC-AS8697",
+    "description" : "Jordan Telecommunications PSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.17.24.0/22",
       "212.34.0.0/19",
       "213.139.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:18d8::/29"
     ]
   }

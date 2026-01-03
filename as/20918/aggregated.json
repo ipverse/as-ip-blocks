@@ -1,11 +1,14 @@
 {
-  "asn": 20918,
-  "handle": "PI-AS",
-  "description": "PI Informatik GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20918,
+  "metadata" : {
+    "handle" : "PI-AS",
+    "description" : "PI Informatik GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.68.160.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

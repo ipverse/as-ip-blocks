@@ -1,11 +1,14 @@
 {
-  "asn": 20682,
-  "handle": "BGONE-AS",
-  "description": "BG ONE Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20682,
+  "metadata" : {
+    "handle" : "BGONE-AS",
+    "description" : "BG ONE Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.235.248.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

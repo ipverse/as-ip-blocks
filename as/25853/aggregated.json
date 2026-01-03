@@ -1,9 +1,12 @@
 {
-  "asn": 25853,
-  "handle": "ELJY30540",
-  "description": "Ellijay Telephone Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25853,
+  "metadata" : {
+    "handle" : "ELJY30540",
+    "description" : "Ellijay Telephone Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.75.160.0/20",
       "24.239.16.0/20",
       "66.44.192.0/19",
@@ -22,7 +25,7 @@
       "206.126.226.0/23",
       "207.89.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:c380::/32"
     ]
   }

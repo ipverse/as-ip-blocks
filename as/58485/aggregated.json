@@ -1,13 +1,16 @@
 {
-  "asn": 58485,
-  "handle": "WIFIAN-AS-ID",
-  "description": "WIFIAN ID",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58485,
+  "metadata" : {
+    "handle" : "WIFIAN-AS-ID",
+    "description" : "WIFIAN ID",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.173.140.0/23",
       "103.247.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:e100::/32"
     ]
   }

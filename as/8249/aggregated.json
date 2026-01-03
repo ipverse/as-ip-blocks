@@ -1,9 +1,12 @@
 {
-  "asn": 8249,
-  "handle": "TOTCOM-AS",
-  "description": "PJSC Rostelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8249,
+  "metadata" : {
+    "handle" : "TOTCOM-AS",
+    "description" : "PJSC Rostelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.35.120.0/22",
       "195.144.192.0/20",
       "195.144.208.0/22",
@@ -12,6 +15,6 @@
       "195.144.218.0/24",
       "195.144.220.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

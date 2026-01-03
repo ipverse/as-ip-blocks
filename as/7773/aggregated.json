@@ -1,12 +1,15 @@
 {
-  "asn": 7773,
-  "handle": "SD-NET",
-  "description": "South Dakota State Government",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7773,
+  "metadata" : {
+    "handle" : "SD-NET",
+    "description" : "South Dakota State Government",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.154.0.0/16",
       "198.180.188.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

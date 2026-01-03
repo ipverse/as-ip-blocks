@@ -1,12 +1,15 @@
 {
-  "asn": 23145,
-  "handle": "CALL-HOME-EDGE-CLOUD-FLARE",
-  "description": "IBM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23145,
+  "metadata" : {
+    "handle" : "CALL-HOME-EDGE-CLOUD-FLARE",
+    "description" : "IBM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.148.6.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:1f7:c010::/48"
     ]
   }

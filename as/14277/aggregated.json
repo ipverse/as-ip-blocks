@@ -1,9 +1,12 @@
 {
-  "asn": 14277,
-  "handle": "GIGSTREEM",
-  "description": "GiGstreem",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14277,
+  "metadata" : {
+    "handle" : "GIGSTREEM",
+    "description" : "GiGstreem",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.27.112.0/22",
       "38.27.124.0/22",
       "38.75.253.0/24",
@@ -33,7 +36,7 @@
       "199.200.14.0/23",
       "199.247.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:8180:4000::/36",
       "2606:8180:5800::/37"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 56532,
-  "handle": "DGUV-AS",
-  "description": "Deutsche Gesetzliche Unfallversicherung e.V. (DGUV)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56532,
+  "metadata" : {
+    "handle" : "DGUV-AS",
+    "description" : "Deutsche Gesetzliche Unfallversicherung e.V. (DGUV)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.224.226.0/23",
       "185.103.232.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

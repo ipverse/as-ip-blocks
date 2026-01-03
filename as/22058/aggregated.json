@@ -1,12 +1,15 @@
 {
-  "asn": 22058,
-  "handle": "SUMMIT-VOICE",
-  "description": "Summit Voice LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22058,
+  "metadata" : {
+    "handle" : "SUMMIT-VOICE",
+    "description" : "Summit Voice LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.136.144.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fde4::/36"
     ]
   }

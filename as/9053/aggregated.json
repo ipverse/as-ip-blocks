@@ -1,12 +1,15 @@
 {
-  "asn": 9053,
-  "handle": "VSHOSTING-CDN",
-  "description": "VSHosting s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9053,
+  "metadata" : {
+    "handle" : "VSHOSTING-CDN",
+    "description" : "VSHosting s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.115.0.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5420:1::/48",
       "2a0a:54c1:28::/47"
     ]

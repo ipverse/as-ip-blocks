@@ -1,9 +1,12 @@
 {
-  "asn": 12231,
-  "handle": "CONWAYCORP",
-  "description": "Conway Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12231,
+  "metadata" : {
+    "handle" : "CONWAYCORP",
+    "description" : "Conway Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.144.0.0/18",
       "38.87.176.0/20",
       "66.158.176.0/20",
@@ -12,6 +15,6 @@
       "149.115.48.0/20",
       "199.59.100.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

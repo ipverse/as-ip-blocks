@@ -1,9 +1,12 @@
 {
-  "asn": 214927,
-  "handle": "PSB-AS",
-  "description": "PSB HOSTING LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214927,
+  "metadata" : {
+    "handle" : "PSB-AS",
+    "description" : "PSB HOSTING LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.9.117.0/24",
       "45.95.96.0/24",
       "45.118.248.0/24",
@@ -33,7 +36,7 @@
       "193.8.215.0/24",
       "193.124.185.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:7886:105::/48",
       "2a0f:e7c6:1000::/48"
     ]

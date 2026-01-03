@@ -1,11 +1,14 @@
 {
-  "asn": 16470,
-  "handle": "WINGNET-AS1",
-  "description": "WingNET Internet Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16470,
+  "metadata" : {
+    "handle" : "WINGNET-AS1",
+    "description" : "WingNET Internet Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.238.168.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

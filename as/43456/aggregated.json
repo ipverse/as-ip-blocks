@@ -1,13 +1,16 @@
 {
-  "asn": 43456,
-  "handle": "STAR-LINK",
-  "description": "Star Linc SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43456,
+  "metadata" : {
+    "handle" : "STAR-LINK",
+    "description" : "Star Linc SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.93.172.0/24",
       "185.164.48.0/22",
       "185.171.16.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

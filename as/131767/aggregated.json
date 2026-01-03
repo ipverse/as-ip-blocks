@@ -1,13 +1,16 @@
 {
-  "asn": 131767,
-  "handle": "SOLONET-AS-ID",
-  "description": "PT. SOLO JALA BUANA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131767,
+  "metadata" : {
+    "handle" : "SOLONET-AS-ID",
+    "description" : "PT. SOLO JALA BUANA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.90.196.0/22",
       "175.106.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8b80::/32"
     ]
   }

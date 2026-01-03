@@ -1,15 +1,18 @@
 {
-  "asn": 399234,
-  "handle": "EQA-WAN-01",
-  "description": "Philip Morris USA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399234,
+  "metadata" : {
+    "handle" : "EQA-WAN-01",
+    "description" : "Philip Morris USA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.128.100.0/24",
       "148.128.128.0/22",
       "148.128.132.0/24",
       "148.128.145.0/24",
       "148.128.147.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

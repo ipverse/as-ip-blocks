@@ -1,9 +1,12 @@
 {
-  "asn": 206996,
-  "handle": "ZAP-HOSTING",
-  "description": "ZAP-Hosting GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206996,
+  "metadata" : {
+    "handle" : "ZAP-HOSTING",
+    "description" : "ZAP-Hosting GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.83.138.0/24",
       "5.175.181.0/24",
       "5.175.184.0/24",
@@ -44,7 +47,7 @@
       "195.62.33.0/24",
       "195.62.47.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:3580::/29"
     ]
   }

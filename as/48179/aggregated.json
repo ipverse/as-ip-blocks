@@ -1,12 +1,15 @@
 {
-  "asn": 48179,
-  "handle": "VOIRONNAIS-NETWORK-AS",
-  "description": "Pays Voironnais Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48179,
+  "metadata" : {
+    "handle" : "VOIRONNAIS-NETWORK-AS",
+    "description" : "Pays Voironnais Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.85.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ec80::/32"
     ]
   }

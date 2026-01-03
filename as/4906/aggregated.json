@@ -1,15 +1,18 @@
 {
-  "asn": 4906,
-  "handle": "FDS-01",
-  "description": "Frontline Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4906,
+  "metadata" : {
+    "handle" : "FDS-01",
+    "description" : "Frontline Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.170.112.0/24",
       "66.59.64.0/20",
       "68.170.144.0/20",
       "192.223.11.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:3b00::/32"
     ]
   }

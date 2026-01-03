@@ -1,13 +1,16 @@
 {
-  "asn": 152542,
-  "handle": "MEGAPRIM-AS-IN",
-  "description": "MEGAPRIME NETWORK PVT LTED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152542,
+  "metadata" : {
+    "handle" : "MEGAPRIM-AS-IN",
+    "description" : "MEGAPRIME NETWORK PVT LTED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.201.136.0/22",
       "160.25.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:f180::/48"
     ]
   }

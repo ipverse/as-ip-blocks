@@ -1,9 +1,12 @@
 {
-  "asn": 61308,
-  "handle": "PVONET-AS",
-  "description": "PVONET LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61308,
+  "metadata" : {
+    "handle" : "PVONET-AS",
+    "description" : "PVONET LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.170.200.0/21",
       "93.171.192.0/21",
       "95.215.109.0/24",
@@ -12,6 +15,6 @@
       "192.144.48.0/24",
       "192.144.50.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

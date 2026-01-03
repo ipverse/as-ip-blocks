@@ -1,9 +1,12 @@
 {
-  "asn": 12897,
-  "handle": "ENTEGAMEDIANET",
-  "description": "ENTEGA Medianet GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12897,
+  "metadata" : {
+    "handle" : "ENTEGAMEDIANET",
+    "description" : "ENTEGA Medianet GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.182.236.0/22",
       "45.10.60.0/22",
       "45.14.188.0/22",
@@ -35,7 +38,7 @@
       "213.157.0.0/19",
       "213.188.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:804::/48",
       "2001:678:ca8::/48",
       "2a02:b98::/32",

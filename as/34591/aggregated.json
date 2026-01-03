@@ -1,15 +1,18 @@
 {
-  "asn": 34591,
-  "handle": "SIGINT",
-  "description": "signal interrupt GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34591,
+  "metadata" : {
+    "handle" : "SIGINT",
+    "description" : "signal interrupt GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.30.19.0/24",
       "193.30.21.0/24",
       "193.30.40.0/24",
       "193.30.43.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:7cc0::/29"
     ]
   }

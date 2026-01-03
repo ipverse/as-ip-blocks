@@ -1,11 +1,14 @@
 {
-  "asn": 50196,
-  "handle": "MYNET-SPECIAL-SERVICES",
-  "description": "MYNET S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50196,
+  "metadata" : {
+    "handle" : "MYNET-SPECIAL-SERVICES",
+    "description" : "MYNET S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.241.8.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

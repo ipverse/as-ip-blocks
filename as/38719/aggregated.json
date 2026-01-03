@@ -1,9 +1,12 @@
 {
-  "asn": 38719,
-  "handle": "DREAMSCAPE-AS-AP",
-  "description": "Dreamscape Networks PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38719,
+  "metadata" : {
+    "handle" : "DREAMSCAPE-AS-AP",
+    "description" : "Dreamscape Networks PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.54.80.0/20",
       "27.111.81.0/24",
       "27.111.86.0/24",
@@ -73,7 +76,7 @@
       "203.28.50.0/24",
       "203.170.80.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8240::/32",
       "2402:af00::/32",
       "2404:3800:f::/48",

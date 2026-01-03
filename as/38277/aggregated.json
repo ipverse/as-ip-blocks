@@ -1,15 +1,18 @@
 {
-  "asn": 38277,
-  "handle": "CLINK-AS-AP",
-  "description": "COMMUNILINK INTERNET LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38277,
+  "metadata" : {
+    "handle" : "CLINK-AS-AP",
+    "description" : "COMMUNILINK INTERNET LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.252.40.0/23",
       "43.252.42.0/24",
       "43.252.164.0/22",
       "203.124.9.0/24",
       "203.124.10.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 271353,
-  "handle": "JJ-POWERNET",
-  "description": "JJ PowerNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271353,
+  "metadata" : {
+    "handle" : "JJ-POWERNET",
+    "description" : "JJ PowerNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.52.76.0/23",
       "190.52.78.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7a30::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 266107,
-  "handle": "EVEN-TELECOM",
-  "description": "EVEN TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266107,
+  "metadata" : {
+    "handle" : "EVEN-TELECOM",
+    "description" : "EVEN TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.5.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3ac0::/32"
     ]
   }

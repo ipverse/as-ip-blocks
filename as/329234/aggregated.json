@@ -1,12 +1,15 @@
 {
-  "asn": 329234,
-  "handle": "NMBIX-MGMT",
-  "description": "ISPA SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 329234,
+  "metadata" : {
+    "handle" : "NMBIX-MGMT",
+    "description" : "ISPA SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "196.49.100.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43f8:691::/48"
     ]
   }

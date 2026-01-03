@@ -1,9 +1,12 @@
 {
-  "asn": 51685,
-  "handle": "MICRON-MEDIA-AS",
-  "description": "Mikron-Media LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51685,
+  "metadata" : {
+    "handle" : "MICRON-MEDIA-AS",
+    "description" : "Mikron-Media LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.35.116.0/22",
       "31.148.136.0/22",
       "45.86.38.0/24",
@@ -13,7 +16,7 @@
       "91.219.164.0/22",
       "91.237.179.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:6940::/29"
     ]
   }

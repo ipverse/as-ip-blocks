@@ -1,9 +1,12 @@
 {
-  "asn": 201150,
-  "handle": "DIDEHABNNET",
-  "description": "Didehban Net Company PJS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201150,
+  "metadata" : {
+    "handle" : "DIDEHABNNET",
+    "description" : "Didehban Net Company PJS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.202.18.0/23",
       "5.202.20.0/23",
       "5.202.28.0/24",
@@ -14,6 +17,6 @@
       "45.134.99.0/24",
       "46.249.120.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

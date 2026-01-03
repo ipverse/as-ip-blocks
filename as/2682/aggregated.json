@@ -1,9 +1,12 @@
 {
-  "asn": 2682,
-  "handle": "CDAGOVN",
-  "description": "Shared Services Canada",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2682,
+  "metadata" : {
+    "handle" : "CDAGOVN",
+    "description" : "Shared Services Canada",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.98.224.0/24",
       "142.98.227.0/24",
       "142.98.230.0/23",
@@ -12,6 +15,6 @@
       "205.194.30.0/23",
       "205.194.32.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

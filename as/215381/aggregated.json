@@ -1,9 +1,12 @@
 {
-  "asn": 215381,
-  "handle": "ROCKHOSTER",
-  "description": "ROCKHOSTER PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215381,
+  "metadata" : {
+    "handle" : "ROCKHOSTER",
+    "description" : "ROCKHOSTER PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.122.148.0/22",
       "89.36.231.0/24",
       "109.205.195.0/24",
@@ -11,6 +14,6 @@
       "194.11.226.0/24",
       "212.232.23.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

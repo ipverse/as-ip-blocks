@@ -1,9 +1,12 @@
 {
-  "asn": 262785,
-  "handle": "GIGA-MAIS-FIBRA",
-  "description": "GIGA MAIS FIBRA TELECOMUNICACOES S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262785,
+  "metadata" : {
+    "handle" : "GIGA-MAIS-FIBRA",
+    "description" : "GIGA MAIS FIBRA TELECOMUNICACOES S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.170.80.0/22",
       "45.171.3.0/24",
       "167.250.8.0/22",
@@ -11,7 +14,7 @@
       "201.62.48.0/20",
       "201.71.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2bf4::/32"
     ]
   }

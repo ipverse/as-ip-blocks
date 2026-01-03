@@ -1,9 +1,12 @@
 {
-  "asn": 11172,
-  "handle": "ALESTRA",
-  "description": "Alestra S. de R.L. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11172,
+  "metadata" : {
+    "handle" : "ALESTRA",
+    "description" : "Alestra S. de R.L. de C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.52.116.0/23",
       "38.211.200.0/23",
       "38.224.96.0/23",
@@ -71,7 +74,7 @@
       "207.249.176.0/24",
       "207.249.187.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1248:1::/48",
       "2001:1248:2::/47",
       "2001:1248:4::/48",

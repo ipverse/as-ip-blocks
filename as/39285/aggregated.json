@@ -1,12 +1,15 @@
 {
-  "asn": 39285,
-  "handle": "GARTNER-AS",
-  "description": "Gartner KG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39285,
+  "metadata" : {
+    "handle" : "GARTNER-AS",
+    "description" : "Gartner KG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.121.205.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:2d8::/48"
     ]
   }

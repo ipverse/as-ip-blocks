@@ -1,14 +1,17 @@
 {
-  "asn": 3087,
-  "handle": "CREDITSUISSEGROUP-AS",
-  "description": "Credit Suisse Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3087,
+  "metadata" : {
+    "handle" : "CREDITSUISSEGROUP-AS",
+    "description" : "Credit Suisse Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.53.17.0/24",
       "199.53.79.0/24",
       "199.53.184.0/23",
       "199.53.195.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

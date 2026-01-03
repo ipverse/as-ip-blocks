@@ -1,16 +1,19 @@
 {
-  "asn": 29765,
-  "handle": "DATACHAMBERS",
-  "description": "DataChambers LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29765,
+  "metadata" : {
+    "handle" : "DATACHAMBERS",
+    "description" : "DataChambers LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.217.104.0/21",
       "192.104.0.0/24",
       "199.80.28.0/22",
       "204.15.96.0/22",
       "208.91.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:5b00::/39",
       "2606:5b00:200::/40"
     ]

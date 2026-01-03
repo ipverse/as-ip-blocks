@@ -1,12 +1,15 @@
 {
-  "asn": 44403,
-  "handle": "BRISTOL-CITY-COUNCIL",
-  "description": "Bristol City Council",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44403,
+  "metadata" : {
+    "handle" : "BRISTOL-CITY-COUNCIL",
+    "description" : "Bristol City Council",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.35.232.0/21",
       "195.246.108.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

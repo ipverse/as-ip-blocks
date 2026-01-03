@@ -1,12 +1,15 @@
 {
-  "asn": 132476,
-  "handle": "COMPASS-AS-AP",
-  "description": "Compass Education Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132476,
+  "metadata" : {
+    "handle" : "COMPASS-AS-AP",
+    "description" : "Compass Education Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.73.57.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:3200::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 31626,
-  "handle": "ZVITELECOM-AS",
-  "description": "OOO ZVI Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31626,
+  "metadata" : {
+    "handle" : "ZVITELECOM-AS",
+    "description" : "OOO ZVI Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.24.176.0/22",
       "78.24.182.0/23",
       "188.64.160.0/24",
@@ -11,6 +14,6 @@
       "188.64.164.0/24",
       "193.239.242.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

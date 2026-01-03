@@ -1,15 +1,18 @@
 {
-  "asn": 204057,
-  "handle": "DCXV-AS",
-  "description": "Duomenu apdorojimo centras LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204057,
+  "metadata" : {
+    "handle" : "DCXV-AS",
+    "description" : "Duomenu apdorojimo centras LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.204.153.0/24",
       "178.23.189.0/24",
       "185.255.96.0/23",
       "217.28.140.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:6240::/31",
       "2a0d:6242::/32"
     ]

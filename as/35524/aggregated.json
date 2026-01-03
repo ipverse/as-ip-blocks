@@ -1,12 +1,15 @@
 {
-  "asn": 35524,
-  "handle": "TRANS-TRAF-AS",
-  "description": "Trans Traffic Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35524,
+  "metadata" : {
+    "handle" : "TRANS-TRAF-AS",
+    "description" : "Trans Traffic Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.84.77.0/24",
       "195.200.90.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 11703,
-  "handle": "MARS-DISCOVERY-DISTRICT",
-  "description": "MaRS Discovery District",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11703,
+  "metadata" : {
+    "handle" : "MARS-DISCOVERY-DISTRICT",
+    "description" : "MaRS Discovery District",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.116.198.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f609:1::/48",
       "2602:f609:2::/48"
     ]

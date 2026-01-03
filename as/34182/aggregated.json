@@ -1,13 +1,16 @@
 {
-  "asn": 34182,
-  "handle": "RACKBLACK",
-  "description": "rack.black Verein",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34182,
+  "metadata" : {
+    "handle" : "RACKBLACK",
+    "description" : "rack.black Verein",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.238.144.0/24",
       "193.28.185.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:938::/48",
       "2a00:5647::/32"
     ]

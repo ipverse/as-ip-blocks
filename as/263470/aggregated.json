@@ -1,13 +1,16 @@
 {
-  "asn": 263470,
-  "handle": "WAYCOM-PROVEDOR-BANDA",
-  "description": "WAY.COM PROVEDOR BANDA LARGA EIRELI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263470,
+  "metadata" : {
+    "handle" : "WAYCOM-PROVEDOR-BANDA",
+    "description" : "WAY.COM PROVEDOR BANDA LARGA EIRELI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.83.200.0/22",
       "191.242.48.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1254::/32"
     ]
   }

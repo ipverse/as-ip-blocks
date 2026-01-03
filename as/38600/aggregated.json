@@ -1,13 +1,16 @@
 {
-  "asn": 38600,
-  "handle": "SMART-AXIATA-KH",
-  "description": "Smart Axiata Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38600,
+  "metadata" : {
+    "handle" : "SMART-AXIATA-KH",
+    "description" : "Smart Axiata Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.56.0.0/22",
       "203.18.216.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:9700:d000::/36",
       "2401:9700:e000::/35"
     ]

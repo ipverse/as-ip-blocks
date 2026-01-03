@@ -1,13 +1,16 @@
 {
-  "asn": 272611,
-  "handle": "PECORARI-CLOUD",
-  "description": "Pecorari Cloud",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272611,
+  "metadata" : {
+    "handle" : "PECORARI-CLOUD",
+    "description" : "Pecorari Cloud",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.224.105.0/24",
       "185.238.230.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:85f8::/32"
     ]
   }

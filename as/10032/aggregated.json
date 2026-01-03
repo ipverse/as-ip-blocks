@@ -1,9 +1,12 @@
 {
-  "asn": 10032,
-  "handle": "HGC-AS-AP",
-  "description": "BDX DC Services (HK) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10032,
+  "metadata" : {
+    "handle" : "HGC-AS-AP",
+    "description" : "BDX DC Services (HK) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.252.132.0/22",
       "103.30.68.0/22",
       "118.103.144.0/23",
@@ -19,7 +22,7 @@
       "218.189.67.0/24",
       "218.189.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:5a00:b000::/48",
       "2401:5a00:ffff::/48"
     ]

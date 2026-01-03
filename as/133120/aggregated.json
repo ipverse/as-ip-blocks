@@ -1,9 +1,12 @@
 {
-  "asn": 133120,
-  "handle": "HNPL-AS-AP",
-  "description": "Hosted Network Pty. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133120,
+  "metadata" : {
+    "handle" : "HNPL-AS-AP",
+    "description" : "Hosted Network Pty. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.40.109.0/24",
       "103.80.20.0/23",
       "103.126.192.0/23",
@@ -17,7 +20,7 @@
       "203.55.90.0/23",
       "204.15.40.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:d080::/32"
     ]
   }

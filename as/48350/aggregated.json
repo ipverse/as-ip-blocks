@@ -1,14 +1,17 @@
 {
-  "asn": 48350,
-  "handle": "ZENVOO-AS",
-  "description": "Zenvoo Sagl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48350,
+  "metadata" : {
+    "handle" : "ZENVOO-AS",
+    "description" : "Zenvoo Sagl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.148.236.0/23",
       "45.148.238.0/24",
       "91.208.130.0/24",
       "91.209.111.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

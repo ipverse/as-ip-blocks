@@ -1,13 +1,16 @@
 {
-  "asn": 199562,
-  "handle": "EDIFICOM-AS",
-  "description": "Edificom SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199562,
+  "metadata" : {
+    "handle" : "EDIFICOM-AS",
+    "description" : "Edificom SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.10.224.0/22",
       "185.207.215.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:6640::/32"
     ]
   }

@@ -1,10 +1,13 @@
 {
-  "asn": 209419,
-  "handle": "LANNERT-LAB",
-  "description": "Julian Lannert",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 209419,
+  "metadata" : {
+    "handle" : "LANNERT-LAB",
+    "description" : "Julian Lannert",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0d:2d41::/32",
       "2a0e:c6c1::/32"
     ]

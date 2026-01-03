@@ -1,9 +1,12 @@
 {
-  "asn": 19009,
-  "handle": "ONECLEVELAND",
-  "description": "OneCleveland",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19009,
+  "metadata" : {
+    "handle" : "ONECLEVELAND",
+    "description" : "OneCleveland",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "35.128.4.0/23",
       "35.128.7.0/24",
       "35.128.8.0/24",
@@ -38,7 +41,7 @@
       "216.137.128.0/20",
       "216.176.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:9200::/32"
     ]
   }

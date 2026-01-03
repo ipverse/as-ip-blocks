@@ -1,9 +1,12 @@
 {
-  "asn": 15743,
-  "handle": "NETDE",
-  "description": "net.de AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15743,
+  "metadata" : {
+    "handle" : "NETDE",
+    "description" : "net.de AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.131.240.0/21",
       "62.48.64.0/19",
       "94.100.135.0/24",
@@ -21,7 +24,7 @@
       "193.186.12.0/24",
       "217.26.224.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e68::/29",
       "2a01:6780:1::/48"
     ]

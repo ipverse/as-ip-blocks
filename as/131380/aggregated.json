@@ -1,11 +1,14 @@
 {
-  "asn": 131380,
-  "handle": "NITECO-AS-VN",
-  "description": "Niteco VN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131380,
+  "metadata" : {
+    "handle" : "NITECO-AS-VN",
+    "description" : "Niteco VN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.248.164.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

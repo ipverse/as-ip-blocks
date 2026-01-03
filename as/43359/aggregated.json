@@ -1,9 +1,12 @@
 {
-  "asn": 43359,
-  "handle": "TARHELY",
-  "description": "Tarhely.Eu Szolgaltato Kft",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43359,
+  "metadata" : {
+    "handle" : "TARHELY",
+    "description" : "Tarhely.Eu Szolgaltato Kft.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.172.239.0/24",
       "79.172.252.0/24",
       "87.229.68.0/24",
@@ -13,7 +16,7 @@
       "185.51.188.0/22",
       "185.208.224.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:b5e0::/32",
       "2a0b:3dc0::/32"
     ]

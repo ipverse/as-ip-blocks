@@ -1,14 +1,17 @@
 {
-  "asn": 43312,
-  "handle": "I-LAN-AS",
-  "description": "LLC IRPIN LOCAL NETWORKS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43312,
+  "metadata" : {
+    "handle" : "I-LAN-AS",
+    "description" : "LLC IRPIN LOCAL NETWORKS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.200.124.0/22",
       "193.201.216.0/22",
       "195.38.8.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:3304::/32"
     ]
   }

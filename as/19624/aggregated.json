@@ -1,9 +1,12 @@
 {
-  "asn": 19624,
-  "handle": "SERVERROOM",
-  "description": "Data Room Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19624,
+  "metadata" : {
+    "handle" : "SERVERROOM",
+    "description" : "Data Room Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.14.40.0/23",
       "38.96.148.0/24",
       "38.96.174.0/23",
@@ -12,7 +15,7 @@
       "168.100.174.0/24",
       "185.105.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f710:35::/48",
       "2607:f710:47::/48",
       "2607:f710:60::/48",

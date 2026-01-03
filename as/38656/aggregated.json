@@ -1,12 +1,15 @@
 {
-  "asn": 38656,
-  "handle": "LOUTRES",
-  "description": "Loutres",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38656,
+  "metadata" : {
+    "handle" : "LOUTRES",
+    "description" : "Loutres",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.248.40.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:7ec0:1007::/48"
     ]
   }

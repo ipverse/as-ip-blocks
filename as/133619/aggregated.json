@@ -1,9 +1,12 @@
 {
-  "asn": 133619,
-  "handle": "DESIVPS-AS-AP",
-  "description": "SRIYAAN TECHNOLOGIES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133619,
+  "metadata" : {
+    "handle" : "DESIVPS-AS-AP",
+    "description" : "SRIYAAN TECHNOLOGIES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.116.0/24",
       "45.12.148.0/24",
       "45.15.124.0/24",
@@ -12,6 +15,6 @@
       "139.28.232.0/24",
       "185.106.96.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

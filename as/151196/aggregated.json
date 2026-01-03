@@ -1,9 +1,12 @@
 {
-  "asn": 151196,
-  "handle": "JUNYUNLIMITED-AS-AP",
-  "description": "JunYun Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151196,
+  "metadata" : {
+    "handle" : "JUNYUNLIMITED-AS-AP",
+    "description" : "JunYun Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.162.38.0/23",
       "154.204.47.0/24",
       "154.204.50.0/24",
@@ -13,6 +16,6 @@
       "154.212.160.0/24",
       "154.212.162.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

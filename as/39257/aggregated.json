@@ -1,9 +1,12 @@
 {
-  "asn": 39257,
-  "handle": "INC",
-  "description": "LUMi GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39257,
+  "metadata" : {
+    "handle" : "INC",
+    "description" : "LUMi GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.67.28.0/22",
       "78.31.200.0/22",
       "87.238.184.0/21",
@@ -18,7 +21,7 @@
       "194.48.242.0/24",
       "194.156.212.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:8c0::/32",
       "2a07:e884::/30",
       "2a0a:2040::/32",

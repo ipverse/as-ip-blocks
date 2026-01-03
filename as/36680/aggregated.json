@@ -1,16 +1,19 @@
 {
-  "asn": 36680,
-  "handle": "NETIFACELLC",
-  "description": "Netiface LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36680,
+  "metadata" : {
+    "handle" : "NETIFACELLC",
+    "description" : "Netiface LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.231.222.0/24",
       "130.12.181.0/24",
       "130.12.182.0/24",
       "176.65.134.0/24",
       "176.117.107.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f915::/40"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 42159,
-  "handle": "DELTAHOST-AS",
-  "description": "Zemlyaniy Dmitro Leonidovich",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42159,
+  "metadata" : {
+    "handle" : "DELTAHOST-AS",
+    "description" : "Zemlyaniy Dmitro Leonidovich",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.20.184.0/22",
       "185.36.188.0/22",
       "185.161.208.0/22",
@@ -11,7 +14,7 @@
       "193.111.152.0/22",
       "193.169.244.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:c800::/29"
     ]
   }

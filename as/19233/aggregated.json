@@ -1,9 +1,12 @@
 {
-  "asn": 19233,
-  "handle": "DIALOGIX",
-  "description": "Dialogix Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19233,
+  "metadata" : {
+    "handle" : "DIALOGIX",
+    "description" : "Dialogix Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.128.14.0/24",
       "66.192.214.0/24",
       "66.192.216.0/24",
@@ -17,7 +20,7 @@
       "192.225.192.0/20",
       "199.68.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:50:3::/48"
     ]
   }

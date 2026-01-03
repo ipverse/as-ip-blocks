@@ -1,13 +1,16 @@
 {
-  "asn": 209179,
-  "handle": "AFRICLOUD",
-  "description": "AfriCloud LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209179,
+  "metadata" : {
+    "handle" : "AFRICLOUD",
+    "description" : "AfriCloud LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.215.224.0/24",
       "103.63.29.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:bb80::/47",
       "2a03:bb80:2::/48"
     ]

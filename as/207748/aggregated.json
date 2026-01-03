@@ -1,12 +1,15 @@
 {
-  "asn": 207748,
-  "handle": "FRASER-AS",
-  "description": "Stephen Fraser",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207748,
+  "metadata" : {
+    "handle" : "FRASER-AS",
+    "description" : "Stephen Fraser",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.31.86.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2f68::/48",
       "2a14:a901::/44"
     ]

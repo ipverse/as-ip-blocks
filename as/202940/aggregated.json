@@ -1,9 +1,12 @@
 {
-  "asn": 202940,
-  "handle": "ITCNG",
-  "description": "ITC NG ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202940,
+  "metadata" : {
+    "handle" : "ITCNG",
+    "description" : "ITC NG ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.166.240.0/22",
       "82.166.244.0/23",
       "84.108.142.0/23",
@@ -30,7 +33,7 @@
       "199.203.76.0/24",
       "217.175.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:7c40::/29"
     ]
   }

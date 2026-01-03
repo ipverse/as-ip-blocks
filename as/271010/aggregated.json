@@ -1,12 +1,15 @@
 {
-  "asn": 271010,
-  "handle": "TOTALNET-PROVEDOR",
-  "description": "TotalNet Provedor",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271010,
+  "metadata" : {
+    "handle" : "TOTALNET-PROVEDOR",
+    "description" : "TotalNet Provedor",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.106.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:74e4::/32"
     ]
   }

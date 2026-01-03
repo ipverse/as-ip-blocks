@@ -1,9 +1,12 @@
 {
-  "asn": 202302,
-  "handle": "NETH-AS",
-  "description": "NETH LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202302,
+  "metadata" : {
+    "handle" : "NETH-AS",
+    "description" : "NETH LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.42.190.0/24",
       "31.222.235.0/24",
       "91.219.60.0/23",
@@ -13,6 +16,6 @@
       "185.253.218.0/24",
       "194.61.52.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

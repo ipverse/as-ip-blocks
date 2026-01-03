@@ -1,13 +1,16 @@
 {
-  "asn": 42374,
-  "handle": "INSTALNET-AS",
-  "description": "INSTALNET SZABAT RYDZEWSKI SPOLKA JAWNA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42374,
+  "metadata" : {
+    "handle" : "INSTALNET-AS",
+    "description" : "INSTALNET SZABAT RYDZEWSKI SPOLKA JAWNA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.234.66.0/23",
       "176.104.112.0/21",
       "193.17.174.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 22188,
-  "handle": "SOLANTIC",
-  "description": "Solantic Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22188,
+  "metadata" : {
+    "handle" : "SOLANTIC",
+    "description" : "Solantic Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.134.96.0/23",
       "168.151.10.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:bc40::/32"
     ]
   }

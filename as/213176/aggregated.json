@@ -1,9 +1,12 @@
 {
-  "asn": 213176,
-  "handle": "PERIMETER-81",
-  "description": "Check Point Software Technologies Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213176,
+  "metadata" : {
+    "handle" : "PERIMETER-81",
+    "description" : "Check Point Software Technologies Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.35.224.0/22",
       "209.35.228.0/24",
       "209.35.230.0/23",
@@ -17,6 +20,6 @@
       "209.35.252.0/23",
       "212.59.64.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

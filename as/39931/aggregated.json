@@ -1,13 +1,16 @@
 {
-  "asn": 39931,
-  "handle": "ASIPTEL",
-  "description": "FRANCHE COMTE NET SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39931,
+  "metadata" : {
+    "handle" : "ASIPTEL",
+    "description" : "FRANCHE COMTE NET SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.245.128.0/20",
       "185.172.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4fc0::/32"
     ]
   }

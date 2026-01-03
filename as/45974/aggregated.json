@@ -1,9 +1,12 @@
 {
-  "asn": 45974,
-  "handle": "NHN-AS",
-  "description": "NHNCLOUD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45974,
+  "metadata" : {
+    "handle" : "NHN-AS",
+    "description" : "NHNCLOUD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.209.199.0/24",
       "43.227.116.0/22",
       "43.254.244.0/24",
@@ -91,6 +94,6 @@
       "223.255.204.0/23",
       "223.255.207.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

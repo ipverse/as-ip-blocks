@@ -1,12 +1,15 @@
 {
-  "asn": 401724,
-  "handle": "HAMILTON-CONNECTS",
-  "description": "Hamilton Connects",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401724,
+  "metadata" : {
+    "handle" : "HAMILTON-CONNECTS",
+    "description" : "Hamilton Connects",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.146.36.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:2220::/32"
     ]
   }

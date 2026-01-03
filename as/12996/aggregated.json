@@ -1,9 +1,12 @@
 {
-  "asn": 12996,
-  "handle": "DOMENESHOP",
-  "description": "Domeneshop AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12996,
+  "metadata" : {
+    "handle" : "DOMENESHOP",
+    "description" : "Domeneshop AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "151.249.120.0/24",
       "151.249.123.0/24",
       "151.249.124.0/23",
@@ -14,7 +17,7 @@
       "193.57.22.0/23",
       "194.63.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5b40::/32",
       "2a0a:c340::/32",
       "2a0f:c180::/29"

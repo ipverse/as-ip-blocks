@@ -1,9 +1,12 @@
 {
-  "asn": 38220,
-  "handle": "AMAZE-AS-AP",
-  "description": "AMAZE INTELLIGENCE PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38220,
+  "metadata" : {
+    "handle" : "AMAZE-AS-AP",
+    "description" : "AMAZE INTELLIGENCE PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.24.132.0/23",
       "103.64.148.0/22",
       "103.82.64.0/23",
@@ -27,7 +30,7 @@
       "203.98.89.0/24",
       "203.98.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:f000::/39",
       "2403:f000:300::/40",
       "2403:f000:f000::/48",

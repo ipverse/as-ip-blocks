@@ -1,12 +1,15 @@
 {
-  "asn": 135642,
-  "handle": "VET-AS-AP",
-  "description": "VetNZ Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135642,
+  "metadata" : {
+    "handle" : "VET-AS-AP",
+    "description" : "VetNZ Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.140.143.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:c480::/48"
     ]
   }

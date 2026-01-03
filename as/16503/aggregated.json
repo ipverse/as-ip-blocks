@@ -1,14 +1,17 @@
 {
-  "asn": 16503,
-  "handle": "ZAYO-16503",
-  "description": "Zayo Bandwidth",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16503,
+  "metadata" : {
+    "handle" : "ZAYO-16503",
+    "description" : "Zayo Bandwidth",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.20.96.0/19",
       "64.124.127.0/24",
       "66.45.192.0/19",
       "216.178.48.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

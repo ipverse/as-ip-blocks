@@ -1,9 +1,12 @@
 {
-  "asn": 18027,
-  "handle": "NSU-AS",
-  "description": "Namseoul university",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18027,
+  "metadata" : {
+    "handle" : "NSU-AS",
+    "description" : "Namseoul university",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "211.42.48.0/23",
       "211.42.104.0/24",
       "211.241.24.0/24",
@@ -16,6 +19,6 @@
       "220.68.190.0/23",
       "220.68.192.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 56377,
-  "handle": "MGSK-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56377,
+  "metadata" : {
+    "handle" : "MGSK-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.164.48.0/20",
       "109.163.240.0/21",
       "109.195.208.0/20",
@@ -11,7 +14,7 @@
       "176.215.208.0/21",
       "188.187.231.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:4000::/38"
     ]
   }

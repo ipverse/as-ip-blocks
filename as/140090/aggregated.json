@@ -1,11 +1,14 @@
 {
-  "asn": 140090,
-  "handle": "HKNET-AS-AP",
-  "description": "HK Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140090,
+  "metadata" : {
+    "handle" : "HKNET-AS-AP",
+    "description" : "HK Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.148.98.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 40401,
-  "handle": "BACKBLAZE",
-  "description": "Backblaze Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40401,
+  "metadata" : {
+    "handle" : "BACKBLAZE",
+    "description" : "Backblaze Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.11.36.0/22",
       "104.153.232.0/22",
       "104.153.236.0/23",
@@ -14,7 +17,7 @@
       "149.137.142.0/24",
       "206.190.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:72c0:100::/45",
       "2605:72c0:1fc::/46",
       "2605:72c0:200::/45",

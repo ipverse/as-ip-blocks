@@ -1,9 +1,12 @@
 {
-  "asn": 2914,
-  "handle": "NTT-DATA-2914",
-  "description": "NTT America Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2914,
+  "metadata" : {
+    "handle" : "NTT-DATA-2914",
+    "description" : "NTT America Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.158.208.0/21",
       "5.182.28.0/22",
       "23.26.72.0/24",
@@ -676,7 +679,7 @@
       "217.156.57.0/24",
       "217.156.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:218::/32",
       "2001:418::/32",
       "2001:728::/32",

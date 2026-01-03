@@ -1,9 +1,12 @@
 {
-  "asn": 64050,
-  "handle": "BGNL-HK",
-  "description": "BGP Network Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64050,
+  "metadata" : {
+    "handle" : "BGNL-HK",
+    "description" : "BGP Network Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.32.192.0/21",
       "1.32.200.0/22",
       "1.32.204.0/24",
@@ -70,7 +73,7 @@
       "202.162.108.0/24",
       "202.162.110.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:3100::/48"
     ]
   }

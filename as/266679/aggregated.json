@@ -1,10 +1,13 @@
 {
-  "asn": 266679,
-  "handle": "ORBINET",
-  "description": "ORBINET",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 266679,
+  "metadata" : {
+    "handle" : "ORBINET",
+    "description" : "ORBINET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2803:f920::/37",
       "2803:f920:800::/40",
       "2803:f920:a00::/39"

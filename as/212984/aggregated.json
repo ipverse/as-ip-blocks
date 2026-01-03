@@ -1,12 +1,15 @@
 {
-  "asn": 212984,
-  "handle": "ENISA-AS",
-  "description": "ENISA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212984,
+  "metadata" : {
+    "handle" : "ENISA-AS",
+    "description" : "ENISA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.49.96.0/23",
       "194.49.98.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

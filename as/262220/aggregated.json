@@ -1,9 +1,12 @@
 {
-  "asn": 262220,
-  "handle": "HV-TELEVISION",
-  "description": "HV TELEVISION S.A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262220,
+  "metadata" : {
+    "handle" : "HV-TELEVISION",
+    "description" : "HV TELEVISION S.A.S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.250.120.0/22",
       "179.51.113.0/24",
       "179.51.117.0/24",
@@ -14,7 +17,7 @@
       "190.7.120.0/21",
       "191.102.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:b40::/47",
       "2800:b40:10::/48",
       "2800:b40:100::/40",

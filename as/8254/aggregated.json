@@ -1,9 +1,12 @@
 {
-  "asn": 8254,
-  "handle": "ROUTE95",
-  "description": "GREEN FLOID LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8254,
+  "metadata" : {
+    "handle" : "ROUTE95",
+    "description" : "GREEN FLOID LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.34.178.0/23",
       "46.28.71.0/24",
       "82.117.252.0/23",
@@ -14,7 +17,7 @@
       "193.238.154.0/24",
       "217.12.204.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:9405::/32",
       "2a06:fcc0:5::/48",
       "2a12:6fc3::/32",

@@ -1,9 +1,12 @@
 {
-  "asn": 9607,
-  "handle": "BBTOWER",
-  "description": "BroadBand Tower Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9607,
+  "metadata" : {
+    "handle" : "BBTOWER",
+    "description" : "BroadBand Tower Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.96.112.0/22",
       "124.147.0.0/19",
       "202.183.80.0/21",
@@ -21,7 +24,7 @@
       "211.14.24.0/23",
       "211.14.30.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:370::/32",
       "2404:c700::/32"
     ]

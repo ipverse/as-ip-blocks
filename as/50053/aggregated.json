@@ -1,9 +1,12 @@
 {
-  "asn": 50053,
-  "handle": "VDSKA-AS",
-  "description": "Anton Levin",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50053,
+  "metadata" : {
+    "handle" : "VDSKA-AS",
+    "description" : "Anton Levin",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.39.255.0/24",
       "5.144.180.0/24",
       "5.178.3.0/24",
@@ -75,7 +78,7 @@
       "213.155.28.0/24",
       "217.147.15.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:6c2:14::/48",
       "2a0d:6c2:16::/47",
       "2a0d:6c2:24::/47",

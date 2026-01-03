@@ -1,9 +1,12 @@
 {
-  "asn": 3067,
-  "handle": "DENINF-IPLAN",
-  "description": "Gijima Holdings (PTY) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3067,
+  "metadata" : {
+    "handle" : "DENINF-IPLAN",
+    "description" : "Gijima Holdings (PTY) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.196.254.0/23",
       "196.5.5.0/24",
       "196.5.8.0/24",
@@ -65,7 +68,7 @@
       "196.13.152.0/21",
       "196.13.160.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43f8:1030::/48"
     ]
   }

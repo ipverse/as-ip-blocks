@@ -1,13 +1,16 @@
 {
-  "asn": 133876,
-  "handle": "ESECURE-AS-AP",
-  "description": "e-secure Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133876,
+  "metadata" : {
+    "handle" : "ESECURE-AS-AP",
+    "description" : "e-secure Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.44.148.0/24",
       "203.16.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:bf20::/35"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 18800,
-  "handle": "SLCC",
-  "description": "Salt Lake Community College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18800,
+  "metadata" : {
+    "handle" : "SLCC",
+    "description" : "Salt Lake Community College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.35.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

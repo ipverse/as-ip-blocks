@@ -1,9 +1,12 @@
 {
-  "asn": 133815,
-  "handle": "PRIMACOM-AS-ID",
-  "description": "PT Primacom Interbuana",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133815,
+  "metadata" : {
+    "handle" : "PRIMACOM-AS-ID",
+    "description" : "PT Primacom Interbuana",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.52.44.0/22",
       "103.130.136.0/22",
       "103.141.150.0/23",
@@ -28,7 +31,7 @@
       "103.190.216.0/22",
       "103.190.220.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:57c0::/32",
       "2403:bac0::/32"
     ]

@@ -1,13 +1,16 @@
 {
-  "asn": 60772,
-  "handle": "SKYTV-AS",
-  "description": "Sky Italia srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60772,
+  "metadata" : {
+    "handle" : "SKYTV-AS",
+    "description" : "Sky Italia srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.94.64.0/22",
       "185.26.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:83a0::/32"
     ]
   }

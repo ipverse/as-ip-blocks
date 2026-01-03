@@ -1,15 +1,18 @@
 {
-  "asn": 31725,
-  "handle": "SHTORM-AS",
-  "description": "ISP Shtorm LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31725,
+  "metadata" : {
+    "handle" : "SHTORM-AS",
+    "description" : "ISP Shtorm LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.201.240.0/21",
       "109.95.32.0/21",
       "188.190.64.0/19",
       "195.62.14.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:176c::/48"
     ]
   }

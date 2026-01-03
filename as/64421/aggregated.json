@@ -1,13 +1,16 @@
 {
-  "asn": 64421,
-  "handle": "SERTEX-AS",
-  "description": "SERTEX SIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64421,
+  "metadata" : {
+    "handle" : "SERTEX-AS",
+    "description" : "SERTEX SIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.16.0/22",
       "195.26.20.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:e0c0::/29"
     ]
   }

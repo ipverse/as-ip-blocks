@@ -1,14 +1,17 @@
 {
-  "asn": 52511,
-  "handle": "IRONSERVERS-EIRL",
-  "description": "IRONSERVERS E.I.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52511,
+  "metadata" : {
+    "handle" : "IRONSERVERS-EIRL",
+    "description" : "IRONSERVERS E.I.R.L",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.7.217.0/24",
       "138.186.8.0/22",
       "204.157.236.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:8240::/32"
     ]
   }

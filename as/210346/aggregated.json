@@ -1,16 +1,19 @@
 {
-  "asn": 210346,
-  "handle": "PHOENIX",
-  "description": "Phoenix Systems AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210346,
+  "metadata" : {
+    "handle" : "PHOENIX",
+    "description" : "Phoenix Systems AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.250.224.0/22",
       "192.122.254.0/24",
       "192.135.63.0/24",
       "192.135.100.0/24",
       "192.144.75.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:1740::/29"
     ]
   }

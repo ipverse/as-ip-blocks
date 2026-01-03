@@ -1,15 +1,18 @@
 {
-  "asn": 135356,
-  "handle": "CCCCL-AS-AP",
-  "description": "CN Care Cyber Cloud Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135356,
+  "metadata" : {
+    "handle" : "CCCCL-AS-AP",
+    "description" : "CN Care Cyber Cloud Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.251.104.0/21",
       "103.215.2.0/24",
       "103.220.72.0/21",
       "104.171.225.0/24",
       "104.171.238.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

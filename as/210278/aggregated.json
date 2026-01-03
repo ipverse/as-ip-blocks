@@ -1,14 +1,17 @@
 {
-  "asn": 210278,
-  "handle": "SKYIT-BB",
-  "description": "Sky Italia srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210278,
+  "metadata" : {
+    "handle" : "SKYIT-BB",
+    "description" : "Sky Italia srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "101.56.0.0/14",
       "101.62.0.0/15",
       "195.162.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:400::/25"
     ]
   }

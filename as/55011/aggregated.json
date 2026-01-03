@@ -1,9 +1,12 @@
 {
-  "asn": 55011,
-  "handle": "EFOLDER",
-  "description": "eFolder Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55011,
+  "metadata" : {
+    "handle" : "EFOLDER",
+    "description" : "eFolder Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.247.156.0/24",
       "192.159.161.0/24",
       "192.159.163.0/24",
@@ -11,6 +14,6 @@
       "198.73.16.0/22",
       "198.73.20.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

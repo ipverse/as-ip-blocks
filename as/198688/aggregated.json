@@ -1,11 +1,14 @@
 {
-  "asn": 198688,
-  "handle": "RTN-AS",
-  "description": "Federal Service for Transport Supervision (Rostransnadzor)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198688,
+  "metadata" : {
+    "handle" : "RTN-AS",
+    "description" : "Federal Service for Transport Supervision (Rostransnadzor)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.238.140.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

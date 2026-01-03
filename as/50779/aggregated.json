@@ -1,13 +1,16 @@
 {
-  "asn": 50779,
-  "handle": "SOMEI-AS",
-  "description": "Societe Mediterraneenne d\u0027Etudes et d\u0027Informatique SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50779,
+  "metadata" : {
+    "handle" : "SOMEI-AS",
+    "description" : "Societe Mediterraneenne d'Etudes et d'Informatique SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.31.220.0/24",
       "185.106.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2698::/48",
       "2a0c:db80::/29"
     ]

@@ -1,13 +1,16 @@
 {
-  "asn": 400586,
-  "handle": "RDM-TECH",
-  "description": "rdm.tech",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400586,
+  "metadata" : {
+    "handle" : "RDM-TECH",
+    "description" : "rdm.tech",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.134.104.0/24",
       "44.46.19.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fb98::/40"
     ]
   }

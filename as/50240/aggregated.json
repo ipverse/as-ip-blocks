@@ -1,11 +1,14 @@
 {
-  "asn": 50240,
-  "handle": "EXTRACOM-AS",
-  "description": "MTS PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50240,
+  "metadata" : {
+    "handle" : "EXTRACOM-AS",
+    "description" : "MTS PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.196.16.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

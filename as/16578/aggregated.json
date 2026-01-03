@@ -1,9 +1,12 @@
 {
-  "asn": 16578,
-  "handle": "DATANOC",
-  "description": "Lanset America Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16578,
+  "metadata" : {
+    "handle" : "DATANOC",
+    "description" : "Lanset America Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.80.88.0/23",
       "63.80.184.0/21",
       "63.81.80.0/20",
@@ -16,7 +19,7 @@
       "208.187.244.0/23",
       "209.210.24.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fea0:1::/48",
       "2607:fea0:2::/48",
       "2607:fea0:8450::/48",

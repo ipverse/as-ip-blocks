@@ -1,12 +1,15 @@
 {
-  "asn": 55280,
-  "handle": "RACKBYTE",
-  "description": "RackByte LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55280,
+  "metadata" : {
+    "handle" : "RACKBYTE",
+    "description" : "RackByte LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.250.120.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f4d3::/48"
     ]
   }

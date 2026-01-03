@@ -1,9 +1,12 @@
 {
-  "asn": 34927,
-  "handle": "IFOG-GMBH",
-  "description": "iFog GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34927,
+  "metadata" : {
+    "handle" : "IFOG-GMBH",
+    "description" : "iFog GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.90.18.0/24",
       "45.134.88.0/23",
       "45.134.91.0/24",
@@ -26,7 +29,7 @@
       "193.150.21.0/24",
       "194.76.231.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:1030::/48",
       "2001:678:1110::/48",
       "2400:54a0:1010::/48",

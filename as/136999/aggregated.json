@@ -1,12 +1,15 @@
 {
-  "asn": 136999,
-  "handle": "SKYLINK-AS-AP",
-  "description": "Skylink Broadband Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136999,
+  "metadata" : {
+    "handle" : "SKYLINK-AS-AP",
+    "description" : "Skylink Broadband Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.101.196.0/24",
       "103.101.198.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

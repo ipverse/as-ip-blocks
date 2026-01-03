@@ -1,12 +1,15 @@
 {
-  "asn": 12813,
-  "handle": "WORNET-AS",
-  "description": "WorNet AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12813,
+  "metadata" : {
+    "handle" : "WORNET-AS",
+    "description" : "WorNet AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.11.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1278::/32"
     ]
   }

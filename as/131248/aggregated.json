@@ -1,12 +1,15 @@
 {
-  "asn": 131248,
-  "handle": "CANL-PRO",
-  "description": "CAN\u0027L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131248,
+  "metadata" : {
+    "handle" : "CANL-PRO",
+    "description" : "CAN'L",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.20.74.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:c01::/32"
     ]
   }

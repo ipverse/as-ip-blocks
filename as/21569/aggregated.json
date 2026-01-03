@@ -1,12 +1,15 @@
 {
-  "asn": 21569,
-  "handle": "DBU-AS",
-  "description": "Dallas Baptist University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21569,
+  "metadata" : {
+    "handle" : "DBU-AS",
+    "description" : "Dallas Baptist University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.5.161.0/24",
       "168.148.189.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

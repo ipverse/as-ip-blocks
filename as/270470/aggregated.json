@@ -1,12 +1,15 @@
 {
-  "asn": 270470,
-  "handle": "LN-TELECOM",
-  "description": "LN TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270470,
+  "metadata" : {
+    "handle" : "LN-TELECOM",
+    "description" : "LN TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.152.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6c78::/32"
     ]
   }

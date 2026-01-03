@@ -1,12 +1,15 @@
 {
-  "asn": 153467,
-  "handle": "GLENEIRA-AS-AP",
-  "description": "Glen Eira City Council",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153467,
+  "metadata" : {
+    "handle" : "GLENEIRA-AS-AP",
+    "description" : "Glen Eira City Council",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.29.70.0/24",
       "203.33.77.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

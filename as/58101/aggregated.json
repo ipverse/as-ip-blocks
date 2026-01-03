@@ -1,12 +1,15 @@
 {
-  "asn": 58101,
-  "handle": "GLADSERV",
-  "description": "Gladserv Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58101,
+  "metadata" : {
+    "handle" : "GLADSERV",
+    "description" : "Gladserv Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.128.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:d140::/44",
       "2a06:d141::/32"
     ]

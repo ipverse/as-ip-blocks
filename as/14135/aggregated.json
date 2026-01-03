@@ -1,9 +1,12 @@
 {
-  "asn": 14135,
-  "handle": "NAVISITE-EAST-2",
-  "description": "Navisite Opco LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14135,
+  "metadata" : {
+    "handle" : "NAVISITE-EAST-2",
+    "description" : "Navisite Opco LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.93.193.0/24",
       "74.114.244.0/22",
       "74.116.4.0/22",
@@ -32,7 +35,7 @@
       "216.236.224.0/20",
       "216.251.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:f300:2::/47"
     ]
   }

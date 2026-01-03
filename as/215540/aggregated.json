@@ -1,9 +1,12 @@
 {
-  "asn": 215540,
-  "handle": "GCS-AS",
-  "description": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215540,
+  "metadata" : {
+    "handle" : "GCS-AS",
+    "description" : "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.162.0/23",
       "5.44.42.0/24",
       "5.181.2.0/23",
@@ -154,7 +157,7 @@
       "213.176.16.0/23",
       "213.176.18.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:b703:fff1::/48",
       "2a00:b703:fff2::/48",
       "2a05:541:102::/47",

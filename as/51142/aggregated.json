@@ -1,13 +1,16 @@
 {
-  "asn": 51142,
-  "handle": "EXPRESSNETWORK",
-  "description": "LLC Ekspres Netvork",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51142,
+  "metadata" : {
+    "handle" : "EXPRESSNETWORK",
+    "description" : "LLC Ekspres Netvork",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.195.139.0/24",
       "185.189.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:f580::/29"
     ]
   }

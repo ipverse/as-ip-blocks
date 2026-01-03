@@ -1,9 +1,12 @@
 {
-  "asn": 16823,
-  "handle": "NORTEXNET",
-  "description": "Nortex Communications Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16823,
+  "metadata" : {
+    "handle" : "NORTEXNET",
+    "description" : "Nortex Communications Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.252.240.0/20",
       "63.160.156.0/24",
       "65.162.73.0/24",
@@ -18,6 +21,6 @@
       "209.55.120.0/22",
       "216.59.144.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

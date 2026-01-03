@@ -1,9 +1,12 @@
 {
-  "asn": 29071,
-  "handle": "RU-SATSVYAZ-AS",
-  "description": "Sputnikovaya svyaz LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29071,
+  "metadata" : {
+    "handle" : "RU-SATSVYAZ-AS",
+    "description" : "Sputnikovaya svyaz LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.213.32.0/21",
       "62.213.40.0/23",
       "62.213.42.0/24",
@@ -17,6 +20,6 @@
       "62.213.61.0/24",
       "62.213.62.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 58915,
-  "handle": "ARKTISMAPTYLTD-AS-AP",
-  "description": "Serversaurus",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58915,
+  "metadata" : {
+    "handle" : "ARKTISMAPTYLTD-AS-AP",
+    "description" : "Serversaurus",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.18.150.0/24",
       "103.209.24.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:38c0::/32"
     ]
   }

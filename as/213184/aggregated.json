@@ -1,13 +1,16 @@
 {
-  "asn": 213184,
-  "handle": "TELYO",
-  "description": "Telyo SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213184,
+  "metadata" : {
+    "handle" : "TELYO",
+    "description" : "Telyo SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.201.106.0/24",
       "149.13.123.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:9100::/29"
     ]
   }

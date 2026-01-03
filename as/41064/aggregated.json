@@ -1,13 +1,16 @@
 {
-  "asn": 41064,
-  "handle": "SKYROCK",
-  "description": "Telefun SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41064,
+  "metadata" : {
+    "handle" : "SKYROCK",
+    "description" : "Telefun SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.203.184.0/22",
       "193.93.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:bc0::/48"
     ]
   }

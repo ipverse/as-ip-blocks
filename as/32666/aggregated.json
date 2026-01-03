@@ -1,15 +1,18 @@
 {
-  "asn": 32666,
-  "handle": "CWRU-AS-1",
-  "description": "Case Western Reserve University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32666,
+  "metadata" : {
+    "handle" : "CWRU-AS-1",
+    "description" : "Case Western Reserve University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.22.0.0/16",
       "192.5.109.0/24",
       "192.5.110.0/24",
       "192.5.113.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:ea00::/32"
     ]
   }

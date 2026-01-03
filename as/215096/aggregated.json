@@ -1,13 +1,16 @@
 {
-  "asn": 215096,
-  "handle": "MADHOST-AS",
-  "description": "Ruslan Ulyanov",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215096,
+  "metadata" : {
+    "handle" : "MADHOST-AS",
+    "description" : "Ruslan Ulyanov",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.22.80.0/24",
       "212.22.86.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:d940:9000::/48"
     ]
   }

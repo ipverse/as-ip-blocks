@@ -1,9 +1,12 @@
 {
-  "asn": 136959,
-  "handle": "UNICOM-FUOSHAN-IDC",
-  "description": "China Unicom Guangdong IP network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136959,
+  "metadata" : {
+    "handle" : "UNICOM-FUOSHAN-IDC",
+    "description" : "China Unicom Guangdong IP network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.36.113.0/24",
       "27.36.118.0/23",
       "27.36.120.0/21",
@@ -31,7 +34,7 @@
       "221.5.102.0/23",
       "221.5.107.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2408:8459:4c80::/42",
       "2408:8459:4e80::/42",
       "2408:8459:5080::/42",

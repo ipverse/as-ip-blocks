@@ -1,9 +1,12 @@
 {
-  "asn": 46353,
-  "handle": "INTERMAX-AS",
-  "description": "Intermax Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46353,
+  "metadata" : {
+    "handle" : "INTERMAX-AS",
+    "description" : "Intermax Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.219.45.0/24",
       "104.219.46.0/23",
       "192.102.86.0/23",
@@ -14,7 +17,7 @@
       "208.67.60.0/22",
       "208.94.80.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:3d00::/32"
     ]
   }

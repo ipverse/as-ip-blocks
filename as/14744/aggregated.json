@@ -1,9 +1,12 @@
 {
-  "asn": 14744,
-  "handle": "INTERNAP-BLOCK-4",
-  "description": "Unitas Global",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14744,
+  "metadata" : {
+    "handle" : "INTERNAP-BLOCK-4",
+    "description" : "Unitas Global",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.251.0.0/20",
       "63.251.160.0/20",
       "64.74.0.0/21",
@@ -38,7 +41,7 @@
       "216.223.0.0/21",
       "216.244.64.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:c00::/32"
     ]
   }

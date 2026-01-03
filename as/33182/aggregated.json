@@ -1,9 +1,12 @@
 {
-  "asn": 33182,
-  "handle": "DIMENOC",
-  "description": "HostDime.com Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33182,
+  "metadata" : {
+    "handle" : "DIMENOC",
+    "description" : "HostDime.com Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.10.120.0/24",
       "8.33.160.0/20",
       "23.92.60.0/23",
@@ -57,7 +60,7 @@
       "202.181.151.0/24",
       "212.18.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:2080::/33",
       "2607:fcd8::/43",
       "2607:fcd8:20::/44",

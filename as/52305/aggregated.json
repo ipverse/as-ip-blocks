@@ -1,12 +1,15 @@
 {
-  "asn": 52305,
-  "handle": "NIC-CHILE",
-  "description": "NIC Chile",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52305,
+  "metadata" : {
+    "handle" : "NIC-CHILE",
+    "description" : "NIC Chile",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.7.5.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1398:276::/48"
     ]
   }

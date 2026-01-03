@@ -1,9 +1,12 @@
 {
-  "asn": 9931,
-  "handle": "NTPCL-AS-AP",
-  "description": "National Telecom Public Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9931,
+  "metadata" : {
+    "handle" : "NTPCL-AS-AP",
+    "description" : "National Telecom Public Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.7.192.0/18",
       "61.19.16.0/20",
       "61.19.32.0/20",
@@ -42,7 +45,7 @@
       "202.129.60.0/23",
       "202.129.63.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:c38:4000::/36",
       "2001:c38:9000::/36"
     ]

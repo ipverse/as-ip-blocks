@@ -1,9 +1,12 @@
 {
-  "asn": 9354,
-  "handle": "TDNC",
-  "description": "Community Network Center Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9354,
+  "metadata" : {
+    "handle" : "TDNC",
+    "description" : "Community Network Center Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.113.224.0/20",
       "61.87.64.0/18",
       "103.40.104.0/22",
@@ -26,7 +29,7 @@
       "222.229.96.0/19",
       "223.252.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:7000::/32"
     ]
   }

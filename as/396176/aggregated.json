@@ -1,13 +1,16 @@
 {
-  "asn": 396176,
-  "handle": "NADCORP-AS1",
-  "description": "North American Division of Seventh-day Adventists",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396176,
+  "metadata" : {
+    "handle" : "NADCORP-AS1",
+    "description" : "North American Division of Seventh-day Adventists",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.238.31.0/24",
       "204.76.177.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fdaf::/36"
     ]
   }

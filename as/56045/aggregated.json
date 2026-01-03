@@ -1,9 +1,12 @@
 {
-  "asn": 56045,
-  "handle": "CMNET-JIANGXI-AP",
-  "description": "China Mobile Communications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56045,
+  "metadata" : {
+    "handle" : "CMNET-JIANGXI-AP",
+    "description" : "China Mobile Communications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.134.80.0/23",
       "36.137.58.0/23",
       "36.138.239.0/24",
@@ -60,7 +63,7 @@
       "223.160.216.0/22",
       "223.161.240.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2409:8038::/40",
       "2409:8038:800::/40",
       "2409:8038:1000::/40",

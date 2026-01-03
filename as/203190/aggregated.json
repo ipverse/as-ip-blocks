@@ -1,11 +1,14 @@
 {
-  "asn": 203190,
-  "handle": "GLOBALLINK-AS",
-  "description": "LLC Global Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203190,
+  "metadata" : {
+    "handle" : "GLOBALLINK-AS",
+    "description" : "LLC Global Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.101.206.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

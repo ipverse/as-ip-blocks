@@ -1,15 +1,18 @@
 {
-  "asn": 47000,
-  "handle": "SUPERION",
-  "description": "Superion LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47000,
+  "metadata" : {
+    "handle" : "SUPERION",
+    "description" : "Superion LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.114.64.0/24",
       "74.114.66.0/24",
       "74.114.69.0/24",
       "74.114.70.0/23",
       "192.88.54.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

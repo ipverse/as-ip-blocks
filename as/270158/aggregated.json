@@ -1,9 +1,12 @@
 {
-  "asn": 270158,
-  "handle": "WANTELCO",
-  "description": "Wantelco SAS de CV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270158,
+  "metadata" : {
+    "handle" : "WANTELCO",
+    "description" : "Wantelco SAS de CV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.65.174.0/23",
       "45.168.236.0/22",
       "45.177.178.0/23",
@@ -14,7 +17,7 @@
       "82.153.2.0/23",
       "170.78.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:319::/46",
       "2806:319:4::/48",
       "2806:319:9::/48",

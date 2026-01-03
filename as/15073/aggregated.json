@@ -1,13 +1,16 @@
 {
-  "asn": 15073,
-  "handle": "BSC-BRANCHOFFICE02",
-  "description": "Blue Shield of California",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15073,
+  "metadata" : {
+    "handle" : "BSC-BRANCHOFFICE02",
+    "description" : "Blue Shield of California",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.21.31.0/24",
       "165.253.102.0/24",
       "165.253.106.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 31549,
-  "handle": "RASANA",
-  "description": "Aria Shatel PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31549,
+  "metadata" : {
+    "handle" : "RASANA",
+    "description" : "Aria Shatel PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.148.0.0/17",
       "37.202.228.0/22",
       "37.202.236.0/22",
@@ -20,7 +23,7 @@
       "185.110.244.0/22",
       "185.166.113.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e::/26"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 17135,
-  "handle": "OHIOU",
-  "description": "Ohio University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17135,
+  "metadata" : {
+    "handle" : "OHIOU",
+    "description" : "Ohio University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.247.64.0/18",
       "132.235.0.0/16",
       "198.30.13.0/24",
       "198.30.154.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

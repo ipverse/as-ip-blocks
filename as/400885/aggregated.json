@@ -1,12 +1,15 @@
 {
-  "asn": 400885,
-  "handle": "OPTNET",
-  "description": "Optimus Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400885,
+  "metadata" : {
+    "handle" : "OPTNET",
+    "description" : "Optimus Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.162.216.0/24",
       "69.85.90.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

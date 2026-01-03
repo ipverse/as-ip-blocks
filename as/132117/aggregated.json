@@ -1,11 +1,14 @@
 {
-  "asn": 132117,
-  "handle": "MOINET-AS-AP",
-  "description": "Ministry of Interior",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132117,
+  "metadata" : {
+    "handle" : "MOINET-AS-AP",
+    "description" : "Ministry of Interior",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.28.100.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

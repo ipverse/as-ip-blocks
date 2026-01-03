@@ -1,9 +1,12 @@
 {
-  "asn": 11367,
-  "handle": "ICENET",
-  "description": "WorldNet Telecommunications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11367,
+  "metadata" : {
+    "handle" : "ICENET",
+    "description" : "WorldNet Telecommunications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.181.240.0/24",
       "24.48.220.0/23",
       "45.41.152.0/21",
@@ -14,7 +17,7 @@
       "192.30.40.0/22",
       "196.12.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc7b:2::/48",
       "2607:ac00::/32"
     ]

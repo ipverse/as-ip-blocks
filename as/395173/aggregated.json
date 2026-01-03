@@ -1,9 +1,12 @@
 {
-  "asn": 395173,
-  "handle": "AS-TCCL-18",
-  "description": "Tuckersmith Communications Co-Operative Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395173,
+  "metadata" : {
+    "handle" : "AS-TCCL-18",
+    "description" : "Tuckersmith Communications Co-Operative Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.149.128.0/23",
       "64.239.8.0/21",
       "64.239.64.0/22",
@@ -16,7 +19,7 @@
       "163.182.216.0/23",
       "163.182.218.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:4580::/32"
     ]
   }

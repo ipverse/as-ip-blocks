@@ -1,9 +1,12 @@
 {
-  "asn": 16524,
-  "handle": "METTEL",
-  "description": "MetTel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16524,
+  "metadata" : {
+    "handle" : "METTEL",
+    "description" : "MetTel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.66.48.0/20",
       "64.254.59.0/24",
       "72.11.192.0/19",
@@ -24,7 +27,7 @@
       "216.104.62.0/24",
       "216.194.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:85c0::/32",
       "2607:6540::/32",
       "2620:0:150::/48",

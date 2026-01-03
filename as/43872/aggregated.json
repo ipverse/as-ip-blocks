@@ -1,9 +1,12 @@
 {
-  "asn": 43872,
-  "handle": "OPTINET",
-  "description": "Optinet U.K. Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43872,
+  "metadata" : {
+    "handle" : "OPTINET",
+    "description" : "Optinet U.K. Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.253.252.0/22",
       "45.136.108.0/24",
       "84.38.246.0/24",
@@ -21,7 +24,7 @@
       "195.234.28.0/24",
       "217.198.183.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:180::/29",
       "2a0d:1e80::/29",
       "2a10:c740::/29",

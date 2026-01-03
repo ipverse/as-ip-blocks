@@ -1,12 +1,15 @@
 {
-  "asn": 35062,
-  "handle": "TEAMNET",
-  "description": "Teamnet GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35062,
+  "metadata" : {
+    "handle" : "TEAMNET",
+    "description" : "Teamnet GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.87.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4c98::/32"
     ]
   }

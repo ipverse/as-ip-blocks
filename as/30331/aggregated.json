@@ -1,11 +1,14 @@
 {
-  "asn": 30331,
-  "handle": "ST-VINCENT",
-  "description": "St. Vincent Hospital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30331,
+  "metadata" : {
+    "handle" : "ST-VINCENT",
+    "description" : "St. Vincent Hospital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.184.151.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

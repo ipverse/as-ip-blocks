@@ -1,12 +1,15 @@
 {
-  "asn": 270837,
-  "handle": "IMARTECH-FIBRA",
-  "description": "Imartech Fibra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270837,
+  "metadata" : {
+    "handle" : "IMARTECH-FIBRA",
+    "description" : "Imartech Fibra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.52.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:722c::/32"
     ]
   }

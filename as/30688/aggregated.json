@@ -1,9 +1,12 @@
 {
-  "asn": 30688,
-  "handle": "FASTTRACK-NET-AS",
-  "description": "FastTrack Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30688,
+  "metadata" : {
+    "handle" : "FASTTRACK-NET-AS",
+    "description" : "FastTrack Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.30.16.0/20",
       "52.119.48.0/21",
       "72.249.224.0/19",
@@ -14,7 +17,7 @@
       "206.123.192.0/19",
       "209.203.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:6400::/32"
     ]
   }

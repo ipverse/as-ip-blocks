@@ -1,9 +1,12 @@
 {
-  "asn": 7296,
-  "handle": "AS-DYNASCALE-LAX",
-  "description": "Dynascale Technologies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7296,
+  "metadata" : {
+    "handle" : "AS-DYNASCALE-LAX",
+    "description" : "Dynascale Technologies Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.171.240.0/20",
       "66.186.0.0/19",
       "66.226.0.0/19",
@@ -25,7 +28,7 @@
       "208.118.48.0/20",
       "209.132.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:6e00::/32"
     ]
   }

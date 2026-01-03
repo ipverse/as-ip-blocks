@@ -1,9 +1,12 @@
 {
-  "asn": 22639,
-  "handle": "COOPTEL-AS-01",
-  "description": "Cooptel Coop de Telecommunication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22639,
+  "metadata" : {
+    "handle" : "COOPTEL-AS-01",
+    "description" : "Cooptel Coop de Telecommunication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.186.204.0/23",
       "66.186.207.0/24",
       "98.143.208.0/24",
@@ -27,7 +30,7 @@
       "216.247.113.0/24",
       "216.247.224.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:8480::/32"
     ]
   }

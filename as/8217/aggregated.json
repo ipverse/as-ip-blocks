@@ -1,12 +1,15 @@
 {
-  "asn": 8217,
-  "handle": "ASN-ENI",
-  "description": "ENI S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8217,
+  "metadata" : {
+    "handle" : "ASN-ENI",
+    "description" : "ENI S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "151.86.0.0/16",
       "151.96.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

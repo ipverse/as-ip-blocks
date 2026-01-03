@@ -1,9 +1,12 @@
 {
-  "asn": 32167,
-  "handle": "LSHIY-USER-CONTENT",
-  "description": "LSHIY LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32167,
+  "metadata" : {
+    "handle" : "LSHIY-USER-CONTENT",
+    "description" : "LSHIY LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.148.132.0/24",
       "62.192.175.0/24",
       "77.111.99.0/24",
@@ -13,7 +16,7 @@
       "178.208.188.0/24",
       "188.191.111.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:b60:2d::/48",
       "2401:b60:1000::/36",
       "2401:b60:e300::/40",

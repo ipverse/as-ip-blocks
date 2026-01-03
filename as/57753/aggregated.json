@@ -1,12 +1,15 @@
 {
-  "asn": 57753,
-  "handle": "RADIST-AS",
-  "description": "Radist LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57753,
+  "metadata" : {
+    "handle" : "RADIST-AS",
+    "description" : "Radist LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.197.104.0/22",
       "91.233.220.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

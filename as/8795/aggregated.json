@@ -1,9 +1,12 @@
 {
-  "asn": 8795,
-  "handle": "MOBIKOM",
-  "description": "Vivacom Bulgaria EAD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8795,
+  "metadata" : {
+    "handle" : "MOBIKOM",
+    "description" : "Vivacom Bulgaria EAD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.85.175.0/24",
       "95.43.230.0/24",
       "212.5.130.0/24",
@@ -13,6 +16,6 @@
       "213.91.134.0/24",
       "213.91.170.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

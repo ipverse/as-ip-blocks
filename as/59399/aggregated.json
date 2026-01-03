@@ -1,11 +1,14 @@
 {
-  "asn": 59399,
-  "handle": "RMRS-AS",
-  "description": "FAI Russian Maritime Register of Shipping",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59399,
+  "metadata" : {
+    "handle" : "RMRS-AS",
+    "description" : "FAI Russian Maritime Register of Shipping",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.242.200.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

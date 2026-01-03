@@ -1,9 +1,12 @@
 {
-  "asn": 19527,
-  "handle": "GOOGLE-2",
-  "description": "Google LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19527,
+  "metadata" : {
+    "handle" : "GOOGLE-2",
+    "description" : "Google LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "34.0.0.0/15",
       "34.2.0.0/16",
       "34.3.16.0/20",
@@ -27,7 +30,7 @@
       "152.65.222.0/23",
       "152.65.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:1902::/31"
     ]
   }

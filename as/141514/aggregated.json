@@ -1,9 +1,12 @@
 {
-  "asn": 141514,
-  "handle": "SANCFILT-AS-IN",
-  "description": "Sancfil Technologies Internet Services Pvt.Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141514,
+  "metadata" : {
+    "handle" : "SANCFILT-AS-IN",
+    "description" : "Sancfil Technologies Internet Services Pvt.Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.160.126.0/23",
       "103.170.214.0/23",
       "103.173.240.0/23",
@@ -23,7 +26,7 @@
       "103.186.54.0/23",
       "103.187.228.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:7f60::/32"
     ]
   }

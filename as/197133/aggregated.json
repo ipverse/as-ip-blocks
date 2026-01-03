@@ -1,9 +1,12 @@
 {
-  "asn": 197133,
-  "handle": "MEDIACTIVE-NETWORK",
-  "description": "MEDIACTIVE SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197133,
+  "metadata" : {
+    "handle" : "MEDIACTIVE-NETWORK",
+    "description" : "MEDIACTIVE SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.124.0/22",
       "91.197.136.0/22",
       "178.248.208.0/21",
@@ -18,7 +21,7 @@
       "217.114.204.0/23",
       "217.114.207.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1740::/32",
       "2a03:d280::/32"
     ]

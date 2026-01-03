@@ -1,9 +1,12 @@
 {
-  "asn": 19404,
-  "handle": "QUEST",
-  "description": "Quest",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19404,
+  "metadata" : {
+    "handle" : "QUEST",
+    "description" : "Quest",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.113.84.0/22",
       "199.47.176.0/22",
       "207.54.1.0/24",
@@ -16,6 +19,6 @@
       "208.67.176.0/22",
       "208.74.236.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

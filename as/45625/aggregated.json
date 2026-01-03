@@ -1,9 +1,12 @@
 {
-  "asn": 45625,
-  "handle": "LTITL-AS-AP",
-  "description": "LTIMINDTREE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45625,
+  "metadata" : {
+    "handle" : "LTITL-AS-AP",
+    "description" : "LTIMINDTREE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.245.20.0/23",
       "103.157.99.0/24",
       "103.244.152.0/24",
@@ -13,7 +16,7 @@
       "112.121.61.0/24",
       "112.121.62.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:bb00::/36"
     ]
   }

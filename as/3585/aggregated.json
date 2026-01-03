@@ -1,9 +1,12 @@
 {
-  "asn": 3585,
-  "handle": "AS3585",
-  "description": "TE Connectivity Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3585,
+  "metadata" : {
+    "handle" : "AS3585",
+    "description" : "TE Connectivity Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.26.84.0/24",
       "192.46.174.0/23",
       "192.46.176.0/24",
@@ -17,6 +20,6 @@
       "198.175.166.0/24",
       "199.89.212.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 267987,
-  "handle": "FALCON-NET",
-  "description": "Falcon Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267987,
+  "metadata" : {
+    "handle" : "FALCON-NET",
+    "description" : "Falcon Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.166.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5644::/32"
     ]
   }

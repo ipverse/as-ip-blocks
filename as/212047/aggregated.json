@@ -1,13 +1,16 @@
 {
-  "asn": 212047,
-  "handle": "CIVO-USA",
-  "description": "Civo LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212047,
+  "metadata" : {
+    "handle" : "CIVO-USA",
+    "description" : "Civo LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.157.0.0/24",
       "212.2.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:c880::/32"
     ]
   }

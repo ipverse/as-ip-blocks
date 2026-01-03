@@ -1,9 +1,12 @@
 {
-  "asn": 29650,
-  "handle": "VIATELAS-AS",
-  "description": "Digiweb ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29650,
+  "metadata" : {
+    "handle" : "VIATELAS-AS",
+    "description" : "Digiweb ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.139.240.0/22",
       "79.140.128.0/20",
       "82.195.128.0/19",
@@ -14,7 +17,7 @@
       "212.78.240.0/23",
       "212.84.40.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1bd8::/32"
     ]
   }

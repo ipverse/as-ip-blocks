@@ -1,15 +1,18 @@
 {
-  "asn": 213095,
-  "handle": "EXAION",
-  "description": "Exaion SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213095,
+  "metadata" : {
+    "handle" : "EXAION",
+    "description" : "Exaion SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.239.56.0/24",
       "95.175.153.0/24",
       "163.114.159.0/24",
       "185.21.130.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:fb40::/29"
     ]
   }

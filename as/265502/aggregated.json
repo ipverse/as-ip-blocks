@@ -1,12 +1,15 @@
 {
-  "asn": 265502,
-  "handle": "BOLSA-INSTITUCIONAL-VALORES",
-  "description": "BOLSA INSTITUCIONAL DE VALORES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265502,
+  "metadata" : {
+    "handle" : "BOLSA-INSTITUCIONAL-VALORES",
+    "description" : "BOLSA INSTITUCIONAL DE VALORES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.10.210.0/24",
       "200.34.173.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

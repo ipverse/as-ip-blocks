@@ -1,9 +1,12 @@
 {
-  "asn": 203806,
-  "handle": "GRANLINE-AS",
-  "description": "GranLine Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203806,
+  "metadata" : {
+    "handle" : "GRANLINE-AS",
+    "description" : "GranLine Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.22.50.0/23",
       "46.22.52.0/24",
       "46.22.54.0/24",
@@ -18,6 +21,6 @@
       "195.209.48.0/24",
       "195.209.50.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 10063,
-  "handle": "KMA-AS",
-  "description": "Korea Meteorological Administration",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10063,
+  "metadata" : {
+    "handle" : "KMA-AS",
+    "description" : "Korea Meteorological Administration",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.247.66.0/24",
       "203.247.75.0/24",
       "203.247.77.0/24",
@@ -14,6 +17,6 @@
       "203.247.101.0/24",
       "210.107.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

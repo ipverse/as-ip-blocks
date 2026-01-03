@@ -1,12 +1,15 @@
 {
-  "asn": 38447,
-  "handle": "ALS-AS-AP",
-  "description": "Campbell Brothers Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38447,
+  "metadata" : {
+    "handle" : "ALS-AS-AP",
+    "description" : "Campbell Brothers Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.134.64.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:5f40::/48"
     ]
   }

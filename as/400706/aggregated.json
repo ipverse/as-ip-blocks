@@ -1,9 +1,12 @@
 {
-  "asn": 400706,
-  "handle": "HEART-OF-IOWA-UNION",
-  "description": "Heart of Iowa Communications Cooperative",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400706,
+  "metadata" : {
+    "handle" : "HEART-OF-IOWA-UNION",
+    "description" : "Heart of Iowa Communications Cooperative",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.123.140.0/22",
       "167.142.136.0/22",
       "167.142.155.0/24",
@@ -13,7 +16,7 @@
       "208.126.0.0/21",
       "216.51.220.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:3d40::/32"
     ]
   }

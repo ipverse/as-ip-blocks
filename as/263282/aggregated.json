@@ -1,9 +1,12 @@
 {
-  "asn": 263282,
-  "handle": "FUNDACAO-UNIVERSIDADE-OESTE",
-  "description": "FUNDACAO UNIVERSIDADE DO OESTE DE SANTA CATARINA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263282,
+  "metadata" : {
+    "handle" : "FUNDACAO-UNIVERSIDADE-OESTE",
+    "description" : "FUNDACAO UNIVERSIDADE DO OESTE DE SANTA CATARINA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "191.52.128.0/21",
       "191.52.136.0/24",
       "191.52.140.0/23",
@@ -17,7 +20,7 @@
       "191.52.184.0/21",
       "191.52.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1654::/34",
       "2804:1654:4000::/36",
       "2804:1654:5000::/47"

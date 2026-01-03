@@ -1,12 +1,15 @@
 {
-  "asn": 22840,
-  "handle": "ATC-IP-LLC",
-  "description": "ATC IP LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22840,
+  "metadata" : {
+    "handle" : "ATC-IP-LLC",
+    "description" : "ATC IP LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.129.177.0/24",
       "198.245.175.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

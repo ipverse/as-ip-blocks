@@ -1,12 +1,15 @@
 {
-  "asn": 141613,
-  "handle": "IDNIC-JIN-AS-ID",
-  "description": "PT Jaringan Internet Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141613,
+  "metadata" : {
+    "handle" : "IDNIC-JIN-AS-ID",
+    "description" : "PT Jaringan Internet Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.161.130.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:9d40::/48"
     ]
   }

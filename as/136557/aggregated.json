@@ -1,9 +1,12 @@
 {
-  "asn": 136557,
-  "handle": "HOST-AS-AP",
-  "description": "Host Universal Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136557,
+  "metadata" : {
+    "handle" : "HOST-AS-AP",
+    "description" : "Host Universal Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.170.0/24",
       "45.67.86.0/24",
       "45.125.247.0/24",
@@ -65,7 +68,7 @@
       "206.245.167.0/24",
       "209.145.47.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:fc00::/48",
       "2401:7fa0:1::/48",
       "2401:7fa0:2::/48",

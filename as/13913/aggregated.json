@@ -1,9 +1,12 @@
 {
-  "asn": 13913,
-  "handle": "AFFILIATED",
-  "description": "Affiliated Monitoring Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13913,
+  "metadata" : {
+    "handle" : "AFFILIATED",
+    "description" : "Affiliated Monitoring Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.45.178.0/24",
       "198.17.112.0/24",
       "199.68.246.0/23",
@@ -11,6 +14,6 @@
       "205.178.160.0/24",
       "216.21.228.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 30193,
-  "handle": "LAUSD-AS",
-  "description": "Los Angeles Unified School District",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30193,
+  "metadata" : {
+    "handle" : "LAUSD-AS",
+    "description" : "Los Angeles Unified School District",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.108.64.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

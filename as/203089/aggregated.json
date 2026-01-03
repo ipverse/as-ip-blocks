@@ -1,12 +1,15 @@
 {
-  "asn": 203089,
-  "handle": "LINKSPACE",
-  "description": "Link Space SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203089,
+  "metadata" : {
+    "handle" : "LINKSPACE",
+    "description" : "Link Space SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.148.214.0/23",
       "185.136.124.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

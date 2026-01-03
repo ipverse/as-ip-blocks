@@ -1,15 +1,18 @@
 {
-  "asn": 6072,
-  "handle": "UNISYS-AS-C",
-  "description": "Unisys Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6072,
+  "metadata" : {
+    "handle" : "UNISYS-AS-C",
+    "description" : "Unisys Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.220.13.0/24",
       "129.220.15.0/24",
       "129.220.16.0/24",
       "129.220.54.0/24",
       "129.220.58.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

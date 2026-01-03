@@ -1,9 +1,12 @@
 {
-  "asn": 4208,
-  "handle": "THE-ISERV-COMPANY",
-  "description": "The Iserv Company LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4208,
+  "metadata" : {
+    "handle" : "THE-ISERV-COMPANY",
+    "description" : "The Iserv Company LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.213.160.0/20",
       "69.87.128.0/19",
       "74.120.102.0/24",
@@ -17,6 +20,6 @@
       "206.114.32.0/19",
       "208.224.0.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 41789,
-  "handle": "TELEDYNE-AS",
-  "description": "LLC Teledyne Systems Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41789,
+  "metadata" : {
+    "handle" : "TELEDYNE-AS",
+    "description" : "LLC Teledyne Systems Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.129.0.0/20",
       "31.129.16.0/22",
       "31.129.20.0/24",
@@ -19,6 +22,6 @@
       "159.255.16.0/21",
       "159.255.28.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

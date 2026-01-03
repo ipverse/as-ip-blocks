@@ -1,9 +1,12 @@
 {
-  "asn": 47252,
-  "handle": "LUKSUS-AS",
-  "description": "Grzegorz Wloch trading as LUKSUS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47252,
+  "metadata" : {
+    "handle" : "LUKSUS-AS",
+    "description" : "Grzegorz Wloch trading as LUKSUS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "155.133.30.0/23",
       "155.133.36.0/23",
       "155.133.39.0/24",
@@ -14,6 +17,6 @@
       "195.88.150.0/23",
       "195.238.164.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

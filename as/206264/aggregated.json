@@ -1,9 +1,12 @@
 {
-  "asn": 206264,
-  "handle": "AMARUTU-TECHNOLOGY",
-  "description": "Amarutu Technology Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206264,
+  "metadata" : {
+    "handle" : "AMARUTU-TECHNOLOGY",
+    "description" : "Amarutu Technology Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.214.0/23",
       "5.61.208.0/23",
       "5.175.194.0/24",
@@ -51,7 +54,7 @@
       "193.201.73.0/24",
       "198.144.120.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:590:3803::/48",
       "2402:7840::/32",
       "2a00:1ca8:2c::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 16664,
-  "handle": "CC-COMMUNICATIONS",
-  "description": "CC Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16664,
+  "metadata" : {
+    "handle" : "CC-COMMUNICATIONS",
+    "description" : "CC Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.161.88.0/24",
       "38.68.96.0/19",
       "38.94.238.0/23",
@@ -12,6 +15,6 @@
       "154.51.20.0/24",
       "207.190.144.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

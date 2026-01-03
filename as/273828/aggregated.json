@@ -1,12 +1,15 @@
 {
-  "asn": 273828,
-  "handle": "DAMOA",
-  "description": "DAMOA SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273828,
+  "metadata" : {
+    "handle" : "DAMOA",
+    "description" : "DAMOA SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.3.61.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:b150::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 13445,
-  "handle": "WEBEX",
-  "description": "Cisco Webex LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13445,
+  "metadata" : {
+    "handle" : "WEBEX",
+    "description" : "Cisco Webex LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.244.137.0/24",
       "8.245.11.0/24",
       "23.89.0.0/17",
@@ -45,7 +48,7 @@
       "210.4.200.0/21",
       "216.151.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:2500:3::/48",
       "2402:2500:10::/44",
       "2402:2500:20::/43",

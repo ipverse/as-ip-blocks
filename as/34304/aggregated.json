@@ -1,9 +1,12 @@
 {
-  "asn": 34304,
-  "handle": "TEENTELECOM",
-  "description": "Teen Telecom SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34304,
+  "metadata" : {
+    "handle" : "TEENTELECOM",
+    "description" : "Teen Telecom SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.96.36.0/23",
       "80.96.88.0/24",
       "80.96.99.0/24",
@@ -36,7 +39,7 @@
       "217.156.56.0/24",
       "217.156.58.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:8880::/30"
     ]
   }

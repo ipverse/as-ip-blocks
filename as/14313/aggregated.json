@@ -1,9 +1,12 @@
 {
-  "asn": 14313,
-  "handle": "DATABANK-ZCOLO",
-  "description": "zColo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14313,
+  "metadata" : {
+    "handle" : "DATABANK-ZCOLO",
+    "description" : "zColo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.100.51.0/24",
       "74.115.67.0/24",
       "162.223.244.0/22",
@@ -12,6 +15,6 @@
       "209.43.124.0/24",
       "209.151.68.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

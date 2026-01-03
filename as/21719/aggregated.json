@@ -1,9 +1,12 @@
 {
-  "asn": 21719,
-  "handle": "CHL",
-  "description": "CHL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21719,
+  "metadata" : {
+    "handle" : "CHL",
+    "description" : "CHL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "108.174.64.0/24",
       "108.174.66.0/23",
       "108.174.68.0/24",
@@ -24,6 +27,6 @@
       "209.54.128.0/19",
       "216.222.144.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

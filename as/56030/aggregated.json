@@ -1,9 +1,12 @@
 {
-  "asn": 56030,
-  "handle": "VOYAGERNET-AS-AP",
-  "description": "Voyager Internet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56030,
+  "metadata" : {
+    "handle" : "VOYAGERNET-AS-AP",
+    "description" : "Voyager Internet Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.240.32.0/22",
       "49.50.240.0/20",
       "103.4.136.0/22",
@@ -35,7 +38,7 @@
       "210.55.7.0/24",
       "210.55.30.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:6080::/32",
       "2402:2380::/32",
       "2402:2980::/32",

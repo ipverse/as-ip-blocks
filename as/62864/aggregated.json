@@ -1,9 +1,12 @@
 {
-  "asn": 62864,
-  "handle": "NILAS",
-  "description": "net innovation llc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62864,
+  "metadata" : {
+    "handle" : "NILAS",
+    "description" : "net innovation llc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.233.17.0/24",
       "103.19.50.0/23",
       "103.159.158.0/24",
@@ -24,6 +27,6 @@
       "196.18.217.0/24",
       "196.19.227.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 141636,
-  "handle": "IDNIC-MDP-AS-ID",
-  "description": "PT Mega Data Perkasa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141636,
+  "metadata" : {
+    "handle" : "IDNIC-MDP-AS-ID",
+    "description" : "PT Mega Data Perkasa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.162.16.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:afa0::/32"
     ]
   }

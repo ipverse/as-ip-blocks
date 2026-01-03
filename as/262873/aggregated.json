@@ -1,14 +1,17 @@
 {
-  "asn": 262873,
-  "handle": "VETT-VIA-EXPRESS",
-  "description": "VETT - VIA EXPRESS TECNOLOGIA E TELECOMUNICACOES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262873,
+  "metadata" : {
+    "handle" : "VETT-VIA-EXPRESS",
+    "description" : "VETT - VIA EXPRESS TECNOLOGIA E TELECOMUNICACOES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.163.56.0/22",
       "45.225.4.0/22",
       "186.233.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4530::/32"
     ]
   }

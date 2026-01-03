@@ -1,12 +1,15 @@
 {
-  "asn": 398979,
-  "handle": "RINGER-MOBILE-01",
-  "description": "Ringer",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398979,
+  "metadata" : {
+    "handle" : "RINGER-MOBILE-01",
+    "description" : "Ringer",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.72.60.0/23",
       "69.72.64.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

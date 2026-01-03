@@ -1,11 +1,14 @@
 {
-  "asn": 135428,
-  "handle": "FENZ-AS-AP",
-  "description": "Fire and Emergency New Zealand",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135428,
+  "metadata" : {
+    "handle" : "FENZ-AS-AP",
+    "description" : "Fire and Emergency New Zealand",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.138.184.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

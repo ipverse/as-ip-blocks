@@ -1,9 +1,12 @@
 {
-  "asn": 12714,
-  "handle": "MEGAFON-AS",
-  "description": "PJSC MegaFon",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12714,
+  "metadata" : {
+    "handle" : "MEGAFON-AS",
+    "description" : "PJSC MegaFon",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.250.168.0/21",
       "31.40.8.0/21",
       "31.170.32.0/21",
@@ -104,7 +107,7 @@
       "217.115.176.0/20",
       "217.151.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:d18::/32",
       "2a00:16d0::/32"
     ]

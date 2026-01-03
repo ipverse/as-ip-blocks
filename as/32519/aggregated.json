@@ -1,12 +1,15 @@
 {
-  "asn": 32519,
-  "handle": "DMIT-SERVICES",
-  "description": "DMIT Cloud Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32519,
+  "metadata" : {
+    "handle" : "DMIT-SERVICES",
+    "description" : "DMIT Cloud Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.110.201.0/24",
       "193.110.202.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

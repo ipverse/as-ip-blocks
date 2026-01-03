@@ -1,9 +1,12 @@
 {
-  "asn": 196695,
-  "handle": "NETONERUS",
-  "description": "NetOne Rus JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 196695,
+  "metadata" : {
+    "handle" : "NETONERUS",
+    "description" : "NetOne Rus JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.35.40.0/22",
       "5.183.154.0/24",
       "45.86.168.0/24",
@@ -34,7 +37,7 @@
       "217.28.132.0/24",
       "217.28.141.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:b900::/32"
     ]
   }

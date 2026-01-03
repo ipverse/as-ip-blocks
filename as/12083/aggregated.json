@@ -1,9 +1,12 @@
 {
-  "asn": 12083,
-  "handle": "WOW-INTERNET",
-  "description": "WideOpenWest Finance LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12083,
+  "metadata" : {
+    "handle" : "WOW-INTERNET",
+    "description" : "WideOpenWest Finance LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.27.205.0/24",
       "23.28.96.0/19",
       "23.28.128.0/17",
@@ -87,7 +90,7 @@
       "216.186.164.0/24",
       "216.186.180.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:3d00::/28"
     ]
   }

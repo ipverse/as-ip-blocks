@@ -1,14 +1,17 @@
 {
-  "asn": 28678,
-  "handle": "KOSMAN-EDU-AS",
-  "description": "Technical University of Koszalin",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28678,
+  "metadata" : {
+    "handle" : "KOSMAN-EDU-AS",
+    "description" : "Technical University of Koszalin",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.25.248.0/21",
       "62.108.160.0/20",
       "62.108.176.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4c70::/32"
     ]
   }

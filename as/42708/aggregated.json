@@ -1,9 +1,12 @@
 {
-  "asn": 42708,
-  "handle": "GLESYS",
-  "description": "Glesys AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42708,
+  "metadata" : {
+    "handle" : "GLESYS",
+    "description" : "Glesys AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.178.72.0/21",
       "5.198.248.0/21",
       "31.135.2.0/24",
@@ -173,7 +176,7 @@
       "212.78.244.0/24",
       "212.112.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:d2c::/48",
       "2001:67c:d9c::/48",
       "2001:67c:dc4::/48",

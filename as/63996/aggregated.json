@@ -1,9 +1,12 @@
 {
-  "asn": 63996,
-  "handle": "MNL-AS-AP",
-  "description": "Mazeda Networks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63996,
+  "metadata" : {
+    "handle" : "MNL-AS-AP",
+    "description" : "Mazeda Networks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.120.112.0/22",
       "103.60.172.0/22",
       "103.129.238.0/23",
@@ -13,7 +16,7 @@
       "203.17.65.0/24",
       "203.95.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:3240::/32"
     ]
   }

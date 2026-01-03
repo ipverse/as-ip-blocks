@@ -1,13 +1,16 @@
 {
-  "asn": 216253,
-  "handle": "INTERHIVE-AS",
-  "description": "Interhive OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216253,
+  "metadata" : {
+    "handle" : "INTERHIVE-AS",
+    "description" : "Interhive OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.38.31.0/24",
       "217.216.106.0/24",
       "217.217.244.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

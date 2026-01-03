@@ -1,13 +1,16 @@
 {
-  "asn": 22169,
-  "handle": "OMNIS-ANYCAST-1",
-  "description": "Omnis Network LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22169,
+  "metadata" : {
+    "handle" : "OMNIS-ANYCAST-1",
+    "description" : "Omnis Network LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.10.136.0/24",
       "216.239.128.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fe90:8000::/47"
     ]
   }

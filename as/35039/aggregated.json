@@ -1,9 +1,12 @@
 {
-  "asn": 35039,
-  "handle": "SAP-SCI",
-  "description": "SAP SE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35039,
+  "metadata" : {
+    "handle" : "SAP-SCI",
+    "description" : "SAP SE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.214.0.0/21",
       "130.214.8.0/22",
       "130.214.12.0/23",
@@ -59,7 +62,7 @@
       "217.77.240.0/21",
       "217.77.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:afc1:1000::/36",
       "2a10:afc1:e000::/36"
     ]

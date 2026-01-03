@@ -1,12 +1,15 @@
 {
-  "asn": 398931,
-  "handle": "LS-ENTERPRISES",
-  "description": "LS Enterprises",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398931,
+  "metadata" : {
+    "handle" : "LS-ENTERPRISES",
+    "description" : "LS Enterprises",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.51.95.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:af:a000::/48"
     ]
   }

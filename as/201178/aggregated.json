@@ -1,9 +1,12 @@
 {
-  "asn": 201178,
-  "handle": "EURONET",
-  "description": "Euronet Telekomunikasyon A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201178,
+  "metadata" : {
+    "handle" : "EURONET",
+    "description" : "Euronet Telekomunikasyon A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.75.8.0/21",
       "45.84.220.0/23",
       "91.92.70.0/24",
@@ -29,6 +32,6 @@
       "212.101.96.0/19",
       "213.128.70.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 207023,
-  "handle": "CENTRIXWEB1",
-  "description": "Centrix Web Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207023,
+  "metadata" : {
+    "handle" : "CENTRIXWEB1",
+    "description" : "Centrix Web Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.97.116.0/22",
       "91.229.147.0/24",
       "91.232.18.0/24",
@@ -19,7 +22,7 @@
       "192.162.186.0/23",
       "194.33.64.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:d00::/29"
     ]
   }

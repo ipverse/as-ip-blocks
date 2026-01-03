@@ -1,9 +1,12 @@
 {
-  "asn": 395747,
-  "handle": "CLOUDFLARENET-SFO05",
-  "description": "Cloudflare Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395747,
+  "metadata" : {
+    "handle" : "CLOUDFLARENET-SFO05",
+    "description" : "Cloudflare Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.14.199.0/24",
       "8.17.207.0/24",
       "8.21.12.0/24",
@@ -23,7 +26,7 @@
       "172.71.136.0/24",
       "198.41.128.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:cb00:133::/48",
       "2400:cb00:251::/48",
       "2400:cb00:517::/48",

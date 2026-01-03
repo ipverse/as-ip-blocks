@@ -1,9 +1,12 @@
 {
-  "asn": 199785,
-  "handle": "CHSN-AS",
-  "description": "Cloud Hosting Solutions Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199785,
+  "metadata" : {
+    "handle" : "CHSN-AS",
+    "description" : "Cloud Hosting Solutions Limited.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.46.16.0/22",
       "45.132.1.0/24",
       "64.188.99.0/24",
@@ -38,6 +41,6 @@
       "213.165.52.0/24",
       "217.114.43.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

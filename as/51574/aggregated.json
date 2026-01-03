@@ -1,12 +1,15 @@
 {
-  "asn": 51574,
-  "handle": "FASTPATH-TESTNET",
-  "description": "FASTPATH IKE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51574,
+  "metadata" : {
+    "handle" : "FASTPATH-TESTNET",
+    "description" : "FASTPATH IKE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.31.121.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:5a07:fe::/48"
     ]
   }

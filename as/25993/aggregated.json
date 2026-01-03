@@ -1,9 +1,12 @@
 {
-  "asn": 25993,
-  "handle": "ATT-LABS-AUSTIN-TX",
-  "description": "AT\u0026T Enterprises LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25993,
+  "metadata" : {
+    "handle" : "ATT-LABS-AUSTIN-TX",
+    "description" : "AT&T Enterprises LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.226.78.0/23",
       "64.123.22.0/24",
       "107.77.112.0/20",
@@ -31,7 +34,7 @@
       "205.173.58.0/24",
       "209.64.7.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:10d:9000::/48",
       "2620:10d:9004::/48",
       "2620:10d:900f::/48"

@@ -1,13 +1,16 @@
 {
-  "asn": 396504,
-  "handle": "VCHA-LOWER-MAINLAND",
-  "description": "Vancouver Coastal Health",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396504,
+  "metadata" : {
+    "handle" : "VCHA-LOWER-MAINLAND",
+    "description" : "Vancouver Coastal Health",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.173.32.0/19",
       "139.173.88.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:814:7000::/40"
     ]
   }

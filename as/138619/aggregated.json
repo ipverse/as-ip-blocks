@@ -1,11 +1,14 @@
 {
-  "asn": 138619,
-  "handle": "NH-AS-AP",
-  "description": "Net @ Home",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138619,
+  "metadata" : {
+    "handle" : "NH-AS-AP",
+    "description" : "Net @ Home",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.187.244.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

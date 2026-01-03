@@ -1,12 +1,15 @@
 {
-  "asn": 136906,
-  "handle": "NNCK-AS-AP",
-  "description": "Corecasys Kaopode",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136906,
+  "metadata" : {
+    "handle" : "NNCK-AS-AP",
+    "description" : "Corecasys Kaopode",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.164.85.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:c880::/48"
     ]
   }

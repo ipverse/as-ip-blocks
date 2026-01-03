@@ -1,9 +1,12 @@
 {
-  "asn": 10199,
-  "handle": "TATA-AS",
-  "description": "Tata Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10199,
+  "metadata" : {
+    "handle" : "TATA-AS",
+    "description" : "Tata Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.141.140.0/24",
       "59.161.0.0/16",
       "115.117.0.0/16",
@@ -29,6 +32,6 @@
       "121.245.160.0/19",
       "219.64.160.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

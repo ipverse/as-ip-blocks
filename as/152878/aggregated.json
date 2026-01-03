@@ -1,11 +1,14 @@
 {
-  "asn": 152878,
-  "handle": "LUNA-AS-AP",
-  "description": "Luna",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152878,
+  "metadata" : {
+    "handle" : "LUNA-AS-AP",
+    "description" : "Luna",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.248.228.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

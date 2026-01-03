@@ -1,12 +1,15 @@
 {
-  "asn": 268512,
-  "handle": "VOO-TELECOM",
-  "description": "VOO TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268512,
+  "metadata" : {
+    "handle" : "VOO-TELECOM",
+    "description" : "VOO TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.161.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5258::/32"
     ]
   }

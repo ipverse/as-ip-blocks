@@ -1,9 +1,12 @@
 {
-  "asn": 52207,
-  "handle": "TULA-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52207,
+  "metadata" : {
+    "handle" : "TULA-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.3.33.0/24",
       "5.164.16.0/20",
       "5.167.128.0/20",
@@ -19,7 +22,7 @@
       "176.214.240.0/20",
       "188.187.229.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:7c00::/38"
     ]
   }

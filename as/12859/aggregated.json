@@ -1,9 +1,12 @@
 {
-  "asn": 12859,
-  "handle": "NL-BIT",
-  "description": "BIT BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12859,
+  "metadata" : {
+    "handle" : "NL-BIT",
+    "description" : "BIT BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.152.251.0/24",
       "45.153.16.0/23",
       "46.247.36.0/23",
@@ -42,7 +45,7 @@
       "213.136.0.0/19",
       "213.154.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2d7c::/48",
       "2001:7b8::/29",
       "2a00:1e28::/32",

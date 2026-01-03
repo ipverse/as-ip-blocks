@@ -1,14 +1,17 @@
 {
-  "asn": 50273,
-  "handle": "PTS-AS",
-  "description": "Post och Telestyrelsen",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50273,
+  "metadata" : {
+    "handle" : "PTS-AS",
+    "description" : "Post och Telestyrelsen",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.121.211.0/24",
       "192.121.215.0/24",
       "192.121.216.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:dc::/48"
     ]
   }

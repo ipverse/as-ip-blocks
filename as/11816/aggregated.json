@@ -1,9 +1,12 @@
 {
-  "asn": 11816,
-  "handle": "SERVICIO-DI-TELECOMUNICACION",
-  "description": "SERVICIO DI TELECOMUNICACION DI ARUBA (SETAR) N.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11816,
+  "metadata" : {
+    "handle" : "SERVICIO-DI-TELECOMUNICACION",
+    "description" : "SERVICIO DI TELECOMUNICACION DI ARUBA (SETAR) N.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.41.0.0/21",
       "181.41.8.0/23",
       "181.41.20.0/22",
@@ -44,7 +47,7 @@
       "201.229.118.0/23",
       "201.229.120.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:ad0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 273309,
-  "handle": "UNI-TELECOM",
-  "description": "UNI TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273309,
+  "metadata" : {
+    "handle" : "UNI-TELECOM",
+    "description" : "UNI TELECOM LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.227.84.0/22",
       "45.233.220.0/22",
       "131.0.208.0/22",
@@ -17,7 +20,7 @@
       "186.226.220.0/22",
       "191.37.216.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8c7c::/32"
     ]
   }

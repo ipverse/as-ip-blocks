@@ -1,14 +1,17 @@
 {
-  "asn": 208689,
-  "handle": "HELLOLY",
-  "description": "helloly GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208689,
+  "metadata" : {
+    "handle" : "HELLOLY",
+    "description" : "helloly GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.92.103.0/24",
       "185.198.232.0/24",
       "194.61.27.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:6600::/29"
     ]
   }

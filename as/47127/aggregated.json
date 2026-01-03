@@ -1,13 +1,16 @@
 {
-  "asn": 47127,
-  "handle": "TELEMAQUE",
-  "description": "TELEMAQUE SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47127,
+  "metadata" : {
+    "handle" : "TELEMAQUE",
+    "description" : "TELEMAQUE SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.209.191.0/24",
       "212.234.169.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2b3c::/48"
     ]
   }

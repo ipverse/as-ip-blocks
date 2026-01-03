@@ -1,12 +1,15 @@
 {
-  "asn": 16616,
-  "handle": "COUNTRY-WIRELESS",
-  "description": "Country Wireless",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16616,
+  "metadata" : {
+    "handle" : "COUNTRY-WIRELESS",
+    "description" : "Country Wireless",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.243.224.0/20",
       "162.244.200.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

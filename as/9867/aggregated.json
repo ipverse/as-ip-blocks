@@ -1,9 +1,12 @@
 {
-  "asn": 9867,
-  "handle": "JTC-AS",
-  "description": "VISION College of Jeonju",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9867,
+  "metadata" : {
+    "handle" : "JTC-AS",
+    "description" : "VISION College of Jeonju",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.249.35.0/24",
       "210.93.68.0/22",
       "210.125.192.0/21",
@@ -11,6 +14,6 @@
       "220.66.132.0/22",
       "220.66.136.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

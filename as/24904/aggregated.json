@@ -1,9 +1,12 @@
 {
-  "asn": 24904,
-  "handle": "KWAOO",
-  "description": "K-NET SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24904,
+  "metadata" : {
+    "handle" : "KWAOO",
+    "description" : "K-NET SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.236.0/22",
       "45.15.60.0/22",
       "45.83.228.0/22",
@@ -37,7 +40,7 @@
       "194.110.120.0/22",
       "194.147.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:4980::/32"
     ]
   }

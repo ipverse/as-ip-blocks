@@ -1,9 +1,12 @@
 {
-  "asn": 45960,
-  "handle": "YTLCOMMS-AS-AP",
-  "description": "YTL Communications Sdn Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45960,
+  "metadata" : {
+    "handle" : "YTLCOMMS-AS-AP",
+    "description" : "YTL Communications Sdn Bhd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.1.128.0/17",
       "45.121.36.0/22",
       "103.1.68.0/22",
@@ -19,7 +22,7 @@
       "203.56.25.0/24",
       "203.158.24.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:b400::/32"
     ]
   }

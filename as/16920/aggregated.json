@@ -1,9 +1,12 @@
 {
-  "asn": 16920,
-  "handle": "WINDRIVER",
-  "description": "Wind River Systems Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16920,
+  "metadata" : {
+    "handle" : "WINDRIVER",
+    "description" : "Wind River Systems Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.224.246.0/23",
       "128.224.252.0/22",
       "147.11.0.0/16",
@@ -11,7 +14,7 @@
       "192.103.54.0/23",
       "192.124.127.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:10a:a000::/40"
     ]
   }

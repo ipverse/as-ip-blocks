@@ -1,9 +1,12 @@
 {
-  "asn": 22381,
-  "handle": "MEGATELECOM-TELECOMUNICACOES",
-  "description": "Megatelecom Telecomunicacoes Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22381,
+  "metadata" : {
+    "handle" : "MEGATELECOM-TELECOMUNICACOES",
+    "description" : "Megatelecom Telecomunicacoes Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.108.184.0/22",
       "170.78.232.0/22",
       "177.126.0.0/24",
@@ -32,7 +35,7 @@
       "201.87.156.0/24",
       "201.87.158.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:368::/32",
       "2804:3f8::/32"
     ]

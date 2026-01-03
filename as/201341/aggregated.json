@@ -1,9 +1,12 @@
 {
-  "asn": 201341,
-  "handle": "CENTURION-INTERNET-SERVICES",
-  "description": "trafficforce UAB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201341,
+  "metadata" : {
+    "handle" : "CENTURION-INTERNET-SERVICES",
+    "description" : "trafficforce UAB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.181.32.0/22",
       "5.181.64.0/22",
       "31.187.65.0/24",
@@ -131,7 +134,7 @@
       "212.23.213.0/24",
       "212.52.15.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:e9c3::/32",
       "2a05:6300::/29",
       "2a14:c883::/33"

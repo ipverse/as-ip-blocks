@@ -1,9 +1,12 @@
 {
-  "asn": 40285,
-  "handle": "NORTHLAND-CABLE",
-  "description": "NORTHLAND CABLE TELEVISION INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40285,
+  "metadata" : {
+    "handle" : "NORTHLAND-CABLE",
+    "description" : "NORTHLAND CABLE TELEVISION INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.31.6.0/23",
       "24.31.8.0/21",
       "24.31.16.0/24",
@@ -106,6 +109,6 @@
       "192.208.57.0/24",
       "192.208.58.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

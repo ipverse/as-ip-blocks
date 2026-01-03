@@ -1,9 +1,12 @@
 {
-  "asn": 62825,
-  "handle": "WTC-40-AS",
-  "description": "Walnut Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62825,
+  "metadata" : {
+    "handle" : "WTC-40-AS",
+    "description" : "Walnut Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.55.194.0/24",
       "67.55.216.0/24",
       "67.55.231.0/24",
@@ -20,6 +23,6 @@
       "216.51.160.0/24",
       "216.248.70.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

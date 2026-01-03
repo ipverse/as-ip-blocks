@@ -1,12 +1,15 @@
 {
-  "asn": 207066,
-  "handle": "SOK-AS",
-  "description": "SOK SIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207066,
+  "metadata" : {
+    "handle" : "SOK-AS",
+    "description" : "SOK SIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.199.86.0/24",
       "176.103.185.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

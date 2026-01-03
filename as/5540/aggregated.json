@@ -1,13 +1,16 @@
 {
-  "asn": 5540,
-  "handle": "IEC-AS",
-  "description": "The Israel Electric Corporation Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5540,
+  "metadata" : {
+    "handle" : "IEC-AS",
+    "description" : "The Israel Electric Corporation Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.134.96.0/21",
       "138.134.128.0/24",
       "138.134.134.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 213999,
-  "handle": "THE-CLIENTS",
-  "description": "WorkTitans B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213999,
+  "metadata" : {
+    "handle" : "THE-CLIENTS",
+    "description" : "WorkTitans B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.175.250.0/24",
       "5.252.20.0/24",
       "45.147.31.0/24",
@@ -24,6 +27,6 @@
       "194.61.9.0/24",
       "212.107.27.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

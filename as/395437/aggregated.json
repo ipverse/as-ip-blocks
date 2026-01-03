@@ -1,9 +1,12 @@
 {
-  "asn": 395437,
-  "handle": "HIGHLANDTEL",
-  "description": "Highland Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395437,
+  "metadata" : {
+    "handle" : "HIGHLANDTEL",
+    "description" : "Highland Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.43.128.0/18",
       "143.55.240.0/21",
       "143.55.248.0/22",
@@ -16,6 +19,6 @@
       "204.116.107.0/24",
       "206.74.50.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

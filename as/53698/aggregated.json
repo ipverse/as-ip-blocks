@@ -1,16 +1,19 @@
 {
-  "asn": 53698,
-  "handle": "NINJA-IX-TRANSIT-CONNECTION",
-  "description": "Ninja-IX Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53698,
+  "metadata" : {
+    "handle" : "NINJA-IX-TRANSIT-CONNECTION",
+    "description" : "Ninja-IX Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.152.192.0/24",
       "23.174.128.0/23",
       "165.140.128.0/24",
       "192.33.139.0/24",
       "209.209.4.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:6040:10::/48",
       "2604:6040:17::/48",
       "2604:6040:20::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 36994,
-  "handle": "VODACOM-VB",
-  "description": "Vodacom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36994,
+  "metadata" : {
+    "handle" : "VODACOM-VB",
+    "description" : "Vodacom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.0.0.0/16",
       "41.10.0.0/16",
       "41.21.128.0/17",
@@ -33,7 +36,7 @@
       "212.96.29.0/24",
       "212.96.31.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0e:4000:a000::/36",
       "2c0e:4010:a000::/36",
       "2c0e:4014::/32",

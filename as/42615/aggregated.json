@@ -1,15 +1,18 @@
 {
-  "asn": 42615,
-  "handle": "IGLOO22225",
-  "description": "June Slater",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42615,
+  "metadata" : {
+    "handle" : "IGLOO22225",
+    "description" : "June Slater",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.132.96.0/24",
       "44.2.18.0/24",
       "44.31.118.0/24",
       "185.186.11.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fafb::/36",
       "2a0b:6b81:4::/48",
       "2a0b:6b81:401::/48",

@@ -1,11 +1,14 @@
 {
-  "asn": 32285,
-  "handle": "HFCC",
-  "description": "Henry Ford College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32285,
+  "metadata" : {
+    "handle" : "HFCC",
+    "description" : "Henry Ford College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.203.3.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 264750,
-  "handle": "TELEOPERADORA-NORDESTE",
-  "description": "TELEOPERADORA DEL NORDESTE S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264750,
+  "metadata" : {
+    "handle" : "TELEOPERADORA-NORDESTE",
+    "description" : "TELEOPERADORA DEL NORDESTE S.R.L",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.189.192.0/18",
       "38.196.0.0/18",
       "143.137.80.0/22",
@@ -16,7 +19,7 @@
       "192.141.128.0/22",
       "205.137.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:3640::/32",
       "2803:e820::/32",
       "2803:f8c0::/32"

@@ -1,11 +1,14 @@
 {
-  "asn": 22873,
-  "handle": "NEIGHBOURHOOD-CONNECT",
-  "description": "Neighbourhood Connect",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22873,
+  "metadata" : {
+    "handle" : "NEIGHBOURHOOD-CONNECT",
+    "description" : "Neighbourhood Connect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.87.240.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

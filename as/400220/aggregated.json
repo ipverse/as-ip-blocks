@@ -1,15 +1,18 @@
 {
-  "asn": 400220,
-  "handle": "PEARLCOMMFIBER-01",
-  "description": "PearlComm",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400220,
+  "metadata" : {
+    "handle" : "PEARLCOMMFIBER-01",
+    "description" : "PearlComm",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.128.0.0/19",
       "138.84.224.0/19",
       "158.80.224.0/19",
       "205.147.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:93c0::/32"
     ]
   }

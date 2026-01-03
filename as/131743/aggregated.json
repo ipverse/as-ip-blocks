@@ -1,15 +1,18 @@
 {
-  "asn": 131743,
-  "handle": "IDNIC-GBA-AS-ID",
-  "description": "PT GNET BIARO AKSES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131743,
+  "metadata" : {
+    "handle" : "IDNIC-GBA-AS-ID",
+    "description" : "PT GNET BIARO AKSES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.21.229.0/24",
       "103.162.218.0/23",
       "103.191.56.0/23",
       "103.227.141.0/24",
       "103.227.142.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

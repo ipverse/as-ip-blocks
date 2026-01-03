@@ -1,9 +1,12 @@
 {
-  "asn": 5405,
-  "handle": "INTERDOTLINK",
-  "description": "Inter.link GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5405,
+  "metadata" : {
+    "handle" : "INTERDOTLINK",
+    "description" : "Inter.link GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.211.0/24",
       "45.153.81.0/24",
       "45.153.82.0/23",
@@ -13,7 +16,7 @@
       "185.134.66.0/23",
       "185.242.76.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:4140::/29"
     ]
   }

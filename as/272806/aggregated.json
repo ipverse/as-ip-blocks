@@ -1,14 +1,17 @@
 {
-  "asn": 272806,
-  "handle": "PIT-COLOMBIA",
-  "description": "PIT COLOMBIA SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272806,
+  "metadata" : {
+    "handle" : "PIT-COLOMBIA",
+    "description" : "PIT COLOMBIA SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.56.108.0/24",
       "38.56.124.0/24",
       "45.68.27.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:cd60:5102::/48",
       "2803:cd60:5121::/48",
       "2803:cd60:8700::/44"

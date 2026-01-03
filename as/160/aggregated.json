@@ -1,16 +1,19 @@
 {
-  "asn": 160,
-  "handle": "U-CHICAGO-AS",
-  "description": "The University of Chicago",
-  "subnets": {
-    "ipv4": [
+  "asn" : 160,
+  "metadata" : {
+    "handle" : "U-CHICAGO-AS",
+    "description" : "The University of Chicago",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.135.0.0/16",
       "192.5.85.0/24",
       "192.170.192.0/18",
       "198.177.153.0/24",
       "205.208.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:9a00::/48",
       "2605:9a00:10::/48"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 42427,
-  "handle": "MIMECAST-UK",
-  "description": "Mimecast Services Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42427,
+  "metadata" : {
+    "handle" : "MIMECAST-UK",
+    "description" : "Mimecast Services Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.220.42.0/24",
       "185.58.84.0/22",
       "193.7.204.0/23",
@@ -12,7 +15,7 @@
       "216.35.243.0/24",
       "216.35.244.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5be0::/47"
     ]
   }

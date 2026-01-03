@@ -1,12 +1,15 @@
 {
-  "asn": 150099,
-  "handle": "SPEED1-AS-IN",
-  "description": "SPEED HEX TELE COMMUNICATIONS PVT LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150099,
+  "metadata" : {
+    "handle" : "SPEED1-AS-IN",
+    "description" : "SPEED HEX TELE COMMUNICATIONS PVT LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.10.92.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:7640::/48"
     ]
   }

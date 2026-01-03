@@ -1,9 +1,12 @@
 {
-  "asn": 52423,
-  "handle": "DATA-MINERS",
-  "description": "Data Miners S.A. ( Racknation.cr )",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52423,
+  "metadata" : {
+    "handle" : "DATA-MINERS",
+    "description" : "Data Miners S.A. ( Racknation.cr )",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.38.100.0/24",
       "138.59.16.0/22",
       "143.202.160.0/22",
@@ -17,7 +20,7 @@
       "199.33.68.0/24",
       "199.60.215.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:c980:1200::/40",
       "2803:6900:1::/48",
       "2803:6900:200::/48",

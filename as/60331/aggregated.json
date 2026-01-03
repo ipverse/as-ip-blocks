@@ -1,13 +1,16 @@
 {
-  "asn": 60331,
-  "handle": "VINC-AS",
-  "description": "Une Vision Nouvelle de la Communication VINC SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60331,
+  "metadata" : {
+    "handle" : "VINC-AS",
+    "description" : "Une Vision Nouvelle de la Communication VINC SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.30.106.0/24",
       "185.32.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:c120::/32"
     ]
   }

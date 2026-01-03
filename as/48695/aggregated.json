@@ -1,9 +1,12 @@
 {
-  "asn": 48695,
-  "handle": "ATHEEB-AS",
-  "description": "Etihad Atheeb Telecom Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48695,
+  "metadata" : {
+    "handle" : "ATHEEB-AS",
+    "description" : "Etihad Atheeb Telecom Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.99.150.0/24",
       "37.99.185.0/24",
       "37.99.186.0/24",
@@ -37,7 +40,7 @@
       "188.249.128.0/18",
       "188.249.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:888:40::/47",
       "2a02:888:42::/48",
       "2a02:888:44::/47",

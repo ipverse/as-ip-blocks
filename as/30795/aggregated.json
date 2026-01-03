@@ -1,14 +1,17 @@
 {
-  "asn": 30795,
-  "handle": "BRS-NETWORKS-AS",
-  "description": "BRS Networks AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30795,
+  "metadata" : {
+    "handle" : "BRS-NETWORKS-AS",
+    "description" : "BRS Networks AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.115.128.0/19",
       "185.225.52.0/22",
       "195.88.88.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:650::/32"
     ]
   }

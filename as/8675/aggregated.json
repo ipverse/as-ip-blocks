@@ -1,11 +1,14 @@
 {
-  "asn": 8675,
-  "handle": "AS-TULATEL",
-  "description": "PJSC Rostelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8675,
+  "metadata" : {
+    "handle" : "AS-TULATEL",
+    "description" : "PJSC Rostelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.12.0.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

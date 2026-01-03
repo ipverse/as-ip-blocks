@@ -1,9 +1,12 @@
 {
-  "asn": 11878,
-  "handle": "TZULO",
-  "description": "tzulo inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11878,
+  "metadata" : {
+    "handle" : "TZULO",
+    "description" : "tzulo inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.158.232.0/23",
       "23.234.64.0/19",
       "23.234.96.0/20",
@@ -55,7 +58,7 @@
       "208.77.20.0/23",
       "208.77.22.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:1e40::/47",
       "2607:2780::/48",
       "2607:5d40::/35",

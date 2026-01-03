@@ -1,13 +1,16 @@
 {
-  "asn": 38903,
-  "handle": "AUSTUNITY-AS-AP",
-  "description": "Australian Unity Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38903,
+  "metadata" : {
+    "handle" : "AUSTUNITY-AS-AP",
+    "description" : "Australian Unity Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.122.123.0/24",
       "103.131.83.0/24",
       "203.99.152.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

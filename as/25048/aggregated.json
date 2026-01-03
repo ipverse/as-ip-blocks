@@ -1,12 +1,15 @@
 {
-  "asn": 25048,
-  "handle": "DSNET",
-  "description": "DSNET Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25048,
+  "metadata" : {
+    "handle" : "DSNET",
+    "description" : "DSNET Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.90.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e20::/31",
       "2a00:e26::/32"
     ]

@@ -1,15 +1,18 @@
 {
-  "asn": 200044,
-  "handle": "STACKGROUP",
-  "description": "Stack Group LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200044,
+  "metadata" : {
+    "handle" : "STACKGROUP",
+    "description" : "Stack Group LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.249.16.0/20",
       "93.158.192.0/21",
       "109.238.240.0/20",
       "185.159.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:eb8::/32",
       "2a0d:380::/29"
     ]

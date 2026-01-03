@@ -1,12 +1,15 @@
 {
-  "asn": 39534,
-  "handle": "LYRA-NETWORK",
-  "description": "Lyra Network SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39534,
+  "metadata" : {
+    "handle" : "LYRA-NETWORK",
+    "description" : "Lyra Network SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.151.68.0/23",
       "194.50.38.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

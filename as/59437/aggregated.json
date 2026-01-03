@@ -1,9 +1,12 @@
 {
-  "asn": 59437,
-  "handle": "NORTHERNDATA",
-  "description": "Northern Data AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59437,
+  "metadata" : {
+    "handle" : "NORTHERNDATA",
+    "description" : "Northern Data AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.234.64.0/24",
       "85.234.66.0/23",
       "85.234.78.0/23",
@@ -23,7 +26,7 @@
       "185.251.18.0/24",
       "195.211.49.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:90c0:2b0::/44",
       "2a03:90c0:680::/44",
       "2a03:90c0:7a0::/44",

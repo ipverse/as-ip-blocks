@@ -1,9 +1,12 @@
 {
-  "asn": 38611,
-  "handle": "BENDIGOTELCO-AS-AP",
-  "description": "Bendigo Community Telco Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38611,
+  "metadata" : {
+    "handle" : "BENDIGOTELCO-AS-AP",
+    "description" : "Bendigo Community Telco Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.12.201.0/24",
       "103.12.202.0/23",
       "103.253.64.0/22",
@@ -18,6 +21,6 @@
       "203.193.192.0/19",
       "210.9.194.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

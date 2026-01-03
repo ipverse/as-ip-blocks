@@ -1,9 +1,12 @@
 {
-  "asn": 202282,
-  "handle": "FIBRUS",
-  "description": "FIBRUS NETWORKS LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202282,
+  "metadata" : {
+    "handle" : "FIBRUS",
+    "description" : "FIBRUS NETWORKS LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.39.0.0/18",
       "149.7.38.0/24",
       "149.22.64.0/20",
@@ -18,7 +21,7 @@
       "194.62.184.0/22",
       "195.72.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:e400::/29"
     ]
   }

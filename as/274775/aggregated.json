@@ -1,13 +1,16 @@
 {
-  "asn": 274775,
-  "handle": "ECOTELECOM-PROVEDOR-INTERNET",
-  "description": "ecotelecom provedor de internet ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 274775,
+  "metadata" : {
+    "handle" : "ECOTELECOM-PROVEDOR-INTERNET",
+    "description" : "ecotelecom provedor de internet ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.71.168.0/24",
       "45.71.170.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:9368::/32"
     ]
   }

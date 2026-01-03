@@ -1,12 +1,15 @@
 {
-  "asn": 64033,
-  "handle": "GDS-HK",
-  "description": "GDS (Hong Kong) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64033,
+  "metadata" : {
+    "handle" : "GDS-HK",
+    "description" : "GDS (Hong Kong) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.102.184.0/22",
       "103.206.92.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

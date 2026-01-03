@@ -1,12 +1,15 @@
 {
-  "asn": 209084,
-  "handle": "CBR-DATA",
-  "description": "Bank of Russia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209084,
+  "metadata" : {
+    "handle" : "CBR-DATA",
+    "description" : "Bank of Russia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.40.200.0/23",
       "212.40.216.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 25605,
-  "handle": "SCANSAFE",
-  "description": "Cisco OpenDNS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25605,
+  "metadata" : {
+    "handle" : "SCANSAFE",
+    "description" : "Cisco OpenDNS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.41.11.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

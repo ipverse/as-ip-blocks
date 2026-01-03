@@ -1,11 +1,14 @@
 {
-  "asn": 57655,
-  "handle": "RUNTIME-AS",
-  "description": "LLC RUNTIME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57655,
+  "metadata" : {
+    "handle" : "RUNTIME-AS",
+    "description" : "LLC RUNTIME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "176.96.237.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

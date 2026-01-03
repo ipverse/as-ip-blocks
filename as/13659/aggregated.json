@@ -1,9 +1,12 @@
 {
-  "asn": 13659,
-  "handle": "INTERTECH",
-  "description": "INTERTECH CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13659,
+  "metadata" : {
+    "handle" : "INTERTECH",
+    "description" : "INTERTECH CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.223.0.0/23",
       "24.223.3.0/24",
       "24.223.7.0/24",
@@ -21,6 +24,6 @@
       "24.223.77.0/24",
       "24.223.79.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

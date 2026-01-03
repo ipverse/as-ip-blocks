@@ -1,9 +1,12 @@
 {
-  "asn": 214875,
-  "handle": "ALTIBOXAS",
-  "description": "Altibox Danmark AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214875,
+  "metadata" : {
+    "handle" : "ALTIBOXAS",
+    "description" : "Altibox Danmark AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.152.136.0/21",
       "37.97.0.0/20",
       "37.97.48.0/21",
@@ -18,7 +21,7 @@
       "188.228.92.0/23",
       "188.228.102.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:fd01::/32"
     ]
   }

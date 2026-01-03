@@ -1,9 +1,12 @@
 {
-  "asn": 19796,
-  "handle": "SHUBERT",
-  "description": "Shubert Organization Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19796,
+  "metadata" : {
+    "handle" : "SHUBERT",
+    "description" : "Shubert Organization Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.246.209.0/24",
       "207.246.210.0/24",
       "207.246.215.0/24",
@@ -11,6 +14,6 @@
       "207.246.220.0/24",
       "207.246.222.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

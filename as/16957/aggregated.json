@@ -1,13 +1,16 @@
 {
-  "asn": 16957,
-  "handle": "IDAHOPOWER-NETWORK",
-  "description": "Idaho Power Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16957,
+  "metadata" : {
+    "handle" : "IDAHOPOWER-NETWORK",
+    "description" : "Idaho Power Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.76.190.0/23",
       "204.76.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:189::/36"
     ]
   }

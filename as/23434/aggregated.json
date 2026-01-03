@@ -1,12 +1,15 @@
 {
-  "asn": 23434,
-  "handle": "SURS",
-  "description": "State Universities Retirement System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23434,
+  "metadata" : {
+    "handle" : "SURS",
+    "description" : "State Universities Retirement System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.150.70.0/24",
       "209.175.175.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

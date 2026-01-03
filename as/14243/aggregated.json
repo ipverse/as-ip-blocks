@@ -1,11 +1,14 @@
 {
-  "asn": 14243,
-  "handle": "CGS-ASP",
-  "description": "CGS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14243,
+  "metadata" : {
+    "handle" : "CGS-ASP",
+    "description" : "CGS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.192.248.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

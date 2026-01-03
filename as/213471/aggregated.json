@@ -1,12 +1,14 @@
 {
-  "asn": 213471,
-  "handle": "IPPNOC",
-  "description": "YAMAMOTO Hiroshi",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
-      "2a06:41::/43",
-      "2a06:41:30::/44",
+  "asn" : 213471,
+  "metadata" : {
+    "handle" : "IPPNOC",
+    "description" : "YAMAMOTO Hiroshi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
+      "2a06:41::/42",
       "2a06:41:40::/43",
       "2a06:41:80::/41"
     ]

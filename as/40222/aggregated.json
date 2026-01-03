@@ -1,14 +1,17 @@
 {
-  "asn": 40222,
-  "handle": "CREDIT-ONE-AS",
-  "description": "Credit One Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40222,
+  "metadata" : {
+    "handle" : "CREDIT-ONE-AS",
+    "description" : "Credit One Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.38.217.0/24",
       "12.168.37.0/24",
       "24.234.21.0/24",
       "65.154.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

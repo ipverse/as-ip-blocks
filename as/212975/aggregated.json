@@ -1,12 +1,15 @@
 {
-  "asn": 212975,
-  "handle": "TEAMCITY-AS",
-  "description": "TeamCity s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212975,
+  "metadata" : {
+    "handle" : "TEAMCITY-AS",
+    "description" : "TeamCity s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.115.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:9647::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 132696,
-  "handle": "SGIX-SG-AS",
-  "description": "Singapore Internet Exchange Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132696,
+  "metadata" : {
+    "handle" : "SGIX-SG-AS",
+    "description" : "Singapore Internet Exchange Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.3.78.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:214::/48"
     ]
   }

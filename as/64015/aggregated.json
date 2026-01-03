@@ -1,11 +1,14 @@
 {
-  "asn": 64015,
-  "handle": "PUREIP-AS-AP",
-  "description": "Pure IP Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64015,
+  "metadata" : {
+    "handle" : "PUREIP-AS-AP",
+    "description" : "Pure IP Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.192.240.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

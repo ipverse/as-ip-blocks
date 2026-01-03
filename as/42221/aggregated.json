@@ -1,12 +1,15 @@
 {
-  "asn": 42221,
-  "handle": "ZURKUHL-AS",
-  "description": "Zurkuhl GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42221,
+  "metadata" : {
+    "handle" : "ZURKUHL-AS",
+    "description" : "Zurkuhl GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.87.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:bd04::/30"
     ]
   }

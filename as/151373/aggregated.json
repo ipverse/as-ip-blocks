@@ -1,9 +1,12 @@
 {
-  "asn": 151373,
-  "handle": "JP3DP-NET",
-  "description": "JAPAN 3D PRINTER",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151373,
+  "metadata" : {
+    "handle" : "JP3DP-NET",
+    "description" : "JAPAN 3D PRINTER",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.251.63.0/24",
       "64.6.174.0/24",
       "66.253.6.0/24",
@@ -21,7 +24,7 @@
       "184.174.115.0/24",
       "192.208.15.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:21c1:6028::/47"
     ]
   }

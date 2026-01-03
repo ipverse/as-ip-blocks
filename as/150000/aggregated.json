@@ -1,14 +1,19 @@
 {
-  "asn": 150000,
-  "handle": "DBS-AS-AP",
-  "description": "Data-Beam Business Solution",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150000,
+  "metadata" : {
+    "handle" : "DBS-AS-AP",
+    "description" : "Data-Beam Business Solution",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
+      "45.197.141.0/24",
+      "45.197.142.0/24",
       "103.190.138.0/23",
       "154.82.159.0/24",
       "154.82.160.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:ee40::/48"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 47531,
-  "handle": "GORPTUS-AS",
-  "description": "GorPTUs OOO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47531,
+  "metadata" : {
+    "handle" : "GORPTUS-AS",
+    "description" : "GorPTUs OOO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.202.8.0/22",
       "91.204.176.0/22",
       "91.243.224.0/19",
       "178.213.32.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2808:5501::/48"
     ]
   }

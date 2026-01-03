@@ -1,14 +1,17 @@
 {
-  "asn": 131677,
-  "handle": "OPENFOR",
-  "description": "OpenFor Telecommunications Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131677,
+  "metadata" : {
+    "handle" : "OPENFOR",
+    "description" : "OpenFor Telecommunications Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.147.130.0/23",
       "103.149.64.0/23",
       "103.152.252.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:b8c0::/32",
       "2405:e4c0::/32",
       "2406:3a40::/32"

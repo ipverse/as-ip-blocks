@@ -1,12 +1,15 @@
 {
-  "asn": 210305,
-  "handle": "FRR-TESTLAB",
-  "description": "Network Device Education Foundation Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210305,
+  "metadata" : {
+    "handle" : "FRR-TESTLAB",
+    "description" : "Network Device Education Foundation Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.99.140.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:e480:110::/48"
     ]
   }

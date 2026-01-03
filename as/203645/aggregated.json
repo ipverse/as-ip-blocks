@@ -1,12 +1,15 @@
 {
-  "asn": 203645,
-  "handle": "RYZNAR-AS",
-  "description": "Jan Ryznar",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203645,
+  "metadata" : {
+    "handle" : "RYZNAR-AS",
+    "description" : "Jan Ryznar",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.133.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7d20:100::/40",
       "2a01:7d20:200::/39",
       "2a01:7d20:500::/40",

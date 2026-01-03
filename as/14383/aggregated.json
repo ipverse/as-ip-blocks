@@ -1,9 +1,12 @@
 {
-  "asn": 14383,
-  "handle": "VCS-AS",
-  "description": "M3COM of Virginia Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14383,
+  "metadata" : {
+    "handle" : "VCS-AS",
+    "description" : "M3COM of Virginia Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.31.12.0/23",
       "74.200.64.0/20",
       "74.200.80.0/21",
@@ -15,6 +18,6 @@
       "74.204.184.0/23",
       "205.234.96.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

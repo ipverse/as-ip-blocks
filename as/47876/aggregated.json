@@ -1,12 +1,15 @@
 {
-  "asn": 47876,
-  "handle": "PSE-OPERATOR-AS",
-  "description": "Polskie Sieci Elektroenergetyczne Spolka Akcyjna",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47876,
+  "metadata" : {
+    "handle" : "PSE-OPERATOR-AS",
+    "description" : "Polskie Sieci Elektroenergetyczne Spolka Akcyjna",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.208.150.0/24",
       "91.209.155.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

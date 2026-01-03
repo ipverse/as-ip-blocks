@@ -1,9 +1,12 @@
 {
-  "asn": 9180,
-  "handle": "ALIENOR",
-  "description": "ALIENOR.NET SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9180,
+  "metadata" : {
+    "handle" : "ALIENOR",
+    "description" : "ALIENOR.NET SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.3.190.0/24",
       "194.206.120.0/24",
       "194.250.118.0/24",
@@ -12,6 +15,6 @@
       "195.214.224.0/21",
       "217.109.127.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

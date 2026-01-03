@@ -1,12 +1,15 @@
 {
-  "asn": 32189,
-  "handle": "SAGRADO",
-  "description": "Universidad del Sagrado Corazon",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32189,
+  "metadata" : {
+    "handle" : "SAGRADO",
+    "description" : "Universidad del Sagrado Corazon",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.38.194.0/23",
       "209.91.228.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 60941,
-  "handle": "FTS",
-  "description": "Fujitsu Technology Solutions BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60941,
+  "metadata" : {
+    "handle" : "FTS",
+    "description" : "Fujitsu Technology Solutions BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.21.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:18c0::/45",
       "2a04:18c0:8::/47",
       "2a04:18c0:a::/48"

@@ -1,9 +1,12 @@
 {
-  "asn": 327934,
-  "handle": "TUNISIE-TELECOM",
-  "description": "SOCIETE NATIONALE DES TELECOMMUNICATIONS (Tunisie Telecom)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 327934,
+  "metadata" : {
+    "handle" : "TUNISIE-TELECOM",
+    "description" : "SOCIETE NATIONALE DES TELECOMMUNICATIONS (Tunisie Telecom)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.231.88.0/24",
       "102.24.0.0/13",
       "102.152.0.0/14",
@@ -28,7 +31,7 @@
       "213.150.185.0/24",
       "213.150.186.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f3a0::/32"
     ]
   }

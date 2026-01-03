@@ -1,9 +1,12 @@
 {
-  "asn": 17911,
-  "handle": "BRAINPK-AS-AP",
-  "description": "Brain NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17911,
+  "metadata" : {
+    "handle" : "BRAINPK-AS-AP",
+    "description" : "Brain NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.100.188.0/24",
       "122.129.64.0/24",
       "122.129.66.0/24",
@@ -30,7 +33,7 @@
       "203.128.28.0/24",
       "203.128.31.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:4f00::/36"
     ]
   }

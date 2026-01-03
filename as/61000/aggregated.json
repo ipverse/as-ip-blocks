@@ -1,12 +1,15 @@
 {
-  "asn": 61000,
-  "handle": "AERIALCOM",
-  "description": "Etruriacom Srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61000,
+  "metadata" : {
+    "handle" : "AERIALCOM",
+    "description" : "Etruriacom Srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.123.240.0/21",
       "185.112.92.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

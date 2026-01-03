@@ -1,15 +1,18 @@
 {
-  "asn": 137552,
-  "handle": "TTSB-AS-AP",
-  "description": "Terabix Technologies Sdn. Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137552,
+  "metadata" : {
+    "handle" : "TTSB-AS-AP",
+    "description" : "Terabix Technologies Sdn. Bhd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.249.91.0/24",
       "160.30.4.0/23",
       "160.30.209.0/24",
       "163.61.102.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:1840::/47"
     ]
   }

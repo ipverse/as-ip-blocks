@@ -1,9 +1,12 @@
 {
-  "asn": 21904,
-  "handle": "POWER1COM",
-  "description": "PowerOne",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21904,
+  "metadata" : {
+    "handle" : "POWER1COM",
+    "description" : "PowerOne",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.64.96.0/21",
       "68.64.104.0/22",
       "68.64.108.0/24",
@@ -13,6 +16,6 @@
       "208.82.28.0/23",
       "208.82.30.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

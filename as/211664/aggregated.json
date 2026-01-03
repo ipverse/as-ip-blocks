@@ -1,14 +1,17 @@
 {
-  "asn": 211664,
-  "handle": "QMEX",
-  "description": "Q-MEX Networks GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211664,
+  "metadata" : {
+    "handle" : "QMEX",
+    "description" : "Q-MEX Networks GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.232.22.0/23",
       "185.226.241.0/24",
       "185.226.242.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:84c0:1::/48"
     ]
   }

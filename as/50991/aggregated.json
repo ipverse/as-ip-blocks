@@ -1,11 +1,14 @@
 {
-  "asn": 50991,
-  "handle": "CARGUS-AS",
-  "description": "CARGUS SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50991,
+  "metadata" : {
+    "handle" : "CARGUS-AS",
+    "description" : "CARGUS SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.216.78.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

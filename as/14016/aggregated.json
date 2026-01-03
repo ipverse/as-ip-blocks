@@ -1,16 +1,19 @@
 {
-  "asn": 14016,
-  "handle": "CAPCON-NETWORK-LLC",
-  "description": "Capcon Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14016,
+  "metadata" : {
+    "handle" : "CAPCON-NETWORK-LLC",
+    "description" : "Capcon Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.57.187.0/24",
       "38.75.248.0/23",
       "38.252.10.0/23",
       "198.203.173.0/24",
       "199.245.156.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fbcb:1::/48",
       "2602:fbcb:2::/47"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 62300,
-  "handle": "ASN62300-AS",
-  "description": "Address Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62300,
+  "metadata" : {
+    "handle" : "ASN62300-AS",
+    "description" : "Address Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.44.199.0/24",
       "45.93.212.0/24",
       "45.93.215.0/24",
@@ -19,6 +22,6 @@
       "213.108.7.0/24",
       "213.166.93.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

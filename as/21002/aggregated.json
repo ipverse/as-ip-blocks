@@ -1,11 +1,14 @@
 {
-  "asn": 21002,
-  "handle": "MOF-AS",
-  "description": "Ministry of Finance of Saudi Arabia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21002,
+  "metadata" : {
+    "handle" : "MOF-AS",
+    "description" : "Ministry of Finance of Saudi Arabia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.110.232.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

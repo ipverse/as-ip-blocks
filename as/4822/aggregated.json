@@ -1,15 +1,18 @@
 {
-  "asn": 4822,
-  "handle": "NATIONAL-LIBRARY-AU",
-  "description": "National Library of Australia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4822,
+  "metadata" : {
+    "handle" : "NATIONAL-LIBRARY-AU",
+    "description" : "National Library of Australia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.90.65.0/24",
       "192.102.239.0/24",
       "202.6.91.0/24",
       "203.4.200.0/22",
       "203.15.226.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 138534,
-  "handle": "MATRIXBD-AS-AP",
-  "description": "Matrix BD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138534,
+  "metadata" : {
+    "handle" : "MATRIXBD-AS-AP",
+    "description" : "Matrix BD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.132.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:3440::/32"
     ]
   }

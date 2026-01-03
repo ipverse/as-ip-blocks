@@ -1,9 +1,12 @@
 {
-  "asn": 270172,
-  "handle": "GUILLERMO-ROBLES-RAMIREZ",
-  "description": "Guillermo Robles Ramirez",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270172,
+  "metadata" : {
+    "handle" : "GUILLERMO-ROBLES-RAMIREZ",
+    "description" : "Guillermo Robles Ramirez",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.102.108.0/22",
       "38.65.172.0/24",
       "38.94.72.0/23",
@@ -11,7 +14,7 @@
       "104.234.241.0/24",
       "148.224.58.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1203::/35",
       "2001:1203:2000::/36"
     ]

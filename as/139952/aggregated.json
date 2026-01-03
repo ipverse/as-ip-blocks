@@ -1,9 +1,12 @@
 {
-  "asn": 139952,
-  "handle": "TRIDATA-AS-ID",
-  "description": "PT Trisari Data Indonusa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139952,
+  "metadata" : {
+    "handle" : "TRIDATA-AS-ID",
+    "description" : "PT Trisari Data Indonusa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.31.240.0/23",
       "103.147.76.0/23",
       "103.160.184.0/23",
@@ -15,7 +18,7 @@
       "157.15.40.0/23",
       "203.175.124.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:b140::/48"
     ]
   }

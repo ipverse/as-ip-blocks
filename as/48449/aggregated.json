@@ -1,14 +1,17 @@
 {
-  "asn": 48449,
-  "handle": "SMARTNETIKE-GR-AS",
-  "description": "SMARTNET I.K.E",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48449,
+  "metadata" : {
+    "handle" : "SMARTNETIKE-GR-AS",
+    "description" : "SMARTNET I.K.E.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.160.194.0/23",
       "185.169.221.0/24",
       "185.169.222.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:80::/48"
     ]
   }

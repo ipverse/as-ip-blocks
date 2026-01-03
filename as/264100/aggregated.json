@@ -1,9 +1,12 @@
 {
-  "asn": 264100,
-  "handle": "RIO-CABLE-TELECOM",
-  "description": "RIO CABLE TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264100,
+  "metadata" : {
+    "handle" : "RIO-CABLE-TELECOM",
+    "description" : "RIO CABLE TELECOM LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.172.208.0/22",
       "138.94.28.0/22",
       "168.121.224.0/22",
@@ -11,6 +14,6 @@
       "177.155.176.0/20",
       "189.36.222.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

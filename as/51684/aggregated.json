@@ -1,9 +1,12 @@
 {
-  "asn": 51684,
-  "handle": "ASIACELL",
-  "description": "ASIACELL COMMUNICATIONS PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51684,
+  "metadata" : {
+    "handle" : "ASIACELL",
+    "description" : "ASIACELL COMMUNICATIONS PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.181.198.0/23",
       "82.199.208.0/21",
       "82.199.216.0/22",
@@ -25,7 +28,7 @@
       "223.25.124.0/23",
       "223.25.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:f680:84::/47",
       "2a12:f680:86::/48",
       "2a12:f680:284::/47",

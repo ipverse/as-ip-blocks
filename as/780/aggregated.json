@@ -1,11 +1,14 @@
 {
-  "asn": 780,
-  "handle": "FR-ARAMIS",
-  "description": "Renater",
-  "subnets": {
-    "ipv4": [
+  "asn" : 780,
+  "metadata" : {
+    "handle" : "FR-ARAMIS",
+    "description" : "Renater",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.69.52.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 138345,
-  "handle": "STARHUB-MOBILE2",
-  "description": "Starhub Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138345,
+  "metadata" : {
+    "handle" : "STARHUB-MOBILE2",
+    "description" : "Starhub Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.54.32.0/22",
       "27.54.37.0/24",
       "101.127.200.0/22",
@@ -36,7 +39,7 @@
       "203.117.248.0/22",
       "203.117.252.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:3000:202::/47",
       "2406:3000:204::/46",
       "2406:3000:208::/45",

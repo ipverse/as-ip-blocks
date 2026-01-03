@@ -1,13 +1,16 @@
 {
-  "asn": 139020,
-  "handle": "CLOUDLINK-AS-AP",
-  "description": "CloudLink Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139020,
+  "metadata" : {
+    "handle" : "CLOUDLINK-AS-AP",
+    "description" : "CloudLink Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.138.152.0/23",
       "160.250.138.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:d0c0::/32"
     ]
   }

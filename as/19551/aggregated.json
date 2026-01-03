@@ -1,9 +1,12 @@
 {
-  "asn": 19551,
-  "handle": "INCAPSULA",
-  "description": "Incapsula Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19551,
+  "metadata" : {
+    "handle" : "INCAPSULA",
+    "description" : "Incapsula Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "42.200.61.0/24",
       "45.60.0.0/21",
       "45.60.8.0/24",
@@ -197,7 +200,7 @@
       "200.34.201.0/24",
       "211.24.174.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:e980::/44",
       "2a02:e980:10::/45",
       "2a02:e980:18::/47",

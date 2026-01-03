@@ -1,12 +1,15 @@
 {
-  "asn": 24035,
-  "handle": "MOFA-AS-VN",
-  "description": "Ministry of Foreign Affairs of Vietnam - MOFA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24035,
+  "metadata" : {
+    "handle" : "MOFA-AS-VN",
+    "description" : "Ministry of Foreign Affairs of Vietnam - MOFA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.6.2.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:19::/48"
     ]
   }

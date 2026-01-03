@@ -1,9 +1,12 @@
 {
-  "asn": 150774,
-  "handle": "EXABYTELTD2-AS-AP",
-  "description": "Exabyte ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150774,
+  "metadata" : {
+    "handle" : "EXABYTELTD2-AS-AP",
+    "description" : "Exabyte ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.117.61.0/24",
       "103.7.120.0/23",
       "103.82.10.0/24",
@@ -21,7 +24,7 @@
       "103.238.114.0/24",
       "160.22.151.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:c5c0:2000::/46",
       "2401:c5c0:2004::/48",
       "2401:c5c0:2600::/44"

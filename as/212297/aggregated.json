@@ -1,12 +1,15 @@
 {
-  "asn": 212297,
-  "handle": "SERVICEWARE-AS",
-  "description": "Serviceware SE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212297,
+  "metadata" : {
+    "handle" : "SERVICEWARE-AS",
+    "description" : "Serviceware SE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.205.200.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:ed00::/29"
     ]
   }

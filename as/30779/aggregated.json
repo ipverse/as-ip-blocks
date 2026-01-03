@@ -1,15 +1,18 @@
 {
-  "asn": 30779,
-  "handle": "INETKR-AS",
-  "description": "TRK Cable TV LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30779,
+  "metadata" : {
+    "handle" : "INETKR-AS",
+    "description" : "TRK Cable TV LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.135.224.0/19",
       "91.200.72.0/24",
       "193.19.74.0/23",
       "193.34.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:203c::/48"
     ]
   }

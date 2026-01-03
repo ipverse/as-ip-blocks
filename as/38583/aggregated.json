@@ -1,9 +1,12 @@
 {
-  "asn": 38583,
-  "handle": "ASEIT-AS-AP",
-  "description": "ASE IT NETWORKS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38583,
+  "metadata" : {
+    "handle" : "ASEIT-AS-AP",
+    "description" : "ASE IT NETWORKS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.243.236.0/23",
       "103.24.240.0/23",
       "103.39.60.0/22",
@@ -20,6 +23,6 @@
       "175.184.221.0/24",
       "175.184.222.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

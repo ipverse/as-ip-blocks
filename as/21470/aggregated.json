@@ -1,12 +1,15 @@
 {
-  "asn": 21470,
-  "handle": "SWISP-AS",
-  "description": "South West Communications Group Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21470,
+  "metadata" : {
+    "handle" : "SWISP-AS",
+    "description" : "South West Communications Group Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.17.64.0/20",
       "91.102.0.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

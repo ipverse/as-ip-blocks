@@ -1,14 +1,17 @@
 {
-  "asn": 40980,
-  "handle": "TELEMATICA",
-  "description": "Anexia Cloud Solutions GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40980,
+  "metadata" : {
+    "handle" : "TELEMATICA",
+    "description" : "Anexia Cloud Solutions GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.208.192.0/21",
       "144.208.200.0/22",
       "185.50.234.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:aea0:dd3::/48",
       "2a01:aea0:dd4::/47",
       "2a01:aea0:df3::/48",

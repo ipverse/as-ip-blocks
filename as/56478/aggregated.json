@@ -1,9 +1,12 @@
 {
-  "asn": 56478,
-  "handle": "BCUBE-AS",
-  "description": "Hyperoptic Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56478,
+  "metadata" : {
+    "handle" : "BCUBE-AS",
+    "description" : "Hyperoptic Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.14.248.0/22",
       "37.156.72.0/22",
       "68.168.32.0/19",
@@ -28,7 +31,7 @@
       "188.214.8.0/21",
       "209.35.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:4b00::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 271638,
-  "handle": "CRONOS-TELECOM",
-  "description": "Cronos Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271638,
+  "metadata" : {
+    "handle" : "CRONOS-TELECOM",
+    "description" : "Cronos Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.16.92.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7ea8::/32"
     ]
   }

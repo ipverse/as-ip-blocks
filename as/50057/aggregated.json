@@ -1,14 +1,17 @@
 {
-  "asn": 50057,
-  "handle": "PARVAZ-SYSTEM",
-  "description": "Parvaz System Information Technology Company (Ltd)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50057,
+  "metadata" : {
+    "handle" : "PARVAZ-SYSTEM",
+    "description" : "Parvaz System Information Technology Company (Ltd)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.223.146.0/24",
       "185.161.112.0/22",
       "193.150.66.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:c200::/29",
       "2a0f:6400::/29"
     ]

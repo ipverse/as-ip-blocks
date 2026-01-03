@@ -1,9 +1,12 @@
 {
-  "asn": 8953,
-  "handle": "ASN-ORANGE-ROMANIA",
-  "description": "Orange Romania S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8953,
+  "metadata" : {
+    "handle" : "ASN-ORANGE-ROMANIA",
+    "description" : "Orange Romania S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.156.224.0/24",
       "37.251.208.0/20",
       "62.217.192.0/18",
@@ -39,7 +42,7 @@
       "194.105.20.0/24",
       "217.156.54.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:a58::/32"
     ]
   }

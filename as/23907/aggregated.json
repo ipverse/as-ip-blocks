@@ -1,13 +1,16 @@
 {
-  "asn": 23907,
-  "handle": "BSTPL-AS-AP",
-  "description": "Blue Sky Telecom Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23907,
+  "metadata" : {
+    "handle" : "BSTPL-AS-AP",
+    "description" : "Blue Sky Telecom Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.151.224.0/23",
       "103.247.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:f700::/32"
     ]
   }

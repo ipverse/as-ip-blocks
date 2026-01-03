@@ -1,14 +1,17 @@
 {
-  "asn": 273595,
-  "handle": "LASTNET-TELECOM",
-  "description": "Lastnet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273595,
+  "metadata" : {
+    "handle" : "LASTNET-TELECOM",
+    "description" : "Lastnet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.3.164.0/22",
       "38.56.200.0/22",
       "104.234.226.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:894c::/32"
     ]
   }

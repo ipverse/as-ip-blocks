@@ -1,9 +1,12 @@
 {
-  "asn": 134450,
-  "handle": "HOSTROYALETECHNOLOGIES-AS-AP",
-  "description": "HostRoyale Technologies Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134450,
+  "metadata" : {
+    "handle" : "HOSTROYALETECHNOLOGIES-AS-AP",
+    "description" : "HostRoyale Technologies Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.82.40.0/23",
       "45.82.48.0/22",
       "45.83.186.0/23",
@@ -31,7 +34,7 @@
       "194.150.72.0/24",
       "202.94.174.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:bd80::/30",
       "2a13:c44::/30"
     ]

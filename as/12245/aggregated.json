@@ -1,13 +1,16 @@
 {
-  "asn": 12245,
-  "handle": "PRMC-ASN",
-  "description": "Peninsula Regional Medical Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12245,
+  "metadata" : {
+    "handle" : "PRMC-ASN",
+    "description" : "Peninsula Regional Medical Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.67.1.0/24",
       "168.67.2.0/24",
       "168.67.7.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

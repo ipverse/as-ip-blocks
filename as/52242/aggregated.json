@@ -1,13 +1,16 @@
 {
-  "asn": 52242,
-  "handle": "YOTA-NICARAGUA",
-  "description": "Yota De Nicaragua",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52242,
+  "metadata" : {
+    "handle" : "YOTA-NICARAGUA",
+    "description" : "Yota De Nicaragua",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.98.32.0/24",
       "190.181.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:1640::/32"
     ]
   }

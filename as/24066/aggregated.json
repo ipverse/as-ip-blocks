@@ -1,13 +1,16 @@
 {
-  "asn": 24066,
-  "handle": "VNNIC-AS-VN",
-  "description": "Vietnam Internet Network Information Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24066,
+  "metadata" : {
+    "handle" : "VNNIC-AS-VN",
+    "description" : "Vietnam Internet Network Information Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "117.122.124.0/22",
       "203.119.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:dc8:c000::/47"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 20978,
-  "handle": "TT-MOBIL",
-  "description": "TT Mobil Iletisim Hizmetleri A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20978,
+  "metadata" : {
+    "handle" : "TT-MOBIL",
+    "description" : "TT Mobil Iletisim Hizmetleri A.S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.44.80.0/20",
       "5.46.0.0/15",
       "5.176.0.0/15",
@@ -18,7 +21,7 @@
       "188.41.0.0/16",
       "217.174.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2010:2000::/37",
       "2a02:2010:2800::/39",
       "2a02:2010:2a00::/42",

@@ -1,12 +1,15 @@
 {
-  "asn": 25735,
-  "handle": "SLOTH-NET",
-  "description": "Sloth Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25735,
+  "metadata" : {
+    "handle" : "SLOTH-NET",
+    "description" : "Sloth Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.139.24.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fb40::/40"
     ]
   }

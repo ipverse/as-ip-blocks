@@ -1,12 +1,15 @@
 {
-  "asn": 264597,
-  "handle": "VIA-SUL-PROVEDOR",
-  "description": "Via Sul Provedor de Acesso a Internet LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264597,
+  "metadata" : {
+    "handle" : "VIA-SUL-PROVEDOR",
+    "description" : "Via Sul Provedor de Acesso a Internet LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.59.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2234::/32"
     ]
   }

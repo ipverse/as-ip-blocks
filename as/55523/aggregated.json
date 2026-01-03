@@ -1,13 +1,16 @@
 {
-  "asn": 55523,
-  "handle": "TELETOK-AS-AP",
-  "description": "Telecommunications Tokelau Corporation - Teletok",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55523,
+  "metadata" : {
+    "handle" : "TELETOK-AS-AP",
+    "description" : "Telecommunications Tokelau Corporation - Teletok",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.96.24.0/22",
       "27.96.28.0/23",
       "27.96.31.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 4739,
-  "handle": "INTERNODE-AS",
-  "description": "iiNet Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4739,
+  "metadata" : {
+    "handle" : "INTERNODE-AS",
+    "description" : "iiNet Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.2.0.0/16",
       "58.6.0.0/20",
       "58.6.16.0/21",
@@ -152,7 +155,7 @@
       "220.235.0.0/16",
       "220.253.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:ab00::/48",
       "2001:4478:1312::/48",
       "2001:4478:1500::/40",

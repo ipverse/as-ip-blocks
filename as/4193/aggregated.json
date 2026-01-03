@@ -1,9 +1,12 @@
 {
-  "asn": 4193,
-  "handle": "WA-STATE-GOV",
-  "description": "State of Washington",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4193,
+  "metadata" : {
+    "handle" : "WA-STATE-GOV",
+    "description" : "State of Washington",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.55.96.0/19",
       "146.76.0.0/16",
       "147.55.0.0/16",
@@ -34,7 +37,7 @@
       "206.194.128.0/18",
       "209.74.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:9800::/24"
     ]
   }

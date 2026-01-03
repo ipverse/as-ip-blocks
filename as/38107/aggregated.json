@@ -1,9 +1,12 @@
 {
-  "asn": 38107,
-  "handle": "CDNETWORKS-AS",
-  "description": "CDNetworks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38107,
+  "metadata" : {
+    "handle" : "CDNETWORKS-AS",
+    "description" : "CDNetworks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.0.64.0/19",
       "14.0.99.0/24",
       "14.0.100.0/22",
@@ -34,6 +37,6 @@
       "141.11.9.0/24",
       "211.43.157.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

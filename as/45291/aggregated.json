@@ -1,13 +1,16 @@
 {
-  "asn": 45291,
-  "handle": "PTINET-AS-ID",
-  "description": "PT Prima Telekom Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45291,
+  "metadata" : {
+    "handle" : "PTINET-AS-ID",
+    "description" : "PT Prima Telekom Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.156.72.0/23",
       "203.153.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:80c0::/32"
     ]
   }

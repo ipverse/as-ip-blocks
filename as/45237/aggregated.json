@@ -1,13 +1,16 @@
 {
-  "asn": 45237,
-  "handle": "GLOBAL-MG-AS-AP",
-  "description": "Magicnet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45237,
+  "metadata" : {
+    "handle" : "GLOBAL-MG-AS-AP",
+    "description" : "Magicnet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.131.0.0/24",
       "202.131.4.0/24",
       "202.170.64.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

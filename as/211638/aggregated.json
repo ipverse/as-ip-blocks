@@ -1,12 +1,15 @@
 {
-  "asn": 211638,
-  "handle": "DNW-AS",
-  "description": "David Freyne",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211638,
+  "metadata" : {
+    "handle" : "DNW-AS",
+    "description" : "David Freyne",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.31.6.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:f0c::/48"
     ]
   }

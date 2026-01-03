@@ -1,12 +1,15 @@
 {
-  "asn": 57951,
-  "handle": "YACAST-FRANCE-AS",
-  "description": "Yacast France SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57951,
+  "metadata" : {
+    "handle" : "YACAST-FRANCE-AS",
+    "description" : "Yacast France SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.188.88.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:c340::/32"
     ]
   }

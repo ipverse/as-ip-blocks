@@ -1,13 +1,16 @@
 {
-  "asn": 7173,
-  "handle": "INSTITUTO-NACIONAL-ASTROFISICA",
-  "description": "Instituto Nacional de Astrofisica Optica y Electronica",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7173,
+  "metadata" : {
+    "handle" : "INSTITUTO-NACIONAL-ASTROFISICA",
+    "description" : "Instituto Nacional de Astrofisica Optica y Electronica",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.100.172.0/24",
       "200.23.5.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:c4:20::/48"
     ]
   }

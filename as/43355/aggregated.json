@@ -1,12 +1,15 @@
 {
-  "asn": 43355,
-  "handle": "GATWICK-AIRPORT",
-  "description": "GATWICK AIRPORT LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43355,
+  "metadata" : {
+    "handle" : "GATWICK-AIRPORT",
+    "description" : "GATWICK AIRPORT LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.111.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:7240::/29"
     ]
   }

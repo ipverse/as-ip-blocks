@@ -1,12 +1,15 @@
 {
-  "asn": 134467,
-  "handle": "SMPL-AS-AP",
-  "description": "Syangja Media",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134467,
+  "metadata" : {
+    "handle" : "SMPL-AS-AP",
+    "description" : "Syangja Media",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.160.82.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:b540::/48"
     ]
   }

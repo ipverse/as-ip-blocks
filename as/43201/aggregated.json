@@ -1,9 +1,12 @@
 {
-  "asn": 43201,
-  "handle": "TELEMATIKA-AS",
-  "description": "Telematika LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43201,
+  "metadata" : {
+    "handle" : "TELEMATIKA-AS",
+    "description" : "Telematika LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.213.155.0/24",
       "91.247.77.0/24",
       "91.247.79.0/24",
@@ -12,6 +15,6 @@
       "195.60.236.0/24",
       "195.158.220.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

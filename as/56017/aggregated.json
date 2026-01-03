@@ -1,14 +1,17 @@
 {
-  "asn": 56017,
-  "handle": "VITI-AS-PF",
-  "description": "VITI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56017,
+  "metadata" : {
+    "handle" : "VITI-AS-PF",
+    "description" : "VITI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.51.136.0/22",
       "43.249.176.0/22",
       "103.4.72.0/22",
       "113.197.68.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

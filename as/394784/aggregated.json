@@ -1,12 +1,15 @@
 {
-  "asn": 394784,
-  "handle": "MEEI-AS",
-  "description": "Massachusetts Eye and Ear Infirmary",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394784,
+  "metadata" : {
+    "handle" : "MEEI-AS",
+    "description" : "Massachusetts Eye and Ear Infirmary",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.107.242.0/24",
       "205.166.145.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

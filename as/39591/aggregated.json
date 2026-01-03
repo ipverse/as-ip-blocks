@@ -1,9 +1,12 @@
 {
-  "asn": 39591,
-  "handle": "GLOBAL-E",
-  "description": "Previder B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39591,
+  "metadata" : {
+    "handle" : "GLOBAL-E",
+    "description" : "Previder B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.84.4.0/22",
       "46.17.8.0/22",
       "77.94.240.0/21",
@@ -14,7 +17,7 @@
       "185.181.140.0/22",
       "193.23.113.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:668::/48",
       "2001:678:c30::/48",
       "2a00:1280::/32",

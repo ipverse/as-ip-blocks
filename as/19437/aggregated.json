@@ -1,9 +1,12 @@
 {
-  "asn": 19437,
-  "handle": "SS-ASH",
-  "description": "SECURED SERVERS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19437,
+  "metadata" : {
+    "handle" : "SS-ASH",
+    "description" : "SECURED SERVERS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.8.63.0/24",
       "14.102.235.0/24",
       "23.26.243.0/24",
@@ -100,7 +103,7 @@
       "216.185.60.0/24",
       "216.185.62.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:6003:2303::/48",
       "2607:ff00:300::/40"
     ]

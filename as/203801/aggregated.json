@@ -1,10 +1,13 @@
 {
-  "asn": 203801,
-  "handle": "MILLER",
-  "description": "Jason Miller",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 203801,
+  "metadata" : {
+    "handle" : "MILLER",
+    "description" : "Jason Miller",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a06:e881:4400::/48"
     ]
   }

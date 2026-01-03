@@ -1,12 +1,15 @@
 {
-  "asn": 36944,
-  "handle": "UBUNTU-UNICAST-AS",
-  "description": "Ubuntunet Alliance For Research and Education Networking",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36944,
+  "metadata" : {
+    "handle" : "UBUNTU-UNICAST-AS",
+    "description" : "Ubuntunet Alliance For Research and Education Networking",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "196.32.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43f8:20::/48"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 61763,
-  "handle": "POXLEY-PROVEDOR-INTERNET",
-  "description": "Poxley Provedor de Internet Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61763,
+  "metadata" : {
+    "handle" : "POXLEY-PROVEDOR-INTERNET",
+    "description" : "Poxley Provedor de Internet Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.85.168.0/22",
       "201.159.72.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:18ec::/32"
     ]
   }

@@ -1,10 +1,13 @@
 {
-  "asn": 215310,
-  "handle": "USERCLOUD",
-  "description": "Pfcloud UG (haftungsbeschrankt)",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 215310,
+  "metadata" : {
+    "handle" : "USERCLOUD",
+    "description" : "Pfcloud UG (haftungsbeschrankt)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a11:f080::/32"
     ]
   }

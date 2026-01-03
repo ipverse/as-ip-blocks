@@ -1,12 +1,15 @@
 {
-  "asn": 52422,
-  "handle": "VELCO-GLOBALNETWORK",
-  "description": "Velco Globalnetwork",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52422,
+  "metadata" : {
+    "handle" : "VELCO-GLOBALNETWORK",
+    "description" : "Velco Globalnetwork",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.115.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:ce00::/32"
     ]
   }

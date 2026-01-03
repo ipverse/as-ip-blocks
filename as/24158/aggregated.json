@@ -1,9 +1,12 @@
 {
-  "asn": 24158,
-  "handle": "TAIWANMOBILE-AS",
-  "description": "Taiwan Mobile Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24158,
+  "metadata" : {
+    "handle" : "TAIWANMOBILE-AS",
+    "description" : "Taiwan Mobile Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.214.0.0/20",
       "49.214.254.0/23",
       "49.215.0.0/17",
@@ -70,7 +73,7 @@
       "124.29.181.0/24",
       "124.29.184.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:7500:400::/45",
       "2402:7500:468::/45",
       "2402:7500:470::/44",

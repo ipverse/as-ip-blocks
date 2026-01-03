@@ -1,9 +1,12 @@
 {
-  "asn": 5617,
-  "handle": "TPNET",
-  "description": "Orange Polska Spolka Akcyjna",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5617,
+  "metadata" : {
+    "handle" : "TPNET",
+    "description" : "Orange Polska Spolka Akcyjna",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.184.0.0/15",
       "31.60.0.0/14",
       "37.47.0.0/16",
@@ -34,7 +37,7 @@
       "217.96.0.0/14",
       "217.116.96.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:f40::/29",
       "2a01:1000::/21"
     ]

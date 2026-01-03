@@ -1,9 +1,12 @@
 {
-  "asn": 57013,
-  "handle": "EURASIA-STAR-AS",
-  "description": "Eurasia-Star LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57013,
+  "metadata" : {
+    "handle" : "EURASIA-STAR-AS",
+    "description" : "Eurasia-Star LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.180.16.0/24",
       "31.222.255.0/24",
       "45.153.50.0/23",
@@ -32,6 +35,6 @@
       "194.26.220.0/24",
       "213.109.97.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

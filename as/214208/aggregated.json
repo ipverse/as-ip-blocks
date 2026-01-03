@@ -1,9 +1,12 @@
 {
-  "asn": 214208,
-  "handle": "IPELIS",
-  "description": "Elisteka UAB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214208,
+  "metadata" : {
+    "handle" : "IPELIS",
+    "description" : "Elisteka UAB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.56.225.0/24",
       "31.57.127.0/24",
       "31.185.107.0/24",
@@ -30,6 +33,6 @@
       "212.116.226.0/24",
       "213.218.215.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

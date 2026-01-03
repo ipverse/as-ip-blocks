@@ -1,13 +1,16 @@
 {
-  "asn": 38000,
-  "handle": "CRISIL-AS",
-  "description": "Crisil Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38000,
+  "metadata" : {
+    "handle" : "CRISIL-AS",
+    "description" : "Crisil Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.91.116.0/23",
       "203.175.4.0/24",
       "203.175.6.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

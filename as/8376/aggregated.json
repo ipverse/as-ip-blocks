@@ -1,9 +1,12 @@
 {
-  "asn": 8376,
-  "handle": "JORDAN-DATA-COMMUNICATIONS",
-  "description": "Jordan Data Communications Company LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8376,
+  "metadata" : {
+    "handle" : "JORDAN-DATA-COMMUNICATIONS",
+    "description" : "Jordan Data Communications Company LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.202.64.0/18",
       "46.185.128.0/17",
       "79.173.192.0/18",
@@ -18,7 +21,7 @@
       "213.186.160.0/19",
       "217.23.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:9700::/29"
     ]
   }

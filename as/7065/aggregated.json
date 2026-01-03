@@ -1,9 +1,12 @@
 {
-  "asn": 7065,
-  "handle": "SNIC",
-  "description": "Sonic.net LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7065,
+  "metadata" : {
+    "handle" : "SNIC",
+    "description" : "Sonic.net LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.0.2.0/23",
       "50.0.8.0/22",
       "50.0.208.0/20",
@@ -35,7 +38,7 @@
       "208.201.224.0/19",
       "209.204.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:5a8:200::/40",
       "2607:43c0::/33"
     ]

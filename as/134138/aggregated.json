@@ -1,13 +1,16 @@
 {
-  "asn": 134138,
-  "handle": "ASPL-AS-AP",
-  "description": "NEXTDC Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134138,
+  "metadata" : {
+    "handle" : "ASPL-AS-AP",
+    "description" : "NEXTDC Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.115.20.0/22",
       "103.55.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:9400::/48"
     ]
   }

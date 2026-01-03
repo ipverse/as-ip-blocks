@@ -1,11 +1,14 @@
 {
-  "asn": 24380,
-  "handle": "SOHONET-AP",
-  "description": "Sohonet Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24380,
+  "metadata" : {
+    "handle" : "SOHONET-AP",
+    "description" : "Sohonet Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.83.192.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

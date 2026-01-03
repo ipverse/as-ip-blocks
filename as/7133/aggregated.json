@@ -1,12 +1,15 @@
 {
-  "asn": 7133,
-  "handle": "NYPP-AS",
-  "description": "New York Independent System Operator Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7133,
+  "metadata" : {
+    "handle" : "NYPP-AS",
+    "description" : "New York Independent System Operator Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.152.46.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:44::/48"
     ]
   }

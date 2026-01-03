@@ -1,9 +1,12 @@
 {
-  "asn": 10022,
-  "handle": "DSLAK-AS-AP",
-  "description": "Datacom Group Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10022,
+  "metadata" : {
+    "handle" : "DSLAK-AS-AP",
+    "description" : "Datacom Group Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.20.136.0/22",
       "103.88.230.0/23",
       "103.224.107.0/24",
@@ -27,6 +30,6 @@
       "203.214.200.0/22",
       "210.55.5.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

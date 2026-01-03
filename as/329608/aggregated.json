@@ -1,12 +1,15 @@
 {
-  "asn": 329608,
-  "handle": "NETCLICK",
-  "description": "NetClick",
-  "subnets": {
-    "ipv4": [
+  "asn" : 329608,
+  "metadata" : {
+    "handle" : "NETCLICK",
+    "description" : "NetClick",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.204.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:70c0::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 150284,
-  "handle": "IDNIC-PASTINET-AS-ID",
-  "description": "PT Pasti Mandiri Solusi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150284,
+  "metadata" : {
+    "handle" : "IDNIC-PASTINET-AS-ID",
+    "description" : "PT Pasti Mandiri Solusi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.43.164.0/23",
       "203.96.230.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

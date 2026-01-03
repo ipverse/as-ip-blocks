@@ -1,11 +1,14 @@
 {
-  "asn": 399999,
-  "handle": "LYON-BV-01",
-  "description": "LYON COLLEGE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399999,
+  "metadata" : {
+    "handle" : "LYON-BV-01",
+    "description" : "LYON COLLEGE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.247.98.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

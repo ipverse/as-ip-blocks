@@ -1,12 +1,15 @@
 {
-  "asn": 62574,
-  "handle": "DMBGP",
-  "description": "Data Management",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62574,
+  "metadata" : {
+    "handle" : "DMBGP",
+    "description" : "Data Management",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.111.118.0/23",
       "64.209.50.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

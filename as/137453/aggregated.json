@@ -1,9 +1,12 @@
 {
-  "asn": 137453,
-  "handle": "ORANGE2-AS-AP",
-  "description": "Orange Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137453,
+  "metadata" : {
+    "handle" : "ORANGE2-AS-AP",
+    "description" : "Orange Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.146.0/24",
       "36.50.179.0/24",
       "103.81.28.0/24",
@@ -26,7 +29,7 @@
       "203.223.89.0/24",
       "210.56.144.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:4c0:a::/47",
       "2404:4c0:c::/47"
     ]

@@ -1,11 +1,14 @@
 {
-  "asn": 46880,
-  "handle": "CITY-ASN",
-  "description": "City of Irvine",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46880,
+  "metadata" : {
+    "handle" : "CITY-ASN",
+    "description" : "City of Irvine",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.194.45.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

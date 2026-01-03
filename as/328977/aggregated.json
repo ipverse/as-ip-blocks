@@ -1,9 +1,12 @@
 {
-  "asn": 328977,
-  "handle": "WAVEX",
-  "description": "Wavex Internet Service Provider LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328977,
+  "metadata" : {
+    "handle" : "WAVEX",
+    "description" : "Wavex Internet Service Provider LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.206.164.0/22",
       "102.206.168.0/21",
       "102.207.160.0/20",
@@ -13,7 +16,7 @@
       "102.210.12.0/22",
       "102.217.156.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:6300::/32"
     ]
   }

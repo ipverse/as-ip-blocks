@@ -1,9 +1,12 @@
 {
-  "asn": 20384,
-  "handle": "NWLRBD",
-  "description": "NewellRubbermaid Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20384,
+  "metadata" : {
+    "handle" : "NWLRBD",
+    "description" : "NewellRubbermaid Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.176.24.0/23",
       "199.59.0.0/22",
       "199.59.4.0/23",
@@ -12,6 +15,6 @@
       "205.153.120.0/23",
       "205.153.122.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

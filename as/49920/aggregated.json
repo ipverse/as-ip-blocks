@@ -1,14 +1,17 @@
 {
-  "asn": 49920,
-  "handle": "FLOWBIRD",
-  "description": "FLOWBIRD SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49920,
+  "metadata" : {
+    "handle" : "FLOWBIRD",
+    "description" : "FLOWBIRD SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.149.60.0/22",
       "185.234.53.0/24",
       "185.234.54.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:c0c0::/29"
     ]
   }

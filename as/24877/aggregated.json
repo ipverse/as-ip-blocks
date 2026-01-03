@@ -1,9 +1,12 @@
 {
-  "asn": 24877,
-  "handle": "INIT",
-  "description": "UAB INIT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24877,
+  "metadata" : {
+    "handle" : "INIT",
+    "description" : "UAB INIT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.55.24.0/21",
       "84.55.38.0/23",
       "84.55.40.0/21",
@@ -26,7 +29,7 @@
       "217.147.39.0/24",
       "217.147.42.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7c80:8000::/33"
     ]
   }

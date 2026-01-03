@@ -1,12 +1,15 @@
 {
-  "asn": 152117,
-  "handle": "EDGEVANAINC-AS-AP",
-  "description": "Edgevana",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152117,
+  "metadata" : {
+    "handle" : "EDGEVANAINC-AS-AP",
+    "description" : "Edgevana",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.2.0/24",
       "80.73.135.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

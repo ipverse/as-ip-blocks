@@ -1,12 +1,15 @@
 {
-  "asn": 11440,
-  "handle": "NETSVILLE",
-  "description": "Netsville Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11440,
+  "metadata" : {
+    "handle" : "NETSVILLE",
+    "description" : "Netsville Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.55.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:c380::/32"
     ]
   }

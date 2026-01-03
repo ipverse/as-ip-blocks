@@ -1,12 +1,15 @@
 {
-  "asn": 140879,
-  "handle": "CRESCENT-AS-AP",
-  "description": "Crescent Network Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140879,
+  "metadata" : {
+    "handle" : "CRESCENT-AS-AP",
+    "description" : "Crescent Network Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.152.218.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8ca0::/32"
     ]
   }

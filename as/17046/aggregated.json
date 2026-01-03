@@ -1,9 +1,12 @@
 {
-  "asn": 17046,
-  "handle": "ACTION-COMM",
-  "description": "Action Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17046,
+  "metadata" : {
+    "handle" : "ACTION-COMM",
+    "description" : "Action Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.163.62.0/24",
       "63.166.162.0/23",
       "64.187.80.0/24",
@@ -12,6 +15,6 @@
       "205.243.252.0/22",
       "208.33.80.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

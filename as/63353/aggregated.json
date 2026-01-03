@@ -1,12 +1,15 @@
 {
-  "asn": 63353,
-  "handle": "CP-TEL",
-  "description": "Pelican Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63353,
+  "metadata" : {
+    "handle" : "CP-TEL",
+    "description" : "Pelican Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.243.160.0/20",
       "142.0.72.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

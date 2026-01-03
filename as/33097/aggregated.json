@@ -1,9 +1,12 @@
 {
-  "asn": 33097,
-  "handle": "VOLOCU",
-  "description": "Volo Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33097,
+  "metadata" : {
+    "handle" : "VOLOCU",
+    "description" : "Volo Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.65.223.0/24",
       "38.65.236.0/23",
       "38.143.252.0/23",
@@ -11,6 +14,6 @@
       "205.147.240.0/20",
       "208.88.200.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

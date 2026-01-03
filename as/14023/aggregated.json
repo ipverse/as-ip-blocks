@@ -1,11 +1,14 @@
 {
-  "asn": 14023,
-  "handle": "WILD",
-  "description": "Minnesota Wild",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14023,
+  "metadata" : {
+    "handle" : "WILD",
+    "description" : "Minnesota Wild",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.225.150.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

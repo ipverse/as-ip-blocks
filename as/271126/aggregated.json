@@ -1,12 +1,15 @@
 {
-  "asn": 271126,
-  "handle": "ONDANET-PE",
-  "description": "ONDANET PE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271126,
+  "metadata" : {
+    "handle" : "ONDANET-PE",
+    "description" : "ONDANET PE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.42.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:76a8::/32"
     ]
   }

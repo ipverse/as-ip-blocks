@@ -1,9 +1,12 @@
 {
-  "asn": 23727,
-  "handle": "MANSOL-AS-AU",
-  "description": "Managed Solutions Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23727,
+  "metadata" : {
+    "handle" : "MANSOL-AS-AU",
+    "description" : "Managed Solutions Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.189.148.0/24",
       "202.94.32.0/20",
       "203.24.63.0/24",
@@ -11,6 +14,6 @@
       "203.27.44.0/24",
       "203.55.134.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

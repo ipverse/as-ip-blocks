@@ -1,11 +1,14 @@
 {
-  "asn": 50192,
-  "handle": "RO-AEP-NET",
-  "description": "Autoritatea Electorala Permanenta",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50192,
+  "metadata" : {
+    "handle" : "RO-AEP-NET",
+    "description" : "Autoritatea Electorala Permanenta",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.75.52.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

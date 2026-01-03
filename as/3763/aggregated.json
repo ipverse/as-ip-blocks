@@ -1,12 +1,15 @@
 {
-  "asn": 3763,
-  "handle": "AS-BELD-1",
-  "description": "BELD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3763,
+  "metadata" : {
+    "handle" : "AS-BELD-1",
+    "description" : "BELD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.233.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:808:8000::/40"
     ]
   }

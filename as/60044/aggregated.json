@@ -1,12 +1,15 @@
 {
-  "asn": 60044,
-  "handle": "EMNIFY-NET",
-  "description": "EMnify GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60044,
+  "metadata" : {
+    "handle" : "EMNIFY-NET",
+    "description" : "EMnify GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.57.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:dec0::/29"
     ]
   }

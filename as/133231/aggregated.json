@@ -1,11 +1,14 @@
 {
-  "asn": 133231,
-  "handle": "GSTN-AS",
-  "description": "Goods And Services Tax Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133231,
+  "metadata" : {
+    "handle" : "GSTN-AS",
+    "description" : "Goods And Services Tax Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.83.76.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

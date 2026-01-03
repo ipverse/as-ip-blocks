@@ -1,9 +1,12 @@
 {
-  "asn": 23969,
-  "handle": "TOT-NET",
-  "description": "TOT Public Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23969,
+  "metadata" : {
+    "handle" : "TOT-NET",
+    "description" : "TOT Public Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.0.128.0/17",
       "1.1.128.0/17",
       "1.2.128.0/17",
@@ -21,7 +24,7 @@
       "203.113.0.0/17",
       "203.114.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:ec0:800::/40"
     ]
   }

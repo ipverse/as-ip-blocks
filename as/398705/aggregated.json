@@ -1,13 +1,16 @@
 {
-  "asn": 398705,
-  "handle": "CENSYS-ARIN-02",
-  "description": "Censys Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398705,
+  "metadata" : {
+    "handle" : "CENSYS-ARIN-02",
+    "description" : "Censys Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.94.145.0/24",
       "167.94.146.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:80d:1002::/48",
       "2602:80d:1005::/48"
     ]

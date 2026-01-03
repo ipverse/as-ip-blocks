@@ -1,10 +1,13 @@
 {
-  "asn": 3559,
-  "handle": "KORNET-AS",
-  "description": "Korea Telecom",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 3559,
+  "metadata" : {
+    "handle" : "KORNET-AS",
+    "description" : "Korea Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:e60::/34",
       "2001:e60:4000::/36",
       "2001:e60:8000::/34",

@@ -1,14 +1,17 @@
 {
-  "asn": 8122,
-  "handle": "DQNAS",
-  "description": "Duquesne University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8122,
+  "metadata" : {
+    "handle" : "DQNAS",
+    "description" : "Duquesne University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.190.0.0/16",
       "192.88.240.0/24",
       "192.135.79.0/24",
       "192.135.213.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

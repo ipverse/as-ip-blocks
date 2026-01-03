@@ -1,9 +1,12 @@
 {
-  "asn": 134835,
-  "handle": "SNL-HK",
-  "description": "Starry Network Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134835,
+  "metadata" : {
+    "handle" : "SNL-HK",
+    "description" : "Starry Network Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.236.73.0/24",
       "23.236.74.0/24",
       "45.83.237.0/24",
@@ -29,7 +32,7 @@
       "203.76.244.0/23",
       "203.76.246.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:e9e0:4000::/36",
       "2403:ad80:60::/45",
       "2403:ad80:80::/44",

@@ -1,12 +1,15 @@
 {
-  "asn": 56255,
-  "handle": "TRANSTECH-AS-ID",
-  "description": "PT Transtech Communication Media",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56255,
+  "metadata" : {
+    "handle" : "TRANSTECH-AS-ID",
+    "description" : "PT Transtech Communication Media",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.10.170.0/23",
       "103.224.76.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

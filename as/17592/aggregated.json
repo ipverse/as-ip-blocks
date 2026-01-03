@@ -1,9 +1,12 @@
 {
-  "asn": 17592,
-  "handle": "IBK-AS",
-  "description": "Industrial Bank of Korea",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17592,
+  "metadata" : {
+    "handle" : "IBK-AS",
+    "description" : "Industrial Bank of Korea",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.253.111.0/24",
       "114.52.78.0/24",
       "203.227.232.0/24",
@@ -11,6 +14,6 @@
       "203.235.68.0/24",
       "203.235.72.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

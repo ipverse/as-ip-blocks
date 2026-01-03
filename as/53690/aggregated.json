@@ -1,9 +1,12 @@
 {
-  "asn": 53690,
-  "handle": "AVAILITY-1",
-  "description": "Availity",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53690,
+  "metadata" : {
+    "handle" : "AVAILITY-1",
+    "description" : "Availity",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.24.240.0/24",
       "199.116.184.0/23",
       "199.116.187.0/24",
@@ -12,6 +15,6 @@
       "208.79.132.0/23",
       "208.79.134.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

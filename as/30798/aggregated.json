@@ -1,16 +1,19 @@
 {
-  "asn": 30798,
-  "handle": "TNNET-AS",
-  "description": "TNNet Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30798,
+  "metadata" : {
+    "handle" : "TNNET-AS",
+    "description" : "TNNet Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.154.68.0/22",
       "62.204.0.0/19",
       "89.236.64.0/18",
       "213.185.32.0/19",
       "217.112.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:40e8::/32"
     ]
   }

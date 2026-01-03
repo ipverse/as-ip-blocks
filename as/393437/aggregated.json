@@ -1,9 +1,12 @@
 {
-  "asn": 393437,
-  "handle": "KLAYER",
-  "description": "KLAYER LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393437,
+  "metadata" : {
+    "handle" : "KLAYER",
+    "description" : "KLAYER LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.64.76.0/23",
       "38.64.78.0/24",
       "38.84.77.0/24",
@@ -12,6 +15,6 @@
       "154.48.230.0/24",
       "172.98.20.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 131314,
-  "handle": "CBC-AS-AP",
-  "description": "CBC Tech International Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131314,
+  "metadata" : {
+    "handle" : "CBC-AS-AP",
+    "description" : "CBC Tech International Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.28.144.0/24",
       "103.28.146.0/24",
       "103.30.48.0/22",
@@ -26,7 +29,7 @@
       "202.57.204.0/23",
       "202.65.96.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:a2a0::/32"
     ]
   }

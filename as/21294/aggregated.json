@@ -1,9 +1,12 @@
 {
-  "asn": 21294,
-  "handle": "IDILIS",
-  "description": "CLOUDSYS TELECOM SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21294,
+  "metadata" : {
+    "handle" : "IDILIS",
+    "description" : "CLOUDSYS TELECOM SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.97.0.0/20",
       "84.239.19.0/24",
       "84.239.20.0/22",
@@ -14,6 +17,6 @@
       "217.156.85.0/24",
       "217.156.99.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

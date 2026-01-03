@@ -1,13 +1,16 @@
 {
-  "asn": 46793,
-  "handle": "REALLYME",
-  "description": "ReallyMe LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46793,
+  "metadata" : {
+    "handle" : "REALLYME",
+    "description" : "ReallyMe LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.150.240.0/24",
       "204.238.70.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd75:1::/48",
       "2602:fd75:2::/48"
     ]

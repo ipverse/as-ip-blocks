@@ -1,9 +1,12 @@
 {
-  "asn": 38750,
-  "handle": "TDS-AS-ID",
-  "description": "Telemedia Dinamika Sarana PT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38750,
+  "metadata" : {
+    "handle" : "TDS-AS-ID",
+    "description" : "Telemedia Dinamika Sarana PT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.10.223.0/24",
       "103.136.24.0/22",
       "103.136.28.0/24",
@@ -18,7 +21,7 @@
       "121.50.39.0/24",
       "202.179.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:880::/48",
       "2404:880:10::/48",
       "2404:880:12::/48"

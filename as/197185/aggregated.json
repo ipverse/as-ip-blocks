@@ -1,12 +1,15 @@
 {
-  "asn": 197185,
-  "handle": "ASTLAN",
-  "description": "LLC T-Lan",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197185,
+  "metadata" : {
+    "handle" : "ASTLAN",
+    "description" : "LLC T-Lan",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.213.102.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2808:2501::/48"
     ]
   }

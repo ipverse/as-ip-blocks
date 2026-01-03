@@ -1,12 +1,15 @@
 {
-  "asn": 7365,
-  "handle": "CENTROIN-PROVEDOR-SERV",
-  "description": "CENTROIN PROVEDOR DE SERV. INTERNET. LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7365,
+  "metadata" : {
+    "handle" : "CENTROIN-PROVEDOR-SERV",
+    "description" : "CENTROIN PROVEDOR DE SERV. INTERNET. LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.225.62.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:92ac::/32"
     ]
   }

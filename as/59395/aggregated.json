@@ -1,9 +1,12 @@
 {
-  "asn": 59395,
-  "handle": "EFAR-AS",
-  "description": "Southern Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59395,
+  "metadata" : {
+    "handle" : "EFAR-AS",
+    "description" : "Southern Communications Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.133.16.0/21",
       "5.175.59.0/24",
       "5.175.61.0/24",
@@ -27,7 +30,7 @@
       "217.119.128.0/24",
       "217.119.137.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:73c0::/32",
       "2a05:4b80::/29",
       "2a05:4bc0::/29"

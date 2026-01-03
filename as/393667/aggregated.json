@@ -1,14 +1,17 @@
 {
-  "asn": 393667,
-  "handle": "FARSIGHT",
-  "description": "Farsight Security Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393667,
+  "metadata" : {
+    "handle" : "FARSIGHT",
+    "description" : "Farsight Security Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.244.13.0/24",
       "104.244.14.0/24",
       "192.160.237.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:11c:f004::/48",
       "2620:11c:f008::/48",
       "2620:11c:f00d::/48"

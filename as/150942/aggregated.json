@@ -1,11 +1,14 @@
 {
-  "asn": 150942,
-  "handle": "IDNIC-LAMBDA-AS-ID",
-  "description": "LAMBDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150942,
+  "metadata" : {
+    "handle" : "IDNIC-LAMBDA-AS-ID",
+    "description" : "LAMBDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.105.56.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 197039,
-  "handle": "NOMURA-NET1-AS1",
-  "description": "Nomura International Plc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197039,
+  "metadata" : {
+    "handle" : "NOMURA-NET1-AS1",
+    "description" : "Nomura International Plc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.119.25.0/24",
       "85.119.26.0/23",
       "85.119.28.0/24",
@@ -22,6 +25,6 @@
       "147.62.230.0/23",
       "194.36.240.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

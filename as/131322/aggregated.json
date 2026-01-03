@@ -1,9 +1,12 @@
 {
-  "asn": 131322,
-  "handle": "YTCL-AS-AP",
-  "description": "Yatanarpon Teleport Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131322,
+  "metadata" : {
+    "handle" : "YTCL-AS-AP",
+    "description" : "Yatanarpon Teleport Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.4.64.0/24",
       "61.4.66.0/23",
       "122.248.107.0/24",
@@ -11,7 +14,7 @@
       "203.81.167.0/24",
       "203.81.170.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:ea00::/32"
     ]
   }

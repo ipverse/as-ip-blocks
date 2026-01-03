@@ -1,9 +1,12 @@
 {
-  "asn": 12883,
-  "handle": "UCOMLINE",
-  "description": "PRIVATE JOINT-STOCK COMPANY FARLEP-INVEST",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12883,
+  "metadata" : {
+    "handle" : "UCOMLINE",
+    "description" : "PRIVATE JOINT-STOCK COMPANY FARLEP-INVEST",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.221.32.0/19",
       "78.25.40.0/22",
       "78.111.214.0/23",
@@ -11,7 +14,7 @@
       "213.130.0.0/19",
       "213.159.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:280::/32"
     ]
   }

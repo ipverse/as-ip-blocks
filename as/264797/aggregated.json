@@ -1,9 +1,12 @@
 {
-  "asn": 264797,
-  "handle": "CABLENET",
-  "description": "Cablenet S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264797,
+  "metadata" : {
+    "handle" : "CABLENET",
+    "description" : "Cablenet S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.110.248.0/23",
       "190.110.252.0/24",
       "200.50.166.0/24",
@@ -17,6 +20,6 @@
       "200.123.55.0/24",
       "206.221.80.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

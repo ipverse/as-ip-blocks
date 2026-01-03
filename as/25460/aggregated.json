@@ -1,9 +1,12 @@
 {
-  "asn": 25460,
-  "handle": "TNP-AS",
-  "description": "The Networking People (TNP) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25460,
+  "metadata" : {
+    "handle" : "TNP-AS",
+    "description" : "The Networking People (TNP) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.61.120.0/21",
       "88.214.36.0/22",
       "185.118.28.0/22",
@@ -13,7 +16,7 @@
       "193.35.144.0/24",
       "193.161.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5ac0::/32"
     ]
   }

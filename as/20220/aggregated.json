@@ -1,14 +1,17 @@
 {
-  "asn": 20220,
-  "handle": "INDIAN-WELLS",
-  "description": "Indian Wells Valley ISP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20220,
+  "metadata" : {
+    "handle" : "INDIAN-WELLS",
+    "description" : "Indian Wells Valley ISP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.176.144.0/24",
       "97.64.77.0/24",
       "158.51.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc9d::/36"
     ]
   }

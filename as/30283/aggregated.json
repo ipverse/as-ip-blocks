@@ -1,9 +1,12 @@
 {
-  "asn": 30283,
-  "handle": "MOFO",
-  "description": "Morrison \u0026 Foerster",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30283,
+  "metadata" : {
+    "handle" : "MOFO",
+    "description" : "Morrison & Foerster",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.5.146.0/24",
       "204.130.0.0/23",
       "204.130.3.0/24",
@@ -11,6 +14,6 @@
       "204.130.6.0/24",
       "205.132.121.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,16 +1,19 @@
 {
-  "asn": 18139,
-  "handle": "HISOL-CSV",
-  "description": "Hitachi Solutions Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18139,
+  "metadata" : {
+    "handle" : "HISOL-CSV",
+    "description" : "Hitachi Solutions Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "133.108.42.0/23",
       "133.108.58.0/24",
       "133.108.61.0/24",
       "133.108.63.0/24",
       "219.109.5.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:8e00::/32"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 18435,
-  "handle": "THEJUNCTION",
-  "description": "The Junction Internet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18435,
+  "metadata" : {
+    "handle" : "THEJUNCTION",
+    "description" : "The Junction Internet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.41.24.0/23",
       "65.168.64.0/21",
       "65.172.244.0/22",
       "96.46.80.0/20",
       "207.41.124.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 12347,
-  "handle": "VIRTUALTEC",
-  "description": "Virtualtec Solutions AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12347,
+  "metadata" : {
+    "handle" : "VIRTUALTEC",
+    "description" : "Virtualtec Solutions AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.189.64.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:410::/32"
     ]
   }

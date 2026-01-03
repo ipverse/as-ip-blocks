@@ -1,9 +1,12 @@
 {
-  "asn": 22667,
-  "handle": "VISTA",
-  "description": "Vista Broadband Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22667,
+  "metadata" : {
+    "handle" : "VISTA",
+    "description" : "Vista Broadband Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.59.192.0/20",
       "69.39.240.0/20",
       "173.213.192.0/20",
@@ -11,7 +14,7 @@
       "192.40.208.0/21",
       "206.176.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:8f80::/32"
     ]
   }

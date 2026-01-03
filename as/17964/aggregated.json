@@ -1,9 +1,12 @@
 {
-  "asn": 17964,
-  "handle": "DXTNET",
-  "description": "Beijing Dian-Xin-Tong Network Technologies Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17964,
+  "metadata" : {
+    "handle" : "DXTNET",
+    "description" : "Beijing Dian-Xin-Tong Network Technologies Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "60.253.128.0/17",
       "115.182.17.0/24",
       "115.182.19.0/24",
@@ -82,6 +85,6 @@
       "220.113.0.0/19",
       "220.113.32.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

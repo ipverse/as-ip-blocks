@@ -1,9 +1,12 @@
 {
-  "asn": 58540,
-  "handle": "CHINATELECOM-SHANDONG-JINAN-IDC",
-  "description": "Jinan 250000",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58540,
+  "metadata" : {
+    "handle" : "CHINATELECOM-SHANDONG-JINAN-IDC",
+    "description" : "Jinan 250000",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.56.9.0/24",
       "58.56.66.0/24",
       "58.56.108.0/24",
@@ -38,7 +41,7 @@
       "222.175.102.0/24",
       "222.175.136.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:945:4000::/38",
       "240e:946::/32"
     ]

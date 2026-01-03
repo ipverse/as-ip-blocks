@@ -1,14 +1,17 @@
 {
-  "asn": 7500,
-  "handle": "M-ROOT-DNS",
-  "description": "WIDE Project",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7500,
+  "metadata" : {
+    "handle" : "M-ROOT-DNS",
+    "description" : "WIDE Project",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.50.45.0/24",
       "202.12.27.0/24",
       "202.13.183.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:dc3::/32"
     ]
   }

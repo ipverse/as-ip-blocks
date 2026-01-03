@@ -1,16 +1,19 @@
 {
-  "asn": 262374,
-  "handle": "FAZZY-INTERNET",
-  "description": "FAZZY INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262374,
+  "metadata" : {
+    "handle" : "FAZZY-INTERNET",
+    "description" : "FAZZY INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.99.244.0/22",
       "170.254.116.0/22",
       "177.39.24.0/22",
       "177.128.160.0/21",
       "179.127.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:878::/32"
     ]
   }

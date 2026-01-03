@@ -1,11 +1,14 @@
 {
-  "asn": 9701,
-  "handle": "VIAWEB-AS",
-  "description": "viaweb",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9701,
+  "metadata" : {
+    "handle" : "VIAWEB-AS",
+    "description" : "viaweb",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.194.252.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

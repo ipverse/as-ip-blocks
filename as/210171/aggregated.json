@@ -1,12 +1,15 @@
 {
-  "asn": 210171,
-  "handle": "AVP-TECHNOLOGY-AS",
-  "description": "LLC AVP-Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210171,
+  "metadata" : {
+    "handle" : "AVP-TECHNOLOGY-AS",
+    "description" : "LLC AVP-Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.137.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:4144:1::/48"
     ]
   }

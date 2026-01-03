@@ -1,13 +1,16 @@
 {
-  "asn": 28800,
-  "handle": "MIREA",
-  "description": "Federal State Budgetary Educational Institution of Higher Education Mirea - Russian Technological University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28800,
+  "metadata" : {
+    "handle" : "MIREA",
+    "description" : "Federal State Budgetary Educational Institution of Higher Education Mirea - Russian Technological University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.142.160.0/23",
       "193.41.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:b08:14::/48"
     ]
   }

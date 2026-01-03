@@ -1,15 +1,18 @@
 {
-  "asn": 14523,
-  "handle": "GEA-CONNECT",
-  "description": "Greeneville Energy Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14523,
+  "metadata" : {
+    "handle" : "GEA-CONNECT",
+    "description" : "Greeneville Energy Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.20.240.0/21",
       "161.115.32.0/20",
       "199.188.28.0/22",
       "208.69.88.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:5640::/32"
     ]
   }

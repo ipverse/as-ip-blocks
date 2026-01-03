@@ -1,11 +1,14 @@
 {
-  "asn": 20391,
-  "handle": "PRGPARKING-DOMAIN",
-  "description": "The Parking Spot",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20391,
+  "metadata" : {
+    "handle" : "PRGPARKING-DOMAIN",
+    "description" : "The Parking Spot",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.55.42.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

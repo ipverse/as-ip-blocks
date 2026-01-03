@@ -1,9 +1,12 @@
 {
-  "asn": 49063,
-  "handle": "DTLN",
-  "description": "Data Storage Center JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49063,
+  "metadata" : {
+    "handle" : "DTLN",
+    "description" : "Data Storage Center JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.180.101.0/24",
       "31.40.200.0/24",
       "45.144.1.0/24",
@@ -55,7 +58,7 @@
       "194.226.177.0/24",
       "195.14.100.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:ba80::/32",
       "2a11:4b41::/32"
     ]

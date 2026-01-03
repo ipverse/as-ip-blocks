@@ -1,13 +1,16 @@
 {
-  "asn": 210495,
-  "handle": "WENIUM",
-  "description": "WENIUM LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210495,
+  "metadata" : {
+    "handle" : "WENIUM",
+    "description" : "WENIUM LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.2.26.0/24",
       "212.100.184.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:bec4:30::/44"
     ]
   }

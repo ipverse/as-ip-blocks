@@ -1,9 +1,12 @@
 {
-  "asn": 52420,
-  "handle": "INTERCOM",
-  "description": "Intercom SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52420,
+  "metadata" : {
+    "handle" : "INTERCOM",
+    "description" : "Intercom SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "152.231.48.0/21",
       "152.231.56.0/22",
       "152.231.60.0/23",
@@ -13,6 +16,6 @@
       "190.11.188.0/24",
       "201.220.144.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

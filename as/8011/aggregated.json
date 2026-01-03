@@ -1,9 +1,12 @@
 {
-  "asn": 8011,
-  "handle": "MONGO-8011",
-  "description": "MongoDB Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8011,
+  "metadata" : {
+    "handle" : "MONGO-8011",
+    "description" : "MongoDB Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.88.0.0/20",
       "65.62.0.0/19",
       "65.62.32.0/20",
@@ -22,7 +25,7 @@
       "218.254.32.0/20",
       "218.254.48.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2631:2000::/40"
     ]
   }

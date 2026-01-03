@@ -1,13 +1,16 @@
 {
-  "asn": 12431,
-  "handle": "SYB-AS",
-  "description": "SYBCOM GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12431,
+  "metadata" : {
+    "handle" : "SYB-AS",
+    "description" : "SYBCOM GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.25.96.0/22",
       "193.141.182.0/24",
       "213.147.0.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

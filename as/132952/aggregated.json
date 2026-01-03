@@ -1,12 +1,15 @@
 {
-  "asn": 132952,
-  "handle": "ENOW-AS",
-  "description": "ENOW",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132952,
+  "metadata" : {
+    "handle" : "ENOW-AS",
+    "description" : "ENOW",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.238.220.0/22",
       "103.255.100.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

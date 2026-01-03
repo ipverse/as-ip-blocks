@@ -1,16 +1,19 @@
 {
-  "asn": 30513,
-  "handle": "DYNAMIC-INTERNET",
-  "description": "DYNAMIC INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30513,
+  "metadata" : {
+    "handle" : "DYNAMIC-INTERNET",
+    "description" : "DYNAMIC INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.213.72.0/22",
       "199.188.14.0/23",
       "204.8.44.0/22",
       "204.14.84.0/22",
       "208.73.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4968::/32"
     ]
   }

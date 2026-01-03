@@ -1,13 +1,16 @@
 {
-  "asn": 22851,
-  "handle": "NSU-SD",
-  "description": "Northern State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22851,
+  "metadata" : {
+    "handle" : "NSU-SD",
+    "description" : "Northern State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.180.229.0/24",
       "206.176.20.0/23",
       "206.176.54.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

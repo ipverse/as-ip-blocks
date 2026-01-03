@@ -1,9 +1,12 @@
 {
-  "asn": 22413,
-  "handle": "EMPOWER",
-  "description": "empower Delivered by Craighead Electric",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22413,
+  "metadata" : {
+    "handle" : "EMPOWER",
+    "description" : "empower Delivered by Craighead Electric",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.173.194.0/24",
       "69.173.206.0/23",
       "69.173.208.0/22",
@@ -12,7 +15,7 @@
       "199.66.96.0/22",
       "199.68.224.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:f140::/32"
     ]
   }

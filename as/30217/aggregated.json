@@ -1,14 +1,17 @@
 {
-  "asn": 30217,
-  "handle": "DESYNC",
-  "description": "Desync Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30217,
+  "metadata" : {
+    "handle" : "DESYNC",
+    "description" : "Desync Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.230.192.0/19",
       "66.230.224.0/20",
       "208.83.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f178::/48",
       "2607:f178:4::/47",
       "2607:f178:10::/48"

@@ -1,9 +1,12 @@
 {
-  "asn": 55430,
-  "handle": "STARHUB-NGNBN",
-  "description": "Starhub Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55430,
+  "metadata" : {
+    "handle" : "STARHUB-NGNBN",
+    "description" : "Starhub Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.125.128.0/18",
       "39.109.128.0/17",
       "58.96.192.0/18",
@@ -25,7 +28,7 @@
       "218.212.0.0/16",
       "222.164.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:e800::/31",
       "2406:3003:1000::/44",
       "2406:3003:1040::/44",

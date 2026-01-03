@@ -1,14 +1,17 @@
 {
-  "asn": 61866,
-  "handle": "INTELBRAS",
-  "description": "INTELBRAS S.A. INDUSTRIA DE TELECOMUNICACAO ELETRO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61866,
+  "metadata" : {
+    "handle" : "INTELBRAS",
+    "description" : "INTELBRAS S.A. INDUSTRIA DE TELECOMUNICACAO ELETRO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.250.88.0/22",
       "38.250.248.0/22",
       "192.100.206.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:80:be0::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 6405,
-  "handle": "AIN",
-  "description": "American Information Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6405,
+  "metadata" : {
+    "handle" : "AIN",
+    "description" : "American Information Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.41.112.0/22",
       "38.100.56.0/22",
       "45.59.151.0/24",
@@ -14,7 +17,7 @@
       "205.134.160.0/19",
       "208.82.215.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f308::/32"
     ]
   }

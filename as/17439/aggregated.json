@@ -1,9 +1,12 @@
 {
-  "asn": 17439,
-  "handle": "NCINSPL-IN",
-  "description": "NTTCINS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17439,
+  "metadata" : {
+    "handle" : "NCINSPL-IN",
+    "description" : "NTTCINS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.224.136.0/22",
       "43.225.0.0/22",
       "45.249.132.0/22",
@@ -69,7 +72,7 @@
       "203.212.68.0/24",
       "203.212.70.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:3a00::/48",
       "2001:df0:6e80::/48",
       "2001:df4:3500::/48",

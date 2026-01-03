@@ -1,13 +1,16 @@
 {
-  "asn": 49222,
-  "handle": "CONNEXION",
-  "description": "Telenor Connexion AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49222,
+  "metadata" : {
+    "handle" : "CONNEXION",
+    "description" : "Telenor Connexion AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.166.244.0/22",
       "188.92.168.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:c240::/29"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 206310,
-  "handle": "WAXX",
-  "description": "Waxx SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206310,
+  "metadata" : {
+    "handle" : "WAXX",
+    "description" : "Waxx SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.187.216.0/22",
       "185.209.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:af80::/29"
     ]
   }

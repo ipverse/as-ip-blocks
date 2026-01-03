@@ -1,12 +1,15 @@
 {
-  "asn": 266616,
-  "handle": "COHAB-NET",
-  "description": "COHAB NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266616,
+  "metadata" : {
+    "handle" : "COHAB-NET",
+    "description" : "COHAB NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.201.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3eb4::/32"
     ]
   }

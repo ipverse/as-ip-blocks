@@ -1,9 +1,12 @@
 {
-  "asn": 2269,
-  "handle": "FR-U-PARISSUD-ORSAY",
-  "description": "Renater",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2269,
+  "metadata" : {
+    "handle" : "FR-U-PARISSUD-ORSAY",
+    "description" : "Renater",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.175.0.0/16",
       "138.231.0.0/16",
       "192.44.78.0/24",
@@ -11,6 +14,6 @@
       "192.93.3.0/24",
       "192.93.157.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

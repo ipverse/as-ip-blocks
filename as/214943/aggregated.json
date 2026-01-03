@@ -1,9 +1,12 @@
 {
-  "asn": 214943,
-  "handle": "RAILNET",
-  "description": "Railnet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214943,
+  "metadata" : {
+    "handle" : "RAILNET",
+    "description" : "Railnet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.92.240.0/22",
       "94.26.38.0/24",
       "94.154.35.0/24",
@@ -11,6 +14,6 @@
       "158.94.208.0/22",
       "178.16.52.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

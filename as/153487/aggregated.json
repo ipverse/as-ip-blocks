@@ -1,11 +1,14 @@
 {
-  "asn": 153487,
-  "handle": "DWSSA-AS-AP",
-  "description": "DWASA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153487,
+  "metadata" : {
+    "handle" : "DWSSA-AS-AP",
+    "description" : "DWASA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.248.102.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

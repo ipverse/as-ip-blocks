@@ -1,15 +1,18 @@
 {
-  "asn": 29884,
-  "handle": "EQUINIX-EC-DA",
-  "description": "Equinix Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29884,
+  "metadata" : {
+    "handle" : "EQUINIX-EC-DA",
+    "description" : "Equinix Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.191.214.0/24",
       "142.215.105.0/24",
       "142.215.106.0/24",
       "198.32.109.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f6f0:204::/48"
     ]
   }

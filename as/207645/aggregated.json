@@ -1,9 +1,12 @@
 {
-  "asn": 207645,
-  "handle": "FWNETWORKS-AS",
-  "description": "F \u0026 W Networks Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207645,
+  "metadata" : {
+    "handle" : "FWNETWORKS-AS",
+    "description" : "F & W Networks Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.83.192.0/20",
       "5.181.99.0/24",
       "31.214.156.0/24",
@@ -22,7 +25,7 @@
       "194.120.133.0/24",
       "209.240.0.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:b100::/29"
     ]
   }

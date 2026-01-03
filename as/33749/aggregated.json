@@ -1,9 +1,12 @@
 {
-  "asn": 33749,
-  "handle": "FOCUS-BROADBAND",
-  "description": "Focus Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33749,
+  "metadata" : {
+    "handle" : "FOCUS-BROADBAND",
+    "description" : "Focus Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.209.0.0/19",
       "68.68.128.0/20",
       "70.35.176.0/20",
@@ -12,7 +15,7 @@
       "209.188.32.0/19",
       "216.99.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:ec00::/32"
     ]
   }

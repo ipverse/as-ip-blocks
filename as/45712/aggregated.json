@@ -1,12 +1,15 @@
 {
-  "asn": 45712,
-  "handle": "DEPLU-AS-ID",
-  "description": "Departemen Luar Negeri Republik Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45712,
+  "metadata" : {
+    "handle" : "DEPLU-AS-ID",
+    "description" : "Departemen Luar Negeri Republik Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.217.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:2000::/48"
     ]
   }

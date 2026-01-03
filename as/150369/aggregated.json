@@ -1,13 +1,16 @@
 {
-  "asn": 150369,
-  "handle": "INFAL",
-  "description": "TelHi Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150369,
+  "metadata" : {
+    "handle" : "INFAL",
+    "description" : "TelHi Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.26.26.0/23",
       "103.151.154.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4460::/32",
       "2401:2d60::/32",
       "2602:fd6f:1a::/48"

@@ -1,14 +1,17 @@
 {
-  "asn": 39242,
-  "handle": "SECLAN",
-  "description": "Seclan Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39242,
+  "metadata" : {
+    "handle" : "SECLAN",
+    "description" : "Seclan Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.19.112.0/20",
       "109.70.160.0/21",
       "185.159.236.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:ef0::/32"
     ]
   }

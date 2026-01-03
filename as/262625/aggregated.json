@@ -1,12 +1,15 @@
 {
-  "asn": 262625,
-  "handle": "AITA-PROVEDOR-ACESSO",
-  "description": "Aita Provedor de Acesso as Redes de Comunic. E Com",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262625,
+  "metadata" : {
+    "handle" : "AITA-PROVEDOR-ACESSO",
+    "description" : "Aita Provedor de Acesso as Redes de Comunic. E Com",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.86.80.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4968::/32"
     ]
   }

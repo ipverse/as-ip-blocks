@@ -1,12 +1,15 @@
 {
-  "asn": 53205,
-  "handle": "IBSOL-TELECOM",
-  "description": "IBSOL TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53205,
+  "metadata" : {
+    "handle" : "IBSOL-TELECOM",
+    "description" : "IBSOL TELECOM LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.235.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8a90::/33",
       "2804:8a90:9000::/47",
       "2804:8a90:fe00::/46",

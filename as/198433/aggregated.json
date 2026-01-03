@@ -1,9 +1,12 @@
 {
-  "asn": 198433,
-  "handle": "CFS",
-  "description": "CKW Fiber Services AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198433,
+  "metadata" : {
+    "handle" : "CFS",
+    "description" : "CKW Fiber Services AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.40.236.0/23",
       "37.128.176.0/21",
       "45.9.163.0/24",
@@ -13,7 +16,7 @@
       "195.225.60.0/23",
       "203.1.19.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:82c0::/32",
       "2a0b:4200:2001::/48"
     ]

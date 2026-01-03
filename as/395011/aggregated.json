@@ -1,12 +1,15 @@
 {
-  "asn": 395011,
-  "handle": "SF-PSN",
-  "description": "City and County of San Francisco",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395011,
+  "metadata" : {
+    "handle" : "SF-PSN",
+    "description" : "City and County of San Francisco",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.145.45.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:b040::/32"
     ]
   }

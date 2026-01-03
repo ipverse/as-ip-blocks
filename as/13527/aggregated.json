@@ -1,12 +1,15 @@
 {
-  "asn": 13527,
-  "handle": "GOOFL-TESTBED",
-  "description": "Gooflare LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13527,
+  "metadata" : {
+    "handle" : "GOOFL-TESTBED",
+    "description" : "Gooflare LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "92.62.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f83d::/43",
       "2602:f83d:40::/44",
       "2602:f83d:60::/44",

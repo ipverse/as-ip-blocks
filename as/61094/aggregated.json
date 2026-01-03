@@ -1,9 +1,12 @@
 {
-  "asn": 61094,
-  "handle": "CRATIS-AS",
-  "description": "CRATIS d.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61094,
+  "metadata" : {
+    "handle" : "CRATIS-AS",
+    "description" : "CRATIS d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.23.184.0/24",
       "185.92.124.0/24",
       "185.103.216.0/22",
@@ -14,6 +17,6 @@
       "185.245.12.0/22",
       "194.56.72.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

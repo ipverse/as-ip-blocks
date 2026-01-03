@@ -1,10 +1,13 @@
 {
-  "asn": 272252,
-  "handle": "BRANET-FIBRA",
-  "description": "BRANET FIBRA",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 272252,
+  "metadata" : {
+    "handle" : "BRANET-FIBRA",
+    "description" : "BRANET FIBRA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2804:844c::/32"
     ]
   }

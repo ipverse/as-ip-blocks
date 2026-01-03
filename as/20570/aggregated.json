@@ -1,9 +1,12 @@
 {
-  "asn": 20570,
-  "handle": "ASN-TSI-IPLS",
-  "description": "Telekom Deutschland GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20570,
+  "metadata" : {
+    "handle" : "ASN-TSI-IPLS",
+    "description" : "Telekom Deutschland GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.209.160.0/24",
       "141.78.100.0/22",
       "185.200.56.0/22",
@@ -16,7 +19,7 @@
       "195.114.22.0/23",
       "209.206.38.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:8ac::/48",
       "2001:67c:d70::/48"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 139076,
-  "handle": "ENJOYVC-AS-AP",
-  "description": "EnjoyVC Japan Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139076,
+  "metadata" : {
+    "handle" : "ENJOYVC-AS-AP",
+    "description" : "EnjoyVC Japan Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.246.199.0/24",
       "103.139.110.0/23",
       "103.146.78.0/24",
@@ -15,7 +18,7 @@
       "161.248.113.0/24",
       "202.66.168.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:7480::/48"
     ]
   }

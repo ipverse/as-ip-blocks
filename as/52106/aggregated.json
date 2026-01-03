@@ -1,9 +1,12 @@
 {
-  "asn": 52106,
-  "handle": "GALATEA-AS",
-  "description": "GALATEA - Dominik Budzowski",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52106,
+  "metadata" : {
+    "handle" : "GALATEA-AS",
+    "description" : "GALATEA - Dominik Budzowski",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.148.40.0/22",
       "91.238.56.0/22",
       "194.60.202.0/24",
@@ -14,6 +17,6 @@
       "194.247.62.0/24",
       "195.3.152.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 58461,
-  "handle": "CT-HANGZHOU-IDC",
-  "description": "No.288 Fu-chun Road",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58461,
+  "metadata" : {
+    "handle" : "CT-HANGZHOU-IDC",
+    "description" : "No.288 Fu-chun Road",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.20.119.0/24",
       "36.20.123.0/24",
       "36.20.124.0/22",
@@ -217,6 +220,6 @@
       "220.191.199.0/24",
       "220.191.200.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

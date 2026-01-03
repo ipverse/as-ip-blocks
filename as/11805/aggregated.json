@@ -1,14 +1,17 @@
 {
-  "asn": 11805,
-  "handle": "ENNWISE-AS",
-  "description": "Ennwise",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11805,
+  "metadata" : {
+    "handle" : "ENNWISE-AS",
+    "description" : "Ennwise",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.140.252.0/24",
       "192.163.28.0/22",
       "208.91.103.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd63:12::/48",
       "2602:fd63:31::/48"
     ]

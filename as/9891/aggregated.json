@@ -1,9 +1,12 @@
 {
-  "asn": 9891,
-  "handle": "CSLOX-IDC-AS-AP",
-  "description": "CS Loxinfo Public Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9891,
+  "metadata" : {
+    "handle" : "CSLOX-IDC-AS-AP",
+    "description" : "CS Loxinfo Public Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.254.26.0/24",
       "27.254.32.0/19",
       "27.254.64.0/21",
@@ -70,7 +73,7 @@
       "210.1.58.0/23",
       "210.1.60.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:b5c0::/32",
       "2404:b0:2000::/47",
       "2404:b1::/32"

@@ -1,12 +1,15 @@
 {
-  "asn": 13182,
-  "handle": "ASN-ADHOC-NETWORK",
-  "description": "Made Network Srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13182,
+  "metadata" : {
+    "handle" : "ASN-ADHOC-NETWORK",
+    "description" : "Made Network Srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.152.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:fac0::/29"
     ]
   }

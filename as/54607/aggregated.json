@@ -1,9 +1,12 @@
 {
-  "asn": 54607,
-  "handle": "APOG-DFW",
-  "description": "Apogee Telecom Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54607,
+  "metadata" : {
+    "handle" : "APOG-DFW",
+    "description" : "Apogee Telecom Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.189.4.0/23",
       "64.189.8.0/21",
       "64.189.38.0/24",
@@ -27,6 +30,6 @@
       "76.78.188.0/24",
       "76.78.190.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

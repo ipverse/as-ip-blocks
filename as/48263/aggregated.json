@@ -1,12 +1,15 @@
 {
-  "asn": 48263,
-  "handle": "SBB-CDC",
-  "description": "Schweizerische Bundesbahnen SBB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48263,
+  "metadata" : {
+    "handle" : "SBB-CDC",
+    "description" : "Schweizerische Bundesbahnen SBB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.95.65.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4bc0:600::/40"
     ]
   }

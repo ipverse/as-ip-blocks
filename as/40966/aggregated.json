@@ -1,15 +1,18 @@
 {
-  "asn": 40966,
-  "handle": "L7GUARD-AS",
-  "description": "ZAO Web Hosting",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40966,
+  "metadata" : {
+    "handle" : "L7GUARD-AS",
+    "description" : "ZAO Web Hosting",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.67.164.0/22",
       "217.112.36.0/23",
       "217.112.42.0/23",
       "217.112.44.0/23",
       "217.112.46.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

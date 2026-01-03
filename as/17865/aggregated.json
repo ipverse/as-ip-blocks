@@ -1,9 +1,12 @@
 {
-  "asn": 17865,
-  "handle": "SCOURT-AS",
-  "description": "Supreme Court of Korea",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17865,
+  "metadata" : {
+    "handle" : "SCOURT-AS",
+    "description" : "Supreme Court of Korea",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.240.64.0/23",
       "203.240.67.0/24",
       "203.240.68.0/24",
@@ -12,6 +15,6 @@
       "203.240.76.0/23",
       "203.240.96.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

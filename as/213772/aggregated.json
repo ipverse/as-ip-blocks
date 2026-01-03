@@ -1,9 +1,12 @@
 {
-  "asn": 213772,
-  "handle": "BK-CUST",
-  "description": "UAB Baltnetos komunikacijos",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213772,
+  "metadata" : {
+    "handle" : "BK-CUST",
+    "description" : "UAB Baltnetos komunikacijos",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.82.42.0/24",
       "45.153.237.0/24",
       "91.188.254.0/24",
@@ -15,6 +18,6 @@
       "191.96.245.0/24",
       "193.187.112.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

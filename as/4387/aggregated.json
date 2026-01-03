@@ -1,9 +1,12 @@
 {
-  "asn": 4387,
-  "handle": "SECRETARIA-CIENCIA-TECNOLOGIA",
-  "description": "Secretaria de Ciencia y Tecnologia - Red Cientific",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4387,
+  "metadata" : {
+    "handle" : "SECRETARIA-CIENCIA-TECNOLOGIA",
+    "description" : "Secretaria de Ciencia y Tecnologia - Red Cientific",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.83.0.0/20",
       "168.83.26.0/24",
       "168.83.30.0/23",
@@ -14,6 +17,6 @@
       "200.9.242.0/23",
       "200.9.244.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

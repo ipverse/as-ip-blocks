@@ -1,9 +1,12 @@
 {
-  "asn": 212795,
-  "handle": "SIT-ATHENE",
-  "description": "Fraunhofer-Gesellschaft zur Foerderung der angewandten Forschung e.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212795,
+  "metadata" : {
+    "handle" : "SIT-ATHENE",
+    "description" : "Fraunhofer-Gesellschaft zur Foerderung der angewandten Forschung e.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.155.130.0/24",
       "158.220.128.0/17",
       "160.200.1.0/24",
@@ -130,7 +133,7 @@
       "161.51.128.0/22",
       "193.162.137.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:9040::/32",
       "2a10:9042::/32",
       "2a10:9045:1::/48",

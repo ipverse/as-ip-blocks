@@ -1,12 +1,15 @@
 {
-  "asn": 49225,
-  "handle": "DISKORD-AS",
-  "description": "Chaos Computer Club Berlin e.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49225,
+  "metadata" : {
+    "handle" : "DISKORD-AS",
+    "description" : "Chaos Computer Club Berlin e.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.160.172.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:560::/48"
     ]
   }

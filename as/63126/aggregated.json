@@ -1,12 +1,15 @@
 {
-  "asn": 63126,
-  "handle": "AS-APTIENT",
-  "description": "Aptient Consulting Group Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63126,
+  "metadata" : {
+    "handle" : "AS-APTIENT",
+    "description" : "Aptient Consulting Group Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.42.72.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:96:4000::/48"
     ]
   }

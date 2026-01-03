@@ -1,11 +1,14 @@
 {
-  "asn": 60554,
-  "handle": "MEGIONLINK-AS",
-  "description": "LLC Megion-Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60554,
+  "metadata" : {
+    "handle" : "MEGIONLINK-AS",
+    "description" : "LLC Megion-Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.166.116.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

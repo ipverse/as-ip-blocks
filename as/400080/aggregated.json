@@ -1,9 +1,12 @@
 {
-  "asn": 400080,
-  "handle": "GRUNDY-CENTER-MUNICIPAL-01",
-  "description": "Grundy Center Municipal Utilities",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400080,
+  "metadata" : {
+    "handle" : "GRUNDY-CENTER-MUNICIPAL-01",
+    "description" : "Grundy Center Municipal Utilities",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.191.240.0/24",
       "69.57.200.0/24",
       "72.46.110.0/23",
@@ -12,6 +15,6 @@
       "108.160.216.0/22",
       "216.151.172.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

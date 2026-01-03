@@ -1,9 +1,12 @@
 {
-  "asn": 212174,
-  "handle": "JOLA",
-  "description": "Jola Cloud Solutions Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212174,
+  "metadata" : {
+    "handle" : "JOLA",
+    "description" : "Jola Cloud Solutions Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.129.168.0/23",
       "45.148.166.0/24",
       "80.76.62.0/24",
@@ -12,6 +15,6 @@
       "140.150.64.0/20",
       "193.56.1.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

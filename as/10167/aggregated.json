@@ -1,9 +1,12 @@
 {
-  "asn": 10167,
-  "handle": "HANVIT-AS",
-  "description": "HANVIT BANK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10167,
+  "metadata" : {
+    "handle" : "HANVIT-AS",
+    "description" : "HANVIT BANK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.232.5.0/24",
       "14.33.203.0/24",
       "61.34.27.0/24",
@@ -32,6 +35,6 @@
       "221.140.14.0/24",
       "222.98.165.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

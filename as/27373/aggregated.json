@@ -1,16 +1,19 @@
 {
-  "asn": 27373,
-  "handle": "DOUGLAS-COUNTY-COMMUNITY-NETWORK",
-  "description": "Douglas County PUD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27373,
+  "metadata" : {
+    "handle" : "DOUGLAS-COUNTY-COMMUNITY-NETWORK",
+    "description" : "Douglas County PUD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.146.172.0/24",
       "104.193.248.0/23",
       "192.251.197.0/24",
       "204.10.107.0/24",
       "204.10.108.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fa37::/40"
     ]
   }

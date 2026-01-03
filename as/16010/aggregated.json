@@ -1,9 +1,12 @@
 {
-  "asn": 16010,
-  "handle": "MAGTICOMAS",
-  "description": "Magticom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16010,
+  "metadata" : {
+    "handle" : "MAGTICOMAS",
+    "description" : "Magticom Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.178.128.0/17",
       "46.49.0.0/17",
       "62.168.160.0/19",
@@ -37,7 +40,7 @@
       "213.157.192.0/19",
       "213.200.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:6200::/29"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 61345,
-  "handle": "FLYNET-AS",
-  "description": "FLYTOM NETWORKS LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61345,
+  "metadata" : {
+    "handle" : "FLYNET-AS",
+    "description" : "FLYTOM NETWORKS LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.8.12.0/22",
       "185.144.76.0/22",
       "185.144.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:3140:fffe::/47"
     ]
   }

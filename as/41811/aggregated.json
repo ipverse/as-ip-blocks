@@ -1,9 +1,12 @@
 {
-  "asn": 41811,
-  "handle": "CONVERGENCE-GROUP",
-  "description": "CONVERGENCE (GROUP NETWORKS) LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41811,
+  "metadata" : {
+    "handle" : "CONVERGENCE-GROUP",
+    "description" : "CONVERGENCE (GROUP NETWORKS) LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.205.56.0/21",
       "46.255.112.0/21",
       "88.151.216.0/21",
@@ -19,7 +22,7 @@
       "194.62.32.0/23",
       "194.155.93.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:a200::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 19955,
-  "handle": "PINELAND-TELEPHONE",
-  "description": "Pineland Telephone Cooperative Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19955,
+  "metadata" : {
+    "handle" : "PINELAND-TELEPHONE",
+    "description" : "Pineland Telephone Cooperative Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.103.189.0/24",
       "38.103.190.0/23",
       "38.106.104.0/21",
@@ -30,6 +33,6 @@
       "216.119.58.0/23",
       "216.119.60.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

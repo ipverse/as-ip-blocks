@@ -1,12 +1,15 @@
 {
-  "asn": 15205,
-  "handle": "NCPDAS",
-  "description": "Nassau County Police Department",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15205,
+  "metadata" : {
+    "handle" : "NCPDAS",
+    "description" : "Nassau County Police Department",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.114.0.0/21",
       "204.114.8.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

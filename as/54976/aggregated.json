@@ -1,13 +1,16 @@
 {
-  "asn": 54976,
-  "handle": "CONVO-ASH",
-  "description": "Convo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54976,
+  "metadata" : {
+    "handle" : "CONVO-ASH",
+    "description" : "Convo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.34.145.0/24",
       "70.33.169.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:12:2001::/48"
     ]
   }

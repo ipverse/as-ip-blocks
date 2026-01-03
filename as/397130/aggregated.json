@@ -1,9 +1,12 @@
 {
-  "asn": 397130,
-  "handle": "STSAS01",
-  "description": "SmartLayer Business Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397130,
+  "metadata" : {
+    "handle" : "STSAS01",
+    "description" : "SmartLayer Business Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.179.150.0/24",
       "148.59.91.0/24",
       "148.227.174.0/24",
@@ -12,6 +15,6 @@
       "162.33.191.0/24",
       "162.223.123.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

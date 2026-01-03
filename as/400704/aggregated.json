@@ -1,9 +1,12 @@
 {
-  "asn": 400704,
-  "handle": "NEWCONNECT-01",
-  "description": "NewConnect LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400704,
+  "metadata" : {
+    "handle" : "NEWCONNECT-01",
+    "description" : "NewConnect LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.70.1.0/24",
       "38.70.2.0/23",
       "38.70.19.0/24",
@@ -16,6 +19,6 @@
       "38.124.242.0/24",
       "38.247.18.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

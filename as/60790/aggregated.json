@@ -1,16 +1,19 @@
 {
-  "asn": 60790,
-  "handle": "AS-SCHOKKER-IT",
-  "description": "Schokker IT B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60790,
+  "metadata" : {
+    "handle" : "AS-SCHOKKER-IT",
+    "description" : "Schokker IT B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.153.157.0/24",
       "104.36.81.0/24",
       "163.5.135.0/24",
       "185.155.220.0/24",
       "194.110.172.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:9903:301::/48",
       "2a10:9903:302::/48",
       "2a10:9903:311::/48"

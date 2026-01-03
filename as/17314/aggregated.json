@@ -1,13 +1,16 @@
 {
-  "asn": 17314,
-  "handle": "REDHAT-HOSTED",
-  "description": "Red Hat Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17314,
+  "metadata" : {
+    "handle" : "REDHAT-HOSTED",
+    "description" : "Red Hat Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.43.84.0/22",
       "66.187.224.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:52:3::/48"
     ]
   }

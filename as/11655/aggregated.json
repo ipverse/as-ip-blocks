@@ -1,13 +1,16 @@
 {
-  "asn": 11655,
-  "handle": "YXEIX-SRV",
-  "description": "Saskatoon Internet Exchange Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11655,
+  "metadata" : {
+    "handle" : "YXEIX-SRV",
+    "description" : "Saskatoon Internet Exchange Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.128.92.0/24",
       "207.89.50.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f979::/40"
     ]
   }

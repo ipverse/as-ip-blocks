@@ -1,9 +1,12 @@
 {
-  "asn": 28812,
-  "handle": "JSCBIS-AS",
-  "description": "PJSC Bashinformsvyaz",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28812,
+  "metadata" : {
+    "handle" : "JSCBIS-AS",
+    "description" : "PJSC Bashinformsvyaz",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.8.0.0/16",
       "37.122.0.0/17",
       "62.133.160.0/19",
@@ -17,7 +20,7 @@
       "185.169.100.0/22",
       "213.189.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:240::/44"
     ]
   }

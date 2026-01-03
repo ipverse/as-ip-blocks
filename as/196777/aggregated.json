@@ -1,9 +1,12 @@
 {
-  "asn": 196777,
-  "handle": "SKYNET-UA-AS",
-  "description": "SKORUK ANDRIY OLEKSANDROVYCH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 196777,
+  "metadata" : {
+    "handle" : "SKYNET-UA-AS",
+    "description" : "SKORUK ANDRIY OLEKSANDROVYCH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.143.132.0/22",
       "91.214.84.0/22",
       "176.126.60.0/22",
@@ -11,7 +14,7 @@
       "194.60.254.0/23",
       "195.191.12.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:a380::/29"
     ]
   }

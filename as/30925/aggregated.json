@@ -1,9 +1,12 @@
 {
-  "asn": 30925,
-  "handle": "SPEEDXS-AS",
-  "description": "DELTA Fiber Nederland B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30925,
+  "metadata" : {
+    "handle" : "SPEEDXS-AS",
+    "description" : "DELTA Fiber Nederland B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.98.224.0/19",
       "109.109.96.0/19",
       "185.26.56.0/22",
@@ -17,7 +20,7 @@
       "194.124.196.0/22",
       "195.149.86.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:988::/32"
     ]
   }

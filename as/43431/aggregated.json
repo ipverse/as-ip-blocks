@@ -1,12 +1,15 @@
 {
-  "asn": 43431,
-  "handle": "IX-AS",
-  "description": "INTERNET EXCHANGE SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43431,
+  "metadata" : {
+    "handle" : "IX-AS",
+    "description" : "INTERNET EXCHANGE SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.1.150.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:eb00:1::/48"
     ]
   }

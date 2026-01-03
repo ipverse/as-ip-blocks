@@ -1,9 +1,12 @@
 {
-  "asn": 203160,
-  "handle": "OPENTEXT-AS-EU",
-  "description": "OPEN TEXT CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203160,
+  "metadata" : {
+    "handle" : "OPENTEXT-AS-EU",
+    "description" : "OPEN TEXT CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "140.236.89.0/24",
       "149.235.0.0/20",
       "149.235.36.0/23",
@@ -13,6 +16,6 @@
       "204.90.181.0/24",
       "204.90.182.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 45245,
-  "handle": "BANGLALINK-AS",
-  "description": "Banglalink Digital Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45245,
+  "metadata" : {
+    "handle" : "BANGLALINK-AS",
+    "description" : "Banglalink Digital Communications Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.245.120.0/22",
       "43.255.20.0/22",
       "59.152.0.0/21",
@@ -18,7 +21,7 @@
       "202.86.216.0/21",
       "203.223.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:1900::/41",
       "2401:1900:80::/42",
       "2401:1900:140::/42",

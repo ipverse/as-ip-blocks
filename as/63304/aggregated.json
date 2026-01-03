@@ -1,15 +1,18 @@
 {
-  "asn": 63304,
-  "handle": "HILLTOP-BROADBAND",
-  "description": "HILLTOP BROADBAND",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63304,
+  "metadata" : {
+    "handle" : "HILLTOP-BROADBAND",
+    "description" : "HILLTOP BROADBAND",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.158.96.0/24",
       "38.109.215.0/24",
       "52.129.20.0/24",
       "66.118.52.0/22",
       "209.97.232.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

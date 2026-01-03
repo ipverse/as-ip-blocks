@@ -1,9 +1,12 @@
 {
-  "asn": 56594,
-  "handle": "CB-BYO-IP",
-  "description": "CGI GLOBAL LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56594,
+  "metadata" : {
+    "handle" : "CB-BYO-IP",
+    "description" : "CGI GLOBAL LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.58.137.0/24",
       "31.59.114.0/24",
       "31.59.185.0/24",
@@ -12,6 +15,6 @@
       "151.242.69.0/24",
       "217.145.79.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 11468,
-  "handle": "ATD-17",
-  "description": "Think On Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11468,
+  "metadata" : {
+    "handle" : "ATD-17",
+    "description" : "Think On Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.253.5.0/24",
       "216.83.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:ae00::/32"
     ]
   }

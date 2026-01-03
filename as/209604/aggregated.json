@@ -1,9 +1,12 @@
 {
-  "asn": 209604,
-  "handle": "TWO-E-TELEKOM",
-  "description": "2E TELEKOMUNIKASYON LTD STI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209604,
+  "metadata" : {
+    "handle" : "TWO-E-TELEKOM",
+    "description" : "2E TELEKOMUNIKASYON LTD STI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.10.223.0/24",
       "5.144.177.0/24",
       "23.230.139.0/24",
@@ -28,6 +31,6 @@
       "194.36.85.0/24",
       "208.92.224.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

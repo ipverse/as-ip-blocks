@@ -1,11 +1,14 @@
 {
-  "asn": 400103,
-  "handle": "DYNE-BGP-01",
-  "description": "Dyne Therapeutics Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400103,
+  "metadata" : {
+    "handle" : "DYNE-BGP-01",
+    "description" : "Dyne Therapeutics Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.216.164.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

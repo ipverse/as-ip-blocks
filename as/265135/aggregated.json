@@ -1,12 +1,15 @@
 {
-  "asn": 265135,
-  "handle": "TC-NET",
-  "description": "TC NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265135,
+  "metadata" : {
+    "handle" : "TC-NET",
+    "description" : "TC NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.255.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2b1c::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 38841,
-  "handle": "KBRO-AS-TW",
-  "description": "kbro CO. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38841,
+  "metadata" : {
+    "handle" : "KBRO-AS-TW",
+    "description" : "kbro CO. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.64.28.0/22",
       "103.224.192.0/22",
       "106.1.0.0/16",
@@ -12,7 +15,7 @@
       "180.176.0.0/15",
       "211.76.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:4d00::/32"
     ]
   }

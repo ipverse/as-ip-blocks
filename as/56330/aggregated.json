@@ -1,9 +1,12 @@
 {
-  "asn": 56330,
-  "handle": "KURGAN-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56330,
+  "metadata" : {
+    "handle" : "KURGAN-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.135.240.0/22",
       "31.135.254.0/23",
       "37.113.64.0/21",
@@ -15,7 +18,7 @@
       "176.215.160.0/21",
       "188.187.232.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:3400::/38"
     ]
   }

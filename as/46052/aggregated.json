@@ -1,14 +1,17 @@
 {
-  "asn": 46052,
-  "handle": "EEPIS-AS-ID",
-  "description": "Politeknik Elektronika Negeri Surabaya",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46052,
+  "metadata" : {
+    "handle" : "EEPIS-AS-ID",
+    "description" : "Politeknik Elektronika Negeri Surabaya",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.24.56.0/23",
       "103.24.58.0/24",
       "202.9.85.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:a8::/48"
     ]
   }

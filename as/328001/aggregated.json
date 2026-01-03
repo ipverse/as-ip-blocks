@@ -1,12 +1,15 @@
 {
-  "asn": 328001,
-  "handle": "SATSOFT",
-  "description": "Satsoft cc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328001,
+  "metadata" : {
+    "handle" : "SATSOFT",
+    "description" : "Satsoft cc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "196.192.88.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f::/32"
     ]
   }

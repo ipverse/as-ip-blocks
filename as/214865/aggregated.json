@@ -1,12 +1,15 @@
 {
-  "asn": 214865,
-  "handle": "NRDMNN",
-  "description": "Falco Nordmann",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214865,
+  "metadata" : {
+    "handle" : "NRDMNN",
+    "description" : "Falco Nordmann",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.169.139.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:5140:100::/40",
       "2a14:5140:300::/40",
       "2a14:5140:400::/39"

@@ -1,9 +1,12 @@
 {
-  "asn": 18859,
-  "handle": "GVEC-NET",
-  "description": "GVEC.net LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18859,
+  "metadata" : {
+    "handle" : "GVEC-NET",
+    "description" : "GVEC.net LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.67.32.0/19",
       "38.128.176.0/20",
       "38.175.224.0/19",
@@ -17,7 +20,7 @@
       "216.45.64.0/19",
       "216.82.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:af80::/32"
     ]
   }

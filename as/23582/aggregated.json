@@ -1,9 +1,12 @@
 {
-  "asn": 23582,
-  "handle": "DOOSAN-AS",
-  "description": "Doosan Corporation Digital Innovation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23582,
+  "metadata" : {
+    "handle" : "DOOSAN-AS",
+    "description" : "Doosan Corporation Digital Innovation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.120.61.0/24",
       "116.120.62.0/23",
       "116.127.60.0/23",
@@ -21,6 +24,6 @@
       "203.226.177.0/24",
       "203.226.190.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 399201,
-  "handle": "CMPS-AS",
-  "description": "Compass Christian Church",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399201,
+  "metadata" : {
+    "handle" : "CMPS-AS",
+    "description" : "Compass Christian Church",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "169.197.133.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:809:9001::/48",
       "2602:809:9002::/48",
       "2602:809:9004::/48"

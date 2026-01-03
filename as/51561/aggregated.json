@@ -1,9 +1,12 @@
 {
-  "asn": 51561,
-  "handle": "AS-ICUK",
-  "description": "ICUK Computing Services Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51561,
+  "metadata" : {
+    "handle" : "AS-ICUK",
+    "description" : "ICUK Computing Services Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.84.0/22",
       "5.133.168.0/22",
       "5.254.162.0/23",
@@ -40,7 +43,7 @@
       "193.161.10.0/24",
       "193.187.0.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:b900::/32"
     ]
   }

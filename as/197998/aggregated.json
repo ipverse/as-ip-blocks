@@ -1,9 +1,12 @@
 {
-  "asn": 197998,
-  "handle": "AFKGROUP-AS",
-  "description": "LLC Afk group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197998,
+  "metadata" : {
+    "handle" : "AFKGROUP-AS",
+    "description" : "LLC Afk group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.230.223.0/24",
       "45.134.187.0/24",
       "91.243.124.0/23",
@@ -11,6 +14,6 @@
       "141.101.207.0/24",
       "141.101.212.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

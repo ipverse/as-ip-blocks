@@ -1,9 +1,12 @@
 {
-  "asn": 135386,
-  "handle": "LTG-AS-AP",
-  "description": "LinkChina Telecom Global Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135386,
+  "metadata" : {
+    "handle" : "LTG-AS-AP",
+    "description" : "LinkChina Telecom Global Limited.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.230.204.0/22",
       "103.9.193.0/24",
       "103.9.194.0/23",
@@ -16,7 +19,7 @@
       "154.18.163.0/24",
       "156.249.17.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:2c40::/48",
       "2404:f880::/32"
     ]

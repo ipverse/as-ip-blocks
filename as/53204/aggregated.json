@@ -1,12 +1,15 @@
 {
-  "asn": 53204,
-  "handle": "PARQUE-ECOLOGICO-SAO",
-  "description": "Parque Ecológico São Carlos / PMSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53204,
+  "metadata" : {
+    "handle" : "PARQUE-ECOLOGICO-SAO",
+    "description" : "Parque Ecológico São Carlos / PMSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.233.80.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:80:c0::/48"
     ]
   }

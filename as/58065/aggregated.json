@@ -1,9 +1,12 @@
 {
-  "asn": 58065,
-  "handle": "PACKETEXCHANGE",
-  "description": "Orion Network Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58065,
+  "metadata" : {
+    "handle" : "PACKETEXCHANGE",
+    "description" : "Orion Network Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.157.6.0/24",
       "5.157.11.0/24",
       "5.157.19.0/24",
@@ -228,7 +231,7 @@
       "196.247.244.0/24",
       "212.32.75.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5740:4::/48",
       "2a02:5740:9::/48",
       "2a02:5740:10::/48",

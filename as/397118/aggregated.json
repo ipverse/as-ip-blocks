@@ -1,15 +1,18 @@
 {
-  "asn": 397118,
-  "handle": "GLENWOOD-BGP",
-  "description": "Glenwood Telephone Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397118,
+  "metadata" : {
+    "handle" : "GLENWOOD-BGP",
+    "description" : "Glenwood Telephone Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.97.241.0/24",
       "38.246.167.0/24",
       "67.58.76.0/24",
       "137.118.87.0/24",
       "137.118.88.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

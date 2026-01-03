@@ -1,12 +1,15 @@
 {
-  "asn": 32629,
-  "handle": "CITY-OF-CHARLOTTE-ASN",
-  "description": "City of Charlotte",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32629,
+  "metadata" : {
+    "handle" : "CITY-OF-CHARLOTTE-ASN",
+    "description" : "City of Charlotte",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "205.141.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:10c:e000::/40"
     ]
   }

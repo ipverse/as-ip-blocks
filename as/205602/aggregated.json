@@ -1,12 +1,15 @@
 {
-  "asn": 205602,
-  "handle": "BRINSTAR",
-  "description": "Seamus Caveney",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205602,
+  "metadata" : {
+    "handle" : "BRINSTAR",
+    "description" : "Seamus Caveney",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.217.179.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:fd4::/48",
       "2a06:e881:116::/48",
       "2a0a:79c0:b00::/40"

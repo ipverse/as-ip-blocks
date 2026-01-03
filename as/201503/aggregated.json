@@ -1,14 +1,17 @@
 {
-  "asn": 201503,
-  "handle": "DK-IPNORDIC",
-  "description": "Enreach A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201503,
+  "metadata" : {
+    "handle" : "DK-IPNORDIC",
+    "description" : "Enreach A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.163.120.0/22",
       "82.163.132.0/22",
       "185.72.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:3950::/31"
     ]
   }

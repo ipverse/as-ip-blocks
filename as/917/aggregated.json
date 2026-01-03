@@ -1,9 +1,12 @@
 {
-  "asn": 917,
-  "handle": "MISAKA",
-  "description": "Misaka Network Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 917,
+  "metadata" : {
+    "handle" : "MISAKA",
+    "description" : "Misaka Network Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.175.96.0/21",
       "38.175.104.0/22",
       "38.175.108.0/23",
@@ -13,7 +16,7 @@
       "199.119.65.0/24",
       "209.209.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:4341:a0e::/48",
       "2a0b:4342:1a31::/48",
       "2a0b:4342:1a33::/48",

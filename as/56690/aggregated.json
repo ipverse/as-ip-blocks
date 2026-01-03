@@ -1,9 +1,12 @@
 {
-  "asn": 56690,
-  "handle": "VNET-LLC-AS",
-  "description": "VNET LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56690,
+  "metadata" : {
+    "handle" : "VNET-LLC-AS",
+    "description" : "VNET LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.226.172.0/22",
       "109.248.35.0/24",
       "185.250.60.0/22",
@@ -22,7 +25,7 @@
       "193.233.224.0/22",
       "193.233.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:8880::/36"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 10186,
-  "handle": "REDCROSSNET-AS",
-  "description": "Korean Red Cross",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10186,
+  "metadata" : {
+    "handle" : "REDCROSSNET-AS",
+    "description" : "Korean Red Cross",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.127.212.0/24",
       "103.127.214.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

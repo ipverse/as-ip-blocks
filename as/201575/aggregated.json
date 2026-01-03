@@ -1,9 +1,12 @@
 {
-  "asn": 201575,
-  "handle": "WORLDBUS",
-  "description": "TradeZone LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201575,
+  "metadata" : {
+    "handle" : "WORLDBUS",
+    "description" : "TradeZone LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.36.137.0/24",
       "96.62.74.0/24",
       "150.241.174.0/24",
@@ -13,7 +16,7 @@
       "188.132.192.0/24",
       "193.228.1.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:e342::/32"
     ]
   }

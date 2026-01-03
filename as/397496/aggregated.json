@@ -1,14 +1,17 @@
 {
-  "asn": 397496,
-  "handle": "INMARSAT-GOVERNMENT",
-  "description": "Inmarsat Government",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397496,
+  "metadata" : {
+    "handle" : "INMARSAT-GOVERNMENT",
+    "description" : "Inmarsat Government",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.84.54.0/24",
       "74.84.57.0/24",
       "74.84.59.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:550:1b0a::/48"
     ]
   }

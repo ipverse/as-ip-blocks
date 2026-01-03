@@ -1,12 +1,15 @@
 {
-  "asn": 211221,
-  "handle": "STANKOMACH-AS",
-  "description": "JSC StankoMachComplex",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211221,
+  "metadata" : {
+    "handle" : "STANKOMACH-AS",
+    "description" : "JSC StankoMachComplex",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.3.82.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:7600::/48"
     ]
   }

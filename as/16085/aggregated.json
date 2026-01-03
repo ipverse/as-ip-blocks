@@ -1,13 +1,16 @@
 {
-  "asn": 16085,
-  "handle": "ASN-INFOBOLSA",
-  "description": "Bolsas y Mercados Espanoles Inntech SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16085,
+  "metadata" : {
+    "handle" : "ASN-INFOBOLSA",
+    "description" : "Bolsas y Mercados Espanoles Inntech SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.109.8.0/21",
       "193.109.229.0/24",
       "193.110.154.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

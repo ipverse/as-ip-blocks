@@ -1,9 +1,12 @@
 {
-  "asn": 132405,
-  "handle": "SUMMITINTERNET-AS-AP",
-  "description": "The Summit Group (Australia) Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132405,
+  "metadata" : {
+    "handle" : "SUMMITINTERNET-AS-AP",
+    "description" : "The Summit Group (Australia) Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.245.72.0/21",
       "43.250.92.0/22",
       "103.13.86.0/23",
@@ -12,6 +15,6 @@
       "103.247.224.0/23",
       "103.253.92.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

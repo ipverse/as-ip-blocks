@@ -1,12 +1,15 @@
 {
-  "asn": 9274,
-  "handle": "PUSAN-AS",
-  "description": "Pusan National University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9274,
+  "metadata" : {
+    "handle" : "PUSAN-AS",
+    "description" : "Pusan National University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.125.0.0/16",
       "203.232.240.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

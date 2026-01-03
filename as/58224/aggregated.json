@@ -1,9 +1,12 @@
 {
-  "asn": 58224,
-  "handle": "TCI",
-  "description": "Iran Telecommunication Company PJS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58224,
+  "metadata" : {
+    "handle" : "TCI",
+    "description" : "Iran Telecommunication Company PJS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.176.0.0/15",
       "2.178.0.0/16",
       "2.179.0.0/19",
@@ -510,7 +513,7 @@
       "217.219.252.0/23",
       "217.219.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:2680:13::/48",
       "2a04:2680:17::/48",
       "2a04:2680:2b::/48"

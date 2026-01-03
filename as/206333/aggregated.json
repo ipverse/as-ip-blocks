@@ -1,12 +1,15 @@
 {
-  "asn": 206333,
-  "handle": "ATLANTA-AS",
-  "description": "Atlanta LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206333,
+  "metadata" : {
+    "handle" : "ATLANTA-AS",
+    "description" : "Atlanta LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.230.191.0/24",
       "185.189.16.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

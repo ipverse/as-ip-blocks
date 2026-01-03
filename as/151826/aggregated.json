@@ -1,12 +1,15 @@
 {
-  "asn": 151826,
-  "handle": "FASTSPEED-AS-AP",
-  "description": "Fast Speed",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151826,
+  "metadata" : {
+    "handle" : "FASTSPEED-AS-AP",
+    "description" : "Fast Speed",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.217.68.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:40a0::/32"
     ]
   }

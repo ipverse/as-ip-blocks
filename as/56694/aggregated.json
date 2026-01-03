@@ -1,9 +1,12 @@
 {
-  "asn": 56694,
-  "handle": "SMARTAPE",
-  "description": "LLC Smart Ape",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56694,
+  "metadata" : {
+    "handle" : "SMARTAPE",
+    "description" : "LLC Smart Ape",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.188.166.0/24",
       "31.177.108.0/22",
       "91.219.148.0/22",
@@ -25,7 +28,7 @@
       "209.142.100.0/24",
       "213.171.16.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:dd00::/32",
       "2a0b:2d80::/32",
       "2a0e:fb42::/32",

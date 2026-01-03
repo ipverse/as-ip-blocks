@@ -1,9 +1,12 @@
 {
-  "asn": 22843,
-  "handle": "PROOFPOINT-ASN-US-EAST",
-  "description": "Proofpoint Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22843,
+  "metadata" : {
+    "handle" : "PROOFPOINT-ASN-US-EAST",
+    "description" : "Proofpoint Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.159.228.0/24",
       "66.159.238.0/23",
       "66.159.250.0/23",
@@ -21,7 +24,7 @@
       "208.84.67.0/24",
       "208.86.201.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:2900::/48",
       "2620:0:2902::/48",
       "2620:100:9004::/47"

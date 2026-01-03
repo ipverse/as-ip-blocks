@@ -1,12 +1,15 @@
 {
-  "asn": 33037,
-  "handle": "ANTHEMCONNECT",
-  "description": "Anthem Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33037,
+  "metadata" : {
+    "handle" : "ANTHEMCONNECT",
+    "description" : "Anthem Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.58.196.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe20::/36"
     ]
   }

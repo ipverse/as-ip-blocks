@@ -1,14 +1,17 @@
 {
-  "asn": 11520,
-  "handle": "ALLSTATE-INSURANCE-CO",
-  "description": "Allstate Insurance Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11520,
+  "metadata" : {
+    "handle" : "ALLSTATE-INSURANCE-CO",
+    "description" : "Allstate Insurance Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.26.124.0/24",
       "167.127.0.0/16",
       "198.207.185.0/24",
       "198.252.138.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

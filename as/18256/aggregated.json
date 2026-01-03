@@ -1,9 +1,12 @@
 {
-  "asn": 18256,
-  "handle": "BAY-AS-AP",
-  "description": "Bank of Ayudhya Public Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18256,
+  "metadata" : {
+    "handle" : "BAY-AS-AP",
+    "description" : "Bank of Ayudhya Public Company Limited.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.64.42.0/24",
       "87.124.71.0/24",
       "103.93.166.0/24",
@@ -11,6 +14,6 @@
       "103.219.196.0/24",
       "202.183.239.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

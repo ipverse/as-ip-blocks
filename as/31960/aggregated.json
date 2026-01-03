@@ -1,12 +1,15 @@
 {
-  "asn": 31960,
-  "handle": "EMUNET",
-  "description": "Eduardo Mondlane University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31960,
+  "metadata" : {
+    "handle" : "EMUNET",
+    "description" : "Eduardo Mondlane University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "196.3.96.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43f8:a40::/48"
     ]
   }

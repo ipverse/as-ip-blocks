@@ -1,12 +1,15 @@
 {
-  "asn": 141536,
-  "handle": "INTERLOK-AS-IN",
-  "description": "Interlock Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141536,
+  "metadata" : {
+    "handle" : "INTERLOK-AS-IN",
+    "description" : "Interlock Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.162.78.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:4b40::/48"
     ]
   }

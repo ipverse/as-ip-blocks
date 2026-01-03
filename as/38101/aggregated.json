@@ -1,9 +1,12 @@
 {
-  "asn": 38101,
-  "handle": "YULCHON-AS",
-  "description": "Yulchon LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38101,
+  "metadata" : {
+    "handle" : "YULCHON-AS",
+    "description" : "Yulchon LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.96.207.0/24",
       "118.128.51.0/24",
       "121.53.255.0/24",
@@ -11,6 +14,6 @@
       "211.183.91.0/24",
       "211.183.93.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

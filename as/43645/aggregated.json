@@ -1,12 +1,15 @@
 {
-  "asn": 43645,
-  "handle": "KIRUNAKOMMUN",
-  "description": "Kiruna kommun",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43645,
+  "metadata" : {
+    "handle" : "KIRUNAKOMMUN",
+    "description" : "Kiruna kommun",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.80.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:8380::/29"
     ]
   }

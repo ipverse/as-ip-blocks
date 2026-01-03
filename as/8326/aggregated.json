@@ -1,16 +1,19 @@
 {
-  "asn": 8326,
-  "handle": "PL-BYDMAN-EDU",
-  "description": "Politechnika Bydgoska im. Jana i Jedrzeja Sniadeckich",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8326,
+  "metadata" : {
+    "handle" : "PL-BYDMAN-EDU",
+    "description" : "Politechnika Bydgoska im. Jana i Jedrzeja Sniadeckich",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.239.128.0/20",
       "82.146.224.0/19",
       "89.191.128.0/20",
       "212.122.192.0/20",
       "212.122.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:908::/30"
     ]
   }

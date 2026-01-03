@@ -1,9 +1,12 @@
 {
-  "asn": 6128,
-  "handle": "CABLE-NET-1",
-  "description": "Cablevision Systems Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6128,
+  "metadata" : {
+    "handle" : "CABLE-NET-1",
+    "description" : "Cablevision Systems Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.38.0.0/17",
       "24.38.192.0/18",
       "24.44.0.0/14",
@@ -57,7 +60,7 @@
       "209.140.32.0/19",
       "216.255.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:4800::/28",
       "2602:230::/32"
     ]

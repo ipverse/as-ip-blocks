@@ -1,9 +1,12 @@
 {
-  "asn": 19116,
-  "handle": "WASHINGTON-BROADBAND",
-  "description": "Washington Broadband Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19116,
+  "metadata" : {
+    "handle" : "WASHINGTON-BROADBAND",
+    "description" : "Washington Broadband Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.119.167.0/24",
       "71.93.22.0/23",
       "71.93.24.0/22",
@@ -11,7 +14,7 @@
       "71.94.210.0/24",
       "104.245.128.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:4680::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 131429,
-  "handle": "MOBIFONE-AS-VN",
-  "description": "MOBIFONE Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131429,
+  "metadata" : {
+    "handle" : "MOBIFONE-AS-VN",
+    "description" : "MOBIFONE Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "42.1.64.0/20",
       "42.1.80.0/23",
       "42.1.82.0/24",
@@ -46,7 +49,7 @@
       "165.99.16.0/23",
       "203.160.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:9d80:4::/48",
       "2402:9d80:100::/47",
       "2402:9d80:103::/48",

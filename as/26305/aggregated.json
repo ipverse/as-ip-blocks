@@ -1,14 +1,17 @@
 {
-  "asn": 26305,
-  "handle": "ASN-SSM",
-  "description": "SSM Health Care",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26305,
+  "metadata" : {
+    "handle" : "ASN-SSM",
+    "description" : "SSM Health Care",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.66.136.0/21",
       "75.128.171.0/24",
       "165.104.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:1f6::/36"
     ]
   }

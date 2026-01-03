@@ -1,9 +1,12 @@
 {
-  "asn": 9712,
-  "handle": "KPIN-AS",
-  "description": "INet Technologies Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9712,
+  "metadata" : {
+    "handle" : "KPIN-AS",
+    "description" : "INet Technologies Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.226.64.0/19",
       "43.231.204.0/24",
       "43.242.112.0/22",
@@ -15,6 +18,6 @@
       "211.35.64.0/20",
       "221.133.48.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 264494,
-  "handle": "CONNECT-UP-PROVEDOR",
-  "description": "Connect-Up Provedor",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264494,
+  "metadata" : {
+    "handle" : "CONNECT-UP-PROVEDOR",
+    "description" : "Connect-Up Provedor",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.255.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2080::/32"
     ]
   }

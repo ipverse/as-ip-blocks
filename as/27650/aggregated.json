@@ -1,9 +1,12 @@
 {
-  "asn": 27650,
-  "handle": "EMTEL",
-  "description": "EMTEL S.A. E.S.P",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27650,
+  "metadata" : {
+    "handle" : "EMTEL",
+    "description" : "EMTEL S.A. E.S.P.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.73.224.0/20",
       "190.5.192.0/20",
       "190.115.224.0/20",
@@ -12,7 +15,7 @@
       "190.115.253.0/24",
       "190.115.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:fe00::/32"
     ]
   }

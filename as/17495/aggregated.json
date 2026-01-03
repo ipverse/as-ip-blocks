@@ -1,15 +1,18 @@
 {
-  "asn": 17495,
-  "handle": "GATEWAY-AP",
-  "description": "Reliance Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17495,
+  "metadata" : {
+    "handle" : "GATEWAY-AP",
+    "description" : "Reliance Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.124.128.0/24",
       "203.124.140.0/24",
       "203.124.143.0/24",
       "203.124.144.0/20",
       "203.124.160.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

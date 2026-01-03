@@ -1,11 +1,14 @@
 {
-  "asn": 3730,
-  "handle": "AQUINA-001",
-  "description": "Aquinas College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3730,
+  "metadata" : {
+    "handle" : "AQUINA-001",
+    "description" : "Aquinas College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.92.13.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

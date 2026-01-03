@@ -1,9 +1,12 @@
 {
-  "asn": 20724,
-  "handle": "GLOBALTELEHOST",
-  "description": "GlobalTeleHost Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20724,
+  "metadata" : {
+    "handle" : "GLOBALTELEHOST",
+    "description" : "GlobalTeleHost Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.244.13.0/24",
       "91.227.62.0/24",
       "91.239.216.0/24",
@@ -12,6 +15,6 @@
       "193.109.253.0/24",
       "212.46.37.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

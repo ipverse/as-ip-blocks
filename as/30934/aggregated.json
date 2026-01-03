@@ -1,12 +1,15 @@
 {
-  "asn": 30934,
-  "handle": "AARGAUBANK-AS",
-  "description": "Aargauische Kantonalbank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30934,
+  "metadata" : {
+    "handle" : "AARGAUBANK-AS",
+    "description" : "Aargauische Kantonalbank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.65.103.0/24",
       "212.243.12.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

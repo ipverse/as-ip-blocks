@@ -1,9 +1,12 @@
 {
-  "asn": 40786,
-  "handle": "DIGI-GRP-JAM",
-  "description": "Digicel Jamaica",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40786,
+  "metadata" : {
+    "handle" : "DIGI-GRP-JAM",
+    "description" : "Digicel Jamaica",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.143.64.0/18",
       "66.54.112.0/21",
       "66.212.54.0/24",
@@ -15,7 +18,7 @@
       "173.225.240.0/20",
       "184.170.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:a200:3000::/47",
       "2605:a200:9201::/48",
       "2605:a200:9205::/48",

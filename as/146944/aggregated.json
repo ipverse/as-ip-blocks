@@ -1,13 +1,16 @@
 {
-  "asn": 146944,
-  "handle": "UNET-AS",
-  "description": "Vnetwork",
-  "subnets": {
-    "ipv4": [
+  "asn" : 146944,
+  "metadata" : {
+    "handle" : "UNET-AS",
+    "description" : "Vnetwork",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.172.88.0/23",
       "103.180.88.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:6780::/48"
     ]
   }

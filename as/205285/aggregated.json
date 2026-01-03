@@ -1,9 +1,12 @@
 {
-  "asn": 205285,
-  "handle": "KAPULAN",
-  "description": "Kapulan Kft",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205285,
+  "metadata" : {
+    "handle" : "KAPULAN",
+    "description" : "Kapulan Kft.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.46.29.0/24",
       "45.11.224.0/22",
       "45.14.136.0/22",
@@ -16,6 +19,6 @@
       "194.110.140.0/23",
       "194.110.148.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

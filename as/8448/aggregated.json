@@ -1,14 +1,17 @@
 {
-  "asn": 8448,
-  "handle": "CETIN-HU",
-  "description": "CETIN Hungary Zrt",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8448,
+  "metadata" : {
+    "handle" : "CETIN-HU",
+    "description" : "CETIN Hungary Zrt.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.225.192.0/18",
       "188.44.128.0/17",
       "217.79.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1878::/29"
     ]
   }

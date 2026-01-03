@@ -1,9 +1,12 @@
 {
-  "asn": 207594,
-  "handle": "CONNECTIVIA",
-  "description": "Connectivia S.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207594,
+  "metadata" : {
+    "handle" : "CONNECTIVIA",
+    "description" : "Connectivia S.r.l",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.116.148.0/22",
       "85.116.152.0/21",
       "151.241.240.0/21",
@@ -15,7 +18,7 @@
       "194.105.92.0/22",
       "195.179.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:a2a0::/32",
       "2a05:10c0::/29"
     ]

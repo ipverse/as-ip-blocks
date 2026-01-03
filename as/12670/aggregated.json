@@ -1,14 +1,17 @@
 {
-  "asn": 12670,
-  "handle": "AS-COMPLETEL",
-  "description": "COMPLETEL SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12670,
+  "metadata" : {
+    "handle" : "AS-COMPLETEL",
+    "description" : "COMPLETEL SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.231.9.0/24",
       "193.57.205.0/24",
       "193.109.250.0/23",
       "193.160.131.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

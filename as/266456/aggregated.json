@@ -1,12 +1,15 @@
 {
-  "asn": 266456,
-  "handle": "JR-NET",
-  "description": "JR NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266456,
+  "metadata" : {
+    "handle" : "JR-NET",
+    "description" : "JR NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.82.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3818::/32"
     ]
   }

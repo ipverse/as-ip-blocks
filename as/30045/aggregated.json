@@ -1,9 +1,12 @@
 {
-  "asn": 30045,
-  "handle": "UHN-ASN",
-  "description": "University Health Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30045,
+  "metadata" : {
+    "handle" : "UHN-ASN",
+    "description" : "University Health Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.75.165.0/24",
       "192.139.83.0/24",
       "192.139.223.0/24",
@@ -17,7 +20,7 @@
       "205.210.128.0/24",
       "205.211.160.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:62:4000::/46",
       "2620:62:400c::/46"
     ]

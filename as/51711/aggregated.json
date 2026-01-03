@@ -1,10 +1,13 @@
 {
-  "asn": 51711,
-  "handle": "INSYS-AS",
-  "description": "iNet Ltd",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 51711,
+  "metadata" : {
+    "handle" : "INSYS-AS",
+    "description" : "iNet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a00:b700::/48",
       "2a00:b704::/32",
       "2a0d:3c45::/32",

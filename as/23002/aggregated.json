@@ -1,13 +1,16 @@
 {
-  "asn": 23002,
-  "handle": "TELMEX-BRASIL",
-  "description": "Telmex do Brasil Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23002,
+  "metadata" : {
+    "handle" : "TELMEX-BRASIL",
+    "description" : "Telmex do Brasil Ltda.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.155.96.0/20",
       "200.159.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:480:1000::/40"
     ]
   }

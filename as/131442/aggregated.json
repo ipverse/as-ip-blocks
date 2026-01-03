@@ -1,9 +1,12 @@
 {
-  "asn": 131442,
-  "handle": "DIGITALNETWORK-IN",
-  "description": "Digital Network Associates Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131442,
+  "metadata" : {
+    "handle" : "DIGITALNETWORK-IN",
+    "description" : "Digital Network Associates Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.29.116.0/22",
       "103.97.240.0/22",
       "103.122.10.0/23",
@@ -16,7 +19,7 @@
       "150.107.180.0/24",
       "150.107.183.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:25a0::/35",
       "2401:25a0:2000::/36"
     ]

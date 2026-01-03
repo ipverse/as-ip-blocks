@@ -1,12 +1,15 @@
 {
-  "asn": 50126,
-  "handle": "TELESERVISE-AS",
-  "description": "OOO Teleservis",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50126,
+  "metadata" : {
+    "handle" : "TELESERVISE-AS",
+    "description" : "OOO Teleservis",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.232.144.0/21",
       "77.232.152.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 2376,
-  "handle": "BLEU-AS",
-  "description": "Bleu SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2376,
+  "metadata" : {
+    "handle" : "BLEU-AS",
+    "description" : "Bleu SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.232.0.0/16",
       "90.72.0.0/16",
       "90.97.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:dfff::/32"
     ]
   }

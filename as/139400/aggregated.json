@@ -1,12 +1,15 @@
 {
-  "asn": 139400,
-  "handle": "IDNIC-NINJA-AS-ID",
-  "description": "PT. Rak Super Ninja",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139400,
+  "metadata" : {
+    "handle" : "IDNIC-NINJA-AS-ID",
+    "description" : "PT. Rak Super Ninja",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.143.170.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:8d80::/48"
     ]
   }

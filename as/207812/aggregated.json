@@ -1,12 +1,15 @@
 {
-  "asn": 207812,
-  "handle": "DM-AUTO",
-  "description": "DM AUTO EOOD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207812,
+  "metadata" : {
+    "handle" : "DM-AUTO",
+    "description" : "DM AUTO EOOD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.124.62.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:ff8::/48"
     ]
   }

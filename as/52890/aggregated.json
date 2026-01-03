@@ -1,13 +1,16 @@
 {
-  "asn": 52890,
-  "handle": "CENTRO-INTEGRADO-TELEMATICA",
-  "description": "Centro Integrado de Telemática do Exército",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52890,
+  "metadata" : {
+    "handle" : "CENTRO-INTEGRADO-TELEMATICA",
+    "description" : "Centro Integrado de Telemática do Exército",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.8.80.0/20",
       "189.38.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1f18::/32"
     ]
   }

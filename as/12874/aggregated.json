@@ -1,9 +1,12 @@
 {
-  "asn": 12874,
-  "handle": "FASTWEB",
-  "description": "Fastweb SpA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12874,
+  "metadata" : {
+    "handle" : "FASTWEB",
+    "description" : "Fastweb SpA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.16.17.0/24",
       "2.19.179.0/24",
       "2.224.0.0/12",
@@ -71,7 +74,7 @@
       "213.140.0.0/19",
       "213.156.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:b00::/29",
       "2a04:a580::/29"
     ]

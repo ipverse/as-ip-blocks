@@ -1,15 +1,18 @@
 {
-  "asn": 22593,
-  "handle": "BCBSNC-AS",
-  "description": "Blue Cross and Blue Shield of North Carolina",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22593,
+  "metadata" : {
+    "handle" : "BCBSNC-AS",
+    "description" : "Blue Cross and Blue Shield of North Carolina",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.69.0.0/18",
       "170.69.64.0/19",
       "170.69.96.0/20",
       "170.69.253.0/24",
       "170.69.254.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

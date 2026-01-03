@@ -1,13 +1,16 @@
 {
-  "asn": 26402,
-  "handle": "SANTABARBARACITY",
-  "description": "City of Santa Barbara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26402,
+  "metadata" : {
+    "handle" : "SANTABARBARACITY",
+    "description" : "City of Santa Barbara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.29.233.0/24",
       "209.150.78.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:19f8:211::/48",
       "2001:4870:a24a::/48"
     ]

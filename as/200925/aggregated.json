@@ -1,13 +1,16 @@
 {
-  "asn": 200925,
-  "handle": "KRIOS",
-  "description": "Silicom SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200925,
+  "metadata" : {
+    "handle" : "KRIOS",
+    "description" : "Silicom SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.62.168.0/22",
       "194.113.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:7e60::/32",
       "2a07:e100::/32"
     ]

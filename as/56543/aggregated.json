@@ -1,11 +1,14 @@
 {
-  "asn": 56543,
-  "handle": "UNIVERSAL-TELECOM-AS",
-  "description": "Universal-Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56543,
+  "metadata" : {
+    "handle" : "UNIVERSAL-TELECOM-AS",
+    "description" : "Universal-Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.223.227.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

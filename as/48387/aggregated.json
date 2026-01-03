@@ -1,12 +1,15 @@
 {
-  "asn": 48387,
-  "handle": "RTBH-AS",
-  "description": "Christian Seitz",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48387,
+  "metadata" : {
+    "handle" : "RTBH-AS",
+    "description" : "Christian Seitz",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.88.60.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:10a8::/47"
     ]
   }

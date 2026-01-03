@@ -1,13 +1,16 @@
 {
-  "asn": 262801,
-  "handle": "AMI-TELECOMUNICACOES",
-  "description": "AMI Telecomunicações LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262801,
+  "metadata" : {
+    "handle" : "AMI-TELECOMUNICACOES",
+    "description" : "AMI Telecomunicações LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.250.0.0/21",
       "187.17.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:244::/32"
     ]
   }

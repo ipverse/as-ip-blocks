@@ -1,12 +1,15 @@
 {
-  "asn": 269815,
-  "handle": "RED-4G",
-  "description": "RED 4G SA DE CV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269815,
+  "metadata" : {
+    "handle" : "RED-4G",
+    "description" : "RED 4G SA DE CV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.186.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:fb60::/32"
     ]
   }

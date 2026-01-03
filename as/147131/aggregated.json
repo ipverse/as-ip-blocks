@@ -1,14 +1,17 @@
 {
-  "asn": 147131,
-  "handle": "IDNIC-GFIBER-AS-ID",
-  "description": "PT Global Sarana Elektronika",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147131,
+  "metadata" : {
+    "handle" : "IDNIC-GFIBER-AS-ID",
+    "description" : "PT Global Sarana Elektronika",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.176.96.0/23",
       "138.252.178.0/23",
       "165.99.160.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:1ac0::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 9313,
-  "handle": "ONTHENET-AS",
-  "description": "Network Technology (Aust) P/L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9313,
+  "metadata" : {
+    "handle" : "ONTHENET-AS",
+    "description" : "Network Technology (Aust) P/L",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.178.175.0/24",
       "1.179.62.0/23",
       "103.21.144.0/23",
@@ -48,6 +51,6 @@
       "210.8.124.0/22",
       "210.9.120.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

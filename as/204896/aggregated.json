@@ -1,9 +1,12 @@
 {
-  "asn": 204896,
-  "handle": "VAXJO-ASN",
-  "description": "Vaxjo Kommun",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204896,
+  "metadata" : {
+    "handle" : "VAXJO-ASN",
+    "description" : "Vaxjo Kommun",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.142.112.0/20",
       "185.143.148.0/22",
       "192.121.244.0/24",
@@ -15,7 +18,7 @@
       "194.103.158.0/24",
       "217.74.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:4bc::/48",
       "2001:67c:4e4::/48",
       "2001:67c:1384::/48",

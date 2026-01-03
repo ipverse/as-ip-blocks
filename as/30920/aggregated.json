@@ -1,12 +1,15 @@
 {
-  "asn": 30920,
-  "handle": "MOBILON-AS",
-  "description": "Mobilon Telecommunications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30920,
+  "metadata" : {
+    "handle" : "MOBILON-AS",
+    "description" : "Mobilon Telecommunications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.30.39.0/24",
       "195.130.214.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

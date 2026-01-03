@@ -1,12 +1,15 @@
 {
-  "asn": 273639,
-  "handle": "UTRA-NET",
-  "description": "UTRA NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273639,
+  "metadata" : {
+    "handle" : "UTRA-NET",
+    "description" : "UTRA NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.9.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:89fc::/32"
     ]
   }

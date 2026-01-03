@@ -1,12 +1,15 @@
 {
-  "asn": 31241,
-  "handle": "ASP-BE-AS",
-  "description": "ASP SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31241,
+  "metadata" : {
+    "handle" : "ASP-BE-AS",
+    "description" : "ASP SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.65.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:c1c0::/32"
     ]
   }

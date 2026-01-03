@@ -1,11 +1,14 @@
 {
-  "asn": 40752,
-  "handle": "TVG-NETWORK",
-  "description": "TVG Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40752,
+  "metadata" : {
+    "handle" : "TVG-NETWORK",
+    "description" : "TVG Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.88.35.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

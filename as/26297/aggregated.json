@@ -1,14 +1,17 @@
 {
-  "asn": 26297,
-  "handle": "HCGOV",
-  "description": "Howard County Maryland",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26297,
+  "metadata" : {
+    "handle" : "HCGOV",
+    "description" : "Howard County Maryland",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.140.212.0/22",
       "167.102.188.0/22",
       "167.102.248.0/21",
       "198.51.121.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

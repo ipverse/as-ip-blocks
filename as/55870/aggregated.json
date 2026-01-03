@@ -1,12 +1,15 @@
 {
-  "asn": 55870,
-  "handle": "DCC-NET-AS-AP",
-  "description": "Darwin City Council",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55870,
+  "metadata" : {
+    "handle" : "DCC-NET-AS-AP",
+    "description" : "Darwin City Council",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.74.44.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:d4::/48"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 29069,
-  "handle": "TLK-AS",
-  "description": "PJSC Rostelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29069,
+  "metadata" : {
+    "handle" : "TLK-AS",
+    "description" : "PJSC Rostelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.87.112.0/21",
       "95.215.96.0/21",
       "178.216.160.0/21",
       "185.13.112.0/22",
       "195.128.56.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

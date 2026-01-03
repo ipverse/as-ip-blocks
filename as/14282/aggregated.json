@@ -1,13 +1,16 @@
 {
-  "asn": 14282,
-  "handle": "PERSIS-TELECOM",
-  "description": "PERSIS TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14282,
+  "metadata" : {
+    "handle" : "PERSIS-TELECOM",
+    "description" : "PERSIS TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "189.14.240.0/20",
       "200.189.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:84::/32"
     ]
   }

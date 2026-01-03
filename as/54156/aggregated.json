@@ -1,12 +1,15 @@
 {
-  "asn": 54156,
-  "handle": "CITY-OF-HUNTSVILLE",
-  "description": "City of Huntsville",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54156,
+  "metadata" : {
+    "handle" : "CITY-OF-HUNTSVILLE",
+    "description" : "City of Huntsville",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.135.74.0/24",
       "204.29.185.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

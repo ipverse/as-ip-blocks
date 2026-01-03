@@ -1,13 +1,16 @@
 {
-  "asn": 44973,
-  "handle": "RZHAS-AS",
-  "description": "Rechenzentrum Hassfurt GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44973,
+  "metadata" : {
+    "handle" : "RZHAS-AS",
+    "description" : "Rechenzentrum Hassfurt GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.88.224.0/22",
       "185.130.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:59c::/48",
       "2a02:218::/29"
     ]

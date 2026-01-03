@@ -1,9 +1,12 @@
 {
-  "asn": 29555,
-  "handle": "ALTEL-AS",
-  "description": "Mobile Telecom-Service LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29555,
+  "metadata" : {
+    "handle" : "ALTEL-AS",
+    "description" : "Mobile Telecom-Service LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.117.96.0/19",
       "185.57.72.0/22",
       "217.76.64.0/23",
@@ -13,7 +16,7 @@
       "217.76.74.0/23",
       "217.76.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:32c0:a::/47",
       "2a03:32c0:c::/48",
       "2a03:32c0:16::/47",

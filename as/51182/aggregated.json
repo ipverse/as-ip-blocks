@@ -1,13 +1,16 @@
 {
-  "asn": 51182,
-  "handle": "UAEU",
-  "description": "The United Arab Emirates University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51182,
+  "metadata" : {
+    "handle" : "UAEU",
+    "description" : "The United Arab Emirates University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.250.248.0/21",
       "194.69.1.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1718::/32"
     ]
   }

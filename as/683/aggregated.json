@@ -1,9 +1,12 @@
 {
-  "asn": 683,
-  "handle": "ARGONNE-AS",
-  "description": "Argonne National Laboratory",
-  "subnets": {
-    "ipv4": [
+  "asn" : 683,
+  "metadata" : {
+    "handle" : "ARGONNE-AS",
+    "description" : "Argonne National Laboratory",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.202.0.0/16",
       "140.221.0.0/18",
       "140.221.68.0/22",
@@ -24,7 +27,7 @@
       "192.148.94.0/23",
       "198.252.143.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:278:2000::/36",
       "2602:278:4000::/35",
       "2602:278:8100::/48",

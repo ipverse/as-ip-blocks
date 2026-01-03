@@ -1,10 +1,13 @@
 {
-  "asn": 153033,
-  "handle": "SHANGXU-AS-AP",
-  "description": "Shang Xu",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 153033,
+  "metadata" : {
+    "handle" : "SHANGXU-AS-AP",
+    "description" : "Shang Xu",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2406:840:fdb0::/44",
       "2406:840:fe93::/48"
     ]

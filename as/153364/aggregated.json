@@ -1,12 +1,15 @@
 {
-  "asn": 153364,
-  "handle": "PETROSYS-AS-AP",
-  "description": "Petrosys Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153364,
+  "metadata" : {
+    "handle" : "PETROSYS-AS-AP",
+    "description" : "Petrosys Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.3.79.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:3240::/48"
     ]
   }

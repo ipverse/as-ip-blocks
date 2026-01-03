@@ -1,11 +1,14 @@
 {
-  "asn": 40362,
-  "handle": "CHAPIN-AS",
-  "description": "Chapin School",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40362,
+  "metadata" : {
+    "handle" : "CHAPIN-AS",
+    "description" : "Chapin School",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.80.14.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

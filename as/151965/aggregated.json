@@ -1,12 +1,15 @@
 {
-  "asn": 151965,
-  "handle": "HATG-AS-AP",
-  "description": "Hepta Alliance Technology Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151965,
+  "metadata" : {
+    "handle" : "HATG-AS-AP",
+    "description" : "Hepta Alliance Technology Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.67.50.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:4760::/34",
       "2401:4760:4000::/36"
     ]

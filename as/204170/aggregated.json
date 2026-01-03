@@ -1,9 +1,12 @@
 {
-  "asn": 204170,
-  "handle": "AWASR",
-  "description": "Awaser Oman LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204170,
+  "metadata" : {
+    "handle" : "AWASR",
+    "description" : "Awaser Oman LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.253.0/24",
       "5.102.176.0/21",
       "38.10.224.0/20",
@@ -84,7 +87,7 @@
       "199.48.224.0/24",
       "206.167.33.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:c740:2::/48",
       "2a0a:c740:a::/48",
       "2a0a:c740:1063::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 54801,
-  "handle": "ZILLION-NETWORK",
-  "description": "Zillion Network Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54801,
+  "metadata" : {
+    "handle" : "ZILLION-NETWORK",
+    "description" : "Zillion Network Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.194.85.0/24",
       "45.195.60.0/24",
       "45.195.192.0/24",
@@ -106,6 +109,6 @@
       "207.56.192.0/19",
       "207.244.130.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 44760,
-  "handle": "SKI-AS",
-  "description": "Skidata GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44760,
+  "metadata" : {
+    "handle" : "SKI-AS",
+    "description" : "Skidata GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.230.3.0/24",
       "193.46.190.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

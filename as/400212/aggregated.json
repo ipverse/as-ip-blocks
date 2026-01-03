@@ -1,14 +1,17 @@
 {
-  "asn": 400212,
-  "handle": "VERGETEL-GROUP-LLC",
-  "description": "VergeTel Group LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400212,
+  "metadata" : {
+    "handle" : "VERGETEL-GROUP-LLC",
+    "description" : "VergeTel Group LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.133.216.0/22",
       "166.88.185.0/24",
       "206.168.135.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fbd9::/36"
     ]
   }

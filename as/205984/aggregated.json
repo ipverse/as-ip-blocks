@@ -1,14 +1,17 @@
 {
-  "asn": 205984,
-  "handle": "POWERNET",
-  "description": "Powernet Aps",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205984,
+  "metadata" : {
+    "handle" : "POWERNET",
+    "description" : "Powernet Aps",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.192.160.0/22",
       "84.246.243.0/24",
       "91.196.188.0/24",
       "185.51.78.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

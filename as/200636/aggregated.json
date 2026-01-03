@@ -1,9 +1,12 @@
 {
-  "asn": 200636,
-  "handle": "PARAVIRT",
-  "description": "Paravirt LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200636,
+  "metadata" : {
+    "handle" : "PARAVIRT",
+    "description" : "Paravirt LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.175.215.0/24",
       "82.24.85.0/24",
       "82.24.111.0/24",
@@ -11,6 +14,6 @@
       "217.217.24.0/23",
       "217.217.30.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

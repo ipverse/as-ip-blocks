@@ -1,9 +1,12 @@
 {
-  "asn": 52262,
-  "handle": "TELEFONICA-CELULAR",
-  "description": "Telefónica Celular S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52262,
+  "metadata" : {
+    "handle" : "TELEFONICA-CELULAR",
+    "description" : "Telefónica Celular S.A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.2.128.0/23",
       "186.2.131.0/24",
       "186.2.132.0/24",
@@ -16,7 +19,7 @@
       "190.242.24.0/22",
       "191.103.86.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:8d43:1::/48",
       "2803:8d43:4::/48",
       "2803:8d43:8001::/48",

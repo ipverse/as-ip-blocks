@@ -1,11 +1,14 @@
 {
-  "asn": 42121,
-  "handle": "RSNET1-AS",
-  "description": "The Federal Guard Service of the Russian Federation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42121,
+  "metadata" : {
+    "handle" : "RSNET1-AS",
+    "description" : "The Federal Guard Service of the Russian Federation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.226.127.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

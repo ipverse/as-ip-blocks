@@ -1,9 +1,12 @@
 {
-  "asn": 7529,
-  "handle": "NETIRD",
-  "description": "GMO NetIRD Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7529,
+  "metadata" : {
+    "handle" : "NETIRD",
+    "description" : "GMO NetIRD Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.17.189.0/24",
       "202.34.8.0/23",
       "202.34.15.0/24",
@@ -12,7 +15,7 @@
       "210.229.32.0/23",
       "219.99.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:f800::/32"
     ]
   }

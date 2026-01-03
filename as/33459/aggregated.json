@@ -1,16 +1,19 @@
 {
-  "asn": 33459,
-  "handle": "EVAULT-AS",
-  "description": "Open Text Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33459,
+  "metadata" : {
+    "handle" : "EVAULT-AS",
+    "description" : "Open Text Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.203.44.0/23",
       "66.159.106.0/23",
       "199.87.216.0/22",
       "199.231.96.0/22",
       "205.141.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:10c:f004::/48",
       "2620:10c:f014::/48"
     ]

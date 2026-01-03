@@ -1,9 +1,12 @@
 {
-  "asn": 1237,
-  "handle": "KREONET-AS",
-  "description": "KISTI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1237,
+  "metadata" : {
+    "handle" : "KREONET-AS",
+    "description" : "KISTI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.75.0.0/16",
       "147.47.120.0/21",
       "150.183.0.0/16",
@@ -158,7 +161,7 @@
       "218.233.7.0/24",
       "218.234.156.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:320::/32"
     ]
   }

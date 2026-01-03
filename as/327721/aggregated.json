@@ -1,13 +1,16 @@
 {
-  "asn": 327721,
-  "handle": "INTERSWITCH",
-  "description": "Interswitch Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 327721,
+  "metadata" : {
+    "handle" : "INTERSWITCH",
+    "description" : "Interswitch Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.72.32.0/24",
       "154.72.34.0/23",
       "154.72.36.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

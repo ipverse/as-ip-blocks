@@ -1,9 +1,12 @@
 {
-  "asn": 137967,
-  "handle": "DIGICON-ISP-AS",
-  "description": "Digicon Telecommunication Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137967,
+  "metadata" : {
+    "handle" : "DIGICON-ISP-AS",
+    "description" : "Digicon Telecommunication Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.11.0/24",
       "43.230.210.0/24",
       "103.14.72.0/24",
@@ -31,7 +34,7 @@
       "116.204.148.0/22",
       "160.250.197.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:1e40::/32"
     ]
   }

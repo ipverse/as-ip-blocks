@@ -1,9 +1,12 @@
 {
-  "asn": 7506,
-  "handle": "INTERQ",
-  "description": "GMO Internet Group Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7506,
+  "metadata" : {
+    "handle" : "INTERQ",
+    "description" : "GMO Internet Group Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.3.188.0/22",
       "118.27.0.0/17",
       "133.130.16.0/20",
@@ -26,7 +29,7 @@
       "210.253.96.0/19",
       "211.125.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8500:1000::/36",
       "2400:8500:6703::/48",
       "2400:8500:9d07::/48",

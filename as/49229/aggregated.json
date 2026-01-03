@@ -1,15 +1,18 @@
 {
-  "asn": 49229,
-  "handle": "ANS-GROUP-AS",
-  "description": "ANS Group Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49229,
+  "metadata" : {
+    "handle" : "ANS-GROUP-AS",
+    "description" : "ANS Group Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.39.166.0/24",
       "91.226.181.0/24",
       "185.12.192.0/22",
       "185.34.232.0/22",
       "195.88.236.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 42085,
-  "handle": "TELCONET-AS",
-  "description": "Telconet AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42085,
+  "metadata" : {
+    "handle" : "TELCONET-AS",
+    "description" : "Telconet AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.64.138.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

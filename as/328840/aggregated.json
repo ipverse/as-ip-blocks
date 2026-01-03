@@ -1,13 +1,16 @@
 {
-  "asn": 328840,
-  "handle": "ST-DIGITAL-AS",
-  "description": "ST DIGITAL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328840,
+  "metadata" : {
+    "handle" : "ST-DIGITAL-AS",
+    "description" : "ST DIGITAL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.208.104.0/22",
       "102.220.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:4e00::/32"
     ]
   }

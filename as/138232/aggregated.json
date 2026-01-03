@@ -1,13 +1,16 @@
 {
-  "asn": 138232,
-  "handle": "SIVAINFO-AS-IN",
-  "description": "Sivaan Infocom Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138232,
+  "metadata" : {
+    "handle" : "SIVAINFO-AS-IN",
+    "description" : "Sivaan Infocom Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.124.141.0/24",
       "103.124.142.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:b2c0::/48"
     ]
   }

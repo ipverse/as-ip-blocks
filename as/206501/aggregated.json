@@ -1,11 +1,14 @@
 {
-  "asn": 206501,
-  "handle": "RCLOUD-AS",
-  "description": "LLC Russian clouds",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206501,
+  "metadata" : {
+    "handle" : "RCLOUD-AS",
+    "description" : "LLC Russian clouds",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "217.78.228.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

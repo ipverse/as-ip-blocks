@@ -1,10 +1,13 @@
 {
-  "asn": 62435,
-  "handle": "ROSENET-AS",
-  "description": "Lily Rose",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 62435,
+  "metadata" : {
+    "handle" : "ROSENET-AS",
+    "description" : "Lily Rose",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a05:dfc1:7c00::/40"
     ]
   }

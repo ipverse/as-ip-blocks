@@ -1,12 +1,15 @@
 {
-  "asn": 133809,
-  "handle": "ARTORIUS-AS-ID",
-  "description": "PT. Artorius Telemetri Sentosa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133809,
+  "metadata" : {
+    "handle" : "ARTORIUS-AS-ID",
+    "description" : "PT. Artorius Telemetri Sentosa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.50.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:6f20::/47",
       "2400:6f20:3::/48",
       "2400:6f20:4::/47",

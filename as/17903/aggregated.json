@@ -1,9 +1,12 @@
 {
-  "asn": 17903,
-  "handle": "COGNIZANT-IN-AP",
-  "description": "Cognizant Technology Solutions India Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17903,
+  "metadata" : {
+    "handle" : "COGNIZANT-IN-AP",
+    "description" : "Cognizant Technology Solutions India Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.5.252.0/23",
       "8.33.202.0/24",
       "8.47.80.0/24",
@@ -29,6 +32,6 @@
       "207.243.5.0/24",
       "208.177.44.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

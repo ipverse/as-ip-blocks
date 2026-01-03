@@ -1,13 +1,16 @@
 {
-  "asn": 131728,
-  "handle": "ANEKASIGNAL-AS-ID",
-  "description": "PT Aneka Signal",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131728,
+  "metadata" : {
+    "handle" : "ANEKASIGNAL-AS-ID",
+    "description" : "PT Aneka Signal",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.12.114.0/23",
       "203.153.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:e700::/32"
     ]
   }

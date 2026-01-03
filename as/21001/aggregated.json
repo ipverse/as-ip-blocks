@@ -1,14 +1,17 @@
 {
-  "asn": 21001,
-  "handle": "NETKA-AS",
-  "description": "NETKA TELEKOM LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21001,
+  "metadata" : {
+    "handle" : "NETKA-AS",
+    "description" : "NETKA TELEKOM LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.40.28.0/22",
       "91.90.216.0/22",
       "94.232.24.0/22",
       "193.107.16.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

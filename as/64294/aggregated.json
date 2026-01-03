@@ -1,9 +1,12 @@
 {
-  "asn": 64294,
-  "handle": "PAC-GCS",
-  "description": "Panasonic Avionics Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64294,
+  "metadata" : {
+    "handle" : "PAC-GCS",
+    "description" : "Panasonic Avionics Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.242.88.0/23",
       "199.21.160.0/23",
       "199.21.162.0/24",
@@ -12,6 +15,6 @@
       "205.220.136.0/22",
       "205.220.148.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 393780,
-  "handle": "HYPER-ASNET",
-  "description": "Hyper Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393780,
+  "metadata" : {
+    "handle" : "HYPER-ASNET",
+    "description" : "Hyper Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.124.3.0/24",
       "104.245.17.0/24",
       "104.245.18.0/23",
@@ -11,6 +14,6 @@
       "208.89.166.0/23",
       "208.95.75.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 24163,
-  "handle": "UBBNET-AS-TW",
-  "description": "UNION BROADBAND NETWORK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24163,
+  "metadata" : {
+    "handle" : "UBBNET-AS-TW",
+    "description" : "UNION BROADBAND NETWORK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.64.35.0/24",
       "49.158.148.0/22",
       "49.158.152.0/21",
@@ -37,7 +40,7 @@
       "211.76.72.0/22",
       "211.76.76.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:4b00:4000::/36",
       "2407:4b00:fd04::/48",
       "2407:4b00:ff04::/48"

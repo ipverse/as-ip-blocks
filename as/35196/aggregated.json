@@ -1,10 +1,13 @@
 {
-  "asn": 35196,
-  "handle": "IH-TRANSIT-AS",
-  "description": "FIRST SERVER LIMITED",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 35196,
+  "metadata" : {
+    "handle" : "IH-TRANSIT-AS",
+    "description" : "FIRST SERVER LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0a:9300:1000::/48",
       "2a0c:f647::/32"
     ]

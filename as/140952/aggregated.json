@@ -1,9 +1,12 @@
 {
-  "asn": 140952,
-  "handle": "STL-AS-AP",
-  "description": "Strong Technology LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140952,
+  "metadata" : {
+    "handle" : "STL-AS-AP",
+    "description" : "Strong Technology LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.145.90.0/23",
       "103.209.253.0/24",
       "103.209.254.0/24",
@@ -12,7 +15,7 @@
       "173.245.219.0/24",
       "216.151.183.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:5d80:6300::/40",
       "2404:5d80:6800::/40",
       "2404:5d80:7400::/40",

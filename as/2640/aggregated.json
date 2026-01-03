@@ -1,12 +1,15 @@
 {
-  "asn": 2640,
-  "handle": "AMESLAB-AS",
-  "description": "Ames Laboratory",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2640,
+  "metadata" : {
+    "handle" : "AMESLAB-AS",
+    "description" : "Ames Laboratory",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.155.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:57::/48"
     ]
   }

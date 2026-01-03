@@ -1,9 +1,12 @@
 {
-  "asn": 37200,
-  "handle": "SIMBANET-NIGERIA",
-  "description": "SimbaNET Nigeria Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37200,
+  "metadata" : {
+    "handle" : "SIMBANET-NIGERIA",
+    "description" : "SimbaNET Nigeria Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.78.100.0/24",
       "41.78.102.0/24",
       "197.255.208.0/24",
@@ -15,6 +18,6 @@
       "197.255.221.0/24",
       "197.255.222.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

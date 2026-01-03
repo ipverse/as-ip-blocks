@@ -1,12 +1,15 @@
 {
-  "asn": 8208,
-  "handle": "TEAMWARE-AS",
-  "description": "Teamware GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8208,
+  "metadata" : {
+    "handle" : "TEAMWARE-AS",
+    "description" : "Teamware GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.172.192.0/22",
       "217.19.168.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

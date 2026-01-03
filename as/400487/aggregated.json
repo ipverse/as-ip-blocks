@@ -1,9 +1,12 @@
 {
-  "asn": 400487,
-  "handle": "TORONTO-PUBLIC-LIBRARY-TPL-01",
-  "description": "Toronto Public Library Board",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400487,
+  "metadata" : {
+    "handle" : "TORONTO-PUBLIC-LIBRARY-TPL-01",
+    "description" : "Toronto Public Library Board",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.30.202.0/24",
       "192.30.226.0/24",
       "205.189.94.0/23",
@@ -11,6 +14,6 @@
       "205.189.176.0/20",
       "205.189.192.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 39531,
-  "handle": "ALTER-NET-AS",
-  "description": "Alter-NET SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39531,
+  "metadata" : {
+    "handle" : "ALTER-NET-AS",
+    "description" : "Alter-NET SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.96.27.0/24",
       "93.115.174.0/24",
       "194.50.50.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

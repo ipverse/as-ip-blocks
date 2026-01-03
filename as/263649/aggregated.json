@@ -1,9 +1,12 @@
 {
-  "asn": 263649,
-  "handle": "BRPHONIA-PROVEDOR-IP",
-  "description": "BrPhonia Provedor Ip Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263649,
+  "metadata" : {
+    "handle" : "BRPHONIA-PROVEDOR-IP",
+    "description" : "BrPhonia Provedor Ip Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.0.96.0/22",
       "138.94.76.0/22",
       "143.137.236.0/22",
@@ -11,7 +14,7 @@
       "170.150.84.0/22",
       "177.74.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:10c8::/32"
     ]
   }

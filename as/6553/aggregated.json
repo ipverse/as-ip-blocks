@@ -1,12 +1,15 @@
 {
-  "asn": 6553,
-  "handle": "HTCNET-ORG",
-  "description": "HTCNET.ORG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6553,
+  "metadata" : {
+    "handle" : "HTCNET-ORG",
+    "description" : "HTCNET.ORG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.118.144.0/22",
       "137.118.194.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

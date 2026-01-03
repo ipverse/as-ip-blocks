@@ -1,13 +1,16 @@
 {
-  "asn": 19218,
-  "handle": "MTE-ASN",
-  "description": "Midvale Telephone Exchange Incorporated",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19218,
+  "metadata" : {
+    "handle" : "MTE-ASN",
+    "description" : "Midvale Telephone Exchange Incorporated",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.84.16.0/21",
       "184.170.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:fd00:1000::/39",
       "2604:fd00:2000::/35"
     ]

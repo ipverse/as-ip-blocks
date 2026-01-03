@@ -1,14 +1,17 @@
 {
-  "asn": 52817,
-  "handle": "NEWCENTER-TELECOM",
-  "description": "NEWCENTER TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52817,
+  "metadata" : {
+    "handle" : "NEWCENTER-TELECOM",
+    "description" : "NEWCENTER TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.83.92.0/22",
       "177.72.28.0/22",
       "179.124.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:16a8::/32"
     ]
   }

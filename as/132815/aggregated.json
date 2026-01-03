@@ -1,9 +1,12 @@
 {
-  "asn": 132815,
-  "handle": "EWL-AS-AP",
-  "description": "Evolution Wireless Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132815,
+  "metadata" : {
+    "handle" : "EWL-AS-AP",
+    "description" : "Evolution Wireless Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.252.64.0/22",
       "103.23.142.0/23",
       "103.25.244.0/22",
@@ -12,6 +15,6 @@
       "203.34.214.0/23",
       "216.250.98.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

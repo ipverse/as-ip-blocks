@@ -1,12 +1,15 @@
 {
-  "asn": 203099,
-  "handle": "LOADFRONT",
-  "description": "LoadFront S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203099,
+  "metadata" : {
+    "handle" : "LOADFRONT",
+    "description" : "LoadFront S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.142.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:2a00::/29"
     ]
   }

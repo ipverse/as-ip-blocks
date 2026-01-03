@@ -1,12 +1,15 @@
 {
-  "asn": 49911,
-  "handle": "AS-CDNSQUARED",
-  "description": "CDN Squared Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49911,
+  "metadata" : {
+    "handle" : "AS-CDNSQUARED",
+    "description" : "CDN Squared Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.76.48.0/23",
       "185.76.51.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

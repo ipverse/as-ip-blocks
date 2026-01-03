@@ -1,14 +1,17 @@
 {
-  "asn": 131414,
-  "handle": "LVSOFT-AS-VN",
-  "description": "Long Van Soft Solution JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131414,
+  "metadata" : {
+    "handle" : "LVSOFT-AS-VN",
+    "description" : "Long Van Soft Solution JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.118.144.0/22",
       "103.97.132.0/22",
       "103.237.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:bf40:3::/48"
     ]
   }

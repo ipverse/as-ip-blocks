@@ -1,11 +1,14 @@
 {
-  "asn": 150408,
-  "handle": "EXTREMECOM-AS-AP",
-  "description": "Extreme Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150408,
+  "metadata" : {
+    "handle" : "EXTREMECOM-AS-AP",
+    "description" : "Extreme Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.31.10.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

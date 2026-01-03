@@ -1,9 +1,12 @@
 {
-  "asn": 23393,
-  "handle": "NUCDN",
-  "description": "NuCDN LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23393,
+  "metadata" : {
+    "handle" : "NUCDN",
+    "description" : "NuCDN LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.20.241.0/24",
       "8.20.243.0/24",
       "8.20.247.0/24",
@@ -17,7 +20,7 @@
       "199.66.200.0/21",
       "199.167.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:1c8::/32"
     ]
   }

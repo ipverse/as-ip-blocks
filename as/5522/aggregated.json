@@ -1,12 +1,15 @@
 {
-  "asn": 5522,
-  "handle": "TELIA-LIETUVA",
-  "description": "Telia Lietuva AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5522,
+  "metadata" : {
+    "handle" : "TELIA-LIETUVA",
+    "description" : "Telia Lietuva AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.206.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1eb8:e006::/48"
     ]
   }

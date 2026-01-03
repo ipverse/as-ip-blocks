@@ -1,9 +1,12 @@
 {
-  "asn": 4816,
-  "handle": "CHINANET-IDC-GD",
-  "description": "China Telecom (Group)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4816,
+  "metadata" : {
+    "handle" : "CHINANET-IDC-GD",
+    "description" : "China Telecom (Group)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.231.96.0/20",
       "43.254.156.0/22",
       "45.248.108.0/24",
@@ -33,7 +36,7 @@
       "158.140.255.0/24",
       "211.152.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:71c0::/48",
       "240e:1f:6000::/36",
       "240e:ff:f000::/36",

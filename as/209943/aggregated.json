@@ -1,13 +1,16 @@
 {
-  "asn": 209943,
-  "handle": "INSYST",
-  "description": "InSyst GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209943,
+  "metadata" : {
+    "handle" : "INSYST",
+    "description" : "InSyst GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.56.221.0/24",
       "213.83.7.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:28ec::/48"
     ]
   }

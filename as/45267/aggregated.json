@@ -1,9 +1,12 @@
 {
-  "asn": 45267,
-  "handle": "LIGHTWIRE-AS-AP",
-  "description": "Lightwire Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45267,
+  "metadata" : {
+    "handle" : "LIGHTWIRE-AS-AP",
+    "description" : "Lightwire Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.247.172.0/22",
       "45.117.36.0/22",
       "64.246.80.0/20",
@@ -20,7 +23,7 @@
       "202.49.36.0/24",
       "203.96.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:bd00::/32",
       "2400:e3c0::/32"
     ]

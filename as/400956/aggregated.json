@@ -1,9 +1,12 @@
 {
-  "asn": 400956,
-  "handle": "OPENMETAL-AS",
-  "description": "OpenMetal Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400956,
+  "metadata" : {
+    "handle" : "OPENMETAL-AS",
+    "description" : "OpenMetal Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.111.120.0/21",
       "91.92.38.0/23",
       "160.79.118.0/23",
@@ -21,7 +24,7 @@
       "213.165.232.0/22",
       "216.87.32.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f96b::/40",
       "2604:1460:4000::/35",
       "2607:f298:8::/48"

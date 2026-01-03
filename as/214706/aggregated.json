@@ -1,9 +1,12 @@
 {
-  "asn": 214706,
-  "handle": "KTN-AS",
-  "description": "KazTransNet LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214706,
+  "metadata" : {
+    "handle" : "KTN-AS",
+    "description" : "KazTransNet LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.43.162.0/24",
       "62.108.35.0/24",
       "62.108.37.0/24",
@@ -14,7 +17,7 @@
       "204.52.107.0/24",
       "216.173.95.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:6c0::/29"
     ]
   }

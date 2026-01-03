@@ -1,9 +1,12 @@
 {
-  "asn": 9269,
-  "handle": "HKBN-AS-AP",
-  "description": "Hong Kong Broadband Network Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9269,
+  "metadata" : {
+    "handle" : "HKBN-AS-AP",
+    "description" : "Hong Kong Broadband Network Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.136.0.0/16",
       "14.198.0.0/18",
       "14.198.128.0/18",
@@ -38,7 +41,7 @@
       "210.209.64.0/18",
       "210.245.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:f400::/32"
     ]
   }

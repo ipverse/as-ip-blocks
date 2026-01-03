@@ -1,12 +1,15 @@
 {
-  "asn": 19319,
-  "handle": "CCN-DMZ",
-  "description": "Bonneville Power Administration",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19319,
+  "metadata" : {
+    "handle" : "CCN-DMZ",
+    "description" : "Bonneville Power Administration",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.62.179.0/24",
       "204.124.222.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

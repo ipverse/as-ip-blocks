@@ -1,11 +1,14 @@
 {
-  "asn": 400543,
-  "handle": "NHC-BGP-AS",
-  "description": "NEWTON HEALTHCARE CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400543,
+  "metadata" : {
+    "handle" : "NHC-BGP-AS",
+    "description" : "NEWTON HEALTHCARE CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.158.148.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

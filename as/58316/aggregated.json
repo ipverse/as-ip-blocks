@@ -1,12 +1,15 @@
 {
-  "asn": 58316,
-  "handle": "WIGATE-AS",
-  "description": "WiGate S.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58316,
+  "metadata" : {
+    "handle" : "WIGATE-AS",
+    "description" : "WiGate S.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.17.104.0/23",
       "185.198.120.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

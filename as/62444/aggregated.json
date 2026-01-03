@@ -1,13 +1,16 @@
 {
-  "asn": 62444,
-  "handle": "ALTRUM",
-  "description": "Altrum LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62444,
+  "metadata" : {
+    "handle" : "ALTRUM",
+    "description" : "Altrum LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.24.122.0/24",
       "195.62.61.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:9880::/32"
     ]
   }

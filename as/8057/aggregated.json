@@ -1,9 +1,12 @@
 {
-  "asn": 8057,
-  "handle": "VISIONNET",
-  "description": "Vision Net Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8057,
+  "metadata" : {
+    "handle" : "VISIONNET",
+    "description" : "Vision Net Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.19.224.0/19",
       "66.113.32.0/19",
       "70.33.0.0/18",
@@ -17,7 +20,7 @@
       "216.146.96.0/19",
       "216.220.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f370::/32"
     ]
   }

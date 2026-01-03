@@ -1,9 +1,12 @@
 {
-  "asn": 57794,
-  "handle": "HCN-01",
-  "description": "ELLINIKA DIKTIA KALODION MEPE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57794,
+  "metadata" : {
+    "handle" : "HCN-01",
+    "description" : "ELLINIKA DIKTIA KALODION MEPE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.98.192.0/21",
       "82.192.2.0/23",
       "185.92.164.0/22",
@@ -14,6 +17,6 @@
       "188.117.248.0/22",
       "213.108.88.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

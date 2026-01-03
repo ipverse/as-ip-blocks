@@ -1,9 +1,12 @@
 {
-  "asn": 38431,
-  "handle": "LIGINSURE-AS",
-  "description": "KB Insurance",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38431,
+  "metadata" : {
+    "handle" : "LIGINSURE-AS",
+    "description" : "KB Insurance",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "121.163.173.0/24",
       "121.163.175.0/24",
       "210.92.222.0/24",
@@ -11,6 +14,6 @@
       "218.156.194.0/24",
       "220.79.220.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

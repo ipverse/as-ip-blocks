@@ -1,13 +1,16 @@
 {
-  "asn": 44384,
-  "handle": "CROSSAN",
-  "description": "Crossan CableComm Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44384,
+  "metadata" : {
+    "handle" : "CROSSAN",
+    "description" : "Crossan CableComm Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "92.61.192.0/20",
       "185.111.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5240::/32"
     ]
   }

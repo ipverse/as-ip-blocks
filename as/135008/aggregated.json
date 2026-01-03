@@ -1,9 +1,12 @@
 {
-  "asn": 135008,
-  "handle": "GOVTECH-AS-GOVTECH",
-  "description": "GOVERNMENT TECHNOLOGY AGENCY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135008,
+  "metadata" : {
+    "handle" : "GOVTECH-AS-GOVTECH",
+    "description" : "GOVERNMENT TECHNOLOGY AGENCY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.96.16.0/20",
       "160.96.194.0/23",
       "160.96.196.0/22",
@@ -14,7 +17,7 @@
       "160.96.236.0/22",
       "160.96.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:312::/47"
     ]
   }

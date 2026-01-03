@@ -1,13 +1,16 @@
 {
-  "asn": 61655,
-  "handle": "MASTERONLINE-PROVEDOR-INTERNET",
-  "description": "MASTERONLINE PROVEDOR DE INTERNET SCM EIRELI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61655,
+  "metadata" : {
+    "handle" : "MASTERONLINE-PROVEDOR-INTERNET",
+    "description" : "MASTERONLINE PROVEDOR DE INTERNET SCM EIRELI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.100.236.0/22",
       "168.195.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1c6c::/32"
     ]
   }

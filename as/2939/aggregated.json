@@ -1,9 +1,12 @@
 {
-  "asn": 2939,
-  "handle": "SCAROLINA-AS",
-  "description": "State of South Carolina",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2939,
+  "metadata" : {
+    "handle" : "SCAROLINA-AS",
+    "description" : "State of South Carolina",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.159.149.0/24",
       "74.254.65.0/24",
       "155.225.6.0/24",
@@ -19,6 +22,6 @@
       "207.232.128.0/18",
       "209.133.128.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

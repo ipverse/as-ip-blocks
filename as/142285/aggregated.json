@@ -1,14 +1,17 @@
 {
-  "asn": 142285,
-  "handle": "KEITHNET-AS-AP",
-  "description": "KEITH.NET INCORPORATED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142285,
+  "metadata" : {
+    "handle" : "KEITHNET-AS-AP",
+    "description" : "KEITH.NET INCORPORATED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.167.116.0/24",
       "154.56.114.0/23",
       "160.250.73.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:b080::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 62282,
-  "handle": "RACKRAY",
-  "description": "UAB Delska Lithuania",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62282,
+  "metadata" : {
+    "handle" : "RACKRAY",
+    "description" : "UAB Delska Lithuania",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.156.216.0/21",
       "89.47.172.0/23",
       "89.47.174.0/24",
@@ -14,7 +17,7 @@
       "185.193.24.0/22",
       "193.34.233.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:41a0::/32",
       "2a0f:7b80::/48"
     ]

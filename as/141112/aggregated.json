@@ -1,11 +1,14 @@
 {
-  "asn": 141112,
-  "handle": "SAT1-AS-ID",
-  "description": "PT Akses Satu Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141112,
+  "metadata" : {
+    "handle" : "SAT1-AS-ID",
+    "description" : "PT Akses Satu Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.157.76.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

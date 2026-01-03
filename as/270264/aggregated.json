@@ -1,12 +1,15 @@
 {
-  "asn": 270264,
-  "handle": "LK-INTERNET",
-  "description": "LK INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270264,
+  "metadata" : {
+    "handle" : "LK-INTERNET",
+    "description" : "LK INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.108.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6958::/32"
     ]
   }

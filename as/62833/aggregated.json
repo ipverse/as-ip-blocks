@@ -1,9 +1,12 @@
 {
-  "asn": 62833,
-  "handle": "HUDSONFIBERNET",
-  "description": "Hudson Fiber Network Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62833,
+  "metadata" : {
+    "handle" : "HUDSONFIBERNET",
+    "description" : "Hudson Fiber Network Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.46.16.0/23",
       "72.46.18.0/24",
       "72.46.20.0/23",
@@ -13,7 +16,7 @@
       "207.182.20.0/23",
       "207.182.22.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:6080::/32"
     ]
   }

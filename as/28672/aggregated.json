@@ -1,11 +1,14 @@
 {
-  "asn": 28672,
-  "handle": "BPNNET-AS",
-  "description": "BANCO BIC PORTUGUES SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28672,
+  "metadata" : {
+    "handle" : "BPNNET-AS",
+    "description" : "BANCO BIC PORTUGUES SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.245.234.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

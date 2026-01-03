@@ -1,9 +1,12 @@
 {
-  "asn": 6813,
-  "handle": "FLEXNET",
-  "description": "TELEFONICA DE ESPANA S.A.U",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6813,
+  "metadata" : {
+    "handle" : "FLEXNET",
+    "description" : "TELEFONICA DE ESPANA S.A.U.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.58.252.0/24",
       "81.45.156.0/22",
       "194.224.158.0/24",
@@ -16,6 +19,6 @@
       "213.4.28.0/24",
       "213.4.98.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

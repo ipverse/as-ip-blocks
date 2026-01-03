@@ -1,9 +1,12 @@
 {
-  "asn": 210756,
-  "handle": "EDGECENTERLLC",
-  "description": "EdgeCenter LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210756,
+  "metadata" : {
+    "handle" : "EDGECENTERLLC",
+    "description" : "EdgeCenter LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.8.42.0/23",
       "5.8.69.0/24",
       "5.101.68.0/23",
@@ -75,7 +78,7 @@
       "185.109.30.0/24",
       "193.17.93.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:27c0::/43",
       "2a11:27c0:20::/44",
       "2a11:27c0:100::/43",

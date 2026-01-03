@@ -1,13 +1,16 @@
 {
-  "asn": 395915,
-  "handle": "ENS",
-  "description": "Edge Network Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395915,
+  "metadata" : {
+    "handle" : "ENS",
+    "description" : "Edge Network Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.12.255.0/24",
       "207.2.127.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:811:4000::/44"
     ]
   }

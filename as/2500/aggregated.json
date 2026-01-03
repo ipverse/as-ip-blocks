@@ -1,13 +1,16 @@
 {
-  "asn": 2500,
-  "handle": "WIDE-BB",
-  "description": "WIDE Project",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2500,
+  "metadata" : {
+    "handle" : "WIDE-BB",
+    "description" : "WIDE Project",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.249.0.0/18",
       "203.178.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:200::/32"
     ]
   }

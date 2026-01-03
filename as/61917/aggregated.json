@@ -1,14 +1,17 @@
 {
-  "asn": 61917,
-  "handle": "NETMAIS-TELECOM",
-  "description": "NETMAIS TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61917,
+  "metadata" : {
+    "handle" : "NETMAIS-TELECOM",
+    "description" : "NETMAIS TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.188.152.0/22",
       "167.250.56.0/22",
       "179.124.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:16cc::/32"
     ]
   }

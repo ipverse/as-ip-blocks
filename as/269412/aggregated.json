@@ -1,12 +1,15 @@
 {
-  "asn": 269412,
-  "handle": "OESTE-TELECOM",
-  "description": "Oeste Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269412,
+  "metadata" : {
+    "handle" : "OESTE-TELECOM",
+    "description" : "Oeste Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.186.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6430::/32"
     ]
   }

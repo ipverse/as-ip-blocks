@@ -1,16 +1,19 @@
 {
-  "asn": 54327,
-  "handle": "MTWEST",
-  "description": "MONTANA WEST L.L.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54327,
+  "metadata" : {
+    "handle" : "MTWEST",
+    "description" : "MONTANA WEST L.L.C.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.219.72.0/22",
       "192.30.116.0/22",
       "204.62.201.0/24",
       "204.62.204.0/23",
       "206.183.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:cf00::/32"
     ]
   }

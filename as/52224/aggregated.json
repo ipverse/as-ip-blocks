@@ -1,14 +1,17 @@
 {
-  "asn": 52224,
-  "handle": "RESERVED",
-  "description": "LACNIC - Latin American and Caribbean IP address",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52224,
+  "metadata" : {
+    "handle" : "LACNIC-LATIN-AMERICAN",
+    "description" : "LACNIC - Latin American and Caribbean IP address",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.0.88.0/24",
       "200.7.86.0/24",
       "200.10.60.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:13c7:7010::/48",
       "2001:13c7:7012::/48",
       "2801::/48"

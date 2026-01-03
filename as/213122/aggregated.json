@@ -1,9 +1,12 @@
 {
-  "asn": 213122,
-  "handle": "HYONIX",
-  "description": "Krixe Pte. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213122,
+  "metadata" : {
+    "handle" : "HYONIX",
+    "description" : "Krixe Pte. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.240.49.0/24",
       "38.240.50.0/23",
       "38.255.36.0/23",
@@ -32,6 +35,6 @@
       "185.162.75.0/24",
       "194.49.79.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

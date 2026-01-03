@@ -1,14 +1,17 @@
 {
-  "asn": 50911,
-  "handle": "AS-ELECTRON",
-  "description": "LLC Electron-Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50911,
+  "metadata" : {
+    "handle" : "AS-ELECTRON",
+    "description" : "LLC Electron-Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "176.112.224.0/19",
       "185.170.52.0/22",
       "194.28.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:8300::/29"
     ]
   }

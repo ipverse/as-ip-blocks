@@ -1,9 +1,12 @@
 {
-  "asn": 41678,
-  "handle": "TIBUS",
-  "description": "The Internet Business Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41678,
+  "metadata" : {
+    "handle" : "TIBUS",
+    "description" : "The Internet Business Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.185.128.0/19",
       "194.46.0.0/19",
       "194.46.112.0/21",
@@ -16,6 +19,6 @@
       "212.108.64.0/20",
       "212.108.92.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

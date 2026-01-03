@@ -1,9 +1,12 @@
 {
-  "asn": 45370,
-  "handle": "BROADBANDIDC-AS",
-  "description": "BROADBANDIDC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45370,
+  "metadata" : {
+    "handle" : "BROADBANDIDC-AS",
+    "description" : "BROADBANDIDC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.224.180.0/24",
       "39.116.130.0/24",
       "49.8.39.0/24",
@@ -81,7 +84,7 @@
       "223.130.234.0/23",
       "223.130.236.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:8dc0::/32"
     ]
   }

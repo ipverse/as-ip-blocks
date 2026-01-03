@@ -1,12 +1,15 @@
 {
-  "asn": 134012,
-  "handle": "LAXMIINTERNETSERVICES-AS-IN",
-  "description": "Laxmi Internet Services Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134012,
+  "metadata" : {
+    "handle" : "LAXMIINTERNETSERVICES-AS-IN",
+    "description" : "Laxmi Internet Services Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.58.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:4ec0:1::/48",
       "2407:4ec0:2::/47"
     ]

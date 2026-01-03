@@ -1,9 +1,12 @@
 {
-  "asn": 42973,
-  "handle": "METRONETUK-M24SEVEN",
-  "description": "M247 UK Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42973,
+  "metadata" : {
+    "handle" : "METRONETUK-M24SEVEN",
+    "description" : "M247 UK Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.191.96.0/21",
       "37.191.104.0/22",
       "37.191.108.0/23",
@@ -59,6 +62,6 @@
       "217.113.170.0/24",
       "217.113.172.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

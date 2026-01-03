@@ -1,13 +1,16 @@
 {
-  "asn": 138034,
-  "handle": "AAPL-AS-AP",
-  "description": "ATEN Australia Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138034,
+  "metadata" : {
+    "handle" : "AAPL-AS-AP",
+    "description" : "ATEN Australia Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.120.7.0/24",
       "103.144.100.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:fd00::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 135300,
-  "handle": "MBTCL-AS-AP",
-  "description": "Myanmar Broadband Telecom Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135300,
+  "metadata" : {
+    "handle" : "MBTCL-AS-AP",
+    "description" : "Myanmar Broadband Telecom Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.52.120.0/21",
       "38.158.204.0/22",
       "45.192.136.0/22",
@@ -15,7 +18,7 @@
       "103.213.30.0/24",
       "117.55.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:7e00::/48"
     ]
   }

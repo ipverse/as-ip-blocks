@@ -1,13 +1,16 @@
 {
-  "asn": 199128,
-  "handle": "PETNET-ASN",
-  "description": "PET NET DOO Gevgelija",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199128,
+  "metadata" : {
+    "handle" : "PETNET-ASN",
+    "description" : "PET NET DOO Gevgelija",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.162.174.0/24",
       "151.236.240.0/20",
       "185.42.36.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

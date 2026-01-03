@@ -1,9 +1,12 @@
 {
-  "asn": 137266,
-  "handle": "CHINATELECOM-HUBEI-WUHAN-5G-NETWORK",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137266,
+  "metadata" : {
+    "handle" : "CHINATELECOM-HUBEI-WUHAN-5G-NETWORK",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.16.129.0/24",
       "27.16.130.0/23",
       "27.16.132.0/22",
@@ -41,7 +44,7 @@
       "171.83.0.0/17",
       "171.113.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:45c:100::/40",
       "240e:45c:300::/40",
       "240e:45c:500::/40"

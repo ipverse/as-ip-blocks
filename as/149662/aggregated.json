@@ -1,14 +1,17 @@
 {
-  "asn": 149662,
-  "handle": "IDNIC-HOSTNETGLOBAL-AS-ID",
-  "description": "PT Hostnet Data Global",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149662,
+  "metadata" : {
+    "handle" : "IDNIC-HOSTNETGLOBAL-AS-ID",
+    "description" : "PT Hostnet Data Global",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.184.178.0/23",
       "103.188.254.0/24",
       "160.25.162.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:f220::/32"
     ]
   }

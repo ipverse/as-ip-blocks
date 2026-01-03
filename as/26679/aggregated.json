@@ -1,12 +1,15 @@
 {
-  "asn": 26679,
-  "handle": "HELIACAL",
-  "description": "Heliacal Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26679,
+  "metadata" : {
+    "handle" : "HELIACAL",
+    "description" : "Heliacal Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.64.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:112:e000::/44"
     ]
   }

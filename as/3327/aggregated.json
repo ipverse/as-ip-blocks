@@ -1,9 +1,12 @@
 {
-  "asn": 3327,
-  "handle": "CITIC",
-  "description": "CITIC Telecom CPC Netherlands B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3327,
+  "metadata" : {
+    "handle" : "CITIC",
+    "description" : "CITIC Telecom CPC Netherlands B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.128.100.0/22",
       "62.128.104.0/21",
       "62.128.112.0/20",
@@ -29,7 +32,7 @@
       "212.65.86.0/23",
       "217.28.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:ad0::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 42191,
-  "handle": "DFZ-AS",
-  "description": "State Fund Agriculture",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42191,
+  "metadata" : {
+    "handle" : "DFZ-AS",
+    "description" : "State Fund Agriculture",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.110.24.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:14a4::/48"
     ]
   }

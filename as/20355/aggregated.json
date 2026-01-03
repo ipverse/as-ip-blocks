@@ -1,14 +1,17 @@
 {
-  "asn": 20355,
-  "handle": "NTG-AS",
-  "description": "REV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20355,
+  "metadata" : {
+    "handle" : "NTG-AS",
+    "description" : "REV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.2.32.0/19",
       "198.177.181.0/24",
       "199.181.192.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:d800::/32"
     ]
   }

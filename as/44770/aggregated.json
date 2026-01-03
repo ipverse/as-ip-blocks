@@ -1,12 +1,15 @@
 {
-  "asn": 44770,
-  "handle": "SAVVY-AS",
-  "description": "Savvy s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44770,
+  "metadata" : {
+    "handle" : "SAVVY-AS",
+    "description" : "Savvy s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.19.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:22f8::/48"
     ]
   }

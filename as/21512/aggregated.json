@@ -1,13 +1,16 @@
 {
-  "asn": 21512,
-  "handle": "UNITYHS-AS",
-  "description": "Unity Health System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21512,
+  "metadata" : {
+    "handle" : "UNITYHS-AS",
+    "description" : "Unity Health System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.30.2.0/24",
       "199.248.225.0/24",
       "199.248.245.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

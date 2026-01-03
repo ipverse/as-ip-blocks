@@ -1,13 +1,16 @@
 {
-  "asn": 23869,
-  "handle": "NZSRS-AP",
-  "description": "InternetNZ",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23869,
+  "metadata" : {
+    "handle" : "NZSRS-AP",
+    "description" : "InternetNZ",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.46.180.0/24",
       "202.46.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:dce:4000::/36"
     ]
   }

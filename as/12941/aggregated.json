@@ -1,9 +1,12 @@
 {
-  "asn": 12941,
-  "handle": "INTERSAAR-AS",
-  "description": "intersaar GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12941,
+  "metadata" : {
+    "handle" : "INTERSAAR-AS",
+    "description" : "intersaar GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.101.132.0/22",
       "185.101.184.0/22",
       "185.104.204.0/22",
@@ -12,7 +15,7 @@
       "193.141.176.0/24",
       "213.135.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:430::/32",
       "2a06:1e40::/29",
       "2a06:3380::/29"

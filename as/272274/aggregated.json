@@ -1,13 +1,16 @@
 {
-  "asn": 272274,
-  "handle": "RB-TELECOM",
-  "description": "RB TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272274,
+  "metadata" : {
+    "handle" : "RB-TELECOM",
+    "description" : "RB TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.236.18.0/23",
       "179.125.104.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:84a8::/32"
     ]
   }

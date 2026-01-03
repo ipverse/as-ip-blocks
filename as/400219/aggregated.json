@@ -1,11 +1,14 @@
 {
-  "asn": 400219,
-  "handle": "COMMUNITYLTE",
-  "description": "Local Pro",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400219,
+  "metadata" : {
+    "handle" : "COMMUNITYLTE",
+    "description" : "Local Pro",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.132.88.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

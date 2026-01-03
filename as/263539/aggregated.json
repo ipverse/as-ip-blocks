@@ -1,12 +1,15 @@
 {
-  "asn": 263539,
-  "handle": "NEW-SYSTEM-INTERNET",
-  "description": "NEW SYSTEM INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263539,
+  "metadata" : {
+    "handle" : "NEW-SYSTEM-INTERNET",
+    "description" : "NEW SYSTEM INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "191.5.168.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1394::/33",
       "2804:1394:8000::/34"
     ]

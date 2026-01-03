@@ -1,14 +1,17 @@
 {
-  "asn": 199167,
-  "handle": "AZNETWORK-AS",
-  "description": "AZNETWORK SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199167,
+  "metadata" : {
+    "handle" : "AZNETWORK-AS",
+    "description" : "AZNETWORK SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.247.75.0/24",
       "185.74.8.0/22",
       "185.247.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:47c0::/36"
     ]
   }

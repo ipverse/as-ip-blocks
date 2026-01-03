@@ -1,9 +1,12 @@
 {
-  "asn": 393626,
-  "handle": "SHERWOOD-BROADBAND",
-  "description": "Sherwood Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393626,
+  "metadata" : {
+    "handle" : "SHERWOOD-BROADBAND",
+    "description" : "Sherwood Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.175.64.0/24",
       "66.118.248.0/22",
       "70.97.122.0/24",
@@ -13,7 +16,7 @@
       "104.193.240.0/21",
       "192.65.141.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:9dc0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 20200,
-  "handle": "DIGITAL-LAYER-APAC",
-  "description": "Hongshin Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20200,
+  "metadata" : {
+    "handle" : "DIGITAL-LAYER-APAC",
+    "description" : "Hongshin Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.135.184.0/22",
       "45.155.255.0/24",
       "45.250.221.0/24",
@@ -11,7 +14,7 @@
       "130.12.63.0/24",
       "160.250.10.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:d860::/32"
     ]
   }

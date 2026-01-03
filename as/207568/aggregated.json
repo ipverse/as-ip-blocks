@@ -1,12 +1,15 @@
 {
-  "asn": 207568,
-  "handle": "TELEONE",
-  "description": "Teleone OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207568,
+  "metadata" : {
+    "handle" : "TELEONE",
+    "description" : "Teleone OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.222.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:d9c0::/32"
     ]
   }

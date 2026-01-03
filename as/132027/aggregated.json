@@ -1,12 +1,15 @@
 {
-  "asn": 132027,
-  "handle": "HDC-AS-AP",
-  "description": "Hastings District Council",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132027,
+  "metadata" : {
+    "handle" : "HDC-AS-AP",
+    "description" : "Hastings District Council",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.5.71.0/24",
       "202.36.185.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

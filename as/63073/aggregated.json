@@ -1,13 +1,16 @@
 {
-  "asn": 63073,
-  "handle": "UT-MAIN",
-  "description": "The University of Tampa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63073,
+  "metadata" : {
+    "handle" : "UT-MAIN",
+    "description" : "The University of Tampa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.42.207.0/24",
       "64.186.135.0/24",
       "170.55.174.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

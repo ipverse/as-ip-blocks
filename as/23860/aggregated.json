@@ -1,9 +1,12 @@
 {
-  "asn": 23860,
-  "handle": "ALLIANCE-GATEWAY-AS-AP",
-  "description": "Alliance Broadband Services Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23860,
+  "metadata" : {
+    "handle" : "ALLIANCE-GATEWAY-AS-AP",
+    "description" : "Alliance Broadband Services Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.252.248.0/22",
       "45.64.220.0/22",
       "45.64.224.0/22",
@@ -68,7 +71,7 @@
       "202.78.232.0/21",
       "203.171.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:3840:6000::/35",
       "2407:cb00::/33",
       "2407:cb00:8000::/35",

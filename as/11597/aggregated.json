@@ -1,9 +1,12 @@
 {
-  "asn": 11597,
-  "handle": "MW-KANSAS",
-  "description": "Mercury Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11597,
+  "metadata" : {
+    "handle" : "MW-KANSAS",
+    "description" : "Mercury Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.123.84.0/22",
       "104.218.88.0/22",
       "104.255.236.0/22",
@@ -14,7 +17,7 @@
       "199.241.240.0/22",
       "204.10.232.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:ae80::/32"
     ]
   }

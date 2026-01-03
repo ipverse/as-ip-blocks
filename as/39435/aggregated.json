@@ -1,9 +1,12 @@
 {
-  "asn": 39435,
-  "handle": "EVOLGOGRAD-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39435,
+  "metadata" : {
+    "handle" : "EVOLGOGRAD-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.167.65.0/24",
       "83.167.66.0/24",
       "83.167.68.0/22",
@@ -17,7 +20,7 @@
       "188.233.0.0/17",
       "188.233.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:c00::/38"
     ]
   }

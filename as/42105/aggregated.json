@@ -1,11 +1,14 @@
 {
-  "asn": 42105,
-  "handle": "MEESTIT-AS",
-  "description": "Private Enterprise Meest - IT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42105,
+  "metadata" : {
+    "handle" : "MEESTIT-AS",
+    "description" : "Private Enterprise Meest - IT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "217.9.8.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

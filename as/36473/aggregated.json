@@ -1,9 +1,12 @@
 {
-  "asn": 36473,
-  "handle": "CONTE-25-BLA-RST",
-  "description": "Contegix",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36473,
+  "metadata" : {
+    "handle" : "CONTE-25-BLA-RST",
+    "description" : "Contegix",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.64.143.0/24",
       "69.174.51.0/24",
       "74.121.192.0/21",
@@ -18,7 +21,7 @@
       "199.245.52.0/22",
       "207.126.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:1480::/32",
       "2604:a580::/32",
       "2605:9f00::/32"

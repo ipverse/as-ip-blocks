@@ -1,13 +1,16 @@
 {
-  "asn": 50710,
-  "handle": "EARTHLINK-AS",
-  "description": "Earthlink Telecommunications Equipment Trading \u0026 Services DMCC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50710,
+  "metadata" : {
+    "handle" : "EARTHLINK-AS",
+    "description" : "Earthlink Telecommunications Equipment Trading & Services DMCC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.206.0.0/22",
       "78.109.236.0/23",
       "185.52.100.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

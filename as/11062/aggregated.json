@@ -1,9 +1,12 @@
 {
-  "asn": 11062,
-  "handle": "MTCO-COMMUNICATIONS",
-  "description": "MTCO Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11062,
+  "metadata" : {
+    "handle" : "MTCO-COMMUNICATIONS",
+    "description" : "MTCO Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.239.63.0/24",
       "72.34.0.0/20",
       "162.252.36.0/22",
@@ -12,6 +15,6 @@
       "170.117.164.0/22",
       "207.179.192.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

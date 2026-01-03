@@ -1,9 +1,12 @@
 {
-  "asn": 138131,
-  "handle": "IDNIC-NATANET-AS-ID",
-  "description": "CV. NATANETWORK SOLUTION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138131,
+  "metadata" : {
+    "handle" : "IDNIC-NATANET-AS-ID",
+    "description" : "CV. NATANETWORK SOLUTION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.115.164.0/24",
       "103.121.122.0/24",
       "103.133.56.0/24",
@@ -13,6 +16,6 @@
       "157.15.77.0/24",
       "160.187.143.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

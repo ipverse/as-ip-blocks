@@ -1,9 +1,12 @@
 {
-  "asn": 5429,
-  "handle": "IIP-NET-AS5429",
-  "description": "Telecommunications center UMOS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5429,
+  "metadata" : {
+    "handle" : "IIP-NET-AS5429",
+    "description" : "Telecommunications center UMOS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.89.102.0/24",
       "85.89.112.0/21",
       "185.92.140.0/22",
@@ -12,6 +15,6 @@
       "195.178.192.0/19",
       "217.67.112.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

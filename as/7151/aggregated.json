@@ -1,14 +1,17 @@
 {
-  "asn": 7151,
-  "handle": "COLOGIX-SV",
-  "description": "Cologix Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7151,
+  "metadata" : {
+    "handle" : "COLOGIX-SV",
+    "description" : "Cologix Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.20.96.0/19",
       "72.172.176.0/20",
       "209.128.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fce0::/32"
     ]
   }

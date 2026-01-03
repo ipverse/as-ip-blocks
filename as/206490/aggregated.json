@@ -1,12 +1,15 @@
 {
-  "asn": 206490,
-  "handle": "SOUTHENDBC-AS",
-  "description": "Southend-on-Sea City Council",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206490,
+  "metadata" : {
+    "handle" : "SOUTHENDBC-AS",
+    "description" : "Southend-on-Sea City Council",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.12.80.0/24",
       "185.177.200.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

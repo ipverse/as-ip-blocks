@@ -1,13 +1,16 @@
 {
-  "asn": 207446,
-  "handle": "KAZTELEPORT-AS",
-  "description": "JSC Kazteleport - subsidiary of Halyk Bank of Kazakhstan",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207446,
+  "metadata" : {
+    "handle" : "KAZTELEPORT-AS",
+    "description" : "JSC Kazteleport - subsidiary of Halyk Bank of Kazakhstan",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.143.20.0/22",
       "185.165.48.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:1e01::/32"
     ]
   }

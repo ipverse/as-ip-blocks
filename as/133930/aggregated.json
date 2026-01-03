@@ -1,15 +1,18 @@
 {
-  "asn": 133930,
-  "handle": "TESSERENT-AS-AP",
-  "description": "TESSERENT AUSTRALIA PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133930,
+  "metadata" : {
+    "handle" : "TESSERENT-AS-AP",
+    "description" : "TESSERENT AUSTRALIA PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.36.4.0/22",
       "103.205.228.0/23",
       "202.14.166.0/24",
       "203.28.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:ea80::/32"
     ]
   }

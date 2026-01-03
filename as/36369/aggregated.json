@@ -1,12 +1,15 @@
 {
-  "asn": 36369,
-  "handle": "LIMEWAVE",
-  "description": "Limewave Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36369,
+  "metadata" : {
+    "handle" : "LIMEWAVE",
+    "description" : "Limewave Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.131.32.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe69:200::/40"
     ]
   }

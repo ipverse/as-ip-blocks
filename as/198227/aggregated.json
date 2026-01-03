@@ -1,14 +1,17 @@
 {
-  "asn": 198227,
-  "handle": "NEWTELECOM-AS",
-  "description": "New Telecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198227,
+  "metadata" : {
+    "handle" : "NEWTELECOM-AS",
+    "description" : "New Telecom Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.232.158.0/23",
       "217.147.170.0/24",
       "217.147.173.0/24",
       "217.147.174.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

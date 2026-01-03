@@ -1,12 +1,15 @@
 {
-  "asn": 50229,
-  "handle": "RIGNET-SOIL-AS",
-  "description": "Rignet AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50229,
+  "metadata" : {
+    "handle" : "RIGNET-SOIL-AS",
+    "description" : "Rignet AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.142.96.0/21",
       "178.20.104.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

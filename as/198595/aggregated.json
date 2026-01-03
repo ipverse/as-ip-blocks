@@ -1,15 +1,18 @@
 {
-  "asn": 198595,
-  "handle": "FOCUS-AS",
-  "description": "Focus Telecom Polska S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198595,
+  "metadata" : {
+    "handle" : "FOCUS-AS",
+    "description" : "Focus Telecom Polska S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.236.57.0/24",
       "185.202.124.0/24",
       "185.202.126.0/23",
       "195.136.173.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:104::/48"
     ]
   }

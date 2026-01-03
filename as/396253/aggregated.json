@@ -1,9 +1,12 @@
 {
-  "asn": 396253,
-  "handle": "IBOSS-8-ASN",
-  "description": "iboss inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396253,
+  "metadata" : {
+    "handle" : "IBOSS-8-ASN",
+    "description" : "iboss inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "97.64.50.0/23",
       "97.64.52.0/22",
       "97.64.56.0/21",
@@ -56,7 +59,7 @@
       "207.198.68.0/24",
       "207.198.70.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:137::/46",
       "2620:137:4::/48",
       "2620:137:6::/47",

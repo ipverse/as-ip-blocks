@@ -1,9 +1,12 @@
 {
-  "asn": 63631,
-  "handle": "CLOUDBASE",
-  "description": "Guangdong Cloudbase Technology Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63631,
+  "metadata" : {
+    "handle" : "CLOUDBASE",
+    "description" : "Guangdong Cloudbase Technology Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.77.72.0/22",
       "103.77.92.0/22",
       "103.117.248.0/22",
@@ -16,6 +19,6 @@
       "119.161.151.0/24",
       "119.161.152.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

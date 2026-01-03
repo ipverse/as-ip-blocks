@@ -1,14 +1,17 @@
 {
-  "asn": 205747,
-  "handle": "VNV-AS",
-  "description": "VNV SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205747,
+  "metadata" : {
+    "handle" : "VNV-AS",
+    "description" : "VNV SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.212.77.0/24",
       "185.188.196.0/22",
       "192.175.38.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:d080::/32"
     ]
   }

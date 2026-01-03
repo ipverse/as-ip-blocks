@@ -1,13 +1,16 @@
 {
-  "asn": 29515,
-  "handle": "HZD-AS",
-  "description": "Hessische Zentrale fuer Datenverarbeitung",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29515,
+  "metadata" : {
+    "handle" : "HZD-AS",
+    "description" : "Hessische Zentrale fuer Datenverarbeitung",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.90.0.0/18",
       "141.90.145.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1016::/32"
     ]
   }

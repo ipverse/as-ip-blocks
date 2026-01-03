@@ -1,12 +1,15 @@
 {
-  "asn": 17741,
-  "handle": "MEDOBJ01-AS-AP",
-  "description": "Medical Objects Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17741,
+  "metadata" : {
+    "handle" : "MEDOBJ01-AS-AP",
+    "description" : "Medical Objects Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "114.31.96.0/21",
       "202.44.75.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

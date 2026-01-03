@@ -1,9 +1,12 @@
 {
-  "asn": 39812,
-  "handle": "KAMENSKTEL-AS",
-  "description": "Closed Joint Stock Company Radiotelephone",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39812,
+  "metadata" : {
+    "handle" : "KAMENSKTEL-AS",
+    "description" : "Closed Joint Stock Company Radiotelephone",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.44.0.0/20",
       "78.139.64.0/18",
       "89.107.112.0/21",
@@ -13,6 +16,6 @@
       "185.106.56.0/22",
       "185.137.160.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

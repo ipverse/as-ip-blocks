@@ -1,14 +1,17 @@
 {
-  "asn": 58254,
-  "handle": "NANOTELECOM-AS",
-  "description": "Nano Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58254,
+  "metadata" : {
+    "handle" : "NANOTELECOM-AS",
+    "description" : "Nano Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.240.12.0/22",
       "95.47.153.0/24",
       "146.120.16.0/22",
       "185.166.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

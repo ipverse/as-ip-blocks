@@ -1,12 +1,15 @@
 {
-  "asn": 264146,
-  "handle": "REDE-CERRADO-TELECOM",
-  "description": "REDE CERRADO TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264146,
+  "metadata" : {
+    "handle" : "REDE-CERRADO-TELECOM",
+    "description" : "REDE CERRADO TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.97.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:232c::/32"
     ]
   }

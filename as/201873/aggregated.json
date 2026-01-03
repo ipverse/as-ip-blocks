@@ -1,14 +1,17 @@
 {
-  "asn": 201873,
-  "handle": "FMO-SOLUTIONS",
-  "description": "FMO Solutions B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201873,
+  "metadata" : {
+    "handle" : "FMO-SOLUTIONS",
+    "description" : "FMO Solutions B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.61.52.0/22",
       "185.142.252.0/22",
       "185.143.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:7820::/32",
       "2a07:3200::/29",
       "2a07:3440::/29"

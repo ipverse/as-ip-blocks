@@ -1,9 +1,12 @@
 {
-  "asn": 55632,
-  "handle": "SJEDU-AS",
-  "description": "Sejong City Office of Education",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55632,
+  "metadata" : {
+    "handle" : "SJEDU-AS",
+    "description" : "Sejong City Office of Education",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "114.202.134.0/24",
       "118.217.16.0/23",
       "175.116.117.0/24",
@@ -20,6 +23,6 @@
       "211.206.46.0/24",
       "218.50.200.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

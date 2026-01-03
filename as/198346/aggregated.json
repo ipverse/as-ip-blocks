@@ -1,12 +1,15 @@
 {
-  "asn": 198346,
-  "handle": "NETFORMS-AS",
-  "description": "NETFORMS s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198346,
+  "metadata" : {
+    "handle" : "NETFORMS-AS",
+    "description" : "NETFORMS s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.222.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:e900::/31",
       "2a13:e902::/32"
     ]

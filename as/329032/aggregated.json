@@ -1,12 +1,15 @@
 {
-  "asn": 329032,
-  "handle": "MM1-AS",
-  "description": "Mdantsane Mobile",
-  "subnets": {
-    "ipv4": [
+  "asn" : 329032,
+  "metadata" : {
+    "handle" : "MM1-AS",
+    "description" : "Mdantsane Mobile",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.216.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:4680::/32"
     ]
   }

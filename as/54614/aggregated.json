@@ -1,9 +1,12 @@
 {
-  "asn": 54614,
-  "handle": "CIKTELECOM-CABLE",
-  "description": "CIK Telecom INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54614,
+  "metadata" : {
+    "handle" : "CIKTELECOM-CABLE",
+    "description" : "CIK Telecom INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.156.160.0/20",
       "45.58.80.0/20",
       "45.74.64.0/20",
@@ -33,7 +36,7 @@
       "209.141.192.0/20",
       "216.165.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:5240::/34"
     ]
   }

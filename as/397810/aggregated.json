@@ -1,9 +1,12 @@
 {
-  "asn": 397810,
-  "handle": "AVERISTAR-ASN-01",
-  "description": "AveriStar Consulting LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397810,
+  "metadata" : {
+    "handle" : "AVERISTAR-ASN-01",
+    "description" : "AveriStar Consulting LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.140.144.0/24",
       "23.140.240.0/23",
       "23.140.242.0/24",
@@ -15,7 +18,7 @@
       "208.87.251.0/24",
       "208.87.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:5e40::/48"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 59616,
-  "handle": "BAIKAL-TELEPORT-AS",
-  "description": "Baikal Teleport CJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59616,
+  "metadata" : {
+    "handle" : "BAIKAL-TELEPORT-AS",
+    "description" : "Baikal Teleport CJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.246.0.0/22",
       "193.106.0.0/23",
       "193.106.2.0/24",
       "193.169.0.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

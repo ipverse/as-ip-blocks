@@ -1,13 +1,16 @@
 {
-  "asn": 212794,
-  "handle": "SAP-GARDENER",
-  "description": "SAP SE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212794,
+  "metadata" : {
+    "handle" : "SAP-GARDENER",
+    "description" : "SAP SE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.86.152.0/24",
       "194.11.242.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:afc0:e010::/44"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 60725,
-  "handle": "O3B-AS",
-  "description": "SES ASTRA S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60725,
+  "metadata" : {
+    "handle" : "O3B-AS",
+    "description" : "SES ASTRA S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.110.51.0/24",
       "64.110.154.0/23",
       "64.110.158.0/24",
@@ -26,6 +29,6 @@
       "191.97.102.0/23",
       "212.56.248.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

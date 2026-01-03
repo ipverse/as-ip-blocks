@@ -1,9 +1,12 @@
 {
-  "asn": 134341,
-  "handle": "JDMBROADBAND-AS",
-  "description": "jdm broadband services pvt ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134341,
+  "metadata" : {
+    "handle" : "JDMBROADBAND-AS",
+    "description" : "jdm broadband services pvt ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.49.116.0/22",
       "103.86.172.0/22",
       "103.108.16.0/22",
@@ -14,7 +17,7 @@
       "161.248.166.0/23",
       "202.160.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:d540::/32"
     ]
   }

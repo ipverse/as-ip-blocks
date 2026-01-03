@@ -1,13 +1,16 @@
 {
-  "asn": 45724,
-  "handle": "MULTIMEDIA-AS-ID",
-  "description": "Multi Media Access PT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45724,
+  "metadata" : {
+    "handle" : "MULTIMEDIA-AS-ID",
+    "description" : "Multi Media Access PT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.231.113.0/24",
       "103.231.114.0/23",
       "202.8.28.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

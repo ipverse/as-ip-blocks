@@ -1,11 +1,14 @@
 {
-  "asn": 1700,
-  "handle": "RICE-AS1700",
-  "description": "Rice University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1700,
+  "metadata" : {
+    "handle" : "RICE-AS1700",
+    "description" : "Rice University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.136.153.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 22205,
-  "handle": "DATAPIPE-SEA",
-  "description": "DataPipe Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22205,
+  "metadata" : {
+    "handle" : "DATAPIPE-SEA",
+    "description" : "DataPipe Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.131.144.0/20",
       "64.27.112.0/21",
       "64.106.246.0/23",
@@ -47,7 +50,7 @@
       "216.109.152.0/21",
       "216.121.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f9f1::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 16205,
-  "handle": "DSINET-ASN",
-  "description": "DSI GmbH Daten Service Informationssysteme",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16205,
+  "metadata" : {
+    "handle" : "DSINET-ASN",
+    "description" : "DSI GmbH Daten Service Informationssysteme",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.210.160.0/21",
       "81.201.144.0/20",
       "176.52.200.0/21",
@@ -15,7 +18,7 @@
       "194.180.239.0/24",
       "217.18.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8180::/32"
     ]
   }

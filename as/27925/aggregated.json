@@ -1,9 +1,12 @@
 {
-  "asn": 27925,
-  "handle": "ENTEL-PCS-TELECOMUNICACIONES",
-  "description": "Entel PCS Telecomunicaciones S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27925,
+  "metadata" : {
+    "handle" : "ENTEL-PCS-TELECOMUNICACIONES",
+    "description" : "Entel PCS Telecomunicaciones S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.9.0.0/16",
       "186.11.128.0/17",
       "186.37.0.0/16",
@@ -15,6 +18,6 @@
       "200.111.200.0/21",
       "200.111.208.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

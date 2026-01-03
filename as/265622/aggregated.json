@@ -1,15 +1,18 @@
 {
-  "asn": 265622,
-  "handle": "WISTARIP",
-  "description": "WISTARIP S DE RL DE CV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265622,
+  "metadata" : {
+    "handle" : "WISTARIP",
+    "description" : "WISTARIP S DE RL DE CV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.156.15.0/24",
       "38.158.244.0/23",
       "200.110.104.0/22",
       "204.157.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:3a3::/33",
       "2806:3a3:8000::/40"
     ]

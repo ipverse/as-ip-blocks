@@ -1,12 +1,15 @@
 {
-  "asn": 206303,
-  "handle": "AS-ITHEINRICH",
-  "description": "IT Heinrich GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206303,
+  "metadata" : {
+    "handle" : "AS-ITHEINRICH",
+    "description" : "IT Heinrich GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.190.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:4c0::/32"
     ]
   }

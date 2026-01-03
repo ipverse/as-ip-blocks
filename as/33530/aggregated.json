@@ -1,9 +1,12 @@
 {
-  "asn": 33530,
-  "handle": "KIRKLAND-ELLIS-AR",
-  "description": "Kirkland \u0026 Ellis LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33530,
+  "metadata" : {
+    "handle" : "KIRKLAND-ELLIS-AR",
+    "description" : "Kirkland & Ellis LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.169.16.0/23",
       "137.169.19.0/24",
       "137.169.20.0/24",
@@ -12,6 +15,6 @@
       "137.169.26.0/23",
       "137.169.28.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

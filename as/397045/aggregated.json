@@ -1,12 +1,15 @@
 {
-  "asn": 397045,
-  "handle": "DBMGMT-AS1",
-  "description": "D. Brown Management",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397045,
+  "metadata" : {
+    "handle" : "DBMGMT-AS1",
+    "description" : "D. Brown Management",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.233.129.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:801:6000::/44"
     ]
   }

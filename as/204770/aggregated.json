@@ -1,9 +1,12 @@
 {
-  "asn": 204770,
-  "handle": "CHERRYSERVERS3-AS",
-  "description": "UAB Cherry Servers",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204770,
+  "metadata" : {
+    "handle" : "CHERRYSERVERS3-AS",
+    "description" : "UAB Cherry Servers",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.23.0.0/23",
       "82.27.98.0/24",
       "84.32.32.0/24",
@@ -23,7 +26,7 @@
       "109.176.238.0/24",
       "185.8.106.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:ae02::/36"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 141998,
-  "handle": "CHINANET-LANZHOU-IDC",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141998,
+  "metadata" : {
+    "handle" : "CHINANET-LANZHOU-IDC",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "60.164.0.0/24",
       "60.164.2.0/24",
       "60.164.4.0/22",
@@ -91,6 +94,6 @@
       "202.100.74.0/24",
       "202.100.79.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,16 +1,19 @@
 {
-  "asn": 147188,
-  "handle": "RNPL-AS-AP",
-  "description": "Rocket Network Pte. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147188,
+  "metadata" : {
+    "handle" : "RNPL-AS-AP",
+    "description" : "Rocket Network Pte. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.31.228.0/22",
       "103.47.28.0/22",
       "103.142.252.0/23",
       "103.174.88.0/23",
       "103.226.172.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:1120:168::/48"
     ]
   }

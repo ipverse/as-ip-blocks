@@ -1,16 +1,19 @@
 {
-  "asn": 37009,
-  "handle": "MTCASN",
-  "description": "MTC - Mobile Telecommunications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37009,
+  "metadata" : {
+    "handle" : "MTCASN",
+    "description" : "MTC - Mobile Telecommunications Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.63.192.0/18",
       "41.219.64.0/18",
       "105.232.0.0/16",
       "196.3.94.0/24",
       "197.243.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f778::/32"
     ]
   }

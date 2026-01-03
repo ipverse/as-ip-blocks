@@ -1,13 +1,16 @@
 {
-  "asn": 273366,
-  "handle": "LAIKOS-TELECOM",
-  "description": "Laikos Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273366,
+  "metadata" : {
+    "handle" : "LAIKOS-TELECOM",
+    "description" : "Laikos Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.191.83.0/24",
       "38.226.244.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8d94::/48",
       "2804:8d94:1000::/43",
       "2804:8d94:1060::/43",

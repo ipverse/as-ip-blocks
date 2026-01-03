@@ -1,9 +1,12 @@
 {
-  "asn": 60713,
-  "handle": "TARRCI-AS",
-  "description": "EXEA Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60713,
+  "metadata" : {
+    "handle" : "TARRCI-AS",
+    "description" : "EXEA Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.160.50.0/24",
       "91.236.131.0/24",
       "153.92.16.0/21",
@@ -15,7 +18,7 @@
       "212.7.212.0/24",
       "213.199.246.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:267c::/48",
       "2a02:f8c0::/29"
     ]

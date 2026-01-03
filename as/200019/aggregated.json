@@ -1,9 +1,12 @@
 {
-  "asn": 200019,
-  "handle": "ALEXHOST",
-  "description": "ALEXHOST SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200019,
+  "metadata" : {
+    "handle" : "ALEXHOST",
+    "description" : "ALEXHOST SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.219.0/24",
       "5.10.208.0/22",
       "5.63.19.0/24",
@@ -73,7 +76,7 @@
       "217.156.64.0/23",
       "217.156.123.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:6d4::/48",
       "2a00:1728:3e::/47",
       "2a0a:8d80:1::/48",

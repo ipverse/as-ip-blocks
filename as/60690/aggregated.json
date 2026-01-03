@@ -1,9 +1,12 @@
 {
-  "asn": 60690,
-  "handle": "OPEX-ASN",
-  "description": "Opin Kerfi hf",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60690,
+  "metadata" : {
+    "handle" : "OPEX-ASN",
+    "description" : "Opin Kerfi hf",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.95.72.0/21",
       "178.248.16.0/21",
       "185.27.36.0/22",
@@ -12,6 +15,6 @@
       "185.123.196.0/22",
       "185.219.148.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

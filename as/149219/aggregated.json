@@ -1,12 +1,15 @@
 {
-  "asn": 149219,
-  "handle": "MDCBS-AS-IN",
-  "description": "MAA DURGA CABLE BROADBAND SERVICE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149219,
+  "metadata" : {
+    "handle" : "MDCBS-AS-IN",
+    "description" : "MAA DURGA CABLE BROADBAND SERVICE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.179.164.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:5040::/48"
     ]
   }

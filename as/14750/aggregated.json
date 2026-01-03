@@ -1,12 +1,15 @@
 {
-  "asn": 14750,
-  "handle": "SIERRA-TEL-INTERNET",
-  "description": "Sierra Tel Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14750,
+  "metadata" : {
+    "handle" : "SIERRA-TEL-INTERNET",
+    "description" : "Sierra Tel Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.118.96.0/19",
       "76.9.64.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

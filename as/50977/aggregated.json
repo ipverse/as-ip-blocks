@@ -1,9 +1,12 @@
 {
-  "asn": 50977,
-  "handle": "AVATELTELECOM-AS",
-  "description": "AVATEL TELECOM SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50977,
+  "metadata" : {
+    "handle" : "AVATELTELECOM-AS",
+    "description" : "AVATEL TELECOM SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.107.104.0/24",
       "109.107.106.0/24",
       "109.107.109.0/24",
@@ -11,6 +14,6 @@
       "109.107.112.0/23",
       "109.107.126.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

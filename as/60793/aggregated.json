@@ -1,14 +1,17 @@
 {
-  "asn": 60793,
-  "handle": "OCEAN-AS",
-  "description": "TELEFONICA TECH NORTHERN IRELAND LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60793,
+  "metadata" : {
+    "handle" : "OCEAN-AS",
+    "description" : "TELEFONICA TECH NORTHERN IRELAND LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.19.12.0/22",
       "185.192.156.0/22",
       "193.19.88.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:fe40::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 40149,
-  "handle": "UBNET1-AS",
-  "description": "University of Bridgeport",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40149,
+  "metadata" : {
+    "handle" : "UBNET1-AS",
+    "description" : "University of Bridgeport",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.107.38.0/24",
       "216.87.96.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

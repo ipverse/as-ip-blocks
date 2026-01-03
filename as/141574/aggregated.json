@@ -1,11 +1,16 @@
 {
-  "asn": 141574,
-  "handle": "STBROADP-AS",
-  "description": "St Broadband Cable Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141574,
+  "metadata" : {
+    "handle" : "STBROADP-AS",
+    "description" : "St Broadband Cable Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.160.210.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [
+      "2406:f140::/32"
+    ]
   }
 }

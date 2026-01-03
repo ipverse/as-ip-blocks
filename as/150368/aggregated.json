@@ -1,10 +1,13 @@
 {
-  "asn": 150368,
-  "handle": "TESTBED-KLN",
-  "description": "SERVER-G Group",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 150368,
+  "metadata" : {
+    "handle" : "TESTBED-KLN",
+    "description" : "SERVER-G Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2401:d20:1010::/47",
       "2401:d20:1012::/48",
       "2401:d20:1015::/48",

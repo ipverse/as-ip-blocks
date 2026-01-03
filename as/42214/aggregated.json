@@ -1,12 +1,15 @@
 {
-  "asn": 42214,
-  "handle": "GDNS",
-  "description": "Network Services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42214,
+  "metadata" : {
+    "handle" : "GDNS",
+    "description" : "Network Services Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.246.28.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:47c::/48",
       "2001:678:4bc::/48"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 274031,
-  "handle": "GRUPO-POWERTEL",
-  "description": "GRUPO POWERTEL SAC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 274031,
+  "metadata" : {
+    "handle" : "GRUPO-POWERTEL",
+    "description" : "GRUPO POWERTEL SAC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "166.1.24.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:1cd0::/39",
       "2803:1cd0:200::/40",
       "2803:1cd0:ff00::/40"

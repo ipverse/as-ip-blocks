@@ -1,14 +1,17 @@
 {
-  "asn": 274063,
-  "handle": "RIMTEL",
-  "description": "RIMTEL S.A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 274063,
+  "metadata" : {
+    "handle" : "RIMTEL",
+    "description" : "RIMTEL S.A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.186.126.0/23",
       "45.190.87.0/24",
       "190.113.63.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:f2d0:a4::/48",
       "2803:f2d0:b1::/48",
       "2803:f2d0:b2::/47",

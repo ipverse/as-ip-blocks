@@ -1,11 +1,14 @@
 {
-  "asn": 40884,
-  "handle": "TTC-TORONTO-TRANSIT-COMMISSION",
-  "description": "TTC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40884,
+  "metadata" : {
+    "handle" : "TTC-TORONTO-TRANSIT-COMMISSION",
+    "description" : "TTC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.168.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

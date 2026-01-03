@@ -1,9 +1,12 @@
 {
-  "asn": 17483,
-  "handle": "CITYON-AS-AP",
-  "description": "CityOnline Services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17483,
+  "metadata" : {
+    "handle" : "CITYON-AS-AP",
+    "description" : "CityOnline Services Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.123.24.0/22",
       "49.156.128.0/20",
       "49.156.144.0/23",
@@ -15,7 +18,7 @@
       "103.5.18.0/23",
       "202.62.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:f100::/38",
       "2404:f100:400::/39",
       "2404:f100:8000::/36",

@@ -1,12 +1,15 @@
 {
-  "asn": 210465,
-  "handle": "AS-SACITAS",
-  "description": "SAC-IT A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210465,
+  "metadata" : {
+    "handle" : "AS-SACITAS",
+    "description" : "SAC-IT A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.88.144.0/21",
       "146.19.99.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

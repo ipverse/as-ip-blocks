@@ -1,9 +1,12 @@
 {
-  "asn": 59793,
-  "handle": "CISP-AS",
-  "description": "Corporate Internet Service Provider LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59793,
+  "metadata" : {
+    "handle" : "CISP-AS",
+    "description" : "Corporate Internet Service Provider LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.133.106.0/23",
       "79.133.112.0/21",
       "93.179.70.0/23",
@@ -16,7 +19,7 @@
       "188.35.4.0/22",
       "194.50.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:d0c2:1::/48"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 131927,
-  "handle": "TVM",
-  "description": "TV Matsumoto Cablevision",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131927,
+  "metadata" : {
+    "handle" : "TVM",
+    "description" : "TV Matsumoto Cablevision",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.14.0.0/18",
       "14.14.64.0/19",
       "103.106.48.0/22",
       "219.100.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:f820::/32"
     ]
   }

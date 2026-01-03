@@ -1,12 +1,15 @@
 {
-  "asn": 147022,
-  "handle": "SBI-AS-AP",
-  "description": "Shamibag Broadband Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147022,
+  "metadata" : {
+    "handle" : "SBI-AS-AP",
+    "description" : "Shamibag Broadband Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.173.30.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:8b80::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 211533,
-  "handle": "VATES",
-  "description": "Vates SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211533,
+  "metadata" : {
+    "handle" : "VATES",
+    "description" : "Vates SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.154.189.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:dac0::/48"
     ]
   }

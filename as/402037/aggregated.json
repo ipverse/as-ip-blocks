@@ -1,12 +1,15 @@
 {
-  "asn": 402037,
-  "handle": "2GHZ-NET-ASN-01",
-  "description": "2ghz.net LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 402037,
+  "metadata" : {
+    "handle" : "2GHZ-NET-ASN-01",
+    "description" : "2ghz.net LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.146.132.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f539::/40"
     ]
   }

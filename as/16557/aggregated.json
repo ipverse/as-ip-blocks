@@ -1,9 +1,12 @@
 {
-  "asn": 16557,
-  "handle": "COLOSOLUTIONS",
-  "description": "Colo Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16557,
+  "metadata" : {
+    "handle" : "COLOSOLUTIONS",
+    "description" : "Colo Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.103.128.0/19",
       "72.21.8.0/23",
       "72.21.12.0/23",
@@ -16,7 +19,7 @@
       "204.152.22.0/23",
       "209.126.92.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f528::/32"
     ]
   }

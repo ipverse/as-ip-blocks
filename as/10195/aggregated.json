@@ -1,13 +1,16 @@
 {
-  "asn": 10195,
-  "handle": "HAIONNET-AS",
-  "description": "HAIonNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10195,
+  "metadata" : {
+    "handle" : "HAIONNET-AS",
+    "description" : "HAIonNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "115.144.35.0/24",
       "115.144.39.0/24",
       "115.144.56.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

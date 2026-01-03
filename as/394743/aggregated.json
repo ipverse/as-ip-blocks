@@ -1,13 +1,16 @@
 {
-  "asn": 394743,
-  "handle": "GIGIFIBER",
-  "description": "Gigifi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394743,
+  "metadata" : {
+    "handle" : "GIGIFIBER",
+    "description" : "Gigifi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.167.80.0/23",
       "23.172.32.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:12c0::/32"
     ]
   }

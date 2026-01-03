@@ -1,11 +1,14 @@
 {
-  "asn": 23154,
-  "handle": "SANMINA-SCI",
-  "description": "Sanmina-SCI Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23154,
+  "metadata" : {
+    "handle" : "SANMINA-SCI",
+    "description" : "Sanmina-SCI Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.118.42.0/24",
-      "143.116.14.0/23",
+      "143.116.15.0/24",
       "143.116.35.0/24",
       "143.116.78.0/23",
       "143.116.82.0/24",
@@ -45,6 +48,6 @@
       "148.164.193.0/24",
       "148.164.214.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

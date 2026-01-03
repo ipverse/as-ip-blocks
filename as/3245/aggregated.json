@@ -1,16 +1,19 @@
 {
-  "asn": 3245,
-  "handle": "DIGSYS-AS",
-  "description": "Digital Systems Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3245,
+  "metadata" : {
+    "handle" : "DIGSYS-AS",
+    "description" : "Digital Systems Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.143.80.0/22",
       "192.92.129.0/24",
       "193.68.0.0/19",
       "193.68.96.0/19",
       "193.68.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:6a80::/32"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 21010,
-  "handle": "KGHM-AS",
-  "description": "KGHM Polska Miedz SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21010,
+  "metadata" : {
+    "handle" : "KGHM-AS",
+    "description" : "KGHM Polska Miedz SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.87.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

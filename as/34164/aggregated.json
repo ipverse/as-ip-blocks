@@ -1,9 +1,12 @@
 {
-  "asn": 34164,
-  "handle": "AKAMAI-LON",
-  "description": "Akamai International B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34164,
+  "metadata" : {
+    "handle" : "AKAMAI-LON",
+    "description" : "Akamai International B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.16.3.0/24",
       "2.16.18.0/24",
       "2.16.26.0/24",
@@ -113,7 +116,7 @@
       "193.108.152.0/24",
       "195.245.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4878:c254::/48",
       "2001:4878:c270::/47",
       "2001:4878:c274::/46",

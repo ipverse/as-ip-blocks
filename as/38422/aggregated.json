@@ -1,9 +1,12 @@
 {
-  "asn": 38422,
-  "handle": "SEOWON-AS",
-  "description": "Seowon University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38422,
+  "metadata" : {
+    "handle" : "SEOWON-AS",
+    "description" : "Seowon University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.110.8.0/21",
       "211.42.186.0/24",
       "211.42.241.0/24",
@@ -21,6 +24,6 @@
       "221.160.151.0/24",
       "221.160.183.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 43304,
-  "handle": "TEAMVIEWER-AS",
-  "description": "TeamViewer Germany GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43304,
+  "metadata" : {
+    "handle" : "TEAMVIEWER-AS",
+    "description" : "TeamViewer Germany GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.147.108.0/22",
       "185.188.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:b580::/48",
       "2a0b:b580:ffff::/48",
       "2a0b:b581::/48",

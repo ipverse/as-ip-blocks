@@ -1,9 +1,12 @@
 {
-  "asn": 30666,
-  "handle": "XCHANGETELECOMCORP",
-  "description": "Xchange Telecom Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30666,
+  "metadata" : {
+    "handle" : "XCHANGETELECOMCORP",
+    "description" : "Xchange Telecom Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.105.204.0/22",
       "38.117.192.0/23",
       "38.117.213.0/24",
@@ -17,7 +20,7 @@
       "198.55.44.0/22",
       "198.167.168.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:4200::/32"
     ]
   }

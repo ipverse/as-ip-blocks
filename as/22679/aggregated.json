@@ -1,12 +1,15 @@
 {
-  "asn": 22679,
-  "handle": "M2OS-ASN-01",
-  "description": "m2os LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22679,
+  "metadata" : {
+    "handle" : "M2OS-ASN-01",
+    "description" : "m2os LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.172.152.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f971::/36"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 198090,
-  "handle": "ASLIBRA",
-  "description": "LIBRA S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198090,
+  "metadata" : {
+    "handle" : "ASLIBRA",
+    "description" : "LIBRA S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.75.24.0/21",
       "91.199.170.0/24",
       "91.231.164.0/22",
@@ -12,7 +15,7 @@
       "185.114.80.0/22",
       "185.246.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:6d40::/29"
     ]
   }

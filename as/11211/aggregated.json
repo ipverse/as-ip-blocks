@@ -1,12 +1,15 @@
 {
-  "asn": 11211,
-  "handle": "NCIC",
-  "description": "NCIC Operator Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11211,
+  "metadata" : {
+    "handle" : "NCIC",
+    "description" : "NCIC Operator Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.63.241.0/24",
       "207.141.26.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

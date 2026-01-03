@@ -1,13 +1,16 @@
 {
-  "asn": 30943,
-  "handle": "BIGWEB-AS",
-  "description": "ZAO Web Hosting",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30943,
+  "metadata" : {
+    "handle" : "BIGWEB-AS",
+    "description" : "ZAO Web Hosting",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "217.112.32.0/22",
       "217.112.40.0/23",
       "217.112.47.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

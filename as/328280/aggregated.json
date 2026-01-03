@@ -1,12 +1,15 @@
 {
-  "asn": 328280,
-  "handle": "LNDR1-AS",
-  "description": "L\u0027Agence Nationale de Réglementation des Télécommunications (ANRT)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328280,
+  "metadata" : {
+    "handle" : "LNDR1-AS",
+    "description" : "L'Agence Nationale de Réglementation des Télécommunications (ANRT)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.165.189.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43f8:10f0::/48"
     ]
   }

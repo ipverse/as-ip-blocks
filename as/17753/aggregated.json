@@ -1,9 +1,12 @@
 {
-  "asn": 17753,
-  "handle": "DATAINGENIOUS-AS-AP",
-  "description": "DATA INGENIOUS GLOBAL LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17753,
+  "metadata" : {
+    "handle" : "DATAINGENIOUS-AS-AP",
+    "description" : "DATA INGENIOUS GLOBAL LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.157.64.0/24",
       "202.157.67.0/24",
       "202.157.68.0/22",
@@ -18,7 +21,7 @@
       "202.157.93.0/24",
       "202.157.94.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:8c00:2::/48",
       "2402:8c00:9::/48"
     ]

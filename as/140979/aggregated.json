@@ -1,9 +1,12 @@
 {
-  "asn": 140979,
-  "handle": "UNICOM-SHFT-IDC",
-  "description": "China Unicom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140979,
+  "metadata" : {
+    "handle" : "UNICOM-SHFT-IDC",
+    "description" : "China Unicom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.250.144.0/23",
       "58.246.163.0/24",
       "58.246.220.0/22",
@@ -62,7 +65,7 @@
       "223.167.240.0/22",
       "223.167.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2408:8000:9ffd::/48",
       "2408:80f1:20::/43",
       "2408:870c:160::/44",

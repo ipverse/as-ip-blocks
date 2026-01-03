@@ -1,14 +1,17 @@
 {
-  "asn": 32258,
-  "handle": "VELOCITY-FUSION",
-  "description": "Velocity Fusion",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32258,
+  "metadata" : {
+    "handle" : "VELOCITY-FUSION",
+    "description" : "Velocity Fusion",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.109.223.0/24",
       "12.198.128.0/24",
       "23.178.88.0/24",
       "204.17.204.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

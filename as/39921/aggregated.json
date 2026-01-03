@@ -1,9 +1,12 @@
 {
-  "asn": 39921,
-  "handle": "DE-RACKSPACE",
-  "description": "Rackspace Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39921,
+  "metadata" : {
+    "handle" : "DE-RACKSPACE",
+    "description" : "Rackspace Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.21.36.0/22",
       "147.75.24.0/22",
       "159.135.128.0/18",
@@ -11,7 +14,7 @@
       "185.205.104.0/22",
       "192.68.42.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:440::/32"
     ]
   }

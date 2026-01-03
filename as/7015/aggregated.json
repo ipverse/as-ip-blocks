@@ -1,9 +1,12 @@
 {
-  "asn": 7015,
-  "handle": "COMCAST-7015",
-  "description": "Comcast Cable Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7015,
+  "metadata" : {
+    "handle" : "COMCAST-7015",
+    "description" : "Comcast Cable Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.182.187.0/24",
       "5.182.192.0/24",
       "5.182.198.0/24",
@@ -107,7 +110,7 @@
       "216.99.206.0/24",
       "217.197.169.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:559:11::/48",
       "2001:559:21::/48",
       "2001:559:34::/48",

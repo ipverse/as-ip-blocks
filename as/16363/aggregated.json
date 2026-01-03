@@ -1,12 +1,15 @@
 {
-  "asn": 16363,
-  "handle": "AXIALYS",
-  "description": "Axialys SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16363,
+  "metadata" : {
+    "handle" : "AXIALYS",
+    "description" : "Axialys SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "217.146.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1538::/32"
     ]
   }

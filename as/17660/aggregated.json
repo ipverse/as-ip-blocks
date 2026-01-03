@@ -1,9 +1,12 @@
 {
-  "asn": 17660,
-  "handle": "DRUKNET-AS",
-  "description": "Bhutan Telecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17660,
+  "metadata" : {
+    "handle" : "DRUKNET-AS",
+    "description" : "Bhutan Telecom Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.64.248.0/22",
       "103.245.240.0/22",
       "119.2.96.0/19",
@@ -13,7 +16,7 @@
       "163.227.24.0/21",
       "202.144.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:d000::/32"
     ]
   }

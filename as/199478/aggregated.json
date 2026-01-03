@@ -1,9 +1,12 @@
 {
-  "asn": 199478,
-  "handle": "RADIOCABLE-AS",
-  "description": "RADIOCABLE INGENIEROS S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199478,
+  "metadata" : {
+    "handle" : "RADIOCABLE-AS",
+    "description" : "RADIOCABLE INGENIEROS S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.130.144.0/21",
       "91.193.152.0/22",
       "144.2.164.0/22",
@@ -18,6 +21,6 @@
       "194.62.190.0/23",
       "213.170.248.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

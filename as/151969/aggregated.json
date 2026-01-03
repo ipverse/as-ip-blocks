@@ -1,12 +1,15 @@
 {
-  "asn": 151969,
-  "handle": "MEDIACOM-AS-AP",
-  "description": "MediaCom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151969,
+  "metadata" : {
+    "handle" : "MEDIACOM-AS-AP",
+    "description" : "MediaCom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.67.64.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:d40::/48"
     ]
   }

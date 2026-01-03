@@ -1,13 +1,16 @@
 {
-  "asn": 400773,
-  "handle": "BOSTON-FIBER",
-  "description": "Boston Fiber LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400773,
+  "metadata" : {
+    "handle" : "BOSTON-FIBER",
+    "description" : "Boston Fiber LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.157.24.0/23",
       "209.135.164.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff65:e27::/48"
     ]
   }

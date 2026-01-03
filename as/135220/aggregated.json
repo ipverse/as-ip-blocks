@@ -1,15 +1,18 @@
 {
-  "asn": 135220,
-  "handle": "YUVARAC-AS",
-  "description": "Yuva Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135220,
+  "metadata" : {
+    "handle" : "YUVARAC-AS",
+    "description" : "Yuva Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.104.221.0/24",
       "103.108.10.0/23",
       "103.108.48.0/24",
       "103.214.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:c880::/35"
     ]
   }

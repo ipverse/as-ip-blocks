@@ -1,14 +1,17 @@
 {
-  "asn": 10146,
-  "handle": "FORD-MOTOR-CO-SG-AP",
-  "description": "Ford Motor Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10146,
+  "metadata" : {
+    "handle" : "FORD-MOTOR-CO-SG-AP",
+    "description" : "Ford Motor Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "19.12.32.0/22",
       "19.12.52.0/22",
       "103.147.129.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:440::/48"
     ]
   }

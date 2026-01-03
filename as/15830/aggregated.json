@@ -1,9 +1,12 @@
 {
-  "asn": 15830,
-  "handle": "EQUINIX",
-  "description": "Equinix (EMEA) Acquisition Enterprises B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15830,
+  "metadata" : {
+    "handle" : "EQUINIX",
+    "description" : "Equinix (EMEA) Acquisition Enterprises B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.0.0/22",
       "5.57.215.0/24",
       "5.175.80.0/21",
@@ -677,7 +680,7 @@
       "218.219.64.0/20",
       "219.122.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:d24::/48",
       "2001:678:1114::/48",
       "2001:67c:1968::/48",

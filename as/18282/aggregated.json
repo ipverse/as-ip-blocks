@@ -1,9 +1,12 @@
 {
-  "asn": 18282,
-  "handle": "CORALNET",
-  "description": "Tonami System Solutions Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18282,
+  "metadata" : {
+    "handle" : "CORALNET",
+    "description" : "Tonami System Solutions Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.211.72.0/22",
       "124.240.224.0/19",
       "180.94.240.0/20",
@@ -13,7 +16,7 @@
       "210.79.192.0/20",
       "220.208.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:2800::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 9782,
-  "handle": "WOOSONGEDU",
-  "description": "WooSong University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9782,
+  "metadata" : {
+    "handle" : "WOOSONGEDU",
+    "description" : "WooSong University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.26.6.0/24",
       "117.16.166.0/23",
       "203.230.236.0/22",
@@ -16,6 +19,6 @@
       "220.90.187.0/24",
       "220.90.197.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

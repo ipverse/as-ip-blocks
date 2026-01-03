@@ -1,9 +1,12 @@
 {
-  "asn": 62713,
-  "handle": "AS-PUBMATIC",
-  "description": "PubMatic Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62713,
+  "metadata" : {
+    "handle" : "AS-PUBMATIC",
+    "description" : "PubMatic Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.28.7.0/24",
       "67.199.150.0/24",
       "103.231.98.0/23",
@@ -15,7 +18,7 @@
       "204.237.133.0/24",
       "207.65.32.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:fb80:80::/48"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 153378,
-  "handle": "ORBITAL-AS-AP",
-  "description": "Orbital Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153378,
+  "metadata" : {
+    "handle" : "ORBITAL-AS-AP",
+    "description" : "Orbital Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.191.116.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 262468,
-  "handle": "NATEL-TELECOM",
-  "description": "Natel Telecom Ltda. - ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262468,
+  "metadata" : {
+    "handle" : "NATEL-TELECOM",
+    "description" : "Natel Telecom Ltda. - ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.228.48.0/22",
       "138.122.28.0/22",
       "167.250.124.0/23",
@@ -13,7 +16,7 @@
       "179.108.48.0/20",
       "191.5.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:e94::/41",
       "2804:e94:80::/44",
       "2804:e94:a0::/43",

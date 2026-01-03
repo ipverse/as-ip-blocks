@@ -1,9 +1,12 @@
 {
-  "asn": 15974,
-  "handle": "VTT-AS",
-  "description": "Joint Stock Company TransTeleCom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15974,
+  "metadata" : {
+    "handle" : "VTT-AS",
+    "description" : "Joint Stock Company TransTeleCom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.234.164.0/22",
       "93.157.208.0/21",
       "185.44.120.0/22",
@@ -11,7 +14,7 @@
       "213.80.128.0/17",
       "217.23.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:e840::/31",
       "2a02:e842::/32"
     ]

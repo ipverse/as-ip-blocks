@@ -1,9 +1,12 @@
 {
-  "asn": 27572,
-  "handle": "THEBOE-27572",
-  "description": "The Boeing Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27572,
+  "metadata" : {
+    "handle" : "THEBOE-27572",
+    "description" : "The Boeing Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.65.224.0/23",
       "216.65.226.0/24",
       "216.65.229.0/24",
@@ -14,6 +17,6 @@
       "216.65.246.0/23",
       "216.65.248.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

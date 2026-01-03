@@ -1,15 +1,18 @@
 {
-  "asn": 140999,
-  "handle": "JETEMAIL-AS-AP",
-  "description": "JetEmail Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140999,
+  "metadata" : {
+    "handle" : "JETEMAIL-AS-AP",
+    "description" : "JetEmail Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.153.18.0/23",
       "103.173.0.0/23",
       "103.207.29.0/24",
       "103.207.30.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:2980::/48"
     ]
   }

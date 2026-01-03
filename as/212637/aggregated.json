@@ -1,13 +1,16 @@
 {
-  "asn": 212637,
-  "handle": "LIGHTNET",
-  "description": "Lightnet Sh.p.k",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212637,
+  "metadata" : {
+    "handle" : "LIGHTNET",
+    "description" : "Lightnet Sh.p.k.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.190.108.0/23",
       "185.190.90.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:500::/32"
     ]
   }

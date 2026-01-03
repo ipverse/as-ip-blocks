@@ -1,13 +1,16 @@
 {
-  "asn": 268791,
-  "handle": "AREA-51-PROVEDOR",
-  "description": "AREA 51 PROVEDOR DE INTERNET LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268791,
+  "metadata" : {
+    "handle" : "AREA-51-PROVEDOR-INTERNET",
+    "description" : "AREA 51 PROVEDOR DE INTERNET LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.172.64.0/22",
       "200.9.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5ab8::/32"
     ]
   }

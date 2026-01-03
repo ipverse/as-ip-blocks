@@ -1,11 +1,14 @@
 {
-  "asn": 62933,
-  "handle": "SMC-AS",
-  "description": "Statewide Central Station",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62933,
+  "metadata" : {
+    "handle" : "SMC-AS",
+    "description" : "Statewide Central Station",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.96.215.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

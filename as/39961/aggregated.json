@@ -1,9 +1,12 @@
 {
-  "asn": 39961,
-  "handle": "CCSF",
-  "description": "San Francisco Department of Telecommunications and Information Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39961,
+  "metadata" : {
+    "handle" : "CCSF",
+    "description" : "San Francisco Department of Telecommunications and Information Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.121.0.0/23",
       "208.121.5.0/24",
       "208.121.6.0/24",
@@ -11,6 +14,6 @@
       "208.121.64.0/18",
       "208.121.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 43008,
-  "handle": "TREND-AS",
-  "description": "Trend IMPORT - EXPORT SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43008,
+  "metadata" : {
+    "handle" : "TREND-AS",
+    "description" : "Trend IMPORT - EXPORT SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.194.30.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

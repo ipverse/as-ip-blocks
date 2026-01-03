@@ -1,9 +1,12 @@
 {
-  "asn": 40020,
-  "handle": "FARMERS-TELECOMMUNICATIONS-COOPERATIVE-INC",
-  "description": "Farmers Telecommunications Cooperative Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40020,
+  "metadata" : {
+    "handle" : "FARMERS-TELECOMMUNICATIONS-COOPERATIVE-INC",
+    "description" : "Farmers Telecommunications Cooperative Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.178.224.0/23",
       "64.178.226.0/24",
       "64.178.228.0/24",
@@ -49,7 +52,7 @@
       "216.198.120.0/23",
       "216.198.122.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:cb40::/32"
     ]
   }

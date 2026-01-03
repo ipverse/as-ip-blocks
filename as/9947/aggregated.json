@@ -1,12 +1,15 @@
 {
-  "asn": 9947,
-  "handle": "KTC-AS",
-  "description": "kt cloud Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9947,
+  "metadata" : {
+    "handle" : "KTC-AS",
+    "description" : "kt cloud Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.100.71.0/24",
       "61.100.72.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

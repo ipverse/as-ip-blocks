@@ -1,14 +1,17 @@
 {
-  "asn": 14935,
-  "handle": "MONTICELLO",
-  "description": "Monticello Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14935,
+  "metadata" : {
+    "handle" : "MONTICELLO",
+    "description" : "Monticello Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.47.123.0/24",
       "199.102.44.0/22",
       "208.68.160.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:da00:1111::/48",
       "2605:da00:5222::/48",
       "2605:da00:8738::/48",

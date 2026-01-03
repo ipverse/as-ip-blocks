@@ -1,9 +1,12 @@
 {
-  "asn": 5078,
-  "handle": "ONENET-AS-1",
-  "description": "Oklahoma Network for Education Enrichment and",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5078,
+  "metadata" : {
+    "handle" : "ONENET-AS-1",
+    "description" : "Oklahoma Network for Education Enrichment and",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.112.240.0/20",
       "64.189.14.0/24",
       "66.186.144.0/20",
@@ -36,7 +39,7 @@
       "204.154.112.0/21",
       "205.143.216.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:1d8::/32",
       "2620:13a:7000::/44"
     ]

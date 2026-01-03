@@ -1,9 +1,12 @@
 {
-  "asn": 46454,
-  "handle": "AS1",
-  "description": "WCS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46454,
+  "metadata" : {
+    "handle" : "AS1",
+    "description" : "WCS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.202.98.0/24",
       "68.64.72.0/23",
       "68.64.74.0/24",
@@ -13,6 +16,6 @@
       "68.64.88.0/23",
       "68.64.90.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

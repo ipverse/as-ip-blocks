@@ -1,9 +1,12 @@
 {
-  "asn": 27501,
-  "handle": "ISPNET-AS",
-  "description": "isp.net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27501,
+  "metadata" : {
+    "handle" : "ISPNET-AS",
+    "description" : "isp.net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.72.96.0/20",
       "64.250.224.0/19",
       "74.113.216.0/21",
@@ -20,6 +23,6 @@
       "209.51.40.0/21",
       "216.127.116.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

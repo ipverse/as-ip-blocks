@@ -1,13 +1,16 @@
 {
-  "asn": 60510,
-  "handle": "VICTORY-AS",
-  "description": "Victory Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60510,
+  "metadata" : {
+    "handle" : "VICTORY-AS",
+    "description" : "Victory Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.238.34.0/23",
       "95.47.146.0/24",
       "95.47.155.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

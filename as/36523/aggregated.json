@@ -1,12 +1,15 @@
 {
-  "asn": 36523,
-  "handle": "FCBT-AS",
-  "description": "Farm Credit Bank of Texas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36523,
+  "metadata" : {
+    "handle" : "FCBT-AS",
+    "description" : "Farm Credit Bank of Texas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.72.66.0/23",
       "216.110.11.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

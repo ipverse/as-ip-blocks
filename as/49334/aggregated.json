@@ -1,9 +1,12 @@
 {
-  "asn": 49334,
-  "handle": "SH-COM-TR",
-  "description": "SH ONLINE ILETISIM ANONIM SIRKETI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49334,
+  "metadata" : {
+    "handle" : "SH-COM-TR",
+    "description" : "SH ONLINE ILETISIM ANONIM SIRKETI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.210.34.0/24",
       "31.210.52.0/23",
       "78.135.65.0/24",
@@ -16,7 +19,7 @@
       "212.68.54.0/24",
       "212.68.62.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:26b0:8003::/48"
     ]
   }

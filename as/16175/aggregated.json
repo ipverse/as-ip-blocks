@@ -1,10 +1,13 @@
 {
-  "asn": 16175,
-  "handle": "SIGNAL",
-  "description": "Signal Bredband AS",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 16175,
+  "metadata" : {
+    "handle" : "SIGNAL",
+    "description" : "Signal Bredband AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a00:e08::/32"
     ]
   }

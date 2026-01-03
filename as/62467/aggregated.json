@@ -1,15 +1,18 @@
 {
-  "asn": 62467,
-  "handle": "TXNET",
-  "description": "TXNet Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62467,
+  "metadata" : {
+    "handle" : "TXNET",
+    "description" : "TXNet Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.186.248.0/24",
       "104.167.240.0/24",
       "104.167.243.0/24",
       "204.197.168.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f83a::/40",
       "2602:fc05:ff::/48",
       "2602:fc13::/48",

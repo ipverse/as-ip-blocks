@@ -1,9 +1,12 @@
 {
-  "asn": 42638,
-  "handle": "NETVAERKSSMEDEN",
-  "description": "James Hansen trading as Netvaerkssmeden",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42638,
+  "metadata" : {
+    "handle" : "NETVAERKSSMEDEN",
+    "description" : "James Hansen trading as Netvaerkssmeden",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.133.164.0/22",
       "78.109.208.0/20",
       "91.189.200.0/21",
@@ -13,7 +16,7 @@
       "194.50.208.0/24",
       "195.242.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:96c::/48",
       "2a14:bb00::/29"
     ]

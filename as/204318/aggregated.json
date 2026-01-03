@@ -1,12 +1,15 @@
 {
-  "asn": 204318,
-  "handle": "BGPTOOLS-QA",
-  "description": "Benjamin Cartwright-Cox",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204318,
+  "metadata" : {
+    "handle" : "BGPTOOLS-QA",
+    "description" : "Benjamin Cartwright-Cox",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.10.63.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:4c00::/34"
     ]
   }

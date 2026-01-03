@@ -1,12 +1,15 @@
 {
-  "asn": 55672,
-  "handle": "USD-AS-ID",
-  "description": "Universitas Sanata Dharma",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55672,
+  "metadata" : {
+    "handle" : "USD-AS-ID",
+    "description" : "Universitas Sanata Dharma",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.162.251.0/24",
       "202.94.83.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

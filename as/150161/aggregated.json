@@ -1,14 +1,17 @@
 {
-  "asn": 150161,
-  "handle": "HMO-AS-AP",
-  "description": "HYPERSONIC MANAGEMENT OPC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150161,
+  "metadata" : {
+    "handle" : "HMO-AS-AP",
+    "description" : "HYPERSONIC MANAGEMENT OPC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.175.0.0/21",
       "38.175.16.0/22",
       "38.175.20.0/24",
       "154.40.159.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

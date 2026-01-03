@@ -1,12 +1,15 @@
 {
-  "asn": 15995,
-  "handle": "AB-SEB-BANKAS",
-  "description": "AB SEB bankas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15995,
+  "metadata" : {
+    "handle" : "AB-SEB-BANKAS",
+    "description" : "AB SEB bankas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.97.44.0/22",
       "194.176.58.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

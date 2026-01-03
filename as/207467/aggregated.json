@@ -1,12 +1,15 @@
 {
-  "asn": 207467,
-  "handle": "AS-BKM",
-  "description": "Orange Belgium SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207467,
+  "metadata" : {
+    "handle" : "AS-BKM",
+    "description" : "Orange Belgium SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.65.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:1a20::/48",
       "2a03:1a20:10::/48"
     ]

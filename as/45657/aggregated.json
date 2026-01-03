@@ -1,15 +1,18 @@
 {
-  "asn": 45657,
-  "handle": "NSWRFS-AS-AP",
-  "description": "NSW Rural Fire Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45657,
+  "metadata" : {
+    "handle" : "NSWRFS-AS-AP",
+    "description" : "NSW Rural Fire Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.6.105.0/24",
       "103.99.211.0/24",
       "103.99.224.0/23",
       "203.12.45.0/24",
       "203.166.219.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

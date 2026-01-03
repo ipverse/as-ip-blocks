@@ -1,15 +1,18 @@
 {
-  "asn": 6968,
-  "handle": "ZACR",
-  "description": "ZA CENTRAL REGISTRY NPC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6968,
+  "metadata" : {
+    "handle" : "ZACR",
+    "description" : "ZA CENTRAL REGISTRY NPC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "196.29.56.0/21",
       "196.216.170.0/24",
       "196.216.230.0/23",
       "206.223.136.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43f8:30::/48",
       "2001:43f8:100::/48",
       "2001:43f8:790::/48"

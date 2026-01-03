@@ -1,16 +1,19 @@
 {
-  "asn": 55392,
-  "handle": "MF-NATIVE6-W",
-  "description": "INTERNET MULTIFEED CO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55392,
+  "metadata" : {
+    "handle" : "MF-NATIVE6-W",
+    "description" : "INTERNET MULTIFEED CO.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.1.4.0/22",
       "103.2.252.0/22",
       "130.62.128.0/17",
       "217.178.64.0/18",
       "217.178.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:8e01::/32",
       "2409:250::/28"
     ]

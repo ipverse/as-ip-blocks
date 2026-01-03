@@ -1,9 +1,12 @@
 {
-  "asn": 52363,
-  "handle": "JUMPNET-SOLUCIONES-INTERNET",
-  "description": "Jumpnet Soluciones de Internet S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52363,
+  "metadata" : {
+    "handle" : "JUMPNET-SOLUCIONES-INTERNET",
+    "description" : "Jumpnet Soluciones de Internet S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.104.32.0/23",
       "190.104.35.0/24",
       "190.104.36.0/22",
@@ -12,7 +15,7 @@
       "190.104.47.0/24",
       "190.112.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:6800::/32"
     ]
   }

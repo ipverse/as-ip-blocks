@@ -1,11 +1,14 @@
 {
-  "asn": 138205,
-  "handle": "RMNETWORK-AS-AP",
-  "description": "RM NETWORK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138205,
+  "metadata" : {
+    "handle" : "RMNETWORK-AS-AP",
+    "description" : "RM NETWORK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.129.236.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

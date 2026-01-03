@@ -1,9 +1,12 @@
 {
-  "asn": 38082,
-  "handle": "IIT-TIG-AS-AP",
-  "description": "True International Gateway Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38082,
+  "metadata" : {
+    "handle" : "IIT-TIG-AS-AP",
+    "description" : "True International Gateway Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.123.16.0/22",
       "58.97.24.0/24",
       "61.91.221.0/24",
@@ -17,7 +20,7 @@
       "171.102.237.0/24",
       "171.102.238.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:4000::/32"
     ]
   }

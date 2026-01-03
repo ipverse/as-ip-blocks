@@ -1,12 +1,15 @@
 {
-  "asn": 150184,
-  "handle": "OWONET-AS-AP",
-  "description": "Chen Chi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150184,
+  "metadata" : {
+    "handle" : "OWONET-AS-AP",
+    "description" : "Chen Chi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.68.182.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:840:e301::/48",
       "2406:840:e302::/48",
       "2406:840:e306::/47",

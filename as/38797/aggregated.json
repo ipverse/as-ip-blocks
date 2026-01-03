@@ -1,14 +1,17 @@
 {
-  "asn": 38797,
-  "handle": "CNLINK-TW-AS-AP",
-  "description": "CNLink",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38797,
+  "metadata" : {
+    "handle" : "CNLINK-TW-AS-AP",
+    "description" : "CNLink",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "125.62.224.0/21",
       "125.62.232.0/22",
       "125.62.236.0/24",
       "125.62.239.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

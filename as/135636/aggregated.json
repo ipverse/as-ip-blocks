@@ -1,9 +1,12 @@
 {
-  "asn": 135636,
-  "handle": "RACKH-AS-AP",
-  "description": "PT. RACKH LINTAS ASIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135636,
+  "metadata" : {
+    "handle" : "RACKH-AS-AP",
+    "description" : "PT. RACKH LINTAS ASIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.77.76.0/23",
       "103.77.78.0/24",
       "103.98.121.0/24",
@@ -17,7 +20,7 @@
       "178.92.64.0/24",
       "178.93.21.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:8f80::/32"
     ]
   }

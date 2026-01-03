@@ -1,14 +1,17 @@
 {
-  "asn": 4817,
-  "handle": "STPL-SG-AP",
-  "description": "Simba Telecom Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4817,
+  "metadata" : {
+    "handle" : "STPL-SG-AP",
+    "description" : "Simba Telecom Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.10.0.0/20",
       "210.10.64.0/22",
       "210.10.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:79e0::/32",
       "2405:800:8000::/34"
     ]

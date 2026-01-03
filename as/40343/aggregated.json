@@ -1,13 +1,16 @@
 {
-  "asn": 40343,
-  "handle": "USSI-SKYFIBER",
-  "description": "USSI Global",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40343,
+  "metadata" : {
+    "handle" : "USSI-SKYFIBER",
+    "description" : "USSI Global",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.168.64.0/24",
       "201.159.71.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:3d:e000::/48"
     ]
   }

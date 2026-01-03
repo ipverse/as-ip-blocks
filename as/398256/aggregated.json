@@ -1,9 +1,12 @@
 {
-  "asn": 398256,
-  "handle": "AS-ULTAHOST",
-  "description": "Ultahost Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398256,
+  "metadata" : {
+    "handle" : "AS-ULTAHOST",
+    "description" : "Ultahost Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.210.97.0/24",
       "96.62.77.0/24",
       "104.145.210.0/24",
@@ -13,6 +16,6 @@
       "202.155.8.0/24",
       "213.139.77.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

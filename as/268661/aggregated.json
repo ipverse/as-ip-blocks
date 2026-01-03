@@ -1,12 +1,15 @@
 {
-  "asn": 268661,
-  "handle": "INFRANET-FIBRA",
-  "description": "INFRANET FIBRA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268661,
+  "metadata" : {
+    "handle" : "INFRANET-FIBRA",
+    "description" : "INFRANET FIBRA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.165.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:549c::/33",
       "2804:549c:8000::/37"
     ]

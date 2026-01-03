@@ -1,9 +1,12 @@
 {
-  "asn": 40656,
-  "handle": "COMETC1",
-  "description": "Communications Etc. Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40656,
+  "metadata" : {
+    "handle" : "COMETC1",
+    "description" : "Communications Etc. Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.175.199.0/24",
       "12.175.211.0/24",
       "12.183.155.0/24",
@@ -11,7 +14,7 @@
       "12.229.220.0/24",
       "23.157.248.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:4b80::/32"
     ]
   }

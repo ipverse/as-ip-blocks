@@ -1,12 +1,15 @@
 {
-  "asn": 142165,
-  "handle": "BOSCHCORPORATION-AS-AP",
-  "description": "Bosch Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142165,
+  "metadata" : {
+    "handle" : "BOSCHCORPORATION-AS-AP",
+    "description" : "Bosch Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.30.228.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:bfe0::/32"
     ]
   }

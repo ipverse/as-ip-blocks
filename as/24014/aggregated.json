@@ -1,14 +1,17 @@
 {
-  "asn": 24014,
-  "handle": "BONDUNI-AS-AP",
-  "description": "Bond University Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24014,
+  "metadata" : {
+    "handle" : "BONDUNI-AS-AP",
+    "description" : "Bond University Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.244.0.0/15",
       "192.48.109.0/24",
       "192.48.110.0/24",
       "192.88.187.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 9955,
-  "handle": "CHEONAN-AS",
-  "description": "Baekseok University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9955,
+  "metadata" : {
+    "handle" : "CHEONAN-AS",
+    "description" : "Baekseok University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.38.10.0/23",
       "61.42.63.0/24",
       "61.42.64.0/22",
@@ -12,6 +15,6 @@
       "211.253.154.0/24",
       "211.253.224.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

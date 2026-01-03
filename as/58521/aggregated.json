@@ -1,9 +1,12 @@
 {
-  "asn": 58521,
-  "handle": "GARENA-SG",
-  "description": "Garena Online Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58521,
+  "metadata" : {
+    "handle" : "GARENA-SG",
+    "description" : "Garena Online Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.247.204.0/22",
       "143.92.112.0/23",
       "143.92.115.0/24",
@@ -25,7 +28,7 @@
       "202.181.68.0/22",
       "202.181.72.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:b00::/47",
       "2403:b00:6::/47"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 17401,
-  "handle": "ERTACH",
-  "description": "ERTACH S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17401,
+  "metadata" : {
+    "handle" : "ERTACH",
+    "description" : "ERTACH S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.81.2.0/23",
       "200.81.5.0/24",
       "200.81.8.0/24",
@@ -32,6 +35,6 @@
       "209.99.234.0/23",
       "209.99.237.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

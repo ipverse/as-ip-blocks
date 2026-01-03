@@ -1,9 +1,12 @@
 {
-  "asn": 33905,
-  "handle": "AKAMAI-AMS",
-  "description": "Akamai International B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33905,
+  "metadata" : {
+    "handle" : "AKAMAI-AMS",
+    "description" : "Akamai International B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.18.48.0/21",
       "23.1.35.0/24",
       "23.1.99.0/24",
@@ -26,7 +29,7 @@
       "184.31.3.0/24",
       "184.31.10.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:1480:1000::/40",
       "2600:1480:2000::/40",
       "2600:1480:3000::/40",

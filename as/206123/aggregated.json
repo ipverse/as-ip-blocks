@@ -1,9 +1,12 @@
 {
-  "asn": 206123,
-  "handle": "XELON",
-  "description": "Xelon AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206123,
+  "metadata" : {
+    "handle" : "XELON",
+    "description" : "Xelon AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.131.168.0/22",
       "91.235.212.0/24",
       "91.247.253.0/24",
@@ -18,7 +21,7 @@
       "185.254.118.0/23",
       "193.8.76.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:5ec0::/29",
       "2a0d:c340::/29"
     ]

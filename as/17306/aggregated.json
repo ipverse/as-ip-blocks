@@ -1,9 +1,12 @@
 {
-  "asn": 17306,
-  "handle": "RISE-BROADBAND",
-  "description": "JAB Wireless INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17306,
+  "metadata" : {
+    "handle" : "RISE-BROADBAND",
+    "description" : "JAB Wireless INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.248.254.0/23",
       "63.249.32.0/20",
       "64.18.224.0/20",
@@ -121,7 +124,7 @@
       "216.228.64.0/20",
       "216.237.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:6300::/32"
     ]
   }

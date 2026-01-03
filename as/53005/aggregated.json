@@ -1,9 +1,12 @@
 {
-  "asn": 53005,
-  "handle": "REDE-CONNECT-TELECOMUNICACOES",
-  "description": "REDE CONNECT TELECOMUNICACOES LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53005,
+  "metadata" : {
+    "handle" : "REDE-CONNECT-TELECOMUNICACOES",
+    "description" : "REDE CONNECT TELECOMUNICACOES LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.161.16.0/22",
       "45.188.120.0/22",
       "168.90.164.0/22",
@@ -12,7 +15,7 @@
       "177.84.16.0/22",
       "189.50.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:548::/32"
     ]
   }

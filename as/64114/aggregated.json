@@ -1,16 +1,19 @@
 {
-  "asn": 64114,
-  "handle": "TECNOWEB-PERU",
-  "description": "TECNOWEB PERU SAC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64114,
+  "metadata" : {
+    "handle" : "TECNOWEB-PERU",
+    "description" : "TECNOWEB PERU SAC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.169.100.0/22",
       "45.191.0.0/23",
       "45.191.2.0/24",
       "177.126.36.0/22",
       "179.61.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:5c80:5001::/48",
       "2803:5c80:5034::/48",
       "2803:5c80:5051::/48",

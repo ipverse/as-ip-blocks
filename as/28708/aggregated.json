@@ -1,9 +1,12 @@
 {
-  "asn": 28708,
-  "handle": "ORANGEFR-PORTAL-AS",
-  "description": "Orange S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28708,
+  "metadata" : {
+    "handle" : "ORANGEFR-PORTAL-AS",
+    "description" : "Orange S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.10.43.0/24",
       "80.10.46.0/24",
       "80.10.159.0/24",
@@ -27,7 +30,7 @@
       "193.253.170.0/24",
       "194.250.131.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:cd00:8020::/48",
       "2a01:cd00:8040::/48",
       "2a01:cd00:80d0::/48",

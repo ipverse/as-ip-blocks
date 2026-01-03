@@ -1,13 +1,16 @@
 {
-  "asn": 44314,
-  "handle": "ITSYNERGY",
-  "description": "ITsynergy Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44314,
+  "metadata" : {
+    "handle" : "ITSYNERGY",
+    "description" : "ITsynergy Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.170.181.0/24",
       "185.83.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:4e8::/32"
     ]
   }

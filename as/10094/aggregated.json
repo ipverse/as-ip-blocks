@@ -1,9 +1,12 @@
 {
-  "asn": 10094,
-  "handle": "UNN-BN",
-  "description": "Unified National Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10094,
+  "metadata" : {
+    "handle" : "UNN-BN",
+    "description" : "Unified National Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.6.192.0/18",
       "103.42.208.0/22",
       "118.103.248.0/21",
@@ -14,6 +17,6 @@
       "202.160.0.0/19",
       "202.160.32.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

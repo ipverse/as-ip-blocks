@@ -1,16 +1,19 @@
 {
-  "asn": 197395,
-  "handle": "HOSTGHOST-AS",
-  "description": "HostGhost B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197395,
+  "metadata" : {
+    "handle" : "HOSTGHOST-AS",
+    "description" : "HostGhost B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.10.132.0/22",
       "46.243.96.0/21",
       "91.208.62.0/24",
       "91.239.186.0/24",
       "185.119.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:e580::/29"
     ]
   }

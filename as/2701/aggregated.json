@@ -1,12 +1,15 @@
 {
-  "asn": 2701,
-  "handle": "KSU-NET",
-  "description": "Kansas State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2701,
+  "metadata" : {
+    "handle" : "KSU-NET",
+    "description" : "Kansas State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.130.0.0/16",
       "198.248.84.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

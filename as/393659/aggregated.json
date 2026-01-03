@@ -1,12 +1,15 @@
 {
-  "asn": 393659,
-  "handle": "NWRP-AS",
-  "description": "North West Redwater Partnership",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393659,
+  "metadata" : {
+    "handle" : "NWRP-AS",
+    "description" : "North West Redwater Partnership",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.229.55.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f9d2::/48"
     ]
   }

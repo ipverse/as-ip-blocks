@@ -1,9 +1,12 @@
 {
-  "asn": 10011,
-  "handle": "ADVAN",
-  "description": "advanscope inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10011,
+  "metadata" : {
+    "handle" : "ADVAN",
+    "description" : "advanscope inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.41.112.0/20",
       "61.121.224.0/20",
       "103.13.60.0/22",
@@ -12,7 +15,7 @@
       "219.106.176.0/20",
       "223.27.72.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:2840::/32"
     ]
   }

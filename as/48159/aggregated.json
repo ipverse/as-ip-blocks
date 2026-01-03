@@ -1,9 +1,12 @@
 {
-  "asn": 48159,
-  "handle": "TIC-AS",
-  "description": "Telecommunication Infrastructure Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48159,
+  "metadata" : {
+    "handle" : "TIC-AS",
+    "description" : "Telecommunication Infrastructure Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.189.40.0/22",
       "2.189.56.0/24",
       "2.189.68.0/24",
@@ -13,7 +16,7 @@
       "185.11.88.0/23",
       "185.11.90.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:57c0::/32"
     ]
   }

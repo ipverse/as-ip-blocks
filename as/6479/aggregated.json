@@ -1,12 +1,15 @@
 {
-  "asn": 6479,
-  "handle": "MCHENRY",
-  "description": "McHenryCom Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6479,
+  "metadata" : {
+    "handle" : "MCHENRY",
+    "description" : "McHenryCom Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.172.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fcb8::/32"
     ]
   }

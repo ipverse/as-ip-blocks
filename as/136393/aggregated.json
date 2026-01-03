@@ -1,9 +1,12 @@
 {
-  "asn": 136393,
-  "handle": "SYMPHONY-AS-AP",
-  "description": "Symphony Communication Public Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136393,
+  "metadata" : {
+    "handle" : "SYMPHONY-AS-AP",
+    "description" : "Symphony Communication Public Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "96.30.68.0/22",
       "96.30.72.0/23",
       "96.30.79.0/24",
@@ -17,7 +20,7 @@
       "146.88.54.0/24",
       "161.82.186.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:6280:18::/48",
       "2400:6280:28::/48"
     ]

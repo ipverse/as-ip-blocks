@@ -1,9 +1,12 @@
 {
-  "asn": 37440,
-  "handle": "AIRTEL-MW",
-  "description": "Airtel Malawi Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37440,
+  "metadata" : {
+    "handle" : "AIRTEL-MW",
+    "description" : "Airtel Malawi Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.78.57.0/24",
       "41.78.58.0/23",
       "105.234.142.0/23",
@@ -28,7 +31,7 @@
       "137.196.0.0/23",
       "137.196.2.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:1300::/32"
     ]
   }

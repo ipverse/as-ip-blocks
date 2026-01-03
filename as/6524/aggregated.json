@@ -1,9 +1,12 @@
 {
-  "asn": 6524,
-  "handle": "OPENTEXT-NA-US-BROOKPARK-2",
-  "description": "GXS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6524,
+  "metadata" : {
+    "handle" : "OPENTEXT-NA-US-BROOKPARK-2",
+    "description" : "GXS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.251.24.0/24",
       "198.180.197.0/24",
       "204.90.130.0/24",
@@ -12,6 +15,6 @@
       "204.90.187.0/24",
       "204.90.230.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

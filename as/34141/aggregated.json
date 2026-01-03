@@ -1,12 +1,15 @@
 {
-  "asn": 34141,
-  "handle": "IN2IP-AS",
-  "description": "in2ip B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34141,
+  "metadata" : {
+    "handle" : "IN2IP-AS",
+    "description" : "in2ip B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "217.198.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:7d0::/32"
     ]
   }

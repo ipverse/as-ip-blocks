@@ -1,12 +1,15 @@
 {
-  "asn": 150242,
-  "handle": "IDNIC-KDN-AS-ID",
-  "description": "PT Kampung Dua Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150242,
+  "metadata" : {
+    "handle" : "IDNIC-KDN-AS-ID",
+    "description" : "PT Kampung Dua Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.76.91.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:7fc0::/48"
     ]
   }

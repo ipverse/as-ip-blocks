@@ -1,9 +1,12 @@
 {
-  "asn": 19366,
-  "handle": "MNS",
-  "description": "Managed Network Solutions Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19366,
+  "metadata" : {
+    "handle" : "MNS",
+    "description" : "Managed Network Solutions Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "97.107.0.0/20",
       "174.46.10.0/24",
       "192.149.125.0/24",
@@ -14,6 +17,6 @@
       "209.189.240.0/20",
       "216.81.32.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

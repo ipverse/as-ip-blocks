@@ -1,14 +1,16 @@
 {
-  "asn": 206163,
-  "handle": "TBTNET-TELEKOM",
-  "description": "TBTNET TELEKOM LTD. STI",
-  "subnets": {
-    "ipv4": [
-      "185.194.172.0/24",
+  "asn" : 206163,
+  "metadata" : {
+    "handle" : "TBTNET-TELEKOM",
+    "description" : "TBTNET TELEKOM LTD. STI.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.194.175.0/24",
       "194.156.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:86c0::/45",
       "2a0a:86c0:8::/47",
       "2a0a:86c0:10::/48",

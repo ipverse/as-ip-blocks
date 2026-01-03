@@ -1,9 +1,12 @@
 {
-  "asn": 53780,
-  "handle": "AS-APPRIVER",
-  "description": "APPRIVER LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53780,
+  "metadata" : {
+    "handle" : "AS-APPRIVER",
+    "description" : "APPRIVER LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.19.119.0/24",
       "8.31.232.0/23",
       "64.74.53.0/24",
@@ -12,6 +15,6 @@
       "173.226.139.0/24",
       "207.195.184.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

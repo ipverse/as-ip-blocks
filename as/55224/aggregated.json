@@ -1,11 +1,14 @@
 {
-  "asn": 55224,
-  "handle": "MCS-AS",
-  "description": "Marietta City Schools",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55224,
+  "metadata" : {
+    "handle" : "MCS-AS",
+    "description" : "Marietta City Schools",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.235.150.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

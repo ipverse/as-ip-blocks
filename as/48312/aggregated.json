@@ -1,13 +1,16 @@
 {
-  "asn": 48312,
-  "handle": "ALROSA-AS",
-  "description": "PJSC ALROSA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48312,
+  "metadata" : {
+    "handle" : "ALROSA-AS",
+    "description" : "PJSC ALROSA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.202.234.0/23",
       "91.207.140.0/23",
       "194.26.116.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

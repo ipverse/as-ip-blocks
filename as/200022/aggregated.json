@@ -1,11 +1,14 @@
 {
-  "asn": 200022,
-  "handle": "AIRNET-AS",
-  "description": "AirNet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200022,
+  "metadata" : {
+    "handle" : "AIRNET-AS",
+    "description" : "AirNet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.101.210.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

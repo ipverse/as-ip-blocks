@@ -1,9 +1,12 @@
 {
-  "asn": 140319,
-  "handle": "CHINATELECOM-GUANGDONG-QINGYUAN-5G-NETWORK",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140319,
+  "metadata" : {
+    "handle" : "CHINATELECOM-GUANGDONG-QINGYUAN-5G-NETWORK",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.124.72.0/22",
       "14.148.159.0/24",
       "14.149.140.0/23",
@@ -63,7 +66,7 @@
       "219.129.134.0/24",
       "219.129.150.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:5e:10c0::/44"
     ]
   }

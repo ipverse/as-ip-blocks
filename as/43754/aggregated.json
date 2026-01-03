@@ -1,9 +1,12 @@
 {
-  "asn": 43754,
-  "handle": "ASIATECH",
-  "description": "Asiatech Data Transmission company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43754,
+  "metadata" : {
+    "handle" : "ASIATECH",
+    "description" : "Asiatech Data Transmission company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.134.192.0/21",
       "31.7.64.0/20",
       "31.25.128.0/21",
@@ -55,7 +58,7 @@
       "212.23.216.0/24",
       "212.33.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:1a00::/26",
       "2a06:5484::/30"
     ]

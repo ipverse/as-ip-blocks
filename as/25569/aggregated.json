@@ -1,11 +1,14 @@
 {
-  "asn": 25569,
-  "handle": "INFOCAMERE-AS",
-  "description": "InfoCamere SCpA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25569,
+  "metadata" : {
+    "handle" : "INFOCAMERE-AS",
+    "description" : "InfoCamere SCpA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.82.0.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

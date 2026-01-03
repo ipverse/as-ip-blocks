@@ -1,15 +1,18 @@
 {
-  "asn": 23955,
-  "handle": "TASHICELL-DOMESTIC-AS",
-  "description": "Tashi InfoComm Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23955,
+  "metadata" : {
+    "handle" : "TASHICELL-DOMESTIC-AS",
+    "description" : "Tashi InfoComm Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.241.136.0/22",
       "103.29.224.0/22",
       "103.71.40.0/22",
       "118.103.136.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:ec00::/32"
     ]
   }

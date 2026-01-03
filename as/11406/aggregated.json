@@ -1,12 +1,15 @@
 {
-  "asn": 11406,
-  "handle": "CIGNA-1",
-  "description": "CIGNA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11406,
+  "metadata" : {
+    "handle" : "CIGNA-1",
+    "description" : "CIGNA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.48.0.0/18",
       "208.242.12.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

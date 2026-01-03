@@ -1,11 +1,14 @@
 {
-  "asn": 210702,
-  "handle": "TELECOMV4-AS",
-  "description": "Telecomv4 LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210702,
+  "metadata" : {
+    "handle" : "TELECOMV4-AS",
+    "description" : "Telecomv4 LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.180.139.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

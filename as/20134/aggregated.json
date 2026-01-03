@@ -1,9 +1,12 @@
 {
-  "asn": 20134,
-  "handle": "MBCL",
-  "description": "Mediatti Broadband Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20134,
+  "metadata" : {
+    "handle" : "MBCL",
+    "description" : "Mediatti Broadband Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.99.0.0/19",
       "65.99.32.0/20",
       "65.99.48.0/21",
@@ -12,6 +15,6 @@
       "65.99.62.0/24",
       "65.99.64.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

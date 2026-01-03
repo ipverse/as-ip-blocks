@@ -1,9 +1,12 @@
 {
-  "asn": 15611,
-  "handle": "IROST-AS",
-  "description": "Iranian Research Organization for Science \u0026 Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15611,
+  "metadata" : {
+    "handle" : "IROST-AS",
+    "description" : "Iranian Research Organization for Science & Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.60.136.0/23",
       "62.60.139.0/24",
       "62.60.140.0/24",
@@ -13,7 +16,7 @@
       "213.176.122.0/23",
       "213.176.124.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:790::/32"
     ]
   }

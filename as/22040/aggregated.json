@@ -1,9 +1,12 @@
 {
-  "asn": 22040,
-  "handle": "LINXUS1",
-  "description": "Linxus Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22040,
+  "metadata" : {
+    "handle" : "LINXUS1",
+    "description" : "Linxus Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.22.114.0/24",
       "12.50.93.0/24",
       "12.201.111.0/24",
@@ -14,6 +17,6 @@
       "72.19.2.0/24",
       "209.215.34.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

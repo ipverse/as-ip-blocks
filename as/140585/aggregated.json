@@ -1,11 +1,14 @@
 {
-  "asn": 140585,
-  "handle": "FIBERNET-AS-AP",
-  "description": "Fiber Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140585,
+  "metadata" : {
+    "handle" : "FIBERNET-AS-AP",
+    "description" : "Fiber Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.150.166.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

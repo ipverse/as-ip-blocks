@@ -1,9 +1,12 @@
 {
-  "asn": 62183,
-  "handle": "NORDICOM",
-  "description": "Bredband2 Bredbandsson AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62183,
+  "metadata" : {
+    "handle" : "NORDICOM",
+    "description" : "Bredband2 Bredbandsson AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.107.0.0/18",
       "84.243.0.0/18",
       "185.32.196.0/22",
@@ -14,7 +17,7 @@
       "185.161.212.0/22",
       "185.174.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:160::/32",
       "2a04:57c0::/29",
       "2a04:9e00::/29",

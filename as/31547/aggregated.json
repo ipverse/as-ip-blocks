@@ -1,9 +1,12 @@
 {
-  "asn": 31547,
-  "handle": "MCK-EUROPE-AS",
-  "description": "McKinsey \u0026 Company Inc United Kingdom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31547,
+  "metadata" : {
+    "handle" : "MCK-EUROPE-AS",
+    "description" : "McKinsey & Company Inc United Kingdom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "156.109.3.0/24",
       "156.109.14.0/23",
       "156.109.16.0/24",
@@ -20,6 +23,6 @@
       "156.109.129.0/24",
       "156.109.193.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 399143,
-  "handle": "4CEPA-FASTNET",
-  "description": "4-County Electric Power Association",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399143,
+  "metadata" : {
+    "handle" : "4CEPA-FASTNET",
+    "description" : "4-County Electric Power Association",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.244.200.0/21",
       "209.25.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:8240::/32"
     ]
   }

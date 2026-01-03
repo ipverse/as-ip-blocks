@@ -1,12 +1,15 @@
 {
-  "asn": 14431,
-  "handle": "UCC-INET",
-  "description": "Umpqua Community College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14431,
+  "metadata" : {
+    "handle" : "UCC-INET",
+    "description" : "Umpqua Community College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.200.215.0/24",
       "198.200.216.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

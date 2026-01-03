@@ -1,12 +1,15 @@
 {
-  "asn": 262937,
-  "handle": "STARBYTE-TELECOM",
-  "description": "StarByte Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262937,
+  "metadata" : {
+    "handle" : "STARBYTE-TELECOM",
+    "description" : "StarByte Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.129.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:827c::/32"
     ]
   }

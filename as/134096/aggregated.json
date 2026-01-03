@@ -1,9 +1,12 @@
 {
-  "asn": 134096,
-  "handle": "EHEALTHNSW-AS-AP",
-  "description": "eHealth NSW",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134096,
+  "metadata" : {
+    "handle" : "EHEALTHNSW-AS-AP",
+    "description" : "eHealth NSW",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "152.76.0.0/23",
       "152.76.2.0/24",
       "156.22.3.0/24",
@@ -21,6 +24,6 @@
       "203.18.200.0/23",
       "203.32.142.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

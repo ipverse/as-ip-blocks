@@ -1,12 +1,15 @@
 {
-  "asn": 215624,
-  "handle": "QATARENERGYLNG",
-  "description": "QatarEnergy LNG PQSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215624,
+  "metadata" : {
+    "handle" : "QATARENERGYLNG",
+    "description" : "QatarEnergy LNG PQSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.87.224.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:5480:1012::/48",
       "2a14:5480:1022::/48"
     ]

@@ -1,15 +1,18 @@
 {
-  "asn": 38201,
-  "handle": "KALIANET-PUBLIC-AS-AP",
-  "description": "Tonga Communications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38201,
+  "metadata" : {
+    "handle" : "KALIANET-PUBLIC-AS-AP",
+    "description" : "Tonga Communications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.255.148.0/22",
       "103.239.160.0/22",
       "175.176.144.0/22",
       "202.134.24.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:6400::/32"
     ]
   }

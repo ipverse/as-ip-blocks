@@ -1,9 +1,12 @@
 {
-  "asn": 151734,
-  "handle": "WEBYNEDC-AS-IN",
-  "description": "WEBYNE DATA CENTRE PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151734,
+  "metadata" : {
+    "handle" : "WEBYNEDC-AS-IN",
+    "description" : "WEBYNE DATA CENTRE PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.82.0/24",
       "103.76.122.0/24",
       "103.98.53.0/24",
@@ -39,7 +42,7 @@
       "168.220.248.0/24",
       "168.220.250.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:7ee0::/48",
       "2a13:9500:78::/48"
     ]

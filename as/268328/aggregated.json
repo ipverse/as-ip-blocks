@@ -1,12 +1,15 @@
 {
-  "asn": 268328,
-  "handle": "ALIANCA-LINK-PROVEDOR",
-  "description": "ALIANCA LINK PROVEDOR DE INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268328,
+  "metadata" : {
+    "handle" : "ALIANCA-LINK-PROVEDOR-INTERNET",
+    "description" : "ALIANCA LINK PROVEDOR DE INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.238.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4f74::/32"
     ]
   }

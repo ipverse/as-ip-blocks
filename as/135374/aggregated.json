@@ -1,12 +1,15 @@
 {
-  "asn": 135374,
-  "handle": "SBC21SYSTEM-AS-AP",
-  "description": "SBC-21 System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135374,
+  "metadata" : {
+    "handle" : "SBC21SYSTEM-AS-AP",
+    "description" : "SBC-21 System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.250.196.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:bdc0::/48"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 9135,
-  "handle": "ITEMAX-AS",
-  "description": "ITEMAX GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9135,
+  "metadata" : {
+    "handle" : "ITEMAX-AS",
+    "description" : "ITEMAX GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.182.176.0/24",
       "193.164.212.0/23",
       "213.164.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:fcc0::/32"
     ]
   }

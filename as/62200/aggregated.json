@@ -1,12 +1,15 @@
 {
-  "asn": 62200,
-  "handle": "ISPMANAGER-AS",
-  "description": "JSC Ispmanager",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62200,
+  "metadata" : {
+    "handle" : "ISPMANAGER-AS",
+    "description" : "JSC Ispmanager",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.202.164.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:f907::/32"
     ]
   }

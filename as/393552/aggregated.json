@@ -1,9 +1,12 @@
 {
-  "asn": 393552,
-  "handle": "COL-LPC",
-  "description": "Longmont Power \u0026 Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393552,
+  "metadata" : {
+    "handle" : "COL-LPC",
+    "description" : "Longmont Power & Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.36.226.0/23",
       "8.42.76.0/22",
       "8.44.144.0/20",
@@ -17,7 +20,7 @@
       "192.152.130.0/23",
       "209.131.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:8680::/32"
     ]
   }

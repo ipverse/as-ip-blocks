@@ -1,15 +1,18 @@
 {
-  "asn": 60777,
-  "handle": "GIN-AS",
-  "description": "PP \u0027Halytska informatsiina merezha\u0027",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60777,
+  "metadata" : {
+    "handle" : "GIN-AS",
+    "description" : "PP 'Halytska informatsiina merezha'",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.195.69.0/24",
       "93.170.0.0/24",
       "93.170.25.0/24",
       "95.46.108.0/24",
       "95.47.136.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

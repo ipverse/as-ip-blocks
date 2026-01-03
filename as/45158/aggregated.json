@@ -1,9 +1,12 @@
 {
-  "asn": 45158,
-  "handle": "SYNTELPTYLTD-AU",
-  "description": "TASMANET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45158,
+  "metadata" : {
+    "handle" : "SYNTELPTYLTD-AU",
+    "description" : "TASMANET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.102.118.0/24",
       "103.251.172.0/22",
       "120.29.240.0/21",
@@ -12,7 +15,7 @@
       "203.17.166.0/24",
       "203.33.128.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:1e00::/32"
     ]
   }

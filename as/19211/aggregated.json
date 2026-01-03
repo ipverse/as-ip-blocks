@@ -1,9 +1,12 @@
 {
-  "asn": 19211,
-  "handle": "HOSTINGYARD",
-  "description": "HostingYard LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19211,
+  "metadata" : {
+    "handle" : "HOSTINGYARD",
+    "description" : "HostingYard LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.235.96.0/22",
       "130.12.76.0/22",
       "131.143.8.0/22",
@@ -13,6 +16,6 @@
       "216.235.216.0/22",
       "217.22.232.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 25308,
-  "handle": "CITYLAN-AS",
-  "description": "CityLanCom LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25308,
+  "metadata" : {
+    "handle" : "CITYLAN-AS",
+    "description" : "CityLanCom LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.210.1.0/24",
       "88.210.2.0/24",
       "88.210.5.0/24",
@@ -28,6 +31,6 @@
       "212.118.60.0/24",
       "212.118.62.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

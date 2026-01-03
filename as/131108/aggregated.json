@@ -1,12 +1,15 @@
 {
-  "asn": 131108,
-  "handle": "SHERPURNETWORK-AS-AP",
-  "description": "Sherpur Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131108,
+  "metadata" : {
+    "handle" : "SHERPURNETWORK-AS-AP",
+    "description" : "Sherpur Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.30.62.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:b860::/32"
     ]
   }

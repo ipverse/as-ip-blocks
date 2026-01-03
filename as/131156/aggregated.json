@@ -1,12 +1,15 @@
 {
-  "asn": 131156,
-  "handle": "LAC-AS",
-  "description": "LAC Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131156,
+  "metadata" : {
+    "handle" : "LAC-AS",
+    "description" : "LAC Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.189.185.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:d740::/48"
     ]
   }

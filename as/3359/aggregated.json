@@ -1,9 +1,12 @@
 {
-  "asn": 3359,
-  "handle": "U-ALBERTA",
-  "description": "University of Alberta",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3359,
+  "metadata" : {
+    "handle" : "U-ALBERTA",
+    "description" : "University of Alberta",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.128.0.0/16",
       "142.244.0.0/16",
       "198.73.178.0/24",
@@ -11,7 +14,7 @@
       "199.185.2.0/23",
       "209.115.220.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:101:c000::/40"
     ]
   }

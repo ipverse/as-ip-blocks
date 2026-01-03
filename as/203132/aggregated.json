@@ -1,13 +1,16 @@
 {
-  "asn": 203132,
-  "handle": "SYSS",
-  "description": "SySS GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203132,
+  "metadata" : {
+    "handle" : "SYSS",
+    "description" : "SySS GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.142.184.0/23",
       "185.142.186.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:2f00::/48",
       "2a07:2f00:1337::/48",
       "2a07:2f00:dead::/48"

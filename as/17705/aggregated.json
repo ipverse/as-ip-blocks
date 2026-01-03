@@ -1,9 +1,12 @@
 {
-  "asn": 17705,
-  "handle": "INSPIRENET-AS-AP",
-  "description": "InSPire Net Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17705,
+  "metadata" : {
+    "handle" : "INSPIRENET-AS-AP",
+    "description" : "InSPire Net Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.31.255.0/24",
       "103.234.132.0/22",
       "121.79.192.0/18",
@@ -15,7 +18,7 @@
       "202.36.214.0/23",
       "203.114.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:1800::/32"
     ]
   }

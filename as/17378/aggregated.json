@@ -1,9 +1,12 @@
 {
-  "asn": 17378,
-  "handle": "AS17378",
-  "description": "TierPoint LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17378,
+  "metadata" : {
+    "handle" : "AS17378",
+    "description" : "TierPoint LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.34.28.0/22",
       "12.202.147.0/24",
       "23.169.232.0/24",
@@ -201,7 +204,7 @@
       "216.211.128.0/20",
       "216.250.224.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:19b8::/32",
       "2001:4970::/32",
       "2600:2c00::/30",

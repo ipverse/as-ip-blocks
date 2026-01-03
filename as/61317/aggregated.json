@@ -1,9 +1,12 @@
 {
-  "asn": 61317,
-  "handle": "ASDETUK",
-  "description": "Hivelocity LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61317,
+  "metadata" : {
+    "handle" : "ASDETUK",
+    "description" : "Hivelocity LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.23.0/24",
       "2.58.171.0/24",
       "5.45.36.0/23",
@@ -460,7 +463,7 @@
       "223.29.253.0/24",
       "223.29.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:4500:1a::/47",
       "2604:4500:1c::/47",
       "2604:4500:1f::/48",

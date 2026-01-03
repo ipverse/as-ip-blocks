@@ -1,9 +1,12 @@
 {
-  "asn": 9374,
-  "handle": "EDION",
-  "description": "EDION Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9374,
+  "metadata" : {
+    "handle" : "EDION",
+    "description" : "EDION Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.122.64.0/19",
       "27.122.96.0/20",
       "116.89.192.0/19",
@@ -26,7 +29,7 @@
       "218.223.96.0/19",
       "219.121.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:c200::/32"
     ]
   }

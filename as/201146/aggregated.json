@@ -1,12 +1,15 @@
 {
-  "asn": 201146,
-  "handle": "LOPNET",
-  "description": "lopnet AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201146,
+  "metadata" : {
+    "handle" : "LOPNET",
+    "description" : "lopnet AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.84.28.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:6f20::/32"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 28792,
-  "handle": "PUBLIC-INTERNET",
-  "description": "Public Internet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28792,
+  "metadata" : {
+    "handle" : "PUBLIC-INTERNET",
+    "description" : "Public Internet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.82.240.0/20",
       "185.58.176.0/22",
       "195.46.60.0/22",
       "195.85.245.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:248::/32"
     ]
   }

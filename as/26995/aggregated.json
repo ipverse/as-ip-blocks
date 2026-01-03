@@ -1,14 +1,17 @@
 {
-  "asn": 26995,
-  "handle": "TELENETWORK",
-  "description": "TeleNetwork",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26995,
+  "metadata" : {
+    "handle" : "TELENETWORK",
+    "description" : "TeleNetwork",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.57.77.0/24",
       "204.57.81.0/24",
       "207.71.14.0/23",
       "209.163.252.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

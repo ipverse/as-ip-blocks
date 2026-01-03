@@ -1,9 +1,12 @@
 {
-  "asn": 37030,
-  "handle": "AIRTEL-GHANA",
-  "description": "Airtel Ghana Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37030,
+  "metadata" : {
+    "handle" : "AIRTEL-GHANA",
+    "description" : "Airtel Ghana Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.190.88.0/22",
       "41.215.160.0/20",
       "66.37.100.0/24",
@@ -11,6 +14,6 @@
       "196.175.248.0/22",
       "197.191.0.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

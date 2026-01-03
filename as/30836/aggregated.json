@@ -1,9 +1,12 @@
 {
-  "asn": 30836,
-  "handle": "NET23-AS",
-  "description": "23VNet Kft",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30836,
+  "metadata" : {
+    "handle" : "NET23-AS",
+    "description" : "23VNet Kft.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.199.48.0/21",
       "185.225.68.0/22",
       "193.188.140.0/23",
@@ -16,7 +19,7 @@
       "217.112.140.0/23",
       "217.113.62.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:c640::/32"
     ]
   }

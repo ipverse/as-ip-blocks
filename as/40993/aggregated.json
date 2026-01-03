@@ -1,15 +1,18 @@
 {
-  "asn": 40993,
-  "handle": "ALTAIRTULA-AS",
-  "description": "MTS PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40993,
+  "metadata" : {
+    "handle" : "ALTAIRTULA-AS",
+    "description" : "MTS PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.80.192.0/20",
       "81.177.78.0/24",
       "89.107.192.0/21",
       "109.111.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5500::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 62807,
-  "handle": "NETARYX",
-  "description": "NETARYX LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62807,
+  "metadata" : {
+    "handle" : "NETARYX",
+    "description" : "NETARYX LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.254.168.0/22",
       "192.84.255.0/24",
       "198.54.182.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:80d::/48"
     ]
   }

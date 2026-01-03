@@ -1,9 +1,12 @@
 {
-  "asn": 3816,
-  "handle": "COLOMBIA-TELECOMUNICACIONES",
-  "description": "COLOMBIA TELECOMUNICACIONES S.A. ESP BIC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3816,
+  "metadata" : {
+    "handle" : "COLOMBIA-TELECOMUNICACIONES",
+    "description" : "COLOMBIA TELECOMUNICACIONES S.A. ESP BIC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.71.180.0/24",
       "45.191.44.0/24",
       "152.200.0.0/19",
@@ -218,7 +221,7 @@
       "206.106.252.0/22",
       "206.231.72.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:680::/32",
       "2800:8b0::/38",
       "2801:10:f000::/48",

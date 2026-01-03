@@ -1,9 +1,12 @@
 {
-  "asn": 13037,
-  "handle": "ZEN-AS",
-  "description": "Zen Internet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13037,
+  "metadata" : {
+    "handle" : "ZEN-AS",
+    "description" : "Zen Internet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "51.148.0.0/16",
       "51.155.0.0/16",
       "62.3.64.0/18",
@@ -42,7 +45,7 @@
       "212.23.0.0/19",
       "217.155.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:8010::/29"
     ]
   }

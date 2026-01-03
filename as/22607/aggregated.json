@@ -1,12 +1,15 @@
 {
-  "asn": 22607,
-  "handle": "DES-MOINES-EDU",
-  "description": "Des Moines University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22607,
+  "metadata" : {
+    "handle" : "DES-MOINES-EDU",
+    "description" : "Des Moines University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.17.192.0/21",
       "192.189.247.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

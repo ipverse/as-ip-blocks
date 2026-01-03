@@ -1,11 +1,14 @@
 {
-  "asn": 150801,
-  "handle": "RDPL-AS-AP",
-  "description": "Results Direct Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150801,
+  "metadata" : {
+    "handle" : "RDPL-AS-AP",
+    "description" : "Results Direct Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.108.50.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

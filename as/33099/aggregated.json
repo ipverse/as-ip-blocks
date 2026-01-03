@@ -1,9 +1,12 @@
 {
-  "asn": 33099,
-  "handle": "DTSFIBER",
-  "description": "DTS Fiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33099,
+  "metadata" : {
+    "handle" : "DTSFIBER",
+    "description" : "DTS Fiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.21.67.0/24",
       "23.157.232.0/24",
       "38.129.160.0/22",
@@ -17,7 +20,7 @@
       "216.40.80.0/23",
       "216.40.82.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:3c0::/47",
       "2605:3c0:20::/47",
       "2605:3c0:400::/48",

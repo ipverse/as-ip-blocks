@@ -1,9 +1,12 @@
 {
-  "asn": 24954,
-  "handle": "HAVAS",
-  "description": "Havas SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24954,
+  "metadata" : {
+    "handle" : "HAVAS",
+    "description" : "Havas SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.57.12.0/23",
       "193.57.34.0/24",
       "193.57.176.0/22",
@@ -13,7 +16,7 @@
       "194.5.150.0/23",
       "194.5.166.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:8a0::/48"
     ]
   }

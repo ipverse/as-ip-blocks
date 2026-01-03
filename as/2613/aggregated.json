@@ -1,13 +1,16 @@
 {
-  "asn": 2613,
-  "handle": "VAN-GULIK",
-  "description": "Association Romandix",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2613,
+  "metadata" : {
+    "handle" : "VAN-GULIK",
+    "description" : "Association Romandix",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.218.38.0/24",
       "193.135.150.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:294::/48",
       "2001:678:298::/48",
       "2a02:2528:2613::/48",

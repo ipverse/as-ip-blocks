@@ -1,14 +1,17 @@
 {
-  "asn": 399976,
-  "handle": "NOVANETWORKS",
-  "description": "Nova Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399976,
+  "metadata" : {
+    "handle" : "NOVANETWORKS",
+    "description" : "Nova Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.131.200.0/23",
       "23.153.136.0/24",
       "167.253.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:80c:2000::/36",
       "2a12:c6c0::/29"
     ]

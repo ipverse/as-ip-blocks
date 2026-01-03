@@ -1,9 +1,12 @@
 {
-  "asn": 16799,
-  "handle": "PAYMASTER",
-  "description": "Kinecta Federal Credit Union",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16799,
+  "metadata" : {
+    "handle" : "PAYMASTER",
+    "description" : "Kinecta Federal Credit Union",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.248.69.0/24",
       "199.248.70.0/23",
       "199.248.72.0/21",
@@ -15,6 +18,6 @@
       "199.248.126.0/23",
       "208.19.102.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 5413,
-  "handle": "WAVENET-AS5413",
-  "description": "Wavenet Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5413,
+  "metadata" : {
+    "handle" : "WAVENET-AS5413",
+    "description" : "Wavenet Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.22.224.0/21",
       "5.252.36.0/22",
       "37.252.60.0/22",
@@ -94,7 +97,7 @@
       "217.67.48.0/20",
       "217.78.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:3d8::/48",
       "2001:b98::/29",
       "2a04:b2c0::/29",

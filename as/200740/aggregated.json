@@ -1,9 +1,12 @@
 {
-  "asn": 200740,
-  "handle": "FIRST-SERVER-EU-AS",
-  "description": "FIRST SERVER LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200740,
+  "metadata" : {
+    "handle" : "FIRST-SERVER-EU-AS",
+    "description" : "FIRST SERVER LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.9.72.0/24",
       "45.43.72.0/24",
       "45.43.88.0/22",
@@ -57,7 +60,7 @@
       "193.239.166.0/23",
       "194.36.178.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:5200:68::/48",
       "2a04:5201:2::/48",
       "2a04:5201:4::/48",

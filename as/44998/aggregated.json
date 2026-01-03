@@ -1,12 +1,15 @@
 {
-  "asn": 44998,
-  "handle": "GOBIERNOCANARIAS-AS",
-  "description": "GOBIERNO DE CANARIAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44998,
+  "metadata" : {
+    "handle" : "GOBIERNOCANARIAS-AS",
+    "description" : "GOBIERNO DE CANARIAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.188.136.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:c840::/32"
     ]
   }

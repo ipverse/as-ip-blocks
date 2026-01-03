@@ -1,10 +1,13 @@
 {
-  "asn": 22729,
-  "handle": "PETERSON-FARMS-01",
-  "description": "Peterson Farms Inc",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 22729,
+  "metadata" : {
+    "handle" : "PETERSON-FARMS-01",
+    "description" : "Peterson Farms Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2602:81a:3000::/47",
       "2602:81a:3004::/46",
       "2602:81a:3008::/47"

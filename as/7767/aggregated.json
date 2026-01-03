@@ -1,13 +1,16 @@
 {
-  "asn": 7767,
-  "handle": "EB",
-  "description": "Encyclopaedia Britannica",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7767,
+  "metadata" : {
+    "handle" : "EB",
+    "description" : "Encyclopaedia Britannica",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.124.231.0/24",
       "208.185.238.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:105:c000::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 58563,
-  "handle": "CHINATELECOM-HUBEI-IDC",
-  "description": "CHINANET Hubei province network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58563,
+  "metadata" : {
+    "handle" : "CHINATELECOM-HUBEI-IDC",
+    "description" : "CHINANET Hubei province network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.19.220.0/22",
       "27.19.248.0/21",
       "58.49.144.0/20",
@@ -55,7 +58,7 @@
       "203.2.70.0/23",
       "221.235.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:f140:ff04::/48",
       "240c:409f:4000::/45",
       "240e:d:800::/37",

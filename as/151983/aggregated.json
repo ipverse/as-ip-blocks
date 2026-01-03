@@ -1,15 +1,18 @@
 {
-  "asn": 151983,
-  "handle": "OISP-AS-AP",
-  "description": "Orbit Internet Service Provider Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151983,
+  "metadata" : {
+    "handle" : "OISP-AS-AP",
+    "description" : "Orbit Internet Service Provider Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.87.194.0/24",
       "103.104.87.0/24",
       "103.172.167.0/24",
       "103.253.18.0/23",
       "161.248.187.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

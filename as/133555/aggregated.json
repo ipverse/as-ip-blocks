@@ -1,12 +1,15 @@
 {
-  "asn": 133555,
-  "handle": "DOORPOST-AS-AP",
-  "description": "DOORPOST Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133555,
+  "metadata" : {
+    "handle" : "DOORPOST-AS-AP",
+    "description" : "DOORPOST Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.31.216.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:840:f380::/44",
       "2406:840:fefc::/48",
       "2a06:a005:260::/43",

@@ -1,11 +1,14 @@
 {
-  "asn": 150808,
-  "handle": "OPTIMUSONLINE1-AS-AP",
-  "description": "optimus online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150808,
+  "metadata" : {
+    "handle" : "OPTIMUSONLINE1-AS-AP",
+    "description" : "optimus online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.111.4.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

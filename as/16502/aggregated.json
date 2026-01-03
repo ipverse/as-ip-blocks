@@ -1,9 +1,12 @@
 {
-  "asn": 16502,
-  "handle": "CITY-OF-PHOENIX",
-  "description": "City of Phoenix",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16502,
+  "metadata" : {
+    "handle" : "CITY-OF-PHOENIX",
+    "description" : "City of Phoenix",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.167.0.0/21",
       "148.167.108.0/22",
       "148.167.124.0/22",
@@ -14,6 +17,6 @@
       "148.167.244.0/22",
       "148.167.248.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

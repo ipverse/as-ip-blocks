@@ -1,12 +1,15 @@
 {
-  "asn": 30729,
-  "handle": "TRANSFER-AS",
-  "description": "TRANSFER Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30729,
+  "metadata" : {
+    "handle" : "TRANSFER-AS",
+    "description" : "TRANSFER Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.23.192.0/20",
       "185.18.112.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

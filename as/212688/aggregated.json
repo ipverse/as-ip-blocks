@@ -1,12 +1,15 @@
 {
-  "asn": 212688,
-  "handle": "AS-INSEC",
-  "description": "in.sec GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212688,
+  "metadata" : {
+    "handle" : "AS-INSEC",
+    "description" : "in.sec GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.24.125.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:840::/48",
       "2a11:28c0::/46",
       "2a11:28c0:acab::/48"

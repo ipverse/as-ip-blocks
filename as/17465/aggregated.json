@@ -1,9 +1,12 @@
 {
-  "asn": 17465,
-  "handle": "ASIANET",
-  "description": "Asianet Satellite Communications Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17465,
+  "metadata" : {
+    "handle" : "ASIANET",
+    "description" : "Asianet Satellite Communications Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.252.92.0/22",
       "103.233.64.0/22",
       "111.92.0.0/17",
@@ -17,7 +20,7 @@
       "202.88.224.0/19",
       "202.164.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:8800::/32"
     ]
   }

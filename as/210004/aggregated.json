@@ -1,13 +1,16 @@
 {
-  "asn": 210004,
-  "handle": "SIDN-ANYCAST2",
-  "description": "Stichting Internet Domeinregistratie Nederland",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210004,
+  "metadata" : {
+    "handle" : "SIDN-ANYCAST2",
+    "description" : "Stichting Internet Domeinregistratie Nederland",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.0.5.0/24",
       "194.0.29.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:8::/48",
       "2001:678:30::/48"
     ]

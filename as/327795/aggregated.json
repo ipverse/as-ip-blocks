@@ -1,9 +1,12 @@
 {
-  "asn": 327795,
-  "handle": "TANZANIA-E-GOVERNMENT-AGENCY",
-  "description": "e-Government Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 327795,
+  "metadata" : {
+    "handle" : "TANZANIA-E-GOVERNMENT-AGENCY",
+    "description" : "e-Government Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.59.251.0/24",
       "41.59.252.0/22",
       "102.223.8.0/22",
@@ -11,7 +14,7 @@
       "196.192.72.0/21",
       "197.149.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:efe8::/32"
     ]
   }

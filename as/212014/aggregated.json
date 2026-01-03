@@ -1,12 +1,15 @@
 {
-  "asn": 212014,
-  "handle": "NUGOLO-AS",
-  "description": "Nugolo AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212014,
+  "metadata" : {
+    "handle" : "NUGOLO-AS",
+    "description" : "Nugolo AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.35.226.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:d6c0:226::/48"
     ]
   }

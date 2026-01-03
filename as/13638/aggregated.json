@@ -1,9 +1,12 @@
 {
-  "asn": 13638,
-  "handle": "METALINK",
-  "description": "Metalink Technologies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13638,
+  "metadata" : {
+    "handle" : "METALINK",
+    "description" : "Metalink Technologies Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.186.64.0/20",
       "65.254.144.0/20",
       "72.11.0.0/19",
@@ -12,7 +15,7 @@
       "173.241.48.0/20",
       "199.38.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:5100::/32"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 42189,
-  "handle": "EUROSIGNAL-AS",
-  "description": "Druzstvo EUROSIGNAL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42189,
+  "metadata" : {
+    "handle" : "EUROSIGNAL-AS",
+    "description" : "Druzstvo EUROSIGNAL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.15.56.0/22",
       "45.82.156.0/22",
       "77.240.96.0/20",
       "185.115.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1aa8::/29"
     ]
   }

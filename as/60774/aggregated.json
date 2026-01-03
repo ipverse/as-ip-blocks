@@ -1,13 +1,16 @@
 {
-  "asn": 60774,
-  "handle": "ASTAKENET",
-  "description": "MetaComp Wurzburg GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60774,
+  "metadata" : {
+    "handle" : "ASTAKENET",
+    "description" : "MetaComp Wurzburg GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.15.88.0/21",
       "212.102.97.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:2800::/29"
     ]
   }

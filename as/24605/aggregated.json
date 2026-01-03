@@ -1,12 +1,15 @@
 {
-  "asn": 24605,
-  "handle": "FASSBERG",
-  "description": "Fassberg Holding AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24605,
+  "metadata" : {
+    "handle" : "FASSBERG",
+    "description" : "Fassberg Holding AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.71.31.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2f7c::/48"
     ]
   }

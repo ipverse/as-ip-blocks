@@ -1,13 +1,16 @@
 {
-  "asn": 399088,
-  "handle": "NVENERGY-1",
-  "description": "Nevada Power Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399088,
+  "metadata" : {
+    "handle" : "NVENERGY-1",
+    "description" : "Nevada Power Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.145.39.0/24",
       "192.206.180.0/24",
       "198.180.160.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

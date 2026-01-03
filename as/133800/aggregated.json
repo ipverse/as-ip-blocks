@@ -1,9 +1,12 @@
 {
-  "asn": 133800,
-  "handle": "IDNIC-BIZNETGIO-AS-ID",
-  "description": "PT Biznet Gio Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133800,
+  "metadata" : {
+    "handle" : "IDNIC-BIZNETGIO-AS-ID",
+    "description" : "PT Biznet Gio Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.28.75.0/24",
       "103.31.204.0/23",
       "103.44.26.0/23",
@@ -48,7 +51,7 @@
       "137.59.126.0/24",
       "202.74.74.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:aa00::/48"
     ]
   }

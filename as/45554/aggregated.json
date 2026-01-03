@@ -1,12 +1,15 @@
 {
-  "asn": 45554,
-  "handle": "VNNICANYCASTDNS-AS-VN",
-  "description": "Vietnam Internet network information center (VNNIC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45554,
+  "metadata" : {
+    "handle" : "VNNICANYCASTDNS-AS-VN",
+    "description" : "Vietnam Internet network information center (VNNIC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.47.142.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:dc8:6000::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 4725,
-  "handle": "ODN",
-  "description": "SoftBank Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4725,
+  "metadata" : {
+    "handle" : "ODN",
+    "description" : "SoftBank Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.5.0.0/16",
       "39.2.128.0/17",
       "39.3.0.0/16",
@@ -123,7 +126,7 @@
       "219.66.0.0/15",
       "220.212.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:278::/32"
     ]
   }

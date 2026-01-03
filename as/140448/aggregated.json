@@ -1,12 +1,15 @@
 {
-  "asn": 140448,
-  "handle": "APRIN-AS-ID",
-  "description": "PT Acces Prima Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140448,
+  "metadata" : {
+    "handle" : "APRIN-AS-ID",
+    "description" : "PT Acces Prima Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.152.238.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:3840::/32"
     ]
   }

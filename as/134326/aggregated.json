@@ -1,9 +1,12 @@
 {
-  "asn": 134326,
-  "handle": "AIRDESIGNBROADCAST-AS",
-  "description": "Airdesign Broadcast Media Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134326,
+  "metadata" : {
+    "handle" : "AIRDESIGNBROADCAST-AS",
+    "description" : "Airdesign Broadcast Media Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.246.136.0/22",
       "45.249.120.0/22",
       "103.69.8.0/22",
@@ -18,8 +21,8 @@
       "103.218.112.0/22",
       "113.30.176.0/22"
     ],
-    "ipv6": [
-      "2401:fa40::/32"
+    "ipv6" : [
+      "2401:fa40:8000::/33"
     ]
   }
 }

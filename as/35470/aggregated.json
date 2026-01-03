@@ -1,9 +1,12 @@
 {
-  "asn": 35470,
-  "handle": "XL-AS",
-  "description": "Signet B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35470,
+  "metadata" : {
+    "handle" : "XL-AS",
+    "description" : "Signet B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.3.100.0/24",
       "45.158.80.0/24",
       "79.170.89.0/24",
@@ -35,7 +38,7 @@
       "213.249.80.0/24",
       "217.170.21.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:348:10::/44",
       "2a02:348:20::/44",
       "2a02:348:a8::/45",

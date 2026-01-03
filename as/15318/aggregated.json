@@ -1,9 +1,12 @@
 {
-  "asn": 15318,
-  "handle": "MCGILL-AS",
-  "description": "McGill University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15318,
+  "metadata" : {
+    "handle" : "MCGILL-AS",
+    "description" : "McGill University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.206.0.0/16",
       "132.216.0.0/16",
       "192.197.121.0/24",
@@ -15,7 +18,7 @@
       "199.202.98.0/23",
       "206.167.124.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:2220::/48"
     ]
   }

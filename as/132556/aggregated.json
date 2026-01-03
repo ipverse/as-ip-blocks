@@ -1,9 +1,12 @@
 {
-  "asn": 132556,
-  "handle": "BLUELOTUS-AS",
-  "description": "Blue Lotus Support Services Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132556,
+  "metadata" : {
+    "handle" : "BLUELOTUS-AS",
+    "description" : "Blue Lotus Support Services Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.123.0.0/22",
       "45.125.116.0/23",
       "103.16.45.0/24",
@@ -18,7 +21,7 @@
       "157.119.208.0/22",
       "220.158.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:45d::/48",
       "2404:7a40:3::/48",
       "2404:7a40:4::/46",

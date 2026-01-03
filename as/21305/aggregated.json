@@ -1,9 +1,12 @@
 {
-  "asn": 21305,
-  "handle": "IPTEL-AS",
-  "description": "IP TelCom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21305,
+  "metadata" : {
+    "handle" : "IPTEL-AS",
+    "description" : "IP TelCom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.98.48.0/22",
       "79.98.53.0/24",
       "80.94.224.0/20",
@@ -14,7 +17,7 @@
       "95.128.68.0/23",
       "95.128.70.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:9b40::/32"
     ]
   }

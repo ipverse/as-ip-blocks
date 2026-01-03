@@ -1,13 +1,16 @@
 {
-  "asn": 45005,
-  "handle": "GORIZONT-YAROSLAVL-AS",
-  "description": "Gorizont Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45005,
+  "metadata" : {
+    "handle" : "GORIZONT-YAROSLAVL-AS",
+    "description" : "Gorizont Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.16.24.0/21",
       "91.203.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:e400::/32"
     ]
   }

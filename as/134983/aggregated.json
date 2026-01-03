@@ -1,12 +1,15 @@
 {
-  "asn": 134983,
-  "handle": "BDPEER-AS-AP",
-  "description": "BDPEER",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134983,
+  "metadata" : {
+    "handle" : "BDPEER-AS-AP",
+    "description" : "BDPEER",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.204.200.0/22",
       "202.181.12.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

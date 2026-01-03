@@ -1,9 +1,12 @@
 {
-  "asn": 63737,
-  "handle": "VIETSERVER-AS-VN",
-  "description": "VIETSERVER SERVICES TECHNOLOGY COMPANY LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63737,
+  "metadata" : {
+    "handle" : "VIETSERVER-AS-VN",
+    "description" : "VIETSERVER SERVICES TECHNOLOGY COMPANY LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.52.0/23",
       "42.96.10.0/23",
       "103.14.154.0/23",
@@ -46,6 +49,6 @@
       "160.30.204.0/23",
       "202.55.132.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

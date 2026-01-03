@@ -1,16 +1,19 @@
 {
-  "asn": 212416,
-  "handle": "PROXIMITY",
-  "description": "Proximity EOOD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212416,
+  "metadata" : {
+    "handle" : "PROXIMITY",
+    "description" : "Proximity EOOD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.56.118.0/24",
       "85.209.18.0/24",
       "193.108.57.0/24",
       "194.104.131.0/24",
       "213.210.59.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:f18::/48"
     ]
   }

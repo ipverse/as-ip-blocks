@@ -1,12 +1,15 @@
 {
-  "asn": 18679,
-  "handle": "I4A-NETWORK",
-  "description": "internet4associations",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18679,
+  "metadata" : {
+    "handle" : "I4A-NETWORK",
+    "description" : "internet4associations",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.23.244.0/24",
       "208.94.210.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

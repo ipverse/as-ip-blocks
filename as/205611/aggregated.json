@@ -1,11 +1,14 @@
 {
-  "asn": 205611,
-  "handle": "DM-BASIS-AS",
-  "description": "LLC Basis Auto",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205611,
+  "metadata" : {
+    "handle" : "DM-BASIS-AS",
+    "description" : "LLC Basis Auto",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.18.19.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

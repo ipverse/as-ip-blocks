@@ -1,16 +1,19 @@
 {
-  "asn": 46925,
-  "handle": "PAVLOVMEDIA-SE",
-  "description": "PAVLOV MEDIA INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46925,
+  "metadata" : {
+    "handle" : "PAVLOVMEDIA-SE",
+    "description" : "PAVLOV MEDIA INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.30.217.0/24",
       "50.30.250.0/23",
       "68.180.78.0/24",
       "173.230.90.0/24",
       "173.230.106.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f750:7100::/40"
     ]
   }

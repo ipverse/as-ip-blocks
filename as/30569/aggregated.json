@@ -1,9 +1,12 @@
 {
-  "asn": 30569,
-  "handle": "CREIGHTON-AS",
-  "description": "Creighton University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30569,
+  "metadata" : {
+    "handle" : "CREIGHTON-AS",
+    "description" : "Creighton University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.134.0.0/18",
       "147.134.64.0/23",
       "147.134.66.0/24",
@@ -41,6 +44,6 @@
       "147.134.250.0/24",
       "147.134.254.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

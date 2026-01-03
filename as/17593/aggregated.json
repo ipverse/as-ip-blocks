@@ -1,13 +1,16 @@
 {
-  "asn": 17593,
-  "handle": "NONGSHIM-AS",
-  "description": "NDS Coporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17593,
+  "metadata" : {
+    "handle" : "NONGSHIM-AS",
+    "description" : "NDS Coporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.249.160.0/20",
       "203.249.176.0/22",
       "203.249.191.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

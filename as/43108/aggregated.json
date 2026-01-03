@@ -1,9 +1,12 @@
 {
-  "asn": 43108,
-  "handle": "GARM-AS",
-  "description": "GARMTECH LP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43108,
+  "metadata" : {
+    "handle" : "GARM-AS",
+    "description" : "GARMTECH LP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.194.76.0/23",
       "91.228.4.0/22",
       "178.213.48.0/21",
@@ -11,6 +14,6 @@
       "193.169.166.0/23",
       "195.28.26.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

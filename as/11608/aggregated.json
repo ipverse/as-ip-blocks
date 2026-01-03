@@ -1,9 +1,12 @@
 {
-  "asn": 11608,
-  "handle": "ATG-11608",
-  "description": "Accretive Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11608,
+  "metadata" : {
+    "handle" : "ATG-11608",
+    "description" : "Accretive Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.66.128.0/21",
       "207.66.140.0/22",
       "207.66.148.0/22",
@@ -21,7 +24,7 @@
       "207.246.128.0/19",
       "216.127.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:e600:ffff::/48"
     ]
   }

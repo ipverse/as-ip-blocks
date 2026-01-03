@@ -1,15 +1,18 @@
 {
-  "asn": 40113,
-  "handle": "SLHS-AS",
-  "description": "ST. LUKE\u0027S HEALTH SYSTEM LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40113,
+  "metadata" : {
+    "handle" : "SLHS-AS",
+    "description" : "ST. LUKE'S HEALTH SYSTEM LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.147.240.0/24",
       "216.147.246.0/23",
       "216.147.248.0/23",
       "216.147.250.0/24",
       "216.147.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 59895,
-  "handle": "BINARYRACKS-AS",
-  "description": "Binary Racks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59895,
+  "metadata" : {
+    "handle" : "BINARYRACKS-AS",
+    "description" : "Binary Racks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.190.232.0/24",
       "41.77.142.0/23",
       "41.215.240.0/22",
@@ -17,7 +20,7 @@
       "194.26.222.0/24",
       "196.46.190.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:300::/46",
       "2a14:7580:fb00::/40",
       "2c0f:fee0::/32"

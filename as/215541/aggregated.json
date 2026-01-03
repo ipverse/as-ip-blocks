@@ -1,10 +1,13 @@
 {
-  "asn": 215541,
-  "handle": "AS-KRUSESEC",
-  "description": "Peter Kruse",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 215541,
+  "metadata" : {
+    "handle" : "AS-KRUSESEC",
+    "description" : "Peter Kruse",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a06:9f81:4800::/40"
     ]
   }

@@ -1,16 +1,19 @@
 {
-  "asn": 37564,
-  "handle": "WIRULINK",
-  "description": "Wirulink Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37564,
+  "metadata" : {
+    "handle" : "WIRULINK",
+    "description" : "Wirulink Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.66.152.0/21",
       "165.49.0.0/18",
       "165.49.128.0/18",
       "196.220.160.0/19",
       "197.231.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f5f0::/32"
     ]
   }

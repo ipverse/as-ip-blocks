@@ -1,9 +1,12 @@
 {
-  "asn": 30286,
-  "handle": "THM",
-  "description": "ThreatMetrix Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30286,
+  "metadata" : {
+    "handle" : "THM",
+    "description" : "ThreatMetrix Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.84.176.0/23",
       "91.235.132.0/22",
       "145.43.252.0/23",
@@ -11,7 +14,7 @@
       "192.225.156.0/22",
       "199.101.156.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:f3::/48",
       "2a03:7b40::/46"
     ]

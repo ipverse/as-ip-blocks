@@ -1,13 +1,16 @@
 {
-  "asn": 56709,
-  "handle": "ST-WIST-AS",
-  "description": "Spoldzielnia Telekomunikacyjna WIST w Lace",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56709,
+  "metadata" : {
+    "handle" : "ST-WIST-AS",
+    "description" : "Spoldzielnia Telekomunikacyjna WIST w Lace",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.130.96.0/20",
       "185.141.136.0/22",
       "195.238.168.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 10250,
-  "handle": "DATAFIVE",
-  "description": "INet Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10250,
+  "metadata" : {
+    "handle" : "DATAFIVE",
+    "description" : "INet Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.19.2.0/23",
       "149.19.4.0/24",
       "149.19.180.0/24",
       "149.19.192.0/23",
       "149.19.204.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 131093,
-  "handle": "VIVATOSS-AS",
-  "description": "viva republica",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131093,
+  "metadata" : {
+    "handle" : "VIVATOSS-AS",
+    "description" : "viva republica",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.14.66.0/24",
       "103.42.60.0/23",
       "106.249.5.0/24",
@@ -19,6 +22,6 @@
       "220.76.17.0/24",
       "222.231.54.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

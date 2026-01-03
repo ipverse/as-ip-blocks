@@ -1,14 +1,17 @@
 {
-  "asn": 153996,
-  "handle": "VICL-AS-AP",
-  "description": "VP InfoTech Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153996,
+  "metadata" : {
+    "handle" : "VICL-AS-AP",
+    "description" : "VP InfoTech Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.14.9.0/24",
       "143.14.200.0/24",
       "165.101.64.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:c8c0::/48"
     ]
   }

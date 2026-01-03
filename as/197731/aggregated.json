@@ -1,9 +1,12 @@
 {
-  "asn": 197731,
-  "handle": "TUXIS",
-  "description": "The Internet Engineering Group B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197731,
+  "metadata" : {
+    "handle" : "TUXIS",
+    "description" : "The Internet Engineering Group B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.3.104.0/21",
       "45.91.118.0/23",
       "45.137.196.0/23",
@@ -12,7 +15,7 @@
       "185.119.28.0/22",
       "185.148.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:27a0::/32",
       "2a03:7900::/32"
     ]

@@ -1,13 +1,16 @@
 {
-  "asn": 49115,
-  "handle": "EMAX-AS1",
-  "description": "E-MAX INTERNET \u0026 IT s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49115,
+  "metadata" : {
+    "handle" : "EMAX-AS1",
+    "description" : "E-MAX INTERNET & IT s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.70.0.0/22",
       "188.120.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:2760::/32"
     ]
   }

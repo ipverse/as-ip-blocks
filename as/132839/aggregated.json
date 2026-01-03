@@ -1,9 +1,12 @@
 {
-  "asn": 132839,
-  "handle": "POWERLINE-AS-AP",
-  "description": "POWER LINE (HK) CO. LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132839,
+  "metadata" : {
+    "handle" : "POWERLINE-AS-AP",
+    "description" : "POWER LINE (HK) CO. LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.100.0/22",
       "23.225.128.0/21",
       "23.231.128.0/18",
@@ -126,7 +129,7 @@
       "194.146.84.0/22",
       "202.165.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:f940::/32"
     ]
   }

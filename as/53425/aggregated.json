@@ -1,11 +1,14 @@
 {
-  "asn": 53425,
-  "handle": "NEMC-WAN",
-  "description": "North Carolina Electric Membership Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53425,
+  "metadata" : {
+    "handle" : "NEMC-WAN",
+    "description" : "North Carolina Electric Membership Corp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.122.16.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 140159,
-  "handle": "LNKIOFPL-AS",
-  "description": "Linkio Fibernet Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140159,
+  "metadata" : {
+    "handle" : "LNKIOFPL-AS",
+    "description" : "Linkio Fibernet Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.148.144.0/24",
       "103.153.0.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:8780::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 265540,
-  "handle": "ALTAN-REDES-SAPI-C-V",
-  "description": "ALTAN REDES S.A.P.I. de C. V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265540,
+  "metadata" : {
+    "handle" : "ALTAN-REDES-SAPI-C-V",
+    "description" : "ALTAN REDES S.A.P.I. de C. V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.123.10.0/23",
       "190.123.12.0/23",
       "190.123.40.0/22",
@@ -12,7 +15,7 @@
       "202.5.96.0/20",
       "204.194.112.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:2f4::/39",
       "2806:2f4:200::/40",
       "2806:2f4:400::/39",

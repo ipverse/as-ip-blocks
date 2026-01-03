@@ -1,15 +1,18 @@
 {
-  "asn": 36874,
-  "handle": "CYBERSMART",
-  "description": "Cybersmart",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36874,
+  "metadata" : {
+    "handle" : "CYBERSMART",
+    "description" : "Cybersmart",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.177.0.0/16",
       "105.233.0.0/16",
       "196.22.240.0/20",
       "196.41.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fbe0::/28"
     ]
   }

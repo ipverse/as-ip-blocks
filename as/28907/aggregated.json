@@ -1,9 +1,12 @@
 {
-  "asn": 28907,
-  "handle": "MIROHOST",
-  "description": "Internet Invest Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28907,
+  "metadata" : {
+    "handle" : "MIROHOST",
+    "description" : "Internet Invest Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.149.124.0/22",
       "78.27.192.0/19",
       "89.184.64.0/22",
@@ -13,7 +16,7 @@
       "193.178.146.0/23",
       "195.39.196.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2278::/32"
     ]
   }

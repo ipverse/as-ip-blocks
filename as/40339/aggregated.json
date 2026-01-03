@@ -1,9 +1,12 @@
 {
-  "asn": 40339,
-  "handle": "JUMP-TRADING-LLC",
-  "description": "Jump Trading LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40339,
+  "metadata" : {
+    "handle" : "JUMP-TRADING-LLC",
+    "description" : "Jump Trading LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.16.184.0/24",
       "81.16.186.0/23",
       "81.16.188.0/23",
@@ -17,6 +20,6 @@
       "208.78.212.0/24",
       "208.78.214.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

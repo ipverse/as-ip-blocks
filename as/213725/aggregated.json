@@ -1,10 +1,15 @@
 {
-  "asn": 213725,
-  "handle": "UK-03AI",
-  "description": "03AI LTD",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 213725,
+  "metadata" : {
+    "handle" : "UK-03AI",
+    "description" : "03AI LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
+      "87.121.79.0/24"
+    ],
+    "ipv6" : [
       "2a14:c380:280::/44"
     ]
   }

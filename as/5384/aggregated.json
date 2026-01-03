@@ -1,9 +1,12 @@
 {
-  "asn": 5384,
-  "handle": "EMIRATES-INTERNET",
-  "description": "EMIRATES TELECOMMUNICATIONS GROUP COMPANY (ETISALAT GROUP) PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5384,
+  "metadata" : {
+    "handle" : "EMIRATES-INTERNET",
+    "description" : "EMIRATES TELECOMMUNICATIONS GROUP COMPANY (ETISALAT GROUP) PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.48.0.0/14",
       "5.38.0.0/17",
       "5.107.0.0/16",
@@ -33,6 +36,6 @@
       "213.42.0.0/16",
       "217.164.0.0/15"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

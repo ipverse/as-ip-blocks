@@ -1,13 +1,16 @@
 {
-  "asn": 136915,
-  "handle": "OR-AS-AP",
-  "description": "Outer Rim Entertainment",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136915,
+  "metadata" : {
+    "handle" : "OR-AS-AP",
+    "description" : "Outer Rim Entertainment",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.255.152.0/22",
       "103.209.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:5680::/32"
     ]
   }

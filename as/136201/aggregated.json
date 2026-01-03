@@ -1,14 +1,17 @@
 {
-  "asn": 136201,
-  "handle": "BGUS-AS-AP",
-  "description": "BG UNIFIED SOLUTIONS PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136201,
+  "metadata" : {
+    "handle" : "BGUS-AS-AP",
+    "description" : "BG UNIFIED SOLUTIONS PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.83.102.0/24",
       "103.108.222.0/23",
       "103.117.63.0/24",
       "202.5.184.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

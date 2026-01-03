@@ -1,12 +1,15 @@
 {
-  "asn": 136986,
-  "handle": "CYBERNET1-AS-AP",
-  "description": "Cyber Net ISP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136986,
+  "metadata" : {
+    "handle" : "CYBERNET1-AS-AP",
+    "description" : "Cyber Net ISP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.149.39.0/24",
       "103.162.126.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

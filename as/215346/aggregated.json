@@ -1,9 +1,12 @@
 {
-  "asn": 215346,
-  "handle": "BIGDATAHOST-AS",
-  "description": "Big Data Host LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215346,
+  "metadata" : {
+    "handle" : "BIGDATAHOST-AS",
+    "description" : "Big Data Host LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.11.24.0/24",
       "45.134.254.0/24",
       "45.135.165.0/24",
@@ -27,6 +30,6 @@
       "195.133.47.0/24",
       "195.133.94.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

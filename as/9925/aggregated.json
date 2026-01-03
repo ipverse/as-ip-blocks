@@ -1,9 +1,12 @@
 {
-  "asn": 9925,
-  "handle": "HKTDCS-AS-AP",
-  "description": "VDC Powerbase Hong Kong Data Centers Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9925,
+  "metadata" : {
+    "handle" : "HKTDCS-AS-AP",
+    "description" : "VDC Powerbase Hong Kong Data Centers Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.77.128.0/21",
       "202.77.144.0/20",
       "202.77.192.0/18",
@@ -15,7 +18,7 @@
       "203.161.224.0/19",
       "203.215.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:9f00::/32"
     ]
   }

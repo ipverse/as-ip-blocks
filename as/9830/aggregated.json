@@ -1,9 +1,12 @@
 {
-  "asn": 9830,
-  "handle": "SWIFTONLINE-AS-AP",
-  "description": "SWIFT ONLINE BORDER AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9830,
+  "metadata" : {
+    "handle" : "SWIFTONLINE-AS-AP",
+    "description" : "SWIFT ONLINE BORDER AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.239.64.0/24",
       "160.20.4.0/24",
       "163.227.198.0/23",
@@ -15,6 +18,6 @@
       "202.91.90.0/23",
       "202.91.92.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

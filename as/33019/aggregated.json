@@ -1,12 +1,15 @@
 {
-  "asn": 33019,
-  "handle": "WHEATONCOLLEGE",
-  "description": "Wheaton College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33019,
+  "metadata" : {
+    "handle" : "WHEATONCOLLEGE",
+    "description" : "Wheaton College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.138.89.0/24",
       "209.147.96.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

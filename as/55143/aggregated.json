@@ -1,15 +1,18 @@
 {
-  "asn": 55143,
-  "handle": "NEXUSTEK-LASASN01",
-  "description": "Nexus Technologies LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55143,
+  "metadata" : {
+    "handle" : "NEXUSTEK-LASASN01",
+    "description" : "Nexus Technologies LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.42.12.0/22",
       "162.42.16.0/22",
       "192.69.244.0/23",
       "198.51.168.0/23",
       "198.136.42.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

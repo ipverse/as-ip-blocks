@@ -1,9 +1,12 @@
 {
-  "asn": 11260,
-  "handle": "EASTLINK-HSI",
-  "description": "EastLink",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11260,
+  "metadata" : {
+    "handle" : "EASTLINK-HSI",
+    "description" : "EastLink",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.89.192.0/18",
       "24.129.224.0/20",
       "24.137.64.0/18",
@@ -52,7 +55,7 @@
       "216.104.96.0/19",
       "216.167.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:1ec0::/36",
       "2604:db00::/32",
       "2607:a000::/32",

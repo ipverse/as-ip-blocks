@@ -1,9 +1,12 @@
 {
-  "asn": 7029,
-  "handle": "WINDSTREAM",
-  "description": "Windstream Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7029,
+  "metadata" : {
+    "handle" : "WINDSTREAM",
+    "description" : "Windstream Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.39.192.0/22",
       "5.249.180.0/22",
       "5.249.184.0/22",
@@ -906,7 +909,7 @@
       "223.29.140.0/22",
       "223.29.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:5a0:9001::/48",
       "2001:1908::/32",
       "2001:1968::/32",

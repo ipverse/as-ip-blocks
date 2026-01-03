@@ -1,15 +1,18 @@
 {
-  "asn": 9749,
-  "handle": "GPKNET-AS-AU",
-  "description": "GPK Group Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9749,
+  "metadata" : {
+    "handle" : "GPKNET-AS-AU",
+    "description" : "GPK Group Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "119.224.144.0/20",
       "203.23.8.0/24",
       "203.23.142.0/24",
       "203.62.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:c2::/48",
       "2401:5500::/32"
     ]

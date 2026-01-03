@@ -1,9 +1,12 @@
 {
-  "asn": 1715,
-  "handle": "FR-REMIP2000",
-  "description": "Renater",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1715,
+  "metadata" : {
+    "handle" : "FR-REMIP2000",
+    "description" : "Renater",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.120.0.0/16",
       "134.212.0.0/16",
       "138.63.0.0/16",
@@ -13,6 +16,6 @@
       "192.93.172.0/24",
       "192.93.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

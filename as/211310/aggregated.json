@@ -1,12 +1,15 @@
 {
-  "asn": 211310,
-  "handle": "FR-ENEDIS",
-  "description": "Enedis SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211310,
+  "metadata" : {
+    "handle" : "FR-ENEDIS",
+    "description" : "Enedis SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.9.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:ee00:e800::/40"
     ]
   }

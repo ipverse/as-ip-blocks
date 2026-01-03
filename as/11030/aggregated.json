@@ -1,9 +1,12 @@
 {
-  "asn": 11030,
-  "handle": "QUALCOMM",
-  "description": "Qualcomm Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11030,
+  "metadata" : {
+    "handle" : "QUALCOMM",
+    "description" : "Qualcomm Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.35.197.0/24",
       "67.52.128.0/21",
       "129.46.0.0/23",
@@ -18,7 +21,7 @@
       "199.88.187.0/24",
       "199.106.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:3d80:200::/40",
       "2604:3d80:400::/39"
     ]

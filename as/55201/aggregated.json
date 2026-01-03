@@ -1,9 +1,12 @@
 {
-  "asn": 55201,
-  "handle": "SKYQUANTUM-INTERNET-SERVICE",
-  "description": "SkyQuantum Internet Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55201,
+  "metadata" : {
+    "handle" : "SKYQUANTUM-INTERNET-SERVICE",
+    "description" : "SkyQuantum Internet Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.247.202.0/23",
       "38.30.192.0/22",
       "38.30.202.0/23",
@@ -111,7 +114,7 @@
       "199.182.96.0/22",
       "206.168.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:3782::/32",
       "2400:bac0::/32",
       "2401:d3c0::/32",

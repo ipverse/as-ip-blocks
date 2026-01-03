@@ -1,9 +1,12 @@
 {
-  "asn": 45638,
-  "handle": "SYNERGYWHOLESALE-AP",
-  "description": "SYNERGY WHOLESALE PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45638,
+  "metadata" : {
+    "handle" : "SYNERGYWHOLESALE-AP",
+    "description" : "SYNERGY WHOLESALE PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.241.52.0/24",
       "43.241.54.0/23",
       "43.250.140.0/22",
@@ -20,7 +23,7 @@
       "223.130.24.0/23",
       "223.130.27.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8f80::/47",
       "2400:b800::/45",
       "2400:b800:8::/48",

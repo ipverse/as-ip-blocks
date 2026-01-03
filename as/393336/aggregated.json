@@ -1,9 +1,12 @@
 {
-  "asn": 393336,
-  "handle": "CATALYST",
-  "description": "Catalyst Host LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393336,
+  "metadata" : {
+    "handle" : "CATALYST",
+    "description" : "Catalyst Host LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.163.209.0/24",
       "23.163.210.0/23",
       "23.163.212.0/23",
@@ -30,7 +33,7 @@
       "208.65.84.0/22",
       "216.73.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ffd1:1::/48",
       "2602:ffd1:2::/47",
       "2602:ffd1:6::/47",

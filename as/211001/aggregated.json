@@ -1,14 +1,17 @@
 {
-  "asn": 211001,
-  "handle": "TTR-GROUP",
-  "description": "TTR IT Holdings Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211001,
+  "metadata" : {
+    "handle" : "TTR-GROUP",
+    "description" : "TTR IT Holdings Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.38.0.0/24",
       "104.222.179.0/24",
       "104.239.47.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:5343:8::/48"
     ]
   }

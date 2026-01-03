@@ -1,9 +1,12 @@
 {
-  "asn": 36868,
-  "handle": "EIS",
-  "description": "Rogers Capital Technology Services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36868,
+  "metadata" : {
+    "handle" : "EIS",
+    "description" : "Rogers Capital Technology Services Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.207.128.0/21",
       "41.207.138.0/24",
       "41.207.144.0/20",
@@ -19,7 +22,7 @@
       "196.46.59.0/24",
       "196.46.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fe68::/32"
     ]
   }

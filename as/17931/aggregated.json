@@ -1,9 +1,12 @@
 {
-  "asn": 17931,
-  "handle": "NETFOREST",
-  "description": "Netforest Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17931,
+  "metadata" : {
+    "handle" : "NETFOREST",
+    "description" : "Netforest Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.238.236.0/22",
       "202.165.160.0/20",
       "203.153.64.0/20",
@@ -12,7 +15,7 @@
       "218.45.16.0/20",
       "219.100.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:4700::/32"
     ]
   }

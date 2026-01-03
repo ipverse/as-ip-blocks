@@ -1,15 +1,18 @@
 {
-  "asn": 198795,
-  "handle": "NIC-SAIX-P-CLOUD",
-  "description": "NIC (National Information Center)- SDAIA ( Saudi Data and Artificial Intelligence Authority )",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198795,
+  "metadata" : {
+    "handle" : "NIC-SAIX-P-CLOUD",
+    "description" : "NIC (National Information Center)- SDAIA ( Saudi Data and Artificial Intelligence Authority )",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.31.69.0/24",
       "77.236.120.0/21",
       "103.73.32.0/24",
       "195.14.19.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:1f80:7::/48",
       "2a07:1f80:8::/48"
     ]

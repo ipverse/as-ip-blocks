@@ -1,9 +1,12 @@
 {
-  "asn": 23675,
-  "handle": "TSMCGDN-AS-AP",
-  "description": "Taiwan Semiconductor Manufacturing Company Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23675,
+  "metadata" : {
+    "handle" : "TSMCGDN-AS-AP",
+    "description" : "Taiwan Semiconductor Manufacturing Company Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "106.105.110.0/24",
       "202.126.64.0/21",
       "202.126.72.0/22",
@@ -13,6 +16,6 @@
       "208.70.204.0/24",
       "220.128.55.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

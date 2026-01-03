@@ -1,12 +1,15 @@
 {
-  "asn": 203498,
-  "handle": "MSA-AS",
-  "description": "JSC Intellin",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203498,
+  "metadata" : {
+    "handle" : "MSA-AS",
+    "description" : "JSC Intellin",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.254.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:5640::/29"
     ]
   }

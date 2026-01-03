@@ -1,9 +1,12 @@
 {
-  "asn": 42116,
-  "handle": "ERTH-NCHLN-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42116,
+  "metadata" : {
+    "handle" : "ERTH-NCHLN-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.16.104.0/21",
       "46.147.64.0/19",
       "46.147.224.0/20",
@@ -14,7 +17,7 @@
       "176.215.32.0/20",
       "188.187.244.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:4400::/38"
     ]
   }

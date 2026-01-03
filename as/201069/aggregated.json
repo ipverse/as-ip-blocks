@@ -1,14 +1,17 @@
 {
-  "asn": 201069,
-  "handle": "APEX-ISP-AS",
-  "description": "Apex Group LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201069,
+  "metadata" : {
+    "handle" : "APEX-ISP-AS",
+    "description" : "Apex Group LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.170.96.0/24",
       "93.170.187.0/24",
       "93.171.218.0/24",
       "95.47.119.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

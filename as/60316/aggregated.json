@@ -1,16 +1,19 @@
 {
-  "asn": 60316,
-  "handle": "RGI-AS",
-  "description": "RS Gesellschaft fuer Informationstechnik mbH \u0026 Co.KG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60316,
+  "metadata" : {
+    "handle" : "RGI-AS",
+    "description" : "RS Gesellschaft fuer Informationstechnik mbH & Co.KG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.33.216.0/22",
       "185.104.72.0/22",
       "185.186.120.0/22",
       "185.212.32.0/24",
       "185.227.224.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:5a00::/29"
     ]
   }

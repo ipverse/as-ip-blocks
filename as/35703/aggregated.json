@@ -1,14 +1,17 @@
 {
-  "asn": 35703,
-  "handle": "NO-TV2-AS",
-  "description": "TV 2 AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35703,
+  "metadata" : {
+    "handle" : "NO-TV2-AS",
+    "description" : "TV 2 AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.75.208.0/21",
       "193.160.156.0/23",
       "193.227.204.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e48::/33"
     ]
   }

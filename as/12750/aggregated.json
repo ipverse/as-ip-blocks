@@ -1,12 +1,15 @@
 {
-  "asn": 12750,
-  "handle": "SOFTEC-MNT",
-  "description": "Softec AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12750,
+  "metadata" : {
+    "handle" : "SOFTEC-MNT",
+    "description" : "Softec AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.80.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7480::/32"
     ]
   }

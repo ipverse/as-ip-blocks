@@ -1,9 +1,12 @@
 {
-  "asn": 262777,
-  "handle": "NEOLINK-TELECOMUNICACOES",
-  "description": "Neolink Telecomunicações LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262777,
+  "metadata" : {
+    "handle" : "NEOLINK-TELECOMUNICACOES",
+    "description" : "Neolink Telecomunicações LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.175.116.0/22",
       "45.235.192.0/22",
       "131.255.48.0/22",
@@ -14,7 +17,7 @@
       "177.128.248.0/21",
       "186.233.16.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:814::/32"
     ]
   }

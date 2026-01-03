@@ -1,9 +1,12 @@
 {
-  "asn": 39505,
-  "handle": "VESTITEL-AS",
-  "description": "VESTITEL BG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39505,
+  "metadata" : {
+    "handle" : "VESTITEL-AS",
+    "description" : "VESTITEL BG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.40.136.0/23",
       "78.40.138.0/24",
       "87.247.248.0/23",
@@ -15,7 +18,7 @@
       "178.249.170.0/24",
       "185.75.48.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:6580::/32"
     ]
   }

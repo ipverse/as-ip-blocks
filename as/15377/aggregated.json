@@ -1,9 +1,12 @@
 {
-  "asn": 15377,
-  "handle": "FREGAT",
-  "description": "TRADITIONAL LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15377,
+  "metadata" : {
+    "handle" : "FREGAT",
+    "description" : "TRADITIONAL LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.252.180.0/22",
       "46.98.0.0/16",
       "88.218.180.0/22",
@@ -19,7 +22,7 @@
       "193.108.248.0/22",
       "212.115.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:8dc0::/29"
     ]
   }

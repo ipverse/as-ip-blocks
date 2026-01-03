@@ -1,14 +1,17 @@
 {
-  "asn": 136014,
-  "handle": "SSONLINE-AS-AP",
-  "description": "SS Online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136014,
+  "metadata" : {
+    "handle" : "SSONLINE-AS-AP",
+    "description" : "SS Online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.80.0.0/22",
       "103.149.1.0/24",
       "103.159.171.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:47c0::/32"
     ]
   }

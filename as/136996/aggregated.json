@@ -1,12 +1,15 @@
 {
-  "asn": 136996,
-  "handle": "PACIFICNETWORKS-AS-AP",
-  "description": "Pacific Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136996,
+  "metadata" : {
+    "handle" : "PACIFICNETWORKS-AS-AP",
+    "description" : "Pacific Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.101.192.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:a700::/48"
     ]
   }

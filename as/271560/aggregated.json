@@ -1,12 +1,15 @@
 {
-  "asn": 271560,
-  "handle": "PHXNET-PROVEDOR-INTERNET",
-  "description": "PHXNET PROVEDOR DE INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271560,
+  "metadata" : {
+    "handle" : "PHXNET-PROVEDOR-INTERNET",
+    "description" : "PHXNET PROVEDOR DE INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.63.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7d6c::/32"
     ]
   }

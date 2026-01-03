@@ -1,9 +1,12 @@
 {
-  "asn": 50477,
-  "handle": "SV-EN-AS",
-  "description": "Svyaz-Energo Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50477,
+  "metadata" : {
+    "handle" : "SV-EN-AS",
+    "description" : "Svyaz-Energo Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.149.200.0/21",
       "46.19.112.0/21",
       "109.236.208.0/20",
@@ -13,7 +16,7 @@
       "194.58.168.0/21",
       "194.58.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:6000::/29"
     ]
   }

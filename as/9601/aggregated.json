@@ -1,9 +1,12 @@
 {
-  "asn": 9601,
-  "handle": "SHIBATA",
-  "description": "Niigata Communication Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9601,
+  "metadata" : {
+    "handle" : "SHIBATA",
+    "description" : "Niigata Communication Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.84.240.0/21",
       "58.84.250.0/23",
       "58.84.252.0/23",
@@ -12,7 +15,7 @@
       "211.12.192.0/19",
       "219.101.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:a800::/33",
       "2402:a800:8000::/34",
       "2402:a800:c000::/35"

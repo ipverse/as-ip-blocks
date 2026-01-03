@@ -1,15 +1,18 @@
 {
-  "asn": 23771,
-  "handle": "SXBCTV-AP",
-  "description": "SXBCTV Internet Service Provider",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23771,
+  "metadata" : {
+    "handle" : "SXBCTV-AP",
+    "description" : "SXBCTV Internet Service Provider",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "124.22.0.0/15",
       "124.47.0.0/18",
       "202.150.16.0/20",
       "203.152.64.0/19",
       "210.87.128.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

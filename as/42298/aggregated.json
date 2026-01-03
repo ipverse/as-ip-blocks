@@ -1,9 +1,12 @@
 {
-  "asn": 42298,
-  "handle": "GCC-MPLS-PEERING",
-  "description": "Ooredoo Q.S.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42298,
+  "metadata" : {
+    "handle" : "GCC-MPLS-PEERING",
+    "description" : "Ooredoo Q.S.C.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.211.16.0/20",
       "78.100.10.0/24",
       "78.100.15.0/24",
@@ -28,7 +31,7 @@
       "206.82.133.0/24",
       "213.130.127.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1a10:1120::/43",
       "2001:1a10:1140::/42",
       "2001:1a10:1180::/41",

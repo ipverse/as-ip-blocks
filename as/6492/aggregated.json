@@ -1,13 +1,16 @@
 {
-  "asn": 6492,
-  "handle": "PCCD",
-  "description": "Palomar Community College District",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6492,
+  "metadata" : {
+    "handle" : "PCCD",
+    "description" : "Palomar Community College District",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.30.115.0/24",
       "205.153.156.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:c0::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 152491,
-  "handle": "RMDC-AS-IN",
-  "description": "RACKMONK DATACENTERS PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152491,
+  "metadata" : {
+    "handle" : "RMDC-AS-IN",
+    "description" : "RACKMONK DATACENTERS PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.130.138.0/23",
       "38.130.140.0/24",
       "154.21.112.0/23",
@@ -12,6 +15,6 @@
       "154.51.246.0/24",
       "157.20.190.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

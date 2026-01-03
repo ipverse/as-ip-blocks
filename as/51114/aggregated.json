@@ -1,13 +1,16 @@
 {
-  "asn": 51114,
-  "handle": "MBK-NETWORKS-AS",
-  "description": "mbk networks GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51114,
+  "metadata" : {
+    "handle" : "MBK-NETWORKS-AS",
+    "description" : "mbk networks GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.250.80.0/22",
       "193.111.34.0/24",
       "193.138.104.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 30115,
-  "handle": "CARRIERX-LA-01",
-  "description": "FreeConferenceCall.com",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30115,
+  "metadata" : {
+    "handle" : "CARRIERX-LA-01",
+    "description" : "FreeConferenceCall.com",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.7.192.0/23",
       "104.166.96.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

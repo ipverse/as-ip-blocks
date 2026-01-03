@@ -1,9 +1,12 @@
 {
-  "asn": 16732,
-  "handle": "VELOCOM",
-  "description": "VELOCOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16732,
+  "metadata" : {
+    "handle" : "VELOCOM",
+    "description" : "VELOCOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.59.32.0/20",
       "200.59.50.0/23",
       "200.59.52.0/23",
@@ -12,6 +15,6 @@
       "200.59.200.0/22",
       "200.59.207.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

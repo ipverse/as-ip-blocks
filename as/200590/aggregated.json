@@ -1,9 +1,12 @@
 {
-  "asn": 200590,
-  "handle": "ASNLS",
-  "description": "NLS Kazakhstan LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200590,
+  "metadata" : {
+    "handle" : "ASNLS",
+    "description" : "NLS Kazakhstan LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.188.64.0/22",
       "5.188.152.0/22",
       "37.32.73.0/24",
@@ -48,7 +51,7 @@
       "212.134.240.0/23",
       "212.134.243.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:580::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 136195,
-  "handle": "CHINATELECOM-QINGDAO-CLOUDBASE",
-  "description": "Qingdao Shandong Province P.R.China",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136195,
+  "metadata" : {
+    "handle" : "CHINATELECOM-QINGDAO-CLOUDBASE",
+    "description" : "Qingdao Shandong Province P.R.China.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "140.249.3.0/24",
       "140.249.7.0/24",
       "140.249.17.0/24",
@@ -25,7 +28,7 @@
       "182.40.160.0/21",
       "182.40.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:e:b800::/37",
       "240e:108:4e::/48",
       "240e:108:86::/48",

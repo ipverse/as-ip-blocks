@@ -1,12 +1,15 @@
 {
-  "asn": 199880,
-  "handle": "LDS-EA",
-  "description": "Kirche Jesu Christi der Heiligen der Letzten Tage in Deutschland",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199880,
+  "metadata" : {
+    "handle" : "LDS-EA",
+    "description" : "Kirche Jesu Christi der Heiligen der Letzten Tage in Deutschland",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.43.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6ea0::/32"
     ]
   }

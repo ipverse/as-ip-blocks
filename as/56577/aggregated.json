@@ -1,14 +1,17 @@
 {
-  "asn": 56577,
-  "handle": "ASRELINK",
-  "description": "Relink LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56577,
+  "metadata" : {
+    "handle" : "ASRELINK",
+    "description" : "Relink LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.41.40.0/21",
       "185.68.92.0/22",
       "193.105.100.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:1700::/48",
       "2a05:1700:2::/47"
     ]

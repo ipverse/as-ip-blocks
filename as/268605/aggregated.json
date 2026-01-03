@@ -1,14 +1,17 @@
 {
-  "asn": 268605,
-  "handle": "SRG-TELECOM",
-  "description": "SRG TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268605,
+  "metadata" : {
+    "handle" : "SRG-TELECOM",
+    "description" : "SRG TELECOM LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.164.60.0/22",
       "190.111.156.0/23",
       "190.111.159.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:53c4::/32",
       "2804:5758::/32",
       "2804:6bdc::/32"

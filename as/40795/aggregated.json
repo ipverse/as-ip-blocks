@@ -1,12 +1,15 @@
 {
-  "asn": 40795,
-  "handle": "COUNTY-OF-LAKE",
-  "description": "County of Lake",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40795,
+  "metadata" : {
+    "handle" : "COUNTY-OF-LAKE",
+    "description" : "County of Lake",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.206.206.0/24",
       "208.91.28.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

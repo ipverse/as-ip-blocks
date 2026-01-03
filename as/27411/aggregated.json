@@ -1,9 +1,12 @@
 {
-  "asn": 27411,
-  "handle": "LEASEWEB-USA-CHI",
-  "description": "Leaseweb USA Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27411,
+  "metadata" : {
+    "handle" : "LEASEWEB-USA-CHI",
+    "description" : "Leaseweb USA Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.19.120.0/22",
       "23.19.136.0/21",
       "23.19.176.0/21",
@@ -77,7 +80,7 @@
       "216.6.229.0/24",
       "216.6.239.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f5b1::/32"
     ]
   }

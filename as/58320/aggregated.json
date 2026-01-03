@@ -1,13 +1,16 @@
 {
-  "asn": 58320,
-  "handle": "SKOGSTY",
-  "description": "Skogsstyrelsen",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58320,
+  "metadata" : {
+    "handle" : "SKOGSTY",
+    "description" : "Skogsstyrelsen",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.183.24.0/24",
       "193.183.26.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2a18::/48"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 28132,
-  "handle": "TRI-TELECOM",
-  "description": "TRI TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28132,
+  "metadata" : {
+    "handle" : "TRI-TELECOM",
+    "description" : "TRI TELECOM LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.255.140.0/22",
       "177.105.252.0/22",
       "187.44.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:258::/32"
     ]
   }

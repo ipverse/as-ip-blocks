@@ -1,9 +1,12 @@
 {
-  "asn": 36850,
-  "handle": "UNC-CH",
-  "description": "University of North Carolina at Chapel Hill",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36850,
+  "metadata" : {
+    "handle" : "UNC-CH",
+    "description" : "University of North Carolina at Chapel Hill",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "152.2.0.0/16",
       "152.19.0.0/16",
       "152.23.0.0/16",
@@ -12,7 +15,7 @@
       "204.84.252.0/22",
       "204.85.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:2701:4000::/45",
       "2606:f640::/32",
       "2610:28:3090::/48"

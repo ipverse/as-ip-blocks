@@ -1,12 +1,15 @@
 {
-  "asn": 264022,
-  "handle": "REDE-CONEXAONET",
-  "description": "REDE CONEXAONET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264022,
+  "metadata" : {
+    "handle" : "REDE-CONEXAONET",
+    "description" : "REDE CONEXAONET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.0.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2990::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 328358,
-  "handle": "MAKERERE-AS",
-  "description": "Makerere University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328358,
+  "metadata" : {
+    "handle" : "MAKERERE-AS",
+    "description" : "Makerere University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.134.144.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43f8:1320::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 4713,
-  "handle": "OCN",
-  "description": "NTT DOCOMO BUSINESS Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4713,
+  "metadata" : {
+    "handle" : "OCN",
+    "description" : "NTT DOCOMO BUSINESS Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.114.0.0/17",
       "27.132.8.0/24",
       "27.133.240.0/22",
@@ -149,7 +152,7 @@
       "222.144.0.0/13",
       "223.216.0.0/14"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:380::/32",
       "2400:4000::/22",
       "2400:7800::/32",

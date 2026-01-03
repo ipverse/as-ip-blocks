@@ -1,14 +1,17 @@
 {
-  "asn": 12284,
-  "handle": "IPNS-AS",
-  "description": "Computer Solutions / CSolutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12284,
+  "metadata" : {
+    "handle" : "IPNS-AS",
+    "description" : "Computer Solutions / CSolutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.110.128.0/19",
       "216.162.202.0/23",
       "216.162.206.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:5980::/32"
     ]
   }

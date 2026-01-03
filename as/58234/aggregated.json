@@ -1,12 +1,15 @@
 {
-  "asn": 58234,
-  "handle": "ROSSMANN-AS",
-  "description": "Dirk Rossmann GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58234,
+  "metadata" : {
+    "handle" : "ROSSMANN-AS",
+    "description" : "Dirk Rossmann GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.240.129.0/24",
       "194.140.231.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

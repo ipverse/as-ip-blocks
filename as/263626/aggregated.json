@@ -1,14 +1,17 @@
 {
-  "asn": 263626,
-  "handle": "G-LAB-TELECOM",
-  "description": "G-LAB Telecom Informatica LTDA - ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263626,
+  "metadata" : {
+    "handle" : "G-LAB-TELECOM",
+    "description" : "G-LAB Telecom Informatica LTDA - ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.232.176.0/22",
       "179.125.24.0/23",
       "179.125.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1040::/32"
     ]
   }

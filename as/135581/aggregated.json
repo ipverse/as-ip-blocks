@@ -1,9 +1,12 @@
 {
-  "asn": 135581,
-  "handle": "ONL-HK-AS",
-  "description": "OCEAN NETWORK LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135581,
+  "metadata" : {
+    "handle" : "ONL-HK-AS",
+    "description" : "OCEAN NETWORK LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.254.129.0/24",
       "5.254.131.0/24",
       "103.87.240.0/22",
@@ -14,6 +17,6 @@
       "103.142.146.0/23",
       "103.143.28.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

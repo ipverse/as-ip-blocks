@@ -1,9 +1,12 @@
 {
-  "asn": 19398,
-  "handle": "TENET-HEALTHCARE-ASN-01",
-  "description": "Tenet HealthSystem Medical Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19398,
+  "metadata" : {
+    "handle" : "TENET-HEALTHCARE-ASN-01",
+    "description" : "Tenet HealthSystem Medical Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "155.139.24.0/22",
       "155.139.39.0/24",
       "155.139.41.0/24",
@@ -13,6 +16,6 @@
       "155.139.128.0/24",
       "172.85.72.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

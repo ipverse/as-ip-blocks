@@ -1,14 +1,17 @@
 {
-  "asn": 203318,
-  "handle": "ASBIZWAYNL",
-  "description": "Bizway BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203318,
+  "metadata" : {
+    "handle" : "ASBIZWAYNL",
+    "description" : "Bizway BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.153.84.0/22",
       "185.138.80.0/22",
       "185.214.73.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1ac1::/32",
       "2a05:b000::/32"
     ]

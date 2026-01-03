@@ -1,9 +1,12 @@
 {
-  "asn": 40715,
-  "handle": "COLOGIX-COL",
-  "description": "Cologix Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40715,
+  "metadata" : {
+    "handle" : "COLOGIX-COL",
+    "description" : "Cologix Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.154.188.0/22",
       "74.121.64.0/22",
       "74.219.154.0/24",
@@ -12,7 +15,7 @@
       "199.254.141.0/24",
       "216.69.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:4400::/32"
     ]
   }

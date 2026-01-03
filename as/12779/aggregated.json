@@ -1,9 +1,12 @@
 {
-  "asn": 12779,
-  "handle": "ITGATE",
-  "description": "IT.Gate S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12779,
+  "metadata" : {
+    "handle" : "ITGATE",
+    "description" : "IT.Gate S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.104.26.0/23",
       "5.104.28.0/23",
       "5.104.30.0/24",
@@ -27,7 +30,7 @@
       "213.212.128.0/18",
       "213.254.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1418::/29",
       "2a02:c480::/32",
       "2a0c:79c0:2::/48",

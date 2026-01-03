@@ -1,14 +1,17 @@
 {
-  "asn": 133840,
-  "handle": "JLMNET-AS-ID",
-  "description": "PT Jala Lintas Media",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133840,
+  "metadata" : {
+    "handle" : "JLMNET-AS-ID",
+    "description" : "PT Jala Lintas Media",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.66.70.0/24",
       "203.161.18.0/24",
       "203.161.20.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:e100:3001::/48",
       "2404:e100:3004::/48",
       "2404:e100:3006::/47",

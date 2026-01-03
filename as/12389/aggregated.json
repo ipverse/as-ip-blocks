@@ -1,9 +1,12 @@
 {
-  "asn": 12389,
-  "handle": "ROSTELECOM-AS",
-  "description": "PJSC Rostelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12389,
+  "metadata" : {
+    "handle" : "ROSTELECOM-AS",
+    "description" : "PJSC Rostelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.16.20.0/23",
       "2.16.53.0/24",
       "2.17.144.0/23",
@@ -876,7 +879,7 @@
       "217.150.196.0/23",
       "217.168.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1640::/32",
       "2a00:1e88::/32",
       "2a00:56c0::/32",

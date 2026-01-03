@@ -1,9 +1,12 @@
 {
-  "asn": 394828,
-  "handle": "VALTECH-ENTERPRISES",
-  "description": "VALTECH ENTERPRISES LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394828,
+  "metadata" : {
+    "handle" : "VALTECH-ENTERPRISES",
+    "description" : "VALTECH ENTERPRISES LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.8.94.0/24",
       "23.145.200.0/24",
       "23.153.120.0/24",
@@ -15,7 +18,7 @@
       "174.46.65.0/24",
       "174.47.192.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:2a2::/36",
       "2602:fa7f::/36",
       "2607:1ac0::/32"

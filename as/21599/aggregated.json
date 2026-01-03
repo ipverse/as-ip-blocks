@@ -1,9 +1,12 @@
 {
-  "asn": 21599,
-  "handle": "CABLE-ONDA",
-  "description": "Cable Onda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21599,
+  "metadata" : {
+    "handle" : "CABLE-ONDA",
+    "description" : "Cable Onda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.5.224.0/19",
       "190.122.160.0/20",
       "200.46.0.0/16",
@@ -11,6 +14,6 @@
       "200.115.128.0/19",
       "201.218.192.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

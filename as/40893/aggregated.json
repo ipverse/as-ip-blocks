@@ -1,12 +1,15 @@
 {
-  "asn": 40893,
-  "handle": "ASN-NA-XIPE",
-  "description": "Xipe Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40893,
+  "metadata" : {
+    "handle" : "ASN-NA-XIPE",
+    "description" : "Xipe Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.139.216.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:ae:a000::/48"
     ]
   }

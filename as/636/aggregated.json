@@ -1,15 +1,18 @@
 {
-  "asn": 636,
-  "handle": "DNIC-ASBLK-00616-00665",
-  "description": "United States Department of Defense (DoD)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 636,
+  "metadata" : {
+    "handle" : "DNIC-ASBLK-00616-00665",
+    "description" : "United States Department of Defense (DoD)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "214.58.192.0/20",
       "214.58.208.0/22",
       "214.58.218.0/24",
       "214.58.222.0/24",
       "214.58.232.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

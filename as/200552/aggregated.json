@@ -1,12 +1,15 @@
 {
-  "asn": 200552,
-  "handle": "ACKLO",
-  "description": "Acklo Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200552,
+  "metadata" : {
+    "handle" : "ACKLO",
+    "description" : "Acklo Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.103.116.0/23",
       "185.103.119.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

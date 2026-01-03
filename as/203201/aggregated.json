@@ -1,9 +1,12 @@
 {
-  "asn": 203201,
-  "handle": "IT-SUPERNAP",
-  "description": "INFRASTRUCTURE ITALIA COLO S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203201,
+  "metadata" : {
+    "handle" : "IT-SUPERNAP",
+    "description" : "INFRASTRUCTURE ITALIA COLO S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.144.60.0/22",
       "45.145.204.0/22",
       "45.159.60.0/22",
@@ -17,7 +20,7 @@
       "193.107.56.0/22",
       "212.78.1.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:2e80::/29"
     ]
   }

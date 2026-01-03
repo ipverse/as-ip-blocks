@@ -1,9 +1,12 @@
 {
-  "asn": 12211,
-  "handle": "OCNL-AS12211",
-  "description": "Operations \u0026 Compliance Network LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12211,
+  "metadata" : {
+    "handle" : "OCNL-AS12211",
+    "description" : "Operations & Compliance Network LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.228.108.0/24",
       "69.10.242.0/23",
       "69.10.244.0/22",
@@ -12,6 +15,6 @@
       "204.190.48.0/23",
       "207.231.196.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

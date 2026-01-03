@@ -1,9 +1,12 @@
 {
-  "asn": 46269,
-  "handle": "KRONOS-MA",
-  "description": "UKG Kronos Systems LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46269,
+  "metadata" : {
+    "handle" : "KRONOS-MA",
+    "description" : "UKG Kronos Systems LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.228.0.0/23",
       "158.228.2.0/24",
       "158.228.4.0/22",
@@ -31,7 +34,7 @@
       "158.228.253.0/24",
       "158.228.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:88:8001::/48"
     ]
   }

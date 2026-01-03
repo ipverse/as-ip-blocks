@@ -1,12 +1,15 @@
 {
-  "asn": 270444,
-  "handle": "ZBL-TELECOM",
-  "description": "ZBL Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270444,
+  "metadata" : {
+    "handle" : "ZBL-TELECOM",
+    "description" : "ZBL Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.26.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6c14::/32"
     ]
   }

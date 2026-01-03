@@ -1,9 +1,12 @@
 {
-  "asn": 15395,
-  "handle": "RACKSPACE-LON",
-  "description": "Rackspace Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15395,
+  "metadata" : {
+    "handle" : "RACKSPACE-LON",
+    "description" : "Rackspace Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.79.0.0/18",
       "31.222.128.0/18",
       "37.188.96.0/19",
@@ -35,7 +38,7 @@
       "212.100.224.0/19",
       "217.72.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1a48::/32"
     ]
   }

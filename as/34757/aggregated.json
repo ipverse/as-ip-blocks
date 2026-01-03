@@ -1,9 +1,12 @@
 {
-  "asn": 34757,
-  "handle": "SIBSET-NSK-AS",
-  "description": "Sibirskie Seti Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34757,
+  "metadata" : {
+    "handle" : "SIBSET-NSK-AS",
+    "description" : "Sibirskie Seti Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.44.168.0/23",
       "80.64.168.0/21",
       "80.89.192.0/20",
@@ -14,6 +17,6 @@
       "109.111.176.0/20",
       "193.238.128.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 50105,
-  "handle": "SKTNET",
-  "description": "OOO Sestroretskoe Cable Television",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50105,
+  "metadata" : {
+    "handle" : "SKTNET",
+    "description" : "OOO Sestroretskoe Cable Television",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.211.216.0/23",
       "195.211.219.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

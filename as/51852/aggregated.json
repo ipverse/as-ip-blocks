@@ -1,9 +1,12 @@
 {
-  "asn": 51852,
-  "handle": "PLI-AS",
-  "description": "Private Layer INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51852,
+  "metadata" : {
+    "handle" : "PLI-AS",
+    "description" : "Private Layer INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.7.56.0/21",
       "38.180.15.0/24",
       "38.180.46.0/23",
@@ -29,7 +32,7 @@
       "185.114.117.0/24",
       "190.211.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:29b8::/32",
       "2a09:4d45::/32"
     ]

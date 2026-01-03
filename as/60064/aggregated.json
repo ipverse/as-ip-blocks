@@ -1,9 +1,12 @@
 {
-  "asn": 60064,
-  "handle": "HOSTPALACE",
-  "description": "HOSTPALACE DATACENTERS LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60064,
+  "metadata" : {
+    "handle" : "HOSTPALACE",
+    "description" : "HOSTPALACE DATACENTERS LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.178.2.0/24",
       "43.239.140.0/22",
       "84.12.255.0/24",
@@ -19,7 +22,7 @@
       "192.142.63.0/24",
       "208.10.32.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:f780::/32",
       "2a04:f781::/39"
     ]

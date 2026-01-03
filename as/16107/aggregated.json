@@ -1,12 +1,15 @@
 {
-  "asn": 16107,
-  "handle": "COMMERZBANK",
-  "description": "Commerzbank Aktiengesellschaft",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16107,
+  "metadata" : {
+    "handle" : "COMMERZBANK",
+    "description" : "Commerzbank Aktiengesellschaft",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.41.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2440::/48"
     ]
   }

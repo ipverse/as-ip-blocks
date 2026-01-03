@@ -1,9 +1,12 @@
 {
-  "asn": 2856,
-  "handle": "BT-UK-AS",
-  "description": "British Telecommunications PLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2856,
+  "metadata" : {
+    "handle" : "BT-UK-AS",
+    "description" : "British Telecommunications PLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.24.0.0/13",
       "5.35.192.0/21",
       "5.80.0.0/15",
@@ -326,7 +329,7 @@
       "217.217.36.0/22",
       "217.217.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4878:c259::/48",
       "2a00:2380::/25",
       "2a01:4c8::/29",

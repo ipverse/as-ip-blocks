@@ -1,13 +1,16 @@
 {
-  "asn": 399055,
-  "handle": "SOUTHEAST-NETWORKS",
-  "description": "Southeast Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399055,
+  "metadata" : {
+    "handle" : "SOUTHEAST-NETWORKS",
+    "description" : "Southeast Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.173.16.0/24",
       "103.143.76.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:22c0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 202553,
-  "handle": "ODCN-NL-AS",
-  "description": "Dienst Uitvoering Onderwijs",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202553,
+  "metadata" : {
+    "handle" : "ODCN-NL-AS",
+    "description" : "Dienst Uitvoering Onderwijs",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.181.4.0/22",
       "147.181.8.0/21",
       "147.181.16.0/23",
@@ -12,7 +15,7 @@
       "147.181.48.0/21",
       "147.181.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:9a00:1001::/48",
       "2a04:9a00:1002::/47",
       "2a04:9a00:1005::/48",

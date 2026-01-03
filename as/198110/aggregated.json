@@ -1,12 +1,15 @@
 {
-  "asn": 198110,
-  "handle": "VISTLINK-AS",
-  "description": "LLC VISTlink",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198110,
+  "metadata" : {
+    "handle" : "VISTLINK-AS",
+    "description" : "LLC VISTlink",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.186.64.0/20",
       "185.113.244.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

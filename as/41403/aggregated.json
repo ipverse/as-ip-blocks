@@ -1,9 +1,12 @@
 {
-  "asn": 41403,
-  "handle": "ULAN-UDE-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41403,
+  "metadata" : {
+    "handle" : "ULAN-UDE-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.3.27.0/24",
       "46.236.128.0/19",
       "78.136.224.0/20",
@@ -14,6 +17,6 @@
       "176.212.140.0/22",
       "176.214.192.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

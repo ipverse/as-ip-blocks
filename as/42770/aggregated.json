@@ -1,14 +1,17 @@
 {
-  "asn": 42770,
-  "handle": "KRT-AS",
-  "description": "Kar-Tel LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42770,
+  "metadata" : {
+    "handle" : "KRT-AS",
+    "description" : "Kar-Tel LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.74.64.0/21",
       "176.223.72.0/23",
       "198.45.116.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:b0c0:1100::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 17908,
-  "handle": "TCISL",
-  "description": "Tata Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17908,
+  "metadata" : {
+    "handle" : "TCISL",
+    "description" : "Tata Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.162.88.0/22",
       "59.162.94.0/24",
       "59.162.116.0/22",
@@ -85,6 +88,6 @@
       "219.65.172.0/22",
       "219.65.192.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

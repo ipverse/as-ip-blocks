@@ -1,15 +1,18 @@
 {
-  "asn": 12148,
-  "handle": "CLEMSONU",
-  "description": "Clemson University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12148,
+  "metadata" : {
+    "handle" : "CLEMSONU",
+    "description" : "Clemson University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.127.0.0/16",
       "192.5.219.0/24",
       "192.42.3.0/24",
       "198.21.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:103:a000::/44"
     ]
   }

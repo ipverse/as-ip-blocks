@@ -1,9 +1,12 @@
 {
-  "asn": 21804,
-  "handle": "ACCESS-SK",
-  "description": "Access Communications Co-operative Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21804,
+  "metadata" : {
+    "handle" : "ACCESS-SK",
+    "description" : "Access Communications Co-operative Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.146.176.0/24",
       "23.182.112.0/24",
       "24.72.0.0/17",
@@ -16,7 +19,7 @@
       "184.169.48.0/20",
       "209.34.96.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:7200::/32"
     ]
   }

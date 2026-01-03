@@ -1,9 +1,12 @@
 {
-  "asn": 11562,
-  "handle": "NET-UNO-CA",
-  "description": "Net Uno C.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11562,
+  "metadata" : {
+    "handle" : "NET-UNO-CA",
+    "description" : "Net Uno C.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.245.34.0/24",
       "170.246.77.0/24",
       "170.246.79.0/24",
@@ -37,7 +40,7 @@
       "190.153.112.0/20",
       "200.75.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:620::/32"
     ]
   }

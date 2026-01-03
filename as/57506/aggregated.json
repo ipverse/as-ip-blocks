@@ -1,13 +1,16 @@
 {
-  "asn": 57506,
-  "handle": "ASN-PDMT",
-  "description": "POLITIETS IT-ENHET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57506,
+  "metadata" : {
+    "handle" : "ASN-PDMT",
+    "description" : "POLITIETS IT-ENHET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.174.0.0/19",
       "163.174.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:c540::/36",
       "2a00:c540:2000::/36"
     ]

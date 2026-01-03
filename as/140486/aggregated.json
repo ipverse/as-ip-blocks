@@ -1,9 +1,12 @@
 {
-  "asn": 140486,
-  "handle": "CHINATELECOM-ZHEJIANG-JINHUA-5GC-NETWORK",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140486,
+  "metadata" : {
+    "handle" : "CHINATELECOM-ZHEJIANG-JINHUA-5GC-NETWORK",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.21.128.0/17",
       "36.28.128.0/17",
       "60.163.66.0/23",
@@ -11,7 +14,7 @@
       "115.233.186.0/24",
       "183.137.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:1c7:20::/44",
       "240e:471::/32",
       "240e:473:ff01::/48",

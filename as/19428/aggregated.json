@@ -1,9 +1,12 @@
 {
-  "asn": 19428,
-  "handle": "PHILLIPS-66",
-  "description": "Phillips 66 Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19428,
+  "metadata" : {
+    "handle" : "PHILLIPS-66",
+    "description" : "Phillips 66 Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.46.101.0/24",
       "144.46.102.0/23",
       "144.46.104.0/21",
@@ -12,6 +15,6 @@
       "144.46.231.0/24",
       "144.46.252.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

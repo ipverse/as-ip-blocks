@@ -1,15 +1,18 @@
 {
-  "asn": 11259,
-  "handle": "ANGOLATELECOM",
-  "description": "Angola Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11259,
+  "metadata" : {
+    "handle" : "ANGOLATELECOM",
+    "description" : "Angola Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.74.240.0/20",
       "41.223.156.0/22",
       "66.110.112.0/20",
       "197.216.0.0/15"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:faf0::/32"
     ]
   }

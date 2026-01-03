@@ -1,9 +1,12 @@
 {
-  "asn": 41114,
-  "handle": "ORNETHD",
-  "description": "ORNE THD SPL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41114,
+  "metadata" : {
+    "handle" : "ORNETHD",
+    "description" : "ORNE THD SPL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.11.40.0/21",
       "45.151.16.0/22",
       "45.157.248.0/22",
@@ -19,7 +22,7 @@
       "213.226.72.0/22",
       "213.232.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:7aa0::/32",
       "2a09:26c0::/32",
       "2a09:4380::/32",

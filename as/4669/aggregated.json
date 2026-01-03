@@ -1,9 +1,12 @@
 {
-  "asn": 4669,
-  "handle": "NOWCOM-AS",
-  "description": "SOOP Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4669,
+  "metadata" : {
+    "handle" : "NOWCOM-AS",
+    "description" : "SOOP Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.238.128.0/22",
       "203.238.133.0/24",
       "203.238.134.0/23",
@@ -14,6 +17,6 @@
       "203.238.148.0/24",
       "203.238.150.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

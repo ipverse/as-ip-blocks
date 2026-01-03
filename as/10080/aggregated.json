@@ -1,14 +1,17 @@
 {
-  "asn": 10080,
-  "handle": "INTERCONNECT1-AS-AP",
-  "description": "Interconnect Networks Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10080,
+  "metadata" : {
+    "handle" : "INTERCONNECT1-AS-AP",
+    "description" : "Interconnect Networks Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.143.156.0/23",
       "203.31.10.0/23",
       "203.31.252.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:a2e0::/32"
     ]
   }

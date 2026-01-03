@@ -1,9 +1,12 @@
 {
-  "asn": 24060,
-  "handle": "KTB-KTBCS-TH",
-  "description": "KTB COMPUTER SERVICES COMPANY LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24060,
+  "metadata" : {
+    "handle" : "KTB-KTBCS-TH",
+    "description" : "KTB COMPUTER SERVICES COMPANY LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.162.109.0/24",
       "103.209.48.0/22",
       "202.12.117.0/24",
@@ -11,7 +14,7 @@
       "202.58.244.0/24",
       "203.4.160.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:2900::/48"
     ]
   }

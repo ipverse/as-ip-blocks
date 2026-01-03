@@ -1,9 +1,12 @@
 {
-  "asn": 11404,
-  "handle": "AS-WAVE-1",
-  "description": "Wave Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11404,
+  "metadata" : {
+    "handle" : "AS-WAVE-1",
+    "description" : "Wave Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "9.142.32.0/20",
       "9.142.192.0/19",
       "23.27.9.0/24",
@@ -354,7 +357,7 @@
       "216.254.96.0/19",
       "217.9.13.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1868::/32",
       "2600:2100::/28",
       "2607:8100::/32",

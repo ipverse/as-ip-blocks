@@ -1,9 +1,12 @@
 {
-  "asn": 6356,
-  "handle": "NERDCNET",
-  "description": "University of Florida",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6356,
+  "metadata" : {
+    "handle" : "NERDCNET",
+    "description" : "University of Florida",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.6.244.0/23",
       "128.227.0.0/16",
       "159.178.0.0/16",
@@ -11,7 +14,7 @@
       "192.5.2.0/24",
       "206.224.221.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:104::/40"
     ]
   }

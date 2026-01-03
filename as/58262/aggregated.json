@@ -1,9 +1,12 @@
 {
-  "asn": 58262,
-  "handle": "NRP-NETWORK",
-  "description": "Negah Roshan Pars Company (PJS)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58262,
+  "metadata" : {
+    "handle" : "NRP-NETWORK",
+    "description" : "Negah Roshan Pars Company (PJS)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.61.24.0/23",
       "5.61.26.0/24",
       "5.61.28.0/22",
@@ -12,7 +15,7 @@
       "185.73.112.0/24",
       "185.73.114.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:2d80::/48"
     ]
   }

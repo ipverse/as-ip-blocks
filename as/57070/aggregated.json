@@ -1,13 +1,16 @@
 {
-  "asn": 57070,
-  "handle": "ITCOM-SHKODER",
-  "description": "ITCOM Shpk",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57070,
+  "metadata" : {
+    "handle" : "ITCOM-SHKODER",
+    "description" : "ITCOM Shpk",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.0.16.0/21",
       "185.200.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:bac0::/29"
     ]
   }

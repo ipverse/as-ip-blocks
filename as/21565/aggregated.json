@@ -1,9 +1,12 @@
 {
-  "asn": 21565,
-  "handle": "AS21565",
-  "description": "Horry Telephone Cooperative Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21565,
+  "metadata" : {
+    "handle" : "AS21565",
+    "description" : "Horry Telephone Cooperative Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.138.192.0/22",
       "64.138.196.0/24",
       "64.138.198.0/23",
@@ -135,7 +138,7 @@
       "216.223.220.0/23",
       "216.223.222.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:8400::/32"
     ]
   }

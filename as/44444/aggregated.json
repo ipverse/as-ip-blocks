@@ -1,9 +1,12 @@
 {
-  "asn": 44444,
-  "handle": "FORCEPOINT-CLOUD-AS",
-  "description": "Forcepoint UK Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44444,
+  "metadata" : {
+    "handle" : "FORCEPOINT-CLOUD-AS",
+    "description" : "Forcepoint UK Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.115.32.0/22",
       "85.115.36.0/23",
       "85.115.39.0/24",
@@ -41,7 +44,7 @@
       "204.15.70.0/24",
       "208.87.232.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4010::/32",
       "2400:5e00::/32"
     ]

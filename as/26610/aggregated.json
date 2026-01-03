@@ -1,15 +1,18 @@
 {
-  "asn": 26610,
-  "handle": "UNIVERSIDAD-TECNICA-FEDERICO",
-  "description": "Universidad Tecnica Federico Santa Maria",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26610,
+  "metadata" : {
+    "handle" : "UNIVERSIDAD-TECNICA-FEDERICO",
+    "description" : "Universidad Tecnica Federico Santa Maria",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.83.90.0/24",
       "146.83.92.0/24",
       "200.1.16.0/20",
       "204.87.169.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:270::/32"
     ]
   }

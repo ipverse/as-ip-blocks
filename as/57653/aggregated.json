@@ -1,16 +1,19 @@
 {
-  "asn": 57653,
-  "handle": "CTL-AS",
-  "description": "Central Technology Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57653,
+  "metadata" : {
+    "handle" : "CTL-AS",
+    "description" : "Central Technology Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.149.241.0/24",
       "94.156.96.0/24",
       "94.156.186.0/24",
       "109.69.232.0/21",
       "185.191.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1ba8::/32"
     ]
   }

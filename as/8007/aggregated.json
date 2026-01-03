@@ -1,9 +1,12 @@
 {
-  "asn": 8007,
-  "handle": "SERVICIOS-ADMINISTRADOS-MEXIS",
-  "description": "Servicios Administrados Mexis S.A. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8007,
+  "metadata" : {
+    "handle" : "SERVICIOS-ADMINISTRADOS-MEXIS",
+    "description" : "Servicios Administrados Mexis S.A. de C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.249.64.0/22",
       "207.249.69.0/24",
       "207.249.70.0/23",
@@ -13,6 +16,6 @@
       "207.249.84.0/22",
       "207.249.88.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

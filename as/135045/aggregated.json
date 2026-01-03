@@ -1,11 +1,14 @@
 {
-  "asn": 135045,
-  "handle": "SSRB3-AS-AP",
-  "description": "S.S.R.B Internet Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135045,
+  "metadata" : {
+    "handle" : "SSRB3-AS-AP",
+    "description" : "S.S.R.B Internet Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.101.222.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 135063,
-  "handle": "POPNIXCO-AS-AP",
-  "description": "POP NIX COMPANY LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135063,
+  "metadata" : {
+    "handle" : "POPNIXCO-AS-AP",
+    "description" : "POP NIX COMPANY LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.254.134.0/23",
       "103.208.24.0/23",
       "103.208.26.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:3a80::/32"
     ]
   }

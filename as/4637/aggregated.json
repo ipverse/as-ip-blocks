@@ -1,9 +1,12 @@
 {
-  "asn": 4637,
-  "handle": "ASN-TELSTRA-GLOBAL",
-  "description": "Telstra International Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4637,
+  "metadata" : {
+    "handle" : "ASN-TELSTRA-GLOBAL",
+    "description" : "Telstra International Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.226.185.0/24",
       "31.58.172.0/22",
       "31.59.76.0/23",
@@ -276,7 +279,7 @@
       "220.232.206.0/24",
       "220.232.242.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:cb0::/32",
       "2001:cc8::/31",
       "2403:e800::/32",

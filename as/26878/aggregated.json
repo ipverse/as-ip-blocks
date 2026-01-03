@@ -1,9 +1,12 @@
 {
-  "asn": 26878,
-  "handle": "TWRS-NYC",
-  "description": "Natural Wireless LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26878,
+  "metadata" : {
+    "handle" : "TWRS-NYC",
+    "description" : "Natural Wireless LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.216.20.0/22",
       "69.38.128.0/20",
       "69.38.160.0/20",
@@ -14,7 +17,7 @@
       "174.128.192.0/22",
       "174.128.196.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:f400:1::/48"
     ]
   }

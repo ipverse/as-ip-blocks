@@ -1,12 +1,15 @@
 {
-  "asn": 61266,
-  "handle": "JZD-AS",
-  "description": "Jehovas Zeugen in Deutschland K.d.O.R",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61266,
+  "metadata" : {
+    "handle" : "JZD-AS",
+    "description" : "Jehovas Zeugen in Deutschland K.d.O.R.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.10.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:6940::/32",
       "2a03:6947:300::/40",
       "2a03:6947:400::/39",

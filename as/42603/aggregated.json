@@ -1,11 +1,14 @@
 {
-  "asn": 42603,
-  "handle": "PARKING-SERVIS-AS",
-  "description": "JKP Parking servis Beograd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42603,
+  "metadata" : {
+    "handle" : "PARKING-SERVIS-AS",
+    "description" : "JKP Parking servis Beograd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.199.120.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

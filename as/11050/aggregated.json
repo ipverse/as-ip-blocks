@@ -1,11 +1,14 @@
 {
-  "asn": 11050,
-  "handle": "KENT-STATE",
-  "description": "Kent State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11050,
+  "metadata" : {
+    "handle" : "KENT-STATE",
+    "description" : "Kent State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.123.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

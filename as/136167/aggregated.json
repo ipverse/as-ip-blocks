@@ -1,9 +1,12 @@
 {
-  "asn": 136167,
-  "handle": "CHINATELECOM-AS-AP",
-  "description": "CHINA TELECOM (MACAU) COMPANY LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136167,
+  "metadata" : {
+    "handle" : "CHINATELECOM-AS-AP",
+    "description" : "CHINA TELECOM (MACAU) COMPANY LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.119.64.0/21",
       "103.143.92.0/23",
       "202.75.248.0/22",
@@ -11,7 +14,7 @@
       "203.223.18.0/23",
       "203.223.20.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:900::/48",
       "2001:df6:4f00::/48",
       "2400:9380:80c0::/44",

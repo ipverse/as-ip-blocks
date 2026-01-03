@@ -1,13 +1,16 @@
 {
-  "asn": 199839,
-  "handle": "MIKENETWORKS-AS",
-  "description": "MikeNetworks BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199839,
+  "metadata" : {
+    "handle" : "MIKENETWORKS-AS",
+    "description" : "MikeNetworks BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.180.195.0/24",
       "31.24.249.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:4946:8010::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 63835,
-  "handle": "CT-HUNAN-CHANGSHA-IDC",
-  "description": "No.293 Wanbao Avenue",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63835,
+  "metadata" : {
+    "handle" : "CT-HUNAN-CHANGSHA-IDC",
+    "description" : "No.293 Wanbao Avenue",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.111.200.0/21",
       "113.219.192.0/19",
       "113.219.224.0/21",
@@ -50,7 +53,7 @@
       "203.3.112.0/21",
       "218.76.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:10:800::/37",
       "240e:c0:1800::/37",
       "240e:c2:1800::/37",

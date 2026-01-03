@@ -1,13 +1,16 @@
 {
-  "asn": 31158,
-  "handle": "ASGARD-AS",
-  "description": "Asgard LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31158,
+  "metadata" : {
+    "handle" : "ASGARD-AS",
+    "description" : "Asgard LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.238.9.0/24",
       "91.238.16.0/23",
       "195.225.172.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

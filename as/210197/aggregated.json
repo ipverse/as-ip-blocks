@@ -1,13 +1,16 @@
 {
-  "asn": 210197,
-  "handle": "RESITVE-AS",
-  "description": "ROK TAJZEL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210197,
+  "metadata" : {
+    "handle" : "RESITVE-AS",
+    "description" : "ROK TAJZEL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.30.101.0/24",
       "85.204.38.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:f400::/29"
     ]
   }

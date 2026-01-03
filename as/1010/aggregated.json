@@ -1,12 +1,15 @@
 {
-  "asn": 1010,
-  "handle": "WHT-ASN-01",
-  "description": "Walnut Hill Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1010,
+  "metadata" : {
+    "handle" : "WHT-ASN-01",
+    "description" : "Walnut Hill Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.140.219.0/24",
       "69.57.127.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

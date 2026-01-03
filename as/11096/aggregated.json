@@ -1,9 +1,12 @@
 {
-  "asn": 11096,
-  "handle": "FLORIDANET",
-  "description": "FloridaNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11096,
+  "metadata" : {
+    "handle" : "FLORIDANET",
+    "description" : "FloridaNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "35.128.192.0/22",
       "35.128.196.0/24",
       "35.128.209.0/24",
@@ -26,7 +29,7 @@
       "162.248.70.0/23",
       "169.139.190.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f5d8::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 136171,
-  "handle": "MEDHAHOSTING-AS-AP",
-  "description": "Medha Hosting",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136171,
+  "metadata" : {
+    "handle" : "MEDHAHOSTING-AS-AP",
+    "description" : "Medha Hosting",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.83.36.0/22",
       "103.157.224.0/23",
       "223.26.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8dc0::/32"
     ]
   }

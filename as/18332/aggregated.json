@@ -1,11 +1,14 @@
 {
-  "asn": 18332,
-  "handle": "POSTOPIA-AS",
-  "description": "postopia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18332,
+  "metadata" : {
+    "handle" : "POSTOPIA-AS",
+    "description" : "postopia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "222.232.207.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

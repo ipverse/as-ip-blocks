@@ -1,14 +1,17 @@
 {
-  "asn": 48683,
-  "handle": "BI-LINK-AS",
-  "description": "Bilink LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48683,
+  "metadata" : {
+    "handle" : "BI-LINK-AS",
+    "description" : "Bilink LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "176.104.240.0/21",
       "176.105.0.0/17",
       "213.111.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2534::/48"
     ]
   }

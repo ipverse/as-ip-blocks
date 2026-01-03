@@ -1,9 +1,12 @@
 {
-  "asn": 11042,
-  "handle": "NTHL",
-  "description": "NETWORK TRANSIT HOLDINGS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11042,
+  "metadata" : {
+    "handle" : "NTHL",
+    "description" : "NETWORK TRANSIT HOLDINGS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.247.64.0/21",
       "63.247.72.0/22",
       "63.247.76.0/23",
@@ -97,7 +100,7 @@
       "216.180.242.0/23",
       "216.180.247.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:b900::/34",
       "2604:b900:4000::/36",
       "2604:b900:6000::/35",

@@ -1,15 +1,18 @@
 {
-  "asn": 16301,
-  "handle": "DATACOM-AS",
-  "description": "PJSC Rostelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16301,
+  "metadata" : {
+    "handle" : "DATACOM-AS",
+    "description" : "PJSC Rostelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.81.0.0/17",
       "78.81.192.0/18",
       "84.242.192.0/18",
       "89.252.64.0/18",
       "213.148.160.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

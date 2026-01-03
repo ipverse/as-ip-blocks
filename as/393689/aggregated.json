@@ -1,15 +1,18 @@
 {
-  "asn": 393689,
-  "handle": "NLM-NCCS",
-  "description": "National Library of Medicine",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393689,
+  "metadata" : {
+    "handle" : "NLM-NCCS",
+    "description" : "National Library of Medicine",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.112.6.0/23",
       "165.112.8.0/22",
       "165.112.34.0/23",
       "165.112.140.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f220:41f::/48"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 139462,
-  "handle": "CHINANET-GY-AS",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139462,
+  "metadata" : {
+    "handle" : "CHINANET-GY-AS",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.42.112.0/20",
       "111.123.40.0/21",
       "218.86.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:103:8b20::/44",
       "240e:938:f900::/48",
       "240e:938:f910::/44"

@@ -1,13 +1,16 @@
 {
-  "asn": 18454,
-  "handle": "AUGSBURG",
-  "description": "Augsburg University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18454,
+  "metadata" : {
+    "handle" : "AUGSBURG",
+    "description" : "Augsburg University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.224.0.0/18",
       "141.224.64.0/19",
       "141.224.96.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

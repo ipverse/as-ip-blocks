@@ -1,10 +1,13 @@
 {
-  "asn": 48752,
-  "handle": "LAB2-AS",
-  "description": "Volodymyr Chystiakov",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 48752,
+  "metadata" : {
+    "handle" : "LAB2-AS",
+    "description" : "Volodymyr Chystiakov",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0b:4e07:c::/48",
       "2a0e:b107:118f::/48"
     ]

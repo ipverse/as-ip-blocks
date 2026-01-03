@@ -1,12 +1,15 @@
 {
-  "asn": 14336,
-  "handle": "AS-1148",
-  "description": "eHealth Saskatchewan",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14336,
+  "metadata" : {
+    "handle" : "AS-1148",
+    "description" : "eHealth Saskatchewan",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.169.36.0/22",
       "198.169.40.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

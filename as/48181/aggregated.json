@@ -1,13 +1,16 @@
 {
-  "asn": 48181,
-  "handle": "PROLAN-AS",
-  "description": "Prolan Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48181,
+  "metadata" : {
+    "handle" : "PROLAN-AS",
+    "description" : "Prolan Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.52.0/22",
       "45.154.76.0/22",
       "151.237.48.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 48815,
-  "handle": "CRITICALCASE",
-  "description": "CriticalCase s.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48815,
+  "metadata" : {
+    "handle" : "CRITICALCASE",
+    "description" : "CriticalCase s.r.l",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.104.24.0/24",
       "91.212.167.0/24",
       "109.233.120.0/21",
@@ -22,6 +25,6 @@
       "212.112.91.0/24",
       "212.112.92.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

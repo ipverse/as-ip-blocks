@@ -1,9 +1,12 @@
 {
-  "asn": 63902,
-  "handle": "SHINETEL-AS-TW",
-  "description": "SHINE TELECOM CO. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63902,
+  "metadata" : {
+    "handle" : "SHINETEL-AS-TW",
+    "description" : "SHINE TELECOM CO. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.59.166.0/24",
       "45.150.54.0/23",
       "65.181.181.0/24",
@@ -25,6 +28,6 @@
       "157.254.216.0/24",
       "176.97.205.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

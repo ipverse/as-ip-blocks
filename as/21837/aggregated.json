@@ -1,9 +1,12 @@
 {
-  "asn": 21837,
-  "handle": "OPERASOFTWARE",
-  "description": "Opera Software Americas LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21837,
+  "metadata" : {
+    "handle" : "OPERASOFTWARE",
+    "description" : "Opera Software Americas LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "107.167.96.0/22",
       "107.167.100.0/24",
       "107.167.102.0/23",
@@ -13,7 +16,7 @@
       "107.167.125.0/24",
       "107.167.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:117:c000::/48",
       "2620:117:c004::/48"
     ]

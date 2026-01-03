@@ -1,9 +1,12 @@
 {
-  "asn": 133612,
-  "handle": "VODAFONE-AS-AP",
-  "description": "Vodafone Australia Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133612,
+  "metadata" : {
+    "handle" : "VODAFONE-AS-AP",
+    "description" : "Vodafone Australia Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "101.112.0.0/13",
       "117.102.128.0/19",
       "119.11.0.0/17",
@@ -17,7 +20,7 @@
       "203.21.112.0/21",
       "203.171.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:6e00:200::/40",
       "2405:6e00:400::/40",
       "2405:6e00:600::/40",

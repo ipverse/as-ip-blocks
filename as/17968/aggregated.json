@@ -1,9 +1,12 @@
 {
-  "asn": 17968,
-  "handle": "DQTNET",
-  "description": "Daqing zhongji petroleum telecommunication construction limited cpmpany",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17968,
+  "metadata" : {
+    "handle" : "DQTNET",
+    "description" : "Daqing zhongji petroleum telecommunication construction limited cpmpany",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "60.252.0.0/16",
       "61.47.128.0/18",
       "114.196.0.0/15",
@@ -16,7 +19,7 @@
       "218.246.160.0/19",
       "219.235.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:fe00::/32"
     ]
   }

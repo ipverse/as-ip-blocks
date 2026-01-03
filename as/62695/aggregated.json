@@ -1,9 +1,12 @@
 {
-  "asn": 62695,
-  "handle": "VERSO-NETWORKS",
-  "description": "Verso Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62695,
+  "metadata" : {
+    "handle" : "VERSO-NETWORKS",
+    "description" : "Verso Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.97.198.0/23",
       "38.109.210.0/23",
       "104.232.9.0/24",
@@ -14,7 +17,7 @@
       "192.154.0.0/24",
       "208.64.32.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:f880::/32"
     ]
   }

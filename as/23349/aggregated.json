@@ -1,9 +1,12 @@
 {
-  "asn": 23349,
-  "handle": "FARMERS-NETWORK-WEST",
-  "description": "Farmers Group Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23349,
+  "metadata" : {
+    "handle" : "FARMERS-NETWORK-WEST",
+    "description" : "Farmers Group Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.14.152.0/24",
       "12.14.157.0/24",
       "12.190.98.0/24",
@@ -20,6 +23,6 @@
       "206.252.77.0/24",
       "206.252.78.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

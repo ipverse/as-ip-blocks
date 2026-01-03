@@ -1,14 +1,17 @@
 {
-  "asn": 14525,
-  "handle": "STELLAR-AF",
-  "description": "Stellar Technologies LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14525,
+  "metadata" : {
+    "handle" : "STELLAR-AF",
+    "description" : "Stellar Technologies LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.22.120.0/23",
       "199.34.92.0/22",
       "216.250.230.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:c0c0::/32"
     ]
   }

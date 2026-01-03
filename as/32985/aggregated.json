@@ -1,11 +1,14 @@
 {
-  "asn": 32985,
-  "handle": "FSS-COMCAST-ASN01",
-  "description": "Follett Content",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32985,
+  "metadata" : {
+    "handle" : "FSS-COMCAST-ASN01",
+    "description" : "Follett Content",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.223.178.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

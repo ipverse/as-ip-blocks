@@ -1,12 +1,15 @@
 {
-  "asn": 140069,
-  "handle": "DTO-CML-AS-AP",
-  "description": "Dream Touch Online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140069,
+  "metadata" : {
+    "handle" : "DTO-CML-AS-AP",
+    "description" : "Dream Touch Online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.148.12.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:adc0::/48"
     ]
   }

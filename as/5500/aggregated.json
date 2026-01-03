@@ -1,9 +1,12 @@
 {
-  "asn": 5500,
-  "handle": "CHESS",
-  "description": "Chess ICT Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5500,
+  "metadata" : {
+    "handle" : "CHESS",
+    "description" : "Chess ICT Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.153.153.0/24",
       "193.93.203.0/24",
       "193.108.218.0/24",
@@ -13,7 +16,7 @@
       "195.206.192.0/19",
       "217.22.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1160::/29",
       "2a02:56c0::/32",
       "2a05:aa40::/29"

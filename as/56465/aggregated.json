@@ -1,9 +1,12 @@
 {
-  "asn": 56465,
-  "handle": "THERECOMLTD",
-  "description": "Therecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56465,
+  "metadata" : {
+    "handle" : "THERECOMLTD",
+    "description" : "Therecom Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.128.172.0/24",
       "31.128.174.0/23",
       "31.128.182.0/24",
@@ -14,7 +17,7 @@
       "146.120.95.0/24",
       "195.140.224.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:29c1::/32"
     ]
   }

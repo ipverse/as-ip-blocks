@@ -1,9 +1,12 @@
 {
-  "asn": 4775,
-  "handle": "GLOBE-TELECOM-AS",
-  "description": "Globe Telecom (GMCR INC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4775,
+  "metadata" : {
+    "handle" : "GLOBE-TELECOM-AS",
+    "description" : "Globe Telecom (GMCR INC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.37.0.0/16",
       "23.8.192.0/20",
       "23.41.224.0/20",
@@ -55,7 +58,7 @@
       "216.247.80.0/20",
       "222.127.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:fd8::/32",
       "2001:fe0::/32"
     ]

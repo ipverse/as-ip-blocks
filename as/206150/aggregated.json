@@ -1,9 +1,12 @@
 {
-  "asn": 206150,
-  "handle": "CUBEFOCUS-AS",
-  "description": "F.N.S. HOLDINGS LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206150,
+  "metadata" : {
+    "handle" : "CUBEFOCUS-AS",
+    "description" : "F.N.S. HOLDINGS LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.89.21.0/24",
       "45.90.84.0/24",
       "45.130.82.0/24",
@@ -54,7 +57,7 @@
       "212.30.35.0/24",
       "217.114.39.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:4e80::/30",
       "2a0a:4e85::/32",
       "2a0a:4e86::/31",

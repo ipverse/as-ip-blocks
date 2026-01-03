@@ -1,10 +1,13 @@
 {
-  "asn": 213543,
-  "handle": "JONES-LAB",
-  "description": "Alexander Jones",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 213543,
+  "metadata" : {
+    "handle" : "JONES-LAB",
+    "description" : "Alexander Jones",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0f:85c1:b4e::/48"
     ]
   }

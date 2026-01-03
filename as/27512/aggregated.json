@@ -1,12 +1,15 @@
 {
-  "asn": 27512,
-  "handle": "STATERI",
-  "description": "State of Rhode Island",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27512,
+  "metadata" : {
+    "handle" : "STATERI",
+    "description" : "State of Rhode Island",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.123.0.0/17",
       "204.139.0.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

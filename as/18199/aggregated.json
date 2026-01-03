@@ -1,13 +1,16 @@
 {
-  "asn": 18199,
-  "handle": "WSL-AS-AP",
-  "description": "Worldnet Services Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18199,
+  "metadata" : {
+    "handle" : "WSL-AS-AP",
+    "description" : "Worldnet Services Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.50.240.0/24",
       "202.169.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:de00::/32"
     ]
   }

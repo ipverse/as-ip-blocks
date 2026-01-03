@@ -1,14 +1,17 @@
 {
-  "asn": 31867,
-  "handle": "SCHWARTZNET",
-  "description": "Schwartz Networks Limited Liability Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31867,
+  "metadata" : {
+    "handle" : "SCHWARTZNET",
+    "description" : "Schwartz Networks Limited Liability Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.149.192.0/24",
       "74.113.98.0/24",
       "162.213.130.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:7c40::/36"
     ]
   }

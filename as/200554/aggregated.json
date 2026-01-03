@@ -1,9 +1,12 @@
 {
-  "asn": 200554,
-  "handle": "KIMIACLOUD-AS",
-  "description": "Dade Pardaz Kimia Pouyesh PJS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200554,
+  "metadata" : {
+    "handle" : "KIMIACLOUD-AS",
+    "description" : "Dade Pardaz Kimia Pouyesh PJS.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.160.10.0/24",
       "5.160.196.0/24",
       "81.12.39.0/24",
@@ -11,6 +14,6 @@
       "85.133.170.0/24",
       "185.41.0.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

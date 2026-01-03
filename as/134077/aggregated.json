@@ -1,12 +1,15 @@
 {
-  "asn": 134077,
-  "handle": "TII-AS-AP",
-  "description": "PT Telkom Infrastruktur Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134077,
+  "metadata" : {
+    "handle" : "TII-AS-AP",
+    "description" : "PT Telkom Infrastruktur Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.252.140.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:3760::/32"
     ]
   }

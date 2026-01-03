@@ -1,9 +1,12 @@
 {
-  "asn": 62044,
-  "handle": "ZSCALER-EMEA",
-  "description": "Zscaler Switzerland GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62044,
+  "metadata" : {
+    "handle" : "ZSCALER-EMEA",
+    "description" : "Zscaler Switzerland GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.58.66.0/23",
       "87.58.68.0/22",
       "87.58.72.0/21",
@@ -163,7 +166,7 @@
       "209.55.218.0/24",
       "213.152.228.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:eec0:1200::/39",
       "2a03:eec0:1400::/38",
       "2a03:eec0:1800::/37",

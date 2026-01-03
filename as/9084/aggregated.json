@@ -1,9 +1,12 @@
 {
-  "asn": 9084,
-  "handle": "GSI-AS",
-  "description": "Goldman Sachs International",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9084,
+  "metadata" : {
+    "handle" : "GSI-AS",
+    "description" : "Goldman Sachs International",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.1.167.0/24",
       "154.1.168.0/23",
       "154.1.170.0/24",
@@ -18,6 +21,6 @@
       "204.4.170.0/24",
       "204.4.175.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

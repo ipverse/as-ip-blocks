@@ -1,11 +1,14 @@
 {
-  "asn": 140910,
-  "handle": "OZOT-AS-AP",
-  "description": "Ozot",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140910,
+  "metadata" : {
+    "handle" : "OZOT-AS-AP",
+    "description" : "Ozot",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.153.90.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

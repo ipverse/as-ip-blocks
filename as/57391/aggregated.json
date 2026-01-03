@@ -1,9 +1,12 @@
 {
-  "asn": 57391,
-  "handle": "LASER-IDC",
-  "description": "Laser Company Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57391,
+  "metadata" : {
+    "handle" : "LASER-IDC",
+    "description" : "Laser Company Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.140.28.0/23",
       "88.135.41.0/24",
       "88.135.42.0/23",
@@ -11,6 +14,6 @@
       "109.162.254.0/23",
       "185.233.14.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

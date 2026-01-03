@@ -1,12 +1,15 @@
 {
-  "asn": 269285,
-  "handle": "PRONETECH-FIBRA",
-  "description": "Pronetech Fibra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269285,
+  "metadata" : {
+    "handle" : "PRONETECH-FIBRA",
+    "description" : "Pronetech Fibra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.182.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:623c::/32"
     ]
   }

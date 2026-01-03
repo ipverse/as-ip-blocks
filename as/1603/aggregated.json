@@ -1,13 +1,16 @@
 {
-  "asn": 1603,
-  "handle": "HSU-AS",
-  "description": "Henderson State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1603,
+  "metadata" : {
+    "handle" : "HSU-AS",
+    "description" : "Henderson State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.101.185.0/24",
       "198.16.16.0/21",
       "198.16.24.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

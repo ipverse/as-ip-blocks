@@ -1,11 +1,14 @@
 {
-  "asn": 393492,
-  "handle": "DIGALERT",
-  "description": "Underground Service Alert of Southern California",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393492,
+  "metadata" : {
+    "handle" : "DIGALERT",
+    "description" : "Underground Service Alert of Southern California",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.169.62.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

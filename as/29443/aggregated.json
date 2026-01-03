@@ -1,12 +1,15 @@
 {
-  "asn": 29443,
-  "handle": "MEGATC-AS",
-  "description": "PP Technical Company Mega",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29443,
+  "metadata" : {
+    "handle" : "MEGATC-AS",
+    "description" : "PP Technical Company Mega",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.202.0.0/22",
       "176.107.88.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

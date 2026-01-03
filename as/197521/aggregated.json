@@ -1,12 +1,15 @@
 {
-  "asn": 197521,
-  "handle": "SPAN-AS",
-  "description": "SPAN d.d",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197521,
+  "metadata" : {
+    "handle" : "SPAN-AS",
+    "description" : "SPAN d.d.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.20.153.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:16e4::/48"
     ]
   }

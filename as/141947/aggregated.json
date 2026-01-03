@@ -1,12 +1,15 @@
 {
-  "asn": 141947,
-  "handle": "IDNIC-LHOST-AS-ID",
-  "description": "PT Loveika Host Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141947,
+  "metadata" : {
+    "handle" : "IDNIC-LHOST-AS-ID",
+    "description" : "PT Loveika Host Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.166.124.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:6c0::/48"
     ]
   }

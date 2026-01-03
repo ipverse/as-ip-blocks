@@ -1,9 +1,12 @@
 {
-  "asn": 26425,
-  "handle": "EXELON-CORPORATION",
-  "description": "Exelon Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26425,
+  "metadata" : {
+    "handle" : "EXELON-CORPORATION",
+    "description" : "Exelon Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.214.124.0/24",
       "198.29.128.0/19",
       "198.29.160.0/20",
@@ -14,6 +17,6 @@
       "198.29.224.0/20",
       "198.29.252.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

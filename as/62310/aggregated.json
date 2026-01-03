@@ -1,12 +1,15 @@
 {
-  "asn": 62310,
-  "handle": "MH-DC-AS",
-  "description": "axilaris GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62310,
+  "metadata" : {
+    "handle" : "MH-DC-AS",
+    "description" : "axilaris GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.220.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2878:8000::/34"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 8193,
-  "handle": "BRM-AS",
-  "description": "Uzbektelekom Joint Stock Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8193,
+  "metadata" : {
+    "handle" : "BRM-AS",
+    "description" : "Uzbektelekom Joint Stock Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.133.120.0/22",
       "45.150.24.0/22",
       "83.222.6.0/23",
@@ -33,7 +36,7 @@
       "213.206.60.0/22",
       "213.230.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:45c0::/31",
       "2a05:45c2::/33",
       "2a05:45c2:8000::/36",

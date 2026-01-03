@@ -1,12 +1,15 @@
 {
-  "asn": 264328,
-  "handle": "ECLIPSE-TELECOM",
-  "description": "Eclipse Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264328,
+  "metadata" : {
+    "handle" : "ECLIPSE-TELECOM",
+    "description" : "Eclipse Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.122.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2658::/32"
     ]
   }

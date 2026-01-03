@@ -1,9 +1,12 @@
 {
-  "asn": 15868,
-  "handle": "NALTEL-AS",
-  "description": "Nalchik-Telecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15868,
+  "metadata" : {
+    "handle" : "NALTEL-AS",
+    "description" : "Nalchik-Telecom Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.248.176.0/20",
       "109.248.192.0/22",
       "109.248.220.0/23",
@@ -12,6 +15,6 @@
       "194.28.72.0/22",
       "213.222.228.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

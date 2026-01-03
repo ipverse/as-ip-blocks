@@ -1,14 +1,17 @@
 {
-  "asn": 63331,
-  "handle": "LBL-2",
-  "description": "Lawrence Berkeley National Laboratory",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63331,
+  "metadata" : {
+    "handle" : "LBL-2",
+    "description" : "Lawrence Berkeley National Laboratory",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.12.173.0/24",
       "192.58.231.0/24",
       "204.62.155.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:83:8004::/47"
     ]
   }

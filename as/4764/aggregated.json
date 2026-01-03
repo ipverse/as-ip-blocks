@@ -1,9 +1,12 @@
 {
-  "asn": 4764,
-  "handle": "WIDEBAND-AS-AP",
-  "description": "Wideband Networks Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4764,
+  "metadata" : {
+    "handle" : "WIDEBAND-AS-AP",
+    "description" : "Wideband Networks Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.31.39.0/24",
       "44.31.123.0/24",
       "44.31.226.0/24",
@@ -63,7 +66,7 @@
       "203.129.16.0/20",
       "216.151.45.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:201::/48",
       "2400:3120::/36",
       "2403:5800::/27",

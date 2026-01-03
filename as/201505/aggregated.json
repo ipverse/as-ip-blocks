@@ -1,15 +1,18 @@
 {
-  "asn": 201505,
-  "handle": "AFAADK",
-  "description": "Antenneforeningen Aarhus",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201505,
+  "metadata" : {
+    "handle" : "AFAADK",
+    "description" : "Antenneforeningen Aarhus",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.48.60.0/22",
       "86.58.216.0/21",
       "92.43.76.0/22",
       "185.187.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:2540::/29"
     ]
   }

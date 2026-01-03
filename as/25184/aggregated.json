@@ -1,9 +1,12 @@
 {
-  "asn": 25184,
-  "handle": "AFRANET",
-  "description": "Afranet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25184,
+  "metadata" : {
+    "handle" : "AFRANET",
+    "description" : "Afranet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.14.112.0/20",
       "31.47.32.0/19",
       "46.38.144.0/24",
@@ -18,7 +21,7 @@
       "185.3.126.0/23",
       "217.11.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:4680::/29"
     ]
   }

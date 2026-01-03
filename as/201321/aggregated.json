@@ -1,12 +1,15 @@
 {
-  "asn": 201321,
-  "handle": "ITQS",
-  "description": "ITQS IKE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201321,
+  "metadata" : {
+    "handle" : "ITQS",
+    "description" : "ITQS IKE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.43.75.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:5a07:ff::/48"
     ]
   }

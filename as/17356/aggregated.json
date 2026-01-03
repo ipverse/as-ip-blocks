@@ -1,15 +1,18 @@
 {
-  "asn": 17356,
-  "handle": "VERMONT-TELE",
-  "description": "Vermont Telephone Company Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17356,
+  "metadata" : {
+    "handle" : "VERMONT-TELE",
+    "description" : "Vermont Telephone Company Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.220.224.0/19",
       "173.195.240.0/20",
       "209.134.32.0/20",
       "216.66.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:ffc8::/32"
     ]
   }

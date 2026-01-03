@@ -1,12 +1,15 @@
 {
-  "asn": 146972,
-  "handle": "TEC-JP-NET",
-  "description": "TOYO Engineering Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 146972,
+  "metadata" : {
+    "handle" : "TEC-JP-NET",
+    "description" : "TOYO Engineering Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.175.36.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:ea80::/48"
     ]
   }

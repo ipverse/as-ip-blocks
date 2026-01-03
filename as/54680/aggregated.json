@@ -1,14 +1,17 @@
 {
-  "asn": 54680,
-  "handle": "HPINC",
-  "description": "HP Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54680,
+  "metadata" : {
+    "handle" : "HPINC",
+    "description" : "HP Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "15.72.24.0/24",
       "15.72.32.0/23",
       "15.72.64.0/18",
       "15.73.128.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

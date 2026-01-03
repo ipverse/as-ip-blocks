@@ -1,9 +1,12 @@
 {
-  "asn": 400464,
-  "handle": "VMISS",
-  "description": "VMISS Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400464,
+  "metadata" : {
+    "handle" : "VMISS",
+    "description" : "VMISS Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.47.96.0/22",
       "38.47.104.0/23",
       "38.47.109.0/24",
@@ -14,6 +17,6 @@
       "167.88.186.0/24",
       "206.237.120.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

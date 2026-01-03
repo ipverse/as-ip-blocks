@@ -1,9 +1,12 @@
 {
-  "asn": 5511,
-  "handle": "OPENTRANSIT",
-  "description": "Orange S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5511,
+  "metadata" : {
+    "handle" : "OPENTRANSIT",
+    "description" : "Orange S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.180.84.0/22",
       "5.181.114.0/24",
       "5.183.226.0/24",
@@ -459,7 +462,7 @@
       "217.74.16.0/24",
       "217.119.142.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:688::/32",
       "2602:f692:a::/48",
       "2a03:ec41:4::/48",

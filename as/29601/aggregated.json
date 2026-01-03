@@ -1,9 +1,12 @@
 {
-  "asn": 29601,
-  "handle": "UPM-KYMMENE-AS",
-  "description": "UPM-Kymmene Oyj",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29601,
+  "metadata" : {
+    "handle" : "UPM-KYMMENE-AS",
+    "description" : "UPM-Kymmene Oyj",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.123.224.0/24",
       "141.172.0.0/16",
       "192.130.31.0/24",
@@ -17,6 +20,6 @@
       "193.24.70.0/23",
       "194.252.225.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

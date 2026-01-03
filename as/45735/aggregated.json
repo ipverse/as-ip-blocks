@@ -1,12 +1,15 @@
 {
-  "asn": 45735,
-  "handle": "UNINET-NAP-AS-ID",
-  "description": "PT. UNINET MEDIA SAKTI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45735,
+  "metadata" : {
+    "handle" : "UNINET-NAP-AS-ID",
+    "description" : "PT. UNINET MEDIA SAKTI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.151.162.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:1b40::/32"
     ]
   }

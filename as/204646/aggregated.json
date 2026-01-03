@@ -1,9 +1,12 @@
 {
-  "asn": 204646,
-  "handle": "W2O-PRIVATE-CUSTOMER-ASN",
-  "description": "web2objects GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204646,
+  "metadata" : {
+    "handle" : "W2O-PRIVATE-CUSTOMER-ASN",
+    "description" : "web2objects GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.12.0/23",
       "5.183.92.0/23",
       "5.253.240.0/22",
@@ -39,7 +42,7 @@
       "195.234.99.0/24",
       "212.103.42.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:6440::/29",
       "2a0d:2080::/29"
     ]

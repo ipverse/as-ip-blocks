@@ -1,11 +1,14 @@
 {
-  "asn": 4016,
-  "handle": "LANE-COUNTY-OR-GOV",
-  "description": "Lane County",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4016,
+  "metadata" : {
+    "handle" : "LANE-COUNTY-OR-GOV",
+    "description" : "Lane County",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.79.32.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

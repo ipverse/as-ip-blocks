@@ -1,9 +1,12 @@
 {
-  "asn": 37473,
-  "handle": "TELESOM",
-  "description": "Telesom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37473,
+  "metadata" : {
+    "handle" : "TELESOM",
+    "description" : "Telesom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.115.200.0/23",
       "154.115.202.0/24",
       "154.115.204.0/23",
@@ -23,7 +26,7 @@
       "197.157.244.0/23",
       "197.157.246.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f710::/32"
     ]
   }

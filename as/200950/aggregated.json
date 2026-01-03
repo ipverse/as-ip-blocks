@@ -1,14 +1,17 @@
 {
-  "asn": 200950,
-  "handle": "CALIBOURNETWORK",
-  "description": "Lyratris Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200950,
+  "metadata" : {
+    "handle" : "CALIBOURNETWORK",
+    "description" : "Lyratris Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.86.153.0/24",
       "151.244.142.0/23",
       "194.231.218.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:1281:70::/44",
       "2a0f:85c1:8d0::/44",
       "2a10:ccc0:100::/44",

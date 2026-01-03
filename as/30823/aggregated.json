@@ -1,9 +1,12 @@
 {
-  "asn": 30823,
-  "handle": "AUROLOGIC",
-  "description": "aurologic GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30823,
+  "metadata" : {
+    "handle" : "AUROLOGIC",
+    "description" : "aurologic GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.216.188.0/24",
       "45.11.16.0/22",
       "45.59.112.0/24",
@@ -22,7 +25,7 @@
       "216.126.229.0/24",
       "216.126.230.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fa59::/40",
       "2a01:367::/32",
       "2a09:38c0::/29",

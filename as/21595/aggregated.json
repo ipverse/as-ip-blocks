@@ -1,9 +1,12 @@
 {
-  "asn": 21595,
-  "handle": "BAXTER",
-  "description": "Baxter Healthcare",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21595,
+  "metadata" : {
+    "handle" : "BAXTER",
+    "description" : "Baxter Healthcare",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.198.195.0/24",
       "167.83.116.0/22",
       "167.83.121.0/24",
@@ -35,6 +38,6 @@
       "198.89.220.0/22",
       "198.89.224.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

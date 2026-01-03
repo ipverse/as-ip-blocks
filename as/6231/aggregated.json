@@ -1,14 +1,17 @@
 {
-  "asn": 6231,
-  "handle": "SCANA",
-  "description": "Dominion Virginia Power",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6231,
+  "metadata" : {
+    "handle" : "SCANA",
+    "description" : "Dominion Virginia Power",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.83.137.0/24",
       "65.111.140.0/24",
       "65.111.142.0/23",
       "192.152.200.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 25896,
-  "handle": "IPC-NETWORK-SERVICES-INC",
-  "description": "IPC Network Services Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25896,
+  "metadata" : {
+    "handle" : "IPC-NETWORK-SERVICES-INC",
+    "description" : "IPC Network Services Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.244.37.0/24",
       "103.202.210.0/23",
       "104.254.177.0/24",
@@ -11,6 +14,6 @@
       "122.128.88.0/24",
       "195.189.12.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

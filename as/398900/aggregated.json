@@ -1,12 +1,15 @@
 {
-  "asn": 398900,
-  "handle": "RENCI-FABRIC",
-  "description": "University of North Carolina at Chapel Hill",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398900,
+  "metadata" : {
+    "handle" : "RENCI-FABRIC",
+    "description" : "University of North Carolina at Chapel Hill",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.134.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fcfb::/36"
     ]
   }

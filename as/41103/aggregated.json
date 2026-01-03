@@ -1,13 +1,16 @@
 {
-  "asn": 41103,
-  "handle": "CLEARIP-AS",
-  "description": "teleBIZZ Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41103,
+  "metadata" : {
+    "handle" : "CLEARIP-AS",
+    "description" : "teleBIZZ Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.91.100.0/22",
       "195.95.187.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:15f4::/48",
       "2a03:8920::/32"
     ]

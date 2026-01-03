@@ -1,12 +1,15 @@
 {
-  "asn": 62184,
-  "handle": "MNO-AS",
-  "description": "Michal Nowak",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62184,
+  "metadata" : {
+    "handle" : "MNO-AS",
+    "description" : "Michal Nowak",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.12.0.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:f40::/48"
     ]
   }

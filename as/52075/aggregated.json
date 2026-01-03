@@ -1,14 +1,17 @@
 {
-  "asn": 52075,
-  "handle": "WIFIRST",
-  "description": "Wifirst S.A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52075,
+  "metadata" : {
+    "handle" : "WIFIRST",
+    "description" : "Wifirst S.A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.81.196.0/22",
       "46.192.0.0/15",
       "193.30.111.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7c00::/29"
     ]
   }

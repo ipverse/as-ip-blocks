@@ -1,13 +1,16 @@
 {
-  "asn": 26549,
-  "handle": "MY-PBX-MANAGER",
-  "description": "The Flat Planet Phone Company Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26549,
+  "metadata" : {
+    "handle" : "MY-PBX-MANAGER",
+    "description" : "The Flat Planet Phone Company Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.159.31.0/24",
       "204.145.219.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:48:c002::/47"
     ]
   }

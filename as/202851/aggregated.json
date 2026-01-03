@@ -1,12 +1,15 @@
 {
-  "asn": 202851,
-  "handle": "RACKSPEED-AS",
-  "description": "rackSPEED GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202851,
+  "metadata" : {
+    "handle" : "RACKSPEED-AS",
+    "description" : "rackSPEED GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.172.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:2300::/32"
     ]
   }

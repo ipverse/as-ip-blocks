@@ -1,9 +1,12 @@
 {
-  "asn": 17675,
-  "handle": "AS-PNAPTOK",
-  "description": "PacketFabric (Japan) Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17675,
+  "metadata" : {
+    "handle" : "AS-PNAPTOK",
+    "description" : "PacketFabric (Japan) Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.211.160.0/20",
       "122.200.36.0/22",
       "203.169.8.0/21",
@@ -13,7 +16,7 @@
       "219.96.96.0/19",
       "219.113.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:e800::/32"
     ]
   }

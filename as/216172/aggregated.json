@@ -1,12 +1,15 @@
 {
-  "asn": 216172,
-  "handle": "IT-PEGASO",
-  "description": "Pegaso Srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216172,
+  "metadata" : {
+    "handle" : "IT-PEGASO",
+    "description" : "Pegaso Srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.30.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:9e60::/32"
     ]
   }

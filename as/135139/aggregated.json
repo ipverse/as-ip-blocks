@@ -1,9 +1,12 @@
 {
-  "asn": 135139,
-  "handle": "SKYNTPL-AS-AP",
-  "description": "SKYLINK NETWORKS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135139,
+  "metadata" : {
+    "handle" : "SKYNTPL-AS-AP",
+    "description" : "SKYLINK NETWORKS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.99.148.0/22",
       "103.114.208.0/22",
       "103.130.88.0/22",
@@ -20,7 +23,7 @@
       "103.187.62.0/24",
       "103.191.138.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:d540::/32"
     ]
   }

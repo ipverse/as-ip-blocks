@@ -1,13 +1,16 @@
 {
-  "asn": 27441,
-  "handle": "SSN-US",
-  "description": "ITRON INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27441,
+  "metadata" : {
+    "handle" : "SSN-US",
+    "description" : "ITRON INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.121.16.0/23",
       "74.121.20.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:10::/48"
     ]
   }

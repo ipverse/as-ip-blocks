@@ -1,14 +1,17 @@
 {
-  "asn": 210612,
-  "handle": "ASTEO-RED-NEUTRA",
-  "description": "Asteo Red Neutra SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210612,
+  "metadata" : {
+    "handle" : "ASTEO-RED-NEUTRA",
+    "description" : "Asteo Red Neutra SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.246.61.0/24",
       "103.68.32.0/24",
       "149.36.237.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:c040::/29"
     ]
   }

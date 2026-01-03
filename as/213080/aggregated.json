@@ -1,14 +1,17 @@
 {
-  "asn": 213080,
-  "handle": "GESPAG",
-  "description": "Oberoesterreichische Gesundheitsholding GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213080,
+  "metadata" : {
+    "handle" : "GESPAG",
+    "description" : "Oberoesterreichische Gesundheitsholding GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.186.45.0/24",
       "193.186.46.0/23",
       "193.186.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:c58::/48"
     ]
   }

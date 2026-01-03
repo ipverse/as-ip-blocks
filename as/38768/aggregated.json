@@ -1,13 +1,16 @@
 {
-  "asn": 38768,
-  "handle": "PLATINUM-AS-ID",
-  "description": "PT. Platinum Network Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38768,
+  "metadata" : {
+    "handle" : "PLATINUM-AS-ID",
+    "description" : "PT. Platinum Network Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.234.216.0/24",
       "103.234.218.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:3e80::/32"
     ]
   }

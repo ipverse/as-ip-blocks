@@ -1,9 +1,12 @@
 {
-  "asn": 14187,
-  "handle": "SENCINET-LATAM-COLOMBIA",
-  "description": "SENCINET LATAM COLOMBIA S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14187,
+  "metadata" : {
+    "handle" : "SENCINET-LATAM-COLOMBIA",
+    "description" : "SENCINET LATAM COLOMBIA S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.47.156.0/23",
       "200.47.158.0/24",
       "200.47.170.0/23",
@@ -25,7 +28,7 @@
       "201.220.44.0/22",
       "201.220.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:24::/32",
       "2800:1d0::/32"
     ]

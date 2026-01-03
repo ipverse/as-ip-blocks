@@ -1,9 +1,12 @@
 {
-  "asn": 21453,
-  "handle": "FLEX-AS",
-  "description": "Flex Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21453,
+  "metadata" : {
+    "handle" : "FLEX-AS",
+    "description" : "Flex Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.31.64.0/21",
       "80.84.112.0/20",
       "80.252.128.0/19",
@@ -15,7 +18,7 @@
       "185.5.148.0/22",
       "212.7.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:4200::/30"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 23341,
-  "handle": "FITAS",
-  "description": "Fashion Institute of Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23341,
+  "metadata" : {
+    "handle" : "FITAS",
+    "description" : "Fashion Institute of Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.55.3.0/24",
       "143.55.4.0/22",
       "143.55.8.0/24",
@@ -14,6 +17,6 @@
       "143.55.156.0/22",
       "143.55.160.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

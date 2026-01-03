@@ -1,9 +1,12 @@
 {
-  "asn": 26512,
-  "handle": "BMSL-2-ARIN",
-  "description": "Single Point Global Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26512,
+  "metadata" : {
+    "handle" : "BMSL-2-ARIN",
+    "description" : "Single Point Global Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.244.16.0/23",
       "104.244.19.0/24",
       "162.221.24.0/22",
@@ -13,7 +16,7 @@
       "199.47.96.0/21",
       "199.119.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:6500::/48"
     ]
   }

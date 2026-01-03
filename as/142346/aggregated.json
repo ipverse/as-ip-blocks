@@ -1,12 +1,15 @@
 {
-  "asn": 142346,
-  "handle": "IDNIC-BUMIMANUSIA-AS-ID",
-  "description": "PT Bumi Manusia Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142346,
+  "metadata" : {
+    "handle" : "IDNIC-BUMIMANUSIA-AS-ID",
+    "description" : "PT Bumi Manusia Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.169.8.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:cc40::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 396936,
-  "handle": "HTH2",
-  "description": "HTH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396936,
+  "metadata" : {
+    "handle" : "HTH2",
+    "description" : "HTH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.109.49.0/24",
       "204.109.50.0/24",
       "207.150.224.0/24",
@@ -13,6 +16,6 @@
       "209.51.19.0/24",
       "209.51.22.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 150692,
-  "handle": "GD2CL-AS-AP",
-  "description": "Dragon Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150692,
+  "metadata" : {
+    "handle" : "GD2CL-AS-AP",
+    "description" : "Dragon Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.59.162.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:cea0:c000::/34"
     ]
   }

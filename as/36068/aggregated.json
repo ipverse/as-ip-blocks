@@ -1,15 +1,18 @@
 {
-  "asn": 36068,
-  "handle": "APPDIRECT",
-  "description": "AppDirect",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36068,
+  "metadata" : {
+    "handle" : "APPDIRECT",
+    "description" : "AppDirect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "173.241.32.0/22",
       "173.241.36.0/24",
       "173.241.40.0/23",
       "173.241.43.0/24",
       "173.241.45.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

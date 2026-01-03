@@ -1,14 +1,17 @@
 {
-  "asn": 198631,
-  "handle": "REGIONH-AS",
-  "description": "Region Hovedstaden",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198631,
+  "metadata" : {
+    "handle" : "REGIONH-AS",
+    "description" : "Region Hovedstaden",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.0.72.0/22",
       "128.0.76.0/23",
       "128.0.78.0/24",
       "185.211.204.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

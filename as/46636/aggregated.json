@@ -1,9 +1,12 @@
 {
-  "asn": 46636,
-  "handle": "NATCOWEB",
-  "description": "NatCoWeb Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46636,
+  "metadata" : {
+    "handle" : "NATCOWEB",
+    "description" : "NatCoWeb Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.2.108.0/22",
       "80.77.80.0/20",
       "88.214.192.0/20",
@@ -15,7 +18,7 @@
       "185.201.83.0/24",
       "204.62.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:4500::/32"
     ]
   }

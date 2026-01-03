@@ -1,13 +1,16 @@
 {
-  "asn": 150004,
-  "handle": "CTGPL-AS-AP",
-  "description": "Check Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150004,
+  "metadata" : {
+    "handle" : "CTGPL-AS-AP",
+    "description" : "Check Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.190.128.0/23",
       "151.242.108.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:9060::/32"
     ]
   }

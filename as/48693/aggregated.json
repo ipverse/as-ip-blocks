@@ -1,9 +1,12 @@
 {
-  "asn": 48693,
-  "handle": "NTSERVICE-AS",
-  "description": "Rices Privately owned enterprise",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48693,
+  "metadata" : {
+    "handle" : "NTSERVICE-AS",
+    "description" : "Rices Privately owned enterprise",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.243.96.0/24",
       "185.243.98.0/23",
       "185.248.168.0/24",
@@ -11,6 +14,6 @@
       "194.40.243.0/24",
       "194.145.227.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

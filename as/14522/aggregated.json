@@ -1,9 +1,12 @@
 {
-  "asn": 14522,
-  "handle": "SERVICIOS-TELECOMUNICACIONES-SETEL",
-  "description": "SERVICIOS DE TELECOMUNICACIONES SETEL S.A. (XTRIM EC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14522,
+  "metadata" : {
+    "handle" : "SERVICIOS-TELECOMUNICACIONES-SETEL",
+    "description" : "SERVICIOS DE TELECOMUNICACIONES SETEL S.A. (XTRIM EC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.209.96.0/22",
       "181.175.0.0/16",
       "186.66.0.0/16",
@@ -15,7 +18,7 @@
       "200.69.160.0/19",
       "201.217.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:9a0::/29"
     ]
   }

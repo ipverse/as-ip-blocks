@@ -1,9 +1,12 @@
 {
-  "asn": 62731,
-  "handle": "247RACK",
-  "description": "247RACK.com",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62731,
+  "metadata" : {
+    "handle" : "247RACK",
+    "description" : "247RACK.com",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.148.1.0/24",
       "23.148.3.0/24",
       "104.218.120.0/22",
@@ -15,7 +18,7 @@
       "192.31.134.0/24",
       "199.26.183.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd5d:100::/40",
       "2602:ffa6:300::/40",
       "2602:ffa6:500::/40",

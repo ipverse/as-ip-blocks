@@ -1,12 +1,15 @@
 {
-  "asn": 264949,
-  "handle": "REAL-LINK-PROVEDOR",
-  "description": "REAL LINK PROVEDOR DE INTERNET EIRELI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264949,
+  "metadata" : {
+    "handle" : "REAL-LINK-PROVEDOR",
+    "description" : "REAL LINK PROVEDOR DE INTERNET EIRELI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.232.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3068::/32"
     ]
   }

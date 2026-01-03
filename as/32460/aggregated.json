@@ -1,12 +1,15 @@
 {
-  "asn": 32460,
-  "handle": "COPS-MONITORING",
-  "description": "C.O.P.S. Monitoring",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32460,
+  "metadata" : {
+    "handle" : "COPS-MONITORING",
+    "description" : "C.O.P.S. Monitoring",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.115.229.0/24",
       "66.160.238.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

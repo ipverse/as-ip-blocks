@@ -1,9 +1,12 @@
 {
-  "asn": 327907,
-  "handle": "PAW-PAW-WIRELESS",
-  "description": "Session Telecoms(PTY) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 327907,
+  "metadata" : {
+    "handle" : "PAW-PAW-WIRELESS",
+    "description" : "Session Telecoms(PTY) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.22.64.0/23",
       "102.22.66.0/24",
       "102.22.70.0/24",
@@ -19,6 +22,6 @@
       "102.214.216.0/24",
       "169.239.8.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 42682,
-  "handle": "ERTH-NNOV-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42682,
+  "metadata" : {
+    "handle" : "ERTH-NNOV-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.3.192.0/19",
       "5.164.192.0/18",
       "5.166.192.0/19",
@@ -16,7 +19,7 @@
       "188.134.32.0/19",
       "188.187.240.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:4c00::/38",
       "2a03:1ac0:5f4f::/48"
     ]

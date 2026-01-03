@@ -1,9 +1,12 @@
 {
-  "asn": 36354,
-  "handle": "SHERWEB-AS36354",
-  "description": "SherWeb inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36354,
+  "metadata" : {
+    "handle" : "SHERWEB-AS36354",
+    "description" : "SherWeb inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.115.204.0/23",
       "74.115.207.0/24",
       "173.46.148.0/22",
@@ -12,6 +15,6 @@
       "199.244.76.0/22",
       "208.67.94.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

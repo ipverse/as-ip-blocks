@@ -1,14 +1,17 @@
 {
-  "asn": 38956,
-  "handle": "ASN-UPPSALA",
-  "description": "Uppsala Kommun",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38956,
+  "metadata" : {
+    "handle" : "ASN-UPPSALA",
+    "description" : "Uppsala Kommun",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.6.0.0/16",
       "192.176.237.0/24",
       "192.176.238.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:fc8::/48"
     ]
   }

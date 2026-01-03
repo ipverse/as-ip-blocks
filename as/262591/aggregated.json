@@ -1,9 +1,12 @@
 {
-  "asn": 262591,
-  "handle": "CONECTION-SERVICOS-VALOR",
-  "description": "CONECTION SERVICOS DE VALOR ADICIONADO LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262591,
+  "metadata" : {
+    "handle" : "CONECTION-SERVICOS-VALOR",
+    "description" : "CONECTION SERVICOS DE VALOR ADICIONADO LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.118.12.0/22",
       "170.245.112.0/22",
       "177.8.56.0/21",
@@ -13,7 +16,7 @@
       "200.13.8.0/21",
       "200.94.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:f04::/32"
     ]
   }

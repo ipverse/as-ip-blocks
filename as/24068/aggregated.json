@@ -1,15 +1,18 @@
 {
-  "asn": 24068,
-  "handle": "REDTONE-MY-AS",
-  "description": "REDtone Telecommunication Sdn Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24068,
+  "metadata" : {
+    "handle" : "REDTONE-MY-AS",
+    "description" : "REDtone Telecommunication Sdn Bhd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.116.236.0/23",
       "103.251.200.0/22",
       "202.133.81.0/24",
       "202.133.83.0/24",
       "202.171.48.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 264420,
-  "handle": "TURBONET-TELECOM",
-  "description": "TurboNet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264420,
+  "metadata" : {
+    "handle" : "TURBONET-TELECOM",
+    "description" : "TurboNet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.185.167.0/24",
       "131.221.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1e4c::/32"
     ]
   }

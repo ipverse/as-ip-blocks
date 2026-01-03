@@ -1,9 +1,12 @@
 {
-  "asn": 24086,
-  "handle": "VIETTEL-AS-VN",
-  "description": "Viettel Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24086,
+  "metadata" : {
+    "handle" : "VIETTEL-AS-VN",
+    "description" : "Viettel Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.84.76.0/22",
       "116.97.24.0/22",
       "116.97.56.0/21",
@@ -147,6 +150,6 @@
       "171.242.6.0/24",
       "203.190.160.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

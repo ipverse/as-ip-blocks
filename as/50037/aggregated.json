@@ -1,11 +1,14 @@
 {
-  "asn": 50037,
-  "handle": "SERVERKURSK-AS",
-  "description": "Server Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50037,
+  "metadata" : {
+    "handle" : "SERVERKURSK-AS",
+    "description" : "Server Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.234.2.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

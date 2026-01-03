@@ -1,9 +1,12 @@
 {
-  "asn": 14363,
-  "handle": "MTCCOMM",
-  "description": "MTC Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14363,
+  "metadata" : {
+    "handle" : "MTCCOMM",
+    "description" : "MTC Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.6.0.0/20",
       "64.239.96.0/21",
       "69.161.33.0/24",
@@ -14,7 +17,7 @@
       "192.73.11.0/24",
       "205.166.159.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:cd40::/32"
     ]
   }

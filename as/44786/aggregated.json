@@ -1,9 +1,12 @@
 {
-  "asn": 44786,
-  "handle": "ADOBE-IRELAND-AS",
-  "description": "Adobe Systems Software Ireland Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44786,
+  "metadata" : {
+    "handle" : "ADOBE-IRELAND-AS",
+    "description" : "Adobe Systems Software Ireland Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.248.52.0/22",
       "130.248.56.0/23",
       "130.248.58.0/24",
@@ -18,6 +21,6 @@
       "130.248.98.0/23",
       "193.105.139.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

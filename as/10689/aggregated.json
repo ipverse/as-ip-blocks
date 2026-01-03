@@ -1,15 +1,18 @@
 {
-  "asn": 10689,
-  "handle": "FVI-CHI",
-  "description": "Fox Valley Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10689,
+  "metadata" : {
+    "handle" : "FVI-CHI",
+    "description" : "Fox Valley Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.135.192.0/20",
       "64.135.209.0/24",
       "64.135.210.0/23",
       "64.135.212.0/22",
       "64.135.216.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

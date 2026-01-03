@@ -1,9 +1,12 @@
 {
-  "asn": 59877,
-  "handle": "VATELECOM",
-  "description": "VA TELECOM SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59877,
+  "metadata" : {
+    "handle" : "VATELECOM",
+    "description" : "VA TELECOM SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.223.190.0/24",
       "45.67.253.0/24",
       "62.68.65.0/24",
@@ -14,6 +17,6 @@
       "193.56.146.0/24",
       "217.197.108.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

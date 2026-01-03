@@ -1,14 +1,17 @@
 {
-  "asn": 149925,
-  "handle": "IDNIC-SWNETWORK-AS-ID",
-  "description": "PT Sakti Wijaya Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149925,
+  "metadata" : {
+    "handle" : "IDNIC-SWNETWORK-AS-ID",
+    "description" : "PT Sakti Wijaya Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.115.20.0/24",
       "103.191.165.0/24",
       "202.133.66.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:7a40::/48"
     ]
   }

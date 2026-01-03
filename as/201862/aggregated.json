@@ -1,14 +1,17 @@
 {
-  "asn": 201862,
-  "handle": "VMHOSTS-LONDON-AS",
-  "description": "VMhosts Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201862,
+  "metadata" : {
+    "handle" : "VMHOSTS-LONDON-AS",
+    "description" : "VMhosts Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.61.132.0/22",
       "185.214.48.0/24",
       "185.214.50.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:7a20::/32"
     ]
   }

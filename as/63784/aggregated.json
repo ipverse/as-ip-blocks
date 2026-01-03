@@ -1,15 +1,18 @@
 {
-  "asn": 63784,
-  "handle": "GSS-NET",
-  "description": "Digital Agency",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63784,
+  "metadata" : {
+    "handle" : "GSS-NET",
+    "description" : "Digital Agency",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.157.242.0/23",
       "166.119.192.0/19",
       "166.119.224.0/23",
       "166.119.226.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:ab40::/28"
     ]
   }

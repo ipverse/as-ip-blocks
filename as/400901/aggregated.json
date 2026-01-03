@@ -1,11 +1,14 @@
 {
-  "asn": 400901,
-  "handle": "KLG-DATACENTER",
-  "description": "Keller Logistics Group INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400901,
+  "metadata" : {
+    "handle" : "KLG-DATACENTER",
+    "description" : "Keller Logistics Group INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "98.123.252.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

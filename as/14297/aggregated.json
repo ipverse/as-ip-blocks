@@ -1,9 +1,12 @@
 {
-  "asn": 14297,
-  "handle": "ACI-WORLDWIDE",
-  "description": "ACI Worldwide Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14297,
+  "metadata" : {
+    "handle" : "ACI-WORLDWIDE",
+    "description" : "ACI Worldwide Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.198.80.0/22",
       "65.222.196.0/22",
       "138.229.4.0/22",
@@ -36,6 +39,6 @@
       "206.201.28.0/24",
       "206.201.30.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

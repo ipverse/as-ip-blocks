@@ -1,13 +1,16 @@
 {
-  "asn": 213221,
-  "handle": "IPMEETIP",
-  "description": "IPv4 Superhub Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213221,
+  "metadata" : {
+    "handle" : "IPMEETIP",
+    "description" : "IPv4 Superhub Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.158.252.0/24",
       "45.158.255.0/24",
       "178.236.45.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

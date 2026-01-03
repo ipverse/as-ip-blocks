@@ -1,9 +1,12 @@
 {
-  "asn": 203999,
-  "handle": "GEEKYWORKS",
-  "description": "Geekyworks IT Solutions Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203999,
+  "metadata" : {
+    "handle" : "GEEKYWORKS",
+    "description" : "Geekyworks IT Solutions Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.165.13.0/24",
       "69.165.14.0/24",
       "104.244.83.0/24",
@@ -67,6 +70,6 @@
       "209.99.179.0/24",
       "209.99.182.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

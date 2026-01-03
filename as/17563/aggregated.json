@@ -1,9 +1,12 @@
 {
-  "asn": 17563,
-  "handle": "NEXLINX-AS-AP",
-  "description": "NEXLINX NETWORKS (PVT) LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17563,
+  "metadata" : {
+    "handle" : "NEXLINX-AS-AP",
+    "description" : "NEXLINX NETWORKS (PVT) LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.58.8.0/21",
       "116.58.16.0/24",
       "116.58.18.0/23",
@@ -42,7 +45,7 @@
       "202.59.88.0/22",
       "202.59.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:68a0:1::/48",
       "2400:68a0:81::/48",
       "2400:68a0:a5ad::/48",

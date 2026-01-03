@@ -1,13 +1,16 @@
 {
-  "asn": 133189,
-  "handle": "IBSPL-AS-AP",
-  "description": "SENTRIAN PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133189,
+  "metadata" : {
+    "handle" : "IBSPL-AS-AP",
+    "description" : "SENTRIAN PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.87.218.0/23",
       "103.226.8.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:3ac0::/32"
     ]
   }

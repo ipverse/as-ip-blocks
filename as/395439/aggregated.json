@@ -1,14 +1,17 @@
 {
-  "asn": 395439,
-  "handle": "JECNET",
-  "description": "Jackson Electric Cooperative",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395439,
+  "metadata" : {
+    "handle" : "JECNET",
+    "description" : "Jackson Electric Cooperative",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.5.201.0/24",
       "209.204.0.0/19",
       "209.204.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:7bc0::/32"
     ]
   }

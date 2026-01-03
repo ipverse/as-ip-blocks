@@ -1,12 +1,15 @@
 {
-  "asn": 60994,
-  "handle": "SCT-AS",
-  "description": "SOCIETE COMMERCIALE DE TELECOMMUNICATION SCT SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60994,
+  "metadata" : {
+    "handle" : "SCT-AS",
+    "description" : "SOCIETE COMMERCIALE DE TELECOMMUNICATION SCT SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.23.40.0/22",
       "194.124.192.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

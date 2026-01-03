@@ -1,13 +1,16 @@
 {
-  "asn": 141346,
-  "handle": "COMPUTER2-AS-AP",
-  "description": "Computer Future",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141346,
+  "metadata" : {
+    "handle" : "COMPUTER2-AS-AP",
+    "description" : "Computer Future",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.157.94.0/23",
       "160.187.35.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:9d40::/39"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 7794,
-  "handle": "EXECULINK",
-  "description": "Execulink Telecom Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7794,
+  "metadata" : {
+    "handle" : "EXECULINK",
+    "description" : "Execulink Telecom Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.248.0.0/17",
       "23.248.128.0/19",
       "64.39.160.0/19",
@@ -24,7 +27,7 @@
       "216.59.224.0/19",
       "216.75.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:6500::/32"
     ]
   }

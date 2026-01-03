@@ -1,9 +1,12 @@
 {
-  "asn": 199599,
-  "handle": "CIREX",
-  "description": "Telecom-Birzha LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199599,
+  "metadata" : {
+    "handle" : "CIREX",
+    "description" : "Telecom-Birzha LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.238.96.0/21",
       "86.110.202.0/23",
       "86.110.216.0/24",
@@ -27,7 +30,7 @@
       "212.67.18.0/23",
       "217.77.104.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5240::/32"
     ]
   }

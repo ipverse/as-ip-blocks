@@ -1,15 +1,18 @@
 {
-  "asn": 50903,
-  "handle": "TRINAPS",
-  "description": "TRINAPS SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50903,
+  "metadata" : {
+    "handle" : "TRINAPS",
+    "description" : "TRINAPS SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.148.156.0/22",
       "45.159.68.0/22",
       "178.23.32.0/21",
       "185.118.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ab80::/32"
     ]
   }

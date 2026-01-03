@@ -1,9 +1,12 @@
 {
-  "asn": 401307,
-  "handle": "MISEN-ASN-1",
-  "description": "Michigan Statewide Educational Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401307,
+  "metadata" : {
+    "handle" : "MISEN-ASN-1",
+    "description" : "Michigan Statewide Educational Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.58.54.0/23",
       "69.58.56.0/22",
       "69.58.60.0/24",
@@ -28,6 +31,6 @@
       "204.25.240.0/23",
       "204.25.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

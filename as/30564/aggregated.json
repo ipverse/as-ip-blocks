@@ -1,12 +1,15 @@
 {
-  "asn": 30564,
-  "handle": "LSUS",
-  "description": "Louisiana State University in Shreveport",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30564,
+  "metadata" : {
+    "handle" : "LSUS",
+    "description" : "Louisiana State University in Shreveport",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "76.165.213.0/24",
       "198.182.205.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 44881,
-  "handle": "CYBERTECH-AS",
-  "description": "CyberTech LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44881,
+  "metadata" : {
+    "handle" : "CYBERTECH-AS",
+    "description" : "CyberTech LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.94.232.0/21",
       "94.137.92.0/24",
       "109.68.208.0/22",
       "185.117.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:ce80::/36"
     ]
   }

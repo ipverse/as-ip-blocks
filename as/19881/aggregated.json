@@ -1,9 +1,12 @@
 {
-  "asn": 19881,
-  "handle": "VTCNET",
-  "description": "Valley Telecommunications Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19881,
+  "metadata" : {
+    "handle" : "VTCNET",
+    "description" : "Valley Telecommunications Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.192.13.0/24",
       "66.194.11.0/24",
       "162.126.201.0/24",
@@ -21,7 +24,7 @@
       "209.203.93.0/24",
       "209.234.183.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:2b00::/32"
     ]
   }

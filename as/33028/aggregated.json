@@ -1,9 +1,12 @@
 {
-  "asn": 33028,
-  "handle": "AS33028",
-  "description": "VEXXHOST Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33028,
+  "metadata" : {
+    "handle" : "AS33028",
+    "description" : "VEXXHOST Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.22.121.0/24",
       "38.74.51.0/24",
       "38.102.64.0/24",
@@ -18,7 +21,7 @@
       "199.19.212.0/22",
       "199.204.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:e100:1::/48",
       "2604:e100:3::/48",
       "2604:e100:4::/48"

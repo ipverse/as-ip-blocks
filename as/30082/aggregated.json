@@ -1,15 +1,18 @@
 {
-  "asn": 30082,
-  "handle": "REDSAIL-TECHNOLOGIES",
-  "description": "QS1 Data Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30082,
+  "metadata" : {
+    "handle" : "REDSAIL-TECHNOLOGIES",
+    "description" : "QS1 Data Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.6.21.0/24",
       "12.37.191.0/24",
       "12.107.52.0/24",
       "72.34.192.0/19",
       "198.47.43.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

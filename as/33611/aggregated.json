@@ -1,12 +1,15 @@
 {
-  "asn": 33611,
-  "handle": "NUVO2",
-  "description": "Nuvodia LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33611,
+  "metadata" : {
+    "handle" : "NUVO2",
+    "description" : "Nuvodia LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.245.32.0/23",
       "162.245.34.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

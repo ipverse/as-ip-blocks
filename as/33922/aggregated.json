@@ -1,9 +1,12 @@
 {
-  "asn": 33922,
-  "handle": "NTT-LT-AS",
-  "description": "UAB Nacionalinis Telekomunikaciju Tinklas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33922,
+  "metadata" : {
+    "handle" : "NTT-LT-AS",
+    "description" : "UAB Nacionalinis Telekomunikaciju Tinklas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.32.0.0/22",
       "84.32.18.0/24",
       "84.32.37.0/24",
@@ -47,7 +50,7 @@
       "88.216.174.0/23",
       "88.216.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4048::/32"
     ]
   }

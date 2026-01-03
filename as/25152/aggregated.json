@@ -1,12 +1,15 @@
 {
-  "asn": 25152,
-  "handle": "K-ROOT-SERVER",
-  "description": "Reseaux IP Europeens Network Coordination Centre (RIPE NCC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25152,
+  "metadata" : {
+    "handle" : "K-ROOT-SERVER",
+    "description" : "Reseaux IP Europeens Network Coordination Centre (RIPE NCC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.0.14.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:7fd::/32"
     ]
   }

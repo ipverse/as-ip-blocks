@@ -1,9 +1,12 @@
 {
-  "asn": 22080,
-  "handle": "BROADBANDTECH-S-A",
-  "description": "Broadbandtech S. A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22080,
+  "metadata" : {
+    "handle" : "BROADBANDTECH-S-A",
+    "description" : "Broadbandtech S. A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.121.212.0/22",
       "186.148.64.0/20",
       "200.81.94.0/24",
@@ -23,6 +26,6 @@
       "200.112.174.0/23",
       "200.112.176.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 135590,
-  "handle": "SEBANET-AS-AP",
-  "description": "Seba Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135590,
+  "metadata" : {
+    "handle" : "SEBANET-AS-AP",
+    "description" : "Seba Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.95.208.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

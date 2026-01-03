@@ -1,13 +1,16 @@
 {
-  "asn": 38154,
-  "handle": "PSN-NAP-AS",
-  "description": "PT. Pasifik Satelit Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38154,
+  "metadata" : {
+    "handle" : "PSN-NAP-AS",
+    "description" : "PT. Pasifik Satelit Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.58.193.0/24",
       "116.58.194.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:f20:f000::/48",
       "2401:78a0:dead::/48"
     ]

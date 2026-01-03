@@ -1,13 +1,16 @@
 {
-  "asn": 197225,
-  "handle": "AIRNET",
-  "description": "UAB Airnet TV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197225,
+  "metadata" : {
+    "handle" : "AIRNET",
+    "description" : "UAB Airnet TV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.90.103.0/24",
       "78.31.224.0/21",
       "94.232.120.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 138565,
-  "handle": "VREDNUS-AS-AP",
-  "description": "Vrednus Network Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138565,
+  "metadata" : {
+    "handle" : "VREDNUS-AS-AP",
+    "description" : "Vrednus Network Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.133.22.0/24",
       "103.152.6.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:6640::/48"
     ]
   }

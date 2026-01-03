@@ -1,9 +1,12 @@
 {
-  "asn": 13009,
-  "handle": "VDATA",
-  "description": "Redcentric Solutions Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13009,
+  "metadata" : {
+    "handle" : "VDATA",
+    "description" : "Redcentric Solutions Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.14.252.0/24",
       "46.235.168.0/21",
       "62.89.144.0/24",
@@ -27,7 +30,7 @@
       "212.196.216.0/24",
       "213.146.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2998::/32",
       "2a03:a000::/32",
       "2a10:4a40:4ddc::/48"

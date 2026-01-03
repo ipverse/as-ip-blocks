@@ -1,9 +1,12 @@
 {
-  "asn": 24028,
-  "handle": "CNXNET-AS-MY",
-  "description": "Redtone Engineering \u0026 Network Services Sdn Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24028,
+  "metadata" : {
+    "handle" : "CNXNET-AS-MY",
+    "description" : "Redtone Engineering & Network Services Sdn Bhd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.251.136.0/23",
       "43.251.139.0/24",
       "103.21.152.0/22",
@@ -13,7 +16,7 @@
       "202.171.59.0/24",
       "203.142.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:7c00:1000::/36",
       "2405:7c00:2000::/35",
       "2405:7c00:4000::/34",

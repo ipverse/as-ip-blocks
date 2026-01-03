@@ -1,9 +1,12 @@
 {
-  "asn": 46413,
-  "handle": "FULAIR",
-  "description": "Fulair LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46413,
+  "metadata" : {
+    "handle" : "FULAIR",
+    "description" : "Fulair LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.193.123.0/24",
       "204.57.68.0/24",
       "207.191.33.0/24",
@@ -11,6 +14,6 @@
       "208.99.51.0/24",
       "209.12.133.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

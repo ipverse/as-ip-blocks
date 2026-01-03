@@ -1,9 +1,12 @@
 {
-  "asn": 151630,
-  "handle": "HKYZKJ-AS-AP",
-  "description": "Yun Zhong Technology Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151630,
+  "metadata" : {
+    "handle" : "HKYZKJ-AS-AP",
+    "description" : "Yun Zhong Technology Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.12.248.0/21",
       "45.149.16.0/22",
       "103.141.220.0/23",
@@ -13,6 +16,6 @@
       "103.149.152.0/23",
       "103.149.182.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

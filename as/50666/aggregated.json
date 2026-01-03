@@ -1,13 +1,16 @@
 {
-  "asn": 50666,
-  "handle": "LIGAT",
-  "description": "LigaT Telecom Sociedade Unipessoal LDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50666,
+  "metadata" : {
+    "handle" : "LIGAT",
+    "description" : "LigaT Telecom Sociedade Unipessoal LDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.142.131.0/24",
       "185.228.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:580::/29"
     ]
   }

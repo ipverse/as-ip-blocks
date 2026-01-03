@@ -1,9 +1,12 @@
 {
-  "asn": 1449,
-  "handle": "PAYPAL-CORP",
-  "description": "PayPal Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1449,
+  "metadata" : {
+    "handle" : "PAYPAL-CORP",
+    "description" : "PayPal Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.230.180.0/23",
       "43.230.182.0/24",
       "103.50.0.0/24",
@@ -16,6 +19,6 @@
       "185.97.80.0/23",
       "185.97.82.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

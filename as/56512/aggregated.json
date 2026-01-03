@@ -1,12 +1,15 @@
 {
-  "asn": 56512,
-  "handle": "INTERLAN-IEX",
-  "description": "Asociatia Interlan",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56512,
+  "metadata" : {
+    "handle" : "INTERLAN-IEX",
+    "description" : "Asociatia Interlan",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.86.65.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:b680:17::/48"
     ]
   }

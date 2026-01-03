@@ -1,12 +1,15 @@
 {
-  "asn": 268902,
-  "handle": "NETMASTER-PORTEIRINHA",
-  "description": "NETMASTER PORTEIRINHA ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268902,
+  "metadata" : {
+    "handle" : "NETMASTER-PORTEIRINHA",
+    "description" : "NETMASTER PORTEIRINHA ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.175.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5c54::/32"
     ]
   }

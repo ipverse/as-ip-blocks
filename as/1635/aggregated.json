@@ -1,12 +1,15 @@
 {
-  "asn": 1635,
-  "handle": "WSC-READING",
-  "description": "Weidenhammer",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1635,
+  "metadata" : {
+    "handle" : "WSC-READING",
+    "description" : "Weidenhammer",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.146.224.0/23",
       "206.223.112.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 18747,
-  "handle": "IFX18747",
-  "description": "IFX Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18747,
+  "metadata" : {
+    "handle" : "IFX18747",
+    "description" : "IFX Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.108.68.0/22",
       "181.78.32.0/21",
       "181.78.64.0/19",
@@ -31,7 +34,7 @@
       "201.217.192.0/19",
       "216.241.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:5580::/32",
       "2801:115::/44",
       "2801:13c::/42",

@@ -1,9 +1,12 @@
 {
-  "asn": 9,
-  "handle": "CMU-ROUTER",
-  "description": "Carnegie Mellon University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9,
+  "metadata" : {
+    "handle" : "CMU-ROUTER",
+    "description" : "Carnegie Mellon University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.2.0.0/16",
       "128.237.0.0/16",
       "192.5.146.0/24",
@@ -13,7 +16,7 @@
       "204.194.28.0/22",
       "209.129.244.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fb28::/32"
     ]
   }

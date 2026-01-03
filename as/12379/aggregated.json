@@ -1,12 +1,15 @@
 {
-  "asn": 12379,
-  "handle": "PIN-NET-AS",
-  "description": "ip4 GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12379,
+  "metadata" : {
+    "handle" : "PIN-NET-AS",
+    "description" : "ip4 GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "188.119.92.0/22",
       "212.112.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

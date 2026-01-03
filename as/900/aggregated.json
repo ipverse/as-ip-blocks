@@ -1,11 +1,14 @@
 {
-  "asn": 900,
-  "handle": "WAA",
-  "description": "WAA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 900,
+  "metadata" : {
+    "handle" : "WAA",
+    "description" : "WAA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.174.10.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 25521,
-  "handle": "AS-IPNET",
-  "description": "Industrial Media Network LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25521,
+  "metadata" : {
+    "handle" : "AS-IPNET",
+    "description" : "Industrial Media Network LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.30.160.0/21",
       "82.193.96.0/19",
       "91.224.24.0/23",
@@ -16,7 +19,7 @@
       "195.20.100.0/24",
       "195.64.148.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2610::/32",
       "2a13:8f40::/29"
     ]

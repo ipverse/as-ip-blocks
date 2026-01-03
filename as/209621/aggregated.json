@@ -1,12 +1,15 @@
 {
-  "asn": 209621,
-  "handle": "DOBNET",
-  "description": "DOBNET z.s",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209621,
+  "metadata" : {
+    "handle" : "DOBNET",
+    "description" : "DOBNET z.s.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.28.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:5fc0::/29"
     ]
   }

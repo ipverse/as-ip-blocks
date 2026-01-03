@@ -1,13 +1,16 @@
 {
-  "asn": 42489,
-  "handle": "WLINK-DP-UA-AS",
-  "description": "W-LINK LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42489,
+  "metadata" : {
+    "handle" : "WLINK-DP-UA-AS",
+    "description" : "W-LINK LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.133.116.0/24",
       "77.52.28.0/24",
       "93.170.134.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

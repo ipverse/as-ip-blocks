@@ -1,13 +1,16 @@
 {
-  "asn": 209715,
-  "handle": "GMUENDCOM-AS",
-  "description": "GmuendCOM GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209715,
+  "metadata" : {
+    "handle" : "GMUENDCOM-AS",
+    "description" : "GmuendCOM GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.207.180.0/22",
       "185.204.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:580::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 50115,
-  "handle": "WESTELE-UA-AS",
-  "description": "Lekol LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50115,
+  "metadata" : {
+    "handle" : "WESTELE-UA-AS",
+    "description" : "Lekol LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.137.248.0/22",
       "185.236.46.0/24",
       "194.54.160.0/22",
@@ -13,6 +16,6 @@
       "212.8.38.0/23",
       "212.8.46.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

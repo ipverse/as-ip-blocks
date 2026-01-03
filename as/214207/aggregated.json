@@ -1,10 +1,13 @@
 {
-  "asn": 214207,
-  "handle": "MOONWX-AS",
-  "description": "Xiao Wang",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 214207,
+  "metadata" : {
+    "handle" : "MOONWX-AS",
+    "description" : "Xiao Wang",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0f:1cc5:1d10::/47",
       "2a0f:1cc5:1d14::/48"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 44893,
-  "handle": "SI-AS",
-  "description": "iNet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44893,
+  "metadata" : {
+    "handle" : "SI-AS",
+    "description" : "iNet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.230.28.0/24",
       "23.230.149.0/24",
       "23.230.161.0/24",
@@ -39,6 +42,6 @@
       "172.121.240.0/24",
       "173.239.242.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

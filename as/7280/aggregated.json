@@ -1,16 +1,19 @@
 {
-  "asn": 7280,
-  "handle": "YAHOO-FC",
-  "description": "Yahoo Holdings Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7280,
+  "metadata" : {
+    "handle" : "YAHOO-FC",
+    "description" : "Yahoo Holdings Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.123.60.0/23",
       "68.142.254.0/23",
       "68.180.129.0/24",
       "183.177.70.0/23",
       "200.152.168.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4998:160::/48",
       "2001:4998:180::/48",
       "2001:4998:1c0::/48",

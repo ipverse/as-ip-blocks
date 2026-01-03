@@ -1,18 +1,20 @@
 {
-  "asn": 266877,
-  "handle": "COLOMBIATEL-TELECOMUNICACIONES",
-  "description": "COLOMBIATEL TELECOMUNICACIONES",
-  "subnets": {
-    "ipv4": [
-      "152.231.24.0/23",
+  "asn" : 266877,
+  "metadata" : {
+    "handle" : "COLOMBIATEL-TELECOMUNICACIONES",
+    "description" : "COLOMBIATEL TELECOMUNICACIONES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
+      "152.231.25.0/24",
       "152.231.27.0/24",
       "152.231.31.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:de80::/38",
       "2803:de80:1000::/47",
-      "2803:de80:1052::/47",
-      "2803:de80:2000::/38"
+      "2803:de80:1052::/47"
     ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 57284,
-  "handle": "REGION-HAUTSDEFRANCE-AS",
-  "description": "Region Hauts-de-France",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57284,
+  "metadata" : {
+    "handle" : "REGION-HAUTSDEFRANCE-AS",
+    "description" : "Region Hauts-de-France",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.230.0.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

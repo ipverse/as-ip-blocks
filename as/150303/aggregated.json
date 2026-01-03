@@ -1,11 +1,14 @@
 {
-  "asn": 150303,
-  "handle": "SOLORDP-AS-AP",
-  "description": "SoloRDP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150303,
+  "metadata" : {
+    "handle" : "SOLORDP-AS-AP",
+    "description" : "SoloRDP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.215.74.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 44692,
-  "handle": "DOMTEL-PL-AS",
-  "description": "Domtel Telecom Dariusz Dombek",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44692,
+  "metadata" : {
+    "handle" : "DOMTEL-PL-AS",
+    "description" : "Domtel Telecom Dariusz Dombek",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.31.144.0/21",
       "85.202.96.0/20",
       "109.125.192.0/19",
@@ -13,6 +16,6 @@
       "109.125.253.0/24",
       "109.125.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

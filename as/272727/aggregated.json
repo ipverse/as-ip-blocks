@@ -1,10 +1,13 @@
 {
-  "asn": 272727,
-  "handle": "FIBER-BOX-TELECOM",
-  "description": "FIBER BOX TELECOM",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 272727,
+  "metadata" : {
+    "handle" : "FIBER-BOX-TELECOM",
+    "description" : "FIBER BOX TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2804:87b4::/32"
     ]
   }

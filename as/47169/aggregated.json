@@ -1,9 +1,12 @@
 {
-  "asn": 47169,
-  "handle": "HPC-MVM-AS",
-  "description": "Pro-M Zrt",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47169,
+  "metadata" : {
+    "handle" : "HPC-MVM-AS",
+    "description" : "Pro-M Zrt.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.61.240.0/21",
       "45.10.92.0/23",
       "45.14.8.0/23",
@@ -38,7 +41,7 @@
       "195.170.184.0/24",
       "213.181.212.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:8de0::/32",
       "2a03:3380::/32"
     ]

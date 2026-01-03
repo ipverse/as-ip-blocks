@@ -1,16 +1,19 @@
 {
-  "asn": 42541,
-  "handle": "FIBERBY",
-  "description": "Fiberby ApS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42541,
+  "metadata" : {
+    "handle" : "FIBERBY",
+    "description" : "Fiberby ApS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.23.224.0/19",
       "185.10.220.0/22",
       "193.104.135.0/24",
       "193.106.164.0/22",
       "194.62.216.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5440::/29"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 262675,
-  "handle": "SOLUCAO-NETWORK-PROVEDOR",
-  "description": "Solucao Network Provedor Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262675,
+  "metadata" : {
+    "handle" : "SOLUCAO-NETWORK-PROVEDOR",
+    "description" : "Solucao Network Provedor Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.255.52.0/22",
       "186.233.228.0/22",
       "190.111.128.0/22",
       "209.14.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:a44::/32"
     ]
   }

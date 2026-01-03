@@ -1,9 +1,12 @@
 {
-  "asn": 8821,
-  "handle": "TELEZUG",
-  "description": "WWZ Telekom AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8821,
+  "metadata" : {
+    "handle" : "TELEZUG",
+    "description" : "WWZ Telekom AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.171.0.0/17",
       "77.245.176.0/20",
       "82.136.64.0/18",
@@ -14,7 +17,7 @@
       "212.4.64.0/19",
       "217.194.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:760::/29",
       "2a01:8b80::/29",
       "2a03:62a0:4101::/48"

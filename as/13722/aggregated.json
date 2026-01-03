@@ -1,13 +1,16 @@
 {
-  "asn": 13722,
-  "handle": "DEFAULTROUTE",
-  "description": "Default Route LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13722,
+  "metadata" : {
+    "handle" : "DEFAULTROUTE",
+    "description" : "Default Route LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.120.12.0/24",
       "198.47.97.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:ff08::/32"
     ]
   }

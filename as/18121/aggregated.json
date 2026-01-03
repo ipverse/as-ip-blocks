@@ -1,16 +1,19 @@
 {
-  "asn": 18121,
-  "handle": "INCL",
-  "description": "Ishikawa Computer Center Co. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18121,
+  "metadata" : {
+    "handle" : "INCL",
+    "description" : "Ishikawa Computer Center Co. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.241.208.0/23",
       "180.94.192.0/20",
       "180.94.208.0/21",
       "202.222.32.0/19",
       "219.121.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:a00::/32"
     ]
   }

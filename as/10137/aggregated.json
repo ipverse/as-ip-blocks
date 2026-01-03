@@ -1,9 +1,12 @@
 {
-  "asn": 10137,
-  "handle": "TELKOMSAT-AP",
-  "description": "PT Telkom Satelit Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10137,
+  "metadata" : {
+    "handle" : "TELKOMSAT-AP",
+    "description" : "PT Telkom Satelit Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.99.97.0/24",
       "203.99.100.0/24",
       "203.99.102.0/24",
@@ -13,6 +16,6 @@
       "203.99.123.0/24",
       "203.99.127.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

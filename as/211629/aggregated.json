@@ -1,12 +1,15 @@
 {
-  "asn": 211629,
-  "handle": "WOB-AS",
-  "description": "WOB Beteiligungs Gmbh",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211629,
+  "metadata" : {
+    "handle" : "WOB-AS",
+    "description" : "WOB Beteiligungs Gmbh",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.252.203.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:b340::/29"
     ]
   }

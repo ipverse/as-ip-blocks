@@ -1,13 +1,16 @@
 {
-  "asn": 52995,
-  "handle": "TEN-INTERNET",
-  "description": "TEN INTERNET Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52995,
+  "metadata" : {
+    "handle" : "TEN-INTERNET",
+    "description" : "TEN INTERNET Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.47.224.0/20",
       "177.93.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4d8::/32"
     ]
   }

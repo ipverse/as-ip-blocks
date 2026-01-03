@@ -1,11 +1,14 @@
 {
-  "asn": 32500,
-  "handle": "VESTA",
-  "description": "Airbus DS Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32500,
+  "metadata" : {
+    "handle" : "VESTA",
+    "description" : "Airbus DS Communications Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "75.108.206.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

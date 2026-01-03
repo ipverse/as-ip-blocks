@@ -1,12 +1,15 @@
 {
-  "asn": 201650,
-  "handle": "WEBGURU",
-  "description": "Webguru VOF",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201650,
+  "metadata" : {
+    "handle" : "WEBGURU",
+    "description" : "Webguru VOF",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.68.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:28a0::/32"
     ]
   }

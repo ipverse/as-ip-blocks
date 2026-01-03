@@ -1,9 +1,12 @@
 {
-  "asn": 29545,
-  "handle": "IPLACE",
-  "description": "iPlace Internet \u0026 Network Services GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29545,
+  "metadata" : {
+    "handle" : "IPLACE",
+    "description" : "iPlace Internet & Network Services GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.111.32.0/21",
       "86.111.40.0/22",
       "86.111.50.0/23",
@@ -14,7 +17,7 @@
       "213.163.244.0/23",
       "213.163.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1f88::/32"
     ]
   }

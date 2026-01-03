@@ -1,12 +1,15 @@
 {
-  "asn": 201240,
-  "handle": "OPENIOT",
-  "description": "Rocket NG GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201240,
+  "metadata" : {
+    "handle" : "OPENIOT",
+    "description" : "Rocket NG GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.166.240.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:eec0::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 11105,
-  "handle": "SFU-AS",
-  "description": "Simon Fraser University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11105,
+  "metadata" : {
+    "handle" : "SFU-AS",
+    "description" : "Simon Fraser University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.58.0.0/16",
       "192.75.240.0/21",
       "199.60.0.0/20",
@@ -23,7 +26,7 @@
       "209.87.31.0/24",
       "209.87.60.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f8f0:690::/48"
     ]
   }

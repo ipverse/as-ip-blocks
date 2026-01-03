@@ -1,11 +1,14 @@
 {
-  "asn": 50082,
-  "handle": "EURECA",
-  "description": "JSC Eureca",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50082,
+  "metadata" : {
+    "handle" : "EURECA",
+    "description" : "JSC Eureca",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.190.40.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

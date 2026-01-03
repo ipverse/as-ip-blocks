@@ -1,12 +1,15 @@
 {
-  "asn": 142552,
-  "handle": "KCNL-AS-AP",
-  "description": "KCN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142552,
+  "metadata" : {
+    "handle" : "KCNL-AS-AP",
+    "description" : "KCN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.157.211.0/24",
       "103.169.65.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

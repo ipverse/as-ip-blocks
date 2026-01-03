@@ -1,9 +1,12 @@
 {
-  "asn": 27553,
-  "handle": "TELNET",
-  "description": "Telnet Worldwide Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27553,
+  "metadata" : {
+    "handle" : "TELNET",
+    "description" : "Telnet Worldwide Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.208.160.0/22",
       "64.27.192.0/19",
       "64.255.64.0/20",
@@ -13,7 +16,7 @@
       "216.144.200.0/21",
       "216.144.208.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:e000::/32"
     ]
   }

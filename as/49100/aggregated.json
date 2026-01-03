@@ -1,9 +1,12 @@
 {
-  "asn": 49100,
-  "handle": "IR-THR-PTE",
-  "description": "Pishgaman Toseeh Ertebatat Company (Private Joint Stock)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49100,
+  "metadata" : {
+    "handle" : "IR-THR-PTE",
+    "description" : "Pishgaman Toseeh Ertebatat Company (Private Joint Stock)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.202.0.0/16",
       "31.130.176.0/22",
       "31.130.180.0/24",
@@ -42,7 +45,7 @@
       "195.230.105.0/24",
       "195.230.124.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4c88::/32",
       "2a02:cd80::/29",
       "2a03:54a0::/32"

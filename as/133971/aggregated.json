@@ -1,14 +1,17 @@
 {
-  "asn": 133971,
-  "handle": "RAMX-AS",
-  "description": "Rmax Broadband Pvt ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133971,
+  "metadata" : {
+    "handle" : "RAMX-AS",
+    "description" : "Rmax Broadband Pvt ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.50.219.0/24",
       "103.91.218.0/24",
       "103.171.10.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:fc40::/32"
     ]
   }

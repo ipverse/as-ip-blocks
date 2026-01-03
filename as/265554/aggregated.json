@@ -1,9 +1,12 @@
 {
-  "asn": 265554,
-  "handle": "HISPASAT-MEXICO",
-  "description": "HISPASAT MÉXICO S.A. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265554,
+  "metadata" : {
+    "handle" : "HISPASAT-MEXICO",
+    "description" : "HISPASAT MÉXICO S.A. de C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.7.136.0/24",
       "45.163.120.0/22",
       "45.170.134.0/23",
@@ -11,7 +14,7 @@
       "201.139.213.0/24",
       "201.219.129.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:aba0:2000::/39",
       "2803:aba0:2200::/40",
       "2803:aba0:2300::/46"

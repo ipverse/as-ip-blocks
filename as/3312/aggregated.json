@@ -1,12 +1,15 @@
 {
-  "asn": 3312,
-  "handle": "ELEKTRA-AS",
-  "description": "IT Energy Service LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3312,
+  "metadata" : {
+    "handle" : "ELEKTRA-AS",
+    "description" : "IT Energy Service LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.124.184.0/22",
       "194.87.203.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

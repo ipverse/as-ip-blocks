@@ -1,13 +1,16 @@
 {
-  "asn": 57758,
-  "handle": "CBWS-AS",
-  "description": "CBWS Holding B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57758,
+  "metadata" : {
+    "handle" : "CBWS-AS",
+    "description" : "CBWS Holding B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.142.141.0/24",
       "185.167.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:b600:110::/44",
       "2a0b:b600:2000::/37",
       "2a0b:b600:3802::/47",

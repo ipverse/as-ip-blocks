@@ -1,9 +1,12 @@
 {
-  "asn": 30993,
-  "handle": "EGYPT-CENTERS",
-  "description": "Egypt Centers",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30993,
+  "metadata" : {
+    "handle" : "EGYPT-CENTERS",
+    "description" : "Egypt Centers",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.205.102.0/24",
       "41.205.105.0/24",
       "41.205.109.0/24",
@@ -18,6 +21,6 @@
       "196.20.62.0/24",
       "196.201.246.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

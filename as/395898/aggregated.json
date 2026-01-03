@@ -1,9 +1,12 @@
 {
-  "asn": 395898,
-  "handle": "TND",
-  "description": "TND LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395898,
+  "metadata" : {
+    "handle" : "TND",
+    "description" : "TND LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.137.212.0/24",
       "23.152.104.0/24",
       "23.154.72.0/24",
@@ -12,7 +15,7 @@
       "50.114.31.0/24",
       "50.114.34.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fa84::/48",
       "2602:fa84:2::/47",
       "2602:fa84:4::/48"

@@ -1,12 +1,15 @@
 {
-  "asn": 36140,
-  "handle": "AS-ETS",
-  "description": "Edmonton Transit Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36140,
+  "metadata" : {
+    "handle" : "AS-ETS",
+    "description" : "Edmonton Transit Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.161.64.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:58:c400::/48"
     ]
   }

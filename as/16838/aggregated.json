@@ -1,15 +1,18 @@
 {
-  "asn": 16838,
-  "handle": "VERISIGN-CORP",
-  "description": "VeriSign Infrastructure \u0026 Operations",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16838,
+  "metadata" : {
+    "handle" : "VERISIGN-CORP",
+    "description" : "VeriSign Infrastructure & Operations",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.13.63.0/24",
       "203.144.50.0/24",
       "216.168.230.0/24",
       "216.168.239.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:74:1e::/47"
     ]
   }

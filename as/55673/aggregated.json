@@ -1,11 +1,14 @@
 {
-  "asn": 55673,
-  "handle": "LINKNET-IDX-AS-ID",
-  "description": "Linknet-IDX ASN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55673,
+  "metadata" : {
+    "handle" : "LINKNET-IDX-AS-ID",
+    "description" : "Linknet-IDX ASN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "111.95.248.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

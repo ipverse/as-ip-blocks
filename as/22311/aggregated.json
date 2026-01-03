@@ -1,9 +1,12 @@
 {
-  "asn": 22311,
-  "handle": "FAIRNET-LLC",
-  "description": "FAIRNET LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22311,
+  "metadata" : {
+    "handle" : "FAIRNET-LLC",
+    "description" : "FAIRNET LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.24.112.0/20",
       "69.171.112.0/24",
       "69.171.116.0/24",
@@ -14,6 +17,6 @@
       "162.252.203.0/24",
       "208.185.135.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

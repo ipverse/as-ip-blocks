@@ -1,9 +1,12 @@
 {
-  "asn": 27759,
-  "handle": "ACCESS-HAITI",
-  "description": "ACCESS HAITI S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27759,
+  "metadata" : {
+    "handle" : "ACCESS-HAITI",
+    "description" : "ACCESS HAITI S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.92.116.0/22",
       "38.93.248.0/22",
       "38.93.252.0/23",
@@ -18,7 +21,7 @@
       "200.4.160.0/19",
       "201.150.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:8600::/32"
     ]
   }

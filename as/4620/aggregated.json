@@ -1,14 +1,17 @@
 {
-  "asn": 4620,
-  "handle": "SOLONE-AS-AP",
-  "description": "Sol One PTE LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4620,
+  "metadata" : {
+    "handle" : "SOLONE-AS-AP",
+    "description" : "Sol One PTE LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.255.56.0/24",
       "198.246.223.0/24",
       "203.78.149.0/24",
       "203.78.151.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

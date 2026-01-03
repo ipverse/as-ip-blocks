@@ -1,12 +1,15 @@
 {
-  "asn": 264500,
-  "handle": "SOULTELECOM-PROVEDOR-ACESSO",
-  "description": "SoulTelecom - Provedor de Acesso a Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264500,
+  "metadata" : {
+    "handle" : "SOULTELECOM-PROVEDOR-ACESSO",
+    "description" : "SoulTelecom - Provedor de Acesso a Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.255.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2098::/32"
     ]
   }

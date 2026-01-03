@@ -1,11 +1,14 @@
 {
-  "asn": 138320,
-  "handle": "FALCONLINK1-AS-AP",
-  "description": "Falcon Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138320,
+  "metadata" : {
+    "handle" : "FALCONLINK1-AS-AP",
+    "description" : "Falcon Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.122.252.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

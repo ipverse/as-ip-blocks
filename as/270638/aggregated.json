@@ -1,12 +1,15 @@
 {
-  "asn": 270638,
-  "handle": "SELLNET-TELECOM",
-  "description": "Sellnet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270638,
+  "metadata" : {
+    "handle" : "SELLNET-TELECOM",
+    "description" : "Sellnet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.192.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6f18::/32"
     ]
   }

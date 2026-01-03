@@ -1,9 +1,12 @@
 {
-  "asn": 37037,
-  "handle": "ORANGEMG-AS",
-  "description": "Orange Madagascar",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37037,
+  "metadata" : {
+    "handle" : "ORANGEMG-AS",
+    "description" : "Orange Madagascar",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.63.128.0/20",
       "41.63.144.0/21",
       "41.63.155.0/24",
@@ -37,7 +40,7 @@
       "197.159.144.0/20",
       "197.215.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f1c8::/32"
     ]
   }

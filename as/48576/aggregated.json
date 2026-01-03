@@ -1,12 +1,15 @@
 {
-  "asn": 48576,
-  "handle": "RISCH",
-  "description": "Dr. Risch AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48576,
+  "metadata" : {
+    "handle" : "RISCH",
+    "description" : "Dr. Risch AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.77.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5260::/32"
     ]
   }

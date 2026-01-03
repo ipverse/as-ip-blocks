@@ -1,9 +1,12 @@
 {
-  "asn": 47171,
-  "handle": "UNIBET-AS",
-  "description": "Kindred IP Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47171,
+  "metadata" : {
+    "handle" : "UNIBET-AS",
+    "description" : "Kindred IP Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.184.96.0/19",
       "91.199.56.0/24",
       "185.9.100.0/22",
@@ -12,6 +15,6 @@
       "192.121.200.0/22",
       "193.16.96.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

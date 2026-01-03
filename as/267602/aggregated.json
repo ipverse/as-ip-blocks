@@ -1,12 +1,15 @@
 {
-  "asn": 267602,
-  "handle": "M2-ONLINE",
-  "description": "M2 ONLINE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267602,
+  "metadata" : {
+    "handle" : "M2-ONLINE",
+    "description" : "M2 ONLINE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.71.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4418::/34",
       "2804:4418:8000::/33"
     ]

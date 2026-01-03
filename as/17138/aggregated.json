@@ -1,15 +1,18 @@
 {
-  "asn": 17138,
-  "handle": "MPSP-ENGINEERING",
-  "description": "Matt Peterman Sole Proprietor",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17138,
+  "metadata" : {
+    "handle" : "MPSP-ENGINEERING",
+    "description" : "Matt Peterman Sole Proprietor",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.51.172.0/22",
       "162.248.96.0/22",
       "170.39.232.0/22",
       "199.255.224.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:803:9000::/36",
       "2a06:a005:b10::/44",
       "2a06:a005:b20::/43",

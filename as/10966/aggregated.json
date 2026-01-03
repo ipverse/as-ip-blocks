@@ -1,12 +1,15 @@
 {
-  "asn": 10966,
-  "handle": "ALASKA-AIR",
-  "description": "Alaska Airlines Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10966,
+  "metadata" : {
+    "handle" : "ALASKA-AIR",
+    "description" : "Alaska Airlines Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.49.46.0/23",
       "159.49.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

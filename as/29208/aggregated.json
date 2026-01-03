@@ -1,9 +1,12 @@
 {
-  "asn": 29208,
-  "handle": "QUANTCOM-AS",
-  "description": "Quantcom a.s",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29208,
+  "metadata" : {
+    "handle" : "QUANTCOM-AS",
+    "description" : "Quantcom a.s.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.57.141.0/24",
       "46.33.96.0/19",
       "62.4.96.0/21",
@@ -38,7 +41,7 @@
       "213.175.32.0/19",
       "213.191.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1508::/32",
       "2001:4de8::/32",
       "2a00:c40::/32",

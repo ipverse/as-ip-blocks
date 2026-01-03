@@ -1,13 +1,16 @@
 {
-  "asn": 131713,
-  "handle": "IDNIC-SPICELINK-AS-ID",
-  "description": "PT Sano Komunikasi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131713,
+  "metadata" : {
+    "handle" : "IDNIC-SPICELINK-AS-ID",
+    "description" : "PT Sano Komunikasi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.9.144.0/22",
       "103.149.140.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:2980::/48",
       "2407:6380::/32"
     ]

@@ -1,13 +1,16 @@
 {
-  "asn": 25084,
-  "handle": "CZESTMAN-COM-AS",
-  "description": "Politechnika Czestochowska",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25084,
+  "metadata" : {
+    "handle" : "CZESTMAN-COM-AS",
+    "description" : "Politechnika Czestochowska",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.87.240.0/23",
       "212.87.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:699::/32"
     ]
   }

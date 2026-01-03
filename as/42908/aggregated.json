@@ -1,9 +1,12 @@
 {
-  "asn": 42908,
-  "handle": "CZ-NORDICTELECOMREGIONAL",
-  "description": "O2 Czech Republic a.s",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42908,
+  "metadata" : {
+    "handle" : "CZ-NORDICTELECOMREGIONAL",
+    "description" : "O2 Czech Republic a.s.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.102.48.0/20",
       "31.10.56.0/21",
       "45.159.116.0/22",
@@ -40,7 +43,7 @@
       "217.196.112.0/20",
       "217.197.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e4c0::/32",
       "2a01:9f40::/29",
       "2a02:2428::/32",

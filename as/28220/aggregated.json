@@ -1,9 +1,12 @@
 {
-  "asn": 28220,
-  "handle": "ALARES-CABO-SERVICOS",
-  "description": "Alares Cabo Servicos de Telecomunicacoes S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28220,
+  "metadata" : {
+    "handle" : "ALARES-CABO-SERVICOS",
+    "description" : "Alares Cabo Servicos de Telecomunicacoes S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.4.64.0/22",
       "45.165.20.0/22",
       "131.108.228.0/22",
@@ -47,7 +50,7 @@
       "200.233.80.0/20",
       "201.148.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:54::/32",
       "2804:880:1001::/48",
       "2804:880:1600::/39",

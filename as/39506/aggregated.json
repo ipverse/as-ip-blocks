@@ -1,9 +1,12 @@
 {
-  "asn": 39506,
-  "handle": "MFX-AS",
-  "description": "Syntis SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39506,
+  "metadata" : {
+    "handle" : "MFX-AS",
+    "description" : "Syntis SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.83.232.0/23",
       "5.83.234.0/24",
       "91.216.228.0/24",
@@ -12,7 +15,7 @@
       "195.210.42.0/23",
       "198.52.42.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5dc0::/32"
     ]
   }

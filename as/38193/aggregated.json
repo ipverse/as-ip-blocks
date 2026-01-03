@@ -1,9 +1,12 @@
 {
-  "asn": 38193,
-  "handle": "TWA-AS-AP",
-  "description": "TRANS WORLD ASSOCIATES (PVT) LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38193,
+  "metadata" : {
+    "handle" : "TWA-AS-AP",
+    "description" : "TRANS WORLD ASSOCIATES (PVT) LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.62.234.0/23",
       "103.86.38.0/24",
       "103.92.20.0/24",
@@ -45,7 +48,7 @@
       "221.132.116.0/23",
       "221.132.118.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:d400::/32"
     ]
   }

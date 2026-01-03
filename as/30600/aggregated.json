@@ -1,9 +1,12 @@
 {
-  "asn": 30600,
-  "handle": "AS-CMN",
-  "description": "Metronet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30600,
+  "metadata" : {
+    "handle" : "AS-CMN",
+    "description" : "Metronet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.110.0.0/16",
       "52.144.32.0/23",
       "52.144.113.0/24",
@@ -57,7 +60,7 @@
       "217.180.224.0/20",
       "217.180.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2603:d000::/24",
       "2606:9380::/32",
       "2607:fce8::/32"

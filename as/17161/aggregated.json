@@ -1,9 +1,12 @@
 {
-  "asn": 17161,
-  "handle": "MMC",
-  "description": "Marsh Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17161,
+  "metadata" : {
+    "handle" : "MMC",
+    "description" : "Marsh Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.245.3.0/24",
       "167.245.8.0/21",
       "167.245.16.0/20",
@@ -28,6 +31,6 @@
       "205.156.160.0/23",
       "205.156.164.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

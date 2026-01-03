@@ -1,9 +1,12 @@
 {
-  "asn": 5662,
-  "handle": "WBD-AS5662",
-  "description": "Turner Broadcasting System Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5662,
+  "metadata" : {
+    "handle" : "WBD-AS5662",
+    "description" : "Turner Broadcasting System Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.166.124.0/23",
       "157.166.130.0/23",
       "157.166.140.0/23",
@@ -19,7 +22,7 @@
       "168.161.12.0/22",
       "198.81.230.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:100:e000::/47"
     ]
   }

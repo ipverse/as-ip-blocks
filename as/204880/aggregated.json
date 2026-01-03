@@ -1,12 +1,15 @@
 {
-  "asn": 204880,
-  "handle": "HSWAW-BGPWTF",
-  "description": "Stowarzyszenie Warszawski Hackerspace",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204880,
+  "metadata" : {
+    "handle" : "HSWAW-BGPWTF",
+    "description" : "Stowarzyszenie Warszawski Hackerspace",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.236.240.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:eb00::/32",
       "2a0d:eb01::/48"
     ]

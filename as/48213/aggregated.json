@@ -1,14 +1,17 @@
 {
-  "asn": 48213,
-  "handle": "ABICOM",
-  "description": "ABICOM SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48213,
+  "metadata" : {
+    "handle" : "ABICOM",
+    "description" : "ABICOM SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.13.172.0/22",
       "185.135.236.0/22",
       "213.232.226.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:980::/29"
     ]
   }

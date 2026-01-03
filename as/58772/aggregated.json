@@ -1,9 +1,12 @@
 {
-  "asn": 58772,
-  "handle": "CHINANET-FUJIAN-FUZHOU-IDC",
-  "description": "CHINANET Fujian province Fuzhou IDC network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58772,
+  "metadata" : {
+    "handle" : "CHINANET-FUJIAN-FUZHOU-IDC",
+    "description" : "CHINANET Fujian province Fuzhou IDC network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.156.26.0/23",
       "110.80.144.0/20",
       "117.24.160.0/20",
@@ -12,7 +15,7 @@
       "182.44.64.0/19",
       "203.55.128.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:108:1185::/48",
       "240e:264:a000::/36",
       "240e:964:5000::/37",

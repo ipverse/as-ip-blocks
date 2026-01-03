@@ -1,12 +1,15 @@
 {
-  "asn": 270341,
-  "handle": "FUTEL-TELECOM",
-  "description": "Futel Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270341,
+  "metadata" : {
+    "handle" : "FUTEL-TELECOM",
+    "description" : "Futel Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.83.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6a84::/32"
     ]
   }

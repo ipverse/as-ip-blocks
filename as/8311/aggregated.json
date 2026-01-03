@@ -1,9 +1,12 @@
 {
-  "asn": 8311,
-  "handle": "REDESTEL",
-  "description": "Redestel Networks S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8311,
+  "metadata" : {
+    "handle" : "REDESTEL",
+    "description" : "Redestel Networks S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.255.117.0/24",
       "80.255.118.0/24",
       "93.177.114.0/23",
@@ -47,6 +50,6 @@
       "213.220.60.0/23",
       "213.220.63.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

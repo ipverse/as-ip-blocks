@@ -1,13 +1,16 @@
 {
-  "asn": 28639,
-  "handle": "LOCALNET-NETWORK",
-  "description": "LocalNet Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28639,
+  "metadata" : {
+    "handle" : "LOCALNET-NETWORK",
+    "description" : "LocalNet Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.129.68.0/22",
       "191.6.232.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:dd0::/32"
     ]
   }

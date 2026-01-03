@@ -1,9 +1,12 @@
 {
-  "asn": 31798,
-  "handle": "DATACITY",
-  "description": "DataCity",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31798,
+  "metadata" : {
+    "handle" : "DATACITY",
+    "description" : "DataCity",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.62.192.0/21",
       "45.62.200.0/24",
       "45.62.203.0/24",
@@ -15,7 +18,7 @@
       "158.51.220.0/24",
       "198.246.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:8880::/32"
     ]
   }

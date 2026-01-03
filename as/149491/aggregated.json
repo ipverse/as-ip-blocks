@@ -1,12 +1,15 @@
 {
-  "asn": 149491,
-  "handle": "RIGHTNET-AS-AP",
-  "description": "Right Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149491,
+  "metadata" : {
+    "handle" : "RIGHTNET-AS-AP",
+    "description" : "Right Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.181.24.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:5760::/32"
     ]
   }

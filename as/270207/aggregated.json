@@ -1,16 +1,19 @@
 {
-  "asn": 270207,
-  "handle": "MULTICARRIER-JE",
-  "description": "MULTICARRIER JE S. DE R.L. DE C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270207,
+  "metadata" : {
+    "handle" : "MULTICARRIER-JE",
+    "description" : "MULTICARRIER JE S. DE R.L. DE C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.27.192.0/24",
       "154.27.194.0/24",
       "154.27.196.0/24",
-      "154.27.200.0/24",
+      "154.27.200.0/23",
       "154.27.207.0/24",
       "205.164.192.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

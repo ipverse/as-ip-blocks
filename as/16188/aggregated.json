@@ -1,13 +1,16 @@
 {
-  "asn": 16188,
-  "handle": "PUNKT",
-  "description": "punkt.de GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16188,
+  "metadata" : {
+    "handle" : "PUNKT",
+    "description" : "punkt.de GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.15.190.0/24",
       "217.29.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:b580::/32"
     ]
   }

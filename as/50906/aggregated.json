@@ -1,12 +1,15 @@
 {
-  "asn": 50906,
-  "handle": "LUCIAD",
-  "description": "Luciad NV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50906,
+  "metadata" : {
+    "handle" : "LUCIAD",
+    "description" : "Luciad NV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.216.20.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1cc::/48"
     ]
   }

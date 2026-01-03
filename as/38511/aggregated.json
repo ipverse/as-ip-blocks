@@ -1,9 +1,12 @@
 {
-  "asn": 38511,
-  "handle": "TACHYON-AS-ID",
-  "description": "PT Remala Abadi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38511,
+  "metadata" : {
+    "handle" : "TACHYON-AS-ID",
+    "description" : "PT Remala Abadi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.251.4.0/22",
       "101.255.0.0/16",
       "103.15.172.0/22",
@@ -12,7 +15,7 @@
       "115.124.64.0/19",
       "202.182.48.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:cf00::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 17613,
-  "handle": "KTEINFO-AS",
-  "description": "KTE Information and Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17613,
+  "metadata" : {
+    "handle" : "KTEINFO-AS",
+    "description" : "KTE Information and Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.129.184.0/22",
       "183.86.201.0/24",
       "183.86.202.0/24",
       "211.244.144.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

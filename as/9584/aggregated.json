@@ -1,9 +1,12 @@
 {
-  "asn": 9584,
-  "handle": "GENESIS-AP",
-  "description": "Diyixian.com Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9584,
+  "metadata" : {
+    "handle" : "GENESIS-AP",
+    "description" : "Diyixian.com Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "113.21.184.0/24",
       "114.142.144.0/20",
       "152.104.0.0/18",
@@ -13,7 +16,7 @@
       "202.134.64.0/18",
       "219.90.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:eb0::/32"
     ]
   }

@@ -1,16 +1,19 @@
 {
-  "asn": 32575,
-  "handle": "DIGICERT",
-  "description": "DigiCert Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32575,
+  "metadata" : {
+    "handle" : "DIGICERT",
+    "description" : "DigiCert Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.19.218.0/24",
       "67.137.52.0/24",
       "202.65.16.0/23",
       "216.168.240.0/21",
       "216.168.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:815:c000::/40"
     ]
   }

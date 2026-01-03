@@ -1,9 +1,12 @@
 {
-  "asn": 209043,
-  "handle": "IPROYAL",
-  "description": "IPRoyal Services FZE LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209043,
+  "metadata" : {
+    "handle" : "IPROYAL",
+    "description" : "IPRoyal Services FZE LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.180.235.0/24",
       "5.252.184.0/23",
       "23.26.104.0/24",
@@ -49,6 +52,6 @@
       "206.53.49.0/24",
       "209.200.248.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

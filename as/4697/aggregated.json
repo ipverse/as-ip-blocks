@@ -1,9 +1,12 @@
 {
-  "asn": 4697,
-  "handle": "NTTV6NET",
-  "description": "Nippon Telegraph and Telephone Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4697,
+  "metadata" : {
+    "handle" : "NTTV6NET",
+    "description" : "Nippon Telegraph and Telephone Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.16.178.0/24",
       "192.26.93.0/24",
       "192.47.162.0/23",
@@ -12,7 +15,7 @@
       "192.47.176.0/22",
       "192.172.237.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:fa8::/32"
     ]
   }

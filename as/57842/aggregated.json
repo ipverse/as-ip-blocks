@@ -1,9 +1,12 @@
 {
-  "asn": 57842,
-  "handle": "URALKONNEKTSERVIS-AS",
-  "description": "UralKonnektServis LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57842,
+  "metadata" : {
+    "handle" : "URALKONNEKTSERVIS-AS",
+    "description" : "UralKonnektServis LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.185.65.0/24",
       "89.185.69.0/24",
       "91.225.216.0/24",
@@ -12,7 +15,7 @@
       "92.240.202.0/23",
       "193.105.131.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:440::/29"
     ]
   }

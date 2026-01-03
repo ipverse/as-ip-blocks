@@ -1,11 +1,14 @@
 {
-  "asn": 42123,
-  "handle": "IQM-AS",
-  "description": "IQ Management SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42123,
+  "metadata" : {
+    "handle" : "IQM-AS",
+    "description" : "IQ Management SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.41.136.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 55353,
-  "handle": "RPNET-AS-AP",
-  "description": "RAJESH PATEL NET SERVICES PVT. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55353,
+  "metadata" : {
+    "handle" : "RPNET-AS-AP",
+    "description" : "RAJESH PATEL NET SERVICES PVT. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.15.64.0/22",
       "111.118.240.0/20",
       "150.129.144.0/22",
       "183.182.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:c300::/36",
       "2401:c300:6000::/35",
       "2401:c300:8000::/33"

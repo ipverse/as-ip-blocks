@@ -1,12 +1,15 @@
 {
-  "asn": 264483,
-  "handle": "RP-TELECOM",
-  "description": "RP Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264483,
+  "metadata" : {
+    "handle" : "RP-TELECOM",
+    "description" : "RP Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.255.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2048::/32"
     ]
   }

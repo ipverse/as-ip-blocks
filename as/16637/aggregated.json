@@ -1,9 +1,12 @@
 {
-  "asn": 16637,
-  "handle": "MTNNS-AS",
-  "description": "MTN SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16637,
+  "metadata" : {
+    "handle" : "MTNNS-AS",
+    "description" : "MTN SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.112.0.0/12",
       "41.181.0.0/16",
       "41.195.0.0/16",
@@ -41,7 +44,7 @@
       "213.193.40.0/21",
       "213.193.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4218::/32",
       "2001:4260::/32",
       "2c0f:fb08::/32"

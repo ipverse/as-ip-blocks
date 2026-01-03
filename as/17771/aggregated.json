@@ -1,9 +1,12 @@
 {
-  "asn": 17771,
-  "handle": "SOUTHONLINE-AS-AP",
-  "description": "Southern Online Bio Technologies Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17771,
+  "metadata" : {
+    "handle" : "SOUTHONLINE-AS-AP",
+    "description" : "Southern Online Bio Technologies Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.127.190.0/23",
       "49.238.32.0/24",
       "103.246.44.0/22",
@@ -16,7 +19,7 @@
       "202.63.119.0/24",
       "202.63.120.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:1e00::/45",
       "2405:1e00:8::/48",
       "2405:1e00:21::/48",

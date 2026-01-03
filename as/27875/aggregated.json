@@ -1,9 +1,12 @@
 {
-  "asn": 27875,
-  "handle": "UNIVERSIDAD-NACIONAL-CUYO",
-  "description": "Universidad Nacional de Cuyo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27875,
+  "metadata" : {
+    "handle" : "UNIVERSIDAD-NACIONAL-CUYO",
+    "description" : "Universidad Nacional de Cuyo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.210.144.0/21",
       "179.0.132.0/22",
       "179.0.136.0/21",
@@ -13,7 +16,7 @@
       "200.12.136.0/23",
       "200.12.138.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:110:2800::/48",
       "2801:1e0::/41"
     ]

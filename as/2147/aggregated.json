@@ -1,14 +1,17 @@
 {
-  "asn": 2147,
-  "handle": "PA-AS",
-  "description": "The Press Association Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2147,
+  "metadata" : {
+    "handle" : "PA-AS",
+    "description" : "The Press Association Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.178.106.0/24",
       "144.178.116.0/24",
       "144.178.255.0/24",
       "193.36.64.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

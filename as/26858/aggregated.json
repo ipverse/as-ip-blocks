@@ -1,13 +1,16 @@
 {
-  "asn": 26858,
-  "handle": "SNIC-TX",
-  "description": "Sonic.net LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26858,
+  "metadata" : {
+    "handle" : "SNIC-TX",
+    "description" : "Sonic.net LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "75.101.64.0/19",
       "76.191.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:43c1::/32"
     ]
   }

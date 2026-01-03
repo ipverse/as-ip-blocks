@@ -1,9 +1,12 @@
 {
-  "asn": 52974,
-  "handle": "HENET-TELECOMUNICACOES",
-  "description": "Henet Telecomunicacoes Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52974,
+  "metadata" : {
+    "handle" : "HENET-TELECOMUNICACOES",
+    "description" : "Henet Telecomunicacoes Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.5.80.0/22",
       "45.227.236.0/22",
       "45.234.200.0/22",
@@ -21,7 +24,7 @@
       "181.233.172.0/22",
       "192.140.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1b94::/32"
     ]
   }

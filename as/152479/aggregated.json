@@ -1,9 +1,12 @@
 {
-  "asn": 152479,
-  "handle": "DSACL-AS-AP",
-  "description": "DELTA SOFTWARE AND COMMUNICATION LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152479,
+  "metadata" : {
+    "handle" : "DSACL-AS-AP",
+    "description" : "DELTA SOFTWARE AND COMMUNICATION LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.66.168.0/24",
       "103.124.110.0/24",
       "103.126.148.0/24",
@@ -14,7 +17,7 @@
       "103.224.55.0/24",
       "165.101.12.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:cfa0::/32"
     ]
   }

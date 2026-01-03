@@ -1,16 +1,19 @@
 {
-  "asn": 59472,
-  "handle": "SINERSIO-AS",
-  "description": "Sinersio Polska Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59472,
+  "metadata" : {
+    "handle" : "SINERSIO-AS",
+    "description" : "Sinersio Polska Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.152.160.0/23",
       "5.152.163.0/24",
       "5.152.164.0/22",
       "185.94.68.0/24",
       "185.94.71.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:8f40::/32"
     ]
   }

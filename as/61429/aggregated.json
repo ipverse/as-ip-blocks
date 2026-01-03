@@ -1,9 +1,12 @@
 {
-  "asn": 61429,
-  "handle": "AS-CASTOR",
-  "description": "Castor Communications BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61429,
+  "metadata" : {
+    "handle" : "AS-CASTOR",
+    "description" : "Castor Communications BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.125.107.0/24",
       "62.41.2.0/24",
       "62.41.10.0/24",
@@ -19,6 +22,6 @@
       "92.71.22.0/24",
       "185.6.108.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

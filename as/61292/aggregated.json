@@ -1,12 +1,15 @@
 {
-  "asn": 61292,
-  "handle": "BLXGRP",
-  "description": "Blix Group AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61292,
+  "metadata" : {
+    "handle" : "BLXGRP",
+    "description" : "Blix Group AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.152.34.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:ed03::/32",
       "2a05:e883::/36"
     ]

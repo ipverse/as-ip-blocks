@@ -1,9 +1,12 @@
 {
-  "asn": 35104,
-  "handle": "KTC-AS",
-  "description": "Jusan Mobile JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35104,
+  "metadata" : {
+    "handle" : "KTC-AS",
+    "description" : "Jusan Mobile JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.228.64.0/21",
       "46.235.80.0/21",
       "77.245.96.0/20",
@@ -28,7 +31,7 @@
       "217.196.28.0/24",
       "217.196.30.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:a300::/32"
     ]
   }

@@ -1,12 +1,16 @@
 {
-  "asn": 265579,
-  "handle": "TELECOMUNICACIONES-OTOMIES",
-  "description": "TELECOMUNICACIONES OTOMIES",
-  "subnets": {
-    "ipv4": [
-      "45.174.168.0/23",
-      "45.174.171.0/24"
+  "asn" : 265579,
+  "metadata" : {
+    "handle" : "TELECOMUNICACIONES-OTOMIES",
+    "description" : "TELECOMUNICACIONES OTOMIES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
+      "45.174.168.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [
+      "2806:333::/32"
+    ]
   }
 }

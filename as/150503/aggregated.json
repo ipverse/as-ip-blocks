@@ -1,13 +1,16 @@
 {
-  "asn": 150503,
-  "handle": "IDNIC-ITNET-AS-ID",
-  "description": "PT Indo Tungkal Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150503,
+  "metadata" : {
+    "handle" : "IDNIC-ITNET-AS-ID",
+    "description" : "PT Indo Tungkal Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.126.238.0/24",
       "163.227.201.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:de40::/48"
     ]
   }

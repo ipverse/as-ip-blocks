@@ -1,13 +1,16 @@
 {
-  "asn": 52812,
-  "handle": "WRLINK-TELECOM",
-  "description": "WRLINK TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52812,
+  "metadata" : {
+    "handle" : "WRLINK-TELECOM",
+    "description" : "WRLINK TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.219.68.0/22",
       "177.75.16.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:bb4::/32"
     ]
   }

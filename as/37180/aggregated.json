@@ -1,12 +1,15 @@
 {
-  "asn": 37180,
-  "handle": "SAA",
-  "description": "South African Airways",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37180,
+  "metadata" : {
+    "handle" : "SAA",
+    "description" : "South African Airways",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "196.46.23.0/24",
       "196.46.30.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

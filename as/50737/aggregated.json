@@ -1,12 +1,15 @@
 {
-  "asn": 50737,
-  "handle": "ASRAS",
-  "description": "ASR Nederland N.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50737,
+  "metadata" : {
+    "handle" : "ASRAS",
+    "description" : "ASR Nederland N.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.105.111.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:4740::/32"
     ]
   }

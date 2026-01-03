@@ -1,13 +1,16 @@
 {
-  "asn": 42842,
-  "handle": "HELIOS-TV-AS",
-  "description": "PJSC Vimpelcom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42842,
+  "metadata" : {
+    "handle" : "HELIOS-TV-AS",
+    "description" : "PJSC Vimpelcom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.9.73.0/24",
       "89.113.136.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:8700:5000::/36"
     ]
   }

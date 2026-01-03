@@ -1,9 +1,12 @@
 {
-  "asn": 24016,
-  "handle": "RAAJJEONLINE-AS",
-  "description": "Focus Infocom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24016,
+  "metadata" : {
+    "handle" : "RAAJJEONLINE-AS",
+    "description" : "Focus Infocom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.197.165.0/24",
       "103.197.167.0/24",
       "115.84.128.0/20",
@@ -17,7 +20,7 @@
       "202.21.184.0/22",
       "220.158.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:8300:f000::/47",
       "2401:8300:f002::/48"
     ]

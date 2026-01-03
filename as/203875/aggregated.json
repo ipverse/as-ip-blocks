@@ -1,12 +1,15 @@
 {
-  "asn": 203875,
-  "handle": "STRAND-AS",
-  "description": "Henri Strand",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203875,
+  "metadata" : {
+    "handle" : "STRAND-AS",
+    "description" : "Henri Strand",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.16.107.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4cc5::/32"
     ]
   }

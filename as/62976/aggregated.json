@@ -1,13 +1,16 @@
 {
-  "asn": 62976,
-  "handle": "CAMPLINK",
-  "description": "Camplink",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62976,
+  "metadata" : {
+    "handle" : "CAMPLINK",
+    "description" : "Camplink",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.197.0.0/16",
       "185.203.192.0/22",
       "206.251.192.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 9880,
-  "handle": "NEXTGENNET-AS1-AU-AP",
-  "description": "NextGen.Net Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9880,
+  "metadata" : {
+    "handle" : "NEXTGENNET-AS1-AU-AP",
+    "description" : "NextGen.Net Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.80.32.0/19",
       "164.80.64.0/18",
       "164.80.128.0/17",
       "203.33.140.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

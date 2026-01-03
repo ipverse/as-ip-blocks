@@ -1,10 +1,13 @@
 {
-  "asn": 274669,
-  "handle": "CLOUDINET-PROVEDOR-INTERNET",
-  "description": "CloudiNet Provedor de Internet",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 274669,
+  "metadata" : {
+    "handle" : "CLOUDINET-PROVEDOR-INTERNET",
+    "description" : "CloudiNet Provedor de Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2804:91d8::/38"
     ]
   }

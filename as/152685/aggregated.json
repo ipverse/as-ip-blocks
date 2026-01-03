@@ -1,14 +1,17 @@
 {
-  "asn": 152685,
-  "handle": "SAMITPARK-AS-AP",
-  "description": "Sam IT Park",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152685,
+  "metadata" : {
+    "handle" : "SAMITPARK-AS-AP",
+    "description" : "Sam IT Park",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.98.76.0/23",
       "144.79.86.0/23",
       "144.79.218.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:a940::/48"
     ]
   }

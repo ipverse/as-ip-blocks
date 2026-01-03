@@ -1,9 +1,12 @@
 {
-  "asn": 62969,
-  "handle": "ABCCOMM",
-  "description": "ABC Allen Business Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62969,
+  "metadata" : {
+    "handle" : "ABCCOMM",
+    "description" : "ABC Allen Business Communications Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.163.192.0/24",
       "104.36.100.0/22",
       "172.83.68.0/22",
@@ -14,7 +17,7 @@
       "204.239.211.0/24",
       "216.57.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:7e80::/32"
     ]
   }

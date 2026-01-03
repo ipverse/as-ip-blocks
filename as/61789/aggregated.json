@@ -1,14 +1,17 @@
 {
-  "asn": 61789,
-  "handle": "PORTO-SEGURO",
-  "description": "PORTO SEGURO CIA DE SEGUROS GERAIS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61789,
+  "metadata" : {
+    "handle" : "PORTO-SEGURO",
+    "description" : "PORTO SEGURO CIA DE SEGUROS GERAIS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.161.96.0/22",
       "138.0.220.0/22",
       "143.137.104.0/22",
       "200.229.112.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

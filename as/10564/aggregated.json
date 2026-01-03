@@ -1,9 +1,12 @@
 {
-  "asn": 10564,
-  "handle": "TCSI",
-  "description": "ROCKET SOFTWARE INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10564,
+  "metadata" : {
+    "handle" : "TCSI",
+    "description" : "ROCKET SOFTWARE INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.134.42.0/23",
       "137.134.47.0/24",
       "137.134.100.0/22",
@@ -15,7 +18,7 @@
       "137.134.252.0/23",
       "137.134.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:117::/40"
     ]
   }

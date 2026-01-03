@@ -1,9 +1,12 @@
 {
-  "asn": 11398,
-  "handle": "CENTURYLINK-LEGACY-EMBARQ-LVGS",
-  "description": "CenturyLink Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11398,
+  "metadata" : {
+    "handle" : "CENTURYLINK-LEGACY-EMBARQ-LVGS",
+    "description" : "CenturyLink Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.164.32.0/20",
       "63.165.24.0/21",
       "65.40.112.0/21",
@@ -64,6 +67,6 @@
       "208.17.76.0/22",
       "208.29.224.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 203380,
-  "handle": "DAINTERNATIONALGROUP",
-  "description": "DA International Group Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203380,
+  "metadata" : {
+    "handle" : "DAINTERNATIONALGROUP",
+    "description" : "DA International Group Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.22.10.0/24",
       "45.59.100.0/23",
       "77.76.13.0/24",
@@ -35,7 +38,7 @@
       "194.107.163.0/24",
       "217.217.28.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc16:1::/48",
       "2602:fc16:2::/47",
       "2602:fc16:5::/48",

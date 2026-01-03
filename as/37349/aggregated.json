@@ -1,9 +1,12 @@
 {
-  "asn": 37349,
-  "handle": "APTUS",
-  "description": "Aptus Solutions Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37349,
+  "metadata" : {
+    "handle" : "APTUS",
+    "description" : "Aptus Solutions Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.79.68.0/22",
       "41.207.240.0/21",
       "102.210.200.0/22",
@@ -11,7 +14,7 @@
       "196.200.224.0/20",
       "217.29.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fda8::/32"
     ]
   }

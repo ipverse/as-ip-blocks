@@ -1,13 +1,16 @@
 {
-  "asn": 267043,
-  "handle": "VN3-TELECOM",
-  "description": "Vn3 Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267043,
+  "metadata" : {
+    "handle" : "VN3-TELECOM",
+    "description" : "Vn3 Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.227.213.0/24",
       "45.227.214.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4748:8000::/33"
     ]
   }

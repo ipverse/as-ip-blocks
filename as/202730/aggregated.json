@@ -1,12 +1,15 @@
 {
-  "asn": 202730,
-  "handle": "MAINZ05-AS",
-  "description": "1. FSV Mainz 05 e.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202730,
+  "metadata" : {
+    "handle" : "MAINZ05-AS",
+    "description" : "1. FSV Mainz 05 e.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.142.112.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:2d00::/48"
     ]
   }

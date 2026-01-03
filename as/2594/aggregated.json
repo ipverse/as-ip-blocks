@@ -1,14 +1,17 @@
 {
-  "asn": 2594,
-  "handle": "ASN-CSI",
-  "description": "CSI Piemonte",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2594,
+  "metadata" : {
+    "handle" : "ASN-CSI",
+    "description" : "CSI Piemonte",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.240.128.0/18",
       "158.102.0.0/16",
       "185.244.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1a60::/32"
     ]
   }

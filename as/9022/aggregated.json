@@ -1,9 +1,12 @@
 {
-  "asn": 9022,
-  "handle": "TWL-KOM-AS",
-  "description": "TWL-Kom GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9022,
+  "metadata" : {
+    "handle" : "TWL-KOM-AS",
+    "description" : "TWL-Kom GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.208.232.0/21",
       "91.198.187.0/24",
       "109.73.48.0/20",
@@ -15,7 +18,7 @@
       "212.21.160.0/19",
       "217.151.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e58::/32",
       "2a00:a980::/32"
     ]

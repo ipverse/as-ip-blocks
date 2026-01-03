@@ -1,12 +1,15 @@
 {
-  "asn": 200993,
-  "handle": "NYANET",
-  "description": "Yanislav Basiuk",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200993,
+  "metadata" : {
+    "handle" : "NYANET",
+    "description" : "Yanislav Basiuk",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.175.134.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:ecc0:6f4::/46",
       "2a0d:d940:52::/47",
       "2a0d:d940:1300::/40",

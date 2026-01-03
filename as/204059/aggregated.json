@@ -1,13 +1,16 @@
 {
-  "asn": 204059,
-  "handle": "NEUTRINET",
-  "description": "Neutrinet ASBL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204059,
+  "metadata" : {
+    "handle" : "NEUTRINET",
+    "description" : "Neutrinet ASBL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.67.181.0/24",
       "80.67.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:913:1000::/36"
     ]
   }

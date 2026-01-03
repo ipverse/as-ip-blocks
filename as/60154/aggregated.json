@@ -1,13 +1,16 @@
 {
-  "asn": 60154,
-  "handle": "CONNECTRIA-ASN-1",
-  "description": "Connectria LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60154,
+  "metadata" : {
+    "handle" : "CONNECTRIA-ASN-1",
+    "description" : "Connectria LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.49.26.0/24",
       "192.251.230.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:7ac0::/29"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 401013,
-  "handle": "BNET",
-  "description": "BNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401013,
+  "metadata" : {
+    "handle" : "BNET",
+    "description" : "BNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.52.243.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

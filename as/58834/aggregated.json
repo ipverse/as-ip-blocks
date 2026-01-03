@@ -1,9 +1,12 @@
 {
-  "asn": 58834,
-  "handle": "GCABLENET",
-  "description": "Guangdong Cable Corporation Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58834,
+  "metadata" : {
+    "handle" : "GCABLENET",
+    "description" : "Guangdong Cable Corporation Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.243.244.0/22",
       "103.27.24.0/22",
       "119.2.128.0/17",
@@ -15,7 +18,7 @@
       "203.132.32.0/19",
       "211.154.176.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:9f00::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 32040,
-  "handle": "TRENTON-TELEPHONE",
-  "description": "Trenton Telephone Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32040,
+  "metadata" : {
+    "handle" : "TRENTON-TELEPHONE",
+    "description" : "Trenton Telephone Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.238.55.0/24",
       "67.58.94.0/24",
       "67.218.168.0/22",
@@ -17,6 +20,6 @@
       "216.8.60.0/23",
       "216.8.62.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

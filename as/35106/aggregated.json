@@ -1,12 +1,15 @@
 {
-  "asn": 35106,
-  "handle": "MICROSOFT-LIVE-MEETING",
-  "description": "Microsoft Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35106,
+  "metadata" : {
+    "handle" : "MICROSOFT-LIVE-MEETING",
+    "description" : "Microsoft Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.69.104.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:110:9008::/48"
     ]
   }

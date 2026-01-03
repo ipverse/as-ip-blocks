@@ -1,9 +1,12 @@
 {
-  "asn": 58717,
-  "handle": "SUMMITCOMMUNICATIONS-BD",
-  "description": "Summit Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58717,
+  "metadata" : {
+    "handle" : "SUMMITCOMMUNICATIONS-BD",
+    "description" : "Summit Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.245.140.0/22",
       "103.15.244.0/22",
       "103.26.246.0/23",
@@ -18,7 +21,7 @@
       "175.41.44.0/22",
       "202.94.164.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:1500::/30"
     ]
   }

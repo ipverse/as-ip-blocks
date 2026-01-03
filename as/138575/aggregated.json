@@ -1,13 +1,16 @@
 {
-  "asn": 138575,
-  "handle": "APPLE2-AS-AP",
-  "description": "APPLE NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138575,
+  "metadata" : {
+    "handle" : "APPLE2-AS-AP",
+    "description" : "APPLE NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.133.140.0/22",
       "165.99.81.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:4d40:1000::/36",
       "2404:4d40:2000::/35",
       "2404:4d40:4000::/34",

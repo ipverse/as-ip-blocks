@@ -1,12 +1,15 @@
 {
-  "asn": 6733,
-  "handle": "BFARM",
-  "description": "Bundesinstitut fuer Arzneimittel und Medizinprodukte (BfArM)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6733,
+  "metadata" : {
+    "handle" : "BFARM",
+    "description" : "Bundesinstitut fuer Arzneimittel und Medizinprodukte (BfArM)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.108.176.0/24",
       "194.153.219.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 395680,
-  "handle": "C05-WAN",
-  "description": "Clark Associates Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395680,
+  "metadata" : {
+    "handle" : "C05-WAN",
+    "description" : "Clark Associates Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.234.137.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:559:719::/48"
     ]
   }

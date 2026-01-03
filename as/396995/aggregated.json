@@ -1,11 +1,14 @@
 {
-  "asn": 396995,
-  "handle": "BGP",
-  "description": "Morris Hospital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396995,
+  "metadata" : {
+    "handle" : "BGP",
+    "description" : "Morris Hospital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.229.28.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

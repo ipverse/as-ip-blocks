@@ -1,9 +1,12 @@
 {
-  "asn": 40123,
-  "handle": "R2G-2",
-  "description": "Transaction Network Services Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40123,
+  "metadata" : {
+    "handle" : "R2G-2",
+    "description" : "Transaction Network Services Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.133.160.0/24",
       "41.221.210.0/24",
       "83.126.16.0/23",
@@ -11,6 +14,6 @@
       "83.126.56.0/24",
       "204.14.0.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

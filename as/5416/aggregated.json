@@ -1,9 +1,12 @@
 {
-  "asn": 5416,
-  "handle": "BEYON-BSC",
-  "description": "BEYON B.S.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5416,
+  "metadata" : {
+    "handle" : "BEYON-BSC",
+    "description" : "BEYON B.S.C.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.69.128.0/17",
       "82.194.32.0/19",
       "84.255.128.0/18",
@@ -14,7 +17,7 @@
       "193.188.96.0/19",
       "217.17.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1a40::/32"
     ]
   }

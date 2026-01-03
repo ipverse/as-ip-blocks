@@ -1,16 +1,19 @@
 {
-  "asn": 207684,
-  "handle": "BAJTNET",
-  "description": "BAJTNET SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207684,
+  "metadata" : {
+    "handle" : "BAJTNET",
+    "description" : "BAJTNET SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.59.14.0/23",
       "193.59.16.0/22",
       "193.59.24.0/22",
       "194.92.64.0/21",
       "194.92.72.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:3a40:1001::/48"
     ]
   }

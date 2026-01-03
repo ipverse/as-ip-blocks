@@ -1,9 +1,12 @@
 {
-  "asn": 48359,
-  "handle": "HESABGAR-AS",
-  "description": "Hesabgar Pardaz Gharb PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48359,
+  "metadata" : {
+    "handle" : "HESABGAR-AS",
+    "description" : "Hesabgar Pardaz Gharb PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.155.192.0/22",
       "91.213.157.0/24",
       "91.213.167.0/24",
@@ -29,7 +32,7 @@
       "195.191.44.0/23",
       "195.230.97.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:acc4::/30"
     ]
   }

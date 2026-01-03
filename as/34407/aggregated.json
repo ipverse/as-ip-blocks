@@ -1,13 +1,16 @@
 {
-  "asn": 34407,
-  "handle": "WAVECREST-AS01",
-  "description": "Wavecrest Networks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34407,
+  "metadata" : {
+    "handle" : "WAVECREST-AS01",
+    "description" : "Wavecrest Networks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.162.100.0/22",
       "195.8.96.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:c400::/29"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 204326,
-  "handle": "FIRSTAS-GATET1",
-  "description": "GATE T1 SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204326,
+  "metadata" : {
+    "handle" : "FIRSTAS-GATET1",
+    "description" : "GATE T1 SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.132.40.0/22",
       "171.22.92.0/22",
       "185.18.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:d00::/29",
       "2a09:3cc0::/29",
       "2a0d:9f40::/29"

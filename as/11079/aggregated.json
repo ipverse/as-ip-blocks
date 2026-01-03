@@ -1,9 +1,12 @@
 {
-  "asn": 11079,
-  "handle": "ZAYO-CAN-11079",
-  "description": "Zayo Bandwidth",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11079,
+  "metadata" : {
+    "handle" : "ZAYO-CAN-11079",
+    "description" : "Zayo Bandwidth",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.236.0.0/17",
       "157.244.195.0/24",
       "198.103.36.0/24",
@@ -30,6 +33,6 @@
       "205.193.208.0/23",
       "205.193.240.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

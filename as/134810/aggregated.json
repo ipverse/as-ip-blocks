@@ -1,9 +1,12 @@
 {
-  "asn": 134810,
-  "handle": "CMNET-JILIN-AS-AP",
-  "description": "China Mobile Communications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134810,
+  "metadata" : {
+    "handle" : "CMNET-JILIN-AS-AP",
+    "description" : "China Mobile Communications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.134.66.0/23",
       "36.135.0.0/17",
       "36.137.48.0/23",
@@ -29,7 +32,7 @@
       "223.160.146.0/23",
       "223.161.210.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:9a80::/32",
       "2407:37c0::/32",
       "2409:8018::/34",

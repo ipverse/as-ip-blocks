@@ -1,9 +1,12 @@
 {
-  "asn": 12850,
-  "handle": "ASN-ENTER",
-  "description": "Retelit Digital Services S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12850,
+  "metadata" : {
+    "handle" : "ASN-ENTER",
+    "description" : "Retelit Digital Services S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.139.88.0/21",
       "80.247.64.0/20",
       "87.248.32.0/19",
@@ -13,7 +16,7 @@
       "212.29.128.0/19",
       "212.91.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4d38::/32"
     ]
   }

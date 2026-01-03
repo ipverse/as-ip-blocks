@@ -1,15 +1,18 @@
 {
-  "asn": 57948,
-  "handle": "COBALT",
-  "description": "Cobalt Group BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57948,
+  "metadata" : {
+    "handle" : "COBALT",
+    "description" : "Cobalt Group BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.40.0/23",
       "2.57.42.0/24",
       "91.236.244.0/23",
       "185.70.44.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:2600::/29"
     ]
   }

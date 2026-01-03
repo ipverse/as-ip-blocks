@@ -1,9 +1,12 @@
 {
-  "asn": 26585,
-  "handle": "SIAC-SFTI",
-  "description": "Securities Industry Automation Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26585,
+  "metadata" : {
+    "handle" : "SIAC-SFTI",
+    "description" : "Securities Industry Automation Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.224.2.0/23",
       "158.224.18.0/23",
       "158.224.20.0/23",
@@ -25,6 +28,6 @@
       "216.221.208.0/21",
       "216.221.220.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

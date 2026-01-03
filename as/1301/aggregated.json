@@ -1,9 +1,12 @@
 {
-  "asn": 1301,
-  "handle": "FR-EDFDPT3",
-  "description": "Electricite de France SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1301,
+  "metadata" : {
+    "handle" : "FR-EDFDPT3",
+    "description" : "Electricite de France SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.62.72.0/21",
       "163.62.80.0/22",
       "163.62.92.0/22",
@@ -18,7 +21,7 @@
       "192.54.192.0/23",
       "192.196.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:7e40::/36",
       "2a00:7e40:9ac1::/48"
     ]

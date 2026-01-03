@@ -1,9 +1,12 @@
 {
-  "asn": 18258,
-  "handle": "MS-JP-AS-AP",
-  "description": "Morgan Stanley Japan Group Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18258,
+  "metadata" : {
+    "handle" : "MS-JP-AS-AP",
+    "description" : "Morgan Stanley Japan Group Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "205.228.96.0/24",
       "205.228.104.0/24",
       "205.228.108.0/24",
@@ -11,6 +14,6 @@
       "205.228.123.0/24",
       "209.8.176.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

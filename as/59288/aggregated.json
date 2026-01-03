@@ -1,15 +1,18 @@
 {
-  "asn": 59288,
-  "handle": "IDNIC-NETSENTRA-AS-ID",
-  "description": "PT Net Sentra Cyberindo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59288,
+  "metadata" : {
+    "handle" : "IDNIC-NETSENTRA-AS-ID",
+    "description" : "PT Net Sentra Cyberindo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.0.196.0/23",
       "27.0.199.0/24",
       "103.84.10.0/24",
       "103.229.160.0/23",
       "103.229.163.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

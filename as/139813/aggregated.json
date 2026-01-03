@@ -1,12 +1,15 @@
 {
-  "asn": 139813,
-  "handle": "SMARTONLINE-AS-AP",
-  "description": "Smart Online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139813,
+  "metadata" : {
+    "handle" : "SMARTONLINE-AS-AP",
+    "description" : "Smart Online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.14.168.0/24",
       "103.145.134.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

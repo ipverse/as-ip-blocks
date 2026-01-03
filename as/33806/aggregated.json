@@ -1,9 +1,12 @@
 {
-  "asn": 33806,
-  "handle": "COMARCH-DE-AS",
-  "description": "Comarch AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33806,
+  "metadata" : {
+    "handle" : "COMARCH-DE-AS",
+    "description" : "Comarch AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.212.255.0/24",
       "188.191.128.0/23",
       "193.56.69.0/24",
@@ -11,6 +14,6 @@
       "195.136.180.0/22",
       "195.200.206.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

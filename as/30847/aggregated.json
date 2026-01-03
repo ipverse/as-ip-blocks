@@ -1,12 +1,15 @@
 {
-  "asn": 30847,
-  "handle": "LUNS-AS",
-  "description": "Lancaster University Network Services Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30847,
+  "metadata" : {
+    "handle" : "LUNS-AS",
+    "description" : "Lancaster University Network Services Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "217.114.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:8900::/32"
     ]
   }

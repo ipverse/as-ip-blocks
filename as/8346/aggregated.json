@@ -1,9 +1,12 @@
 {
-  "asn": 8346,
-  "handle": "SONATEL",
-  "description": "SONATEL-AS Autonomous System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8346,
+  "metadata" : {
+    "handle" : "SONATEL",
+    "description" : "SONATEL-AS Autonomous System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.82.0.0/15",
       "41.208.128.0/18",
       "41.214.0.0/17",
@@ -18,7 +21,7 @@
       "197.214.80.0/20",
       "213.154.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4278::/32",
       "2a01:c9c0:c016::/48"
     ]

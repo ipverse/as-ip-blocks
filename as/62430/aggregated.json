@@ -1,10 +1,13 @@
 {
-  "asn": 62430,
-  "handle": "LAFRANQUE-AS",
-  "description": "Alce Lafranque",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 62430,
+  "metadata" : {
+    "handle" : "LAFRANQUE-AS",
+    "description" : "Alce Lafranque",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:67c:9ec::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 42840,
-  "handle": "SWERK-GERMANY",
-  "description": "S.WERK GMBH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42840,
+  "metadata" : {
+    "handle" : "SWERK-GERMANY",
+    "description" : "S.WERK GMBH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.73.248.0/21",
       "83.136.128.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

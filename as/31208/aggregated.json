@@ -1,9 +1,12 @@
 {
-  "asn": 31208,
-  "handle": "MF-CENTER-AS",
-  "description": "PJSC MegaFon",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31208,
+  "metadata" : {
+    "handle" : "MF-CENTER-AS",
+    "description" : "PJSC MegaFon",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.28.184.0/24",
       "37.28.186.0/24",
       "37.29.72.0/24",
@@ -27,7 +30,7 @@
       "188.170.59.0/24",
       "188.170.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:d000:3000::/36"
     ]
   }

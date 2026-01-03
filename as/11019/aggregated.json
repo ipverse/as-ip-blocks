@@ -1,9 +1,12 @@
 {
-  "asn": 11019,
-  "handle": "HAPROXY-TECHNOLOGIES",
-  "description": "HAProxy Technologies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11019,
+  "metadata" : {
+    "handle" : "HAPROXY-TECHNOLOGIES",
+    "description" : "HAProxy Technologies Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.22.53.0/24",
       "104.152.112.0/21",
       "205.234.165.0/24",
@@ -17,7 +20,7 @@
       "209.126.48.0/22",
       "209.126.52.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:cac0::/45",
       "2604:cac0:8::/47",
       "2604:cac0:45::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 23871,
-  "handle": "AINS-AS-AP",
-  "description": "Australia Internet Solutions Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23871,
+  "metadata" : {
+    "handle" : "AINS-AS-AP",
+    "description" : "Australia Internet Solutions Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "123.108.69.0/24",
       "123.108.71.0/24",
       "125.62.76.0/24",
@@ -31,7 +34,7 @@
       "203.34.248.0/23",
       "203.62.158.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:1600::/32"
     ]
   }

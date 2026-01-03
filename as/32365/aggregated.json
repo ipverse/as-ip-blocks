@@ -1,15 +1,18 @@
 {
-  "asn": 32365,
-  "handle": "SANDYNET",
-  "description": "City of Sandy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32365,
+  "metadata" : {
+    "handle" : "SANDYNET",
+    "description" : "City of Sandy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.71.4.0/22",
       "173.241.160.0/20",
       "204.8.84.0/22",
       "206.168.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:280::/32"
     ]
   }

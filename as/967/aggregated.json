@@ -1,9 +1,12 @@
 {
-  "asn": 967,
-  "handle": "VMISS-CA",
-  "description": "VMISS Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 967,
+  "metadata" : {
+    "handle" : "VMISS-CA",
+    "description" : "VMISS Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.236.66.0/23",
       "23.236.68.0/23",
       "38.55.100.0/22",
@@ -31,7 +34,7 @@
       "206.237.14.0/24",
       "209.146.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:1fe0::/46",
       "2401:1fe0:4::/47",
       "2401:1fe0:6::/48",

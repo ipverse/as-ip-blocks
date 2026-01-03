@@ -1,12 +1,15 @@
 {
-  "asn": 150771,
-  "handle": "FUYU-AS",
-  "description": "FUYU Group Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150771,
+  "metadata" : {
+    "handle" : "FUYU-AS",
+    "description" : "FUYU Group Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.20.68.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:81a0::/32"
     ]
   }

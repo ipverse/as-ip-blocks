@@ -1,9 +1,12 @@
 {
-  "asn": 1906,
-  "handle": "NORTHROP-GRUMMAN",
-  "description": "Northrop Grumman",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1906,
+  "metadata" : {
+    "handle" : "NORTHROP-GRUMMAN",
+    "description" : "Northrop Grumman",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.4.0.0/16",
       "130.124.0.0/16",
       "132.228.0.0/16",
@@ -49,6 +52,6 @@
       "208.12.122.0/24",
       "208.20.220.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

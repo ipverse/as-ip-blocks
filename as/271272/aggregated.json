@@ -1,12 +1,15 @@
 {
-  "asn": 271272,
-  "handle": "REDE-W10-PROVEDOR",
-  "description": "REDE W10 - PROVEDOR DE INTERNET LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271272,
+  "metadata" : {
+    "handle" : "REDE-W10-PROVEDOR",
+    "description" : "REDE W10 - PROVEDOR DE INTERNET LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.113.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:78e4::/32"
     ]
   }

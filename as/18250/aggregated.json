@@ -1,12 +1,15 @@
 {
-  "asn": 18250,
-  "handle": "GEEK-AS-AP",
-  "description": "GEEK NETWORKS PTY LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18250,
+  "metadata" : {
+    "handle" : "GEEK-AS-AP",
+    "description" : "GEEK NETWORKS PTY LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.157.110.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:58a0:d000::/36",
       "2400:58a0:e000::/36",
       "2406:9dc0::/44",

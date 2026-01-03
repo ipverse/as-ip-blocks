@@ -1,11 +1,14 @@
 {
-  "asn": 210488,
-  "handle": "HYOCLOUD-AS",
-  "description": "Hyocloud Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210488,
+  "metadata" : {
+    "handle" : "HYOCLOUD-AS",
+    "description" : "Hyocloud Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.170.73.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

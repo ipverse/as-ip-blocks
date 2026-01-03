@@ -1,9 +1,12 @@
 {
-  "asn": 29219,
-  "handle": "SAQ-UK-AS",
-  "description": "SEMTEC LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29219,
+  "metadata" : {
+    "handle" : "SAQ-UK-AS",
+    "description" : "SEMTEC LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.2.128.0/23",
       "195.2.130.0/24",
       "195.2.137.0/24",
@@ -12,6 +15,6 @@
       "195.2.148.0/22",
       "195.2.152.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

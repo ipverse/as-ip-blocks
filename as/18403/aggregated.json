@@ -1,9 +1,12 @@
 {
-  "asn": 18403,
-  "handle": "FPT-AS-AP",
-  "description": "FPT Telecom Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18403,
+  "metadata" : {
+    "handle" : "FPT-AS-AP",
+    "description" : "FPT Telecom Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.52.0.0/14",
       "23.32.74.0/24",
       "23.33.120.0/22",
@@ -29,7 +32,7 @@
       "203.191.8.0/21",
       "210.245.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:4800::/30"
     ]
   }

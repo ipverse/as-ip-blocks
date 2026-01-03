@@ -1,13 +1,16 @@
 {
-  "asn": 50274,
-  "handle": "ALFANET-AS",
-  "description": "Alfanet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50274,
+  "metadata" : {
+    "handle" : "ALFANET-AS",
+    "description" : "Alfanet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.171.76.0/22",
       "109.127.0.0/18",
       "185.112.192.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

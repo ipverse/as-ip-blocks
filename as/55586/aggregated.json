@@ -1,9 +1,12 @@
 {
-  "asn": 55586,
-  "handle": "CATHOLIC-AS",
-  "description": "THE CATHOLIC UNIVERSITY OF KOREA SONGSIM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55586,
+  "metadata" : {
+    "handle" : "CATHOLIC-AS",
+    "description" : "THE CATHOLIC UNIVERSITY OF KOREA SONGSIM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.224.172.0/22",
       "175.119.39.0/24",
       "175.119.40.0/24",
@@ -14,6 +17,6 @@
       "220.68.29.0/24",
       "220.68.30.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

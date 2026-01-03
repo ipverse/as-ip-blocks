@@ -1,9 +1,12 @@
 {
-  "asn": 15808,
-  "handle": "ACCESSKENYA-KE",
-  "description": "ACCESSKENYA GROUP LTD is an ISP serving",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15808,
+  "metadata" : {
+    "handle" : "ACCESSKENYA-KE",
+    "description" : "ACCESSKENYA GROUP LTD is an ISP serving",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.206.32.0/19",
       "41.215.0.0/17",
       "41.220.112.0/20",
@@ -11,7 +14,7 @@
       "196.207.16.0/20",
       "197.254.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fe88::/32",
       "2c0f:ff90::/32"
     ]

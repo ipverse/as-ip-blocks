@@ -1,9 +1,12 @@
 {
-  "asn": 140543,
-  "handle": "READYDEDIS-AS-AP",
-  "description": "ReadyDedis LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140543,
+  "metadata" : {
+    "handle" : "READYDEDIS-AS-AP",
+    "description" : "ReadyDedis LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.142.237.0/24",
       "103.110.39.0/24",
       "103.142.174.0/24",
@@ -12,7 +15,7 @@
       "165.140.164.0/23",
       "170.205.54.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:4ea0::/47"
     ]
   }

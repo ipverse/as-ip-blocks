@@ -1,9 +1,12 @@
 {
-  "asn": 20738,
-  "handle": "GD-EMEA-DC-LD5",
-  "description": "Heart Internet limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20738,
+  "metadata" : {
+    "handle" : "GD-EMEA-DC-LD5",
+    "description" : "Heart Internet limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.32.224.0/19",
       "62.138.48.0/20",
       "79.170.40.0/21",
@@ -25,6 +28,6 @@
       "217.199.180.0/24",
       "217.199.187.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 31213,
-  "handle": "MF-NWGSM-AS",
-  "description": "PJSC MegaFon",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31213,
+  "metadata" : {
+    "handle" : "MF-NWGSM-AS",
+    "description" : "PJSC MegaFon",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.28.160.0/20",
       "37.29.48.0/20",
       "37.29.64.0/21",
@@ -25,7 +28,7 @@
       "188.170.80.0/21",
       "188.170.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:d000::/39",
       "2a03:d000:301::/48",
       "2a03:d000:400::/40"

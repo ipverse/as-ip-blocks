@@ -1,9 +1,12 @@
 {
-  "asn": 7922,
-  "handle": "COMCAST-7922",
-  "description": "Comcast Cable Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7922,
+  "metadata" : {
+    "handle" : "COMCAST-7922",
+    "description" : "Comcast Cable Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.24.0.0/15",
       "23.30.0.0/15",
       "23.68.0.0/14",
@@ -136,7 +139,7 @@
       "216.246.28.0/24",
       "216.246.102.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:558::/29",
       "2601::/20",
       "2603:2000::/20",

@@ -1,13 +1,16 @@
 {
-  "asn": 32104,
-  "handle": "WELLMONT-TN",
-  "description": "Wellmont Health System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32104,
+  "metadata" : {
+    "handle" : "WELLMONT-TN",
+    "description" : "Wellmont Health System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "75.141.70.0/24",
       "151.102.0.0/16",
       "199.21.144.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

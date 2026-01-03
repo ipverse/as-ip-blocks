@@ -1,9 +1,12 @@
 {
-  "asn": 29222,
-  "handle": "INFOMANIAK-AS",
-  "description": "Infomaniak Network SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29222,
+  "metadata" : {
+    "handle" : "INFOMANIAK-AS",
+    "description" : "Infomaniak Network SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.53.104.0/21",
       "37.156.40.0/21",
       "45.157.188.0/22",
@@ -34,7 +37,7 @@
       "203.27.58.0/24",
       "203.28.171.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1600::/32",
       "2a01:4f40::/32"
     ]

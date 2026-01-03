@@ -1,9 +1,12 @@
 {
-  "asn": 206119,
-  "handle": "VEGANET-TELEKOM",
-  "description": "Veganet Teknolojileri ve Hizmetleri LTD STI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206119,
+  "metadata" : {
+    "handle" : "VEGANET-TELEKOM",
+    "description" : "Veganet Teknolojileri ve Hizmetleri LTD STI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.181.19.0/24",
       "5.182.244.0/23",
       "45.133.37.0/24",
@@ -59,7 +62,7 @@
       "212.20.142.0/24",
       "212.20.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:b700::/29",
       "2a05:f740::/29",
       "2a06:af40::/29",

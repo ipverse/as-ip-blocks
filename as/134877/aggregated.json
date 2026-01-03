@@ -1,9 +1,12 @@
 {
-  "asn": 134877,
-  "handle": "SRIVARI-AS",
-  "description": "Sri Vari Network Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134877,
+  "metadata" : {
+    "handle" : "SRIVARI-AS",
+    "description" : "Sri Vari Network Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.110.236.0/22",
       "103.124.152.0/23",
       "103.148.33.0/24",
@@ -21,7 +24,7 @@
       "103.231.116.0/23",
       "210.16.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:d940::/35",
       "2404:d940:f000::/36"
     ]

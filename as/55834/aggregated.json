@@ -1,12 +1,15 @@
 {
-  "asn": 55834,
-  "handle": "NBNCO-AS-AP",
-  "description": "NBN Co LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55834,
+  "metadata" : {
+    "handle" : "NBNCO-AS-AP",
+    "description" : "NBN Co LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.0.10.0/24",
       "49.0.14.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

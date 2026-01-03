@@ -1,9 +1,12 @@
 {
-  "asn": 53989,
-  "handle": "SWAYZEECOM",
-  "description": "Swayzee Telephone Company Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53989,
+  "metadata" : {
+    "handle" : "SWAYZEECOM",
+    "description" : "Swayzee Telephone Company Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.185.192.0/24",
       "38.123.24.0/21",
       "64.184.20.0/23",
@@ -17,7 +20,7 @@
       "208.103.48.0/24",
       "208.103.57.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:b3c0::/40"
     ]
   }

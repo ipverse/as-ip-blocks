@@ -1,9 +1,12 @@
 {
-  "asn": 5563,
-  "handle": "URAL",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5563,
+  "metadata" : {
+    "handle" : "URAL",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.245.32.0/19",
       "79.135.64.0/20",
       "79.135.80.0/22",
@@ -23,6 +26,6 @@
       "195.64.192.0/19",
       "217.174.160.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

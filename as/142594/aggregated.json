@@ -1,9 +1,12 @@
 {
-  "asn": 142594,
-  "handle": "SPEEDYPAGELTD-AS-AP",
-  "description": "SpeedyPage Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142594,
+  "metadata" : {
+    "handle" : "SPEEDYPAGELTD-AS-AP",
+    "description" : "SpeedyPage Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.166.0/24",
       "5.44.251.0/24",
       "45.90.145.0/24",
@@ -24,7 +27,7 @@
       "194.31.140.0/24",
       "194.56.225.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:1d80::/47",
       "2602:fd92:c90::/44",
       "2a04:ff00:800::/44",

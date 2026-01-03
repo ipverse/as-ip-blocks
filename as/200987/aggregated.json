@@ -1,11 +1,14 @@
 {
-  "asn": 200987,
-  "handle": "STADT-CHUR",
-  "description": "Stadt Chur",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200987,
+  "metadata" : {
+    "handle" : "STADT-CHUR",
+    "description" : "Stadt Chur",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.189.148.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

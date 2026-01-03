@@ -1,9 +1,12 @@
 {
-  "asn": 11179,
-  "handle": "ARYAKA-ARIN",
-  "description": "Aryaka Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11179,
+  "metadata" : {
+    "handle" : "ARYAKA-ARIN",
+    "description" : "Aryaka Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.126.244.0/22",
       "78.159.140.0/22",
       "103.29.32.0/22",
@@ -44,7 +47,7 @@
       "212.59.92.0/23",
       "212.59.95.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:3dc0:570::/48",
       "2402:3dc0:572::/47"
     ]

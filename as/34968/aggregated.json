@@ -1,9 +1,12 @@
 {
-  "asn": 34968,
-  "handle": "IUNXI",
-  "description": "iunxi B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34968,
+  "metadata" : {
+    "handle" : "IUNXI",
+    "description" : "iunxi B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.152.236.0/22",
       "46.38.192.0/19",
       "89.207.24.0/21",
@@ -15,7 +18,7 @@
       "193.201.48.0/22",
       "193.238.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:710::/32"
     ]
   }

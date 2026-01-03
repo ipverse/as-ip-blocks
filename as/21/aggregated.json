@@ -1,9 +1,12 @@
 {
-  "asn": 21,
-  "handle": "RAND",
-  "description": "The RAND Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21,
+  "metadata" : {
+    "handle" : "RAND",
+    "description" : "The RAND Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.154.0.0/23",
       "130.154.3.0/24",
       "130.154.11.0/24",
@@ -14,6 +17,6 @@
       "166.67.240.0/24",
       "192.5.14.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

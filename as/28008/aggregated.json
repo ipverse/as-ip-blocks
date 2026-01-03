@@ -1,12 +1,15 @@
 {
-  "asn": 28008,
-  "handle": "TELECEL",
-  "description": "Telecel S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28008,
+  "metadata" : {
+    "handle" : "TELECEL",
+    "description" : "Telecel S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.2.192.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:3a0:192::/48"
     ]
   }

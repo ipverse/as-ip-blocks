@@ -1,9 +1,12 @@
 {
-  "asn": 33007,
-  "handle": "KWIC-AS",
-  "description": "NCS Technologies",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33007,
+  "metadata" : {
+    "handle" : "KWIC-AS",
+    "description" : "NCS Technologies",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.64.212.0/22",
       "38.64.248.0/22",
       "64.136.112.0/22",
@@ -16,6 +19,6 @@
       "206.130.151.0/24",
       "206.130.238.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

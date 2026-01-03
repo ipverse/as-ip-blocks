@@ -1,11 +1,14 @@
 {
-  "asn": 32146,
-  "handle": "COB-MT",
-  "description": "City of Bozeman",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32146,
+  "metadata" : {
+    "handle" : "COB-MT",
+    "description" : "City of Bozeman",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.94.236.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 8334,
-  "handle": "CO-2COM-AS",
-  "description": "LLC SETEL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8334,
+  "metadata" : {
+    "handle" : "CO-2COM-AS",
+    "description" : "LLC SETEL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.188.0.0/17",
       "94.127.168.0/21",
       "176.32.240.0/22",
@@ -12,6 +15,6 @@
       "188.244.32.0/20",
       "195.98.160.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

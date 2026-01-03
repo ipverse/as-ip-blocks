@@ -1,9 +1,12 @@
 {
-  "asn": 46846,
-  "handle": "DOE-HQ-COOP",
-  "description": "U.S. Department of Energy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46846,
+  "metadata" : {
+    "handle" : "DOE-HQ-COOP",
+    "description" : "U.S. Department of Energy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.155.113.0/24",
       "192.147.243.0/24",
       "192.208.20.0/23",
@@ -15,7 +18,7 @@
       "205.167.106.0/23",
       "206.197.198.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f368:f::/48",
       "2607:f368:300::/40",
       "2607:f368:f00::/40",

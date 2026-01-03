@@ -1,15 +1,18 @@
 {
-  "asn": 264270,
-  "handle": "NETCOL-SERVICO-PROVEDORES",
-  "description": "NETCOL - SERVIÇO DE PROVEDORES DE ACESSO LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264270,
+  "metadata" : {
+    "handle" : "NETCOL-SERVICO-PROVEDORES",
+    "description" : "NETCOL - SERVIÇO DE PROVEDORES DE ACESSO LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.234.24.0/22",
       "138.118.244.0/22",
       "170.84.236.0/22",
       "189.36.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2548::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 45361,
-  "handle": "JCN-AS",
-  "description": "Ulsan Jung-Ang Broadcasting Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45361,
+  "metadata" : {
+    "handle" : "JCN-AS",
+    "description" : "Ulsan Jung-Ang Broadcasting Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.107.150.0/24",
       "61.250.103.0/24",
       "61.250.104.0/22",
@@ -16,6 +19,6 @@
       "180.211.0.0/18",
       "182.161.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

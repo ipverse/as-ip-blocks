@@ -1,14 +1,17 @@
 {
-  "asn": 36136,
-  "handle": "ALARMNET",
-  "description": "ALARMNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36136,
+  "metadata" : {
+    "handle" : "ALARMNET",
+    "description" : "ALARMNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.149.218.0/24",
       "131.201.236.0/23",
       "198.140.154.0/23",
       "204.141.56.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 38481,
-  "handle": "JPMORGAN-TRANSIT-AS-SG-AP",
-  "description": "JP Morgan Chase \u0026 Co",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38481,
+  "metadata" : {
+    "handle" : "JPMORGAN-TRANSIT-AS-SG-AP",
+    "description" : "JP Morgan Chase & Co.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.121.224.0/19",
       "170.148.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:e500:20::/43"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 45209,
-  "handle": "UPLB-AS-AP",
-  "description": "University of the Philippines",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45209,
+  "metadata" : {
+    "handle" : "UPLB-AS-AP",
+    "description" : "University of the Philippines",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.92.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:b000:200::/48"
     ]
   }

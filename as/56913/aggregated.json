@@ -1,9 +1,12 @@
 {
-  "asn": 56913,
-  "handle": "COCHENTEK-AS",
-  "description": "CoChen Technology LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56913,
+  "metadata" : {
+    "handle" : "COCHENTEK-AS",
+    "description" : "CoChen Technology LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.132.219.0/24",
       "85.237.71.0/24",
       "95.135.176.0/24",
@@ -14,7 +17,7 @@
       "151.244.112.0/24",
       "151.244.116.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:9500:4d::/48"
     ]
   }

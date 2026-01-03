@@ -1,9 +1,12 @@
 {
-  "asn": 63150,
-  "handle": "BAGE",
-  "description": "BAGE CLOUD LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63150,
+  "metadata" : {
+    "handle" : "BAGE",
+    "description" : "BAGE CLOUD LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.150.33.0/24",
       "23.172.40.0/24",
       "23.187.72.0/24",
@@ -37,7 +40,7 @@
       "213.179.69.0/24",
       "213.210.55.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:a660:200::/41",
       "2401:a660:1001::/48",
       "2401:a660:1002::/47",

@@ -1,15 +1,18 @@
 {
-  "asn": 10058,
-  "handle": "CU-AS",
-  "description": "NACUFOK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10058,
+  "metadata" : {
+    "handle" : "CU-AS",
+    "description" : "NACUFOK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.27.104.0/24",
       "61.33.221.0/24",
       "61.85.84.0/24",
       "61.85.91.0/24",
       "210.121.201.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

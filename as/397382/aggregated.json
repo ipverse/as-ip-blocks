@@ -1,12 +1,15 @@
 {
-  "asn": 397382,
-  "handle": "ECCB-CENTRALBANK",
-  "description": "Eastern Caribbean Central Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397382,
+  "metadata" : {
+    "handle" : "ECCB-CENTRALBANK",
+    "description" : "Eastern Caribbean Central Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.131.208.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:6b:2000::/48"
     ]
   }

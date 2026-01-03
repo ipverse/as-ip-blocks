@@ -1,9 +1,12 @@
 {
-  "asn": 23498,
-  "handle": "CDSI",
-  "description": "Beanfield Technologies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23498,
+  "metadata" : {
+    "handle" : "CDSI",
+    "description" : "Beanfield Technologies Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.18.69.0/24",
       "66.199.32.0/20",
       "66.241.128.0/20",
@@ -16,7 +19,7 @@
       "192.75.239.0/24",
       "199.33.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:de00:3a::/48"
     ]
   }

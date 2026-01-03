@@ -1,9 +1,12 @@
 {
-  "asn": 33339,
-  "handle": "NEMONT-CELLULAR",
-  "description": "Nemont",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33339,
+  "metadata" : {
+    "handle" : "NEMONT-CELLULAR",
+    "description" : "Nemont",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.42.28.0/22",
       "65.19.229.0/24",
       "65.19.230.0/24",
@@ -62,7 +65,7 @@
       "216.220.8.0/24",
       "216.220.23.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:4600::/32"
     ]
   }

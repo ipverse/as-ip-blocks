@@ -1,9 +1,12 @@
 {
-  "asn": 38103,
-  "handle": "SKB-QRIXNETKS-AS",
-  "description": "SK Broadband Co Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38103,
+  "metadata" : {
+    "handle" : "SKB-QRIXNETKS-AS",
+    "description" : "SK Broadband Co Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "112.212.128.0/18",
       "115.161.128.0/18",
       "123.109.128.0/18",
@@ -11,6 +14,6 @@
       "203.229.35.0/24",
       "223.131.128.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 205807,
-  "handle": "ESH",
-  "description": "Essener Systemhaus",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205807,
+  "metadata" : {
+    "handle" : "ESH",
+    "description" : "Essener Systemhaus",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.150.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:a5c0::/29"
     ]
   }

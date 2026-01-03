@@ -1,9 +1,12 @@
 {
-  "asn": 31399,
-  "handle": "DAIMLER-AS",
-  "description": "Mercedes-Benz Group AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31399,
+  "metadata" : {
+    "handle" : "DAIMLER-AS",
+    "description" : "Mercedes-Benz Group AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "53.0.0.0/8",
       "141.113.0.0/20",
       "141.113.32.0/21",
@@ -15,7 +18,7 @@
       "141.113.208.0/20",
       "141.113.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:9e40::/29"
     ]
   }

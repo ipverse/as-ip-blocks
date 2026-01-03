@@ -1,9 +1,12 @@
 {
-  "asn": 1104,
-  "handle": "NIKHEF",
-  "description": "Stichting Nederlandse Wetenschappelijk Onderzoek Instituten",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1104,
+  "metadata" : {
+    "handle" : "NIKHEF",
+    "description" : "Stichting Nederlandse Wetenschappelijk Onderzoek Instituten",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "145.107.4.0/22",
       "145.110.0.0/16",
       "145.116.48.0/20",
@@ -15,7 +18,7 @@
       "192.16.194.0/23",
       "192.16.199.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:8500::/32",
       "2a07:8504::/32"
     ]

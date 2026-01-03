@@ -1,14 +1,17 @@
 {
-  "asn": 62382,
-  "handle": "KDV",
-  "description": "LLC KDV Grupp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62382,
+  "metadata" : {
+    "handle" : "KDV",
+    "description" : "LLC KDV Grupp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.72.216.0/21",
       "185.37.188.0/22",
       "193.143.96.0/23",
       "193.143.250.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

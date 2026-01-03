@@ -1,9 +1,12 @@
 {
-  "asn": 328471,
-  "handle": "HERO-TELECOMS",
-  "description": "HERO TELECOMS (PTY) LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328471,
+  "metadata" : {
+    "handle" : "HERO-TELECOMS",
+    "description" : "HERO TELECOMS (PTY) LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.79.192.0/22",
       "41.223.24.0/22",
       "45.221.32.0/20",
@@ -50,7 +53,7 @@
       "213.172.128.0/19",
       "217.29.208.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:ed58::/32",
       "2c0f:f088::/32",
       "2c0f:f208::/32",

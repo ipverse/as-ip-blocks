@@ -1,13 +1,16 @@
 {
-  "asn": 21668,
-  "handle": "ENET",
-  "description": "ElbertonNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21668,
+  "metadata" : {
+    "handle" : "ENET",
+    "description" : "ElbertonNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "173.245.224.0/24",
       "198.251.40.0/21",
       "208.101.192.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

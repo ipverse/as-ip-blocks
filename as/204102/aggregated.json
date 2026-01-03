@@ -1,12 +1,15 @@
 {
-  "asn": 204102,
-  "handle": "SMARTGRUPP",
-  "description": "LLC SmartGrupp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204102,
+  "metadata" : {
+    "handle" : "SMARTGRUPP",
+    "description" : "LLC SmartGrupp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.22.67.0/24",
       "212.22.84.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

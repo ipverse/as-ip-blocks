@@ -1,9 +1,12 @@
 {
-  "asn": 35394,
-  "handle": "CABLEAIREWORLD-AS",
-  "description": "Cable Aireworld S.A.U",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35394,
+  "metadata" : {
+    "handle" : "CABLEAIREWORLD-AS",
+    "description" : "Cable Aireworld S.A.U.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.85.136.0/22",
       "80.67.44.0/22",
       "89.29.160.0/20",
@@ -38,7 +41,7 @@
       "213.181.88.0/24",
       "213.217.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:3d60::/29",
       "2a09:5000::/29",
       "2a0c:8f80::/29"

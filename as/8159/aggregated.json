@@ -1,12 +1,15 @@
 {
-  "asn": 8159,
-  "handle": "KANSASNET",
-  "description": "KansasNet / Fox Business Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8159,
+  "metadata" : {
+    "handle" : "KANSASNET",
+    "description" : "KansasNet / Fox Business Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.6.128.0/19",
       "158.247.8.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

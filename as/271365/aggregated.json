@@ -1,12 +1,15 @@
 {
-  "asn": 271365,
-  "handle": "WWC-TELECOM",
-  "description": "WWC Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271365,
+  "metadata" : {
+    "handle" : "WWC-TELECOM",
+    "description" : "WWC Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.53.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7a54::/32"
     ]
   }

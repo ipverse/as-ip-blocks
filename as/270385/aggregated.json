@@ -1,13 +1,16 @@
 {
-  "asn": 270385,
-  "handle": "CONECTA-PROVEDOR-INTERNET",
-  "description": "CONECTA - PROVEDOR DE INTERNET LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270385,
+  "metadata" : {
+    "handle" : "CONECTA-PROVEDOR-INTERNET",
+    "description" : "CONECTA - PROVEDOR DE INTERNET LTDA.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "187.86.3.0/24",
       "190.89.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6b34::/34",
       "2804:6b34:8000::/39",
       "2804:6b34:c000::/39",

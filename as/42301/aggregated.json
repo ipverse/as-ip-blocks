@@ -1,11 +1,14 @@
 {
-  "asn": 42301,
-  "handle": "RADIO-CAPRICORN-AS",
-  "description": "Radio Kozerog LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42301,
+  "metadata" : {
+    "handle" : "RADIO-CAPRICORN-AS",
+    "description" : "Radio Kozerog LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.200.239.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

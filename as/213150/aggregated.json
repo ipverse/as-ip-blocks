@@ -1,12 +1,15 @@
 {
-  "asn": 213150,
-  "handle": "INDIGO-SYS",
-  "description": "Laurence White",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213150,
+  "metadata" : {
+    "handle" : "INDIGO-SYS",
+    "description" : "Laurence White",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.216.11.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:e940::/29"
     ]
   }

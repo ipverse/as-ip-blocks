@@ -1,9 +1,12 @@
 {
-  "asn": 2711,
-  "handle": "SPIRITTEL-AS",
-  "description": "Spirit Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2711,
+  "metadata" : {
+    "handle" : "SPIRITTEL-AS",
+    "description" : "Spirit Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.124.248.0/24",
       "64.50.167.0/24",
       "64.53.0.0/17",
@@ -49,7 +52,7 @@
       "216.247.101.0/24",
       "216.247.102.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fc68::/32"
     ]
   }

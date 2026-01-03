@@ -1,9 +1,12 @@
 {
-  "asn": 15130,
-  "handle": "USDOJ-GOV",
-  "description": "U. S. Department of Justice",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15130,
+  "metadata" : {
+    "handle" : "USDOJ-GOV",
+    "description" : "U. S. Department of Justice",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.101.1.0/24",
       "149.101.17.0/24",
       "149.101.21.0/24",
@@ -39,7 +42,7 @@
       "149.101.226.0/24",
       "149.101.228.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f330:5000::/48",
       "2607:f330:5fa1::/48",
       "2607:f330:6000::/36",

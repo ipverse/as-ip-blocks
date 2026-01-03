@@ -1,9 +1,12 @@
 {
-  "asn": 214271,
-  "handle": "QTNETWORK",
-  "description": "QT NETWORK LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214271,
+  "metadata" : {
+    "handle" : "QTNETWORK",
+    "description" : "QT NETWORK LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.178.102.0/24",
       "45.144.173.0/24",
       "46.236.208.0/24",
@@ -20,6 +23,6 @@
       "209.200.243.0/24",
       "213.220.5.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

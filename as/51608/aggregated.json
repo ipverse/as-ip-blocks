@@ -1,12 +1,15 @@
 {
-  "asn": 51608,
-  "handle": "FLSMIDTH-AS",
-  "description": "FLSmidth A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51608,
+  "metadata" : {
+    "handle" : "FLSMIDTH-AS",
+    "description" : "FLSmidth A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.220.7.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:318::/48"
     ]
   }

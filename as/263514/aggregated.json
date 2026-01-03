@@ -1,12 +1,15 @@
 {
-  "asn": 263514,
-  "handle": "LINK-WEB",
-  "description": "Link Web",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263514,
+  "metadata" : {
+    "handle" : "LINK-WEB",
+    "description" : "Link Web",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.84.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1314::/32"
     ]
   }

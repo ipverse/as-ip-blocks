@@ -1,9 +1,12 @@
 {
-  "asn": 50340,
-  "handle": "SELECTEL-MSK",
-  "description": "JSC Selectel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50340,
+  "metadata" : {
+    "handle" : "SELECTEL-MSK",
+    "description" : "JSC Selectel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.68.0/22",
       "5.8.28.0/22",
       "5.8.74.0/24",
@@ -256,7 +259,7 @@
       "213.232.251.0/24",
       "217.168.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:6d0::/48",
       "2a00:ab00:1000::/38",
       "2a06:1301:4210::/48",

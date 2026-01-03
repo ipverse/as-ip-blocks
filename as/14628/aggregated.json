@@ -1,13 +1,16 @@
 {
-  "asn": 14628,
-  "handle": "SMUD-ELECTRIC",
-  "description": "Sacramento Municipal Utility District",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14628,
+  "metadata" : {
+    "handle" : "SMUD-ELECTRIC",
+    "description" : "Sacramento Municipal Utility District",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.247.64.0/20",
       "192.247.84.0/22",
       "192.247.88.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

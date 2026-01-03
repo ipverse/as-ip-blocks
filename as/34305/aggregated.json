@@ -1,9 +1,12 @@
 {
-  "asn": 34305,
-  "handle": "BASEIP",
-  "description": "Base IP B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34305,
+  "metadata" : {
+    "handle" : "BASEIP",
+    "description" : "Base IP B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.38.16.0/23",
       "50.117.62.0/24",
       "50.118.152.0/24",
@@ -16,7 +19,7 @@
       "85.12.60.0/22",
       "185.91.28.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4de0:2101::/48",
       "2a01:788:4::/48",
       "2a01:788:1000::/48"

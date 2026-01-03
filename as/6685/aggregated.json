@@ -1,12 +1,15 @@
 {
-  "asn": 6685,
-  "handle": "GRAPEVINE",
-  "description": "Grapevine Labs LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6685,
+  "metadata" : {
+    "handle" : "GRAPEVINE",
+    "description" : "Grapevine Labs LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.6.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:1c60::/32"
     ]
   }

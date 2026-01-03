@@ -1,9 +1,12 @@
 {
-  "asn": 16353,
-  "handle": "MERULA",
-  "description": "Merula Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16353,
+  "metadata" : {
+    "handle" : "MERULA",
+    "description" : "Merula Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.167.191.0/24",
       "85.158.152.0/21",
       "85.236.144.0/21",
@@ -19,7 +22,7 @@
       "185.237.88.0/22",
       "217.146.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1940::/32",
       "2a03:5420::/32",
       "2a0a:3380::/29",

@@ -1,9 +1,12 @@
 {
-  "asn": 150683,
-  "handle": "FBL-AS-AP",
-  "description": "FASTTEL BROADBAND (PRIVATE) LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150683,
+  "metadata" : {
+    "handle" : "FBL-AS-AP",
+    "description" : "FASTTEL BROADBAND (PRIVATE) LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.53.162.0/23",
       "103.174.4.0/23",
       "103.189.68.0/23",
@@ -14,7 +17,7 @@
       "203.215.174.0/24",
       "203.215.178.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:7360::/32",
       "2401:11e0::/32"
     ]

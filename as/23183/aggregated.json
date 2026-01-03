@@ -1,9 +1,12 @@
 {
-  "asn": 23183,
-  "handle": "SWIFTSYSTEMS",
-  "description": "SWIFT SYSTEMS INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23183,
+  "metadata" : {
+    "handle" : "SWIFTSYSTEMS",
+    "description" : "SWIFT SYSTEMS INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.13.96.0/24",
       "72.13.98.0/23",
       "72.13.100.0/22",
@@ -11,6 +14,6 @@
       "72.13.106.0/24",
       "72.13.108.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

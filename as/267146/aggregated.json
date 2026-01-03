@@ -1,12 +1,15 @@
 {
-  "asn": 267146,
-  "handle": "STEC-PROVIDER",
-  "description": "STEC PROVIDER",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267146,
+  "metadata" : {
+    "handle" : "STEC-PROVIDER",
+    "description" : "STEC PROVIDER",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.230.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:48d0::/32"
     ]
   }

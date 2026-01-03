@@ -1,12 +1,15 @@
 {
-  "asn": 42701,
-  "handle": "DEUTSCHEBANK-TR",
-  "description": "Deutsche Bank - TR",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42701,
+  "metadata" : {
+    "handle" : "DEUTSCHEBANK-TR",
+    "description" : "Deutsche Bank - TR",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.83.34.0/23",
       "160.83.176.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

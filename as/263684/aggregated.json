@@ -1,9 +1,12 @@
 {
-  "asn": 263684,
-  "handle": "INTERNET-SERVICES",
-  "description": "Internet Services S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263684,
+  "metadata" : {
+    "handle" : "INTERNET-SERVICES",
+    "description" : "Internet Services S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.10.112.0/22",
       "38.10.116.0/24",
       "38.10.118.0/23",
@@ -12,7 +15,7 @@
       "200.0.208.0/21",
       "200.115.24.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:e900::/32"
     ]
   }

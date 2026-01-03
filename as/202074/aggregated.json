@@ -1,9 +1,12 @@
 {
-  "asn": 202074,
-  "handle": "LINKTELCO-ASN",
-  "description": "Link Telecomunicazioni SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202074,
+  "metadata" : {
+    "handle" : "LINKTELCO-ASN",
+    "description" : "Link Telecomunicazioni SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.91.184.0/22",
       "91.189.212.0/22",
       "94.103.112.0/22",
@@ -14,6 +17,6 @@
       "185.254.168.0/22",
       "194.53.152.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

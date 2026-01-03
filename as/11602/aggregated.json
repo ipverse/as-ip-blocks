@@ -1,9 +1,12 @@
 {
-  "asn": 11602,
-  "handle": "SDSMT-AS",
-  "description": "South Dakota School of Mines \u0026 Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11602,
+  "metadata" : {
+    "handle" : "SDSMT-AS",
+    "description" : "South Dakota School of Mines & Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "151.159.0.0/17",
       "151.159.128.0/18",
       "151.159.192.0/20",
@@ -11,6 +14,6 @@
       "151.159.216.0/22",
       "151.159.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

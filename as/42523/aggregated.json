@@ -1,11 +1,14 @@
 {
-  "asn": 42523,
-  "handle": "ISECGROUP-AS",
-  "description": "ISEC Group AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42523,
+  "metadata" : {
+    "handle" : "ISECGROUP-AS",
+    "description" : "ISEC Group AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.62.152.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

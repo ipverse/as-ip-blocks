@@ -1,12 +1,15 @@
 {
-  "asn": 265188,
-  "handle": "GRUPO-WCM-NET",
-  "description": "Grupo WCM net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265188,
+  "metadata" : {
+    "handle" : "GRUPO-WCM-NET",
+    "description" : "Grupo WCM net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.249.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2c04::/32",
       "2804:51cc::/44"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 19750,
-  "handle": "AS-CRITEO",
-  "description": "Criteo Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19750,
+  "metadata" : {
+    "handle" : "AS-CRITEO",
+    "description" : "Criteo Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.119.117.0/24",
       "74.119.118.0/24",
       "91.199.242.0/24",
@@ -11,7 +14,7 @@
       "199.204.168.0/24",
       "199.204.171.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:d7c0::/46",
       "2607:d7c0:4::/47",
       "2620:100:a005::/48",

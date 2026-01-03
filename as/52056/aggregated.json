@@ -1,12 +1,15 @@
 {
-  "asn": 52056,
-  "handle": "HTP-AS",
-  "description": "Lounea Palvelut Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52056,
+  "metadata" : {
+    "handle" : "HTP-AS",
+    "description" : "Lounea Palvelut Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.82.16.0/22",
       "46.23.160.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

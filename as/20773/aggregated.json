@@ -1,9 +1,12 @@
 {
-  "asn": 20773,
-  "handle": "GODADDY",
-  "description": "Host Europe GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20773,
+  "metadata" : {
+    "handle" : "GODADDY",
+    "description" : "Host Europe GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.35.224.0/19",
       "5.175.0.0/19",
       "62.138.128.0/18",
@@ -42,7 +45,7 @@
       "217.115.146.0/23",
       "217.115.152.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:488::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 393457,
-  "handle": "HCETELECOM",
-  "description": "Hamilton Community Enterprises",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393457,
+  "metadata" : {
+    "handle" : "HCETELECOM",
+    "description" : "Hamilton Community Enterprises",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.128.0.0/24",
       "38.20.182.0/23",
       "64.25.110.0/23",
@@ -15,7 +18,7 @@
       "204.225.220.0/24",
       "205.211.11.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:803::/48",
       "2605:8780::/32"
     ]

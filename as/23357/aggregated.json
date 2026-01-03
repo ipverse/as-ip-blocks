@@ -1,7 +1,12 @@
 {
-  "asn": 23357,
-  "subnets": {
-    "ipv4": [
+  "asn" : 23357,
+  "metadata" : {
+    "handle" : "LEVEL-3-PARENT-LLC",
+    "description" : "Level 3 Parent LLC",
+    "origin" : "inferred"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.12.56.0/24",
       "209.136.4.0/24",
       "209.136.38.0/24",
@@ -9,6 +14,6 @@
       "216.84.198.0/23",
       "216.253.163.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

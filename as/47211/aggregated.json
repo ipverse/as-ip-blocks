@@ -1,13 +1,16 @@
 {
-  "asn": 47211,
-  "handle": "KOLPINONET-AS",
-  "description": "OOO Kolpinskie Internet-Seti",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47211,
+  "metadata" : {
+    "handle" : "KOLPINONET-AS",
+    "description" : "OOO Kolpinskie Internet-Seti",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.133.224.0/19",
       "109.197.48.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2808:1006::/48"
     ]
   }

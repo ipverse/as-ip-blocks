@@ -1,12 +1,15 @@
 {
-  "asn": 13042,
-  "handle": "ASN-OENB-AT",
-  "description": "Oesterreichische Nationalbank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13042,
+  "metadata" : {
+    "handle" : "ASN-OENB-AT",
+    "description" : "Oesterreichische Nationalbank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.39.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2d8::/48"
     ]
   }

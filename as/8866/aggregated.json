@@ -1,9 +1,12 @@
 {
-  "asn": 8866,
-  "handle": "VIVACOM-AS",
-  "description": "Vivacom Bulgaria EAD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8866,
+  "metadata" : {
+    "handle" : "VIVACOM-AS",
+    "description" : "Vivacom Bulgaria EAD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.157.136.0/21",
       "37.157.160.0/19",
       "46.10.0.0/17",
@@ -263,7 +266,7 @@
       "213.130.76.0/22",
       "213.130.92.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e40:1111::/48",
       "2a01:5a8::/32"
     ]

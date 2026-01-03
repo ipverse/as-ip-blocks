@@ -1,9 +1,12 @@
 {
-  "asn": 24679,
-  "handle": "SSERV-AS",
-  "description": "kyberio GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24679,
+  "metadata" : {
+    "handle" : "SSERV-AS",
+    "description" : "kyberio GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.1.68.0/23",
       "5.1.83.0/24",
       "5.1.88.0/24",
@@ -20,7 +23,7 @@
       "217.175.240.0/23",
       "217.195.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6780:2::/48",
       "2a02:790::/32",
       "2a07:60c0::/29"

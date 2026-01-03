@@ -1,9 +1,12 @@
 {
-  "asn": 395597,
-  "handle": "APOG-ATLANTA",
-  "description": "Apogee Telecom Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395597,
+  "metadata" : {
+    "handle" : "APOG-ATLANTA",
+    "description" : "Apogee Telecom Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.189.140.0/23",
       "64.189.230.0/23",
       "69.80.130.0/24",
@@ -39,6 +42,6 @@
       "209.51.88.0/22",
       "209.51.92.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

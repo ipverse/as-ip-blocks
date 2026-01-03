@@ -1,12 +1,15 @@
 {
-  "asn": 140950,
-  "handle": "SYNC1-AS-AP",
-  "description": "SYNC ONLINE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140950,
+  "metadata" : {
+    "handle" : "SYNC1-AS-AP",
+    "description" : "SYNC ONLINE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.153.174.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:5380::/48"
     ]
   }

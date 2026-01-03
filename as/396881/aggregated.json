@@ -1,13 +1,16 @@
 {
-  "asn": 396881,
-  "handle": "DRSERVER1",
-  "description": "drServer.net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396881,
+  "metadata" : {
+    "handle" : "DRSERVER1",
+    "description" : "drServer.net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.172.126.0/23",
       "192.138.210.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe64:4::/46",
       "2602:fe64:8::/46",
       "2602:fed2:7188::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 41155,
-  "handle": "ORBITDC",
-  "description": "Orbit Telekom Sanayi ve Ticaret Limited Sirketi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41155,
+  "metadata" : {
+    "handle" : "ORBITDC",
+    "description" : "Orbit Telekom Sanayi ve Ticaret Limited Sirketi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.91.151.0/24",
       "45.93.244.0/22",
       "45.158.136.0/22",
@@ -18,7 +21,7 @@
       "194.0.223.0/24",
       "194.1.200.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:8e80:2659::/48"
     ]
   }

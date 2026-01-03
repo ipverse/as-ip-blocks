@@ -1,12 +1,15 @@
 {
-  "asn": 49866,
-  "handle": "LOOPBACK",
-  "description": "Loopback Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49866,
+  "metadata" : {
+    "handle" : "LOOPBACK",
+    "description" : "Loopback Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.19.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:164::/48"
     ]
   }

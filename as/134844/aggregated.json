@@ -1,14 +1,17 @@
 {
-  "asn": 134844,
-  "handle": "ACCESS4-AS-AP",
-  "description": "ACCESS 4 PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134844,
+  "metadata" : {
+    "handle" : "ACCESS4-AS-AP",
+    "description" : "ACCESS 4 PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.64.148.0/22",
       "103.80.244.0/22",
       "103.214.206.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2d4::/48",
       "2401:640::/32",
       "2a0c:2c40::/48"

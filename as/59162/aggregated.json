@@ -1,9 +1,12 @@
 {
-  "asn": 59162,
-  "handle": "UPCSPL-AS-IN",
-  "description": "U.P. COMMUNICATION SERVICES PVT LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59162,
+  "metadata" : {
+    "handle" : "UPCSPL-AS-IN",
+    "description" : "U.P. COMMUNICATION SERVICES PVT LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.225.68.0/22",
       "43.225.212.0/23",
       "43.225.214.0/24",
@@ -33,7 +36,7 @@
       "103.255.72.0/22",
       "114.134.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:59c0::/48",
       "2001:df7::/48"
     ]

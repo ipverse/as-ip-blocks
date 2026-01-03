@@ -1,9 +1,12 @@
 {
-  "asn": 207513,
-  "handle": "HOSTOFF",
-  "description": "LLC HOSTOFF CSL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207513,
+  "metadata" : {
+    "handle" : "HOSTOFF",
+    "description" : "LLC HOSTOFF CSL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.148.119.0/24",
       "81.31.209.0/24",
       "83.142.30.0/24",
@@ -18,7 +21,7 @@
       "144.31.248.0/24",
       "195.133.195.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:bec4:1ac0::/47"
     ]
   }

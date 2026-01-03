@@ -1,9 +1,12 @@
 {
-  "asn": 58621,
-  "handle": "VODIEN-AS-AP-LOC2",
-  "description": "Vodien Internet Solutions Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58621,
+  "metadata" : {
+    "handle" : "VODIEN-AS-AP-LOC2",
+    "description" : "Vodien Internet Solutions Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "101.100.192.0/24",
       "101.100.195.0/24",
       "101.100.196.0/23",
@@ -33,7 +36,7 @@
       "103.245.92.0/24",
       "103.245.94.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:cb00:301::/48",
       "2403:cb00:a000::/36",
       "2403:cb00:cb01::/48",

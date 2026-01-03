@@ -1,11 +1,14 @@
 {
-  "asn": 150726,
-  "handle": "UMAXINTERNET-AS-AP",
-  "description": "U-MAX INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150726,
+  "metadata" : {
+    "handle" : "UMAXINTERNET-AS-AP",
+    "description" : "U-MAX INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.74.10.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

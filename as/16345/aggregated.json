@@ -1,9 +1,12 @@
 {
-  "asn": 16345,
-  "handle": "BEE-AS",
-  "description": "PJSC Vimpelcom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16345,
+  "metadata" : {
+    "handle" : "BEE-AS",
+    "description" : "PJSC Vimpelcom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.13.144.0/21",
       "37.9.240.0/22",
       "37.9.244.0/23",
@@ -88,7 +91,7 @@
       "217.118.93.0/24",
       "217.118.95.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2668::/32"
     ]
   }

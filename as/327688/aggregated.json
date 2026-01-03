@@ -1,14 +1,17 @@
 {
-  "asn": 327688,
-  "handle": "SCREAMER",
-  "description": "Screamer Telecommunications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 327688,
+  "metadata" : {
+    "handle" : "SCREAMER",
+    "description" : "Screamer Telecommunications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.57.0.0/18",
       "41.57.128.0/18",
       "160.226.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:1100::/32",
       "2c0f:fd68::/32"
     ]

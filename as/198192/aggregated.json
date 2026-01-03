@@ -1,9 +1,12 @@
 {
-  "asn": 198192,
-  "handle": "ASN-TELEPORTE",
-  "description": "TELEPORTE S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198192,
+  "metadata" : {
+    "handle" : "ASN-TELEPORTE",
+    "description" : "TELEPORTE S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.10.128.0/24",
       "45.131.52.0/22",
       "84.232.124.0/24",
@@ -12,6 +15,6 @@
       "158.255.236.0/23",
       "185.92.237.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

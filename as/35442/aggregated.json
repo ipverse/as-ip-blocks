@@ -1,12 +1,15 @@
 {
-  "asn": 35442,
-  "handle": "PODOL-AS",
-  "description": "TOV Internet on the Podol",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35442,
+  "metadata" : {
+    "handle" : "PODOL-AS",
+    "description" : "TOV Internet on the Podol",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.195.96.0/23",
       "193.239.254.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

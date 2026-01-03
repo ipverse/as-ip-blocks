@@ -1,9 +1,12 @@
 {
-  "asn": 36998,
-  "handle": "SDN-MOBITEL",
-  "description": "Sudanese Mobile Telephone (ZAIN) Co Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36998,
+  "metadata" : {
+    "handle" : "SDN-MOBITEL",
+    "description" : "Sudanese Mobile Telephone (ZAIN) Co Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.95.128.0/20",
       "41.95.144.0/22",
       "41.95.194.0/23",
@@ -15,7 +18,7 @@
       "41.223.203.0/24",
       "154.100.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:faa0::/29"
     ]
   }

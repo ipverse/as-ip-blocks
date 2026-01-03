@@ -1,9 +1,12 @@
 {
-  "asn": 15895,
-  "handle": "KSNET-AS",
-  "description": "Kyivstar PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15895,
+  "metadata" : {
+    "handle" : "KSNET-AS",
+    "description" : "Kyivstar PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.248.0.0/16",
       "37.115.0.0/16",
       "37.229.0.0/16",
@@ -28,7 +31,7 @@
       "212.82.192.0/19",
       "212.109.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:8a8::/32",
       "2a02:2378::/32"
     ]

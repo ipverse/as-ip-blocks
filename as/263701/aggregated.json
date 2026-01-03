@@ -1,13 +1,16 @@
 {
-  "asn": 263701,
-  "handle": "RGO-SOMOS-CABLE-CA",
-  "description": "RGO SOMOS CABLE C.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263701,
+  "metadata" : {
+    "handle" : "RGO-SOMOS-CABLE-CA",
+    "description" : "RGO SOMOS CABLE C.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.221.112.0/22",
       "143.0.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:bb80::/32"
     ]
   }

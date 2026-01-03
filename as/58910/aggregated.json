@@ -1,14 +1,17 @@
 {
-  "asn": 58910,
-  "handle": "ASSB-AS-MY",
-  "description": "Acoda Solutions (M) Sdn. Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58910,
+  "metadata" : {
+    "handle" : "ASSB-AS-MY",
+    "description" : "Acoda Solutions (M) Sdn. Bhd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.241.96.0/22",
       "103.18.88.0/22",
       "103.145.156.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:5380::/32"
     ]
   }

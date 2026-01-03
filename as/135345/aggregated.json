@@ -1,9 +1,12 @@
 {
-  "asn": 135345,
-  "handle": "NEWMOUNTAINVIEW-PH",
-  "description": "NewMountainView Satellite Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135345,
+  "metadata" : {
+    "handle" : "NEWMOUNTAINVIEW-PH",
+    "description" : "NewMountainView Satellite Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.41.8.0/23",
       "103.125.148.0/22",
       "103.166.248.0/23",
@@ -15,6 +18,6 @@
       "163.61.94.0/23",
       "202.69.163.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

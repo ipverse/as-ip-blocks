@@ -1,14 +1,17 @@
 {
-  "asn": 9703,
-  "handle": "SHB-AS",
-  "description": "Shinhan Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9703,
+  "metadata" : {
+    "handle" : "SHB-AS",
+    "description" : "Shinhan Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.36.211.0/24",
       "106.241.47.0/24",
       "106.241.48.0/24",
       "125.130.60.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

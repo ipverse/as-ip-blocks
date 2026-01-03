@@ -1,9 +1,12 @@
 {
-  "asn": 8881,
-  "handle": "VERSATEL",
-  "description": "1\u00261 Versatel GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8881,
+  "metadata" : {
+    "handle" : "VERSATEL",
+    "description" : "1&1 Versatel GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.102.90.0/24",
       "23.27.65.0/24",
       "23.27.67.0/24",
@@ -309,7 +312,7 @@
       "217.117.98.0/24",
       "217.199.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:888::/48",
       "2001:67c:ed8::/48",
       "2001:67c:27ac::/48",

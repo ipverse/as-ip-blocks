@@ -1,14 +1,17 @@
 {
-  "asn": 141071,
-  "handle": "JEMBATANDATA-AS-ID",
-  "description": "PT Jembatan Data Pangrango",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141071,
+  "metadata" : {
+    "handle" : "JEMBATANDATA-AS-ID",
+    "description" : "PT Jembatan Data Pangrango",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.54.171.0/24",
       "103.97.140.0/23",
       "103.155.196.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:7640::/32"
     ]
   }

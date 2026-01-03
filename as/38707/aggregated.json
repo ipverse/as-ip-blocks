@@ -1,9 +1,12 @@
 {
-  "asn": 38707,
-  "handle": "TOSSPAYMENTS-AS",
-  "description": "Tosspayments",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38707,
+  "metadata" : {
+    "handle" : "TOSSPAYMENTS-AS",
+    "description" : "Tosspayments",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.209.196.0/24",
       "1.214.105.0/24",
       "1.214.106.0/24",
@@ -27,6 +30,6 @@
       "211.50.169.0/24",
       "220.127.5.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

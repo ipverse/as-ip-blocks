@@ -1,12 +1,15 @@
 {
-  "asn": 32943,
-  "handle": "WEB-OF-NEVADA-01",
-  "description": "Web of Nevada",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32943,
+  "metadata" : {
+    "handle" : "WEB-OF-NEVADA-01",
+    "description" : "Web of Nevada",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.175.168.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f937::/40"
     ]
   }

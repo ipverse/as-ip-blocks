@@ -1,9 +1,12 @@
 {
-  "asn": 42,
-  "handle": "WOODYNET-1",
-  "description": "WoodyNet Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42,
+  "metadata" : {
+    "handle" : "WOODYNET-1",
+    "description" : "WoodyNet Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.246.32.0/24",
       "63.246.34.0/23",
       "63.246.36.0/24",
@@ -94,7 +97,7 @@
       "207.34.6.0/23",
       "208.67.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:500:14::/48",
       "2001:500:7d::/48",
       "2001:500:83::/48",

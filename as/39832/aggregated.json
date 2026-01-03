@@ -1,9 +1,12 @@
 {
-  "asn": 39832,
-  "handle": "NO-OPERA",
-  "description": "Opera Norway AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39832,
+  "metadata" : {
+    "handle" : "NO-OPERA",
+    "description" : "Opera Norway AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.228.104.0/21",
       "82.145.208.0/22",
       "82.145.212.0/23",
@@ -15,7 +18,7 @@
       "185.26.180.0/22",
       "195.189.142.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4c28:1::/48",
       "2001:4c28:212::/48",
       "2001:4c28:3000::/48",

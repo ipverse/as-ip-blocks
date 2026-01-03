@@ -1,13 +1,16 @@
 {
-  "asn": 2025,
-  "handle": "UTOLEDO",
-  "description": "University of Toledo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2025,
+  "metadata" : {
+    "handle" : "UTOLEDO",
+    "description" : "University of Toledo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.183.0.0/16",
       "136.247.0.0/16",
       "198.30.180.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

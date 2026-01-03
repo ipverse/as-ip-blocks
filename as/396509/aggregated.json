@@ -1,15 +1,18 @@
 {
-  "asn": 396509,
-  "handle": "LETSCLOUD",
-  "description": "LETSCLOUD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396509,
+  "metadata" : {
+    "handle" : "LETSCLOUD",
+    "description" : "LETSCLOUD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.42.160.0/22",
       "177.52.161.0/24",
       "177.52.163.0/24",
       "187.102.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:b44:2000::/35"
     ]
   }

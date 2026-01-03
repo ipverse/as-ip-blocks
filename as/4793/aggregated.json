@@ -1,9 +1,12 @@
 {
-  "asn": 4793,
-  "handle": "HHIAS-AS",
-  "description": "Hyundai Heavy Industries",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4793,
+  "metadata" : {
+    "handle" : "HHIAS-AS",
+    "description" : "Hyundai Heavy Industries",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.83.84.0/23",
       "61.83.124.0/24",
       "103.186.170.0/23",
@@ -17,6 +20,6 @@
       "218.151.146.0/23",
       "218.151.186.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

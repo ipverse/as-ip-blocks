@@ -1,9 +1,12 @@
 {
-  "asn": 393226,
-  "handle": "INTERCONTINENTAL-EXCHANGE-MULTI-ISP-SITES",
-  "description": "Intercontinental Exchange Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393226,
+  "metadata" : {
+    "handle" : "INTERCONTINENTAL-EXCHANGE-MULTI-ISP-SITES",
+    "description" : "Intercontinental Exchange Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "145.246.70.0/23",
       "145.246.77.0/24",
       "145.246.78.0/24",
@@ -15,6 +18,6 @@
       "198.140.32.0/24",
       "198.140.62.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

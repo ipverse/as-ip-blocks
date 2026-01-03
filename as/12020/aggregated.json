@@ -1,11 +1,14 @@
 {
-  "asn": 12020,
-  "handle": "MHSC-BGP-ASN",
-  "description": "Methodist Hospital of Southern California",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12020,
+  "metadata" : {
+    "handle" : "MHSC-BGP-ASN",
+    "description" : "Methodist Hospital of Southern California",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.201.84.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

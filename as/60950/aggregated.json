@@ -1,13 +1,16 @@
 {
-  "asn": 60950,
-  "handle": "CLOUDNL-AS",
-  "description": "CLOUD.nl B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60950,
+  "metadata" : {
+    "handle" : "CLOUDNL-AS",
+    "description" : "CLOUD.nl B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.23.24.0/22",
       "185.100.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:6960::/32"
     ]
   }

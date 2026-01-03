@@ -1,9 +1,12 @@
 {
-  "asn": 43341,
-  "handle": "MDLINK",
-  "description": "MDlink online service center GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43341,
+  "metadata" : {
+    "handle" : "MDLINK",
+    "description" : "MDlink online service center GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.83.176.0/22",
       "88.150.0.0/17",
       "185.188.120.0/22",
@@ -12,7 +15,7 @@
       "194.113.144.0/22",
       "213.211.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5080::/32",
       "2a07:e300::/29",
       "2a09:8580::/29",

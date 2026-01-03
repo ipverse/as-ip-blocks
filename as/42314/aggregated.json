@@ -1,12 +1,15 @@
 {
-  "asn": 42314,
-  "handle": "FUSION",
-  "description": "Fusion Internet Services Company LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42314,
+  "metadata" : {
+    "handle" : "FUSION",
+    "description" : "Fusion Internet Services Company LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.114.104.0/24",
       "85.114.106.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

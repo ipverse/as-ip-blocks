@@ -1,12 +1,15 @@
 {
-  "asn": 134505,
-  "handle": "IDEAL2-AS-AP",
-  "description": "Ideal Communication Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134505,
+  "metadata" : {
+    "handle" : "IDEAL2-AS-AP",
+    "description" : "Ideal Communication Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.161.104.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:cdc0::/48"
     ]
   }

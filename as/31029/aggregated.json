@@ -1,9 +1,12 @@
 {
-  "asn": 31029,
-  "handle": "M-REAL",
-  "description": "M-REAL NET Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31029,
+  "metadata" : {
+    "handle" : "M-REAL",
+    "description" : "M-REAL NET Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.76.128.0/21",
       "77.76.137.0/24",
       "77.76.138.0/23",
@@ -14,7 +17,7 @@
       "109.107.72.0/21",
       "109.107.88.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:2c0:e::/48"
     ]
   }

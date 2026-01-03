@@ -1,12 +1,15 @@
 {
-  "asn": 212085,
-  "handle": "BRUEGGUS-AS",
-  "description": "Alexander Bruegmann",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212085,
+  "metadata" : {
+    "handle" : "BRUEGGUS-AS",
+    "description" : "Alexander Bruegmann",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.121.162.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:a001:a070::/44",
       "2a0a:6044:ab00::/40",
       "2a0e:b107:ea5::/48",

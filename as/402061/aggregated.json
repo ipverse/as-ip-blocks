@@ -1,13 +1,16 @@
 {
-  "asn": 402061,
-  "handle": "NVRSLINE-AS",
-  "description": "NVRS LINE inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 402061,
+  "metadata" : {
+    "handle" : "NVRSLINE-AS",
+    "description" : "NVRS LINE inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.146.220.0/24",
       "104.234.177.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:de:2000::/48"
     ]
   }

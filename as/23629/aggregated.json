@@ -1,9 +1,12 @@
 {
-  "asn": 23629,
-  "handle": "OCTV",
-  "description": "Obihiro City Cable Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23629,
+  "metadata" : {
+    "handle" : "OCTV",
+    "description" : "Obihiro City Cable Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.131.16.0/20",
       "27.131.192.0/21",
       "115.85.96.0/22",
@@ -16,7 +19,7 @@
       "202.177.48.0/20",
       "210.158.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:d200::/32"
     ]
   }

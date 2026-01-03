@@ -1,11 +1,14 @@
 {
-  "asn": 25566,
-  "handle": "SSK-AS",
-  "description": "Sosyal Guvenlik Kurumu(SGK)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25566,
+  "metadata" : {
+    "handle" : "SSK-AS",
+    "description" : "Sosyal Guvenlik Kurumu(SGK)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.245.227.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

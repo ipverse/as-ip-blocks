@@ -1,12 +1,15 @@
 {
-  "asn": 20802,
-  "handle": "JPC",
-  "description": "noscito network GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20802,
+  "metadata" : {
+    "handle" : "JPC",
+    "description" : "noscito network GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.111.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:6000::/29"
     ]
   }

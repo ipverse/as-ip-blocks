@@ -1,9 +1,12 @@
 {
-  "asn": 142578,
-  "handle": "ELARGEHONGKONGLI-AS-AP",
-  "description": "E-Large (HongKong) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142578,
+  "metadata" : {
+    "handle" : "ELARGEHONGKONGLI-AS-AP",
+    "description" : "E-Large (HongKong) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.93.18.0/23",
       "85.92.113.0/24",
       "91.209.182.0/24",
@@ -16,6 +19,6 @@
       "213.176.80.0/21",
       "213.176.96.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

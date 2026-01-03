@@ -1,12 +1,15 @@
 {
-  "asn": 5707,
-  "handle": "UTHSC-H",
-  "description": "The University of Texas Health Science Center at Houston",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5707,
+  "metadata" : {
+    "handle" : "UTHSC-H",
+    "description" : "The University of Texas Health Science Center at Houston",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.106.0.0/16",
       "139.52.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

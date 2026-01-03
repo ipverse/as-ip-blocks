@@ -1,15 +1,18 @@
 {
-  "asn": 11663,
-  "handle": "SUG-1",
-  "description": "State of Utah",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11663,
+  "metadata" : {
+    "handle" : "SUG-1",
+    "description" : "State of Utah",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.119.0.0/16",
       "165.239.0.0/16",
       "168.177.0.0/16",
       "168.178.0.0/15",
       "168.180.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

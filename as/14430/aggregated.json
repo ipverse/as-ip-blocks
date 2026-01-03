@@ -1,9 +1,12 @@
 {
-  "asn": 14430,
-  "handle": "BWFN-PRIME",
-  "description": "BalsamWest FiberNET LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14430,
+  "metadata" : {
+    "handle" : "BWFN-PRIME",
+    "description" : "BalsamWest FiberNET LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.55.80.0/22",
       "38.55.84.0/23",
       "38.55.87.0/24",
@@ -23,6 +26,6 @@
       "204.209.70.0/24",
       "208.68.120.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

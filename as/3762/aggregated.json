@@ -1,9 +1,12 @@
 {
-  "asn": 3762,
-  "handle": "INSTINET-AS",
-  "description": "Instinet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3762,
+  "metadata" : {
+    "handle" : "INSTINET-AS",
+    "description" : "Instinet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.16.0.0/16",
       "198.58.16.0/21",
       "198.58.24.0/22",
@@ -14,6 +17,6 @@
       "198.178.32.0/20",
       "198.178.48.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

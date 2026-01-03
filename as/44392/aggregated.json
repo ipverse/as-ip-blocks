@@ -1,11 +1,14 @@
 {
-  "asn": 44392,
-  "handle": "AIRPORT-SBG-AS",
-  "description": "Salzburger Flughafen GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44392,
+  "metadata" : {
+    "handle" : "AIRPORT-SBG-AS",
+    "description" : "Salzburger Flughafen GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.93.220.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

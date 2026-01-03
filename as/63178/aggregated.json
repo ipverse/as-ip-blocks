@@ -1,9 +1,12 @@
 {
-  "asn": 63178,
-  "handle": "MPRTC-ISP",
-  "description": "Mid-Plains Rural Telephone Cooperative Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63178,
+  "metadata" : {
+    "handle" : "MPRTC-ISP",
+    "description" : "Mid-Plains Rural Telephone Cooperative Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.81.112.0/21",
       "67.22.208.0/21",
       "67.22.216.0/22",
@@ -11,7 +14,7 @@
       "209.51.4.0/22",
       "216.229.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:6840::/32"
     ]
   }

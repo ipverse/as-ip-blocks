@@ -1,9 +1,12 @@
 {
-  "asn": 3580,
-  "handle": "PLANET",
-  "description": "Planet Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3580,
+  "metadata" : {
+    "handle" : "PLANET",
+    "description" : "Planet Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.133.224.0/20",
       "68.234.48.0/20",
       "69.172.128.0/20",
@@ -14,7 +17,7 @@
       "209.102.224.0/20",
       "216.220.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:81a:a001::/48",
       "2607:f8d8::/32"
     ]

@@ -1,14 +1,17 @@
 {
-  "asn": 263758,
-  "handle": "BOLSA-COMERCIO-SANTIAGO",
-  "description": "Bolsa de Comercio de Santiago",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263758,
+  "metadata" : {
+    "handle" : "BOLSA-COMERCIO-SANTIAGO",
+    "description" : "Bolsa de Comercio de Santiago",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.238.235.0/24",
       "161.238.236.0/24",
       "161.238.251.0/24",
       "161.238.252.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 50343,
-  "handle": "NWRK-AS",
-  "description": "New Work SE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50343,
+  "metadata" : {
+    "handle" : "NWRK-AS",
+    "description" : "New Work SE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.233.152.0/24",
       "109.233.156.0/22",
       "185.169.112.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

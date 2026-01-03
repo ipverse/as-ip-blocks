@@ -1,16 +1,19 @@
 {
-  "asn": 397162,
-  "handle": "SUMOFIBER-IDAHO",
-  "description": "Sumofiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397162,
+  "metadata" : {
+    "handle" : "SUMOFIBER-IDAHO",
+    "description" : "Sumofiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.59.222.0/23",
       "38.70.240.0/22",
       "38.148.16.0/20",
       "130.51.28.0/22",
       "162.221.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:f581:8000::/33"
     ]
   }

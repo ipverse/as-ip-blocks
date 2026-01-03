@@ -1,9 +1,12 @@
 {
-  "asn": 45,
-  "handle": "LLL-TIS-AS",
-  "description": "Lawrence Livermore National Laboratory",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45,
+  "metadata" : {
+    "handle" : "LLL-TIS-AS",
+    "description" : "Lawrence Livermore National Laboratory",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.15.0.0/16",
       "128.115.0.0/16",
       "134.9.88.0/21",
@@ -15,7 +18,7 @@
       "192.12.134.0/24",
       "192.188.35.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:80e:d000::/40"
     ]
   }

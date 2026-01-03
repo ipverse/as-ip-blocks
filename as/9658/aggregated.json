@@ -1,9 +1,12 @@
 {
-  "asn": 9658,
-  "handle": "ETPI-IDS-AS-AP",
-  "description": "Eastern Telecommunications Philippines Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9658,
+  "metadata" : {
+    "handle" : "ETPI-IDS-AS-AP",
+    "description" : "Eastern Telecommunications Philippines Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.157.0.0/18",
       "49.157.64.0/20",
       "49.157.84.0/23",
@@ -28,7 +31,7 @@
       "202.175.192.0/18",
       "203.167.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:a000::/32"
     ]
   }

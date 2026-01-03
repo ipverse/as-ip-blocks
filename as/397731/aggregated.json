@@ -1,9 +1,12 @@
 {
-  "asn": 397731,
-  "handle": "ELITEWORK-01",
-  "description": "EliteWork LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397731,
+  "metadata" : {
+    "handle" : "ELITEWORK-01",
+    "description" : "EliteWork LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.245.172.0/22",
       "104.225.132.0/23",
       "104.238.228.0/24",
@@ -13,6 +16,6 @@
       "192.126.128.0/17",
       "192.206.41.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

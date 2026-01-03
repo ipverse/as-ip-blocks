@@ -1,9 +1,12 @@
 {
-  "asn": 34660,
-  "handle": "IDAQ-AS",
-  "description": "Roebuck Group Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34660,
+  "metadata" : {
+    "handle" : "IDAQ-AS",
+    "description" : "Roebuck Group Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.199.24.0/21",
       "159.253.48.0/21",
       "178.23.160.0/21",
@@ -11,7 +14,7 @@
       "185.52.220.0/22",
       "217.168.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1fb0::/29",
       "2a02:20d0::/29"
     ]

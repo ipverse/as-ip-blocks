@@ -1,13 +1,16 @@
 {
-  "asn": 10488,
-  "handle": "TFM-ASN",
-  "description": "TFM Associates LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10488,
+  "metadata" : {
+    "handle" : "TFM-ASN",
+    "description" : "TFM Associates LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.1.116.0/23",
       "192.231.224.0/22",
       "192.231.228.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 10668,
-  "handle": "LEE-ASN",
-  "description": "Lee Enterprises Incorporated",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10668,
+  "metadata" : {
+    "handle" : "LEE-ASN",
+    "description" : "Lee Enterprises Incorporated",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.104.182.0/23",
       "192.104.185.0/24",
       "192.104.192.0/19",
       "192.104.224.0/21",
       "209.96.3.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

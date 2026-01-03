@@ -1,9 +1,12 @@
 {
-  "asn": 17882,
-  "handle": "UNIVISION-AS-AP",
-  "description": "MCS Com Co Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17882,
+  "metadata" : {
+    "handle" : "UNIVISION-AS-AP",
+    "description" : "MCS Com Co Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.228.128.0/22",
       "43.242.240.0/22",
       "59.153.112.0/22",
@@ -38,7 +41,7 @@
       "203.98.76.0/23",
       "203.217.138.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:5700::/32"
     ]
   }

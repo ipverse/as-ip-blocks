@@ -1,11 +1,14 @@
 {
-  "asn": 54222,
-  "handle": "CITY-OF-CEDAR-PARK",
-  "description": "City of Cedar Park",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54222,
+  "metadata" : {
+    "handle" : "CITY-OF-CEDAR-PARK",
+    "description" : "City of Cedar Park",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.36.61.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

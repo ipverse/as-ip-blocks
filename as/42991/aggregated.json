@@ -1,14 +1,17 @@
 {
-  "asn": 42991,
-  "handle": "HNET-AS",
-  "description": "BioNet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42991,
+  "metadata" : {
+    "handle" : "HNET-AS",
+    "description" : "BioNet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.196.36.0/22",
       "91.204.188.0/22",
       "195.28.188.0/24",
       "217.113.30.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

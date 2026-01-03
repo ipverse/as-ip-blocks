@@ -1,13 +1,16 @@
 {
-  "asn": 31349,
-  "handle": "A-NET",
-  "description": "a-net Liberec s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31349,
+  "metadata" : {
+    "handle" : "A-NET",
+    "description" : "a-net Liberec s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.201.16.0/20",
       "185.185.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:8080::/29"
     ]
   }

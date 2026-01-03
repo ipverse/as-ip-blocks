@@ -1,14 +1,17 @@
 {
-  "asn": 1929,
-  "handle": "UMASSNET-NET",
-  "description": "University of Massachusetts - AMHERST",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1929,
+  "metadata" : {
+    "handle" : "UMASSNET-NET",
+    "description" : "University of Massachusetts - AMHERST",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.16.44.0/23",
       "198.22.255.0/24",
       "205.172.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:48e8:6400::/44"
     ]
   }

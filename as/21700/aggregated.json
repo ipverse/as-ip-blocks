@@ -1,9 +1,12 @@
 {
-  "asn": 21700,
-  "handle": "NEPTUNE-NETWORKS",
-  "description": "Neptune Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21700,
+  "metadata" : {
+    "handle" : "NEPTUNE-NETWORKS",
+    "description" : "Neptune Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.157.160.0/24",
       "159.148.114.0/24",
       "172.82.22.0/23",
@@ -12,7 +15,7 @@
       "216.74.121.0/24",
       "216.126.57.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe2e::/37",
       "2606:f1c0::/32"
     ]

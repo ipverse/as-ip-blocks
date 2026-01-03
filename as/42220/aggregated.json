@@ -1,14 +1,17 @@
 {
-  "asn": 42220,
-  "handle": "SIAPI-AS",
-  "description": "TREVENQUE SISTEMAS DE INFORMACION S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42220,
+  "metadata" : {
+    "handle" : "SIAPI-AS",
+    "description" : "TREVENQUE SISTEMAS DE INFORMACION S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.58.211.0/24",
       "185.214.176.0/22",
       "217.18.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:9520::/32"
     ]
   }

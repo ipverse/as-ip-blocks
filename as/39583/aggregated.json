@@ -1,12 +1,15 @@
 {
-  "asn": 39583,
-  "handle": "PERTINEO",
-  "description": "Pertineo SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39583,
+  "metadata" : {
+    "handle" : "PERTINEO",
+    "description" : "Pertineo SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.7.4.0/22",
       "195.244.20.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

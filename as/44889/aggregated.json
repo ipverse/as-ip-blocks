@@ -1,9 +1,12 @@
 {
-  "asn": 44889,
-  "handle": "AZMA-AS",
-  "description": "Farhang Azma Communications Company LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44889,
+  "metadata" : {
+    "handle" : "AZMA-AS",
+    "description" : "Farhang Azma Communications Company LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.16.66.0/24",
       "212.16.68.0/23",
       "212.16.74.0/24",
@@ -17,7 +20,7 @@
       "212.80.17.0/24",
       "212.80.28.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:7d80::/47"
     ]
   }

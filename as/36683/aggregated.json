@@ -1,13 +1,16 @@
 {
-  "asn": 36683,
-  "handle": "WILLAMETTE-ESD",
-  "description": "Willamette Education Service District",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36683,
+  "metadata" : {
+    "handle" : "WILLAMETTE-ESD",
+    "description" : "Willamette Education Service District",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.237.164.0/22",
       "198.237.168.0/21",
       "198.237.176.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

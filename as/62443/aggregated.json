@@ -1,12 +1,15 @@
 {
-  "asn": 62443,
-  "handle": "AKWA",
-  "description": "Nicolas VUILLERMET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62443,
+  "metadata" : {
+    "handle" : "AKWA",
+    "description" : "Nicolas VUILLERMET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.39.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:cc80::/31",
       "2a13:cc82:100::/48",
       "2a13:cc83:702::/48"

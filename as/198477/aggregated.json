@@ -1,15 +1,18 @@
 {
-  "asn": 198477,
-  "handle": "TISGR-NET",
-  "description": "TI SPARKLE GREECE SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198477,
+  "metadata" : {
+    "handle" : "TISGR-NET",
+    "description" : "TI SPARKLE GREECE SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.99.192.0/21",
       "91.213.228.0/24",
       "185.55.28.0/22",
       "185.117.228.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5440::/32"
     ]
   }

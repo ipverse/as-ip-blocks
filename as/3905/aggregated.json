@@ -1,9 +1,12 @@
 {
-  "asn": 3905,
-  "handle": "CONSORCIO-REDUNO",
-  "description": "CONSORCIO REDUNO S.A. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3905,
+  "metadata" : {
+    "handle" : "CONSORCIO-REDUNO",
+    "description" : "CONSORCIO REDUNO S.A. de C.V",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "189.240.32.0/24",
       "189.247.131.0/24",
       "189.254.64.0/24",
@@ -12,7 +15,7 @@
       "204.124.104.0/24",
       "204.124.106.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:1070:401::/48"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 45629,
-  "handle": "JASTEL-NETWORK-TH-AP",
-  "description": "JasTel Network Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45629,
+  "metadata" : {
+    "handle" : "JASTEL-NETWORK-TH-AP",
+    "description" : "JasTel Network Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.82.191.0/24",
       "182.50.84.0/22",
       "182.50.92.0/22",
       "203.209.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:4a00::/32"
     ]
   }

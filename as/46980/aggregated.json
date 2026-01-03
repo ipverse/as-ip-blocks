@@ -1,12 +1,15 @@
 {
-  "asn": 46980,
-  "handle": "NITEMARE",
-  "description": "Nitemare Networking",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46980,
+  "metadata" : {
+    "handle" : "NITEMARE",
+    "description" : "Nitemare Networking",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.163.16.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd20::/36"
     ]
   }

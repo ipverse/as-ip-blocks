@@ -1,13 +1,16 @@
 {
-  "asn": 54106,
-  "handle": "8WIRE",
-  "description": "8-Wire LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54106,
+  "metadata" : {
+    "handle" : "8WIRE",
+    "description" : "8-Wire LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.249.254.0/24",
       "135.129.96.0/23",
       "135.129.106.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 53435,
-  "handle": "JACKSONENERGY-EPLUS",
-  "description": "JACKSON ENERGY AUTHORITY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53435,
+  "metadata" : {
+    "handle" : "JACKSONENERGY-EPLUS",
+    "description" : "JACKSON ENERGY AUTHORITY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.93.176.0/20",
       "69.167.192.0/18",
       "72.4.32.0/20",
@@ -21,7 +24,7 @@
       "216.41.160.0/20",
       "216.41.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:2d40::/32"
     ]
   }

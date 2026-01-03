@@ -1,11 +1,14 @@
 {
-  "asn": 54985,
-  "handle": "AS-PIN",
-  "description": "PIN LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54985,
+  "metadata" : {
+    "handle" : "AS-PIN",
+    "description" : "PIN LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.235.32.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

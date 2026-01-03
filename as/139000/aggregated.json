@@ -1,11 +1,14 @@
 {
-  "asn": 139000,
-  "handle": "VIRIDIANIT1-AS-AP",
-  "description": "ViridianIT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139000,
+  "metadata" : {
+    "handle" : "VIRIDIANIT1-AS-AP",
+    "description" : "ViridianIT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.138.87.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 45557,
-  "handle": "VNTT-AS-VN",
-  "description": "Vietnam Technology and Telecommunication JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45557,
+  "metadata" : {
+    "handle" : "VNTT-AS-VN",
+    "description" : "Vietnam Technology and Telecommunication JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.118.136.0/22",
       "103.17.88.0/22",
       "103.129.80.0/22",
@@ -12,7 +15,7 @@
       "103.170.248.0/23",
       "180.148.0.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:3a00::/44",
       "2404:3a00:100::/40",
       "2404:3a00:200::/39",

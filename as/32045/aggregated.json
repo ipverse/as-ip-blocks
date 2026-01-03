@@ -1,15 +1,18 @@
 {
-  "asn": 32045,
-  "handle": "AS-DYNASCALE-LAS",
-  "description": "1U Web INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32045,
+  "metadata" : {
+    "handle" : "AS-DYNASCALE-LAS",
+    "description" : "1U Web INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.26.113.0/24",
       "173.255.0.0/21",
       "173.255.8.0/22",
       "173.255.12.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:6e00:6000::/35"
     ]
   }

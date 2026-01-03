@@ -1,15 +1,18 @@
 {
-  "asn": 151157,
-  "handle": "CHATSIGNL-AS-IN",
-  "description": "CHATSIGNAL PVT LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151157,
+  "metadata" : {
+    "handle" : "CHATSIGNL-AS-IN",
+    "description" : "CHATSIGNAL PVT LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.166.0/23",
       "103.162.190.0/23",
       "103.232.244.0/22",
       "202.160.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:f620::/32"
     ]
   }

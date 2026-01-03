@@ -1,13 +1,16 @@
 {
-  "asn": 134702,
-  "handle": "NETSCOPE-AS-AP",
-  "description": "NETSCOPE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134702,
+  "metadata" : {
+    "handle" : "NETSCOPE-AS-AP",
+    "description" : "NETSCOPE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.77.188.0/23",
       "103.77.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:9d80::/32"
     ]
   }

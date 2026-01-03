@@ -1,12 +1,15 @@
 {
-  "asn": 54532,
-  "handle": "AAA-NE-PVD-01",
-  "description": "AAA Northeast",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54532,
+  "metadata" : {
+    "handle" : "AAA-NE-PVD-01",
+    "description" : "AAA Northeast",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "205.153.224.0/24",
       "205.153.226.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

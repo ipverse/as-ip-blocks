@@ -1,13 +1,16 @@
 {
-  "asn": 34941,
-  "handle": "CYBERCOM-AS",
-  "description": "Cygrids Communications AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34941,
+  "metadata" : {
+    "handle" : "CYBERCOM-AS",
+    "description" : "Cygrids Communications AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.118.200.0/21",
       "185.112.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:6180::/40",
       "2a06:6180:4000::/40",
       "2a06:6180:8000::/40",

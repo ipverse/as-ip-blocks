@@ -1,13 +1,16 @@
 {
-  "asn": 46924,
-  "handle": "BJU-ASN",
-  "description": "Bob Jones University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46924,
+  "metadata" : {
+    "handle" : "BJU-ASN",
+    "description" : "Bob Jones University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.151.224.0/24",
       "23.153.32.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:56:6000::/48",
       "2620:56:a000::/48"
     ]

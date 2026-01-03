@@ -1,9 +1,12 @@
 {
-  "asn": 22612,
-  "handle": "NAMECHEAP-NET",
-  "description": "Namecheap Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22612,
+  "metadata" : {
+    "handle" : "NAMECHEAP-NET",
+    "description" : "Namecheap Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.250.32.0/20",
       "66.29.128.0/19",
       "67.223.116.0/22",
@@ -34,7 +37,7 @@
       "209.74.64.0/19",
       "209.188.21.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:5b80::/32",
       "2a02:77e0::/43",
       "2a02:77e0:100::/44"

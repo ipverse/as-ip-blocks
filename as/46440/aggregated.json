@@ -1,12 +1,15 @@
 {
-  "asn": 46440,
-  "handle": "STEADFAST-INT",
-  "description": "Steadfast",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46440,
+  "metadata" : {
+    "handle" : "STEADFAST-INT",
+    "description" : "Steadfast",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.202.100.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f128::/48"
     ]
   }

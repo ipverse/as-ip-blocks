@@ -1,9 +1,12 @@
 {
-  "asn": 27258,
-  "handle": "KAMOPOWER",
-  "description": "KAMO Electric Cooperative Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27258,
+  "metadata" : {
+    "handle" : "KAMOPOWER",
+    "description" : "KAMO Electric Cooperative Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.77.222.0/23",
       "67.210.48.0/20",
       "67.223.202.0/24",
@@ -19,7 +22,7 @@
       "206.246.0.0/19",
       "208.101.209.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:6800::/32"
     ]
   }

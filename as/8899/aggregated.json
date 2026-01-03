@@ -1,13 +1,16 @@
 {
-  "asn": 8899,
-  "handle": "DEUTSCHE-GLASFASER",
-  "description": "inexio Informationstechnologie und Telekommunikation Gmbh",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8899,
+  "metadata" : {
+    "handle" : "DEUTSCHE-GLASFASER",
+    "description" : "inexio Informationstechnologie und Telekommunikation Gmbh",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.234.32.0/23",
       "77.234.35.0/24",
       "193.169.72.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

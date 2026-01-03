@@ -1,14 +1,17 @@
 {
-  "asn": 135687,
-  "handle": "QWISTELN-AS-IN",
-  "description": "Qwistel Network Service Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135687,
+  "metadata" : {
+    "handle" : "QWISTELN-AS-IN",
+    "description" : "Qwistel Network Service Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.127.130.0/24",
       "103.174.243.0/24",
       "103.176.16.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:4c80::/48"
     ]
   }

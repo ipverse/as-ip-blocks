@@ -1,13 +1,16 @@
 {
-  "asn": 203779,
-  "handle": "NORDFIBER",
-  "description": "NORDFIBER AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203779,
+  "metadata" : {
+    "handle" : "NORDFIBER",
+    "description" : "NORDFIBER AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.24.0/23",
       "185.124.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:b040::/29"
     ]
   }

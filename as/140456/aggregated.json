@@ -1,14 +1,17 @@
 {
-  "asn": 140456,
-  "handle": "IDNIC-ERANYACLOUD-AS-ID",
-  "description": "PT Era Awan Digital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140456,
+  "metadata" : {
+    "handle" : "IDNIC-ERANYACLOUD-AS-ID",
+    "description" : "PT Era Awan Digital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.96.146.0/23",
       "103.153.60.0/23",
       "160.22.250.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:3680::/48"
     ]
   }

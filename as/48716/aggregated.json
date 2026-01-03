@@ -1,9 +1,12 @@
 {
-  "asn": 48716,
-  "handle": "PSKZ-ALA",
-  "description": "PS Internet Company LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48716,
+  "metadata" : {
+    "handle" : "PSKZ-ALA",
+    "description" : "PS Internet Company LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.3.209.0/24",
       "46.8.254.0/24",
       "46.247.40.0/23",
@@ -36,7 +39,7 @@
       "195.93.152.0/23",
       "195.210.46.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:5da0::/35"
     ]
   }

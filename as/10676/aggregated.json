@@ -1,12 +1,15 @@
 {
-  "asn": 10676,
-  "handle": "GLOBALEC",
-  "description": "IBM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10676,
+  "metadata" : {
+    "handle" : "GLOBALEC",
+    "description" : "IBM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.95.224.0/19",
       "216.86.224.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

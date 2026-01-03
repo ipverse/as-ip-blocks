@@ -1,9 +1,12 @@
 {
-  "asn": 4996,
-  "handle": "SBI",
-  "description": "Citigroup Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4996,
+  "metadata" : {
+    "handle" : "SBI",
+    "description" : "Citigroup Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.193.12.0/24",
       "192.193.37.0/24",
       "192.193.46.0/24",
@@ -21,6 +24,6 @@
       "199.67.182.0/23",
       "199.67.184.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

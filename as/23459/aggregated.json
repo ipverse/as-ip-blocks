@@ -1,12 +1,15 @@
 {
-  "asn": 23459,
-  "handle": "APPLEBEE-NETWORKS",
-  "description": "applebee",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23459,
+  "metadata" : {
+    "handle" : "APPLEBEE-NETWORKS",
+    "description" : "applebee",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.176.216.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f90f::/47",
       "2602:f90f:10::/48",
       "2602:f90f:fc::/48"

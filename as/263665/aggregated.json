@@ -1,9 +1,12 @@
 {
-  "asn": 263665,
-  "handle": "TECNET-PROVEDOR-ACESSO",
-  "description": "TECNET PROVEDOR DE ACESSO AS REDES DE COM. LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263665,
+  "metadata" : {
+    "handle" : "TECNET-PROVEDOR-ACESSO",
+    "description" : "TECNET PROVEDOR DE ACESSO AS REDES DE COM. LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.227.188.0/22",
       "131.161.108.0/22",
       "138.255.172.0/22",
@@ -11,7 +14,7 @@
       "170.150.112.0/22",
       "191.241.32.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1134::/32",
       "2804:343c::/32",
       "2804:47c0::/32"

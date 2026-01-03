@@ -1,9 +1,12 @@
 {
-  "asn": 59451,
-  "handle": "ARABBANK-AS",
-  "description": "Al-Bank Al-Arabi PLC. CO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59451,
+  "metadata" : {
+    "handle" : "ARABBANK-AS",
+    "description" : "Al-Bank Al-Arabi PLC. CO.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.75.144.0/22",
       "37.75.149.0/24",
       "37.75.150.0/24",
@@ -11,6 +14,6 @@
       "185.173.58.0/23",
       "194.165.131.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

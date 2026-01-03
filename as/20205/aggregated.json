@@ -1,9 +1,12 @@
 {
-  "asn": 20205,
-  "handle": "AMPLEX",
-  "description": "Amplex Electric Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20205,
+  "metadata" : {
+    "handle" : "AMPLEX",
+    "description" : "Amplex Electric Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.67.212.0/23",
       "38.67.220.0/24",
       "38.67.244.0/23",
@@ -14,7 +17,7 @@
       "168.245.180.0/22",
       "192.211.11.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4950::/32"
     ]
   }

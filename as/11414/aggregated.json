@@ -1,9 +1,12 @@
 {
-  "asn": 11414,
-  "handle": "NVIDIA-NET",
-  "description": "Nvidia Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11414,
+  "metadata" : {
+    "handle" : "NVIDIA-NET",
+    "description" : "Nvidia Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.28.229.0/24",
       "8.36.112.0/23",
       "8.36.120.0/24",
@@ -25,7 +28,7 @@
       "72.25.120.0/23",
       "216.228.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:a140:2000::/36",
       "2604:a140:4000::/36",
       "2604:a140:6000::/36",

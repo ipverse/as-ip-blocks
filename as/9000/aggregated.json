@@ -1,15 +1,18 @@
 {
-  "asn": 9000,
-  "handle": "ESER-ASN",
-  "description": "Eser Telekom Sanayi ve Ticaret A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9000,
+  "metadata" : {
+    "handle" : "ESER-ASN",
+    "description" : "Eser Telekom Sanayi ve Ticaret A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.50.32.0/23",
       "212.50.36.0/22",
       "212.50.40.0/23",
       "212.50.54.0/23",
       "212.50.61.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

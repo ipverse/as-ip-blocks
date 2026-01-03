@@ -1,9 +1,12 @@
 {
-  "asn": 45806,
-  "handle": "SCB-TH-AS-AP",
-  "description": "Siam Commercial Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45806,
+  "metadata" : {
+    "handle" : "SCB-TH-AS-AP",
+    "description" : "Siam Commercial Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.179.161.0/24",
       "1.179.211.0/24",
       "1.179.223.0/24",
@@ -17,6 +20,6 @@
       "182.52.154.0/24",
       "203.99.140.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

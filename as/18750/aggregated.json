@@ -1,12 +1,15 @@
 {
-  "asn": 18750,
-  "handle": "LEXICOM",
-  "description": "Lexicom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18750,
+  "metadata" : {
+    "handle" : "LEXICOM",
+    "description" : "Lexicom Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.161.90.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f078::/32"
     ]
   }

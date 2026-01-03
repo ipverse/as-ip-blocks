@@ -1,9 +1,12 @@
 {
-  "asn": 30612,
-  "handle": "EAGLE-9-AS",
-  "description": "Eagle Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30612,
+  "metadata" : {
+    "handle" : "EAGLE-9-AS",
+    "description" : "Eagle Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.51.40.0/21",
       "24.72.208.0/21",
       "24.112.66.0/23",
@@ -18,7 +21,7 @@
       "69.18.252.0/23",
       "192.16.112.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:1d40:200::/40",
       "2604:1d40:2000::/36"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 24739,
-  "handle": "SEVEREN-TELECOM",
-  "description": "JSC Severen-Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24739,
+  "metadata" : {
+    "handle" : "SEVEREN-TELECOM",
+    "description" : "JSC Severen-Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.46.52.0/22",
       "37.46.56.0/21",
       "37.143.16.0/20",
@@ -83,7 +86,7 @@
       "213.208.185.0/24",
       "217.197.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1020::/32"
     ]
   }

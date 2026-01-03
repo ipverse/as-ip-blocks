@@ -1,13 +1,16 @@
 {
-  "asn": 5110,
-  "handle": "CITY-OF-VANCOUVER",
-  "description": "City of Vancouver",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5110,
+  "metadata" : {
+    "handle" : "CITY-OF-VANCOUVER",
+    "description" : "City of Vancouver",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.175.208.0/24",
       "199.175.214.0/23",
       "199.175.218.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

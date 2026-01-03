@@ -1,9 +1,12 @@
 {
-  "asn": 35444,
-  "handle": "DIGICOMALBANIA-AS",
-  "description": "Digicom SHPK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35444,
+  "metadata" : {
+    "handle" : "DIGICOMALBANIA-AS",
+    "description" : "Digicom SHPK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.93.220.0/22",
       "80.90.80.0/20",
       "81.26.200.0/21",
@@ -16,7 +19,7 @@
       "185.212.188.0/22",
       "185.239.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:2de0::/32"
     ]
   }

@@ -1,16 +1,19 @@
 {
-  "asn": 27717,
-  "handle": "CORPORACION-DIGITEL-CA",
-  "description": "Corporacion Digitel C.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27717,
+  "metadata" : {
+    "handle" : "CORPORACION-DIGITEL-CA",
+    "description" : "Corporacion Digitel C.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.167.0.0/17",
       "186.167.128.0/18",
       "190.121.224.0/20",
       "200.71.240.0/21",
       "217.26.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:930::/30",
       "2800:934::/31",
       "2800:936::/32"

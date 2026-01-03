@@ -1,15 +1,18 @@
 {
-  "asn": 12223,
-  "handle": "AS-EQUIVOICE-COM",
-  "description": "MNJ Technology Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12223,
+  "metadata" : {
+    "handle" : "AS-EQUIVOICE-COM",
+    "description" : "MNJ Technology Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.252.64.0/22",
       "66.252.71.0/24",
       "66.252.72.0/21",
       "192.157.76.0/23",
       "192.157.79.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

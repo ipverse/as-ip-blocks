@@ -1,9 +1,12 @@
 {
-  "asn": 210976,
-  "handle": "TWC-EU",
-  "description": "Timeweb LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210976,
+  "metadata" : {
+    "handle" : "TWC-EU",
+    "description" : "Timeweb LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.44.46.0/23",
       "5.129.208.0/23",
       "5.129.210.0/24",
@@ -148,6 +151,6 @@
       "217.151.229.0/24",
       "217.151.231.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

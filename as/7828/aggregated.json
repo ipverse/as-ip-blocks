@@ -1,9 +1,12 @@
 {
-  "asn": 7828,
-  "handle": "DRMSCPASN",
-  "description": "Northland Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7828,
+  "metadata" : {
+    "handle" : "DRMSCPASN",
+    "description" : "Northland Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.77.37.0/24",
       "67.216.0.0/20",
       "104.194.20.0/22",
@@ -20,7 +23,7 @@
       "209.217.192.0/19",
       "216.171.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:fe00::/32"
     ]
   }

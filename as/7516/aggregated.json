@@ -1,9 +1,12 @@
 {
-  "asn": 7516,
-  "handle": "TOHKNET",
-  "description": "TOHKnet Co. Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7516,
+  "metadata" : {
+    "handle" : "TOHKNET",
+    "description" : "TOHKnet Co. Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "150.30.0.0/16",
       "202.254.152.0/24",
       "210.175.192.0/19",
@@ -14,7 +17,7 @@
       "218.216.112.0/20",
       "219.109.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:3c0::/35"
     ]
   }

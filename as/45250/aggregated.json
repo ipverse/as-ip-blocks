@@ -1,9 +1,12 @@
 {
-  "asn": 45250,
-  "handle": "VOCOM-AP-AS",
-  "description": "Vocom International Telecommunication Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45250,
+  "metadata" : {
+    "handle" : "VOCOM-AP-AS",
+    "description" : "Vocom International Telecommunication Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.70.77.0/24",
       "38.150.64.0/22",
       "38.150.69.0/24",
@@ -21,7 +24,7 @@
       "208.90.120.0/23",
       "220.232.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:e300::/32",
       "2602:fd55::/47"
     ]

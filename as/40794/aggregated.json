@@ -1,11 +1,14 @@
 {
-  "asn": 40794,
-  "handle": "WESTCO-ASN",
-  "description": "Westco Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40794,
+  "metadata" : {
+    "handle" : "WESTCO-ASN",
+    "description" : "Westco Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.255.184.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

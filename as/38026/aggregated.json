@@ -1,9 +1,12 @@
 {
-  "asn": 38026,
-  "handle": "MNBL-TRANSIT-AS-AP",
-  "description": "MetroNet Bangladesh Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38026,
+  "metadata" : {
+    "handle" : "MNBL-TRANSIT-AS-AP",
+    "description" : "MetroNet Bangladesh Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.240.100.0/22",
       "103.36.100.0/22",
       "103.110.58.0/23",
@@ -13,7 +16,7 @@
       "116.193.220.0/22",
       "202.164.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:af80::/48",
       "2404:af80:3::/48",
       "2404:af80:4::/48",

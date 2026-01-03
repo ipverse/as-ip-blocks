@@ -1,9 +1,12 @@
 {
-  "asn": 39351,
-  "handle": "ESAB-AS",
-  "description": "31173 Services AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39351,
+  "metadata" : {
+    "handle" : "ESAB-AS",
+    "description" : "31173 Services AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.83.220.0/22",
       "45.129.56.0/22",
       "45.130.118.0/24",
@@ -34,7 +37,7 @@
       "194.34.172.0/24",
       "203.159.82.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:1b20::/45",
       "2a03:1b20:8::/46",
       "2a03:1b20:c::/47",

@@ -1,9 +1,12 @@
 {
-  "asn": 16050,
-  "handle": "REFINITIV-SLOUGH-LO5-RES-AS",
-  "description": "Refinitiv Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16050,
+  "metadata" : {
+    "handle" : "REFINITIV-SLOUGH-LO5-RES-AS",
+    "description" : "Refinitiv Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.242.21.0/24",
       "146.242.52.0/24",
       "155.46.20.0/23",
@@ -27,6 +30,6 @@
       "192.165.211.0/24",
       "192.165.220.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

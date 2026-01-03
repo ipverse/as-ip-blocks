@@ -1,9 +1,12 @@
 {
-  "asn": 35916,
-  "handle": "MULTA-ASN1",
-  "description": "MULTACOM CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35916,
+  "metadata" : {
+    "handle" : "MULTA-ASN1",
+    "description" : "MULTACOM CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.159.9.0/24",
       "23.236.72.0/24",
       "23.236.78.0/23",
@@ -70,7 +73,7 @@
       "206.168.148.0/24",
       "206.168.151.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fff6:1::/48",
       "2607:9a00::/32",
       "2607:f130::/32",

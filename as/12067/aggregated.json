@@ -1,13 +1,16 @@
 {
-  "asn": 12067,
-  "handle": "SHAWNEELINK",
-  "description": "ShawneeLink Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12067,
+  "metadata" : {
+    "handle" : "SHAWNEELINK",
+    "description" : "ShawneeLink Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.27.224.0/20",
       "216.240.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:1e00::/32"
     ]
   }

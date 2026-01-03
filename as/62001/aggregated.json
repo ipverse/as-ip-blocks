@@ -1,12 +1,15 @@
 {
-  "asn": 62001,
-  "handle": "APHELION-AS",
-  "description": "Aphelion Consulting AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62001,
+  "metadata" : {
+    "handle" : "APHELION-AS",
+    "description" : "Aphelion Consulting AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.42.171.0/24",
       "162.244.159.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

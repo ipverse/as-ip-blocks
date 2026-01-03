@@ -1,9 +1,12 @@
 {
-  "asn": 30012,
-  "handle": "ASN-UNIVERSAL-MUSIC-GROUP-INC",
-  "description": "Universal Music Group INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30012,
+  "metadata" : {
+    "handle" : "ASN-UNIVERSAL-MUSIC-GROUP-INC",
+    "description" : "Universal Music Group INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.119.127.0/24",
       "167.167.1.0/24",
       "167.167.3.0/24",
@@ -41,6 +44,6 @@
       "167.167.244.0/24",
       "167.167.248.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

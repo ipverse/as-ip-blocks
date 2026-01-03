@@ -1,9 +1,12 @@
 {
-  "asn": 395831,
-  "handle": "MERAKI",
-  "description": "Meraki LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395831,
+  "metadata" : {
+    "handle" : "MERAKI",
+    "description" : "Meraki LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.115.128.0/22",
       "158.115.132.0/24",
       "158.115.136.0/22",
@@ -26,7 +29,7 @@
       "216.157.141.0/24",
       "216.157.143.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:12f:c001::/48",
       "2620:12f:c002::/47",
       "2620:12f:c004::/46",

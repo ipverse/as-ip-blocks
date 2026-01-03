@@ -1,13 +1,16 @@
 {
-  "asn": 200976,
-  "handle": "LIFESTREAM-AS",
-  "description": "Lifestream Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200976,
+  "metadata" : {
+    "handle" : "LIFESTREAM-AS",
+    "description" : "Lifestream Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.18.127.0/24",
       "185.198.112.0/23",
       "185.198.114.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

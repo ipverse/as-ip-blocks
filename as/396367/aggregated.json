@@ -1,16 +1,19 @@
 {
-  "asn": 396367,
-  "handle": "CANTIRE",
-  "description": "Canadian Tire Corporation LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396367,
+  "metadata" : {
+    "handle" : "CANTIRE",
+    "description" : "Canadian Tire Corporation LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.194.16.0/22",
       "104.194.28.0/22",
       "199.71.113.0/24",
       "199.202.144.0/23",
       "205.210.17.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:192::/36"
     ]
   }

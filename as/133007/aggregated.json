@@ -1,9 +1,12 @@
 {
-  "asn": 133007,
-  "handle": "UCN-AS",
-  "description": "UCN CABLE NETWORK PVT. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133007,
+  "metadata" : {
+    "handle" : "UCN-AS",
+    "description" : "UCN CABLE NETWORK PVT. LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.119.198.0/24",
       "103.136.92.0/24",
       "103.136.95.0/24",
@@ -15,7 +18,7 @@
       "103.252.168.0/22",
       "156.247.1.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:81c0::/32"
     ]
   }

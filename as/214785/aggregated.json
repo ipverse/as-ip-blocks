@@ -1,9 +1,12 @@
 {
-  "asn": 214785,
-  "handle": "INTONET369",
-  "description": "369 IntoNet Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214785,
+  "metadata" : {
+    "handle" : "INTONET369",
+    "description" : "369 IntoNet Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.250.126.0/24",
       "45.134.144.0/24",
       "45.155.224.0/24",
@@ -23,6 +26,6 @@
       "195.190.130.0/24",
       "204.52.191.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

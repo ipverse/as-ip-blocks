@@ -1,9 +1,12 @@
 {
-  "asn": 44546,
-  "handle": "ALFATELECOM-AS",
-  "description": "ALFA TELECOM s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44546,
+  "metadata" : {
+    "handle" : "ALFATELECOM-AS",
+    "description" : "ALFA TELECOM s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.148.0.0/16",
       "91.201.20.0/22",
       "92.38.0.0/17",
@@ -16,6 +19,6 @@
       "185.67.252.0/22",
       "195.178.4.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

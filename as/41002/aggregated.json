@@ -1,10 +1,13 @@
 {
-  "asn": 41002,
-  "handle": "ERTH-TRANSIT2-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 41002,
+  "metadata" : {
+    "handle" : "ERTH-TRANSIT2-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a03:1ac0::/48"
     ]
   }

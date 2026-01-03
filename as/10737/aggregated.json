@@ -1,14 +1,17 @@
 {
-  "asn": 10737,
-  "handle": "MOBI",
-  "description": "CellularONE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10737,
+  "metadata" : {
+    "handle" : "MOBI",
+    "description" : "CellularONE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.85.0.0/16",
       "204.145.177.0/24",
       "204.145.185.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:4940::/32"
     ]
   }

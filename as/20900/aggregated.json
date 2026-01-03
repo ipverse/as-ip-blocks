@@ -1,9 +1,12 @@
 {
-  "asn": 20900,
-  "handle": "AS-IMSNETORKS",
-  "description": "IMS Networks SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20900,
+  "metadata" : {
+    "handle" : "AS-IMSNETORKS",
+    "description" : "IMS Networks SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.217.232.0/21",
       "91.214.114.0/23",
       "91.231.175.0/24",
@@ -14,7 +17,7 @@
       "194.4.12.0/23",
       "213.190.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1b08::/32"
     ]
   }

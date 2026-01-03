@@ -1,12 +1,15 @@
 {
-  "asn": 137252,
-  "handle": "PROGOTIIT-AS-AP",
-  "description": "Progoti IT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137252,
+  "metadata" : {
+    "handle" : "PROGOTIIT-AS-AP",
+    "description" : "Progoti IT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.106.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:3940:1000::/36",
       "2402:3940:2000::/35",
       "2402:3940:4000::/34",

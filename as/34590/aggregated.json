@@ -1,9 +1,12 @@
 {
-  "asn": 34590,
-  "handle": "IZHEVSK-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34590,
+  "metadata" : {
+    "handle" : "IZHEVSK-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.147.128.0/18",
       "84.201.240.0/20",
       "91.144.164.0/22",
@@ -15,7 +18,7 @@
       "188.233.232.0/21",
       "188.234.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:1c00::/38"
     ]
   }

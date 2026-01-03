@@ -1,9 +1,12 @@
 {
-  "asn": 30881,
-  "handle": "TENSOR-AS",
-  "description": "MTS PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30881,
+  "metadata" : {
+    "handle" : "TENSOR-AS",
+    "description" : "MTS PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.220.32.0/20",
       "77.220.48.0/21",
       "77.220.56.0/22",
@@ -14,7 +17,7 @@
       "95.175.224.0/19",
       "109.198.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:6504::/32"
     ]
   }

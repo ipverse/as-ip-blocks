@@ -1,13 +1,16 @@
 {
-  "asn": 53061,
-  "handle": "G2NET-SUL-PROVEDOR",
-  "description": "G2NET SUL PROVEDOR LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53061,
+  "metadata" : {
+    "handle" : "G2NET-SUL-PROVEDOR",
+    "description" : "G2NET SUL PROVEDOR LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "187.85.128.0/20",
       "191.241.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:117c::/32"
     ]
   }

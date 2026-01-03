@@ -1,9 +1,12 @@
 {
-  "asn": 50633,
-  "handle": "NET-CITY-AS",
-  "description": "NET-CITY 2020 LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50633,
+  "metadata" : {
+    "handle" : "NET-CITY-AS",
+    "description" : "NET-CITY 2020 LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.36.146.0/24",
       "185.249.161.0/24",
       "193.84.50.0/24",
@@ -11,6 +14,6 @@
       "193.194.124.0/22",
       "195.68.216.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

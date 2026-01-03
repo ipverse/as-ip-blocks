@@ -1,9 +1,12 @@
 {
-  "asn": 197207,
-  "handle": "MCCI-AS",
-  "description": "Mobile Communication Company of Iran PLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197207,
+  "metadata" : {
+    "handle" : "MCCI-AS",
+    "description" : "Mobile Communication Company of Iran PLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.22.0.0/17",
       "5.52.0.0/16",
       "5.106.0.0/16",
@@ -65,7 +68,7 @@
       "192.15.0.0/16",
       "204.18.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:4540::/41",
       "2a02:4540:80::/42",
       "2a02:4540:c0::/43",

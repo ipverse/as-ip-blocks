@@ -1,14 +1,17 @@
 {
-  "asn": 9069,
-  "handle": "UNIWA",
-  "description": "UNIWA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9069,
+  "metadata" : {
+    "handle" : "UNIWA",
+    "description" : "UNIWA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.212.64.0/22",
       "195.130.96.0/20",
       "195.251.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:648:2330::/48"
     ]
   }

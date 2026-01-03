@@ -1,13 +1,16 @@
 {
-  "asn": 29143,
-  "handle": "MAGAZ-AS",
-  "description": "Magistrat Graz",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29143,
+  "metadata" : {
+    "handle" : "MAGAZ-AS",
+    "description" : "Magistrat Graz",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.48.68.0/22",
       "194.48.72.0/21",
       "194.48.80.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

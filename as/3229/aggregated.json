@@ -1,13 +1,16 @@
 {
-  "asn": 3229,
-  "handle": "DARINET-AS",
-  "description": "Darinet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3229,
+  "metadata" : {
+    "handle" : "DARINET-AS",
+    "description" : "Darinet Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.170.27.0/24",
       "95.47.252.0/24",
       "193.233.172.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

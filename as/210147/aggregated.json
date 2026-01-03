@@ -1,13 +1,16 @@
 {
-  "asn": 210147,
-  "handle": "AM-ISPSUPPORT",
-  "description": "ISP SUPPORT LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210147,
+  "metadata" : {
+    "handle" : "AM-ISPSUPPORT",
+    "description" : "ISP SUPPORT LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.109.197.0/24",
       "217.113.22.0/23",
       "217.113.31.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

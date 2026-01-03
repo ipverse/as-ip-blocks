@@ -1,9 +1,12 @@
 {
-  "asn": 398465,
-  "handle": "RACKDOG-LLC",
-  "description": "Rackdog LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398465,
+  "metadata" : {
+    "handle" : "RACKDOG-LLC",
+    "description" : "Rackdog LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.57.226.0/24",
       "31.57.246.0/23",
       "38.49.112.0/20",
@@ -96,7 +99,7 @@
       "216.176.32.0/24",
       "216.176.34.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd15::/36",
       "2a0c:c880::/29"
     ]

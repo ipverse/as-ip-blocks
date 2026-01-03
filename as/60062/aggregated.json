@@ -1,14 +1,17 @@
 {
-  "asn": 60062,
-  "handle": "THREEDATA-AS",
-  "description": "3DATA LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60062,
+  "metadata" : {
+    "handle" : "THREEDATA-AS",
+    "description" : "3DATA LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.230.160.0/24",
       "45.8.109.0/24",
       "141.101.193.0/24",
       "185.2.34.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

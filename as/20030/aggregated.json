@@ -1,12 +1,15 @@
 {
-  "asn": 20030,
-  "handle": "MCCLI-ARTELCO",
-  "description": "Artelco",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20030,
+  "metadata" : {
+    "handle" : "MCCLI-ARTELCO",
+    "description" : "Artelco",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "100.42.144.0/20",
       "167.94.72.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

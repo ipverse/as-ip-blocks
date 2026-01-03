@@ -1,12 +1,15 @@
 {
-  "asn": 38064,
-  "handle": "NZ-AS-NS1-AP",
-  "description": "InternetNZ",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38064,
+  "metadata" : {
+    "handle" : "NZ-AS-NS1-AP",
+    "description" : "InternetNZ",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.46.184.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:dce:100::/48",
       "2001:dce:5100::/48",
       "2001:dce:5200::/48",

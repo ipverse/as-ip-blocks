@@ -1,12 +1,15 @@
 {
-  "asn": 271300,
-  "handle": "LOGIN-PROVEDOR-INTERNET",
-  "description": "LOGIN PROVEDOR DE INTERNET LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271300,
+  "metadata" : {
+    "handle" : "LOGIN-PROVEDOR-INTERNET",
+    "description" : "LOGIN PROVEDOR DE INTERNET LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "189.91.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7958::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 11069,
-  "handle": "EGIX-INDY-AS-11069",
-  "description": "Altafiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11069,
+  "metadata" : {
+    "handle" : "EGIX-INDY-AS-11069",
+    "description" : "Altafiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.250.64.0/19",
       "64.151.128.0/18",
       "66.158.160.0/20",
@@ -14,6 +17,6 @@
       "209.131.192.0/19",
       "216.9.128.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

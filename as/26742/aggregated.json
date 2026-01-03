@@ -1,12 +1,15 @@
 {
-  "asn": 26742,
-  "handle": "MAXNOC-ASN",
-  "description": "MaxNOC Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26742,
+  "metadata" : {
+    "handle" : "MAXNOC-ASN",
+    "description" : "MaxNOC Communications LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.210.16.0/20",
       "192.30.56.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

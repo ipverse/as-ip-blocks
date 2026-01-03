@@ -1,9 +1,12 @@
 {
-  "asn": 17839,
-  "handle": "DREAMPLUS-AS",
-  "description": "LG HelloVision Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17839,
+  "metadata" : {
+    "handle" : "DREAMPLUS-AS",
+    "description" : "LG HelloVision Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.11.128.0/17",
       "36.39.0.0/17",
       "59.86.192.0/18",
@@ -31,6 +34,6 @@
       "210.0.32.0/19",
       "210.106.0.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

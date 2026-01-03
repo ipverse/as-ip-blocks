@@ -1,9 +1,12 @@
 {
-  "asn": 14110,
-  "handle": "GENESYS-ASN",
-  "description": "Genesys Telecommunications Laboratories Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14110,
+  "metadata" : {
+    "handle" : "GENESYS-ASN",
+    "description" : "Genesys Telecommunications Laboratories Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "135.39.174.0/24",
       "135.39.176.0/24",
       "198.49.180.0/24",
@@ -11,6 +14,6 @@
       "199.165.223.0/24",
       "208.79.168.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

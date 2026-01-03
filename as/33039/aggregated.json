@@ -1,15 +1,18 @@
 {
-  "asn": 33039,
-  "handle": "UNIFYMEDIA",
-  "description": "Unify Media Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33039,
+  "metadata" : {
+    "handle" : "UNIFYMEDIA",
+    "description" : "Unify Media Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.173.104.0/24",
       "44.32.224.0/23",
       "44.32.232.0/24",
       "142.248.216.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f95c:ca1::/48",
       "2602:f95c:ca2::/48"
     ]

@@ -1,13 +1,16 @@
 {
-  "asn": 51598,
-  "handle": "AS-NEHLSEN",
-  "description": "Nehlsen AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51598,
+  "metadata" : {
+    "handle" : "AS-NEHLSEN",
+    "description" : "Nehlsen AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.209.26.0/24",
       "193.22.23.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:d040::/29"
     ]
   }

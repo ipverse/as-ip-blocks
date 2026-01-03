@@ -1,9 +1,12 @@
 {
-  "asn": 140637,
-  "handle": "MTG-MG",
-  "description": "Macquarie Technology Operations Pty Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140637,
+  "metadata" : {
+    "handle" : "MTG-MG",
+    "description" : "Macquarie Technology Operations Pty Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.151.86.0/23",
       "134.178.0.0/16",
       "143.174.60.0/24",
@@ -30,7 +33,7 @@
       "203.19.117.0/24",
       "203.31.52.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:bc00:1811::/48",
       "2400:bc00:1812::/48",
       "2400:cc00:3000::/36"

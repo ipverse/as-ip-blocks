@@ -1,12 +1,15 @@
 {
-  "asn": 262768,
-  "handle": "FASTVILLE-PROVEDOR-INTERNET",
-  "description": "FASTVILLE PROVEDOR DE INTERNET LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262768,
+  "metadata" : {
+    "handle" : "FASTVILLE-PROVEDOR-INTERNET",
+    "description" : "FASTVILLE PROVEDOR DE INTERNET LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.232.32.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:881c::/32"
     ]
   }

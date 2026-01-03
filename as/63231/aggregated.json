@@ -1,12 +1,15 @@
 {
-  "asn": 63231,
-  "handle": "LUMIA-SEC",
-  "description": "Lumia Security",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63231,
+  "metadata" : {
+    "handle" : "LUMIA-SEC",
+    "description" : "Lumia Security",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.150.92.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f4b8:10::/48"
     ]
   }

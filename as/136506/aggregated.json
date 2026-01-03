@@ -1,9 +1,12 @@
 {
-  "asn": 136506,
-  "handle": "LEONCOLTD-AS-AP",
-  "description": "LEON CO.LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136506,
+  "metadata" : {
+    "handle" : "LEONCOLTD-AS-AP",
+    "description" : "LEON CO.LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.52.236.0/24",
       "103.52.239.0/24",
       "103.94.150.0/24",
@@ -13,6 +16,6 @@
       "123.253.216.0/24",
       "157.119.52.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

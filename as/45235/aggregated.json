@@ -1,9 +1,12 @@
 {
-  "asn": 45235,
-  "handle": "GEONET",
-  "description": "GEOCITY NETWORK SOLUTIONS PVT LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45235,
+  "metadata" : {
+    "handle" : "GEONET",
+    "description" : "GEOCITY NETWORK SOLUTIONS PVT LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.227.244.0/22",
       "45.250.212.0/22",
       "103.8.40.0/22",
@@ -15,7 +18,7 @@
       "103.230.20.0/22",
       "119.42.152.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8460::/32",
       "2402:d500::/32"
     ]

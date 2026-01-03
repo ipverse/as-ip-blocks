@@ -1,9 +1,12 @@
 {
-  "asn": 62390,
-  "handle": "NEXONHOST",
-  "description": "NexonHost Srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62390,
+  "metadata" : {
+    "handle" : "NEXONHOST",
+    "description" : "NexonHost Srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.6.27.0/24",
       "31.56.41.0/24",
       "45.155.88.0/24",
@@ -36,7 +39,7 @@
       "199.115.193.0/24",
       "200.26.188.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4d18:2::/48",
       "2a12:2100::/32"
     ]

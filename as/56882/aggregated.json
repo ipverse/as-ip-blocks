@@ -1,9 +1,12 @@
 {
-  "asn": 56882,
-  "handle": "NET-LEAST-COST-ROUTING-TELECOM-SL",
-  "description": "AIRE NETWORKS DEL MEDITERRANEO SL UNIPERSONAL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56882,
+  "metadata" : {
+    "handle" : "NET-LEAST-COST-ROUTING-TELECOM-SL",
+    "description" : "AIRE NETWORKS DEL MEDITERRANEO SL UNIPERSONAL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.209.160.0/21",
       "45.252.236.0/22",
       "46.251.252.0/22",
@@ -21,6 +24,6 @@
       "188.64.100.0/22",
       "188.227.128.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

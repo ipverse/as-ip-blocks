@@ -1,9 +1,12 @@
 {
-  "asn": 209874,
-  "handle": "TECHTIDE",
-  "description": "Tech Tide Portugal Unipessoal LDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209874,
+  "metadata" : {
+    "handle" : "TECHTIDE",
+    "description" : "Tech Tide Portugal Unipessoal LDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.83.150.0/24",
       "5.175.162.0/24",
       "5.175.174.0/24",
@@ -32,7 +35,7 @@
       "95.215.33.0/24",
       "194.62.122.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f992:b0::/44",
       "2a09:54c3:a000::/40",
       "2a09:54c3:a200::/40",

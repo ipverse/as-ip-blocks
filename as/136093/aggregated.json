@@ -1,9 +1,12 @@
 {
-  "asn": 136093,
-  "handle": "FAZNET-AS-ID",
-  "description": "PT Mitra Lintas Multimedia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136093,
+  "metadata" : {
+    "handle" : "FAZNET-AS-ID",
+    "description" : "PT Mitra Lintas Multimedia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.41.78.0/23",
       "103.88.168.0/22",
       "103.111.92.0/22",
@@ -15,7 +18,7 @@
       "154.38.30.0/24",
       "154.47.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:e4c0:4::/48"
     ]
   }

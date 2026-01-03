@@ -1,9 +1,12 @@
 {
-  "asn": 48685,
-  "handle": "OK-AS",
-  "description": "Opin Kerfi hf",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48685,
+  "metadata" : {
+    "handle" : "OK-AS",
+    "description" : "Opin Kerfi hf",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.142.152.0/21",
       "94.250.244.0/23",
       "176.10.32.0/21",
@@ -12,7 +15,7 @@
       "185.118.32.0/22",
       "185.119.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5cc0::/32",
       "2a06:a100::/29"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 47156,
-  "handle": "MALNET-AS",
-  "description": "Malnet LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47156,
+  "metadata" : {
+    "handle" : "MALNET-AS",
+    "description" : "Malnet LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.136.234.0/24",
       "83.136.236.0/24",
       "83.136.238.0/23",
@@ -13,7 +16,7 @@
       "185.27.208.0/22",
       "213.5.24.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:34c0::/29"
     ]
   }

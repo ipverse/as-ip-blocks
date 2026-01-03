@@ -1,11 +1,14 @@
 {
-  "asn": 132060,
-  "handle": "HANTHARNET-AS-AP",
-  "description": "Hanthar Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132060,
+  "metadata" : {
+    "handle" : "HANTHARNET-AS-AP",
+    "description" : "Hanthar Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.67.76.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

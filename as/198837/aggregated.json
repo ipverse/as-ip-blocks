@@ -1,12 +1,15 @@
 {
-  "asn": 198837,
-  "handle": "REGION-VASTMANLAND-ASN",
-  "description": "Region Vastmanland",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198837,
+  "metadata" : {
+    "handle" : "REGION-VASTMANLAND-ASN",
+    "description" : "Region Vastmanland",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.180.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:728::/48"
     ]
   }

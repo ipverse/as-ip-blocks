@@ -1,9 +1,12 @@
 {
-  "asn": 19797,
-  "handle": "SIMNET",
-  "description": "DEXAGON Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19797,
+  "metadata" : {
+    "handle" : "SIMNET",
+    "description" : "DEXAGON Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.22.79.0/24",
       "38.69.226.0/24",
       "38.129.13.0/24",
@@ -12,6 +15,6 @@
       "64.90.96.0/20",
       "204.225.86.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

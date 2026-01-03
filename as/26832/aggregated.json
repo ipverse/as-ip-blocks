@@ -1,9 +1,12 @@
 {
-  "asn": 26832,
-  "handle": "RICAWEBSERVICES",
-  "description": "Rica Web Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26832,
+  "metadata" : {
+    "handle" : "RICAWEBSERVICES",
+    "description" : "Rica Web Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.49.208.0/20",
       "38.102.84.0/22",
       "38.102.124.0/22",
@@ -19,7 +22,7 @@
       "207.90.192.0/22",
       "209.209.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ffd5::/36"
     ]
   }

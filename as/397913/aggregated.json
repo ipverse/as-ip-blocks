@@ -1,9 +1,12 @@
 {
-  "asn": 397913,
-  "handle": "ESU-AS",
-  "description": "East Stroudsburg University of Pennsylvania",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397913,
+  "metadata" : {
+    "handle" : "ESU-AS",
+    "description" : "East Stroudsburg University of Pennsylvania",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.147.113.0/24",
       "192.148.218.0/24",
       "192.153.187.0/24",
@@ -11,7 +14,7 @@
       "204.235.160.0/23",
       "206.225.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:2240:b000::/36"
     ]
   }

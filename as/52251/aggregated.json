@@ -1,16 +1,19 @@
 {
-  "asn": 52251,
-  "handle": "NORTECH",
-  "description": "NORTECH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52251,
+  "metadata" : {
+    "handle" : "NORTECH",
+    "description" : "NORTECH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.225.192.0/19",
       "186.0.136.0/21",
       "186.1.224.0/20",
       "186.1.240.0/21",
       "190.181.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:5080::/32"
     ]
   }

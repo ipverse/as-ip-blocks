@@ -1,15 +1,18 @@
 {
-  "asn": 138354,
-  "handle": "LOCALDC-AS-AP",
-  "description": "LocalDC Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138354,
+  "metadata" : {
+    "handle" : "LOCALDC-AS-AP",
+    "description" : "LocalDC Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.120.36.0/24",
       "103.60.22.0/23",
       "103.60.96.0/24",
       "103.131.40.0/23",
       "103.238.62.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

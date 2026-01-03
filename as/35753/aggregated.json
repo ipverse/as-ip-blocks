@@ -1,9 +1,12 @@
 {
-  "asn": 35753,
-  "handle": "ITC",
-  "description": "Etihad Salam Telecom CJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35753,
+  "metadata" : {
+    "handle" : "ITC",
+    "description" : "Etihad Salam Telecom CJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.42.224.0/19",
       "5.132.192.0/19",
       "5.132.224.0/20",
@@ -40,7 +43,7 @@
       "217.26.128.0/21",
       "217.170.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:5400::/32"
     ]
   }

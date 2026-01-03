@@ -1,9 +1,12 @@
 {
-  "asn": 55232,
-  "handle": "MX-HOSTED",
-  "description": "Zultys Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55232,
+  "metadata" : {
+    "handle" : "MX-HOSTED",
+    "description" : "Zultys Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "52.128.36.0/22",
       "66.179.244.0/23",
       "72.46.100.0/22",
@@ -16,6 +19,6 @@
       "199.119.128.0/22",
       "207.254.96.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

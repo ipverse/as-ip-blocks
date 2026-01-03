@@ -1,9 +1,12 @@
 {
-  "asn": 26729,
-  "handle": "MW-NET-AS",
-  "description": "Midwest Internet Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26729,
+  "metadata" : {
+    "handle" : "MW-NET-AS",
+    "description" : "Midwest Internet Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.58.163.0/24",
       "168.215.85.0/24",
       "168.215.194.0/23",
@@ -17,6 +20,6 @@
       "207.250.250.0/24",
       "207.250.252.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

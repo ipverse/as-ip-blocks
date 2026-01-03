@@ -1,9 +1,12 @@
 {
-  "asn": 26470,
-  "handle": "WPP-IT-PISCATAWAY",
-  "description": "Group M Worldwide LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26470,
+  "metadata" : {
+    "handle" : "WPP-IT-PISCATAWAY",
+    "description" : "Group M Worldwide LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.229.0.0/23",
       "204.10.132.0/24",
       "204.10.135.0/24",
@@ -13,7 +16,7 @@
       "209.90.38.0/24",
       "209.90.40.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:11b:3000::/48"
     ]
   }

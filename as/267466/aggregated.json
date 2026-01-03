@@ -1,12 +1,15 @@
 {
-  "asn": 267466,
-  "handle": "MVF-NETWORK",
-  "description": "MVF NETWORK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267466,
+  "metadata" : {
+    "handle" : "MVF-NETWORK",
+    "description" : "MVF NETWORK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.141.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:41ec::/32"
     ]
   }

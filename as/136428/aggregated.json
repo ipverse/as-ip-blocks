@@ -1,12 +1,15 @@
 {
-  "asn": 136428,
-  "handle": "WEB1-AS-AP",
-  "description": "Web Solution",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136428,
+  "metadata" : {
+    "handle" : "WEB1-AS-AP",
+    "description" : "Web Solution",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.172.14.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:5b80::/48"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 138884,
-  "handle": "CENTRONETWORK-AS-ID",
-  "description": "PT Centronet Data Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138884,
+  "metadata" : {
+    "handle" : "CENTRONETWORK-AS-ID",
+    "description" : "PT Centronet Data Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.94.250.0/23",
       "103.138.70.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:ce40::/32"
     ]
   }

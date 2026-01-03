@@ -1,12 +1,15 @@
 {
-  "asn": 401674,
-  "handle": "HUB-ASN-01",
-  "description": "Harriman Utility Board",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401674,
+  "metadata" : {
+    "handle" : "HUB-ASN-01",
+    "description" : "Harriman Utility Board",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.108.136.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:c60::/32"
     ]
   }

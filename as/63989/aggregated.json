@@ -1,9 +1,12 @@
 {
-  "asn": 63989,
-  "handle": "DE-CORP",
-  "description": "Dot Enterprise Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63989,
+  "metadata" : {
+    "handle" : "DE-CORP",
+    "description" : "Dot Enterprise Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.254.140.0/24",
       "27.254.142.0/24",
       "82.26.104.0/24",
@@ -16,7 +19,7 @@
       "202.9.90.0/24",
       "202.94.166.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:6880:2000::/48",
       "2402:6880:3000::/48"
     ]

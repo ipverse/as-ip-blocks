@@ -1,9 +1,12 @@
 {
-  "asn": 59651,
-  "handle": "AS-QUALITYNETWORK",
-  "description": "Alex Largman",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59651,
+  "metadata" : {
+    "handle" : "AS-QUALITYNETWORK",
+    "description" : "Alex Largman",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.181.168.0/23",
       "5.183.255.0/24",
       "31.40.195.0/24",
@@ -65,6 +68,6 @@
       "213.232.120.0/24",
       "213.232.122.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

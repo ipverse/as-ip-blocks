@@ -1,15 +1,18 @@
 {
-  "asn": 199494,
-  "handle": "ETTH-AS",
-  "description": "ETTH Bartosz Bachowski",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199494,
+  "metadata" : {
+    "handle" : "ETTH-AS",
+    "description" : "ETTH Bartosz Bachowski",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.142.216.0/21",
       "91.201.88.0/22",
       "176.115.80.0/21",
       "193.0.192.0/22",
       "193.0.196.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

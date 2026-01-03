@@ -1,9 +1,12 @@
 {
-  "asn": 45894,
-  "handle": "FPTONLINE-AS-VN",
-  "description": "FPT Online JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45894,
+  "metadata" : {
+    "handle" : "FPTONLINE-AS-VN",
+    "description" : "FPT Online JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "111.65.241.0/24",
       "111.65.242.0/23",
       "111.65.244.0/23",
@@ -13,7 +16,7 @@
       "111.65.255.0/24",
       "180.148.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:66::/48",
       "2402:dd40::/35",
       "2402:dd40:f000::/36"

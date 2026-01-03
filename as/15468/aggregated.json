@@ -1,9 +1,12 @@
 {
-  "asn": 15468,
-  "handle": "KLGELECS-AS",
-  "description": "PJSC Rostelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15468,
+  "metadata" : {
+    "handle" : "KLGELECS-AS",
+    "description" : "PJSC Rostelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.143.176.0/20",
       "31.172.192.0/19",
       "62.148.128.0/19",
@@ -13,6 +16,6 @@
       "109.225.0.0/18",
       "212.106.32.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

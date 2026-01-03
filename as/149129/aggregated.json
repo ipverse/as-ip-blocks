@@ -1,12 +1,15 @@
 {
-  "asn": 149129,
-  "handle": "CPVN-VN",
-  "description": "Vietnam Government Portal",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149129,
+  "metadata" : {
+    "handle" : "CPVN-VN",
+    "description" : "Vietnam Government Portal",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.1.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:da00::/48"
     ]
   }

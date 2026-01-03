@@ -1,13 +1,16 @@
 {
-  "asn": 50417,
-  "handle": "WKEY-CORE-AS",
-  "description": "W Key srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50417,
+  "metadata" : {
+    "handle" : "WKEY-CORE-AS",
+    "description" : "W Key srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.234.48.0/21",
       "193.33.242.0/23",
       "193.33.252.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

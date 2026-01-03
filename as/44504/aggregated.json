@@ -1,11 +1,14 @@
 {
-  "asn": 44504,
-  "handle": "DEV-AS",
-  "description": "Andy Davidson",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44504,
+  "metadata" : {
+    "handle" : "DEV-AS",
+    "description" : "Andy Davidson",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.194.68.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

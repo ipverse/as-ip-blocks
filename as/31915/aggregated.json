@@ -1,12 +1,15 @@
 {
-  "asn": 31915,
-  "handle": "MOJOBROADBAND",
-  "description": "Mojo Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31915,
+  "metadata" : {
+    "handle" : "MOJOBROADBAND",
+    "description" : "Mojo Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.15.220.0/22",
       "208.86.120.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

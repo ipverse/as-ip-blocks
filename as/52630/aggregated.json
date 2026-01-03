@@ -1,16 +1,19 @@
 {
-  "asn": 52630,
-  "handle": "MOTTANET-TI-SERVICOS",
-  "description": "MOTTANET TI - SERVICOS DE TECNOLOGIA DA INFO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52630,
+  "metadata" : {
+    "handle" : "MOTTANET-TI-SERVICOS",
+    "description" : "MOTTANET TI - SERVICOS DE TECNOLOGIA DA INFO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.229.176.0/22",
       "149.78.64.0/20",
       "170.233.4.0/22",
       "177.124.172.0/22",
       "179.189.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1464::/32"
     ]
   }

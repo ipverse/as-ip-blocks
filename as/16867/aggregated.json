@@ -1,12 +1,15 @@
 {
-  "asn": 16867,
-  "handle": "BANDWIDTH-CORP",
-  "description": "Bandwidth Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16867,
+  "metadata" : {
+    "handle" : "BANDWIDTH-CORP",
+    "description" : "Bandwidth Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.120.128.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:122:2000::/40"
     ]
   }

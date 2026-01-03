@@ -1,9 +1,12 @@
 {
-  "asn": 55285,
-  "handle": "SERVERSIDE",
-  "description": "Serverside.com",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55285,
+  "metadata" : {
+    "handle" : "SERVERSIDE",
+    "description" : "Serverside.com",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.75.194.0/24",
       "64.255.10.0/23",
       "115.42.46.0/24",
@@ -14,7 +17,7 @@
       "198.73.56.0/23",
       "216.245.176.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:e0c0:2::/47",
       "2607:e0c0:4::/47",
       "2607:e0c0:6::/48",

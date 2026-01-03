@@ -1,9 +1,12 @@
 {
-  "asn": 15798,
-  "handle": "OLMAN-EDU-AS",
-  "description": "University of Warmia and Mazury in Olsztyn Poland",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15798,
+  "metadata" : {
+    "handle" : "OLMAN-EDU-AS",
+    "description" : "University of Warmia and Mazury in Olsztyn Poland",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.172.184.0/22",
       "213.73.0.0/21",
       "213.73.20.0/22",
@@ -14,7 +17,7 @@
       "213.184.16.0/21",
       "213.184.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:40f8::/32"
     ]
   }

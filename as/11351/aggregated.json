@@ -1,9 +1,12 @@
 {
-  "asn": 11351,
-  "handle": "TWC-11351-NORTHEAST",
-  "description": "Charter Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11351,
+  "metadata" : {
+    "handle" : "TWC-11351-NORTHEAST",
+    "description" : "Charter Communications Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.24.0.0/18",
       "24.25.128.0/18",
       "24.29.32.0/19",
@@ -129,7 +132,7 @@
       "208.125.64.0/18",
       "208.125.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:5c01:e0a::/48",
       "2600:6000:fb34::/48",
       "2600:6001::/32",

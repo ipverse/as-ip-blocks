@@ -1,9 +1,12 @@
 {
-  "asn": 138195,
-  "handle": "MOACKCOLTD-AS-AP",
-  "description": "MOACK.Co.LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138195,
+  "metadata" : {
+    "handle" : "MOACKCOLTD-AS-AP",
+    "description" : "MOACK.Co.LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.235.164.0/24",
       "23.248.246.0/24",
       "27.0.192.0/22",
@@ -106,7 +109,7 @@
       "211.170.88.0/24",
       "218.97.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:b8c0::/32",
       "2401:e9e0:2000::/36",
       "2404:2040::/32",

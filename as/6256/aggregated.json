@@ -1,9 +1,12 @@
 {
-  "asn": 6256,
-  "handle": "CELLCO-PART",
-  "description": "Verizon Business",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6256,
+  "metadata" : {
+    "handle" : "CELLCO-PART",
+    "description" : "Verizon Business",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.228.24.0/24",
       "65.228.40.0/22",
       "65.228.48.0/21",
@@ -31,6 +34,6 @@
       "65.229.160.0/22",
       "152.182.67.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 30154,
-  "handle": "DAVEN",
-  "description": "Davenport University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30154,
+  "metadata" : {
+    "handle" : "DAVEN",
+    "description" : "Davenport University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.202.192.0/19",
       "66.202.224.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:a8::/48"
     ]
   }

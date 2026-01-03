@@ -1,9 +1,12 @@
 {
-  "asn": 13585,
-  "handle": "POWER-VT",
-  "description": "Power VT S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13585,
+  "metadata" : {
+    "handle" : "POWER-VT",
+    "description" : "Power VT S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.1.96.0/22",
       "190.1.100.0/24",
       "190.1.103.0/24",
@@ -26,7 +29,7 @@
       "190.11.189.0/24",
       "190.11.190.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:220:10::/48"
     ]
   }

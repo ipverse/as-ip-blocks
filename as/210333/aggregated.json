@@ -1,13 +1,16 @@
 {
-  "asn": 210333,
-  "handle": "INTER-AS",
-  "description": "Inter Krankenversicherung AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210333,
+  "metadata" : {
+    "handle" : "INTER-AS",
+    "description" : "Inter Krankenversicherung AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.202.96.0/22",
       "213.109.144.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:6a40::/39",
       "2a11:6a40:ff8::/46",
       "2a11:6a40:fff::/48",

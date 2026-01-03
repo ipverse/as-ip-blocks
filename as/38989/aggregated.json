@@ -1,11 +1,14 @@
 {
-  "asn": 38989,
-  "handle": "EEG-AS",
-  "description": "EEX European Energy Exchange AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38989,
+  "metadata" : {
+    "handle" : "EEG-AS",
+    "description" : "EEX European Energy Exchange AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.254.158.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

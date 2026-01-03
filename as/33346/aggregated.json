@@ -1,9 +1,12 @@
 {
-  "asn": 33346,
-  "handle": "MONSTERBROADBAND",
-  "description": "Point Broadband Fiber Holding LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33346,
+  "metadata" : {
+    "handle" : "MONSTERBROADBAND",
+    "description" : "Point Broadband Fiber Holding LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.180.44.0/23",
       "66.212.51.0/24",
       "67.32.32.0/23",
@@ -15,7 +18,7 @@
       "192.169.72.0/21",
       "192.209.17.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff88::/36"
     ]
   }

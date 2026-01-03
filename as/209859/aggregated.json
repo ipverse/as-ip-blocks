@@ -1,13 +1,16 @@
 {
-  "asn": 209859,
-  "handle": "FESR-AS",
-  "description": "Florian Martin Esser",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209859,
+  "metadata" : {
+    "handle" : "FESR-AS",
+    "description" : "Florian Martin Esser",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.10.0.0/24",
       "195.85.10.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1768::/48",
       "2a06:e881:5301::/48",
       "2a06:e881:5302::/47",

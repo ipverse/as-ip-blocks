@@ -1,9 +1,12 @@
 {
-  "asn": 150596,
-  "handle": "MNBPL-AS-IN",
-  "description": "Mynext Broadband Services Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150596,
+  "metadata" : {
+    "handle" : "MNBPL-AS-IN",
+    "description" : "Mynext Broadband Services Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.77.42.0/23",
       "103.110.16.0/22",
       "103.110.180.0/23",
@@ -14,7 +17,7 @@
       "103.172.59.0/24",
       "103.188.127.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:e9a0::/34"
     ]
   }

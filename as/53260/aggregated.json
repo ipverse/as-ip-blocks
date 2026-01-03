@@ -1,12 +1,15 @@
 {
-  "asn": 53260,
-  "handle": "CLARKU",
-  "description": "Clark University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53260,
+  "metadata" : {
+    "handle" : "CLARKU",
+    "description" : "Clark University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "140.232.0.0/18",
       "140.232.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

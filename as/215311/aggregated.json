@@ -1,9 +1,12 @@
 {
-  "asn": 215311,
-  "handle": "REGXA-CLOUD",
-  "description": "Regxa Company for Information Technology Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215311,
+  "metadata" : {
+    "handle" : "REGXA-CLOUD",
+    "description" : "Regxa Company for Information Technology Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.147.18.0/23",
       "91.108.248.0/22",
       "145.223.68.0/22",
@@ -14,7 +17,7 @@
       "206.206.76.0/22",
       "209.200.246.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:4200::/29"
     ]
   }

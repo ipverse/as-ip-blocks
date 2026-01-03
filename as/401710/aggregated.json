@@ -1,12 +1,15 @@
 {
-  "asn": 401710,
-  "handle": "AS-CLOUDMESHLABS",
-  "description": "CloudMesh Labs LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401710,
+  "metadata" : {
+    "handle" : "AS-CLOUDMESHLABS",
+    "description" : "CloudMesh Labs LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.204.136.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f644:30::/48",
       "2602:f644:70::/48",
       "2602:f644:80::/48",

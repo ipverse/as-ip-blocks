@@ -1,12 +1,15 @@
 {
-  "asn": 136667,
-  "handle": "SACISRO-AS",
-  "description": "Space Applications Centre",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136667,
+  "metadata" : {
+    "handle" : "SACISRO-AS",
+    "description" : "Space Applications Centre",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.99.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:4840::/48"
     ]
   }

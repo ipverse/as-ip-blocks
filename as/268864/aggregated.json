@@ -1,12 +1,15 @@
 {
-  "asn": 268864,
-  "handle": "NETSYS-INTERNET",
-  "description": "NetSYS Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268864,
+  "metadata" : {
+    "handle" : "NETSYS-INTERNET",
+    "description" : "NetSYS Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.174.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5bb4::/32"
     ]
   }

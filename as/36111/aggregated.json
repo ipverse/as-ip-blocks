@@ -1,15 +1,18 @@
 {
-  "asn": 36111,
-  "handle": "BRINKS-INC-INTERNET",
-  "description": "Brink\u0027s Incorporated",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36111,
+  "metadata" : {
+    "handle" : "BRINKS-INC-INTERNET",
+    "description" : "Brink's Incorporated",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.172.207.0/24",
       "12.198.249.0/24",
       "65.49.46.0/24",
       "130.250.220.0/22",
       "184.105.147.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

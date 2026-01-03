@@ -1,14 +1,17 @@
 {
-  "asn": 140586,
-  "handle": "VTSB-AS-AP",
-  "description": "Velo Technologies SDN BHD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140586,
+  "metadata" : {
+    "handle" : "VTSB-AS-AP",
+    "description" : "Velo Technologies SDN BHD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.6.119.0/24",
       "103.82.230.0/23",
       "103.150.188.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:cc0::/48",
       "2001:df7:8580::/48"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 35278,
-  "handle": "SPRINTHOST",
-  "description": "SPRINTHOST.RU LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35278,
+  "metadata" : {
+    "handle" : "SPRINTHOST",
+    "description" : "SPRINTHOST.RU LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.91.8.0/24",
       "45.142.44.0/24",
       "80.64.24.0/24",
@@ -21,7 +24,7 @@
       "212.116.115.0/24",
       "213.109.202.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:2b40::/30",
       "2a0a:2b45::/32",
       "2a0a:2b46::/31"

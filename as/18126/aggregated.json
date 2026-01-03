@@ -1,9 +1,12 @@
 {
-  "asn": 18126,
-  "handle": "CTCX",
-  "description": "Chubu Telecommunications Company Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18126,
+  "metadata" : {
+    "handle" : "CTCX",
+    "description" : "Chubu Telecommunications Company Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.132.0.0/15",
       "14.192.32.0/20",
       "45.114.16.0/22",
@@ -48,7 +51,7 @@
       "222.9.0.0/16",
       "223.29.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:f58::/32",
       "2402:6b00::/32"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 24303,
-  "handle": "GOLDCORP-AS-AU",
-  "description": "Gold Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24303,
+  "metadata" : {
+    "handle" : "GOLDCORP-AS-AU",
+    "description" : "Gold Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.44.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:3780::/48"
     ]
   }

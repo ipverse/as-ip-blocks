@@ -1,12 +1,15 @@
 {
-  "asn": 34261,
-  "handle": "BUHLERGROUP",
-  "description": "Buhler AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34261,
+  "metadata" : {
+    "handle" : "BUHLERGROUP",
+    "description" : "Buhler AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.9.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2068::/48",
       "2a0b:80::/29"
     ]

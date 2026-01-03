@@ -1,12 +1,15 @@
 {
-  "asn": 14099,
-  "handle": "OTTOH",
-  "description": "otto Host LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14099,
+  "metadata" : {
+    "handle" : "OTTOH",
+    "description" : "otto Host LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.180.248.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f8b7::/40"
     ]
   }

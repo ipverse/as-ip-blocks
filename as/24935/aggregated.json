@@ -1,9 +1,12 @@
 {
-  "asn": 24935,
-  "handle": "ATE-AS",
-  "description": "Eurofiber France SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24935,
+  "metadata" : {
+    "handle" : "ATE-AS",
+    "description" : "Eurofiber France SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.235.92.0/23",
       "45.84.148.0/22",
       "46.29.122.0/23",
@@ -17,7 +20,7 @@
       "194.213.30.0/24",
       "195.74.80.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:3740:1::/48",
       "2a04:3740:2::/48",
       "2a10:5140::/32"

@@ -1,13 +1,16 @@
 {
-  "asn": 207506,
-  "handle": "NEW-CONNECTION-AS",
-  "description": "NEWNET LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207506,
+  "metadata" : {
+    "handle" : "NEW-CONNECTION-AS",
+    "description" : "NEWNET LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.120.241.0/24",
       "194.15.54.0/24",
       "194.242.97.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

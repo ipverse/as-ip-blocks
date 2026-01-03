@@ -1,9 +1,12 @@
 {
-  "asn": 24534,
-  "handle": "TRANSHYBRID-AS-ID",
-  "description": "PT. Transhybrid Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24534,
+  "metadata" : {
+    "handle" : "TRANSHYBRID-AS-ID",
+    "description" : "PT. Transhybrid Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.150.100.0/24",
       "38.150.103.0/24",
       "58.147.185.0/24",
@@ -17,7 +20,7 @@
       "103.149.14.0/23",
       "103.149.34.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:9580:30::/48",
       "2404:9580:48::/48"
     ]

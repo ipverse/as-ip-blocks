@@ -1,12 +1,15 @@
 {
-  "asn": 6589,
-  "handle": "ROZINT",
-  "description": "Rozint",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6589,
+  "metadata" : {
+    "handle" : "ROZINT",
+    "description" : "Rozint",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "140.235.157.0/24",
       "216.40.92.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

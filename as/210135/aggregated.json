@@ -1,9 +1,12 @@
 {
-  "asn": 210135,
-  "handle": "YUG-TELECOM-K-AS",
-  "description": "Yug-Telecom-K Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210135,
+  "metadata" : {
+    "handle" : "YUG-TELECOM-K-AS",
+    "description" : "Yug-Telecom-K Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.180.19.0/24",
       "5.183.152.0/24",
       "45.135.166.0/24",
@@ -13,6 +16,6 @@
       "185.221.44.0/24",
       "193.32.189.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

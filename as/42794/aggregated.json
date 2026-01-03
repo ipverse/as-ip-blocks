@@ -1,9 +1,12 @@
 {
-  "asn": 42794,
-  "handle": "ULTRACOM-AS",
-  "description": "Ultracom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42794,
+  "metadata" : {
+    "handle" : "ULTRACOM-AS",
+    "description" : "Ultracom Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.13.198.0/24",
       "82.103.112.0/24",
       "88.203.208.0/21",
@@ -12,7 +15,7 @@
       "92.247.128.0/23",
       "212.36.17.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:288:4004::/48"
     ]
   }

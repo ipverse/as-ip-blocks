@@ -1,11 +1,14 @@
 {
-  "asn": 137341,
-  "handle": "AS-WHEEHOST-ID",
-  "description": "WHEEHOST",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137341,
+  "metadata" : {
+    "handle" : "AS-WHEEHOST-ID",
+    "description" : "WHEEHOST",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.28.22.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

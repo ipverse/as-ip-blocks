@@ -1,13 +1,16 @@
 {
-  "asn": 53094,
-  "handle": "GHNET-TELECOM",
-  "description": "GHNET TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53094,
+  "metadata" : {
+    "handle" : "GHNET-TELECOM",
+    "description" : "GHNET TELECOM LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.208.68.0/22",
       "187.102.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2a80::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 135612,
-  "handle": "HYDROELECTRIC-AS-AP",
-  "description": "Hydro-Electric Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135612,
+  "metadata" : {
+    "handle" : "HYDROELECTRIC-AS-AP",
+    "description" : "Hydro-Electric Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.76.176.0/23",
       "203.2.158.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

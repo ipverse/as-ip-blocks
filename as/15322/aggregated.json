@@ -1,12 +1,15 @@
 {
-  "asn": 15322,
-  "handle": "UPWARD-BROADBAND",
-  "description": "Upward Broadband LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15322,
+  "metadata" : {
+    "handle" : "UPWARD-BROADBAND",
+    "description" : "Upward Broadband LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.38.32.0/22",
       "216.116.140.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

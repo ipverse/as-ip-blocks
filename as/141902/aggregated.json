@@ -1,13 +1,16 @@
 {
-  "asn": 141902,
-  "handle": "PROVITEL-AS-ID",
-  "description": "PT Jawa Provider Telematika",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141902,
+  "metadata" : {
+    "handle" : "PROVITEL-AS-ID",
+    "description" : "PT Jawa Provider Telematika",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.163.134.0/23",
       "103.187.222.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:3f40::/48"
     ]
   }

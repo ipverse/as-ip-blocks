@@ -1,9 +1,12 @@
 {
-  "asn": 40605,
-  "handle": "AITL-US",
-  "description": "ANYCONNECT INFORMATION TECHNOLOGY CO. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40605,
+  "metadata" : {
+    "handle" : "AITL-US",
+    "description" : "ANYCONNECT INFORMATION TECHNOLOGY CO. LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.43.120.0/24",
       "38.246.183.0/24",
       "39.109.79.0/24",
@@ -38,7 +41,7 @@
       "199.33.8.0/24",
       "199.33.12.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f6c4::/36"
     ]
   }

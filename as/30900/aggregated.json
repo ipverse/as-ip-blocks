@@ -1,9 +1,12 @@
 {
-  "asn": 30900,
-  "handle": "WEBWORLD-AS",
-  "description": "Sternforth Ltd. trading as WebWorld",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30900,
+  "metadata" : {
+    "handle" : "WEBWORLD-AS",
+    "description" : "Sternforth Ltd. trading as WebWorld",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.47.213.0/24",
       "82.21.218.0/24",
       "82.21.248.0/24",
@@ -33,7 +36,7 @@
       "195.178.151.0/24",
       "217.115.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6280::/32",
       "2a11:840:27::/48"
     ]

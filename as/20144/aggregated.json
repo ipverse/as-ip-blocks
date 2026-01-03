@@ -1,9 +1,12 @@
 {
-  "asn": 20144,
-  "handle": "IMRS",
-  "description": "ICANN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20144,
+  "metadata" : {
+    "handle" : "IMRS",
+    "description" : "ICANN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.0.37.0/24",
       "192.0.38.0/24",
       "192.0.40.0/23",
@@ -11,7 +14,7 @@
       "199.7.94.0/23",
       "199.43.132.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:500:3::/48",
       "2001:500:8c::/48",
       "2001:500:9c::/46",

@@ -1,9 +1,12 @@
 {
-  "asn": 45839,
-  "handle": "SHINJIRU-MY-AS-AP",
-  "description": "Shinjiru Technology Sdn Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45839,
+  "metadata" : {
+    "handle" : "SHINJIRU-MY-AS-AP",
+    "description" : "Shinjiru Technology Sdn Bhd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.40.143.0/24",
       "101.99.64.0/19",
       "103.155.92.0/23",
@@ -18,7 +21,7 @@
       "124.217.238.0/24",
       "124.217.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:6c00:18::/48"
     ]
   }

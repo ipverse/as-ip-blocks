@@ -1,12 +1,15 @@
 {
-  "asn": 15329,
-  "handle": "DENO",
-  "description": "Deno",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15329,
+  "metadata" : {
+    "handle" : "DENO",
+    "description" : "Deno",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.67.170.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f70f::/48"
     ]
   }

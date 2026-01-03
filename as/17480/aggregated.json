@@ -1,9 +1,12 @@
 {
-  "asn": 17480,
-  "handle": "CANL",
-  "description": "CAN\u0027L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17480,
+  "metadata" : {
+    "handle" : "CANL",
+    "description" : "CAN'L",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.255.236.0/22",
       "103.23.52.0/22",
       "113.21.96.0/19",
@@ -12,7 +15,7 @@
       "203.147.80.0/21",
       "220.156.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:c00::/32"
     ]
   }

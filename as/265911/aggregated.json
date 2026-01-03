@@ -1,9 +1,12 @@
 {
-  "asn": 265911,
-  "handle": "G6-INTERNET",
-  "description": "G6 Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265911,
+  "metadata" : {
+    "handle" : "G6-INTERNET",
+    "description" : "G6 Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.196.144.0/22",
       "179.108.16.0/21",
       "186.250.192.0/23",
@@ -14,7 +17,7 @@
       "190.83.32.0/22",
       "201.159.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3fbc::/36",
       "2804:3fbc:8000::/40",
       "2804:3fbc:8800::/40",

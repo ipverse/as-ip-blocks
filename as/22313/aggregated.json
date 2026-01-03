@@ -1,12 +1,15 @@
 {
-  "asn": 22313,
-  "handle": "SUPERCABLE",
-  "description": "Supercable",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22313,
+  "metadata" : {
+    "handle" : "SUPERCABLE",
+    "description" : "Supercable",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.35.224.0/24",
       "200.35.231.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

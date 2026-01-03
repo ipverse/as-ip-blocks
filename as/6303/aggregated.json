@@ -1,9 +1,12 @@
 {
-  "asn": 6303,
-  "handle": "BARCLAYS-CAPITAL",
-  "description": "Barclays Capital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6303,
+  "metadata" : {
+    "handle" : "BARCLAYS-CAPITAL",
+    "description" : "Barclays Capital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.78.242.0/24",
       "146.127.40.0/22",
       "146.127.60.0/23",
@@ -15,6 +18,6 @@
       "192.107.28.0/24",
       "192.147.56.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

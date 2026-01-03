@@ -1,9 +1,12 @@
 {
-  "asn": 3166,
-  "handle": "OREBRO",
-  "description": "Orebro Kommun",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3166,
+  "metadata" : {
+    "handle" : "OREBRO",
+    "description" : "Orebro Kommun",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.71.96.0/24",
       "192.121.83.0/24",
       "192.121.228.0/24",
@@ -11,7 +14,7 @@
       "194.103.200.0/22",
       "194.103.204.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:280:348::/47"
     ]
   }

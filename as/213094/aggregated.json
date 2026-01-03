@@ -1,9 +1,12 @@
 {
-  "asn": 213094,
-  "handle": "FULLFIBRE",
-  "description": "Full Fibre Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213094,
+  "metadata" : {
+    "handle" : "FULLFIBRE",
+    "description" : "Full Fibre Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.18.224.0/22",
       "84.18.240.0/22",
       "89.22.196.0/22",
@@ -14,7 +17,7 @@
       "185.252.160.0/23",
       "193.3.34.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:cc80::/29"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 13001,
-  "handle": "SYSTEMA-AS",
-  "description": "PRESSI SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13001,
+  "metadata" : {
+    "handle" : "SYSTEMA-AS",
+    "description" : "PRESSI SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.41.248.0/21",
       "195.138.202.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

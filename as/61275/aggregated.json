@@ -1,9 +1,12 @@
 {
-  "asn": 61275,
-  "handle": "ASN-NEAS",
-  "description": "NEAS ENERGI TELEKOM AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61275,
+  "metadata" : {
+    "handle" : "ASN-NEAS",
+    "description" : "NEAS ENERGI TELEKOM AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.100.176.0/21",
       "5.100.184.0/22",
       "77.223.161.0/24",
@@ -19,6 +22,6 @@
       "185.24.188.0/22",
       "188.93.184.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

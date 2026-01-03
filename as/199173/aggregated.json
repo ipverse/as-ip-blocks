@@ -1,9 +1,12 @@
 {
-  "asn": 199173,
-  "handle": "TECHNOLUX-AS",
-  "description": "TechnoLux Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199173,
+  "metadata" : {
+    "handle" : "TECHNOLUX-AS",
+    "description" : "TechnoLux Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.78.157.0/24",
       "77.78.158.0/24",
       "85.187.184.0/23",
@@ -16,6 +19,6 @@
       "151.237.90.0/24",
       "194.69.203.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

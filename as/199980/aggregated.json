@@ -1,9 +1,12 @@
 {
-  "asn": 199980,
-  "handle": "IVENDO-AS",
-  "description": "IVENDO sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199980,
+  "metadata" : {
+    "handle" : "IVENDO-AS",
+    "description" : "IVENDO sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.85.208.0/22",
       "45.143.72.0/22",
       "81.161.108.0/22",
@@ -15,6 +18,6 @@
       "193.105.178.0/24",
       "193.192.174.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

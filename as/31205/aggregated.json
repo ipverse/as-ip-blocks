@@ -1,9 +1,12 @@
 {
-  "asn": 31205,
-  "handle": "MF-SIB-AS",
-  "description": "PJSC MegaFon",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31205,
+  "metadata" : {
+    "handle" : "MF-SIB-AS",
+    "description" : "PJSC MegaFon",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.173.242.0/23",
       "31.173.244.0/22",
       "37.29.86.0/23",
@@ -31,7 +34,7 @@
       "188.162.88.0/21",
       "188.170.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:d000:6500::/40",
       "2a03:d000:67fe::/48",
       "2a03:d000:6802::/48"

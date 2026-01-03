@@ -1,9 +1,12 @@
 {
-  "asn": 11290,
-  "handle": "CC-3272",
-  "description": "Cogeco Connexion inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11290,
+  "metadata" : {
+    "handle" : "CC-3272",
+    "description" : "Cogeco Connexion inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.49.224.0/19",
       "24.50.64.0/18",
       "24.54.0.0/18",
@@ -68,7 +71,7 @@
       "216.71.80.0/20",
       "216.228.208.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:18c0::/32",
       "2602:210::/32",
       "2604:4d80::/32",

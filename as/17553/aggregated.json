@@ -1,12 +1,15 @@
 {
-  "asn": 17553,
-  "handle": "IPBNET-AS-AP",
-  "description": "Bogor Agricultural University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17553,
+  "metadata" : {
+    "handle" : "IPBNET-AS-AP",
+    "description" : "Bogor Agricultural University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.10.104.0/22",
       "202.124.205.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

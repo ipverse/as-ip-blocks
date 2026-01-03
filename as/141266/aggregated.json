@@ -1,13 +1,16 @@
 {
-  "asn": 141266,
-  "handle": "INRI-AS-IN",
-  "description": "Inri Communications Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141266,
+  "metadata" : {
+    "handle" : "INRI-AS-IN",
+    "description" : "Inri Communications Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.159.32.0/23",
       "103.229.129.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:9280::/48"
     ]
   }

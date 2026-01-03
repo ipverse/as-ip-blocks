@@ -1,9 +1,12 @@
 {
-  "asn": 50628,
-  "handle": "LEONIX-TELECOM",
-  "description": "Leonix Telecom SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50628,
+  "metadata" : {
+    "handle" : "LEONIX-TELECOM",
+    "description" : "Leonix Telecom SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.144.92.0/22",
       "95.214.196.0/22",
       "178.208.0.0/19",
@@ -16,7 +19,7 @@
       "193.35.156.0/24",
       "193.202.0.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:3d80::/29",
       "2a0b:3b00::/29",
       "2a0b:4700::/29",

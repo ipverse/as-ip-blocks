@@ -1,9 +1,12 @@
 {
-  "asn": 6713,
-  "handle": "IAM-AS",
-  "description": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6713,
+  "metadata" : {
+    "handle" : "IAM-AS",
+    "description" : "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.140.0.0/14",
       "41.248.0.0/14",
       "62.251.128.0/17",
@@ -39,7 +42,7 @@
       "197.128.0.0/14",
       "212.217.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4288::/32"
     ]
   }

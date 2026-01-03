@@ -1,9 +1,12 @@
 {
-  "asn": 132525,
-  "handle": "CMNET-HEILONGJIANG-CN",
-  "description": "China Mobile Communications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132525,
+  "metadata" : {
+    "handle" : "CMNET-HEILONGJIANG-CN",
+    "description" : "China Mobile Communications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.132.128.0/17",
       "36.138.128.0/23",
       "36.138.238.0/24",
@@ -35,7 +38,7 @@
       "223.160.144.0/23",
       "223.161.208.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2409:801a::/31",
       "2409:801c::/31",
       "2409:8087:1a00::/40",

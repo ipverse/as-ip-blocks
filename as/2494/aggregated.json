@@ -1,12 +1,15 @@
 {
-  "asn": 2494,
-  "handle": "MUWNET",
-  "description": "MUWNET Autonomous System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2494,
+  "metadata" : {
+    "handle" : "MUWNET",
+    "description" : "MUWNET Autonomous System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.148.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:27c::/48"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 213069,
-  "handle": "MAYAHOST-LLC",
-  "description": "Maya Pardazesh Iranian LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213069,
+  "metadata" : {
+    "handle" : "MAYAHOST-LLC",
+    "description" : "Maya Pardazesh Iranian LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.234.191.0/24",
       "195.238.240.0/24",
       "213.177.178.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:ef04:1002::/48",
       "2a14:6e40:1::/48"
     ]

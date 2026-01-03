@@ -1,9 +1,12 @@
 {
-  "asn": 25255,
-  "handle": "H3G-AUSTRIA-AS",
-  "description": "Hutchison Drei Austria GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25255,
+  "metadata" : {
+    "handle" : "H3G-AUSTRIA-AS",
+    "description" : "Hutchison Drei Austria GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.3.56.0/24",
       "46.220.0.0/16",
       "77.116.0.0/14",
@@ -17,7 +20,7 @@
       "194.24.128.0/19",
       "213.94.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2861::/32",
       "2a02:2864::/30",
       "2a07:7e82::/40"

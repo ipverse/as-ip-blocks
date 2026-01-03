@@ -1,9 +1,12 @@
 {
-  "asn": 399693,
-  "handle": "NCN-AS",
-  "description": "Northwest Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399693,
+  "metadata" : {
+    "handle" : "NCN-AS",
+    "description" : "Northwest Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.140.232.0/22",
       "199.120.120.0/24",
       "199.120.126.0/24",
@@ -28,7 +31,7 @@
       "216.51.186.0/23",
       "216.51.190.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:5f8:7f0d::/48",
       "2602:fe87::/39",
       "2602:fe87:a00::/39",

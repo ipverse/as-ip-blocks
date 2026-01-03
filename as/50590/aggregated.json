@@ -1,13 +1,16 @@
 {
-  "asn": 50590,
-  "handle": "NETBERRY-AS",
-  "description": "PE NETBERRY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50590,
+  "metadata" : {
+    "handle" : "NETBERRY-AS",
+    "description" : "PE NETBERRY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.175.168.0/21",
       "91.149.181.0/24",
       "93.125.1.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

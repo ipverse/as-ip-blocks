@@ -1,14 +1,17 @@
 {
-  "asn": 39493,
-  "handle": "RU-KSTV",
-  "description": "CJSC Kolomna-Sviaz TV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39493,
+  "metadata" : {
+    "handle" : "RU-KSTV",
+    "description" : "CJSC Kolomna-Sviaz TV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.42.0.0/18",
       "5.42.64.0/19",
       "78.25.128.0/18",
       "217.196.108.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

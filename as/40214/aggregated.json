@@ -1,13 +1,16 @@
 {
-  "asn": 40214,
-  "handle": "GROQCLOUD",
-  "description": "Groq Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40214,
+  "metadata" : {
+    "handle" : "GROQCLOUD",
+    "description" : "Groq Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "124.197.0.0/20",
       "185.111.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:ee40::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 212165,
-  "handle": "KVMKA",
-  "description": "Alex Group LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212165,
+  "metadata" : {
+    "handle" : "KVMKA",
+    "description" : "Alex Group LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.87.245.0/24",
       "45.87.246.0/23",
       "45.129.142.0/23",
@@ -18,7 +21,7 @@
       "193.233.20.0/24",
       "195.245.249.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:eb00:2::/48",
       "2a10:9680::/32",
       "2a10:9685::/32",

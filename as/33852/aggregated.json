@@ -1,9 +1,12 @@
 {
-  "asn": 33852,
-  "handle": "ORG-CCJS1-RIPE",
-  "description": "Viva Armenia CJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33852,
+  "metadata" : {
+    "handle" : "ORG-CCJS1-RIPE",
+    "description" : "Viva Armenia CJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.139.0.0/23",
       "83.139.2.0/24",
       "83.139.5.0/24",
@@ -14,7 +17,7 @@
       "83.139.20.0/24",
       "83.139.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:4000::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 37611,
-  "handle": "AFRIHOST-SP",
-  "description": "AFRIHOST SP (PTY) LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37611,
+  "metadata" : {
+    "handle" : "AFRIHOST-SP",
+    "description" : "AFRIHOST SP (PTY) LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.76.208.0/21",
       "102.182.0.0/16",
       "102.212.96.0/22",
@@ -24,7 +27,7 @@
       "197.79.0.0/17",
       "197.242.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0e:7f00::/28",
       "2c0f:ef20::/32",
       "2c0f:f4c0::/32"

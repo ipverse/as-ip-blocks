@@ -1,11 +1,14 @@
 {
-  "asn": 138026,
-  "handle": "RT1-AS-AP",
-  "description": "RT Traders",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138026,
+  "metadata" : {
+    "handle" : "RT1-AS-AP",
+    "description" : "RT Traders",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.250.36.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

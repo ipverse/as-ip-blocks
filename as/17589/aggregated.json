@@ -1,9 +1,12 @@
 {
-  "asn": 17589,
-  "handle": "GABIA-AS",
-  "description": "GABIA Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17589,
+  "metadata" : {
+    "handle" : "GABIA-AS",
+    "description" : "GABIA Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.201.224.0/23",
       "103.240.48.0/22",
       "121.78.79.0/24",
@@ -53,6 +56,6 @@
       "219.241.221.0/24",
       "222.236.220.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

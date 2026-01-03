@@ -1,9 +1,12 @@
 {
-  "asn": 395963,
-  "handle": "WCAN",
-  "description": "WCAN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395963,
+  "metadata" : {
+    "handle" : "WCAN",
+    "description" : "WCAN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.150.22.0/23",
       "198.150.24.0/23",
       "198.150.172.0/24",
@@ -11,6 +14,6 @@
       "205.213.3.0/24",
       "205.213.92.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 131283,
-  "handle": "HDFCBANK-IN",
-  "description": "HDFC Bank Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131283,
+  "metadata" : {
+    "handle" : "HDFCBANK-IN",
+    "description" : "HDFC Bank Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.120.104.0/22",
       "175.100.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:a100:10::/44",
       "2405:a100:20::/43",
       "2405:a100:40::/43",

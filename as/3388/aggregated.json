@@ -1,12 +1,15 @@
 {
-  "asn": 3388,
-  "handle": "UNM-AS",
-  "description": "University of New Mexico",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3388,
+  "metadata" : {
+    "handle" : "UNM-AS",
+    "description" : "University of New Mexico",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.106.0.0/17",
       "129.24.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

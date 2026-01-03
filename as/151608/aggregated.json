@@ -1,11 +1,14 @@
 {
-  "asn": 151608,
-  "handle": "BLUE2-AS-AP",
-  "description": "Blue Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151608,
+  "metadata" : {
+    "handle" : "BLUE2-AS-AP",
+    "description" : "Blue Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.36.88.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

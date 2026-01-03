@@ -1,11 +1,14 @@
 {
-  "asn": 30208,
-  "handle": "CASSCLAY",
-  "description": "Cass Clay Wireless",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30208,
+  "metadata" : {
+    "handle" : "CASSCLAY",
+    "description" : "Cass Clay Wireless",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.169.72.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

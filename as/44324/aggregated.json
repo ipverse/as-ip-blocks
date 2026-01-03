@@ -1,14 +1,17 @@
 {
-  "asn": 44324,
-  "handle": "MOEDOVE-AS",
-  "description": "MoeDove LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44324,
+  "metadata" : {
+    "handle" : "MOEDOVE-AS",
+    "description" : "MoeDove LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.149.120.0/24",
       "23.175.24.0/23",
       "44.32.154.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:840:e270::/48",
       "2406:840:e27f::/48",
       "2602:f9f6::/40",

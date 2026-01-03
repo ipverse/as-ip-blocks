@@ -1,9 +1,12 @@
 {
-  "asn": 202196,
-  "handle": "BOOKING-BV",
-  "description": "Booking.com BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202196,
+  "metadata" : {
+    "handle" : "BOOKING-BV",
+    "description" : "Booking.com BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.57.20.0/23",
       "37.10.1.0/24",
       "37.10.3.0/24",
@@ -13,7 +16,7 @@
       "37.10.40.0/21",
       "185.150.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5041::/46",
       "2a01:5041:4::/48",
       "2a01:5041:7::/48",

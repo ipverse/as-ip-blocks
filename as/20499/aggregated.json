@@ -1,11 +1,14 @@
 {
-  "asn": 20499,
-  "handle": "IPC-AS",
-  "description": "IP Connect LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20499,
+  "metadata" : {
+    "handle" : "IPC-AS",
+    "description" : "IP Connect LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.178.158.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

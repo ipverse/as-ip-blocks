@@ -1,11 +1,14 @@
 {
-  "asn": 141000,
-  "handle": "LPLTAH-AS-AP",
-  "description": "HYPERIX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141000,
+  "metadata" : {
+    "handle" : "LPLTAH-AS-AP",
+    "description" : "HYPERIX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.153.20.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

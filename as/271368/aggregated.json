@@ -1,13 +1,16 @@
 {
-  "asn": 271368,
-  "handle": "I9-TELECOM",
-  "description": "i9 Telecom LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271368,
+  "metadata" : {
+    "handle" : "I9-TELECOM",
+    "description" : "i9 Telecom LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.0.60.0/23",
       "179.0.62.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7a64::/34",
       "2804:7a64:a000::/35"
     ]

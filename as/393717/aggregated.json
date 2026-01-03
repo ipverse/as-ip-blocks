@@ -1,12 +1,15 @@
 {
-  "asn": 393717,
-  "handle": "PUPPET",
-  "description": "Puppet Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393717,
+  "metadata" : {
+    "handle" : "PUPPET",
+    "description" : "Puppet Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.69.65.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:9c:c000::/48"
     ]
   }

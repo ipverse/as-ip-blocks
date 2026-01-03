@@ -1,14 +1,17 @@
 {
-  "asn": 16066,
-  "handle": "TEST-UA",
-  "description": "T.E.S.T. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16066,
+  "metadata" : {
+    "handle" : "TEST-UA",
+    "description" : "T.E.S.T. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.170.81.0/24",
       "109.237.80.0/20",
       "217.76.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ec00::/32"
     ]
   }

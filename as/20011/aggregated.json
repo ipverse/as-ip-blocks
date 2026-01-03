@@ -1,9 +1,12 @@
 {
-  "asn": 20011,
-  "handle": "NTT-DATA-INC",
-  "description": "Dimension Data",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20011,
+  "metadata" : {
+    "handle" : "NTT-DATA-INC",
+    "description" : "Dimension Data",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.132.0.0/18",
       "41.132.64.0/21",
       "41.132.72.0/22",
@@ -259,7 +262,7 @@
       "197.101.196.0/22",
       "197.101.216.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4308::/32"
     ]
   }

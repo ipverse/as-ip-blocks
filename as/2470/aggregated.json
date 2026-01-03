@@ -1,9 +1,12 @@
 {
-  "asn": 2470,
-  "handle": "FR-LAREUNION",
-  "description": "Renater",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2470,
+  "metadata" : {
+    "handle" : "FR-LAREUNION",
+    "description" : "Renater",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.50.206.0/24",
       "193.51.11.0/24",
       "193.51.113.0/24",
@@ -20,7 +23,7 @@
       "195.220.149.0/24",
       "195.220.150.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:661:8000::/35"
     ]
   }

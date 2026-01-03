@@ -1,16 +1,19 @@
 {
-  "asn": 268952,
-  "handle": "MZ-NET-FIBRA",
-  "description": "MZ NET FIBRA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268952,
+  "metadata" : {
+    "handle" : "MZ-NET-FIBRA",
+    "description" : "MZ NET FIBRA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.43.76.0/24",
       "45.176.204.0/22",
       "200.196.36.0/22",
       "204.157.99.0/24",
       "206.85.21.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5d20::/32"
     ]
   }

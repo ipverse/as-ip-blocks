@@ -1,9 +1,12 @@
 {
-  "asn": 29670,
-  "handle": "IN-BERLIN-AS",
-  "description": "Individual Network Berlin (IN-Berlin) e.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29670,
+  "metadata" : {
+    "handle" : "IN-BERLIN-AS",
+    "description" : "Individual Network Berlin (IN-Berlin) e.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.177.204.0/22",
       "192.109.21.0/24",
       "192.109.42.0/24",
@@ -12,7 +15,7 @@
       "193.96.24.0/24",
       "217.197.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:fb8::/48",
       "2001:67c:1400::/45",
       "2001:bf0:c000::/35",

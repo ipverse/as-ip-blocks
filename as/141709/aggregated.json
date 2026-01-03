@@ -1,13 +1,16 @@
 {
-  "asn": 141709,
-  "handle": "CCT-AS-AP",
-  "description": "Clare Cable TeleVision",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141709,
+  "metadata" : {
+    "handle" : "CCT-AS-AP",
+    "description" : "Clare Cable TeleVision",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.162.127.0/24",
       "103.180.50.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:aea0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 16177,
-  "handle": "EQUENSWORLDLINE",
-  "description": "equensWorldline SE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16177,
+  "metadata" : {
+    "handle" : "EQUENSWORLDLINE",
+    "description" : "equensWorldline SE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.195.32.0/23",
       "82.195.38.0/24",
       "82.195.41.0/24",
@@ -19,6 +22,6 @@
       "193.41.176.0/22",
       "194.9.220.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

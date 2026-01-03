@@ -1,14 +1,17 @@
 {
-  "asn": 197564,
-  "handle": "INTERNETSTIFTELSEN",
-  "description": "Stiftelsen for Internetinfrastruktur",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197564,
+  "metadata" : {
+    "handle" : "INTERNETSTIFTELSEN",
+    "description" : "Stiftelsen for Internetinfrastruktur",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.155.96.0/22",
       "91.226.36.0/23",
       "213.108.24.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:124c::/48"
     ]
   }

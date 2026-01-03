@@ -1,12 +1,15 @@
 {
-  "asn": 139839,
-  "handle": "ZERONET-AS-AP",
-  "description": "ZeroNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139839,
+  "metadata" : {
+    "handle" : "ZERONET-AS-AP",
+    "description" : "ZeroNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.132.20.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:f6a0::/32"
     ]
   }

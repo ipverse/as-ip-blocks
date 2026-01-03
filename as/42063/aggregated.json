@@ -1,12 +1,15 @@
 {
-  "asn": 42063,
-  "handle": "ISKV",
-  "description": "BITMARCK GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42063,
+  "metadata" : {
+    "handle" : "ISKV",
+    "description" : "BITMARCK GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.20.210.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2fdc::/48"
     ]
   }

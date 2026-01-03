@@ -1,15 +1,18 @@
 {
-  "asn": 9216,
-  "handle": "PUNET-AP",
-  "description": "Symphox Information Co. LTd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9216,
+  "metadata" : {
+    "handle" : "PUNET-AP",
+    "description" : "Symphox Information Co. LTd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "122.144.34.0/24",
       "202.154.192.0/19",
       "203.135.64.0/19",
       "211.76.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:4900::/32"
     ]
   }

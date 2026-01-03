@@ -1,13 +1,16 @@
 {
-  "asn": 24376,
-  "handle": "YAHOO-CN2-AP",
-  "description": "Yahoo Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24376,
+  "metadata" : {
+    "handle" : "YAHOO-CN2-AP",
+    "description" : "Yahoo Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "180.222.108.0/23",
       "180.222.110.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:2000:a0::/48"
     ]
   }

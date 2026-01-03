@@ -1,12 +1,15 @@
 {
-  "asn": 266146,
-  "handle": "INOVE-TELECOM",
-  "description": "Inove Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266146,
+  "metadata" : {
+    "handle" : "INOVE-TELECOM",
+    "description" : "Inove Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.20.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3b64::/32"
     ]
   }

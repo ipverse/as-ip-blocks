@@ -1,13 +1,16 @@
 {
-  "asn": 7660,
-  "handle": "APAN-JP",
-  "description": "Asia Pacific Advanced Network - Japan",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7660,
+  "metadata" : {
+    "handle" : "APAN-JP",
+    "description" : "Asia Pacific Advanced Network - Japan",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.181.194.0/23",
       "203.181.248.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:200:900::/40",
       "2001:200:e000::/35"
     ]

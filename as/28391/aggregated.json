@@ -1,9 +1,12 @@
 {
-  "asn": 28391,
-  "handle": "UNIVERSIDAD-JUAREZ-AUTONOMA",
-  "description": "Universidad Juarez Autonoma de Tabasco",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28391,
+  "metadata" : {
+    "handle" : "UNIVERSIDAD-JUAREZ-AUTONOMA",
+    "description" : "Universidad Juarez Autonoma de Tabasco",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.236.1.0/24",
       "148.236.2.0/23",
       "148.236.4.0/22",
@@ -77,6 +80,6 @@
       "148.236.250.0/24",
       "148.236.253.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

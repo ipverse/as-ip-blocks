@@ -1,15 +1,18 @@
 {
-  "asn": 136168,
-  "handle": "CAMPANA-AS-AP",
-  "description": "Campana MYTHIC Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136168,
+  "metadata" : {
+    "handle" : "CAMPANA-AS-AP",
+    "description" : "Campana MYTHIC Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.82.232.0/24",
       "103.96.230.0/23",
       "103.96.232.0/24",
       "123.253.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:8340::/32"
     ]
   }

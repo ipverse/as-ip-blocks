@@ -1,9 +1,12 @@
 {
-  "asn": 32645,
-  "handle": "PIVOT",
-  "description": "Fidium",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32645,
+  "metadata" : {
+    "handle" : "PIVOT",
+    "description" : "Fidium",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.243.200.0/21",
       "66.243.208.0/22",
       "66.243.216.0/23",
@@ -29,6 +32,6 @@
       "216.227.96.0/22",
       "216.227.118.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

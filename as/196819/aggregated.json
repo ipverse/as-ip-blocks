@@ -1,16 +1,19 @@
 {
-  "asn": 196819,
-  "handle": "TWK-KL-AS",
-  "description": "DEMANDO GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 196819,
+  "metadata" : {
+    "handle" : "TWK-KL-AS",
+    "description" : "DEMANDO GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.13.168.0/21",
       "91.213.56.0/24",
       "193.57.27.0/24",
       "194.55.1.0/24",
       "217.73.48.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e100::/32",
       "2a0a:a380::/48"
     ]

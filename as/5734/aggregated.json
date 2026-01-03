@@ -1,9 +1,12 @@
 {
-  "asn": 5734,
-  "handle": "TIENET",
-  "description": "Telkom SA Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5734,
+  "metadata" : {
+    "handle" : "TIENET",
+    "description" : "Telkom SA Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.143.0.0/18",
       "165.143.64.0/19",
       "165.143.100.0/22",
@@ -16,6 +19,6 @@
       "165.148.128.0/17",
       "198.54.204.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 54314,
-  "handle": "LHA-2-ASN",
-  "description": "Lancaster General Health",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54314,
+  "metadata" : {
+    "handle" : "LHA-2-ASN",
+    "description" : "Lancaster General Health",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.122.0.0/24",
       "170.122.250.0/24",
       "170.122.253.0/24",
       "170.122.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

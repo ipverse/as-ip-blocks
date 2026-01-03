@@ -1,13 +1,16 @@
 {
-  "asn": 2026,
-  "handle": "HELSINKI",
-  "description": "City of Helsinki",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2026,
+  "metadata" : {
+    "handle" : "HELSINKI",
+    "description" : "City of Helsinki",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.35.81.0/24",
       "37.35.82.0/23",
       "137.163.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

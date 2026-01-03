@@ -1,9 +1,12 @@
 {
-  "asn": 16302,
-  "handle": "SUOMICOMMUNICATIONS",
-  "description": "Suomi Communications Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16302,
+  "metadata" : {
+    "handle" : "SUOMICOMMUNICATIONS",
+    "description" : "Suomi Communications Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.246.192.0/20",
       "79.134.96.0/19",
       "80.248.240.0/20",
@@ -17,7 +20,7 @@
       "194.116.231.0/24",
       "217.119.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2d6c::/48",
       "2a00:1190::/32",
       "2a02:e900::/32"

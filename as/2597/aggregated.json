@@ -1,13 +1,16 @@
 {
-  "asn": 2597,
-  "handle": "CCTLD-IT",
-  "description": "Consiglio Nazionale delle Ricerche",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2597,
+  "metadata" : {
+    "handle" : "CCTLD-IT",
+    "description" : "Consiglio Nazionale delle Ricerche",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.12.192.0/23",
       "192.12.194.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:d40:1::/48",
       "2a00:d40:2::/48",
       "2a00:d40:6::/48",

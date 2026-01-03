@@ -1,12 +1,15 @@
 {
-  "asn": 38157,
-  "handle": "IDNIC-TNIAU-AS-ID",
-  "description": "Tentara Nasional Indonesia Angkatan Udara (TNI-AU)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38157,
+  "metadata" : {
+    "handle" : "IDNIC-TNIAU-AS-ID",
+    "description" : "Tentara Nasional Indonesia Angkatan Udara (TNI-AU)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.147.231.0/24",
       "103.219.6.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 8018,
-  "handle": "VEL-AS",
-  "description": "Velocity Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8018,
+  "metadata" : {
+    "handle" : "VEL-AS",
+    "description" : "Velocity Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.123.180.0/24",
       "185.124.40.0/22",
       "206.126.128.0/19",
       "207.182.224.0/19",
       "208.85.184.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

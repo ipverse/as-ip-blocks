@@ -1,15 +1,18 @@
 {
-  "asn": 46906,
-  "handle": "GOSEMO-LLC",
-  "description": "GoSEMO Fiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46906,
+  "metadata" : {
+    "handle" : "GOSEMO-LLC",
+    "description" : "GoSEMO Fiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.245.248.0/21",
       "146.71.16.0/20",
       "160.79.80.0/20",
       "161.115.16.0/20",
       "192.30.160.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 11664,
-  "handle": "TECHTEL-LMDS-COMUNICACIONES",
-  "description": "Techtel LMDS Comunicaciones Interactivas S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11664,
+  "metadata" : {
+    "handle" : "TECHTEL-LMDS-COMUNICACIONES",
+    "description" : "Techtel LMDS Comunicaciones Interactivas S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.0.212.0/22",
       "131.100.108.0/22",
       "131.100.184.0/22",
@@ -36,7 +39,7 @@
       "200.123.64.0/18",
       "209.99.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:190::/32",
       "2803:7d80::/32",
       "2803:8d80::/32",

@@ -1,9 +1,12 @@
 {
-  "asn": 63479,
-  "handle": "HAMWAN",
-  "description": "HamWAN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63479,
+  "metadata" : {
+    "handle" : "HAMWAN",
+    "description" : "HamWAN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.12.6.0/23",
       "44.12.9.0/24",
       "44.12.96.0/22",
@@ -13,6 +16,6 @@
       "44.135.180.0/24",
       "44.135.219.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

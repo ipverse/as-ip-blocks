@@ -1,12 +1,15 @@
 {
-  "asn": 51505,
-  "handle": "DEI-AS",
-  "description": "Dimosia Epicheirisi Ilektrismou Anonymi Etaireia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51505,
+  "metadata" : {
+    "handle" : "DEI-AS",
+    "description" : "Dimosia Epicheirisi Ilektrismou Anonymi Etaireia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.154.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:6700::/29"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 42567,
-  "handle": "MOJHOST-EU",
-  "description": "MOJOHOST B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42567,
+  "metadata" : {
+    "handle" : "MOJHOST-EU",
+    "description" : "MOJOHOST B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.7.96.0/22",
       "185.94.236.0/22",
       "217.22.16.0/21",
       "217.22.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:22c0::/29"
     ]
   }

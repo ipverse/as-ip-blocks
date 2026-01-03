@@ -1,9 +1,12 @@
 {
-  "asn": 135660,
-  "handle": "R1DL-AS-AP",
-  "description": "ROUTE 1 DIGITAL (PVT.) LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135660,
+  "metadata" : {
+    "handle" : "R1DL-AS-AP",
+    "description" : "ROUTE 1 DIGITAL (PVT.) LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.137.20.0/24",
       "111.88.77.0/24",
       "117.102.0.0/22",
@@ -11,6 +14,6 @@
       "117.102.6.0/24",
       "157.10.226.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

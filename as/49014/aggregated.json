@@ -1,13 +1,16 @@
 {
-  "asn": 49014,
-  "handle": "WKO-AS",
-  "description": "Wirtschaftskammer Oesterreich",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49014,
+  "metadata" : {
+    "handle" : "WKO-AS",
+    "description" : "Wirtschaftskammer Oesterreich",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.107.232.0/21",
       "194.107.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2c0::/48"
     ]
   }

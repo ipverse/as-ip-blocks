@@ -1,12 +1,15 @@
 {
-  "asn": 215776,
-  "handle": "KELA-AS",
-  "description": "Kansanelakelaitos",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215776,
+  "metadata" : {
+    "handle" : "KELA-AS",
+    "description" : "Kansanelakelaitos",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.202.112.0/22",
       "91.223.107.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

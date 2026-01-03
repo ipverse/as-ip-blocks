@@ -1,13 +1,16 @@
 {
-  "asn": 14121,
-  "handle": "CIBC-WORLD-MARKETS",
-  "description": "CIBC World Markets",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14121,
+  "metadata" : {
+    "handle" : "CIBC-WORLD-MARKETS",
+    "description" : "CIBC World Markets",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.231.63.0/24",
       "199.198.223.0/24",
       "199.198.234.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

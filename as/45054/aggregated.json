@@ -1,9 +1,12 @@
 {
-  "asn": 45054,
-  "handle": "METROBIT-AS",
-  "description": "METROBIT Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45054,
+  "metadata" : {
+    "handle" : "METROBIT-AS",
+    "description" : "METROBIT Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.188.203.0/24",
       "5.189.216.0/23",
       "5.189.218.0/24",
@@ -16,6 +19,6 @@
       "146.185.232.0/24",
       "176.123.128.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

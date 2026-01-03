@@ -1,9 +1,12 @@
 {
-  "asn": 8291,
-  "handle": "RSNET-AS",
-  "description": "The Federal Guard Service of the Russian Federation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8291,
+  "metadata" : {
+    "handle" : "RSNET-AS",
+    "description" : "The Federal Guard Service of the Russian Federation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.173.128.0/21",
       "95.173.136.0/23",
       "95.173.138.0/24",
@@ -11,6 +14,6 @@
       "194.226.80.0/21",
       "194.226.116.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

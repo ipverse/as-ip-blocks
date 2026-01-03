@@ -1,9 +1,12 @@
 {
-  "asn": 57131,
-  "handle": "IP-OSTERAKER",
-  "description": "IP Osteraker AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57131,
+  "metadata" : {
+    "handle" : "IP-OSTERAKER",
+    "description" : "IP Osteraker AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.130.164.0/22",
       "185.180.252.0/22",
       "193.180.82.0/23",
@@ -13,6 +16,6 @@
       "194.71.95.0/24",
       "194.71.200.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

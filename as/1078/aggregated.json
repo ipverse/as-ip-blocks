@@ -1,12 +1,15 @@
 {
-  "asn": 1078,
-  "handle": "LIGHTWAVE-COMMUNICATIONS",
-  "description": "Lightwave",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1078,
+  "metadata" : {
+    "handle" : "LIGHTWAVE-COMMUNICATIONS",
+    "description" : "Lightwave",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.45.100.0/22",
       "38.45.220.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

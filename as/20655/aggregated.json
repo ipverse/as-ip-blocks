@@ -1,9 +1,12 @@
 {
-  "asn": 20655,
-  "handle": "E-STYLEISP-AS",
-  "description": "e-Style ISP LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20655,
+  "metadata" : {
+    "handle" : "E-STYLEISP-AS",
+    "description" : "e-Style ISP LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.253.0/24",
       "45.10.164.0/23",
       "45.132.185.0/24",
@@ -28,7 +31,7 @@
       "217.174.96.0/20",
       "217.197.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:7e80::/32"
     ]
   }

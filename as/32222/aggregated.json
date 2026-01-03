@@ -1,9 +1,12 @@
 {
-  "asn": 32222,
-  "handle": "ACCESSLINE-COM-2000",
-  "description": "AccessLine Communications Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32222,
+  "metadata" : {
+    "handle" : "ACCESSLINE-COM-2000",
+    "description" : "AccessLine Communications Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.28.114.0/24",
       "64.28.121.0/24",
       "64.28.124.0/24",
@@ -11,6 +14,6 @@
       "72.53.173.0/24",
       "72.53.174.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

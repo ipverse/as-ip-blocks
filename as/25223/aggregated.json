@@ -1,13 +1,16 @@
 {
-  "asn": 25223,
-  "handle": "PIN",
-  "description": "InfraCom Managed Services AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25223,
+  "metadata" : {
+    "handle" : "PIN",
+    "description" : "InfraCom Managed Services AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.189.208.0/22",
       "193.105.226.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:680::/48"
     ]
   }

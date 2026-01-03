@@ -1,9 +1,12 @@
 {
-  "asn": 41421,
-  "handle": "AS-SNT",
-  "description": "StarNet Telecom Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41421,
+  "metadata" : {
+    "handle" : "AS-SNT",
+    "description" : "StarNet Telecom Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.214.137.0/24",
       "31.214.138.0/24",
       "31.214.140.0/24",
@@ -28,7 +31,7 @@
       "193.91.12.0/23",
       "194.5.180.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:b8e0::/32",
       "2a02:4c80::/32"
     ]

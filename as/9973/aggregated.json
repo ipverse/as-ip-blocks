@@ -1,9 +1,12 @@
 {
-  "asn": 9973,
-  "handle": "BSITC-AS",
-  "description": "BSITC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9973,
+  "metadata" : {
+    "handle" : "BSITC-AS",
+    "description" : "BSITC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.252.172.0/22",
       "103.106.140.0/22",
       "202.124.254.0/23",
@@ -14,6 +17,6 @@
       "203.236.176.0/22",
       "203.238.106.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

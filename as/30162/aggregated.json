@@ -1,9 +1,12 @@
 {
-  "asn": 30162,
-  "handle": "ETHOPLEX",
-  "description": "Ethoplex LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30162,
+  "metadata" : {
+    "handle" : "ETHOPLEX",
+    "description" : "Ethoplex LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.149.24.0/24",
       "23.170.208.0/23",
       "23.247.248.0/24",
@@ -14,7 +17,7 @@
       "207.250.196.0/24",
       "208.87.120.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:d780::/32"
     ]
   }

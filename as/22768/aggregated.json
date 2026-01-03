@@ -1,9 +1,12 @@
 {
-  "asn": 22768,
-  "handle": "SYNERGYBROADBAND-MI-02",
-  "description": "SYNERGY BROADBAND",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22768,
+  "metadata" : {
+    "handle" : "SYNERGYBROADBAND-MI-02",
+    "description" : "SYNERGY BROADBAND",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "52.119.97.0/24",
       "52.119.98.0/23",
       "52.119.100.0/22",
@@ -31,7 +34,7 @@
       "208.75.20.0/23",
       "208.75.23.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:3a00:7::/48",
       "2605:3a00:13::/48",
       "2605:3a00:22::/48",

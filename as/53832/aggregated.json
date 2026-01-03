@@ -1,12 +1,15 @@
 {
-  "asn": 53832,
-  "handle": "ASN-BOYCOM",
-  "description": "Boycom Cablevision",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53832,
+  "metadata" : {
+    "handle" : "ASN-BOYCOM",
+    "description" : "Boycom Cablevision",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.129.112.0/20",
       "209.65.72.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 269974,
-  "handle": "LAN-ONLINE-CA",
-  "description": "LAN-ONLINE C.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269974,
+  "metadata" : {
+    "handle" : "LAN-ONLINE-CA",
+    "description" : "LAN-ONLINE C.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.122.4.0/23",
       "138.122.7.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

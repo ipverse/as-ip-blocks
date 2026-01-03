@@ -1,13 +1,16 @@
 {
-  "asn": 400338,
-  "handle": "GIGABEAM-INTERNET",
-  "description": "Gigabeam Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400338,
+  "metadata" : {
+    "handle" : "GIGABEAM-INTERNET",
+    "description" : "Gigabeam Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.224.8.0/23",
       "64.224.22.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:9f40::/32"
     ]
   }

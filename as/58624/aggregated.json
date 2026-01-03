@@ -1,12 +1,15 @@
 {
-  "asn": 58624,
-  "handle": "END2END-AS-AP",
-  "description": "End 2 End Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58624,
+  "metadata" : {
+    "handle" : "END2END-AS-AP",
+    "description" : "End 2 End Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.13.39.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:2c1::/48"
     ]
   }

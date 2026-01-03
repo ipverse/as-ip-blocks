@@ -1,9 +1,12 @@
 {
-  "asn": 21473,
-  "handle": "PFALZKOM",
-  "description": "PFALZKOM GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21473,
+  "metadata" : {
+    "handle" : "PFALZKOM",
+    "description" : "PFALZKOM GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.148.216.0/23",
       "77.72.216.0/21",
       "91.199.192.0/24",
@@ -30,7 +33,7 @@
       "213.183.64.0/19",
       "213.206.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2e04::/48",
       "2001:34c0::/29",
       "2a00:1e80::/32",

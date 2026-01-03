@@ -1,12 +1,15 @@
 {
-  "asn": 52525,
-  "handle": "INPASUPRI-COM-SUPRIMENTOS",
-  "description": "INPASUPRI - Com. de Suprimentos p/Inf. Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52525,
+  "metadata" : {
+    "handle" : "INPASUPRI-COM-SUPRIMENTOS",
+    "description" : "INPASUPRI - Com. de Suprimentos p/Inf. Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.106.64.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:de8::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 17117,
-  "handle": "RITSNET",
-  "description": "RITSnet Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17117,
+  "metadata" : {
+    "handle" : "RITSNET",
+    "description" : "RITSnet Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.17.158.0/24",
       "12.26.3.0/24",
       "12.129.131.0/24",
@@ -18,7 +21,7 @@
       "207.47.51.0/24",
       "207.47.61.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470:151::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 15000,
-  "handle": "GLOBAL-RELAY",
-  "description": "Global Relay Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15000,
+  "metadata" : {
+    "handle" : "GLOBAL-RELAY",
+    "description" : "Global Relay Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.244.120.0/22",
       "208.81.212.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

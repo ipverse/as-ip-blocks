@@ -1,9 +1,12 @@
 {
-  "asn": 38917,
-  "handle": "KOMTEL-AS",
-  "description": "INTERCOMTEL Limited Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38917,
+  "metadata" : {
+    "handle" : "KOMTEL-AS",
+    "description" : "INTERCOMTEL Limited Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.255.224.0/19",
       "91.227.12.0/23",
       "109.111.64.0/19",
@@ -19,7 +22,7 @@
       "194.32.156.0/22",
       "217.175.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:2cc0::/29"
     ]
   }

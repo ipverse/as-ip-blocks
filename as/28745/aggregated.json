@@ -1,9 +1,12 @@
 {
-  "asn": 28745,
-  "handle": "SUTTK-AS",
-  "description": "Joint Stock Company TransTeleCom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28745,
+  "metadata" : {
+    "handle" : "SUTTK-AS",
+    "description" : "Joint Stock Company TransTeleCom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.165.32.0/22",
       "62.165.36.0/23",
       "62.165.38.0/24",
@@ -46,7 +49,7 @@
       "176.56.22.0/23",
       "176.56.24.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:7880::/32"
     ]
   }

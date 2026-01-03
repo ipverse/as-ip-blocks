@@ -1,9 +1,12 @@
 {
-  "asn": 210893,
-  "handle": "LAYEREDTECH",
-  "description": "Layered Technologies Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210893,
+  "metadata" : {
+    "handle" : "LAYEREDTECH",
+    "description" : "Layered Technologies Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.41.250.0/24",
       "149.5.55.0/24",
       "149.5.56.0/23",
@@ -12,7 +15,7 @@
       "154.56.254.0/23",
       "195.5.127.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:2c80::/29"
     ]
   }

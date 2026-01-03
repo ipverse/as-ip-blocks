@@ -1,11 +1,14 @@
 {
-  "asn": 398023,
-  "handle": "PVHMC-AS",
-  "description": "Pomona Valley Hospital Medical Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398023,
+  "metadata" : {
+    "handle" : "PVHMC-AS",
+    "description" : "Pomona Valley Hospital Medical Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.112.102.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

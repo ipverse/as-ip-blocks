@@ -1,12 +1,15 @@
 {
-  "asn": 49952,
-  "handle": "BLUESTONE",
-  "description": "Bluestone AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49952,
+  "metadata" : {
+    "handle" : "BLUESTONE",
+    "description" : "Bluestone AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.213.224.0/24",
       "185.197.208.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

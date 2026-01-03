@@ -1,9 +1,12 @@
 {
-  "asn": 30967,
-  "handle": "TRUPHONE-LTD",
-  "description": "TP Global Operations Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30967,
+  "metadata" : {
+    "handle" : "TRUPHONE-LTD",
+    "description" : "TP Global Operations Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.76.65.0/24",
       "38.84.160.0/24",
       "79.99.24.0/21",
@@ -23,6 +26,6 @@
       "194.88.242.0/23",
       "205.252.233.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

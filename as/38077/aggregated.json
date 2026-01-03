@@ -1,15 +1,18 @@
 {
-  "asn": 38077,
-  "handle": "TIMOR-TELECOM-AS-AP",
-  "description": "Timor Telecom SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38077,
+  "metadata" : {
+    "handle" : "TIMOR-TELECOM-AS-AP",
+    "description" : "Timor Telecom SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.112.36.0/22",
       "149.36.170.0/23",
       "154.18.202.0/23",
       "180.189.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:1f00::/32"
     ]
   }

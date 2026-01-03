@@ -1,12 +1,15 @@
 {
-  "asn": 26283,
-  "handle": "SFCU-AS1",
-  "description": "SchoolsFirst Federal Credit Union",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26283,
+  "metadata" : {
+    "handle" : "SFCU-AS1",
+    "description" : "SchoolsFirst Federal Credit Union",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.10.163.0/24",
       "192.245.193.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 205568,
-  "handle": "DIGITALBRIDGE",
-  "description": "NBI SIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205568,
+  "metadata" : {
+    "handle" : "DIGITALBRIDGE",
+    "description" : "NBI SIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.213.200.0/24",
       "185.213.202.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

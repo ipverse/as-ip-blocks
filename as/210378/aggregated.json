@@ -1,12 +1,15 @@
 {
-  "asn": 210378,
-  "handle": "KNET",
-  "description": "Kantonspolizei Zuerich",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210378,
+  "metadata" : {
+    "handle" : "KNET",
+    "description" : "Kantonspolizei Zuerich",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.63.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:2902:9c00::/38"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 58003,
-  "handle": "PLANEETTA-AS",
-  "description": "Planeetta Internet Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58003,
+  "metadata" : {
+    "handle" : "PLANEETTA-AS",
+    "description" : "Planeetta Internet Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.217.192.0/21",
       "37.233.88.0/21",
       "79.171.232.0/21",
@@ -15,7 +18,7 @@
       "185.163.152.0/22",
       "185.179.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:9560::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 7795,
-  "handle": "LUMOS",
-  "description": "LUMOS Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7795,
+  "metadata" : {
+    "handle" : "LUMOS",
+    "description" : "LUMOS Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.130.176.0/24",
       "64.4.96.0/19",
       "64.70.160.0/19",
@@ -40,7 +43,7 @@
       "216.98.64.0/19",
       "216.146.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f1d8::/32"
     ]
   }

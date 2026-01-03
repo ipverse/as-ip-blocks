@@ -1,9 +1,12 @@
 {
-  "asn": 12956,
-  "handle": "TELXIUS",
-  "description": "TELEFONICA GLOBAL SOLUTIONS SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12956,
+  "metadata" : {
+    "handle" : "TELXIUS",
+    "description" : "TELEFONICA GLOBAL SOLUTIONS SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.224.0/22",
       "5.53.0.0/21",
       "5.255.144.0/21",
@@ -33,7 +36,7 @@
       "213.140.32.0/19",
       "216.184.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1498::/32",
       "2001:1820::/32",
       "2800:240::/32"

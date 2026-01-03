@@ -1,9 +1,12 @@
 {
-  "asn": 31198,
-  "handle": "SPACE-NORWAY-UK-LTD",
-  "description": "SPACE NORWAY (UK) LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31198,
+  "metadata" : {
+    "handle" : "SPACE-NORWAY-UK-LTD",
+    "description" : "SPACE NORWAY (UK) LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.133.28.0/23",
       "45.133.30.0/24",
       "46.18.152.0/21",
@@ -12,6 +15,6 @@
       "171.33.174.0/24",
       "217.173.48.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 64236,
-  "handle": "UNREAL-SERVERS",
-  "description": "UnReal Servers LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64236,
+  "metadata" : {
+    "handle" : "UNREAL-SERVERS",
+    "description" : "UnReal Servers LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.81.150.0/24",
       "45.92.29.0/24",
       "66.85.92.0/22",
@@ -32,7 +35,7 @@
       "212.162.148.0/22",
       "217.61.240.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:1740::/32",
       "2604:2d00::/36",
       "2604:abc0::/32",

@@ -1,9 +1,12 @@
 {
-  "asn": 206617,
-  "handle": "NEOMEDIA",
-  "description": "Neomedia S.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206617,
+  "metadata" : {
+    "handle" : "NEOMEDIA",
+    "description" : "Neomedia S.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.14.184.0/21",
       "89.32.152.0/23",
       "89.40.234.0/23",
@@ -22,6 +25,6 @@
       "193.178.224.0/23",
       "195.2.218.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

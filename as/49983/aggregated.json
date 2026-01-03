@@ -1,14 +1,17 @@
 {
-  "asn": 49983,
-  "handle": "MIRONET-AS",
-  "description": "MiroNet AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49983,
+  "metadata" : {
+    "handle" : "MIRONET-AS",
+    "description" : "MiroNet AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.212.196.0/24",
       "109.71.96.0/21",
       "185.19.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:17e0::/32"
     ]
   }

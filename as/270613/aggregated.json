@@ -1,12 +1,15 @@
 {
-  "asn": 270613,
-  "handle": "MOOV-INTERNET",
-  "description": "Moov Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270613,
+  "metadata" : {
+    "handle" : "MOOV-INTERNET",
+    "description" : "Moov Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "201.216.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6eb0::/36",
       "2804:6eb0:2000::/36",
       "2804:6eb0:4000::/36",

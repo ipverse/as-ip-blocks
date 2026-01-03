@@ -1,14 +1,17 @@
 {
-  "asn": 268205,
-  "handle": "REDE-BRASIL-NETWORKS",
-  "description": "Rede Brasil Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268205,
+  "metadata" : {
+    "handle" : "REDE-BRASIL-NETWORKS",
+    "description" : "Rede Brasil Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.7.224.0/19",
       "45.236.48.0/22",
       "177.74.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4d90::/32"
     ]
   }

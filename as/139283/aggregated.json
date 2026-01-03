@@ -1,12 +1,15 @@
 {
-  "asn": 139283,
-  "handle": "TOUCHONLINE-AS-AP",
-  "description": "Touch Online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139283,
+  "metadata" : {
+    "handle" : "TOUCHONLINE-AS-AP",
+    "description" : "Touch Online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.140.212.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:f4c0::/32"
     ]
   }

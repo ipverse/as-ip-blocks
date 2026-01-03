@@ -1,13 +1,16 @@
 {
-  "asn": 9205,
-  "handle": "SNS-AS",
-  "description": "SATELIT SERVIS Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9205,
+  "metadata" : {
+    "handle" : "SNS-AS",
+    "description" : "SATELIT SERVIS Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.76.128.0/17",
       "193.110.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:5e40:4::/48"
     ]
   }

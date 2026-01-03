@@ -1,12 +1,15 @@
 {
-  "asn": 135101,
-  "handle": "BEACON-AS-AP",
-  "description": "BEACON PHARMACEUTICALS PLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135101,
+  "metadata" : {
+    "handle" : "BEACON-AS-AP",
+    "description" : "BEACON PHARMACEUTICALS PLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.215.113.0/24",
       "138.252.64.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

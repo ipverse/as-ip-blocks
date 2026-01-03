@@ -1,11 +1,14 @@
 {
-  "asn": 55283,
-  "handle": "FHN-ASN-01",
-  "description": "FHN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55283,
+  "metadata" : {
+    "handle" : "FHN-ASN-01",
+    "description" : "FHN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.94.48.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

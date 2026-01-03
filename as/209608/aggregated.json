@@ -1,12 +1,15 @@
 {
-  "asn": 209608,
-  "handle": "CITYOFATHENS",
-  "description": "Municipality of Athens",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209608,
+  "metadata" : {
+    "handle" : "CITYOFATHENS",
+    "description" : "Municipality of Athens",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.186.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:76c0::/48"
     ]
   }

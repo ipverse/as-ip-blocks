@@ -1,12 +1,15 @@
 {
-  "asn": 138299,
-  "handle": "RSGSN-AS-IN",
-  "description": "R.S.G. SMART NETWORK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138299,
+  "metadata" : {
+    "handle" : "RSGSN-AS-IN",
+    "description" : "R.S.G. SMART NETWORK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.87.45.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:5ec0::/48"
     ]
   }

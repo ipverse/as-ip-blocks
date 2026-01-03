@@ -1,14 +1,17 @@
 {
-  "asn": 9320,
-  "handle": "BREGISTRY-AS",
-  "description": "Supreme Court of Korea",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9320,
+  "metadata" : {
+    "handle" : "BREGISTRY-AS",
+    "description" : "Supreme Court of Korea",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.240.69.0/24",
       "203.240.71.0/24",
       "203.240.82.0/23",
       "203.240.84.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

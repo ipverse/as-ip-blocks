@@ -1,13 +1,16 @@
 {
-  "asn": 401731,
-  "handle": "ROLL-TIDE",
-  "description": "The University of Alabama Athletics",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401731,
+  "metadata" : {
+    "handle" : "ROLL-TIDE",
+    "description" : "The University of Alabama Athletics",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.139.60.0/24",
       "64.32.50.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:d7:a000::/48"
     ]
   }

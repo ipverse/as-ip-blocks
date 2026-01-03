@@ -1,9 +1,12 @@
 {
-  "asn": 21766,
-  "handle": "BEN-LOMAND-TEL",
-  "description": "BEN LOMAND RURAL TELEPHONE COOPERATIVE INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21766,
+  "metadata" : {
+    "handle" : "BEN-LOMAND-TEL",
+    "description" : "BEN LOMAND RURAL TELEPHONE COOPERATIVE INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.63.192.0/18",
       "69.8.160.0/20",
       "152.97.64.0/18",
@@ -12,7 +15,7 @@
       "199.189.240.0/21",
       "199.217.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:6600::/28"
     ]
   }

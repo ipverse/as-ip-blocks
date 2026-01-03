@@ -1,9 +1,12 @@
 {
-  "asn": 31034,
-  "handle": "ARUBA-ASN",
-  "description": "Aruba S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31034,
+  "metadata" : {
+    "handle" : "ARUBA-ASN",
+    "description" : "Aruba S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.182.240.0/22",
       "5.249.128.0/19",
       "31.11.32.0/21",
@@ -74,7 +77,7 @@
       "217.61.120.0/21",
       "217.73.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:6d40::/31",
       "2a00:6d42::/32",
       "2a00:6d44::/32"

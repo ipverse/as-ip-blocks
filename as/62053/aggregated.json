@@ -1,11 +1,14 @@
 {
-  "asn": 62053,
-  "handle": "DPD-RO",
-  "description": "Dynamic Parcel Distribution SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62053,
+  "metadata" : {
+    "handle" : "DPD-RO",
+    "description" : "Dynamic Parcel Distribution SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.233.32.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

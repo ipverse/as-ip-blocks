@@ -1,14 +1,17 @@
 {
-  "asn": 393990,
-  "handle": "CLEAR-229-AS",
-  "description": "Clearcable Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393990,
+  "metadata" : {
+    "handle" : "CLEAR-229-AS",
+    "description" : "Clearcable Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.33.167.0/24",
       "192.139.16.0/24",
       "192.160.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:120:8000::/44"
     ]
   }

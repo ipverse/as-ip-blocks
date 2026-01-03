@@ -1,9 +1,12 @@
 {
-  "asn": 140641,
-  "handle": "YOTTA",
-  "description": "YOTTA NETWORK SERVICES PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140641,
+  "metadata" : {
+    "handle" : "YOTTA",
+    "description" : "YOTTA NETWORK SERVICES PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.178.98.0/24",
       "23.139.76.0/24",
       "23.145.116.0/24",
@@ -75,7 +78,7 @@
       "203.112.156.0/22",
       "217.145.69.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:bf40::/48",
       "2400:54a0:20b0::/48",
       "2406:1840::/32"

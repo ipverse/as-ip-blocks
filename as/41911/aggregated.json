@@ -1,9 +1,12 @@
 {
-  "asn": 41911,
-  "handle": "LANET-SD",
-  "description": "Lanet Network Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41911,
+  "metadata" : {
+    "handle" : "LANET-SD",
+    "description" : "Lanet Network Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.250.96.0/19",
       "91.208.116.0/24",
       "91.241.120.0/21",
@@ -11,6 +14,6 @@
       "176.39.40.0/21",
       "176.110.0.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

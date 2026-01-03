@@ -1,9 +1,12 @@
 {
-  "asn": 136188,
-  "handle": "CHINATELECOM-ZHEJIANG-NINGBO-IDC",
-  "description": "NINGBO ZHEJIANG Province P.R.China",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136188,
+  "metadata" : {
+    "handle" : "CHINATELECOM-ZHEJIANG-NINGBO-IDC",
+    "description" : "NINGBO ZHEJIANG Province P.R.China.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "60.163.142.0/23",
       "60.190.1.0/24",
       "60.190.31.0/24",
@@ -67,7 +70,7 @@
       "218.71.143.0/24",
       "220.189.221.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:1c:3000::/36",
       "240e:f7:a000::/35",
       "240e:971:2000::/36",

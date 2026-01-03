@@ -1,12 +1,15 @@
 {
-  "asn": 136500,
-  "handle": "NORTHCLOUDLIMITED-AS-AP",
-  "description": "NorthCloud Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136500,
+  "metadata" : {
+    "handle" : "NORTHCLOUDLIMITED-AS-AP",
+    "description" : "NorthCloud Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.90.174.0/23",
       "202.36.175.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

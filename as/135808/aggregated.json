@@ -1,14 +1,17 @@
 {
-  "asn": 135808,
-  "handle": "FIBERZON-AS",
-  "description": "Fiberzone Communications Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135808,
+  "metadata" : {
+    "handle" : "FIBERZON-AS",
+    "description" : "Fiberzone Communications Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.78.221.0/24",
       "103.103.174.0/24",
       "103.119.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:13c0::/32"
     ]
   }

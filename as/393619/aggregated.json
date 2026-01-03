@@ -1,14 +1,17 @@
 {
-  "asn": 393619,
-  "handle": "UBX-DT1",
-  "description": "UBX Cloud",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393619,
+  "metadata" : {
+    "handle" : "UBX-DT1",
+    "description" : "UBX Cloud",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.33.206.0/24",
       "142.202.168.0/22",
       "192.69.32.0/24",
       "192.83.112.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

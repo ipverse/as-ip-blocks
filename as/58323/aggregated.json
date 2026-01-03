@@ -1,13 +1,16 @@
 {
-  "asn": 58323,
-  "handle": "COMNET",
-  "description": "netgo tax GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58323,
+  "metadata" : {
+    "handle" : "COMNET",
+    "description" : "netgo tax GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.255.20.0/22",
       "164.138.192.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:bac0::/32"
     ]
   }

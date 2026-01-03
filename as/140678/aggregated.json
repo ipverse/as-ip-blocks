@@ -1,11 +1,14 @@
 {
-  "asn": 140678,
-  "handle": "VHUBNETWORK-AS-AP",
-  "description": "vHub Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140678,
+  "metadata" : {
+    "handle" : "VHUBNETWORK-AS-AP",
+    "description" : "vHub Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.151.174.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

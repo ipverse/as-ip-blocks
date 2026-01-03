@@ -1,14 +1,17 @@
 {
-  "asn": 213224,
-  "handle": "ARUBAENTERPRISE-ASN",
-  "description": "Aruba S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213224,
+  "metadata" : {
+    "handle" : "ARUBAENTERPRISE-ASN",
+    "description" : "Aruba S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.71.160.0/20",
       "85.235.158.0/23",
       "209.227.208.0/20",
       "209.227.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

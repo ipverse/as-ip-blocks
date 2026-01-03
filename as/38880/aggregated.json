@@ -1,9 +1,12 @@
 {
-  "asn": 38880,
-  "handle": "M21-AS-AP",
-  "description": "Micron21 Datacentre Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38880,
+  "metadata" : {
+    "handle" : "M21-AS-AP",
+    "description" : "Micron21 Datacentre Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.131.64.0/18",
       "43.245.68.0/22",
       "45.65.60.0/22",
@@ -30,7 +33,7 @@
       "203.28.90.0/24",
       "203.29.20.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:2400::/48",
       "2400:9c00::/32",
       "2405:c400:175::/48",

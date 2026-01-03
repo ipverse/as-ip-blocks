@@ -1,12 +1,15 @@
 {
-  "asn": 17950,
-  "handle": "SAINET-AS",
-  "description": "SaiNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17950,
+  "metadata" : {
+    "handle" : "SAINET-AS",
+    "description" : "SaiNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "113.208.0.0/18",
       "210.236.32.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

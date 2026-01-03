@@ -1,9 +1,12 @@
 {
-  "asn": 15723,
-  "handle": "AZERONLINE",
-  "description": "AZERONLINE LTD JOINT ENTERPRISE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15723,
+  "metadata" : {
+    "handle" : "AZERONLINE",
+    "description" : "AZERONLINE LTD JOINT ENTERPRISE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.178.4.0/22",
       "5.178.9.0/24",
       "5.178.10.0/23",
@@ -23,6 +26,6 @@
       "185.81.219.0/24",
       "188.64.8.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

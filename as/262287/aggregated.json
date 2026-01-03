@@ -1,9 +1,12 @@
 {
-  "asn": 262287,
-  "handle": "LATITUDESH",
-  "description": "Latitude.sh LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262287,
+  "metadata" : {
+    "handle" : "LATITUDESH",
+    "description" : "Latitude.sh LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.249.0/24",
       "2.57.171.0/24",
       "5.182.124.0/22",
@@ -233,7 +236,7 @@
       "206.232.80.0/22",
       "213.201.214.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fad4:3::/48",
       "2603:f100::/29",
       "2603:f300::/29",

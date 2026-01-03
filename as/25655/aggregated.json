@@ -1,9 +1,12 @@
 {
-  "asn": 25655,
-  "handle": "OSTK-COM",
-  "description": "Overstock.com",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25655,
+  "metadata" : {
+    "handle" : "OSTK-COM",
+    "description" : "Overstock.com",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.116.112.0/21",
       "173.241.144.0/22",
       "173.241.148.0/23",
@@ -12,6 +15,6 @@
       "173.241.156.0/23",
       "173.241.158.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

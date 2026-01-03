@@ -1,9 +1,12 @@
 {
-  "asn": 202468,
-  "handle": "ABRARVAN-AS",
-  "description": "Noyan Abr Arvan Co. ( Private Joint Stock)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202468,
+  "metadata" : {
+    "handle" : "ABRARVAN-AS",
+    "description" : "Noyan Abr Arvan Co. ( Private Joint Stock)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.32.0.0/23",
       "37.32.2.0/24",
       "37.32.4.0/22",
@@ -27,7 +30,7 @@
       "188.213.196.0/22",
       "193.176.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:3900::/29"
     ]
   }

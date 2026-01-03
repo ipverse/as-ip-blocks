@@ -1,13 +1,16 @@
 {
-  "asn": 38614,
-  "handle": "IDS-BD",
-  "description": "IDS Bangladesh",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38614,
+  "metadata" : {
+    "handle" : "IDS-BD",
+    "description" : "IDS Bangladesh",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.158.39.0/24",
       "117.103.80.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:f380::/44"
     ]
   }

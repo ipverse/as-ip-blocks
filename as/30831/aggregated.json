@@ -1,12 +1,15 @@
 {
-  "asn": 30831,
-  "handle": "MMK-AS",
-  "description": "LLC MMK-Informservice",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30831,
+  "metadata" : {
+    "handle" : "MMK-AS",
+    "description" : "LLC MMK-Informservice",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.16.208.0/23",
       "193.16.210.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 200129,
-  "handle": "LHISP",
-  "description": "LHISP S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200129,
+  "metadata" : {
+    "handle" : "LHISP",
+    "description" : "LHISP S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.36.180.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e860:180::/47"
     ]
   }

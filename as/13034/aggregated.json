@@ -1,12 +1,15 @@
 {
-  "asn": 13034,
-  "handle": "AS-PAGESJAUNES",
-  "description": "SOLOCAL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13034,
+  "metadata" : {
+    "handle" : "AS-PAGESJAUNES",
+    "description" : "SOLOCAL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.252.138.0/24",
       "193.252.242.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

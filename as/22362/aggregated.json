@@ -1,9 +1,12 @@
 {
-  "asn": 22362,
-  "handle": "GLOBALTELLINK-HNSS",
-  "description": "Global Tellink Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22362,
+  "metadata" : {
+    "handle" : "GLOBALTELLINK-HNSS",
+    "description" : "Global Tel-link Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.38.37.0/24",
       "38.135.72.0/24",
       "45.61.84.0/23",
@@ -15,6 +18,6 @@
       "72.20.152.0/24",
       "207.34.8.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

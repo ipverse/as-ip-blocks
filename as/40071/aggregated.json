@@ -1,11 +1,14 @@
 {
-  "asn": 40071,
-  "handle": "IDIRECT",
-  "description": "iDirect",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40071,
+  "metadata" : {
+    "handle" : "IDIRECT",
+    "description" : "iDirect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.180.159.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

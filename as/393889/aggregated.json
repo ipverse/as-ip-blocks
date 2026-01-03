@@ -1,9 +1,12 @@
 {
-  "asn": 393889,
-  "handle": "EIGHTJOY-NETWORK-LLC",
-  "description": "EightJoy Network LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393889,
+  "metadata" : {
+    "handle" : "EIGHTJOY-NETWORK-LLC",
+    "description" : "EightJoy Network LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.249.80.0/22",
       "103.40.160.0/22",
       "103.249.104.0/24",
@@ -11,6 +14,6 @@
       "202.58.104.0/23",
       "202.58.106.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

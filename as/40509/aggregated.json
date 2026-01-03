@@ -1,9 +1,12 @@
 {
-  "asn": 40509,
-  "handle": "FLY",
-  "description": "Fly.io Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40509,
+  "metadata" : {
+    "handle" : "FLY",
+    "description" : "Fly.io Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.16.0.0/19",
       "50.31.246.0/24",
       "66.51.120.0/21",
@@ -36,7 +39,7 @@
       "209.71.100.0/23",
       "213.188.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:8280:1::/48",
       "2a09:8280:13::/48",
       "2a09:8280:16::/48",

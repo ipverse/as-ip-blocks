@@ -1,13 +1,16 @@
 {
-  "asn": 32030,
-  "handle": "VOIPSTER",
-  "description": "VoIPster Communications INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32030,
+  "metadata" : {
+    "handle" : "VOIPSTER",
+    "description" : "VoIPster Communications INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.45.168.0/24",
       "192.40.140.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:128:7000::/48",
       "2620:128:7002::/47"
     ]

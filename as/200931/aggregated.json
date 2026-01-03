@@ -1,12 +1,15 @@
 {
-  "asn": 200931,
-  "handle": "LUMBERG",
-  "description": "Lumberg Connect GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200931,
+  "metadata" : {
+    "handle" : "LUMBERG",
+    "description" : "Lumberg Connect GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.91.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:8860::/32"
     ]
   }

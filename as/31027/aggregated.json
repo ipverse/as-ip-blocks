@@ -1,9 +1,12 @@
 {
-  "asn": 31027,
-  "handle": "GLOBALCONNECT-AS31027",
-  "description": "GlobalConnect A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31027,
+  "metadata" : {
+    "handle" : "GLOBALCONNECT-AS31027",
+    "description" : "GlobalConnect A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.56.144.0/20",
       "5.83.24.0/21",
       "5.179.80.0/20",
@@ -122,7 +125,7 @@
       "217.116.208.0/20",
       "217.195.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:97e0::/32",
       "2a00:b3a1::/32",
       "2a01:4f0::/32",

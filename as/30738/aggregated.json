@@ -1,14 +1,17 @@
 {
-  "asn": 30738,
-  "handle": "NETART-AS",
-  "description": "NetArt Group s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30738,
+  "metadata" : {
+    "handle" : "NETART-AS",
+    "description" : "NetArt Group s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "188.130.231.0/24",
       "195.211.53.0/24",
       "195.211.54.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1468::/33"
     ]
   }

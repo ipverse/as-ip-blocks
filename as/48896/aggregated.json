@@ -1,14 +1,17 @@
 {
-  "asn": 48896,
-  "handle": "DHOSTING-AS",
-  "description": "dhosting.pl Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48896,
+  "metadata" : {
+    "handle" : "DHOSTING-AS",
+    "description" : "dhosting.pl Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.95.152.0/21",
       "195.88.50.0/23",
       "195.191.232.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1c8::/48"
     ]
   }

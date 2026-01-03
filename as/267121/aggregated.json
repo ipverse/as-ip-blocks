@@ -1,9 +1,12 @@
 {
-  "asn": 267121,
-  "handle": "ATPLUS-TELECOM",
-  "description": "ATPlus Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267121,
+  "metadata" : {
+    "handle" : "ATPLUS-TELECOM",
+    "description" : "ATPlus Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.147.226.0/24",
       "45.229.104.0/22",
       "50.114.61.0/24",
@@ -13,7 +16,7 @@
       "177.10.89.0/24",
       "187.84.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4870::/32"
     ]
   }

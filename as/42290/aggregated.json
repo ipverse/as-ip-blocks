@@ -1,12 +1,15 @@
 {
-  "asn": 42290,
-  "handle": "TELCOVILLAGE",
-  "description": "TelcoVillage GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42290,
+  "metadata" : {
+    "handle" : "TELCOVILLAGE",
+    "description" : "TelcoVillage GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.48.196.0/24",
       "185.202.20.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

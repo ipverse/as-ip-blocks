@@ -1,12 +1,15 @@
 {
-  "asn": 2846,
-  "handle": "LUND-UNIVERSITY",
-  "description": "Lund University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2846,
+  "metadata" : {
+    "handle" : "LUND-UNIVERSITY",
+    "description" : "Lund University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.235.0.0/16",
       "194.71.128.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

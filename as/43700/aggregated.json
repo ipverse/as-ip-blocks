@@ -1,9 +1,12 @@
 {
-  "asn": 43700,
-  "handle": "CO-AS",
-  "description": "UAB Consilium Optimum",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43700,
+  "metadata" : {
+    "handle" : "CO-AS",
+    "description" : "UAB Consilium Optimum",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.102.4.0/22",
       "31.172.224.0/22",
       "45.84.244.0/22",
@@ -15,6 +18,6 @@
       "185.254.44.0/22",
       "216.25.0.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

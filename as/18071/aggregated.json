@@ -1,9 +1,12 @@
 {
-  "asn": 18071,
-  "handle": "MEI1",
-  "description": "Panasonic Information Systems Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18071,
+  "metadata" : {
+    "handle" : "MEI1",
+    "description" : "Panasonic Information Systems Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.182.0.0/16",
       "133.181.0.0/16",
       "133.182.0.0/16",
@@ -20,6 +23,6 @@
       "157.8.0.0/16",
       "202.244.202.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

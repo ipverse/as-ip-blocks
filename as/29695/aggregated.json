@@ -1,9 +1,12 @@
 {
-  "asn": 29695,
-  "handle": "ALTIBOX-AS",
-  "description": "Lyse Tele AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29695,
+  "metadata" : {
+    "handle" : "ALTIBOX-AS",
+    "description" : "Lyse Tele AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.172.182.0/24",
       "37.97.0.0/18",
       "44.32.135.0/24",
@@ -53,7 +56,7 @@
       "193.161.216.0/22",
       "213.167.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1500::/48",
       "2a00:dec0::/32",
       "2a00:fd00::/32",

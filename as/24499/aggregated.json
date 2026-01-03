@@ -1,9 +1,12 @@
 {
-  "asn": 24499,
-  "handle": "TPP-AS-PK",
-  "description": "Telenor Pakistan (Pvt) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24499,
+  "metadata" : {
+    "handle" : "TPP-AS-PK",
+    "description" : "Telenor Pakistan (Pvt) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.111.128.0/22",
       "37.111.132.0/24",
       "37.111.134.0/23",
@@ -26,7 +29,7 @@
       "202.69.12.0/23",
       "202.69.15.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:e000:1::/48",
       "2402:e000:2::/47",
       "2402:e000:a::/47",

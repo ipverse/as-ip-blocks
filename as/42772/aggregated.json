@@ -1,9 +1,12 @@
 {
-  "asn": 42772,
-  "handle": "A1-BY-AS",
-  "description": "Unitary enterprise A1",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42772,
+  "metadata" : {
+    "handle" : "A1-BY-AS",
+    "description" : "Unitary enterprise A1",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.17.0.0/17",
       "46.53.128.0/18",
       "46.53.192.0/22",
@@ -111,7 +114,7 @@
       "217.21.59.0/24",
       "217.21.60.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1760::/30",
       "2a00:1765::/32",
       "2a03:3000::/32"

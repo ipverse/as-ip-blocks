@@ -1,13 +1,16 @@
 {
-  "asn": 215686,
-  "handle": "EDELSKJOLDHOLDING",
-  "description": "Edelskjold Holding ApS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215686,
+  "metadata" : {
+    "handle" : "EDELSKJOLDHOLDING",
+    "description" : "Edelskjold Holding ApS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.229.236.0/24",
       "194.39.242.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:dd00::/29"
     ]
   }

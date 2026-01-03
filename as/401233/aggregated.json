@@ -1,13 +1,16 @@
 {
-  "asn": 401233,
-  "handle": "ALLIANCE-BROADBAND",
-  "description": "Alliance Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401233,
+  "metadata" : {
+    "handle" : "ALLIANCE-BROADBAND",
+    "description" : "Alliance Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.183.200.0/24",
       "130.51.124.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:c240::/32"
     ]
   }

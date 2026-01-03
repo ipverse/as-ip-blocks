@@ -1,14 +1,17 @@
 {
-  "asn": 400136,
-  "handle": "VOLTBROADBAND-01",
-  "description": "Volt Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400136,
+  "metadata" : {
+    "handle" : "VOLTBROADBAND-01",
+    "description" : "Volt Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.149.32.0/19",
       "98.143.148.0/22",
       "98.143.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:b140::/32"
     ]
   }

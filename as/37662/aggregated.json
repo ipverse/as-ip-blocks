@@ -1,9 +1,12 @@
 {
-  "asn": 37662,
-  "handle": "WIOCC-AS",
-  "description": "West Indian Ocean Cable Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37662,
+  "metadata" : {
+    "handle" : "WIOCC-AS",
+    "description" : "West Indian Ocean Cable Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.68.112.0/21",
       "102.134.16.0/21",
       "102.209.28.0/22",
@@ -11,7 +14,7 @@
       "154.66.240.0/21",
       "196.250.232.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43f8:1150::/47",
       "2c0f:ef68::/32",
       "2c0f:f3e8::/32",

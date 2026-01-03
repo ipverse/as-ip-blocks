@@ -1,13 +1,16 @@
 {
-  "asn": 16108,
-  "handle": "DEUTSCHES-INSTITUT-FUER",
-  "description": "Deutsches Institut fuer Normung e.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16108,
+  "metadata" : {
+    "handle" : "DEUTSCHES-INSTITUT-FUER",
+    "description" : "Deutsches Institut fuer Normung e.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.16.168.0/21",
       "193.16.176.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:540::/48"
     ]
   }

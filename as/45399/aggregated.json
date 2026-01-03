@@ -1,9 +1,12 @@
 {
-  "asn": 45399,
-  "handle": "KAL-AS",
-  "description": "Hanjin Information Systems Telecommunication Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45399,
+  "metadata" : {
+    "handle" : "KAL-AS",
+    "description" : "Hanjin Information Systems Telecommunication Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.226.213.0/24",
       "59.15.10.0/24",
       "114.204.123.0/24",
@@ -19,6 +22,6 @@
       "211.210.94.0/24",
       "219.251.140.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

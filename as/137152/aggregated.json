@@ -1,12 +1,15 @@
 {
-  "asn": 137152,
-  "handle": "APNETCOM-AS",
-  "description": "Ap Netcom Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137152,
+  "metadata" : {
+    "handle" : "APNETCOM-AS",
+    "description" : "Ap Netcom Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.102.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:1fc0::/48"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 58655,
-  "handle": "SKYTEL6-BD",
-  "description": "SkyTel Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58655,
+  "metadata" : {
+    "handle" : "SKYTEL6-BD",
+    "description" : "SkyTel Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.12.172.0/22",
       "182.252.94.0/23",
       "220.152.112.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:7500::/32"
     ]
   }

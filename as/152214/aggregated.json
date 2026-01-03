@@ -1,9 +1,12 @@
 {
-  "asn": 152214,
-  "handle": "KOREANAIRLINES-AS",
-  "description": "Korean Air Lines",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152214,
+  "metadata" : {
+    "handle" : "KOREANAIRLINES-AS",
+    "description" : "Korean Air Lines",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "121.128.97.0/24",
       "121.131.216.0/24",
       "175.123.175.0/24",
@@ -18,6 +21,6 @@
       "211.218.15.0/24",
       "221.147.50.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

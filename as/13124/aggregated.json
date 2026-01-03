@@ -1,9 +1,12 @@
 {
-  "asn": 13124,
-  "handle": "A1BG-RSD",
-  "description": "A1 Bulgaria EAD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13124,
+  "metadata" : {
+    "handle" : "A1BG-RSD",
+    "description" : "A1 Bulgaria EAD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.53.128.0/19",
       "5.53.160.0/20",
       "5.53.177.0/24",
@@ -185,7 +188,7 @@
       "217.18.253.0/24",
       "217.18.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4800:a0::/44",
       "2a00:4800:e0::/44",
       "2a00:4800:1a0::/44",

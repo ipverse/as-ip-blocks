@@ -1,9 +1,12 @@
 {
-  "asn": 57099,
-  "handle": "BCL-AS",
-  "description": "Boundless Networks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57099,
+  "metadata" : {
+    "handle" : "BCL-AS",
+    "description" : "Boundless Networks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.133.172.0/22",
       "46.231.8.0/21",
       "85.95.32.0/19",
@@ -20,6 +23,6 @@
       "185.168.144.0/22",
       "209.35.128.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

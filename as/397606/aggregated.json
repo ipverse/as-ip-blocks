@@ -1,9 +1,12 @@
 {
-  "asn": 397606,
-  "handle": "CROWSNEST-BROADBAND-LLC",
-  "description": "Crowsnest Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397606,
+  "metadata" : {
+    "handle" : "CROWSNEST-BROADBAND-LLC",
+    "description" : "Crowsnest Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.52.102.0/23",
       "66.118.49.0/24",
       "130.51.152.0/22",
@@ -15,7 +18,7 @@
       "208.94.224.0/24",
       "216.152.68.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:4940::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 401612,
-  "handle": "HUENET",
-  "description": "hueNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401612,
+  "metadata" : {
+    "handle" : "HUENET",
+    "description" : "hueNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.179.216.0/24",
       "205.189.203.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fb87::/47"
     ]
   }

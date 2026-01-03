@@ -1,14 +1,17 @@
 {
-  "asn": 212701,
-  "handle": "HOSTINUX-AS",
-  "description": "Hostinux Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212701,
+  "metadata" : {
+    "handle" : "HOSTINUX-AS",
+    "description" : "Hostinux Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.45.198.0/23",
       "147.45.218.0/24",
       "185.149.146.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:d940:12::/48"
     ]
   }

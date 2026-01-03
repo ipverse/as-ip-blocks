@@ -1,12 +1,15 @@
 {
-  "asn": 47485,
-  "handle": "STARNET-AS",
-  "description": "Starnet LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47485,
+  "metadata" : {
+    "handle" : "STARNET-AS",
+    "description" : "Starnet LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.28.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:dc0::/32"
     ]
   }

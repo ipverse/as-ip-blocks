@@ -1,12 +1,15 @@
 {
-  "asn": 201115,
-  "handle": "PYLONONE",
-  "description": "Pylon One Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201115,
+  "metadata" : {
+    "handle" : "PYLONONE",
+    "description" : "Pylon One Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.157.175.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:3840::/39"
     ]
   }

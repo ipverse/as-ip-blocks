@@ -1,11 +1,17 @@
 {
-  "asn": 215887,
-  "handle": "BARAGOON",
-  "description": "Serhiy Bobrov",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
-      "2a06:de06:e660::/44"
+  "asn" : 215887,
+  "metadata" : {
+    "handle" : "BARAGOON",
+    "description" : "Serhiy Bobrov",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
+      "2a06:de06:e660::/45",
+      "2a06:de06:e668::/47",
+      "2a06:de06:e66b::/48",
+      "2a06:de06:e66c::/46"
     ]
   }
 }

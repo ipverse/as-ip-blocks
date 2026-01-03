@@ -1,13 +1,16 @@
 {
-  "asn": 203701,
-  "handle": "ROCKET-AS",
-  "description": "RocketConnect OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203701,
+  "metadata" : {
+    "handle" : "ROCKET-AS",
+    "description" : "RocketConnect OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.54.166.0/23",
       "202.122.129.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:e200:40::/48"
     ]
   }

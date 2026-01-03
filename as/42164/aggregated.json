@@ -1,11 +1,14 @@
 {
-  "asn": 42164,
-  "handle": "DSNS",
-  "description": "State Service of Ukraine for Emergencies",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42164,
+  "metadata" : {
+    "handle" : "DSNS",
+    "description" : "State Service of Ukraine for Emergencies",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.0.148.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

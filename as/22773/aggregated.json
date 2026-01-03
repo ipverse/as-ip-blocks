@@ -1,9 +1,12 @@
 {
-  "asn": 22773,
-  "handle": "ASN-CXA-ALL-CCI-22773-RDC",
-  "description": "Cox Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22773,
+  "metadata" : {
+    "handle" : "ASN-CXA-ALL-CCI-22773-RDC",
+    "description" : "Cox Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.88.0/22",
       "5.249.176.0/22",
       "12.195.15.0/24",
@@ -380,7 +383,7 @@
       "216.231.0.0/19",
       "216.247.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:578::/30",
       "2600:8800::/28",
       "2602:f6bf:f1::/48",

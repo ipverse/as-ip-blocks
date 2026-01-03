@@ -1,9 +1,12 @@
 {
-  "asn": 43533,
-  "handle": "ASGALSTELECOM",
-  "description": "OOO Gals Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43533,
+  "metadata" : {
+    "handle" : "ASGALSTELECOM",
+    "description" : "OOO Gals Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.148.100.0/22",
       "31.148.144.0/22",
       "91.231.56.0/22",
@@ -18,6 +21,6 @@
       "146.158.20.0/22",
       "146.158.28.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

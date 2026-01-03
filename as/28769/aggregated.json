@@ -1,9 +1,12 @@
 {
-  "asn": 28769,
-  "handle": "STTK-AS",
-  "description": "Joint Stock Company TransTeleCom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28769,
+  "metadata" : {
+    "handle" : "STTK-AS",
+    "description" : "Joint Stock Company TransTeleCom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.216.161.0/24",
       "31.216.166.0/23",
       "46.166.66.0/23",
@@ -19,7 +22,7 @@
       "93.188.208.0/23",
       "93.188.210.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:e0c0::/31"
     ]
   }

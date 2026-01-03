@@ -1,12 +1,15 @@
 {
-  "asn": 204841,
-  "handle": "AVSYSTEM-AS",
-  "description": "AVSystem sp. z o. o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204841,
+  "metadata" : {
+    "handle" : "AVSYSTEM-AS",
+    "description" : "AVSystem sp. z o. o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.12.252.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:a005:434::/48",
       "2a0e:97c0:d30::/44",
       "2a0e:97c0:d40::/44"

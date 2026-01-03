@@ -1,9 +1,12 @@
 {
-  "asn": 61400,
-  "handle": "NETRACK-AS",
-  "description": "Start2 LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61400,
+  "metadata" : {
+    "handle" : "NETRACK-AS",
+    "description" : "Start2 LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.140.40.0/24",
       "31.200.248.0/21",
       "37.0.120.0/21",
@@ -37,7 +40,7 @@
       "217.199.220.0/23",
       "217.199.223.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:220::/32",
       "2a03:5a00:7::/48",
       "2a05:b7c0::/48"

@@ -1,9 +1,12 @@
 {
-  "asn": 10753,
-  "handle": "LUMEN-LEGACY-L3-CUSTOMER-SHARED-USE",
-  "description": "Level 3 Parent LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10753,
+  "metadata" : {
+    "handle" : "LUMEN-LEGACY-L3-CUSTOMER-SHARED-USE",
+    "description" : "Level 3 Parent LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.41.8.0/24",
       "8.41.85.0/24",
       "8.242.1.0/24",
@@ -442,7 +445,7 @@
       "217.163.91.0/24",
       "223.29.227.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:428:b26::/48",
       "2001:13b0:8018::/48",
       "2001:13b2:9004::/47",

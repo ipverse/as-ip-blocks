@@ -1,13 +1,16 @@
 {
-  "asn": 215234,
-  "handle": "UBIZWAN",
-  "description": "UBIZWAN SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215234,
+  "metadata" : {
+    "handle" : "UBIZWAN",
+    "description" : "UBIZWAN SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.102.118.0/23",
       "194.0.59.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:2e40::/29"
     ]
   }

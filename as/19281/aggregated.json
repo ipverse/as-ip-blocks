@@ -1,16 +1,19 @@
 {
-  "asn": 19281,
-  "handle": "QUAD9-AS-1",
-  "description": "Quad9",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19281,
+  "metadata" : {
+    "handle" : "QUAD9-AS-1",
+    "description" : "Quad9",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "9.9.9.0/24",
       "147.72.242.0/24",
       "149.112.112.0/24",
       "149.112.149.0/24",
       "199.249.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:fe::/48"
     ]
   }

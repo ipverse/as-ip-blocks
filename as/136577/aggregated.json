@@ -1,13 +1,16 @@
 {
-  "asn": 136577,
-  "handle": "SIPTALK-AS-AP",
-  "description": "Siptalk Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136577,
+  "metadata" : {
+    "handle" : "SIPTALK-AS-AP",
+    "description" : "Siptalk Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.93.68.0/22",
       "163.47.108.0/24",
       "163.47.111.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

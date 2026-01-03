@@ -1,9 +1,12 @@
 {
-  "asn": 37183,
-  "handle": "UTANDE",
-  "description": "Utande Internet Services (Pvt) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37183,
+  "metadata" : {
+    "handle" : "UTANDE",
+    "description" : "Utande Internet Services (Pvt) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.85.192.0/21",
       "41.85.201.0/24",
       "41.85.208.0/20",
@@ -11,7 +14,7 @@
       "196.29.32.0/21",
       "196.43.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43f0::/32"
     ]
   }

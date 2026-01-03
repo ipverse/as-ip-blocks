@@ -1,16 +1,19 @@
 {
-  "asn": 62119,
-  "handle": "ROOT-FR",
-  "description": "root SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62119,
+  "metadata" : {
+    "handle" : "ROOT-FR",
+    "description" : "root SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.193.91.0/24",
       "95.131.205.0/24",
       "185.244.160.0/24",
       "194.6.253.0/24",
       "194.147.97.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:42c0::/29"
     ]
   }

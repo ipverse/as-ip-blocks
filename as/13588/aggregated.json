@@ -1,9 +1,12 @@
 {
-  "asn": 13588,
-  "handle": "PAYCHEX",
-  "description": "Paychex Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13588,
+  "metadata" : {
+    "handle" : "PAYCHEX",
+    "description" : "Paychex Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.123.7.0/24",
       "141.123.10.0/23",
       "141.123.13.0/24",
@@ -29,6 +32,6 @@
       "141.123.240.0/22",
       "141.123.244.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

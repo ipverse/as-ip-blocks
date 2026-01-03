@@ -1,9 +1,12 @@
 {
-  "asn": 37717,
-  "handle": "EL-KHAWARIZMI",
-  "description": "Centre de Calcul El Khawarizmi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37717,
+  "metadata" : {
+    "handle" : "EL-KHAWARIZMI",
+    "description" : "Centre de Calcul El Khawarizmi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.229.0.0/16",
       "164.160.0.0/22",
       "193.95.30.0/23",
@@ -17,6 +20,6 @@
       "196.203.128.0/21",
       "196.203.190.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 200807,
-  "handle": "SLEEPLESS-IE-AS",
-  "description": "Sleepless Server Solutions Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200807,
+  "metadata" : {
+    "handle" : "SLEEPLESS-IE-AS",
+    "description" : "Sleepless Server Solutions Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.31.212.0/23",
       "185.173.164.0/23",
       "185.173.166.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:4f00::/32"
     ]
   }

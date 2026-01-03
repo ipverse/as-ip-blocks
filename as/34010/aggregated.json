@@ -1,9 +1,12 @@
 {
-  "asn": 34010,
-  "handle": "YAHOO-IRD",
-  "description": "Yahoo-UK Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34010,
+  "metadata" : {
+    "handle" : "YAHOO-IRD",
+    "description" : "Yahoo-UK Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.228.32.0/20",
       "77.238.160.0/22",
       "77.238.176.0/22",
@@ -20,7 +23,7 @@
       "217.12.8.0/21",
       "217.146.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1288:110::/46",
       "2a00:1288:1a8::/46",
       "2a00:1288:ef6a::/48",

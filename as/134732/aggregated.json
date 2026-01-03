@@ -1,9 +1,12 @@
 {
-  "asn": 134732,
-  "handle": "DOTINTERNET-AS-AP",
-  "description": "Dot Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134732,
+  "metadata" : {
+    "handle" : "DOTINTERNET-AS-AP",
+    "description" : "Dot Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.248.148.0/22",
       "59.153.100.0/22",
       "103.72.212.0/24",
@@ -18,7 +21,7 @@
       "163.61.240.0/23",
       "165.101.132.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:f40::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 211517,
-  "handle": "AS-WILDBERRIES-GE",
-  "description": "LLC Wildberries",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211517,
+  "metadata" : {
+    "handle" : "AS-WILDBERRIES-GE",
+    "description" : "LLC Wildberries",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "90.156.245.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:720:70::/48",
       "2a03:720:1070::/48"
     ]

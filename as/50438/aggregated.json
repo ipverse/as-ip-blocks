@@ -1,13 +1,16 @@
 {
-  "asn": 50438,
-  "handle": "FLYNET-NET",
-  "description": "Flynet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50438,
+  "metadata" : {
+    "handle" : "FLYNET-NET",
+    "description" : "Flynet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.170.28.0/22",
       "178.172.168.0/22",
       "193.58.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

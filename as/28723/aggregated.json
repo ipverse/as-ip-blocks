@@ -1,9 +1,12 @@
 {
-  "asn": 28723,
-  "handle": "NOKIA-INDIA",
-  "description": "Nokia Oyj",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28723,
+  "metadata" : {
+    "handle" : "NOKIA-INDIA",
+    "description" : "Nokia Oyj",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.254.204.0/23",
       "87.254.206.0/24",
       "93.183.16.0/23",
@@ -21,7 +24,7 @@
       "135.250.171.0/24",
       "135.250.242.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8a00:a000::/36",
       "2a00:8a03::/43",
       "2a00:8a03:8000::/43",

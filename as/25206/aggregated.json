@@ -1,9 +1,12 @@
 {
-  "asn": 25206,
-  "handle": "UNACS-AS-BG",
-  "description": "Unacs - Yuri Jordanov Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25206,
+  "metadata" : {
+    "handle" : "UNACS-AS-BG",
+    "description" : "Unacs - Yuri Jordanov Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.35.170.0/23",
       "79.134.172.0/22",
       "79.134.183.0/24",
@@ -15,6 +18,6 @@
       "95.158.168.0/24",
       "185.230.244.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

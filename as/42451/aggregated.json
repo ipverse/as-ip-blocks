@@ -1,12 +1,15 @@
 {
-  "asn": 42451,
-  "handle": "SSN-AS",
-  "description": "Limited Company Sakha Sprint Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42451,
+  "metadata" : {
+    "handle" : "SSN-AS",
+    "description" : "Limited Company Sakha Sprint Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.242.0.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5c40::/32"
     ]
   }

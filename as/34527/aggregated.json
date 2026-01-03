@@ -1,12 +1,15 @@
 {
-  "asn": 34527,
-  "handle": "NETFORT-AS",
-  "description": "LLC NETFORT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34527,
+  "metadata" : {
+    "handle" : "NETFORT-AS",
+    "description" : "LLC NETFORT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.184.164.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:d800::/29"
     ]
   }

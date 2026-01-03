@@ -1,9 +1,12 @@
 {
-  "asn": 8402,
-  "handle": "CORBINA-AS",
-  "description": "PJSC Vimpelcom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8402,
+  "metadata" : {
+    "handle" : "CORBINA-AS",
+    "description" : "PJSC Vimpelcom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.92.0.0/14",
       "37.144.0.0/14",
       "62.205.160.0/19",
@@ -23,7 +26,7 @@
       "195.14.32.0/19",
       "213.234.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:18c0::/32"
     ]
   }

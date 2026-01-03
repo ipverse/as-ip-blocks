@@ -1,9 +1,12 @@
 {
-  "asn": 51964,
-  "handle": "ORANGE-BUSINESS-SERVICES-IPSN-ASN",
-  "description": "ORANGE BUSINESS SERVICES U.S. Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51964,
+  "metadata" : {
+    "handle" : "ORANGE-BUSINESS-SERVICES-IPSN-ASN",
+    "description" : "ORANGE BUSINESS SERVICES U.S. Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.9.52.0/22",
       "57.66.0.0/15",
       "57.68.0.0/15",
@@ -100,7 +103,7 @@
       "206.48.245.0/24",
       "206.160.177.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:ce80::/35",
       "2a01:ce80:2000::/36",
       "2a01:ce82::/36",

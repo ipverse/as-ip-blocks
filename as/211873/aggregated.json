@@ -1,13 +1,16 @@
 {
-  "asn": 211873,
-  "handle": "MERSEBURG",
-  "description": "Stadtwerke Merseburg GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211873,
+  "metadata" : {
+    "handle" : "MERSEBURG",
+    "description" : "Stadtwerke Merseburg GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.105.40.0/22",
       "185.149.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:34c0::/29"
     ]
   }

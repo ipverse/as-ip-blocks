@@ -1,9 +1,12 @@
 {
-  "asn": 39806,
-  "handle": "ADMAX",
-  "description": "Admax AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39806,
+  "metadata" : {
+    "handle" : "ADMAX",
+    "description" : "Admax AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.21.72.0/21",
       "185.88.136.0/22",
       "185.166.232.0/23",
@@ -15,7 +18,7 @@
       "195.190.154.0/24",
       "195.190.157.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:780::/29",
       "2a0b:2200::/29",
       "2a0f:c140::/29"

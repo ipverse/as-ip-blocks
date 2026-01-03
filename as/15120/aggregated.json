@@ -1,11 +1,14 @@
 {
-  "asn": 15120,
-  "handle": "RHS-AS",
-  "description": "Rockford Health System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15120,
+  "metadata" : {
+    "handle" : "RHS-AS",
+    "description" : "Rockford Health System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.190.160.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

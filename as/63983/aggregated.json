@@ -1,13 +1,16 @@
 {
-  "asn": 63983,
-  "handle": "QLDHEALTH-AS-AP",
-  "description": "Queensland Health",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63983,
+  "metadata" : {
+    "handle" : "QLDHEALTH-AS-AP",
+    "description" : "Queensland Health",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.86.40.0/21",
       "165.86.71.0/24",
       "165.86.81.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

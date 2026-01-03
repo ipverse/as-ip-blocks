@@ -1,9 +1,12 @@
 {
-  "asn": 6127,
-  "handle": "IDSC",
-  "description": "IDSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6127,
+  "metadata" : {
+    "handle" : "IDSC",
+    "description" : "IDSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.121.6.0/24",
       "163.121.8.0/23",
       "163.121.10.0/24",
@@ -28,6 +31,6 @@
       "163.121.84.0/24",
       "163.121.126.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

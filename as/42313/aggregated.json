@@ -1,14 +1,17 @@
 {
-  "asn": 42313,
-  "handle": "ONEALBANIA-AS",
-  "description": "ONE ALBANIA SH.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42313,
+  "metadata" : {
+    "handle" : "ONEALBANIA-AS",
+    "description" : "ONE ALBANIA SH.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.106.0.0/16",
       "185.171.144.0/22",
       "217.24.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:fdc0::/29"
     ]
   }

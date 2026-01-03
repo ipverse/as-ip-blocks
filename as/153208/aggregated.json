@@ -1,12 +1,15 @@
 {
-  "asn": 153208,
-  "handle": "NBNL-AS-IN",
-  "description": "NBNL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153208,
+  "metadata" : {
+    "handle" : "NBNL-AS-IN",
+    "description" : "NBNL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.187.42.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:c260::/32"
     ]
   }

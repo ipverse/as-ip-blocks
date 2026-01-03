@@ -1,9 +1,12 @@
 {
-  "asn": 3223,
-  "handle": "VOXILITY",
-  "description": "Voxility LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3223,
+  "metadata" : {
+    "handle" : "VOXILITY",
+    "description" : "Voxility LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.254.1.0/24",
       "5.254.2.0/23",
       "5.254.5.0/24",
@@ -84,7 +87,7 @@
       "206.123.143.0/24",
       "206.123.150.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:b30::/48",
       "2602:ff84:8::/48",
       "2a03:5180::/45",

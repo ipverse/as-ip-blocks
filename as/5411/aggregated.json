@@ -1,9 +1,12 @@
 {
-  "asn": 5411,
-  "handle": "TIETOEVRY-OYJ",
-  "description": "Tietoevry Oyj",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5411,
+  "metadata" : {
+    "handle" : "TIETOEVRY-OYJ",
+    "description" : "Tietoevry Oyj",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.196.160.0/19",
       "93.190.198.0/23",
       "145.251.0.0/16",
@@ -27,7 +30,7 @@
       "194.132.39.0/24",
       "213.153.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6d00::/32",
       "2a03:9b80:4000::/34"
     ]

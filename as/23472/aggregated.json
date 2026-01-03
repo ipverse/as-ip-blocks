@@ -1,13 +1,16 @@
 {
-  "asn": 23472,
-  "handle": "SONICWALL-BGP",
-  "description": "SonicWALL Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23472,
+  "metadata" : {
+    "handle" : "SONICWALL-BGP",
+    "description" : "SonicWALL Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.237.243.0/24",
       "67.115.118.0/24",
       "173.240.220.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

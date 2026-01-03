@@ -1,12 +1,15 @@
 {
-  "asn": 398728,
-  "handle": "TERAVITY-AS",
-  "description": "Teravity Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398728,
+  "metadata" : {
+    "handle" : "TERAVITY-AS",
+    "description" : "Teravity Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.10.134.0/24",
       "199.87.252.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

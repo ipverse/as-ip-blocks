@@ -1,13 +1,16 @@
 {
-  "asn": 209823,
-  "handle": "ENKI-AS",
-  "description": "Enki Multimedia EURL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209823,
+  "metadata" : {
+    "handle" : "ENKI-AS",
+    "description" : "Enki Multimedia EURL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.144.32.0/23",
       "195.24.245.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:5541:1::/48",
       "2a12:5541:2::/48",
       "2a12:5541:a::/48",

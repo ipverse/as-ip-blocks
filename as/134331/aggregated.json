@@ -1,9 +1,12 @@
 {
-  "asn": 134331,
-  "handle": "SLSPL-AS",
-  "description": "Smartlink Solutions Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134331,
+  "metadata" : {
+    "handle" : "SLSPL-AS",
+    "description" : "Smartlink Solutions Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.254.32.0/22",
       "103.48.104.0/22",
       "103.79.32.0/22",
@@ -14,7 +17,7 @@
       "161.248.64.0/23",
       "220.158.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:dc40::/32"
     ]
   }

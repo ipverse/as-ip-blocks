@@ -1,9 +1,12 @@
 {
-  "asn": 200760,
-  "handle": "ELOGIC-AS",
-  "description": "Dinova Srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200760,
+  "metadata" : {
+    "handle" : "ELOGIC-AS",
+    "description" : "Dinova Srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.239.20.0/23",
       "185.68.190.0/23",
       "185.96.204.0/22",
@@ -12,7 +15,7 @@
       "185.198.252.0/22",
       "194.110.16.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:100::/32"
     ]
   }

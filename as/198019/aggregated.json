@@ -1,11 +1,14 @@
 {
-  "asn": 198019,
-  "handle": "WARBA-AS",
-  "description": "Warba Bank (KSC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198019,
+  "metadata" : {
+    "handle" : "WARBA-AS",
+    "description" : "Warba Bank (KSC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.230.213.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

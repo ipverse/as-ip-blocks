@@ -1,9 +1,12 @@
 {
-  "asn": 29691,
-  "handle": "NINE",
-  "description": "Nine Internet Solutions AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29691,
+  "metadata" : {
+    "handle" : "NINE",
+    "description" : "Nine Internet Solutions AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.148.160.0/19",
       "45.9.160.0/23",
       "45.9.162.0/24",
@@ -16,7 +19,7 @@
       "203.56.112.0/23",
       "217.150.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2f98::/48",
       "2a02:418::/29",
       "2a14:3e40::/32"

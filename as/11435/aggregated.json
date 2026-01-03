@@ -1,12 +1,15 @@
 {
-  "asn": 11435,
-  "handle": "BENEVA-1",
-  "description": "Beneva",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11435,
+  "metadata" : {
+    "handle" : "BENEVA-1",
+    "description" : "Beneva",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.33.200.0/23",
       "204.19.212.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

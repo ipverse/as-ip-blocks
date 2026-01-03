@@ -1,9 +1,12 @@
 {
-  "asn": 6195,
-  "handle": "GSCO",
-  "description": "The Goldman Sachs Group Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6195,
+  "metadata" : {
+    "handle" : "GSCO",
+    "description" : "The Goldman Sachs Group Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.26.53.0/24",
       "138.8.24.0/23",
       "138.8.209.0/24",
@@ -18,6 +21,6 @@
       "207.17.45.0/24",
       "216.35.59.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

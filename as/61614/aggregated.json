@@ -1,13 +1,16 @@
 {
-  "asn": 61614,
-  "handle": "67-TELECOM",
-  "description": "67 TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61614,
+  "metadata" : {
+    "handle" : "67-TELECOM",
+    "description" : "67 TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.232.212.0/22",
       "168.227.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4afc::/32"
     ]
   }

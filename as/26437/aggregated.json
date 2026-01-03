@@ -1,9 +1,12 @@
 {
-  "asn": 26437,
-  "handle": "TCH-AS",
-  "description": "THE CLEARING HOUSE PAYMENTS COMPANY L.L.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26437,
+  "metadata" : {
+    "handle" : "TCH-AS",
+    "description" : "THE CLEARING HOUSE PAYMENTS COMPANY L.L.C.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.233.99.0/24",
       "65.115.14.0/24",
       "65.119.202.0/24",
@@ -11,6 +14,6 @@
       "208.47.196.0/24",
       "209.45.163.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 42161,
-  "handle": "TEPUCOM-AS",
-  "description": "Legaco Networks B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42161,
+  "metadata" : {
+    "handle" : "TEPUCOM-AS",
+    "description" : "Legaco Networks B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.252.128.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

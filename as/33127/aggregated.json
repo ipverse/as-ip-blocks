@@ -1,9 +1,12 @@
 {
-  "asn": 33127,
-  "handle": "ISCORP-MEQUON",
-  "description": "Integrated Systems Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33127,
+  "metadata" : {
+    "handle" : "ISCORP-MEQUON",
+    "description" : "Integrated Systems Corp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.12.72.0/24",
       "64.132.91.0/24",
       "66.195.143.0/24",
@@ -14,7 +17,7 @@
       "192.222.0.0/24",
       "207.250.48.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:f1c0:3000::/40",
       "2605:f1c0:3200::/40"
     ]

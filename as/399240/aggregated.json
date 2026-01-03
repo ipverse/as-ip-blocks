@@ -1,9 +1,12 @@
 {
-  "asn": 399240,
-  "handle": "BLUE-RIDGE-INTERNET",
-  "description": "BLUE RIDGE INTERNET L.L.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399240,
+  "metadata" : {
+    "handle" : "BLUE-RIDGE-INTERNET",
+    "description" : "BLUE RIDGE INTERNET L.L.C",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.42.147.0/24",
       "12.188.33.0/24",
       "12.215.232.0/24",
@@ -11,6 +14,6 @@
       "205.164.242.0/24",
       "206.168.160.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

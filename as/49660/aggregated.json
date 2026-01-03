@@ -1,11 +1,14 @@
 {
-  "asn": 49660,
-  "handle": "FHCAMPUS-AS",
-  "description": "FH Campus Wien",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49660,
+  "metadata" : {
+    "handle" : "FHCAMPUS-AS",
+    "description" : "FH Campus Wien",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.213.77.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

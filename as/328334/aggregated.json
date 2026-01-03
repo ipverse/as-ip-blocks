@@ -1,12 +1,15 @@
 {
-  "asn": 328334,
-  "handle": "PHOENIXQUEST-AS",
-  "description": "The Phoenix Quest II cc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328334,
+  "metadata" : {
+    "handle" : "PHOENIXQUEST-AS",
+    "description" : "The Phoenix Quest II cc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.134.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:ef30::/32"
     ]
   }

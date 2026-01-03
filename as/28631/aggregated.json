@@ -1,12 +1,15 @@
 {
-  "asn": 28631,
-  "handle": "BANRISUL-BANCO-RIO-GRANDE-SUL",
-  "description": "Banrisul - Banco do Estado do Rio Grande do Sul",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28631,
+  "metadata" : {
+    "handle" : "BANRISUL-BANCO-RIO-GRANDE-SUL",
+    "description" : "Banrisul - Banco do Estado do Rio Grande do Sul",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "201.55.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:80:280::/48"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 138522,
-  "handle": "CHOCOLATE-BROADBAND-AS-AP",
-  "description": "Chocolate Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138522,
+  "metadata" : {
+    "handle" : "CHOCOLATE-BROADBAND-AS-AP",
+    "description" : "Chocolate Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.127.176.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

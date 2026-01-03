@@ -1,13 +1,16 @@
 {
-  "asn": 47266,
-  "handle": "NRG-AS",
-  "description": "Telecompany Energy LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47266,
+  "metadata" : {
+    "handle" : "NRG-AS",
+    "description" : "Telecompany Energy LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.204.36.0/22",
       "91.225.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:fc00:e003::/48"
     ]
   }

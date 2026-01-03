@@ -1,15 +1,18 @@
 {
-  "asn": 39399,
-  "handle": "FENIXVT-AS",
-  "description": "Private Enterprise Firma Fenix VT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39399,
+  "metadata" : {
+    "handle" : "FENIXVT-AS",
+    "description" : "Private Enterprise Firma Fenix VT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.199.194.0/24",
       "91.215.24.0/22",
       "178.215.176.0/20",
       "195.182.192.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2280::/48"
     ]
   }

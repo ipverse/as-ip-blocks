@@ -1,15 +1,18 @@
 {
-  "asn": 134772,
-  "handle": "CHINANET-GUANGDONG-DONGGUAN-MAN",
-  "description": "CHINANET Guangdong province Dongguan MAN network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134772,
+  "metadata" : {
+    "handle" : "CHINANET-GUANGDONG-DONGGUAN-MAN",
+    "description" : "CHINANET Guangdong province Dongguan MAN network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.249.212.0/22",
       "103.218.216.0/22",
       "202.173.224.0/19",
       "211.148.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:fc:7000::/36",
       "240e:fc:8000::/34",
       "240e:fc:c000::/35",

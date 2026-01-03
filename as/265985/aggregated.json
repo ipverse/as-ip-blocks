@@ -1,12 +1,15 @@
 {
-  "asn": 265985,
-  "handle": "MELNET-PROVEDOR",
-  "description": "MELNET PROVEDOR",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265985,
+  "metadata" : {
+    "handle" : "MELNET-PROVEDOR",
+    "description" : "MELNET PROVEDOR",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.196.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:40d8::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 57968,
-  "handle": "MOFA",
-  "description": "Ministry of Foreign Affairs",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57968,
+  "metadata" : {
+    "handle" : "MOFA",
+    "description" : "Ministry of Foreign Affairs",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.198.251.0/24",
       "195.47.234.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

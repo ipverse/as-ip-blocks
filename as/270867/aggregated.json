@@ -1,12 +1,15 @@
 {
-  "asn": 270867,
-  "handle": "PERTO-NETWORK",
-  "description": "Perto Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270867,
+  "metadata" : {
+    "handle" : "PERTO-NETWORK",
+    "description" : "Perto Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.43.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:72a8::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 5606,
-  "handle": "GTS-BACKBONE",
-  "description": "GTS Telecom SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5606,
+  "metadata" : {
+    "handle" : "GTS-BACKBONE",
+    "description" : "GTS Telecom SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.35.208.0/21",
       "31.14.21.0/24",
       "37.156.182.0/23",
@@ -102,7 +105,7 @@
       "217.156.46.0/23",
       "217.156.86.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4d80::/32",
       "2a00:ece1::/48",
       "2a07:4ec0::/29",

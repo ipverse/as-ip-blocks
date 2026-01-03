@@ -1,11 +1,14 @@
 {
-  "asn": 42609,
-  "handle": "CONTACT",
-  "description": "Contact",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42609,
+  "metadata" : {
+    "handle" : "CONTACT",
+    "description" : "Contact",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.226.215.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

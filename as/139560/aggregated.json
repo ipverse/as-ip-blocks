@@ -1,9 +1,12 @@
 {
-  "asn": 139560,
-  "handle": "PATELINT-AS-IN",
-  "description": "PATEL INTERNET PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139560,
+  "metadata" : {
+    "handle" : "PATELINT-AS-IN",
+    "description" : "PATEL INTERNET PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.183.44.0/23",
       "180.188.234.0/23",
       "180.188.240.0/24",
@@ -29,6 +32,6 @@
       "210.89.51.0/24",
       "210.89.52.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

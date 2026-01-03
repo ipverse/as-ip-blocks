@@ -1,14 +1,17 @@
 {
-  "asn": 43770,
-  "handle": "ITCONNECT-AS",
-  "description": "ITCONNECT Scandinavia AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43770,
+  "metadata" : {
+    "handle" : "ITCONNECT-AS",
+    "description" : "ITCONNECT Scandinavia AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.195.154.0/23",
       "185.153.4.0/22",
       "185.210.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:19d0::/48",
       "2a07:84c0::/29"
     ]

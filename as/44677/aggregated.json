@@ -1,14 +1,17 @@
 {
-  "asn": 44677,
-  "handle": "MTS-NGCLOUD-AS",
-  "description": "MTS PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44677,
+  "metadata" : {
+    "handle" : "MTS-NGCLOUD-AS",
+    "description" : "MTS PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.80.0/22",
       "62.113.75.0/24",
       "178.236.26.0/23",
       "188.93.54.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

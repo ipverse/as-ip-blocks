@@ -1,9 +1,12 @@
 {
-  "asn": 16171,
-  "handle": "STRENCOM",
-  "description": "Fulnett Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16171,
+  "metadata" : {
+    "handle" : "STRENCOM",
+    "description" : "Fulnett Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.216.232.0/21",
       "77.107.192.0/18",
       "88.151.0.0/21",
@@ -11,7 +14,7 @@
       "185.146.184.0/22",
       "217.75.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:198::/32"
     ]
   }

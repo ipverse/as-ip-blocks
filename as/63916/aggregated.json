@@ -1,9 +1,12 @@
 {
-  "asn": 63916,
-  "handle": "IPTELECOM-AS-AP",
-  "description": "Techavenue International Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63916,
+  "metadata" : {
+    "handle" : "IPTELECOM-AS-AP",
+    "description" : "Techavenue International Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.122.56.0/22",
       "43.239.156.0/22",
       "43.245.196.0/24",
@@ -22,7 +25,7 @@
       "183.78.171.0/24",
       "202.144.192.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:c480:3000::/47",
       "2402:c480:5000::/48",
       "2402:c480:8001::/48",

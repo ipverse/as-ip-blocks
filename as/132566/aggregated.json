@@ -1,9 +1,12 @@
 {
-  "asn": 132566,
-  "handle": "SKYNET-AS-IN",
-  "description": "Skynet Broadband Plus Solution",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132566,
+  "metadata" : {
+    "handle" : "SKYNET-AS-IN",
+    "description" : "Skynet Broadband Plus Solution",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.19.128.0/23",
       "103.84.68.0/22",
       "103.171.114.0/23",
@@ -11,7 +14,7 @@
       "149.5.60.0/22",
       "202.66.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:7340::/32"
     ]
   }

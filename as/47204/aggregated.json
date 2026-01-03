@@ -1,9 +1,12 @@
 {
-  "asn": 47204,
-  "handle": "MCS-AS",
-  "description": "MCS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47204,
+  "metadata" : {
+    "handle" : "MCS-AS",
+    "description" : "MCS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.131.48.0/23",
       "45.131.50.0/24",
       "80.76.63.0/24",
@@ -11,6 +14,6 @@
       "170.168.22.0/24",
       "194.88.199.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

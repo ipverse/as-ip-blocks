@@ -1,9 +1,12 @@
 {
-  "asn": 62728,
-  "handle": "VGPE-ASN1",
-  "description": "VELOCITY A MANAGED SERVICES COMPANY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62728,
+  "metadata" : {
+    "handle" : "VGPE-ASN1",
+    "description" : "VELOCITY A MANAGED SERVICES COMPANY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.9.40.0/21",
       "130.250.240.0/20",
       "161.115.96.0/19",
@@ -14,6 +17,6 @@
       "192.210.24.0/22",
       "192.210.28.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

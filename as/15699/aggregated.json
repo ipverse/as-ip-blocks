@@ -1,9 +1,12 @@
 {
-  "asn": 15699,
-  "handle": "AS-ADAM",
-  "description": "Adam EcoTech S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15699,
+  "metadata" : {
+    "handle" : "AS-ADAM",
+    "description" : "Adam EcoTech S.A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.46.72.0/21",
       "46.226.40.0/21",
       "87.236.216.0/21",
@@ -20,7 +23,7 @@
       "195.162.18.0/23",
       "212.36.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:6640::/32",
       "2a01:1c8::/32",
       "2a03:7480:10::/44",

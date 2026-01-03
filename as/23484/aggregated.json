@@ -1,9 +1,12 @@
 {
-  "asn": 23484,
-  "handle": "PACENET",
-  "description": "Pace University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23484,
+  "metadata" : {
+    "handle" : "PACENET",
+    "description" : "Pace University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.105.32.0/24",
       "198.105.34.0/24",
       "198.105.36.0/23",
@@ -11,6 +14,6 @@
       "198.105.42.0/23",
       "198.105.44.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 268845,
-  "handle": "ITD-INTERNET",
-  "description": "ITD Internet Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268845,
+  "metadata" : {
+    "handle" : "ITD-INTERNET",
+    "description" : "ITD Internet Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.173.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5b70::/32"
     ]
   }

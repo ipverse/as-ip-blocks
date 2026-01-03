@@ -1,9 +1,12 @@
 {
-  "asn": 7479,
-  "handle": "KDDHK-AS-AP",
-  "description": "KDDI Hong Kong Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7479,
+  "metadata" : {
+    "handle" : "KDDHK-AS-AP",
+    "description" : "KDDI Hong Kong Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.231.140.0/22",
       "202.177.0.0/21",
       "202.177.8.0/24",
@@ -14,6 +17,6 @@
       "202.177.28.0/24",
       "202.177.31.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

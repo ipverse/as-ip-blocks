@@ -1,12 +1,15 @@
 {
-  "asn": 137257,
-  "handle": "LOCALHOST-AS-AP",
-  "description": "Localhost Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137257,
+  "metadata" : {
+    "handle" : "LOCALHOST-AS-AP",
+    "description" : "Localhost Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.106.64.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:3cc0::/32"
     ]
   }

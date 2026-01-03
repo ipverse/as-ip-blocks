@@ -1,9 +1,12 @@
 {
-  "asn": 201237,
-  "handle": "ON-LINE-SYSTEM-HU",
-  "description": "Datatrans Internet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201237,
+  "metadata" : {
+    "handle" : "ON-LINE-SYSTEM-HU",
+    "description" : "Datatrans Internet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.172.227.0/24",
       "82.150.63.0/24",
       "87.229.67.0/24",
@@ -11,6 +14,6 @@
       "178.238.220.0/24",
       "185.81.20.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

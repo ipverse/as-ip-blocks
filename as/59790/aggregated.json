@@ -1,9 +1,12 @@
 {
-  "asn": 59790,
-  "handle": "BUNGALSKI-AS",
-  "description": "Marco Bungalski GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59790,
+  "metadata" : {
+    "handle" : "BUNGALSKI-AS",
+    "description" : "Marco Bungalski GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.154.233.0/24",
       "5.154.243.0/24",
       "5.183.208.0/24",
@@ -34,7 +37,7 @@
       "194.135.200.0/21",
       "195.216.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:65c0::/29"
     ]
   }

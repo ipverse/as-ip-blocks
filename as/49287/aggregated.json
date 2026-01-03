@@ -1,9 +1,12 @@
 {
-  "asn": 49287,
-  "handle": "SWIFTYCDN-AS",
-  "description": "Melbikomas UAB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49287,
+  "metadata" : {
+    "handle" : "SWIFTYCDN-AS",
+    "description" : "Melbikomas UAB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.188.174.0/23",
       "91.192.82.0/24",
       "93.189.59.0/24",
@@ -13,6 +16,6 @@
       "213.111.140.0/23",
       "213.183.34.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

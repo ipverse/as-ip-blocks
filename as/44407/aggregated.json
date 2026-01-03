@@ -1,9 +1,12 @@
 {
-  "asn": 44407,
-  "handle": "ASN-LINKT",
-  "description": "Linkt SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44407,
+  "metadata" : {
+    "handle" : "ASN-LINKT",
+    "description" : "Linkt SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.140.224.0/21",
       "37.157.56.0/22",
       "45.81.80.0/22",
@@ -50,7 +53,7 @@
       "195.177.108.0/22",
       "217.26.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4000::/32",
       "2a0a:1c80::/29"
     ]

@@ -1,13 +1,16 @@
 {
-  "asn": 3210,
-  "handle": "SECURE-DATA-AS",
-  "description": "Secure Data Systems SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3210,
+  "metadata" : {
+    "handle" : "SECURE-DATA-AS",
+    "description" : "Secure Data Systems SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.120.224.0/21",
       "37.120.243.0/24",
       "195.95.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

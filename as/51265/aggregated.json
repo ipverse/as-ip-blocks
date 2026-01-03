@@ -1,9 +1,12 @@
 {
-  "asn": 51265,
-  "handle": "MASSRESPONSE-AS",
-  "description": "Mass Response Service GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51265,
+  "metadata" : {
+    "handle" : "MASSRESPONSE-AS",
+    "description" : "Mass Response Service GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.66.64.0/18",
       "62.240.128.0/19",
       "83.216.32.0/19",
@@ -14,7 +17,7 @@
       "193.9.252.0/23",
       "197.211.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:9540::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 153523,
-  "handle": "UHB-AS-AP",
-  "description": "Ummah Host BD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153523,
+  "metadata" : {
+    "handle" : "UHB-AS-AP",
+    "description" : "Ummah Host BD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.86.230.0/23",
       "103.77.100.0/24",
       "116.212.186.0/23",
@@ -11,6 +14,6 @@
       "161.248.188.0/23",
       "165.99.62.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

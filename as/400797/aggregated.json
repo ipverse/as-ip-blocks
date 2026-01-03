@@ -1,12 +1,15 @@
 {
-  "asn": 400797,
-  "handle": "PIC-EXT",
-  "description": "Ping Identity Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400797,
+  "metadata" : {
+    "handle" : "PIC-EXT",
+    "description" : "Ping Identity Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.250.137.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:faf3::/48"
     ]
   }

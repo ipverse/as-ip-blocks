@@ -1,9 +1,12 @@
 {
-  "asn": 26114,
-  "handle": "ANAPLAN",
-  "description": "Anaplan Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26114,
+  "metadata" : {
+    "handle" : "ANAPLAN",
+    "description" : "Anaplan Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.30.174.0/23",
       "8.39.63.0/24",
       "8.39.173.0/24",
@@ -23,6 +26,6 @@
       "204.141.230.0/24",
       "212.119.8.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

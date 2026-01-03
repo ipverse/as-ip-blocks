@@ -1,9 +1,12 @@
 {
-  "asn": 9268,
-  "handle": "OVERTHEWIRE-AS-AP",
-  "description": "Over the Wire Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9268,
+  "metadata" : {
+    "handle" : "OVERTHEWIRE-AS-AP",
+    "description" : "Over the Wire Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.247.64.0/22",
       "43.251.200.0/22",
       "45.252.252.0/22",
@@ -57,7 +60,7 @@
       "203.62.184.0/22",
       "203.114.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:2000::/48",
       "2401:f80::/32",
       "2401:ac00::/32",

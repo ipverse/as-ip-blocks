@@ -1,12 +1,15 @@
 {
-  "asn": 56625,
-  "handle": "SOS-ALARM",
-  "description": "SOS Alarm Sverige AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56625,
+  "metadata" : {
+    "handle" : "SOS-ALARM",
+    "description" : "SOS Alarm Sverige AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.220.254.0/24",
       "192.162.220.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

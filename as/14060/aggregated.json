@@ -1,12 +1,15 @@
 {
-  "asn": 14060,
-  "handle": "BKD-AS",
-  "description": "Brookdale Senior Living Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14060,
+  "metadata" : {
+    "handle" : "BKD-AS",
+    "description" : "Brookdale Senior Living Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.215.198.0/24",
       "199.102.248.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

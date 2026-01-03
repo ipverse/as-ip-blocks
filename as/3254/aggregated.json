@@ -1,12 +1,15 @@
 {
-  "asn": 3254,
-  "handle": "AS-LUCKY",
-  "description": "Lucky Net Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3254,
+  "metadata" : {
+    "handle" : "AS-LUCKY",
+    "description" : "Lucky Net Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.244.0.0/18",
       "193.193.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

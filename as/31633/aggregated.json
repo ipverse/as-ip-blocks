@@ -1,11 +1,14 @@
 {
-  "asn": 31633,
-  "handle": "LANTELECOM-AS",
-  "description": "PP Lan-Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31633,
+  "metadata" : {
+    "handle" : "LANTELECOM-AS",
+    "description" : "PP Lan-Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.192.128.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

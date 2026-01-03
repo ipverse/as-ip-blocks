@@ -1,9 +1,12 @@
 {
-  "asn": 133278,
-  "handle": "ENETSOLS-AS-IN",
-  "description": "Dehradun Enet Solutions Private Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133278,
+  "metadata" : {
+    "handle" : "ENETSOLS-AS-IN",
+    "description" : "Dehradun Enet Solutions Private Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.123.248.0/22",
       "103.37.80.0/22",
       "103.93.112.0/24",
@@ -13,7 +16,7 @@
       "103.230.152.0/22",
       "103.249.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:ac0:ffff::/48"
     ]
   }

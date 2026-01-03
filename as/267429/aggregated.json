@@ -1,12 +1,15 @@
 {
-  "asn": 267429,
-  "handle": "GRAFNET-TELECOM",
-  "description": "GRAFNET TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267429,
+  "metadata" : {
+    "handle" : "GRAFNET-TELECOM",
+    "description" : "GRAFNET TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.191.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4160::/32"
     ]
   }

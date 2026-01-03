@@ -1,9 +1,12 @@
 {
-  "asn": 139468,
-  "handle": "DCI-AS-AP",
-  "description": "DC Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139468,
+  "metadata" : {
+    "handle" : "DCI-AS-AP",
+    "description" : "DC Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.116.134.0/23",
       "101.0.28.0/23",
       "101.0.31.0/24",
@@ -13,7 +16,7 @@
       "103.240.12.0/22",
       "103.245.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:9e40::/32"
     ]
   }

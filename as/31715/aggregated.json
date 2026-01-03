@@ -1,9 +1,12 @@
 {
-  "asn": 31715,
-  "handle": "ABTME-AS",
-  "description": "CloudIP LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31715,
+  "metadata" : {
+    "handle" : "ABTME-AS",
+    "description" : "CloudIP LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.58.153.0/24",
       "62.72.188.0/24",
       "77.111.109.0/24",
@@ -41,6 +44,6 @@
       "216.180.249.0/24",
       "216.185.63.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

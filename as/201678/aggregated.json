@@ -1,14 +1,17 @@
 {
-  "asn": 201678,
-  "handle": "ADNET",
-  "description": "Abu Dhabi Digital Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201678,
+  "metadata" : {
+    "handle" : "ADNET",
+    "description" : "Abu Dhabi Digital Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.194.252.0/22",
       "5.195.16.0/22",
       "5.195.21.0/24",
       "185.66.16.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

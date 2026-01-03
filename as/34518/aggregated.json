@@ -1,9 +1,12 @@
 {
-  "asn": 34518,
-  "handle": "FATUM-AS",
-  "description": "Radiokom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34518,
+  "metadata" : {
+    "handle" : "FATUM-AS",
+    "description" : "Radiokom Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.21.68.0/22",
       "46.21.76.0/22",
       "83.69.108.0/22",
@@ -13,7 +16,7 @@
       "91.216.96.0/24",
       "95.182.64.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5a00:4::/48"
     ]
   }

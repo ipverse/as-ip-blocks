@@ -1,9 +1,12 @@
 {
-  "asn": 206347,
-  "handle": "RANSTON-AS-1",
-  "description": "Wessex Internet Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206347,
+  "metadata" : {
+    "handle" : "RANSTON-AS-1",
+    "description" : "Wessex Internet Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.48.225.0/24",
       "37.48.226.0/23",
       "37.48.228.0/24",
@@ -17,6 +20,6 @@
       "185.193.168.0/22",
       "194.49.12.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

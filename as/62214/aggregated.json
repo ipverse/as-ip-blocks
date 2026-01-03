@@ -1,9 +1,12 @@
 {
-  "asn": 62214,
-  "handle": "RACKFOREST-AS",
-  "description": "Rackforest Zrt",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62214,
+  "metadata" : {
+    "handle" : "RACKFOREST-AS",
+    "description" : "Rackforest Zrt.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.29.136.0/21",
       "77.221.48.0/24",
       "79.139.56.0/21",
@@ -22,7 +25,7 @@
       "194.180.19.0/24",
       "195.90.115.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6ee0::/32",
       "2a01:7d80:2400::/40",
       "2a01:7d80:c000::/40",

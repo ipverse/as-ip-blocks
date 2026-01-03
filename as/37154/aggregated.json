@@ -1,13 +1,16 @@
 {
-  "asn": 37154,
-  "handle": "ZAMTEL",
-  "description": "Zambia Telecommunications Company Ltd aka ZAMTEL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37154,
+  "metadata" : {
+    "handle" : "ZAMTEL",
+    "description" : "Zambia Telecommunications Company Ltd aka ZAMTEL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.72.96.0/19",
       "165.56.0.0/13"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fcc8::/32"
     ]
   }

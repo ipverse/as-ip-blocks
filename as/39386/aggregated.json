@@ -1,9 +1,12 @@
 {
-  "asn": 39386,
-  "handle": "STC-IGW-AS",
-  "description": "Saudi Telecom Company JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39386,
+  "metadata" : {
+    "handle" : "STC-IGW-AS",
+    "description" : "Saudi Telecom Company JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.224.192.0/24",
       "84.235.0.0/17",
       "159.0.184.0/24",
@@ -11,7 +14,7 @@
       "193.19.244.0/24",
       "212.118.154.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:16a0::/29"
     ]
   }

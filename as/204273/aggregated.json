@@ -1,9 +1,12 @@
 {
-  "asn": 204273,
-  "handle": "VEEPEE-SDN",
-  "description": "SPIE ICS SASU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204273,
+  "metadata" : {
+    "handle" : "VEEPEE-SDN",
+    "description" : "SPIE ICS SASU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.18.42.0/23",
       "91.151.48.0/20",
       "147.98.0.0/19",
@@ -17,7 +20,7 @@
       "188.72.92.0/24",
       "217.195.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1e50:8000::/33"
     ]
   }

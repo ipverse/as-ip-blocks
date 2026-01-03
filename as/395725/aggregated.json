@@ -1,12 +1,15 @@
 {
-  "asn": 395725,
-  "handle": "USACS-1001",
-  "description": "USACS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395725,
+  "metadata" : {
+    "handle" : "USACS-1001",
+    "description" : "USACS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.226.209.0/24",
       "163.123.136.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

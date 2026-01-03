@@ -1,9 +1,12 @@
 {
-  "asn": 24685,
-  "handle": "DOMONET",
-  "description": "Load.me sp. z o. o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24685,
+  "metadata" : {
+    "handle" : "DOMONET",
+    "description" : "Load.me sp. z o. o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.172.136.0/23",
       "31.172.140.0/23",
       "80.92.231.0/24",
@@ -26,6 +29,6 @@
       "194.246.121.0/24",
       "212.110.134.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 2485,
-  "handle": "NIC-FR-SITES-SQY-TH3",
-  "description": "AFNIC (Association Francaise pour le Nommage Internet en Cooperation)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2485,
+  "metadata" : {
+    "handle" : "NIC-FR-SITES-SQY-TH3",
+    "description" : "AFNIC (Association Francaise pour le Nommage Internet en Cooperation)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.134.4.0/22",
       "192.134.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1348::/48",
       "2001:67c:2218::/47"
     ]

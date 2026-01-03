@@ -1,9 +1,12 @@
 {
-  "asn": 206804,
-  "handle": "ESTNOC-GLOBAL",
-  "description": "EstNOC OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206804,
+  "metadata" : {
+    "handle" : "ESTNOC-GLOBAL",
+    "description" : "EstNOC OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.0.12.0/24",
       "37.77.56.0/24",
       "37.77.60.0/24",
@@ -35,7 +38,7 @@
       "195.80.148.0/22",
       "198.181.163.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1548:206::/48",
       "2401:eaa0:1::/48",
       "2a01:1b8:5::/48",

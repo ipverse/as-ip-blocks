@@ -1,15 +1,18 @@
 {
-  "asn": 140925,
-  "handle": "SIHL-AS-AP",
-  "description": "STAR INTELLITECH HK LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140925,
+  "metadata" : {
+    "handle" : "SIHL-AS-AP",
+    "description" : "STAR INTELLITECH HK LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.109.225.0/24",
       "45.195.151.0/24",
       "103.153.124.0/23",
       "156.238.112.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:4780::/48"
     ]
   }

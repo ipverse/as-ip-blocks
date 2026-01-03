@@ -1,9 +1,12 @@
 {
-  "asn": 262530,
-  "handle": "QUALITY-NET",
-  "description": "Quality Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262530,
+  "metadata" : {
+    "handle" : "QUALITY-NET",
+    "description" : "Quality Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.174.164.0/22",
       "168.196.148.0/22",
       "170.231.196.0/22",
@@ -13,7 +16,7 @@
       "179.127.144.0/22",
       "200.33.88.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:9f4::/32"
     ]
   }

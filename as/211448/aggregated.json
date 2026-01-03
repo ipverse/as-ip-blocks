@@ -1,14 +1,17 @@
 {
-  "asn": 211448,
-  "handle": "WEBCONEX-SAS",
-  "description": "WEBCONEX SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211448,
+  "metadata" : {
+    "handle" : "WEBCONEX-SAS",
+    "description" : "WEBCONEX SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.176.160.0/23",
       "193.30.126.0/23",
       "194.33.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:b641:140::/44",
       "2a10:4646:190::/44"
     ]

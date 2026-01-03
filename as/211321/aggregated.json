@@ -1,14 +1,17 @@
 {
-  "asn": 211321,
-  "handle": "NLNETLABS",
-  "description": "Stichting NLnet Labs",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211321,
+  "metadata" : {
+    "handle" : "NLNETLABS",
+    "description" : "Stichting NLnet Labs",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.49.142.0/23",
       "192.228.88.0/23",
       "192.228.91.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:b904::/48",
       "2a04:b904:7200::/40",
       "2a04:b907::/47"

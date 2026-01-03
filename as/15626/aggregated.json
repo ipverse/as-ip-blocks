@@ -1,9 +1,12 @@
 {
-  "asn": 15626,
-  "handle": "GF-UA",
-  "description": "GREEN FLOID LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15626,
+  "metadata" : {
+    "handle" : "GF-UA",
+    "description" : "GREEN FLOID LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.34.182.0/23",
       "38.244.192.0/24",
       "45.128.148.0/24",
@@ -29,7 +32,7 @@
       "217.12.221.0/24",
       "217.12.222.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2f6c::/48",
       "2a02:27a8::/32",
       "2a02:27ad::/32",

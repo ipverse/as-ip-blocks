@@ -1,12 +1,15 @@
 {
-  "asn": 204048,
-  "handle": "VFT-AS",
-  "description": "Joint Stock Volga Shipping",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204048,
+  "metadata" : {
+    "handle" : "VFT-AS",
+    "description" : "Joint Stock Volga Shipping",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.255.105.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:a8c0:1::/48"
     ]
   }

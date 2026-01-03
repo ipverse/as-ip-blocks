@@ -1,13 +1,16 @@
 {
-  "asn": 211000,
-  "handle": "DH-TD-AS",
-  "description": "DoorHan - Torgovyj Dom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211000,
+  "metadata" : {
+    "handle" : "DH-TD-AS",
+    "description" : "DoorHan - Torgovyj Dom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.209.94.0/24",
       "91.227.195.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:d800::/48"
     ]
   }

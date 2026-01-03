@@ -1,11 +1,14 @@
 {
-  "asn": 50400,
-  "handle": "SIBSFERA-AS",
-  "description": "Sibsfera Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50400,
+  "metadata" : {
+    "handle" : "SIBSFERA-AS",
+    "description" : "Sibsfera Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.171.239.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 328148,
-  "handle": "ADIE-AS",
-  "description": "Agence De l\u0027Informatique de l\u0027Etat",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328148,
+  "metadata" : {
+    "handle" : "ADIE-AS",
+    "description" : "Agence De l'Informatique de l'Etat",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.0.130.0/23",
       "160.0.132.0/22",
       "160.0.140.0/22",
@@ -13,6 +16,6 @@
       "160.0.178.0/24",
       "160.0.189.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 39810,
-  "handle": "UA-WICOM",
-  "description": "The national operator of wireless communication WiMAX-Ukraine",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39810,
+  "metadata" : {
+    "handle" : "UA-WICOM",
+    "description" : "The national operator of wireless communication WiMAX-Ukraine",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.187.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:e400::/29"
     ]
   }

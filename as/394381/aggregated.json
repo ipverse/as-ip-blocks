@@ -1,15 +1,18 @@
 {
-  "asn": 394381,
-  "handle": "L7-CONNECT",
-  "description": "L7 Connect",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394381,
+  "metadata" : {
+    "handle" : "L7-CONNECT",
+    "description" : "L7 Connect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.68.79.0/24",
       "103.12.212.0/22",
       "154.51.185.0/24",
       "154.62.186.0/24",
       "192.206.45.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

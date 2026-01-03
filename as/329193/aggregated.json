@@ -1,11 +1,14 @@
 {
-  "asn": 329193,
-  "handle": "REGISTER-DOMAIN-SA",
-  "description": "Register Domain SA (Pty) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 329193,
+  "metadata" : {
+    "handle" : "REGISTER-DOMAIN-SA",
+    "description" : "Register Domain SA (Pty) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.215.92.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

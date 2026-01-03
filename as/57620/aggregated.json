@@ -1,14 +1,17 @@
 {
-  "asn": 57620,
-  "handle": "AS-TISERVICE",
-  "description": "JSC Avantel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57620,
+  "metadata" : {
+    "handle" : "AS-TISERVICE",
+    "description" : "JSC Avantel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.234.52.0/24",
       "195.234.130.0/24",
       "195.234.140.0/24",
       "195.234.143.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

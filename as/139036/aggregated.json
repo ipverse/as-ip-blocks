@@ -1,12 +1,15 @@
 {
-  "asn": 139036,
-  "handle": "EDGESPEED-AS-AP",
-  "description": "Edge Speed",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139036,
+  "metadata" : {
+    "handle" : "EDGESPEED-AS-AP",
+    "description" : "Edge Speed",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.138.190.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:19a0::/32"
     ]
   }

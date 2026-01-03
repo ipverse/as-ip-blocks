@@ -1,16 +1,19 @@
 {
-  "asn": 43714,
-  "handle": "EPL-AS",
-  "description": "Production co-operative Economic-legal laboratory",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43714,
+  "metadata" : {
+    "handle" : "EPL-AS",
+    "description" : "Production co-operative Economic-legal laboratory",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.32.144.0/21",
       "95.154.128.0/18",
       "130.49.220.0/22",
       "178.130.136.0/22",
       "185.210.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5200::/32"
     ]
   }

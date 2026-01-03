@@ -1,9 +1,12 @@
 {
-  "asn": 199739,
-  "handle": "EARTHLINK-DMCC-IQ",
-  "description": "Earthlink Telecommunications Equipment Trading \u0026 Services DMCC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199739,
+  "metadata" : {
+    "handle" : "EARTHLINK-DMCC-IQ",
+    "description" : "Earthlink Telecommunications Equipment Trading & Services DMCC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.236.8.0/24",
       "37.236.19.0/24",
       "37.236.80.0/24",
@@ -32,7 +35,7 @@
       "169.224.0.0/17",
       "185.239.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:4b47::/32"
     ]
   }

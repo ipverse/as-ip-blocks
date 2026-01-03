@@ -1,14 +1,17 @@
 {
-  "asn": 49199,
-  "handle": "RIPN",
-  "description": "Autonomous Nonprofit Organisation Russian Scientific-Research Institute for Public Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49199,
+  "metadata" : {
+    "handle" : "RIPN",
+    "description" : "Autonomous Nonprofit Organisation Russian Scientific-Research Institute for Public Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.76.74.0/23",
       "62.76.96.0/23",
       "195.85.234.0/24",
       "195.85.236.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

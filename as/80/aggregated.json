@@ -1,9 +1,12 @@
 {
-  "asn": 80,
-  "handle": "GE-CRD",
-  "description": "General Electric Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 80,
+  "metadata" : {
+    "handle" : "GE-CRD",
+    "description" : "General Electric Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.23.90.0/24",
       "8.29.116.0/24",
       "65.90.67.0/24",
@@ -12,6 +15,6 @@
       "165.156.56.0/23",
       "165.156.78.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

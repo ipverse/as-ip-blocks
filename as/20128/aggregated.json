@@ -1,12 +1,15 @@
 {
-  "asn": 20128,
-  "handle": "IN2",
-  "description": "iN2 LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20128,
+  "metadata" : {
+    "handle" : "IN2",
+    "description" : "iN2 LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.180.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:7440::/32"
     ]
   }

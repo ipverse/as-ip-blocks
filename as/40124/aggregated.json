@@ -1,13 +1,16 @@
 {
-  "asn": 40124,
-  "handle": "AS-CHARGED",
-  "description": "QuickMeg Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40124,
+  "metadata" : {
+    "handle" : "AS-CHARGED",
+    "description" : "QuickMeg Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.184.56.0/24",
       "130.51.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:299:10::/44"
     ]
   }

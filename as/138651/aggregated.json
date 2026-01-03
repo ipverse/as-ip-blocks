@@ -1,11 +1,14 @@
 {
-  "asn": 138651,
-  "handle": "SPIDERNET-AS-AP",
-  "description": "Spider Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138651,
+  "metadata" : {
+    "handle" : "SPIDERNET-AS-AP",
+    "description" : "Spider Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.135.136.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

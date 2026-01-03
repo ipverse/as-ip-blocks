@@ -1,9 +1,12 @@
 {
-  "asn": 20472,
-  "handle": "SYNN",
-  "description": "Synergy Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20472,
+  "metadata" : {
+    "handle" : "SYNN",
+    "description" : "Synergy Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.75.167.0/24",
       "63.107.10.0/23",
       "63.109.38.0/24",
@@ -17,6 +20,6 @@
       "65.202.64.0/22",
       "67.238.54.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

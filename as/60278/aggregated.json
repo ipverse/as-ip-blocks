@@ -1,14 +1,17 @@
 {
-  "asn": 60278,
-  "handle": "HELSE-VEST-IKT",
-  "description": "Helse Vest IKT AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60278,
+  "metadata" : {
+    "handle" : "HELSE-VEST-IKT",
+    "description" : "Helse Vest IKT AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.4.0.0/16",
       "193.178.220.0/23",
       "193.178.230.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:4940::/29"
     ]
   }

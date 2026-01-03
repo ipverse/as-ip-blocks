@@ -1,14 +1,17 @@
 {
-  "asn": 139337,
-  "handle": "OZHOSTING-AS-AP",
-  "description": "Ozhosting.com Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139337,
+  "metadata" : {
+    "handle" : "OZHOSTING-AS-AP",
+    "description" : "Ozhosting.com Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.23.152.0/22",
       "116.213.2.0/24",
       "116.213.5.0/24",
       "202.125.167.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

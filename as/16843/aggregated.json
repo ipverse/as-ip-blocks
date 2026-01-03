@@ -1,9 +1,12 @@
 {
-  "asn": 16843,
-  "handle": "CELLTEX-NETWORKS",
-  "description": "Celltex Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16843,
+  "metadata" : {
+    "handle" : "CELLTEX-NETWORKS",
+    "description" : "Celltex Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.103.213.0/24",
       "104.218.76.0/22",
       "141.193.216.0/23",
@@ -17,7 +20,7 @@
       "206.166.198.0/24",
       "208.52.138.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:7d80::/32"
     ]
   }

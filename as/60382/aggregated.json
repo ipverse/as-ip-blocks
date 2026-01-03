@@ -1,12 +1,15 @@
 {
-  "asn": 60382,
-  "handle": "CRANLEIGH-AS",
-  "description": "Cranleigh School",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60382,
+  "metadata" : {
+    "handle" : "CRANLEIGH-AS",
+    "description" : "Cranleigh School",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.213.225.0/24",
       "195.5.167.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

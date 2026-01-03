@@ -1,10 +1,13 @@
 {
-  "asn": 401009,
-  "handle": "JSMSR-NETWORK",
-  "description": "JSMSR Network",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 401009,
+  "metadata" : {
+    "handle" : "JSMSR",
+    "description" : "JSMSR Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2602:f919::/40"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 61500,
-  "handle": "PARKNET",
-  "description": "ParkNet SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61500,
+  "metadata" : {
+    "handle" : "PARKNET",
+    "description" : "ParkNet SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.121.80.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

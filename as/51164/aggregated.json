@@ -1,15 +1,18 @@
 {
-  "asn": 51164,
-  "handle": "KNOWIT-FI",
-  "description": "Knowit Solutions Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51164,
+  "metadata" : {
+    "handle" : "KNOWIT-FI",
+    "description" : "Knowit Solutions Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.94.0.0/16",
       "178.217.128.0/21",
       "185.93.48.0/22",
       "192.26.111.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:224::/48",
       "2a0b:8880::/29"
     ]

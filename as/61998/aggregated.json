@@ -1,9 +1,12 @@
 {
-  "asn": 61998,
-  "handle": "SZERVERPLEXHU",
-  "description": "SzerverPlex.hu KFT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61998,
+  "metadata" : {
+    "handle" : "SZERVERPLEXHU",
+    "description" : "SzerverPlex.hu KFT.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.17.170.0/24",
       "37.17.172.0/24",
       "79.172.210.0/24",
@@ -13,7 +16,7 @@
       "217.144.53.0/24",
       "217.144.54.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:c647::/32",
       "2a0c:bfc0::/29"
     ]

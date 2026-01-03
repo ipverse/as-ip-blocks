@@ -1,9 +1,12 @@
 {
-  "asn": 51747,
-  "handle": "INTERNETBOLAGET",
-  "description": "Internet Vikings International AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51747,
+  "metadata" : {
+    "handle" : "INTERNETBOLAGET",
+    "description" : "Internet Vikings International AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.133.192.0/19",
       "45.142.64.0/22",
       "45.146.48.0/22",
@@ -121,6 +124,6 @@
       "195.95.184.0/24",
       "195.189.112.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

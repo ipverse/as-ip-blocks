@@ -1,12 +1,15 @@
 {
-  "asn": 205032,
-  "handle": "IT-SMARTLINE-1-AS",
-  "description": "Smartline srls",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205032,
+  "metadata" : {
+    "handle" : "IT-SMARTLINE-1-AS",
+    "description" : "Smartline srls",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.100.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:d0c6::/32"
     ]
   }

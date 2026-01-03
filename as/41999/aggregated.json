@@ -1,11 +1,14 @@
 {
-  "asn": 41999,
-  "handle": "ALLUPNET-INT-AS",
-  "description": "OOO ALL UP NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41999,
+  "metadata" : {
+    "handle" : "ALLUPNET-INT-AS",
+    "description" : "OOO ALL UP NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.31.125.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 28417,
-  "handle": "UNIVERSIDAD-AUTONOMA-CHIAPAS",
-  "description": "Universidad Autónoma de Chiapas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28417,
+  "metadata" : {
+    "handle" : "UNIVERSIDAD-AUTONOMA-CHIAPAS",
+    "description" : "Universidad Autónoma de Chiapas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.222.11.0/24",
       "148.222.12.0/23",
       "148.222.15.0/24",
@@ -18,6 +21,6 @@
       "148.222.140.0/22",
       "148.222.252.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

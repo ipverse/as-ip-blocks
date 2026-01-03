@@ -1,15 +1,18 @@
 {
-  "asn": 208453,
-  "handle": "SWEHOST-NET",
-  "description": "Johan Karlsson trading as SweHosting",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208453,
+  "metadata" : {
+    "handle" : "SWEHOST-NET",
+    "description" : "Johan Karlsson trading as SweHosting",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.181.23.0/24",
       "193.181.29.0/24",
       "193.181.243.0/24",
       "193.181.244.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:54c1:f000::/36",
       "2a07:54c4:1761::/48",
       "2a12:bec0:2d0::/48",

@@ -1,13 +1,16 @@
 {
-  "asn": 56057,
-  "handle": "ENTITYDATA-AU",
-  "description": "Entity Data Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56057,
+  "metadata" : {
+    "handle" : "ENTITYDATA-AU",
+    "description" : "Entity Data Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "111.118.220.0/22",
       "119.148.66.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:e500:1000::/36",
       "2402:e500:f000::/48"
     ]

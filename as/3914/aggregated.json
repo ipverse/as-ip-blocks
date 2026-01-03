@@ -1,12 +1,15 @@
 {
-  "asn": 3914,
-  "handle": "KMHP-AS-ARIN",
-  "description": "Keystone Mercy Health Plan",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3914,
+  "metadata" : {
+    "handle" : "KMHP-AS-ARIN",
+    "description" : "Keystone Mercy Health Plan",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.190.179.0/24",
       "199.254.160.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

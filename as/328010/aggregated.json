@@ -1,13 +1,16 @@
 {
-  "asn": 328010,
-  "handle": "BURKINA-IX-MNGNT",
-  "description": "Burkina Faso Internet EXchange Point ( BFIX)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328010,
+  "metadata" : {
+    "handle" : "BURKINA-IX-MNGNT",
+    "description" : "Burkina Faso Internet EXchange Point ( BFIX)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "196.49.19.0/24",
       "196.49.74.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43f8:b61::/48"
     ]
   }

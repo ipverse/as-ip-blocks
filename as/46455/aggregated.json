@@ -1,14 +1,17 @@
 {
-  "asn": 46455,
-  "handle": "NLI-ISP",
-  "description": "WWLTH Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46455,
+  "metadata" : {
+    "handle" : "NLI-ISP",
+    "description" : "WWLTH Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "76.77.16.0/23",
       "76.77.21.0/24",
       "199.71.231.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:c880::/32"
     ]
   }

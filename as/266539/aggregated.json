@@ -1,9 +1,12 @@
 {
-  "asn": 266539,
-  "handle": "LINQ-TELECOMUNICACOES",
-  "description": "LINQ TELECOMUNICACOES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266539,
+  "metadata" : {
+    "handle" : "LINQ-TELECOMUNICACOES",
+    "description" : "LINQ TELECOMUNICACOES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.50.128.0/19",
       "45.65.220.0/22",
       "177.200.32.0/20",
@@ -17,7 +20,7 @@
       "217.60.242.0/24",
       "217.60.250.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3d90::/32"
     ]
   }

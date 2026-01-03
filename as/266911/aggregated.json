@@ -1,12 +1,15 @@
 {
-  "asn": 266911,
-  "handle": "VICNET-TELECOM",
-  "description": "VicNet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266911,
+  "metadata" : {
+    "handle" : "VICNET-TELECOM",
+    "description" : "VicNet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.224.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4534::/32"
     ]
   }

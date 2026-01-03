@@ -1,14 +1,17 @@
 {
-  "asn": 215342,
-  "handle": "BG-TERANET",
-  "description": "Teranet OOD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215342,
+  "metadata" : {
+    "handle" : "BG-TERANET",
+    "description" : "Teranet OOD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.120.131.0/24",
       "87.120.136.0/22",
       "87.121.96.0/23",
       "185.120.180.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

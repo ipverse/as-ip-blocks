@@ -1,12 +1,15 @@
 {
-  "asn": 61827,
-  "handle": "PZ-NET",
-  "description": "PZ NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61827,
+  "metadata" : {
+    "handle" : "PZ-NET",
+    "description" : "PZ NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "201.140.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:19ec::/36"
     ]
   }

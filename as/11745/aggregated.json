@@ -1,13 +1,16 @@
 {
-  "asn": 11745,
-  "handle": "USNH",
-  "description": "University System of New Hampshire",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11745,
+  "metadata" : {
+    "handle" : "USNH",
+    "description" : "University System of New Hampshire",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.72.0.0/19",
       "132.177.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:4100::/32"
     ]
   }

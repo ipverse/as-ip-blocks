@@ -1,13 +1,16 @@
 {
-  "asn": 21730,
-  "handle": "RRV-NET",
-  "description": "Halstad Telephone Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21730,
+  "metadata" : {
+    "handle" : "RRV-NET",
+    "description" : "Halstad Telephone Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.61.64.0/19",
       "199.199.224.0/21",
       "204.73.192.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

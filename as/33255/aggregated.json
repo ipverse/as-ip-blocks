@@ -1,13 +1,16 @@
 {
-  "asn": 33255,
-  "handle": "HAMDEN-ASN",
-  "description": "Hampden-Sydney College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33255,
+  "metadata" : {
+    "handle" : "HAMDEN-ASN",
+    "description" : "Hampden-Sydney College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.10.224.0/20",
       "72.10.240.0/21",
       "72.10.252.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

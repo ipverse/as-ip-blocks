@@ -1,9 +1,12 @@
 {
-  "asn": 6140,
-  "handle": "TWO-P",
-  "description": "Two P",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6140,
+  "metadata" : {
+    "handle" : "TWO-P",
+    "description" : "Two P",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.2.52.0/23",
       "44.4.59.0/24",
       "44.31.70.0/24",
@@ -13,7 +16,7 @@
       "198.182.225.0/24",
       "216.41.142.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ffd3::/36"
     ]
   }

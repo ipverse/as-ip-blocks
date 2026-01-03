@@ -1,12 +1,15 @@
 {
-  "asn": 22262,
-  "handle": "IDENTRUST-DR-ASN",
-  "description": "IdenTrust",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22262,
+  "metadata" : {
+    "handle" : "IDENTRUST-DR-ASN",
+    "description" : "IdenTrust",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.35.173.0/24",
       "192.147.157.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

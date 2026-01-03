@@ -1,9 +1,12 @@
 {
-  "asn": 766,
-  "handle": "REDIRIS",
-  "description": "Entidad Publica Empresarial Red.es",
-  "subnets": {
-    "ipv4": [
+  "asn" : 766,
+  "metadata" : {
+    "handle" : "REDIRIS",
+    "description" : "Entidad Publica Empresarial Red.es",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.206.0.0/16",
       "138.4.0.0/16",
       "138.100.0.0/16",
@@ -35,7 +38,7 @@
       "212.128.80.0/21",
       "212.128.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:508::/48",
       "2001:720::/32"
     ]

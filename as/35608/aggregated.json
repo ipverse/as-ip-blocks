@@ -1,9 +1,12 @@
 {
-  "asn": 35608,
-  "handle": "RLINE1-AS",
-  "description": "R-LINE 1 LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35608,
+  "metadata" : {
+    "handle" : "RLINE1-AS",
+    "description" : "R-LINE 1 LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.136.144.0/24",
       "45.141.93.0/24",
       "79.171.117.0/24",
@@ -13,7 +16,7 @@
       "194.67.69.0/24",
       "194.67.70.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:3ec0::/47",
       "2a09:3ec0:4::/47",
       "2a09:3ec0:8::/47"

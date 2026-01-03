@@ -1,16 +1,19 @@
 {
-  "asn": 15870,
-  "handle": "BST-AS",
-  "description": "Bst Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15870,
+  "metadata" : {
+    "handle" : "BST-AS",
+    "description" : "Bst Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.216.46.0/24",
       "109.120.21.0/24",
       "176.62.76.0/24",
       "176.62.80.0/24",
       "178.74.109.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1b28::/48"
     ]
   }

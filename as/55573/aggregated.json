@@ -1,12 +1,15 @@
 {
-  "asn": 55573,
-  "handle": "XYZTELECOM-AS-AP",
-  "description": "XYZ Telecom Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55573,
+  "metadata" : {
+    "handle" : "XYZTELECOM-AS-AP",
+    "description" : "XYZ Telecom Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "121.200.215.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:7d80::/48"
     ]
   }

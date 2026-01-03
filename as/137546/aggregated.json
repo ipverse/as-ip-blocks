@@ -1,13 +1,16 @@
 {
-  "asn": 137546,
-  "handle": "RMUTT-EN-AS-AP",
-  "description": "Faculty of Engineering Rajamangala University of Technology Thanyaburi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137546,
+  "metadata" : {
+    "handle" : "RMUTT-EN-AS-AP",
+    "description" : "Faculty of Engineering Rajamangala University of Technology Thanyaburi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.158.118.0/24",
       "203.158.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:3c8:e10e::/48"
     ]
   }

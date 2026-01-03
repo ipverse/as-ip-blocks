@@ -1,9 +1,12 @@
 {
-  "asn": 32701,
-  "handle": "AS-VANGUARD",
-  "description": "The Vanguard Group Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32701,
+  "metadata" : {
+    "handle" : "AS-VANGUARD",
+    "description" : "The Vanguard Group Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.175.132.0/23",
       "192.175.135.0/24",
       "192.175.142.0/23",
@@ -37,6 +40,6 @@
       "192.175.247.0/24",
       "192.175.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

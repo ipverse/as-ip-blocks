@@ -1,9 +1,12 @@
 {
-  "asn": 56630,
-  "handle": "MELBICOM-EU-AS",
-  "description": "Melbikomas UAB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56630,
+  "metadata" : {
+    "handle" : "MELBICOM-EU-AS",
+    "description" : "Melbikomas UAB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.182.228.0/22",
       "5.188.172.0/23",
       "5.188.180.0/22",
@@ -84,7 +87,7 @@
       "213.226.68.0/22",
       "217.30.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:f900::/36",
       "2a06:f900:4000::/36",
       "2a06:f901::/36",

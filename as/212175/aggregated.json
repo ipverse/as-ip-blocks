@@ -1,9 +1,12 @@
 {
-  "asn": 212175,
-  "handle": "STELIA",
-  "description": "Stelia Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212175,
+  "metadata" : {
+    "handle" : "STELIA",
+    "description" : "Stelia Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.135.120.0/24",
       "185.165.50.0/23",
       "185.225.9.0/24",
@@ -12,7 +15,7 @@
       "212.104.138.0/23",
       "213.254.169.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:9e80::/29",
       "2a12:df40:1::/48",
       "2a12:df40:2::/47",

@@ -1,12 +1,15 @@
 {
-  "asn": 55131,
-  "handle": "TCD-INC",
-  "description": "Special Operations Command",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55131,
+  "metadata" : {
+    "handle" : "TCD-INC",
+    "description" : "Special Operations Command",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.58.75.0/24",
       "65.41.169.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 9287,
-  "handle": "TIDCC-AS-AP",
-  "description": "True Internet Data Center Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9287,
+  "metadata" : {
+    "handle" : "TIDCC-AS-AP",
+    "description" : "True Internet Data Center Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.125.128.0/22",
       "45.252.52.0/22",
       "61.90.185.0/24",
@@ -35,7 +38,7 @@
       "210.86.139.0/24",
       "210.86.176.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:fb0:1000::/47",
       "2001:fb0:1002::/48",
       "2404:3280::/32"

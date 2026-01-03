@@ -1,11 +1,14 @@
 {
-  "asn": 17311,
-  "handle": "ECMC-BGP",
-  "description": "Erie County Medical Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17311,
+  "metadata" : {
+    "handle" : "ECMC-BGP",
+    "description" : "Erie County Medical Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.136.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

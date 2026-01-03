@@ -1,9 +1,12 @@
 {
-  "asn": 16839,
-  "handle": "SNC",
-  "description": "SERVICENOW INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16839,
+  "metadata" : {
+    "handle" : "SNC",
+    "description" : "SERVICENOW INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.98.233.0/24",
       "37.98.234.0/23",
       "37.98.238.0/24",
@@ -53,7 +56,7 @@
       "199.91.139.0/24",
       "199.91.140.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:9f00:6110::/48",
       "2406:9f00:6120::/48",
       "2406:9f00:6510::/48",

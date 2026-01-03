@@ -1,9 +1,12 @@
 {
-  "asn": 1653,
-  "handle": "SUNET",
-  "description": "Vetenskapsradet / SUNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1653,
+  "metadata" : {
+    "handle" : "SUNET",
+    "description" : "Vetenskapsradet / SUNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.156.192.0/20",
       "44.5.0.0/16",
       "77.238.32.0/19",
@@ -53,7 +56,7 @@
       "195.178.224.0/19",
       "212.25.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:6b0::/32"
     ]
   }

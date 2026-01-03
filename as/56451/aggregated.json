@@ -1,12 +1,15 @@
 {
-  "asn": 56451,
-  "handle": "TELEKEY-S-AS",
-  "description": "Telekey-S Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56451,
+  "metadata" : {
+    "handle" : "TELEKEY-S-AS",
+    "description" : "Telekey-S Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.224.166.0/23",
       "91.225.208.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

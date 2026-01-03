@@ -1,14 +1,17 @@
 {
-  "asn": 44949,
-  "handle": "GIGACODES-AS",
-  "description": "Gigacodes GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44949,
+  "metadata" : {
+    "handle" : "GIGACODES-AS",
+    "description" : "Gigacodes GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.142.128.0/23",
       "194.116.150.0/23",
       "195.160.202.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:ec80:210::/47",
       "2a07:ec80:221::/48"
     ]

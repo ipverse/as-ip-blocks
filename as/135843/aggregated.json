@@ -1,12 +1,15 @@
 {
-  "asn": 135843,
-  "handle": "REDIX-AS",
-  "description": "Red Fiber Telecom Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135843,
+  "metadata" : {
+    "handle" : "REDIX-AS",
+    "description" : "Red Fiber Telecom Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.129.155.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:7900::/48"
     ]
   }

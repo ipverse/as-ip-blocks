@@ -1,12 +1,15 @@
 {
-  "asn": 54469,
-  "handle": "COV-ISP",
-  "description": "City of Vacaville",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54469,
+  "metadata" : {
+    "handle" : "COV-ISP",
+    "description" : "City of Vacaville",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.190.169.0/24",
       "209.76.206.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

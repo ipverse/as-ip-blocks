@@ -1,14 +1,17 @@
 {
-  "asn": 263582,
-  "handle": "PONTO-SAT-CONECT-EIRELI",
-  "description": "PONTO SAT CONECT EIRELI ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263582,
+  "metadata" : {
+    "handle" : "PONTO-SAT-CONECT-EIRELI",
+    "description" : "PONTO SAT CONECT EIRELI ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.255.204.0/22",
       "168.196.80.0/22",
       "179.109.80.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:f60::/32"
     ]
   }

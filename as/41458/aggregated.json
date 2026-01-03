@@ -1,9 +1,12 @@
 {
-  "asn": 41458,
-  "handle": "MVSGROUP-AS",
-  "description": "Pulsar Solutions Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41458,
+  "metadata" : {
+    "handle" : "MVSGROUP-AS",
+    "description" : "Pulsar Solutions Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "76.74.188.0/22",
       "94.229.0.0/20",
       "107.6.32.0/23",
@@ -12,6 +15,6 @@
       "185.50.132.0/22",
       "195.3.164.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

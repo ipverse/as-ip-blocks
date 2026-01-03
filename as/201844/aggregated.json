@@ -1,12 +1,15 @@
 {
-  "asn": 201844,
-  "handle": "RU-KORUS-AS",
-  "description": "LLC Korus",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201844,
+  "metadata" : {
+    "handle" : "RU-KORUS-AS",
+    "description" : "LLC Korus",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.189.0.0/24",
       "5.189.8.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

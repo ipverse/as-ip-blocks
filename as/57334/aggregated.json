@@ -1,9 +1,12 @@
 {
-  "asn": 57334,
-  "handle": "SATS-AS",
-  "description": "SPB State Unitary Enterprise ATS Smolnogo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57334,
+  "metadata" : {
+    "handle" : "SATS-AS",
+    "description" : "SPB State Unitary Enterprise ATS Smolnogo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.28.0/22",
       "62.181.32.0/24",
       "77.232.44.0/22",
@@ -14,6 +17,6 @@
       "212.59.124.0/23",
       "212.59.126.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

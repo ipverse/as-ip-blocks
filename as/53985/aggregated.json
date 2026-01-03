@@ -1,9 +1,12 @@
 {
-  "asn": 53985,
-  "handle": "DODGE-AND-COX-FUNDS",
-  "description": "DODGE \u0026 COX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53985,
+  "metadata" : {
+    "handle" : "DODGE-AND-COX-FUNDS",
+    "description" : "DODGE & COX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.25.223.0/24",
       "50.238.211.0/24",
       "154.61.131.0/24",
@@ -12,6 +15,6 @@
       "206.205.27.0/24",
       "209.49.123.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

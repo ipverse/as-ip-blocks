@@ -1,12 +1,15 @@
 {
-  "asn": 263343,
-  "handle": "PC2-TELECOM",
-  "description": "PC2 TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263343,
+  "metadata" : {
+    "handle" : "PC2-TELECOM",
+    "description" : "PC2 TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "191.36.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:14ac::/32"
     ]
   }

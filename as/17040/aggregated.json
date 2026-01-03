@@ -1,13 +1,16 @@
 {
-  "asn": 17040,
-  "handle": "SEATTLE-TIMES",
-  "description": "The Seattle Times",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17040,
+  "metadata" : {
+    "handle" : "SEATTLE-TIMES",
+    "description" : "The Seattle Times",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.251.219.0/24",
       "192.251.220.0/22",
       "192.251.224.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

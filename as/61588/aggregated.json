@@ -1,9 +1,12 @@
 {
-  "asn": 61588,
-  "handle": "DIGITAL-PROVEDOR-ACESSO",
-  "description": "DIGITAL PROVEDOR DE ACESSO A INTERNET LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61588,
+  "metadata" : {
+    "handle" : "DIGITAL-PROVEDOR-ACESSO",
+    "description" : "DIGITAL PROVEDOR DE ACESSO A INTERNET LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.255.240.0/22",
       "138.59.124.0/22",
       "168.232.52.0/22",
@@ -16,7 +19,7 @@
       "191.37.88.0/21",
       "201.216.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:ebc::/32"
     ]
   }

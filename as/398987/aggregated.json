@@ -1,12 +1,15 @@
 {
-  "asn": 398987,
-  "handle": "NS-GLOBAL",
-  "description": "PhirePhly Design",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398987,
+  "metadata" : {
+    "handle" : "NS-GLOBAL",
+    "description" : "PhirePhly Design",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.128.97.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:7c80:53::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 25717,
-  "handle": "SCAAM0001",
-  "description": "Essity Hygiene and Health",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25717,
+  "metadata" : {
+    "handle" : "SCAAM0001",
+    "description" : "Essity Hygiene and Health",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "171.25.128.0/21",
       "171.25.138.0/23",
       "171.25.140.0/22",
@@ -23,6 +26,6 @@
       "193.221.76.0/22",
       "193.221.80.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

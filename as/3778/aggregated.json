@@ -1,14 +1,17 @@
 {
-  "asn": 3778,
-  "handle": "TEMPLE",
-  "description": "Temple University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3778,
+  "metadata" : {
+    "handle" : "TEMPLE",
+    "description" : "Temple University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.32.0.0/16",
       "131.249.80.0/24",
       "155.247.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:4a80::/32"
     ]
   }

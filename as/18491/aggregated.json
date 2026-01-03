@@ -1,9 +1,12 @@
 {
-  "asn": 18491,
-  "handle": "VTLA",
-  "description": "NTT Global Networks Incorporated",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18491,
+  "metadata" : {
+    "handle" : "VTLA",
+    "description" : "NTT Global Networks Incorporated",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.254.109.0/24",
       "64.254.126.0/24",
       "66.33.112.0/24",
@@ -15,6 +18,6 @@
       "146.236.200.0/24",
       "207.179.2.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

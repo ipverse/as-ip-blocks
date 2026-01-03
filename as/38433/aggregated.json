@@ -1,12 +1,15 @@
 {
-  "asn": 38433,
-  "handle": "KFAC-AS",
-  "description": "Korea Fund Administration Compliance",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38433,
+  "metadata" : {
+    "handle" : "KFAC-AS",
+    "description" : "Korea Fund Administration Compliance",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.125.150.0/24",
       "222.110.104.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

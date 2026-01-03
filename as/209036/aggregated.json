@@ -1,11 +1,14 @@
 {
-  "asn": 209036,
-  "handle": "CBI-AS",
-  "description": "Central Bank of Iraq",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209036,
+  "metadata" : {
+    "handle" : "CBI-AS",
+    "description" : "Central Bank of Iraq",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.243.77.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

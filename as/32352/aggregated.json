@@ -1,12 +1,15 @@
 {
-  "asn": 32352,
-  "handle": "MGRC",
-  "description": "MCGRATH RENTCORP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32352,
+  "metadata" : {
+    "handle" : "MGRC",
+    "description" : "MCGRATH RENTCORP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.172.193.0/24",
       "64.47.172.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

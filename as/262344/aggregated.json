@@ -1,13 +1,16 @@
 {
-  "asn": 262344,
-  "handle": "VNO-TELECOM",
-  "description": "VNO Telecom LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262344,
+  "metadata" : {
+    "handle" : "VNO-TELECOM",
+    "description" : "VNO Telecom LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.125.128.0/22",
       "189.113.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:810::/32"
     ]
   }

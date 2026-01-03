@@ -1,15 +1,18 @@
 {
-  "asn": 48584,
-  "handle": "SARNICA-AS",
-  "description": "Sarnica-Net LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48584,
+  "metadata" : {
+    "handle" : "SARNICA-AS",
+    "description" : "Sarnica-Net LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.128.124.0/23",
       "78.142.52.0/22",
       "176.241.178.0/23",
       "176.241.180.0/22",
       "193.68.114.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

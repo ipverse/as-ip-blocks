@@ -1,12 +1,15 @@
 {
-  "asn": 138622,
-  "handle": "UCS-AS-AP",
-  "description": "Unique Communication Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138622,
+  "metadata" : {
+    "handle" : "UCS-AS-AP",
+    "description" : "Unique Communication Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.134.226.0/23",
       "103.189.236.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

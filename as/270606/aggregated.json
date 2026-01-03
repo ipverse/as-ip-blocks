@@ -1,12 +1,15 @@
 {
-  "asn": 270606,
-  "handle": "R3-TELECOM",
-  "description": "R3 TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270606,
+  "metadata" : {
+    "handle" : "R3-TELECOM",
+    "description" : "R3 TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.37.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6e94::/32"
     ]
   }

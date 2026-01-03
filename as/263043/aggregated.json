@@ -1,14 +1,17 @@
 {
-  "asn": 263043,
-  "handle": "WIFF-TELECOM-EIRELI",
-  "description": "WIFF Telecom Eireli",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263043,
+  "metadata" : {
+    "handle" : "WIFF-TELECOM-EIRELI",
+    "description" : "WIFF Telecom Eireli",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.121.184.0/22",
       "177.129.192.0/22",
       "179.125.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8fc::/32"
     ]
   }

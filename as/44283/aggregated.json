@@ -1,15 +1,18 @@
 {
-  "asn": 44283,
-  "handle": "TUI-AS",
-  "description": "TUI InfoTec GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44283,
+  "metadata" : {
+    "handle" : "TUI-AS",
+    "description" : "TUI InfoTec GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.151.64.0/22",
       "194.156.4.0/23",
       "194.156.6.0/24",
       "195.128.186.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:7300::/29"
     ]
   }

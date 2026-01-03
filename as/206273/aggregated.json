@@ -1,13 +1,16 @@
 {
-  "asn": 206273,
-  "handle": "GLOBALROUTERLLC",
-  "description": "Global Router LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206273,
+  "metadata" : {
+    "handle" : "GLOBALROUTERLLC",
+    "description" : "Global Router LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.130.244.0/22",
       "91.218.154.0/23",
       "185.198.60.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

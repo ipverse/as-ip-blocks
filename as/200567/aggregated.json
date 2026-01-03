@@ -1,9 +1,12 @@
 {
-  "asn": 200567,
-  "handle": "MDEX",
-  "description": "Wireless Logic mdex GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200567,
+  "metadata" : {
+    "handle" : "MDEX",
+    "description" : "Wireless Logic mdex GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.146.132.0/22",
       "46.16.216.0/21",
       "185.39.176.0/22",
@@ -14,7 +17,7 @@
       "192.109.235.0/24",
       "192.109.239.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:4500::/32",
       "2a05:2a80::/29",
       "2a06:4e40::/29",

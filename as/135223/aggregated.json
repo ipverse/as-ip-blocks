@@ -1,9 +1,12 @@
 {
-  "asn": 135223,
-  "handle": "NETWAY-AS",
-  "description": "Netway Internet Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135223,
+  "metadata" : {
+    "handle" : "NETWAY-AS",
+    "description" : "Netway Internet Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.115.124.0/22",
       "103.186.222.0/23",
       "103.211.204.0/23",
@@ -11,7 +14,7 @@
       "103.255.232.0/22",
       "139.5.196.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:41c0::/48"
     ]
   }

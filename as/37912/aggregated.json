@@ -1,12 +1,15 @@
 {
-  "asn": 37912,
-  "handle": "IPRIO-JP",
-  "description": "IPRIO Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37912,
+  "metadata" : {
+    "handle" : "IPRIO-JP",
+    "description" : "IPRIO Corporation.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.86.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:e800::/32"
     ]
   }

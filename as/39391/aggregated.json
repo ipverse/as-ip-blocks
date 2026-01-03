@@ -1,13 +1,16 @@
 {
-  "asn": 39391,
-  "handle": "SANOS-AS",
-  "description": "SANOS CONSULTING INTERNATIONAL SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39391,
+  "metadata" : {
+    "handle" : "SANOS-AS",
+    "description" : "SANOS CONSULTING INTERNATIONAL SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.33.176.0/22",
       "89.47.91.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:bf00::/29"
     ]
   }

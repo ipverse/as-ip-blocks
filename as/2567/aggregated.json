@@ -1,14 +1,17 @@
 {
-  "asn": 2567,
-  "handle": "SLB-WESTERNGECO-AS",
-  "description": "Schlumberger Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2567,
+  "metadata" : {
+    "handle" : "SLB-WESTERNGECO-AS",
+    "description" : "Schlumberger Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.23.7.0/24",
       "192.23.13.0/24",
       "192.23.165.0/24",
       "212.192.155.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

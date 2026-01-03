@@ -1,14 +1,17 @@
 {
-  "asn": 53162,
-  "handle": "VOIPGLOBE-SERVICOS-COM",
-  "description": "VOIPGLOBE SERVICOS DE COM MULTIMIDIA VIA INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53162,
+  "metadata" : {
+    "handle" : "VOIPGLOBE-SERVICOS-COM",
+    "description" : "VOIPGLOBE SERVICOS DE COM MULTIMIDIA VIA INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.172.192.0/24",
       "186.208.112.0/20",
       "186.227.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:27d0::/32"
     ]
   }

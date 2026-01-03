@@ -1,9 +1,12 @@
 {
-  "asn": 213145,
-  "handle": "FIBIMNET",
-  "description": "FIBIM FIBERNET GSM SANAYI VE TICARET ANONIM SIRKETI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213145,
+  "metadata" : {
+    "handle" : "FIBIMNET",
+    "description" : "FIBIM FIBERNET GSM SANAYI VE TICARET ANONIM SIRKETI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.155.7.0/24",
       "185.14.172.0/22",
       "185.117.99.0/24",
@@ -12,6 +15,6 @@
       "188.125.172.0/23",
       "188.125.175.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

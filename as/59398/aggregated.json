@@ -1,14 +1,17 @@
 {
-  "asn": 59398,
-  "handle": "IDSYS-AS",
-  "description": "InterData Systems SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59398,
+  "metadata" : {
+    "handle" : "IDSYS-AS",
+    "description" : "InterData Systems SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.102.168.0/23",
       "80.96.245.0/24",
       "86.105.19.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:7400::/29"
     ]
   }

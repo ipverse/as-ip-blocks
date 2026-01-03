@@ -1,12 +1,15 @@
 {
-  "asn": 208223,
-  "handle": "FOXO-AS",
-  "description": "SHU-HAO TUNG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208223,
+  "metadata" : {
+    "handle" : "FOXO-AS",
+    "description" : "SHU-HAO TUNG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.25.104.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:af20::/36",
       "2401:af20:1a3b::/48",
       "2401:af20:1ad2::/48",

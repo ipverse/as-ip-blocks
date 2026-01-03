@@ -1,14 +1,17 @@
 {
-  "asn": 262428,
-  "handle": "LINK10-BR",
-  "description": "LINK10 BR",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262428,
+  "metadata" : {
+    "handle" : "LINK10-BR",
+    "description" : "LINK10 BR",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.82.152.0/22",
       "177.44.144.0/20",
       "191.6.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:13dc::/32"
     ]
   }

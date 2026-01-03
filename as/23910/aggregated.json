@@ -1,10 +1,13 @@
 {
-  "asn": 23910,
-  "handle": "CNGI-CERNET2-AS-AP",
-  "description": "China Next Generation Internet CERNET2",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 23910,
+  "metadata" : {
+    "handle" : "CNGI-CERNET2-AS-AP",
+    "description" : "China Next Generation Internet CERNET2",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:250::/31",
       "2001:da8::/32",
       "240c:c000::/20"

@@ -1,12 +1,15 @@
 {
-  "asn": 270915,
-  "handle": "NOVA-WEB-TELECOM",
-  "description": "Nova Web Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270915,
+  "metadata" : {
+    "handle" : "NOVA-WEB-TELECOM",
+    "description" : "Nova Web Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "201.140.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7370::/32"
     ]
   }

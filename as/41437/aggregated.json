@@ -1,12 +1,15 @@
 {
-  "asn": 41437,
-  "handle": "KNAPP-AS",
-  "description": "KNAPP AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41437,
+  "metadata" : {
+    "handle" : "KNAPP-AS",
+    "description" : "KNAPP AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.207.120.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:a00::/32"
     ]
   }

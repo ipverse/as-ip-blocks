@@ -1,9 +1,12 @@
 {
-  "asn": 6758,
-  "handle": "AS6758",
-  "description": "Monaco Telecom S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6758,
+  "metadata" : {
+    "handle" : "AS6758",
+    "description" : "Monaco Telecom S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.94.96.0/20",
       "82.113.0.0/19",
       "87.254.224.0/19",
@@ -22,7 +25,7 @@
       "195.78.0.0/19",
       "213.133.72.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:9080::/34",
       "2a07:9080:4000::/36"
     ]

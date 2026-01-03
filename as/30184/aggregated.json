@@ -1,11 +1,14 @@
 {
-  "asn": 30184,
-  "handle": "RESI-BGP1",
-  "description": "RESI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30184,
+  "metadata" : {
+    "handle" : "RESI-BGP1",
+    "description" : "RESI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.91.160.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

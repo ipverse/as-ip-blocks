@@ -1,9 +1,12 @@
 {
-  "asn": 1853,
-  "handle": "ACONET",
-  "description": "ACONET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1853,
+  "metadata" : {
+    "handle" : "ACONET",
+    "description" : "ACONET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.104.0.0/16",
       "138.22.0.0/16",
       "144.65.0.0/16",
@@ -21,7 +24,7 @@
       "194.246.32.0/24",
       "195.177.250.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:628::/29"
     ]
   }

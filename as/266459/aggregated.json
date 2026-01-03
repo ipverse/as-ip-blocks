@@ -1,12 +1,15 @@
 {
-  "asn": 266459,
-  "handle": "IBR-FIBRA-PROVEDOR",
-  "description": "IBR-FIBRA PROVEDOR DE BANDA LARGA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266459,
+  "metadata" : {
+    "handle" : "IBR-FIBRA-PROVEDOR-BANDA-LARGA",
+    "description" : "IBR-FIBRA PROVEDOR DE BANDA LARGA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.82.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3824::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 30263,
-  "handle": "COTNET",
-  "description": "Cal-Ore Telephone Co",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30263,
+  "metadata" : {
+    "handle" : "COTNET",
+    "description" : "Cal-Ore Telephone Co.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.36.192.0/20",
       "216.7.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:1000::/32"
     ]
   }

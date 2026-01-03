@@ -1,12 +1,15 @@
 {
-  "asn": 46677,
-  "handle": "CAROLINA-AIRLINK",
-  "description": "Carolina Airlink",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46677,
+  "metadata" : {
+    "handle" : "CAROLINA-AIRLINK",
+    "description" : "Carolina Airlink",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.253.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f920::/40"
     ]
   }

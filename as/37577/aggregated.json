@@ -1,9 +1,12 @@
 {
-  "asn": 37577,
-  "handle": "ORANGE-BF",
-  "description": "Orange Burkina Faso",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37577,
+  "metadata" : {
+    "handle" : "ORANGE-BF",
+    "description" : "Orange Burkina Faso",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.178.0.0/17",
       "102.178.128.0/18",
       "102.178.192.0/23",
@@ -52,7 +55,7 @@
       "197.239.112.0/22",
       "197.239.116.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f138::/32"
     ]
   }

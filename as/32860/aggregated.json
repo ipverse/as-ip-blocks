@@ -1,13 +1,16 @@
 {
-  "asn": 32860,
-  "handle": "CATS-NET-NETWORK",
-  "description": "Cats-Net Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32860,
+  "metadata" : {
+    "handle" : "CATS-NET-NETWORK",
+    "description" : "Cats-Net Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.219.28.0/24",
       "196.45.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43fc:2000::/48",
       "2c0f:f058::/32"
     ]

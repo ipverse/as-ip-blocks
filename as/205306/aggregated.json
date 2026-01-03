@@ -1,13 +1,16 @@
 {
-  "asn": 205306,
-  "handle": "ADVSCHEMA",
-  "description": "ADVANCED SCHEMA SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205306,
+  "metadata" : {
+    "handle" : "ADVSCHEMA",
+    "description" : "ADVANCED SCHEMA SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.222.192.0/22",
       "204.27.69.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:f140::/29"
     ]
   }

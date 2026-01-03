@@ -1,12 +1,15 @@
 {
-  "asn": 199516,
-  "handle": "PACKNET-AS",
-  "description": "PACKNET LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199516,
+  "metadata" : {
+    "handle" : "PACKNET-AS",
+    "description" : "PACKNET LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.13.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:f380::/29"
     ]
   }

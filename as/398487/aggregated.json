@@ -1,9 +1,12 @@
 {
-  "asn": 398487,
-  "handle": "ZEROOUTAGES",
-  "description": "ZeroOutages",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398487,
+  "metadata" : {
+    "handle" : "ZEROOUTAGES",
+    "description" : "ZeroOutages",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.190.191.0/24",
       "104.204.250.0/24",
       "162.213.70.0/23",
@@ -12,6 +15,6 @@
       "205.174.159.0/24",
       "216.245.134.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

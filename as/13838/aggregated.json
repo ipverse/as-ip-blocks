@@ -1,12 +1,15 @@
 {
-  "asn": 13838,
-  "handle": "EMERSON",
-  "description": "Emerson College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13838,
+  "metadata" : {
+    "handle" : "EMERSON",
+    "description" : "Emerson College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "172.99.212.0/22",
       "199.94.64.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

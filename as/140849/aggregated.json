@@ -1,14 +1,17 @@
 {
-  "asn": 140849,
-  "handle": "PANMTECHLIMITED-AS-AP",
-  "description": "Pan M Tech Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140849,
+  "metadata" : {
+    "handle" : "PANMTECHLIMITED-AS-AP",
+    "description" : "Pan M Tech Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.152.104.0/23",
       "138.252.88.0/24",
       "138.252.144.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:a80::/48"
     ]
   }

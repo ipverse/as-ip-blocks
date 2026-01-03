@@ -1,13 +1,16 @@
 {
-  "asn": 141398,
-  "handle": "SEARCHIT-AS-AP",
-  "description": "Search IT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141398,
+  "metadata" : {
+    "handle" : "SEARCHIT-AS-AP",
+    "description" : "Search IT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.140.166.0/24",
       "103.158.62.0/23",
       "103.177.123.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

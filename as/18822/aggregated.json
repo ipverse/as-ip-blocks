@@ -1,9 +1,12 @@
 {
-  "asn": 18822,
-  "handle": "MANQUEHUENET",
-  "description": "Manquehuenet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18822,
+  "metadata" : {
+    "handle" : "MANQUEHUENET",
+    "description" : "Manquehuenet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "152.230.7.0/24",
       "152.230.17.0/24",
       "152.230.18.0/23",
@@ -220,7 +223,7 @@
       "201.238.252.0/24",
       "201.238.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:8e0::/47"
     ]
   }

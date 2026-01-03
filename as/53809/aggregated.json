@@ -1,13 +1,16 @@
 {
-  "asn": 53809,
-  "handle": "TTUHSC-ELP",
-  "description": "Texas Tech University Health Sciences Center at El Paso",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53809,
+  "metadata" : {
+    "handle" : "TTUHSC-ELP",
+    "description" : "Texas Tech University Health Sciences Center at El Paso",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.111.0.0/20",
       "100.43.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:805::/44"
     ]
   }

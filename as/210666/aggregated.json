@@ -1,13 +1,16 @@
 {
-  "asn": 210666,
-  "handle": "MIXTRIO-AS",
-  "description": "MIXTRIO SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210666,
+  "metadata" : {
+    "handle" : "MIXTRIO-AS",
+    "description" : "MIXTRIO SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.216.22.0/24",
       "185.133.83.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:11c8::/48"
     ]
   }

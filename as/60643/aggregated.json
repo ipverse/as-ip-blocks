@@ -1,11 +1,14 @@
 {
-  "asn": 60643,
-  "handle": "IMTSA-AS",
-  "description": "FGBU FIOKO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60643,
+  "metadata" : {
+    "handle" : "IMTSA-AS",
+    "description" : "FGBU FIOKO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.250.167.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

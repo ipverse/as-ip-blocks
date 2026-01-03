@@ -1,9 +1,12 @@
 {
-  "asn": 808,
-  "handle": "GONET-ASN-1",
-  "description": "GONET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 808,
+  "metadata" : {
+    "handle" : "GONET-ASN-1",
+    "description" : "GONET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.218.0.0/17",
       "142.15.0.0/16",
       "142.18.0.0/16",
@@ -16,6 +19,6 @@
       "206.177.197.0/24",
       "206.178.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

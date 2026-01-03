@@ -1,12 +1,15 @@
 {
-  "asn": 400679,
-  "handle": "UBERDUCK",
-  "description": "Uberduck LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400679,
+  "metadata" : {
+    "handle" : "UBERDUCK",
+    "description" : "Uberduck LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.168.92.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fb82::/36"
     ]
   }

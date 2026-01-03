@@ -1,9 +1,12 @@
 {
-  "asn": 142286,
-  "handle": "HKIDC-AS-AP",
-  "description": "LUOGELANG (FRANCE) LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142286,
+  "metadata" : {
+    "handle" : "HKIDC-AS-AP",
+    "description" : "LUOGELANG (FRANCE) LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.207.64.0/18",
       "154.89.64.0/18",
       "156.225.132.0/22",
@@ -18,6 +21,6 @@
       "156.253.64.0/18",
       "156.254.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

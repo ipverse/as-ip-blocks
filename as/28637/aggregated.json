@@ -1,15 +1,18 @@
 {
-  "asn": 28637,
-  "handle": "PROC-DADOS-S-PAULO-PRODESP",
-  "description": "Cia Proc. de Dados do Estado de S Paulo - Prodesp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28637,
+  "metadata" : {
+    "handle" : "PROC-DADOS-S-PAULO-PRODESP",
+    "description" : "Cia Proc. de Dados do Estado de S Paulo - Prodesp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.233.242.0/23",
       "186.233.244.0/22",
       "200.144.0.0/19",
       "201.55.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:18c::/32"
     ]
   }

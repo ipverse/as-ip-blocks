@@ -1,12 +1,15 @@
 {
-  "asn": 12574,
-  "handle": "ROUTING",
-  "description": "Hosting.de GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12574,
+  "metadata" : {
+    "handle" : "ROUTING",
+    "description" : "Hosting.de GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.160.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:17d8::/32"
     ]
   }

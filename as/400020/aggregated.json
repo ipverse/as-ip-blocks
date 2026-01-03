@@ -1,11 +1,14 @@
 {
-  "asn": 400020,
-  "handle": "GRANTEP-ASN",
-  "description": "Grant Supplies",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400020,
+  "metadata" : {
+    "handle" : "GRANTEP-ASN",
+    "description" : "Grant Supplies",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.140.220.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

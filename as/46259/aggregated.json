@@ -1,12 +1,15 @@
 {
-  "asn": 46259,
-  "handle": "CTDN-AS",
-  "description": "Donor Network West",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46259,
+  "metadata" : {
+    "handle" : "CTDN-AS",
+    "description" : "Donor Network West",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.250.134.0/24",
       "216.211.169.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

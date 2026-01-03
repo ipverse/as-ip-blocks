@@ -1,12 +1,15 @@
 {
-  "asn": 45752,
-  "handle": "PWA-AS-TH",
-  "description": "Provincial Waterworks Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45752,
+  "metadata" : {
+    "handle" : "PWA-AS-TH",
+    "description" : "Provincial Waterworks Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "110.76.152.0/23",
       "110.76.154.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

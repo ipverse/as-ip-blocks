@@ -1,9 +1,12 @@
 {
-  "asn": 39279,
-  "handle": "CTS-MD",
-  "description": "Information Technology and Cyber Security Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39279,
+  "metadata" : {
+    "handle" : "CTS-MD",
+    "description" : "Information Technology and Cyber Security Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.97.56.0/22",
       "89.32.224.0/20",
       "185.33.104.0/22",
@@ -11,6 +14,6 @@
       "185.108.138.0/24",
       "185.108.180.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

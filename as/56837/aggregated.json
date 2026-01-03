@@ -1,14 +1,17 @@
 {
-  "asn": 56837,
-  "handle": "TIGRON-AS",
-  "description": "Tigron bv",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56837,
+  "metadata" : {
+    "handle" : "TIGRON-AS",
+    "description" : "Tigron bv",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.22.16.0/24",
       "31.22.20.0/22",
       "86.39.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1808::/48",
       "2a00:6ec0:100::/40",
       "2a00:6ec0:300::/40",

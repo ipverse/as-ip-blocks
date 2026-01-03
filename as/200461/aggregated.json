@@ -1,16 +1,19 @@
 {
-  "asn": 200461,
-  "handle": "V6NODE-AS",
-  "description": "Ian David Klemm",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200461,
+  "metadata" : {
+    "handle" : "V6NODE-AS",
+    "description" : "Ian David Klemm",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.90.44.0/24",
       "178.18.148.0/24",
       "178.251.228.0/24",
       "185.23.5.0/24",
       "194.110.175.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:bfc7::/32",
       "2a0e:fd45:2ec0::/48"
     ]

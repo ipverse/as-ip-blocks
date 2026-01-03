@@ -1,12 +1,15 @@
 {
-  "asn": 55904,
-  "handle": "KOGAKUIN-AS",
-  "description": "KOGAKUIN University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55904,
+  "metadata" : {
+    "handle" : "KOGAKUIN-AS",
+    "description" : "KOGAKUIN University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "133.80.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:456::/48"
     ]
   }

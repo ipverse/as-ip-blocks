@@ -1,12 +1,15 @@
 {
-  "asn": 55380,
-  "handle": "KAINS",
-  "description": "Kanazawa University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55380,
+  "metadata" : {
+    "handle" : "KAINS",
+    "description" : "Kanazawa University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "133.28.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:6400::/48"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 52528,
-  "handle": "REDE-NETS",
-  "description": "Rede Nets Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52528,
+  "metadata" : {
+    "handle" : "REDE-NETS",
+    "description" : "Rede Nets Ltda.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.205.56.0/22",
       "179.106.80.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2e90::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 27951,
-  "handle": "MEDIA-COMMERCE-PARTNERS",
-  "description": "Media Commerce Partners S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27951,
+  "metadata" : {
+    "handle" : "MEDIA-COMMERCE-PARTNERS",
+    "description" : "Media Commerce Partners S.A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.156.255.0/24",
       "38.211.144.0/23",
       "38.224.61.0/24",
@@ -49,7 +52,7 @@
       "200.110.168.0/21",
       "201.130.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:490::/36",
       "2800:490:4000::/36",
       "2800:490:8000::/36",

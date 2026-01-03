@@ -1,12 +1,15 @@
 {
-  "asn": 133670,
-  "handle": "RJSERVICE-AS-IN",
-  "description": "RJ SERVICES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133670,
+  "metadata" : {
+    "handle" : "RJSERVICE-AS-IN",
+    "description" : "RJ SERVICES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.100.245.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:9640::/48"
     ]
   }

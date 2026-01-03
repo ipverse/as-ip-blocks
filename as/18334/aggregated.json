@@ -1,9 +1,12 @@
 {
-  "asn": 18334,
-  "handle": "GCNCATV-AS",
-  "description": "Gyounggidongbu cable tv co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18334,
+  "metadata" : {
+    "handle" : "GCNCATV-AS",
+    "description" : "Gyounggidongbu cable tv co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "101.235.176.0/20",
       "103.23.84.0/22",
       "121.100.64.0/22",
@@ -14,6 +17,6 @@
       "121.100.124.0/22",
       "175.28.32.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 22125,
-  "handle": "PFPC",
-  "description": "PNC Bank N.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22125,
+  "metadata" : {
+    "handle" : "PFPC",
+    "description" : "PNC Bank N.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.150.0.0/21",
       "161.150.40.0/21",
       "161.150.48.0/21",
@@ -13,6 +16,6 @@
       "161.150.120.0/23",
       "161.150.192.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

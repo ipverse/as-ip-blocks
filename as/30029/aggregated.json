@@ -1,9 +1,12 @@
 {
-  "asn": 30029,
-  "handle": "DOBSONTECHTTS",
-  "description": "Dobson Technologies - Transport and Telecom Solutions LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30029,
+  "metadata" : {
+    "handle" : "DOBSONTECHTTS",
+    "description" : "Dobson Technologies - Transport and Telecom Solutions LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "57.138.0.0/16",
       "64.19.96.0/19",
       "64.137.160.0/19",
@@ -16,7 +19,7 @@
       "206.72.224.0/19",
       "216.198.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:b800::/32"
     ]
   }

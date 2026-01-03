@@ -1,14 +1,17 @@
 {
-  "asn": 273205,
-  "handle": "WLINK-TELECOM-CA",
-  "description": "WLINK TELECOM CA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273205,
+  "metadata" : {
+    "handle" : "WLINK-TELECOM-CA",
+    "description" : "WLINK TELECOM CA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.196.192.0/22",
       "38.196.196.0/24",
       "38.196.200.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:9650:8000::/36"
     ]
   }

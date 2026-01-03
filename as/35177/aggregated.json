@@ -1,9 +1,12 @@
 {
-  "asn": 35177,
-  "handle": "ASI-AS",
-  "description": "PJSC Rostelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35177,
+  "metadata" : {
+    "handle" : "ASI-AS",
+    "description" : "PJSC Rostelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.139.192.0/21",
       "5.139.204.0/23",
       "5.139.207.0/24",
@@ -15,6 +18,6 @@
       "94.233.128.0/21",
       "178.35.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

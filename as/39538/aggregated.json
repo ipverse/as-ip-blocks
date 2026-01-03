@@ -1,14 +1,17 @@
 {
-  "asn": 39538,
-  "handle": "DAKOSY-AS",
-  "description": "DAKOSY Datenkommunikationssystem AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39538,
+  "metadata" : {
+    "handle" : "DAKOSY-AS",
+    "description" : "DAKOSY Datenkommunikationssystem AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.15.191.0/24",
       "194.31.221.0/24",
       "195.244.0.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2308::/48"
     ]
   }

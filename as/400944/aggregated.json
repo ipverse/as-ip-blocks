@@ -1,13 +1,17 @@
 {
-  "asn": 400944,
-  "handle": "POPUP-WIFI-AS",
-  "description": "PopUp WiFi LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400944,
+  "metadata" : {
+    "handle" : "POPUP-WIFI-AS",
+    "description" : "PopUp WiFi LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.234.137.0/24",
       "104.234.141.0/24",
+      "104.252.243.0/24",
       "104.253.133.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

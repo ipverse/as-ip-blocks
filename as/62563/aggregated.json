@@ -1,9 +1,12 @@
 {
-  "asn": 62563,
-  "handle": "AS-GLOBALTELEHOST",
-  "description": "GLOBALTELEHOST Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62563,
+  "metadata" : {
+    "handle" : "AS-GLOBALTELEHOST",
+    "description" : "GLOBALTELEHOST Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.101.86.0/24",
       "23.162.56.0/24",
       "23.162.200.0/24",
@@ -30,7 +33,7 @@
       "208.69.79.0/24",
       "216.39.250.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fec3::/39",
       "2602:fec3:200::/40",
       "2607:a140:900::/40",

@@ -1,12 +1,15 @@
 {
-  "asn": 399338,
-  "handle": "CENTRAL-VALLEY-INTERNET",
-  "description": "Central Valley Internet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399338,
+  "metadata" : {
+    "handle" : "CENTRAL-VALLEY-INTERNET",
+    "description" : "Central Valley Internet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.174.48.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fcbf::/36"
     ]
   }

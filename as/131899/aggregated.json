@@ -1,9 +1,12 @@
 {
-  "asn": 131899,
-  "handle": "DIG-NET",
-  "description": "DIG Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131899,
+  "metadata" : {
+    "handle" : "DIG-NET",
+    "description" : "DIG Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.49.64.0/22",
       "103.51.4.0/22",
       "103.52.148.0/22",
@@ -13,6 +16,6 @@
       "103.91.125.0/24",
       "219.100.240.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

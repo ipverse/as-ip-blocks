@@ -1,13 +1,16 @@
 {
-  "asn": 41561,
-  "handle": "SRYHMA-AS",
-  "description": "Suomen Osuuskauppojen Keskuskunta",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41561,
+  "metadata" : {
+    "handle" : "SRYHMA-AS",
+    "description" : "Suomen Osuuskauppojen Keskuskunta",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.201.244.0/22",
       "195.78.70.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:83c0::/29"
     ]
   }

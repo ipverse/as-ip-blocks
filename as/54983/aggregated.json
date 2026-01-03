@@ -1,13 +1,16 @@
 {
-  "asn": 54983,
-  "handle": "FSRLAS-01",
-  "description": "FirstService Residential Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54983,
+  "metadata" : {
+    "handle" : "FSRLAS-01",
+    "description" : "FirstService Residential Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.28.116.0/24",
       "8.38.82.0/23",
       "199.60.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 205275,
-  "handle": "ROMARG",
-  "description": "ROMARG SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205275,
+  "metadata" : {
+    "handle" : "ROMARG",
+    "description" : "ROMARG SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.181.66.0/23",
       "85.204.19.0/24",
       "86.104.13.0/24",
@@ -39,6 +42,6 @@
       "188.241.152.0/24",
       "194.102.33.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

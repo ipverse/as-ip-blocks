@@ -1,12 +1,15 @@
 {
-  "asn": 215444,
-  "handle": "MOA",
-  "description": "MOA Group GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215444,
+  "metadata" : {
+    "handle" : "MOA",
+    "description" : "MOA Group GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.242.185.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:ee0::/48",
       "2001:67c:ee4::/48",
       "2001:67c:ee8::/48",

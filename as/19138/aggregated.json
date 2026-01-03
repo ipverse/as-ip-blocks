@@ -1,12 +1,15 @@
 {
-  "asn": 19138,
-  "handle": "SWEET-BRIAR-COLLEGE",
-  "description": "Sweet Briar College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19138,
+  "metadata" : {
+    "handle" : "SWEET-BRIAR-COLLEGE",
+    "description" : "Sweet Briar College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.149.94.0/24",
       "198.28.32.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

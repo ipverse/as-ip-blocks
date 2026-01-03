@@ -1,13 +1,16 @@
 {
-  "asn": 31812,
-  "handle": "PBSO-INTERNET",
-  "description": "Palm Beach County Sheriff\u0027s Office",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31812,
+  "metadata" : {
+    "handle" : "PBSO-INTERNET",
+    "description" : "Palm Beach County Sheriff's Office",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.64.204.0/23",
       "205.167.198.0/23",
       "209.149.216.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

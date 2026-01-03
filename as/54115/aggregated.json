@@ -1,13 +1,16 @@
 {
-  "asn": 54115,
-  "handle": "FACEBOOK-CORP",
-  "description": "Facebook Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54115,
+  "metadata" : {
+    "handle" : "FACEBOOK-CORP",
+    "description" : "Facebook Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.114.128.0/20",
       "199.201.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:10d:c090::/44"
     ]
   }

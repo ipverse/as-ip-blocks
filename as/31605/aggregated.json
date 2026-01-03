@@ -1,12 +1,15 @@
 {
-  "asn": 31605,
-  "handle": "ALLOY-NETWORKS",
-  "description": "Titanium OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31605,
+  "metadata" : {
+    "handle" : "ALLOY-NETWORKS",
+    "description" : "Titanium OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.139.107.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:cec0::/29"
     ]
   }

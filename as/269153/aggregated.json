@@ -1,12 +1,15 @@
 {
-  "asn": 269153,
-  "handle": "CONECTE-TELECOM",
-  "description": "Conecte Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269153,
+  "metadata" : {
+    "handle" : "CONECTE-TELECOM",
+    "description" : "Conecte Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.180.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6038::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 47159,
-  "handle": "CELLKABEL",
-  "description": "Celldomolki Kabeltelevizio Kft",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47159,
+  "metadata" : {
+    "handle" : "CELLKABEL",
+    "description" : "Celldomolki Kabeltelevizio Kft.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.88.94.0/23",
       "62.77.213.0/24",
       "62.77.234.0/24",
@@ -36,6 +39,6 @@
       "213.181.214.0/23",
       "213.197.64.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

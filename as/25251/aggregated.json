@@ -1,9 +1,12 @@
 {
-  "asn": 25251,
-  "handle": "ARTCON-AS",
-  "description": "Alpha Online Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25251,
+  "metadata" : {
+    "handle" : "ARTCON-AS",
+    "description" : "Alpha Online Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.94.32.0/23",
       "81.94.35.0/24",
       "81.94.37.0/24",
@@ -11,6 +14,6 @@
       "81.94.42.0/24",
       "81.94.44.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

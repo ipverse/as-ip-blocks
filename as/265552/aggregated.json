@@ -1,12 +1,15 @@
 {
-  "asn": 265552,
-  "handle": "BAJA-DATACENTER",
-  "description": "Baja Datacenter SA de CV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265552,
+  "metadata" : {
+    "handle" : "BAJA-DATACENTER",
+    "description" : "Baja Datacenter SA de CV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.239.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:303::/32"
     ]
   }

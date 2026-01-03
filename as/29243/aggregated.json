@@ -1,14 +1,17 @@
 {
-  "asn": 29243,
-  "handle": "MMD-AS",
-  "description": "Domainkeskus Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29243,
+  "metadata" : {
+    "handle" : "MMD-AS",
+    "description" : "Domainkeskus Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.83.0.0/20",
       "109.163.208.0/21",
       "185.168.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1430::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 56667,
-  "handle": "INTERCOM-AS",
-  "description": "Intercom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56667,
+  "metadata" : {
+    "handle" : "INTERCOM-AS",
+    "description" : "Intercom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.226.140.0/22",
       "176.113.120.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

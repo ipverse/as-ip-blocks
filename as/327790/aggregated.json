@@ -1,9 +1,12 @@
 {
-  "asn": 327790,
-  "handle": "WIRELS-CONNECT",
-  "description": "Wirels Connect (PTY) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 327790,
+  "metadata" : {
+    "handle" : "WIRELS-CONNECT",
+    "description" : "Wirels Connect (PTY) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.73.251.0/24",
       "161.123.35.0/24",
       "161.123.66.0/24",
@@ -15,7 +18,7 @@
       "161.123.220.0/24",
       "204.89.142.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:d300::/48",
       "2a0f:d301::/48",
       "2a0f:d302::/48"

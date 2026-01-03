@@ -1,12 +1,15 @@
 {
-  "asn": 137210,
-  "handle": "RAPDNET",
-  "description": "NETRPD SERVICES PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137210,
+  "metadata" : {
+    "handle" : "RAPDNET",
+    "description" : "NETRPD SERVICES PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.223.0.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:2a40::/48"
     ]
   }

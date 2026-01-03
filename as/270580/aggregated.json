@@ -1,12 +1,15 @@
 {
-  "asn": 270580,
-  "handle": "VIANET-TELECOM",
-  "description": "ViaNet -Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270580,
+  "metadata" : {
+    "handle" : "VIANET-TELECOM",
+    "description" : "ViaNet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "189.126.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6e2c::/32"
     ]
   }

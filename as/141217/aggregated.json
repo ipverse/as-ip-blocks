@@ -1,12 +1,15 @@
 {
-  "asn": 141217,
-  "handle": "ABS1-AS-AP",
-  "description": "A.B.S. Online Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141217,
+  "metadata" : {
+    "handle" : "ABS1-AS-AP",
+    "description" : "A.B.S. Online Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.156.177.0/24",
       "122.50.11.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

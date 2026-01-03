@@ -1,9 +1,12 @@
 {
-  "asn": 22024,
-  "handle": "SPLUNK-WEST",
-  "description": "Splunk Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22024,
+  "metadata" : {
+    "handle" : "SPLUNK-WEST",
+    "description" : "Splunk Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.26.0.0/24",
       "50.216.96.0/24",
       "50.220.40.0/24",
@@ -12,7 +15,7 @@
       "204.107.141.0/24",
       "212.187.221.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:8bc0:1042::/48"
     ]
   }

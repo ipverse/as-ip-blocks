@@ -1,9 +1,12 @@
 {
-  "asn": 12605,
-  "handle": "LIWEST-AT",
-  "description": "LIWEST Kabelmedien GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12605,
+  "metadata" : {
+    "handle" : "LIWEST-AT",
+    "description" : "LIWEST Kabelmedien GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.10.128.0/17",
       "83.164.0.0/17",
       "86.56.128.0/17",
@@ -12,7 +15,7 @@
       "212.33.32.0/19",
       "212.241.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:cf8::/32"
     ]
   }

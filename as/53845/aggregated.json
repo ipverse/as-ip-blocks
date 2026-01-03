@@ -1,9 +1,12 @@
 {
-  "asn": 53845,
-  "handle": "BBDTEL",
-  "description": "Broadband Dynamics LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53845,
+  "metadata" : {
+    "handle" : "BBDTEL",
+    "description" : "Broadband Dynamics LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.23.225.0/24",
       "8.26.78.0/23",
       "8.37.87.0/24",
@@ -14,6 +17,6 @@
       "208.110.154.0/24",
       "216.162.207.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

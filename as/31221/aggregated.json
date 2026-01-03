@@ -1,9 +1,12 @@
 {
-  "asn": 31221,
-  "handle": "NLT-FR",
-  "description": "nLighten France SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31221,
+  "metadata" : {
+    "handle" : "NLT-FR",
+    "description" : "nLighten France SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.252.57.0/24",
       "144.56.28.0/24",
       "163.5.22.0/24",
@@ -12,7 +15,7 @@
       "193.218.120.0/24",
       "217.13.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:6f0::/32"
     ]
   }

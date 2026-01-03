@@ -1,9 +1,12 @@
 {
-  "asn": 396479,
-  "handle": "MAILGUN-US",
-  "description": "Mailgun Technologies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396479,
+  "metadata" : {
+    "handle" : "MAILGUN-US",
+    "description" : "Mailgun Technologies Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.45.163.0/24",
       "69.72.32.0/20",
       "134.199.39.0/24",
@@ -33,6 +36,6 @@
       "216.163.181.0/24",
       "216.163.182.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

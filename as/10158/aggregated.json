@@ -1,9 +1,12 @@
 {
-  "asn": 10158,
-  "handle": "KAKAO-10158-AS",
-  "description": "Kakao Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10158,
+  "metadata" : {
+    "handle" : "KAKAO-10158-AS",
+    "description" : "Kakao Corp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.27.150.0/23",
       "113.61.106.0/23",
       "139.150.0.0/21",
@@ -11,7 +14,7 @@
       "211.183.250.0/24",
       "211.231.96.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:4600::/32"
     ]
   }

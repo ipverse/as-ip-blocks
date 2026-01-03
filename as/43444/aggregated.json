@@ -1,9 +1,12 @@
 {
-  "asn": 43444,
-  "handle": "BNS-AS",
-  "description": "Fast Servers (Pty) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43444,
+  "metadata" : {
+    "handle" : "BNS-AS",
+    "description" : "Fast Servers (Pty) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.134.0.0/20",
       "45.135.1.0/24",
       "45.135.2.0/23",
@@ -20,6 +23,6 @@
       "194.99.27.0/24",
       "217.145.225.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

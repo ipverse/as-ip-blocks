@@ -1,13 +1,16 @@
 {
-  "asn": 64019,
-  "handle": "OPENSTACK-HK",
-  "description": "OpenStack Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64019,
+  "metadata" : {
+    "handle" : "OPENSTACK-HK",
+    "description" : "OpenStack Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.206.85.0/24",
       "184.184.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:8808:3e00::/39"
     ]
   }

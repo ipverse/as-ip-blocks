@@ -1,12 +1,15 @@
 {
-  "asn": 8763,
-  "handle": "DENIC-AS",
-  "description": "DENIC eG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8763,
+  "metadata" : {
+    "handle" : "DENIC-AS",
+    "description" : "DENIC eG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.91.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:568::/32"
     ]
   }

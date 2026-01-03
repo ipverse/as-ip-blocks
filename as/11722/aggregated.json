@@ -1,9 +1,12 @@
 {
-  "asn": 11722,
-  "handle": "WFC-ASN",
-  "description": "Westelcom Internet Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11722,
+  "metadata" : {
+    "handle" : "WFC-ASN",
+    "description" : "Westelcom Internet Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.186.208.0/24",
       "38.2.148.0/22",
       "38.110.114.0/23",
@@ -32,7 +35,7 @@
       "209.23.96.0/22",
       "209.23.100.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:1b00::/32",
       "2606:68c0::/32"
     ]

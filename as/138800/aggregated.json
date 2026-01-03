@@ -1,12 +1,15 @@
 {
-  "asn": 138800,
-  "handle": "PEERNPL-AS-IN",
-  "description": "Peer Networks Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138800,
+  "metadata" : {
+    "handle" : "PEERNPL-AS-IN",
+    "description" : "Peer Networks Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.136.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:c7c0::/32"
     ]
   }

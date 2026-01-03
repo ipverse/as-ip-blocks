@@ -1,9 +1,12 @@
 {
-  "asn": 215638,
-  "handle": "AS-CILIX-LIMITED",
-  "description": "Cilix Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215638,
+  "metadata" : {
+    "handle" : "AS-CILIX-LIMITED",
+    "description" : "Cilix Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.84.169.0/24",
       "82.27.23.0/24",
       "89.117.218.0/24",
@@ -13,7 +16,7 @@
       "185.21.255.0/24",
       "213.218.252.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:f700::/29"
     ]
   }

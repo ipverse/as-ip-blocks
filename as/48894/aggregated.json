@@ -1,9 +1,12 @@
 {
-  "asn": 48894,
-  "handle": "OPTIMUS-AS",
-  "description": "Optimus IT d.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48894,
+  "metadata" : {
+    "handle" : "OPTIMUS-AS",
+    "description" : "Optimus IT d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.54.86.0/24",
       "91.132.94.0/24",
       "91.223.182.0/24",
@@ -15,7 +18,7 @@
       "193.104.240.0/24",
       "195.206.228.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2468::/48",
       "2a03:f80:386::/48",
       "2a09:37c0::/29"

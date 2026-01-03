@@ -1,13 +1,16 @@
 {
-  "asn": 49252,
-  "handle": "PROLINK-AS",
-  "description": "SC Prolink System SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49252,
+  "metadata" : {
+    "handle" : "PROLINK-AS",
+    "description" : "SC Prolink System SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.204.40.0/24",
       "89.40.239.0/24",
       "188.211.235.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 12810,
-  "handle": "VIPNET-AS",
-  "description": "A1 Hrvatska d.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12810,
+  "metadata" : {
+    "handle" : "VIPNET-AS",
+    "description" : "A1 Hrvatska d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.45.128.0/17",
       "37.244.128.0/17",
       "77.237.96.0/19",
@@ -16,7 +19,7 @@
       "212.15.160.0/19",
       "212.91.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1bb8::/32"
     ]
   }

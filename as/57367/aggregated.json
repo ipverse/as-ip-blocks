@@ -1,9 +1,12 @@
 {
-  "asn": 57367,
-  "handle": "ECO-ATMAN-PL",
-  "description": "Atman Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57367,
+  "metadata" : {
+    "handle" : "ECO-ATMAN-PL",
+    "description" : "Atman Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.186.80.0/21",
       "77.79.227.0/24",
       "77.79.248.0/24",
@@ -24,7 +27,7 @@
       "213.189.56.0/24",
       "213.189.58.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1a68:19::/48",
       "2001:1a68:ec00::/40"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 150554,
-  "handle": "IDNIC-JTIG-AS-ID",
-  "description": "PT Jaringan Tiang Indonesia Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150554,
+  "metadata" : {
+    "handle" : "IDNIC-JTIG-AS-ID",
+    "description" : "PT Jaringan Tiang Indonesia Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.167.156.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:83c0::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 45062,
-  "handle": "NETEASE-NETWORK",
-  "description": "NetEase Building No.16 Ke Yun Road",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45062,
+  "metadata" : {
+    "handle" : "NETEASE-NETWORK",
+    "description" : "NetEase Building No.16 Ke Yun Road",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "42.186.0.0/16",
       "45.127.129.0/24",
       "45.127.131.0/24",
@@ -102,7 +105,7 @@
       "223.252.221.0/24",
       "223.252.222.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:c80::/32",
       "2407:ad80::/32",
       "2407:ae80::/32"

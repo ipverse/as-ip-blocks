@@ -1,9 +1,12 @@
 {
-  "asn": 45800,
-  "handle": "SSRU-AS-AP",
-  "description": "Suan sunandha Rajabhat University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45800,
+  "metadata" : {
+    "handle" : "SSRU-AS-AP",
+    "description" : "Suan sunandha Rajabhat University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.156.160.0/21",
       "58.137.217.0/24",
       "58.137.218.0/24",
@@ -16,7 +19,7 @@
       "203.209.82.0/24",
       "222.123.0.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:a000:17::/48"
     ]
   }

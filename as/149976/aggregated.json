@@ -1,12 +1,15 @@
 {
-  "asn": 149976,
-  "handle": "ADSNETWORK-AS-ID",
-  "description": "PT Adhelin Data Solution",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149976,
+  "metadata" : {
+    "handle" : "ADSNETWORK-AS-ID",
+    "description" : "PT Adhelin Data Solution",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.157.62.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:91c0::/48"
     ]
   }

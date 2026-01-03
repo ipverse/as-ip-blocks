@@ -1,12 +1,15 @@
 {
-  "asn": 202509,
-  "handle": "CLOUDCITY",
-  "description": "Cloud City Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202509,
+  "metadata" : {
+    "handle" : "CLOUDCITY",
+    "description" : "Cloud City Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.220.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:f240::/29"
     ]
   }

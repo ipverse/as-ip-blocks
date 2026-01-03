@@ -1,9 +1,12 @@
 {
-  "asn": 395261,
-  "handle": "AS-HCCL-7",
-  "description": "Hay Communications Co-operative Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395261,
+  "metadata" : {
+    "handle" : "AS-HCCL-7",
+    "description" : "Hay Communications Co-operative Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.155.128.0/22",
       "45.59.96.0/22",
       "104.247.100.0/22",
@@ -12,7 +15,7 @@
       "163.182.240.0/22",
       "163.182.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:4980::/32"
     ]
   }

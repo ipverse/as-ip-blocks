@@ -1,11 +1,14 @@
 {
-  "asn": 40100,
-  "handle": "ALURIUM",
-  "description": "Alurium Hosting",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40100,
+  "metadata" : {
+    "handle" : "ALURIUM",
+    "description" : "Alurium Hosting",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.68.156.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

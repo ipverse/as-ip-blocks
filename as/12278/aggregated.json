@@ -1,11 +1,14 @@
 {
-  "asn": 12278,
-  "handle": "AHMC-DC-01",
-  "description": "AHMC HEALTHCARE INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12278,
+  "metadata" : {
+    "handle" : "AHMC-DC-01",
+    "description" : "AHMC HEALTHCARE INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.185.133.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

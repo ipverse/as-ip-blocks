@@ -1,13 +1,16 @@
 {
-  "asn": 17648,
-  "handle": "HECL-AS",
-  "description": "Hughes Communications India Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17648,
+  "metadata" : {
+    "handle" : "HECL-AS",
+    "description" : "Hughes Communications India Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "110.50.32.0/19",
       "202.134.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:2e00::/32"
     ]
   }

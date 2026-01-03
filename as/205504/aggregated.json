@@ -1,12 +1,15 @@
 {
-  "asn": 205504,
-  "handle": "FAL-AS",
-  "description": "Skylink Networking Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205504,
+  "metadata" : {
+    "handle" : "FAL-AS",
+    "description" : "Skylink Networking Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.216.44.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:b2c0::/48"
     ]
   }

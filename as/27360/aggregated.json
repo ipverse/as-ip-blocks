@@ -1,13 +1,16 @@
 {
-  "asn": 27360,
-  "handle": "KWIKTRIP-AS",
-  "description": "Kwik Trip Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27360,
+  "metadata" : {
+    "handle" : "KWIKTRIP-AS",
+    "description" : "Kwik Trip Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.92.149.0/24",
       "204.86.195.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:13c:8000::/44"
     ]
   }

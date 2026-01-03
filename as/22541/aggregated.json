@@ -1,9 +1,12 @@
 {
-  "asn": 22541,
-  "handle": "MEGALINK",
-  "description": "MEGALINK S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22541,
+  "metadata" : {
+    "handle" : "MEGALINK",
+    "description" : "MEGALINK S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.14.64.0/19",
       "190.14.96.0/22",
       "190.14.100.0/24",
@@ -18,7 +21,7 @@
       "190.14.124.0/22",
       "200.75.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:7680::/36",
       "2803:7680:4000::/36",
       "2803:7680:6000::/36",

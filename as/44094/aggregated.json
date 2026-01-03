@@ -1,15 +1,18 @@
 {
-  "asn": 44094,
-  "handle": "WEBHOST1-AS",
-  "description": "Webhost LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44094,
+  "metadata" : {
+    "handle" : "WEBHOST1-AS",
+    "description" : "Webhost LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.213.248.0/24",
       "91.217.9.0/24",
       "91.236.136.0/24",
       "185.179.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:8d80::/48"
     ]
   }

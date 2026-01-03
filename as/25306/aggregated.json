@@ -1,12 +1,15 @@
 {
-  "asn": 25306,
-  "handle": "INSTITUTE-ISIRAN",
-  "description": "IsIran",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25306,
+  "metadata" : {
+    "handle" : "INSTITUTE-ISIRAN",
+    "description" : "IsIran",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.28.32.0/19",
       "194.225.101.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

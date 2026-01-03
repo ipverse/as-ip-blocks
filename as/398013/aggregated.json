@@ -1,9 +1,12 @@
 {
-  "asn": 398013,
-  "handle": "NGX-NETWORKS",
-  "description": "NGX Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398013,
+  "metadata" : {
+    "handle" : "NGX-NETWORKS",
+    "description" : "NGX Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.147.112.0/24",
       "38.22.228.0/23",
       "38.69.216.0/23",
@@ -19,7 +22,7 @@
       "199.188.136.0/21",
       "206.225.13.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:70c0::/32",
       "2806:34b::/32",
       "2806:3d0::/32"

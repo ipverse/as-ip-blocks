@@ -1,9 +1,12 @@
 {
-  "asn": 210625,
-  "handle": "WECOM-AS",
-  "description": "Wecom Mobile Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210625,
+  "metadata" : {
+    "handle" : "WECOM-AS",
+    "description" : "Wecom Mobile Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.229.103.0/24",
       "83.229.111.0/24",
       "141.226.55.0/24",
@@ -11,7 +14,7 @@
       "147.236.98.0/23",
       "147.236.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:54c0::/29"
     ]
   }

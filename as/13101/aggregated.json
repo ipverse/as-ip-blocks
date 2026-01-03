@@ -1,9 +1,12 @@
 {
-  "asn": 13101,
-  "handle": "TNG-AS",
-  "description": "TNG Stadtnetz GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13101,
+  "metadata" : {
+    "handle" : "TNG-AS",
+    "description" : "TNG Stadtnetz GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.145.236.0/22",
       "46.22.152.0/21",
       "62.93.0.0/19",
@@ -38,7 +41,7 @@
       "217.26.232.0/21",
       "217.70.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:a14::/48",
       "2a00:12d0::/29",
       "2a03:c140::/29",

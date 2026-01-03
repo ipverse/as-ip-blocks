@@ -1,15 +1,18 @@
 {
-  "asn": 42459,
-  "handle": "FOBUL",
-  "description": "Fiber Optics Bulgaria OOD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42459,
+  "metadata" : {
+    "handle" : "FOBUL",
+    "description" : "Fiber Optics Bulgaria OOD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.134.48.0/20",
       "193.32.0.0/23",
       "193.32.4.0/23",
       "212.45.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2660::/32"
     ]
   }

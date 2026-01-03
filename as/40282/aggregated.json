@@ -1,11 +1,14 @@
 {
-  "asn": 40282,
-  "handle": "PNE-ASN",
-  "description": "PNE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40282,
+  "metadata" : {
+    "handle" : "PNE-ASN",
+    "description" : "PNE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.38.244.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

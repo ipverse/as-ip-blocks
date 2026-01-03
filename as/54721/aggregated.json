@@ -1,12 +1,15 @@
 {
-  "asn": 54721,
-  "handle": "AS-NGEN",
-  "description": "NGEN Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54721,
+  "metadata" : {
+    "handle" : "AS-NGEN",
+    "description" : "NGEN Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.163.128.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fef4::/48",
       "2602:fef4:200::/48",
       "2602:fef4:300::/48",

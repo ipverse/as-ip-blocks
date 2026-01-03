@@ -1,9 +1,12 @@
 {
-  "asn": 42487,
-  "handle": "VIALIS-MOSELLE",
-  "description": "Vialis SEM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42487,
+  "metadata" : {
+    "handle" : "VIALIS-MOSELLE",
+    "description" : "Vialis SEM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.81.172.0/22",
       "46.235.176.0/21",
       "85.95.192.0/19",
@@ -13,7 +16,7 @@
       "185.230.8.0/22",
       "212.102.121.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:58c0::/32",
       "2a03:d602::/31",
       "2a03:d606::/31",

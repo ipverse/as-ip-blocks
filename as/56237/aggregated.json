@@ -1,12 +1,15 @@
 {
-  "asn": 56237,
-  "handle": "UNILA-AS-ID",
-  "description": "Universitas Lampung",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56237,
+  "metadata" : {
+    "handle" : "UNILA-AS-ID",
+    "description" : "Universitas Lampung",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.3.46.0/24",
       "121.50.32.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

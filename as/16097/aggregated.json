@@ -1,9 +1,12 @@
 {
-  "asn": 16097,
-  "handle": "HLKOMM",
-  "description": "HL komm Telekommunikations GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16097,
+  "metadata" : {
+    "handle" : "HLKOMM",
+    "description" : "HL komm Telekommunikations GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.157.224.0/24",
       "80.64.176.0/20",
       "85.232.0.0/19",
@@ -32,7 +35,7 @@
       "213.187.64.0/19",
       "217.69.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4c51::/32",
       "2a02:238::/32",
       "2a0b:3c80::/29",

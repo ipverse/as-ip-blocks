@@ -1,15 +1,18 @@
 {
-  "asn": 48684,
-  "handle": "VIKINGHOST",
-  "description": "Viking Host B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48684,
+  "metadata" : {
+    "handle" : "VIKINGHOST",
+    "description" : "Viking Host B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.192.112.0/20",
       "67.22.32.0/20",
       "94.199.248.0/21",
       "185.75.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:9dc0::/32"
     ]
   }

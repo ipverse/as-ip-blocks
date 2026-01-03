@@ -1,9 +1,12 @@
 {
-  "asn": 13904,
-  "handle": "COSLINK",
-  "description": "Cherryland Services Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13904,
+  "metadata" : {
+    "handle" : "COSLINK",
+    "description" : "Cherryland Services Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "4.58.130.0/24",
       "8.19.74.0/24",
       "8.19.76.0/23",
@@ -42,7 +45,7 @@
       "216.143.245.0/24",
       "216.238.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:92c0:f000::/36"
     ]
   }

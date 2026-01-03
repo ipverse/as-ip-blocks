@@ -1,12 +1,15 @@
 {
-  "asn": 61969,
-  "handle": "TEAMINTERNET-AS",
-  "description": "Team Internet AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61969,
+  "metadata" : {
+    "handle" : "TEAMINTERNET-AS",
+    "description" : "Team Internet AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.53.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:bb20::/32"
     ]
   }

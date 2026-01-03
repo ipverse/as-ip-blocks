@@ -1,9 +1,12 @@
 {
-  "asn": 11831,
-  "handle": "ESECUREDATA",
-  "description": "eSecureData",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11831,
+  "metadata" : {
+    "handle" : "ESECUREDATA",
+    "description" : "eSecureData",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.111.76.0/22",
       "71.19.240.0/20",
       "74.3.160.0/21",
@@ -19,7 +22,7 @@
       "209.139.208.0/23",
       "216.18.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:80:6::/47",
       "2605:80:8::/48",
       "2605:80:18::/47",

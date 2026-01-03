@@ -1,13 +1,16 @@
 {
-  "asn": 61296,
-  "handle": "TECHCOM-AS",
-  "description": "TechCom s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61296,
+  "metadata" : {
+    "handle" : "TECHCOM-AS",
+    "description" : "TechCom s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.231.128.0/18",
       "185.83.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:70e0::/32"
     ]
   }

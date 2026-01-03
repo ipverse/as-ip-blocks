@@ -1,9 +1,12 @@
 {
-  "asn": 22804,
-  "handle": "REDHELM-CLOUD",
-  "description": "Ideal Integrations LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22804,
+  "metadata" : {
+    "handle" : "REDHELM-CLOUD",
+    "description" : "Ideal Integrations LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.129.0.0/24",
       "161.129.4.0/24",
       "161.129.6.0/24",
@@ -13,7 +16,7 @@
       "204.80.86.0/23",
       "208.79.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:9280:700::/40"
     ]
   }

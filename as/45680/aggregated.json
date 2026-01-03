@@ -1,14 +1,17 @@
 {
-  "asn": 45680,
-  "handle": "DOVA-NET",
-  "description": "DOVA Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45680,
+  "metadata" : {
+    "handle" : "DOVA-NET",
+    "description" : "DOVA Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "101.78.6.0/24",
       "103.235.40.0/22",
       "183.81.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:5300::/32"
     ]
   }

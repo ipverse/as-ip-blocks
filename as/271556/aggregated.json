@@ -1,12 +1,15 @@
 {
-  "asn": 271556,
-  "handle": "VIPER-TEC",
-  "description": "VIPER TEC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271556,
+  "metadata" : {
+    "handle" : "VIPER-TEC",
+    "description" : "VIPER TEC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.63.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7d5c::/32"
     ]
   }

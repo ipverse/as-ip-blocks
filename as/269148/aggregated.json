@@ -1,12 +1,15 @@
 {
-  "asn": 269148,
-  "handle": "ADRIANO-INTERNET",
-  "description": "ADRIANO DA INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269148,
+  "metadata" : {
+    "handle" : "ADRIANO-INTERNET",
+    "description" : "ADRIANO DA INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.180.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6024::/32"
     ]
   }

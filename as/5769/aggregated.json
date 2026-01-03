@@ -1,9 +1,12 @@
 {
-  "asn": 5769,
-  "handle": "VIDEOTRON",
-  "description": "Videotron Ltee",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5769,
+  "metadata" : {
+    "handle" : "VIDEOTRON",
+    "description" : "Videotron Ltee",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.233.128.0/17",
       "24.37.0.0/16",
       "24.48.0.0/17",
@@ -66,7 +69,7 @@
       "216.113.0.0/17",
       "216.137.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fa48::/29"
     ]
   }

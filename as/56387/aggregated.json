@@ -1,12 +1,15 @@
 {
-  "asn": 56387,
-  "handle": "PIP-AS",
-  "description": "PiP Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56387,
+  "metadata" : {
+    "handle" : "PIP-AS",
+    "description" : "PiP Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.171.7.0/24",
       "93.171.8.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

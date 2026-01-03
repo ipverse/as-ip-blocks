@@ -1,9 +1,12 @@
 {
-  "asn": 16735,
-  "handle": "ALGAR-TELECOM",
-  "description": "ALGAR TELECOM S/A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16735,
+  "metadata" : {
+    "handle" : "ALGAR-TELECOM",
+    "description" : "ALGAR TELECOM S/A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.254.148.0/22",
       "177.38.32.0/21",
       "177.69.0.0/16",
@@ -36,7 +39,7 @@
       "201.49.96.0/19",
       "201.55.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1290::/31",
       "2804:620::/32",
       "2804:724::/32",

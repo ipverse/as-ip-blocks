@@ -1,13 +1,16 @@
 {
-  "asn": 47247,
-  "handle": "MAXIMUM-AS",
-  "description": "Maximum LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47247,
+  "metadata" : {
+    "handle" : "MAXIMUM-AS",
+    "description" : "Maximum LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.139.178.0/24",
       "45.151.147.0/24",
       "81.25.68.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

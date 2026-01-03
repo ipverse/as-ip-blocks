@@ -1,13 +1,16 @@
 {
-  "asn": 249,
-  "handle": "PACKETSTAR",
-  "description": "European Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 249,
+  "metadata" : {
+    "handle" : "PACKETSTAR",
+    "description" : "European Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.237.80.0/22",
       "185.116.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:7e00::/29"
     ]
   }

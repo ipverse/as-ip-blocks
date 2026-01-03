@@ -1,10 +1,13 @@
 {
-  "asn": 274749,
-  "handle": "SPEED-CONNECT",
-  "description": "Speed Connect",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 274749,
+  "metadata" : {
+    "handle" : "SPEED-CONNECT",
+    "description" : "Speed Connect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2804:9304::/33",
       "2804:9304:8000::/34"
     ]

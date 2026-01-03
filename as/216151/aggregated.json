@@ -1,9 +1,12 @@
 {
-  "asn": 216151,
-  "handle": "NETSHOP-ISP",
-  "description": "S.S NETSHOP INTERNET SERVICES LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216151,
+  "metadata" : {
+    "handle" : "NETSHOP-ISP",
+    "description" : "S.S NETSHOP INTERNET SERVICES LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.142.200.0/24",
       "45.142.202.0/24",
       "77.76.9.0/24",
@@ -18,6 +21,6 @@
       "185.183.180.0/24",
       "195.242.240.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

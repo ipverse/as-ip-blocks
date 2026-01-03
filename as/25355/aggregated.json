@@ -1,15 +1,18 @@
 {
-  "asn": 25355,
-  "handle": "ASN-INTELE",
-  "description": "Intelecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25355,
+  "metadata" : {
+    "handle" : "ASN-INTELE",
+    "description" : "Intelecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.144.64.0/20",
       "82.144.80.0/21",
       "82.144.88.0/22",
       "82.144.92.0/23",
       "82.144.94.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

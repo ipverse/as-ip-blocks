@@ -1,9 +1,12 @@
 {
-  "asn": 205800,
-  "handle": "STEPS-TELECOM-AS",
-  "description": "Steps Telecom For Internet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205800,
+  "metadata" : {
+    "handle" : "STEPS-TELECOM-AS",
+    "description" : "Steps Telecom For Internet Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.10.226.0/24",
       "122.102.119.0/24",
       "185.206.124.0/22",
@@ -13,6 +16,6 @@
       "188.72.49.0/24",
       "202.164.207.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

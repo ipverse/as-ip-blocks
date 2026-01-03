@@ -1,9 +1,12 @@
 {
-  "asn": 396073,
-  "handle": "MAJESTIC-HOSTING-01",
-  "description": "Majestic Hosting Solutions LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396073,
+  "metadata" : {
+    "handle" : "MAJESTIC-HOSTING-01",
+    "description" : "Majestic Hosting Solutions LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.173.216.0/24",
       "38.68.33.0/24",
       "38.68.40.0/23",
@@ -44,7 +47,7 @@
       "204.8.5.0/24",
       "216.250.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f947::/40",
       "2602:fdb7::/47",
       "2602:fdb7:3::/48",

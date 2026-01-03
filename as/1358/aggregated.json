@@ -1,9 +1,12 @@
 {
-  "asn": 1358,
-  "handle": "HNSNET-AS",
-  "description": "Hughes Network Systems LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1358,
+  "metadata" : {
+    "handle" : "HNSNET-AS",
+    "description" : "Hughes Network Systems LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.35.40.0/22",
       "139.85.8.0/21",
       "139.85.16.0/20",
@@ -12,6 +15,6 @@
       "139.85.128.0/17",
       "208.236.67.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

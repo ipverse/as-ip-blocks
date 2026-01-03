@@ -1,9 +1,12 @@
 {
-  "asn": 2734,
-  "handle": "CORESITE",
-  "description": "CoreSite",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2734,
+  "metadata" : {
+    "handle" : "CORESITE",
+    "description" : "CoreSite",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.35.64.0/23",
       "66.35.67.0/24",
       "66.35.68.0/22",
@@ -41,7 +44,7 @@
       "208.78.157.0/24",
       "208.84.144.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:3fc0:2000::/35",
       "2605:6c00::/45",
       "2605:6c00:8::/48",

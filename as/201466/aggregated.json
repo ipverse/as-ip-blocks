@@ -1,9 +1,12 @@
 {
-  "asn": 201466,
-  "handle": "XTA-AS",
-  "description": "Xarxes de Telecomunicacions Alternatives SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201466,
+  "metadata" : {
+    "handle" : "XTA-AS",
+    "description" : "Xarxes de Telecomunicacions Alternatives SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.108.0/22",
       "45.134.152.0/22",
       "185.73.168.0/22",
@@ -13,7 +16,7 @@
       "195.191.48.0/24",
       "195.242.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:4460::/32",
       "2a07:bec0::/29"
     ]

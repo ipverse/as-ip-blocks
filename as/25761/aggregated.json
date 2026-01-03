@@ -1,12 +1,15 @@
 {
-  "asn": 25761,
-  "handle": "FIFTYFIVE-AS",
-  "description": "55 IT Services GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25761,
+  "metadata" : {
+    "handle" : "FIFTYFIVE-AS",
+    "description" : "55 IT Services GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.62.253.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:fec::/48"
     ]
   }

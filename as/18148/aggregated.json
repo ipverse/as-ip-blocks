@@ -1,9 +1,12 @@
 {
-  "asn": 18148,
-  "handle": "FUKUOKA-U",
-  "description": "Fukuoka University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18148,
+  "metadata" : {
+    "handle" : "FUKUOKA-U",
+    "description" : "Fukuoka University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "133.100.0.0/21",
       "133.100.8.0/24",
       "133.100.10.0/24",
@@ -13,7 +16,7 @@
       "133.100.64.0/18",
       "133.100.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:be00::/32"
     ]
   }

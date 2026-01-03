@@ -1,9 +1,12 @@
 {
-  "asn": 57271,
-  "handle": "BITWEB-AS",
-  "description": "BitWeb LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57271,
+  "metadata" : {
+    "handle" : "BITWEB-AS",
+    "description" : "BitWeb LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.24.251.0/24",
       "45.90.46.0/24",
       "45.133.235.0/24",
@@ -16,7 +19,7 @@
       "91.236.120.0/24",
       "192.144.18.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:48a0:4001::/48",
       "2a0e:19c6::/32",
       "2a14:a404::/32"

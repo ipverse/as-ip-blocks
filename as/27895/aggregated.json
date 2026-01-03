@@ -1,9 +1,12 @@
 {
-  "asn": 27895,
-  "handle": "NUCLEO",
-  "description": "Núcleo S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27895,
+  "metadata" : {
+    "handle" : "NUCLEO",
+    "description" : "Núcleo S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.1.152.0/22",
       "181.85.208.0/22",
       "181.85.212.0/23",
@@ -28,7 +31,7 @@
       "190.104.128.0/18",
       "200.3.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:2a00::/38",
       "2803:2a00:c00::/38",
       "2803:2a00:1000::/37",

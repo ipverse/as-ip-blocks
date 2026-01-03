@@ -1,9 +1,12 @@
 {
-  "asn": 43424,
-  "handle": "MAGICRETAIL",
-  "description": "SQUARK SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43424,
+  "metadata" : {
+    "handle" : "MAGICRETAIL",
+    "description" : "SQUARK SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.140.0/22",
       "46.252.176.0/20",
       "77.87.104.0/21",
@@ -11,7 +14,7 @@
       "195.20.12.0/22",
       "212.6.52.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:9000::/29",
       "2a09:dec0::/29"
     ]

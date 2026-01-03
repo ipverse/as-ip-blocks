@@ -1,16 +1,19 @@
 {
-  "asn": 131,
-  "handle": "UCSB-NET-AS",
-  "description": "University of California Santa Barbara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131,
+  "metadata" : {
+    "handle" : "UCSB-NET-AS",
+    "description" : "University of California Santa Barbara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.111.0.0/16",
       "169.231.0.0/16",
       "192.35.222.0/24",
       "192.150.216.0/23",
       "199.120.153.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f378::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 273729,
-  "handle": "NET-GATES-TELECOM",
-  "description": "Net Gates Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273729,
+  "metadata" : {
+    "handle" : "NET-GATES-TELECOM",
+    "description" : "Net Gates Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.121.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8b64::/32"
     ]
   }

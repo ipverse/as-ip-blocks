@@ -1,9 +1,12 @@
 {
-  "asn": 23974,
-  "handle": "MOE-AS-AP",
-  "description": "Ministry of Education - EMISC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23974,
+  "metadata" : {
+    "handle" : "MOE-AS-AP",
+    "description" : "Ministry of Education - EMISC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.0.197.0/24",
       "1.10.135.0/24",
       "1.20.247.0/24",
@@ -26,6 +29,6 @@
       "202.143.128.0/18",
       "203.172.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

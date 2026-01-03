@@ -1,9 +1,12 @@
 {
-  "asn": 715,
-  "handle": "WOODYNET-2",
-  "description": "WoodyNet Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 715,
+  "metadata" : {
+    "handle" : "WOODYNET-2",
+    "description" : "WoodyNet Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.112.180.0/22",
       "45.221.0.0/22",
       "45.221.16.0/22",
@@ -31,7 +34,7 @@
       "206.225.168.0/21",
       "216.21.2.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:500:15::/48",
       "2001:43f8:e00::/40",
       "2401:680::/32",

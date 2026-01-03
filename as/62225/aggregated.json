@@ -1,13 +1,16 @@
 {
-  "asn": 62225,
-  "handle": "HALDENDATASERVICE",
-  "description": "Viken Fiber AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62225,
+  "metadata" : {
+    "handle" : "HALDENDATASERVICE",
+    "description" : "Viken Fiber AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.255.32.0/20",
       "185.36.240.0/23",
       "194.69.208.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

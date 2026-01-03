@@ -1,11 +1,14 @@
 {
-  "asn": 33813,
-  "handle": "COFIDIS-PT-AS",
-  "description": "COFIDIS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33813,
+  "metadata" : {
+    "handle" : "COFIDIS-PT-AS",
+    "description" : "COFIDIS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.242.124.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 14415,
-  "handle": "HOSTCOLLECTIVE",
-  "description": "Host Collective Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14415,
+  "metadata" : {
+    "handle" : "HOSTCOLLECTIVE",
+    "description" : "Host Collective Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.22.138.0/24",
       "64.79.160.0/24",
       "64.79.167.0/24",
@@ -23,6 +26,6 @@
       "216.177.89.0/24",
       "216.177.91.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

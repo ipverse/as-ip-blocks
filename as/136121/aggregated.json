@@ -1,13 +1,16 @@
 {
-  "asn": 136121,
-  "handle": "DIGITNET-AS-ID",
-  "description": "PT Digital Media Telematika",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136121,
+  "metadata" : {
+    "handle" : "DIGITNET-AS-ID",
+    "description" : "PT Digital Media Telematika",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.154.230.0/23",
       "202.154.18.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:5dc0::/32"
     ]
   }

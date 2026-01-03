@@ -1,9 +1,12 @@
 {
-  "asn": 38067,
-  "handle": "RADIANT",
-  "description": "Radiant Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38067,
+  "metadata" : {
+    "handle" : "RADIANT",
+    "description" : "Radiant Communications Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.231.20.0/22",
       "103.14.128.0/22",
       "103.29.124.0/22",
@@ -13,6 +16,6 @@
       "122.102.32.0/21",
       "210.1.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

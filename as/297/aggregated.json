@@ -1,9 +1,12 @@
 {
-  "asn": 297,
-  "handle": "AS297",
-  "description": "National Aeronautics and Space Administration",
-  "subnets": {
-    "ipv4": [
+  "asn" : 297,
+  "metadata" : {
+    "handle" : "AS297",
+    "description" : "National Aeronautics and Space Administration",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.156.0.0/16",
       "129.163.0.0/16",
       "129.164.0.0/16",
@@ -28,7 +31,7 @@
       "198.120.0.0/14",
       "198.182.19.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4d0::/32"
     ]
   }

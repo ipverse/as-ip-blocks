@@ -1,11 +1,14 @@
 {
-  "asn": 136003,
-  "handle": "INTERNETFACTORY-AS-AP",
-  "description": "Internet Factory",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136003,
+  "metadata" : {
+    "handle" : "INTERNETFACTORY-AS-AP",
+    "description" : "Internet Factory",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.134.36.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 36698,
-  "handle": "FATBANANA-BROADBAND",
-  "description": "Fatbanana Broadband Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36698,
+  "metadata" : {
+    "handle" : "FATBANANA-BROADBAND",
+    "description" : "Fatbanana Broadband Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.122.208.0/21",
       "205.150.124.0/24",
       "207.176.142.0/24",
@@ -13,6 +16,6 @@
       "216.94.40.0/24",
       "216.95.238.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

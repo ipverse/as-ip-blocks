@@ -1,9 +1,12 @@
 {
-  "asn": 20676,
-  "handle": "PLUSNET",
-  "description": "Plusnet GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20676,
+  "metadata" : {
+    "handle" : "PLUSNET",
+    "description" : "Plusnet GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.8.128.0/17",
       "62.78.64.0/20",
       "62.145.0.0/19",
@@ -63,7 +66,7 @@
       "217.194.72.0/23",
       "217.194.78.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:658::/29",
       "2001:1a80::/29",
       "2a01:8400::/32",

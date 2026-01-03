@@ -1,12 +1,15 @@
 {
-  "asn": 38506,
-  "handle": "PIKANET-AS-ID",
-  "description": "PT Pika Media Komunika",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38506,
+  "metadata" : {
+    "handle" : "PIKANET-AS-ID",
+    "description" : "PT Pika Media Komunika",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "117.103.168.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:b200:a99c::/48",
       "2406:9300::/32"
     ]

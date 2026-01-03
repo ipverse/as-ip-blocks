@@ -1,14 +1,17 @@
 {
-  "asn": 8200,
-  "handle": "UPLINK-AS",
-  "description": "Uplink LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8200,
+  "metadata" : {
+    "handle" : "UPLINK-AS",
+    "description" : "Uplink LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.248.152.0/21",
       "109.248.208.0/22",
       "109.248.236.0/24",
       "188.130.156.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

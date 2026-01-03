@@ -1,9 +1,12 @@
 {
-  "asn": 42873,
-  "handle": "MPG-FR-S",
-  "description": "Max-Planck-Gesellschaft zur Forderung der Wissenschaften e.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42873,
+  "metadata" : {
+    "handle" : "MPG-FR-S",
+    "description" : "Max-Planck-Gesellschaft zur Forderung der Wissenschaften e.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.105.0.0/16",
       "134.107.202.0/24",
       "192.124.25.0/24",
@@ -11,7 +14,7 @@
       "192.124.28.0/24",
       "192.129.30.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:d480:240::/42"
     ]
   }

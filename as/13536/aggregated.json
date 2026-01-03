@@ -1,9 +1,12 @@
 {
-  "asn": 13536,
-  "handle": "TVC-AS1",
-  "description": "FirstLight Fiber Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13536,
+  "metadata" : {
+    "handle" : "TVC-AS1",
+    "description" : "FirstLight Fiber Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.142.120.0/24",
       "38.56.64.0/22",
       "38.147.194.0/23",
@@ -81,7 +84,7 @@
       "216.179.0.0/17",
       "216.238.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:da80:1601::/48",
       "2605:da80:2301::/48",
       "2605:da80:3101::/48",

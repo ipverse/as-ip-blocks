@@ -1,9 +1,12 @@
 {
-  "asn": 3481,
-  "handle": "STOFCT-DOIT",
-  "description": "State of Connecticut",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3481,
+  "metadata" : {
+    "handle" : "STOFCT-DOIT",
+    "description" : "State of Connecticut",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.247.0.0/17",
       "159.247.128.0/18",
       "159.247.192.0/19",
@@ -15,6 +18,6 @@
       "159.247.248.0/23",
       "159.247.252.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

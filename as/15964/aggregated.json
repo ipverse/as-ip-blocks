@@ -1,9 +1,12 @@
 {
-  "asn": 15964,
-  "handle": "CAMNET-AS",
-  "description": "CAMTEL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15964,
+  "metadata" : {
+    "handle" : "CAMNET-AS",
+    "description" : "CAMTEL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.204.64.0/19",
       "102.210.68.0/22",
       "154.72.128.0/18",
@@ -28,7 +31,7 @@
       "197.159.20.0/22",
       "197.159.24.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4268::/32",
       "2c0f:f6c8::/32"
     ]

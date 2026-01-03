@@ -1,9 +1,12 @@
 {
-  "asn": 47236,
-  "handle": "CITYLINK-AS",
-  "description": "CityLink Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47236,
+  "metadata" : {
+    "handle" : "CITYLINK-AS",
+    "description" : "CityLink Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.199.153.0/24",
       "93.190.200.0/21",
       "94.140.224.0/19",
@@ -11,6 +14,6 @@
       "178.19.240.0/20",
       "185.90.100.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

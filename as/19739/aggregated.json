@@ -1,9 +1,12 @@
 {
-  "asn": 19739,
-  "handle": "COUNTY-SANBERNARDINO",
-  "description": "County of San Bernardino",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19739,
+  "metadata" : {
+    "handle" : "COUNTY-SANBERNARDINO",
+    "description" : "County of San Bernardino",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.164.0.0/24",
       "170.164.14.0/24",
       "170.164.40.0/22",
@@ -24,6 +27,6 @@
       "170.164.240.0/21",
       "170.164.249.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

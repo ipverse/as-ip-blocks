@@ -1,9 +1,12 @@
 {
-  "asn": 135031,
-  "handle": "RNPL-AS-AP",
-  "description": "RI Networks Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135031,
+  "metadata" : {
+    "handle" : "RNPL-AS-AP",
+    "description" : "RI Networks Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.65.40.0/22",
       "103.82.148.0/22",
       "103.82.220.0/22",
@@ -17,6 +20,6 @@
       "160.202.48.0/22",
       "223.26.28.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 64224,
-  "handle": "ATINET",
-  "description": "ATI Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64224,
+  "metadata" : {
+    "handle" : "ATINET",
+    "description" : "ATI Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.15.224.0/23",
       "8.25.4.0/24",
       "147.92.56.0/22",
       "204.48.112.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe85::/36"
     ]
   }

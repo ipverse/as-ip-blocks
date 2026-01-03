@@ -1,9 +1,12 @@
 {
-  "asn": 6171,
-  "handle": "WORLDGATE",
-  "description": "WorldGate",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6171,
+  "metadata" : {
+    "handle" : "WORLDGATE",
+    "description" : "WorldGate",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.161.84.0/23",
       "198.161.96.0/21",
       "198.161.104.0/22",
@@ -24,6 +27,6 @@
       "207.167.0.0/19",
       "207.216.244.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

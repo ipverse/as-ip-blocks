@@ -1,9 +1,12 @@
 {
-  "asn": 9155,
-  "handle": "QNET",
-  "description": "Quality Net General Trading \u0026 Contracting Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9155,
+  "metadata" : {
+    "handle" : "QNET",
+    "description" : "Quality Net General Trading & Contracting Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.150.0.0/16",
       "78.154.192.0/18",
       "94.29.128.0/17",
@@ -13,6 +16,6 @@
       "196.1.70.0/24",
       "213.189.64.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

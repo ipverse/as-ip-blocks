@@ -1,9 +1,12 @@
 {
-  "asn": 147176,
-  "handle": "NNECL-AS-AP",
-  "description": "NZ Network Enterprise Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147176,
+  "metadata" : {
+    "handle" : "NNECL-AS-AP",
+    "description" : "NZ Network Enterprise Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.195.152.0/24",
       "45.201.0.0/24",
       "45.201.9.0/24",
@@ -22,7 +25,7 @@
       "154.215.14.0/24",
       "191.96.153.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:d280::/48",
       "2a13:9500:81::/48"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 134026,
-  "handle": "ULTRANET-AS",
-  "description": "Ultranet services private limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134026,
+  "metadata" : {
+    "handle" : "ULTRANET-AS",
+    "description" : "Ultranet services private limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.115.104.0/22",
       "103.55.88.0/22",
       "103.70.200.0/22",
@@ -12,7 +15,7 @@
       "103.179.223.0/24",
       "103.184.70.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:d00::/48",
       "2405:80c0::/32",
       "2407:c8c0::/32"

@@ -1,9 +1,12 @@
 {
-  "asn": 35600,
-  "handle": "ASN-VEDEGE",
-  "description": "Vedege SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35600,
+  "metadata" : {
+    "handle" : "ASN-VEDEGE",
+    "description" : "Vedege SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.102.102.0/24",
       "45.84.112.0/22",
       "91.221.92.0/23",
@@ -12,7 +15,7 @@
       "185.56.176.0/22",
       "194.117.246.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:184c::/48",
       "2a00:4780::/32",
       "2a02:5520::/32",

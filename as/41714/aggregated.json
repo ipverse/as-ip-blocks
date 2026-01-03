@@ -1,9 +1,12 @@
 {
-  "asn": 41714,
-  "handle": "SPOTNET-LTD",
-  "description": "SPOT-NET LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41714,
+  "metadata" : {
+    "handle" : "SPOTNET-LTD",
+    "description" : "SPOT-NET LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.157.80.0/21",
       "146.185.56.0/21",
       "185.163.148.0/22",
@@ -11,7 +14,7 @@
       "193.37.128.0/23",
       "193.37.130.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:e300::/29"
     ]
   }

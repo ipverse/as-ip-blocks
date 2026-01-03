@@ -1,12 +1,15 @@
 {
-  "asn": 267436,
-  "handle": "UPLINK-INTERNET-BANDA-LARGA",
-  "description": "UPLINK INTERNET BANDA LARGA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267436,
+  "metadata" : {
+    "handle" : "UPLINK-INTERNET-BANDA-LARGA",
+    "description" : "UPLINK INTERNET BANDA LARGA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.191.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:417c::/32"
     ]
   }

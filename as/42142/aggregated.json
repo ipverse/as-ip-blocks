@@ -1,11 +1,14 @@
 {
-  "asn": 42142,
-  "handle": "ANPM",
-  "description": "Agentia Nationala pentru Protectia Mediului",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42142,
+  "metadata" : {
+    "handle" : "ANPM",
+    "description" : "Agentia Nationala pentru Protectia Mediului",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.110.5.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

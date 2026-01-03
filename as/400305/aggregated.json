@@ -1,11 +1,14 @@
 {
-  "asn": 400305,
-  "handle": "MSDMTVERNON-IN",
-  "description": "MSD of Mt. Vernon",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400305,
+  "metadata" : {
+    "handle" : "MSDMTVERNON-IN",
+    "description" : "MSD of Mt. Vernon",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.129.216.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

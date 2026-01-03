@@ -1,9 +1,12 @@
 {
-  "asn": 6306,
-  "handle": "TELEFONICA-VENEZOLANA-CA",
-  "description": "TELEFONICA VENEZOLANA C.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6306,
+  "metadata" : {
+    "handle" : "TELEFONICA-VENEZOLANA-CA",
+    "description" : "TELEFONICA VENEZOLANA C.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.140.0.0/16",
       "161.212.0.0/16",
       "161.234.0.0/16",
@@ -20,6 +23,6 @@
       "200.35.64.0/18",
       "200.71.128.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

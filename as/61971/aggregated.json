@@ -1,12 +1,15 @@
 {
-  "asn": 61971,
-  "handle": "SARLINK-AS",
-  "description": "SarLink LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61971,
+  "metadata" : {
+    "handle" : "SARLINK-AS",
+    "description" : "SarLink LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.23.120.0/24",
       "91.226.136.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

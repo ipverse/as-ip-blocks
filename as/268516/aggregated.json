@@ -1,13 +1,16 @@
 {
-  "asn": 268516,
-  "handle": "MIDIA-NET-TELECOM",
-  "description": "Midia Net Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268516,
+  "metadata" : {
+    "handle" : "MIDIA-NET-TELECOM",
+    "description" : "Midia Net Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.162.104.0/22",
       "209.87.160.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5268::/32"
     ]
   }

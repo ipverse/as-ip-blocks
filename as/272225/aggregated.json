@@ -1,10 +1,13 @@
 {
-  "asn": 272225,
-  "handle": "FOX-NET",
-  "description": "Fox Net",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 272225,
+  "metadata" : {
+    "handle" : "FOX-NET",
+    "description" : "Fox Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2804:83dc::/32"
     ]
   }

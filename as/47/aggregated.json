@@ -1,14 +1,17 @@
 {
-  "asn": 47,
-  "handle": "USC-AS",
-  "description": "University of Southern California",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47,
+  "metadata" : {
+    "handle" : "USC-AS",
+    "description" : "University of Southern California",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.181.0.0/16",
       "206.117.90.0/24",
       "207.151.52.0/22",
       "207.151.92.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

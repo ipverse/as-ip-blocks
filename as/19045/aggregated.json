@@ -1,9 +1,12 @@
 {
-  "asn": 19045,
-  "handle": "DIRECTCOM",
-  "description": "Direct Communications Cedar Valley LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19045,
+  "metadata" : {
+    "handle" : "DIRECTCOM",
+    "description" : "Direct Communications Cedar Valley LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.169.64.0/23",
       "50.21.112.0/20",
       "104.37.248.0/22",
@@ -15,7 +18,7 @@
       "207.204.56.0/21",
       "208.54.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:2e80::/32"
     ]
   }

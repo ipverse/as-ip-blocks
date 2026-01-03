@@ -1,9 +1,12 @@
 {
-  "asn": 30361,
-  "handle": "SWIFTWILL2",
-  "description": "Swiftwill Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30361,
+  "metadata" : {
+    "handle" : "SWIFTWILL2",
+    "description" : "Swiftwill Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.88.240.0/20",
       "64.210.135.0/24",
       "64.210.137.0/24",
@@ -16,7 +19,7 @@
       "208.99.90.0/24",
       "216.18.174.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:18b8:5::/48",
       "2001:18b8:112::/48",
       "2a01:9dc0:beef::/48"

@@ -1,11 +1,14 @@
 {
-  "asn": 395020,
-  "handle": "SOUTHEAST-MN-WIFI",
-  "description": "SEMN Wifi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395020,
+  "metadata" : {
+    "handle" : "SOUTHEAST-MN-WIFI",
+    "description" : "SEMN Wifi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.64.180.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

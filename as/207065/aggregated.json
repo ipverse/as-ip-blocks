@@ -1,9 +1,12 @@
 {
-  "asn": 207065,
-  "handle": "JOKIICT",
-  "description": "Joki ICT Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207065,
+  "metadata" : {
+    "handle" : "JOKIICT",
+    "description" : "Joki ICT Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.87.200.0/22",
       "185.118.232.0/22",
       "185.119.128.0/22",
@@ -14,6 +17,6 @@
       "185.242.148.0/24",
       "185.249.48.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

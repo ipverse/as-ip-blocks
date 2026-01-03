@@ -1,9 +1,12 @@
 {
-  "asn": 11647,
-  "handle": "SENTEX-NET",
-  "description": "Sentex Communications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11647,
+  "metadata" : {
+    "handle" : "SENTEX-NET",
+    "description" : "Sentex Communications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.7.128.0/19",
       "67.43.128.0/20",
       "98.159.240.0/20",
@@ -26,7 +29,7 @@
       "206.130.87.0/24",
       "206.130.91.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f3e0::/32",
       "2620:13::/48"
     ]

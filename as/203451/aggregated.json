@@ -1,9 +1,12 @@
 {
-  "asn": 203451,
-  "handle": "K-TELECOM-NETWORK",
-  "description": "K-telekom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203451,
+  "metadata" : {
+    "handle" : "K-TELECOM-NETWORK",
+    "description" : "K-telekom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.24.0/23",
       "37.16.73.0/24",
       "45.90.45.0/24",
@@ -16,6 +19,6 @@
       "194.147.50.0/24",
       "212.115.51.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

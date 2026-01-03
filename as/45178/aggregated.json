@@ -1,9 +1,12 @@
 {
-  "asn": 45178,
-  "handle": "ROSHAN-AF",
-  "description": "Telecom Development Company Afghanistan",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45178,
+  "metadata" : {
+    "handle" : "ROSHAN-AF",
+    "description" : "Telecom Development Company Afghanistan",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.207.208.0/23",
       "64.207.212.0/22",
       "74.118.80.0/22",
@@ -14,6 +17,6 @@
       "116.206.190.0/24",
       "203.174.27.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

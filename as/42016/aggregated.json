@@ -1,11 +1,14 @@
 {
-  "asn": 42016,
-  "handle": "TLL-AERO-AS",
-  "description": "AS Tallinna Lennujaam",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42016,
+  "metadata" : {
+    "handle" : "TLL-AERO-AS",
+    "description" : "AS Tallinna Lennujaam",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.8.204.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

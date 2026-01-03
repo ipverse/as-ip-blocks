@@ -1,12 +1,15 @@
 {
-  "asn": 401133,
-  "handle": "TSIANA",
-  "description": "TSIANA INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401133,
+  "metadata" : {
+    "handle" : "TSIANA",
+    "description" : "TSIANA INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.100.15.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f8a3::/41"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 17001,
-  "handle": "UMANITOBA",
-  "description": "University of Manitoba",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17001,
+  "metadata" : {
+    "handle" : "UMANITOBA",
+    "description" : "University of Manitoba",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.179.0.0/16",
       "140.193.0.0/16",
       "192.139.114.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

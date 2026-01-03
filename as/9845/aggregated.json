@@ -1,9 +1,12 @@
 {
-  "asn": 9845,
-  "handle": "CJCKN-AS",
-  "description": "LG HelloVision Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9845,
+  "metadata" : {
+    "handle" : "CJCKN-AS",
+    "description" : "LG HelloVision Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.176.0.0/17",
       "1.177.64.0/18",
       "1.177.144.0/21",
@@ -37,6 +40,6 @@
       "180.182.240.0/21",
       "203.236.135.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

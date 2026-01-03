@@ -1,14 +1,17 @@
 {
-  "asn": 46002,
-  "handle": "PHIS-AS",
-  "description": "PHIS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46002,
+  "metadata" : {
+    "handle" : "PHIS-AS",
+    "description" : "PHIS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "121.135.147.0/24",
       "121.135.148.0/24",
       "210.92.218.0/23",
       "222.106.233.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

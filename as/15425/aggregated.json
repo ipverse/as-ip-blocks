@@ -1,9 +1,12 @@
 {
-  "asn": 15425,
-  "handle": "COMA",
-  "description": "PODA a.s",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15425,
+  "metadata" : {
+    "handle" : "COMA",
+    "description" : "PODA a.s.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.53.8.0/21",
       "31.28.128.0/19",
       "84.16.96.0/19",
@@ -13,7 +16,7 @@
       "176.227.248.0/21",
       "188.134.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:6e80::/32"
     ]
   }

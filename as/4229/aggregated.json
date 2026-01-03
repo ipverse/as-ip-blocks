@@ -1,9 +1,12 @@
 {
-  "asn": 4229,
-  "handle": "ZEN-NET",
-  "description": "Zenlayer Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4229,
+  "metadata" : {
+    "handle" : "ZEN-NET",
+    "description" : "Zenlayer Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.91.109.0/24",
       "23.91.110.0/23",
       "98.98.98.0/24",
@@ -17,7 +20,7 @@
       "162.128.193.0/24",
       "162.128.226.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:ff40::/32"
     ]
   }

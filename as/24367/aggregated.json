@@ -1,10 +1,13 @@
 {
-  "asn": 24367,
-  "handle": "CNGI-HZH-IX-AS-AP",
-  "description": "CERNET2 IX at Zhejiang University",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 24367,
+  "metadata" : {
+    "handle" : "CNGI-HZH-IX-AS-AP",
+    "description" : "CERNET2 IX at Zhejiang University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:256:100::/48",
       "2402:4b80::/32"
     ]

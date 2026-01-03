@@ -1,12 +1,15 @@
 {
-  "asn": 48680,
-  "handle": "NETPOWER-AS",
-  "description": "Netpower IT Solutions AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48680,
+  "metadata" : {
+    "handle" : "NETPOWER-AS",
+    "description" : "Netpower IT Solutions AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.255.16.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:d0c0::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 39396,
-  "handle": "NBIS-AS",
-  "description": "NBI Systems Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39396,
+  "metadata" : {
+    "handle" : "NBIS-AS",
+    "description" : "NBI Systems Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.187.216.0/23",
       "109.121.136.0/24",
       "109.121.139.0/24",
@@ -15,7 +18,7 @@
       "212.21.133.0/24",
       "212.21.159.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:bac0::/32"
     ]
   }

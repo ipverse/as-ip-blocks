@@ -1,9 +1,12 @@
 {
-  "asn": 13999,
-  "handle": "MEGA-CABLE",
-  "description": "Mega Cable S.A. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13999,
+  "metadata" : {
+    "handle" : "MEGA-CABLE",
+    "description" : "Mega Cable S.A. de C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.185.2.0/23",
       "177.224.0.0/13",
       "177.240.1.0/24",
@@ -356,7 +359,7 @@
       "201.159.208.0/21",
       "201.164.0.0/15"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:203::/32",
       "2806:260:4::/48",
       "2806:260:1000::/45",

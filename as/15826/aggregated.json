@@ -1,13 +1,16 @@
 {
-  "asn": 15826,
-  "handle": "NFRANCE",
-  "description": "NFrance Conseil",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15826,
+  "metadata" : {
+    "handle" : "NFRANCE",
+    "description" : "NFrance Conseil",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.247.224.0/20",
       "185.20.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1a60::/32"
     ]
   }

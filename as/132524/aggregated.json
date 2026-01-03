@@ -1,9 +1,12 @@
 {
-  "asn": 132524,
-  "handle": "TIFR-AS",
-  "description": "Tata Institute of Fundamental Research",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132524,
+  "metadata" : {
+    "handle" : "TIFR-AS",
+    "description" : "Tata Institute of Fundamental Research",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.144.0.0/21",
       "158.144.8.0/23",
       "158.144.21.0/24",
@@ -14,7 +17,7 @@
       "158.144.64.0/18",
       "158.144.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:f00:1::/48"
     ]
   }

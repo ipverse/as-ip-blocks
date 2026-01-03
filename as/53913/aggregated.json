@@ -1,9 +1,12 @@
 {
-  "asn": 53913,
-  "handle": "CITY-WIDE-COMMUNICATIONS",
-  "description": "City Wide Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53913,
+  "metadata" : {
+    "handle" : "CITY-WIDE-COMMUNICATIONS",
+    "description" : "City Wide Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.66.192.0/19",
       "110.239.160.0/20",
       "110.239.192.0/20",
@@ -15,6 +18,6 @@
       "172.97.48.0/22",
       "192.248.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

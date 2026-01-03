@@ -1,9 +1,12 @@
 {
-  "asn": 38681,
-  "handle": "JNEINET-AS",
-  "description": "Jeollanamdo Educational Research Information Institute",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38681,
+  "metadata" : {
+    "handle" : "JNEINET-AS",
+    "description" : "Jeollanamdo Educational Research Information Institute",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.3.221.0/24",
       "103.139.216.0/23",
       "117.110.138.0/24",
@@ -24,6 +27,6 @@
       "211.228.16.0/24",
       "218.157.12.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

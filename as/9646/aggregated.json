@@ -1,11 +1,14 @@
 {
-  "asn": 9646,
-  "handle": "EGIOS-AS",
-  "description": "eGIOS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9646,
+  "metadata" : {
+    "handle" : "EGIOS-AS",
+    "description" : "eGIOS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "211.47.160.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

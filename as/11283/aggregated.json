@@ -1,9 +1,12 @@
 {
-  "asn": 11283,
-  "handle": "COSTCO",
-  "description": "Costco Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11283,
+  "metadata" : {
+    "handle" : "COSTCO",
+    "description" : "Costco Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.167.0.0/21",
       "170.167.8.0/24",
       "170.167.10.0/23",
@@ -22,6 +25,6 @@
       "170.167.240.0/24",
       "170.167.248.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

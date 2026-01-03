@@ -1,9 +1,12 @@
 {
-  "asn": 16739,
-  "handle": "MIDCO-NET-INV",
-  "description": "Midcontinent Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16739,
+  "metadata" : {
+    "handle" : "MIDCO-NET-INV",
+    "description" : "Midcontinent Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.56.182.0/23",
       "24.124.124.0/22",
       "67.217.4.0/22",
@@ -12,6 +15,6 @@
       "192.208.29.0/24",
       "208.72.144.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

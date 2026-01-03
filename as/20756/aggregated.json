@@ -1,14 +1,17 @@
 {
-  "asn": 20756,
-  "handle": "NAMESHIELD",
-  "description": "NAMESHIELD SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20756,
+  "metadata" : {
+    "handle" : "NAMESHIELD",
+    "description" : "NAMESHIELD SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.93.195.0/24",
       "81.92.80.0/20",
       "185.65.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:c8::/32"
     ]
   }

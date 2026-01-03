@@ -1,11 +1,14 @@
 {
-  "asn": 198006,
-  "handle": "BEARMETAL",
-  "description": "Bear Metal OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198006,
+  "metadata" : {
+    "handle" : "BEARMETAL",
+    "description" : "Bear Metal OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.82.154.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

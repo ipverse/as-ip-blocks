@@ -1,12 +1,15 @@
 {
-  "asn": 394018,
-  "handle": "ARIN-PFS-SEA",
-  "description": "ARIN Operations",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394018,
+  "metadata" : {
+    "handle" : "ARIN-PFS-SEA",
+    "description" : "ARIN Operations",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.5.26.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:500:a9::/48"
     ]
   }

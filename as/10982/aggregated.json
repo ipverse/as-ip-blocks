@@ -1,9 +1,12 @@
 {
-  "asn": 10982,
-  "handle": "TIVO-SJ",
-  "description": "TiVo Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10982,
+  "metadata" : {
+    "handle" : "TIVO-SJ",
+    "description" : "TiVo Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.198.28.0/23",
       "144.198.48.0/24",
       "144.198.114.0/23",
@@ -18,6 +21,6 @@
       "208.73.181.0/24",
       "208.73.182.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

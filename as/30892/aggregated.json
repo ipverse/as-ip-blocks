@@ -1,9 +1,12 @@
 {
-  "asn": 30892,
-  "handle": "DTGBS-IBERIA",
-  "description": "DEUTSCHE TELEKOM GLOBAL BUSINESS SOLUTIONS IBERIA SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30892,
+  "metadata" : {
+    "handle" : "DTGBS-IBERIA",
+    "description" : "DEUTSCHE TELEKOM GLOBAL BUSINESS SOLUTIONS IBERIA SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.251.224.0/20",
       "185.90.204.0/22",
       "185.99.240.0/22",
@@ -11,7 +14,7 @@
       "193.148.240.0/22",
       "217.14.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:aa8::/29",
       "2a06:1440::/29"
     ]

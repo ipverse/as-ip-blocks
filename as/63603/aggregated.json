@@ -1,12 +1,15 @@
 {
-  "asn": 63603,
-  "handle": "GSS-NETWORKS",
-  "description": "GSS China",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63603,
+  "metadata" : {
+    "handle" : "GSS-NETWORKS",
+    "description" : "GSS China",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.102.196.0/22",
       "163.53.46.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

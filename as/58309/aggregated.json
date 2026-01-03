@@ -1,14 +1,17 @@
 {
-  "asn": 58309,
-  "handle": "LANGATE-AS",
-  "description": "Langate Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58309,
+  "metadata" : {
+    "handle" : "LANGATE-AS",
+    "description" : "Langate Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.205.204.0/22",
       "109.229.0.0/19",
       "176.120.32.0/19",
       "185.46.188.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

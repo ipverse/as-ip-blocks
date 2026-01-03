@@ -1,9 +1,12 @@
 {
-  "asn": 62370,
-  "handle": "SNEL",
-  "description": "Snel.com B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62370,
+  "metadata" : {
+    "handle" : "SNEL",
+    "description" : "Snel.com B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.104.224.0/23",
       "5.104.226.0/24",
       "5.104.228.0/24",
@@ -27,7 +30,7 @@
       "193.33.60.0/23",
       "193.34.166.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:7b80::/32"
     ]
   }

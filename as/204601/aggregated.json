@@ -1,9 +1,12 @@
 {
-  "asn": 204601,
-  "handle": "PODAON",
-  "description": "Zomro B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204601,
+  "metadata" : {
+    "handle" : "PODAON",
+    "description" : "Zomro B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.12.212.0/22",
       "45.14.12.0/23",
       "45.14.15.0/24",
@@ -88,7 +91,7 @@
       "212.162.152.0/23",
       "213.166.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:5980::/29"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 48243,
-  "handle": "MIRATEL-UA-AS",
-  "description": "Miratel Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48243,
+  "metadata" : {
+    "handle" : "MIRATEL-UA-AS",
+    "description" : "Miratel Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.210.116.0/22",
       "91.237.126.0/23",
       "185.32.60.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

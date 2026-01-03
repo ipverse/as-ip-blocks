@@ -1,9 +1,12 @@
 {
-  "asn": 150027,
-  "handle": "AUIGANET-AS-IN",
-  "description": "Auriganet Digital Technologies Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150027,
+  "metadata" : {
+    "handle" : "AUIGANET-AS-IN",
+    "description" : "Auriganet Digital Technologies Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.243.80.0/23",
       "43.243.83.0/24",
       "45.250.224.0/24",
@@ -28,6 +31,6 @@
       "157.119.87.0/24",
       "163.61.99.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

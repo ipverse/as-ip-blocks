@@ -1,9 +1,12 @@
 {
-  "asn": 17380,
-  "handle": "PROJ-MUT-TEL",
-  "description": "Project Mutual Telephone Cooperative Association Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17380,
+  "metadata" : {
+    "handle" : "PROJ-MUT-TEL",
+    "description" : "Project Mutual Telephone Cooperative Association Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.22.224.0/19",
       "130.250.112.0/20",
       "198.60.233.0/24",
@@ -11,6 +14,6 @@
       "206.206.0.0/20",
       "216.83.64.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

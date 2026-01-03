@@ -1,12 +1,15 @@
 {
-  "asn": 401472,
-  "handle": "PACKETFEED",
-  "description": "Packetfeed",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401472,
+  "metadata" : {
+    "handle" : "PACKETFEED",
+    "description" : "Packetfeed",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.129.28.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f7af::/40"
     ]
   }

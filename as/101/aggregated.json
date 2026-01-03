@@ -1,13 +1,16 @@
 {
-  "asn": 101,
-  "handle": "WASH-NSF-AS",
-  "description": "University of Washington",
-  "subnets": {
-    "ipv4": [
+  "asn" : 101,
+  "metadata" : {
+    "handle" : "WASH-NSF-AS",
+    "description" : "University of Washington",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.231.240.0/20",
       "209.124.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:504:b::/48",
       "2001:1860::/32"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 57928,
-  "handle": "PRODWARE-AS",
-  "description": "Prodware SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57928,
+  "metadata" : {
+    "handle" : "PRODWARE-AS",
+    "description" : "Prodware SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.157.11.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:6c40::/29"
     ]
   }

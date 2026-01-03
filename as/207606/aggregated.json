@@ -1,13 +1,16 @@
 {
-  "asn": 207606,
-  "handle": "MYWEB",
-  "description": "Myweb srls",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207606,
+  "metadata" : {
+    "handle" : "MYWEB",
+    "description" : "Myweb srls",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.206.231.0/24",
       "149.100.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:1a80::/29"
     ]
   }

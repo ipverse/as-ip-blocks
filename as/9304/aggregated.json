@@ -1,9 +1,12 @@
 {
-  "asn": 9304,
-  "handle": "HUTCHISON-AS-AP",
-  "description": "HGC Global Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9304,
+  "metadata" : {
+    "handle" : "HUTCHISON-AS-AP",
+    "description" : "HGC Global Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.180.0/24",
       "5.199.18.0/24",
       "5.199.29.0/24",
@@ -852,7 +855,7 @@
       "221.124.0.0/14",
       "223.16.0.0/14"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:3d00::/48",
       "2403:4a00::/32",
       "2403:5000::/32",

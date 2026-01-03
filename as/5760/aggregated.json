@@ -1,15 +1,18 @@
 {
-  "asn": 5760,
-  "handle": "BIDDEFORD1",
-  "description": "Biddeford Internet Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5760,
+  "metadata" : {
+    "handle" : "BIDDEFORD1",
+    "description" : "Biddeford Internet Corp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.55.192.0/19",
       "66.63.64.0/18",
       "207.5.128.0/18",
       "216.195.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:cc00::/32"
     ]
   }

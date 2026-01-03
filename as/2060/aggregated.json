@@ -1,11 +1,14 @@
 {
-  "asn": 2060,
-  "handle": "FR-RENATER",
-  "description": "Renater",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2060,
+  "metadata" : {
+    "handle" : "FR-RENATER",
+    "description" : "Renater",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.214.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

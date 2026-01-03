@@ -1,12 +1,15 @@
 {
-  "asn": 152735,
-  "handle": "CPDCL-AS-AP",
-  "description": "Guam Exchange",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152735,
+  "metadata" : {
+    "handle" : "CPDCL-AS-AP",
+    "description" : "Guam Exchange",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.142.152.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:def:c000::/48"
     ]
   }

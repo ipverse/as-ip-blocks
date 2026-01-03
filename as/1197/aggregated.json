@@ -1,13 +1,16 @@
 {
-  "asn": 1197,
-  "handle": "NETWORKABILITY",
-  "description": "Network Ability Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1197,
+  "metadata" : {
+    "handle" : "NETWORKABILITY",
+    "description" : "Network Ability Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.181.8.0/22",
       "46.182.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:8900::/32"
     ]
   }

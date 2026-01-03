@@ -1,9 +1,12 @@
 {
-  "asn": 213038,
-  "handle": "DREAMVPS",
-  "description": "DREAM VPS LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213038,
+  "metadata" : {
+    "handle" : "DREAMVPS",
+    "description" : "DREAM VPS LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.220.151.0/24",
       "89.36.197.0/24",
       "89.40.170.0/24",
@@ -13,6 +16,6 @@
       "185.145.252.0/22",
       "194.88.108.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

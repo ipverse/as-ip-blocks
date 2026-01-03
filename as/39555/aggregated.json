@@ -1,12 +1,15 @@
 {
-  "asn": 39555,
-  "handle": "STW-SCHWAZ-AS",
-  "description": "Stadtwerke Schwaz GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39555,
+  "metadata" : {
+    "handle" : "STW-SCHWAZ-AS",
+    "description" : "Stadtwerke Schwaz GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.105.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:cac0::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 37480,
-  "handle": "COBRANET",
-  "description": "Cobranet Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37480,
+  "metadata" : {
+    "handle" : "COBRANET",
+    "description" : "Cobranet Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.86.128.0/19",
       "197.149.64.0/18",
       "197.255.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fb98::/32"
     ]
   }

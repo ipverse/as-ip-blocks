@@ -1,9 +1,12 @@
 {
-  "asn": 13356,
-  "handle": "PANORA",
-  "description": "Panora Telco",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13356,
+  "metadata" : {
+    "handle" : "PANORA",
+    "description" : "Panora Telco",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.161.200.0/24",
       "67.55.199.0/24",
       "67.55.247.0/24",
@@ -16,6 +19,6 @@
       "208.126.228.0/23",
       "209.152.106.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

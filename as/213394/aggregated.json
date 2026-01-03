@@ -1,13 +1,16 @@
 {
-  "asn": 213394,
-  "handle": "CLEVERCLOUD",
-  "description": "Clever Cloud SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213394,
+  "metadata" : {
+    "handle" : "CLEVERCLOUD",
+    "description" : "Clever Cloud SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.208.207.0/24",
       "185.133.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:d0c0::/29"
     ]
   }

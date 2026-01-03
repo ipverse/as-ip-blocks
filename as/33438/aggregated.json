@@ -1,13 +1,16 @@
 {
-  "asn": 33438,
-  "handle": "DATUM-CLOUD",
-  "description": "Datum",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33438,
+  "metadata" : {
+    "handle" : "DATUM-CLOUD",
+    "description" : "Datum",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.14.160.0/22",
       "67.14.164.0/24",
       "67.14.168.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 32242,
-  "handle": "ULTRA-KING",
-  "description": "Ultra Kings Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32242,
+  "metadata" : {
+    "handle" : "ULTRA-KING",
+    "description" : "Ultra Kings Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.6.4.0/23",
       "103.140.232.0/23",
       "172.102.2.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:48:a000::/48"
     ]
   }

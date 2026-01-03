@@ -1,9 +1,12 @@
 {
-  "asn": 9541,
-  "handle": "CYBERNET-AP",
-  "description": "Cyber Internet Services (Private) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9541,
+  "metadata" : {
+    "handle" : "CYBERNET-AP",
+    "description" : "Cyber Internet Services (Private) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.1.104.0/22",
       "36.255.32.0/22",
       "36.255.40.0/22",
@@ -151,7 +154,7 @@
       "209.101.24.0/23",
       "209.101.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:adc0::/45",
       "2400:adc0:8::/47",
       "2400:adc0:a::/48",

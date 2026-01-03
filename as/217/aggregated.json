@@ -1,16 +1,19 @@
 {
-  "asn": 217,
-  "handle": "UMN-SYSTEM",
-  "description": "University of Minnesota",
-  "subnets": {
-    "ipv4": [
+  "asn" : 217,
+  "metadata" : {
+    "handle" : "UMN-SYSTEM",
+    "description" : "University of Minnesota",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.101.0.0/16",
       "131.212.0.0/16",
       "134.84.0.0/16",
       "146.57.0.0/16",
       "160.94.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470:22::/48"
     ]
   }

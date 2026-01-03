@@ -1,9 +1,12 @@
 {
-  "asn": 9873,
-  "handle": "TELECOM-LA-AS-AP",
-  "description": "Lao Telecommunication Public Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9873,
+  "metadata" : {
+    "handle" : "TELECOM-LA-AS-AP",
+    "description" : "Lao Telecommunication Public Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.224.36.0/22",
       "103.43.76.0/22",
       "103.240.240.0/22",
@@ -11,7 +14,7 @@
       "202.137.128.0/19",
       "202.144.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:aa00::/32"
     ]
   }

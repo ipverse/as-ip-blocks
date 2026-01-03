@@ -1,9 +1,12 @@
 {
-  "asn": 31872,
-  "handle": "VANTIVE-HEALTHCARE",
-  "description": "Vantive Health",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31872,
+  "metadata" : {
+    "handle" : "VANTIVE-HEALTHCARE",
+    "description" : "Vantive Health",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.198.128.0/23",
       "159.198.130.0/24",
       "159.198.132.0/22",
@@ -14,6 +17,6 @@
       "159.198.162.0/24",
       "159.198.164.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

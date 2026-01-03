@@ -1,13 +1,16 @@
 {
-  "asn": 59921,
-  "handle": "SWFI-DE",
-  "description": "Stadtwerke Finsterwalde GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59921,
+  "metadata" : {
+    "handle" : "SWFI-DE",
+    "description" : "Stadtwerke Finsterwalde GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "156.67.16.0/22",
       "185.64.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:f900::/29"
     ]
   }

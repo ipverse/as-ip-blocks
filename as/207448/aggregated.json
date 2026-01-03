@@ -1,14 +1,17 @@
 {
-  "asn": 207448,
-  "handle": "PEMA-KOMMUNIKATIONER-AS",
-  "description": "Pema Kommunikationer AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207448,
+  "metadata" : {
+    "handle" : "PEMA-KOMMUNIKATIONER-AS",
+    "description" : "Pema Kommunikationer AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.165.132.0/24",
       "193.183.193.0/24",
       "193.235.64.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:280:358::/48"
     ]
   }

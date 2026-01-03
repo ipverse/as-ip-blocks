@@ -1,12 +1,15 @@
 {
-  "asn": 401213,
-  "handle": "NOMADIC-NETWORKS",
-  "description": "Nomadic Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401213,
+  "metadata" : {
+    "handle" : "NOMADIC-NETWORKS",
+    "description" : "Nomadic Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.179.232.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f90b::/36"
     ]
   }

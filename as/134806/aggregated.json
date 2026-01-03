@@ -1,9 +1,12 @@
 {
-  "asn": 134806,
-  "handle": "SKYVIEWONLINE-AS-AP",
-  "description": "Sky View Online Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134806,
+  "metadata" : {
+    "handle" : "SKYVIEWONLINE-AS-AP",
+    "description" : "Sky View Online Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.89.27.0/24",
       "103.100.235.0/24",
       "103.126.216.0/22",
@@ -13,7 +16,7 @@
       "123.253.64.0/22",
       "160.238.0.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:1040::/46",
       "2401:1040:100::/46",
       "2401:1040:301::/48",

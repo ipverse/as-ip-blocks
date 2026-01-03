@@ -1,15 +1,18 @@
 {
-  "asn": 1031,
-  "handle": "PEER1-1031",
-  "description": "PEER 1031 LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1031,
+  "metadata" : {
+    "handle" : "PEER1-1031",
+    "description" : "PEER 1031 LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.145.72.0/24",
       "38.57.115.0/24",
       "38.57.116.0/24",
       "38.105.3.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:1640:1035::/48"
     ]
   }

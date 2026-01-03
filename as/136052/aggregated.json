@@ -1,9 +1,12 @@
 {
-  "asn": 136052,
-  "handle": "IDNIC-IDCLOUDHOST-AS-ID",
-  "description": "PT Cloud Hosting Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136052,
+  "metadata" : {
+    "handle" : "IDNIC-IDCLOUDHOST-AS-ID",
+    "description" : "PT Cloud Hosting Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.112.78.0/23",
       "103.15.226.0/24",
       "103.23.198.0/23",
@@ -49,6 +52,6 @@
       "203.145.34.0/23",
       "210.79.190.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

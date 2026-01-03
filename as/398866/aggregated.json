@@ -1,12 +1,15 @@
 {
-  "asn": 398866,
-  "handle": "INTERBANK-01",
-  "description": "InterBank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398866,
+  "metadata" : {
+    "handle" : "INTERBANK-01",
+    "description" : "InterBank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.193.143.0/24",
       "198.206.193.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

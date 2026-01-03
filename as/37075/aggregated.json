@@ -1,9 +1,12 @@
 {
-  "asn": 37075,
-  "handle": "ZAINUGAS",
-  "description": "Airtel Uganda Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37075,
+  "metadata" : {
+    "handle" : "ZAINUGAS",
+    "description" : "Airtel Uganda Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.221.80.0/20",
       "41.223.84.0/22",
       "102.80.0.0/14",
@@ -18,6 +21,6 @@
       "197.221.128.0/19",
       "197.239.0.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

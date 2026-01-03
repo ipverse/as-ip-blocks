@@ -1,15 +1,18 @@
 {
-  "asn": 22402,
-  "handle": "NEXTCO-AS",
-  "description": "Nextera Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22402,
+  "metadata" : {
+    "handle" : "NEXTCO-AS",
+    "description" : "Nextera Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.21.224.0/19",
       "98.142.16.0/20",
       "206.11.94.0/24",
       "206.41.144.0/20",
       "208.79.68.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

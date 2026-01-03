@@ -1,13 +1,16 @@
 {
-  "asn": 15769,
-  "handle": "DEUTSCHE-BANK-AG",
-  "description": "Deutsche Bank AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15769,
+  "metadata" : {
+    "handle" : "DEUTSCHE-BANK-AG",
+    "description" : "Deutsche Bank AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.83.32.0/19",
       "160.83.176.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:c00:f060::/46"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 36069,
-  "handle": "CHANUTE",
-  "description": "City of Chanute Kansas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36069,
+  "metadata" : {
+    "handle" : "CHANUTE",
+    "description" : "City of Chanute Kansas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.19.200.0/22",
       "167.253.0.0/22",
       "199.96.168.0/22",
       "208.64.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:8a00::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 15034,
-  "handle": "TIBA",
-  "description": "TIBA S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15034,
+  "metadata" : {
+    "handle" : "TIBA",
+    "description" : "TIBA S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.61.64.0/24",
       "200.61.66.0/23",
       "200.61.68.0/24",
@@ -12,6 +15,6 @@
       "200.61.80.0/24",
       "200.61.96.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

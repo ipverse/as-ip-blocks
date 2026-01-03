@@ -1,12 +1,15 @@
 {
-  "asn": 140878,
-  "handle": "PNP-AS-AP",
-  "description": "Philippine National Police",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140878,
+  "metadata" : {
+    "handle" : "PNP-AS-AP",
+    "description" : "Philippine National Police",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.152.214.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:1d80::/48"
     ]
   }

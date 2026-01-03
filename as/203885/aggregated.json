@@ -1,9 +1,12 @@
 {
-  "asn": 203885,
-  "handle": "SNCF-ASN",
-  "description": "Societe nationale SNCF SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203885,
+  "metadata" : {
+    "handle" : "SNCF-ASN",
+    "description" : "Societe nationale SNCF SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.169.17.0/24",
       "148.169.18.0/24",
       "148.169.23.0/24",
@@ -15,6 +18,6 @@
       "171.16.208.0/24",
       "171.16.210.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 46892,
-  "handle": "WINNE-IPV4-1",
-  "description": "Winnebago Cooperative Telecom Association",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46892,
+  "metadata" : {
+    "handle" : "WINNE-IPV4-1",
+    "description" : "Winnebago Cooperative Telecom Association",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.55.220.0/24",
       "70.39.0.0/24",
       "70.39.2.0/24",
@@ -33,6 +36,6 @@
       "216.51.138.0/24",
       "216.248.103.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

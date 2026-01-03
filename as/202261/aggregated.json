@@ -1,12 +1,15 @@
 {
-  "asn": 202261,
-  "handle": "NETDEF-CH",
-  "description": "Network Device Education Foundation Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202261,
+  "metadata" : {
+    "handle" : "NETDEF-CH",
+    "description" : "Network Device Education Foundation Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.147.136.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:e480::/48",
       "2a07:e480:100::/48"
     ]

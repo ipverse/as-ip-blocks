@@ -1,9 +1,12 @@
 {
-  "asn": 152565,
-  "handle": "JOYSVC-AS-IN",
-  "description": "JOY SERVICES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152565,
+  "metadata" : {
+    "handle" : "JOYSVC-AS-IN",
+    "description" : "JOY SERVICES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.76.192.0/20",
       "38.76.222.0/23",
       "103.148.118.0/24",
@@ -14,7 +17,7 @@
       "163.61.38.0/23",
       "165.101.250.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:940::/48",
       "2401:e920::/33",
       "2401:e920:8000::/34",

@@ -1,12 +1,15 @@
 {
-  "asn": 216333,
-  "handle": "AS-NETDEV",
-  "description": "NetDev UG (haftungsbeschraenkt)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216333,
+  "metadata" : {
+    "handle" : "AS-NETDEV",
+    "description" : "NetDev UG (haftungsbeschraenkt)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.8.133.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:d6c0:1::/48",
       "2a13:d6c0:20::/48",
       "2a13:d6c0:100::/48"

@@ -1,9 +1,12 @@
 {
-  "asn": 13866,
-  "handle": "CCOUNTRY",
-  "description": "Computer Country",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13866,
+  "metadata" : {
+    "handle" : "CCOUNTRY",
+    "description" : "Computer Country",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.168.20.0/23",
       "65.112.28.0/23",
       "65.167.68.0/22",
@@ -13,7 +16,7 @@
       "208.3.100.0/23",
       "208.19.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fff8::/36"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 133797,
-  "handle": "ACSATA-AS-ID",
-  "description": "PT Rekajasa Akses",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133797,
+  "metadata" : {
+    "handle" : "ACSATA-AS-ID",
+    "description" : "PT Rekajasa Akses",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.122.56.0/22",
       "103.43.128.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

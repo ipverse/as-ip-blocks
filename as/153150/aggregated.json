@@ -1,11 +1,14 @@
 {
-  "asn": 153150,
-  "handle": "IDNIC-GNAP-AS-ID",
-  "description": "PT Gerbang Nasional Akses Prima",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153150,
+  "metadata" : {
+    "handle" : "IDNIC-GNAP-AS-ID",
+    "description" : "PT Gerbang Nasional Akses Prima",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.191.181.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

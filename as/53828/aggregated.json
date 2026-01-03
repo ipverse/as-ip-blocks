@@ -1,9 +1,12 @@
 {
-  "asn": 53828,
-  "handle": "NITEL",
-  "description": "NETWORK INNOVATIONS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53828,
+  "metadata" : {
+    "handle" : "NITEL",
+    "description" : "NETWORK INNOVATIONS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.43.240.0/20",
       "45.61.16.0/20",
       "64.63.128.0/18",
@@ -25,7 +28,7 @@
       "216.40.0.0/19",
       "216.152.16.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:a380::/32"
     ]
   }

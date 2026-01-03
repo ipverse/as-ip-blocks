@@ -1,13 +1,16 @@
 {
-  "asn": 215955,
-  "handle": "ALTEASYSTEMS-AS",
-  "description": "ALTEASYSTEMS OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215955,
+  "metadata" : {
+    "handle" : "ALTEASYSTEMS-AS",
+    "description" : "ALTEASYSTEMS OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.14.167.0/24",
       "81.22.136.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:9500:ed::/48"
     ]
   }

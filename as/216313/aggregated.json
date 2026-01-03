@@ -1,13 +1,16 @@
 {
-  "asn": 216313,
-  "handle": "COMPLETNET-NET",
-  "description": "Completnet ApS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216313,
+  "metadata" : {
+    "handle" : "COMPLETNET-NET",
+    "description" : "Completnet ApS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.129.60.0/24",
       "194.11.26.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:cd80::/32"
     ]
   }

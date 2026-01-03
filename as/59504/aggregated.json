@@ -1,9 +1,12 @@
 {
-  "asn": 59504,
-  "handle": "VPSVILLE-AS",
-  "description": "LLC Vpsville",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59504,
+  "metadata" : {
+    "handle" : "VPSVILLE-AS",
+    "description" : "LLC Vpsville",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.139.184.0/22",
       "45.142.208.0/23",
       "45.142.211.0/24",
@@ -36,7 +39,7 @@
       "194.113.104.0/24",
       "194.113.107.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:fb41::/32",
       "2a05:fb42::/32",
       "2a07:14c0::/47",

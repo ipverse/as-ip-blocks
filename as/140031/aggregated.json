@@ -1,15 +1,18 @@
 {
-  "asn": 140031,
-  "handle": "MYNUSA-ID",
-  "description": "PT Mandala Lintas Nusa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140031,
+  "metadata" : {
+    "handle" : "MYNUSA-ID",
+    "description" : "PT Mandala Lintas Nusa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.249.216.0/24",
       "103.230.48.0/23",
       "110.232.85.0/24",
       "192.145.228.0/23",
       "202.162.205.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

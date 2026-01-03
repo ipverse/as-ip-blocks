@@ -1,12 +1,15 @@
 {
-  "asn": 48992,
-  "handle": "ALKM-AS",
-  "description": "Archidiecezja Lubelska",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48992,
+  "metadata" : {
+    "handle" : "ALKM-AS",
+    "description" : "Archidiecezja Lubelska",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.251.199.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:ea0::/48"
     ]
   }

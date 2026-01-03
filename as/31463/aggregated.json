@@ -1,9 +1,12 @@
 {
-  "asn": 31463,
-  "handle": "FOURD-AS",
-  "description": "Redcentric Solutions Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31463,
+  "metadata" : {
+    "handle" : "FOURD-AS",
+    "description" : "Redcentric Solutions Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.209.208.0/20",
       "45.140.136.0/22",
       "45.140.252.0/22",
@@ -39,7 +42,7 @@
       "185.167.228.0/22",
       "195.226.201.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1c18::/29",
       "2a07:45c2::/40",
       "2a0f:64c0::/29"

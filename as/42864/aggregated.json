@@ -1,9 +1,12 @@
 {
-  "asn": 42864,
-  "handle": "GIGANET-HU",
-  "description": "Giganet Internet Szolgaltato Kft",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42864,
+  "metadata" : {
+    "handle" : "GIGANET-HU",
+    "description" : "Giganet Internet Szolgaltato Kft",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.9.169.0/24",
       "45.9.170.0/23",
       "45.14.10.0/23",
@@ -22,7 +25,7 @@
       "185.198.168.0/22",
       "193.138.125.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1f40::/29",
       "2a05:f5c0::/32",
       "2a0c:f1c0::/29"

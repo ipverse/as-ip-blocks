@@ -1,9 +1,12 @@
 {
-  "asn": 41957,
-  "handle": "GLOBALTE-AS",
-  "description": "Directive LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41957,
+  "metadata" : {
+    "handle" : "GLOBALTE-AS",
+    "description" : "Directive LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.86.169.0/24",
       "46.16.37.0/24",
       "46.253.128.0/24",
@@ -23,6 +26,6 @@
       "195.245.238.0/24",
       "213.109.108.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

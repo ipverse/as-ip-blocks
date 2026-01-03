@@ -1,9 +1,12 @@
 {
-  "asn": 23655,
-  "handle": "TWODEGREES-NZ-AS",
-  "description": "Two Degrees Mobile Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23655,
+  "metadata" : {
+    "handle" : "TWODEGREES-NZ-AS",
+    "description" : "Two Degrees Mobile Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.110.120.0/21",
       "103.4.152.0/22",
       "103.18.200.0/22",
@@ -37,7 +40,7 @@
       "210.48.190.0/24",
       "210.55.206.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:e000::/29"
     ]
   }

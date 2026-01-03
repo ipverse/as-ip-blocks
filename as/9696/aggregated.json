@@ -1,9 +1,12 @@
 {
-  "asn": 9696,
-  "handle": "EDAS-AS",
-  "description": "Oscar Enterprise",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9696,
+  "metadata" : {
+    "handle" : "EDAS-AS",
+    "description" : "Oscar Enterprise",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.32.22.0/24",
       "14.32.46.0/24",
       "14.32.59.0/24",
@@ -30,6 +33,6 @@
       "211.106.109.0/24",
       "211.106.131.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 25820,
-  "handle": "IT7NET",
-  "description": "IT7 Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25820,
+  "metadata" : {
+    "handle" : "IT7NET",
+    "description" : "IT7 Networks Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.83.224.0/19",
       "23.105.192.0/19",
       "23.106.128.0/20",
@@ -115,7 +118,7 @@
       "212.50.248.0/21",
       "216.24.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:8700:360::/48",
       "2607:8700:1200::/48",
       "2607:8700:2200::/48",

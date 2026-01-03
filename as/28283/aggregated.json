@@ -1,9 +1,12 @@
 {
-  "asn": 28283,
-  "handle": "ADYLNET-TELECOM",
-  "description": "Adylnet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28283,
+  "metadata" : {
+    "handle" : "ADYLNET-TELECOM",
+    "description" : "Adylnet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.72.224.0/21",
       "177.221.184.0/22",
       "187.0.0.0/20",
@@ -12,7 +15,7 @@
       "200.240.224.0/19",
       "201.148.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:378::/32",
       "2804:624::/32"
     ]

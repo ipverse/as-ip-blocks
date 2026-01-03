@@ -1,9 +1,12 @@
 {
-  "asn": 24810,
-  "handle": "TELESET-KAZAN",
-  "description": "PJSC Rostelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24810,
+  "metadata" : {
+    "handle" : "TELESET-KAZAN",
+    "description" : "PJSC Rostelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.22.200.0/21",
       "81.22.208.0/21",
       "81.23.144.0/23",
@@ -26,6 +29,6 @@
       "89.248.124.0/22",
       "178.20.128.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

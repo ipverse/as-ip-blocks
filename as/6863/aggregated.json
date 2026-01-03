@@ -1,9 +1,12 @@
 {
-  "asn": 6863,
-  "handle": "ROSNET-AS",
-  "description": "PJSC Rostelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6863,
+  "metadata" : {
+    "handle" : "ROSNET-AS",
+    "description" : "PJSC Rostelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.157.16.0/21",
       "46.226.96.0/21",
       "82.149.192.0/19",
@@ -16,6 +19,6 @@
       "217.14.240.0/21",
       "217.171.0.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

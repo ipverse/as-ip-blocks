@@ -1,12 +1,15 @@
 {
-  "asn": 31800,
-  "handle": "DALNET",
-  "description": "DALnet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31800,
+  "metadata" : {
+    "handle" : "DALNET",
+    "description" : "DALnet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.14.236.0/24",
       "194.68.45.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

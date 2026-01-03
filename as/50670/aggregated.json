@@ -1,9 +1,12 @@
 {
-  "asn": 50670,
-  "handle": "VTELJO",
-  "description": "VTEL HOLDINGS LIMITED/JORDAN CO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50670,
+  "metadata" : {
+    "handle" : "VTELJO",
+    "description" : "VTEL HOLDINGS LIMITED/JORDAN CO.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.21.8.0/21",
       "109.237.192.0/20",
       "176.241.64.0/21",
@@ -12,7 +15,7 @@
       "185.96.68.0/22",
       "185.193.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:1d0::/32"
     ]
   }

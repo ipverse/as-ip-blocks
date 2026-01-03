@@ -1,13 +1,16 @@
 {
-  "asn": 141209,
-  "handle": "SKYNETBROADBANDSERVICE-AS-AP",
-  "description": "Skynet Broadband Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141209,
+  "metadata" : {
+    "handle" : "SKYNETBROADBANDSERVICE-AS-AP",
+    "description" : "Skynet Broadband Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.137.143.0/24",
       "103.143.243.0/24",
       "103.252.121.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

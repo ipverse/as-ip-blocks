@@ -1,13 +1,16 @@
 {
-  "asn": 6894,
-  "handle": "KDDI-EUROPE",
-  "description": "KDDI Europe Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6894,
+  "metadata" : {
+    "handle" : "KDDI-EUROPE",
+    "description" : "KDDI Europe Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.131.152.0/21",
       "195.14.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:b78::/32"
     ]
   }

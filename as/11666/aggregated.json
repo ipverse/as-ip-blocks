@@ -1,9 +1,12 @@
 {
-  "asn": 11666,
-  "handle": "NEXICOM-CA",
-  "description": "Nexicom Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11666,
+  "metadata" : {
+    "handle" : "NEXICOM-CA",
+    "description" : "Nexicom Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.79.224.0/21",
       "66.79.232.0/22",
       "66.79.236.0/23",
@@ -20,7 +23,7 @@
       "192.249.128.0/17",
       "216.168.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f1f0::/32"
     ]
   }

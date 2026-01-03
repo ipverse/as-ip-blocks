@@ -1,9 +1,12 @@
 {
-  "asn": 47438,
-  "handle": "PSKOVLINE-AS",
-  "description": "Pskovline Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47438,
+  "metadata" : {
+    "handle" : "PSKOVLINE-AS",
+    "description" : "Pskovline Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.132.96.0/19",
       "89.23.0.0/19",
       "91.204.136.0/22",
@@ -13,7 +16,7 @@
       "176.113.32.0/21",
       "188.130.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:233c::/48"
     ]
   }

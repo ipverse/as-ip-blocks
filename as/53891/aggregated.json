@@ -1,12 +1,15 @@
 {
-  "asn": 53891,
-  "handle": "0POS",
-  "description": "Zero Position",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53891,
+  "metadata" : {
+    "handle" : "0POS",
+    "description" : "Zero Position",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.25.64.0/23",
       "216.25.66.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

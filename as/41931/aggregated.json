@@ -1,9 +1,12 @@
 {
-  "asn": 41931,
-  "handle": "EURONET-AS",
-  "description": "EURONET NORBERT SANIEWSKI SPOLKA JAWNA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41931,
+  "metadata" : {
+    "handle" : "EURONET-AS",
+    "description" : "EURONET NORBERT SANIEWSKI SPOLKA JAWNA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.46.4.0/22",
       "77.46.8.0/21",
       "77.46.16.0/20",
@@ -11,6 +14,6 @@
       "77.46.64.0/18",
       "195.177.196.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

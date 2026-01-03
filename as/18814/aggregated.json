@@ -1,12 +1,15 @@
 {
-  "asn": 18814,
-  "handle": "ATC-DC-NET01",
-  "description": "Atlantic Technology Centre",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18814,
+  "metadata" : {
+    "handle" : "ATC-DC-NET01",
+    "description" : "Atlantic Technology Centre",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.176.0.0/24",
       "207.34.28.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

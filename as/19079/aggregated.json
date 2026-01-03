@@ -1,14 +1,17 @@
 {
-  "asn": 19079,
-  "handle": "LOCL-NET",
-  "description": "Locl-Net Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19079,
+  "metadata" : {
+    "handle" : "LOCL-NET",
+    "description" : "Locl-Net Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.163.144.0/23",
       "216.163.147.0/24",
       "216.163.148.0/22",
       "216.163.152.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

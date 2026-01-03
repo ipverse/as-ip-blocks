@@ -1,12 +1,15 @@
 {
-  "asn": 19713,
-  "handle": "STATE-OF-NH-USA",
-  "description": "State of New Hampshire",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19713,
+  "metadata" : {
+    "handle" : "STATE-OF-NH-USA",
+    "description" : "State of New Hampshire",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.192.0.0/21",
       "199.192.8.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

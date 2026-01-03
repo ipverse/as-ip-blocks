@@ -1,12 +1,15 @@
 {
-  "asn": 42236,
-  "handle": "ITM8-AS",
-  "description": "Itm8 A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42236,
+  "metadata" : {
+    "handle" : "ITM8-AS",
+    "description" : "Itm8 A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.72.48.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:f700:fffe::/48"
     ]
   }

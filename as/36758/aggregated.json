@@ -1,9 +1,12 @@
 {
-  "asn": 36758,
-  "handle": "TRUIST-ASN-36758",
-  "description": "Branch Banking and Trust Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36758,
+  "metadata" : {
+    "handle" : "TRUIST-ASN-36758",
+    "description" : "Branch Banking and Trust Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.120.64.0/23",
       "74.120.66.0/24",
       "74.120.68.0/23",
@@ -24,6 +27,6 @@
       "208.11.14.0/23",
       "208.24.29.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

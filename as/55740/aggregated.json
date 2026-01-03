@@ -1,9 +1,12 @@
 {
-  "asn": 55740,
-  "handle": "TTSLMEIS-AS-AP",
-  "description": "TTSL-ISP DIVISION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55740,
+  "metadata" : {
+    "handle" : "TTSLMEIS-AS-AP",
+    "description" : "TTSL-ISP DIVISION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.97.20.0/24",
       "14.97.48.0/24",
       "14.195.124.0/24",
@@ -12,6 +15,6 @@
       "49.249.1.0/24",
       "49.249.27.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

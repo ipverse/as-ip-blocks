@@ -1,9 +1,12 @@
 {
-  "asn": 4616,
-  "handle": "HKPOLYU-HK",
-  "description": "The Hong Kong Polytechnic University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4616,
+  "metadata" : {
+    "handle" : "HKPOLYU-HK",
+    "description" : "The Hong Kong Polytechnic University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.132.0.0/16",
       "175.159.0.0/19",
       "175.159.192.0/21",
@@ -11,7 +14,7 @@
       "202.125.192.0/20",
       "202.125.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:ce0:4::/48"
     ]
   }

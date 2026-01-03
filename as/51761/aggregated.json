@@ -1,12 +1,15 @@
 {
-  "asn": 51761,
-  "handle": "SAHFR1",
-  "description": "SoftAtHome SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51761,
+  "metadata" : {
+    "handle" : "SAHFR1",
+    "description" : "SoftAtHome SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.199.33.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:94c0::/48"
     ]
   }

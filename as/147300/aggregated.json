@@ -1,12 +1,15 @@
 {
-  "asn": 147300,
-  "handle": "THNICCOLTD-AS-AP",
-  "description": "T.H.NIC Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147300,
+  "metadata" : {
+    "handle" : "THNICCOLTD-AS-AP",
+    "description" : "T.H.NIC Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.206.25.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:b881::/48"
     ]
   }

@@ -1,10 +1,13 @@
 {
-  "asn": 215386,
-  "handle": "HOFMAN-AS",
-  "description": "Arjan Hofman",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 215386,
+  "metadata" : {
+    "handle" : "HOFMAN-AS",
+    "description" : "Arjan Hofman",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0a:6044:ac20::/48",
       "2a0e:8f02:f069::/48"
     ]

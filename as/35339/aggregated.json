@@ -1,14 +1,17 @@
 {
-  "asn": 35339,
-  "handle": "CZ-AS",
-  "description": "AtNOC GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35339,
+  "metadata" : {
+    "handle" : "CZ-AS",
+    "description" : "AtNOC GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.129.200.0/21",
       "185.65.232.0/22",
       "193.239.188.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:b18::/32"
     ]
   }

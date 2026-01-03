@@ -1,13 +1,16 @@
 {
-  "asn": 399570,
-  "handle": "NFINITY-BROADBAND",
-  "description": "NFinity Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399570,
+  "metadata" : {
+    "handle" : "NFINITY-BROADBAND",
+    "description" : "NFinity Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.78.232.0/22",
       "76.76.245.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:4840::/32"
     ]
   }

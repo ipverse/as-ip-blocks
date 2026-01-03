@@ -1,12 +1,15 @@
 {
-  "asn": 273443,
-  "handle": "CANAL-ISP-SOLUCOES",
-  "description": "Canal ISP - Soluções em Tecnologia LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273443,
+  "metadata" : {
+    "handle" : "CANAL-ISP-SOLUCOES",
+    "description" : "Canal ISP - Soluções em Tecnologia LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.226.217.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8eb4::/33",
       "2804:8eb4:8000::/40",
       "2804:8eb4:c000::/34"

@@ -1,13 +1,16 @@
 {
-  "asn": 262934,
-  "handle": "IPRED",
-  "description": "IP·RED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262934,
+  "metadata" : {
+    "handle" : "IPRED",
+    "description" : "IP·RED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.227.144.0/22",
       "191.102.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:fa80::/32"
     ]
   }

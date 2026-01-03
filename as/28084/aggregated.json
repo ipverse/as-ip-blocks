@@ -1,11 +1,14 @@
 {
-  "asn": 28084,
-  "handle": "INFATLAN",
-  "description": "Infatlan S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28084,
+  "metadata" : {
+    "handle" : "INFATLAN",
+    "description" : "Infatlan S.A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.3.194.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

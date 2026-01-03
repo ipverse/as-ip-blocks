@@ -1,12 +1,15 @@
 {
-  "asn": 63240,
-  "handle": "OSNPRW",
-  "description": "OSNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63240,
+  "metadata" : {
+    "handle" : "OSNPRW",
+    "description" : "OSNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.119.24.0/24",
       "192.254.109.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

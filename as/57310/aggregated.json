@@ -1,12 +1,15 @@
 {
-  "asn": 57310,
-  "handle": "ISONYS",
-  "description": "ISONYS SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57310,
+  "metadata" : {
+    "handle" : "ISONYS",
+    "description" : "ISONYS SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.253.57.0/24",
       "217.71.113.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

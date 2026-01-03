@@ -1,12 +1,15 @@
 {
-  "asn": 402070,
-  "handle": "LSDR-ASN-01",
-  "description": "Lone Star Data Ranch LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 402070,
+  "metadata" : {
+    "handle" : "LSDR-ASN-01",
+    "description" : "Lone Star Data Ranch LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.143.91.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f523::/40"
     ]
   }

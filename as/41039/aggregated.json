@@ -1,9 +1,12 @@
 {
-  "asn": 41039,
-  "handle": "DON-FTTH",
-  "description": "Timer LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41039,
+  "metadata" : {
+    "handle" : "DON-FTTH",
+    "description" : "Timer LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.153.176.0/22",
       "5.153.181.0/24",
       "5.153.184.0/22",
@@ -14,6 +17,6 @@
       "92.242.120.0/21",
       "195.184.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

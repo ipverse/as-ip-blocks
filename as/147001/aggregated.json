@@ -1,11 +1,14 @@
 {
-  "asn": 147001,
-  "handle": "DIGITALNET-AS-AP",
-  "description": "DIGITAL NET BD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147001,
+  "metadata" : {
+    "handle" : "DIGITALNET-AS-AP",
+    "description" : "DIGITAL NET BD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.20.134.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

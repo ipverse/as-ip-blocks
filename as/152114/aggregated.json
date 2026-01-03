@@ -1,12 +1,15 @@
 {
-  "asn": 152114,
-  "handle": "MAHRINNETWORK-AS-AP",
-  "description": "Mahrin Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152114,
+  "metadata" : {
+    "handle" : "MAHRINNETWORK-AS-AP",
+    "description" : "Mahrin Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "180.94.24.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:2dc0::/48"
     ]
   }

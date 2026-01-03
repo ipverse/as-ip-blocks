@@ -1,14 +1,17 @@
 {
-  "asn": 9699,
-  "handle": "KFB-AS",
-  "description": "Standard Chartered",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9699,
+  "metadata" : {
+    "handle" : "KFB-AS",
+    "description" : "Standard Chartered",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "175.124.39.0/24",
       "211.32.160.0/24",
       "211.197.20.0/24",
       "211.219.66.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

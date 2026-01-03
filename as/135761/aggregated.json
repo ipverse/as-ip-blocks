@@ -1,9 +1,12 @@
 {
-  "asn": 135761,
-  "handle": "ULNPLSUM-AS",
-  "description": "Userlinks Netcom Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135761,
+  "metadata" : {
+    "handle" : "ULNPLSUM-AS",
+    "description" : "Userlinks Netcom Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.38.52.0/23",
       "103.70.164.0/22",
       "103.143.166.0/23",
@@ -12,7 +15,7 @@
       "103.168.2.0/23",
       "103.175.29.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:1f40::/32"
     ]
   }

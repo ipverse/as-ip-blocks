@@ -1,9 +1,12 @@
 {
-  "asn": 262346,
-  "handle": "FP-TELECOMUNICACOES",
-  "description": "FP Telecomunicacoes Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262346,
+  "metadata" : {
+    "handle" : "FP-TELECOMUNICACOES",
+    "description" : "FP Telecomunicacoes Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.97.0.0/22",
       "143.202.224.0/22",
       "170.150.100.0/22",
@@ -11,7 +14,7 @@
       "177.125.204.0/22",
       "179.107.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:81c::/32"
     ]
   }

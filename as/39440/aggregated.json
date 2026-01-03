@@ -1,9 +1,12 @@
 {
-  "asn": 39440,
-  "handle": "NETPLUSFR-AS",
-  "description": "netplusFR SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39440,
+  "metadata" : {
+    "handle" : "NETPLUSFR-AS",
+    "description" : "netplusFR SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.134.24.0/21",
       "81.88.184.0/21",
       "82.146.192.0/19",
@@ -11,6 +14,6 @@
       "185.89.252.0/22",
       "193.247.189.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

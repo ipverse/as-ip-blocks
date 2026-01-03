@@ -1,9 +1,12 @@
 {
-  "asn": 393319,
-  "handle": "ANDURIL-1",
-  "description": "Anduril Industries Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393319,
+  "metadata" : {
+    "handle" : "ANDURIL-1",
+    "description" : "Anduril Industries Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.233.36.0/23",
       "77.233.38.0/24",
       "77.233.41.0/24",
@@ -12,6 +15,6 @@
       "77.233.52.0/22",
       "77.233.56.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

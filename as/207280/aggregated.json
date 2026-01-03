@@ -1,13 +1,16 @@
 {
-  "asn": 207280,
-  "handle": "GRDF-AS",
-  "description": "GRDF SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207280,
+  "metadata" : {
+    "handle" : "GRDF-AS",
+    "description" : "GRDF SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.136.223.0/24",
       "163.100.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:f00:3::/48",
       "2a10:f00:4::/48"
     ]

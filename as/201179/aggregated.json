@@ -1,9 +1,12 @@
 {
-  "asn": 201179,
-  "handle": "TERALINETELECOM-AS",
-  "description": "Teraline Telecom LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201179,
+  "metadata" : {
+    "handle" : "TERALINETELECOM-AS",
+    "description" : "Teraline Telecom LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.8.149.0/24",
       "46.8.151.0/24",
       "109.248.131.0/24",
@@ -14,7 +17,7 @@
       "188.130.173.0/24",
       "188.130.223.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:1240::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 15081,
-  "handle": "OMNI-FIBER",
-  "description": "Omni Fiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15081,
+  "metadata" : {
+    "handle" : "OMNI-FIBER",
+    "description" : "Omni Fiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.179.0.0/18",
       "38.194.96.0/19",
       "38.194.128.0/18",
@@ -15,7 +18,7 @@
       "198.101.48.0/20",
       "207.174.115.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:c040::/32"
     ]
   }

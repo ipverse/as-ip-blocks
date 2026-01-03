@@ -1,9 +1,12 @@
 {
-  "asn": 13135,
-  "handle": "CREW-AS",
-  "description": "Wieske\u0027s Crew GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13135,
+  "metadata" : {
+    "handle" : "CREW-AS",
+    "description" : "Wieske's Crew GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.66.88.0/22",
       "92.119.84.0/22",
       "185.132.220.0/22",
@@ -13,7 +16,7 @@
       "212.12.48.0/21",
       "213.238.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:14b0::/32",
       "2a04:5300::/29",
       "2a09:6640::/29"

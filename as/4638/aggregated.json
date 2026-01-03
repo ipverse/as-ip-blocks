@@ -1,9 +1,12 @@
 {
-  "asn": 4638,
-  "handle": "IS-FJ-AS",
-  "description": "Connect Internet Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4638,
+  "metadata" : {
+    "handle" : "IS-FJ-AS",
+    "description" : "Connect Internet Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.112.224.0/22",
       "103.52.88.0/22",
       "103.76.157.0/24",
@@ -14,6 +17,6 @@
       "202.62.120.0/21",
       "210.7.0.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

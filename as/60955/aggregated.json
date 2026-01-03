@@ -1,14 +1,17 @@
 {
-  "asn": 60955,
-  "handle": "WAVECON",
-  "description": "Wavecon GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60955,
+  "metadata" : {
+    "handle" : "WAVECON",
+    "description" : "Wavecon GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.172.112.0/20",
       "185.22.220.0/22",
       "193.192.40.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:2200::/31"
     ]
   }

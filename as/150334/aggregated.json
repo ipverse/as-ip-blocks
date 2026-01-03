@@ -1,12 +1,15 @@
 {
-  "asn": 150334,
-  "handle": "BAIZID-AS-AP",
-  "description": "Baizid Online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150334,
+  "metadata" : {
+    "handle" : "BAIZID-AS-AP",
+    "description" : "Baizid Online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.14.169.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:55c0::/48",
       "2405:4440:b000::/36"
     ]

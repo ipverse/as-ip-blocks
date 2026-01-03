@@ -1,9 +1,12 @@
 {
-  "asn": 9856,
-  "handle": "WOORIWM-AS",
-  "description": "WOORI Investment @ Securities",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9856,
+  "metadata" : {
+    "handle" : "WOORIWM-AS",
+    "description" : "WOORI Investment @ Securities",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "121.65.247.0/24",
       "121.131.217.0/24",
       "183.98.225.0/24",
@@ -12,6 +15,6 @@
       "211.60.232.0/24",
       "221.146.193.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

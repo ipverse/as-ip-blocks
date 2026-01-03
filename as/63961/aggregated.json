@@ -1,9 +1,12 @@
 {
-  "asn": 63961,
-  "handle": "BDREN-UGC-AS-AP",
-  "description": "Bangladesh Research and Education Network (BdREN)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63961,
+  "metadata" : {
+    "handle" : "BDREN-UGC-AS-AP",
+    "description" : "Bangladesh Research and Education Network (BdREN)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.28.120.0/22",
       "103.140.181.0/24",
       "103.147.242.0/23",
@@ -12,7 +15,7 @@
       "163.47.36.0/22",
       "203.96.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:f500::/32"
     ]
   }

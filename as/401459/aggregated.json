@@ -1,12 +1,15 @@
 {
-  "asn": 401459,
-  "handle": "AS-UADA",
-  "description": "Division of Agriculture of the University of Arkansas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401459,
+  "metadata" : {
+    "handle" : "AS-UADA",
+    "description" : "Division of Agriculture of the University of Arkansas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.130.108.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f776::/40",
       "2607:f4f0:18::/48"
     ]

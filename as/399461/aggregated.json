@@ -1,9 +1,12 @@
 {
-  "asn": 399461,
-  "handle": "HOSTSNAP-NETWORK",
-  "description": "HostSNAP LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399461,
+  "metadata" : {
+    "handle" : "HOSTSNAP-NETWORK",
+    "description" : "HostSNAP LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.248.184.0/22",
       "142.249.12.0/22",
       "142.249.48.0/22",
@@ -14,6 +17,6 @@
       "217.60.112.0/22",
       "217.60.124.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

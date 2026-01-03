@@ -1,9 +1,12 @@
 {
-  "asn": 141201,
-  "handle": "JDN-AS-MY",
-  "description": "Jabatan Digital Negara (JDN)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141201,
+  "metadata" : {
+    "handle" : "JDN-AS-MY",
+    "description" : "Jabatan Digital Negara (JDN)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.251.18.0/23",
       "45.124.98.0/23",
       "103.8.146.0/24",
@@ -14,7 +17,7 @@
       "192.82.80.0/23",
       "192.82.84.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:82c0::/32"
     ]
   }

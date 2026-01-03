@@ -1,11 +1,14 @@
 {
-  "asn": 151474,
-  "handle": "CLOUD3-AS-AP",
-  "description": "Cloud online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151474,
+  "metadata" : {
+    "handle" : "CLOUD3-AS-AP",
+    "description" : "Cloud online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.229.254.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

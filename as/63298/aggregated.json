@@ -1,9 +1,12 @@
 {
-  "asn": 63298,
-  "handle": "FATBEAM-TEKFINITY",
-  "description": "Fatbeam LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63298,
+  "metadata" : {
+    "handle" : "FATBEAM-TEKFINITY",
+    "description" : "Fatbeam LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.245.108.0/22",
       "169.197.75.0/24",
       "172.87.224.0/22",
@@ -13,6 +16,6 @@
       "207.244.136.0/22",
       "216.87.44.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

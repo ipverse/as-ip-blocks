@@ -1,9 +1,12 @@
 {
-  "asn": 42925,
-  "handle": "RIMON1",
-  "description": "Internet Rimon LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42925,
+  "metadata" : {
+    "handle" : "RIMON1",
+    "description" : "Internet Rimon LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.44.128.0/20",
       "37.60.40.0/21",
       "95.86.64.0/18",
@@ -17,7 +20,7 @@
       "217.194.196.0/22",
       "217.194.200.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6500::/29"
     ]
   }

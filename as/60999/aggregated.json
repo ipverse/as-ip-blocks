@@ -1,11 +1,14 @@
 {
-  "asn": 60999,
-  "handle": "LIBATECH-AS",
-  "description": "Libatech SAL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60999,
+  "metadata" : {
+    "handle" : "LIBATECH-AS",
+    "description" : "Libatech SAL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.90.168.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

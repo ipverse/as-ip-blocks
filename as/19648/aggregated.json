@@ -1,14 +1,17 @@
 {
-  "asn": 19648,
-  "handle": "LDSCHURCH1",
-  "description": "Corporation of the Presiding Bishop of the Church of Jesus Christ of Latter-day Saints",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19648,
+  "metadata" : {
+    "handle" : "LDSCHURCH1",
+    "description" : "Corporation of the Presiding Bishop of the Church of Jesus Christ of Latter-day Saints",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.60.41.0/24",
       "198.60.42.0/24",
       "216.49.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2632:100::/30",
       "2632:104::/32"
     ]

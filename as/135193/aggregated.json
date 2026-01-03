@@ -1,9 +1,12 @@
 {
-  "asn": 135193,
-  "handle": "SSC-AS-IN",
-  "description": "SRI SAI COMMUNICATION AND INTERNET PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135193,
+  "metadata" : {
+    "handle" : "SSC-AS-IN",
+    "description" : "SRI SAI COMMUNICATION AND INTERNET PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.126.32.0/23",
       "103.164.161.0/24",
       "103.167.29.0/24",
@@ -11,7 +14,7 @@
       "103.181.212.0/24",
       "103.190.198.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:3ec0::/32"
     ]
   }

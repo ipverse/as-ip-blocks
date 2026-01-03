@@ -1,9 +1,12 @@
 {
-  "asn": 210246,
-  "handle": "FUZ-AS",
-  "description": "ADAM ROJEK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210246,
+  "metadata" : {
+    "handle" : "FUZ-AS",
+    "description" : "ADAM ROJEK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.196.32.0/21",
       "109.196.41.0/24",
       "109.196.43.0/24",
@@ -11,7 +14,7 @@
       "109.196.46.0/23",
       "193.31.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:6040::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 394625,
-  "handle": "WHITELABELIT",
-  "description": "WhiteLabel IT Solutions Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394625,
+  "metadata" : {
+    "handle" : "WHITELABELIT",
+    "description" : "WhiteLabel IT Solutions Corp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.130.192.0/24",
       "23.154.16.0/23",
       "23.154.18.0/24",
@@ -13,7 +16,7 @@
       "185.240.32.0/22",
       "199.38.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:d280::/32"
     ]
   }

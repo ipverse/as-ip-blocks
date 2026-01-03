@@ -1,9 +1,12 @@
 {
-  "asn": 262387,
-  "handle": "INTERMICRO",
-  "description": "Intermicro Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262387,
+  "metadata" : {
+    "handle" : "INTERMICRO",
+    "description" : "Intermicro Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.117.100.0/22",
       "168.0.216.0/22",
       "168.121.40.0/22",
@@ -13,7 +16,7 @@
       "186.232.224.0/21",
       "201.139.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:ddc::/32"
     ]
   }

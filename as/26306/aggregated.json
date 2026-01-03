@@ -1,9 +1,12 @@
 {
-  "asn": 26306,
-  "handle": "THE-KARCHER-GROUP",
-  "description": "The Karcher Group Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26306,
+  "metadata" : {
+    "handle" : "THE-KARCHER-GROUP",
+    "description" : "The Karcher Group Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.191.32.0/23",
       "12.191.50.0/23",
       "12.229.4.0/23",
@@ -14,6 +17,6 @@
       "69.208.26.0/24",
       "71.158.102.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

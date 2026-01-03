@@ -1,14 +1,17 @@
 {
-  "asn": 134907,
-  "handle": "BHARATVOIP-AS-IN",
-  "description": "Bharat VoIP Communications Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134907,
+  "metadata" : {
+    "handle" : "BHARATVOIP-AS-IN",
+    "description" : "Bharat VoIP Communications Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.49.252.0/23",
       "103.211.36.0/22",
       "163.61.126.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8bc0::/32"
     ]
   }

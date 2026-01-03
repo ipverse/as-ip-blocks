@@ -1,12 +1,15 @@
 {
-  "asn": 9083,
-  "handle": "CARPENET",
-  "description": "carpeNet Information Technologies GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9083,
+  "metadata" : {
+    "handle" : "CARPENET",
+    "description" : "carpeNet Information Technologies GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.108.88.0/24",
       "212.96.128.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 208905,
-  "handle": "EXELERA-AS",
-  "description": "Exelera Telecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208905,
+  "metadata" : {
+    "handle" : "EXELERA-AS",
+    "description" : "Exelera Telecom Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.22.110.0/24",
       "45.80.88.0/22",
       "45.88.10.0/24",
@@ -51,7 +54,7 @@
       "213.146.169.0/24",
       "213.146.170.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:9cc0::/29"
     ]
   }

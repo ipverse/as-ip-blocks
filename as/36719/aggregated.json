@@ -1,12 +1,15 @@
 {
-  "asn": 36719,
-  "handle": "MMU-53-AS-NET",
-  "description": "Mount Mercy University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36719,
+  "metadata" : {
+    "handle" : "MMU-53-AS-NET",
+    "description" : "Mount Mercy University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.251.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:b1:4000::/48"
     ]
   }

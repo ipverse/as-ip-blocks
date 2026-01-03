@@ -1,12 +1,15 @@
 {
-  "asn": 33535,
-  "handle": "MONOXIDE",
-  "description": "Monoxide Network LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33535,
+  "metadata" : {
+    "handle" : "MONOXIDE",
+    "description" : "Monoxide Network LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.155.25.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:2e6:2::/48"
     ]
   }

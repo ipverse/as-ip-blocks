@@ -1,12 +1,15 @@
 {
-  "asn": 37045,
-  "handle": "TZNIC",
-  "description": "Tanzania Network Information Centre (tzNIC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37045,
+  "metadata" : {
+    "handle" : "TZNIC",
+    "description" : "Tanzania Network Information Centre (tzNIC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "196.216.162.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43f8:e0::/48"
     ]
   }

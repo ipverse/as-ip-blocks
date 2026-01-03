@@ -1,14 +1,17 @@
 {
-  "asn": 16006,
-  "handle": "RUPKKI-SK-AS",
-  "description": "RUPKKI s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16006,
+  "metadata" : {
+    "handle" : "RUPKKI-SK-AS",
+    "description" : "RUPKKI s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.170.224.0/19",
       "141.136.48.0/21",
       "185.18.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:9f80::/32"
     ]
   }

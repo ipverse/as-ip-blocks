@@ -1,9 +1,12 @@
 {
-  "asn": 33947,
-  "handle": "WLA-NET-HU-AS",
-  "description": "WLA Interservice Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33947,
+  "metadata" : {
+    "handle" : "WLA-NET-HU-AS",
+    "description" : "WLA Interservice Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.172.232.0/22",
       "84.21.0.0/22",
       "84.21.9.0/24",
@@ -25,6 +28,6 @@
       "87.229.109.0/24",
       "178.238.219.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

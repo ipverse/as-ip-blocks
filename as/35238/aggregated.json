@@ -1,13 +1,16 @@
 {
-  "asn": 35238,
-  "handle": "CONNEXIA-AS",
-  "description": "Alsace Connexia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35238,
+  "metadata" : {
+    "handle" : "CONNEXIA-AS",
+    "description" : "Alsace Connexia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.63.224.0/19",
       "91.91.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:a580::/32"
     ]
   }

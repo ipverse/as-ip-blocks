@@ -1,9 +1,12 @@
 {
-  "asn": 45102,
-  "handle": "ALIBABA-CN-NET",
-  "description": "Alibaba (US) Technology Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45102,
+  "metadata" : {
+    "handle" : "ALIBABA-CN-NET",
+    "description" : "Alibaba (US) Technology Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.181.224.0/23",
       "8.208.0.0/16",
       "8.209.0.0/19",
@@ -167,7 +170,7 @@
       "223.5.5.0/24",
       "223.6.6.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:3200::/48",
       "2400:3200:baba::/48",
       "2400:b200:4100::/46",

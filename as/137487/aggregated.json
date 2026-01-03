@@ -1,14 +1,17 @@
 {
-  "asn": 137487,
-  "handle": "MERALCO-AS-AP",
-  "description": "Manila Electric Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137487,
+  "metadata" : {
+    "handle" : "MERALCO-AS-AP",
+    "description" : "Manila Electric Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.110.75.0/24",
       "103.119.134.0/23",
       "103.119.136.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:6300::/48"
     ]
   }

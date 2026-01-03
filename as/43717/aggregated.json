@@ -1,14 +1,17 @@
 {
-  "asn": 43717,
-  "handle": "UBIFRANCE-AS",
-  "description": "BUSINESS FRANCE EPIC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43717,
+  "metadata" : {
+    "handle" : "UBIFRANCE-AS",
+    "description" : "BUSINESS FRANCE EPIC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.198.122.0/24",
       "91.216.140.0/24",
       "178.248.192.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1ff0::/32"
     ]
   }

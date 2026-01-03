@@ -1,13 +1,16 @@
 {
-  "asn": 4601,
-  "handle": "DNET",
-  "description": "Antonios A. Chariton",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4601,
+  "metadata" : {
+    "handle" : "DNET",
+    "description" : "Antonios A. Chariton",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.189.216.0/21",
       "193.5.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:3dc0::/29"
     ]
   }

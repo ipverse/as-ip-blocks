@@ -1,9 +1,12 @@
 {
-  "asn": 47524,
-  "handle": "AS-TURKSAT",
-  "description": "Turksat Uydu Haberlesme ve Kablo TV Isletme A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47524,
+  "metadata" : {
+    "handle" : "AS-TURKSAT",
+    "description" : "Turksat Uydu Haberlesme ve Kablo TV Isletme A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.133.0.0/18",
       "24.133.64.0/21",
       "24.133.76.0/22",
@@ -122,7 +125,7 @@
       "185.26.68.0/24",
       "185.26.70.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1d58::/33",
       "2a00:1d58:8000::/35",
       "2a00:1d58:a000::/37",

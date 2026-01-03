@@ -1,11 +1,14 @@
 {
-  "asn": 204412,
-  "handle": "TOMEX-AS",
-  "description": "FHU TOMEX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204412,
+  "metadata" : {
+    "handle" : "TOMEX-AS",
+    "description" : "FHU TOMEX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.136.121.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 58470,
-  "handle": "MOBILINK-PEERING-AS-PK",
-  "description": "Mobilink GSM Pakistan Mobile Communication Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58470,
+  "metadata" : {
+    "handle" : "MOBILINK-PEERING-AS-PK",
+    "description" : "Mobilink GSM Pakistan Mobile Communication Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.65.248.0/23",
       "119.30.105.0/24",
       "119.30.116.0/22",
@@ -15,7 +18,7 @@
       "119.160.109.0/24",
       "119.160.122.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:3100:a::/47",
       "2404:3100:c::/47"
     ]

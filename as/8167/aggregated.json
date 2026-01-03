@@ -1,9 +1,12 @@
 {
-  "asn": 8167,
-  "handle": "V-TAL",
-  "description": "V tal",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8167,
+  "metadata" : {
+    "handle" : "V-TAL",
+    "description" : "V tal",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.0.0.0/15",
       "177.2.0.0/17",
       "177.2.128.0/18",
@@ -49,7 +52,7 @@
       "201.88.0.0/15",
       "201.175.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:d50::/28"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 12496,
-  "handle": "IDNET",
-  "description": "Infinity Developments Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12496,
+  "metadata" : {
+    "handle" : "IDNET",
+    "description" : "Infinity Developments Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.90.171.0/24",
       "91.135.0.0/20",
       "93.89.128.0/20",
@@ -11,7 +14,7 @@
       "212.69.32.0/19",
       "217.144.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:b60::/48",
       "2001:67c:a24::/48",
       "2a02:390::/32"

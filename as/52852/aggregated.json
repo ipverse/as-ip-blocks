@@ -1,12 +1,15 @@
 {
-  "asn": 52852,
-  "handle": "LAST-MILE-TELECOM",
-  "description": "Last Mile Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52852,
+  "metadata" : {
+    "handle" : "LAST-MILE-TELECOM",
+    "description" : "Last Mile Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.86.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:830::/32"
     ]
   }

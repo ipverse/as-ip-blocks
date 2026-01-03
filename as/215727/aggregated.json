@@ -1,9 +1,12 @@
 {
-  "asn": 215727,
-  "handle": "ASNSWORLDWIDE",
-  "description": "NS Worldwide SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215727,
+  "metadata" : {
+    "handle" : "ASNSWORLDWIDE",
+    "description" : "NS Worldwide SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.136.0.0/24",
       "82.22.171.0/24",
       "82.22.175.0/24",
@@ -28,6 +31,6 @@
       "193.246.165.0/24",
       "194.36.102.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

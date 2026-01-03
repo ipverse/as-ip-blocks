@@ -1,16 +1,19 @@
 {
-  "asn": 209554,
-  "handle": "ISIF-AS",
-  "description": "ISIF OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209554,
+  "metadata" : {
+    "handle" : "ISIF-AS",
+    "description" : "ISIF OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.58.222.0/23",
       "45.95.212.0/24",
-      "46.232.104.0/21",
+      "46.232.104.0/22",
       "151.240.12.0/23",
       "194.231.149.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:4580::/48",
       "2405:84c0:6f00::/40",
       "2405:84c0:8001::/48",

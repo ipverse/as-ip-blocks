@@ -1,14 +1,17 @@
 {
-  "asn": 20364,
-  "handle": "FIREFLY",
-  "description": "Firefly Network LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20364,
+  "metadata" : {
+    "handle" : "FIREFLY",
+    "description" : "Firefly Network LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.163.168.0/24",
       "96.45.60.0/22",
       "199.193.60.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fa14::/36"
     ]
   }

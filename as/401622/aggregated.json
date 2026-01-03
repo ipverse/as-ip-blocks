@@ -1,12 +1,15 @@
 {
-  "asn": 401622,
-  "handle": "OMNISSA-WDC",
-  "description": "Omnissa LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401622,
+  "metadata" : {
+    "handle" : "OMNISSA-WDC",
+    "description" : "Omnissa LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.30.64.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:12a:e000::/48"
     ]
   }

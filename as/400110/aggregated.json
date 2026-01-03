@@ -1,15 +1,18 @@
 {
-  "asn": 400110,
-  "handle": "ANUVU-AVI-01",
-  "description": "Anuvu Operations LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400110,
+  "metadata" : {
+    "handle" : "ANUVU-AVI-01",
+    "description" : "Anuvu Operations LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "184.169.30.0/23",
       "184.169.38.0/23",
       "184.169.40.0/22",
       "184.169.45.0/24",
       "184.169.46.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

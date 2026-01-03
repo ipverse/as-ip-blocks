@@ -1,9 +1,12 @@
 {
-  "asn": 6075,
-  "handle": "LM-CORP",
-  "description": "Lockheed Martin Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6075,
+  "metadata" : {
+    "handle" : "LM-CORP",
+    "description" : "Lockheed Martin Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.32.1.0/24",
       "137.32.2.0/23",
       "137.32.4.0/24",
@@ -141,6 +144,6 @@
       "192.223.63.0/24",
       "204.153.159.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

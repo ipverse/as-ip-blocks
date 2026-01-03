@@ -1,9 +1,12 @@
 {
-  "asn": 58511,
-  "handle": "ANYCAST-GLOBAL-BACKBONE",
-  "description": "Anycast Holdings Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58511,
+  "metadata" : {
+    "handle" : "ANYCAST-GLOBAL-BACKBONE",
+    "description" : "Anycast Holdings Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.225.32.0/22",
       "58.96.158.0/23",
       "103.17.220.0/23",
@@ -15,7 +18,7 @@
       "125.254.64.0/18",
       "163.47.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:5240::/32",
       "2400:8280::/32"
     ]

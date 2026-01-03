@@ -1,12 +1,15 @@
 {
-  "asn": 203772,
-  "handle": "SYSWINGS-AS",
-  "description": "SysWings SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203772,
+  "metadata" : {
+    "handle" : "SYSWINGS-AS",
+    "description" : "SysWings SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.41.36.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:3f40::/29"
     ]
   }

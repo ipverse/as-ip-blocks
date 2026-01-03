@@ -1,9 +1,12 @@
 {
-  "asn": 208808,
-  "handle": "ASENEGAN",
-  "description": "Enegan S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208808,
+  "metadata" : {
+    "handle" : "ASENEGAN",
+    "description" : "Enegan S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.13.210.0/24",
       "45.140.196.0/22",
       "78.138.18.0/23",
@@ -33,6 +36,6 @@
       "213.255.224.0/23",
       "213.255.244.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 63440,
-  "handle": "TELNYX",
-  "description": "TELNYX LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63440,
+  "metadata" : {
+    "handle" : "TELNYX",
+    "description" : "TELNYX LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.255.198.0/24",
       "50.114.128.0/20",
       "50.114.144.0/21",
@@ -17,6 +20,6 @@
       "192.76.120.0/24",
       "216.74.124.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

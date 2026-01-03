@@ -1,12 +1,15 @@
 {
-  "asn": 395778,
-  "handle": "PBC-QNC-WA",
-  "description": "Premera Blue Cross",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395778,
+  "metadata" : {
+    "handle" : "PBC-QNC-WA",
+    "description" : "Premera Blue Cross",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.187.64.0/22",
       "199.187.68.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

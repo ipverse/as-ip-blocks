@@ -1,9 +1,12 @@
 {
-  "asn": 2648,
-  "handle": "NOAA-BOULDER",
-  "description": "National Oceanic and Atmospheric Administration",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2648,
+  "metadata" : {
+    "handle" : "NOAA-BOULDER",
+    "description" : "National Oceanic and Atmospheric Administration",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.163.0.0/18",
       "132.163.67.0/24",
       "132.163.68.0/22",
@@ -22,7 +25,7 @@
       "137.75.240.0/20",
       "140.208.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:20:6b00::/40",
       "2610:20:8804::/46",
       "2610:20:9122::/48"

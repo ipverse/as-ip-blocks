@@ -1,9 +1,12 @@
 {
-  "asn": 206481,
-  "handle": "ANMAGUZCER-AS",
-  "description": "Anmaguzcer Telecomunicaciones S.L.U",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206481,
+  "metadata" : {
+    "handle" : "ANMAGUZCER-AS",
+    "description" : "Anmaguzcer Telecomunicaciones S.L.U",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.128.200.0/22",
       "86.107.40.0/23",
       "89.32.189.0/24",
@@ -12,6 +15,6 @@
       "185.219.120.0/22",
       "188.214.212.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

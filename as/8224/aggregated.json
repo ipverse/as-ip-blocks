@@ -1,14 +1,17 @@
 {
-  "asn": 8224,
-  "handle": "INTERCOM-AS",
-  "description": "Intercom s.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8224,
+  "metadata" : {
+    "handle" : "INTERCOM-AS",
+    "description" : "Intercom s.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.253.96.0/21",
       "185.79.52.0/22",
       "195.72.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:2d8::/29"
     ]
   }

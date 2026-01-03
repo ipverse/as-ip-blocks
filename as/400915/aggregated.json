@@ -1,13 +1,16 @@
 {
-  "asn": 400915,
-  "handle": "PURENODAL-01",
-  "description": "Pure Nodal Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400915,
+  "metadata" : {
+    "handle" : "PURENODAL-01",
+    "description" : "Pure Nodal Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "107.180.208.0/24",
       "107.180.212.0/24",
       "107.180.222.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

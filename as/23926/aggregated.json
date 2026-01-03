@@ -1,12 +1,15 @@
 {
-  "asn": 23926,
-  "handle": "YAHOO-INZ",
-  "description": "Yahoo Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23926,
+  "metadata" : {
+    "handle" : "YAHOO-INZ",
+    "description" : "Yahoo Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.123.43.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:8600:f040::/48",
       "2406:8600:f840::/48"
     ]

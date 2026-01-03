@@ -1,9 +1,12 @@
 {
-  "asn": 57353,
-  "handle": "VITROCONNECT-AS",
-  "description": "vitroconnect GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57353,
+  "metadata" : {
+    "handle" : "VITROCONNECT-AS",
+    "description" : "vitroconnect GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.84.0/22",
       "45.95.4.0/22",
       "45.95.104.0/22",
@@ -20,7 +23,7 @@
       "185.254.124.0/22",
       "213.32.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:5f80::/32",
       "2a00:e180::/32",
       "2a05:8240::/29",

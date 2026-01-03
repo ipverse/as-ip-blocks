@@ -1,9 +1,12 @@
 {
-  "asn": 58659,
-  "handle": "QCPL-IN",
-  "description": "Quest Consultancy Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58659,
+  "metadata" : {
+    "handle" : "QCPL-IN",
+    "description" : "Quest Consultancy Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.254.204.0/22",
       "43.254.212.0/22",
       "43.255.132.0/22",
@@ -28,7 +31,7 @@
       "202.179.77.0/24",
       "202.179.78.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:e1c0::/44",
       "2400:e1c0:10::/45",
       "2400:e1c0:20::/45",

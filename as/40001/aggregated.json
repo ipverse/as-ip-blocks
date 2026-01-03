@@ -1,15 +1,18 @@
 {
-  "asn": 40001,
-  "handle": "STROUD-MEDIA-NETWORKS",
-  "description": "Gravel Hill Holdings",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40001,
+  "metadata" : {
+    "handle" : "STROUD-MEDIA-NETWORKS",
+    "description" : "Gravel Hill Holdings",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.175.96.0/24",
       "142.248.100.0/22",
       "168.245.142.0/24",
       "209.182.96.0/24",
       "209.182.98.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

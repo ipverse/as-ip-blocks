@@ -1,9 +1,12 @@
 {
-  "asn": 11280,
-  "handle": "SNAPPYDSL-ASN1",
-  "description": "SNAPPYDSL.NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11280,
+  "metadata" : {
+    "handle" : "SNAPPYDSL-ASN1",
+    "description" : "SNAPPYDSL.NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.172.84.0/23",
       "68.142.0.0/19",
       "198.177.28.0/22",
@@ -15,6 +18,6 @@
       "208.30.14.0/23",
       "208.30.16.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

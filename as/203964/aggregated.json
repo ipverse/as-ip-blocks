@@ -1,9 +1,12 @@
 {
-  "asn": 203964,
-  "handle": "X4TEL-AS",
-  "description": "4Tel Telekomunikacije d.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203964,
+  "metadata" : {
+    "handle" : "X4TEL-AS",
+    "description" : "4Tel Telekomunikacije d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.253.164.0/22",
       "82.21.209.0/24",
       "82.21.221.0/24",
@@ -26,7 +29,7 @@
       "213.190.25.0/24",
       "213.190.26.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:7400::/29",
       "2a0b:e600::/29"
     ]

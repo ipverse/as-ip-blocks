@@ -1,13 +1,16 @@
 {
-  "asn": 31314,
-  "handle": "DGS-AS",
-  "description": "Digital-Service LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31314,
+  "metadata" : {
+    "handle" : "DGS-AS",
+    "description" : "Digital-Service LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.1.208.0/23",
       "81.1.232.0/24",
       "213.183.124.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

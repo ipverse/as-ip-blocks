@@ -1,9 +1,12 @@
 {
-  "asn": 19483,
-  "handle": "SBCASI-AKRON-OH-COVLIL",
-  "description": "Wireless Maritime Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19483,
+  "metadata" : {
+    "handle" : "SBCASI-AKRON-OH-COVLIL",
+    "description" : "Wireless Maritime Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.252.100.0/22",
       "74.252.104.0/22",
       "74.254.100.0/22",
@@ -11,6 +14,6 @@
       "98.79.84.0/22",
       "98.79.88.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

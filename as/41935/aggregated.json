@@ -1,9 +1,12 @@
 {
-  "asn": 41935,
-  "handle": "DASSAULTSYSTEMES-AS",
-  "description": "DASSAULT SYSTEMES SE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41935,
+  "metadata" : {
+    "handle" : "DASSAULTSYSTEMES-AS",
+    "description" : "DASSAULT SYSTEMES SE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.103.40.0/22",
       "91.103.45.0/24",
       "91.103.47.0/24",
@@ -13,7 +16,7 @@
       "178.255.208.0/22",
       "178.255.215.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4b00:100::/40",
       "2a00:4b00:200::/40"
     ]

@@ -1,14 +1,17 @@
 {
-  "asn": 3152,
-  "handle": "FNAL-AS",
-  "description": "Fermi National Accelerator Laboratory (Fermilab)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3152,
+  "metadata" : {
+    "handle" : "FNAL-AS",
+    "description" : "Fermi National Accelerator Laboratory (Fermilab)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.225.0.0/16",
       "192.190.216.0/22",
       "198.49.208.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:6a::/48"
     ]
   }

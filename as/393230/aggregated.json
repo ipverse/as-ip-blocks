@@ -1,12 +1,15 @@
 {
-  "asn": 393230,
-  "handle": "DM-TECH-INTERNET",
-  "description": "DM-Tech Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393230,
+  "metadata" : {
+    "handle" : "DM-TECH-INTERNET",
+    "description" : "DM-Tech Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.80.128.0/21",
       "38.133.112.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

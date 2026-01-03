@@ -1,9 +1,12 @@
 {
-  "asn": 3081,
-  "handle": "CITI15",
-  "description": "Citigroup Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3081,
+  "metadata" : {
+    "handle" : "CITI15",
+    "description" : "Citigroup Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.193.18.0/24",
       "192.193.20.0/23",
       "192.193.22.0/24",
@@ -21,6 +24,6 @@
       "199.67.131.0/24",
       "199.67.137.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

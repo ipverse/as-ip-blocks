@@ -1,12 +1,15 @@
 {
-  "asn": 55907,
-  "handle": "GMO-DNS",
-  "description": "GMO Internet Group Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55907,
+  "metadata" : {
+    "handle" : "GMO-DNS",
+    "description" : "GMO Internet Group Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.7.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8500:3000::/48",
       "2400:8500:3300::/48",
       "2400:8500:3fff::/48"

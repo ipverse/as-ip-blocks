@@ -1,13 +1,16 @@
 {
-  "asn": 205998,
-  "handle": "SKYTEL-AS",
-  "description": "Skytel LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205998,
+  "metadata" : {
+    "handle" : "SKYTEL-AS",
+    "description" : "Skytel LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.220.146.0/24",
       "91.221.102.0/23",
       "185.199.160.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

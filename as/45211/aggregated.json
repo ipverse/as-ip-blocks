@@ -1,11 +1,14 @@
 {
-  "asn": 45211,
-  "handle": "ICAP-COM-AS-AP",
-  "description": "ICAP Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45211,
+  "metadata" : {
+    "handle" : "ICAP-COM-AS-AP",
+    "description" : "ICAP Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.190.24.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

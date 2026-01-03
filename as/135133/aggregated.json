@@ -1,9 +1,12 @@
 {
-  "asn": 135133,
-  "handle": "PDPL-AS-AP",
-  "description": "PI DATA CENTERS PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135133,
+  "metadata" : {
+    "handle" : "PDPL-AS-AP",
+    "description" : "PI DATA CENTERS PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.255.252.0/22",
       "103.37.96.0/23",
       "103.117.175.0/24",
@@ -14,7 +17,7 @@
       "163.61.132.0/23",
       "163.223.122.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:e240::/48",
       "2400:b120::/32",
       "2401:f620::/32"

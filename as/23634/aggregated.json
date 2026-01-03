@@ -1,12 +1,15 @@
 {
-  "asn": 23634,
-  "handle": "E-DNS-JP",
-  "description": "WIDE Project",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23634,
+  "metadata" : {
+    "handle" : "E-DNS-JP",
+    "description" : "WIDE Project",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.50.43.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:200:c000::/35"
     ]
   }

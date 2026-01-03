@@ -1,9 +1,12 @@
 {
-  "asn": 48529,
-  "handle": "QUANTUMBEAM",
-  "description": "QUANTUMBEAM COMMUNICATIONS LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48529,
+  "metadata" : {
+    "handle" : "QUANTUMBEAM",
+    "description" : "QUANTUMBEAM COMMUNICATIONS LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.58.53.0/24",
       "31.58.227.0/24",
       "45.135.248.0/24",
@@ -16,6 +19,6 @@
       "217.60.192.0/22",
       "223.29.160.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

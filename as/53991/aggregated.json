@@ -1,9 +1,12 @@
 {
-  "asn": 53991,
-  "handle": "ACRONIS-53991",
-  "description": "Acronis",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53991,
+  "metadata" : {
+    "handle" : "ACRONIS-53991",
+    "description" : "Acronis",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "75.127.100.0/23",
       "91.198.51.0/24",
       "162.244.6.0/23",
@@ -15,7 +18,7 @@
       "216.105.167.0/24",
       "216.245.154.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:80b:6012::/48",
       "2602:80b:6036::/48",
       "2602:80b:6039::/48",

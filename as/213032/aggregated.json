@@ -1,10 +1,13 @@
 {
-  "asn": 213032,
-  "handle": "FLEGGAARD",
-  "description": "Fleggaard Holding A/S",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 213032,
+  "metadata" : {
+    "handle" : "FLEGGAARD",
+    "description" : "Fleggaard Holding A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:678:dc4::/48",
       "2001:678:dc8::/48",
       "2001:67c:27c4::/48"

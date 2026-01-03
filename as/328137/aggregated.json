@@ -1,9 +1,12 @@
 {
-  "asn": 328137,
-  "handle": "WEB-SQUAD-CONNECT-AS",
-  "description": "Web Squad Connect (Pty) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328137,
+  "metadata" : {
+    "handle" : "WEB-SQUAD-CONNECT-AS",
+    "description" : "Web Squad Connect (Pty) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.23.176.0/23",
       "102.23.178.0/24",
       "102.23.182.0/24",
@@ -13,7 +16,7 @@
       "196.197.4.0/24",
       "196.197.6.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f030::/35",
       "2c0f:f030:2000::/36",
       "2c0f:f030:6000::/35"

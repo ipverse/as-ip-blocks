@@ -1,9 +1,12 @@
 {
-  "asn": 17817,
-  "handle": "DAKSH-IN",
-  "description": "Concentrix Daksh Services India Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17817,
+  "metadata" : {
+    "handle" : "DAKSH-IN",
+    "description" : "Concentrix Daksh Services India Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.90.240.0/24",
       "116.90.245.0/24",
       "116.90.246.0/23",
@@ -16,6 +19,6 @@
       "221.120.106.0/24",
       "221.120.111.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

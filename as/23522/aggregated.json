@@ -1,15 +1,18 @@
 {
-  "asn": 23522,
-  "handle": "ASN-HRNET",
-  "description": "GigeNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23522,
+  "metadata" : {
+    "handle" : "ASN-HRNET",
+    "description" : "GigeNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.252.0.0/22",
       "66.252.5.0/24",
       "66.252.6.0/24",
       "66.252.8.0/21",
       "66.252.16.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

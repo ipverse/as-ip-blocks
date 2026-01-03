@@ -1,9 +1,12 @@
 {
-  "asn": 55547,
-  "handle": "WOODSNET-PH",
-  "description": "WoodsDale Ventures INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55547,
+  "metadata" : {
+    "handle" : "WOODSNET-PH",
+    "description" : "WoodsDale Ventures INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.50.0.0/22",
       "43.225.40.0/22",
       "43.225.92.0/22",
@@ -84,7 +87,7 @@
       "183.182.64.0/20",
       "198.148.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:cf80:6000::/48",
       "2401:cf80:6003::/48",
       "2401:cf80:6004::/46",

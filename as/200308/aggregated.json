@@ -1,13 +1,16 @@
 {
-  "asn": 200308,
-  "handle": "EMDYN",
-  "description": "EMDYN AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200308,
+  "metadata" : {
+    "handle" : "EMDYN",
+    "description" : "EMDYN AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.248.28.0/22",
       "195.189.245.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:dd80::/29"
     ]
   }

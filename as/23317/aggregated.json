@@ -1,14 +1,17 @@
 {
-  "asn": 23317,
-  "handle": "WHITMANCOLLEGE",
-  "description": "Whitman College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23317,
+  "metadata" : {
+    "handle" : "WHITMANCOLLEGE",
+    "description" : "Whitman College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "107.191.224.0/21",
       "107.191.232.0/22",
       "192.34.239.0/24",
       "199.89.174.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 35132,
-  "handle": "ENIVEST-AS",
-  "description": "Enivest AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35132,
+  "metadata" : {
+    "handle" : "ENIVEST-AS",
+    "description" : "Enivest AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.32.48.0/21",
       "62.50.160.0/19",
       "89.20.224.0/19",
@@ -21,7 +24,7 @@
       "188.119.80.0/22",
       "217.149.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1660::/29",
       "2a0a:2200::/29"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 135283,
-  "handle": "MAKILALACABLETV-AS-AP",
-  "description": "Makilala Cable TV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135283,
+  "metadata" : {
+    "handle" : "MAKILALACABLETV-AS-AP",
+    "description" : "Makilala Cable TV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.47.190.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:4fe0::/32"
     ]
   }

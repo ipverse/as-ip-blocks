@@ -1,12 +1,15 @@
 {
-  "asn": 213547,
-  "handle": "HB-SERVICE-AS",
-  "description": "Hindersby-Backby Service Ab",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213547,
+  "metadata" : {
+    "handle" : "HB-SERVICE-AS",
+    "description" : "Hindersby-Backby Service Ab",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.8.53.0/24",
       "45.8.54.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

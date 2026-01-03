@@ -1,11 +1,14 @@
 {
-  "asn": 135098,
-  "handle": "BSN-AS-AP",
-  "description": "Bright Star Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135098,
+  "metadata" : {
+    "handle" : "BSN-AS-AP",
+    "description" : "Bright Star Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.170.184.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 9695,
-  "handle": "KOEXP-AS",
-  "description": "KISTI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9695,
+  "metadata" : {
+    "handle" : "KOEXP-AS",
+    "description" : "KISTI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.110.199.0/24",
       "210.110.200.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

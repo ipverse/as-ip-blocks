@@ -1,13 +1,16 @@
 {
-  "asn": 31723,
-  "handle": "WB-NET-AS",
-  "description": "Wittenberg-net GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31723,
+  "metadata" : {
+    "handle" : "WB-NET-AS",
+    "description" : "Wittenberg-net GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.160.144.0/22",
       "217.171.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:be00::/29"
     ]
   }

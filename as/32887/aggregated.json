@@ -1,12 +1,15 @@
 {
-  "asn": 32887,
-  "handle": "GEHA",
-  "description": "GEHA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32887,
+  "metadata" : {
+    "handle" : "GEHA",
+    "description" : "GEHA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.17.212.0/24",
       "198.135.80.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

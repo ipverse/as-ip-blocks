@@ -1,11 +1,14 @@
 {
-  "asn": 31105,
-  "handle": "GUGIK-AS",
-  "description": "Glowny Urzad Geodezji i Kartografii",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31105,
+  "metadata" : {
+    "handle" : "GUGIK-AS",
+    "description" : "Glowny Urzad Geodezji i Kartografii",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.198.76.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 10796,
-  "handle": "TWC-10796-MIDWEST",
-  "description": "Charter Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10796,
+  "metadata" : {
+    "handle" : "TWC-10796-MIDWEST",
+    "description" : "Charter Communications Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "16.14.248.0/21",
       "23.153.80.0/24",
       "24.26.0.0/18",
@@ -309,7 +312,7 @@
       "209.97.76.0/22",
       "209.97.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:5c01::/32",
       "2600:6c7f:9380::/44",
       "2602:107:4110::/44",

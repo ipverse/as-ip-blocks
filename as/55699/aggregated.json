@@ -1,9 +1,12 @@
 {
-  "asn": 55699,
-  "handle": "STARNET-AS-ID",
-  "description": "PT. Cemerlang Multimedia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55699,
+  "metadata" : {
+    "handle" : "STARNET-AS-ID",
+    "description" : "PT. Cemerlang Multimedia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.127.204.0/22",
       "103.14.16.0/22",
       "103.23.32.0/22",
@@ -40,7 +43,7 @@
       "203.207.56.0/22",
       "203.210.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:fcc0::/32",
       "2402:e240::/32",
       "2404:a1c0::/32"

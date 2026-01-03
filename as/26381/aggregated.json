@@ -1,9 +1,12 @@
 {
-  "asn": 26381,
-  "handle": "HSBC-COM",
-  "description": "HSBC Technology \u0026 Services (USA) Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26381,
+  "metadata" : {
+    "handle" : "HSBC-COM",
+    "description" : "HSBC Technology & Services (USA) Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.65.169.0/24",
       "65.202.26.0/24",
       "161.113.1.0/24",
@@ -21,6 +24,6 @@
       "205.214.189.0/24",
       "205.214.190.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 56542,
-  "handle": "PARKTELECOM-AS",
-  "description": "Park Telecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56542,
+  "metadata" : {
+    "handle" : "PARKTELECOM-AS",
+    "description" : "Park Telecom Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.224.234.0/23",
       "91.227.172.0/22",
       "91.228.26.0/23",
       "109.248.238.0/23",
       "192.166.236.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

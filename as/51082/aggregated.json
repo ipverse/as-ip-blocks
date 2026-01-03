@@ -1,9 +1,12 @@
 {
-  "asn": 51082,
-  "handle": "ISP-A1-INTERNET",
-  "description": "A1 NETWORK EXCHANGE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51082,
+  "metadata" : {
+    "handle" : "ISP-A1-INTERNET",
+    "description" : "A1 NETWORK EXCHANGE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.175.72.0/24",
       "23.177.72.0/24",
       "64.113.9.0/24",
@@ -19,7 +22,7 @@
       "216.132.152.0/22",
       "216.224.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd92:141::/48"
     ]
   }

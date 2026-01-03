@@ -1,14 +1,17 @@
 {
-  "asn": 215876,
-  "handle": "V2-OELSNITZ-MEDIA",
-  "description": "Stadtwerke OELSNITZ/V. GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215876,
+  "metadata" : {
+    "handle" : "V2-OELSNITZ-MEDIA",
+    "description" : "Stadtwerke OELSNITZ/V. GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.61.149.0/24",
       "45.15.120.0/22",
       "185.209.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:2c80::/29",
       "2a14:4880::/32"
     ]

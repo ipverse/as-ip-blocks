@@ -1,9 +1,12 @@
 {
-  "asn": 38466,
-  "handle": "UMOBILE-AS-AP",
-  "description": "U Mobile Sdn Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38466,
+  "metadata" : {
+    "handle" : "UMOBILE-AS-AP",
+    "description" : "U Mobile Sdn Bhd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.125.224.0/19",
       "66.23.160.0/19",
       "103.1.144.0/22",
@@ -12,7 +15,7 @@
       "188.214.64.0/20",
       "203.168.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:3800::/31"
     ]
   }

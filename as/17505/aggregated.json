@@ -1,9 +1,12 @@
 {
-  "asn": 17505,
-  "handle": "SBMOBILE",
-  "description": "SoftBank Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17505,
+  "metadata" : {
+    "handle" : "SBMOBILE",
+    "description" : "SoftBank Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "117.46.4.0/22",
       "117.46.8.0/21",
       "117.46.16.0/22",
@@ -12,6 +15,6 @@
       "202.179.204.0/24",
       "202.253.96.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

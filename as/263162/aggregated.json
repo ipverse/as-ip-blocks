@@ -1,9 +1,12 @@
 {
-  "asn": 263162,
-  "handle": "SUSTENTA-TELECOM",
-  "description": "Sustenta Telecom Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263162,
+  "metadata" : {
+    "handle" : "SUSTENTA-TELECOM",
+    "description" : "Sustenta Telecom Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "187.16.0.0/23",
       "187.16.2.0/24",
       "187.16.4.0/22",
@@ -11,6 +14,6 @@
       "187.16.10.0/24",
       "187.16.12.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

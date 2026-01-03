@@ -1,9 +1,12 @@
 {
-  "asn": 27364,
-  "handle": "ACS-INTERNET",
-  "description": "Armstrong",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27364,
+  "metadata" : {
+    "handle" : "ACS-INTERNET",
+    "description" : "Armstrong",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.101.0.0/16",
       "24.112.128.0/17",
       "24.129.240.0/20",
@@ -20,7 +23,7 @@
       "192.161.130.0/23",
       "208.226.154.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:9f00::/28"
     ]
   }

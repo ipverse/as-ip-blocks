@@ -1,14 +1,17 @@
 {
-  "asn": 131933,
-  "handle": "TTV-NET",
-  "description": "TAMA Television Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131933,
+  "metadata" : {
+    "handle" : "TTV-NET",
+    "description" : "TAMA Television Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.14.128.0/19",
       "103.114.232.0/22",
       "202.223.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:3260::/32"
     ]
   }

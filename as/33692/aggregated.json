@@ -1,12 +1,15 @@
 {
-  "asn": 33692,
-  "handle": "MACALE",
-  "description": "Macalester College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33692,
+  "metadata" : {
+    "handle" : "MACALE",
+    "description" : "Macalester College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.140.96.0/19",
       "141.140.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

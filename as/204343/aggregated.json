@@ -1,13 +1,16 @@
 {
-  "asn": 204343,
-  "handle": "COMPUBYTE-AS",
-  "description": "Compubyte Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204343,
+  "metadata" : {
+    "handle" : "COMPUBYTE-AS",
+    "description" : "Compubyte Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.86.93.0/24",
       "185.86.94.0/24",
       "193.109.246.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

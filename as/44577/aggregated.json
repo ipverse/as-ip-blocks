@@ -1,12 +1,15 @@
 {
-  "asn": 44577,
-  "handle": "SEC-AS",
-  "description": "Saudi Electricity Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44577,
+  "metadata" : {
+    "handle" : "SEC-AS",
+    "description" : "Saudi Electricity Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.230.124.0/23",
       "185.150.104.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

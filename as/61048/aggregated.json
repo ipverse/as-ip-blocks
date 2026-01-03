@@ -1,11 +1,14 @@
 {
-  "asn": 61048,
-  "handle": "LINK-AS",
-  "description": "Address Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61048,
+  "metadata" : {
+    "handle" : "LINK-AS",
+    "description" : "Address Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.178.152.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

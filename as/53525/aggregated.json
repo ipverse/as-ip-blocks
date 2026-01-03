@@ -1,14 +1,17 @@
 {
-  "asn": 53525,
-  "handle": "VCOMP",
-  "description": "Venture Computers of Canada",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53525,
+  "metadata" : {
+    "handle" : "VCOMP",
+    "description" : "Venture Computers of Canada",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "76.74.210.0/24",
       "199.16.152.0/22",
       "199.193.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:b600::/32"
     ]
   }

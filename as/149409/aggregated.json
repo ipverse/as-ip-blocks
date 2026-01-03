@@ -1,13 +1,16 @@
 {
-  "asn": 149409,
-  "handle": "CDNETID-AS-ID",
-  "description": "PT Core Digital Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149409,
+  "metadata" : {
+    "handle" : "CDNETID-AS-ID",
+    "description" : "PT Core Digital Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.54.227.0/24",
       "103.183.58.0/23",
       "202.51.20.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

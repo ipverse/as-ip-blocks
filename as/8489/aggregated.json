@@ -1,16 +1,19 @@
 {
-  "asn": 8489,
-  "handle": "PORTAL-TO-WEB",
-  "description": "Martin Mersberger EDV Beratung",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8489,
+  "metadata" : {
+    "handle" : "PORTAL-TO-WEB",
+    "description" : "Martin Mersberger EDV Beratung",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.198.114.0/24",
       "91.199.88.0/24",
       "193.37.151.0/24",
       "195.22.142.0/23",
       "195.245.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:1000::/48",
       "2001:678:10c4::/48"
     ]

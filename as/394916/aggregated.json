@@ -1,12 +1,15 @@
 {
-  "asn": 394916,
-  "handle": "PHLAIRPORT",
-  "description": "Philadelphia International Airport",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394916,
+  "metadata" : {
+    "handle" : "PHLAIRPORT",
+    "description" : "Philadelphia International Airport",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.174.220.0/24",
       "192.82.102.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

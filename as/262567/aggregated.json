@@ -1,12 +1,15 @@
 {
-  "asn": 262567,
-  "handle": "TELECOM-FOZ",
-  "description": "TELECOM FOZ",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262567,
+  "metadata" : {
+    "handle" : "TELECOM-FOZ",
+    "description" : "TELECOM FOZ",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.73.96.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:45e4::/32"
     ]
   }

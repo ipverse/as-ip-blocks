@@ -1,9 +1,12 @@
 {
-  "asn": 17473,
-  "handle": "E2-CLOUD-AS-AP",
-  "description": "Blue Apache Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17473,
+  "metadata" : {
+    "handle" : "E2-CLOUD-AS-AP",
+    "description" : "Blue Apache Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.10.82.0/24",
       "103.53.115.0/24",
       "103.87.254.0/24",
@@ -14,7 +17,7 @@
       "203.56.181.0/24",
       "203.96.232.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:5940::/32"
     ]
   }

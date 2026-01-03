@@ -1,9 +1,12 @@
 {
-  "asn": 200555,
-  "handle": "WIFICANARIAS",
-  "description": "WiFi Canarias de Telecomunicaciones y Fibra SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200555,
+  "metadata" : {
+    "handle" : "WIFICANARIAS",
+    "description" : "WiFi Canarias de Telecomunicaciones y Fibra SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.188.0/22",
       "31.14.60.0/22",
       "46.24.73.0/24",
@@ -14,6 +17,6 @@
       "212.145.58.0/24",
       "212.145.62.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

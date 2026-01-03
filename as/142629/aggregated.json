@@ -1,9 +1,12 @@
 {
-  "asn": 142629,
-  "handle": "GIGAFIBERCORP-AS-AP",
-  "description": "GigaFiber Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142629,
+  "metadata" : {
+    "handle" : "GIGAFIBERCORP-AS-AP",
+    "description" : "GigaFiber Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.202.71.0/24",
       "103.171.89.0/24",
       "154.82.130.0/23",
@@ -12,7 +15,7 @@
       "154.82.152.0/24",
       "157.20.142.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:4280::/48"
     ]
   }

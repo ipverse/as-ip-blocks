@@ -1,9 +1,12 @@
 {
-  "asn": 7630,
-  "handle": "KASIKORNBANK-AS-AP",
-  "description": "KASIKORNBANK PUBLIC COMPANY LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7630,
+  "metadata" : {
+    "handle" : "KASIKORNBANK-AS-AP",
+    "description" : "KASIKORNBANK PUBLIC COMPANY LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.231.212.0/24",
       "49.231.240.0/24",
       "58.137.161.0/24",
@@ -16,7 +19,7 @@
       "210.1.22.0/24",
       "210.86.192.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:1440:1101::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 35338,
-  "handle": "NIC-SDAIA",
-  "description": "Ministry of Interior",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35338,
+  "metadata" : {
+    "handle" : "NIC-SDAIA",
+    "description" : "Ministry of Interior",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.47.102.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:1f80:2::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 31167,
-  "handle": "AXIONE-AS",
-  "description": "AXIONE S.A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31167,
+  "metadata" : {
+    "handle" : "AXIONE-AS",
+    "description" : "AXIONE S.A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.14.128.0/18",
       "93.115.111.0/24",
       "109.74.80.0/20",
@@ -14,7 +17,7 @@
       "217.119.176.0/20",
       "217.171.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1788::/32"
     ]
   }

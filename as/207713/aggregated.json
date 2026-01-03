@@ -1,9 +1,12 @@
 {
-  "asn": 207713,
-  "handle": "GIR-AS",
-  "description": "GLOBAL INTERNET SOLUTIONS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207713,
+  "metadata" : {
+    "handle" : "GIR-AS",
+    "description" : "GLOBAL INTERNET SOLUTIONS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.161.0/24",
       "37.220.86.0/24",
       "45.84.2.0/24",
@@ -33,7 +36,7 @@
       "213.165.62.0/24",
       "213.176.19.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:541:100::/48",
       "2a05:541:115::/48",
       "2a05:541:120::/48",

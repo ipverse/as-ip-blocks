@@ -1,15 +1,18 @@
 {
-  "asn": 211389,
-  "handle": "BRIANTBROADBAND",
-  "description": "Briant Broadband Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211389,
+  "metadata" : {
+    "handle" : "BRIANTBROADBAND",
+    "description" : "Briant Broadband Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "155.2.210.0/23",
       "159.253.123.0/24",
       "195.10.219.0/24",
       "220.158.196.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:38c0::/29"
     ]
   }

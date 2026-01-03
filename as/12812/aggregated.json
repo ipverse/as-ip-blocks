@@ -1,13 +1,16 @@
 {
-  "asn": 12812,
-  "handle": "ASN-AUBNET",
-  "description": "AMERICAN UNIVERSITY of BEIRUT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12812,
+  "metadata" : {
+    "handle" : "ASN-AUBNET",
+    "description" : "AMERICAN UNIVERSITY of BEIRUT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.190.28.0/23",
       "193.188.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:f700::/29"
     ]
   }

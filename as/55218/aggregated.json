@@ -1,13 +1,16 @@
 {
-  "asn": 55218,
-  "handle": "IWISP-LLC",
-  "description": "iWiSP llc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55218,
+  "metadata" : {
+    "handle" : "IWISP-LLC",
+    "description" : "iWiSP llc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.64.140.0/23",
       "139.64.143.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd3d::/36"
     ]
   }

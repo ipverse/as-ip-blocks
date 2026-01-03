@@ -1,12 +1,15 @@
 {
-  "asn": 142317,
-  "handle": "IDNIC-COVERNET-AS-ID",
-  "description": "PT Cover Network Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142317,
+  "metadata" : {
+    "handle" : "IDNIC-COVERNET-AS-ID",
+    "description" : "PT Cover Network Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.168.158.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:57e0::/32"
     ]
   }

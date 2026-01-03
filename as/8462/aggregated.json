@@ -1,9 +1,12 @@
 {
-  "asn": 8462,
-  "handle": "TARR1",
-  "description": "Tarr Kft",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8462,
+  "metadata" : {
+    "handle" : "TARR1",
+    "description" : "Tarr Kft.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.249.128.0/19",
       "77.110.128.0/18",
       "77.111.128.0/18",
@@ -30,7 +33,7 @@
       "195.128.232.0/23",
       "212.16.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5d0::/32"
     ]
   }

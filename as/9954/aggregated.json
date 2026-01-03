@@ -1,9 +1,12 @@
 {
-  "asn": 9954,
-  "handle": "KUNSAN-AS",
-  "description": "Kunsan National University (KNU)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9954,
+  "metadata" : {
+    "handle" : "KUNSAN-AS",
+    "description" : "Kunsan National University (KNU)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.2.112.0/24",
       "117.17.108.0/22",
       "117.17.112.0/23",
@@ -15,6 +18,6 @@
       "220.68.22.0/23",
       "220.68.24.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

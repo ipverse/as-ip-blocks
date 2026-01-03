@@ -1,12 +1,15 @@
 {
-  "asn": 51345,
-  "handle": "AS-HREGIBO",
-  "description": "Hugo Regibo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51345,
+  "metadata" : {
+    "handle" : "AS-HREGIBO",
+    "description" : "Hugo Regibo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "92.42.101.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:1c40::/32"
     ]
   }

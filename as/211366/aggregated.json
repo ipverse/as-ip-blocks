@@ -1,12 +1,15 @@
 {
-  "asn": 211366,
-  "handle": "ISP-OOO-LINK-NET-AS",
-  "description": "link LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211366,
+  "metadata" : {
+    "handle" : "ISP-OOO-LINK-NET-AS",
+    "description" : "link LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.9.193.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:1106:3000::/40"
     ]
   }

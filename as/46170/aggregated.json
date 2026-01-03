@@ -1,12 +1,15 @@
 {
-  "asn": 46170,
-  "handle": "BASTION-CYBER-US01",
-  "description": "bastioncyber.ai",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46170,
+  "metadata" : {
+    "handle" : "BASTION-CYBER-US01",
+    "description" : "bastioncyber.ai",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.154.80.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f70c:66::/48"
     ]
   }

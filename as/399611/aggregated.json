@@ -1,12 +1,15 @@
 {
-  "asn": 399611,
-  "handle": "OMNIPOINT-INTERNET",
-  "description": "OmniPoint Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399611,
+  "metadata" : {
+    "handle" : "OMNIPOINT-INTERNET",
+    "description" : "OmniPoint Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.165.64.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fea3::/48",
       "2602:fea3:64::/48"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 18274,
-  "handle": "UCATV",
-  "description": "Utsunomiya Cable TV Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18274,
+  "metadata" : {
+    "handle" : "UCATV",
+    "description" : "Utsunomiya Cable TV Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.82.88.0/22",
       "116.118.208.0/20",
       "202.173.96.0/20",
@@ -13,7 +16,7 @@
       "219.100.164.0/22",
       "219.122.96.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:3300::/32"
     ]
   }

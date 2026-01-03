@@ -1,12 +1,15 @@
 {
-  "asn": 45493,
-  "handle": "BIZNET-IXP-INA-AP",
-  "description": "BIZNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45493,
+  "metadata" : {
+    "handle" : "BIZNET-IXP-INA-AP",
+    "description" : "BIZNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.58.33.0/24",
       "113.11.182.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

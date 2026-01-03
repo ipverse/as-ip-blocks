@@ -1,15 +1,18 @@
 {
-  "asn": 142631,
-  "handle": "METRO-AS-AP",
-  "description": "Metro Lightspeed",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142631,
+  "metadata" : {
+    "handle" : "METRO-AS-AP",
+    "description" : "Metro Lightspeed",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.171.104.0/23",
       "103.208.66.0/24",
       "103.229.232.0/24",
       "160.191.18.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:c2c0::/32"
     ]
   }

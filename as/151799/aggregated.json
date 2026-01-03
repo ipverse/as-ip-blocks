@@ -1,13 +1,16 @@
 {
-  "asn": 151799,
-  "handle": "VYTALGROUPPTYLTD-AS-AP",
-  "description": "Dialplan",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151799,
+  "metadata" : {
+    "handle" : "VYTALGROUPPTYLTD-AS-AP",
+    "description" : "Dialplan",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.77.180.0/23",
       "203.26.225.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:dea0::/32"
     ]
   }

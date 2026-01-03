@@ -1,13 +1,16 @@
 {
-  "asn": 20305,
-  "handle": "BANCO-RIO-LA-PLATA",
-  "description": "Banco Rio de la Plata S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20305,
+  "metadata" : {
+    "handle" : "BANCO-RIO-LA-PLATA",
+    "description" : "Banco Rio de la Plata S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.0.252.0/24",
       "200.61.38.0/24",
       "200.70.26.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

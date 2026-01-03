@@ -1,9 +1,12 @@
 {
-  "asn": 262186,
-  "handle": "TV-AZTECA-SUCURSAL-COLOMBIA",
-  "description": "TV AZTECA SUCURSAL COLOMBIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262186,
+  "metadata" : {
+    "handle" : "TV-AZTECA-SUCURSAL-COLOMBIA",
+    "description" : "TV AZTECA SUCURSAL COLOMBIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.71.181.0/24",
       "45.71.182.0/23",
       "45.170.241.0/24",
@@ -30,7 +33,7 @@
       "209.14.112.0/21",
       "209.14.120.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:16:3800::/48",
       "2801:159:1::/48",
       "2801:159:2::/47",

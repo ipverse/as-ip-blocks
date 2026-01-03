@@ -1,9 +1,12 @@
 {
-  "asn": 50563,
-  "handle": "ONLYCABLE-AS",
-  "description": "Onlycable Comunicaciones S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50563,
+  "metadata" : {
+    "handle" : "ONLYCABLE-AS",
+    "description" : "Onlycable Comunicaciones S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.83.64.0/21",
       "5.83.95.0/24",
       "5.154.0.0/24",
@@ -35,6 +38,6 @@
       "212.85.240.0/22",
       "212.85.244.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

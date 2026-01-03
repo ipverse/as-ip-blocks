@@ -1,12 +1,15 @@
 {
-  "asn": 17149,
-  "handle": "GCN-AS",
-  "description": "Global Caribbean Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17149,
+  "metadata" : {
+    "handle" : "GCN-AS",
+    "description" : "Global Caribbean Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.72.228.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:1800::/32"
     ]
   }

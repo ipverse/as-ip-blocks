@@ -1,12 +1,15 @@
 {
-  "asn": 16400,
-  "handle": "WAVELENGTH",
-  "description": "Wavelength LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16400,
+  "metadata" : {
+    "handle" : "WAVELENGTH",
+    "description" : "Wavelength LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.171.224.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:1bc0::/32"
     ]
   }

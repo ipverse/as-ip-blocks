@@ -1,9 +1,12 @@
 {
-  "asn": 55625,
-  "handle": "CWUNET-AS",
-  "description": "Chungwoon University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55625,
+  "metadata" : {
+    "handle" : "CWUNET-AS",
+    "description" : "Chungwoon University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.247.193.0/24",
       "1.247.194.0/23",
       "1.247.196.0/22",
@@ -15,6 +18,6 @@
       "210.97.44.0/23",
       "210.97.46.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

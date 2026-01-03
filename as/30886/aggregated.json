@@ -1,16 +1,19 @@
 {
-  "asn": 30886,
-  "handle": "KOMITEX-AS",
-  "description": "PP KOM i TEX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30886,
+  "metadata" : {
+    "handle" : "KOMITEX-AS",
+    "description" : "PP KOM i TEX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.43.64.0/19",
       "91.196.52.0/22",
       "94.231.64.0/20",
       "193.27.208.0/23",
       "193.84.22.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:23a0::/48"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 205741,
-  "handle": "MITTELDEUTSCHE-IT",
-  "description": "mitteldeutsche IT GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205741,
+  "metadata" : {
+    "handle" : "MITTELDEUTSCHE-IT",
+    "description" : "mitteldeutsche IT GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.136.176.0/22",
       "185.141.64.0/22",
       "185.207.208.0/22",
       "185.235.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:2c40::/29"
     ]
   }

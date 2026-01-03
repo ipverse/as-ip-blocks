@@ -1,16 +1,19 @@
 {
-  "asn": 21778,
-  "handle": "NET-DIDATA-NY",
-  "description": "Dimension Data North America Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21778,
+  "metadata" : {
+    "handle" : "NET-DIDATA-NY",
+    "description" : "Dimension Data North America Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.241.34.0/24",
       "129.250.40.0/24",
       "129.250.161.0/24",
       "204.2.200.0/23",
       "204.56.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:418:9808::/48"
     ]
   }

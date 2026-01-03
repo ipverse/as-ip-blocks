@@ -1,13 +1,16 @@
 {
-  "asn": 400528,
-  "handle": "PELLA-FIBER",
-  "description": "City of Pella",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400528,
+  "metadata" : {
+    "handle" : "PELLA-FIBER",
+    "description" : "City of Pella",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.202.124.0/22",
       "192.171.112.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:8a40::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 397369,
-  "handle": "LVHN-INET-01",
-  "description": "LVHN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397369,
+  "metadata" : {
+    "handle" : "LVHN-INET-01",
+    "description" : "LVHN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.12.22.0/23",
       "167.12.64.0/19",
       "167.12.188.0/24",
       "192.234.106.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

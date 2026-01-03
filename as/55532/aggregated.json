@@ -1,9 +1,12 @@
 {
-  "asn": 55532,
-  "handle": "SQUIZ-AS-AP",
-  "description": "Squiz Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55532,
+  "metadata" : {
+    "handle" : "SQUIZ-AS-AP",
+    "description" : "Squiz Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.104.0/24",
       "2.58.107.0/24",
       "43.245.40.0/22",
@@ -11,7 +14,7 @@
       "202.9.94.0/23",
       "203.25.173.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:a1::/48"
     ]
   }

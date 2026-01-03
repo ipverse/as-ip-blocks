@@ -1,12 +1,15 @@
 {
-  "asn": 56841,
-  "handle": "OZKAN",
-  "description": "Ozkan TOPAL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56841,
+  "metadata" : {
+    "handle" : "OZKAN",
+    "description" : "Ozkan TOPAL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.23.111.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:ac8::/48",
       "2001:67c:acc::/48",
       "2001:67c:ad0::/48",

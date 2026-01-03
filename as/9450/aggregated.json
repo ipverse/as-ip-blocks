@@ -1,12 +1,15 @@
 {
-  "asn": 9450,
-  "handle": "WEBEXAPNIC-AS-AP",
-  "description": "Webex Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9450,
+  "metadata" : {
+    "handle" : "WEBEXAPNIC-AS-AP",
+    "description" : "Webex Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.114.170.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fcf0:4404::/46"
     ]
   }

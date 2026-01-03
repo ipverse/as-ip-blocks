@@ -1,14 +1,17 @@
 {
-  "asn": 197063,
-  "handle": "AS-PFALZCONNECT",
-  "description": "PfalzConnect GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197063,
+  "metadata" : {
+    "handle" : "AS-PFALZCONNECT",
+    "description" : "PfalzConnect GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.249.0.0/21",
       "185.34.88.0/22",
       "185.113.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:8f00::/32"
     ]
   }

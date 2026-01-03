@@ -1,9 +1,12 @@
 {
-  "asn": 35645,
-  "handle": "INFOCENTER",
-  "description": "Limited Liability Company VLADINFO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35645,
+  "metadata" : {
+    "handle" : "INFOCENTER",
+    "description" : "Limited Liability Company VLADINFO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.66.128.0/18",
       "95.66.192.0/22",
       "95.66.196.0/23",
@@ -21,6 +24,6 @@
       "194.85.202.0/23",
       "194.85.204.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

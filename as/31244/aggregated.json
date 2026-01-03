@@ -1,9 +1,12 @@
 {
-  "asn": 31244,
-  "handle": "MYSERVER-MEDIA-AS",
-  "description": "MY SERVER MEDIA SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31244,
+  "metadata" : {
+    "handle" : "MYSERVER-MEDIA-AS",
+    "description" : "MY SERVER MEDIA SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.129.64.0/22",
       "45.131.107.0/24",
       "89.38.233.0/24",
@@ -11,6 +14,6 @@
       "193.25.112.0/23",
       "194.117.236.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

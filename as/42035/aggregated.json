@@ -1,12 +1,15 @@
 {
-  "asn": 42035,
-  "handle": "VIKINGS",
-  "description": "Vikings GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42035,
+  "metadata" : {
+    "handle" : "VIKINGS",
+    "description" : "Vikings GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.199.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:2b40::/29"
     ]
   }

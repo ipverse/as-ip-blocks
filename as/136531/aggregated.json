@@ -1,12 +1,15 @@
 {
-  "asn": 136531,
-  "handle": "NETEXPRESSONLINE-AS-AP",
-  "description": "NetExpress Online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136531,
+  "metadata" : {
+    "handle" : "NETEXPRESSONLINE-AS-AP",
+    "description" : "NetExpress Online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.91.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:14c0:2::/48",
       "2401:14c0:4::/48",
       "2401:14c0:8::/48",

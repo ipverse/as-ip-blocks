@@ -1,15 +1,18 @@
 {
-  "asn": 26531,
-  "handle": "NEXUSDS",
-  "description": "NEXUSDS.COM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26531,
+  "metadata" : {
+    "handle" : "NEXUSDS",
+    "description" : "NEXUSDS.COM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "172.84.0.0/18",
       "199.182.52.0/22",
       "205.233.93.0/24",
       "206.130.178.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:e000::/32"
     ]
   }

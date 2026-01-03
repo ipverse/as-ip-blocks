@@ -1,14 +1,17 @@
 {
-  "asn": 37018,
-  "handle": "GALAXYBB-AS",
-  "description": "Galaxy Backbone PLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37018,
+  "metadata" : {
+    "handle" : "GALAXYBB-AS",
+    "description" : "Galaxy Backbone PLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.78.80.0/22",
       "41.222.208.0/22",
       "197.159.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:6e80::/28"
     ]
   }

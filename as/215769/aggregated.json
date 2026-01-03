@@ -1,12 +1,15 @@
 {
-  "asn": 215769,
-  "handle": "OBRENET",
-  "description": "Eigil Obrestad",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215769,
+  "metadata" : {
+    "handle" : "OBRENET",
+    "description" : "Eigil Obrestad",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.19.60.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:ff04:7000::/47",
       "2a12:ff04:700f::/48"
     ]

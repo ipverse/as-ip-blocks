@@ -1,14 +1,17 @@
 {
-  "asn": 43516,
-  "handle": "FELLESKJOPET-AS",
-  "description": "Felleskjopet Agri SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43516,
+  "metadata" : {
+    "handle" : "FELLESKJOPET-AS",
+    "description" : "Felleskjopet Agri SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.190.172.0/22",
       "193.160.48.0/21",
       "193.161.120.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1640::/44"
     ]
   }

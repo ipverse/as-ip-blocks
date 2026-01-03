@@ -1,11 +1,14 @@
 {
-  "asn": 11322,
-  "handle": "TRMC-MAIN-CAMPUS",
-  "description": "Thibodaux Regional Medical Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11322,
+  "metadata" : {
+    "handle" : "TRMC-MAIN-CAMPUS",
+    "description" : "Thibodaux Regional Medical Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.17.251.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

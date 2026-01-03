@@ -1,16 +1,19 @@
 {
-  "asn": 5377,
-  "handle": "MARLINK-EMEA",
-  "description": "Marlink AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5377,
+  "metadata" : {
+    "handle" : "MARLINK-EMEA",
+    "description" : "Marlink AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.70.128.0/17",
       "193.219.192.0/18",
       "193.220.0.0/16",
       "193.252.234.0/24",
       "216.9.230.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:6600::/29"
     ]
   }

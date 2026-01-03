@@ -1,9 +1,12 @@
 {
-  "asn": 55850,
-  "handle": "MERCURYNZ-AS-AP",
-  "description": "Mercury NZ Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55850,
+  "metadata" : {
+    "handle" : "MERCURYNZ-AS-AP",
+    "description" : "Mercury NZ Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.137.0.0/19",
       "101.53.192.0/19",
       "103.8.140.0/22",
@@ -33,7 +36,7 @@
       "209.87.188.0/22",
       "223.165.16.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:2f40::/32",
       "2406:5a00::/32"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 215010,
-  "handle": "ZOLL-GMBH",
-  "description": "ZOLL Medical Deutschland GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215010,
+  "metadata" : {
+    "handle" : "ZOLL-GMBH",
+    "description" : "ZOLL Medical Deutschland GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.11.243.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:7800::/32"
     ]
   }

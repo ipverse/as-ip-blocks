@@ -1,12 +1,15 @@
 {
-  "asn": 205226,
-  "handle": "MEDIANET-AS",
-  "description": "MediaNet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205226,
+  "metadata" : {
+    "handle" : "MEDIANET-AS",
+    "description" : "MediaNet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.108.19.0/24",
       "212.113.111.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

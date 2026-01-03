@@ -1,9 +1,12 @@
 {
-  "asn": 133848,
-  "handle": "AWN-IDC-AS",
-  "description": "Internet Datacenter Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133848,
+  "metadata" : {
+    "handle" : "AWN-IDC-AS",
+    "description" : "Internet Datacenter Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.0.124.0/24",
       "49.231.76.0/23",
       "49.231.78.0/24",
@@ -18,7 +21,7 @@
       "147.50.98.0/24",
       "210.1.35.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:9800:d003::/48",
       "2405:9800:d007::/48"
     ]

@@ -1,11 +1,14 @@
 {
-  "asn": 43017,
-  "handle": "PROFIX-AS",
-  "description": "TOV \u0027ProFIX Company\u0027",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43017,
+  "metadata" : {
+    "handle" : "PROFIX-AS",
+    "description" : "TOV 'ProFIX Company'",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.194.34.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

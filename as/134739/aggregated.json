@@ -1,9 +1,12 @@
 {
-  "asn": 134739,
-  "handle": "AGBC-AS-AP",
-  "description": "AGB Communication Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134739,
+  "metadata" : {
+    "handle" : "AGBC-AS-AP",
+    "description" : "AGB Communication Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.64.72.0/23",
       "103.138.253.0/24",
       "103.200.132.0/22",
@@ -11,7 +14,7 @@
       "185.205.140.0/23",
       "185.205.142.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:8e80::/32"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 21416,
-  "handle": "TCINET-AS",
-  "description": "The Technical center of Internet Limited Liability Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21416,
+  "metadata" : {
+    "handle" : "TCINET-AS",
+    "description" : "The Technical center of Internet Limited Liability Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.76.253.0/24",
       "212.193.104.0/21",
       "212.193.112.0/23",
       "212.193.115.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:eac0:1000::/48",
       "2a0e:eac0:1105::/48",
       "2a0e:eac0:1106::/47",

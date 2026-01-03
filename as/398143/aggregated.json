@@ -1,9 +1,12 @@
 {
-  "asn": 398143,
-  "handle": "TRUESTREAM",
-  "description": "Great Lakes Energy Connections Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398143,
+  "metadata" : {
+    "handle" : "TRUESTREAM",
+    "description" : "Great Lakes Energy Connections Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.154.184.0/24",
       "72.46.32.0/20",
       "96.46.0.0/20",
@@ -15,7 +18,7 @@
       "206.204.192.0/19",
       "208.103.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:cbc0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 201684,
-  "handle": "ODPASN",
-  "description": "Oman Data Park SAOC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201684,
+  "metadata" : {
+    "handle" : "ODPASN",
+    "description" : "Oman Data Park SAOC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.83.60.0/22",
       "87.121.168.0/22",
       "87.121.172.0/23",
@@ -11,7 +14,7 @@
       "185.64.24.0/22",
       "193.203.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:11a0:1::/48"
     ]
   }

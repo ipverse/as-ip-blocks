@@ -1,12 +1,15 @@
 {
-  "asn": 27625,
-  "handle": "UBNT-AS",
-  "description": "Ubiquiti Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27625,
+  "metadata" : {
+    "handle" : "UBNT-AS",
+    "description" : "Ubiquiti Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.76.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:a5:c000::/48"
     ]
   }

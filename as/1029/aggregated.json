@@ -1,12 +1,15 @@
 {
-  "asn": 1029,
-  "handle": "BLACK-MESA-LMN",
-  "description": "Black Mesa Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1029,
+  "metadata" : {
+    "handle" : "BLACK-MESA-LMN",
+    "description" : "Black Mesa Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.6.118.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:feda:c0::/47"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 137349,
-  "handle": "IDNIC-GSMNET-AS-ID",
-  "description": "PT. GEMILANG SARANA MANDIRI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137349,
+  "metadata" : {
+    "handle" : "IDNIC-GSMNET-AS-ID",
+    "description" : "PT. GEMILANG SARANA MANDIRI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.114.52.0/23",
       "157.66.20.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:f300::/48"
     ]
   }

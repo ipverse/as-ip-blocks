@@ -1,9 +1,12 @@
 {
-  "asn": 398993,
-  "handle": "PEG-TY",
-  "description": "PEG TECH INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398993,
+  "metadata" : {
+    "handle" : "PEG-TY",
+    "description" : "PEG TECH INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.6.0.0/18",
       "38.33.128.0/20",
       "38.173.64.0/19",
@@ -33,6 +36,6 @@
       "149.120.192.0/21",
       "222.167.208.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

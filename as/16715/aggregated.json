@@ -1,13 +1,16 @@
 {
-  "asn": 16715,
-  "handle": "ARISTOTLE-ASN",
-  "description": "Aristotle Internet Access",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16715,
+  "metadata" : {
+    "handle" : "ARISTOTLE-ASN",
+    "description" : "Aristotle Internet Access",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.220.49.0/24",
       "67.220.52.0/22",
       "67.220.56.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 12180,
-  "handle": "INTERNAP-2BLK",
-  "description": "Unitas Global",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12180,
+  "metadata" : {
+    "handle" : "INTERNAP-2BLK",
+    "description" : "Unitas Global",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.250.0.0/22",
       "63.251.144.0/20",
       "63.251.204.0/24",
@@ -39,7 +42,7 @@
       "216.126.60.0/22",
       "217.17.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:c04:1023::/48",
       "2600:c0a::/32"
     ]

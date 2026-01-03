@@ -1,11 +1,14 @@
 {
-  "asn": 152718,
-  "handle": "CLOUDPOINT-AS-AP",
-  "description": "Cloud Point",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152718,
+  "metadata" : {
+    "handle" : "CLOUDPOINT-AS-AP",
+    "description" : "Cloud Point",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.51.128.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

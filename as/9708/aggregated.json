@@ -1,9 +1,12 @@
 {
-  "asn": 9708,
-  "handle": "PKNU-AS",
-  "description": "Pukyong National University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9708,
+  "metadata" : {
+    "handle" : "PKNU-AS",
+    "description" : "Pukyong National University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.44.112.0/20",
       "58.103.160.0/21",
       "58.103.168.0/23",
@@ -28,6 +31,6 @@
       "220.92.62.0/23",
       "220.92.64.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 18034,
-  "handle": "KANGNUNG-AS",
-  "description": "Gangneung-Wonju National University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18034,
+  "metadata" : {
+    "handle" : "KANGNUNG-AS",
+    "description" : "Gangneung-Wonju National University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "114.70.170.0/23",
       "114.70.172.0/23",
       "114.71.64.0/20",
@@ -22,6 +25,6 @@
       "220.67.170.0/24",
       "220.69.224.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

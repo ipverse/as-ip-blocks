@@ -1,13 +1,16 @@
 {
-  "asn": 16218,
-  "handle": "ASN-IACD",
-  "description": "Ingo Assion trading as IACD Systemhaus GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16218,
+  "metadata" : {
+    "handle" : "ASN-IACD",
+    "description" : "Ingo Assion trading as IACD Systemhaus GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.60.208.0/22",
       "217.113.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:ea0::/29"
     ]
   }

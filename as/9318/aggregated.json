@@ -1,9 +1,12 @@
 {
-  "asn": 9318,
-  "handle": "SKB-AS",
-  "description": "SK Broadband Co Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9318,
+  "metadata" : {
+    "handle" : "SKB-AS",
+    "description" : "SK Broadband Co Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.224.0.0/11",
       "39.112.0.0/12",
       "43.230.0.0/22",
@@ -281,7 +284,7 @@
       "223.194.108.0/24",
       "223.195.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:290::/32",
       "2001:378::/32",
       "2001:df1:6003::/48",

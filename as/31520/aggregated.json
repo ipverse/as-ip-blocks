@@ -1,9 +1,12 @@
 {
-  "asn": 31520,
-  "handle": "DATAGROUP-RETAIL",
-  "description": "PRIVATE JOINT STOCK COMPANY DATAGROUP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31520,
+  "metadata" : {
+    "handle" : "DATAGROUP-RETAIL",
+    "description" : "PRIVATE JOINT STOCK COMPANY DATAGROUP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.1.0.0/23",
       "5.1.4.0/22",
       "5.1.8.0/21",
@@ -51,6 +54,6 @@
       "195.114.156.0/22",
       "213.111.192.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

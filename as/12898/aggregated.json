@@ -1,12 +1,15 @@
 {
-  "asn": 12898,
-  "handle": "PSV-HEES-NET",
-  "description": "PSV Neo GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12898,
+  "metadata" : {
+    "handle" : "PSV-HEES-NET",
+    "description" : "PSV Neo GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.178.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1928::/32"
     ]
   }

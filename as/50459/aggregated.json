@@ -1,11 +1,14 @@
 {
-  "asn": 50459,
-  "handle": "INFORMSERVICE-AS",
-  "description": "Private enterprise InformService",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50459,
+  "metadata" : {
+    "handle" : "INFORMSERVICE-AS",
+    "description" : "Private enterprise InformService",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.106.200.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

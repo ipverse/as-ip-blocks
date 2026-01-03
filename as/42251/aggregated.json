@@ -1,13 +1,16 @@
 {
-  "asn": 42251,
-  "handle": "SE-LINDESBERG",
-  "description": "Lindesbergs Kommun",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42251,
+  "metadata" : {
+    "handle" : "SE-LINDESBERG",
+    "description" : "Lindesbergs Kommun",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.200.31.0/24",
       "195.34.84.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:17ac::/48",
       "2001:67c:2f80::/48"
     ]

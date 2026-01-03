@@ -1,9 +1,12 @@
 {
-  "asn": 32578,
-  "handle": "KC-EURON-1",
-  "description": "Euronet Worldwide Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32578,
+  "metadata" : {
+    "handle" : "KC-EURON-1",
+    "description" : "Euronet Worldwide Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.3.217.0/24",
       "63.77.194.0/24",
       "67.129.107.0/24",
@@ -13,7 +16,7 @@
       "208.66.44.0/22",
       "216.193.216.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:12a:600a::/47",
       "2620:12a:600c::/47"
     ]

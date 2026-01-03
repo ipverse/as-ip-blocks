@@ -1,12 +1,15 @@
 {
-  "asn": 400181,
-  "handle": "SIGYN-SYSTEMS-0",
-  "description": "Sigyn Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400181,
+  "metadata" : {
+    "handle" : "SIGYN-SYSTEMS-0",
+    "description" : "Sigyn Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.128.40.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc0d::/36"
     ]
   }

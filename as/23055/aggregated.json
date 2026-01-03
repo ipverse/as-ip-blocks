@@ -1,11 +1,14 @@
 {
-  "asn": 23055,
-  "handle": "CITYOFNAMPA",
-  "description": "City of Nampa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23055,
+  "metadata" : {
+    "handle" : "CITYOFNAMPA",
+    "description" : "City of Nampa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.225.25.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

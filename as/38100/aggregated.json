@@ -1,12 +1,15 @@
 {
-  "asn": 38100,
-  "handle": "INICIS-AS",
-  "description": "INICIS Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38100,
+  "metadata" : {
+    "handle" : "INICIS-AS",
+    "description" : "INICIS Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "39.115.212.0/24",
       "183.109.71.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

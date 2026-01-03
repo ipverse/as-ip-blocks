@@ -1,13 +1,16 @@
 {
-  "asn": 210544,
-  "handle": "BDR",
-  "description": "Bundesdruckerei GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210544,
+  "metadata" : {
+    "handle" : "BDR",
+    "description" : "Bundesdruckerei GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.124.252.0/24",
       "193.28.64.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:6900::/40"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 7670,
-  "handle": "CTNET",
-  "description": "Enecom Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7670,
+  "metadata" : {
+    "handle" : "CTNET",
+    "description" : "Enecom Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.96.68.0/22",
       "61.122.0.0/22",
       "61.125.160.0/20",
@@ -24,7 +27,7 @@
       "211.12.224.0/19",
       "219.118.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:2a8::/32"
     ]
   }

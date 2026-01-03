@@ -1,11 +1,14 @@
 {
-  "asn": 33031,
-  "handle": "HSB-BGP-ASN",
-  "description": "HomeStreet Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33031,
+  "metadata" : {
+    "handle" : "HSB-BGP-ASN",
+    "description" : "HomeStreet Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.32.214.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

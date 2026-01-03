@@ -1,9 +1,12 @@
 {
-  "asn": 48854,
-  "handle": "TEAM-BLUE-DENMARK",
-  "description": "team.blue Denmark A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48854,
+  "metadata" : {
+    "handle" : "TEAM-BLUE-DENMARK",
+    "description" : "team.blue Denmark A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.36.204.0/22",
       "46.36.208.0/21",
       "77.243.128.0/20",
@@ -46,7 +49,7 @@
       "212.237.248.0/23",
       "217.61.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1034::/48",
       "2a02:2338::/32",
       "2a02:2339::/36",

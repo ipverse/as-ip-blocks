@@ -1,9 +1,12 @@
 {
-  "asn": 43279,
-  "handle": "TELESPAZIO-AS",
-  "description": "Telespazio S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43279,
+  "metadata" : {
+    "handle" : "TELESPAZIO-AS",
+    "description" : "Telespazio S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.188.0.0/19",
       "94.127.238.0/23",
       "178.248.88.0/21",
@@ -11,6 +14,6 @@
       "185.208.232.0/24",
       "193.43.35.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

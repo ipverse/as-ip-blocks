@@ -1,14 +1,17 @@
 {
-  "asn": 207475,
-  "handle": "RLAN",
-  "description": "FOP Onuschak Oleg Volodimirovich",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207475,
+  "metadata" : {
+    "handle" : "RLAN",
+    "description" : "FOP Onuschak Oleg Volodimirovich",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.12.27.0/24",
       "45.87.88.0/24",
       "194.9.70.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:2f47:fffe::/48"
     ]
   }

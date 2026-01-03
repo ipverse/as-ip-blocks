@@ -1,9 +1,12 @@
 {
-  "asn": 41354,
-  "handle": "ITS-TG",
-  "description": "ITS Technology Group Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41354,
+  "metadata" : {
+    "handle" : "ITS-TG",
+    "description" : "ITS Technology Group Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.95.52.0/23",
       "91.236.67.0/24",
       "92.71.128.0/19",
@@ -35,7 +38,7 @@
       "217.171.108.0/23",
       "217.171.110.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:1700::/29",
       "2a05:b100::/36",
       "2a10:a700:3::/48"

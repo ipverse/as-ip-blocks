@@ -1,10 +1,13 @@
 {
-  "asn": 31168,
-  "handle": "AIRACCESS-AS",
-  "description": "AirAccess GmbH",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 31168,
+  "metadata" : {
+    "handle" : "AIRACCESS-AS",
+    "description" : "AirAccess GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0a:9040::/29"
     ]
   }

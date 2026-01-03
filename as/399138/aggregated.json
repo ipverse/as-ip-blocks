@@ -1,9 +1,12 @@
 {
-  "asn": 399138,
-  "handle": "MICROLINK-CORE",
-  "description": "Microlink Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399138,
+  "metadata" : {
+    "handle" : "MICROLINK-CORE",
+    "description" : "Microlink Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.136.196.0/22",
       "131.143.120.0/22",
       "142.248.84.0/22",
@@ -16,6 +19,6 @@
       "217.60.80.0/22",
       "217.60.92.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

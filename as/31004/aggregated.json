@@ -1,15 +1,18 @@
 {
-  "asn": 31004,
-  "handle": "SBB-CFF-FFS",
-  "description": "Schweizerische Bundesbahnen SBB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31004,
+  "metadata" : {
+    "handle" : "SBB-CFF-FFS",
+    "description" : "Schweizerische Bundesbahnen SBB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.230.140.0/23",
       "193.203.120.0/23",
       "194.116.210.0/23",
       "194.150.244.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4bc0::/32"
     ]
   }

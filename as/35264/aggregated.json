@@ -1,12 +1,15 @@
 {
-  "asn": 35264,
-  "handle": "GOBIERNOCANTABRIA-AS",
-  "description": "Gobierno de Cantabria",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35264,
+  "metadata" : {
+    "handle" : "GOBIERNOCANTABRIA-AS",
+    "description" : "Gobierno de Cantabria",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.224.168.0/24",
       "195.235.112.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 198568,
-  "handle": "ATEA",
-  "description": "ATEA Sverige AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198568,
+  "metadata" : {
+    "handle" : "ATEA",
+    "description" : "ATEA Sverige AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.191.232.0/21",
       "192.71.122.0/24",
       "192.121.41.0/24",
@@ -21,7 +24,7 @@
       "194.132.5.0/24",
       "194.132.6.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:190::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 19901,
-  "handle": "BRIGHTSPEED",
-  "description": "Brightspeed",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19901,
+  "metadata" : {
+    "handle" : "BRIGHTSPEED",
+    "description" : "Brightspeed",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "9.134.0.0/21",
       "9.134.32.0/22",
       "9.134.64.0/20",
@@ -709,7 +712,7 @@
       "216.166.238.0/24",
       "216.231.190.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:5000:1000::/39",
       "2606:5000:1400::/39",
       "2606:5000:1c00::/38",

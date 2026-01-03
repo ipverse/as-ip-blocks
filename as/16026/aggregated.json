@@ -1,12 +1,15 @@
 {
-  "asn": 16026,
-  "handle": "PETROM-NET",
-  "description": "OMV PETROM SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16026,
+  "metadata" : {
+    "handle" : "PETROM-NET",
+    "description" : "OMV PETROM SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.231.70.0/24",
       "194.102.138.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

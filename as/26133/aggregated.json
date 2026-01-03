@@ -1,9 +1,12 @@
 {
-  "asn": 26133,
-  "handle": "FEWPB",
-  "description": "Frankfort Plant Board",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26133,
+  "metadata" : {
+    "handle" : "FEWPB",
+    "description" : "Frankfort Plant Board",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.49.224.0/19",
       "63.131.192.0/19",
       "63.148.157.0/24",
@@ -13,6 +16,6 @@
       "204.118.64.0/20",
       "216.206.216.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

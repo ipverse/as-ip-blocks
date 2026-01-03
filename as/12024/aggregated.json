@@ -1,11 +1,14 @@
 {
-  "asn": 12024,
-  "handle": "ASN-ACN",
-  "description": "Advanced Corporate Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12024,
+  "metadata" : {
+    "handle" : "ASN-ACN",
+    "description" : "Advanced Corporate Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.47.160.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

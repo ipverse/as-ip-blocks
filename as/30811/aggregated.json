@@ -1,12 +1,15 @@
 {
-  "asn": 30811,
-  "handle": "EPISERVER-AS",
-  "description": "Optimizely AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30811,
+  "metadata" : {
+    "handle" : "EPISERVER-AS",
+    "description" : "Optimizely AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "217.114.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1c50:1::/48",
       "2a00:1c50:5::/48",
       "2a00:1c50:6::/47",

@@ -1,12 +1,15 @@
 {
-  "asn": 393898,
-  "handle": "ALWAYSON",
-  "description": "AlwaysON Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393898,
+  "metadata" : {
+    "handle" : "ALWAYSON",
+    "description" : "AlwaysON Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "205.189.36.0/23",
       "206.51.35.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

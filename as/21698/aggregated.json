@@ -1,12 +1,15 @@
 {
-  "asn": 21698,
-  "handle": "TURBONET-NETWORK",
-  "description": "TurboNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21698,
+  "metadata" : {
+    "handle" : "TURBONET-NETWORK",
+    "description" : "TurboNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.83.25.0/24",
       "207.229.103.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 40191,
-  "handle": "AS-PRE2POST-1",
-  "description": "Beanfield Technologies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40191,
+  "metadata" : {
+    "handle" : "AS-PRE2POST-1",
+    "description" : "Beanfield Technologies Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.114.100.0/22",
       "74.123.92.0/22",
       "173.243.192.0/21",
@@ -14,7 +17,7 @@
       "208.71.8.0/22",
       "208.85.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:5e00::/32"
     ]
   }

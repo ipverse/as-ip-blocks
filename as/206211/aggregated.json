@@ -1,13 +1,16 @@
 {
-  "asn": 206211,
-  "handle": "DEUTZ",
-  "description": "DEUTZ AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206211,
+  "metadata" : {
+    "handle" : "DEUTZ",
+    "description" : "DEUTZ AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.247.240.0/24",
       "185.247.243.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:d180::/29"
     ]
   }

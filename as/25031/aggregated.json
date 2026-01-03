@@ -1,9 +1,12 @@
 {
-  "asn": 25031,
-  "handle": "NOVARTIS-CH",
-  "description": "Novartis AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25031,
+  "metadata" : {
+    "handle" : "NOVARTIS-CH",
+    "description" : "Novartis AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.61.168.0/22",
       "160.61.208.0/24",
       "160.61.211.0/24",
@@ -11,6 +14,6 @@
       "160.62.2.0/23",
       "160.62.4.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

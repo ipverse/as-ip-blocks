@@ -1,14 +1,17 @@
 {
-  "asn": 131746,
-  "handle": "PERMANA-AS-ID",
-  "description": "PT. Medianusa Permana",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131746,
+  "metadata" : {
+    "handle" : "PERMANA-AS-ID",
+    "description" : "PT. Medianusa Permana",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.21.204.0/22",
       "103.131.247.0/24",
       "103.248.196.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:f340:2::/48",
       "2400:f340:9::/48",
       "2400:f340:1d::/48",

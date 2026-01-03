@@ -1,13 +1,16 @@
 {
-  "asn": 53872,
-  "handle": "ASNTWO-AND-ASNTHREE",
-  "description": "Telinta Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53872,
+  "metadata" : {
+    "handle" : "ASNTWO-AND-ASNTHREE",
+    "description" : "Telinta Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.180.220.0/22",
       "208.89.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe5b::/36"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 199422,
-  "handle": "REZOPOLE",
-  "description": "France IX Services SASU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199422,
+  "metadata" : {
+    "handle" : "REZOPOLE",
+    "description" : "France IX Services SASU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.95.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:9180::/32"
     ]
   }

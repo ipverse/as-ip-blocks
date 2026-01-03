@@ -1,11 +1,14 @@
 {
-  "asn": 34500,
-  "handle": "CTSPI",
-  "description": "FGUP CTSPI MGA Russia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34500,
+  "metadata" : {
+    "handle" : "CTSPI",
+    "description" : "FGUP CTSPI MGA Russia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.73.16.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

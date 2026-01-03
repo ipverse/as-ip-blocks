@@ -1,12 +1,15 @@
 {
-  "asn": 205016,
-  "handle": "HERNLABS",
-  "description": "HERN Labs AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205016,
+  "metadata" : {
+    "handle" : "HERNLABS",
+    "description" : "HERN Labs AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.111.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:198c::/48",
       "2001:67c:2628::/48",
       "2001:67c:2660::/48"

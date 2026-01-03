@@ -1,12 +1,15 @@
 {
-  "asn": 401610,
-  "handle": "TRAFIX-LLC",
-  "description": "TRAFiX LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401610,
+  "metadata" : {
+    "handle" : "TRAFIX-LLC",
+    "description" : "TRAFiX LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.168.104.0/23",
       "206.168.107.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

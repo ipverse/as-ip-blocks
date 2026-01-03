@@ -1,9 +1,12 @@
 {
-  "asn": 2894,
-  "handle": "CALIF-DWR",
-  "description": "California Department of Water Resources",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2894,
+  "metadata" : {
+    "handle" : "CALIF-DWR",
+    "description" : "California Department of Water Resources",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "136.200.6.0/24",
       "136.200.14.0/23",
       "136.200.20.0/24",
@@ -26,6 +29,6 @@
       "136.200.245.0/24",
       "136.200.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

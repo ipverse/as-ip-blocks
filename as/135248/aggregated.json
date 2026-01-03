@@ -1,14 +1,17 @@
 {
-  "asn": 135248,
-  "handle": "VORTEXIPL-AS-IN",
-  "description": "VORTEX INFOCOM PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135248,
+  "metadata" : {
+    "handle" : "VORTEXIPL-AS-IN",
+    "description" : "VORTEX INFOCOM PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.183.80.0/23",
       "206.84.230.0/23",
       "206.84.232.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:7fe0::/32"
     ]
   }

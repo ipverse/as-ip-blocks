@@ -1,14 +1,17 @@
 {
-  "asn": 32319,
-  "handle": "AS-MARQETA",
-  "description": "Marqeta Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32319,
+  "metadata" : {
+    "handle" : "AS-MARQETA",
+    "description" : "Marqeta Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.2.176.0/24",
       "63.80.198.0/24",
       "192.135.50.0/24",
       "208.250.103.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

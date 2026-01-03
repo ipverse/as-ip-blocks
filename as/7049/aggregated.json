@@ -1,9 +1,12 @@
 {
-  "asn": 7049,
-  "handle": "SILICA-NETWORKS-ARGENTINA",
-  "description": "Silica Networks Argentina S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7049,
+  "metadata" : {
+    "handle" : "SILICA-NETWORKS-ARGENTINA",
+    "description" : "Silica Networks Argentina S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.175.21.0/24",
       "128.201.20.0/24",
       "128.201.23.0/24",
@@ -44,7 +47,7 @@
       "200.61.28.0/24",
       "200.61.31.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:630::/32"
     ]
   }

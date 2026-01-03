@@ -1,9 +1,12 @@
 {
-  "asn": 148981,
-  "handle": "CHINANET-HUBEI-SHIYAN-IDC",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 148981,
+  "metadata" : {
+    "handle" : "CHINANET-HUBEI-SHIYAN-IDC",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.25.128.0/24",
       "27.25.130.0/24",
       "27.25.132.0/24",
@@ -29,6 +32,6 @@
       "121.62.24.0/22",
       "121.62.60.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

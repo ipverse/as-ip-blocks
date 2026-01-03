@@ -1,9 +1,12 @@
 {
-  "asn": 138384,
-  "handle": "RMI",
-  "description": "Rakuten Mobile Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138384,
+  "metadata" : {
+    "handle" : "RMI",
+    "description" : "Rakuten Mobile Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "101.102.0.0/18",
       "103.124.0.0/22",
       "110.165.128.0/17",
@@ -36,7 +39,7 @@
       "219.105.192.0/18",
       "219.106.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240b:c000::/24"
     ]
   }

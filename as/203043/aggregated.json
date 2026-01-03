@@ -1,14 +1,17 @@
 {
-  "asn": 203043,
-  "handle": "TIRASTEL",
-  "description": "Tirastel GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203043,
+  "metadata" : {
+    "handle" : "TIRASTEL",
+    "description" : "Tirastel GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.180.240.0/22",
       "93.180.247.0/24",
       "185.146.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:6c0::/34",
       "2a05:6c0:4000::/35",
       "2a05:6c0:6000::/36"

@@ -1,9 +1,12 @@
 {
-  "asn": 29648,
-  "handle": "COMLINE-AS",
-  "description": "PJSC MegaFon",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29648,
+  "metadata" : {
+    "handle" : "COMLINE-AS",
+    "description" : "PJSC MegaFon",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.173.104.0/21",
       "31.173.112.0/21",
       "77.233.160.0/19",
@@ -28,7 +31,7 @@
       "195.149.111.0/24",
       "217.115.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:d000:9004::/46",
       "2a03:d005::/40",
       "2a03:d005:200::/40"

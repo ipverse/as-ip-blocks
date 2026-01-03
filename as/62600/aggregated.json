@@ -1,9 +1,12 @@
 {
-  "asn": 62600,
-  "handle": "ABOR-SUN-CORRIDOR",
-  "description": "Arizona Board of Regents",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62600,
+  "metadata" : {
+    "handle" : "ABOR-SUN-CORRIDOR",
+    "description" : "Arizona Board of Regents",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.166.108.0/24",
       "140.252.0.0/16",
       "198.60.121.0/24",
@@ -16,7 +19,7 @@
       "206.207.6.0/24",
       "206.210.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:e580::/32"
     ]
   }

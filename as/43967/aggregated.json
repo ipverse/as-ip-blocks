@@ -1,9 +1,12 @@
 {
-  "asn": 43967,
-  "handle": "TEREMKI-AS",
-  "description": "TEREMKY LAN ISP LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43967,
+  "metadata" : {
+    "handle" : "TEREMKI-AS",
+    "description" : "TEREMKY LAN ISP LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.159.100.0/23",
       "45.159.102.0/24",
       "91.200.180.0/22",
@@ -14,6 +17,6 @@
       "195.211.136.0/21",
       "195.211.144.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

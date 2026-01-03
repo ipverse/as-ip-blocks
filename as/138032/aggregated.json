@@ -1,11 +1,14 @@
 {
-  "asn": 138032,
-  "handle": "MHS-AS-AP",
-  "description": "MOS Hosting Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138032,
+  "metadata" : {
+    "handle" : "MHS-AS-AP",
+    "description" : "MOS Hosting Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.20.75.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

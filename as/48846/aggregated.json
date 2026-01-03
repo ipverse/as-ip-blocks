@@ -1,9 +1,12 @@
 {
-  "asn": 48846,
-  "handle": "INETUM-ES-AS",
-  "description": "Inetum Espana S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48846,
+  "metadata" : {
+    "handle" : "INETUM-ES-AS",
+    "description" : "Inetum Espana S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.8.180.0/23",
       "87.253.224.0/21",
       "93.191.136.0/21",
@@ -12,7 +15,7 @@
       "185.228.96.0/23",
       "188.210.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:5c80::/29"
     ]
   }

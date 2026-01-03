@@ -1,11 +1,14 @@
 {
-  "asn": 134164,
-  "handle": "NGTA-AS-AP",
-  "description": "NSW Government Telecommunications Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134164,
+  "metadata" : {
+    "handle" : "NGTA-AS-AP",
+    "description" : "NSW Government Telecommunications Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.56.31.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

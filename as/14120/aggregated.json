@@ -1,9 +1,12 @@
 {
-  "asn": 14120,
-  "handle": "ONEZERO-AS",
-  "description": "oneZero Financial Systems LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14120,
+  "metadata" : {
+    "handle" : "ONEZERO-AS",
+    "description" : "oneZero Financial Systems LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.76.4.0/24",
       "147.160.248.0/23",
       "147.160.250.0/24",
@@ -11,6 +14,6 @@
       "168.245.178.0/23",
       "192.149.48.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

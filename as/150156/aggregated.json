@@ -1,12 +1,15 @@
 {
-  "asn": 150156,
-  "handle": "M99IT-AS-AP",
-  "description": "99IT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150156,
+  "metadata" : {
+    "handle" : "M99IT-AS-AP",
+    "description" : "99IT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.112.62.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:1940::/48"
     ]
   }

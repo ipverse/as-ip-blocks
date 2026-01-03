@@ -1,9 +1,12 @@
 {
-  "asn": 44,
-  "handle": "S1-DOMAIN",
-  "description": "Lawrence Livermore National Laboratory",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44,
+  "metadata" : {
+    "handle" : "S1-DOMAIN",
+    "description" : "Lawrence Livermore National Laboratory",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.9.0.0/18",
       "134.9.64.0/20",
       "134.9.80.0/21",
@@ -11,6 +14,6 @@
       "192.12.135.0/24",
       "192.12.136.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

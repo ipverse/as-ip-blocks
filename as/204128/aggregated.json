@@ -1,12 +1,15 @@
 {
-  "asn": 204128,
-  "handle": "AT-TELECOM-AS",
-  "description": "AT Telecom llc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204128,
+  "metadata" : {
+    "handle" : "AT-TELECOM-AS",
+    "description" : "AT Telecom llc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.100.247.0/24",
       "109.248.140.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

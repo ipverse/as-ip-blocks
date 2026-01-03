@@ -1,12 +1,15 @@
 {
-  "asn": 41600,
-  "handle": "SYNCHRON-AS",
-  "description": "Synchron Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41600,
+  "metadata" : {
+    "handle" : "SYNCHRON-AS",
+    "description" : "Synchron Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.201.36.0/22",
       "195.138.218.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

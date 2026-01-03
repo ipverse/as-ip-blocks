@@ -1,12 +1,15 @@
 {
-  "asn": 33573,
-  "handle": "BAQMD-SF",
-  "description": "Bay Area Air Quality Management District",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33573,
+  "metadata" : {
+    "handle" : "BAQMD-SF",
+    "description" : "Bay Area Air Quality Management District",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.137.109.0/24",
       "192.137.110.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

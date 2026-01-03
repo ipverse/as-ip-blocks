@@ -1,9 +1,12 @@
 {
-  "asn": 7625,
-  "handle": "DAUM-AS",
-  "description": "Kakao Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7625,
+  "metadata" : {
+    "handle" : "DAUM-AS",
+    "description" : "Kakao Corp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "121.53.80.0/21",
       "121.53.88.0/23",
       "121.53.216.0/22",
@@ -17,7 +20,7 @@
       "220.64.100.0/22",
       "220.64.104.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:4600:9::/48"
     ]
   }

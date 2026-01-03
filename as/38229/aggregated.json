@@ -1,13 +1,16 @@
 {
-  "asn": 38229,
-  "handle": "LEARN-LK",
-  "description": "Lanka Education and Research Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38229,
+  "metadata" : {
+    "handle" : "LEARN-LK",
+    "description" : "Lanka Education and Research Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.77.64.0/22",
       "192.248.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:dd00::/32"
     ]
   }

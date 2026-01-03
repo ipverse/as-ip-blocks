@@ -1,9 +1,12 @@
 {
-  "asn": 33763,
-  "handle": "PARATUS",
-  "description": "Paratus Telecommunications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33763,
+  "metadata" : {
+    "handle" : "PARATUS",
+    "description" : "Paratus Telecommunications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.87.176.0/21",
       "41.218.64.0/18",
       "102.213.184.0/22",
@@ -34,7 +37,7 @@
       "197.234.64.0/18",
       "197.242.49.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f980:4000::/35",
       "2c0f:f980:6000::/36",
       "2c0f:f980:8000::/35"

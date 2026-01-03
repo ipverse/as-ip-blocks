@@ -1,15 +1,18 @@
 {
-  "asn": 27578,
-  "handle": "AIRBRIDGE",
-  "description": "AirBridge Broadband LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27578,
+  "metadata" : {
+    "handle" : "AIRBRIDGE",
+    "description" : "AirBridge Broadband LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.94.112.0/22",
       "38.141.32.0/22",
       "38.141.40.0/22",
       "130.51.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:dc0::/32"
     ]
   }

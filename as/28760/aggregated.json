@@ -1,9 +1,12 @@
 {
-  "asn": 28760,
-  "handle": "INFOTECH-AT-AS",
-  "description": "Infotech EDV-Systeme GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28760,
+  "metadata" : {
+    "handle" : "INFOTECH-AT-AS",
+    "description" : "Infotech EDV-Systeme GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.104.216.0/21",
       "62.249.100.0/22",
       "77.242.64.0/20",
@@ -11,7 +14,7 @@
       "185.236.144.0/22",
       "213.174.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:fa00::/29"
     ]
   }

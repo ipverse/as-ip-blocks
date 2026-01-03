@@ -1,12 +1,15 @@
 {
-  "asn": 393308,
-  "handle": "IA-CIC-AS",
-  "description": "City of Iowa City",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393308,
+  "metadata" : {
+    "handle" : "IA-CIC-AS",
+    "description" : "City of Iowa City",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.151.137.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f872::/40"
     ]
   }

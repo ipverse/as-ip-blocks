@@ -1,12 +1,15 @@
 {
-  "asn": 11511,
-  "handle": "CRETE-INTERNET",
-  "description": "Crete Carrier Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11511,
+  "metadata" : {
+    "handle" : "CRETE-INTERNET",
+    "description" : "Crete Carrier Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.135.136.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:80d:4000::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 328120,
-  "handle": "SMS-CELLULAR-SERVICES-AS",
-  "description": "SMS Cellular Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328120,
+  "metadata" : {
+    "handle" : "SMS-CELLULAR-SERVICES-AS",
+    "description" : "SMS Cellular Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "196.223.248.0/23",
       "196.223.250.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

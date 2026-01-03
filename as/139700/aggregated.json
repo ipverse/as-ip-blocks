@@ -1,12 +1,15 @@
 {
-  "asn": 139700,
-  "handle": "CAPRICORNSPACE-AS-AP",
-  "description": "Capricorn Space Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139700,
+  "metadata" : {
+    "handle" : "CAPRICORNSPACE-AS-AP",
+    "description" : "Capricorn Space Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.143.185.0/24",
       "103.168.45.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

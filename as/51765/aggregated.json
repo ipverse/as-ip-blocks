@@ -1,9 +1,12 @@
 {
-  "asn": 51765,
-  "handle": "CREANOVA-AS",
-  "description": "Oy Crea Nova Hosting Solution Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51765,
+  "metadata" : {
+    "handle" : "CREANOVA-AS",
+    "description" : "Oy Crea Nova Hosting Solution Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.83.247.0/24",
       "77.90.176.0/24",
       "77.90.187.0/24",
@@ -60,7 +63,7 @@
       "213.209.148.0/24",
       "217.22.227.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:f040::/48",
       "2a10:9681::/32"
     ]

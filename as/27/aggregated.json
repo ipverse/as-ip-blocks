@@ -1,15 +1,18 @@
 {
-  "asn": 27,
-  "handle": "UMDNET",
-  "description": "University of Maryland",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27,
+  "metadata" : {
+    "handle" : "UMDNET",
+    "description" : "University of Maryland",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.8.0.0/16",
       "129.2.0.0/16",
       "192.54.94.0/23",
       "192.54.96.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:880::/47",
       "2605:880:10::/48",
       "2605:880:20::/48",

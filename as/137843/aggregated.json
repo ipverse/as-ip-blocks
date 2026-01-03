@@ -1,12 +1,15 @@
 {
-  "asn": 137843,
-  "handle": "INTERSTELLAR-AS-AP",
-  "description": "INTERSTELLAR",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137843,
+  "metadata" : {
+    "handle" : "INTERSTELLAR-AS-AP",
+    "description" : "INTERSTELLAR",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.104.242.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:e840::/32"
     ]
   }

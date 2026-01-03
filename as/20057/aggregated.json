@@ -1,9 +1,12 @@
 {
-  "asn": 20057,
-  "handle": "ATT-MOBILITY-LLC-AS20057",
-  "description": "AT\u0026T Enterprises LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20057,
+  "metadata" : {
+    "handle" : "ATT-MOBILITY-LLC-AS20057",
+    "description" : "AT&T Enterprises LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.72.0.0/16",
       "12.73.0.0/17",
       "66.102.186.0/24",
@@ -116,7 +119,7 @@
       "209.183.56.0/23",
       "209.183.59.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:380::/36",
       "2600:380:1000::/37",
       "2600:380:1800::/38",

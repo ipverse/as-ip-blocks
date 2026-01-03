@@ -1,9 +1,12 @@
 {
-  "asn": 132754,
-  "handle": "REALTEL-AS-IN",
-  "description": "Realtel Network Services Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132754,
+  "metadata" : {
+    "handle" : "REALTEL-AS-IN",
+    "description" : "Realtel Network Services Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.230.104.0/22",
       "103.110.20.0/22",
       "103.127.72.0/23",
@@ -14,7 +17,7 @@
       "103.243.60.0/23",
       "103.248.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:f4c0::/32"
     ]
   }

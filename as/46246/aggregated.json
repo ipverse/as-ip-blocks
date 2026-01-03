@@ -1,14 +1,17 @@
 {
-  "asn": 46246,
-  "handle": "RAPTOR-DC-01",
-  "description": "Raptor Engineering LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46246,
+  "metadata" : {
+    "handle" : "RAPTOR-DC-01",
+    "description" : "Raptor Engineering LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.155.224.0/24",
       "23.247.188.0/23",
       "192.150.47.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe3d::/36"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 63981,
-  "handle": "NTDKL-HK",
-  "description": "Nova Technology Development (Hong Kong) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63981,
+  "metadata" : {
+    "handle" : "NTDKL-HK",
+    "description" : "Nova Technology Development (Hong Kong) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.71.22.0/24",
       "38.71.24.0/24",
       "38.71.26.0/23",
@@ -22,7 +25,7 @@
       "154.19.46.0/24",
       "203.166.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:550:5c09::/48",
       "2401:3e0::/32",
       "2405:a480::/32",

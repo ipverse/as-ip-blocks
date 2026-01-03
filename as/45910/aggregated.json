@@ -1,15 +1,18 @@
 {
-  "asn": 45910,
-  "handle": "ISYSTEMTECH-HK",
-  "description": "i-System Technology Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45910,
+  "metadata" : {
+    "handle" : "ISYSTEMTECH-HK",
+    "description" : "i-System Technology Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.11.228.0/22",
       "103.15.20.0/22",
       "180.188.192.0/22",
       "182.173.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:fc00:20::/46",
       "2404:fc00:76::/47",
       "2404:fc00:78::/47",

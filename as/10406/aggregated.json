@@ -1,15 +1,18 @@
 {
-  "asn": 10406,
-  "handle": "ASN-TEKTRONIX",
-  "description": "Tektronix Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10406,
+  "metadata" : {
+    "handle" : "ASN-TEKTRONIX",
+    "description" : "Tektronix Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.65.39.0/24",
       "192.65.40.0/23",
       "192.65.42.0/24",
       "192.158.180.0/22",
       "192.158.188.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

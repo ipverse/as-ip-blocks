@@ -1,9 +1,12 @@
 {
-  "asn": 41897,
-  "handle": "SAT-TRAKT-AS",
-  "description": "Sat-Trakt D.O.O",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41897,
+  "metadata" : {
+    "handle" : "SAT-TRAKT-AS",
+    "description" : "Sat-Trakt D.O.O.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.158.16.0/22",
       "46.40.0.0/18",
       "46.251.8.0/22",
@@ -33,7 +36,7 @@
       "195.192.244.0/22",
       "217.17.96.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ad00::/29",
       "2a0c:6300::/30"
     ]

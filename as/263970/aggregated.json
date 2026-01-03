@@ -1,12 +1,15 @@
 {
-  "asn": 263970,
-  "handle": "STRIKE-NET-PROVEDOR",
-  "description": "Strike Net Provedor de Acesso a Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263970,
+  "metadata" : {
+    "handle" : "STRIKE-NET-PROVEDOR",
+    "description" : "Strike Net Provedor de Acesso a Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.255.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:289c::/32"
     ]
   }

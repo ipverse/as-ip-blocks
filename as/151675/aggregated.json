@@ -1,11 +1,14 @@
 {
-  "asn": 151675,
-  "handle": "IHOME-AS-AP",
-  "description": "iHOME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151675,
+  "metadata" : {
+    "handle" : "IHOME-AS-AP",
+    "description" : "iHOME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.6.122.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

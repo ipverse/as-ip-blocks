@@ -1,9 +1,12 @@
 {
-  "asn": 18206,
-  "handle": "TTSSB-MY",
-  "description": "TM TECHNOLOGY SERVICES SDN BHD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18206,
+  "metadata" : {
+    "handle" : "TTSSB-MY",
+    "description" : "TM TECHNOLOGY SERVICES SDN BHD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.236.192.0/24",
       "49.236.194.0/23",
       "49.236.197.0/24",
@@ -48,7 +51,7 @@
       "210.48.155.0/24",
       "210.48.156.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:b000::/48",
       "2401:b000:10::/48",
       "2404:b8::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 60711,
-  "handle": "PARAVISA-AS",
-  "description": "Fernando Perez Morales",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60711,
+  "metadata" : {
+    "handle" : "PARAVISA-AS",
+    "description" : "Fernando Perez Morales",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.154.39.0/24",
       "45.148.68.0/22",
       "84.236.181.0/24",
@@ -18,6 +21,6 @@
       "213.181.92.0/23",
       "213.181.94.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

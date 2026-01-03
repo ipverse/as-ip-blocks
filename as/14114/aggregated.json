@@ -1,9 +1,12 @@
 {
-  "asn": 14114,
-  "handle": "SAP-NIE",
-  "description": "SAP America Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14114,
+  "metadata" : {
+    "handle" : "SAP-NIE",
+    "description" : "SAP America Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "155.56.0.0/17",
       "157.133.0.0/24",
       "157.133.24.0/21",
@@ -39,7 +42,7 @@
       "204.79.147.0/24",
       "204.154.69.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:f88::/48"
     ]
   }

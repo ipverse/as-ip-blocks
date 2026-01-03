@@ -1,12 +1,15 @@
 {
-  "asn": 46756,
-  "handle": "FREEMAN-HEALTH",
-  "description": "Freeman Health System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46756,
+  "metadata" : {
+    "handle" : "FREEMAN-HEALTH",
+    "description" : "Freeman Health System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.199.161.0/24",
       "161.199.163.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

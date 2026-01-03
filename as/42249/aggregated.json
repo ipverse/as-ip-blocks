@@ -1,11 +1,14 @@
 {
-  "asn": 42249,
-  "handle": "TUEV-RHEINLAND-AS",
-  "description": "TUEV Rheinland Service GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42249,
+  "metadata" : {
+    "handle" : "TUEV-RHEINLAND-AS",
+    "description" : "TUEV Rheinland Service GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.20.220.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

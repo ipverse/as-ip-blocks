@@ -1,14 +1,17 @@
 {
-  "asn": 198034,
-  "handle": "SENSOTELECOM-AS",
-  "description": "VOIP Telecom SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198034,
+  "metadata" : {
+    "handle" : "SENSOTELECOM-AS",
+    "description" : "VOIP Telecom SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.10.44.0/24",
       "91.230.169.0/24",
       "185.153.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:9240::/32"
     ]
   }

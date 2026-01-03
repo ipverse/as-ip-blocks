@@ -1,9 +1,12 @@
 {
-  "asn": 400866,
-  "handle": "HM-NET",
-  "description": "Harmony Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400866,
+  "metadata" : {
+    "handle" : "HM-NET",
+    "description" : "Harmony Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.148.0/23",
       "23.95.177.0/24",
       "23.251.53.0/24",
@@ -29,6 +32,6 @@
       "216.225.167.0/24",
       "216.225.168.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

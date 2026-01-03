@@ -1,14 +1,17 @@
 {
-  "asn": 140228,
-  "handle": "RDL-AS-AP",
-  "description": "Red Data (Pvt.) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140228,
+  "metadata" : {
+    "handle" : "RDL-AS-AP",
+    "description" : "Red Data (Pvt.) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.148.212.0/23",
       "103.186.20.0/23",
       "103.189.4.0/23",
       "116.193.218.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

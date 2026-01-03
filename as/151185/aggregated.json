@@ -1,9 +1,12 @@
 {
-  "asn": 151185,
-  "handle": "CT-XIANGYANG-IDC2",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151185,
+  "metadata" : {
+    "handle" : "CT-XIANGYANG-IDC2",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.226.49.0/24",
       "43.226.72.0/22",
       "43.227.68.0/24",
@@ -20,7 +23,7 @@
       "111.170.232.0/23",
       "171.80.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:5c20:10::/48",
       "240e:105:f100::/40",
       "240e:108:1162::/48",

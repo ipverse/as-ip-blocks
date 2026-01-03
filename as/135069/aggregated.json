@@ -1,9 +1,12 @@
 {
-  "asn": 135069,
-  "handle": "FEENIX-AS-AP",
-  "description": "Feenix Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135069,
+  "metadata" : {
+    "handle" : "FEENIX-AS-AP",
+    "description" : "Feenix Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.110.164.0/22",
       "103.96.85.0/24",
       "103.208.140.0/22",
@@ -16,7 +19,7 @@
       "206.148.64.0/22",
       "223.26.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:4880::/32"
     ]
   }

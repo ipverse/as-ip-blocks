@@ -1,9 +1,12 @@
 {
-  "asn": 4750,
-  "handle": "CSLOXINFO-AS-AP",
-  "description": "CS Loxinfo Public Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4750,
+  "metadata" : {
+    "handle" : "CSLOXINFO-AS-AP",
+    "description" : "CS Loxinfo Public Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.254.2.0/23",
       "27.254.5.0/24",
       "27.254.7.0/24",
@@ -295,7 +298,7 @@
       "210.1.52.0/22",
       "210.1.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:b0::/32"
     ]
   }

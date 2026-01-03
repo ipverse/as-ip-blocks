@@ -1,12 +1,15 @@
 {
-  "asn": 400503,
-  "handle": "DAN-SMITH-LLC",
-  "description": "Dan Smith LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400503,
+  "metadata" : {
+    "handle" : "DAN-SMITH-LLC",
+    "description" : "Dan Smith LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.133.56.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fbb4::/43"
     ]
   }

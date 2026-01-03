@@ -1,9 +1,12 @@
 {
-  "asn": 16875,
-  "handle": "AS16875",
-  "description": "AON Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16875,
+  "metadata" : {
+    "handle" : "AS16875",
+    "description" : "AON Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.125.5.0/24",
       "165.125.6.0/24",
       "165.125.11.0/24",
@@ -23,6 +26,6 @@
       "165.125.216.0/23",
       "165.125.218.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 263348,
-  "handle": "DESEMPENHO-PROVEDOR-INTERNET",
-  "description": "DESEMPENHO PROVEDOR DE INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263348,
+  "metadata" : {
+    "handle" : "DESEMPENHO-PROVEDOR-INTERNET",
+    "description" : "DESEMPENHO PROVEDOR DE INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "191.37.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:14c0::/32"
     ]
   }

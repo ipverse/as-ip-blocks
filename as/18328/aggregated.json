@@ -1,9 +1,12 @@
 {
-  "asn": 18328,
-  "handle": "DOTNAME-AS",
-  "description": "Dotname Korea Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18328,
+  "metadata" : {
+    "handle" : "DOTNAME-AS",
+    "description" : "Dotname Korea Corp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.120.65.0/24",
       "45.120.66.0/24",
       "103.31.183.0/24",
@@ -13,6 +16,6 @@
       "210.87.202.0/24",
       "210.87.207.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

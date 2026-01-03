@@ -1,13 +1,16 @@
 {
-  "asn": 30835,
-  "handle": "STECCOM-AS",
-  "description": "STEC.COM LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30835,
+  "metadata" : {
+    "handle" : "STECCOM-AS",
+    "description" : "STEC.COM LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.114.0.0/19",
       "185.160.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:de00::/29"
     ]
   }

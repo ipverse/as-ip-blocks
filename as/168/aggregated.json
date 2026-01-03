@@ -1,10 +1,13 @@
 {
-  "asn": 168,
-  "handle": "UMASS-AMHERST",
-  "description": "University of Massachusetts - AMHERST",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 168,
+  "metadata" : {
+    "handle" : "UMASS-AMHERST",
+    "description" : "University of Massachusetts - AMHERST",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:48e8:1000::/40"
     ]
   }

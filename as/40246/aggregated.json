@@ -1,15 +1,18 @@
 {
-  "asn": 40246,
-  "handle": "NMSU",
-  "description": "New Mexico State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40246,
+  "metadata" : {
+    "handle" : "NMSU",
+    "description" : "New Mexico State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.123.0.0/16",
       "192.65.77.0/24",
       "192.67.132.0/23",
       "192.88.140.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:3800::/32"
     ]
   }

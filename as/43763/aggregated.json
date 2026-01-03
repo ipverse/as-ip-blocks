@@ -1,14 +1,17 @@
 {
-  "asn": 43763,
-  "handle": "HAUT-RHIN-TELECOM-AS",
-  "description": "Societe Francaise Du Radiotelephone - SFR SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43763,
+  "metadata" : {
+    "handle" : "HAUT-RHIN-TELECOM-AS",
+    "description" : "Societe Francaise Du Radiotelephone - SFR SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.132.32.0/19",
       "95.171.128.0/19",
       "213.176.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ba80::/32"
     ]
   }

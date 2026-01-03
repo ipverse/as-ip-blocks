@@ -1,11 +1,14 @@
 {
-  "asn": 32547,
-  "handle": "NYPR-1",
-  "description": "New York Public Radio",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32547,
+  "metadata" : {
+    "handle" : "NYPR-1",
+    "description" : "New York Public Radio",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.201.52.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

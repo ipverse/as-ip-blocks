@@ -1,14 +1,17 @@
 {
-  "asn": 17633,
-  "handle": "CHINATELECOM-SD-AS-AP",
-  "description": "ASN for Shandong Provincial Net of CT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17633,
+  "metadata" : {
+    "handle" : "CHINATELECOM-SD-AS-AP",
+    "description" : "ASN for Shandong Provincial Net of CT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.111.230.0/24",
       "202.111.247.0/24",
       "219.146.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:e:a800::/37",
       "240e:4e::/37"
     ]

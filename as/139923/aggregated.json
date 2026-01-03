@@ -1,9 +1,12 @@
 {
-  "asn": 139923,
-  "handle": "ABCCLOUDSDNBHD-AS-AP",
-  "description": "ABCCLOUD SDN.BHD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139923,
+  "metadata" : {
+    "handle" : "ABCCLOUDSDNBHD-AS-AP",
+    "description" : "ABCCLOUD SDN.BHD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.12.34.0/23",
       "38.12.37.0/24",
       "38.12.38.0/23",
@@ -19,6 +22,6 @@
       "156.235.104.0/22",
       "156.254.5.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

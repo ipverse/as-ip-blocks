@@ -1,9 +1,12 @@
 {
-  "asn": 6419,
-  "handle": "IDD",
-  "description": "IDD Enterprises LP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6419,
+  "metadata" : {
+    "handle" : "IDD",
+    "description" : "IDD Enterprises LP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "70.34.66.0/24",
       "147.249.35.0/24",
       "147.249.36.0/22",
@@ -50,6 +53,6 @@
       "192.88.56.0/21",
       "192.88.64.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

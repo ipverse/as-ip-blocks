@@ -1,12 +1,15 @@
 {
-  "asn": 42936,
-  "handle": "SPX",
-  "description": "SPX SIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42936,
+  "metadata" : {
+    "handle" : "SPX",
+    "description" : "SPX SIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.193.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:13c8::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 53850,
-  "handle": "GORILLASERVERS",
-  "description": "GorillaServers Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53850,
+  "metadata" : {
+    "handle" : "GORILLASERVERS",
+    "description" : "GorillaServers Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.83.144.0/24",
       "23.27.246.0/24",
       "23.29.64.0/20",
@@ -31,7 +34,7 @@
       "204.197.172.0/23",
       "206.162.244.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f797::/40",
       "2606:c700::/32"
     ]

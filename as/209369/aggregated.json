@@ -1,14 +1,17 @@
 {
-  "asn": 209369,
-  "handle": "TCPRO",
-  "description": "The Cloud Provider s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209369,
+  "metadata" : {
+    "handle" : "TCPRO",
+    "description" : "The Cloud Provider s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.78.90.0/24",
       "185.22.96.0/22",
       "213.134.21.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:5280::/29"
     ]
   }

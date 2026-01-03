@@ -1,15 +1,18 @@
 {
-  "asn": 23732,
-  "handle": "SAGILITY-AS-AP",
-  "description": "Sagility Philippines B.V. Branch Office",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23732,
+  "metadata" : {
+    "handle" : "SAGILITY-AS-AP",
+    "description" : "Sagility Philippines B.V. Branch Office",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.162.160.0/24",
       "202.162.163.0/24",
       "202.162.164.0/24",
       "202.162.168.0/23",
       "202.162.172.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 60481,
-  "handle": "GNTB",
-  "description": "Deutsche Zentrale fur Tourismus e.V. DZT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60481,
+  "metadata" : {
+    "handle" : "GNTB",
+    "description" : "Deutsche Zentrale fur Tourismus e.V. DZT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.78.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:173c::/48",
       "2a03:57e0::/32"
     ]

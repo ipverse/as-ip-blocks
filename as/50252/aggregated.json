@@ -1,12 +1,15 @@
 {
-  "asn": 50252,
-  "handle": "CAMERA-DEPUTATILOR",
-  "description": "Camera Deputatilor",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50252,
+  "metadata" : {
+    "handle" : "CAMERA-DEPUTATILOR",
+    "description" : "Camera Deputatilor",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.226.121.0/24",
       "194.102.140.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

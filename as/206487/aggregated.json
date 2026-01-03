@@ -1,9 +1,12 @@
 {
-  "asn": 206487,
-  "handle": "NETVOZ",
-  "description": "NEXVOLMAR S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206487,
+  "metadata" : {
+    "handle" : "NETVOZ",
+    "description" : "NEXVOLMAR S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.40.41.0/24",
       "5.40.80.0/23",
       "5.40.106.0/24",
@@ -25,7 +28,7 @@
       "185.176.183.0/24",
       "188.86.116.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:3780::/32"
     ]
   }

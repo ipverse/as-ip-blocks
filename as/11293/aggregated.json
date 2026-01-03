@@ -1,9 +1,12 @@
 {
-  "asn": 11293,
-  "handle": "UCOP-ASN",
-  "description": "University of California - Office of the President",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11293,
+  "metadata" : {
+    "handle" : "UCOP-ASN",
+    "description" : "University of California - Office of the President",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.48.0.0/18",
       "128.48.96.0/20",
       "128.48.128.0/21",
@@ -17,6 +20,6 @@
       "192.35.216.0/23",
       "192.35.218.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

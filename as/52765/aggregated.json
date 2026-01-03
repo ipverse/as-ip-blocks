@@ -1,13 +1,16 @@
 {
-  "asn": 52765,
-  "handle": "MAXXNET-TELECOM",
-  "description": "MAXXNET TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52765,
+  "metadata" : {
+    "handle" : "MAXXNET-TELECOM",
+    "description" : "MAXXNET TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.239.72.0/22",
       "177.39.120.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:b54::/32"
     ]
   }

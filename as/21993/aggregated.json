@@ -1,9 +1,12 @@
 {
-  "asn": 21993,
-  "handle": "SCHLAGE-AS",
-  "description": "Schlage Lock Company LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21993,
+  "metadata" : {
+    "handle" : "SCHLAGE-AS",
+    "description" : "Schlage Lock Company LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.97.4.0/22",
       "198.102.127.0/24",
       "198.102.130.0/23",
@@ -12,6 +15,6 @@
       "198.102.137.0/24",
       "198.102.138.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

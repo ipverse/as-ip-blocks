@@ -1,15 +1,18 @@
 {
-  "asn": 34066,
-  "handle": "TELAPPLIANT-AS",
-  "description": "Telappliant Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34066,
+  "metadata" : {
+    "handle" : "TELAPPLIANT-AS",
+    "description" : "Telappliant Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.240.48.0/20",
       "78.158.48.0/20",
       "185.158.56.0/22",
       "193.104.103.0/24",
       "193.104.131.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

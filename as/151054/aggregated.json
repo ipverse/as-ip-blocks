@@ -1,11 +1,14 @@
 {
-  "asn": 151054,
-  "handle": "WFC-AS-AP",
-  "description": "World Faith Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151054,
+  "metadata" : {
+    "handle" : "WFC-AS-AP",
+    "description" : "World Faith Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.121.184.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

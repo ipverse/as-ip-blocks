@@ -1,13 +1,16 @@
 {
-  "asn": 133475,
-  "handle": "NEWYORKUNIVERSITY-AS-SHANGHAI",
-  "description": "New York University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133475,
+  "metadata" : {
+    "handle" : "NEWYORKUNIVERSITY-AS-SHANGHAI",
+    "description" : "New York University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.242.128.0/24",
       "103.242.130.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:3f80:1400::/40"
     ]
   }

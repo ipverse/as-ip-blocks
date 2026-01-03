@@ -1,12 +1,15 @@
 {
-  "asn": 30362,
-  "handle": "HPT-ASN",
-  "description": "Hawaii Pacific Teleport LP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30362,
+  "metadata" : {
+    "handle" : "HPT-ASN",
+    "description" : "Hawaii Pacific Teleport LP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.43.224.0/20",
       "69.88.0.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

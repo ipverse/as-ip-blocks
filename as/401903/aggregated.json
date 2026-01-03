@@ -1,14 +1,17 @@
 {
-  "asn": 401903,
-  "handle": "CRIMSON-PACIFIC-NETWORKS",
-  "description": "Crimson Pacific Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401903,
+  "metadata" : {
+    "handle" : "CRIMSON-PACIFIC-NETWORKS",
+    "description" : "Crimson Pacific Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.143.196.0/24",
       "66.80.6.0/23",
       "143.20.150.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470:282::/48",
       "2602:81c:1000::/45",
       "2602:81c:1008::/46",

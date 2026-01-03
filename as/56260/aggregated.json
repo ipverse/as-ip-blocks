@@ -1,12 +1,15 @@
 {
-  "asn": 56260,
-  "handle": "PASCAL-AS-ID",
-  "description": "PT Pascal Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56260,
+  "metadata" : {
+    "handle" : "PASCAL-AS-ID",
+    "description" : "PT Pascal Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.11.106.0/24",
       "103.29.184.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

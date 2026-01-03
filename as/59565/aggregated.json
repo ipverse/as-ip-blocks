@@ -1,12 +1,15 @@
 {
-  "asn": 59565,
-  "handle": "CRONOS-AS",
-  "description": "Cronos Internet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59565,
+  "metadata" : {
+    "handle" : "CRONOS-AS",
+    "description" : "Cronos Internet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.174.168.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:d3c7::/32"
     ]
   }

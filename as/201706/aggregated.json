@@ -1,9 +1,12 @@
 {
-  "asn": 201706,
-  "handle": "AS-SERVICEPIPE",
-  "description": "SERVICEPIPE LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201706,
+  "metadata" : {
+    "handle" : "AS-SERVICEPIPE",
+    "description" : "SERVICEPIPE LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.206.127.0/24",
       "91.221.164.0/23",
       "109.238.88.0/24",
@@ -16,7 +19,7 @@
       "194.190.0.0/24",
       "212.67.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:4d00::/29"
     ]
   }

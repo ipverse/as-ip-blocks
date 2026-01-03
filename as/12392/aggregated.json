@@ -1,9 +1,12 @@
 {
-  "asn": 12392,
-  "handle": "ASVOO",
-  "description": "VOO S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12392,
+  "metadata" : {
+    "handle" : "ASVOO",
+    "description" : "VOO S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.197.64.0/18",
       "78.129.0.0/17",
       "82.212.128.0/18",
@@ -19,7 +22,7 @@
       "213.213.192.0/18",
       "217.15.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2788::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 272447,
-  "handle": "WORLD-FIBRA",
-  "description": "World Fibra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272447,
+  "metadata" : {
+    "handle" : "WORLD-FIBRA",
+    "description" : "World Fibra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.10.152.0/23",
       "38.191.94.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8154::/32"
     ]
   }

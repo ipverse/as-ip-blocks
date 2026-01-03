@@ -1,9 +1,12 @@
 {
-  "asn": 12042,
-  "handle": "ENVENTIS",
-  "description": "Fidium",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12042,
+  "metadata" : {
+    "handle" : "ENVENTIS",
+    "description" : "Fidium",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.21.232.0/21",
       "64.21.240.0/21",
       "64.21.248.0/24",
@@ -71,7 +74,7 @@
       "216.251.180.0/22",
       "216.251.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:7e00::/32",
       "2605:9400::/32"
     ]

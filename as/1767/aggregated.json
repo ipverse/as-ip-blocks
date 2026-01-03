@@ -1,9 +1,12 @@
 {
-  "asn": 1767,
-  "handle": "ILIGHT-NET",
-  "description": "Indiana Higher Education Telecommunication System (IHETS)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1767,
+  "metadata" : {
+    "handle" : "ILIGHT-NET",
+    "description" : "Indiana Higher Education Telecommunication System (IHETS)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.189.120.0/22",
       "152.228.0.0/19",
       "157.91.0.0/16",
@@ -17,7 +20,7 @@
       "199.8.0.0/16",
       "216.162.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:18e8:400::/40",
       "2620:48:8000::/48",
       "2620:77:e000::/48",

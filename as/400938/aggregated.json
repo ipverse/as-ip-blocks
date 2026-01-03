@@ -1,13 +1,16 @@
 {
-  "asn": 400938,
-  "handle": "HIGHLANDS-INTERNET",
-  "description": "Highlands Internet Services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400938,
+  "metadata" : {
+    "handle" : "HIGHLANDS-INTERNET",
+    "description" : "Highlands Internet Services Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.143.248.0/24",
       "74.120.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fad1::/36"
     ]
   }

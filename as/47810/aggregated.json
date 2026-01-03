@@ -1,9 +1,12 @@
 {
-  "asn": 47810,
-  "handle": "PROSERVICE",
-  "description": "Proservice LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47810,
+  "metadata" : {
+    "handle" : "PROSERVICE",
+    "description" : "Proservice LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.208.144.0/24",
       "91.212.213.0/24",
       "91.239.206.0/23",
@@ -11,7 +14,7 @@
       "185.163.202.0/23",
       "195.54.178.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:4400::/29"
     ]
   }

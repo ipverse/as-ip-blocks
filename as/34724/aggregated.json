@@ -1,9 +1,12 @@
 {
-  "asn": 34724,
-  "handle": "BAULINK-AS",
-  "description": "BAU NETWORKS DOO TORNJOS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34724,
+  "metadata" : {
+    "handle" : "BAULINK-AS",
+    "description" : "BAU NETWORKS DOO TORNJOS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.182.152.0/22",
       "95.214.204.0/22",
       "139.28.12.0/22",
@@ -11,6 +14,6 @@
       "185.68.60.0/22",
       "193.34.64.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

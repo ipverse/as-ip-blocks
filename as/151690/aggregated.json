@@ -1,9 +1,12 @@
 {
-  "asn": 151690,
-  "handle": "FAB1-AS-IN",
-  "description": "FAB FIVE NETWORK PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151690,
+  "metadata" : {
+    "handle" : "FAB1-AS-IN",
+    "description" : "FAB FIVE NETWORK PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.196.186.0/23",
       "43.228.166.0/23",
       "43.230.132.0/23",
@@ -23,7 +26,7 @@
       "160.191.124.0/23",
       "165.99.142.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:978:b00::/48",
       "2001:df2:23c0::/48",
       "2001:df2:9640::/48",

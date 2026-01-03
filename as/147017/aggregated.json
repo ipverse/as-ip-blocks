@@ -1,12 +1,15 @@
 {
-  "asn": 147017,
-  "handle": "NETTWOHOMEBD-AS-AP",
-  "description": "Net Two Home BD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147017,
+  "metadata" : {
+    "handle" : "NETTWOHOMEBD-AS-AP",
+    "description" : "Net Two Home BD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.173.2.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:8280::/48"
     ]
   }

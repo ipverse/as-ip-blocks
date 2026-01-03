@@ -1,9 +1,12 @@
 {
-  "asn": 15391,
-  "handle": "SYSCL1",
-  "description": "Sysclay Sp. z o. o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15391,
+  "metadata" : {
+    "handle" : "SYSCL1",
+    "description" : "Sysclay Sp. z o. o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.145.208.0/22",
       "45.146.44.0/22",
       "45.155.0.0/22",
@@ -12,7 +15,7 @@
       "193.22.240.0/23",
       "193.22.246.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:d8c0::/29",
       "2a06:83c0::/29",
       "2a0e:e1c0::/29",

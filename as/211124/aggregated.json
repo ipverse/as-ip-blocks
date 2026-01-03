@@ -1,9 +1,12 @@
 {
-  "asn": 211124,
-  "handle": "CGI-UK-AS",
-  "description": "CGI France SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211124,
+  "metadata" : {
+    "handle" : "CGI-UK-AS",
+    "description" : "CGI France SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.234.8.0/24",
       "158.234.15.0/24",
       "158.234.28.0/24",
@@ -23,6 +26,6 @@
       "163.164.224.0/22",
       "163.164.232.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

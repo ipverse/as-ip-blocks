@@ -1,9 +1,12 @@
 {
-  "asn": 34785,
-  "handle": "STW-AS",
-  "description": "Stadtwerke Klagenfurt AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34785,
+  "metadata" : {
+    "handle" : "STW-AS",
+    "description" : "Stadtwerke Klagenfurt AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.80.240.0/20",
       "185.72.136.0/24",
       "185.72.138.0/24",
@@ -14,7 +17,7 @@
       "193.228.120.0/23",
       "193.228.122.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:af80::/32"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 150118,
-  "handle": "TNODL-AS-AP",
-  "description": "TPNODL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150118,
+  "metadata" : {
+    "handle" : "TNODL-AS-AP",
+    "description" : "TPNODL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.191.19.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

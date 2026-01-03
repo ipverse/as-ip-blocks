@@ -1,12 +1,15 @@
 {
-  "asn": 264264,
-  "handle": "SAKKA-TELECOM",
-  "description": "SAKKA TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264264,
+  "metadata" : {
+    "handle" : "SAKKA-TELECOM",
+    "description" : "SAKKA TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.118.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:252c::/32"
     ]
   }

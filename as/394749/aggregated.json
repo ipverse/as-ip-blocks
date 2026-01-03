@@ -1,9 +1,12 @@
 {
-  "asn": 394749,
-  "handle": "EQUINIX-SOLUTION-VALIDATION-CENTER",
-  "description": "Equinix Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394749,
+  "metadata" : {
+    "handle" : "EQUINIX-SOLUTION-VALIDATION-CENTER",
+    "description" : "Equinix Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.191.192.0/24",
       "64.191.194.0/24",
       "64.191.201.0/24",
@@ -13,7 +16,7 @@
       "216.221.236.0/23",
       "216.221.238.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:b000:4015::/48",
       "2607:f6f0:3001::/48",
       "2607:f6f0:5001::/48",

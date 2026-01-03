@@ -1,13 +1,16 @@
 {
-  "asn": 398810,
-  "handle": "MXROUTE",
-  "description": "MXroute LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398810,
+  "metadata" : {
+    "handle" : "MXROUTE",
+    "description" : "MXroute LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.45.170.0/24",
       "136.175.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:34c0:1::/48"
     ]
   }

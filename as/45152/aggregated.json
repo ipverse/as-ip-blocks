@@ -1,9 +1,12 @@
 {
-  "asn": 45152,
-  "handle": "ZONENETWORKS-AS-AP",
-  "description": "Zone Networks Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45152,
+  "metadata" : {
+    "handle" : "ZONENETWORKS-AS-AP",
+    "description" : "Zone Networks Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.9.56.0/22",
       "103.210.148.0/22",
       "119.82.150.0/24",
@@ -12,6 +15,6 @@
       "122.252.13.0/24",
       "139.5.52.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

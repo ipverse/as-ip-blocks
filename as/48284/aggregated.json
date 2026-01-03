@@ -1,9 +1,12 @@
 {
-  "asn": 48284,
-  "handle": "TELENET-AS",
-  "description": "SWU TeleNet GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48284,
+  "metadata" : {
+    "handle" : "TELENET-AS",
+    "description" : "SWU TeleNet GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.199.176.0/21",
       "88.133.240.0/21",
       "94.125.72.0/21",
@@ -14,7 +17,7 @@
       "185.35.208.0/22",
       "212.237.168.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:778::/32"
     ]
   }

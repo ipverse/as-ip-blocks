@@ -1,13 +1,16 @@
 {
-  "asn": 202344,
-  "handle": "BASEALT",
-  "description": "LLC Basalt Svobodnoe Programnoe Obespechenie",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202344,
+  "metadata" : {
+    "handle" : "BASEALT",
+    "description" : "LLC Basalt Svobodnoe Programnoe Obespechenie",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.43.9.0/24",
       "193.43.10.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:88c0::/47",
       "2a0c:88c0:2::/48"
     ]

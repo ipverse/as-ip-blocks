@@ -1,9 +1,12 @@
 {
-  "asn": 33717,
-  "handle": "CHT-GLOBAL",
-  "description": "Chunghwa Telecom Global INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33717,
+  "metadata" : {
+    "handle" : "CHT-GLOBAL",
+    "description" : "Chunghwa Telecom Global INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.41.218.0/24",
       "64.95.220.0/24",
       "65.202.140.0/24",
@@ -16,6 +19,6 @@
       "208.70.205.0/24",
       "220.128.51.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

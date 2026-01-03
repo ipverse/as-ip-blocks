@@ -1,12 +1,15 @@
 {
-  "asn": 400798,
-  "handle": "PITIX-INFRA",
-  "description": "Pittsburgh Internet Exchange",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400798,
+  "metadata" : {
+    "handle" : "PITIX-INFRA",
+    "description" : "Pittsburgh Internet Exchange",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.143.152.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:faaa::/36"
     ]
   }

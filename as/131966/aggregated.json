@@ -1,12 +1,15 @@
 {
-  "asn": 131966,
-  "handle": "INET-NET",
-  "description": "I-NET CORP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131966,
+  "metadata" : {
+    "handle" : "INET-NET",
+    "description" : "I-NET CORP.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.141.94.0/23",
       "202.226.60.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

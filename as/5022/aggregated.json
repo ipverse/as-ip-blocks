@@ -1,12 +1,15 @@
 {
-  "asn": 5022,
-  "handle": "SSEMC",
-  "description": "Snapping Shoals Electric Membership Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5022,
+  "metadata" : {
+    "handle" : "SSEMC",
+    "description" : "Snapping Shoals Electric Membership Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.101.153.0/24",
       "72.19.23.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

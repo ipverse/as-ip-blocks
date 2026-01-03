@@ -1,9 +1,12 @@
 {
-  "asn": 136209,
-  "handle": "CYBERFORESTLLC-AS-AP",
-  "description": "CyberForest LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136209,
+  "metadata" : {
+    "handle" : "CYBERFORESTLLC-AS-AP",
+    "description" : "CyberForest LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.224.29.0/24",
       "43.227.112.0/22",
       "43.231.8.0/22",
@@ -32,6 +35,6 @@
       "202.124.249.0/24",
       "202.124.250.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

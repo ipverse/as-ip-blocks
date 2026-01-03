@@ -1,15 +1,18 @@
 {
-  "asn": 213549,
-  "handle": "SATISFYHOST",
-  "description": "SATISFYHOST LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213549,
+  "metadata" : {
+    "handle" : "SATISFYHOST",
+    "description" : "SATISFYHOST LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.14.22.0/24",
       "163.227.129.0/24",
       "165.99.164.0/23",
       "165.99.218.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:7581:9f43::/48",
       "2a14:7581:9f46::/48"
     ]

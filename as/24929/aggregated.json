@@ -1,9 +1,12 @@
 {
-  "asn": 24929,
-  "handle": "ITARTE",
-  "description": "IT arte Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24929,
+  "metadata" : {
+    "handle" : "ITARTE",
+    "description" : "IT arte Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.66.140.0/22",
       "77.79.237.0/24",
       "83.175.168.0/22",
@@ -13,7 +16,7 @@
       "195.144.9.0/24",
       "195.177.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:17a0::/48",
       "2a0e:84c0::/32"
     ]

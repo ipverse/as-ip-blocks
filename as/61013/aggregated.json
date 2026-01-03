@@ -1,14 +1,17 @@
 {
-  "asn": 61013,
-  "handle": "ALLIANDER-AS",
-  "description": "Alliander N.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61013,
+  "metadata" : {
+    "handle" : "ALLIANDER-AS",
+    "description" : "Alliander N.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.143.40.0/22",
       "194.53.160.0/22",
       "194.53.164.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2828::/48"
     ]
   }

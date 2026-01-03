@@ -1,9 +1,12 @@
 {
-  "asn": 60032,
-  "handle": "CORIOLIS-AS",
-  "description": "Coriolis Telecom SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60032,
+  "metadata" : {
+    "handle" : "CORIOLIS-AS",
+    "description" : "Coriolis Telecom SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.68.0/22",
       "2.59.72.0/22",
       "5.252.60.0/22",
@@ -38,7 +41,7 @@
       "194.182.112.0/20",
       "212.104.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:79e0::/32",
       "2a02:cfc0::/29",
       "2a06:4280::/29"

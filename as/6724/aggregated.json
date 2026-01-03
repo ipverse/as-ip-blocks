@@ -1,16 +1,19 @@
 {
-  "asn": 6724,
-  "handle": "STRATO",
-  "description": "Strato GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6724,
+  "metadata" : {
+    "handle" : "STRATO",
+    "description" : "Strato GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.169.128.0/17",
       "85.214.0.0/15",
       "192.67.198.0/24",
       "193.141.3.0/24",
       "194.45.97.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:238::/29"
     ]
   }

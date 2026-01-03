@@ -1,12 +1,15 @@
 {
-  "asn": 37460,
-  "handle": "ORANGE-CA",
-  "description": "Orange Centreafrique",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37460,
+  "metadata" : {
+    "handle" : "ORANGE-CA",
+    "description" : "Orange Centreafrique",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.223.184.0/22",
       "197.242.176.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

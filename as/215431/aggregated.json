@@ -1,12 +1,15 @@
 {
-  "asn": 215431,
-  "handle": "UNIKLINIKUMBONN",
-  "description": "Universitaetsklinikum Bonn",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215431,
+  "metadata" : {
+    "handle" : "UNIKLINIKUMBONN",
+    "description" : "Universitaetsklinikum Bonn",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.75.210.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:5480:287::/48"
     ]
   }

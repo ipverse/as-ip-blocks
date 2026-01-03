@@ -1,9 +1,12 @@
 {
-  "asn": 36086,
-  "handle": "TELX-LEGACY",
-  "description": "Telx",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36086,
+  "metadata" : {
+    "handle" : "TELX-LEGACY",
+    "description" : "Telx",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.34.60.0/24",
       "64.226.50.0/23",
       "67.23.48.0/20",
@@ -71,7 +74,7 @@
       "208.65.108.0/23",
       "208.65.111.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:812:8001::/48",
       "2607:fb58::/35",
       "2607:fb58:2000::/36",

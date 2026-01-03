@@ -1,12 +1,15 @@
 {
-  "asn": 271475,
-  "handle": "FOX-CONNECTA",
-  "description": "Fox Connecta",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271475,
+  "metadata" : {
+    "handle" : "FOX-CONNECTA",
+    "description" : "Fox Connecta",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.189.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7c18::/32"
     ]
   }

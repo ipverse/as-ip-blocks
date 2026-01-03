@@ -1,12 +1,15 @@
 {
-  "asn": 44753,
-  "handle": "BACHER-AS",
-  "description": "Bacher Systems EDV GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44753,
+  "metadata" : {
+    "handle" : "BACHER-AS",
+    "description" : "Bacher Systems EDV GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.164.38.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:190:15ef::/48"
     ]
   }

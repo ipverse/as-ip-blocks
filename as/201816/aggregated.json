@@ -1,13 +1,16 @@
 {
-  "asn": 201816,
-  "handle": "KALMAR-AS",
-  "description": "Region Kalmar Lan",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201816,
+  "metadata" : {
+    "handle" : "KALMAR-AS",
+    "description" : "Region Kalmar Lan",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.235.215.0/24",
       "193.235.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:678::/48"
     ]
   }

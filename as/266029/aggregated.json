@@ -1,12 +1,15 @@
 {
-  "asn": 266029,
-  "handle": "SBNET-TELECOM",
-  "description": "SBNET TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266029,
+  "metadata" : {
+    "handle" : "SBNET-TELECOM",
+    "description" : "SBNET TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.246.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3968::/32"
     ]
   }

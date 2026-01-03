@@ -1,14 +1,17 @@
 {
-  "asn": 214019,
-  "handle": "FLIXHOST-FRA4",
-  "description": "FlixHost GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214019,
+  "metadata" : {
+    "handle" : "FLIXHOST-FRA4",
+    "description" : "FlixHost GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.175.135.0/24",
       "79.174.3.0/24",
       "185.231.234.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:e3c3::/32"
     ]
   }

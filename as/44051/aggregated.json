@@ -1,9 +1,12 @@
 {
-  "asn": 44051,
-  "handle": "FORNEX-AS",
-  "description": "Fornex Hosting S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44051,
+  "metadata" : {
+    "handle" : "FORNEX-AS",
+    "description" : "Fornex Hosting S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.64.0/22",
       "5.187.0.0/21",
       "31.172.68.0/24",
@@ -28,7 +31,7 @@
       "212.224.112.0/23",
       "212.224.118.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:6b40::/32"
     ]
   }

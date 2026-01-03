@@ -1,13 +1,16 @@
 {
-  "asn": 38525,
-  "handle": "NETSOFT-AS-ID",
-  "description": "Netsoft PT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38525,
+  "metadata" : {
+    "handle" : "NETSOFT-AS-ID",
+    "description" : "Netsoft PT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.163.22.0/23",
       "118.91.224.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:d8c0::/32"
     ]
   }

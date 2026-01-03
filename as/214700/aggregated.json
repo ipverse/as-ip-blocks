@@ -1,12 +1,15 @@
 {
-  "asn": 214700,
-  "handle": "AS-JBODAG",
-  "description": "JBOD AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214700,
+  "metadata" : {
+    "handle" : "AS-JBODAG",
+    "description" : "JBOD AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.255.31.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:e0c0::/29"
     ]
   }

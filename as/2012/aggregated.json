@@ -1,12 +1,15 @@
 {
-  "asn": 2012,
-  "handle": "ELTENET",
-  "description": "ELTENET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2012,
+  "metadata" : {
+    "handle" : "ELTENET",
+    "description" : "ELTENET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.181.0.0/16",
       "192.153.18.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

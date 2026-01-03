@@ -1,9 +1,12 @@
 {
-  "asn": 196645,
-  "handle": "HOSTPRO-AS",
-  "description": "HOSTPRO LAB LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 196645,
+  "metadata" : {
+    "handle" : "HOSTPRO-AS",
+    "description" : "HOSTPRO LAB LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.223.223.0/24",
       "91.239.232.0/22",
       "185.67.1.0/24",
@@ -16,7 +19,7 @@
       "194.180.10.0/24",
       "195.191.24.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:b00::/29"
     ]
   }

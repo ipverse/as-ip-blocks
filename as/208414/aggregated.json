@@ -1,15 +1,18 @@
 {
-  "asn": 208414,
-  "handle": "WEDOS-GLOBAL",
-  "description": "WEDOS Internet a.s",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208414,
+  "metadata" : {
+    "handle" : "WEDOS-GLOBAL",
+    "description" : "WEDOS Internet a.s.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.138.104.0/22",
       "89.221.211.0/24",
       "185.8.236.0/22",
       "195.85.85.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:acc0::/47",
       "2a0e:acc0:2::/48",
       "2a0e:acc0:ac01::/48",

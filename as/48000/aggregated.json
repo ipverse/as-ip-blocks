@@ -1,14 +1,17 @@
 {
-  "asn": 48000,
-  "handle": "STREAM-TV-TAMBOV-AS",
-  "description": "MTS PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48000,
+  "metadata" : {
+    "handle" : "STREAM-TV-TAMBOV-AS",
+    "description" : "MTS PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.148.248.0/23",
       "77.93.124.0/22",
       "91.211.28.0/22",
       "213.176.248.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

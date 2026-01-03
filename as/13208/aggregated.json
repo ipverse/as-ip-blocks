@@ -1,9 +1,12 @@
 {
-  "asn": 13208,
-  "handle": "NEWTELSOLUTIONS-AS",
-  "description": "Newtel Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13208,
+  "metadata" : {
+    "handle" : "NEWTELSOLUTIONS-AS",
+    "description" : "Newtel Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.20.176.0/20",
       "185.57.212.0/22",
       "213.133.192.0/21",
@@ -17,6 +20,6 @@
       "213.133.220.0/23",
       "213.133.223.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

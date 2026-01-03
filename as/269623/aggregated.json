@@ -1,12 +1,15 @@
 {
-  "asn": 269623,
-  "handle": "VIA-CONNECT",
-  "description": "VIA CONNECT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269623,
+  "metadata" : {
+    "handle" : "VIA-CONNECT",
+    "description" : "VIA CONNECT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.190.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:675c::/32"
     ]
   }

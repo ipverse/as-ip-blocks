@@ -1,9 +1,12 @@
 {
-  "asn": 265525,
-  "handle": "TV-CABLE-GUADIANA",
-  "description": "TV CABLE DEL GUADIANA S.A DE C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265525,
+  "metadata" : {
+    "handle" : "TV-CABLE-GUADIANA",
+    "description" : "TV CABLE DEL GUADIANA S.A DE C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.19.33.0/24",
       "38.19.34.0/23",
       "38.19.36.0/24",
@@ -13,6 +16,6 @@
       "38.255.10.0/24",
       "170.80.240.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

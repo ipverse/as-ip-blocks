@@ -1,9 +1,12 @@
 {
-  "asn": 11352,
-  "handle": "IOMAR-11352",
-  "description": "Iomartcloud Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11352,
+  "metadata" : {
+    "handle" : "IOMAR-11352",
+    "description" : "Iomartcloud Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.187.27.0/24",
       "5.187.30.0/24",
       "74.117.184.0/22",
@@ -14,7 +17,7 @@
       "212.38.186.0/23",
       "212.84.186.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:f500::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 21193,
-  "handle": "XARXA-AS",
-  "description": "Centre de Telecomunicacions i Tecnologies de la Informacio de la Generalitat de Catalunya",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21193,
+  "metadata" : {
+    "handle" : "XARXA-AS",
+    "description" : "Centre de Telecomunicacions i Tecnologies de la Informacio de la Generalitat de Catalunya",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.192.64.0/18",
       "213.176.160.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

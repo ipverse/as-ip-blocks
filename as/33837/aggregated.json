@@ -1,12 +1,15 @@
 {
-  "asn": 33837,
-  "handle": "PRQ-AS",
-  "description": "Fredrik Holmqvist",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33837,
+  "metadata" : {
+    "handle" : "PRQ-AS",
+    "description" : "Fredrik Holmqvist",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.80.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:16b0::/32"
     ]
   }

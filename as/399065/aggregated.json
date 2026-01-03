@@ -1,9 +1,12 @@
 {
-  "asn": 399065,
-  "handle": "DEFASTLINK",
-  "description": "Dixie EPA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399065,
+  "metadata" : {
+    "handle" : "DEFASTLINK",
+    "description" : "Dixie EPA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.21.0.0/21",
       "162.33.192.0/22",
       "167.224.0.0/21",
@@ -14,7 +17,7 @@
       "216.198.108.0/24",
       "216.205.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fce7:4000::/36",
       "2602:fce7:8000::/36"
     ]

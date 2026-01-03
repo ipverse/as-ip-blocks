@@ -1,12 +1,15 @@
 {
-  "asn": 33171,
-  "handle": "STADTFUNK",
-  "description": "Stadtfunk gGmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33171,
+  "metadata" : {
+    "handle" : "STADTFUNK",
+    "description" : "Stadtfunk gGmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.217.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:7347::/32"
     ]
   }

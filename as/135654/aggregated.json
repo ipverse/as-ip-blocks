@@ -1,12 +1,15 @@
 {
-  "asn": 135654,
-  "handle": "IHL-AS-AP",
-  "description": "Internet @ Home Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135654,
+  "metadata" : {
+    "handle" : "IHL-AS-AP",
+    "description" : "Internet @ Home Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.78.52.0/22",
       "103.137.228.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

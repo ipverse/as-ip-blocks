@@ -1,9 +1,12 @@
 {
-  "asn": 23352,
-  "handle": "SERVERCENTRAL",
-  "description": "DEFT.COM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23352,
+  "metadata" : {
+    "handle" : "SERVERCENTRAL",
+    "description" : "DEFT.COM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.31.128.0/17",
       "64.202.96.0/19",
       "66.225.192.0/18",
@@ -30,7 +33,7 @@
       "208.93.64.0/21",
       "216.246.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1838::/32",
       "2602:f923::/36",
       "2607:4440::/48",

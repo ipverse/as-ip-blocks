@@ -1,12 +1,15 @@
 {
-  "asn": 267407,
-  "handle": "ELETELNET-TELECOM",
-  "description": "EletelNET Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267407,
+  "metadata" : {
+    "handle" : "ELETELNET-TELECOM",
+    "description" : "EletelNET Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.235.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4d04::/32"
     ]
   }

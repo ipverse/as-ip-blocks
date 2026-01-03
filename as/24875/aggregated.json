@@ -1,9 +1,12 @@
 {
-  "asn": 24875,
-  "handle": "NOVOSERVE-AS",
-  "description": "NovoServe B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24875,
+  "metadata" : {
+    "handle" : "NOVOSERVE-AS",
+    "description" : "NovoServe B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.21.0/24",
       "46.182.108.0/24",
       "80.89.224.0/20",
@@ -12,7 +15,7 @@
       "185.147.13.0/24",
       "185.147.14.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:968::/29",
       "2a00:11f8::/29"
     ]

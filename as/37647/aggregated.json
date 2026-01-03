@@ -1,12 +1,15 @@
 {
-  "asn": 37647,
-  "handle": "BLUECLOUD-AS",
-  "description": "Blue Cloud Networks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37647,
+  "metadata" : {
+    "handle" : "BLUECLOUD-AS",
+    "description" : "Blue Cloud Networks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "196.11.90.0/24",
       "196.50.24.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

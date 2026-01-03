@@ -1,12 +1,15 @@
 {
-  "asn": 258,
-  "handle": "BRAGGSRI-EGP-AS",
-  "description": "Headquarters USAISC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 258,
+  "metadata" : {
+    "handle" : "BRAGGSRI-EGP-AS",
+    "description" : "Headquarters USAISC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.241.4.0/24",
       "139.242.5.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

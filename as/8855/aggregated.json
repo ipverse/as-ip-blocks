@@ -1,9 +1,12 @@
 {
-  "asn": 8855,
-  "handle": "ASN-PROMO",
-  "description": "OPIQUAD S.P.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8855,
+  "metadata" : {
+    "handle" : "ASN-PROMO",
+    "description" : "OPIQUAD S.P.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.135.208.0/24",
       "212.78.0.0/24",
       "212.78.2.0/23",
@@ -14,6 +17,6 @@
       "212.78.26.0/24",
       "212.78.28.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

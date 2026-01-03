@@ -1,9 +1,12 @@
 {
-  "asn": 397086,
-  "handle": "VAULT-HOST-HOUSTON",
-  "description": "Vault Host",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397086,
+  "metadata" : {
+    "handle" : "VAULT-HOST-HOUSTON",
+    "description" : "Vault Host",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.228.83.0/24",
       "23.228.92.0/24",
       "23.228.108.0/24",
@@ -13,7 +16,7 @@
       "195.8.117.0/24",
       "199.10.64.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1388::/48",
       "2401:fb40::/32",
       "2406:2580::/32"

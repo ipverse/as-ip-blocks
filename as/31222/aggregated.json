@@ -1,14 +1,17 @@
 {
-  "asn": 31222,
-  "handle": "ASN-TERRA",
-  "description": "Mewecom Italia spa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31222,
+  "metadata" : {
+    "handle" : "ASN-TERRA",
+    "description" : "Mewecom Italia spa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.147.64.0/18",
       "185.156.240.0/22",
       "217.72.40.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:7320::/32"
     ]
   }

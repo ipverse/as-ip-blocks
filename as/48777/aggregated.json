@@ -1,13 +1,16 @@
 {
-  "asn": 48777,
-  "handle": "AMPR-AS",
-  "description": "DARC e.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48777,
+  "metadata" : {
+    "handle" : "AMPR-AS",
+    "description" : "DARC e.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.31.0.0/22",
       "192.68.17.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:4587:2020::/48"
     ]
   }

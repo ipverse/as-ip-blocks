@@ -1,9 +1,12 @@
 {
-  "asn": 28964,
-  "handle": "ORIONTELEKOMTIM-AS",
-  "description": "Orion Telekom Tim d.o.o.Beograd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28964,
+  "metadata" : {
+    "handle" : "ORIONTELEKOMTIM-AS",
+    "description" : "Orion Telekom Tim d.o.o.Beograd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.172.32.0/24",
       "77.105.8.0/24",
       "77.105.39.0/24",
@@ -45,6 +48,6 @@
       "212.69.21.0/24",
       "212.69.30.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

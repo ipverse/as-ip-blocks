@@ -1,9 +1,12 @@
 {
-  "asn": 15035,
-  "handle": "X2NSAT-SVN",
-  "description": "X2nSat Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15035,
+  "metadata" : {
+    "handle" : "X2NSAT-SVN",
+    "description" : "X2nSat Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.40.160.0/20",
       "104.171.96.0/21",
       "104.171.104.0/22",
@@ -16,6 +19,6 @@
       "216.245.246.0/24",
       "216.245.252.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

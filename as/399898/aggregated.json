@@ -1,9 +1,12 @@
 {
-  "asn": 399898,
-  "handle": "CONEXON-CONNECT",
-  "description": "Conexon Connect",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399898,
+  "metadata" : {
+    "handle" : "CONEXON-CONNECT",
+    "description" : "Conexon Connect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.7.152.0/22",
       "38.40.0.0/18",
       "38.51.144.0/22",
@@ -15,7 +18,7 @@
       "170.62.48.0/20",
       "206.225.31.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2601:b000::/24",
       "2607:9740::/32"
     ]

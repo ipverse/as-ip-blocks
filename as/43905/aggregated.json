@@ -1,9 +1,12 @@
 {
-  "asn": 43905,
-  "handle": "SPN-AS",
-  "description": "SPACE NORWAY SATCOM AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43905,
+  "metadata" : {
+    "handle" : "SPN-AS",
+    "description" : "SPACE NORWAY SATCOM AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.22.236.0/22",
       "24.142.99.0/24",
       "80.77.184.0/24",
@@ -17,6 +20,6 @@
       "217.173.61.0/24",
       "217.173.62.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

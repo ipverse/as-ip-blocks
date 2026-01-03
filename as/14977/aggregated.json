@@ -1,9 +1,12 @@
 {
-  "asn": 14977,
-  "handle": "STATE-OF-WYOMING-ASN",
-  "description": "State of Wyoming Department A\u0026I",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14977,
+  "metadata" : {
+    "handle" : "STATE-OF-WYOMING-ASN",
+    "description" : "State of Wyoming Department A&I",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.207.112.0/20",
       "137.84.0.0/14",
       "137.88.0.0/15",
@@ -16,7 +19,7 @@
       "192.206.115.0/24",
       "198.99.171.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:31:4000::/40"
     ]
   }

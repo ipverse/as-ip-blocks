@@ -1,12 +1,15 @@
 {
-  "asn": 62474,
-  "handle": "EWEB",
-  "description": "Eugene Water and Electric Board",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62474,
+  "metadata" : {
+    "handle" : "EWEB",
+    "description" : "Eugene Water and Electric Board",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.98.8.0/22",
       "198.98.12.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

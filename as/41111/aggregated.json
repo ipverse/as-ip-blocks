@@ -1,9 +1,12 @@
 {
-  "asn": 41111,
-  "handle": "AS-GEOHOSTING",
-  "description": "FAST GEO HOSTING S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41111,
+  "metadata" : {
+    "handle" : "AS-GEOHOSTING",
+    "description" : "FAST GEO HOSTING S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.180.20.0/23",
       "5.180.27.0/24",
       "5.180.40.0/24",
@@ -39,7 +42,7 @@
       "194.76.154.0/23",
       "194.124.250.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:cd41::/45",
       "2a0b:cd41:8::/47",
       "2a0b:cd41:10::/45",

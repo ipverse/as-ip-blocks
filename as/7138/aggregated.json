@@ -1,9 +1,12 @@
 {
-  "asn": 7138,
-  "handle": "ENCOMPASS-ASN",
-  "description": "Encompass Digital Media Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7138,
+  "metadata" : {
+    "handle" : "ENCOMPASS-ASN",
+    "description" : "Encompass Digital Media Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.46.128.0/20",
       "69.46.150.0/24",
       "69.46.153.0/24",
@@ -11,7 +14,7 @@
       "69.46.156.0/22",
       "185.14.85.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:2680:a000::/48"
     ]
   }

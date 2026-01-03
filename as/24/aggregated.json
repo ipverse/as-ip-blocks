@@ -1,11 +1,14 @@
 {
-  "asn": 24,
-  "handle": "AS24",
-  "description": "National Aeronautics and Space Administration",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24,
+  "metadata" : {
+    "handle" : "AS24",
+    "description" : "National Aeronautics and Space Administration",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.10.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

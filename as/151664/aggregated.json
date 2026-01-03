@@ -1,13 +1,16 @@
 {
-  "asn": 151664,
-  "handle": "DCCONNECTSDNBHD-AS-AP",
-  "description": "DCConnect Sdn. Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151664,
+  "metadata" : {
+    "handle" : "DCCONNECTSDNBHD-AS-AP",
+    "description" : "DCConnect Sdn. Bhd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "101.1.5.0/24",
       "103.253.100.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:d040::/48",
       "2401:44c0:4::/48"
     ]

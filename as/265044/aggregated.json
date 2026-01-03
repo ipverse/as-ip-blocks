@@ -1,12 +1,15 @@
 {
-  "asn": 265044,
-  "handle": "MY-INTERNET",
-  "description": "MY INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265044,
+  "metadata" : {
+    "handle" : "MY-INTERNET",
+    "description" : "MY INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.150.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:31e8::/32"
     ]
   }

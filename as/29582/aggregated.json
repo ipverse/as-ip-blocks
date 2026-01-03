@@ -1,9 +1,12 @@
 {
-  "asn": 29582,
-  "handle": "SATCOM-AS",
-  "description": "Optisprint OOD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29582,
+  "metadata" : {
+    "handle" : "SATCOM-AS",
+    "description" : "Optisprint OOD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.76.3.0/24",
       "78.142.22.0/23",
       "80.95.19.0/24",
@@ -14,7 +17,7 @@
       "185.114.180.0/22",
       "212.233.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:6f40::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 55095,
-  "handle": "AS-NFLXCORP",
-  "description": "Netflix Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55095,
+  "metadata" : {
+    "handle" : "AS-NFLXCORP",
+    "description" : "Netflix Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.173.88.0/24",
       "192.173.99.0/24",
       "192.173.100.0/24",
@@ -12,7 +15,7 @@
       "192.173.112.0/24",
       "192.173.114.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fb10:2033::/48",
       "2607:fb10:2034::/48",
       "2607:fb10:2042::/48",

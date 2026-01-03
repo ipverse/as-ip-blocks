@@ -1,10 +1,13 @@
 {
-  "asn": 200992,
-  "handle": "DWIM-AS",
-  "description": "Carlos Martin Nieto",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 200992,
+  "metadata" : {
+    "handle" : "DWIM-AS",
+    "description" : "Carlos Martin Nieto",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0a:6040:f601::/48"
     ]
   }

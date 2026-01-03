@@ -1,15 +1,18 @@
 {
-  "asn": 27632,
-  "handle": "TRACTORSUPPLY",
-  "description": "Tractor Supply Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27632,
+  "metadata" : {
+    "handle" : "TRACTORSUPPLY",
+    "description" : "Tractor Supply Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.35.48.0/24",
       "146.88.151.0/24",
       "198.140.189.0/24",
       "199.181.220.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:2bc0::/32",
       "2620:126:5040::/47"
     ]

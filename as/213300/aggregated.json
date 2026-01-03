@@ -1,12 +1,15 @@
 {
-  "asn": 213300,
-  "handle": "ACCOMPIO-SMARTEC-AS",
-  "description": "accompio SmarTec GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213300,
+  "metadata" : {
+    "handle" : "ACCOMPIO-SMARTEC-AS",
+    "description" : "accompio SmarTec GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.170.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:4040::/29"
     ]
   }

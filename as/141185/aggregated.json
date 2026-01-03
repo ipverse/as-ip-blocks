@@ -1,11 +1,14 @@
 {
-  "asn": 141185,
-  "handle": "ASA1-AS-AP",
-  "description": "ASA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141185,
+  "metadata" : {
+    "handle" : "ASA1-AS-AP",
+    "description" : "ASA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.155.252.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

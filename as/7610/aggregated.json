@@ -1,12 +1,15 @@
 {
-  "asn": 7610,
-  "handle": "NUS-GP-AS-AP",
-  "description": "National University of Singapore",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7610,
+  "metadata" : {
+    "handle" : "NUS-GP-AS-AP",
+    "description" : "National University of Singapore",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.51.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:400::/32"
     ]
   }

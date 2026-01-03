@@ -1,15 +1,18 @@
 {
-  "asn": 23596,
-  "handle": "EDNSKR",
-  "description": "Korea Internet Security Agency",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23596,
+  "metadata" : {
+    "handle" : "EDNSKR",
+    "description" : "Korea Internet Security Agency",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.18.127.0/24",
       "1.18.128.0/23",
       "1.18.130.0/24",
       "202.30.124.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:dcc:5::/48",
       "2001:dcc:500::/47",
       "2001:dcc:502::/48"

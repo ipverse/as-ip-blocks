@@ -1,13 +1,16 @@
 {
-  "asn": 4224,
-  "handle": "CALYX-AS",
-  "description": "The Calyx Institute",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4224,
+  "metadata" : {
+    "handle" : "CALYX-AS",
+    "description" : "The Calyx Institute",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.247.72.0/24",
       "185.220.103.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fef9:100::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 18051,
-  "handle": "JARDIKNAS-AS-AP",
-  "description": "Departemen Pendidikan Nasional",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18051,
+  "metadata" : {
+    "handle" : "JARDIKNAS-AS-AP",
+    "description" : "Departemen Pendidikan Nasional",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "118.98.128.0/23",
       "118.98.166.0/24",
       "118.98.177.0/24",
@@ -20,7 +23,7 @@
       "118.98.240.0/23",
       "118.98.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:7100::/32"
     ]
   }

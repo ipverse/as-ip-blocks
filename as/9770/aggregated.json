@@ -1,9 +1,12 @@
 {
-  "asn": 9770,
-  "handle": "SPEEDONSTV-AS",
-  "description": "LG HelloVision Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9770,
+  "metadata" : {
+    "handle" : "SPEEDONSTV-AS",
+    "description" : "LG HelloVision Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.11.49.0/24",
       "1.11.50.0/23",
       "1.11.52.0/22",
@@ -65,6 +68,6 @@
       "211.173.84.0/22",
       "211.173.108.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

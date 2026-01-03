@@ -1,9 +1,12 @@
 {
-  "asn": 31257,
-  "handle": "ORIONNET-KRK",
-  "description": "Orion Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31257,
+  "metadata" : {
+    "handle" : "ORIONNET-KRK",
+    "description" : "Orion Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.65.16.0/20",
       "81.25.76.0/22",
       "86.62.6.0/24",
@@ -24,7 +27,7 @@
       "213.110.224.0/22",
       "213.110.228.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:7400::/34"
     ]
   }

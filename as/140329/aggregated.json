@@ -1,14 +1,17 @@
 {
-  "asn": 140329,
-  "handle": "CHINATELECOM-FUJIAN-FUZHOU-5G-NETWORK",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140329,
+  "metadata" : {
+    "handle" : "CHINATELECOM-FUJIAN-FUZHOU-5G-NETWORK",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.154.8.0/24",
       "202.111.241.0/24",
       "202.111.246.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:14::/36",
       "240e:14:8000::/36",
       "240e:54:8000::/33",

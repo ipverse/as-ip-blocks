@@ -1,12 +1,15 @@
 {
-  "asn": 198668,
-  "handle": "TLAPNET",
-  "description": "Tlapnet s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198668,
+  "metadata" : {
+    "handle" : "TLAPNET",
+    "description" : "Tlapnet s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.255.88.0/22",
       "185.64.222.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

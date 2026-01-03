@@ -1,9 +1,12 @@
 {
-  "asn": 197695,
-  "handle": "AS-REGRU",
-  "description": "Domain names registrar REG.RU Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197695,
+  "metadata" : {
+    "handle" : "AS-REGRU",
+    "description" : "Domain names registrar REG.RU Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.63.152.0/21",
       "31.31.192.0/20",
       "37.140.192.0/21",
@@ -112,7 +115,7 @@
       "217.23.148.0/24",
       "217.23.150.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1b48::/32",
       "2a00:f940:1::/48",
       "2a00:f940:2::/47",

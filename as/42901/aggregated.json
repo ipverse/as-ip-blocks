@@ -1,11 +1,14 @@
 {
-  "asn": 42901,
-  "handle": "SIRENATRAVEL2-AS",
-  "description": "Sirena Travel AO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42901,
+  "metadata" : {
+    "handle" : "SIRENATRAVEL2-AS",
+    "description" : "Sirena Travel AO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.90.241.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

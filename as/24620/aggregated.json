@@ -1,9 +1,12 @@
 {
-  "asn": 24620,
-  "handle": "RTU",
-  "description": "Rigas Tehniska Universitate",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24620,
+  "metadata" : {
+    "handle" : "RTU",
+    "description" : "Rigas Tehniska Universitate",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.154.128.0/20",
       "84.237.212.0/24",
       "85.254.214.0/23",
@@ -13,7 +16,7 @@
       "213.175.85.0/24",
       "213.175.88.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:958::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 46558,
-  "handle": "SUN-DSEO",
-  "description": "Oracle Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46558,
+  "metadata" : {
+    "handle" : "SUN-DSEO",
+    "description" : "Oracle Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.181.129.0/24",
       "129.145.8.0/22",
       "129.145.48.0/23",
@@ -24,7 +27,7 @@
       "149.130.144.0/21",
       "150.230.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:9b80::/40",
       "2607:9b80:400::/39",
       "2607:9b80:800::/40",

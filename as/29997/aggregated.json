@@ -1,15 +1,18 @@
 {
-  "asn": 29997,
-  "handle": "VITAL-DNS",
-  "description": "Vitalwerks Internet Solutions LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29997,
+  "metadata" : {
+    "handle" : "VITAL-DNS",
+    "description" : "Vitalwerks Internet Solutions LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.54.64.0/24",
       "194.62.180.0/22",
       "204.16.253.0/24",
       "204.16.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f740:e626::/48",
       "2620:0:2e61::/48",
       "2620:0:2e64::/48",

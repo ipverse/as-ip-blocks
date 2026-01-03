@@ -1,14 +1,17 @@
 {
-  "asn": 41491,
-  "handle": "STAKA-AS",
-  "description": "Stadtwerke Kapfenberg GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41491,
+  "metadata" : {
+    "handle" : "STAKA-AS",
+    "description" : "Stadtwerke Kapfenberg GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.44.208.0/21",
       "81.28.128.0/20",
       "85.238.160.0/19",
       "185.125.208.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

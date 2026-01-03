@@ -1,9 +1,12 @@
 {
-  "asn": 134375,
-  "handle": "FWSPL-AS-AP",
-  "description": "Fusionnet Web Services Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134375,
+  "metadata" : {
+    "handle" : "FWSPL-AS-AP",
+    "description" : "Fusionnet Web Services Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.230.64.0/22",
       "45.122.120.0/22",
       "45.251.48.0/22",
@@ -22,7 +25,7 @@
       "203.145.56.0/23",
       "203.189.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:8a80::/32"
     ]
   }

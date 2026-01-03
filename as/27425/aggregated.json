@@ -1,9 +1,12 @@
 {
-  "asn": 27425,
-  "handle": "ASN-IDK-27425",
-  "description": "IdeaTek Telcom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27425,
+  "metadata" : {
+    "handle" : "ASN-IDK-27425",
+    "description" : "IdeaTek Telcom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.7.92.0/23",
       "8.35.114.0/23",
       "8.41.16.0/21",
@@ -23,7 +26,7 @@
       "209.137.192.0/19",
       "213.170.146.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:ce00::/32",
       "2606:2600::/28"
     ]

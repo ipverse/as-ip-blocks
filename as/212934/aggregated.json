@@ -1,14 +1,17 @@
 {
-  "asn": 212934,
-  "handle": "ACCURIS-TECHNOLOGIES",
-  "description": "Accuris Technologies Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212934,
+  "metadata" : {
+    "handle" : "ACCURIS-TECHNOLOGIES",
+    "description" : "Accuris Technologies Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.130.137.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fcd3:8::/48",
-      "2602:fcd3:c::/47",
+      "2602:fcd3:c::/48",
       "2602:fcd3:100::/48"
     ]
   }

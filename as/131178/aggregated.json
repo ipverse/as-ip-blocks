@@ -1,9 +1,12 @@
 {
-  "asn": 131178,
-  "handle": "EZECOM-AS-AP",
-  "description": "EZECOM CO. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131178,
+  "metadata" : {
+    "handle" : "EZECOM-AS-AP",
+    "description" : "EZECOM CO. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.252.16.0/22",
       "45.201.128.0/21",
       "45.201.136.0/22",
@@ -21,7 +24,7 @@
       "103.12.160.0/22",
       "202.58.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:4880::/32"
     ]
   }

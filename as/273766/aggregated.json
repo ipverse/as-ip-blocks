@@ -1,10 +1,13 @@
 {
-  "asn": 273766,
-  "handle": "RURAL-TELECOM",
-  "description": "Rural Telecom",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 273766,
+  "metadata" : {
+    "handle" : "RURAL-TELECOM",
+    "description" : "Rural Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2804:8be4::/32"
     ]
   }

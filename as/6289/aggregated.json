@@ -1,9 +1,12 @@
 {
-  "asn": 6289,
-  "handle": "AHM-CORP",
-  "description": "American Honda Motor Company Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6289,
+  "metadata" : {
+    "handle" : "AHM-CORP",
+    "description" : "American Honda Motor Company Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.108.0.0/16",
       "198.51.250.0/24",
       "198.178.216.0/24",
@@ -11,6 +14,6 @@
       "208.72.4.0/24",
       "208.72.6.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

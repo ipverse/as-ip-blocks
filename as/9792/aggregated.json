@@ -1,15 +1,18 @@
 {
-  "asn": 9792,
-  "handle": "CORINTHIAN-AS-AP",
-  "description": "Corinthian Engineering Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9792,
+  "metadata" : {
+    "handle" : "CORINTHIAN-AS-AP",
+    "description" : "Corinthian Engineering Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.65.182.0/24",
       "192.160.169.0/24",
       "192.160.170.0/24",
       "198.22.61.0/24",
       "203.1.240.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

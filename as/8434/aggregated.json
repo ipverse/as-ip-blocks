@@ -1,9 +1,12 @@
 {
-  "asn": 8434,
-  "handle": "TELENOR-SE",
-  "description": "Telenor Sverige AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8434,
+  "metadata" : {
+    "handle" : "TELENOR-SE",
+    "description" : "Telenor Sverige AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.194.0.0/15",
       "62.13.0.0/17",
       "62.65.64.0/18",
@@ -81,7 +84,7 @@
       "217.71.119.0/24",
       "217.174.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:153c::/48",
       "2001:67c:2f50::/48",
       "2001:1400:ffef::/48",

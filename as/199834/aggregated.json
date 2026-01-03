@@ -1,15 +1,18 @@
 {
-  "asn": 199834,
-  "handle": "IPSOLUS",
-  "description": "IP Solus Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199834,
+  "metadata" : {
+    "handle" : "IPSOLUS",
+    "description" : "IP Solus Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.80.32.0/24",
       "185.141.26.0/24",
       "185.188.31.0/24",
       "193.37.42.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:37c0::/29"
     ]
   }

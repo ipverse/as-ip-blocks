@@ -1,9 +1,12 @@
 {
-  "asn": 57168,
-  "handle": "ICH-AS",
-  "description": "Amito Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57168,
+  "metadata" : {
+    "handle" : "ICH-AS",
+    "description" : "Amito Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.44.232.0/22",
       "5.44.236.0/24",
       "5.44.238.0/24",
@@ -19,6 +22,6 @@
       "185.96.64.0/22",
       "185.210.161.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

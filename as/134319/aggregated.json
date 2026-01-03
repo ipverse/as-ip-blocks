@@ -1,9 +1,12 @@
 {
-  "asn": 134319,
-  "handle": "ELYZIUM-AS",
-  "description": "Elyzium Technologies Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134319,
+  "metadata" : {
+    "handle" : "ELYZIUM-AS",
+    "description" : "Elyzium Technologies Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.75.32.0/22",
       "103.83.132.0/23",
       "103.106.192.0/22",
@@ -13,7 +16,7 @@
       "103.206.128.0/22",
       "163.61.232.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:4480::/48"
     ]
   }

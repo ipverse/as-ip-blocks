@@ -1,12 +1,15 @@
 {
-  "asn": 265147,
-  "handle": "UP-FIBRA",
-  "description": "UP Fibra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265147,
+  "metadata" : {
+    "handle" : "UP-FIBRA",
+    "description" : "UP Fibra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.255.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2b54::/32"
     ]
   }

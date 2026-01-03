@@ -1,9 +1,12 @@
 {
-  "asn": 201776,
-  "handle": "MIRANDA-AS",
-  "description": "Miranda-Media Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201776,
+  "metadata" : {
+    "handle" : "MIRANDA-AS",
+    "description" : "Miranda-Media Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.51.0/24",
       "2.63.144.0/20",
       "2.63.176.0/20",
@@ -62,7 +65,7 @@
       "193.148.52.0/22",
       "217.197.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:f800::/29"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 269525,
-  "handle": "ISP2-TELECOM",
-  "description": "ISP2 Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269525,
+  "metadata" : {
+    "handle" : "ISP2-TELECOM",
+    "description" : "ISP2 Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.187.250.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:65f8::/32"
     ]
   }

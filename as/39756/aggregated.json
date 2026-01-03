@@ -1,9 +1,12 @@
 {
-  "asn": 39756,
-  "handle": "ROHOSTWAY-AS",
-  "description": "EASYHOST SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39756,
+  "metadata" : {
+    "handle" : "ROHOSTWAY-AS",
+    "description" : "EASYHOST SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.102.248.0/24",
       "89.33.207.0/24",
       "89.36.24.0/21",
@@ -16,6 +19,6 @@
       "193.223.101.0/24",
       "194.126.253.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

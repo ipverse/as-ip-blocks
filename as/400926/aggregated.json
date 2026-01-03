@@ -1,12 +1,15 @@
 {
-  "asn": 400926,
-  "handle": "KIWI-TELECOM-01",
-  "description": "KIWI TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400926,
+  "metadata" : {
+    "handle" : "KIWI-TELECOM-01",
+    "description" : "KIWI TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.189.152.0/24",
       "192.12.250.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

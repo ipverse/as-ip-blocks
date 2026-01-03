@@ -1,9 +1,12 @@
 {
-  "asn": 19124,
-  "handle": "ASCENSION-WHEATON",
-  "description": "Ascension Technologies",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19124,
+  "metadata" : {
+    "handle" : "ASCENSION-WHEATON",
+    "description" : "Ascension Technologies",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.250.65.0/24",
       "199.250.66.0/23",
       "199.250.68.0/23",
@@ -12,6 +15,6 @@
       "199.250.96.0/22",
       "199.250.100.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

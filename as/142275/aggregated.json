@@ -1,13 +1,16 @@
 {
-  "asn": 142275,
-  "handle": "INCUBATECSRL-AS-AP",
-  "description": "INCUBATEC Srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142275,
+  "metadata" : {
+    "handle" : "INCUBATECSRL-AS-AP",
+    "description" : "INCUBATEC Srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.33.15.0/24",
       "103.167.82.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:6640::/40",
       "2a0c:8fc1:8000::/40"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 56607,
-  "handle": "CHABANOV-AS",
-  "description": "Andrii Chabanov",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56607,
+  "metadata" : {
+    "handle" : "CHABANOV-AS",
+    "description" : "Andrii Chabanov",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.128.139.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:27c0::/48"
     ]
   }

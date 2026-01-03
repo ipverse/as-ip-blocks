@@ -1,9 +1,12 @@
 {
-  "asn": 11192,
-  "handle": "SMART-CITY-HQ",
-  "description": "SMART CITY NETWORKS LIMITED PARTNERSHIP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11192,
+  "metadata" : {
+    "handle" : "SMART-CITY-HQ",
+    "description" : "SMART CITY NETWORKS LIMITED PARTNERSHIP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.56.133.0/24",
       "24.56.136.0/24",
       "24.56.140.0/24",
@@ -28,6 +31,6 @@
       "208.115.82.0/24",
       "208.115.92.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

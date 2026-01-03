@@ -1,9 +1,12 @@
 {
-  "asn": 38794,
-  "handle": "UIH-BBB-AS-AP",
-  "description": "United Information Highway Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38794,
+  "metadata" : {
+    "handle" : "UIH-BBB-AS-AP",
+    "description" : "United Information Highway Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.240.112.0/22",
       "43.249.56.0/21",
       "43.249.64.0/23",
@@ -56,7 +59,7 @@
       "203.188.224.0/21",
       "223.27.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:1e::/48",
       "2400:cd00::/32",
       "2405:4cc1:e00::/40"

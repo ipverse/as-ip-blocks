@@ -1,12 +1,15 @@
 {
-  "asn": 38755,
-  "handle": "BPS-AS-ID",
-  "description": "Biro Statistics",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38755,
+  "metadata" : {
+    "handle" : "BPS-AS-ID",
+    "description" : "Biro Statistics",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.123.60.0/23",
       "203.123.62.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

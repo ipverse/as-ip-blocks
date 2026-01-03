@@ -1,9 +1,12 @@
 {
-  "asn": 140553,
-  "handle": "CHINATELECOM-XINJIANG-SHENGJI-5G-NETWORK",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140553,
+  "metadata" : {
+    "handle" : "CHINATELECOM-XINJIANG-SHENGJI-5G-NETWORK",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.107.96.0/21",
       "36.109.139.0/24",
       "36.109.144.0/20",
@@ -39,7 +42,7 @@
       "222.81.112.0/22",
       "222.81.116.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:449::/32",
       "240e:848::/44",
       "240e:848:40::/44",

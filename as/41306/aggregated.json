@@ -1,11 +1,14 @@
 {
-  "asn": 41306,
-  "handle": "TK-AS",
-  "description": "Toender Kommune",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41306,
+  "metadata" : {
+    "handle" : "TK-AS",
+    "description" : "Toender Kommune",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.210.236.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

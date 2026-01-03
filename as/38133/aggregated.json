@@ -1,9 +1,12 @@
 {
-  "asn": 38133,
-  "handle": "MULTINET-AS",
-  "description": "CMB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38133,
+  "metadata" : {
+    "handle" : "MULTINET-AS",
+    "description" : "CMB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.126.0.0/22",
       "27.126.8.0/24",
       "27.126.12.0/22",
@@ -16,6 +19,6 @@
       "27.126.48.0/20",
       "122.252.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

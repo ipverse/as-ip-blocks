@@ -1,9 +1,12 @@
 {
-  "asn": 207190,
-  "handle": "YUHONET",
-  "description": "YUHONET INTERNATIONAL LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207190,
+  "metadata" : {
+    "handle" : "YUHONET",
+    "description" : "YUHONET INTERNATIONAL LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.141.68.0/22",
       "103.145.86.0/23",
       "178.236.40.0/22",
@@ -11,6 +14,6 @@
       "178.236.47.0/24",
       "193.218.38.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

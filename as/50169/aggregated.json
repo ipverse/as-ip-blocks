@@ -1,13 +1,16 @@
 {
-  "asn": 50169,
-  "handle": "INVENTOS-AS",
-  "description": "LLC Inventos",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50169,
+  "metadata" : {
+    "handle" : "INVENTOS-AS",
+    "description" : "LLC Inventos",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.232.50.0/24",
       "194.190.130.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:280::/48"
     ]
   }

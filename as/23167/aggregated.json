@@ -1,9 +1,12 @@
 {
-  "asn": 23167,
-  "handle": "BAYER-ARCH",
-  "description": "Bayer Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23167,
+  "metadata" : {
+    "handle" : "BAYER-ARCH",
+    "description" : "Bayer Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.234.0.0/21",
       "149.234.192.0/19",
       "149.234.240.0/21",
@@ -14,6 +17,6 @@
       "192.122.250.0/24",
       "192.206.64.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

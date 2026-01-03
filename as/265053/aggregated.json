@@ -1,12 +1,15 @@
 {
-  "asn": 265053,
-  "handle": "SYS3-TELECOM",
-  "description": "SYS3 Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265053,
+  "metadata" : {
+    "handle" : "SYS3-TELECOM",
+    "description" : "SYS3 Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.231.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:320c::/32"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 44895,
-  "handle": "ANTENNA-GARANT-AS",
-  "description": "MTS PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44895,
+  "metadata" : {
+    "handle" : "ANTENNA-GARANT-AS",
+    "description" : "MTS PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.106.192.0/21",
       "91.203.64.0/22",
       "109.68.112.0/21",
       "109.94.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:7202::/32"
     ]
   }

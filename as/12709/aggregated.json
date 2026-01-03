@@ -1,9 +1,12 @@
 {
-  "asn": 12709,
-  "handle": "MELITACABLE",
-  "description": "Melita Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12709,
+  "metadata" : {
+    "handle" : "MELITACABLE",
+    "description" : "Melita Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.9.100.0/22",
       "46.54.0.0/17",
       "77.71.128.0/17",
@@ -19,7 +22,7 @@
       "213.165.160.0/19",
       "213.217.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:180::/29",
       "2a01:abc0::/32",
       "2a03:cb00::/32",

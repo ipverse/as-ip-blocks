@@ -1,13 +1,16 @@
 {
-  "asn": 10293,
-  "handle": "CANTV-SERVICIOS-VENEZUELA",
-  "description": "CANTV Servicios Venezuela",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10293,
+  "metadata" : {
+    "handle" : "CANTV-SERVICIOS-VENEZUELA",
+    "description" : "CANTV Servicios Venezuela",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.84.128.0/23",
       "200.84.130.0/24",
       "200.84.132.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 51985,
-  "handle": "ADENIS-AS",
-  "description": "Adenis SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51985,
+  "metadata" : {
+    "handle" : "ADENIS-AS",
+    "description" : "Adenis SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.39.232.0/21",
       "46.17.80.0/21",
       "185.24.156.0/22",
       "185.26.248.0/22",
       "185.45.172.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

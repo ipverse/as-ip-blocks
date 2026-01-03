@@ -1,13 +1,16 @@
 {
-  "asn": 142471,
-  "handle": "QUICKLINK-AS-IN",
-  "description": "QUICKLINK BROADBAND",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142471,
+  "metadata" : {
+    "handle" : "QUICKLINK-AS-IN",
+    "description" : "QUICKLINK BROADBAND",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.170.88.0/24",
       "203.23.77.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:a940::/48"
     ]
   }

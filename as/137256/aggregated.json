@@ -1,10 +1,13 @@
 {
-  "asn": 137256,
-  "handle": "CATIO-NETWORK-AS-AP",
-  "description": "CatIO Network",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 137256,
+  "metadata" : {
+    "handle" : "CATIO-NETWORK-AS-AP",
+    "description" : "CatIO Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2402:3180::/46",
       "2602:feda:1d1::/48",
       "2602:feda:1df::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 212046,
-  "handle": "MEZON-LT",
-  "description": "UAB Mezon",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212046,
+  "metadata" : {
+    "handle" : "MEZON-LT",
+    "description" : "UAB Mezon",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.140.133.0/24",
       "82.140.152.0/24",
       "82.140.176.0/24",
@@ -39,6 +42,6 @@
       "217.9.240.0/24",
       "217.9.243.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

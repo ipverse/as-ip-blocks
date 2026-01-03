@@ -1,9 +1,12 @@
 {
-  "asn": 131275,
-  "handle": "LBPL-AS-AP",
-  "description": "Logon Broadband Pvt. Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131275,
+  "metadata" : {
+    "handle" : "LBPL-AS-AP",
+    "description" : "Logon Broadband Pvt. Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.79.16.0/24",
       "103.79.18.0/24",
       "103.121.120.0/23",
@@ -15,7 +18,7 @@
       "223.29.232.0/23",
       "223.29.234.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:9c60::/32"
     ]
   }

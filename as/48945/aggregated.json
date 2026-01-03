@@ -1,9 +1,12 @@
 {
-  "asn": 48945,
-  "handle": "IFNL-AS",
-  "description": "OPEN FIBRE NETWORKS (WHOLESALE) LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48945,
+  "metadata" : {
+    "handle" : "IFNL-AS",
+    "description" : "OPEN FIBRE NETWORKS (WHOLESALE) LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.242.160.0/19",
       "81.2.152.0/21",
       "81.2.160.0/20",
@@ -23,7 +26,7 @@
       "212.20.152.0/21",
       "213.146.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:7e80::/29"
     ]
   }

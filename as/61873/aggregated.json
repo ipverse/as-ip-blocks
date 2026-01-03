@@ -1,12 +1,15 @@
 {
-  "asn": 61873,
-  "handle": "BORBA-PROVEDOR",
-  "description": "Borba Provedor",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61873,
+  "metadata" : {
+    "handle" : "BORBA-PROVEDOR",
+    "description" : "Borba Provedor",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "201.149.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1aa4::/32"
     ]
   }

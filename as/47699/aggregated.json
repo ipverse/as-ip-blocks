@@ -1,12 +1,15 @@
 {
-  "asn": 47699,
-  "handle": "BBK-AS",
-  "description": "Stiftelsen for Internetinfrastruktur",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47699,
+  "metadata" : {
+    "handle" : "BBK-AS",
+    "description" : "Stiftelsen for Internetinfrastruktur",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.36.30.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2ff4::/48"
     ]
   }

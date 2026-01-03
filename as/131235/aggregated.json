@@ -1,12 +1,15 @@
 {
-  "asn": 131235,
-  "handle": "SYNTELNET-IN",
-  "description": "Syntel Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131235,
+  "metadata" : {
+    "handle" : "SYNTELNET-IN",
+    "description" : "Syntel Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.16.6.0/23",
       "180.211.68.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 138701,
-  "handle": "GREENZONEONLINE-AS-AP",
-  "description": "Green Zone Online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138701,
+  "metadata" : {
+    "handle" : "GREENZONEONLINE-AS-AP",
+    "description" : "Green Zone Online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.134.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:5ec0::/32"
     ]
   }

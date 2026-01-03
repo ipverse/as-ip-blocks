@@ -1,9 +1,12 @@
 {
-  "asn": 4230,
-  "handle": "CLARO",
-  "description": "CLARO S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4230,
+  "metadata" : {
+    "handle" : "CLARO",
+    "description" : "CLARO S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.68.0.0/16",
       "179.237.0.0/20",
       "179.237.16.0/21",
@@ -48,7 +51,7 @@
       "201.72.0.0/15",
       "201.90.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:1419:19::/48",
       "2600:1419:4c00::/48",
       "2600:1419:5c00::/48",

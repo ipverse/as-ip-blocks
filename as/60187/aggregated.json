@@ -1,9 +1,12 @@
 {
-  "asn": 60187,
-  "handle": "LGFL-AS",
-  "description": "London Grid for Learning Trust",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60187,
+  "metadata" : {
+    "handle" : "LGFL-AS",
+    "description" : "London Grid for Learning Trust",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.150.22.0/23",
       "5.150.62.0/24",
       "5.150.64.0/21",
@@ -26,7 +29,7 @@
       "193.105.13.0/24",
       "195.191.66.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:af40::/29"
     ]
   }

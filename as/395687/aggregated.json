@@ -1,13 +1,16 @@
 {
-  "asn": 395687,
-  "handle": "SKYPULSE",
-  "description": "SkyPulse Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395687,
+  "metadata" : {
+    "handle" : "SKYPULSE",
+    "description" : "SkyPulse Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.170.232.0/23",
       "38.145.88.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:8dc0::/32"
     ]
   }

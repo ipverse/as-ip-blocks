@@ -1,13 +1,16 @@
 {
-  "asn": 14727,
-  "handle": "LONE-STAR-ISP",
-  "description": "LONE STAR ISP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14727,
+  "metadata" : {
+    "handle" : "LONE-STAR-ISP",
+    "description" : "LONE STAR ISP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.139.32.0/24",
       "208.79.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:dfc0::/32"
     ]
   }

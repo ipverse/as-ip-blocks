@@ -1,9 +1,12 @@
 {
-  "asn": 398743,
-  "handle": "NEMOURS",
-  "description": "The Nemours Foundation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398743,
+  "metadata" : {
+    "handle" : "NEMOURS",
+    "description" : "The Nemours Foundation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.152.103.0/24",
       "192.234.249.0/24",
       "192.234.253.0/24",
@@ -13,6 +16,6 @@
       "199.254.16.0/22",
       "199.254.26.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

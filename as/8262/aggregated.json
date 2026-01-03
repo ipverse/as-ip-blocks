@@ -1,9 +1,12 @@
 {
-  "asn": 8262,
-  "handle": "EVOLINK-AS",
-  "description": "Evolink EAD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8262,
+  "metadata" : {
+    "handle" : "EVOLINK-AS",
+    "description" : "Evolink EAD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.119.64.0/19",
       "85.14.0.0/18",
       "89.252.192.0/22",
@@ -18,7 +21,7 @@
       "194.50.76.0/24",
       "217.168.232.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1ae0::/32",
       "2a05:b6c2::/32"
     ]

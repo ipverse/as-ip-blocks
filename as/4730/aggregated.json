@@ -1,12 +1,15 @@
 {
-  "asn": 4730,
-  "handle": "ODINS",
-  "description": "Osaka University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4730,
+  "metadata" : {
+    "handle" : "ODINS",
+    "description" : "Osaka University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "133.1.0.0/16",
       "192.50.0.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

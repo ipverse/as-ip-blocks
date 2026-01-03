@@ -1,9 +1,12 @@
 {
-  "asn": 11676,
-  "handle": "AS11676",
-  "description": "Conduent Business Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11676,
+  "metadata" : {
+    "handle" : "AS11676",
+    "description" : "Conduent Business Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.207.48.0/20",
       "138.69.0.0/22",
       "138.69.4.0/23",
@@ -32,6 +35,6 @@
       "216.115.173.0/24",
       "216.115.174.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

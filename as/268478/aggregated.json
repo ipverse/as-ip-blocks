@@ -1,12 +1,15 @@
 {
-  "asn": 268478,
-  "handle": "WEBMAIS-INTERNET",
-  "description": "WebMais Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268478,
+  "metadata" : {
+    "handle" : "WEBMAIS-INTERNET",
+    "description" : "WebMais Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.161.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:51cc::/32"
     ]
   }

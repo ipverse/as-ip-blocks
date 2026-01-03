@@ -1,13 +1,16 @@
 {
-  "asn": 328333,
-  "handle": "FIXEDMOBILETELCO-AS",
-  "description": "Fixed Mobile Telecommunications (Pty) LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328333,
+  "metadata" : {
+    "handle" : "FIXEDMOBILETELCO-AS",
+    "description" : "Fixed Mobile Telecommunications (Pty) LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.134.120.0/21",
       "102.207.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:ef28::/32"
     ]
   }

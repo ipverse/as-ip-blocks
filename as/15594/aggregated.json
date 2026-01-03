@@ -1,15 +1,18 @@
 {
-  "asn": 15594,
-  "handle": "NETZQUADRAT",
-  "description": "netzquadrat GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15594,
+  "metadata" : {
+    "handle" : "NETZQUADRAT",
+    "description" : "netzquadrat GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.116.96.0/19",
       "212.9.32.0/19",
       "217.10.64.0/20",
       "217.116.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:ab7::/34",
       "2001:ab7:f000::/36"
     ]

@@ -1,13 +1,16 @@
 {
-  "asn": 54652,
-  "handle": "POF",
-  "description": "Plentyoffish Media Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54652,
+  "metadata" : {
+    "handle" : "POF",
+    "description" : "Plentyoffish Media Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.210.32.0/22",
       "199.182.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:f4:8000::/48"
     ]
   }

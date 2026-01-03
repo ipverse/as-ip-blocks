@@ -1,11 +1,14 @@
 {
-  "asn": 23130,
-  "handle": "DPS-AS-01",
-  "description": "Diamond Pharmacy Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23130,
+  "metadata" : {
+    "handle" : "DPS-AS-01",
+    "description" : "Diamond Pharmacy Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.160.171.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

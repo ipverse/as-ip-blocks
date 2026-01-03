@@ -1,11 +1,14 @@
 {
-  "asn": 55793,
-  "handle": "PSC-AS-AP",
-  "description": "Public Services Commission",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55793,
+  "metadata" : {
+    "handle" : "PSC-AS-AP",
+    "description" : "Public Services Commission",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.48.191.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

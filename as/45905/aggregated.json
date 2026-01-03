@@ -1,9 +1,12 @@
 {
-  "asn": 45905,
-  "handle": "STARGATE-AS-AP",
-  "description": "Stargate Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45905,
+  "metadata" : {
+    "handle" : "STARGATE-AS-AP",
+    "description" : "Stargate Communications Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.118.244.0/23",
       "45.118.246.0/24",
       "45.126.74.0/23",
@@ -15,7 +18,7 @@
       "160.22.150.0/24",
       "180.148.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:86c0::/32"
     ]
   }

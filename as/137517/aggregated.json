@@ -1,9 +1,12 @@
 {
-  "asn": 137517,
-  "handle": "FLAMEHOSTING-AS-AP",
-  "description": "BEE ONLINE NETWORK PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137517,
+  "metadata" : {
+    "handle" : "FLAMEHOSTING-AS-AP",
+    "description" : "BEE ONLINE NETWORK PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.22.107.0/24",
       "31.57.159.0/24",
       "64.50.187.0/24",
@@ -42,6 +45,6 @@
       "212.100.175.0/24",
       "216.74.98.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

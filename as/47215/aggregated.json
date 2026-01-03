@@ -1,9 +1,12 @@
 {
-  "asn": 47215,
-  "handle": "FILOO-ASN",
-  "description": "dogado GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47215,
+  "metadata" : {
+    "handle" : "FILOO-ASN",
+    "description" : "dogado GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.11.48.0/21",
       "93.190.64.0/21",
       "95.130.248.0/21",
@@ -19,7 +22,7 @@
       "194.9.72.0/24",
       "198.22.51.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:12c0::/29",
       "2a04:4cc0::/29",
       "2a06:ee40:22::/48",

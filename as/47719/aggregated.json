@@ -1,13 +1,16 @@
 {
-  "asn": 47719,
-  "handle": "SWITCHTEL-AS",
-  "description": "Switch Telecom s.a.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47719,
+  "metadata" : {
+    "handle" : "SWITCHTEL-AS",
+    "description" : "Switch Telecom s.a.r.l",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.61.48.0/23",
       "185.61.51.0/24",
       "194.146.153.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

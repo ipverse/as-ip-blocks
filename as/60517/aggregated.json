@@ -1,9 +1,12 @@
 {
-  "asn": 60517,
-  "handle": "AS-CABLEVISION",
-  "description": "Noehmer Cablevision GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60517,
+  "metadata" : {
+    "handle" : "AS-CABLEVISION",
+    "description" : "Noehmer Cablevision GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.157.96.0/22",
       "185.27.120.0/22",
       "185.36.92.0/22",
@@ -13,7 +16,7 @@
       "185.131.180.0/22",
       "185.175.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:3e40::/29",
       "2a06:96c0::/29"
     ]

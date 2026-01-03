@@ -1,11 +1,14 @@
 {
-  "asn": 395274,
-  "handle": "LAKE-TRAVIS-ISD",
-  "description": "Lake Travis ISD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395274,
+  "metadata" : {
+    "handle" : "LAKE-TRAVIS-ISD",
+    "description" : "Lake Travis ISD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.150.244.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

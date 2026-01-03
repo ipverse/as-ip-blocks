@@ -1,9 +1,12 @@
 {
-  "asn": 132225,
-  "handle": "CHINATELECOM-QINGHAI-5G-NETWORK",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132225,
+  "metadata" : {
+    "handle" : "CHINATELECOM-QINGHAI-5G-NETWORK",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "110.166.24.0/22",
       "110.166.32.0/19",
       "110.166.120.0/23",
@@ -24,7 +27,7 @@
       "223.221.112.0/22",
       "223.221.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:423::/42",
       "240e:423:500::/42",
       "240e:423:a00::/42",

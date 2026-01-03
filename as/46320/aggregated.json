@@ -1,9 +1,12 @@
 {
-  "asn": 46320,
-  "handle": "BLU",
-  "description": "BLU Fibre Networks inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46320,
+  "metadata" : {
+    "handle" : "BLU",
+    "description" : "BLU Fibre Networks inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.227.208.0/21",
       "38.45.200.0/22",
       "38.57.25.0/24",
@@ -40,6 +43,6 @@
       "216.39.224.0/22",
       "216.234.168.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

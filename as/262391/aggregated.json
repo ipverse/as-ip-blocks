@@ -1,9 +1,12 @@
 {
-  "asn": 262391,
-  "handle": "ACESSOLINE-TELECOMUNICACOES",
-  "description": "ACESSOLINE TELECOMUNICAÇÕES LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262391,
+  "metadata" : {
+    "handle" : "ACESSOLINE-TELECOMUNICACOES",
+    "description" : "ACESSOLINE TELECOMUNICAÇÕES LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.235.16.0/23",
       "45.235.19.0/24",
       "168.181.68.0/22",
@@ -13,7 +16,7 @@
       "190.89.104.0/22",
       "200.53.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8c0::/32"
     ]
   }

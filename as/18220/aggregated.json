@@ -1,16 +1,19 @@
 {
-  "asn": 18220,
-  "handle": "AUS-DEFENCE-AS-AP",
-  "description": "Australian Defence Organisation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18220,
+  "metadata" : {
+    "handle" : "AUS-DEFENCE-AS-AP",
+    "description" : "Australian Defence Organisation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.12.69.0/24",
       "203.6.96.0/21",
       "203.6.104.0/22",
       "203.6.114.0/24",
       "203.10.114.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:6bfd::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 267507,
-  "handle": "SRX-TECNOLOGIA-INFORMACAO",
-  "description": "SRX TECNOLOGIA DA INFORMACAO LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267507,
+  "metadata" : {
+    "handle" : "SRX-TECNOLOGIA-INFORMACAO",
+    "description" : "SRX TECNOLOGIA DA INFORMACAO LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.202.218.0/24",
       "109.176.16.0/24",
       "143.14.134.0/23",
@@ -12,7 +15,7 @@
       "201.182.96.0/22",
       "212.38.84.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:428c::/32"
     ]
   }

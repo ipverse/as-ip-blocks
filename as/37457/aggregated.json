@@ -1,9 +1,12 @@
 {
-  "asn": 37457,
-  "handle": "TELKOM-INTERNET",
-  "description": "Telkom SA Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37457,
+  "metadata" : {
+    "handle" : "TELKOM-INTERNET",
+    "description" : "Telkom SA Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.21.160.0/22",
       "2.21.232.0/22",
       "41.144.0.0/15",
@@ -34,7 +37,7 @@
       "196.6.167.0/24",
       "197.228.0.0/15"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0e:2200::/28",
       "2c0e:2700::/28"
     ]

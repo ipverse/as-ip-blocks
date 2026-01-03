@@ -1,11 +1,14 @@
 {
-  "asn": 20261,
-  "handle": "MSA-CORP",
-  "description": "Medical Services of America",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20261,
+  "metadata" : {
+    "handle" : "MSA-CORP",
+    "description" : "Medical Services of America",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "98.101.203.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

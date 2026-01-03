@@ -1,9 +1,12 @@
 {
-  "asn": 33986,
-  "handle": "ASN-REDDER",
-  "description": "Redder Telco s.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33986,
+  "metadata" : {
+    "handle" : "ASN-REDDER",
+    "description" : "Redder Telco s.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.9.96.0/22",
       "46.102.101.0/24",
       "185.41.72.0/22",
@@ -12,7 +15,7 @@
       "212.94.136.0/24",
       "217.194.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:5b00::/29"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 32010,
-  "handle": "TSIS-LLC",
-  "description": "Top Speed Internet Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32010,
+  "metadata" : {
+    "handle" : "TSIS-LLC",
+    "description" : "Top Speed Internet Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.91.80.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

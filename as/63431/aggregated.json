@@ -1,12 +1,15 @@
 {
-  "asn": 63431,
-  "handle": "EMF-AS",
-  "description": "EMF Broadcasting",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63431,
+  "metadata" : {
+    "handle" : "EMF-AS",
+    "description" : "EMF Broadcasting",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.100.255.0/24",
       "207.231.85.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

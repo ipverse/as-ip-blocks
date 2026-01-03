@@ -1,9 +1,12 @@
 {
-  "asn": 206092,
-  "handle": "SECFIREWALLAS",
-  "description": "F.N.S. HOLDINGS LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206092,
+  "metadata" : {
+    "handle" : "SECFIREWALLAS",
+    "description" : "F.N.S. HOLDINGS LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.170.0/24",
       "23.27.18.0/24",
       "31.171.129.0/24",
@@ -108,6 +111,6 @@
       "216.24.219.0/24",
       "216.73.160.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 17918,
-  "handle": "AC3-AS-AP",
-  "description": "AUSTRALIAN CENTRE FOR ADVANCED COMPUTING AND COMMUNICATION PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17918,
+  "metadata" : {
+    "handle" : "AC3-AS-AP",
+    "description" : "AUSTRALIAN CENTRE FOR ADVANCED COMPUTING AND COMMUNICATION PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "117.53.160.0/20",
       "119.77.0.0/18",
       "202.44.98.0/23",
       "202.129.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:8600::/32"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 37684,
-  "handle": "ANGANI-AS",
-  "description": "Angani Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37684,
+  "metadata" : {
+    "handle" : "ANGANI-AS",
+    "description" : "Angani Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.242.0.0/22",
       "62.12.112.0/21",
       "102.207.148.0/22",
       "102.221.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f408::/39",
       "2c0f:f408:1000::/40",
       "2c0f:f408:2000::/40",

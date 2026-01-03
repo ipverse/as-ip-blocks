@@ -1,13 +1,16 @@
 {
-  "asn": 55914,
-  "handle": "CANON-AS-AP",
-  "description": "Canon Australia Pty. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55914,
+  "metadata" : {
+    "handle" : "CANON-AS-AP",
+    "description" : "Canon Australia Pty. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.129.255.0/24",
       "203.12.174.0/23",
       "203.191.6.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

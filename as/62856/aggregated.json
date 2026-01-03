@@ -1,9 +1,12 @@
 {
-  "asn": 62856,
-  "handle": "DOCUS-6-PROD",
-  "description": "Docusign Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62856,
+  "metadata" : {
+    "handle" : "DOCUS-6-PROD",
+    "description" : "Docusign Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.207.216.0/22",
       "103.158.122.0/23",
       "162.248.184.0/22",
@@ -11,6 +14,6 @@
       "192.103.120.0/22",
       "209.112.104.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

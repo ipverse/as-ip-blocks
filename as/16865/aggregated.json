@@ -1,12 +1,15 @@
 {
-  "asn": 16865,
-  "handle": "SKYLINE",
-  "description": "Skyline Security",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16865,
+  "metadata" : {
+    "handle" : "SKYLINE",
+    "description" : "Skyline Security",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.64.219.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:814:c000::/44"
     ]
   }

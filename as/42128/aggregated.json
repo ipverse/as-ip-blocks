@@ -1,13 +1,16 @@
 {
-  "asn": 42128,
-  "handle": "HORISEN-AS",
-  "description": "HORISEN AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42128,
+  "metadata" : {
+    "handle" : "HORISEN-AS",
+    "description" : "HORISEN AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.46.204.0/24",
       "193.33.104.0/24",
       "194.0.137.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

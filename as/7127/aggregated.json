@@ -1,9 +1,12 @@
 {
-  "asn": 7127,
-  "handle": "SCE",
-  "description": "Southern California Edison",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7127,
+  "metadata" : {
+    "handle" : "SCE",
+    "description" : "Southern California Edison",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "155.13.0.0/16",
       "163.236.0.0/16",
       "192.212.0.0/15",
@@ -11,6 +14,6 @@
       "192.214.64.0/19",
       "192.214.96.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

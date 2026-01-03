@@ -1,11 +1,14 @@
 {
-  "asn": 42114,
-  "handle": "VNWT-AS",
-  "description": "PG Austria GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42114,
+  "metadata" : {
+    "handle" : "VNWT-AS",
+    "description" : "PG Austria GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.210.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

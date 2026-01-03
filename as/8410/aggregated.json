@@ -1,9 +1,12 @@
 {
-  "asn": 8410,
-  "handle": "NIR-AS",
-  "description": "NovInvestRezerv LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8410,
+  "metadata" : {
+    "handle" : "NIR-AS",
+    "description" : "NovInvestRezerv LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.0.120.0/22",
       "194.55.161.0/24",
       "194.55.163.0/24",
@@ -18,6 +21,6 @@
       "212.15.48.0/24",
       "212.15.52.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

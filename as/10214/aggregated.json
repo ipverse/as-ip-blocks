@@ -1,9 +1,12 @@
 {
-  "asn": 10214,
-  "handle": "PENTANET-AS-AP",
-  "description": "PENTANET LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10214,
+  "metadata" : {
+    "handle" : "PENTANET-AS-AP",
+    "description" : "PENTANET LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.6.208.0/23",
       "103.6.210.0/24",
       "103.46.212.0/22",
@@ -14,7 +17,7 @@
       "163.47.56.0/22",
       "203.57.126.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:b400::/48",
       "2400:ec40::/32"
     ]

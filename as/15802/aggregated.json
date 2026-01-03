@@ -1,9 +1,12 @@
 {
-  "asn": 15802,
-  "handle": "DU-AS1",
-  "description": "Emirates Integrated Telecommunications Company PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15802,
+  "metadata" : {
+    "handle" : "DU-AS1",
+    "description" : "Emirates Integrated Telecommunications Company PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.30.0.0/15",
       "5.32.0.0/17",
       "23.194.192.0/22",
@@ -19,7 +22,7 @@
       "184.25.205.0/24",
       "213.132.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:f28::/30",
       "2a00:f2c::/31",
       "2a00:f2e::/32"

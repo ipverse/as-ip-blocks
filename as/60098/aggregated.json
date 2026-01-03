@@ -1,9 +1,12 @@
 {
-  "asn": 60098,
-  "handle": "INSIT-AS",
-  "description": "Filippov Aleksei Vladilenovich",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60098,
+  "metadata" : {
+    "handle" : "INSIT-AS",
+    "description" : "Filippov Aleksei Vladilenovich",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.72.176.0/21",
       "46.235.248.0/21",
       "185.7.180.0/22",
@@ -13,6 +16,6 @@
       "194.135.192.0/22",
       "217.64.128.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

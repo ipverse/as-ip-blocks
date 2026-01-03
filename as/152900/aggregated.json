@@ -1,9 +1,12 @@
 {
-  "asn": 152900,
-  "handle": "ONIDEL-AS-AP",
-  "description": "Onidel Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152900,
+  "metadata" : {
+    "handle" : "ONIDEL-AS-AP",
+    "description" : "Onidel Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.250.122.0/24",
       "124.6.59.0/24",
       "160.22.78.0/23",
@@ -13,7 +16,7 @@
       "192.206.117.0/24",
       "192.209.63.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:a4a0:1::/48",
       "2401:a4a0:2::/48",
       "2401:a4a0:a4a0::/48",

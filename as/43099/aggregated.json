@@ -1,12 +1,15 @@
 {
-  "asn": 43099,
-  "handle": "NET-CPT",
-  "description": "Curie Point AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43099,
+  "metadata" : {
+    "handle" : "NET-CPT",
+    "description" : "Curie Point AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.194.66.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:a2c::/48"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 200400,
-  "handle": "SOFIA-MUNICIPALITY",
-  "description": "Sofia Municipality",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200400,
+  "metadata" : {
+    "handle" : "SOFIA-MUNICIPALITY",
+    "description" : "Sofia Municipality",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.208.138.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

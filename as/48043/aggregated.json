@@ -1,13 +1,16 @@
 {
-  "asn": 48043,
-  "handle": "OZYORSK-TELECOM-AS",
-  "description": "Ozyorsk Telecom CJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48043,
+  "metadata" : {
+    "handle" : "OZYORSK-TELECOM-AS",
+    "description" : "Ozyorsk Telecom CJSC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.205.236.0/22",
       "185.190.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:340::/40",
       "2a0a:340:1000::/40",
       "2a0a:340:1400::/39",

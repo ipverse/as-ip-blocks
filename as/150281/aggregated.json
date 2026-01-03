@@ -1,12 +1,15 @@
 {
-  "asn": 150281,
-  "handle": "BSS-AS-ID",
-  "description": "PT Bina Solusi Sejahtera",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150281,
+  "metadata" : {
+    "handle" : "BSS-AS-ID",
+    "description" : "PT Bina Solusi Sejahtera",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.97.231.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:aa40::/48"
     ]
   }

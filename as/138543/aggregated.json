@@ -1,13 +1,16 @@
 {
-  "asn": 138543,
-  "handle": "CABLEVISION-AS-AP",
-  "description": "Cablevision Systems Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138543,
+  "metadata" : {
+    "handle" : "CABLEVISION-AS-AP",
+    "description" : "Cablevision Systems Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.132.168.0/24",
       "103.148.60.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:8100::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 4690,
-  "handle": "WIDE-SFO",
-  "description": "WIDE Project",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4690,
+  "metadata" : {
+    "handle" : "WIDE-SFO",
+    "description" : "WIDE Project",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.0.73.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:200:e00::/40"
     ]
   }

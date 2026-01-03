@@ -1,13 +1,16 @@
 {
-  "asn": 131999,
-  "handle": "LATERAL-PLAINS-AS-AP",
-  "description": "Lateral Plains Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131999,
+  "metadata" : {
+    "handle" : "LATERAL-PLAINS-AS-AP",
+    "description" : "Lateral Plains Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.29.168.0/23",
       "103.229.187.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:b300::/32"
     ]
   }

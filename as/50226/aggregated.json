@@ -1,9 +1,12 @@
 {
-  "asn": 50226,
-  "handle": "NETCOMPANY1-AS",
-  "description": "NETcompany Internet Provider - NC GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50226,
+  "metadata" : {
+    "handle" : "NETCOMPANY1-AS",
+    "description" : "NETcompany Internet Provider - NC GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.16.192.0/21",
       "89.16.200.0/22",
       "89.16.206.0/23",
@@ -11,7 +14,7 @@
       "185.56.124.0/22",
       "185.228.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:17e8::/29"
     ]
   }

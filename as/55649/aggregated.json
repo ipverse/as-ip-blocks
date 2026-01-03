@@ -1,9 +1,12 @@
 {
-  "asn": 55649,
-  "handle": "METRONET-HK",
-  "description": "Hong Kong Five Towns Development Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55649,
+  "metadata" : {
+    "handle" : "METRONET-HK",
+    "description" : "Hong Kong Five Towns Development Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.242.140.0/22",
       "103.38.28.0/22",
       "103.215.40.0/22",
@@ -12,7 +15,7 @@
       "202.70.174.0/24",
       "223.255.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:a300::/48"
     ]
   }

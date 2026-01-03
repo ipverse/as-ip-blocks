@@ -1,15 +1,18 @@
 {
-  "asn": 10128,
-  "handle": "IAG-AS-AP",
-  "description": "SingTel Optus Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10128,
+  "metadata" : {
+    "handle" : "IAG-AS-AP",
+    "description" : "SingTel Optus Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.140.176.0/22",
       "168.140.180.0/23",
       "168.140.182.0/24",
       "168.140.188.0/24",
       "168.140.229.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

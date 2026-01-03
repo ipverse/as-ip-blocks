@@ -1,9 +1,12 @@
 {
-  "asn": 19275,
-  "handle": "INTERVAL",
-  "description": "Interval International Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19275,
+  "metadata" : {
+    "handle" : "INTERVAL",
+    "description" : "Interval International Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.42.131.0/24",
       "12.149.68.0/24",
       "167.122.0.0/21",
@@ -12,6 +15,6 @@
       "167.122.32.0/22",
       "216.126.216.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

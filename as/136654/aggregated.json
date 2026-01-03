@@ -1,12 +1,15 @@
 {
-  "asn": 136654,
-  "handle": "KRISHNAB-AS-IN",
-  "description": "Krishna Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136654,
+  "metadata" : {
+    "handle" : "KRISHNAB-AS-IN",
+    "description" : "Krishna Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.96.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:c520::/48",
       "2400:c520:3::/48",
       "2400:c520:4::/48"

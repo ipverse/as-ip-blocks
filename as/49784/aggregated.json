@@ -1,9 +1,12 @@
 {
-  "asn": 49784,
-  "handle": "NL-NETVISIT",
-  "description": "Netvisit B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49784,
+  "metadata" : {
+    "handle" : "NL-NETVISIT",
+    "description" : "Netvisit B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.149.44.0/22",
       "46.244.48.0/20",
       "91.236.202.0/23",
@@ -13,7 +16,7 @@
       "185.28.224.0/22",
       "213.109.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:8940::/32",
       "2a04:3640::/29"
     ]

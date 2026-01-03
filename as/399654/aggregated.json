@@ -1,9 +1,12 @@
 {
-  "asn": 399654,
-  "handle": "AVX-CLOUD",
-  "description": "AVX Cloud",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399654,
+  "metadata" : {
+    "handle" : "AVX-CLOUD",
+    "description" : "AVX Cloud",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.41.99.0/24",
       "8.45.19.0/24",
       "38.133.131.0/24",
@@ -11,6 +14,6 @@
       "192.64.13.0/24",
       "206.85.0.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

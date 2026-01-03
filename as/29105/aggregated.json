@@ -1,12 +1,15 @@
 {
-  "asn": 29105,
-  "handle": "BARMENIA-AS",
-  "description": "Barmenia Krankenversicherung a.G",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29105,
+  "metadata" : {
+    "handle" : "BARMENIA-AS",
+    "description" : "Barmenia Krankenversicherung a.G.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.128.40.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:25b0::/48"
     ]
   }

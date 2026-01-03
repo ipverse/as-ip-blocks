@@ -1,9 +1,12 @@
 {
-  "asn": 53316,
-  "handle": "ASN-CHEETA-MAIL",
-  "description": "CHEETAHMAIL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53316,
+  "metadata" : {
+    "handle" : "ASN-CHEETA-MAIL",
+    "description" : "CHEETAHMAIL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.7.42.0/23",
       "8.7.44.0/24",
       "8.30.201.0/24",
@@ -45,6 +48,6 @@
       "208.50.56.0/24",
       "209.3.218.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

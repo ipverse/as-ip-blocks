@@ -1,10 +1,13 @@
 {
-  "asn": 55223,
-  "handle": "BGP-NETWORKS-LLC",
-  "description": "BGP Networks LLC",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 55223,
+  "metadata" : {
+    "handle" : "BGP-NETWORKS-LLC",
+    "description" : "BGP Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2602:fb0d:66::/48",
       "2602:fb0d:69::/48"
     ]

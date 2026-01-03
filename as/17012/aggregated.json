@@ -1,9 +1,12 @@
 {
-  "asn": 17012,
-  "handle": "PAYPAL",
-  "description": "PayPal Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17012,
+  "metadata" : {
+    "handle" : "PAYPAL",
+    "description" : "PayPal Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.4.240.0/21",
       "64.4.248.0/22",
       "66.211.168.0/22",
@@ -15,7 +18,7 @@
       "198.199.247.0/24",
       "205.189.102.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:110:f000::/44"
     ]
   }

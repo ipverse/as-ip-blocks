@@ -1,12 +1,15 @@
 {
-  "asn": 37526,
-  "handle": "TELECEL-FASO",
-  "description": "TELECEL FASO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37526,
+  "metadata" : {
+    "handle" : "TELECEL-FASO",
+    "description" : "TELECEL FASO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "105.235.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f8b0::/32"
     ]
   }

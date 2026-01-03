@@ -1,9 +1,12 @@
 {
-  "asn": 211611,
-  "handle": "EXIMHOST",
-  "description": "Exim Host SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211611,
+  "metadata" : {
+    "handle" : "EXIMHOST",
+    "description" : "Exim Host SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.86.220.0/24",
       "81.181.87.0/24",
       "81.181.198.0/23",
@@ -12,6 +15,6 @@
       "194.36.143.0/24",
       "217.197.98.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

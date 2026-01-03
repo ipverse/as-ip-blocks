@@ -1,12 +1,15 @@
 {
-  "asn": 13250,
-  "handle": "BACKBONE-CH",
-  "description": "Backbone Solutions AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13250,
+  "metadata" : {
+    "handle" : "BACKBONE-CH",
+    "description" : "Backbone Solutions AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.117.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:380::/32"
     ]
   }

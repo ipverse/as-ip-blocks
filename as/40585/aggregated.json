@@ -1,12 +1,15 @@
 {
-  "asn": 40585,
-  "handle": "SCC",
-  "description": "SCC Soft Computer",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40585,
+  "metadata" : {
+    "handle" : "SCC",
+    "description" : "SCC Soft Computer",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "205.172.68.0/22",
       "208.86.236.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

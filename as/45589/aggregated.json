@@ -1,13 +1,16 @@
 {
-  "asn": 45589,
-  "handle": "ENERGYAUST-AS",
-  "description": "Ausgrid",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45589,
+  "metadata" : {
+    "handle" : "ENERGYAUST-AS",
+    "description" : "Ausgrid",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.8.48.0/21",
       "163.8.64.0/19",
       "163.8.160.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

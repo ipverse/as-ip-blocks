@@ -1,9 +1,12 @@
 {
-  "asn": 9913,
-  "handle": "IIG-AS-AP",
-  "description": "Internet Information Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9913,
+  "metadata" : {
+    "handle" : "IIG-AS-AP",
+    "description" : "Internet Information Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.233.208.0/22",
       "202.14.148.0/24",
       "203.0.80.0/24",
@@ -11,7 +14,7 @@
       "203.31.110.0/23",
       "203.57.23.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:9c20::/32"
     ]
   }

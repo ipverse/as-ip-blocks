@@ -1,12 +1,15 @@
 {
-  "asn": 50015,
-  "handle": "HOLINET-AS",
-  "description": "Aleksandr Butenko",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50015,
+  "metadata" : {
+    "handle" : "HOLINET-AS",
+    "description" : "Aleksandr Butenko",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.40.119.0/24",
       "195.78.104.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

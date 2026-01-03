@@ -1,11 +1,14 @@
 {
-  "asn": 49691,
-  "handle": "NETINFO-AS",
-  "description": "Netinfo SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49691,
+  "metadata" : {
+    "handle" : "NETINFO-AS",
+    "description" : "Netinfo SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.213.181.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

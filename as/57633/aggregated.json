@@ -1,9 +1,12 @@
 {
-  "asn": 57633,
-  "handle": "TERANET2",
-  "description": "CELESTE SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57633,
+  "metadata" : {
+    "handle" : "TERANET2",
+    "description" : "CELESTE SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.25.72.0/21",
       "45.9.244.0/22",
       "46.182.208.0/21",
@@ -11,7 +14,7 @@
       "185.79.220.0/22",
       "195.49.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1ab0::/32"
     ]
   }

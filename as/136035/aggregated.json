@@ -1,12 +1,15 @@
 {
-  "asn": 136035,
-  "handle": "DOT-AS-AP",
-  "description": "Department of Tourism",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136035,
+  "metadata" : {
+    "handle" : "DOT-AS-AP",
+    "description" : "Department of Tourism",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.80.100.0/23",
       "122.155.86.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

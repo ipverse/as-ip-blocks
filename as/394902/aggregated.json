@@ -1,16 +1,19 @@
 {
-  "asn": 394902,
-  "handle": "HCDL-PORTLAND-DATA-CENTER",
-  "description": "H5 Data Centers",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394902,
+  "metadata" : {
+    "handle" : "HCDL-PORTLAND-DATA-CENTER",
+    "description" : "H5 Data Centers",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.250.128.0/24",
       "130.250.131.0/24",
       "130.250.135.0/24",
       "130.250.136.0/24",
       "161.199.206.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:6800:1c00::/40"
     ]
   }

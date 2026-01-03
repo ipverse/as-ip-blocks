@@ -1,9 +1,12 @@
 {
-  "asn": 211507,
-  "handle": "LAIN",
-  "description": "Julian Achter",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211507,
+  "metadata" : {
+    "handle" : "LAIN",
+    "description" : "Julian Achter",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.67.138.0/24",
       "45.137.201.0/24",
       "45.141.117.0/24",
@@ -11,7 +14,7 @@
       "92.119.164.0/23",
       "185.132.53.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:c380:50::/44",
       "2a14:c380:70::/44",
       "2a14:c380:90::/44",

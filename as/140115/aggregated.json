@@ -1,14 +1,17 @@
 {
-  "asn": 140115,
-  "handle": "LAYANPL-AS-IN",
-  "description": "Laya Network Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140115,
+  "metadata" : {
+    "handle" : "LAYANPL-AS-IN",
+    "description" : "Laya Network Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.143.108.0/24",
       "103.154.35.0/24",
       "103.171.128.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:8fc0::/48"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 139558,
-  "handle": "ULTRAWA-AS-IN",
-  "description": "Ultrawave Internet Access Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139558,
+  "metadata" : {
+    "handle" : "ULTRAWA-AS-IN",
+    "description" : "Ultrawave Internet Access Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.148.96.0/23",
       "160.25.63.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:fac0::/48"
     ]
   }

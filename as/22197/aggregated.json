@@ -1,14 +1,17 @@
 {
-  "asn": 22197,
-  "handle": "APPS",
-  "description": "Apps Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22197,
+  "metadata" : {
+    "handle" : "APPS",
+    "description" : "Apps Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.28.39.0/24",
       "68.251.212.0/24",
       "69.209.39.0/24",
       "208.40.208.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

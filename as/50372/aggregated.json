@@ -1,16 +1,19 @@
 {
-  "asn": 50372,
-  "handle": "PLANETARYNETWORKS",
-  "description": "Planetary Networks GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50372,
+  "metadata" : {
+    "handle" : "PLANETARYNETWORKS",
+    "description" : "Planetary Networks GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.57.40.0/21",
       "178.23.120.0/21",
       "185.100.8.0/22",
       "193.202.116.0/24",
       "193.203.122.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:3e80::/32"
     ]
   }

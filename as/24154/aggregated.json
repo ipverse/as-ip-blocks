@@ -1,9 +1,12 @@
 {
-  "asn": 24154,
-  "handle": "APBT-AS-TW",
-  "description": "Asia Pacific Broadband Fixed Lines Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24154,
+  "metadata" : {
+    "handle" : "APBT-AS-TW",
+    "description" : "Asia Pacific Broadband Fixed Lines Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "60.244.0.0/23",
       "60.244.2.0/24",
       "60.244.64.0/22",
@@ -56,7 +59,7 @@
       "222.156.246.0/24",
       "222.156.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:0:5000::/47",
       "2404:0:5002::/48",
       "2404:0:5005::/48",

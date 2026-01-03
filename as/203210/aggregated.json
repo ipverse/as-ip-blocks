@@ -1,9 +1,12 @@
 {
-  "asn": 203210,
-  "handle": "SZYBKINET",
-  "description": "SZYBKI-NET S. BAJOR L. SIWIK Z. WIECZOREK SPOLKA JAWNA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203210,
+  "metadata" : {
+    "handle" : "SZYBKINET",
+    "description" : "SZYBKI-NET S. BAJOR L. SIWIK Z. WIECZOREK SPOLKA JAWNA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.87.73.0/24",
       "77.87.74.0/24",
       "91.196.48.0/22",
@@ -14,6 +17,6 @@
       "193.43.136.0/24",
       "195.22.124.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

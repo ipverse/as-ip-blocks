@@ -1,9 +1,12 @@
 {
-  "asn": 13990,
-  "handle": "COUNTYOFORANGE",
-  "description": "County of Orange",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13990,
+  "metadata" : {
+    "handle" : "COUNTYOFORANGE",
+    "description" : "County of Orange",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.184.32.0/20",
       "198.184.56.0/22",
       "198.244.16.0/22",
@@ -15,6 +18,6 @@
       "206.194.92.0/24",
       "206.194.112.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

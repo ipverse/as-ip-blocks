@@ -1,15 +1,18 @@
 {
-  "asn": 16617,
-  "handle": "COMMUNITYISP",
-  "description": "CISP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16617,
+  "metadata" : {
+    "handle" : "COMMUNITYISP",
+    "description" : "CISP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.31.64.0/19",
       "64.254.128.0/20",
       "67.211.160.0/20",
       "68.70.176.0/20",
       "205.251.160.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,16 +1,19 @@
 {
-  "asn": 48813,
-  "handle": "ENIX-AS",
-  "description": "Enix SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48813,
+  "metadata" : {
+    "handle" : "ENIX-AS",
+    "description" : "Enix SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.140.108.0/22",
       "185.145.248.0/22",
       "193.19.208.0/22",
       "195.140.140.0/22",
       "195.242.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:4b00::/29"
     ]
   }

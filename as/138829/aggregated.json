@@ -1,16 +1,19 @@
 {
-  "asn": 138829,
-  "handle": "CAPOENG-AS-ID",
-  "description": "PT Capoeng Digital Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138829,
+  "metadata" : {
+    "handle" : "CAPOENG-AS-ID",
+    "description" : "PT Capoeng Digital Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.253.0/24",
       "103.11.132.0/23",
       "103.137.110.0/23",
       "157.66.7.0/24",
       "163.61.58.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:afc0::/32"
     ]
   }

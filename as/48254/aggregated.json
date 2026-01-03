@@ -1,9 +1,12 @@
 {
-  "asn": 48254,
-  "handle": "TWENTYI",
-  "description": "20i Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48254,
+  "metadata" : {
+    "handle" : "TWENTYI",
+    "description" : "20i Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.8.224.0/22",
       "46.247.89.0/24",
       "46.247.90.0/23",
@@ -23,7 +26,7 @@
       "212.78.78.0/24",
       "212.78.85.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:7800::/46",
       "2a07:7800:5::/48",
       "2a07:7800:6::/48",

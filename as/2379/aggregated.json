@@ -1,9 +1,12 @@
 {
-  "asn": 2379,
-  "handle": "CENTURYLINK-LEGACY-EMBARQ-WNPK",
-  "description": "CenturyLink Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2379,
+  "metadata" : {
+    "handle" : "CENTURYLINK-LEGACY-EMBARQ-WNPK",
+    "description" : "CenturyLink Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.45.192.0/19",
       "64.45.224.0/20",
       "65.40.0.0/18",
@@ -99,6 +102,6 @@
       "209.26.0.0/16",
       "209.40.0.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

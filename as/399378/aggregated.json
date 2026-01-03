@@ -1,9 +1,12 @@
 {
-  "asn": 399378,
-  "handle": "SMTC-01",
-  "description": "Stratford Mutual Telephone Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399378,
+  "metadata" : {
+    "handle" : "SMTC-01",
+    "description" : "Stratford Mutual Telephone Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.97.170.0/24",
       "67.55.246.0/24",
       "158.120.120.0/22",
@@ -13,6 +16,6 @@
       "207.199.196.0/23",
       "208.126.204.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 1421,
-  "handle": "WANSEC",
-  "description": "WANSecurity Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1421,
+  "metadata" : {
+    "handle" : "WANSEC",
+    "description" : "WANSecurity Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.247.184.0/21",
       "66.39.192.0/19",
       "66.220.58.0/24",
@@ -23,7 +26,7 @@
       "199.47.196.0/22",
       "199.101.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4848:6000::/36",
       "2606:9100:6000::/36"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 202604,
-  "handle": "NGCLOUD",
-  "description": "NG Cloud SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202604,
+  "metadata" : {
+    "handle" : "NGCLOUD",
+    "description" : "NG Cloud SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.159.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:b380::/29"
     ]
   }

@@ -1,10 +1,13 @@
 {
-  "asn": 133429,
-  "handle": "PHOENIX-AS-AP",
-  "description": "Phoenix",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 133429,
+  "metadata" : {
+    "handle" : "PHOENIX-AS-AP",
+    "description" : "Phoenix",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2400:54a0:2110::/48",
       "2401:31c0:ffff::/48"
     ]

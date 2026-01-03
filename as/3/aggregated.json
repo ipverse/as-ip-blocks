@@ -1,9 +1,12 @@
 {
-  "asn": 3,
-  "handle": "MIT-GATEWAYS",
-  "description": "Massachusetts Institute of Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3,
+  "metadata" : {
+    "handle" : "MIT-GATEWAYS",
+    "description" : "Massachusetts Institute of Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "18.0.0.0/15",
       "18.3.0.0/16",
       "18.4.0.0/14",
@@ -22,7 +25,7 @@
       "192.52.64.0/23",
       "193.242.190.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2603:4000::/31",
       "2603:4007::/32",
       "2603:4008::/31",

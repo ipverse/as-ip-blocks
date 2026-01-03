@@ -1,9 +1,12 @@
 {
-  "asn": 39519,
-  "handle": "MYLOC-ENTERPRISE",
-  "description": "WIIT AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39519,
+  "metadata" : {
+    "handle" : "MYLOC-ENTERPRISE",
+    "description" : "WIIT AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.105.223.0/24",
       "152.89.92.0/22",
       "194.107.165.0/24",
@@ -11,7 +14,7 @@
       "195.191.98.0/24",
       "217.18.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4ba2::/32"
     ]
   }

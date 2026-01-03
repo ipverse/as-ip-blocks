@@ -1,13 +1,16 @@
 {
-  "asn": 136169,
-  "handle": "DBS-NET-AS-AP",
-  "description": "DBS Bank Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136169,
+  "metadata" : {
+    "handle" : "DBS-NET-AS-AP",
+    "description" : "DBS Bank Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.4.38.0/23",
       "203.117.98.0/24",
       "210.79.58.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

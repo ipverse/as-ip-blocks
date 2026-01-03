@@ -1,11 +1,14 @@
 {
-  "asn": 23087,
-  "handle": "CDG",
-  "description": "Communications Data Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23087,
+  "metadata" : {
+    "handle" : "CDG",
+    "description" : "Communications Data Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.31.127.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

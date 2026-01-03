@@ -1,13 +1,16 @@
 {
-  "asn": 47702,
-  "handle": "DISCOVERY-AS",
-  "description": "Teleradiocompany Discovery Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47702,
+  "metadata" : {
+    "handle" : "DISCOVERY-AS",
+    "description" : "Teleradiocompany Discovery Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.175.192.0/20",
       "213.109.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:11d4::/48"
     ]
   }

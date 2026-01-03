@@ -1,15 +1,18 @@
 {
-  "asn": 11989,
-  "handle": "WEBINT",
-  "description": "HostPapa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11989,
+  "metadata" : {
+    "handle" : "WEBINT",
+    "description" : "HostPapa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "70.34.32.0/21",
       "198.55.243.0/24",
       "198.55.244.0/22",
       "198.55.248.0/21",
       "208.88.72.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

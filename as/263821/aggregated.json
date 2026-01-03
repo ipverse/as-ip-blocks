@@ -1,9 +1,12 @@
 {
-  "asn": 263821,
-  "handle": "SOLUCIONES-FAVORABLES",
-  "description": "Soluciones Favorables",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263821,
+  "metadata" : {
+    "handle" : "SOLUCIONES-FAVORABLES",
+    "description" : "Soluciones Favorables",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.59.4.0/22",
       "138.219.120.0/22",
       "161.0.68.0/22",
@@ -14,7 +17,7 @@
       "200.71.124.0/22",
       "200.189.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:e680::/32"
     ]
   }

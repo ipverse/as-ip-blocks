@@ -1,12 +1,15 @@
 {
-  "asn": 22792,
-  "handle": "MNET",
-  "description": "MOUNTAINET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22792,
+  "metadata" : {
+    "handle" : "MNET",
+    "description" : "MOUNTAINET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.145.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:9240::/32"
     ]
   }

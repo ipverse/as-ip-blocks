@@ -1,9 +1,12 @@
 {
-  "asn": 135232,
-  "handle": "IPNETBN-AS-IN",
-  "description": "Ipnet Broadband Network Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135232,
+  "metadata" : {
+    "handle" : "IPNETBN-AS-IN",
+    "description" : "Ipnet Broadband Network Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.133.244.0/23",
       "103.149.20.0/23",
       "103.158.214.0/24",
@@ -11,7 +14,7 @@
       "103.221.208.0/22",
       "165.99.54.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:f1c0::/48"
     ]
   }

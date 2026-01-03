@@ -1,13 +1,16 @@
 {
-  "asn": 52741,
-  "handle": "MC-TELECOM",
-  "description": "MC Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52741,
+  "metadata" : {
+    "handle" : "MC-TELECOM",
+    "description" : "MC Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.255.208.0/22",
       "177.85.104.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:f20::/32"
     ]
   }

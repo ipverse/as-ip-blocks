@@ -1,12 +1,15 @@
 {
-  "asn": 270280,
-  "handle": "AS-SANTOS",
-  "description": "AS DOS SANTOS ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270280,
+  "metadata" : {
+    "handle" : "AS-SANTOS",
+    "description" : "AS DOS SANTOS ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.125.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:699c::/32"
     ]
   }

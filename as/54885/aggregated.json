@@ -1,15 +1,18 @@
 {
-  "asn": 54885,
-  "handle": "STATE-OF-IDAHO-SECONDARY-ASN",
-  "description": "State of Idaho",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54885,
+  "metadata" : {
+    "handle" : "STATE-OF-IDAHO-SECONDARY-ASN",
+    "description" : "State of Idaho",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.165.0.0/16",
       "192.102.16.0/24",
       "192.207.45.0/24",
       "204.144.104.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2601:3000::/28"
     ]
   }

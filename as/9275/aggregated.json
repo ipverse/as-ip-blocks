@@ -1,9 +1,12 @@
 {
-  "asn": 9275,
-  "handle": "KASI-AS",
-  "description": "Korea Astronomy Observatory",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9275,
+  "metadata" : {
+    "handle" : "KASI-AS",
+    "description" : "Korea Astronomy Observatory",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.8.230.0/24",
       "103.43.64.0/24",
       "203.253.237.0/24",
@@ -12,6 +15,6 @@
       "210.110.234.0/24",
       "210.219.33.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

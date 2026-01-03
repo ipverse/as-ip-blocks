@@ -1,12 +1,15 @@
 {
-  "asn": 21328,
-  "handle": "NBP-AS",
-  "description": "National Bank of Poland",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21328,
+  "metadata" : {
+    "handle" : "NBP-AS",
+    "description" : "National Bank of Poland",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.109.212.0/24",
       "195.85.196.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 263255,
-  "handle": "INFOTECNET-ISP",
-  "description": "INFOTECNET ISP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263255,
+  "metadata" : {
+    "handle" : "INFOTECNET-ISP",
+    "description" : "INFOTECNET ISP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.180.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:17dc::/32"
     ]
   }

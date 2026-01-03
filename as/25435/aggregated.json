@@ -1,13 +1,16 @@
 {
-  "asn": 25435,
-  "handle": "META10-AS",
-  "description": "META10 AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25435,
+  "metadata" : {
+    "handle" : "META10-AS",
+    "description" : "META10 AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.121.192.0/18",
       "185.166.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:2d40::/48"
     ]
   }

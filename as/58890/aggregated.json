@@ -1,9 +1,12 @@
 {
-  "asn": 58890,
-  "handle": "INFOLINK1-BD",
-  "description": "InfoLink",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58890,
+  "metadata" : {
+    "handle" : "INFOLINK1-BD",
+    "description" : "InfoLink",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.120.38.0/23",
       "103.19.130.0/23",
       "103.62.144.0/23",
@@ -11,7 +14,7 @@
       "103.116.182.0/24",
       "202.74.48.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:fec0::/32",
       "2404:6180::/32"
     ]

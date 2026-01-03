@@ -1,9 +1,12 @@
 {
-  "asn": 2134,
-  "handle": "GSVNET-AS",
-  "description": "Santander Global Technology S.L.U",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2134,
+  "metadata" : {
+    "handle" : "GSVNET-AS",
+    "description" : "Santander Global Technology S.L.U",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.164.11.0/24",
       "62.164.12.0/23",
       "62.164.14.0/24",
@@ -39,6 +42,6 @@
       "195.76.19.0/24",
       "195.149.208.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 14537,
-  "handle": "CL-1379-14537",
-  "description": "Continent 8 LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14537,
+  "metadata" : {
+    "handle" : "CL-1379-14537",
+    "description" : "Continent 8 LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.62.80.0/20",
       "45.85.4.0/22",
       "45.127.116.0/22",
@@ -32,7 +35,7 @@
       "193.33.228.0/23",
       "199.45.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:1d80::/32",
       "2606:ca00::/32",
       "2a03:9e00::/32"

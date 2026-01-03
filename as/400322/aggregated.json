@@ -1,14 +1,17 @@
 {
-  "asn": 400322,
-  "handle": "NGTEL",
-  "description": "NGTel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400322,
+  "metadata" : {
+    "handle" : "NGTEL",
+    "description" : "NGTel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "205.235.16.0/21",
       "205.235.24.0/22",
       "205.235.29.0/24",
       "205.235.30.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

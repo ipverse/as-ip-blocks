@@ -1,9 +1,12 @@
 {
-  "asn": 46015,
-  "handle": "EXABYTES-AS-AP",
-  "description": "Exa Bytes Network Sdn.Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46015,
+  "metadata" : {
+    "handle" : "EXABYTES-AS-AP",
+    "description" : "Exa Bytes Network Sdn.Bhd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "42.1.60.0/22",
       "43.252.212.0/22",
       "45.127.4.0/22",
@@ -18,7 +21,7 @@
       "137.59.108.0/22",
       "203.142.4.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:6c00::/32"
     ]
   }

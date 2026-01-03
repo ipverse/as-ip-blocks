@@ -1,14 +1,17 @@
 {
-  "asn": 19008,
-  "handle": "PSCI",
-  "description": "Perry-Spencer Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19008,
+  "metadata" : {
+    "handle" : "PSCI",
+    "description" : "Perry-Spencer Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "96.31.192.0/20",
       "209.239.96.0/20",
       "216.49.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fb40::/32"
     ]
   }

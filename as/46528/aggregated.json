@@ -1,9 +1,12 @@
 {
-  "asn": 46528,
-  "handle": "JRSIMP",
-  "description": "J.R. Simplot Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46528,
+  "metadata" : {
+    "handle" : "JRSIMP",
+    "description" : "J.R. Simplot Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "151.113.64.0/23",
       "151.113.74.0/24",
       "151.113.103.0/24",
@@ -16,6 +19,6 @@
       "151.113.255.0/24",
       "203.55.179.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

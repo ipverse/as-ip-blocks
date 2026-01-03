@@ -1,9 +1,12 @@
 {
-  "asn": 56595,
-  "handle": "FLUENCY",
-  "description": "Fluency Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56595,
+  "metadata" : {
+    "handle" : "FLUENCY",
+    "description" : "Fluency Communications Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.149.252.0/22",
       "46.226.0.0/21",
       "89.32.88.0/21",
@@ -36,7 +39,7 @@
       "195.95.134.0/24",
       "195.230.123.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:74c::/48",
       "2a00:a600::/32"
     ]

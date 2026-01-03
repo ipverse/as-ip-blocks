@@ -1,11 +1,14 @@
 {
-  "asn": 199120,
-  "handle": "SINARA-GROUP-AS",
-  "description": "AO Sinara Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199120,
+  "metadata" : {
+    "handle" : "SINARA-GROUP-AS",
+    "description" : "AO Sinara Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.242.193.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

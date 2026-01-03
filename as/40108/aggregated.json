@@ -1,9 +1,12 @@
 {
-  "asn": 40108,
-  "handle": "LOGNET",
-  "description": "LOGNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40108,
+  "metadata" : {
+    "handle" : "LOGNET",
+    "description" : "LOGNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.207.206.0/24",
       "66.97.164.0/24",
       "74.122.172.0/22",
@@ -18,6 +21,6 @@
       "209.94.82.0/23",
       "209.251.246.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

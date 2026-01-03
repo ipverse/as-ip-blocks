@@ -1,9 +1,12 @@
 {
-  "asn": 400180,
-  "handle": "FMTC-STANTON",
-  "description": "The Farmers Mutual Telephone Company of Stanton Iowa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400180,
+  "metadata" : {
+    "handle" : "FMTC-STANTON",
+    "description" : "The Farmers Mutual Telephone Company of Stanton Iowa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.22.192.0/20",
       "167.142.190.0/24",
       "192.230.130.0/24",
@@ -14,6 +17,6 @@
       "216.51.250.0/24",
       "216.248.71.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

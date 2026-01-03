@@ -1,9 +1,12 @@
 {
-  "asn": 9416,
-  "handle": "MULTIMEDIA-AS-AP",
-  "description": "Hoshin Multimedia Center Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9416,
+  "metadata" : {
+    "handle" : "MULTIMEDIA-AS-AP",
+    "description" : "Hoshin Multimedia Center Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.114.0.0/15",
       "61.70.0.0/15",
       "111.184.0.0/15",
@@ -31,7 +34,7 @@
       "219.70.0.0/15",
       "220.157.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:d58::/32"
     ]
   }

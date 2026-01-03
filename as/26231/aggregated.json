@@ -1,11 +1,14 @@
 {
-  "asn": 26231,
-  "handle": "SFIA-ASN",
-  "description": "San Francisco International Airport",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26231,
+  "metadata" : {
+    "handle" : "SFIA-ASN",
+    "description" : "San Francisco International Airport",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.9.96.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

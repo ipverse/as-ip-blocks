@@ -1,13 +1,16 @@
 {
-  "asn": 19001,
-  "handle": "YELPCORP",
-  "description": "Yelp! Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19001,
+  "metadata" : {
+    "handle" : "YELPCORP",
+    "description" : "Yelp! Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.153.227.0/24",
       "185.98.173.0/24",
       "185.98.174.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 9858,
-  "handle": "KRNICNET",
-  "description": "Korea Internet Security Agency",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9858,
+  "metadata" : {
+    "handle" : "KRNICNET",
+    "description" : "Korea Internet Security Agency",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.8.0.0/24",
       "49.8.2.0/24",
       "49.8.4.0/24",
@@ -18,7 +21,7 @@
       "192.132.15.0/24",
       "202.20.85.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:c98::/32"
     ]
   }

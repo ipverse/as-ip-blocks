@@ -1,9 +1,12 @@
 {
-  "asn": 272432,
-  "handle": "MAGAZINE-LUIZA",
-  "description": "MAGAZINE LUIZA S/A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272432,
+  "metadata" : {
+    "handle" : "MAGAZINE-LUIZA",
+    "description" : "MAGAZINE LUIZA S/A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.84.12.0/23",
       "86.111.54.0/23",
       "148.59.72.0/24",
@@ -31,7 +34,7 @@
       "209.172.6.0/23",
       "213.163.246.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:80:3ea0::/46",
       "2801:80:3ea4::/48",
       "2801:80:3ead::/48",

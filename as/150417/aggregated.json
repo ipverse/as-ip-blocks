@@ -1,11 +1,14 @@
 {
-  "asn": 150417,
-  "handle": "MANUHOST-AS-AP",
-  "description": "Manu Host",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150417,
+  "metadata" : {
+    "handle" : "MANUHOST-AS-AP",
+    "description" : "Manu Host",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.37.185.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

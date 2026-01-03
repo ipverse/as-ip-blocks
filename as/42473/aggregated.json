@@ -1,9 +1,12 @@
 {
-  "asn": 42473,
-  "handle": "AS-ANEXIA",
-  "description": "Anexia Cloud Solutions GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42473,
+  "metadata" : {
+    "handle" : "AS-ANEXIA",
+    "description" : "Anexia Cloud Solutions GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.104.0/22",
       "37.235.3.0/24",
       "37.235.4.0/23",
@@ -125,7 +128,7 @@
       "217.146.20.0/22",
       "217.146.24.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:240::/48",
       "2605:380:19::/48",
       "2605:380:32::/48",

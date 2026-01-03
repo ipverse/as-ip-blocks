@@ -1,9 +1,12 @@
 {
-  "asn": 8000,
-  "handle": "DWX-AS",
-  "description": "Waddell Digital Imaging Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8000,
+  "metadata" : {
+    "handle" : "DWX-AS",
+    "description" : "Waddell Digital Imaging Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.206.192.0/23",
       "207.206.197.0/24",
       "207.206.198.0/24",
@@ -14,6 +17,6 @@
       "207.206.210.0/23",
       "207.206.223.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

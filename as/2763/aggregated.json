@@ -1,9 +1,12 @@
 {
-  "asn": 2763,
-  "handle": "PAN-22-2763",
-  "description": "Palo Alto Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2763,
+  "metadata" : {
+    "handle" : "PAN-22-2763",
+    "description" : "Palo Alto Networks Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.41.254.0/23",
       "144.125.199.0/24",
       "144.125.200.0/22",
@@ -11,6 +14,6 @@
       "144.125.209.0/24",
       "169.224.139.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 137015,
-  "handle": "STARNETWORKBD-AS-AP",
-  "description": "Star Network BD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137015,
+  "metadata" : {
+    "handle" : "STARNETWORKBD-AS-AP",
+    "description" : "Star Network BD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.179.156.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:4fc0::/48"
     ]
   }

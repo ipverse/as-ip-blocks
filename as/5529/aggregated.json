@@ -1,12 +1,15 @@
 {
-  "asn": 5529,
-  "handle": "DIAG-AS",
-  "description": "Diag Dienstleistungen AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5529,
+  "metadata" : {
+    "handle" : "DIAG-AS",
+    "description" : "Diag Dienstleistungen AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.166.159.0/24",
       "195.130.218.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 134100,
-  "handle": "EXPRESSDATA-AS",
-  "description": "Express Data Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134100,
+  "metadata" : {
+    "handle" : "EXPRESSDATA-AS",
+    "description" : "Express Data Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.251.205.0/24",
       "103.48.204.0/22",
       "223.27.224.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 3709,
-  "handle": "NET-CITY-SA",
-  "description": "City of San Antonio",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3709,
+  "metadata" : {
+    "handle" : "NET-CITY-SA",
+    "description" : "City of San Antonio",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.226.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

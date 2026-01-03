@@ -1,12 +1,15 @@
 {
-  "asn": 202970,
-  "handle": "MITSERV",
-  "description": "MITServ B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202970,
+  "metadata" : {
+    "handle" : "MITSERV",
+    "description" : "MITServ B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.148.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:62c0::/29"
     ]
   }

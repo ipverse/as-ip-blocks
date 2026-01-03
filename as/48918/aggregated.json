@@ -1,9 +1,12 @@
 {
-  "asn": 48918,
-  "handle": "GLOBALWAYS",
-  "description": "Globalways GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48918,
+  "metadata" : {
+    "handle" : "GLOBALWAYS",
+    "description" : "Globalways GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.182.178.0/24",
       "80.66.96.0/20",
       "91.220.129.0/24",
@@ -26,7 +29,7 @@
       "195.191.26.0/23",
       "212.58.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:fb80::/48",
       "2a02:c98::/32",
       "2a06:fbc0::/29",

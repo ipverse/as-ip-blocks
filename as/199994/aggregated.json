@@ -1,12 +1,15 @@
 {
-  "asn": 199994,
-  "handle": "RUBICON-AS",
-  "description": "RUBICON IT GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199994,
+  "metadata" : {
+    "handle" : "RUBICON-AS",
+    "description" : "RUBICON IT GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.214.139.0/24",
       "193.104.34.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

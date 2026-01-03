@@ -1,12 +1,15 @@
 {
-  "asn": 57260,
-  "handle": "FERATEL-CH-AS",
-  "description": "feratel Schweiz AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57260,
+  "metadata" : {
+    "handle" : "FERATEL-CH-AS",
+    "description" : "feratel Schweiz AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.41.136.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:588::/48"
     ]
   }

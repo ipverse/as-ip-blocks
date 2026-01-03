@@ -1,15 +1,18 @@
 {
-  "asn": 48479,
-  "handle": "KUBAN-TELECOM-AS",
-  "description": "KUBAN-TELECOM Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48479,
+  "metadata" : {
+    "handle" : "KUBAN-TELECOM-AS",
+    "description" : "KUBAN-TELECOM Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.18.200.0/21",
       "151.252.104.0/21",
       "185.52.28.0/22",
       "185.52.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:aa80::/32"
     ]
   }

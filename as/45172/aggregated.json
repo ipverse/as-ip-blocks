@@ -1,9 +1,12 @@
 {
-  "asn": 45172,
-  "handle": "JADE-NZ-AS-AP",
-  "description": "Jade Software Corporation Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45172,
+  "metadata" : {
+    "handle" : "JADE-NZ-AS-AP",
+    "description" : "Jade Software Corporation Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.96.1.0/24",
       "143.96.2.0/23",
       "143.96.4.0/22",
@@ -13,6 +16,6 @@
       "143.96.64.0/18",
       "143.96.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

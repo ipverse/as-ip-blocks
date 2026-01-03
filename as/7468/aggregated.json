@@ -1,9 +1,12 @@
 {
-  "asn": 7468,
-  "handle": "CYBEREC-AS-AP",
-  "description": "Superhub Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7468,
+  "metadata" : {
+    "handle" : "CYBEREC-AS-AP",
+    "description" : "Superhub Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.214.110.0/23",
       "139.220.198.0/23",
       "192.23.18.0/24",
@@ -18,7 +21,7 @@
       "220.232.211.0/24",
       "222.126.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:2a00::/32"
     ]
   }

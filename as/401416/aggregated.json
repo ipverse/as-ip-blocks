@@ -1,14 +1,17 @@
 {
-  "asn": 401416,
-  "handle": "AURA-AS",
-  "description": "Aurascape Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401416,
+  "metadata" : {
+    "handle" : "AURA-AS",
+    "description" : "Aurascape Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.123.9.0/24",
       "74.123.11.0/24",
       "162.212.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:dd40:1700::/40",
       "2607:dd40:1f00::/40"
     ]

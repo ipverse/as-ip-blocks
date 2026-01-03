@@ -1,13 +1,16 @@
 {
-  "asn": 134345,
-  "handle": "GIGA5-AS",
-  "description": "Giga5 Fiber Network Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134345,
+  "metadata" : {
+    "handle" : "GIGA5-AS",
+    "description" : "Giga5 Fiber Network Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.76.56.0/22",
       "103.157.130.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:bcc0::/48"
     ]
   }

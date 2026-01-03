@@ -1,9 +1,12 @@
 {
-  "asn": 58640,
-  "handle": "NEXTRA-IN",
-  "description": "NEXTRA TELESERVICES PVT. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58640,
+  "metadata" : {
+    "handle" : "NEXTRA-IN",
+    "description" : "NEXTRA TELESERVICES PVT. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.239.68.0/23",
       "43.239.70.0/24",
       "103.14.124.0/22",
@@ -15,7 +18,7 @@
       "144.48.76.0/22",
       "163.47.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:6b00::/32"
     ]
   }

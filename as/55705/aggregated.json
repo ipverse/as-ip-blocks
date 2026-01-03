@@ -1,9 +1,12 @@
 {
-  "asn": 55705,
-  "handle": "INDIATIMES-IN",
-  "description": "Times Internet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55705,
+  "metadata" : {
+    "handle" : "INDIATIMES-IN",
+    "description" : "Times Internet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.124.108.0/23",
       "103.10.76.0/23",
       "103.18.140.0/23",
@@ -19,7 +22,7 @@
       "203.55.102.0/23",
       "223.165.24.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:3c80:1::/48"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 131125,
-  "handle": "TVSI-AS-VN",
-  "description": "TVSI-VN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131125,
+  "metadata" : {
+    "handle" : "TVSI-AS-VN",
+    "description" : "TVSI-VN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.134.54.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

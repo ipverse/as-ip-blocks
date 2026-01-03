@@ -1,13 +1,16 @@
 {
-  "asn": 62624,
-  "handle": "NUCLEUS",
-  "description": "Nucleus",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62624,
+  "metadata" : {
+    "handle" : "NUCLEUS",
+    "description" : "Nucleus",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.21.24.0/22",
       "66.33.72.0/22",
       "76.76.8.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

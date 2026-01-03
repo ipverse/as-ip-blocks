@@ -1,15 +1,18 @@
 {
-  "asn": 11698,
-  "handle": "WIATEL",
-  "description": "WESTERN IOWA TELEPHONE ASSOCIATION (A COOPERATIVE)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11698,
+  "metadata" : {
+    "handle" : "WIATEL",
+    "description" : "WESTERN IOWA TELEPHONE ASSOCIATION (A COOPERATIVE)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.78.128.0/20",
       "173.215.66.0/24",
       "208.126.75.0/24",
       "216.51.168.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:2e40::/32"
     ]
   }

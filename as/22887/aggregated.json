@@ -1,12 +1,15 @@
 {
-  "asn": 22887,
-  "handle": "WIU-AS",
-  "description": "Western Illinois University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22887,
+  "metadata" : {
+    "handle" : "WIU-AS",
+    "description" : "Western Illinois University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.43.128.0/17",
       "207.246.160.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

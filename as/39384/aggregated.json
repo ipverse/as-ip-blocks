@@ -1,14 +1,17 @@
 {
-  "asn": 39384,
-  "handle": "RACKFIBER",
-  "description": "Dream Fusion - IT Services Lda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39384,
+  "metadata" : {
+    "handle" : "RACKFIBER",
+    "description" : "Dream Fusion - IT Services Lda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.154.64.0/22",
       "185.118.112.0/22",
       "185.240.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:6420::/32",
       "2a0d:3b80::/29",
       "2a0f:c707::/32"

@@ -1,15 +1,18 @@
 {
-  "asn": 202891,
-  "handle": "MULTICOM-IOT",
-  "description": "AddSecure AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202891,
+  "metadata" : {
+    "handle" : "MULTICOM-IOT",
+    "description" : "AddSecure AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.117.170.0/23",
       "85.117.172.0/24",
       "85.117.180.0/22",
       "85.117.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:bcc::/48"
     ]
   }

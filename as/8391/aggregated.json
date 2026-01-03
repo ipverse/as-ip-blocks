@@ -1,9 +1,12 @@
 {
-  "asn": 8391,
-  "handle": "KNIPP-AS",
-  "description": "Knipp Medien und Kommunikation GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8391,
+  "metadata" : {
+    "handle" : "KNIPP-AS",
+    "description" : "Knipp Medien und Kommunikation GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.138.32.0/22",
       "195.138.38.0/24",
       "195.138.54.0/24",
@@ -14,7 +17,7 @@
       "195.253.128.0/18",
       "195.253.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5b0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 131958,
-  "handle": "T-NET",
-  "description": "Tama Cable Network Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131958,
+  "metadata" : {
+    "handle" : "T-NET",
+    "description" : "Tama Cable Network Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.144.122.0/23",
       "133.32.192.0/21",
       "133.226.176.0/21",
@@ -11,7 +14,7 @@
       "157.14.64.0/20",
       "202.233.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:6cc0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 400060,
-  "handle": "EY-AS-DSFW",
-  "description": "Ernst \u0026 Young LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400060,
+  "metadata" : {
+    "handle" : "EY-AS-DSFW",
+    "description" : "Ernst & Young LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.134.51.0/24",
       "198.134.52.0/24",
       "199.49.30.0/23",
@@ -11,6 +14,6 @@
       "199.49.160.0/24",
       "199.51.208.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

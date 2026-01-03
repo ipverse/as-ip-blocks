@@ -1,9 +1,12 @@
 {
-  "asn": 16698,
-  "handle": "NP-TECH",
-  "description": "NP Tech",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16698,
+  "metadata" : {
+    "handle" : "NP-TECH",
+    "description" : "NP Tech",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.87.72.0/21",
       "38.143.184.0/21",
       "38.240.64.0/21",
@@ -12,6 +15,6 @@
       "66.249.232.0/22",
       "199.21.192.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

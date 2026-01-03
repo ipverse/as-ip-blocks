@@ -1,9 +1,12 @@
 {
-  "asn": 140869,
-  "handle": "TGL-AS-AP",
-  "description": "Turing Group Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140869,
+  "metadata" : {
+    "handle" : "TGL-AS-AP",
+    "description" : "Turing Group Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.49.29.0/24",
       "38.49.30.0/24",
       "38.60.125.0/24",
@@ -26,6 +29,6 @@
       "156.225.80.0/20",
       "204.194.48.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

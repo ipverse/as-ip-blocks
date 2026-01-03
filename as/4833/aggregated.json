@@ -1,13 +1,16 @@
 {
-  "asn": 4833,
-  "handle": "GAHARU-AS-ID",
-  "description": "PT. Gaharu Sejahtera",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4833,
+  "metadata" : {
+    "handle" : "GAHARU-AS-ID",
+    "description" : "PT. Gaharu Sejahtera",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.149.128.0/21",
       "202.149.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:600::/32"
     ]
   }

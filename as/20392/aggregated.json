@@ -1,12 +1,15 @@
 {
-  "asn": 20392,
-  "handle": "WESTPANET",
-  "description": "WestPAnet Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20392,
+  "metadata" : {
+    "handle" : "WESTPANET",
+    "description" : "WestPAnet Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.110.96.0/19",
       "173.231.66.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

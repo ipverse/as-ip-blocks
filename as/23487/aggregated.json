@@ -1,15 +1,18 @@
 {
-  "asn": 23487,
-  "handle": "CONECEL",
-  "description": "CONECEL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23487,
+  "metadata" : {
+    "handle" : "CONECEL",
+    "description" : "CONECEL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.178.38.0/24",
       "190.63.0.0/16",
       "190.111.64.0/19",
       "200.25.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:430::/34",
       "2800:430:6000::/48",
       "2800:430:a000::/35",

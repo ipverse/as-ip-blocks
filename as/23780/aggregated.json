@@ -1,16 +1,19 @@
 {
-  "asn": 23780,
-  "handle": "CTB",
-  "description": "CTB Media Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23780,
+  "metadata" : {
+    "handle" : "CTB",
+    "description" : "CTB Media Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.128.24.0/21",
       "49.128.96.0/22",
       "203.201.52.0/22",
       "211.15.112.0/20",
       "211.19.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:6c80::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 26649,
-  "handle": "GDCLSD-AS",
-  "description": "General Dynamics Land Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26649,
+  "metadata" : {
+    "handle" : "GDCLSD-AS",
+    "description" : "General Dynamics Land Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.136.15.0/24",
       "198.136.134.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

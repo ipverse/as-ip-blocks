@@ -1,9 +1,12 @@
 {
-  "asn": 137166,
-  "handle": "SATNECOM-AS",
-  "description": "Satellite Netcom Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137166,
+  "metadata" : {
+    "handle" : "SATNECOM-AS",
+    "description" : "Satellite Netcom Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.115.52.0/22",
       "103.87.164.0/22",
       "103.105.10.0/23",
@@ -18,7 +21,7 @@
       "103.251.48.0/22",
       "150.242.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:6a80::/48",
       "2400:e5e0::/32"
     ]

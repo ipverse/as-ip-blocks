@@ -1,9 +1,12 @@
 {
-  "asn": 15486,
-  "handle": "MATERNA-AS",
-  "description": "Materna Information \u0026 Communications SE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15486,
+  "metadata" : {
+    "handle" : "MATERNA-AS",
+    "description" : "Materna Information & Communications SE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.2.0.0/23",
       "139.2.4.0/24",
       "139.2.8.0/24",
@@ -13,6 +16,6 @@
       "139.2.206.0/23",
       "193.96.112.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

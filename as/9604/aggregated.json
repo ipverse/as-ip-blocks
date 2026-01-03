@@ -1,13 +1,16 @@
 {
-  "asn": 9604,
-  "handle": "FSI-AS",
-  "description": "FUJI SOFT INCORPORATED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9604,
+  "metadata" : {
+    "handle" : "FSI-AS",
+    "description" : "FUJI SOFT INCORPORATED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.120.128.0/19",
       "202.149.0.0/20",
       "202.149.16.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

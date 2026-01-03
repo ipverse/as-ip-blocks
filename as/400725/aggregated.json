@@ -1,14 +1,17 @@
 {
-  "asn": 400725,
-  "handle": "ZEPHYR-MONITORS-LLC",
-  "description": "Zephyr Monitors LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400725,
+  "metadata" : {
+    "handle" : "ZEPHYR-MONITORS-LLC",
+    "description" : "Zephyr Monitors LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.26.134.0/24",
       "69.176.91.0/24",
       "199.45.241.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:dbc0::/32"
     ]
   }

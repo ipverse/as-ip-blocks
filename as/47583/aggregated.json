@@ -1,9 +1,12 @@
 {
-  "asn": 47583,
-  "handle": "AS-HOSTINGER",
-  "description": "Hostinger International Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47583,
+  "metadata" : {
+    "handle" : "AS-HOSTINGER",
+    "description" : "Hostinger International Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.88.0/22",
       "2.59.150.0/24",
       "5.180.60.0/24",
@@ -367,7 +370,7 @@
       "217.196.48.0/20",
       "223.27.112.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:4780::/47",
       "2a02:4780:3::/48",
       "2a02:4780:6::/48",

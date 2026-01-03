@@ -1,15 +1,18 @@
 {
-  "asn": 33052,
-  "handle": "VZUNET",
-  "description": "Verizon Business",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33052,
+  "metadata" : {
+    "handle" : "VZUNET",
+    "description" : "Verizon Business",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "140.108.0.0/22",
       "140.108.13.0/24",
       "140.108.20.0/22",
       "140.108.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:1601::/48"
     ]
   }

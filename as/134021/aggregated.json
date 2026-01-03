@@ -1,9 +1,12 @@
 {
-  "asn": 134021,
-  "handle": "AIRGENIE-AS",
-  "description": "Airgenie Communications Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134021,
+  "metadata" : {
+    "handle" : "AIRGENIE-AS",
+    "description" : "Airgenie Communications Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.43.65.0/24",
       "103.54.220.0/22",
       "103.66.14.0/23",
@@ -15,7 +18,7 @@
       "103.220.36.0/22",
       "202.168.156.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:a700::/48",
       "2001:df6:7f80::/48",
       "2405:6040::/32"

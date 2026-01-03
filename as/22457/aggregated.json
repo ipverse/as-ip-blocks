@@ -1,9 +1,12 @@
 {
-  "asn": 22457,
-  "handle": "CCI",
-  "description": "Xplore Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22457,
+  "metadata" : {
+    "handle" : "CCI",
+    "description" : "Xplore Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.56.132.0/23",
       "64.56.138.0/23",
       "64.56.148.0/23",
@@ -22,6 +25,6 @@
       "199.188.112.0/22",
       "216.238.224.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

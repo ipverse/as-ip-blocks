@@ -1,10 +1,13 @@
 {
-  "asn": 206445,
-  "handle": "LERESEAUVERT",
-  "description": "LE RESEAU VERT",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 206445,
+  "metadata" : {
+    "handle" : "LERESEAUVERT",
+    "description" : "LE RESEAU VERT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a01:e901:164::/48",
       "2a01:e901:174::/48",
       "2a0b:b81:3504::/48",

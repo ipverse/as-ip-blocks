@@ -1,13 +1,16 @@
 {
-  "asn": 289,
-  "handle": "DNIC-AS-00289",
-  "description": "Headquarters USAISC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 289,
+  "metadata" : {
+    "handle" : "DNIC-AS-00289",
+    "description" : "Headquarters USAISC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.194.0.0/16",
       "147.241.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:480:36::/48"
     ]
   }

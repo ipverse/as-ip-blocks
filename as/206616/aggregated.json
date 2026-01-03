@@ -1,13 +1,16 @@
 {
-  "asn": 206616,
-  "handle": "CH-WWCOM-1",
-  "description": "wwcom AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206616,
+  "metadata" : {
+    "handle" : "CH-WWCOM-1",
+    "description" : "wwcom AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.149.92.0/22",
       "212.15.88.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:7a80::/29"
     ]
   }

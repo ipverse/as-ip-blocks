@@ -1,11 +1,14 @@
 {
-  "asn": 30216,
-  "handle": "STARMAX",
-  "description": "StarMax Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30216,
+  "metadata" : {
+    "handle" : "STARMAX",
+    "description" : "StarMax Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "173.227.192.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

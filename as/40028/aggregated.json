@@ -1,9 +1,12 @@
 {
-  "asn": 40028,
-  "handle": "AS40028",
-  "description": "1651884 Ontario Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40028,
+  "metadata" : {
+    "handle" : "AS40028",
+    "description" : "1651884 Ontario Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.213.64.0/19",
       "104.193.48.0/21",
       "162.218.126.0/24",
@@ -15,7 +18,7 @@
       "208.68.88.0/21",
       "208.76.104.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f938::/32"
     ]
   }

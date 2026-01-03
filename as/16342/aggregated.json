@@ -1,16 +1,19 @@
 {
-  "asn": 16342,
-  "handle": "TOYA",
-  "description": "Toya sp.z.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16342,
+  "metadata" : {
+    "handle" : "TOYA",
+    "description" : "Toya sp.z.o.o",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.182.0.0/15",
       "77.237.0.0/19",
       "85.89.160.0/19",
       "185.67.216.0/22",
       "217.113.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:af80::/29"
     ]
   }

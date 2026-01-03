@@ -1,13 +1,16 @@
 {
-  "asn": 59615,
-  "handle": "SERVERUM-AS",
-  "description": "SIA Serverum",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59615,
+  "metadata" : {
+    "handle" : "SERVERUM-AS",
+    "description" : "SIA Serverum",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.144.36.0/23",
       "192.144.39.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:80::/29"
     ]
   }

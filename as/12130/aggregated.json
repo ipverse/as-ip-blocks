@@ -1,13 +1,16 @@
 {
-  "asn": 12130,
-  "handle": "BANDWIDTH-US",
-  "description": "Bandwidth Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12130,
+  "metadata" : {
+    "handle" : "BANDWIDTH-US",
+    "description" : "Bandwidth Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.231.0.0/20",
       "109.71.152.0/23",
       "216.82.224.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

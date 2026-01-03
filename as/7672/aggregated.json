@@ -1,9 +1,12 @@
 {
-  "asn": 7672,
-  "handle": "FITWEB",
-  "description": "Hokuden Information System Service Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7672,
+  "metadata" : {
+    "handle" : "FITWEB",
+    "description" : "Hokuden Information System Service Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.133.192.0/20",
       "61.215.224.0/20",
       "101.96.32.0/19",
@@ -22,7 +25,7 @@
       "218.223.208.0/20",
       "218.228.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:200::/32"
     ]
   }

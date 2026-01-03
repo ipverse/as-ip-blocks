@@ -1,9 +1,12 @@
 {
-  "asn": 63186,
-  "handle": "CALLONE-1",
-  "description": "Call One Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63186,
+  "metadata" : {
+    "handle" : "CALLONE-1",
+    "description" : "Call One Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.71.172.0/24",
       "74.82.56.0/24",
       "104.192.60.0/22",
@@ -16,6 +19,6 @@
       "216.66.33.0/24",
       "216.66.46.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

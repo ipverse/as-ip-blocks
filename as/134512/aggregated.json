@@ -1,15 +1,18 @@
 {
-  "asn": 134512,
-  "handle": "HWSPL-AS-AP",
-  "description": "HostPalace Web Solution PVT LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134512,
+  "metadata" : {
+    "handle" : "HWSPL-AS-AP",
+    "description" : "HostPalace Web Solution PVT LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.194.168.0/23",
       "103.194.171.0/24",
       "103.248.53.0/24",
       "103.248.54.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:9980::/32"
     ]
   }

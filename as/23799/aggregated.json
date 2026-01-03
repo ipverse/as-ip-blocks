@@ -1,12 +1,15 @@
 {
-  "asn": 23799,
-  "handle": "NDA",
-  "description": "National Defense Academy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23799,
+  "metadata" : {
+    "handle" : "NDA",
+    "description" : "National Defense Academy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.25.82.0/23",
       "202.25.84.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

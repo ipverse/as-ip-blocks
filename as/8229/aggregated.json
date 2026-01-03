@@ -1,10 +1,13 @@
 {
-  "asn": 8229,
-  "handle": "KIBERNET-AS",
-  "description": "KiberNet Kft",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 8229,
+  "metadata" : {
+    "handle" : "KIBERNET-AS",
+    "description" : "KiberNet Kft.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0b:2542:900::/40"
     ]
   }

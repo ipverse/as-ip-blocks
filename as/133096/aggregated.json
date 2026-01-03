@@ -1,12 +1,15 @@
 {
-  "asn": 133096,
-  "handle": "MOTHERSHIP-AS-AP",
-  "description": "MOTHERSHIP LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133096,
+  "metadata" : {
+    "handle" : "MOTHERSHIP-AS-AP",
+    "description" : "MOTHERSHIP LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.249.200.0/22",
       "103.242.244.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

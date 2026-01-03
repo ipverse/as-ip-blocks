@@ -1,9 +1,12 @@
 {
-  "asn": 207992,
-  "handle": "FEELB",
-  "description": "FEELB SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207992,
+  "metadata" : {
+    "handle" : "FEELB",
+    "description" : "FEELB SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.132.96.0/24",
       "45.145.164.0/22",
       "45.158.76.0/23",
@@ -18,7 +21,7 @@
       "194.9.172.0/23",
       "194.11.20.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:ecc0::/29",
       "2a13:9500:4f::/48"
     ]

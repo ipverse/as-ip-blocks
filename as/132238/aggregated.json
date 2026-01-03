@@ -1,12 +1,15 @@
 {
-  "asn": 132238,
-  "handle": "AHSL-AS-AP",
-  "description": "Array Health",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132238,
+  "metadata" : {
+    "handle" : "AHSL-AS-AP",
+    "description" : "Array Health",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.96.76.0/24",
       "160.191.247.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

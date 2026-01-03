@@ -1,16 +1,19 @@
 {
-  "asn": 46886,
-  "handle": "TEKIFY-BROADBAND",
-  "description": "Tekify Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46886,
+  "metadata" : {
+    "handle" : "TEKIFY-BROADBAND",
+    "description" : "Tekify Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.36.252.0/22",
       "104.193.128.0/22",
       "158.51.192.0/22",
       "165.140.16.0/22",
       "170.178.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ffa4::/36"
     ]
   }

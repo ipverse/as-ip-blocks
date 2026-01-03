@@ -1,9 +1,12 @@
 {
-  "asn": 41107,
-  "handle": "BACKBONE-CONNECT",
-  "description": "Backbone Connect Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41107,
+  "metadata" : {
+    "handle" : "BACKBONE-CONNECT",
+    "description" : "Backbone Connect Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.133.240.0/21",
       "80.208.216.0/22",
       "80.208.220.0/24",
@@ -17,7 +20,7 @@
       "195.60.208.0/22",
       "217.61.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:bc40::/29"
     ]
   }

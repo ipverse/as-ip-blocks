@@ -1,10 +1,13 @@
 {
-  "asn": 153663,
-  "handle": "SAKURALINK-AS-AP",
-  "description": "SAKURA LINK LIMITED",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 153663,
+  "metadata" : {
+    "handle" : "SAKURALINK-AS-AP",
+    "description" : "SAKURA LINK LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2401:f460:7000::/36",
       "2401:f460:b000::/36",
       "2401:f460:f000::/44"

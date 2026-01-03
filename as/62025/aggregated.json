@@ -1,12 +1,15 @@
 {
-  "asn": 62025,
-  "handle": "KGPSP-AS",
-  "description": "Komenda Glowna Panstwowej Strazy Pozarnej",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62025,
+  "metadata" : {
+    "handle" : "KGPSP-AS",
+    "description" : "Komenda Glowna Panstwowej Strazy Pozarnej",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.177.8.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:103c::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 39028,
-  "handle": "ULSK-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39028,
+  "metadata" : {
+    "handle" : "ULSK-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.3.64.0/20",
       "5.164.0.0/20",
       "5.166.240.0/21",
@@ -16,7 +19,7 @@
       "188.187.227.0/24",
       "188.233.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:8400::/38"
     ]
   }

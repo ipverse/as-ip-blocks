@@ -1,9 +1,12 @@
 {
-  "asn": 8587,
-  "handle": "INFRACOM-AS",
-  "description": "Infracom Holding B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8587,
+  "metadata" : {
+    "handle" : "INFRACOM-AS",
+    "description" : "Infracom Holding B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.208.251.0/24",
       "91.209.14.0/24",
       "91.209.21.0/24",
@@ -13,7 +16,7 @@
       "195.114.224.0/20",
       "212.104.210.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:ca0::/32",
       "2a04:b900::/30"
     ]

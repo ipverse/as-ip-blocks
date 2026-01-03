@@ -1,9 +1,12 @@
 {
-  "asn": 51020,
-  "handle": "JAZ-WIRELESS",
-  "description": "Al-Jazeera Al-Arabiya Company for Communication and Internet LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51020,
+  "metadata" : {
+    "handle" : "JAZ-WIRELESS",
+    "description" : "Al-Jazeera Al-Arabiya Company for Communication and Internet LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.62.128.0/23",
       "5.62.136.0/23",
       "31.7.80.0/23",
@@ -12,6 +15,6 @@
       "37.77.48.0/21",
       "185.69.4.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

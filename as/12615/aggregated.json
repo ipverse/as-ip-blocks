@@ -1,9 +1,12 @@
 {
-  "asn": 12615,
-  "handle": "GCN-AS",
-  "description": "Global Communication Net Plc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12615,
+  "metadata" : {
+    "handle" : "GCN-AS",
+    "description" : "Global Communication Net Plc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.108.240.0/23",
       "78.108.243.0/24",
       "78.108.252.0/24",
@@ -37,7 +40,7 @@
       "212.70.151.0/24",
       "212.70.158.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2248::/32"
     ]
   }

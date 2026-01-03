@@ -1,9 +1,12 @@
 {
-  "asn": 36493,
-  "handle": "295CA-TOR-ASN",
-  "description": "FIBERNETICS CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36493,
+  "metadata" : {
+    "handle" : "295CA-TOR-ASN",
+    "description" : "FIBERNETICS CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.91.160.0/19",
       "23.251.160.0/19",
       "66.38.192.0/24",
@@ -38,7 +41,7 @@
       "216.66.192.0/20",
       "216.99.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:2500::/32"
     ]
   }

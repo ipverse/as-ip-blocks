@@ -1,9 +1,12 @@
 {
-  "asn": 5006,
-  "handle": "VOYANT",
-  "description": "Inteliquent inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5006,
+  "metadata" : {
+    "handle" : "VOYANT",
+    "description" : "Inteliquent inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.208.189.0/24",
       "137.192.0.0/16",
       "192.111.224.0/24",
@@ -23,6 +26,6 @@
       "209.105.0.0/17",
       "209.111.64.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

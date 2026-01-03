@@ -1,9 +1,12 @@
 {
-  "asn": 14203,
-  "handle": "JUNIPER-NETWORKS",
-  "description": "Juniper Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14203,
+  "metadata" : {
+    "handle" : "JUNIPER-NETWORKS",
+    "description" : "Juniper Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.0.126.0/23",
       "66.129.224.0/22",
       "66.129.232.0/22",
@@ -18,7 +21,7 @@
       "207.17.137.0/24",
       "208.184.90.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:103:c000::/40"
     ]
   }

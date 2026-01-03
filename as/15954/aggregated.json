@@ -1,9 +1,12 @@
 {
-  "asn": 15954,
-  "handle": "TECNOCRATICA",
-  "description": "Tecnocratica Centro de Datos S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15954,
+  "metadata" : {
+    "handle" : "TECNOCRATICA",
+    "description" : "Tecnocratica Centro de Datos S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.24.120.0/21",
       "31.47.72.0/21",
       "37.247.120.0/21",
@@ -17,7 +20,7 @@
       "194.176.119.0/24",
       "217.18.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:a940::/32",
       "2a01:a942::/32",
       "2a02:2810::/32"

@@ -1,9 +1,12 @@
 {
-  "asn": 1100,
-  "handle": "NUDAY",
-  "description": "Nuday Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1100,
+  "metadata" : {
+    "handle" : "NUDAY",
+    "description" : "Nuday Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.160.48.0/23",
       "23.160.50.0/24",
       "23.175.240.0/24",
@@ -26,7 +29,7 @@
       "207.176.228.0/24",
       "216.152.71.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:8900:f000::/36",
       "2606:a80::/32",
       "2606:6680:55::/48",

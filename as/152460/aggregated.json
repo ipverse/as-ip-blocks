@@ -1,15 +1,18 @@
 {
-  "asn": 152460,
-  "handle": "GREENHOST-AS-AP",
-  "description": "Greenhost BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152460,
+  "metadata" : {
+    "handle" : "GREENHOST-AS-AP",
+    "description" : "Greenhost BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.87.175.0/24",
       "79.110.164.0/24",
       "87.229.0.0/24",
       "103.104.247.0/24",
       "151.242.251.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

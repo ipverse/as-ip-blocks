@@ -1,9 +1,12 @@
 {
-  "asn": 201579,
-  "handle": "HOSTGNOME-AS",
-  "description": "HOSTGNOME LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201579,
+  "metadata" : {
+    "handle" : "HOSTGNOME-AS",
+    "description" : "HOSTGNOME LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.166.72.0/24",
       "62.169.151.0/24",
       "84.32.41.0/24",
@@ -11,7 +14,7 @@
       "185.91.69.0/24",
       "193.138.195.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f9e4::/36",
       "2a13:2480::/29"
     ]

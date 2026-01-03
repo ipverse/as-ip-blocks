@@ -1,14 +1,17 @@
 {
-  "asn": 10967,
-  "handle": "HOMEDEPOTNET",
-  "description": "The Home Depot Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10967,
+  "metadata" : {
+    "handle" : "HOMEDEPOTNET",
+    "description" : "The Home Depot Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "151.140.0.0/16",
       "165.130.0.0/16",
       "200.14.20.0/22",
       "207.11.0.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

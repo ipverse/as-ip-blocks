@@ -1,9 +1,12 @@
 {
-  "asn": 4646,
-  "handle": "SUNNYVISION",
-  "description": "SunnyVision Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4646,
+  "metadata" : {
+    "handle" : "SUNNYVISION",
+    "description" : "SunnyVision Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.126.4.0/24",
       "45.126.216.0/24",
       "103.195.108.0/23",
@@ -16,6 +19,6 @@
       "124.248.196.0/24",
       "124.248.207.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

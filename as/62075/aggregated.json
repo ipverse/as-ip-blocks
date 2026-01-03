@@ -1,12 +1,15 @@
 {
-  "asn": 62075,
-  "handle": "LANNERT",
-  "description": "Julian Lannert",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62075,
+  "metadata" : {
+    "handle" : "LANNERT",
+    "description" : "Julian Lannert",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.115.216.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:18d4::/48",
       "2a0d:2d40::/32",
       "2a0d:2d42::/31",

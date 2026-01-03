@@ -1,14 +1,17 @@
 {
-  "asn": 32091,
-  "handle": "TRACF-AS",
-  "description": "Tracfone Wireless",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32091,
+  "metadata" : {
+    "handle" : "TRACF-AS",
+    "description" : "Tracfone Wireless",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.167.208.0/23",
       "67.107.122.0/23",
       "204.16.76.0/22",
       "208.177.42.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

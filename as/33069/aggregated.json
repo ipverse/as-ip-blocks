@@ -1,13 +1,16 @@
 {
-  "asn": 33069,
-  "handle": "AS-BUSINESS-COMMUNICATIONS",
-  "description": "BCI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33069,
+  "metadata" : {
+    "handle" : "AS-BUSINESS-COMMUNICATIONS",
+    "description" : "BCI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.112.240.0/22",
       "199.15.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:3a00::/32"
     ]
   }

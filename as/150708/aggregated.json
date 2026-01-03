@@ -1,11 +1,14 @@
 {
-  "asn": 150708,
-  "handle": "MASTERIT-AS-AP",
-  "description": "Master IT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150708,
+  "metadata" : {
+    "handle" : "MASTERIT-AS-AP",
+    "description" : "Master IT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.65.226.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 328464,
-  "handle": "TCS-WI-FI",
-  "description": "The Computer Shop Plett",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328464,
+  "metadata" : {
+    "handle" : "TCS-WI-FI",
+    "description" : "The Computer Shop Plett",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.208.12.0/22",
       "102.222.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:4f80::/32"
     ]
   }

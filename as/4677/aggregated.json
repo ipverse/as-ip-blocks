@@ -1,9 +1,12 @@
 {
-  "asn": 4677,
-  "handle": "PTOP",
-  "description": "Marubeni OKI Network Solutions Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4677,
+  "metadata" : {
+    "handle" : "PTOP",
+    "description" : "Marubeni OKI Network Solutions Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "133.149.0.0/19",
       "133.149.32.0/20",
       "133.149.128.0/18",
@@ -14,6 +17,6 @@
       "202.226.112.0/20",
       "210.142.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

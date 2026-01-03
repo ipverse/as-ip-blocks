@@ -1,9 +1,12 @@
 {
-  "asn": 18671,
-  "handle": "PRTC-SC",
-  "description": "PRTC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18671,
+  "metadata" : {
+    "handle" : "PRTC-SC",
+    "description" : "PRTC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.53.59.0/24",
       "66.180.224.0/20",
       "152.44.64.0/21",
@@ -18,6 +21,6 @@
       "207.144.139.0/24",
       "207.144.216.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

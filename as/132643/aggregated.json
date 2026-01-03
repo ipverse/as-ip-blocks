@@ -1,12 +1,15 @@
 {
-  "asn": 132643,
-  "handle": "IDNIC-KPU-AS-ID",
-  "description": "Komisi Pemilihan Umum",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132643,
+  "metadata" : {
+    "handle" : "IDNIC-KPU-AS-ID",
+    "description" : "Komisi Pemilihan Umum",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.21.228.0/24",
       "103.123.158.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 37678,
-  "handle": "BOFINET",
-  "description": "BOTSWANA FIBRE NETWORKS (Proprietary) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37678,
+  "metadata" : {
+    "handle" : "BOFINET",
+    "description" : "BOTSWANA FIBRE NETWORKS (Proprietary) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.76.240.0/21",
       "41.191.216.0/22",
       "41.216.208.0/21",
@@ -11,7 +14,7 @@
       "83.143.24.0/21",
       "129.205.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f250::/32",
       "2c0f:f718::/32"
     ]

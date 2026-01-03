@@ -1,13 +1,16 @@
 {
-  "asn": 138843,
-  "handle": "GOLDNET-AS-ID",
-  "description": "PT GLOBAL LINTAS SOLUSI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138843,
+  "metadata" : {
+    "handle" : "GOLDNET-AS-ID",
+    "description" : "PT GLOBAL LINTAS SOLUSI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.138.62.0/23",
       "203.84.139.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:cbc0::/32"
     ]
   }

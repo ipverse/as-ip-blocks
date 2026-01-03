@@ -1,16 +1,19 @@
 {
-  "asn": 35401,
-  "handle": "SUNLINK-AS",
-  "description": "AO Tele-Service Tula",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35401,
+  "metadata" : {
+    "handle" : "SUNLINK-AS",
+    "description" : "AO Tele-Service Tula",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.244.0.0/21",
       "87.244.16.0/21",
       "87.244.32.0/19",
       "185.138.160.0/23",
       "217.170.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:26e0::/32"
     ]
   }

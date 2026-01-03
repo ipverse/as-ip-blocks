@@ -1,12 +1,15 @@
 {
-  "asn": 142153,
-  "handle": "ABNETWORK-AS-AP",
-  "description": "AB NETWORK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142153,
+  "metadata" : {
+    "handle" : "ABNETWORK-AS-AP",
+    "description" : "AB NETWORK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.166.250.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:a080::/48"
     ]
   }

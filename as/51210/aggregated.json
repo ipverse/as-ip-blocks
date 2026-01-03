@@ -1,12 +1,15 @@
 {
-  "asn": 51210,
-  "handle": "KRAXNET-AS",
-  "description": "KRAXNET s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51210,
+  "metadata" : {
+    "handle" : "KRAXNET-AS",
+    "description" : "KRAXNET s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.217.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:48::/48"
     ]
   }

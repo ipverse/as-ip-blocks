@@ -1,9 +1,12 @@
 {
-  "asn": 23944,
-  "handle": "SKYBB-AS-AP",
-  "description": "Sky Cable Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23944,
+  "metadata" : {
+    "handle" : "SKYBB-AS-AP",
+    "description" : "Sky Cable Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.127.164.0/22",
       "103.196.104.0/22",
       "111.68.32.0/19",
@@ -13,7 +16,7 @@
       "182.18.192.0/18",
       "202.128.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:3c00:1000::/36",
       "2404:3c00:2000::/35",
       "2404:3c00:4000::/34",

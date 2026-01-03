@@ -1,9 +1,12 @@
 {
-  "asn": 57469,
-  "handle": "SWB-APB-AS",
-  "description": "Azienda Pubbliservizi Brunico",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57469,
+  "metadata" : {
+    "handle" : "SWB-APB-AS",
+    "description" : "Azienda Pubbliservizi Brunico",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.207.96.0/19",
       "159.48.16.0/20",
       "159.48.48.0/22",
@@ -21,6 +24,6 @@
       "194.26.225.0/24",
       "194.126.237.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 216022,
-  "handle": "DIRECTNODE-AS",
-  "description": "Valentino de Vries trading as DirectNode",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216022,
+  "metadata" : {
+    "handle" : "DIRECTNODE-AS",
+    "description" : "Valentino de Vries trading as DirectNode",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.56.241.0/24",
       "31.57.115.0/24",
       "31.57.244.0/24",
@@ -12,6 +15,6 @@
       "141.11.60.0/24",
       "146.103.54.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

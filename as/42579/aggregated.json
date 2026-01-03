@@ -1,13 +1,16 @@
 {
-  "asn": 42579,
-  "handle": "SARGASSO-EU-AS",
-  "description": "Comtec Enterprises Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42579,
+  "metadata" : {
+    "handle" : "SARGASSO-EU-AS",
+    "description" : "Comtec Enterprises Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.73.144.0/21",
       "78.158.64.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:550::/32"
     ]
   }

@@ -1,10 +1,13 @@
 {
-  "asn": 274534,
-  "handle": "STCHUK-PROVEDOR-INTERNET",
-  "description": "stchuk provedor de internet",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 274534,
+  "metadata" : {
+    "handle" : "STCHUK-PROVEDOR-INTERNET",
+    "description" : "stchuk provedor de internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2804:95a0::/32"
     ]
   }

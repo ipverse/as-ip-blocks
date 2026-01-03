@@ -1,12 +1,15 @@
 {
-  "asn": 58479,
-  "handle": "TRISAKTI-AS-ID",
-  "description": "Trisakti University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58479,
+  "metadata" : {
+    "handle" : "TRISAKTI-AS-ID",
+    "description" : "Trisakti University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.28.161.0/24",
       "103.49.68.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 21965,
-  "handle": "HIGHMARK",
-  "description": "Highmark Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21965,
+  "metadata" : {
+    "handle" : "HIGHMARK",
+    "description" : "Highmark Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.154.3.0/24",
       "157.154.4.0/22",
       "157.154.8.0/24",
@@ -21,6 +24,6 @@
       "199.190.163.0/24",
       "199.190.164.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

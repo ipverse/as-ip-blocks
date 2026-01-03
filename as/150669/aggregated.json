@@ -1,11 +1,14 @@
 {
-  "asn": 150669,
-  "handle": "SNC-AS-AP",
-  "description": "Speed Net Connection",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150669,
+  "metadata" : {
+    "handle" : "SNC-AS-AP",
+    "description" : "Speed Net Connection",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.51.52.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

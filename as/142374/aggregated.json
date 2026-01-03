@@ -1,12 +1,15 @@
 {
-  "asn": 142374,
-  "handle": "IDNIC-INTRAKOM-AS-ID",
-  "description": "PT Solusi Integra Datakom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142374,
+  "metadata" : {
+    "handle" : "IDNIC-INTRAKOM-AS-ID",
+    "description" : "PT Solusi Integra Datakom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.171.184.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:a060::/47",
       "2400:a060:14::/48"
     ]

@@ -1,13 +1,16 @@
 {
-  "asn": 34786,
-  "handle": "VNET-AS",
-  "description": "OOO NPO Intermet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34786,
+  "metadata" : {
+    "handle" : "VNET-AS",
+    "description" : "OOO NPO Intermet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.122.56.0/23",
       "62.122.60.0/22",
       "194.145.216.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

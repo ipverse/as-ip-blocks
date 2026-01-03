@@ -1,14 +1,17 @@
 {
-  "asn": 131971,
-  "handle": "JPNIC-LAB",
-  "description": "Japan Network Information Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131971,
+  "metadata" : {
+    "handle" : "JPNIC-LAB",
+    "description" : "Japan Network Information Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.1.208.0/22",
       "202.1.212.0/24",
       "202.1.214.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:9900::/36",
       "2407:9900:2000::/35",
       "2407:9900:4000::/34",

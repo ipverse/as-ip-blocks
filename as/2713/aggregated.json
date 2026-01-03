@@ -1,16 +1,19 @@
 {
-  "asn": 2713,
-  "handle": "BBIX-AS-AP",
-  "description": "BBIX Australia Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2713,
+  "metadata" : {
+    "handle" : "BBIX-AS-AP",
+    "description" : "BBIX Australia Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.245.96.0/21",
       "103.117.21.0/24",
       "103.118.123.0/24",
       "103.118.154.0/23",
       "210.79.173.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:3b40::/48"
     ]
   }

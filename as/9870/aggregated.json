@@ -1,9 +1,12 @@
 {
-  "asn": 9870,
-  "handle": "DEUNET-AS",
-  "description": "DONG-EUI UNIVERSITY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9870,
+  "metadata" : {
+    "handle" : "DEUNET-AS",
+    "description" : "DONG-EUI UNIVERSITY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "113.198.221.0/24",
       "113.198.222.0/23",
       "113.198.224.0/19",
@@ -23,6 +26,6 @@
       "220.119.44.0/23",
       "220.119.46.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

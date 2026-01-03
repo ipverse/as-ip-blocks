@@ -1,9 +1,12 @@
 {
-  "asn": 42965,
-  "handle": "NETSERVICES-AS",
-  "description": "net services Beteiligungsgesellschaft mbH trading as net services GmbH \u0026 Co. KG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42965,
+  "metadata" : {
+    "handle" : "NETSERVICES-AS",
+    "description" : "net services Beteiligungsgesellschaft mbH trading as net services GmbH & Co. KG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.246.112.0/20",
       "84.21.184.0/22",
       "91.196.204.0/22",
@@ -12,7 +15,7 @@
       "185.201.84.0/22",
       "194.50.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2f0::/29"
     ]
   }

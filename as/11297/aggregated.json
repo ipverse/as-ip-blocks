@@ -1,12 +1,15 @@
 {
-  "asn": 11297,
-  "handle": "LIPSCOMB",
-  "description": "Lipscomb University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11297,
+  "metadata" : {
+    "handle" : "LIPSCOMB",
+    "description" : "Lipscomb University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.119.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:112:d000::/44"
     ]
   }

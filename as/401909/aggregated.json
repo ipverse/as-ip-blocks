@@ -1,13 +1,16 @@
 {
-  "asn": 401909,
-  "handle": "MINRTT",
-  "description": "MinRTT Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401909,
+  "metadata" : {
+    "handle" : "MINRTT",
+    "description" : "MinRTT Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.207.192.0/21",
       "216.183.64.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:1c20::/32"
     ]
   }

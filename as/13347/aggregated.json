@@ -1,9 +1,12 @@
 {
-  "asn": 13347,
-  "handle": "MIDWEST-CABLE",
-  "description": "Midwest Cable",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13347,
+  "metadata" : {
+    "handle" : "MIDWEST-CABLE",
+    "description" : "Midwest Cable",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.58.251.0/24",
       "69.91.162.0/23",
       "69.91.164.0/24",
@@ -21,7 +24,7 @@
       "208.196.136.0/24",
       "213.177.174.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:f3c0::/29"
     ]
   }

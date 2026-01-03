@@ -1,13 +1,16 @@
 {
-  "asn": 204941,
-  "handle": "TGS-AS",
-  "description": "LLC Tsentralnaya Gorodskaya Set",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204941,
+  "metadata" : {
+    "handle" : "TGS-AS",
+    "description" : "LLC Tsentralnaya Gorodskaya Set",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.23.49.0/24",
       "91.108.34.0/24",
       "91.108.53.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

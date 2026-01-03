@@ -1,9 +1,12 @@
 {
-  "asn": 19115,
-  "handle": "CHARTER-19115-DC",
-  "description": "Charter Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19115,
+  "metadata" : {
+    "handle" : "CHARTER-19115-DC",
+    "description" : "Charter Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "16.14.240.0/21",
       "24.27.242.0/23",
       "24.169.164.0/23",
@@ -33,7 +36,7 @@
       "170.151.12.0/22",
       "170.151.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:6c7f:9111::/48",
       "2600:6c7f:9140::/44",
       "2600:6c7f:9180::/44",

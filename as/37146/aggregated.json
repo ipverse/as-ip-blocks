@@ -1,9 +1,12 @@
 {
-  "asn": 37146,
-  "handle": "REALTIME-AS",
-  "description": "Hai Telecommunications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37146,
+  "metadata" : {
+    "handle" : "REALTIME-AS",
+    "description" : "Hai Telecommunications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.60.0.0/20",
       "41.60.16.0/21",
       "41.60.128.0/22",
@@ -13,6 +16,6 @@
       "196.46.124.0/23",
       "205.177.177.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

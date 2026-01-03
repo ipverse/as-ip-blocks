@@ -1,11 +1,14 @@
 {
-  "asn": 44344,
-  "handle": "INGRESS-ASN",
-  "description": "INGRESS Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44344,
+  "metadata" : {
+    "handle" : "INGRESS-ASN",
+    "description" : "INGRESS Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.46.46.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

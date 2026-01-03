@@ -1,16 +1,19 @@
 {
-  "asn": 833,
-  "handle": "SWN-AS",
-  "description": "Spearware Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 833,
+  "metadata" : {
+    "handle" : "SWN-AS",
+    "description" : "Spearware Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.30.26.0/24",
       "44.31.229.0/24",
       "165.140.200.0/24",
       "185.58.157.0/24",
       "212.66.55.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc19::/40",
       "2a13:9500:11a::/48"
     ]

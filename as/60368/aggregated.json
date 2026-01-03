@@ -1,12 +1,15 @@
 {
-  "asn": 60368,
-  "handle": "GREENTUBE-AT",
-  "description": "Greentube GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60368,
+  "metadata" : {
+    "handle" : "GREENTUBE-AT",
+    "description" : "Greentube GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.136.112.0/22",
       "185.16.76.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

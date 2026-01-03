@@ -1,15 +1,18 @@
 {
-  "asn": 47478,
-  "handle": "MSTN-AS",
-  "description": "MSTN CJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47478,
+  "metadata" : {
+    "handle" : "MSTN-AS",
+    "description" : "MSTN CJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.188.52.0/22",
       "77.247.240.0/21",
       "93.174.128.0/21",
       "185.129.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:1b00::/32"
     ]
   }

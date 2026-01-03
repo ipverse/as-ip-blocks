@@ -1,9 +1,12 @@
 {
-  "asn": 58793,
-  "handle": "NIFCLOUD-NET",
-  "description": "FUJITSU LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58793,
+  "metadata" : {
+    "handle" : "NIFCLOUD-NET",
+    "description" : "FUJITSU LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.133.228.0/22",
       "27.133.232.0/21",
       "27.133.244.0/23",
@@ -17,7 +20,7 @@
       "182.160.192.0/18",
       "182.236.12.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:2a80::/32"
     ]
   }

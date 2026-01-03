@@ -1,12 +1,16 @@
 {
-  "asn": 268154,
-  "handle": "ERIKA-MONTEIRO-GUERRA",
-  "description": "ERIKA MONTEIRO GUERRA",
-  "subnets": {
-    "ipv4": [
-      "45.170.120.0/22"
+  "asn" : 268154,
+  "metadata" : {
+    "handle" : "ERIKA-MONTEIRO-GUERRA",
+    "description" : "ERIKA MONTEIRO GUERRA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
+      "45.170.120.0/23",
+      "45.170.122.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:58dc::/33"
     ]
   }

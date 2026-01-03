@@ -1,9 +1,12 @@
 {
-  "asn": 7385,
-  "handle": "ABUL-14-7385",
-  "description": "Allstream Business US LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7385,
+  "metadata" : {
+    "handle" : "ABUL-14-7385",
+    "description" : "Allstream Business US LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.26.38.0/24",
       "23.26.40.0/24",
       "23.26.64.0/24",
@@ -285,7 +288,7 @@
       "216.191.110.0/24",
       "216.210.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f0d8::/29",
       "2607:f298:abb::/48",
       "2620:7e:60c0::/48",

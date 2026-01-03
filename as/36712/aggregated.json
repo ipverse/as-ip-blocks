@@ -1,9 +1,12 @@
 {
-  "asn": 36712,
-  "handle": "CONTIN-83-1",
-  "description": "United Airlines Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36712,
+  "metadata" : {
+    "handle" : "CONTIN-83-1",
+    "description" : "United Airlines Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.169.195.0/24",
       "161.215.0.0/16",
       "209.87.112.0/21",
@@ -11,6 +14,6 @@
       "209.87.124.0/22",
       "216.136.1.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

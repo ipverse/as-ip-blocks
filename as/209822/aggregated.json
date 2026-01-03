@@ -1,13 +1,16 @@
 {
-  "asn": 209822,
-  "handle": "BKW",
-  "description": "BKW Energie AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209822,
+  "metadata" : {
+    "handle" : "BKW",
+    "description" : "BKW Energie AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.232.242.0/23",
       "159.232.246.0/23",
       "185.233.68.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

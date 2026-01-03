@@ -1,9 +1,12 @@
 {
-  "asn": 7738,
-  "handle": "V-TAL",
-  "description": "V tal",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7738,
+  "metadata" : {
+    "handle" : "V-TAL",
+    "description" : "V tal",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.0.16.0/22",
       "152.234.128.0/17",
       "152.237.0.0/16",
@@ -80,7 +83,7 @@
       "201.58.0.0/15",
       "201.78.0.0/15"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:13c::/32",
       "2804:d40::/28"
     ]

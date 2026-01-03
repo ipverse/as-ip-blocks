@@ -1,9 +1,12 @@
 {
-  "asn": 63018,
-  "handle": "DEDICATED",
-  "description": "Dedicated.com",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63018,
+  "metadata" : {
+    "handle" : "DEDICATED",
+    "description" : "Dedicated.com",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.1.28.0/22",
       "23.158.224.0/24",
       "44.32.162.0/24",
@@ -64,7 +67,7 @@
       "216.146.25.0/24",
       "216.234.128.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f7f8:3::/48",
       "2605:9f80::/32",
       "2a09:ff00:101::/48"

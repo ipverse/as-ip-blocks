@@ -1,9 +1,12 @@
 {
-  "asn": 131293,
-  "handle": "TOT-LLI-AS-AP",
-  "description": "TOT Public Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131293,
+  "metadata" : {
+    "handle" : "TOT-LLI-AS-AP",
+    "description" : "TOT Public Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.179.128.0/18",
       "1.179.192.0/19",
       "1.179.224.0/21",
@@ -69,7 +72,7 @@
       "203.114.124.0/23",
       "203.114.127.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:ec0:c00::/40",
       "2001:ec0:2000::/40",
       "2001:ec0:4000::/40",

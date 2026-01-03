@@ -1,12 +1,15 @@
 {
-  "asn": 401442,
-  "handle": "SPUR",
-  "description": "Spur Intelligence Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401442,
+  "metadata" : {
+    "handle" : "SPUR",
+    "description" : "Spur Intelligence Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.137.196.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:ba0:1::/48",
       "2604:ba0:2::/48"
     ]

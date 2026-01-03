@@ -1,14 +1,17 @@
 {
-  "asn": 211922,
-  "handle": "IPDISTR",
-  "description": "IP Connect Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211922,
+  "metadata" : {
+    "handle" : "IPDISTR",
+    "description" : "IP Connect Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.93.166.0/23",
       "64.137.110.0/24",
       "164.215.99.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:5fc7::/47"
     ]
   }

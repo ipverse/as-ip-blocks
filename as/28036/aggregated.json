@@ -1,9 +1,12 @@
 {
-  "asn": 28036,
-  "handle": "TELEFONIA-CELULAR-NICARAGUA",
-  "description": "Telefonia Celular de Nicaragua SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28036,
+  "metadata" : {
+    "handle" : "TELEFONIA-CELULAR-NICARAGUA",
+    "description" : "Telefonia Celular de Nicaragua SA.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "152.231.32.0/21",
       "152.231.40.0/24",
       "152.231.42.0/23",
@@ -16,7 +19,7 @@
       "190.98.136.0/23",
       "190.143.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:180::/32"
     ]
   }

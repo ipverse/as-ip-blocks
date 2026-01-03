@@ -1,11 +1,14 @@
 {
-  "asn": 42556,
-  "handle": "AIRPORT-AS",
-  "description": "TOV AirPort",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42556,
+  "metadata" : {
+    "handle" : "AIRPORT-AS",
+    "description" : "TOV AirPort",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.192.216.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

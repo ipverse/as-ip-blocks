@@ -1,9 +1,12 @@
 {
-  "asn": 28840,
-  "handle": "TATTELECOM-AS",
-  "description": "PJSC TATTELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28840,
+  "metadata" : {
+    "handle" : "TATTELECOM-AS",
+    "description" : "PJSC TATTELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.101.16.0/21",
       "78.138.128.0/18",
       "84.18.96.0/19",
@@ -20,6 +23,6 @@
       "217.23.176.0/20",
       "217.118.176.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

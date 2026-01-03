@@ -1,12 +1,15 @@
 {
-  "asn": 271350,
-  "handle": "FSNET-PROVEDOR",
-  "description": "FSNET PROVEDOR",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271350,
+  "metadata" : {
+    "handle" : "FSNET-PROVEDOR",
+    "description" : "FSNET PROVEDOR",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.189.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7a24::/33",
       "2804:7a24:c000::/34"
     ]

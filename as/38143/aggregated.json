@@ -1,14 +1,17 @@
 {
-  "asn": 38143,
-  "handle": "BLUELINE-AS-ID",
-  "description": "PT. Rabik Bangun Pertiwi PMA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38143,
+  "metadata" : {
+    "handle" : "BLUELINE-AS-ID",
+    "description" : "PT. Rabik Bangun Pertiwi PMA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.169.240.0/21",
       "202.169.250.0/24",
       "202.169.252.0/24",
       "202.169.254.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

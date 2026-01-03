@@ -1,12 +1,15 @@
 {
-  "asn": 210829,
-  "handle": "SATEL-AS",
-  "description": "SATEL Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210829,
+  "metadata" : {
+    "handle" : "SATEL-AS",
+    "description" : "SATEL Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.230.140.0/24",
       "37.230.229.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

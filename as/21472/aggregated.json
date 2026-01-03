@@ -1,9 +1,12 @@
 {
-  "asn": 21472,
-  "handle": "SERVERHOUSE",
-  "description": "ServerHouse Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21472,
+  "metadata" : {
+    "handle" : "SERVERHOUSE",
+    "description" : "ServerHouse Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.2.16.0/21",
       "78.143.254.0/23",
       "91.224.190.0/23",
@@ -15,7 +18,7 @@
       "185.229.40.0/23",
       "195.49.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e740::/32"
     ]
   }

@@ -1,10 +1,14 @@
 {
-  "asn": 139311,
-  "handle": "STELLAIT-AS-AP",
-  "description": "Stella IT Inc",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 139311,
+  "metadata" : {
+    "handle" : "STELLAIT-AS-AP",
+    "description" : "Stella IT Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
+      "2402:be0:feff::/48",
       "2a06:a005:10b0::/44"
     ]
   }

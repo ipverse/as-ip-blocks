@@ -1,9 +1,12 @@
 {
-  "asn": 34376,
-  "handle": "TELECOM-GROUP-AS",
-  "description": "Telecom Group Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34376,
+  "metadata" : {
+    "handle" : "TELECOM-GROUP-AS",
+    "description" : "Telecom Group Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.104.160.0/21",
       "78.142.26.0/23",
       "78.142.28.0/24",
@@ -15,6 +18,6 @@
       "85.14.34.0/24",
       "91.199.128.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

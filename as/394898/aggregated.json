@@ -1,9 +1,12 @@
 {
-  "asn": 394898,
-  "handle": "HCDL-PITTSBURGH-DATA-CENTER",
-  "description": "H5 Data Centers",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394898,
+  "metadata" : {
+    "handle" : "HCDL-PITTSBURGH-DATA-CENTER",
+    "description" : "H5 Data Centers",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.250.96.0/24",
       "130.250.98.0/23",
       "130.250.105.0/24",
@@ -11,7 +14,7 @@
       "130.250.108.0/24",
       "198.180.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:6800:2800::/40"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 271516,
-  "handle": "UNAFIBER-TELECOM",
-  "description": "UNAFIBER TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271516,
+  "metadata" : {
+    "handle" : "UNAFIBER-TELECOM",
+    "description" : "UNAFIBER TELECOM LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.232.176.0/22",
       "191.242.42.0/23",
       "191.242.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7cc0::/34",
       "2804:7cc0:c000::/34"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 137219,
-  "handle": "MELTUS-NETWORKS-AS-AP",
-  "description": "Meltus Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137219,
+  "metadata" : {
+    "handle" : "MELTUS-NETWORKS-AS-AP",
+    "description" : "Meltus Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.136.59.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:9e80:24::/48"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 13880,
-  "handle": "ACSL-AS1",
-  "description": "American Century Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13880,
+  "metadata" : {
+    "handle" : "ACSL-AS1",
+    "description" : "American Century Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.230.48.0/23",
       "216.230.62.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:110:7000::/44"
     ]
   }

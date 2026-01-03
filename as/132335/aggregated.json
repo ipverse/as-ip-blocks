@@ -1,9 +1,12 @@
 {
-  "asn": 132335,
-  "handle": "LEAPSWITCH-IN-AS-AP",
-  "description": "LEAPSWITCH NETWORKS PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132335,
+  "metadata" : {
+    "handle" : "LEAPSWITCH-IN-AS-AP",
+    "description" : "LEAPSWITCH NETWORKS PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.230.200.0/23",
       "43.230.202.0/24",
       "45.64.104.0/23",
@@ -48,7 +51,7 @@
       "188.241.62.0/23",
       "202.94.172.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:1000::/48",
       "2001:df3:8880::/48",
       "2001:df7:6880::/48",

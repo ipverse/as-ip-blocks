@@ -1,9 +1,12 @@
 {
-  "asn": 9125,
-  "handle": "ORIONTELEKOM-AS",
-  "description": "Drustvo za telekomunikacije Orion telekom doo Beograd-Zemun",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9125,
+  "metadata" : {
+    "handle" : "ORIONTELEKOM-AS",
+    "description" : "Drustvo za telekomunikacije Orion telekom doo Beograd-Zemun",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.172.34.0/23",
       "5.172.37.0/24",
       "5.172.39.0/24",
@@ -180,7 +183,7 @@
       "212.69.28.0/23",
       "217.169.208.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8100::/32",
       "2a02:660::/32",
       "2a02:b58::/32"

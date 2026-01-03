@@ -1,12 +1,15 @@
 {
-  "asn": 132290,
-  "handle": "THENET-AS-AP",
-  "description": "The Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132290,
+  "metadata" : {
+    "handle" : "THENET-AS-AP",
+    "description" : "The Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.140.82.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:b380::/48"
     ]
   }

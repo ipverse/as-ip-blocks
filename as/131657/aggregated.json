@@ -1,9 +1,12 @@
 {
-  "asn": 131657,
-  "handle": "AS-FASTLINE",
-  "description": "Hong Da Storage Equipment Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131657,
+  "metadata" : {
+    "handle" : "AS-FASTLINE",
+    "description" : "Hong Da Storage Equipment Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.51.90.0/24",
       "103.122.188.0/22",
       "103.153.176.0/23",
@@ -12,7 +15,7 @@
       "210.1.234.0/23",
       "223.26.2.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:48c0::/32"
     ]
   }

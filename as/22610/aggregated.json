@@ -1,9 +1,12 @@
 {
-  "asn": 22610,
-  "handle": "CVH-NETBLK-1",
-  "description": "Coventry Health Care Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22610,
+  "metadata" : {
+    "handle" : "CVH-NETBLK-1",
+    "description" : "Coventry Health Care Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.10.217.0/24",
       "12.34.73.0/24",
       "12.45.232.0/24",
@@ -20,6 +23,6 @@
       "208.44.106.0/24",
       "208.66.124.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

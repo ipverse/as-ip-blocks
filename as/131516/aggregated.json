@@ -1,9 +1,12 @@
 {
-  "asn": 131516,
-  "handle": "JHWA",
-  "description": "Jinhua Weian InfoTech Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131516,
+  "metadata" : {
+    "handle" : "JHWA",
+    "description" : "Jinhua Weian InfoTech Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.255.184.0/22",
       "103.239.184.0/23",
       "103.248.155.0/24",
@@ -15,7 +18,7 @@
       "116.196.152.0/22",
       "116.196.157.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:23c0::/48"
     ]
   }

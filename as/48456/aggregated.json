@@ -1,10 +1,13 @@
 {
-  "asn": 48456,
-  "handle": "IPX-AS",
-  "description": "IPX - FZCO",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 48456,
+  "metadata" : {
+    "handle" : "IPX-AS",
+    "description" : "IPX - FZCO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a06:c40::/29",
       "2a07:c980::/29",
       "2a09:980::/29",

@@ -1,9 +1,12 @@
 {
-  "asn": 58349,
-  "handle": "INNETRA-AS",
-  "description": "Elna Paulette Valentin trading as INNETRA PC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58349,
+  "metadata" : {
+    "handle" : "INNETRA-AS",
+    "description" : "Elna Paulette Valentin trading as INNETRA PC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.44.253.0/24",
       "45.144.39.0/24",
       "149.18.104.0/24",
@@ -13,7 +16,7 @@
       "193.42.23.0/24",
       "195.128.24.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:e5c0::/48"
     ]
   }

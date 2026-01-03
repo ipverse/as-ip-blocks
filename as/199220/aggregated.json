@@ -1,13 +1,16 @@
 {
-  "asn": 199220,
-  "handle": "KRS-AS-CZ",
-  "description": "KrU Stredoceskeho kraje",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199220,
+  "metadata" : {
+    "handle" : "KRS-AS-CZ",
+    "description" : "KrU Stredoceskeho kraje",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.22.48.0/24",
       "188.191.130.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:10e8::/48"
     ]
   }

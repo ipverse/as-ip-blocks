@@ -1,14 +1,17 @@
 {
-  "asn": 213081,
-  "handle": "UNGLEICH-PLACE10",
-  "description": "ungleich glarus ag",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213081,
+  "metadata" : {
+    "handle" : "UNGLEICH-PLACE10",
+    "description" : "ungleich glarus ag",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.78.194.0/23",
       "185.155.29.0/24",
       "185.203.114.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:2941::/32",
       "2a0a:e5c0:1::/48",
       "2a0a:e5c0:2::/48",

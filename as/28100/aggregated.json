@@ -1,9 +1,12 @@
 {
-  "asn": 28100,
-  "handle": "COOPERATIVA-SERVICIOS-PUBLICOS",
-  "description": "COOPERATIVA DE SERVICIOS PUBLICOS Y SOCIALES VILLA DEL ROSARIO LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28100,
+  "metadata" : {
+    "handle" : "COOPERATIVA-SERVICIOS-PUBLICOS",
+    "description" : "COOPERATIVA DE SERVICIOS PUBLICOS Y SOCIALES VILLA DEL ROSARIO LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.71.204.0/22",
       "45.177.68.0/22",
       "138.59.244.0/22",
@@ -11,7 +14,7 @@
       "190.120.96.0/19",
       "207.248.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:db90::/32"
     ]
   }

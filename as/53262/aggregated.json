@@ -1,12 +1,15 @@
 {
-  "asn": 53262,
-  "handle": "MSC-AS",
-  "description": "Mercy Medical Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53262,
+  "metadata" : {
+    "handle" : "MSC-AS",
+    "description" : "Mercy Medical Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.128.216.0/24",
       "204.130.240.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

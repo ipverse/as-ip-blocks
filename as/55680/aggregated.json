@@ -1,13 +1,16 @@
 {
-  "asn": 55680,
-  "handle": "KSI-UAJY-AS-ID",
-  "description": "Kantor Sistem Informasi Universitas Atma Jaya Yogyakarta",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55680,
+  "metadata" : {
+    "handle" : "KSI-UAJY-AS-ID",
+    "description" : "Kantor Sistem Informasi Universitas Atma Jaya Yogyakarta",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.60.234.0/23",
       "202.14.92.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:dbe0::/32"
     ]
   }

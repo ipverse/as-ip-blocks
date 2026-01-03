@@ -1,15 +1,18 @@
 {
-  "asn": 48078,
-  "handle": "DAGOMYS-AS",
-  "description": "Dagomys Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48078,
+  "metadata" : {
+    "handle" : "DAGOMYS-AS",
+    "description" : "Dagomys Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.244.5.0/24",
       "91.210.24.0/22",
       "91.215.88.0/22",
       "185.15.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:b9c0::/32"
     ]
   }

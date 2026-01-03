@@ -1,16 +1,19 @@
 {
-  "asn": 11598,
-  "handle": "RECOL-CT",
-  "description": "Cloudsmart",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11598,
+  "metadata" : {
+    "handle" : "RECOL-CT",
+    "description" : "Cloudsmart",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.207.96.0/21",
       "64.207.104.0/22",
       "64.207.108.0/23",
       "64.207.110.0/24",
       "199.21.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:7800::/32"
     ]
   }

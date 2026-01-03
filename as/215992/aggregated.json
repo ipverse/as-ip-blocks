@@ -1,12 +1,15 @@
 {
-  "asn": 215992,
-  "handle": "MCS-AS",
-  "description": "MCS GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215992,
+  "metadata" : {
+    "handle" : "MCS-AS",
+    "description" : "MCS GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.78.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:2040::/29"
     ]
   }

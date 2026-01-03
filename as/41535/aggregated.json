@@ -1,9 +1,12 @@
 {
-  "asn": 41535,
-  "handle": "RUSONYX-AS",
-  "description": "LLC ASTRA CLOUD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41535,
+  "metadata" : {
+    "handle" : "RUSONYX-AS",
+    "description" : "LLC ASTRA CLOUD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.113.80.0/22",
       "62.213.86.0/24",
       "77.221.130.0/24",
@@ -14,6 +17,6 @@
       "185.48.236.0/22",
       "193.32.198.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

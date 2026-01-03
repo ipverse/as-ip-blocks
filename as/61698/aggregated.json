@@ -1,13 +1,16 @@
 {
-  "asn": 61698,
-  "handle": "WINQ-ULTRANET",
-  "description": "WINQ ULTRANET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61698,
+  "metadata" : {
+    "handle" : "WINQ-ULTRANET",
+    "description" : "WINQ ULTRANET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.0.164.0/22",
       "168.227.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1aec::/32"
     ]
   }

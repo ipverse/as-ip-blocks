@@ -1,12 +1,15 @@
 {
-  "asn": 400113,
-  "handle": "KEEPIT-CA-TR",
-  "description": "Keepit A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400113,
+  "metadata" : {
+    "handle" : "KEEPIT-CA-TR",
+    "description" : "Keepit A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.249.173.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd86:1::/48"
     ]
   }

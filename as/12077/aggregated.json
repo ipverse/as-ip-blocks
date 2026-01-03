@@ -1,12 +1,15 @@
 {
-  "asn": 12077,
-  "handle": "SUBCONSCIOUS",
-  "description": "Subconscious",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12077,
+  "metadata" : {
+    "handle" : "SUBCONSCIOUS",
+    "description" : "Subconscious",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.180.182.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f9ae::/40"
     ]
   }

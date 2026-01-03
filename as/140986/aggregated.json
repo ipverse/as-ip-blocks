@@ -1,11 +1,14 @@
 {
-  "asn": 140986,
-  "handle": "MCBROADBAND-AS-AP",
-  "description": "M.C. Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140986,
+  "metadata" : {
+    "handle" : "MCBROADBAND-AS-AP",
+    "description" : "M.C. Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.154.98.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

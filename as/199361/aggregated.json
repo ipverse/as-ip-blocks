@@ -1,12 +1,15 @@
 {
-  "asn": 199361,
-  "handle": "MIXPLAT-PROCESSING-LLC",
-  "description": "LLC Mixplat Processing",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199361,
+  "metadata" : {
+    "handle" : "MIXPLAT-PROCESSING-LLC",
+    "description" : "LLC Mixplat Processing",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.20.76.0/24",
       "185.77.232.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

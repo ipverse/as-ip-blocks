@@ -1,9 +1,12 @@
 {
-  "asn": 46687,
-  "handle": "MAXXSOUTH-BROADBAND",
-  "description": "BCI Mississippi Broadband LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46687,
+  "metadata" : {
+    "handle" : "MAXXSOUTH-BROADBAND",
+    "description" : "BCI Mississippi Broadband LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.226.96.0/21",
       "23.226.108.0/22",
       "24.213.96.0/20",
@@ -18,7 +21,7 @@
       "208.93.80.0/21",
       "216.119.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:e280::/32"
     ]
   }

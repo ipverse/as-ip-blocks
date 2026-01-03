@@ -1,9 +1,12 @@
 {
-  "asn": 8456,
-  "handle": "ASBOUN",
-  "description": "Bogazici University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8456,
+  "metadata" : {
+    "handle" : "ASBOUN",
+    "description" : "Bogazici University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.123.176.0/21",
       "95.183.228.0/24",
       "161.9.144.0/21",
@@ -11,6 +14,6 @@
       "193.140.208.0/21",
       "193.255.30.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

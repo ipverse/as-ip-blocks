@@ -1,9 +1,12 @@
 {
-  "asn": 206385,
-  "handle": "ANNEX-PRO-AS",
-  "description": "OOO SPETSTELECOM-YUG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206385,
+  "metadata" : {
+    "handle" : "ANNEX-PRO-AS",
+    "description" : "OOO SPETSTELECOM-YUG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.18.25.0/24",
       "37.18.38.0/24",
       "37.18.41.0/24",
@@ -17,6 +20,6 @@
       "185.2.33.0/24",
       "188.72.72.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

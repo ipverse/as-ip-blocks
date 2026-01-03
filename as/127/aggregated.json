@@ -1,9 +1,12 @@
 {
-  "asn": 127,
-  "handle": "JPL-AS127",
-  "description": "Jet Propulsion Laboratory",
-  "subnets": {
-    "ipv4": [
+  "asn" : 127,
+  "metadata" : {
+    "handle" : "JPL-AS127",
+    "description" : "Jet Propulsion Laboratory",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.149.0.0/16",
       "137.78.0.0/15",
       "137.228.0.0/16",
@@ -20,7 +23,7 @@
       "207.151.150.0/24",
       "207.151.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1878:500::/40",
       "2620:118:400e::/48"
     ]

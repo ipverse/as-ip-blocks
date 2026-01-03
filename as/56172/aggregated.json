@@ -1,14 +1,17 @@
 {
-  "asn": 56172,
-  "handle": "AGORACOMMS-AS-AP",
-  "description": "Agora Communications Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56172,
+  "metadata" : {
+    "handle" : "AGORACOMMS-AS-AP",
+    "description" : "Agora Communications Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.1.5.0/24",
       "103.98.134.0/24",
       "103.136.52.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:400::/48"
     ]
   }

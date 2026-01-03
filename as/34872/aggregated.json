@@ -1,9 +1,12 @@
 {
-  "asn": 34872,
-  "handle": "SERVPERSO-SYSTEMS",
-  "description": "Sarah Rossius trading as Servperso Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34872,
+  "metadata" : {
+    "handle" : "SERVPERSO-SYSTEMS",
+    "description" : "Sarah Rossius trading as Servperso Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.59.119.0/24",
       "45.154.99.0/24",
       "62.3.50.0/24",
@@ -11,7 +14,7 @@
       "194.28.96.0/24",
       "194.28.98.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:b640::/32",
       "2a0c:b641:4::/48",
       "2a0c:b641:6::/48",

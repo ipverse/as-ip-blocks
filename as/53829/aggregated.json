@@ -1,9 +1,12 @@
 {
-  "asn": 53829,
-  "handle": "BELL-MEDIA",
-  "description": "CTV Television Network Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53829,
+  "metadata" : {
+    "handle" : "BELL-MEDIA",
+    "description" : "CTV Television Network Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.85.66.0/23",
       "199.85.69.0/24",
       "199.85.71.0/24",
@@ -12,6 +15,6 @@
       "205.210.252.0/23",
       "205.210.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

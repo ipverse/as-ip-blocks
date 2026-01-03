@@ -1,13 +1,16 @@
 {
-  "asn": 4723,
-  "handle": "DOLPHIN",
-  "description": "Dolphin",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4723,
+  "metadata" : {
+    "handle" : "DOLPHIN",
+    "description" : "Dolphin",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.122.64.0/19",
       "210.135.64.0/19",
       "210.173.224.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

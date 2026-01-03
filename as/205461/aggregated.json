@@ -1,12 +1,15 @@
 {
-  "asn": 205461,
-  "handle": "PE-AS",
-  "description": "Pole emploi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205461,
+  "metadata" : {
+    "handle" : "PE-AS",
+    "description" : "Pole emploi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.215.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:cec2:20::/48"
     ]
   }

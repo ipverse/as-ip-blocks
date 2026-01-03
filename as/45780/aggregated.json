@@ -1,9 +1,12 @@
 {
-  "asn": 45780,
-  "handle": "BROADBANDSOLUTIONS-AS-AP",
-  "description": "Broadband Solutions Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45780,
+  "metadata" : {
+    "handle" : "BROADBANDSOLUTIONS-AS-AP",
+    "description" : "Broadband Solutions Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.251.152.0/23",
       "43.251.155.0/24",
       "103.23.0.0/22",
@@ -24,7 +27,7 @@
       "203.27.60.0/24",
       "203.30.216.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:7d00::/48",
       "2404:fa00::/35",
       "2404:fa00:2000::/36",

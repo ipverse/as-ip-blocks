@@ -1,13 +1,16 @@
 {
-  "asn": 212754,
-  "handle": "SI-PL-AS",
-  "description": "Jacek Kowalski trading as SI.pl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212754,
+  "metadata" : {
+    "handle" : "SI-PL-AS",
+    "description" : "Jacek Kowalski trading as SI.pl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.19.248.0/23",
       "193.19.250.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:2300::/31"
     ]
   }

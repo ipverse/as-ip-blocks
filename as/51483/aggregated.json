@@ -1,9 +1,12 @@
 {
-  "asn": 51483,
-  "handle": "SASG",
-  "description": "SaSG GmbH \u0026 Co. KG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51483,
+  "metadata" : {
+    "handle" : "SASG",
+    "description" : "SaSG GmbH & Co. KG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.235.112.0/21",
       "46.254.136.0/21",
       "91.217.36.0/23",
@@ -11,7 +14,7 @@
       "128.0.192.0/21",
       "185.74.224.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1100::/29"
     ]
   }

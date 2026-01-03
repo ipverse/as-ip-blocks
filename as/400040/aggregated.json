@@ -1,9 +1,12 @@
 {
-  "asn": 400040,
-  "handle": "WT-FRANK",
-  "description": "Wolverine Trading LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400040,
+  "metadata" : {
+    "handle" : "WT-FRANK",
+    "description" : "Wolverine Trading LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.8.20.0/24",
       "45.12.187.0/24",
       "46.37.105.0/24",
@@ -30,6 +33,6 @@
       "194.169.49.0/24",
       "212.46.46.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

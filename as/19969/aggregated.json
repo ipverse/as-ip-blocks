@@ -1,9 +1,12 @@
 {
-  "asn": 19969,
-  "handle": "JOESDATACENTER",
-  "description": "CyberCloud Professionals LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19969,
+  "metadata" : {
+    "handle" : "JOESDATACENTER",
+    "description" : "CyberCloud Professionals LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.45.98.0/24",
       "44.46.18.0/24",
       "66.85.72.0/21",
@@ -22,7 +25,7 @@
       "209.90.0.0/19",
       "216.55.130.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470:32::/48",
       "2602:ffc5:10a::/48",
       "2604:5800::/32"

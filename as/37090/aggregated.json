@@ -1,9 +1,12 @@
 {
-  "asn": 37090,
-  "handle": "ISOCEL",
-  "description": "ISOCEL SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37090,
+  "metadata" : {
+    "handle" : "ISOCEL",
+    "description" : "ISOCEL SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.86.224.0/19",
       "41.222.192.0/22",
       "102.38.128.0/19",
@@ -11,7 +14,7 @@
       "102.215.136.0/22",
       "154.66.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f818::/32"
     ]
   }

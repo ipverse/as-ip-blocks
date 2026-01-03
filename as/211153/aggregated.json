@@ -1,10 +1,13 @@
 {
-  "asn": 211153,
-  "handle": "HAFNIUM-AS",
-  "description": "Emil Petersen",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 211153,
+  "metadata" : {
+    "handle" : "HAFNIUM-AS",
+    "description" : "Emil Petersen",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0e:8f02:2190::/44",
       "2a0e:8f02:f034::/48"
     ]

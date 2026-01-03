@@ -1,12 +1,15 @@
 {
-  "asn": 1070,
-  "handle": "AS-PRP-001",
-  "description": "Peel Regional Police",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1070,
+  "metadata" : {
+    "handle" : "AS-PRP-001",
+    "description" : "Peel Regional Police",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.138.80.0/24",
       "204.138.84.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

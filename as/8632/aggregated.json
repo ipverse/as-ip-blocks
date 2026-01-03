@@ -1,9 +1,12 @@
 {
-  "asn": 8632,
-  "handle": "LOL-AS",
-  "description": "Luxembourg Online S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8632,
+  "metadata" : {
+    "handle" : "LOL-AS",
+    "description" : "Luxembourg Online S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.172.144.0/21",
       "83.222.32.0/19",
       "94.103.208.0/20",
@@ -11,7 +14,7 @@
       "192.160.22.0/24",
       "195.218.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:678::/32"
     ]
   }

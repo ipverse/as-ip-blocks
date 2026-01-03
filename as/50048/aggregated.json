@@ -1,13 +1,16 @@
 {
-  "asn": 50048,
-  "handle": "NEWREAL-AS",
-  "description": "Andrey Chuenkov",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50048,
+  "metadata" : {
+    "handle" : "NEWREAL-AS",
+    "description" : "Andrey Chuenkov",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "171.25.202.0/23",
       "193.107.52.0/22",
       "213.5.120.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

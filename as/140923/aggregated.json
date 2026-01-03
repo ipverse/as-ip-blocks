@@ -1,12 +1,15 @@
 {
-  "asn": 140923,
-  "handle": "GLOBALLINK-AS-AP",
-  "description": "Global Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140923,
+  "metadata" : {
+    "handle" : "GLOBALLINK-AS-AP",
+    "description" : "Global Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.153.130.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:4880::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 133255,
-  "handle": "ELXER-AS-IN",
-  "description": "Elxer Communications Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133255,
+  "metadata" : {
+    "handle" : "ELXER-AS-IN",
+    "description" : "Elxer Communications Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.124.144.0/22",
       "103.39.139.0/24",
       "103.39.236.0/23",
@@ -15,7 +18,7 @@
       "154.50.120.0/23",
       "163.227.174.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:1400::/48",
       "2400:dbc0::/32"
     ]

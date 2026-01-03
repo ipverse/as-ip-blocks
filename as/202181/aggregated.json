@@ -1,12 +1,15 @@
 {
-  "asn": 202181,
-  "handle": "TAMCOM-AS",
-  "description": "Transportation Assets Management LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202181,
+  "metadata" : {
+    "handle" : "TAMCOM-AS",
+    "description" : "Transportation Assets Management LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.101.184.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:a8c0:2::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 134700,
-  "handle": "SINOYCLOUD-AS-AP",
-  "description": "Sinoycloud Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134700,
+  "metadata" : {
+    "handle" : "SINOYCLOUD-AS-AP",
+    "description" : "Sinoycloud Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.84.6.0/23",
       "101.36.80.0/23",
       "103.6.192.0/24",
@@ -31,6 +34,6 @@
       "203.7.166.0/24",
       "210.184.36.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

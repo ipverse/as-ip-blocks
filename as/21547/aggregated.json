@@ -1,9 +1,12 @@
 {
-  "asn": 21547,
-  "handle": "OXNET",
-  "description": "FirstLight Fiber Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21547,
+  "metadata" : {
+    "handle" : "OXNET",
+    "description" : "FirstLight Fiber Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.127.192.0/21",
       "64.140.192.0/18",
       "66.186.160.0/19",
@@ -30,7 +33,7 @@
       "208.28.192.0/22",
       "208.31.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4940::/32",
       "2604:3f00::/32"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 393846,
-  "handle": "ROUTER12-NETWORKS-UN",
-  "description": "Router12 Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393846,
+  "metadata" : {
+    "handle" : "ROUTER12-NETWORKS-UN",
+    "description" : "Router12 Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.101.9.0/24",
       "192.206.136.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

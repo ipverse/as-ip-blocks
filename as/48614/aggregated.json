@@ -1,9 +1,12 @@
 {
-  "asn": 48614,
-  "handle": "ITSOFT-AS",
-  "description": "ITSOFT LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48614,
+  "metadata" : {
+    "handle" : "ITSOFT-AS",
+    "description" : "ITSOFT LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.230.141.0/24",
       "45.15.253.0/24",
       "45.67.212.0/23",
@@ -21,7 +24,7 @@
       "212.192.24.0/22",
       "213.79.122.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5a00:3e::/48",
       "2a0b:4880::/47",
       "2a0b:4880:2::/48"

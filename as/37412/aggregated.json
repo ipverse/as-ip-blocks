@@ -1,12 +1,15 @@
 {
-  "asn": 37412,
-  "handle": "PACKET-HUB",
-  "description": "The Packet Hub",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37412,
+  "metadata" : {
+    "handle" : "PACKET-HUB",
+    "description" : "The Packet Hub",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.79.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fb30::/32"
     ]
   }

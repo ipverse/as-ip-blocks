@@ -1,9 +1,12 @@
 {
-  "asn": 15943,
-  "handle": "WTNET-AS",
-  "description": "wilhelm.tel GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15943,
+  "metadata" : {
+    "handle" : "WTNET-AS",
+    "description" : "wilhelm.tel GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.116.0/22",
       "31.29.32.0/19",
       "31.172.104.0/21",
@@ -67,7 +70,7 @@
       "213.209.64.0/18",
       "216.83.208.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2028::/32",
       "2a04:4540::/29",
       "2a0b:29c0:1::/48"

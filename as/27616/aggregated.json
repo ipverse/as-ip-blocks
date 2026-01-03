@@ -1,11 +1,14 @@
 {
-  "asn": 27616,
-  "handle": "AS-NEWSCHOOL",
-  "description": "The New School",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27616,
+  "metadata" : {
+    "handle" : "AS-NEWSCHOOL",
+    "description" : "The New School",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.31.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

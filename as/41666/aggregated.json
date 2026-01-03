@@ -1,13 +1,16 @@
 {
-  "asn": 41666,
-  "handle": "PYRO-AS",
-  "description": "Institute for Pyrotechnical Cleaning (limited company)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41666,
+  "metadata" : {
+    "handle" : "PYRO-AS",
+    "description" : "Institute for Pyrotechnical Cleaning (limited company)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.216.79.0/24",
       "195.138.203.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:8e4::/48"
     ]
   }

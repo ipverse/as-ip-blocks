@@ -1,12 +1,15 @@
 {
-  "asn": 61984,
-  "handle": "RC-AS",
-  "description": "Reseau Concept SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61984,
+  "metadata" : {
+    "handle" : "RC-AS",
+    "description" : "Reseau Concept SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.51.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:b0e0::/32"
     ]
   }

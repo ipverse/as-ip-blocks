@@ -1,12 +1,15 @@
 {
-  "asn": 272739,
-  "handle": "LIDER-FIBRA",
-  "description": "Lider Fibra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272739,
+  "metadata" : {
+    "handle" : "LIDER-FIBRA",
+    "description" : "Lider Fibra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.156.70.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:87e8::/32"
     ]
   }

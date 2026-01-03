@@ -1,9 +1,12 @@
 {
-  "asn": 3477,
-  "handle": "NOAA-NWAVE",
-  "description": "National Oceanic and Atmospheric Administration",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3477,
+  "metadata" : {
+    "handle" : "NOAA-NWAVE",
+    "description" : "National Oceanic and Atmospheric Administration",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.75.64.0/18",
       "137.75.224.0/22",
       "140.90.0.0/16",
@@ -42,7 +45,7 @@
       "205.167.24.0/23",
       "206.197.238.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2601:a000::/32",
       "2601:a002::/32",
       "2601:a004::/31",

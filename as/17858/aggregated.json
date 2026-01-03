@@ -1,9 +1,12 @@
 {
-  "asn": 17858,
-  "handle": "POWERVIS-AS",
-  "description": "LG POWERCOMM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17858,
+  "metadata" : {
+    "handle" : "POWERVIS-AS",
+    "description" : "LG POWERCOMM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.4.0.0/14",
       "49.160.0.0/12",
       "49.236.64.0/18",
@@ -77,6 +80,6 @@
       "220.68.197.0/24",
       "220.68.246.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 199404,
-  "handle": "WHG-IN",
-  "description": "WHG Hosting Services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199404,
+  "metadata" : {
+    "handle" : "WHG-IN",
+    "description" : "WHG Hosting Services Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.57.172.0/24",
       "103.118.16.0/23",
       "190.92.174.0/23",
@@ -15,6 +18,6 @@
       "198.38.84.0/22",
       "198.38.88.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

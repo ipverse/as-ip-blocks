@@ -1,14 +1,17 @@
 {
-  "asn": 199961,
-  "handle": "MTLS-AS",
-  "description": "Multitelesystems LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199961,
+  "metadata" : {
+    "handle" : "MTLS-AS",
+    "description" : "Multitelesystems LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.132.254.0/24",
       "194.28.227.0/24",
       "194.67.194.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:6280:c::/48"
     ]
   }

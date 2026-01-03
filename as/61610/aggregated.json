@@ -1,13 +1,16 @@
 {
-  "asn": 61610,
-  "handle": "ELEA-DATA-CENTERS",
-  "description": "ELEA DATA CENTERS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61610,
+  "metadata" : {
+    "handle" : "ELEA-DATA-CENTERS",
+    "description" : "ELEA DATA CENTERS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "187.87.28.0/22",
       "200.225.48.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8ae0::/32"
     ]
   }

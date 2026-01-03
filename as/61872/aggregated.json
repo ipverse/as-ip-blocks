@@ -1,13 +1,16 @@
 {
-  "asn": 61872,
-  "handle": "INUV-PROVEDOR-INTERNET",
-  "description": "INUV PROVEDOR DE INTERNET LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61872,
+  "metadata" : {
+    "handle" : "INUV-PROVEDOR-INTERNET",
+    "description" : "INUV PROVEDOR DE INTERNET LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.81.44.0/22",
       "177.22.208.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1aa0::/32"
     ]
   }

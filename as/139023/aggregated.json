@@ -1,12 +1,15 @@
 {
-  "asn": 139023,
-  "handle": "TITAN-AS-AP",
-  "description": "Titan Telecoms Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139023,
+  "metadata" : {
+    "handle" : "TITAN-AS-AP",
+    "description" : "Titan Telecoms Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.122.214.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:f0e0::/32"
     ]
   }

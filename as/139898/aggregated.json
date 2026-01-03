@@ -1,16 +1,19 @@
 {
-  "asn": 139898,
-  "handle": "DCL-AS-AP",
-  "description": "Digitec Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139898,
+  "metadata" : {
+    "handle" : "DCL-AS-AP",
+    "description" : "Digitec Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.245.56.0/22",
       "103.25.140.0/22",
       "103.116.88.0/23",
       "103.146.200.0/23",
       "125.254.50.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:9f40::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 49711,
-  "handle": "FLYNET",
-  "description": "Flynet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49711,
+  "metadata" : {
+    "handle" : "FLYNET",
+    "description" : "Flynet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.149.171.0/24",
       "91.215.176.0/22",
       "91.220.250.0/24",
@@ -11,7 +14,7 @@
       "176.118.152.0/21",
       "178.172.133.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:57c::/48"
     ]
   }

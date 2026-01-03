@@ -1,9 +1,12 @@
 {
-  "asn": 7623,
-  "handle": "HCNGYEONGBUK-AS",
-  "description": "Gyeongbuk Cable TV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7623,
+  "metadata" : {
+    "handle" : "HCNGYEONGBUK-AS",
+    "description" : "Gyeongbuk Cable TV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.35.112.0/20",
       "39.126.21.0/24",
       "39.126.22.0/24",
@@ -38,6 +41,6 @@
       "120.50.104.0/21",
       "122.202.48.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

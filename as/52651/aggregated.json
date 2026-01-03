@@ -1,15 +1,18 @@
 {
-  "asn": 52651,
-  "handle": "DELTAATIVA-TELECOMUNICACOES",
-  "description": "DeltaAtiva Telecomunicacoes",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52651,
+  "metadata" : {
+    "handle" : "DELTAATIVA-TELECOMUNICACOES",
+    "description" : "DeltaAtiva Telecomunicacoes",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.0.16.0/22",
       "170.247.144.0/22",
       "177.221.64.0/21",
       "186.233.55.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:bf0::/40",
       "2804:bf0:400::/40",
       "2804:bf0:4000::/36",

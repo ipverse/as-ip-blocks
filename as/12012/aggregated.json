@@ -1,12 +1,15 @@
 {
-  "asn": 12012,
-  "handle": "NOV-NET-02",
-  "description": "Novani LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12012,
+  "metadata" : {
+    "handle" : "NOV-NET-02",
+    "description" : "Novani LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.237.8.0/24",
       "64.237.14.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

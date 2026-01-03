@@ -1,9 +1,12 @@
 {
-  "asn": 26121,
-  "handle": "JEPPESEN",
-  "description": "Jeppesen ForeFlight Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26121,
+  "metadata" : {
+    "handle" : "JEPPESEN",
+    "description" : "Jeppesen ForeFlight Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "169.143.0.0/23",
       "169.143.6.0/24",
       "169.143.8.0/24",
@@ -13,6 +16,6 @@
       "169.143.222.0/24",
       "169.143.244.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

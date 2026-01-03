@@ -1,13 +1,16 @@
 {
-  "asn": 39511,
-  "handle": "VIPNET-AS",
-  "description": "VIP NET CONSULTING SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39511,
+  "metadata" : {
+    "handle" : "VIPNET-AS",
+    "description" : "VIP NET CONSULTING SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.122.104.0/24",
       "89.34.110.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:91c3:1::/48"
     ]
   }

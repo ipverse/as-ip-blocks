@@ -1,9 +1,12 @@
 {
-  "asn": 11979,
-  "handle": "BLUENET",
-  "description": "Bluegrass Network LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11979,
+  "metadata" : {
+    "handle" : "BLUENET",
+    "description" : "Bluegrass Network LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.56.208.0/21",
       "64.52.16.0/23",
       "64.250.64.0/21",
@@ -23,7 +26,7 @@
       "67.221.40.0/21",
       "74.50.46.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:44c0::/32",
       "2607:f9d0::/39",
       "2607:f9d0:300::/40",

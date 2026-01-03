@@ -1,11 +1,14 @@
 {
-  "asn": 150165,
-  "handle": "ARKNETWORK-AS-AP",
-  "description": "ARK Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150165,
+  "metadata" : {
+    "handle" : "ARKNETWORK-AS-AP",
+    "description" : "ARK Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.143.236.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

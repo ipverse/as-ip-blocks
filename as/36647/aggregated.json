@@ -1,9 +1,12 @@
 {
-  "asn": 36647,
-  "handle": "YAHOO-GQ1",
-  "description": "Yahoo Holdings Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36647,
+  "metadata" : {
+    "handle" : "YAHOO-GQ1",
+    "description" : "Yahoo Holdings Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.250.192.0/19",
       "67.195.0.0/17",
       "67.195.128.0/20",
@@ -31,7 +34,7 @@
       "208.71.40.0/21",
       "216.39.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4998:c::/46",
       "2001:4998:24::/46",
       "2001:4998:198::/46",

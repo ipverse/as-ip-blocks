@@ -1,12 +1,15 @@
 {
-  "asn": 53758,
-  "handle": "INVALID-NETWORK",
-  "description": "Invalid Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53758,
+  "metadata" : {
+    "handle" : "INVALID-NETWORK",
+    "description" : "Invalid Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.128.96.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:137:e000::/44"
     ]
   }

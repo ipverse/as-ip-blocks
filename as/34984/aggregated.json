@@ -1,9 +1,12 @@
 {
-  "asn": 34984,
-  "handle": "TELLCOM-AS",
-  "description": "Superonline Iletisim Hizmetleri A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34984,
+  "metadata" : {
+    "handle" : "TELLCOM-AS",
+    "description" : "Superonline Iletisim Hizmetleri A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.181.16.0/24",
       "31.44.202.0/24",
       "31.44.205.0/24",
@@ -578,7 +581,7 @@
       "217.131.64.0/18",
       "217.131.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:9940::/29",
       "2a01:188::/46",
       "2a02:e0::/34",

@@ -1,11 +1,14 @@
 {
-  "asn": 139208,
-  "handle": "SA2-AS-AP",
-  "description": "SA Online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139208,
+  "metadata" : {
+    "handle" : "SA2-AS-AP",
+    "description" : "SA Online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.179.200.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

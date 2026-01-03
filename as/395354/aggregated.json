@@ -1,9 +1,12 @@
 {
-  "asn": 395354,
-  "handle": "ASN-STARRY",
-  "description": "Starry Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395354,
+  "metadata" : {
+    "handle" : "ASN-STARRY",
+    "description" : "Starry Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.3.80.0/20",
       "38.13.0.0/19",
       "38.13.32.0/21",
@@ -23,7 +26,7 @@
       "154.27.120.0/21",
       "205.201.22.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:7e80::/33",
       "2607:7e80:d000::/36"
     ]

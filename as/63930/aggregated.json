@@ -1,9 +1,12 @@
 {
-  "asn": 63930,
-  "handle": "READYSERVER-SG",
-  "description": "Ready Server Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63930,
+  "metadata" : {
+    "handle" : "READYSERVER-SG",
+    "description" : "Ready Server Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.119.203.0/24",
       "45.125.192.0/22",
       "103.47.208.0/22",
@@ -17,7 +20,7 @@
       "103.200.208.0/22",
       "119.161.100.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:e780::/32"
     ]
   }

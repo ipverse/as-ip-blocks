@@ -1,12 +1,15 @@
 {
-  "asn": 56320,
-  "handle": "VIKING-AS",
-  "description": "VIKING SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56320,
+  "metadata" : {
+    "handle" : "VIKING-AS",
+    "description" : "VIKING SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.226.176.0/21",
       "185.116.84.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

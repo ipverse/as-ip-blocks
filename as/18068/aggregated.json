@@ -1,9 +1,12 @@
 {
-  "asn": 18068,
-  "handle": "ACROSS",
-  "description": "Dream Wave Shizuoka Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18068,
+  "metadata" : {
+    "handle" : "ACROSS",
+    "description" : "Dream Wave Shizuoka Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.100.8.0/24",
       "27.100.10.0/23",
       "27.100.28.0/22",
@@ -34,7 +37,7 @@
       "218.223.84.0/23",
       "218.223.88.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:9c00::/32",
       "2405:25c0:a300::/40"
     ]

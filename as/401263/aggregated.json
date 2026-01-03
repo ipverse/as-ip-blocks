@@ -1,9 +1,12 @@
 {
-  "asn": 401263,
-  "handle": "NUCLEARFALLOUT-NYC",
-  "description": "Nuclearfallout Enterprises Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401263,
+  "metadata" : {
+    "handle" : "NUCLEARFALLOUT-NYC",
+    "description" : "Nuclearfallout Enterprises Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.91.116.0/24",
       "74.91.123.0/24",
       "104.153.107.0/24",
@@ -13,7 +16,7 @@
       "192.223.27.0/24",
       "192.223.31.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:6ac0:1000::/36"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 23471,
-  "handle": "ITED-23471",
-  "description": "ited Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23471,
+  "metadata" : {
+    "handle" : "ITED-23471",
+    "description" : "ited Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.102.90.0/24",
       "38.102.97.0/24",
       "38.129.55.0/24",
@@ -13,6 +16,6 @@
       "199.244.123.0/24",
       "205.236.174.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

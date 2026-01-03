@@ -1,9 +1,12 @@
 {
-  "asn": 39608,
-  "handle": "LANETUA-AS",
-  "description": "Lanet Network Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39608,
+  "metadata" : {
+    "handle" : "LANETUA-AS",
+    "description" : "Lanet Network Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.111.88.0/21",
       "91.194.81.0/24",
       "91.216.165.0/24",
@@ -17,6 +20,6 @@
       "194.50.85.0/24",
       "194.60.69.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

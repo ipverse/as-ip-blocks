@@ -1,9 +1,12 @@
 {
-  "asn": 46562,
-  "handle": "PERFORMIVE",
-  "description": "Performive LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46562,
+  "metadata" : {
+    "handle" : "PERFORMIVE",
+    "description" : "Performive LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.177.85.0/24",
       "66.71.240.0/20",
       "66.115.128.0/18",
@@ -125,7 +128,7 @@
       "208.93.192.0/22",
       "216.201.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:c40:1::/48",
       "2407:c40:2::/48",
       "2604:2880::/48",

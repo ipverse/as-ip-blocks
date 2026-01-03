@@ -1,9 +1,12 @@
 {
-  "asn": 60016,
-  "handle": "ASFS3",
-  "description": "Fiberstream 87 AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60016,
+  "metadata" : {
+    "handle" : "ASFS3",
+    "description" : "Fiberstream 87 AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.188.78.0/24",
       "185.62.80.0/22",
       "185.169.240.0/22",
@@ -15,6 +18,6 @@
       "213.173.44.0/23",
       "213.173.46.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

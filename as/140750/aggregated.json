@@ -1,12 +1,15 @@
 {
-  "asn": 140750,
-  "handle": "VNTA-AS-VN",
-  "description": "Viet Nam Telecommunications Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140750,
+  "metadata" : {
+    "handle" : "VNTA-AS-VN",
+    "description" : "Viet Nam Telecommunications Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.155.78.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:bc80::/48"
     ]
   }

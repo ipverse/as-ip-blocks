@@ -1,12 +1,15 @@
 {
-  "asn": 132530,
-  "handle": "INFONALSDNBHD-AS-AP",
-  "description": "Infonal Sdn Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132530,
+  "metadata" : {
+    "handle" : "INFONALSDNBHD-AS-AP",
+    "description" : "Infonal Sdn Bhd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.24.192.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:b2c0::/48"
     ]
   }

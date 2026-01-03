@@ -1,9 +1,12 @@
 {
-  "asn": 10838,
-  "handle": "OCEANIC-INTERNET-RR",
-  "description": "Charter Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10838,
+  "metadata" : {
+    "handle" : "OCEANIC-INTERNET-RR",
+    "description" : "Charter Communications Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.123.118.0/23",
       "24.160.40.0/21",
       "47.231.112.0/21",
@@ -45,7 +48,7 @@
       "173.197.240.0/21",
       "192.61.232.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:5c00::/36",
       "2602:107:6010::/44",
       "2603:90b9::/32",

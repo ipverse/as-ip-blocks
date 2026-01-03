@@ -1,13 +1,16 @@
 {
-  "asn": 203062,
-  "handle": "ALEXANDRE-ROUX-ASRINFOPRO",
-  "description": "Alexandre Roux",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203062,
+  "metadata" : {
+    "handle" : "ALEXANDRE-ROUX-ASRINFOPRO",
+    "description" : "Alexandre Roux",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.138.204.0/24",
       "217.9.10.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f650::/40",
       "2602:f650:800::/37",
       "2a01:e281:b4c0::/42",

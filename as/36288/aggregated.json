@@ -1,12 +1,15 @@
 {
-  "asn": 36288,
-  "handle": "ASN-IARC",
-  "description": "NNSA Information Assurance Response Center (IARC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36288,
+  "metadata" : {
+    "handle" : "ASN-IARC",
+    "description" : "NNSA Information Assurance Response Center (IARC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.79.154.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:ed:8000::/48"
     ]
   }

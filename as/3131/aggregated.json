@@ -1,15 +1,18 @@
 {
-  "asn": 3131,
-  "handle": "TELEMEDIA-ASN",
-  "description": "Tele-Media Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3131,
+  "metadata" : {
+    "handle" : "TELEMEDIA-ASN",
+    "description" : "Tele-Media Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.184.80.0/21",
       "64.184.94.0/24",
       "64.184.112.0/22",
       "158.51.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:6640::/32"
     ]
   }

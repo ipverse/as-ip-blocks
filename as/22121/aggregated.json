@@ -1,14 +1,17 @@
 {
-  "asn": 22121,
-  "handle": "TOPSHAM-COMMUNICATIONS",
-  "description": "Topsham Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22121,
+  "metadata" : {
+    "handle" : "TOPSHAM-COMMUNICATIONS",
+    "description" : "Topsham Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.56.71.0/24",
       "172.99.224.0/22",
       "199.21.136.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:14c0::/32"
     ]
   }

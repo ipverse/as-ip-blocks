@@ -1,9 +1,12 @@
 {
-  "asn": 8282,
-  "handle": "BINK",
-  "description": "BINK GROUP LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8282,
+  "metadata" : {
+    "handle" : "BINK",
+    "description" : "BINK GROUP LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.252.116.0/24",
       "80.252.124.0/22",
       "84.246.192.0/22",
@@ -12,7 +15,7 @@
       "193.195.141.0/24",
       "194.70.36.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:2c0::/32"
     ]
   }

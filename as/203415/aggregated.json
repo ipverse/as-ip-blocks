@@ -1,10 +1,13 @@
 {
-  "asn": 203415,
-  "handle": "SOVIK",
-  "description": "Jorgen Sovik",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 203415,
+  "metadata" : {
+    "handle" : "SOVIK",
+    "description" : "Jorgen Sovik",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:67c:228c::/48",
       "2a06:a005:5ac::/48"
     ]

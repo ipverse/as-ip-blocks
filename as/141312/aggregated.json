@@ -1,9 +1,12 @@
 {
-  "asn": 141312,
-  "handle": "ASPIRAR-AS",
-  "description": "Aspirare Technologies Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141312,
+  "metadata" : {
+    "handle" : "ASPIRAR-AS",
+    "description" : "Aspirare Technologies Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.224.112.0/23",
       "38.224.114.0/24",
       "38.224.116.0/24",
@@ -17,7 +20,7 @@
       "103.191.90.0/23",
       "203.145.52.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:cc20:1::/48",
       "2400:cc20:2::/48"
     ]

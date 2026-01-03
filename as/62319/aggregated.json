@@ -1,9 +1,12 @@
 {
-  "asn": 62319,
-  "handle": "ITM8-AS",
-  "description": "Itm8 A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62319,
+  "metadata" : {
+    "handle" : "ITM8-AS",
+    "description" : "Itm8 A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.44.248.0/23",
       "37.44.250.0/24",
       "91.142.136.0/24",
@@ -31,7 +34,7 @@
       "194.116.178.0/23",
       "194.126.192.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:c900::/29"
     ]
   }

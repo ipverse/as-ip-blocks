@@ -1,9 +1,12 @@
 {
-  "asn": 10882,
-  "handle": "CLARITYCONNECT",
-  "description": "Clarity Connect Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10882,
+  "metadata" : {
+    "handle" : "CLARITYCONNECT",
+    "description" : "Clarity Connect Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.133.160.0/24",
       "209.150.224.0/22",
       "209.150.228.0/24",
@@ -12,6 +15,6 @@
       "209.150.236.0/23",
       "209.150.239.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

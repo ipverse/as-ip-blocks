@@ -1,9 +1,12 @@
 {
-  "asn": 12252,
-  "handle": "AMERICA-MOVIL-PERU",
-  "description": "America Movil Peru S.A.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12252,
+  "metadata" : {
+    "handle" : "AMERICA-MOVIL-PERU",
+    "description" : "America Movil Peru S.A.C.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.0.144.0/20",
       "23.0.232.0/21",
       "23.193.168.0/23",
@@ -29,7 +32,7 @@
       "201.130.24.0/22",
       "216.244.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:200::/32",
       "2800:4b0::/32"
     ]

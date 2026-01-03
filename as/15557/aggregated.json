@@ -1,9 +1,12 @@
 {
-  "asn": 15557,
-  "handle": "LDCOMNET",
-  "description": "Societe Francaise Du Radiotelephone - SFR SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15557,
+  "metadata" : {
+    "handle" : "LDCOMNET",
+    "description" : "Societe Francaise Du Radiotelephone - SFR SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.64.0.0/13",
       "46.35.0.0/19",
       "46.218.0.0/16",
@@ -126,7 +129,7 @@
       "217.70.80.0/20",
       "217.112.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:6200::/29",
       "2a02:8400::/25",
       "2a02:e000::/29",

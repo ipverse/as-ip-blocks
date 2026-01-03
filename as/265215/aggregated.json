@@ -1,13 +1,16 @@
 {
-  "asn": 265215,
-  "handle": "FIBERNET-TELECOM",
-  "description": "FiberNet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265215,
+  "metadata" : {
+    "handle" : "FIBERNET-TELECOM",
+    "description" : "FiberNet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.176.196.0/22",
       "167.250.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2c64::/32"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 56413,
-  "handle": "PROSERVIS-AS",
-  "description": "UAB Proservis",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56413,
+  "metadata" : {
+    "handle" : "PROSERVIS-AS",
+    "description" : "UAB Proservis",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.224.134.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

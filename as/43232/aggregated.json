@@ -1,12 +1,15 @@
 {
-  "asn": 43232,
-  "handle": "TELEVID-AS16",
-  "description": "KT MAZLLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43232,
+  "metadata" : {
+    "handle" : "TELEVID-AS16",
+    "description" : "KT MAZLLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.123.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:9120::/32"
     ]
   }

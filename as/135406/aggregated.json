@@ -1,9 +1,12 @@
 {
-  "asn": 135406,
-  "handle": "BCD-AS-AP",
-  "description": "BCD NETWORKS PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135406,
+  "metadata" : {
+    "handle" : "BCD-AS-AP",
+    "description" : "BCD NETWORKS PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.7.188.0/23",
       "103.81.219.0/24",
       "103.107.16.0/24",
@@ -12,6 +15,6 @@
       "103.217.106.0/24",
       "203.55.212.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

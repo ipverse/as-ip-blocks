@@ -1,13 +1,16 @@
 {
-  "asn": 212548,
-  "handle": "PETROL-AS",
-  "description": "Petrol d.d. Ljubljana",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212548,
+  "metadata" : {
+    "handle" : "PETROL-AS",
+    "description" : "Petrol d.d. Ljubljana",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "188.240.209.0/24",
       "188.241.86.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:e88::/48"
     ]
   }

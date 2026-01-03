@@ -1,12 +1,15 @@
 {
-  "asn": 204317,
-  "handle": "ADENNET",
-  "description": "Aden net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204317,
+  "metadata" : {
+    "handle" : "ADENNET",
+    "description" : "Aden net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.56.24.0/21",
       "185.240.64.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

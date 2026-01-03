@@ -1,9 +1,12 @@
 {
-  "asn": 20234,
-  "handle": "HNTB",
-  "description": "HNTB CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20234,
+  "metadata" : {
+    "handle" : "HNTB",
+    "description" : "HNTB CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.51.225.0/24",
       "198.51.226.0/23",
       "198.51.228.0/23",
@@ -11,6 +14,6 @@
       "198.99.252.0/23",
       "198.99.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

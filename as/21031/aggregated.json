@@ -1,12 +1,15 @@
 {
-  "asn": 21031,
-  "handle": "ELNETA-AS",
-  "description": "UAB Elneta",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21031,
+  "metadata" : {
+    "handle" : "ELNETA-AS",
+    "description" : "UAB Elneta",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.219.5.0/24",
       "193.219.6.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

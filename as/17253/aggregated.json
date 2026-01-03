@@ -1,9 +1,12 @@
 {
-  "asn": 17253,
-  "handle": "TEC-OF-JACKSON-INC",
-  "description": "TEC of Jackson Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17253,
+  "metadata" : {
+    "handle" : "TEC-OF-JACKSON-INC",
+    "description" : "TEC of Jackson Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.8.54.0/24",
       "12.153.192.0/20",
       "12.193.28.0/24",
@@ -21,7 +24,7 @@
       "199.15.124.0/22",
       "208.86.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:8000::/32"
     ]
   }

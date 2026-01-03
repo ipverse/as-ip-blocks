@@ -1,13 +1,16 @@
 {
-  "asn": 939,
-  "handle": "USA-2022",
-  "description": "NovoServe LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 939,
+  "metadata" : {
+    "handle" : "USA-2022",
+    "description" : "NovoServe LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.152.192.0/22",
       "205.142.240.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:f340::/32"
     ]
   }

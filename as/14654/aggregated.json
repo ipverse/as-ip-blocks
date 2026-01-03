@@ -1,9 +1,12 @@
 {
-  "asn": 14654,
-  "handle": "WAYPORT",
-  "description": "AT\u0026T Enterprises LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14654,
+  "metadata" : {
+    "handle" : "WAYPORT",
+    "description" : "AT&T Enterprises LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.94.0.0/15",
       "63.140.128.0/17",
       "64.134.0.0/16",
@@ -24,7 +27,7 @@
       "206.59.252.0/22",
       "216.12.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4b8::/32"
     ]
   }

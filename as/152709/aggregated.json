@@ -1,11 +1,14 @@
 {
-  "asn": 152709,
-  "handle": "RKLINK-AS-AP",
-  "description": "RK Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152709,
+  "metadata" : {
+    "handle" : "RKLINK-AS-AP",
+    "description" : "RK Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.39.120.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

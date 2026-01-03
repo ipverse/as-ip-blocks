@@ -1,13 +1,16 @@
 {
-  "asn": 53699,
-  "handle": "PANAMAX-ASN",
-  "description": "Panamax Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53699,
+  "metadata" : {
+    "handle" : "PANAMAX-ASN",
+    "description" : "Panamax Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.15.169.0/24",
       "208.69.234.0/24",
       "216.245.81.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

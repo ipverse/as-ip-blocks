@@ -1,9 +1,12 @@
 {
-  "asn": 54253,
-  "handle": "ORCL-CHICAGO-PP",
-  "description": "Oracle Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54253,
+  "metadata" : {
+    "handle" : "ORCL-CHICAGO-PP",
+    "description" : "Oracle Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "40.233.32.0/22",
       "40.233.36.0/23",
       "40.233.40.0/21",
@@ -201,7 +204,7 @@
       "217.142.200.0/21",
       "217.142.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:2004::/40",
       "2600:2004:1000::/39",
       "2600:2004:2000::/40",

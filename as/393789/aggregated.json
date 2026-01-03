@@ -1,9 +1,12 @@
 {
-  "asn": 393789,
-  "handle": "CENTURYLINK-CHIA-PROJECT",
-  "description": "CenturyLink Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393789,
+  "metadata" : {
+    "handle" : "CENTURYLINK-CHIA-PROJECT",
+    "description" : "CenturyLink Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.5.36.0/24",
       "67.7.128.0/22",
       "67.7.133.0/24",
@@ -29,6 +32,6 @@
       "67.7.192.0/23",
       "67.7.194.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

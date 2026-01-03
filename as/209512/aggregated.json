@@ -1,10 +1,13 @@
 {
-  "asn": 209512,
-  "handle": "THOMASSEN-AS",
-  "description": "Alex Thomassen",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 209512,
+  "metadata" : {
+    "handle" : "THOMASSEN-AS",
+    "description" : "Alex Thomassen",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a05:dfc1:c501::/48",
       "2a05:dfc1:c502::/47",
       "2a05:dfc1:c69c::/48",

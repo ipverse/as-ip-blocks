@@ -1,9 +1,12 @@
 {
-  "asn": 23314,
-  "handle": "ORLANDOTELCO",
-  "description": "Summit Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23314,
+  "metadata" : {
+    "handle" : "ORLANDOTELCO",
+    "description" : "Summit Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.19.242.0/24",
       "8.34.13.0/24",
       "64.128.253.0/24",
@@ -52,7 +55,7 @@
       "216.239.160.0/19",
       "216.246.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:9c00::/32"
     ]
   }

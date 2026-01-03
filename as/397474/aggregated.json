@@ -1,9 +1,12 @@
 {
-  "asn": 397474,
-  "handle": "LOTOQU-AS",
-  "description": "Loto-Quebec",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397474,
+  "metadata" : {
+    "handle" : "LOTOQU-AS",
+    "description" : "Loto-Quebec",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.34.241.0/24",
       "69.90.147.0/24",
       "184.95.254.0/24",
@@ -12,6 +15,6 @@
       "206.41.80.0/24",
       "208.75.184.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

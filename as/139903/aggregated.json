@@ -1,12 +1,15 @@
 {
-  "asn": 139903,
-  "handle": "RETN-AS-AP",
-  "description": "RETN Telecoms Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139903,
+  "metadata" : {
+    "handle" : "RETN-AS-AP",
+    "description" : "RETN Telecoms Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.146.250.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:7580::/48"
     ]
   }

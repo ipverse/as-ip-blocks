@@ -1,12 +1,15 @@
 {
-  "asn": 39048,
-  "handle": "RUNTIME-AS",
-  "description": "Runtime LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39048,
+  "metadata" : {
+    "handle" : "RUNTIME-AS",
+    "description" : "Runtime LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.176.92.0/24",
       "193.176.95.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

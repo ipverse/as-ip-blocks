@@ -1,16 +1,19 @@
 {
-  "asn": 210226,
-  "handle": "WINDCLOUD40-AS",
-  "description": "Windcloud 4.0 GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210226,
+  "metadata" : {
+    "handle" : "WINDCLOUD40-AS",
+    "description" : "Windcloud 4.0 GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.230.128.0/23",
       "46.243.202.0/23",
       "91.218.23.0/24",
       "128.0.64.0/23",
       "185.235.39.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:d480::/29",
       "2a0e:1702:2::/48"
     ]

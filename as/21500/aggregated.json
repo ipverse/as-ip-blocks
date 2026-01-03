@@ -1,9 +1,12 @@
 {
-  "asn": 21500,
-  "handle": "TNS-AS",
-  "description": "Scientific Production Enterprise Technaukservice Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21500,
+  "metadata" : {
+    "handle" : "TNS-AS",
+    "description" : "Scientific Production Enterprise Technaukservice Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.106.68.0/24",
       "81.17.130.0/24",
       "81.17.140.0/24",
@@ -20,7 +23,7 @@
       "195.123.184.0/23",
       "195.234.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:6200::/29"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 32082,
-  "handle": "BSC-20041102",
-  "description": "Bridgewater State College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32082,
+  "metadata" : {
+    "handle" : "BSC-20041102",
+    "description" : "Bridgewater State College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.207.56.0/23",
       "192.207.58.0/24",
       "207.206.224.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

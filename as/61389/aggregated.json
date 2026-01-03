@@ -1,12 +1,15 @@
 {
-  "asn": 61389,
-  "handle": "RARTEL-AS",
-  "description": "RARTEL SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61389,
+  "metadata" : {
+    "handle" : "RARTEL-AS",
+    "description" : "RARTEL SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.42.15.0/24",
       "92.55.150.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

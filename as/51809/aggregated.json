@@ -1,9 +1,12 @@
 {
-  "asn": 51809,
-  "handle": "BRSK",
-  "description": "BRSK Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51809,
+  "metadata" : {
+    "handle" : "BRSK",
+    "description" : "BRSK Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.98.72.0/21",
       "31.98.80.0/20",
       "45.41.148.0/22",
@@ -19,7 +22,7 @@
       "185.138.196.0/22",
       "185.232.119.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:d580::/29"
     ]
   }

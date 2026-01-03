@@ -1,9 +1,12 @@
 {
-  "asn": 9044,
-  "handle": "SOLNET",
-  "description": "BSE Software GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9044,
+  "metadata" : {
+    "handle" : "SOLNET",
+    "description" : "BSE Software GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.86.132.0/23",
       "82.220.0.0/16",
       "91.199.228.0/24",
@@ -23,7 +26,7 @@
       "212.41.64.0/18",
       "212.101.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:e48::/48",
       "2001:1680::/29",
       "2a01:bf00::/32",

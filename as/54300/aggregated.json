@@ -1,9 +1,12 @@
 {
-  "asn": 54300,
-  "handle": "LIGHTSPEED-VOICE",
-  "description": "Lightspeed Voice",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54300,
+  "metadata" : {
+    "handle" : "LIGHTSPEED-VOICE",
+    "description" : "Lightspeed Voice",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.70.112.0/22",
       "68.70.117.0/24",
       "68.70.118.0/24",
@@ -11,6 +14,6 @@
       "192.81.80.0/22",
       "204.225.76.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

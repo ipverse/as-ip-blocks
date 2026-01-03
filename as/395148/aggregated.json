@@ -1,9 +1,12 @@
 {
-  "asn": 395148,
-  "handle": "PACLW",
-  "description": "PACIFIC LIGHTWAVE A CALIFORNIA CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395148,
+  "metadata" : {
+    "handle" : "PACLW",
+    "description" : "PACIFIC LIGHTWAVE A CALIFORNIA CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.3.48.0/22",
       "8.19.132.0/22",
       "8.34.116.0/22",
@@ -11,6 +14,6 @@
       "192.243.64.0/21",
       "209.84.247.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

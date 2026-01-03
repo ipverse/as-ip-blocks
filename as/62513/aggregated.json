@@ -1,9 +1,12 @@
 {
-  "asn": 62513,
-  "handle": "GOCODEIT-INC",
-  "description": "GoCodeIT Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62513,
+  "metadata" : {
+    "handle" : "GOCODEIT-INC",
+    "description" : "GoCodeIT Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "156.225.32.0/21",
       "156.225.40.0/24",
       "156.225.43.0/24",
@@ -13,7 +16,7 @@
       "156.225.184.0/21",
       "207.174.107.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd50:8001::/48",
       "2602:fd50:8010::/44",
       "2602:fd50:8020::/44",

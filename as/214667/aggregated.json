@@ -1,12 +1,15 @@
 {
-  "asn": 214667,
-  "handle": "IXT-GLOBAL",
-  "description": "IXT AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214667,
+  "metadata" : {
+    "handle" : "IXT-GLOBAL",
+    "description" : "IXT AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.214.200.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:6840::/29"
     ]
   }

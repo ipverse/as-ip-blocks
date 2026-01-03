@@ -1,12 +1,15 @@
 {
-  "asn": 199330,
-  "handle": "CENTRALNIC-ANYCAST-A",
-  "description": "CentralNic Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199330,
+  "metadata" : {
+    "handle" : "CENTRALNIC-ANYCAST-A",
+    "description" : "CentralNic Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.169.218.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:13cc::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 994,
-  "handle": "AS-VIIRTUE",
-  "description": "Viirtue LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 994,
+  "metadata" : {
+    "handle" : "AS-VIIRTUE",
+    "description" : "Viirtue LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.12.10.0/24",
       "64.21.2.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

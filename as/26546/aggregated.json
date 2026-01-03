@@ -1,16 +1,19 @@
 {
-  "asn": 26546,
-  "handle": "NUCLEUS-INC",
-  "description": "FIBERNETICS CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26546,
+  "metadata" : {
+    "handle" : "NUCLEUS-INC",
+    "description" : "FIBERNETICS CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.18.192.0/18",
       "204.209.5.0/24",
       "205.233.15.0/24",
       "208.94.28.0/22",
       "216.66.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:feb0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 48437,
-  "handle": "MEREZHA-UA-AS",
-  "description": "PP Merezha",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48437,
+  "metadata" : {
+    "handle" : "MEREZHA-UA-AS",
+    "description" : "PP Merezha",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.14.28.0/22",
       "91.200.8.0/22",
       "94.232.176.0/21",
@@ -11,6 +14,6 @@
       "185.175.244.0/22",
       "195.22.140.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

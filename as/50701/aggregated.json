@@ -1,11 +1,14 @@
 {
-  "asn": 50701,
-  "handle": "KOMATSU-CIS",
-  "description": "Komatsu CIS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50701,
+  "metadata" : {
+    "handle" : "KOMATSU-CIS",
+    "description" : "Komatsu CIS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.232.111.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

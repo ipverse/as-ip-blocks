@@ -1,9 +1,12 @@
 {
-  "asn": 26243,
-  "handle": "INTELSAT-S",
-  "description": "Intelsat",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26243,
+  "metadata" : {
+    "handle" : "INTELSAT-S",
+    "description" : "Intelsat",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.86.0.0/21",
       "164.86.105.0/24",
       "164.86.130.0/24",
@@ -14,6 +17,6 @@
       "164.86.228.0/23",
       "164.86.236.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

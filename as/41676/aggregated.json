@@ -1,9 +1,12 @@
 {
-  "asn": 41676,
-  "handle": "JMDI",
-  "description": "JMDI Jacek Maleszko",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41676,
+  "metadata" : {
+    "handle" : "JMDI",
+    "description" : "JMDI Jacek Maleszko",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.46.0.0/22",
       "80.238.96.0/19",
       "93.174.24.0/21",
@@ -14,6 +17,6 @@
       "185.93.92.0/22",
       "185.102.188.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

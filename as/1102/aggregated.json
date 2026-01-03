@@ -1,14 +1,17 @@
 {
-  "asn": 1102,
-  "handle": "SMEERBOEL-AS",
-  "description": "SURF B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1102,
+  "metadata" : {
+    "handle" : "SMEERBOEL-AS",
+    "description" : "SURF B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.42.121.0/24",
       "192.42.132.0/24",
       "194.104.0.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:230::/48"
     ]
   }

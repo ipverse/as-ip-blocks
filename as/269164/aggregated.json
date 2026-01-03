@@ -1,12 +1,15 @@
 {
-  "asn": 269164,
-  "handle": "PLANOIP-TELECOM",
-  "description": "planoip telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269164,
+  "metadata" : {
+    "handle" : "PLANOIP-TELECOM",
+    "description" : "planoip telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.180.64.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6064::/33"
     ]
   }

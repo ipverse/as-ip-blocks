@@ -1,12 +1,15 @@
 {
-  "asn": 45139,
-  "handle": "MICROSOFT-AS-AP",
-  "description": "Microsoft Singapore Pte. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45139,
+  "metadata" : {
+    "handle" : "MICROSOFT-AS-AP",
+    "description" : "Microsoft Singapore Pte. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.220.226.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:f801:8020::/48",
       "2404:f801:802c::/48"
     ]

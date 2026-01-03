@@ -1,9 +1,12 @@
 {
-  "asn": 199713,
-  "handle": "MLL-AS",
-  "description": "MLL Telecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199713,
+  "metadata" : {
+    "handle" : "MLL-AS",
+    "description" : "MLL Telecom Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.255.48.0/21",
       "91.196.28.0/22",
       "91.231.90.0/23",
@@ -19,6 +22,6 @@
       "194.140.226.0/24",
       "213.178.132.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

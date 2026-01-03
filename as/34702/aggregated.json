@@ -1,9 +1,12 @@
 {
-  "asn": 34702,
-  "handle": "WAVECOM-AS",
-  "description": "Aktsiaselts WaveCom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34702,
+  "metadata" : {
+    "handle" : "WAVECOM-AS",
+    "description" : "Aktsiaselts WaveCom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.252.4.0/23",
       "38.180.10.0/24",
       "38.180.44.0/23",
@@ -23,7 +26,7 @@
       "185.114.116.0/24",
       "185.246.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:97a0::/32"
     ]
   }

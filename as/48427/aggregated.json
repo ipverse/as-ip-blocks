@@ -1,9 +1,12 @@
 {
-  "asn": 48427,
-  "handle": "VISOVISION-AS",
-  "description": "VISOVISION S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48427,
+  "metadata" : {
+    "handle" : "VISOVISION-AS",
+    "description" : "VISOVISION S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.106.17.0/24",
       "91.242.136.0/21",
       "94.176.107.0/24",
@@ -18,6 +21,6 @@
       "212.231.56.0/24",
       "217.29.96.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

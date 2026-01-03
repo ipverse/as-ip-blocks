@@ -1,11 +1,14 @@
 {
-  "asn": 152200,
-  "handle": "FXSEOUL-AS",
-  "description": "SMBS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152200,
+  "metadata" : {
+    "handle" : "FXSEOUL-AS",
+    "description" : "SMBS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.36.115.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 204504,
-  "handle": "AS-CODING",
-  "description": "Coding SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204504,
+  "metadata" : {
+    "handle" : "AS-CODING",
+    "description" : "Coding SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.134.168.0/22",
       "185.227.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:3e80::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 14898,
-  "handle": "ODINTERNET",
-  "description": "Office Depot LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14898,
+  "metadata" : {
+    "handle" : "ODINTERNET",
+    "description" : "Office Depot LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "205.157.65.0/24",
       "205.157.66.0/24",
       "205.157.74.0/24",
@@ -17,6 +20,6 @@
       "205.157.120.0/23",
       "205.157.124.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

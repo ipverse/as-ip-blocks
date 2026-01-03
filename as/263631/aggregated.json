@@ -1,13 +1,16 @@
 {
-  "asn": 263631,
-  "handle": "VIA-LINE",
-  "description": "Via Line",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263631,
+  "metadata" : {
+    "handle" : "VIA-LINE",
+    "description" : "Via Line",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.205.80.0/22",
       "179.125.48.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:105c::/32"
     ]
   }

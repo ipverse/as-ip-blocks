@@ -1,11 +1,14 @@
 {
-  "asn": 3060,
-  "handle": "SC-YORKTECH",
-  "description": "York Technical College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3060,
+  "metadata" : {
+    "handle" : "SC-YORKTECH",
+    "description" : "York Technical College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.26.8.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

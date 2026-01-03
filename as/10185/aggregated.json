@@ -1,9 +1,12 @@
 {
-  "asn": 10185,
-  "handle": "HNB-AS",
-  "description": "Hana Bank Co",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10185,
+  "metadata" : {
+    "handle" : "HNB-AS",
+    "description" : "Hana Bank Co.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.236.222.0/24",
       "59.11.68.0/24",
       "61.33.244.0/24",
@@ -29,6 +32,6 @@
       "220.126.26.0/24",
       "221.149.141.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

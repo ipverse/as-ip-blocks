@@ -1,16 +1,19 @@
 {
-  "asn": 136396,
-  "handle": "HOSTOMEGA-AS-AP",
-  "description": "HOSTOMEGA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136396,
+  "metadata" : {
+    "handle" : "HOSTOMEGA-AS-AP",
+    "description" : "HOSTOMEGA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.79.2.0/23",
       "160.191.162.0/23",
       "160.250.94.0/23",
       "163.223.220.0/23",
       "163.227.50.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:8a40::/48",
       "2001:df4:adc0::/47"
     ]

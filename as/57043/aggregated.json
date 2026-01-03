@@ -1,9 +1,12 @@
 {
-  "asn": 57043,
-  "handle": "HOSTKEY-AS",
-  "description": "HOSTKEY B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57043,
+  "metadata" : {
+    "handle" : "HOSTKEY-AS",
+    "description" : "HOSTKEY B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.242.0/24",
       "5.39.216.0/21",
       "5.42.199.0/24",
@@ -259,7 +262,7 @@
       "217.11.166.0/24",
       "217.28.129.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:b40::/32",
       "2a05:b41:100::/40",
       "2a05:b42::/32",

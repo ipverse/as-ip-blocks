@@ -1,9 +1,12 @@
 {
-  "asn": 10299,
-  "handle": "EMPRESAS-MUNICIPALES-CALI",
-  "description": "EMPRESAS MUNICIPALES DE CALI E.I.C.E. E.S.P",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10299,
+  "metadata" : {
+    "handle" : "EMPRESAS-MUNICIPALES-CALI",
+    "description" : "EMPRESAS MUNICIPALES DE CALI E.I.C.E. E.S.P.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.108.168.0/22",
       "138.122.201.0/24",
       "138.122.202.0/23",
@@ -22,7 +25,7 @@
       "200.14.112.0/23",
       "200.29.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:950::/32",
       "2803:3d60:100::/40"
     ]

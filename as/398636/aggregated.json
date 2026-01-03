@@ -1,9 +1,12 @@
 {
-  "asn": 398636,
-  "handle": "832-COMMUNICATIONS",
-  "description": "832 Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398636,
+  "metadata" : {
+    "handle" : "832-COMMUNICATIONS",
+    "description" : "832 Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.216.235.0/24",
       "69.24.140.0/24",
       "148.59.90.0/24",
@@ -13,7 +16,7 @@
       "208.94.237.0/24",
       "216.205.50.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:9640::/32"
     ]
   }

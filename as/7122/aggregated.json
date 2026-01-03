@@ -1,9 +1,12 @@
 {
-  "asn": 7122,
-  "handle": "MTS-ASN",
-  "description": "Bell Canada",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7122,
+  "metadata" : {
+    "handle" : "MTS-ASN",
+    "description" : "Bell Canada",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.4.64.0/19",
       "142.160.0.0/15",
       "142.233.128.0/17",
@@ -22,7 +25,7 @@
       "216.81.0.0/19",
       "216.130.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:ca00:8000::/33"
     ]
   }

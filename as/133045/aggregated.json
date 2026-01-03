@@ -1,9 +1,12 @@
 {
-  "asn": 133045,
-  "handle": "NSW-ENO-AS-AP",
-  "description": "NSW Electricity Networks Operations Pty Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133045,
+  "metadata" : {
+    "handle" : "NSW-ENO-AS-AP",
+    "description" : "NSW Electricity Networks Operations Pty Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.75.4.0/22",
       "137.59.72.0/22",
       "148.195.20.0/22",
@@ -13,7 +16,7 @@
       "148.195.145.0/24",
       "148.195.230.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:3a80::/32"
     ]
   }

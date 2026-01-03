@@ -1,9 +1,12 @@
 {
-  "asn": 395577,
-  "handle": "ITHACA-COLLEGE",
-  "description": "Ithaca College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395577,
+  "metadata" : {
+    "handle" : "ITHACA-COLLEGE",
+    "description" : "Ithaca College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.129.0.0/19",
       "147.129.48.0/23",
       "147.129.55.0/24",
@@ -15,6 +18,6 @@
       "192.74.209.0/24",
       "192.231.234.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

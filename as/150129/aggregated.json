@@ -1,11 +1,14 @@
 {
-  "asn": 150129,
-  "handle": "WALITELECOM-AS-AP",
-  "description": "WaliTel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150129,
+  "metadata" : {
+    "handle" : "WALITELECOM-AS-AP",
+    "description" : "WaliTel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.154.64.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

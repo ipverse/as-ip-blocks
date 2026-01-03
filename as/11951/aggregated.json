@@ -1,15 +1,18 @@
 {
-  "asn": 11951,
-  "handle": "MCSP",
-  "description": "Medical Computer Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11951,
+  "metadata" : {
+    "handle" : "MCSP",
+    "description" : "Medical Computer Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.186.128.0/20",
       "204.152.42.0/23",
       "205.147.160.0/19",
       "207.152.128.0/18",
       "209.50.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

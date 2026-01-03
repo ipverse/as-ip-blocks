@@ -1,9 +1,12 @@
 {
-  "asn": 35575,
-  "handle": "VAIONI",
-  "description": "Vaioni Group Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35575,
+  "metadata" : {
+    "handle" : "VAIONI",
+    "description" : "Vaioni Group Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.149.240.0/20",
       "84.19.32.0/19",
       "88.211.64.0/18",
@@ -21,7 +24,7 @@
       "209.42.0.0/23",
       "209.42.2.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5bf::/32",
       "2a02:29d0::/32"
     ]

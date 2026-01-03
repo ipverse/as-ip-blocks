@@ -1,9 +1,12 @@
 {
-  "asn": 3128,
-  "handle": "BRUWS-AS3128",
-  "description": "University of Wisconsin System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3128,
+  "metadata" : {
+    "handle" : "BRUWS-AS3128",
+    "description" : "University of Wisconsin System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.210.0.0/16",
       "137.81.0.0/16",
       "137.104.0.0/16",
@@ -17,7 +20,7 @@
       "146.151.3.0/24",
       "192.35.81.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:1d00::/28"
     ]
   }

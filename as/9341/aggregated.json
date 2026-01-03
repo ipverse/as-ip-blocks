@@ -1,9 +1,12 @@
 {
-  "asn": 9341,
-  "handle": "ICONPLN-ID-AP-ISP",
-  "description": "PT INDONESIA COMNETS PLUS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9341,
+  "metadata" : {
+    "handle" : "ICONPLN-ID-AP-ISP",
+    "description" : "PT INDONESIA COMNETS PLUS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.124.80.0/23",
       "27.124.82.0/24",
       "27.124.84.0/22",
@@ -123,7 +126,7 @@
       "220.247.168.0/21",
       "223.25.96.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:4a00::/32"
     ]
   }

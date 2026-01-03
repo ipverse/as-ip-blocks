@@ -1,14 +1,17 @@
 {
-  "asn": 58055,
-  "handle": "EXTRATEL-NET1-AS",
-  "description": "Extratel Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58055,
+  "metadata" : {
+    "handle" : "EXTRATEL-NET1-AS",
+    "description" : "Extratel Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "176.113.208.0/20",
       "194.31.68.0/23",
       "194.31.84.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:1e40::/32"
     ]
   }

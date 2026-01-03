@@ -1,12 +1,15 @@
 {
-  "asn": 202238,
-  "handle": "BREKOM-AS",
-  "description": "BREKOM GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202238,
+  "metadata" : {
+    "handle" : "BREKOM-AS",
+    "description" : "BREKOM GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.61.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:50e0::/32"
     ]
   }

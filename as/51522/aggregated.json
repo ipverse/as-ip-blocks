@@ -1,9 +1,12 @@
 {
-  "asn": 51522,
-  "handle": "ONLINE",
-  "description": "ONLINE LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51522,
+  "metadata" : {
+    "handle" : "ONLINE",
+    "description" : "ONLINE LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.217.253.0/24",
       "45.140.80.0/22",
       "77.87.124.0/24",
@@ -21,6 +24,6 @@
       "194.28.36.0/22",
       "194.127.112.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

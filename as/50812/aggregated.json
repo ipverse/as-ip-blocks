@@ -1,9 +1,12 @@
 {
-  "asn": 50812,
-  "handle": "AXESS-ONLINE",
-  "description": "Axess OnLine SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50812,
+  "metadata" : {
+    "handle" : "AXESS-ONLINE",
+    "description" : "Axess OnLine SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.193.106.0/23",
       "91.224.6.0/23",
       "185.30.48.0/22",
@@ -12,6 +15,6 @@
       "194.110.164.0/22",
       "194.116.202.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

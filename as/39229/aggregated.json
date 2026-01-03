@@ -1,10 +1,13 @@
 {
-  "asn": 39229,
-  "handle": "SAN-AS",
-  "description": "PJSC Rostelecom",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 39229,
+  "metadata" : {
+    "handle" : "SAN-AS",
+    "description" : "PJSC Rostelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a00:1e88:8::/48"
     ]
   }

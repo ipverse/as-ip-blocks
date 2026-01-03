@@ -1,12 +1,15 @@
 {
-  "asn": 133749,
-  "handle": "SOLNODE-AS-AP",
-  "description": "Solnode Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133749,
+  "metadata" : {
+    "handle" : "SOLNODE-AS-AP",
+    "description" : "Solnode Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.76.42.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:5c0:8740::/48"
     ]
   }

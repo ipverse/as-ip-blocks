@@ -1,9 +1,12 @@
 {
-  "asn": 30383,
-  "handle": "GENERAL-MOTORS-CORPORATION",
-  "description": "General Motors LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30383,
+  "metadata" : {
+    "handle" : "GENERAL-MOTORS-CORPORATION",
+    "description" : "General Motors LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.208.0.0/24",
       "198.208.2.0/23",
       "198.208.4.0/23",
@@ -80,7 +83,7 @@
       "198.208.252.0/24",
       "198.208.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:15e:101::/48",
       "2620:15e:102::/48",
       "2620:15e:1100::/40",

@@ -1,9 +1,12 @@
 {
-  "asn": 10430,
-  "handle": "WA-K20",
-  "description": "Washington State K-20 Telecommunications Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10430,
+  "metadata" : {
+    "handle" : "WA-K20",
+    "description" : "Washington State K-20 Telecommunications Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.135.32.0/20",
       "66.96.64.0/20",
       "68.179.192.0/19",
@@ -35,7 +38,7 @@
       "216.186.0.0/17",
       "216.210.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fa78::/32"
     ]
   }

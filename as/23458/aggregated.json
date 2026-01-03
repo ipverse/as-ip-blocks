@@ -1,12 +1,15 @@
 {
-  "asn": 23458,
-  "handle": "DHH-AUTHORITY",
-  "description": "Denver Health and Hospital Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23458,
+  "metadata" : {
+    "handle" : "DHH-AUTHORITY",
+    "description" : "Denver Health and Hospital Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.9.100.0/22",
       "205.170.235.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

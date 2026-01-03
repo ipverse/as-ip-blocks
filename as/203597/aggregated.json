@@ -1,13 +1,16 @@
 {
-  "asn": 203597,
-  "handle": "STEKSPB-AS",
-  "description": "STEK LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203597,
+  "metadata" : {
+    "handle" : "STEKSPB-AS",
+    "description" : "STEK LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.9.195.0/24",
       "194.190.151.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:1107::/47"
     ]
   }

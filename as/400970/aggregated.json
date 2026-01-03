@@ -1,12 +1,15 @@
 {
-  "asn": 400970,
-  "handle": "LIPARI-NETWORKS",
-  "description": "Lipari Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400970,
+  "metadata" : {
+    "handle" : "LIPARI-NETWORKS",
+    "description" : "Lipari Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.152.248.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:2d2::/36"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 395236,
-  "handle": "STARTELCO",
-  "description": "Star Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395236,
+  "metadata" : {
+    "handle" : "STARTELCO",
+    "description" : "Star Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.19.112.0/20",
       "162.216.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:bd40::/32"
     ]
   }

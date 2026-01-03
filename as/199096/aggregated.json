@@ -1,13 +1,16 @@
 {
-  "asn": 199096,
-  "handle": "LOGOS-AS",
-  "description": "JSC Digital network Logos",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199096,
+  "metadata" : {
+    "handle" : "LOGOS-AS",
+    "description" : "JSC Digital network Logos",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.187.40.0/21",
       "85.172.168.0/23",
       "185.7.84.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

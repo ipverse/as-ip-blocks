@@ -1,9 +1,12 @@
 {
-  "asn": 29946,
-  "handle": "UNION-CELL",
-  "description": "Union Wireless",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29946,
+  "metadata" : {
+    "handle" : "UNION-CELL",
+    "description" : "Union Wireless",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.41.46.0/23",
       "65.89.172.0/23",
       "166.230.0.0/17",
@@ -17,6 +20,6 @@
       "208.56.64.0/18",
       "208.72.224.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

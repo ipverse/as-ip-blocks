@@ -1,12 +1,15 @@
 {
-  "asn": 141458,
-  "handle": "IPINTERNET-AS-AP",
-  "description": "IP INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141458,
+  "metadata" : {
+    "handle" : "IPINTERNET-AS-AP",
+    "description" : "IP INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.160.16.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:7c0::/48"
     ]
   }

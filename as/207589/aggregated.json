@@ -1,14 +1,17 @@
 {
-  "asn": 207589,
-  "handle": "SYMA-AS",
-  "description": "SYMA SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207589,
+  "metadata" : {
+    "handle" : "SYMA-AS",
+    "description" : "SYMA SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.40.210.0/24",
       "91.205.43.0/24",
       "185.109.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:c900::/29"
     ]
   }

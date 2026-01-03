@@ -1,14 +1,17 @@
 {
-  "asn": 9076,
-  "handle": "INIT-AS",
-  "description": "Retelit Digital Services S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9076,
+  "metadata" : {
+    "handle" : "INIT-AS",
+    "description" : "Retelit Digital Services S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.104.1.0/24",
       "212.104.10.0/24",
       "212.104.14.0/24",
       "212.104.43.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

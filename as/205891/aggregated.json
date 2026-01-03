@@ -1,13 +1,16 @@
 {
-  "asn": 205891,
-  "handle": "WENETWORK",
-  "description": "WeNetwork SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205891,
+  "metadata" : {
+    "handle" : "WENETWORK",
+    "description" : "WeNetwork SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.182.68.0/22",
       "185.55.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:4e20::/32"
     ]
   }

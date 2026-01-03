@@ -1,9 +1,12 @@
 {
-  "asn": 210099,
-  "handle": "TIGOVA",
-  "description": "TIGOVA NETWORK LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210099,
+  "metadata" : {
+    "handle" : "TIGOVA",
+    "description" : "TIGOVA NETWORK LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.31.78.0/24",
       "85.117.236.0/23",
       "85.117.238.0/24",
@@ -12,6 +15,6 @@
       "185.165.77.0/24",
       "185.165.78.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

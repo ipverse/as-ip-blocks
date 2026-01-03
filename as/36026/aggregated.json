@@ -1,9 +1,12 @@
 {
-  "asn": 36026,
-  "handle": "AS-CHI-CORP",
-  "description": "CommonSpirit Health",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36026,
+  "metadata" : {
+    "handle" : "AS-CHI-CORP",
+    "description" : "CommonSpirit Health",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.76.1.0/24",
       "160.76.2.0/23",
       "160.76.4.0/22",
@@ -14,6 +17,6 @@
       "199.34.0.0/22",
       "209.193.112.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

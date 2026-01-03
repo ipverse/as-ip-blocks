@@ -1,12 +1,15 @@
 {
-  "asn": 8538,
-  "handle": "ILINK-AS",
-  "description": "iLink ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8538,
+  "metadata" : {
+    "handle" : "ILINK-AS",
+    "description" : "iLink ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.162.104.0/22",
       "195.8.115.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

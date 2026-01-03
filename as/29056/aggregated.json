@@ -1,9 +1,12 @@
 {
-  "asn": 29056,
-  "handle": "CITYCOM-AS",
-  "description": "Citycom Telekommunikation GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29056,
+  "metadata" : {
+    "handle" : "CITYCOM-AS",
+    "description" : "Citycom Telekommunikation GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.143.176.0/20",
       "77.75.23.0/24",
       "85.237.0.0/19",
@@ -22,7 +25,7 @@
       "195.88.238.0/23",
       "217.29.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:758::/32"
     ]
   }

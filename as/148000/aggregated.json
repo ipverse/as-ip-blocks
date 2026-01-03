@@ -1,9 +1,12 @@
 {
-  "asn": 148000,
-  "handle": "RSMANI-NKN",
-  "description": "National Knowledge Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 148000,
+  "metadata" : {
+    "handle" : "RSMANI-NKN",
+    "description" : "National Knowledge Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.10.10.0/24",
       "36.50.36.0/24",
       "36.50.50.0/24",
@@ -13,7 +16,7 @@
       "160.202.196.0/24",
       "160.202.200.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:de2::/48",
       "2409::/48",
       "2409:1::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 34143,
-  "handle": "FREENET-LLC",
-  "description": "Freenet LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34143,
+  "metadata" : {
+    "handle" : "FREENET-LLC",
+    "description" : "Freenet LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.239.188.0/22",
       "85.114.212.0/22",
       "85.114.216.0/21",
@@ -11,6 +14,6 @@
       "178.136.36.0/22",
       "178.136.92.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

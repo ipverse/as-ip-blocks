@@ -1,13 +1,16 @@
 {
-  "asn": 207767,
-  "handle": "AS-FERMORITE",
-  "description": "FERMORITE Systems Applications and Services on IT and Technology IKE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207767,
+  "metadata" : {
+    "handle" : "AS-FERMORITE",
+    "description" : "FERMORITE Systems Applications and Services on IT and Technology IKE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "176.119.209.0/24",
       "185.90.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:ffc0::/29"
     ]
   }

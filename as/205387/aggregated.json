@@ -1,11 +1,14 @@
 {
-  "asn": 205387,
-  "handle": "HYBRID-AS",
-  "description": "Hybrid LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205387,
+  "metadata" : {
+    "handle" : "HYBRID-AS",
+    "description" : "Hybrid LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.101.248.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

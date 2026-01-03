@@ -1,9 +1,12 @@
 {
-  "asn": 397068,
-  "handle": "CAROLINACONNECT-01",
-  "description": "CarolinaConnect Cooperative",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397068,
+  "metadata" : {
+    "handle" : "CAROLINACONNECT-01",
+    "description" : "CarolinaConnect Cooperative",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.222.244.0/22",
       "135.84.8.0/21",
       "162.213.116.0/22",
@@ -11,7 +14,7 @@
       "204.116.251.0/24",
       "206.74.190.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:9e80::/32"
     ]
   }

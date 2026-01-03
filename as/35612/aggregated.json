@@ -1,9 +1,12 @@
 {
-  "asn": 35612,
-  "handle": "NGI-AS",
-  "description": "EOLO S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35612,
+  "metadata" : {
+    "handle" : "NGI-AS",
+    "description" : "EOLO S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.157.96.0/19",
       "49.236.0.0/18",
       "77.32.0.0/17",
@@ -20,7 +23,7 @@
       "212.124.160.0/19",
       "216.247.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4c90::/29"
     ]
   }

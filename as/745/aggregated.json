@@ -1,9 +1,12 @@
 {
-  "asn": 745,
-  "handle": "AFCONC-BLOCK2-AS",
-  "description": "Air Force Systems Networking",
-  "subnets": {
-    "ipv4": [
+  "asn" : 745,
+  "metadata" : {
+    "handle" : "AFCONC-BLOCK2-AS",
+    "description" : "Air Force Systems Networking",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "6.64.121.0/24",
       "130.16.241.0/24",
       "134.152.88.0/22",
@@ -63,6 +66,6 @@
       "214.55.24.0/21",
       "214.55.52.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

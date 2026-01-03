@@ -1,12 +1,15 @@
 {
-  "asn": 137033,
-  "handle": "RSMNETWORK-AS-AP",
-  "description": "RSM Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137033,
+  "metadata" : {
+    "handle" : "RSMNETWORK-AS-AP",
+    "description" : "RSM Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.149.72.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:c780::/48"
     ]
   }

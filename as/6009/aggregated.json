@@ -1,12 +1,15 @@
 {
-  "asn": 6009,
-  "handle": "DNIC-ASBLK-05800-06055",
-  "description": "United States Department of Defense (DoD)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6009,
+  "metadata" : {
+    "handle" : "DNIC-ASBLK-05800-06055",
+    "description" : "United States Department of Defense (DoD)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.164.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:480:51::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 20099,
-  "handle": "HMNS",
-  "description": "Houston Museum of Natural Science",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20099,
+  "metadata" : {
+    "handle" : "HMNS",
+    "description" : "Houston Museum of Natural Science",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.44.70.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:89:c000::/48"
     ]
   }

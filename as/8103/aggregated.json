@@ -1,9 +1,12 @@
 {
-  "asn": 8103,
-  "handle": "STATE-OF-FLA",
-  "description": "Florida Department of Management Services - Division of Telecommunications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8103,
+  "metadata" : {
+    "handle" : "STATE-OF-FLA",
+    "description" : "Florida Department of Management Services - Division of Telecommunications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "150.176.6.0/23",
       "150.176.8.0/22",
       "150.176.12.0/23",
@@ -292,7 +295,7 @@
       "216.203.73.0/24",
       "216.203.79.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:520:1001::/48",
       "2001:520:1007::/48",
       "2001:520:100b::/48",

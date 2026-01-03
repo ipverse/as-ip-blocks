@@ -1,9 +1,12 @@
 {
-  "asn": 29244,
-  "handle": "TELENORBG-AS",
-  "description": "CETIN Bulgaria EAD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29244,
+  "metadata" : {
+    "handle" : "TELENORBG-AS",
+    "description" : "CETIN Bulgaria EAD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.118.192.0/21",
       "87.120.79.0/24",
       "91.92.8.0/21",
@@ -15,7 +18,7 @@
       "193.194.147.0/24",
       "193.194.155.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:4700::/32"
     ]
   }

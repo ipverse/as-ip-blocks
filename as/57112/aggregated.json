@@ -1,9 +1,12 @@
 {
-  "asn": 57112,
-  "handle": "AS-F2X",
-  "description": "F2X Operator B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57112,
+  "metadata" : {
+    "handle" : "AS-F2X",
+    "description" : "F2X Operator B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.104.112.0/20",
       "31.177.32.0/21",
       "45.84.40.0/22",
@@ -26,7 +29,7 @@
       "185.192.144.0/22",
       "217.76.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:4980::/29",
       "2a0e:c40::/29",
       "2a0e:9680::/29"

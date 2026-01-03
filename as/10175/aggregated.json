@@ -1,9 +1,12 @@
 {
-  "asn": 10175,
-  "handle": "HCNKUMHO-AS",
-  "description": "Kumho Cable",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10175,
+  "metadata" : {
+    "handle" : "HCNKUMHO-AS",
+    "description" : "Kumho Cable",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.35.96.0/20",
       "49.143.16.0/22",
       "49.143.92.0/22",
@@ -18,6 +21,6 @@
       "122.202.32.0/20",
       "123.108.184.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

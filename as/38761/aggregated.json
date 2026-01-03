@@ -1,12 +1,15 @@
 {
-  "asn": 38761,
-  "handle": "SPM-AS-ID",
-  "description": "PT. Sakti Putra Mandiri",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38761,
+  "metadata" : {
+    "handle" : "SPM-AS-ID",
+    "description" : "PT. Sakti Putra Mandiri",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "121.100.24.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:8f00::/32"
     ]
   }

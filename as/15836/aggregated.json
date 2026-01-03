@@ -1,9 +1,12 @@
 {
-  "asn": 15836,
-  "handle": "AXAUTSYS",
-  "description": "Arax-Impex s.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15836,
+  "metadata" : {
+    "handle" : "AXAUTSYS",
+    "description" : "Arax-Impex s.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.32.168.0/21",
       "87.255.64.0/19",
       "185.46.60.0/22",
@@ -12,7 +15,7 @@
       "212.28.64.0/19",
       "217.26.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:a80::/32"
     ]
   }

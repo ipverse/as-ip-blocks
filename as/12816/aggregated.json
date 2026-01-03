@@ -1,9 +1,12 @@
 {
-  "asn": 12816,
-  "handle": "MWN-AS",
-  "description": "Leibniz-Rechenzentrum",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12816,
+  "metadata" : {
+    "handle" : "MWN-AS",
+    "description" : "Leibniz-Rechenzentrum",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.187.0.0/16",
       "138.244.0.0/15",
       "138.246.0.0/16",
@@ -15,7 +18,7 @@
       "192.68.212.0/22",
       "192.129.1.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4ca0::/29"
     ]
   }

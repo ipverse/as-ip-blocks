@@ -1,13 +1,16 @@
 {
-  "asn": 7664,
-  "handle": "HARENET",
-  "description": "HARENET INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7664,
+  "metadata" : {
+    "handle" : "HARENET",
+    "description" : "HARENET INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "110.172.48.0/22",
       "210.167.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:3f80::/32"
     ]
   }

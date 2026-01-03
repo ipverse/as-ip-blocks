@@ -1,9 +1,12 @@
 {
-  "asn": 400385,
-  "handle": "CITIZENS-TELEPHONE-ASN-01",
-  "description": "Citizens Telephone Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400385,
+  "metadata" : {
+    "handle" : "CITIZENS-TELEPHONE-ASN-01",
+    "description" : "Citizens Telephone Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.130.200.0/24",
       "64.184.4.0/22",
       "64.184.95.0/24",
@@ -14,6 +17,6 @@
       "208.103.50.0/24",
       "208.103.56.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

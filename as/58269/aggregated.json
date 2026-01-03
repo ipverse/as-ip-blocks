@@ -1,14 +1,17 @@
 {
-  "asn": 58269,
-  "handle": "AS-CLOUDHOSTING",
-  "description": "CloudHosting SIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58269,
+  "metadata" : {
+    "handle" : "AS-CLOUDHOSTING",
+    "description" : "CloudHosting SIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.148.174.0/24",
       "87.246.183.0/24",
       "91.220.43.0/24",
       "185.8.60.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

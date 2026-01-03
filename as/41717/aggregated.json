@@ -1,9 +1,12 @@
 {
-  "asn": 41717,
-  "handle": "TELFLYNETWORK",
-  "description": "Telfly Technology Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41717,
+  "metadata" : {
+    "handle" : "TELFLYNETWORK",
+    "description" : "Telfly Technology Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.8.32.0/24",
       "45.8.35.0/24",
       "49.128.221.0/24",
@@ -13,6 +16,6 @@
       "103.116.151.0/24",
       "185.211.135.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 52170,
-  "handle": "HELEN-AS",
-  "description": "Helen Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52170,
+  "metadata" : {
+    "handle" : "HELEN-AS",
+    "description" : "Helen Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.224.4.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

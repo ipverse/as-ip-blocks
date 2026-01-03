@@ -1,14 +1,17 @@
 {
-  "asn": 3839,
-  "handle": "ERX-CHULANET",
-  "description": "Chulalongkorn University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3839,
+  "metadata" : {
+    "handle" : "ERX-CHULANET",
+    "description" : "Chulalongkorn University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.200.0.0/16",
       "192.207.64.0/24",
       "202.6.90.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:3c8:1401::/48"
     ]
   }

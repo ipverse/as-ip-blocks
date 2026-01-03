@@ -1,9 +1,12 @@
 {
-  "asn": 3456,
-  "handle": "TWC-3456-IT",
-  "description": "Charter Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3456,
+  "metadata" : {
+    "handle" : "TWC-3456-IT",
+    "description" : "Charter Communications Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.48.224.0/19",
       "142.136.0.0/16",
       "165.237.0.0/16",
@@ -12,7 +15,7 @@
       "204.235.112.0/21",
       "204.235.120.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1998:2000::/35",
       "2600:5c00:21cf::/48",
       "2600:5c00:21d1::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 328344,
-  "handle": "STETECHPLUS-AS",
-  "description": "STE Techplus SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328344,
+  "metadata" : {
+    "handle" : "STETECHPLUS-AS",
+    "description" : "STE Techplus SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.135.176.0/23",
       "102.135.179.0/24",
       "102.135.180.0/24",
@@ -11,6 +14,6 @@
       "102.217.16.0/23",
       "102.217.19.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

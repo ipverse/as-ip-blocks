@@ -1,11 +1,14 @@
 {
-  "asn": 141219,
-  "handle": "WORLDLINK-AS-AP",
-  "description": "World Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141219,
+  "metadata" : {
+    "handle" : "WORLDLINK-AS-AP",
+    "description" : "World Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.156.108.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 150721,
-  "handle": "ANCL-AS-AP",
-  "description": "ARAKHA NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150721,
+  "metadata" : {
+    "handle" : "ANCL-AS-AP",
+    "description" : "ARAKHA NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.68.234.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 5589,
-  "handle": "OPEN-FC-1-AS",
-  "description": "JSC BM-Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5589,
+  "metadata" : {
+    "handle" : "OPEN-FC-1-AS",
+    "description" : "JSC BM-Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.197.176.0/22",
       "91.208.166.0/24",
       "91.216.69.0/24",
@@ -18,6 +21,6 @@
       "195.234.170.0/24",
       "195.250.51.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

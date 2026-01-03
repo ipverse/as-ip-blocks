@@ -1,15 +1,18 @@
 {
-  "asn": 13448,
-  "handle": "WEBSENSE",
-  "description": "Forcepoint LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13448,
+  "metadata" : {
+    "handle" : "WEBSENSE",
+    "description" : "Forcepoint LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.167.1.0/24",
       "157.167.3.0/24",
       "204.15.64.0/23",
       "208.80.196.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:12c:b018::/48"
     ]
   }

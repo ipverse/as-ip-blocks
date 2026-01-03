@@ -1,9 +1,12 @@
 {
-  "asn": 17573,
-  "handle": "SKB-MINS-AS",
-  "description": "SK Broadband Co Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17573,
+  "metadata" : {
+    "handle" : "SKB-MINS-AS",
+    "description" : "SK Broadband Co Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.118.64.0/18",
       "27.124.232.0/22",
       "27.124.252.0/22",
@@ -18,6 +21,6 @@
       "203.175.32.0/19",
       "211.238.224.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

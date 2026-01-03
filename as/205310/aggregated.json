@@ -1,12 +1,15 @@
 {
-  "asn": 205310,
-  "handle": "DE-BEIERSDORF",
-  "description": "Beiersdorf Shared Services GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205310,
+  "metadata" : {
+    "handle" : "DE-BEIERSDORF",
+    "description" : "Beiersdorf Shared Services GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.220.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:c840::/48"
     ]
   }

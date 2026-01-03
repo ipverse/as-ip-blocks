@@ -1,9 +1,12 @@
 {
-  "asn": 20598,
-  "handle": "CYBERSPACE-AS",
-  "description": "Autonomous System number for Cyber Space",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20598,
+  "metadata" : {
+    "handle" : "CYBERSPACE-AS",
+    "description" : "Autonomous System number for Cyber Space",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.71.128.0/23",
       "41.71.131.0/24",
       "41.71.134.0/23",
@@ -25,6 +28,6 @@
       "212.100.84.0/22",
       "212.100.88.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

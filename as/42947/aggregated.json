@@ -1,9 +1,12 @@
 {
-  "asn": 42947,
-  "handle": "SKYNETLINK-AS",
-  "description": "Telfy Telecom S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42947,
+  "metadata" : {
+    "handle" : "SKYNETLINK-AS",
+    "description" : "Telfy Telecom S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.181.236.0/22",
       "45.14.120.0/22",
       "45.95.76.0/22",
@@ -38,7 +41,7 @@
       "194.41.124.0/22",
       "213.181.78.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2b60::/32"
     ]
   }

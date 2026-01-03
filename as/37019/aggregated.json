@@ -1,9 +1,12 @@
 {
-  "asn": 37019,
-  "handle": "IAL",
-  "description": "INTERSAT AFRICA LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37019,
+  "metadata" : {
+    "handle" : "IAL",
+    "description" : "INTERSAT AFRICA LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.138.240.0/22",
       "41.138.247.0/24",
       "41.138.248.0/21",
@@ -17,6 +20,6 @@
       "41.207.120.0/21",
       "196.201.10.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

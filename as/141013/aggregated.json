@@ -1,13 +1,16 @@
 {
-  "asn": 141013,
-  "handle": "RISE-AS-AP",
-  "description": "Responsible Internet Sustainability Effort",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141013,
+  "metadata" : {
+    "handle" : "RISE-AS-AP",
+    "description" : "Responsible Internet Sustainability Effort",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.125.244.0/24",
       "116.89.245.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:fdc0:10::/44",
       "2401:fdc0:20::/43"
     ]

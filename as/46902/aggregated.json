@@ -1,13 +1,16 @@
 {
-  "asn": 46902,
-  "handle": "CALSTRS-SAC1",
-  "description": "California State Teachers Retirement System (CalSTRS)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46902,
+  "metadata" : {
+    "handle" : "CALSTRS-SAC1",
+    "description" : "California State Teachers Retirement System (CalSTRS)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.234.80.0/23",
       "68.234.82.0/24",
       "68.234.90.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

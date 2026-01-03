@@ -1,9 +1,12 @@
 {
-  "asn": 138536,
-  "handle": "PREMIUM-AS-AP",
-  "description": "Premium Connectivity Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138536,
+  "metadata" : {
+    "handle" : "PREMIUM-AS-AP",
+    "description" : "Premium Connectivity Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.132.92.0/22",
       "180.210.160.0/22",
       "180.210.168.0/23",
@@ -15,7 +18,7 @@
       "180.210.186.0/24",
       "180.210.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:34c0::/32"
     ]
   }

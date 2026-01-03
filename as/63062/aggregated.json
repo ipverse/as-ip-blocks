@@ -1,9 +1,12 @@
 {
-  "asn": 63062,
-  "handle": "HUGHESNET-CDN",
-  "description": "Hughes Network Systems LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63062,
+  "metadata" : {
+    "handle" : "HUGHESNET-CDN",
+    "description" : "Hughes Network Systems LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.82.23.0/24",
       "66.82.124.0/24",
       "66.82.129.0/24",
@@ -35,6 +38,6 @@
       "72.171.11.0/24",
       "72.171.14.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

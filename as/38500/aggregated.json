@@ -1,9 +1,12 @@
 {
-  "asn": 38500,
-  "handle": "CROSSNET-AS-ID",
-  "description": "PT. Cross Network Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38500,
+  "metadata" : {
+    "handle" : "CROSSNET-AS-ID",
+    "description" : "PT. Cross Network Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.244.36.0/23",
       "103.244.39.0/24",
       "116.68.248.0/22",
@@ -11,6 +14,6 @@
       "116.68.254.0/24",
       "137.59.12.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

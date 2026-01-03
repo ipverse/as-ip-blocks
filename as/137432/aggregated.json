@@ -1,13 +1,16 @@
 {
-  "asn": 137432,
-  "handle": "BKBNET-AS-AP",
-  "description": "B.K.B Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137432,
+  "metadata" : {
+    "handle" : "BKBNET-AS-AP",
+    "description" : "B.K.B Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.108.90.0/23",
       "103.153.52.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:68c0:9000::/36",
       "2402:68c0:a000::/35",
       "2402:68c0:c000::/35"

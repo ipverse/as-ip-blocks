@@ -1,11 +1,14 @@
 {
-  "asn": 133064,
-  "handle": "ST-AS-AP-LOCAL-PEERING",
-  "description": "St. Luke\u0027s Medical Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133064,
+  "metadata" : {
+    "handle" : "ST-AS-AP-LOCAL-PEERING",
+    "description" : "St. Luke's Medical Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.26.36.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

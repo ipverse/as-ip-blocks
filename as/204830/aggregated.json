@@ -1,10 +1,13 @@
 {
-  "asn": 204830,
-  "handle": "IPOAC-AS",
-  "description": "Jelle Kaufmann",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 204830,
+  "metadata" : {
+    "handle" : "IPOAC-AS",
+    "description" : "Jelle Kaufmann",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0e:fd45:5000::/47",
       "2a0e:fd45:5002::/48"
     ]

@@ -1,10 +1,13 @@
 {
-  "asn": 396874,
-  "handle": "JAMF",
-  "description": "JAMF",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 396874,
+  "metadata" : {
+    "handle" : "JAMF",
+    "description" : "JAMF",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2620:138:e002::/48"
     ]
   }

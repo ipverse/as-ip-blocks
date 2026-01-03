@@ -1,9 +1,12 @@
 {
-  "asn": 38096,
-  "handle": "QRIXNET-AS",
-  "description": "SK Broadband Co Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38096,
+  "metadata" : {
+    "handle" : "QRIXNET-AS",
+    "description" : "SK Broadband Co Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.145.1.0/24",
       "58.145.54.0/23",
       "58.145.57.0/24",
@@ -91,6 +94,6 @@
       "223.131.104.0/22",
       "223.131.112.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

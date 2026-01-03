@@ -1,9 +1,12 @@
 {
-  "asn": 8508,
-  "handle": "SILWEB-AS-EDU",
-  "description": "Silesian University of Technology Computer Centre",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8508,
+  "metadata" : {
+    "handle" : "SILWEB-AS-EDU",
+    "description" : "Silesian University of Technology Computer Centre",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.230.64.0/20",
       "83.230.96.0/19",
       "91.220.103.0/24",
@@ -13,7 +16,7 @@
       "213.227.80.0/20",
       "213.227.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:1d8::/30",
       "2a01:1dc::/31",
       "2a01:1de::/32"

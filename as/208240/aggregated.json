@@ -1,12 +1,15 @@
 {
-  "asn": 208240,
-  "handle": "GMT-ROTTERDAM",
-  "description": "Gemeente Rotterdam",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208240,
+  "metadata" : {
+    "handle" : "GMT-ROTTERDAM",
+    "description" : "Gemeente Rotterdam",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.176.221.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:3500:1060::/47"
     ]
   }

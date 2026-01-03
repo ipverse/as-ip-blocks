@@ -1,9 +1,12 @@
 {
-  "asn": 147019,
-  "handle": "HHLJ-AS-AP",
-  "description": "jiii",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147019,
+  "metadata" : {
+    "handle" : "HHLJ-AS-AP",
+    "description" : "jiii",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.47.144.0/20",
       "45.194.60.0/22",
       "103.173.13.0/24",
@@ -11,6 +14,6 @@
       "205.198.44.0/22",
       "209.146.119.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

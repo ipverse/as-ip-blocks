@@ -1,15 +1,18 @@
 {
-  "asn": 53076,
-  "handle": "INTERPIRA-INTERNET-SERVICE",
-  "description": "INTERPIRA INTERNET SERVICE PROVIDER LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53076,
+  "metadata" : {
+    "handle" : "INTERPIRA-INTERNET-SERVICE",
+    "description" : "INTERPIRA INTERNET SERVICE PROVIDER LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.0.85.0/24",
       "138.0.86.0/24",
       "187.87.160.0/20",
       "191.241.80.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:80::/32"
     ]
   }

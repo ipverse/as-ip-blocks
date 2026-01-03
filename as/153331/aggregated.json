@@ -1,10 +1,13 @@
 {
-  "asn": 153331,
-  "handle": "CHENWEI-AS-AP",
-  "description": "Chen Wei",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 153331,
+  "metadata" : {
+    "handle" : "CHENWEI-AS-AP",
+    "description" : "Chen Wei",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2406:840:fca0::/44",
       "2406:840:fea5::/48"
     ]

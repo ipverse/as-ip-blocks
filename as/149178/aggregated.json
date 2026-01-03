@@ -1,12 +1,15 @@
 {
-  "asn": 149178,
-  "handle": "CT-HEFEI-NANGANG-IDC",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149178,
+  "metadata" : {
+    "handle" : "CT-HEFEI-NANGANG-IDC",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "223.244.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:6:d1a0::/44",
       "240e:108:1153::/48",
       "240e:108:1154::/48",

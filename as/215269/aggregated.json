@@ -1,13 +1,16 @@
 {
-  "asn": 215269,
-  "handle": "LAZYCLOUD",
-  "description": "LAZYCLOUD LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215269,
+  "metadata" : {
+    "handle" : "LAZYCLOUD",
+    "description" : "LAZYCLOUD LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.176.254.0/23",
       "185.2.162.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:7803:fae0::/48",
       "2a0f:7803:fae2::/48",
       "2a12:bec4:1444::/48"

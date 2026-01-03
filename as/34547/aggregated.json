@@ -1,9 +1,12 @@
 {
-  "asn": 34547,
-  "handle": "TELESMART-AS",
-  "description": "TELESMART TELEKOM DOO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34547,
+  "metadata" : {
+    "handle" : "TELESMART-AS",
+    "description" : "TELESMART TELEKOM DOO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.32.176.0/23",
       "5.32.181.0/24",
       "5.32.183.0/24",
@@ -27,7 +30,7 @@
       "146.255.92.0/23",
       "185.13.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5580::/32"
     ]
   }

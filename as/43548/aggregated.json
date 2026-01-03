@@ -1,9 +1,12 @@
 {
-  "asn": 43548,
-  "handle": "DELTANET-AS",
-  "description": "NETBOX LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43548,
+  "metadata" : {
+    "handle" : "DELTANET-AS",
+    "description" : "NETBOX LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.120.99.0/24",
       "87.121.108.0/23",
       "91.92.168.0/22",
@@ -12,7 +15,7 @@
       "94.156.80.0/21",
       "94.156.97.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1728:2d::/48"
     ]
   }

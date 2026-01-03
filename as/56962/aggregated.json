@@ -1,9 +1,12 @@
 {
-  "asn": 56962,
-  "handle": "RHS",
-  "description": "RHS s.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56962,
+  "metadata" : {
+    "handle" : "RHS",
+    "description" : "RHS s.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.57.231.0/24",
       "91.124.171.0/24",
       "91.242.235.0/24",
@@ -11,6 +14,6 @@
       "193.35.226.0/24",
       "212.24.121.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

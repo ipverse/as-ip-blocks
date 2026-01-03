@@ -1,9 +1,12 @@
 {
-  "asn": 13127,
-  "handle": "ODIDO",
-  "description": "Odido Netherlands B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13127,
+  "metadata" : {
+    "handle" : "ODIDO",
+    "description" : "Odido Netherlands B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.220.148.0/24",
       "37.220.150.0/24",
       "62.58.0.0/15",
@@ -27,7 +30,7 @@
       "194.53.33.0/24",
       "194.53.36.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:14b0::/48",
       "2001:67c:17ec::/48",
       "2a01:380::/32",

@@ -1,11 +1,14 @@
 {
-  "asn": 398240,
-  "handle": "IDENTIDAD",
-  "description": "Identidad Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398240,
+  "metadata" : {
+    "handle" : "IDENTIDAD",
+    "description" : "Identidad Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.150.123.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

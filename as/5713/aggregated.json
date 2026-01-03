@@ -1,9 +1,12 @@
 {
-  "asn": 5713,
-  "handle": "SAIX-NET",
-  "description": "Telkom SA Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5713,
+  "metadata" : {
+    "handle" : "SAIX-NET",
+    "description" : "Telkom SA Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.144.0.0/13",
       "41.198.10.0/23",
       "41.198.12.0/23",
@@ -49,7 +52,7 @@
       "197.236.0.0/16",
       "198.54.202.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0e:2000::/20",
       "2c0f:ea30::/48",
       "2c0f:f440::/32"

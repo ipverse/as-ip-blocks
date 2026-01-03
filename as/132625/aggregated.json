@@ -1,12 +1,15 @@
 {
-  "asn": 132625,
-  "handle": "SDECB-AS-AP",
-  "description": "SDEC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132625,
+  "metadata" : {
+    "handle" : "SDECB-AS-AP",
+    "description" : "SDEC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.186.160.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:abc0::/48"
     ]
   }

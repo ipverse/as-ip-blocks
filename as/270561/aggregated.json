@@ -1,12 +1,15 @@
 {
-  "asn": 270561,
-  "handle": "VIA-FIOS-VIA",
-  "description": "Via Fios - Via Fibra Ótica Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270561,
+  "metadata" : {
+    "handle" : "VIA-FIOS-VIA",
+    "description" : "Via Fios - Via Fibra Ótica Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "189.85.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6de0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 397016,
-  "handle": "HAWKEYE-TELEPHONE-COMPANY",
-  "description": "Hawkeye Telephone Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397016,
+  "metadata" : {
+    "handle" : "HAWKEYE-TELEPHONE-COMPANY",
+    "description" : "Hawkeye Telephone Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.21.96.0/22",
       "74.81.160.0/21",
       "130.250.138.0/23",
@@ -14,6 +17,6 @@
       "198.153.102.0/24",
       "208.126.55.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

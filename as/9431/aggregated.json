@@ -1,14 +1,17 @@
 {
-  "asn": 9431,
-  "handle": "AKUNI-NZ",
-  "description": "The University of Auckland",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9431,
+  "metadata" : {
+    "handle" : "AKUNI-NZ",
+    "description" : "The University of Auckland",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.216.0.0/16",
       "202.36.244.0/24",
       "202.37.88.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0::/48",
       "2404:138:4004::/48"
     ]

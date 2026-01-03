@@ -1,12 +1,15 @@
 {
-  "asn": 266502,
-  "handle": "TIMERNET-TELECOM",
-  "description": "TimerNet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266502,
+  "metadata" : {
+    "handle" : "TIMERNET-TELECOM",
+    "description" : "TimerNet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.244.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:38cc::/32"
     ]
   }

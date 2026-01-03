@@ -1,9 +1,12 @@
 {
-  "asn": 27521,
-  "handle": "CATCOMM-ASN",
-  "description": "CATCOMM INTERNET SERVICES LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27521,
+  "metadata" : {
+    "handle" : "CATCOMM-ASN",
+    "description" : "CATCOMM INTERNET SERVICES LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.39.64.0/23",
       "64.39.66.0/24",
       "64.39.69.0/24",
@@ -17,6 +20,6 @@
       "69.45.251.0/24",
       "204.117.128.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

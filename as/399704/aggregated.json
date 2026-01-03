@@ -1,9 +1,12 @@
 {
-  "asn": 399704,
-  "handle": "HALSEY",
-  "description": "GigXero Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399704,
+  "metadata" : {
+    "handle" : "HALSEY",
+    "description" : "GigXero Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.68.160.0/24",
       "38.89.65.0/24",
       "38.106.90.0/24",
@@ -11,6 +14,6 @@
       "38.106.94.0/23",
       "38.248.86.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

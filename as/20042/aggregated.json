@@ -1,9 +1,12 @@
 {
-  "asn": 20042,
-  "handle": "GRAYSON-COLLIN-COMMUNICATIONS",
-  "description": "Cutter Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20042,
+  "metadata" : {
+    "handle" : "GRAYSON-COLLIN-COMMUNICATIONS",
+    "description" : "Cutter Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.130.216.0/24",
       "38.190.112.0/21",
       "104.152.132.0/22",
@@ -14,7 +17,7 @@
       "208.67.96.0/21",
       "209.177.72.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:5d80::/32"
     ]
   }

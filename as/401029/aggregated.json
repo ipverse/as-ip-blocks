@@ -1,12 +1,15 @@
 {
-  "asn": 401029,
-  "handle": "DEIHS-HOST-01",
-  "description": "Deihs Solutions LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401029,
+  "metadata" : {
+    "handle" : "DEIHS-HOST-01",
+    "description" : "Deihs Solutions LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.29.172.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f906::/36"
     ]
   }

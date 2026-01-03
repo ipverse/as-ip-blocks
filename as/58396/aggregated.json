@@ -1,15 +1,18 @@
 {
-  "asn": 58396,
-  "handle": "DETELNETWORKS-ID",
-  "description": "PT. DEWATA TELEMATIKA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58396,
+  "metadata" : {
+    "handle" : "DETELNETWORKS-ID",
+    "description" : "PT. DEWATA TELEMATIKA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.54.116.0/23",
       "27.54.118.0/24",
       "103.11.21.0/24",
       "103.11.222.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:9c80::/48",
       "2400:9c80:2000::/48",
       "2400:9c80:d7e1::/48"

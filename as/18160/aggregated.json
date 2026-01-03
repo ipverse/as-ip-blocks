@@ -1,9 +1,12 @@
 {
-  "asn": 18160,
-  "handle": "AS18160-AS",
-  "description": "Kakao Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18160,
+  "metadata" : {
+    "handle" : "AS18160-AS",
+    "description" : "Kakao Corp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "113.29.189.0/24",
       "121.53.90.0/23",
       "121.53.92.0/22",
@@ -11,7 +14,7 @@
       "203.133.184.0/21",
       "211.183.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:4600:1::/48"
     ]
   }

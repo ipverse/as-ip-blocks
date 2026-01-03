@@ -1,9 +1,12 @@
 {
-  "asn": 800,
-  "handle": "ONEWEB",
-  "description": "OneWeb",
-  "subnets": {
-    "ipv4": [
+  "asn" : 800,
+  "metadata" : {
+    "handle" : "ONEWEB",
+    "description" : "OneWeb",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.160.32.0/24",
       "27.121.104.0/22",
       "45.147.188.0/22",
@@ -15,6 +18,6 @@
       "203.27.19.0/24",
       "207.32.208.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

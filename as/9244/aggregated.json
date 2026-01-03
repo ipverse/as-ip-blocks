@@ -1,9 +1,12 @@
 {
-  "asn": 9244,
-  "handle": "ASN-DYXNET-TW-AP",
-  "description": "Diyixian.com Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9244,
+  "metadata" : {
+    "handle" : "ASN-DYXNET-TW-AP",
+    "description" : "Diyixian.com Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.56.64.0/19",
       "61.247.160.0/20",
       "113.21.160.0/20",
@@ -11,7 +14,7 @@
       "152.104.96.0/19",
       "210.67.96.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:ee00::/32"
     ]
   }

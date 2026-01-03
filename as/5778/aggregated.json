@@ -1,9 +1,12 @@
 {
-  "asn": 5778,
-  "handle": "CENTURYLINK-LEGACY-EMBARQ-RCMT",
-  "description": "CenturyLink Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5778,
+  "metadata" : {
+    "handle" : "CENTURYLINK-LEGACY-EMBARQ-RCMT",
+    "description" : "CenturyLink Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.162.197.0/24",
       "63.162.200.0/21",
       "63.165.144.0/20",
@@ -99,6 +102,6 @@
       "208.27.112.0/20",
       "208.34.224.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

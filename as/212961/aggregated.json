@@ -1,14 +1,17 @@
 {
-  "asn": 212961,
-  "handle": "JUNGHEINRICH-AS",
-  "description": "Jungheinrich AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212961,
+  "metadata" : {
+    "handle" : "JUNGHEINRICH-AS",
+    "description" : "Jungheinrich AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.216.132.0/22",
       "194.180.144.0/22",
       "194.180.148.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:abc0::/29"
     ]
   }

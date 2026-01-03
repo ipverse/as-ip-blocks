@@ -1,12 +1,15 @@
 {
-  "asn": 59750,
-  "handle": "HOLCK",
-  "description": "Anders Holck",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59750,
+  "metadata" : {
+    "handle" : "HOLCK",
+    "description" : "Anders Holck",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.1.247.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2c18::/48"
     ]
   }

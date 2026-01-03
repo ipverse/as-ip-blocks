@@ -1,9 +1,12 @@
 {
-  "asn": 14244,
-  "handle": "AS-NSI-GLOBAL",
-  "description": "NSI Hosting",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14244,
+  "metadata" : {
+    "handle" : "AS-NSI-GLOBAL",
+    "description" : "NSI Hosting",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.191.212.0/24",
       "104.37.104.0/22",
       "104.145.229.0/24",
@@ -26,7 +29,7 @@
       "208.86.144.0/22",
       "208.91.60.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:9500:212::/47",
       "2605:9500:b001::/48"
     ]

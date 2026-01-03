@@ -1,12 +1,15 @@
 {
-  "asn": 212981,
-  "handle": "SCHILLER-AS",
-  "description": "Schiller AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212981,
+  "metadata" : {
+    "handle" : "SCHILLER-AS",
+    "description" : "Schiller AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.200.186.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:d6c0:186::/48"
     ]
   }

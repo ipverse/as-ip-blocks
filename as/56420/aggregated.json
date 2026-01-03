@@ -1,9 +1,12 @@
 {
-  "asn": 56420,
-  "handle": "RYAZAN-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56420,
+  "metadata" : {
+    "handle" : "RYAZAN-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.3.23.0/24",
       "5.166.248.0/21",
       "31.44.48.0/20",
@@ -29,7 +32,7 @@
       "193.34.8.0/22",
       "195.110.46.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:6400::/38"
     ]
   }

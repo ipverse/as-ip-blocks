@@ -1,9 +1,14 @@
 {
-  "asn": 26445,
-  "handle": "OWL",
-  "description": "4096 SVCS LLC",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": []
+  "asn" : 26445,
+  "metadata" : {
+    "handle" : "OWL",
+    "description" : "4096 SVCS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
+      "2402:be0:fff0::/46"
+    ]
   }
 }

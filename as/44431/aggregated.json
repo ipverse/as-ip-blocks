@@ -1,9 +1,12 @@
 {
-  "asn": 44431,
-  "handle": "OMNIACCESS-AS",
-  "description": "OmniAccess S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44431,
+  "metadata" : {
+    "handle" : "OMNIACCESS-AS",
+    "description" : "OmniAccess S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.105.15.0/24",
       "77.70.176.0/22",
       "77.70.181.0/24",
@@ -16,6 +19,6 @@
       "204.8.41.0/24",
       "216.9.228.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

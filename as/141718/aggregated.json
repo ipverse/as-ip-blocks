@@ -1,9 +1,12 @@
 {
-  "asn": 141718,
-  "handle": "HHXYTC-AS-AP",
-  "description": "haoxiangyun",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141718,
+  "metadata" : {
+    "handle" : "HHXYTC-AS-AP",
+    "description" : "haoxiangyun",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.250.124.0/23",
       "43.250.127.0/24",
       "45.155.90.0/24",
@@ -31,6 +34,6 @@
       "194.147.150.0/24",
       "202.71.10.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

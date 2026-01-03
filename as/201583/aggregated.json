@@ -1,11 +1,14 @@
 {
-  "asn": 201583,
-  "handle": "BENCHMARK-AS",
-  "description": "Benchmark Group AD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201583,
+  "metadata" : {
+    "handle" : "BENCHMARK-AS",
+    "description" : "Benchmark Group AD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.40.114.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

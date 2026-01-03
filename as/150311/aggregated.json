@@ -1,12 +1,15 @@
 {
-  "asn": 150311,
-  "handle": "LASERTEL-AS-AP",
-  "description": "LASERTEL PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150311,
+  "metadata" : {
+    "handle" : "LASERTEL-AS-AP",
+    "description" : "LASERTEL PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.250.28.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:4540::/48"
     ]
   }

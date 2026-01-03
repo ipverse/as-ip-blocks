@@ -1,15 +1,18 @@
 {
-  "asn": 200187,
-  "handle": "CLOUDKLEYER-AS",
-  "description": "CloudKleyer Frankfurt GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200187,
+  "metadata" : {
+    "handle" : "CLOUDKLEYER-AS",
+    "description" : "CloudKleyer Frankfurt GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.14.173.0/24",
       "80.94.82.0/23",
       "82.26.122.0/24",
       "185.35.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:4fe0::/30"
     ]
   }

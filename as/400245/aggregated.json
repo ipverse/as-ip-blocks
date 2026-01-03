@@ -1,12 +1,15 @@
 {
-  "asn": 400245,
-  "handle": "AS400245",
-  "description": "AlphaCentri Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400245,
+  "metadata" : {
+    "handle" : "AS400245",
+    "description" : "AlphaCentri Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.140.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fb7d::/47",
       "2602:fb7d:2::/48"
     ]

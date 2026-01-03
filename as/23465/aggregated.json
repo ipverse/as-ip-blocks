@@ -1,9 +1,12 @@
 {
-  "asn": 23465,
-  "handle": "NUTELECOM",
-  "description": "Nuvera",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23465,
+  "metadata" : {
+    "handle" : "NUTELECOM",
+    "description" : "Nuvera",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.122.37.0/24",
       "64.122.128.0/24",
       "66.44.128.0/18",
@@ -42,6 +45,6 @@
       "208.187.116.0/23",
       "208.187.120.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

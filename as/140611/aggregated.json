@@ -1,11 +1,14 @@
 {
-  "asn": 140611,
-  "handle": "RED-AS-AP",
-  "description": "RED ONLINE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140611,
+  "metadata" : {
+    "handle" : "RED-AS-AP",
+    "description" : "RED ONLINE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.150.254.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

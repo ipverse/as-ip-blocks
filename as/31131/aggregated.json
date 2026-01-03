@@ -1,15 +1,18 @@
 {
-  "asn": 31131,
-  "handle": "GRUNDFOS-AS",
-  "description": "GRUNDFOS HOLDING A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31131,
+  "metadata" : {
+    "handle" : "GRUNDFOS-AS",
+    "description" : "GRUNDFOS HOLDING A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.3.1.0/24",
       "193.3.2.0/23",
       "193.3.6.0/24",
       "193.3.8.0/23",
       "193.3.10.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

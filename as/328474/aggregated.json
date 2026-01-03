@@ -1,16 +1,19 @@
 {
-  "asn": 328474,
-  "handle": "JEBO-CONNECT-AS",
-  "description": "Jebo Connect Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328474,
+  "metadata" : {
+    "handle" : "JEBO-CONNECT-AS",
+    "description" : "Jebo Connect Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.67.56.0/22",
       "102.206.192.0/22",
       "102.209.120.0/22",
       "102.214.192.0/22",
       "102.221.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:ed60::/32"
     ]
   }

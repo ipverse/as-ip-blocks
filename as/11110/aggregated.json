@@ -1,12 +1,15 @@
 {
-  "asn": 11110,
-  "handle": "SERVERCLOUD",
-  "description": "SERVERCLOUD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11110,
+  "metadata" : {
+    "handle" : "SERVERCLOUD",
+    "description" : "SERVERCLOUD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.13.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:3500::/32"
     ]
   }

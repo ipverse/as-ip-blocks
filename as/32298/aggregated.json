@@ -1,9 +1,12 @@
 {
-  "asn": 32298,
-  "handle": "CNSQ-AS32298",
-  "description": "Centersquare",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32298,
+  "metadata" : {
+    "handle" : "CNSQ-AS32298",
+    "description" : "Centersquare",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.6.16.0/24",
       "45.45.171.0/24",
       "45.78.146.0/23",
@@ -20,7 +23,7 @@
       "157.234.219.0/24",
       "216.73.184.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:cc00:1::/48",
       "2600:cc00:2::/48",
       "2600:cc01::/32",

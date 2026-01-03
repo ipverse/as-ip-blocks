@@ -1,10 +1,13 @@
 {
-  "asn": 272670,
-  "handle": "VAGNET-PROVEDOR-INTERNET",
-  "description": "Vagnet Provedor de Internet",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 272670,
+  "metadata" : {
+    "handle" : "VAGNET-PROVEDOR-INTERNET",
+    "description" : "Vagnet Provedor de Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2804:86d8::/32"
     ]
   }

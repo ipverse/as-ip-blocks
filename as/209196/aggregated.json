@@ -1,9 +1,12 @@
 {
-  "asn": 209196,
-  "handle": "ELEKTRONET-HU",
-  "description": "Elektronet Zrt",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209196,
+  "metadata" : {
+    "handle" : "ELEKTRONET-HU",
+    "description" : "Elektronet Zrt.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.87.204.0/22",
       "45.91.104.0/22",
       "45.94.192.0/22",
@@ -16,6 +19,6 @@
       "92.118.176.0/22",
       "212.102.99.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

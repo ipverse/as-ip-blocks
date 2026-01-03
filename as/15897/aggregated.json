@@ -1,9 +1,12 @@
 {
-  "asn": 15897,
-  "handle": "VODAFONETURKEY",
-  "description": "Vodafone Telekomunikasyon A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15897,
+  "metadata" : {
+    "handle" : "VODAFONETURKEY",
+    "description" : "Vodafone Telekomunikasyon A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.18.4.0/22",
       "2.22.168.0/22",
       "5.226.192.0/18",
@@ -26,7 +29,7 @@
       "212.65.128.0/19",
       "217.31.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1880::/32"
     ]
   }

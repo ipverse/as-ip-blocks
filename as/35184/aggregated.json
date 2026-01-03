@@ -1,13 +1,16 @@
 {
-  "asn": 35184,
-  "handle": "STELOGY",
-  "description": "Nomotech SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35184,
+  "metadata" : {
+    "handle" : "STELOGY",
+    "description" : "Nomotech SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.21.128.0/20",
       "87.240.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:6c00::/32"
     ]
   }

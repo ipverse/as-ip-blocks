@@ -1,13 +1,16 @@
 {
-  "asn": 201222,
-  "handle": "IPBONE-AS",
-  "description": "Frieder Mueller",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201222,
+  "metadata" : {
+    "handle" : "IPBONE-AS",
+    "description" : "Frieder Mueller",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.89.196.0/22",
       "195.114.98.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2d0c::/48",
       "2a03:8460:1::/48"
     ]

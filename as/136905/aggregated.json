@@ -1,13 +1,16 @@
 {
-  "asn": 136905,
-  "handle": "ETPL-AS-AP",
-  "description": "Eastlink Technology Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136905,
+  "metadata" : {
+    "handle" : "ETPL-AS-AP",
+    "description" : "Eastlink Technology Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.162.2.0/23",
       "138.252.150.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:37e0::/32",
       "2407:b40::/32"
     ]

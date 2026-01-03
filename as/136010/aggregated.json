@@ -1,11 +1,14 @@
 {
-  "asn": 136010,
-  "handle": "SEBAIT-AS-AP",
-  "description": "SEBA IT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136010,
+  "metadata" : {
+    "handle" : "SEBAIT-AS-AP",
+    "description" : "SEBA IT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.79.216.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

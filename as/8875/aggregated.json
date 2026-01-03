@@ -1,14 +1,17 @@
 {
-  "asn": 8875,
-  "handle": "SINMA-ASN",
-  "description": "sinma GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8875,
+  "metadata" : {
+    "handle" : "SINMA-ASN",
+    "description" : "sinma GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.145.8.0/22",
       "83.223.64.0/19",
       "185.219.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:30::/29",
       "2a10:5e40::/29"
     ]

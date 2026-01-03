@@ -1,12 +1,15 @@
 {
-  "asn": 28451,
-  "handle": "ASESPRI-ETHERNET",
-  "description": "ASESPRI ETHERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28451,
+  "metadata" : {
+    "handle" : "ASESPRI-ETHERNET",
+    "description" : "ASESPRI ETHERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.56.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:3f9::/34",
       "2806:3f9:4000::/38",
       "2806:3f9:8000::/33"

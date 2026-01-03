@@ -1,12 +1,15 @@
 {
-  "asn": 62242,
-  "handle": "CREIS",
-  "description": "Association Gitoyen",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62242,
+  "metadata" : {
+    "handle" : "CREIS",
+    "description" : "Association Gitoyen",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.23.28.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:9ac0::/32"
     ]
   }

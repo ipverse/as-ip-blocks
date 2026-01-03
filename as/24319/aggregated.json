@@ -1,9 +1,12 @@
 {
-  "asn": 24319,
-  "handle": "AKAMAI-TYO-AP",
-  "description": "Akamai Technologies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24319,
+  "metadata" : {
+    "handle" : "AKAMAI-TYO-AP",
+    "description" : "Akamai Technologies Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.4.92.0/24",
       "23.6.198.0/24",
       "23.32.236.0/24",
@@ -145,7 +148,7 @@
       "184.86.113.0/24",
       "184.87.192.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:140b:3::/48",
       "2600:140b:5::/48",
       "2600:140b:14::/48",

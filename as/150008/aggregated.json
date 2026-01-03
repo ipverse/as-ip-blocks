@@ -1,9 +1,12 @@
 {
-  "asn": 150008,
-  "handle": "PEL-AS-IN",
-  "description": "Pioneer Elabs Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150008,
+  "metadata" : {
+    "handle" : "PEL-AS-IN",
+    "description" : "Pioneer Elabs Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.192.0.0/22",
       "36.50.124.0/23",
       "43.225.24.0/22",
@@ -85,7 +88,7 @@
       "202.65.154.0/23",
       "202.65.158.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:bd80::/48",
       "2400:3b01::/48",
       "2400:3b01:6::/47",

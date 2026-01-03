@@ -1,13 +1,16 @@
 {
-  "asn": 271825,
-  "handle": "BANCO-AGRARIO-COLOMBIA",
-  "description": "BANCO AGRARIO DE COLOMBIA S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271825,
+  "metadata" : {
+    "handle" : "BANCO-AGRARIO-COLOMBIA",
+    "description" : "BANCO AGRARIO DE COLOMBIA S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.42.94.0/23",
       "181.60.102.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:1a6::/48",
       "2801:1a6:5::/48"
     ]

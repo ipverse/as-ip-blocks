@@ -1,12 +1,15 @@
 {
-  "asn": 201870,
-  "handle": "BANK-NOW",
-  "description": "Bank-now AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201870,
+  "metadata" : {
+    "handle" : "BANK-NOW",
+    "description" : "Bank-now AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.65.24.0/24",
       "195.65.33.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 24663,
-  "handle": "COMPLAT-AS",
-  "description": "ZAO COMPLAT-TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24663,
+  "metadata" : {
+    "handle" : "COMPLAT-AS",
+    "description" : "ZAO COMPLAT-TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.200.120.0/21",
       "45.150.204.0/23",
       "80.250.224.0/20",
@@ -11,6 +14,6 @@
       "178.23.224.0/21",
       "185.30.228.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

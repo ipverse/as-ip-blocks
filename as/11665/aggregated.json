@@ -1,12 +1,15 @@
 {
-  "asn": 11665,
-  "handle": "NORTH-RIDGE",
-  "description": "North Ridge",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11665,
+  "metadata" : {
+    "handle" : "NORTH-RIDGE",
+    "description" : "North Ridge",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.166.176.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fcfe::/36"
     ]
   }

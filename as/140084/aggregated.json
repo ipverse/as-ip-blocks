@@ -1,12 +1,15 @@
 {
-  "asn": 140084,
-  "handle": "SINTHIA-AS-AP",
-  "description": "Sinthia Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140084,
+  "metadata" : {
+    "handle" : "SINTHIA-AS-AP",
+    "description" : "Sinthia Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.148.74.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:c180::/48"
     ]
   }

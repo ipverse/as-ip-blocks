@@ -1,9 +1,12 @@
 {
-  "asn": 33490,
-  "handle": "COMCAST-33490",
-  "description": "Comcast Cable Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33490,
+  "metadata" : {
+    "handle" : "COMCAST-33490",
+    "description" : "Comcast Cable Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.204.255.0/24",
       "50.206.113.0/24",
       "50.219.165.0/24",
@@ -45,7 +48,7 @@
       "216.246.30.0/24",
       "216.246.122.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:559:4::/48",
       "2001:559:20::/48",
       "2001:559:b3::/48",

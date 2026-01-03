@@ -1,9 +1,12 @@
 {
-  "asn": 34602,
-  "handle": "STARLINK-AS",
-  "description": "MEGASVYAZ LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34602,
+  "metadata" : {
+    "handle" : "STARLINK-AS",
+    "description" : "MEGASVYAZ LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.50.0.0/16",
       "77.233.192.0/19",
       "77.243.96.0/20",
@@ -18,7 +21,7 @@
       "94.141.176.0/20",
       "185.185.140.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e78::/31"
     ]
   }

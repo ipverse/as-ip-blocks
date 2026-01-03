@@ -1,11 +1,14 @@
 {
-  "asn": 212843,
-  "handle": "IPMAC-AS",
-  "description": "TOV IPMAC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212843,
+  "metadata" : {
+    "handle" : "IPMAC-AS",
+    "description" : "TOV IPMAC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.86.97.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

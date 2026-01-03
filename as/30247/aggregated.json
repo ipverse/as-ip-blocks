@@ -1,9 +1,12 @@
 {
-  "asn": 30247,
-  "handle": "VOONAMI",
-  "description": "Voonami Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30247,
+  "metadata" : {
+    "handle" : "VOONAMI",
+    "description" : "Voonami Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.92.4.0/22",
       "66.33.0.0/22",
       "67.158.48.0/24",
@@ -16,7 +19,7 @@
       "206.55.219.0/24",
       "208.97.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:b80::/32"
     ]
   }

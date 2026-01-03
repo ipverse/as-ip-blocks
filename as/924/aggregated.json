@@ -1,14 +1,17 @@
 {
-  "asn": 924,
-  "handle": "CLOUDIE",
-  "description": "Cloudie Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 924,
+  "metadata" : {
+    "handle" : "CLOUDIE",
+    "description" : "Cloudie Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.134.88.0/23",
       "23.134.90.0/24",
       "23.168.232.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f9af::/40",
       "2602:fba1:100::/40",
       "2602:fba1:a00::/39",

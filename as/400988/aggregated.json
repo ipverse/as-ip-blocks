@@ -1,13 +1,16 @@
 {
-  "asn": 400988,
-  "handle": "SLCO-ASN-01",
-  "description": "Salt Lake County",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400988,
+  "metadata" : {
+    "handle" : "SLCO-ASN-01",
+    "description" : "Salt Lake County",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.50.0.0/21",
       "204.99.178.0/23",
       "204.99.184.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

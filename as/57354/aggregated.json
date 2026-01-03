@@ -1,13 +1,16 @@
 {
-  "asn": 57354,
-  "handle": "SYSTEMA-AS",
-  "description": "SYSTEMA Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57354,
+  "metadata" : {
+    "handle" : "SYSTEMA-AS",
+    "description" : "SYSTEMA Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.231.218.0/23",
       "185.228.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:1600::/32"
     ]
   }

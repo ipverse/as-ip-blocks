@@ -1,13 +1,16 @@
 {
-  "asn": 32915,
-  "handle": "KATTARE",
-  "description": "Kattare Internet Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32915,
+  "metadata" : {
+    "handle" : "KATTARE",
+    "description" : "Kattare Internet Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.212.180.0/23",
       "204.13.8.0/22",
       "208.95.104.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

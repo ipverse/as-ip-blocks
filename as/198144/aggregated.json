@@ -1,9 +1,12 @@
 {
-  "asn": 198144,
-  "handle": "RONDA",
-  "description": "COMUNICACIONES RONDA S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198144,
+  "metadata" : {
+    "handle" : "RONDA",
+    "description" : "COMUNICACIONES RONDA S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.113.102.0/24",
       "93.117.65.0/24",
       "103.97.206.0/23",
@@ -14,6 +17,6 @@
       "188.211.239.0/24",
       "212.85.236.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

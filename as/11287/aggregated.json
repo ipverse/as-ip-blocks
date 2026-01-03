@@ -1,9 +1,12 @@
 {
-  "asn": 11287,
-  "handle": "AS-MSEA",
-  "description": "Mitchell Seaforth Cable T. V. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11287,
+  "metadata" : {
+    "handle" : "AS-MSEA",
+    "description" : "Mitchell Seaforth Cable T. V. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "108.160.81.0/24",
       "108.160.82.0/23",
       "108.160.89.0/24",
@@ -22,7 +25,7 @@
       "206.130.216.0/23",
       "206.130.218.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:1d80::/32"
     ]
   }

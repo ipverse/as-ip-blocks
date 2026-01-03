@@ -1,12 +1,15 @@
 {
-  "asn": 401024,
-  "handle": "COMMUNICATIONSAUTHORITY",
-  "description": "Communications Authority INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401024,
+  "metadata" : {
+    "handle" : "COMMUNICATIONSAUTHORITY",
+    "description" : "Communications Authority INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "172.83.248.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f910::/40"
     ]
   }

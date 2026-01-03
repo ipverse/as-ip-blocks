@@ -1,9 +1,12 @@
 {
-  "asn": 21245,
-  "handle": "MEDIANOVA-CDN",
-  "description": "MEDIANOVA INTERNET HIZMETLERI VE TICARET ANONIM SIRKETI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21245,
+  "metadata" : {
+    "handle" : "MEDIANOVA-CDN",
+    "description" : "MEDIANOVA INTERNET HIZMETLERI VE TICARET ANONIM SIRKETI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.3.0.0/21",
       "80.91.216.0/24",
       "82.38.196.0/24",
@@ -21,7 +24,7 @@
       "185.235.10.0/24",
       "185.241.63.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:3f00::/47",
       "2a03:3f00:3::/48",
       "2a03:3f00:19::/48",

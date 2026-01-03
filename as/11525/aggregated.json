@@ -1,9 +1,12 @@
 {
-  "asn": 11525,
-  "handle": "HRTC",
-  "description": "Hancock Rural Telephone Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11525,
+  "metadata" : {
+    "handle" : "HRTC",
+    "description" : "Hancock Rural Telephone Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.208.139.0/24",
       "64.184.8.0/21",
       "74.112.112.0/21",
@@ -12,7 +15,7 @@
       "208.70.40.0/21",
       "208.88.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:5d00::/28"
     ]
   }

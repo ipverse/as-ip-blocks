@@ -1,12 +1,15 @@
 {
-  "asn": 273339,
-  "handle": "SUNET-PROVEDOR",
-  "description": "Su@net Provedor Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273339,
+  "metadata" : {
+    "handle" : "SUNET-PROVEDOR",
+    "description" : "Su@net Provedor Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.224.30.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8d28::/32"
     ]
   }

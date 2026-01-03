@@ -1,9 +1,12 @@
 {
-  "asn": 394144,
-  "handle": "LTYCONNECT",
-  "description": "LTY CONNECT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394144,
+  "metadata" : {
+    "handle" : "LTYCONNECT",
+    "description" : "LTY CONNECT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.145.160.0/24",
       "23.153.24.0/24",
       "45.82.236.0/23",
@@ -12,7 +15,7 @@
       "198.135.179.0/24",
       "199.21.15.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff7a::/32",
       "2a0e:7581::/32"
     ]

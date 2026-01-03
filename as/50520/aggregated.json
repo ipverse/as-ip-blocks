@@ -1,13 +1,16 @@
 {
-  "asn": 50520,
-  "handle": "HOSTMEIN-GRIX",
-  "description": "HOSTMEIN IKE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50520,
+  "metadata" : {
+    "handle" : "HOSTMEIN-GRIX",
+    "description" : "HOSTMEIN IKE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.57.20.0/24",
       "185.134.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:fa80::/32"
     ]
   }

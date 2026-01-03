@@ -1,9 +1,12 @@
 {
-  "asn": 8285,
-  "handle": "VERSIJA-SIA",
-  "description": "Versija SIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8285,
+  "metadata" : {
+    "handle" : "VERSIJA-SIA",
+    "description" : "Versija SIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.118.76.0/22",
       "193.68.64.0/19",
       "194.8.5.0/24",
@@ -11,7 +14,7 @@
       "194.8.8.0/24",
       "213.21.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:e8c0::/29"
     ]
   }

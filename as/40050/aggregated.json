@@ -1,9 +1,12 @@
 {
-  "asn": 40050,
-  "handle": "BRNL",
-  "description": "Blue Rim Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40050,
+  "metadata" : {
+    "handle" : "BRNL",
+    "description" : "Blue Rim Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.71.154.0/24",
       "64.71.174.0/24",
       "66.160.162.0/24",
@@ -14,7 +17,7 @@
       "209.221.51.0/24",
       "209.221.58.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:fb40::/33"
     ]
   }

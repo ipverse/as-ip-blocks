@@ -1,16 +1,19 @@
 {
-  "asn": 27720,
-  "handle": "CITTA-TELECOM",
-  "description": "CITTA TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27720,
+  "metadata" : {
+    "handle" : "CITTA-TELECOM",
+    "description" : "CITTA TELECOM LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.59.96.0/22",
       "143.208.156.0/22",
       "177.129.8.0/21",
       "191.128.224.0/22",
       "200.95.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:da4::/32"
     ]
   }

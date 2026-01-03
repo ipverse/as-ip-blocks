@@ -1,14 +1,17 @@
 {
-  "asn": 208484,
-  "handle": "ESP-AS",
-  "description": "EuroSkyPark GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208484,
+  "metadata" : {
+    "handle" : "ESP-AS",
+    "description" : "EuroSkyPark GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.145.184.0/21",
       "154.57.155.0/24",
       "185.116.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:64c0::/29"
     ]
   }

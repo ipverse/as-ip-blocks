@@ -1,9 +1,12 @@
 {
-  "asn": 201011,
-  "handle": "CORE-BACKBONE",
-  "description": "Core-Backbone GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201011,
+  "metadata" : {
+    "handle" : "CORE-BACKBONE",
+    "description" : "Core-Backbone GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.28.0/22",
       "5.56.16.0/21",
       "31.7.176.0/20",
@@ -20,7 +23,7 @@
       "193.104.251.0/24",
       "195.138.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:4a0::/29",
       "2a03:2a00:10::/48",
       "2a05:e0c0::/29"

@@ -1,13 +1,16 @@
 {
-  "asn": 24074,
-  "handle": "NZPOST-NZ-AP",
-  "description": "NEW ZEALAND POST LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24074,
+  "metadata" : {
+    "handle" : "NZPOST-NZ-AP",
+    "description" : "NEW ZEALAND POST LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.12.248.0/21",
       "202.27.140.0/24",
       "202.49.200.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

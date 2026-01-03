@@ -1,11 +1,14 @@
 {
-  "asn": 400632,
-  "handle": "KUSD-ASN-01",
-  "description": "KUSD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400632,
+  "metadata" : {
+    "handle" : "KUSD-ASN-01",
+    "description" : "KUSD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.25.139.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

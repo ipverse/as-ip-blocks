@@ -1,9 +1,12 @@
 {
-  "asn": 6772,
-  "handle": "IMPNET-AS",
-  "description": "ImproWare AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6772,
+  "metadata" : {
+    "handle" : "IMPNET-AS",
+    "description" : "ImproWare AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.11.0.0/19",
       "87.102.128.0/17",
       "157.161.0.0/16",
@@ -11,7 +14,7 @@
       "194.56.208.0/23",
       "213.188.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4060::/32"
     ]
   }

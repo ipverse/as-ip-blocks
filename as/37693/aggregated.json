@@ -1,9 +1,12 @@
 {
-  "asn": 37693,
-  "handle": "TUNISIANA",
-  "description": "OOREDOO TUNISIE SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37693,
+  "metadata" : {
+    "handle" : "TUNISIANA",
+    "description" : "OOREDOO TUNISIE SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.227.64.0/19",
       "41.228.0.0/20",
       "41.228.16.0/21",
@@ -48,7 +51,7 @@
       "213.150.160.0/23",
       "213.150.164.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f698:200::/40",
       "2c0f:f698:1000::/39",
       "2c0f:f698:4000::/39",

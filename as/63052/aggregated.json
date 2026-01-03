@@ -1,9 +1,12 @@
 {
-  "asn": 63052,
-  "handle": "AS-CBBC",
-  "description": "Columbia Basin Broadband Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63052,
+  "metadata" : {
+    "handle" : "AS-CBBC",
+    "description" : "Columbia Basin Broadband Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.3.186.0/24",
       "104.243.222.0/24",
       "104.247.64.0/22",
@@ -19,7 +22,7 @@
       "216.170.119.0/24",
       "216.170.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:6880::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 26886,
-  "handle": "CLOUDOWNER-01",
-  "description": "cloudowner llc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26886,
+  "metadata" : {
+    "handle" : "CLOUDOWNER-01",
+    "description" : "cloudowner llc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.167.136.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:82c0::/48"
     ]
   }

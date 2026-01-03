@@ -1,11 +1,14 @@
 {
-  "asn": 140949,
-  "handle": "DIGI-AS-AP",
-  "description": "Diginet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140949,
+  "metadata" : {
+    "handle" : "DIGI-AS-AP",
+    "description" : "Diginet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.120.47.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

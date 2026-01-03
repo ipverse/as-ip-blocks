@@ -1,9 +1,12 @@
 {
-  "asn": 141739,
-  "handle": "CT-CHONGQING-MAN2-AP",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141739,
+  "metadata" : {
+    "handle" : "CT-CHONGQING-MAN2-AP",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.107.160.0/22",
       "14.107.172.0/22",
       "14.107.176.0/21",
@@ -26,6 +29,6 @@
       "125.85.64.0/18",
       "125.85.128.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

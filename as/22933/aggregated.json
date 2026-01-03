@@ -1,9 +1,12 @@
 {
-  "asn": 22933,
-  "handle": "TCIGATEWAY",
-  "description": "Cable and Wireless Turks and Caicos",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22933,
+  "metadata" : {
+    "handle" : "TCIGATEWAY",
+    "description" : "Cable and Wireless Turks and Caicos",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.255.48.0/20",
       "200.50.89.0/24",
       "200.50.90.0/24",
@@ -20,7 +23,7 @@
       "209.236.48.0/22",
       "209.236.52.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:a180:5000::/36",
       "2604:a180:a000::/35"
     ]

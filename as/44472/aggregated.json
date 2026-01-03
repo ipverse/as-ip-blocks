@@ -1,15 +1,18 @@
 {
-  "asn": 44472,
-  "handle": "HOFSTAETTER-AS",
-  "description": "Hofstaetter IT GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44472,
+  "metadata" : {
+    "handle" : "HOFSTAETTER-AS",
+    "description" : "Hofstaetter IT GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.111.52.0/23",
       "93.187.68.0/24",
       "185.43.147.0/24",
       "185.169.105.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:c440::/29"
     ]
   }

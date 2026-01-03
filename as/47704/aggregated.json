@@ -1,13 +1,16 @@
 {
-  "asn": 47704,
-  "handle": "ACADEMIA-AS",
-  "description": "Academia Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47704,
+  "metadata" : {
+    "handle" : "ACADEMIA-AS",
+    "description" : "Academia Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.60.120.0/22",
       "185.96.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:e840::/29",
       "2a06:140::/29"
     ]

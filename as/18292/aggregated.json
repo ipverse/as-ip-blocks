@@ -1,9 +1,12 @@
 {
-  "asn": 18292,
-  "handle": "CUSCAL-AS",
-  "description": "CUSCAL LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18292,
+  "metadata" : {
+    "handle" : "CUSCAL-AS",
+    "description" : "CUSCAL LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.217.7.0/24",
       "168.217.8.0/24",
       "168.217.72.0/22",
@@ -14,6 +17,6 @@
       "168.217.200.0/22",
       "168.217.244.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

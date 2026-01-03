@@ -1,9 +1,12 @@
 {
-  "asn": 26211,
-  "handle": "PROOFPOINT-ASN-US-WEST",
-  "description": "Proofpoint Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26211,
+  "metadata" : {
+    "handle" : "PROOFPOINT-ASN-US-WEST",
+    "description" : "Proofpoint Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.159.227.0/24",
       "66.159.240.0/23",
       "66.159.248.0/23",
@@ -22,7 +25,7 @@
       "208.84.66.0/24",
       "208.86.202.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:100:9000::/47",
       "2620:100:900c::/47"
     ]

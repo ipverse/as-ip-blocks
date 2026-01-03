@@ -1,11 +1,14 @@
 {
-  "asn": 24316,
-  "handle": "POWERLINK-AS-AP",
-  "description": "Powerlink Qld",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24316,
+  "metadata" : {
+    "handle" : "POWERLINK-AS-AP",
+    "description" : "Powerlink Qld",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.30.100.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

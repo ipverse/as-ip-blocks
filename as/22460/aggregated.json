@@ -1,9 +1,12 @@
 {
-  "asn": 22460,
-  "handle": "PEPSICO-NA",
-  "description": "PepsiCo Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22460,
+  "metadata" : {
+    "handle" : "PEPSICO-NA",
+    "description" : "PepsiCo Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.197.72.0/24",
       "165.197.74.0/23",
       "165.197.96.0/22",
@@ -21,6 +24,6 @@
       "204.136.116.0/23",
       "204.136.118.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

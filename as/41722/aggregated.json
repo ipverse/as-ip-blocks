@@ -1,9 +1,12 @@
 {
-  "asn": 41722,
-  "handle": "MIRAN-AS",
-  "description": "Miran Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41722,
+  "metadata" : {
+    "handle" : "MIRAN-AS",
+    "description" : "Miran Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.142.80.0/21",
       "91.142.88.0/24",
       "91.142.90.0/23",
@@ -16,7 +19,7 @@
       "185.162.92.0/22",
       "185.174.164.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:21c0::/32",
       "2a07:a500::/32"
     ]

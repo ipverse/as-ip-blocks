@@ -1,11 +1,14 @@
 {
-  "asn": 42273,
-  "handle": "SAVA-SI-AS",
-  "description": "Sava d.d",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42273,
+  "metadata" : {
+    "handle" : "SAVA-SI-AS",
+    "description" : "Sava d.d.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.50.166.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

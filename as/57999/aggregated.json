@@ -1,12 +1,15 @@
 {
-  "asn": 57999,
-  "handle": "DATANETISP-AS",
-  "description": "LLC DataNet ISP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57999,
+  "metadata" : {
+    "handle" : "DATANETISP-AS",
+    "description" : "LLC DataNet ISP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.209.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:42c0::/29"
     ]
   }

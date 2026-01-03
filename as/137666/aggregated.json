@@ -1,13 +1,16 @@
 {
-  "asn": 137666,
-  "handle": "UDAAN-AS",
-  "description": "Udaan Internet Services Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137666,
+  "metadata" : {
+    "handle" : "UDAAN-AS",
+    "description" : "Udaan Internet Services Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.117.213.0/24",
       "103.168.167.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:dae0::/32"
     ]
   }

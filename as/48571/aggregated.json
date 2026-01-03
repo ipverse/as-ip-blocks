@@ -1,9 +1,12 @@
 {
-  "asn": 48571,
-  "handle": "EFECTRO-AS",
-  "description": "efectRO SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48571,
+  "metadata" : {
+    "handle" : "EFECTRO-AS",
+    "description" : "efectRO SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.181.168.0/23",
       "91.209.189.0/24",
       "91.216.80.0/24",
@@ -12,7 +15,7 @@
       "185.62.11.0/24",
       "194.55.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:cb40::/29"
     ]
   }

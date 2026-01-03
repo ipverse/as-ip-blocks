@@ -1,13 +1,16 @@
 {
-  "asn": 206350,
-  "handle": "OMREN",
-  "description": "Oman Research and education Network (OMREN)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206350,
+  "metadata" : {
+    "handle" : "OMREN",
+    "description" : "Oman Research and education Network (OMREN)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.186.205.0/24",
       "185.186.206.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:d580::/29"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 6517,
-  "handle": "LAKENETWORKS-AS",
-  "description": "LAKENETWORKS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6517,
+  "metadata" : {
+    "handle" : "LAKENETWORKS-AS",
+    "description" : "LAKENETWORKS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.231.80.0/24",
       "23.132.228.0/24",
       "67.219.214.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f992:70::/44",
       "2602:f992:f1::/48",
       "2806:3d3::/32",

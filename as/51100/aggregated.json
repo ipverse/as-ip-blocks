@@ -1,12 +1,15 @@
 {
-  "asn": 51100,
-  "handle": "KIER",
-  "description": "Kier Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51100,
+  "metadata" : {
+    "handle" : "KIER",
+    "description" : "Kier Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.195.112.0/23",
       "185.239.164.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

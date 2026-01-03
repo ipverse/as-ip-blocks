@@ -1,9 +1,12 @@
 {
-  "asn": 15967,
-  "handle": "NETARTGROUP",
-  "description": "Nazwa.pl Sp.z.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15967,
+  "metadata" : {
+    "handle" : "NETARTGROUP",
+    "description" : "Nazwa.pl Sp.z.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.172.168.0/22",
       "45.141.32.0/23",
       "45.141.34.0/24",
@@ -12,7 +15,7 @@
       "185.248.212.0/22",
       "185.255.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6100::/32",
       "2a0c:5841::/32"
     ]

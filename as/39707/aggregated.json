@@ -1,13 +1,16 @@
 {
-  "asn": 39707,
-  "handle": "SINFORM-AS",
-  "description": "OOO SvyazInform",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39707,
+  "metadata" : {
+    "handle" : "SINFORM-AS",
+    "description" : "OOO SvyazInform",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "92.39.96.0/21",
       "213.234.23.0/24",
       "213.234.24.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

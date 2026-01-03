@@ -1,14 +1,17 @@
 {
-  "asn": 210743,
-  "handle": "BABBAR-AS",
-  "description": "Babbar SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210743,
+  "metadata" : {
+    "handle" : "BABBAR-AS",
+    "description" : "Babbar SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.54.249.0/24",
       "217.113.194.0/24",
       "217.113.196.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:978:1b04::/47"
     ]
   }

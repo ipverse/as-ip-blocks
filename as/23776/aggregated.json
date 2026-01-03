@@ -1,13 +1,16 @@
 {
-  "asn": 23776,
-  "handle": "NEC",
-  "description": "NEC Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23776,
+  "metadata" : {
+    "handle" : "NEC",
+    "description" : "NEC Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "121.100.8.0/21",
       "203.179.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:2680::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 47768,
-  "handle": "INTISTELECOM-AS",
-  "description": "UK Intis Telecom LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47768,
+  "metadata" : {
+    "handle" : "INTISTELECOM-AS",
+    "description" : "UK Intis Telecom LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.95.244.0/22",
       "185.174.232.0/24",
       "185.174.235.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:bf00:5::/48",
       "2a0b:bf00:6::/48"
     ]

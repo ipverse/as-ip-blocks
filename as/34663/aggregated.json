@@ -1,12 +1,15 @@
 {
-  "asn": 34663,
-  "handle": "ASBELASTINGDIENST",
-  "description": "Belastingdienst",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34663,
+  "metadata" : {
+    "handle" : "ASBELASTINGDIENST",
+    "description" : "Belastingdienst",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.94.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:9a01:1000::/36"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 45588,
-  "handle": "BTCL-ISP-AS",
-  "description": "Bangladesh Telegraph \u0026 Telephone Board",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45588,
+  "metadata" : {
+    "handle" : "BTCL-ISP-AS",
+    "description" : "Bangladesh Telegraph & Telephone Board",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "114.130.128.0/19",
       "114.130.160.0/23",
       "114.130.162.0/24",
@@ -34,7 +37,7 @@
       "203.112.206.0/24",
       "203.112.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:5000:800::/40"
     ]
   }

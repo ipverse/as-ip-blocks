@@ -1,9 +1,12 @@
 {
-  "asn": 42574,
-  "handle": "NSPLUS-AS",
-  "description": "Novaya Sibir Plus Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42574,
+  "metadata" : {
+    "handle" : "NSPLUS-AS",
+    "description" : "Novaya Sibir Plus Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.41.192.0/21",
       "91.189.160.0/21",
       "91.201.204.0/22",
@@ -12,7 +15,7 @@
       "193.33.100.0/23",
       "194.146.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5a00:16::/48"
     ]
   }

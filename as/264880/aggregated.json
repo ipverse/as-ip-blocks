@@ -1,13 +1,16 @@
 {
-  "asn": 264880,
-  "handle": "RF-CONNECT-PROVEDOR",
-  "description": "RF Connect Provedor de Acesso LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264880,
+  "metadata" : {
+    "handle" : "RF-CONNECT-PROVEDOR",
+    "description" : "RF Connect Provedor de Acesso LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.227.56.0/22",
       "170.246.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2f40::/32"
     ]
   }

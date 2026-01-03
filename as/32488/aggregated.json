@@ -1,12 +1,15 @@
 {
-  "asn": 32488,
-  "handle": "COMPASSMSP",
-  "description": "CompassMSP LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32488,
+  "metadata" : {
+    "handle" : "COMPASSMSP",
+    "description" : "CompassMSP LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.4.172.0/23",
       "192.110.170.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

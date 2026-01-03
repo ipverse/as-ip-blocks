@@ -1,9 +1,12 @@
 {
-  "asn": 207810,
-  "handle": "VTELECOM",
-  "description": "Virus Net LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207810,
+  "metadata" : {
+    "handle" : "VTELECOM",
+    "description" : "Virus Net LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.134.84.0/23",
       "45.159.73.0/24",
       "45.159.74.0/23",
@@ -11,6 +14,6 @@
       "217.113.12.0/22",
       "217.113.18.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

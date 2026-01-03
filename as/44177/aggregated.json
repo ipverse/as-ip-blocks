@@ -1,12 +1,15 @@
 {
-  "asn": 44177,
-  "handle": "INBW-AS",
-  "description": "INBW Infrastruktur und Netzwerk Baden-Wuertemberg GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44177,
+  "metadata" : {
+    "handle" : "INBW-AS",
+    "description" : "INBW Infrastruktur und Netzwerk Baden-Wuertemberg GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.201.100.0/22",
       "194.76.193.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

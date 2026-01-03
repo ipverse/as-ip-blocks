@@ -1,9 +1,12 @@
 {
-  "asn": 136336,
-  "handle": "TICFIBER-AS",
-  "description": "Thamizhaga Internet Communications Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136336,
+  "metadata" : {
+    "handle" : "TICFIBER-AS",
+    "description" : "Thamizhaga Internet Communications Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.21.68.0/23",
       "38.134.138.0/23",
       "38.188.180.0/22",
@@ -14,7 +17,7 @@
       "103.136.136.0/23",
       "103.163.248.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:1140::/32"
     ]
   }

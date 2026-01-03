@@ -1,13 +1,16 @@
 {
-  "asn": 152122,
-  "handle": "BORENDROONLINE-AS-AP",
-  "description": "Borendro Online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152122,
+  "metadata" : {
+    "handle" : "BORENDROONLINE-AS-AP",
+    "description" : "Borendro Online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.22.0/23",
       "144.79.213.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:3140::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 132165,
-  "handle": "CONNECT-AS-AP",
-  "description": "Connect Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132165,
+  "metadata" : {
+    "handle" : "CONNECT-AS-AP",
+    "description" : "Connect Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.96.92.0/22",
       "39.34.128.0/20",
       "39.34.162.0/23",
@@ -38,7 +41,7 @@
       "182.189.94.0/23",
       "182.189.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:d00::/48",
       "2406:d00:2222::/48",
       "2406:d00:5555::/48",

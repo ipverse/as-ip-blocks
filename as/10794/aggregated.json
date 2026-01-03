@@ -1,9 +1,12 @@
 {
-  "asn": 10794,
-  "handle": "BANKAMERICA",
-  "description": "Bank of America National Association",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10794,
+  "metadata" : {
+    "handle" : "BANKAMERICA",
+    "description" : "Bank of America National Association",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "171.153.32.0/24",
       "171.153.35.0/24",
       "171.158.24.0/23",
@@ -83,6 +86,6 @@
       "203.11.134.0/24",
       "206.143.44.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

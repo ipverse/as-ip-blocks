@@ -1,12 +1,15 @@
 {
-  "asn": 198435,
-  "handle": "DVZ-AS",
-  "description": "DVZ Datenverarbeitungszentrum Mecklenburg-Vorpommern GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198435,
+  "metadata" : {
+    "handle" : "DVZ-AS",
+    "description" : "DVZ Datenverarbeitungszentrum Mecklenburg-Vorpommern GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.208.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1006:c000::/48",
       "2a02:1006:c0f0::/48"
     ]

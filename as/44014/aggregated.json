@@ -1,13 +1,16 @@
 {
-  "asn": 44014,
-  "handle": "VMI-AS",
-  "description": "OOO NPO VMI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44014,
+  "metadata" : {
+    "handle" : "VMI-AS",
+    "description" : "OOO NPO VMI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.238.80.0/23",
       "194.105.130.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:b00::/48"
     ]
   }

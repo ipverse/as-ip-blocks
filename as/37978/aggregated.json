@@ -1,9 +1,12 @@
 {
-  "asn": 37978,
-  "handle": "NETTAS-AS-AP",
-  "description": "Telstra Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37978,
+  "metadata" : {
+    "handle" : "NETTAS-AS-AP",
+    "description" : "Telstra Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.41.0.0/16",
       "147.109.0.0/16",
       "192.26.232.0/24",
@@ -13,6 +16,6 @@
       "203.5.121.0/24",
       "203.18.96.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

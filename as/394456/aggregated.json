@@ -1,9 +1,12 @@
 {
-  "asn": 394456,
-  "handle": "EPIK-LLC",
-  "description": "Epik LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394456,
+  "metadata" : {
+    "handle" : "EPIK-LLC",
+    "description" : "Epik LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.223.12.0/22",
       "66.223.49.0/24",
       "66.223.60.0/23",
@@ -12,7 +15,7 @@
       "209.196.144.0/24",
       "209.196.146.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:b6c0:6701::/48"
     ]
   }

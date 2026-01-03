@@ -1,15 +1,18 @@
 {
-  "asn": 15632,
-  "handle": "ALFA-BANK-AS",
-  "description": "JSC Alfa-Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15632,
+  "metadata" : {
+    "handle" : "ALFA-BANK-AS",
+    "description" : "JSC Alfa-Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "217.12.96.0/21",
       "217.12.104.0/23",
       "217.12.106.0/24",
       "217.12.110.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4c00:3::/48"
     ]
   }

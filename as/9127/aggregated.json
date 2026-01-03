@@ -1,9 +1,12 @@
 {
-  "asn": 9127,
-  "handle": "NETISSAT-AS",
-  "description": "Vivacom Bulgaria EAD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9127,
+  "metadata" : {
+    "handle" : "NETISSAT-AS",
+    "description" : "Vivacom Bulgaria EAD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.146.4.0/23",
       "82.146.8.0/23",
       "82.146.10.0/24",
@@ -26,6 +29,6 @@
       "213.130.75.0/24",
       "213.130.94.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

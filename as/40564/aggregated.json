@@ -1,9 +1,12 @@
 {
-  "asn": 40564,
-  "handle": "VOCOM-LAX-QUINBY-1",
-  "description": "VOCOM International Telecommunication INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40564,
+  "metadata" : {
+    "handle" : "VOCOM-LAX-QUINBY-1",
+    "description" : "VOCOM International Telecommunication INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.70.72.0/23",
       "38.70.75.0/24",
       "38.90.16.0/22",
@@ -17,7 +20,7 @@
       "208.90.122.0/23",
       "208.99.0.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:e300:4::/48",
       "2602:fd55::/36"
     ]

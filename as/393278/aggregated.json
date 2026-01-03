@@ -1,9 +1,12 @@
 {
-  "asn": 393278,
-  "handle": "FRANKLIN-KY-FIBERNET",
-  "description": "Electric Plant Board of the city of Franklin Kentucky",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393278,
+  "metadata" : {
+    "handle" : "FRANKLIN-KY-FIBERNET",
+    "description" : "Electric Plant Board of the city of Franklin Kentucky",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.79.164.0/22",
       "38.79.172.0/22",
       "38.79.180.0/23",
@@ -14,7 +17,7 @@
       "141.193.192.0/23",
       "208.79.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:33c0::/32"
     ]
   }

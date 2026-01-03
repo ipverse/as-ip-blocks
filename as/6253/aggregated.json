@@ -1,9 +1,12 @@
 {
-  "asn": 6253,
-  "handle": "PRUASN",
-  "description": "The Prudential Insurance Company of America",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6253,
+  "metadata" : {
+    "handle" : "PRUASN",
+    "description" : "The Prudential Insurance Company of America",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.151.56.0/21",
       "161.151.70.0/23",
       "161.151.72.0/21",
@@ -19,6 +22,6 @@
       "161.151.252.0/23",
       "161.151.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

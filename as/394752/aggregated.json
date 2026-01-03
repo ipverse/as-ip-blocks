@@ -1,9 +1,12 @@
 {
-  "asn": 394752,
-  "handle": "AVATIVE-FIBER",
-  "description": "Avative Fiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394752,
+  "metadata" : {
+    "handle" : "AVATIVE-FIBER",
+    "description" : "Avative Fiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.134.156.0/24",
       "66.118.44.0/22",
       "66.248.245.0/24",
@@ -13,7 +16,7 @@
       "170.39.60.0/22",
       "198.73.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:cb80::/32"
     ]
   }

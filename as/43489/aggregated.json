@@ -1,9 +1,12 @@
 {
-  "asn": 43489,
-  "handle": "ANYCAST-AS",
-  "description": "JSC RU-CENTER",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43489,
+  "metadata" : {
+    "handle" : "ANYCAST-AS",
+    "description" : "JSC RU-CENTER",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.177.70.0/24",
       "89.104.72.0/23",
       "89.104.75.0/24",
@@ -11,7 +14,7 @@
       "89.104.95.0/24",
       "89.111.135.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:d8:8::/48",
       "2a02:2090:6800::/48"
     ]

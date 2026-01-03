@@ -1,9 +1,12 @@
 {
-  "asn": 55720,
-  "handle": "GIGABIT-MY",
-  "description": "Gigabit Hosting Sdn Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55720,
+  "metadata" : {
+    "handle" : "GIGABIT-MY",
+    "description" : "Gigabit Hosting Sdn Bhd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.181.132.0/24",
       "14.192.67.0/24",
       "14.192.68.0/23",
@@ -129,7 +132,7 @@
       "220.158.200.0/23",
       "223.25.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:5680::/32",
       "2401:340::/32",
       "2402:90c0::/32",

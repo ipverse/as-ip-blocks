@@ -1,10 +1,13 @@
 {
-  "asn": 2604,
-  "handle": "MHS-GRAZ",
-  "description": "Graz University of Music and Performing Arts",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 2604,
+  "metadata" : {
+    "handle" : "MHS-GRAZ",
+    "description" : "Graz University of Music and Performing Arts",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:67c:2fa8::/48"
     ]
   }

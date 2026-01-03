@@ -1,9 +1,12 @@
 {
-  "asn": 14717,
-  "handle": "ECINET",
-  "description": "EZE Castle Integration Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14717,
+  "metadata" : {
+    "handle" : "ECINET",
+    "description" : "EZE Castle Integration Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.133.72.0/22",
       "63.71.180.0/23",
       "63.76.66.0/23",
@@ -40,7 +43,7 @@
       "208.241.124.0/23",
       "208.246.43.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fd90::/32",
       "2a02:2ba8::/32"
     ]

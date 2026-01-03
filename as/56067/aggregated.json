@@ -1,14 +1,17 @@
 {
-  "asn": 56067,
-  "handle": "METRABYTE-TH",
-  "description": "Metrabyte Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56067,
+  "metadata" : {
+    "handle" : "METRABYTE-TH",
+    "description" : "Metrabyte Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.30.124.0/22",
       "116.89.252.0/22",
       "119.59.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:8240::/32"
     ]
   }

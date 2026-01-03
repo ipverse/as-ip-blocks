@@ -1,14 +1,17 @@
 {
-  "asn": 43771,
-  "handle": "MUKI-AS",
-  "description": "MuKi Versicherungsverein auf Gegenseitigkeit VVaG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43771,
+  "metadata" : {
+    "handle" : "MUKI-AS",
+    "description" : "MuKi Versicherungsverein auf Gegenseitigkeit VVaG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.198.148.0/24",
       "185.202.4.0/23",
       "185.202.6.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:cdc0::/32"
     ]
   }

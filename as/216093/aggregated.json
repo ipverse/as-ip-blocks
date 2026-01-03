@@ -1,15 +1,18 @@
 {
-  "asn": 216093,
-  "handle": "SERVERGUARD",
-  "description": "Root Localhost LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216093,
+  "metadata" : {
+    "handle" : "SERVERGUARD",
+    "description" : "Root Localhost LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "166.88.170.0/24",
       "194.87.11.0/24",
       "194.87.28.0/24",
       "195.133.51.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:97c0:df0::/46"
     ]
   }

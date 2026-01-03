@@ -1,9 +1,12 @@
 {
-  "asn": 42232,
-  "handle": "PARISAT",
-  "description": "PARISAT Tavkozlesi es Szolgaltato Korlatolt Felelossegu Tarsasag",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42232,
+  "metadata" : {
+    "handle" : "PARISAT",
+    "description" : "PARISAT Tavkozlesi es Szolgaltato Korlatolt Felelossegu Tarsasag",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.24.17.0/24",
       "31.24.18.0/23",
       "31.24.20.0/22",
@@ -19,6 +22,6 @@
       "139.28.196.0/22",
       "213.163.9.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 397006,
-  "handle": "MULLCLOUD",
-  "description": "Mullcloud LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397006,
+  "metadata" : {
+    "handle" : "MULLCLOUD",
+    "description" : "Mullcloud LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "150.241.202.0/24",
       "151.246.16.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:dfc0::/36",
       "2a13:c3c0::/29"
     ]

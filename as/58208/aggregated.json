@@ -1,16 +1,19 @@
 {
-  "asn": 58208,
-  "handle": "VCORE-AS",
-  "description": "GEDEFI Conseil SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58208,
+  "metadata" : {
+    "handle" : "VCORE-AS",
+    "description" : "GEDEFI Conseil SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.42.152.0/22",
       "5.42.156.0/23",
       "5.42.159.0/24",
       "91.216.120.0/24",
       "185.118.68.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:45c0::/32"
     ]
   }

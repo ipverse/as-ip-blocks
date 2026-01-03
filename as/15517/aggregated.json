@@ -1,14 +1,17 @@
 {
-  "asn": 15517,
-  "handle": "NETSTREAM-CH",
-  "description": "Netstream Holding AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15517,
+  "metadata" : {
+    "handle" : "NETSTREAM-CH",
+    "description" : "Netstream Holding AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.65.128.0/19",
       "94.78.0.0/18",
       "213.133.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:330::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 57692,
-  "handle": "KAPSI-AS",
-  "description": "Kapsi Internet-kayttajat ry",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57692,
+  "metadata" : {
+    "handle" : "KAPSI-AS",
+    "description" : "Kapsi Internet-kayttajat ry",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.232.154.0/23",
       "91.232.156.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1be8::/48"
     ]
   }

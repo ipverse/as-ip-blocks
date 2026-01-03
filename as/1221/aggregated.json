@@ -1,9 +1,12 @@
 {
-  "asn": 1221,
-  "handle": "ASN-TELSTRA",
-  "description": "Telstra Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1221,
+  "metadata" : {
+    "handle" : "ASN-TELSTRA",
+    "description" : "Telstra Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.120.0.0/13",
       "1.128.0.0/11",
       "58.160.0.0/12",
@@ -246,7 +249,7 @@
       "206.225.235.0/24",
       "210.23.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:8000::/20",
       "2401:a480::/48"
     ]

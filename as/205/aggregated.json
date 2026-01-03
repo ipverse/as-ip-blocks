@@ -1,11 +1,14 @@
 {
-  "asn": 205,
-  "handle": "MONTCLAIR-AS",
-  "description": "Montclair State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205,
+  "metadata" : {
+    "handle" : "MONTCLAIR-AS",
+    "description" : "Montclair State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.68.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

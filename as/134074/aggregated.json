@@ -1,13 +1,16 @@
 {
-  "asn": 134074,
-  "handle": "GOLOMTBANK-AS-AP",
-  "description": "Golomt Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134074,
+  "metadata" : {
+    "handle" : "GOLOMTBANK-AS-AP",
+    "description" : "Golomt Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.51.60.0/24",
       "103.142.243.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:9840::/48"
     ]
   }

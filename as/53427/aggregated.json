@@ -1,16 +1,19 @@
 {
-  "asn": 53427,
-  "handle": "TGLOBAL-NETWORKS",
-  "description": "TGLOBAL NETWORKS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53427,
+  "metadata" : {
+    "handle" : "TGLOBAL-NETWORKS",
+    "description" : "TGLOBAL NETWORKS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.128.100.0/24",
       "38.246.87.0/24",
       "45.165.81.0/24",
       "45.165.82.0/23",
       "107.172.40.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fa91::/40"
     ]
   }

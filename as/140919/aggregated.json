@@ -1,11 +1,14 @@
 {
-  "asn": 140919,
-  "handle": "CLOUDONE-AS-AP",
-  "description": "Cloudone",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140919,
+  "metadata" : {
+    "handle" : "CLOUDONE-AS-AP",
+    "description" : "Cloudone",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.99.38.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

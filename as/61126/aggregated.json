@@ -1,10 +1,13 @@
 {
-  "asn": 61126,
-  "handle": "ROUTED",
-  "description": "Lee Valentine",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 61126,
+  "metadata" : {
+    "handle" : "ROUTED",
+    "description" : "Lee Valentine",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:4830:6000::/48",
       "2001:4830:60a0::/48",
       "2001:4830:60a7::/48"

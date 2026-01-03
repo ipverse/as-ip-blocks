@@ -1,12 +1,15 @@
 {
-  "asn": 39914,
-  "handle": "NFZ",
-  "description": "Narodowy Fundusz Zdrowia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39914,
+  "metadata" : {
+    "handle" : "NFZ",
+    "description" : "Narodowy Fundusz Zdrowia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.50.61.0/24",
       "195.206.126.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

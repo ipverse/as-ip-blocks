@@ -1,15 +1,18 @@
 {
-  "asn": 24210,
-  "handle": "ANGKASAWAVE-AS-ID",
-  "description": "Angkasa Sarana Teknik Komunikasi PT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24210,
+  "metadata" : {
+    "handle" : "ANGKASAWAVE-AS-ID",
+    "description" : "Angkasa Sarana Teknik Komunikasi PT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "180.150.232.0/23",
       "202.173.16.0/22",
       "202.173.20.0/23",
       "202.173.22.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:4100::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 266914,
-  "handle": "LARY-NET",
-  "description": "Lary Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266914,
+  "metadata" : {
+    "handle" : "LARY-NET",
+    "description" : "Lary Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.224.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4540::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 4777,
-  "handle": "APNIC-COLO",
-  "description": "Asia Pacific Network Information Centre",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4777,
+  "metadata" : {
+    "handle" : "APNIC-COLO",
+    "description" : "Asia Pacific Network Information Centre",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.12.28.0/24",
       "203.119.0.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:dc0::/35",
       "2001:dc0:c000::/35"
     ]

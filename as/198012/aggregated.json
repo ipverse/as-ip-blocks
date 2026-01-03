@@ -1,12 +1,15 @@
 {
-  "asn": 198012,
-  "handle": "INTERFORCE",
-  "description": "Interforce Networks BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198012,
+  "metadata" : {
+    "handle" : "INTERFORCE",
+    "description" : "Interforce Networks BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.255.24.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:4540::/31"
     ]
   }

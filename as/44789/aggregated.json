@@ -1,9 +1,12 @@
 {
-  "asn": 44789,
-  "handle": "HIRSAT-AS",
-  "description": "KabelszatNet-2002. Musoreloszto es Kereskedelmi Kft",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44789,
+  "metadata" : {
+    "handle" : "HIRSAT-AS",
+    "description" : "KabelszatNet-2002. Musoreloszto es Kereskedelmi Kft.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.24.184.0/21",
       "45.10.94.0/23",
       "46.31.178.0/23",
@@ -11,7 +14,7 @@
       "92.63.240.0/20",
       "185.143.202.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:9860::/37"
     ]
   }

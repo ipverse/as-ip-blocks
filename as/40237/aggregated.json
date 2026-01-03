@@ -1,9 +1,12 @@
 {
-  "asn": 40237,
-  "handle": "UNITED-TELEPHONE",
-  "description": "United Telephone Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40237,
+  "metadata" : {
+    "handle" : "UNITED-TELEPHONE",
+    "description" : "United Telephone Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.153.208.0/23",
       "38.53.128.0/18",
       "66.128.240.0/20",
@@ -16,7 +19,7 @@
       "206.251.208.0/20",
       "208.86.64.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:e200::/32"
     ]
   }

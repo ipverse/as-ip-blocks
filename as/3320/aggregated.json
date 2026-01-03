@@ -1,9 +1,12 @@
 {
-  "asn": 3320,
-  "handle": "DTAG",
-  "description": "Deutsche Telekom AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3320,
+  "metadata" : {
+    "handle" : "DTAG",
+    "description" : "Deutsche Telekom AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.100.0/24",
       "2.58.102.0/24",
       "2.160.0.0/12",
@@ -766,7 +769,7 @@
       "217.117.96.0/24",
       "217.224.0.0/11"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:650:cc02::/48",
       "2001:678:36c::/48",
       "2001:678:5b0::/48",

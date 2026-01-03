@@ -1,12 +1,15 @@
 {
-  "asn": 264930,
-  "handle": "CONECTA-UP",
-  "description": "Conecta UP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264930,
+  "metadata" : {
+    "handle" : "CONECTA-UP",
+    "description" : "Conecta UP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.228.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:301c::/32"
     ]
   }

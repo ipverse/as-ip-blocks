@@ -1,9 +1,12 @@
 {
-  "asn": 43529,
-  "handle": "VIDANET-AS",
-  "description": "ViDaNet Cabletelevision Provider Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43529,
+  "metadata" : {
+    "handle" : "VIDANET-AS",
+    "description" : "ViDaNet Cabletelevision Provider Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.251.16.0/20",
       "79.121.0.0/18",
       "79.121.64.0/21",
@@ -12,7 +15,7 @@
       "94.248.192.0/19",
       "94.248.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:bf00:200::/40",
       "2a03:bf01::/32"
     ]

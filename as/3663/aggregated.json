@@ -1,9 +1,12 @@
 {
-  "asn": 3663,
-  "handle": "NETNET-NET",
-  "description": "NetNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3663,
+  "metadata" : {
+    "handle" : "NETNET-NET",
+    "description" : "NetNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.116.128.0/18",
       "63.135.128.0/19",
       "64.246.240.0/20",
@@ -19,7 +22,7 @@
       "198.190.64.0/18",
       "206.40.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f430::/32"
     ]
   }

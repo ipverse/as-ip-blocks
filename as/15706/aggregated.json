@@ -1,9 +1,12 @@
 {
-  "asn": 15706,
-  "handle": "SUDATEL",
-  "description": "Sudatel (Sudan Telecom Co. Ltd)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15706,
+  "metadata" : {
+    "handle" : "SUDATEL",
+    "description" : "Sudatel (Sudan Telecom Co. Ltd)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.209.64.0/18",
       "41.218.0.0/18",
       "196.1.192.0/18",
@@ -12,7 +15,7 @@
       "197.252.0.0/16",
       "212.0.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4228::/32"
     ]
   }

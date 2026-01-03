@@ -1,9 +1,12 @@
 {
-  "asn": 19171,
-  "handle": "STARGATE-VAN",
-  "description": "Stargate Connections Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19171,
+  "metadata" : {
+    "handle" : "STARGATE-VAN",
+    "description" : "Stargate Connections Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.253.128.0/19",
       "98.143.80.0/20",
       "162.245.56.0/22",
@@ -12,7 +15,7 @@
       "208.65.232.0/22",
       "208.118.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:4100::/32"
     ]
   }

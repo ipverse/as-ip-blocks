@@ -1,9 +1,12 @@
 {
-  "asn": 208949,
-  "handle": "HBING-AS",
-  "description": "HBING LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208949,
+  "metadata" : {
+    "handle" : "HBING-AS",
+    "description" : "HBING LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.88.0.0/24",
       "45.148.145.0/24",
       "45.148.146.0/24",
@@ -20,6 +23,6 @@
       "193.151.109.0/24",
       "195.211.191.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

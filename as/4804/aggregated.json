@@ -1,9 +1,12 @@
 {
-  "asn": 4804,
-  "handle": "MPX-AS",
-  "description": "SingTel Optus Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4804,
+  "metadata" : {
+    "handle" : "MPX-AS",
+    "description" : "SingTel Optus Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.40.0.0/14",
       "1.44.0.0/21",
       "1.44.24.0/21",
@@ -37,7 +40,7 @@
       "211.28.0.0/14",
       "220.236.0.0/14"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:dc00:fe::/47",
       "2405:dc00:8000::/33"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 44473,
-  "handle": "STSRL-AS",
-  "description": "S.T. S.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44473,
+  "metadata" : {
+    "handle" : "STSRL-AS",
+    "description" : "S.T. S.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.186.40.0/21",
       "79.99.112.0/21",
       "91.194.142.0/23",
@@ -11,6 +14,6 @@
       "178.21.200.0/21",
       "185.39.100.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

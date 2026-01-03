@@ -1,12 +1,15 @@
 {
-  "asn": 56803,
-  "handle": "AS-DATASOURCE",
-  "description": "Datasource AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56803,
+  "metadata" : {
+    "handle" : "AS-DATASOURCE",
+    "description" : "Datasource AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.195.71.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:ad00::/29"
     ]
   }

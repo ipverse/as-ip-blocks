@@ -1,9 +1,12 @@
 {
-  "asn": 23422,
-  "handle": "ECL-1",
-  "description": "Endstream Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23422,
+  "metadata" : {
+    "handle" : "ECL-1",
+    "description" : "Endstream Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.10.21.0/24",
       "52.124.24.0/24",
       "52.124.29.0/24",
@@ -21,7 +24,7 @@
       "193.56.23.0/24",
       "208.85.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:6680:1::/48",
       "2606:6680:14::/48",
       "2606:9c80::/32",

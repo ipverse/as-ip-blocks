@@ -1,9 +1,12 @@
 {
-  "asn": 60627,
-  "handle": "RA-AS",
-  "description": "Rayankadeh Apadana Company Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60627,
+  "metadata" : {
+    "handle" : "RA-AS",
+    "description" : "Rayankadeh Apadana Company Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.113.56.0/22",
       "185.124.112.0/22",
       "185.140.56.0/22",
@@ -11,7 +14,7 @@
       "185.145.8.0/22",
       "193.228.136.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:ea00::/29"
     ]
   }

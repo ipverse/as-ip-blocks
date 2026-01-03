@@ -1,13 +1,16 @@
 {
-  "asn": 214940,
-  "handle": "KPRONET",
-  "description": "KPROHOST LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214940,
+  "metadata" : {
+    "handle" : "KPRONET",
+    "description" : "KPROHOST LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.144.212.0/24",
       "77.83.39.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:f082::/32"
     ]
   }

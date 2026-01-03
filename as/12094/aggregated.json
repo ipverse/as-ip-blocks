@@ -1,15 +1,18 @@
 {
-  "asn": 12094,
-  "handle": "SISTERLAKESCABLE",
-  "description": "Sister Lakes Cable",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12094,
+  "metadata" : {
+    "handle" : "SISTERLAKESCABLE",
+    "description" : "Sister Lakes Cable",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.33.135.0/24",
       "50.33.164.0/23",
       "154.27.224.0/19",
       "161.129.61.0/24",
       "192.245.181.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 56550,
-  "handle": "STELCORE",
-  "description": "STEL S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56550,
+  "metadata" : {
+    "handle" : "STELCORE",
+    "description" : "STEL S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.14.28.0/24",
       "31.177.40.0/21",
       "31.214.153.0/24",
@@ -23,6 +26,6 @@
       "185.163.172.0/22",
       "188.241.154.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

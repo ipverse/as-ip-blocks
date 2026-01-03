@@ -1,12 +1,15 @@
 {
-  "asn": 18515,
-  "handle": "UTARLINGTON",
-  "description": "University of Texas at Arlington",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18515,
+  "metadata" : {
+    "handle" : "UTARLINGTON",
+    "description" : "University of Texas at Arlington",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.107.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd0f::/36"
     ]
   }

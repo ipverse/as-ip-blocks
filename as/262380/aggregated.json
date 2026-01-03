@@ -1,15 +1,18 @@
 {
-  "asn": 262380,
-  "handle": "RONTEL",
-  "description": "Rontel LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262380,
+  "metadata" : {
+    "handle" : "RONTEL",
+    "description" : "Rontel LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.0.240.0/22",
       "138.255.92.0/22",
       "177.128.232.0/22",
       "186.251.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:898::/32"
     ]
   }

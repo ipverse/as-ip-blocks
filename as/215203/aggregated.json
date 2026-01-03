@@ -1,10 +1,13 @@
 {
-  "asn": 215203,
-  "handle": "SNEP-AS",
-  "description": "Aleksei Efimov",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 215203,
+  "metadata" : {
+    "handle" : "SNEP-AS",
+    "description" : "Aleksei Efimov",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a14:7c0:d0::/47",
       "2a14:7c0:d2::/48"
     ]

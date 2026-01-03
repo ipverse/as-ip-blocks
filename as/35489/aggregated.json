@@ -1,13 +1,16 @@
 {
-  "asn": 35489,
-  "handle": "GLOBALONE",
-  "description": "Global One Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35489,
+  "metadata" : {
+    "handle" : "GLOBALONE",
+    "description" : "Global One Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.133.100.0/23",
       "193.8.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:7cc0::/29"
     ]
   }

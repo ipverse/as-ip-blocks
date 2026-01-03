@@ -1,9 +1,12 @@
 {
-  "asn": 8507,
-  "handle": "JSC-LABORATORY-OF",
-  "description": "JSC Laboratory of New Information Technologies LANIT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8507,
+  "metadata" : {
+    "handle" : "JSC-LABORATORY-OF",
+    "description" : "JSC Laboratory of New Information Technologies LANIT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.26.160.0/21",
       "195.26.168.0/24",
       "195.26.170.0/23",
@@ -13,6 +16,6 @@
       "195.26.180.0/22",
       "195.26.184.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

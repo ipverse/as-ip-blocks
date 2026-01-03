@@ -1,9 +1,12 @@
 {
-  "asn": 26496,
-  "handle": "AS-26496-GO-DADDY-COM-LLC",
-  "description": "GoDaddy.com LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26496,
+  "metadata" : {
+    "handle" : "AS-26496-GO-DADDY-COM-LLC",
+    "description" : "GoDaddy.com LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.229.128.0/17",
       "43.255.152.0/22",
       "45.40.128.0/18",
@@ -47,7 +50,7 @@
       "208.109.192.0/18",
       "216.69.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:9c00::/48",
       "2403:bc80::/32",
       "2407:1c00::/32",

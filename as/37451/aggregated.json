@@ -1,9 +1,12 @@
 {
-  "asn": 37451,
-  "handle": "CONGOTELECOM",
-  "description": "CONGO TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37451,
+  "metadata" : {
+    "handle" : "CONGOTELECOM",
+    "description" : "CONGO TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.129.64.0/24",
       "102.129.66.0/23",
       "102.129.68.0/22",
@@ -20,6 +23,6 @@
       "197.157.253.0/24",
       "197.157.254.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

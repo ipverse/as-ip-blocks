@@ -1,14 +1,17 @@
 {
-  "asn": 58811,
-  "handle": "AP-CONAC-AS-AP",
-  "description": "CONAC (China Organizational Name Administration Center)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58811,
+  "metadata" : {
+    "handle" : "AP-CONAC-AS-AP",
+    "description" : "CONAC (China Organizational Name Administration Center)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "111.235.170.0/23",
       "111.235.180.0/23",
       "111.235.182.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:b400:14::/48",
       "2401:b400:16::/47",
       "2401:b400:20::/47"

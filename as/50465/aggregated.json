@@ -1,12 +1,15 @@
 {
-  "asn": 50465,
-  "handle": "IQHOST",
-  "description": "IQHost Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50465,
+  "metadata" : {
+    "handle" : "IQHOST",
+    "description" : "IQHost Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.106.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5a00:1e::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 60791,
-  "handle": "HGDATA",
-  "description": "HGdata s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60791,
+  "metadata" : {
+    "handle" : "HGDATA",
+    "description" : "HGdata s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.25.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:7f20::/32"
     ]
   }

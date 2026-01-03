@@ -1,12 +1,15 @@
 {
-  "asn": 273590,
-  "handle": "PVN-PROVEDOR-INTERNET",
-  "description": "PVN Provedor De Internet LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273590,
+  "metadata" : {
+    "handle" : "PVN-PROVEDOR-INTERNET",
+    "description" : "PVN Provedor De Internet LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "189.85.120.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8938::/32"
     ]
   }

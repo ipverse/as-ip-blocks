@@ -1,12 +1,15 @@
 {
-  "asn": 135559,
-  "handle": "SERENITY-AS-AP",
-  "description": "Athena Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135559,
+  "metadata" : {
+    "handle" : "SERENITY-AS-AP",
+    "description" : "Athena Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.30.37.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:2040::/48"
     ]
   }

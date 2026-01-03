@@ -1,9 +1,12 @@
 {
-  "asn": 29422,
-  "handle": "NBLNETWORKS-AS",
-  "description": "Telia Cygate Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29422,
+  "metadata" : {
+    "handle" : "NBLNETWORKS-AS",
+    "description" : "Telia Cygate Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.122.28.0/24",
       "77.86.128.0/17",
       "77.91.212.0/22",
@@ -25,7 +28,7 @@
       "217.30.176.0/20",
       "217.149.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1bc8::/29",
       "2a01:51c0::/29",
       "2a0a:48c1::/32"

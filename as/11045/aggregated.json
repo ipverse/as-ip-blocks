@@ -1,9 +1,12 @@
 {
-  "asn": 11045,
-  "handle": "STERLING",
-  "description": "Sterling Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11045,
+  "metadata" : {
+    "handle" : "STERLING",
+    "description" : "Sterling Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.36.167.0/24",
       "199.34.232.0/21",
       "199.107.160.0/21",
@@ -11,6 +14,6 @@
       "199.108.228.0/23",
       "206.72.96.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

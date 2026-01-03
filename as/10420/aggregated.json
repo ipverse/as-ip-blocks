@@ -1,9 +1,12 @@
 {
-  "asn": 10420,
-  "handle": "BANCO-MEXICO",
-  "description": "Banco de Mexico",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10420,
+  "metadata" : {
+    "handle" : "BANCO-MEXICO",
+    "description" : "Banco de Mexico",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.70.1.0/24",
       "170.70.3.0/24",
       "170.70.4.0/22",
@@ -65,6 +68,6 @@
       "170.70.225.0/24",
       "170.70.226.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

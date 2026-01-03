@@ -1,11 +1,14 @@
 {
-  "asn": 10205,
-  "handle": "ONCC-AS-AP",
-  "description": "ON.CC Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10205,
+  "metadata" : {
+    "handle" : "ONCC-AS-AP",
+    "description" : "ON.CC Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.125.90.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

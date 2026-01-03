@@ -1,9 +1,12 @@
 {
-  "asn": 58731,
-  "handle": "TELINTLSA-AS",
-  "description": "Telekomunikasi Indonesia International (T.L.) S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58731,
+  "metadata" : {
+    "handle" : "TELINTLSA-AS",
+    "description" : "Telekomunikasi Indonesia International (T.L.) S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.115.72.0/23",
       "45.115.75.0/24",
       "103.26.95.0/24",
@@ -12,6 +15,6 @@
       "103.231.123.0/24",
       "150.242.108.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

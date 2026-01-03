@@ -1,14 +1,17 @@
 {
-  "asn": 55508,
-  "handle": "INTERNET-LA",
-  "description": "National Internet Center (NIC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55508,
+  "metadata" : {
+    "handle" : "INTERNET-LA",
+    "description" : "National Internet Center (NIC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.1.232.0/22",
       "157.119.180.0/22",
       "202.9.76.0/23",
       "203.110.64.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

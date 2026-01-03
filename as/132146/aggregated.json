@@ -1,9 +1,12 @@
 {
-  "asn": 132146,
-  "handle": "RICHTOPEC-AS-AP",
-  "description": "Rich Top EC Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132146,
+  "metadata" : {
+    "handle" : "RICHTOPEC-AS-AP",
+    "description" : "Rich Top EC Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.123.228.0/22",
       "38.181.96.0/21",
       "38.181.104.0/22",
@@ -13,6 +16,6 @@
       "154.19.28.0/22",
       "209.146.37.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

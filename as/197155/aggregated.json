@@ -1,9 +1,12 @@
 {
-  "asn": 197155,
-  "handle": "ARTNET",
-  "description": "Artnet Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197155,
+  "metadata" : {
+    "handle" : "ARTNET",
+    "description" : "Artnet Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.133.8.0/23",
       "5.133.11.0/24",
       "5.133.12.0/22",
@@ -23,7 +26,7 @@
       "194.15.196.0/24",
       "194.15.216.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:d100::/29"
     ]
   }

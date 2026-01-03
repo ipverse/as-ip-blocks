@@ -1,9 +1,12 @@
 {
-  "asn": 201525,
-  "handle": "HZ-CA-AS",
-  "description": "HZ Hosting Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201525,
+  "metadata" : {
+    "handle" : "HZ-CA-AS",
+    "description" : "HZ Hosting Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.149.252.0/23",
       "45.38.118.0/24",
       "45.39.120.0/24",
@@ -13,7 +16,7 @@
       "104.253.210.0/24",
       "104.253.212.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:8640:3::/48",
       "2a01:8640:19::/48"
     ]

@@ -1,15 +1,18 @@
 {
-  "asn": 58238,
-  "handle": "MKS-AS",
-  "description": "MKS Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58238,
+  "metadata" : {
+    "handle" : "MKS-AS",
+    "description" : "MKS Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.8.54.0/23",
       "46.8.146.0/23",
       "89.188.166.0/24",
       "194.33.48.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:9407::/32"
     ]
   }

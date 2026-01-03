@@ -1,9 +1,12 @@
 {
-  "asn": 265611,
-  "handle": "EL-PODER-INTERNET",
-  "description": "EL PODER DE INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265611,
+  "metadata" : {
+    "handle" : "EL-PODER-INTERNET",
+    "description" : "EL PODER DE INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.22.177.0/24",
       "38.22.184.0/23",
       "38.22.188.0/22",
@@ -11,6 +14,6 @@
       "38.58.152.0/22",
       "45.189.152.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

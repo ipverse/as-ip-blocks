@@ -1,9 +1,12 @@
 {
-  "asn": 216188,
-  "handle": "HOST-UNLIMITED",
-  "description": "Bieber IT GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216188,
+  "metadata" : {
+    "handle" : "HOST-UNLIMITED",
+    "description" : "Bieber IT GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.47.238.0/23",
       "45.10.24.0/24",
       "45.133.9.0/24",
@@ -15,7 +18,7 @@
       "185.248.140.0/24",
       "193.135.10.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:fd40::/29"
     ]
   }

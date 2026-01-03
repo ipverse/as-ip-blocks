@@ -1,14 +1,17 @@
 {
-  "asn": 18674,
-  "handle": "FROST-BANK",
-  "description": "Frost Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18674,
+  "metadata" : {
+    "handle" : "FROST-BANK",
+    "description" : "Frost Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.136.40.0/24",
       "75.11.242.0/24",
       "209.184.178.0/24",
       "216.247.77.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 267501,
-  "handle": "EQUATORIAL-TELECOMUNICACOES",
-  "description": "Equatorial Telecomunicacoes LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267501,
+  "metadata" : {
+    "handle" : "EQUATORIAL-TELECOMUNICACOES",
+    "description" : "Equatorial Telecomunicacoes LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.183.132.0/22",
       "201.182.64.0/22",
       "206.1.96.0/22",
@@ -11,7 +14,7 @@
       "206.1.108.0/22",
       "206.1.126.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4274::/32"
     ]
   }

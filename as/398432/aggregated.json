@@ -1,9 +1,12 @@
 {
-  "asn": 398432,
-  "handle": "WANRACK",
-  "description": "WANRack LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398432,
+  "metadata" : {
+    "handle" : "WANRACK",
+    "description" : "WANRack LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.18.235.0/24",
       "198.60.163.0/24",
       "198.60.164.0/22",
@@ -14,6 +17,6 @@
       "199.104.208.0/21",
       "199.104.216.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

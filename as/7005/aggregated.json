@@ -1,12 +1,15 @@
 {
-  "asn": 7005,
-  "handle": "INTERSERVER",
-  "description": "InterServer SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7005,
+  "metadata" : {
+    "handle" : "INTERSERVER",
+    "description" : "InterServer SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.0.208.0/24",
       "200.0.212.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

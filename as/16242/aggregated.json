@@ -1,12 +1,15 @@
 {
-  "asn": 16242,
-  "handle": "AS-NEXTRA",
-  "description": "Gluecklich GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16242,
+  "metadata" : {
+    "handle" : "AS-NEXTRA",
+    "description" : "Gluecklich GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.15.137.0/24",
       "193.247.85.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

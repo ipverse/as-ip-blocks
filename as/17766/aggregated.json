@@ -1,9 +1,12 @@
 {
-  "asn": 17766,
-  "handle": "NEXON-AS-AP",
-  "description": "Nexon Asia Pacific Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17766,
+  "metadata" : {
+    "handle" : "NEXON-AS-AP",
+    "description" : "Nexon Asia Pacific Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.251.108.0/22",
       "103.1.228.0/22",
       "103.10.32.0/22",
@@ -51,7 +54,7 @@
       "204.154.60.0/24",
       "210.215.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:db0::/32",
       "2404:d200::/32"
     ]

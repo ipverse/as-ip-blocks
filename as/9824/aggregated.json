@@ -1,9 +1,12 @@
 {
-  "asn": 9824,
-  "handle": "JTCL-JP-AS",
-  "description": "JCOM Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9824,
+  "metadata" : {
+    "handle" : "JTCL-JP-AS",
+    "description" : "JCOM Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.136.0.0/13",
       "42.144.0.0/13",
       "59.166.0.0/16",
@@ -28,7 +31,7 @@
       "220.152.0.0/18",
       "220.152.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:ff0::/32",
       "2405:1200::/29"
     ]

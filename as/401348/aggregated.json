@@ -1,15 +1,18 @@
 {
-  "asn": 401348,
-  "handle": "DMNL-ASN-01",
-  "description": "DataMesh Networks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401348,
+  "metadata" : {
+    "handle" : "DMNL-ASN-01",
+    "description" : "DataMesh Networks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.46.24.0/22",
       "141.8.224.0/21",
       "142.249.184.0/22",
       "208.73.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f794::/44",
       "2602:f794:10::/46"
     ]

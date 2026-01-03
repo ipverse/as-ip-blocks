@@ -1,9 +1,12 @@
 {
-  "asn": 55424,
-  "handle": "INSTATELECOM-AS-AP",
-  "description": "Instatelecom Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55424,
+  "metadata" : {
+    "handle" : "INSTATELECOM-AS-AP",
+    "description" : "Instatelecom Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.17.60.0/22",
       "117.104.224.0/21",
       "163.47.160.0/22",
@@ -19,6 +22,6 @@
       "175.106.60.0/22",
       "185.178.144.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

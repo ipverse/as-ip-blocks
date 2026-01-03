@@ -1,9 +1,12 @@
 {
-  "asn": 42086,
-  "handle": "RO-NI",
-  "description": "RO\u0026NI EOOD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42086,
+  "metadata" : {
+    "handle" : "RO-NI",
+    "description" : "RO&NI EOOD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.204.141.0/24",
       "62.204.156.0/23",
       "82.103.87.0/24",
@@ -11,7 +14,7 @@
       "212.91.190.0/24",
       "213.169.52.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:cc4::/48"
     ]
   }

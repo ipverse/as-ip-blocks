@@ -1,12 +1,15 @@
 {
-  "asn": 2043,
-  "handle": "CIS-NET",
-  "description": "KPN B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2043,
+  "metadata" : {
+    "handle" : "CIS-NET",
+    "description" : "KPN B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.2.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1d4::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 25394,
-  "handle": "MK-NETZDIENSTE-AS",
-  "description": "MK Netzdienste Verwaltungs GmbH trading as MK Netzdienste GmbH \u0026 Co. KG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25394,
+  "metadata" : {
+    "handle" : "MK-NETZDIENSTE-AS",
+    "description" : "MK Netzdienste Verwaltungs GmbH trading as MK Netzdienste GmbH & Co. KG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.209.112.0/20",
       "82.100.192.0/18",
       "85.220.128.0/17",
@@ -31,7 +34,7 @@
       "213.172.96.0/19",
       "217.199.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:a04::/48",
       "2001:67c:ae8::/48",
       "2001:67c:15b0::/48",

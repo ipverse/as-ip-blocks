@@ -1,11 +1,14 @@
 {
-  "asn": 136982,
-  "handle": "INS-AS-AP",
-  "description": "Integranet Network Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136982,
+  "metadata" : {
+    "handle" : "INS-AS-AP",
+    "description" : "Integranet Network Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.101.44.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

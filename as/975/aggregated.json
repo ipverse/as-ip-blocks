@@ -1,12 +1,15 @@
 {
-  "asn": 975,
-  "handle": "MICHIGANTECHGRP-AS",
-  "description": "Michigan Tech Group LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 975,
+  "metadata" : {
+    "handle" : "MICHIGANTECHGRP-AS",
+    "description" : "Michigan Tech Group LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.214.181.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f989::/40"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 152179,
-  "handle": "GCNL-AS-AP",
-  "description": "GLOBAL COMMUNICATION NETWORK LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152179,
+  "metadata" : {
+    "handle" : "GCNL-AS-AP",
+    "description" : "GLOBAL COMMUNICATION NETWORK LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.226.188.0/24",
       "23.137.244.0/24",
       "23.139.220.0/24",
@@ -11,7 +14,6 @@
       "23.141.20.0/24",
       "23.141.68.0/24",
       "23.141.100.0/24",
-      "23.142.12.0/24",
       "23.142.36.0/24",
       "23.142.108.0/24",
       "23.142.180.0/24",
@@ -98,7 +100,7 @@
       "218.33.88.0/22",
       "223.26.4.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:49c0::/48"
     ]
   }

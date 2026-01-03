@@ -1,9 +1,12 @@
 {
-  "asn": 32710,
-  "handle": "AGNICORP-ASN",
-  "description": "AgniCorp Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32710,
+  "metadata" : {
+    "handle" : "AGNICORP-ASN",
+    "description" : "AgniCorp Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.179.100.0/24",
       "164.153.168.0/24",
       "164.153.171.0/24",
@@ -15,6 +18,6 @@
       "204.138.56.0/22",
       "207.251.41.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

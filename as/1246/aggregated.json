@@ -1,9 +1,12 @@
 {
-  "asn": 1246,
-  "handle": "TLL-WEST",
-  "description": "Zito Media",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1246,
+  "metadata" : {
+    "handle" : "TLL-WEST",
+    "description" : "Zito Media",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.50.4.0/24",
       "64.188.130.0/24",
       "64.188.148.0/23",
@@ -13,7 +16,7 @@
       "199.184.142.0/24",
       "208.85.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:250e:f000::/36"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 12668,
-  "handle": "MIRALOGIC-AS",
-  "description": "LLC KomTehCentr",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12668,
+  "metadata" : {
+    "handle" : "MIRALOGIC-AS",
+    "description" : "LLC KomTehCentr",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.141.234.0/23",
       "5.189.0.0/17",
       "31.192.169.0/24",
@@ -151,7 +154,7 @@
       "213.142.62.0/24",
       "213.159.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:17d0::/32"
     ]
   }

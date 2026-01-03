@@ -1,13 +1,16 @@
 {
-  "asn": 24848,
-  "handle": "KIELMAN-EDU-AS",
-  "description": "Kielce University of Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24848,
+  "metadata" : {
+    "handle" : "KIELMAN-EDU-AS",
+    "description" : "Kielce University of Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.6.176.0/20",
       "81.26.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:cd80::/33"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 44550,
-  "handle": "TECHNOG",
-  "description": "Techno G Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44550,
+  "metadata" : {
+    "handle" : "TECHNOG",
+    "description" : "Techno G Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.84.232.0/22",
       "185.134.107.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:e80::/44"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 139765,
-  "handle": "AGENSI-AS-AP",
-  "description": "Agensi Nuklear Malaysia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139765,
+  "metadata" : {
+    "handle" : "AGENSI-AS-AP",
+    "description" : "Agensi Nuklear Malaysia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.144.50.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:b180::/48"
     ]
   }

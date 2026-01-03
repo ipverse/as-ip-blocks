@@ -1,9 +1,12 @@
 {
-  "asn": 10835,
-  "handle": "VISIONARY",
-  "description": "Visionary Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10835,
+  "metadata" : {
+    "handle" : "VISIONARY",
+    "description" : "Visionary Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.223.70.0/24",
       "63.151.64.0/21",
       "63.251.186.0/23",
@@ -38,7 +41,7 @@
       "209.193.96.0/20",
       "216.229.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2601:c000::/24",
       "2604:d000::/32",
       "2607:f498::/32"

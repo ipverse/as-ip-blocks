@@ -1,12 +1,15 @@
 {
-  "asn": 27203,
-  "handle": "TRIHEALTH-1",
-  "description": "Trihealth",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27203,
+  "metadata" : {
+    "handle" : "TRIHEALTH-1",
+    "description" : "Trihealth",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.68.48.0/24",
       "216.68.236.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

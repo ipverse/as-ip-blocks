@@ -1,14 +1,17 @@
 {
-  "asn": 137151,
-  "handle": "GNPLISP-AS",
-  "description": "Greenworld Netcast Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137151,
+  "metadata" : {
+    "handle" : "GNPLISP-AS",
+    "description" : "Greenworld Netcast Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.107.60.0/23",
       "103.107.63.0/24",
       "103.134.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:8320::/32"
     ]
   }

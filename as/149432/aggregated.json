@@ -1,12 +1,15 @@
 {
-  "asn": 149432,
-  "handle": "COMMANDERNET-AS-AP",
-  "description": "Commander Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149432,
+  "metadata" : {
+    "handle" : "COMMANDERNET-AS-AP",
+    "description" : "Commander Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.179.112.0/24",
       "103.179.201.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

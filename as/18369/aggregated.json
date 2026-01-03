@@ -1,12 +1,15 @@
 {
-  "asn": 18369,
-  "handle": "APNIC-ANYCAST",
-  "description": "Asia Pacific Network Information Centre",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18369,
+  "metadata" : {
+    "handle" : "APNIC-ANYCAST",
+    "description" : "Asia Pacific Network Information Centre",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.119.95.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:ddd::/48"
     ]
   }

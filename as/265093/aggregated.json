@@ -1,13 +1,16 @@
 {
-  "asn": 265093,
-  "handle": "PEGANET-TELECOM",
-  "description": "PegaNet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265093,
+  "metadata" : {
+    "handle" : "PEGANET-TELECOM",
+    "description" : "PegaNet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.233.104.0/22",
       "179.191.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:32b0::/32"
     ]
   }

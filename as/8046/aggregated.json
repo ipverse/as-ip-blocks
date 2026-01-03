@@ -1,12 +1,15 @@
 {
-  "asn": 8046,
-  "handle": "NAPANET",
-  "description": "NapaNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8046,
+  "metadata" : {
+    "handle" : "NAPANET",
+    "description" : "NapaNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.81.96.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470:de::/48"
     ]
   }

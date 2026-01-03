@@ -1,12 +1,15 @@
 {
-  "asn": 270111,
-  "handle": "COMUNICACION-POR-FIBRA",
-  "description": "Comunicación por Fibra SA de CV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270111,
+  "metadata" : {
+    "handle" : "COMUNICACION-POR-FIBRA",
+    "description" : "Comunicación por Fibra SA de CV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "189.51.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:3b2::/32",
       "2a13:9500:be::/48"
     ]

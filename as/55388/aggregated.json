@@ -1,13 +1,16 @@
 {
-  "asn": 55388,
-  "handle": "ASJ",
-  "description": "ASJ INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55388,
+  "metadata" : {
+    "handle" : "ASJ",
+    "description" : "ASJ INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.127.240.0/20",
       "219.118.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:2a00::/32"
     ]
   }

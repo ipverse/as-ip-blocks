@@ -1,9 +1,12 @@
 {
-  "asn": 26,
-  "handle": "CORNELL",
-  "description": "Cornell University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26,
+  "metadata" : {
+    "handle" : "CORNELL",
+    "description" : "Cornell University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.84.0.0/16",
       "128.253.0.0/16",
       "132.236.0.0/16",
@@ -11,7 +14,7 @@
       "192.122.235.0/24",
       "192.122.236.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:110:d000::/44"
     ]
   }

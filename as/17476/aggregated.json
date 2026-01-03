@@ -1,14 +1,17 @@
 {
-  "asn": 17476,
-  "handle": "CHL-AS-AP",
-  "description": "CloudRadium (HK) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17476,
+  "metadata" : {
+    "handle" : "CHL-AS-AP",
+    "description" : "CloudRadium (HK) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "183.90.184.0/23",
       "202.36.160.0/23",
       "203.29.203.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:ada0::/39"
     ]
   }

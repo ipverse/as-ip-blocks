@@ -1,14 +1,17 @@
 {
-  "asn": 22135,
-  "handle": "SKECHERS-USA",
-  "description": "Skechers USA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22135,
+  "metadata" : {
+    "handle" : "SKECHERS-USA",
+    "description" : "Skechers USA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.80.136.0/23",
       "173.242.0.0/23",
       "173.242.4.0/22",
       "173.242.8.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

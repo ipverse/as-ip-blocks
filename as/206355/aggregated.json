@@ -1,12 +1,15 @@
 {
-  "asn": 206355,
-  "handle": "SPEEDNET",
-  "description": "Speednet srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206355,
+  "metadata" : {
+    "handle" : "SPEEDNET",
+    "description" : "Speednet srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "145.79.192.0/22",
       "185.192.136.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

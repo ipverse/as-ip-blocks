@@ -1,12 +1,15 @@
 {
-  "asn": 139570,
-  "handle": "SPECTRUM-AS",
-  "description": "Spectrum Internet Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139570,
+  "metadata" : {
+    "handle" : "SPECTRUM-AS",
+    "description" : "Spectrum Internet Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.157.72.0/23",
       "103.246.62.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

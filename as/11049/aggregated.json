@@ -1,9 +1,12 @@
 {
-  "asn": 11049,
-  "handle": "DYN",
-  "description": "Oracle Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11049,
+  "metadata" : {
+    "handle" : "DYN",
+    "description" : "Oracle Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.181.148.0/23",
       "129.91.224.0/20",
       "129.91.240.0/22",
@@ -21,7 +24,7 @@
       "163.192.176.0/21",
       "192.18.197.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2603:c040::/39",
       "2603:c040:1000::/38",
       "2603:c040:2000::/39",

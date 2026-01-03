@@ -1,9 +1,12 @@
 {
-  "asn": 40154,
-  "handle": "VRC-AS",
-  "description": "Virtual Radiologic Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40154,
+  "metadata" : {
+    "handle" : "VRC-AS",
+    "description" : "Virtual Radiologic Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.162.56.0/24",
       "74.117.32.0/22",
       "204.16.164.0/22",
@@ -11,6 +14,6 @@
       "208.50.249.0/24",
       "209.180.24.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

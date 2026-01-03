@@ -1,12 +1,15 @@
 {
-  "asn": 22322,
-  "handle": "OBERLIN-NET",
-  "description": "CABLE CO-OP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22322,
+  "metadata" : {
+    "handle" : "OBERLIN-NET",
+    "description" : "CABLE CO-OP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.152.96.0/22",
       "208.66.208.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

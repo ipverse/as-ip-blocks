@@ -1,9 +1,12 @@
 {
-  "asn": 40009,
-  "handle": "BITGRAVITY",
-  "description": "BitGravity Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40009,
+  "metadata" : {
+    "handle" : "BITGRAVITY",
+    "description" : "BitGravity Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.23.20.0/24",
       "64.86.232.0/23",
       "64.86.239.0/24",
@@ -39,7 +42,7 @@
       "209.131.109.0/24",
       "209.131.110.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fc48:420::/48",
       "2607:fc48:430::/48",
       "2607:fc48:440::/48",

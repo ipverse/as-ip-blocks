@@ -1,9 +1,12 @@
 {
-  "asn": 131274,
-  "handle": "CYPRESSTEL-HK",
-  "description": "Cypress Telecom Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131274,
+  "metadata" : {
+    "handle" : "CYPRESSTEL-HK",
+    "description" : "Cypress Telecom Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.247.67.0/24",
       "43.229.49.0/24",
       "43.229.51.0/24",
@@ -13,7 +16,7 @@
       "158.140.254.0/24",
       "165.101.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:cec0::/32"
     ]
   }

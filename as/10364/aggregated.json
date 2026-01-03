@@ -1,13 +1,16 @@
 {
-  "asn": 10364,
-  "handle": "UAHNET",
-  "description": "University of Alabama in Huntsville",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10364,
+  "metadata" : {
+    "handle" : "UAHNET",
+    "description" : "University of Alabama in Huntsville",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.229.0.0/16",
       "207.157.74.0/23",
       "207.157.81.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

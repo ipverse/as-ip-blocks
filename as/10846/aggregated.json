@@ -1,9 +1,12 @@
 {
-  "asn": 10846,
-  "handle": "DEERE",
-  "description": "Deere \u0026 Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10846,
+  "metadata" : {
+    "handle" : "DEERE",
+    "description" : "Deere & Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.121.0.0/16",
       "192.43.64.0/18",
       "199.197.32.0/22",
@@ -17,7 +20,7 @@
       "204.55.64.0/19",
       "204.55.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:27::/48"
     ]
   }

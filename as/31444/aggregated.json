@@ -1,9 +1,12 @@
 {
-  "asn": 31444,
-  "handle": "SEANET-AS",
-  "description": "SeaExpress Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31444,
+  "metadata" : {
+    "handle" : "SEANET-AS",
+    "description" : "SeaExpress Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.68.32.0/20",
       "83.68.48.0/21",
       "83.68.60.0/23",
@@ -12,6 +15,6 @@
       "185.237.236.0/22",
       "185.253.104.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

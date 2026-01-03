@@ -1,14 +1,17 @@
 {
-  "asn": 136247,
-  "handle": "VICUNI-AS-AP",
-  "description": "Victoria University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136247,
+  "metadata" : {
+    "handle" : "VICUNI-AS-AP",
+    "description" : "Victoria University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "140.159.0.0/16",
       "203.13.192.0/22",
       "203.13.203.0/24",
       "203.13.204.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

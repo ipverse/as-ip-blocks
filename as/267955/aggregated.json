@@ -1,12 +1,15 @@
 {
-  "asn": 267955,
-  "handle": "OP-TELECOM",
-  "description": "OP TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267955,
+  "metadata" : {
+    "handle" : "OP-TELECOM",
+    "description" : "OP TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.166.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:55c4::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 59796,
-  "handle": "STORMWALL-AS",
-  "description": "StormWall s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59796,
+  "metadata" : {
+    "handle" : "STORMWALL-AS",
+    "description" : "StormWall s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.252.32.0/22",
       "103.134.155.0/24",
       "160.25.253.0/24",
@@ -14,7 +17,7 @@
       "193.84.88.0/24",
       "193.104.120.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:a180:10::/48",
       "2a06:a180:1f::/48",
       "2a06:a180:40::/48",

@@ -1,12 +1,15 @@
 {
-  "asn": 4748,
-  "handle": "RESOLINK-AS-AP",
-  "description": "Resources Link Network Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4748,
+  "metadata" : {
+    "handle" : "RESOLINK-AS-AP",
+    "description" : "Resources Link Network Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.161.4.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:3d00::/48"
     ]
   }

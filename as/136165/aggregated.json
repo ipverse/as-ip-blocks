@@ -1,12 +1,15 @@
 {
-  "asn": 136165,
-  "handle": "X4B-AS-AP",
-  "description": "X4B",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136165,
+  "metadata" : {
+    "handle" : "X4B-AS-AP",
+    "description" : "X4B",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.77.224.0/24",
       "103.249.70.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

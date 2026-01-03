@@ -1,9 +1,12 @@
 {
-  "asn": 27353,
-  "handle": "IUHEALTH-ASN",
-  "description": "Indiana University Health Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27353,
+  "metadata" : {
+    "handle" : "IUHEALTH-ASN",
+    "description" : "Indiana University Health Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.1.1.0/24",
       "162.1.2.0/24",
       "162.1.10.0/24",
@@ -16,6 +19,6 @@
       "162.1.179.0/24",
       "162.1.182.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

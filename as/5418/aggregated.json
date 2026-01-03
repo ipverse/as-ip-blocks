@@ -1,11 +1,14 @@
 {
-  "asn": 5418,
-  "handle": "NERDNET-AS",
-  "description": "nerdnet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5418,
+  "metadata" : {
+    "handle" : "NERDNET-AS",
+    "description" : "nerdnet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "217.170.15.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

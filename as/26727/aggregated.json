@@ -1,9 +1,12 @@
 {
-  "asn": 26727,
-  "handle": "BBTEL",
-  "description": "Brandenburg Telephone Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26727,
+  "metadata" : {
+    "handle" : "BBTEL",
+    "description" : "Brandenburg Telephone Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.57.160.0/20",
       "66.23.128.0/19",
       "66.38.8.0/23",
@@ -16,7 +19,7 @@
       "173.242.128.0/20",
       "192.240.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:b400::/32"
     ]
   }

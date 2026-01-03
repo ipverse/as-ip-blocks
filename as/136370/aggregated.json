@@ -1,15 +1,18 @@
 {
-  "asn": 136370,
-  "handle": "MAHESH-AS",
-  "description": "SAI NETWORKS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136370,
+  "metadata" : {
+    "handle" : "MAHESH-AS",
+    "description" : "SAI NETWORKS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.87.90.0/24",
       "103.117.9.0/24",
       "103.160.124.0/23",
       "103.220.20.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:9d80::/48"
     ]
   }

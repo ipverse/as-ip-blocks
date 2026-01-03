@@ -1,13 +1,16 @@
 {
-  "asn": 213648,
-  "handle": "YORIZON-AS",
-  "description": "Yorizon Verwaltungs GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213648,
+  "metadata" : {
+    "handle" : "YORIZON-AS",
+    "description" : "Yorizon Verwaltungs GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.182.232.0/22",
       "194.93.78.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:8700::/29"
     ]
   }

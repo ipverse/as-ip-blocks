@@ -1,9 +1,12 @@
 {
-  "asn": 25888,
-  "handle": "HPINC",
-  "description": "HP Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25888,
+  "metadata" : {
+    "handle" : "HPINC",
+    "description" : "HP Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "15.32.96.0/22",
       "15.32.104.0/23",
       "15.36.64.0/18",
@@ -19,6 +22,6 @@
       "192.56.109.0/24",
       "192.56.171.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

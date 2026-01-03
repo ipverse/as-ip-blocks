@@ -1,12 +1,15 @@
 {
-  "asn": 19125,
-  "handle": "ROCK-NET",
-  "description": "Rockford Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19125,
+  "metadata" : {
+    "handle" : "ROCK-NET",
+    "description" : "Rockford Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.179.232.0/24",
       "204.126.173.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

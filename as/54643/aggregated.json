@@ -1,9 +1,12 @@
 {
-  "asn": 54643,
-  "handle": "IDIGITAL",
-  "description": "Idigital Internet Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54643,
+  "metadata" : {
+    "handle" : "IDIGITAL",
+    "description" : "Idigital Internet Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.111.64.0/21",
       "23.111.72.0/22",
       "64.34.70.0/24",
@@ -21,7 +24,7 @@
       "107.6.20.0/23",
       "107.6.27.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:7b00:3000::/36",
       "2607:7b00:4000::/36",
       "2607:7b00:7000::/36"

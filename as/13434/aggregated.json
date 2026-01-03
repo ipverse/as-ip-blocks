@@ -1,14 +1,17 @@
 {
-  "asn": 13434,
-  "handle": "CORVELCORP",
-  "description": "CORVEL CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13434,
+  "metadata" : {
+    "handle" : "CORVELCORP",
+    "description" : "CORVEL CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.64.60.0/23",
       "64.128.95.0/24",
       "70.103.104.0/24",
       "208.252.67.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

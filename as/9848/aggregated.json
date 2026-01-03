@@ -1,9 +1,12 @@
 {
-  "asn": 9848,
-  "handle": "SEJONGTELECOM-AS",
-  "description": "SEJONG NETWORKS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9848,
+  "metadata" : {
+    "handle" : "SEJONGTELECOM-AS",
+    "description" : "SEJONG NETWORKS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.180.7.0/24",
       "58.180.133.0/24",
       "61.97.64.0/20",
@@ -78,7 +81,7 @@
       "211.239.0.0/16",
       "211.255.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:3a8::/32",
       "2001:cf0::/32"
     ]

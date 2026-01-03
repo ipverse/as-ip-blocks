@@ -1,15 +1,18 @@
 {
-  "asn": 262715,
-  "handle": "CAEZAR-PROVEDOR-INTERNET",
-  "description": "Caezar Provedor de Internet EIRELI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262715,
+  "metadata" : {
+    "handle" : "CAEZAR-PROVEDOR-INTERNET",
+    "description" : "Caezar Provedor de Internet EIRELI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.250.88.0/22",
       "170.233.0.0/22",
       "187.111.144.0/20",
       "200.34.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:f7c::/32"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 135723,
-  "handle": "PRIMEFIBERNET-AS",
-  "description": "Prime Fibernet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135723,
+  "metadata" : {
+    "handle" : "PRIMEFIBERNET-AS",
+    "description" : "Prime Fibernet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.67.16.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

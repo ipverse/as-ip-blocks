@@ -1,14 +1,17 @@
 {
-  "asn": 205893,
-  "handle": "WIFITELEKOM-AS",
-  "description": "Wifi Telekom Bilisim Sanayi ve Ticaret A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205893,
+  "metadata" : {
+    "handle" : "WIFITELEKOM-AS",
+    "description" : "Wifi Telekom Bilisim Sanayi ve Ticaret A.S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.11.40.0/24",
       "185.202.240.0/24",
       "185.202.242.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:e240::/31",
       "2a0a:e242::/32"
     ]

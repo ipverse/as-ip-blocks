@@ -1,9 +1,12 @@
 {
-  "asn": 59815,
-  "handle": "TRINITY-AS",
-  "description": "Kompeatelecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59815,
+  "metadata" : {
+    "handle" : "TRINITY-AS",
+    "description" : "Kompeatelecom Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.104.32.0/19",
       "31.6.96.0/19",
       "109.75.192.0/20",
@@ -12,6 +15,6 @@
       "185.70.128.0/22",
       "217.64.144.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

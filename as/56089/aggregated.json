@@ -1,9 +1,12 @@
 {
-  "asn": 56089,
-  "handle": "OFFRATEL-AS-AP",
-  "description": "OFFRATEL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56089,
+  "metadata" : {
+    "handle" : "OFFRATEL-AS-AP",
+    "description" : "OFFRATEL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.24.112.0/22",
       "114.69.176.0/20",
       "175.158.128.0/18",
@@ -12,7 +15,7 @@
       "202.166.176.0/21",
       "203.104.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:2a00::/32"
     ]
   }

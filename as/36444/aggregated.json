@@ -1,9 +1,12 @@
 {
-  "asn": 36444,
-  "handle": "NEXCESS-NET",
-  "description": "Liquid Web L.L.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36444,
+  "metadata" : {
+    "handle" : "NEXCESS-NET",
+    "description" : "Liquid Web L.L.C",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.29.128.0/20",
       "8.29.152.0/22",
       "8.29.156.0/23",
@@ -38,7 +41,7 @@
       "209.87.144.0/20",
       "209.126.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f7c0::/32"
     ]
   }

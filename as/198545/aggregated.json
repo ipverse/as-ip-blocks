@@ -1,9 +1,12 @@
 {
-  "asn": 198545,
-  "handle": "FLEXNETWORK-AS",
-  "description": "FLEX NETWORK SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198545,
+  "metadata" : {
+    "handle" : "FLEXNETWORK-AS",
+    "description" : "FLEX NETWORK SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.85.80.0/22",
       "80.245.48.0/21",
       "80.245.60.0/23",
@@ -38,7 +41,7 @@
       "185.247.34.0/24",
       "217.71.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5fa0::/32",
       "2a13:ed40::/29"
     ]

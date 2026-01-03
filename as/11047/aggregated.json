@@ -1,9 +1,12 @@
 {
-  "asn": 11047,
-  "handle": "HHCC-ASN1",
-  "description": "Hartford Hospital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11047,
+  "metadata" : {
+    "handle" : "HHCC-ASN1",
+    "description" : "Hartford Hospital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.231.16.0/23",
       "199.231.20.0/23",
       "199.231.22.0/24",
@@ -11,6 +14,6 @@
       "199.231.26.0/23",
       "199.231.28.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

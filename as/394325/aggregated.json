@@ -1,15 +1,18 @@
 {
-  "asn": 394325,
-  "handle": "SPECTRUM-VOIP",
-  "description": "SpectrumVoIP Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394325,
+  "metadata" : {
+    "handle" : "SPECTRUM-VOIP",
+    "description" : "SpectrumVoIP Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.150.91.0/24",
       "38.190.135.0/24",
       "45.41.5.0/24",
       "131.143.175.0/24",
       "199.71.209.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

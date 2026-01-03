@@ -1,9 +1,12 @@
 {
-  "asn": 8426,
-  "handle": "CLARANET-AS",
-  "description": "Claranet Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8426,
+  "metadata" : {
+    "handle" : "CLARANET-AS",
+    "description" : "Claranet Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.253.180.0/24",
       "31.3.136.0/21",
       "46.18.128.0/21",
@@ -92,7 +95,7 @@
       "213.253.0.0/18",
       "217.158.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1088::/47",
       "2001:67c:27dc::/48",
       "2001:a70::/32",

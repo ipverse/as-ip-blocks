@@ -1,12 +1,15 @@
 {
-  "asn": 198217,
-  "handle": "NIBENET",
-  "description": "Nibe AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198217,
+  "metadata" : {
+    "handle" : "NIBENET",
+    "description" : "Nibe AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.218.206.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2c80::/48"
     ]
   }

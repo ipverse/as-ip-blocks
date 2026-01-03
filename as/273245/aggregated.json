@@ -1,13 +1,16 @@
 {
-  "asn": 273245,
-  "handle": "TERAMEG",
-  "description": "TERAMEG SA DE CV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273245,
+  "metadata" : {
+    "handle" : "TERAMEG",
+    "description" : "TERAMEG SA DE CV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.58.170.0/23",
       "38.210.252.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:430::/32"
     ]
   }

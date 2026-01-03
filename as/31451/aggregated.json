@@ -1,10 +1,13 @@
 {
-  "asn": 31451,
-  "handle": "KING-AS",
-  "description": "Thomas King",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 31451,
+  "metadata" : {
+    "handle" : "KING-AS",
+    "description" : "Thomas King",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:67c:1550::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 53808,
-  "handle": "MOEDOVE-N2",
-  "description": "MoeDove",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53808,
+  "metadata" : {
+    "handle" : "MOEDOVE-N2",
+    "description" : "MoeDove",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.151.104.0/24",
       "23.175.24.0/24",
       "45.87.102.0/23",
@@ -15,7 +18,7 @@
       "216.238.52.0/23",
       "216.238.54.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f92a::/48",
       "2602:f92a:100::/40",
       "2602:f92a:200::/40",

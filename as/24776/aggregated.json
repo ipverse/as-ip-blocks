@@ -1,9 +1,12 @@
 {
-  "asn": 24776,
-  "handle": "INFOCLIP-AS",
-  "description": "INFOCLIP SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24776,
+  "metadata" : {
+    "handle" : "INFOCLIP-AS",
+    "description" : "INFOCLIP SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.213.41.0/24",
       "194.2.74.0/24",
       "194.3.136.0/24",
@@ -12,7 +15,7 @@
       "213.161.192.0/19",
       "217.25.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1650::/29"
     ]
   }

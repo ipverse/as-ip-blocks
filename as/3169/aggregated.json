@@ -1,9 +1,12 @@
 {
-  "asn": 3169,
-  "handle": "BRKNETWORKDEVICES",
-  "description": "Jacek Pasek BRK Network Devices",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3169,
+  "metadata" : {
+    "handle" : "BRKNETWORKDEVICES",
+    "description" : "Jacek Pasek BRK Network Devices",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.140.217.0/24",
       "91.238.52.0/22",
       "155.133.62.0/23",
@@ -17,6 +20,6 @@
       "193.187.98.0/24",
       "195.22.117.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

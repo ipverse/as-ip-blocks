@@ -1,11 +1,14 @@
 {
-  "asn": 54539,
-  "handle": "CISD",
-  "description": "Calhoun ISD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54539,
+  "metadata" : {
+    "handle" : "CISD",
+    "description" : "Calhoun ISD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.182.64.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

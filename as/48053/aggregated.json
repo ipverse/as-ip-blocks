@@ -1,12 +1,15 @@
 {
-  "asn": 48053,
-  "handle": "GR-ANYCAST-DNS-CLOUD",
-  "description": "Foundation of Research and Technology Hellas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48053,
+  "metadata" : {
+    "handle" : "GR-ANYCAST-DNS-CLOUD",
+    "description" : "Foundation of Research and Technology Hellas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.0.4.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:7::/48"
     ]
   }

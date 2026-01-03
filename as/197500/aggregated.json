@@ -1,13 +1,16 @@
 {
-  "asn": 197500,
-  "handle": "SNDR-AS",
-  "description": "SA SOCIETE NATIONALE DE RADIODIFFUSION RADIO FRANCE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197500,
+  "metadata" : {
+    "handle" : "SNDR-AS",
+    "description" : "SA SOCIETE NATIONALE DE RADIODIFFUSION RADIO FRANCE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.223.73.0/24",
       "193.243.185.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2188::/48"
     ]
   }

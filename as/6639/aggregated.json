@@ -1,9 +1,12 @@
 {
-  "asn": 6639,
-  "handle": "CWCAYMAN",
-  "description": "Cable \u0026 Wireless (Cayman Islands) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6639,
+  "metadata" : {
+    "handle" : "CWCAYMAN",
+    "description" : "Cable & Wireless (Cayman Islands) Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.136.112.0/21",
       "67.213.154.0/23",
       "67.213.157.0/24",
@@ -19,7 +22,7 @@
       "209.27.52.0/22",
       "209.27.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:600::/32"
     ]
   }

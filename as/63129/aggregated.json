@@ -1,13 +1,16 @@
 {
-  "asn": 63129,
-  "handle": "AIRRABBIT-NETWORK",
-  "description": "AirRabbit LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63129,
+  "metadata" : {
+    "handle" : "AIRRABBIT-NETWORK",
+    "description" : "AirRabbit LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.137.52.0/24",
       "130.51.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f688::/33",
       "2602:f688:8000::/34",
       "2602:f688:c000::/35",

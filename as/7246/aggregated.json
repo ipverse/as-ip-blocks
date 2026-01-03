@@ -1,9 +1,12 @@
 {
-  "asn": 7246,
-  "handle": "BMS-AS",
-  "description": "Bristol-Myers Squibb Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7246,
+  "metadata" : {
+    "handle" : "BMS-AS",
+    "description" : "Bristol-Myers Squibb Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.117.22.0/24",
       "165.89.30.0/23",
       "165.89.112.0/23",
@@ -28,7 +31,7 @@
       "198.155.244.0/23",
       "198.155.246.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:197:200::/47",
       "2620:197:2c0::/48",
       "2620:197:300::/48",

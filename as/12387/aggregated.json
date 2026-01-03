@@ -1,12 +1,15 @@
 {
-  "asn": 12387,
-  "handle": "TON",
-  "description": "TON Total optical Networks AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12387,
+  "metadata" : {
+    "handle" : "TON",
+    "description" : "TON Total optical Networks AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.237.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:c10::/32"
     ]
   }

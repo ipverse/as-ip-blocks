@@ -1,12 +1,15 @@
 {
-  "asn": 269400,
-  "handle": "PORTONAVE",
-  "description": "Portonave S/A - Terminais Portuarios de Navegantes",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269400,
+  "metadata" : {
+    "handle" : "PORTONAVE",
+    "description" : "Portonave S/A - Terminais Portuarios de Navegantes",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.183.246.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:80:3720::/48"
     ]
   }

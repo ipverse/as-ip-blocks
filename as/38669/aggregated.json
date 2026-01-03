@@ -1,9 +1,12 @@
 {
-  "asn": 38669,
-  "handle": "CNBTV-AS",
-  "description": "LG HelloVision Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38669,
+  "metadata" : {
+    "handle" : "CNBTV-AS",
+    "description" : "LG HelloVision Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.11.96.0/19",
       "36.38.36.0/23",
       "36.38.168.0/21",
@@ -27,6 +30,6 @@
       "220.65.160.0/22",
       "220.65.168.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

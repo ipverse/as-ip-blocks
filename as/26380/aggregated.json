@@ -1,9 +1,12 @@
 {
-  "asn": 26380,
-  "handle": "MASTER-7-AS",
-  "description": "MasterCard Technologies LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26380,
+  "metadata" : {
+    "handle" : "MASTER-7-AS",
+    "description" : "MasterCard Technologies LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.10.32.0/23",
       "12.22.152.0/21",
       "45.115.128.0/22",
@@ -28,7 +31,7 @@
       "217.149.106.0/23",
       "220.101.52.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:3c00:6404::/47",
       "2607:3c00:6414::/47"
     ]

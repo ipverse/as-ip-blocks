@@ -1,13 +1,16 @@
 {
-  "asn": 201101,
-  "handle": "NATSEN-NC",
-  "description": "NATS (En Route) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201101,
+  "metadata" : {
+    "handle" : "NATSEN-NC",
+    "description" : "NATS (En Route) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.197.28.0/23",
       "159.197.32.0/23",
       "159.197.101.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

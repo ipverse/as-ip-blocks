@@ -1,12 +1,15 @@
 {
-  "asn": 4718,
-  "handle": "CKP",
-  "description": "Cyber Kansai Project",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4718,
+  "metadata" : {
+    "handle" : "CKP",
+    "description" : "Cyber Kansai Project",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.156.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:da0::/32"
     ]
   }

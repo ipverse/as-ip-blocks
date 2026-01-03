@@ -1,11 +1,14 @@
 {
-  "asn": 151500,
-  "handle": "DCN-AS-AP",
-  "description": "Digital Communication Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151500,
+  "metadata" : {
+    "handle" : "DCN-AS-AP",
+    "description" : "Digital Communication Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.236.107.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

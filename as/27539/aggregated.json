@@ -1,14 +1,17 @@
 {
-  "asn": 27539,
-  "handle": "WRT-AS",
-  "description": "West River Telecommunications Cooperative",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27539,
+  "metadata" : {
+    "handle" : "WRT-AS",
+    "description" : "West River Telecommunications Cooperative",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.68.0.0/20",
       "69.26.0.0/19",
       "113.30.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:a900::/32"
     ]
   }

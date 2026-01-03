@@ -1,9 +1,12 @@
 {
-  "asn": 43530,
-  "handle": "IRTELCOM-AS",
-  "description": "Limited Liability Company Irtelcom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43530,
+  "metadata" : {
+    "handle" : "IRTELCOM-AS",
+    "description" : "Limited Liability Company Irtelcom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.35.128.0/19",
       "37.75.192.0/21",
       "46.245.128.0/21",
@@ -11,6 +14,6 @@
       "176.62.240.0/20",
       "185.222.236.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 3302,
-  "handle": "AS-RETELIT-IRIDEOS",
-  "description": "Retelit Digital Services S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3302,
+  "metadata" : {
+    "handle" : "AS-RETELIT-IRIDEOS",
+    "description" : "Retelit Digital Services S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.150.128.0/20",
       "31.10.48.0/21",
       "37.220.44.0/22",
@@ -56,7 +59,7 @@
       "217.26.80.0/20",
       "217.29.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:750::/29",
       "2a02:7d8::/32"
     ]

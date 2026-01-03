@@ -1,9 +1,12 @@
 {
-  "asn": 133380,
-  "handle": "LAYER-AS",
-  "description": "Layerstack Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133380,
+  "metadata" : {
+    "handle" : "LAYER-AS",
+    "description" : "Layerstack Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.231.0.0/23",
       "45.115.36.0/24",
       "45.115.39.0/24",
@@ -36,6 +39,6 @@
       "223.223.217.0/24",
       "223.223.218.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

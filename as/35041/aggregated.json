@@ -1,9 +1,12 @@
 {
-  "asn": 35041,
-  "handle": "NET-BINERO-STHLM1",
-  "description": "Binero AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35041,
+  "metadata" : {
+    "handle" : "NET-BINERO-STHLM1",
+    "description" : "Binero AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.134.44.0/24",
       "45.159.156.0/22",
       "64.17.32.0/20",
@@ -213,7 +216,7 @@
       "209.152.160.0/19",
       "217.70.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:4540::/29",
       "2a06:1000::/29",
       "2a0f:8e80::/47"

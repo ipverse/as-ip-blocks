@@ -1,9 +1,12 @@
 {
-  "asn": 29166,
-  "handle": "NZZ-AS",
-  "description": "Neue Zuercher Zeitung AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29166,
+  "metadata" : {
+    "handle" : "NZZ-AS",
+    "description" : "Neue Zuercher Zeitung AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.5.8.0/23",
       "193.5.42.0/23",
       "193.135.31.0/24",
@@ -13,6 +16,6 @@
       "194.40.232.0/24",
       "194.40.234.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

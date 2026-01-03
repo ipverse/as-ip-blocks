@@ -1,13 +1,16 @@
 {
-  "asn": 8298,
-  "handle": "IPNG",
-  "description": "IPng Networks GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8298,
+  "metadata" : {
+    "handle" : "IPNG",
+    "description" : "IPng Networks GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.1.163.0/24",
       "194.126.235.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:d78::/48",
       "2a0b:dd80::/29"
     ]

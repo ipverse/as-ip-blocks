@@ -1,12 +1,15 @@
 {
-  "asn": 60815,
-  "handle": "DATANET-TELECOM",
-  "description": "Data Net Telecom Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60815,
+  "metadata" : {
+    "handle" : "DATANET-TELECOM",
+    "description" : "Data Net Telecom Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.20.24.0/22",
       "185.89.88.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

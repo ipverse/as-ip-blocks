@@ -1,9 +1,12 @@
 {
-  "asn": 211249,
-  "handle": "YILDIZ-EDU-NET",
-  "description": "Yildiz Teknik Universitesi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211249,
+  "metadata" : {
+    "handle" : "YILDIZ-EDU-NET",
+    "description" : "Yildiz Teknik Universitesi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.183.138.0/23",
       "95.183.192.0/22",
       "193.140.1.0/24",
@@ -14,6 +17,6 @@
       "194.27.96.0/22",
       "194.27.100.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

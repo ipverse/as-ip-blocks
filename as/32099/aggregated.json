@@ -1,12 +1,15 @@
 {
-  "asn": 32099,
-  "handle": "NYSOAG-AS",
-  "description": "New York State Office of the Attorney General",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32099,
+  "metadata" : {
+    "handle" : "NYSOAG-AS",
+    "description" : "New York State Office of the Attorney General",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.118.144.0/24",
       "209.160.219.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

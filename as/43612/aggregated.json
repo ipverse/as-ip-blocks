@@ -1,9 +1,12 @@
 {
-  "asn": 43612,
-  "handle": "A1MK-AS43612",
-  "description": "Company for communications services A1 Makedonija DOOEL Skopje",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43612,
+  "metadata" : {
+    "handle" : "A1MK-AS43612",
+    "description" : "Company for communications services A1 Makedonija DOOEL Skopje",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.3.93.0/24",
       "31.3.94.0/24",
       "78.157.0.0/19",
@@ -15,7 +18,7 @@
       "185.100.244.0/23",
       "212.110.92.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:b780::/32"
     ]
   }

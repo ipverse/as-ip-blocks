@@ -1,15 +1,18 @@
 {
-  "asn": 1205,
-  "handle": "JKU-LINZ-AS",
-  "description": "University Linz",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1205,
+  "metadata" : {
+    "handle" : "JKU-LINZ-AS",
+    "description" : "University Linz",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "140.78.0.0/16",
       "192.107.124.0/23",
       "193.186.172.0/22",
       "193.186.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:8d4::/48"
     ]
   }

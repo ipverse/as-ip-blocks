@@ -1,9 +1,12 @@
 {
-  "asn": 32890,
-  "handle": "BTC-AS-1",
-  "description": "Beehive Telephone Company Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32890,
+  "metadata" : {
+    "handle" : "BTC-AS-1",
+    "description" : "Beehive Telephone Company Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.78.194.0/23",
       "38.78.208.0/23",
       "38.78.216.0/21",
@@ -24,7 +27,7 @@
       "207.171.228.0/24",
       "216.163.110.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f1c8::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 37353,
-  "handle": "SEACOM-AS",
-  "description": "Seacom Western Cape (Pty) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37353,
+  "metadata" : {
+    "handle" : "SEACOM-AS",
+    "description" : "Seacom Western Cape (Pty) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.78.4.0/22",
       "41.222.224.0/22",
       "102.223.224.0/22",
@@ -14,7 +17,7 @@
       "196.11.152.0/21",
       "197.242.200.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f988::/32"
     ]
   }

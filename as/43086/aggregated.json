@@ -1,11 +1,14 @@
 {
-  "asn": 43086,
-  "handle": "KRRT-UA",
-  "description": "KRRT Concern",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43086,
+  "metadata" : {
+    "handle" : "KRRT-UA",
+    "description" : "KRRT Concern",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.200.219.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 15344,
-  "handle": "ASN15344-SLU",
-  "description": "Karib Cable",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15344,
+  "metadata" : {
+    "handle" : "ASN15344-SLU",
+    "description" : "Karib Cable",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.92.144.0/20",
       "65.48.170.0/23",
       "65.48.172.0/23",
@@ -45,7 +48,7 @@
       "209.59.110.0/24",
       "209.59.127.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:7c00::/28"
     ]
   }

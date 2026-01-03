@@ -1,9 +1,12 @@
 {
-  "asn": 44682,
-  "handle": "TFIBER",
-  "description": "SIL-MIRO COM SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44682,
+  "metadata" : {
+    "handle" : "TFIBER",
+    "description" : "SIL-MIRO COM SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.180.207.0/24",
       "81.181.241.0/24",
       "85.204.16.0/24",
@@ -26,7 +29,7 @@
       "188.241.36.0/23",
       "193.111.120.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:b680:10::/48"
     ]
   }

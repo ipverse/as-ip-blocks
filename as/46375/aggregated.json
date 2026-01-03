@@ -1,9 +1,12 @@
 {
-  "asn": 46375,
-  "handle": "AS-SONICTELECOM",
-  "description": "Sonic Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46375,
+  "metadata" : {
+    "handle" : "AS-SONICTELECOM",
+    "description" : "Sonic Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.93.0.0/16",
       "50.0.1.0/24",
       "50.0.2.0/24",
@@ -57,7 +60,7 @@
       "208.106.96.0/20",
       "209.148.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:5a8::/32",
       "2602:240::/28"
     ]

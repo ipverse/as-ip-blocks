@@ -1,11 +1,14 @@
 {
-  "asn": 30425,
-  "handle": "UTA-1",
-  "description": "Utah Transit Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30425,
+  "metadata" : {
+    "handle" : "UTA-1",
+    "description" : "Utah Transit Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.126.146.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 154161,
-  "handle": "LEECOMMUNICATION-AS-AP",
-  "description": "Lee Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 154161,
+  "metadata" : {
+    "handle" : "LEECOMMUNICATION-AS-AP",
+    "description" : "Lee Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.119.120.0/23",
       "202.94.165.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

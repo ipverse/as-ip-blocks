@@ -1,12 +1,15 @@
 {
-  "asn": 267478,
-  "handle": "GS-FIBRA",
-  "description": "GS FIBRA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267478,
+  "metadata" : {
+    "handle" : "GS-FIBRA",
+    "description" : "GS FIBRA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.191.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:421c::/32"
     ]
   }

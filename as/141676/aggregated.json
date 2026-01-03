@@ -1,13 +1,16 @@
 {
-  "asn": 141676,
-  "handle": "SJCTS-AS-AP",
-  "description": "St. Joseph Cable TV System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141676,
+  "metadata" : {
+    "handle" : "SJCTS-AS-AP",
+    "description" : "St. Joseph Cable TV System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.161.240.0/23",
       "143.20.186.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:d680::/48",
       "2400:78a0::/32"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 34534,
-  "handle": "BULLIONET",
-  "description": "FBW NETWORKS SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34534,
+  "metadata" : {
+    "handle" : "BULLIONET",
+    "description" : "FBW NETWORKS SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.44.238.0/23",
       "45.152.163.0/24",
       "185.142.53.0/24",
@@ -11,7 +14,7 @@
       "193.177.182.0/24",
       "213.5.130.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:ca00::/48"
     ]
   }

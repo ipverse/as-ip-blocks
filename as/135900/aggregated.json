@@ -1,12 +1,15 @@
 {
-  "asn": 135900,
-  "handle": "HNSDC-AS-VN",
-  "description": "State Data Center - Hanoi Department of Science and Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135900,
+  "metadata" : {
+    "handle" : "HNSDC-AS-VN",
+    "description" : "State Data Center - Hanoi Department of Science and Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.205.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:a980::/48"
     ]
   }

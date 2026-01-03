@@ -1,9 +1,12 @@
 {
-  "asn": 1257,
-  "handle": "SWIPNET",
-  "description": "Tele2 Sverige AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1257,
+  "metadata" : {
+    "handle" : "SWIPNET",
+    "description" : "Tele2 Sverige AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.240.0.0/14",
       "31.15.32.0/19",
       "37.0.128.0/17",
@@ -280,7 +283,7 @@
       "217.197.48.0/22",
       "217.197.54.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:240::/48",
       "2001:678:d5c::/48",
       "2001:678:edc::/48",

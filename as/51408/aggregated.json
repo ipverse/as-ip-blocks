@@ -1,10 +1,13 @@
 {
-  "asn": 51408,
-  "handle": "SIRIUS-AS",
-  "description": "OOO Sirius-Project",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 51408,
+  "metadata" : {
+    "handle" : "SIRIUS-AS",
+    "description" : "OOO Sirius-Project",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:67c:200c::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 12208,
-  "handle": "TRUVISTA",
-  "description": "TruVista Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12208,
+  "metadata" : {
+    "handle" : "TRUVISTA",
+    "description" : "TruVista Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.223.90.0/23",
       "24.223.92.0/23",
       "24.245.70.0/24",
@@ -76,7 +79,7 @@
       "207.144.246.0/24",
       "207.144.248.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:1900::/32"
     ]
   }

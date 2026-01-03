@@ -1,9 +1,12 @@
 {
-  "asn": 31770,
-  "handle": "CMMC-I2",
-  "description": "Ann \u0026 Robert H. Lurie Children\u0027s Hospital of Chicago",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31770,
+  "metadata" : {
+    "handle" : "CMMC-I2",
+    "description" : "Ann & Robert H. Lurie Children's Hospital of Chicago",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.206.211.0/24",
       "192.206.212.0/24",
       "199.125.16.0/23",
@@ -11,6 +14,6 @@
       "199.125.20.0/24",
       "199.125.30.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

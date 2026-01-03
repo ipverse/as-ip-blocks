@@ -1,12 +1,15 @@
 {
-  "asn": 134883,
-  "handle": "WSNS-AS",
-  "description": "Wsns Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134883,
+  "metadata" : {
+    "handle" : "WSNS-AS",
+    "description" : "Wsns Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.120.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:5cc0::/32"
     ]
   }

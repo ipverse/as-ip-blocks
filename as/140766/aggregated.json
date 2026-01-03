@@ -1,9 +1,12 @@
 {
-  "asn": 140766,
-  "handle": "FPTCLOUD-AS-VN",
-  "description": "FPT Smart Cloud Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140766,
+  "metadata" : {
+    "handle" : "FPTCLOUD-AS-VN",
+    "description" : "FPT Smart Cloud Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.239.24.0/22",
       "103.71.96.0/23",
       "103.145.78.0/23",
@@ -27,7 +30,7 @@
       "192.223.12.0/22",
       "203.29.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:440::/48",
       "2001:df1:4c0::/48",
       "2001:df1:13c0::/48",

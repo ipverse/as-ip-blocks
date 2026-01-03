@@ -1,9 +1,12 @@
 {
-  "asn": 13247,
-  "handle": "ERDENREICH",
-  "description": "Erdenreich Datentechnik GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13247,
+  "metadata" : {
+    "handle" : "ERDENREICH",
+    "description" : "Erdenreich Datentechnik GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.142.216.0/21",
       "95.128.248.0/21",
       "185.112.152.0/22",
@@ -11,7 +14,7 @@
       "194.169.222.0/24",
       "213.165.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:868::/34",
       "2a02:868:4000::/36",
       "2a02:868:8000::/35"

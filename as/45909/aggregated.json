@@ -1,13 +1,16 @@
 {
-  "asn": 45909,
-  "handle": "ERICSSON-APAC-MY-AS",
-  "description": "Ericsson Expertise Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45909,
+  "metadata" : {
+    "handle" : "ERICSSON-APAC-MY-AS",
+    "description" : "Ericsson Expertise Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.192.242.0/23",
       "130.100.173.0/24",
       "130.100.175.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

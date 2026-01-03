@@ -1,9 +1,12 @@
 {
-  "asn": 263466,
-  "handle": "MP-TELECOM",
-  "description": "M.P. TELECOM LTDA - EPP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263466,
+  "metadata" : {
+    "handle" : "MP-TELECOM",
+    "description" : "M.P. TELECOM LTDA - EPP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.192.96.0/24",
       "186.192.98.0/23",
       "186.192.100.0/24",
@@ -12,7 +15,7 @@
       "186.192.112.0/20",
       "191.242.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:c88::/32",
       "2804:1244::/32"
     ]

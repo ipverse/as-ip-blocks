@@ -1,12 +1,15 @@
 {
-  "asn": 207925,
-  "handle": "SQUIRREL-HQ",
-  "description": "Squirrel Internet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207925,
+  "metadata" : {
+    "handle" : "SQUIRREL-HQ",
+    "description" : "Squirrel Internet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.143.226.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:8700::/32",
       "2a10:8703::/32"
     ]

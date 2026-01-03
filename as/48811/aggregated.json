@@ -1,12 +1,15 @@
 {
-  "asn": 48811,
-  "handle": "ATILIM-AS",
-  "description": "Atilim Universitesi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48811,
+  "metadata" : {
+    "handle" : "ATILIM-AS",
+    "description" : "Atilim Universitesi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.255.70.0/23",
       "193.255.72.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

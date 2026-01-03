@@ -1,12 +1,15 @@
 {
-  "asn": 267389,
-  "handle": "5GNET-INTERNET",
-  "description": "5GNET INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267389,
+  "metadata" : {
+    "handle" : "5GNET-INTERNET",
+    "description" : "5GNET INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.234.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4cc0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 18278,
-  "handle": "CC9N",
-  "description": "Cable TV Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18278,
+  "metadata" : {
+    "handle" : "CC9N",
+    "description" : "Cable TV Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.92.228.0/22",
       "118.82.48.0/20",
       "123.0.64.0/18",
@@ -13,7 +16,7 @@
       "210.251.176.0/20",
       "219.100.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:a300::/32"
     ]
   }

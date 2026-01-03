@@ -1,9 +1,12 @@
 {
-  "asn": 42673,
-  "handle": "SKYWARE-AS",
-  "description": "Skyware Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42673,
+  "metadata" : {
+    "handle" : "SKYWARE-AS",
+    "description" : "Skyware Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.150.160.0/20",
       "91.150.176.0/21",
       "91.150.184.0/23",
@@ -15,7 +18,7 @@
       "185.80.34.0/24",
       "195.248.246.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:4a40:100::/48",
       "2a05:7100::/29"
     ]

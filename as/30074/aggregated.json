@@ -1,12 +1,15 @@
 {
-  "asn": 30074,
-  "handle": "WIFIBER-NETWORK-01",
-  "description": "WiFiber Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30074,
+  "metadata" : {
+    "handle" : "WIFIBER-NETWORK-01",
+    "description" : "WiFiber Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.149.144.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:9140::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 21310,
-  "handle": "ASN-SATELLITE",
-  "description": "Satellite Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21310,
+  "metadata" : {
+    "handle" : "ASN-SATELLITE",
+    "description" : "Satellite Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.255.176.0/20",
       "46.39.64.0/19",
       "87.244.128.0/18",
@@ -11,7 +14,7 @@
       "193.109.248.0/23",
       "193.189.126.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:a300::/32"
     ]
   }

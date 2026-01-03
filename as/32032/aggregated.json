@@ -1,13 +1,16 @@
 {
-  "asn": 32032,
-  "handle": "ORGILL-AS",
-  "description": "Orgill Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32032,
+  "metadata" : {
+    "handle" : "ORGILL-AS",
+    "description" : "Orgill Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.254.143.0/24",
       "208.88.36.0/24",
       "208.88.39.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

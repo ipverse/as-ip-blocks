@@ -1,11 +1,14 @@
 {
-  "asn": 140993,
-  "handle": "BEACONLINK-AS-AP",
-  "description": "Beacon Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140993,
+  "metadata" : {
+    "handle" : "BEACONLINK-AS-AP",
+    "description" : "Beacon Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.154.156.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

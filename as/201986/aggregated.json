@@ -1,9 +1,12 @@
 {
-  "asn": 201986,
-  "handle": "ARPINET",
-  "description": "Arpinet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201986,
+  "metadata" : {
+    "handle" : "ARPINET",
+    "description" : "Arpinet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.153.212.0/22",
       "109.68.127.0/24",
       "178.219.56.0/21",
@@ -11,7 +14,7 @@
       "185.150.164.0/22",
       "194.61.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5960::/32"
     ]
   }

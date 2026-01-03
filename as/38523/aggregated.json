@@ -1,14 +1,17 @@
 {
-  "asn": 38523,
-  "handle": "SISNET-ID",
-  "description": "PT. SRIWIJAYA INTERNET SERVICES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38523,
+  "metadata" : {
+    "handle" : "SISNET-ID",
+    "description" : "PT. SRIWIJAYA INTERNET SERVICES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "117.74.112.0/22",
       "117.74.116.0/23",
       "117.74.118.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:2c40::/46",
       "2401:2c40:4::/47"
     ]

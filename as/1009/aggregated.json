@@ -1,13 +1,16 @@
 {
-  "asn": 1009,
-  "handle": "GOV-ISP-PAFB",
-  "description": "Air Force Technical Applications Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1009,
+  "metadata" : {
+    "handle" : "GOV-ISP-PAFB",
+    "description" : "Air Force Technical Applications Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.47.64.0/20",
       "198.47.80.0/21",
       "198.47.88.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 137035,
-  "handle": "PWCS-AS-AP",
-  "description": "Parallel Web Cloud Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137035,
+  "metadata" : {
+    "handle" : "PWCS-AS-AP",
+    "description" : "Parallel Web Cloud Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.102.234.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:e900::/48"
     ]
   }

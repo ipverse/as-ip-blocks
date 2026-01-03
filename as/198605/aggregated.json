@@ -1,9 +1,12 @@
 {
-  "asn": 198605,
-  "handle": "AVAST-AS-DC",
-  "description": "AVAST Software s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198605,
+  "metadata" : {
+    "handle" : "AVAST-AS-DC",
+    "description" : "AVAST Software s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.45.58.0/23",
       "5.45.63.0/24",
       "5.62.17.0/24",
@@ -27,7 +30,7 @@
       "185.189.94.0/23",
       "195.74.76.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:284::/48",
       "2a0b:e181::/40",
       "2a0b:e181:400::/39",

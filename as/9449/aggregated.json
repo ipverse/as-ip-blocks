@@ -1,16 +1,19 @@
 {
-  "asn": 9449,
-  "handle": "QLDVOIP-AU",
-  "description": "QLD VoIP Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9449,
+  "metadata" : {
+    "handle" : "QLDVOIP-AU",
+    "description" : "QLD VoIP Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.136.124.0/24",
       "103.160.116.0/23",
       "203.4.168.0/24",
       "203.4.170.0/23",
       "203.28.181.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:e940::/48",
       "2406:e940:4680::/48"
     ]

@@ -1,14 +1,17 @@
 {
-  "asn": 15096,
-  "handle": "SONN",
-  "description": "Steven Noble",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15096,
+  "metadata" : {
+    "handle" : "SONN",
+    "description" : "Steven Noble",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.24.27.0/24",
       "193.72.216.0/24",
       "204.99.132.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470:113::/48",
       "2a07:e480:200::/48"
     ]

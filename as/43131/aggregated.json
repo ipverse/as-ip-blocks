@@ -1,12 +1,15 @@
 {
-  "asn": 43131,
-  "handle": "KAY-NET",
-  "description": "Kay Net (UK) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43131,
+  "metadata" : {
+    "handle" : "KAY-NET",
+    "description" : "Kay Net (UK) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.161.226.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:e842::/44"
     ]
   }

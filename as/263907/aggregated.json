@@ -1,12 +1,15 @@
 {
-  "asn": 263907,
-  "handle": "SOFTWAY-FIBRA",
-  "description": "Softway Fibra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263907,
+  "metadata" : {
+    "handle" : "SOFTWAY-FIBRA",
+    "description" : "Softway Fibra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.204.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2788::/32"
     ]
   }

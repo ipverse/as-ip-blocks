@@ -1,9 +1,12 @@
 {
-  "asn": 20686,
-  "handle": "BISPING",
-  "description": "Bisping \u0026 Bisping GmbH \u0026 Co KG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20686,
+  "metadata" : {
+    "handle" : "BISPING",
+    "description" : "Bisping & Bisping GmbH & Co KG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.91.0.0/16",
       "80.85.0.0/20",
       "130.193.7.0/24",
@@ -17,7 +20,7 @@
       "212.86.128.0/19",
       "217.30.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2b30::/48",
       "2a03:e880::/29"
     ]

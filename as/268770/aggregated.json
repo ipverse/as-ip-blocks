@@ -1,12 +1,15 @@
 {
-  "asn": 268770,
-  "handle": "PORTAL-TIMON",
-  "description": "PORTAL TIMON",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268770,
+  "metadata" : {
+    "handle" : "PORTAL-TIMON",
+    "description" : "PORTAL TIMON",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.172.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5a64::/32"
     ]
   }

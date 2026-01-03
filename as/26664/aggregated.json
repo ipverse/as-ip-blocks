@@ -1,9 +1,12 @@
 {
-  "asn": 26664,
-  "handle": "BECU",
-  "description": "BECU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26664,
+  "metadata" : {
+    "handle" : "BECU",
+    "description" : "BECU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.147.206.0/24",
       "70.98.183.0/24",
       "128.177.111.0/24",
@@ -11,6 +14,6 @@
       "208.184.4.0/24",
       "209.63.234.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

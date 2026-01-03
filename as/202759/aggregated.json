@@ -1,9 +1,12 @@
 {
-  "asn": 202759,
-  "handle": "FAIRYHOSTING",
-  "description": "RJ Network OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202759,
+  "metadata" : {
+    "handle" : "FAIRYHOSTING",
+    "description" : "RJ Network OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.253.176.0/22",
       "45.151.72.0/24",
       "83.172.139.0/24",
@@ -24,7 +27,7 @@
       "213.111.189.0/24",
       "213.111.190.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:f80:372::/48",
       "2a07:9280::/29",
       "2a09:5840::/29"

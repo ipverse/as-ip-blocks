@@ -1,13 +1,16 @@
 {
-  "asn": 33230,
-  "handle": "AS-CROSS",
-  "description": "Cross Country TV Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33230,
+  "metadata" : {
+    "handle" : "AS-CROSS",
+    "description" : "Cross Country TV Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.53.80.0/20",
       "162.219.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:9380::/32"
     ]
   }

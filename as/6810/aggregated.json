@@ -1,9 +1,12 @@
 {
-  "asn": 6810,
-  "handle": "BEZEK",
-  "description": "Bezeq- THE ISRAEL TELECOMMUNICATION CORP. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6810,
+  "metadata" : {
+    "handle" : "BEZEK",
+    "description" : "Bezeq- THE ISRAEL TELECOMMUNICATION CORP. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.177.128.0/19",
       "79.177.160.0/21",
       "79.177.168.0/22",
@@ -55,7 +58,7 @@
       "149.106.128.0/19",
       "149.106.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:c700:2000::/36",
       "2a06:c701::/33",
       "2a06:c701:8000::/34",

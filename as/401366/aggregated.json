@@ -1,13 +1,16 @@
 {
-  "asn": 401366,
-  "handle": "VOX-FLOW",
-  "description": "Vox Flow LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401366,
+  "metadata" : {
+    "handle" : "VOX-FLOW",
+    "description" : "Vox Flow LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.202.75.0/24",
       "45.207.46.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:ce:2000::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 46799,
-  "handle": "SOSASN1",
-  "description": "SOS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46799,
+  "metadata" : {
+    "handle" : "SOSASN1",
+    "description" : "SOS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.94.237.0/24",
       "204.245.27.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

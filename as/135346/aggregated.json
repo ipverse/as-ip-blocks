@@ -1,12 +1,15 @@
 {
-  "asn": 135346,
-  "handle": "BTS-AS-AP",
-  "description": "Bismillah Telecom Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135346,
+  "metadata" : {
+    "handle" : "BTS-AS-AP",
+    "description" : "Bismillah Telecom Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.109.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:7e40::/32"
     ]
   }

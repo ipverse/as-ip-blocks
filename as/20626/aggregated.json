@@ -1,9 +1,12 @@
 {
-  "asn": 20626,
-  "handle": "SANDNET",
-  "description": "Sandviken Energi AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20626,
+  "metadata" : {
+    "handle" : "SANDNET",
+    "description" : "Sandviken Energi AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.168.128.0/19",
       "83.216.96.0/19",
       "185.75.40.0/22",
@@ -11,7 +14,7 @@
       "193.183.240.0/21",
       "193.235.236.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2524::/48",
       "2001:b58::/29"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 12696,
-  "handle": "AXA-TECH",
-  "description": "AXA Technology Services France GIE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12696,
+  "metadata" : {
+    "handle" : "AXA-TECH",
+    "description" : "AXA Technology Services France GIE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.156.6.0/23",
       "171.18.0.0/20",
       "171.18.16.0/21",
@@ -22,6 +25,6 @@
       "195.189.220.0/24",
       "212.155.238.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

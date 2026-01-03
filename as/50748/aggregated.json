@@ -1,11 +1,14 @@
 {
-  "asn": 50748,
-  "handle": "KM-CORP-AS",
-  "description": "KMC Ukraine AC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50748,
+  "metadata" : {
+    "handle" : "KM-CORP-AS",
+    "description" : "KMC Ukraine AC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.105.216.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

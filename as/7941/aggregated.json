@@ -1,13 +1,16 @@
 {
-  "asn": 7941,
-  "handle": "INTERNET-ARCHIVE",
-  "description": "Internet Archive",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7941,
+  "metadata" : {
+    "handle" : "INTERNET-ARCHIVE",
+    "description" : "Internet Archive",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.241.224.0/20",
       "208.70.24.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:9c0::/48"
     ]
   }

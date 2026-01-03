@@ -1,9 +1,12 @@
 {
-  "asn": 23888,
-  "handle": "NTC-AS-AP",
-  "description": "National Telecommunication Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23888,
+  "metadata" : {
+    "handle" : "NTC-AS-AP",
+    "description" : "National Telecommunication Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.250.84.0/22",
       "103.253.156.0/22",
       "113.197.48.0/21",
@@ -15,7 +18,7 @@
       "175.107.48.0/20",
       "202.83.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:9e00::/46",
       "2407:9e00:4::/47",
       "2407:9e00:10::/46",

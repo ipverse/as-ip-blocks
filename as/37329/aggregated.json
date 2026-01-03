@@ -1,15 +1,18 @@
 {
-  "asn": 37329,
-  "handle": "FRAMPOL",
-  "description": "Frampol Investments",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37329,
+  "metadata" : {
+    "handle" : "FRAMPOL",
+    "description" : "Frampol Investments",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.79.28.0/22",
       "102.207.50.0/23",
       "102.218.12.0/22",
       "169.239.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fd48::/32"
     ]
   }

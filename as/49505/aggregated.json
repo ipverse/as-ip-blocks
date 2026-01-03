@@ -1,9 +1,12 @@
 {
-  "asn": 49505,
-  "handle": "SELECTEL",
-  "description": "JSC Selectel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49505,
+  "metadata" : {
+    "handle" : "SELECTEL",
+    "description" : "JSC Selectel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.138.0/24",
       "2.59.49.0/24",
       "5.8.72.0/21",
@@ -419,7 +422,7 @@
       "217.8.117.0/24",
       "217.150.205.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ab00::/32",
       "2a0e:c380::/29",
       "2a0f:e7c2::/32",

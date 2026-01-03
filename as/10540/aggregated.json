@@ -1,9 +1,12 @@
 {
-  "asn": 10540,
-  "handle": "INFODOOR",
-  "description": "InfoDOOR Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10540,
+  "metadata" : {
+    "handle" : "INFODOOR",
+    "description" : "InfoDOOR Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.106.124.0/22",
       "86.106.128.0/24",
       "93.113.134.0/23",
@@ -12,6 +15,6 @@
       "93.115.54.0/23",
       "93.115.208.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

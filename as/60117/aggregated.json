@@ -1,9 +1,12 @@
 {
-  "asn": 60117,
-  "handle": "HS",
-  "description": "Host Sailor Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60117,
+  "metadata" : {
+    "handle" : "HS",
+    "description" : "Host Sailor Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.95.42.0/23",
       "91.204.76.0/24",
       "185.45.192.0/22",
@@ -27,7 +30,7 @@
       "194.36.190.0/23",
       "212.8.251.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:660::/32",
       "2a04:dd00::/31",
       "2a04:dd02::/32",

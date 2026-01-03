@@ -1,12 +1,15 @@
 {
-  "asn": 55845,
-  "handle": "TRADEWEB-AS-AP",
-  "description": "Tradeweb Australia Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55845,
+  "metadata" : {
+    "handle" : "TRADEWEB-AS-AP",
+    "description" : "Tradeweb Australia Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.232.31.0/24",
       "202.74.32.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

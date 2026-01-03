@@ -1,9 +1,12 @@
 {
-  "asn": 267876,
-  "handle": "RAMIREZ-CABLE-VISION",
-  "description": "RAMIREZ CABLE VISION SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267876,
+  "metadata" : {
+    "handle" : "RAMIREZ-CABLE-VISION",
+    "description" : "RAMIREZ CABLE VISION SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.178.8.0/22",
       "179.62.222.0/23",
       "190.103.231.0/24",
@@ -11,6 +14,6 @@
       "190.185.192.0/23",
       "190.185.227.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 52507,
-  "handle": "PAMPACOM",
-  "description": "Pampacom S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52507,
+  "metadata" : {
+    "handle" : "PAMPACOM",
+    "description" : "Pampacom S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.210.60.0/24",
       "45.230.60.0/22",
       "168.197.251.0/24",
       "170.84.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:bb40::/32"
     ]
   }

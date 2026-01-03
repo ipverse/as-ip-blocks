@@ -1,9 +1,12 @@
 {
-  "asn": 12357,
-  "handle": "COMUNITEL",
-  "description": "VODAFONE ESPANA S.A.U",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12357,
+  "metadata" : {
+    "handle" : "COMUNITEL",
+    "description" : "VODAFONE ESPANA S.A.U.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.15.48.0/22",
       "45.148.32.0/22",
       "89.140.23.0/24",
@@ -16,6 +19,6 @@
       "193.150.91.0/24",
       "212.102.108.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 135175,
-  "handle": "FACTS-AS-IN",
-  "description": "Facts Online Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135175,
+  "metadata" : {
+    "handle" : "FACTS-AS-IN",
+    "description" : "Facts Online Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.61.224.0/23",
       "103.77.154.0/23",
       "103.155.84.0/23",
@@ -16,6 +19,6 @@
       "154.61.76.0/23",
       "154.61.80.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

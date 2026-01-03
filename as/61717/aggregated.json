@@ -1,14 +1,17 @@
 {
-  "asn": 61717,
-  "handle": "NETTRI-TELECOM",
-  "description": "NetTri Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61717,
+  "metadata" : {
+    "handle" : "NETTRI-TELECOM",
+    "description" : "NetTri Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.71.144.0/22",
       "131.72.4.0/22",
       "170.233.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1b44::/32"
     ]
   }

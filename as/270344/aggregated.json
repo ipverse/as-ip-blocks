@@ -1,12 +1,15 @@
 {
-  "asn": 270344,
-  "handle": "GA-TELECOM",
-  "description": "GA Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270344,
+  "metadata" : {
+    "handle" : "GA-TELECOM",
+    "description" : "GA Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "189.126.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6a90::/32"
     ]
   }

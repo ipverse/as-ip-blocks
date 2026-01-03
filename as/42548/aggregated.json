@@ -1,9 +1,12 @@
 {
-  "asn": 42548,
-  "handle": "KCHR-AS",
-  "description": "PJSC Rostelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42548,
+  "metadata" : {
+    "handle" : "KCHR-AS",
+    "description" : "PJSC Rostelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.183.76.0/22",
       "83.239.112.0/20",
       "85.172.182.0/24",
@@ -20,6 +23,6 @@
       "85.173.188.0/23",
       "178.34.224.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

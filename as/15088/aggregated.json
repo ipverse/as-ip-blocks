@@ -1,12 +1,15 @@
 {
-  "asn": 15088,
-  "handle": "FNG",
-  "description": "First Network Group Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15088,
+  "metadata" : {
+    "handle" : "FNG",
+    "description" : "First Network Group Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.115.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:2e50::/44"
     ]
   }

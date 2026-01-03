@@ -1,9 +1,12 @@
 {
-  "asn": 4765,
-  "handle": "PACIFICINTERNET-AS-AP",
-  "description": "PACIFIC INTERNET (S) PTE. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4765,
+  "metadata" : {
+    "handle" : "PACIFICINTERNET-AS-AP",
+    "description" : "PACIFIC INTERNET (S) PTE. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.47.1.0/24",
       "61.47.2.0/24",
       "61.47.6.0/23",
@@ -100,7 +103,7 @@
       "221.128.122.0/24",
       "221.128.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:1701::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 43384,
-  "handle": "ONAT-AS",
-  "description": "State University of Intelligent Technologies and Telecommunications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43384,
+  "metadata" : {
+    "handle" : "ONAT-AS",
+    "description" : "State University of Intelligent Technologies and Telecommunications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.105.164.0/24",
       "193.186.15.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1324::/48"
     ]
   }

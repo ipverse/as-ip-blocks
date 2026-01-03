@@ -1,12 +1,15 @@
 {
-  "asn": 198423,
-  "handle": "RESOLV-AS",
-  "description": "RESOLV Sarl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198423,
+  "metadata" : {
+    "handle" : "RESOLV-AS",
+    "description" : "RESOLV Sarl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.41.216.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:a64::/48"
     ]
   }

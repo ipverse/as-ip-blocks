@@ -1,14 +1,17 @@
 {
-  "asn": 54326,
-  "handle": "MNIS1782",
-  "description": "McCookNet Internet Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54326,
+  "metadata" : {
+    "handle" : "MNIS1782",
+    "description" : "McCookNet Internet Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.10.0.0/21",
       "69.10.10.0/23",
       "69.10.12.0/22",
       "199.48.108.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

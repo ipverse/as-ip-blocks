@@ -1,14 +1,17 @@
 {
-  "asn": 43097,
-  "handle": "WEBRA",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43097,
+  "metadata" : {
+    "handle" : "WEBRA",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.92.64.0/24",
       "93.92.66.0/24",
       "93.92.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:258::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 797,
-  "handle": "AMERITECH-AS",
-  "description": "AT\u0026T Services Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 797,
+  "metadata" : {
+    "handle" : "AMERITECH-AS",
+    "description" : "AT&T Services Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.153.241.0/24",
       "67.98.173.0/24",
       "135.209.64.0/18",
@@ -28,6 +31,6 @@
       "198.180.219.0/24",
       "204.107.19.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

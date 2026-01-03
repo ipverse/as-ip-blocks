@@ -1,9 +1,12 @@
 {
-  "asn": 22215,
-  "handle": "BHSU",
-  "description": "Black Hills State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22215,
+  "metadata" : {
+    "handle" : "BHSU",
+    "description" : "Black Hills State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.177.154.0/24",
       "204.52.252.0/24",
       "206.176.19.0/24",
@@ -11,6 +14,6 @@
       "206.176.42.0/24",
       "206.176.44.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

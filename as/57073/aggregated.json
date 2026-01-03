@@ -1,9 +1,12 @@
 {
-  "asn": 57073,
-  "handle": "WILDBERRIES-AS",
-  "description": "LLC Wildberries",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57073,
+  "metadata" : {
+    "handle" : "WILDBERRIES-AS",
+    "description" : "LLC Wildberries",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.198.76.0/22",
       "91.230.107.0/24",
       "185.62.200.0/23",
@@ -13,7 +16,7 @@
       "213.184.155.0/24",
       "213.184.156.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:720::/32"
     ]
   }

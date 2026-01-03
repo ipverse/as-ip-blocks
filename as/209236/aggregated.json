@@ -1,9 +1,12 @@
 {
-  "asn": 209236,
-  "handle": "HCLTECHNOLOGIES-SE",
-  "description": "HCL Technologies Sweden AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209236,
+  "metadata" : {
+    "handle" : "HCLTECHNOLOGIES-SE",
+    "description" : "HCL Technologies Sweden AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.102.144.0/23",
       "170.102.192.0/23",
       "170.102.195.0/24",
@@ -11,6 +14,6 @@
       "193.221.47.0/24",
       "193.221.53.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

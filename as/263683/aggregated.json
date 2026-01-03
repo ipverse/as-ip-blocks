@@ -1,9 +1,12 @@
 {
-  "asn": 263683,
-  "handle": "UNIVERSIDAD-COSTA-RICA",
-  "description": "Universidad de Costa Rica",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263683,
+  "metadata" : {
+    "handle" : "UNIVERSIDAD-COSTA-RICA",
+    "description" : "Universidad de Costa Rica",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.178.8.0/24",
       "163.178.16.0/22",
       "163.178.48.0/20",
@@ -24,7 +27,7 @@
       "163.178.208.0/20",
       "163.178.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:15:8001::/48",
       "2801:15:8002::/47",
       "2801:15:8004::/46",

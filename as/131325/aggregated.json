@@ -1,9 +1,12 @@
 {
-  "asn": 131325,
-  "handle": "CHINATELECOM-JIANGSU-NANTONG-MAN",
-  "description": "CHINATELECOM JIANGSU province NANTONG MAN network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131325,
+  "metadata" : {
+    "handle" : "CHINATELECOM-JIANGSU-NANTONG-MAN",
+    "description" : "CHINATELECOM JIANGSU province NANTONG MAN network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.113.24.0/22",
       "49.67.72.0/22",
       "49.67.76.0/24",
@@ -43,7 +46,7 @@
       "218.91.237.0/24",
       "221.227.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:1a:70::/44",
       "240e:108:47::/48",
       "240e:108:11d4::/48",

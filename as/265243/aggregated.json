@@ -1,12 +1,15 @@
 {
-  "asn": 265243,
-  "handle": "MEGANET-INTERNET-SJ",
-  "description": "Meganet Internet SJ",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265243,
+  "metadata" : {
+    "handle" : "MEGANET-INTERNET-SJ",
+    "description" : "Meganet Internet SJ",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.0.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2cc8::/32"
     ]
   }

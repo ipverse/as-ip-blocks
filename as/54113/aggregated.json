@@ -1,9 +1,12 @@
 {
-  "asn": 54113,
-  "handle": "FASTLY",
-  "description": "Fastly Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54113,
+  "metadata" : {
+    "handle" : "FASTLY",
+    "description" : "Fastly Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.154.64.0/24",
       "23.185.0.0/24",
       "23.235.32.0/23",
@@ -109,7 +112,7 @@
       "199.232.0.0/16",
       "209.102.206.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:45f::/48",
       "2001:df0:461::/48",
       "2001:df0:462::/48",

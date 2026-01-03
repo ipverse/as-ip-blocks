@@ -1,14 +1,17 @@
 {
-  "asn": 209924,
-  "handle": "MLBLTD-AS",
-  "description": "MLB Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209924,
+  "metadata" : {
+    "handle" : "MLBLTD-AS",
+    "description" : "MLB Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.222.52.0/23",
       "31.222.54.0/24",
       "93.191.194.0/23",
       "93.191.197.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

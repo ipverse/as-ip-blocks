@@ -1,9 +1,12 @@
 {
-  "asn": 3933,
-  "handle": "OPEN",
-  "description": "Oregon Public Education Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3933,
+  "metadata" : {
+    "handle" : "OPEN",
+    "description" : "Oregon Public Education Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.236.128.0/19",
       "198.237.53.0/24",
       "198.237.54.0/23",
@@ -14,6 +17,6 @@
       "198.237.204.0/22",
       "198.237.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

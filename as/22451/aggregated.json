@@ -1,12 +1,15 @@
 {
-  "asn": 22451,
-  "handle": "HRH",
-  "description": "Halifax Regional Hospital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22451,
+  "metadata" : {
+    "handle" : "HRH",
+    "description" : "Halifax Regional Hospital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.254.176.0/24",
       "65.254.186.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

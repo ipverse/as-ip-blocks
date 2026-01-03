@@ -1,9 +1,12 @@
 {
-  "asn": 17787,
-  "handle": "PSEB-AS-PK",
-  "description": "Pakistan Software Export Board",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17787,
+  "metadata" : {
+    "handle" : "PSEB-AS-PK",
+    "description" : "Pakistan Software Export Board",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.215.160.0/22",
       "203.215.164.0/24",
       "203.215.166.0/24",
@@ -16,6 +19,6 @@
       "203.215.182.0/23",
       "203.215.186.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

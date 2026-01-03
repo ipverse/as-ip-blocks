@@ -1,9 +1,12 @@
 {
-  "asn": 213373,
-  "handle": "IPCONNECT",
-  "description": "IP Connect Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213373,
+  "metadata" : {
+    "handle" : "IPCONNECT",
+    "description" : "IP Connect Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.10.0/24",
       "5.178.0.0/24",
       "45.141.56.0/24",
@@ -16,7 +19,7 @@
       "164.215.98.0/24",
       "164.215.103.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:5fc0::/31"
     ]
   }

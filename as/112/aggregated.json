@@ -1,13 +1,16 @@
 {
-  "asn": 112,
-  "handle": "AS112-PROJECT",
-  "description": "DNS-OARC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 112,
+  "metadata" : {
+    "handle" : "AS112-PROJECT",
+    "description" : "DNS-OARC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.31.196.0/24",
       "192.175.48.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4:112::/48",
       "2620:4f:8000::/48"
     ]

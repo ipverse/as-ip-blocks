@@ -1,9 +1,12 @@
 {
-  "asn": 42132,
-  "handle": "RADIONET-AS",
-  "description": "Digit One LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42132,
+  "metadata" : {
+    "handle" : "RADIONET-AS",
+    "description" : "Digit One LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.247.128.0/20",
       "78.24.24.0/21",
       "79.134.64.0/20",
@@ -31,6 +34,6 @@
       "213.167.60.0/24",
       "217.170.219.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

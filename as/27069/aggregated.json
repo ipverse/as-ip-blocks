@@ -1,9 +1,12 @@
 {
-  "asn": 27069,
-  "handle": "DNIC-ASBLK-27032-27159",
-  "description": "United States Department of Defense (DoD)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27069,
+  "metadata" : {
+    "handle" : "DNIC-ASBLK-27032-27159",
+    "description" : "United States Department of Defense (DoD)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.236.132.0/24",
       "164.236.161.0/24",
       "164.236.165.0/24",
@@ -20,6 +23,6 @@
       "164.236.253.0/24",
       "214.4.160.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

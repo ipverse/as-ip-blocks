@@ -1,9 +1,12 @@
 {
-  "asn": 8247,
-  "handle": "CALLTRADE-ZURICH",
-  "description": "Intellico AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8247,
+  "metadata" : {
+    "handle" : "CALLTRADE-ZURICH",
+    "description" : "Intellico AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.232.131.0/24",
       "213.232.132.0/22",
       "213.232.150.0/24",
@@ -12,6 +15,6 @@
       "213.232.180.0/22",
       "213.232.190.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

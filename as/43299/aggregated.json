@@ -1,12 +1,15 @@
 {
-  "asn": 43299,
-  "handle": "TELECONTACT-AS",
-  "description": "Limited Company Telecontact",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43299,
+  "metadata" : {
+    "handle" : "TELECONTACT-AS",
+    "description" : "Limited Company Telecontact",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.40.24.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:e740::/29"
     ]
   }

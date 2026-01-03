@@ -1,12 +1,15 @@
 {
-  "asn": 150125,
-  "handle": "MIE-AS-AP",
-  "description": "Maldives internet exchange",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150125,
+  "metadata" : {
+    "handle" : "MIE-AS-AP",
+    "description" : "Maldives internet exchange",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.191.77.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:5540::/48"
     ]
   }

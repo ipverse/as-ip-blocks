@@ -1,12 +1,15 @@
 {
-  "asn": 204467,
-  "handle": "AIRSTREAM-AS",
-  "description": "AIRSTREAM SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204467,
+  "metadata" : {
+    "handle" : "AIRSTREAM-AS",
+    "description" : "AIRSTREAM SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.247.156.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6dc0::/32",
       "2a0d:c680::/29"
     ]

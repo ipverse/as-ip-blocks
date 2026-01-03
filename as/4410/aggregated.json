@@ -1,9 +1,12 @@
 {
-  "asn": 4410,
-  "handle": "CREDITSUISSEGROUP-AS",
-  "description": "Credit Suisse Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4410,
+  "metadata" : {
+    "handle" : "CREDITSUISSEGROUP-AS",
+    "description" : "Credit Suisse Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.147.160.0/24",
       "198.240.133.0/24",
       "198.240.135.0/24",
@@ -11,7 +14,7 @@
       "198.240.144.0/24",
       "199.53.27.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:6a0:4ffe::/47"
     ]
   }

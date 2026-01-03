@@ -1,12 +1,15 @@
 {
-  "asn": 328461,
-  "handle": "MOSSNET-AS",
-  "description": "Mossnet cc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328461,
+  "metadata" : {
+    "handle" : "MOSSNET-AS",
+    "description" : "Mossnet cc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.68.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:ed40::/32"
     ]
   }

@@ -1,10 +1,13 @@
 {
-  "asn": 58093,
-  "handle": "COREIT-SERVICES-AS",
-  "description": "coreIT.pl",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 58093,
+  "metadata" : {
+    "handle" : "COREIT-SERVICES-AS",
+    "description" : "coreIT.pl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0f:9400:7330::/44",
       "2a0f:9400:800d::/48"
     ]

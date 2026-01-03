@@ -1,14 +1,17 @@
 {
-  "asn": 24546,
-  "handle": "GLOBAL-BP-AS-AP",
-  "description": "BP Singapore Pte. Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24546,
+  "metadata" : {
+    "handle" : "GLOBAL-BP-AS-AP",
+    "description" : "BP Singapore Pte. Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.230.177.0/24",
       "164.63.200.0/23",
       "164.63.206.0/23",
       "164.63.239.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

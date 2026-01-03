@@ -1,15 +1,18 @@
 {
-  "asn": 43892,
-  "handle": "BASIS-AS",
-  "description": "Sensa ehf",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43892,
+  "metadata" : {
+    "handle" : "BASIS-AS",
+    "description" : "Sensa ehf",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.171.96.0/21",
       "185.62.60.0/22",
       "185.67.180.0/22",
       "185.130.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:3c8::/32",
       "2a06:d700::/29"
     ]

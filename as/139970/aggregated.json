@@ -1,12 +1,15 @@
 {
-  "asn": 139970,
-  "handle": "KEJORA-ID",
-  "description": "Batam Internet Exchange",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139970,
+  "metadata" : {
+    "handle" : "KEJORA-ID",
+    "description" : "Batam Internet Exchange",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.147.53.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:aac0:222::/48"
     ]
   }

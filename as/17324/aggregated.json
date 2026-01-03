@@ -1,12 +1,15 @@
 {
-  "asn": 17324,
-  "handle": "ALNET",
-  "description": "Yeshiva University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17324,
+  "metadata" : {
+    "handle" : "ALNET",
+    "description" : "Yeshiva University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.98.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:14d::/36"
     ]
   }

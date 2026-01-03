@@ -1,12 +1,15 @@
 {
-  "asn": 400498,
-  "handle": "BPLLC-AS-01",
-  "description": "Brad Peabody LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400498,
+  "metadata" : {
+    "handle" : "BPLLC-AS-01",
+    "description" : "Brad Peabody LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.132.216.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fbbc::/46"
     ]
   }

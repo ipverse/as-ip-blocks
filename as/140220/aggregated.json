@@ -1,9 +1,12 @@
 {
-  "asn": 140220,
-  "handle": "SKYTELEVISION-AS-AP",
-  "description": "Sky Network Television Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140220,
+  "metadata" : {
+    "handle" : "SKYTELEVISION-AS-AP",
+    "description" : "Sky Network Television Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "60.234.7.0/24",
       "60.234.10.0/23",
       "60.234.12.0/22",
@@ -45,7 +48,7 @@
       "161.65.208.0/20",
       "202.127.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:da40::/32"
     ]
   }

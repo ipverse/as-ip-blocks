@@ -1,13 +1,16 @@
 {
-  "asn": 11446,
-  "handle": "LAKELAND-AS",
-  "description": "Lakeland Community College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11446,
+  "metadata" : {
+    "handle" : "LAKELAND-AS",
+    "description" : "Lakeland Community College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.30.228.0/23",
       "198.30.230.0/24",
       "208.68.192.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 50910,
-  "handle": "MAINSTREAM-BIRM1-AS",
-  "description": "Mainstream Digital Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50910,
+  "metadata" : {
+    "handle" : "MAINSTREAM-BIRM1-AS",
+    "description" : "Mainstream Digital Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.85.213.0/24",
       "80.85.214.0/23",
       "80.85.216.0/22",
@@ -14,6 +17,6 @@
       "109.232.156.0/23",
       "109.232.159.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

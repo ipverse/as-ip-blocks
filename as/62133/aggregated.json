@@ -1,12 +1,15 @@
 {
-  "asn": 62133,
-  "handle": "RANHIGS-AS",
-  "description": "RANHiGS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62133,
+  "metadata" : {
+    "handle" : "RANHIGS-AS",
+    "description" : "RANHiGS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.143.64.0/22",
       "85.30.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

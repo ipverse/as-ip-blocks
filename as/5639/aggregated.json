@@ -1,9 +1,12 @@
 {
-  "asn": 5639,
-  "handle": "TELECOMMUNICATION-SERVICES-OF",
-  "description": "Telecommunication Services of Trinidad and Tobago",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5639,
+  "metadata" : {
+    "handle" : "TELECOMMUNICATION-SERVICES-OF",
+    "description" : "Telecommunication Services of Trinidad and Tobago",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.44.0.0/15",
       "190.58.0.0/15",
       "196.3.132.0/22",
@@ -16,7 +19,7 @@
       "201.238.120.0/22",
       "209.94.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:420::/30"
     ]
   }

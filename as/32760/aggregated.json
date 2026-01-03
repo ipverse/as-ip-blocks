@@ -1,12 +1,15 @@
 {
-  "asn": 32760,
-  "handle": "ASN-AURIS1",
-  "description": "Auris LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32760,
+  "metadata" : {
+    "handle" : "ASN-AURIS1",
+    "description" : "Auris LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.172.128.0/19",
       "204.9.236.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

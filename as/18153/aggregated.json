@@ -1,9 +1,12 @@
 {
-  "asn": 18153,
-  "handle": "MULTIDATA-ID-AP",
-  "description": "PT Multidata Rancana Prima",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18153,
+  "metadata" : {
+    "handle" : "MULTIDATA-ID-AP",
+    "description" : "PT Multidata Rancana Prima",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.72.192.0/23",
       "202.72.195.0/24",
       "202.72.196.0/23",
@@ -11,6 +14,6 @@
       "202.72.202.0/24",
       "202.72.206.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 16941,
-  "handle": "CENTURYLINK-LEGACY-FUSEPOINT-CTS-CANADA-POP",
-  "description": "CenturyLink Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16941,
+  "metadata" : {
+    "handle" : "CENTURYLINK-LEGACY-FUSEPOINT-CTS-CANADA-POP",
+    "description" : "CenturyLink Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.254.144.0/20",
       "68.71.200.0/22",
       "68.71.205.0/24",
@@ -11,6 +14,6 @@
       "206.150.96.0/19",
       "208.70.128.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

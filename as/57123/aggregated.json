@@ -1,11 +1,14 @@
 {
-  "asn": 57123,
-  "handle": "GARANT-AS",
-  "description": "OOO Garant",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57123,
+  "metadata" : {
+    "handle" : "GARANT-AS",
+    "description" : "OOO Garant",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.130.192.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

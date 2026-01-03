@@ -1,9 +1,12 @@
 {
-  "asn": 16633,
-  "handle": "I-3",
-  "description": "N-able Technologies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16633,
+  "metadata" : {
+    "handle" : "I-3",
+    "description" : "N-able Technologies Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.45.168.0/23",
       "38.64.88.0/23",
       "38.64.220.0/24",
@@ -35,7 +38,7 @@
       "208.70.88.0/23",
       "208.70.90.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:34:4000::/48",
       "2a01:ebc0:17::/48"
     ]

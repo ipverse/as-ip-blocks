@@ -1,9 +1,12 @@
 {
-  "asn": 55581,
-  "handle": "BINARY-AU",
-  "description": "BINARY NETWORKS PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55581,
+  "metadata" : {
+    "handle" : "BINARY-AU",
+    "description" : "BINARY NETWORKS PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.116.36.0/22",
       "45.125.120.0/22",
       "103.55.132.0/24",
@@ -14,6 +17,6 @@
       "103.194.0.0/22",
       "203.90.31.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

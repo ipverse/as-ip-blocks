@@ -1,12 +1,15 @@
 {
-  "asn": 30317,
-  "handle": "WITONE",
-  "description": "WIT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30317,
+  "metadata" : {
+    "handle" : "WITONE",
+    "description" : "WIT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.120.207.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:f240::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 32521,
-  "handle": "CNRL",
-  "description": "Canadian Natural Resources Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32521,
+  "metadata" : {
+    "handle" : "CNRL",
+    "description" : "Canadian Natural Resources Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.131.136.0/22",
       "208.98.234.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:124:b000::/40"
     ]
   }

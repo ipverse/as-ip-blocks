@@ -1,12 +1,15 @@
 {
-  "asn": 396358,
-  "handle": "BUBGP1",
-  "description": "Bellarmine University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396358,
+  "metadata" : {
+    "handle" : "BUBGP1",
+    "description" : "Bellarmine University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.190.212.0/24",
       "205.159.178.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 31108,
-  "handle": "AKAMAI-VA",
-  "description": "Akamai International B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31108,
+  "metadata" : {
+    "handle" : "AKAMAI-VA",
+    "description" : "Akamai International B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.221.82.0/24",
       "88.221.86.0/24",
       "96.16.4.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:26f0:1c::/48",
       "2a02:26f0:3d::/48"
     ]

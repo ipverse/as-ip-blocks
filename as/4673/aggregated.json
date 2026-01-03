@@ -1,9 +1,12 @@
 {
-  "asn": 4673,
-  "handle": "INTERVIA",
-  "description": "NTT DATA CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4673,
+  "metadata" : {
+    "handle" : "INTERVIA",
+    "description" : "NTT DATA CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.135.0.0/16",
       "202.217.0.0/17",
       "202.235.64.0/19",
@@ -11,7 +14,7 @@
       "203.182.0.0/16",
       "210.144.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:c80::/32"
     ]
   }

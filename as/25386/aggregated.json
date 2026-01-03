@@ -1,14 +1,17 @@
 {
-  "asn": 25386,
-  "handle": "INTERTELECOM-AS",
-  "description": "Inter-Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25386,
+  "metadata" : {
+    "handle" : "INTERTELECOM-AS",
+    "description" : "Inter-Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.80.160.0/19",
       "94.131.192.0/23",
       "185.117.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:9000::/32"
     ]
   }

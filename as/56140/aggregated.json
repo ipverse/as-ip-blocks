@@ -1,12 +1,15 @@
 {
-  "asn": 56140,
-  "handle": "NOCSER-MY",
-  "description": "Nocser Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56140,
+  "metadata" : {
+    "handle" : "NOCSER-MY",
+    "description" : "Nocser Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "42.0.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:c600:1::/48"
     ]
   }

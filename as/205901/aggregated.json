@@ -1,12 +1,15 @@
 {
-  "asn": 205901,
-  "handle": "RUSK-AS",
-  "description": "Evgenii Diakov",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205901,
+  "metadata" : {
+    "handle" : "RUSK-AS",
+    "description" : "Evgenii Diakov",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.23.203.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:d940:9002::/48",
       "2a12:bec4:1e10::/47",
       "2a12:bec4:1e12::/48"

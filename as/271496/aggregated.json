@@ -1,12 +1,15 @@
 {
-  "asn": 271496,
-  "handle": "BNET-RIO-PROVEDOR",
-  "description": "BNET RIO PROVEDOR DE ACESSO A INTERNET LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271496,
+  "metadata" : {
+    "handle" : "BNET-RIO-PROVEDOR",
+    "description" : "BNET RIO PROVEDOR DE ACESSO A INTERNET LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.224.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7c70:ff00::/40"
     ]
   }

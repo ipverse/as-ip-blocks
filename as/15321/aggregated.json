@@ -1,9 +1,12 @@
 {
-  "asn": 15321,
-  "handle": "GROUPE-MASKATEL-LP",
-  "description": "Groupe Maskatel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15321,
+  "metadata" : {
+    "handle" : "GROUPE-MASKATEL-LP",
+    "description" : "Groupe Maskatel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.223.128.0/19",
       "72.0.240.0/20",
       "162.247.20.0/22",
@@ -55,6 +58,6 @@
       "216.209.232.0/23",
       "216.209.234.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

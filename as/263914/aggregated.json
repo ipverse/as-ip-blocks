@@ -1,12 +1,15 @@
 {
-  "asn": 263914,
-  "handle": "SPEED-WIFI-TELECOM",
-  "description": "speed wifi telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263914,
+  "metadata" : {
+    "handle" : "SPEED-WIFI-TELECOM",
+    "description" : "speed wifi telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.185.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:27a4::/32"
     ]
   }

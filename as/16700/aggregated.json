@@ -1,9 +1,12 @@
 {
-  "asn": 16700,
-  "handle": "CNSNEXT",
-  "description": "CNSNext",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16700,
+  "metadata" : {
+    "handle" : "CNSNEXT",
+    "description" : "CNSNext",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.39.128.0/19",
       "66.220.176.0/20",
       "66.252.200.0/21",
@@ -18,7 +21,7 @@
       "216.157.144.0/21",
       "216.212.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:9c0::/32",
       "2606:ba00::/32"
     ]

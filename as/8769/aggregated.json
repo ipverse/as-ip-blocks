@@ -1,9 +1,12 @@
 {
-  "asn": 8769,
-  "handle": "ITTOTAL",
-  "description": "IT-Total Sweden AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8769,
+  "metadata" : {
+    "handle" : "ITTOTAL",
+    "description" : "IT-Total Sweden AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.40.184.0/22",
       "185.118.118.0/24",
       "185.121.28.0/22",
@@ -16,7 +19,7 @@
       "194.71.221.0/24",
       "194.103.34.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:9c40::/29"
     ]
   }

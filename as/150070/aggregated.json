@@ -1,13 +1,16 @@
 {
-  "asn": 150070,
-  "handle": "SPIRETEL-AS-IN",
-  "description": "SPIRETEL TECHNOLOGIES PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150070,
+  "metadata" : {
+    "handle" : "SPIRETEL-AS-IN",
+    "description" : "SPIRETEL TECHNOLOGIES PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.21.70.0/23",
       "103.185.204.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:8e40::/48"
     ]
   }

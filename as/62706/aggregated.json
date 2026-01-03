@@ -1,14 +1,17 @@
 {
-  "asn": 62706,
-  "handle": "SNINTERNET-AS",
-  "description": "Six Nations Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62706,
+  "metadata" : {
+    "handle" : "SNINTERNET-AS",
+    "description" : "Six Nations Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.47.88.0/21",
       "142.47.96.0/20",
       "142.47.112.0/21",
       "162.249.236.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

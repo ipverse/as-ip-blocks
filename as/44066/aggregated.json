@@ -1,9 +1,12 @@
 {
-  "asn": 44066,
-  "handle": "DE-FIRSTCOLO",
-  "description": "firstcolo GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44066,
+  "metadata" : {
+    "handle" : "DE-FIRSTCOLO",
+    "description" : "firstcolo GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.132.158.0/24",
       "5.154.181.0/24",
       "5.183.95.0/24",
@@ -52,7 +55,7 @@
       "212.79.216.0/21",
       "212.224.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1608::/32",
       "2001:1638::/32",
       "2a01:7e0::/32",

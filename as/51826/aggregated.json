@@ -1,16 +1,19 @@
 {
-  "asn": 51826,
-  "handle": "EVROC",
-  "description": "evroc AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51826,
+  "metadata" : {
+    "handle" : "EVROC",
+    "description" : "evroc AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.222.60.0/24",
       "192.165.158.0/23",
       "192.165.164.0/23",
       "193.180.196.0/22",
       "194.14.80.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:a0c0::/29"
     ]
   }

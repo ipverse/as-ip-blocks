@@ -1,9 +1,12 @@
 {
-  "asn": 399494,
-  "handle": "BROOKETEL-AS-01",
-  "description": "Brooke Telecom Cooperative Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399494,
+  "metadata" : {
+    "handle" : "BROOKETEL-AS-01",
+    "description" : "Brooke Telecom Cooperative Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.220.34.0/24",
       "96.44.44.0/24",
       "155.254.196.0/22",
@@ -13,7 +16,7 @@
       "199.241.48.0/22",
       "216.46.158.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:3b40::/32"
     ]
   }

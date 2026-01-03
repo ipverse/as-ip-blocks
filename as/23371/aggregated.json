@@ -1,13 +1,16 @@
 {
-  "asn": 23371,
-  "handle": "CAEUS-AS",
-  "description": "CAE USA Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23371,
+  "metadata" : {
+    "handle" : "CAEUS-AS",
+    "description" : "CAE USA Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.47.26.0/24",
       "198.47.8.0/22",
       "198.47.12.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

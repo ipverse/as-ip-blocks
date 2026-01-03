@@ -1,13 +1,16 @@
 {
-  "asn": 141058,
-  "handle": "IDNIC-SOPPENGKAB-AS-ID",
-  "description": "Pemerintah Kabupaten Soppeng",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141058,
+  "metadata" : {
+    "handle" : "IDNIC-SOPPENGKAB-AS-ID",
+    "description" : "Pemerintah Kabupaten Soppeng",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.36.250.0/24",
       "103.155.113.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:c420::/32"
     ]
   }

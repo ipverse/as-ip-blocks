@@ -1,13 +1,16 @@
 {
-  "asn": 209981,
-  "handle": "SYSTEMCREW-AS",
-  "description": "System Crew GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209981,
+  "metadata" : {
+    "handle" : "SYSTEMCREW-AS",
+    "description" : "System Crew GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.16.178.0/23",
       "194.35.56.0/23",
       "194.35.58.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

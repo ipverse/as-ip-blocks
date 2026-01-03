@@ -1,9 +1,12 @@
 {
-  "asn": 55819,
-  "handle": "CAMPAIGNMONITOR-AS-GLOBAL",
-  "description": "CAMPAIGN MONITOR PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55819,
+  "metadata" : {
+    "handle" : "CAMPAIGNMONITOR-AS-GLOBAL",
+    "description" : "CAMPAIGN MONITOR PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.126.144.0/21",
       "103.28.40.0/22",
       "146.88.16.0/23",
@@ -16,7 +19,7 @@
       "205.166.177.0/24",
       "216.99.201.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:de00::/32"
     ]
   }

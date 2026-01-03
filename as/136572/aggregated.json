@@ -1,9 +1,12 @@
 {
-  "asn": 136572,
-  "handle": "TOOTCIO-AS-AP",
-  "description": "Office of The Chief Information Officer (OCIO)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136572,
+  "metadata" : {
+    "handle" : "TOOTCIO-AS-AP",
+    "description" : "Office of The Chief Information Officer (OCIO)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.216.0.0/16",
       "192.52.72.0/23",
       "203.1.252.0/24",
@@ -12,6 +15,6 @@
       "203.25.22.0/24",
       "203.26.120.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

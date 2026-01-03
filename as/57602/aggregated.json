@@ -1,14 +1,17 @@
 {
-  "asn": 57602,
-  "handle": "STATENS-JORDBRUKSVERK-ASN",
-  "description": "Statens Jordbruksverk",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57602,
+  "metadata" : {
+    "handle" : "STATENS-JORDBRUKSVERK-ASN",
+    "description" : "Statens Jordbruksverk",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.180.238.0/23",
       "194.71.212.0/24",
       "194.71.214.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:240c::/48"
     ]
   }

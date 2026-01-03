@@ -1,12 +1,15 @@
 {
-  "asn": 47015,
-  "handle": "SHH-SJH",
-  "description": "Sacred Heart Hospital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47015,
+  "metadata" : {
+    "handle" : "SHH-SJH",
+    "description" : "Sacred Heart Hospital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.115.8.0/24",
       "74.115.10.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

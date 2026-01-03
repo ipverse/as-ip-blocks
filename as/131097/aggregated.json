@@ -1,11 +1,14 @@
 {
-  "asn": 131097,
-  "handle": "KEAD-AS",
-  "description": "KEAD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131097,
+  "metadata" : {
+    "handle" : "KEAD-AS",
+    "description" : "KEAD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.100.137.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

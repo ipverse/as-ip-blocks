@@ -1,9 +1,12 @@
 {
-  "asn": 18002,
-  "handle": "WORLDPHONE-IN",
-  "description": "AS Number for Interdomain Routing",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18002,
+  "metadata" : {
+    "handle" : "WORLDPHONE-IN",
+    "description" : "AS Number for Interdomain Routing",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.102.1.0/24",
       "14.102.2.0/24",
       "14.102.13.0/24",
@@ -90,7 +93,7 @@
       "202.89.76.0/23",
       "202.89.78.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:5b00::/42",
       "2402:5b00:40::/44",
       "2402:5b00:d0::/44",

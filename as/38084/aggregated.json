@@ -1,9 +1,12 @@
 {
-  "asn": 38084,
-  "handle": "ETHAN-AU-AP",
-  "description": "Equip IT Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38084,
+  "metadata" : {
+    "handle" : "ETHAN-AU-AP",
+    "description" : "Equip IT Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.113.36.0/22",
       "103.9.60.0/22",
       "103.36.130.0/23",
@@ -16,7 +19,7 @@
       "203.92.26.0/24",
       "210.48.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:6c40::/32",
       "2406:7600::/32"
     ]

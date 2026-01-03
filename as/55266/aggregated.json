@@ -1,11 +1,14 @@
 {
-  "asn": 55266,
-  "handle": "FRMC01",
-  "description": "Firelands Regional Medical Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55266,
+  "metadata" : {
+    "handle" : "FRMC01",
+    "description" : "Firelands Regional Medical Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.49.102.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

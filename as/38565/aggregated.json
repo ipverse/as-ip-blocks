@@ -1,15 +1,18 @@
 {
-  "asn": 38565,
-  "handle": "NCELL-AS-NP",
-  "description": "Ncell Pty. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38565,
+  "metadata" : {
+    "handle" : "NCELL-AS-NP",
+    "description" : "Ncell Pty. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.252.0.0/15",
       "49.126.0.0/16",
       "103.38.196.0/22",
       "116.68.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:9500::/32"
     ]
   }

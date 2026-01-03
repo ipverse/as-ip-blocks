@@ -1,9 +1,12 @@
 {
-  "asn": 266346,
-  "handle": "G2G-NETWORKS-SERVICOS",
-  "description": "G2G NETWORKS SERVICOS DE COMUNICACAO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266346,
+  "metadata" : {
+    "handle" : "G2G-NETWORKS-SERVICOS",
+    "description" : "G2G NETWORKS SERVICOS DE COMUNICACAO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.163.84.0/22",
       "45.181.56.0/22",
       "45.230.52.0/22",
@@ -11,7 +14,7 @@
       "170.239.92.0/22",
       "191.243.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3668::/32"
     ]
   }

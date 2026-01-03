@@ -1,9 +1,12 @@
 {
-  "asn": 34555,
-  "handle": "CCS-LEEDS-ASN",
-  "description": "C.C.S. (Leeds) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34555,
+  "metadata" : {
+    "handle" : "CCS-LEEDS-ASN",
+    "description" : "C.C.S. (Leeds) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.6.72.0/21",
       "31.24.216.0/21",
       "77.95.176.0/21",
@@ -15,7 +18,7 @@
       "188.92.232.0/21",
       "194.12.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5e40::/32"
     ]
   }

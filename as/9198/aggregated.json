@@ -1,9 +1,12 @@
 {
-  "asn": 9198,
-  "handle": "KAZTELECOM-AS",
-  "description": "JSC Kazakhtelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9198,
+  "metadata" : {
+    "handle" : "KAZTELECOM-AS",
+    "description" : "JSC Kazakhtelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.132.0.0/14",
       "5.63.64.0/18",
       "5.76.0.0/16",
@@ -65,7 +68,7 @@
       "212.154.164.0/24",
       "213.211.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:12f8::/32"
     ]
   }

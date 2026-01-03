@@ -1,9 +1,12 @@
 {
-  "asn": 205418,
-  "handle": "XINGHUA-ZHU",
-  "description": "Xinghua Zhu",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205418,
+  "metadata" : {
+    "handle" : "XINGHUA-ZHU",
+    "description" : "Xinghua Zhu",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.111.255.0/24",
       "143.14.49.0/24",
       "143.20.147.0/24",
@@ -12,6 +15,6 @@
       "167.148.46.0/24",
       "178.253.239.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

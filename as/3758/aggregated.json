@@ -1,9 +1,12 @@
 {
-  "asn": 3758,
-  "handle": "SINGNET",
-  "description": "SingNet Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3758,
+  "metadata" : {
+    "handle" : "SINGNET",
+    "description" : "SingNet Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.56.0/22",
       "31.210.22.0/23",
       "37.0.10.0/23",
@@ -72,7 +75,7 @@
       "219.74.145.0/24",
       "220.255.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:c20::/32",
       "2400:1c00:13::/48",
       "2400:d801:3f00::/40",

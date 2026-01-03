@@ -1,12 +1,15 @@
 {
-  "asn": 47944,
-  "handle": "CHD-AS",
-  "description": "Chambre des Deputes Luxembourg",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47944,
+  "metadata" : {
+    "handle" : "CHD-AS",
+    "description" : "Chambre des Deputes Luxembourg",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.125.200.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:2ba0::/32"
     ]
   }

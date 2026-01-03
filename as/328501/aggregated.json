@@ -1,13 +1,16 @@
 {
-  "asn": 328501,
-  "handle": "PAYGATE-AS",
-  "description": "PAYFAST (PTY) LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328501,
+  "metadata" : {
+    "handle" : "PAYGATE-AS",
+    "description" : "PAYFAST (PTY) LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.64.112.0/23",
       "102.216.36.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43f8:13b0::/47"
     ]
   }

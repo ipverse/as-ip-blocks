@@ -1,15 +1,18 @@
 {
-  "asn": 204356,
-  "handle": "HIGHSPEED",
-  "description": "HI SPEED NET WORK S.A.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204356,
+  "metadata" : {
+    "handle" : "HIGHSPEED",
+    "description" : "HI SPEED NET WORK S.A.R.L",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.252.100.0/22",
       "212.30.32.0/24",
       "212.30.34.0/24",
       "212.30.39.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:6dc0::/32"
     ]
   }

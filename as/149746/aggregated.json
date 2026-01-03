@@ -1,15 +1,18 @@
 {
-  "asn": 149746,
-  "handle": "IDNIC-BLIP-AS-ID",
-  "description": "PT Blip Integrator Provider",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149746,
+  "metadata" : {
+    "handle" : "IDNIC-BLIP-AS-ID",
+    "description" : "PT Blip Integrator Provider",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.252.158.0/23",
       "103.189.62.0/23",
       "103.255.242.0/24",
       "112.78.38.0/24",
       "202.46.152.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

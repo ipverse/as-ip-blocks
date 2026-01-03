@@ -1,12 +1,15 @@
 {
-  "asn": 35091,
-  "handle": "TELEDATA-AS",
-  "description": "Teledata Ghana",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35091,
+  "metadata" : {
+    "handle" : "TELEDATA-AS",
+    "description" : "Teledata Ghana",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.139.0.0/18",
       "41.211.0.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

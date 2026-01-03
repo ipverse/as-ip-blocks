@@ -1,10 +1,13 @@
 {
-  "asn": 17045,
-  "handle": "NGA911-CALI-A",
-  "description": "NGA 911",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 17045,
+  "metadata" : {
+    "handle" : "NGA911-CALI-A",
+    "description" : "NGA 911",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2605:84c0:48::/46"
     ]
   }

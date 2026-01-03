@@ -1,9 +1,12 @@
 {
-  "asn": 14978,
-  "handle": "CSSBB",
-  "description": "Consolidated Smart Systems LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14978,
+  "metadata" : {
+    "handle" : "CSSBB",
+    "description" : "Consolidated Smart Systems LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.249.48.0/21",
       "63.249.56.0/22",
       "63.249.60.0/23",
@@ -13,7 +16,7 @@
       "74.213.236.0/22",
       "74.213.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:ec80::/38",
       "2607:ec80:800::/37",
       "2607:ec80:1400::/38"

@@ -1,13 +1,16 @@
 {
-  "asn": 63019,
-  "handle": "PAROLINK",
-  "description": "Parolink.net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63019,
+  "metadata" : {
+    "handle" : "PAROLINK",
+    "description" : "Parolink.net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.251.192.0/21",
       "185.213.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ffce::/36"
     ]
   }

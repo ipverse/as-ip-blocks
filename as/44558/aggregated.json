@@ -1,9 +1,12 @@
 {
-  "asn": 44558,
-  "handle": "NETONLINE",
-  "description": "Netonline Bilisim Sirketi LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44558,
+  "metadata" : {
+    "handle" : "NETONLINE",
+    "description" : "Netonline Bilisim Sirketi LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.130.156.0/24",
       "46.30.176.0/21",
       "46.106.192.0/21",
@@ -39,7 +42,7 @@
       "185.152.91.0/24",
       "185.205.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:7580::/29"
     ]
   }

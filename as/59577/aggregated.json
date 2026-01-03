@@ -1,9 +1,12 @@
 {
-  "asn": 59577,
-  "handle": "LINKCOM-LVIV-AS",
-  "description": "LinkCom Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59577,
+  "metadata" : {
+    "handle" : "LINKCOM-LVIV-AS",
+    "description" : "LinkCom Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.201.232.0/22",
       "92.253.212.0/22",
       "92.253.236.0/22",
@@ -12,7 +15,7 @@
       "195.72.144.0/23",
       "195.72.146.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:5b80::/29"
     ]
   }

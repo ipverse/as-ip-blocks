@@ -1,9 +1,12 @@
 {
-  "asn": 152705,
-  "handle": "GCTL-AS-AP",
-  "description": "Gcc Cloud Technology Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152705,
+  "metadata" : {
+    "handle" : "GCTL-AS-AP",
+    "description" : "Gcc Cloud Technology Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.247.129.0/24",
       "23.247.131.0/24",
       "103.23.148.0/23",
@@ -18,6 +21,6 @@
       "198.44.170.0/24",
       "198.44.176.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

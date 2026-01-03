@@ -1,13 +1,16 @@
 {
-  "asn": 139904,
-  "handle": "KTL-AS-AP",
-  "description": "Kloud Technologies Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139904,
+  "metadata" : {
+    "handle" : "KTL-AS-AP",
+    "description" : "Kloud Technologies Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.146.220.0/23",
       "160.191.83.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:7180::/48"
     ]
   }

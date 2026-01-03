@@ -1,9 +1,12 @@
 {
-  "asn": 19994,
-  "handle": "RACKSPACE",
-  "description": "Rackspace Hosting",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19994,
+  "metadata" : {
+    "handle" : "RACKSPACE",
+    "description" : "Rackspace Hosting",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.253.0.0/18",
       "23.253.160.0/19",
       "23.253.192.0/19",
@@ -66,7 +69,7 @@
       "209.61.166.0/23",
       "216.18.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4801::/32"
     ]
   }

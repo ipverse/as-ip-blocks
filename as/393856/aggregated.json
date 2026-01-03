@@ -1,9 +1,12 @@
 {
-  "asn": 393856,
-  "handle": "WGELD-ASN",
-  "description": "City of Westfield (Gas \u0026 Electric Light Department)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393856,
+  "metadata" : {
+    "handle" : "WGELD-ASN",
+    "description" : "City of Westfield (Gas & Electric Light Department)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.8.52.0/22",
       "8.40.84.0/23",
       "8.40.87.0/24",
@@ -32,6 +35,6 @@
       "216.193.184.0/22",
       "216.193.190.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 5555,
-  "handle": "SOHONETEU-AS",
-  "description": "Sohonet Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5555,
+  "metadata" : {
+    "handle" : "SOHONETEU-AS",
+    "description" : "Sohonet Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.138.224.0/24",
       "46.248.224.0/19",
       "67.224.96.0/20",
@@ -16,7 +19,7 @@
       "208.65.208.0/21",
       "216.99.28.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4d30::/32",
       "2607:c400::/32"
     ]

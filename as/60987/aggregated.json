@@ -1,14 +1,17 @@
 {
-  "asn": 60987,
-  "handle": "FIBRACADIZ",
-  "description": "FIBERDAN NETWORKS S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60987,
+  "metadata" : {
+    "handle" : "FIBRACADIZ",
+    "description" : "FIBERDAN NETWORKS S.L",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.161.0/24",
       "185.198.184.0/22",
       "193.238.175.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:8d40::/29",
       "2a13:a040::/29"
     ]

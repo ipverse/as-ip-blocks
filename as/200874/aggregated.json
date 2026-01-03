@@ -1,12 +1,15 @@
 {
-  "asn": 200874,
-  "handle": "LBC-AS-CZ",
-  "description": "Liberecky kraj",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200874,
+  "metadata" : {
+    "handle" : "LBC-AS-CZ",
+    "description" : "Liberecky kraj",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.89.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:8320::/32"
     ]
   }

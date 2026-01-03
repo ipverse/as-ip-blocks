@@ -1,9 +1,12 @@
 {
-  "asn": 16135,
-  "handle": "TURKCELL-AS",
-  "description": "TURKCELL ILETISIM HIZMETLERI A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16135,
+  "metadata" : {
+    "handle" : "TURKCELL-AS",
+    "description" : "TURKCELL ILETISIM HIZMETLERI A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.11.128.0/17",
       "5.24.0.0/15",
       "5.26.0.0/16",
@@ -96,7 +99,7 @@
       "213.43.245.0/24",
       "213.43.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:4e0:2::/48",
       "2a02:4e0:10::/48",
       "2a02:4e0:2000::/41",

@@ -1,9 +1,12 @@
 {
-  "asn": 205368,
-  "handle": "FNET",
-  "description": "Fnet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205368,
+  "metadata" : {
+    "handle" : "FNET",
+    "description" : "Fnet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.182.172.0/23",
       "46.182.174.0/24",
       "77.95.185.0/24",
@@ -11,7 +14,7 @@
       "91.237.150.0/24",
       "185.215.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:29f8::/32",
       "2a0b:a3c0::/29",
       "2a12:5d40::/29"

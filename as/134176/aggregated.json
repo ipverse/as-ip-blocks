@@ -1,9 +1,12 @@
 {
-  "asn": 134176,
-  "handle": "CLOUDIE-AS-AP",
-  "description": "Cloudie Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134176,
+  "metadata" : {
+    "handle" : "CLOUDIE-AS-AP",
+    "description" : "Cloudie Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.172.217.0/24",
       "43.240.14.0/24",
       "43.243.170.0/23",
@@ -27,7 +30,7 @@
       "194.163.70.0/24",
       "206.206.91.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:4340:82::/47"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 52361,
-  "handle": "ARSAT-EMPRESA-ARGENTINA",
-  "description": "ARSAT - Empresa Argentina de Soluciones Satelitales S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52361,
+  "metadata" : {
+    "handle" : "ARSAT-EMPRESA-ARGENTINA",
+    "description" : "ARSAT - Empresa Argentina de Soluciones Satelitales S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.209.0.0/17",
       "186.33.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:c30::/32"
     ]
   }

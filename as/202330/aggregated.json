@@ -1,12 +1,15 @@
 {
-  "asn": 202330,
-  "handle": "ISPGESTION",
-  "description": "ISP Gestion Provider SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202330,
+  "metadata" : {
+    "handle" : "ISPGESTION",
+    "description" : "ISP Gestion Provider SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.25.105.0/24",
       "185.255.20.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 53471,
-  "handle": "NETSKRTSYSTEMS-USA",
-  "description": "Netskrt",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53471,
+  "metadata" : {
+    "handle" : "NETSKRTSYSTEMS-USA",
+    "description" : "Netskrt",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "98.97.224.0/20",
       "208.52.176.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:8240:103::/48",
       "2607:8240:104::/48",
       "2607:8240:dddd::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 3214,
-  "handle": "XTOM",
-  "description": "xTom GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3214,
+  "metadata" : {
+    "handle" : "XTOM",
+    "description" : "xTom GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.165.200.0/24",
       "45.13.198.0/24",
       "45.80.188.0/24",
@@ -54,7 +57,7 @@
       "194.169.180.0/23",
       "213.232.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:d9c0:1000::/48",
       "2a03:d9c0:2000::/48",
       "2a03:d9c0:4000::/48",

@@ -1,12 +1,15 @@
 {
-  "asn": 202188,
-  "handle": "TIMRA-AS",
-  "description": "Timra Kommun",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202188,
+  "metadata" : {
+    "handle" : "TIMRA-AS",
+    "description" : "Timra Kommun",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.132.8.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:748::/48"
     ]
   }

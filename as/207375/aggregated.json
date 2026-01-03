@@ -1,9 +1,12 @@
 {
-  "asn": 207375,
-  "handle": "FIBO",
-  "description": "Fiber Operator B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207375,
+  "metadata" : {
+    "handle" : "FIBO",
+    "description" : "Fiber Operator B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.14.182.0/24",
       "37.156.69.0/24",
       "37.156.70.0/24",
@@ -55,7 +58,7 @@
       "193.243.146.0/24",
       "194.31.110.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:bba0::/32",
       "2a0e:fdc0::/29"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 201820,
-  "handle": "AIRKHV",
-  "description": "JSC Khabarovsky airport",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201820,
+  "metadata" : {
+    "handle" : "AIRKHV",
+    "description" : "JSC Khabarovsky airport",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.226.188.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:698::/48"
     ]
   }

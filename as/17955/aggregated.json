@@ -1,9 +1,12 @@
 {
-  "asn": 17955,
-  "handle": "AVISNET",
-  "description": "Densan Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17955,
+  "metadata" : {
+    "handle" : "AVISNET",
+    "description" : "Densan Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.152.138.0/23",
       "120.88.16.0/20",
       "192.47.64.0/21",
@@ -11,7 +14,7 @@
       "203.223.48.0/20",
       "210.56.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:8000::/32"
     ]
   }

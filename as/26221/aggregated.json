@@ -1,12 +1,15 @@
 {
-  "asn": 26221,
-  "handle": "ASN-BMONB-AS1",
-  "description": "Bank of Montreal",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26221,
+  "metadata" : {
+    "handle" : "ASN-BMONB-AS1",
+    "description" : "Bank of Montreal",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.139.71.0/24",
       "198.96.142.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

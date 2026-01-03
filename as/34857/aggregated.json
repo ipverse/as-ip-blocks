@@ -1,9 +1,12 @@
 {
-  "asn": 34857,
-  "handle": "T-VARTAI-AS",
-  "description": "SPLIUS UAB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34857,
+  "metadata" : {
+    "handle" : "T-VARTAI-AS",
+    "description" : "SPLIUS UAB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.249.180.0/22",
       "46.249.184.0/21",
       "77.79.40.0/21",
@@ -11,6 +14,6 @@
       "85.232.128.0/19",
       "185.144.116.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

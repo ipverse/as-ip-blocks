@@ -1,9 +1,12 @@
 {
-  "asn": 131142,
-  "handle": "APOL-AS-TW",
-  "description": "Asia Pacific On-Line Service Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131142,
+  "metadata" : {
+    "handle" : "APOL-AS-TW",
+    "description" : "Asia Pacific On-Line Service Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.79.204.0/23",
       "210.200.0.0/22",
       "210.200.64.0/21",
@@ -17,7 +20,7 @@
       "223.22.8.0/24",
       "223.22.10.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:0:7000::/36"
     ]
   }

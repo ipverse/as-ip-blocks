@@ -1,9 +1,12 @@
 {
-  "asn": 64160,
-  "handle": "NIMBLYNET-LIMITED",
-  "description": "NimblyNet Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64160,
+  "metadata" : {
+    "handle" : "NIMBLYNET-LIMITED",
+    "description" : "NimblyNet Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.151.198.0/24",
       "148.224.24.0/22",
       "149.18.3.0/24",
@@ -13,6 +16,6 @@
       "194.143.203.0/24",
       "194.143.209.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

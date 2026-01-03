@@ -1,12 +1,15 @@
 {
-  "asn": 214980,
-  "handle": "HEXI-NET",
-  "description": "Hexi Group ApS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214980,
+  "metadata" : {
+    "handle" : "HEXI-NET",
+    "description" : "Hexi Group ApS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.165.250.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:6044:c100::/44"
     ]
   }

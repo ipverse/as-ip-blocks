@@ -1,12 +1,15 @@
 {
-  "asn": 139197,
-  "handle": "THUNDERNETWORK-AS-AP",
-  "description": "Thunder Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139197,
+  "metadata" : {
+    "handle" : "THUNDERNETWORK-AS-AP",
+    "description" : "Thunder Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.139.164.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:8580::/48"
     ]
   }

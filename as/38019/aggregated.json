@@ -1,9 +1,12 @@
 {
-  "asn": 38019,
-  "handle": "CMNET-V4TIANJIN-AS-AP",
-  "description": "China Mobile",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38019,
+  "metadata" : {
+    "handle" : "CMNET-V4TIANJIN-AS-AP",
+    "description" : "China Mobile",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.134.64.0/23",
       "36.137.46.0/23",
       "36.138.219.0/24",
@@ -46,7 +49,7 @@
       "223.160.134.0/23",
       "223.161.202.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2409:8002::/40",
       "2409:8002:800::/40",
       "2409:8002:1000::/40",

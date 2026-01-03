@@ -1,13 +1,16 @@
 {
-  "asn": 13925,
-  "handle": "NULLROUTE",
-  "description": "Null Route Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13925,
+  "metadata" : {
+    "handle" : "NULLROUTE",
+    "description" : "Null Route Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.131.160.0/23",
       "44.4.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470:f6::/48",
       "2620:138:5000::/47"
     ]

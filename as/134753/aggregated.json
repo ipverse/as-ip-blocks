@@ -1,14 +1,17 @@
 {
-  "asn": 134753,
-  "handle": "WKCDA-AS-AP",
-  "description": "West Kowloon Cultural District Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134753,
+  "metadata" : {
+    "handle" : "WKCDA-AS-AP",
+    "description" : "West Kowloon Cultural District Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.5.79.0/24",
       "103.108.248.0/23",
       "103.108.250.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:400::/48"
     ]
   }

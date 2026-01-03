@@ -1,16 +1,19 @@
 {
-  "asn": 37525,
-  "handle": "BYTES-CON-1",
-  "description": "Altron TMT (Pty) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37525,
+  "metadata" : {
+    "handle" : "BYTES-CON-1",
+    "description" : "Altron TMT (Pty) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.76.56.0/21",
       "41.85.128.0/19",
       "41.87.224.0/19",
       "105.235.160.0/20",
       "197.156.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fda0::/32"
     ]
   }

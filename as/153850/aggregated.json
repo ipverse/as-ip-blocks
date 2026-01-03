@@ -1,12 +1,15 @@
 {
-  "asn": 153850,
-  "handle": "RTL-AS-AP",
-  "description": "Resolve Technology Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153850,
+  "metadata" : {
+    "handle" : "RTL-AS-AP",
+    "description" : "Resolve Technology Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.227.218.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:7bc0::/48"
     ]
   }

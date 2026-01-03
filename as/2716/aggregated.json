@@ -1,9 +1,12 @@
 {
-  "asn": 2716,
-  "handle": "UNIVERSIDADE-FEDERAL-RIO",
-  "description": "Universidade Federal do Rio Grande do Sul",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2716,
+  "metadata" : {
+    "handle" : "UNIVERSIDADE-FEDERAL-RIO",
+    "description" : "Universidade Federal do Rio Grande do Sul",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.228.252.0/22",
       "200.17.80.0/20",
       "200.17.160.0/20",
@@ -15,7 +18,7 @@
       "200.236.32.0/19",
       "200.238.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804::/32"
     ]
   }

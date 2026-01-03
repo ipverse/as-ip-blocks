@@ -1,15 +1,18 @@
 {
-  "asn": 58385,
-  "handle": "BSM-AS-ID",
-  "description": "PT. Bank Syariah Mandiri",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58385,
+  "metadata" : {
+    "handle" : "BSM-AS-ID",
+    "description" : "PT. Bank Syariah Mandiri",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.23.116.0/23",
       "103.28.218.0/24",
       "103.138.216.0/23",
       "103.246.169.0/24",
       "110.92.74.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

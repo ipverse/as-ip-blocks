@@ -1,11 +1,14 @@
 {
-  "asn": 135302,
-  "handle": "CLOUDSIGMA-AS-AP",
-  "description": "DC West Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135302,
+  "metadata" : {
+    "handle" : "CLOUDSIGMA-AS-AP",
+    "description" : "DC West Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.9.160.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

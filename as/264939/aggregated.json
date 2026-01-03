@@ -1,12 +1,15 @@
 {
-  "asn": 264939,
-  "handle": "REALNET-MG",
-  "description": "REALNET MG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264939,
+  "metadata" : {
+    "handle" : "REALNET-MG",
+    "description" : "REALNET MG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.228.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3040::/32"
     ]
   }

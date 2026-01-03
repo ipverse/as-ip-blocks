@@ -1,9 +1,12 @@
 {
-  "asn": 138169,
-  "handle": "ASEAN-INTERNATIONAL-INFORMATION-GARDEN-IDC",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138169,
+  "metadata" : {
+    "handle" : "ASEAN-INTERNATIONAL-INFORMATION-GARDEN-IDC",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "106.127.128.0/21",
       "113.12.80.0/22",
       "113.12.84.0/24",
@@ -49,7 +52,7 @@
       "222.216.188.0/22",
       "222.216.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:49:5000::/37",
       "240e:a5:4000::/37",
       "240e:250:200::/40",

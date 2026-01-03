@@ -1,15 +1,18 @@
 {
-  "asn": 204153,
-  "handle": "TELEKONIKA-IX-AS",
-  "description": "LLC Telekonika",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204153,
+  "metadata" : {
+    "handle" : "TELEKONIKA-IX-AS",
+    "description" : "LLC Telekonika",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.110.13.0/24",
       "86.110.15.0/24",
       "86.110.23.0/24",
       "193.24.229.0/24",
       "193.24.231.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

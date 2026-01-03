@@ -1,9 +1,12 @@
 {
-  "asn": 17709,
-  "handle": "APT",
-  "description": "Asia Pacific Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17709,
+  "metadata" : {
+    "handle" : "APT",
+    "description" : "Asia Pacific Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.240.104.0/22",
       "60.244.0.0/16",
       "101.136.0.0/14",
@@ -43,7 +46,7 @@
       "222.251.0.0/17",
       "223.22.0.0/15"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:f10::/32",
       "2404::/26"
     ]

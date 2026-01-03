@@ -1,12 +1,15 @@
 {
-  "asn": 39142,
-  "handle": "INTERNETGROUP-CLOUD",
-  "description": "Giga Mobile AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39142,
+  "metadata" : {
+    "handle" : "INTERNETGROUP-CLOUD",
+    "description" : "Giga Mobile AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.191.240.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:dc07::/32"
     ]
   }

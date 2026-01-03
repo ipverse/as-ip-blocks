@@ -1,11 +1,14 @@
 {
-  "asn": 22447,
-  "handle": "ZING-ISP-01",
-  "description": "Zing Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22447,
+  "metadata" : {
+    "handle" : "ZING-ISP-01",
+    "description" : "Zing Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.185.38.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

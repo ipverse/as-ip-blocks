@@ -1,9 +1,12 @@
 {
-  "asn": 37069,
-  "handle": "MOBINIL",
-  "description": "The Egyptian Company for Mobile Services (Mobinil)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37069,
+  "metadata" : {
+    "handle" : "MOBINIL",
+    "description" : "The Egyptian Company for Mobile Services (Mobinil)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.91.192.0/18",
       "41.155.128.0/17",
       "41.190.248.0/23",
@@ -18,6 +21,6 @@
       "197.150.0.0/15",
       "197.222.0.0/15"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 8175,
-  "handle": "HIGHSPEEDWEB",
-  "description": "High Speed Web/Genesis 2 Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8175,
+  "metadata" : {
+    "handle" : "HIGHSPEEDWEB",
+    "description" : "High Speed Web/Genesis 2 Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.51.0.0/19",
       "69.85.80.0/20",
       "206.253.160.0/21",
       "209.198.0.0/18",
       "216.189.0.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 44259,
-  "handle": "ULTAHOST-AP-AS",
-  "description": "Ultahost Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44259,
+  "metadata" : {
+    "handle" : "ULTAHOST-AP-AS",
+    "description" : "Ultahost Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.59.184.0/24",
       "38.89.142.0/24",
       "38.127.8.0/24",
@@ -15,6 +18,6 @@
       "192.142.50.0/23",
       "216.185.57.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

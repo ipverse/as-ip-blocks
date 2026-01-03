@@ -1,9 +1,12 @@
 {
-  "asn": 57218,
-  "handle": "RIGHTEL",
-  "description": "Rightel Communication Service Company PJS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57218,
+  "metadata" : {
+    "handle" : "RIGHTEL",
+    "description" : "Rightel Communication Service Company PJS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.62.192.0/18",
       "5.72.0.0/19",
       "5.134.128.0/18",
@@ -47,7 +50,7 @@
       "188.215.88.0/22",
       "213.195.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:ef42::/32",
       "2a03:ef43::/34",
       "2a03:ef43:c000::/48",

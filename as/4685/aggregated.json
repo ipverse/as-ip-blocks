@@ -1,9 +1,12 @@
 {
-  "asn": 4685,
-  "handle": "ASAHI-NET",
-  "description": "Asahi Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4685,
+  "metadata" : {
+    "handle" : "ASAHI-NET",
+    "description" : "Asahi Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.3.0.0/16",
       "36.3.192.0/19",
       "61.87.32.0/19",
@@ -65,7 +68,7 @@
       "221.113.0.0/17",
       "222.228.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:c28::/32",
       "2405:6580::/29"
     ]

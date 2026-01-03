@@ -1,15 +1,18 @@
 {
-  "asn": 197997,
-  "handle": "REGISTERBG",
-  "description": "RegisterBG Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197997,
+  "metadata" : {
+    "handle" : "REGISTERBG",
+    "description" : "RegisterBG Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.143.80.0/24",
       "193.68.96.0/23",
       "193.68.98.0/24",
       "194.0.32.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:3c::/48",
       "2a02:6a80:5300::/48",
       "2a02:6a80:530e::/48"

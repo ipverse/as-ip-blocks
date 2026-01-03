@@ -1,9 +1,12 @@
 {
-  "asn": 55154,
-  "handle": "MADGEN-01",
-  "description": "Madgenius.com",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55154,
+  "metadata" : {
+    "handle" : "MADGEN-01",
+    "description" : "Madgenius.com",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.170.55.0/24",
       "37.49.145.0/24",
       "38.92.176.0/20",
@@ -86,6 +89,6 @@
       "213.209.129.0/24",
       "216.144.225.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

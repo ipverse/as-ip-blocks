@@ -1,9 +1,12 @@
 {
-  "asn": 25211,
-  "handle": "EUROCRYPT-AS",
-  "description": "Euro Crypt EOOD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25211,
+  "metadata" : {
+    "handle" : "EUROCRYPT-AS",
+    "description" : "Euro Crypt EOOD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.159.128.0/24",
       "78.159.136.0/22",
       "78.159.149.0/24",
@@ -30,6 +33,6 @@
       "185.96.252.0/23",
       "185.96.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 273678,
-  "handle": "RR-FIBRA-OPTICA",
-  "description": "RR Fibra Optica",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273678,
+  "metadata" : {
+    "handle" : "RR-FIBRA-OPTICA",
+    "description" : "RR Fibra Optica",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.156.90.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8a98::/32"
     ]
   }

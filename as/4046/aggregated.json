@@ -1,9 +1,12 @@
 {
-  "asn": 4046,
-  "handle": "FAA",
-  "description": "Federal Aviation Administration",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4046,
+  "metadata" : {
+    "handle" : "FAA",
+    "description" : "Federal Aviation Administration",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "152.123.17.0/24",
       "155.178.0.0/16",
       "192.112.97.0/24",
@@ -12,7 +15,7 @@
       "204.108.9.0/24",
       "204.108.10.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:19e8:8001::/48",
       "2001:19e8:8900::/48",
       "2001:19e8:8ab0::/48",

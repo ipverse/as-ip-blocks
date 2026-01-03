@@ -1,9 +1,12 @@
 {
-  "asn": 14726,
-  "handle": "CHISHOLMBB",
-  "description": "Chisholm Broadband LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14726,
+  "metadata" : {
+    "handle" : "CHISHOLMBB",
+    "description" : "Chisholm Broadband LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.131.32.0/22",
       "38.131.52.0/22",
       "38.131.56.0/22",
@@ -13,6 +16,6 @@
       "148.59.240.0/23",
       "206.168.180.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

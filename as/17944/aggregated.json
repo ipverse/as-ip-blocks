@@ -1,13 +1,16 @@
 {
-  "asn": 17944,
-  "handle": "JWA",
-  "description": "Japan Weather Association",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17944,
+  "metadata" : {
+    "handle" : "JWA",
+    "description" : "Japan Weather Association",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "133.105.0.0/16",
       "192.51.39.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:2ca::/48"
     ]
   }

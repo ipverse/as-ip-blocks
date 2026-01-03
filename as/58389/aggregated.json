@@ -1,9 +1,12 @@
 {
-  "asn": 58389,
-  "handle": "SDI-NAP-AS-ID",
-  "description": "PT Sumber Data Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58389,
+  "metadata" : {
+    "handle" : "SDI-NAP-AS-ID",
+    "description" : "PT Sumber Data Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.240.228.0/24",
       "103.226.119.0/24",
       "114.198.241.0/24",
@@ -13,7 +16,7 @@
       "116.68.167.0/24",
       "202.72.207.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:fd00:10::/48",
       "2404:fd00:34::/48",
       "2404:fd00:36::/48"

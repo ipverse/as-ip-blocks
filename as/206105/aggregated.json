@@ -1,9 +1,12 @@
 {
-  "asn": 206105,
-  "handle": "FLOLIVE-AS",
-  "description": "floLIVE Bulgaria Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206105,
+  "metadata" : {
+    "handle" : "FLOLIVE-AS",
+    "description" : "floLIVE Bulgaria Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.41.43.0/24",
       "80.95.21.0/24",
       "152.114.211.0/24",
@@ -14,7 +17,7 @@
       "212.20.134.0/23",
       "212.20.148.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:c44::/48"
     ]
   }

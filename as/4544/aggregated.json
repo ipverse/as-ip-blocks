@@ -1,9 +1,12 @@
 {
-  "asn": 4544,
-  "handle": "NAVE-CONX-A",
-  "description": "Navisite Opco LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4544,
+  "metadata" : {
+    "handle" : "NAVE-CONX-A",
+    "description" : "Navisite Opco LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.75.240.0/20",
       "204.216.0.0/18",
       "204.216.64.0/19",
@@ -14,6 +17,6 @@
       "216.10.96.0/19",
       "216.243.64.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

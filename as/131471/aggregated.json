@@ -1,9 +1,12 @@
 {
-  "asn": 131471,
-  "handle": "LOGINMEPVTLTD-AS-AP",
-  "description": "Login.Me (Pvt) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131471,
+  "metadata" : {
+    "handle" : "LOGINMEPVTLTD-AS-AP",
+    "description" : "Login.Me (Pvt) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.72.0/24",
       "45.195.131.0/24",
       "45.195.194.0/23",
@@ -22,7 +25,7 @@
       "156.238.64.0/21",
       "163.61.129.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:3740::/48",
       "2001:df0:7880::/48",
       "2001:df7:1f80::/48"

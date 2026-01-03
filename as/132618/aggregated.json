@@ -1,9 +1,12 @@
 {
-  "asn": 132618,
-  "handle": "REALFUTURE-AS-AP",
-  "description": "True Move Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132618,
+  "metadata" : {
+    "handle" : "REALFUTURE-AS-AP",
+    "description" : "True Move Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.237.0.0/19",
       "49.237.32.0/20",
       "49.237.50.0/23",
@@ -25,7 +28,7 @@
       "223.24.192.0/19",
       "223.24.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:2700:8000::/33"
     ]
   }

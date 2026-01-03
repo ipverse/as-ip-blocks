@@ -1,15 +1,18 @@
 {
-  "asn": 49409,
-  "handle": "IVERNORGE",
-  "description": "IVER NORGE AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49409,
+  "metadata" : {
+    "handle" : "IVERNORGE",
+    "description" : "IVER NORGE AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.141.80.0/20",
       "185.134.124.0/23",
       "185.134.127.0/24",
       "185.179.246.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:f58::/36",
       "2a02:f58:1000::/48",
       "2a02:f59::/32",

@@ -1,12 +1,15 @@
 {
-  "asn": 47118,
-  "handle": "MANNET-AS",
-  "description": "MAN net Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47118,
+  "metadata" : {
+    "handle" : "MANNET-AS",
+    "description" : "MAN net Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.135.48.0/20",
       "91.203.176.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 270976,
-  "handle": "FOX-NET-FS",
-  "description": "FOX NET FS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270976,
+  "metadata" : {
+    "handle" : "FOX-NET-FS",
+    "description" : "FOX NET FS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.43.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:745c::/33",
       "2804:745c:8000::/36",
       "2804:745c:a000::/36",

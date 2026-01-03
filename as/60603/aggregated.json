@@ -1,12 +1,15 @@
 {
-  "asn": 60603,
-  "handle": "UTEL-AS",
-  "description": "Utel Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60603,
+  "metadata" : {
+    "handle" : "UTEL-AS",
+    "description" : "Utel Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.171.10.0/23",
       "95.47.147.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 64261,
-  "handle": "ASN-CVILLE-FIBERCOM",
-  "description": "City of Cartersville",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64261,
+  "metadata" : {
+    "handle" : "ASN-CVILLE-FIBERCOM",
+    "description" : "City of Cartersville",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.7.36.0/22",
       "104.36.136.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

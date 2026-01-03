@@ -1,9 +1,12 @@
 {
-  "asn": 46573,
-  "handle": "VAULT-HOST",
-  "description": "Vault Host",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46573,
+  "metadata" : {
+    "handle" : "VAULT-HOST",
+    "description" : "Vault Host",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.228.64.0/20",
       "23.228.80.0/23",
       "23.228.82.0/24",
@@ -32,7 +35,7 @@
       "182.255.37.0/24",
       "192.48.32.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:d180::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 25808,
-  "handle": "CONCORD-MA",
-  "description": "Town of Concord MA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25808,
+  "metadata" : {
+    "handle" : "CONCORD-MA",
+    "description" : "Town of Concord MA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.97.130.0/24",
       "38.97.136.0/24",
       "38.242.8.0/22",
@@ -12,6 +15,6 @@
       "199.125.66.0/24",
       "199.125.68.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

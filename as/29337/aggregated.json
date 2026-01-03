@@ -1,15 +1,18 @@
 {
-  "asn": 29337,
-  "handle": "DRAGONET-AS",
-  "description": "Dragonet Comunicaciones SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29337,
+  "metadata" : {
+    "handle" : "DRAGONET-AS",
+    "description" : "Dragonet Comunicaciones SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.140.188.0/22",
       "217.70.240.0/21",
       "217.70.248.0/22",
       "217.70.252.0/23",
       "217.70.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

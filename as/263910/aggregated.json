@@ -1,14 +1,17 @@
 {
-  "asn": 263910,
-  "handle": "GURISAT-GURINET",
-  "description": "Gurisat Gurinet Ltda Me",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263910,
+  "metadata" : {
+    "handle" : "GURISAT-GURINET",
+    "description" : "Gurisat Gurinet Ltda Me",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.160.240.0/22",
       "138.185.120.0/22",
       "170.80.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2790::/32"
     ]
   }

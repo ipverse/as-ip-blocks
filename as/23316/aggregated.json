@@ -1,9 +1,12 @@
 {
-  "asn": 23316,
-  "handle": "BAI-IP-SERVICES",
-  "description": "Bel Air Internet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23316,
+  "metadata" : {
+    "handle" : "BAI-IP-SERVICES",
+    "description" : "Bel Air Internet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.227.224.0/19",
       "24.72.144.0/20",
       "64.136.128.0/19",
@@ -40,7 +43,7 @@
       "216.193.225.0/24",
       "216.240.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f7b0:400::/40"
     ]
   }

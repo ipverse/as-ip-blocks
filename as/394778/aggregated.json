@@ -1,9 +1,12 @@
 {
-  "asn": 394778,
-  "handle": "NEMR",
-  "description": "Northeast Missouri Rural Telephone Co",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394778,
+  "metadata" : {
+    "handle" : "NEMR",
+    "description" : "Northeast Missouri Rural Telephone Co.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.111.37.0/24",
       "65.255.129.0/24",
       "65.255.133.0/24",
@@ -27,7 +30,7 @@
       "216.247.72.0/22",
       "216.247.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:44c0::/32"
     ]
   }

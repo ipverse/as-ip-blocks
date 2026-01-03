@@ -1,13 +1,16 @@
 {
-  "asn": 22136,
-  "handle": "NYCT",
-  "description": "New York Connect",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22136,
+  "metadata" : {
+    "handle" : "NYCT",
+    "description" : "New York Connect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.4.96.0/20",
       "216.139.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:e700::/32"
     ]
   }

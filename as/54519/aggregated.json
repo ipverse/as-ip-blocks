@@ -1,9 +1,12 @@
 {
-  "asn": 54519,
-  "handle": "US-SIGNAL-WI02",
-  "description": "US Signal Company L.L.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54519,
+  "metadata" : {
+    "handle" : "US-SIGNAL-WI02",
+    "description" : "US Signal Company L.L.C.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.84.9.0/24",
       "66.98.96.0/21",
       "75.141.11.0/24",
@@ -11,7 +14,7 @@
       "204.194.254.0/23",
       "216.120.140.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:18c8:400::/40"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 203936,
-  "handle": "AS-MISMENET",
-  "description": "AVATEL TELECOM SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203936,
+  "metadata" : {
+    "handle" : "AS-MISMENET",
+    "description" : "AVATEL TELECOM SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.93.180.0/22",
       "45.144.248.0/22",
       "89.40.238.0/24",
@@ -20,7 +23,7 @@
       "194.15.232.0/24",
       "194.26.1.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:1380::/29"
     ]
   }

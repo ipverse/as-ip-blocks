@@ -1,13 +1,16 @@
 {
-  "asn": 31473,
-  "handle": "BEARINGPOINT-MANAGED-AS",
-  "description": "BearingPoint GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31473,
+  "metadata" : {
+    "handle" : "BEARINGPOINT-MANAGED-AS",
+    "description" : "BearingPoint GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.76.210.0/24",
       "194.76.239.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2328::/48"
     ]
   }

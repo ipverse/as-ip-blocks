@@ -1,12 +1,15 @@
 {
-  "asn": 49762,
-  "handle": "SMN-AS",
-  "description": "Elisa Santa Monica Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49762,
+  "metadata" : {
+    "handle" : "SMN-AS",
+    "description" : "Elisa Santa Monica Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.211.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:245c::/48",
       "2001:998:82::/48"
     ]

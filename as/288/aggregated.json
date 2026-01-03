@@ -1,9 +1,12 @@
 {
-  "asn": 288,
-  "handle": "ESA",
-  "description": "European Space Agency (ESA)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 288,
+  "metadata" : {
+    "handle" : "ESA",
+    "description" : "European Space Agency (ESA)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.176.0.0/23",
       "131.176.26.0/23",
       "131.176.32.0/22",
@@ -50,6 +53,6 @@
       "192.171.2.0/23",
       "192.171.4.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

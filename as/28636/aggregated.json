@@ -1,13 +1,16 @@
 {
-  "asn": 28636,
-  "handle": "CDI-TELECOM",
-  "description": "CDI TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28636,
+  "metadata" : {
+    "handle" : "CDI-TELECOM",
+    "description" : "CDI TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.150.68.0/22",
       "179.97.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:dc8::/32"
     ]
   }

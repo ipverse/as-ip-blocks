@@ -1,13 +1,16 @@
 {
-  "asn": 400442,
-  "handle": "VULPINE-NETWORKS",
-  "description": "Vulpine Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400442,
+  "metadata" : {
+    "handle" : "VULPINE-NETWORKS",
+    "description" : "Vulpine Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.133.168.0/24",
       "205.236.99.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fbc7::/36"
     ]
   }

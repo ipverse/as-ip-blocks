@@ -1,12 +1,15 @@
 {
-  "asn": 272336,
-  "handle": "SECRETARIA-RELACIONES-EXTERIORES",
-  "description": "Secretaría de Relaciones Exteriores",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272336,
+  "metadata" : {
+    "handle" : "SECRETARIA-RELACIONES-EXTERIORES",
+    "description" : "Secretaría de Relaciones Exteriores",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.33.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:c4:1103::/48",
       "2801:c4:1109::/48",
       "2801:c4:110f::/48",

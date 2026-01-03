@@ -1,10 +1,13 @@
 {
-  "asn": 153190,
-  "handle": "ZHANGCHONG-AS-AP",
-  "description": "Zhang Chong",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 153190,
+  "metadata" : {
+    "handle" : "ZHANGCHONG-AS-AP",
+    "description" : "Zhang Chong",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2406:840:fc70::/44",
       "2406:840:fedc::/48"
     ]

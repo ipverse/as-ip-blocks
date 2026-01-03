@@ -1,9 +1,12 @@
 {
-  "asn": 146817,
-  "handle": "FXNET",
-  "description": "Hubei Feixun Network Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 146817,
+  "metadata" : {
+    "handle" : "FXNET",
+    "description" : "Hubei Feixun Network Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.242.192.0/22",
       "43.248.0.0/22",
       "59.153.164.0/22",
@@ -25,6 +28,6 @@
       "210.16.184.0/24",
       "211.154.16.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

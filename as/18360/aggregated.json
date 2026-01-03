@@ -1,11 +1,14 @@
 {
-  "asn": 18360,
-  "handle": "UST-AS-AP",
-  "description": "University of Santo Tomas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18360,
+  "metadata" : {
+    "handle" : "UST-AS-AP",
+    "description" : "University of Santo Tomas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.65.176.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

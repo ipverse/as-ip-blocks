@@ -1,13 +1,16 @@
 {
-  "asn": 25496,
-  "handle": "ZT-AS",
-  "description": "ZSR - ZT Bratislava",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25496,
+  "metadata" : {
+    "handle" : "ZT-AS",
+    "description" : "ZSR - ZT Bratislava",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.43.112.0/22",
       "217.12.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:8a80::/32"
     ]
   }

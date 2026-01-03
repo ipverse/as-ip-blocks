@@ -1,9 +1,12 @@
 {
-  "asn": 40410,
-  "handle": "USFRCS-BGP",
-  "description": "FRIT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40410,
+  "metadata" : {
+    "handle" : "USFRCS-BGP",
+    "description" : "FRIT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.9.237.0/24",
       "8.22.196.0/24",
       "8.192.28.0/24",
@@ -30,6 +33,6 @@
       "199.169.232.0/21",
       "199.169.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

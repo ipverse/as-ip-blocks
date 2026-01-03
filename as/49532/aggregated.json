@@ -1,9 +1,12 @@
 {
-  "asn": 49532,
-  "handle": "SERVERHUB-NL",
-  "description": "Eonix Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49532,
+  "metadata" : {
+    "handle" : "SERVERHUB-NL",
+    "description" : "Eonix Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.2.36.0/22",
       "50.3.70.0/23",
       "50.3.72.0/23",
@@ -22,7 +25,7 @@
       "173.213.92.0/23",
       "185.137.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:ad80:8002::/48",
       "2a07:440::/32"
     ]

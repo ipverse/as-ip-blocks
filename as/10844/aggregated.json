@@ -1,13 +1,16 @@
 {
-  "asn": 10844,
-  "handle": "VASTNET",
-  "description": "Vastnet Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10844,
+  "metadata" : {
+    "handle" : "VASTNET",
+    "description" : "Vastnet Corp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.105.84.0/22",
       "207.252.0.0/22",
       "207.252.72.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

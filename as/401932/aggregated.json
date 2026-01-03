@@ -1,10 +1,13 @@
 {
-  "asn": 401932,
-  "handle": "ELEMONO-AS",
-  "description": "Elemono LLC",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 401932,
+  "metadata" : {
+    "handle" : "ELEMONO-AS",
+    "description" : "Elemono LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2602:f59d:1::/48",
       "2602:f59d:2::/47"
     ]

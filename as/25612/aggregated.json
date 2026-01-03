@@ -1,14 +1,17 @@
 {
-  "asn": 25612,
-  "handle": "DSL-EXPRESS",
-  "description": "DSL EXPRESS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25612,
+  "metadata" : {
+    "handle" : "DSL-EXPRESS",
+    "description" : "DSL EXPRESS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.238.16.0/20",
       "66.251.197.0/24",
       "72.0.107.0/24",
       "209.150.0.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

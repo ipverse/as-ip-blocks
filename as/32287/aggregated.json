@@ -1,9 +1,12 @@
 {
-  "asn": 32287,
-  "handle": "SOLANA-CITIPLEX",
-  "description": "Citigroup Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32287,
+  "metadata" : {
+    "handle" : "SOLANA-CITIPLEX",
+    "description" : "Citigroup Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.193.10.0/24",
       "192.193.13.0/24",
       "192.193.17.0/24",
@@ -22,6 +25,6 @@
       "192.193.224.0/23",
       "192.193.226.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 151397,
-  "handle": "CT-ESURFINGCLOUD-CDN",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151397,
+  "metadata" : {
+    "handle" : "CT-ESURFINGCLOUD-CDN",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.119.0.0/24",
       "193.119.4.0/24",
       "193.119.6.0/24",
@@ -19,7 +22,7 @@
       "193.119.28.0/24",
       "193.119.30.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:983:2010::/48",
       "240e:983:2013::/48",
       "240e:983:2020::/48",

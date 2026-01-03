@@ -1,9 +1,12 @@
 {
-  "asn": 213520,
-  "handle": "SENKO-AS",
-  "description": "Senko Digital Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213520,
+  "metadata" : {
+    "handle" : "SENKO-AS",
+    "description" : "Senko Digital Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.188.68.0/22",
       "64.188.74.0/24",
       "64.188.104.0/22",
@@ -22,7 +25,7 @@
       "193.23.218.0/23",
       "193.135.137.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:bec4:1b50::/44",
       "2a12:bec4:1bb0::/44",
       "2a12:bec4:1d60::/43",

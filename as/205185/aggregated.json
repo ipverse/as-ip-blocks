@@ -1,9 +1,12 @@
 {
-  "asn": 205185,
-  "handle": "DCSPINE",
-  "description": "Eurofiber Cloud Infra B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205185,
+  "metadata" : {
+    "handle" : "DCSPINE",
+    "description" : "Eurofiber Cloud Infra B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.129.172.0/22",
       "86.105.160.0/22",
       "93.187.48.0/24",
@@ -15,7 +18,7 @@
       "194.135.48.0/22",
       "212.125.140.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:8600::/29",
       "2a0f:dc40::/29",
       "2a14:2940::/29"

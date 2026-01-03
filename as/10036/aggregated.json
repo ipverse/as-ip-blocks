@@ -1,9 +1,12 @@
 {
-  "asn": 10036,
-  "handle": "CNM-AS",
-  "description": "DLIVE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10036,
+  "metadata" : {
+    "handle" : "CNM-AS",
+    "description" : "DLIVE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.138.224.0/21",
       "14.138.232.0/22",
       "14.138.245.0/24",
@@ -135,6 +138,6 @@
       "211.237.224.0/20",
       "211.255.160.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

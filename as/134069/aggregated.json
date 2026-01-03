@@ -1,14 +1,17 @@
 {
-  "asn": 134069,
-  "handle": "NMSBM-AS-AP",
-  "description": "NTT MSC SDN. BHD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134069,
+  "metadata" : {
+    "handle" : "NMSBM-AS-AP",
+    "description" : "NTT MSC SDN. BHD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.231.224.0/22",
       "45.115.220.0/22",
       "103.51.48.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:1a80::/32"
     ]
   }

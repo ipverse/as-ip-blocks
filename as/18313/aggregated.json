@@ -1,9 +1,12 @@
 {
-  "asn": 18313,
-  "handle": "PCN-AS",
-  "description": "LG HelloVision Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18313,
+  "metadata" : {
+    "handle" : "PCN-AS",
+    "description" : "LG HelloVision Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.11.0.0/21",
       "1.11.24.0/21",
       "1.11.40.0/21",
@@ -28,6 +31,6 @@
       "211.236.128.0/19",
       "211.236.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

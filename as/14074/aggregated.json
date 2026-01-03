@@ -1,9 +1,12 @@
 {
-  "asn": 14074,
-  "handle": "COLGATE",
-  "description": "Colgate-Palmolive Co",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14074,
+  "metadata" : {
+    "handle" : "COLGATE",
+    "description" : "Colgate-Palmolive Co.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.104.42.0/24",
       "192.132.217.0/24",
       "192.132.218.0/23",
@@ -14,7 +17,7 @@
       "192.132.228.0/23",
       "192.132.230.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:133:2000::/40"
     ]
   }

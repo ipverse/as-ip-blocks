@@ -1,13 +1,16 @@
 {
-  "asn": 399341,
-  "handle": "CD",
-  "description": "Campaign Deputy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399341,
+  "metadata" : {
+    "handle" : "CD",
+    "description" : "Campaign Deputy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.92.208.0/24",
       "205.207.186.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fa4d:10::/44"
     ]
   }

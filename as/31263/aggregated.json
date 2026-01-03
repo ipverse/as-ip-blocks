@@ -1,9 +1,12 @@
 {
-  "asn": 31263,
-  "handle": "MYNET-AS",
-  "description": "MYNET S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31263,
+  "metadata" : {
+    "handle" : "MYNET-AS",
+    "description" : "MYNET S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.44.160.0/20",
       "31.193.144.0/20",
       "45.67.40.0/22",
@@ -40,7 +43,7 @@
       "195.182.232.0/21",
       "195.182.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:600::/29",
       "2a07:580::/29",
       "2a07:4f00::/29",

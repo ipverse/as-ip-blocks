@@ -1,14 +1,17 @@
 {
-  "asn": 32550,
-  "handle": "EQUINIX-EC-SE",
-  "description": "Equinix Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32550,
+  "metadata" : {
+    "handle" : "EQUINIX-EC-SE",
+    "description" : "Equinix Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.215.96.0/24",
       "142.215.100.0/24",
       "198.32.111.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f6f0:20c::/48"
     ]
   }

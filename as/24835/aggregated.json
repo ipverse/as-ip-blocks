@@ -1,9 +1,12 @@
 {
-  "asn": 24835,
-  "handle": "RAYA-AS",
-  "description": "Vodafone Data",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24835,
+  "metadata" : {
+    "handle" : "RAYA-AS",
+    "description" : "Vodafone Data",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.68.0.0/15",
       "62.68.224.0/19",
       "62.240.96.0/19",
@@ -38,7 +41,7 @@
       "197.132.0.0/14",
       "213.212.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4220:8000::/33"
     ]
   }

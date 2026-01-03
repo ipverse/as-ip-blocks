@@ -1,13 +1,16 @@
 {
-  "asn": 13257,
-  "handle": "POLARCOM-AS",
-  "description": "PJSC Vimpelcom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13257,
+  "metadata" : {
+    "handle" : "POLARCOM-AS",
+    "description" : "PJSC Vimpelcom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.245.192.0/20",
       "178.23.0.0/21",
       "213.142.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

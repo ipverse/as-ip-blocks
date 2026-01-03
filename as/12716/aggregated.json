@@ -1,9 +1,12 @@
 {
-  "asn": 12716,
-  "handle": "A1BG-MB",
-  "description": "A1 Bulgaria EAD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12716,
+  "metadata" : {
+    "handle" : "A1BG-MB",
+    "description" : "A1 Bulgaria EAD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.63.0.0/19",
       "37.63.32.0/22",
       "37.63.96.0/22",
@@ -46,7 +49,7 @@
       "213.226.56.0/23",
       "213.226.59.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1ac8:1::/48"
     ]
   }

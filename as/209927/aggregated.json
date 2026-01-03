@@ -1,11 +1,14 @@
 {
-  "asn": 209927,
-  "handle": "INET-SRV",
-  "description": "LLC Internet Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209927,
+  "metadata" : {
+    "handle" : "INET-SRV",
+    "description" : "LLC Internet Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "92.118.132.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

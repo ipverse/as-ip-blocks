@@ -1,12 +1,15 @@
 {
-  "asn": 32980,
-  "handle": "NEUSTAR-AS5",
-  "description": "NeuStar Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32980,
+  "metadata" : {
+    "handle" : "NEUSTAR-AS5",
+    "description" : "NeuStar Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "156.154.89.0/24",
       "156.154.90.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

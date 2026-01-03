@@ -1,15 +1,18 @@
 {
-  "asn": 14298,
-  "handle": "EPA-NET",
-  "description": "Environmental Protection Agency",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14298,
+  "metadata" : {
+    "handle" : "EPA-NET",
+    "description" : "Environmental Protection Agency",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.67.0.0/16",
       "161.80.0.0/16",
       "192.58.247.0/24",
       "204.46.0.0/15"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:117:5000::/36"
     ]
   }

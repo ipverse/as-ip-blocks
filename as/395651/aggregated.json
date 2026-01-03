@@ -1,12 +1,15 @@
 {
-  "asn": 395651,
-  "handle": "TAHOEIX",
-  "description": "Tahoe Internet Exchange (TahoeIX)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395651,
+  "metadata" : {
+    "handle" : "TAHOEIX",
+    "description" : "Tahoe Internet Exchange (TahoeIX)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.38.241.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:13:a000::/48"
     ]
   }

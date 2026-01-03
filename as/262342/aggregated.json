@@ -1,15 +1,18 @@
 {
-  "asn": 262342,
-  "handle": "WZNET-TELECOM",
-  "description": "WZNET TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262342,
+  "metadata" : {
+    "handle" : "WZNET-TELECOM",
+    "description" : "WZNET TELECOM LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.226.2.0/24",
       "143.208.208.0/22",
       "177.125.112.0/21",
       "186.227.216.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:a14::/32"
     ]
   }

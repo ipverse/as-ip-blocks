@@ -1,14 +1,17 @@
 {
-  "asn": 22953,
-  "handle": "CALCULQUEBEC",
-  "description": "Calcul Quebec",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22953,
+  "metadata" : {
+    "handle" : "CALCULQUEBEC",
+    "description" : "Calcul Quebec",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.219.136.0/24",
       "132.219.138.0/24",
       "198.168.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:60:8000::/44"
     ]
   }

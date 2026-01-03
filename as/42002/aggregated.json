@@ -1,11 +1,14 @@
 {
-  "asn": 42002,
-  "handle": "DIXTELECOM",
-  "description": "Dix Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42002,
+  "metadata" : {
+    "handle" : "DIXTELECOM",
+    "description" : "Dix Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.101.24.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

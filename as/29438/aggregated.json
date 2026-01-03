@@ -1,13 +1,16 @@
 {
-  "asn": 29438,
-  "handle": "MOMAX-AS",
-  "description": "Momax Network S.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29438,
+  "metadata" : {
+    "handle" : "MOMAX-AS",
+    "description" : "Momax Network S.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.225.192.0/19",
       "213.225.232.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:c260::/33"
     ]
   }

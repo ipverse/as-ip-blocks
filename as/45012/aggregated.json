@@ -1,9 +1,12 @@
 {
-  "asn": 45012,
-  "handle": "CLOUDPIT",
-  "description": "dogado GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45012,
+  "metadata" : {
+    "handle" : "CLOUDPIT",
+    "description" : "dogado GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.44.100.0/22",
       "5.44.104.0/22",
       "31.47.240.0/20",
@@ -38,7 +41,7 @@
       "195.5.120.0/23",
       "195.82.152.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:64c0::/32",
       "2a02:2b80::/47",
       "2a02:2b80:101::/48",

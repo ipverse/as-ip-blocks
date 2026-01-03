@@ -1,9 +1,12 @@
 {
-  "asn": 19112,
-  "handle": "NEW-LISBON-BROADBAND-AND-COMMUNICATIONS",
-  "description": "New Lisbon Telephone Co. INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19112,
+  "metadata" : {
+    "handle" : "NEW-LISBON-BROADBAND-AND-COMMUNICATIONS",
+    "description" : "New Lisbon Telephone Co. INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.187.128.0/20",
       "45.41.56.0/22",
       "64.184.96.0/22",
@@ -13,6 +16,6 @@
       "205.185.12.0/24",
       "208.103.46.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

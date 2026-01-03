@@ -1,9 +1,12 @@
 {
-  "asn": 1251,
-  "handle": "FUNDACAO-AMPARO-PESQUISA",
-  "description": "FUNDAÇÃO DE AMPARO À PESQUISA DO ESTADO SÃO PAULO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1251,
+  "metadata" : {
+    "handle" : "FUNDACAO-AMPARO-PESQUISA",
+    "description" : "FUNDAÇÃO DE AMPARO À PESQUISA DO ESTADO SÃO PAULO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.108.0.0/16",
       "200.6.42.0/24",
       "200.10.178.0/23",
@@ -29,7 +32,7 @@
       "200.144.120.0/21",
       "200.144.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:12d8::/32"
     ]
   }

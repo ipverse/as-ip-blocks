@@ -1,11 +1,14 @@
 {
-  "asn": 51766,
-  "handle": "MFRS-AS",
-  "description": "Merseyside Fire and Rescue Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51766,
+  "metadata" : {
+    "handle" : "MFRS-AS",
+    "description" : "Merseyside Fire and Rescue Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.220.52.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

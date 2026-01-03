@@ -1,9 +1,12 @@
 {
-  "asn": 62068,
-  "handle": "SPECTRAIP",
-  "description": "SpectraIP B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62068,
+  "metadata" : {
+    "handle" : "SPECTRAIP",
+    "description" : "SpectraIP B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.182.208.0/22",
       "43.240.150.0/24",
       "45.14.224.0/22",
@@ -23,7 +26,7 @@
       "185.224.130.0/23",
       "185.244.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:2400::/30",
       "2a0d:2404::/31",
       "2a0d:2406::/39",

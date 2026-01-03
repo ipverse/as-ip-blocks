@@ -1,11 +1,14 @@
 {
-  "asn": 11004,
-  "handle": "CITY-OF-GOLDEN-01",
-  "description": "City of Golden",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11004,
+  "metadata" : {
+    "handle" : "CITY-OF-GOLDEN-01",
+    "description" : "City of Golden",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.161.120.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

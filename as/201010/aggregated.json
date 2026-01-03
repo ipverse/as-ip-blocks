@@ -1,12 +1,15 @@
 {
-  "asn": 201010,
-  "handle": "YPSILON-AS",
-  "description": "Ypsilon.Net AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201010,
+  "metadata" : {
+    "handle" : "YPSILON-AS",
+    "description" : "Ypsilon.Net AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.89.25.0/24",
       "185.89.26.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

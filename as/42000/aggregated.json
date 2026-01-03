@@ -1,9 +1,12 @@
 {
-  "asn": 42000,
-  "handle": "KAORA",
-  "description": "Futruy s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42000,
+  "metadata" : {
+    "handle" : "KAORA",
+    "description" : "Futruy s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.103.160.0/21",
       "94.124.104.0/21",
       "185.99.68.0/22",
@@ -11,7 +14,7 @@
       "192.162.96.0/22",
       "217.11.245.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1790::/29"
     ]
   }

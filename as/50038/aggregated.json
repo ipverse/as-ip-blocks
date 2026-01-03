@@ -1,12 +1,15 @@
 {
-  "asn": 50038,
-  "handle": "SIRENATRAVEL-AS",
-  "description": "Joint Stock Company Sirena-Travel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50038,
+  "metadata" : {
+    "handle" : "SIRENATRAVEL-AS",
+    "description" : "Joint Stock Company Sirena-Travel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.104.87.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:1024::/48"
     ]
   }

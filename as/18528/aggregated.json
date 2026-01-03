@@ -1,11 +1,14 @@
 {
-  "asn": 18528,
-  "handle": "COW-DR-01",
-  "description": "The Corporation of the City of Waterloo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18528,
+  "metadata" : {
+    "handle" : "COW-DR-01",
+    "description" : "The Corporation of the City of Waterloo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.212.50.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

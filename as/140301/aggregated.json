@@ -1,10 +1,13 @@
 {
-  "asn": 140301,
-  "handle": "CHINATELECOM-JIANGSU-TAIZHOU-5G-NETWORK",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 140301,
+  "metadata" : {
+    "handle" : "CHINATELECOM-JIANGSU-TAIZHOU-5G-NETWORK",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "240e:5a:4840::/42",
       "240e:5a:4880::/41"
     ]

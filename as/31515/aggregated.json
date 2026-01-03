@@ -1,12 +1,15 @@
 {
-  "asn": 31515,
-  "handle": "AS-INMARSAT",
-  "description": "Inmarsat Global Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31515,
+  "metadata" : {
+    "handle" : "AS-INMARSAT",
+    "description" : "Inmarsat Global Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.30.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:ae00::/32"
     ]
   }

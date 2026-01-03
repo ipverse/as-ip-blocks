@@ -1,9 +1,12 @@
 {
-  "asn": 18190,
-  "handle": "WWW-PH-AP",
-  "description": "Eastern Telecommunications Philippines Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18190,
+  "metadata" : {
+    "handle" : "WWW-PH-AP",
+    "description" : "Eastern Telecommunications Philippines Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.49.89.0/24",
       "27.49.90.0/23",
       "113.61.32.0/22",
@@ -16,6 +19,6 @@
       "120.28.56.0/24",
       "136.158.161.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

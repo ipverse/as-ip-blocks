@@ -1,12 +1,15 @@
 {
-  "asn": 32086,
-  "handle": "PSHP-AS",
-  "description": "PACIFICSOURCE HEALTH PLANS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32086,
+  "metadata" : {
+    "handle" : "PSHP-AS",
+    "description" : "PACIFICSOURCE HEALTH PLANS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.59.89.0/24",
       "204.115.254.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

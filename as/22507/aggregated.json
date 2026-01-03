@@ -1,11 +1,14 @@
 {
-  "asn": 22507,
-  "handle": "SPROUTS",
-  "description": "Sprouts Farmers Market",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22507,
+  "metadata" : {
+    "handle" : "SPROUTS",
+    "description" : "Sprouts Farmers Market",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.156.164.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 264030,
-  "handle": "FIBER-TELECOM",
-  "description": "FIBER TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264030,
+  "metadata" : {
+    "handle" : "FIBER-TELECOM",
+    "description" : "FIBER TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.137.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:29b4::/32"
     ]
   }

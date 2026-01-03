@@ -1,9 +1,12 @@
 {
-  "asn": 9457,
-  "handle": "DREAMX-AS",
-  "description": "DREAMLINE CO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9457,
+  "metadata" : {
+    "handle" : "DREAMX-AS",
+    "description" : "DREAMLINE CO.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "40.183.92.0/24",
       "59.150.0.0/21",
       "59.150.12.0/24",
@@ -72,7 +75,7 @@
       "220.64.0.0/16",
       "220.230.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:c48::/32"
     ]
   }

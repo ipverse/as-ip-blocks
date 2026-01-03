@@ -1,9 +1,12 @@
 {
-  "asn": 17682,
-  "handle": "CABLENET296",
-  "description": "296 BROAD NET Com Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17682,
+  "metadata" : {
+    "handle" : "CABLENET296",
+    "description" : "296 BROAD NET Com Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "42.187.124.0/22",
       "61.213.16.0/20",
       "61.213.32.0/20",
@@ -13,7 +16,7 @@
       "219.100.56.0/22",
       "223.29.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:1580::/32"
     ]
   }

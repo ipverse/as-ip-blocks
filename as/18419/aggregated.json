@@ -1,9 +1,12 @@
 {
-  "asn": 18419,
-  "handle": "DADA-AS-TW",
-  "description": "DaDa Broadband LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18419,
+  "metadata" : {
+    "handle" : "DADA-AS-TW",
+    "description" : "DaDa Broadband LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "39.1.96.0/20",
       "61.60.192.0/20",
       "103.130.92.0/22",
@@ -27,6 +30,6 @@
       "218.34.96.0/21",
       "218.34.104.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 397347,
-  "handle": "NORTH-AS1",
-  "description": "NorthfieldWiFi LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397347,
+  "metadata" : {
+    "handle" : "NORTH-AS1",
+    "description" : "NorthfieldWiFi LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.178.96.0/24",
       "74.116.16.0/22",
       "74.122.96.0/22",
       "198.52.92.0/22",
       "199.87.192.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

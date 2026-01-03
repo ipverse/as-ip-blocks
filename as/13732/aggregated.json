@@ -1,13 +1,16 @@
 {
-  "asn": 13732,
-  "handle": "CELLNET",
-  "description": "CellNet Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13732,
+  "metadata" : {
+    "handle" : "CELLNET",
+    "description" : "CellNet Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.147.244.0/24",
       "44.32.100.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:de:a000::/48"
     ]
   }

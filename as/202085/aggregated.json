@@ -1,9 +1,12 @@
 {
-  "asn": 202085,
-  "handle": "KVT-AS",
-  "description": "UAB Kvartalo Tinklas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202085,
+  "metadata" : {
+    "handle" : "KVT-AS",
+    "description" : "UAB Kvartalo Tinklas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.160.140.0/24",
       "213.252.210.0/23",
       "213.252.212.0/22",
@@ -11,6 +14,6 @@
       "213.252.221.0/24",
       "213.252.222.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

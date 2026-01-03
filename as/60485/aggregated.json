@@ -1,9 +1,12 @@
 {
-  "asn": 60485,
-  "handle": "AS-60485",
-  "description": "Angelnet Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60485,
+  "metadata" : {
+    "handle" : "AS-60485",
+    "description" : "Angelnet Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.157.18.0/24",
       "5.157.38.0/24",
       "5.157.47.0/24",
@@ -24,6 +27,6 @@
       "196.196.243.0/24",
       "196.196.244.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

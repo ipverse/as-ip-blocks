@@ -1,9 +1,12 @@
 {
-  "asn": 3464,
-  "handle": "ASC-NET",
-  "description": "Alabama Supercomputer Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3464,
+  "metadata" : {
+    "handle" : "ASC-NET",
+    "description" : "Alabama Supercomputer Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.66.0.0/16",
       "157.149.0.0/16",
       "192.31.107.0/24",
@@ -25,7 +28,7 @@
       "207.157.0.0/17",
       "216.109.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f808::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 141921,
-  "handle": "IDNIC-ISEVEN-AS-ID",
-  "description": "PT Jaringan Keluarga Bersama",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141921,
+  "metadata" : {
+    "handle" : "IDNIC-ISEVEN-AS-ID",
+    "description" : "PT Jaringan Keluarga Bersama",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.165.155.0/24",
       "103.178.194.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:ac0::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 53667,
-  "handle": "PONYNET",
-  "description": "FranTech Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53667,
+  "metadata" : {
+    "handle" : "PONYNET",
+    "description" : "FranTech Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.59.127.0/24",
       "45.61.176.0/21",
       "45.61.184.0/22",
@@ -22,7 +25,7 @@
       "205.185.112.0/20",
       "209.141.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:4d40:2000::/36",
       "2605:6400:2::/47",
       "2605:6400:20::/48",

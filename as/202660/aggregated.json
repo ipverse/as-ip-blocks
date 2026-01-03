@@ -1,9 +1,12 @@
 {
-  "asn": 202660,
-  "handle": "BRM-DATACENTER",
-  "description": "Uzbektelekom Joint Stock Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202660,
+  "metadata" : {
+    "handle" : "BRM-DATACENTER",
+    "description" : "Uzbektelekom Joint Stock Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.126.208.0/22",
       "92.63.206.0/23",
       "109.94.172.0/24",
@@ -11,7 +14,7 @@
       "185.100.52.0/22",
       "198.163.207.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:45c7:e000::/36"
     ]
   }

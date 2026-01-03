@@ -1,13 +1,16 @@
 {
-  "asn": 55599,
-  "handle": "NAMYANGI-AS",
-  "description": "namyang",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55599,
+  "metadata" : {
+    "handle" : "NAMYANGI-AS",
+    "description" : "namyang",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.90.209.0/24",
       "203.234.208.0/24",
       "211.42.184.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

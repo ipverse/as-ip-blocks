@@ -1,9 +1,12 @@
 {
-  "asn": 3605,
-  "handle": "ERX-KUENTOS-AS",
-  "description": "Kuentos Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3605,
+  "metadata" : {
+    "handle" : "ERX-KUENTOS-AS",
+    "description" : "Kuentos Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "101.99.128.0/17",
       "121.55.192.0/18",
       "182.173.192.0/18",
@@ -14,7 +17,7 @@
       "204.44.188.0/22",
       "208.245.168.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:8c00::/32"
     ]
   }

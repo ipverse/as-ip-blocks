@@ -1,9 +1,12 @@
 {
-  "asn": 51043,
-  "handle": "ASPIRE01",
-  "description": "Aspire Technology Solutions Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51043,
+  "metadata" : {
+    "handle" : "ASPIRE01",
+    "description" : "Aspire Technology Solutions Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.22.136.0/21",
       "45.88.98.0/24",
       "83.98.32.0/19",
@@ -20,7 +23,7 @@
       "212.36.127.0/24",
       "212.47.86.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ed40::/32"
     ]
   }

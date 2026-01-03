@@ -1,9 +1,12 @@
 {
-  "asn": 214760,
-  "handle": "LS4KDC",
-  "description": "LS4KDC LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214760,
+  "metadata" : {
+    "handle" : "LS4KDC",
+    "description" : "LS4KDC LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.57.5.0/24",
       "149.57.23.0/24",
       "149.57.41.0/24",
@@ -14,6 +17,6 @@
       "207.252.50.0/23",
       "209.186.78.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

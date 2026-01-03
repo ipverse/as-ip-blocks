@@ -1,15 +1,18 @@
 {
-  "asn": 198432,
-  "handle": "IPCORE-AS",
-  "description": "Ipcore Datacenters S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198432,
+  "metadata" : {
+    "handle" : "IPCORE-AS",
+    "description" : "Ipcore Datacenters S.L",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.2.88.0/22",
       "5.2.95.0/24",
       "185.75.179.0/24",
       "185.164.184.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e9c0::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 7582,
-  "handle": "UMAC-AS-AP",
-  "description": "University of Macau",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7582,
+  "metadata" : {
+    "handle" : "UMAC-AS-AP",
+    "description" : "University of Macau",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.64.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:ff8::/40"
     ]
   }

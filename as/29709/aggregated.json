@@ -1,9 +1,12 @@
 {
-  "asn": 29709,
-  "handle": "NEONET-FALLS",
-  "description": "Northeast Ohio Network for Educational Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29709,
+  "metadata" : {
+    "handle" : "NEONET-FALLS",
+    "description" : "Northeast Ohio Network for Educational Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.182.119.0/24",
       "65.182.121.0/24",
       "65.182.122.0/23",
@@ -11,6 +14,6 @@
       "204.11.184.0/21",
       "208.108.113.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 45725,
-  "handle": "KINGS-AS-ID",
-  "description": "Kings Network Indonesia PT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45725,
+  "metadata" : {
+    "handle" : "KINGS-AS-ID",
+    "description" : "Kings Network Indonesia PT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.230.152.0/22",
       "103.245.136.0/22",
       "180.211.88.0/21",
       "202.150.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:780::/48",
       "2402:780:4::/48",
       "2402:780:100::/40"

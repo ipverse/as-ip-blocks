@@ -1,9 +1,12 @@
 {
-  "asn": 43278,
-  "handle": "CASTLES-AS",
-  "description": "Castles LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43278,
+  "metadata" : {
+    "handle" : "CASTLES-AS",
+    "description" : "Castles LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.42.211.0/24",
       "45.129.237.0/24",
       "45.137.154.0/24",
@@ -21,7 +24,7 @@
       "212.46.36.0/24",
       "213.226.115.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:1301:4350::/48",
       "2a0a:4d00:9::/48"
     ]

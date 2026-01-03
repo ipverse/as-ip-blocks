@@ -1,9 +1,12 @@
 {
-  "asn": 201971,
-  "handle": "CREEPERHOSTLTD-AS",
-  "description": "CreeperHost LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201971,
+  "metadata" : {
+    "handle" : "CREEPERHOSTLTD-AS",
+    "description" : "CreeperHost LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.145.35.0/24",
       "139.28.204.0/24",
       "139.28.207.0/24",
@@ -13,7 +16,7 @@
       "217.145.236.0/24",
       "217.145.238.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:de40:80::/41",
       "2a04:de44::/42"
     ]

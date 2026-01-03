@@ -1,9 +1,12 @@
 {
-  "asn": 44489,
-  "handle": "STARNET",
-  "description": "STARNET s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44489,
+  "metadata" : {
+    "handle" : "STARNET",
+    "description" : "STARNET s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.85.172.0/22",
       "45.92.236.0/22",
       "79.110.42.0/23",
@@ -25,7 +28,7 @@
       "195.88.142.0/23",
       "213.129.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7ec0::/32",
       "2a02:768::/32",
       "2a02:4000::/32",

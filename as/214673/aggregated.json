@@ -1,14 +1,17 @@
 {
-  "asn": 214673,
-  "handle": "MIJNHOST",
-  "description": "mijn.host B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214673,
+  "metadata" : {
+    "handle" : "MIJNHOST",
+    "description" : "mijn.host B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "92.62.118.0/24",
       "178.251.232.0/24",
       "193.143.69.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:4880::/31"
     ]
   }

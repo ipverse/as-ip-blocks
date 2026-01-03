@@ -1,15 +1,18 @@
 {
-  "asn": 18694,
-  "handle": "SDWARREN",
-  "description": "Sappi Fine Paper North America",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18694,
+  "metadata" : {
+    "handle" : "SDWARREN",
+    "description" : "Sappi Fine Paper North America",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.61.192.0/21",
       "204.61.200.0/22",
       "204.61.204.0/23",
       "204.61.206.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:10::/48",
       "2620:126:2000::/40"
     ]

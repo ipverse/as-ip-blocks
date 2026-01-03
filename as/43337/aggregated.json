@@ -1,12 +1,15 @@
 {
-  "asn": 43337,
-  "handle": "LOLLANDS-NET-SBS-SERVICE",
-  "description": "SB service og LollandsNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43337,
+  "metadata" : {
+    "handle" : "LOLLANDS-NET-SBS-SERVICE",
+    "description" : "SB service og LollandsNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.207.228.0/23",
       "185.135.60.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

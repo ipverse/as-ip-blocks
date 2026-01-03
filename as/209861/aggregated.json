@@ -1,12 +1,15 @@
 {
-  "asn": 209861,
-  "handle": "AS-CHRISTOFFERUNES",
-  "description": "Christoffer Aasum Unes",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209861,
+  "metadata" : {
+    "handle" : "AS-CHRISTOFFERUNES",
+    "description" : "Christoffer Aasum Unes",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.20.75.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fafd:f03::/48",
       "2a01:ffc6:8000::/47",
       "2a0c:b641:80::/46",

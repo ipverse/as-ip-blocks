@@ -1,9 +1,12 @@
 {
-  "asn": 139220,
-  "handle": "CHINANET-SICHUAN-CHUANXI-IDC",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139220,
+  "metadata" : {
+    "handle" : "CHINANET-SICHUAN-CHUANXI-IDC",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.111.65.0/24",
       "36.111.66.0/23",
       "36.111.68.0/22",
@@ -56,7 +59,7 @@
       "222.213.21.0/24",
       "222.213.22.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:17:3800::/37",
       "240e:dd:d800::/37",
       "240e:108:11c2::/48",

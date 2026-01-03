@@ -1,11 +1,14 @@
 {
-  "asn": 32733,
-  "handle": "UD-RES-AS",
-  "description": "University of Dayton",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32733,
+  "metadata" : {
+    "handle" : "UD-RES-AS",
+    "description" : "University of Dayton",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.93.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

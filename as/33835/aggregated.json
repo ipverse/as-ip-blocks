@@ -1,14 +1,17 @@
 {
-  "asn": 33835,
-  "handle": "INFOSAT-AS",
-  "description": "WEACCESS GROUP S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33835,
+  "metadata" : {
+    "handle" : "INFOSAT-AS",
+    "description" : "WEACCESS GROUP S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "92.42.216.0/21",
       "185.21.104.0/22",
       "217.169.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2440::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 19373,
-  "handle": "TRIARACOM",
-  "description": "Triara.com S.A. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19373,
+  "metadata" : {
+    "handle" : "TRIARACOM",
+    "description" : "Triara.com S.A. de C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.202.204.0/22",
       "187.175.226.0/24",
       "187.191.64.0/19",
@@ -17,7 +20,7 @@
       "201.116.88.0/24",
       "201.161.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:270::/32",
       "2806:1080:101::/48"
     ]

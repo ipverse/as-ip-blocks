@@ -1,9 +1,12 @@
 {
-  "asn": 1680,
-  "handle": "NV-ASN",
-  "description": "Cellcom Fixed Line Communication L.P",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1680,
+  "metadata" : {
+    "handle" : "NV-ASN",
+    "description" : "Cellcom Fixed Line Communication L.P",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.46.164.0/22",
       "37.26.144.0/21",
       "46.116.0.0/15",
@@ -50,7 +53,7 @@
       "212.235.0.0/17",
       "217.132.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4df0::/29",
       "2a02:148::/29",
       "2a10:640::/32"

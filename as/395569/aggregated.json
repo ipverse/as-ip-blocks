@@ -1,9 +1,12 @@
 {
-  "asn": 395569,
-  "handle": "KMBS-CA",
-  "description": "Konica Minolta Business Solutions (Canada) LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395569,
+  "metadata" : {
+    "handle" : "KMBS-CA",
+    "description" : "Konica Minolta Business Solutions (Canada) LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.77.185.0/24",
       "74.116.224.0/22",
       "74.213.190.0/24",
@@ -14,6 +17,6 @@
       "198.185.217.0/24",
       "199.33.113.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

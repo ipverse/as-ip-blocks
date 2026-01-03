@@ -1,13 +1,16 @@
 {
-  "asn": 199898,
-  "handle": "BG-HAEMIMONT1",
-  "description": "Haemimont AD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199898,
+  "metadata" : {
+    "handle" : "BG-HAEMIMONT1",
+    "description" : "Haemimont AD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.238.251.0/24",
       "92.247.164.0/22",
       "217.79.38.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

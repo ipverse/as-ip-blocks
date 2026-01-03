@@ -1,9 +1,12 @@
 {
-  "asn": 8452,
-  "handle": "TE-AS",
-  "description": "TE-AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8452,
+  "metadata" : {
+    "handle" : "TE-AS",
+    "description" : "TE-AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.32.0.0/12",
       "41.232.0.0/13",
       "45.85.188.0/24",
@@ -19,7 +22,7 @@
       "212.103.160.0/19",
       "213.158.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4388::/32",
       "2a0e:4200::/32",
       "2c0f:7b00::/28"

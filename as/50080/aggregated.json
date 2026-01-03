@@ -1,11 +1,14 @@
 {
-  "asn": 50080,
-  "handle": "SIBSRO-AS",
-  "description": "SIBS ROMANIA S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50080,
+  "metadata" : {
+    "handle" : "SIBSRO-AS",
+    "description" : "SIBS ROMANIA S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.104.123.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

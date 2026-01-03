@@ -1,9 +1,12 @@
 {
-  "asn": 135375,
-  "handle": "TCC-AS-AP",
-  "description": "Today Communication Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135375,
+  "metadata" : {
+    "handle" : "TCC-AS-AP",
+    "description" : "Today Communication Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.26.198.0/24",
       "38.252.150.0/23",
       "45.133.168.0/24",
@@ -14,7 +17,7 @@
       "185.177.24.0/24",
       "203.95.196.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:e980::/32"
     ]
   }

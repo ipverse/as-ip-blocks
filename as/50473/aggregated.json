@@ -1,9 +1,12 @@
 {
-  "asn": 50473,
-  "handle": "ECO-AS",
-  "description": "Altagen JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50473,
+  "metadata" : {
+    "handle" : "ECO-AS",
+    "description" : "Altagen JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.151.152.0/21",
       "80.251.224.0/20",
       "83.137.48.0/21",
@@ -20,6 +23,6 @@
       "193.105.59.0/24",
       "195.216.241.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

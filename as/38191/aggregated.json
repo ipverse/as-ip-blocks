@@ -1,9 +1,12 @@
 {
-  "asn": 38191,
-  "handle": "INFOSYS-AS",
-  "description": "Infosys Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38191,
+  "metadata" : {
+    "handle" : "INFOSYS-AS",
+    "description" : "Infosys Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "122.98.8.0/21",
       "122.98.24.0/21",
       "122.98.40.0/23",
@@ -20,7 +23,7 @@
       "216.251.48.0/21",
       "216.251.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:0:607::/48",
       "2a01:3e0:d01::/48"
     ]

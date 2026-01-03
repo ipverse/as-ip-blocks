@@ -1,14 +1,17 @@
 {
-  "asn": 139982,
-  "handle": "BVSNET-AS-ID",
-  "description": "PT Buana Visualnet Sentra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139982,
+  "metadata" : {
+    "handle" : "BVSNET-AS-ID",
+    "description" : "PT Buana Visualnet Sentra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.66.62.0/23",
       "103.134.188.0/22",
       "103.148.44.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:cac0::/32"
     ]
   }

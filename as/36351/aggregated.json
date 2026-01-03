@@ -1,9 +1,12 @@
 {
-  "asn": 36351,
-  "handle": "SOFTLAYER",
-  "description": "IBM Cloud",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36351,
+  "metadata" : {
+    "handle" : "SOFTLAYER",
+    "description" : "IBM Cloud",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.10.96.0/19",
       "5.62.33.0/24",
       "5.83.159.0/24",
@@ -186,7 +189,7 @@
       "216.234.224.0/24",
       "216.234.226.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:9000::/48",
       "2401:c900:1000::/39",
       "2401:c900:1400::/39",

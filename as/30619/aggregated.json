@@ -1,9 +1,12 @@
 {
-  "asn": 30619,
-  "handle": "TMCEL-MOCAMBIQUE",
-  "description": "TMCEL - Moçambique Telecom SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30619,
+  "metadata" : {
+    "handle" : "TMCEL-MOCAMBIQUE",
+    "description" : "TMCEL - Moçambique Telecom SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.138.225.0/24",
       "41.138.236.0/24",
       "41.191.72.0/22",
@@ -14,6 +17,6 @@
       "196.43.234.0/24",
       "197.158.0.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

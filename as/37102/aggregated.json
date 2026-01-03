@@ -1,14 +1,17 @@
 {
-  "asn": 37102,
-  "handle": "CIELUX-RDC",
-  "description": "CIELUX TELECOM RDC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37102,
+  "metadata" : {
+    "handle" : "CIELUX-RDC",
+    "description" : "CIELUX TELECOM RDC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.189.196.0/23",
       "41.189.206.0/23",
       "41.189.208.0/22",
       "41.189.214.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

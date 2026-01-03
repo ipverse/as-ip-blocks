@@ -1,12 +1,15 @@
 {
-  "asn": 18303,
-  "handle": "SMARTRO-AS",
-  "description": "SMARTRO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18303,
+  "metadata" : {
+    "handle" : "SMARTRO-AS",
+    "description" : "SMARTRO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "211.192.50.0/24",
       "211.193.35.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

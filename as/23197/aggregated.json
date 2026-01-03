@@ -1,9 +1,12 @@
 {
-  "asn": 23197,
-  "handle": "GENESYS-SAAS",
-  "description": "Genesys Laboratories Canada Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23197,
+  "metadata" : {
+    "handle" : "GENESYS-SAAS",
+    "description" : "Genesys Laboratories Canada Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.117.78.0/23",
       "74.118.255.0/24",
       "135.39.128.0/20",
@@ -12,6 +15,6 @@
       "198.181.120.0/22",
       "212.187.158.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

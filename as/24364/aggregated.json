@@ -1,10 +1,13 @@
 {
-  "asn": 24364,
-  "handle": "CNGI-SH-IX-AS-AP",
-  "description": "CERNET2 IX at Shanghai Jiaotong University",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 24364,
+  "metadata" : {
+    "handle" : "CNGI-SH-IX-AS-AP",
+    "description" : "CERNET2 IX at Shanghai Jiaotong University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2403:d400::/32"
     ]
   }

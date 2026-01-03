@@ -1,13 +1,16 @@
 {
-  "asn": 209589,
-  "handle": "VOITICSL",
-  "description": "VOITIC SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209589,
+  "metadata" : {
+    "handle" : "VOITICSL",
+    "description" : "VOITIC SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.98.76.0/22",
       "149.6.197.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:9cc5::/32"
     ]
   }

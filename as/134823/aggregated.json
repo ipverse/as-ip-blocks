@@ -1,9 +1,12 @@
 {
-  "asn": 134823,
-  "handle": "SDCL-AS-AP",
-  "description": "Sky Digital Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134823,
+  "metadata" : {
+    "handle" : "SDCL-AS-AP",
+    "description" : "Sky Digital Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.11.78.0/24",
       "102.134.36.0/22",
       "102.134.56.0/22",
@@ -35,7 +38,7 @@
       "211.155.192.0/19",
       "211.167.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:4e00::/48",
       "2400:7420::/32",
       "2404:a3c0::/32",

@@ -1,9 +1,12 @@
 {
-  "asn": 57389,
-  "handle": "ZT-HU",
-  "description": "ZNET Telekom Zrt",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57389,
+  "metadata" : {
+    "handle" : "ZT-HU",
+    "description" : "ZNET Telekom Zrt",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.14.92.0/22",
       "45.146.0.0/22",
       "81.16.192.0/20",
@@ -22,7 +25,7 @@
       "194.48.174.0/23",
       "194.48.188.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:1100::/29"
     ]
   }

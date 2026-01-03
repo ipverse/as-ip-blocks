@@ -1,9 +1,12 @@
 {
-  "asn": 20868,
-  "handle": "ABB",
-  "description": "ABB Information Systems Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20868,
+  "metadata" : {
+    "handle" : "ABB",
+    "description" : "ABB Information Systems Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.133.8.0/24",
       "137.133.13.0/24",
       "137.133.14.0/24",
@@ -19,6 +22,6 @@
       "202.27.9.0/24",
       "202.50.180.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

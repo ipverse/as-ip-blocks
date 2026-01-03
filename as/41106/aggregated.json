@@ -1,11 +1,14 @@
 {
-  "asn": 41106,
-  "handle": "TELTEL",
-  "description": "My Telecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41106,
+  "metadata" : {
+    "handle" : "TELTEL",
+    "description" : "My Telecom Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.200.176.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

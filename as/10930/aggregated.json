@@ -1,12 +1,15 @@
 {
-  "asn": 10930,
-  "handle": "NOVA-INTERNET",
-  "description": "Nova Internet Services Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10930,
+  "metadata" : {
+    "handle" : "NOVA-INTERNET",
+    "description" : "Nova Internet Services Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.251.224.0/22",
       "209.251.228.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

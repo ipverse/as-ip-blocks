@@ -1,14 +1,17 @@
 {
-  "asn": 40857,
-  "handle": "PAECOM",
-  "description": "IT-CNP Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40857,
+  "metadata" : {
+    "handle" : "PAECOM",
+    "description" : "IT-CNP Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "107.0.167.0/24",
       "184.80.193.0/24",
       "184.80.198.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:a940::/32"
     ]
   }

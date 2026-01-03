@@ -1,12 +1,15 @@
 {
-  "asn": 29330,
-  "handle": "ISP-NETWORK",
-  "description": "Next Layer Telekommunikationsdienstleistungs- und Beratungs GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29330,
+  "metadata" : {
+    "handle" : "ISP-NETWORK",
+    "description" : "Next Layer Telekommunikationsdienstleistungs- und Beratungs GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "217.175.206.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:190:15e8::/48"
     ]
   }

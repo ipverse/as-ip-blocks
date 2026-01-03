@@ -1,9 +1,12 @@
 {
-  "asn": 22352,
-  "handle": "APPLIED-TECHNOLOGY",
-  "description": "Applied Technology Group Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22352,
+  "metadata" : {
+    "handle" : "APPLIED-TECHNOLOGY",
+    "description" : "Applied Technology Group Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.199.68.0/23",
       "63.199.71.0/24",
       "64.160.100.0/23",
@@ -13,6 +16,6 @@
       "207.115.112.0/20",
       "209.233.6.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

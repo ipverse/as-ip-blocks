@@ -1,13 +1,16 @@
 {
-  "asn": 400929,
-  "handle": "WRI-ASN-A",
-  "description": "Wood River Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400929,
+  "metadata" : {
+    "handle" : "WRI-ASN-A",
+    "description" : "Wood River Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.171.248.0/24",
       "165.140.55.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f976::/36"
     ]
   }

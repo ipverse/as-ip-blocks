@@ -1,9 +1,12 @@
 {
-  "asn": 23930,
-  "handle": "VITROINC-AS-AP",
-  "description": "VITRO Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23930,
+  "metadata" : {
+    "handle" : "VITROINC-AS-AP",
+    "description" : "VITRO Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.19.16.0/24",
       "103.103.0.0/24",
       "116.93.0.0/23",
@@ -54,7 +57,7 @@
       "203.208.28.0/24",
       "203.208.30.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:9800::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 48469,
-  "handle": "MNEMONIC-OSL",
-  "description": "mnemonic AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48469,
+  "metadata" : {
+    "handle" : "MNEMONIC-OSL",
+    "description" : "mnemonic AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.127.56.0/22",
       "185.247.96.0/24",
       "185.247.99.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2188::/48",
       "2a02:2188:1000::/36",
       "2a02:2188:f000::/36"

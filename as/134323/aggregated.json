@@ -1,11 +1,14 @@
 {
-  "asn": 134323,
-  "handle": "UNIQUENET-AS-IN",
-  "description": "UNIQUE NET SERVICE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134323,
+  "metadata" : {
+    "handle" : "UNIQUENET-AS-IN",
+    "description" : "UNIQUE NET SERVICE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.177.0.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

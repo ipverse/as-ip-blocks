@@ -1,12 +1,15 @@
 {
-  "asn": 328507,
-  "handle": "OPEN-LINK-COMMUNICATION",
-  "description": "Open Link Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328507,
+  "metadata" : {
+    "handle" : "OPEN-LINK-COMMUNICATION",
+    "description" : "Open Link Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.69.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:ede0::/32"
     ]
   }

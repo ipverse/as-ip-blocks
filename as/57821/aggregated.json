@@ -1,12 +1,15 @@
 {
-  "asn": 57821,
-  "handle": "NONATTACHED-AS",
-  "description": "Nonattached Network e.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57821,
+  "metadata" : {
+    "handle" : "NONATTACHED-AS",
+    "description" : "Nonattached Network e.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.160.39.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:26f4::/48"
     ]
   }

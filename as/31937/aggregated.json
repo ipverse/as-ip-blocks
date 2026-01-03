@@ -1,11 +1,14 @@
 {
-  "asn": 31937,
-  "handle": "VSP-ASN",
-  "description": "Vision Service Plan",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31937,
+  "metadata" : {
+    "handle" : "VSP-ASN",
+    "description" : "Vision Service Plan",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.135.203.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

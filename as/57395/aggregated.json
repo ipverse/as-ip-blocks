@@ -1,9 +1,12 @@
 {
-  "asn": 57395,
-  "handle": "HARTL-EDV-AS",
-  "description": "synaforce GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57395,
+  "metadata" : {
+    "handle" : "HARTL-EDV-AS",
+    "description" : "synaforce GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.48.0/22",
       "89.207.153.0/24",
       "149.13.71.0/24",
@@ -17,7 +20,7 @@
       "194.26.16.0/24",
       "194.93.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:33c0:1::/48",
       "2a0b:33c0:2::/47",
       "2a0b:33c0:6::/48",

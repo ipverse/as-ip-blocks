@@ -1,12 +1,15 @@
 {
-  "asn": 36951,
-  "handle": "DERIVCO",
-  "description": "Derivco",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36951,
+  "metadata" : {
+    "handle" : "DERIVCO",
+    "description" : "Derivco",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.223.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fe28:1::/48",
       "2c0f:fe28:e::/48"
     ]

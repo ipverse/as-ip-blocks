@@ -1,12 +1,15 @@
 {
-  "asn": 33638,
-  "handle": "SCOTTS-AS",
-  "description": "CITY OF SCOTTSBURG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33638,
+  "metadata" : {
+    "handle" : "SCOTTS-AS",
+    "description" : "CITY OF SCOTTSBURG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.69.160.0/21",
       "208.86.56.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

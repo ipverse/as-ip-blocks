@@ -1,9 +1,12 @@
 {
-  "asn": 137933,
-  "handle": "HOMERHOST-AS-AP",
-  "description": "CyberForest LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137933,
+  "metadata" : {
+    "handle" : "HOMERHOST-AS-AP",
+    "description" : "CyberForest LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.224.30.0/23",
       "45.117.144.0/24",
       "45.119.252.0/23",
@@ -14,6 +17,6 @@
       "103.82.140.0/24",
       "202.124.248.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

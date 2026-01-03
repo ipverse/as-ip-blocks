@@ -1,9 +1,12 @@
 {
-  "asn": 17841,
-  "handle": "NCIA-AS",
-  "description": "NATIONAL INFORMATION RESOURCES SERVICE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17841,
+  "metadata" : {
+    "handle" : "NCIA-AS",
+    "description" : "NATIONAL INFORMATION RESOURCES SERVICE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.101.10.0/23",
       "27.101.12.0/22",
       "27.101.16.0/20",
@@ -106,6 +109,6 @@
       "222.111.168.0/22",
       "222.111.248.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 267052,
-  "handle": "ALT-TELECOM",
-  "description": "Alt Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267052,
+  "metadata" : {
+    "handle" : "ALT-TELECOM",
+    "description" : "Alt Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.227.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4768::/32"
     ]
   }

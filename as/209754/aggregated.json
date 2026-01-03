@@ -1,14 +1,17 @@
 {
-  "asn": 209754,
-  "handle": "VITRUMNET",
-  "description": "VitrumNet BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209754,
+  "metadata" : {
+    "handle" : "VITRUMNET",
+    "description" : "VitrumNet BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.119.104.0/21",
       "185.85.112.0/22",
       "193.32.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:9780::/32"
     ]
   }

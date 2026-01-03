@@ -1,9 +1,12 @@
 {
-  "asn": 147034,
-  "handle": "BAREBOXCOMBD-AS-AP",
-  "description": "barebox.com.bd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147034,
+  "metadata" : {
+    "handle" : "BAREBOXCOMBD-AS-AP",
+    "description" : "barebox.com.bd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.205.132.0/22",
       "64.205.140.0/22",
       "64.205.148.0/22",
@@ -12,6 +15,6 @@
       "64.205.172.0/22",
       "64.205.188.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 44902,
-  "handle": "COV-ASN",
-  "description": "Covage Infra SASU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44902,
+  "metadata" : {
+    "handle" : "COV-ASN",
+    "description" : "Covage Infra SASU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.75.144.0/21",
       "93.95.56.0/21",
       "178.19.128.0/20",
@@ -19,6 +22,6 @@
       "194.4.120.0/24",
       "194.4.122.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

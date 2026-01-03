@@ -1,9 +1,12 @@
 {
-  "asn": 50889,
-  "handle": "GFN-EMEA",
-  "description": "NVIDIA Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50889,
+  "metadata" : {
+    "handle" : "GFN-EMEA",
+    "description" : "NVIDIA Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.186.111.0/24",
       "77.111.248.0/23",
       "77.111.250.0/24",
@@ -21,6 +24,6 @@
       "185.136.69.0/24",
       "185.136.70.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

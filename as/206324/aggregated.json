@@ -1,12 +1,15 @@
 {
-  "asn": 206324,
-  "handle": "STELLIUM-DC",
-  "description": "Stellium Networks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206324,
+  "metadata" : {
+    "handle" : "STELLIUM-DC",
+    "description" : "Stellium Networks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.189.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:ed80::/29"
     ]
   }

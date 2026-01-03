@@ -1,12 +1,15 @@
 {
-  "asn": 142535,
-  "handle": "DYNACOM-AS",
-  "description": "Dynamic Communication Centre",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142535,
+  "metadata" : {
+    "handle" : "DYNACOM-AS",
+    "description" : "Dynamic Communication Centre",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.168.214.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:97c0::/44"
     ]
   }

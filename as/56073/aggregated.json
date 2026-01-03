@@ -1,9 +1,12 @@
 {
-  "asn": 56073,
-  "handle": "FIRSTFOCUS-AS-AP",
-  "description": "First Focus Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56073,
+  "metadata" : {
+    "handle" : "FIRSTFOCUS-AS-AP",
+    "description" : "First Focus Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.35.224.0/22",
       "103.102.24.0/24",
       "103.158.6.0/24",
@@ -11,6 +14,6 @@
       "180.189.140.0/22",
       "202.9.65.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

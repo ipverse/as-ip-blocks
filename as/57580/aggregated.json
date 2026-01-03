@@ -1,9 +1,12 @@
 {
-  "asn": 57580,
-  "handle": "SRCI-MID-RF-AS",
-  "description": "Federal State Budgetary Institution Research Center for Information of the Ministry of Foreign Affairs of the Russian Federation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57580,
+  "metadata" : {
+    "handle" : "SRCI-MID-RF-AS",
+    "description" : "Federal State Budgetary Institution Research Center for Information of the Ministry of Foreign Affairs of the Russian Federation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.63.170.0/24",
       "93.157.56.0/24",
       "95.165.22.0/24",
@@ -11,6 +14,6 @@
       "194.85.30.0/24",
       "213.221.14.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 8615,
-  "handle": "CNT-AS",
-  "description": "Central Telegraph Public Joint-stock Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8615,
+  "metadata" : {
+    "handle" : "CNT-AS",
+    "description" : "Central Telegraph Public Joint-stock Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.41.0.0/17",
       "79.164.0.0/15",
       "87.240.0.0/18",
@@ -11,6 +14,6 @@
       "212.15.96.0/19",
       "213.85.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

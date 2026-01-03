@@ -1,10 +1,13 @@
 {
-  "asn": 809,
-  "handle": "PPD-TRANSIT",
-  "description": "PhirePhly Design",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 809,
+  "metadata" : {
+    "handle" : "PPD-TRANSIT",
+    "description" : "PhirePhly Design",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2620:13b:1::/48"
     ]
   }

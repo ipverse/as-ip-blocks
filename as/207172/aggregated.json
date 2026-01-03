@@ -1,11 +1,14 @@
 {
-  "asn": 207172,
-  "handle": "PROSTO-INETRA",
-  "description": "PRO STO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207172,
+  "metadata" : {
+    "handle" : "PROSTO-INETRA",
+    "description" : "PRO STO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.128.73.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

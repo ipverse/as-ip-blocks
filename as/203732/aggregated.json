@@ -1,13 +1,16 @@
 {
-  "asn": 203732,
-  "handle": "DVBERN",
-  "description": "DV Bern AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203732,
+  "metadata" : {
+    "handle" : "DVBERN",
+    "description" : "DV Bern AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.212.254.0/24",
       "185.125.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:bc00::/29"
     ]
   }

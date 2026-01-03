@@ -1,12 +1,15 @@
 {
-  "asn": 203703,
-  "handle": "BITBW",
-  "description": "BITBW",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203703,
+  "metadata" : {
+    "handle" : "BITBW",
+    "description" : "BITBW",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.100.96.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1068:8000::/48"
     ]
   }

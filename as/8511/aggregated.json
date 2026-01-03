@@ -1,12 +1,15 @@
 {
-  "asn": 8511,
-  "handle": "AS8511-AI",
-  "description": "ASIAINFO TE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8511,
+  "metadata" : {
+    "handle" : "AS8511-AI",
+    "description" : "ASIAINFO TE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.38.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:a380::/29"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 39910,
-  "handle": "ASPERIQ",
-  "description": "Famco AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39910,
+  "metadata" : {
+    "handle" : "ASPERIQ",
+    "description" : "Famco AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.244.9.0/24",
       "185.203.90.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:7a40::/29"
     ]
   }

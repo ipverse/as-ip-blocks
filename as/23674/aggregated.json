@@ -1,9 +1,12 @@
 {
-  "asn": 23674,
-  "handle": "NAYATEL-PK",
-  "description": "Naya Tel (Pvt.) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23674,
+  "metadata" : {
+    "handle" : "NAYATEL-PK",
+    "description" : "Naya Tel (Pvt.) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.115.84.0/22",
       "58.65.128.0/18",
       "101.50.64.0/18",
@@ -26,7 +29,7 @@
       "206.84.152.0/23",
       "206.84.154.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:d000::/32"
     ]
   }

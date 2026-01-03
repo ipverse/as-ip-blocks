@@ -1,12 +1,15 @@
 {
-  "asn": 210498,
-  "handle": "VYSOCINA-HSOC",
-  "description": "Kraj Vysocina",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210498,
+  "metadata" : {
+    "handle" : "VYSOCINA-HSOC",
+    "description" : "Kraj Vysocina",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.140.239.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:37c7::/40"
     ]
   }

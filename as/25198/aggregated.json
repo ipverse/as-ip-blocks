@@ -1,9 +1,12 @@
 {
-  "asn": 25198,
-  "handle": "ZETSERVERS",
-  "description": "INTERKVM HOST SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25198,
+  "metadata" : {
+    "handle" : "ZETSERVERS",
+    "description" : "INTERKVM HOST SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.27.114.0/24",
       "31.56.141.0/24",
       "31.57.191.0/24",
@@ -159,7 +162,7 @@
       "216.132.87.0/24",
       "216.151.163.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7120:6::/47",
       "2a12:3200::/35",
       "2a12:3200:2000::/36",

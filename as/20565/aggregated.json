@@ -1,9 +1,12 @@
 {
-  "asn": 20565,
-  "handle": "NETALIS",
-  "description": "Netalis SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20565,
+  "metadata" : {
+    "handle" : "NETALIS",
+    "description" : "Netalis SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.81.208.0/22",
       "45.153.204.0/22",
       "84.246.104.0/24",
@@ -12,7 +15,7 @@
       "185.113.48.0/22",
       "185.241.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:6800::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 26321,
-  "handle": "TSX-GROUP",
-  "description": "TSX Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26321,
+  "metadata" : {
+    "handle" : "TSX-GROUP",
+    "description" : "TSX Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.201.0.0/23",
       "142.201.5.0/24",
       "142.201.8.0/24",
@@ -11,6 +14,6 @@
       "198.22.102.0/24",
       "205.207.128.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

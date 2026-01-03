@@ -1,9 +1,12 @@
 {
-  "asn": 54624,
-  "handle": "EL-FAIRFAX-VA",
-  "description": "Ellucian Company LP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54624,
+  "metadata" : {
+    "handle" : "EL-FAIRFAX-VA",
+    "description" : "Ellucian Company LP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.24.26.0/23",
       "149.24.64.0/20",
       "149.24.100.0/23",
@@ -11,6 +14,6 @@
       "149.24.160.0/24",
       "149.24.164.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 393442,
-  "handle": "UNITED-FIBER",
-  "description": "United Electric Cooperative",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393442,
+  "metadata" : {
+    "handle" : "UNITED-FIBER",
+    "description" : "United Electric Cooperative",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.2.32.0/19",
       "38.148.160.0/19",
       "38.186.192.0/18",
@@ -29,6 +32,6 @@
       "216.130.48.0/20",
       "216.145.144.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

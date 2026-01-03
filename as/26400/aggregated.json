@@ -1,9 +1,12 @@
 {
-  "asn": 26400,
-  "handle": "IAMOTEL",
-  "description": "IAMO Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26400,
+  "metadata" : {
+    "handle" : "IAMOTEL",
+    "description" : "IAMO Communications Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.111.57.0/24",
       "67.221.192.0/24",
       "67.221.207.0/24",
@@ -13,6 +16,6 @@
       "209.152.149.0/24",
       "216.145.142.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

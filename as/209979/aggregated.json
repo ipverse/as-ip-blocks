@@ -1,12 +1,15 @@
 {
-  "asn": 209979,
-  "handle": "SPRD-NET",
-  "description": "sprd.net AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209979,
+  "metadata" : {
+    "handle" : "SPRD-NET",
+    "description" : "sprd.net AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.35.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:c580::/32"
     ]
   }

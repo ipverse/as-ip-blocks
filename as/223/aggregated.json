@@ -1,9 +1,12 @@
 {
-  "asn": 223,
-  "handle": "AS223",
-  "description": "Parsons Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 223,
+  "metadata" : {
+    "handle" : "AS223",
+    "description" : "Parsons Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.219.192.0/24",
       "206.219.195.0/24",
       "206.219.196.0/24",
@@ -13,6 +16,6 @@
       "209.128.238.0/23",
       "209.128.254.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 48544,
-  "handle": "TECNOADSL-AS",
-  "description": "Tecnotel Servizi Tecnologici srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48544,
+  "metadata" : {
+    "handle" : "TECNOADSL-AS",
+    "description" : "Tecnotel Servizi Tecnologici srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.185.16.0/22",
       "31.185.21.0/24",
       "31.185.23.0/24",
@@ -40,6 +43,6 @@
       "212.69.143.0/24",
       "217.20.248.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

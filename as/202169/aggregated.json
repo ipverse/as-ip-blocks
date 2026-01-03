@@ -1,12 +1,15 @@
 {
-  "asn": 202169,
-  "handle": "SCANSAT-AS",
-  "description": "AVATEL TELECOM SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202169,
+  "metadata" : {
+    "handle" : "SCANSAT-AS",
+    "description" : "AVATEL TELECOM SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.19.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4920::/33"
     ]
   }

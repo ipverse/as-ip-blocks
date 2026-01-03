@@ -1,9 +1,12 @@
 {
-  "asn": 9303,
-  "handle": "TDL2L-AS-AP",
-  "description": "The Digital Lab 2007 Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9303,
+  "metadata" : {
+    "handle" : "TDL2L-AS-AP",
+    "description" : "The Digital Lab 2007 Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.24.136.0/22",
       "103.49.172.0/24",
       "202.14.102.0/24",
@@ -29,7 +32,7 @@
       "202.50.95.0/24",
       "203.9.216.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:bf00::/40",
       "2404:bf00:800::/40",
       "2404:bf00:8000::/40",

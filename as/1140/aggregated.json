@@ -1,14 +1,17 @@
 {
-  "asn": 1140,
-  "handle": "SIDN",
-  "description": "Stichting Internet Domeinregistratie Nederland",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1140,
+  "metadata" : {
+    "handle" : "SIDN",
+    "description" : "Stichting Internet Domeinregistratie Nederland",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.198.152.0/21",
       "185.76.132.0/22",
       "193.176.144.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:d78::/32"
     ]
   }

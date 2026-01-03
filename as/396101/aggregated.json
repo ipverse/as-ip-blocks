@@ -1,14 +1,17 @@
 {
-  "asn": 396101,
-  "handle": "NETCLOUD-ASN",
-  "description": "Netcloud Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396101,
+  "metadata" : {
+    "handle" : "NETCLOUD-ASN",
+    "description" : "Netcloud Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.157.128.0/24",
       "38.132.212.0/24",
       "172.83.60.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff01::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 399046,
-  "handle": "DRPA-ASN-01",
-  "description": "The Delaware River Port Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399046,
+  "metadata" : {
+    "handle" : "DRPA-ASN-01",
+    "description" : "The Delaware River Port Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.234.41.0/24",
       "192.234.42.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

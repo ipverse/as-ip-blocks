@@ -1,9 +1,12 @@
 {
-  "asn": 31708,
-  "handle": "COREIX-UK-AS",
-  "description": "Coreix Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31708,
+  "metadata" : {
+    "handle" : "COREIX-UK-AS",
+    "description" : "Coreix Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.193.168.0/21",
       "62.197.40.0/23",
       "62.197.44.0/24",
@@ -28,7 +31,7 @@
       "185.135.245.0/24",
       "193.26.222.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:c0::/32",
       "2a05:8440::/29"
     ]

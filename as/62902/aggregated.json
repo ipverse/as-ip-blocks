@@ -1,13 +1,16 @@
 {
-  "asn": 62902,
-  "handle": "AS-ASPHERE",
-  "description": "Ankr PBC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62902,
+  "metadata" : {
+    "handle" : "AS-ASPHERE",
+    "description" : "Ankr PBC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "136.175.126.0/24",
       "208.65.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:2540::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 274834,
-  "handle": "RVK-PROVEDOR-INTERNET",
-  "description": "RVK Provedor de Internet Ltda - ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 274834,
+  "metadata" : {
+    "handle" : "RVK-PROVEDOR-INTERNET",
+    "description" : "RVK Provedor de Internet Ltda - ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "201.87.237.0/24",
       "201.87.239.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:944c::/32"
     ]
   }

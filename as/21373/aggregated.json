@@ -1,14 +1,17 @@
 {
-  "asn": 21373,
-  "handle": "NBB-AS",
-  "description": "Banque Nationale de Belgique",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21373,
+  "metadata" : {
+    "handle" : "NBB-AS",
+    "description" : "Banque Nationale de Belgique",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.53.48.0/24",
       "193.53.50.0/24",
       "193.53.54.0/23",
       "193.53.56.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

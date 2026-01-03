@@ -1,9 +1,12 @@
 {
-  "asn": 17958,
-  "handle": "KCV",
-  "description": "Kasaoka Cable Vision Co LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17958,
+  "metadata" : {
+    "handle" : "KCV",
+    "description" : "Kasaoka Cable Vision Co LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.2.96.0/22",
       "133.226.160.0/20",
       "157.112.160.0/20",
@@ -12,7 +15,7 @@
       "219.103.48.0/20",
       "220.247.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:a240::/32"
     ]
   }

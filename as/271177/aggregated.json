@@ -1,12 +1,15 @@
 {
-  "asn": 271177,
-  "handle": "ALEMNET-FIBRA",
-  "description": "AlemNet Fibra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271177,
+  "metadata" : {
+    "handle" : "ALEMNET-FIBRA",
+    "description" : "AlemNet Fibra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.51.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:776c::/32"
     ]
   }

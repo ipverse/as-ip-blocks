@@ -1,12 +1,15 @@
 {
-  "asn": 328341,
-  "handle": "CAPRICOM-AS",
-  "description": "Capricom Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328341,
+  "metadata" : {
+    "handle" : "CAPRICOM-AS",
+    "description" : "Capricom Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.164.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:ec70::/32"
     ]
   }

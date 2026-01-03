@@ -1,12 +1,15 @@
 {
-  "asn": 38894,
-  "handle": "HHPL-AS-AP",
-  "description": "ManageNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38894,
+  "metadata" : {
+    "handle" : "HHPL-AS-AP",
+    "description" : "ManageNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.26.88.0/22",
       "119.82.0.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

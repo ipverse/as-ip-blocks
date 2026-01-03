@@ -1,11 +1,14 @@
 {
-  "asn": 154100,
-  "handle": "BNL-KIR1-AS-AP",
-  "description": "BNL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 154100,
+  "metadata" : {
+    "handle" : "BNL-KIR1-AS-AP",
+    "description" : "BNL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.1.22.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

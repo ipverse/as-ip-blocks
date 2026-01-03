@@ -1,13 +1,16 @@
 {
-  "asn": 211528,
-  "handle": "TAURON-AS",
-  "description": "TAURON Obsluga Klienta Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211528,
+  "metadata" : {
+    "handle" : "TAURON-AS",
+    "description" : "TAURON Obsluga Klienta Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.234.126.0/24",
       "185.251.37.0/24",
       "195.34.93.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

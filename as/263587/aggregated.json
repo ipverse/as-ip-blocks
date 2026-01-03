@@ -1,14 +1,17 @@
 {
-  "asn": 263587,
-  "handle": "SOS-TELECOM",
-  "description": "SOS TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263587,
+  "metadata" : {
+    "handle" : "SOS-TELECOM",
+    "description" : "SOS TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.202.116.0/22",
       "170.150.216.0/22",
       "177.184.152.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:f78::/32"
     ]
   }

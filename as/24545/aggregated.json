@@ -1,14 +1,17 @@
 {
-  "asn": 24545,
-  "handle": "HKTEL-AS-AP",
-  "description": "South China Telecommunications (H.K.) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24545,
+  "metadata" : {
+    "handle" : "HKTEL-AS-AP",
+    "description" : "South China Telecommunications (H.K.) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.243.8.0/23",
       "203.81.176.0/24",
       "203.81.178.0/24",
       "203.81.180.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

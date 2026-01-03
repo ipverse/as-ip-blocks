@@ -1,9 +1,12 @@
 {
-  "asn": 59210,
-  "handle": "PHOENIXNAP-AS-SG1",
-  "description": "PhoenixNAP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59210,
+  "metadata" : {
+    "handle" : "PHOENIXNAP-AS-SG1",
+    "description" : "PhoenixNAP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.2.0/23",
       "103.67.201.0/24",
       "103.243.172.0/22",
@@ -19,7 +22,7 @@
       "131.153.206.0/24",
       "162.222.214.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:bc40:a100::/40",
       "2401:bc40:e301::/48"
     ]

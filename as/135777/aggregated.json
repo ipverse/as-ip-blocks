@@ -1,9 +1,12 @@
 {
-  "asn": 135777,
-  "handle": "NECONN-AS",
-  "description": "Shreenortheast Connect And Services Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135777,
+  "metadata" : {
+    "handle" : "NECONN-AS",
+    "description" : "Shreenortheast Connect And Services Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.68.52.0/22",
       "103.147.31.0/24",
       "103.152.22.0/24",
@@ -11,8 +14,6 @@
       "103.182.154.0/23",
       "203.109.44.0/22"
     ],
-    "ipv6": [
-      "2001:df2:f940::/48"
-    ]
+    "ipv6" : [ ]
   }
 }

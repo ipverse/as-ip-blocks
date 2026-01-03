@@ -1,12 +1,15 @@
 {
-  "asn": 21805,
-  "handle": "MRHAMEL",
-  "description": "Ryan Hamel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21805,
+  "metadata" : {
+    "handle" : "MRHAMEL",
+    "description" : "Ryan Hamel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.165.88.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f9ed::/39"
     ]
   }

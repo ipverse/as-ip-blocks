@@ -1,15 +1,18 @@
 {
-  "asn": 8916,
-  "handle": "PORTFAST",
-  "description": "Portfast Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8916,
+  "metadata" : {
+    "handle" : "PORTFAST",
+    "description" : "Portfast Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.193.30.0/24",
       "188.246.192.0/19",
       "193.108.199.0/24",
       "213.5.88.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1b8::/48",
       "2a03:9800::/29"
     ]

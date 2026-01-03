@@ -1,9 +1,12 @@
 {
-  "asn": 134651,
-  "handle": "YETOYA-AS-ID",
-  "description": "PT Yetoya Solusi Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134651,
+  "metadata" : {
+    "handle" : "YETOYA-AS-ID",
+    "description" : "PT Yetoya Solusi Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.253.237.0/24",
       "38.253.250.0/23",
       "103.148.188.0/23",
@@ -11,7 +14,7 @@
       "113.192.26.0/23",
       "113.192.28.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:4780::/48"
     ]
   }

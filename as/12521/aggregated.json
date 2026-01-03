@@ -1,15 +1,18 @@
 {
-  "asn": 12521,
-  "handle": "NOVA-INTERNET-AS12521",
-  "description": "Nova Internet S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12521,
+  "metadata" : {
+    "handle" : "NOVA-INTERNET-AS12521",
+    "description" : "Nova Internet S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.199.224.0/21",
       "91.195.73.0/24",
       "91.195.102.0/23",
       "212.85.32.0/20",
       "212.85.48.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

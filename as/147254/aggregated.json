@@ -1,12 +1,15 @@
 {
-  "asn": 147254,
-  "handle": "MAHALAXMI-AS-IN",
-  "description": "Mahalaxmi Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147254,
+  "metadata" : {
+    "handle" : "MAHALAXMI-AS-IN",
+    "description" : "Mahalaxmi Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.177.4.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:1840::/48"
     ]
   }

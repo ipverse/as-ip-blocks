@@ -1,9 +1,12 @@
 {
-  "asn": 23308,
-  "handle": "UTILITY-AS",
-  "description": "UTILITY TELEPHONE INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23308,
+  "metadata" : {
+    "handle" : "UTILITY-AS",
+    "description" : "UTILITY TELEPHONE INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.113.64.0/19",
       "104.255.240.0/21",
       "139.60.40.0/21",
@@ -21,7 +24,7 @@
       "208.86.36.0/22",
       "216.162.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f8c8::/32"
     ]
   }

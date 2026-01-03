@@ -1,12 +1,15 @@
 {
-  "asn": 1432,
-  "handle": "AC-AS-1",
-  "description": "Albion College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1432,
+  "metadata" : {
+    "handle" : "AC-AS-1",
+    "description" : "Albion College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.124.0.0/21",
       "147.124.8.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

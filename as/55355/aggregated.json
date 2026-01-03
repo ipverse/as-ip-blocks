@@ -1,9 +1,12 @@
 {
-  "asn": 55355,
-  "handle": "ISP-AS-AP",
-  "description": "HGC Global Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55355,
+  "metadata" : {
+    "handle" : "ISP-AS-AP",
+    "description" : "HGC Global Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.51.255.0/24",
       "118.143.207.0/24",
       "118.143.209.0/24",
@@ -25,6 +28,6 @@
       "218.189.10.0/24",
       "218.189.124.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

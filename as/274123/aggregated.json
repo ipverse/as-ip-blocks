@@ -1,12 +1,15 @@
 {
-  "asn": 274123,
-  "handle": "GLOBAL-INVERNET",
-  "description": "GLOBAL INVERNET SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 274123,
+  "metadata" : {
+    "handle" : "GLOBAL-INVERNET",
+    "description" : "GLOBAL INVERNET SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.13.67.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:7ed0::/32"
     ]
   }

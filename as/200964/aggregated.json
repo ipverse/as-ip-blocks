@@ -1,9 +1,12 @@
 {
-  "asn": 200964,
-  "handle": "ISISCOM",
-  "description": "Isis-Com Kft",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200964,
+  "metadata" : {
+    "handle" : "ISISCOM",
+    "description" : "Isis-Com Kft.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.221.36.0/22",
       "77.221.40.0/23",
       "77.221.42.0/24",
@@ -12,7 +15,7 @@
       "195.184.5.0/24",
       "195.184.8.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:4941:10::/44"
     ]
   }

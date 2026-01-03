@@ -1,9 +1,12 @@
 {
-  "asn": 7524,
-  "handle": "HANSHIN",
-  "description": "ITEC HANKYU HANSHIN CO. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7524,
+  "metadata" : {
+    "handle" : "HANSHIN",
+    "description" : "ITEC HANKYU HANSHIN CO. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.127.128.0/18",
       "61.115.208.0/20",
       "61.121.192.0/22",
@@ -52,7 +55,7 @@
       "219.106.128.0/19",
       "220.208.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:1200::/32"
     ]
   }

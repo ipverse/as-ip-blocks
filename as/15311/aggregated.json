@@ -1,9 +1,12 @@
 {
-  "asn": 15311,
-  "handle": "TELEFONICA-EMPRESAS-CHILE",
-  "description": "TELEFONICA EMPRESAS CHILE SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15311,
+  "metadata" : {
+    "handle" : "TELEFONICA-EMPRESAS-CHILE",
+    "description" : "TELEFONICA EMPRESAS CHILE SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.103.128.0/17",
       "186.179.80.0/20",
       "190.82.64.0/18",
@@ -49,6 +52,6 @@
       "201.236.96.0/20",
       "201.236.128.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

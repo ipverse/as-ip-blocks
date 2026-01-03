@@ -1,9 +1,12 @@
 {
-  "asn": 212655,
-  "handle": "YOUFIBRE",
-  "description": "YouFibre Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212655,
+  "metadata" : {
+    "handle" : "YOUFIBRE",
+    "description" : "YouFibre Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.92.44.0/22",
       "83.217.160.0/20",
       "87.192.96.0/19",
@@ -18,7 +21,7 @@
       "185.154.144.0/22",
       "193.28.90.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:1d40::/29"
     ]
   }

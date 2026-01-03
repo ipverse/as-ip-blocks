@@ -1,13 +1,16 @@
 {
-  "asn": 57129,
-  "handle": "GIDPRO",
-  "description": "GidPro BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57129,
+  "metadata" : {
+    "handle" : "GIDPRO",
+    "description" : "GidPro BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.128.32.0/22",
       "185.202.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:5900::/29"
     ]
   }

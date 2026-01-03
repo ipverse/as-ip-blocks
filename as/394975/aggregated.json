@@ -1,12 +1,15 @@
 {
-  "asn": 394975,
-  "handle": "SFHEALTHPLAN",
-  "description": "San Francisco Health Plan",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394975,
+  "metadata" : {
+    "handle" : "SFHEALTHPLAN",
+    "description" : "San Francisco Health Plan",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.99.1.0/24",
       "209.234.156.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

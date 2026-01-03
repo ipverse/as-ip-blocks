@@ -1,16 +1,19 @@
 {
-  "asn": 9199,
-  "handle": "RENAM",
-  "description": "RENAM Public Association",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9199,
+  "metadata" : {
+    "handle" : "RENAM",
+    "description" : "RENAM Public Association",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.180.64.0/21",
       "81.180.76.0/22",
       "81.180.84.0/23",
       "185.57.46.0/24",
       "193.226.64.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:7580::/29"
     ]
   }

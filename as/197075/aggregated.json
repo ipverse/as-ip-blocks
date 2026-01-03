@@ -1,9 +1,12 @@
 {
-  "asn": 197075,
-  "handle": "ACTIVENETWORK-AS",
-  "description": "Active Network S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197075,
+  "metadata" : {
+    "handle" : "ACTIVENETWORK-AS",
+    "description" : "Active Network S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.152.144.0/24",
       "5.152.149.0/24",
       "5.152.154.0/24",
@@ -32,7 +35,7 @@
       "193.239.203.0/24",
       "195.177.114.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2420::/32",
       "2a03:ff80::/29",
       "2a0a:e6c0::/29"

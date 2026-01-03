@@ -1,11 +1,14 @@
 {
-  "asn": 400016,
-  "handle": "DOVER-INTERNET",
-  "description": "Dover Internet Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400016,
+  "metadata" : {
+    "handle" : "DOVER-INTERNET",
+    "description" : "Dover Internet Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.115.192.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

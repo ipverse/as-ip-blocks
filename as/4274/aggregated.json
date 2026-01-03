@@ -1,13 +1,16 @@
 {
-  "asn": 4274,
-  "handle": "ERX-AU-NET",
-  "description": "Assumption University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4274,
+  "metadata" : {
+    "handle" : "ERX-AU-NET",
+    "description" : "Assumption University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.120.0.0/16",
       "198.49.112.0/23",
       "202.6.100.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

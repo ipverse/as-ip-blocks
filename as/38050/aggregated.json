@@ -1,11 +1,14 @@
 {
-  "asn": 38050,
-  "handle": "CPA-AUSTRALIA-AS-AP",
-  "description": "CPA Australia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38050,
+  "metadata" : {
+    "handle" : "CPA-AUSTRALIA-AS-AP",
+    "description" : "CPA Australia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.190.252.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

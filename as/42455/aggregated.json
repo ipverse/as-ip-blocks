@@ -1,15 +1,18 @@
 {
-  "asn": 42455,
-  "handle": "WI-MANX-AS",
-  "description": "ELITE GROUP.IM LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42455,
+  "metadata" : {
+    "handle" : "WI-MANX-AS",
+    "description" : "ELITE GROUP.IM LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.246.200.0/21",
       "89.107.0.0/21",
       "109.70.40.0/21",
       "185.74.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:d480::/32"
     ]
   }

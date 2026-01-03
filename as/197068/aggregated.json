@@ -1,9 +1,12 @@
 {
-  "asn": 197068,
-  "handle": "CURATOR",
-  "description": "HLL LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197068,
+  "metadata" : {
+    "handle" : "CURATOR",
+    "description" : "HLL LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.152.114.0/24",
       "193.23.55.0/24",
       "193.43.79.0/24",
@@ -11,7 +14,7 @@
       "193.43.94.0/24",
       "195.43.92.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:70c1:610::/48",
       "2a03:70c1:754::/48",
       "2a03:70c1:17bc::/48",

@@ -1,12 +1,15 @@
 {
-  "asn": 268467,
-  "handle": "VOA-INTERNET",
-  "description": "Voa Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268467,
+  "metadata" : {
+    "handle" : "VOA-INTERNET",
+    "description" : "Voa Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.161.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:51a4::/32",
       "2804:76c0::/32"
     ]

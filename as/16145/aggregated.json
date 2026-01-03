@@ -1,12 +1,15 @@
 {
-  "asn": 16145,
-  "handle": "LANACO-AS",
-  "description": "Lanaco d.o.o. za Informacione Tehnologije Banja Luka",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16145,
+  "metadata" : {
+    "handle" : "LANACO-AS",
+    "description" : "Lanaco d.o.o. za Informacione Tehnologije Banja Luka",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.87.240.0/21",
       "185.150.192.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 62425,
-  "handle": "KUZEYDC",
-  "description": "Mailbox Internet Hizmetleri Ltd. Sti",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62425,
+  "metadata" : {
+    "handle" : "KUZEYDC",
+    "description" : "Mailbox Internet Hizmetleri Ltd. Sti.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.90.131.0/24",
       "78.135.103.0/24",
       "84.32.230.0/24",
@@ -14,7 +17,7 @@
       "188.132.215.0/24",
       "188.132.237.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:600::/29",
       "2a05:dfc1:700::/40"
     ]

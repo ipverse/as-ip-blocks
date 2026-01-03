@@ -1,13 +1,16 @@
 {
-  "asn": 269219,
-  "handle": "HOLLINE-INTERNET-SERVICE",
-  "description": "HOLLINE INTERNET SERVICE LTDA - ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269219,
+  "metadata" : {
+    "handle" : "HOLLINE-INTERNET-SERVICE",
+    "description" : "HOLLINE INTERNET SERVICE LTDA - ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.182.0.0/23",
       "45.182.2.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6130::/32"
     ]
   }

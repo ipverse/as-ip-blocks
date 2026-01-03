@@ -1,15 +1,18 @@
 {
-  "asn": 131917,
-  "handle": "TOSHIBA-IS",
-  "description": "Toshiba I.S. corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131917,
+  "metadata" : {
+    "handle" : "TOSHIBA-IS",
+    "description" : "Toshiba I.S. corp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.106.60.0/24",
       "103.91.184.0/24",
       "103.147.244.0/24",
       "154.18.65.0/24",
       "154.18.67.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

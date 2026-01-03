@@ -1,13 +1,16 @@
 {
-  "asn": 200076,
-  "handle": "KLAPKA-AS",
-  "description": "Klapka Gyorgy Lakasfenntarto Szovetkezet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200076,
+  "metadata" : {
+    "handle" : "KLAPKA-AS",
+    "description" : "Klapka Gyorgy Lakasfenntarto Szovetkezet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.87.224.0/21",
       "194.59.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:fac0::/48"
     ]
   }

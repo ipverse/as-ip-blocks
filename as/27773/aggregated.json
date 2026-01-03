@@ -1,9 +1,12 @@
 {
-  "asn": 27773,
-  "handle": "MILLICOM-CABLE-EL",
-  "description": "MILLICOM CABLE EL SALVADOR S.A. DE C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27773,
+  "metadata" : {
+    "handle" : "MILLICOM-CABLE-EL",
+    "description" : "MILLICOM CABLE EL SALVADOR S.A. DE C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.182.10.0/24",
       "138.186.249.0/24",
       "138.186.250.0/23",
@@ -180,7 +183,7 @@
       "209.124.118.0/23",
       "209.124.126.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:880::/30"
     ]
   }

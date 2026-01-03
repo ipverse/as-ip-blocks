@@ -1,9 +1,12 @@
 {
-  "asn": 22056,
-  "handle": "SITEL-OMA",
-  "description": "Sitel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22056,
+  "metadata" : {
+    "handle" : "SITEL-OMA",
+    "description" : "Sitel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.240.244.0/24",
       "199.73.22.0/24",
       "204.153.8.0/23",
@@ -12,7 +15,7 @@
       "206.19.231.0/24",
       "209.80.66.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:10b:4001::/48",
       "2620:10b:4002::/48"
     ]

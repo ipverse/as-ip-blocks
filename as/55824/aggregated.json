@@ -1,9 +1,12 @@
 {
-  "asn": 55824,
-  "handle": "NKN-CORE-NW",
-  "description": "National Knowledge Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55824,
+  "metadata" : {
+    "handle" : "NKN-CORE-NW",
+    "description" : "National Knowledge Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.139.0.0/16",
       "45.118.48.0/21",
       "45.118.208.0/24",
@@ -47,7 +50,7 @@
       "202.141.137.0/24",
       "220.156.190.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:1e00::/48",
       "2001:4408:4300::/45",
       "2001:4408:4508::/45",

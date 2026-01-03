@@ -1,12 +1,15 @@
 {
-  "asn": 38280,
-  "handle": "MONASHUNI-MY-AS-AP",
-  "description": "Monash University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38280,
+  "metadata" : {
+    "handle" : "MONASHUNI-MY-AS-AP",
+    "description" : "Monash University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.191.192.0/20",
       "118.139.128.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 25159,
-  "handle": "SONICDUO-AS",
-  "description": "PJSC MegaFon",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25159,
+  "metadata" : {
+    "handle" : "SONICDUO-AS",
+    "description" : "PJSC MegaFon",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.173.0.0/18",
       "31.173.64.0/19",
       "37.28.176.0/21",
@@ -51,7 +54,7 @@
       "213.243.109.0/24",
       "213.243.116.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:d000:4000::/36",
       "2a03:d004::/40",
       "2a07:7880::/29",

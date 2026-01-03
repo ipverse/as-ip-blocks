@@ -1,9 +1,12 @@
 {
-  "asn": 394177,
-  "handle": "SHIFT-HOSTING-LLC",
-  "description": "SHIFT HOSTING LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394177,
+  "metadata" : {
+    "handle" : "SHIFT-HOSTING-LLC",
+    "description" : "SHIFT HOSTING LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.20.216.0/22",
       "155.117.20.0/24",
       "158.62.198.0/24",
@@ -15,7 +18,7 @@
       "209.112.76.0/23",
       "209.112.78.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:29c0::/34"
     ]
   }

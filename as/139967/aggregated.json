@@ -1,9 +1,12 @@
 {
-  "asn": 139967,
-  "handle": "YAMNET-AS-ID",
-  "description": "PT. Yasmin Amanah Media",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139967,
+  "metadata" : {
+    "handle" : "YAMNET-AS-ID",
+    "description" : "PT. Yasmin Amanah Media",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.91.149.0/24",
       "103.101.143.0/24",
       "103.146.184.0/23",
@@ -11,7 +14,7 @@
       "103.169.195.0/24",
       "103.183.10.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:9cc0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 48582,
-  "handle": "NGENA-NW",
-  "description": "ngena GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48582,
+  "metadata" : {
+    "handle" : "NGENA-NW",
+    "description" : "ngena GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.142.8.0/23",
       "63.142.10.0/24",
       "138.43.0.0/24",
@@ -15,7 +18,7 @@
       "193.118.142.0/24",
       "193.118.193.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:2900:1f00::/40",
       "2a0b:2900:5280::/41"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 21947,
-  "handle": "BCI",
-  "description": "Blackfoot Telephone Cooperative Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21947,
+  "metadata" : {
+    "handle" : "BCI",
+    "description" : "Blackfoot Telephone Cooperative Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.25.128.0/20",
       "66.109.128.0/19",
       "69.51.64.0/18",
@@ -19,7 +22,7 @@
       "216.14.224.0/19",
       "216.47.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1940::/32",
       "2604:300::/32",
       "2607:f8e0::/32"

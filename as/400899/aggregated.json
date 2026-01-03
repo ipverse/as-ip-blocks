@@ -1,14 +1,17 @@
 {
-  "asn": 400899,
-  "handle": "CYCLONESERVERS-LLC",
-  "description": "Cyclone Servers",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400899,
+  "metadata" : {
+    "handle" : "CYCLONESERVERS-LLC",
+    "description" : "Cyclone Servers",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.27.6.0/24",
       "23.148.12.0/24",
       "207.90.207.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f50a::/40",
       "2602:fed2:7e01::/48",
       "2602:fed2:7e03::/48"

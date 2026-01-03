@@ -1,13 +1,16 @@
 {
-  "asn": 263186,
-  "handle": "UNIVERSIDAD-NACIONAL-GENERAL",
-  "description": "Universidad Nacional de General Sarmiento",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263186,
+  "metadata" : {
+    "handle" : "UNIVERSIDAD-NACIONAL-GENERAL",
+    "description" : "Universidad Nacional de General Sarmiento",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.210.52.0/22",
       "179.0.144.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:18:c000::/48"
     ]
   }

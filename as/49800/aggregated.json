@@ -1,9 +1,12 @@
 {
-  "asn": 49800,
-  "handle": "GNC-ALFA",
-  "description": "GNC-Alfa CJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49800,
+  "metadata" : {
+    "handle" : "GNC-ALFA",
+    "description" : "GNC-Alfa CJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.63.160.0/21",
       "31.47.192.0/21",
       "37.186.64.0/18",
@@ -16,7 +19,7 @@
       "185.8.0.0/22",
       "195.250.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2a50::/29",
       "2a03:6947:200::/40"
     ]

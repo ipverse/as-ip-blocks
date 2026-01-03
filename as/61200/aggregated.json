@@ -1,12 +1,15 @@
 {
-  "asn": 61200,
-  "handle": "MEDIAMONKS-AS",
-  "description": "MediaMonks Multimedia Holding B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61200,
+  "metadata" : {
+    "handle" : "MEDIAMONKS-AS",
+    "description" : "MediaMonks Multimedia Holding B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.16.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:cbc0::/29"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 51413,
-  "handle": "WK-KAERNTEN",
-  "description": "Wirtschaftskammer Kaernten",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51413,
+  "metadata" : {
+    "handle" : "WK-KAERNTEN",
+    "description" : "Wirtschaftskammer Kaernten",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.216.249.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2b8::/48"
     ]
   }

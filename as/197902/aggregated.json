@@ -1,9 +1,12 @@
 {
-  "asn": 197902,
-  "handle": "HOSTNET",
-  "description": "Hostnet B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197902,
+  "metadata" : {
+    "handle" : "HOSTNET",
+    "description" : "Hostnet B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.128.144.0/21",
       "141.138.172.0/22",
       "185.57.8.0/22",
@@ -11,7 +14,7 @@
       "185.95.12.0/22",
       "185.107.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2268::/32",
       "2a03:3c00:c000::/34"
     ]

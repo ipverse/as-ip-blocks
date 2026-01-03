@@ -1,16 +1,19 @@
 {
-  "asn": 133000,
-  "handle": "ARJUNTELECOM-AS",
-  "description": "ARJUN TELECOM PVT. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133000,
+  "metadata" : {
+    "handle" : "ARJUNTELECOM-AS",
+    "description" : "ARJUN TELECOM PVT. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.126.252.0/24",
       "103.238.228.0/22",
       "122.102.126.0/23",
       "202.61.120.0/23",
       "202.191.1.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:88e0::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 48534,
-  "handle": "GUS-AS",
-  "description": "Centrum Informatyki Statystycznej",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48534,
+  "metadata" : {
+    "handle" : "GUS-AS",
+    "description" : "Centrum Informatyki Statystycznej",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.165.48.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:5c4::/48"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 400383,
-  "handle": "HUMBLE-BRIDGER-1",
-  "description": "Denson Technologies",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400383,
+  "metadata" : {
+    "handle" : "HUMBLE-BRIDGER-1",
+    "description" : "Denson Technologies",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.20.220.0/24",
       "64.20.222.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:84c0:fffd::/48",
       "2606:84c0:fffe::/47"
     ]

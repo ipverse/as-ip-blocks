@@ -1,12 +1,15 @@
 {
-  "asn": 53999,
-  "handle": "AS-PRIORITYCOLO2",
-  "description": "Priority Colo Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53999,
+  "metadata" : {
+    "handle" : "AS-PRIORITYCOLO2",
+    "description" : "Priority Colo Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "173.237.208.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f699::/32"
     ]
   }

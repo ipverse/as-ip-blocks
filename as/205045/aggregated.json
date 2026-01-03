@@ -1,11 +1,14 @@
 {
-  "asn": 205045,
-  "handle": "NBI",
-  "description": "NBI SIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205045,
+  "metadata" : {
+    "handle" : "NBI",
+    "description" : "NBI SIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.73.32.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

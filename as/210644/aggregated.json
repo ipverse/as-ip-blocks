@@ -1,9 +1,12 @@
 {
-  "asn": 210644,
-  "handle": "AEZA-AS",
-  "description": "AEZA INTERNATIONAL LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210644,
+  "metadata" : {
+    "handle" : "AEZA-AS",
+    "description" : "AEZA INTERNATIONAL LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.182.86.0/23",
       "45.80.228.0/22",
       "45.144.54.0/23",
@@ -171,7 +174,7 @@
       "217.144.190.0/24",
       "217.197.107.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:e5c0:2000::/35",
       "2a01:e5c0:4000::/34",
       "2a01:e5c0:8003::/48",

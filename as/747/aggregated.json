@@ -1,9 +1,12 @@
 {
-  "asn": 747,
-  "handle": "DNIC-AS-00747",
-  "description": "Headquarters USAISC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 747,
+  "metadata" : {
+    "handle" : "DNIC-AS-00747",
+    "description" : "Headquarters USAISC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.68.64.0/19",
       "143.68.96.0/21",
       "143.73.173.0/24",
@@ -32,6 +35,6 @@
       "215.1.62.0/23",
       "215.1.96.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

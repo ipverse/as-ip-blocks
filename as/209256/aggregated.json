@@ -1,12 +1,15 @@
 {
-  "asn": 209256,
-  "handle": "STRAZNET",
-  "description": "Straznet AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209256,
+  "metadata" : {
+    "handle" : "STRAZNET",
+    "description" : "Straznet AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.6.243.0/24",
       "217.20.96.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

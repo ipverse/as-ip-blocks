@@ -1,15 +1,18 @@
 {
-  "asn": 395723,
-  "handle": "LIGHTSPEEDHOSTING1",
-  "description": "LightSpeed Hosting",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395723,
+  "metadata" : {
+    "handle" : "LIGHTSPEEDHOSTING1",
+    "description" : "LightSpeed Hosting",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.42.248.0/24",
       "139.64.136.0/22",
       "148.59.41.0/24",
       "148.59.137.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff3b::/36"
     ]
   }

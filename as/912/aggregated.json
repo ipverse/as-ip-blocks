@@ -1,9 +1,12 @@
 {
-  "asn": 912,
-  "handle": "HUT8-EAST",
-  "description": "Hut 8 Mining Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 912,
+  "metadata" : {
+    "handle" : "HUT8-EAST",
+    "description" : "Hut 8 Mining Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.152.56.0/22",
       "64.46.32.0/19",
       "64.72.224.0/24",
@@ -36,7 +39,7 @@
       "208.93.232.0/21",
       "209.97.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2601:1400::/28"
     ]
   }

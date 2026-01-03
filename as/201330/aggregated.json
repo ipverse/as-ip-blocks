@@ -1,12 +1,15 @@
 {
-  "asn": 201330,
-  "handle": "SOLIDBE",
-  "description": "SolidBE BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201330,
+  "metadata" : {
+    "handle" : "SOLIDBE",
+    "description" : "SolidBE BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.78.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:58a0::/32"
     ]
   }

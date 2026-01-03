@@ -1,12 +1,15 @@
 {
-  "asn": 200503,
-  "handle": "DLINK-AS",
-  "description": "D-Link Trade Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200503,
+  "metadata" : {
+    "handle" : "DLINK-AS",
+    "description" : "D-Link Trade Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.170.168.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5a00:3d::/48"
     ]
   }

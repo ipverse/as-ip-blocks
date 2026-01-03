@@ -1,9 +1,12 @@
 {
-  "asn": 29240,
-  "handle": "LANWAN-AS",
-  "description": "Loihde Trust Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29240,
+  "metadata" : {
+    "handle" : "LANWAN-AS",
+    "description" : "Loihde Trust Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.77.244.0/22",
       "185.118.224.0/22",
       "185.217.236.0/22",
@@ -14,7 +17,7 @@
       "195.225.176.0/22",
       "213.255.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:18::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 264444,
-  "handle": "LINKCE-TELECOM",
-  "description": "LINKCE Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264444,
+  "metadata" : {
+    "handle" : "LINKCE-TELECOM",
+    "description" : "LINKCE Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.221.224.0/22",
       "168.194.236.0/22",
       "168.195.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1eb0::/32"
     ]
   }

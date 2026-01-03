@@ -1,9 +1,12 @@
 {
-  "asn": 265867,
-  "handle": "TRANS-OCEAN-NETWORK",
-  "description": "Trans Ocean Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265867,
+  "metadata" : {
+    "handle" : "TRANS-OCEAN-NETWORK",
+    "description" : "Trans Ocean Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.7.102.0/23",
       "38.156.248.0/22",
       "38.191.72.0/22",
@@ -25,7 +28,7 @@
       "191.101.96.0/24",
       "191.101.153.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:3620::/32"
     ]
   }

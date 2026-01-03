@@ -1,12 +1,15 @@
 {
-  "asn": 199805,
-  "handle": "UGO-AS",
-  "description": "UGO LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199805,
+  "metadata" : {
+    "handle" : "UGO-AS",
+    "description" : "UGO LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.45.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7e20::/31",
       "2a01:7e27::/32"
     ]

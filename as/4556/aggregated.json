@@ -1,9 +1,12 @@
 {
-  "asn": 4556,
-  "handle": "PACKETFABRIC-AS4556",
-  "description": "PacketFabric Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4556,
+  "metadata" : {
+    "handle" : "PACKETFABRIC-AS4556",
+    "description" : "PacketFabric Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.159.0.0/24",
       "159.117.192.0/21",
       "159.117.202.0/23",
@@ -20,7 +23,7 @@
       "209.16.184.0/21",
       "209.162.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:db80::/32"
     ]
   }

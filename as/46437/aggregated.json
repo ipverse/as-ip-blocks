@@ -1,9 +1,12 @@
 {
-  "asn": 46437,
-  "handle": "FOURWAY",
-  "description": "Fourway Computer Products Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46437,
+  "metadata" : {
+    "handle" : "FOURWAY",
+    "description" : "Fourway Computer Products Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.118.112.0/21",
       "162.210.16.0/22",
       "162.252.224.0/22",
@@ -17,7 +20,7 @@
       "208.95.136.0/21",
       "216.120.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:3380::/28"
     ]
   }

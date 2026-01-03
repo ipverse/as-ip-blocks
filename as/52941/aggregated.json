@@ -1,14 +1,17 @@
 {
-  "asn": 52941,
-  "handle": "SPACE-NETWORK",
-  "description": "SPACE NETWORK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52941,
+  "metadata" : {
+    "handle" : "SPACE-NETWORK",
+    "description" : "SPACE NETWORK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.164.84.0/23",
       "45.169.212.0/22",
       "177.38.40.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:b18::/32"
     ]
   }

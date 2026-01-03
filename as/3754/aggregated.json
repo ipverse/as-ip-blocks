@@ -1,11 +1,14 @@
 {
-  "asn": 3754,
-  "handle": "NYSERNET3-AS",
-  "description": "NYSERNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3754,
+  "metadata" : {
+    "handle" : "NYSERNET3-AS",
+    "description" : "NYSERNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.223.77.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

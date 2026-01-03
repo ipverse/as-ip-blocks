@@ -1,9 +1,12 @@
 {
-  "asn": 8068,
-  "handle": "MICROSOFT-CORP-MSN-AS-BLOCK",
-  "description": "Microsoft Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8068,
+  "metadata" : {
+    "handle" : "MICROSOFT-CORP-MSN-AS-BLOCK",
+    "description" : "Microsoft Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "13.107.3.0/24",
       "13.107.4.0/22",
       "13.107.9.0/24",
@@ -36,7 +39,7 @@
       "150.171.44.0/24",
       "204.79.197.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:1ec:4::/46",
       "2620:1ec:a::/47",
       "2620:1ec:c::/47",

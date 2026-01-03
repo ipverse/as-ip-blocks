@@ -1,12 +1,15 @@
 {
-  "asn": 40633,
-  "handle": "LAIX",
-  "description": "LOS ANGELES INTERNET EXCHANGE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40633,
+  "metadata" : {
+    "handle" : "LAIX",
+    "description" : "LOS ANGELES INTERNET EXCHANGE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.36.28.0/22",
       "199.233.28.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

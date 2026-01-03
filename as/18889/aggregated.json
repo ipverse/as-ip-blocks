@@ -1,15 +1,18 @@
 {
-  "asn": 18889,
-  "handle": "CITY-OF-RUSTON",
-  "description": "City of Ruston",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18889,
+  "metadata" : {
+    "handle" : "CITY-OF-RUSTON",
+    "description" : "City of Ruston",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.170.238.0/23",
       "192.152.192.0/23",
       "208.46.188.0/24",
       "209.211.124.0/24",
       "216.163.25.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

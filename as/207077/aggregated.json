@@ -1,13 +1,16 @@
 {
-  "asn": 207077,
-  "handle": "AS-SPECIALHOST",
-  "description": "Michael Krockor",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207077,
+  "metadata" : {
+    "handle" : "AS-SPECIALHOST",
+    "description" : "Michael Krockor",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.88.226.0/23",
       "194.88.252.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1990::/48",
       "2a0f:25c0::/48",
       "2a0f:25c0:1990::/48"

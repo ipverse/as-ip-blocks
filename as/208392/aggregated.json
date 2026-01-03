@@ -1,9 +1,12 @@
 {
-  "asn": 208392,
-  "handle": "ITSAP-AS",
-  "description": "It Saport Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208392,
+  "metadata" : {
+    "handle" : "ITSAP-AS",
+    "description" : "It Saport Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.132.253.0/24",
       "82.115.222.0/24",
       "103.173.126.0/23",
@@ -15,6 +18,6 @@
       "185.112.100.0/24",
       "185.114.74.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

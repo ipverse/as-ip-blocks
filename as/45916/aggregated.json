@@ -1,9 +1,12 @@
 {
-  "asn": 45916,
-  "handle": "GTPL-AS-AP",
-  "description": "Gujarat Telelink Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45916,
+  "metadata" : {
+    "handle" : "GTPL-AS-AP",
+    "description" : "Gujarat Telelink Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.192.28.0/22",
       "27.116.48.0/21",
       "27.121.100.0/22",
@@ -92,7 +95,7 @@
       "182.237.8.0/21",
       "183.182.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:a00::/48",
       "2402:a00:a::/47",
       "2402:a00:c::/46",

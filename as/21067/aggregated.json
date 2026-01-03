@@ -1,12 +1,15 @@
 {
-  "asn": 21067,
-  "handle": "KANDU-AS",
-  "description": "KANDU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21067,
+  "metadata" : {
+    "handle" : "KANDU-AS",
+    "description" : "KANDU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.110.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:5840::/29"
     ]
   }

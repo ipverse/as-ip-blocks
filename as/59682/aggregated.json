@@ -1,13 +1,16 @@
 {
-  "asn": 59682,
-  "handle": "MULTICAST-AS",
-  "description": "MULTICAST LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59682,
+  "metadata" : {
+    "handle" : "MULTICAST-AS",
+    "description" : "MULTICAST LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.131.5.0/24",
       "95.164.54.0/24",
       "95.164.95.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

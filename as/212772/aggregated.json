@@ -1,9 +1,12 @@
 {
-  "asn": 212772,
-  "handle": "ADGUARD",
-  "description": "AdGuard Software Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212772,
+  "metadata" : {
+    "handle" : "ADGUARD",
+    "description" : "AdGuard Software Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.156.136.0/22",
       "46.243.228.0/22",
       "92.255.56.0/24",
@@ -12,7 +15,7 @@
       "185.113.28.0/23",
       "217.72.12.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:50c0::/48",
       "2a10:50c0:1337::/48",
       "2a10:50c0:7001::/48",

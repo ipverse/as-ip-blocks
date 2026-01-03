@@ -1,9 +1,12 @@
 {
-  "asn": 19752,
-  "handle": "HYDROONETELECOM",
-  "description": "Hydro One Telecom Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19752,
+  "metadata" : {
+    "handle" : "HYDROONETELECOM",
+    "description" : "Hydro One Telecom Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.46.0.0/15",
       "192.75.38.0/24",
       "192.75.45.0/24",
@@ -13,7 +16,7 @@
       "192.75.118.0/24",
       "192.75.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:dc00::/32"
     ]
   }

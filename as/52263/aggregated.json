@@ -1,9 +1,12 @@
 {
-  "asn": 52263,
-  "handle": "TELECABLE-ECONOMICO",
-  "description": "Telecable Economico S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52263,
+  "metadata" : {
+    "handle" : "TELECABLE-ECONOMICO",
+    "description" : "Telecable Economico S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.242.197.0/24",
       "64.209.9.0/24",
       "138.118.80.0/22",
@@ -21,7 +24,7 @@
       "200.229.4.0/22",
       "200.229.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:1300::/35",
       "2803:1300:2000::/36",
       "2803:1300:4000::/36",

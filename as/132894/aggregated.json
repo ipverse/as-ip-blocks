@@ -1,12 +1,15 @@
 {
-  "asn": 132894,
-  "handle": "MUD-AS-AP",
-  "description": "Sigma Internet Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132894,
+  "metadata" : {
+    "handle" : "MUD-AS-AP",
+    "description" : "Sigma Internet Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.191.60.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:acc0::/48"
     ]
   }

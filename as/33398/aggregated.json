@@ -1,9 +1,12 @@
 {
-  "asn": 33398,
-  "handle": "HOSTA-LAS",
-  "description": "Miva Merchant Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33398,
+  "metadata" : {
+    "handle" : "HOSTA-LAS",
+    "description" : "Miva Merchant Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.48.232.0/21",
       "199.180.80.0/22",
       "199.187.184.0/22",
@@ -18,7 +21,7 @@
       "216.188.128.0/20",
       "216.188.144.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:4d00::/34",
       "2607:4d00:4000::/35"
     ]

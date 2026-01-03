@@ -1,11 +1,14 @@
 {
-  "asn": 400631,
-  "handle": "AS-JSENT",
-  "description": "Just Some Hosting",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400631,
+  "metadata" : {
+    "handle" : "AS-JSENT",
+    "description" : "Just Some Hosting",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.225.134.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

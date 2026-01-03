@@ -1,12 +1,15 @@
 {
-  "asn": 270758,
-  "handle": "SPEEDNET",
-  "description": "SPEEDNET LTDA EPP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270758,
+  "metadata" : {
+    "handle" : "SPEEDNET",
+    "description" : "SPEEDNET LTDA EPP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.39.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:70f4::/32"
     ]
   }

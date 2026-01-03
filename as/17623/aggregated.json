@@ -1,9 +1,12 @@
 {
-  "asn": 17623,
-  "handle": "CNCGROUP-SZ",
-  "description": "China Unicom Shenzen network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17623,
+  "metadata" : {
+    "handle" : "CNCGROUP-SZ",
+    "description" : "China Unicom Shenzen network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.38.0.0/16",
       "27.39.32.0/19",
       "27.39.136.0/21",
@@ -99,7 +102,7 @@
       "220.113.154.0/24",
       "220.249.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2408:8001:3070::/44",
       "2408:805d:8::/48",
       "2408:805d:f8::/48",

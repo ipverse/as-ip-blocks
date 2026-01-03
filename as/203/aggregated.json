@@ -1,9 +1,12 @@
 {
-  "asn": 203,
-  "handle": "CENTURYLINK-LEGACY-LVLT-203",
-  "description": "Level 3 Parent LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203,
+  "metadata" : {
+    "handle" : "CENTURYLINK-LEGACY-LVLT-203",
+    "description" : "Level 3 Parent LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.7.155.0/24",
       "8.15.229.0/24",
       "8.18.63.0/24",
@@ -74,6 +77,6 @@
       "216.163.240.0/20",
       "216.235.200.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

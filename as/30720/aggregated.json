@@ -1,12 +1,15 @@
 {
-  "asn": 30720,
-  "handle": "VWE-EXTRANET-AS",
-  "description": "VWE Automotive Solutions B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30720,
+  "metadata" : {
+    "handle" : "VWE-EXTRANET-AS",
+    "description" : "VWE Automotive Solutions B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.85.175.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6a40:1::/48"
     ]
   }

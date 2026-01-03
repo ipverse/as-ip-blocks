@@ -1,9 +1,12 @@
 {
-  "asn": 47638,
-  "handle": "CADENCE-AS",
-  "description": "Cadence Networks Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47638,
+  "metadata" : {
+    "handle" : "CADENCE-AS",
+    "description" : "Cadence Networks Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.90.64.0/22",
       "91.229.174.0/23",
       "91.235.56.0/22",
@@ -19,7 +22,7 @@
       "185.213.92.0/22",
       "194.0.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:248c::/48",
       "2a02:6da0::/29",
       "2a04:1840::/29",

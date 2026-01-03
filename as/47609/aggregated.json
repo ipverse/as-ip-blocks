@@ -1,12 +1,15 @@
 {
-  "asn": 47609,
-  "handle": "LTMD",
-  "description": "UAB LTMD Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47609,
+  "metadata" : {
+    "handle" : "LTMD",
+    "description" : "UAB LTMD Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.206.132.0/23",
       "185.72.101.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

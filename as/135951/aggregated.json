@@ -1,9 +1,12 @@
 {
-  "asn": 135951,
-  "handle": "WEBICO-AS-VN",
-  "description": "Webico Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135951,
+  "metadata" : {
+    "handle" : "WEBICO-AS-VN",
+    "description" : "Webico Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "101.101.96.0/23",
       "103.130.216.0/22",
       "103.142.24.0/22",
@@ -18,7 +21,7 @@
       "116.118.44.0/22",
       "180.93.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:45e0::/48",
       "2405:2840::/48"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 32181,
-  "handle": "ASN-GIGENET",
-  "description": "GigeNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32181,
+  "metadata" : {
+    "handle" : "ASN-GIGENET",
+    "description" : "GigeNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.163.144.0/24",
       "38.91.56.0/22",
       "45.41.204.0/22",
@@ -46,7 +49,7 @@
       "209.212.144.0/20",
       "216.38.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1850::/32",
       "2602:fd24::/40",
       "2602:fea7:e00::/40",

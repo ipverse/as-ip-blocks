@@ -1,12 +1,15 @@
 {
-  "asn": 152197,
-  "handle": "BUSANPA-AS",
-  "description": "Busan Port Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152197,
+  "metadata" : {
+    "handle" : "BUSANPA-AS",
+    "description" : "Busan Port Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "110.14.171.0/24",
       "118.129.24.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

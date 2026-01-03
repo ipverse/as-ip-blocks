@@ -1,9 +1,12 @@
 {
-  "asn": 198024,
-  "handle": "FI-ISTEKKI-AS",
-  "description": "Istekki Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198024,
+  "metadata" : {
+    "handle" : "FI-ISTEKKI-AS",
+    "description" : "Istekki Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.172.152.0/21",
       "37.44.48.0/21",
       "45.88.44.0/22",
@@ -19,7 +22,7 @@
       "193.142.176.0/21",
       "193.142.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:7b80::/32",
       "2a05:b080::/29",
       "2a06:7b40::/29",

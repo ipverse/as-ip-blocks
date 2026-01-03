@@ -1,9 +1,12 @@
 {
-  "asn": 394511,
-  "handle": "EFATL",
-  "description": "eFolder Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394511,
+  "metadata" : {
+    "handle" : "EFATL",
+    "description" : "eFolder Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.223.56.0/22",
       "162.247.157.0/24",
       "162.247.158.0/23",
@@ -14,6 +17,6 @@
       "198.73.21.0/24",
       "198.73.22.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

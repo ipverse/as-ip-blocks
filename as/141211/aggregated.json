@@ -1,11 +1,14 @@
 {
-  "asn": 141211,
-  "handle": "MIDCOAST-AS-AP",
-  "description": "MID-COAST COUNCIL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141211,
+  "metadata" : {
+    "handle" : "MIDCOAST-AS-AP",
+    "description" : "MID-COAST COUNCIL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.156.131.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

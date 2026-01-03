@@ -1,12 +1,15 @@
 {
-  "asn": 272162,
-  "handle": "FIBRA-MINAS",
-  "description": "Fibra Minas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272162,
+  "metadata" : {
+    "handle" : "FIBRA-MINAS",
+    "description" : "Fibra Minas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "205.164.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:82e0::/32"
     ]
   }

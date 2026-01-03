@@ -1,9 +1,12 @@
 {
-  "asn": 198785,
-  "handle": "SEDMIODJEL-AS",
-  "description": "Sedmi Odjel d.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198785,
+  "metadata" : {
+    "handle" : "SEDMIODJEL-AS",
+    "description" : "Sedmi Odjel d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.9.0.0/20",
       "141.138.12.0/24",
       "141.138.14.0/24",
@@ -13,7 +16,7 @@
       "185.155.226.0/23",
       "195.130.192.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:a7c0::/32"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 140076,
-  "handle": "MIS-AS-AP",
-  "description": "Mir Internet Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140076,
+  "metadata" : {
+    "handle" : "MIS-AS-AP",
+    "description" : "Mir Internet Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.148.40.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

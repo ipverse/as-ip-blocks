@@ -1,13 +1,16 @@
 {
-  "asn": 54710,
-  "handle": "INNOUT",
-  "description": "IN-N-OUT BURGERS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54710,
+  "metadata" : {
+    "handle" : "INNOUT",
+    "description" : "IN-N-OUT BURGERS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.217.97.0/24",
       "64.58.191.0/24",
       "137.83.16.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

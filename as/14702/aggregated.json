@@ -1,13 +1,16 @@
 {
-  "asn": 14702,
-  "handle": "INL-ASN2",
-  "description": "Idaho National Laboratory",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14702,
+  "metadata" : {
+    "handle" : "INL-ASN2",
+    "description" : "Idaho National Laboratory",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.20.0.0/16",
       "141.221.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:2b80::/44"
     ]
   }

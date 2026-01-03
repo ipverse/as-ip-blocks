@@ -1,9 +1,12 @@
 {
-  "asn": 8015,
-  "handle": "US-SIGNAL-MN01",
-  "description": "US Signal Company L.L.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8015,
+  "metadata" : {
+    "handle" : "US-SIGNAL-MN01",
+    "description" : "US Signal Company L.L.C.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.40.200.0/24",
       "199.229.91.0/24",
       "208.42.0.0/17",
@@ -12,7 +15,7 @@
       "209.134.128.0/19",
       "216.120.141.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:18c8::/32"
     ]
   }

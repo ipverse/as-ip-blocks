@@ -1,12 +1,15 @@
 {
-  "asn": 153696,
-  "handle": "STUDENT6-AS-AP",
-  "description": "STUDENT NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153696,
+  "metadata" : {
+    "handle" : "STUDENT6-AS-AP",
+    "description" : "STUDENT NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.223.108.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:3bc0::/48"
     ]
   }

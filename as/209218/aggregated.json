@@ -1,12 +1,15 @@
 {
-  "asn": 209218,
-  "handle": "FISH-NETWORK-AS",
-  "description": "Yang Qi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209218,
+  "metadata" : {
+    "handle" : "FISH-NETWORK-AS",
+    "description" : "Yang Qi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.232.20.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:840:f660::/44",
       "2a0e:b107:a0::/44"
     ]

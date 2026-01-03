@@ -1,9 +1,12 @@
 {
-  "asn": 198333,
-  "handle": "DATAGROUP-AS",
-  "description": "DATAGROUP SE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198333,
+  "metadata" : {
+    "handle" : "DATAGROUP-AS",
+    "description" : "DATAGROUP SE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.217.141.0/24",
       "176.123.51.0/24",
       "185.55.152.0/23",
@@ -13,7 +16,7 @@
       "194.139.6.0/23",
       "195.66.99.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1988::/48",
       "2a0b:3180::/29"
     ]

@@ -1,14 +1,17 @@
 {
-  "asn": 53942,
-  "handle": "ASN-CTCAK-1",
-  "description": "Cordova Telecom Cooperative Incorporated",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53942,
+  "metadata" : {
+    "handle" : "ASN-CTCAK-1",
+    "description" : "Cordova Telecom Cooperative Incorporated",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.38.108.0/23",
       "199.189.128.0/22",
       "207.229.106.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:7fc0::/32"
     ]
   }

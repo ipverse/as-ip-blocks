@@ -1,9 +1,12 @@
 {
-  "asn": 29066,
-  "handle": "VELIANET-AS",
-  "description": "velia.net Internetdienste GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29066,
+  "metadata" : {
+    "handle" : "VELIANET-AS",
+    "description" : "velia.net Internetdienste GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.102.0/24",
       "2.59.23.0/24",
       "5.253.66.0/23",
@@ -192,7 +195,7 @@
       "217.172.188.0/23",
       "217.172.190.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:f380::/32",
       "2604:bc80::/32",
       "2a01:7a0::/32",

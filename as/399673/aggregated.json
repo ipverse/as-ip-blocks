@@ -1,14 +1,17 @@
 {
-  "asn": 399673,
-  "handle": "TRI-COGO",
-  "description": "Tri-CoGo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399673,
+  "metadata" : {
+    "handle" : "TRI-COGO",
+    "description" : "Tri-CoGo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.235.0.0/20",
       "216.25.96.0/20",
       "216.147.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:5640::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 198890,
-  "handle": "MADCOM-ASN",
-  "description": "Albanian Fiber Telecommunications SHPK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198890,
+  "metadata" : {
+    "handle" : "MADCOM-ASN",
+    "description" : "Albanian Fiber Telecommunications SHPK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.120.100.0/22",
       "93.187.110.0/24",
       "185.161.184.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:1540::/29"
     ]
   }

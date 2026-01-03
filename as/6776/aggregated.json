@@ -1,9 +1,12 @@
 {
-  "asn": 6776,
-  "handle": "THENET",
-  "description": "TheNet - Internet Services AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6776,
+  "metadata" : {
+    "handle" : "THENET",
+    "description" : "TheNet - Internet Services AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.150.52.0/22",
       "192.33.111.0/24",
       "193.135.152.0/23",
@@ -20,7 +23,7 @@
       "193.247.251.0/24",
       "193.247.252.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:efa0::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 135071,
-  "handle": "VIDEOELEPHANT-AS-AP",
-  "description": "VIDEO ELEPHANT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135071,
+  "metadata" : {
+    "handle" : "VIDEOELEPHANT-AS-AP",
+    "description" : "VIDEO ELEPHANT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.208.132.0/22",
       "137.59.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:c0c0::/32"
     ]
   }

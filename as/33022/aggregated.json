@@ -1,12 +1,15 @@
 {
-  "asn": 33022,
-  "handle": "WELLESLEY-COLLEGE",
-  "description": "Wellesley College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33022,
+  "metadata" : {
+    "handle" : "WELLESLEY-COLLEGE",
+    "description" : "Wellesley College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.130.0.0/17",
       "192.42.89.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

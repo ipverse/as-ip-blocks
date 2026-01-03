@@ -1,9 +1,12 @@
 {
-  "asn": 51188,
-  "handle": "CRESCOM-AS",
-  "description": "Telia Cygate Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51188,
+  "metadata" : {
+    "handle" : "CRESCOM-AS",
+    "description" : "Telia Cygate Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.166.28.0/22",
       "193.28.203.0/24",
       "193.93.132.0/22",
@@ -11,7 +14,7 @@
       "194.28.0.0/22",
       "194.187.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:25c::/48"
     ]
   }

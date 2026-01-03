@@ -1,13 +1,16 @@
 {
-  "asn": 39284,
-  "handle": "SR-AS",
-  "description": "Sochi-Rost LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39284,
+  "metadata" : {
+    "handle" : "SR-AS",
+    "description" : "Sochi-Rost LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.95.30.0/24",
       "194.15.57.0/24",
       "213.139.200.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

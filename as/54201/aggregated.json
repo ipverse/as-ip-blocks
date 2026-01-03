@@ -1,15 +1,18 @@
 {
-  "asn": 54201,
-  "handle": "WEWORK-MANAGEMENT-LLC",
-  "description": "We Link Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54201,
+  "metadata" : {
+    "handle" : "WEWORK-MANAGEMENT-LLC",
+    "description" : "We Link Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.139.86.0/24",
       "199.47.75.0/24",
       "199.47.76.0/24",
       "199.47.79.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:e4c0:8::/48",
       "2404:e4c0:1008::/48",
       "2404:e4c0:5105::/48",

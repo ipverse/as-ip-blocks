@@ -1,12 +1,15 @@
 {
-  "asn": 49681,
-  "handle": "STORPOOL-AS",
-  "description": "StorPool Storage AD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49681,
+  "metadata" : {
+    "handle" : "STORPOOL-AS",
+    "description" : "StorPool Storage AD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.117.80.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:5e40:f00f::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 8495,
-  "handle": "INTERNET-AG",
-  "description": "INTERNET AG Global Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8495,
+  "metadata" : {
+    "handle" : "INTERNET-AG",
+    "description" : "INTERNET AG Global Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.135.106.0/24",
       "62.116.150.0/23",
       "62.116.152.0/23",
@@ -15,7 +18,7 @@
       "194.187.240.0/22",
       "195.34.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:130::/32",
       "2a05:bc0:1000::/47",
       "2a0e:6b40:20::/48"

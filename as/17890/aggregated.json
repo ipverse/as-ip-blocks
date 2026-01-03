@@ -1,11 +1,14 @@
 {
-  "asn": 17890,
-  "handle": "MATILDA-AS-AP",
-  "description": "Matilda Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17890,
+  "metadata" : {
+    "handle" : "MATILDA-AS-AP",
+    "description" : "Matilda Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.7.48.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

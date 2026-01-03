@@ -1,9 +1,12 @@
 {
-  "asn": 198399,
-  "handle": "FASTCON-AS",
-  "description": "FASTCON srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198399,
+  "metadata" : {
+    "handle" : "FASTCON-AS",
+    "description" : "FASTCON srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.34.72.0/23",
       "37.34.74.0/24",
       "37.34.76.0/22",
@@ -11,7 +14,7 @@
       "185.95.224.0/22",
       "195.93.168.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:c5e0::/32"
     ]
   }

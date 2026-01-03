@@ -1,10 +1,13 @@
 {
-  "asn": 53841,
-  "handle": "RAMHOST",
-  "description": "RAM Host",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 53841,
+  "metadata" : {
+    "handle" : "RAMHOST",
+    "description" : "RAM Host",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2605:8900:1000::/36",
       "2605:8900:3000::/36",
       "2605:8900:5000::/36"

@@ -1,11 +1,14 @@
 {
-  "asn": 137030,
-  "handle": "IPLINKNETWORK-AS-AP",
-  "description": "IP Link network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137030,
+  "metadata" : {
+    "handle" : "IPLINKNETWORK-AS-AP",
+    "description" : "IP Link network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.10.29.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

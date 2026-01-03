@@ -1,12 +1,15 @@
 {
-  "asn": 207289,
-  "handle": "WWNG",
-  "description": "Westfalen Weser Netz GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207289,
+  "metadata" : {
+    "handle" : "WWNG",
+    "description" : "Westfalen Weser Netz GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.63.86.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:440::/29"
     ]
   }

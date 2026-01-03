@@ -1,9 +1,12 @@
 {
-  "asn": 39798,
-  "handle": "MIVOCLOUD",
-  "description": "MivoCloud SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39798,
+  "metadata" : {
+    "handle" : "MIVOCLOUD",
+    "description" : "MivoCloud SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.181.156.0/22",
       "5.252.176.0/23",
       "5.252.178.0/24",
@@ -15,7 +18,7 @@
       "194.180.174.0/24",
       "194.180.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2db8::/48",
       "2a0a:c800::/31",
       "2a0a:c802::/47",

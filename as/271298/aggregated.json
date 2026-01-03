@@ -1,12 +1,15 @@
 {
-  "asn": 271298,
-  "handle": "OARIS-NETWORK",
-  "description": "Oaris Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271298,
+  "metadata" : {
+    "handle" : "OARIS-NETWORK",
+    "description" : "Oaris Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.53.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7950::/33",
       "2804:7950:8000::/39"
     ]

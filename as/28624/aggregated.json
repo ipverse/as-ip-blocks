@@ -1,9 +1,12 @@
 {
-  "asn": 28624,
-  "handle": "PROVEDORA-CMA-INTERNET",
-  "description": "PROVEDORA CMA INTERNET LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28624,
+  "metadata" : {
+    "handle" : "PROVEDORA-CMA-INTERNET",
+    "description" : "PROVEDORA CMA INTERNET LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.131.197.0/24",
       "177.131.224.0/24",
       "177.131.237.0/24",
@@ -13,7 +16,7 @@
       "201.33.32.0/19",
       "201.54.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3bc::/32"
     ]
   }

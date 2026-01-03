@@ -1,15 +1,18 @@
 {
-  "asn": 2511,
-  "handle": "CORE",
-  "description": "Nippon Telegraph and Telephone Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2511,
+  "metadata" : {
+    "handle" : "CORE",
+    "description" : "Nippon Telegraph and Telephone Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.138.0.0/17",
       "163.138.128.0/19",
       "192.5.216.0/24",
       "192.26.94.0/24",
       "192.47.167.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

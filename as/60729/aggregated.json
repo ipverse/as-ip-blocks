@@ -1,14 +1,17 @@
 {
-  "asn": 60729,
-  "handle": "TORSERVERS-NET",
-  "description": "Stiftung Erneuerbare Freiheit",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60729,
+  "metadata" : {
+    "handle" : "TORSERVERS-NET",
+    "description" : "Stiftung Erneuerbare Freiheit",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.177.207.0/24",
       "185.220.101.0/24",
       "185.220.102.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:4587:2010::/46",
       "2a0b:f4c1:2::/48",
       "2a0b:f4c2::/40"

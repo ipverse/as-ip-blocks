@@ -1,9 +1,12 @@
 {
-  "asn": 13332,
-  "handle": "HYPEENT-SJ",
-  "description": "Hype Enterprises",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13332,
+  "metadata" : {
+    "handle" : "HYPEENT-SJ",
+    "description" : "Hype Enterprises",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.115.192.0/22",
       "45.249.56.0/22",
       "67.227.1.0/24",
@@ -36,6 +39,6 @@
       "216.74.114.0/23",
       "216.74.117.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

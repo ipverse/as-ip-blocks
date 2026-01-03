@@ -1,9 +1,12 @@
 {
-  "asn": 8896,
-  "handle": "XFIBER-AS",
-  "description": "GLOBALCONNECT AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8896,
+  "metadata" : {
+    "handle" : "XFIBER-AS",
+    "description" : "GLOBALCONNECT AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.90.36.0/23",
       "45.138.236.0/22",
       "77.241.96.0/20",
@@ -21,7 +24,7 @@
       "185.156.114.0/24",
       "212.33.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1e18::/29",
       "2a03:9a00::/29",
       "2a09:a300::/32",

@@ -1,14 +1,17 @@
 {
-  "asn": 269749,
-  "handle": "NETCOM-PLUS-CA",
-  "description": "NETCOM PLUS C.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269749,
+  "metadata" : {
+    "handle" : "NETCOM-PLUS-CA",
+    "description" : "NETCOM PLUS C.A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.183.112.0/21",
       "45.182.140.0/23",
       "206.1.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:f960::/32"
     ]
   }

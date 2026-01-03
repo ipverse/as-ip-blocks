@@ -1,9 +1,12 @@
 {
-  "asn": 50926,
-  "handle": "AXARNET-AS",
-  "description": "AXARNET COMUNICACIONES S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50926,
+  "metadata" : {
+    "handle" : "AXARNET-AS",
+    "description" : "AXARNET COMUNICACIONES S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.175.40.0/21",
       "31.24.40.0/21",
       "31.24.152.0/21",
@@ -37,7 +40,7 @@
       "195.5.116.0/23",
       "212.34.156.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:5ac0::/44",
       "2a00:5ac0:100::/48",
       "2a00:5ac0:147::/48",

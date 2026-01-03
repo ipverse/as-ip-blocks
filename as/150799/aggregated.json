@@ -1,11 +1,14 @@
 {
-  "asn": 150799,
-  "handle": "FLONLINE-AS-AP",
-  "description": "FL ONLINE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150799,
+  "metadata" : {
+    "handle" : "FLONLINE-AS-AP",
+    "description" : "FL ONLINE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.107.240.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

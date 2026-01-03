@@ -1,12 +1,15 @@
 {
-  "asn": 401973,
-  "handle": "NEBULA-NETWORKS",
-  "description": "Nebula Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401973,
+  "metadata" : {
+    "handle" : "NEBULA-NETWORKS",
+    "description" : "Nebula Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.146.172.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f535::/40"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 22820,
-  "handle": "CYBERA",
-  "description": "Cybera Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22820,
+  "metadata" : {
+    "handle" : "CYBERA",
+    "description" : "Cybera Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.5.112.0/24",
       "64.5.124.0/22",
       "64.202.128.0/20",
@@ -12,6 +15,6 @@
       "199.241.176.0/21",
       "205.153.152.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

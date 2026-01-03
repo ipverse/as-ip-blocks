@@ -1,10 +1,13 @@
 {
-  "asn": 50007,
-  "handle": "LVNET-AS",
-  "description": "LVNET LTD",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 50007,
+  "metadata" : {
+    "handle" : "LVNET-AS",
+    "description" : "LVNET LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a06:3b00::/48",
       "2a09:1140::/48",
       "2a09:4040::/48",

@@ -1,12 +1,15 @@
 {
-  "asn": 329455,
-  "handle": "ONE-CARRIER",
-  "description": "ONE Carrier",
-  "subnets": {
-    "ipv4": [
+  "asn" : 329455,
+  "metadata" : {
+    "handle" : "ONE-CARRIER",
+    "description" : "ONE Carrier",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.208.140.0/23",
       "102.208.142.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

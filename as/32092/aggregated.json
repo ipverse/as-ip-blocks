@@ -1,11 +1,14 @@
 {
-  "asn": 32092,
-  "handle": "AAI-BLI-AS",
-  "description": "Altair Advanced Industries",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32092,
+  "metadata" : {
+    "handle" : "AAI-BLI-AS",
+    "description" : "Altair Advanced Industries",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.65.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

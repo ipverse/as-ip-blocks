@@ -1,15 +1,18 @@
 {
-  "asn": 136342,
-  "handle": "WINUXC-AS",
-  "description": "Winux Communications Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136342,
+  "metadata" : {
+    "handle" : "WINUXC-AS",
+    "description" : "Winux Communications Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.113.228.0/22",
       "103.117.64.0/22",
       "103.127.184.0/22",
       "103.188.48.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:80a0::/32",
       "2405:b740::/32"
     ]

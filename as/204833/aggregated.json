@@ -1,15 +1,18 @@
 {
-  "asn": 204833,
-  "handle": "VTEL-NSK-AS",
-  "description": "Vostok Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204833,
+  "metadata" : {
+    "handle" : "VTEL-NSK-AS",
+    "description" : "Vostok Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.233.6.0/24",
       "193.233.8.0/24",
       "193.233.17.0/24",
       "193.233.78.0/24",
       "193.233.160.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

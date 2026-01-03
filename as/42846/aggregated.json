@@ -1,9 +1,12 @@
 {
-  "asn": 42846,
-  "handle": "GUZELHOSTING",
-  "description": "GNET Internet Telekomunikasyon A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42846,
+  "metadata" : {
+    "handle" : "GUZELHOSTING",
+    "description" : "GNET Internet Telekomunikasyon A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.192.212.0/24",
       "31.192.214.0/24",
       "45.84.188.0/22",
@@ -23,7 +26,7 @@
       "159.253.37.0/24",
       "185.106.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:41c0::/47"
     ]
   }

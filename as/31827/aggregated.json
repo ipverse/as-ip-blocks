@@ -1,12 +1,15 @@
 {
-  "asn": 31827,
-  "handle": "BNT-NETWORK-ACCESS",
-  "description": "Biz Net Technologies",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31827,
+  "metadata" : {
+    "handle" : "BNT-NETWORK-ACCESS",
+    "description" : "Biz Net Technologies",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.252.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:8780::/32"
     ]
   }

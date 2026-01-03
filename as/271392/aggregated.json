@@ -1,12 +1,15 @@
 {
-  "asn": 271392,
-  "handle": "EXPRESSNET-TELECOM",
-  "description": "Expressnet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271392,
+  "metadata" : {
+    "handle" : "EXPRESSNET-TELECOM",
+    "description" : "Expressnet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.126.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7ac8::/32"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 31333,
-  "handle": "VOLLMAR-AS",
-  "description": "Hosting.de GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31333,
+  "metadata" : {
+    "handle" : "VOLLMAR-AS",
+    "description" : "Hosting.de GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.15.64.0/21",
       "79.140.32.0/20",
       "80.244.240.0/20",
       "83.151.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4d88::/32"
     ]
   }

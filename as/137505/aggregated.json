@@ -1,13 +1,16 @@
 {
-  "asn": 137505,
-  "handle": "E-CELL-AS-AP",
-  "description": "e-cell",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137505,
+  "metadata" : {
+    "handle" : "E-CELL-AS-AP",
+    "description" : "e-cell",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.111.8.0/23",
       "103.111.10.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:9140::/32"
     ]
   }

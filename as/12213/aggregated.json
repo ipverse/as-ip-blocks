@@ -1,9 +1,12 @@
 {
-  "asn": 12213,
-  "handle": "CNSQ-AS12213",
-  "description": "Centersquare",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12213,
+  "metadata" : {
+    "handle" : "CNSQ-AS12213",
+    "description" : "Centersquare",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.170.128.0/20",
       "24.170.144.0/21",
       "24.170.154.0/23",
@@ -22,7 +25,7 @@
       "193.93.84.0/22",
       "208.67.48.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:7ac0::/37",
       "2604:7ac0:800::/40",
       "2604:7ac0:d00::/40",

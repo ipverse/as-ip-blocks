@@ -1,9 +1,12 @@
 {
-  "asn": 44092,
-  "handle": "HALSERVICE",
-  "description": "HAL Service SpA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44092,
+  "metadata" : {
+    "handle" : "HALSERVICE",
+    "description" : "HAL Service SpA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.25.32.0/21",
       "31.56.40.0/24",
       "45.13.128.0/22",
@@ -34,7 +37,7 @@
       "212.28.168.0/21",
       "217.28.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:53e0::/32",
       "2a05:3680::/29",
       "2a0b:7b80::/29",

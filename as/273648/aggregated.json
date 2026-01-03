@@ -1,12 +1,15 @@
 {
-  "asn": 273648,
-  "handle": "REDE-GAMA-TELECOM",
-  "description": "REDE GAMA TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273648,
+  "metadata" : {
+    "handle" : "REDE-GAMA-TELECOM",
+    "description" : "REDE GAMA TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.157.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8a1c::/32"
     ]
   }

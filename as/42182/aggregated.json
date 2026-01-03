@@ -1,11 +1,14 @@
 {
-  "asn": 42182,
-  "handle": "KFMC-ASN",
-  "description": "King Fahd Medical City",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42182,
+  "metadata" : {
+    "handle" : "KFMC-ASN",
+    "description" : "King Fahd Medical City",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.37.143.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

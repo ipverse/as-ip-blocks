@@ -1,12 +1,15 @@
 {
-  "asn": 2544,
-  "handle": "METRO-AS",
-  "description": "King County Gov",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2544,
+  "metadata" : {
+    "handle" : "METRO-AS",
+    "description" : "King County Gov",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.129.0.0/16",
       "198.49.222.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 3255,
-  "handle": "UARNET-AS",
-  "description": "LLC EKSINTECH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3255,
+  "metadata" : {
+    "handle" : "UARNET-AS",
+    "description" : "LLC EKSINTECH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.152.72.0/22",
       "45.158.244.0/23",
       "45.158.246.0/24",
@@ -123,7 +126,7 @@
       "213.174.8.0/21",
       "213.174.22.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:fc00::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 263650,
-  "handle": "CLICFACIL-TELECOM",
-  "description": "Clicfacil Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263650,
+  "metadata" : {
+    "handle" : "CLICFACIL-TELECOM",
+    "description" : "Clicfacil Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.255.148.0/22",
       "170.79.80.0/22",
       "177.74.152.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:10cc::/32"
     ]
   }

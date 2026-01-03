@@ -1,16 +1,19 @@
 {
-  "asn": 200497,
-  "handle": "WAVECOM",
-  "description": "WAVECOM SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200497,
+  "metadata" : {
+    "handle" : "WAVECOM",
+    "description" : "WAVECOM SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.252.16.0/22",
       "151.248.12.0/24",
       "194.4.144.0/22",
       "194.9.8.0/23",
       "194.9.18.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:e440::/29"
     ]
   }

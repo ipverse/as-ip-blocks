@@ -1,9 +1,12 @@
 {
-  "asn": 20645,
-  "handle": "PUREPEAK-ASN",
-  "description": "PurePeak Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20645,
+  "metadata" : {
+    "handle" : "PUREPEAK-ASN",
+    "description" : "PurePeak Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.104.240.0/21",
       "91.199.53.0/24",
       "91.199.100.0/24",
@@ -13,7 +16,7 @@
       "195.2.250.0/23",
       "217.65.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:980:1::/48"
     ]
   }

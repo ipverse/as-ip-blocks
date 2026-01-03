@@ -1,9 +1,12 @@
 {
-  "asn": 139007,
-  "handle": "UNICOM-NM-WULANCHABU-IDC",
-  "description": "UNICOM InnerMongolia province network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139007,
+  "metadata" : {
+    "handle" : "UNICOM-NM-WULANCHABU-IDC",
+    "description" : "UNICOM InnerMongolia province network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.24.32.0/21",
       "1.24.80.0/21",
       "1.24.88.0/22",
@@ -80,7 +83,7 @@
       "219.159.60.0/23",
       "221.199.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2408:8000:5004::/48",
       "2408:822a:9200::/39",
       "2408:822a:9400::/38",

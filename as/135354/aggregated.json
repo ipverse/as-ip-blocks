@@ -1,9 +1,12 @@
 {
-  "asn": 135354,
-  "handle": "NBPAP-AS-AP",
-  "description": "NAVER BUSINESS PLATFORM ASIA PACIFIC PTE. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135354,
+  "metadata" : {
+    "handle" : "NBPAP-AS-AP",
+    "description" : "NAVER BUSINESS PLATFORM ASIA PACIFIC PTE. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.96.128.0/21",
       "27.96.144.0/20",
       "45.119.144.0/22",
@@ -47,6 +50,6 @@
       "223.130.128.0/19",
       "223.130.160.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

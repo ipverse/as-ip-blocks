@@ -1,11 +1,14 @@
 {
-  "asn": 38286,
-  "handle": "PPCTV-AS-AP",
-  "description": "Phnom Penh Cable TV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38286,
+  "metadata" : {
+    "handle" : "PPCTV-AS-AP",
+    "description" : "Phnom Penh Cable TV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "122.252.176.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

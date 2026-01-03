@@ -1,12 +1,15 @@
 {
-  "asn": 268785,
-  "handle": "VLINK-TELECOM",
-  "description": "Vlink Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268785,
+  "metadata" : {
+    "handle" : "VLINK-TELECOM",
+    "description" : "Vlink Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.172.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5aa0::/33",
       "2804:5aa0:8000::/34"
     ]

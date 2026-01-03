@@ -1,9 +1,12 @@
 {
-  "asn": 16591,
-  "handle": "GOOGLE-FIBER",
-  "description": "Google Fiber Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16591,
+  "metadata" : {
+    "handle" : "GOOGLE-FIBER",
+    "description" : "Google Fiber Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.228.128.0/18",
       "23.255.128.0/17",
       "45.56.0.0/18",
@@ -14,7 +17,7 @@
       "192.200.224.0/19",
       "216.21.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:a600::/31"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 8038,
-  "handle": "6CONNECT",
-  "description": "6connect Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8038,
+  "metadata" : {
+    "handle" : "6CONNECT",
+    "description" : "6connect Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.221.240.0/24",
       "67.221.242.0/24",
       "67.221.244.0/24",
@@ -12,7 +15,7 @@
       "67.221.252.0/23",
       "67.221.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fae0::/36",
       "2607:fae0:2000::/36",
       "2607:fae0:a000::/35",

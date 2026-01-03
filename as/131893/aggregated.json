@@ -1,9 +1,12 @@
 {
-  "asn": 131893,
-  "handle": "RICOH-NET",
-  "description": "RICOH Company Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131893,
+  "metadata" : {
+    "handle" : "RICOH-NET",
+    "description" : "RICOH Company Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "133.139.18.0/23",
       "133.139.20.0/23",
       "133.139.25.0/24",
@@ -23,7 +26,7 @@
       "133.139.248.0/24",
       "210.173.216.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:467::/48",
       "2001:df7:4808::/48",
       "2001:df7:480a::/48"

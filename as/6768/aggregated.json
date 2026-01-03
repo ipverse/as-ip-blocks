@@ -1,13 +1,16 @@
 {
-  "asn": 6768,
-  "handle": "EUROTEL-AS",
-  "description": "EUROTELE-PLUS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6768,
+  "metadata" : {
+    "handle" : "EUROTEL-AS",
+    "description" : "EUROTELE-PLUS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.14.108.0/22",
       "45.95.190.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:4a60::/32",
       "2a0e:c080::/29"
     ]

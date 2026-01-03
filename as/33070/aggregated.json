@@ -1,9 +1,12 @@
 {
-  "asn": 33070,
-  "handle": "RMH-14",
-  "description": "Rackspace Hosting",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33070,
+  "metadata" : {
+    "handle" : "RMH-14",
+    "description" : "Rackspace Hosting",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.253.64.0/18",
       "23.253.224.0/19",
       "50.56.128.0/20",
@@ -100,7 +103,7 @@
       "209.163.248.0/22",
       "216.110.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4800::/32"
     ]
   }

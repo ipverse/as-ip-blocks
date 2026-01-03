@@ -1,9 +1,12 @@
 {
-  "asn": 29423,
-  "handle": "GRIDSCALE",
-  "description": "gridscale GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29423,
+  "metadata" : {
+    "handle" : "GRIDSCALE",
+    "description" : "gridscale GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.12.48.0/22",
       "45.144.132.0/22",
       "185.88.147.0/24",
@@ -13,7 +16,7 @@
       "185.211.60.0/24",
       "185.241.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:ba8:a147::/48",
       "2a06:2380::/29",
       "2a0a:c5c0::/29",

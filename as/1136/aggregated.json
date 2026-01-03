@@ -1,9 +1,12 @@
 {
-  "asn": 1136,
-  "handle": "KPN",
-  "description": "KPN B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1136,
+  "metadata" : {
+    "handle" : "KPN",
+    "description" : "KPN B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.149.0.0/16",
       "31.160.0.0/15",
       "37.74.0.0/16",
@@ -377,7 +380,7 @@
       "213.218.64.0/20",
       "217.166.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:3c4::/48",
       "2a02:a400::/25",
       "2a03:1e84:abf::/48",

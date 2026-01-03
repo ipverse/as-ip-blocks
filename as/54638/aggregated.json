@@ -1,14 +1,17 @@
 {
-  "asn": 54638,
-  "handle": "NSO",
-  "description": "NETSOURCE ONE INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54638,
+  "metadata" : {
+    "handle" : "NSO",
+    "description" : "NETSOURCE ONE INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.221.136.0/22",
       "12.231.166.0/23",
       "23.136.88.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fdb1::/36"
     ]
   }

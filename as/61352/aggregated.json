@@ -1,12 +1,15 @@
 {
-  "asn": 61352,
-  "handle": "SUB-LIR-SN-AS",
-  "description": "Staatsbetrieb Saechsische Informatik Dienste",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61352,
+  "metadata" : {
+    "handle" : "SUB-LIR-SN-AS",
+    "description" : "Staatsbetrieb Saechsische Informatik Dienste",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.12.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:101c::/32"
     ]
   }

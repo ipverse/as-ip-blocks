@@ -1,9 +1,12 @@
 {
-  "asn": 18182,
-  "handle": "SONET-TW",
-  "description": "Sony Network Taiwan Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18182,
+  "metadata" : {
+    "handle" : "SONET-TW",
+    "description" : "Sony Network Taiwan Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.105.0.0/16",
       "39.1.80.0/24",
       "39.1.84.0/24",
@@ -15,7 +18,7 @@
       "61.64.128.0/17",
       "219.84.0.0/15"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:80::/28"
     ]
   }

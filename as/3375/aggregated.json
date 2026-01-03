@@ -1,9 +1,12 @@
 {
-  "asn": 3375,
-  "handle": "MCI-ASN",
-  "description": "Verizon Business",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3375,
+  "metadata" : {
+    "handle" : "MCI-ASN",
+    "description" : "Verizon Business",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.122.32.0/20",
       "165.122.192.0/18",
       "166.37.194.0/23",
@@ -12,6 +15,6 @@
       "166.37.232.0/21",
       "166.37.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 16668,
-  "handle": "GBPSW-AS",
-  "description": "GBP Software LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16668,
+  "metadata" : {
+    "handle" : "GBPSW-AS",
+    "description" : "GBP Software LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.245.132.0/24",
       "192.41.214.0/24",
       "192.148.252.0/23",
@@ -12,7 +15,7 @@
       "198.202.148.0/24",
       "208.72.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:178::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 134160,
-  "handle": "VINE-AS-AP",
-  "description": "Vine Networks Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134160,
+  "metadata" : {
+    "handle" : "VINE-AS-AP",
+    "description" : "Vine Networks Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.115.232.0/22",
       "103.56.12.0/22",
       "103.225.216.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:4880::/32"
     ]
   }

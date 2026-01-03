@@ -1,9 +1,12 @@
 {
-  "asn": 30500,
-  "handle": "WOLFPAWSERVICES",
-  "description": "Wolfpaw Data Centres Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30500,
+  "metadata" : {
+    "handle" : "WOLFPAWSERVICES",
+    "description" : "Wolfpaw Data Centres Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.132.192.0/24",
       "64.251.88.0/21",
       "66.244.198.0/23",
@@ -27,7 +30,7 @@
       "208.123.212.0/22",
       "208.123.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:e680::/32"
     ]
   }

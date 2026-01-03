@@ -1,9 +1,12 @@
 {
-  "asn": 59371,
-  "handle": "DNC-AS",
-  "description": "Dimension Network \u0026 Communication Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59371,
+  "metadata" : {
+    "handle" : "DNC-AS",
+    "description" : "Dimension Network & Communication Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.254.128.0/19",
       "43.229.4.0/22",
       "43.252.160.0/22",
@@ -33,6 +36,6 @@
       "203.109.56.0/22",
       "207.148.32.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

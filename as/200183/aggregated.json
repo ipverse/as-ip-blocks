@@ -1,12 +1,15 @@
 {
-  "asn": 200183,
-  "handle": "CONTENTFLEET-HH-L3",
-  "description": "Content Fleet GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200183,
+  "metadata" : {
+    "handle" : "CONTENTFLEET-HH-L3",
+    "description" : "Content Fleet GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.28.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:ce80::/46"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 267506,
-  "handle": "NETLUX-TELECOM",
-  "description": "NETLUX Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267506,
+  "metadata" : {
+    "handle" : "NETLUX-TELECOM",
+    "description" : "NETLUX Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "201.182.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4288:c000::/34"
     ]
   }

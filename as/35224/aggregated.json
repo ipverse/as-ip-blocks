@@ -1,9 +1,12 @@
 {
-  "asn": 35224,
-  "handle": "PLINQ",
-  "description": "PLINQ BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35224,
+  "metadata" : {
+    "handle" : "PLINQ",
+    "description" : "PLINQ BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.66.76.0/22",
       "45.93.40.0/22",
       "45.93.72.0/22",
@@ -17,6 +20,6 @@
       "193.239.186.0/23",
       "195.222.116.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

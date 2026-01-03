@@ -1,13 +1,16 @@
 {
-  "asn": 200723,
-  "handle": "SWU-BG-AS",
-  "description": "South-West University Neofit Rilski",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200723,
+  "metadata" : {
+    "handle" : "SWU-BG-AS",
+    "description" : "South-West University Neofit Rilski",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.63.79.0/24",
       "217.26.219.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:4a40::/48"
     ]
   }

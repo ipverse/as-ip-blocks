@@ -1,9 +1,12 @@
 {
-  "asn": 216139,
-  "handle": "IRONHOST",
-  "description": "Iron Hosting Centre LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216139,
+  "metadata" : {
+    "handle" : "IRONHOST",
+    "description" : "Iron Hosting Centre LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.90.0/24",
       "45.12.69.0/24",
       "45.151.68.0/23",
@@ -32,7 +35,7 @@
       "195.133.59.0/24",
       "217.144.102.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:80c0:abba::/48",
       "2a03:c980:face::/48",
       "2a09:c140:feed::/48"

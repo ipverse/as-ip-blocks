@@ -1,9 +1,12 @@
 {
-  "asn": 965,
-  "handle": "WEBHOSTINGHOLDINGS",
-  "description": "Webhosting Holdings LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 965,
+  "metadata" : {
+    "handle" : "WEBHOSTINGHOLDINGS",
+    "description" : "Webhosting Holdings LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.129.252.0/22",
       "23.172.137.0/24",
       "23.172.138.0/24",
@@ -13,7 +16,7 @@
       "193.108.130.0/24",
       "216.252.232.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:faa9:3000::/36",
       "2602:faa9:4000::/36",
       "2602:faa9:6000::/36"

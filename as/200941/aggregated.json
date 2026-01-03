@@ -1,13 +1,16 @@
 {
-  "asn": 200941,
-  "handle": "VIOMA",
-  "description": "vioma GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200941,
+  "metadata" : {
+    "handle" : "VIOMA",
+    "description" : "vioma GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.90.173.0/24",
       "185.90.174.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:e181::/32",
       "2a05:e186::/31"
     ]

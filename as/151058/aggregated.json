@@ -1,12 +1,15 @@
 {
-  "asn": 151058,
-  "handle": "CT-HAINAN",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151058,
+  "metadata" : {
+    "handle" : "CT-HAINAN",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.100.215.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:42:8010::/48"
     ]
   }

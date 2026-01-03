@@ -1,9 +1,12 @@
 {
-  "asn": 138004,
-  "handle": "MISL-AS-AP",
-  "description": "MIR INFO SYSTEMS LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138004,
+  "metadata" : {
+    "handle" : "MISL-AS-AP",
+    "description" : "MIR INFO SYSTEMS LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.10.194.0/24",
       "103.52.140.0/23",
       "103.52.143.0/24",
@@ -14,7 +17,7 @@
       "160.250.223.0/24",
       "180.94.20.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:51e0::/32"
     ]
   }

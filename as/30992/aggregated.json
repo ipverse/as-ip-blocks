@@ -1,9 +1,12 @@
 {
-  "asn": 30992,
-  "handle": "MTN-NS-CAMEROON",
-  "description": "MTN Network Solutions (Cameroon)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30992,
+  "metadata" : {
+    "handle" : "MTN-NS-CAMEROON",
+    "description" : "MTN Network Solutions (Cameroon)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.205.0.0/19",
       "129.0.0.0/16",
       "154.70.100.0/23",
@@ -15,7 +18,7 @@
       "154.70.124.0/24",
       "196.202.232.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f660::/32"
     ]
   }

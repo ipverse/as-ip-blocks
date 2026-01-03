@@ -1,15 +1,18 @@
 {
-  "asn": 204302,
-  "handle": "AUTO1-RIPE",
-  "description": "Monitor ERP System AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204302,
+  "metadata" : {
+    "handle" : "AUTO1-RIPE",
+    "description" : "Monitor ERP System AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.121.68.0/24",
       "192.165.128.0/23",
       "194.68.35.0/24",
       "194.103.142.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:640::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 19128,
-  "handle": "TTN",
-  "description": "TTN Global Operations Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19128,
+  "metadata" : {
+    "handle" : "TTN",
+    "description" : "TTN Global Operations Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.226.160.0/23",
       "66.226.164.0/24",
       "66.226.166.0/24",
@@ -11,6 +14,6 @@
       "66.226.180.0/24",
       "66.226.182.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

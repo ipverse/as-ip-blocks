@@ -1,16 +1,19 @@
 {
-  "asn": 136634,
-  "handle": "NAVKAR-AS-IN",
-  "description": "Navkar Netsol Private Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136634,
+  "metadata" : {
+    "handle" : "NAVKAR-AS-IN",
+    "description" : "Navkar Netsol Private Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.48.147.0/24",
       "103.102.56.0/22",
       "103.174.164.0/23",
       "103.230.178.0/23",
       "103.235.90.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:4e40::/48",
       "2406:24c0::/46",
       "2406:24c0:4::/47",

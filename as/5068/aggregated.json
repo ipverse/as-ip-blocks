@@ -1,9 +1,12 @@
 {
-  "asn": 5068,
-  "handle": "STACKSINC-GLOBAL",
-  "description": "STACKS INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5068,
+  "metadata" : {
+    "handle" : "STACKSINC-GLOBAL",
+    "description" : "STACKS INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.172.80.0/24",
       "103.231.56.0/24",
       "205.198.113.0/24",
@@ -11,7 +14,7 @@
       "205.198.123.0/24",
       "205.198.124.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:ce40:6660::/48"
     ]
   }

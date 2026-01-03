@@ -1,15 +1,18 @@
 {
-  "asn": 29186,
-  "handle": "RIVNE-TELECOM-AS",
-  "description": "LLC Rivne Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29186,
+  "metadata" : {
+    "handle" : "RIVNE-TELECOM-AS",
+    "description" : "LLC Rivne Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.220.174.0/24",
       "193.104.16.0/24",
       "195.85.219.0/24",
       "195.230.96.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:abc::/48"
     ]
   }

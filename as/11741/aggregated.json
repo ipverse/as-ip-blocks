@@ -1,9 +1,12 @@
 {
-  "asn": 11741,
-  "handle": "BENTONREA",
-  "description": "BENTON REA POWERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11741,
+  "metadata" : {
+    "handle" : "BENTONREA",
+    "description" : "BENTON REA POWERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.7.32.0/23",
       "216.7.34.0/24",
       "216.7.48.0/23",
@@ -11,6 +14,6 @@
       "216.7.58.0/23",
       "216.7.60.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

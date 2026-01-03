@@ -1,9 +1,12 @@
 {
-  "asn": 398813,
-  "handle": "MILLERSVILLE-UNIVERSITY",
-  "description": "Millersville University of Pennsylvania",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398813,
+  "metadata" : {
+    "handle" : "MILLERSVILLE-UNIVERSITY",
+    "description" : "Millersville University of Pennsylvania",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "166.66.0.0/17",
       "166.66.128.0/18",
       "166.66.192.0/21",
@@ -15,7 +18,7 @@
       "192.206.29.0/24",
       "204.235.168.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:2240:5000::/36"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 57724,
-  "handle": "DDOS-GUARD",
-  "description": "DDOS-GUARD LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57724,
+  "metadata" : {
+    "handle" : "DDOS-GUARD",
+    "description" : "DDOS-GUARD LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.10.240.0/24",
       "45.10.243.0/24",
       "45.155.60.0/24",
@@ -23,7 +26,7 @@
       "195.216.243.0/24",
       "217.114.42.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:4180::/48"
     ]
   }

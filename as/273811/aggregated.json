@@ -1,12 +1,15 @@
 {
-  "asn": 273811,
-  "handle": "AGLINK-TELECOM",
-  "description": "AGLink Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273811,
+  "metadata" : {
+    "handle" : "AGLINK-TELECOM",
+    "description" : "AGLink Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.250.126.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8c9c::/32"
     ]
   }

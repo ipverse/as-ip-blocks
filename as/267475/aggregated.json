@@ -1,12 +1,15 @@
 {
-  "asn": 267475,
-  "handle": "LIG-TELECOM",
-  "description": "LIG TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267475,
+  "metadata" : {
+    "handle" : "LIG-TELECOM",
+    "description" : "LIG TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.141.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4210::/32"
     ]
   }

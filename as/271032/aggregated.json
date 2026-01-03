@@ -1,12 +1,15 @@
 {
-  "asn": 271032,
-  "handle": "ATS-TELECOM",
-  "description": "ATS Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271032,
+  "metadata" : {
+    "handle" : "ATS-TELECOM",
+    "description" : "ATS Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.225.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7538::/32"
     ]
   }

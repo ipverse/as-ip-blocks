@@ -1,13 +1,16 @@
 {
-  "asn": 21214,
-  "handle": "GEONET-AS",
-  "description": "Geonet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21214,
+  "metadata" : {
+    "handle" : "GEONET-AS",
+    "description" : "Geonet Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.83.128.0/20",
       "185.174.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:8900::/32"
     ]
   }

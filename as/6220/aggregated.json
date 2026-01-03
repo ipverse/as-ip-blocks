@@ -1,9 +1,12 @@
 {
-  "asn": 6220,
-  "handle": "AS6220",
-  "description": "inContact Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6220,
+  "metadata" : {
+    "handle" : "AS6220",
+    "description" : "inContact Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.64.141.0/24",
       "38.80.80.0/24",
       "38.87.244.0/24",
@@ -56,6 +59,6 @@
       "216.20.252.0/22",
       "216.133.98.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

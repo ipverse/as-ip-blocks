@@ -1,9 +1,12 @@
 {
-  "asn": 214438,
-  "handle": "NEXGEN-CA1",
-  "description": "NexGen Cloud Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214438,
+  "metadata" : {
+    "handle" : "NEXGEN-CA1",
+    "description" : "NexGen Cloud Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.80.122.0/23",
       "38.128.232.0/23",
       "62.169.158.0/23",
@@ -16,6 +19,6 @@
       "185.216.20.0/23",
       "185.216.22.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

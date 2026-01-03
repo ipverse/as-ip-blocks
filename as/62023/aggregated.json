@@ -1,14 +1,17 @@
 {
-  "asn": 62023,
-  "handle": "NYNEX",
-  "description": "NYNEX satellite OHG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62023,
+  "metadata" : {
+    "handle" : "NYNEX",
+    "description" : "NYNEX satellite OHG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.91.80.0/20",
       "109.236.144.0/20",
       "217.26.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e60::/32"
     ]
   }

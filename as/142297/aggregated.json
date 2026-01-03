@@ -1,12 +1,15 @@
 {
-  "asn": 142297,
-  "handle": "SMARTLINK-AS-AP",
-  "description": "Smart Link Network Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142297,
+  "metadata" : {
+    "handle" : "SMARTLINK-AS-AP",
+    "description" : "Smart Link Network Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.167.186.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:bb80::/48"
     ]
   }

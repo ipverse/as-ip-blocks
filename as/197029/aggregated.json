@@ -1,12 +1,15 @@
 {
-  "asn": 197029,
-  "handle": "LAM-AS",
-  "description": "LAM plus s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197029,
+  "metadata" : {
+    "handle" : "LAM-AS",
+    "description" : "LAM plus s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.92.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:cbe0::/31"
     ]
   }

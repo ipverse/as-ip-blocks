@@ -1,12 +1,15 @@
 {
-  "asn": 27434,
-  "handle": "DG-FASTCHANNEL",
-  "description": "DG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27434,
+  "metadata" : {
+    "handle" : "DG-FASTCHANNEL",
+    "description" : "DG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.47.181.0/24",
       "199.47.182.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

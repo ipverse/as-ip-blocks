@@ -1,15 +1,18 @@
 {
-  "asn": 41427,
-  "handle": "MARC-NET-AS",
-  "description": "Datacenter d.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41427,
+  "metadata" : {
+    "handle" : "MARC-NET-AS",
+    "description" : "Datacenter d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.105.127.0/24",
       "193.164.137.0/24",
       "193.164.138.0/23",
       "193.164.140.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:cc8::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 134238,
-  "handle": "CT-JIANGXI-IDC",
-  "description": "CHINANET Jiangx province IDC network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134238,
+  "metadata" : {
+    "handle" : "CT-JIANGXI-IDC",
+    "description" : "CHINANET Jiangx province IDC network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.53.48.0/23",
       "59.53.51.0/24",
       "59.53.52.0/22",
@@ -34,7 +37,7 @@
       "117.41.224.0/19",
       "182.106.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:13:800::/37",
       "240e:cf:8000::/36",
       "240e:108:8a::/48",

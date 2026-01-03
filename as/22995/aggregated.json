@@ -1,9 +1,12 @@
 {
-  "asn": 22995,
-  "handle": "BARR-XPLR-ASN",
-  "description": "Xplore Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22995,
+  "metadata" : {
+    "handle" : "BARR-XPLR-ASN",
+    "description" : "Xplore Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.29.192.0/19",
       "23.239.32.0/19",
       "64.66.224.0/20",
@@ -91,7 +94,7 @@
       "216.65.160.0/19",
       "216.185.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:e000::/39",
       "2600:e000:200::/40",
       "2600:e000:400::/40",

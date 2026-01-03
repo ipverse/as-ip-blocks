@@ -1,9 +1,12 @@
 {
-  "asn": 38488,
-  "handle": "TELECARD-PAKISTAN-AS-AP",
-  "description": "Telecard Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38488,
+  "metadata" : {
+    "handle" : "TELECARD-PAKISTAN-AS-AP",
+    "description" : "Telecard Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.0.42.0/24",
       "202.123.240.0/24",
       "202.123.242.0/24",
@@ -12,7 +15,7 @@
       "202.123.248.0/23",
       "202.123.250.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:a960::/48"
     ]
   }

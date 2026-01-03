@@ -1,9 +1,12 @@
 {
-  "asn": 14445,
-  "handle": "PEACEWEB-CLOUD",
-  "description": "PeaceWeb",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14445,
+  "metadata" : {
+    "handle" : "PEACEWEB-CLOUD",
+    "description" : "PeaceWeb",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.136.184.0/24",
       "23.137.137.0/24",
       "23.137.138.0/23",
@@ -28,7 +31,7 @@
       "199.127.152.0/22",
       "216.73.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:3900:7a3f::/48",
       "2a11:2800:1784::/48",
       "2a11:2800:1a59::/48",

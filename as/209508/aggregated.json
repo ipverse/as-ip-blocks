@@ -1,12 +1,15 @@
 {
-  "asn": 209508,
-  "handle": "BORENET-AS",
-  "description": "BoreNet AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209508,
+  "metadata" : {
+    "handle" : "BORENET-AS",
+    "description" : "BoreNet AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.94.128.0/22",
       "185.235.116.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

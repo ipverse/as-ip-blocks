@@ -1,12 +1,15 @@
 {
-  "asn": 26498,
-  "handle": "SANFORD-LAB",
-  "description": "Sanford Underground Laboratory at Homestake",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26498,
+  "metadata" : {
+    "handle" : "SANFORD-LAB",
+    "description" : "Sanford Underground Laboratory at Homestake",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "151.159.224.0/20",
       "204.114.24.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

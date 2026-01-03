@@ -1,11 +1,14 @@
 {
-  "asn": 10476,
-  "handle": "CABLE-ONDA",
-  "description": "Cable Onda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10476,
+  "metadata" : {
+    "handle" : "CABLE-ONDA",
+    "description" : "Cable Onda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.108.44.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

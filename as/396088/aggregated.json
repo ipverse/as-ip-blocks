@@ -1,10 +1,13 @@
 {
-  "asn": 396088,
-  "handle": "SOMNET-AS-01",
-  "description": "SOMCO LLC",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 396088,
+  "metadata" : {
+    "handle" : "SOMNET-AS-01",
+    "description" : "SOMCO LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2620:5e:e000::/48"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 12013,
-  "handle": "FAUNET",
-  "description": "Florida Atlantic University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12013,
+  "metadata" : {
+    "handle" : "FAUNET",
+    "description" : "Florida Atlantic University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.91.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

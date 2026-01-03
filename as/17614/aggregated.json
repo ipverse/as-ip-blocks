@@ -1,14 +1,17 @@
 {
-  "asn": 17614,
-  "handle": "GEUMGANG-AS",
-  "description": "Geumgang University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17614,
+  "metadata" : {
+    "handle" : "GEUMGANG-AS",
+    "description" : "Geumgang University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.237.184.0/22",
       "220.69.64.0/23",
       "220.69.67.0/24",
       "220.69.68.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

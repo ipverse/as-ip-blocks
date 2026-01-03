@@ -1,9 +1,12 @@
 {
-  "asn": 16863,
-  "handle": "HOMESC",
-  "description": "Home Telephone Company Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16863,
+  "metadata" : {
+    "handle" : "HOMESC",
+    "description" : "Home Telephone Company Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.20.16.0/20",
       "64.53.7.0/24",
       "64.53.23.0/24",
@@ -35,7 +38,7 @@
       "208.79.160.0/22",
       "216.236.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:1800::/32"
     ]
   }

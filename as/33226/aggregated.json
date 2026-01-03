@@ -1,11 +1,14 @@
 {
-  "asn": 33226,
-  "handle": "SUMMAHEALTH-ASN",
-  "description": "Summa Health System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33226,
+  "metadata" : {
+    "handle" : "SUMMAHEALTH-ASN",
+    "description" : "Summa Health System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.83.64.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

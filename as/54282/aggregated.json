@@ -1,13 +1,16 @@
 {
-  "asn": 54282,
-  "handle": "JJINTEROP",
-  "description": "Johnson \u0026 Johnson",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54282,
+  "metadata" : {
+    "handle" : "JJINTEROP",
+    "description" : "Johnson & Johnson",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.135.46.0/23",
       "199.65.16.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:147::/47"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 10099,
-  "handle": "UNICOM-GLOBAL",
-  "description": "China Unicom (Hong Kong) Operations Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10099,
+  "metadata" : {
+    "handle" : "UNICOM-GLOBAL",
+    "description" : "China Unicom (Hong Kong) Operations Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.69.152.0/24",
       "43.251.12.0/23",
       "43.252.84.0/22",
@@ -35,7 +38,7 @@
       "203.160.64.0/19",
       "206.52.7.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:8a00::/32"
     ]
   }

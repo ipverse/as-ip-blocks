@@ -1,14 +1,17 @@
 {
-  "asn": 15154,
-  "handle": "SBBSNET",
-  "description": "Network Services Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15154,
+  "metadata" : {
+    "handle" : "SBBSNET",
+    "description" : "Network Services Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.113.32.0/20",
       "198.232.165.0/24",
       "198.232.166.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:e780::/32"
     ]
   }

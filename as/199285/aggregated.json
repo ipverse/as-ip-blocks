@@ -1,13 +1,16 @@
 {
-  "asn": 199285,
-  "handle": "CONARX",
-  "description": "Conarx Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199285,
+  "metadata" : {
+    "handle" : "CONARX",
+    "description" : "Conarx Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.90.195.0/24",
       "91.238.193.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:ce80::/48",
       "2a13:ce80:f000::/48"
     ]

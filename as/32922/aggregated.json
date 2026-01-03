@@ -1,15 +1,18 @@
 {
-  "asn": 32922,
-  "handle": "ATCCOMMICATIONS",
-  "description": "ATC Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32922,
+  "metadata" : {
+    "handle" : "ATCCOMMICATIONS",
+    "description" : "ATC Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "169.150.100.0/23",
       "199.104.23.0/24",
       "205.220.252.0/23",
       "216.180.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fd00:4::/48",
       "2607:fd00:7::/48"
     ]

@@ -1,13 +1,16 @@
 {
-  "asn": 398852,
-  "handle": "NEXTOR-TELECOM",
-  "description": "Nextor Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398852,
+  "metadata" : {
+    "handle" : "NEXTOR-TELECOM",
+    "description" : "Nextor Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.166.98.0/24",
       "104.243.211.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:fec0::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 28561,
-  "handle": "MICRONET-MEXICO",
-  "description": "Micronet de Mexico S.A. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28561,
+  "metadata" : {
+    "handle" : "MICRONET-MEXICO",
+    "description" : "Micronet de Mexico S.A. de C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.247.176.0/22",
       "201.131.104.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

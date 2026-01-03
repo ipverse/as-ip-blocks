@@ -1,13 +1,16 @@
 {
-  "asn": 205555,
-  "handle": "VSCT",
-  "description": "SNCF Connect \u0026 Tech Services SASU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205555,
+  "metadata" : {
+    "handle" : "VSCT",
+    "description" : "SNCF Connect & Tech Services SASU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.182.156.0/22",
       "185.214.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:95c0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 31586,
-  "handle": "AS-TBNLTN",
-  "description": "Signet B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31586,
+  "metadata" : {
+    "handle" : "AS-TBNLTN",
+    "description" : "Signet B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.84.224.0/19",
       "81.4.64.0/19",
       "81.4.96.0/22",
@@ -28,7 +31,7 @@
       "193.93.172.0/22",
       "217.21.241.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:828::/32",
       "2a05:2500::/32",
       "2a05:a282::/32"

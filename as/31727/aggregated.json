@@ -1,9 +1,12 @@
 {
-  "asn": 31727,
-  "handle": "NODE4-AS",
-  "description": "Node4 Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31727,
+  "metadata" : {
+    "handle" : "NODE4-AS",
+    "description" : "Node4 Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.77.39.0/24",
       "5.77.55.0/24",
       "5.77.62.0/23",
@@ -70,7 +73,7 @@
       "216.241.123.0/24",
       "217.78.159.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:5600::/32",
       "2a00:f9c0::/32"
     ]

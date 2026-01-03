@@ -1,12 +1,15 @@
 {
-  "asn": 200127,
-  "handle": "SIP",
-  "description": "Smart IP (SIP) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200127,
+  "metadata" : {
+    "handle" : "SIP",
+    "description" : "Smart IP (SIP) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.36.236.0/22",
       "185.76.244.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

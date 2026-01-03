@@ -1,11 +1,14 @@
 {
-  "asn": 30512,
-  "handle": "RIDGEVIEW-MEDICAL-CENTER",
-  "description": "Ridgeview Medical Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30512,
+  "metadata" : {
+    "handle" : "RIDGEVIEW-MEDICAL-CENTER",
+    "description" : "Ridgeview Medical Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.207.129.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

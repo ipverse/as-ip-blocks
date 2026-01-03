@@ -1,9 +1,12 @@
 {
-  "asn": 213029,
-  "handle": "PRO-DATA-TECH-AS",
-  "description": "PRO DATA-TECH MCHJ",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213029,
+  "metadata" : {
+    "handle" : "PRO-DATA-TECH-AS",
+    "description" : "PRO DATA-TECH MCHJ",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.170.6.0/24",
       "93.170.83.0/24",
       "93.170.88.0/24",
@@ -13,6 +16,6 @@
       "95.47.238.0/23",
       "146.120.240.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 327892,
-  "handle": "BETHNET-CC",
-  "description": "BETHNET cc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 327892,
+  "metadata" : {
+    "handle" : "BETHNET-CC",
+    "description" : "BETHNET cc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.221.12.0/22",
       "102.22.32.0/19",
       "169.255.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:eb90::/32",
       "2c0f:f478::/32"
     ]

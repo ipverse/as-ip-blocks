@@ -1,9 +1,12 @@
 {
-  "asn": 8360,
-  "handle": "ALLIANZ-TECHNOLOGY-SE",
-  "description": "Allianz Technology SE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8360,
+  "metadata" : {
+    "handle" : "ALLIANZ-TECHNOLOGY-SE",
+    "description" : "Allianz Technology SE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.85.135.0/24",
       "103.119.72.0/23",
       "103.233.172.0/22",
@@ -19,6 +22,6 @@
       "205.167.40.0/24",
       "205.167.71.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

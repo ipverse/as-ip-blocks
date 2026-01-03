@@ -1,9 +1,12 @@
 {
-  "asn": 393249,
-  "handle": "UBC",
-  "description": "University of British Columbia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393249,
+  "metadata" : {
+    "handle" : "UBC",
+    "description" : "University of British Columbia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.189.16.0/20",
       "128.189.32.0/19",
       "128.189.64.0/18",
@@ -39,7 +42,7 @@
       "207.23.252.0/24",
       "209.87.16.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:5940:100::/40",
       "2607:f8f0:610::/48",
       "2607:f8f0:614::/48"

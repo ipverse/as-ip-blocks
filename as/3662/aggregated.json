@@ -1,9 +1,12 @@
 {
-  "asn": 3662,
-  "handle": "HARNET",
-  "description": "Joint Universities Computer Centre Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3662,
+  "metadata" : {
+    "handle" : "HARNET",
+    "description" : "Joint Universities Computer Centre Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "175.159.254.0/24",
       "192.245.196.0/24",
       "202.40.218.0/24",
@@ -12,7 +15,7 @@
       "203.188.117.0/24",
       "203.188.118.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:ce0::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 401815,
-  "handle": "SILIS",
-  "description": "Silis LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401815,
+  "metadata" : {
+    "handle" : "SILIS",
+    "description" : "Silis LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.142.44.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:1760::/44",
       "2604:1760:18::/48"
     ]

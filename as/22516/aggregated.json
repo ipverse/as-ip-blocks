@@ -1,15 +1,18 @@
 {
-  "asn": 22516,
-  "handle": "CHARTER-22516-CENTRAL-CA-C3",
-  "description": "Charter Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22516,
+  "metadata" : {
+    "handle" : "CHARTER-22516-CENTRAL-CA-C3",
+    "description" : "Charter Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.27.128.0/24",
       "35.144.192.0/18",
       "76.58.30.0/23",
       "192.62.224.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:6c52:4600::/40",
       "2600:6c52:4a00::/40",
       "2600:6c52:4c00::/40",

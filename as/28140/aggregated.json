@@ -1,14 +1,17 @@
 {
-  "asn": 28140,
-  "handle": "G2G-INTERNET-SERVICOS",
-  "description": "G2G INTERNET E SERVICOS DE TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28140,
+  "metadata" : {
+    "handle" : "G2G-INTERNET-SERVICOS",
+    "description" : "G2G INTERNET E SERVICOS DE TELECOM LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "187.49.32.0/20",
       "187.103.208.0/21",
       "187.103.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1a4::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 6488,
-  "handle": "DS6488-0",
-  "description": "AMUG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6488,
+  "metadata" : {
+    "handle" : "DS6488-0",
+    "description" : "AMUG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.62.193.0/24",
       "206.197.47.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

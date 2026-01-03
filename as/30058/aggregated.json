@@ -1,9 +1,12 @@
 {
-  "asn": 30058,
-  "handle": "FDCSERVERS",
-  "description": "FDCservers.net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30058,
+  "metadata" : {
+    "handle" : "FDCSERVERS",
+    "description" : "FDCservers.net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.101.0/24",
       "23.27.16.0/24",
       "23.237.0.0/20",
@@ -353,7 +356,7 @@
       "217.22.250.0/23",
       "217.22.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:550:a08::/48",
       "2001:49f0:d002::/48",
       "2001:49f0:d004::/48",

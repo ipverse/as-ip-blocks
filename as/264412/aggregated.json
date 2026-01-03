@@ -1,12 +1,15 @@
 {
-  "asn": 264412,
-  "handle": "ROTASUL-TELECOM",
-  "description": "RotaSul Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264412,
+  "metadata" : {
+    "handle" : "ROTASUL-TELECOM",
+    "description" : "RotaSul Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.221.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1e2c::/40",
       "2804:1e2c:200::/40",
       "2804:1e2c:1000::/40",

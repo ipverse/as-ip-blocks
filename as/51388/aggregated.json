@@ -1,14 +1,17 @@
 {
-  "asn": 51388,
-  "handle": "MARSATAS-LT-AS",
-  "description": "UAB Marsatas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51388,
+  "metadata" : {
+    "handle" : "MARSATAS-LT-AS",
+    "description" : "UAB Marsatas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.135.216.0/21",
       "84.32.144.0/22",
       "88.216.48.0/21",
       "91.230.12.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

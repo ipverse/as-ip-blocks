@@ -1,14 +1,17 @@
 {
-  "asn": 24978,
-  "handle": "SPRINT",
-  "description": "Telenec Telekommunikation Neustadt GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24978,
+  "metadata" : {
+    "handle" : "SPRINT",
+    "description" : "Telenec Telekommunikation Neustadt GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.79.224.0/20",
       "185.5.14.0/23",
       "185.133.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:c740::/30",
       "2a03:89c0::/32"
     ]

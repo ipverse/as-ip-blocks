@@ -1,15 +1,18 @@
 {
-  "asn": 44702,
-  "handle": "JCS-AS",
-  "description": "JORDANIAN EUROPEAN INTERNET SERVICES CO LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44702,
+  "metadata" : {
+    "handle" : "JCS-AS",
+    "description" : "JORDANIAN EUROPEAN INTERNET SERVICES CO LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.199.184.0/22",
       "45.142.196.0/22",
       "79.134.128.0/19",
       "185.139.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:140::/29"
     ]
   }

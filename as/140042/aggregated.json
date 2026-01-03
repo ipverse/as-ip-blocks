@@ -1,9 +1,12 @@
 {
-  "asn": 140042,
-  "handle": "IZEC-AS-AP",
-  "description": "Zhipinshang (Hongkong) Electron Communication Technology Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140042,
+  "metadata" : {
+    "handle" : "IZEC-AS-AP",
+    "description" : "Zhipinshang (Hongkong) Electron Communication Technology Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.57.137.0/24",
       "46.249.108.0/24",
       "103.147.200.0/23",
@@ -18,7 +21,7 @@
       "172.81.105.0/24",
       "172.81.109.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:550:a0c::/48",
       "2401:3620:2102::/48"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 32674,
-  "handle": "BLUE-HILL-DATA-SERVICES-AS",
-  "description": "Blue Hill Data Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32674,
+  "metadata" : {
+    "handle" : "BLUE-HILL-DATA-SERVICES-AS",
+    "description" : "Blue Hill Data Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.25.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:c140::/32"
     ]
   }

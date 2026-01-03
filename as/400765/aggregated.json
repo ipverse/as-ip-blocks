@@ -1,12 +1,15 @@
 {
-  "asn": 400765,
-  "handle": "OMATICON-01",
-  "description": "Omaticon Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400765,
+  "metadata" : {
+    "handle" : "OMATICON-01",
+    "description" : "Omaticon Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "173.249.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470:a3::/48",
       "2602:fb15::/36"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 24084,
-  "handle": "HCL-TECH-IN",
-  "description": "HCL Technologies Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24084,
+  "metadata" : {
+    "handle" : "HCL-TECH-IN",
+    "description" : "HCL Technologies Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.8.38.0/23",
       "192.8.160.0/21",
       "192.8.168.0/22",
@@ -40,6 +43,6 @@
       "203.105.184.0/22",
       "203.105.188.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

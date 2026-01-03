@@ -1,9 +1,12 @@
 {
-  "asn": 26989,
-  "handle": "HR-WORLD-HEADQUARTERS",
-  "description": "H\u0026R Block",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26989,
+  "metadata" : {
+    "handle" : "HR-WORLD-HEADQUARTERS",
+    "description" : "H&R Block",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.137.0.0/24",
       "168.137.2.0/24",
       "168.137.4.0/23",
@@ -11,6 +14,6 @@
       "168.137.100.0/22",
       "168.137.104.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

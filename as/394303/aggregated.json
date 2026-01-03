@@ -1,9 +1,12 @@
 {
-  "asn": 394303,
-  "handle": "BIGSCOOTS",
-  "description": "BigScoots",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394303,
+  "metadata" : {
+    "handle" : "BIGSCOOTS",
+    "description" : "BigScoots",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.29.132.0/24",
       "23.29.145.0/24",
       "38.58.224.0/21",
@@ -30,6 +33,6 @@
       "208.117.38.0/24",
       "216.185.212.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

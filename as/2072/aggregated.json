@@ -1,12 +1,15 @@
 {
-  "asn": 2072,
-  "handle": "FR-RENATER-REVE",
-  "description": "Renater",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2072,
+  "metadata" : {
+    "handle" : "FR-RENATER-REVE",
+    "description" : "Renater",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.4.251.0/24",
       "192.93.214.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

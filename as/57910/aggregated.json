@@ -1,9 +1,12 @@
 {
-  "asn": 57910,
-  "handle": "SCIP-AS",
-  "description": "Soluciones Corporativas IP SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57910,
+  "metadata" : {
+    "handle" : "SCIP-AS",
+    "description" : "Soluciones Corporativas IP SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.214.176.0/20",
       "37.10.72.0/21",
       "37.152.88.0/21",
@@ -26,7 +29,7 @@
       "212.95.210.0/24",
       "213.201.70.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:b5c0::/32",
       "2a02:2110::/32",
       "2a0c:7a00::/29"

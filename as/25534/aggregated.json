@@ -1,13 +1,16 @@
 {
-  "asn": 25534,
-  "handle": "INTELSOFT-AS",
-  "description": "10G.KZ LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25534,
+  "metadata" : {
+    "handle" : "INTELSOFT-AS",
+    "description" : "10G.KZ LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.146.16.0/22",
       "217.15.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1a08::/32"
     ]
   }

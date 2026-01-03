@@ -1,11 +1,14 @@
 {
-  "asn": 32389,
-  "handle": "BERKLEE-AS",
-  "description": "Berklee College of Music",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32389,
+  "metadata" : {
+    "handle" : "BERKLEE-AS",
+    "description" : "Berklee College of Music",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.136.22.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 141436,
-  "handle": "NET1-AS-AP",
-  "description": "M/S Net Connect",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141436,
+  "metadata" : {
+    "handle" : "NET1-AS-AP",
+    "description" : "M/S Net Connect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.159.83.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

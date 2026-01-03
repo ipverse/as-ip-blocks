@@ -1,9 +1,12 @@
 {
-  "asn": 38513,
-  "handle": "LINTASARTA-AS-ID",
-  "description": "PT Aplikanusa Lintasarta",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38513,
+  "metadata" : {
+    "handle" : "LINTASARTA-AS-ID",
+    "description" : "PT Aplikanusa Lintasarta",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.37.120.0/24",
       "36.37.122.0/24",
       "103.67.40.0/24",
@@ -20,6 +23,6 @@
       "182.23.70.0/23",
       "182.23.72.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

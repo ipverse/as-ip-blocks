@@ -1,9 +1,12 @@
 {
-  "asn": 214677,
-  "handle": "DELUXHOST",
-  "description": "Matteo Martelloni trading as DELUXHOST",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214677,
+  "metadata" : {
+    "handle" : "DELUXHOST",
+    "description" : "Matteo Martelloni trading as DELUXHOST",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.181.177.0/24",
       "31.56.7.0/24",
       "31.56.233.0/24",
@@ -27,7 +30,7 @@
       "213.218.210.0/24",
       "217.217.243.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:bec4:1820::/44",
       "2a12:bec4:1da0::/44",
       "2a12:bec4:1df0::/44",

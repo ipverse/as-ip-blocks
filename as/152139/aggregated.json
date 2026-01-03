@@ -1,11 +1,14 @@
 {
-  "asn": 152139,
-  "handle": "RRCOMMUNICATION-AS-AP",
-  "description": "RR Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152139,
+  "metadata" : {
+    "handle" : "RRCOMMUNICATION-AS-AP",
+    "description" : "RR Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.87.70.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

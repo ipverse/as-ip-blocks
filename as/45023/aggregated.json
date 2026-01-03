@@ -1,12 +1,15 @@
 {
-  "asn": 45023,
-  "handle": "OXXODATA-AS",
-  "description": "OXXODATA SASU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45023,
+  "metadata" : {
+    "handle" : "OXXODATA-AS",
+    "description" : "OXXODATA SASU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.135.124.0/23",
       "193.200.60.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

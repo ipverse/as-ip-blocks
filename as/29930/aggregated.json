@@ -1,9 +1,12 @@
 {
-  "asn": 29930,
-  "handle": "TWRS-CBB",
-  "description": "Towerstream I Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29930,
+  "metadata" : {
+    "handle" : "TWRS-CBB",
+    "description" : "Towerstream I Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.17.248.0/21",
       "64.171.216.0/24",
       "65.255.192.0/19",
@@ -16,6 +19,6 @@
       "173.243.144.0/20",
       "216.127.124.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

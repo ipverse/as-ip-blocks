@@ -1,12 +1,15 @@
 {
-  "asn": 50487,
-  "handle": "AS-SANTOSHA",
-  "description": "Santosha LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50487,
+  "metadata" : {
+    "handle" : "AS-SANTOSHA",
+    "description" : "Santosha LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.44.222.0/24",
       "195.191.104.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

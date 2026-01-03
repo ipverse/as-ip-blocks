@@ -1,11 +1,14 @@
 {
-  "asn": 42889,
-  "handle": "METAVIRA-AS",
-  "description": "Metavira LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42889,
+  "metadata" : {
+    "handle" : "METAVIRA-AS",
+    "description" : "Metavira LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.190.7.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

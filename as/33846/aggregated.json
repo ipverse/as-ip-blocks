@@ -1,16 +1,19 @@
 {
-  "asn": 33846,
-  "handle": "DATAPORT-AS",
-  "description": "Dataport AoR",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33846,
+  "metadata" : {
+    "handle" : "DATAPORT-AS",
+    "description" : "Dataport AoR",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.91.0.0/16",
       "164.133.230.0/24",
       "185.223.104.0/22",
       "193.17.28.0/22",
       "193.168.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1002:d200::/40",
       "2a02:1002:da20::/47",
       "2a02:1002:da28::/47",

@@ -1,9 +1,12 @@
 {
-  "asn": 38858,
-  "handle": "SOMERVILLE-AS-AU-AP",
-  "description": "Netfilter Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38858,
+  "metadata" : {
+    "handle" : "SOMERVILLE-AS-AU-AP",
+    "description" : "Netfilter Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.105.145.0/24",
       "103.105.146.0/23",
       "115.124.0.0/21",
@@ -14,6 +17,6 @@
       "203.29.67.0/24",
       "203.34.148.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

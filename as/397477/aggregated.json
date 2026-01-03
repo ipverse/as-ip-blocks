@@ -1,9 +1,12 @@
 {
-  "asn": 397477,
-  "handle": "WGIX",
-  "description": "WGIX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397477,
+  "metadata" : {
+    "handle" : "WGIX",
+    "description" : "WGIX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.200.138.0/23",
       "108.59.241.0/24",
       "172.98.62.0/23",
@@ -11,6 +14,6 @@
       "185.174.146.0/24",
       "193.33.236.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

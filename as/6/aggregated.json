@@ -1,9 +1,12 @@
 {
-  "asn": 6,
-  "handle": "BULL-HN",
-  "description": "ATOS IT Solutions and Services Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6,
+  "metadata" : {
+    "handle" : "BULL-HN",
+    "description" : "ATOS IT Solutions and Services Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.185.30.0/23",
       "129.185.32.0/22",
       "141.112.0.0/16",
@@ -13,6 +16,6 @@
       "192.5.32.0/24",
       "192.90.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

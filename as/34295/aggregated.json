@@ -1,9 +1,12 @@
 {
-  "asn": 34295,
-  "handle": "ETA-BG-ASN",
-  "description": "Geo BG Net SPLtd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34295,
+  "metadata" : {
+    "handle" : "ETA-BG-ASN",
+    "description" : "Geo BG Net SPLtd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.92.0/24",
       "46.10.217.0/24",
       "62.176.118.0/24",
@@ -29,6 +32,6 @@
       "188.124.80.0/21",
       "188.124.88.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

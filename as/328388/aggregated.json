@@ -1,12 +1,15 @@
 {
-  "asn": 328388,
-  "handle": "INTERNET-SA",
-  "description": "Internet NS (Pty) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328388,
+  "metadata" : {
+    "handle" : "INTERNET-SA",
+    "description" : "Internet NS (Pty) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.130.16.0/20",
       "102.204.224.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

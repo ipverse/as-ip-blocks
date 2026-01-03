@@ -1,9 +1,12 @@
 {
-  "asn": 17961,
-  "handle": "MITENE",
-  "description": "mitene internet co. ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17961,
+  "metadata" : {
+    "handle" : "MITENE",
+    "description" : "mitene internet co. ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "124.241.0.0/18",
       "124.241.64.0/19",
       "124.241.96.0/20",
@@ -13,7 +16,7 @@
       "220.213.96.0/19",
       "220.213.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:e200::/32"
     ]
   }

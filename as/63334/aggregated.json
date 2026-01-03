@@ -1,13 +1,16 @@
 {
-  "asn": 63334,
-  "handle": "ALT-TELECOM",
-  "description": "Alt Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63334,
+  "metadata" : {
+    "handle" : "ALT-TELECOM",
+    "description" : "Alt Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.143.216.0/24",
       "130.51.76.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fdd2:400::/38"
     ]
   }

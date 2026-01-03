@@ -1,12 +1,15 @@
 {
-  "asn": 44000,
-  "handle": "NET1C-AS",
-  "description": "NET1C SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44000,
+  "metadata" : {
+    "handle" : "NET1C-AS",
+    "description" : "NET1C SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.200.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:200:1c::/48"
     ]
   }

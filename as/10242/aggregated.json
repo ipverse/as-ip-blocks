@@ -1,9 +1,12 @@
 {
-  "asn": 10242,
-  "handle": "USINTERNET",
-  "description": "US Internet Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10242,
+  "metadata" : {
+    "handle" : "USINTERNET",
+    "description" : "US Internet Corp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.88.128.0/19",
       "24.152.128.0/18",
       "50.93.240.0/20",
@@ -32,7 +35,7 @@
       "216.17.64.0/19",
       "216.126.212.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:8400::/28"
     ]
   }

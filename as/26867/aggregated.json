@@ -1,11 +1,14 @@
 {
-  "asn": 26867,
-  "handle": "BGC-NETWORK",
-  "description": "Brookshire Grocery Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26867,
+  "metadata" : {
+    "handle" : "BGC-NETWORK",
+    "description" : "Brookshire Grocery Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.38.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

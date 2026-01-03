@@ -1,9 +1,12 @@
 {
-  "asn": 138089,
-  "handle": "GMDP-AS-ID",
-  "description": "PT.Global Media Data Prima",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138089,
+  "metadata" : {
+    "handle" : "GMDP-AS-ID",
+    "description" : "PT.Global Media Data Prima",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.198.32.0/23",
       "103.63.26.0/24",
       "103.124.136.0/22",
@@ -16,7 +19,7 @@
       "165.99.225.0/24",
       "210.87.74.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:e0c0::/32"
     ]
   }

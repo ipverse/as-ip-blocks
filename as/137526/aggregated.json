@@ -1,9 +1,12 @@
 {
-  "asn": 137526,
-  "handle": "PLUSNETINC-AS-AP",
-  "description": "Plusnet inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137526,
+  "metadata" : {
+    "handle" : "PLUSNETINC-AS-AP",
+    "description" : "Plusnet inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.79.142.0/23",
       "38.95.168.0/22",
       "103.20.243.0/24",
@@ -13,7 +16,7 @@
       "103.186.238.0/23",
       "160.250.241.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:a1c0::/32"
     ]
   }

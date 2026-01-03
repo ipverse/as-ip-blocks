@@ -1,9 +1,12 @@
 {
-  "asn": 31445,
-  "handle": "CLOUD-AS",
-  "description": "Fiberax Networking\u0026Cloud Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31445,
+  "metadata" : {
+    "handle" : "CLOUD-AS",
+    "description" : "Fiberax Networking&Cloud Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.88.224.0/21",
       "77.88.232.0/23",
       "91.209.206.0/24",
@@ -12,7 +15,7 @@
       "195.128.226.0/23",
       "195.177.70.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:2c02::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 214432,
-  "handle": "ZLIDC",
-  "description": "Zhilian Technology CO. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214432,
+  "metadata" : {
+    "handle" : "ZLIDC",
+    "description" : "Zhilian Technology CO. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.182.112.0/24",
       "45.41.8.0/23",
       "45.66.63.0/24",
@@ -66,6 +69,6 @@
       "204.141.212.0/22",
       "212.100.170.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

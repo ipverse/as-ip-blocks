@@ -1,9 +1,12 @@
 {
-  "asn": 14782,
-  "handle": "THEROCKETSCIENCEGROUP",
-  "description": "MailChimp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14782,
+  "metadata" : {
+    "handle" : "THEROCKETSCIENCEGROUP",
+    "description" : "MailChimp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.105.0.0/23",
       "148.105.4.0/24",
       "148.105.8.0/24",
@@ -18,6 +21,6 @@
       "198.2.128.0/18",
       "205.201.128.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

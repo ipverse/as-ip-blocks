@@ -1,12 +1,15 @@
 {
-  "asn": 45315,
-  "handle": "POLARIS-AS-ID",
-  "description": "PT POLARISNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45315,
+  "metadata" : {
+    "handle" : "POLARIS-AS-ID",
+    "description" : "PT POLARISNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.24.76.0/23",
       "203.215.48.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

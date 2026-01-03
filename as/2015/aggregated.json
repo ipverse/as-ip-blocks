@@ -1,9 +1,12 @@
 {
-  "asn": 2015,
-  "handle": "MSEN-SYSTEM",
-  "description": "Msen Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2015,
+  "metadata" : {
+    "handle" : "MSEN-SYSTEM",
+    "description" : "Msen Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.59.14.0/24",
       "148.59.19.0/24",
       "148.59.21.0/24",
@@ -12,6 +15,6 @@
       "198.11.32.0/19",
       "198.202.235.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

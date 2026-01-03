@@ -1,9 +1,12 @@
 {
-  "asn": 7459,
-  "handle": "GRANDECOM-AS1",
-  "description": "Grande Communications Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7459,
+  "metadata" : {
+    "handle" : "GRANDECOM-AS1",
+    "description" : "Grande Communications Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.155.0.0/16",
       "46.33.15.0/24",
       "52.129.0.0/21",
@@ -84,7 +87,7 @@
       "216.254.32.0/19",
       "216.254.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:e400::/32"
     ]
   }

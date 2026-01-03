@@ -1,9 +1,12 @@
 {
-  "asn": 205981,
-  "handle": "CWSANVICENTE-AS",
-  "description": "FIBRAWORLD TELECOM S.A.U",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205981,
+  "metadata" : {
+    "handle" : "CWSANVICENTE-AS",
+    "description" : "FIBRAWORLD TELECOM S.A.U.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.9.132.0/22",
       "45.137.72.0/22",
       "109.230.216.0/23",
@@ -11,6 +14,6 @@
       "185.248.124.0/22",
       "212.63.104.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

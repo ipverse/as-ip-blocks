@@ -1,9 +1,12 @@
 {
-  "asn": 211306,
-  "handle": "TREADSTONE-AS",
-  "description": "Treadstone Business Development S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211306,
+  "metadata" : {
+    "handle" : "TREADSTONE-AS",
+    "description" : "Treadstone Business Development S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.36.56.0/24",
       "77.232.216.0/23",
       "77.232.218.0/24",
@@ -19,6 +22,6 @@
       "176.116.230.0/23",
       "178.159.146.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

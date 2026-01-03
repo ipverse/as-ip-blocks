@@ -1,13 +1,16 @@
 {
-  "asn": 24039,
-  "handle": "MARLINK-AS-NET-AP",
-  "description": "Marlink AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24039,
+  "metadata" : {
+    "handle" : "MARLINK-AS-NET-AP",
+    "description" : "Marlink AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.19.218.0/24",
       "103.193.208.0/22",
       "203.190.223.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

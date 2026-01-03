@@ -1,12 +1,15 @@
 {
-  "asn": 17243,
-  "handle": "BYTENODE-AS",
-  "description": "Byte Node LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17243,
+  "metadata" : {
+    "handle" : "BYTENODE-AS",
+    "description" : "Byte Node LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.159.216.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fa47::/48"
     ]
   }

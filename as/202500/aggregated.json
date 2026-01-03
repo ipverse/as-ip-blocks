@@ -1,12 +1,15 @@
 {
-  "asn": 202500,
-  "handle": "CDP",
-  "description": "Cassa Depositi e Prestiti S.P.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202500,
+  "metadata" : {
+    "handle" : "CDP",
+    "description" : "Cassa Depositi e Prestiti S.P.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.93.108.0/23",
       "193.93.110.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

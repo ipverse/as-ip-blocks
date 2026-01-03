@@ -1,9 +1,12 @@
 {
-  "asn": 12329,
-  "handle": "TMR",
-  "description": "GLASFASER RUHR GmbH \u0026 Co. KG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12329,
+  "metadata" : {
+    "handle" : "TMR",
+    "description" : "GLASFASER RUHR GmbH & Co. KG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.221.232.0/21",
       "62.221.240.0/21",
       "81.173.6.0/24",
@@ -23,7 +26,7 @@
       "194.45.52.0/22",
       "212.23.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:7d8::/32"
     ]
   }

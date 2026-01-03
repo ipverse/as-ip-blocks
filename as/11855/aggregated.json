@@ -1,9 +1,12 @@
 {
-  "asn": 11855,
-  "handle": "ASN-INTERNAP-BLK",
-  "description": "Unitas Global",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11855,
+  "metadata" : {
+    "handle" : "ASN-INTERNAP-BLK",
+    "description" : "Unitas Global",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.94.88.0/22",
       "64.95.108.0/22",
       "66.171.192.0/21",
@@ -16,7 +19,7 @@
       "74.217.186.0/24",
       "216.52.55.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:c05::/32"
     ]
   }

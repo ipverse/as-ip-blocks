@@ -1,12 +1,15 @@
 {
-  "asn": 42642,
-  "handle": "ASGIC",
-  "description": "Gulf Investment Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42642,
+  "metadata" : {
+    "handle" : "ASGIC",
+    "description" : "Gulf Investment Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.102.32.0/24",
       "91.102.34.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

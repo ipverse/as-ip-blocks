@@ -1,14 +1,17 @@
 {
-  "asn": 206667,
-  "handle": "JOTTA-AS",
-  "description": "JOTTA GROUP AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206667,
+  "metadata" : {
+    "handle" : "JOTTA-AS",
+    "description" : "JOTTA AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.179.128.0/23",
       "185.179.131.0/24",
       "193.30.119.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:cc80::/48"
     ]
   }

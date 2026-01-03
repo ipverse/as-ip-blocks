@@ -1,12 +1,15 @@
 {
-  "asn": 53118,
-  "handle": "NETLINE-TELECOM",
-  "description": "NETLINE TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53118,
+  "metadata" : {
+    "handle" : "NETLINE-TELECOM",
+    "description" : "NETLINE TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.12.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2f4::/32"
     ]
   }

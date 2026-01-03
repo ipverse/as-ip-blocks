@@ -1,9 +1,12 @@
 {
-  "asn": 11081,
-  "handle": "UNITED-TELECOMMUNICATION-SERVICES",
-  "description": "United Telecommunication Services (UTS)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11081,
+  "metadata" : {
+    "handle" : "UNITED-TELECOMMUNICATION-SERVICES",
+    "description" : "United Telecommunication Services (UTS)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.208.122.0/23",
       "190.4.128.0/18",
       "190.88.0.0/16",
@@ -14,7 +17,7 @@
       "206.113.24.0/21",
       "216.152.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:2e0::/32"
     ]
   }

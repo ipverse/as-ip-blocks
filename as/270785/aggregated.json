@@ -1,12 +1,15 @@
 {
-  "asn": 270785,
-  "handle": "PRNET-PROVEDOR-INTERNET",
-  "description": "PRNET PROVEDOR DE INTERNET LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270785,
+  "metadata" : {
+    "handle" : "PRNET-PROVEDOR-INTERNET",
+    "description" : "PRNET PROVEDOR DE INTERNET LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "189.51.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7160::/32"
     ]
   }

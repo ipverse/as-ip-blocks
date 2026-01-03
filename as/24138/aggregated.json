@@ -1,9 +1,12 @@
 {
-  "asn": 24138,
-  "handle": "CTTNET",
-  "description": "China TieTong Telecommunications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24138,
+  "metadata" : {
+    "handle" : "CTTNET",
+    "description" : "China TieTong Telecommunications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.192.0.0/21",
       "61.232.0.0/20",
       "61.233.0.0/19",
@@ -21,6 +24,6 @@
       "211.98.24.0/24",
       "222.35.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 60388,
-  "handle": "TRANSNEFT-TELECOM-AS",
-  "description": "JSC Oil Transportation and Production Telecommunications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60388,
+  "metadata" : {
+    "handle" : "TRANSNEFT-TELECOM-AS",
+    "description" : "JSC Oil Transportation and Production Telecommunications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.31.108.0/22",
       "212.73.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:b4a0::/32",
       "2a01:70c0::/32"
     ]

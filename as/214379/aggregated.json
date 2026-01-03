@@ -1,9 +1,12 @@
 {
-  "asn": 214379,
-  "handle": "SPN",
-  "description": "South Park Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214379,
+  "metadata" : {
+    "handle" : "SPN",
+    "description" : "South Park Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.231.182.0/24",
       "141.105.130.0/24",
       "178.250.189.0/24",
@@ -12,7 +15,7 @@
       "195.137.244.0/23",
       "212.79.125.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:f500::/44",
       "2a01:f500:f0::/45",
       "2a01:f500:f500::/45",

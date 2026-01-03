@@ -1,9 +1,12 @@
 {
-  "asn": 201299,
-  "handle": "BWIGMBH-AS",
-  "description": "BWI GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201299,
+  "metadata" : {
+    "handle" : "BWIGMBH-AS",
+    "description" : "BWI GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.155.136.0/22",
       "147.93.192.0/20",
       "176.52.180.0/22",
@@ -11,7 +14,7 @@
       "185.109.161.0/24",
       "217.198.189.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:cbc0::/29",
       "2a0f:c500::/29",
       "2a10:5c0::/29",

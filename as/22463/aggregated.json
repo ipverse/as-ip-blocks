@@ -1,9 +1,12 @@
 {
-  "asn": 22463,
-  "handle": "ADS-17-22463",
-  "description": "CDK Global LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22463,
+  "metadata" : {
+    "handle" : "ADS-17-22463",
+    "description" : "CDK Global LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.226.244.0/24",
       "139.126.0.0/16",
       "192.224.0.0/16",
@@ -15,6 +18,6 @@
       "207.109.69.0/24",
       "207.184.0.0/15"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

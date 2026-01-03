@@ -1,12 +1,15 @@
 {
-  "asn": 60405,
-  "handle": "RADEON-AS",
-  "description": "Radeon Service S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60405,
+  "metadata" : {
+    "handle" : "RADEON-AS",
+    "description" : "Radeon Service S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.172.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:b8c0::/31"
     ]
   }

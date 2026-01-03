@@ -1,12 +1,15 @@
 {
-  "asn": 139728,
-  "handle": "P3C-AS-AP",
-  "description": "Planet Three Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139728,
+  "metadata" : {
+    "handle" : "P3C-AS-AP",
+    "description" : "Planet Three Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.144.48.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:bd40::/32"
     ]
   }

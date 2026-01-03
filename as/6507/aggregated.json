@@ -1,9 +1,12 @@
 {
-  "asn": 6507,
-  "handle": "RIOT-NA1",
-  "description": "Riot Games Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6507,
+  "metadata" : {
+    "handle" : "RIOT-NA1",
+    "description" : "Riot Games Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.229.64.0/22",
       "45.7.36.0/22",
       "45.250.208.0/22",
@@ -20,7 +23,7 @@
       "192.64.168.0/21",
       "192.207.0.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:82c0::/29"
     ]
   }

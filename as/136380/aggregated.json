@@ -1,13 +1,16 @@
 {
-  "asn": 136380,
-  "handle": "WEB-NETWORKS-AS-AP",
-  "description": "Web Networks Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136380,
+  "metadata" : {
+    "handle" : "WEB-NETWORKS-AS-AP",
+    "description" : "Web Networks Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.86.56.0/23",
       "103.165.185.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:2bc0::/32"
     ]
   }

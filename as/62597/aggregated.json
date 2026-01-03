@@ -1,9 +1,12 @@
 {
-  "asn": 62597,
-  "handle": "NSONE",
-  "description": "NSONE Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62597,
+  "metadata" : {
+    "handle" : "NSONE",
+    "description" : "NSONE Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.35.248.0/23",
       "103.35.250.0/24",
       "163.114.192.0/22",
@@ -21,7 +24,7 @@
       "185.103.35.0/24",
       "198.51.44.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:cf80:107::/48",
       "2402:cf80:1000::/48",
       "2402:cf80:1003::/48",

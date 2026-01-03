@@ -1,14 +1,17 @@
 {
-  "asn": 41123,
-  "handle": "GTS-AS",
-  "description": "Gorodskie Telekommunikatsionnye Sistemy LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41123,
+  "metadata" : {
+    "handle" : "GTS-AS",
+    "description" : "Gorodskie Telekommunikatsionnye Sistemy LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.207.72.0/21",
       "185.44.236.0/22",
       "192.109.214.0/23",
       "192.109.224.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 53830,
-  "handle": "VPDC-1",
-  "description": "Otava LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53830,
+  "metadata" : {
+    "handle" : "VPDC-1",
+    "description" : "Otava LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.123.85.0/24",
       "74.123.86.0/23",
       "162.251.88.0/22",
@@ -18,6 +21,6 @@
       "208.68.132.0/22",
       "216.71.190.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

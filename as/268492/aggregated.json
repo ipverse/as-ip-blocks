@@ -1,12 +1,15 @@
 {
-  "asn": 268492,
-  "handle": "JL-PROVEDOR",
-  "description": "JL Provedor",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268492,
+  "metadata" : {
+    "handle" : "JL-PROVEDOR",
+    "description" : "JL Provedor",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.162.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5210::/32"
     ]
   }

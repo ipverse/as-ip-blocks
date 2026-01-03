@@ -1,9 +1,12 @@
 {
-  "asn": 9993,
-  "handle": "CTC-ODC",
-  "description": "ITOCHU Techno-Solutions Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9993,
+  "metadata" : {
+    "handle" : "CTC-ODC",
+    "description" : "ITOCHU Techno-Solutions Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.34.168.0/21",
       "157.113.0.0/16",
       "182.50.172.0/22",
@@ -14,7 +17,7 @@
       "220.152.120.0/21",
       "220.213.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:1400::/32"
     ]
   }

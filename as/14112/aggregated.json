@@ -1,9 +1,12 @@
 {
-  "asn": 14112,
-  "handle": "NET-SECURENET-MTL",
-  "description": "SecureNet Information Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14112,
+  "metadata" : {
+    "handle" : "NET-SECURENET-MTL",
+    "description" : "SecureNet Information Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.38.236.0/22",
       "66.201.208.0/24",
       "205.205.79.0/24",
@@ -14,6 +17,6 @@
       "216.18.116.0/23",
       "216.18.122.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

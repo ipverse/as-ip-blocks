@@ -1,9 +1,12 @@
 {
-  "asn": 17825,
-  "handle": "MAHINDRABT-AS-AP",
-  "description": "Tech Mahindra Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17825,
+  "metadata" : {
+    "handle" : "MAHINDRABT-AS-AP",
+    "description" : "Tech Mahindra Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.41.204.0/24",
       "202.67.4.0/23",
       "202.67.7.0/24",
@@ -12,7 +15,7 @@
       "203.143.184.0/22",
       "203.143.188.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:6300::/48"
     ]
   }

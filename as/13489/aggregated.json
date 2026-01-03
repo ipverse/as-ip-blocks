@@ -1,9 +1,12 @@
 {
-  "asn": 13489,
-  "handle": "UNE-EPM-TELECOMUNICACIONES",
-  "description": "UNE EPM TELECOMUNICACIONES S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13489,
+  "metadata" : {
+    "handle" : "UNE-EPM-TELECOMUNICACIONES",
+    "description" : "UNE EPM TELECOMUNICACIONES S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.169.253.0/24",
       "138.97.56.0/22",
       "168.0.244.0/22",
@@ -46,7 +49,7 @@
       "201.232.0.0/15",
       "201.236.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:e0::/28",
       "2800:580::/32",
       "2801:10:7800::/48",

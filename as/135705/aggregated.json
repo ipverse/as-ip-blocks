@@ -1,13 +1,16 @@
 {
-  "asn": 135705,
-  "handle": "NASBPL-AS",
-  "description": "Nas Broadband Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135705,
+  "metadata" : {
+    "handle" : "NASBPL-AS",
+    "description" : "Nas Broadband Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.71.64.0/22",
       "103.117.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:6340::/32"
     ]
   }

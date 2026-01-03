@@ -1,9 +1,12 @@
 {
-  "asn": 16570,
-  "handle": "TELOIP-SW-ASN",
-  "description": "AgniCorp Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16570,
+  "metadata" : {
+    "handle" : "TELOIP-SW-ASN",
+    "description" : "AgniCorp Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.153.164.0/24",
       "164.153.184.0/23",
       "164.153.188.0/22",
@@ -25,6 +28,6 @@
       "204.138.48.0/22",
       "204.138.52.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 396313,
-  "handle": "MOCTEL",
-  "description": "MocTel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396313,
+  "metadata" : {
+    "handle" : "MOCTEL",
+    "description" : "MocTel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.171.128.0/24",
       "199.250.60.0/23",
       "199.250.63.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

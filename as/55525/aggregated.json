@@ -1,11 +1,14 @@
 {
-  "asn": 55525,
-  "handle": "FRV-AS-AP",
-  "description": "Fire Rescue Victoria",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55525,
+  "metadata" : {
+    "handle" : "FRV-AS-AP",
+    "description" : "Fire Rescue Victoria",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.26.142.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

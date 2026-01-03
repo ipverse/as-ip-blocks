@@ -1,11 +1,14 @@
 {
-  "asn": 43993,
-  "handle": "ITEL-AS",
-  "description": "IronTelecom OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43993,
+  "metadata" : {
+    "handle" : "ITEL-AS",
+    "description" : "IronTelecom OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.195.252.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

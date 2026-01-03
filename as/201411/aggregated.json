@@ -1,9 +1,12 @@
 {
-  "asn": 201411,
-  "handle": "GOKNET",
-  "description": "GOKNET iletisim A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201411,
+  "metadata" : {
+    "handle" : "GOKNET",
+    "description" : "GOKNET iletisim A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.18.62.0/23",
       "37.18.96.0/22",
       "45.195.224.0/22",
@@ -17,7 +20,7 @@
       "188.120.36.0/22",
       "188.120.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:2a40::/48",
       "2a05:2a44:601::/48",
       "2a05:2a44:602::/48"

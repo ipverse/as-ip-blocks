@@ -1,9 +1,12 @@
 {
-  "asn": 132829,
-  "handle": "NCPL-AS-AP",
-  "description": "Nevigate Communications (S) Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132829,
+  "metadata" : {
+    "handle" : "NCPL-AS-AP",
+    "description" : "Nevigate Communications (S) Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.239.100.0/24",
       "103.30.8.0/23",
       "103.69.211.0/24",
@@ -15,7 +18,7 @@
       "103.248.132.0/22",
       "119.42.51.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:1520::/45",
       "2400:1520:8::/47",
       "2400:a5e0::/32",

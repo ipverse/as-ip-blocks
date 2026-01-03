@@ -1,16 +1,19 @@
 {
-  "asn": 6712,
-  "handle": "FORMAT-TV-AS",
-  "description": "TVP Format Llc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6712,
+  "metadata" : {
+    "handle" : "FORMAT-TV-AS",
+    "description" : "TVP Format Llc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.117.240.0/24",
       "82.117.246.0/24",
       "91.204.196.0/22",
       "91.246.128.0/19",
       "91.250.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1210:ffff::/48"
     ]
   }

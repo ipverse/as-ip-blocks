@@ -1,9 +1,12 @@
 {
-  "asn": 31898,
-  "handle": "ORACLE-BMC-31898",
-  "description": "Oracle Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31898,
+  "metadata" : {
+    "handle" : "ORACLE-BMC-31898",
+    "description" : "Oracle Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.226.187.0/24",
       "23.172.248.0/24",
       "23.173.184.0/24",
@@ -890,7 +893,7 @@
       "217.145.184.0/24",
       "220.158.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:1120::/48",
       "2001:1a30::/48",
       "2001:1a30:c000::/48",

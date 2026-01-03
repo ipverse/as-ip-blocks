@@ -1,9 +1,12 @@
 {
-  "asn": 2588,
-  "handle": "LATNET-AS",
-  "description": "SIA BITE Latvija",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2588,
+  "metadata" : {
+    "handle" : "LATNET-AS",
+    "description" : "SIA BITE Latvija",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.19.200.0/21",
       "80.81.32.0/22",
       "80.81.36.0/23",
@@ -131,7 +134,7 @@
       "185.62.196.0/22",
       "217.69.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:610::/32"
     ]
   }

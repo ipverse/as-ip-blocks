@@ -1,9 +1,12 @@
 {
-  "asn": 29513,
-  "handle": "FOLIATEAM",
-  "description": "Foliateam Operateur SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29513,
+  "metadata" : {
+    "handle" : "FOLIATEAM",
+    "description" : "Foliateam Operateur SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.60.184.0/21",
       "46.31.208.0/21",
       "80.64.224.0/21",
@@ -13,7 +16,7 @@
       "194.180.228.0/22",
       "217.64.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:1c0::/32",
       "2a06:15c0::/29"
     ]

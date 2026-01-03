@@ -1,12 +1,15 @@
 {
-  "asn": 37998,
-  "handle": "SVMHS-TRANSIT-AS-AP",
-  "description": "St Vincents \u0026 Mater Health Sydney",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37998,
+  "metadata" : {
+    "handle" : "SVMHS-TRANSIT-AS-AP",
+    "description" : "St Vincents & Mater Health Sydney",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.150.246.0/24",
       "203.20.160.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

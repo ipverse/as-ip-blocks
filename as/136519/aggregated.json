@@ -1,11 +1,14 @@
 {
-  "asn": 136519,
-  "handle": "ACCESS5-AS-AP",
-  "description": "Access Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136519,
+  "metadata" : {
+    "handle" : "ACCESS5-AS-AP",
+    "description" : "Access Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.170.140.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

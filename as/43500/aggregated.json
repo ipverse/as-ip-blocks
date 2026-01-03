@@ -1,15 +1,18 @@
 {
-  "asn": 43500,
-  "handle": "WBD-AS",
-  "description": "HBO Europe s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43500,
+  "metadata" : {
+    "handle" : "WBD-AS",
+    "description" : "HBO Europe s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.166.64.0/23",
       "157.166.68.0/23",
       "185.130.208.0/24",
       "212.46.44.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:b40::/47",
       "2a12:b40:2::/48",
       "2a12:b40:30::/47",

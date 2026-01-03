@@ -1,9 +1,12 @@
 {
-  "asn": 400992,
-  "handle": "ZHOUYISAT-COMMUNICATIONS",
-  "description": "ZhouyiSat Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400992,
+  "metadata" : {
+    "handle" : "ZHOUYISAT-COMMUNICATIONS",
+    "description" : "ZhouyiSat Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.177.184.0/23",
       "45.150.192.0/24",
       "45.159.79.0/24",
@@ -24,7 +27,7 @@
       "193.46.218.0/24",
       "194.48.142.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f909::/40",
       "2a0d:6c2::/48",
       "2a0d:6c2:6::/47",

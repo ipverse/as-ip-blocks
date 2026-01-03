@@ -1,9 +1,12 @@
 {
-  "asn": 9694,
-  "handle": "SEOKYUNG-CATV-AS",
-  "description": "Seokyung Cable Television Co.. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9694,
+  "metadata" : {
+    "handle" : "SEOKYUNG-CATV-AS",
+    "description" : "Seokyung Cable Television Co.. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.65.64.0/18",
       "115.160.0.0/17",
       "121.1.64.0/18",
@@ -11,6 +14,6 @@
       "182.31.0.0/16",
       "211.246.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

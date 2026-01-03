@@ -1,9 +1,12 @@
 {
-  "asn": 133736,
-  "handle": "SYNTELPTYLTD-AU",
-  "description": "TASMANET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133736,
+  "metadata" : {
+    "handle" : "SYNTELPTYLTD-AU",
+    "description" : "TASMANET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.245.132.0/22",
       "103.31.88.0/22",
       "103.47.0.0/24",
@@ -16,6 +19,6 @@
       "203.166.216.0/24",
       "203.189.124.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

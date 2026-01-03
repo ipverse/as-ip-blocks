@@ -1,12 +1,15 @@
 {
-  "asn": 32182,
-  "handle": "GMCC",
-  "description": "Grange Mutual Casualty Co",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32182,
+  "metadata" : {
+    "handle" : "GMCC",
+    "description" : "Grange Mutual Casualty Co.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.9.96.0/23",
       "205.161.124.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

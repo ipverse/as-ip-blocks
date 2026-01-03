@@ -1,9 +1,12 @@
 {
-  "asn": 48951,
-  "handle": "ASN-TSI-IAS",
-  "description": "Telekom Deutschland GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48951,
+  "metadata" : {
+    "handle" : "ASN-TSI-IAS",
+    "description" : "Telekom Deutschland GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.140.64.0/22",
       "78.140.68.0/24",
       "78.140.72.0/24",
@@ -14,7 +17,7 @@
       "185.149.164.0/22",
       "194.41.39.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:660::/29"
     ]
   }

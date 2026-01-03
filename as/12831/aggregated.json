@@ -1,9 +1,12 @@
 {
-  "asn": 12831,
-  "handle": "TASK-AS",
-  "description": "Technical University of Gdansk Academic Computer Center TASK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12831,
+  "metadata" : {
+    "handle" : "TASK-AS",
+    "description" : "Technical University of Gdansk Academic Computer Center TASK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.191.160.0/19",
       "91.194.106.0/23",
       "91.209.116.0/24",
@@ -13,7 +16,7 @@
       "194.169.236.0/24",
       "213.192.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4070:8000::/33"
     ]
   }

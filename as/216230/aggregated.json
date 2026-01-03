@@ -1,9 +1,12 @@
 {
-  "asn": 216230,
-  "handle": "INFOWISE",
-  "description": "INFOWISE SERVICES ApS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216230,
+  "metadata" : {
+    "handle" : "INFOWISE",
+    "description" : "INFOWISE SERVICES ApS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.134.164.0/22",
       "80.75.208.0/24",
       "185.94.104.0/22",
@@ -11,7 +14,7 @@
       "185.155.152.0/22",
       "185.243.224.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:f540::/29"
     ]
   }

@@ -1,16 +1,19 @@
 {
-  "asn": 265315,
-  "handle": "BINDNET-RJ",
-  "description": "BINDNET RJ",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265315,
+  "metadata" : {
+    "handle" : "BINDNET-RJ",
+    "description" : "BINDNET RJ",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.121.208.0/23",
       "138.121.210.0/24",
       "168.121.176.0/22",
       "204.157.78.0/24",
       "206.0.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2df8::/32"
     ]
   }

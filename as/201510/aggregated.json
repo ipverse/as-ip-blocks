@@ -1,14 +1,17 @@
 {
-  "asn": 201510,
-  "handle": "VOIZXL-AS",
-  "description": "voizXL B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201510,
+  "metadata" : {
+    "handle" : "VOIZXL-AS",
+    "description" : "voizXL B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.211.160.0/23",
       "185.73.92.0/23",
       "185.73.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:41e0::/32"
     ]
   }

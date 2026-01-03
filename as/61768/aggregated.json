@@ -1,12 +1,15 @@
 {
-  "asn": 61768,
-  "handle": "NET-INFINITO-INTERNET",
-  "description": "NET INFINITO INTERNET FIBRA OPTICA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61768,
+  "metadata" : {
+    "handle" : "NET-INFINITO-INTERNET",
+    "description" : "NET INFINITO INTERNET FIBRA OPTICA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.24.64.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1900::/32"
     ]
   }

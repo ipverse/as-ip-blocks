@@ -1,15 +1,18 @@
 {
-  "asn": 46990,
-  "handle": "ARCSERVE-01",
-  "description": "Arcserve",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46990,
+  "metadata" : {
+    "handle" : "ARCSERVE-01",
+    "description" : "Arcserve",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.5.242.0/23",
       "38.127.232.0/23",
       "74.114.124.0/22",
       "149.71.224.0/22",
       "199.204.172.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

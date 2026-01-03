@@ -1,9 +1,12 @@
 {
-  "asn": 31822,
-  "handle": "CITY-UNIVERSITY-OF-NEW-YORK",
-  "description": "City University of New York",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31822,
+  "metadata" : {
+    "handle" : "CITY-UNIVERSITY-OF-NEW-YORK",
+    "description" : "City University of New York",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.228.0.0/16",
       "134.74.0.0/16",
       "146.95.0.0/16",
@@ -17,6 +20,6 @@
       "198.61.16.0/20",
       "198.180.141.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

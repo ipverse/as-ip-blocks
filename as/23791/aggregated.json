@@ -1,9 +1,12 @@
 {
-  "asn": 23791,
-  "handle": "LCV",
-  "description": "LCV Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23791,
+  "metadata" : {
+    "handle" : "LCV",
+    "description" : "LCV Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "110.5.120.0/21",
       "118.102.40.0/21",
       "118.102.48.0/20",
@@ -11,7 +14,7 @@
       "202.122.192.0/19",
       "202.170.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:3880::/32"
     ]
   }

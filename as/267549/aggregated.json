@@ -1,12 +1,15 @@
 {
-  "asn": 267549,
-  "handle": "NETCOMM-FIBRA",
-  "description": "NetCOMM FIBRA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267549,
+  "metadata" : {
+    "handle" : "NETCOMM-FIBRA",
+    "description" : "NetCOMM FIBRA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "201.182.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:431c::/32"
     ]
   }

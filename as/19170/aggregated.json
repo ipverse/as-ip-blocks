@@ -1,13 +1,16 @@
 {
-  "asn": 19170,
-  "handle": "MISN",
-  "description": "Meramec Interactive Services Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19170,
+  "metadata" : {
+    "handle" : "MISN",
+    "description" : "Meramec Interactive Services Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.43.32.0/20",
       "69.54.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f450::/32"
     ]
   }

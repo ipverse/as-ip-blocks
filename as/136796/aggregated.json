@@ -1,9 +1,12 @@
 {
-  "asn": 136796,
-  "handle": "CL-JP-AS",
-  "description": "CORELINK JAPAN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136796,
+  "metadata" : {
+    "handle" : "CL-JP-AS",
+    "description" : "CORELINK JAPAN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.21.143.0/24",
       "103.81.184.0/24",
       "103.81.186.0/24",
@@ -13,7 +16,7 @@
       "194.163.80.0/22",
       "195.180.150.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:2842:15::/48",
       "2a0a:2842:f853::/48"
     ]

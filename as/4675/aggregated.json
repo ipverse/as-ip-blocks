@@ -1,9 +1,12 @@
 {
-  "asn": 4675,
-  "handle": "U-NETSURF",
-  "description": "UNIADEX LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4675,
+  "metadata" : {
+    "handle" : "U-NETSURF",
+    "description" : "UNIADEX LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "133.247.80.0/21",
       "133.247.88.0/23",
       "133.247.235.0/24",
@@ -11,7 +14,7 @@
       "202.233.0.0/18",
       "210.166.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:338::/32"
     ]
   }

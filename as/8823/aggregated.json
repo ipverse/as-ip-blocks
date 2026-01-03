@@ -1,9 +1,12 @@
 {
-  "asn": 8823,
-  "handle": "AUTONOMOUSSYSTEMROCKENSTEINAG",
-  "description": "Rockenstein AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8823,
+  "metadata" : {
+    "handle" : "AUTONOMOUSSYSTEMROCKENSTEINAG",
+    "description" : "Rockenstein AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.141.188.0/22",
       "77.76.192.0/18",
       "83.219.104.0/21",
@@ -19,7 +22,7 @@
       "213.137.192.0/19",
       "213.214.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:ad8::/29",
       "2a01:8a40::/32",
       "2a0c:d4c0::/29",

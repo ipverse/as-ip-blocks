@@ -1,9 +1,12 @@
 {
-  "asn": 63414,
-  "handle": "DAKTEL-AS1",
-  "description": "Dakota Central Telecommunications Cooperative",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63414,
+  "metadata" : {
+    "handle" : "DAKTEL-AS1",
+    "description" : "Dakota Central Telecommunications Cooperative",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.43.112.0/20",
       "64.21.228.0/22",
       "64.255.144.0/21",
@@ -22,7 +25,7 @@
       "209.243.8.0/22",
       "209.243.16.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:1680::/32"
     ]
   }

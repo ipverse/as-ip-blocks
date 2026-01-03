@@ -1,9 +1,12 @@
 {
-  "asn": 2110,
-  "handle": "AS-BTIRE",
-  "description": "Enet Communications LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2110,
+  "metadata" : {
+    "handle" : "AS-BTIRE",
+    "description" : "Enet Communications LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.16.0.0/14",
       "92.39.176.0/20",
       "141.11.253.0/24",
@@ -20,7 +23,7 @@
       "212.2.160.0/19",
       "213.202.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:7c8::/29"
     ]
   }

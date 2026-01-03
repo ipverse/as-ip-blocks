@@ -1,10 +1,13 @@
 {
-  "asn": 11006,
-  "handle": "HRT-SCS",
-  "description": "HRTec",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 11006,
+  "metadata" : {
+    "handle" : "HRT-SCS",
+    "description" : "HRTec",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2604:6940::/32"
     ]
   }

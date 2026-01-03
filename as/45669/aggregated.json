@@ -1,9 +1,12 @@
 {
-  "asn": 45669,
-  "handle": "MOBILINK-AS-PK",
-  "description": "Mobilink GSM Pakistan Mobile Communication Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45669,
+  "metadata" : {
+    "handle" : "MOBILINK-AS-PK",
+    "description" : "Mobilink GSM Pakistan Mobile Communication Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "119.73.65.0/24",
       "119.160.0.0/17",
       "149.40.128.0/20",
@@ -16,7 +19,7 @@
       "154.91.164.0/23",
       "154.198.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:3100::/47",
       "2404:3100:20::/48",
       "2404:3100:1000::/41",

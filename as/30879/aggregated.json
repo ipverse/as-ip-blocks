@@ -1,13 +1,16 @@
 {
-  "asn": 30879,
-  "handle": "RAI-AS",
-  "description": "RAI Real Estate B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30879,
+  "metadata" : {
+    "handle" : "RAI-AS",
+    "description" : "RAI Real Estate B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.97.8.0/21",
       "195.34.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:d940::/29"
     ]
   }

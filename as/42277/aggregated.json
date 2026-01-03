@@ -1,9 +1,12 @@
 {
-  "asn": 42277,
-  "handle": "KURSKTELECOM-AS",
-  "description": "Limited liability company Kursktelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42277,
+  "metadata" : {
+    "handle" : "KURSKTELECOM-AS",
+    "description" : "Limited liability company Kursktelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.249.192.0/19",
       "37.188.0.0/18",
       "46.62.0.0/17",
@@ -12,7 +15,7 @@
       "176.241.192.0/19",
       "178.249.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:51c0::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 327712,
-  "handle": "ATM",
-  "description": "Telecom Algeria",
-  "subnets": {
-    "ipv4": [
+  "asn" : 327712,
+  "metadata" : {
+    "handle" : "ATM",
+    "description" : "Telecom Algeria",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.121.0.0/16",
       "213.140.59.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:e8b0::/32"
     ]
   }

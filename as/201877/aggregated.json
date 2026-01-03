@@ -1,9 +1,12 @@
 {
-  "asn": 201877,
-  "handle": "NAW-AS",
-  "description": "NETandWORK s.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201877,
+  "metadata" : {
+    "handle" : "NAW-AS",
+    "description" : "NETandWORK s.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.139.194.0/24",
       "83.139.200.0/24",
       "83.139.209.0/24",
@@ -14,6 +17,6 @@
       "185.155.231.0/24",
       "212.84.32.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

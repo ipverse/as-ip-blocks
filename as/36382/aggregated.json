@@ -1,13 +1,16 @@
 {
-  "asn": 36382,
-  "handle": "QUIXLY",
-  "description": "Quixly",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36382,
+  "metadata" : {
+    "handle" : "QUIXLY",
+    "description" : "Quixly",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.185.24.0/24",
       "130.12.31.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:c8c0::/32"
     ]
   }

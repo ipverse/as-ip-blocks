@@ -1,13 +1,16 @@
 {
-  "asn": 203258,
-  "handle": "UCNS-AS",
-  "description": "UCNS Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203258,
+  "metadata" : {
+    "handle" : "UCNS-AS",
+    "description" : "UCNS Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.21.32.0/23",
       "178.21.34.0/24",
       "178.21.38.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

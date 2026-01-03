@@ -1,12 +1,15 @@
 {
-  "asn": 401854,
-  "handle": "VELOCIRAPTOR-01",
-  "description": "Velociraptor LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401854,
+  "metadata" : {
+    "handle" : "VELOCIRAPTOR-01",
+    "description" : "Velociraptor LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.142.116.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:da:2000::/48"
     ]
   }

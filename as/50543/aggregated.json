@@ -1,9 +1,12 @@
 {
-  "asn": 50543,
-  "handle": "SARATOV-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50543,
+  "metadata" : {
+    "handle" : "SARATOV-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.3.240.0/20",
       "5.165.192.0/20",
       "5.167.144.0/20",
@@ -24,7 +27,7 @@
       "188.235.112.0/21",
       "188.235.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:7000::/38"
     ]
   }

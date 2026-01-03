@@ -1,9 +1,12 @@
 {
-  "asn": 11753,
-  "handle": "ELEVATED1",
-  "description": "Elevated MSP LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11753,
+  "metadata" : {
+    "handle" : "ELEVATED1",
+    "description" : "Elevated MSP LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.11.241.0/24",
       "204.11.243.0/24",
       "216.220.160.0/23",
@@ -12,6 +15,6 @@
       "216.220.166.0/24",
       "216.220.172.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

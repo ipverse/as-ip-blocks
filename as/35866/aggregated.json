@@ -1,12 +1,15 @@
 {
-  "asn": 35866,
-  "handle": "SILVER-CHIP",
-  "description": "Silver Chip Interactive",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35866,
+  "metadata" : {
+    "handle" : "SILVER-CHIP",
+    "description" : "Silver Chip Interactive",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "117.18.123.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f9ff::/42",
       "2602:f9ff:44::/48"
     ]

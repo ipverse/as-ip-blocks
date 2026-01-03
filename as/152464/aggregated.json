@@ -1,15 +1,18 @@
 {
-  "asn": 152464,
-  "handle": "ZONE-AS-AP",
-  "description": "Zone Technology Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152464,
+  "metadata" : {
+    "handle" : "ZONE-AS-AP",
+    "description" : "Zone Technology Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.131.198.0/23",
       "103.139.218.0/24",
       "103.146.194.0/23",
       "157.15.178.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:a7a0::/34",
       "2401:a7a0:4000::/36",
       "2401:a7a0:f000::/36"

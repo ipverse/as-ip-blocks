@@ -1,9 +1,12 @@
 {
-  "asn": 18715,
-  "handle": "NYPA",
-  "description": "New York Power Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18715,
+  "metadata" : {
+    "handle" : "NYPA",
+    "description" : "New York Power Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.144.0.0/24",
       "148.144.9.0/24",
       "148.144.10.0/24",
@@ -16,6 +19,6 @@
       "148.144.121.0/24",
       "148.144.210.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 31080,
-  "handle": "O2-AS",
-  "description": "Wirtualna Polska Media S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31080,
+  "metadata" : {
+    "handle" : "O2-AS",
+    "description" : "Wirtualna Polska Media S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.17.41.0/24",
       "193.222.135.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:25c4::/48"
     ]
   }

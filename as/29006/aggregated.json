@@ -1,13 +1,16 @@
 {
-  "asn": 29006,
-  "handle": "POBOX-AS",
-  "description": "Acora Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29006,
+  "metadata" : {
+    "handle" : "POBOX-AS",
+    "description" : "Acora Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "217.27.240.0/20",
       "217.168.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6c8::/36"
     ]
   }

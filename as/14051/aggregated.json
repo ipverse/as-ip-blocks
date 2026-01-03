@@ -1,9 +1,12 @@
 {
-  "asn": 14051,
-  "handle": "SUREWEST",
-  "description": "Fidium",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14051,
+  "metadata" : {
+    "handle" : "SUREWEST",
+    "description" : "Fidium",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.30.96.0/19",
       "64.113.96.0/19",
       "65.78.128.0/18",
@@ -30,7 +33,7 @@
       "216.93.192.0/19",
       "216.93.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:400::/32",
       "2606:d980::/32"
     ]

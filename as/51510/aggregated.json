@@ -1,12 +1,15 @@
 {
-  "asn": 51510,
-  "handle": "DFDS-AS",
-  "description": "DFDS A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51510,
+  "metadata" : {
+    "handle" : "DFDS-AS",
+    "description" : "DFDS A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.9.230.0/23",
       "193.9.232.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

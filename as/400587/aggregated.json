@@ -1,16 +1,19 @@
 {
-  "asn": 400587,
-  "handle": "RYAMER",
-  "description": "Ryamer LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400587,
+  "metadata" : {
+    "handle" : "RYAMER",
+    "description" : "Ryamer LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.145.40.0/24",
       "85.155.231.0/24",
       "109.205.192.0/24",
       "121.127.34.0/24",
       "192.197.201.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fb95::/38",
       "2602:fb95:400::/40",
       "2602:fb95:f00::/40",

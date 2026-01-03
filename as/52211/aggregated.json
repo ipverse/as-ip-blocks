@@ -1,11 +1,14 @@
 {
-  "asn": 52211,
-  "handle": "SSI-AS",
-  "description": "SSI Schaefer SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52211,
+  "metadata" : {
+    "handle" : "SSI-AS",
+    "description" : "SSI Schaefer SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.223.50.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

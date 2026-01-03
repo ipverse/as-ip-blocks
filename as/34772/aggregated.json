@@ -1,16 +1,19 @@
 {
-  "asn": 34772,
-  "handle": "NEOTEL-AS-MK",
-  "description": "NEOTEL AD Skopje",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34772,
+  "metadata" : {
+    "handle" : "NEOTEL-AS-MK",
+    "description" : "NEOTEL AD Skopje",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.77.144.0/20",
       "88.85.96.0/19",
       "92.55.64.0/18",
       "95.180.128.0/17",
       "164.40.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1218::/32"
     ]
   }

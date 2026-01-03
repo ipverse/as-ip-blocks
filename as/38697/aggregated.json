@@ -1,9 +1,12 @@
 {
-  "asn": 38697,
-  "handle": "MOK9882-AS",
-  "description": "Hankyong National Univercity",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38697,
+  "metadata" : {
+    "handle" : "MOK9882-AS",
+    "description" : "Hankyong National Univercity",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.237.134.0/24",
       "1.238.1.0/24",
       "14.34.156.0/24",
@@ -19,6 +22,6 @@
       "220.94.160.0/24",
       "221.150.196.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

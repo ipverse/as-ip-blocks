@@ -1,11 +1,14 @@
 {
-  "asn": 400203,
-  "handle": "BYF-MH-01",
-  "description": "Big Y",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400203,
+  "metadata" : {
+    "handle" : "BYF-MH-01",
+    "description" : "Big Y",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.231.225.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

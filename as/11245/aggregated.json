@@ -1,9 +1,12 @@
 {
-  "asn": 11245,
-  "handle": "AS11245",
-  "description": "The Goodyear Tire \u0026 Rubber Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11245,
+  "metadata" : {
+    "handle" : "AS11245",
+    "description" : "The Goodyear Tire & Rubber Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.232.225.0/24",
       "167.232.233.0/24",
       "167.232.234.0/23",
@@ -15,6 +18,6 @@
       "167.232.252.0/23",
       "167.232.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

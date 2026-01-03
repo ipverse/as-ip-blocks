@@ -1,9 +1,12 @@
 {
-  "asn": 394973,
-  "handle": "AARKI",
-  "description": "Aarki Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394973,
+  "metadata" : {
+    "handle" : "AARKI",
+    "description" : "Aarki Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.39.87.0/24",
       "8.44.44.0/24",
       "38.125.34.0/24",
@@ -13,6 +16,6 @@
       "209.249.179.0/24",
       "209.249.215.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

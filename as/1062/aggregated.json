@@ -1,13 +1,16 @@
 {
-  "asn": 1062,
-  "handle": "EMMETT-FIBER",
-  "description": "City of Emmett",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1062,
+  "metadata" : {
+    "handle" : "EMMETT-FIBER",
+    "description" : "City of Emmett",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.166.216.0/24",
       "104.166.121.0/24",
       "206.84.196.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

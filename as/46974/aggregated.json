@@ -1,16 +1,19 @@
 {
-  "asn": 46974,
-  "handle": "SERVAXNET",
-  "description": "ServaxNet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46974,
+  "metadata" : {
+    "handle" : "SERVAXNET",
+    "description" : "ServaxNet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.4.88.0/24",
       "162.255.224.0/22",
       "204.141.164.0/22",
       "204.141.168.0/22",
       "204.141.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff1a::/36"
     ]
   }

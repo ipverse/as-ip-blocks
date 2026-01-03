@@ -1,10 +1,13 @@
 {
-  "asn": 211980,
-  "handle": "ECHOES",
-  "description": "Association ECHOES",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 211980,
+  "metadata" : {
+    "handle" : "ECHOES",
+    "description" : "Association ECHOES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a01:e901:166::/48",
       "2a01:e901:176::/48",
       "2a0b:b81:3506::/48",

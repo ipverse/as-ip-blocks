@@ -1,9 +1,12 @@
 {
-  "asn": 140822,
-  "handle": "ANPHATIDC-VSIS-AS-VN",
-  "description": "ANPHATIDC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140822,
+  "metadata" : {
+    "handle" : "ANPHATIDC-VSIS-AS-VN",
+    "description" : "ANPHATIDC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.169.168.0/23",
       "103.171.112.0/23",
       "103.172.234.0/23",
@@ -43,7 +46,7 @@
       "161.248.182.0/23",
       "161.248.236.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:c340::/48"
     ]
   }

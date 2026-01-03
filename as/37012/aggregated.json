@@ -1,9 +1,12 @@
 {
-  "asn": 37012,
-  "handle": "COMSYSGH-AS",
-  "description": "Comsys (GH) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37012,
+  "metadata" : {
+    "handle" : "COMSYSGH-AS",
+    "description" : "Comsys (GH) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.222.232.0/22",
       "196.61.32.0/20",
       "197.159.128.0/21",
@@ -11,6 +14,6 @@
       "197.159.140.0/23",
       "197.159.142.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

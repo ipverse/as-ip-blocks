@@ -1,11 +1,14 @@
 {
-  "asn": 11304,
-  "handle": "BMH-ASN",
-  "description": "Prisma Health",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11304,
+  "metadata" : {
+    "handle" : "BMH-ASN",
+    "description" : "Prisma Health",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.200.195.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

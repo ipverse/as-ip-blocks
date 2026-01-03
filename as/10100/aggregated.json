@@ -1,9 +1,12 @@
 {
-  "asn": 10100,
-  "handle": "UBSGROUPAG-AS-AP",
-  "description": "UBS Group AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10100,
+  "metadata" : {
+    "handle" : "UBSGROUPAG-AS-AP",
+    "description" : "UBS Group AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.206.38.0/23",
       "138.206.40.0/23",
       "138.206.148.0/22",
@@ -25,7 +28,7 @@
       "202.1.110.0/23",
       "202.1.112.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:7cc0:7f00::/47",
       "2404:7cc0:7f04::/47",
       "2a02:c187:4f00::/48",

@@ -1,12 +1,15 @@
 {
-  "asn": 42515,
-  "handle": "ACIINFO-AS",
-  "description": "ACI informatica s.p.a",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42515,
+  "metadata" : {
+    "handle" : "ACIINFO-AS",
+    "description" : "ACI informatica s.p.a.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.73.56.0/21",
       "185.39.188.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

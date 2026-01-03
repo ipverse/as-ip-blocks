@@ -1,13 +1,16 @@
 {
-  "asn": 138556,
-  "handle": "ARMOUR-AS-AP",
-  "description": "Armour Technologies Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138556,
+  "metadata" : {
+    "handle" : "ARMOUR-AS-AP",
+    "description" : "Armour Technologies Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.132.224.0/23",
       "103.132.226.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:4140::/32"
     ]
   }

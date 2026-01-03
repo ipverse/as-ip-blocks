@@ -1,12 +1,15 @@
 {
-  "asn": 149037,
-  "handle": "MAVORION-AS-AP",
-  "description": "Mavorion Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149037,
+  "metadata" : {
+    "handle" : "MAVORION-AS-AP",
+    "description" : "Mavorion Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.177.68.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:3860::/32"
     ]
   }

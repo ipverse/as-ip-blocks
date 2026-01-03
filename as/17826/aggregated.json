@@ -1,12 +1,15 @@
 {
-  "asn": 17826,
-  "handle": "SATATANET-ID",
-  "description": "PT Satata Neka Tama",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17826,
+  "metadata" : {
+    "handle" : "SATATANET-ID",
+    "description" : "PT Satata Neka Tama",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.149.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:5100::/32"
     ]
   }

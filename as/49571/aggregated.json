@@ -1,9 +1,12 @@
 {
-  "asn": 49571,
-  "handle": "CELLNET-AS",
-  "description": "CELLNET Company for Internet Services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49571,
+  "metadata" : {
+    "handle" : "CELLNET-AS",
+    "description" : "CELLNET Company for Internet Services Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.72.254.0/24",
       "188.72.12.0/24",
       "188.72.15.0/24",
@@ -13,6 +16,6 @@
       "188.72.22.0/24",
       "188.72.30.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

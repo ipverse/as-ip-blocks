@@ -1,9 +1,12 @@
 {
-  "asn": 64073,
-  "handle": "VETTA",
-  "description": "Vetta Online Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64073,
+  "metadata" : {
+    "handle" : "VETTA",
+    "description" : "Vetta Online Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.102.98.0/23",
       "103.9.40.0/23",
       "103.125.156.0/24",
@@ -19,7 +22,7 @@
       "163.47.128.0/22",
       "202.179.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:ff00:a000::/36",
       "2404:e940::/32",
       "2407:8b00::/32"

@@ -1,9 +1,12 @@
 {
-  "asn": 55561,
-  "handle": "TWO-TALK",
-  "description": "2talk Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55561,
+  "metadata" : {
+    "handle" : "TWO-TALK",
+    "description" : "2talk Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.111.13.0/24",
       "27.111.14.0/24",
       "43.243.60.0/22",
@@ -21,6 +24,6 @@
       "202.180.102.0/24",
       "203.57.203.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

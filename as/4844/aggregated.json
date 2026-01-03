@@ -1,14 +1,17 @@
 {
-  "asn": 4844,
-  "handle": "SUPERINTERNET-AS-AP",
-  "description": "SuperInternet Access Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4844,
+  "metadata" : {
+    "handle" : "SUPERINTERNET-AS-AP",
+    "description" : "SuperInternet Access Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.234.160.0/23",
       "66.234.164.0/24",
       "210.23.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:f000::/32"
     ]
   }

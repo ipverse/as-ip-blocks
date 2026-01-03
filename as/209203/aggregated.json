@@ -1,12 +1,15 @@
 {
-  "asn": 209203,
-  "handle": "WHATIF",
-  "description": "WHAT IF CommV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209203,
+  "metadata" : {
+    "handle" : "WHATIF",
+    "description" : "WHAT IF CommV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.65.0/24",
       "2.59.66.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

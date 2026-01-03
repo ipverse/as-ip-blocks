@@ -1,9 +1,12 @@
 {
-  "asn": 36692,
-  "handle": "CISCO-UMBRELLA",
-  "description": "Cisco OpenDNS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36692,
+  "metadata" : {
+    "handle" : "CISCO-UMBRELLA",
+    "description" : "Cisco OpenDNS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.215.64.0/23",
       "67.215.66.0/24",
       "67.215.69.0/24",
@@ -205,7 +208,7 @@
       "208.67.216.0/21",
       "208.69.32.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2603:5000:60::/43",
       "2603:5000:3000::/42",
       "2603:5000:3052::/47",

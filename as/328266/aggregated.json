@@ -1,14 +1,17 @@
 {
-  "asn": 328266,
-  "handle": "ATOMIC-AS",
-  "description": "Atomic (Pty) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328266,
+  "metadata" : {
+    "handle" : "ATOMIC-AS",
+    "description" : "Atomic (Pty) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.135.240.0/21",
       "102.208.236.0/22",
       "102.216.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:ef18::/32"
     ]
   }

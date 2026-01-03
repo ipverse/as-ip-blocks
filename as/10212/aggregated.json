@@ -1,9 +1,12 @@
 {
-  "asn": 10212,
-  "handle": "CHINAENTERCOM",
-  "description": "China Enterprise ICT Solutions Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10212,
+  "metadata" : {
+    "handle" : "CHINAENTERCOM",
+    "description" : "China Enterprise ICT Solutions Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "183.91.144.0/20",
       "210.5.0.0/19",
       "218.96.0.0/24",
@@ -15,7 +18,7 @@
       "218.96.255.0/24",
       "218.97.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:b400::/32"
     ]
   }

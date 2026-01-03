@@ -1,9 +1,12 @@
 {
-  "asn": 17397,
-  "handle": "OPTIMAL-PAYMENTS",
-  "description": "Paysafe",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17397,
+  "metadata" : {
+    "handle" : "OPTIMAL-PAYMENTS",
+    "description" : "Paysafe",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.74.7.0/24",
       "38.117.126.0/24",
       "199.73.42.0/24",
@@ -14,6 +17,6 @@
       "209.167.11.0/24",
       "216.95.236.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

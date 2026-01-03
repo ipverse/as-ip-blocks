@@ -1,9 +1,12 @@
 {
-  "asn": 139887,
-  "handle": "CHINANET-YANTAI-IDC",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139887,
+  "metadata" : {
+    "handle" : "CHINANET-YANTAI-IDC",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.58.80.0/23",
       "122.5.53.0/24",
       "122.5.54.0/24",
@@ -15,7 +18,7 @@
       "219.146.131.0/24",
       "222.173.195.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:e:d000::/37",
       "240e:947::/36",
       "240e:947:2000::/40",

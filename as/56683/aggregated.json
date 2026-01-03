@@ -1,9 +1,12 @@
 {
-  "asn": 56683,
-  "handle": "EXNESS-AS",
-  "description": "EXNESS LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56683,
+  "metadata" : {
+    "handle" : "EXNESS-AS",
+    "description" : "EXNESS LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.40.117.0/24",
       "45.114.188.0/24",
       "45.133.133.0/24",
@@ -12,6 +15,6 @@
       "151.243.233.0/24",
       "193.194.116.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

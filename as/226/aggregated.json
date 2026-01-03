@@ -1,9 +1,12 @@
 {
-  "asn": 226,
-  "handle": "LOS-NETTOS-AS",
-  "description": "Los Nettos",
-  "subnets": {
-    "ipv4": [
+  "asn" : 226,
+  "metadata" : {
+    "handle" : "LOS-NETTOS-AS",
+    "description" : "Los Nettos",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.16.15.0/24",
       "130.152.0.0/16",
       "163.40.0.0/16",
@@ -14,7 +17,7 @@
       "206.117.0.0/16",
       "207.151.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1878::/32"
     ]
   }

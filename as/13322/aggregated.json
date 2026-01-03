@@ -1,9 +1,12 @@
 {
-  "asn": 13322,
-  "handle": "FMR-AS3",
-  "description": "FMR LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13322,
+  "metadata" : {
+    "handle" : "FMR-AS3",
+    "description" : "FMR LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "155.199.18.0/23",
       "155.199.24.0/24",
       "155.199.64.0/21",
@@ -21,6 +24,6 @@
       "192.223.241.0/24",
       "192.223.242.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 401026,
-  "handle": "IMDC-EMEA",
-  "description": "Iron Mountain Data Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401026,
+  "metadata" : {
+    "handle" : "IMDC-EMEA",
+    "description" : "Iron Mountain Data Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.44.239.0/24",
       "148.51.238.0/24",
       "148.51.241.0/24",
       "209.160.234.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:3380:4e00::/40",
       "2605:3380:ff0f::/48"
     ]

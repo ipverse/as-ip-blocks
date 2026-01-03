@@ -1,9 +1,12 @@
 {
-  "asn": 62802,
-  "handle": "MST-JCMAIN",
-  "description": "Macy\u0027s Systems and Technology Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62802,
+  "metadata" : {
+    "handle" : "MST-JCMAIN",
+    "description" : "Macy's Systems and Technology Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.38.223.0/24",
       "8.41.82.0/24",
       "47.19.209.0/24",
@@ -20,6 +23,6 @@
       "170.4.194.0/24",
       "208.15.90.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

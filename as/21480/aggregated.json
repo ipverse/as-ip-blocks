@@ -1,15 +1,18 @@
 {
-  "asn": 21480,
-  "handle": "WBT-AS",
-  "description": "PJSC Vimpelcom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21480,
+  "metadata" : {
+    "handle" : "WBT-AS",
+    "description" : "PJSC Vimpelcom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.170.136.0/21",
       "80.250.64.0/20",
       "93.92.176.0/21",
       "95.129.168.0/21",
       "185.13.136.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 209378,
-  "handle": "INIOS-AS",
-  "description": "Inios Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209378,
+  "metadata" : {
+    "handle" : "INIOS-AS",
+    "description" : "Inios Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.208.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:7f40::/29"
     ]
   }

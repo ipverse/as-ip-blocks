@@ -1,9 +1,12 @@
 {
-  "asn": 31317,
-  "handle": "ANSCHLUSSWERK",
-  "description": "AnschlussWerk GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31317,
+  "metadata" : {
+    "handle" : "ANSCHLUSSWERK",
+    "description" : "AnschlussWerk GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.209.160.0/20",
       "31.220.112.0/21",
       "37.251.224.0/20",
@@ -18,7 +21,7 @@
       "185.178.56.0/22",
       "195.192.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:42c::/48",
       "2001:678:e40::/48",
       "2001:67c:f00::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 5410,
-  "handle": "BOUYGTEL-ISP",
-  "description": "Bouygues Telecom SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5410,
+  "metadata" : {
+    "handle" : "BOUYGTEL-ISP",
+    "description" : "Bouygues Telecom SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.48.0.0/14",
       "31.32.0.0/13",
       "62.34.0.0/15",
@@ -25,7 +28,7 @@
       "212.194.0.0/15",
       "213.44.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:860::/29",
       "2a04:cec0::/29"
     ]

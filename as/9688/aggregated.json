@@ -1,13 +1,16 @@
 {
-  "asn": 9688,
-  "handle": "BORANET-AS",
-  "description": "LG DACOM Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9688,
+  "metadata" : {
+    "handle" : "BORANET-AS",
+    "description" : "LG DACOM Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.30.160.0/22",
       "180.80.44.0/23",
       "180.80.46.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

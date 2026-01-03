@@ -1,12 +1,15 @@
 {
-  "asn": 61227,
-  "handle": "NEXTHOP-ANYCAST",
-  "description": "Nexthop AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61227,
+  "metadata" : {
+    "handle" : "NEXTHOP-ANYCAST",
+    "description" : "Nexthop AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "176.110.116.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1070::/47"
     ]
   }

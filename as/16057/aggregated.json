@@ -1,11 +1,14 @@
 {
-  "asn": 16057,
-  "handle": "AGELIA-AS",
-  "description": "Agelia SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16057,
+  "metadata" : {
+    "handle" : "AGELIA-AS",
+    "description" : "Agelia SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.78.32.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

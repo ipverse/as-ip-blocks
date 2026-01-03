@@ -1,9 +1,12 @@
 {
-  "asn": 132789,
-  "handle": "PIVOTEL-AS-AP",
-  "description": "Pivotel Group Pty Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132789,
+  "metadata" : {
+    "handle" : "PIVOTEL-AS-AP",
+    "description" : "Pivotel Group Pty Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.105.192.0/24",
       "203.105.194.0/23",
       "203.105.196.0/22",
@@ -17,7 +20,7 @@
       "203.105.218.0/23",
       "203.105.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:3780:2::/48",
       "2402:3780:f001::/48",
       "2402:3780:f002::/48"

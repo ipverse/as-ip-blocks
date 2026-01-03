@@ -1,10 +1,13 @@
 {
-  "asn": 142553,
-  "handle": "AIRSPROJECT-PRIVATE-NETWORK",
-  "description": "Airs Project Private Network Main",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 142553,
+  "metadata" : {
+    "handle" : "AIRSPROJECT-PRIVATE-NETWORK",
+    "description" : "Airs Project Private Network Main",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2406:840:eb00::/46",
       "2406:840:eb05::/48",
       "2406:840:eb08::/48",

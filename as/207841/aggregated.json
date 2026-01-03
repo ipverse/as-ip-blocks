@@ -1,15 +1,18 @@
 {
-  "asn": 207841,
-  "handle": "INFERNO",
-  "description": "Inferno Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207841,
+  "metadata" : {
+    "handle" : "INFERNO",
+    "description" : "Inferno Communications Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.164.141.0/24",
       "193.57.144.0/24",
       "193.57.159.0/24",
       "193.57.168.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:85c0::/47",
       "2a0f:85c2::/32"
     ]

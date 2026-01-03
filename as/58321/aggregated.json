@@ -1,9 +1,12 @@
 {
-  "asn": 58321,
-  "handle": "OXYLION-AS",
-  "description": "Oxylion Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58321,
+  "metadata" : {
+    "handle" : "OXYLION-AS",
+    "description" : "Oxylion Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.104.248.0/21",
       "81.161.192.0/20",
       "91.198.146.0/24",
@@ -19,7 +22,7 @@
       "193.242.168.0/23",
       "195.3.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:4c0::/29"
     ]
   }

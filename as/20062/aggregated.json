@@ -1,9 +1,12 @@
 {
-  "asn": 20062,
-  "handle": "WASTE-MAN",
-  "description": "WASTE MANAGEMENT INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20062,
+  "metadata" : {
+    "handle" : "WASTE-MAN",
+    "description" : "WASTE MANAGEMENT INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "156.101.1.0/24",
       "156.101.8.0/23",
       "156.101.10.0/24",
@@ -12,6 +15,6 @@
       "156.101.190.0/23",
       "156.101.192.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

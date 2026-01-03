@@ -1,9 +1,12 @@
 {
-  "asn": 23509,
-  "handle": "INVLOCSVC",
-  "description": "Inventory Locator Service LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23509,
+  "metadata" : {
+    "handle" : "INVLOCSVC",
+    "description" : "Inventory Locator Service LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.81.126.0/24",
       "65.107.133.0/24",
       "67.111.63.0/24",
@@ -12,6 +15,6 @@
       "97.65.14.0/24",
       "207.191.104.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

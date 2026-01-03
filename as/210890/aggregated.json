@@ -1,13 +1,16 @@
 {
-  "asn": 210890,
-  "handle": "AS-IT2GO",
-  "description": "ROKR Services BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210890,
+  "metadata" : {
+    "handle" : "AS-IT2GO",
+    "description" : "ROKR Services BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.32.151.0/24",
       "193.56.238.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:9a40:8030::/44",
       "2a0c:b641:220::/44",
       "2a0e:97c0:aa0::/44"

@@ -1,9 +1,12 @@
 {
-  "asn": 62844,
-  "handle": "SEIMITSU",
-  "description": "The Seimitsu Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62844,
+  "metadata" : {
+    "handle" : "SEIMITSU",
+    "description" : "The Seimitsu Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.192.52.0/23",
       "64.192.54.0/24",
       "64.192.56.0/24",
@@ -15,6 +18,6 @@
       "209.221.62.0/23",
       "216.119.48.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

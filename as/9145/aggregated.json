@@ -1,9 +1,12 @@
 {
-  "asn": 9145,
-  "handle": "EWETEL",
-  "description": "EWE TEL GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9145,
+  "metadata" : {
+    "handle" : "EWETEL",
+    "description" : "EWE TEL GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.150.0.0/16",
       "31.184.0.0/18",
       "31.187.112.0/20",
@@ -50,7 +53,7 @@
       "213.182.96.0/19",
       "213.183.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:c4::/48",
       "2a00:1470::/32",
       "2a02:1060::/48",

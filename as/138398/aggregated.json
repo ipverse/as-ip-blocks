@@ -1,9 +1,12 @@
 {
-  "asn": 138398,
-  "handle": "PRODIGI-AS-AP",
-  "description": "Prodigi Technology Services Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138398,
+  "metadata" : {
+    "handle" : "PRODIGI-AS-AP",
+    "description" : "Prodigi Technology Services Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.208.208.0/24",
       "91.208.228.0/24",
       "91.208.233.0/24",
@@ -12,7 +15,7 @@
       "103.139.78.0/24",
       "103.185.22.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:b4c0::/35",
       "2403:b4c0:2000::/36",
       "2403:b4c0:5000::/36",

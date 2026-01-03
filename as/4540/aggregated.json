@@ -1,9 +1,12 @@
 {
-  "asn": 4540,
-  "handle": "ASN01-SOGE",
-  "description": "SOGETEL INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4540,
+  "metadata" : {
+    "handle" : "ASN01-SOGE",
+    "description" : "SOGETEL INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.31.63.0/24",
       "66.187.112.0/20",
       "69.51.192.0/18",
@@ -21,6 +24,6 @@
       "207.35.82.0/23",
       "209.226.84.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

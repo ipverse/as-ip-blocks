@@ -1,9 +1,12 @@
 {
-  "asn": 7545,
-  "handle": "TPG-INTERNET-AP",
-  "description": "TPG Internet Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7545,
+  "metadata" : {
+    "handle" : "TPG-INTERNET-AP",
+    "description" : "TPG Internet Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.2.0.0/17",
       "14.2.128.0/18",
       "14.2.192.0/20",
@@ -586,7 +589,7 @@
       "220.253.160.0/19",
       "220.253.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:e480::/47",
       "2001:df2:3840::/48",
       "2001:df4:2880::/48",

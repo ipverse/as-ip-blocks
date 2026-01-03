@@ -1,9 +1,12 @@
 {
-  "asn": 6307,
-  "handle": "AMERICAN-EXPRESS",
-  "description": "American Express Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6307,
+  "metadata" : {
+    "handle" : "AMERICAN-EXPRESS",
+    "description" : "American Express Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.10.219.0/24",
       "12.29.100.0/23",
       "12.29.102.0/24",
@@ -45,6 +48,6 @@
       "148.173.144.0/24",
       "193.32.34.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

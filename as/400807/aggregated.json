@@ -1,14 +1,17 @@
 {
-  "asn": 400807,
-  "handle": "BMU-GW-01",
-  "description": "BRYAN MUNICIPAL UTILITIES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400807,
+  "metadata" : {
+    "handle" : "BMU-GW-01",
+    "description" : "BRYAN MUNICIPAL UTILITIES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.167.211.0/24",
       "205.245.84.0/23",
       "206.228.5.0/24",
       "208.32.21.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

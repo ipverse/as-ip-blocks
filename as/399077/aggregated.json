@@ -1,9 +1,12 @@
 {
-  "asn": 399077,
-  "handle": "TERAEXCH",
-  "description": "Tcloudnet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399077,
+  "metadata" : {
+    "handle" : "TERAEXCH",
+    "description" : "Tcloudnet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.77.232.0/23",
       "38.77.234.0/24",
       "38.127.240.0/22",
@@ -138,7 +141,7 @@
       "206.238.252.0/23",
       "206.238.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:4dc0:6::/48",
       "2606:4dc0:2100::/40",
       "2606:4dc0:2200::/39",

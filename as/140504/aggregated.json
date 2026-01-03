@@ -1,16 +1,19 @@
 {
-  "asn": 140504,
-  "handle": "DIGICELNAURU-AS-AP",
-  "description": "Digicel Nauru Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140504,
+  "metadata" : {
+    "handle" : "DIGICELNAURU-AS-AP",
+    "description" : "Digicel Nauru Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.230.6.0/24",
       "103.20.124.0/24",
       "103.49.173.0/24",
       "103.49.174.0/23",
       "203.190.216.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:ae80::/32"
     ]
   }

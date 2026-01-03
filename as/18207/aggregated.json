@@ -1,9 +1,12 @@
 {
-  "asn": 18207,
-  "handle": "YOU-INDIA-AP",
-  "description": "YOU Broadband \u0026 Cable India Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18207,
+  "metadata" : {
+    "handle" : "YOU-INDIA-AP",
+    "description" : "YOU Broadband & Cable India Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.106.160.0/22",
       "123.201.0.0/22",
       "123.201.6.0/23",
@@ -199,7 +202,7 @@
       "219.91.253.0/24",
       "219.91.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:6800::/36",
       "2405:6800:1000::/37",
       "2405:6800:2000::/37",

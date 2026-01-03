@@ -1,12 +1,15 @@
 {
-  "asn": 140267,
-  "handle": "LISHANONLINE-AS-AP",
-  "description": "Lishan Online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140267,
+  "metadata" : {
+    "handle" : "LISHANONLINE-AS-AP",
+    "description" : "Lishan Online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.191.158.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:540::/48"
     ]
   }

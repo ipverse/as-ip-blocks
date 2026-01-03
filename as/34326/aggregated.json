@@ -1,14 +1,17 @@
 {
-  "asn": 34326,
-  "handle": "CSC-AS",
-  "description": "CSC Telecom SIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34326,
+  "metadata" : {
+    "handle" : "CSC-AS",
+    "description" : "CSC Telecom SIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.240.244.0/22",
       "178.236.192.0/22",
       "193.138.188.0/23",
       "193.138.190.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

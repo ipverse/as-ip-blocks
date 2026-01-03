@@ -1,9 +1,12 @@
 {
-  "asn": 26721,
-  "handle": "INYO",
-  "description": "Inyo Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26721,
+  "metadata" : {
+    "handle" : "INYO",
+    "description" : "Inyo Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.130.128.0/23",
       "23.168.0.0/24",
       "70.98.52.0/23",
@@ -13,7 +16,7 @@
       "162.218.232.0/21",
       "209.40.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:6380::/32"
     ]
   }

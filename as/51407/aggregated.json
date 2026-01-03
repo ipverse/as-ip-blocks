@@ -1,9 +1,12 @@
 {
-  "asn": 51407,
-  "handle": "MADA-AS",
-  "description": "Mada Al-Arab General Services Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51407,
+  "metadata" : {
+    "handle" : "MADA-AS",
+    "description" : "Mada Al-Arab General Services Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.34.160.0/21",
       "5.43.192.0/19",
       "31.13.160.0/22",
@@ -30,7 +33,7 @@
       "185.17.234.0/24",
       "188.227.232.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:940::/29"
     ]
   }

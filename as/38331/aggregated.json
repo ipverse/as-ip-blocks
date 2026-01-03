@@ -1,12 +1,15 @@
 {
-  "asn": 38331,
-  "handle": "ITS-AS-ID-AP",
-  "description": "Institut Teknologi Sepuluh Nopember",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38331,
+  "metadata" : {
+    "handle" : "ITS-AS-ID-AP",
+    "description" : "Institut Teknologi Sepuluh Nopember",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.94.188.0/22",
       "202.46.129.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

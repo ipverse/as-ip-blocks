@@ -1,11 +1,14 @@
 {
-  "asn": 17101,
-  "handle": "POLA-AS",
-  "description": "PORT OF LOS ANGELES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17101,
+  "metadata" : {
+    "handle" : "POLA-AS",
+    "description" : "PORT OF LOS ANGELES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.245.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

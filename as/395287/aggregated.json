@@ -1,12 +1,15 @@
 {
-  "asn": 395287,
-  "handle": "MSC-HQ",
-  "description": "MSC Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395287,
+  "metadata" : {
+    "handle" : "MSC-HQ",
+    "description" : "MSC Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.104.234.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:128:2000::/40"
     ]
   }

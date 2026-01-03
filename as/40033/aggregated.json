@@ -1,16 +1,19 @@
 {
-  "asn": 40033,
-  "handle": "RED-SPECTRUM",
-  "description": "Red-Spectrum Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40033,
+  "metadata" : {
+    "handle" : "RED-SPECTRUM",
+    "description" : "Red-Spectrum Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.162.144.0/24",
       "66.35.8.0/24",
       "66.35.15.0/24",
       "207.32.193.0/24",
       "207.32.194.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:6340::/32"
     ]
   }

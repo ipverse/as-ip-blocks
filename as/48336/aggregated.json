@@ -1,9 +1,12 @@
 {
-  "asn": 48336,
-  "handle": "DAZOOT-AS",
-  "description": "Dazoot Software SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48336,
+  "metadata" : {
+    "handle" : "DAZOOT-AS",
+    "description" : "Dazoot Software SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.14.239.0/24",
       "45.86.240.0/24",
       "45.135.226.0/23",
@@ -12,6 +15,6 @@
       "89.37.235.0/24",
       "176.223.191.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

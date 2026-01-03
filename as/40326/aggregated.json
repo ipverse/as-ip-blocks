@@ -1,9 +1,12 @@
 {
-  "asn": 40326,
-  "handle": "ECKERD-COLLEGE",
-  "description": "Eckerd College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40326,
+  "metadata" : {
+    "handle" : "ECKERD-COLLEGE",
+    "description" : "Eckerd College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.187.211.0/24",
       "198.187.212.0/23",
       "198.187.214.0/24",
@@ -18,6 +21,6 @@
       "216.146.188.0/23",
       "216.146.190.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

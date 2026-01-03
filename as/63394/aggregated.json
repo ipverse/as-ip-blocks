@@ -1,9 +1,12 @@
 {
-  "asn": 63394,
-  "handle": "EIDG-AS1",
-  "description": "Eastern Iowa IP LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63394,
+  "metadata" : {
+    "handle" : "EIDG-AS1",
+    "description" : "Eastern Iowa IP LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.184.112.0/24",
       "67.55.152.0/24",
       "67.55.170.0/24",
@@ -42,7 +45,7 @@
       "216.51.233.0/24",
       "216.51.238.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:e4c0::/32"
     ]
   }

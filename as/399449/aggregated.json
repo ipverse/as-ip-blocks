@@ -1,9 +1,12 @@
 {
-  "asn": 399449,
-  "handle": "KYNDRYL-POP-ASN",
-  "description": "Kyndryl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399449,
+  "metadata" : {
+    "handle" : "KYNDRYL-POP-ASN",
+    "description" : "Kyndryl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.88.0.0/23",
       "158.88.8.0/23",
       "158.88.15.0/24",
@@ -12,6 +15,6 @@
       "158.88.48.0/23",
       "158.88.56.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

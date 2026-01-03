@@ -1,12 +1,15 @@
 {
-  "asn": 201898,
-  "handle": "AS-BLUEWAVE",
-  "description": "BlueWave Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201898,
+  "metadata" : {
+    "handle" : "AS-BLUEWAVE",
+    "description" : "BlueWave Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.60.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:7260::/29"
     ]
   }

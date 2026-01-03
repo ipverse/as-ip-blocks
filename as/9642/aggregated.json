@@ -1,12 +1,15 @@
 {
-  "asn": 9642,
-  "handle": "KISA",
-  "description": "Korea Internet Security Agency",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9642,
+  "metadata" : {
+    "handle" : "KISA",
+    "description" : "Korea Internet Security Agency",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.248.224.0/23",
       "211.252.150.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

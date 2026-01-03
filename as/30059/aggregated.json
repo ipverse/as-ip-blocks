@@ -1,9 +1,12 @@
 {
-  "asn": 30059,
-  "handle": "ZIMCOM",
-  "description": "Zimcom Network Solutions Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30059,
+  "metadata" : {
+    "handle" : "ZIMCOM",
+    "description" : "Zimcom Network Solutions Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.42.206.0/24",
       "66.161.141.0/24",
       "69.61.246.0/23",
@@ -14,7 +17,7 @@
       "216.68.76.0/24",
       "216.68.232.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f550::/32"
     ]
   }

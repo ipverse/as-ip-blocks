@@ -1,9 +1,12 @@
 {
-  "asn": 47254,
-  "handle": "WFC-AS",
-  "description": "Wi-Fi Communication S.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47254,
+  "metadata" : {
+    "handle" : "WFC-AS",
+    "description" : "Wi-Fi Communication S.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.30.219.0/24",
       "46.30.221.0/24",
       "77.95.140.0/24",
@@ -11,7 +14,7 @@
       "212.102.98.0/24",
       "217.19.152.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:d1c0::/29"
     ]
   }

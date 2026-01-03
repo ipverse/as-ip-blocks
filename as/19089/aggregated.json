@@ -1,9 +1,12 @@
 {
-  "asn": 19089,
-  "handle": "SCALA-DATA-CENTERS",
-  "description": "Scala Data Centers",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19089,
+  "metadata" : {
+    "handle" : "SCALA-DATA-CENTERS",
+    "description" : "Scala Data Centers",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.234.228.0/22",
       "186.234.232.0/22",
       "186.234.238.0/24",
@@ -50,7 +53,7 @@
       "200.221.192.0/19",
       "200.225.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:38:3403::/48",
       "2804:38:3404::/48",
       "2804:38:4205::/48",

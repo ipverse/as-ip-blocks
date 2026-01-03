@@ -1,9 +1,12 @@
 {
-  "asn": 140345,
-  "handle": "CHINATELECOM-YUNNAN-SHENGJI-5G-NETWORK",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140345,
+  "metadata" : {
+    "handle" : "CHINATELECOM-YUNNAN-SHENGJI-5G-NETWORK",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "106.59.136.0/23",
       "106.60.96.0/19",
       "106.60.148.0/22",
@@ -14,7 +17,7 @@
       "106.61.64.0/18",
       "106.61.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:52:6000::/48",
       "240e:44d::/42",
       "240e:44d:100::/42",

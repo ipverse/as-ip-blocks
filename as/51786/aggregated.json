@@ -1,12 +1,15 @@
 {
-  "asn": 51786,
-  "handle": "VELDER-AS",
-  "description": "Patrick Velder",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51786,
+  "metadata" : {
+    "handle" : "VELDER-AS",
+    "description" : "Patrick Velder",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.117.12.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:8280::/43"
     ]
   }

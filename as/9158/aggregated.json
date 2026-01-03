@@ -1,9 +1,12 @@
 {
-  "asn": 9158,
-  "handle": "TELENOR-DANMARK-AS",
-  "description": "Telenor A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9158,
+  "metadata" : {
+    "handle" : "TELENOR-DANMARK-AS",
+    "description" : "Telenor A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.128.0.0/14",
       "5.33.0.0/16",
       "37.96.0.0/16",
@@ -31,7 +34,7 @@
       "213.237.0.0/17",
       "217.157.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1580::/32",
       "2a02:2a30::/29"
     ]

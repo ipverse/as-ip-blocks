@@ -1,9 +1,12 @@
 {
-  "asn": 45147,
-  "handle": "NAPINFO-TRANSIT-AS-AP",
-  "description": "PT. NAP Info Lintas Nusa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45147,
+  "metadata" : {
+    "handle" : "NAPINFO-TRANSIT-AS-AP",
+    "description" : "PT. NAP Info Lintas Nusa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "119.110.112.0/24",
       "119.110.114.0/24",
       "119.110.119.0/24",
@@ -12,7 +15,7 @@
       "119.110.126.0/23",
       "154.18.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:c000::/33"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 56214,
-  "handle": "ZELAN-LTD-AS-AP",
-  "description": "Zelan Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56214,
+  "metadata" : {
+    "handle" : "ZELAN-LTD-AS-AP",
+    "description" : "Zelan Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.44.60.0/23",
       "202.44.63.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:7700::/32"
     ]
   }

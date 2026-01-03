@@ -1,14 +1,17 @@
 {
-  "asn": 400303,
-  "handle": "SYLVESTER-1",
-  "description": "City of Sylvester",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400303,
+  "metadata" : {
+    "handle" : "SYLVESTER-1",
+    "description" : "City of Sylvester",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.247.216.0/22",
       "130.250.140.0/22",
       "130.250.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:80c0::/32"
     ]
   }

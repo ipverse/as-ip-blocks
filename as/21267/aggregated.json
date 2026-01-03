@@ -1,9 +1,12 @@
 {
-  "asn": 21267,
-  "handle": "WAVENET-AS21267",
-  "description": "Wavenet Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21267,
+  "metadata" : {
+    "handle" : "WAVENET-AS21267",
+    "description" : "Wavenet Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.39.176.0/21",
       "5.159.208.0/21",
       "31.192.96.0/21",
@@ -54,7 +57,7 @@
       "217.156.249.0/24",
       "217.163.68.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:f1c0::/32"
     ]
   }

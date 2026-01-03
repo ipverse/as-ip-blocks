@@ -1,13 +1,16 @@
 {
-  "asn": 24711,
-  "handle": "CLS-ARGOS-AS",
-  "description": "Collecte Localisation Satellites SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24711,
+  "metadata" : {
+    "handle" : "CLS-ARGOS-AS",
+    "description" : "Collecte Localisation Satellites SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.207.20.0/23",
       "193.42.151.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:11b0::/48"
     ]
   }

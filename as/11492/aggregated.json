@@ -1,9 +1,12 @@
 {
-  "asn": 11492,
-  "handle": "CABLEONE",
-  "description": "CABLE ONE INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11492,
+  "metadata" : {
+    "handle" : "CABLEONE",
+    "description" : "CABLE ONE INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.91.192.0/20",
       "23.91.208.0/21",
       "23.91.216.0/24",
@@ -951,7 +954,7 @@
       "217.177.244.0/22",
       "217.177.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2603:e000::/20"
     ]
   }

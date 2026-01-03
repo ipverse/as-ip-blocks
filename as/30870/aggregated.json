@@ -1,9 +1,12 @@
 {
-  "asn": 30870,
-  "handle": "TRANS-IX-AS",
-  "description": "Trans-iX B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30870,
+  "metadata" : {
+    "handle" : "TRANS-IX-AS",
+    "description" : "Trans-iX B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.98.136.0/23",
       "83.98.148.0/24",
       "83.98.154.0/23",
@@ -26,7 +29,7 @@
       "213.247.57.0/24",
       "213.247.62.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:16f8:15::/48",
       "2001:16f8:666::/48",
       "2a01:4d60::/32",

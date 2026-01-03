@@ -1,9 +1,12 @@
 {
-  "asn": 1299,
-  "handle": "TWELVE99",
-  "description": "Arelion Sweden AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1299,
+  "metadata" : {
+    "handle" : "TWELVE99",
+    "description" : "Arelion Sweden AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.22.36.0/22",
       "2.22.40.0/22",
       "2.255.192.0/18",
@@ -92,7 +95,7 @@
       "213.248.64.0/18",
       "217.74.19.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:2000:3000::/40",
       "2001:2030::/28",
       "2407:1600::/32",

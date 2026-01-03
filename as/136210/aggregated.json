@@ -1,14 +1,17 @@
 {
-  "asn": 136210,
-  "handle": "ITSPECTRUM-AS-AP",
-  "description": "IT Spectrum Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136210,
+  "metadata" : {
+    "handle" : "ITSPECTRUM-AS-AP",
+    "description" : "IT Spectrum Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.83.188.0/22",
       "103.149.50.0/23",
       "202.157.190.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:ecc0::/32"
     ]
   }

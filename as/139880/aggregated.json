@@ -1,9 +1,12 @@
 {
-  "asn": 139880,
-  "handle": "OWGELS-AS-AP",
-  "description": "OWGELS INTERNATIONAL CO. LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139880,
+  "metadata" : {
+    "handle" : "OWGELS-AS-AP",
+    "description" : "OWGELS INTERNATIONAL CO. LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.204.160.0/20",
       "45.204.224.0/20",
       "107.151.212.0/24",
@@ -24,6 +27,6 @@
       "156.254.64.0/19",
       "204.77.130.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

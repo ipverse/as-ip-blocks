@@ -1,9 +1,12 @@
 {
-  "asn": 19383,
-  "handle": "WEBEL-1",
-  "description": "Web Elite LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19383,
+  "metadata" : {
+    "handle" : "WEBEL-1",
+    "description" : "Web Elite LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "174.136.128.0/22",
       "174.136.133.0/24",
       "174.136.135.0/24",
@@ -15,6 +18,6 @@
       "208.81.176.0/21",
       "208.82.64.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 8648,
-  "handle": "ONE-NETWORK",
-  "description": "dogado GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8648,
+  "metadata" : {
+    "handle" : "ONE-NETWORK",
+    "description" : "dogado GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.44.96.0/22",
       "5.44.108.0/22",
       "37.218.248.0/21",
@@ -53,7 +56,7 @@
       "212.110.96.0/19",
       "213.146.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:748:400::/48",
       "2001:880::/32",
       "2a00:1128:2::/48",

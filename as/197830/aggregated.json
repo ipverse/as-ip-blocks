@@ -1,15 +1,18 @@
 {
-  "asn": 197830,
-  "handle": "BAKCELL-AS",
-  "description": "BAKCELL LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197830,
+  "metadata" : {
+    "handle" : "BAKCELL-AS",
+    "description" : "BAKCELL LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.44.32.0/21",
       "149.126.113.0/24",
       "176.28.80.0/21",
       "185.52.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:c840::/29"
     ]
   }

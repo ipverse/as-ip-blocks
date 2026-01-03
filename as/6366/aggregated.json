@@ -1,13 +1,16 @@
 {
-  "asn": 6366,
-  "handle": "PDXNET",
-  "description": "Portland State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6366,
+  "metadata" : {
+    "handle" : "PDXNET",
+    "description" : "Portland State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.252.0.0/16",
       "140.211.16.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:10::/32"
     ]
   }

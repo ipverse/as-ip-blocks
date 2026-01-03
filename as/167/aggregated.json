@@ -1,12 +1,15 @@
 {
-  "asn": 167,
-  "handle": "WESLEYAN-AS",
-  "description": "Wesleyan University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 167,
+  "metadata" : {
+    "handle" : "WESLEYAN-AS",
+    "description" : "Wesleyan University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.133.0.0/17",
       "129.133.128.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

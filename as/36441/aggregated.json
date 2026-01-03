@@ -1,13 +1,16 @@
 {
-  "asn": 36441,
-  "handle": "UGA-ASN",
-  "description": "University of Georgia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36441,
+  "metadata" : {
+    "handle" : "UGA-ASN",
+    "description" : "University of Georgia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "70.33.64.0/18",
       "128.192.0.0/16",
       "198.137.16.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

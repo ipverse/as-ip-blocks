@@ -1,9 +1,12 @@
 {
-  "asn": 198760,
-  "handle": "QUATTRE-AS",
-  "description": "Quattre Internet SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198760,
+  "metadata" : {
+    "handle" : "QUATTRE-AS",
+    "description" : "Quattre Internet SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.221.232.0/21",
       "45.157.216.0/22",
       "81.172.80.0/21",
@@ -18,6 +21,6 @@
       "185.241.88.0/22",
       "193.254.32.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

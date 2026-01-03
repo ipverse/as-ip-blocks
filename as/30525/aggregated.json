@@ -1,15 +1,18 @@
 {
-  "asn": 30525,
-  "handle": "GLS-CLT1-01",
-  "description": "Global Linking Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30525,
+  "metadata" : {
+    "handle" : "GLS-CLT1-01",
+    "description" : "Global Linking Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.21.228.0/24",
       "12.222.101.0/24",
       "66.194.25.0/24",
       "192.34.36.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f88c::/48"
     ]
   }

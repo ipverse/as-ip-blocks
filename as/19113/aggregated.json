@@ -1,9 +1,12 @@
 {
-  "asn": 19113,
-  "handle": "DUKE-ENERGY",
-  "description": "Duke Energy Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19113,
+  "metadata" : {
+    "handle" : "DUKE-ENERGY",
+    "description" : "Duke Energy Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.134.240.0/23",
       "148.134.248.0/23",
       "159.110.0.0/19",
@@ -13,6 +16,6 @@
       "192.234.127.0/24",
       "192.234.128.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

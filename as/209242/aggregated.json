@@ -1,9 +1,12 @@
 {
-  "asn": 209242,
-  "handle": "CLOUDFLARESPECTRUM",
-  "description": "Cloudflare London LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209242,
+  "metadata" : {
+    "handle" : "CLOUDFLARESPECTRUM",
+    "description" : "Cloudflare London LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.10.244.0/22",
       "5.175.141.0/24",
       "5.182.84.0/23",
@@ -289,7 +292,7 @@
       "216.205.52.0/24",
       "223.27.176.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:503:ff40::/46",
       "2001:df7:6e80::/48",
       "2400:c760:a::/48",

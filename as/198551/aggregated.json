@@ -1,9 +1,12 @@
 {
-  "asn": 198551,
-  "handle": "REZOCEAN-AS",
-  "description": "REZOCEAN SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198551,
+  "metadata" : {
+    "handle" : "REZOCEAN-AS",
+    "description" : "REZOCEAN SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.93.180.0/22",
       "130.93.184.0/21",
       "185.76.0.0/22",
@@ -19,7 +22,7 @@
       "185.238.36.0/22",
       "212.84.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:dfc0::/29",
       "2a0a:d100::/29"
     ]

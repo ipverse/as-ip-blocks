@@ -1,16 +1,19 @@
 {
-  "asn": 48061,
-  "handle": "UMA-TECH-AS",
-  "description": "Limited Liability Company GPM Digital Technologies",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48061,
+  "metadata" : {
+    "handle" : "UMA-TECH-AS",
+    "description" : "Limited Liability Company GPM Digital Technologies",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.169.92.0/22",
       "91.207.58.0/23",
       "193.232.148.0/22",
       "194.190.76.0/23",
       "194.226.110.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:25d0::/48"
     ]
   }

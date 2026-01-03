@@ -1,9 +1,12 @@
 {
-  "asn": 205220,
-  "handle": "RHC-HOSTING",
-  "description": "RH \u0026 Co. IT Services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205220,
+  "metadata" : {
+    "handle" : "RHC-HOSTING",
+    "description" : "RH & Co. IT Services Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.10.219.0/24",
       "23.26.86.0/24",
       "23.26.123.0/24",
@@ -50,6 +53,6 @@
       "212.16.79.0/24",
       "216.107.130.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 34867,
-  "handle": "COSMONOVA-AS",
-  "description": "Cosmonova LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34867,
+  "metadata" : {
+    "handle" : "COSMONOVA-AS",
+    "description" : "Cosmonova LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.67.0.0/17",
       "185.48.196.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:17a0::/29"
     ]
   }

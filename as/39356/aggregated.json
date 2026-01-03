@@ -1,9 +1,12 @@
 {
-  "asn": 39356,
-  "handle": "AVANTI-UK-AS",
-  "description": "Avanti Broadband Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39356,
+  "metadata" : {
+    "handle" : "AVANTI-UK-AS",
+    "description" : "Avanti Broadband Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.111.252.0/22",
       "88.210.128.0/18",
       "164.215.108.0/24",
@@ -11,7 +14,7 @@
       "188.164.0.0/17",
       "196.47.95.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4a00::/32",
       "2c0f:eea8:8000::/36"
     ]

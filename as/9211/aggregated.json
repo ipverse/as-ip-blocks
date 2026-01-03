@@ -1,9 +1,12 @@
 {
-  "asn": 9211,
-  "handle": "WORK-AS",
-  "description": "Nawork Internet Informationssysteme GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9211,
+  "metadata" : {
+    "handle" : "WORK-AS",
+    "description" : "Nawork Internet Informationssysteme GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.24.96.0/21",
       "87.253.160.0/20",
       "87.253.190.0/23",
@@ -22,7 +25,7 @@
       "213.238.50.0/23",
       "213.238.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ea8::/32",
       "2a00:eab::/32"
     ]

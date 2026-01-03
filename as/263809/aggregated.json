@@ -1,9 +1,12 @@
 {
-  "asn": 263809,
-  "handle": "FACUNDO-VALENTINI",
-  "description": "Facundo Valentini (Vallenet)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263809,
+  "metadata" : {
+    "handle" : "FACUNDO-VALENTINI",
+    "description" : "Facundo Valentini (Vallenet)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.186.29.0/24",
       "45.186.30.0/23",
       "143.208.44.0/22",
@@ -12,6 +15,6 @@
       "190.92.111.0/24",
       "191.97.97.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

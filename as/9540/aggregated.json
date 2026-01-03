@@ -1,12 +1,15 @@
 {
-  "asn": 9540,
-  "handle": "VELOCIXLIMITED-AS-AP",
-  "description": "VELOCIX LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9540,
+  "metadata" : {
+    "handle" : "VELOCIXLIMITED-AS-AP",
+    "description" : "VELOCIX LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.131.48.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:100::/48"
     ]
   }

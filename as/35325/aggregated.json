@@ -1,15 +1,18 @@
 {
-  "asn": 35325,
-  "handle": "INCOMPLAST-SERVICE",
-  "description": "INCOMPLAST SERVICE LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35325,
+  "metadata" : {
+    "handle" : "INCOMPLAST-SERVICE",
+    "description" : "INCOMPLAST SERVICE LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.170.40.0/22",
       "185.208.228.0/22",
       "193.239.234.0/23",
       "194.187.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:3a80::/40"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 45973,
-  "handle": "KOTRA-AS",
-  "description": "KOTRA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45973,
+  "metadata" : {
+    "handle" : "KOTRA-AS",
+    "description" : "KOTRA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "125.131.31.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

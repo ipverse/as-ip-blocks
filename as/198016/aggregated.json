@@ -1,12 +1,15 @@
 {
-  "asn": 198016,
-  "handle": "KSS",
-  "description": "Michael Kieser",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198016,
+  "metadata" : {
+    "handle" : "KSS",
+    "description" : "Michael Kieser",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.31.214.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:54c7:2000::/36",
       "2a0e:b107:121::/48",
       "2a0e:b107:1970::/44",

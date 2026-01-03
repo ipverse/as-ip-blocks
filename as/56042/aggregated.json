@@ -1,9 +1,12 @@
 {
-  "asn": 56042,
-  "handle": "CMNET-SHANXI-AP",
-  "description": "China Mobile Communications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56042,
+  "metadata" : {
+    "handle" : "CMNET-SHANXI-AP",
+    "description" : "China Mobile Communications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.134.76.0/23",
       "36.137.12.0/23",
       "36.138.236.0/24",
@@ -51,7 +54,7 @@
       "223.160.140.0/23",
       "223.161.204.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2409:800c::/30",
       "2409:8087:c00::/38",
       "2409:870c::/30",

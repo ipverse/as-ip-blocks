@@ -1,12 +1,15 @@
 {
-  "asn": 22312,
-  "handle": "TECO-ENERGY",
-  "description": "TECO Energy LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22312,
+  "metadata" : {
+    "handle" : "TECO-ENERGY",
+    "description" : "TECO Energy LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.171.196.0/24",
       "66.35.152.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

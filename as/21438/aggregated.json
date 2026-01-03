@@ -1,9 +1,12 @@
 {
-  "asn": 21438,
-  "handle": "ECOM-KALUGA-AS",
-  "description": "Joint Stock Company TransTeleCom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21438,
+  "metadata" : {
+    "handle" : "ECOM-KALUGA-AS",
+    "description" : "Joint Stock Company TransTeleCom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.149.147.0/24",
       "5.149.148.0/24",
       "86.110.162.0/23",
@@ -15,6 +18,6 @@
       "178.76.206.0/24",
       "178.76.215.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

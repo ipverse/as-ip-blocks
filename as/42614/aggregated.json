@@ -1,11 +1,14 @@
 {
-  "asn": 42614,
-  "handle": "RADIO-NET-AS",
-  "description": "RadioNet SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42614,
+  "metadata" : {
+    "handle" : "RADIO-NET-AS",
+    "description" : "RadioNet SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.43.200.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

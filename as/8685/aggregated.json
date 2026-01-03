@@ -1,9 +1,12 @@
 {
-  "asn": 8685,
-  "handle": "DORUKNET",
-  "description": "Doruk Iletisim ve Otomasyon Sanayi ve Ticaret A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8685,
+  "metadata" : {
+    "handle" : "DORUKNET",
+    "description" : "Doruk Iletisim ve Otomasyon Sanayi ve Ticaret A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.135.102.0/24",
       "81.21.160.0/20",
       "82.151.128.0/19",
@@ -15,7 +18,7 @@
       "212.58.0.0/19",
       "213.155.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:480::/32"
     ]
   }

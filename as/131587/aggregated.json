@@ -1,12 +1,15 @@
 {
-  "asn": 131587,
-  "handle": "MEGABANK-ASN",
-  "description": "Mega International Commercial Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131587,
+  "metadata" : {
+    "handle" : "MEGABANK-ASN",
+    "description" : "Mega International Commercial Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.228.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:d580:a0::/47",
       "2400:d580:b0::/47"
     ]

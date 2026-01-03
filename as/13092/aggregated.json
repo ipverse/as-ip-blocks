@@ -1,14 +1,17 @@
 {
-  "asn": 13092,
-  "handle": "UB-AS",
-  "description": "Akademska mreza Republike Srbije - AMRES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13092,
+  "metadata" : {
+    "handle" : "UB-AS",
+    "description" : "Akademska mreza Republike Srbije - AMRES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.187.128.0/19",
       "147.91.0.0/16",
       "185.181.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4170::/32"
     ]
   }

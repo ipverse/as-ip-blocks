@@ -1,13 +1,16 @@
 {
-  "asn": 135333,
-  "handle": "AKCTV-AS-AP",
-  "description": "AKCTV Pte. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135333,
+  "metadata" : {
+    "handle" : "AKCTV-AS-AP",
+    "description" : "AKCTV Pte. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.121.239.0/24",
       "103.214.148.0/22",
       "124.109.16.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

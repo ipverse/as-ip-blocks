@@ -1,9 +1,12 @@
 {
-  "asn": 134912,
-  "handle": "CSPL-AS",
-  "description": "Comtel Services Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134912,
+  "metadata" : {
+    "handle" : "CSPL-AS",
+    "description" : "Comtel Services Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.69.168.0/22",
       "103.156.122.0/23",
       "103.177.180.0/24",
@@ -12,6 +15,6 @@
       "160.30.124.0/23",
       "165.101.174.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

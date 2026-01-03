@@ -1,9 +1,12 @@
 {
-  "asn": 5466,
-  "handle": "EIRCOM",
-  "description": "Eircom Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5466,
+  "metadata" : {
+    "handle" : "EIRCOM",
+    "description" : "Eircom Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "51.171.0.0/16",
       "62.77.160.0/19",
       "82.141.192.0/18",
@@ -30,7 +33,7 @@
       "213.191.224.0/21",
       "217.183.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:bb0::/29",
       "2a09:2140::/48",
       "2a09:2140:8000::/48"

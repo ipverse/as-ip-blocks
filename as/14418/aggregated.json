@@ -1,9 +1,12 @@
 {
-  "asn": 14418,
-  "handle": "DTCC-AS1",
-  "description": "Depository Trust \u0026 Clearing Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14418,
+  "metadata" : {
+    "handle" : "DTCC-AS1",
+    "description" : "Depository Trust & Clearing Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.188.44.0/24",
       "167.188.80.0/24",
       "167.188.84.0/24",
@@ -13,6 +16,6 @@
       "207.45.41.0/24",
       "207.45.42.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

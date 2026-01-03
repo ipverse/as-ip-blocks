@@ -1,9 +1,12 @@
 {
-  "asn": 395301,
-  "handle": "RESOUND-NET",
-  "description": "Resound Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395301,
+  "metadata" : {
+    "handle" : "RESOUND-NET",
+    "description" : "Resound Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.227.216.0/22",
       "27.121.114.0/23",
       "64.190.89.0/24",
@@ -18,7 +21,7 @@
       "209.172.4.0/24",
       "209.251.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:6380::/47",
       "2607:6380:4::/46",
       "2607:6380:8::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 10045,
-  "handle": "TNUTNET-AS",
-  "description": "Hanbat National University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10045,
+  "metadata" : {
+    "handle" : "TNUTNET-AS",
+    "description" : "Hanbat National University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.30.46.0/23",
       "203.230.96.0/21",
       "203.230.104.0/22",
@@ -18,6 +21,6 @@
       "223.194.160.0/22",
       "223.194.192.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

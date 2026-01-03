@@ -1,9 +1,12 @@
 {
-  "asn": 38320,
-  "handle": "MMS-AS-ID",
-  "description": "PT Maxindo Mitra Solusi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38320,
+  "metadata" : {
+    "handle" : "MMS-AS-ID",
+    "description" : "PT Maxindo Mitra Solusi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.247.12.0/22",
       "43.247.36.0/22",
       "103.5.107.0/24",
@@ -55,7 +58,7 @@
       "202.4.189.0/24",
       "203.173.89.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:3900:1::/48",
       "2404:3900:a92::/48",
       "2404:3900:1992::/48"

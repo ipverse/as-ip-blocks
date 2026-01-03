@@ -1,14 +1,17 @@
 {
-  "asn": 197862,
-  "handle": "NETFONE",
-  "description": "Netfone Telecom Tavkozlesi es Szolgaltato KFT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197862,
+  "metadata" : {
+    "handle" : "NETFONE",
+    "description" : "Netfone Telecom Tavkozlesi es Szolgaltato KFT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "176.32.200.0/21",
       "185.6.156.0/22",
       "185.71.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:3080::/29"
     ]
   }

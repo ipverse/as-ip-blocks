@@ -1,9 +1,12 @@
 {
-  "asn": 138915,
-  "handle": "KAOPU-HK",
-  "description": "Kaopu Cloud HK Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138915,
+  "metadata" : {
+    "handle" : "KAOPU-HK",
+    "description" : "Kaopu Cloud HK Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.0.132.0/22",
       "38.54.0.0/20",
       "38.54.16.0/22",
@@ -173,7 +176,7 @@
       "211.155.104.0/22",
       "211.155.115.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:a140:2::/47",
       "2404:a140:5::/48",
       "2404:a140:6::/47",

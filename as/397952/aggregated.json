@@ -1,14 +1,17 @@
 {
-  "asn": 397952,
-  "handle": "NEXSTREAM",
-  "description": "Nexstream",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397952,
+  "metadata" : {
+    "handle" : "NEXSTREAM",
+    "description" : "Nexstream",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.135.240.0/24",
       "158.51.107.0/24",
       "199.116.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:3dc0::/32"
     ]
   }

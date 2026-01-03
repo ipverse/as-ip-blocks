@@ -1,16 +1,19 @@
 {
-  "asn": 29470,
-  "handle": "RETNRU-MSK-AS",
-  "description": "JSC RetnNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29470,
+  "metadata" : {
+    "handle" : "RETNRU-MSK-AS",
+    "description" : "JSC RetnNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.46.128.0/19",
       "46.46.160.0/20",
       "46.46.176.0/21",
       "46.46.184.0/22",
       "139.45.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:24b0::/32"
     ]
   }

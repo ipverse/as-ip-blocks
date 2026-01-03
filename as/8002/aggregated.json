@@ -1,14 +1,17 @@
 {
-  "asn": 8002,
-  "handle": "STEALTH",
-  "description": "Stealth Communications Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8002,
+  "metadata" : {
+    "handle" : "STEALTH",
+    "description" : "Stealth Communications Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.68.29.0/24",
       "206.252.192.0/19",
       "207.251.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:458::/32"
     ]
   }

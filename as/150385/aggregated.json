@@ -1,12 +1,15 @@
 {
-  "asn": 150385,
-  "handle": "HKN-AS-AP",
-  "description": "Haider Khandakar Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150385,
+  "metadata" : {
+    "handle" : "HKN-AS-AP",
+    "description" : "Haider Khandakar Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.24.88.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:baa0::/32"
     ]
   }

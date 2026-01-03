@@ -1,12 +1,15 @@
 {
-  "asn": 207934,
-  "handle": "WNB-AS",
-  "description": "WNB A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207934,
+  "metadata" : {
+    "handle" : "WNB-AS",
+    "description" : "WNB A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.156.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:300::/31"
     ]
   }

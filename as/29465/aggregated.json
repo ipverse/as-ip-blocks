@@ -1,9 +1,12 @@
 {
-  "asn": 29465,
-  "handle": "VCG-AS",
-  "description": "MTN NIGERIA Communication limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29465,
+  "metadata" : {
+    "handle" : "VCG-AS",
+    "description" : "MTN NIGERIA Communication limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.206.0.0/19",
       "41.220.64.0/20",
       "83.143.8.0/21",
@@ -11,7 +14,7 @@
       "193.238.28.0/22",
       "197.210.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f5c0::/36"
     ]
   }

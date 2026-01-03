@@ -1,11 +1,14 @@
 {
-  "asn": 20833,
-  "handle": "ATL-AS",
-  "description": "TOB Atlantis Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20833,
+  "metadata" : {
+    "handle" : "ATL-AS",
+    "description" : "TOB Atlantis Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.24.242.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

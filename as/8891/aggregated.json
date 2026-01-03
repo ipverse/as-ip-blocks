@@ -1,16 +1,19 @@
 {
-  "asn": 8891,
-  "handle": "ORANGE-SA",
-  "description": "Orange S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8891,
+  "metadata" : {
+    "handle" : "ORANGE-SA",
+    "description" : "Orange S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.12.245.0/24",
       "80.12.246.0/24",
       "81.52.142.0/23",
       "193.252.133.0/24",
       "193.252.148.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:c9c0:a1::/48",
       "2a01:c9c0:a2::/47",
       "2a01:c9c0:a4::/46",

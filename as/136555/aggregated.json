@@ -1,12 +1,15 @@
 {
-  "asn": 136555,
-  "handle": "BKONLINE-AS-AP",
-  "description": "BK Online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136555,
+  "metadata" : {
+    "handle" : "BKONLINE-AS-AP",
+    "description" : "BK Online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.92.152.0/24",
       "103.92.154.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

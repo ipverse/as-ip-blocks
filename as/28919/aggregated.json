@@ -1,9 +1,12 @@
 {
-  "asn": 28919,
-  "handle": "STWKUFSTEIN-AS",
-  "description": "Stadtwerke Kufstein GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28919,
+  "metadata" : {
+    "handle" : "STWKUFSTEIN-AS",
+    "description" : "Stadtwerke Kufstein GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.223.0.0/22",
       "80.93.32.0/20",
       "86.111.56.0/22",
@@ -15,7 +18,7 @@
       "193.163.14.0/24",
       "213.182.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:c680::/29",
       "2a10:d100::/32"
     ]

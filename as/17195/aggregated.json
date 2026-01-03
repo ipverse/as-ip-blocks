@@ -1,9 +1,12 @@
 {
-  "asn": 17195,
-  "handle": "TAYLOR-CORPORATION",
-  "description": "Taylor Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17195,
+  "metadata" : {
+    "handle" : "TAYLOR-CORPORATION",
+    "description" : "Taylor Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.12.16.0/21",
       "198.12.24.0/24",
       "198.12.28.0/24",
@@ -13,6 +16,6 @@
       "216.62.100.0/24",
       "216.111.161.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

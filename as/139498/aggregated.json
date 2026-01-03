@@ -1,12 +1,15 @@
 {
-  "asn": 139498,
-  "handle": "SPEEDO-AS-IN",
-  "description": "Speedostar Telco Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139498,
+  "metadata" : {
+    "handle" : "SPEEDO-AS-IN",
+    "description" : "Speedostar Telco Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.145.18.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:7140::/32"
     ]
   }

@@ -1,12 +1,14 @@
 {
-  "asn": 138297,
-  "handle": "NETLINKW-AS",
-  "description": "Netlink Websolution Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
-      "103.130.64.0/23",
-      "103.130.66.0/24"
+  "asn" : 138297,
+  "metadata" : {
+    "handle" : "NETLINKW-AS",
+    "description" : "Netlink Websolution Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
+      "103.130.64.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

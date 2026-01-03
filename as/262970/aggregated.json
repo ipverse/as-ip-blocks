@@ -1,12 +1,15 @@
 {
-  "asn": 262970,
-  "handle": "TUDO-INTERNET",
-  "description": "Tudo Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262970,
+  "metadata" : {
+    "handle" : "TUDO-INTERNET",
+    "description" : "Tudo Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.219.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:eb8::/32"
     ]
   }

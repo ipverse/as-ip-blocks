@@ -1,15 +1,18 @@
 {
-  "asn": 139029,
-  "handle": "AKNETWORKS-AS-AP",
-  "description": "AKNetworks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139029,
+  "metadata" : {
+    "handle" : "AKNETWORKS-AS-AP",
+    "description" : "AKNetworks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.78.255.0/24",
       "103.138.171.0/24",
       "103.138.172.0/23",
       "103.191.163.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:6fc0::/45"
     ]
   }

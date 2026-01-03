@@ -1,9 +1,12 @@
 {
-  "asn": 18159,
-  "handle": "NETSPEED-AS-AP",
-  "description": "Netspeed Data Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18159,
+  "metadata" : {
+    "handle" : "NETSPEED-AS-AP",
+    "description" : "Netspeed Data Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.26.16.0/23",
       "103.233.20.0/22",
       "110.92.16.0/22",
@@ -12,6 +15,6 @@
       "202.27.108.0/23",
       "202.49.123.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

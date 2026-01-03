@@ -1,9 +1,12 @@
 {
-  "asn": 139994,
-  "handle": "XLNET-FTTH-ID",
-  "description": "PT XL Axiata Tbk",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139994,
+  "metadata" : {
+    "handle" : "XLNET-FTTH-ID",
+    "description" : "PT XL Axiata Tbk",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.3.220.0/22",
       "140.213.1.0/24",
       "140.213.3.0/24",
@@ -23,7 +26,7 @@
       "157.85.210.0/23",
       "157.85.212.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:9800:6030::/45",
       "2400:9800:6040::/46",
       "2400:9800:6050::/46",

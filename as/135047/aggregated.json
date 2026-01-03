@@ -1,9 +1,12 @@
 {
-  "asn": 135047,
-  "handle": "DDNZL-AS-AP",
-  "description": "NTT NEW ZEALAND LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135047,
+  "metadata" : {
+    "handle" : "DDNZL-AS-AP",
+    "description" : "NTT NEW ZEALAND LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "180.210.209.0/24",
       "180.210.210.0/23",
       "202.8.13.0/24",
@@ -12,6 +15,6 @@
       "202.50.165.0/24",
       "210.48.174.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

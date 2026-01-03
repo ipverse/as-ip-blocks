@@ -1,14 +1,17 @@
 {
-  "asn": 398826,
-  "handle": "OLINK-CLOUD",
-  "description": "OLink Cloud LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398826,
+  "metadata" : {
+    "handle" : "OLINK-CLOUD",
+    "description" : "OLink Cloud LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.160.18.0/23",
       "104.160.20.0/23",
       "172.82.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f358:25::/48",
       "2a02:7080::/48"
     ]

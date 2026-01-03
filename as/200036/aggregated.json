@@ -1,12 +1,15 @@
 {
-  "asn": 200036,
-  "handle": "CITYNET",
-  "description": "Niccolo Pietrobon",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200036,
+  "metadata" : {
+    "handle" : "CITYNET",
+    "description" : "Niccolo Pietrobon",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.159.195.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:d8c6::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 37501,
-  "handle": "UOFS",
-  "description": "University of the Free State",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37501,
+  "metadata" : {
+    "handle" : "UOFS",
+    "description" : "University of the Free State",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.182.0.0/16",
       "196.21.40.0/24",
       "196.21.158.0/23",
@@ -11,7 +14,7 @@
       "196.21.184.0/24",
       "196.254.0.0/15"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4200:5000::/48",
       "2001:43f8:770::/46"
     ]

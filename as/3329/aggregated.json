@@ -1,9 +1,12 @@
 {
-  "asn": 3329,
-  "handle": "HOL-GR",
-  "description": "VODAFONE-PANAFON HELLENIC TELECOMMUNICATIONS COMPANY SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3329,
+  "metadata" : {
+    "handle" : "HOL-GR",
+    "description" : "VODAFONE-PANAFON HELLENIC TELECOMMUNICATIONS COMPANY SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.54.0.0/15",
       "31.14.168.0/21",
       "31.14.208.0/21",
@@ -59,7 +62,7 @@
       "195.97.0.0/17",
       "213.249.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:8f0::/30",
       "2a01:830::/31",
       "2a01:8c8::/32",

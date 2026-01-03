@@ -1,12 +1,15 @@
 {
-  "asn": 271802,
-  "handle": "ASOCIACION-CANAL-LOCAL",
-  "description": "ASOCIACION CANAL LOCAL DE TELEVISION DE MEDELLIN TELEMEDELLIN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271802,
+  "metadata" : {
+    "handle" : "ASOCIACION-CANAL-LOCAL",
+    "description" : "ASOCIACION CANAL LOCAL DE TELEVISION DE MEDELLIN TELEMEDELLIN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.126.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:19:a800::/48"
     ]
   }

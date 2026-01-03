@@ -1,13 +1,16 @@
 {
-  "asn": 27952,
-  "handle": "BANCO-CENTRAL-CHILE",
-  "description": "Banco Central de Chile",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27952,
+  "metadata" : {
+    "handle" : "BANCO-CENTRAL-CHILE",
+    "description" : "Banco Central de Chile",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.238.212.0/24",
       "160.238.214.0/23",
       "200.10.182.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

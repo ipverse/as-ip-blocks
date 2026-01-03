@@ -1,12 +1,15 @@
 {
-  "asn": 265199,
-  "handle": "PROVEDOR-CARIRI-CONECT",
-  "description": "PROVEDOR CARIRI CONECT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265199,
+  "metadata" : {
+    "handle" : "PROVEDOR-CARIRI-CONECT",
+    "description" : "PROVEDOR CARIRI CONECT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.250.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2c28::/32"
     ]
   }

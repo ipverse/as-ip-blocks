@@ -1,9 +1,12 @@
 {
-  "asn": 29076,
-  "handle": "CITYTELECOM-AS",
-  "description": "Citytelecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29076,
+  "metadata" : {
+    "handle" : "CITYTELECOM-AS",
+    "description" : "Citytelecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.28.0.0/19",
       "37.202.12.0/23",
       "37.202.15.0/24",
@@ -49,7 +52,7 @@
       "213.184.152.0/23",
       "217.65.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:13c0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 36831,
-  "handle": "XAVIER-UNIVERSITY",
-  "description": "Xavier University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36831,
+  "metadata" : {
+    "handle" : "BRISTOL-TENNESSEE-ESSENTIAL",
+    "description" : "Bristol Tennessee Essential Services",
+    "origin" : "inferred"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.153.34.0/24",
       "198.30.56.0/21",
       "198.30.160.0/21",
@@ -13,6 +16,6 @@
       "206.21.160.0/21",
       "206.21.168.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

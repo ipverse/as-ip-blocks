@@ -1,13 +1,16 @@
 {
-  "asn": 271596,
-  "handle": "MAXNET-TELECOM",
-  "description": "MaxNet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271596,
+  "metadata" : {
+    "handle" : "MAXNET-TELECOM",
+    "description" : "MaxNet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.99.80.0/23",
       "190.9.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7e00::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 137469,
-  "handle": "SIGNIFYLIMITED-AS-AP",
-  "description": "Signify Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137469,
+  "metadata" : {
+    "handle" : "SIGNIFYLIMITED-AS-AP",
+    "description" : "Signify Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.109.246.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:5300::/48"
     ]
   }

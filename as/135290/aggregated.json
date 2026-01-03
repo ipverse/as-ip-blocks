@@ -1,12 +1,15 @@
 {
-  "asn": 135290,
-  "handle": "SAN-AS-AP",
-  "description": "Server \u0026 Networking Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135290,
+  "metadata" : {
+    "handle" : "SAN-AS-AP",
+    "description" : "Server & Networking Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.212.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:b680::/32"
     ]
   }

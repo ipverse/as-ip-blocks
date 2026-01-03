@@ -1,9 +1,12 @@
 {
-  "asn": 266732,
-  "handle": "FIBERTEL-PERU",
-  "description": "FIBERTEL PERU S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266732,
+  "metadata" : {
+    "handle" : "FIBERTEL-PERU",
+    "description" : "FIBERTEL PERU S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.172.194.0/24",
       "45.231.72.0/22",
       "161.132.162.0/23",
@@ -15,7 +18,7 @@
       "161.132.178.0/24",
       "161.132.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:b320::/32"
     ]
   }

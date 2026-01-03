@@ -1,9 +1,12 @@
 {
-  "asn": 48832,
-  "handle": "ZAIN-JO",
-  "description": "Jordanian mobile phone services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48832,
+  "metadata" : {
+    "handle" : "ZAIN-JO",
+    "description" : "Jordanian mobile phone services Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.123.85.0/24",
       "46.32.96.0/19",
       "77.245.0.0/20",
@@ -15,7 +18,7 @@
       "185.109.192.0/22",
       "188.247.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:6b00::/40",
       "2a03:6b01::/33",
       "2a03:6b01:8000::/34",

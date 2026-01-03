@@ -1,9 +1,12 @@
 {
-  "asn": 43832,
-  "handle": "RIPN-NS5-RU-MSK",
-  "description": "Join-stock company Internet ExchangeMSK-IX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43832,
+  "metadata" : {
+    "handle" : "RIPN-NS5-RU-MSK",
+    "description" : "Join-stock company Internet ExchangeMSK-IX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.76.62.0/24",
       "62.76.76.0/24",
       "193.232.93.0/24",
@@ -16,7 +19,7 @@
       "194.190.168.0/24",
       "194.226.75.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:17::/48",
       "2001:67c:1442::/48",
       "2001:67c:1444::/48",

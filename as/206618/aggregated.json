@@ -1,9 +1,12 @@
 {
-  "asn": 206618,
-  "handle": "VOLKSWAGEN",
-  "description": "Volkswagen AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206618,
+  "metadata" : {
+    "handle" : "VOLKSWAGEN",
+    "description" : "Volkswagen AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.163.22.0/24",
       "143.163.66.0/23",
       "193.23.96.0/24",
@@ -24,7 +27,7 @@
       "194.114.125.0/24",
       "194.114.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:4dc0::/42"
     ]
   }

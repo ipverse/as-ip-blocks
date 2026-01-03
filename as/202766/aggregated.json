@@ -1,9 +1,12 @@
 {
-  "asn": 202766,
-  "handle": "AS-FORMER-CODINET",
-  "description": "LYNTIA NETWORKS S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202766,
+  "metadata" : {
+    "handle" : "AS-FORMER-CODINET",
+    "description" : "LYNTIA NETWORKS S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.83.50.0/23",
       "80.66.112.0/22",
       "80.66.117.0/24",
@@ -57,6 +60,6 @@
       "213.170.52.0/24",
       "213.192.192.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 17762,
-  "handle": "HTIL-TTML-IN-AP",
-  "description": "Tata Teleservices (Maharashtra) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17762,
+  "metadata" : {
+    "handle" : "HTIL-TTML-IN-AP",
+    "description" : "Tata Teleservices (Maharashtra) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.96.1.0/24",
       "14.96.70.0/23",
       "14.96.192.0/20",
@@ -49,7 +52,7 @@
       "202.149.254.0/24",
       "202.189.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:d400::/32",
       "2403:8600:c0::/44"
     ]

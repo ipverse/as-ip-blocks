@@ -1,12 +1,15 @@
 {
-  "asn": 6406,
-  "handle": "CEBAF",
-  "description": "Thomas Jefferson National Accelerator Facility",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6406,
+  "metadata" : {
+    "handle" : "CEBAF",
+    "description" : "Thomas Jefferson National Accelerator Facility",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.57.0.0/16",
       "192.70.245.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

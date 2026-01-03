@@ -1,13 +1,16 @@
 {
-  "asn": 151815,
-  "handle": "DIRECTNET7PVTLTD-AS-AP",
-  "description": "DIRECT NET7 PVT LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151815,
+  "metadata" : {
+    "handle" : "DIRECTNET7PVTLTD-AS-AP",
+    "description" : "DIRECT NET7 PVT LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.140.110.0/23",
       "202.134.176.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:3ae0::/32"
     ]
   }

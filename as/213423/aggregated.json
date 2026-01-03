@@ -1,10 +1,13 @@
 {
-  "asn": 213423,
-  "handle": "HAITSE",
-  "description": "Lukas Hagen",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 213423,
+  "metadata" : {
+    "handle" : "HAITSE",
+    "description" : "Lukas Hagen",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a04:5b81:2061::/48",
       "2a04:5b81:21d0::/44"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 49572,
-  "handle": "FCN",
-  "description": "Fujitsu Services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49572,
+  "metadata" : {
+    "handle" : "FCN",
+    "description" : "Fujitsu Services Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.60.0.0/17",
       "164.36.38.0/23",
       "164.36.44.0/23",
@@ -11,7 +14,7 @@
       "164.36.50.0/23",
       "194.176.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:7280::/32"
     ]
   }

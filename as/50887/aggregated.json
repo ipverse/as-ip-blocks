@@ -1,15 +1,18 @@
 {
-  "asn": 50887,
-  "handle": "DCFH-AS",
-  "description": "DC FIBER HOME SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50887,
+  "metadata" : {
+    "handle" : "DCFH-AS",
+    "description" : "DC FIBER HOME SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.96.8.0/23",
       "81.181.204.0/23",
       "85.120.240.0/23",
       "188.214.31.0/24",
       "217.156.70.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

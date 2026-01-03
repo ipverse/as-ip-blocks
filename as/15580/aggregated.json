@@ -1,9 +1,12 @@
 {
-  "asn": 15580,
-  "handle": "ALLIANZ-TECHNOLOGY-SE",
-  "description": "Allianz Technology SE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15580,
+  "metadata" : {
+    "handle" : "ALLIANZ-TECHNOLOGY-SE",
+    "description" : "Allianz Technology SE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.29.52.0/24",
       "193.58.222.0/23",
       "193.108.175.0/24",
@@ -25,7 +28,7 @@
       "194.127.76.0/24",
       "194.127.88.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6f8::/32"
     ]
   }

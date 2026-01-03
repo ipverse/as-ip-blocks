@@ -1,9 +1,12 @@
 {
-  "asn": 201825,
-  "handle": "RUSPHONE-AS",
-  "description": "LLC ER-Telecom Moscow",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201825,
+  "metadata" : {
+    "handle" : "RUSPHONE-AS",
+    "description" : "LLC ER-Telecom Moscow",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.230.237.0/24",
       "89.17.33.0/24",
       "89.17.35.0/24",
@@ -17,7 +20,7 @@
       "217.15.56.0/23",
       "217.15.62.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:f240::/29"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 1351,
-  "handle": "UVM-EDU-AS",
-  "description": "University of Vermont",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1351,
+  "metadata" : {
+    "handle" : "UVM-EDU-AS",
+    "description" : "University of Vermont",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.198.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:104:e000::/40"
     ]
   }

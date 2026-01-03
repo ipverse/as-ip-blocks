@@ -1,13 +1,16 @@
 {
-  "asn": 200108,
-  "handle": "NEMO-AS",
-  "description": "Nemo S.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200108,
+  "metadata" : {
+    "handle" : "NEMO-AS",
+    "description" : "Nemo S.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.117.235.0/24",
       "154.60.204.0/22",
       "185.37.44.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

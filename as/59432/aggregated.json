@@ -1,9 +1,12 @@
 {
-  "asn": 59432,
-  "handle": "GINERNET",
-  "description": "GINERNET S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59432,
+  "metadata" : {
+    "handle" : "GINERNET",
+    "description" : "GINERNET S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.134.112.0/21",
       "31.42.123.0/24",
       "31.56.82.0/24",
@@ -26,7 +29,7 @@
       "188.213.4.0/22",
       "193.111.116.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:c7c0::/31"
     ]
   }

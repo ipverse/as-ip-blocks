@@ -1,12 +1,15 @@
 {
-  "asn": 14337,
-  "handle": "CVMIN-AS1",
-  "description": "CVM INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14337,
+  "metadata" : {
+    "handle" : "CVMIN-AS1",
+    "description" : "CVM INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.227.111.0/24",
       "69.195.42.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

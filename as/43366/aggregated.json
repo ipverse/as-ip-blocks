@@ -1,9 +1,12 @@
 {
-  "asn": 43366,
-  "handle": "OSSO",
-  "description": "OSSO B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43366,
+  "metadata" : {
+    "handle" : "OSSO",
+    "description" : "OSSO B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.194.224.0/23",
       "185.12.144.0/22",
       "185.37.124.0/22",
@@ -13,7 +16,7 @@
       "195.88.160.0/23",
       "217.21.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8080::/32",
       "2a05:6c80::/29",
       "2a07:b440::/29"

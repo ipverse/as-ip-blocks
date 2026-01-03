@@ -1,9 +1,12 @@
 {
-  "asn": 397672,
-  "handle": "AS-WYOMINGWIRELESS",
-  "description": "Wyoming Wireless Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397672,
+  "metadata" : {
+    "handle" : "AS-WYOMINGWIRELESS",
+    "description" : "Wyoming Wireless Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.173.224.0/23",
       "67.130.74.0/24",
       "136.175.157.0/24",
@@ -11,7 +14,7 @@
       "204.131.236.0/24",
       "204.132.112.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe06::/36"
     ]
   }

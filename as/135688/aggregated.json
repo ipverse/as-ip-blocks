@@ -1,12 +1,15 @@
 {
-  "asn": 135688,
-  "handle": "BESTIN-AS-IN",
-  "description": "Best IT Centre",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135688,
+  "metadata" : {
+    "handle" : "BESTIN-AS-IN",
+    "description" : "Best IT Centre",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.66.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:2a40::/48"
     ]
   }

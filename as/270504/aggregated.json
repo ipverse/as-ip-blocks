@@ -1,13 +1,16 @@
 {
-  "asn": 270504,
-  "handle": "GERA-NET-PROVEDOR-ACESSO",
-  "description": "Gera-Net Provedor de Acesso",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270504,
+  "metadata" : {
+    "handle" : "GERA-NET-PROVEDOR-ACESSO",
+    "description" : "Gera-Net Provedor de Acesso",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.152.112.0/23",
       "24.152.115.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6cf8::/32"
     ]
   }

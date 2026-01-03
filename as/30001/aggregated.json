@@ -1,11 +1,14 @@
 {
-  "asn": 30001,
-  "handle": "TECHEVOLUTION",
-  "description": "Techevolution",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30001,
+  "metadata" : {
+    "handle" : "TECHEVOLUTION",
+    "description" : "Techevolution",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.64.160.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

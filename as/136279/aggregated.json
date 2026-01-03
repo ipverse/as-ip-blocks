@@ -1,13 +1,16 @@
 {
-  "asn": 136279,
-  "handle": "GLO1-AS-IN",
-  "description": "Glo Internet Services Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136279,
+  "metadata" : {
+    "handle" : "GLO1-AS-IN",
+    "description" : "Glo Internet Services Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.84.178.0/24",
       "103.174.117.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:46e0::/32"
     ]
   }

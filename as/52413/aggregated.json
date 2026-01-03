@@ -1,12 +1,15 @@
 {
-  "asn": 52413,
-  "handle": "MADACOM",
-  "description": "MADACOM SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52413,
+  "metadata" : {
+    "handle" : "MADACOM",
+    "description" : "MADACOM SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "201.220.16.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:8900::/32"
     ]
   }

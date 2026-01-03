@@ -1,9 +1,12 @@
 {
-  "asn": 33293,
-  "handle": "BROADVOICE-LAX",
-  "description": "SYNDEO LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33293,
+  "metadata" : {
+    "handle" : "BROADVOICE-LAX",
+    "description" : "SYNDEO LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.81.116.0/22",
       "206.15.136.0/23",
       "206.15.150.0/23",
@@ -13,6 +16,6 @@
       "206.15.174.0/23",
       "216.126.204.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

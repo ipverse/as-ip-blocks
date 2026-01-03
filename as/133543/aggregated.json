@@ -1,12 +1,15 @@
 {
-  "asn": 133543,
-  "handle": "DTACTRINET-AS-AP",
-  "description": "DTAC TriNet Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133543,
+  "metadata" : {
+    "handle" : "DTACTRINET-AS-AP",
+    "description" : "DTAC TriNet Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "115.67.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:8d06:2000::/40",
       "2404:8d06:4000::/40",
       "2404:8d06:6000::/40",

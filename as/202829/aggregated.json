@@ -1,9 +1,12 @@
 {
-  "asn": 202829,
-  "handle": "WSP-AS1",
-  "description": "Luis Sanchez Martin",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202829,
+  "metadata" : {
+    "handle" : "WSP-AS1",
+    "description" : "Luis Sanchez Martin",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.13.24.0/22",
       "149.36.232.0/22",
       "185.152.188.0/22",
@@ -12,6 +15,6 @@
       "194.11.25.0/24",
       "194.11.83.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

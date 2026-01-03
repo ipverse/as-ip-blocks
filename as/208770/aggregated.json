@@ -1,9 +1,12 @@
 {
-  "asn": 208770,
-  "handle": "IM-GREACON",
-  "description": "Greacon Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208770,
+  "metadata" : {
+    "handle" : "IM-GREACON",
+    "description" : "Greacon Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.85.196.0/22",
       "45.136.44.0/22",
       "45.145.76.0/22",
@@ -12,6 +15,6 @@
       "183.177.112.0/21",
       "195.80.32.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

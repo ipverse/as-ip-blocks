@@ -1,9 +1,12 @@
 {
-  "asn": 23700,
-  "handle": "FASTNET-AS-ID",
-  "description": "Linknet-Fastnet ASN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23700,
+  "metadata" : {
+    "handle" : "FASTNET-AS-ID",
+    "description" : "Linknet-Fastnet ASN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.247.0.0/18",
       "96.7.60.0/22",
       "111.94.0.0/15",
@@ -25,7 +28,7 @@
       "184.51.116.0/22",
       "202.73.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:5600::/32"
     ]
   }

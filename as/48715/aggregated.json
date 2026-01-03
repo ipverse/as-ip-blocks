@@ -1,9 +1,12 @@
 {
-  "asn": 48715,
-  "handle": "SEFROYEKPARDAZENG-AS",
-  "description": "Sefroyek Pardaz Engineering PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48715,
+  "metadata" : {
+    "handle" : "SEFROYEKPARDAZENG-AS",
+    "description" : "Sefroyek Pardaz Engineering PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.110.120.0/22",
       "80.71.149.0/24",
       "85.133.140.0/24",
@@ -35,7 +38,7 @@
       "195.110.38.0/23",
       "195.211.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:5e80::/48"
     ]
   }

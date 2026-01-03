@@ -1,13 +1,16 @@
 {
-  "asn": 8892,
-  "handle": "SKLNK",
-  "description": "UAB Skylink LT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8892,
+  "metadata" : {
+    "handle" : "SKLNK",
+    "description" : "UAB Skylink LT.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.216.46.0/24",
       "193.8.246.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:b2c0:2::/48"
     ]
   }

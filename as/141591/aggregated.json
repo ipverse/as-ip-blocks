@@ -1,12 +1,15 @@
 {
-  "asn": 141591,
-  "handle": "IDNIC-BANDA-AS-ID",
-  "description": "PT Banda Telekomunikasi Perkasa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141591,
+  "metadata" : {
+    "handle" : "IDNIC-BANDA-AS-ID",
+    "description" : "PT Banda Telekomunikasi Perkasa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.159.62.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:8640:bda::/48"
     ]
   }

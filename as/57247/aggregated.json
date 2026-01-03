@@ -1,13 +1,16 @@
 {
-  "asn": 57247,
-  "handle": "MOTUS",
-  "description": "Stratu A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57247,
+  "metadata" : {
+    "handle" : "MOTUS",
+    "description" : "Stratu A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.189.118.0/23",
       "194.116.230.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:4680::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 2116,
-  "handle": "GLOBALCONNECT-NO",
-  "description": "GLOBALCONNECT AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2116,
+  "metadata" : {
+    "handle" : "GLOBALCONNECT-NO",
+    "description" : "GLOBALCONNECT AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.22.232.0/22",
       "31.185.24.0/21",
       "37.191.128.0/17",
@@ -135,7 +138,7 @@
       "217.118.32.0/19",
       "217.144.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:514::/48",
       "2001:67c:b74::/48",
       "2001:840::/29",

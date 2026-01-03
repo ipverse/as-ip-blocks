@@ -1,12 +1,15 @@
 {
-  "asn": 42969,
-  "handle": "ALPHASTRIKE",
-  "description": "Alpha Strike Labs GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42969,
+  "metadata" : {
+    "handle" : "ALPHASTRIKE",
+    "description" : "Alpha Strike Labs GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.187.179.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:7b86:ffff::/48",
       "2a0e:7b87::/32"
     ]

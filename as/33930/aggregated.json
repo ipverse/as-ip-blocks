@@ -1,9 +1,12 @@
 {
-  "asn": 33930,
-  "handle": "CLOUD-TEMPLE",
-  "description": "Cloud Temple SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33930,
+  "metadata" : {
+    "handle" : "CLOUD-TEMPLE",
+    "description" : "Cloud Temple SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.15.212.0/22",
       "80.75.152.0/21",
       "91.223.207.0/24",
@@ -11,7 +14,7 @@
       "185.56.204.0/22",
       "194.6.240.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:668::/36",
       "2a02:668:9000::/36"
     ]

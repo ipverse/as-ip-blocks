@@ -1,12 +1,15 @@
 {
-  "asn": 47373,
-  "handle": "GETZNER-AS",
-  "description": "Getzner Werkstoffe GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47373,
+  "metadata" : {
+    "handle" : "GETZNER-AS",
+    "description" : "Getzner Werkstoffe GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.134.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:8440::/29"
     ]
   }

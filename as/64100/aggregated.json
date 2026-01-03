@@ -1,13 +1,16 @@
 {
-  "asn": 64100,
-  "handle": "PRIVATEL",
-  "description": "PRIVATEL S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64100,
+  "metadata" : {
+    "handle" : "PRIVATEL",
+    "description" : "PRIVATEL S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.84.232.0/23",
       "170.84.234.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:db40::/47",
       "2803:db40:2::/48"
     ]

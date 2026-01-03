@@ -1,12 +1,15 @@
 {
-  "asn": 150487,
-  "handle": "IDNIC-NASATEL-AS-ID",
-  "description": "NASATEL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150487,
+  "metadata" : {
+    "handle" : "IDNIC-NASATEL-AS-ID",
+    "description" : "NASATEL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.55.28.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:b9c0::/48"
     ]
   }

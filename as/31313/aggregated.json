@@ -1,9 +1,12 @@
 {
-  "asn": 31313,
-  "handle": "STS",
-  "description": "Serviciul de Telecomunicatii Speciale",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31313,
+  "metadata" : {
+    "handle" : "STS",
+    "description" : "Serviciul de Telecomunicatii Speciale",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.96.3.0/24",
       "80.96.186.0/24",
       "80.96.226.0/24",
@@ -43,7 +46,7 @@
       "203.25.143.0/24",
       "213.177.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:5dc0::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 11215,
-  "handle": "LOGIXCOMM-AS",
-  "description": "Logix",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11215,
+  "metadata" : {
+    "handle" : "LOGIXCOMM-AS",
+    "description" : "Logix",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.64.0.0/18",
       "66.196.192.0/18",
       "67.200.128.0/17",
@@ -20,6 +23,6 @@
       "216.201.128.0/17",
       "216.215.64.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

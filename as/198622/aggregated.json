@@ -1,15 +1,18 @@
 {
-  "asn": 198622,
-  "handle": "ADFORM",
-  "description": "Adform A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198622,
+  "metadata" : {
+    "handle" : "ADFORM",
+    "description" : "Adform A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.157.0.0/21",
       "185.84.60.0/24",
       "185.167.164.0/22",
       "213.252.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:80e:c002::/47",
       "2602:80e:c004::/47",
       "2a0b:7e00::/36",

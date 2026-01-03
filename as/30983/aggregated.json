@@ -1,14 +1,17 @@
 {
-  "asn": 30983,
-  "handle": "MARWAN-AS",
-  "description": "CNRST (Centre National pour la Recherche Scientifique et Technique)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30983,
+  "metadata" : {
+    "handle" : "MARWAN-AS",
+    "description" : "CNRST (Centre National pour la Recherche Scientifique et Technique)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "105.73.96.0/22",
       "196.12.203.0/24",
       "196.200.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4310::/32"
     ]
   }

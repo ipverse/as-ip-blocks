@@ -1,9 +1,12 @@
 {
-  "asn": 151499,
-  "handle": "APANAI-AS-AP",
-  "description": "APANA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151499,
+  "metadata" : {
+    "handle" : "APANAI-AS-AP",
+    "description" : "APANA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.188.107.0/24",
       "202.12.87.0/24",
       "202.12.88.0/23",
@@ -15,6 +18,6 @@
       "203.14.158.0/23",
       "203.27.126.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 62359,
-  "handle": "SDN-3QMEDIENGMBH",
-  "description": "3Q GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62359,
+  "metadata" : {
+    "handle" : "SDN-3QMEDIENGMBH",
+    "description" : "3Q GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.58.30.0/23",
       "91.242.173.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:6d8::/48",
       "2a01:4a0:5::/48",
       "2a14:30c0:1::/48",

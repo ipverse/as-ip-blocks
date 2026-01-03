@@ -1,9 +1,12 @@
 {
-  "asn": 399672,
-  "handle": "AERVIVO",
-  "description": "Aervivo Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399672,
+  "metadata" : {
+    "handle" : "AERVIVO",
+    "description" : "Aervivo Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.58.80.0/23",
       "69.58.83.0/24",
       "69.58.84.0/22",
@@ -16,7 +19,7 @@
       "173.211.125.0/24",
       "198.1.236.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:ef40::/39",
       "2606:ef40:200::/40",
       "2606:ef40:4000::/39",

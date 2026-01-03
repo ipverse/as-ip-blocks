@@ -1,9 +1,12 @@
 {
-  "asn": 197726,
-  "handle": "UKRNAMES-AS",
-  "description": "Ukrainian Internet Names Center LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197726,
+  "metadata" : {
+    "handle" : "UKRNAMES-AS",
+    "description" : "Ukrainian Internet Names Center LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.231.84.0/22",
       "185.112.12.0/22",
       "193.9.28.0/24",
@@ -16,7 +19,7 @@
       "212.86.110.0/23",
       "212.86.113.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:128:2::/48"
     ]
   }

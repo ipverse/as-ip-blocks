@@ -1,9 +1,12 @@
 {
-  "asn": 60855,
-  "handle": "DISIC-RIE-AS",
-  "description": "LA DIRECTION INTERMINISTERIELLE DU NUMERIQUE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60855,
+  "metadata" : {
+    "handle" : "DISIC-RIE-AS",
+    "description" : "LA DIRECTION INTERMINISTERIELLE DU NUMERIQUE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.126.100.0/24",
       "143.126.203.0/24",
       "143.126.211.0/24",
@@ -35,6 +38,6 @@
       "194.5.172.0/23",
       "195.42.231.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

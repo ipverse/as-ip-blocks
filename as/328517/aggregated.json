@@ -1,13 +1,16 @@
 {
-  "asn": 328517,
-  "handle": "INFINITY-WIRELESS-AS",
-  "description": "Infinity Wireless",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328517,
+  "metadata" : {
+    "handle" : "INFINITY-WIRELESS-AS",
+    "description" : "Infinity Wireless",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.69.208.0/22",
       "102.212.224.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:7f80::/32"
     ]
   }

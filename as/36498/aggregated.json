@@ -1,9 +1,12 @@
 {
-  "asn": 36498,
-  "handle": "ACCESS-ONE-INC-AS",
-  "description": "Access One Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36498,
+  "metadata" : {
+    "handle" : "ACCESS-ONE-INC-AS",
+    "description" : "Access One Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.65.196.0/22",
       "38.65.200.0/23",
       "38.89.228.0/23",
@@ -31,6 +34,6 @@
       "172.81.140.0/22",
       "208.37.110.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

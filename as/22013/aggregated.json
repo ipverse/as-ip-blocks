@@ -1,15 +1,18 @@
 {
-  "asn": 22013,
-  "handle": "GUARD-DC1",
-  "description": "Guardian Analytics Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22013,
+  "metadata" : {
+    "handle" : "GUARD-DC1",
+    "description" : "Guardian Analytics Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.128.130.0/24",
       "63.128.170.0/24",
       "205.139.142.0/24",
       "205.139.154.0/24",
       "205.140.227.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

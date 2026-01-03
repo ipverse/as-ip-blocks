@@ -1,15 +1,18 @@
 {
-  "asn": 207592,
-  "handle": "GOENET",
-  "description": "Gesellschaft fuer wissenschaftliche Datenverarbeitung mbH Goettingen",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207592,
+  "metadata" : {
+    "handle" : "GOENET",
+    "description" : "Gesellschaft fuer wissenschaftliche Datenverarbeitung mbH Goettingen",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.76.0.0/16",
       "141.5.96.0/19",
       "192.129.15.0/24",
       "195.12.38.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:d480:700::/42",
       "2a06:93c0::/29"
     ]

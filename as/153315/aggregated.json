@@ -1,12 +1,15 @@
 {
-  "asn": 153315,
-  "handle": "UNIBEAM-AS-AP",
-  "description": "Unibeam Networks Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153315,
+  "metadata" : {
+    "handle" : "UNIBEAM-AS-AP",
+    "description" : "Unibeam Networks Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.40.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:c0e0::/40"
     ]
   }

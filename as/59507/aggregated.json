@@ -1,15 +1,18 @@
 {
-  "asn": 59507,
-  "handle": "TLN-AS",
-  "description": "terralink networks GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59507,
+  "metadata" : {
+    "handle" : "TLN-AS",
+    "description" : "terralink networks GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.159.56.0/21",
       "5.159.64.0/21",
       "5.159.72.0/22",
       "185.88.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:79c0::/29"
     ]
   }

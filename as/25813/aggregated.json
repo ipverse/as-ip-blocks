@@ -1,9 +1,12 @@
 {
-  "asn": 25813,
-  "handle": "EXELA-25813",
-  "description": "HOV Services Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25813,
+  "metadata" : {
+    "handle" : "EXELA-25813",
+    "description" : "HOV Services Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.252.0.0/21",
       "198.70.2.0/23",
       "198.200.246.0/24",
@@ -19,6 +22,6 @@
       "216.9.116.0/24",
       "216.9.120.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

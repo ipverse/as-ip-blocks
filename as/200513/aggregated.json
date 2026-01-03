@@ -1,9 +1,12 @@
 {
-  "asn": 200513,
-  "handle": "STM-NVR",
-  "description": "Service Terminal Media LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200513,
+  "metadata" : {
+    "handle" : "STM-NVR",
+    "description" : "Service Terminal Media LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.188.245.0/24",
       "91.235.220.0/24",
       "146.19.27.0/24",
@@ -15,7 +18,7 @@
       "195.208.172.0/23",
       "195.245.244.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:2780::/46"
     ]
   }

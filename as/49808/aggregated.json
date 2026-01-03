@@ -1,9 +1,12 @@
 {
-  "asn": 49808,
-  "handle": "POWERSPEED-AS",
-  "description": "Energie AG Oberoesterreich Services und Digital Solutions GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49808,
+  "metadata" : {
+    "handle" : "POWERSPEED-AS",
+    "description" : "Energie AG Oberoesterreich Services und Digital Solutions GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.159.0.0/22",
       "31.193.160.0/21",
       "45.150.96.0/22",
@@ -34,7 +37,7 @@
       "195.78.46.0/23",
       "198.89.232.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:c100::/32",
       "2a05:4e40::/32"
     ]

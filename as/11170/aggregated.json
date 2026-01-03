@@ -1,9 +1,12 @@
 {
-  "asn": 11170,
-  "handle": "ROLLERNETWORK",
-  "description": "Roller Network LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11170,
+  "metadata" : {
+    "handle" : "ROLLERNETWORK",
+    "description" : "Roller Network LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.118.152.0/21",
       "102.129.251.0/24",
       "141.193.69.0/24",
@@ -13,7 +16,7 @@
       "208.92.96.0/24",
       "208.92.100.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fe70::/32"
     ]
   }

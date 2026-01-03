@@ -1,12 +1,15 @@
 {
-  "asn": 37141,
-  "handle": "ETI-AS",
-  "description": "ETI SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37141,
+  "metadata" : {
+    "handle" : "ETI-AS",
+    "description" : "ETI SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.79.236.0/22",
       "41.191.220.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

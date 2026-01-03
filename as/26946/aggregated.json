@@ -1,9 +1,12 @@
 {
-  "asn": 26946,
-  "handle": "KIRKWOOD-COMMUNTIY-COLLEGE",
-  "description": "Kirkwood Community College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26946,
+  "metadata" : {
+    "handle" : "KIRKWOOD-COMMUNTIY-COLLEGE",
+    "description" : "Kirkwood Community College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "205.221.16.0/22",
       "207.28.238.0/24",
       "207.165.60.0/24",
@@ -14,6 +17,6 @@
       "209.56.158.0/23",
       "216.159.181.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

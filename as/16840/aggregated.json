@@ -1,12 +1,15 @@
 {
-  "asn": 16840,
-  "handle": "JETSET-NETWORKS",
-  "description": "JetSet Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16840,
+  "metadata" : {
+    "handle" : "JETSET-NETWORKS",
+    "description" : "JetSet Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.183.153.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:9b40::/32"
     ]
   }

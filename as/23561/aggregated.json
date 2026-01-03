@@ -1,9 +1,12 @@
 {
-  "asn": 23561,
-  "handle": "YONGINUNIVERSITY-AS",
-  "description": "Yongin University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23561,
+  "metadata" : {
+    "handle" : "YONGINUNIVERSITY-AS",
+    "description" : "Yongin University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.119.136.0/22",
       "220.66.61.0/24",
       "220.66.62.0/23",
@@ -11,6 +14,6 @@
       "220.66.68.0/23",
       "220.66.70.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

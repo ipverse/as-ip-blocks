@@ -1,15 +1,18 @@
 {
-  "asn": 263009,
-  "handle": "FORTE-TELECOM",
-  "description": "FORTE TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263009,
+  "metadata" : {
+    "handle" : "FORTE-TELECOM",
+    "description" : "FORTE TELECOM LTDA.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.84.52.0/22",
       "186.192.48.0/20",
       "186.237.48.0/21",
       "187.63.96.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:30fc::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 154109,
-  "handle": "HOSTINGOXYGEN-AS-AP",
-  "description": "Hosting Oxygen",
-  "subnets": {
-    "ipv4": [
+  "asn" : 154109,
+  "metadata" : {
+    "handle" : "HOSTINGOXYGEN-AS-AP",
+    "description" : "Hosting Oxygen",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.218.137.0/24",
       "203.18.158.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:1f60::/32"
     ]
   }

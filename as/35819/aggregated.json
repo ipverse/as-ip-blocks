@@ -1,9 +1,12 @@
 {
-  "asn": 35819,
-  "handle": "MOBILY-AS",
-  "description": "Etihad Etisalat a joint stock company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35819,
+  "metadata" : {
+    "handle" : "MOBILY-AS",
+    "description" : "Etihad Etisalat a joint stock company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.82.0.0/16",
       "5.108.0.0/14",
       "5.244.0.0/15",
@@ -78,7 +81,7 @@
       "212.24.248.0/24",
       "213.217.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:3c80:4000::/48",
       "2001:3c80:8000::/48",
       "2001:3c80:b041::/48",

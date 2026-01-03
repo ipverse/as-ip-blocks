@@ -1,15 +1,18 @@
 {
-  "asn": 12757,
-  "handle": "IPTRON",
-  "description": "IPTRON.NET OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12757,
+  "metadata" : {
+    "handle" : "IPTRON",
+    "description" : "IPTRON.NET OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.44.191.0/24",
       "176.124.247.0/24",
       "188.227.248.0/21",
       "194.0.51.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5880::/32"
     ]
   }

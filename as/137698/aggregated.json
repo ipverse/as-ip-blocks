@@ -1,9 +1,12 @@
 {
-  "asn": 137698,
-  "handle": "CHINATELECOM-HEILONGJIANG-HANAN-IDC",
-  "description": "Haerbing Heilongjiang Province P.R.China",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137698,
+  "metadata" : {
+    "handle" : "CHINATELECOM-HEILONGJIANG-HANAN-IDC",
+    "description" : "Haerbing Heilongjiang Province P.R.China.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "42.100.32.0/20",
       "42.100.48.0/21",
       "42.101.0.0/18",
@@ -25,7 +28,7 @@
       "219.147.231.0/24",
       "219.147.232.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:108:98::/48",
       "240e:108:1010::/48",
       "240e:908::/33",

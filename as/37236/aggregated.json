@@ -1,9 +1,12 @@
 {
-  "asn": 37236,
-  "handle": "REFLEX-SOLUTIONS",
-  "description": "Reflex Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37236,
+  "metadata" : {
+    "handle" : "REFLEX-SOLUTIONS",
+    "description" : "Reflex Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.79.240.0/22",
       "102.213.128.0/22",
       "102.215.128.0/22",
@@ -11,7 +14,7 @@
       "102.221.100.0/22",
       "154.119.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f010::/32"
     ]
   }

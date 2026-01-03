@@ -1,12 +1,15 @@
 {
-  "asn": 149301,
-  "handle": "ATL-AS-AP",
-  "description": "Askja Telecom Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149301,
+  "metadata" : {
+    "handle" : "ATL-AS-AP",
+    "description" : "Askja Telecom Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.22.168.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:efc0::/48"
     ]
   }

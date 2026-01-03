@@ -1,13 +1,16 @@
 {
-  "asn": 44597,
-  "handle": "RIPN-RU-SMR",
-  "description": "Join-stock company Internet ExchangeMSK-IX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44597,
+  "metadata" : {
+    "handle" : "RIPN-RU-SMR",
+    "description" : "Join-stock company Internet ExchangeMSK-IX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.232.134.0/24",
       "193.232.225.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1440::/48",
       "2a0c:a9c7:225::/48"
     ]

@@ -1,13 +1,16 @@
 {
-  "asn": 267521,
-  "handle": "ULTRANET-NETWORK",
-  "description": "ULTRANET NETWORK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267521,
+  "metadata" : {
+    "handle" : "ULTRANET-NETWORK",
+    "description" : "ULTRANET NETWORK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.10.96.0/22",
       "201.182.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:42b8::/32"
     ]
   }

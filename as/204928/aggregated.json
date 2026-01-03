@@ -1,14 +1,17 @@
 {
-  "asn": 204928,
-  "handle": "AS-BONSAIHOST",
-  "description": "Bonsai Hosting ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204928,
+  "metadata" : {
+    "handle" : "AS-BONSAIHOST",
+    "description" : "Bonsai Hosting ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.254.184.0/24",
       "185.213.243.0/24",
       "194.153.216.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:e540::/48"
     ]
   }

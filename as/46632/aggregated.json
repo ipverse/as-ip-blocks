@@ -1,9 +1,12 @@
 {
-  "asn": 46632,
-  "handle": "SOUTHWEST-ARKANSAS-TELEPHONE-COOPERATIVE",
-  "description": "Southwest Arkansas Telephone Cooperative",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46632,
+  "metadata" : {
+    "handle" : "SOUTHWEST-ARKANSAS-TELEPHONE-COOPERATIVE",
+    "description" : "Southwest Arkansas Telephone Cooperative",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.44.0.0/21",
       "38.134.208.0/22",
       "38.188.208.0/21",
@@ -25,6 +28,6 @@
       "199.68.160.0/21",
       "216.238.0.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

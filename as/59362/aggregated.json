@@ -1,9 +1,12 @@
 {
-  "asn": 59362,
-  "handle": "KSNETWORK-AS-AP",
-  "description": "KS Network Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59362,
+  "metadata" : {
+    "handle" : "KSNETWORK-AS-AP",
+    "description" : "KS Network Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.251.228.0/22",
       "103.92.216.0/22",
       "103.220.204.0/22",
@@ -12,7 +15,7 @@
       "110.76.128.0/22",
       "123.253.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:21c0::/32",
       "2407:5c80::/32",
       "2407:5d80::/32"

@@ -1,14 +1,17 @@
 {
-  "asn": 8687,
-  "handle": "PPP-AS",
-  "description": "PPP Internetdienstleistungen GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8687,
+  "metadata" : {
+    "handle" : "PPP-AS",
+    "description" : "PPP Internetdienstleistungen GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.54.44.0/24",
       "193.141.101.0/24",
       "194.45.126.0/24",
       "212.18.64.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

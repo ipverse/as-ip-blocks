@@ -1,16 +1,19 @@
 {
-  "asn": 8778,
-  "handle": "SLOVANET",
-  "description": "Slovanet a.s",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8778,
+  "metadata" : {
+    "handle" : "SLOVANET",
+    "description" : "Slovanet a.s.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.236.68.0/22",
       "185.69.50.0/24",
       "193.93.74.0/24",
       "195.28.64.0/19",
       "195.80.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:9060::/32",
       "2a02:dd8::/29"
     ]

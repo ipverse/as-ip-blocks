@@ -1,13 +1,16 @@
 {
-  "asn": 216285,
-  "handle": "MYIPGR",
-  "description": "MYIP NETWORKS G.P",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216285,
+  "metadata" : {
+    "handle" : "MYIPGR",
+    "description" : "MYIP NETWORKS G.P.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.54.49.0/24",
       "194.153.116.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:4280::/31"
     ]
   }

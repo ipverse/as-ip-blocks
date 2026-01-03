@@ -1,12 +1,15 @@
 {
-  "asn": 41632,
-  "handle": "GLKB",
-  "description": "Glarner Kantonalbank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41632,
+  "metadata" : {
+    "handle" : "GLKB",
+    "description" : "Glarner Kantonalbank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.138.215.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:11c0::/29"
     ]
   }

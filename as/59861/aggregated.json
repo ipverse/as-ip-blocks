@@ -1,15 +1,18 @@
 {
-  "asn": 59861,
-  "handle": "ASCITINFNET",
-  "description": "Unitary Services Enterprise Urban Network System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59861,
+  "metadata" : {
+    "handle" : "ASCITINFNET",
+    "description" : "Unitary Services Enterprise Urban Network System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.125.59.0/24",
       "178.172.245.0/24",
       "178.172.246.0/24",
       "217.21.34.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:dc7::/32"
     ]
   }

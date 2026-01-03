@@ -1,14 +1,17 @@
 {
-  "asn": 54411,
-  "handle": "ONEGAS-BGP",
-  "description": "ONE Gas Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54411,
+  "metadata" : {
+    "handle" : "ONEGAS-BGP",
+    "description" : "ONE Gas Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.216.62.0/24",
       "12.220.230.0/24",
       "184.179.124.0/24",
       "184.189.196.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

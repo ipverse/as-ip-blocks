@@ -1,12 +1,15 @@
 {
-  "asn": 135794,
-  "handle": "RML-AS-AP",
-  "description": "Route Mobile Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135794,
+  "metadata" : {
+    "handle" : "RML-AS-AP",
+    "description" : "Route Mobile Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.115.28.0/23",
       "45.249.55.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 25895,
-  "handle": "HART-AS1",
-  "description": "HART",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25895,
+  "metadata" : {
+    "handle" : "HART-AS1",
+    "description" : "HART",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "173.227.149.0/24",
       "174.46.98.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

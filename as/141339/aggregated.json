@@ -1,13 +1,16 @@
 {
-  "asn": 141339,
-  "handle": "AS-LALATISP-IN",
-  "description": "Lalat Internet Service Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141339,
+  "metadata" : {
+    "handle" : "AS-LALATISP-IN",
+    "description" : "Lalat Internet Service Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.158.52.0/23",
       "103.171.52.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:b040::/32",
       "2407:bfc0::/32"
     ]

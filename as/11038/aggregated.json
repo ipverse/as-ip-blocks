@@ -1,9 +1,12 @@
 {
-  "asn": 11038,
-  "handle": "SALISH-NETWORKS",
-  "description": "Salish Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11038,
+  "metadata" : {
+    "handle" : "SALISH-NETWORKS",
+    "description" : "Salish Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.57.164.0/22",
       "69.57.168.0/22",
       "74.112.52.0/22",
@@ -13,6 +16,6 @@
       "208.71.160.0/22",
       "208.83.56.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

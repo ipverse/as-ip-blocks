@@ -1,12 +1,15 @@
 {
-  "asn": 328526,
-  "handle": "CLOUDFACE-AS",
-  "description": "CloudFace Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328526,
+  "metadata" : {
+    "handle" : "CLOUDFACE-AS",
+    "description" : "CloudFace Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.36.200.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:ea20::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 203953,
-  "handle": "HIPER",
-  "description": "Hiper A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203953,
+  "metadata" : {
+    "handle" : "HIPER",
+    "description" : "Hiper A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.110.64.0/18",
       "2.110.128.0/17",
       "80.210.64.0/20",
@@ -18,7 +21,7 @@
       "213.32.240.0/21",
       "217.61.216.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:f6c0::/29"
     ]
   }

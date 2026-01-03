@@ -1,9 +1,12 @@
 {
-  "asn": 206238,
-  "handle": "FREEDOMINTERNET",
-  "description": "Freedom Internet BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206238,
+  "metadata" : {
+    "handle" : "FREEDOMINTERNET",
+    "description" : "Freedom Internet BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.14.180.0/23",
       "45.80.168.0/22",
       "45.83.4.0/22",
@@ -26,7 +29,7 @@
       "194.145.194.0/23",
       "217.148.134.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:3780::/29"
     ]
   }

@@ -1,10 +1,13 @@
 {
-  "asn": 212044,
-  "handle": "OUTER-SPACE",
-  "description": "Sven Heim",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 212044,
+  "metadata" : {
+    "handle" : "OUTER-SPACE",
+    "description" : "Sven Heim",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a06:bbc2:1::/48",
       "2a06:bbc2:2::/48"
     ]

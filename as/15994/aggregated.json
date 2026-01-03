@@ -1,9 +1,12 @@
 {
-  "asn": 15994,
-  "handle": "A1HR",
-  "description": "A1 Hrvatska d.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15994,
+  "metadata" : {
+    "handle" : "A1HR",
+    "description" : "A1 Hrvatska d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.139.67.0/24",
       "83.139.70.0/24",
       "83.139.120.0/24",
@@ -19,7 +22,7 @@
       "213.149.61.0/24",
       "213.149.62.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:dd8:1::/48"
     ]
   }

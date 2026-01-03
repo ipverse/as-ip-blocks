@@ -1,9 +1,12 @@
 {
-  "asn": 14499,
-  "handle": "ALORICA",
-  "description": "ALORICA INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14499,
+  "metadata" : {
+    "handle" : "ALORICA",
+    "description" : "ALORICA INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.110.129.0/24",
       "122.55.92.0/24",
       "142.192.0.0/16",
@@ -13,6 +16,6 @@
       "222.127.107.0/24",
       "222.127.141.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

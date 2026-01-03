@@ -1,9 +1,12 @@
 {
-  "asn": 56106,
-  "handle": "ZONENETWORKS-AU",
-  "description": "Zone Networks Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56106,
+  "metadata" : {
+    "handle" : "ZONENETWORKS-AU",
+    "description" : "Zone Networks Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.226.247.0/24",
       "45.124.212.0/22",
       "103.193.80.0/22",
@@ -12,6 +15,6 @@
       "119.252.190.0/23",
       "203.98.81.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

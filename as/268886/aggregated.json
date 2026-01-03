@@ -1,12 +1,15 @@
 {
-  "asn": 268886,
-  "handle": "WILLYNET-PROVEDOR",
-  "description": "WILLYNET PROVEDOR",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268886,
+  "metadata" : {
+    "handle" : "WILLYNET-PROVEDOR",
+    "description" : "WILLYNET PROVEDOR",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.173.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5c14::/32"
     ]
   }

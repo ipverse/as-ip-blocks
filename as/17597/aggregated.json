@@ -1,9 +1,12 @@
 {
-  "asn": 17597,
-  "handle": "SKB-SAEROMNET-AS",
-  "description": "SK Broadband Co Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17597,
+  "metadata" : {
+    "handle" : "SKB-SAEROMNET-AS",
+    "description" : "SK Broadband Co Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.112.104.0/22",
       "61.47.192.0/18",
       "103.51.192.0/22",
@@ -11,6 +14,6 @@
       "203.123.192.0/19",
       "223.28.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

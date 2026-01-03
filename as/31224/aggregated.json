@@ -1,9 +1,12 @@
 {
-  "asn": 31224,
-  "handle": "MF-UGSM-AS",
-  "description": "PJSC MegaFon",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31224,
+  "metadata" : {
+    "handle" : "MF-UGSM-AS",
+    "description" : "PJSC MegaFon",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.173.96.0/23",
       "31.173.99.0/24",
       "31.173.100.0/22",
@@ -21,7 +24,7 @@
       "178.178.229.0/24",
       "178.178.230.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:d000:5000::/39",
       "2a03:d000:5301::/48",
       "2a03:d000:5302::/48"

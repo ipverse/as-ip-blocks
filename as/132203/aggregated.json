@@ -1,9 +1,12 @@
 {
-  "asn": 132203,
-  "handle": "TENCENT-NET-AP-CN",
-  "description": "Shenzhen Tencent Computer Systems Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132203,
+  "metadata" : {
+    "handle" : "TENCENT-NET-AP-CN",
+    "description" : "Shenzhen Tencent Computer Systems Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.12.0.0/20",
       "1.12.34.0/23",
       "1.201.184.0/22",
@@ -176,7 +179,7 @@
       "211.152.154.0/23",
       "211.152.158.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240d:c000:1000::/36",
       "240d:c000:2000::/35",
       "240d:c000:6000::/36",

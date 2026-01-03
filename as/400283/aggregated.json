@@ -1,12 +1,15 @@
 {
-  "asn": 400283,
-  "handle": "ENDLESS-GROUP",
-  "description": "Endless Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400283,
+  "metadata" : {
+    "handle" : "ENDLESS-GROUP",
+    "description" : "Endless Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.90.251.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fbf9::/40"
     ]
   }

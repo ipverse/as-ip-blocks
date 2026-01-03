@@ -1,12 +1,15 @@
 {
-  "asn": 64290,
-  "handle": "WISP10175",
-  "description": "Server ISP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64290,
+  "metadata" : {
+    "handle" : "WISP10175",
+    "description" : "Server ISP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.164.64.0/24",
       "172.83.88.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

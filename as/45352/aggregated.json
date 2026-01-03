@@ -1,9 +1,12 @@
 {
-  "asn": 45352,
-  "handle": "IPSERVERONE-AS-AP",
-  "description": "IP ServerOne Solutions Sdn Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45352,
+  "metadata" : {
+    "handle" : "IPSERVERONE-AS-AP",
+    "description" : "IP ServerOne Solutions Sdn Bhd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.102.144.0/21",
       "14.192.64.0/23",
       "14.192.66.0/24",
@@ -45,7 +48,7 @@
       "212.8.254.0/23",
       "212.92.102.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:3400:1000::/36",
       "2401:3400:2000::/35",
       "2401:3400:4000::/35",

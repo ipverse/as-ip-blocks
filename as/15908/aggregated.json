@@ -1,11 +1,14 @@
 {
-  "asn": 15908,
-  "handle": "AS-MEDBANK",
-  "description": "UAB Medicinos bankas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15908,
+  "metadata" : {
+    "handle" : "AS-MEDBANK",
+    "description" : "UAB Medicinos bankas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.41.40.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

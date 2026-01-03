@@ -1,9 +1,12 @@
 {
-  "asn": 24916,
-  "handle": "ORBITAL-ASN",
-  "description": "Orbital Net Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24916,
+  "metadata" : {
+    "handle" : "ORBITAL-ASN",
+    "description" : "Orbital Net Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.56.48.0/21",
       "45.145.84.0/23",
       "80.88.192.0/19",
@@ -27,7 +30,7 @@
       "195.128.238.0/23",
       "195.162.28.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2988::/32"
     ]
   }

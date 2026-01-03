@@ -1,9 +1,12 @@
 {
-  "asn": 17552,
-  "handle": "TRUEONLINE-AS-AP",
-  "description": "TRUE INTERNET CORPORATION CO. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17552,
+  "metadata" : {
+    "handle" : "TRUEONLINE-AS-AP",
+    "description" : "TRUE INTERNET CORPORATION CO. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.145.0.0/16",
       "58.8.0.0/14",
       "61.90.0.0/17",
@@ -26,7 +29,7 @@
       "202.176.64.0/18",
       "202.176.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:fb1::/32"
     ]
   }

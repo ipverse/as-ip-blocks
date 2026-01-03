@@ -1,13 +1,16 @@
 {
-  "asn": 26523,
-  "handle": "PNB-TRANSIT",
-  "description": "Province of New Brunswick",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26523,
+  "metadata" : {
+    "handle" : "PNB-TRANSIT",
+    "description" : "Province of New Brunswick",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.64.244.0/24",
       "162.252.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:2f80::/32",
       "2620:0:f0::/48"
     ]

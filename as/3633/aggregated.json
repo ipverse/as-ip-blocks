@@ -1,9 +1,12 @@
 {
-  "asn": 3633,
-  "handle": "PROVINCE-OF-BRITISH-COLUMBIA",
-  "description": "Province of British Columbia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3633,
+  "metadata" : {
+    "handle" : "PROVINCE-OF-BRITISH-COLUMBIA",
+    "description" : "Province of British Columbia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.22.0.0/15",
       "142.24.0.0/13",
       "142.32.0.0/15",
@@ -20,6 +23,6 @@
       "204.239.67.0/24",
       "204.239.70.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

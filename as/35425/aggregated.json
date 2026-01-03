@@ -1,9 +1,12 @@
 {
-  "asn": 35425,
-  "handle": "BYTEMARK-AS",
-  "description": "IOMART MANAGED SERVICES LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35425,
+  "metadata" : {
+    "handle" : "BYTEMARK-AS",
+    "description" : "IOMART MANAGED SERVICES LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.28.56.0/21",
       "5.77.47.0/24",
       "5.153.224.0/21",
@@ -26,7 +29,7 @@
       "213.175.208.0/24",
       "213.175.216.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:41c8::/29",
       "2a0f:23c7::/32"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 8948,
-  "handle": "PRIMO-099",
-  "description": "099 PRIMO COMMUNICATIONS LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8948,
+  "metadata" : {
+    "handle" : "PRIMO-099",
+    "description" : "099 PRIMO COMMUNICATIONS LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.56.224.0/20",
       "38.191.128.0/20",
       "38.229.176.0/20",
@@ -18,6 +21,6 @@
       "195.192.230.0/23",
       "206.84.16.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

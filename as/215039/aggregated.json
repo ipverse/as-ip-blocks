@@ -1,9 +1,12 @@
 {
-  "asn": 215039,
-  "handle": "NODESTY",
-  "description": "Nodesty LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215039,
+  "metadata" : {
+    "handle" : "NODESTY",
+    "description" : "Nodesty LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.175.187.0/24",
       "77.90.5.0/24",
       "77.90.14.0/24",
@@ -11,7 +14,7 @@
       "82.25.42.0/24",
       "144.48.83.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:6044:ac50::/44",
       "2a0f:85c1:3c9::/48"
     ]

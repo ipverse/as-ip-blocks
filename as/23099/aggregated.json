@@ -1,13 +1,16 @@
 {
-  "asn": 23099,
-  "handle": "SPR",
-  "description": "DM Petroleum Operations Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23099,
+  "metadata" : {
+    "handle" : "SPR",
+    "description" : "DM Petroleum Operations Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.204.105.0/24",
       "204.63.198.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:9:c000::/48"
     ]
   }

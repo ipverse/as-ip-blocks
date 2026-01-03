@@ -1,11 +1,14 @@
 {
-  "asn": 36194,
-  "handle": "ONSITE-AS",
-  "description": "On Site",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36194,
+  "metadata" : {
+    "handle" : "ONSITE-AS",
+    "description" : "On Site",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.89.169.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 150728,
-  "handle": "RON-AS-AP",
-  "description": "Rongdhonu Online Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150728,
+  "metadata" : {
+    "handle" : "RON-AS-AP",
+    "description" : "Rongdhonu Online Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.72.199.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 134186,
-  "handle": "PARADISETEC-AS-AP",
-  "description": "Paradise Technologies Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134186,
+  "metadata" : {
+    "handle" : "PARADISETEC-AS-AP",
+    "description" : "Paradise Technologies Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.117.60.0/24",
       "103.40.166.0/23",
       "103.117.110.0/24",
@@ -11,6 +14,6 @@
       "103.138.24.0/24",
       "123.253.223.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

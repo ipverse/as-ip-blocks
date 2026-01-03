@@ -1,9 +1,12 @@
 {
-  "asn": 29182,
-  "handle": "RU-JSCIOT",
-  "description": "JSC IOT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29182,
+  "metadata" : {
+    "handle" : "RU-JSCIOT",
+    "description" : "JSC IOT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.35.96.0/22",
       "31.135.8.0/23",
       "31.135.11.0/24",
@@ -89,7 +92,7 @@
       "213.159.208.0/21",
       "217.28.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:230:1::/48",
       "2a01:230:2::/47",
       "2a01:230:4::/46",

@@ -1,12 +1,15 @@
 {
-  "asn": 20229,
-  "handle": "MERRICK-AS",
-  "description": "Merrick Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20229,
+  "metadata" : {
+    "handle" : "MERRICK-AS",
+    "description" : "Merrick Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.10.148.0/23",
       "204.10.151.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

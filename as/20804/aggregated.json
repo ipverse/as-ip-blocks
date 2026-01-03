@@ -1,9 +1,12 @@
 {
-  "asn": 20804,
-  "handle": "ASN-TELENERGO",
-  "description": "Exatel S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20804,
+  "metadata" : {
+    "handle" : "ASN-TELENERGO",
+    "description" : "Exatel S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.15.128.0/17",
       "82.177.0.0/16",
       "88.220.0.0/17",
@@ -14,7 +17,7 @@
       "195.136.0.0/16",
       "213.172.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4120::/32"
     ]
   }

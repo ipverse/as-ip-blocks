@@ -1,14 +1,17 @@
 {
-  "asn": 58656,
-  "handle": "BDHUB-BD",
-  "description": "bdHUB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58656,
+  "metadata" : {
+    "handle" : "BDHUB-BD",
+    "description" : "bdHUB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.12.176.0/22",
       "118.179.8.0/21",
       "118.179.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:d900::/32"
     ]
   }

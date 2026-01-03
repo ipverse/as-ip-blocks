@@ -1,9 +1,12 @@
 {
-  "asn": 24038,
-  "handle": "FAPL-AS-AP",
-  "description": "Fujitsu Asia Pte. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24038,
+  "metadata" : {
+    "handle" : "FAPL-AS-AP",
+    "description" : "Fujitsu Asia Pte. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.231.53.0/24",
       "103.231.54.0/24",
       "202.68.208.0/24",
@@ -11,6 +14,6 @@
       "202.68.217.0/24",
       "202.68.221.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

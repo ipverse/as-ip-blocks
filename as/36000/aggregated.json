@@ -1,12 +1,15 @@
 {
-  "asn": 36000,
-  "handle": "NHA-ASN1",
-  "description": "Northern Health Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36000,
+  "metadata" : {
+    "handle" : "NHA-ASN1",
+    "description" : "Northern Health Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.73.76.0/22",
       "209.53.232.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

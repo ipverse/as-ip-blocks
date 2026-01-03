@@ -1,9 +1,12 @@
 {
-  "asn": 132199,
-  "handle": "GLOBE-MOBILE-5TH-GEN-AS",
-  "description": "Globe Telecom Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132199,
+  "metadata" : {
+    "handle" : "GLOBE-MOBILE-5TH-GEN-AS",
+    "description" : "Globe Telecom Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.37.82.0/23",
       "64.224.96.0/19",
       "64.224.128.0/20",
@@ -207,7 +210,7 @@
       "222.127.188.0/22",
       "222.127.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:fd8:60::/48",
       "2001:fd8:64::/46",
       "2001:fd8:a0::/48",

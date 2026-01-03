@@ -1,9 +1,12 @@
 {
-  "asn": 13273,
-  "handle": "ALTERWAY-OPS",
-  "description": "Alter Way SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13273,
+  "metadata" : {
+    "handle" : "ALTERWAY-OPS",
+    "description" : "Alter Way SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.216.209.0/24",
       "185.21.152.0/22",
       "185.114.208.0/22",
@@ -11,7 +14,7 @@
       "213.91.0.0/18",
       "213.162.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:1940::/29"
     ]
   }

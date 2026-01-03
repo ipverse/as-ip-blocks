@@ -1,13 +1,16 @@
 {
-  "asn": 54681,
-  "handle": "ROSE-AS",
-  "description": "Aubrey Rose",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54681,
+  "metadata" : {
+    "handle" : "ROSE-AS",
+    "description" : "Aubrey Rose",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.133.248.0/21",
       "170.205.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fba2:2::/48",
       "2602:fba2:4::/46",
       "2602:fba2:10::/48",

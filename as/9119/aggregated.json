@@ -1,9 +1,12 @@
 {
-  "asn": 9119,
-  "handle": "SOFTNET-AS",
-  "description": "SOFTNET d.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9119,
+  "metadata" : {
+    "handle" : "SOFTNET-AS",
+    "description" : "SOFTNET d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.48.0/22",
       "45.8.0.0/22",
       "45.15.44.0/22",
@@ -28,7 +31,7 @@
       "213.253.64.0/18",
       "217.199.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:800::/31",
       "2a09:e140::/29",
       "2a0b:c306::/31",

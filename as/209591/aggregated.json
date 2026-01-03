@@ -1,13 +1,16 @@
 {
-  "asn": 209591,
-  "handle": "FLYNETWORK",
-  "description": "Fly Network Srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209591,
+  "metadata" : {
+    "handle" : "FLYNETWORK",
+    "description" : "Fly Network Srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.98.124.0/22",
       "149.7.214.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:2980::/29"
     ]
   }

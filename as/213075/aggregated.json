@@ -1,13 +1,16 @@
 {
-  "asn": 213075,
-  "handle": "STARTRU-AS",
-  "description": "Start.Ru LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213075,
+  "metadata" : {
+    "handle" : "STARTRU-AS",
+    "description" : "Start.Ru LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.243.84.0/22",
       "193.200.250.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:d81::/32"
     ]
   }

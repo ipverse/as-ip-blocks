@@ -1,12 +1,15 @@
 {
-  "asn": 24536,
-  "handle": "ELNUS-AS-ID",
-  "description": "PT. Elektrindo Data Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24536,
+  "metadata" : {
+    "handle" : "ELNUS-AS-ID",
+    "description" : "PT. Elektrindo Data Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.146.176.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:4200::/32"
     ]
   }

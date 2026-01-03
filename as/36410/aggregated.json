@@ -1,9 +1,12 @@
 {
-  "asn": 36410,
-  "handle": "VHAINC-IPNET",
-  "description": "Vizient Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36410,
+  "metadata" : {
+    "handle" : "VHAINC-IPNET",
+    "description" : "Vizient Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.122.124.0/22",
       "199.245.197.0/24",
       "204.68.152.0/23",
@@ -11,6 +14,6 @@
       "204.69.131.0/24",
       "204.69.133.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

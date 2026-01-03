@@ -1,9 +1,12 @@
 {
-  "asn": 32875,
-  "handle": "VIRPUS",
-  "description": "Wowrack.com",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32875,
+  "metadata" : {
+    "handle" : "VIRPUS",
+    "description" : "Wowrack.com",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.226.169.0/24",
       "5.226.170.0/24",
       "5.226.174.0/23",
@@ -17,7 +20,7 @@
       "198.167.138.0/23",
       "198.167.142.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ffca::/36",
       "2604:c00::/32"
     ]

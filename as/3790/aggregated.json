@@ -1,9 +1,12 @@
 {
-  "asn": 3790,
-  "handle": "RADIOGRAFICA-COSTARRICENSE",
-  "description": "RADIOGRAFICA COSTARRICENSE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3790,
+  "metadata" : {
+    "handle" : "RADIOGRAFICA-COSTARRICENSE",
+    "description" : "RADIOGRAFICA COSTARRICENSE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.224.74.0/24",
       "190.10.0.0/20",
       "190.10.16.0/23",
@@ -85,7 +88,7 @@
       "196.40.80.0/20",
       "200.122.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:13d8::/32",
       "2801:151::/47",
       "2801:151:4::/48",

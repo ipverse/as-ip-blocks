@@ -1,14 +1,17 @@
 {
-  "asn": 265207,
-  "handle": "PLUS-PROVEDOR-INTERNET",
-  "description": "PLUS PROVEDOR DE INTERNET LTDA - ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265207,
+  "metadata" : {
+    "handle" : "PLUS-PROVEDOR-INTERNET",
+    "description" : "PLUS PROVEDOR DE INTERNET LTDA - ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.250.160.0/22",
       "179.0.68.0/22",
       "187.86.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2c44::/32"
     ]
   }

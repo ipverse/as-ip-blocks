@@ -1,13 +1,16 @@
 {
-  "asn": 32064,
-  "handle": "AMUAS1",
-  "description": "American University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32064,
+  "metadata" : {
+    "handle" : "AMUAS1",
+    "description" : "American University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.9.0.0/16",
       "192.5.15.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:11a:6000::/44"
     ]
   }

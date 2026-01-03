@@ -1,11 +1,14 @@
 {
-  "asn": 49326,
-  "handle": "PACGROUP-AS",
-  "description": "AO PACTOUR Agency",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49326,
+  "metadata" : {
+    "handle" : "PACGROUP-AS",
+    "description" : "AO PACTOUR Agency",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.244.0.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

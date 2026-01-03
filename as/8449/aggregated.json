@@ -1,9 +1,12 @@
 {
-  "asn": 8449,
-  "handle": "AS8449-ELCAT",
-  "description": "ElCat Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8449,
+  "metadata" : {
+    "handle" : "AS8449-ELCAT",
+    "description" : "ElCat Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.57.8.0/21",
       "31.192.248.0/21",
       "77.95.56.0/21",
@@ -17,7 +20,7 @@
       "212.42.112.0/21",
       "212.42.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:7160::/32"
     ]
   }

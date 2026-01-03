@@ -1,12 +1,15 @@
 {
-  "asn": 400285,
-  "handle": "GUSD-AS",
-  "description": "Gilbert Public Schools",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400285,
+  "metadata" : {
+    "handle" : "GUSD-AS",
+    "description" : "Gilbert Public Schools",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "98.163.59.0/24",
       "162.212.20.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

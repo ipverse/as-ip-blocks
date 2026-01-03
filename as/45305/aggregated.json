@@ -1,9 +1,12 @@
 {
-  "asn": 45305,
-  "handle": "LDP-AS-ID",
-  "description": "Lintas Data Prima PT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45305,
+  "metadata" : {
+    "handle" : "LDP-AS-ID",
+    "description" : "Lintas Data Prima PT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.252.105.0/24",
       "43.252.106.0/23",
       "103.22.99.0/24",
@@ -32,7 +35,7 @@
       "202.47.188.0/23",
       "202.56.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:a3::/48",
       "2001:df1:6380::/48"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 20791,
-  "handle": "BITPOINT-AS",
-  "description": "BitPoint AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20791,
+  "metadata" : {
+    "handle" : "BITPOINT-AS",
+    "description" : "BitPoint AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.67.224.0/20",
       "185.179.164.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

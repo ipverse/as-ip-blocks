@@ -1,9 +1,12 @@
 {
-  "asn": 202116,
-  "handle": "SCANIA-AS",
-  "description": "Scania CV AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202116,
+  "metadata" : {
+    "handle" : "SCANIA-AS",
+    "description" : "Scania CV AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.106.0.0/16",
       "139.122.189.0/24",
       "139.122.191.0/24",
@@ -11,6 +14,6 @@
       "139.122.224.0/20",
       "139.122.240.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

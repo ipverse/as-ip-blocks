@@ -1,11 +1,14 @@
 {
-  "asn": 23400,
-  "handle": "IAPC",
-  "description": "Internet Access Point Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23400,
+  "metadata" : {
+    "handle" : "IAPC",
+    "description" : "Internet Access Point Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.247.96.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

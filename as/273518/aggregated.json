@@ -1,10 +1,13 @@
 {
-  "asn": 273518,
-  "handle": "MHEKS-PROVEDOR-INTERNET",
-  "description": "MHEKS Provedor de Internet",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 273518,
+  "metadata" : {
+    "handle" : "MHEKS-PROVEDOR-INTERNET",
+    "description" : "MHEKS Provedor de Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2804:8fe0::/32"
     ]
   }

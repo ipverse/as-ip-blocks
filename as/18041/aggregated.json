@@ -1,9 +1,12 @@
 {
-  "asn": 18041,
-  "handle": "TWDS-AS-TW",
-  "description": "Taiwna Digital Streaming Co",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18041,
+  "metadata" : {
+    "handle" : "TWDS-AS-TW",
+    "description" : "Taiwna Digital Streaming Co.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.147.22.0/23",
       "103.158.186.0/24",
       "103.220.218.0/23",
@@ -11,7 +14,7 @@
       "210.79.150.0/23",
       "211.76.180.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:70e0::/32",
       "2401:a60::/32",
       "2401:16a0::/32",

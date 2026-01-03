@@ -1,13 +1,16 @@
 {
-  "asn": 6377,
-  "handle": "4JNET",
-  "description": "Eugene School District 4J",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6377,
+  "metadata" : {
+    "handle" : "4JNET",
+    "description" : "Eugene School District 4J",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.165.0.0/16",
       "192.135.183.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:d4::/48"
     ]
   }

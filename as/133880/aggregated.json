@@ -1,13 +1,16 @@
 {
-  "asn": 133880,
-  "handle": "REDCROSS-AS-AP",
-  "description": "Thai Red Cross Society",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133880,
+  "metadata" : {
+    "handle" : "REDCROSS-AS-AP",
+    "description" : "Thai Red Cross Society",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.125.228.0/22",
       "103.44.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:d880::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 11071,
-  "handle": "IW-ASN-11071",
-  "description": "InfoWest",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11071,
+  "metadata" : {
+    "handle" : "IW-ASN-11071",
+    "description" : "InfoWest",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.33.139.0/24",
       "64.37.0.0/20",
       "64.255.80.0/20",
@@ -32,7 +35,7 @@
       "208.88.8.0/22",
       "209.33.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff0b::/36",
       "2604:2540::/32",
       "2604:2c00::/32",

@@ -1,15 +1,18 @@
 {
-  "asn": 211707,
-  "handle": "IT-NETWORKS-CHAT-AS",
-  "description": "LLC IT NETWORKS CHAT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211707,
+  "metadata" : {
+    "handle" : "IT-NETWORKS-CHAT-AS",
+    "description" : "LLC IT NETWORKS CHAT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.134.96.0/24",
       "77.95.174.0/24",
       "77.95.222.0/24",
       "185.29.134.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2dbc::/48"
     ]
   }

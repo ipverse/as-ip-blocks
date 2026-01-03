@@ -1,12 +1,15 @@
 {
-  "asn": 137562,
-  "handle": "SYD-AS-AP",
-  "description": "Sydney Airport Corporation Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137562,
+  "metadata" : {
+    "handle" : "SYD-AS-AP",
+    "description" : "Sydney Airport Corporation Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.110.142.0/23",
       "203.19.2.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

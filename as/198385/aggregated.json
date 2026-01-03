@@ -1,9 +1,12 @@
 {
-  "asn": 198385,
-  "handle": "ALPINEDC",
-  "description": "AlpineDC SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198385,
+  "metadata" : {
+    "handle" : "ALPINEDC",
+    "description" : "AlpineDC SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.1.96.0/21",
       "37.35.104.0/21",
       "45.147.41.0/24",
@@ -13,7 +16,7 @@
       "185.75.32.0/22",
       "193.73.122.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e6c0::/32",
       "2a03:2040::/29"
     ]

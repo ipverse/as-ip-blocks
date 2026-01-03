@@ -1,12 +1,15 @@
 {
-  "asn": 20082,
-  "handle": "WIRELESSFARM-CA-TOR1",
-  "description": "Wireless Farm Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20082,
+  "metadata" : {
+    "handle" : "WIRELESSFARM-CA-TOR1",
+    "description" : "Wireless Farm Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.133.60.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f71c::/40"
     ]
   }

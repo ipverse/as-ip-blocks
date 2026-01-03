@@ -1,12 +1,15 @@
 {
-  "asn": 267174,
-  "handle": "POWERNET-TELECOM",
-  "description": "PowerNet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267174,
+  "metadata" : {
+    "handle" : "POWERNET-TELECOM",
+    "description" : "PowerNet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.230.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4944::/32"
     ]
   }

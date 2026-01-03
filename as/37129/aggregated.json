@@ -1,13 +1,16 @@
 {
-  "asn": 37129,
-  "handle": "RASMILINK-AS",
-  "description": "Rasmilink",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37129,
+  "metadata" : {
+    "handle" : "RASMILINK-AS",
+    "description" : "Rasmilink",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.211.216.0/22",
       "196.22.131.0/24",
       "197.157.228.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

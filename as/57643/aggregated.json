@@ -1,9 +1,12 @@
 {
-  "asn": 57643,
-  "handle": "AIRCITY-NET",
-  "description": "AirCity Krzysztof Janukowicz",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57643,
+  "metadata" : {
+    "handle" : "AIRCITY-NET",
+    "description" : "AirCity Krzysztof Janukowicz",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.207.166.0/23",
       "91.235.20.0/22",
       "91.235.24.0/23",
@@ -11,6 +14,6 @@
       "185.188.164.0/22",
       "194.28.40.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

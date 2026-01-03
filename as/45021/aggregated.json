@@ -1,12 +1,15 @@
 {
-  "asn": 45021,
-  "handle": "NODL-CH",
-  "description": "BIP21 SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45021,
+  "metadata" : {
+    "handle" : "NODL-CH",
+    "description" : "BIP21 SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.104.228.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:8e40:5668::/48"
     ]
   }

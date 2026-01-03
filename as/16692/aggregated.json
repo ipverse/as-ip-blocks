@@ -1,13 +1,16 @@
 {
-  "asn": 16692,
-  "handle": "HHMI",
-  "description": "Howard Hughes Medical Institute",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16692,
+  "metadata" : {
+    "handle" : "HHMI",
+    "description" : "Howard Hughes Medical Institute",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.12.84.0/23",
       "206.241.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:110:1::/48"
     ]
   }

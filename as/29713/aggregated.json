@@ -1,9 +1,12 @@
 {
-  "asn": 29713,
-  "handle": "ELIA-60",
-  "description": "Reliable Hosting Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29713,
+  "metadata" : {
+    "handle" : "ELIA-60",
+    "description" : "Reliable Hosting Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.76.44.0/24",
       "144.172.77.0/24",
       "144.172.121.0/24",
@@ -15,7 +18,7 @@
       "199.15.248.0/21",
       "208.73.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:4100::/36",
       "2606:6680:37::/48",
       "2606:6680:38::/48"

@@ -1,9 +1,12 @@
 {
-  "asn": 213006,
-  "handle": "NSFTELECOM",
-  "description": "Invermae Solutions SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213006,
+  "metadata" : {
+    "handle" : "NSFTELECOM",
+    "description" : "Invermae Solutions SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.137.160.0/23",
       "91.212.195.0/24",
       "103.153.50.0/23",
@@ -12,6 +15,6 @@
       "185.214.84.0/24",
       "195.182.204.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

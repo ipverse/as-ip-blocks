@@ -1,9 +1,12 @@
 {
-  "asn": 1757,
-  "handle": "LEXIS-AS",
-  "description": "RELX inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1757,
+  "metadata" : {
+    "handle" : "LEXIS-AS",
+    "description" : "RELX inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.81.200.0/24",
       "198.137.149.0/24",
       "198.176.76.0/22",
@@ -18,6 +21,6 @@
       "207.25.178.0/24",
       "207.25.181.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

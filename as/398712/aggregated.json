@@ -1,9 +1,12 @@
 {
-  "asn": 398712,
-  "handle": "ISPCONNECTED",
-  "description": "ISPCONNECTED CORP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398712,
+  "metadata" : {
+    "handle" : "ISPCONNECTED",
+    "description" : "ISPCONNECTED CORP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.165.240.0/24",
       "23.226.28.0/22",
       "23.227.72.0/21",
@@ -13,7 +16,7 @@
       "52.128.0.0/20",
       "190.111.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:f540::/32",
       "2803:c880::/32"
     ]

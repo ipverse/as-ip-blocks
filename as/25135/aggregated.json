@@ -1,9 +1,12 @@
 {
-  "asn": 25135,
-  "handle": "VODAFONE-UK-ASN",
-  "description": "Vodafone Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25135,
+  "metadata" : {
+    "handle" : "VODAFONE-UK-ASN",
+    "description" : "Vodafone Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.255.232.0/22",
       "85.255.236.0/23",
       "88.82.0.0/19",
@@ -14,7 +17,7 @@
       "212.183.128.0/20",
       "212.183.152.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:840::/32"
     ]
   }

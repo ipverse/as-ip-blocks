@@ -1,9 +1,12 @@
 {
-  "asn": 394695,
-  "handle": "PUBLIC-DOMAIN-REGISTRY",
-  "description": "PDR",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394695,
+  "metadata" : {
+    "handle" : "PUBLIC-DOMAIN-REGISTRY",
+    "description" : "PDR",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.225.52.0/22",
       "45.113.122.0/24",
       "65.254.64.0/19",
@@ -20,6 +23,6 @@
       "203.13.40.0/24",
       "216.10.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

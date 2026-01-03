@@ -1,13 +1,16 @@
 {
-  "asn": 40956,
-  "handle": "NORTHWOOD-UNIVERSITY",
-  "description": "Northwood University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40956,
+  "metadata" : {
+    "handle" : "NORTHWOOD-UNIVERSITY",
+    "description" : "Northwood University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.83.77.0/24",
       "147.160.166.0/24",
       "208.103.178.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 400446,
-  "handle": "CITIZENSBANK",
-  "description": "The Citizens Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400446,
+  "metadata" : {
+    "handle" : "CITIZENSBANK",
+    "description" : "The Citizens Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.168.122.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fbbb::/36"
     ]
   }

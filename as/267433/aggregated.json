@@ -1,12 +1,15 @@
 {
-  "asn": 267433,
-  "handle": "KNET-INTERNET",
-  "description": "Knet Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267433,
+  "metadata" : {
+    "handle" : "KNET-INTERNET",
+    "description" : "Knet Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.163.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4170::/39"
     ]
   }

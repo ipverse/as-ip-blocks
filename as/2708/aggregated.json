@@ -1,9 +1,12 @@
 {
-  "asn": 2708,
-  "handle": "UNIVERSIDAD-GUANAJUATO",
-  "description": "Universidad de Guanajuato",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2708,
+  "metadata" : {
+    "handle" : "UNIVERSIDAD-GUANAJUATO",
+    "description" : "Universidad de Guanajuato",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.214.1.0/24",
       "148.214.2.0/23",
       "148.214.4.0/22",
@@ -44,6 +47,6 @@
       "148.214.201.0/24",
       "148.214.233.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

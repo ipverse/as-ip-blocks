@@ -1,9 +1,12 @@
 {
-  "asn": 22438,
-  "handle": "CLEAR-RATE-COMMUNICATIONS",
-  "description": "Clear Rate Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22438,
+  "metadata" : {
+    "handle" : "CLEAR-RATE-COMMUNICATIONS",
+    "description" : "Clear Rate Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.168.0.0/20",
       "74.113.24.0/22",
       "104.245.84.0/22",
@@ -15,7 +18,7 @@
       "208.90.192.0/21",
       "208.92.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f4b8::/32"
     ]
   }

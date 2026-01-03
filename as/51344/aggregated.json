@@ -1,12 +1,15 @@
 {
-  "asn": 51344,
-  "handle": "IDMSUEDTIROL-AS",
-  "description": "IDM Suedtirol Alto Adige",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51344,
+  "metadata" : {
+    "handle" : "IDMSUEDTIROL-AS",
+    "description" : "IDM Suedtirol Alto Adige",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.167.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:c600::/29"
     ]
   }

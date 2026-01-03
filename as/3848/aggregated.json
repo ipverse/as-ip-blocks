@@ -1,9 +1,12 @@
 {
-  "asn": 3848,
-  "handle": "WORLDLINX-2",
-  "description": "WorldLinx Telecommunications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3848,
+  "metadata" : {
+    "handle" : "WORLDLINX-2",
+    "description" : "WorldLinx Telecommunications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.142.126.0/23",
       "66.97.124.0/24",
       "66.111.131.0/24",
@@ -70,6 +73,6 @@
       "207.236.71.0/24",
       "207.236.250.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

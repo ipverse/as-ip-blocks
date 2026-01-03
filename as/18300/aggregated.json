@@ -1,9 +1,12 @@
 {
-  "asn": 18300,
-  "handle": "KEPRI-AS",
-  "description": "KEPCO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18300,
+  "metadata" : {
+    "handle" : "KEPRI-AS",
+    "description" : "KEPCO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.78.0.0/17",
       "168.78.128.0/18",
       "168.78.192.0/19",
@@ -18,6 +21,6 @@
       "203.248.44.0/24",
       "210.109.152.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

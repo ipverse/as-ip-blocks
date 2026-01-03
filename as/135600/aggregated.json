@@ -1,9 +1,12 @@
 {
-  "asn": 135600,
-  "handle": "WHIZCOMMS-AS-AP",
-  "description": "Whiz Communications Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135600,
+  "metadata" : {
+    "handle" : "WHIZCOMMS-AS-AP",
+    "description" : "Whiz Communications Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.29.152.0/21",
       "38.72.80.0/21",
       "38.188.216.0/21",
@@ -27,7 +30,7 @@
       "202.133.192.0/19",
       "203.17.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:d180:8000::/34"
     ]
   }

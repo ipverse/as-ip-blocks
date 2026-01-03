@@ -1,12 +1,15 @@
 {
-  "asn": 208045,
-  "handle": "GRUNERNETT",
-  "description": "Domeneshop AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208045,
+  "metadata" : {
+    "handle" : "GRUNERNETT",
+    "description" : "Domeneshop AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "151.249.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5b40:ac3::/48"
     ]
   }

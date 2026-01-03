@@ -1,10 +1,13 @@
 {
-  "asn": 56925,
-  "handle": "SIA-LAT-AS",
-  "description": "SIA L.A.T",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 56925,
+  "metadata" : {
+    "handle" : "SIA-LAT-AS",
+    "description" : "SIA L.A.T",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a03:6a0::/32"
     ]
   }

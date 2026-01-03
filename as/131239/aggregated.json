@@ -1,9 +1,12 @@
 {
-  "asn": 131239,
-  "handle": "AUCKLANDCOUNCIL-AS-AP",
-  "description": "Auckland Council",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131239,
+  "metadata" : {
+    "handle" : "AUCKLANDCOUNCIL-AS-AP",
+    "description" : "Auckland Council",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.14.82.0/23",
       "202.27.72.0/24",
       "202.36.248.0/23",
@@ -12,6 +15,6 @@
       "202.36.254.0/24",
       "202.37.64.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 131745,
-  "handle": "IDNIC-CYBERTECHTONIC-AS-ID",
-  "description": "PT. Cybertechtonic Pratama",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131745,
+  "metadata" : {
+    "handle" : "IDNIC-CYBERTECHTONIC-AS-ID",
+    "description" : "PT. Cybertechtonic Pratama",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.128.184.0/22",
       "103.3.215.0/24",
       "103.30.244.0/22",
@@ -15,7 +18,7 @@
       "210.247.244.0/22",
       "210.247.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:85e0::/45",
       "2400:85e0:804::/48",
       "2400:85e0:807::/48"

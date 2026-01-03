@@ -1,13 +1,16 @@
 {
-  "asn": 40760,
-  "handle": "FWB-ALASKA-2",
-  "description": "TelAlaska",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40760,
+  "metadata" : {
+    "handle" : "FWB-ALASKA-2",
+    "description" : "TelAlaska",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.59.96.0/24",
       "67.59.107.0/24",
       "67.59.108.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

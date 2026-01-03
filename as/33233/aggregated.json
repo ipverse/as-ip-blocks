@@ -1,11 +1,14 @@
 {
-  "asn": 33233,
-  "handle": "OECU-BGP1",
-  "description": "Oklahoma Employees Credit Union",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33233,
+  "metadata" : {
+    "handle" : "OECU-BGP1",
+    "description" : "Oklahoma Employees Credit Union",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.161.79.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 17621,
-  "handle": "CNCGROUP-SH",
-  "description": "China Unicom Shanghai network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17621,
+  "metadata" : {
+    "handle" : "CNCGROUP-SH",
+    "description" : "China Unicom Shanghai network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.115.0.0/17",
       "43.243.148.0/22",
       "43.250.144.0/22",
@@ -66,7 +69,7 @@
       "220.248.0.0/17",
       "223.166.0.0/15"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:7600:101::/48",
       "2405:1480:1000::/48",
       "2405:7040:6001::/48",

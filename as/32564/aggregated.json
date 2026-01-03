@@ -1,9 +1,12 @@
 {
-  "asn": 32564,
-  "handle": "INTACT-FINANCIAL-CORPORATION",
-  "description": "Intact Financial Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32564,
+  "metadata" : {
+    "handle" : "INTACT-FINANCIAL-CORPORATION",
+    "description" : "Intact Financial Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.216.36.0/23",
       "142.216.46.0/24",
       "142.216.101.0/24",
@@ -17,6 +20,6 @@
       "199.243.65.0/24",
       "205.210.132.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

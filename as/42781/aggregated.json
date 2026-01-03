@@ -1,9 +1,12 @@
 {
-  "asn": 42781,
-  "handle": "ZNETAS-KW",
-  "description": "Zajil International Telecom Company KSCC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42781,
+  "metadata" : {
+    "handle" : "ZNETAS-KW",
+    "description" : "Zajil International Telecom Company KSCC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.184.3.0/24",
       "80.184.10.0/24",
       "80.184.12.0/23",
@@ -68,6 +71,6 @@
       "168.187.243.0/24",
       "168.187.245.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 43811,
-  "handle": "TELIA-LIETUVA",
-  "description": "Telia Lietuva AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43811,
+  "metadata" : {
+    "handle" : "TELIA-LIETUVA",
+    "description" : "Telia Lietuva AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.193.192.0/21",
       "81.7.105.0/24",
       "81.7.106.0/23",
@@ -30,7 +33,7 @@
       "195.12.180.0/24",
       "212.47.123.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1eb8:c004::/48",
       "2a02:118:2::/48"
     ]

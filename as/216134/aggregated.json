@@ -1,9 +1,12 @@
 {
-  "asn": 216134,
-  "handle": "ZF-FRIEDRICHSHAFEN-AG",
-  "description": "ZF Friedrichshafen AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216134,
+  "metadata" : {
+    "handle" : "ZF-FRIEDRICHSHAFEN-AG",
+    "description" : "ZF Friedrichshafen AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "140.171.0.0/16",
       "149.223.0.0/16",
       "149.238.0.0/16",
@@ -15,7 +18,7 @@
       "193.202.20.0/24",
       "204.235.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:cb41::/32",
       "2a13:cb42:8000::/33"
     ]

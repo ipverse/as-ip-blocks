@@ -1,15 +1,18 @@
 {
-  "asn": 273837,
-  "handle": "NAVEGANTE-NETWORK-CA",
-  "description": "NAVEGANTE NETWORK C.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273837,
+  "metadata" : {
+    "handle" : "NAVEGANTE-NETWORK-CA",
+    "description" : "NAVEGANTE NETWORK C.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.58.191.0/24",
       "38.58.232.0/24",
       "38.147.74.0/23",
       "200.36.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:6950:200::/39",
       "2803:6950:400::/40"
     ]

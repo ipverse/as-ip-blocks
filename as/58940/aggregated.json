@@ -1,9 +1,12 @@
 {
-  "asn": 58940,
-  "handle": "DEDAUS-AS-AP",
-  "description": "DEDICATED SERVERS AUSTRALIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58940,
+  "metadata" : {
+    "handle" : "DEDAUS-AS-AP",
+    "description" : "DEDICATED SERVERS AUSTRALIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.242.42.0/24",
       "43.245.165.0/24",
       "43.245.166.0/24",
@@ -12,7 +15,7 @@
       "103.18.42.0/23",
       "113.52.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:500:4000::/34"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 40091,
-  "handle": "WVVANET",
-  "description": "WVVA.net Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40091,
+  "metadata" : {
+    "handle" : "WVVANET",
+    "description" : "WVVA.net Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "76.9.224.0/23",
       "76.9.226.0/24",
       "76.9.228.0/23",
@@ -13,6 +16,6 @@
       "76.9.236.0/22",
       "216.115.192.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

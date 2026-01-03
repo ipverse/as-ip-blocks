@@ -1,13 +1,16 @@
 {
-  "asn": 138235,
-  "handle": "AIRNETZ-AS-IN",
-  "description": "Airnetz Broadband Services Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138235,
+  "metadata" : {
+    "handle" : "AIRNETZ-AS-IN",
+    "description" : "Airnetz Broadband Services Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.134.96.0/22",
       "103.171.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:5140:1::/48",
       "2407:5140:2::/48"
     ]

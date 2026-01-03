@@ -1,9 +1,12 @@
 {
-  "asn": 150150,
-  "handle": "AISANIE1-AS-AP",
-  "description": "AISANIE DATA SERVICES LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150150,
+  "metadata" : {
+    "handle" : "AISANIE1-AS-AP",
+    "description" : "AISANIE DATA SERVICES LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.67.211.0/24",
       "38.110.230.0/23",
       "38.123.160.0/23",
@@ -15,7 +18,7 @@
       "206.238.224.0/24",
       "206.238.226.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:3960:1000::/48"
     ]
   }

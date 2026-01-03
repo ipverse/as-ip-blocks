@@ -1,9 +1,12 @@
 {
-  "asn": 63344,
-  "handle": "DKM2-ARIN",
-  "description": "The Reynolds and Reynolds Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63344,
+  "metadata" : {
+    "handle" : "DKM2-ARIN",
+    "description" : "The Reynolds and Reynolds Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.180.20.0/23",
       "206.180.32.0/24",
       "206.180.44.0/24",
@@ -12,6 +15,6 @@
       "206.180.51.0/24",
       "206.180.61.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

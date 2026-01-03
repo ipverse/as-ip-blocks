@@ -1,15 +1,18 @@
 {
-  "asn": 200946,
-  "handle": "RSA-AS",
-  "description": "EMC Information Systems International PUC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200946,
+  "metadata" : {
+    "handle" : "RSA-AS",
+    "description" : "EMC Information Systems International PUC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.207.232.0/24",
       "84.207.246.0/24",
       "198.161.246.0/24",
       "204.180.228.0/24",
       "208.23.212.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

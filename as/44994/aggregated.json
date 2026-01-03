@@ -1,13 +1,16 @@
 {
-  "asn": 44994,
-  "handle": "IPEVA-FR",
-  "description": "IPEVA SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44994,
+  "metadata" : {
+    "handle" : "IPEVA-FR",
+    "description" : "IPEVA SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.238.52.0/22",
       "185.102.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:2540::/29"
     ]
   }

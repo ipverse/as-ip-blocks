@@ -1,12 +1,15 @@
 {
-  "asn": 36061,
-  "handle": "WATERLOO-01",
-  "description": "Waterloo Fiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36061,
+  "metadata" : {
+    "handle" : "WATERLOO-01",
+    "description" : "Waterloo Fiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.62.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f9c2::/36"
     ]
   }

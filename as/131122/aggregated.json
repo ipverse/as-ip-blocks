@@ -1,12 +1,15 @@
 {
-  "asn": 131122,
-  "handle": "VNNIC-4-BYTE-AS-VN",
-  "description": "Vietnam Internet network information center (VNNIC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131122,
+  "metadata" : {
+    "handle" : "VNNIC-4-BYTE-AS-VN",
+    "description" : "Vietnam Internet network information center (VNNIC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "117.122.2.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:dc8:2002::/48"
     ]
   }

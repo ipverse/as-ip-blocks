@@ -1,15 +1,18 @@
 {
-  "asn": 149948,
-  "handle": "IDNIC-NUSAHOST-AS-ID",
-  "description": "PT Magna Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149948,
+  "metadata" : {
+    "handle" : "IDNIC-NUSAHOST-AS-ID",
+    "description" : "PT Magna Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.6.20.0/24",
       "103.190.28.0/23",
       "193.163.127.0/24",
       "203.100.57.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:8a0::/32"
     ]
   }

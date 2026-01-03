@@ -1,12 +1,15 @@
 {
-  "asn": 204227,
-  "handle": "SAP-SE-SOF",
-  "description": "SAP SE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204227,
+  "metadata" : {
+    "handle" : "SAP-SE-SOF",
+    "description" : "SAP SE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.57.20.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1728:2f::/48",
       "2a14:44c0:4::/48"
     ]

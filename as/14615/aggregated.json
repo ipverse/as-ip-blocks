@@ -1,9 +1,12 @@
 {
-  "asn": 14615,
-  "handle": "ROCK-HILL-TELEPHONE",
-  "description": "Comporium Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14615,
+  "metadata" : {
+    "handle" : "ROCK-HILL-TELEPHONE",
+    "description" : "Comporium Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.53.22.0/24",
       "64.53.27.0/24",
       "64.53.61.0/24",
@@ -65,7 +68,7 @@
       "207.144.234.0/23",
       "208.104.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f280::/32"
     ]
   }

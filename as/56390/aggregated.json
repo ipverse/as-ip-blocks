@@ -1,12 +1,15 @@
 {
-  "asn": 56390,
-  "handle": "KEMOMS-AS",
-  "description": "TFOMS Kemerovskoy oblasti - Kuzbassa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56390,
+  "metadata" : {
+    "handle" : "KEMOMS-AS",
+    "description" : "TFOMS Kemerovskoy oblasti - Kuzbassa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.3.218.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2bf0::/48"
     ]
   }

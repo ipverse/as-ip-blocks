@@ -1,9 +1,12 @@
 {
-  "asn": 8025,
-  "handle": "BRIGHTOK-AS",
-  "description": "BrightNet Oklahoma",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8025,
+  "metadata" : {
+    "handle" : "BRIGHTOK-AS",
+    "description" : "BrightNet Oklahoma",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.139.48.0/24",
       "66.103.112.0/20",
       "67.206.96.0/19",
@@ -28,6 +31,6 @@
       "205.240.128.0/20",
       "216.137.16.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 400333,
-  "handle": "JRNETWORKPR",
-  "description": "JR Network PR",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400333,
+  "metadata" : {
+    "handle" : "JRNETWORKPR",
+    "description" : "JR Network PR",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.130.120.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:98c0::/32"
     ]
   }

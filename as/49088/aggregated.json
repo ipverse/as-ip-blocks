@@ -1,9 +1,12 @@
 {
-  "asn": 49088,
-  "handle": "TELMEKOM-AS",
-  "description": "TELMEKOM SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49088,
+  "metadata" : {
+    "handle" : "TELMEKOM-AS",
+    "description" : "TELMEKOM SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.86.108.0/22",
       "45.90.92.0/22",
       "45.135.68.0/22",
@@ -16,7 +19,7 @@
       "195.39.250.0/23",
       "195.39.252.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:edc::/48",
       "2a07:3d00::/29"
     ]

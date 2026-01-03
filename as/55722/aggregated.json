@@ -1,12 +1,15 @@
 {
-  "asn": 55722,
-  "handle": "CENPAC-AS-AP",
-  "description": "CenPac Net Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55722,
+  "metadata" : {
+    "handle" : "CENPAC-AS-AP",
+    "description" : "CenPac Net Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.98.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:f600::/32"
     ]
   }

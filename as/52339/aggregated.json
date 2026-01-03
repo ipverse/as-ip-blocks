@@ -1,9 +1,12 @@
 {
-  "asn": 52339,
-  "handle": "LIMA-VIDEO-CABLE",
-  "description": "Lima Video Cable S.A. (Cabletel)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52339,
+  "metadata" : {
+    "handle" : "LIMA-VIDEO-CABLE",
+    "description" : "Lima Video Cable S.A. (Cabletel)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.72.28.0/22",
       "190.13.112.0/23",
       "190.13.114.0/24",
@@ -11,6 +14,6 @@
       "190.107.216.0/21",
       "190.151.144.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

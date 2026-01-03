@@ -1,12 +1,15 @@
 {
-  "asn": 153141,
-  "handle": "IDNIC-JLMARITIM-AS-ID",
-  "description": "PT Jaringan Lintas Maritim",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153141,
+  "metadata" : {
+    "handle" : "IDNIC-JLMARITIM-AS-ID",
+    "description" : "PT Jaringan Lintas Maritim",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.191.130.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:84c0::/48"
     ]
   }

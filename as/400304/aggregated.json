@@ -1,9 +1,12 @@
 {
-  "asn": 400304,
-  "handle": "CRUNCHBITS",
-  "description": "Redoubt Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400304,
+  "metadata" : {
+    "handle" : "CRUNCHBITS",
+    "description" : "Redoubt Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.147.152.0/23",
       "64.49.12.0/23",
       "66.23.193.0/24",
@@ -23,7 +26,7 @@
       "216.126.232.0/22",
       "216.181.107.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:a8c0::/39",
       "2606:a8c0:1600::/39",
       "2606:a8c0:8000::/47"

@@ -1,9 +1,12 @@
 {
-  "asn": 39542,
-  "handle": "SIGMA-INFORMATIQUE",
-  "description": "SIGMA INFORMATIQUE SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39542,
+  "metadata" : {
+    "handle" : "SIGMA-INFORMATIQUE",
+    "description" : "SIGMA INFORMATIQUE SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.213.242.0/24",
       "185.43.60.0/22",
       "185.137.252.0/23",
@@ -13,7 +16,7 @@
       "193.201.43.0/24",
       "194.50.39.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6960::/32"
     ]
   }

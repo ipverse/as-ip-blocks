@@ -1,9 +1,12 @@
 {
-  "asn": 1733,
-  "handle": "DISACENT-NIPR-ASN",
-  "description": "United States Department of Defense (DoD)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1733,
+  "metadata" : {
+    "handle" : "DISACENT-NIPR-ASN",
+    "description" : "United States Department of Defense (DoD)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.229.68.0/23",
       "134.229.70.0/24",
       "139.242.216.0/24",
@@ -16,7 +19,7 @@
       "214.72.17.0/24",
       "215.65.119.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2608:8105:1::/48",
       "2608:8105:a119::/48",
       "2608:8105:bbda::/48",

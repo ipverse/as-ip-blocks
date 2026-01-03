@@ -1,16 +1,19 @@
 {
-  "asn": 9507,
-  "handle": "NEXTHOP-AS-AP",
-  "description": "NextHop Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9507,
+  "metadata" : {
+    "handle" : "NEXTHOP-AS-AP",
+    "description" : "NextHop Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.66.132.0/22",
       "103.131.13.0/24",
       "103.131.14.0/23",
       "103.232.248.0/22",
       "180.222.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:e480::/46"
     ]
   }

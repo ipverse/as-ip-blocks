@@ -1,12 +1,15 @@
 {
-  "asn": 139816,
-  "handle": "MKNETWORK-AS-AP",
-  "description": "M K Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139816,
+  "metadata" : {
+    "handle" : "MKNETWORK-AS-AP",
+    "description" : "M K Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.159.114.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:340::/32"
     ]
   }

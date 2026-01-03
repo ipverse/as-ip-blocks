@@ -1,14 +1,17 @@
 {
-  "asn": 45302,
-  "handle": "DESNET-AS-ID",
-  "description": "PT DES Teknologi Informasi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45302,
+  "metadata" : {
+    "handle" : "DESNET-AS-ID",
+    "description" : "PT DES Teknologi Informasi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.30.180.0/22",
       "112.78.40.0/21",
       "157.119.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:9100::/32"
     ]
   }

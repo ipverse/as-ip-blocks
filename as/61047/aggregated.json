@@ -1,9 +1,12 @@
 {
-  "asn": 61047,
-  "handle": "KALANDA",
-  "description": "SAS KALANDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61047,
+  "metadata" : {
+    "handle" : "KALANDA",
+    "description" : "SAS KALANDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.220.197.0/24",
       "185.43.44.0/22",
       "185.71.224.0/22",
@@ -12,6 +15,6 @@
       "185.189.188.0/22",
       "194.150.164.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

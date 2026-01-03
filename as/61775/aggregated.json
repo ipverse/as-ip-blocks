@@ -1,13 +1,16 @@
 {
-  "asn": 61775,
-  "handle": "AW-FIBRA",
-  "description": "AW Fibra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61775,
+  "metadata" : {
+    "handle" : "AW-FIBRA",
+    "description" : "AW Fibra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.204.36.0/22",
       "200.229.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1928::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 399250,
-  "handle": "NAMEHERO-KCDC",
-  "description": "Name Hero LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399250,
+  "metadata" : {
+    "handle" : "NAMEHERO-KCDC",
+    "description" : "Name Hero LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.57.209.0/24",
       "45.41.235.0/24",
       "103.120.48.0/24",
@@ -11,6 +14,6 @@
       "165.140.68.0/22",
       "198.175.150.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

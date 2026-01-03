@@ -1,14 +1,17 @@
 {
-  "asn": 196863,
-  "handle": "HATANET",
-  "description": "HATANET Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 196863,
+  "metadata" : {
+    "handle" : "HATANET",
+    "description" : "HATANET Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.223.88.0/24",
       "91.227.206.0/23",
       "91.234.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2808:2301::/48"
     ]
   }

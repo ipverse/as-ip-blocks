@@ -1,9 +1,12 @@
 {
-  "asn": 208425,
-  "handle": "YONCU",
-  "description": "Osbil Technology Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208425,
+  "metadata" : {
+    "handle" : "YONCU",
+    "description" : "Osbil Technology Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.1.132.0/24",
       "185.50.68.0/22",
       "185.114.20.0/22",
@@ -12,7 +15,7 @@
       "194.61.116.0/22",
       "217.28.139.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:a420::/29",
       "2a0a:3900::/29",
       "2a0f:d500::/29"

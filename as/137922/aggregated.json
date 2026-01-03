@@ -1,9 +1,12 @@
 {
-  "asn": 137922,
-  "handle": "IBOSS-AS-AP",
-  "description": "IBOSS Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137922,
+  "metadata" : {
+    "handle" : "IBOSS-AS-AP",
+    "description" : "IBOSS Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.111.180.0/22",
       "124.40.55.0/24",
       "136.228.216.0/24",
@@ -27,7 +30,7 @@
       "170.128.88.0/23",
       "170.128.91.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:a0c0::/46",
       "2402:a0c0:4::/47",
       "2402:a0c0:6::/48",

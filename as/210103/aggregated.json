@@ -1,12 +1,15 @@
 {
-  "asn": 210103,
-  "handle": "DDPO",
-  "description": "Cedric Dasnois",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210103,
+  "metadata" : {
+    "handle" : "DDPO",
+    "description" : "Cedric Dasnois",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.19.11.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:1d00::/32"
     ]
   }

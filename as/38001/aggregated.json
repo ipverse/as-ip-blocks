@@ -1,9 +1,12 @@
 {
-  "asn": 38001,
-  "handle": "NEWMEDIAEXPRESS-AS-AP",
-  "description": "NewMedia Express Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38001,
+  "metadata" : {
+    "handle" : "NEWMEDIAEXPRESS-AS-AP",
+    "description" : "NewMedia Express Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.143.180.0/22",
       "38.224.132.0/23",
       "38.225.100.0/22",
@@ -47,7 +50,7 @@
       "203.174.84.0/23",
       "203.174.87.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:2f80:1::/48",
       "2402:2f80:8::/48",
       "2406:f400::/44",

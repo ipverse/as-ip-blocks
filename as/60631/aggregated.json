@@ -1,9 +1,12 @@
 {
-  "asn": 60631,
-  "handle": "PARVASYSTEM",
-  "description": "Vandad Vira Hooman LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60631,
+  "metadata" : {
+    "handle" : "PARVASYSTEM",
+    "description" : "Pars Parva System LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.139.10.0/23",
       "45.149.76.0/22",
       "45.159.149.0/24",
@@ -47,7 +50,7 @@
       "212.23.201.0/24",
       "217.114.40.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:2dc0::/35",
       "2a03:2dc0:2000::/36",
       "2a0e:b080::/30"

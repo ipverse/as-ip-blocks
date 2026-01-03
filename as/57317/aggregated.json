@@ -1,13 +1,16 @@
 {
-  "asn": 57317,
-  "handle": "SERVERMEILE-AS",
-  "description": "Servermeile GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57317,
+  "metadata" : {
+    "handle" : "SERVERMEILE-AS",
+    "description" : "Servermeile GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.105.112.0/22",
       "185.134.242.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:3700::/43",
       "2a06:3707:f000::/48"
     ]

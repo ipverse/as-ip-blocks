@@ -1,14 +1,17 @@
 {
-  "asn": 395466,
-  "handle": "GLOBALNET",
-  "description": "Global Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395466,
+  "metadata" : {
+    "handle" : "GLOBALNET",
+    "description" : "Global Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.92.160.0/21",
       "154.27.104.0/21",
       "216.166.168.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:a1c0::/32"
     ]
   }

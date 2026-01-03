@@ -1,9 +1,12 @@
 {
-  "asn": 152584,
-  "handle": "IVAN-US",
-  "description": "Infinivan Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152584,
+  "metadata" : {
+    "handle" : "IVAN-US",
+    "description" : "Infinivan Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "126.209.15.0/24",
       "126.209.33.0/24",
       "126.209.37.0/24",
@@ -14,6 +17,6 @@
       "126.209.86.0/24",
       "126.209.96.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

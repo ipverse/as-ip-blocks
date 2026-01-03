@@ -1,13 +1,16 @@
 {
-  "asn": 213550,
-  "handle": "JONRADEL",
-  "description": "Jon Radel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213550,
+  "metadata" : {
+    "handle" : "JONRADEL",
+    "description" : "Jon Radel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.169.225.0/24",
       "45.152.68.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fed2:7000::/48",
       "2602:fed2:7003::/48",
       "2a0c:b641:1e2::/48",

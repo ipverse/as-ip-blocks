@@ -1,13 +1,16 @@
 {
-  "asn": 400554,
-  "handle": "STRICITY",
-  "description": "Stricity LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400554,
+  "metadata" : {
+    "handle" : "STRICITY",
+    "description" : "Stricity LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.134.120.0/24",
       "199.248.241.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fb9d::/40"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 205659,
-  "handle": "CODE200-ISP2",
-  "description": "UAB code200",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205659,
+  "metadata" : {
+    "handle" : "CODE200-ISP2",
+    "description" : "UAB code200",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.253.227.0/24",
       "31.24.85.0/24",
       "37.16.89.0/24",
@@ -41,7 +44,7 @@
       "216.173.120.0/24",
       "216.246.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:e9c6::/32",
       "2a13:6cc6::/32"
     ]

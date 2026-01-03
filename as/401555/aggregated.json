@@ -1,12 +1,15 @@
 {
-  "asn": 401555,
-  "handle": "BLOCKCAST-CDN-01",
-  "description": "Blockcast Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401555,
+  "metadata" : {
+    "handle" : "BLOCKCAST-CDN-01",
+    "description" : "Blockcast Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.25.95.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f74d:1::/48"
     ]
   }

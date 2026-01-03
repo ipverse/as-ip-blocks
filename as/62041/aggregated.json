@@ -1,16 +1,19 @@
 {
-  "asn": 62041,
-  "handle": "TELEGRAM",
-  "description": "Telegram Messenger Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62041,
+  "metadata" : {
+    "handle" : "TELEGRAM",
+    "description" : "Telegram Messenger Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.108.4.0/22",
       "91.108.8.0/22",
       "91.108.56.0/22",
       "95.161.64.0/20",
       "149.154.160.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:4e8::/48"
     ]
   }

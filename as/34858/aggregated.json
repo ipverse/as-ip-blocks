@@ -1,9 +1,12 @@
 {
-  "asn": 34858,
-  "handle": "TELEZON",
-  "description": "Telezon-Seti LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34858,
+  "metadata" : {
+    "handle" : "TELEZON",
+    "description" : "Telezon-Seti LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.23.121.0/24",
       "91.195.100.0/23",
       "192.145.96.0/24",
@@ -21,7 +24,7 @@
       "195.209.96.0/23",
       "195.238.246.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:bf4::/48"
     ]
   }

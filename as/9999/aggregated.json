@@ -1,9 +1,12 @@
 {
-  "asn": 9999,
-  "handle": "ATTOKYO",
-  "description": "AT TOKYO Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9999,
+  "metadata" : {
+    "handle" : "ATTOKYO",
+    "description" : "AT TOKYO Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "110.44.20.0/22",
       "119.59.64.0/21",
       "165.100.192.0/20",
@@ -15,7 +18,7 @@
       "211.132.0.0/20",
       "219.99.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:1800::/32"
     ]
   }

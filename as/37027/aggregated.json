@@ -1,9 +1,12 @@
 {
-  "asn": 37027,
-  "handle": "SIMBANET-AS",
-  "description": "Simbanet (T) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37027,
+  "metadata" : {
+    "handle" : "SIMBANET-AS",
+    "description" : "Simbanet (T) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.221.72.0/21",
       "62.8.74.0/24",
       "62.8.83.0/24",
@@ -36,7 +39,7 @@
       "197.220.119.0/24",
       "197.220.127.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:e950::/32",
       "2c0f:f658::/32",
       "2c0f:fce0::/32"

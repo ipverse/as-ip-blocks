@@ -1,9 +1,12 @@
 {
-  "asn": 21713,
-  "handle": "BULLOCH",
-  "description": "Bulloch County Rural Telephone Cooperative Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21713,
+  "metadata" : {
+    "handle" : "BULLOCH",
+    "description" : "Bulloch County Rural Telephone Cooperative Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.172.64.0/19",
       "72.162.196.0/23",
       "104.160.48.0/20",
@@ -11,6 +14,6 @@
       "209.166.98.0/23",
       "216.14.64.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 28436,
-  "handle": "KONECTA-SONORA",
-  "description": "Konecta Sonora SA de CV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28436,
+  "metadata" : {
+    "handle" : "KONECTA-SONORA",
+    "description" : "Konecta Sonora SA de CV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.9.55.0/24",
       "200.124.72.0/23",
       "200.124.74.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:3a7::/32"
     ]
   }

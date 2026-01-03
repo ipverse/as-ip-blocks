@@ -1,9 +1,12 @@
 {
-  "asn": 2506,
-  "handle": "SUPERCSI",
-  "description": "NTT WEST CHUGOKU CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2506,
+  "metadata" : {
+    "handle" : "SUPERCSI",
+    "description" : "NTT WEST CHUGOKU CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "133.41.0.0/16",
       "150.19.0.0/16",
       "165.242.0.0/16",
@@ -11,7 +14,7 @@
       "202.245.144.0/24",
       "202.249.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:44a0::/32"
     ]
   }

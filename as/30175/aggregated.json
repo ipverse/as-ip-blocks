@@ -1,9 +1,12 @@
 {
-  "asn": 30175,
-  "handle": "EPICOR",
-  "description": "EPICOR",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30175,
+  "metadata" : {
+    "handle" : "EPICOR",
+    "description" : "EPICOR",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.152.181.0/24",
       "159.66.0.0/24",
       "159.66.4.0/24",
@@ -30,6 +33,6 @@
       "205.173.230.0/23",
       "206.114.176.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

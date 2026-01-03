@@ -1,9 +1,12 @@
 {
-  "asn": 198068,
-  "handle": "PAGM-AS",
-  "description": "P.A.G.M. OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198068,
+  "metadata" : {
+    "handle" : "PAGM-AS",
+    "description" : "P.A.G.M. OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.45.112.0/20",
       "5.101.112.0/20",
       "5.101.176.0/20",
@@ -16,7 +19,7 @@
       "185.4.72.0/22",
       "193.42.142.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:f480:1::/48",
       "2a03:f480:2::/47"
     ]

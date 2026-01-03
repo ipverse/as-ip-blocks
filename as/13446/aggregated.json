@@ -1,9 +1,12 @@
 {
-  "asn": 13446,
-  "handle": "AS-NETZERO",
-  "description": "Netzero INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13446,
+  "metadata" : {
+    "handle" : "AS-NETZERO",
+    "description" : "Netzero INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.136.0.0/18",
       "68.71.117.0/24",
       "68.71.122.0/24",
@@ -18,6 +21,6 @@
       "216.234.64.0/23",
       "216.234.70.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

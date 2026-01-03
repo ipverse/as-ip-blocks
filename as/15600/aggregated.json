@@ -1,9 +1,12 @@
 {
-  "asn": 15600,
-  "handle": "QUICKLINE",
-  "description": "Quickline AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15600,
+  "metadata" : {
+    "handle" : "QUICKLINE",
+    "description" : "Quickline AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.44.112.0/20",
       "5.144.0.0/19",
       "5.145.0.0/18",
@@ -55,7 +58,7 @@
       "212.60.32.0/19",
       "213.221.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1a88::/29",
       "2a00:9fe0::/29",
       "2a00:ce20::/29",

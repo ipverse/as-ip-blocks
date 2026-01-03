@@ -1,9 +1,12 @@
 {
-  "asn": 35432,
-  "handle": "CABLENET-AS",
-  "description": "Cablenet Communication Systems plc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35432,
+  "metadata" : {
+    "handle" : "CABLENET-AS",
+    "description" : "Cablenet Communication Systems plc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.251.96.0/19",
       "64.59.208.0/20",
       "65.18.208.0/20",
@@ -36,7 +39,7 @@
       "213.169.149.0/24",
       "216.241.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:540::/32"
     ]
   }

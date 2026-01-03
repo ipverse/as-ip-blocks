@@ -1,9 +1,12 @@
 {
-  "asn": 204053,
-  "handle": "ADESTIS-NET",
-  "description": "ADESTIS GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204053,
+  "metadata" : {
+    "handle" : "ADESTIS-NET",
+    "description" : "ADESTIS GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.143.16.0/22",
       "45.152.152.0/22",
       "91.198.78.0/24",
@@ -11,6 +14,6 @@
       "185.203.92.0/22",
       "193.16.97.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

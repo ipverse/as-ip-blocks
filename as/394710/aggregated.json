@@ -1,14 +1,17 @@
 {
-  "asn": 394710,
-  "handle": "TELMAX-INC",
-  "description": "TelMAX Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394710,
+  "metadata" : {
+    "handle" : "TELMAX-INC",
+    "description" : "TelMAX Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.131.160.0/19",
       "142.46.66.0/23",
       "209.216.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:7a40::/32",
       "2604:dc00:1015::/48"
     ]

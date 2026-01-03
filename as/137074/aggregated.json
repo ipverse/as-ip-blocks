@@ -1,9 +1,12 @@
 {
-  "asn": 137074,
-  "handle": "RISE-AS-AP",
-  "description": "Responsible Internet Sustainability Effort",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137074,
+  "metadata" : {
+    "handle" : "RISE-AS-AP",
+    "description" : "Responsible Internet Sustainability Effort",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.224.188.0/22",
       "43.226.4.0/22",
       "45.64.80.0/22",
@@ -18,6 +21,6 @@
       "203.28.64.0/22",
       "204.144.188.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 45769,
-  "handle": "DVOIS-IN",
-  "description": "D-Vois Broadband Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45769,
+  "metadata" : {
+    "handle" : "DVOIS-IN",
+    "description" : "D-Vois Broadband Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.112.144.0/22",
       "45.112.148.0/23",
       "45.112.150.0/24",
@@ -61,7 +64,7 @@
       "202.140.60.0/22",
       "203.114.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:1f00::/44",
       "2400:1f00:14::/48",
       "2400:1f00:1a::/47",

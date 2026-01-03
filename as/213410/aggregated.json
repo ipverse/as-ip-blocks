@@ -1,13 +1,16 @@
 {
-  "asn": 213410,
-  "handle": "OAKHOST",
-  "description": "OakHost OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213410,
+  "metadata" : {
+    "handle" : "OAKHOST",
+    "description" : "OakHost OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.147.93.0/24",
       "194.117.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:b140:1::/48"
     ]
   }

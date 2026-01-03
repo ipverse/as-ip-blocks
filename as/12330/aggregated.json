@@ -1,12 +1,15 @@
 {
-  "asn": 12330,
-  "handle": "MPYNET-AS",
-  "description": "MPY Telecom Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12330,
+  "metadata" : {
+    "handle" : "MPYNET-AS",
+    "description" : "MPY Telecom Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.94.96.0/21",
       "195.94.104.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

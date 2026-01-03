@@ -1,9 +1,12 @@
 {
-  "asn": 393559,
-  "handle": "WEBBING-USA",
-  "description": "WEBBING USA INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393559,
+  "metadata" : {
+    "handle" : "WEBBING-USA",
+    "description" : "WEBBING USA INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.22.248.0/22",
       "38.57.168.0/22",
       "38.64.4.0/22",
@@ -39,7 +42,7 @@
       "209.200.244.0/23",
       "209.200.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f8c8::/40",
       "2602:f8c8:600::/40",
       "2602:f8c8:900::/40",

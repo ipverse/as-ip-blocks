@@ -1,9 +1,12 @@
 {
-  "asn": 64445,
-  "handle": "AS-NETJOIN",
-  "description": "Michele Pietravalle trading as NetJoin",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64445,
+  "metadata" : {
+    "handle" : "AS-NETJOIN",
+    "description" : "Michele Pietravalle trading as NetJoin",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.193.188.0/24",
       "37.156.174.0/24",
       "45.38.99.0/24",
@@ -68,7 +71,7 @@
       "193.239.140.0/23",
       "217.198.177.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:e6c0::/47"
     ]
   }

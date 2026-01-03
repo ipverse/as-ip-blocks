@@ -1,9 +1,12 @@
 {
-  "asn": 19886,
-  "handle": "BOFABROKERDEALERSVCS",
-  "description": "Bank of America National Association",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19886,
+  "metadata" : {
+    "handle" : "BOFABROKERDEALERSVCS",
+    "description" : "Bank of America National Association",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "171.162.10.0/24",
       "171.162.14.0/24",
       "171.162.20.0/24",
@@ -22,6 +25,6 @@
       "171.162.236.0/23",
       "171.162.239.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

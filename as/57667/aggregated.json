@@ -1,9 +1,12 @@
 {
-  "asn": 57667,
-  "handle": "UPTIME-IT-01",
-  "description": "Uptime IT GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57667,
+  "metadata" : {
+    "handle" : "UPTIME-IT-01",
+    "description" : "Uptime IT GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.85.40.0/23",
       "45.85.42.0/24",
       "46.30.0.0/21",
@@ -11,7 +14,7 @@
       "185.238.24.0/24",
       "195.137.225.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:f780:4000::/36"
     ]
   }

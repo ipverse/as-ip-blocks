@@ -1,14 +1,17 @@
 {
-  "asn": 43559,
-  "handle": "SOESTA-AS",
-  "description": "Soesta ZAO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43559,
+  "metadata" : {
+    "handle" : "SOESTA-AS",
+    "description" : "Soesta ZAO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.213.163.0/24",
       "91.216.208.0/24",
       "91.237.192.0/24",
       "193.46.213.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

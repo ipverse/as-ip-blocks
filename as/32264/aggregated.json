@@ -1,9 +1,12 @@
 {
-  "asn": 32264,
-  "handle": "KMTELECOM",
-  "description": "KMTelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32264,
+  "metadata" : {
+    "handle" : "KMTELECOM",
+    "description" : "KMTelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.72.76.0/23",
       "70.35.96.0/20",
       "104.218.152.0/22",
@@ -12,6 +15,6 @@
       "199.199.152.0/23",
       "204.73.77.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

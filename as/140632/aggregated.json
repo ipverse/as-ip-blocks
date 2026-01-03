@@ -1,12 +1,15 @@
 {
-  "asn": 140632,
-  "handle": "NETSATELLITE-AS-AP",
-  "description": "NET SATELLITE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140632,
+  "metadata" : {
+    "handle" : "NETSATELLITE-AS-AP",
+    "description" : "NET SATELLITE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.203.236.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:4cc0::/48"
     ]
   }

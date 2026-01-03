@@ -1,13 +1,16 @@
 {
-  "asn": 201210,
-  "handle": "TRIGONON-AS",
-  "description": "TRIGONON DATA SERVICES LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201210,
+  "metadata" : {
+    "handle" : "TRIGONON-AS",
+    "description" : "TRIGONON DATA SERVICES LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.82.36.0/24",
       "185.82.38.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4d70::/32",
       "2a05:8cc0::/29"
     ]

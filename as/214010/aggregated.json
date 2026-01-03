@@ -1,11 +1,14 @@
 {
-  "asn": 214010,
-  "handle": "WISPNET-AS",
-  "description": "WISPNET TELECOMMUNICATIONS IKE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214010,
+  "metadata" : {
+    "handle" : "WISPNET-AS",
+    "description" : "WISPNET TELECOMMUNICATIONS IKE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.225.206.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

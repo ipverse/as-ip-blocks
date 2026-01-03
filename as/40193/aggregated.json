@@ -1,16 +1,19 @@
 {
-  "asn": 40193,
-  "handle": "AS-TRIT",
-  "description": "Trit Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40193,
+  "metadata" : {
+    "handle" : "AS-TRIT",
+    "description" : "Trit Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.193.228.0/22",
       "104.244.56.0/21",
       "208.75.88.0/22",
       "208.90.32.0/21",
       "209.159.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:1a0::/32"
     ]
   }

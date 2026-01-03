@@ -1,9 +1,12 @@
 {
-  "asn": 10204,
-  "handle": "ARCNET-NTTMSC-MY",
-  "description": "NTT MSC Sdn Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10204,
+  "metadata" : {
+    "handle" : "ARCNET-NTTMSC-MY",
+    "description" : "NTT MSC Sdn Bhd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.51.50.0/23",
       "103.229.32.0/22",
       "146.88.196.0/22",
@@ -11,7 +14,7 @@
       "203.78.200.0/22",
       "203.115.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:c18::/32"
     ]
   }

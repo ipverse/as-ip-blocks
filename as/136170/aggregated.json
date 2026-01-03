@@ -1,9 +1,12 @@
 {
-  "asn": 136170,
-  "handle": "EXBCOID-AS-AP",
-  "description": "PT. EXABYTES NETWORK INDONESIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136170,
+  "metadata" : {
+    "handle" : "EXBCOID-AS-AP",
+    "description" : "PT. EXABYTES NETWORK INDONESIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.64.0.0/22",
       "49.50.8.0/22",
       "103.11.74.0/23",
@@ -15,6 +18,6 @@
       "202.157.184.0/22",
       "202.157.188.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

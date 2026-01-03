@@ -1,14 +1,17 @@
 {
-  "asn": 49278,
-  "handle": "NORDEF",
-  "description": "IKT-KAPASITETER",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49278,
+  "metadata" : {
+    "handle" : "NORDEF",
+    "description" : "IKT-KAPASITETER",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.84.0.0/16",
       "158.112.0.0/16",
       "185.155.26.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:27b8:1::/48",
       "2a02:27b8:1111::/48",
       "2a02:27b8:1112::/48",

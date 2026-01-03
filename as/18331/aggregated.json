@@ -1,9 +1,12 @@
 {
-  "asn": 18331,
-  "handle": "HCC-AS",
-  "description": "Daejeon Institute of Science and Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18331,
+  "metadata" : {
+    "handle" : "HCC-AS",
+    "description" : "Daejeon Institute of Science and Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.232.148.0/22",
       "210.93.32.0/22",
       "220.149.48.0/23",
@@ -11,6 +14,6 @@
       "220.149.204.0/23",
       "220.149.206.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

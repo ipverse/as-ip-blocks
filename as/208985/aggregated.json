@@ -1,12 +1,15 @@
 {
-  "asn": 208985,
-  "handle": "NPSERVER-AS",
-  "description": "Niklas Polte",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208985,
+  "metadata" : {
+    "handle" : "NPSERVER-AS",
+    "description" : "Niklas Polte",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.46.36.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:914::/48",
       "2a0e:b107:18f0::/47",
       "2a0e:b107:18f2::/48"

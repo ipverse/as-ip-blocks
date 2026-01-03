@@ -1,15 +1,18 @@
 {
-  "asn": 32228,
-  "handle": "ASISN",
-  "description": "ISN Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32228,
+  "metadata" : {
+    "handle" : "ASISN",
+    "description" : "ISN Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.63.32.0/20",
       "68.67.208.0/20",
       "198.89.228.0/22",
       "198.136.153.0/24",
       "207.231.208.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 60735,
-  "handle": "DELIGHTVPS-AS",
-  "description": "Konstantin Verba",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60735,
+  "metadata" : {
+    "handle" : "DELIGHTVPS-AS",
+    "description" : "Konstantin Verba",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.124.236.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:3cc3::/35",
       "2a0f:3cc3:2000::/36",
       "2a0f:3cc6::/32"

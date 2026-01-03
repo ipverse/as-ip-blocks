@@ -1,9 +1,12 @@
 {
-  "asn": 7345,
-  "handle": "LUCENTTECH",
-  "description": "Nokia of America Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7345,
+  "metadata" : {
+    "handle" : "LUCENTTECH",
+    "description" : "Nokia of America Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "135.92.56.0/22",
       "135.109.192.0/23",
       "135.109.196.0/22",
@@ -15,7 +18,7 @@
       "135.109.236.0/22",
       "135.109.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:17a:8::/48"
     ]
   }

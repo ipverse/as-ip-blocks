@@ -1,9 +1,12 @@
 {
-  "asn": 23627,
-  "handle": "UCVNET",
-  "description": "UEDA CABLE VISION CO. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23627,
+  "metadata" : {
+    "handle" : "UCVNET",
+    "description" : "UEDA CABLE VISION CO. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.1.252.0/22",
       "113.21.248.0/21",
       "116.199.176.0/20",
@@ -12,7 +15,7 @@
       "202.213.48.0/20",
       "210.228.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:bb00::/32"
     ]
   }

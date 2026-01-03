@@ -1,9 +1,12 @@
 {
-  "asn": 31261,
-  "handle": "GARS-AS",
-  "description": "PJSC MegaFon",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31261,
+  "metadata" : {
+    "handle" : "GARS-AS",
+    "description" : "PJSC MegaFon",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.8.177.0/24",
       "37.16.80.0/22",
       "77.74.72.0/22",
@@ -34,7 +37,7 @@
       "188.164.214.0/23",
       "217.171.152.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:330::/45"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 8315,
-  "handle": "ACNBB",
-  "description": "Accenture B. V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8315,
+  "metadata" : {
+    "handle" : "ACNBB",
+    "description" : "Accenture B. V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.171.0/24",
       "5.100.224.0/21",
       "79.99.184.0/21",
@@ -51,7 +54,7 @@
       "213.247.32.0/19",
       "217.195.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:16f8::/32",
       "2a00:1bd8::/32",
       "2a01:40e0::/32",

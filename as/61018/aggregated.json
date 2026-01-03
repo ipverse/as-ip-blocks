@@ -1,12 +1,15 @@
 {
-  "asn": 61018,
-  "handle": "PVH-AS",
-  "description": "PVH B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61018,
+  "metadata" : {
+    "handle" : "PVH-AS",
+    "description" : "PVH B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.250.22.0/23",
       "185.19.103.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

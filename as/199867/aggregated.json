@@ -1,10 +1,13 @@
 {
-  "asn": 199867,
-  "handle": "PAGM-AS-2",
-  "description": "P.A.G.M. OU",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 199867,
+  "metadata" : {
+    "handle" : "PAGM-AS-2",
+    "description" : "P.A.G.M. OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a09:8240:100::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 28075,
-  "handle": "ARLINK",
-  "description": "ARLINK S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28075,
+  "metadata" : {
+    "handle" : "ARLINK",
+    "description" : "ARLINK S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.72.0.0/22",
       "138.204.0.0/22",
       "143.202.192.0/22",
@@ -57,7 +60,7 @@
       "201.190.246.0/23",
       "201.190.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:1f40::/34",
       "2803:6600::/32",
       "2803:6601::/34",

@@ -1,12 +1,15 @@
 {
-  "asn": 150218,
-  "handle": "IDNIC-WMN-AS-ID",
-  "description": "PT Wijaya Mandiri Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150218,
+  "metadata" : {
+    "handle" : "IDNIC-WMN-AS-ID",
+    "description" : "PT Wijaya Mandiri Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.20.50.0/24",
       "103.218.104.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

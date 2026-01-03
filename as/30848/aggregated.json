@@ -1,9 +1,12 @@
 {
-  "asn": 30848,
-  "handle": "IT-TWT-AS",
-  "description": "UNIDATA S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30848,
+  "metadata" : {
+    "handle" : "IT-TWT-AS",
+    "description" : "UNIDATA S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.8.96.0/19",
       "5.63.168.0/21",
       "37.148.224.0/21",
@@ -62,7 +65,7 @@
       "217.61.160.0/20",
       "217.196.142.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1630::/32"
     ]
   }

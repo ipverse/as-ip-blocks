@@ -1,9 +1,12 @@
 {
-  "asn": 212097,
-  "handle": "VIM",
-  "description": "VIM TELECOMUNICACIONES SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212097,
+  "metadata" : {
+    "handle" : "VIM",
+    "description" : "VIM TELECOMUNICACIONES SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.133.36.0/23",
       "62.133.39.0/24",
       "178.19.36.0/22",
@@ -14,7 +17,7 @@
       "185.242.102.0/24",
       "193.46.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:a240::/29",
       "2a10:b180::/32"
     ]

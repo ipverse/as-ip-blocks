@@ -1,9 +1,12 @@
 {
-  "asn": 30257,
-  "handle": "GEMC",
-  "description": "Gibson Electric Membership Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30257,
+  "metadata" : {
+    "handle" : "GEMC",
+    "description" : "Gibson Electric Membership Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.160.164.0/22",
       "128.128.96.0/19",
       "152.86.128.0/18",
@@ -11,7 +14,7 @@
       "169.150.64.0/19",
       "208.72.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff79::/32"
     ]
   }

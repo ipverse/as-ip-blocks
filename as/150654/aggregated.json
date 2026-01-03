@@ -1,9 +1,12 @@
 {
-  "asn": 150654,
-  "handle": "KENNIESIT-AS-IN",
-  "description": "Kennies Star India Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150654,
+  "metadata" : {
+    "handle" : "KENNIESIT-AS-IN",
+    "description" : "Kennies Star India Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.225.204.0/23",
       "38.225.206.0/24",
       "103.25.125.0/24",
@@ -12,7 +15,7 @@
       "160.30.206.0/23",
       "175.111.97.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:eba0::/32"
     ]
   }

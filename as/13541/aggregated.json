@@ -1,9 +1,12 @@
 {
-  "asn": 13541,
-  "handle": "SIEMENS-DISW-WIV-B-ORW",
-  "description": "Siemens Industry Software Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13541,
+  "metadata" : {
+    "handle" : "SIEMENS-DISW-WIV-B-ORW",
+    "description" : "Siemens Industry Software Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.86.0.0/16",
       "137.202.0.0/16",
       "139.181.12.0/22",
@@ -12,7 +15,7 @@
       "192.94.36.0/24",
       "192.94.38.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:107:f000::/40"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 50052,
-  "handle": "TORA-AS",
-  "description": "TORANET LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50052,
+  "metadata" : {
+    "handle" : "TORA-AS",
+    "description" : "TORANET LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.178.30.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

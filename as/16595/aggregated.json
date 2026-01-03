@@ -1,9 +1,12 @@
 {
-  "asn": 16595,
-  "handle": "TORO",
-  "description": "The Toro Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16595,
+  "metadata" : {
+    "handle" : "TORO",
+    "description" : "The Toro Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.92.0.0/23",
       "170.92.3.0/24",
       "170.92.4.0/23",
@@ -13,6 +16,6 @@
       "170.92.56.0/23",
       "170.92.64.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 198573,
-  "handle": "SIEMENSDE-AP",
-  "description": "Siemens AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198573,
+  "metadata" : {
+    "handle" : "SIEMENSDE-AP",
+    "description" : "Siemens AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.99.148.0/24",
       "192.35.1.0/24",
       "192.35.2.0/24",
@@ -13,7 +16,7 @@
       "194.138.54.0/24",
       "194.138.102.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ad87:1303::/48"
     ]
   }

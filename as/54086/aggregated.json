@@ -1,9 +1,12 @@
 {
-  "asn": 54086,
-  "handle": "SINGLE-DIGITS",
-  "description": "Single Digits Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54086,
+  "metadata" : {
+    "handle" : "SINGLE-DIGITS",
+    "description" : "Single Digits Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.221.84.0/24",
       "162.221.86.0/23",
       "162.255.172.0/22",
@@ -12,6 +15,6 @@
       "199.168.145.0/24",
       "199.168.146.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

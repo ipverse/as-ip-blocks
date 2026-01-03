@@ -1,9 +1,12 @@
 {
-  "asn": 21777,
-  "handle": "MASSIVE-NETWORKS",
-  "description": "Massive Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21777,
+  "metadata" : {
+    "handle" : "MASSIVE-NETWORKS",
+    "description" : "Massive Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.92.96.0/19",
       "192.124.0.0/24",
       "199.45.152.0/24",
@@ -44,7 +47,7 @@
       "207.174.175.0/24",
       "207.174.201.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ffc6:100::/40",
       "2602:ffc6:200::/39",
       "2602:ffc6:400::/39",

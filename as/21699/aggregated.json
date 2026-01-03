@@ -1,9 +1,12 @@
 {
-  "asn": 21699,
-  "handle": "IO",
-  "description": "IO INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21699,
+  "metadata" : {
+    "handle" : "IO",
+    "description" : "IO INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.130.96.0/23",
       "23.188.104.0/24",
       "45.41.212.0/22",
@@ -23,6 +26,6 @@
       "204.10.89.0/24",
       "209.160.96.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

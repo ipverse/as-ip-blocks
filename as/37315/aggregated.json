@@ -1,16 +1,19 @@
 {
-  "asn": 37315,
-  "handle": "CIPHERWAVE",
-  "description": "Cipherwave",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37315,
+  "metadata" : {
+    "handle" : "CIPHERWAVE",
+    "description" : "Cipherwave",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.79.108.0/22",
       "41.87.192.0/19",
       "102.165.192.0/18",
       "192.96.139.0/24",
       "197.234.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:ec80::/32",
       "2c0f:fb40::/32"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 31483,
-  "handle": "ERTELECOM-DC-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31483,
+  "metadata" : {
+    "handle" : "ERTELECOM-DC-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.3.0.0/21",
       "5.3.8.0/24",
       "46.146.236.0/23",
@@ -13,7 +16,7 @@
       "109.194.158.0/23",
       "188.186.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:54e0:ec00::/38",
       "2a01:54e0:f000::/37",
       "2a01:54e0:f800::/38",

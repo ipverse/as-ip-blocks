@@ -1,9 +1,12 @@
 {
-  "asn": 7602,
-  "handle": "SPT-AS-VN",
-  "description": "Sai gon Postel Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7602,
+  "metadata" : {
+    "handle" : "SPT-AS-VN",
+    "description" : "Sai gon Postel Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.118.0.0/23",
       "116.118.2.0/24",
       "116.118.4.0/23",
@@ -27,6 +30,6 @@
       "221.121.0.0/18",
       "221.133.0.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

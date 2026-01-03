@@ -1,13 +1,16 @@
 {
-  "asn": 14805,
-  "handle": "DVA-USDC-DEN",
-  "description": "DaVita HealthCare Partners Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14805,
+  "metadata" : {
+    "handle" : "DVA-USDC-DEN",
+    "description" : "DaVita HealthCare Partners Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.170.80.0/20",
       "96.46.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:11d:9000::/48"
     ]
   }

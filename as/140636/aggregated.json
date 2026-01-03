@@ -1,9 +1,12 @@
 {
-  "asn": 140636,
-  "handle": "CHINANET-IOT-BEIJING",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140636,
+  "metadata" : {
+    "handle" : "CHINANET-IOT-BEIJING",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "115.170.218.0/23",
       "117.61.16.0/23",
       "117.61.18.0/24",
@@ -29,7 +32,7 @@
       "117.61.192.0/21",
       "117.61.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:804::/41",
       "240e:804:80::/43",
       "240e:804:200::/40",

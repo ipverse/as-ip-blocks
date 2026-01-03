@@ -1,9 +1,12 @@
 {
-  "asn": 132115,
-  "handle": "ISPL-AS-AP",
-  "description": "INDINET SERVICE PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132115,
+  "metadata" : {
+    "handle" : "ISPL-AS-AP",
+    "description" : "INDINET SERVICE PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.117.200.0/21",
       "45.126.160.0/22",
       "103.24.188.0/22",
@@ -35,7 +38,7 @@
       "202.142.123.0/24",
       "202.142.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:3c80::/44",
       "2406:3c80:18::/48",
       "2406:3c80:400::/46"

@@ -1,9 +1,12 @@
 {
-  "asn": 204764,
-  "handle": "AS-MWS-EUR",
-  "description": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204764,
+  "metadata" : {
+    "handle" : "AS-MWS-EUR",
+    "description" : "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.35.23.0/24",
       "129.35.28.0/24",
       "129.35.152.0/23",
@@ -17,6 +20,6 @@
       "193.150.166.0/23",
       "194.29.114.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 60550,
-  "handle": "DEEPL",
-  "description": "DeepL SE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60550,
+  "metadata" : {
+    "handle" : "DEEPL",
+    "description" : "DeepL SE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.37.238.0/24",
       "194.124.204.0/22",
       "195.180.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:b240::/29"
     ]
   }

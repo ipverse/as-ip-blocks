@@ -1,9 +1,12 @@
 {
-  "asn": 19970,
-  "handle": "CARRIERDOMAIN-NYC",
-  "description": "R\u0026R Managed Telecom Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19970,
+  "metadata" : {
+    "handle" : "CARRIERDOMAIN-NYC",
+    "description" : "R&R Managed Telecom Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.105.229.0/24",
       "38.125.23.0/24",
       "43.231.207.0/24",
@@ -14,7 +17,7 @@
       "154.48.198.0/24",
       "154.48.201.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fa63::/36"
     ]
   }

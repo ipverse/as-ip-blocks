@@ -1,9 +1,12 @@
 {
-  "asn": 138571,
-  "handle": "SUPERCLOUDSLIMITED-AS-AP",
-  "description": "SUPERCLOUDS LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138571,
+  "metadata" : {
+    "handle" : "SUPERCLOUDSLIMITED-AS-AP",
+    "description" : "SUPERCLOUDS LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.84.168.0/21",
       "38.84.176.0/20",
       "38.90.0.0/21",
@@ -14,7 +17,7 @@
       "198.44.238.0/24",
       "203.34.110.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:4a40::/32"
     ]
   }

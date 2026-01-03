@@ -1,13 +1,16 @@
 {
-  "asn": 263612,
-  "handle": "IP-CARRIER",
-  "description": "IP CARRIER",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263612,
+  "metadata" : {
+    "handle" : "IP-CARRIER",
+    "description" : "IP CARRIER",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.124.128.0/22",
       "179.189.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:ffc::/32"
     ]
   }

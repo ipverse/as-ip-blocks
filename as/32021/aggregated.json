@@ -1,11 +1,14 @@
 {
-  "asn": 32021,
-  "handle": "OSOINTERNET",
-  "description": "Oso Internet Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32021,
+  "metadata" : {
+    "handle" : "OSOINTERNET",
+    "description" : "Oso Internet Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.2.144.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

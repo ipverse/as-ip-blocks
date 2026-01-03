@@ -1,13 +1,16 @@
 {
-  "asn": 45501,
-  "handle": "YAHOO-CORP-SG-AS-AP",
-  "description": "Yahoo IS-NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45501,
+  "metadata" : {
+    "handle" : "YAHOO-CORP-SG-AS-AP",
+    "description" : "Yahoo IS-NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "117.104.189.0/24",
       "202.89.121.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:2000:ef64::/48",
       "2406:2000:efa5::/48"
     ]

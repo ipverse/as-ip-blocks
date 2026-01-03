@@ -1,9 +1,12 @@
 {
-  "asn": 136601,
-  "handle": "GT-GPC-AS-AP",
-  "description": "GOVERNMENT TECHNOLOGY AGENCY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136601,
+  "metadata" : {
+    "handle" : "GT-GPC-AS-AP",
+    "description" : "GOVERNMENT TECHNOLOGY AGENCY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.96.100.0/22",
       "160.96.104.0/22",
       "160.96.108.0/23",
@@ -11,7 +14,7 @@
       "160.96.120.0/22",
       "160.96.124.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:318::/47"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 49113,
-  "handle": "CABLOTEL",
-  "description": "Petignat Jean-Charles trading as Cablotel Telereseaux",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49113,
+  "metadata" : {
+    "handle" : "CABLOTEL",
+    "description" : "Petignat Jean-Charles trading as Cablotel Telereseaux",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.234.56.0/21",
       "91.201.148.0/22",
       "185.97.136.0/22",
       "193.111.202.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:cd40::/32"
     ]
   }

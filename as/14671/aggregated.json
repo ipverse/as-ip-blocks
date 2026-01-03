@@ -1,9 +1,12 @@
 {
-  "asn": 14671,
-  "handle": "TACONIC",
-  "description": "FairPoint Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14671,
+  "metadata" : {
+    "handle" : "TACONIC",
+    "description" : "FairPoint Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.158.164.0/23",
       "67.158.166.0/24",
       "67.158.178.0/23",
@@ -21,6 +24,6 @@
       "216.227.80.0/22",
       "216.227.122.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

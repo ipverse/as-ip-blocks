@@ -1,9 +1,12 @@
 {
-  "asn": 55991,
-  "handle": "CNNIC-ASN-BLOCK",
-  "description": "CNNIC ASN block",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55991,
+  "metadata" : {
+    "handle" : "INDIAN-REGISTRY-FOR",
+    "description" : "Indian Registry for Internet Names and Numbers",
+    "origin" : "inferred"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.228.204.0/22",
       "43.228.240.0/22",
       "45.124.76.0/22",
@@ -14,6 +17,6 @@
       "103.192.208.0/22",
       "103.235.102.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

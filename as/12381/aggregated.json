@@ -1,9 +1,12 @@
 {
-  "asn": 12381,
-  "handle": "RESILANS",
-  "description": "Resilans AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12381,
+  "metadata" : {
+    "handle" : "RESILANS",
+    "description" : "Resilans AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.180.235.0/24",
       "194.14.3.0/24",
       "194.68.48.0/24",
@@ -11,7 +14,7 @@
       "194.71.25.0/24",
       "194.71.117.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:280:1::/48",
       "2a01:280:3::/48",
       "2a01:280:4::/47"

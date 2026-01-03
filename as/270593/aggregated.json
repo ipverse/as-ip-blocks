@@ -1,12 +1,15 @@
 {
-  "asn": 270593,
-  "handle": "NAVEG-FIBRA",
-  "description": "NAVEG FIBRA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270593,
+  "metadata" : {
+    "handle" : "NAVEG-FIBRA",
+    "description" : "NAVEG FIBRA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "187.95.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6e60::/32"
     ]
   }

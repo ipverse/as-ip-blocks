@@ -1,9 +1,12 @@
 {
-  "asn": 140810,
-  "handle": "MEGACORE-AS-VN",
-  "description": "Megacore Technology Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140810,
+  "metadata" : {
+    "handle" : "MEGACORE-AS-VN",
+    "description" : "Megacore Technology Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.77.172.0/23",
       "103.77.214.0/23",
       "103.77.240.0/23",
@@ -21,7 +24,7 @@
       "160.250.216.0/23",
       "223.130.10.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:c340::/48",
       "2001:df4:d880::/48",
       "2041:36a0::/48",

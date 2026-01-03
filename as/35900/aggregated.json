@@ -1,9 +1,12 @@
 {
-  "asn": 35900,
-  "handle": "DIGI-BDS-ASN",
-  "description": "Digicel Barbados Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35900,
+  "metadata" : {
+    "handle" : "DIGI-BDS-ASN",
+    "description" : "Digicel Barbados Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.143.76.0/24",
       "64.119.192.0/20",
       "66.249.150.0/24",
@@ -11,7 +14,7 @@
       "196.3.192.0/19",
       "199.47.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe45::/36"
     ]
   }

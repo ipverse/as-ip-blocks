@@ -1,12 +1,15 @@
 {
-  "asn": 35646,
-  "handle": "GRAWE-AS",
-  "description": "Grazer Wechselseitige Versicherung AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35646,
+  "metadata" : {
+    "handle" : "GRAWE-AS",
+    "description" : "Grazer Wechselseitige Versicherung AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.195.216.0/24",
       "193.28.204.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

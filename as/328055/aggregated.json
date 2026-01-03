@@ -1,12 +1,15 @@
 {
-  "asn": 328055,
-  "handle": "N-PLUS-ONE-AS",
-  "description": "NPONE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328055,
+  "metadata" : {
+    "handle" : "N-PLUS-ONE-AS",
+    "description" : "NPONE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "169.255.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:4100::/35",
       "2c0f:4100:2000::/36",
       "2c0f:4100:8000::/35"

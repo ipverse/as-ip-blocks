@@ -1,9 +1,12 @@
 {
-  "asn": 19730,
-  "handle": "BMEAS-A00001",
-  "description": "BENCHMARK INTERNET GROUP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19730,
+  "metadata" : {
+    "handle" : "BMEAS-A00001",
+    "description" : "BENCHMARK INTERNET GROUP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.95.104.0/23",
       "38.126.36.0/24",
       "38.126.54.0/24",
@@ -11,6 +14,6 @@
       "207.8.96.0/23",
       "216.4.238.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

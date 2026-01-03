@@ -1,11 +1,14 @@
 {
-  "asn": 139806,
-  "handle": "MASTERNET-AS-AP",
-  "description": "Master Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139806,
+  "metadata" : {
+    "handle" : "MASTERNET-AS-AP",
+    "description" : "Master Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.145.74.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

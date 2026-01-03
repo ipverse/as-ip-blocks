@@ -1,9 +1,12 @@
 {
-  "asn": 9430,
-  "handle": "STPI-NOIDA",
-  "description": "Software Technology Parks of India Block-IV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9430,
+  "metadata" : {
+    "handle" : "STPI-NOIDA",
+    "description" : "Software Technology Parks of India Block-IV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.35.120.0/23",
       "103.60.156.0/24",
       "103.171.96.0/24",
@@ -32,7 +35,7 @@
       "203.193.170.0/24",
       "203.193.179.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:ef09::/32",
       "2402:ef0f::/32",
       "2402:ef13:1::/48",

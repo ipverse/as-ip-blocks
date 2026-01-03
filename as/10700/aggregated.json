@@ -1,12 +1,15 @@
 {
-  "asn": 10700,
-  "handle": "TECINFO",
-  "description": "TECINFO Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10700,
+  "metadata" : {
+    "handle" : "TECINFO",
+    "description" : "TECINFO Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.220.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:80c0::/32"
     ]
   }

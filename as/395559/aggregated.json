@@ -1,15 +1,18 @@
 {
-  "asn": 395559,
-  "handle": "FORCE-BROADBAND",
-  "description": "Force Broadband LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395559,
+  "metadata" : {
+    "handle" : "FORCE-BROADBAND",
+    "description" : "Force Broadband LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "140.235.40.0/22",
       "162.216.68.0/23",
       "192.69.136.0/22",
       "199.188.116.0/22",
       "203.24.247.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

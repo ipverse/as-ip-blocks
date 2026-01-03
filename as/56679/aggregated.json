@@ -1,9 +1,12 @@
 {
-  "asn": 56679,
-  "handle": "TECOM-AS",
-  "description": "Voin Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56679,
+  "metadata" : {
+    "handle" : "TECOM-AS",
+    "description" : "Voin Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.152.220.0/22",
       "81.3.154.0/24",
       "84.204.148.0/24",
@@ -12,7 +15,7 @@
       "194.186.48.0/24",
       "213.33.244.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:6300::/48",
       "2a14:6c00::/48"
     ]

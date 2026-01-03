@@ -1,9 +1,12 @@
 {
-  "asn": 10190,
-  "handle": "JB-AS",
-  "description": "Joongbu University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10190,
+  "metadata" : {
+    "handle" : "JB-AS",
+    "description" : "Joongbu University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.42.86.0/24",
       "61.81.105.0/24",
       "61.81.106.0/23",
@@ -20,6 +23,6 @@
       "220.149.96.0/21",
       "222.101.115.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

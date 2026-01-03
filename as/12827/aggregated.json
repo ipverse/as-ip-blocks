@@ -1,9 +1,12 @@
 {
-  "asn": 12827,
-  "handle": "WIRTUALNAPOLSKA",
-  "description": "Wirtualna Polska Media S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12827,
+  "metadata" : {
+    "handle" : "WIRTUALNAPOLSKA",
+    "description" : "Wirtualna Polska Media S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.77.96.0/21",
       "212.77.104.0/22",
       "212.77.108.0/23",
@@ -12,6 +15,6 @@
       "212.77.116.0/23",
       "212.77.120.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

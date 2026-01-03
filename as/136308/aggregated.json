@@ -1,9 +1,12 @@
 {
-  "asn": 136308,
-  "handle": "DEENET-AS",
-  "description": "Deenet Services Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136308,
+  "metadata" : {
+    "handle" : "DEENET-AS",
+    "description" : "Deenet Services Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.240.232.0/23",
       "103.62.150.0/23",
       "103.89.232.0/22",
@@ -14,7 +17,7 @@
       "161.248.22.0/23",
       "202.12.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:6440::/48",
       "2401:ea20::/32",
       "2403:7340::/32",

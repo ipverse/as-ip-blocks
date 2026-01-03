@@ -1,9 +1,12 @@
 {
-  "asn": 138640,
-  "handle": "HELLOTECHLIMITED-AS-AP",
-  "description": "HelloTech Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138640,
+  "metadata" : {
+    "handle" : "HELLOTECHLIMITED-AS-AP",
+    "description" : "HelloTech Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.246.200.0/23",
       "103.42.202.0/23",
       "103.61.240.0/23",
@@ -17,7 +20,7 @@
       "103.238.216.0/23",
       "160.191.148.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:4340::/48",
       "2001:df2:b240::/48",
       "2402:76c0:f000::/36"

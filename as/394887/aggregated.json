@@ -1,13 +1,16 @@
 {
-  "asn": 394887,
-  "handle": "MONETRA-AS",
-  "description": "Monetra Technologies LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394887,
+  "metadata" : {
+    "handle" : "MONETRA-AS",
+    "description" : "Monetra Technologies LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.182.192.0/24",
       "172.110.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:134:c001::/48",
       "2620:134:c003::/48",
       "2620:134:c004::/47"

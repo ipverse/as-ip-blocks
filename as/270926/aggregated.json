@@ -1,12 +1,15 @@
 {
-  "asn": 270926,
-  "handle": "DT-CONNECT",
-  "description": "DT Connect",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270926,
+  "metadata" : {
+    "handle" : "DT-CONNECT",
+    "description" : "DT Connect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.26.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:739c::/32"
     ]
   }

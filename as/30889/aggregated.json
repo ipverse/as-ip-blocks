@@ -1,12 +1,15 @@
 {
-  "asn": 30889,
-  "handle": "WAYCOM-AS",
-  "description": "ADISTA SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30889,
+  "metadata" : {
+    "handle" : "WAYCOM-AS",
+    "description" : "ADISTA SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.27.195.0/24",
       "207.241.200.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

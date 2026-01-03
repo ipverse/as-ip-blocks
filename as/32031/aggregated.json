@@ -1,12 +1,15 @@
 {
-  "asn": 32031,
-  "handle": "BVUSD229",
-  "description": "BLUE VALLEY USD NO 229",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32031,
+  "metadata" : {
+    "handle" : "BVUSD229",
+    "description" : "BLUE VALLEY USD NO 229",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.52.179.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:34:c000::/48"
     ]
   }

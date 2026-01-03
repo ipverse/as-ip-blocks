@@ -1,14 +1,17 @@
 {
-  "asn": 55079,
-  "handle": "STELLANET",
-  "description": "Third Gear Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55079,
+  "metadata" : {
+    "handle" : "STELLANET",
+    "description" : "Third Gear Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.208.108.0/22",
       "198.176.44.0/23",
       "198.176.47.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:ab80:2::/47",
       "2604:ab80:4::/47",
       "2604:ab80:8::/48"

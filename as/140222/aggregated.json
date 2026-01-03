@@ -1,12 +1,15 @@
 {
-  "asn": 140222,
-  "handle": "APNA-AS-AP",
-  "description": "Apna Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140222,
+  "metadata" : {
+    "handle" : "APNA-AS-AP",
+    "description" : "Apna Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.144.104.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:bc80::/48"
     ]
   }

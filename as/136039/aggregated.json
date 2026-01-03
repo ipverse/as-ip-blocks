@@ -1,13 +1,16 @@
 {
-  "asn": 136039,
-  "handle": "NANO-AS-AP",
-  "description": "NANO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136039,
+  "metadata" : {
+    "handle" : "NANO-AS-AP",
+    "description" : "NANO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.229.124.0/22",
       "103.80.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:50c0::/32"
     ]
   }

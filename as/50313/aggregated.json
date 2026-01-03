@@ -1,13 +1,16 @@
 {
-  "asn": 50313,
-  "handle": "TESLATEL-AS",
-  "description": "TESLATEL LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50313,
+  "metadata" : {
+    "handle" : "TESLATEL-AS",
+    "description" : "TESLATEL LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.33.172.0/22",
       "212.42.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:9480::/29"
     ]
   }

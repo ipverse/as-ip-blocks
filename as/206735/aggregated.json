@@ -1,9 +1,12 @@
 {
-  "asn": 206735,
-  "handle": "NOVELCOMM-AS",
-  "description": "Novelcomm LP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206735,
+  "metadata" : {
+    "handle" : "NOVELCOMM-AS",
+    "description" : "Novelcomm LP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.29.43.0/24",
       "82.29.44.0/24",
       "82.29.50.0/24",
@@ -16,7 +19,7 @@
       "154.57.26.0/24",
       "154.57.29.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470:46c::/48",
       "2001:978:7301::/48"
     ]

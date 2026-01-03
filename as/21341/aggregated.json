@@ -1,9 +1,12 @@
 {
-  "asn": 21341,
-  "handle": "SINET-AS",
-  "description": "Soroush Rasanheh Company Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21341,
+  "metadata" : {
+    "handle" : "SINET-AS",
+    "description" : "Soroush Rasanheh Company Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.220.96.0/21",
       "62.220.104.0/22",
       "81.12.8.0/21",
@@ -24,7 +27,7 @@
       "87.107.132.0/23",
       "185.60.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1198::/48"
     ]
   }

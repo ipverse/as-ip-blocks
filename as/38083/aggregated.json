@@ -1,12 +1,15 @@
 {
-  "asn": 38083,
-  "handle": "CURTIN-UNI-AS-AP",
-  "description": "Curtin University of Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38083,
+  "metadata" : {
+    "handle" : "CURTIN-UNI-AS-AP",
+    "description" : "Curtin University of Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.7.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:3b00::/32"
     ]
   }

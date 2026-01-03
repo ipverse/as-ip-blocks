@@ -1,13 +1,16 @@
 {
-  "asn": 50204,
-  "handle": "ARHAT-AS",
-  "description": "PE Bondar TN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50204,
+  "metadata" : {
+    "handle" : "ARHAT-AS",
+    "description" : "PE Bondar TN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.22.16.0/22",
       "193.32.12.0/22",
       "195.211.252.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

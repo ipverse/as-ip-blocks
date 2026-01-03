@@ -1,12 +1,15 @@
 {
-  "asn": 205600,
-  "handle": "ARGONET-AS",
-  "description": "ArgoNET GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205600,
+  "metadata" : {
+    "handle" : "ARGONET-AS",
+    "description" : "ArgoNET GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.236.47.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:88c0::/29"
     ]
   }

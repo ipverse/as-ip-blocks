@@ -1,9 +1,12 @@
 {
-  "asn": 29030,
-  "handle": "TELEKABEL",
-  "description": "TELECABEL PLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29030,
+  "metadata" : {
+    "handle" : "TELEKABEL",
+    "description" : "TELECABEL PLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.13.200.0/21",
       "31.13.242.0/23",
       "87.121.8.0/21",
@@ -17,6 +20,6 @@
       "94.156.244.0/24",
       "185.217.38.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

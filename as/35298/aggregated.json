@@ -1,15 +1,18 @@
 {
-  "asn": 35298,
-  "handle": "MF-MGSM-AS",
-  "description": "PJSC MegaFon",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35298,
+  "metadata" : {
+    "handle" : "MF-MGSM-AS",
+    "description" : "PJSC MegaFon",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.173.176.0/20",
       "37.29.76.0/22",
       "78.41.100.0/22",
       "178.176.154.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:d000:8740::/47"
     ]
   }

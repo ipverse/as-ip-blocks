@@ -1,9 +1,12 @@
 {
-  "asn": 203389,
-  "handle": "BARTSAT-AS",
-  "description": "TELEWIZJA KABLOWA BART-SAT-STOWARZYSZENIE W BARTOSZYCACH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203389,
+  "metadata" : {
+    "handle" : "BARTSAT-AS",
+    "description" : "TELEWIZJA KABLOWA BART-SAT-STOWARZYSZENIE W BARTOSZYCACH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.177.184.0/22",
       "82.177.210.0/23",
       "88.220.62.0/23",
@@ -11,6 +14,6 @@
       "88.220.100.0/22",
       "195.136.124.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

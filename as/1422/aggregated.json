@@ -1,13 +1,16 @@
 {
-  "asn": 1422,
-  "handle": "MEDIA6-ASN",
-  "description": "Media6degrees",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1422,
+  "metadata" : {
+    "handle" : "MEDIA6-ASN",
+    "description" : "Media6degrees",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.108.99.0/24",
       "38.126.130.0/24",
       "204.2.197.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

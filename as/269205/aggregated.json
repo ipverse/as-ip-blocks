@@ -1,12 +1,15 @@
 {
-  "asn": 269205,
-  "handle": "LIDER-TELECOM",
-  "description": "lider telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269205,
+  "metadata" : {
+    "handle" : "LIDER-TELECOM",
+    "description" : "lider telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.181.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6100::/32"
     ]
   }

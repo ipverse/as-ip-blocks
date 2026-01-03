@@ -1,9 +1,12 @@
 {
-  "asn": 18943,
-  "handle": "YELCOT",
-  "description": "YELCOT TELEPHONE COMPANY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18943,
+  "metadata" : {
+    "handle" : "YELCOT",
+    "description" : "YELCOT TELEPHONE COMPANY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.75.31.0/24",
       "67.209.40.0/23",
       "67.209.42.0/24",
@@ -11,7 +14,7 @@
       "207.66.96.0/21",
       "216.134.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:6c00::/32"
     ]
   }

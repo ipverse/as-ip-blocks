@@ -1,9 +1,12 @@
 {
-  "asn": 205806,
-  "handle": "STADTWERKE-NEUSTRELITZ",
-  "description": "Stadtwerke Neustrelitz GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205806,
+  "metadata" : {
+    "handle" : "STADTWERKE-NEUSTRELITZ",
+    "description" : "Stadtwerke Neustrelitz GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.249.160.0/19",
       "149.249.192.0/19",
       "149.249.224.0/20",
@@ -14,7 +17,7 @@
       "213.208.40.0/21",
       "213.208.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:d484::/32"
     ]
   }

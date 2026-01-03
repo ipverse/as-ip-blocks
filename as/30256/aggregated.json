@@ -1,9 +1,12 @@
 {
-  "asn": 30256,
-  "handle": "ACADIAU",
-  "description": "Acadia University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30256,
+  "metadata" : {
+    "handle" : "ACADIAU",
+    "description" : "Acadia University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.162.0.0/18",
       "131.162.64.0/20",
       "131.162.80.0/21",
@@ -13,7 +16,7 @@
       "131.162.208.0/21",
       "131.162.224.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:21:c000::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 32765,
-  "handle": "SENTCO",
-  "description": "Sentco.net LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32765,
+  "metadata" : {
+    "handle" : "SENTCO",
+    "description" : "Sentco.net LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.107.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:7080::/32"
     ]
   }

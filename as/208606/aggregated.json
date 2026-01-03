@@ -1,15 +1,18 @@
 {
-  "asn": 208606,
-  "handle": "SWD",
-  "description": "Stadtwerke Duesseldorf AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208606,
+  "metadata" : {
+    "handle" : "SWD",
+    "description" : "Stadtwerke Duesseldorf AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.9.68.0/23",
       "45.9.70.0/24",
       "193.30.131.0/24",
       "194.59.48.0/23",
       "194.59.51.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

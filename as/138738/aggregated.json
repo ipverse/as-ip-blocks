@@ -1,11 +1,14 @@
 {
-  "asn": 138738,
-  "handle": "SPEEDNET4-AS-IN",
-  "description": "speed net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138738,
+  "metadata" : {
+    "handle" : "SPEEDNET4-AS-IN",
+    "description" : "speed net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.70.156.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

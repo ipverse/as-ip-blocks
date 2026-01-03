@@ -1,14 +1,17 @@
 {
-  "asn": 10145,
-  "handle": "SECUREIPITS-AS-AP",
-  "description": "SecureIP ITS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10145,
+  "metadata" : {
+    "handle" : "SECUREIPITS-AS-AP",
+    "description" : "SecureIP ITS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.23.250.0/24",
       "203.56.93.0/24",
       "203.98.65.0/24",
       "203.98.87.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

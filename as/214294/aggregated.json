@@ -1,13 +1,16 @@
 {
-  "asn": 214294,
-  "handle": "NOOBNET",
-  "description": "NOOB RP LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214294,
+  "metadata" : {
+    "handle" : "NOOBNET",
+    "description" : "NOOB RP LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "123.100.225.0/24",
       "195.216.178.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:ee80:1::/48",
       "2a01:ee80:2::/48"
     ]

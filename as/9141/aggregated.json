@@ -1,9 +1,12 @@
 {
-  "asn": 9141,
-  "handle": "AS9141",
-  "description": "P4 Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9141,
+  "metadata" : {
+    "handle" : "AS9141",
+    "description" : "P4 Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.178.0.0/15",
       "31.186.192.0/19",
       "77.236.0.0/19",
@@ -33,7 +36,7 @@
       "213.134.160.0/19",
       "217.119.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4050::/32",
       "2a02:a300::/27"
     ]

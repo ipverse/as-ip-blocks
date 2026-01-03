@@ -1,9 +1,12 @@
 {
-  "asn": 17350,
-  "handle": "MOODYS",
-  "description": "Moody\u0027s Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17350,
+  "metadata" : {
+    "handle" : "MOODYS",
+    "description" : "Moody's Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.160.12.0/22",
       "141.160.25.0/24",
       "141.160.48.0/24",
@@ -16,6 +19,6 @@
       "141.160.64.0/23",
       "204.13.56.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

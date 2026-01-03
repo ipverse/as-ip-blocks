@@ -1,12 +1,15 @@
 {
-  "asn": 154191,
-  "handle": "IDNIC-WLD-ID",
-  "description": "PT WIFIKCB LINTAS DATA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 154191,
+  "metadata" : {
+    "handle" : "IDNIC-WLD-ID",
+    "description" : "PT WIFIKCB LINTAS DATA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.126.250.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:c40::/48"
     ]
   }

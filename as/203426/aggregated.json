@@ -1,12 +1,15 @@
 {
-  "asn": 203426,
-  "handle": "AS-SKOLVERKET",
-  "description": "Statens Skolverk",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203426,
+  "metadata" : {
+    "handle" : "AS-SKOLVERKET",
+    "description" : "Statens Skolverk",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.235.52.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1888::/48"
     ]
   }

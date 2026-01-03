@@ -1,9 +1,12 @@
 {
-  "asn": 12601,
-  "handle": "CEGEDIM",
-  "description": "Cegedim.Cloud SASU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12601,
+  "metadata" : {
+    "handle" : "CEGEDIM",
+    "description" : "Cegedim.Cloud SASU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.126.192.0/22",
       "64.126.200.0/22",
       "64.126.208.0/23",
@@ -20,7 +23,7 @@
       "195.101.164.0/22",
       "213.159.9.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1220:4000::/34",
       "2a00:1220:8000::/34"
     ]

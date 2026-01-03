@@ -1,9 +1,12 @@
 {
-  "asn": 9146,
-  "handle": "BIHNET",
-  "description": "BH Telecom d.d. Sarajevo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9146,
+  "metadata" : {
+    "handle" : "BIHNET",
+    "description" : "BH Telecom d.d. Sarajevo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.176.128.0/17",
       "37.203.64.0/18",
       "80.65.64.0/19",
@@ -16,7 +19,7 @@
       "185.12.78.0/23",
       "195.222.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:27b0::/32"
     ]
   }

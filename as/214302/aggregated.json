@@ -1,12 +1,15 @@
 {
-  "asn": 214302,
-  "handle": "AS-LOOMIS",
-  "description": "Loomis AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214302,
+  "metadata" : {
+    "handle" : "AS-LOOMIS",
+    "description" : "Loomis AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.121.48.0/24",
       "194.68.192.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 60584,
-  "handle": "PRIME-AS",
-  "description": "Prime Studio s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60584,
+  "metadata" : {
+    "handle" : "PRIME-AS",
+    "description" : "Prime Studio s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.200.243.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:18c0::/29"
     ]
   }

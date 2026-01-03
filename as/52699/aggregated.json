@@ -1,14 +1,17 @@
 {
-  "asn": 52699,
-  "handle": "ITANET-CONECTA",
-  "description": "ITANET CONECTA LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52699,
+  "metadata" : {
+    "handle" : "ITANET-CONECTA",
+    "description" : "ITANET CONECTA LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.244.0.0/22",
       "177.23.136.0/21",
       "177.223.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:c64::/32"
     ]
   }

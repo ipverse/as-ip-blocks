@@ -1,16 +1,19 @@
 {
-  "asn": 52268,
-  "handle": "COPELCO",
-  "description": "COPELCO LTDA. (CUTRAL-CO)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52268,
+  "metadata" : {
+    "handle" : "COPELCO",
+    "description" : "COPELCO LTDA. (CUTRAL-CO)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.59.168.0/22",
       "170.233.176.0/22",
       "190.104.64.0/20",
       "190.112.196.0/22",
       "190.113.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:a80::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 200005,
-  "handle": "ASAVIE-TECHNOLOGIES-AS",
-  "description": "Akamai International B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200005,
+  "metadata" : {
+    "handle" : "ASAVIE-TECHNOLOGIES-AS",
+    "description" : "Akamai International B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "96.7.200.0/21",
       "170.199.192.0/22",
       "170.199.196.0/23",
@@ -20,7 +23,7 @@
       "217.112.151.0/24",
       "217.112.158.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:35c0::/30"
     ]
   }

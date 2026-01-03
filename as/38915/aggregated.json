@@ -1,15 +1,18 @@
 {
-  "asn": 38915,
-  "handle": "SOLIDO-AS",
-  "description": "Solido Gemeenschappelijk Regeling",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38915,
+  "metadata" : {
+    "handle" : "SOLIDO-AS",
+    "description" : "Solido Gemeenschappelijk Regeling",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.21.216.0/22",
       "178.21.220.0/23",
       "193.203.220.0/23",
       "194.104.157.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1de0::/32",
       "2a07:3500:1200::/48",
       "2a07:3500:1998::/48",

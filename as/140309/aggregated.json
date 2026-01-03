@@ -1,9 +1,12 @@
 {
-  "asn": 140309,
-  "handle": "CHINATELECOM-GUANGDONG-ZHONGSHAN-5G-NETWORK",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140309,
+  "metadata" : {
+    "handle" : "CHINATELECOM-GUANGDONG-ZHONGSHAN-5G-NETWORK",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.35.124.0/24",
       "59.35.126.0/23",
       "59.35.136.0/23",
@@ -81,7 +84,7 @@
       "219.132.112.0/21",
       "219.132.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:5e:1090::/44"
     ]
   }

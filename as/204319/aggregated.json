@@ -1,12 +1,15 @@
 {
-  "asn": 204319,
-  "handle": "TRIGION",
-  "description": "Trigion Alarmcentrale BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204319,
+  "metadata" : {
+    "handle" : "TRIGION",
+    "description" : "Trigion Alarmcentrale BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.228.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:4600::/29"
     ]
   }

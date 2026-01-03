@@ -1,9 +1,12 @@
 {
-  "asn": 34879,
-  "handle": "CCT-AS",
-  "description": "OOO Sovremennye setevye tekhnologii",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34879,
+  "metadata" : {
+    "handle" : "CCT-AS",
+    "description" : "OOO Sovremennye setevye tekhnologii",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.220.160.0/22",
       "37.220.165.0/24",
       "37.220.166.0/23",
@@ -28,6 +31,6 @@
       "212.193.155.0/24",
       "212.193.156.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 18305,
-  "handle": "POSNET",
-  "description": "POSCO DX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18305,
+  "metadata" : {
+    "handle" : "POSNET",
+    "description" : "POSCO DX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.209.29.0/24",
       "1.209.181.0/24",
       "1.209.182.0/23",
@@ -48,6 +51,6 @@
       "222.104.91.0/24",
       "222.104.92.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

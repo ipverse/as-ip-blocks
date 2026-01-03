@@ -1,15 +1,18 @@
 {
-  "asn": 32307,
-  "handle": "VIAERO-WIRELESS-GPRS",
-  "description": "NE COLORADO CELLULAR INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32307,
+  "metadata" : {
+    "handle" : "VIAERO-WIRELESS-GPRS",
+    "description" : "NE COLORADO CELLULAR INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.83.96.0/23",
       "137.83.98.0/24",
       "162.212.116.0/22",
       "199.47.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:7f00:100::/40",
       "2606:7f00:400::/40"
     ]

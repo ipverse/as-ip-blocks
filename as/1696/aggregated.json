@@ -1,9 +1,12 @@
 {
-  "asn": 1696,
-  "handle": "CITIGROUP-1696",
-  "description": "Citigroup Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1696,
+  "metadata" : {
+    "handle" : "CITIGROUP-1696",
+    "description" : "Citigroup Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.193.101.0/24",
       "192.193.112.0/24",
       "192.193.115.0/24",
@@ -20,6 +23,6 @@
       "199.67.207.0/24",
       "213.170.212.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

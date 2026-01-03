@@ -1,9 +1,12 @@
 {
-  "asn": 3257,
-  "handle": "GTT-BACKBONE",
-  "description": "GTT Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3257,
+  "metadata" : {
+    "handle" : "GTT-BACKBONE",
+    "description" : "GTT Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.236.0/22",
       "2.58.75.0/24",
       "5.83.96.0/21",
@@ -855,7 +858,7 @@
       "217.195.224.0/19",
       "217.204.0.0/14"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:590::/32",
       "2001:668::/29",
       "2001:67c:1514::/48",

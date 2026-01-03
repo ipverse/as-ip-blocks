@@ -1,12 +1,15 @@
 {
-  "asn": 397138,
-  "handle": "JUSTUS-AS",
-  "description": "The Vegetable Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397138,
+  "metadata" : {
+    "handle" : "JUSTUS-AS",
+    "description" : "The Vegetable Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.5.253.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:5c:a000::/48"
     ]
   }

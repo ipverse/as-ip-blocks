@@ -1,9 +1,12 @@
 {
-  "asn": 208172,
-  "handle": "PV-HOSTED",
-  "description": "Proton AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208172,
+  "metadata" : {
+    "handle" : "PV-HOSTED",
+    "description" : "Proton AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.27.86.0/24",
       "159.26.96.0/19",
       "205.147.16.0/22",
@@ -12,6 +15,6 @@
       "205.147.28.0/23",
       "205.147.30.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

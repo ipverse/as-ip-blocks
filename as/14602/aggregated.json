@@ -1,9 +1,12 @@
 {
-  "asn": 14602,
-  "handle": "TELIAX",
-  "description": "Teliax Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14602,
+  "metadata" : {
+    "handle" : "TELIAX",
+    "description" : "Teliax Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.3.252.0/24",
       "8.14.120.0/24",
       "8.17.37.0/24",
@@ -12,7 +15,7 @@
       "8.28.85.0/24",
       "63.211.239.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:bb80::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 15695,
-  "handle": "EXPEREO",
-  "description": "Expereo International BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15695,
+  "metadata" : {
+    "handle" : "EXPEREO",
+    "description" : "Expereo International BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.253.88.0/22",
       "37.26.224.0/21",
       "45.81.220.0/22",
@@ -51,7 +54,7 @@
       "216.172.64.0/20",
       "223.27.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:e00:60::/47",
       "2404:e00:62::/48",
       "2404:e00:65::/48",

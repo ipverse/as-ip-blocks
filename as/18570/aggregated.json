@@ -1,9 +1,12 @@
 {
-  "asn": 18570,
-  "handle": "ECHOSTAR-BROADCASTING-CORPORATION",
-  "description": "EchoStar Broadcasting Corperation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18570,
+  "metadata" : {
+    "handle" : "ECHOSTAR-BROADCASTING-CORPORATION",
+    "description" : "EchoStar Broadcasting Corperation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.7.94.0/24",
       "8.39.224.0/23",
       "8.39.227.0/24",
@@ -11,6 +14,6 @@
       "204.76.132.0/24",
       "205.172.147.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

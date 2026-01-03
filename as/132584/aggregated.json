@@ -1,9 +1,12 @@
 {
-  "asn": 132584,
-  "handle": "FORTYTWO24PTYLTD-AS-AP",
-  "description": "FORTYTWO24 PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132584,
+  "metadata" : {
+    "handle" : "FORTYTWO24PTYLTD-AS-AP",
+    "description" : "FORTYTWO24 PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.142.38.0/24",
       "103.176.216.0/23",
       "202.20.69.0/24",
@@ -13,6 +16,6 @@
       "203.56.195.0/24",
       "203.62.134.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

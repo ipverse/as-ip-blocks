@@ -1,13 +1,16 @@
 {
-  "asn": 37302,
-  "handle": "DUBETRADEPORT",
-  "description": "Dube TradePort",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37302,
+  "metadata" : {
+    "handle" : "DUBETRADEPORT",
+    "description" : "Dube TradePort",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.78.232.0/22",
       "102.130.40.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f450::/32"
     ]
   }

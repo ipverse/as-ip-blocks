@@ -1,12 +1,15 @@
 {
-  "asn": 29093,
-  "handle": "FINGRID",
-  "description": "Fingrid Oyj",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29093,
+  "metadata" : {
+    "handle" : "FINGRID",
+    "description" : "Fingrid Oyj",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.143.128.0/23",
       "195.234.135.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

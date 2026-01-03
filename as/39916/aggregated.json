@@ -1,11 +1,14 @@
 {
-  "asn": 39916,
-  "handle": "HERMES-AS",
-  "description": "HERMES XXI PE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39916,
+  "metadata" : {
+    "handle" : "HERMES-AS",
+    "description" : "HERMES XXI PE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.189.200.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

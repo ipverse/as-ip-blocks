@@ -1,12 +1,15 @@
 {
-  "asn": 132875,
-  "handle": "NATIONALPACS-AS-AP",
-  "description": "National Pacs Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132875,
+  "metadata" : {
+    "handle" : "NATIONALPACS-AS-AP",
+    "description" : "National Pacs Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.190.86.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:e840::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 400066,
-  "handle": "FRIB-01",
-  "description": "Michigan State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400066,
+  "metadata" : {
+    "handle" : "FRIB-01",
+    "description" : "Michigan State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "35.11.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:dd00:4000::/48",
       "2605:dd00:4002::/48"
     ]

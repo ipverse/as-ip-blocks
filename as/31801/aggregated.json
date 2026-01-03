@@ -1,9 +1,12 @@
 {
-  "asn": 31801,
-  "handle": "BHS-NET-LOU",
-  "description": "Baptist Healthcare System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31801,
+  "metadata" : {
+    "handle" : "BHS-NET-LOU",
+    "description" : "Baptist Healthcare System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.181.249.0/24",
       "199.180.17.0/24",
       "199.180.18.0/23",
@@ -11,6 +14,6 @@
       "199.180.23.0/24",
       "199.180.24.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

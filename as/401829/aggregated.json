@@ -1,12 +1,15 @@
 {
-  "asn": 401829,
-  "handle": "PIPEWORKS-01",
-  "description": "Pipeworks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401829,
+  "metadata" : {
+    "handle" : "PIPEWORKS-01",
+    "description" : "Pipeworks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.189.165.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:db:6000::/48"
     ]
   }

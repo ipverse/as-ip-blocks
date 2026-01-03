@@ -1,9 +1,12 @@
 {
-  "asn": 56041,
-  "handle": "CMNET-ZHEJIANG-AP",
-  "description": "China Mobile Communications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56041,
+  "metadata" : {
+    "handle" : "CMNET-ZHEJIANG-AP",
+    "description" : "China Mobile Communications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.134.0.0/21",
       "36.134.94.0/24",
       "36.134.102.0/23",
@@ -76,7 +79,7 @@
       "223.160.208.0/21",
       "223.161.220.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2409:8028::/40",
       "2409:8028:800::/40",
       "2409:8028:1000::/39",

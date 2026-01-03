@@ -1,12 +1,15 @@
 {
-  "asn": 38498,
-  "handle": "BIZNET-BII-AS-ID",
-  "description": "203.31.164.0/23",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38498,
+  "metadata" : {
+    "handle" : "BIZNET-BII-AS-ID",
+    "description" : "203.31.164.0/23",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.247.182.0/23",
       "203.31.164.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

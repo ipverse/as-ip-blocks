@@ -1,9 +1,12 @@
 {
-  "asn": 396356,
-  "handle": "LATITUDE-SH",
-  "description": "Latitude.sh",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396356,
+  "metadata" : {
+    "handle" : "LATITUDE-SH",
+    "description" : "Latitude.sh",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.168.0/24",
       "2.58.30.0/23",
       "2.58.174.0/24",
@@ -406,7 +409,7 @@
       "216.246.24.0/24",
       "216.246.42.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff62:103::/48",
       "2602:ff62:108::/45",
       "2602:ff62:110::/48",

@@ -1,13 +1,16 @@
 {
-  "asn": 400967,
-  "handle": "ASSURED-NETWORKS",
-  "description": "Assured Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400967,
+  "metadata" : {
+    "handle" : "ASSURED-NETWORKS",
+    "description" : "Assured Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.175.120.0/24",
       "45.42.172.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f922::/47",
       "2602:f922:78::/48",
       "2602:f922:f4::/46",

@@ -1,9 +1,12 @@
 {
-  "asn": 48096,
-  "handle": "ITGRAD",
-  "description": "Enterprise Cloud Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48096,
+  "metadata" : {
+    "handle" : "ITGRAD",
+    "description" : "Enterprise Cloud Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.101.72.0/21",
       "5.200.32.0/19",
       "37.18.27.0/24",
@@ -37,7 +40,7 @@
       "212.116.112.0/24",
       "212.116.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:c900:1000::/36",
       "2a04:c900:3000::/36",
       "2a06:b800:1000::/36",

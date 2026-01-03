@@ -1,9 +1,12 @@
 {
-  "asn": 15399,
-  "handle": "WANANCHI-KE",
-  "description": "Wananchi Group (Kenya) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15399,
+  "metadata" : {
+    "handle" : "WANANCHI-KE",
+    "description" : "Wananchi Group (Kenya) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.212.0.0/17",
       "62.8.64.0/19",
       "102.36.218.0/24",
@@ -60,7 +63,7 @@
       "197.220.96.0/19",
       "197.237.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:e958::/32",
       "2c0f:fef8::/32"
     ]

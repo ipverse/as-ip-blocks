@@ -1,9 +1,12 @@
 {
-  "asn": 37209,
-  "handle": "HYPERIA",
-  "description": "Hyperia Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37209,
+  "metadata" : {
+    "handle" : "HYPERIA",
+    "description" : "Hyperia Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.76.80.0/22",
       "41.76.85.0/24",
       "41.76.86.0/23",
@@ -13,7 +16,7 @@
       "102.221.75.0/24",
       "197.214.96.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f880::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 26904,
-  "handle": "NASULEX",
-  "description": "Nasulex Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26904,
+  "metadata" : {
+    "handle" : "NASULEX",
+    "description" : "Nasulex Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.247.168.0/23",
       "23.247.170.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc15::/36"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 60908,
-  "handle": "SUCOM-AS",
-  "description": "Sucom AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60908,
+  "metadata" : {
+    "handle" : "SUCOM-AS",
+    "description" : "Sucom AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.84.48.0/20",
       "91.135.58.0/23",
       "91.135.60.0/22",
       "185.9.90.0/23",
       "185.251.192.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

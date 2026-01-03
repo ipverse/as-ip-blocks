@@ -1,9 +1,12 @@
 {
-  "asn": 139811,
-  "handle": "ANLIANNETWORK-AS-AP",
-  "description": "ANLIAN NETWORK TECHNOLOGY CO. LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139811,
+  "metadata" : {
+    "handle" : "ANLIANNETWORK-AS-AP",
+    "description" : "ANLIAN NETWORK TECHNOLOGY CO. LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.195.61.0/24",
       "103.145.144.0/23",
       "154.91.39.0/24",
@@ -13,6 +16,6 @@
       "156.240.93.0/24",
       "156.249.24.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

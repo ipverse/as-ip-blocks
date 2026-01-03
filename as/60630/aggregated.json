@@ -1,12 +1,15 @@
 {
-  "asn": 60630,
-  "handle": "ARN",
-  "description": "Association Alsace Reseau Neutre",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60630,
+  "metadata" : {
+    "handle" : "ARN",
+    "description" : "Association Alsace Reseau Neutre",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.234.141.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:5881:8100::/40"
     ]
   }

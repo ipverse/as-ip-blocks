@@ -1,16 +1,19 @@
 {
-  "asn": 15368,
-  "handle": "INTARES",
-  "description": "Intares GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15368,
+  "metadata" : {
+    "handle" : "INTARES",
+    "description" : "Intares GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.76.151.0/24",
       "192.129.55.0/24",
       "193.164.8.0/24",
       "213.183.192.0/20",
       "213.183.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4e00::/34",
       "2a00:4e00:4000::/36"
     ]

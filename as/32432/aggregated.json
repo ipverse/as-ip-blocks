@@ -1,9 +1,12 @@
 {
-  "asn": 32432,
-  "handle": "COFAN",
-  "description": "Colleges of the Fenway Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32432,
+  "metadata" : {
+    "handle" : "COFAN",
+    "description" : "Colleges of the Fenway Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.43.64.0/22",
       "69.43.72.0/23",
       "69.43.75.0/24",
@@ -18,6 +21,6 @@
       "69.43.114.0/24",
       "69.43.121.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

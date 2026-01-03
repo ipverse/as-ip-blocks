@@ -1,14 +1,17 @@
 {
-  "asn": 37305,
-  "handle": "FON",
-  "description": "Frontier Optical Networks Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37305,
+  "metadata" : {
+    "handle" : "FON",
+    "description" : "Frontier Optical Networks Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.79.8.0/22",
       "102.212.132.0/22",
       "197.231.176.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fc70::/32"
     ]
   }

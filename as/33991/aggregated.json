@@ -1,9 +1,12 @@
 {
-  "asn": 33991,
-  "handle": "IGRA-SERVICE-AS",
-  "description": "Igra-Service LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33991,
+  "metadata" : {
+    "handle" : "IGRA-SERVICE-AS",
+    "description" : "Igra-Service LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.253.144.0/22",
       "45.143.164.0/23",
       "45.147.120.0/22",
@@ -31,7 +34,7 @@
       "195.191.231.0/24",
       "195.211.167.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:b940::/32"
     ]
   }

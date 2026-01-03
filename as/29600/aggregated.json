@@ -1,15 +1,18 @@
 {
-  "asn": 29600,
-  "handle": "LATVENERGO-AS",
-  "description": "AS Latvenergo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29600,
+  "metadata" : {
+    "handle" : "LATVENERGO-AS",
+    "description" : "AS Latvenergo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.70.16.0/20",
       "83.136.136.0/21",
       "85.15.192.0/18",
       "95.131.112.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:a880::/29"
     ]
   }

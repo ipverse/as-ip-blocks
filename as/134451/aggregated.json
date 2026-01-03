@@ -1,9 +1,12 @@
 {
-  "asn": 134451,
-  "handle": "NME-INDONESIA-AS-AP",
-  "description": "NewMedia Express Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134451,
+  "metadata" : {
+    "handle" : "NME-INDONESIA-AS-AP",
+    "description" : "NewMedia Express Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.114.118.0/24",
       "103.60.9.0/24",
       "103.200.7.0/24",
@@ -12,7 +15,7 @@
       "203.114.72.0/24",
       "203.114.74.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:2f80:5::/48",
       "2402:2f80:6::/47",
       "2406:f400:120::/44"

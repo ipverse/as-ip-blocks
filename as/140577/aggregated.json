@@ -1,16 +1,19 @@
 {
-  "asn": 140577,
-  "handle": "AHREFS-AS-AP",
-  "description": "Ahrefs Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140577,
+  "metadata" : {
+    "handle" : "AHREFS-AS-AP",
+    "description" : "Ahrefs Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.16.24.0/22",
       "103.150.140.0/23",
       "168.100.128.0/19",
       "202.8.40.0/22",
       "202.94.84.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:7c80::/48",
       "2401:59a0::/32"
     ]

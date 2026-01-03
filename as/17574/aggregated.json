@@ -1,9 +1,12 @@
 {
-  "asn": 17574,
-  "handle": "SMGCC-AS",
-  "description": "Seoul Metropolitan Government Computer Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17574,
+  "metadata" : {
+    "handle" : "SMGCC-AS",
+    "description" : "Seoul Metropolitan Government Computer Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.235.138.0/24",
       "58.227.216.0/24",
       "115.84.160.0/21",
@@ -13,6 +16,6 @@
       "210.119.246.0/23",
       "210.119.248.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

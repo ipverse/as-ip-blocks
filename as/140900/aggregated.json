@@ -1,9 +1,12 @@
 {
-  "asn": 140900,
-  "handle": "GETLINKS2-AS-AP",
-  "description": "Getlinks (SMC-Private) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140900,
+  "metadata" : {
+    "handle" : "GETLINKS2-AS-AP",
+    "description" : "Getlinks (SMC-Private) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.230.92.0/22",
       "103.153.38.0/23",
       "103.179.246.0/23",
@@ -11,6 +14,6 @@
       "111.119.167.0/24",
       "118.103.228.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

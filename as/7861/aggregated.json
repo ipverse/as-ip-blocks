@@ -1,9 +1,12 @@
 {
-  "asn": 7861,
-  "handle": "TELUS-7861",
-  "description": "TELUS Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7861,
+  "metadata" : {
+    "handle" : "TELUS-7861",
+    "description" : "TELUS Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.114.189.0/24",
       "154.11.131.0/24",
       "204.191.2.0/24",
@@ -35,6 +38,6 @@
       "209.115.158.0/23",
       "209.121.167.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

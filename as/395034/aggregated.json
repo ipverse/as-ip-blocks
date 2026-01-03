@@ -1,12 +1,15 @@
 {
-  "asn": 395034,
-  "handle": "ZTHERNET",
-  "description": "Zthernet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395034,
+  "metadata" : {
+    "handle" : "ZTHERNET",
+    "description" : "Zthernet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.88.29.0/24",
       "208.38.198.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 24226,
-  "handle": "CATALYST-NZ",
-  "description": "Catalyst.Net Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24226,
+  "metadata" : {
+    "handle" : "CATALYST-NZ",
+    "description" : "Catalyst.Net Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.152.188.0/23",
       "103.197.60.0/22",
       "103.250.240.0/22",
@@ -13,7 +16,7 @@
       "202.49.240.0/22",
       "202.78.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:130::/32",
       "2406:33c0::/32"
     ]

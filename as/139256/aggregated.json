@@ -1,11 +1,14 @@
 {
-  "asn": 139256,
-  "handle": "NITC-AS-AP",
-  "description": "National Information Technology Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139256,
+  "metadata" : {
+    "handle" : "NITC-AS-AP",
+    "description" : "National Information Technology Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.140.0.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

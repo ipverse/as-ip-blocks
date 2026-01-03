@@ -1,14 +1,17 @@
 {
-  "asn": 857,
-  "handle": "GONET-ASN-17",
-  "description": "GONET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 857,
+  "metadata" : {
+    "handle" : "GONET-ASN-17",
+    "description" : "GONET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.15.0.0/23",
       "142.15.63.0/24",
       "142.15.64.0/23",
       "142.15.127.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

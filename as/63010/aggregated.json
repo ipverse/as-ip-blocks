@@ -1,9 +1,12 @@
 {
-  "asn": 63010,
-  "handle": "CITY-OF-LAGRANGE-GEORGA",
-  "description": "City of LaGrange Georgia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63010,
+  "metadata" : {
+    "handle" : "CITY-OF-LAGRANGE-GEORGA",
+    "description" : "City of LaGrange Georgia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.110.48.0/23",
       "38.110.51.0/24",
       "66.110.208.0/24",
@@ -13,6 +16,6 @@
       "208.97.8.0/23",
       "208.97.16.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

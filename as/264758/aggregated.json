@@ -1,9 +1,12 @@
 {
-  "asn": 264758,
-  "handle": "ISP-GROUP",
-  "description": "ISP GROUP SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264758,
+  "metadata" : {
+    "handle" : "ISP-GROUP",
+    "description" : "ISP GROUP SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.50.60.0/24",
       "38.50.62.0/24",
       "38.156.82.0/23",
@@ -16,7 +19,7 @@
       "186.189.244.0/24",
       "201.251.102.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:40c0::/32"
     ]
   }

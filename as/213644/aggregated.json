@@ -1,9 +1,12 @@
 {
-  "asn": 213644,
-  "handle": "ISPLC",
-  "description": "Iranian Server Processing Limited Liability Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213644,
+  "metadata" : {
+    "handle" : "ISPLC",
+    "description" : "Iranian Server Processing Limited Liability Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.160.132.0/24",
       "45.11.186.0/24",
       "92.42.203.0/24",
@@ -11,6 +14,6 @@
       "194.145.119.0/24",
       "217.60.236.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

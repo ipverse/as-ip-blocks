@@ -1,9 +1,12 @@
 {
-  "asn": 12271,
-  "handle": "TWC-12271-NYC",
-  "description": "Charter Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12271,
+  "metadata" : {
+    "handle" : "TWC-12271-NYC",
+    "description" : "Charter Communications Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.246.64.0/18",
       "24.29.96.0/19",
       "24.29.128.0/19",
@@ -107,7 +110,7 @@
       "208.105.64.0/19",
       "208.125.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:6000::/32",
       "2600:6c7f:9360::/44",
       "2602:107:6300::/40",

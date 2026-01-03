@@ -1,11 +1,14 @@
 {
-  "asn": 55597,
-  "handle": "NCC-AS",
-  "description": "National Cancer Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55597,
+  "metadata" : {
+    "handle" : "NCC-AS",
+    "description" : "National Cancer Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.50.0.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 1294,
-  "handle": "NTTDATA-SERVICES-AS1",
-  "description": "NTT DATA Services Holdings Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1294,
+  "metadata" : {
+    "handle" : "NTTDATA-SERVICES-AS1",
+    "description" : "NTT DATA Services Holdings Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.207.122.0/24",
       "66.97.191.0/24",
       "148.9.32.0/24",
@@ -18,6 +21,6 @@
       "160.109.160.0/21",
       "160.109.224.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

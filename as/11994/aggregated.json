@@ -1,9 +1,12 @@
 {
-  "asn": 11994,
-  "handle": "CZIO-ASN",
-  "description": "Cruzio",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11994,
+  "metadata" : {
+    "handle" : "CZIO-ASN",
+    "description" : "Cruzio",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.31.128.0/22",
       "63.249.64.0/18",
       "68.170.176.0/20",
@@ -16,6 +19,6 @@
       "199.73.112.0/22",
       "216.173.128.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

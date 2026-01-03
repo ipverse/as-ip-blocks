@@ -1,9 +1,12 @@
 {
-  "asn": 215595,
-  "handle": "SPARKTECH",
-  "description": "SparkTech LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215595,
+  "metadata" : {
+    "handle" : "SPARKTECH",
+    "description" : "SparkTech LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.231.116.0/23",
       "38.15.17.0/24",
       "38.15.18.0/23",
@@ -33,6 +36,6 @@
       "202.160.90.0/23",
       "202.160.92.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

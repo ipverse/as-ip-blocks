@@ -1,9 +1,12 @@
 {
-  "asn": 9231,
-  "handle": "IPEOPLESNET-AS-AP",
-  "description": "China Mobile Hong Kong Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9231,
+  "metadata" : {
+    "handle" : "IPEOPLESNET-AS-AP",
+    "description" : "China Mobile Hong Kong Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "123.136.7.0/24",
       "123.136.15.0/24",
       "161.81.120.0/22",
@@ -25,6 +28,6 @@
       "203.142.98.0/24",
       "203.142.127.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

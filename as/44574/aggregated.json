@@ -1,9 +1,12 @@
 {
-  "asn": 44574,
-  "handle": "A4N",
-  "description": "Network Services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44574,
+  "metadata" : {
+    "handle" : "A4N",
+    "description" : "Network Services Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.153.96.0/21",
       "5.153.192.0/19",
       "31.12.96.0/19",
@@ -23,7 +26,7 @@
       "193.238.80.0/22",
       "212.105.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:498::/48",
       "2001:678:49c::/48",
       "2001:678:4a0::/48",

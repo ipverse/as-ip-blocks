@@ -1,9 +1,12 @@
 {
-  "asn": 270,
-  "handle": "AS270",
-  "description": "National Aeronautics and Space Administration",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270,
+  "metadata" : {
+    "handle" : "AS270",
+    "description" : "National Aeronautics and Space Administration",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.102.0.0/16",
       "128.154.0.0/15",
       "128.157.0.0/16",
@@ -101,6 +104,6 @@
       "198.182.28.0/24",
       "198.182.30.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

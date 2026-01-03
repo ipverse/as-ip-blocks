@@ -1,13 +1,16 @@
 {
-  "asn": 21231,
-  "handle": "AEROFLOT",
-  "description": "PJSC Aeroflot",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21231,
+  "metadata" : {
+    "handle" : "AEROFLOT",
+    "description" : "PJSC Aeroflot",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.92.32.0/23",
       "80.92.36.0/23",
       "80.92.39.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

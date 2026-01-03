@@ -1,14 +1,17 @@
 {
-  "asn": 61493,
-  "handle": "INTERBS",
-  "description": "InterBS S.R.L. (BAEHOST)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61493,
+  "metadata" : {
+    "handle" : "INTERBS",
+    "description" : "InterBS S.R.L. (BAEHOST)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.255.4.0/22",
       "168.205.92.0/22",
       "170.78.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:eb80::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 39835,
-  "handle": "GOETEL",
-  "description": "goetel GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39835,
+  "metadata" : {
+    "handle" : "GOETEL",
+    "description" : "goetel GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.34.224.0/21",
       "81.20.112.0/20",
       "81.90.192.0/20",
@@ -14,7 +17,7 @@
       "188.74.32.0/20",
       "194.13.135.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:4b20::/29",
       "2a03:6880::/32"
     ]

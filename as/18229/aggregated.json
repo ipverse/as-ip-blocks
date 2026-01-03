@@ -1,9 +1,12 @@
 {
-  "asn": 18229,
-  "handle": "CTRLS-AS-IN",
-  "description": "CtrlS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18229,
+  "metadata" : {
+    "handle" : "CTRLS-AS-IN",
+    "description" : "CtrlS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.255.3.0/24",
       "43.228.95.0/24",
       "43.242.124.0/22",
@@ -154,7 +157,7 @@
       "206.1.62.0/24",
       "219.90.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:58c0::/48",
       "2400:3b00::/47",
       "2400:3b00:2::/48",

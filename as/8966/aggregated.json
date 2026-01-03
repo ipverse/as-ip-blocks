@@ -1,9 +1,12 @@
 {
-  "asn": 8966,
-  "handle": "ETISALAT-AS",
-  "description": "EMIRATES TELECOMMUNICATIONS GROUP COMPANY (ETISALAT GROUP) PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8966,
+  "metadata" : {
+    "handle" : "ETISALAT-AS",
+    "description" : "EMIRATES TELECOMMUNICATIONS GROUP COMPANY (ETISALAT GROUP) PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.16.44.0/24",
       "2.20.249.0/24",
       "2.21.231.0/24",
@@ -22,7 +25,7 @@
       "195.229.0.0/19",
       "195.229.34.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:8f8::/32",
       "2600:1417:5::/48",
       "2600:1417:6400::/48",

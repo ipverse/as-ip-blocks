@@ -1,9 +1,12 @@
 {
-  "asn": 131392,
-  "handle": "RUNSYSTEM-AS-VN",
-  "description": "GMO-Z.com Runsystem Joint Stock Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131392,
+  "metadata" : {
+    "handle" : "RUNSYSTEM-AS-VN",
+    "description" : "GMO-Z.com Runsystem Joint Stock Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.18.4.0/22",
       "118.27.192.0/19",
       "137.59.104.0/22",
@@ -15,7 +18,7 @@
       "163.44.205.0/24",
       "163.44.206.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:f080::/32"
     ]
   }

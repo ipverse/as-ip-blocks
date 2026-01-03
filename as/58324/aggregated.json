@@ -1,12 +1,15 @@
 {
-  "asn": 58324,
-  "handle": "DEBITEX-AS",
-  "description": "Debitex Telecom SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58324,
+  "metadata" : {
+    "handle" : "DEBITEX-AS",
+    "description" : "Debitex Telecom SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.100.144.0/21",
       "185.150.172.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

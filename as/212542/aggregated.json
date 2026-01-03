@@ -1,13 +1,16 @@
 {
-  "asn": 212542,
-  "handle": "DIIA-AS",
-  "description": "SE Diia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212542,
+  "metadata" : {
+    "handle" : "DIIA-AS",
+    "description" : "SE Diia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.233.100.0/24",
       "194.42.200.0/24",
       "195.189.240.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

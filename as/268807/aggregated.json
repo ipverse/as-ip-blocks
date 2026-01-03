@@ -1,12 +1,15 @@
 {
-  "asn": 268807,
-  "handle": "CAIXA-ASSISTENCIA-FUNCIONARIOS",
-  "description": "Caixa de Assistência dos Funcionários do BB CASSI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268807,
+  "metadata" : {
+    "handle" : "CAIXA-ASSISTENCIA-FUNCIONARIOS",
+    "description" : "Caixa de Assistência dos Funcionários do BB CASSI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.173.13.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:80:34a0::/48"
     ]
   }

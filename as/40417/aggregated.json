@@ -1,15 +1,18 @@
 {
-  "asn": 40417,
-  "handle": "INTERACTIONSCORP",
-  "description": "Interactions Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40417,
+  "metadata" : {
+    "handle" : "INTERACTIONSCORP",
+    "description" : "Interactions Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "76.164.208.0/24",
       "76.164.210.0/24",
       "76.164.212.0/24",
       "76.164.214.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:808:b001::/48",
       "2602:808:b003::/48"
     ]

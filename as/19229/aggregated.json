@@ -1,9 +1,12 @@
 {
-  "asn": 19229,
-  "handle": "IFOXNETODPD-ENSONO-DCCS",
-  "description": "Ensono LP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19229,
+  "metadata" : {
+    "handle" : "IFOXNETODPD-ENSONO-DCCS",
+    "description" : "Ensono LP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.37.153.0/24",
       "67.72.48.0/20",
       "69.4.0.0/19",
@@ -36,7 +39,7 @@
       "217.64.224.0/20",
       "217.147.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:2e00::/32",
       "2a02:5f00::/32"
     ]

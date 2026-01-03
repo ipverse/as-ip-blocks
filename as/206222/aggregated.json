@@ -1,12 +1,15 @@
 {
-  "asn": 206222,
-  "handle": "DUEMILANET",
-  "description": "2000net srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206222,
+  "metadata" : {
+    "handle" : "DUEMILANET",
+    "description" : "2000net srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.245.67.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:1c40::/47"
     ]
   }

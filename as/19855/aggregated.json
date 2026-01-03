@@ -1,9 +1,12 @@
 {
-  "asn": 19855,
-  "handle": "MASERGY",
-  "description": "Masergy Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19855,
+  "metadata" : {
+    "handle" : "MASERGY",
+    "description" : "Masergy Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.47.0.0/16",
       "64.138.0.0/17",
       "64.138.128.0/18",
@@ -23,7 +26,7 @@
       "204.139.45.0/24",
       "204.139.49.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:7160:2000::/44",
       "2400:7160:2020::/44",
       "2402:2100::/32",

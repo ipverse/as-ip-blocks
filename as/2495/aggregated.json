@@ -1,14 +1,17 @@
 {
-  "asn": 2495,
-  "handle": "KANREN",
-  "description": "Kansas Research and Education Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2495,
+  "metadata" : {
+    "handle" : "KANREN",
+    "description" : "Kansas Research and Education Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.77.0.0/17",
       "164.113.0.0/16",
       "198.248.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:49d0::/32"
     ]
   }

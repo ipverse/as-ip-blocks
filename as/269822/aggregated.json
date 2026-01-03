@@ -1,9 +1,12 @@
 {
-  "asn": 269822,
-  "handle": "COLOMBIA-MAS-TV",
-  "description": "COLOMBIA MAS TV S.A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269822,
+  "metadata" : {
+    "handle" : "COLOMBIA-MAS-TV",
+    "description" : "COLOMBIA MAS TV S.A.S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.65.232.0/22",
       "103.212.83.0/24",
       "103.219.234.0/23",
@@ -14,7 +17,7 @@
       "190.102.126.0/24",
       "223.27.115.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:13:b800::/48",
       "2803:15c0::/33",
       "2803:3250:e061::/48"

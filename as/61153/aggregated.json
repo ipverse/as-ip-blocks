@@ -1,9 +1,12 @@
 {
-  "asn": 61153,
-  "handle": "PROCTERGAMBLENCSC",
-  "description": "Procter \u0026 Gamble Service GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61153,
+  "metadata" : {
+    "handle" : "PROCTERGAMBLENCSC",
+    "description" : "Procter & Gamble Service GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.180.140.0/23",
       "137.183.232.0/23",
       "137.185.248.0/23",
@@ -15,6 +18,6 @@
       "155.113.2.0/23",
       "155.113.38.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 37016,
-  "handle": "ETHEKWINI-METRO",
-  "description": "Ethekwini Municipality",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37016,
+  "metadata" : {
+    "handle" : "ETHEKWINI-METRO",
+    "description" : "Ethekwini Municipality",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.222.213.0/24",
       "41.222.214.0/23",
       "196.11.233.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

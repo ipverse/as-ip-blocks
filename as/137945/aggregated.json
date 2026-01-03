@@ -1,9 +1,12 @@
 {
-  "asn": 137945,
-  "handle": "AS-NCHU-AP",
-  "description": "NUTRIEN (CANADA) HOLDINGS ULC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137945,
+  "metadata" : {
+    "handle" : "AS-NCHU-AP",
+    "description" : "NUTRIEN (CANADA) HOLDINGS ULC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.116.240.0/24",
       "103.116.242.0/23",
       "203.9.40.0/24",
@@ -12,7 +15,7 @@
       "203.22.203.0/24",
       "203.62.177.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:20c0:2::/47"
     ]
   }

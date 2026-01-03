@@ -1,9 +1,12 @@
 {
-  "asn": 12539,
-  "handle": "PENKI",
-  "description": "UAB Penki kontinentai",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12539,
+  "metadata" : {
+    "handle" : "PENKI",
+    "description" : "UAB Penki kontinentai",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.122.64.0/24",
       "212.122.66.0/23",
       "212.122.74.0/23",
@@ -13,6 +16,6 @@
       "212.122.84.0/22",
       "212.122.94.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 9957,
-  "handle": "KINX-AS",
-  "description": "KINX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9957,
+  "metadata" : {
+    "handle" : "KINX-AS",
+    "description" : "KINX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "121.78.0.0/22",
       "121.78.5.0/24",
       "121.78.42.0/24",
@@ -23,6 +26,6 @@
       "203.238.176.0/20",
       "203.246.169.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 45820,
-  "handle": "TTSL-MEISISP",
-  "description": "TTSL-ISP DIVISION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45820,
+  "metadata" : {
+    "handle" : "TTSL-MEISISP",
+    "description" : "TTSL-ISP DIVISION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.96.8.0/21",
       "14.96.48.0/20",
       "14.96.72.0/21",
@@ -114,7 +117,7 @@
       "182.156.88.0/21",
       "182.156.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:8600::/42",
       "2403:8600:40::/43",
       "2403:8600:c08::/48",

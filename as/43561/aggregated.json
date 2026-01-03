@@ -1,14 +1,17 @@
 {
-  "asn": 43561,
-  "handle": "NET1-AS",
-  "description": "Vivacom Bulgaria EAD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43561,
+  "metadata" : {
+    "handle" : "NET1-AS",
+    "description" : "Vivacom Bulgaria EAD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.157.191.0/24",
       "95.87.209.0/24",
       "95.87.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1338::/32"
     ]
   }

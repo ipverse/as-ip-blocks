@@ -1,9 +1,12 @@
 {
-  "asn": 13331,
-  "handle": "METAPEER-INC",
-  "description": "MetaPeer",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13331,
+  "metadata" : {
+    "handle" : "METAPEER-INC",
+    "description" : "MetaPeer",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.249.16.0/22",
       "163.237.208.0/24",
       "163.237.210.0/24",
@@ -13,7 +16,7 @@
       "208.93.88.0/22",
       "209.222.69.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4978:5ff::/48",
       "2620:11c:5000::/44"
     ]

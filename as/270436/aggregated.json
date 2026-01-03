@@ -1,13 +1,16 @@
 {
-  "asn": 270436,
-  "handle": "SOOU-TELECOM",
-  "description": "SOOU TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270436,
+  "metadata" : {
+    "handle" : "SOOU-TELECOM",
+    "description" : "SOOU TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.6.92.0/23",
       "200.6.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6bf4::/32"
     ]
   }

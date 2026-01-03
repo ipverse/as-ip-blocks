@@ -1,9 +1,12 @@
 {
-  "asn": 139739,
-  "handle": "HSINYIPTELTD-AS-AP",
-  "description": "Hsin Yi Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139739,
+  "metadata" : {
+    "handle" : "HSINYIPTELTD-AS-AP",
+    "description" : "Hsin Yi Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.144.117.0/24",
       "180.94.224.0/24",
       "180.94.231.0/24",
@@ -12,7 +15,7 @@
       "205.201.4.0/24",
       "205.201.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:c080::/48"
     ]
   }

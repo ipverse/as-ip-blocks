@@ -1,9 +1,12 @@
 {
-  "asn": 54103,
-  "handle": "MODMC-54103-AS",
-  "description": "MOD Mission Critical LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54103,
+  "metadata" : {
+    "handle" : "MODMC-54103-AS",
+    "description" : "MOD Mission Critical LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.10.193.0/24",
       "5.10.195.0/24",
       "5.10.197.0/24",
@@ -205,7 +208,7 @@
       "216.155.60.0/22",
       "223.27.114.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:e00::/48",
       "2a04:e00:3::/48",
       "2a04:e00:4::/47",

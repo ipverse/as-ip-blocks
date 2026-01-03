@@ -1,12 +1,15 @@
 {
-  "asn": 205439,
-  "handle": "IPPARK-AS",
-  "description": "IP PARK LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205439,
+  "metadata" : {
+    "handle" : "IPPARK-AS",
+    "description" : "IP PARK LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.218.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:d540::/32"
     ]
   }

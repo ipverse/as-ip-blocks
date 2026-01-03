@@ -1,9 +1,12 @@
 {
-  "asn": 8151,
-  "handle": "UNINET",
-  "description": "UNINET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8151,
+  "metadata" : {
+    "handle" : "UNINET",
+    "description" : "UNINET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.144.224.0/24",
       "148.207.1.0/24",
       "148.207.2.0/24",
@@ -598,7 +601,7 @@
       "207.248.128.0/19",
       "216.245.25.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1208::/32",
       "2801:c4:98::/48",
       "2801:c4:a2::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 36436,
-  "handle": "INFOBUNKER",
-  "description": "Infobunker L.L.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36436,
+  "metadata" : {
+    "handle" : "INFOBUNKER",
+    "description" : "Infobunker L.L.C.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.247.128.0/22",
       "199.115.204.0/22",
       "199.127.136.0/21",
@@ -11,7 +14,7 @@
       "208.71.32.0/22",
       "208.95.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fed2:7111::/48",
       "2604:6800::/32"
     ]

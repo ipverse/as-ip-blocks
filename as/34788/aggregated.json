@@ -1,9 +1,12 @@
 {
-  "asn": 34788,
-  "handle": "NMM-AS",
-  "description": "Neue Medien Muennich GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34788,
+  "metadata" : {
+    "handle" : "NMM-AS",
+    "description" : "Neue Medien Muennich GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.13.128.0/18",
       "91.208.158.0/24",
       "91.234.30.0/24",
@@ -20,6 +23,6 @@
       "194.29.184.0/24",
       "194.36.18.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

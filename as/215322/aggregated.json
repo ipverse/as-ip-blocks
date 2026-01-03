@@ -1,13 +1,16 @@
 {
-  "asn": 215322,
-  "handle": "CONNECTCOV",
-  "description": "UK Dedicated Servers Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215322,
+  "metadata" : {
+    "handle" : "CONNECTCOV",
+    "description" : "UK Dedicated Servers Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.17.25.0/24",
       "185.99.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:a501::/32"
     ]
   }

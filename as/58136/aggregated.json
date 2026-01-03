@@ -1,9 +1,12 @@
 {
-  "asn": 58136,
-  "handle": "ASPARUS",
-  "description": "OOO RGTS Parus",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58136,
+  "metadata" : {
+    "handle" : "ASPARUS",
+    "description" : "OOO RGTS Parus",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.128.63.0/24",
       "83.242.102.0/24",
       "91.193.140.0/23",
@@ -16,6 +19,6 @@
       "195.43.76.0/24",
       "195.211.248.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

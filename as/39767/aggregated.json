@@ -1,15 +1,18 @@
 {
-  "asn": 39767,
-  "handle": "SARGASSO-AS",
-  "description": "Sargasso N1 Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39767,
+  "metadata" : {
+    "handle" : "SARGASSO-AS",
+    "description" : "Sargasso N1 Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.158.72.0/21",
       "78.158.80.0/20",
       "185.90.140.0/22",
       "194.88.12.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:e200::/29"
     ]
   }

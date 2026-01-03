@@ -1,9 +1,12 @@
 {
-  "asn": 33993,
-  "handle": "UFO-AS",
-  "description": "UFO Hosting LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33993,
+  "metadata" : {
+    "handle" : "UFO-AS",
+    "description" : "UFO Hosting LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.178.0/24",
       "45.12.114.0/23",
       "45.67.230.0/24",
@@ -26,7 +29,7 @@
       "185.250.149.0/24",
       "193.201.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:7c47::/32"
     ]
   }

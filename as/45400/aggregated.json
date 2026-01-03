@@ -1,9 +1,12 @@
 {
-  "asn": 45400,
-  "handle": "NICNET",
-  "description": "Korea Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45400,
+  "metadata" : {
+    "handle" : "NICNET",
+    "description" : "Korea Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "180.92.241.0/24",
       "180.92.248.0/24",
       "180.92.250.0/23",
@@ -87,6 +90,6 @@
       "211.255.123.0/24",
       "221.145.178.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

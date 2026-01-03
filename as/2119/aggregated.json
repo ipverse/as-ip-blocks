@@ -1,9 +1,12 @@
 {
-  "asn": 2119,
-  "handle": "TELENOR-NEXTEL",
-  "description": "Telenor Norge AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2119,
+  "metadata" : {
+    "handle" : "TELENOR-NEXTEL",
+    "description" : "Telenor Norge AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.148.0.0/14",
       "31.45.0.0/17",
       "37.200.0.0/18",
@@ -96,7 +99,7 @@
       "217.148.144.0/20",
       "217.199.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:9dc::/48",
       "2001:67c:c60::/48",
       "2001:67c:17e4::/48",

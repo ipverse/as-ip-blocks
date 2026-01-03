@@ -1,15 +1,18 @@
 {
-  "asn": 141137,
-  "handle": "MEDIACEPAT-AS-ID",
-  "description": "PT Media Cepat Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141137,
+  "metadata" : {
+    "handle" : "MEDIACEPAT-AS-ID",
+    "description" : "PT Media Cepat Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.105.217.0/24",
       "103.158.252.0/23",
       "103.167.11.0/24",
       "202.56.170.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:c640::/32"
     ]
   }

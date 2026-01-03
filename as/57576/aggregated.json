@@ -1,12 +1,15 @@
 {
-  "asn": 57576,
-  "handle": "PENTAHOSTING-AS",
-  "description": "Penta SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57576,
+  "metadata" : {
+    "handle" : "PENTAHOSTING-AS",
+    "description" : "Penta SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.189.11.0/24",
       "91.189.12.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

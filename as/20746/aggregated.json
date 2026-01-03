@@ -1,9 +1,12 @@
 {
-  "asn": 20746,
-  "handle": "ASN-IDC",
-  "description": "Telecom Italia S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20746,
+  "metadata" : {
+    "handle" : "ASN-IDC",
+    "description" : "Telecom Italia S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.29.200.0/21",
       "62.77.32.0/19",
       "62.86.116.0/24",
@@ -157,7 +160,7 @@
       "217.56.125.0/24",
       "217.169.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4b18::/32"
     ]
   }

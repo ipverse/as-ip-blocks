@@ -1,14 +1,17 @@
 {
-  "asn": 17389,
-  "handle": "IHS-GROUP",
-  "description": "Information Handling Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17389,
+  "metadata" : {
+    "handle" : "IHS-GROUP",
+    "description" : "Information Handling Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.207.160.0/19",
       "170.207.192.0/19",
       "170.207.240.0/21",
       "207.167.40.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

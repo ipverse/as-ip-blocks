@@ -1,12 +1,15 @@
 {
-  "asn": 213333,
-  "handle": "CNPR-SERVICE-AS",
-  "description": "Jacob Willem de Vos",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213333,
+  "metadata" : {
+    "handle" : "CNPR-SERVICE-AS",
+    "description" : "Jacob Willem de Vos",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.150.81.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1520::/48"
     ]
   }

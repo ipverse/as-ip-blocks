@@ -1,9 +1,12 @@
 {
-  "asn": 49683,
-  "handle": "MASSIVEGRID",
-  "description": "MASSIVEGRID LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49683,
+  "metadata" : {
+    "handle" : "MASSIVEGRID",
+    "description" : "MASSIVEGRID LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.25.234.0/23",
       "31.25.236.0/22",
       "171.22.172.0/22",
@@ -16,7 +19,7 @@
       "185.184.68.0/22",
       "185.189.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:2f00:1::/48"
     ]
   }

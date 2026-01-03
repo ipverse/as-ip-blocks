@@ -1,9 +1,12 @@
 {
-  "asn": 29550,
-  "handle": "SIMPLYTRANSIT",
-  "description": "Team Blue Carrier Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29550,
+  "metadata" : {
+    "handle" : "SIMPLYTRANSIT",
+    "description" : "Team Blue Carrier Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.193.128.0/20",
       "85.234.128.0/19",
       "91.186.0.0/19",
@@ -16,7 +19,7 @@
       "213.229.64.0/18",
       "217.112.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:af8::/32"
     ]
   }

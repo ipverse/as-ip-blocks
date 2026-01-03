@@ -1,9 +1,12 @@
 {
-  "asn": 4694,
-  "handle": "IDCF",
-  "description": "IDC Frontier Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4694,
+  "metadata" : {
+    "handle" : "IDCF",
+    "description" : "IDC Frontier Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.115.224.0/20",
       "61.121.198.0/24",
       "61.121.200.0/24",
@@ -69,7 +72,7 @@
       "216.255.224.0/20",
       "223.27.118.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:310::/32",
       "2001:d88::/32",
       "2406:600::/32",

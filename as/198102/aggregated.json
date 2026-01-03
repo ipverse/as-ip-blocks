@@ -1,9 +1,12 @@
 {
-  "asn": 198102,
-  "handle": "XSTREAM",
-  "description": "XSTREAM SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198102,
+  "metadata" : {
+    "handle" : "XSTREAM",
+    "description" : "XSTREAM SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.133.48.0/22",
       "78.111.224.0/20",
       "86.105.236.0/22",
@@ -23,7 +26,7 @@
       "195.238.80.0/23",
       "213.225.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4060::/29"
     ]
   }

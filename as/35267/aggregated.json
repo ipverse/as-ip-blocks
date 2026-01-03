@@ -1,9 +1,12 @@
 {
-  "asn": 35267,
-  "handle": "MASSIVE-TELECOM",
-  "description": "Massive Telecom SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35267,
+  "metadata" : {
+    "handle" : "MASSIVE-TELECOM",
+    "description" : "Massive Telecom SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.93.196.0/23",
       "45.93.199.0/24",
       "86.105.253.0/24",
@@ -12,6 +15,6 @@
       "93.114.232.0/23",
       "188.212.192.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

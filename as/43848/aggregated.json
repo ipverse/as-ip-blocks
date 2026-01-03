@@ -1,9 +1,12 @@
 {
-  "asn": 43848,
-  "handle": "GAMSJAEGER",
-  "description": "Gamsjaeger Kabel-TV \u0026 ISP Betriebs GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43848,
+  "metadata" : {
+    "handle" : "GAMSJAEGER",
+    "description" : "Gamsjaeger Kabel-TV & ISP Betriebs GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.255.145.0/24",
       "85.255.148.0/22",
       "85.255.152.0/24",
@@ -13,6 +16,6 @@
       "185.135.17.0/24",
       "193.188.16.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

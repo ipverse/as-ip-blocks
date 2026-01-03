@@ -1,9 +1,12 @@
 {
-  "asn": 8820,
-  "handle": "TAL-DE",
-  "description": "tal.de GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8820,
+  "metadata" : {
+    "handle" : "TAL-DE",
+    "description" : "tal.de GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.236.218.0/23",
       "78.41.50.0/23",
       "81.92.0.0/20",
@@ -19,7 +22,7 @@
       "212.60.128.0/20",
       "213.240.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1758::/48",
       "2a01:170::/29",
       "2a09:b0c0::/32"

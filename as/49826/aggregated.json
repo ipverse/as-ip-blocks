@@ -1,14 +1,17 @@
 {
-  "asn": 49826,
-  "handle": "FSP-AS",
-  "description": "Lounea Palvelut Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49826,
+  "metadata" : {
+    "handle" : "FSP-AS",
+    "description" : "Lounea Palvelut Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.247.240.0/20",
       "82.116.224.0/19",
       "87.236.224.0/21",
       "185.136.36.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

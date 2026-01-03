@@ -1,9 +1,12 @@
 {
-  "asn": 56087,
-  "handle": "URL-NET-AS-AP",
-  "description": "URL Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56087,
+  "metadata" : {
+    "handle" : "URL-NET-AS-AP",
+    "description" : "URL Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.9.0.0/22",
       "103.204.28.0/23",
       "180.235.108.0/22",
@@ -12,6 +15,6 @@
       "206.148.20.0/24",
       "206.148.44.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

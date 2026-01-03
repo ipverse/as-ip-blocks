@@ -1,13 +1,16 @@
 {
-  "asn": 262633,
-  "handle": "ZAIKON-INTERNET",
-  "description": "ZAIKON INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262633,
+  "metadata" : {
+    "handle" : "ZAIKON-INTERNET",
+    "description" : "ZAIKON INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.137.128.0/22",
       "177.86.160.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:750::/32"
     ]
   }

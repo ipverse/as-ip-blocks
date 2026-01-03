@@ -1,11 +1,14 @@
 {
-  "asn": 38911,
-  "handle": "KEYSTART-AS-AP",
-  "description": "Keystart",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38911,
+  "metadata" : {
+    "handle" : "KEYSTART-AS-AP",
+    "description" : "Keystart",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.100.59.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

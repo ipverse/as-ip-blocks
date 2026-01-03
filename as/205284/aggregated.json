@@ -1,12 +1,15 @@
 {
-  "asn": 205284,
-  "handle": "AIRLINK-SRLS",
-  "description": "AirLink Srls",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205284,
+  "metadata" : {
+    "handle" : "AIRLINK-SRLS",
+    "description" : "AirLink Srls",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.190.216.0/23",
       "185.190.218.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

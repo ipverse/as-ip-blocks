@@ -1,9 +1,12 @@
 {
-  "asn": 8487,
-  "handle": "PHIBEE",
-  "description": "Phibee Telecom SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8487,
+  "metadata" : {
+    "handle" : "PHIBEE",
+    "description" : "Phibee Telecom SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.41.160.0/21",
       "78.41.184.0/21",
       "85.12.128.0/18",
@@ -17,7 +20,7 @@
       "194.246.101.0/24",
       "195.62.42.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1bf8::/32",
       "2a02:c88::/32"
     ]

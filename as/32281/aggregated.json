@@ -1,9 +1,12 @@
 {
-  "asn": 32281,
-  "handle": "CCT-LLC",
-  "description": "CCT LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32281,
+  "metadata" : {
+    "handle" : "CCT-LLC",
+    "description" : "CCT LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.140.184.0/24",
       "23.159.224.0/24",
       "64.37.16.0/21",
@@ -23,7 +26,7 @@
       "199.192.70.0/23",
       "209.209.104.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fb22::/36",
       "2602:fe31::/36",
       "2604:340::/32",

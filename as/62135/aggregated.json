@@ -1,12 +1,15 @@
 {
-  "asn": 62135,
-  "handle": "RESOLVER-PROJECT",
-  "description": "Join-stock company Internet ExchangeMSK-IX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62135,
+  "metadata" : {
+    "handle" : "RESOLVER-PROJECT",
+    "description" : "Join-stock company Internet ExchangeMSK-IX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.85.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:a9c7:2::/47"
     ]
   }

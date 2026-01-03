@@ -1,9 +1,12 @@
 {
-  "asn": 207416,
-  "handle": "NEKO-ORG-AS",
-  "description": "NekoByte Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207416,
+  "metadata" : {
+    "handle" : "NEKO-ORG-AS",
+    "description" : "NekoByte Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.188.115.0/24",
       "77.239.127.0/24",
       "144.31.251.0/24",
@@ -12,7 +15,7 @@
       "195.62.48.0/23",
       "212.113.98.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:d940:1a::/48",
       "2a0d:d940:1c::/48"
     ]

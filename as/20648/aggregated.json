@@ -1,9 +1,12 @@
 {
-  "asn": 20648,
-  "handle": "TMN-SA",
-  "description": "TMN SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20648,
+  "metadata" : {
+    "handle" : "TMN-SA",
+    "description" : "TMN SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.56.22.0/24",
       "31.56.203.0/24",
       "40.223.4.0/24",
@@ -55,6 +58,6 @@
       "213.220.8.0/24",
       "217.180.57.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

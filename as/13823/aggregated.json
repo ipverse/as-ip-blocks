@@ -1,9 +1,12 @@
 {
-  "asn": 13823,
-  "handle": "MESH-NET",
-  "description": "Mesh.Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13823,
+  "metadata" : {
+    "handle" : "MESH-NET",
+    "description" : "Mesh.Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.113.240.0/22",
       "74.113.244.0/24",
       "74.113.246.0/23",
@@ -11,7 +14,7 @@
       "204.238.218.0/24",
       "208.66.144.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:d600::/32"
     ]
   }

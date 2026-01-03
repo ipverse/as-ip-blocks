@@ -1,13 +1,16 @@
 {
-  "asn": 40499,
-  "handle": "WG",
-  "description": "Washington Gas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40499,
+  "metadata" : {
+    "handle" : "WG",
+    "description" : "Washington Gas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.76.232.0/22",
       "208.76.236.0/24",
       "208.76.238.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

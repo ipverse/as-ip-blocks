@@ -1,9 +1,12 @@
 {
-  "asn": 17511,
-  "handle": "OPTAGE",
-  "description": "OPTAGE Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17511,
+  "metadata" : {
+    "handle" : "OPTAGE",
+    "description" : "OPTAGE Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.70.0.0/16",
       "58.188.0.0/14",
       "59.190.0.0/16",
@@ -63,7 +66,7 @@
       "219.122.32.0/19",
       "219.122.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:ce8::/32"
     ]
   }

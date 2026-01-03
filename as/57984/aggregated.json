@@ -1,12 +1,15 @@
 {
-  "asn": 57984,
-  "handle": "XINDI-AS",
-  "description": "XINDI Networks SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57984,
+  "metadata" : {
+    "handle" : "XINDI-AS",
+    "description" : "XINDI Networks SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.207.120.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:2f07:abcd::/48"
     ]
   }

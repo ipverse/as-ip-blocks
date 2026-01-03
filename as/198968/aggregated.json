@@ -1,9 +1,12 @@
 {
-  "asn": 198968,
-  "handle": "CYBERNETICOS",
-  "description": "Cyberneticos Hosting SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198968,
+  "metadata" : {
+    "handle" : "CYBERNETICOS",
+    "description" : "Cyberneticos Hosting SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.21.214.0/24",
       "82.22.215.0/24",
       "82.23.207.0/24",
@@ -14,6 +17,6 @@
       "164.138.212.0/23",
       "164.138.215.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

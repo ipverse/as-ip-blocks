@@ -1,9 +1,12 @@
 {
-  "asn": 265509,
-  "handle": "OPTOENLACES",
-  "description": "OPTOENLACES S.A. DE C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265509,
+  "metadata" : {
+    "handle" : "OPTOENLACES",
+    "description" : "OPTOENLACES S.A. DE C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.35.128.0/20",
       "38.35.144.0/21",
       "38.35.152.0/23",
@@ -18,7 +21,7 @@
       "38.65.131.0/24",
       "168.195.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:282::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 201200,
-  "handle": "SUPERHOSTING-AS",
-  "description": "SuperHosting.BG Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201200,
+  "metadata" : {
+    "handle" : "SUPERHOSTING-AS",
+    "description" : "SuperHosting.BG Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.158.28.0/22",
       "79.124.55.0/24",
       "87.120.40.0/24",
@@ -18,6 +21,6 @@
       "195.191.148.0/23",
       "217.174.156.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

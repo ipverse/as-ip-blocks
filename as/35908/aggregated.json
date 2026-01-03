@@ -1,9 +1,12 @@
 {
-  "asn": 35908,
-  "handle": "VPLSNET",
-  "description": "Krypt Technologies",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35908,
+  "metadata" : {
+    "handle" : "VPLSNET",
+    "description" : "Krypt Technologies",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.252.120.0/22",
       "66.186.32.0/19",
       "67.43.144.0/20",
@@ -314,7 +317,7 @@
       "209.11.242.0/23",
       "209.11.253.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f180::/31"
     ]
   }

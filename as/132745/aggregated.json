@@ -1,12 +1,15 @@
 {
-  "asn": 132745,
-  "handle": "BLASTINTERNET-AS-AP",
-  "description": "Blast Internet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132745,
+  "metadata" : {
+    "handle" : "BLASTINTERNET-AS-AP",
+    "description" : "Blast Internet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.24.140.0/22",
       "103.162.176.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

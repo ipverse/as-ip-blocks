@@ -1,9 +1,12 @@
 {
-  "asn": 393942,
-  "handle": "AS393942",
-  "description": "WiredISP Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393942,
+  "metadata" : {
+    "handle" : "AS393942",
+    "description" : "WiredISP Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.56.238.0/24",
       "31.58.69.0/24",
       "31.59.116.0/24",
@@ -41,6 +44,6 @@
       "205.234.177.0/24",
       "206.162.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

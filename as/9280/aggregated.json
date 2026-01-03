@@ -1,12 +1,15 @@
 {
-  "asn": 9280,
-  "handle": "SAU-NET-AU",
-  "description": "Servers Australia Pty. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9280,
+  "metadata" : {
+    "handle" : "SAU-NET-AU",
+    "description" : "Servers Australia Pty. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "191.96.214.0/24",
       "202.131.92.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

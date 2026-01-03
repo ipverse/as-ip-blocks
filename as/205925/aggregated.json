@@ -1,13 +1,16 @@
 {
-  "asn": 205925,
-  "handle": "ASN-GRUPPOAPI",
-  "description": "Italiana Petroli SpA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205925,
+  "metadata" : {
+    "handle" : "ASN-GRUPPOAPI",
+    "description" : "Italiana Petroli SpA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.197.212.0/23",
       "185.197.214.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:7c40::/32"
     ]
   }

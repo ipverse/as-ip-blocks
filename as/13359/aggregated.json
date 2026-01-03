@@ -1,12 +1,15 @@
 {
-  "asn": 13359,
-  "handle": "LEARN-CACHING-PEERING",
-  "description": "LEARN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13359,
+  "metadata" : {
+    "handle" : "LEARN-CACHING-PEERING",
+    "description" : "LEARN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.200.189.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f928:4::/48"
     ]
   }

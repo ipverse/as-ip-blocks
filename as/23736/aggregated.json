@@ -1,10 +1,13 @@
 {
-  "asn": 23736,
-  "handle": "TTSSB-MY",
-  "description": "TM TECHNOLOGY SERVICES SDN BHD",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 23736,
+  "metadata" : {
+    "handle" : "TTSSB-MY",
+    "description" : "TM TECHNOLOGY SERVICES SDN BHD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2400:7400:c::/48",
       "2400:7400:10::/47",
       "2400:7400:23::/48",
@@ -30,7 +33,8 @@
       "2400:7400:92::/48",
       "2400:7400:e011::/48",
       "2400:7400:e019::/48",
-      "2400:7400:e01c::/46",
+      "2400:7400:e01c::/47",
+      "2400:7400:e01f::/48",
       "2400:7400:e021::/48",
       "2400:7400:e023::/48",
       "2400:7400:e024::/47",

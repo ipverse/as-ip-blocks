@@ -1,9 +1,12 @@
 {
-  "asn": 39785,
-  "handle": "AXIOMA",
-  "description": "Axioma LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39785,
+  "metadata" : {
+    "handle" : "AXIOMA",
+    "description" : "Axioma LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.105.136.0/21",
       "89.105.144.0/23",
       "89.105.146.0/24",
@@ -19,6 +22,6 @@
       "178.169.96.0/19",
       "185.26.216.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

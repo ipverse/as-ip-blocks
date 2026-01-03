@@ -1,9 +1,12 @@
 {
-  "asn": 58816,
-  "handle": "IDNIC-GARENA-AS-ID",
-  "description": "PT Garena Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58816,
+  "metadata" : {
+    "handle" : "IDNIC-GARENA-AS-ID",
+    "description" : "PT Garena Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.252.184.0/22",
       "103.69.179.0/24",
       "103.248.56.0/22",
@@ -12,6 +15,6 @@
       "202.73.16.0/21",
       "202.181.80.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

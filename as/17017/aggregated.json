@@ -1,15 +1,18 @@
 {
-  "asn": 17017,
-  "handle": "AS-CAMPUSCOLO",
-  "description": "campuscolo.com",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17017,
+  "metadata" : {
+    "handle" : "AS-CAMPUSCOLO",
+    "description" : "campuscolo.com",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.247.236.0/22",
       "137.83.72.0/24",
       "168.245.136.0/24",
       "208.70.144.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:7fc0::/32"
     ]
   }

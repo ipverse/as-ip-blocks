@@ -1,9 +1,12 @@
 {
-  "asn": 63646,
-  "handle": "XJKJ",
-  "description": "Beijing Xiaoju Science and Technology Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63646,
+  "metadata" : {
+    "handle" : "XJKJ",
+    "description" : "Beijing Xiaoju Science and Technology Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.73.48.0/24",
       "116.85.0.0/22",
       "116.85.15.0/24",
@@ -12,7 +15,7 @@
       "116.85.240.0/20",
       "117.51.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:840:d000::/46",
       "2402:840:e000::/46",
       "2402:840:f000::/38"

@@ -1,12 +1,15 @@
 {
-  "asn": 50217,
-  "handle": "HFK-ASN",
-  "description": "Vestland Fylkeskommune",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50217,
+  "metadata" : {
+    "handle" : "HFK-ASN",
+    "description" : "Vestland Fylkeskommune",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.70.80.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:20a0::/32"
     ]
   }

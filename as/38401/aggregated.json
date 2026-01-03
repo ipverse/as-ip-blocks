@@ -1,9 +1,12 @@
 {
-  "asn": 38401,
-  "handle": "GOEAN-AS",
-  "description": "Gyeonggi Provincial Anseong Office of Education",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38401,
+  "metadata" : {
+    "handle" : "GOEAN-AS",
+    "description" : "Gyeonggi Provincial Anseong Office of Education",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.238.14.0/23",
       "59.8.241.0/24",
       "122.203.144.0/21",
@@ -16,6 +19,6 @@
       "220.120.127.0/24",
       "222.99.167.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

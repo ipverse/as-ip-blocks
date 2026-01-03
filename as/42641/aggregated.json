@@ -1,11 +1,14 @@
 {
-  "asn": 42641,
-  "handle": "IRNET-AS",
-  "description": "IR NET Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42641,
+  "metadata" : {
+    "handle" : "IRNET-AS",
+    "description" : "IR NET Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.142.219.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

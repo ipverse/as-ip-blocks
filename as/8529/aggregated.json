@@ -1,9 +1,12 @@
 {
-  "asn": 8529,
-  "handle": "OMANTEL-AS",
-  "description": "Zain Omantel International FZ-LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8529,
+  "metadata" : {
+    "handle" : "OMANTEL-AS",
+    "description" : "Zain Omantel International FZ-LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.231.213.0/24",
       "82.178.32.0/23",
       "82.178.158.0/23",
@@ -15,7 +18,7 @@
       "185.201.192.0/22",
       "213.202.0.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:3e0:2006::/48",
       "2a02:f040::/47",
       "2a02:f040:4::/47",

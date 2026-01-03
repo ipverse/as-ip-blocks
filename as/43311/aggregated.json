@@ -1,15 +1,18 @@
 {
-  "asn": 43311,
-  "handle": "CCM-BENCHMARK-GROUP-AS",
-  "description": "CCM Benchmark Group SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43311,
+  "metadata" : {
+    "handle" : "CCM-BENCHMARK-GROUP-AS",
+    "description" : "CCM Benchmark Group SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.209.35.0/24",
       "185.83.189.0/24",
       "185.83.191.0/24",
       "194.169.240.0/24",
       "195.248.250.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

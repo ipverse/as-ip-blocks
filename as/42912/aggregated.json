@@ -1,9 +1,12 @@
 {
-  "asn": 42912,
-  "handle": "XOLJO",
-  "description": "Al mouakhah lil khadamat al logesteih wa al itisalat",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42912,
+  "metadata" : {
+    "handle" : "XOLJO",
+    "description" : "Al mouakhah lil khadamat al logesteih wa al itisalat",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.17.192.0/20",
       "37.123.64.0/19",
       "93.191.176.0/21",
@@ -12,6 +15,6 @@
       "178.77.128.0/18",
       "185.160.236.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 17197,
-  "handle": "DAEDELUS",
-  "description": "The Daedelus Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17197,
+  "metadata" : {
+    "handle" : "DAEDELUS",
+    "description" : "The Daedelus Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.197.161.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470:9a::/48"
     ]
   }

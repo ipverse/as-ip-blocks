@@ -1,9 +1,12 @@
 {
-  "asn": 26753,
-  "handle": "IN2NET-NETWORK",
-  "description": "In2net Network Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26753,
+  "metadata" : {
+    "handle" : "IN2NET-NETWORK",
+    "description" : "In2net Network Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.151.192.0/18",
       "65.61.192.0/18",
       "66.226.128.0/19",
@@ -12,6 +15,6 @@
       "108.60.0.0/20",
       "209.151.0.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 328373,
-  "handle": "VILLAGE-OPERATOR-AS",
-  "description": "Village Operator",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328373,
+  "metadata" : {
+    "handle" : "VILLAGE-OPERATOR-AS",
+    "description" : "Village Operator",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.131.60.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

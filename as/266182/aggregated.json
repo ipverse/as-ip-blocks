@@ -1,12 +1,15 @@
 {
-  "asn": 266182,
-  "handle": "FLY-PROVEDOR-INTERNET",
-  "description": "FLY PROVEDOR DE INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266182,
+  "metadata" : {
+    "handle" : "FLY-PROVEDOR-INTERNET",
+    "description" : "FLY PROVEDOR DE INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.6.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3bf4::/32"
     ]
   }

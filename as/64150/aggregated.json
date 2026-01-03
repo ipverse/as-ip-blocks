@@ -1,14 +1,17 @@
 {
-  "asn": 64150,
-  "handle": "PIT-HONDURAS",
-  "description": "PIT HONDURAS S. DE R.L. DE C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64150,
+  "metadata" : {
+    "handle" : "PIT-HONDURAS",
+    "description" : "PIT HONDURAS S. DE R.L. DE C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.68.33.0/24",
       "45.68.34.0/23",
       "45.68.62.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:145::/40"
     ]
   }

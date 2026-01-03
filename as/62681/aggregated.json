@@ -1,12 +1,15 @@
 {
-  "asn": 62681,
-  "handle": "ACME-WIDGET",
-  "description": "Acme Widget LP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62681,
+  "metadata" : {
+    "handle" : "ACME-WIDGET",
+    "description" : "Acme Widget LP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.206.32.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:3b:4000::/48"
     ]
   }

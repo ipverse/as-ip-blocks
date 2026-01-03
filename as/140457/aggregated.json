@@ -1,15 +1,18 @@
 {
-  "asn": 140457,
-  "handle": "IMEDIANET-AS-ID",
-  "description": "PT Ikhlas Cipta Teknologi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140457,
+  "metadata" : {
+    "handle" : "IMEDIANET-AS-ID",
+    "description" : "PT Ikhlas Cipta Teknologi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.183.144.0/22",
       "45.198.20.0/22",
       "103.153.62.0/23",
       "103.189.122.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:3fc0::/32"
     ]
   }

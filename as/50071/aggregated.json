@@ -1,14 +1,17 @@
 {
-  "asn": 50071,
-  "handle": "SRDV-AS",
-  "description": "MTS PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50071,
+  "metadata" : {
+    "handle" : "SRDV-AS",
+    "description" : "MTS PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.72.80.0/20",
       "77.93.110.0/23",
       "77.93.112.0/21",
       "94.199.74.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

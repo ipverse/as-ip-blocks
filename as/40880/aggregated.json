@@ -1,13 +1,16 @@
 {
-  "asn": 40880,
-  "handle": "NAICOM",
-  "description": "NAICOM CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40880,
+  "metadata" : {
+    "handle" : "NAICOM",
+    "description" : "NAICOM CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.252.76.0/22",
       "67.206.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe09:f00::/40"
     ]
   }

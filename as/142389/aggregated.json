@@ -1,13 +1,16 @@
 {
-  "asn": 142389,
-  "handle": "IKI-INDONESIA-AS-ID",
-  "description": "IKI INDONESIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142389,
+  "metadata" : {
+    "handle" : "IKI-INDONESIA-AS-ID",
+    "description" : "IKI INDONESIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.172.144.0/24",
       "103.178.125.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:81c0::/48"
     ]
   }

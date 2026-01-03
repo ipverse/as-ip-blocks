@@ -1,9 +1,12 @@
 {
-  "asn": 43991,
-  "handle": "VORONEZHTELECOM-AS",
-  "description": "Voronezh Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43991,
+  "metadata" : {
+    "handle" : "VORONEZHTELECOM-AS",
+    "description" : "Voronezh Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.8.88.0/24",
       "45.132.131.0/24",
       "77.243.83.0/24",
@@ -19,6 +22,6 @@
       "194.26.135.0/24",
       "194.61.232.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

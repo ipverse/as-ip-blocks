@@ -1,13 +1,16 @@
 {
-  "asn": 30830,
-  "handle": "HSCG-AS",
-  "description": "Network Operations B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30830,
+  "metadata" : {
+    "handle" : "HSCG-AS",
+    "description" : "Network Operations B.V",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.73.128.0/22",
       "80.73.132.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5140::/32"
     ]
   }

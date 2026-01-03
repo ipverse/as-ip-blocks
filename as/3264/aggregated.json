@@ -1,14 +1,17 @@
 {
-  "asn": 3264,
-  "handle": "AUBG-AS",
-  "description": "American University in Bulgaria",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3264,
+  "metadata" : {
+    "handle" : "AUBG-AS",
+    "description" : "American University in Bulgaria",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.143.248.0/21",
       "85.95.92.0/22",
       "192.58.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1bfc::/48"
     ]
   }

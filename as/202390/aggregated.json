@@ -1,9 +1,12 @@
 {
-  "asn": 202390,
-  "handle": "UKRFAST-AS",
-  "description": "UKRFAST LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202390,
+  "metadata" : {
+    "handle" : "UKRFAST-AS",
+    "description" : "UKRFAST LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.110.29.0/24",
       "79.110.31.0/24",
       "178.159.98.0/24",
@@ -11,6 +14,6 @@
       "185.89.100.0/22",
       "193.9.158.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

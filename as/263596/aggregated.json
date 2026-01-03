@@ -1,14 +1,17 @@
 {
-  "asn": 263596,
-  "handle": "GRV-FIBRA",
-  "description": "GRV FIBRA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263596,
+  "metadata" : {
+    "handle" : "GRV-FIBRA",
+    "description" : "GRV FIBRA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.121.144.0/22",
       "177.136.184.0/21",
       "191.7.96.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:fa0::/32"
     ]
   }

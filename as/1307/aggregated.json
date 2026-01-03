@@ -1,12 +1,15 @@
 {
-  "asn": 1307,
-  "handle": "RENATER",
-  "description": "Renater",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1307,
+  "metadata" : {
+    "handle" : "RENATER",
+    "description" : "Renater",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.227.0.0/16",
       "134.157.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

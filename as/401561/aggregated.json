@@ -1,9 +1,12 @@
 {
-  "asn": 401561,
-  "handle": "PROXEL",
-  "description": "Proxel Innovations LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401561,
+  "metadata" : {
+    "handle" : "PROXEL",
+    "description" : "Proxel Innovations LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.130.76.0/24",
       "23.130.92.0/24",
       "23.130.124.0/24",
@@ -14,7 +17,7 @@
       "23.135.36.0/24",
       "23.141.180.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f5da::/36",
       "2602:f6db::/36"
     ]

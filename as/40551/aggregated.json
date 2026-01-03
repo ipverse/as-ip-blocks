@@ -1,9 +1,12 @@
 {
-  "asn": 40551,
-  "handle": "ATVI-NETWORK-ASN",
-  "description": "Activision Publishing Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40551,
+  "metadata" : {
+    "handle" : "ATVI-NETWORK-ASN",
+    "description" : "Activision Publishing Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.111.160.0/24",
       "64.111.162.0/24",
       "64.111.164.0/24",
@@ -13,6 +16,6 @@
       "185.22.80.0/22",
       "209.249.12.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

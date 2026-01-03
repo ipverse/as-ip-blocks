@@ -1,16 +1,19 @@
 {
-  "asn": 57119,
-  "handle": "NAITWAYS-AS",
-  "description": "NAITWAYS SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57119,
+  "metadata" : {
+    "handle" : "NAITWAYS-AS",
+    "description" : "NAITWAYS SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.62.152.0/21",
       "185.64.148.0/22",
       "185.175.148.0/22",
       "185.212.20.0/22",
       "185.215.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:7680::/32",
       "2a0b:fd00::/32"
     ]

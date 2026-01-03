@@ -1,9 +1,12 @@
 {
-  "asn": 2830,
-  "handle": "VERIZON-DUAL-HOMED-CUSTOMERS",
-  "description": "Verizon Nederland B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2830,
+  "metadata" : {
+    "handle" : "VERIZON-DUAL-HOMED-CUSTOMERS",
+    "description" : "Verizon Nederland B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.18.16.0/20",
       "91.199.125.0/24",
       "91.229.192.0/24",
@@ -54,7 +57,7 @@
       "194.126.130.0/24",
       "198.202.247.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:3000::/29"
     ]
   }

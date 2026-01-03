@@ -1,9 +1,12 @@
 {
-  "asn": 59127,
-  "handle": "NCV",
-  "description": "Newmedia Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59127,
+  "metadata" : {
+    "handle" : "NCV",
+    "description" : "Newmedia Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.44.128.0/18",
       "101.203.0.0/19",
       "101.203.32.0/20",
@@ -17,7 +20,7 @@
       "216.171.112.0/20",
       "223.223.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:7ec0::/32"
     ]
   }

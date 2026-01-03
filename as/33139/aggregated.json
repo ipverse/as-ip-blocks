@@ -1,9 +1,12 @@
 {
-  "asn": 33139,
-  "handle": "CANACA-210",
-  "description": "Canaca-com Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33139,
+  "metadata" : {
+    "handle" : "CANACA-210",
+    "description" : "Canaca-com Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.43.112.0/21",
       "38.43.160.0/19",
       "38.51.0.0/19",
@@ -20,6 +23,6 @@
       "69.171.154.0/24",
       "192.133.101.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

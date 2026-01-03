@@ -1,11 +1,14 @@
 {
-  "asn": 142157,
-  "handle": "NET2-AS-AP",
-  "description": "Net Zone",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142157,
+  "metadata" : {
+    "handle" : "NET2-AS-AP",
+    "description" : "Net Zone",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.167.18.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

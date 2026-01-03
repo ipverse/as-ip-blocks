@@ -1,9 +1,12 @@
 {
-  "asn": 12880,
-  "handle": "DCI-AS",
-  "description": "Iran Information Technology Company PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12880,
+  "metadata" : {
+    "handle" : "DCI-AS",
+    "description" : "Iran Information Technology Company PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.176.0.0/12",
       "78.38.240.0/23",
       "78.38.242.0/24",
@@ -18,7 +21,7 @@
       "217.218.155.0/24",
       "217.218.165.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4188::/48"
     ]
   }

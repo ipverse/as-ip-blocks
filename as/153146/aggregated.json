@@ -1,11 +1,14 @@
 {
-  "asn": 153146,
-  "handle": "IDNIC-GNS-AS-ID",
-  "description": "PT Gateway Network Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153146,
+  "metadata" : {
+    "handle" : "IDNIC-GNS-AS-ID",
+    "description" : "PT Gateway Network Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.191.206.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

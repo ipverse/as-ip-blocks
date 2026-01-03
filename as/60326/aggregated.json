@@ -1,13 +1,16 @@
 {
-  "asn": 60326,
-  "handle": "DEADBEEF-AS",
-  "description": "0xDEADBEEF LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60326,
+  "metadata" : {
+    "handle" : "DEADBEEF-AS",
+    "description" : "0xDEADBEEF LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.73.212.0/23",
       "208.73.214.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fb92::/38",
       "2a06:a005:8f0::/44",
       "2a06:a005:1060::/44",

@@ -1,9 +1,12 @@
 {
-  "asn": 328126,
-  "handle": "ORANGE-CDN-AS",
-  "description": "Orange Tunisie",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328126,
+  "metadata" : {
+    "handle" : "ORANGE-CDN-AS",
+    "description" : "Orange Tunisie",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.15.228.0/22",
       "80.15.232.0/22",
       "80.15.243.0/24",
@@ -17,7 +20,7 @@
       "197.29.125.0/24",
       "197.29.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:c9c0:c000::/48",
       "2a01:c9c0:c002::/48",
       "2a01:c9c0:c004::/48",

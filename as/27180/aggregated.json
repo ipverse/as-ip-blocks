@@ -1,13 +1,16 @@
 {
-  "asn": 27180,
-  "handle": "ACETOMATO",
-  "description": "Ace Tomato Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27180,
+  "metadata" : {
+    "handle" : "ACETOMATO",
+    "description" : "Ace Tomato Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.134.44.0/24",
       "23.140.44.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f6f5::/36",
       "2602:f712::/40"
     ]

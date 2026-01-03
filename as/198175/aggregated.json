@@ -1,12 +1,15 @@
 {
-  "asn": 198175,
-  "handle": "AIOZG",
-  "description": "Kanton Zug",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198175,
+  "metadata" : {
+    "handle" : "AIOZG",
+    "description" : "Kanton Zug",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.134.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:8240::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 396986,
-  "handle": "BYTEDANCE",
-  "description": "Bytedance Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396986,
+  "metadata" : {
+    "handle" : "BYTEDANCE",
+    "description" : "Bytedance Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "71.18.1.0/24",
       "71.18.2.0/23",
       "71.18.4.0/22",
@@ -79,7 +82,7 @@
       "192.64.15.0/24",
       "199.103.24.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:fb0:1056::/48",
       "2404:8d04:2643::/48",
       "2404:8d04:4642::/48",

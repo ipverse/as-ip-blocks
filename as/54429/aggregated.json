@@ -1,13 +1,16 @@
 {
-  "asn": 54429,
-  "handle": "LOCAL-CONNECTIVITY-LAB",
-  "description": "Local Connectivity Lab",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54429,
+  "metadata" : {
+    "handle" : "LOCAL-CONNECTIVITY-LAB",
+    "description" : "Local Connectivity Lab",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.146.168.0/24",
       "142.249.72.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd94::/36"
     ]
   }

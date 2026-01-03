@@ -1,14 +1,17 @@
 {
-  "asn": 49283,
-  "handle": "SETERA-AS",
-  "description": "Setera Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49283,
+  "metadata" : {
+    "handle" : "SETERA-AS",
+    "description" : "Setera Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.182.160.0/21",
       "89.18.224.0/19",
       "109.68.248.0/21",
       "178.21.192.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

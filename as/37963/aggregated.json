@@ -1,9 +1,12 @@
 {
-  "asn": 37963,
-  "handle": "ALIBABA-CN-NET",
-  "description": "Hangzhou Alibaba Advertising Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37963,
+  "metadata" : {
+    "handle" : "ALIBABA-CN-NET",
+    "description" : "Hangzhou Alibaba Advertising Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.128.32.0/19",
       "8.128.64.0/19",
       "8.128.96.0/20",
@@ -96,7 +99,7 @@
       "218.244.128.0/19",
       "223.4.0.0/14"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:3200::/32",
       "2400:b200::/32",
       "2401:2e00::/32",

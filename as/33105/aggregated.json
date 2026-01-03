@@ -1,15 +1,18 @@
 {
-  "asn": 33105,
-  "handle": "HDSB",
-  "description": "Halton District School Board",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33105,
+  "metadata" : {
+    "handle" : "HDSB",
+    "description" : "Halton District School Board",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.235.116.0/24",
       "199.235.120.0/23",
       "199.235.122.0/24",
       "199.235.124.0/23",
       "199.235.192.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 140736,
-  "handle": "LEDC-AS-AP",
-  "description": "Edge Data Centres Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140736,
+  "metadata" : {
+    "handle" : "LEDC-AS-AP",
+    "description" : "Edge Data Centres Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.188.204.0/22",
       "103.152.64.0/23",
       "185.255.36.0/22",
@@ -11,7 +14,7 @@
       "193.23.128.0/22",
       "213.232.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:2ac0::/32"
     ]
   }

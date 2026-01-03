@@ -1,14 +1,17 @@
 {
-  "asn": 48473,
-  "handle": "TOWERCOM-SK-AS",
-  "description": "Towercom a.s",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48473,
+  "metadata" : {
+    "handle" : "TOWERCOM-SK-AS",
+    "description" : "Towercom a.s.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.248.152.0/22",
       "91.209.247.0/24",
       "185.14.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:aac0::/32"
     ]
   }

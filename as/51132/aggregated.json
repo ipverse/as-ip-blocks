@@ -1,9 +1,12 @@
 {
-  "asn": 51132,
-  "handle": "ARKADEN",
-  "description": "Arkaden Konsult AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51132,
+  "metadata" : {
+    "handle" : "ARKADEN",
+    "description" : "Arkaden Konsult AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.108.192.0/20",
       "62.108.208.0/21",
       "83.68.224.0/19",
@@ -12,7 +15,7 @@
       "192.5.36.0/24",
       "193.181.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:eb8::/29"
     ]
   }

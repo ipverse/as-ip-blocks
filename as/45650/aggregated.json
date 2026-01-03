@@ -1,9 +1,12 @@
 {
-  "asn": 45650,
-  "handle": "VIANET-NP",
-  "description": "VIA NET COMMUNICATION PUBLIC LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45650,
+  "metadata" : {
+    "handle" : "VIANET-NP",
+    "description" : "VIA NET COMMUNICATION PUBLIC LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.253.67.0/24",
       "43.245.84.0/22",
       "45.139.188.0/22",
@@ -21,7 +24,7 @@
       "188.253.96.0/21",
       "202.51.64.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:c540::/48",
       "2404:7c00::/47",
       "2404:7c00:40::/42",

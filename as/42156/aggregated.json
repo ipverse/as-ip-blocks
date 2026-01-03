@@ -1,9 +1,12 @@
 {
-  "asn": 42156,
-  "handle": "GNX",
-  "description": "GNX B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42156,
+  "metadata" : {
+    "handle" : "GNX",
+    "description" : "GNX B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.83.172.0/22",
       "45.143.60.0/22",
       "69.48.159.0/24",
@@ -11,7 +14,7 @@
       "185.251.180.0/24",
       "193.107.247.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:8480::/29",
       "2a0e:e2c0::/29"
     ]

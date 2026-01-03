@@ -1,9 +1,12 @@
 {
-  "asn": 5479,
-  "handle": "UNI-VILNIUS",
-  "description": "Kauno Technologijos Universitetas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5479,
+  "metadata" : {
+    "handle" : "UNI-VILNIUS",
+    "description" : "Kauno Technologijos Universitetas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.129.128.0/18",
       "193.219.40.0/21",
       "193.219.48.0/21",
@@ -12,7 +15,7 @@
       "193.219.128.0/20",
       "193.219.144.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:77c::/32"
     ]
   }

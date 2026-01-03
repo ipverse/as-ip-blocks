@@ -1,14 +1,17 @@
 {
-  "asn": 13054,
-  "handle": "FREINET",
-  "description": "badenIT GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13054,
+  "metadata" : {
+    "handle" : "FREINET",
+    "description" : "badenIT GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.253.12.0/22",
       "193.101.168.0/21",
       "213.164.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:3500::/32",
       "2a0c:3040::/29"
     ]

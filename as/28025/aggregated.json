@@ -1,9 +1,12 @@
 {
-  "asn": 28025,
-  "handle": "CENTROSUR",
-  "description": "CENTROSUR",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28025,
+  "metadata" : {
+    "handle" : "CENTROSUR",
+    "description" : "CENTROSUR",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.120.64.0/23",
       "190.120.66.0/24",
       "190.120.71.0/24",
@@ -12,6 +15,6 @@
       "190.120.80.0/24",
       "190.120.83.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

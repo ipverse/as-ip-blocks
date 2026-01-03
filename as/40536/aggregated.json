@@ -1,12 +1,15 @@
 {
-  "asn": 40536,
-  "handle": "PIXELDECK",
-  "description": "PixelDeck Hosting LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40536,
+  "metadata" : {
+    "handle" : "PIXELDECK",
+    "description" : "PixelDeck Hosting LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.139.196.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f629::/47",
       "2602:f629:3::/48"
     ]

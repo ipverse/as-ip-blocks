@@ -1,9 +1,12 @@
 {
-  "asn": 19239,
-  "handle": "KLA",
-  "description": "KLA Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19239,
+  "metadata" : {
+    "handle" : "KLA",
+    "description" : "KLA Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.118.26.0/24",
       "192.146.1.0/24",
       "192.146.2.0/24",
@@ -15,6 +18,6 @@
       "192.146.24.0/23",
       "192.146.50.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

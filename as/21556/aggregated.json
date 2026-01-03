@@ -1,13 +1,16 @@
 {
-  "asn": 21556,
-  "handle": "NARC-EROOT",
-  "description": "National Aeronautics and Space Administration",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21556,
+  "metadata" : {
+    "handle" : "NARC-EROOT",
+    "description" : "National Aeronautics and Space Administration",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.12.28.0/24",
       "192.203.230.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:500:a8::/48",
       "2620:126:e000::/48"
     ]

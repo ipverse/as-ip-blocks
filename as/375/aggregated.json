@@ -1,9 +1,12 @@
 {
-  "asn": 375,
-  "handle": "TIETOTIE-AS",
-  "description": "Tietoevry Oyj",
-  "subnets": {
-    "ipv4": [
+  "asn" : 375,
+  "metadata" : {
+    "handle" : "TIETOTIE-AS",
+    "description" : "Tietoevry Oyj",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.207.0.0/17",
       "192.49.0.0/21",
       "192.49.9.0/24",
@@ -56,7 +59,7 @@
       "192.49.192.0/18",
       "192.163.145.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:9b80::/34"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 215741,
-  "handle": "DETACON-AS",
-  "description": "detacon GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215741,
+  "metadata" : {
+    "handle" : "DETACON-AS",
+    "description" : "detacon GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.14.141.0/24",
       "151.240.27.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

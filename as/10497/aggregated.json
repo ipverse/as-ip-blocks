@@ -1,9 +1,12 @@
 {
-  "asn": 10497,
-  "handle": "WORLDBANK",
-  "description": "IBRD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10497,
+  "metadata" : {
+    "handle" : "WORLDBANK",
+    "description" : "IBRD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.220.0.0/16",
       "164.114.0.0/16",
       "192.86.97.0/24",
@@ -14,7 +17,7 @@
       "192.156.228.0/24",
       "199.165.158.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:1ff::/36"
     ]
   }

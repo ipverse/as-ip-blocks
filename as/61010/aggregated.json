@@ -1,12 +1,15 @@
 {
-  "asn": 61010,
-  "handle": "IPNET-AS",
-  "description": "IPNET OOO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61010,
+  "metadata" : {
+    "handle" : "IPNET-AS",
+    "description" : "IPNET OOO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.20.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:47a0::/32"
     ]
   }

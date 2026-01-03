@@ -1,13 +1,16 @@
 {
-  "asn": 141934,
-  "handle": "IDNIC-SBM-AS-ID",
-  "description": "PT Sanders Bersaudara Media",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141934,
+  "metadata" : {
+    "handle" : "IDNIC-SBM-AS-ID",
+    "description" : "PT Sanders Bersaudara Media",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.4.82.0/23",
       "103.166.26.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:5040::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 139873,
-  "handle": "JPLATKLUTTHT-AS-AP",
-  "description": "Host Tel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139873,
+  "metadata" : {
+    "handle" : "JPLATKLUTTHT-AS-AP",
+    "description" : "Host Tel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.177.160.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:7720::/32"
     ]
   }

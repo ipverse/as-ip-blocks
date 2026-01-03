@@ -1,12 +1,15 @@
 {
-  "asn": 56439,
-  "handle": "PSEC-AS",
-  "description": "Protection and Security Plus LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56439,
+  "metadata" : {
+    "handle" : "PSEC-AS",
+    "description" : "Protection and Security Plus LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.223.152.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:564::/48"
     ]
   }

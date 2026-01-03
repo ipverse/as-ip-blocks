@@ -1,11 +1,14 @@
 {
-  "asn": 55210,
-  "handle": "SAMC-HCHA",
-  "description": "Southeast Alabama Medical Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55210,
+  "metadata" : {
+    "handle" : "SAMC-HCHA",
+    "description" : "Southeast Alabama Medical Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.22.46.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

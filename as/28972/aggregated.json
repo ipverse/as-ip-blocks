@@ -1,9 +1,12 @@
 {
-  "asn": 28972,
-  "handle": "MSOFT-AS",
-  "description": "M-SOFT spol. s r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28972,
+  "metadata" : {
+    "handle" : "MSOFT-AS",
+    "description" : "M-SOFT spol. s r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.141.240.0/20",
       "178.216.144.0/21",
       "193.143.252.0/24",
@@ -11,7 +14,7 @@
       "213.226.224.0/20",
       "213.226.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5d00::/29",
       "2a10:1bc0::/29"
     ]

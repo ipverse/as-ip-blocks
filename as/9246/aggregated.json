@@ -1,9 +1,12 @@
 {
-  "asn": 9246,
-  "handle": "GTA-AP",
-  "description": "TeleGuam Holdings",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9246,
+  "metadata" : {
+    "handle" : "GTA-AP",
+    "description" : "TeleGuam Holdings",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.121.24.0/21",
       "43.240.88.0/22",
       "67.98.160.0/21",
@@ -13,7 +16,7 @@
       "202.151.64.0/19",
       "209.164.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:7400::/32"
     ]
   }

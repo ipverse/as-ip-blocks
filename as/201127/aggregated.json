@@ -1,14 +1,17 @@
 {
-  "asn": 201127,
-  "handle": "FASTFONE-ASN",
-  "description": "Fastfone s.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201127,
+  "metadata" : {
+    "handle" : "FASTFONE-ASN",
+    "description" : "Fastfone s.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.39.220.0/22",
       "185.84.88.0/22",
       "185.189.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:a3c0::/29",
       "2a0b:d680::/32"
     ]

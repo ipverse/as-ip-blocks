@@ -1,13 +1,16 @@
 {
-  "asn": 29994,
-  "handle": "MR-MAHLE",
-  "description": "Mark Mahle LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29994,
+  "metadata" : {
+    "handle" : "MR-MAHLE",
+    "description" : "Mark Mahle LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.147.60.0/24",
       "81.85.58.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:81c:a000::/44"
     ]
   }

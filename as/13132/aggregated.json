@@ -1,15 +1,18 @@
 {
-  "asn": 13132,
-  "handle": "CYBERWAYS-AS",
-  "description": "cyberways Informationsdienste GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13132,
+  "metadata" : {
+    "handle" : "CYBERWAYS-AS",
+    "description" : "cyberways Informationsdienste GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.31.143.0/24",
       "194.31.242.0/24",
       "194.59.224.0/20",
       "212.125.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:438::/32"
     ]
   }

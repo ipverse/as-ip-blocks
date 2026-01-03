@@ -1,12 +1,15 @@
 {
-  "asn": 57141,
-  "handle": "AS-TELWAN",
-  "description": "TELWAN SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57141,
+  "metadata" : {
+    "handle" : "AS-TELWAN",
+    "description" : "TELWAN SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.154.80.0/21",
       "185.131.192.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

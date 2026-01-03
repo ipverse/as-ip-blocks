@@ -1,9 +1,12 @@
 {
-  "asn": 46667,
-  "handle": "EPSEL-ASN",
-  "description": "Evercore Partners Services East LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46667,
+  "metadata" : {
+    "handle" : "EPSEL-ASN",
+    "description" : "Evercore Partners Services East LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.108.218.0/24",
       "38.110.137.0/24",
       "38.125.21.0/24",
@@ -12,6 +15,6 @@
       "154.51.186.0/24",
       "154.59.134.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

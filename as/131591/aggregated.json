@@ -1,9 +1,12 @@
 {
-  "asn": 131591,
-  "handle": "AMBIT-AS-TW",
-  "description": "Ambit Microsystem Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131591,
+  "metadata" : {
+    "handle" : "AMBIT-AS-TW",
+    "description" : "Ambit Microsystem Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "101.136.0.0/14",
       "103.231.48.0/23",
       "203.79.206.0/23",
@@ -21,7 +24,7 @@
       "223.22.254.0/24",
       "223.23.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:0:8000::/36"
     ]
   }

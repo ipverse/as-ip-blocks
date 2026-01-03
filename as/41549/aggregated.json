@@ -1,9 +1,12 @@
 {
-  "asn": 41549,
-  "handle": "EWB-CABLE-NETWORK-AS",
-  "description": "Elektrizitaets- und Wasserwerk der Stadt Buchs SG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41549,
+  "metadata" : {
+    "handle" : "EWB-CABLE-NETWORK-AS",
+    "description" : "Elektrizitaets- und Wasserwerk der Stadt Buchs SG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.84.0.0/19",
       "89.186.208.0/21",
       "146.185.0.0/21",
@@ -16,7 +19,7 @@
       "213.159.144.0/20",
       "217.67.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:8ec::/48",
       "2a01:aec0::/32"
     ]

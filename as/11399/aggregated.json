@@ -1,13 +1,16 @@
 {
-  "asn": 11399,
-  "handle": "WILLIAMSCOLLEGE",
-  "description": "Williams College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11399,
+  "metadata" : {
+    "handle" : "WILLIAMSCOLLEGE",
+    "description" : "Williams College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.165.0.0/16",
       "204.225.173.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470:ed::/48",
       "2602:811:3000::/44",
       "2606:6b40:fff1::/48",

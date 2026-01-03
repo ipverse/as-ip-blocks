@@ -1,10 +1,13 @@
 {
-  "asn": 57415,
-  "handle": "R-TEL-AS",
-  "description": "R-TEL LLC",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 57415,
+  "metadata" : {
+    "handle" : "R-TEL-AS",
+    "description" : "R-TEL LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a14:6300::/48"
     ]
   }

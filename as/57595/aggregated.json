@@ -1,12 +1,15 @@
 {
-  "asn": 57595,
-  "handle": "NETLOGIC-AS",
-  "description": "Netlogic doo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57595,
+  "metadata" : {
+    "handle" : "NETLOGIC-AS",
+    "description" : "Netlogic doo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "176.221.72.0/21",
       "185.22.144.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

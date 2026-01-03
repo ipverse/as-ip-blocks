@@ -1,9 +1,12 @@
 {
-  "asn": 58369,
-  "handle": "FIBERNET-AS-ID",
-  "description": "PT. Fiber Networks Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58369,
+  "metadata" : {
+    "handle" : "FIBERNET-AS-ID",
+    "description" : "PT. Fiber Networks Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.123.220.0/22",
       "38.210.84.0/22",
       "38.225.120.0/22",
@@ -45,7 +48,7 @@
       "218.33.80.0/22",
       "218.33.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:fd80::/36",
       "2403:fd80:8000::/36",
       "2403:fd80:a000::/36",

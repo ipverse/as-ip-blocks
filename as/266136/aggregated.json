@@ -1,12 +1,15 @@
 {
-  "asn": 266136,
-  "handle": "RA-INTERNET",
-  "description": "R.A INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266136,
+  "metadata" : {
+    "handle" : "RA-INTERNET",
+    "description" : "R.A INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.6.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3b38::/32"
     ]
   }

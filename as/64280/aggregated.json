@@ -1,9 +1,12 @@
 {
-  "asn": 64280,
-  "handle": "PALO-ALTO-NETWORKS",
-  "description": "Palo Alto Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64280,
+  "metadata" : {
+    "handle" : "PALO-ALTO-NETWORKS",
+    "description" : "Palo Alto Networks Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.155.30.0/24",
       "66.232.32.0/24",
       "66.232.35.0/24",
@@ -12,6 +15,6 @@
       "66.232.42.0/23",
       "66.232.44.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

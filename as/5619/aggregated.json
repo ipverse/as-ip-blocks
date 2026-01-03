@@ -1,9 +1,12 @@
 {
-  "asn": 5619,
-  "handle": "NO-TTSN-ASN1",
-  "description": "TIETOEVRY NORWAY AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5619,
+  "metadata" : {
+    "handle" : "NO-TTSN-ASN1",
+    "description" : "TIETOEVRY NORWAY AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.105.0.0/16",
       "139.106.0.0/15",
       "139.108.0.0/14",
@@ -23,7 +26,7 @@
       "212.18.128.0/19",
       "217.17.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1be8::/29",
       "2a02:9c8::/29"
     ]

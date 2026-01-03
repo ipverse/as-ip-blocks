@@ -1,12 +1,15 @@
 {
-  "asn": 34290,
-  "handle": "EBU",
-  "description": "Union Europeenne de Radio-Television",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34290,
+  "metadata" : {
+    "handle" : "EBU",
+    "description" : "Union Europeenne de Radio-Television",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.43.93.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:20f8::/48"
     ]
   }

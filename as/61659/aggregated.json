@@ -1,12 +1,15 @@
 {
-  "asn": 61659,
-  "handle": "GODNET-TELECOM",
-  "description": "godnet telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61659,
+  "metadata" : {
+    "handle" : "GODNET-TELECOM",
+    "description" : "godnet telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.108.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1c84::/32"
     ]
   }

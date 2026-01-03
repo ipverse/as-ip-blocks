@@ -1,12 +1,15 @@
 {
-  "asn": 42378,
-  "handle": "RTR-AS",
-  "description": "Rundfunk und Telekom Regulierungs-GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42378,
+  "metadata" : {
+    "handle" : "RTR-AS",
+    "description" : "Rundfunk und Telekom Regulierungs-GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.16.157.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:190:15fd::/48",
       "2a01:190:15fe::/48"
     ]

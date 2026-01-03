@@ -1,9 +1,12 @@
 {
-  "asn": 44050,
-  "handle": "PIN-AS",
-  "description": "Petersburg Internet Network ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44050,
+  "metadata" : {
+    "handle" : "PIN-AS",
+    "description" : "Petersburg Internet Network ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.101.89.0/24",
       "45.156.212.0/22",
       "45.159.200.0/22",
@@ -15,7 +18,7 @@
       "188.143.128.0/17",
       "195.2.240.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1d78::/32",
       "2a01:8380::/32",
       "2a02:c6c1::/48",

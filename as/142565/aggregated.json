@@ -1,9 +1,12 @@
 {
-  "asn": 142565,
-  "handle": "BANGMODCLOUD-AS-AP",
-  "description": "Bangmod Cloud Pte. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142565,
+  "metadata" : {
+    "handle" : "BANGMODCLOUD-AS-AP",
+    "description" : "Bangmod Cloud Pte. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.128.8.0/24",
       "103.25.127.0/24",
       "103.78.28.0/23",
@@ -12,6 +15,6 @@
       "103.243.116.0/24",
       "175.29.18.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

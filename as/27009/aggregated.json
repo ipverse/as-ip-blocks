@@ -1,12 +1,15 @@
 {
-  "asn": 27009,
-  "handle": "CUSD",
-  "description": "Clovis Unified School District",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27009,
+  "metadata" : {
+    "handle" : "CUSD",
+    "description" : "Clovis Unified School District",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.110.32.0/20",
       "204.110.48.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

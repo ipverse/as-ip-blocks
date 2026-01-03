@@ -1,15 +1,18 @@
 {
-  "asn": 151636,
-  "handle": "RELIANCE-AS-AP",
-  "description": "Reliance Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151636,
+  "metadata" : {
+    "handle" : "RELIANCE-AS-AP",
+    "description" : "Reliance Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.184.92.0/23",
       "103.244.92.0/23",
       "116.90.116.0/23",
       "149.71.35.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:8620::/32"
     ]
   }

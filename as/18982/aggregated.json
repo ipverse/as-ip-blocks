@@ -1,9 +1,12 @@
 {
-  "asn": 18982,
-  "handle": "US-SIGNAL-CO01",
-  "description": "US Signal Company L.L.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18982,
+  "metadata" : {
+    "handle" : "US-SIGNAL-CO01",
+    "description" : "US Signal Company L.L.C.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.202.0.0/17",
       "147.202.128.0/19",
       "147.202.224.0/19",
@@ -11,7 +14,7 @@
       "192.104.108.0/23",
       "192.104.110.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:18c8:700::/40",
       "2607:1800::/32"
     ]

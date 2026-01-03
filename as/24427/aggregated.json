@@ -1,9 +1,12 @@
 {
-  "asn": 24427,
-  "handle": "FREENET",
-  "description": "Freecomm Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24427,
+  "metadata" : {
+    "handle" : "FREENET",
+    "description" : "Freecomm Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "119.235.128.0/24",
       "119.235.130.0/24",
       "119.235.136.0/24",
@@ -16,6 +19,6 @@
       "119.235.185.0/24",
       "202.170.216.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 52317,
-  "handle": "INTERNET-WINDS-AG",
-  "description": "Internet Winds AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52317,
+  "metadata" : {
+    "handle" : "INTERNET-WINDS-AG",
+    "description" : "Internet Winds AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.112.40.0/22",
       "204.199.4.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:720::/32"
     ]
   }

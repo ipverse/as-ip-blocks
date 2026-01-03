@@ -1,13 +1,16 @@
 {
-  "asn": 26450,
-  "handle": "CTDI-WC",
-  "description": "CTDI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26450,
+  "metadata" : {
+    "handle" : "CTDI-WC",
+    "description" : "CTDI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.94.45.0/24",
       "192.94.46.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:131:1000::/40"
     ]
   }

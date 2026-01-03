@@ -1,14 +1,17 @@
 {
-  "asn": 30013,
-  "handle": "PIXAR-AS",
-  "description": "Pixar",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30013,
+  "metadata" : {
+    "handle" : "PIXAR-AS",
+    "description" : "Pixar",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.72.247.0/24",
       "139.104.180.0/23",
       "139.104.182.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:79::/48",
       "2620:79:2::/48",
       "2620:79:4::/48"

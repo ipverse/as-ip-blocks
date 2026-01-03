@@ -1,13 +1,16 @@
 {
-  "asn": 13506,
-  "handle": "US-DEPARTMENT-OF-THE-TREASURY",
-  "description": "United States Department of the Treasury",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13506,
+  "metadata" : {
+    "handle" : "US-DEPARTMENT-OF-THE-TREASURY",
+    "description" : "United States Department of the Treasury",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.95.0.0/16",
       "166.123.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:108:3100::/40",
       "2610:108:4100::/40"
     ]

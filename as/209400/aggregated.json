@@ -1,16 +1,19 @@
 {
-  "asn": 209400,
-  "handle": "KURPFALZTEL",
-  "description": "KurpfalzTEL GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209400,
+  "metadata" : {
+    "handle" : "KURPFALZTEL",
+    "description" : "KurpfalzTEL GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.228.140.0/22",
       "45.66.120.0/22",
       "85.208.244.0/22",
       "94.199.208.0/22",
       "185.38.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:fe20::/32"
     ]
   }

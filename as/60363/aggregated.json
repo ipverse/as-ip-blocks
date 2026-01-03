@@ -1,12 +1,15 @@
 {
-  "asn": 60363,
-  "handle": "SPECTRUM",
-  "description": "Spectrum LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60363,
+  "metadata" : {
+    "handle" : "SPECTRUM",
+    "description" : "Spectrum LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.225.152.0/24",
       "193.232.168.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

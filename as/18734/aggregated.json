@@ -1,9 +1,12 @@
 {
-  "asn": 18734,
-  "handle": "OPERBES",
-  "description": "Operbes S.A. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18734,
+  "metadata" : {
+    "handle" : "OPERBES",
+    "description" : "Operbes S.A. de C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.170.188.0/22",
       "138.122.144.0/22",
       "148.229.0.0/16",
@@ -29,7 +32,7 @@
       "201.148.0.0/18",
       "201.148.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1278::/32",
       "2801:c4:38::/48",
       "2801:c4:3b::/48",

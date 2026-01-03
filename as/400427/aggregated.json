@@ -1,9 +1,12 @@
 {
-  "asn": 400427,
-  "handle": "IQ-FIBER",
-  "description": "IQ Fiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400427,
+  "metadata" : {
+    "handle" : "IQ-FIBER",
+    "description" : "IQ Fiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.45.170.0/23",
       "38.61.96.0/19",
       "38.85.128.0/19",
@@ -15,7 +18,7 @@
       "206.225.0.0/22",
       "216.120.144.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:ad40::/32"
     ]
   }

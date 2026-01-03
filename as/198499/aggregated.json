@@ -1,14 +1,17 @@
 {
-  "asn": 198499,
-  "handle": "QUNIV",
-  "description": "Qatar University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198499,
+  "metadata" : {
+    "handle" : "QUNIV",
+    "description" : "Qatar University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.36.64.0/19",
       "185.37.108.0/24",
       "185.37.110.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:f0e0::/32"
     ]
   }

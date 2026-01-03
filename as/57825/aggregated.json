@@ -1,13 +1,16 @@
 {
-  "asn": 57825,
-  "handle": "MORAVANYNET-AS",
-  "description": "MoravanyNET s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57825,
+  "metadata" : {
+    "handle" : "MORAVANYNET-AS",
+    "description" : "MoravanyNET s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.140.112.0/22",
       "185.233.217.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:d7c0::/32"
     ]
   }

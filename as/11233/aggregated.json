@@ -1,9 +1,12 @@
 {
-  "asn": 11233,
-  "handle": "GORGE-NETWORKS",
-  "description": "Gorge Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11233,
+  "metadata" : {
+    "handle" : "GORGE-NETWORKS",
+    "description" : "Gorge Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.85.28.0/22",
       "66.228.16.0/20",
       "69.1.98.0/24",
@@ -25,7 +28,7 @@
       "216.110.211.0/24",
       "216.110.212.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:b180::/32"
     ]
   }

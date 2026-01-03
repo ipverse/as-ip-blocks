@@ -1,14 +1,17 @@
 {
-  "asn": 60223,
-  "handle": "NETIFACE-AS",
-  "description": "Netiface Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60223,
+  "metadata" : {
+    "handle" : "NETIFACE-AS",
+    "description" : "Netiface Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.132.164.0/24",
       "23.176.184.0/24",
       "185.218.84.0/22",
       "195.24.236.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

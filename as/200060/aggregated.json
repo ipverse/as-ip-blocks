@@ -1,11 +1,14 @@
 {
-  "asn": 200060,
-  "handle": "SMA-AS",
-  "description": "Sjofartsverket",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200060,
+  "metadata" : {
+    "handle" : "SMA-AS",
+    "description" : "Sjofartsverket",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.54.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

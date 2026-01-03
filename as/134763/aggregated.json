@@ -1,9 +1,12 @@
 {
-  "asn": 134763,
-  "handle": "CT-DONGGUAN-IDC",
-  "description": "CHINANET Guangdong province network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134763,
+  "metadata" : {
+    "handle" : "CT-DONGGUAN-IDC",
+    "description" : "CHINANET Guangdong province network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.17.64.0/19",
       "14.22.12.0/22",
       "14.22.36.0/22",
@@ -44,7 +47,7 @@
       "219.128.210.0/24",
       "219.128.213.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:1f:7000::/36",
       "240e:ff:9000::/36",
       "240e:108:11e3::/48",

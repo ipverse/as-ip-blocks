@@ -1,9 +1,12 @@
 {
-  "asn": 59441,
-  "handle": "HOSTIRAN-NETWORK",
-  "description": "NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59441,
+  "metadata" : {
+    "handle" : "HOSTIRAN-NETWORK",
+    "description" : "NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.144.128.0/21",
       "45.92.92.0/22",
       "45.138.132.0/22",
@@ -31,7 +34,7 @@
       "193.162.129.0/24",
       "213.176.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:9a00::/29",
       "2a07:7ec0::/29",
       "2a07:e440::/29",

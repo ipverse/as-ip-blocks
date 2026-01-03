@@ -1,9 +1,12 @@
 {
-  "asn": 138950,
-  "handle": "CHINATELECOM-JIANGSU-WUXI-INTERNATIONAL-IDC",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138950,
+  "metadata" : {
+    "handle" : "CHINATELECOM-JIANGSU-WUXI-INTERNATIONAL-IDC",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.224.56.0/22",
       "43.231.144.0/20",
       "43.247.88.0/22",
@@ -66,7 +69,7 @@
       "221.228.192.0/20",
       "221.228.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:4280:1::/48",
       "2404:6380:1000::/48",
       "240e:1a:30::/44",

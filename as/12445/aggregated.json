@@ -1,9 +1,12 @@
 {
-  "asn": 12445,
-  "handle": "SPIDERNET-AS",
-  "description": "A2A Smart City S.P.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12445,
+  "metadata" : {
+    "handle" : "SPIDERNET-AS",
+    "description" : "A2A Smart City S.P.A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.98.0.0/21",
       "81.88.224.0/19",
       "82.115.160.0/19",
@@ -14,6 +17,6 @@
       "212.38.32.0/19",
       "217.146.192.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

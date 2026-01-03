@@ -1,12 +1,15 @@
 {
-  "asn": 400065,
-  "handle": "SCION-BACKBONE",
-  "description": "Princeton University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400065,
+  "metadata" : {
+    "handle" : "SCION-BACKBONE",
+    "description" : "Princeton University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.1.46.0/23",
       "199.111.8.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 263861,
-  "handle": "KZNET-TELECOM",
-  "description": "KzNet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263861,
+  "metadata" : {
+    "handle" : "KZNET-TELECOM",
+    "description" : "KzNet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.186.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:26dc::/32"
     ]
   }

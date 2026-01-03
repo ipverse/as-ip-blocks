@@ -1,9 +1,12 @@
 {
-  "asn": 46149,
-  "handle": "USI-2-ASN",
-  "description": "University of Southern Indiana",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46149,
+  "metadata" : {
+    "handle" : "USI-2-ASN",
+    "description" : "University of Southern Indiana",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.206.9.0/24",
       "192.206.10.0/23",
       "199.8.92.0/22",
@@ -11,7 +14,7 @@
       "199.8.168.0/22",
       "208.96.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc25::/36"
     ]
   }

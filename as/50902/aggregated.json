@@ -1,12 +1,15 @@
 {
-  "asn": 50902,
-  "handle": "DNS0EU",
-  "description": "DNS0.EU A.D",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50902,
+  "metadata" : {
+    "handle" : "DNS0EU",
+    "description" : "DNS0.EU A.D.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.110.81.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:fc80::/32"
     ]
   }

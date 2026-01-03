@@ -1,9 +1,12 @@
 {
-  "asn": 60840,
-  "handle": "TELECOMSERVICEVRN",
-  "description": "OJSC Telecom-Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60840,
+  "metadata" : {
+    "handle" : "TELECOMSERVICEVRN",
+    "description" : "OJSC Telecom-Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.64.31.0/24",
       "84.21.164.0/22",
       "170.168.1.0/24",
@@ -14,6 +17,6 @@
       "194.32.230.0/24",
       "213.217.0.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

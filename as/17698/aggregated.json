@@ -1,9 +1,12 @@
 {
-  "asn": 17698,
-  "handle": "CCNET-NET",
-  "description": "COMMUNITY NETWORK CENTER INCORPORATED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17698,
+  "metadata" : {
+    "handle" : "CCNET-NET",
+    "description" : "COMMUNITY NETWORK CENTER INCORPORATED.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.128.16.0/21",
       "49.242.128.0/19",
       "103.1.244.0/22",
@@ -38,6 +41,6 @@
       "220.213.192.0/19",
       "221.121.192.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 42897,
-  "handle": "TELNET-LTD-AS",
-  "description": "Telnet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42897,
+  "metadata" : {
+    "handle" : "TELNET-LTD-AS",
+    "description" : "Telnet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.144.0/22",
       "193.33.232.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:f400::/29"
     ]
   }

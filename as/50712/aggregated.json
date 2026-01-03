@@ -1,13 +1,16 @@
 {
-  "asn": 50712,
-  "handle": "KAVKAZNET",
-  "description": "Kavkaz Internet Service Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50712,
+  "metadata" : {
+    "handle" : "KAVKAZNET",
+    "description" : "Kavkaz Internet Service Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.210.96.0/22",
       "176.124.226.0/23",
       "195.211.244.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

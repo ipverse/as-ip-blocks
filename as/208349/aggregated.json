@@ -1,16 +1,19 @@
 {
-  "asn": 208349,
-  "handle": "O2CLOUDRU",
-  "description": "O2 Cloud LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208349,
+  "metadata" : {
+    "handle" : "O2CLOUDRU",
+    "description" : "O2 Cloud LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.35.120.0/23",
       "31.10.6.0/23",
       "45.134.124.0/22",
       "77.105.156.0/22",
       "185.31.133.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:7e40::/29"
     ]
   }

@@ -1,11 +1,16 @@
 {
-  "asn": 262655,
-  "handle": "TRIBUNAL-REGIONAL-TRABALHO",
-  "description": "Tribunal Regional do Trabalho 5a Região",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262655,
+  "metadata" : {
+    "handle" : "TRIBUNAL-REGIONAL-TRABALHO",
+    "description" : "Tribunal Regional do Trabalho 5a Região",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.87.100.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [
+      "2801:80:360::/48"
+    ]
   }
 }

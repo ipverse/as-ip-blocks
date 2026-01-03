@@ -1,9 +1,12 @@
 {
-  "asn": 53824,
-  "handle": "LIQUIDWEB",
-  "description": "Liquid Web L.L.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53824,
+  "metadata" : {
+    "handle" : "LIQUIDWEB",
+    "description" : "Liquid Web L.L.C",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.28.96.0/19",
       "50.56.148.0/22",
       "98.129.229.0/24",
@@ -11,7 +14,7 @@
       "159.135.32.0/20",
       "207.246.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:d700::/32",
       "2607:fad0:40::/44",
       "2607:fad0:4000::/36"

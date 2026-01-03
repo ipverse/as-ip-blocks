@@ -1,9 +1,12 @@
 {
-  "asn": 38444,
-  "handle": "SUPERBROADBANDNETWORK-AS-AP",
-  "description": "ADVANCED WIRELESS NETWORK COMPANY LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38444,
+  "metadata" : {
+    "handle" : "SUPERBROADBANDNETWORK-AS-AP",
+    "description" : "ADVANCED WIRELESS NETWORK COMPANY LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "110.49.128.0/17",
       "119.31.65.0/24",
       "119.31.103.0/24",
@@ -19,7 +22,7 @@
       "203.146.62.0/23",
       "203.170.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:44c8:a000::/36"
     ]
   }

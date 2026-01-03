@@ -1,12 +1,15 @@
 {
-  "asn": 136181,
-  "handle": "ACTIVEPORT-AS-AP",
-  "description": "ActivePort Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136181,
+  "metadata" : {
+    "handle" : "ACTIVEPORT-AS-AP",
+    "description" : "ActivePort Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.223.176.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:9600:2::/47"
     ]
   }

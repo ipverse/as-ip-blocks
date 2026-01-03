@@ -1,9 +1,12 @@
 {
-  "asn": 40317,
-  "handle": "PEOPLESCOMMUNICATIONS",
-  "description": "Peoples Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40317,
+  "metadata" : {
+    "handle" : "PEOPLESCOMMUNICATIONS",
+    "description" : "Peoples Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.221.128.0/20",
       "68.168.192.0/20",
       "69.46.48.0/20",
@@ -21,7 +24,7 @@
       "199.85.1.0/24",
       "199.96.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:5e00::/32"
     ]
   }

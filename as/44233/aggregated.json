@@ -1,12 +1,15 @@
 {
-  "asn": 44233,
-  "handle": "SPCNET-AS",
-  "description": "Bullhost Cloud Services SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44233,
+  "metadata" : {
+    "handle" : "SPCNET-AS",
+    "description" : "Bullhost Cloud Services SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.162.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:420::/48",
       "2001:67c:400::/48"
     ]

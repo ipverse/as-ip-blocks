@@ -1,9 +1,12 @@
 {
-  "asn": 13737,
-  "handle": "AS-INCX",
-  "description": "Interconnecx LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13737,
+  "metadata" : {
+    "handle" : "AS-INCX",
+    "description" : "Interconnecx LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.26.250.0/24",
       "23.136.68.0/24",
       "23.170.200.0/24",
@@ -28,7 +31,7 @@
       "206.212.245.0/24",
       "206.212.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f895::/40",
       "2602:f8c7::/40",
       "2602:f99f::/40",

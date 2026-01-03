@@ -1,9 +1,12 @@
 {
-  "asn": 5050,
-  "handle": "PSC-EXT",
-  "description": "Pittsburgh Supercomputing Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5050,
+  "metadata" : {
+    "handle" : "PSC-EXT",
+    "description" : "Pittsburgh Supercomputing Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.128.208.0/20",
       "147.72.249.0/24",
       "147.73.0.0/16",
@@ -13,7 +16,7 @@
       "192.112.102.0/24",
       "192.231.244.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:5e8::/32",
       "2620:72:4000::/48"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 141425,
-  "handle": "CMNET-GUANGDONG-CN",
-  "description": "China Mobile Communications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141425,
+  "metadata" : {
+    "handle" : "CMNET-GUANGDONG-CN",
+    "description" : "China Mobile Communications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.139.219.0/24",
       "36.140.193.0/24",
       "36.212.224.0/24",
@@ -29,7 +32,7 @@
       "221.176.53.0/24",
       "221.176.54.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2409:8055:306c::/48",
       "2409:8c85:5400::/48"
     ]

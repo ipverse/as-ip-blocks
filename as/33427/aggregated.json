@@ -1,14 +1,17 @@
 {
-  "asn": 33427,
-  "handle": "WSU-TRI-AS",
-  "description": "Washington State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33427,
+  "metadata" : {
+    "handle" : "WSU-TRI-AS",
+    "description" : "Washington State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.166.40.0/23",
       "69.166.61.0/24",
       "134.121.189.0/24",
       "192.31.216.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

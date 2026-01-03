@@ -1,9 +1,12 @@
 {
-  "asn": 24641,
-  "handle": "FASTER-AS",
-  "description": "FASTER CZ spol. s r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24641,
+  "metadata" : {
+    "handle" : "FASTER-AS",
+    "description" : "FASTER CZ spol. s r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.240.176.0/20",
       "81.19.0.0/20",
       "85.132.144.0/20",
@@ -13,7 +16,7 @@
       "185.50.228.0/22",
       "185.146.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:ade0::/32",
       "2a02:e98::/32"
     ]

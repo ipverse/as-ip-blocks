@@ -1,14 +1,17 @@
 {
-  "asn": 141215,
-  "handle": "DIPL-AS-AP",
-  "description": "Dotcom International Pvt. Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141215,
+  "metadata" : {
+    "handle" : "DIPL-AS-AP",
+    "description" : "Dotcom International Pvt. Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.156.152.0/24",
       "116.90.119.0/24",
       "202.142.155.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:89c0::/48"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 205872,
-  "handle": "EXTRANET-AS",
-  "description": "EXTRANET 2010",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205872,
+  "metadata" : {
+    "handle" : "EXTRANET-AS",
+    "description" : "EXTRANET 2010",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.124.72.0/24",
       "83.222.180.0/24",
       "83.222.189.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

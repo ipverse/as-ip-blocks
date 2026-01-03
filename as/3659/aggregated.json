@@ -1,12 +1,15 @@
 {
-  "asn": 3659,
-  "handle": "CLAREMONT",
-  "description": "Claremont University Consortium",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3659,
+  "metadata" : {
+    "handle" : "CLAREMONT",
+    "description" : "Claremont University Consortium",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.173.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:102:2000::/44"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 269532,
-  "handle": "ROUTINGER-INTERNET-TI",
-  "description": "ROUTINGER INTERNET E TI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269532,
+  "metadata" : {
+    "handle" : "ROUTINGER-INTERNET-TI",
+    "description" : "ROUTINGER INTERNET E TI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.188.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6614::/33",
       "2804:6614:8000::/34"
     ]

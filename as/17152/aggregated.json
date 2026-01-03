@@ -1,13 +1,16 @@
 {
-  "asn": 17152,
-  "handle": "BATES",
-  "description": "Bates College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17152,
+  "metadata" : {
+    "handle" : "BATES",
+    "description" : "Bates College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.131.116.0/24",
       "134.181.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:eac0::/32"
     ]
   }

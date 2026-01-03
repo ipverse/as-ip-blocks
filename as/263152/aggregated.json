@@ -1,9 +1,12 @@
 {
-  "asn": 263152,
-  "handle": "MIGO-TELECOM",
-  "description": "MIGO TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263152,
+  "metadata" : {
+    "handle" : "MIGO-TELECOM",
+    "description" : "MIGO TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.211.234.0/24",
       "138.59.32.0/22",
       "143.202.100.0/22",
@@ -11,7 +14,7 @@
       "170.245.108.0/22",
       "177.92.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1784::/32"
     ]
   }

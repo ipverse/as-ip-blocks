@@ -1,9 +1,12 @@
 {
-  "asn": 13996,
-  "handle": "ECHOSTAR",
-  "description": "Dish Network Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13996,
+  "metadata" : {
+    "handle" : "ECHOSTAR",
+    "description" : "Dish Network Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.170.240.0/24",
       "66.170.243.0/24",
       "66.170.248.0/22",
@@ -14,6 +17,6 @@
       "67.214.63.0/24",
       "205.172.145.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

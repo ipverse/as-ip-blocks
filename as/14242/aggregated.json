@@ -1,12 +1,15 @@
 {
-  "asn": 14242,
-  "handle": "AS-NETBLK-COC",
-  "description": "City of Chandler",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14242,
+  "metadata" : {
+    "handle" : "AS-NETBLK-COC",
+    "description" : "City of Chandler",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.241.0.0/21",
       "198.241.9.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

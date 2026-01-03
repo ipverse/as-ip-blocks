@@ -1,12 +1,15 @@
 {
-  "asn": 52306,
-  "handle": "NIC-CHILE",
-  "description": "NIC Chile",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52306,
+  "metadata" : {
+    "handle" : "NIC-CHILE",
+    "description" : "NIC Chile",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.16.112.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1398:275::/48"
     ]
   }

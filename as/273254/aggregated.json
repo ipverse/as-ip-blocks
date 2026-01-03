@@ -1,14 +1,17 @@
 {
-  "asn": 273254,
-  "handle": "SIGLO-REDES-MEXICO",
-  "description": "SIGLO REDES DE MEXICO SAPI DE C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273254,
+  "metadata" : {
+    "handle" : "SIGLO-REDES-MEXICO",
+    "description" : "SIGLO REDES DE MEXICO SAPI DE C.V",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.3.221.0/24",
       "38.196.144.0/22",
       "38.252.201.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:438::/37"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 50685,
-  "handle": "UNITED-NETWORKS-AS",
-  "description": "United Networks Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50685,
+  "metadata" : {
+    "handle" : "UNITED-NETWORKS-AS",
+    "description" : "United Networks Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.125.42.0/24",
       "93.125.49.0/24",
       "93.170.236.0/22",
@@ -14,7 +17,7 @@
       "146.120.192.0/22",
       "146.158.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:128:9::/48"
     ]
   }

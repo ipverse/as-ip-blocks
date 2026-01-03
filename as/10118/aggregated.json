@@ -1,9 +1,12 @@
 {
-  "asn": 10118,
-  "handle": "HTCL-IAS-HK-AP",
-  "description": "HGC Global Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10118,
+  "metadata" : {
+    "handle" : "HTCL-IAS-HK-AP",
+    "description" : "HGC Global Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "117.103.144.0/20",
       "124.217.128.0/18",
       "180.188.128.0/18",
@@ -11,7 +14,7 @@
       "203.145.72.0/21",
       "203.145.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:3100::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 23884,
-  "handle": "PROENNET-AS",
-  "description": "Proen Corp Public Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23884,
+  "metadata" : {
+    "handle" : "PROENNET-AS",
+    "description" : "Proen Corp Public Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.255.60.0/22",
       "45.112.64.0/22",
       "49.50.232.0/22",
@@ -37,7 +40,7 @@
       "210.246.246.0/23",
       "210.246.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:ea00::/48",
       "2400:ea00:3560::/47",
       "2400:ea00:c010::/48",

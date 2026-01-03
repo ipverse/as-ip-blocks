@@ -1,13 +1,16 @@
 {
-  "asn": 38033,
-  "handle": "YAHOO-JP2-AP",
-  "description": "Yahoo Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38033,
+  "metadata" : {
+    "handle" : "YAHOO-JP2-AP",
+    "description" : "Yahoo Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "180.222.99.0/24",
       "180.222.106.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:2000:9c::/48"
     ]
   }

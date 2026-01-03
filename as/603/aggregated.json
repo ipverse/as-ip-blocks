@@ -1,12 +1,15 @@
 {
-  "asn": 603,
-  "handle": "EQUINIX-EC",
-  "description": "Equinix Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 603,
+  "metadata" : {
+    "handle" : "EQUINIX-EC",
+    "description" : "Equinix Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.100.5.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4818:6000::/36"
     ]
   }

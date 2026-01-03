@@ -1,12 +1,15 @@
 {
-  "asn": 138210,
-  "handle": "BDSCL-AS-AP",
-  "description": "Bankstown Sports Club",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138210,
+  "metadata" : {
+    "handle" : "BDSCL-AS-AP",
+    "description" : "Bankstown Sports Club",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.101.141.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:feda:2b8::/45",
       "2602:feda:af8::/48"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 152832,
-  "handle": "IDNIC-MAXLINKDP-ID",
-  "description": "PT MAXLINK DATA PRIMA INDONESIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152832,
+  "metadata" : {
+    "handle" : "IDNIC-MAXLINKDP-ID",
+    "description" : "PT MAXLINK DATA PRIMA INDONESIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.25.36.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:c740::/48"
     ]
   }

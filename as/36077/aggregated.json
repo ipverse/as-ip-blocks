@@ -1,12 +1,15 @@
 {
-  "asn": 36077,
-  "handle": "MEMC-1",
-  "description": "Mitchell Electric Membership Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36077,
+  "metadata" : {
+    "handle" : "MEMC-1",
+    "description" : "Mitchell Electric Membership Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "172.96.163.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:d2:e000::/48"
     ]
   }

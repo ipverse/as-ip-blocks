@@ -1,9 +1,12 @@
 {
-  "asn": 8412,
-  "handle": "TMA",
-  "description": "T-Mobile Austria GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8412,
+  "metadata" : {
+    "handle" : "TMA",
+    "description" : "T-Mobile Austria GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.12.96.0/23",
       "45.12.98.0/24",
       "46.124.0.0/15",
@@ -67,7 +70,7 @@
       "217.25.112.0/21",
       "217.25.122.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:211c::/48",
       "2001:4bc8::/29",
       "2a02:8380::/30",

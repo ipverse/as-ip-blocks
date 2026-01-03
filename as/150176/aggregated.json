@@ -1,11 +1,14 @@
 {
-  "asn": 150176,
-  "handle": "TLN-AS-AP",
-  "description": "Thunder link Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150176,
+  "metadata" : {
+    "handle" : "TLN-AS-AP",
+    "description" : "Thunder link Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.204.68.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

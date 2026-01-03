@@ -1,9 +1,12 @@
 {
-  "asn": 31998,
-  "handle": "KDSNET",
-  "description": "Konceptio Data Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31998,
+  "metadata" : {
+    "handle" : "KDSNET",
+    "description" : "Konceptio Data Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.164.80.0/24",
       "104.224.60.0/22",
       "128.177.52.0/24",
@@ -12,6 +15,6 @@
       "208.184.115.0/24",
       "216.166.140.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

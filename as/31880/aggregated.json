@@ -1,9 +1,12 @@
 {
-  "asn": 31880,
-  "handle": "NUGCA",
-  "description": "Nestle USA- Globe Center AMS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31880,
+  "metadata" : {
+    "handle" : "NESTLE-USA-INC",
+    "description" : "Nestle USA Inc.",
+    "origin" : "inferred"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.131.42.0/24",
       "165.131.79.0/24",
       "165.131.104.0/24",
@@ -15,6 +18,6 @@
       "165.131.182.0/24",
       "165.131.212.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

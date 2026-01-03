@@ -1,9 +1,12 @@
 {
-  "asn": 15704,
-  "handle": "AS15704",
-  "description": "XTRA TELECOM S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15704,
+  "metadata" : {
+    "handle" : "AS15704",
+    "description" : "XTRA TELECOM S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.221.128.0/17",
       "31.222.80.0/20",
       "37.29.128.0/17",
@@ -146,7 +149,7 @@
       "217.168.13.0/24",
       "217.172.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:d100::/33",
       "2a00:d100:8000::/35",
       "2a00:d101::/34",

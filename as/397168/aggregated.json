@@ -1,9 +1,12 @@
 {
-  "asn": 397168,
-  "handle": "NCF-ASN-01",
-  "description": "National Capital Freenet Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397168,
+  "metadata" : {
+    "handle" : "NCF-ASN-01",
+    "description" : "National Capital Freenet Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.160.252.0/23",
       "104.160.255.0/24",
       "172.83.160.0/20",
@@ -17,7 +20,7 @@
       "206.47.112.0/23",
       "206.47.116.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:c280::/43",
       "2607:c280:cafe::/48",
       "2607:c280:ffff::/48"

@@ -1,13 +1,16 @@
 {
-  "asn": 18561,
-  "handle": "EPAM",
-  "description": "EPAM Systems Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18561,
+  "metadata" : {
+    "handle" : "EPAM",
+    "description" : "EPAM Systems Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "174.128.60.0/24",
       "204.153.55.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:815:1::/48",
       "2602:815:2::/48"
     ]

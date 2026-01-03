@@ -1,12 +1,15 @@
 {
-  "asn": 214761,
-  "handle": "FOREACH",
-  "description": "Foreach AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214761,
+  "metadata" : {
+    "handle" : "FOREACH",
+    "description" : "Foreach AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.191.30.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1420::/48"
     ]
   }

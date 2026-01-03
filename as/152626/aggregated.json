@@ -1,14 +1,17 @@
 {
-  "asn": 152626,
-  "handle": "CLOUDBASE",
-  "description": "Cloudbase Network CORP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152626,
+  "metadata" : {
+    "handle" : "CLOUDBASE",
+    "description" : "Cloudbase Network CORP.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.0.24.0/24",
       "208.68.183.0/24",
       "210.67.140.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:7581:9fc0::/44",
       "2a14:7583:fd00::/40"
     ]

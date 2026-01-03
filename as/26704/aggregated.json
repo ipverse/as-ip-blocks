@@ -1,9 +1,12 @@
 {
-  "asn": 26704,
-  "handle": "OPENTEXT-NA-US-4",
-  "description": "Open Text Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26704,
+  "metadata" : {
+    "handle" : "OPENTEXT-NA-US-4",
+    "description" : "Open Text Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.75.224.0/23",
       "142.75.232.0/23",
       "150.105.20.0/24",
@@ -27,6 +30,6 @@
       "165.251.195.0/24",
       "202.53.154.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

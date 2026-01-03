@@ -1,12 +1,15 @@
 {
-  "asn": 25522,
-  "handle": "TRAVELPORT-AUSTRIA-AS",
-  "description": "Travelport Austria GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25522,
+  "metadata" : {
+    "handle" : "TRAVELPORT-AUSTRIA-AS",
+    "description" : "Travelport Austria GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.153.120.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:704::/48"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 206048,
-  "handle": "ASN-GIGANET",
-  "description": "Giganet - Instalacje Mariusz Zmyslowski",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206048,
+  "metadata" : {
+    "handle" : "ASN-GIGANET",
+    "description" : "Giganet - Instalacje Mariusz Zmyslowski",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "156.67.88.0/24",
       "185.170.224.0/24",
       "212.7.215.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

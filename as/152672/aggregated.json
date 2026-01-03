@@ -1,9 +1,12 @@
 {
-  "asn": 152672,
-  "handle": "AIYUN-AS-AP",
-  "description": "Aiyun (HK) Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152672,
+  "metadata" : {
+    "handle" : "AIYUN-AS-AP",
+    "description" : "Aiyun (HK) Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.182.0/24",
       "23.95.126.0/24",
       "23.95.133.0/24",
@@ -49,6 +52,6 @@
       "204.14.76.0/24",
       "216.105.166.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

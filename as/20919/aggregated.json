@@ -1,9 +1,12 @@
 {
-  "asn": 20919,
-  "handle": "DF",
-  "description": "DataFort LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20919,
+  "metadata" : {
+    "handle" : "DF",
+    "description" : "DataFort LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.41.188.0/23",
       "217.74.32.0/20",
       "217.198.80.0/21",
@@ -11,6 +14,6 @@
       "217.198.92.0/23",
       "217.198.94.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

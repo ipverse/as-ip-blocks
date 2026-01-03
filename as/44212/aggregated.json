@@ -1,9 +1,12 @@
 {
-  "asn": 44212,
-  "handle": "ADELPHINET1-AS",
-  "description": "Adelphi Net1 Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44212,
+  "metadata" : {
+    "handle" : "ADELPHINET1-AS",
+    "description" : "Adelphi Net1 Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.170.0.0/21",
       "79.171.72.0/21",
       "80.249.240.0/20",
@@ -12,7 +15,7 @@
       "185.84.8.0/22",
       "194.56.196.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:400::/32",
       "2a02:4f00::/32",
       "2a04:8740::/29",

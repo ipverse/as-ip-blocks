@@ -1,9 +1,12 @@
 {
-  "asn": 49352,
-  "handle": "LOGOL-AS",
-  "description": "Domain names registrar REG.RU Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49352,
+  "metadata" : {
+    "handle" : "LOGOL-AS",
+    "description" : "Domain names registrar REG.RU Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.113.93.0/24",
       "176.99.4.0/22",
       "176.99.8.0/23",
@@ -22,6 +25,6 @@
       "213.189.195.0/24",
       "213.189.199.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 131389,
-  "handle": "SEABANK-AS-VN",
-  "description": "SeABank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131389,
+  "metadata" : {
+    "handle" : "SEABANK-AS-VN",
+    "description" : "SeABank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.241.248.0/23",
       "103.241.250.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

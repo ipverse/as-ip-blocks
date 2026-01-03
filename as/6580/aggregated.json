@@ -1,16 +1,19 @@
 {
-  "asn": 6580,
-  "handle": "GWTC",
-  "description": "Golden West Telecommunications Coop. Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6580,
+  "metadata" : {
+    "handle" : "GWTC",
+    "description" : "Golden West Telecommunications Coop. Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.251.160.0/19",
       "68.69.64.0/19",
       "69.77.192.0/18",
       "216.196.0.0/20",
       "216.213.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:5700::/32"
     ]
   }

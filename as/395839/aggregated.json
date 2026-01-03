@@ -1,9 +1,12 @@
 {
-  "asn": 395839,
-  "handle": "HOSTKEY-USA",
-  "description": "HOSTKEY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395839,
+  "metadata" : {
+    "handle" : "HOSTKEY-USA",
+    "description" : "HOSTKEY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.57.255.0/24",
       "38.91.104.0/24",
       "69.166.237.0/24",
@@ -24,7 +27,7 @@
       "205.172.56.0/22",
       "216.74.96.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:5940::/32"
     ]
   }

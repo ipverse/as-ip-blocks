@@ -1,12 +1,15 @@
 {
-  "asn": 37668,
-  "handle": "DINX",
-  "description": "ISPA SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37668,
+  "metadata" : {
+    "handle" : "DINX",
+    "description" : "ISPA SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "196.10.55.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43f8:1f5::/48"
     ]
   }

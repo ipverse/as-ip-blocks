@@ -1,9 +1,12 @@
 {
-  "asn": 55359,
-  "handle": "FLUCCS-AS-AP",
-  "description": "DEDICATED SERVERS AUSTRALIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55359,
+  "metadata" : {
+    "handle" : "FLUCCS-AS-AP",
+    "description" : "DEDICATED SERVERS AUSTRALIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.242.41.0/24",
       "43.242.43.0/24",
       "103.4.16.0/23",
@@ -16,7 +19,7 @@
       "118.88.31.0/24",
       "202.0.153.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:fa00:8000::/33"
     ]
   }

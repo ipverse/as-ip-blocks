@@ -1,9 +1,12 @@
 {
-  "asn": 132147,
-  "handle": "CT-SHANXI-MAN",
-  "description": "No.3 Shu-Ma Road",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132147,
+  "metadata" : {
+    "handle" : "CT-SHANXI-MAN",
+    "description" : "No.3 Shu-Ma Road",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.71.16.0/20",
       "1.71.64.0/20",
       "1.71.144.0/20",
@@ -12,7 +15,7 @@
       "59.49.80.0/20",
       "59.49.117.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:4:e000::/40",
       "240e:924::/36",
       "240e:925::/36"

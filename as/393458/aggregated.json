@@ -1,9 +1,12 @@
 {
-  "asn": 393458,
-  "handle": "NUCLEARFALLOUT-ATL",
-  "description": "Nuclearfallout Enterprises Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393458,
+  "metadata" : {
+    "handle" : "NUCLEARFALLOUT-ATL",
+    "description" : "Nuclearfallout Enterprises Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.91.112.0/24",
       "74.91.121.0/24",
       "74.91.127.0/24",
@@ -12,7 +15,7 @@
       "162.248.89.0/24",
       "192.223.28.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:6ac0:6000::/36"
     ]
   }

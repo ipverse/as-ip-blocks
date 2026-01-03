@@ -1,9 +1,12 @@
 {
-  "asn": 395954,
-  "handle": "LEASEWEB-USA-LAX",
-  "description": "Leaseweb USA Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395954,
+  "metadata" : {
+    "handle" : "LEASEWEB-USA-LAX",
+    "description" : "Leaseweb USA Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.19.0.0/19",
       "23.19.41.0/24",
       "23.19.44.0/22",
@@ -155,7 +158,7 @@
       "212.42.203.0/24",
       "216.6.234.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f5b4::/32",
       "2a0e:c782::/32",
       "2a0f:e1c5::/32"

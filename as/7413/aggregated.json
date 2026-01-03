@@ -1,12 +1,15 @@
 {
-  "asn": 7413,
-  "handle": "IPCLEAR",
-  "description": "IPClear",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7413,
+  "metadata" : {
+    "handle" : "IPCLEAR",
+    "description" : "IPClear",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.161.136.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:815:d000::/44"
     ]
   }

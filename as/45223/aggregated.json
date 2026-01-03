@@ -1,9 +1,12 @@
 {
-  "asn": 45223,
-  "handle": "WIN-AS-TH-AP",
-  "description": "World Internetwork Corporation Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45223,
+  "metadata" : {
+    "handle" : "WIN-AS-TH-AP",
+    "description" : "World Internetwork Corporation Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "180.128.0.0/19",
       "180.128.32.0/22",
       "180.128.240.0/21",
@@ -11,6 +14,6 @@
       "202.52.4.0/22",
       "203.145.112.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

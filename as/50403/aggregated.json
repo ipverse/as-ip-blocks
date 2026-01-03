@@ -1,11 +1,14 @@
 {
-  "asn": 50403,
-  "handle": "NORDSTAR-AS",
-  "description": "JSC Nordstar Airlines",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50403,
+  "metadata" : {
+    "handle" : "NORDSTAR-AS",
+    "description" : "JSC Nordstar Airlines",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.191.64.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

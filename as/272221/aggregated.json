@@ -1,10 +1,13 @@
 {
-  "asn": 272221,
-  "handle": "TEL3-TELECOM",
-  "description": "Tel3 Telecom",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 272221,
+  "metadata" : {
+    "handle" : "TEL3-TELECOM",
+    "description" : "Tel3 Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2804:83cc::/32"
     ]
   }

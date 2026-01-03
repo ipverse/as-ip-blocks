@@ -1,12 +1,15 @@
 {
-  "asn": 141212,
-  "handle": "MYNET1-AS-AP",
-  "description": "MyNet Broadband (Pvt.) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141212,
+  "metadata" : {
+    "handle" : "MYNET1-AS-AP",
+    "description" : "MyNet Broadband (Pvt.) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.156.136.0/23",
       "160.191.228.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

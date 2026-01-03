@@ -1,9 +1,12 @@
 {
-  "asn": 2707,
-  "handle": "FIRSTCOMM-AS1",
-  "description": "First Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2707,
+  "metadata" : {
+    "handle" : "FIRSTCOMM-AS1",
+    "description" : "First Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.127.100.0/23",
       "168.92.0.0/19",
       "168.92.128.0/18",
@@ -14,7 +17,7 @@
       "205.254.16.0/20",
       "208.40.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:7d80:9000::/36",
       "2606:7d80:a000::/35",
       "2606:7d80:c000::/34"

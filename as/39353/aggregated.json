@@ -1,12 +1,15 @@
 {
-  "asn": 39353,
-  "handle": "PRINCAST-AS",
-  "description": "Gobierno del Principado de Asturias",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39353,
+  "metadata" : {
+    "handle" : "PRINCAST-AS",
+    "description" : "Gobierno del Principado de Asturias",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.151.16.0/22",
       "88.151.23.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

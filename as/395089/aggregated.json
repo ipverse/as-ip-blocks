@@ -1,12 +1,15 @@
 {
-  "asn": 395089,
-  "handle": "HEXTET",
-  "description": "Hextet Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395089,
+  "metadata" : {
+    "handle" : "HEXTET",
+    "description" : "Hextet Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.160.102.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd53:200::/40",
       "2620:132:3000::/40"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 33059,
-  "handle": "MOMENTUM33059",
-  "description": "Momentum Telecom Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33059,
+  "metadata" : {
+    "handle" : "MOMENTUM33059",
+    "description" : "Momentum Telecom Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.92.66.0/23",
       "64.92.70.0/24",
       "64.92.73.0/24",
@@ -23,7 +26,7 @@
       "209.35.108.0/23",
       "209.42.167.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:8300:4::/47",
       "2605:8300:7::/48",
       "2605:8300:9::/48",

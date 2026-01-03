@@ -1,12 +1,15 @@
 {
-  "asn": 266345,
-  "handle": "I-B-T",
-  "description": "I B T",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266345,
+  "metadata" : {
+    "handle" : "I-B-T",
+    "description" : "I B T",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.239.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3664::/33"
     ]
   }

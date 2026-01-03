@@ -1,9 +1,12 @@
 {
-  "asn": 23650,
-  "handle": "CHINANET-JIANGSU-PROVINCE-IDC",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23650,
+  "metadata" : {
+    "handle" : "CHINANET-JIANGSU-PROVINCE-IDC",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.0.204.0/22",
       "27.0.208.0/21",
       "43.226.48.0/24",
@@ -77,7 +80,7 @@
       "221.228.253.0/24",
       "221.228.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:6380::/48",
       "240e:1a::/35",
       "240e:e9:8000::/33"

@@ -1,15 +1,18 @@
 {
-  "asn": 51402,
-  "handle": "COM-IN",
-  "description": "COM-IN Telekommunikations GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51402,
+  "metadata" : {
+    "handle" : "COM-IN",
+    "description" : "COM-IN Telekommunikations GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "153.97.25.0/24",
       "178.239.64.0/20",
       "185.128.120.0/22",
       "194.180.15.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2760::/32"
     ]
   }

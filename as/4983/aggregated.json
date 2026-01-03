@@ -1,9 +1,12 @@
 {
-  "asn": 4983,
-  "handle": "INTEL-SC-AS",
-  "description": "Intel Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4983,
+  "metadata" : {
+    "handle" : "INTEL-SC-AS",
+    "description" : "Intel Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.134.136.0/22",
       "134.134.140.0/24",
       "134.191.190.0/23",
@@ -65,6 +68,6 @@
       "198.175.104.0/23",
       "198.175.112.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

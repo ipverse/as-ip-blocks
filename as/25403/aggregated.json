@@ -1,11 +1,14 @@
 {
-  "asn": 25403,
-  "handle": "DELTA-AS",
-  "description": "Firm Delta PE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25403,
+  "metadata" : {
+    "handle" : "DELTA-AS",
+    "description" : "Firm Delta PE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.20.124.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

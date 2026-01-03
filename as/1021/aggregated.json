@@ -1,11 +1,14 @@
 {
-  "asn": 1021,
-  "handle": "CVTECH1",
-  "description": "CV Tech",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1021,
+  "metadata" : {
+    "handle" : "CVTECH1",
+    "description" : "CV Tech",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "152.160.83.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,10 +1,13 @@
 {
-  "asn": 57048,
-  "handle": "RVDM-AS",
-  "description": "Robert van der Meulen",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 57048,
+  "metadata" : {
+    "handle" : "RVDM-AS",
+    "description" : "Robert van der Meulen",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0e:f7c0::/29"
     ]
   }

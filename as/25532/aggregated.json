@@ -1,9 +1,12 @@
 {
-  "asn": 25532,
-  "handle": "MASTERHOST-AS",
-  "description": "LLC MASTERHOST",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25532,
+  "metadata" : {
+    "handle" : "MASTERHOST-AS",
+    "description" : "LLC MASTERHOST",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.222.4.0/23",
       "83.222.12.0/22",
       "87.242.64.0/23",
@@ -15,7 +18,7 @@
       "90.156.200.0/21",
       "90.156.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:15f8::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 208140,
-  "handle": "HUIC",
-  "description": "Elm Company PJS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208140,
+  "metadata" : {
+    "handle" : "HUIC",
+    "description" : "Elm Company PJS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.86.32.0/23",
       "95.86.39.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:cfc0:4::/48"
     ]
   }

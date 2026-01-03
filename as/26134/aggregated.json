@@ -1,9 +1,12 @@
 {
-  "asn": 26134,
-  "handle": "BROAD-RUN-BORDER-AS",
-  "description": "VeriSign Infrastructure \u0026 Operations",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26134,
+  "metadata" : {
+    "handle" : "BROAD-RUN-BORDER-AS",
+    "description" : "VeriSign Infrastructure & Operations",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.6.80.0/22",
       "69.36.148.0/24",
       "72.13.32.0/19",
@@ -16,7 +19,7 @@
       "216.168.232.0/23",
       "216.168.234.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:500:3e5::/48",
       "2001:503:f261::/48",
       "2620:74::/48",

@@ -1,12 +1,15 @@
 {
-  "asn": 141737,
-  "handle": "RAPIDNETWORK-AS-AP",
-  "description": "Rapid Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141737,
+  "metadata" : {
+    "handle" : "RAPIDNETWORK-AS-AP",
+    "description" : "Rapid Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.182.212.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:7fc0::/48"
     ]
   }

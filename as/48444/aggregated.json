@@ -1,9 +1,12 @@
 {
-  "asn": 48444,
-  "handle": "INTER-NET-UK",
-  "description": "Internet Holdings Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48444,
+  "metadata" : {
+    "handle" : "INTER-NET-UK",
+    "description" : "Internet Holdings Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.212.189.0/24",
       "88.212.191.0/24",
       "91.224.109.0/24",
@@ -12,6 +15,6 @@
       "195.82.125.0/24",
       "212.85.228.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

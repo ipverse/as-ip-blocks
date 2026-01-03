@@ -1,9 +1,12 @@
 {
-  "asn": 8554,
-  "handle": "ATSAT",
-  "description": "TAS France SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8554,
+  "metadata" : {
+    "handle" : "ATSAT",
+    "description" : "TAS France SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.97.0.0/18",
       "91.223.22.0/24",
       "185.52.32.0/22",
@@ -11,7 +14,7 @@
       "194.103.215.0/24",
       "195.234.46.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1b38::/32"
     ]
   }

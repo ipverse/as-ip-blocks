@@ -1,9 +1,12 @@
 {
-  "asn": 134166,
-  "handle": "TOT-IDC-AS-AP",
-  "description": "Internet Data Center Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134166,
+  "metadata" : {
+    "handle" : "TOT-IDC-AS-AP",
+    "description" : "Internet Data Center Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.179.246.0/23",
       "113.53.228.0/24",
       "118.174.8.0/22",
@@ -26,7 +29,7 @@
       "203.114.98.0/24",
       "203.114.102.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:ec0:100::/40"
     ]
   }

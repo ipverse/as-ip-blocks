@@ -1,9 +1,12 @@
 {
-  "asn": 19351,
-  "handle": "TECK-AS-01",
-  "description": "Teck Resources Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19351,
+  "metadata" : {
+    "handle" : "TECK-AS-01",
+    "description" : "Teck Resources Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.230.0.0/22",
       "142.230.8.0/23",
       "142.230.10.0/24",
@@ -11,6 +14,6 @@
       "142.230.14.0/24",
       "198.161.238.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

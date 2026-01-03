@@ -1,12 +1,15 @@
 {
-  "asn": 47616,
-  "handle": "CERTH",
-  "description": "Center for Research and Technology Hellas (CERTH)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47616,
+  "metadata" : {
+    "handle" : "CERTH",
+    "description" : "Center for Research and Technology Hellas (CERTH)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.40.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:648:22b0::/48"
     ]
   }

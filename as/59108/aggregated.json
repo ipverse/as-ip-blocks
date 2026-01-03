@@ -1,9 +1,12 @@
 {
-  "asn": 59108,
-  "handle": "KATCH-NET",
-  "description": "KATCH NETWORK INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59108,
+  "metadata" : {
+    "handle" : "KATCH-NET",
+    "description" : "KATCH NETWORK INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.145.160.0/21",
       "61.215.176.0/20",
       "117.58.144.0/20",
@@ -20,7 +23,7 @@
       "219.99.224.0/19",
       "219.121.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:7000:400::/40"
     ]
   }

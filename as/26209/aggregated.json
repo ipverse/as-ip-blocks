@@ -1,9 +1,12 @@
 {
-  "asn": 26209,
-  "handle": "NETWORK-TOOL",
-  "description": "Network Tool and Die Company Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26209,
+  "metadata" : {
+    "handle" : "NETWORK-TOOL",
+    "description" : "Network Tool and Die Company Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.44.136.0/23",
       "69.44.138.0/24",
       "69.71.112.0/23",
@@ -12,6 +15,6 @@
       "69.71.119.0/24",
       "69.71.120.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

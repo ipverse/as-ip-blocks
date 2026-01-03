@@ -1,16 +1,19 @@
 {
-  "asn": 39397,
-  "handle": "AZ-METRONET-AS",
-  "description": "Metronet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39397,
+  "metadata" : {
+    "handle" : "AZ-METRONET-AS",
+    "description" : "Metronet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.132.7.0/24",
       "89.147.192.0/18",
       "185.34.72.0/24",
       "185.34.74.0/23",
       "185.40.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:4b80::/29",
       "2a04:8380::/29"
     ]

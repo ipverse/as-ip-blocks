@@ -1,13 +1,16 @@
 {
-  "asn": 15185,
-  "handle": "HIBBERT-EAST",
-  "description": "The Hibbert Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15185,
+  "metadata" : {
+    "handle" : "HIBBERT-EAST",
+    "description" : "The Hibbert Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.232.248.0/24",
       "208.44.95.0/24",
       "216.168.131.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

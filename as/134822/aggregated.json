@@ -1,12 +1,15 @@
 {
-  "asn": 134822,
-  "handle": "ITTACN2-AS-AP",
-  "description": "ISRO TELEMETRY TRACKING AND COMMAND NETWORK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134822,
+  "metadata" : {
+    "handle" : "ITTACN2-AS-AP",
+    "description" : "ISRO TELEMETRY TRACKING AND COMMAND NETWORK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.230.165.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:8401::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 397363,
-  "handle": "AMS-PUBLIC",
-  "description": "HEWLETT PACKARD ENTERPRISE COMPANY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397363,
+  "metadata" : {
+    "handle" : "AMS-PUBLIC",
+    "description" : "HEWLETT PACKARD ENTERPRISE COMPANY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "16.0.39.0/24",
       "16.0.60.0/24",
       "16.7.36.0/22",
@@ -11,6 +14,6 @@
       "16.143.8.0/22",
       "16.143.16.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 204135,
-  "handle": "LEMARIT",
-  "description": "LEMARIT GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204135,
+  "metadata" : {
+    "handle" : "LEMARIT",
+    "description" : "LEMARIT GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.235.36.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:1700::/32"
     ]
   }

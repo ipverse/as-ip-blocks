@@ -1,9 +1,12 @@
 {
-  "asn": 63296,
-  "handle": "AWBROADBAND",
-  "description": "Amarillo Wireless",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63296,
+  "metadata" : {
+    "handle" : "AWBROADBAND",
+    "description" : "Amarillo Wireless",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.174.240.0/24",
       "44.31.203.0/24",
       "52.129.120.0/21",
@@ -18,6 +21,6 @@
       "208.185.189.0/24",
       "216.200.16.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

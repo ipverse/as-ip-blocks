@@ -1,12 +1,15 @@
 {
-  "asn": 271150,
-  "handle": "FOX-LINK-TELECOM",
-  "description": "FOX LINK TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271150,
+  "metadata" : {
+    "handle" : "FOX-LINK-TELECOM",
+    "description" : "FOX LINK TELECOM LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.42.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7708::/33",
       "2804:7708:8000::/34",
       "2804:7708:e000::/35"

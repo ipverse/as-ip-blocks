@@ -1,9 +1,12 @@
 {
-  "asn": 206124,
-  "handle": "MAZARRON5G",
-  "description": "TELE SATELITE DE MAZARRON SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206124,
+  "metadata" : {
+    "handle" : "MAZARRON5G",
+    "description" : "TELE SATELITE DE MAZARRON SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.154.102.0/23",
       "81.172.100.0/24",
       "86.106.18.0/23",
@@ -15,6 +18,6 @@
       "188.212.21.0/24",
       "188.215.231.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

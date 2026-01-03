@@ -1,9 +1,12 @@
 {
-  "asn": 29766,
-  "handle": "CHSPSC-29766",
-  "description": "CHSPSC LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29766,
+  "metadata" : {
+    "handle" : "CHSPSC-29766",
+    "description" : "CHSPSC LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.106.199.0/24",
       "68.156.159.0/24",
       "204.227.128.0/23",
@@ -11,6 +14,6 @@
       "204.227.137.0/24",
       "204.227.140.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

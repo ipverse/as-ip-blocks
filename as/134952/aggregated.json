@@ -1,12 +1,15 @@
 {
-  "asn": 134952,
-  "handle": "SMART2-AS-AP",
-  "description": "Smart Online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134952,
+  "metadata" : {
+    "handle" : "SMART2-AS-AP",
+    "description" : "Smart Online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.85.182.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:f7c0::/48"
     ]
   }

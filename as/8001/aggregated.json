@@ -1,9 +1,12 @@
 {
-  "asn": 8001,
-  "handle": "COLOGIX",
-  "description": "Cologix Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8001,
+  "metadata" : {
+    "handle" : "COLOGIX",
+    "description" : "Cologix Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.21.0.0/17",
       "64.21.128.0/19",
       "64.21.160.0/20",
@@ -34,7 +37,7 @@
       "216.69.223.0/24",
       "216.118.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:518::/32",
       "2605:4400:2::/48",
       "2605:4400:5::/48"

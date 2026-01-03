@@ -1,9 +1,12 @@
 {
-  "asn": 46997,
-  "handle": "NATOLAB",
-  "description": "Black Mesa Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46997,
+  "metadata" : {
+    "handle" : "NATOLAB",
+    "description" : "Black Mesa Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.247.136.0/23",
       "44.68.205.0/24",
       "103.152.112.0/23",
@@ -12,7 +15,7 @@
       "134.195.100.0/23",
       "141.193.21.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470:139::/48",
       "2400:a6a0:200::/40",
       "2406:4440:40::/44",

@@ -1,9 +1,12 @@
 {
-  "asn": 18474,
-  "handle": "AENEAS",
-  "description": "Aeneas Internet Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18474,
+  "metadata" : {
+    "handle" : "AENEAS",
+    "description" : "Aeneas Internet Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.40.96.0/19",
       "52.128.30.0/24",
       "64.22.0.0/19",
@@ -16,7 +19,7 @@
       "208.77.147.0/24",
       "209.173.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:9c00::/32"
     ]
   }

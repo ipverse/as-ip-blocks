@@ -1,11 +1,14 @@
 {
-  "asn": 40421,
-  "handle": "PC-NETBLOCK",
-  "description": "Providence College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40421,
+  "metadata" : {
+    "handle" : "PC-NETBLOCK",
+    "description" : "Providence College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.65.213.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

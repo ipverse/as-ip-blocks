@@ -1,12 +1,15 @@
 {
-  "asn": 137530,
-  "handle": "TRISHALNET-AS-AP",
-  "description": "TRISHALNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137530,
+  "metadata" : {
+    "handle" : "TRISHALNET-AS-AP",
+    "description" : "TRISHALNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.112.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:a540:56::/48"
     ]
   }

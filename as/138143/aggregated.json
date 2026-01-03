@@ -1,12 +1,15 @@
 {
-  "asn": 138143,
-  "handle": "GERBANGAKSES-AS-ID",
-  "description": "PT GERBANG AKSES INDONESIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138143,
+  "metadata" : {
+    "handle" : "GERBANGAKSES-AS-ID",
+    "description" : "PT GERBANG AKSES INDONESIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.134.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:6140::/34",
       "2404:6140:4000::/35"
     ]

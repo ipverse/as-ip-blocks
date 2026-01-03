@@ -1,9 +1,12 @@
 {
-  "asn": 41765,
-  "handle": "IPGARDE-AS",
-  "description": "IPGarde SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41765,
+  "metadata" : {
+    "handle" : "IPGARDE-AS",
+    "description" : "IPGarde SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.172.164.0/22",
       "45.8.233.0/24",
       "45.8.234.0/23",
@@ -16,7 +19,7 @@
       "193.37.150.0/24",
       "193.57.96.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2288::/29",
       "2a0c:d500::/29"
     ]

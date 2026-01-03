@@ -1,11 +1,14 @@
 {
-  "asn": 60520,
-  "handle": "AUVA-AS",
-  "description": "Allgemeine Unfallversicherungsanstalt",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60520,
+  "metadata" : {
+    "handle" : "AUVA-AS",
+    "description" : "Allgemeine Unfallversicherungsanstalt",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "217.175.207.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

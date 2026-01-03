@@ -1,14 +1,17 @@
 {
-  "asn": 263801,
-  "handle": "LINKEAR",
-  "description": "LINKEAR SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263801,
+  "metadata" : {
+    "handle" : "LINKEAR",
+    "description" : "LINKEAR SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.122.188.0/22",
       "149.78.32.0/19",
       "168.196.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:7c40::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 138765,
-  "handle": "RAJSRVIC-AS",
-  "description": "Raj Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138765,
+  "metadata" : {
+    "handle" : "RAJSRVIC-AS",
+    "description" : "Raj Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.140.155.0/24",
       "160.30.36.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

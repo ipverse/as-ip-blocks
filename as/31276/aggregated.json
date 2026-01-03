@@ -1,14 +1,17 @@
 {
-  "asn": 31276,
-  "handle": "HSPEED-AS",
-  "description": "Die Netz-Werker Systemmanagement und Datennetze AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31276,
+  "metadata" : {
+    "handle" : "HSPEED-AS",
+    "description" : "Die Netz-Werker Systemmanagement und Datennetze AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.91.212.0/22",
       "193.24.236.0/22",
       "194.147.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:ea80::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 45215,
-  "handle": "ONENET-AS-NZ",
-  "description": "OneNet Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45215,
+  "metadata" : {
+    "handle" : "ONENET-AS-NZ",
+    "description" : "OneNet Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.239.180.0/22",
       "103.58.213.0/24",
       "103.58.214.0/23",
@@ -11,6 +14,6 @@
       "103.241.91.0/24",
       "202.36.68.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

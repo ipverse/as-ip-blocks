@@ -1,9 +1,12 @@
 {
-  "asn": 131618,
-  "handle": "CARL-NET",
-  "description": "Carl International Information ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131618,
+  "metadata" : {
+    "handle" : "CARL-NET",
+    "description" : "Carl International Information ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.200.132.0/24",
       "103.103.80.0/22",
       "103.104.151.0/24",
@@ -14,6 +17,6 @@
       "156.230.14.0/24",
       "156.250.1.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

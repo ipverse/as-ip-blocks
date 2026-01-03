@@ -1,13 +1,16 @@
 {
-  "asn": 139955,
-  "handle": "DATAPRIME-AS-ID",
-  "description": "PT DATA PRIMA SOLUSINDO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139955,
+  "metadata" : {
+    "handle" : "DATAPRIME-AS-ID",
+    "description" : "PT DATA PRIMA SOLUSINDO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.53.28.0/23",
       "103.147.84.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:b340::/32"
     ]
   }

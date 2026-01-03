@@ -1,9 +1,12 @@
 {
-  "asn": 63888,
-  "handle": "DATAWINGLIMITED-AS",
-  "description": "DATA WING LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63888,
+  "metadata" : {
+    "handle" : "DATAWINGLIMITED-AS",
+    "description" : "DATA WING LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.229.28.0/24",
       "43.229.53.0/24",
       "43.229.54.0/23",
@@ -77,6 +80,6 @@
       "156.255.124.0/22",
       "203.95.192.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

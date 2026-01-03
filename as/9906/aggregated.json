@@ -1,9 +1,12 @@
 {
-  "asn": 9906,
-  "handle": "ETNET-HK-AP",
-  "description": "ETNet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9906,
+  "metadata" : {
+    "handle" : "ETNET-HK-AP",
+    "description" : "ETNet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.62.192.0/24",
       "202.62.194.0/23",
       "202.62.200.0/24",
@@ -12,6 +15,6 @@
       "202.62.220.0/23",
       "202.62.222.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

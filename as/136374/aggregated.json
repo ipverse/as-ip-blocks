@@ -1,16 +1,19 @@
 {
-  "asn": 136374,
-  "handle": "MICR-AS",
-  "description": "Microtalk Communications Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136374,
+  "metadata" : {
+    "handle" : "MICR-AS",
+    "description" : "Microtalk Communications Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.27.2.0/24",
       "103.52.220.0/22",
       "103.66.54.0/24",
       "103.94.84.0/22",
       "103.228.250.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:8c40::/46",
       "2404:8c40:4::/48",
       "2404:8c40:6::/48"

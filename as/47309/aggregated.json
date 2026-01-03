@@ -1,14 +1,17 @@
 {
-  "asn": 47309,
-  "handle": "INFO-AS",
-  "description": "q.beyond AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47309,
+  "metadata" : {
+    "handle" : "INFO-AS",
+    "description" : "q.beyond AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.0.20.0/22",
       "193.16.72.0/21",
       "194.8.90.0/23",
       "212.99.177.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

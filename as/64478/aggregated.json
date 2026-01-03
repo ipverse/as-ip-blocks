@@ -1,12 +1,15 @@
 {
-  "asn": 64478,
-  "handle": "SKSGROUP",
-  "description": "Fabien Schenkels",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64478,
+  "metadata" : {
+    "handle" : "SKSGROUP",
+    "description" : "Fabien Schenkels",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.162.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:800::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 7106,
-  "handle": "INDEPENDENTSFIBERNETWORK",
-  "description": "Com Net Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7106,
+  "metadata" : {
+    "handle" : "INDEPENDENTSFIBERNETWORK",
+    "description" : "Com Net Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.209.128.0/20",
       "68.65.96.0/20",
       "74.126.64.0/20",
@@ -13,7 +16,7 @@
       "216.201.0.0/18",
       "216.255.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fa10::/32"
     ]
   }

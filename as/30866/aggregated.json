@@ -1,9 +1,12 @@
 {
-  "asn": 30866,
-  "handle": "ECI-TELECOM-LTD",
-  "description": "ECI Telecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30866,
+  "metadata" : {
+    "handle" : "ECI-TELECOM-LTD",
+    "description" : "ECI Telecom Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.234.1.0/24",
       "147.234.171.0/24",
       "147.234.192.0/24",
@@ -11,6 +14,6 @@
       "147.234.240.0/23",
       "147.234.242.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

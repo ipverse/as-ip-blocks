@@ -1,9 +1,12 @@
 {
-  "asn": 14343,
-  "handle": "JDASOFTWARE",
-  "description": "i2 Technologies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14343,
+  "metadata" : {
+    "handle" : "JDASOFTWARE",
+    "description" : "i2 Technologies Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.26.208.0/22",
       "64.26.212.0/23",
       "64.26.216.0/22",
@@ -14,6 +17,6 @@
       "64.26.253.0/24",
       "64.26.254.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

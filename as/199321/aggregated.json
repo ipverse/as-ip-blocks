@@ -1,13 +1,16 @@
 {
-  "asn": 199321,
-  "handle": "INTESYS-AS",
-  "description": "Intesys Networking Srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199321,
+  "metadata" : {
+    "handle" : "INTESYS-AS",
+    "description" : "Intesys Networking Srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.41.252.0/22",
       "192.121.180.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5f60::/32"
     ]
   }

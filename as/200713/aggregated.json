@@ -1,15 +1,18 @@
 {
-  "asn": 200713,
-  "handle": "FREY-AS",
-  "description": "Zettaplan AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200713,
+  "metadata" : {
+    "handle" : "FREY-AS",
+    "description" : "Zettaplan AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.66.108.0/22",
       "185.117.168.0/22",
       "193.41.90.0/24",
       "193.41.148.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:f0c0::/29"
     ]
   }

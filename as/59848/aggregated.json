@@ -1,12 +1,15 @@
 {
-  "asn": 59848,
-  "handle": "LURE-TRANSIT-AS",
-  "description": "LLC LURE IT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59848,
+  "metadata" : {
+    "handle" : "LURE-TRANSIT-AS",
+    "description" : "LLC LURE IT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.19.242.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:e880::/29"
     ]
   }

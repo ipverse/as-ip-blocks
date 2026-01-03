@@ -1,9 +1,12 @@
 {
-  "asn": 45996,
-  "handle": "DAOU-AS",
-  "description": "DAOU TECHNOLOGY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45996,
+  "metadata" : {
+    "handle" : "DAOU-AS",
+    "description" : "DAOU TECHNOLOGY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.11.92.0/23",
       "1.11.94.0/24",
       "1.16.0.0/18",
@@ -40,6 +43,6 @@
       "203.217.208.0/20",
       "210.80.116.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

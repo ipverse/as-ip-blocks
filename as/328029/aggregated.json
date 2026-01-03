@@ -1,14 +1,17 @@
 {
-  "asn": 328029,
-  "handle": "WEB-TELECOM-SERVICES",
-  "description": "Web Telecom Services (PTY) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328029,
+  "metadata" : {
+    "handle" : "WEB-TELECOM-SERVICES",
+    "description" : "Web Telecom Services (PTY) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.119.0.0/19",
       "164.160.52.0/22",
       "196.61.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:eb80::/32"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 12156,
-  "handle": "AURORA-COLORADO",
-  "description": "City of Aurora Colorado",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12156,
+  "metadata" : {
+    "handle" : "AURORA-COLORADO",
+    "description" : "City of Aurora Colorado",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.78.99.0/24",
       "198.148.209.0/24",
       "198.199.187.0/24",
       "198.199.188.0/24",
       "205.167.144.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

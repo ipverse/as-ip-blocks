@@ -1,13 +1,16 @@
 {
-  "asn": 21623,
-  "handle": "SPACELINK",
-  "description": "Spacelink Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21623,
+  "metadata" : {
+    "handle" : "SPACELINK",
+    "description" : "Spacelink Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.50.224.0/19",
       "66.181.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:3200::/32"
     ]
   }

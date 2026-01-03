@@ -1,12 +1,15 @@
 {
-  "asn": 13012,
-  "handle": "GENIAS-AS",
-  "description": "Stefan Englhardt",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13012,
+  "metadata" : {
+    "handle" : "GENIAS-AS",
+    "description" : "Stefan Englhardt",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.185.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7ea0::/32"
     ]
   }

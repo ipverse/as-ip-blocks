@@ -1,13 +1,16 @@
 {
-  "asn": 7530,
-  "handle": "BBTOWER-LAB",
-  "description": "BroadBand Tower Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7530,
+  "metadata" : {
+    "handle" : "BBTOWER-LAB",
+    "description" : "BroadBand Tower Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.231.212.0/22",
       "210.231.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:f000::/32"
     ]
   }

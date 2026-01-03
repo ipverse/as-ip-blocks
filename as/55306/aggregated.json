@@ -1,12 +1,15 @@
 {
-  "asn": 55306,
-  "handle": "AGRIBANK-AS-VN",
-  "description": "Vietnam bank for Agriculture anh Rural Development",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55306,
+  "metadata" : {
+    "handle" : "AGRIBANK-AS-VN",
+    "description" : "Vietnam bank for Agriculture anh Rural Development",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "175.106.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:c100::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 6977,
-  "handle": "AS-LAYERSWITCH",
-  "description": "LayerSwitch Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6977,
+  "metadata" : {
+    "handle" : "AS-LAYERSWITCH",
+    "description" : "LayerSwitch Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.188.16.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc4b::/36"
     ]
   }

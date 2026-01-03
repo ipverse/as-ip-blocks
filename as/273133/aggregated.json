@@ -1,9 +1,12 @@
 {
-  "asn": 273133,
-  "handle": "CONEX-TV-EIRL",
-  "description": "CONEX TV E.I.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273133,
+  "metadata" : {
+    "handle" : "CONEX-TV-EIRL",
+    "description" : "CONEX TV E.I.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.19.228.0/22",
       "38.172.128.0/22",
       "38.190.100.0/22",
@@ -11,7 +14,7 @@
       "45.171.166.0/24",
       "45.189.116.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:9450::/32"
     ]
   }

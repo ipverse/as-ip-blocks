@@ -1,9 +1,12 @@
 {
-  "asn": 25125,
-  "handle": "ISRAEL-LCL-NET-AS",
-  "description": "One City IT Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25125,
+  "metadata" : {
+    "handle" : "ISRAEL-LCL-NET-AS",
+    "description" : "One City IT Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.236.0.0/18",
       "147.236.64.0/19",
       "147.236.96.0/23",
@@ -18,6 +21,6 @@
       "147.236.232.0/21",
       "147.236.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

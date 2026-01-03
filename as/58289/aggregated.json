@@ -1,9 +1,12 @@
 {
-  "asn": 58289,
-  "handle": "KAZNETCOM",
-  "description": "Kazakhstan Network Communication LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58289,
+  "metadata" : {
+    "handle" : "KAZNETCOM",
+    "description" : "Kazakhstan Network Communication LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.109.19.0/24",
       "85.159.94.0/24",
       "86.54.184.0/24",
@@ -16,7 +19,7 @@
       "194.31.135.0/24",
       "212.108.87.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:6600::/48"
     ]
   }

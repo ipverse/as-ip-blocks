@@ -1,9 +1,12 @@
 {
-  "asn": 216334,
-  "handle": "LANDVPS-AS",
-  "description": "New Hosting Technologies LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216334,
+  "metadata" : {
+    "handle" : "LANDVPS-AS",
+    "description" : "New Hosting Technologies LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.105.131.0/24",
       "77.105.133.0/24",
       "77.105.144.0/24",
@@ -14,7 +17,7 @@
       "194.55.238.0/23",
       "212.22.90.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:f9a0::/32",
       "2a12:b3c0:1::/48"
     ]

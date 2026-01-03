@@ -1,12 +1,15 @@
 {
-  "asn": 135745,
-  "handle": "UCOBANK-AS",
-  "description": "UCO Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135745,
+  "metadata" : {
+    "handle" : "UCOBANK-AS",
+    "description" : "UCO Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.138.33.0/24",
       "160.20.228.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

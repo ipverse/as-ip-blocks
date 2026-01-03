@@ -1,9 +1,12 @@
 {
-  "asn": 197453,
-  "handle": "BIZTEL-AS",
-  "description": "Biz Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197453,
+  "metadata" : {
+    "handle" : "BIZTEL-AS",
+    "description" : "Biz Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.183.176.0/21",
       "91.200.86.0/23",
       "178.57.80.0/21",
@@ -20,7 +23,7 @@
       "213.5.224.0/23",
       "217.72.0.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:bc40::/32"
     ]
   }

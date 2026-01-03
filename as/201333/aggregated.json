@@ -1,9 +1,12 @@
 {
-  "asn": 201333,
-  "handle": "NAQUADRIA-AS",
-  "description": "Naquadria S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201333,
+  "metadata" : {
+    "handle" : "NAQUADRIA-AS",
+    "description" : "Naquadria S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.11.116.0/22",
       "185.54.212.0/22",
       "185.78.48.0/22",
@@ -14,7 +17,7 @@
       "212.54.232.0/21",
       "212.54.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:4720::/29"
     ]
   }

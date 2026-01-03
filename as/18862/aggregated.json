@@ -1,9 +1,12 @@
 {
-  "asn": 18862,
-  "handle": "NCS-HEALTHCARE",
-  "description": "Omnicare Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18862,
+  "metadata" : {
+    "handle" : "NCS-HEALTHCARE",
+    "description" : "Omnicare Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.15.144.0/24",
       "152.145.172.0/24",
       "152.145.223.0/24",
@@ -14,6 +17,6 @@
       "204.14.128.0/23",
       "204.99.0.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

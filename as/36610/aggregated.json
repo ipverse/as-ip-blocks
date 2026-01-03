@@ -1,9 +1,12 @@
 {
-  "asn": 36610,
-  "handle": "EKNNET",
-  "description": "East Kentucky Network LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36610,
+  "metadata" : {
+    "handle" : "EKNNET",
+    "description" : "East Kentucky Network LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.176.31.0/24",
       "74.119.112.0/22",
       "199.68.148.0/22",
@@ -11,7 +14,7 @@
       "208.77.120.0/21",
       "208.94.200.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470:16e::/48",
       "2607:fd08::/32"
     ]

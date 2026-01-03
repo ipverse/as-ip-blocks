@@ -1,9 +1,12 @@
 {
-  "asn": 50049,
-  "handle": "RSL-AS-AP",
-  "description": "RedSwitches Pty LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50049,
+  "metadata" : {
+    "handle" : "RSL-AS-AP",
+    "description" : "RedSwitches Pty LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.250.52.0/22",
       "62.50.144.0/22",
       "82.27.0.0/24",
@@ -11,7 +14,7 @@
       "103.147.152.0/24",
       "158.173.226.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:4fc0::/32"
     ]
   }

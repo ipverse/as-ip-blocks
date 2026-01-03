@@ -1,13 +1,16 @@
 {
-  "asn": 31845,
-  "handle": "ISI-COMMUNICATIONS",
-  "description": "ISI Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31845,
+  "metadata" : {
+    "handle" : "ISI-COMMUNICATIONS",
+    "description" : "ISI Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.116.26.0/23",
       "74.116.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:9a00::/32"
     ]
   }

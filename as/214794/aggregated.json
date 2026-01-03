@@ -1,9 +1,12 @@
 {
-  "asn": 214794,
-  "handle": "PAYAPP-DIGITAL",
-  "description": "PAYAPP DIGITAL UAB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214794,
+  "metadata" : {
+    "handle" : "PAYAPP-DIGITAL",
+    "description" : "PAYAPP DIGITAL UAB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.146.118.0/24",
       "141.105.142.0/24",
       "185.176.92.0/24",
@@ -16,6 +19,6 @@
       "194.87.224.0/24",
       "195.226.88.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

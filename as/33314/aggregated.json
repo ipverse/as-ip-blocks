@@ -1,12 +1,15 @@
 {
-  "asn": 33314,
-  "handle": "VCC",
-  "description": "Vancouver Community College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33314,
+  "metadata" : {
+    "handle" : "VCC",
+    "description" : "Vancouver Community College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.231.18.0/24",
       "209.87.63.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

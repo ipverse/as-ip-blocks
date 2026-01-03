@@ -1,9 +1,12 @@
 {
-  "asn": 41313,
-  "handle": "NOVATEL-AS",
-  "description": "NOVATEL EOOD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41313,
+  "metadata" : {
+    "handle" : "NOVATEL-AS",
+    "description" : "NOVATEL EOOD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.110.120.0/21",
       "80.95.20.0/24",
       "80.95.22.0/24",
@@ -19,7 +22,7 @@
       "185.18.228.0/23",
       "212.21.132.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e200::/32",
       "2a0d:3b40::/29"
     ]

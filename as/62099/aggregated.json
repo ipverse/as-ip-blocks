@@ -1,14 +1,17 @@
 {
-  "asn": 62099,
-  "handle": "JMNET",
-  "description": "JM-Networks s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62099,
+  "metadata" : {
+    "handle" : "JMNET",
+    "description" : "JM-Networks s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "176.98.248.0/21",
       "185.47.220.0/22",
       "185.91.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:9420::/29"
     ]
   }

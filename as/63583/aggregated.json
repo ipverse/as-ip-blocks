@@ -1,13 +1,16 @@
 {
-  "asn": 63583,
-  "handle": "CAICTNET",
-  "description": "Chinese Academy of Telecommunication Research",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63583,
+  "metadata" : {
+    "handle" : "CAICTNET",
+    "description" : "Chinese Academy of Telecommunication Research",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.120.241.0/24",
       "103.126.19.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:7d80:241::/48"
     ]
   }

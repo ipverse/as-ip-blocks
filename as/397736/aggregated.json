@@ -1,12 +1,15 @@
 {
-  "asn": 397736,
-  "handle": "BEACON-FCU",
-  "description": "Beacon Federal Credit Union",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397736,
+  "metadata" : {
+    "handle" : "BEACON-FCU",
+    "description" : "Beacon Federal Credit Union",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.174.16.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:807:d000::/44"
     ]
   }

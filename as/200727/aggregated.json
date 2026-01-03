@@ -1,12 +1,15 @@
 {
-  "asn": 200727,
-  "handle": "KBRINN",
-  "description": "Kommunalbetriebe Rinn GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200727,
+  "metadata" : {
+    "handle" : "KBRINN",
+    "description" : "Kommunalbetriebe Rinn GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.98.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:7bc0::/32"
     ]
   }

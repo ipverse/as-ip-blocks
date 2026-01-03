@@ -1,12 +1,15 @@
 {
-  "asn": 206834,
-  "handle": "TEAMINTERNET-CA-AS",
-  "description": "Team Internet AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206834,
+  "metadata" : {
+    "handle" : "TEAMINTERNET-CA-AS",
+    "description" : "Team Internet AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.247.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:bb20:2000::/36"
     ]
   }

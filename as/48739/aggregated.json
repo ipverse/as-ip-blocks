@@ -1,9 +1,12 @@
 {
-  "asn": 48739,
-  "handle": "IRNET-AS",
-  "description": "SPUTNIK LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48739,
+  "metadata" : {
+    "handle" : "IRNET-AS",
+    "description" : "SPUTNIK LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.140.16.0/20",
       "176.96.244.0/22",
       "176.96.250.0/23",
@@ -13,7 +16,7 @@
       "185.113.200.0/22",
       "185.195.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:6520::/32"
     ]
   }

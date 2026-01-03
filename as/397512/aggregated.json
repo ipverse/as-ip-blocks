@@ -1,11 +1,14 @@
 {
-  "asn": 397512,
-  "handle": "BGP-HQ-01",
-  "description": "The College of American Pathologists",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397512,
+  "metadata" : {
+    "handle" : "BGP-HQ-01",
+    "description" : "The College of American Pathologists",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.80.2.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

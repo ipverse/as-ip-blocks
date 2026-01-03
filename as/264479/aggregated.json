@@ -1,14 +1,17 @@
 {
-  "asn": 264479,
-  "handle": "TURBOZONE-INTERNET",
-  "description": "Turbozone Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264479,
+  "metadata" : {
+    "handle" : "TURBOZONE-INTERNET",
+    "description" : "Turbozone Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.165.90.0/23",
       "131.255.120.0/22",
       "138.117.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:203c::/32"
     ]
   }

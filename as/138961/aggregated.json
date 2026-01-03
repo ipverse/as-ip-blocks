@@ -1,12 +1,15 @@
 {
-  "asn": 138961,
-  "handle": "PCTN-AS-AP",
-  "description": "Paradise Cable Television Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138961,
+  "metadata" : {
+    "handle" : "PCTN-AS-AP",
+    "description" : "Paradise Cable Television Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.137.178.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:b860::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 22301,
-  "handle": "APC-CC-CUSTOMERS",
-  "description": "RingSquared CC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22301,
+  "metadata" : {
+    "handle" : "APC-CC-CUSTOMERS",
+    "description" : "RingSquared CC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.125.240.0/21",
       "66.59.48.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

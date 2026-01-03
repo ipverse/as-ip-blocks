@@ -1,9 +1,12 @@
 {
-  "asn": 12312,
-  "handle": "ECOTEL",
-  "description": "ecotel communication ag",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12312,
+  "metadata" : {
+    "handle" : "ECOTEL",
+    "description" : "ecotel communication ag",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.26.0.0/15",
       "62.144.0.0/19",
       "62.144.64.0/18",
@@ -33,7 +36,7 @@
       "195.242.228.0/22",
       "212.172.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4090::/31",
       "2a00:a780:4::/48",
       "2a00:a780:800::/40",

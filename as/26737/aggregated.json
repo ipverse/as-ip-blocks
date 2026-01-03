@@ -1,9 +1,12 @@
 {
-  "asn": 26737,
-  "handle": "AS26737",
-  "description": "TREE TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26737,
+  "metadata" : {
+    "handle" : "AS26737",
+    "description" : "TREE TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.57.212.0/23",
       "82.29.28.0/24",
       "82.29.93.0/24",
@@ -11,7 +14,7 @@
       "91.124.28.0/23",
       "151.242.31.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f894:101::/48",
       "2602:f894:102::/48",
       "2602:f894:107::/48",

@@ -1,13 +1,16 @@
 {
-  "asn": 200100,
-  "handle": "TETSRL-IT",
-  "description": "T\u0026T Tecnologie e Telecomunicazioni Srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200100,
+  "metadata" : {
+    "handle" : "TETSRL-IT",
+    "description" : "T&T Tecnologie e Telecomunicazioni Srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.192.24.0/22",
       "185.37.204.0/22",
       "185.248.244.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

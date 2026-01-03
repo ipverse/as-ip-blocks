@@ -1,10 +1,13 @@
 {
-  "asn": 213566,
-  "handle": "BVK",
-  "description": "Bayerische Versorgungskammer",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 213566,
+  "metadata" : {
+    "handle" : "BVK",
+    "description" : "Bayerische Versorgungskammer",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a14:b500::/29"
     ]
   }

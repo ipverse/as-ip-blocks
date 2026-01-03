@@ -1,9 +1,12 @@
 {
-  "asn": 14962,
-  "handle": "NCR-252",
-  "description": "NCR Voyix Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14962,
+  "metadata" : {
+    "handle" : "NCR-252",
+    "description" : "NCR Voyix Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.242.0.0/16",
       "135.126.0.0/15",
       "135.137.0.0/16",
@@ -34,6 +37,6 @@
       "192.127.64.0/18",
       "192.127.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

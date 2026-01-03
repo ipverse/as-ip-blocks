@@ -1,9 +1,12 @@
 {
-  "asn": 20077,
-  "handle": "IPNETZONE-ASN",
-  "description": "IPNetZone",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20077,
+  "metadata" : {
+    "handle" : "IPNETZONE-ASN",
+    "description" : "IPNetZone",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.35.23.0/24",
       "8.35.31.0/24",
       "63.133.128.0/18",
@@ -30,6 +33,6 @@
       "216.138.110.0/23",
       "216.138.112.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

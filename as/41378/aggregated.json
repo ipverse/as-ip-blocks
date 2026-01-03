@@ -1,9 +1,12 @@
 {
-  "asn": 41378,
-  "handle": "KIRINONET",
-  "description": "Kirino LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41378,
+  "metadata" : {
+    "handle" : "KIRINONET",
+    "description" : "Kirino LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.247.132.0/22",
       "31.25.88.0/23",
       "37.123.195.0/24",
@@ -24,7 +27,7 @@
       "185.217.108.0/22",
       "212.107.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fbdb::/40",
       "2a0e:aa00:110::/44",
       "2a0e:aa00:120::/43",

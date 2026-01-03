@@ -1,13 +1,16 @@
 {
-  "asn": 212807,
-  "handle": "ROCKIT-NET",
-  "description": "RockIT Networks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212807,
+  "metadata" : {
+    "handle" : "ROCKIT-NET",
+    "description" : "RockIT Networks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.15.40.0/24",
       "194.15.42.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:7480::/29"
     ]
   }

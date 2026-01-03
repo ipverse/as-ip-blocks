@@ -1,9 +1,12 @@
 {
-  "asn": 133865,
-  "handle": "IQIYI-AS-AP",
-  "description": "Beijing IQIYI Science \u0026 Technology Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133865,
+  "metadata" : {
+    "handle" : "IQIYI-AS-AP",
+    "description" : "Beijing IQIYI Science & Technology Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.225.84.0/23",
       "43.225.87.0/24",
       "103.44.56.0/22",
@@ -15,7 +18,7 @@
       "118.26.120.0/24",
       "118.26.126.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:d180::/46",
       "2401:d180:10::/47",
       "2401:d180:111::/48",

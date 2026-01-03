@@ -1,9 +1,12 @@
 {
-  "asn": 18883,
-  "handle": "FIBERNET-NETWORK-OPERATIONS-CENTER",
-  "description": "FiberNet Communications L.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18883,
+  "metadata" : {
+    "handle" : "FIBERNET-NETWORK-OPERATIONS-CENTER",
+    "description" : "FiberNet Communications L.C.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.247.204.0/22",
       "64.29.184.0/22",
       "67.55.137.0/24",
@@ -40,7 +43,7 @@
       "216.51.202.0/24",
       "216.51.231.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:5f8:7f0b::/48",
       "2604:2ca0::/32"
     ]

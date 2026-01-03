@@ -1,12 +1,15 @@
 {
-  "asn": 132169,
-  "handle": "KBZONLINE-AS-AP",
-  "description": "Kbz online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132169,
+  "metadata" : {
+    "handle" : "KBZONLINE-AS-AP",
+    "description" : "Kbz online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.138.202.0/23",
       "103.219.225.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

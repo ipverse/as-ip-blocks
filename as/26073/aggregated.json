@@ -1,9 +1,12 @@
 {
-  "asn": 26073,
-  "handle": "COFRACTAL-001",
-  "description": "Cofractal Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26073,
+  "metadata" : {
+    "handle" : "COFRACTAL-001",
+    "description" : "Cofractal Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.139.160.0/24",
       "23.165.224.0/22",
       "44.4.41.0/24",
@@ -13,7 +16,7 @@
       "199.255.18.0/23",
       "208.80.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:ec00::/28",
       "2602:fa6d:10::/48",
       "2602:fe19::/32",

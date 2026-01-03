@@ -1,12 +1,15 @@
 {
-  "asn": 54975,
-  "handle": "INKBRIDGE",
-  "description": "Inkbridge",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54975,
+  "metadata" : {
+    "handle" : "INKBRIDGE",
+    "description" : "Inkbridge",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.66.222.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f847::/48"
     ]
   }

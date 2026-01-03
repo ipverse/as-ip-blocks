@@ -1,12 +1,15 @@
 {
-  "asn": 47101,
-  "handle": "CITYOFYAKIMA",
-  "description": "City of Yakima",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47101,
+  "metadata" : {
+    "handle" : "CITYOFYAKIMA",
+    "description" : "City of Yakima",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "205.172.45.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:12e:5000::/40"
     ]
   }

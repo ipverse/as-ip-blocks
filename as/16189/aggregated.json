@@ -1,14 +1,17 @@
 {
-  "asn": 16189,
-  "handle": "AS-KLEEGROUP",
-  "description": "KLEE SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16189,
+  "metadata" : {
+    "handle" : "AS-KLEEGROUP",
+    "description" : "KLEE SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.171.4.0/22",
       "193.41.222.0/23",
       "195.254.146.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:e20::/48",
       "2a07:97c0::/29"
     ]

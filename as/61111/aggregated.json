@@ -1,13 +1,16 @@
 {
-  "asn": 61111,
-  "handle": "RTCLOUD-2ND-AS",
-  "description": "RTCloud LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61111,
+  "metadata" : {
+    "handle" : "RTCLOUD-2ND-AS",
+    "description" : "RTCloud LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.172.136.0/24",
       "185.171.100.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:cd00:2::/48"
     ]
   }

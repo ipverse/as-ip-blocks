@@ -1,9 +1,12 @@
 {
-  "asn": 9875,
-  "handle": "PESAT1-AS-AP",
-  "description": "PT. Pasifik Satelit Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9875,
+  "metadata" : {
+    "handle" : "PESAT1-AS-AP",
+    "description" : "PT. Pasifik Satelit Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.71.224.0/22",
       "103.93.224.0/21",
       "103.94.96.0/22",
@@ -46,7 +49,7 @@
       "202.182.188.0/23",
       "202.182.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:f20:2000::/47",
       "2001:f20:3000::/47",
       "2001:f20:3002::/48",

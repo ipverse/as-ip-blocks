@@ -1,14 +1,17 @@
 {
-  "asn": 6210,
-  "handle": "NFL1",
-  "description": "National Football League",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6210,
+  "metadata" : {
+    "handle" : "NFL1",
+    "description" : "National Football League",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.46.64.0/23",
       "204.141.104.0/21",
       "204.141.144.0/21",
       "204.141.152.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

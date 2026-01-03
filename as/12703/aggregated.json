@@ -1,9 +1,12 @@
 {
-  "asn": 12703,
-  "handle": "PULSANT-AS",
-  "description": "Pulsant (Scotland) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12703,
+  "metadata" : {
+    "handle" : "PULSANT-AS",
+    "description" : "Pulsant (Scotland) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.10.25.0/24",
       "5.153.64.0/19",
       "5.172.152.0/21",
@@ -59,7 +62,7 @@
       "217.30.112.0/20",
       "217.171.111.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4dc0::/32",
       "2a00:85a0::/32",
       "2a01:5ae0::/32",

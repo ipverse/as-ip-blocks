@@ -1,13 +1,16 @@
 {
-  "asn": 142369,
-  "handle": "MADA-AS-ID",
-  "description": "PT Mega Data Akses",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142369,
+  "metadata" : {
+    "handle" : "MADA-AS-ID",
+    "description" : "PT Mega Data Akses",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.14.2.0/24",
       "103.170.115.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:1740::/48"
     ]
   }

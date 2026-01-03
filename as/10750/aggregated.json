@@ -1,9 +1,12 @@
 {
-  "asn": 10750,
-  "handle": "MARK-TWAIN",
-  "description": "Mark Twain Rural Telephone Co",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10750,
+  "metadata" : {
+    "handle" : "MARK-TWAIN",
+    "description" : "Mark Twain Rural Telephone Co.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.111.35.0/24",
       "64.111.42.0/23",
       "64.111.61.0/24",
@@ -22,7 +25,7 @@
       "216.145.155.0/24",
       "216.146.253.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:2940::/32"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 22113,
-  "handle": "BELAIR-TECHNOLOGIES",
-  "description": "Belair Technologies",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22113,
+  "metadata" : {
+    "handle" : "BELAIR-TECHNOLOGIES",
+    "description" : "Belair Technologies",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.135.199.0/24",
       "64.112.4.0/22",
       "66.170.180.0/22",
       "163.123.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:6480::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 11924,
-  "handle": "MONTANA-OPTICOM",
-  "description": "Montana Opticom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11924,
+  "metadata" : {
+    "handle" : "MONTANA-OPTICOM",
+    "description" : "Montana Opticom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.160.248.0/24",
       "63.166.28.0/22",
       "64.79.32.0/20",
@@ -16,7 +19,7 @@
       "208.75.140.0/22",
       "208.83.40.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:faa0::/32"
     ]
   }

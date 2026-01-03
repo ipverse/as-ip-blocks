@@ -1,9 +1,12 @@
 {
-  "asn": 29165,
-  "handle": "ARIDOR-AS",
-  "description": "Aridor Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29165,
+  "metadata" : {
+    "handle" : "ARIDOR-AS",
+    "description" : "Aridor Communications Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.56.252.0/22",
       "81.199.116.0/23",
       "81.199.120.0/22",
@@ -11,6 +14,6 @@
       "81.199.252.0/22",
       "193.238.208.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

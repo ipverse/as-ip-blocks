@@ -1,9 +1,12 @@
 {
-  "asn": 55254,
-  "handle": "WAVEDIRECT-CDN",
-  "description": "WaveDirect Telecommunications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55254,
+  "metadata" : {
+    "handle" : "WAVEDIRECT-CDN",
+    "description" : "WaveDirect Telecommunications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.46.80.0/22",
       "104.37.112.0/22",
       "162.211.184.0/22",
@@ -13,7 +16,7 @@
       "205.220.192.0/20",
       "216.10.232.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ffcd::/36"
     ]
   }

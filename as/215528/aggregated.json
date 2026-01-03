@@ -1,13 +1,16 @@
 {
-  "asn": 215528,
-  "handle": "INFOGENIUS-AS",
-  "description": "InfoGenius SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215528,
+  "metadata" : {
+    "handle" : "INFOGENIUS-AS",
+    "description" : "InfoGenius SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.58.155.0/24",
       "151.240.99.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:f9c0:cafe::/48",
       "2a13:cc82:2::/48"
     ]

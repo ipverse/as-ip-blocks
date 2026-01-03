@@ -1,13 +1,16 @@
 {
-  "asn": 21135,
-  "handle": "MTT-AS",
-  "description": "JSC Multiregional Transittelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21135,
+  "metadata" : {
+    "handle" : "MTT-AS",
+    "description" : "JSC Multiregional Transittelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.75.128.0/20",
       "95.169.96.0/19",
       "185.214.60.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

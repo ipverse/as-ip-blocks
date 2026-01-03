@@ -1,9 +1,12 @@
 {
-  "asn": 29314,
-  "handle": "VECTRANET-AS",
-  "description": "VECTRA S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29314,
+  "metadata" : {
+    "handle" : "VECTRANET-AS",
+    "description" : "VECTRA S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.6.218.0/24",
       "31.11.128.0/17",
       "31.22.96.0/21",
@@ -53,7 +56,7 @@
       "213.92.160.0/19",
       "213.92.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:9f00::/32"
     ]
   }

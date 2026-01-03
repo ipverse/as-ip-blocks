@@ -1,9 +1,12 @@
 {
-  "asn": 21415,
-  "handle": "INTERNETGROUP-AS-BG",
-  "description": "Vivacom Bulgaria EAD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21415,
+  "metadata" : {
+    "handle" : "INTERNETGROUP-AS-BG",
+    "description" : "Vivacom Bulgaria EAD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.121.192.0/24",
       "109.121.202.0/23",
       "109.121.254.0/23",
@@ -12,6 +15,6 @@
       "178.169.165.0/24",
       "178.169.169.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

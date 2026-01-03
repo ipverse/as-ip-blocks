@@ -1,9 +1,12 @@
 {
-  "asn": 202757,
-  "handle": "CASTLE-IT",
-  "description": "PLT Connectic SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202757,
+  "metadata" : {
+    "handle" : "CASTLE-IT",
+    "description" : "PLT Connectic SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.221.87.0/24",
       "45.93.144.0/24",
       "46.247.132.0/22",
@@ -13,6 +16,6 @@
       "185.88.196.0/22",
       "185.255.216.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

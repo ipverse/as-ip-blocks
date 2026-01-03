@@ -1,15 +1,18 @@
 {
-  "asn": 15850,
-  "handle": "AS15850",
-  "description": "Cyberplat OOO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15850,
+  "metadata" : {
+    "handle" : "AS15850",
+    "description" : "Cyberplat OOO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.72.128.0/23",
       "109.72.130.0/24",
       "109.72.136.0/24",
       "109.72.143.0/24",
       "193.46.88.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

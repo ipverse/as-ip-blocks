@@ -1,9 +1,12 @@
 {
-  "asn": 33392,
-  "handle": "DAUPHIN-TELECOM",
-  "description": "Dauphin Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33392,
+  "metadata" : {
+    "handle" : "DAUPHIN-TELECOM",
+    "description" : "Dauphin Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.117.46.0/24",
       "74.112.232.0/21",
       "74.116.95.0/24",
@@ -11,7 +14,7 @@
       "208.78.48.0/21",
       "208.91.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:25c0::/32",
       "2803:1740::/32"
     ]

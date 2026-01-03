@@ -1,12 +1,15 @@
 {
-  "asn": 399971,
-  "handle": "BLUBROADAND-ISP",
-  "description": "BluBroadband ISP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399971,
+  "metadata" : {
+    "handle" : "BLUBROADAND-ISP",
+    "description" : "BluBroadband ISP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.247.224.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:d3c0::/32"
     ]
   }

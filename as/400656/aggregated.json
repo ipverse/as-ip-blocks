@@ -1,12 +1,15 @@
 {
-  "asn": 400656,
-  "handle": "METRO-SERVICE",
-  "description": "Metro Service Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400656,
+  "metadata" : {
+    "handle" : "METRO-SERVICE",
+    "description" : "Metro Service Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.135.152.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:cb40::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 131353,
-  "handle": "NHANHOA-AS-VN",
-  "description": "NhanHoa Software company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131353,
+  "metadata" : {
+    "handle" : "NHANHOA-AS-VN",
+    "description" : "NhanHoa Software company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.117.80.0/22",
       "45.117.176.0/22",
       "103.28.36.0/22",
@@ -15,7 +18,7 @@
       "103.176.178.0/23",
       "103.179.190.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:3200::/48"
     ]
   }

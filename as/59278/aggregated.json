@@ -1,13 +1,16 @@
 {
-  "asn": 59278,
-  "handle": "VNTNET-AS-ID",
-  "description": "PT Jaringan VNT Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59278,
+  "metadata" : {
+    "handle" : "VNTNET-AS-ID",
+    "description" : "PT Jaringan VNT Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.58.160.0/22",
       "103.227.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:6980::/32"
     ]
   }

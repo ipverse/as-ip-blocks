@@ -1,9 +1,12 @@
 {
-  "asn": 62811,
-  "handle": "MTG",
-  "description": "Mercury Technology Group Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62811,
+  "metadata" : {
+    "handle" : "MTG",
+    "description" : "Mercury Technology Group Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.34.7.0/24",
       "144.34.8.0/22",
       "144.34.14.0/23",
@@ -11,6 +14,6 @@
       "144.34.38.0/23",
       "144.34.48.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

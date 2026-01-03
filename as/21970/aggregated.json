@@ -1,12 +1,15 @@
 {
-  "asn": 21970,
-  "handle": "PCESYSTEMS",
-  "description": "PCE Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21970,
+  "metadata" : {
+    "handle" : "PCESYSTEMS",
+    "description" : "PCE Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.17.200.0/24",
       "172.83.151.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

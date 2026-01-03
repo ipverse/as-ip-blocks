@@ -1,9 +1,12 @@
 {
-  "asn": 1759,
-  "handle": "TSF-IP-CORE",
-  "description": "Telia Finland Oyj",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1759,
+  "metadata" : {
+    "handle" : "TSF-IP-CORE",
+    "description" : "Telia Finland Oyj",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.14.40.0/22",
       "46.132.0.0/16",
       "62.71.0.0/16",
@@ -105,7 +108,7 @@
       "213.173.128.0/19",
       "217.140.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:8b8::/29",
       "2001:2000:6000::/40",
       "2001:2001:6000::/40",

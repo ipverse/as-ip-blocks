@@ -1,9 +1,12 @@
 {
-  "asn": 29968,
-  "handle": "ASN-NETSYNC",
-  "description": "Dunkirk \u0026 Fredonia Telephone Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29968,
+  "metadata" : {
+    "handle" : "ASN-NETSYNC",
+    "description" : "Dunkirk & Fredonia Telephone Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.66.112.0/20",
       "74.84.224.0/19",
       "204.249.64.0/21",
@@ -12,6 +15,6 @@
       "206.231.8.0/22",
       "208.15.24.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

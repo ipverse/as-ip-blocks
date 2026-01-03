@@ -1,9 +1,12 @@
 {
-  "asn": 395475,
-  "handle": "SCSALASKA",
-  "description": "SnowCloud Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395475,
+  "metadata" : {
+    "handle" : "SCSALASKA",
+    "description" : "SnowCloud Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.135.128.0/24",
       "137.83.36.0/23",
       "139.60.224.0/23",
@@ -11,7 +14,7 @@
       "165.140.244.0/22",
       "207.174.118.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:ca80::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 54058,
-  "handle": "RAKUTEN",
-  "description": "Rakuten Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54058,
+  "metadata" : {
+    "handle" : "RAKUTEN",
+    "description" : "Rakuten Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.39.136.0/21",
       "104.241.192.0/20",
       "185.69.128.0/22",
@@ -12,7 +15,7 @@
       "203.190.56.0/21",
       "204.87.189.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:260::/32",
       "2620:cb:8000::/48",
       "2a05:2200::/29",

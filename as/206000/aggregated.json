@@ -1,10 +1,13 @@
 {
-  "asn": 206000,
-  "handle": "HRE",
-  "description": "Harry Rowan Elenor",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 206000,
+  "metadata" : {
+    "handle" : "HRE",
+    "description" : "Harry Rowan Elenor",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0f:6284:4::/48",
       "2a0f:6284:900::/40",
       "2a0f:85c1:cd8::/48"

@@ -1,12 +1,15 @@
 {
-  "asn": 28293,
-  "handle": "INTERCORP-PROVEDOR-INTERNET",
-  "description": "InterCorp Provedor de Internet LTDA ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28293,
+  "metadata" : {
+    "handle" : "INTERCORP-PROVEDOR-INTERNET",
+    "description" : "InterCorp Provedor de Internet LTDA ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "189.28.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6ec0::/32"
     ]
   }

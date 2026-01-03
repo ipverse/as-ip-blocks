@@ -1,12 +1,15 @@
 {
-  "asn": 138658,
-  "handle": "ICOMMUNICATION-AS-AP",
-  "description": "I Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138658,
+  "metadata" : {
+    "handle" : "ICOMMUNICATION-AS-AP",
+    "description" : "I Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.183.17.0/24",
       "157.15.135.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

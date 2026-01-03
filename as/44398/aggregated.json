@@ -1,9 +1,12 @@
 {
-  "asn": 44398,
-  "handle": "ITM8-AS",
-  "description": "Itm8 A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44398,
+  "metadata" : {
+    "handle" : "ITM8-AS",
+    "description" : "Itm8 A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.158.208.0/24",
       "91.199.208.0/24",
       "92.43.120.0/21",
@@ -19,7 +22,7 @@
       "213.174.64.0/19",
       "213.179.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1e58::/32"
     ]
   }

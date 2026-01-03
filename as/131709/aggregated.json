@@ -1,13 +1,16 @@
 {
-  "asn": 131709,
-  "handle": "IDNIC-UNSOED-AS-ID",
-  "description": "PENGGUNA DIKS PTH UNSOED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131709,
+  "metadata" : {
+    "handle" : "IDNIC-UNSOED-AS-ID",
+    "description" : "PENGGUNA DIKS PTH UNSOED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.9.22.0/24",
       "103.255.124.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:2b5::/48"
     ]
   }

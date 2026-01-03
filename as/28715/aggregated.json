@@ -1,12 +1,15 @@
 {
-  "asn": 28715,
-  "handle": "BRASSHORNCOMMS",
-  "description": "Brass Horn Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28715,
+  "metadata" : {
+    "handle" : "BRASSHORNCOMMS",
+    "description" : "Brass Horn Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.104.120.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:3000::/36",
       "2a06:3000:2000::/36"
     ]

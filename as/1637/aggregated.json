@@ -1,9 +1,12 @@
 {
-  "asn": 1637,
-  "handle": "DNIC-AS-01637",
-  "description": "Headquarters USAISC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1637,
+  "metadata" : {
+    "handle" : "DNIC-AS-01637",
+    "description" : "Headquarters USAISC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "6.16.88.0/23",
       "6.134.24.0/22",
       "143.46.0.0/16",
@@ -12,7 +15,7 @@
       "155.5.0.0/16",
       "155.6.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2608:c141:30::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 14954,
-  "handle": "FHCRC",
-  "description": "The Fred Hutchinson Cancer Research Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14954,
+  "metadata" : {
+    "handle" : "FHCRC",
+    "description" : "The Fred Hutchinson Cancer Research Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.14.32.0/19",
       "140.107.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

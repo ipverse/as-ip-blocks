@@ -1,12 +1,15 @@
 {
-  "asn": 271121,
-  "handle": "SP-LINK-PROVEDOR",
-  "description": "Sp Link Provedor de Internet LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271121,
+  "metadata" : {
+    "handle" : "SP-LINK-PROVEDOR-INTERNET",
+    "description" : "Sp Link Provedor de Internet LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.42.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7694::/32"
     ]
   }

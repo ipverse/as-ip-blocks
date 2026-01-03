@@ -1,14 +1,17 @@
 {
-  "asn": 46476,
-  "handle": "TTUHSC",
-  "description": "Texas Tech University Health Sciences Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46476,
+  "metadata" : {
+    "handle" : "TTUHSC",
+    "description" : "Texas Tech University Health Sciences Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.230.0.0/18",
       "69.175.128.0/17",
       "208.122.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:118:3000::/40"
     ]
   }

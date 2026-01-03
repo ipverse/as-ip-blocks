@@ -1,14 +1,17 @@
 {
-  "asn": 20928,
-  "handle": "NOOR-AS",
-  "description": "The Noor Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20928,
+  "metadata" : {
+    "handle" : "NOOR-AS",
+    "description" : "The Noor Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.187.0.0/16",
       "197.246.0.0/16",
       "217.139.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43c8:10::/48"
     ]
   }

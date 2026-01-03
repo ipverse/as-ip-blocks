@@ -1,13 +1,16 @@
 {
-  "asn": 271493,
-  "handle": "SPEED-NET-PEDRA",
-  "description": "SPEED NET PEDRA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271493,
+  "metadata" : {
+    "handle" : "SPEED-NET-PEDRA",
+    "description" : "SPEED NET PEDRA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.64.0.0/18",
       "181.232.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7c64::/32"
     ]
   }

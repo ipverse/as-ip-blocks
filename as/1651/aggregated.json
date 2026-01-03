@@ -1,9 +1,12 @@
 {
-  "asn": 1651,
-  "handle": "CABLELYNX",
-  "description": "Cablelynx",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1651,
+  "metadata" : {
+    "handle" : "CABLELYNX",
+    "description" : "Cablelynx",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.89.48.0/24",
       "24.244.108.0/23",
       "69.50.242.0/23",
@@ -14,6 +17,6 @@
       "206.255.243.0/24",
       "206.255.252.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

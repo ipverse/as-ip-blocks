@@ -1,9 +1,12 @@
 {
-  "asn": 40034,
-  "handle": "CONFLUENCE-NETWORK-INC",
-  "description": "Confluence Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40034,
+  "metadata" : {
+    "handle" : "CONFLUENCE-NETWORK-INC",
+    "description" : "Confluence Networks Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.81.192.0/21",
       "66.81.200.0/23",
       "66.81.202.0/24",
@@ -16,7 +19,7 @@
       "204.11.56.0/23",
       "208.91.196.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:10c0::/48"
     ]
   }

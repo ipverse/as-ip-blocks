@@ -1,12 +1,15 @@
 {
-  "asn": 271358,
-  "handle": "AP-INTERNET",
-  "description": "AP INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271358,
+  "metadata" : {
+    "handle" : "AP-INTERNET",
+    "description" : "AP INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.50.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7a40::/32"
     ]
   }

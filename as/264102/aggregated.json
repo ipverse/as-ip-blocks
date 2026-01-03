@@ -1,12 +1,15 @@
 {
-  "asn": 264102,
-  "handle": "TRIBUNAL-REGIONAL-TRABALHO",
-  "description": "Tribunal Regional do Trabalho 9ª Região",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264102,
+  "metadata" : {
+    "handle" : "TRIBUNAL-REGIONAL-TRABALHO",
+    "description" : "Tribunal Regional do Trabalho 9ª Região",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.0.85.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:80:ec0::/48"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 201236,
-  "handle": "NETCAST-OBLAK-DOO",
-  "description": "NETCAST OBLAK d.o.o. Beograd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201236,
+  "metadata" : {
+    "handle" : "NETCAST-OBLAK-DOO",
+    "description" : "NETCAST OBLAK d.o.o. Beograd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.17.188.0/22",
       "185.26.116.0/22",
       "194.53.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:7c00::/29"
     ]
   }

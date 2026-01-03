@@ -1,9 +1,12 @@
 {
-  "asn": 13194,
-  "handle": "BITE",
-  "description": "UAB Bite Lietuva",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13194,
+  "metadata" : {
+    "handle" : "BITE",
+    "description" : "UAB Bite Lietuva",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.15.0.0/16",
       "84.46.139.0/24",
       "85.254.71.0/24",
@@ -77,7 +80,7 @@
       "213.252.254.0/24",
       "217.9.248.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:f500::/29"
     ]
   }

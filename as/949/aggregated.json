@@ -1,10 +1,13 @@
 {
-  "asn": 949,
-  "handle": "XTOM",
-  "description": "xTom",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 949,
+  "metadata" : {
+    "handle" : "XTOM",
+    "description" : "xTom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:df4:dd80::/48",
       "2a06:4fc0::/29",
       "2a06:57c0::/29",

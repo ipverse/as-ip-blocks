@@ -1,12 +1,15 @@
 {
-  "asn": 213007,
-  "handle": "PUGET-SOUND-NETWORKS-LAB",
-  "description": "Puget Sound Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213007,
+  "metadata" : {
+    "handle" : "PUGET-SOUND-NETWORKS-LAB",
+    "description" : "Puget Sound Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.51.106.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:ae00:9::/48"
     ]
   }

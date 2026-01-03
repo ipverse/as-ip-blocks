@@ -1,12 +1,15 @@
 {
-  "asn": 264938,
-  "handle": "ONLINE-TELECOM",
-  "description": "Online TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264938,
+  "metadata" : {
+    "handle" : "ONLINE-TELECOM",
+    "description" : "Online TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.232.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:303c::/34",
       "2804:303c:c000::/34"
     ]

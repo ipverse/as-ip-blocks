@@ -1,11 +1,14 @@
 {
-  "asn": 42887,
-  "handle": "ACC-AS",
-  "description": "ACC Distribution UAB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42887,
+  "metadata" : {
+    "handle" : "ACC-AS",
+    "description" : "ACC Distribution UAB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.75.40.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

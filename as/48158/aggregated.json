@@ -1,9 +1,12 @@
 {
-  "asn": 48158,
-  "handle": "DIGITALONE-AS",
-  "description": "DigitalOne AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48158,
+  "metadata" : {
+    "handle" : "DIGITALONE-AS",
+    "description" : "DigitalOne AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.255.208.0/23",
       "146.255.210.0/24",
       "146.255.212.0/23",
@@ -18,6 +21,6 @@
       "176.58.54.0/24",
       "176.58.56.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 18186,
-  "handle": "NEBULA-GLOBAL",
-  "description": "Nebula Global LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18186,
+  "metadata" : {
+    "handle" : "NEBULA-GLOBAL",
+    "description" : "Nebula Global LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.244.0/22",
       "2.58.248.0/22",
       "5.183.116.0/24",
@@ -128,7 +131,7 @@
       "207.57.0.0/23",
       "223.26.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:4d20::/48",
       "2400:4d20:200::/48",
       "2400:4d20:250::/48",

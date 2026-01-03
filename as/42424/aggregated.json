@@ -1,12 +1,15 @@
 {
-  "asn": 42424,
-  "handle": "ENDAVA-AS",
-  "description": "ICS Endava SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42424,
+  "metadata" : {
+    "handle" : "ENDAVA-AS",
+    "description" : "ICS Endava SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.33.92.0/23",
       "194.126.146.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

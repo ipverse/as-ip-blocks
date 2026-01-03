@@ -1,9 +1,12 @@
 {
-  "asn": 29752,
-  "handle": "ZEN-SDN",
-  "description": "Zenlayer Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29752,
+  "metadata" : {
+    "handle" : "ZEN-SDN",
+    "description" : "Zenlayer Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.251.35.0/24",
       "69.28.55.0/24",
       "104.166.158.0/24",
@@ -16,7 +19,7 @@
       "199.190.47.0/24",
       "216.225.162.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:81c0::/48",
       "2a0b:21c1:601c::/48",
       "2a0b:21c1:602a::/48"

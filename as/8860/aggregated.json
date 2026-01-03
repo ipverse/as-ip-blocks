@@ -1,9 +1,12 @@
 {
-  "asn": 8860,
-  "handle": "DELTA-BG-AS",
-  "description": "Delta HighTech Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8860,
+  "metadata" : {
+    "handle" : "DELTA-BG-AS",
+    "description" : "Delta HighTech Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.182.21.0/24",
       "5.182.23.0/24",
       "45.10.201.0/24",
@@ -24,7 +27,7 @@
       "194.145.63.0/24",
       "195.189.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:b6a0::/32",
       "2a02:80e0::/30",
       "2a0e:b800::/31"

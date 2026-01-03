@@ -1,13 +1,16 @@
 {
-  "asn": 9104,
-  "handle": "CLIO-AS",
-  "description": "Clio S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9104,
+  "metadata" : {
+    "handle" : "CLIO-AS",
+    "description" : "Clio S.R.L",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.161.220.0/22",
       "195.60.128.0/19",
       "212.3.160.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

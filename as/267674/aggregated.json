@@ -1,12 +1,15 @@
 {
-  "asn": 267674,
-  "handle": "NETLIFE-PROVEDOR-INTERNET",
-  "description": "Netlife Provedor de Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267674,
+  "metadata" : {
+    "handle" : "NETLIFE-PROVEDOR-INTERNET",
+    "description" : "Netlife Provedor de Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.224.224.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4520::/32"
     ]
   }

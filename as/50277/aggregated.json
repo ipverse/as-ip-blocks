@@ -1,12 +1,15 @@
 {
-  "asn": 50277,
-  "handle": "TPGNET",
-  "description": "Transports publics genevois",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50277,
+  "metadata" : {
+    "handle" : "TPGNET",
+    "description" : "Transports publics genevois",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.5.180.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1580::/48"
     ]
   }

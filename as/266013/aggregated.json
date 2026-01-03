@@ -1,12 +1,15 @@
 {
-  "asn": 266013,
-  "handle": "MORATEC-EQUIPAMENTOS",
-  "description": "Moratec Equipamentos",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266013,
+  "metadata" : {
+    "handle" : "MORATEC-EQUIPAMENTOS",
+    "description" : "Moratec Equipamentos",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.244.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3920:4200::/40",
       "2804:3920:4800::/40",
       "2804:3920:8000::/36"

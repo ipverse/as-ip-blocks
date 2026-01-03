@@ -1,12 +1,15 @@
 {
-  "asn": 44100,
-  "handle": "ARIELTV-AS",
-  "description": "Ariel TV AD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44100,
+  "metadata" : {
+    "handle" : "ARIELTV-AS",
+    "description" : "Ariel TV AD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.169.206.0/23",
       "95.169.221.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

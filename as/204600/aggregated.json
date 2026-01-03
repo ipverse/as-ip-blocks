@@ -1,12 +1,15 @@
 {
-  "asn": 204600,
-  "handle": "REPUBLER-AS",
-  "description": "Atlantic LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204600,
+  "metadata" : {
+    "handle" : "REPUBLER-AS",
+    "description" : "Atlantic LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.190.116.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:600::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 9898,
-  "handle": "IQHIVE-AS-AP",
-  "description": "IQ Hive Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9898,
+  "metadata" : {
+    "handle" : "IQHIVE-AS-AP",
+    "description" : "IQ Hive Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.36.16.0/21",
       "202.36.24.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

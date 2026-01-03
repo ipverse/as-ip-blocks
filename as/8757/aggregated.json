@@ -1,9 +1,12 @@
 {
-  "asn": 8757,
-  "handle": "NSFOCUS",
-  "description": "NSFOCUS Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8757,
+  "metadata" : {
+    "handle" : "NSFOCUS",
+    "description" : "NSFOCUS Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.144.84.0/24",
       "185.144.86.0/23",
       "212.58.128.0/22",
@@ -12,7 +15,7 @@
       "212.58.149.0/24",
       "212.58.151.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:7b80:102::/47",
       "2a07:7b80:104::/47",
       "2a07:7b80:107::/48",

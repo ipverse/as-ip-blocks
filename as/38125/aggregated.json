@@ -1,11 +1,14 @@
 {
-  "asn": 38125,
-  "handle": "FREEWAY-AS",
-  "description": "Korea Expressway Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38125,
+  "metadata" : {
+    "handle" : "FREEWAY-AS",
+    "description" : "Korea Expressway Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "180.148.180.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

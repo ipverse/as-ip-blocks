@@ -1,9 +1,12 @@
 {
-  "asn": 13767,
-  "handle": "DATABANK-DFW",
-  "description": "DataBank Holdings Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13767,
+  "metadata" : {
+    "handle" : "DATABANK-DFW",
+    "description" : "DataBank Holdings Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.12.72.0/22",
       "24.235.19.0/24",
       "38.46.154.0/24",
@@ -137,7 +140,7 @@
       "216.223.187.0/24",
       "216.245.179.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:430:fff4::/48",
       "2602:febd::/36",
       "2604:9100::/32",

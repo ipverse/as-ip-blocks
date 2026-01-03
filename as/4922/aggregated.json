@@ -1,9 +1,12 @@
 {
-  "asn": 4922,
-  "handle": "SHENTEL",
-  "description": "Shenandoah Cable Television LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4922,
+  "metadata" : {
+    "handle" : "SHENTEL",
+    "description" : "Shenandoah Cable Television LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.49.0.0/19",
       "24.53.64.0/20",
       "24.56.112.0/20",
@@ -24,7 +27,7 @@
       "204.111.0.0/16",
       "216.30.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:7c40::/32",
       "2606:a800::/32",
       "2607:8e00::/32"

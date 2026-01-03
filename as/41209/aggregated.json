@@ -1,9 +1,12 @@
 {
-  "asn": 41209,
-  "handle": "COMSTAR-VOLGA",
-  "description": "MTS PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41209,
+  "metadata" : {
+    "handle" : "COMSTAR-VOLGA",
+    "description" : "MTS PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.227.168.0/23",
       "62.118.106.0/23",
       "62.118.108.0/23",
@@ -13,6 +16,6 @@
       "85.140.60.0/22",
       "195.34.18.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 212177,
-  "handle": "AIRBYTES",
-  "description": "AIRBYTES COMMUNICATIONS Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212177,
+  "metadata" : {
+    "handle" : "AIRBYTES",
+    "description" : "AIRBYTES COMMUNICATIONS Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.75.219.0/24",
       "92.119.196.0/23",
       "92.119.198.0/24",
@@ -11,7 +14,7 @@
       "130.12.109.0/24",
       "185.120.15.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:f980::/31",
       "2a03:f984::/31"
     ]

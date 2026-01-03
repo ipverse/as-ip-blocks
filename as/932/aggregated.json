@@ -1,9 +1,12 @@
 {
-  "asn": 932,
-  "handle": "XNNET",
-  "description": "XNNET LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 932,
+  "metadata" : {
+    "handle" : "XNNET",
+    "description" : "XNNET LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.47.96.0/19",
       "38.55.96.0/19",
       "38.147.160.0/19",
@@ -47,7 +50,7 @@
       "185.106.176.0/22",
       "206.237.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:2660:1000::/36",
       "2a06:5040::/48",
       "2a12:ab80::/29"

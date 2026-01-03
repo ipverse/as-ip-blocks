@@ -1,14 +1,17 @@
 {
-  "asn": 395742,
-  "handle": "TBG-SERVICES-LLC-DBA-NEXTMSP",
-  "description": "The Brookfield Group LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395742,
+  "metadata" : {
+    "handle" : "TBG-SERVICES-LLC-DBA-NEXTMSP",
+    "description" : "The Brookfield Group LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.236.4.0/24",
       "23.128.216.0/24",
       "165.140.53.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:8ec0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 35758,
-  "handle": "HQSERV-NETWORKS",
-  "description": "Rachamim Aviel Twito",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35758,
+  "metadata" : {
+    "handle" : "HQSERV-NETWORKS",
+    "description" : "Rachamim Aviel Twito",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.14.73.0/24",
       "45.83.184.0/24",
       "62.192.108.0/23",
@@ -25,7 +28,7 @@
       "213.169.200.0/23",
       "216.158.198.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:1dc0::/29",
       "2a0a:2d04:1::/48",
       "2a0e:1a83:55::/48",

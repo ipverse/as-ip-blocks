@@ -1,9 +1,12 @@
 {
-  "asn": 8569,
-  "handle": "MSYS",
-  "description": "METRO Digital GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8569,
+  "metadata" : {
+    "handle" : "MSYS",
+    "description" : "METRO Digital GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.61.0.0/16",
       "164.139.0.0/16",
       "194.99.160.0/19",
@@ -12,7 +15,7 @@
       "194.156.32.0/21",
       "194.156.54.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4d20::/33"
     ]
   }

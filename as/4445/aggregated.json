@@ -1,13 +1,16 @@
 {
-  "asn": 4445,
-  "handle": "CWI-AS",
-  "description": "Vodafone Americas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4445,
+  "metadata" : {
+    "handle" : "CWI-AS",
+    "description" : "Vodafone Americas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.190.140.0/23",
       "47.73.173.0/24",
       "47.73.175.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

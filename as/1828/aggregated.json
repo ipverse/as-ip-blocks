@@ -1,9 +1,12 @@
 {
-  "asn": 1828,
-  "handle": "UNITAS",
-  "description": "Unitas Global",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1828,
+  "metadata" : {
+    "handle" : "UNITAS",
+    "description" : "Unitas Global",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.162.3.0/24",
       "12.162.8.0/23",
       "45.15.192.0/22",
@@ -50,7 +53,7 @@
       "207.189.169.0/24",
       "209.251.78.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:5dc0::/32",
       "2605:f500::/32",
       "2a02:b50:8000::/34",

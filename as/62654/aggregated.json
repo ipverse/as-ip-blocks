@@ -1,9 +1,12 @@
 {
-  "asn": 62654,
-  "handle": "MENLO-SECURITY",
-  "description": "MENLO SECURITY INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62654,
+  "metadata" : {
+    "handle" : "MENLO-SECURITY",
+    "description" : "MENLO SECURITY INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "57.140.0.0/21",
       "57.140.8.0/22",
       "57.140.15.0/24",
@@ -71,6 +74,6 @@
       "162.33.226.0/23",
       "203.104.70.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

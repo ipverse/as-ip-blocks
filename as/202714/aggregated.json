@@ -1,12 +1,15 @@
 {
-  "asn": 202714,
-  "handle": "AARENET-01",
-  "description": "Aarenet AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202714,
+  "metadata" : {
+    "handle" : "AARENET-01",
+    "description" : "Aarenet AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.150.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:1e40::/29"
     ]
   }

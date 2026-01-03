@@ -1,9 +1,12 @@
 {
-  "asn": 213887,
-  "handle": "WAICORE-LTD",
-  "description": "WAIcore Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213887,
+  "metadata" : {
+    "handle" : "WAICORE-LTD",
+    "description" : "WAIcore Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.120.92.0/24",
       "87.120.205.0/24",
       "87.120.216.0/24",
@@ -26,7 +29,7 @@
       "213.176.76.0/23",
       "213.176.78.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:4141::/36",
       "2a0b:4141:9000::/36",
       "2a0b:4141:e000::/36",

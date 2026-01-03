@@ -1,9 +1,12 @@
 {
-  "asn": 58541,
-  "handle": "CHINATELECOM-SHANDONG-QINGDAO-IDC",
-  "description": "Qingdao 266000",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58541,
+  "metadata" : {
+    "handle" : "CHINATELECOM-SHANDONG-QINGDAO-IDC",
+    "description" : "Qingdao 266000",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.56.161.0/24",
       "58.56.163.0/24",
       "58.58.33.0/24",
@@ -26,7 +29,7 @@
       "219.146.244.0/24",
       "219.146.248.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:e:b000::/37",
       "240e:944::/36",
       "240e:944:3000::/36"

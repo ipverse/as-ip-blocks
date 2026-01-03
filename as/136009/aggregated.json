@@ -1,12 +1,15 @@
 {
-  "asn": 136009,
-  "handle": "SPEEDNET-AS-AP",
-  "description": "SpeedNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136009,
+  "metadata" : {
+    "handle" : "SPEEDNET-AS-AP",
+    "description" : "SpeedNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.79.182.0/23",
       "103.122.90.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

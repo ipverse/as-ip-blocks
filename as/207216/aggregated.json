@@ -1,12 +1,15 @@
 {
-  "asn": 207216,
-  "handle": "AZURIP",
-  "description": "AZUR IP SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207216,
+  "metadata" : {
+    "handle" : "AZURIP",
+    "description" : "AZUR IP SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.162.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:a000::/29"
     ]
   }

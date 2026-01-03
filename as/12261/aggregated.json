@@ -1,9 +1,12 @@
 {
-  "asn": 12261,
-  "handle": "DEKALB",
-  "description": "DTC Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12261,
+  "metadata" : {
+    "handle" : "DEKALB",
+    "description" : "DTC Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.253.208.0/21",
       "64.253.216.0/23",
       "64.253.220.0/22",
@@ -14,7 +17,7 @@
       "173.242.240.0/20",
       "208.118.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:900::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 41430,
-  "handle": "RNCB-AS",
-  "description": "VTB Bank (Public Joint-Stock Company)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41430,
+  "metadata" : {
+    "handle" : "RNCB-AS",
+    "description" : "VTB Bank (Public Joint-Stock Company)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.189.87.0/24",
       "195.200.209.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:28bc::/48"
     ]
   }

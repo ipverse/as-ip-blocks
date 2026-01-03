@@ -1,11 +1,14 @@
 {
-  "asn": 139039,
-  "handle": "JKNETWORK-AS-AP",
-  "description": "JK Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139039,
+  "metadata" : {
+    "handle" : "JKNETWORK-AS-AP",
+    "description" : "JK Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.138.212.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

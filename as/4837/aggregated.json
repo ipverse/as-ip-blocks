@@ -1,9 +1,12 @@
 {
-  "asn": 4837,
-  "handle": "CHINA169-BACKBONE",
-  "description": "CHINA UNICOM China169 Backbone",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4837,
+  "metadata" : {
+    "handle" : "CHINA169-BACKBONE",
+    "description" : "CHINA UNICOM China169 Backbone",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.24.0.0/13",
       "1.56.0.0/13",
       "1.188.0.0/14",
@@ -542,7 +545,7 @@
       "222.136.0.0/13",
       "222.160.0.0/14"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:f140:ff13::/48",
       "2402:f140:ff14::/48",
       "2404:6500:dcb3::/48",

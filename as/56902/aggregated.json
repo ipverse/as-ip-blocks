@@ -1,9 +1,12 @@
 {
-  "asn": 56902,
-  "handle": "ENERGY",
-  "description": "Energy Bridge Sarl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56902,
+  "metadata" : {
+    "handle" : "ENERGY",
+    "description" : "Energy Bridge Sarl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.100.240.0/22",
       "38.190.104.0/24",
       "38.191.162.0/24",
@@ -13,6 +16,6 @@
       "185.187.128.0/22",
       "185.222.51.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

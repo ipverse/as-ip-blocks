@@ -1,10 +1,13 @@
 {
-  "asn": 42372,
-  "handle": "DNETUA-AS",
-  "description": "Netassist International EOOD",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 42372,
+  "metadata" : {
+    "handle" : "DNETUA-AS",
+    "description" : "Netassist International EOOD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a01:d0:7fff::/48",
       "2a01:d0:8000::/33"
     ]

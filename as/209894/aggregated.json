@@ -1,13 +1,16 @@
 {
-  "asn": 209894,
-  "handle": "AS-FOERDERVEREIN",
-  "description": "Foerderverein Freie Infrastruktur e.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209894,
+  "metadata" : {
+    "handle" : "AS-FOERDERVEREIN",
+    "description" : "Foerderverein Freie Infrastruktur e.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.154.111.0/24",
       "217.70.1.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:440::/30"
     ]
   }

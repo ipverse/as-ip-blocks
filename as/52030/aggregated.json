@@ -1,9 +1,12 @@
 {
-  "asn": 52030,
-  "handle": "SERVERPLAN-AS",
-  "description": "Server Plan S.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52030,
+  "metadata" : {
+    "handle" : "SERVERPLAN-AS",
+    "description" : "Server Plan S.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.16.88.0/21",
       "46.28.0.0/21",
       "46.30.240.0/21",
@@ -16,7 +19,7 @@
       "185.81.0.0/21",
       "193.70.146.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:24b8::/40"
     ]
   }

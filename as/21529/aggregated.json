@@ -1,14 +1,17 @@
 {
-  "asn": 21529,
-  "handle": "NOVVA",
-  "description": "NOVVA INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21529,
+  "metadata" : {
+    "handle" : "NOVVA",
+    "description" : "NOVVA INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.118.48.0/22",
       "149.112.12.0/24",
       "199.195.142.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:1fc0::/38"
     ]
   }

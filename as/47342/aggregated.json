@@ -1,9 +1,12 @@
 {
-  "asn": 47342,
-  "handle": "TARIO-AS",
-  "description": "Tario Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47342,
+  "metadata" : {
+    "handle" : "TARIO-AS",
+    "description" : "Tario Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.225.100.0/22",
       "91.247.128.0/21",
       "91.247.136.0/22",
@@ -12,6 +15,6 @@
       "193.43.232.0/22",
       "193.203.102.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

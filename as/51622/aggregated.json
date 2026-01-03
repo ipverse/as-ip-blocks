@@ -1,13 +1,16 @@
 {
-  "asn": 51622,
-  "handle": "IV-COM-AS",
-  "description": "PP IV-COM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51622,
+  "metadata" : {
+    "handle" : "IV-COM-AS",
+    "description" : "PP IV-COM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.224.252.0/23",
       "176.124.232.0/21",
       "195.162.70.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

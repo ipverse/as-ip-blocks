@@ -1,12 +1,15 @@
 {
-  "asn": 53791,
-  "handle": "TRUESPEED-ASN",
-  "description": "Truespeed Internet Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53791,
+  "metadata" : {
+    "handle" : "TRUESPEED-ASN",
+    "description" : "Truespeed Internet Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.78.96.0/19",
       "104.200.0.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

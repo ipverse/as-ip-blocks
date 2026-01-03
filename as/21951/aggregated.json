@@ -1,13 +1,16 @@
 {
-  "asn": 21951,
-  "handle": "STOLAF",
-  "description": "St. Olaf College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21951,
+  "metadata" : {
+    "handle" : "STOLAF",
+    "description" : "St. Olaf College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.210.88.0/22",
       "199.91.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:132:b000::/40"
     ]
   }

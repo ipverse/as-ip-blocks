@@ -1,13 +1,16 @@
 {
-  "asn": 269182,
-  "handle": "PLUGAR-TELECOM",
-  "description": "PLUGAR TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269182,
+  "metadata" : {
+    "handle" : "PLUGAR-TELECOM",
+    "description" : "PLUGAR TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.181.100.0/22",
       "179.63.166.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:60a8::/32"
     ]
   }

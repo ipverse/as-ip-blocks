@@ -1,13 +1,16 @@
 {
-  "asn": 43458,
-  "handle": "AIRNITY-IPX",
-  "description": "AIRNITY SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43458,
+  "metadata" : {
+    "handle" : "AIRNITY-IPX",
+    "description" : "AIRNITY SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.159.136.0/23",
       "213.159.138.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:d7c0:724::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 397203,
-  "handle": "VRSN-AC28",
-  "description": "VeriSign Global Registry Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397203,
+  "metadata" : {
+    "handle" : "VRSN-AC28",
+    "description" : "VeriSign Global Registry Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.19.195.0/24",
       "185.100.0.0/24",
       "192.35.51.0/24",
@@ -13,7 +16,7 @@
       "192.43.172.0/24",
       "192.54.112.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:500:121::/48",
       "2001:500:125::/48",
       "2001:500:134::/48",

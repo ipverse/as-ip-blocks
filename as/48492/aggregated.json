@@ -1,9 +1,12 @@
 {
-  "asn": 48492,
-  "handle": "IQ-ONLINE",
-  "description": "I.Q Online for Internet Services and Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48492,
+  "metadata" : {
+    "handle" : "IQ-ONLINE",
+    "description" : "I.Q Online for Internet Services and Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.201.239.0/24",
       "176.222.60.0/22",
       "185.56.192.0/22",
@@ -11,6 +14,6 @@
       "185.181.108.0/22",
       "185.187.204.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

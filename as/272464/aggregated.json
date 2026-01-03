@@ -1,14 +1,17 @@
 {
-  "asn": 272464,
-  "handle": "I-7-PROVEDOR-INTERNET",
-  "description": "i 7 Provedor de internet LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272464,
+  "metadata" : {
+    "handle" : "I-7-PROVEDOR-INTERNET",
+    "description" : "i 7 Provedor de internet LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.19.101.0/24",
       "38.226.19.0/24",
       "38.226.140.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8198::/32"
     ]
   }

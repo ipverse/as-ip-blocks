@@ -1,12 +1,15 @@
 {
-  "asn": 401072,
-  "handle": "RO-BROADBAND",
-  "description": "R.O. Broadband LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401072,
+  "metadata" : {
+    "handle" : "RO-BROADBAND",
+    "description" : "R.O. Broadband LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.135.140.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f6cb::/36"
     ]
   }

@@ -1,10 +1,13 @@
 {
-  "asn": 200529,
-  "handle": "ASR-INFOPRO",
-  "description": "ASR INFOPRO s.a r.l",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 200529,
+  "metadata" : {
+    "handle" : "ASR-INFOPRO",
+    "description" : "ASR INFOPRO s.a r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a05:dfc6:9500::/40",
       "2a06:2c80:2000::/36",
       "2a06:2c80:6000::/36",

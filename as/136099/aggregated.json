@@ -1,13 +1,16 @@
 {
-  "asn": 136099,
-  "handle": "IDNIC-PJNHK-AS-ID",
-  "description": "Pusat Jantung Nasional Harapan Kita",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136099,
+  "metadata" : {
+    "handle" : "IDNIC-PJNHK-AS-ID",
+    "description" : "Pusat Jantung Nasional Harapan Kita",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.89.248.0/24",
       "160.25.249.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:c300::/48"
     ]
   }

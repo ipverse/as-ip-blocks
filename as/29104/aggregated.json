@@ -1,9 +1,12 @@
 {
-  "asn": 29104,
-  "handle": "THALESGROUP-AS",
-  "description": "Thales Services Numeriques SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29104,
+  "metadata" : {
+    "handle" : "THALESGROUP-AS",
+    "description" : "Thales Services Numeriques SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.35.0.0/21",
       "91.213.180.0/24",
       "185.116.132.0/22",
@@ -15,7 +18,7 @@
       "193.56.125.0/24",
       "193.56.130.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4f40::/32"
     ]
   }

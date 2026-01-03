@@ -1,9 +1,12 @@
 {
-  "asn": 210016,
-  "handle": "TARIK-ALTHURAYA-FTTH",
-  "description": "Tarik Al-thuraya Company For Communications Service Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210016,
+  "metadata" : {
+    "handle" : "TARIK-ALTHURAYA-FTTH",
+    "description" : "Tarik Al-thuraya Company For Communications Service Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.21.251.0/24",
       "131.117.232.0/24",
       "188.72.9.0/24",
@@ -11,6 +14,6 @@
       "188.72.13.0/24",
       "212.126.116.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

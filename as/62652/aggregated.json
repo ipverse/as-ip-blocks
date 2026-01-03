@@ -1,11 +1,14 @@
 {
-  "asn": 62652,
-  "handle": "AU-65-BGP",
-  "description": "Anderson University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62652,
+  "metadata" : {
+    "handle" : "AU-65-BGP",
+    "description" : "Anderson University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.92.72.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

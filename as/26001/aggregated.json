@@ -1,14 +1,17 @@
 {
-  "asn": 26001,
-  "handle": "BLUIP",
-  "description": "BLUIP INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26001,
+  "metadata" : {
+    "handle" : "BLUIP",
+    "description" : "BLUIP INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.168.176.0/21",
       "206.168.38.0/24",
       "207.174.23.0/24",
       "209.97.239.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

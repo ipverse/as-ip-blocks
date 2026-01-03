@@ -1,12 +1,15 @@
 {
-  "asn": 17756,
-  "handle": "AUSPOST",
-  "description": "Australian Postal Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17756,
+  "metadata" : {
+    "handle" : "AUSPOST",
+    "description" : "Australian Postal Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "155.144.0.0/16",
       "203.171.5.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

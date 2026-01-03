@@ -1,9 +1,12 @@
 {
-  "asn": 203680,
-  "handle": "ARAZTECH",
-  "description": "Araz Tech LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203680,
+  "metadata" : {
+    "handle" : "ARAZTECH",
+    "description" : "Araz Tech LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.237.124.0/22",
       "130.0.12.0/22",
       "185.47.4.0/23",
@@ -13,7 +16,7 @@
       "194.39.184.0/24",
       "194.39.243.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:9c80::/29"
     ]
   }

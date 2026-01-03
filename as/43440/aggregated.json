@@ -1,14 +1,17 @@
 {
-  "asn": 43440,
-  "handle": "DIGITALESUISSE",
-  "description": "Digitale Suisse AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43440,
+  "metadata" : {
+    "handle" : "DIGITALESUISSE",
+    "description" : "Digitale Suisse AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "176.105.235.0/24",
       "185.227.148.0/23",
       "185.227.151.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:83c0::/29"
     ]
   }

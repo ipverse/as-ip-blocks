@@ -1,13 +1,16 @@
 {
-  "asn": 4201,
-  "handle": "ORST-AS",
-  "description": "Oregon State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4201,
+  "metadata" : {
+    "handle" : "ORST-AS",
+    "description" : "Oregon State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.193.0.0/16",
       "199.201.139.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:105:f000::/40"
     ]
   }

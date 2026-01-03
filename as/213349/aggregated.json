@@ -1,10 +1,13 @@
 {
-  "asn": 213349,
-  "handle": "OCTOSEC-AS",
-  "description": "OctoSEC LTD",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 213349,
+  "metadata" : {
+    "handle" : "OCTOSEC-AS",
+    "description" : "OctoSEC LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a09:be40:4200::/40"
     ]
   }

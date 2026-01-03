@@ -1,15 +1,18 @@
 {
-  "asn": 15092,
-  "handle": "STAR2STAR",
-  "description": "Sangoma US Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15092,
+  "metadata" : {
+    "handle" : "STAR2STAR",
+    "description" : "Sangoma US Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.43.105.0/24",
       "161.199.126.0/24",
       "199.15.181.0/24",
       "199.15.182.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:125:b000::/47"
     ]
   }

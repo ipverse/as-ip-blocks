@@ -1,9 +1,12 @@
 {
-  "asn": 25549,
-  "handle": "AVANTEL-AS",
-  "description": "JSC Avantel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25549,
+  "metadata" : {
+    "handle" : "AVANTEL-AS",
+    "description" : "JSC Avantel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.229.68.0/22",
       "46.229.74.0/23",
       "46.229.76.0/23",
@@ -38,7 +41,7 @@
       "212.17.0.0/19",
       "217.29.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1730::/32"
     ]
   }

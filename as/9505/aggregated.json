@@ -1,9 +1,12 @@
 {
-  "asn": 9505,
-  "handle": "TWGATE-AP",
-  "description": "Chunghwa Telecom Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9505,
+  "metadata" : {
+    "handle" : "TWGATE-AP",
+    "description" : "Chunghwa Telecom Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.171.112.0/21",
       "175.41.48.0/20",
       "175.111.224.0/20",
@@ -13,7 +16,7 @@
       "208.70.200.0/21",
       "220.128.48.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:b200::/32",
       "2606:c00::/32"
     ]

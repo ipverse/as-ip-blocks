@@ -1,9 +1,12 @@
 {
-  "asn": 152586,
-  "handle": "KUROIT-AS-AP",
-  "description": "Puneet Kalra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152586,
+  "metadata" : {
+    "handle" : "KUROIT-AS-AP",
+    "description" : "Puneet Kalra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.200.0/23",
       "2.58.202.0/24",
       "31.59.118.0/24",
@@ -20,7 +23,7 @@
       "216.180.124.0/24",
       "216.180.127.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:8360:2::/48",
       "2401:8360:b::/48",
       "2401:8360:d::/48",

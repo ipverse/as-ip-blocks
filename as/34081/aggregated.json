@@ -1,9 +1,12 @@
 {
-  "asn": 34081,
-  "handle": "SERVER24-AS",
-  "description": "INCUBATEC GmbH - Srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34081,
+  "metadata" : {
+    "handle" : "SERVER24-AS",
+    "description" : "INCUBATEC GmbH - Srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.14.163.0/24",
       "45.181.78.0/23",
       "84.33.0.0/21",
@@ -21,7 +24,7 @@
       "193.188.28.0/22",
       "217.70.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1a38::/32",
       "2a0c:8fc1::/40",
       "2a0c:8fc1:6400::/39"

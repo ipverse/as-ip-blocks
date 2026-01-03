@@ -1,9 +1,12 @@
 {
-  "asn": 58765,
-  "handle": "BTEL-AS-IN",
-  "description": "B TEL INTERNET PRIVATE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58765,
+  "metadata" : {
+    "handle" : "BTEL-AS-IN",
+    "description" : "B TEL INTERNET PRIVATE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.231.48.0/23",
       "45.113.88.0/22",
       "45.123.160.0/22",
@@ -14,7 +17,7 @@
       "103.250.84.0/22",
       "115.124.40.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:9300:1::/48",
       "2407:9300:2::/47",
       "2407:9300:4::/48"

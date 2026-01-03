@@ -1,11 +1,14 @@
 {
-  "asn": 14999,
-  "handle": "USERWORLD",
-  "description": "Userworld INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14999,
+  "metadata" : {
+    "handle" : "USERWORLD",
+    "description" : "Userworld INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.27.148.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

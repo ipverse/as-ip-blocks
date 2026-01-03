@@ -1,12 +1,15 @@
 {
-  "asn": 153768,
-  "handle": "IDNIC-SIGNALL-AS-ID",
-  "description": "PT Signall Network Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153768,
+  "metadata" : {
+    "handle" : "IDNIC-SIGNALL-AS-ID",
+    "description" : "PT Signall Network Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.223.116.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:3e40::/48"
     ]
   }

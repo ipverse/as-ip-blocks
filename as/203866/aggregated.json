@@ -1,9 +1,12 @@
 {
-  "asn": 203866,
-  "handle": "DC-P2",
-  "description": "Versija SIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203866,
+  "metadata" : {
+    "handle" : "DC-P2",
+    "description" : "Versija SIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.10.89.0/24",
       "176.111.36.0/24",
       "176.111.47.0/24",
@@ -12,6 +15,6 @@
       "213.21.195.0/24",
       "213.21.218.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

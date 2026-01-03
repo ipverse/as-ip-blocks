@@ -1,9 +1,12 @@
 {
-  "asn": 203424,
-  "handle": "TIKT",
-  "description": "TUSSA IKT AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203424,
+  "metadata" : {
+    "handle" : "TIKT",
+    "description" : "TUSSA IKT AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.12.32.0/19",
       "185.22.120.0/22",
       "185.45.176.0/22",
@@ -11,7 +14,7 @@
       "213.128.160.0/19",
       "217.116.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:51e0::/32",
       "2a02:2c00::/29"
     ]

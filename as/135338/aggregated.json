@@ -1,12 +1,15 @@
 {
-  "asn": 135338,
-  "handle": "STARCLOUD-AS-AP",
-  "description": "STARCLOUD INFORMATION LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135338,
+  "metadata" : {
+    "handle" : "STARCLOUD-AS-AP",
+    "description" : "STARCLOUD INFORMATION LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.225.28.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:95c0::/48",
       "2401:a060::/32"
     ]

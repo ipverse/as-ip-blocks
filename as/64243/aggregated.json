@@ -1,13 +1,16 @@
 {
-  "asn": 64243,
-  "handle": "MPTC",
-  "description": "Moraine Park Technical College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64243,
+  "metadata" : {
+    "handle" : "MPTC",
+    "description" : "Moraine Park Technical College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.104.109.0/24",
       "205.213.200.0/24",
       "205.213.202.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

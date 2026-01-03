@@ -1,13 +1,16 @@
 {
-  "asn": 59624,
-  "handle": "KIAE-COMPUTING-AS",
-  "description": "National Research Center Kurchatov Institute",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59624,
+  "metadata" : {
+    "handle" : "KIAE-COMPUTING-AS",
+    "description" : "National Research Center Kurchatov Institute",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.206.222.0/24",
       "144.206.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1bec::/48"
     ]
   }

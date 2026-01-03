@@ -1,9 +1,12 @@
 {
-  "asn": 17857,
-  "handle": "SKB-NAKDONGDIGITALBUSANNET-AS",
-  "description": "SK Broadband Co Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17857,
+  "metadata" : {
+    "handle" : "SKB-NAKDONGDIGITALBUSANNET-AS",
+    "description" : "SK Broadband Co Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.115.192.0/18",
       "27.117.0.0/17",
       "45.112.92.0/22",
@@ -23,6 +26,6 @@
       "211.33.106.0/24",
       "211.33.108.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

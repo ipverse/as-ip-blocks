@@ -1,9 +1,12 @@
 {
-  "asn": 1761,
-  "handle": "TDIR-CAPNET",
-  "description": "General Services Commission",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1761,
+  "metadata" : {
+    "handle" : "TDIR-CAPNET",
+    "description" : "General Services Commission",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.125.0.0/16",
       "141.198.0.0/16",
       "144.45.0.0/16",
@@ -23,6 +26,6 @@
       "199.79.228.0/24",
       "204.64.0.0/14"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

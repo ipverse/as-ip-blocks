@@ -1,13 +1,16 @@
 {
-  "asn": 46890,
-  "handle": "3COM-NET-ROUTER-AS46890",
-  "description": "3Com Net Router",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46890,
+  "metadata" : {
+    "handle" : "3COM-NET-ROUTER-AS46890",
+    "description" : "3Com Net Router",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.163.108.0/22",
       "177.124.157.0/24",
       "177.124.158.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

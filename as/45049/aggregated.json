@@ -1,12 +1,15 @@
 {
-  "asn": 45049,
-  "handle": "WAN4YOU",
-  "description": "Mohamed El Bouddunti",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45049,
+  "metadata" : {
+    "handle" : "WAN4YOU",
+    "description" : "Mohamed El Bouddunti",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.28.97.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:b641:400::/48"
     ]
   }

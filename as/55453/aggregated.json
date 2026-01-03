@@ -1,9 +1,12 @@
 {
-  "asn": 55453,
-  "handle": "SKYTELECOM-AS-PK",
-  "description": "Sky Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55453,
+  "metadata" : {
+    "handle" : "SKYTELECOM-AS-PK",
+    "description" : "Sky Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.54.120.0/22",
       "103.20.0.0/22",
       "103.151.26.0/24",
@@ -13,7 +16,7 @@
       "223.29.225.0/24",
       "223.29.235.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:1b00::/33",
       "2407:1b00:8000::/34"
     ]

@@ -1,13 +1,16 @@
 {
-  "asn": 25957,
-  "handle": "KISARA-NETWORK-01",
-  "description": "Kisara Development LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25957,
+  "metadata" : {
+    "handle" : "KISARA-NETWORK-01",
+    "description" : "Kisara Development LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.136.92.0/24",
       "44.30.23.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f6ae::/36"
     ]
   }

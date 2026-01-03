@@ -1,13 +1,16 @@
 {
-  "asn": 214555,
-  "handle": "TREASURY",
-  "description": "Treasury Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214555,
+  "metadata" : {
+    "handle" : "TREASURY",
+    "description" : "Treasury Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.221.121.0/24",
       "212.56.56.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:7640::/29"
     ]
   }

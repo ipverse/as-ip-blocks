@@ -1,9 +1,12 @@
 {
-  "asn": 39375,
-  "handle": "TPODLASIE",
-  "description": "Telekomunikacja Podlasie Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39375,
+  "metadata" : {
+    "handle" : "TPODLASIE",
+    "description" : "Telekomunikacja Podlasie Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.161.0.0/18",
       "89.161.64.0/19",
       "89.161.96.0/21",
@@ -11,6 +14,6 @@
       "89.161.108.0/23",
       "185.212.40.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 10326,
-  "handle": "WPI",
-  "description": "Worcester Polytechnic Institute",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10326,
+  "metadata" : {
+    "handle" : "WPI",
+    "description" : "Worcester Polytechnic Institute",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.174.160.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f5c0:8040::/48"
     ]
   }

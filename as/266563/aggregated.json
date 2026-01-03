@@ -1,12 +1,15 @@
 {
-  "asn": 266563,
-  "handle": "NOVA-REDE-TELECOM",
-  "description": "NOVA REDE TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266563,
+  "metadata" : {
+    "handle" : "NOVA-REDE-TELECOM",
+    "description" : "NOVA REDE TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.6.196.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3dec::/33",
       "2804:3dec:8000::/40"
     ]

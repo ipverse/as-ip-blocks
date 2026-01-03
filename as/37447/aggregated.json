@@ -1,9 +1,12 @@
 {
-  "asn": 37447,
-  "handle": "ORANGE-RDC",
-  "description": "ORANGE RDC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37447,
+  "metadata" : {
+    "handle" : "ORANGE-RDC",
+    "description" : "ORANGE RDC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.77.220.0/22",
       "102.206.156.0/22",
       "102.223.128.0/22",
@@ -19,6 +22,6 @@
       "206.42.84.0/23",
       "206.42.87.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

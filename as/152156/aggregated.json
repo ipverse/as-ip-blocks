@@ -1,14 +1,17 @@
 {
-  "asn": 152156,
-  "handle": "NARUTO-AS-HK",
-  "description": "Naruto",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152156,
+  "metadata" : {
+    "handle" : "NARUTO-AS-HK",
+    "description" : "Naruto",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.249.20.0/23",
       "23.249.28.0/22",
       "103.176.196.0/23",
       "112.169.175.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

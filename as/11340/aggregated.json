@@ -1,9 +1,12 @@
 {
-  "asn": 11340,
-  "handle": "RED-UNIVERSITARIA-NACIONAL",
-  "description": "Red Universitaria Nacional",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11340,
+  "metadata" : {
+    "handle" : "RED-UNIVERSITARIA-NACIONAL",
+    "description" : "Red Universitaria Nacional",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.83.65.0/24",
       "146.83.67.0/24",
       "146.83.68.0/24",
@@ -59,7 +62,7 @@
       "200.14.68.0/22",
       "200.54.114.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1310:7211::/48"
     ]
   }

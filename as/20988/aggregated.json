@@ -1,13 +1,16 @@
 {
-  "asn": 20988,
-  "handle": "MTF-CLOUD",
-  "description": "MTF Solutions AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20988,
+  "metadata" : {
+    "handle" : "MTF-CLOUD",
+    "description" : "MTF Solutions AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.154.100.0/22",
       "217.148.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:1a40::/29"
     ]
   }

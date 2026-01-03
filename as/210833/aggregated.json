@@ -1,10 +1,13 @@
 {
-  "asn": 210833,
-  "handle": "FLORIAN-BAUER",
-  "description": "Florian Bauer",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 210833,
+  "metadata" : {
+    "handle" : "FLORIAN-BAUER",
+    "description" : "Florian Bauer",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:67c:828::/48",
       "2a05:d4c0:ffff::/48"
     ]

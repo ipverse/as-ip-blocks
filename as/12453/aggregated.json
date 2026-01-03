@@ -1,9 +1,12 @@
 {
-  "asn": 12453,
-  "handle": "KRAFTCOM-AS",
-  "description": "KraftCom Service GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12453,
+  "metadata" : {
+    "handle" : "KRAFTCOM-AS",
+    "description" : "KraftCom Service GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.160.0/22",
       "91.223.248.0/24",
       "185.31.52.0/22",
@@ -14,7 +17,7 @@
       "194.59.177.0/24",
       "195.93.174.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:5dc0::/29"
     ]
   }

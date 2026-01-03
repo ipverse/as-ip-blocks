@@ -1,9 +1,12 @@
 {
-  "asn": 6471,
-  "handle": "ENTEL-CHILE",
-  "description": "ENTEL CHILE S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6471,
+  "metadata" : {
+    "handle" : "ENTEL-CHILE",
+    "description" : "ENTEL CHILE S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.162.99.0/24",
       "134.162.100.0/24",
       "134.171.80.0/20",
@@ -53,6 +56,6 @@
       "200.111.66.0/24",
       "200.111.220.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

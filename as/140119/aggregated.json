@@ -1,12 +1,15 @@
 {
-  "asn": 140119,
-  "handle": "TONPL-AS-IN",
-  "description": "Tollot Network Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140119,
+  "metadata" : {
+    "handle" : "TONPL-AS-IN",
+    "description" : "Tollot Network Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.151.232.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:e920:fffe::/48"
     ]
   }

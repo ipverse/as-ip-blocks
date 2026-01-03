@@ -1,12 +1,15 @@
 {
-  "asn": 265336,
-  "handle": "ELNET-TELECOM",
-  "description": "ELneT Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265336,
+  "metadata" : {
+    "handle" : "ELNET-TELECOM",
+    "description" : "ELneT Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.181.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2e48::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 28183,
-  "handle": "MICRON-LINE-SERVICOS",
-  "description": "MICRON LINE SERVICOS DE INFORMATICA LTDA - ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28183,
+  "metadata" : {
+    "handle" : "MICRON-LINE-SERVICOS",
+    "description" : "MICRON LINE SERVICOS DE INFORMATICA LTDA - ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.118.236.0/22",
       "167.250.148.0/22",
       "170.231.180.0/22",
@@ -12,7 +15,7 @@
       "189.39.128.0/20",
       "189.89.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2538::/32"
     ]
   }

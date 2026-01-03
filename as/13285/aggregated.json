@@ -1,9 +1,12 @@
 {
-  "asn": 13285,
-  "handle": "OPALTELECOM-AS",
-  "description": "TalkTalk Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13285,
+  "metadata" : {
+    "handle" : "OPALTELECOM-AS",
+    "description" : "TalkTalk Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.96.0.0/13",
       "62.3.192.0/18",
       "62.24.128.0/17",
@@ -50,7 +53,7 @@
       "217.8.0.0/19",
       "217.68.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:7e0::/32",
       "2001:4a00::/27",
       "2a00:4340::/32",

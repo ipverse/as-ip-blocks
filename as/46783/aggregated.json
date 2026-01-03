@@ -1,9 +1,12 @@
 {
-  "asn": 46783,
-  "handle": "EL-US",
-  "description": "EASY LINK LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46783,
+  "metadata" : {
+    "handle" : "EL-US",
+    "description" : "EASY LINK LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.57.234.0/23",
       "38.71.18.0/24",
       "38.146.29.0/24",
@@ -16,6 +19,6 @@
       "199.245.100.0/23",
       "209.146.116.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

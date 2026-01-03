@@ -1,9 +1,12 @@
 {
-  "asn": 14860,
-  "handle": "AS-SMARTCOM",
-  "description": "SMARTCOM TELEPHONE LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14860,
+  "metadata" : {
+    "handle" : "AS-SMARTCOM",
+    "description" : "SMARTCOM TELEPHONE LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.162.160.0/24",
       "64.40.16.0/22",
       "64.88.192.0/19",
@@ -29,7 +32,7 @@
       "209.209.28.0/22",
       "216.194.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fb9a:1000::/36",
       "2602:fce0::/36",
       "2604:5680::/32",

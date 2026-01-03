@@ -1,13 +1,16 @@
 {
-  "asn": 201121,
-  "handle": "AS-TAMIZA",
-  "description": "Tamiza Digital S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201121,
+  "metadata" : {
+    "handle" : "AS-TAMIZA",
+    "description" : "Tamiza Digital S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.63.16.0/24",
       "5.158.87.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:4440::/48",
       "2a13:4440:1dfc::/48",
       "2a13:4440:8000::/48"

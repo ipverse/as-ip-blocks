@@ -1,9 +1,12 @@
 {
-  "asn": 7604,
-  "handle": "ZETTAGRID-AS-AP",
-  "description": "Zettagrid Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7604,
+  "metadata" : {
+    "handle" : "ZETTAGRID-AS-AP",
+    "description" : "Zettagrid Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.6.12.0/22",
       "103.14.56.0/24",
       "103.25.112.0/23",
@@ -33,7 +36,7 @@
       "203.196.92.0/22",
       "203.209.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:400::/32",
       "2401:402::/31",
       "2403:3400::/32"

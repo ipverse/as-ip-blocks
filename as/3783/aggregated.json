@@ -1,15 +1,18 @@
 {
-  "asn": 3783,
-  "handle": "AIU-ALLEGHENY-CONNECT-RWAN",
-  "description": "Allegheny Intermediate Unit",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3783,
+  "metadata" : {
+    "handle" : "AIU-ALLEGHENY-CONNECT-RWAN",
+    "description" : "Allegheny Intermediate Unit",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.254.20.0/23",
       "65.254.22.0/24",
       "66.206.124.0/23",
       "192.91.198.0/24",
       "192.124.34.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 30700,
-  "handle": "OWO-NETWORK",
-  "description": "OwO Network LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30700,
+  "metadata" : {
+    "handle" : "OWO-NETWORK",
+    "description" : "OwO Network LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.191.8.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f7ee::/48",
       "2602:f7ee:fd::/48"
     ]

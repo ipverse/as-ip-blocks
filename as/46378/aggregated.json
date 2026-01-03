@@ -1,9 +1,12 @@
 {
-  "asn": 46378,
-  "handle": "FSX-350",
-  "description": "FSX HOLDINGS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46378,
+  "metadata" : {
+    "handle" : "FSX-350",
+    "description" : "FSX HOLDINGS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.10.14.0/23",
       "8.27.110.0/23",
       "66.172.40.0/23",
@@ -13,7 +16,7 @@
       "208.73.160.0/21",
       "216.176.202.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ffa7::/36"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 54434,
-  "handle": "WNMC",
-  "description": "WNM Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54434,
+  "metadata" : {
+    "handle" : "WNMC",
+    "description" : "WNM Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.57.176.0/21",
       "192.119.32.0/20",
       "199.45.224.0/21",
       "208.72.40.0/22",
       "208.72.44.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

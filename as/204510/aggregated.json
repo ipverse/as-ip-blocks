@@ -1,12 +1,15 @@
 {
-  "asn": 204510,
-  "handle": "LUKS",
-  "description": "Luzerner Kantonsspital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204510,
+  "metadata" : {
+    "handle" : "LUKS",
+    "description" : "Luzerner Kantonsspital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.209.4.0/24",
       "194.209.28.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

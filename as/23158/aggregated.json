@@ -1,9 +1,12 @@
 {
-  "asn": 23158,
-  "handle": "ETEX-COMMUNICATIONS",
-  "description": "ETEX COMMUNICATIONS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23158,
+  "metadata" : {
+    "handle" : "ETEX-COMMUNICATIONS",
+    "description" : "ETEX COMMUNICATIONS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.209.56.0/21",
       "67.216.96.0/20",
       "67.216.240.0/20",
@@ -16,6 +19,6 @@
       "204.154.20.0/23",
       "208.75.24.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

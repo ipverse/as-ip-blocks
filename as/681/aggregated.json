@@ -1,12 +1,15 @@
 {
-  "asn": 681,
-  "handle": "WAIKATOUNI-AS-AP",
-  "description": "University of Waikato",
-  "subnets": {
-    "ipv4": [
+  "asn" : 681,
+  "metadata" : {
+    "handle" : "WAIKATOUNI-AS-AP",
+    "description" : "University of Waikato",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.73.21.0/24",
       "192.107.171.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

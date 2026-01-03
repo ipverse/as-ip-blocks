@@ -1,9 +1,12 @@
 {
-  "asn": 129,
-  "handle": "DNIC-AS-00129",
-  "description": "United States Department of Defense (DoD)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 129,
+  "metadata" : {
+    "handle" : "DNIC-AS-00129",
+    "description" : "United States Department of Defense (DoD)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.140.11.0/24",
       "155.27.62.0/23",
       "158.9.52.0/22",
@@ -18,6 +21,6 @@
       "205.77.96.0/22",
       "214.29.56.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

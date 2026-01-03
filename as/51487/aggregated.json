@@ -1,9 +1,12 @@
 {
-  "asn": 51487,
-  "handle": "DONNALIVE-AS",
-  "description": "Networksland SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51487,
+  "metadata" : {
+    "handle" : "DONNALIVE-AS",
+    "description" : "Networksland SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.253.4.0/22",
       "185.14.36.0/22",
       "185.110.156.0/23",
@@ -14,6 +17,6 @@
       "217.197.28.0/23",
       "217.197.30.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

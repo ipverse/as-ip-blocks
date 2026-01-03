@@ -1,9 +1,12 @@
 {
-  "asn": 58713,
-  "handle": "FIBERVISION-NET-AU",
-  "description": "Fiber Vision Networks Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58713,
+  "metadata" : {
+    "handle" : "FIBERVISION-NET-AU",
+    "description" : "Fiber Vision Networks Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.240.120.0/22",
       "103.21.20.0/22",
       "103.48.89.0/24",
@@ -13,7 +16,7 @@
       "203.12.152.0/21",
       "203.28.22.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:92c0::/32"
     ]
   }

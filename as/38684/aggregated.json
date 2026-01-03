@@ -1,9 +1,12 @@
 {
-  "asn": 38684,
-  "handle": "CMBDAEJEON-AS",
-  "description": "CMB Daejeon Broadcasting Co .Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38684,
+  "metadata" : {
+    "handle" : "CMBDAEJEON-AS",
+    "description" : "CMB Daejeon Broadcasting Co .Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.64.144.0/22",
       "49.143.128.0/18",
       "61.251.0.0/20",
@@ -13,6 +16,6 @@
       "211.237.80.0/20",
       "211.238.160.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

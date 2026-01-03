@@ -1,9 +1,12 @@
 {
-  "asn": 134286,
-  "handle": "NETFORCHOICE-AS",
-  "description": "Net for Choice",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134286,
+  "metadata" : {
+    "handle" : "NETFORCHOICE-AS",
+    "description" : "Net for Choice",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.156.88.0/24",
       "103.35.123.0/24",
       "103.57.64.0/23",
@@ -13,6 +16,6 @@
       "103.178.113.0/24",
       "104.249.16.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

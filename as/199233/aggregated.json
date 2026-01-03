@@ -1,14 +1,17 @@
 {
-  "asn": 199233,
-  "handle": "MAIF-AS",
-  "description": "Mutuelle Assurance Instituteur France STE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199233,
+  "metadata" : {
+    "handle" : "MAIF-AS",
+    "description" : "Mutuelle Assurance Instituteur France STE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "90.85.39.0/24",
       "185.209.180.0/22",
       "194.2.130.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:10f8::/48"
     ]
   }

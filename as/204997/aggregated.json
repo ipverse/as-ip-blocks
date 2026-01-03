@@ -1,9 +1,12 @@
 {
-  "asn": 204997,
-  "handle": "FIRSTBYTE-AS",
-  "description": "FIRST SERVER LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204997,
+  "metadata" : {
+    "handle" : "FIRSTBYTE-AS",
+    "description" : "FIRST SERVER LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.144.64.0/22",
       "46.17.104.0/24",
       "91.217.81.0/24",
@@ -26,6 +29,6 @@
       "193.109.78.0/23",
       "195.66.114.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

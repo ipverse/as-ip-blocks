@@ -1,9 +1,12 @@
 {
-  "asn": 401951,
-  "handle": "SPDNET",
-  "description": "SPDNet Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401951,
+  "metadata" : {
+    "handle" : "SPDNET",
+    "description" : "SPDNet Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.167.8.0/22",
       "66.167.12.0/23",
       "66.167.88.0/23",
@@ -12,6 +15,6 @@
       "66.167.172.0/22",
       "72.245.185.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 58475,
-  "handle": "UNLAM-AS-ID",
-  "description": "Universitas Lambung Mangkurat",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58475,
+  "metadata" : {
+    "handle" : "UNLAM-AS-ID",
+    "description" : "Universitas Lambung Mangkurat",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.23.232.0/23",
       "103.81.100.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:1e40::/32"
     ]
   }

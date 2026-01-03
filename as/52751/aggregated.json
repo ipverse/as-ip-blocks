@@ -1,9 +1,12 @@
 {
-  "asn": 52751,
-  "handle": "BRASREDE-TELECOMUNICACOES",
-  "description": "Brasrede Telecomunicações LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52751,
+  "metadata" : {
+    "handle" : "BRASREDE-TELECOMUNICACOES",
+    "description" : "Brasrede Telecomunicações LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.72.248.0/22",
       "138.94.228.0/22",
       "170.233.8.0/22",
@@ -11,7 +14,7 @@
       "177.38.152.0/21",
       "191.243.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:b34::/32"
     ]
   }

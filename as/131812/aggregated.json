@@ -1,13 +1,16 @@
 {
-  "asn": 131812,
-  "handle": "HUMAXNETWORKS-AS",
-  "description": "Humax Networks INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131812,
+  "metadata" : {
+    "handle" : "HUMAXNETWORKS-AS",
+    "description" : "Humax Networks INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.175.200.0/23",
       "221.140.31.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:3460::/32"
     ]
   }

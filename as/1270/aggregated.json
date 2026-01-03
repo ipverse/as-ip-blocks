@@ -1,12 +1,15 @@
 {
-  "asn": 1270,
-  "handle": "UUNET-DE",
-  "description": "UUNET Germany",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1270,
+  "metadata" : {
+    "handle" : "UUNET-DE",
+    "description" : "UUNET Germany",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.71.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2ad0:502::/48"
     ]
   }

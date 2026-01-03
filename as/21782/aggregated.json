@@ -1,9 +1,12 @@
 {
-  "asn": 21782,
-  "handle": "PLATEAU",
-  "description": "Plateau Telecommunications Incorporated",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21782,
+  "metadata" : {
+    "handle" : "PLATEAU",
+    "description" : "Plateau Telecommunications Incorporated",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.90.144.0/20",
       "64.127.144.0/20",
       "66.199.240.0/21",
@@ -22,7 +25,7 @@
       "206.206.152.0/24",
       "207.246.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:af00::/32"
     ]
   }

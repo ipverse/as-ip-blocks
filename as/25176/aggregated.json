@@ -1,9 +1,12 @@
 {
-  "asn": 25176,
-  "handle": "AC-NET",
-  "description": "AC-Net AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25176,
+  "metadata" : {
+    "handle" : "AC-NET",
+    "description" : "AC-Net AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.88.96.0/19",
       "81.8.128.0/17",
       "84.244.192.0/18",
@@ -26,7 +29,7 @@
       "194.153.64.0/21",
       "213.199.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1718::/32",
       "2a01:4040::/32",
       "2a03:7c80::/32"

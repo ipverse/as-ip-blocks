@@ -1,9 +1,12 @@
 {
-  "asn": 7713,
-  "handle": "TELKOMNET-AS-AP",
-  "description": "Telekomunikasi Indonesia (PT)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7713,
+  "metadata" : {
+    "handle" : "TELKOMNET-AS-AP",
+    "description" : "Telekomunikasi Indonesia (PT)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.11.48.0/20",
       "23.32.232.0/22",
       "23.32.244.0/22",
@@ -70,7 +73,7 @@
       "203.130.192.0/18",
       "222.124.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:2400::/48",
       "2001:4488::/31",
       "2001:448a::/32",

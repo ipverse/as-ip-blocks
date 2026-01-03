@@ -1,12 +1,15 @@
 {
-  "asn": 132136,
-  "handle": "BREMMAR-AS-AP",
-  "description": "Bremmar Communications Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132136,
+  "metadata" : {
+    "handle" : "BREMMAR-AS-AP",
+    "description" : "Bremmar Communications Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.247.116.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:6a00::/48"
     ]
   }

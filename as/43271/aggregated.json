@@ -1,11 +1,14 @@
 {
-  "asn": 43271,
-  "handle": "DIGORA-AS",
-  "description": "Digora SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43271,
+  "metadata" : {
+    "handle" : "DIGORA-AS",
+    "description" : "Digora SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.198.30.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

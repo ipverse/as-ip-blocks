@@ -1,12 +1,15 @@
 {
-  "asn": 56240,
-  "handle": "DJARUM-AS-ID",
-  "description": "PT DJARUM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56240,
+  "metadata" : {
+    "handle" : "DJARUM-AS-ID",
+    "description" : "PT DJARUM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.3.71.0/24",
       "103.22.166.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

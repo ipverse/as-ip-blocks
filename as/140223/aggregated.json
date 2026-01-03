@@ -1,11 +1,14 @@
 {
-  "asn": 140223,
-  "handle": "METROLINK-AS-AP",
-  "description": "METROLINK LDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140223,
+  "metadata" : {
+    "handle" : "METROLINK-AS-AP",
+    "description" : "METROLINK LDA.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.148.184.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

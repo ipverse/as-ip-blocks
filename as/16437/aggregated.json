@@ -1,9 +1,12 @@
 {
-  "asn": 16437,
-  "handle": "INFINITY-BROADBAND-LTD",
-  "description": "Infinity Broadband Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16437,
+  "metadata" : {
+    "handle" : "INFINITY-BROADBAND-LTD",
+    "description" : "Infinity Broadband Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.188.0.0/24",
       "154.81.208.0/21",
       "154.81.216.0/22",
@@ -13,7 +16,7 @@
       "192.160.250.0/24",
       "208.88.244.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:f580::/32"
     ]
   }

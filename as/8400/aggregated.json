@@ -1,9 +1,12 @@
 {
-  "asn": 8400,
-  "handle": "TELEKOM-AS",
-  "description": "TELEKOM SRBIJA a.d",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8400,
+  "metadata" : {
+    "handle" : "TELEKOM-AS",
+    "description" : "TELEKOM SRBIJA a.d.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.14.33.0/24",
       "37.35.8.0/21",
       "46.17.120.0/21",
@@ -66,7 +69,7 @@
       "212.200.0.0/16",
       "213.196.96.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e90::/32",
       "2a06:5b00::/29",
       "2a06:63c0::/29"

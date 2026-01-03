@@ -1,11 +1,14 @@
 {
-  "asn": 27766,
-  "handle": "LAN-CHILE",
-  "description": "LAN CHILE (Lineas Aereas de Chile)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27766,
+  "metadata" : {
+    "handle" : "LAN-CHILE",
+    "description" : "LAN CHILE (Lineas Aereas de Chile)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.14.106.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 55687,
-  "handle": "UNTAN-AS-ID",
-  "description": "Universitas Tanjungpura",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55687,
+  "metadata" : {
+    "handle" : "UNTAN-AS-ID",
+    "description" : "Universitas Tanjungpura",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.126.83.0/24",
       "203.24.50.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

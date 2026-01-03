@@ -1,9 +1,12 @@
 {
-  "asn": 200780,
-  "handle": "APPLIWAVE",
-  "description": "Eurofiber France SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200780,
+  "metadata" : {
+    "handle" : "APPLIWAVE",
+    "description" : "Eurofiber France SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.42.200.0/24",
       "45.9.104.0/22",
       "45.85.132.0/22",
@@ -38,7 +41,7 @@
       "195.133.148.0/22",
       "217.18.220.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:46c0::/29",
       "2a10:780::/32"
     ]

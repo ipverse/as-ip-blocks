@@ -1,9 +1,12 @@
 {
-  "asn": 50716,
-  "handle": "TELECOMRUNET",
-  "description": "Telecom.ru Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50716,
+  "metadata" : {
+    "handle" : "TELECOMRUNET",
+    "description" : "Telecom.ru Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.76.0.0/20",
       "91.239.16.0/22",
       "93.171.72.0/22",
@@ -11,7 +14,7 @@
       "146.158.80.0/21",
       "176.116.136.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:d8c0:100::/48"
     ]
   }

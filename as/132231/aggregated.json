@@ -1,12 +1,15 @@
 {
-  "asn": 132231,
-  "handle": "NFLL-AS-AP",
-  "description": "Network For Learning Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132231,
+  "metadata" : {
+    "handle" : "NFLL-AS-AP",
+    "description" : "Network For Learning Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.150.96.0/19",
       "202.189.174.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 47341,
-  "handle": "AS-TORENA",
-  "description": "Torena II",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47341,
+  "metadata" : {
+    "handle" : "AS-TORENA",
+    "description" : "Torena II",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.216.146.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4048:108::/48"
     ]
   }

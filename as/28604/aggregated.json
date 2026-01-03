@@ -1,9 +1,12 @@
 {
-  "asn": 28604,
-  "handle": "GLOBO-COMUNICACAO-PARTICIPACOES",
-  "description": "Globo Comunicação e Participaçoes SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28604,
+  "metadata" : {
+    "handle" : "GLOBO-COMUNICACAO-PARTICIPACOES",
+    "description" : "Globo Comunicação e Participaçoes SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.0.24.0/22",
       "131.255.140.0/22",
       "138.117.196.0/22",
@@ -14,7 +17,7 @@
       "186.192.80.0/20",
       "201.7.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:294::/32"
     ]
   }

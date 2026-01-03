@@ -1,12 +1,15 @@
 {
-  "asn": 22796,
-  "handle": "CCC-HART",
-  "description": "Campus Crusade for Christ Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22796,
+  "metadata" : {
+    "handle" : "CCC-HART",
+    "description" : "Campus Crusade for Christ Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.10.140.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:5090::/48"
     ]
   }

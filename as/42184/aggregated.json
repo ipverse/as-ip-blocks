@@ -1,9 +1,12 @@
 {
-  "asn": 42184,
-  "handle": "AS-TKRZ",
-  "description": "TKRZ Stadtwerke GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42184,
+  "metadata" : {
+    "handle" : "AS-TKRZ",
+    "description" : "TKRZ Stadtwerke GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.82.124.0/22",
       "88.218.84.0/22",
       "89.251.128.0/20",
@@ -19,7 +22,7 @@
       "194.49.22.0/24",
       "195.66.121.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:f08::/32"
     ]
   }

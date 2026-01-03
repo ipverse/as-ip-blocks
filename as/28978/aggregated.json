@@ -1,16 +1,19 @@
 {
-  "asn": 28978,
-  "handle": "COIG-AS",
-  "description": "COIG S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28978,
+  "metadata" : {
+    "handle" : "COIG-AS",
+    "description" : "COIG S.A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.229.213.0/24",
       "176.32.160.0/20",
       "185.115.44.0/22",
       "195.39.216.0/23",
       "195.43.156.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8a40::/32"
     ]
   }

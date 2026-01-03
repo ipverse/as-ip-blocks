@@ -1,9 +1,12 @@
 {
-  "asn": 270161,
-  "handle": "TELEVISION-INTERNACIONAL",
-  "description": "Television Internacional S.A. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270161,
+  "metadata" : {
+    "handle" : "TELEVISION-INTERNACIONAL",
+    "description" : "Television Internacional S.A. de C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.248.16.0/20",
       "177.248.32.0/20",
       "177.248.128.0/20",
@@ -36,7 +39,7 @@
       "201.167.138.0/24",
       "201.167.140.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:310:1::/48",
       "2806:310:2::/47",
       "2806:310:4::/47",

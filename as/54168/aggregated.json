@@ -1,11 +1,14 @@
 {
-  "asn": 54168,
-  "handle": "CHB-WAN",
-  "description": "CORNHUSKER BANK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54168,
+  "metadata" : {
+    "handle" : "CHB-WAN",
+    "description" : "CORNHUSKER BANK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "169.197.175.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

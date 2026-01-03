@@ -1,9 +1,12 @@
 {
-  "asn": 214941,
-  "handle": "UPCELL-AS",
-  "description": "UPCELL TELEKOMUNIKASYON LIMITED SIRKETI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214941,
+  "metadata" : {
+    "handle" : "UPCELL-AS",
+    "description" : "UPCELL TELEKOMUNIKASYON LIMITED SIRKETI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.10.151.0/24",
       "45.143.98.0/24",
       "85.204.125.0/24",
@@ -12,6 +15,6 @@
       "185.148.240.0/24",
       "185.174.20.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

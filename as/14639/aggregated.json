@@ -1,9 +1,12 @@
 {
-  "asn": 14639,
-  "handle": "CARDINALHEALTH-AS02",
-  "description": "Cardinal Health Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14639,
+  "metadata" : {
+    "handle" : "CARDINALHEALTH-AS02",
+    "description" : "Cardinal Health Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.20.127.0/24",
       "199.230.151.0/24",
       "199.230.154.0/23",
@@ -15,7 +18,7 @@
       "199.230.212.0/23",
       "199.230.230.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd26::/48"
     ]
   }

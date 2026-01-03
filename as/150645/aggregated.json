@@ -1,10 +1,13 @@
 {
-  "asn": 150645,
-  "handle": "AIRFIBER1-AS-IN",
-  "description": "AIRFIBER BROADBAND SERVICES",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 150645,
+  "metadata" : {
+    "handle" : "AIRFIBER1-AS-IN",
+    "description" : "AIRFIBER BROADBAND SERVICES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0f:9400:691d::/48"
     ]
   }

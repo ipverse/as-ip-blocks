@@ -1,9 +1,12 @@
 {
-  "asn": 62365,
-  "handle": "DESANET-AS",
-  "description": "SachsenGigaBit GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62365,
+  "metadata" : {
+    "handle" : "DESANET-AS",
+    "description" : "SachsenGigaBit GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.249.116.0/22",
       "139.28.0.0/22",
       "141.98.144.0/22",
@@ -16,7 +19,7 @@
       "185.202.180.0/22",
       "185.206.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:fda0::/32",
       "2a01:6f60::/32",
       "2a06:cf00::/29"

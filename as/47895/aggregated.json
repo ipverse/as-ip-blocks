@@ -1,9 +1,12 @@
 {
-  "asn": 47895,
-  "handle": "R-LINE-AS",
-  "description": "LTD Erline",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47895,
+  "metadata" : {
+    "handle" : "R-LINE-AS",
+    "description" : "LTD Erline",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.142.232.0/22",
       "81.24.92.0/22",
       "91.205.128.0/22",
@@ -12,6 +15,6 @@
       "185.189.100.0/22",
       "185.244.20.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

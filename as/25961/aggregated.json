@@ -1,9 +1,12 @@
 {
-  "asn": 25961,
-  "handle": "ALYRICA",
-  "description": "Alyrica Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25961,
+  "metadata" : {
+    "handle" : "ALYRICA",
+    "description" : "Alyrica Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.1.111.0/24",
       "69.1.125.0/24",
       "74.123.160.0/21",
@@ -21,7 +24,7 @@
       "209.112.72.0/22",
       "209.237.66.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:feb4::/36",
       "2606:f5c0::/32"
     ]

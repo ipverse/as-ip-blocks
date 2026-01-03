@@ -1,9 +1,12 @@
 {
-  "asn": 29914,
-  "handle": "MIDATL-3",
-  "description": "Economic Computer Systems Inc. dba Mid Atlantic Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29914,
+  "metadata" : {
+    "handle" : "MIDATL-3",
+    "description" : "Economic Computer Systems Inc. dba Mid Atlantic Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.225.72.0/22",
       "66.225.80.0/24",
       "66.225.82.0/24",
@@ -19,6 +22,6 @@
       "66.225.122.0/24",
       "199.116.236.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

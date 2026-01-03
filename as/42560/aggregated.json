@@ -1,9 +1,12 @@
 {
-  "asn": 42560,
-  "handle": "BA-TELEMACH-AS",
-  "description": "Telemach BH d.o.o. Sarajevo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42560,
+  "metadata" : {
+    "handle" : "BA-TELEMACH-AS",
+    "description" : "Telemach BH d.o.o. Sarajevo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.43.64.0/18",
       "31.185.112.0/20",
       "37.0.64.0/21",
@@ -35,6 +38,6 @@
       "188.127.96.0/19",
       "217.197.136.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

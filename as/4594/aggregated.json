@@ -1,15 +1,18 @@
 {
-  "asn": 4594,
-  "handle": "HKISL-ASN",
-  "description": "Internet Solutions Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4594,
+  "metadata" : {
+    "handle" : "HKISL-ASN",
+    "description" : "Internet Solutions Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.225.100.0/22",
       "103.44.60.0/23",
       "103.224.20.0/24",
       "202.74.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:880::/32"
     ]
   }

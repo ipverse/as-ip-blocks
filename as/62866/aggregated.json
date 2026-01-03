@@ -1,12 +1,15 @@
 {
-  "asn": 62866,
-  "handle": "OHIO-IX-OPS",
-  "description": "OHIO IX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62866,
+  "metadata" : {
+    "handle" : "OHIO-IX-OPS",
+    "description" : "OHIO IX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.195.207.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd28::/36"
     ]
   }

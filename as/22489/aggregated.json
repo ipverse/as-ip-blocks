@@ -1,9 +1,12 @@
 {
-  "asn": 22489,
-  "handle": "DATABANK-CASTLEACCESS",
-  "description": "Castle Access Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22489,
+  "metadata" : {
+    "handle" : "DATABANK-CASTLEACCESS",
+    "description" : "Castle Access Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.133.152.0/24",
       "69.43.128.0/18",
       "69.43.192.0/20",
@@ -12,7 +15,7 @@
       "204.209.130.0/24",
       "216.151.42.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:1e00::/32"
     ]
   }

@@ -1,16 +1,19 @@
 {
-  "asn": 198755,
-  "handle": "GORSET-AS",
-  "description": "Gorset Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198755,
+  "metadata" : {
+    "handle" : "GORSET-AS",
+    "description" : "Gorset Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.147.70.0/24",
       "82.147.79.0/24",
       "82.147.81.0/24",
       "82.147.90.0/24",
       "193.33.166.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:6fc0::/40"
     ]
   }

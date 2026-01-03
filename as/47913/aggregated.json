@@ -1,9 +1,12 @@
 {
-  "asn": 47913,
-  "handle": "MIS-AS",
-  "description": "Moshonkin Ilia Sergeevich",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47913,
+  "metadata" : {
+    "handle" : "MIS-AS",
+    "description" : "Moshonkin Ilia Sergeevich",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.252.28.0/22",
       "31.12.92.0/22",
       "45.83.116.0/22",
@@ -18,6 +21,6 @@
       "185.166.160.0/22",
       "194.33.36.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 37309,
-  "handle": "QCELL",
-  "description": "QCell Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37309,
+  "metadata" : {
+    "handle" : "QCELL",
+    "description" : "QCell Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.223.212.0/22",
       "146.196.128.0/17",
       "155.251.0.0/16",
@@ -11,7 +14,7 @@
       "196.46.232.0/21",
       "197.242.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fd08::/32"
     ]
   }

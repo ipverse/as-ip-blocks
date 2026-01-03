@@ -1,15 +1,18 @@
 {
-  "asn": 133957,
-  "handle": "SOL-BD",
-  "description": "SOL-BD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133957,
+  "metadata" : {
+    "handle" : "SOL-BD",
+    "description" : "SOL-BD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.118.68.0/24",
       "45.118.70.0/23",
       "103.49.200.0/24",
       "103.49.202.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:1c80::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 23013,
-  "handle": "FORTANIX",
-  "description": "Fortanix",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23013,
+  "metadata" : {
+    "handle" : "FORTANIX",
+    "description" : "Fortanix",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.128.20.0/24",
       "88.216.130.0/24",
       "88.216.188.0/22",
       "216.180.120.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

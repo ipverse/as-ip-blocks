@@ -1,9 +1,12 @@
 {
-  "asn": 17747,
-  "handle": "SITINETWORS-IN-AP",
-  "description": "SITI NETWORKS LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17747,
+  "metadata" : {
+    "handle" : "SITINETWORS-IN-AP",
+    "description" : "SITI NETWORKS LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.249.84.0/22",
       "103.171.100.0/23",
       "103.184.74.0/23",
@@ -17,7 +20,7 @@
       "202.142.122.0/24",
       "203.81.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:ea80::/32"
     ]
   }

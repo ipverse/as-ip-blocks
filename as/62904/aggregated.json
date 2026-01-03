@@ -1,9 +1,12 @@
 {
-  "asn": 62904,
-  "handle": "AS62904",
-  "description": "Eonix Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62904,
+  "metadata" : {
+    "handle" : "AS62904",
+    "description" : "Eonix Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.175.211.0/24",
       "5.175.212.0/24",
       "5.231.241.0/24",
@@ -455,7 +458,7 @@
       "208.89.222.0/23",
       "216.246.58.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:ff28::/32",
       "2a0b:7140:8::/48"
     ]

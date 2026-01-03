@@ -1,14 +1,17 @@
 {
-  "asn": 400004,
-  "handle": "SECURENET",
-  "description": "SecureNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400004,
+  "metadata" : {
+    "handle" : "SECURENET",
+    "description" : "SecureNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.140.188.0/24",
       "23.186.16.0/24",
       "149.112.176.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:6740::/32"
     ]
   }

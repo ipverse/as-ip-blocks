@@ -1,9 +1,12 @@
 {
-  "asn": 30119,
-  "handle": "PLUMAS-SIERRA-TELECOMMUNICATIONS",
-  "description": "Plumas Sierra Telecommunications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30119,
+  "metadata" : {
+    "handle" : "PLUMAS-SIERRA-TELECOMMUNICATIONS",
+    "description" : "Plumas Sierra Telecommunications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.178.242.0/24",
       "69.48.196.0/22",
       "72.46.132.0/22",
@@ -19,7 +22,7 @@
       "216.198.113.0/24",
       "216.198.114.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff5a::/36"
     ]
   }

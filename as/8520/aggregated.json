@@ -1,15 +1,18 @@
 {
-  "asn": 8520,
-  "handle": "DUNKEL",
-  "description": "SITS Deutschland GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8520,
+  "metadata" : {
+    "handle" : "DUNKEL",
+    "description" : "SITS Deutschland GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.93.212.0/23",
       "62.93.246.0/23",
       "88.215.192.0/19",
       "185.126.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:14c0::/33"
     ]
   }

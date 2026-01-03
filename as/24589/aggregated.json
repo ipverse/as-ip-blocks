@@ -1,9 +1,12 @@
 {
-  "asn": 24589,
-  "handle": "TELENETSIA-AS",
-  "description": "Telenet SIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24589,
+  "metadata" : {
+    "handle" : "TELENETSIA-AS",
+    "description" : "Telenet SIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.42.80.0/20",
       "83.243.88.0/21",
       "84.38.136.0/21",
@@ -30,7 +33,7 @@
       "213.110.76.0/22",
       "213.110.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:8ca0::/32"
     ]
   }

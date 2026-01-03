@@ -1,9 +1,12 @@
 {
-  "asn": 15415,
-  "handle": "OBIS",
-  "description": "Oberberg-Online Informationssysteme GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15415,
+  "metadata" : {
+    "handle" : "OBIS",
+    "description" : "Oberberg-Online Informationssysteme GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.211.102.0/24",
       "193.17.25.0/24",
       "193.28.208.0/22",
@@ -17,7 +20,7 @@
       "212.102.238.0/23",
       "212.102.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1b30::/48",
       "2a00:aa40::/32"
     ]

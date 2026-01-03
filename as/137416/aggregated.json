@@ -1,12 +1,15 @@
 {
-  "asn": 137416,
-  "handle": "NETPARK-AS-AP",
-  "description": "Netpark Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137416,
+  "metadata" : {
+    "handle" : "NETPARK-AS-AP",
+    "description" : "Netpark Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.107.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:55c0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 262605,
-  "handle": "BRASIL-TECPAR-|-AMIGO-|-AVATO",
-  "description": "BRASIL TECPAR | AMIGO | AVATO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262605,
+  "metadata" : {
+    "handle" : "BRASIL-TECPAR-|-AMIGO-|-AVATO",
+    "description" : "BRASIL TECPAR | AMIGO | AVATO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.255.252.0/22",
       "138.99.84.0/22",
       "143.202.108.0/22",
@@ -13,7 +16,7 @@
       "177.184.248.0/21",
       "186.250.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:24c::/32",
       "2804:da8::/32"
     ]

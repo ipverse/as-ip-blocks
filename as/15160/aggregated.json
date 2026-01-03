@@ -1,9 +1,12 @@
 {
-  "asn": 15160,
-  "handle": "BMO-SCARB",
-  "description": "Bank of Montreal",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15160,
+  "metadata" : {
+    "handle" : "BMO-SCARB",
+    "description" : "Bank of Montreal",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.43.25.0/24",
       "142.43.26.0/24",
       "142.43.64.0/23",
@@ -19,6 +22,6 @@
       "198.96.174.0/24",
       "198.96.176.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

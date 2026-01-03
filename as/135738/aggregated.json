@@ -1,9 +1,12 @@
 {
-  "asn": 135738,
-  "handle": "ADNBROAD-AS",
-  "description": "Adn Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135738,
+  "metadata" : {
+    "handle" : "ADNBROAD-AS",
+    "description" : "Adn Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.107.9.0/24",
       "103.155.72.0/23",
       "103.158.120.0/24",
@@ -13,7 +16,7 @@
       "103.179.170.0/23",
       "103.236.212.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:2180::/48",
       "2001:df6:2580::/48",
       "2001:df6:2a80::/48"

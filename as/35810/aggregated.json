@@ -1,15 +1,18 @@
 {
-  "asn": 35810,
-  "handle": "BIGTELECOM-AS",
-  "description": "Big Telecom JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35810,
+  "metadata" : {
+    "handle" : "BIGTELECOM-AS",
+    "description" : "Big Telecom JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.233.116.0/22",
       "87.255.0.0/19",
       "185.233.192.0/22",
       "195.191.238.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1468::/48",
       "2a00:1468:8000::/34"
     ]

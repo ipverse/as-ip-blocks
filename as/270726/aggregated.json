@@ -1,12 +1,15 @@
 {
-  "asn": 270726,
-  "handle": "ULTRALAN-PROVEDOR-INTERNET",
-  "description": "ULTRALAN - PROVEDOR DE INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270726,
+  "metadata" : {
+    "handle" : "ULTRALAN-PROVEDOR-INTERNET",
+    "description" : "ULTRALAN - PROVEDOR DE INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "189.51.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:706c::/32"
     ]
   }

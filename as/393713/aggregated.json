@@ -1,9 +1,12 @@
 {
-  "asn": 393713,
-  "handle": "ALL-POINTS-BROADBAND-5",
-  "description": "All Points Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393713,
+  "metadata" : {
+    "handle" : "ALL-POINTS-BROADBAND-5",
+    "description" : "All Points Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.79.48.0/20",
       "66.225.206.0/23",
       "66.225.251.0/24",
@@ -21,7 +24,7 @@
       "216.246.68.0/22",
       "216.246.120.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:ce80::/32",
       "2606:c080::/32"
     ]

@@ -1,15 +1,18 @@
 {
-  "asn": 32625,
-  "handle": "OFFSITE-1",
-  "description": "OFFSITE LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32625,
+  "metadata" : {
+    "handle" : "OFFSITE-1",
+    "description" : "OFFSITE LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.115.52.0/22",
       "162.250.8.0/22",
       "198.245.157.0/24",
       "206.81.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:4640::/32"
     ]
   }

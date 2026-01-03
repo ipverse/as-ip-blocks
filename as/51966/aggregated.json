@@ -1,12 +1,15 @@
 {
-  "asn": 51966,
-  "handle": "RESTENA-ANYCAST-AS",
-  "description": "Fondation RESTENA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51966,
+  "metadata" : {
+    "handle" : "RESTENA-ANYCAST-AS",
+    "description" : "Fondation RESTENA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.0.23.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:1b::/48"
     ]
   }

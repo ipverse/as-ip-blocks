@@ -1,9 +1,12 @@
 {
-  "asn": 7671,
-  "handle": "MCNET",
-  "description": "NTT SmartConnect Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7671,
+  "metadata" : {
+    "handle" : "MCNET",
+    "description" : "NTT SmartConnect Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.147.192.0/18",
       "103.28.236.0/22",
       "114.129.0.0/21",
@@ -45,7 +48,7 @@
       "219.124.32.0/20",
       "222.231.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:350::/32",
       "2001:d70::/30"
     ]

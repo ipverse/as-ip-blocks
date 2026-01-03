@@ -1,16 +1,19 @@
 {
-  "asn": 140576,
-  "handle": "VPSBLOCKSPTYLTD-AS-AP",
-  "description": "VPSBlocks Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140576,
+  "metadata" : {
+    "handle" : "VPSBLOCKSPTYLTD-AS-AP",
+    "description" : "VPSBlocks Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.150.134.0/23",
       "203.143.82.0/23",
       "203.143.84.0/22",
       "203.143.88.0/23",
       "203.143.90.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:340::/32"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 60500,
-  "handle": "ASHCSIBIR",
-  "description": "Association NPHK Sibir",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60500,
+  "metadata" : {
+    "handle" : "ASHCSIBIR",
+    "description" : "Association NPHK Sibir",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.22.153.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

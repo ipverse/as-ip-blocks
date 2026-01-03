@@ -1,9 +1,12 @@
 {
-  "asn": 8399,
-  "handle": "SEWAN-FR",
-  "description": "SEWAN SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8399,
+  "metadata" : {
+    "handle" : "SEWAN-FR",
+    "description" : "SEWAN SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.97.64.0/19",
       "37.97.96.0/20",
       "37.139.120.0/21",
@@ -30,7 +33,7 @@
       "217.74.96.0/20",
       "217.181.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:6e8::/32",
       "2a02:c440::/29",
       "2a05:5cc0::/29",

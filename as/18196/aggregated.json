@@ -1,9 +1,12 @@
 {
-  "asn": 18196,
-  "handle": "SEVENSTAR-AS",
-  "description": "7 STAR DOT COM Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18196,
+  "metadata" : {
+    "handle" : "SEVENSTAR-AS",
+    "description" : "7 STAR DOT COM Pvt. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.72.204.0/22",
       "103.97.249.0/24",
       "103.115.21.0/24",
@@ -27,7 +30,7 @@
       "202.134.190.0/23",
       "210.16.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:3c20::/32",
       "2402:f200::/32"
     ]

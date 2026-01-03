@@ -1,9 +1,12 @@
 {
-  "asn": 201188,
-  "handle": "BJTPARTNERS-AS",
-  "description": "BJT Partners SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201188,
+  "metadata" : {
+    "handle" : "BJTPARTNERS-AS",
+    "description" : "BJT Partners SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.151.185.0/24",
       "45.151.186.0/23",
       "185.16.110.0/24",
@@ -12,7 +15,7 @@
       "185.63.92.0/23",
       "185.63.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:ba0::/29"
     ]
   }

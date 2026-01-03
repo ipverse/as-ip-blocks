@@ -1,12 +1,15 @@
 {
-  "asn": 28730,
-  "handle": "BLINKAS",
-  "description": "Broadband Communications LPS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28730,
+  "metadata" : {
+    "handle" : "BLINKAS",
+    "description" : "Broadband Communications LPS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.95.200.0/21",
       "185.176.44.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

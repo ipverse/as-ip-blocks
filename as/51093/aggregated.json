@@ -1,14 +1,17 @@
 {
-  "asn": 51093,
-  "handle": "VMCITY",
-  "description": "VMCity LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51093,
+  "metadata" : {
+    "handle" : "VMCITY",
+    "description" : "VMCity LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.108.16.0/24",
       "212.48.224.0/21",
       "212.48.232.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:300::/29"
     ]
   }

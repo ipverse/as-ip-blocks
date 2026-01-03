@@ -1,9 +1,12 @@
 {
-  "asn": 9650,
-  "handle": "CITEC-AU-AP",
-  "description": "CITEC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9650,
+  "metadata" : {
+    "handle" : "CITEC-AU-AP",
+    "description" : "CITEC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.64.68.0/22",
       "103.118.12.0/22",
       "103.233.236.0/22",
@@ -38,7 +41,7 @@
       "203.62.216.0/22",
       "203.104.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:3c00::/32"
     ]
   }

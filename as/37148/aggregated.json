@@ -1,15 +1,18 @@
 {
-  "asn": 37148,
-  "handle": "GLOBACOM-AS",
-  "description": "Globacom Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37148,
+  "metadata" : {
+    "handle" : "GLOBACOM-AS",
+    "description" : "Globacom Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.203.64.0/19",
       "102.213.84.0/22",
       "129.205.96.0/19",
       "197.211.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f9e0::/32"
     ]
   }

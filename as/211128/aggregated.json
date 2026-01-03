@@ -1,11 +1,14 @@
 {
-  "asn": 211128,
-  "handle": "SKYFIBER-AS",
-  "description": "Sky Fiber AD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211128,
+  "metadata" : {
+    "handle" : "SKYFIBER-AS",
+    "description" : "Sky Fiber AD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.181.55.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

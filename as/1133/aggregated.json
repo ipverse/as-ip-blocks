@@ -1,12 +1,15 @@
 {
-  "asn": 1133,
-  "handle": "UTWENTE-AS",
-  "description": "SURF B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1133,
+  "metadata" : {
+    "handle" : "UTWENTE-AS",
+    "description" : "SURF B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.89.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2564::/48"
     ]
   }

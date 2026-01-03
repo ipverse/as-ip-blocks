@@ -1,9 +1,12 @@
 {
-  "asn": 34011,
-  "handle": "GD-EMEA-DC-CGN1",
-  "description": "Host Europe GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34011,
+  "metadata" : {
+    "handle" : "GD-EMEA-DC-CGN1",
+    "description" : "Host Europe GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.200.96.0/21",
       "46.163.84.0/22",
       "46.252.16.0/20",
@@ -42,7 +45,7 @@
       "178.77.80.0/21",
       "188.93.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1520:3::/48",
       "2001:1520:100::/40",
       "2a00:1168:101::/48"

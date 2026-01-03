@@ -1,16 +1,19 @@
 {
-  "asn": 27321,
-  "handle": "ISC-F-AS",
-  "description": "Internet Systems Consortium Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27321,
+  "metadata" : {
+    "handle" : "ISC-F-AS",
+    "description" : "Internet Systems Consortium Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.20.2.0/23",
       "149.20.4.0/24",
       "149.20.57.0/24",
       "149.20.66.0/24",
       "192.158.248.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:500:6b::/48"
     ]
   }

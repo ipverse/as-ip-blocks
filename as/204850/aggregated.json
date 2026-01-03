@@ -1,13 +1,16 @@
 {
-  "asn": 204850,
-  "handle": "SODERTALJE-ASN",
-  "description": "Sodertalje Kommun",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204850,
+  "metadata" : {
+    "handle" : "SODERTALJE-ASN",
+    "description" : "Sodertalje Kommun",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.182.234.0/23",
       "193.182.236.0/23",
       "194.132.34.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

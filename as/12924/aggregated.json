@@ -1,14 +1,17 @@
 {
-  "asn": 12924,
-  "handle": "VIAES-AS",
-  "description": "Gamma UCaaS Comercializadora S.L.U",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12924,
+  "metadata" : {
+    "handle" : "VIAES-AS",
+    "description" : "Gamma UCaaS Comercializadora S.L.U.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.42.120.0/23",
       "185.42.122.0/24",
       "213.236.1.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2280::/29"
     ]
   }

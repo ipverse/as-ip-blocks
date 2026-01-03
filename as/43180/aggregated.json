@@ -1,9 +1,12 @@
 {
-  "asn": 43180,
-  "handle": "TRUNKNETWORKS-AS",
-  "description": "Trunk Networks LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43180,
+  "metadata" : {
+    "handle" : "TRUNKNETWORKS-AS",
+    "description" : "Trunk Networks LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.241.0/24",
       "82.23.16.0/24",
       "82.23.25.0/24",
@@ -25,7 +28,7 @@
       "213.111.157.0/24",
       "213.111.158.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:2dc2::/31"
     ]
   }

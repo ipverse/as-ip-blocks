@@ -1,11 +1,14 @@
 {
-  "asn": 138889,
-  "handle": "BKU-AS-ID",
-  "description": "PT Bintang Komunikasi Utama",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138889,
+  "metadata" : {
+    "handle" : "BKU-AS-ID",
+    "description" : "PT Bintang Komunikasi Utama",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.212.239.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

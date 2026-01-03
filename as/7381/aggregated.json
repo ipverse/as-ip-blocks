@@ -1,9 +1,12 @@
 {
-  "asn": 7381,
-  "handle": "SRS-6-Z-7381",
-  "description": "BroadbandONE LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7381,
+  "metadata" : {
+    "handle" : "SRS-6-Z-7381",
+    "description" : "BroadbandONE LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.33.80.0/20",
       "63.172.245.0/24",
       "64.66.47.0/24",
@@ -222,7 +225,7 @@
       "216.245.189.0/24",
       "216.245.190.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:538::/32",
       "2600:1100::/28",
       "2620:34:a001::/48"

@@ -1,9 +1,12 @@
 {
-  "asn": 56410,
-  "handle": "HOST-IRELAND-AS",
-  "description": "Leeson Telecom Holdings Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56410,
+  "metadata" : {
+    "handle" : "HOST-IRELAND-AS",
+    "description" : "Leeson Telecom Holdings Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.149.168.0/21",
       "45.137.184.0/22",
       "45.158.112.0/22",
@@ -27,7 +30,7 @@
       "217.115.121.0/24",
       "217.115.124.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:b00::/29"
     ]
   }

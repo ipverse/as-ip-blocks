@@ -1,14 +1,17 @@
 {
-  "asn": 153773,
-  "handle": "METAQUOTES-AS-AP",
-  "description": "MetaQuotes Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153773,
+  "metadata" : {
+    "handle" : "METAQUOTES-AS-AP",
+    "description" : "MetaQuotes Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.255.76.0/22",
       "203.24.98.0/24",
       "203.29.60.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:fce0:10::/47",
       "2401:fce0:20::/47",
       "2401:fce0:30::/47"

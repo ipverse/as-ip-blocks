@@ -1,9 +1,12 @@
 {
-  "asn": 32165,
-  "handle": "BCBSMA",
-  "description": "Blue Cross and Blue Shield of Massachusetts Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32165,
+  "metadata" : {
+    "handle" : "BCBSMA",
+    "description" : "Blue Cross and Blue Shield of Massachusetts Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.118.177.0/24",
       "216.118.182.0/24",
       "216.118.190.0/23",
@@ -11,6 +14,6 @@
       "216.231.83.0/24",
       "216.231.91.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

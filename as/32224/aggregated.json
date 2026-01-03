@@ -1,14 +1,17 @@
 {
-  "asn": 32224,
-  "handle": "EMPIRE",
-  "description": "Empire Southwest",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32224,
+  "metadata" : {
+    "handle" : "EMPIRE",
+    "description" : "Empire Southwest",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.18.99.0/24",
       "74.113.239.0/24",
       "184.185.130.0/24",
       "206.19.244.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

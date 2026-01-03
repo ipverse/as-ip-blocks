@@ -1,11 +1,14 @@
 {
-  "asn": 17792,
-  "handle": "MET-AS-AP",
-  "description": "Meteorological Service of New Zealand Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17792,
+  "metadata" : {
+    "handle" : "MET-AS-AP",
+    "description" : "Meteorological Service of New Zealand Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.50.193.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

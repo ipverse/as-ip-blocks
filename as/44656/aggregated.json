@@ -1,14 +1,17 @@
 {
-  "asn": 44656,
-  "handle": "DE2PROV",
-  "description": "2provide GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44656,
+  "metadata" : {
+    "handle" : "DE2PROV",
+    "description" : "2provide GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.58.64.0/19",
       "89.58.96.0/21",
       "185.232.40.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:fb80::/29"
     ]
   }

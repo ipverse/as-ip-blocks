@@ -1,15 +1,18 @@
 {
-  "asn": 3565,
-  "handle": "PRISMA-HEALTH",
-  "description": "Prisma Health",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3565,
+  "metadata" : {
+    "handle" : "PRISMA-HEALTH",
+    "description" : "Prisma Health",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.15.144.0/22",
       "199.15.148.0/23",
       "199.15.150.0/24",
       "208.68.220.0/22",
       "209.149.112.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

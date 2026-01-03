@@ -1,9 +1,12 @@
 {
-  "asn": 27715,
-  "handle": "LOCAWEB-SERVICOS-INTERNET",
-  "description": "Locaweb Serviços de Internet S/A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27715,
+  "metadata" : {
+    "handle" : "LOCAWEB-SERVICOS-INTERNET",
+    "description" : "Locaweb Serviços de Internet S/A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.153.0.0/17",
       "177.153.128.0/18",
       "177.153.196.0/23",
@@ -29,7 +32,7 @@
       "200.234.192.0/19",
       "201.76.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:218::/32"
     ]
   }

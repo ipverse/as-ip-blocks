@@ -1,13 +1,16 @@
 {
-  "asn": 53072,
-  "handle": "INETVIP-TELECOM",
-  "description": "INETVIP TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53072,
+  "metadata" : {
+    "handle" : "INETVIP-TELECOM",
+    "description" : "INETVIP TELECOM LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "187.86.240.0/20",
       "200.6.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:584::/32"
     ]
   }

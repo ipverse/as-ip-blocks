@@ -1,9 +1,12 @@
 {
-  "asn": 6319,
-  "handle": "MARRIOT-ASN",
-  "description": "Marriot Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6319,
+  "metadata" : {
+    "handle" : "MARRIOT-ASN",
+    "description" : "Marriot Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.166.17.0/24",
       "159.166.24.0/23",
       "159.166.26.0/24",
@@ -12,6 +15,6 @@
       "162.130.0.0/16",
       "199.106.180.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 400402,
-  "handle": "HOSTING-BOT",
-  "description": "Hosting Bot LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400402,
+  "metadata" : {
+    "handle" : "HOSTING-BOT",
+    "description" : "Hosting Bot LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.27.96.0/23",
       "23.27.249.0/24",
       "23.134.168.0/24",
@@ -22,7 +25,7 @@
       "172.252.71.0/24",
       "172.252.105.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fa8a:1::/48",
       "2602:fb94:2::/47",
       "2602:fb94:5::/48",

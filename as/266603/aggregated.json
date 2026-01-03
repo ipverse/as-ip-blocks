@@ -1,12 +1,15 @@
 {
-  "asn": 266603,
-  "handle": "NEXT-FIBRA",
-  "description": "NEXT FIBRA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266603,
+  "metadata" : {
+    "handle" : "NEXT-FIBRA",
+    "description" : "NEXT FIBRA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.201.8.0/23",
       "128.201.11.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

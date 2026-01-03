@@ -1,13 +1,16 @@
 {
-  "asn": 394611,
-  "handle": "SOUTHCENTRALPOWER",
-  "description": "South Central Power Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394611,
+  "metadata" : {
+    "handle" : "SOUTHCENTRALPOWER",
+    "description" : "South Central Power Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.251.240.0/20",
       "173.243.236.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:62c0::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 61050,
-  "handle": "INNOVA-AS",
-  "description": "Innova Engineering SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61050,
+  "metadata" : {
+    "handle" : "INNOVA-AS",
+    "description" : "Innova Engineering SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.44.122.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ece1:1::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 38870,
-  "handle": "BGCP-AP",
-  "description": "BGC Partners",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38870,
+  "metadata" : {
+    "handle" : "BGCP-AP",
+    "description" : "BGC Partners",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.106.69.0/24",
       "148.106.70.0/23",
       "148.106.72.0/24",
@@ -13,6 +16,6 @@
       "148.106.93.0/24",
       "148.106.95.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

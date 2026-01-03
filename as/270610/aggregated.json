@@ -1,12 +1,15 @@
 {
-  "asn": 270610,
-  "handle": "WORK-INTERNET",
-  "description": "WORK INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270610,
+  "metadata" : {
+    "handle" : "WORK-INTERNET",
+    "description" : "WORK INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "201.216.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6ea4::/32"
     ]
   }

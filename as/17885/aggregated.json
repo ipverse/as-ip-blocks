@@ -1,9 +1,12 @@
 {
-  "asn": 17885,
-  "handle": "JKTXLNET-AS-AP",
-  "description": "PT XL Axiata Tbk",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17885,
+  "metadata" : {
+    "handle" : "JKTXLNET-AS-AP",
+    "description" : "PT XL Axiata Tbk",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "112.215.6.0/23",
       "112.215.10.0/23",
       "112.215.18.0/24",
@@ -79,7 +82,7 @@
       "202.152.251.0/24",
       "202.152.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:9800:2010::/47",
       "2400:9800:2012::/48"
     ]

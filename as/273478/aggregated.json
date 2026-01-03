@@ -1,15 +1,18 @@
 {
-  "asn": 273478,
-  "handle": "SAGE-NETWORKS",
-  "description": "Sage Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273478,
+  "metadata" : {
+    "handle" : "SAGE-NETWORKS",
+    "description" : "Sage Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "151.244.241.0/24",
       "151.244.245.0/24",
       "151.245.242.0/23",
       "185.14.239.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8f3c::/32"
     ]
   }

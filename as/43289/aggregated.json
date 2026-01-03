@@ -1,9 +1,12 @@
 {
-  "asn": 43289,
-  "handle": "TRABIA",
-  "description": "Trabia SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43289,
+  "metadata" : {
+    "handle" : "TRABIA",
+    "description" : "Trabia SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.153.124.0/24",
       "92.243.67.0/24",
       "103.197.148.0/22",
@@ -18,7 +21,7 @@
       "192.121.87.0/24",
       "193.200.160.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1dc0::/29",
       "2a02:e00:ffe8::/48",
       "2a03:f80:373::/48"

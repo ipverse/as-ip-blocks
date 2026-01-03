@@ -1,15 +1,18 @@
 {
-  "asn": 20720,
-  "handle": "TOL-AS",
-  "description": "LLC Tatarstan-On-Line",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20720,
+  "metadata" : {
+    "handle" : "TOL-AS",
+    "description" : "LLC Tatarstan-On-Line",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.233.80.0/20",
       "217.198.0.0/23",
       "217.198.3.0/24",
       "217.198.4.0/24",
       "217.198.8.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 395308,
-  "handle": "ALPINE-INTERNET",
-  "description": "Alpine Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395308,
+  "metadata" : {
+    "handle" : "ALPINE-INTERNET",
+    "description" : "Alpine Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.19.185.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

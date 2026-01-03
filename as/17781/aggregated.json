@@ -1,9 +1,12 @@
 {
-  "asn": 17781,
-  "handle": "XHNEWS",
-  "description": "XINHUA NEWS AGENCY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17781,
+  "metadata" : {
+    "handle" : "XHNEWS",
+    "description" : "XINHUA NEWS AGENCY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.84.17.0/24",
       "202.123.96.0/24",
       "202.123.98.0/24",
@@ -16,6 +19,6 @@
       "203.192.16.0/24",
       "203.192.24.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

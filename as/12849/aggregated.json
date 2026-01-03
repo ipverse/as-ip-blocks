@@ -1,9 +1,12 @@
 {
-  "asn": 12849,
-  "handle": "HOTNET-IL",
-  "description": "Hot-Net internet services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12849,
+  "metadata" : {
+    "handle" : "HOTNET-IL",
+    "description" : "Hot-Net internet services Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.28.128.0/18",
       "5.29.0.0/16",
       "37.142.0.0/16",
@@ -19,7 +22,7 @@
       "212.55.184.0/21",
       "213.57.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:a040::/29"
     ]
   }

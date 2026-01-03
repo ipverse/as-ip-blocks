@@ -1,13 +1,16 @@
 {
-  "asn": 202577,
-  "handle": "KDVZ-FRECHEN",
-  "description": "Kommunale Datenverarbeitungszentrale Rhein-Erft-Rur",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202577,
+  "metadata" : {
+    "handle" : "KDVZ-FRECHEN",
+    "description" : "Kommunale Datenverarbeitungszentrale Rhein-Erft-Rur",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.155.108.0/22",
       "193.27.20.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:680::/48"
     ]
   }

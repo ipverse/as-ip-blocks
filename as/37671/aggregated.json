@@ -1,9 +1,12 @@
 {
-  "asn": 37671,
-  "handle": "GLOBALNET-AS",
-  "description": "3S INF",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37671,
+  "metadata" : {
+    "handle" : "GLOBALNET-AS",
+    "description" : "3S INF",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.225.0.0/16",
       "41.227.4.0/24",
       "41.227.16.0/20",
@@ -31,6 +34,6 @@
       "213.150.175.0/24",
       "213.150.180.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 149014,
-  "handle": "BOJINGCOLIMITED-AS-AP",
-  "description": "bo jing",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149014,
+  "metadata" : {
+    "handle" : "BOJINGCOLIMITED-AS-AP",
+    "description" : "bo jing",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.231.187.0/24",
       "45.146.112.0/22",
       "103.99.23.0/24",
@@ -14,7 +17,7 @@
       "103.225.199.0/24",
       "156.236.124.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:de80:c00::/40"
     ]
   }

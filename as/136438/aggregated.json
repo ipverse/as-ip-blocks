@@ -1,11 +1,14 @@
 {
-  "asn": 136438,
-  "handle": "ADDANETWORK-AS-AP",
-  "description": "Adda Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136438,
+  "metadata" : {
+    "handle" : "ADDANETWORK-AS-AP",
+    "description" : "Adda Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.88.24.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

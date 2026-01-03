@@ -1,9 +1,12 @@
 {
-  "asn": 199724,
-  "handle": "TEKNODC",
-  "description": "TeknoDC Bilisim Teknolojileri A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199724,
+  "metadata" : {
+    "handle" : "TEKNODC",
+    "description" : "TeknoDC Bilisim Teknolojileri A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.3.136.0/22",
       "38.225.127.0/24",
       "38.225.192.0/23",
@@ -20,6 +23,6 @@
       "185.250.241.0/24",
       "212.146.128.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

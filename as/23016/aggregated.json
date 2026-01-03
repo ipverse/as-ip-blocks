@@ -1,12 +1,15 @@
 {
-  "asn": 23016,
-  "handle": "SB-TOPEKA",
-  "description": "Security Benefit",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23016,
+  "metadata" : {
+    "handle" : "SB-TOPEKA",
+    "description" : "Security Benefit",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.53.34.0/24",
       "184.180.79.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

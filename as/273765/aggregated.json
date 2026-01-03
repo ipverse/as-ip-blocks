@@ -1,12 +1,15 @@
 {
-  "asn": 273765,
-  "handle": "REDLINK-FIBRA",
-  "description": "RedLink Fibra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273765,
+  "metadata" : {
+    "handle" : "REDLINK-FIBRA",
+    "description" : "RedLink Fibra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.190.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8be0::/32"
     ]
   }

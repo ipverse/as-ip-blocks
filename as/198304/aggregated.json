@@ -1,12 +1,15 @@
 {
-  "asn": 198304,
-  "handle": "DOVENET",
-  "description": "MoeDove",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198304,
+  "metadata" : {
+    "handle" : "DOVENET",
+    "description" : "MoeDove",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.30.30.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f92a:a000::/40"
     ]
   }

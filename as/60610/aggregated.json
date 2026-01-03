@@ -1,9 +1,12 @@
 {
-  "asn": 60610,
-  "handle": "EVEREST-AS",
-  "description": "Amito Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60610,
+  "metadata" : {
+    "handle" : "EVEREST-AS",
+    "description" : "Amito Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.10.16.0/21",
       "5.10.24.0/23",
       "5.10.27.0/24",
@@ -19,7 +22,7 @@
       "194.110.241.0/24",
       "195.200.211.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:1640::/29",
       "2a04:4040::/29"
     ]

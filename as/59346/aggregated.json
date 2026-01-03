@@ -1,9 +1,12 @@
 {
-  "asn": 59346,
-  "handle": "AIS-AS-AP",
-  "description": "Australian IT Solutions Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59346,
+  "metadata" : {
+    "handle" : "AIS-AS-AP",
+    "description" : "Australian IT Solutions Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.255.32.0/22",
       "43.255.44.0/22",
       "103.20.49.0/24",
@@ -13,7 +16,7 @@
       "103.240.134.0/23",
       "118.103.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:d9a0::/32"
     ]
   }

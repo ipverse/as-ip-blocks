@@ -1,11 +1,14 @@
 {
-  "asn": 31440,
-  "handle": "DSK-AS",
-  "description": "DSK Bank EAD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31440,
+  "metadata" : {
+    "handle" : "DSK-AS",
+    "description" : "DSK Bank EAD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.128.225.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

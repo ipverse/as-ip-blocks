@@ -1,12 +1,15 @@
 {
-  "asn": 40200,
-  "handle": "ASN-MUNSON-CHARTER-ATT",
-  "description": "Munson Healthcare",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40200,
+  "metadata" : {
+    "handle" : "ASN-MUNSON-CHARTER-ATT",
+    "description" : "Munson Healthcare",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.253.184.0/21",
       "204.63.200.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

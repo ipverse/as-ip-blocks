@@ -1,9 +1,12 @@
 {
-  "asn": 394284,
-  "handle": "UTILITIES-KINGSTON",
-  "description": "Utilities Kingston",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394284,
+  "metadata" : {
+    "handle" : "UTILITIES-KINGSTON",
+    "description" : "Utilities Kingston",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.64.222.0/24",
       "66.207.103.0/24",
       "66.207.104.0/23",
@@ -14,6 +17,6 @@
       "216.185.80.0/24",
       "216.185.88.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

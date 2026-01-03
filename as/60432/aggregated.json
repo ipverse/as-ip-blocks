@@ -1,12 +1,15 @@
 {
-  "asn": 60432,
-  "handle": "ASN-FORISP",
-  "description": "4ISP SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60432,
+  "metadata" : {
+    "handle" : "ASN-FORISP",
+    "description" : "4ISP SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.26.198.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8c60:2::/47"
     ]
   }

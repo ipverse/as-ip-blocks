@@ -1,9 +1,12 @@
 {
-  "asn": 62352,
-  "handle": "NETLLAR",
-  "description": "XFERA Moviles S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62352,
+  "metadata" : {
+    "handle" : "NETLLAR",
+    "description" : "XFERA Moviles S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.105.199.0/24",
       "93.117.174.0/24",
       "109.205.140.0/22",
@@ -13,6 +16,6 @@
       "213.236.24.0/24",
       "213.236.27.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

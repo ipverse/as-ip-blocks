@@ -1,13 +1,16 @@
 {
-  "asn": 60900,
-  "handle": "SSMIDGETECHNOLOGIES",
-  "description": "Adrian Trifonov trading as Ssmidge Technologies",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60900,
+  "metadata" : {
+    "handle" : "SSMIDGETECHNOLOGIES",
+    "description" : "Adrian Trifonov trading as Ssmidge Technologies",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.30.29.0/24",
       "170.39.49.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f50c::/48",
       "2602:f50c:2::/48",
       "2602:f50c:210::/46",

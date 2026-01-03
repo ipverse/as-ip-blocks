@@ -1,12 +1,15 @@
 {
-  "asn": 43310,
-  "handle": "LVS-AS",
-  "description": "TOV LVS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43310,
+  "metadata" : {
+    "handle" : "LVS-AS",
+    "description" : "TOV LVS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.197.7.0/24",
       "91.225.224.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

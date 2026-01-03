@@ -1,9 +1,12 @@
 {
-  "asn": 32208,
-  "handle": "SKL-SERVICES-ASN",
-  "description": "SKL Services Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32208,
+  "metadata" : {
+    "handle" : "SKL-SERVICES-ASN",
+    "description" : "SKL Services Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.2.216.0/24",
       "8.2.218.0/23",
       "64.154.18.0/24",
@@ -11,6 +14,6 @@
       "209.247.110.0/24",
       "209.247.118.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

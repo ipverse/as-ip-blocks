@@ -1,15 +1,18 @@
 {
-  "asn": 268695,
-  "handle": "DIGITAL-NET-TELECOM",
-  "description": "DIGITAL NET TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268695,
+  "metadata" : {
+    "handle" : "DIGITAL-NET-TELECOM",
+    "description" : "DIGITAL NET TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.52.144.0/24",
       "45.165.184.0/22",
       "204.157.245.0/24",
       "204.157.247.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5330:502::/47",
       "2804:5330:504::/48",
       "2804:5530:4000::/34",

@@ -1,9 +1,12 @@
 {
-  "asn": 20985,
-  "handle": "ARTX-AS",
-  "description": "ArtX LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20985,
+  "metadata" : {
+    "handle" : "ARTX-AS",
+    "description" : "ArtX LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.63.64.0/22",
       "62.63.68.0/24",
       "62.63.70.0/23",
@@ -21,7 +24,7 @@
       "217.197.196.0/22",
       "217.197.200.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:5200::/32"
     ]
   }

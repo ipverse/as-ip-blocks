@@ -1,9 +1,12 @@
 {
-  "asn": 60490,
-  "handle": "MTS-CLOUD",
-  "description": "MTS PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60490,
+  "metadata" : {
+    "handle" : "MTS-CLOUD",
+    "description" : "MTS PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.113.66.0/23",
       "62.113.68.0/22",
       "62.113.72.0/24",
@@ -45,7 +48,7 @@
       "194.150.88.0/22",
       "212.6.56.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:28:7::/48",
       "2a02:2a:1000::/41"
     ]

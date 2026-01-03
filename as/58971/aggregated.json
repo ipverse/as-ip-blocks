@@ -1,14 +1,17 @@
 {
-  "asn": 58971,
-  "handle": "SHINECOM-AS",
-  "description": "Shine Communications Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58971,
+  "metadata" : {
+    "handle" : "SHINECOM-AS",
+    "description" : "Shine Communications Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.83.244.0/22",
       "103.134.134.0/23",
       "103.158.218.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:e5c0::/32"
     ]
   }

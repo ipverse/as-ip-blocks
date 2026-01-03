@@ -1,14 +1,17 @@
 {
-  "asn": 46276,
-  "handle": "SMARTERBROADBAND",
-  "description": "SmarterBroadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46276,
+  "metadata" : {
+    "handle" : "SMARTERBROADBAND",
+    "description" : "SmarterBroadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.112.90.0/24",
       "173.195.176.0/20",
       "209.222.120.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:aa80::/32"
     ]
   }

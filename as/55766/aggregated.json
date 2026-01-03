@@ -1,9 +1,12 @@
 {
-  "asn": 55766,
-  "handle": "ORROPTYLTD-AS-AP",
-  "description": "Orro Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55766,
+  "metadata" : {
+    "handle" : "ORROPTYLTD-AS-AP",
+    "description" : "Orro Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.243.238.0/23",
       "43.252.96.0/22",
       "103.22.184.0/22",
@@ -26,7 +29,7 @@
       "203.14.52.0/23",
       "223.29.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:f280:2000::/40",
       "2400:f280:2200::/40"
     ]

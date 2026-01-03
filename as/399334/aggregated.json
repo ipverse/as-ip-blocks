@@ -1,14 +1,17 @@
 {
-  "asn": 399334,
-  "handle": "SKYSILK-02",
-  "description": "Skysilk",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399334,
+  "metadata" : {
+    "handle" : "SKYSILK-02",
+    "description" : "Skysilk",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.45.181.0/24",
       "64.52.108.0/23",
       "216.246.208.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc81:1::/48"
     ]
   }

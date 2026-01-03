@@ -1,12 +1,15 @@
 {
-  "asn": 269025,
-  "handle": "NOVA-REDE",
-  "description": "NOVA REDE LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269025,
+  "metadata" : {
+    "handle" : "NOVA-REDE",
+    "description" : "NOVA REDE LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.178.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5e50::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 199444,
-  "handle": "HMC-DC-PL",
-  "description": "HMC Company LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199444,
+  "metadata" : {
+    "handle" : "HMC-DC-PL",
+    "description" : "HMC Company LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "188.213.212.0/24",
       "194.39.241.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

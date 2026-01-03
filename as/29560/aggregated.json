@@ -1,12 +1,15 @@
 {
-  "asn": 29560,
-  "handle": "ILL-AS",
-  "description": "Industrie-Logistik-Linz GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29560,
+  "metadata" : {
+    "handle" : "ILL-AS",
+    "description" : "Industrie-Logistik-Linz GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.149.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:80c::/48",
       "2001:678:b58::/48",
       "2001:67c:1288::/48",

@@ -1,13 +1,16 @@
 {
-  "asn": 135702,
-  "handle": "ATRINM-AS",
-  "description": "Atri Networks And Media Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135702,
+  "metadata" : {
+    "handle" : "ATRINM-AS",
+    "description" : "Atri Networks And Media Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.74.140.0/23",
       "103.122.14.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:6440::/32"
     ]
   }

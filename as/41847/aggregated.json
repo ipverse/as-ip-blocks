@@ -1,9 +1,12 @@
 {
-  "asn": 41847,
-  "handle": "STEALTH-NETWORKS",
-  "description": "Daniel O\u0027Mahony",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41847,
+  "metadata" : {
+    "handle" : "STEALTH-NETWORKS",
+    "description" : "Daniel O'Mahony",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.144.220.0/23",
       "185.144.222.0/24",
       "185.187.56.0/22",
@@ -11,7 +14,7 @@
       "193.34.170.0/23",
       "194.153.75.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2f1c::/48"
     ]
   }

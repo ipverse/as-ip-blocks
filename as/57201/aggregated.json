@@ -1,12 +1,15 @@
 {
-  "asn": 57201,
-  "handle": "EDF-AS",
-  "description": "Estonian Defence Forces",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57201,
+  "metadata" : {
+    "handle" : "EDF-AS",
+    "description" : "Estonian Defence Forces",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "188.0.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:23d4::/48"
     ]
   }

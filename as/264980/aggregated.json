@@ -1,12 +1,15 @@
 {
-  "asn": 264980,
-  "handle": "MEGAENTER-INTERNET",
-  "description": "MEGAENTER INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264980,
+  "metadata" : {
+    "handle" : "MEGAENTER-INTERNET",
+    "description" : "MEGAENTER INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.0.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:30e8::/32"
     ]
   }

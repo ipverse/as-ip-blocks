@@ -1,9 +1,12 @@
 {
-  "asn": 14127,
-  "handle": "ILAND",
-  "description": "Iland Internet Solutions Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14127,
+  "metadata" : {
+    "handle" : "ILAND",
+    "description" : "Iland Internet Solutions Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "4.19.12.0/23",
       "8.10.32.0/23",
       "43.245.228.0/22",
@@ -61,6 +64,6 @@
       "209.143.144.0/20",
       "216.243.172.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

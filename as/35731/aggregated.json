@@ -1,14 +1,17 @@
 {
-  "asn": 35731,
-  "handle": "VRATANET",
-  "description": "NT Service Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35731,
+  "metadata" : {
+    "handle" : "VRATANET",
+    "description" : "NT Service Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.234.28.0/23",
       "193.227.230.0/23",
       "195.191.138.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2bb8::/48"
     ]
   }

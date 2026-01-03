@@ -1,9 +1,12 @@
 {
-  "asn": 12676,
-  "handle": "NCORE-AS",
-  "description": "HKN GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12676,
+  "metadata" : {
+    "handle" : "NCORE-AS",
+    "description" : "HKN GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.54.0/24",
       "88.205.0.0/20",
       "88.205.32.0/19",
@@ -19,7 +22,7 @@
       "212.46.96.0/19",
       "213.9.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6780:4::/48",
       "2a01:a740::/32",
       "2a02:4c00::/39",

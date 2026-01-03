@@ -1,9 +1,12 @@
 {
-  "asn": 64286,
-  "handle": "LOGICWEB",
-  "description": "LogicWeb Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64286,
+  "metadata" : {
+    "handle" : "LOGICWEB",
+    "description" : "LogicWeb Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.139.210.0/24",
       "64.64.96.0/23",
       "64.64.101.0/24",
@@ -121,7 +124,7 @@
       "173.244.59.0/24",
       "173.244.60.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:f180::/48",
       "2606:f180:10::/48",
       "2606:f182::/32",

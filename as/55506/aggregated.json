@@ -1,13 +1,16 @@
 {
-  "asn": 55506,
-  "handle": "PENTANA-AS",
-  "description": "Pentana Solutions Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55506,
+  "metadata" : {
+    "handle" : "PENTANA-AS",
+    "description" : "Pentana Solutions Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.23.31.0/24",
       "203.25.31.0/24",
       "203.25.40.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

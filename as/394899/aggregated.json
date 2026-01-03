@@ -1,14 +1,17 @@
 {
-  "asn": 394899,
-  "handle": "HCDL-MINNEAPOLIS-DATA-CENTER",
-  "description": "H5 Data Centers",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394899,
+  "metadata" : {
+    "handle" : "HCDL-MINNEAPOLIS-DATA-CENTER",
+    "description" : "H5 Data Centers",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.250.192.0/23",
       "130.250.196.0/24",
       "130.250.207.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:6800:1800::/40"
     ]
   }

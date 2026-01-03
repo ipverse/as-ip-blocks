@@ -1,9 +1,12 @@
 {
-  "asn": 131769,
-  "handle": "IDNIC-MAYATAMA-AS-ID",
-  "description": "PT Mayatama Solusindo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131769,
+  "metadata" : {
+    "handle" : "IDNIC-MAYATAMA-AS-ID",
+    "description" : "PT Mayatama Solusindo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.16.132.0/23",
       "103.102.248.0/23",
       "103.111.86.0/24",
@@ -18,7 +21,7 @@
       "203.153.22.0/24",
       "210.87.122.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:c080:2::/47"
     ]
   }

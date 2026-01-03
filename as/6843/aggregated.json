@@ -1,12 +1,15 @@
 {
-  "asn": 6843,
-  "handle": "DIGINET",
-  "description": "Diginet shpk",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6843,
+  "metadata" : {
+    "handle" : "DIGINET",
+    "description" : "Diginet shpk",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.120.36.0/23",
       "185.120.38.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

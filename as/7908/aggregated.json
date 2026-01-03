@@ -1,9 +1,12 @@
 {
-  "asn": 7908,
-  "handle": "SENCINET-LATAM-ARGENTINA",
-  "description": "SENCINET LATAM ARGENTINA SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7908,
+  "metadata" : {
+    "handle" : "SENCINET-LATAM-ARGENTINA",
+    "description" : "SENCINET LATAM ARGENTINA SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.3.116.0/22",
       "200.34.157.0/24",
       "200.47.0.0/24",
@@ -73,7 +76,7 @@
       "209.161.125.0/24",
       "209.161.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:22::/32"
     ]
   }

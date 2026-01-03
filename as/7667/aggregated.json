@@ -1,13 +1,16 @@
 {
-  "asn": 7667,
-  "handle": "KDDLAB",
-  "description": "KDDI R\u0026D Laboratories INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7667,
+  "metadata" : {
+    "handle" : "KDDLAB",
+    "description" : "KDDI R&D Laboratories INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.26.91.0/24",
       "202.255.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:de1::/42",
       "2001:df0:95::/48"
     ]

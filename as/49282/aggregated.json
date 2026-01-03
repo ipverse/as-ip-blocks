@@ -1,9 +1,12 @@
 {
-  "asn": 49282,
-  "handle": "FICOLO",
-  "description": "Verne Vantaa Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49282,
+  "metadata" : {
+    "handle" : "FICOLO",
+    "description" : "Verne Vantaa Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.194.204.0/22",
       "91.194.27.0/24",
       "95.175.96.0/19",
@@ -13,7 +16,7 @@
       "185.196.102.0/24",
       "185.232.232.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:e580::/29",
       "2a10:d680::/29"
     ]

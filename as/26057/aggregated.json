@@ -1,9 +1,12 @@
 {
-  "asn": 26057,
-  "handle": "MEDIAOCEAN",
-  "description": "Mediaocean LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26057,
+  "metadata" : {
+    "handle" : "MEDIAOCEAN",
+    "description" : "Mediaocean LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.238.0.0/23",
       "168.238.4.0/22",
       "168.238.64.0/24",
@@ -17,7 +20,7 @@
       "168.238.253.0/24",
       "168.238.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fbde::/48",
       "2602:fbde:4::/47",
       "2602:fbde:6::/48",

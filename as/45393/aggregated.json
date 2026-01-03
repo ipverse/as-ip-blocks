@@ -1,14 +1,17 @@
 {
-  "asn": 45393,
-  "handle": "SFS-AS",
-  "description": "SFS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45393,
+  "metadata" : {
+    "handle" : "SFS-AS",
+    "description" : "SFS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.102.100.0/22",
       "211.63.20.0/24",
       "222.110.7.0/24",
       "222.110.8.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

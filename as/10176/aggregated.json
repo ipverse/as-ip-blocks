@@ -1,9 +1,12 @@
 {
-  "asn": 10176,
-  "handle": "DJE-AS",
-  "description": "Daejon Metropolitan Office of Education",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10176,
+  "metadata" : {
+    "handle" : "DJE-AS",
+    "description" : "Daejon Metropolitan Office of Education",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.50.176.0/20",
       "14.50.192.0/20",
       "14.50.248.0/21",
@@ -20,6 +23,6 @@
       "211.248.74.0/23",
       "211.253.176.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

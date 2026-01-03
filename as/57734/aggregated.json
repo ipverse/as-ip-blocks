@@ -1,12 +1,15 @@
 {
-  "asn": 57734,
-  "handle": "FRANCEIX",
-  "description": "France IX Services SASU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57734,
+  "metadata" : {
+    "handle" : "FRANCEIX",
+    "description" : "France IX Services SASU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.49.234.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:a4c0::/32"
     ]
   }

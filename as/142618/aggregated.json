@@ -1,12 +1,15 @@
 {
-  "asn": 142618,
-  "handle": "GWIS-AS-AP",
-  "description": "GH Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142618,
+  "metadata" : {
+    "handle" : "GWIS-AS-AP",
+    "description" : "GH Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.111.38.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:3b60::/48",
       "2402:3b60:30::/45",
       "2402:3b60:38::/47"

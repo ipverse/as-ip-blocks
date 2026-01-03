@@ -1,11 +1,14 @@
 {
-  "asn": 19502,
-  "handle": "SLICC-01",
-  "description": "SLICC Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19502,
+  "metadata" : {
+    "handle" : "SLICC-01",
+    "description" : "SLICC Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.189.16.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

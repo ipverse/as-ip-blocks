@@ -1,13 +1,16 @@
 {
-  "asn": 55697,
-  "handle": "USU-AS-ID",
-  "description": "Universitas Sumatera Utara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55697,
+  "metadata" : {
+    "handle" : "USU-AS-ID",
+    "description" : "Universitas Sumatera Utara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.54.0.0/24",
       "103.174.222.0/24",
       "202.0.107.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

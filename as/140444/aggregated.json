@@ -1,12 +1,15 @@
 {
-  "asn": 140444,
-  "handle": "IDNIC-BINAWAN-AS-ID",
-  "description": "Universitas Binawan",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140444,
+  "metadata" : {
+    "handle" : "IDNIC-BINAWAN-AS-ID",
+    "description" : "Universitas Binawan",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.153.42.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:2f80::/48"
     ]
   }

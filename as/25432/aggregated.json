@@ -1,13 +1,16 @@
 {
-  "asn": 25432,
-  "handle": "INFINEON-AS",
-  "description": "Infineon Technologies AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25432,
+  "metadata" : {
+    "handle" : "INFINEON-AS",
+    "description" : "Infineon Technologies AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "217.10.50.0/23",
       "217.10.52.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:18f0:1e00::/48"
     ]
   }

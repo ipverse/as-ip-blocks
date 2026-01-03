@@ -1,9 +1,12 @@
 {
-  "asn": 141995,
-  "handle": "CAPL-AS-AP",
-  "description": "Contabo Asia Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141995,
+  "metadata" : {
+    "handle" : "CAPL-AS-AP",
+    "description" : "Contabo Asia Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.104.80.0/21",
       "45.80.29.0/24",
       "46.250.224.0/19",
@@ -42,7 +45,7 @@
       "217.216.108.0/22",
       "217.217.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:d320::/31",
       "2407:3640::/31"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 49242,
-  "handle": "INTERNETUNION1",
-  "description": "Internet Union Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49242,
+  "metadata" : {
+    "handle" : "INTERNETUNION1",
+    "description" : "Internet Union Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.68.224.0/20",
       "89.35.144.0/22",
       "93.158.232.0/22",
@@ -11,7 +14,7 @@
       "188.121.0.0/19",
       "193.28.84.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:56e0::/32"
     ]
   }

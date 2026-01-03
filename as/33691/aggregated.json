@@ -1,12 +1,15 @@
 {
-  "asn": 33691,
-  "handle": "HOU1-ENT-DC-VA1",
-  "description": "NEW CCH LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33691,
+  "metadata" : {
+    "handle" : "HOU1-ENT-DC-VA1",
+    "description" : "NEW CCH LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.250.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:1880:1500::/40"
     ]
   }

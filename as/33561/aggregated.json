@@ -1,9 +1,12 @@
 {
-  "asn": 33561,
-  "handle": "LUNAVI-WY",
-  "description": "Lunavi Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33561,
+  "metadata" : {
+    "handle" : "LUNAVI-WY",
+    "description" : "Lunavi Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.24.204.0/22",
       "8.40.144.0/22",
       "23.151.0.0/24",
@@ -28,7 +31,7 @@
       "208.90.158.0/23",
       "216.119.192.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:8200:4000::/36"
     ]
   }

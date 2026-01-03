@@ -1,13 +1,16 @@
 {
-  "asn": 39371,
-  "handle": "ACKNOWLEDGE-BC",
-  "description": "Acknowledge Benelux B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39371,
+  "metadata" : {
+    "handle" : "ACKNOWLEDGE-BC",
+    "description" : "Acknowledge Benelux B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.129.60.0/22",
       "185.99.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:1480::/29",
       "2a0e:44c0::/29"
     ]

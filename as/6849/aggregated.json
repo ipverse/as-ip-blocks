@@ -1,9 +1,12 @@
 {
-  "asn": 6849,
-  "handle": "UKRTELNET",
-  "description": "JSC Ukrtelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6849,
+  "metadata" : {
+    "handle" : "UKRTELNET",
+    "description" : "JSC Ukrtelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.52.0.0/14",
       "46.200.0.0/15",
       "82.207.0.0/17",
@@ -25,6 +28,6 @@
       "213.179.224.0/19",
       "213.186.96.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

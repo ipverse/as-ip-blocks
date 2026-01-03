@@ -1,12 +1,15 @@
 {
-  "asn": 265245,
-  "handle": "GRUPO-LG",
-  "description": "GRUPO LG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265245,
+  "metadata" : {
+    "handle" : "GRUPO-LG",
+    "description" : "GRUPO LG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.0.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2cd0::/32"
     ]
   }

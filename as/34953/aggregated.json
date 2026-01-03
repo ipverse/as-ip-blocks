@@ -1,9 +1,12 @@
 {
-  "asn": 34953,
-  "handle": "RELAIX",
-  "description": "RelAix Networks GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34953,
+  "metadata" : {
+    "handle" : "RELAIX",
+    "description" : "RelAix Networks GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.145.128.0/20",
       "5.199.240.0/20",
       "45.146.172.0/22",
@@ -27,7 +30,7 @@
       "194.31.78.0/24",
       "195.242.220.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:184::/48",
       "2001:67c:13b0::/48",
       "2001:67c:2054::/48",

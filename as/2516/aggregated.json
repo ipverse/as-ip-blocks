@@ -1,9 +1,12 @@
 {
-  "asn": 2516,
-  "handle": "KDDI",
-  "description": "KDDI CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2516,
+  "metadata" : {
+    "handle" : "KDDI",
+    "description" : "KDDI CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.8.0.0/14",
       "14.12.0.0/15",
       "14.101.0.0/16",
@@ -198,7 +201,7 @@
       "222.225.0.0/16",
       "222.226.0.0/15"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:268::/32",
       "2401:980::/32",
       "2403:8300:813f::/48",

@@ -1,12 +1,15 @@
 {
-  "asn": 132688,
-  "handle": "UM-AS-AP",
-  "description": "University of Malaya",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132688,
+  "metadata" : {
+    "handle" : "UM-AS-AP",
+    "description" : "University of Malaya",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.18.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3::/48"
     ]
   }

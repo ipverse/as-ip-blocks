@@ -1,9 +1,12 @@
 {
-  "asn": 25840,
-  "handle": "CASCADE-ACCESS-LLC-CA-ESTOR1",
-  "description": "Cascade Access LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25840,
+  "metadata" : {
+    "handle" : "CASCADE-ACCESS-LLC-CA-ESTOR1",
+    "description" : "Cascade Access LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.19.186.0/23",
       "38.74.68.0/23",
       "38.87.120.0/23",
@@ -18,6 +21,6 @@
       "173.239.88.0/21",
       "216.155.216.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

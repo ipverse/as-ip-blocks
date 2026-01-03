@@ -1,9 +1,12 @@
 {
-  "asn": 7979,
-  "handle": "SERVERS-COM",
-  "description": "Servers.com Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7979,
+  "metadata" : {
+    "handle" : "SERVERS-COM",
+    "description" : "Servers.com Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.26.62.0/23",
       "23.26.74.0/23",
       "23.83.64.0/22",
@@ -318,7 +321,7 @@
       "213.196.56.0/21",
       "216.158.214.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:380::/31",
       "2600:9c00::/29",
       "2600:9c08::/32",

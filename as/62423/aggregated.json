@@ -1,15 +1,18 @@
 {
-  "asn": 62423,
-  "handle": "TCENTER-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62423,
+  "metadata" : {
+    "handle" : "TCENTER-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.136.220.0/22",
       "93.159.232.0/21",
       "185.36.60.0/22",
       "185.165.160.0/22",
       "213.183.116.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

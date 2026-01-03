@@ -1,9 +1,12 @@
 {
-  "asn": 49273,
-  "handle": "COSCOM-AS",
-  "description": "COSCOM Liability Limited Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49273,
+  "metadata" : {
+    "handle" : "COSCOM-AS",
+    "description" : "COSCOM Liability Limited Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.153.60.0/23",
       "45.153.62.0/24",
       "45.153.64.0/22",
@@ -15,7 +18,7 @@
       "188.113.222.0/24",
       "188.113.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:f7c0::/32"
     ]
   }

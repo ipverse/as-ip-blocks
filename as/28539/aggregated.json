@@ -1,9 +1,12 @@
 {
-  "asn": 28539,
-  "handle": "JOSE-MIGUEL-MACIAS-CONTRERAS",
-  "description": "JOSE MIGUEL MACIAS CONTRERAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28539,
+  "metadata" : {
+    "handle" : "JOSE-MIGUEL-MACIAS-CONTRERAS",
+    "description" : "JOSE MIGUEL MACIAS CONTRERAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.185.246.0/24",
       "45.239.68.0/22",
       "138.186.200.0/22",
@@ -16,7 +19,7 @@
       "201.159.96.0/20",
       "201.159.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:211::/32",
       "2806:3c5::/32"
     ]

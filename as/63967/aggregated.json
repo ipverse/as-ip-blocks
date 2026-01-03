@@ -1,15 +1,18 @@
 {
-  "asn": 63967,
-  "handle": "BTRAC-AS-AP",
-  "description": "Bangla Trac Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63967,
+  "metadata" : {
+    "handle" : "BTRAC-AS-AP",
+    "description" : "Bangla Trac Communications Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.9.185.0/24",
       "103.9.187.0/24",
       "103.244.162.0/24",
       "117.104.186.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:b780::/32"
     ]
   }

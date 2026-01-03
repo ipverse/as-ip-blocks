@@ -1,9 +1,12 @@
 {
-  "asn": 111,
-  "handle": "BOSTONU-AS",
-  "description": "Boston University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 111,
+  "metadata" : {
+    "handle" : "BOSTONU-AS",
+    "description" : "Boston University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.197.0.0/16",
       "168.122.0.0/16",
       "192.5.206.0/23",
@@ -13,7 +16,7 @@
       "192.12.190.0/23",
       "192.54.224.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:58::/32",
       "2631:5000::/28"
     ]

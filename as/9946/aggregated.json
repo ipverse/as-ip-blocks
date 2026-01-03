@@ -1,9 +1,12 @@
 {
-  "asn": 9946,
-  "handle": "CABLENET-AS",
-  "description": "KCTV JEJU BROADCASTING",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9946,
+  "metadata" : {
+    "handle" : "CABLENET-AS",
+    "description" : "KCTV JEJU BROADCASTING",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.100.128.0/17",
       "61.35.38.0/24",
       "61.35.253.0/24",
@@ -64,6 +67,6 @@
       "122.202.128.0/17",
       "144.48.92.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

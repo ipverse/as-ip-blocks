@@ -1,12 +1,15 @@
 {
-  "asn": 134692,
-  "handle": "IAG-NZ-AS",
-  "description": "IAG New Zealand",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134692,
+  "metadata" : {
+    "handle" : "IAG-NZ-AS",
+    "description" : "IAG New Zealand",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.50.0.0/21",
       "202.50.8.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

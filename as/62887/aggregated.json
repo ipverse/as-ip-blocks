@@ -1,9 +1,12 @@
 {
-  "asn": 62887,
-  "handle": "WHITESKY-COMMUNICATIONS",
-  "description": "WhiteSky Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62887,
+  "metadata" : {
+    "handle" : "WHITESKY-COMMUNICATIONS",
+    "description" : "WhiteSky Communications LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.130.0.0/24",
       "45.42.52.0/22",
       "52.124.32.0/20",
@@ -32,7 +35,7 @@
       "208.64.158.0/24",
       "216.106.151.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:ad80::/41",
       "2605:ad80:80::/42",
       "2605:ad80:c0::/43",

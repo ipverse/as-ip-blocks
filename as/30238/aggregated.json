@@ -1,9 +1,12 @@
 {
-  "asn": 30238,
-  "handle": "AS-IRONP-VEGA",
-  "description": "Cisco Systems Ironport Division",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30238,
+  "metadata" : {
+    "handle" : "AS-IRONP-VEGA",
+    "description" : "Cisco Systems Ironport Division",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.90.102.0/24",
       "23.90.104.0/23",
       "23.90.110.0/23",
@@ -37,7 +40,7 @@
       "216.71.139.0/24",
       "216.71.156.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:101:2009::/48",
       "2620:101:200a::/48",
       "2620:101:2011::/48",

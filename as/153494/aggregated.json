@@ -1,9 +1,12 @@
 {
-  "asn": 153494,
-  "handle": "XRUI-AS-AP",
-  "description": "XRUI TECHNOLOGY LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153494,
+  "metadata" : {
+    "handle" : "XRUI-AS-AP",
+    "description" : "XRUI TECHNOLOGY LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.239.164.0/22",
       "43.241.152.0/22",
       "43.241.252.0/22",
@@ -47,6 +50,6 @@
       "116.206.52.0/22",
       "203.114.252.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

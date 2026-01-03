@@ -1,15 +1,18 @@
 {
-  "asn": 137645,
-  "handle": "MSPL-AS",
-  "description": "Macro Signal Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137645,
+  "metadata" : {
+    "handle" : "MSPL-AS",
+    "description" : "Macro Signal Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.127.20.0/22",
       "103.188.218.0/23",
       "157.15.250.0/23",
       "160.25.138.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:35a0::/32"
     ]
   }

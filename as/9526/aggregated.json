@@ -1,9 +1,12 @@
 {
-  "asn": 9526,
-  "handle": "KOSCOM-AS",
-  "description": "KOSCOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9526,
+  "metadata" : {
+    "handle" : "KOSCOM-AS",
+    "description" : "KOSCOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.209.90.0/23",
       "1.209.92.0/24",
       "1.254.228.0/24",
@@ -42,6 +45,6 @@
       "221.168.32.0/21",
       "222.108.70.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

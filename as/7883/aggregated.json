@@ -1,12 +1,15 @@
 {
-  "asn": 7883,
-  "handle": "FLEETTEL-AS02",
-  "description": "Fleettel INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7883,
+  "metadata" : {
+    "handle" : "FLEETTEL-AS02",
+    "description" : "Fleettel INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.51.72.0/22",
       "199.119.72.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

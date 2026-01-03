@@ -1,9 +1,12 @@
 {
-  "asn": 43513,
-  "handle": "NANO-AS",
-  "description": "Sia Nano IT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43513,
+  "metadata" : {
+    "handle" : "NANO-AS",
+    "description" : "Sia Nano IT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.44.216.0/21",
       "31.170.16.0/21",
       "45.131.100.0/22",
@@ -44,7 +47,7 @@
       "193.46.236.0/24",
       "195.43.82.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:c68::/32",
       "2a02:7aa0::/34",
       "2a02:7aa0:4000::/48",

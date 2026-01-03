@@ -1,9 +1,12 @@
 {
-  "asn": 27202,
-  "handle": "CBK-AS",
-  "description": "City of Bardstown Kentucky",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27202,
+  "metadata" : {
+    "handle" : "CBK-AS",
+    "description" : "City of Bardstown Kentucky",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.171.244.0/22",
       "12.172.116.0/22",
       "12.172.228.0/22",
@@ -19,6 +22,6 @@
       "208.44.214.0/23",
       "208.45.201.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

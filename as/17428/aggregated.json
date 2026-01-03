@@ -1,9 +1,12 @@
 {
-  "asn": 17428,
-  "handle": "CHINA-ABITCOOL",
-  "description": "21Vianet.Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17428,
+  "metadata" : {
+    "handle" : "CHINA-ABITCOOL",
+    "description" : "21Vianet.Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.253.204.0/22",
       "120.132.224.0/21",
       "120.133.240.0/20",
@@ -15,7 +18,7 @@
       "211.148.27.0/24",
       "211.148.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:a200::/32"
     ]
   }

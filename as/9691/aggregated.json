@@ -1,9 +1,12 @@
 {
-  "asn": 9691,
-  "handle": "KYUNGSUNG-AS",
-  "description": "KYUNGSUNG UNIVERSITY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9691,
+  "metadata" : {
+    "handle" : "KYUNGSUNG-AS",
+    "description" : "KYUNGSUNG UNIVERSITY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "117.16.92.0/22",
       "117.16.96.0/21",
       "117.16.104.0/22",
@@ -20,6 +23,6 @@
       "210.110.176.0/22",
       "210.110.180.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

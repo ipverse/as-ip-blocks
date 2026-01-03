@@ -1,12 +1,15 @@
 {
-  "asn": 35084,
-  "handle": "EUROCLEAR",
-  "description": "Euroclear SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35084,
+  "metadata" : {
+    "handle" : "EUROCLEAR",
+    "description" : "Euroclear SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.53.13.0/24",
       "193.53.248.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

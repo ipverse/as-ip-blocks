@@ -1,9 +1,12 @@
 {
-  "asn": 263783,
-  "handle": "TELEFONICA-MOVILES-EL",
-  "description": "Telefonica Moviles El Salvador S.A. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263783,
+  "metadata" : {
+    "handle" : "TELEFONICA-MOVILES-EL",
+    "description" : "Telefonica Moviles El Salvador S.A. de C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.119.93.0/24",
       "66.201.160.0/24",
       "66.201.165.0/24",
@@ -46,7 +49,7 @@
       "216.184.125.0/24",
       "216.184.127.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:1000::/32"
     ]
   }

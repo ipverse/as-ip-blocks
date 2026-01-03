@@ -1,9 +1,12 @@
 {
-  "asn": 140607,
-  "handle": "SIGNINN-AS-AP",
-  "description": "Sign In (PVT) LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140607,
+  "metadata" : {
+    "handle" : "SIGNINN-AS-AP",
+    "description" : "Sign In (PVT) LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.4.102.0/23",
       "103.69.56.0/23",
       "103.145.185.0/24",
@@ -16,7 +19,7 @@
       "116.90.122.0/24",
       "202.142.151.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:d860::/42"
     ]
   }

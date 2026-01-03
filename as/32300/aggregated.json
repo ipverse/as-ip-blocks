@@ -1,12 +1,15 @@
 {
-  "asn": 32300,
-  "handle": "FTNFI-ASN",
-  "description": "FTN Financial",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32300,
+  "metadata" : {
+    "handle" : "FTNFI-ASN",
+    "description" : "FTN Financial",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.133.188.0/24",
       "64.132.122.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

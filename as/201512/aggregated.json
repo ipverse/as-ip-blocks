@@ -1,14 +1,17 @@
 {
-  "asn": 201512,
-  "handle": "AS-WILDBERRIES-CDN",
-  "description": "LLC Wildberries",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201512,
+  "metadata" : {
+    "handle" : "AS-WILDBERRIES-CDN",
+    "description" : "LLC Wildberries",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "176.101.89.0/24",
       "176.101.90.0/23",
       "176.101.92.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:720:40::/48"
     ]
   }

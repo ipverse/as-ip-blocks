@@ -1,9 +1,12 @@
 {
-  "asn": 27268,
-  "handle": "CHICKASAW",
-  "description": "The Chickasaw Nation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27268,
+  "metadata" : {
+    "handle" : "CHICKASAW",
+    "description" : "The Chickasaw Nation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.5.133.0/24",
       "66.142.195.0/24",
       "69.8.63.0/24",
@@ -11,6 +14,6 @@
       "72.9.88.0/24",
       "140.106.164.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

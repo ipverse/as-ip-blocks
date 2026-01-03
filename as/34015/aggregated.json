@@ -1,12 +1,15 @@
 {
-  "asn": 34015,
-  "handle": "RHEINENERGIE",
-  "description": "RheinEnergie AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34015,
+  "metadata" : {
+    "handle" : "RHEINENERGIE",
+    "description" : "RheinEnergie AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.245.64.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:944::/48"
     ]
   }

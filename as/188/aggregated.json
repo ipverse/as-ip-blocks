@@ -1,13 +1,16 @@
 {
-  "asn": 188,
-  "handle": "SAIC-AS-188",
-  "description": "SAIC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 188,
+  "metadata" : {
+    "handle" : "SAIC-AS-188",
+    "description" : "SAIC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.64.200.0/24",
       "198.22.15.0/24",
       "198.151.10.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

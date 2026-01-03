@@ -1,9 +1,12 @@
 {
-  "asn": 213671,
-  "handle": "FOURTHUTILITY-AS",
-  "description": "Vision Fibre Media LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213671,
+  "metadata" : {
+    "handle" : "FOURTHUTILITY-AS",
+    "description" : "Vision Fibre Media LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.2.140.0/23",
       "149.5.59.0/24",
       "149.13.184.0/24",
@@ -12,7 +15,7 @@
       "154.51.84.0/22",
       "213.146.161.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:b100:2000::/36"
     ]
   }

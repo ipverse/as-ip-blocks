@@ -1,9 +1,12 @@
 {
-  "asn": 14928,
-  "handle": "ADAMS-CATV",
-  "description": "PenTeleData Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14928,
+  "metadata" : {
+    "handle" : "ADAMS-CATV",
+    "description" : "PenTeleData Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.172.16.0/24",
       "68.70.0.0/19",
       "72.28.0.0/18",
@@ -11,7 +14,7 @@
       "199.192.136.0/22",
       "199.241.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:3e00::/32"
     ]
   }

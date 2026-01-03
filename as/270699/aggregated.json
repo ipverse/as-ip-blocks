@@ -1,12 +1,15 @@
 {
-  "asn": 270699,
-  "handle": "GLOBAL-NET-TELECOM",
-  "description": "GLOBAL NET TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270699,
+  "metadata" : {
+    "handle" : "GLOBAL-NET-TELECOM",
+    "description" : "GLOBAL NET TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.187.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6ffc::/32"
     ]
   }

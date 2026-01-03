@@ -1,12 +1,15 @@
 {
-  "asn": 135021,
-  "handle": "PLATFORMPLUS-AS-AP",
-  "description": "PlatformPlus Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135021,
+  "metadata" : {
+    "handle" : "PLATFORMPLUS-AS-AP",
+    "description" : "PlatformPlus Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.167.56.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:6340::/32"
     ]
   }

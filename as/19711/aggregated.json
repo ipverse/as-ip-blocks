@@ -1,9 +1,12 @@
 {
-  "asn": 19711,
-  "handle": "SWAZINET",
-  "description": "SWAZILAND PTC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19711,
+  "metadata" : {
+    "handle" : "SWAZINET",
+    "description" : "SWAZILAND PTC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.84.224.0/19",
       "41.215.144.0/20",
       "69.63.64.0/20",
@@ -11,6 +14,6 @@
       "154.119.96.0/19",
       "196.8.228.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

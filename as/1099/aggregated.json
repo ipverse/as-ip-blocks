@@ -1,11 +1,14 @@
 {
-  "asn": 1099,
-  "handle": "WIFIBER-SPO-01",
-  "description": "WIFIBER",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1099,
+  "metadata" : {
+    "handle" : "WIFIBER-SPO-01",
+    "description" : "WIFIBER",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.217.250.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

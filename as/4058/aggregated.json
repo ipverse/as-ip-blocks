@@ -1,9 +1,12 @@
 {
-  "asn": 4058,
-  "handle": "CITICTEL-CPC-AS4058",
-  "description": "CITIC Telecom International CPC Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4058,
+  "metadata" : {
+    "handle" : "CITICTEL-CPC-AS4058",
+    "description" : "CITIC Telecom International CPC Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.125.165.0/24",
       "103.31.22.0/24",
       "152.101.0.0/16",
@@ -29,7 +32,7 @@
       "210.184.0.0/18",
       "210.184.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:2c00::/32"
     ]
   }

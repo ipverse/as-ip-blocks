@@ -1,9 +1,12 @@
 {
-  "asn": 395015,
-  "handle": "SUNY-FREDONIA",
-  "description": "SUNY College at Fredonia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395015,
+  "metadata" : {
+    "handle" : "SUNY-FREDONIA",
+    "description" : "SUNY College at Fredonia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.238.1.0/24",
       "141.238.2.0/23",
       "141.238.4.0/22",
@@ -49,6 +52,6 @@
       "141.238.251.0/24",
       "141.238.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

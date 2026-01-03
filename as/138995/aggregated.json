@@ -1,9 +1,12 @@
 {
-  "asn": 138995,
-  "handle": "ANTBOX1-AS-AP",
-  "description": "Antbox Networks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138995,
+  "metadata" : {
+    "handle" : "ANTBOX1-AS-AP",
+    "description" : "Antbox Networks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.125.216.0/22",
       "45.192.167.0/24",
       "45.192.168.0/22",
@@ -67,7 +70,7 @@
       "192.238.176.0/20",
       "192.238.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:5f80::/48"
     ]
   }

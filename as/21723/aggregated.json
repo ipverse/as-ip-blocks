@@ -1,9 +1,12 @@
 {
-  "asn": 21723,
-  "handle": "GOCO",
-  "description": "GOCO TECHNOLOGY LIMITED PARTNERSHIP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21723,
+  "metadata" : {
+    "handle" : "GOCO",
+    "description" : "GOCO TECHNOLOGY LIMITED PARTNERSHIP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.85.32.0/19",
       "64.235.192.0/19",
       "64.254.249.0/24",
@@ -79,7 +82,7 @@
       "216.40.96.0/19",
       "216.123.220.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fc70::/32"
     ]
   }

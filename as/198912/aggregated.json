@@ -1,14 +1,17 @@
 {
-  "asn": 198912,
-  "handle": "SITA-SPC-CLOUD-FRA",
-  "description": "Societe Internationale de Telecommunications Aeronautiques",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198912,
+  "metadata" : {
+    "handle" : "SITA-SPC-CLOUD-FRA",
+    "description" : "Societe Internationale de Telecommunications Aeronautiques",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "57.191.127.0/24",
       "57.191.192.0/18",
       "57.250.220.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:90c2::/35"
     ]
   }

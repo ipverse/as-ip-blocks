@@ -1,12 +1,15 @@
 {
-  "asn": 141030,
-  "handle": "CIRCLENETWORK-AS-AP",
-  "description": "CIRCLE NETWORK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141030,
+  "metadata" : {
+    "handle" : "CIRCLENETWORK-AS-AP",
+    "description" : "CIRCLE NETWORK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.101.13.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:3dc0:41::/48",
       "2400:3dc0:42::/48",
       "2400:3dc0:47::/48",

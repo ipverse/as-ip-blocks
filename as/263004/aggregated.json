@@ -1,13 +1,16 @@
 {
-  "asn": 263004,
-  "handle": "CZNET-PROVEDOR-INTERNET",
-  "description": "CZNET PROVEDOR DE INTERNET LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263004,
+  "metadata" : {
+    "handle" : "CZNET-PROVEDOR-INTERNET",
+    "description" : "CZNET PROVEDOR DE INTERNET LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.208.228.0/22",
       "186.237.16.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2be4::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 132494,
-  "handle": "UTHM-AS-AP",
-  "description": "Universiti Tun Hussein Onn Malaysia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132494,
+  "metadata" : {
+    "handle" : "UTHM-AS-AP",
+    "description" : "Universiti Tun Hussein Onn Malaysia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.31.34.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:427::/48"
     ]
   }

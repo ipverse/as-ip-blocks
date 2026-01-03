@@ -1,15 +1,18 @@
 {
-  "asn": 28530,
-  "handle": "MEXICO-RED-TELECOMUNICACIONES",
-  "description": "Mexico Red de Telecomunicaciones S. de R.L. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28530,
+  "metadata" : {
+    "handle" : "MEXICO-RED-TELECOMUNICACIONES",
+    "description" : "Mexico Red de Telecomunicaciones S. de R.L. de C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.246.49.0/24",
       "148.246.51.0/24",
       "148.246.187.0/24",
       "187.187.224.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1260:1a::/48",
       "2001:1260:a00::/43"
     ]

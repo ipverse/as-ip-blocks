@@ -1,12 +1,15 @@
 {
-  "asn": 54785,
-  "handle": "STRATO",
-  "description": "Strato One Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54785,
+  "metadata" : {
+    "handle" : "STRATO",
+    "description" : "Strato One Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.160.104.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fa57::/40"
     ]
   }

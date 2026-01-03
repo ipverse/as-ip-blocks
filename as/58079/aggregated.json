@@ -1,9 +1,12 @@
 {
-  "asn": 58079,
-  "handle": "SATCOM-TROYAN-NET",
-  "description": "Skynet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58079,
+  "metadata" : {
+    "handle" : "SATCOM-TROYAN-NET",
+    "description" : "Skynet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.35.180.0/23",
       "46.35.184.0/21",
       "93.152.241.0/24",
@@ -12,6 +15,6 @@
       "95.158.153.0/24",
       "95.158.184.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

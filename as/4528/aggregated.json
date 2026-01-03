@@ -1,9 +1,12 @@
 {
-  "asn": 4528,
-  "handle": "HKU-AS-HK",
-  "description": "The University of Hong Kong",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4528,
+  "metadata" : {
+    "handle" : "HKU-AS-HK",
+    "description" : "The University of Hong Kong",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.8.0.0/16",
       "175.159.158.0/23",
       "175.159.160.0/19",
@@ -11,7 +14,7 @@
       "202.45.128.0/24",
       "202.189.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:ce0:2::/48",
       "2001:ce0:2200::/40"
     ]

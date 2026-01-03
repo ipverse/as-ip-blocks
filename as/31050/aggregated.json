@@ -1,12 +1,15 @@
 {
-  "asn": 31050,
-  "handle": "FRAMESTORE",
-  "description": "The Framestore Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31050,
+  "metadata" : {
+    "handle" : "FRAMESTORE",
+    "description" : "The Framestore Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.110.131.0/24",
       "185.101.12.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

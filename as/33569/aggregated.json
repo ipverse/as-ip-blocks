@@ -1,9 +1,12 @@
 {
-  "asn": 33569,
-  "handle": "ALLHOSTSHOP",
-  "description": "ALLHOSTSHOP.COM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33569,
+  "metadata" : {
+    "handle" : "ALLHOSTSHOP",
+    "description" : "ALLHOSTSHOP.COM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.14.120.0/23",
       "216.18.226.0/23",
       "216.18.228.0/24",
@@ -12,6 +15,6 @@
       "216.18.237.0/24",
       "216.18.238.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

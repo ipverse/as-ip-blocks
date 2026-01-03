@@ -1,9 +1,12 @@
 {
-  "asn": 206866,
-  "handle": "GARTEL",
-  "description": "GARTEL TELEFONIA Y COMUNICACION S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206866,
+  "metadata" : {
+    "handle" : "GARTEL",
+    "description" : "GARTEL TELEFONIA Y COMUNICACION S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.232.40.0/21",
       "157.97.88.0/24",
       "157.97.93.0/24",
@@ -11,7 +14,7 @@
       "176.98.216.0/23",
       "185.56.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:52e0::/32"
     ]
   }

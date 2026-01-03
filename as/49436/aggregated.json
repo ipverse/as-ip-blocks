@@ -1,14 +1,17 @@
 {
-  "asn": 49436,
-  "handle": "STADTWERKE-SOEST",
-  "description": "Stadtwerke Soest GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49436,
+  "metadata" : {
+    "handle" : "STADTWERKE-SOEST",
+    "description" : "Stadtwerke Soest GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.248.188.0/22",
       "185.250.168.0/22",
       "195.42.158.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:f47::/32",
       "2a0e:1b00::/31",
       "2a0e:1b07::/32"

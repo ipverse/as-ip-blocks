@@ -1,13 +1,16 @@
 {
-  "asn": 52541,
-  "handle": "NEW-SPEED-INTERNET",
-  "description": "New Speed Internet Banda Larga",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52541,
+  "metadata" : {
+    "handle" : "NEW-SPEED-INTERNET-BANDA-LARGA",
+    "description" : "New Speed Internet Banda Larga",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.129.156.0/22",
       "200.9.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:185c::/32"
     ]
   }

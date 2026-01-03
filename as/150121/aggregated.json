@@ -1,11 +1,14 @@
 {
-  "asn": 150121,
-  "handle": "TASMANIAN-AS-AP",
-  "description": "Tasmanian Colo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150121,
+  "metadata" : {
+    "handle" : "TASMANIAN-AS-AP",
+    "description" : "Tasmanian Colo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.191.68.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

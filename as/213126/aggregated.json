@@ -1,12 +1,15 @@
 {
-  "asn": 213126,
-  "handle": "HOSTISHERE-AS",
-  "description": "Marcel Neufeld trading as Hostishere",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213126,
+  "metadata" : {
+    "handle" : "HOSTISHERE-AS",
+    "description" : "Marcel Neufeld trading as Hostishere",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "92.119.167.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:9400:6102::/48",
       "2a11:29c0:23::/48",
       "2a11:29c0:3db0::/48"

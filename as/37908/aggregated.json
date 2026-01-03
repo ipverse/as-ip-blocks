@@ -1,9 +1,12 @@
 {
-  "asn": 37908,
-  "handle": "KBC",
-  "description": "KIBI Cable Television Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37908,
+  "metadata" : {
+    "handle" : "KBC",
+    "description" : "KIBI Cable Television Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.10.164.0/22",
       "118.103.128.0/21",
       "122.128.0.0/20",
@@ -11,7 +14,7 @@
       "202.236.157.0/24",
       "202.254.111.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8320::/32"
     ]
   }

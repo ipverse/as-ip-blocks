@@ -1,9 +1,12 @@
 {
-  "asn": 9583,
-  "handle": "SIFY-AS-IN",
-  "description": "Sify Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9583,
+  "metadata" : {
+    "handle" : "SIFY-AS-IN",
+    "description" : "Sify Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.6.0.0/16",
       "1.7.0.0/24",
       "1.7.3.0/24",
@@ -592,7 +595,7 @@
       "223.31.244.0/23",
       "223.31.246.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:e48::/32"
     ]
   }

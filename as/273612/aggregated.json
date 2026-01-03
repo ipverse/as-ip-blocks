@@ -1,14 +1,17 @@
 {
-  "asn": 273612,
-  "handle": "FABWEB-SERVICOS-INTERNET",
-  "description": "FABWEB SERVICOS DE INTERNET LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273612,
+  "metadata" : {
+    "handle" : "FABWEB-SERVICOS-INTERNET",
+    "description" : "FABWEB SERVICOS DE INTERNET LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.114.62.0/24",
       "151.243.0.0/24",
       "166.0.186.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8990:1000::/48",
       "2804:8990:2000::/48",
       "2804:8990:8000::/48"

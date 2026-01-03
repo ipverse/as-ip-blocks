@@ -1,14 +1,17 @@
 {
-  "asn": 393507,
-  "handle": "GUSHISYS",
-  "description": "Gush I Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393507,
+  "metadata" : {
+    "handle" : "GUSHISYS",
+    "description" : "Gush I Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.20.68.0/23",
       "192.122.209.0/24",
       "199.164.166.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:137:6000::/44"
     ]
   }

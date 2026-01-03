@@ -1,10 +1,13 @@
 {
-  "asn": 32434,
-  "handle": "IMP-NET",
-  "description": "Imperial Network",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 32434,
+  "metadata" : {
+    "handle" : "IMP-NET",
+    "description" : "Imperial Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2602:f6a8::/41",
       "2602:f6a8:80::/44"
     ]

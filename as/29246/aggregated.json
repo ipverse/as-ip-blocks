@@ -1,13 +1,16 @@
 {
-  "asn": 29246,
-  "handle": "OPTILIAN-AS",
-  "description": "OPTILIAN SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29246,
+  "metadata" : {
+    "handle" : "OPTILIAN-AS",
+    "description" : "OPTILIAN SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.89.168.0/22",
       "195.68.250.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:18a8::/32"
     ]
   }

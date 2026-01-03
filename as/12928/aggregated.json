@@ -1,11 +1,14 @@
 {
-  "asn": 12928,
-  "handle": "BCV",
-  "description": "Banque Cantonale Vaudoise",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12928,
+  "metadata" : {
+    "handle" : "BCV",
+    "description" : "Banque Cantonale Vaudoise",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.163.64.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

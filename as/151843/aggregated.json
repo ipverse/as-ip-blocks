@@ -1,12 +1,15 @@
 {
-  "asn": 151843,
-  "handle": "SUPERNET2-AS-AP",
-  "description": "Supernet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151843,
+  "metadata" : {
+    "handle" : "SUPERNET2-AS-AP",
+    "description" : "Supernet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.242.102.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:fec0::/48"
     ]
   }

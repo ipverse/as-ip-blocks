@@ -1,9 +1,12 @@
 {
-  "asn": 329129,
-  "handle": "LNETLICT",
-  "description": "Libyan International Company for Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 329129,
+  "metadata" : {
+    "handle" : "LNETLICT",
+    "description" : "Libyan International Company for Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.69.0.0/19",
       "102.69.76.0/22",
       "102.69.97.0/24",
@@ -13,6 +16,6 @@
       "169.239.92.0/23",
       "169.239.95.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

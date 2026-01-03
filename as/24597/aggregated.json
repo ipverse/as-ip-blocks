@@ -1,12 +1,15 @@
 {
-  "asn": 24597,
-  "handle": "ITL-AS",
-  "description": "Instytut Lacznosci - Panstwowy Instytut Badawczy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24597,
+  "metadata" : {
+    "handle" : "ITL-AS",
+    "description" : "Instytut Lacznosci - Panstwowy Instytut Badawczy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.110.137.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:25ac::/48"
     ]
   }

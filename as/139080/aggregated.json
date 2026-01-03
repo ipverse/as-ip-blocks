@@ -1,9 +1,12 @@
 {
-  "asn": 139080,
-  "handle": "CMNET-SCIDC-CN",
-  "description": "China Mobile Communications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139080,
+  "metadata" : {
+    "handle" : "CMNET-SCIDC-CN",
+    "description" : "China Mobile Communications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.140.13.0/24",
       "36.140.255.0/24",
       "36.170.16.0/22",
@@ -70,7 +73,7 @@
       "223.87.16.0/23",
       "223.87.86.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2409:8062:3002::/48",
       "2409:8c62:410::/44",
       "2409:8c62:e10::/44",

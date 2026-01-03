@@ -1,15 +1,18 @@
 {
-  "asn": 13343,
-  "handle": "TWC-13343-CHARLOTTE",
-  "description": "Charter Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13343,
+  "metadata" : {
+    "handle" : "TWC-13343-CHARLOTTE",
+    "description" : "Charter Communications Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.24.64.0/19",
       "24.166.144.0/20",
       "71.66.60.0/22",
       "159.111.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1998:8d0::/44"
     ]
   }

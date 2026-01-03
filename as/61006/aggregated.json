@@ -1,9 +1,12 @@
 {
-  "asn": 61006,
-  "handle": "BREDBANDSFYLKET-TROMS",
-  "description": "Bredbandsfylket AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61006,
+  "metadata" : {
+    "handle" : "BREDBANDSFYLKET-TROMS",
+    "description" : "Bredbandsfylket AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.252.112.0/21",
       "93.188.88.0/21",
       "185.39.200.0/22",
@@ -13,7 +16,7 @@
       "193.161.248.0/22",
       "194.187.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:d740::/29",
       "2a01:9b00::/32"
     ]

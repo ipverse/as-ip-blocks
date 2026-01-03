@@ -1,12 +1,15 @@
 {
-  "asn": 213068,
-  "handle": "KIT-ANYCAST",
-  "description": "Karlsruhe Institute of Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213068,
+  "metadata" : {
+    "handle" : "KIT-ANYCAST",
+    "description" : "Karlsruhe Institute of Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.237.152.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:da0::/48",
       "2001:678:da4::/48"
     ]

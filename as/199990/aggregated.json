@@ -1,12 +1,15 @@
 {
-  "asn": 199990,
-  "handle": "LOCALHOST-AS",
-  "description": "LOCALHOST AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199990,
+  "metadata" : {
+    "handle" : "LOCALHOST-AS",
+    "description" : "LOCALHOST AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.158.192.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6060::/32"
     ]
   }

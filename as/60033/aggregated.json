@@ -1,12 +1,15 @@
 {
-  "asn": 60033,
-  "handle": "SOFTECH-AS",
-  "description": "Softech SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60033,
+  "metadata" : {
+    "handle" : "SOFTECH-AS",
+    "description" : "Softech SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "188.213.217.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:b5c::/48"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 60335,
-  "handle": "BS-LIMANOWA-AS",
-  "description": "Bank Spoldzielczy w Limanowej",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60335,
+  "metadata" : {
+    "handle" : "BS-LIMANOWA-AS",
+    "description" : "Bank Spoldzielczy w Limanowej",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.233.107.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

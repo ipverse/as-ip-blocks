@@ -1,9 +1,12 @@
 {
-  "asn": 16628,
-  "handle": "DEDICATED-FIBER-COMMUNICATIONS",
-  "description": "DedFiberCo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16628,
+  "metadata" : {
+    "handle" : "DEDICATED-FIBER-COMMUNICATIONS",
+    "description" : "DedFiberCo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.37.44.0/22",
       "104.171.144.0/20",
       "104.237.224.0/22",
@@ -28,7 +31,7 @@
       "192.30.84.0/23",
       "192.30.87.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ffbc::/48"
     ]
   }

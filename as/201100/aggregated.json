@@ -1,11 +1,14 @@
 {
-  "asn": 201100,
-  "handle": "ANET-MAIN-AS",
-  "description": "LLC Demo-Club",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201100,
+  "metadata" : {
+    "handle" : "ANET-MAIN-AS",
+    "description" : "LLC Demo-Club",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.85.216.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 138529,
-  "handle": "DATANET-AS-AP",
-  "description": "DATANET WIFI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138529,
+  "metadata" : {
+    "handle" : "DATANET-AS-AP",
+    "description" : "DATANET WIFI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.127.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:eb80::/48"
     ]
   }

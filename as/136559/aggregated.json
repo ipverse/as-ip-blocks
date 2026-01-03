@@ -1,12 +1,15 @@
 {
-  "asn": 136559,
-  "handle": "OMEGANETWORKSLTD-AS-AP",
-  "description": "Omega Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136559,
+  "metadata" : {
+    "handle" : "OMEGANETWORKSLTD-AS-AP",
+    "description" : "Omega Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.169.36.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:99c0::/32"
     ]
   }

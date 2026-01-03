@@ -1,13 +1,16 @@
 {
-  "asn": 54930,
-  "handle": "TIER2-TECHNOLOGIES",
-  "description": "Tier2 Technologies",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54930,
+  "metadata" : {
+    "handle" : "TIER2-TECHNOLOGIES",
+    "description" : "Tier2 Technologies",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.164.120.0/24",
       "199.26.176.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f9f9::/40"
     ]
   }

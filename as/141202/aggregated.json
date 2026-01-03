@@ -1,12 +1,15 @@
 {
-  "asn": 141202,
-  "handle": "UDAAN-AS-AP",
-  "description": "UDAAN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141202,
+  "metadata" : {
+    "handle" : "UDAAN-AS-AP",
+    "description" : "UDAAN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.156.106.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:8540::/47",
       "2406:8540:2::/48"
     ]

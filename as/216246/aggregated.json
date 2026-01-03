@@ -1,9 +1,12 @@
 {
-  "asn": 216246,
-  "handle": "RU-AEZA-AS",
-  "description": "Aeza Group LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216246,
+  "metadata" : {
+    "handle" : "RU-AEZA-AS",
+    "description" : "Aeza Group LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.110.104.0/23",
       "77.221.151.0/24",
       "79.137.192.0/24",
@@ -26,7 +29,7 @@
       "194.113.106.0/24",
       "217.144.184.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:e5c0::/35",
       "2a0f:cdc6:2010::/44",
       "2a0f:cdc6:2020::/44"

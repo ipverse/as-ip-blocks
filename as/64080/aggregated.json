@@ -1,9 +1,12 @@
 {
-  "asn": 64080,
-  "handle": "SYN-UK",
-  "description": "SYN LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64080,
+  "metadata" : {
+    "handle" : "SYN-UK",
+    "description" : "SYN LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.43.64.0/23",
       "45.43.67.0/24",
       "45.43.68.0/22",
@@ -37,7 +40,7 @@
       "198.105.121.0/24",
       "198.105.122.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:9f40:1f::/48",
       "2a05:9f44:2a05::/48",
       "2a05:9f46::/31"

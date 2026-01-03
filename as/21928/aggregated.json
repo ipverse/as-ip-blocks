@@ -1,9 +1,12 @@
 {
-  "asn": 21928,
-  "handle": "T-MOBILE-AS21928",
-  "description": "T-Mobile USA Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21928,
+  "metadata" : {
+    "handle" : "T-MOBILE-AS21928",
+    "description" : "T-Mobile USA Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.221.0.0/16",
       "65.76.0.0/16",
       "66.94.0.0/19",
@@ -28,7 +31,7 @@
       "208.54.0.0/17",
       "208.54.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4870:150::/44",
       "2001:4870:e00b::/48",
       "2607:fb90::/28"

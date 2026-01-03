@@ -1,9 +1,12 @@
 {
-  "asn": 13415,
-  "handle": "FIRSTDIGITAL",
-  "description": "FirstDigital Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13415,
+  "metadata" : {
+    "handle" : "FIRSTDIGITAL",
+    "description" : "FirstDigital Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.41.124.0/22",
       "65.181.48.0/20",
       "66.7.112.0/20",
@@ -41,7 +44,7 @@
       "208.83.111.0/24",
       "216.10.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:7400::/28",
       "2607:f898::/32"
     ]

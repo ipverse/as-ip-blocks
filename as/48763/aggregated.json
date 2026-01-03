@@ -1,9 +1,12 @@
 {
-  "asn": 48763,
-  "handle": "SMARTCENTER-AS",
-  "description": "LLC SMART CENTER",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48763,
+  "metadata" : {
+    "handle" : "SMARTCENTER-AS",
+    "description" : "LLC SMART CENTER",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.44.40.0/23",
       "82.114.224.0/21",
       "95.141.205.0/24",
@@ -16,6 +19,6 @@
       "213.232.207.0/24",
       "217.171.147.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

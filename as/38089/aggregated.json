@@ -1,14 +1,17 @@
 {
-  "asn": 38089,
-  "handle": "KBANK-AS",
-  "description": "kbank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38089,
+  "metadata" : {
+    "handle" : "KBANK-AS",
+    "description" : "kbank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.77.84.0/23",
       "121.162.123.0/24",
       "211.217.240.0/24",
       "220.71.75.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

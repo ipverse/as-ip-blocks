@@ -1,13 +1,16 @@
 {
-  "asn": 16080,
-  "handle": "DALENYS",
-  "description": "Payplug Enterprise SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16080,
+  "metadata" : {
+    "handle" : "DALENYS",
+    "description" : "Payplug Enterprise SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.70.222.0/23",
       "80.89.122.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:d48:bb::/48"
     ]
   }

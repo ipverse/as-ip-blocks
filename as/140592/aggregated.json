@@ -1,16 +1,19 @@
 {
-  "asn": 140592,
-  "handle": "GOVTECH-AS-WOG-NC",
-  "description": "GOVERNMENT TECHNOLOGY AGENCY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140592,
+  "metadata" : {
+    "handle" : "GOVTECH-AS-WOG-NC",
+    "description" : "GOVERNMENT TECHNOLOGY AGENCY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.96.0.0/21",
       "160.96.8.0/23",
       "160.96.68.0/23",
       "160.96.212.0/22",
       "160.96.252.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:314::/46",
       "2001:df0:31a::/47",
       "2001:df0:31c::/47"

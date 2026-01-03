@@ -1,14 +1,17 @@
 {
-  "asn": 5672,
-  "handle": "PBI-NET-BLK",
-  "description": "AT\u0026T Enterprises LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5672,
+  "metadata" : {
+    "handle" : "PBI-NET-BLK",
+    "description" : "AT&T Enterprises LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.224.80.0/21",
       "198.225.64.0/21",
       "198.225.72.0/22",
       "198.225.80.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

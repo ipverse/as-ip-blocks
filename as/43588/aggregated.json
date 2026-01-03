@@ -1,14 +1,17 @@
 {
-  "asn": 43588,
-  "handle": "LEVEL7-AS",
-  "description": "IM Level 7 SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43588,
+  "metadata" : {
+    "handle" : "LEVEL7-AS",
+    "description" : "IM Level 7 SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.131.0.0/22",
       "31.131.4.0/23",
       "31.131.6.0/24",
       "91.228.108.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

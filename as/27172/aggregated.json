@@ -1,12 +1,15 @@
 {
-  "asn": 27172,
-  "handle": "3COM-NET-ROUTER-AS27172",
-  "description": "3Com Net Router",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27172,
+  "metadata" : {
+    "handle" : "3COM-NET-ROUTER-AS27172",
+    "description" : "3Com Net Router",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.139.140.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f635::/40"
     ]
   }

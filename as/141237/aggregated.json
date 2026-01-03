@@ -1,10 +1,13 @@
 {
-  "asn": 141237,
-  "handle": "MOECAST-AS-HK",
-  "description": "Moecast Network",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 141237,
+  "metadata" : {
+    "handle" : "MOECAST-AS-HK",
+    "description" : "Moecast Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2602:feda:ce1::/48"
     ]
   }

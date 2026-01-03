@@ -1,9 +1,12 @@
 {
-  "asn": 200810,
-  "handle": "CONECTA3",
-  "description": "CONECTA 3 TELECOM S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200810,
+  "metadata" : {
+    "handle" : "CONECTA3",
+    "description" : "CONECTA 3 TELECOM S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.93.120.0/23",
       "81.28.240.0/22",
       "89.36.80.0/21",
@@ -11,7 +14,7 @@
       "185.245.188.0/22",
       "185.246.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:6580::/32"
     ]
   }

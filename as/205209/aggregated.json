@@ -1,9 +1,12 @@
 {
-  "asn": 205209,
-  "handle": "BYNET-BUSINESS",
-  "description": "BINAT BUSINESS LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205209,
+  "metadata" : {
+    "handle" : "BYNET-BUSINESS",
+    "description" : "BINAT BUSINESS LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.74.96.0/23",
       "80.74.99.0/24",
       "80.74.123.0/24",
@@ -26,6 +29,6 @@
       "141.226.250.0/23",
       "185.223.0.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 14467,
-  "handle": "KUA-NET",
-  "description": "KUA.net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14467,
+  "metadata" : {
+    "handle" : "KUA-NET",
+    "description" : "KUA.net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.192.96.0/23",
       "209.26.178.0/23",
       "209.26.180.0/23",
       "209.26.182.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

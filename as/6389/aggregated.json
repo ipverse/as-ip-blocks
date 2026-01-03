@@ -1,9 +1,12 @@
 {
-  "asn": 6389,
-  "handle": "BELLSOUTH-NET-BLK",
-  "description": "AT\u0026T Enterprises LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6389,
+  "metadata" : {
+    "handle" : "BELLSOUTH-NET-BLK",
+    "description" : "AT&T Enterprises LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.130.209.0/24",
       "65.5.0.0/16",
       "65.13.0.0/16",
@@ -50,6 +53,6 @@
       "209.149.0.0/16",
       "216.76.0.0/14"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

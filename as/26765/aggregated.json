@@ -1,11 +1,14 @@
 {
-  "asn": 26765,
-  "handle": "REDUNDANT-INTERNET",
-  "description": "Bountiful City",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26765,
+  "metadata" : {
+    "handle" : "REDUNDANT-INTERNET",
+    "description" : "Bountiful City",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.129.31.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

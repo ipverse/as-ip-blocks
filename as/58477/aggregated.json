@@ -1,9 +1,12 @@
 {
-  "asn": 58477,
-  "handle": "ARGON-AS-ID",
-  "description": "Argon Data Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58477,
+  "metadata" : {
+    "handle" : "ARGON-AS-ID",
+    "description" : "Argon Data Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.111.34.0/24",
       "45.64.96.0/24",
       "45.64.98.0/23",
@@ -17,6 +20,6 @@
       "103.215.72.0/24",
       "157.66.56.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 149385,
-  "handle": "IDNIC-AGUNGNETWORK-AS-ID",
-  "description": "PT Agung Network Solution",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149385,
+  "metadata" : {
+    "handle" : "IDNIC-AGUNGNETWORK-AS-ID",
+    "description" : "PT Agung Network Solution",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.178.223.0/24",
       "103.205.185.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:1ac0::/48"
     ]
   }

@@ -1,11 +1,15 @@
 {
-  "asn": 39974,
-  "handle": "ALTITUDE-ISP",
-  "description": "Altitude ISP LLC",
-  "subnets": {
-    "ipv4": [
-      "66.118.50.0/23"
+  "asn" : 39974,
+  "metadata" : {
+    "handle" : "ALTITUDE-ISP",
+    "description" : "Altitude ISP LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
+      "66.118.50.0/23",
+      "66.187.199.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

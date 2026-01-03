@@ -1,12 +1,15 @@
 {
-  "asn": 205543,
-  "handle": "GHZ-AS",
-  "description": "Gigahertz GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205543,
+  "metadata" : {
+    "handle" : "GHZ-AS",
+    "description" : "Gigahertz GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.214.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:af41::/36"
     ]
   }

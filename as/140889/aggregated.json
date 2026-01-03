@@ -1,12 +1,15 @@
 {
-  "asn": 140889,
-  "handle": "IMPEXBDNET-AS-AP",
-  "description": "Impex Bd Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140889,
+  "metadata" : {
+    "handle" : "IMPEXBDNET-AS-AP",
+    "description" : "Impex Bd Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.182.170.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:feda:b8a::/48"
     ]
   }

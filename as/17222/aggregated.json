@@ -1,9 +1,12 @@
 {
-  "asn": 17222,
-  "handle": "MUNDIVOX-BRASIL",
-  "description": "MUNDIVOX DO BRASIL LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17222,
+  "metadata" : {
+    "handle" : "MUNDIVOX-BRASIL",
+    "description" : "MUNDIVOX DO BRASIL LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.159.224.0/19",
       "149.19.206.0/23",
       "161.38.40.0/23",
@@ -21,7 +24,7 @@
       "200.201.176.0/20",
       "201.76.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:710::/32"
     ]
   }

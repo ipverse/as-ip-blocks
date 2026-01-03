@@ -1,12 +1,15 @@
 {
-  "asn": 11200,
-  "handle": "REGISU",
-  "description": "Regis University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11200,
+  "metadata" : {
+    "handle" : "REGISU",
+    "description" : "Regis University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.236.76.0/24",
       "207.93.211.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

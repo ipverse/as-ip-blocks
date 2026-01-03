@@ -1,12 +1,15 @@
 {
-  "asn": 57181,
-  "handle": "ASRTK",
-  "description": "OOO RTK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57181,
+  "metadata" : {
+    "handle" : "ASRTK",
+    "description" : "OOO RTK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.133.200.0/21",
       "91.228.96.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

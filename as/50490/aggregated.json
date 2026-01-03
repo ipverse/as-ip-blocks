@@ -1,13 +1,16 @@
 {
-  "asn": 50490,
-  "handle": "EM-FIBERBREDBAAND-AS",
-  "description": "Sinal A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50490,
+  "metadata" : {
+    "handle" : "EM-FIBERBREDBAAND-AS",
+    "description" : "Sinal A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.21.90.0/23",
       "178.21.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1f9f::/32"
     ]
   }

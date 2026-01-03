@@ -1,9 +1,12 @@
 {
-  "asn": 14340,
-  "handle": "SALESFORCE",
-  "description": "Salesforce.com Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14340,
+  "metadata" : {
+    "handle" : "SALESFORCE",
+    "description" : "Salesforce.com Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "13.108.0.0/14",
       "66.231.80.0/20",
       "68.232.192.0/20",
@@ -33,7 +36,7 @@
       "202.129.242.0/23",
       "204.14.232.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:ce80::/32",
       "2605:6180::/32",
       "2a03:5d60::/32"

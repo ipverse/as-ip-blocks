@@ -1,9 +1,12 @@
 {
-  "asn": 20161,
-  "handle": "TRGO",
-  "description": "TeraGo Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20161,
+  "metadata" : {
+    "handle" : "TRGO",
+    "description" : "TeraGo Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.201.160.0/19",
       "66.11.64.0/19",
       "66.119.160.0/19",
@@ -30,7 +33,7 @@
       "209.97.192.0/19",
       "209.162.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:d00::/28"
     ]
   }

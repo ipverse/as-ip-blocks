@@ -1,14 +1,17 @@
 {
-  "asn": 268786,
-  "handle": "LINE-FIBRA-TELECOM",
-  "description": "LINE FIBRA TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268786,
+  "metadata" : {
+    "handle" : "LINE-FIBRA-TELECOM",
+    "description" : "LINE FIBRA TELECOM LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.172.168.0/24",
       "45.172.170.0/23",
       "168.196.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5aa4::/32"
     ]
   }

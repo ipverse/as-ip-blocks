@@ -1,9 +1,12 @@
 {
-  "asn": 55701,
-  "handle": "ASNET-AS-ID",
-  "description": "PT. Usaha Adisanggoro",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55701,
+  "metadata" : {
+    "handle" : "ASNET-AS-ID",
+    "description" : "PT. Usaha Adisanggoro",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.46.214.0/24",
       "43.252.236.0/23",
       "43.252.238.0/24",
@@ -17,6 +20,6 @@
       "202.73.24.0/24",
       "202.73.27.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

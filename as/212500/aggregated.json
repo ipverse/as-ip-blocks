@@ -1,12 +1,15 @@
 {
-  "asn": 212500,
-  "handle": "SURFNET",
-  "description": "Surfnett AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212500,
+  "metadata" : {
+    "handle" : "SURFNET",
+    "description" : "Surfnett AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.152.50.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:9c80::/29"
     ]
   }

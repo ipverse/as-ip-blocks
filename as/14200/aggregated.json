@@ -1,15 +1,18 @@
 {
-  "asn": 14200,
-  "handle": "MARSHALLUNIV",
-  "description": "Marshall University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14200,
+  "metadata" : {
+    "handle" : "MARSHALLUNIV",
+    "description" : "Marshall University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.206.224.0/24",
       "199.217.0.0/21",
       "204.69.191.0/24",
       "206.212.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:3::/48"
     ]
   }

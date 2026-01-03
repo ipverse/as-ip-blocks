@@ -1,9 +1,12 @@
 {
-  "asn": 133712,
-  "handle": "SPECTRACLOUD-AS",
-  "description": "Spectra Technologies India Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133712,
+  "metadata" : {
+    "handle" : "SPECTRACLOUD-AS",
+    "description" : "Spectra Technologies India Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.231.248.0/23",
       "43.231.250.0/24",
       "45.248.120.0/22",
@@ -18,7 +21,7 @@
       "220.158.164.0/23",
       "220.158.167.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:c0c0:1::/48",
       "2407:c0c0:2::/48"
     ]

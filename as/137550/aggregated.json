@@ -1,12 +1,15 @@
 {
-  "asn": 137550,
-  "handle": "POWERLINK-AS-AP",
-  "description": "Power Link Dot Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137550,
+  "metadata" : {
+    "handle" : "POWERLINK-AS-AP",
+    "description" : "Power Link Dot Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.112.236.0/24",
       "103.112.238.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

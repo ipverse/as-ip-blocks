@@ -1,9 +1,12 @@
 {
-  "asn": 7227,
-  "handle": "KPMGL-AS",
-  "description": "KPMG LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7227,
+  "metadata" : {
+    "handle" : "KPMGL-AS",
+    "description" : "KPMG LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.206.0.0/16",
       "199.207.24.0/24",
       "199.207.28.0/24",
@@ -23,6 +26,6 @@
       "199.207.253.0/24",
       "199.207.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

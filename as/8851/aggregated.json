@@ -1,9 +1,12 @@
 {
-  "asn": 8851,
-  "handle": "EDGE",
-  "description": "GCI Network Solutions Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8851,
+  "metadata" : {
+    "handle" : "EDGE",
+    "description" : "GCI Network Solutions Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.98.144.0/21",
       "37.252.24.0/21",
       "62.164.131.0/24",
@@ -194,7 +197,7 @@
       "217.154.230.0/24",
       "217.154.246.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1a90::/32",
       "2a00:c60::/32",
       "2a00:1c40::/29",

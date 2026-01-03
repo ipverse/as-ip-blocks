@@ -1,14 +1,17 @@
 {
-  "asn": 44555,
-  "handle": "KONEKT-AS",
-  "description": "KONEKT Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44555,
+  "metadata" : {
+    "handle" : "KONEKT-AS",
+    "description" : "KONEKT Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.137.250.0/24",
       "85.192.62.0/24",
       "89.208.30.0/24",
       "89.208.122.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

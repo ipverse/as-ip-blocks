@@ -1,12 +1,15 @@
 {
-  "asn": 141695,
-  "handle": "PACIFICCOMMUNITY-AS-AP",
-  "description": "Pacific Community",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141695,
+  "metadata" : {
+    "handle" : "PACIFICCOMMUNITY-AS-AP",
+    "description" : "Pacific Community",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.0.156.0/24",
       "202.0.158.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

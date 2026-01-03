@@ -1,10 +1,13 @@
 {
-  "asn": 215577,
-  "handle": "LUC-AS",
-  "description": "Lucas van Beek",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 215577,
+  "metadata" : {
+    "handle" : "LUC-AS",
+    "description" : "Lucas van Beek",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a07:54c7:5f00::/44",
       "2a07:54c7:5f10::/48",
       "2a07:54c7:5ffe::/48",

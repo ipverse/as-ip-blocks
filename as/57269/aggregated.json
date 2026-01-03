@@ -1,9 +1,12 @@
 {
-  "asn": 57269,
-  "handle": "DIGISPAINTELECOM",
-  "description": "DIGI SPAIN TELECOM S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57269,
+  "metadata" : {
+    "handle" : "DIGISPAINTELECOM",
+    "description" : "DIGI SPAIN TELECOM S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.14.104.0/21",
       "31.14.192.0/21",
       "77.81.8.0/21",
@@ -32,7 +35,7 @@
       "188.241.224.0/20",
       "194.55.169.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:5a80::/29"
     ]
   }

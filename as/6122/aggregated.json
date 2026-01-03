@@ -1,9 +1,12 @@
 {
-  "asn": 6122,
-  "handle": "ICN-AS",
-  "description": "Iowa Communications Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6122,
+  "metadata" : {
+    "handle" : "ICN-AS",
+    "description" : "Iowa Communications Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.92.0.0/23",
       "147.92.2.0/24",
       "165.206.0.0/16",
@@ -18,7 +21,7 @@
       "216.159.128.0/18",
       "216.159.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:130::/32",
       "2620:58:4c00::/48"
     ]

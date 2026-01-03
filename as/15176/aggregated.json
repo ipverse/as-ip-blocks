@@ -1,13 +1,16 @@
 {
-  "asn": 15176,
-  "handle": "AS-INOC",
-  "description": "INOC LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15176,
+  "metadata" : {
+    "handle" : "AS-INOC",
+    "description" : "INOC LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.14.224.0/21",
       "208.70.80.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:6ac0::/32"
     ]
   }

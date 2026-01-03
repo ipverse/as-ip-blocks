@@ -1,9 +1,12 @@
 {
-  "asn": 18101,
-  "handle": "RELIANCE-COMMUNICATIONS-IN",
-  "description": "Reliance Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18101,
+  "metadata" : {
+    "handle" : "RELIANCE-COMMUNICATIONS-IN",
+    "description" : "Reliance Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.218.247.0/24",
       "115.248.0.0/15",
       "115.252.0.0/16",
@@ -23,7 +26,7 @@
       "220.225.0.0/16",
       "220.226.0.0/15"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4528::/32"
     ]
   }

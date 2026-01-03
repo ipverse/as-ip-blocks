@@ -1,12 +1,15 @@
 {
-  "asn": 55211,
-  "handle": "AS-EDGEUNO-NETWORK",
-  "description": "EdgeUno",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55211,
+  "metadata" : {
+    "handle" : "AS-EDGEUNO-NETWORK",
+    "description" : "EdgeUno",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "76.72.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:b3c0::/32"
     ]
   }

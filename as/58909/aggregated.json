@@ -1,16 +1,19 @@
 {
-  "asn": 58909,
-  "handle": "ISSPL-IN",
-  "description": "IBEE Software Solutions Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58909,
+  "metadata" : {
+    "handle" : "ISSPL-IN",
+    "description" : "IBEE Software Solutions Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.24.200.0/22",
       "103.149.10.0/24",
       "103.174.226.0/24",
       "103.180.51.0/24",
       "188.42.96.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:c6c0::/32"
     ]
   }

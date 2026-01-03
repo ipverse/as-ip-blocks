@@ -1,12 +1,15 @@
 {
-  "asn": 271711,
-  "handle": "LIGMAX-PROVEDOR-ACESSO",
-  "description": "LIGMAX PROVEDOR DE ACESSO A INTERNET LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271711,
+  "metadata" : {
+    "handle" : "LIGMAX-PROVEDOR-ACESSO",
+    "description" : "LIGMAX PROVEDOR DE ACESSO A INTERNET LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.50.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7fd0::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 214829,
-  "handle": "Z-CERT",
-  "description": "Stichting Z-CERT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214829,
+  "metadata" : {
+    "handle" : "Z-CERT",
+    "description" : "Stichting Z-CERT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.19.42.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:59c0::/29"
     ]
   }

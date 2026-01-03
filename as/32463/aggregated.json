@@ -1,13 +1,16 @@
 {
-  "asn": 32463,
-  "handle": "AS-COTTFN",
-  "description": "Chippewa of the Thames First Nation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32463,
+  "metadata" : {
+    "handle" : "AS-COTTFN",
+    "description" : "Chippewa of the Thames First Nation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.146.56.0/24",
       "209.226.77.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:1f40::/32"
     ]
   }

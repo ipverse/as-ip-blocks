@@ -1,9 +1,12 @@
 {
-  "asn": 48503,
-  "handle": "TELE2-KZ",
-  "description": "Mobile Telecom-Service LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48503,
+  "metadata" : {
+    "handle" : "TELE2-KZ",
+    "description" : "Mobile Telecom-Service LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.10.3.0/24",
       "62.122.0.0/21",
       "62.122.104.0/22",
@@ -66,7 +69,7 @@
       "217.76.70.0/24",
       "217.171.144.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:32c0::/45",
       "2a03:32c0:8::/47",
       "2a03:32c0:22::/47",

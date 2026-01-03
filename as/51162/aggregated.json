@@ -1,9 +1,12 @@
 {
-  "asn": 51162,
-  "handle": "PFNB-AS",
-  "description": "JSC Kazteleport - subsidiary of Halyk Bank of Kazakhstan",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51162,
+  "metadata" : {
+    "handle" : "PFNB-AS",
+    "description" : "JSC Kazteleport - subsidiary of Halyk Bank of Kazakhstan",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.220.206.0/24",
       "91.103.106.0/23",
       "91.147.112.0/23",
@@ -11,6 +14,6 @@
       "91.216.178.0/24",
       "109.233.206.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

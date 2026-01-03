@@ -1,12 +1,15 @@
 {
-  "asn": 6462,
-  "handle": "NATGEOGRAPH-AS",
-  "description": "National Geographic Society",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6462,
+  "metadata" : {
+    "handle" : "NATGEOGRAPH-AS",
+    "description" : "National Geographic Society",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.192.166.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:107:6000::/44"
     ]
   }

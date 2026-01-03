@@ -1,14 +1,17 @@
 {
-  "asn": 149600,
-  "handle": "NIXI-AS-IN",
-  "description": "NIXI-CSC Data center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149600,
+  "metadata" : {
+    "handle" : "NIXI-AS-IN",
+    "description" : "NIXI-CSC Data center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.249.241.0/24",
       "45.250.0.0/22",
       "103.219.8.0/24",
       "103.219.11.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

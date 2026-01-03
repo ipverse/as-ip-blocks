@@ -1,9 +1,12 @@
 {
-  "asn": 36290,
-  "handle": "THECABLE-STKITTS-01",
-  "description": "The Cable of St. Kitts",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36290,
+  "metadata" : {
+    "handle" : "THECABLE-STKITTS-01",
+    "description" : "The Cable of St. Kitts",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.21.164.0/22",
       "204.16.8.0/22",
       "204.19.200.0/22",
@@ -13,6 +16,6 @@
       "208.81.160.0/22",
       "208.87.144.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

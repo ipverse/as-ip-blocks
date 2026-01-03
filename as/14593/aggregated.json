@@ -1,9 +1,12 @@
 {
-  "asn": 14593,
-  "handle": "SPACEX-STARLINK",
-  "description": "Space Exploration Technologies Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14593,
+  "metadata" : {
+    "handle" : "SPACEX-STARLINK",
+    "description" : "Space Exploration Technologies Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.1.64.0/22",
       "14.1.72.0/21",
       "14.1.82.0/23",
@@ -263,7 +266,7 @@
       "217.142.24.0/22",
       "217.142.30.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:2d40::/35",
       "2406:2d40:2000::/40",
       "2406:2d40:2200::/40",

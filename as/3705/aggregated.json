@@ -1,11 +1,14 @@
 {
-  "asn": 3705,
-  "handle": "GPO-NET",
-  "description": "U.S. Government Publishing Office",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3705,
+  "metadata" : {
+    "handle" : "GPO-NET",
+    "description" : "U.S. Government Publishing Office",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.140.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

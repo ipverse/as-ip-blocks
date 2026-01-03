@@ -1,13 +1,16 @@
 {
-  "asn": 198101,
-  "handle": "KOOPERATIVA-AS",
-  "description": "Kooperativa pojistovna a.s. Vienna Insurance Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198101,
+  "metadata" : {
+    "handle" : "KOOPERATIVA-AS",
+    "description" : "Kooperativa pojistovna a.s. Vienna Insurance Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.52.216.0/22",
       "185.74.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:4760::/29",
       "2a04:bf80::/29"
     ]

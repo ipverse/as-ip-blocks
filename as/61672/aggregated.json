@@ -1,13 +1,16 @@
 {
-  "asn": 61672,
-  "handle": "ENTELVIAS-PROVEDOR-INTERNET",
-  "description": "Entelvias provedor de internet ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61672,
+  "metadata" : {
+    "handle" : "ENTELVIAS-PROVEDOR-INTERNET",
+    "description" : "Entelvias provedor de internet ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.108.100.0/22",
       "177.11.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1cbc::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 12466,
-  "handle": "BICOS",
-  "description": "Bicos Computer GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12466,
+  "metadata" : {
+    "handle" : "BICOS",
+    "description" : "Bicos Computer GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.3.96.0/22",
       "193.24.2.0/24",
       "212.100.32.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:d58::/32"
     ]
   }

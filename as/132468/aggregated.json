@@ -1,16 +1,19 @@
 {
-  "asn": 132468,
-  "handle": "SATSOL-NET-SB",
-  "description": "SATSOL LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132468,
+  "metadata" : {
+    "handle" : "SATSOL-NET-SB",
+    "description" : "SATSOL LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.9.50.0/24",
       "103.21.230.0/23",
       "103.115.80.0/23",
       "103.188.182.0/23",
       "202.63.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:c0c0::/32"
     ]
   }

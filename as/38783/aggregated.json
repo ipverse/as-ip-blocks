@@ -1,13 +1,16 @@
 {
-  "asn": 38783,
-  "handle": "SIMAYA-AS-ID",
-  "description": "PT. Simaya Jejaring Mandiri",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38783,
+  "metadata" : {
+    "handle" : "SIMAYA-AS-ID",
+    "description" : "PT. Simaya Jejaring Mandiri",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "115.178.48.0/23",
       "115.178.50.0/24",
       "115.178.55.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

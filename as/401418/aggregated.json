@@ -1,9 +1,12 @@
 {
-  "asn": 401418,
-  "handle": "GLOBAL-PEERING-ALLIANCE",
-  "description": "Red Team LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401418,
+  "metadata" : {
+    "handle" : "GLOBAL-PEERING-ALLIANCE",
+    "description" : "Red Team LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.128.36.0/24",
       "82.21.21.0/24",
       "151.243.14.0/24",
@@ -11,7 +14,7 @@
       "155.117.235.0/24",
       "207.244.208.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f7d0::/48"
     ]
   }

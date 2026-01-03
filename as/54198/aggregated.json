@@ -1,9 +1,12 @@
 {
-  "asn": 54198,
-  "handle": "VIANET",
-  "description": "Videotron Ltee",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54198,
+  "metadata" : {
+    "handle" : "VIANET",
+    "description" : "Videotron Ltee",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.44.103.0/24",
       "45.44.104.0/22",
       "45.44.120.0/21",
@@ -27,6 +30,6 @@
       "104.158.96.0/22",
       "198.251.48.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 8395,
-  "handle": "EAST-AS",
-  "description": "East Telecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8395,
+  "metadata" : {
+    "handle" : "EAST-AS",
+    "description" : "East Telecom Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.170.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:dbc0::/30"
     ]
   }

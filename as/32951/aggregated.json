@@ -1,11 +1,14 @@
 {
-  "asn": 32951,
-  "handle": "IPL-INTERNET1",
-  "description": "IPL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32951,
+  "metadata" : {
+    "handle" : "IPL-INTERNET1",
+    "description" : "IPL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.192.248.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

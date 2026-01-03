@@ -1,12 +1,15 @@
 {
-  "asn": 210819,
-  "handle": "SERVERHINO",
-  "description": "Netversor GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210819,
+  "metadata" : {
+    "handle" : "SERVERHINO",
+    "description" : "Netversor GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "92.246.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:4006::/32"
     ]
   }

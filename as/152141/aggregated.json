@@ -1,11 +1,14 @@
 {
-  "asn": 152141,
-  "handle": "RWIS-AS-AP",
-  "description": "R-NET Wired Internet Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152141,
+  "metadata" : {
+    "handle" : "RWIS-AS-AP",
+    "description" : "R-NET Wired Internet Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.79.178.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

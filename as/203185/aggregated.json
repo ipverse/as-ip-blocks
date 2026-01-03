@@ -1,14 +1,17 @@
 {
-  "asn": 203185,
-  "handle": "PEBBLETREE",
-  "description": "PEBBLETREE LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203185,
+  "metadata" : {
+    "handle" : "PEBBLETREE",
+    "description" : "PEBBLETREE LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.112.244.0/22",
       "185.118.228.0/23",
       "185.118.230.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:6e40:3::/48",
       "2a06:9600:1::/48",
       "2a06:9600:2::/48"

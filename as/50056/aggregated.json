@@ -1,9 +1,12 @@
 {
-  "asn": 50056,
-  "handle": "VORBOSS-ORIG",
-  "description": "Vorboss Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50056,
+  "metadata" : {
+    "handle" : "VORBOSS-ORIG",
+    "description" : "Vorboss Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.252.62.0/24",
       "104.252.75.0/24",
       "104.252.81.0/24",
@@ -17,6 +20,6 @@
       "104.252.146.0/24",
       "185.217.165.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

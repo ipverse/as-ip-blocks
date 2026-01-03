@@ -1,15 +1,18 @@
 {
-  "asn": 197999,
-  "handle": "KLARINET-AS",
-  "description": "Michael Gamsjaeger",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197999,
+  "metadata" : {
+    "handle" : "KLARINET-AS",
+    "description" : "Michael Gamsjaeger",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.217.216.0/21",
       "185.202.7.0/24",
       "193.33.216.0/23",
       "195.66.91.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:1a80::/32"
     ]
   }

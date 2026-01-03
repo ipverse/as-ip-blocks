@@ -1,12 +1,15 @@
 {
-  "asn": 269484,
-  "handle": "START-TELECOM",
-  "description": "START TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269484,
+  "metadata" : {
+    "handle" : "START-TELECOM",
+    "description" : "START TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.187.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6558::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 2852,
-  "handle": "CESNET2",
-  "description": "CESNET z.s.p.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2852,
+  "metadata" : {
+    "handle" : "CESNET2",
+    "description" : "CESNET z.s.p.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.128.128.0/17",
       "146.102.0.0/16",
       "147.32.0.0/15",
@@ -26,7 +29,7 @@
       "195.113.0.0/16",
       "195.178.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:718::/29"
     ]
   }

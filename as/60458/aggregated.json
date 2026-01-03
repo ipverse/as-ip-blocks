@@ -1,9 +1,12 @@
 {
-  "asn": 60458,
-  "handle": "ASN-XTUDIONET",
-  "description": "XNET CORE SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60458,
+  "metadata" : {
+    "handle" : "ASN-XTUDIONET",
+    "description" : "XNET CORE SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.143.148.0/22",
       "45.146.188.0/22",
       "45.151.192.0/22",
@@ -24,6 +27,6 @@
       "194.60.88.0/24",
       "195.60.239.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

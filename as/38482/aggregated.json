@@ -1,9 +1,12 @@
 {
-  "asn": 38482,
-  "handle": "BIZNET2-AS-ID",
-  "description": "BIZNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38482,
+  "metadata" : {
+    "handle" : "BIZNET2-AS-ID",
+    "description" : "BIZNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "112.78.135.0/24",
       "112.78.136.0/23",
       "112.78.139.0/24",
@@ -51,6 +54,6 @@
       "203.142.83.0/24",
       "203.142.86.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

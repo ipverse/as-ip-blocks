@@ -1,9 +1,12 @@
 {
-  "asn": 12154,
-  "handle": "INFOUSA",
-  "description": "DATA AXLE INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12154,
+  "metadata" : {
+    "handle" : "INFOUSA",
+    "description" : "DATA AXLE INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.233.128.0/21",
       "68.233.136.0/23",
       "68.233.138.0/24",
@@ -16,6 +19,6 @@
       "208.89.8.0/24",
       "208.89.10.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 45294,
-  "handle": "WANXP-AS-ID",
-  "description": "PT. Wanriau Indoxp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45294,
+  "metadata" : {
+    "handle" : "WANXP-AS-ID",
+    "description" : "PT. Wanriau Indoxp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.64.252.0/22",
       "103.19.209.0/24",
       "103.19.210.0/23",
       "113.212.112.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

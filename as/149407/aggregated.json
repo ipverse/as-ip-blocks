@@ -1,12 +1,15 @@
 {
-  "asn": 149407,
-  "handle": "IDNIC-SUNMOTOR-AS-ID",
-  "description": "PT Sun Star Motor",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149407,
+  "metadata" : {
+    "handle" : "IDNIC-SUNMOTOR-AS-ID",
+    "description" : "PT Sun Star Motor",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.183.6.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:2140::/48"
     ]
   }

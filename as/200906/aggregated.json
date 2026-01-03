@@ -1,11 +1,14 @@
 {
-  "asn": 200906,
-  "handle": "MCT",
-  "description": "MCT SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200906,
+  "metadata" : {
+    "handle" : "MCT",
+    "description" : "MCT SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.72.4.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 13319,
-  "handle": "S-I-S",
-  "description": "Storm Internet Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13319,
+  "metadata" : {
+    "handle" : "S-I-S",
+    "description" : "Storm Internet Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.45.20.0/22",
       "104.192.232.0/22",
       "199.167.116.0/22",
@@ -15,7 +18,7 @@
       "209.87.224.0/19",
       "216.106.96.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f0b0::/32"
     ]
   }

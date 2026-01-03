@@ -1,12 +1,15 @@
 {
-  "asn": 152108,
-  "handle": "NATCLIMITED-AS-AP",
-  "description": "NATC Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152108,
+  "metadata" : {
+    "handle" : "NATCLIMITED-AS-AP",
+    "description" : "NATC Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.175.110.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:2240::/48"
     ]
   }

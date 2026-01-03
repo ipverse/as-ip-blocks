@@ -1,9 +1,12 @@
 {
-  "asn": 400909,
-  "handle": "TRAVCHIS",
-  "description": "TRAVCHIS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400909,
+  "metadata" : {
+    "handle" : "TRAVCHIS",
+    "description" : "TRAVCHIS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.6.28.0/23",
       "31.56.125.0/24",
       "31.57.44.0/23",
@@ -53,6 +56,6 @@
       "213.145.76.0/22",
       "216.185.39.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 21104,
-  "handle": "AM-NETSYS-AS",
-  "description": "Netsys JV LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21104,
+  "metadata" : {
+    "handle" : "AM-NETSYS-AS",
+    "description" : "Netsys JV LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.86.224.0/22",
       "80.86.228.0/24",
       "80.86.230.0/23",
@@ -11,6 +14,6 @@
       "80.86.236.0/23",
       "80.86.239.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

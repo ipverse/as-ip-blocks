@@ -1,12 +1,15 @@
 {
-  "asn": 206448,
-  "handle": "SOUTHTRANSTELECOM-AS",
-  "description": "LLC SouthTransTelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206448,
+  "metadata" : {
+    "handle" : "SOUTHTRANSTELECOM-AS",
+    "description" : "LLC SouthTransTelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.109.243.0/24",
       "192.109.250.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

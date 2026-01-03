@@ -1,9 +1,12 @@
 {
-  "asn": 2607,
-  "handle": "SANET",
-  "description": "Zdruzenie pouzivatelov Slovenskej akademickej datovej siete SANET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2607,
+  "metadata" : {
+    "handle" : "SANET",
+    "description" : "Zdruzenie pouzivatelov Slovenskej akademickej datovej siete SANET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.175.0.0/16",
       "147.213.0.0/16",
       "147.232.0.0/16",
@@ -17,7 +20,7 @@
       "193.87.0.0/16",
       "194.160.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4118::/32"
     ]
   }

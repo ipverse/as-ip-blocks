@@ -1,9 +1,12 @@
 {
-  "asn": 13579,
-  "handle": "INFOTEC-CENTRO-INVESTIGACION",
-  "description": "INFOTEC CENTRO DE INVESTIGACION E INNOVACION EN TECNOLOGIAS DE LA INFORMACION Y COMUNICACION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13579,
+  "metadata" : {
+    "handle" : "INFOTEC-CENTRO-INVESTIGACION",
+    "description" : "INFOTEC CENTRO DE INVESTIGACION E INNOVACION EN TECNOLOGIAS DE LA INFORMACION Y COMUNICACION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.23.107.0/24",
       "200.34.134.0/24",
       "200.38.160.0/22",
@@ -23,6 +26,6 @@
       "207.249.0.0/19",
       "207.249.96.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

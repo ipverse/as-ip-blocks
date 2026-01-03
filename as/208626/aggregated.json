@@ -1,9 +1,12 @@
 {
-  "asn": 208626,
-  "handle": "SERV-TECH",
-  "description": "ServTech LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208626,
+  "metadata" : {
+    "handle" : "SERV-TECH",
+    "description" : "ServTech LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.89.69.0/24",
       "87.247.142.0/24",
       "91.188.222.0/24",
@@ -21,7 +24,7 @@
       "194.93.0.0/24",
       "194.190.70.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:dd80:1000::/47",
       "2a0d:3043:4ffa::/48",
       "2a0f:4305::/32",

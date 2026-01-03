@@ -1,13 +1,16 @@
 {
-  "asn": 141114,
-  "handle": "EASTMEDIA-AS-ID",
-  "description": "PT Super Media Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141114,
+  "metadata" : {
+    "handle" : "EASTMEDIA-AS-ID",
+    "description" : "PT Super Media Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.56.99.0/24",
       "103.157.78.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:9ac0::/32"
     ]
   }

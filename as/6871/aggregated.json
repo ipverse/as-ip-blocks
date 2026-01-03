@@ -1,9 +1,12 @@
 {
-  "asn": 6871,
-  "handle": "PLUSNET",
-  "description": "British Telecommunications PLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6871,
+  "metadata" : {
+    "handle" : "PLUSNET",
+    "description" : "British Telecommunications PLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.108.0.0/14",
       "31.125.0.0/16",
       "31.185.32.0/19",
@@ -58,7 +61,7 @@
       "217.46.24.0/22",
       "217.46.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:16c8::/32",
       "2a06:7200::/29"
     ]

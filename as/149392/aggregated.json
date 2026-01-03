@@ -1,12 +1,15 @@
 {
-  "asn": 149392,
-  "handle": "IDNIC-HOPNET-AS-ID",
-  "description": "PT Hopnet Tunel Integrasi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149392,
+  "metadata" : {
+    "handle" : "IDNIC-HOPNET-AS-ID",
+    "description" : "PT Hopnet Tunel Integrasi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.181.78.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:f740::/48"
     ]
   }

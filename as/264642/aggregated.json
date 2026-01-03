@@ -1,9 +1,12 @@
 {
-  "asn": 264642,
-  "handle": "TELESISTEMA",
-  "description": "TELESISTEMA S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264642,
+  "metadata" : {
+    "handle" : "TELESISTEMA",
+    "description" : "TELESISTEMA S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.105.228.0/22",
       "181.177.0.0/18",
       "186.125.199.0/24",
@@ -22,7 +25,7 @@
       "190.228.166.0/23",
       "200.73.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:cf00::/32"
     ]
   }

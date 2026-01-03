@@ -1,14 +1,17 @@
 {
-  "asn": 44776,
-  "handle": "REIST-TELECOM-AS",
-  "description": "Reist Telecom AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44776,
+  "metadata" : {
+    "handle" : "REIST-TELECOM-AS",
+    "description" : "Reist Telecom AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.158.12.0/22",
       "93.94.64.0/21",
       "195.234.60.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:110::/32"
     ]
   }

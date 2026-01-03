@@ -1,9 +1,12 @@
 {
-  "asn": 26038,
-  "handle": "ELVT-CLOUD-AND-CONNX",
-  "description": "Elevate Technology Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26038,
+  "metadata" : {
+    "handle" : "ELVT-CLOUD-AND-CONNX",
+    "description" : "Elevate Technology Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.41.135.0/24",
       "44.26.110.0/24",
       "50.224.54.0/24",
@@ -11,6 +14,6 @@
       "64.28.160.0/22",
       "74.202.209.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 50234,
-  "handle": "EULERIAN-AS",
-  "description": "EULERIAN TECHNOLOGIES S.A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50234,
+  "metadata" : {
+    "handle" : "EULERIAN-AS",
+    "description" : "EULERIAN TECHNOLOGIES S.A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.232.192.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2038::/32"
     ]
   }

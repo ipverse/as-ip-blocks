@@ -1,9 +1,12 @@
 {
-  "asn": 200478,
-  "handle": "TABOOLA-AS",
-  "description": "Taboola.com ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200478,
+  "metadata" : {
+    "handle" : "TABOOLA-AS",
+    "description" : "Taboola.com ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.226.124.0/24",
       "141.226.127.0/24",
       "141.226.224.0/23",
@@ -11,7 +14,7 @@
       "141.226.228.0/22",
       "185.106.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:3b80:30::/48",
       "2a06:3b80:110::/48"
     ]

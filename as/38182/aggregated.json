@@ -1,14 +1,17 @@
 {
-  "asn": 38182,
-  "handle": "EXTREMEBB-AS-MY",
-  "description": "Extreme Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38182,
+  "metadata" : {
+    "handle" : "EXTREMEBB-AS-MY",
+    "description" : "Extreme Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.84.16.0/22",
       "113.23.128.0/17",
       "203.188.232.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:f800::/38",
       "2407:f800:400::/39",
       "2407:f800:700::/40",

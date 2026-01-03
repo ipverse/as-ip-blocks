@@ -1,12 +1,15 @@
 {
-  "asn": 26202,
-  "handle": "PLANET-FIBER-VA",
-  "description": "Planet Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26202,
+  "metadata" : {
+    "handle" : "PLANET-FIBER-VA",
+    "description" : "Planet Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.41.128.0/19",
       "216.235.224.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 56245,
-  "handle": "FAJAR-AS-ID",
-  "description": "PT Fajar Techno System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56245,
+  "metadata" : {
+    "handle" : "FAJAR-AS-ID",
+    "description" : "PT Fajar Techno System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.121.40.0/22",
       "103.10.80.0/23",
       "103.61.118.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

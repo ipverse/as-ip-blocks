@@ -1,15 +1,18 @@
 {
-  "asn": 36318,
-  "handle": "ZSNET",
-  "description": "Zachary Seguin Sole Proprietorship",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36318,
+  "metadata" : {
+    "handle" : "ZSNET",
+    "description" : "Zachary Seguin Sole Proprietorship",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.160.88.0/24",
       "44.31.4.0/24",
       "44.31.214.0/23",
       "104.192.72.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:815:9000::/44",
       "2602:fed2:7085::/48",
       "2602:fed2:718f::/48"

@@ -1,13 +1,16 @@
 {
-  "asn": 131091,
-  "handle": "GSS-AS-AP",
-  "description": "GOLD SUNSHINE INTERNATIONAL LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131091,
+  "metadata" : {
+    "handle" : "GSS-AS-AP",
+    "description" : "GOLD SUNSHINE INTERNATIONAL LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.36.112.0/22",
       "123.253.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:e380:10::/48",
       "2401:e380:1001::/48",
       "2401:e380:1002::/48",

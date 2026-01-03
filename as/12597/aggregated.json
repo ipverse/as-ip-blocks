@@ -1,15 +1,18 @@
 {
-  "asn": 12597,
-  "handle": "GOTANET",
-  "description": "Gotalandsnatet AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12597,
+  "metadata" : {
+    "handle" : "GOTANET",
+    "description" : "Gotalandsnatet AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.80.192.0/19",
       "91.231.63.0/24",
       "192.150.71.0/24",
       "212.3.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:920::/32"
     ]
   }

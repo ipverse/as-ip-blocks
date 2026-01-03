@@ -1,11 +1,14 @@
 {
-  "asn": 63333,
-  "handle": "ASN-ONEOK-INC",
-  "description": "ONEOK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63333,
+  "metadata" : {
+    "handle" : "ASN-ONEOK-INC",
+    "description" : "ONEOK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "172.110.140.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

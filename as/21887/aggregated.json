@@ -1,9 +1,12 @@
 {
-  "asn": 21887,
-  "handle": "FIBER-LOGIC",
-  "description": "Fiber Logic Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21887,
+  "metadata" : {
+    "handle" : "FIBER-LOGIC",
+    "description" : "Fiber Logic Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.106.148.0/22",
       "65.49.144.0/24",
       "65.49.236.0/22",
@@ -12,6 +15,6 @@
       "162.213.24.0/21",
       "185.199.241.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

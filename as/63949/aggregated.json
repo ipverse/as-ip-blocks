@@ -1,9 +1,12 @@
 {
-  "asn": 63949,
-  "handle": "AKAMAI-LINODE-AP",
-  "description": "Akamai Technologies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63949,
+  "metadata" : {
+    "handle" : "AKAMAI-LINODE-AP",
+    "description" : "Akamai Technologies Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.92.16.0/20",
       "23.239.0.0/19",
       "45.33.0.0/17",
@@ -131,7 +134,7 @@
       "213.168.248.0/22",
       "213.219.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8901::/32",
       "2400:8902::/32",
       "2400:8904::/31",

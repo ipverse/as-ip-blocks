@@ -1,14 +1,17 @@
 {
-  "asn": 216363,
-  "handle": "ISTRA-DOT-NET-AS",
-  "description": "OOO Istra.net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216363,
+  "metadata" : {
+    "handle" : "ISTRA-DOT-NET-AS",
+    "description" : "OOO Istra.net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.94.182.0/24",
       "212.59.104.0/22",
       "212.59.110.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:c9c0::/32"
     ]
   }

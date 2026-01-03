@@ -1,12 +1,15 @@
 {
-  "asn": 271343,
-  "handle": "REAJNET-TELECOM",
-  "description": "REAJNet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271343,
+  "metadata" : {
+    "handle" : "REAJNET-TELECOM",
+    "description" : "REAJNet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.39.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7a08::/32"
     ]
   }

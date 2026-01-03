@@ -1,12 +1,15 @@
 {
-  "asn": 39618,
-  "handle": "HOSTCRAM",
-  "description": "HostCram LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39618,
+  "metadata" : {
+    "handle" : "HOSTCRAM",
+    "description" : "HostCram LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.160.160.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd92:a00::/40"
     ]
   }

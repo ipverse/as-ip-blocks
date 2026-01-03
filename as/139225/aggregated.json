@@ -1,12 +1,15 @@
 {
-  "asn": 139225,
-  "handle": "WHATBOX-AS-AP",
-  "description": "Whatbox Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139225,
+  "metadata" : {
+    "handle" : "WHATBOX-AS-AP",
+    "description" : "Whatbox Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.140.3.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:a280::/48"
     ]
   }

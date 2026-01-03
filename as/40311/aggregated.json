@@ -1,9 +1,12 @@
 {
-  "asn": 40311,
-  "handle": "VIASAT-3",
-  "description": "ViaSat Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40311,
+  "metadata" : {
+    "handle" : "VIASAT-3",
+    "description" : "ViaSat Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.17.107.0/24",
       "8.17.109.0/24",
       "45.232.112.0/22",
@@ -15,6 +18,6 @@
       "198.45.250.0/24",
       "201.46.96.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

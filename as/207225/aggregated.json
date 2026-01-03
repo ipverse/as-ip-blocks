@@ -1,12 +1,15 @@
 {
-  "asn": 207225,
-  "handle": "INFINITY-TELECOM-ASN",
-  "description": "Infinity Telecom SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207225,
+  "metadata" : {
+    "handle" : "INFINITY-TELECOM-ASN",
+    "description" : "Infinity Telecom SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.75.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:5000::/29"
     ]
   }

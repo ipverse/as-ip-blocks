@@ -1,12 +1,15 @@
 {
-  "asn": 21247,
-  "handle": "IPSYN-AS",
-  "description": "Association IP Synergies",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21247,
+  "metadata" : {
+    "handle" : "IPSYN-AS",
+    "description" : "Association IP Synergies",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.109.142.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:6cc::/48"
     ]
   }

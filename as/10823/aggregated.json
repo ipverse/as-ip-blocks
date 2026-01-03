@@ -1,9 +1,12 @@
 {
-  "asn": 10823,
-  "handle": "NETCARRIER",
-  "description": "NetCarrier Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10823,
+  "metadata" : {
+    "handle" : "NETCARRIER",
+    "description" : "NetCarrier Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.160.224.0/20",
       "66.212.0.0/20",
       "198.136.226.0/24",
@@ -14,7 +17,7 @@
       "216.25.128.0/19",
       "216.178.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f900::/32"
     ]
   }

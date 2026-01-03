@@ -1,9 +1,12 @@
 {
-  "asn": 140647,
-  "handle": "CHINATELECOM-GUIZHOU-SHENGJI-5G-NETWORK",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140647,
+  "metadata" : {
+    "handle" : "CHINATELECOM-GUIZHOU-SHENGJI-5G-NETWORK",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.48.64.0/18",
       "1.48.192.0/19",
       "1.49.96.0/19",
@@ -22,7 +25,7 @@
       "119.0.160.0/19",
       "220.172.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:a8:e200::/39",
       "240e:183:8101::/48",
       "240e:183:8102::/47",

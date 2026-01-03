@@ -1,13 +1,16 @@
 {
-  "asn": 206655,
-  "handle": "WIGO-AS",
-  "description": "WI-GO Srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206655,
+  "metadata" : {
+    "handle" : "WIGO-AS",
+    "description" : "WI-GO Srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.107.204.0/22",
       "185.200.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:4440::/29"
     ]
   }

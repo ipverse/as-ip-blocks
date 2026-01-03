@@ -1,9 +1,12 @@
 {
-  "asn": 33132,
-  "handle": "CROWNCASTLE-AS33132",
-  "description": "Crown Castle Fiber LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33132,
+  "metadata" : {
+    "handle" : "CROWNCASTLE-AS33132",
+    "description" : "Crown Castle Fiber LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.42.56.0/21",
       "45.73.144.0/20",
       "69.80.64.0/20",
@@ -29,7 +32,7 @@
       "204.238.236.0/24",
       "208.67.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:80f:b000::/40",
       "2604:200::/32",
       "2604:1a00:59::/48",

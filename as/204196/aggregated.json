@@ -1,9 +1,12 @@
 {
-  "asn": 204196,
-  "handle": "ABELOHOST",
-  "description": "Abelohost BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204196,
+  "metadata" : {
+    "handle" : "ABELOHOST",
+    "description" : "Abelohost BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.209.252.0/23",
       "185.145.128.0/22",
       "185.207.204.0/22",
@@ -12,6 +15,6 @@
       "185.224.80.0/22",
       "185.235.176.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

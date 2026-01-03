@@ -1,15 +1,18 @@
 {
-  "asn": 58255,
-  "handle": "INRRAS",
-  "description": "Institute for Nuclear Research of the Russian Academy of Sciences",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58255,
+  "metadata" : {
+    "handle" : "INRRAS",
+    "description" : "Institute for Nuclear Research of the Russian Academy of Sciences",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.207.88.0/22",
       "192.203.80.0/24",
       "193.232.24.0/24",
       "194.85.208.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:e140::/48"
     ]
   }

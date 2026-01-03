@@ -1,12 +1,15 @@
 {
-  "asn": 267459,
-  "handle": "R3TELECOM-INTERNET",
-  "description": "R3TELECOM INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267459,
+  "metadata" : {
+    "handle" : "R3TELECOM-INTERNET",
+    "description" : "R3TELECOM INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.141.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:41d4::/32"
     ]
   }

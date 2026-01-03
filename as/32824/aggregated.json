@@ -1,9 +1,12 @@
 {
-  "asn": 32824,
-  "handle": "WWT-ASN1",
-  "description": "WORLD WIDE TECHNOLOGY HOLDING CO. LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32824,
+  "metadata" : {
+    "handle" : "WWT-ASN1",
+    "description" : "WORLD WIDE TECHNOLOGY HOLDING CO. LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.123.130.0/24",
       "74.80.160.0/22",
       "74.122.8.0/22",
@@ -13,6 +16,6 @@
       "203.62.180.0/24",
       "203.62.182.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

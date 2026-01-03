@@ -1,9 +1,12 @@
 {
-  "asn": 7642,
-  "handle": "DHIRAAGU-MV-AP",
-  "description": "Dhiraagu Pvt.Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7642,
+  "metadata" : {
+    "handle" : "DHIRAAGU-MV-AP",
+    "description" : "Dhiraagu Pvt.Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.114.128.0/18",
       "43.226.220.0/22",
       "69.94.32.0/20",
@@ -18,7 +21,7 @@
       "203.104.24.0/21",
       "209.212.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:e400::/32"
     ]
   }

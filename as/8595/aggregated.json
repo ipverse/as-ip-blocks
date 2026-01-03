@@ -1,9 +1,12 @@
 {
-  "asn": 8595,
-  "handle": "WESTCALL-AS",
-  "description": "OOO WestCall Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8595,
+  "metadata" : {
+    "handle" : "WESTCALL-AS",
+    "description" : "OOO WestCall Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.101.60.0/22",
       "5.101.200.0/21",
       "31.129.126.0/23",
@@ -41,7 +44,7 @@
       "217.172.28.0/22",
       "217.173.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:de80::/29"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 400669,
-  "handle": "RELIABLE-ISP-01",
-  "description": "ReliableNetwerks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400669,
+  "metadata" : {
+    "handle" : "RELIABLE-ISP-01",
+    "description" : "ReliableNetwerks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.135.168.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:c8c0::/32"
     ]
   }

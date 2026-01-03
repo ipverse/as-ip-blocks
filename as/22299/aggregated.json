@@ -1,9 +1,12 @@
 {
-  "asn": 22299,
-  "handle": "GCRONLINE",
-  "description": "GCR Company/GCR Online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22299,
+  "metadata" : {
+    "handle" : "GCRONLINE",
+    "description" : "GCR Company/GCR Online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.254.160.0/23",
       "65.254.166.0/23",
       "65.254.168.0/24",
@@ -15,7 +18,7 @@
       "65.254.191.0/24",
       "216.146.50.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fb80::/48",
       "2607:fb80:8000::/48"
     ]

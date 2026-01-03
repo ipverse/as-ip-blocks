@@ -1,9 +1,12 @@
 {
-  "asn": 33302,
-  "handle": "D102-COS-1",
-  "description": "Data102",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33302,
+  "metadata" : {
+    "handle" : "D102-COS-1",
+    "description" : "Data102",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.20.216.0/21",
       "64.111.16.0/20",
       "96.47.0.0/20",
@@ -14,7 +17,7 @@
       "209.136.66.0/23",
       "216.84.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:2800::/32"
     ]
   }

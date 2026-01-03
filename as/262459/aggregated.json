@@ -1,9 +1,12 @@
 {
-  "asn": 262459,
-  "handle": "OSIRNET-INFO-TELECOM",
-  "description": "Osirnet Info Telecom Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262459,
+  "metadata" : {
+    "handle" : "OSIRNET-INFO-TELECOM",
+    "description" : "Osirnet Info Telecom Ltda.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.4.20.0/22",
       "45.182.184.0/23",
       "132.255.144.0/22",
@@ -14,7 +17,7 @@
       "186.208.144.0/20",
       "191.5.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4b0::/32"
     ]
   }

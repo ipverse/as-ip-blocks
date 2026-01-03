@@ -1,9 +1,12 @@
 {
-  "asn": 1288,
-  "handle": "PCH-LOCAL-TRANSIT",
-  "description": "Packet Clearing House Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1288,
+  "metadata" : {
+    "handle" : "PCH-LOCAL-TRANSIT",
+    "description" : "Packet Clearing House Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.185.116.0/23",
       "66.185.119.0/24",
       "66.185.126.0/24",
@@ -12,7 +15,7 @@
       "74.80.105.0/24",
       "160.0.99.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:171:36::/48",
       "2620:171:b1::/48",
       "2620:171:e4::/48",

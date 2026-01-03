@@ -1,16 +1,19 @@
 {
-  "asn": 3389,
-  "handle": "FORDSRL-AS",
-  "description": "Ford Motor Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3389,
+  "metadata" : {
+    "handle" : "FORDSRL-AS",
+    "description" : "Ford Motor Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "19.12.72.0/21",
       "19.12.88.0/21",
       "19.12.96.0/19",
       "19.12.128.0/20",
       "128.5.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:402::/47"
     ]
   }

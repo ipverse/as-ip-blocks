@@ -1,9 +1,12 @@
 {
-  "asn": 51373,
-  "handle": "TELKONEKT-AS",
-  "description": "TELKONEKT SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51373,
+  "metadata" : {
+    "handle" : "TELKONEKT-AS",
+    "description" : "TELKONEKT SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.87.72.0/24",
       "91.218.156.0/22",
       "94.24.28.0/24",
@@ -13,7 +16,7 @@
       "185.80.59.0/24",
       "193.33.8.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1a68:14::/48",
       "2a04:9a40::/29"
     ]

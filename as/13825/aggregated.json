@@ -1,9 +1,12 @@
 {
-  "asn": 13825,
-  "handle": "TROYCABLE-NET",
-  "description": "Troy Cablevision Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13825,
+  "metadata" : {
+    "handle" : "TROYCABLE-NET",
+    "description" : "Troy Cablevision Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.35.192.0/20",
       "64.130.96.0/19",
       "96.47.80.0/20",
@@ -17,6 +20,6 @@
       "205.167.104.0/23",
       "216.93.128.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

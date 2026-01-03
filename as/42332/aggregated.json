@@ -1,12 +1,15 @@
 {
-  "asn": 42332,
-  "handle": "TSC",
-  "description": "EKCO LONDON LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42332,
+  "metadata" : {
+    "handle" : "TSC",
+    "description" : "EKCO LONDON LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.251.112.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:3980::/29"
     ]
   }

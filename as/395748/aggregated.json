@@ -1,9 +1,12 @@
 {
-  "asn": 395748,
-  "handle": "NS",
-  "description": "NetSpeed LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395748,
+  "metadata" : {
+    "handle" : "NS",
+    "description" : "NetSpeed LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.81.101.0/24",
       "38.81.107.0/24",
       "38.99.108.0/24",
@@ -21,7 +24,7 @@
       "107.150.8.0/22",
       "216.49.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:e480::/46",
       "2607:e480:4::/47",
       "2607:e480:6::/48",

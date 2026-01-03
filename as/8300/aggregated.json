@@ -1,16 +1,19 @@
 {
-  "asn": 8300,
-  "handle": "TEST-AS-MAIN",
-  "description": "Swisscom (Schweiz) AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8300,
+  "metadata" : {
+    "handle" : "TEST-AS-MAIN",
+    "description" : "Swisscom (Schweiz) AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.5.20.0/23",
       "193.5.30.0/24",
       "193.134.248.0/23",
       "194.209.74.0/24",
       "194.209.218.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:918:1ab::/48",
       "2001:918:f00::/40",
       "2001:918:ff74::/48",

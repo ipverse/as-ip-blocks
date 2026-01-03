@@ -1,9 +1,12 @@
 {
-  "asn": 396461,
-  "handle": "NATEL-ASN1",
-  "description": "Liberty Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396461,
+  "metadata" : {
+    "handle" : "NATEL-ASN1",
+    "description" : "Liberty Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.55.221.0/24",
       "199.120.67.0/24",
       "207.177.51.0/24",
@@ -15,6 +18,6 @@
       "209.152.117.0/24",
       "216.51.157.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

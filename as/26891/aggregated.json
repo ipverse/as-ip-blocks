@@ -1,9 +1,12 @@
 {
-  "asn": 26891,
-  "handle": "NEWCLOUD",
-  "description": "Otava LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26891,
+  "metadata" : {
+    "handle" : "NEWCLOUD",
+    "description" : "Otava LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.25.224.0/24",
       "64.25.227.0/24",
       "64.25.238.0/23",
@@ -18,7 +21,7 @@
       "162.210.176.0/24",
       "162.210.178.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:3400::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 49567,
-  "handle": "APTUS-AS",
-  "description": "Aptus Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49567,
+  "metadata" : {
+    "handle" : "APTUS-AS",
+    "description" : "Aptus Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.217.240.0/21",
       "45.154.100.0/22",
       "45.155.24.0/22",
@@ -12,7 +15,7 @@
       "185.76.224.0/22",
       "185.213.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:7100::/29"
     ]
   }

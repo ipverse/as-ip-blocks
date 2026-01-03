@@ -1,12 +1,15 @@
 {
-  "asn": 38473,
-  "handle": "AGRESEARCH-AS",
-  "description": "AgResearch",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38473,
+  "metadata" : {
+    "handle" : "AGRESEARCH-AS",
+    "description" : "AgResearch",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.20.103.0/24",
       "202.20.104.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 4760,
-  "handle": "HKTIMS-AP",
-  "description": "PCCW IMS Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4760,
+  "metadata" : {
+    "handle" : "HKTIMS-AP",
+    "description" : "PCCW IMS Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.36.0.0/16",
       "1.64.0.0/15",
       "42.2.0.0/15",
@@ -179,7 +182,7 @@
       "223.197.109.0/24",
       "223.197.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:c800::/29"
     ]
   }

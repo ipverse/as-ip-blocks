@@ -1,11 +1,14 @@
 {
-  "asn": 53786,
-  "handle": "KYNDRYL-LSIS-INFRASTRUCTURE",
-  "description": "Kyndryl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53786,
+  "metadata" : {
+    "handle" : "KYNDRYL-LSIS-INFRASTRUCTURE",
+    "description" : "Kyndryl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.255.120.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

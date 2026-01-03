@@ -1,9 +1,12 @@
 {
-  "asn": 44103,
-  "handle": "BAKKER-IT-AS",
-  "description": "The Mastermind Holding B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44103,
+  "metadata" : {
+    "handle" : "BAKKER-IT-AS",
+    "description" : "The Mastermind Holding B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.83.149.0/24",
       "45.43.66.0/24",
       "45.93.119.0/24",
@@ -17,7 +20,7 @@
       "188.65.164.0/24",
       "193.105.177.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:2c00::/29",
       "2a0e:46c3:700::/40",
       "2a0e:fd40::/29",

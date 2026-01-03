@@ -1,11 +1,14 @@
 {
-  "asn": 210312,
-  "handle": "BGP-CLOCK",
-  "description": "Antonios A. Chariton",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
-      "2a0d:3dc1:122::/48"
+  "asn" : 210312,
+  "metadata" : {
+    "handle" : "BGP-CLOCK",
+    "description" : "Antonios A. Chariton",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
+      "2a0d:3dc1:161::/48"
     ]
   }
 }

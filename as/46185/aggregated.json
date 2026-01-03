@@ -1,13 +1,16 @@
 {
-  "asn": 46185,
-  "handle": "MAXSIP",
-  "description": "Maxsip Telecom Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46185,
+  "metadata" : {
+    "handle" : "MAXSIP",
+    "description" : "Maxsip Telecom Corp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.106.66.0/23",
       "199.19.187.0/24",
       "209.48.169.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

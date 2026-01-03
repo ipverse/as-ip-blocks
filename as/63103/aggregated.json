@@ -1,9 +1,12 @@
 {
-  "asn": 63103,
-  "handle": "OCF-AS",
-  "description": "Ochsner Clinic Foundation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63103,
+  "metadata" : {
+    "handle" : "OCF-AS",
+    "description" : "Ochsner Clinic Foundation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.206.1.0/24",
       "147.206.2.0/24",
       "147.206.5.0/24",
@@ -11,6 +14,6 @@
       "147.206.20.0/22",
       "147.206.26.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

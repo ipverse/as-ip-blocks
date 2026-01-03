@@ -1,16 +1,19 @@
 {
-  "asn": 36324,
-  "handle": "VOSTROM-PUBLIC",
-  "description": "VOSTROM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36324,
+  "metadata" : {
+    "handle" : "VOSTROM-PUBLIC",
+    "description" : "VOSTROM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.152.224.0/19",
       "204.68.171.0/24",
       "204.74.65.0/24",
       "204.74.78.0/24",
       "208.74.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:d1:4000::/47"
     ]
   }

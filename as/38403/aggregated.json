@@ -1,9 +1,12 @@
 {
-  "asn": 38403,
-  "handle": "GOEGU-AS",
-  "description": "GunpoUiwang Office of Education",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38403,
+  "metadata" : {
+    "handle" : "GOEGU-AS",
+    "description" : "GunpoUiwang Office of Education",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.241.2.0/23",
       "61.77.29.0/24",
       "61.79.88.0/24",
@@ -11,6 +14,6 @@
       "116.124.152.0/24",
       "122.203.6.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

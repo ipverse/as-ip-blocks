@@ -1,12 +1,15 @@
 {
-  "asn": 264433,
-  "handle": "DIRECT-FIBRA",
-  "description": "DIRECT FIBRA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264433,
+  "metadata" : {
+    "handle" : "DIRECT-FIBRA",
+    "description" : "DIRECT FIBRA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.221.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1e84::/32"
     ]
   }

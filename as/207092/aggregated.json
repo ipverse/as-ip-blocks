@@ -1,13 +1,16 @@
 {
-  "asn": 207092,
-  "handle": "SC-LIMITED",
-  "description": "SC IP Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207092,
+  "metadata" : {
+    "handle" : "SC-LIMITED",
+    "description" : "SC IP Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.193.12.0/23",
       "185.193.15.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:3440::/29"
     ]
   }

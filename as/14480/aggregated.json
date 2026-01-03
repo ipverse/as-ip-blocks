@@ -1,9 +1,12 @@
 {
-  "asn": 14480,
-  "handle": "ORANGEBURGCOUNTYBB-SC",
-  "description": "County of Orangeburg",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14480,
+  "metadata" : {
+    "handle" : "ORANGEBURGCOUNTYBB-SC",
+    "description" : "County of Orangeburg",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.119.237.0/24",
       "104.37.152.0/22",
       "104.224.4.0/22",
@@ -13,6 +16,6 @@
       "165.166.126.0/24",
       "165.166.170.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

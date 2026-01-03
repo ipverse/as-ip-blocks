@@ -1,9 +1,12 @@
 {
-  "asn": 46746,
-  "handle": "SECURE-24-AS",
-  "description": "NTT Managed Services Americas LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46746,
+  "metadata" : {
+    "handle" : "SECURE-24-AS",
+    "description" : "NTT Managed Services Americas LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.43.176.0/22",
       "8.43.188.0/23",
       "8.43.190.0/24",
@@ -29,6 +32,6 @@
       "208.103.168.0/24",
       "209.119.120.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 8435,
-  "handle": "LBG-INTERNET-EDGE",
-  "description": "Lloyds Banking Group PLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8435,
+  "metadata" : {
+    "handle" : "LBG-INTERNET-EDGE",
+    "description" : "Lloyds Banking Group PLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.92.20.0/23",
       "141.92.24.0/21",
       "141.92.64.0/19",
@@ -12,6 +15,6 @@
       "141.92.128.0/19",
       "193.34.231.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

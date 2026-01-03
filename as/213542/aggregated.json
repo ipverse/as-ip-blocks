@@ -1,12 +1,15 @@
 {
-  "asn": 213542,
-  "handle": "BYTEZERO-AS",
-  "description": "Daan Jumelet trading as ByteZero VOF",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213542,
+  "metadata" : {
+    "handle" : "BYTEZERO-AS",
+    "description" : "Daan Jumelet trading as ByteZero VOF",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.112.98.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:df45:25b::/48",
       "2a0f:df45:fe5e::/48",
       "2a0f:e7c3:1::/48",

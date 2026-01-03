@@ -1,9 +1,12 @@
 {
-  "asn": 19108,
-  "handle": "SUDDENLINK-COMMUNICATIONS",
-  "description": "Optimum",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19108,
+  "metadata" : {
+    "handle" : "SUDDENLINK-COMMUNICATIONS",
+    "description" : "Optimum",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.31.17.0/24",
       "24.32.0.0/16",
       "24.49.194.0/24",
@@ -86,7 +89,7 @@
       "216.134.72.0/21",
       "216.134.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:5400:1000::/36",
       "2600:5400:2000::/35",
       "2600:5400:7000::/36",

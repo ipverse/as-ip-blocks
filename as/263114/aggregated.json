@@ -1,9 +1,12 @@
 {
-  "asn": 263114,
-  "handle": "KIWI-NETWORKS",
-  "description": "Kiwi Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263114,
+  "metadata" : {
+    "handle" : "KIWI-NETWORKS",
+    "description" : "Kiwi Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.169.237.0/24",
       "45.169.238.0/24",
       "148.207.217.0/24",
@@ -11,6 +14,6 @@
       "168.197.42.0/24",
       "201.139.96.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

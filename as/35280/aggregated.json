@@ -1,9 +1,12 @@
 {
-  "asn": 35280,
-  "handle": "F5",
-  "description": "F5 Networks SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35280,
+  "metadata" : {
+    "handle" : "F5",
+    "description" : "F5 Networks SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.182.212.0/22",
       "23.158.32.0/24",
       "72.19.3.0/24",
@@ -38,7 +41,7 @@
       "204.26.0.0/24",
       "216.226.15.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:75c0::/32",
       "2a02:53a0::/32",
       "2a05:f440::/29",

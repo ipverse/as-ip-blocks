@@ -1,13 +1,16 @@
 {
-  "asn": 131270,
-  "handle": "PTGL-AS-AP",
-  "description": "Planet Technology Group Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131270,
+  "metadata" : {
+    "handle" : "PTGL-AS-AP",
+    "description" : "Planet Technology Group Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.68.160.0/22",
       "103.232.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:4e80::/32",
       "2403:4f80::/32",
       "2404:2080::/32"

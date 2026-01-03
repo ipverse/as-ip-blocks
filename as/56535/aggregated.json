@@ -1,12 +1,15 @@
 {
-  "asn": 56535,
-  "handle": "ALPARI-AS",
-  "description": "Alpari Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56535,
+  "metadata" : {
+    "handle" : "ALPARI-AS",
+    "description" : "Alpari Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.44.240.0/22",
       "31.44.252.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

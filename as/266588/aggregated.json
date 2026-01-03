@@ -1,13 +1,16 @@
 {
-  "asn": 266588,
-  "handle": "CONNECT-SERVICOS-INTERNET",
-  "description": "CONNECT SERVICOS DE INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266588,
+  "metadata" : {
+    "handle" : "CONNECT-SERVICOS-INTERNET",
+    "description" : "CONNECT SERVICOS DE INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.7.160.0/23",
       "45.7.162.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3e54::/32"
     ]
   }

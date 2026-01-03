@@ -1,12 +1,15 @@
 {
-  "asn": 24398,
-  "handle": "AUT-NZ-AP",
-  "description": "Auckland University of Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24398,
+  "metadata" : {
+    "handle" : "AUT-NZ-AP",
+    "description" : "Auckland University of Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "156.62.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:7900::/32"
     ]
   }

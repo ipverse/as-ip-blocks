@@ -1,12 +1,15 @@
 {
-  "asn": 20143,
-  "handle": "SUNET-1",
-  "description": "Suffolk University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20143,
+  "metadata" : {
+    "handle" : "SUNET-1",
+    "description" : "Suffolk University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.138.213.0/24",
       "192.138.214.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

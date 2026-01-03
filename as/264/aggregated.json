@@ -1,9 +1,12 @@
 {
-  "asn": 264,
-  "handle": "SRINET-AS",
-  "description": "SRI International",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264,
+  "metadata" : {
+    "handle" : "SRINET-AS",
+    "description" : "SRI International",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.18.0.0/16",
       "128.57.46.0/23",
       "128.57.50.0/24",
@@ -21,6 +24,6 @@
       "192.47.243.0/24",
       "192.67.67.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

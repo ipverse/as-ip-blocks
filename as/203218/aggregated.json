@@ -1,13 +1,16 @@
 {
-  "asn": 203218,
-  "handle": "PAPADAKIS-AS",
-  "description": "Cyril Papadakis trading as Papadakis IT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203218,
+  "metadata" : {
+    "handle" : "PAPADAKIS-AS",
+    "description" : "Cyril Papadakis trading as Papadakis IT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.48.81.0/24",
       "204.11.2.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2d80::/48"
     ]
   }

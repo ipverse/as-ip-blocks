@@ -1,10 +1,13 @@
 {
-  "asn": 274569,
-  "handle": "ASK-CORP",
-  "description": "ASK Corp",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 274569,
+  "metadata" : {
+    "handle" : "ASK-CORP",
+    "description" : "ASK Corp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2804:9618::/32"
     ]
   }

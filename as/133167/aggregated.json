@@ -1,15 +1,18 @@
 {
-  "asn": 133167,
-  "handle": "TMBPYT-AS-AP",
-  "description": "TMB Bank Phahonyothin branch",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133167,
+  "metadata" : {
+    "handle" : "TMBPYT-AS-AP",
+    "description" : "TMB Bank Phahonyothin branch",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.90.249.0/24",
       "110.170.151.0/24",
       "203.148.142.0/23",
       "203.148.182.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:fb0:1035::/48"
     ]
   }

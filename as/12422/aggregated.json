@@ -1,13 +1,16 @@
 {
-  "asn": 12422,
-  "handle": "EVONIK-AS",
-  "description": "Evonik Industries AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12422,
+  "metadata" : {
+    "handle" : "EVONIK-AS",
+    "description" : "Evonik Industries AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.216.0.0/16",
       "193.100.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:ef00::/32",
       "2a01:4bc0::/32"
     ]

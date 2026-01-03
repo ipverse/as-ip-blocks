@@ -1,16 +1,19 @@
 {
-  "asn": 203058,
-  "handle": "TIMS",
-  "description": "TIMS Systemes SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203058,
+  "metadata" : {
+    "handle" : "TIMS",
+    "description" : "TIMS Systemes SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.244.200.0/22",
       "141.11.154.0/24",
       "163.5.84.0/24",
       "185.146.76.0/22",
       "185.209.48.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:4e00::/29"
     ]
   }

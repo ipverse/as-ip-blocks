@@ -1,9 +1,12 @@
 {
-  "asn": 8100,
-  "handle": "ASN-QUADRANET-GLOBAL",
-  "description": "QuadraNet Enterprises LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8100,
+  "metadata" : {
+    "handle" : "ASN-QUADRANET-GLOBAL",
+    "description" : "QuadraNet Enterprises LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.232.116.0/24",
       "66.232.121.0/24",
       "66.232.122.0/23",
@@ -28,7 +31,7 @@
       "190.114.12.0/24",
       "200.6.152.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fed2:708d::/48",
       "2602:ff96:4::/48",
       "2602:ff96:11::/48",

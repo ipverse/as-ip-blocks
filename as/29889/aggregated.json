@@ -1,9 +1,12 @@
 {
-  "asn": 29889,
-  "handle": "FSNET-1",
-  "description": "Fast Serv Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29889,
+  "metadata" : {
+    "handle" : "FSNET-1",
+    "description" : "Fast Serv Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.7.221.0/24",
       "74.115.208.0/21",
       "74.116.40.0/22",
@@ -14,7 +17,7 @@
       "208.85.240.0/22",
       "209.9.238.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f9c7::/36",
       "2602:fffa::/36",
       "2620:100:5007::/48"

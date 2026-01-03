@@ -1,11 +1,14 @@
 {
-  "asn": 9888,
-  "handle": "SOSYSTEMS-AS-AP",
-  "description": "QLD VoIP Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9888,
+  "metadata" : {
+    "handle" : "SOSYSTEMS-AS-AP",
+    "description" : "QLD VoIP Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.184.174.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

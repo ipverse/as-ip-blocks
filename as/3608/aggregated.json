@@ -1,9 +1,12 @@
 {
-  "asn": 3608,
-  "handle": "KRC-AS",
-  "description": "Korea Rural Community Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3608,
+  "metadata" : {
+    "handle" : "KRC-AS",
+    "description" : "Korea Rural Community Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.231.18.0/24",
       "210.124.134.0/24",
       "211.181.37.0/24",
@@ -15,6 +18,6 @@
       "211.241.80.0/24",
       "211.241.94.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

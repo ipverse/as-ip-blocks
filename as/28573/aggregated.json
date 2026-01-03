@@ -1,9 +1,12 @@
 {
-  "asn": 28573,
-  "handle": "CLARO-NXT-TELECOMUNICACOES",
-  "description": "Claro NXT Telecomunicacoes Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28573,
+  "metadata" : {
+    "handle" : "CLARO-NXT-TELECOMUNICACOES",
+    "description" : "Claro NXT Telecomunicacoes Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.32.0.0/15",
       "177.34.0.0/18",
       "177.34.64.0/19",
@@ -275,7 +278,7 @@
       "201.80.0.0/14",
       "201.94.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:14c::/38",
       "2804:14c:400::/40",
       "2804:14c:3b00::/40",

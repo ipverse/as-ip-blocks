@@ -1,12 +1,15 @@
 {
-  "asn": 136089,
-  "handle": "IDNIC-MMNET-AS-ID",
-  "description": "PT Mitra Mandiri Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136089,
+  "metadata" : {
+    "handle" : "IDNIC-MMNET-AS-ID",
+    "description" : "PT Mitra Mandiri Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.66.16.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:d240::/48"
     ]
   }

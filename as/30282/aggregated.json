@@ -1,9 +1,12 @@
 {
-  "asn": 30282,
-  "handle": "AS-INAPCDN-OCY",
-  "description": "Unitas Global",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30282,
+  "metadata" : {
+    "handle" : "AS-INAPCDN-OCY",
+    "description" : "Unitas Global",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.186.224.0/24",
       "31.186.240.0/22",
       "31.186.246.0/23",
@@ -15,7 +18,7 @@
       "95.172.88.0/22",
       "216.52.0.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:b50:4000::/34"
     ]
   }

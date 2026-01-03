@@ -1,13 +1,16 @@
 {
-  "asn": 272136,
-  "handle": "SURINAME-INTERNET-EXCHANGE",
-  "description": "SURINAME INTERNET EXCHANGE (SUR-IX)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272136,
+  "metadata" : {
+    "handle" : "SURINAME-INTERNET-EXCHANGE",
+    "description" : "SURINAME INTERNET EXCHANGE (SUR-IX)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.68.21.0/24",
       "45.68.22.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:109:4::/46",
       "2801:109:8::/45"
     ]

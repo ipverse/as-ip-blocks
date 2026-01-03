@@ -1,13 +1,16 @@
 {
-  "asn": 26410,
-  "handle": "PTPA",
-  "description": "Point To Point Access.Com",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26410,
+  "metadata" : {
+    "handle" : "PTPA",
+    "description" : "Point To Point Access.Com",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.24.32.0/20",
       "75.127.32.0/20",
       "206.197.49.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

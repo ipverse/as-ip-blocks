@@ -1,11 +1,14 @@
 {
-  "asn": 20012,
-  "handle": "CHILLER-CITY",
-  "description": "Interworks Networking Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20012,
+  "metadata" : {
+    "handle" : "CHILLER-CITY",
+    "description" : "Interworks Networking Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.158.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

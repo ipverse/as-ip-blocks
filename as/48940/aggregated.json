@@ -1,9 +1,12 @@
 {
-  "asn": 48940,
-  "handle": "LINK-AS",
-  "description": "Link Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48940,
+  "metadata" : {
+    "handle" : "LINK-AS",
+    "description" : "Link Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.148.96.0/20",
       "62.122.96.0/21",
       "94.231.160.0/20",
@@ -11,6 +14,6 @@
       "176.115.32.0/19",
       "185.78.32.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

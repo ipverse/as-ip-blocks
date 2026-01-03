@@ -1,9 +1,12 @@
 {
-  "asn": 11941,
-  "handle": "PWLLP-AS001",
-  "description": "Pillsbury Madison \u0026 Sutro Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11941,
+  "metadata" : {
+    "handle" : "PWLLP-AS001",
+    "description" : "Pillsbury Madison & Sutro Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.227.225.0/24",
       "204.227.226.0/23",
       "204.227.228.0/24",
@@ -16,6 +19,6 @@
       "204.227.251.0/24",
       "204.227.254.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 205090,
-  "handle": "FIRST-SERVER-EUROPE",
-  "description": "FIRST SERVER LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205090,
+  "metadata" : {
+    "handle" : "FIRST-SERVER-EUROPE",
+    "description" : "FIRST SERVER LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.9.73.0/24",
       "45.9.75.0/24",
       "45.89.65.0/24",
@@ -38,7 +41,7 @@
       "193.162.143.0/24",
       "193.168.227.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:5302::/32"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 46565,
-  "handle": "COC-AS",
-  "description": "City of Columbia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46565,
+  "metadata" : {
+    "handle" : "COC-AS",
+    "description" : "City of Columbia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.7.188.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

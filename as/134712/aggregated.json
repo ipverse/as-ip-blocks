@@ -1,12 +1,15 @@
 {
-  "asn": 134712,
-  "handle": "PIPEXNETWORK-BD",
-  "description": "Pipex Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134712,
+  "metadata" : {
+    "handle" : "PIPEXNETWORK-BD",
+    "description" : "Pipex Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.158.4.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:d340::/32"
     ]
   }

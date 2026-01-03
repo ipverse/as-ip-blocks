@@ -1,9 +1,12 @@
 {
-  "asn": 24971,
-  "handle": "MASTER-AS",
-  "description": "MasterDC s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24971,
+  "metadata" : {
+    "handle" : "MASTER-AS",
+    "description" : "MasterDC s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.180.200.0/22",
       "37.140.220.0/24",
       "37.205.8.0/21",
@@ -36,7 +39,7 @@
       "194.145.180.0/22",
       "195.140.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:a50::/48",
       "2001:67c:68::/48",
       "2a00:8220::/32",

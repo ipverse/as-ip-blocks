@@ -1,9 +1,12 @@
 {
-  "asn": 42514,
-  "handle": "SIGNAL-AS",
-  "description": "Signal Service LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42514,
+  "metadata" : {
+    "handle" : "SIGNAL-AS",
+    "description" : "Signal Service LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.22.240.0/20",
       "89.232.180.0/22",
       "94.102.16.0/20",
@@ -13,7 +16,7 @@
       "185.12.84.0/22",
       "213.166.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2648::/29"
     ]
   }

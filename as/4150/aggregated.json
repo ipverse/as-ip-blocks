@@ -1,9 +1,12 @@
 {
-  "asn": 4150,
-  "handle": "SUPRANET-WIS",
-  "description": "SupraNet Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4150,
+  "metadata" : {
+    "handle" : "SUPRANET-WIS",
+    "description" : "SupraNet Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.170.0.0/19",
       "74.91.96.0/20",
       "162.218.0.0/22",
@@ -13,7 +16,7 @@
       "198.27.60.0/22",
       "199.91.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f4e0::/32"
     ]
   }

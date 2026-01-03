@@ -1,9 +1,12 @@
 {
-  "asn": 4847,
-  "handle": "CNIX-AP",
-  "description": "China Networks Inter-Exchange",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4847,
+  "metadata" : {
+    "handle" : "CNIX-AP",
+    "description" : "China Networks Inter-Exchange",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.93.0.0/16",
       "1.119.128.0/18",
       "1.119.192.0/21",
@@ -315,7 +318,7 @@
       "223.223.176.0/20",
       "223.223.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:be00::/48",
       "2402:92c0::/48",
       "2403:8080:101::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 54600,
-  "handle": "PEG-SV",
-  "description": "PEG TECH INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54600,
+  "metadata" : {
+    "handle" : "PEG-SV",
+    "description" : "PEG TECH INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.26.24.0/21",
       "23.26.164.0/22",
       "38.6.128.0/17",
@@ -95,7 +98,7 @@
       "199.188.104.0/21",
       "222.167.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:7280:7::/48"
     ]
   }

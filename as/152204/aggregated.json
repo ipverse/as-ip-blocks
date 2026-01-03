@@ -1,12 +1,15 @@
 {
-  "asn": 152204,
-  "handle": "JWGROUP-AS",
-  "description": "JW Holdings",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152204,
+  "metadata" : {
+    "handle" : "JWGROUP-AS",
+    "description" : "JW Holdings",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.50.70.0/23",
       "14.50.72.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

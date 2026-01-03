@@ -1,13 +1,16 @@
 {
-  "asn": 399215,
-  "handle": "ACTS-01",
-  "description": "ACTS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399215,
+  "metadata" : {
+    "handle" : "ACTS-01",
+    "description" : "ACTS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.59.178.0/24",
       "206.253.92.0/23",
       "209.127.221.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

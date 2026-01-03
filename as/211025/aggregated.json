@@ -1,9 +1,12 @@
 {
-  "asn": 211025,
-  "handle": "OPTOTECH-AS",
-  "description": "OPTO-TECH GRZEGORZ WROBLEWSKI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211025,
+  "metadata" : {
+    "handle" : "OPTOTECH-AS",
+    "description" : "OPTO-TECH GRZEGORZ WROBLEWSKI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.220.58.0/24",
       "92.55.208.0/23",
       "195.136.70.0/24",
@@ -13,6 +16,6 @@
       "213.155.181.0/24",
       "213.155.186.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 34183,
-  "handle": "BMG",
-  "description": "Bundesministerium f. Gesundheit",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34183,
+  "metadata" : {
+    "handle" : "BMG",
+    "description" : "Bundesministerium f. Gesundheit",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.117.40.0/22",
       "194.48.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1610::/29"
     ]
   }

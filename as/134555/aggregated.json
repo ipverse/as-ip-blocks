@@ -1,9 +1,12 @@
 {
-  "asn": 134555,
-  "handle": "ENCOO-AS-AP",
-  "description": "Encoo Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134555,
+  "metadata" : {
+    "handle" : "ENCOO-AS-AP",
+    "description" : "Encoo Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.247.80.0/22",
       "103.16.194.0/23",
       "103.23.174.0/24",
@@ -17,7 +20,7 @@
       "203.25.32.0/22",
       "203.26.235.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:d840::/32"
     ]
   }

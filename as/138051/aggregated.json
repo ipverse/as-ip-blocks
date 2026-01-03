@@ -1,12 +1,15 @@
 {
-  "asn": 138051,
-  "handle": "IDNIC-SDP-AS-ID",
-  "description": "PT Sentra Data Persada",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138051,
+  "metadata" : {
+    "handle" : "IDNIC-SDP-AS-ID",
+    "description" : "PT Sentra Data Persada",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.134.55.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:bb00::/48"
     ]
   }

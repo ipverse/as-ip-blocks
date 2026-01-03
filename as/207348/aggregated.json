@@ -1,15 +1,18 @@
 {
-  "asn": 207348,
-  "handle": "TEHNOLINE-AS",
-  "description": "Tehnoline Telekom d.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207348,
+  "metadata" : {
+    "handle" : "TEHNOLINE-AS",
+    "description" : "Tehnoline Telekom d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.142.8.0/22",
       "85.222.168.0/22",
       "93.170.240.0/23",
       "95.47.160.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:1090::/48"
     ]
   }

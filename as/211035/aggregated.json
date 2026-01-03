@@ -1,10 +1,13 @@
 {
-  "asn": 211035,
-  "handle": "PHANTOM-HIVE-AS",
-  "description": "PHANTOM HIVE NETWORK LTD",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 211035,
+  "metadata" : {
+    "handle" : "PHANTOM-HIVE-AS",
+    "description" : "PHANTOM HIVE NETWORK LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0d:2580:db00::/46",
       "2a0d:2580:db10::/46",
       "2a0d:2580:db18::/45",

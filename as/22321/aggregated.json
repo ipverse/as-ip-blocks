@@ -1,11 +1,14 @@
 {
-  "asn": 22321,
-  "handle": "PLUMCHOICE-DC1",
-  "description": "PlumChoice",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22321,
+  "metadata" : {
+    "handle" : "PLUMCHOICE-DC1",
+    "description" : "PlumChoice",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.209.0.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

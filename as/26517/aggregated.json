@@ -1,9 +1,12 @@
 {
-  "asn": 26517,
-  "handle": "OXY-INC",
-  "description": "Occidental Petroleum Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26517,
+  "metadata" : {
+    "handle" : "OXY-INC",
+    "description" : "Occidental Petroleum Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.189.12.0/24",
       "170.189.159.0/24",
       "170.189.192.0/23",
@@ -15,7 +18,7 @@
       "199.248.166.0/24",
       "199.248.168.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:5c0:10::/44",
       "2605:5c0:40::/44",
       "2605:5c0:80::/44",

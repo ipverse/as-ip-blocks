@@ -1,13 +1,16 @@
 {
-  "asn": 199216,
-  "handle": "COMPASS-AS",
-  "description": "Compass-Verlag GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199216,
+  "metadata" : {
+    "handle" : "COMPASS-AS",
+    "description" : "Compass-Verlag GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.195.198.0/23",
       "193.56.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:190:15ec::/48",
       "2a0c:8f40::/29"
     ]

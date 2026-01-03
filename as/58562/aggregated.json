@@ -1,11 +1,14 @@
 {
-  "asn": 58562,
-  "handle": "NCS-MNS-SG",
-  "description": "NCS MNS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58562,
+  "metadata" : {
+    "handle" : "NCS-MNS-SG",
+    "description" : "NCS MNS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.7.124.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

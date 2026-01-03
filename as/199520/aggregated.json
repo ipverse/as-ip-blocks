@@ -1,14 +1,17 @@
 {
-  "asn": 199520,
-  "handle": "DUSTINAB",
-  "description": "Dustin Aktiebolag",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199520,
+  "metadata" : {
+    "handle" : "DUSTINAB",
+    "description" : "Dustin Aktiebolag",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.224.246.0/23",
       "91.226.40.0/23",
       "194.132.19.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:9e80::/32"
     ]
   }

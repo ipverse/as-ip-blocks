@@ -1,9 +1,12 @@
 {
-  "asn": 14325,
-  "handle": "OSHEAN",
-  "description": "OSHEAN Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14325,
+  "metadata" : {
+    "handle" : "OSHEAN",
+    "description" : "OSHEAN Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.181.224.0/20",
       "128.148.32.0/24",
       "128.148.128.0/24",
@@ -14,7 +17,7 @@
       "199.88.184.0/24",
       "216.19.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:d00::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 16212,
-  "handle": "LORAL-SKYNET-ASN",
-  "description": "Telesat International Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16212,
+  "metadata" : {
+    "handle" : "LORAL-SKYNET-ASN",
+    "description" : "Telesat International Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.237.144.0/21",
       "199.101.52.0/22",
       "217.68.192.0/21",
@@ -11,6 +14,6 @@
       "217.68.204.0/23",
       "217.68.206.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

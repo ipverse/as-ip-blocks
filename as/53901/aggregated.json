@@ -1,11 +1,14 @@
 {
-  "asn": 53901,
-  "handle": "BWS-DR-IX-AS",
-  "description": "Board of Water Supply",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53901,
+  "metadata" : {
+    "handle" : "BWS-DR-IX-AS",
+    "description" : "Board of Water Supply",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "205.167.232.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

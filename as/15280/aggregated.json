@@ -1,12 +1,15 @@
 {
-  "asn": 15280,
-  "handle": "HOSTLEASING",
-  "description": "Host Leasing Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15280,
+  "metadata" : {
+    "handle" : "HOSTLEASING",
+    "description" : "Host Leasing Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.143.43.0/24",
       "205.166.250.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

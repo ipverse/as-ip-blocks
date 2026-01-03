@@ -1,9 +1,12 @@
 {
-  "asn": 397283,
-  "handle": "ROCKETNODE",
-  "description": "RocketNode Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397283,
+  "metadata" : {
+    "handle" : "ROCKETNODE",
+    "description" : "RocketNode Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.59.223.0/24",
       "66.92.24.0/24",
       "89.251.25.0/24",
@@ -12,6 +15,6 @@
       "216.9.233.0/24",
       "216.151.164.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 5852,
-  "handle": "DNIC-ASBLK-05800-06055",
-  "description": "United States Department of Defense (DoD)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5852,
+  "metadata" : {
+    "handle" : "DNIC-ASBLK-05800-06055",
+    "description" : "United States Department of Defense (DoD)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.65.0.0/18",
       "131.65.64.0/21",
       "131.65.72.0/22",
@@ -378,7 +381,7 @@
       "214.87.64.0/18",
       "214.87.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2608:104:19::/48",
       "2608:149:29::/48",
       "2608:1c0:101c::/48"

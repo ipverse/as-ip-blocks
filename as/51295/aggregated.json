@@ -1,9 +1,12 @@
 {
-  "asn": 51295,
-  "handle": "GNET-AS",
-  "description": "Tes Euro Media SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51295,
+  "metadata" : {
+    "handle" : "GNET-AS",
+    "description" : "Tes Euro Media SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.153.88.0/24",
       "45.153.91.0/24",
       "185.165.184.0/22",
@@ -12,7 +15,7 @@
       "193.29.227.0/24",
       "194.165.26.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:8880:1::/48",
       "2a0a:8880:2::/48",
       "2a0a:8880:aaaa::/48",

@@ -1,12 +1,15 @@
 {
-  "asn": 5755,
-  "handle": "SIAM-ASN-01",
-  "description": "SIAM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5755,
+  "metadata" : {
+    "handle" : "SIAM-ASN-01",
+    "description" : "SIAM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.108.225.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:d3:6000::/48"
     ]
   }

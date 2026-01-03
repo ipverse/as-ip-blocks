@@ -1,12 +1,15 @@
 {
-  "asn": 10995,
-  "handle": "PNCBANK",
-  "description": "PNC Bank N.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10995,
+  "metadata" : {
+    "handle" : "PNCBANK",
+    "description" : "PNC Bank N.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.150.0.0/16",
       "170.201.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

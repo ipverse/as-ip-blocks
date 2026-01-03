@@ -1,9 +1,12 @@
 {
-  "asn": 3549,
-  "handle": "LVLT-3549",
-  "description": "Level 3 Parent LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3549,
+  "metadata" : {
+    "handle" : "LVLT-3549",
+    "description" : "Level 3 Parent LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.242.80.0/21",
       "8.242.88.0/22",
       "8.242.120.0/21",
@@ -248,7 +251,7 @@
       "216.253.0.0/16",
       "217.156.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:450::/32",
       "2001:13b0::/31",
       "2001:4870::/31",

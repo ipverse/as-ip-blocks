@@ -1,9 +1,12 @@
 {
-  "asn": 50624,
-  "handle": "OUTSCALE",
-  "description": "Outscale SASU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50624,
+  "metadata" : {
+    "handle" : "OUTSCALE",
+    "description" : "Outscale SASU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.104.96.0/21",
       "46.231.144.0/21",
       "80.247.0.0/20",
@@ -16,6 +19,6 @@
       "185.23.188.0/24",
       "217.75.160.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

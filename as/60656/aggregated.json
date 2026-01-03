@@ -1,9 +1,12 @@
 {
-  "asn": 60656,
-  "handle": "BOLBGIZTOK",
-  "description": "BOL BG IZTOK LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60656,
+  "metadata" : {
+    "handle" : "BOLBGIZTOK",
+    "description" : "BOL BG IZTOK LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.128.32.0/22",
       "78.128.44.0/22",
       "78.128.48.0/22",
@@ -14,6 +17,6 @@
       "130.185.252.0/24",
       "185.149.104.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

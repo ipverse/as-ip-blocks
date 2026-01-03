@@ -1,12 +1,15 @@
 {
-  "asn": 45381,
-  "handle": "SHNET-AS",
-  "description": "Seoul Housing Communities Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45381,
+  "metadata" : {
+    "handle" : "SHNET-AS",
+    "description" : "Seoul Housing Communities Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.134.95.0/24",
       "128.134.96.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

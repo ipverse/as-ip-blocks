@@ -1,12 +1,15 @@
 {
-  "asn": 56598,
-  "handle": "NETBARISTA",
-  "description": "Netbarista SASU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56598,
+  "metadata" : {
+    "handle" : "NETBARISTA",
+    "description" : "Netbarista SASU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.168.204.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:6980::/29",
       "2a0e:9900::/29"
     ]

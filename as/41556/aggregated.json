@@ -1,12 +1,15 @@
 {
-  "asn": 41556,
-  "handle": "TELECON-AS",
-  "description": "LTD Telecon",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41556,
+  "metadata" : {
+    "handle" : "TELECON-AS",
+    "description" : "LTD Telecon",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.177.42.0/23",
       "88.81.210.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

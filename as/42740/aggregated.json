@@ -1,13 +1,16 @@
 {
-  "asn": 42740,
-  "handle": "BACKSTAGE-AS",
-  "description": "Backstage Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42740,
+  "metadata" : {
+    "handle" : "BACKSTAGE-AS",
+    "description" : "Backstage Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.197.22.0/23",
       "193.33.160.0/23",
       "194.247.55.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

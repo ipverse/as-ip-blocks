@@ -1,15 +1,18 @@
 {
-  "asn": 15540,
-  "handle": "GEDAS-DE-AS",
-  "description": "operational services GmbH \u0026 Co. KG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15540,
+  "metadata" : {
+    "handle" : "GEDAS-DE-AS",
+    "description" : "operational services GmbH & Co. KG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.1.112.0/21",
       "139.1.120.0/22",
       "139.1.124.0/23",
       "139.1.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:74c0::/32"
     ]
   }

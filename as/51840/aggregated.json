@@ -1,9 +1,12 @@
 {
-  "asn": 51840,
-  "handle": "CSL-AS",
-  "description": "CSL Data Centre Services Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51840,
+  "metadata" : {
+    "handle" : "CSL-AS",
+    "description" : "CSL Data Centre Services Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.220.139.0/24",
       "185.27.56.0/22",
       "185.64.56.0/22",
@@ -11,7 +14,7 @@
       "185.177.48.0/22",
       "185.218.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8de7::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 33741,
-  "handle": "DENNIS-GROUP",
-  "description": "Dennis Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33741,
+  "metadata" : {
+    "handle" : "DENNIS-GROUP",
+    "description" : "Dennis Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.184.184.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:819:a000::/40"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 60174,
-  "handle": "RTE-IAS1",
-  "description": "RTE Reseau de transport d\u0027electricite S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60174,
+  "metadata" : {
+    "handle" : "RTE-IAS1",
+    "description" : "RTE Reseau de transport d'electricite S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.30.132.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

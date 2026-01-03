@@ -1,9 +1,12 @@
 {
-  "asn": 9835,
-  "handle": "GITS-TH-AS-AP",
-  "description": "National Electronics and Computer Technology Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9835,
+  "metadata" : {
+    "handle" : "GITS-TH-AS-AP",
+    "description" : "National Electronics and Computer Technology Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.115.15.0/24",
       "164.115.19.0/24",
       "164.115.20.0/22",
@@ -26,7 +29,7 @@
       "164.115.248.0/24",
       "202.139.202.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:c38:90a3::/48",
       "2001:c38:90a4::/48",
       "2401:9d00:1111::/48",

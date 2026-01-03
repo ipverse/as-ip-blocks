@@ -1,9 +1,12 @@
 {
-  "asn": 47329,
-  "handle": "WDM-AS",
-  "description": "WDM Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47329,
+  "metadata" : {
+    "handle" : "WDM-AS",
+    "description" : "WDM Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.139.48.0/22",
       "79.139.112.0/22",
       "91.206.114.0/23",
@@ -15,6 +18,6 @@
       "185.116.252.0/22",
       "195.62.64.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 40185,
-  "handle": "JUNCT",
-  "description": "Junction Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40185,
+  "metadata" : {
+    "handle" : "JUNCT",
+    "description" : "Junction Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.110.136.0/23",
       "199.7.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:104:2001::/48",
       "2620:104:2002::/47",
       "2620:104:2011::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 139989,
-  "handle": "IDNIC-ATHAMEDIANET-AS-ID",
-  "description": "CV Atha Media Prima",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139989,
+  "metadata" : {
+    "handle" : "IDNIC-ATHAMEDIANET-AS-ID",
+    "description" : "CV Atha Media Prima",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.191.91.0/24",
       "41.216.177.0/24",
       "41.216.178.0/24",
@@ -18,7 +21,7 @@
       "154.127.62.0/24",
       "193.111.124.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:c280::/48"
     ]
   }

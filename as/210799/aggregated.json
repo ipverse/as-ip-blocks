@@ -1,12 +1,15 @@
 {
-  "asn": 210799,
-  "handle": "NEXLOOP-AS",
-  "description": "Nexloop France SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210799,
+  "metadata" : {
+    "handle" : "NEXLOOP-AS",
+    "description" : "Nexloop France SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "176.100.45.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:c780::/29"
     ]
   }

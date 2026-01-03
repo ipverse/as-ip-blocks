@@ -1,9 +1,12 @@
 {
-  "asn": 32899,
-  "handle": "BRESCOBROADBAND",
-  "description": "Bresco Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32899,
+  "metadata" : {
+    "handle" : "BRESCOBROADBAND",
+    "description" : "Bresco Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.149.224.0/24",
       "23.163.240.0/24",
       "64.128.164.0/23",
@@ -25,7 +28,7 @@
       "198.178.231.0/24",
       "206.168.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe5f::/36",
       "2604:cd40::/32"
     ]

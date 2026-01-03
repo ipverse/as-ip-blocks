@@ -1,9 +1,12 @@
 {
-  "asn": 200548,
-  "handle": "WEBHOSTER",
-  "description": "webhoster.de AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200548,
+  "metadata" : {
+    "handle" : "WEBHOSTER",
+    "description" : "webhoster.de AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.16.92.0/22",
       "45.87.188.0/22",
       "84.39.96.0/21",
@@ -16,7 +19,7 @@
       "194.147.174.0/23",
       "194.147.238.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:b1c1::/32",
       "2a0b:f880::/29",
       "2a0b:fb00::/29"

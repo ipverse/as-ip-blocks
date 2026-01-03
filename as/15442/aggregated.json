@@ -1,9 +1,12 @@
 {
-  "asn": 15442,
-  "handle": "PG-EUROPE",
-  "description": "Procter \u0026 Gamble Service GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15442,
+  "metadata" : {
+    "handle" : "PG-EUROPE",
+    "description" : "Procter & Gamble Service GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.26.144.0/22",
       "143.27.112.0/23",
       "143.27.126.0/23",
@@ -12,6 +15,6 @@
       "155.113.64.0/22",
       "155.113.102.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

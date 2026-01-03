@@ -1,9 +1,12 @@
 {
-  "asn": 28378,
-  "handle": "TV-REY-OCCIDENTE",
-  "description": "TV Rey de Occidente S.A. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28378,
+  "metadata" : {
+    "handle" : "TV-REY-OCCIDENTE",
+    "description" : "TV Rey de Occidente S.A. de C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.122.252.0/22",
       "168.227.68.0/22",
       "200.23.78.0/23",
@@ -13,6 +16,6 @@
       "201.159.32.0/21",
       "201.159.40.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

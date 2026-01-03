@@ -1,12 +1,15 @@
 {
-  "asn": 263336,
-  "handle": "EXTREME-WI",
-  "description": "EXTREME WI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263336,
+  "metadata" : {
+    "handle" : "EXTREME-WI",
+    "description" : "EXTREME WI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "191.36.168.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:148c::/32"
     ]
   }

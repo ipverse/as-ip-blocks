@@ -1,9 +1,12 @@
 {
-  "asn": 600,
-  "handle": "OARNET-AS",
-  "description": "OARnet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 600,
+  "metadata" : {
+    "handle" : "OARNET-AS",
+    "description" : "OARnet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.254.64.0/20",
       "130.108.0.0/16",
       "131.187.0.0/16",
@@ -44,7 +47,7 @@
       "206.244.0.0/16",
       "208.108.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:ab00::/32",
       "2610:a8::/32"
     ]

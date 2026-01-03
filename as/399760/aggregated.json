@@ -1,12 +1,15 @@
 {
-  "asn": 399760,
-  "handle": "ZABBLY",
-  "description": "Zabbly",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399760,
+  "metadata" : {
+    "handle" : "ZABBLY",
+    "description" : "Zabbly",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.45.148.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc62:a::/47",
       "2602:fc62:c::/48",
       "2602:fc62:ee::/47",

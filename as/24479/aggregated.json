@@ -1,15 +1,18 @@
 {
-  "asn": 24479,
-  "handle": "EET-NEXIUM-AS-AP",
-  "description": "Ergon Energy Telecommunications Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24479,
+  "metadata" : {
+    "handle" : "EET-NEXIUM-AS-AP",
+    "description" : "Ergon Energy Telecommunications Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.3.167.0/24",
       "203.170.2.0/23",
       "203.170.4.0/22",
       "203.170.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:4d40::/32"
     ]
   }

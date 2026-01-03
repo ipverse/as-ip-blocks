@@ -1,9 +1,12 @@
 {
-  "asn": 6805,
-  "handle": "TDDE-ASN1",
-  "description": "Telefonica Germany GmbH \u0026 Co.OHG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6805,
+  "metadata" : {
+    "handle" : "TDDE-ASN1",
+    "description" : "Telefonica Germany GmbH & Co.OHG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.208.0.0/13",
       "2.240.0.0/13",
       "5.4.0.0/14",
@@ -37,7 +40,7 @@
       "217.48.0.0/14",
       "217.184.0.0/13"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1a28::/32",
       "2a01:c00::/26",
       "2a02:3000::/23"

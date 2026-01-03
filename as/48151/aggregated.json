@@ -1,12 +1,15 @@
 {
-  "asn": 48151,
-  "handle": "REDBULL-AS",
-  "description": "Red Bull GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48151,
+  "metadata" : {
+    "handle" : "REDBULL-AS",
+    "description" : "Red Bull GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.204.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:23d8::/47"
     ]
   }

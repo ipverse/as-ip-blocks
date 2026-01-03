@@ -1,15 +1,18 @@
 {
-  "asn": 262568,
-  "handle": "NETVIA-TELECOM-PROVEDOR",
-  "description": "Netvia Telecom Provedor de Internet Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262568,
+  "metadata" : {
+    "handle" : "NETVIA-TELECOM-PROVEDOR",
+    "description" : "Netvia Telecom Provedor de Internet Ltda.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.53.108.0/22",
       "177.73.88.0/22",
       "201.159.252.0/23",
       "201.159.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:115c::/32"
     ]
   }

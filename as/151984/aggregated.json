@@ -1,11 +1,14 @@
 {
-  "asn": 151984,
-  "handle": "NRLINK-AS-AP",
-  "description": "NR Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151984,
+  "metadata" : {
+    "handle" : "NRLINK-AS-AP",
+    "description" : "NR Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.252.120.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

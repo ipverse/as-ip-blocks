@@ -1,9 +1,12 @@
 {
-  "asn": 7690,
-  "handle": "MIRAI",
-  "description": "Mirai Communication Network Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7690,
+  "metadata" : {
+    "handle" : "MIRAI",
+    "description" : "Mirai Communication Network Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.26.24.0/23",
       "103.232.22.0/23",
       "123.103.128.0/18",
@@ -14,7 +17,7 @@
       "210.172.192.0/19",
       "218.231.246.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:d600::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 16285,
-  "handle": "ASN-UMN",
-  "description": "Joint Stock Company TransTeleCom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16285,
+  "metadata" : {
+    "handle" : "ASN-UMN",
+    "description" : "Joint Stock Company TransTeleCom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.209.224.0/22",
       "37.209.229.0/24",
       "37.209.230.0/23",
@@ -21,7 +24,7 @@
       "213.141.244.0/22",
       "213.141.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:6080::/29"
     ]
   }

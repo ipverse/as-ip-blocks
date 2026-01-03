@@ -1,16 +1,19 @@
 {
-  "asn": 43298,
-  "handle": "STORMNETWORKS",
-  "description": "Storm Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43298,
+  "metadata" : {
+    "handle" : "STORMNETWORKS",
+    "description" : "Storm Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.13.160.0/24",
       "185.71.64.0/22",
       "185.121.243.0/24",
       "193.84.78.0/24",
       "193.84.90.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:a180:20::/47"
     ]
   }

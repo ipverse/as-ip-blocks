@@ -1,9 +1,12 @@
 {
-  "asn": 855,
-  "handle": "CANET-ASN-4",
-  "description": "Bell Canada",
-  "subnets": {
-    "ipv4": [
+  "asn" : 855,
+  "metadata" : {
+    "handle" : "CANET-ASN-4",
+    "description" : "Bell Canada",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.252.112.0/22",
       "47.54.0.0/15",
       "70.26.52.0/22",
@@ -85,7 +88,7 @@
       "208.87.160.0/23",
       "209.128.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4c0::/32"
     ]
   }

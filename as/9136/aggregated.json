@@ -1,9 +1,12 @@
 {
-  "asn": 9136,
-  "handle": "WOBCOM",
-  "description": "Wobcom GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9136,
+  "metadata" : {
+    "handle" : "WOBCOM",
+    "description" : "Wobcom GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.159.24.0/21",
       "62.176.224.0/19",
       "91.186.32.0/19",
@@ -14,7 +17,7 @@
       "194.39.104.0/22",
       "213.162.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:580::/29",
       "2a0d:c405::/32"
     ]

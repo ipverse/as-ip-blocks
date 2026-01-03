@@ -1,9 +1,12 @@
 {
-  "asn": 41953,
-  "handle": "TELECOMPLUS-AS",
-  "description": "TELEPLUS SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41953,
+  "metadata" : {
+    "handle" : "TELECOMPLUS-AS",
+    "description" : "TELEPLUS SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.40.196.0/22",
       "91.196.153.0/24",
       "91.206.123.0/24",
@@ -12,7 +15,7 @@
       "93.115.34.0/24",
       "185.202.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:3700::/29"
     ]
   }

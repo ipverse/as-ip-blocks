@@ -1,13 +1,16 @@
 {
-  "asn": 133372,
-  "handle": "INTERAPTUSLIMITED-AS-AP",
-  "description": "Interaptus Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133372,
+  "metadata" : {
+    "handle" : "INTERAPTUSLIMITED-AS-AP",
+    "description" : "Interaptus Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.225.213.0/24",
       "103.225.214.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:1d80:213::/48"
     ]
   }

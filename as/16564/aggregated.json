@@ -1,12 +1,15 @@
 {
-  "asn": 16564,
-  "handle": "ADAMS-WELLS-INTERNET",
-  "description": "Adamswells Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16564,
+  "metadata" : {
+    "handle" : "ADAMS-WELLS-INTERNET",
+    "description" : "Adamswells Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.20.64.0/20",
       "66.18.176.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

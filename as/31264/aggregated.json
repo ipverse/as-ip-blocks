@@ -1,9 +1,12 @@
 {
-  "asn": 31264,
-  "handle": "STIM-COMPUTING-AS",
-  "description": "ADVANIA NORGE AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31264,
+  "metadata" : {
+    "handle" : "STIM-COMPUTING-AS",
+    "description" : "ADVANIA NORGE AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.199.63.0/24",
       "95.128.104.0/21",
       "176.221.88.0/21",
@@ -13,7 +16,7 @@
       "185.220.208.0/22",
       "217.173.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2838::/32",
       "2a06:9900::/29"
     ]

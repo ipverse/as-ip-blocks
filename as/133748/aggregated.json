@@ -1,9 +1,12 @@
 {
-  "asn": 133748,
-  "handle": "CORETELNET-AS-AP",
-  "description": "Coretel Networks (International) Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133748,
+  "metadata" : {
+    "handle" : "CORETELNET-AS-AP",
+    "description" : "Coretel Networks (International) Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.249.248.0/22",
       "103.41.128.0/24",
       "103.41.130.0/23",
@@ -14,7 +17,7 @@
       "206.131.202.0/23",
       "206.131.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:b080::/32"
     ]
   }

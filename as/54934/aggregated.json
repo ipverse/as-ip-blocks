@@ -1,9 +1,12 @@
 {
-  "asn": 54934,
-  "handle": "JC-39-AS",
-  "description": "JEFFERSON CO. CABLE INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54934,
+  "metadata" : {
+    "handle" : "JC-39-AS",
+    "description" : "JEFFERSON CO. CABLE INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.223.42.0/23",
       "24.223.53.0/24",
       "24.223.55.0/24",
@@ -12,7 +15,7 @@
       "198.252.112.0/20",
       "199.180.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:c640:1::/48"
     ]
   }

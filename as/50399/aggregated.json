@@ -1,16 +1,19 @@
 {
-  "asn": 50399,
-  "handle": "OPENLINE-AS",
-  "description": "Open Line BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50399,
+  "metadata" : {
+    "handle" : "OPENLINE-AS",
+    "description" : "Open Line BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.209.213.0/24",
       "92.42.232.0/21",
       "109.232.40.0/21",
       "185.3.204.0/22",
       "185.223.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:9c8::/48",
       "2a00:11e8::/32",
       "2a03:3300::/32",

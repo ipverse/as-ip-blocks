@@ -1,9 +1,12 @@
 {
-  "asn": 18310,
-  "handle": "SKB-VITSSEN-AS",
-  "description": "SK Broadband Co Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18310,
+  "metadata" : {
+    "handle" : "SKB-VITSSEN-AS",
+    "description" : "SK Broadband Co Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.112.128.0/17",
       "45.112.108.0/22",
       "61.100.192.0/19",
@@ -21,6 +24,6 @@
       "211.173.128.0/19",
       "211.174.0.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

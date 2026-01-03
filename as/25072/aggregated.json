@@ -1,12 +1,15 @@
 {
-  "asn": 25072,
-  "handle": "IRF-AS",
-  "description": "Institutet for Rymdfysik",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25072,
+  "metadata" : {
+    "handle" : "IRF-AS",
+    "description" : "Institutet for Rymdfysik",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.71.13.0/24",
       "192.71.152.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

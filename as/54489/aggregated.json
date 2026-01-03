@@ -1,16 +1,19 @@
 {
-  "asn": 54489,
-  "handle": "CORESPACE-DAL",
-  "description": "CoreSpace Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54489,
+  "metadata" : {
+    "handle" : "CORESPACE-DAL",
+    "description" : "CoreSpace Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.110.0.0/24",
       "64.182.0.0/16",
       "69.13.0.0/16",
       "198.73.50.0/23",
       "198.232.139.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:7780::/32"
     ]
   }

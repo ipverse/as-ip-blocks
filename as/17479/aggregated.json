@@ -1,16 +1,19 @@
 {
-  "asn": 17479,
-  "handle": "CMU-TH-AP",
-  "description": "Office of Info.Tech. Admin. for Educational Development",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17479,
+  "metadata" : {
+    "handle" : "CMU-TH-AP",
+    "description" : "Office of Info.Tech. Admin. for Educational Development",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.203.247.0/24",
       "202.28.24.0/22",
       "202.28.244.0/22",
       "202.28.248.0/22",
       "202.44.145.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:3c8:5007::/48"
     ]
   }

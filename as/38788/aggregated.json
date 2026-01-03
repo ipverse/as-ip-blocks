@@ -1,15 +1,18 @@
 {
-  "asn": 38788,
-  "handle": "IDNIC-ICLOUD-AS-ID",
-  "description": "PT Indonesian Cloud",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38788,
+  "metadata" : {
+    "handle" : "IDNIC-ICLOUD-AS-ID",
+    "description" : "PT Indonesian Cloud",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.230.4.0/24",
       "43.230.7.0/24",
       "43.231.128.0/23",
       "103.7.0.0/23",
       "103.242.180.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

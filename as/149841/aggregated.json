@@ -1,14 +1,17 @@
 {
-  "asn": 149841,
-  "handle": "LIGHTNING1-AS-AP",
-  "description": "Lightning IP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149841,
+  "metadata" : {
+    "handle" : "LIGHTNING1-AS-AP",
+    "description" : "Lightning IP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.211.250.0/24",
       "38.224.62.0/24",
       "103.187.240.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:7fa0::/32"
     ]
   }

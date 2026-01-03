@@ -1,10 +1,13 @@
 {
-  "asn": 950,
-  "handle": "MILEHIGHWALRUS-ANYCAST",
-  "description": "Milehighwalrus Network",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 950,
+  "metadata" : {
+    "handle" : "MILEHIGHWALRUS-ANYCAST",
+    "description" : "Milehighwalrus Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2602:fc09:950::/44",
       "2602:fc09:960::/44"
     ]

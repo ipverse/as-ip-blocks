@@ -1,15 +1,18 @@
 {
-  "asn": 32653,
-  "handle": "ENETWORKS",
-  "description": "eNetworks cc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32653,
+  "metadata" : {
+    "handle" : "ENETWORKS",
+    "description" : "eNetworks cc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.77.152.0/21",
       "41.222.48.0/21",
       "45.220.128.0/17",
       "154.72.96.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fbf0::/28"
     ]
   }

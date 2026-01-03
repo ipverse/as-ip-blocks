@@ -1,13 +1,16 @@
 {
-  "asn": 215329,
-  "handle": "RXTX",
-  "description": "SIA RXTX Baltija",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215329,
+  "metadata" : {
+    "handle" : "RXTX",
+    "description" : "SIA RXTX Baltija",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.37.100.0/24",
       "194.56.212.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:c2c0::/32"
     ]
   }

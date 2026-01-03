@@ -1,11 +1,14 @@
 {
-  "asn": 15818,
-  "handle": "GASO-AS",
-  "description": "GASO AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15818,
+  "metadata" : {
+    "handle" : "GASO-AS",
+    "description" : "GASO AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.148.90.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

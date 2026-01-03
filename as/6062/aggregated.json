@@ -1,9 +1,12 @@
 {
-  "asn": 6062,
-  "handle": "NETPLEX",
-  "description": "NETPLEX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6062,
+  "metadata" : {
+    "handle" : "NETPLEX",
+    "description" : "NETPLEX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.171.66.0/24",
       "65.75.0.0/18",
       "192.48.97.0/24",
@@ -25,7 +28,7 @@
       "208.0.192.0/20",
       "208.193.132.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:18e0::/32"
     ]
   }

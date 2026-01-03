@@ -1,15 +1,18 @@
 {
-  "asn": 397324,
-  "handle": "GWI-CI-ASN",
-  "description": "Gallatin Wireless Internet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397324,
+  "metadata" : {
+    "handle" : "GWI-CI-ASN",
+    "description" : "Gallatin Wireless Internet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.51.4.0/22",
       "163.123.148.0/22",
       "184.169.96.0/20",
       "192.173.14.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:2540::/32",
       "2607:c980::/32"
     ]

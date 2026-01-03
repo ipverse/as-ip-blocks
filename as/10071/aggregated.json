@@ -1,9 +1,12 @@
 {
-  "asn": 10071,
-  "handle": "ANYANG-AS",
-  "description": "anyang University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10071,
+  "metadata" : {
+    "handle" : "ANYANG-AS",
+    "description" : "anyang University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "117.17.70.0/23",
       "117.17.72.0/22",
       "117.17.76.0/23",
@@ -15,6 +18,6 @@
       "220.66.60.0/24",
       "220.66.87.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

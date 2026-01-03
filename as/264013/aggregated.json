@@ -1,14 +1,17 @@
 {
-  "asn": 264013,
-  "handle": "CONNECTA-TELECOM-INTERNET",
-  "description": "CONNECTA TELECOM INTERNET LTDA - EPP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264013,
+  "metadata" : {
+    "handle" : "CONNECTA-TELECOM-INTERNET",
+    "description" : "CONNECTA TELECOM INTERNET LTDA - EPP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.0.184.0/22",
       "170.0.152.0/22",
       "187.120.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2968::/32"
     ]
   }

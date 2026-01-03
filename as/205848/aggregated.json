@@ -1,13 +1,16 @@
 {
-  "asn": 205848,
-  "handle": "SERVER-NETWORK-POHL",
-  "description": "Dominik Pohl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205848,
+  "metadata" : {
+    "handle" : "SERVER-NETWORK-POHL",
+    "description" : "Dominik Pohl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.0.234.0/23",
       "89.187.68.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:1282::/42",
       "2a06:1282:40::/44"
     ]

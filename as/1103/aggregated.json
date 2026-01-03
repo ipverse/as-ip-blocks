@@ -1,9 +1,12 @@
 {
-  "asn": 1103,
-  "handle": "SURFNET-NL",
-  "description": "SURF B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1103,
+  "metadata" : {
+    "handle" : "SURFNET-NL",
+    "description" : "SURF B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.125.0.0/16",
       "130.37.0.0/16",
       "131.174.0.0/16",
@@ -90,7 +93,7 @@
       "194.171.0.0/16",
       "195.169.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:610::/29",
       "2001:67c:1200::/48",
       "2001:67c:262c::/48"

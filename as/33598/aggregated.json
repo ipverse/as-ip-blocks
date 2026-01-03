@@ -1,9 +1,12 @@
 {
-  "asn": 33598,
-  "handle": "GSLLC",
-  "description": "The Goldman Sachs Group Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33598,
+  "metadata" : {
+    "handle" : "GSLLC",
+    "description" : "The Goldman Sachs Group Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.47.208.0/24",
       "12.47.211.0/24",
       "138.8.12.0/24",
@@ -21,6 +24,6 @@
       "204.4.185.0/24",
       "207.17.46.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

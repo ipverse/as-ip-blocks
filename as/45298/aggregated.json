@@ -1,9 +1,12 @@
 {
-  "asn": 45298,
-  "handle": "INTERLINK-TECH-AS-ID",
-  "description": "INTERLINK TECHNOLOGY PT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45298,
+  "metadata" : {
+    "handle" : "INTERLINK-TECH-AS-ID",
+    "description" : "INTERLINK TECHNOLOGY PT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.249.208.0/22",
       "103.228.8.0/24",
       "103.247.244.0/24",
@@ -13,6 +16,6 @@
       "203.171.221.0/24",
       "203.209.190.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

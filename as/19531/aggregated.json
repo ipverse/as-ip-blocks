@@ -1,9 +1,12 @@
 {
-  "asn": 19531,
-  "handle": "NODESDIRECT",
-  "description": "Nodes Direct",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19531,
+  "metadata" : {
+    "handle" : "NODESDIRECT",
+    "description" : "Nodes Direct",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.92.80.0/20",
       "23.239.64.0/19",
       "107.155.128.0/19",
@@ -15,7 +18,7 @@
       "199.48.164.0/22",
       "208.84.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:4600::/28"
     ]
   }

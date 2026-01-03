@@ -1,9 +1,12 @@
 {
-  "asn": 198013,
-  "handle": "IPKOM",
-  "description": "Ipkom Srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198013,
+  "metadata" : {
+    "handle" : "IPKOM",
+    "description" : "Ipkom Srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.185.97.0/24",
       "94.185.98.0/23",
       "94.185.100.0/23",
@@ -15,6 +18,6 @@
       "94.185.116.0/24",
       "94.185.123.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

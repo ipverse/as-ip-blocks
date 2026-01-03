@@ -1,9 +1,12 @@
 {
-  "asn": 30536,
-  "handle": "CCR-AS",
-  "description": "Circle Computer Resources Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30536,
+  "metadata" : {
+    "handle" : "CCR-AS",
+    "description" : "Circle Computer Resources Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.28.184.0/21",
       "8.34.152.0/21",
       "38.10.184.0/21",
@@ -28,7 +31,7 @@
       "208.74.92.0/22",
       "216.135.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:9e00:2001::/48",
       "2607:9e00:2002::/48",
       "2607:9e00:2200::/39",

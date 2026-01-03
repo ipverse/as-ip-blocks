@@ -1,12 +1,15 @@
 {
-  "asn": 34100,
-  "handle": "STORTINGET-AS",
-  "description": "Stortinget",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34100,
+  "metadata" : {
+    "handle" : "STORTINGET-AS",
+    "description" : "Stortinget",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.88.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ed80::/32"
     ]
   }

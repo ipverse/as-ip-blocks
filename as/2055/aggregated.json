@@ -1,9 +1,12 @@
 {
-  "asn": 2055,
-  "handle": "LSU",
-  "description": "Louisiana State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2055,
+  "metadata" : {
+    "handle" : "LSU",
+    "description" : "Louisiana State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "76.165.224.0/19",
       "96.125.0.0/17",
       "130.39.0.0/16",
@@ -17,7 +20,7 @@
       "204.90.32.0/20",
       "204.90.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f390:1440::/44",
       "2620:105:b000::/40"
     ]

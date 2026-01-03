@@ -1,9 +1,12 @@
 {
-  "asn": 200826,
-  "handle": "DAILY-SOL",
-  "description": "S.C DAILY SOLUTIONS S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200826,
+  "metadata" : {
+    "handle" : "DAILY-SOL",
+    "description" : "S.C DAILY SOLUTIONS S.R.L",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.231.7.0/24",
       "91.234.241.0/24",
       "91.234.242.0/23",
@@ -13,7 +16,7 @@
       "91.247.240.0/21",
       "178.157.78.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2fb4::/48",
       "2a03:8800:1::/48"
     ]

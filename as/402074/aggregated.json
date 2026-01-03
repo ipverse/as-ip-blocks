@@ -1,12 +1,15 @@
 {
-  "asn": 402074,
-  "handle": "SOFTIRON-ASN-RIC",
-  "description": "SoftIron",
-  "subnets": {
-    "ipv4": [
+  "asn" : 402074,
+  "metadata" : {
+    "handle" : "SOFTIRON-ASN-RIC",
+    "description" : "SoftIron",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.92.239.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f85e:fff::/48"
     ]
   }

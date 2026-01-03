@@ -1,9 +1,12 @@
 {
-  "asn": 26413,
-  "handle": "IP4B-TELECOM",
-  "description": "IP4B Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26413,
+  "metadata" : {
+    "handle" : "IP4B-TELECOM",
+    "description" : "IP4B Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.80.82.0/23",
       "38.102.88.0/23",
       "38.128.234.0/23",
@@ -11,7 +14,7 @@
       "199.168.216.0/21",
       "205.172.120.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:4f00::/32"
     ]
   }

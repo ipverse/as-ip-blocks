@@ -1,16 +1,19 @@
 {
-  "asn": 61303,
-  "handle": "NETWAYS",
-  "description": "NETWAYS GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61303,
+  "metadata" : {
+    "handle" : "NETWAYS",
+    "description" : "NETWAYS GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.198.2.0/24",
       "185.11.252.0/22",
       "185.233.188.0/22",
       "193.142.157.0/24",
       "194.0.135.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:ed80::/29"
     ]
   }

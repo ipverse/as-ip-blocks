@@ -1,12 +1,15 @@
 {
-  "asn": 36867,
-  "handle": "KOKONET-BGP",
-  "description": "Kokonet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36867,
+  "metadata" : {
+    "handle" : "KOKONET-BGP",
+    "description" : "Kokonet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.223.204.0/22",
       "196.1.120.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

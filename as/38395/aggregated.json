@@ -1,9 +1,12 @@
 {
-  "asn": 38395,
-  "handle": "GOE-AS",
-  "description": "GwangJuHaNam Office of Education",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38395,
+  "metadata" : {
+    "handle" : "GOE-AS",
+    "description" : "GwangJuHaNam Office of Education",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.12.223.0/24",
       "121.133.199.0/24",
       "122.203.248.0/24",
@@ -11,6 +14,6 @@
       "218.155.143.0/24",
       "220.65.106.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

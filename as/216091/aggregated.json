@@ -1,13 +1,16 @@
 {
-  "asn": 216091,
-  "handle": "ETH0-AS",
-  "description": "eth0 AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216091,
+  "metadata" : {
+    "handle" : "ETH0-AS",
+    "description" : "eth0 AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.30.56.0/24",
       "44.32.207.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:d38::/48",
       "2a0a:cd83::/47",
       "2a0a:cd83:4::/47",

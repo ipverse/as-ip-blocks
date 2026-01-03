@@ -1,9 +1,12 @@
 {
-  "asn": 2471,
-  "handle": "FR-DOM-GUADELOUPE",
-  "description": "Renater",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2471,
+  "metadata" : {
+    "handle" : "FR-DOM-GUADELOUPE",
+    "description" : "Renater",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.99.88.0/21",
       "193.51.134.0/23",
       "193.52.35.0/24",
@@ -18,6 +21,6 @@
       "195.221.169.0/24",
       "195.221.172.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 4830,
-  "handle": "AS-WESTPACNZ-AP",
-  "description": "One New Zealand Group Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4830,
+  "metadata" : {
+    "handle" : "AS-WESTPACNZ-AP",
+    "description" : "One New Zealand Group Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.7.34.0/24",
       "202.7.37.0/24",
       "202.7.38.0/23",
@@ -13,6 +16,6 @@
       "202.7.48.0/23",
       "202.7.50.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

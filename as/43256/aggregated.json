@@ -1,9 +1,12 @@
 {
-  "asn": 43256,
-  "handle": "KIN-AS",
-  "description": "Global Broadband Solution Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43256,
+  "metadata" : {
+    "handle" : "KIN-AS",
+    "description" : "Global Broadband Solution Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.209.128.0/22",
       "31.209.133.0/24",
       "31.209.135.0/24",
@@ -12,7 +15,7 @@
       "217.171.90.0/24",
       "217.171.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:31c0::/38",
       "2a03:31c0:400::/39"
     ]

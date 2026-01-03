@@ -1,9 +1,12 @@
 {
-  "asn": 16333,
-  "handle": "A1MK-AS16333",
-  "description": "Company for communications services A1 Makedonija DOOEL Skopje",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16333,
+  "metadata" : {
+    "handle" : "A1MK-AS16333",
+    "description" : "Company for communications services A1 Makedonija DOOEL Skopje",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.32.178.0/23",
       "5.32.180.0/24",
       "5.32.182.0/24",
@@ -26,7 +29,7 @@
       "212.158.176.0/20",
       "217.16.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5b8::/29"
     ]
   }

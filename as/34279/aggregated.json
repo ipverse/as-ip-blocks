@@ -1,9 +1,12 @@
 {
-  "asn": 34279,
-  "handle": "TELETRANS",
-  "description": "S.C. Teletrans S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34279,
+  "metadata" : {
+    "handle" : "TELETRANS",
+    "description" : "S.C. Teletrans S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.89.16.0/22",
       "81.89.20.0/23",
       "81.89.22.0/24",
@@ -12,7 +15,7 @@
       "81.89.28.0/23",
       "193.138.196.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:13b8::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 398570,
-  "handle": "DITN",
-  "description": "Dedicated IT LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398570,
+  "metadata" : {
+    "handle" : "DITN",
+    "description" : "Dedicated IT LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.250.233.0/24",
       "216.250.246.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:dcc0::/35"
     ]
   }

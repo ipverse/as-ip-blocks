@@ -1,13 +1,16 @@
 {
-  "asn": 149315,
-  "handle": "SOLNET-ID",
-  "description": "PT Solnet Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149315,
+  "metadata" : {
+    "handle" : "SOLNET-ID",
+    "description" : "PT Solnet Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.184.16.0/23",
       "103.186.168.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:7c0:1000::/48",
       "2407:7c0:1493::/48"
     ]

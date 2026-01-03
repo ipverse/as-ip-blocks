@@ -1,9 +1,12 @@
 {
-  "asn": 40724,
-  "handle": "DEKALB-COUNTY-GEORGIA-GOVERNMENT",
-  "description": "DeKalb County Georgia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40724,
+  "metadata" : {
+    "handle" : "DEKALB-COUNTY-GEORGIA-GOVERNMENT",
+    "description" : "DeKalb County Georgia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.2.12.0/24",
       "12.15.173.0/24",
       "50.237.147.0/24",
@@ -11,6 +14,6 @@
       "63.170.23.0/24",
       "204.120.180.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

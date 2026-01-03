@@ -1,12 +1,15 @@
 {
-  "asn": 203659,
-  "handle": "PROVENDO",
-  "description": "Provendo AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203659,
+  "metadata" : {
+    "handle" : "PROVENDO",
+    "description" : "Provendo AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.127.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:cc80::/29"
     ]
   }

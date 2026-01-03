@@ -1,14 +1,17 @@
 {
-  "asn": 9544,
-  "handle": "PIP-AS-AP",
-  "description": "AAPT Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9544,
+  "metadata" : {
+    "handle" : "PIP-AS-AP",
+    "description" : "AAPT Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.23.120.0/23",
       "203.24.52.0/23",
       "203.27.90.0/23",
       "203.34.24.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

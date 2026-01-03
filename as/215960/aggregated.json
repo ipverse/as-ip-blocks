@@ -1,13 +1,16 @@
 {
-  "asn": 215960,
-  "handle": "HOLLANDER-JACOBSEN",
-  "description": "Hollander \u0026 Jacobsen UG (haftungsbeschraenkt)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215960,
+  "metadata" : {
+    "handle" : "HOLLANDER-JACOBSEN",
+    "description" : "Hollander & Jacobsen UG (haftungsbeschraenkt)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.72.60.0/23",
       "195.72.62.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:e043::/32"
     ]
   }

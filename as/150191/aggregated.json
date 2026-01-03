@@ -1,14 +1,17 @@
 {
-  "asn": 150191,
-  "handle": "IDNIC-SARANAINTIMEDIA-AS-ID",
-  "description": "PT Sarana Intimedia Telematika",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150191,
+  "metadata" : {
+    "handle" : "IDNIC-SARANAINTIMEDIA-AS-ID",
+    "description" : "PT Sarana Intimedia Telematika",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.44.19.0/24",
       "103.152.21.0/24",
       "103.255.109.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:5dc0::/48"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 134940,
-  "handle": "FBDNETCOM-AS",
-  "description": "Faridabad Netcom Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134940,
+  "metadata" : {
+    "handle" : "FBDNETCOM-AS",
+    "description" : "Faridabad Netcom Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.203.252.0/22",
       "103.224.175.0/24",
       "202.133.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:edc0::/48"
     ]
   }

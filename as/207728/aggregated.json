@@ -1,9 +1,12 @@
 {
-  "asn": 207728,
-  "handle": "EUROHOSTER",
-  "description": "EUROHOSTER Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207728,
+  "metadata" : {
+    "handle" : "EUROHOSTER",
+    "description" : "EUROHOSTER Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.10.5.0/24",
       "31.210.170.0/23",
       "31.210.172.0/23",
@@ -23,7 +26,7 @@
       "185.204.54.0/23",
       "194.146.127.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:9cc0::/47"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 207355,
-  "handle": "KA-NET",
-  "description": "Ka-net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207355,
+  "metadata" : {
+    "handle" : "KA-NET",
+    "description" : "Ka-net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.97.192.0/19",
       "91.196.172.0/22",
       "193.239.168.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:f240::/29"
     ]
   }

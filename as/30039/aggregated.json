@@ -1,13 +1,16 @@
 {
-  "asn": 30039,
-  "handle": "SN4ENDO",
-  "description": "Smith and Nephew - Endoscopy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30039,
+  "metadata" : {
+    "handle" : "SN4ENDO",
+    "description" : "Smith and Nephew - Endoscopy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.222.208.0/24",
       "216.222.214.0/23",
       "216.222.219.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

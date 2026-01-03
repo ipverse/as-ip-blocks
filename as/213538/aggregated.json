@@ -1,9 +1,12 @@
 {
-  "asn": 213538,
-  "handle": "TORIA-ASN",
-  "description": "Toria Consult S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213538,
+  "metadata" : {
+    "handle" : "TORIA-ASN",
+    "description" : "Toria Consult S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.135.0.0/24",
       "64.43.92.0/24",
       "77.36.64.0/24",
@@ -16,6 +19,6 @@
       "93.120.72.0/24",
       "176.96.89.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

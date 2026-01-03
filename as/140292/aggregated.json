@@ -1,9 +1,12 @@
 {
-  "asn": 140292,
-  "handle": "CHINATELECOM-JIANGSU-SUZHOU-5G-NETWORK",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140292,
+  "metadata" : {
+    "handle" : "CHINATELECOM-JIANGSU-SUZHOU-5G-NETWORK",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "42.157.160.0/19",
       "45.124.68.0/22",
       "49.64.2.0/23",
@@ -1942,7 +1945,7 @@
       "222.94.204.0/22",
       "222.190.236.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:1a:50::/44",
       "240e:5a:4180::/41",
       "240e:5a:4200::/42",

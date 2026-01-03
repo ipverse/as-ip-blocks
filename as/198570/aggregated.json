@@ -1,9 +1,12 @@
 {
-  "asn": 198570,
-  "handle": "STNB-AS",
-  "description": "Stadtnetz Bamberg Gesellschaft fuer Telekommunikation mbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198570,
+  "metadata" : {
+    "handle" : "STNB-AS",
+    "description" : "Stadtnetz Bamberg Gesellschaft fuer Telekommunikation mbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.60.0.0/21",
       "80.208.208.0/21",
       "80.245.64.0/20",
@@ -17,7 +20,7 @@
       "194.15.80.0/21",
       "217.61.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:a520::/32",
       "2a0c:d00:1000::/36",
       "2a0c:d00:2000::/36"

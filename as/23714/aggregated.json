@@ -1,9 +1,12 @@
 {
-  "asn": 23714,
-  "handle": "KMUCC-AS",
-  "description": "Keimyung University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23714,
+  "metadata" : {
+    "handle" : "KMUCC-AS",
+    "description" : "Keimyung University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.36.223.0/24",
       "61.39.222.0/24",
       "61.39.227.0/24",
@@ -23,6 +26,6 @@
       "211.223.240.0/20",
       "220.69.128.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

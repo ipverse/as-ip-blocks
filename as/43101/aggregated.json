@@ -1,12 +1,15 @@
 {
-  "asn": 43101,
-  "handle": "TRISEC",
-  "description": "LMQ Kompetens AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43101,
+  "metadata" : {
+    "handle" : "TRISEC",
+    "description" : "LMQ Kompetens AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.194.38.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:10d0::/48"
     ]
   }

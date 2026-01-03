@@ -1,12 +1,15 @@
 {
-  "asn": 20020,
-  "handle": "POWERNET",
-  "description": "Power Systems Computers",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20020,
+  "metadata" : {
+    "handle" : "POWERNET",
+    "description" : "Power Systems Computers",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.164.8.0/24",
       "192.34.16.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

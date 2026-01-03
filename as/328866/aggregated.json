@@ -1,9 +1,12 @@
 {
-  "asn": 328866,
-  "handle": "NEWTELNET",
-  "description": "NEWTELNET CAMEROUN SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328866,
+  "metadata" : {
+    "handle" : "NEWTELNET",
+    "description" : "NEWTELNET CAMEROUN SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.92.128.0/21",
       "41.92.152.0/21",
       "41.92.184.0/22",
@@ -14,6 +17,6 @@
       "41.190.224.0/22",
       "41.217.148.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

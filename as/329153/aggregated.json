@@ -1,15 +1,18 @@
 {
-  "asn": 329153,
-  "handle": "SWDCONNECT-AS",
-  "description": "ISWCORP (PTY) LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 329153,
+  "metadata" : {
+    "handle" : "SWDCONNECT-AS",
+    "description" : "ISWCORP (PTY) LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.134.92.0/22",
       "102.208.208.0/22",
       "102.217.88.0/22",
       "102.222.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f80::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 206083,
-  "handle": "IPARK",
-  "description": "Internet-Park Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206083,
+  "metadata" : {
+    "handle" : "IPARK",
+    "description" : "Internet-Park Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.85.122.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:adc2::/32"
     ]
   }

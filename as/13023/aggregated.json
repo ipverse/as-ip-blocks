@@ -1,12 +1,15 @@
 {
-  "asn": 13023,
-  "handle": "WEBBER",
-  "description": "Weber Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13023,
+  "metadata" : {
+    "handle" : "WEBBER",
+    "description" : "Weber Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.227.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:2bc0::/29"
     ]
   }

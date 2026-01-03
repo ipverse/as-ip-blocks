@@ -1,12 +1,15 @@
 {
-  "asn": 204027,
-  "handle": "NO-BRREG",
-  "description": "Registerenheten i Bronnoysund",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204027,
+  "metadata" : {
+    "handle" : "NO-BRREG",
+    "description" : "Registerenheten i Bronnoysund",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.43.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:f0::/48"
     ]
   }

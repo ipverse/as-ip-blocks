@@ -1,12 +1,15 @@
 {
-  "asn": 34270,
-  "handle": "INETC",
-  "description": "Internet Connections Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34270,
+  "metadata" : {
+    "handle" : "INETC",
+    "description" : "Internet Connections Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.91.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:3f8::/32"
     ]
   }

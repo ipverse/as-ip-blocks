@@ -1,12 +1,15 @@
 {
-  "asn": 62022,
-  "handle": "ESPOO-FI",
-  "description": "City of Espoo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62022,
+  "metadata" : {
+    "handle" : "ESPOO-FI",
+    "description" : "City of Espoo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.50.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:c0c0::/29"
     ]
   }

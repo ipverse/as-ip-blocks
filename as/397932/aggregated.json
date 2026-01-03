@@ -1,12 +1,15 @@
 {
-  "asn": 397932,
-  "handle": "NYSA-ASN",
-  "description": "New York State Assembly",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397932,
+  "metadata" : {
+    "handle" : "NYSA-ASN",
+    "description" : "New York State Assembly",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.202.186.0/24",
       "204.97.104.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

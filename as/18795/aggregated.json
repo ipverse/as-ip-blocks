@@ -1,13 +1,16 @@
 {
-  "asn": 18795,
-  "handle": "ULV-AS",
-  "description": "University of La Verne",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18795,
+  "metadata" : {
+    "handle" : "ULV-AS",
+    "description" : "University of La Verne",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.234.209.0/24",
       "64.69.144.0/20",
       "192.231.179.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 35480,
-  "handle": "ASP-AS",
-  "description": "ASP Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35480,
+  "metadata" : {
+    "handle" : "ASP-AS",
+    "description" : "ASP Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.192.48.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

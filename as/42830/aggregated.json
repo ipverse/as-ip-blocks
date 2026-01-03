@@ -1,16 +1,19 @@
 {
-  "asn": 42830,
-  "handle": "TVSAT364-AS",
-  "description": "STK TV SAT 364",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42830,
+  "metadata" : {
+    "handle" : "TVSAT364-AS",
+    "description" : "STK TV SAT 364",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.10.0/23",
       "91.193.160.0/22",
       "91.236.129.0/24",
       "176.105.128.0/20",
       "185.212.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:78c0::/32"
     ]
   }

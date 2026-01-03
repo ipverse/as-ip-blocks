@@ -1,9 +1,12 @@
 {
-  "asn": 28748,
-  "handle": "ALPHACRON-AS",
-  "description": "Marc Pauls (AlphaCron Datensysteme)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28748,
+  "metadata" : {
+    "handle" : "ALPHACRON-AS",
+    "description" : "Marc Pauls (AlphaCron Datensysteme)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.26.200.0/21",
       "44.130.98.0/23",
       "44.130.100.0/24",
@@ -13,7 +16,7 @@
       "193.22.2.0/24",
       "195.190.142.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:650::/29"
     ]
   }

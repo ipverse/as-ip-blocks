@@ -1,13 +1,16 @@
 {
-  "asn": 197269,
-  "handle": "RITTERNET",
-  "description": "Ritter Technologie GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197269,
+  "metadata" : {
+    "handle" : "RITTERNET",
+    "description" : "Ritter Technologie GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.217.86.0/23",
       "194.172.160.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:a8::/48"
     ]
   }

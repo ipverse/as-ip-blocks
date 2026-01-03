@@ -1,9 +1,12 @@
 {
-  "asn": 23584,
-  "handle": "HYROADPUSAN-AS",
-  "description": "PUSAN CABLE TV SYSTEM CO. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23584,
+  "metadata" : {
+    "handle" : "HYROADPUSAN-AS",
+    "description" : "PUSAN CABLE TV SYSTEM CO. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.222.192.0/21",
       "27.35.128.0/17",
       "39.126.0.0/21",
@@ -71,6 +74,6 @@
       "203.243.224.0/23",
       "211.116.208.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

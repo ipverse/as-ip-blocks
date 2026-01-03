@@ -1,9 +1,12 @@
 {
-  "asn": 41881,
-  "handle": "FANAVA-AS",
-  "description": "Fanava Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41881,
+  "metadata" : {
+    "handle" : "FANAVA-AS",
+    "description" : "Fanava Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.221.84.0/22",
       "89.221.95.0/24",
       "95.38.0.0/21",
@@ -52,7 +55,7 @@
       "185.20.161.0/24",
       "185.20.162.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:52e0::/32",
       "2a01:bd80::/29"
     ]

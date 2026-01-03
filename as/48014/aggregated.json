@@ -1,9 +1,12 @@
 {
-  "asn": 48014,
-  "handle": "ALBHOST",
-  "description": "Albanian Hosting SH.P.K",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48014,
+  "metadata" : {
+    "handle" : "ALBHOST",
+    "description" : "Albanian Hosting SH.P.K.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.41.33.0/24",
       "45.88.89.0/24",
       "80.76.51.0/24",
@@ -13,7 +16,7 @@
       "103.167.234.0/23",
       "185.187.154.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:3783::/32",
       "2001:3787::/32",
       "2407:79c0::/32",

@@ -1,9 +1,12 @@
 {
-  "asn": 38165,
-  "handle": "ADSNET-AS-ID",
-  "description": "PT. AMBHARA DUTA SHANTI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38165,
+  "metadata" : {
+    "handle" : "ADSNET-AS-ID",
+    "description" : "PT. AMBHARA DUTA SHANTI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.17.182.0/23",
       "103.83.140.0/24",
       "103.83.142.0/24",
@@ -12,6 +15,6 @@
       "114.30.92.0/24",
       "116.12.40.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

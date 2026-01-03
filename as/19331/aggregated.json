@@ -1,9 +1,12 @@
 {
-  "asn": 19331,
-  "handle": "TWIN-LAKES",
-  "description": "Twin Lakes Telephone Cooperative Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19331,
+  "metadata" : {
+    "handle" : "TWIN-LAKES",
+    "description" : "Twin Lakes Telephone Cooperative Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.135.176.0/20",
       "64.53.2.0/23",
       "67.212.240.0/20",
@@ -29,7 +32,7 @@
       "199.187.200.0/21",
       "199.195.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:6500::/28"
     ]
   }

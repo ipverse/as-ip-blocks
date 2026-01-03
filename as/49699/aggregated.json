@@ -1,9 +1,12 @@
 {
-  "asn": 49699,
-  "handle": "ICN-BG",
-  "description": "SuperHosting.BG Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49699,
+  "metadata" : {
+    "handle" : "ICN-BG",
+    "description" : "SuperHosting.BG Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.104.170.0/23",
       "5.104.172.0/23",
       "77.77.148.0/22",
@@ -20,6 +23,6 @@
       "193.68.112.0/23",
       "195.69.164.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

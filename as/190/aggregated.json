@@ -1,15 +1,18 @@
 {
-  "asn": 190,
-  "handle": "DNIC-AS-00190",
-  "description": "Navy Network Information Center (NNIC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 190,
+  "metadata" : {
+    "handle" : "DNIC-AS-00190",
+    "description" : "Navy Network Information Center (NNIC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.86.77.0/24",
       "192.111.117.0/24",
       "198.97.138.0/24",
       "199.208.157.0/24",
       "199.211.219.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

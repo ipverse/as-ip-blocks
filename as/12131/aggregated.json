@@ -1,13 +1,16 @@
 {
-  "asn": 12131,
-  "handle": "VC-AS-02",
-  "description": "Vertical Computers",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12131,
+  "metadata" : {
+    "handle" : "VC-AS-02",
+    "description" : "Vertical Computers",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.161.32.0/24",
       "23.187.0.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:d2c0::/32",
       "2620:1df::/32"
     ]

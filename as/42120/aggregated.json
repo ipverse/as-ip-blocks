@@ -1,12 +1,15 @@
 {
-  "asn": 42120,
-  "handle": "AS-MDC",
-  "description": "MODIT Informatikai Zrt",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42120,
+  "metadata" : {
+    "handle" : "AS-MDC",
+    "description" : "MODIT Informatikai Zrt.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.82.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:9580::/29"
     ]
   }

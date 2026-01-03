@@ -1,12 +1,15 @@
 {
-  "asn": 149234,
-  "handle": "DPSN-AS-IN",
-  "description": "Dps Networks Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149234,
+  "metadata" : {
+    "handle" : "DPSN-AS-IN",
+    "description" : "Dps Networks Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.181.166.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:5aa0::/32"
     ]
   }

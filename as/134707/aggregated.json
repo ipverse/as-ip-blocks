@@ -1,15 +1,18 @@
 {
-  "asn": 134707,
-  "handle": "RCC-AS-AP",
-  "description": "Royal Cablevision Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134707,
+  "metadata" : {
+    "handle" : "RCC-AS-AP",
+    "description" : "Royal Cablevision Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.196.136.0/22",
       "149.30.128.0/19",
       "203.189.116.0/22",
       "223.25.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:3380::/32"
     ]
   }

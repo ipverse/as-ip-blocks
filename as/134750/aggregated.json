@@ -1,12 +1,15 @@
 {
-  "asn": 134750,
-  "handle": "STARNETWORK-AS-AP",
-  "description": "Star Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134750,
+  "metadata" : {
+    "handle" : "STARNETWORK-AS-AP",
+    "description" : "Star Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.106.201.0/24",
       "103.199.168.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

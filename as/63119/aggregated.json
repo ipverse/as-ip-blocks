@@ -1,9 +1,12 @@
 {
-  "asn": 63119,
-  "handle": "AS-63119",
-  "description": "Angelnet Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63119,
+  "metadata" : {
+    "handle" : "AS-63119",
+    "description" : "Angelnet Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.92.117.0/24",
       "23.92.118.0/23",
       "23.92.120.0/22",
@@ -37,6 +40,6 @@
       "196.196.185.0/24",
       "196.247.16.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

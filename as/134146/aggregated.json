@@ -1,9 +1,12 @@
 {
-  "asn": 134146,
-  "handle": "SAMONLINE-AS-AP",
-  "description": "SAM ONLINE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134146,
+  "metadata" : {
+    "handle" : "SAMONLINE-AS-AP",
+    "description" : "SAM ONLINE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.50.19.0/24",
       "103.55.144.0/22",
       "103.73.224.0/22",
@@ -12,7 +15,7 @@
       "202.83.124.0/24",
       "202.83.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:4fc0:3::/48",
       "2400:4fc0:4::/46",
       "2400:4fc0:8::/47",

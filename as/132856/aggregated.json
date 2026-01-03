@@ -1,12 +1,15 @@
 {
-  "asn": 132856,
-  "handle": "KU-AS-NP",
-  "description": "Kathmandu University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132856,
+  "metadata" : {
+    "handle" : "KU-AS-NP",
+    "description" : "Kathmandu University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "101.251.6.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:2c00:600::/47"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 57249,
-  "handle": "EDGE-AS",
-  "description": "EDGE NPD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57249,
+  "metadata" : {
+    "handle" : "EDGE-AS",
+    "description" : "EDGE NPD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.22.81.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

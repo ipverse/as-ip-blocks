@@ -1,14 +1,17 @@
 {
-  "asn": 28133,
-  "handle": "PROVEDOR-ELOINET",
-  "description": "Provedor Eloinet Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28133,
+  "metadata" : {
+    "handle" : "PROVEDOR-ELOINET",
+    "description" : "Provedor Eloinet Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.124.134.0/23",
       "179.189.208.0/22",
       "187.45.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:348::/32"
     ]
   }

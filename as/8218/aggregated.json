@@ -1,9 +1,12 @@
 {
-  "asn": 8218,
-  "handle": "NEO-ASN",
-  "description": "Zayo Infrastructure France SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8218,
+  "metadata" : {
+    "handle" : "NEO-ASN",
+    "description" : "Zayo Infrastructure France SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.156.4.0/22",
       "46.255.176.0/21",
       "83.167.32.0/19",
@@ -23,7 +26,7 @@
       "213.152.0.0/19",
       "213.179.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:25a8::/48",
       "2001:1b48::/32",
       "2a00:1f60::/32",

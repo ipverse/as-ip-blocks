@@ -1,14 +1,17 @@
 {
-  "asn": 141983,
-  "handle": "IDNIC-RAJEGNET-AS-ID",
-  "description": "PT Rajeg Media Telekomunikasi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141983,
+  "metadata" : {
+    "handle" : "IDNIC-RAJEGNET-AS-ID",
+    "description" : "PT Rajeg Media Telekomunikasi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.106.187.0/24",
       "38.248.19.0/24",
       "103.167.170.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:9cc0::/32"
     ]
   }

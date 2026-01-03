@@ -1,9 +1,12 @@
 {
-  "asn": 64258,
-  "handle": "DESJARDINS",
-  "description": "GROUPE TECHNOLOGIES DESJARDINS INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64258,
+  "metadata" : {
+    "handle" : "DESJARDINS",
+    "description" : "GROUPE TECHNOLOGIES DESJARDINS INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.195.24.0/21",
       "142.195.32.0/21",
       "142.195.40.0/23",
@@ -22,6 +25,6 @@
       "142.195.224.0/21",
       "142.195.248.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

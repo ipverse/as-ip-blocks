@@ -1,13 +1,16 @@
 {
-  "asn": 136899,
-  "handle": "PHOENIXNAP-AS-SG3",
-  "description": "PhoenixNAP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136899,
+  "metadata" : {
+    "handle" : "PHOENIXNAP-AS-SG3",
+    "description" : "PhoenixNAP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.153.92.0/24",
       "131.153.113.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:bc40:a300::/40",
       "2401:bc40:e303::/48"
     ]

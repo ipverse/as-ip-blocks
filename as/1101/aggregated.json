@@ -1,9 +1,12 @@
 {
-  "asn": 1101,
-  "handle": "IP-EEND-AS",
-  "description": "SURF B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1101,
+  "metadata" : {
+    "handle" : "IP-EEND-AS",
+    "description" : "SURF B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.137.0.0/16",
       "145.99.0.0/16",
       "145.102.4.0/23",
@@ -19,7 +22,7 @@
       "192.42.128.0/22",
       "192.150.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:6ec::/48",
       "2001:67c:12d8::/48"
     ]

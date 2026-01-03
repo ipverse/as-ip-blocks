@@ -1,13 +1,16 @@
 {
-  "asn": 397072,
-  "handle": "INNET-CONNECTION",
-  "description": "InNet Connections",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397072,
+  "metadata" : {
+    "handle" : "INNET-CONNECTION",
+    "description" : "InNet Connections",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.173.160.0/24",
       "38.252.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe09::/36"
     ]
   }

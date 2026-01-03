@@ -1,9 +1,12 @@
 {
-  "asn": 56246,
-  "handle": "SDI-AS-ID",
-  "description": "PT Sumber Data Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56246,
+  "metadata" : {
+    "handle" : "SDI-AS-ID",
+    "description" : "PT Sumber Data Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.10.120.0/22",
       "103.143.222.0/24",
       "103.152.234.0/23",
@@ -17,7 +20,7 @@
       "116.68.172.0/24",
       "116.68.174.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:fd00:1a::/48",
       "2404:fd00:22::/48",
       "2404:fd00:24::/47"

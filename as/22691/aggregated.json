@@ -1,9 +1,12 @@
 {
-  "asn": 22691,
-  "handle": "ISPNET-1",
-  "description": "ISPnet Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22691,
+  "metadata" : {
+    "handle" : "ISPNET-1",
+    "description" : "ISPnet Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.254.98.0/24",
       "165.254.147.0/24",
       "199.4.220.0/24",
@@ -13,6 +16,6 @@
       "204.141.35.0/24",
       "204.141.40.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

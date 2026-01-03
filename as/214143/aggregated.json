@@ -1,9 +1,12 @@
 {
-  "asn": 214143,
-  "handle": "SKYDIGITAL-TELECOM",
-  "description": "SKYDIGITAL TELECOM LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214143,
+  "metadata" : {
+    "handle" : "SKYDIGITAL-TELECOM",
+    "description" : "SKYDIGITAL TELECOM LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.144.154.0/24",
       "14.192.48.0/24",
       "45.134.146.0/23",
@@ -211,6 +214,6 @@
       "213.220.9.0/24",
       "216.122.173.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

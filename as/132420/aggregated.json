@@ -1,9 +1,12 @@
 {
-  "asn": 132420,
-  "handle": "E2E-NETWORKS-IN",
-  "description": "E2E Networks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132420,
+  "metadata" : {
+    "handle" : "E2E-NETWORKS-IN",
+    "description" : "E2E Networks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.252.88.0/22",
       "91.203.132.0/22",
       "101.53.128.0/19",
@@ -22,7 +25,7 @@
       "216.48.176.0/20",
       "217.18.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:411::/48",
       "2406:69c0:2000::/35",
       "2406:69c0:5000::/36"

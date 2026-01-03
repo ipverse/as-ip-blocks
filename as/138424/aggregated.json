@@ -1,12 +1,15 @@
 {
-  "asn": 138424,
-  "handle": "FBR-AS-AP",
-  "description": "Federal Board of Revenue",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138424,
+  "metadata" : {
+    "handle" : "FBR-AS-AP",
+    "description" : "Federal Board of Revenue",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.125.60.0/24",
       "110.93.242.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

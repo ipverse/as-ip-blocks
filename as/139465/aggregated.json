@@ -1,12 +1,15 @@
 {
-  "asn": 139465,
-  "handle": "CITYOFMONASH-AS-AP",
-  "description": "City Of Monash",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139465,
+  "metadata" : {
+    "handle" : "CITYOFMONASH-AS-AP",
+    "description" : "City Of Monash",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.8.22.0/24",
       "203.32.65.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

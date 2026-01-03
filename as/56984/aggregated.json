@@ -1,12 +1,15 @@
 {
-  "asn": 56984,
-  "handle": "IFM-AS",
-  "description": "ifm electronic GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56984,
+  "metadata" : {
+    "handle" : "IFM-AS",
+    "description" : "ifm electronic GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.36.168.0/23",
       "193.36.170.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

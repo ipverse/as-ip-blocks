@@ -1,16 +1,19 @@
 {
-  "asn": 7775,
-  "handle": "IRONTRUST-NETWORKS",
-  "description": "Irontrust Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7775,
+  "metadata" : {
+    "handle" : "IRONTRUST-NETWORKS",
+    "description" : "Irontrust Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "86.54.225.0/24",
       "192.103.126.0/24",
       "192.188.42.0/24",
       "208.99.20.0/22",
       "216.41.236.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:a840::/32"
     ]
   }

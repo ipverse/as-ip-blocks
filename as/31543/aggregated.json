@@ -1,9 +1,12 @@
 {
-  "asn": 31543,
-  "handle": "MYNET-AS",
-  "description": "myNet GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31543,
+  "metadata" : {
+    "handle" : "MYNET-AS",
+    "description" : "myNet GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.133.32.0/21",
       "31.216.128.0/22",
       "45.65.120.0/22",
@@ -30,7 +33,7 @@
       "185.236.188.0/22",
       "195.60.66.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:15c0::/32",
       "2a02:61e0::/32",
       "2a06:5680::/29",

@@ -1,12 +1,15 @@
 {
-  "asn": 399060,
-  "handle": "BEC-COMM",
-  "description": "BEC Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399060,
+  "metadata" : {
+    "handle" : "BEC-COMM",
+    "description" : "BEC Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.136.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:440::/32"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 50425,
-  "handle": "TVS-AS",
-  "description": "LLC Media-1 Management",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50425,
+  "metadata" : {
+    "handle" : "TVS-AS",
+    "description" : "LLC Media-1 Management",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.105.27.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

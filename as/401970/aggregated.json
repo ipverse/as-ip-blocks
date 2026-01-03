@@ -1,12 +1,15 @@
 {
-  "asn": 401970,
-  "handle": "CASILA-FLOWER",
-  "description": "CASILAFLOWER",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401970,
+  "metadata" : {
+    "handle" : "CASILA-FLOWER",
+    "description" : "CASILAFLOWER",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.145.108.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f569::/40"
     ]
   }

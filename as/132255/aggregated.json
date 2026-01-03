@@ -1,9 +1,12 @@
 {
-  "asn": 132255,
-  "handle": "PRIMOWIRELESS-NZ",
-  "description": "PrimoWireless Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132255,
+  "metadata" : {
+    "handle" : "PRIMOWIRELESS-NZ",
+    "description" : "PrimoWireless Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.231.192.0/22",
       "78.138.10.0/23",
       "103.8.232.0/22",
@@ -18,6 +21,6 @@
       "202.50.121.0/24",
       "202.61.114.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

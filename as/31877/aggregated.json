@@ -1,9 +1,12 @@
 {
-  "asn": 31877,
-  "handle": "ACCELECOM-GA",
-  "description": "Accelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31877,
+  "metadata" : {
+    "handle" : "ACCELECOM-GA",
+    "description" : "Accelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.120.127.0/24",
       "66.110.192.0/19",
       "72.162.140.0/23",
@@ -20,7 +23,7 @@
       "208.97.0.0/19",
       "216.45.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:7280::/32",
       "2607:fa58::/32"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 40934,
-  "handle": "FORTINET",
-  "description": "Fortinet Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40934,
+  "metadata" : {
+    "handle" : "FORTINET",
+    "description" : "Fortinet Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.34.97.0/24",
       "23.249.53.0/24",
       "23.249.54.0/23",
@@ -114,7 +117,7 @@
       "210.7.96.0/24",
       "212.119.11.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc4e:43::/48",
       "2620:101:9000::/48",
       "2620:101:9004::/47",

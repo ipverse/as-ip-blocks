@@ -1,15 +1,18 @@
 {
-  "asn": 272713,
-  "handle": "CDN-STAR",
-  "description": "CDN Star Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272713,
+  "metadata" : {
+    "handle" : "CDN-STAR",
+    "description" : "CDN Star Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.211.248.0/23",
       "177.36.26.0/24",
       "177.129.64.0/24",
       "185.236.183.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8780::/32"
     ]
   }

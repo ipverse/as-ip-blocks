@@ -1,12 +1,15 @@
 {
-  "asn": 16649,
-  "handle": "IUPR-AS",
-  "description": "Interamerican University of Puerto Rico",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16649,
+  "metadata" : {
+    "handle" : "IUPR-AS",
+    "description" : "Interamerican University of Puerto Rico",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.42.0.0/16",
       "192.231.92.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

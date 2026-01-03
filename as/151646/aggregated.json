@@ -1,11 +1,14 @@
 {
-  "asn": 151646,
-  "handle": "PRIVATE1-AS-AP",
-  "description": "1LINK (Private) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151646,
+  "metadata" : {
+    "handle" : "PRIVATE1-AS-AP",
+    "description" : "1LINK (Private) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.248.140.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

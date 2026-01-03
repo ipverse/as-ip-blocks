@@ -1,14 +1,17 @@
 {
-  "asn": 196945,
-  "handle": "MICROBASE-AS",
-  "description": "Microbase PC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 196945,
+  "metadata" : {
+    "handle" : "MICROBASE-AS",
+    "description" : "Microbase PC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.217.155.0/24",
       "185.106.16.0/22",
       "185.221.65.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:3ac0::/29"
     ]
   }

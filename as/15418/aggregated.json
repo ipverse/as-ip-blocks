@@ -1,12 +1,15 @@
 {
-  "asn": 15418,
-  "handle": "IONOS-ANYCAST",
-  "description": "Fasthosts Internet Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15418,
+  "metadata" : {
+    "handle" : "IONOS-ANYCAST",
+    "description" : "Fasthosts Internet Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.132.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f1c0:fe::/47"
     ]
   }

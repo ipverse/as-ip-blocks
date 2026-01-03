@@ -1,9 +1,12 @@
 {
-  "asn": 12365,
-  "handle": "SARKOR-AS",
-  "description": "JC LLC Sarkor-Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12365,
+  "metadata" : {
+    "handle" : "SARKOR-AS",
+    "description" : "JC LLC Sarkor-Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.95.224.0/20",
       "82.215.66.0/23",
       "82.215.68.0/23",
@@ -17,7 +20,7 @@
       "89.146.64.0/18",
       "185.78.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8840:c000::/34",
       "2a00:8841::/32",
       "2a00:8842::/31",

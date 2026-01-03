@@ -1,9 +1,12 @@
 {
-  "asn": 19512,
-  "handle": "LYONDELL",
-  "description": "Lyondell Chemical Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19512,
+  "metadata" : {
+    "handle" : "LYONDELL",
+    "description" : "Lyondell Chemical Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.16.0.0/23",
       "165.249.0.0/23",
       "192.84.168.0/24",
@@ -13,6 +16,6 @@
       "199.91.14.0/24",
       "199.102.0.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

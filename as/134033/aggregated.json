@@ -1,9 +1,12 @@
 {
-  "asn": 134033,
-  "handle": "MITHRILTELECOM-AS",
-  "description": "Mithril Telecommunications Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134033,
+  "metadata" : {
+    "handle" : "MITHRILTELECOM-AS",
+    "description" : "Mithril Telecommunications Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.241.64.0/23",
       "43.241.67.0/24",
       "43.241.120.0/22",
@@ -18,7 +21,7 @@
       "103.224.155.0/24",
       "103.224.156.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:7be0::/43",
       "2400:7be0:20::/48",
       "2400:7be0:26::/47",

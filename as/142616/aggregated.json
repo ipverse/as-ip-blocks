@@ -1,12 +1,15 @@
 {
-  "asn": 142616,
-  "handle": "MNI-AS-AP",
-  "description": "Misaka Network Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142616,
+  "metadata" : {
+    "handle" : "MNI-AS-AP",
+    "description" : "Misaka Network Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.170.232.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:b9c0::/36"
     ]
   }

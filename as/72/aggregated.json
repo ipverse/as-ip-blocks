@@ -1,9 +1,12 @@
 {
-  "asn": 72,
-  "handle": "SCHLUMBERGER-AS",
-  "description": "Schlumberger Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 72,
+  "metadata" : {
+    "handle" : "SCHLUMBERGER-AS",
+    "description" : "Schlumberger Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.58.0.0/16",
       "129.87.0.0/16",
       "134.32.0.0/16",
@@ -38,6 +41,6 @@
       "212.192.205.0/24",
       "212.193.96.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

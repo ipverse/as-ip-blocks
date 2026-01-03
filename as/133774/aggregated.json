@@ -1,9 +1,12 @@
 {
-  "asn": 133774,
-  "handle": "CHINATELECOM-FUJIAN-FUZHOU-IDC1",
-  "description": "Fuzhou",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133774,
+  "metadata" : {
+    "handle" : "CHINATELECOM-FUJIAN-FUZHOU-IDC1",
+    "description" : "Fuzhou",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.148.128.0/19",
       "27.148.196.0/22",
       "27.148.200.0/23",
@@ -92,7 +95,7 @@
       "222.77.188.0/22",
       "222.79.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:14:6800::/37",
       "240e:d6:6000::/37",
       "240e:108:27::/48",

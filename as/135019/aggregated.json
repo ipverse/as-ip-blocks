@@ -1,12 +1,15 @@
 {
-  "asn": 135019,
-  "handle": "AMARNETSYSTEM-AS-AP",
-  "description": "Amar Net System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135019,
+  "metadata" : {
+    "handle" : "AMARNETSYSTEM-AS-AP",
+    "description" : "Amar Net System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.23.255.0/24",
       "103.166.88.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

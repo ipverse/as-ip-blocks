@@ -1,13 +1,16 @@
 {
-  "asn": 8330,
-  "handle": "LONAP",
-  "description": "LONAP Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8330,
+  "metadata" : {
+    "handle" : "LONAP",
+    "description" : "LONAP Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.57.88.0/21",
       "193.203.5.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:eb20::/32"
     ]
   }

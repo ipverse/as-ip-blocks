@@ -1,9 +1,12 @@
 {
-  "asn": 21060,
-  "handle": "ASN-ATEA-DK",
-  "description": "Atea A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21060,
+  "metadata" : {
+    "handle" : "ASN-ATEA-DK",
+    "description" : "Atea A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.82.96.0/20",
       "80.89.16.0/20",
       "91.195.58.0/23",
@@ -21,7 +24,7 @@
       "194.8.244.0/23",
       "194.116.222.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7cc0:100::/40",
       "2a02:7c00::/32"
     ]

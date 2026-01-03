@@ -1,13 +1,16 @@
 {
-  "asn": 20493,
-  "handle": "VIPARIS",
-  "description": "VIPARIS LE PALAIS DES CONGRES DE PARIS SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20493,
+  "metadata" : {
+    "handle" : "VIPARIS",
+    "description" : "VIPARIS LE PALAIS DES CONGRES DE PARIS SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.113.160.0/22",
       "193.108.21.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:6a00::/29"
     ]
   }

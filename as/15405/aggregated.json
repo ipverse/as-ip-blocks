@@ -1,15 +1,18 @@
 {
-  "asn": 15405,
-  "handle": "EASTCORK-AS",
-  "description": "East Cork Broadband Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15405,
+  "metadata" : {
+    "handle" : "EASTCORK-AS",
+    "description" : "East Cork Broadband Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.198.244.0/24",
       "185.22.156.0/22",
       "185.159.36.0/22",
       "185.202.68.0/22",
       "195.162.84.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 60991,
-  "handle": "DCMAIN-AS",
-  "description": "Dominik Schubert",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60991,
+  "metadata" : {
+    "handle" : "DCMAIN-AS",
+    "description" : "Dominik Schubert",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.86.157.0/24",
       "185.86.158.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:2540::/29"
     ]
   }

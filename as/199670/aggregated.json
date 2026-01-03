@@ -1,15 +1,18 @@
 {
-  "asn": 199670,
-  "handle": "DNS-ANYCAST",
-  "description": "DNS-Belgium VZW",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199670,
+  "metadata" : {
+    "handle" : "DNS-ANYCAST",
+    "description" : "DNS-Belgium VZW",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.0.6.0/24",
       "194.0.37.0/24",
       "194.0.43.0/24",
       "194.0.44.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:9::/48",
       "2001:678:64::/48",
       "2001:678:68::/48",

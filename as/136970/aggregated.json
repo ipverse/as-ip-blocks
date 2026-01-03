@@ -1,9 +1,12 @@
 {
-  "asn": 136970,
-  "handle": "YISUCLOUDLTD-AS-AP",
-  "description": "YISU CLOUD LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136970,
+  "metadata" : {
+    "handle" : "YISUCLOUDLTD-AS-AP",
+    "description" : "YISU CLOUD LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.100.61.0/24",
       "103.100.63.0/24",
       "103.107.236.0/23",
@@ -15,6 +18,6 @@
       "156.236.67.0/24",
       "156.236.68.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

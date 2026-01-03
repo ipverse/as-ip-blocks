@@ -1,9 +1,12 @@
 {
-  "asn": 60651,
-  "handle": "STEK-KAZAN",
-  "description": "Stek Kazan LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60651,
+  "metadata" : {
+    "handle" : "STEK-KAZAN",
+    "description" : "Stek Kazan LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.27.192.0/22",
       "194.38.8.0/24",
       "194.38.10.0/24",
@@ -11,7 +14,7 @@
       "213.159.202.0/23",
       "213.159.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:97a0::/32"
     ]
   }

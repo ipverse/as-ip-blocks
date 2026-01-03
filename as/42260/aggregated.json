@@ -1,13 +1,16 @@
 {
-  "asn": 42260,
-  "handle": "SKYSYSTEMS-AS",
-  "description": "SkySystems LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42260,
+  "metadata" : {
+    "handle" : "SKYSYSTEMS-AS",
+    "description" : "SkySystems LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.1.47.0/24",
       "5.180.17.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:1301:4070::/48"
     ]
   }

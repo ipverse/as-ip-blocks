@@ -1,11 +1,14 @@
 {
-  "asn": 152115,
-  "handle": "RSINET-AS-AP",
-  "description": "RSINet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152115,
+  "metadata" : {
+    "handle" : "RSINET-AS-AP",
+    "description" : "RSINet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.145.38.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

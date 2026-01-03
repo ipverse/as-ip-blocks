@@ -1,13 +1,16 @@
 {
-  "asn": 206712,
-  "handle": "FELDHOST-AS",
-  "description": "FELDSAM s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206712,
+  "metadata" : {
+    "handle" : "FELDHOST-AS",
+    "description" : "FELDSAM s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.174.168.0/23",
       "185.174.170.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:a900::/31",
       "2a0b:a902::/32"
     ]

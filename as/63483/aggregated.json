@@ -1,9 +1,12 @@
 {
-  "asn": 63483,
-  "handle": "SKYNET-AS-1",
-  "description": "Skynet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63483,
+  "metadata" : {
+    "handle" : "SKYNET-AS-1",
+    "description" : "Skynet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.59.82.0/24",
       "50.217.136.0/23",
       "50.217.139.0/24",
@@ -11,6 +14,6 @@
       "50.238.32.0/21",
       "168.235.160.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

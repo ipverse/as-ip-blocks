@@ -1,14 +1,17 @@
 {
-  "asn": 136286,
-  "handle": "RMCH-AS-IN",
-  "description": "Cybercity Extreme Broadband Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136286,
+  "metadata" : {
+    "handle" : "RMCH-AS-IN",
+    "description" : "Cybercity Extreme Broadband Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.85.124.0/22",
       "103.157.54.0/24",
       "103.167.94.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:3840::/32"
     ]
   }

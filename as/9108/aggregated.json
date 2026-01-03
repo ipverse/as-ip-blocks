@@ -1,15 +1,18 @@
 {
-  "asn": 9108,
-  "handle": "ABXNET",
-  "description": "Abraxas Informatik AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9108,
+  "metadata" : {
+    "handle" : "ABXNET",
+    "description" : "Abraxas Informatik AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.156.231.0/24",
       "193.246.64.0/19",
       "193.247.147.0/24",
       "194.124.176.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:c382::/32"
     ]
   }

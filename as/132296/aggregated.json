@@ -1,9 +1,12 @@
 {
-  "asn": 132296,
-  "handle": "SEVENSTARDIGITAL-AS-AP",
-  "description": "Seven Star Digital Network Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132296,
+  "metadata" : {
+    "handle" : "SEVENSTARDIGITAL-AS-AP",
+    "description" : "Seven Star Digital Network Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.248.68.0/22",
       "45.119.12.0/22",
       "103.57.252.0/22",
@@ -32,7 +35,7 @@
       "202.134.173.0/24",
       "202.134.174.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:5c80::/32",
       "2406:b580::/32"
     ]

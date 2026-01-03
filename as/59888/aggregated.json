@@ -1,12 +1,15 @@
 {
-  "asn": 59888,
-  "handle": "MARMIN",
-  "description": "MARMIN Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59888,
+  "metadata" : {
+    "handle" : "MARMIN",
+    "description" : "MARMIN Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.1.200.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:7600::/29"
     ]
   }

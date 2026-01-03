@@ -1,12 +1,15 @@
 {
-  "asn": 47711,
-  "handle": "LINEGROUP-AS",
-  "description": "Line Group Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47711,
+  "metadata" : {
+    "handle" : "LINEGROUP-AS",
+    "description" : "Line Group Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.192.58.0/23",
       "89.222.220.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

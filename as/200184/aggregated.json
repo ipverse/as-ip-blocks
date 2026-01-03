@@ -1,13 +1,16 @@
 {
-  "asn": 200184,
-  "handle": "NL-SURFBOARD",
-  "description": "Surfboard Holding BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200184,
+  "metadata" : {
+    "handle" : "NL-SURFBOARD",
+    "description" : "Surfboard Holding BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.63.57.0/24",
       "67.63.61.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:f800:1001::/48"
     ]
   }

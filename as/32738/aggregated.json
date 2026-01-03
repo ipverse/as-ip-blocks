@@ -1,9 +1,12 @@
 {
-  "asn": 32738,
-  "handle": "HYBRID-WIRELESS",
-  "description": "Hybrid Wireless Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32738,
+  "metadata" : {
+    "handle" : "HYBRID-WIRELESS",
+    "description" : "Hybrid Wireless Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.141.22.0/24",
       "64.141.120.0/22",
       "174.138.128.0/21",
@@ -12,7 +15,7 @@
       "192.149.43.0/24",
       "208.70.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:4a40::/32"
     ]
   }

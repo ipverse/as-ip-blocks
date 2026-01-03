@@ -1,11 +1,14 @@
 {
-  "asn": 24313,
-  "handle": "NSW-DET-AS",
-  "description": "NSW Department of Education",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24313,
+  "metadata" : {
+    "handle" : "NSW-DET-AS",
+    "description" : "NSW Department of Education",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "153.107.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

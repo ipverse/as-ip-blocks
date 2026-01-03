@@ -1,16 +1,19 @@
 {
-  "asn": 13226,
-  "handle": "CYBERNET",
-  "description": "CYBERNET SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13226,
+  "metadata" : {
+    "handle" : "CYBERNET",
+    "description" : "CYBERNET SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.177.64.0/20",
       "213.177.80.0/21",
       "213.177.88.0/22",
       "213.177.92.0/23",
       "213.177.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5b80::/32"
     ]
   }

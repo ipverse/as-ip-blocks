@@ -1,9 +1,12 @@
 {
-  "asn": 116,
-  "handle": "TELCORDIA",
-  "description": "Ericsson Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 116,
+  "metadata" : {
+    "handle" : "TELCORDIA",
+    "description" : "Ericsson Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.96.0.0/16",
       "192.4.16.0/20",
       "192.4.32.0/24",
@@ -23,6 +26,6 @@
       "192.4.248.0/21",
       "205.132.5.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

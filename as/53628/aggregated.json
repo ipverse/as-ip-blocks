@@ -1,12 +1,15 @@
 {
-  "asn": 53628,
-  "handle": "APYLI-AS",
-  "description": "Apyl Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53628,
+  "metadata" : {
+    "handle" : "APYLI-AS",
+    "description" : "Apyl Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "173.0.128.0/20",
       "199.127.216.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 135287,
-  "handle": "TCOTCOS-AS-AP",
-  "description": "The Council of the City of Sydney",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135287,
+  "metadata" : {
+    "handle" : "TCOTCOS-AS-AP",
+    "description" : "The Council of the City of Sydney",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.141.114.0/24",
       "103.212.66.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

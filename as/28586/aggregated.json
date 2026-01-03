@@ -1,9 +1,12 @@
 {
-  "asn": 28586,
-  "handle": "BANCO-BRADESCO",
-  "description": "BANCO BRADESCO SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28586,
+  "metadata" : {
+    "handle" : "BANCO-BRADESCO",
+    "description" : "BANCO BRADESCO SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.92.208.0/23",
       "177.92.210.0/24",
       "177.92.212.0/23",
@@ -15,7 +18,7 @@
       "200.155.92.0/23",
       "200.155.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:96::/40",
       "2801:96:fff1::/48",
       "2801:96:fff4::/47",

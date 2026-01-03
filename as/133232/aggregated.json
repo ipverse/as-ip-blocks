@@ -1,9 +1,12 @@
 {
-  "asn": 133232,
-  "handle": "SAMPARKESTATES-AS-IN",
-  "description": "SAMPARK ESTATES PVT. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133232,
+  "metadata" : {
+    "handle" : "SAMPARKESTATES-AS-IN",
+    "description" : "SAMPARK ESTATES PVT. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.250.225.0/24",
       "45.250.226.0/24",
       "103.17.102.0/24",
@@ -15,6 +18,9 @@
       "103.120.250.0/24",
       "150.107.24.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [
+      "2001:df7:6e00::/48",
+      "2403:6040::/32"
+    ]
   }
 }

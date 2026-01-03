@@ -1,13 +1,16 @@
 {
-  "asn": 187,
-  "handle": "DNSCAST-AS",
-  "description": "DNScast",
-  "subnets": {
-    "ipv4": [
+  "asn" : 187,
+  "metadata" : {
+    "handle" : "DNSCAST-AS",
+    "description" : "DNScast",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.42.112.0/20",
       "203.119.88.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:dd8:7::/48",
       "2620:171:d00::/44"
     ]

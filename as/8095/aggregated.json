@@ -1,9 +1,12 @@
 {
-  "asn": 8095,
-  "handle": "LIGHTSTACKGLOBAL",
-  "description": "LightStack Global LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8095,
+  "metadata" : {
+    "handle" : "LIGHTSTACKGLOBAL",
+    "description" : "LightStack Global LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.133.84.0/24",
       "23.149.4.0/24",
       "23.155.248.0/24",
@@ -42,6 +45,6 @@
       "23.182.136.0/24",
       "23.188.88.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

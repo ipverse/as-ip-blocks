@@ -1,9 +1,12 @@
 {
-  "asn": 8560,
-  "handle": "IONOS-AS",
-  "description": "IONOS SE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8560,
+  "metadata" : {
+    "handle" : "IONOS-AS",
+    "description" : "IONOS SE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.250.176.0/20",
       "46.16.72.0/21",
       "50.21.176.0/20",
@@ -158,7 +161,7 @@
       "217.160.0.0/16",
       "217.174.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:8d8::/32",
       "2001:ba0::/32",
       "2607:b500:1::/48",

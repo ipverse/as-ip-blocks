@@ -1,9 +1,12 @@
 {
-  "asn": 2727,
-  "handle": "GEPB2009",
-  "description": "Electric Plant Board of the City of Glasgow Kentucky",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2727,
+  "metadata" : {
+    "handle" : "GEPB2009",
+    "description" : "Electric Plant Board of the City of Glasgow Kentucky",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.24.4.0/22",
       "12.27.240.0/21",
       "12.36.232.0/21",
@@ -14,6 +17,6 @@
       "66.115.80.0/20",
       "199.48.88.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

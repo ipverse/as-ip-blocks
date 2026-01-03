@@ -1,11 +1,14 @@
 {
-  "asn": 11073,
-  "handle": "MPR-DUAL-INT",
-  "description": "Minnesota Public Radio",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11073,
+  "metadata" : {
+    "handle" : "MPR-DUAL-INT",
+    "description" : "Minnesota Public Radio",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.203.201.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

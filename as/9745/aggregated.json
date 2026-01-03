@@ -1,12 +1,15 @@
 {
-  "asn": 9745,
-  "handle": "PETARNIKOLICH-AS-AP",
-  "description": "Petar Nikolich",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9745,
+  "metadata" : {
+    "handle" : "PETARNIKOLICH-AS-AP",
+    "description" : "Petar Nikolich",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.6.124.0/22",
       "203.32.103.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 38332,
-  "handle": "AUDA-AU-AS",
-  "description": ".au Domain Administration",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38332,
+  "metadata" : {
+    "handle" : "AUDA-AU-AS",
+    "description" : ".au Domain Administration",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.65.250.0/24",
       "58.65.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:6e00:4::/48",
       "2407:6e00:254::/48"
     ]

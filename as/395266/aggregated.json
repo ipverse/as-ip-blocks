@@ -1,9 +1,12 @@
 {
-  "asn": 395266,
-  "handle": "KEYSIGHT-TECHNOLOGIES",
-  "description": "Keysight Technologies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395266,
+  "metadata" : {
+    "handle" : "KEYSIGHT-TECHNOLOGIES",
+    "description" : "Keysight Technologies Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.6.21.0/24",
       "192.25.1.0/24",
       "192.25.2.0/23",
@@ -20,7 +23,7 @@
       "192.25.55.0/24",
       "192.25.78.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:5740::/48",
       "2620:17b:3::/48",
       "2620:17b:5::/48",

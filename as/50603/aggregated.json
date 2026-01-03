@@ -1,11 +1,14 @@
 {
-  "asn": 50603,
-  "handle": "ARTIO-AS",
-  "description": "Artio Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50603,
+  "metadata" : {
+    "handle" : "ARTIO-AS",
+    "description" : "Artio Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.191.122.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

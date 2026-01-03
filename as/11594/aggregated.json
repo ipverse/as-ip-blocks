@@ -1,9 +1,12 @@
 {
-  "asn": 11594,
-  "handle": "APUA-AG",
-  "description": "APUA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11594,
+  "metadata" : {
+    "handle" : "APUA-AG",
+    "description" : "APUA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.2.64.0/19",
       "38.92.120.0/21",
       "38.131.16.0/20",
@@ -11,6 +14,6 @@
       "208.83.80.0/21",
       "216.48.96.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

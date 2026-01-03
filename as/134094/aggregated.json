@@ -1,9 +1,12 @@
 {
-  "asn": 134094,
-  "handle": "SERVERFIELD-AS",
-  "description": "SERVERFIELD CO. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134094,
+  "metadata" : {
+    "handle" : "SERVERFIELD-AS",
+    "description" : "SERVERFIELD CO. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.123.116.0/24",
       "45.123.118.0/23",
       "89.252.132.0/24",
@@ -14,7 +17,7 @@
       "185.190.18.0/23",
       "203.15.150.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:f540:1::/48",
       "2401:f540:2::/47",
       "2401:f540:4::/48",

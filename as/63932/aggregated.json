@@ -1,9 +1,12 @@
 {
-  "asn": 63932,
-  "handle": "BCC-BD",
-  "description": "Bangladesh Computer Council",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63932,
+  "metadata" : {
+    "handle" : "BCC-BD",
+    "description" : "Bangladesh Computer Council",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.229.12.0/22",
       "103.48.16.0/22",
       "114.130.54.0/23",
@@ -12,7 +15,7 @@
       "114.130.252.0/22",
       "180.211.213.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:ed80::/32"
     ]
   }

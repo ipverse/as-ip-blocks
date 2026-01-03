@@ -1,14 +1,17 @@
 {
-  "asn": 139841,
-  "handle": "STARCOMMUNICATION-AS-AP",
-  "description": "STAR COMMUNICATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139841,
+  "metadata" : {
+    "handle" : "STARCOMMUNICATION-AS-AP",
+    "description" : "STAR COMMUNICATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.112.204.0/24",
       "103.112.206.0/23",
       "103.146.16.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:fb40::/32"
     ]
   }

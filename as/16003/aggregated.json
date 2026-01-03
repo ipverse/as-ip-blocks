@@ -1,9 +1,12 @@
 {
-  "asn": 16003,
-  "handle": "FORNEX-NL-AS",
-  "description": "Fornex Hosting S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16003,
+  "metadata" : {
+    "handle" : "FORNEX-NL-AS",
+    "description" : "Fornex Hosting S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.172.74.0/24",
       "31.172.78.0/24",
       "79.132.137.0/24",
@@ -16,7 +19,7 @@
       "185.21.9.0/24",
       "217.194.148.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:6b40:8002::/47"
     ]
   }

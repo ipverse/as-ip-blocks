@@ -1,12 +1,15 @@
 {
-  "asn": 154180,
-  "handle": "RNDSNETWORK-AS-AP",
-  "description": "RNDS Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 154180,
+  "metadata" : {
+    "handle" : "RNDSNETWORK-AS-AP",
+    "description" : "RNDS Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.20.42.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:ec0::/48"
     ]
   }

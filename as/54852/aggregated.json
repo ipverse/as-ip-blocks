@@ -1,12 +1,15 @@
 {
-  "asn": 54852,
-  "handle": "F4-NETWORKS",
-  "description": "F4 Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54852,
+  "metadata" : {
+    "handle" : "F4-NETWORKS",
+    "description" : "F4 Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.168.23.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:e281:f4::/48",
       "2a09:4500::/29",
       "2a13:f40::/29"

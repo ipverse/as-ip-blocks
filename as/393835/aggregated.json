@@ -1,11 +1,14 @@
 {
-  "asn": 393835,
-  "handle": "CCS-COLO",
-  "description": "Customer Contact Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393835,
+  "metadata" : {
+    "handle" : "CCS-COLO",
+    "description" : "Customer Contact Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.110.155.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

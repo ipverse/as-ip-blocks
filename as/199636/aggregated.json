@@ -1,9 +1,12 @@
 {
-  "asn": 199636,
-  "handle": "FREEBOXPRO",
-  "description": "Free Pro SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199636,
+  "metadata" : {
+    "handle" : "FREEBOXPRO",
+    "description" : "Free Pro SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.80.8.0/22",
       "45.80.20.0/22",
       "45.80.24.0/22",
@@ -22,7 +25,7 @@
       "185.146.220.0/22",
       "212.114.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:6e00::/29"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 15326,
-  "handle": "HIGHERSPEED",
-  "description": "Higherspeed Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15326,
+  "metadata" : {
+    "handle" : "HIGHERSPEED",
+    "description" : "Higherspeed Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.128.32.0/24",
       "38.71.122.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe72::/36"
     ]
   }

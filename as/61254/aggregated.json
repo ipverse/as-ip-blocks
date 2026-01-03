@@ -1,15 +1,18 @@
 {
-  "asn": 61254,
-  "handle": "ESTOXY-OU",
-  "description": "ESTOXY OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61254,
+  "metadata" : {
+    "handle" : "ESTOXY-OU",
+    "description" : "ESTOXY OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.152.22.0/24",
       "87.248.149.0/24",
       "140.233.167.0/24",
       "179.61.226.0/24",
       "195.216.170.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

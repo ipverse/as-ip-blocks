@@ -1,9 +1,12 @@
 {
-  "asn": 20207,
-  "handle": "GIGARED",
-  "description": "Gigared S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20207,
+  "metadata" : {
+    "handle" : "GIGARED",
+    "description" : "Gigared S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.7.96.0/22",
       "138.0.152.0/22",
       "138.118.112.0/22",
@@ -32,7 +35,7 @@
       "200.55.28.0/24",
       "200.229.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:6f0::/38",
       "2800:6f0:400::/39",
       "2800:6f0:600::/40",

@@ -1,15 +1,18 @@
 {
-  "asn": 36114,
-  "handle": "VERSAWEB-ASN",
-  "description": "VegasNAP LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36114,
+  "metadata" : {
+    "handle" : "VERSAWEB-ASN",
+    "description" : "VegasNAP LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.46.128.0/22",
       "76.164.192.0/22",
       "76.164.206.0/23",
       "104.143.10.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:6f80::/40"
     ]
   }

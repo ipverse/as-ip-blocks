@@ -1,9 +1,12 @@
 {
-  "asn": 133469,
-  "handle": "MULTINET-IN",
-  "description": "Multinet (Udaipur) Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133469,
+  "metadata" : {
+    "handle" : "MULTINET-IN",
+    "description" : "Multinet (Udaipur) Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.252.220.0/23",
       "103.73.180.0/22",
       "103.78.180.0/22",
@@ -17,7 +20,7 @@
       "123.253.124.0/22",
       "150.242.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:7280::/32"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 199297,
-  "handle": "VYME",
-  "description": "Vyme SASU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199297,
+  "metadata" : {
+    "handle" : "VYME",
+    "description" : "Vyme SASU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.88.180.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

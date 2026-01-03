@@ -1,11 +1,14 @@
 {
-  "asn": 400085,
-  "handle": "REGINA-POLICE-SERVICE",
-  "description": "Regina Police Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400085,
+  "metadata" : {
+    "handle" : "REGINA-POLICE-SERVICE",
+    "description" : "Regina Police Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.80.164.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

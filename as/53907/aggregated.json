@@ -1,9 +1,12 @@
 {
-  "asn": 53907,
-  "handle": "QTS-RIC",
-  "description": "Quality Technology Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53907,
+  "metadata" : {
+    "handle" : "QTS-RIC",
+    "description" : "Quality Technology Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.27.248.0/23",
       "66.197.118.0/24",
       "69.5.65.0/24",
@@ -11,7 +14,7 @@
       "209.10.64.0/19",
       "209.11.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ffa5:100::/40",
       "2605:cd00::/32"
     ]

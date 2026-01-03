@@ -1,14 +1,17 @@
 {
-  "asn": 42318,
-  "handle": "FASTBIT-AS",
-  "description": "FastBit AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42318,
+  "metadata" : {
+    "handle" : "FASTBIT-AS",
+    "description" : "FastBit AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.244.0/22",
       "83.223.0.0/19",
       "194.71.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:5580::/29"
     ]
   }

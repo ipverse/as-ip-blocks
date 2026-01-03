@@ -1,15 +1,18 @@
 {
-  "asn": 37276,
-  "handle": "VOFFICE",
-  "description": "VOffice Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37276,
+  "metadata" : {
+    "handle" : "VOFFICE",
+    "description" : "VOffice Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.75.96.0/20",
       "41.78.200.0/22",
       "168.253.192.0/20",
       "197.214.112.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:2040::/32"
     ]
   }

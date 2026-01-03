@@ -1,9 +1,12 @@
 {
-  "asn": 56082,
-  "handle": "ONE-NET-HK",
-  "description": "ONENET HK LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56082,
+  "metadata" : {
+    "handle" : "ONE-NET-HK",
+    "description" : "ONENET HK LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.230.188.0/23",
       "43.230.190.0/24",
       "45.114.101.0/24",
@@ -16,6 +19,6 @@
       "122.115.66.0/24",
       "122.115.73.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

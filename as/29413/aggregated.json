@@ -1,9 +1,12 @@
 {
-  "asn": 29413,
-  "handle": "KOMRO-AS",
-  "description": "KOMRO Gesellschaft fuer Telekommunikation mit beschraenkter Haftung",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29413,
+  "metadata" : {
+    "handle" : "KOMRO-AS",
+    "description" : "KOMRO Gesellschaft fuer Telekommunikation mit beschraenkter Haftung",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.187.80.0/22",
       "31.187.88.0/22",
       "37.156.80.0/20",
@@ -18,7 +21,7 @@
       "213.178.16.0/20",
       "217.72.208.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2488::/32",
       "2a0b:9940::/32"
     ]

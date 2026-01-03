@@ -1,12 +1,15 @@
 {
-  "asn": 401816,
-  "handle": "ANSER",
-  "description": "ANSER Power Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401816,
+  "metadata" : {
+    "handle" : "ANSER",
+    "description" : "ANSER Power Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.144.100.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f5ee::/40"
     ]
   }

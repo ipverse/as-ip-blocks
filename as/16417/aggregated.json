@@ -1,9 +1,12 @@
 {
-  "asn": 16417,
-  "handle": "IRONPORT-SYSTEMS-INC",
-  "description": "Cisco Systems Ironport Division",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16417,
+  "metadata" : {
+    "handle" : "IRONPORT-SYSTEMS-INC",
+    "description" : "Cisco Systems Ironport Division",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.90.96.0/22",
       "23.90.100.0/23",
       "23.90.103.0/24",
@@ -57,7 +60,7 @@
       "216.71.150.0/24",
       "216.71.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:101:2001::/48",
       "2620:101:2002::/47",
       "2620:101:2005::/48",

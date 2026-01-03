@@ -1,9 +1,12 @@
 {
-  "asn": 43885,
-  "handle": "IMATEL",
-  "description": "INSTAL MATEL SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43885,
+  "metadata" : {
+    "handle" : "IMATEL",
+    "description" : "INSTAL MATEL SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.210.144.0/22",
       "37.143.120.0/21",
       "45.13.210.0/24",
@@ -21,7 +24,7 @@
       "193.162.14.0/24",
       "195.93.184.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:ce00::/29",
       "2a12:d840:aa::/48"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 17887,
-  "handle": "TCCT-AS-TH-AP",
-  "description": "TCC Technology Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17887,
+  "metadata" : {
+    "handle" : "TCCT-AS-TH-AP",
+    "description" : "TCC Technology Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.247.56.0/22",
       "103.11.12.0/22",
       "103.106.8.0/22",
@@ -12,7 +15,7 @@
       "203.159.72.0/22",
       "203.159.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:6d00::/32"
     ]
   }

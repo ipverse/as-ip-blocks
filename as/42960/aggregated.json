@@ -1,9 +1,12 @@
 {
-  "asn": 42960,
-  "handle": "VH-GLOBAL",
-  "description": "VH Global Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42960,
+  "metadata" : {
+    "handle" : "VH-GLOBAL",
+    "description" : "VH Global Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.55.98.0/23",
       "38.147.166.0/23",
       "43.248.9.0/24",
@@ -30,7 +33,7 @@
       "193.200.130.0/24",
       "193.200.134.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:f880::/32",
       "2401:2660::/36"
     ]

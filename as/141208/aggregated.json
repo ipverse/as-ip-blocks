@@ -1,11 +1,14 @@
 {
-  "asn": 141208,
-  "handle": "GBNS-AS-AP",
-  "description": "Green Broadband Network Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141208,
+  "metadata" : {
+    "handle" : "GBNS-AS-AP",
+    "description" : "Green Broadband Network Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.156.124.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

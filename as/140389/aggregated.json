@@ -1,9 +1,12 @@
 {
-  "asn": 140389,
-  "handle": "IDNIC-DBIZ-AS-ID",
-  "description": "PT Dewa Bisnis Digital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140389,
+  "metadata" : {
+    "handle" : "IDNIC-DBIZ-AS-ID",
+    "description" : "PT Dewa Bisnis Digital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.7.184.0/23",
       "103.16.138.0/23",
       "103.122.2.0/23",
@@ -14,6 +17,6 @@
       "103.179.86.0/23",
       "103.253.244.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

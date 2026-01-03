@@ -1,12 +1,15 @@
 {
-  "asn": 137249,
-  "handle": "BNS-AS-AP",
-  "description": "Beyond Networking Solution",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137249,
+  "metadata" : {
+    "handle" : "BNS-AS-AP",
+    "description" : "Beyond Networking Solution",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.106.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:37c0::/47"
     ]
   }

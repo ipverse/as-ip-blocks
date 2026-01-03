@@ -1,9 +1,12 @@
 {
-  "asn": 63199,
-  "handle": "CDSC-AS1",
-  "description": "CDS Global Cloud Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63199,
+  "metadata" : {
+    "handle" : "CDSC-AS1",
+    "description" : "CDS Global Cloud Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.247.4.0/24",
       "1.255.30.0/24",
       "5.83.216.0/24",
@@ -229,7 +232,7 @@
       "216.75.153.0/24",
       "223.255.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:550:2801::/48",
       "2400:5280::/36",
       "2400:5280:1000::/38",

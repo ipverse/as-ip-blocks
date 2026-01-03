@@ -1,9 +1,12 @@
 {
-  "asn": 42160,
-  "handle": "LCPDCO",
-  "description": "DC STAR nv",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42160,
+  "metadata" : {
+    "handle" : "LCPDCO",
+    "description" : "DC STAR nv",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.95.112.0/20",
       "91.206.84.0/23",
       "91.234.203.0/24",
@@ -17,7 +20,7 @@
       "193.110.248.0/21",
       "195.225.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5940::/32",
       "2a04:b80:1::/48"
     ]

@@ -1,10 +1,13 @@
 {
-  "asn": 273483,
-  "handle": "SUPRINET-TELECOM",
-  "description": "SupriNet Telecom",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 273483,
+  "metadata" : {
+    "handle" : "SUPRINET-TELECOM",
+    "description" : "SupriNet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2804:8f50::/32"
     ]
   }

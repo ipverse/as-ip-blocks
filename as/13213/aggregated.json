@@ -1,9 +1,12 @@
 {
-  "asn": 13213,
-  "handle": "UK2NET-AS",
-  "description": "UK-2 Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13213,
+  "metadata" : {
+    "handle" : "UK2NET-AS",
+    "description" : "UK-2 Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.29.0/24",
       "5.63.144.0/21",
       "5.181.133.0/24",
@@ -513,7 +516,7 @@
       "216.224.124.0/24",
       "220.158.198.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fad4:1::/48",
       "2602:fad4:2::/48",
       "2602:ff62:128::/45",

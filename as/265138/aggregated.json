@@ -1,12 +1,15 @@
 {
-  "asn": 265138,
-  "handle": "ACESSOCOM-PROVEDOR-INTERNET",
-  "description": "ACESSO.COM PROVEDOR DE INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265138,
+  "metadata" : {
+    "handle" : "ACESSOCOM-PROVEDOR-INTERNET",
+    "description" : "ACESSO.COM PROVEDOR DE INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.208.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2b28::/32"
     ]
   }

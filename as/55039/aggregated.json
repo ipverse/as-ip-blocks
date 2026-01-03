@@ -1,9 +1,12 @@
 {
-  "asn": 55039,
-  "handle": "FATBEAM-AS",
-  "description": "Fatbeam LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55039,
+  "metadata" : {
+    "handle" : "FATBEAM-AS",
+    "description" : "Fatbeam LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "52.144.56.0/23",
       "64.190.16.0/22",
       "66.187.28.0/22",
@@ -27,7 +30,7 @@
       "208.66.120.0/22",
       "209.127.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f59f::/40",
       "2602:ff7c::/36"
     ]

@@ -1,16 +1,19 @@
 {
-  "asn": 270353,
-  "handle": "TYNA-HOST-DATACENTER",
-  "description": "Tyna Host - Datacenter no Brasil",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270353,
+  "metadata" : {
+    "handle" : "TYNA-HOST-DATACENTER-NO-BRASIL",
+    "description" : "Tyna Host - Datacenter no Brasil",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.165.46.0/24",
       "191.96.78.0/23",
       "191.96.224.0/23",
       "191.101.131.0/24",
       "200.9.154.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6ab0::/32"
     ]
   }

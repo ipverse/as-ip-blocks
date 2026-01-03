@@ -1,12 +1,15 @@
 {
-  "asn": 17052,
-  "handle": "TARGET",
-  "description": "Target Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17052,
+  "metadata" : {
+    "handle" : "TARGET",
+    "description" : "Target Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.225.0.0/16",
       "170.195.0.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 47540,
-  "handle": "WIPAK-AS",
-  "description": "Wipak Walsrode GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47540,
+  "metadata" : {
+    "handle" : "WIPAK-AS",
+    "description" : "Wipak Walsrode GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.97.214.0/24",
       "195.58.53.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:cfc0::/29"
     ]
   }

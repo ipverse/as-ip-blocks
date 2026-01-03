@@ -1,9 +1,12 @@
 {
-  "asn": 23581,
-  "handle": "HYNIX-AS",
-  "description": "Hynix Semiconductor Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23581,
+  "metadata" : {
+    "handle" : "HYNIX-AS",
+    "description" : "Hynix Semiconductor Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "166.125.0.0/24",
       "166.125.239.0/24",
       "166.125.240.0/22",
@@ -14,6 +17,6 @@
       "166.125.252.0/23",
       "166.125.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

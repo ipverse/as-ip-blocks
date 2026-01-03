@@ -1,9 +1,12 @@
 {
-  "asn": 56309,
-  "handle": "SIAMDATA-TH",
-  "description": "Siamdata Communication Co. ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56309,
+  "metadata" : {
+    "handle" : "SIAMDATA-TH",
+    "description" : "Siamdata Communication Co. ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.228.84.0/22",
       "43.229.76.0/22",
       "43.229.132.0/22",
@@ -35,7 +38,7 @@
       "203.159.92.0/22",
       "212.80.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:2300::/32"
     ]
   }

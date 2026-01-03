@@ -1,12 +1,15 @@
 {
-  "asn": 26365,
-  "handle": "IOT-PRIMARY",
-  "description": "Image One Technologies",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26365,
+  "metadata" : {
+    "handle" : "IOT-PRIMARY",
+    "description" : "Image One Technologies",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.48.105.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:8d:c000::/48"
     ]
   }

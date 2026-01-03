@@ -1,11 +1,14 @@
 {
-  "asn": 8828,
-  "handle": "BURNET-AS",
-  "description": "PJSC Rostelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8828,
+  "metadata" : {
+    "handle" : "BURNET-AS",
+    "description" : "PJSC Rostelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.0.64.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

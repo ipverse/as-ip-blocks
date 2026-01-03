@@ -1,11 +1,14 @@
 {
-  "asn": 25621,
-  "handle": "ASN-GENESIS",
-  "description": "Genesis Health System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25621,
+  "metadata" : {
+    "handle" : "ASN-GENESIS",
+    "description" : "Genesis Health System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.43.160.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

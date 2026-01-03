@@ -1,9 +1,12 @@
 {
-  "asn": 45732,
-  "handle": "DEPKEU-AS-ID",
-  "description": "Pusat Sistem Informasi dan Teknologi Keuangan ( Pusintek )",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45732,
+  "metadata" : {
+    "handle" : "DEPKEU-AS-ID",
+    "description" : "Pusat Sistem Informasi dan Teknologi Keuangan ( Pusintek )",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.12.81.0/24",
       "103.93.188.0/24",
       "103.165.248.0/24",
@@ -11,6 +14,6 @@
       "202.61.126.0/24",
       "202.137.230.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

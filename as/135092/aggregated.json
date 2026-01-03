@@ -1,13 +1,16 @@
 {
-  "asn": 135092,
-  "handle": "DHAKATECH-AS-AP",
-  "description": "Dhaka tech",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135092,
+  "metadata" : {
+    "handle" : "DHAKATECH-AS-AP",
+    "description" : "Dhaka tech",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.255.52.0/22",
       "103.209.20.0/23",
       "103.209.22.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

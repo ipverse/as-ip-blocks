@@ -1,9 +1,12 @@
 {
-  "asn": 13806,
-  "handle": "NCRCORP",
-  "description": "NCR Voyix Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13806,
+  "metadata" : {
+    "handle" : "NCRCORP",
+    "description" : "NCR Voyix Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "153.69.0.0/22",
       "153.69.7.0/24",
       "153.69.8.0/23",
@@ -24,6 +27,6 @@
       "153.69.212.0/23",
       "153.69.214.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

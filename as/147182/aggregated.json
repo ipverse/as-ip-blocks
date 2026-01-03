@@ -1,13 +1,16 @@
 {
-  "asn": 147182,
-  "handle": "CLEARVIEW-AS-AP",
-  "description": "Clearview Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 147182,
+  "metadata" : {
+    "handle" : "CLEARVIEW-AS-AP",
+    "description" : "Clearview Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.174.48.0/23",
       "123.253.193.0/24",
       "123.253.194.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

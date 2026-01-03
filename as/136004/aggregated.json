@@ -1,13 +1,16 @@
 {
-  "asn": 136004,
-  "handle": "RU-AC-AS-AP",
-  "description": "University of Rajshahi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136004,
+  "metadata" : {
+    "handle" : "RU-AC-AS-AP",
+    "description" : "University of Rajshahi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.79.117.0/24",
       "103.99.176.0/23",
       "103.120.110.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

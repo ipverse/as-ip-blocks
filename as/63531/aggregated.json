@@ -1,9 +1,12 @@
 {
-  "asn": 63531,
-  "handle": "BW",
-  "description": "Beijing BAIWU Technology Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63531,
+  "metadata" : {
+    "handle" : "BW",
+    "description" : "Beijing BAIWU Technology Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.139.16.0/21",
       "36.140.192.0/24",
       "36.140.199.0/24",
@@ -13,6 +16,6 @@
       "112.33.110.0/24",
       "112.33.119.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

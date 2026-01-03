@@ -1,13 +1,16 @@
 {
-  "asn": 47206,
-  "handle": "RENNES-TELECOM-AS",
-  "description": "Societe Francaise Du Radiotelephone - SFR SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47206,
+  "metadata" : {
+    "handle" : "RENNES-TELECOM-AS",
+    "description" : "Societe Francaise Du Radiotelephone - SFR SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.182.192.0/18",
       "188.224.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e880::/32"
     ]
   }

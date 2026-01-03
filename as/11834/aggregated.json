@@ -1,14 +1,17 @@
 {
-  "asn": 11834,
-  "handle": "DREXEL-ASN",
-  "description": "Drexel University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11834,
+  "metadata" : {
+    "handle" : "DREXEL-ASN",
+    "description" : "Drexel University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.25.0.0/16",
       "144.118.0.0/16",
       "198.17.30.0/24",
       "204.238.76.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 26479,
-  "handle": "SDC-AS",
-  "description": "Point Broadband Fiber Holding LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26479,
+  "metadata" : {
+    "handle" : "SDC-AS",
+    "description" : "Point Broadband Fiber Holding LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.88.24.0/21",
       "65.111.203.0/24",
       "65.111.214.0/23",
@@ -20,7 +23,7 @@
       "199.102.184.0/22",
       "208.94.88.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:7900::/32"
     ]
   }

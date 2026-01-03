@@ -1,13 +1,16 @@
 {
-  "asn": 8453,
-  "handle": "ECONIS-AS",
-  "description": "Econis AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8453,
+  "metadata" : {
+    "handle" : "ECONIS-AS",
+    "description" : "Econis AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.85.228.0/22",
       "193.169.186.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:b040::/29"
     ]
   }

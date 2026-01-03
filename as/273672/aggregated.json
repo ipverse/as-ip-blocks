@@ -1,12 +1,15 @@
 {
-  "asn": 273672,
-  "handle": "ROCKET-INTERNET",
-  "description": "Rocket Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273672,
+  "metadata" : {
+    "handle" : "ROCKET-INTERNET",
+    "description" : "Rocket Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.43.82.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8a7c::/32"
     ]
   }

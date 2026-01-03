@@ -1,9 +1,12 @@
 {
-  "asn": 134858,
-  "handle": "IFORENETWORKS-AS-IN",
-  "description": "iForce Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134858,
+  "metadata" : {
+    "handle" : "IFORENETWORKS-AS-IN",
+    "description" : "iForce Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.39.116.0/22",
       "103.80.22.0/23",
       "103.105.97.0/24",
@@ -14,7 +17,7 @@
       "103.170.152.0/23",
       "160.187.179.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:8c0::/32"
     ]
   }

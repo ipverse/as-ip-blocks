@@ -1,9 +1,12 @@
 {
-  "asn": 6058,
-  "handle": "NORTHWESTEL-INC",
-  "description": "Northwestel Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6058,
+  "metadata" : {
+    "handle" : "NORTHWESTEL-INC",
+    "description" : "Northwestel Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.117.128.0/19",
       "50.117.192.0/20",
       "50.117.224.0/19",
@@ -31,6 +34,6 @@
       "216.126.109.0/24",
       "216.126.123.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

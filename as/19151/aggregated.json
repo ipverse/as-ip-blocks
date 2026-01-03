@@ -1,9 +1,12 @@
 {
-  "asn": 19151,
-  "handle": "BBO-1",
-  "description": "BroadbandONE LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19151,
+  "metadata" : {
+    "handle" : "BBO-1",
+    "description" : "BroadbandONE LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.135.64.0/24",
       "64.38.110.0/23",
       "64.127.128.0/22",
@@ -37,7 +40,7 @@
       "204.235.96.0/21",
       "208.78.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f138::/32"
     ]
   }

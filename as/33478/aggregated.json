@@ -1,9 +1,12 @@
 {
-  "asn": 33478,
-  "handle": "TECHOPS-ASN-2",
-  "description": "Live Nation Entertainment Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33478,
+  "metadata" : {
+    "handle" : "TECHOPS-ASN-2",
+    "description" : "Live Nation Entertainment Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "205.132.173.0/24",
       "205.132.175.0/24",
       "209.104.33.0/24",
@@ -13,6 +16,6 @@
       "209.104.54.0/24",
       "209.104.62.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 400316,
-  "handle": "MN-ADULT-AND-TEEN-CHALLENGE",
-  "description": "Minnesota Adult \u0026 Teen Challenge",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400316,
+  "metadata" : {
+    "handle" : "MN-ADULT-AND-TEEN-CHALLENGE",
+    "description" : "Minnesota Adult & Teen Challenge",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.55.225.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:a2:2000::/48"
     ]
   }

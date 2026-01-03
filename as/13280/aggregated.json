@@ -1,9 +1,12 @@
 {
-  "asn": 13280,
-  "handle": "H3GIE",
-  "description": "Three Ireland (Hutchison) limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13280,
+  "metadata" : {
+    "handle" : "H3GIE",
+    "description" : "Three Ireland (Hutchison) limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.200.128.0/18",
       "62.40.32.0/19",
       "80.233.0.0/21",
@@ -32,6 +35,6 @@
       "213.191.235.0/24",
       "213.191.236.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

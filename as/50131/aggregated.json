@@ -1,9 +1,12 @@
 {
-  "asn": 50131,
-  "handle": "SPARTANHOST",
-  "description": "Spartan Host Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50131,
+  "metadata" : {
+    "handle" : "SPARTANHOST",
+    "description" : "Spartan Host Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.27.2.0/24",
       "23.27.7.0/24",
       "23.27.21.0/24",
@@ -62,7 +65,7 @@
       "192.177.97.0/24",
       "192.177.98.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:9cc0::/35",
       "2605:3a40:4::/48",
       "2605:fb80:f000::/48",

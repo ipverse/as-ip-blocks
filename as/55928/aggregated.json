@@ -1,13 +1,16 @@
 {
-  "asn": 55928,
-  "handle": "NTTCT-AS-KH-AP",
-  "description": "NTT Communications Phnom Penh",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55928,
+  "metadata" : {
+    "handle" : "NTTCT-AS-KH-AP",
+    "description" : "NTT Communications Phnom Penh",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.255.144.0/22",
       "103.7.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:7500::/32"
     ]
   }

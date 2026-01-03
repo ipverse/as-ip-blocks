@@ -1,14 +1,17 @@
 {
-  "asn": 42580,
-  "handle": "CABOTVA",
-  "description": "NOS ACORES COMUNICACOES S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42580,
+  "metadata" : {
+    "handle" : "CABOTVA",
+    "description" : "NOS ACORES COMUNICACOES S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.29.128.0/18",
       "81.20.240.0/20",
       "128.65.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:c1c0::/29"
     ]
   }

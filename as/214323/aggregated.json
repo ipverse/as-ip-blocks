@@ -1,12 +1,15 @@
 {
-  "asn": 214323,
-  "handle": "MSH-UK",
-  "description": "Marcus Hughes",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214323,
+  "metadata" : {
+    "handle" : "MSH-UK",
+    "description" : "Marcus Hughes",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.58.64.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:6044:7900::/47"
     ]
   }

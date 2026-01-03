@@ -1,11 +1,14 @@
 {
-  "asn": 138953,
-  "handle": "TOPNETWORK-AS-AP",
-  "description": "Top Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138953,
+  "metadata" : {
+    "handle" : "TOPNETWORK-AS-AP",
+    "description" : "Top Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.137.160.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

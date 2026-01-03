@@ -1,9 +1,12 @@
 {
-  "asn": 134926,
-  "handle": "MICROHOST-AS",
-  "description": "Micro Hosting Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134926,
+  "metadata" : {
+    "handle" : "MICROHOST-AS",
+    "description" : "Micro Hosting Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.47.59.0/24",
       "103.127.28.0/22",
       "103.127.156.0/23",
@@ -17,6 +20,6 @@
       "150.241.244.0/22",
       "157.20.214.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

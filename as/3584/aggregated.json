@@ -1,9 +1,12 @@
 {
-  "asn": 3584,
-  "handle": "PUBNIX2-ASN",
-  "description": "PubNIX Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3584,
+  "metadata" : {
+    "handle" : "PUBNIX2-ASN",
+    "description" : "PubNIX Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.172.250.0/24",
       "198.168.252.0/23",
       "199.84.157.0/24",
@@ -17,7 +20,7 @@
       "205.237.228.0/23",
       "205.237.238.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:2a00:2::/48"
     ]
   }

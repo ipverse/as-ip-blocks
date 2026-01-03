@@ -1,12 +1,15 @@
 {
-  "asn": 204226,
-  "handle": "I-TECO",
-  "description": "I-Teco JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204226,
+  "metadata" : {
+    "handle" : "I-TECO",
+    "description" : "I-Teco JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.89.8.0/22",
       "194.105.148.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

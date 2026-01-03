@@ -1,14 +1,17 @@
 {
-  "asn": 150716,
-  "handle": "ANCTSC-AS-AP",
-  "description": "AP Network Communication \u0026 Technology Sole CO. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150716,
+  "metadata" : {
+    "handle" : "ANCTSC-AS-AP",
+    "description" : "AP Network Communication & Technology Sole CO. LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.66.238.0/23",
       "103.67.247.0/24",
       "103.227.208.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:d3a0::/32"
     ]
   }

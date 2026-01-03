@@ -1,12 +1,15 @@
 {
-  "asn": 198800,
-  "handle": "PKLOSS",
-  "description": "Packet Loss s.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198800,
+  "metadata" : {
+    "handle" : "PKLOSS",
+    "description" : "Packet Loss s.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.34.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:f380::/29"
     ]
   }

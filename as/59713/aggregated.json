@@ -1,9 +1,12 @@
 {
-  "asn": 59713,
-  "handle": "ERTH-KURSK-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59713,
+  "metadata" : {
+    "handle" : "ERTH-KURSK-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.3.21.0/24",
       "78.139.208.0/21",
       "109.194.48.0/20",
@@ -14,7 +17,7 @@
       "188.187.220.0/24",
       "188.234.168.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:3800::/38"
     ]
   }

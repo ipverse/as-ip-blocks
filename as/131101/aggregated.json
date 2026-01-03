@@ -1,11 +1,14 @@
 {
-  "asn": 131101,
-  "handle": "BNKSYS-AS",
-  "description": "BNK SYSTEM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131101,
+  "metadata" : {
+    "handle" : "BNKSYS-AS",
+    "description" : "BNK SYSTEM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "221.164.9.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

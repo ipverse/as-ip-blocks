@@ -1,10 +1,13 @@
 {
-  "asn": 23911,
-  "handle": "CNGI-BJIX-AS-AP",
-  "description": "China Next Generation Internet Beijing IX",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 23911,
+  "metadata" : {
+    "handle" : "CNGI-BJIX-AS-AP",
+    "description" : "China Next Generation Internet Beijing IX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:252::/32",
       "2001:7fa:5::/48"
     ]

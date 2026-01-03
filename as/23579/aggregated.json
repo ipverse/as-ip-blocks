@@ -1,9 +1,12 @@
 {
-  "asn": 23579,
-  "handle": "SENNEIS-AS",
-  "description": "Seoul Metropolitan Office Of Education",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23579,
+  "metadata" : {
+    "handle" : "SENNEIS-AS",
+    "description" : "Seoul Metropolitan Office Of Education",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.231.193.0/24",
       "61.108.10.0/24",
       "103.157.158.0/23",
@@ -23,6 +26,6 @@
       "218.48.173.0/24",
       "220.65.122.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

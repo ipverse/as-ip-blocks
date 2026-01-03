@@ -1,15 +1,18 @@
 {
-  "asn": 262504,
-  "handle": "NOVA-REDE-TELECOMUNICACOES",
-  "description": "Nova Rede de Telecomunicações Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262504,
+  "metadata" : {
+    "handle" : "NOVA-REDE-TELECOMUNICACOES",
+    "description" : "Nova Rede de Telecomunicações Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.245.196.0/22",
       "177.66.208.0/20",
       "177.190.176.0/21",
       "179.189.40.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:540::/32"
     ]
   }

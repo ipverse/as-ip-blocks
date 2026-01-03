@@ -1,13 +1,16 @@
 {
-  "asn": 268816,
-  "handle": "TURBONET-LUZ",
-  "description": "TurboNet Luz",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268816,
+  "metadata" : {
+    "handle" : "TURBONET-LUZ",
+    "description" : "TurboNet Luz",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.173.157.0/24",
       "45.173.159.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5b10::/32"
     ]
   }

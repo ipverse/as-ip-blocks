@@ -1,9 +1,12 @@
 {
-  "asn": 11516,
-  "handle": "ASN-ESB",
-  "description": "Eastern Suffolk BOCES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11516,
+  "metadata" : {
+    "handle" : "ASN-ESB",
+    "description" : "Eastern Suffolk BOCES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.161.2.0/24",
       "170.161.9.0/24",
       "170.161.18.0/23",
@@ -46,6 +49,6 @@
       "170.161.201.0/24",
       "170.161.253.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

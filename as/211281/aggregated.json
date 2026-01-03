@@ -1,10 +1,13 @@
 {
-  "asn": 211281,
-  "handle": "NEOHOST-AS",
-  "description": "NEOHOST SRL",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 211281,
+  "metadata" : {
+    "handle" : "NEOHOST-AS",
+    "description" : "NEOHOST SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0b:4e07:28::/47",
       "2a10:fa82:c000::/36",
       "2a10:fa82:f000::/40"

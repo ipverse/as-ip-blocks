@@ -1,9 +1,12 @@
 {
-  "asn": 58212,
-  "handle": "DATAFOREST",
-  "description": "dataforest GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58212,
+  "metadata" : {
+    "handle" : "DATAFOREST",
+    "description" : "dataforest GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.132.0/22",
       "5.182.201.0/24",
       "5.231.70.0/24",
@@ -70,7 +73,7 @@
       "194.48.217.0/24",
       "194.107.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:9d00:20::/48",
       "2a03:403:4000::/34",
       "2a03:403:8000::/34",

@@ -1,9 +1,12 @@
 {
-  "asn": 6134,
-  "handle": "XNNET",
-  "description": "XNNET LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6134,
+  "metadata" : {
+    "handle" : "XNNET",
+    "description" : "XNNET LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.55.112.0/21",
       "38.55.120.0/23",
       "38.55.122.0/24",
@@ -42,7 +45,7 @@
       "193.227.109.0/24",
       "193.227.114.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:8300::/48",
       "2401:e9e0::/36",
       "2a06:5040:21::/48",

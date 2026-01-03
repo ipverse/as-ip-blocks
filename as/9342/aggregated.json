@@ -1,14 +1,17 @@
 {
-  "asn": 9342,
-  "handle": "ABC-AS-AP",
-  "description": "Australian Broadcasting Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9342,
+  "metadata" : {
+    "handle" : "ABC-AS-AP",
+    "description" : "Australian Broadcasting Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.218.0.0/16",
       "169.201.0.0/16",
       "202.6.74.0/24",
       "203.2.218.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

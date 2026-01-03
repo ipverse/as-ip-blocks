@@ -1,9 +1,12 @@
 {
-  "asn": 20021,
-  "handle": "LNH-INC",
-  "description": "Ntirety Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20021,
+  "metadata" : {
+    "handle" : "LNH-INC",
+    "description" : "Ntirety Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.36.128.0/17",
       "65.182.192.0/19",
       "66.36.191.0/24",
@@ -25,7 +28,7 @@
       "216.74.56.0/21",
       "216.248.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:1300::/32",
       "2600:1308::/32"
     ]

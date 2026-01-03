@@ -1,13 +1,16 @@
 {
-  "asn": 29298,
-  "handle": "SUSE",
-  "description": "SUSE Software Solutions Germany GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29298,
+  "metadata" : {
+    "handle" : "SUSE",
+    "description" : "SUSE Software Solutions Germany GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.135.220.0/24",
       "195.135.222.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:de40:1000::/38",
       "2a07:de40:6140::/42",
       "2a07:de40:b240::/42"

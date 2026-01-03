@@ -1,9 +1,12 @@
 {
-  "asn": 15516,
-  "handle": "DK-DANSKKABELTV",
-  "description": "DKTV A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15516,
+  "metadata" : {
+    "handle" : "DK-DANSKKABELTV",
+    "description" : "DKTV A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.61.128.0/19",
       "77.75.160.0/21",
       "79.98.192.0/21",
@@ -15,7 +18,7 @@
       "91.100.0.0/15",
       "195.135.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:14d0::/29",
       "2a01:558::/32",
       "2a07:8900::/29"

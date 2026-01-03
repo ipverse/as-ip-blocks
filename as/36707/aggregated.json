@@ -1,12 +1,15 @@
 {
-  "asn": 36707,
-  "handle": "SYSTEMADMIN",
-  "description": "System Admin LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36707,
+  "metadata" : {
+    "handle" : "SYSTEMADMIN",
+    "description" : "System Admin LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.49.15.0/24",
       "208.95.60.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

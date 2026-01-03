@@ -1,13 +1,16 @@
 {
-  "asn": 210211,
-  "handle": "SUMUP-AS",
-  "description": "Sumup Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210211,
+  "metadata" : {
+    "handle" : "SUMUP-AS",
+    "description" : "Sumup Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.13.226.0/24",
       "87.121.40.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:292c::/48",
       "2001:67c:2948::/48",
       "2001:67c:294c::/48"

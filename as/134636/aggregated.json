@@ -1,13 +1,16 @@
 {
-  "asn": 134636,
-  "handle": "IDNIC-DBS-AS-ID",
-  "description": "PT Bank DBS Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134636,
+  "metadata" : {
+    "handle" : "IDNIC-DBS-AS-ID",
+    "description" : "PT Bank DBS Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.9.107.0/24",
       "103.203.91.0/24",
       "103.203.160.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

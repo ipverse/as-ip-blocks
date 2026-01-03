@@ -1,13 +1,16 @@
 {
-  "asn": 208964,
-  "handle": "AKDB",
-  "description": "Anstalt fuer Kommunale Datenverarbeitung in Bayern (AKDB)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208964,
+  "metadata" : {
+    "handle" : "AKDB",
+    "description" : "Anstalt fuer Kommunale Datenverarbeitung in Bayern (AKDB)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.28.243.0/24",
       "193.28.249.0/24",
       "194.124.62.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

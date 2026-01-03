@@ -1,9 +1,12 @@
 {
-  "asn": 42730,
-  "handle": "EVANZOAS",
-  "description": "EVANZO e-commerce GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42730,
+  "metadata" : {
+    "handle" : "EVANZOAS",
+    "description" : "EVANZO e-commerce GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.238.192.0/21",
       "178.254.0.0/19",
       "178.254.32.0/20",
@@ -14,7 +17,7 @@
       "185.195.100.0/22",
       "195.90.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:6800::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 9647,
-  "handle": "SEOULMETRO-AS",
-  "description": "Seoul Metropolitan Government",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9647,
+  "metadata" : {
+    "handle" : "SEOULMETRO-AS",
+    "description" : "Seoul Metropolitan Government",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.225.91.0/24",
       "1.225.92.0/22",
       "1.225.160.0/24",
@@ -48,6 +51,6 @@
       "220.65.252.0/23",
       "220.76.177.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

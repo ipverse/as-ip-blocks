@@ -1,16 +1,19 @@
 {
-  "asn": 9587,
-  "handle": "DTACNETWORK-TH-AP",
-  "description": "DTAC TriNet Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9587,
+  "metadata" : {
+    "handle" : "DTACNETWORK-TH-AP",
+    "description" : "DTAC TriNet Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.26.20.0/22",
       "111.84.0.0/16",
       "115.67.0.0/16",
       "119.46.15.0/24",
       "124.40.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:8d00:f600::/48",
       "2404:8d02::/32",
       "2407:ed00::/32"

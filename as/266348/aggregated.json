@@ -1,12 +1,15 @@
 {
-  "asn": 266348,
-  "handle": "REDE-UNICON",
-  "description": "REDE UNICON",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266348,
+  "metadata" : {
+    "handle" : "REDE-UNICON",
+    "description" : "REDE UNICON",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.239.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3670::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 17764,
-  "handle": "HKMU-AS-AP",
-  "description": "Hong Kong Metropolitan University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17764,
+  "metadata" : {
+    "handle" : "HKMU-AS-AP",
+    "description" : "Hong Kong Metropolitan University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "175.159.216.0/21",
       "192.207.91.0/24",
       "202.40.157.0/24",
@@ -12,6 +15,6 @@
       "202.40.222.0/23",
       "202.125.232.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

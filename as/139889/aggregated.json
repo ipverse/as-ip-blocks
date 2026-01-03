@@ -1,12 +1,15 @@
 {
-  "asn": 139889,
-  "handle": "FISHERIES-AS-AP",
-  "description": "Department of Fisheries",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139889,
+  "metadata" : {
+    "handle" : "FISHERIES-AS-AP",
+    "description" : "Department of Fisheries",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.146.161.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:9980::/48"
     ]
   }

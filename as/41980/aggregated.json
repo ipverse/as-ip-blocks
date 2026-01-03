@@ -1,14 +1,17 @@
 {
-  "asn": 41980,
-  "handle": "WEBBKONSULTERNA-AS",
-  "description": "Webbkonsulterna i Jamtland AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41980,
+  "metadata" : {
+    "handle" : "WEBBKONSULTERNA-AS",
+    "description" : "Webbkonsulterna i Jamtland AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.0.253.0/24",
       "194.61.158.0/24",
       "195.160.176.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2b58::/48"
     ]
   }

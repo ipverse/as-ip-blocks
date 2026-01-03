@@ -1,9 +1,12 @@
 {
-  "asn": 401476,
-  "handle": "SCNL-1-0001",
-  "description": "Spruce Creek Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401476,
+  "metadata" : {
+    "handle" : "SCNL-1-0001",
+    "description" : "Spruce Creek Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.58.215.0/24",
       "45.13.179.0/24",
       "66.92.61.0/24",
@@ -19,7 +22,7 @@
       "194.231.215.0/24",
       "212.100.164.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f5c0::/40"
     ]
   }

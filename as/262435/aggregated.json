@@ -1,15 +1,18 @@
 {
-  "asn": 262435,
-  "handle": "BASE-SOLUCOES-INT",
-  "description": "Base Solucoes de Int. em Tecnologia e Informatica",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262435,
+  "metadata" : {
+    "handle" : "BASE-SOLUCOES-INT",
+    "description" : "Base Solucoes de Int. em Tecnologia e Informatica",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.52.16.0/23",
       "177.52.18.0/24",
       "177.52.21.0/24",
       "177.52.22.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2a68::/32"
     ]
   }

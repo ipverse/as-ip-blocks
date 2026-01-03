@@ -1,11 +1,14 @@
 {
-  "asn": 32017,
-  "handle": "SATCOM-MOZ",
-  "description": "SATCOM - Comunicacoes Satelite Limitada",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32017,
+  "metadata" : {
+    "handle" : "SATCOM-MOZ",
+    "description" : "SATCOM - Comunicacoes Satelite Limitada",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.223.124.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

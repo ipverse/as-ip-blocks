@@ -1,12 +1,15 @@
 {
-  "asn": 26216,
-  "handle": "INVISALINKWIRELESSMI",
-  "description": "Invisalink Wireless",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26216,
+  "metadata" : {
+    "handle" : "INVISALINKWIRELESSMI",
+    "description" : "Invisalink Wireless",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "172.96.24.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:2b40::/32"
     ]
   }

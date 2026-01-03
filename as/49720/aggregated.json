@@ -1,9 +1,12 @@
 {
-  "asn": 49720,
-  "handle": "GIGACLOUD-AS",
-  "description": "Gigacloud LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49720,
+  "metadata" : {
+    "handle" : "GIGACLOUD-AS",
+    "description" : "Gigacloud LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.236.224.0/22",
       "94.131.240.0/22",
       "94.131.246.0/23",
@@ -14,7 +17,7 @@
       "193.107.138.0/24",
       "195.182.194.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:700::/31",
       "2a0a:702::/32",
       "2a0a:704::/32",

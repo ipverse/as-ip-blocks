@@ -1,13 +1,16 @@
 {
-  "asn": 5788,
-  "handle": "VCHA-PRIMARY",
-  "description": "Vancouver Coastal Health",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5788,
+  "metadata" : {
+    "handle" : "VCHA-PRIMARY",
+    "description" : "Vancouver Coastal Health",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.173.72.0/21",
       "139.173.80.0/21",
       "139.173.244.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

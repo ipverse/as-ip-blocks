@@ -1,9 +1,12 @@
 {
-  "asn": 149981,
-  "handle": "ELD-AS-AP",
-  "description": "Edgenext Legend Dynasty Pte. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149981,
+  "metadata" : {
+    "handle" : "ELD-AS-AP",
+    "description" : "Edgenext Legend Dynasty Pte. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.27.189.0/24",
       "82.27.190.0/23",
       "123.108.74.0/24",
@@ -11,6 +14,6 @@
       "155.117.107.0/24",
       "155.117.114.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

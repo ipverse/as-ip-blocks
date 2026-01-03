@@ -1,12 +1,15 @@
 {
-  "asn": 200008,
-  "handle": "PIRUM-AS",
-  "description": "Pirum Systems Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200008,
+  "metadata" : {
+    "handle" : "PIRUM-AS",
+    "description" : "Pirum Systems Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.38.132.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:7300::/29"
     ]
   }

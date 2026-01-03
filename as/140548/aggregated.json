@@ -1,12 +1,15 @@
 {
-  "asn": 140548,
-  "handle": "RBNZ-AS-AP",
-  "description": "Reserve Bank of New Zealand",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140548,
+  "metadata" : {
+    "handle" : "RBNZ-AS-AP",
+    "description" : "Reserve Bank of New Zealand",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.36.169.0/24",
       "202.50.169.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 21283,
-  "handle": "A1SI-AS",
-  "description": "A1 Slovenija telekomunikacijske storitve d.d",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21283,
+  "metadata" : {
+    "handle" : "A1SI-AS",
+    "description" : "A1 Slovenija telekomunikacijske storitve d.d.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.122.0.0/15",
       "46.164.0.0/18",
       "62.84.224.0/20",
@@ -21,7 +24,7 @@
       "212.18.32.0/19",
       "213.157.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:15c0::/29",
       "2a00:1a20::/29"
     ]

@@ -1,10 +1,13 @@
 {
-  "asn": 273713,
-  "handle": "WEB-LAN-PROVEDOR",
-  "description": "Web Lan Provedor de Internet LTDA",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 273713,
+  "metadata" : {
+    "handle" : "WEB-LAN-PROVEDOR-INTERNET",
+    "description" : "Web Lan Provedor de Internet LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2804:8b20::/32"
     ]
   }

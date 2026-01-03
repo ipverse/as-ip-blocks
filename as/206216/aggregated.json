@@ -1,9 +1,12 @@
 {
-  "asn": 206216,
-  "handle": "ADVIN-AS",
-  "description": "Advin Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206216,
+  "metadata" : {
+    "handle" : "ADVIN-AS",
+    "description" : "Advin Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.137.104.0/24",
       "45.8.22.0/24",
       "45.61.161.0/24",
@@ -16,7 +19,7 @@
       "208.84.103.0/24",
       "212.193.3.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fa08:1::/48",
       "2602:fb54:1::/48",
       "2602:fb54:2::/48",

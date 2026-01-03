@@ -1,9 +1,12 @@
 {
-  "asn": 12741,
-  "handle": "AS-NETIA",
-  "description": "Netia SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12741,
+  "metadata" : {
+    "handle" : "AS-NETIA",
+    "description" : "Netia SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.226.64.0/18",
       "5.226.128.0/22",
       "5.226.135.0/24",
@@ -125,7 +128,7 @@
       "217.28.144.0/20",
       "217.30.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:16b0::/32",
       "2001:41b0::/32"
     ]

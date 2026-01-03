@@ -1,15 +1,18 @@
 {
-  "asn": 64089,
-  "handle": "DNSFILTER-AS-AP",
-  "description": "DNSFilter Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64089,
+  "metadata" : {
+    "handle" : "DNSFILTER-AS-AP",
+    "description" : "DNSFilter Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.54.28.0/24",
       "45.253.131.0/24",
       "103.85.42.0/23",
       "103.247.36.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:5c40:5c40::/46",
       "2607:f740:e005::/48"
     ]

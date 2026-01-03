@@ -1,11 +1,14 @@
 {
-  "asn": 25107,
-  "handle": "MTBANK-AS",
-  "description": "AS Industra Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25107,
+  "metadata" : {
+    "handle" : "MTBANK-AS",
+    "description" : "AS Industra Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.233.138.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

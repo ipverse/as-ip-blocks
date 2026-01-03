@@ -1,9 +1,12 @@
 {
-  "asn": 19653,
-  "handle": "CTSTELECOM",
-  "description": "CTS Communications Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19653,
+  "metadata" : {
+    "handle" : "CTSTELECOM",
+    "description" : "CTS Communications Corp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.20.192.0/20",
       "64.136.224.0/19",
       "64.147.192.0/20",
@@ -14,7 +17,7 @@
       "192.146.243.0/24",
       "205.204.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:8200::/32"
     ]
   }

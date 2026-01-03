@@ -1,14 +1,17 @@
 {
-  "asn": 49528,
-  "handle": "ALFANET-PL-AS",
-  "description": "MARCIN MALOLEPSZY @ALFANET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49528,
+  "metadata" : {
+    "handle" : "ALFANET-PL-AS",
+    "description" : "MARCIN MALOLEPSZY @ALFANET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.42.0.0/20",
       "185.19.116.0/22",
       "185.55.67.0/24",
       "195.88.28.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

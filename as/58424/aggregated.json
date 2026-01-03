@@ -1,9 +1,12 @@
 {
-  "asn": 58424,
-  "handle": "XINWEITELECOM-KH",
-  "description": "Xinwei (Cambodia) Telecom Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58424,
+  "metadata" : {
+    "handle" : "XINWEITELECOM-KH",
+    "description" : "Xinwei (Cambodia) Telecom Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.255.112.0/23",
       "103.5.124.0/22",
       "103.206.200.0/22",
@@ -13,6 +16,6 @@
       "146.88.206.0/23",
       "167.179.0.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

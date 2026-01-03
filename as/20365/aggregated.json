@@ -1,9 +1,12 @@
 {
-  "asn": 20365,
-  "handle": "FREEDOM-MOBILE-2",
-  "description": "Videotron Ltee",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20365,
+  "metadata" : {
+    "handle" : "FREEDOM-MOBILE-2",
+    "description" : "Videotron Ltee",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.192.128.0/20",
       "38.192.144.0/21",
       "74.115.196.0/22",
@@ -11,7 +14,7 @@
       "199.119.232.0/22",
       "208.98.222.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:3c00:f000::/36"
     ]
   }

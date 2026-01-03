@@ -1,9 +1,12 @@
 {
-  "asn": 17099,
-  "handle": "CALLIS-COMMUNICATIONS-AS",
-  "description": "Callis Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17099,
+  "metadata" : {
+    "handle" : "CALLIS-COMMUNICATIONS-AS",
+    "description" : "Callis Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.193.112.0/22",
       "74.113.88.0/21",
       "162.210.116.0/22",
@@ -13,6 +16,6 @@
       "208.66.60.0/22",
       "208.83.92.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

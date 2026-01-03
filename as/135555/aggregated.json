@@ -1,13 +1,16 @@
 {
-  "asn": 135555,
-  "handle": "CITYCOMMS-AS-AP",
-  "description": "City Communications PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135555,
+  "metadata" : {
+    "handle" : "CITYCOMMS-AS-AP",
+    "description" : "City Communications PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.97.155.0/24",
       "103.97.170.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:7e00::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 61782,
-  "handle": "WNNET-TELECOM",
-  "description": "WNNet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61782,
+  "metadata" : {
+    "handle" : "WNNET-TELECOM",
+    "description" : "WNNet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.77.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1940::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 15851,
-  "handle": "WASK-COM",
-  "description": "Wroclaw Centre of Networking and Supercomputing",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15851,
+  "metadata" : {
+    "handle" : "WASK-COM",
+    "description" : "Wroclaw Centre of Networking and Supercomputing",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.127.64.0/19",
       "213.231.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:a48:8000::/36"
     ]
   }

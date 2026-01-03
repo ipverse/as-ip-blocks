@@ -1,9 +1,12 @@
 {
-  "asn": 60404,
-  "handle": "LITESERVER",
-  "description": "The Infrastructure Group B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60404,
+  "metadata" : {
+    "handle" : "LITESERVER",
+    "description" : "The Infrastructure Group B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.2.64.0/20",
       "5.255.96.0/19",
       "31.59.101.0/24",
@@ -26,7 +29,7 @@
       "192.76.160.0/24",
       "192.76.163.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6340::/29",
       "2a04:52c0::/32",
       "2a06:e881:6200::/48",

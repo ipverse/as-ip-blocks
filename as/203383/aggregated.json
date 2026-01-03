@@ -1,12 +1,15 @@
 {
-  "asn": 203383,
-  "handle": "STENA-REDERI-ASN",
-  "description": "Stena Rederi AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203383,
+  "metadata" : {
+    "handle" : "STENA-REDERI-ASN",
+    "description" : "Stena Rederi AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.103.124.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1268::/48"
     ]
   }

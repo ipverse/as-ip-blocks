@@ -1,13 +1,16 @@
 {
-  "asn": 210412,
-  "handle": "HAMPSTEADFIBRE",
-  "description": "Hampstead Fibre Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210412,
+  "metadata" : {
+    "handle" : "HAMPSTEADFIBRE",
+    "description" : "Hampstead Fibre Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.150.57.0/24",
       "89.106.203.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:b380::/29"
     ]
   }

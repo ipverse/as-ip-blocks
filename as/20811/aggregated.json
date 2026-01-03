@@ -1,9 +1,12 @@
 {
-  "asn": 20811,
-  "handle": "BRENNERCOM-AS",
-  "description": "Retelit Digital Services S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20811,
+  "metadata" : {
+    "handle" : "BRENNERCOM-AS",
+    "description" : "Retelit Digital Services S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.186.128.0/18",
       "46.234.224.0/19",
       "77.74.112.0/21",
@@ -17,7 +20,7 @@
       "185.111.144.0/22",
       "217.199.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:490::/29",
       "2a02:54c0::/29"
     ]

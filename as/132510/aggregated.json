@@ -1,9 +1,12 @@
 {
-  "asn": 132510,
-  "handle": "SHANXIMCC-IDC",
-  "description": "China Mobile Communications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132510,
+  "metadata" : {
+    "handle" : "SHANXIMCC-IDC",
+    "description" : "China Mobile Communications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "183.201.46.0/23",
       "183.201.64.0/18",
       "183.201.192.0/18",
@@ -14,7 +17,7 @@
       "221.180.20.0/23",
       "221.180.22.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2409:800c:3001::/48",
       "2409:800c:3002::/48",
       "2409:8c0c:200::/39"

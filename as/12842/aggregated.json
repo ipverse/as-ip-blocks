@@ -1,9 +1,12 @@
 {
-  "asn": 12842,
-  "handle": "INTERNET-OLTENIA",
-  "description": "Internet Oltenia SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12842,
+  "metadata" : {
+    "handle" : "INTERNET-OLTENIA",
+    "description" : "Internet Oltenia SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.44.160.0/22",
       "89.44.164.0/23",
       "185.110.24.0/22",
@@ -13,6 +16,6 @@
       "194.102.124.0/23",
       "194.153.240.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

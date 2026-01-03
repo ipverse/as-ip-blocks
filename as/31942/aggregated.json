@@ -1,9 +1,12 @@
 {
-  "asn": 31942,
-  "handle": "HYPERFIBER-01",
-  "description": "HyperFiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31942,
+  "metadata" : {
+    "handle" : "HYPERFIBER-01",
+    "description" : "HyperFiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.19.189.0/24",
       "38.143.236.0/22",
       "65.49.106.0/23",
@@ -14,7 +17,7 @@
       "143.223.152.0/22",
       "160.72.9.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:61c0::/46",
       "2607:61c0:4::/47",
       "2607:61c0:6::/48",

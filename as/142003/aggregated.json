@@ -1,11 +1,14 @@
 {
-  "asn": 142003,
-  "handle": "NETWAY1-AS-AP",
-  "description": "Netway",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142003,
+  "metadata" : {
+    "handle" : "NETWAY1-AS-AP",
+    "description" : "Netway",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.164.92.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

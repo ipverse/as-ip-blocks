@@ -1,12 +1,15 @@
 {
-  "asn": 51382,
-  "handle": "COMANET-NETWORK",
-  "description": "Ing. Leos Janouch",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51382,
+  "metadata" : {
+    "handle" : "COMANET-NETWORK",
+    "description" : "Ing. Leos Janouch",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.218.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:fbc::/48"
     ]
   }

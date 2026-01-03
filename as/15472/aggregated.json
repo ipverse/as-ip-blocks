@@ -1,9 +1,12 @@
 {
-  "asn": 15472,
-  "handle": "ASN-NEWSOFT",
-  "description": "TERRALINK S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15472,
+  "metadata" : {
+    "handle" : "ASN-NEWSOFT",
+    "description" : "TERRALINK S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.100.64.0/21",
       "62.100.72.0/23",
       "62.100.85.0/24",
@@ -12,6 +15,6 @@
       "62.100.92.0/22",
       "185.193.188.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 38765,
-  "handle": "ESDM-AS-ID",
-  "description": "Departemen Energi dan Sumber Daya Mineral",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38765,
+  "metadata" : {
+    "handle" : "ESDM-AS-ID",
+    "description" : "Departemen Energi dan Sumber Daya Mineral",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.87.160.0/23",
       "116.90.168.0/23",
       "203.189.88.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

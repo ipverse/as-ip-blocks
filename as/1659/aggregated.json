@@ -1,9 +1,12 @@
 {
-  "asn": 1659,
-  "handle": "ERX-TANET-ASN1",
-  "description": "Taiwan Academic Network (TANet) Information Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1659,
+  "metadata" : {
+    "handle" : "ERX-TANET-ASN1",
+    "description" : "Taiwan Academic Network (TANet) Information Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "120.96.0.0/11",
       "134.208.0.0/16",
       "140.92.0.0/16",
@@ -40,7 +43,7 @@
       "210.240.0.0/16",
       "210.243.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:288::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 270342,
-  "handle": "ENSATA-TELECOM",
-  "description": "ENSATA TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270342,
+  "metadata" : {
+    "handle" : "ENSATA-TELECOM",
+    "description" : "ENSATA TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.83.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6a88::/32"
     ]
   }

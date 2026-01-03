@@ -1,15 +1,18 @@
 {
-  "asn": 201206,
-  "handle": "LINEVAST",
-  "description": "Droptop GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201206,
+  "metadata" : {
+    "handle" : "LINEVAST",
+    "description" : "Droptop GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.171.236.0/22",
       "185.82.20.0/22",
       "185.185.24.0/22",
       "193.57.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:8b80::/29"
     ]
   }

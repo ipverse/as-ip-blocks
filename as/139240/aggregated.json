@@ -1,12 +1,15 @@
 {
-  "asn": 139240,
-  "handle": "STARCHWORKS-AS-AP",
-  "description": "Starch Works",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139240,
+  "metadata" : {
+    "handle" : "STARCHWORKS-AS-AP",
+    "description" : "Starch Works",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.139.90.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:bb41::/32"
     ]
   }

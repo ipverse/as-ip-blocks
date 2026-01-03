@@ -1,15 +1,18 @@
 {
-  "asn": 41028,
-  "handle": "COBRATELECOM-AS",
-  "description": "CobraTELECOM SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41028,
+  "metadata" : {
+    "handle" : "COBRATELECOM-AS",
+    "description" : "CobraTELECOM SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.181.85.0/24",
       "85.120.94.0/23",
       "85.121.206.0/24",
       "89.44.225.0/24",
       "89.44.226.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

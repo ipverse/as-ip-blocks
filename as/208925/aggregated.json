@@ -1,13 +1,16 @@
 {
-  "asn": 208925,
-  "handle": "NOLIMITNET",
-  "description": "NO LIMIT NETWORK SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208925,
+  "metadata" : {
+    "handle" : "NOLIMITNET",
+    "description" : "NO LIMIT NETWORK SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.77.149.0/24",
       "91.237.87.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:d340::/29"
     ]
   }

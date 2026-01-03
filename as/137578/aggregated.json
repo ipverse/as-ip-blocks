@@ -1,11 +1,14 @@
 {
-  "asn": 137578,
-  "handle": "SPACE-AS-AP",
-  "description": "Space Walker",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137578,
+  "metadata" : {
+    "handle" : "SPACE-AS-AP",
+    "description" : "Space Walker",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.114.10.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

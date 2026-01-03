@@ -1,12 +1,15 @@
 {
-  "asn": 135155,
-  "handle": "TALTOLANET-AS-AP",
-  "description": "Taltola.net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135155,
+  "metadata" : {
+    "handle" : "TALTOLANET-AS-AP",
+    "description" : "Taltola.net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.196.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:5f80::/32"
     ]
   }

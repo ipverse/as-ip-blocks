@@ -1,14 +1,17 @@
 {
-  "asn": 56457,
-  "handle": "FASTPATH",
-  "description": "FASTPATH IKE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56457,
+  "metadata" : {
+    "handle" : "FASTPATH",
+    "description" : "FASTPATH IKE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "176.119.210.0/24",
       "185.201.254.0/24",
       "194.48.152.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:5780::/29",
       "2a13:5a00::/30",
       "2a13:5a04::/31"

@@ -1,9 +1,12 @@
 {
-  "asn": 399439,
-  "handle": "ATV-PUBLIC",
-  "description": "Mitchell Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399439,
+  "metadata" : {
+    "handle" : "ATV-PUBLIC",
+    "description" : "Mitchell Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.33.234.0/23",
       "64.33.240.0/24",
       "64.33.246.0/24",
@@ -19,6 +22,6 @@
       "208.53.254.0/23",
       "216.249.228.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

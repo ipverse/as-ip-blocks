@@ -1,9 +1,12 @@
 {
-  "asn": 23571,
-  "handle": "GWED-AS",
-  "description": "Gangwon State Office of Education",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23571,
+  "metadata" : {
+    "handle" : "GWED-AS",
+    "description" : "Gangwon State Office of Education",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "180.81.16.0/21",
       "180.81.24.0/22",
       "180.81.28.0/23",
@@ -16,6 +19,6 @@
       "180.81.124.0/23",
       "180.81.126.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

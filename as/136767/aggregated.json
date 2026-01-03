@@ -1,13 +1,16 @@
 {
-  "asn": 136767,
-  "handle": "BMW-AG-AS-AP",
-  "description": "BMW AG (Bayerische Motoren Werke Aktiengesellschaft)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136767,
+  "metadata" : {
+    "handle" : "BMW-AG-AS-AP",
+    "description" : "BMW AG (Bayerische Motoren Werke Aktiengesellschaft)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.48.168.0/22",
       "160.48.173.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:8300:a500::/47",
       "2403:8300:e002::/47",
       "2403:8300:e004::/48"

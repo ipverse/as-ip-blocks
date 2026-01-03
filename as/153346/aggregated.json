@@ -1,14 +1,17 @@
 {
-  "asn": 153346,
-  "handle": "HAWKNET-AS-AP",
-  "description": "HawkNet Labs Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153346,
+  "metadata" : {
+    "handle" : "HAWKNET-AS-AP",
+    "description" : "HawkNet Labs Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.48.20.0/23",
       "103.65.141.0/24",
       "160.187.124.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:5140::/44"
     ]
   }

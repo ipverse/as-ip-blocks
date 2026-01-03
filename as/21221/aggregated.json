@@ -1,9 +1,12 @@
 {
-  "asn": 21221,
-  "handle": "INFOPACT-AS",
-  "description": "Infopact Netwerkdiensten B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21221,
+  "metadata" : {
+    "handle" : "INFOPACT-AS",
+    "description" : "Infopact Netwerkdiensten B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.226.0/23",
       "45.14.3.0/24",
       "45.135.210.0/24",
@@ -18,7 +21,7 @@
       "212.29.160.0/19",
       "217.18.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:7f8::/48",
       "2001:15b0::/32",
       "2a00:19c0::/32",

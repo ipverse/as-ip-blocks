@@ -1,9 +1,12 @@
 {
-  "asn": 396998,
-  "handle": "PATH-NETWORK",
-  "description": "Path Network Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396998,
+  "metadata" : {
+    "handle" : "PATH-NETWORK",
+    "description" : "Path Network Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.183.240.0/21",
       "66.92.13.0/24",
       "104.152.140.0/24",
@@ -18,7 +21,7 @@
       "206.71.159.0/24",
       "209.237.140.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:3500::/28",
       "2602:fd00::/48"
     ]

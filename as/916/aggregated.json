@@ -1,12 +1,15 @@
 {
-  "asn": 916,
-  "handle": "STALWART-ASN-01",
-  "description": "Stalwart Wireless",
-  "subnets": {
-    "ipv4": [
+  "asn" : 916,
+  "metadata" : {
+    "handle" : "STALWART-ASN-01",
+    "description" : "Stalwart Wireless",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.137.168.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fb5c::/40"
     ]
   }

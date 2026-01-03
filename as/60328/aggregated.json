@@ -1,12 +1,15 @@
 {
-  "asn": 60328,
-  "handle": "SCOMM",
-  "description": "Service-Communication LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60328,
+  "metadata" : {
+    "handle" : "SCOMM",
+    "description" : "Service-Communication LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.209.144.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:9540::/48"
     ]
   }

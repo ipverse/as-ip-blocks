@@ -1,9 +1,12 @@
 {
-  "asn": 59532,
-  "handle": "COMETEINET-AS",
-  "description": "COMETEINET TELECOM SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59532,
+  "metadata" : {
+    "handle" : "COMETEINET-AS",
+    "description" : "COMETEINET TELECOM SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.181.251.0/24",
       "85.121.207.0/24",
       "85.122.80.0/24",
@@ -12,6 +15,6 @@
       "217.156.121.0/24",
       "217.156.126.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 22018,
-  "handle": "TAUNTON-MUNICIPAL",
-  "description": "Taunton Municipal Lighting Plant",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22018,
+  "metadata" : {
+    "handle" : "TAUNTON-MUNICIPAL",
+    "description" : "Taunton Municipal Lighting Plant",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.64.96.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 32098,
-  "handle": "TRANSTELCO-INC",
-  "description": "Transtelco Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32098,
+  "metadata" : {
+    "handle" : "TRANSTELCO-INC",
+    "description" : "Transtelco Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.77.72.0/24",
       "38.211.55.0/24",
       "64.68.208.0/20",
@@ -45,7 +48,7 @@
       "207.248.116.0/23",
       "216.171.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1238::/32",
       "2604:d600::/32",
       "2607:fe48::/32",

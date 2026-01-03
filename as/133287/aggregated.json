@@ -1,9 +1,12 @@
 {
-  "asn": 133287,
-  "handle": "APSFL-AS",
-  "description": "Andhra Pradesh State FiberNet Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133287,
+  "metadata" : {
+    "handle" : "APSFL-AS",
+    "description" : "Andhra Pradesh State FiberNet Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.123.4.0/22",
       "103.63.16.0/22",
       "103.63.124.0/22",
@@ -12,6 +15,6 @@
       "223.196.160.0/19",
       "223.196.192.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

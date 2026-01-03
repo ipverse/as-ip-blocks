@@ -1,15 +1,18 @@
 {
-  "asn": 18111,
-  "handle": "NETSPEED-AS-AP",
-  "description": "AAPT Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18111,
+  "metadata" : {
+    "handle" : "NETSPEED-AS-AP",
+    "description" : "AAPT Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.20.62.0/24",
       "203.30.98.0/23",
       "203.31.48.0/24",
       "203.33.171.0/24",
       "203.130.160.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

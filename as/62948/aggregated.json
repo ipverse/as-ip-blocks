@@ -1,9 +1,12 @@
 {
-  "asn": 62948,
-  "handle": "ALRB",
-  "description": "Air Link Rural Broadband LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62948,
+  "metadata" : {
+    "handle" : "ALRB",
+    "description" : "Air Link Rural Broadband LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.123.52.0/22",
       "44.46.20.0/24",
       "65.110.32.0/21",
@@ -13,6 +16,6 @@
       "207.174.224.0/23",
       "209.131.232.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

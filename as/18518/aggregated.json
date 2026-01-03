@@ -1,12 +1,15 @@
 {
-  "asn": 18518,
-  "handle": "ARES-MGMT",
-  "description": "Ares Management LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18518,
+  "metadata" : {
+    "handle" : "ARES-MGMT",
+    "description" : "Ares Management LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.45.55.0/24",
       "38.105.152.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

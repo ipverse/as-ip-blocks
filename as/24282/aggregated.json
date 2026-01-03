@@ -1,9 +1,12 @@
 {
-  "asn": 24282,
-  "handle": "KIR",
-  "description": "KAGOYA JAPAN Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24282,
+  "metadata" : {
+    "handle" : "KIR",
+    "description" : "KAGOYA JAPAN Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.3.48.0/22",
       "124.248.144.0/20",
       "133.18.0.0/16",
@@ -12,7 +15,7 @@
       "203.142.208.0/21",
       "210.134.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:8c00::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 6501,
-  "handle": "SOUTHERNET",
-  "description": "The Southern Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6501,
+  "metadata" : {
+    "handle" : "SOUTHERNET",
+    "description" : "The Southern Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.126.0.0/16",
       "148.115.0.0/18",
       "148.115.224.0/19",
       "148.199.160.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

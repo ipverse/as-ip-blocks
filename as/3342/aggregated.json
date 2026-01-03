@@ -1,9 +1,12 @@
 {
-  "asn": 3342,
-  "handle": "CIBICOM-IP-NETWORK",
-  "description": "Cibicom A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3342,
+  "metadata" : {
+    "handle" : "CIBICOM-IP-NETWORK",
+    "description" : "Cibicom A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.15.4.0/22",
       "92.241.192.0/20",
       "92.241.216.0/21",
@@ -19,7 +22,7 @@
       "212.237.250.0/23",
       "217.61.250.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:b00::/29"
     ]
   }

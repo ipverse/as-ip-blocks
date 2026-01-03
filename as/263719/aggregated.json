@@ -1,10 +1,13 @@
 {
-  "asn": 263719,
-  "handle": "POLICIA-NACIONAL-COLOMBIA",
-  "description": "POLICIA NACIONAL DE COLOMBIA",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 263719,
+  "metadata" : {
+    "handle" : "POLICIA-NACIONAL-COLOMBIA",
+    "description" : "POLICIA NACIONAL DE COLOMBIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2800:680:11::/48",
       "2801:1b0::/40"
     ]

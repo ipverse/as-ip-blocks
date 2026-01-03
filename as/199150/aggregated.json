@@ -1,13 +1,16 @@
 {
-  "asn": 199150,
-  "handle": "EXCEDONET",
-  "description": "Excedo Networks AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199150,
+  "metadata" : {
+    "handle" : "EXCEDONET",
+    "description" : "Excedo Networks AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.180.242.0/24",
       "194.71.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:280:108::/48"
     ]
   }

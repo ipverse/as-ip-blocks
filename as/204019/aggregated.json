@@ -1,13 +1,16 @@
 {
-  "asn": 204019,
-  "handle": "FLYNET-AS",
-  "description": "Trojniak Krzysztof FLYNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204019,
+  "metadata" : {
+    "handle" : "FLYNET-AS",
+    "description" : "Trojniak Krzysztof FLYNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.107.66.0/24",
       "194.1.253.0/24",
       "213.199.208.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

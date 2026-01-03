@@ -1,14 +1,17 @@
 {
-  "asn": 199048,
-  "handle": "KRAKRA-AS",
-  "description": "KRAKRA AD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199048,
+  "metadata" : {
+    "handle" : "KRAKRA-AS",
+    "description" : "KRAKRA AD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.222.186.0/23",
       "83.222.188.0/24",
       "85.187.223.0/24",
       "94.72.146.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

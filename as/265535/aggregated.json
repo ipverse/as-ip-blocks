@@ -1,16 +1,19 @@
 {
-  "asn": 265535,
-  "handle": "WIBO",
-  "description": "Wibo SA de CV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265535,
+  "metadata" : {
+    "handle" : "WIBO",
+    "description" : "Wibo SA de CV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.7.137.0/24",
       "45.7.138.0/23",
       "190.113.52.0/23",
       "190.113.55.0/24",
       "201.139.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:2e7::/32"
     ]
   }

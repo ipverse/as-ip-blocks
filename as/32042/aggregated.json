@@ -1,10 +1,13 @@
 {
-  "asn": 32042,
-  "handle": "EVERGATE-NETWORKS",
-  "description": "Evergate Solutions",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 32042,
+  "metadata" : {
+    "handle" : "EVERGATE-NETWORKS",
+    "description" : "Evergate Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2602:f4e3::/48",
       "2602:f4e3:1ce::/48"
     ]

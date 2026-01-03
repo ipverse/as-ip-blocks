@@ -1,9 +1,12 @@
 {
-  "asn": 3561,
-  "handle": "CENTURYLINK-LEGACY-SAVVIS",
-  "description": "CenturyLink Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3561,
+  "metadata" : {
+    "handle" : "CENTURYLINK-LEGACY-SAVVIS",
+    "description" : "CenturyLink Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.230.194.0/24",
       "23.230.243.0/24",
       "45.38.49.0/24",
@@ -307,7 +310,7 @@
       "216.227.192.0/20",
       "216.227.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:460::/32"
     ]
   }

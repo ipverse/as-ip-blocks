@@ -1,12 +1,15 @@
 {
-  "asn": 27733,
-  "handle": "CENTRO-NACIONAL-COMPUTACION",
-  "description": "Centro Nacional de Computacion",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27733,
+  "metadata" : {
+    "handle" : "CENTRO-NACIONAL-COMPUTACION",
+    "description" : "Centro Nacional de Computacion",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.10.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1320::/32"
     ]
   }

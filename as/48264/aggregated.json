@@ -1,14 +1,17 @@
 {
-  "asn": 48264,
-  "handle": "TIVI-BG-ISP",
-  "description": "Mitko.Com Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48264,
+  "metadata" : {
+    "handle" : "TIVI-BG-ISP",
+    "description" : "Mitko.Com Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.232.128.0/22",
       "193.39.196.0/22",
       "195.178.116.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2df0::/48"
     ]
   }

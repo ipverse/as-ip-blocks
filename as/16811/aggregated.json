@@ -1,9 +1,12 @@
 {
-  "asn": 16811,
-  "handle": "SAGENET-GTH",
-  "description": "SageNet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16811,
+  "metadata" : {
+    "handle" : "SAGENET-GTH",
+    "description" : "SageNet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.64.128.0/17",
       "148.78.81.0/24",
       "148.78.88.0/23",
@@ -32,6 +35,6 @@
       "148.78.248.0/23",
       "148.78.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

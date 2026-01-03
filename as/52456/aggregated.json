@@ -1,12 +1,15 @@
 {
-  "asn": 52456,
-  "handle": "EMPRESAS-PUBLICAS-MEDELLIN",
-  "description": "Empresas Públicas de Medellín E.S.P",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52456,
+  "metadata" : {
+    "handle" : "EMPRESAS-PUBLICAS-MEDELLIN",
+    "description" : "Empresas Públicas de Medellín E.S.P.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "201.220.30.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:160::/40"
     ]
   }

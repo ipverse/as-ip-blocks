@@ -1,12 +1,15 @@
 {
-  "asn": 40939,
-  "handle": "P2PPSR",
-  "description": "Project Babbage",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40939,
+  "metadata" : {
+    "handle" : "P2PPSR",
+    "description" : "Project Babbage",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.6.44.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f9f8::/40"
     ]
   }

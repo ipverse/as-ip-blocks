@@ -1,12 +1,15 @@
 {
-  "asn": 64005,
-  "handle": "KK-AS-AP",
-  "description": "KaritKarma Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64005,
+  "metadata" : {
+    "handle" : "KK-AS-AP",
+    "description" : "KaritKarma Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.139.235.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:3800::/48",
       "2400:eb80::/48",
       "2400:eb80:1000::/48"

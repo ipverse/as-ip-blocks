@@ -1,9 +1,12 @@
 {
-  "asn": 31662,
-  "handle": "KNSURSELVA",
-  "description": "connecta ag",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31662,
+  "metadata" : {
+    "handle" : "KNSURSELVA",
+    "description" : "connecta ag",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.239.60.0/23",
       "81.163.196.0/22",
       "89.207.8.0/22",
@@ -15,7 +18,7 @@
       "193.186.252.0/24",
       "217.151.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:1150::/48",
       "2001:67c:934::/48",
       "2a00:d28::/32",

@@ -1,12 +1,15 @@
 {
-  "asn": 394056,
-  "handle": "BIFIV",
-  "description": "BIF IV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394056,
+  "metadata" : {
+    "handle" : "BIFIV",
+    "description" : "BIF IV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.33.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:3640::/32"
     ]
   }

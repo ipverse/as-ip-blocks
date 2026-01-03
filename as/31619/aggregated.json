@@ -1,13 +1,16 @@
 {
-  "asn": 31619,
-  "handle": "CITYSTARS-AS",
-  "description": "City Stars",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31619,
+  "metadata" : {
+    "handle" : "CITYSTARS-AS",
+    "description" : "City Stars",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.205.96.0/21",
       "84.205.104.0/22",
       "84.205.110.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

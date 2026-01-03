@@ -1,9 +1,12 @@
 {
-  "asn": 50572,
-  "handle": "ZETUPNET",
-  "description": "Nordlo Improve AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50572,
+  "metadata" : {
+    "handle" : "ZETUPNET",
+    "description" : "Nordlo Improve AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.49.240.0/20",
       "91.211.168.0/22",
       "91.223.47.0/24",
@@ -16,7 +19,7 @@
       "194.68.229.0/24",
       "194.103.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:f68::/48",
       "2a02:1380::/32"
     ]

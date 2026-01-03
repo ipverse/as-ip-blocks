@@ -1,9 +1,12 @@
 {
-  "asn": 33322,
-  "handle": "NDCHOST",
-  "description": "Network Data Center Host Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33322,
+  "metadata" : {
+    "handle" : "NDCHOST",
+    "description" : "Network Data Center Host Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.1.240.0/20",
       "204.10.36.0/22",
       "204.15.132.0/22",
@@ -12,6 +15,6 @@
       "208.71.168.0/21",
       "208.82.112.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

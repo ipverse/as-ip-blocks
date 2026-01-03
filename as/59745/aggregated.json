@@ -1,9 +1,12 @@
 {
-  "asn": 59745,
-  "handle": "ATLASEDGE",
-  "description": "AE Technology Services Germany GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59745,
+  "metadata" : {
+    "handle" : "ATLASEDGE",
+    "description" : "AE Technology Services Germany GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.151.92.0/23",
       "80.66.100.0/24",
       "80.66.103.0/24",
@@ -11,7 +14,7 @@
       "80.66.109.0/24",
       "185.198.203.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:8ec0:1000::/36",
       "2a0a:8ec0:2000::/35",
       "2a0a:8ec0:4000::/35",

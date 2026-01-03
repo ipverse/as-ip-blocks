@@ -1,13 +1,16 @@
 {
-  "asn": 48505,
-  "handle": "KYLOS-AS",
-  "description": "Kylos sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48505,
+  "metadata" : {
+    "handle" : "KYLOS-AS",
+    "description" : "Kylos sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.241.60.0/22",
       "193.107.88.0/22",
       "195.162.24.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

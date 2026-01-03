@@ -1,12 +1,15 @@
 {
-  "asn": 48484,
-  "handle": "IGN-AS",
-  "description": "IGN GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48484,
+  "metadata" : {
+    "handle" : "IGN-AS",
+    "description" : "IGN GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.230.48.0/20",
       "185.183.24.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

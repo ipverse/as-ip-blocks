@@ -1,9 +1,12 @@
 {
-  "asn": 21430,
-  "handle": "WIA-AS",
-  "description": "WIA spol. s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21430,
+  "metadata" : {
+    "handle" : "WIA-AS",
+    "description" : "WIA spol. s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.7.240.0/21",
       "77.78.64.0/22",
       "77.78.68.0/23",
@@ -70,7 +73,7 @@
       "217.11.252.0/23",
       "217.11.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:aa4::/48",
       "2001:67c:15a0::/47",
       "2a01:6400::/32",

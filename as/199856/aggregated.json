@@ -1,16 +1,19 @@
 {
-  "asn": 199856,
-  "handle": "PING-TELECOMMUNICATIONS",
-  "description": "Ping Technology Labs LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199856,
+  "metadata" : {
+    "handle" : "PING-TELECOMMUNICATIONS",
+    "description" : "Ping Technology Labs LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "150.241.236.0/24",
       "157.254.26.0/24",
       "176.105.226.0/24",
       "192.154.201.0/24",
       "195.88.70.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:c300::/29"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 40801,
-  "handle": "LEWISU-ROMEOVILLE",
-  "description": "Lewis University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40801,
+  "metadata" : {
+    "handle" : "LEWISU-ROMEOVILLE",
+    "description" : "Lewis University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.222.110.0/24",
       "209.65.80.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

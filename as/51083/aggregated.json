@@ -1,9 +1,12 @@
 {
-  "asn": 51083,
-  "handle": "GRENODE",
-  "description": "Association Grenode",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51083,
+  "metadata" : {
+    "handle" : "GRENODE",
+    "description" : "Association Grenode",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.104.0/22",
       "44.32.55.0/24",
       "45.9.204.0/22",
@@ -20,7 +23,7 @@
       "193.23.246.0/23",
       "193.33.56.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:912::/34",
       "2001:912:4000::/36",
       "2a00:5881:4000::/40",

@@ -1,9 +1,12 @@
 {
-  "asn": 22343,
-  "handle": "VONAGE-BUSINESS",
-  "description": "Vonage Business Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22343,
+  "metadata" : {
+    "handle" : "VONAGE-BUSINESS",
+    "description" : "Vonage Business Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.127.68.0/22",
       "64.127.72.0/22",
       "64.127.78.0/23",
@@ -12,7 +15,7 @@
       "216.9.64.0/19",
       "216.27.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:700::/32"
     ]
   }

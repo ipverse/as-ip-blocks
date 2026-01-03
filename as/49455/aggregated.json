@@ -1,14 +1,17 @@
 {
-  "asn": 49455,
-  "handle": "UPC-AS",
-  "description": "Telia Norge AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49455,
+  "metadata" : {
+    "handle" : "UPC-AS",
+    "description" : "Telia Norge AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.249.224.0/19",
       "82.194.192.0/19",
       "109.108.192.0/19",
       "188.113.64.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

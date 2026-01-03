@@ -1,9 +1,12 @@
 {
-  "asn": 4134,
-  "handle": "CHINANET-BACKBONE",
-  "description": "Chinanet Backbone",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4134,
+  "metadata" : {
+    "handle" : "CHINANET-BACKBONE",
+    "description" : "China Telecom",
+    "origin" : "overlaid"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.48.0.0/15",
       "1.50.0.0/16",
       "1.68.0.0/14",
@@ -402,7 +405,7 @@
       "223.220.0.0/15",
       "223.240.0.0/13"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:9380:8001::/48",
       "2400:9380:8003::/48",
       "2400:9380:8021::/48",

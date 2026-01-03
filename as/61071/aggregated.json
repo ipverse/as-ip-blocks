@@ -1,9 +1,12 @@
 {
-  "asn": 61071,
-  "handle": "NETBOX-AS",
-  "description": "NETBOX LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61071,
+  "metadata" : {
+    "handle" : "NETBOX-AS",
+    "description" : "NETBOX LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.78.25.0/24",
       "77.78.39.0/24",
       "77.78.40.0/23",
@@ -18,6 +21,6 @@
       "185.18.230.0/23",
       "185.134.228.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

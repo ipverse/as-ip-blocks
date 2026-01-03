@@ -1,14 +1,17 @@
 {
-  "asn": 146952,
-  "handle": "INSTART-AS-AP",
-  "description": "INSTART",
-  "subnets": {
-    "ipv4": [
+  "asn" : 146952,
+  "metadata" : {
+    "handle" : "INSTART-AS-AP",
+    "description" : "INSTART",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.48.168.0/24",
       "150.129.43.0/24",
       "150.129.216.0/24",
       "163.53.16.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

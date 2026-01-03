@@ -1,12 +1,15 @@
 {
-  "asn": 201701,
-  "handle": "FFRL-AS",
-  "description": "Freifunk Rheinland e.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201701,
+  "metadata" : {
+    "handle" : "FFRL-AS",
+    "description" : "Freifunk Rheinland e.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.66.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:2260::/30"
     ]
   }

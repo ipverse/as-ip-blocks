@@ -1,9 +1,12 @@
 {
-  "asn": 9387,
-  "handle": "SHARPTEL-AS-AP",
-  "description": "SHARP TELECOM (PRIVATE) LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9387,
+  "metadata" : {
+    "handle" : "SHARPTEL-AS-AP",
+    "description" : "SHARP TELECOM (PRIVATE) LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.11.60.0/24",
       "113.203.234.0/23",
       "113.203.236.0/22",
@@ -17,7 +20,7 @@
       "180.178.172.0/24",
       "180.178.174.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:4100::/33",
       "2401:4100:8000::/48"
     ]

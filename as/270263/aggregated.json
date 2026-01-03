@@ -1,12 +1,15 @@
 {
-  "asn": 270263,
-  "handle": "NETWORK-EVOLUTION",
-  "description": "Network Evolution",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270263,
+  "metadata" : {
+    "handle" : "NETWORK-EVOLUTION",
+    "description" : "Network Evolution",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.53.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6954::/32"
     ]
   }

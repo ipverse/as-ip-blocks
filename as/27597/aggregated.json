@@ -1,13 +1,16 @@
 {
-  "asn": 27597,
-  "handle": "SITESERVER-IDC1",
-  "description": "Siteserver Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27597,
+  "metadata" : {
+    "handle" : "SITESERVER-IDC1",
+    "description" : "Siteserver Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.180.144.0/24",
       "69.36.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:6e40::/32"
     ]
   }

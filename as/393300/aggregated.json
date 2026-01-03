@@ -1,12 +1,15 @@
 {
-  "asn": 393300,
-  "handle": "TCC-INTERNET1",
-  "description": "The Cato Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393300,
+  "metadata" : {
+    "handle" : "TCC-INTERNET1",
+    "description" : "The Cato Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.11.115.0/24",
       "165.166.104.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

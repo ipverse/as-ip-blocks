@@ -1,12 +1,15 @@
 {
-  "asn": 393424,
-  "handle": "AS-TORIX-SVC",
-  "description": "Toronto Internet Exchange Community",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393424,
+  "metadata" : {
+    "handle" : "AS-TORIX-SVC",
+    "description" : "Toronto Internet Exchange Community",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.108.0.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fde5::/36"
     ]
   }

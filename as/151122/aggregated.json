@@ -1,12 +1,15 @@
 {
-  "asn": 151122,
-  "handle": "KPINFRA-AS-IN",
-  "description": "Kp Infratel Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151122,
+  "metadata" : {
+    "handle" : "KPINFRA-AS-IN",
+    "description" : "Kp Infratel Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.209.214.0/23",
       "165.101.10.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

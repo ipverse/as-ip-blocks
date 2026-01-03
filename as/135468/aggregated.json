@@ -1,11 +1,14 @@
 {
-  "asn": 135468,
-  "handle": "BNET-AS-ID",
-  "description": "BNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135468,
+  "metadata" : {
+    "handle" : "BNET-AS-ID",
+    "description" : "BNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.73.72.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

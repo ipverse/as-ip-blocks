@@ -1,12 +1,15 @@
 {
-  "asn": 24205,
-  "handle": "BANKPERMATA-THIS-AS-IDNIC-ID",
-  "description": "PT. Bank Permata Tbk",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24205,
+  "metadata" : {
+    "handle" : "BANKPERMATA-THIS-AS-IDNIC-ID",
+    "description" : "PT. Bank Permata Tbk.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.191.2.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:f00::/48"
     ]
   }

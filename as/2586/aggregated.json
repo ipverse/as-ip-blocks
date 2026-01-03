@@ -1,9 +1,12 @@
 {
-  "asn": 2586,
-  "handle": "UNINET-AS",
-  "description": "Elisa Eesti AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2586,
+  "metadata" : {
+    "handle" : "UNINET-AS",
+    "description" : "Elisa Eesti AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.65.192.0/18",
       "81.90.112.0/20",
       "82.131.0.0/17",
@@ -25,7 +28,7 @@
       "194.150.64.0/22",
       "194.204.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1530::/32",
       "2001:1bf0::/29"
     ]

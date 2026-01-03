@@ -1,13 +1,16 @@
 {
-  "asn": 77,
-  "handle": "JHUAPL-AS",
-  "description": "Johns Hopkins University Applied Physics Laboratory",
-  "subnets": {
-    "ipv4": [
+  "asn" : 77,
+  "metadata" : {
+    "handle" : "JHUAPL-AS",
+    "description" : "Johns Hopkins University Applied Physics Laboratory",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.244.0.0/16",
       "204.9.128.0/24",
       "204.9.130.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 26244,
-  "handle": "BGMU",
-  "description": "Bowling Green Municipal Utilities",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26244,
+  "metadata" : {
+    "handle" : "BGMU",
+    "description" : "Bowling Green Municipal Utilities",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.153.20.0/23",
       "12.165.246.0/23",
       "12.180.240.0/23",
@@ -13,6 +16,6 @@
       "63.235.188.0/23",
       "208.80.208.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

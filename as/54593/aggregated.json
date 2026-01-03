@@ -1,12 +1,15 @@
 {
-  "asn": 54593,
-  "handle": "ATHEN-EPOC",
-  "description": "Athenahealth",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54593,
+  "metadata" : {
+    "handle" : "ATHEN-EPOC",
+    "description" : "Athenahealth",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.168.57.0/24",
       "199.168.59.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

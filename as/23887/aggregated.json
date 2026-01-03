@@ -1,14 +1,17 @@
 {
-  "asn": 23887,
-  "handle": "PRODATA-TRANSIT-AS-AP",
-  "description": "PRODATA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23887,
+  "metadata" : {
+    "handle" : "PRODATA-TRANSIT-AS-AP",
+    "description" : "PRODATA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "119.63.0.0/23",
       "202.71.176.0/23",
       "202.71.179.0/24",
       "202.71.186.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

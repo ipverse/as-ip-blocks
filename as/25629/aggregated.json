@@ -1,14 +1,17 @@
 {
-  "asn": 25629,
-  "handle": "ACPS-8-ASN",
-  "description": "Albemarle County Public Schools",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25629,
+  "metadata" : {
+    "handle" : "ACPS-8-ASN",
+    "description" : "Albemarle County Public Schools",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "76.7.54.0/23",
       "76.7.60.0/23",
       "172.81.10.0/23",
       "192.161.72.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 138881,
-  "handle": "TRANSNET-AS-ID",
-  "description": "PT INDONESIA TRANS NETWORK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138881,
+  "metadata" : {
+    "handle" : "TRANSNET-AS-ID",
+    "description" : "PT INDONESIA TRANS NETWORK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.52.60.0/24",
       "103.59.44.0/23",
       "103.140.188.0/23",
       "103.169.238.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:c0::/32"
     ]
   }

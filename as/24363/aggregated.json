@@ -1,10 +1,13 @@
 {
-  "asn": 24363,
-  "handle": "CNGI-JNN-IX-AS-AP",
-  "description": "CERNET2 IX at Shandong University",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 24363,
+  "metadata" : {
+    "handle" : "CNGI-JNN-IX-AS-AP",
+    "description" : "CERNET2 IX at Shandong University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2401:cc00::/32",
       "2406:280:3003::/48",
       "240b:e001::/32",

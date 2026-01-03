@@ -1,9 +1,12 @@
 {
-  "asn": 29990,
-  "handle": "ASN-APPNEXUS",
-  "description": "Xandr Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29990,
+  "metadata" : {
+    "handle" : "ASN-APPNEXUS",
+    "description" : "Xandr Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.252.160.0/20",
       "43.250.0.0/22",
       "64.208.136.0/22",
@@ -24,7 +27,7 @@
       "216.252.164.0/23",
       "216.252.166.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:1f80:10::/44",
       "2605:ee00::/43",
       "2605:ee00:30::/44",

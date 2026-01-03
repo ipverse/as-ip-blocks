@@ -1,12 +1,15 @@
 {
-  "asn": 5421,
-  "handle": "SU-NET-AS",
-  "description": "Sofia University St. Kliment Ohridski",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5421,
+  "metadata" : {
+    "handle" : "SU-NET-AS",
+    "description" : "Sofia University St. Kliment Ohridski",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.44.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:20d0::/47"
     ]
   }

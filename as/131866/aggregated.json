@@ -1,9 +1,12 @@
 {
-  "asn": 131866,
-  "handle": "DEK-AS",
-  "description": "Digital Edge Korea",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131866,
+  "metadata" : {
+    "handle" : "DEK-AS",
+    "description" : "Digital Edge Korea",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.100.40.0/21",
       "61.100.48.0/21",
       "61.252.164.0/22",
@@ -74,6 +77,6 @@
       "211.236.242.0/24",
       "211.255.224.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

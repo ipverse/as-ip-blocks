@@ -1,16 +1,19 @@
 {
-  "asn": 59909,
-  "handle": "TELE-TEC-AS",
-  "description": "Tele-Tec GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59909,
+  "metadata" : {
+    "handle" : "TELE-TEC-AS",
+    "description" : "Tele-Tec GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.9.220.0/22",
       "45.90.76.0/22",
       "159.255.147.0/24",
       "168.222.188.0/22",
       "185.67.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:e40::/29",
       "2a0c:b5c0::/29",
       "2a0d:d100::/32",

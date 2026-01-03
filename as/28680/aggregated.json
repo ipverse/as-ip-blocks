@@ -1,13 +1,16 @@
 {
-  "asn": 28680,
-  "handle": "IKEA-AS",
-  "description": "IKEA IT AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28680,
+  "metadata" : {
+    "handle" : "IKEA-AS",
+    "description" : "IKEA IT AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.71.68.0/23",
       "192.176.232.0/23",
       "193.182.147.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

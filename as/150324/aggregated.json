@@ -1,11 +1,14 @@
 {
-  "asn": 150324,
-  "handle": "DOTSISNETWORK-AS-AP",
-  "description": "DOTSIS NETWORK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150324,
+  "metadata" : {
+    "handle" : "DOTSISNETWORK-AS-AP",
+    "description" : "DOTSIS NETWORK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.12.78.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

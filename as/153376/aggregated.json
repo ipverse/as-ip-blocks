@@ -1,17 +1,19 @@
 {
-  "asn": 153376,
-  "handle": "BRNET-AS-AP",
-  "description": "Jilin Province Brick Business Service Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153376,
+  "metadata" : {
+    "handle" : "BRNET-AS-AP",
+    "description" : "Jilin Province Brick Business Service Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.32.191.0/24"
     ],
-    "ipv6": [
-      "2406:840:e600::/48",
-      "2406:840:e602::/47",
+    "ipv6" : [
+      "2406:840:e603::/48",
       "2406:840:e60c::/47",
       "2406:840:fead::/48",
-      "2a0f:1cc5:11::/48"
+      "2a0f:1cc5:10::/47"
     ]
   }
 }

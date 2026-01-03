@@ -1,9 +1,12 @@
 {
-  "asn": 51776,
-  "handle": "SPORTRADAR-AS",
-  "description": "Sportradar AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51776,
+  "metadata" : {
+    "handle" : "SPORTRADAR-AS",
+    "description" : "Sportradar AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.238.137.0/24",
       "87.238.141.0/24",
       "87.238.142.0/24",
@@ -11,7 +14,7 @@
       "185.132.128.0/22",
       "185.188.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:56c0:12::/48"
     ]
   }

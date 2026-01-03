@@ -1,12 +1,15 @@
 {
-  "asn": 395252,
-  "handle": "STAMFORD-HEALTH",
-  "description": "Stamford Hospital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395252,
+  "metadata" : {
+    "handle" : "STAMFORD-HEALTH",
+    "description" : "Stamford Hospital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.86.182.0/24",
       "97.107.164.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

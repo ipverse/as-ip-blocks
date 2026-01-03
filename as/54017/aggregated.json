@@ -1,12 +1,15 @@
 {
-  "asn": 54017,
-  "handle": "UCARE-MN",
-  "description": "UCare Minnesota",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54017,
+  "metadata" : {
+    "handle" : "UCARE-MN",
+    "description" : "UCare Minnesota",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.22.93.0/24",
       "192.31.189.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

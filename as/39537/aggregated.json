@@ -1,9 +1,12 @@
 {
-  "asn": 39537,
-  "handle": "HNS",
-  "description": "SysGroup plc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39537,
+  "metadata" : {
+    "handle" : "HNS",
+    "description" : "SysGroup plc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.210.128.0/21",
       "37.35.88.0/21",
       "45.145.180.0/22",
@@ -22,7 +25,7 @@
       "185.202.115.0/24",
       "195.94.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:500::/32",
       "2a03:25e0::/36",
       "2a09:fd40::/48"

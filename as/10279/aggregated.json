@@ -1,9 +1,12 @@
 {
-  "asn": 10279,
-  "handle": "WCCL-AS",
-  "description": "West Carolina Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10279,
+  "metadata" : {
+    "handle" : "WCCL-AS",
+    "description" : "West Carolina Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.53.36.0/24",
       "64.53.67.0/24",
       "64.53.100.0/24",
@@ -42,6 +45,6 @@
       "207.144.60.0/22",
       "207.144.140.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

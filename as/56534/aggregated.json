@@ -1,9 +1,12 @@
 {
-  "asn": 56534,
-  "handle": "COMFORTEL",
-  "description": "Comfortel Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56534,
+  "metadata" : {
+    "handle" : "COMFORTEL",
+    "description" : "Comfortel Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.188.85.0/24",
       "37.139.36.0/23",
       "37.139.39.0/24",
@@ -53,7 +56,7 @@
       "212.192.52.0/22",
       "212.193.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:ac00::/48",
       "2a04:ac00:b::/48",
       "2a04:ac01::/32",

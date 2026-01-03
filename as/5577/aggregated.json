@@ -1,15 +1,18 @@
 {
-  "asn": 5577,
-  "handle": "ROOT",
-  "description": "root SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5577,
+  "metadata" : {
+    "handle" : "ROOT",
+    "description" : "root SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.243.8.0/21",
       "195.24.72.0/21",
       "195.26.4.0/23",
       "195.28.160.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:15a3::/48",
       "2a01:608::/32"
     ]

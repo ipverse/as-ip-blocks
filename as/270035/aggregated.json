@@ -1,15 +1,18 @@
 {
-  "asn": 270035,
-  "handle": "CELSIA-INTERNET",
-  "description": "CELSIA INTERNET S.A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270035,
+  "metadata" : {
+    "handle" : "CELSIA-INTERNET",
+    "description" : "CELSIA INTERNET S.A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.10.105.0/24",
       "130.250.228.0/22",
       "190.108.76.0/22",
       "190.151.142.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:e5e0::/32",
       "2803:e5e3::/32"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 36677,
-  "handle": "KATUN-AS-1",
-  "description": "Katun Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36677,
+  "metadata" : {
+    "handle" : "KATUN-AS-1",
+    "description" : "Katun Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.221.168.0/23",
       "206.221.170.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

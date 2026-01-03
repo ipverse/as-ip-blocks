@@ -1,11 +1,14 @@
 {
-  "asn": 23508,
-  "handle": "CGH-MAIN-CAMPUS",
-  "description": "Chesapeake General Hospital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23508,
+  "metadata" : {
+    "handle" : "CGH-MAIN-CAMPUS",
+    "description" : "Chesapeake General Hospital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.1.16.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

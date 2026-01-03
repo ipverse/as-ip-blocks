@@ -1,13 +1,16 @@
 {
-  "asn": 262616,
-  "handle": "VIRTUAL-SLICE-TELECOM",
-  "description": "Virtual Slice Telecom Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262616,
+  "metadata" : {
+    "handle" : "VIRTUAL-SLICE-TELECOM",
+    "description" : "Virtual Slice Telecom Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.185.196.0/22",
       "177.85.224.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3a34::/32"
     ]
   }

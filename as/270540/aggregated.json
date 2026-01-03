@@ -1,12 +1,15 @@
 {
-  "asn": 270540,
-  "handle": "WEBNET-TELECOM",
-  "description": "WEBNET Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270540,
+  "metadata" : {
+    "handle" : "WEBNET-TELECOM",
+    "description" : "WEBNET Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "189.85.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6d8c::/32"
     ]
   }

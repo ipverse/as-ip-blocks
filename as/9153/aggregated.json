@@ -1,15 +1,18 @@
 {
-  "asn": 9153,
-  "handle": "BURSTFIRE-EU",
-  "description": "Burstfire Networks Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9153,
+  "metadata" : {
+    "handle" : "BURSTFIRE-EU",
+    "description" : "Burstfire Networks Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.248.96.0/19",
       "82.136.0.0/18",
       "193.168.132.0/24",
       "195.22.128.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4088::/32"
     ]
   }

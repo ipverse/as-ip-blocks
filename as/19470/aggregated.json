@@ -1,12 +1,15 @@
 {
-  "asn": 19470,
-  "handle": "LCPS",
-  "description": "LAS CRUCES PUBLIC SCHOOLS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19470,
+  "metadata" : {
+    "handle" : "LCPS",
+    "description" : "LAS CRUCES PUBLIC SCHOOLS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.189.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:112:8000::/40"
     ]
   }

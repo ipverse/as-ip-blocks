@@ -1,13 +1,16 @@
 {
-  "asn": 11029,
-  "handle": "NETVATA",
-  "description": "NetVata LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11029,
+  "metadata" : {
+    "handle" : "NETVATA",
+    "description" : "NetVata LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.182.216.0/24",
       "38.58.198.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:91c0::/32"
     ]
   }

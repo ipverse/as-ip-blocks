@@ -1,9 +1,12 @@
 {
-  "asn": 55374,
-  "handle": "FJCLOUD-EAST",
-  "description": "FUJITSU LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55374,
+  "metadata" : {
+    "handle" : "FJCLOUD-EAST",
+    "description" : "FUJITSU LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.121.80.0/22",
       "61.121.98.0/23",
       "61.121.125.0/24",
@@ -85,7 +88,7 @@
       "222.158.220.0/23",
       "222.158.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:258:8600::/48",
       "2001:258:8609::/48",
       "2001:258:8613::/48",

@@ -1,15 +1,18 @@
 {
-  "asn": 60146,
-  "handle": "KOSB-AS",
-  "description": "Konya Organize Sanayi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60146,
+  "metadata" : {
+    "handle" : "KOSB-AS",
+    "description" : "Konya Organize Sanayi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.206.40.0/24",
       "85.153.145.0/24",
       "213.14.223.0/24",
       "213.14.250.0/24",
       "213.74.242.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

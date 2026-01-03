@@ -1,9 +1,12 @@
 {
-  "asn": 5518,
-  "handle": "TET-LV",
-  "description": "SIA Tet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5518,
+  "metadata" : {
+    "handle" : "TET-LV",
+    "description" : "SIA Tet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.63.128.0/21",
       "62.63.136.0/22",
       "62.63.144.0/20",
@@ -17,7 +20,7 @@
       "195.10.216.0/24",
       "213.175.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:16d8::/32"
     ]
   }

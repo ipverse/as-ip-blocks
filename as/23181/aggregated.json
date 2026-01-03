@@ -1,9 +1,12 @@
 {
-  "asn": 23181,
-  "handle": "ACCESSDG01",
-  "description": "Quicksilver Wireless",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23181,
+  "metadata" : {
+    "handle" : "ACCESSDG01",
+    "description" : "Quicksilver Wireless",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.135.168.0/23",
       "198.162.13.0/24",
       "199.60.96.0/24",
@@ -17,6 +20,6 @@
       "204.239.216.0/24",
       "204.239.240.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

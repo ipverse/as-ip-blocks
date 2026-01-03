@@ -1,12 +1,15 @@
 {
-  "asn": 206491,
-  "handle": "BANATSYNC",
-  "description": "BANATSYNC SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206491,
+  "metadata" : {
+    "handle" : "BANATSYNC",
+    "description" : "BANATSYNC SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "188.209.129.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:9500:b1::/48",
       "2a14:7580:ff98::/48",
       "2a14:7583:fb02::/48",

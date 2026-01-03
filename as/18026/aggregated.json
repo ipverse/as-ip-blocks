@@ -1,9 +1,12 @@
 {
-  "asn": 18026,
-  "handle": "CHEJU-AS",
-  "description": "JEJU NATIONAL UNIVERSITY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18026,
+  "metadata" : {
+    "handle" : "CHEJU-AS",
+    "description" : "JEJU NATIONAL UNIVERSITY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "113.198.160.0/21",
       "113.198.168.0/22",
       "114.71.62.0/23",
@@ -21,6 +24,6 @@
       "223.194.230.0/23",
       "223.194.232.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

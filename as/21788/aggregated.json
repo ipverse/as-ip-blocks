@@ -1,9 +1,12 @@
 {
-  "asn": 21788,
-  "handle": "HIPOINT-US",
-  "description": "HIPOINT TECHNOLOGY SERVICES INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21788,
+  "metadata" : {
+    "handle" : "HIPOINT-US",
+    "description" : "HIPOINT TECHNOLOGY SERVICES INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.70.24.0/23",
       "38.124.60.0/23",
       "38.124.68.0/22",
@@ -21,7 +24,7 @@
       "103.177.78.0/23",
       "184.104.237.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:2880::/48",
       "2001:df2:2340::/48"
     ]

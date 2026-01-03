@@ -1,9 +1,12 @@
 {
-  "asn": 18323,
-  "handle": "SNUBH-AS",
-  "description": "Seoul National University Bundang Hospital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18323,
+  "metadata" : {
+    "handle" : "SNUBH-AS",
+    "description" : "Seoul National University Bundang Hospital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "125.132.159.0/24",
       "125.132.205.0/24",
       "210.103.53.0/24",
@@ -12,6 +15,6 @@
       "221.163.32.0/24",
       "222.235.80.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

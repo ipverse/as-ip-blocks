@@ -1,14 +1,17 @@
 {
-  "asn": 32024,
-  "handle": "BLUEFI-AS-1",
-  "description": "Blueficity",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32024,
+  "metadata" : {
+    "handle" : "BLUEFI-AS-1",
+    "description" : "Blueficity",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.92.55.0/24",
       "66.92.60.0/24",
       "104.129.241.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:69c0::/32",
       "2a13:9500:37::/48",
       "2a13:9500:38::/47",

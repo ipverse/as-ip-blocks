@@ -1,12 +1,15 @@
 {
-  "asn": 153366,
-  "handle": "ADVPS-AS-AP",
-  "description": "ADVPS SERVICES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153366,
+  "metadata" : {
+    "handle" : "ADVPS-AS-AP",
+    "description" : "ADVPS SERVICES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.49.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:3fc0::/48"
     ]
   }

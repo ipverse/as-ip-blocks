@@ -1,15 +1,18 @@
 {
-  "asn": 9551,
-  "handle": "KMUTT-AP",
-  "description": "King Mongkut\u0027s University of Technology Thonburi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9551,
+  "metadata" : {
+    "handle" : "KMUTT-AP",
+    "description" : "King Mongkut's University of Technology Thonburi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.231.233.0/24",
       "202.28.4.0/22",
       "202.44.8.0/23",
       "202.44.11.0/24",
       "202.44.12.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

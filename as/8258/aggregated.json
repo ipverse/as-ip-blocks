@@ -1,14 +1,17 @@
 {
-  "asn": 8258,
-  "handle": "VISTI-NET-AS",
-  "description": "Information Centre Elektronni Visti LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8258,
+  "metadata" : {
+    "handle" : "VISTI-NET-AS",
+    "description" : "Information Centre Elektronni Visti LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.64.224.0/22",
       "195.64.228.0/24",
       "195.64.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2540::/32"
     ]
   }

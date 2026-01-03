@@ -1,14 +1,17 @@
 {
-  "asn": 399554,
-  "handle": "FOUR-STATES-FIBER",
-  "description": "Four States Fiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399554,
+  "metadata" : {
+    "handle" : "FOUR-STATES-FIBER",
+    "description" : "Four States Fiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "107.161.40.0/21",
       "170.117.224.0/20",
       "209.35.144.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc43::/36"
     ]
   }

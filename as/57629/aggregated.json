@@ -1,13 +1,16 @@
 {
-  "asn": 57629,
-  "handle": "IVI-RU",
-  "description": "LLC IVI.RU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57629,
+  "metadata" : {
+    "handle" : "IVI-RU",
+    "description" : "LLC IVI.RU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.67.40.0/22",
       "91.233.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:3840:100::/48",
       "2a0d:3840:110::/47",
       "2a0d:3840:1000::/48",

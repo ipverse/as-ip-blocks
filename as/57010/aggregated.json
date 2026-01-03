@@ -1,15 +1,18 @@
 {
-  "asn": 57010,
-  "handle": "CLODO-AS",
-  "description": "IT House Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57010,
+  "metadata" : {
+    "handle" : "CLODO-AS",
+    "description" : "IT House Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.139.47.0/24",
       "62.76.176.0/20",
       "85.143.198.0/23",
       "85.143.251.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:ac00:8::/48"
     ]
   }

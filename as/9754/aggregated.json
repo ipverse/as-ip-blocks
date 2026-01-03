@@ -1,14 +1,17 @@
 {
-  "asn": 9754,
-  "handle": "CSU-AS",
-  "description": "CHOSUN UNIVERSITY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9754,
+  "metadata" : {
+    "handle" : "CSU-AS",
+    "description" : "CHOSUN UNIVERSITY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "117.16.0.0/19",
       "117.16.73.0/24",
       "203.237.96.0/19",
       "220.67.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

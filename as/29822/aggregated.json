@@ -1,12 +1,15 @@
 {
-  "asn": 29822,
-  "handle": "ARCHER1",
-  "description": "Archer and Greiner",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29822,
+  "metadata" : {
+    "handle" : "ARCHER1",
+    "description" : "Archer and Greiner",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.207.105.0/24",
       "151.181.53.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 211171,
-  "handle": "PLUTON-SV-AS",
-  "description": "PE PLUTON-SV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211171,
+  "metadata" : {
+    "handle" : "PLUTON-SV-AS",
+    "description" : "PE PLUTON-SV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.75.223.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

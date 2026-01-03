@@ -1,14 +1,17 @@
 {
-  "asn": 212665,
-  "handle": "SANDEFJORD-FIBER",
-  "description": "Sandefjord Fiber AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212665,
+  "metadata" : {
+    "handle" : "SANDEFJORD-FIBER",
+    "description" : "Sandefjord Fiber AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.193.28.0/24",
       "193.105.172.0/24",
       "193.200.217.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:9980::/32"
     ]
   }

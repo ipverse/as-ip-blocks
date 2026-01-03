@@ -1,12 +1,15 @@
 {
-  "asn": 197440,
-  "handle": "CCTLD-IT-ANYCAST",
-  "description": "Consiglio Nazionale delle Ricerche",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197440,
+  "metadata" : {
+    "handle" : "CCTLD-IT-ANYCAST",
+    "description" : "Consiglio Nazionale delle Ricerche",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.0.16.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:12::/48"
     ]
   }

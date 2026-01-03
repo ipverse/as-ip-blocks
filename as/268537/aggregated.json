@@ -1,12 +1,15 @@
 {
-  "asn": 268537,
-  "handle": "TN-FIBRA",
-  "description": "TN FIBRA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268537,
+  "metadata" : {
+    "handle" : "TN-FIBRA",
+    "description" : "TN FIBRA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.162.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:52b8::/32"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 845,
-  "handle": "SBA-CONNECT",
-  "description": "SBA Connect LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 845,
+  "metadata" : {
+    "handle" : "SBA-CONNECT",
+    "description" : "SBA Connect LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.17.48.0/24",
       "199.96.84.0/24",
       "199.96.86.0/23",
       "209.240.8.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fb5a::/48"
     ]
   }

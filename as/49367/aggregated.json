@@ -1,9 +1,12 @@
 {
-  "asn": 49367,
-  "handle": "ASSEFLOW",
-  "description": "Seflow s.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49367,
+  "metadata" : {
+    "handle" : "ASSEFLOW",
+    "description" : "Seflow s.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.85.156.0/23",
       "45.95.192.0/23",
       "45.133.212.0/23",
@@ -26,7 +29,7 @@
       "176.105.254.0/24",
       "194.242.14.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:29e0:1::/48",
       "2a02:29e0:2::/48",
       "2a02:29e2::/32",

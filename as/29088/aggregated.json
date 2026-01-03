@@ -1,12 +1,15 @@
 {
-  "asn": 29088,
-  "handle": "BAYER-AS",
-  "description": "Bayer AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29088,
+  "metadata" : {
+    "handle" : "BAYER-AS",
+    "description" : "Bayer AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.234.127.0/24",
       "193.169.50.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

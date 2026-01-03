@@ -1,9 +1,12 @@
 {
-  "asn": 7131,
-  "handle": "PTIPACIFICAINC-AS-AP",
-  "description": "PTI Pacifica Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7131,
+  "metadata" : {
+    "handle" : "PTIPACIFICAINC-AS-AP",
+    "description" : "PTI Pacifica Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.3.112.0/20",
       "43.247.60.0/22",
       "45.117.196.0/22",
@@ -21,7 +24,7 @@
       "205.198.96.0/21",
       "210.23.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:4e40::/32",
       "2401:58c0::/32"
     ]

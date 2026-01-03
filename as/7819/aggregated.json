@@ -1,9 +1,12 @@
 {
-  "asn": 7819,
-  "handle": "GLOBAL-IP-NETWORKS",
-  "description": "Global IP Networks INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7819,
+  "metadata" : {
+    "handle" : "GLOBAL-IP-NETWORKS",
+    "description" : "Global IP Networks INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.128.48.0/20",
       "66.180.32.0/22",
       "66.180.37.0/24",
@@ -20,7 +23,7 @@
       "208.80.17.0/24",
       "208.93.52.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:ae00::/34",
       "2605:ae00:4000::/35"
     ]

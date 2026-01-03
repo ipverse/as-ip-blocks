@@ -1,9 +1,12 @@
 {
-  "asn": 202513,
-  "handle": "FASTTOLEDO",
-  "description": "Gestioniza Infraestructuras S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202513,
+  "metadata" : {
+    "handle" : "FASTTOLEDO",
+    "description" : "Gestioniza Infraestructuras S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.239.52.0/22",
       "149.22.96.0/20",
       "185.98.16.0/22",
@@ -11,7 +14,7 @@
       "185.248.78.0/23",
       "185.249.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:97c0::/29"
     ]
   }

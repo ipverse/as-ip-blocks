@@ -1,14 +1,17 @@
 {
-  "asn": 4508,
-  "handle": "WATERLOO-INTUITION",
-  "description": "NeuStyle",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4508,
+  "metadata" : {
+    "handle" : "WATERLOO-INTUITION",
+    "description" : "NeuStyle",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.175.32.0/24",
       "155.254.2.0/23",
       "198.89.188.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:d680::/32"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 205628,
-  "handle": "MIG-SRV-AS-1",
-  "description": "OOO MIG-Service Centre",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205628,
+  "metadata" : {
+    "handle" : "MIG-SRV-AS-1",
+    "description" : "OOO MIG-Service Centre",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.233.148.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

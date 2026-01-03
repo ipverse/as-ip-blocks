@@ -1,9 +1,12 @@
 {
-  "asn": 139203,
-  "handle": "CHINANET-GUIZHOU-GUIAN-IDC",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139203,
+  "metadata" : {
+    "handle" : "CHINANET-GUIZHOU-GUIAN-IDC",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.42.2.0/24",
       "58.42.5.0/24",
       "58.42.8.0/21",
@@ -16,7 +19,7 @@
       "111.124.192.0/19",
       "119.0.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:103:8b00::/44",
       "240e:938:a00::/44"
     ]

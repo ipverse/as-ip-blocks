@@ -1,11 +1,14 @@
 {
-  "asn": 42269,
-  "handle": "ACMETELECOM-AS",
-  "description": "LLC ACME TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42269,
+  "metadata" : {
+    "handle" : "ACMETELECOM-AS",
+    "description" : "LLC ACME TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.211.228.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 3308,
-  "handle": "TELIANET-DENMARK",
-  "description": "Telia Company AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3308,
+  "metadata" : {
+    "handle" : "TELIANET-DENMARK",
+    "description" : "Telia Company AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.44.128.0/18",
       "62.198.0.0/15",
       "85.235.224.0/19",
@@ -27,7 +30,7 @@
       "213.173.224.0/19",
       "217.74.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:2000:1000::/40",
       "2001:2010::/31",
       "2001:2012::/32",

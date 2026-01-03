@@ -1,12 +1,15 @@
 {
-  "asn": 57987,
-  "handle": "EMS-AS",
-  "description": "EMS-CHEMIE AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57987,
+  "metadata" : {
+    "handle" : "EMS-AS",
+    "description" : "EMS-CHEMIE AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.5.48.0/24",
       "194.40.200.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

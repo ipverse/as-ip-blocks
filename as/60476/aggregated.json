@@ -1,14 +1,17 @@
 {
-  "asn": 60476,
-  "handle": "MYCOM-AS",
-  "description": "Digital Transformation Plus LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60476,
+  "metadata" : {
+    "handle" : "MYCOM-AS",
+    "description" : "Digital Transformation Plus LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.142.206.0/24",
       "185.30.176.0/22",
       "185.205.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:bdc0:e006::/48",
       "2a14:25c1::/32"
     ]

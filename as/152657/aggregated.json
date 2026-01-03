@@ -1,12 +1,15 @@
 {
-  "asn": 152657,
-  "handle": "DOC-NON-AS-AP",
-  "description": "Department of Conservation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152657,
+  "metadata" : {
+    "handle" : "DOC-NON-AS-AP",
+    "description" : "Department of Conservation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.206.152.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:df40::/48"
     ]
   }

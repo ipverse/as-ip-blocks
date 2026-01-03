@@ -1,14 +1,17 @@
 {
-  "asn": 132850,
-  "handle": "TGNSB-AS-AP",
-  "description": "TS Global Network Sdn. Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132850,
+  "metadata" : {
+    "handle" : "TGNSB-AS-AP",
+    "description" : "TS Global Network Sdn. Bhd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.123.124.0/22",
       "103.249.92.0/22",
       "202.78.24.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:1300::/32"
     ]
   }

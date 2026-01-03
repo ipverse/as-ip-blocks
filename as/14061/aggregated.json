@@ -1,9 +1,12 @@
 {
-  "asn": 14061,
-  "handle": "DIGITALOCEAN-ASN",
-  "description": "DigitalOcean LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14061,
+  "metadata" : {
+    "handle" : "DIGITALOCEAN-ASN",
+    "description" : "DigitalOcean LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.101.96.0/20",
       "24.144.64.0/21",
       "24.144.76.0/22",
@@ -161,7 +164,7 @@
       "209.38.0.0/16",
       "209.97.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:6180::/48",
       "2400:6180:10::/48",
       "2400:6180:100::/40",

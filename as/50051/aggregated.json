@@ -1,11 +1,14 @@
 {
-  "asn": 50051,
-  "handle": "DANAFLEX-AS",
-  "description": "ZAO Danaflex",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50051,
+  "metadata" : {
+    "handle" : "DANAFLEX-AS",
+    "description" : "ZAO Danaflex",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.104.97.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

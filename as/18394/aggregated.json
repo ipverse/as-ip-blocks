@@ -1,12 +1,15 @@
 {
-  "asn": 18394,
-  "handle": "UPI-AS-ID",
-  "description": "Universitas Pendidikan Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18394,
+  "metadata" : {
+    "handle" : "UPI-AS-ID",
+    "description" : "Universitas Pendidikan Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.23.244.0/24",
       "160.22.212.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

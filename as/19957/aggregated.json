@@ -1,9 +1,12 @@
 {
-  "asn": 19957,
-  "handle": "STATE-OF-TENNESSEE-NETTN",
-  "description": "AT\u0026T Enterprises LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19957,
+  "metadata" : {
+    "handle" : "STATE-OF-TENNESSEE-NETTN",
+    "description" : "AT&T Enterprises LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.204.192.0/19",
       "64.79.176.0/21",
       "66.4.0.0/16",
@@ -19,6 +22,6 @@
       "208.63.128.0/20",
       "208.182.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

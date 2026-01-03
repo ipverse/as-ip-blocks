@@ -1,12 +1,15 @@
 {
-  "asn": 25303,
-  "handle": "KDD",
-  "description": "KDD d.d",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25303,
+  "metadata" : {
+    "handle" : "KDD",
+    "description" : "KDD d.d.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.0.244.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:20b8::/47"
     ]
   }

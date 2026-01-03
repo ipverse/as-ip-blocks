@@ -1,13 +1,16 @@
 {
-  "asn": 200781,
-  "handle": "TAMPNET-AS",
-  "description": "Tampnet AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200781,
+  "metadata" : {
+    "handle" : "TAMPNET-AS",
+    "description" : "Tampnet AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.13.124.0/22",
       "185.96.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:fd80::/29"
     ]
   }

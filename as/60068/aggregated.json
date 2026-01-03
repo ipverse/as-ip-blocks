@@ -1,9 +1,12 @@
 {
-  "asn": 60068,
-  "handle": "CDN77",
-  "description": "Datacamp Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60068,
+  "metadata" : {
+    "handle" : "CDN77",
+    "description" : "Datacamp Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.19.194.0/24",
       "37.19.202.0/23",
       "37.19.206.0/23",
@@ -186,7 +189,7 @@
       "212.102.58.0/23",
       "212.102.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:52e0:1e00::/48",
       "2a02:6ea0:100::/40",
       "2a02:6ea0:300::/40",

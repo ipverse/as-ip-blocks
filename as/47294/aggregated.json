@@ -1,10 +1,13 @@
 {
-  "asn": 47294,
-  "handle": "NOMD-AS",
-  "description": "Nomadl OU",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 47294,
+  "metadata" : {
+    "handle" : "NOMD-AS",
+    "description" : "Nomadl OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a13:e5c0:8888::/48"
     ]
   }

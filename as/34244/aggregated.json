@@ -1,9 +1,12 @@
 {
-  "asn": 34244,
-  "handle": "TELESERVICE",
-  "description": "Teleservice Bredband Skane AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34244,
+  "metadata" : {
+    "handle" : "TELESERVICE",
+    "description" : "Teleservice Bredband Skane AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.180.0.0/22",
       "31.170.24.0/21",
       "37.221.104.0/22",
@@ -43,7 +46,7 @@
       "193.221.219.0/24",
       "195.210.52.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:654::/48",
       "2a02:80::/29",
       "2a02:1610::/32"

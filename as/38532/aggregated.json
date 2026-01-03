@@ -1,9 +1,12 @@
 {
-  "asn": 38532,
-  "handle": "EXABYTES-AS-AP",
-  "description": "Exabytes Network (Singapore) Pte. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38532,
+  "metadata" : {
+    "handle" : "EXABYTES-AS-AP",
+    "description" : "Exabytes Network (Singapore) Pte. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.227.231.0/24",
       "43.229.84.0/22",
       "43.229.128.0/23",
@@ -20,7 +23,7 @@
       "116.12.48.0/21",
       "124.6.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:480::/48",
       "2400:1480::/48",
       "2407:d200::/32"

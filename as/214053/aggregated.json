@@ -1,12 +1,15 @@
 {
-  "asn": 214053,
-  "handle": "CLUSTERFAST-AS",
-  "description": "ClusterFast Network Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214053,
+  "metadata" : {
+    "handle" : "CLUSTERFAST-AS",
+    "description" : "ClusterFast Network Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.206.100.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:aa07:ec10::/44"
     ]
   }

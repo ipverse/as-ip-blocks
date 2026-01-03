@@ -1,9 +1,12 @@
 {
-  "asn": 35007,
-  "handle": "MICONET-AS",
-  "description": "Miconet Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35007,
+  "metadata" : {
+    "handle" : "MICONET-AS",
+    "description" : "Miconet Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.218.0/23",
       "5.252.213.0/24",
       "81.30.128.0/23",
@@ -22,7 +25,7 @@
       "195.160.184.0/23",
       "195.225.36.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1ea0::/47"
     ]
   }

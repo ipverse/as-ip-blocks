@@ -1,9 +1,12 @@
 {
-  "asn": 26077,
-  "handle": "NEXTLINK-TEXAS",
-  "description": "Nextlink Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26077,
+  "metadata" : {
+    "handle" : "NEXTLINK-TEXAS",
+    "description" : "Nextlink Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.150.176.0/24",
       "52.128.48.0/20",
       "52.144.96.0/20",
@@ -26,7 +29,7 @@
       "208.79.4.0/23",
       "208.79.6.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:4080::/32"
     ]
   }

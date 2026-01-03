@@ -1,9 +1,12 @@
 {
-  "asn": 28549,
-  "handle": "CABLEMAS-TELECOMUNICACIONES",
-  "description": "Cablemas Telecomunicaciones SA de CV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28549,
+  "metadata" : {
+    "handle" : "CABLEMAS-TELECOMUNICACIONES",
+    "description" : "Cablemas Telecomunicaciones SA de CV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.161.244.0/22",
       "177.238.250.0/23",
       "187.252.89.0/24",
@@ -11,7 +14,7 @@
       "201.139.76.0/22",
       "201.161.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:250:2b::/48",
       "2806:250:405::/48",
       "2806:250:407::/48",

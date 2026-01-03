@@ -1,9 +1,12 @@
 {
-  "asn": 35684,
-  "handle": "SHC",
-  "description": "SHC Netzwerktechnik GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35684,
+  "metadata" : {
+    "handle" : "SHC",
+    "description" : "SHC Netzwerktechnik GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.188.56.0/22",
       "109.71.26.0/23",
       "185.79.44.0/22",
@@ -11,7 +14,7 @@
       "194.59.192.0/22",
       "195.137.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:302::/48",
       "2001:678:b68::/48",
       "2001:67c:74::/48",

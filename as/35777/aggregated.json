@@ -1,9 +1,12 @@
 {
-  "asn": 35777,
-  "handle": "LTN-AS",
-  "description": "LTN Global Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35777,
+  "metadata" : {
+    "handle" : "LTN-AS",
+    "description" : "LTN Global Communications Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.247.65.0/24",
       "46.247.66.0/23",
       "46.247.68.0/22",
@@ -11,7 +14,7 @@
       "46.247.76.0/23",
       "46.247.78.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:54c0:3::/48",
       "2607:54c0:4::/46",
       "2607:54c0:8::/47",

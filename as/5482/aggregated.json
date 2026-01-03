@@ -1,9 +1,12 @@
 {
-  "asn": 5482,
-  "handle": "AS5482",
-  "description": "AllPoints Fibre Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5482,
+  "metadata" : {
+    "handle" : "AS5482",
+    "description" : "AllPoints Fibre Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "51.179.192.0/18",
       "62.64.152.0/22",
       "141.195.128.0/19",
@@ -12,7 +15,7 @@
       "188.74.76.0/23",
       "217.142.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:87c3:1000::/36",
       "2a05:87c3:2000::/36",
       "2a05:87c3:7000::/36",

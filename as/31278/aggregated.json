@@ -1,12 +1,15 @@
 {
-  "asn": 31278,
-  "handle": "INMH",
-  "description": "Administratia Nationala de Meteorologie RA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31278,
+  "metadata" : {
+    "handle" : "INMH",
+    "description" : "Administratia Nationala de Meteorologie RA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.26.129.0/24",
       "193.227.110.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

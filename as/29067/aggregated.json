@@ -1,16 +1,19 @@
 {
-  "asn": 29067,
-  "handle": "UATLD-AS",
-  "description": "LLC Hostmaster",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29067,
+  "metadata" : {
+    "handle" : "UATLD-AS",
+    "description" : "LLC Hostmaster",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.70.108.0/23",
       "109.70.111.0/24",
       "185.159.140.0/23",
       "193.29.220.0/24",
       "195.47.253.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:258::/48",
       "2001:4130:20::/48",
       "2001:4130:b0::/48",

@@ -1,10 +1,13 @@
 {
-  "asn": 202481,
-  "handle": "REAPOLIS-AS",
-  "description": "LTD Reapolis",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 202481,
+  "metadata" : {
+    "handle" : "REAPOLIS-AS",
+    "description" : "LTD Reapolis",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:678:6a4::/48",
       "2a0a:53c0:a66::/48"
     ]

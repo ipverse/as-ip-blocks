@@ -1,12 +1,15 @@
 {
-  "asn": 48572,
-  "handle": "AIRPORT-CGN-AS",
-  "description": "Flughafen Koeln/Bonn GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48572,
+  "metadata" : {
+    "handle" : "AIRPORT-CGN-AS",
+    "description" : "Flughafen Koeln/Bonn GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.209.121.0/24",
       "194.110.25.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

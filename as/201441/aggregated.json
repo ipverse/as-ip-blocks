@@ -1,13 +1,16 @@
 {
-  "asn": 201441,
-  "handle": "EIB-AS",
-  "description": "European Investment Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201441,
+  "metadata" : {
+    "handle" : "EIB-AS",
+    "description" : "European Investment Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.168.41.0/24",
       "193.168.42.0/24",
       "193.168.45.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

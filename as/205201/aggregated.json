@@ -1,14 +1,17 @@
 {
-  "asn": 205201,
-  "handle": "RTS-AS",
-  "description": "Public Service Media Radio Television of Serbia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205201,
+  "metadata" : {
+    "handle" : "RTS-AS",
+    "description" : "Public Service Media Radio Television of Serbia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "188.120.121.0/24",
       "188.120.122.0/23",
       "188.120.126.0/24",
       "194.28.130.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

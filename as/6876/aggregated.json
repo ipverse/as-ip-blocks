@@ -1,9 +1,12 @@
 {
-  "asn": 6876,
-  "handle": "TENET-AS",
-  "description": "TENET Scientific Production Enterprise LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6876,
+  "metadata" : {
+    "handle" : "TENET-AS",
+    "description" : "TENET Scientific Production Enterprise LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.31.96.0/19",
       "37.203.0.0/19",
       "45.130.0.0/22",
@@ -36,7 +39,7 @@
       "212.90.124.0/22",
       "212.178.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:2c00::/29"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 265095,
-  "handle": "GRIMM-TELECOM",
-  "description": "Grimm Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265095,
+  "metadata" : {
+    "handle" : "GRIMM-TELECOM",
+    "description" : "Grimm Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.254.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:32b8::/32"
     ]
   }

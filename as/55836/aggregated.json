@@ -1,9 +1,12 @@
 {
-  "asn": 55836,
-  "handle": "RELIANCEJIO-IN",
-  "description": "Reliance Jio Infocomm Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55836,
+  "metadata" : {
+    "handle" : "RELIANCEJIO-IN",
+    "description" : "Reliance Jio Infocomm Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.22.176.0/20",
       "2.23.32.0/19",
       "23.15.194.0/23",
@@ -92,7 +95,7 @@
       "184.86.248.0/24",
       "205.253.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:200::/39",
       "2405:200:300::/40",
       "2405:200:400::/38",

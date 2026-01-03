@@ -1,12 +1,15 @@
 {
-  "asn": 41692,
-  "handle": "OPENCARRIER-AS",
-  "description": "OpenCarrier eG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41692,
+  "metadata" : {
+    "handle" : "OPENCARRIER-AS",
+    "description" : "OpenCarrier eG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.54.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:7f8:3a::/48"
     ]
   }

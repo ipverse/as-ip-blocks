@@ -1,12 +1,15 @@
 {
-  "asn": 17844,
-  "handle": "NPS01-AS",
-  "description": "National Pension Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17844,
+  "metadata" : {
+    "handle" : "NPS01-AS",
+    "description" : "National Pension Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.139.84.0/24",
       "210.97.37.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 45365,
-  "handle": "JBTV-AS",
-  "description": "LG HelloVision Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45365,
+  "metadata" : {
+    "handle" : "JBTV-AS",
+    "description" : "LG HelloVision Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.38.16.0/21",
       "36.38.176.0/20",
       "43.224.104.0/22",
@@ -19,6 +22,6 @@
       "121.54.192.0/21",
       "183.90.128.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

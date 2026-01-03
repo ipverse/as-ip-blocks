@@ -1,9 +1,12 @@
 {
-  "asn": 58436,
-  "handle": "SECUREAX-SG-AS-AP",
-  "description": "SecureAX Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58436,
+  "metadata" : {
+    "handle" : "SECUREAX-SG-AS-AP",
+    "description" : "SecureAX Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.255.124.0/22",
       "103.5.151.0/24",
       "103.11.143.0/24",
@@ -13,7 +16,7 @@
       "124.6.56.0/24",
       "124.6.58.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:24f::/48",
       "2407:8100:1::/48"
     ]

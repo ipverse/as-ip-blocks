@@ -1,9 +1,12 @@
 {
-  "asn": 51559,
-  "handle": "NETINTERNET",
-  "description": "Netinternet Bilisim Teknolojileri AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51559,
+  "metadata" : {
+    "handle" : "NETINTERNET",
+    "description" : "Netinternet Bilisim Teknolojileri AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.192.208.0/23",
       "31.192.210.0/24",
       "31.192.213.0/24",
@@ -58,7 +61,7 @@
       "185.174.30.0/24",
       "193.23.196.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:2100::/43",
       "2a03:2100:20::/44",
       "2a03:2100:32::/47",

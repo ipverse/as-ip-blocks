@@ -1,11 +1,14 @@
 {
-  "asn": 3334,
-  "handle": "VTX-NETWORK",
-  "description": "VTX Services SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3334,
+  "metadata" : {
+    "handle" : "VTX-NETWORK",
+    "description" : "VTX Services SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.148.40.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 32771,
-  "handle": "DNSIMPLE",
-  "description": "DNSimple Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32771,
+  "metadata" : {
+    "handle" : "DNSIMPLE",
+    "description" : "DNSimple Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.94.34.0/24",
       "199.247.153.0/24",
       "199.247.155.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1838:7004::/48",
       "2620:111:8005::/48",
       "2620:111:8007::/48",

@@ -1,12 +1,15 @@
 {
-  "asn": 270601,
-  "handle": "SMART-TELECOM",
-  "description": "SMART TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270601,
+  "metadata" : {
+    "handle" : "SMART-TELECOM",
+    "description" : "SMART TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "189.36.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6e80::/32"
     ]
   }

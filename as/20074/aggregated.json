@@ -1,12 +1,15 @@
 {
-  "asn": 20074,
-  "handle": "PLNU-ASN",
-  "description": "Point Loma Nazarene University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20074,
+  "metadata" : {
+    "handle" : "PLNU-ASN",
+    "description" : "Point Loma Nazarene University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.147.249.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:104:1000::/44"
     ]
   }

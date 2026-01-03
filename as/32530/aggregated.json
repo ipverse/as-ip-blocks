@@ -1,12 +1,15 @@
 {
-  "asn": 32530,
-  "handle": "OPUS-AS1",
-  "description": "Opus Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32530,
+  "metadata" : {
+    "handle" : "OPUS-AS1",
+    "description" : "Opus Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.172.144.0/22",
       "72.172.148.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,16 +1,20 @@
 {
-  "asn": 199340,
-  "handle": "HONG-GUANWAN",
-  "description": "HONG GUANWAN",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
-      "2a06:de05:62d2::/48",
-      "2a06:de05:63e4::/48",
-      "2a09:54c6:91ff::/48",
-      "2a09:54c6:93dd::/48",
-      "2a09:54c6:9843::/48",
-      "2a09:54c6:9a3a::/48"
+  "asn" : 199340,
+  "metadata" : {
+    "handle" : "HONG-GUANWAN",
+    "description" : "HONG GUANWAN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
+      "2a06:de05:604b::/48",
+      "2a06:de05:63ce::/48",
+      "2a09:54c6:9090::/48",
+      "2a09:54c6:914a::/48",
+      "2a09:54c6:933d::/48",
+      "2a09:54c6:9b55::/48",
+      "2a09:54c6:9c83::/48"
     ]
   }
 }

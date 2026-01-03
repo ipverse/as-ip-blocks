@@ -1,9 +1,12 @@
 {
-  "asn": 7224,
-  "handle": "AMAZON-AS",
-  "description": "Amazon.com Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7224,
+  "metadata" : {
+    "handle" : "AMAZON-AS",
+    "description" : "Amazon.com Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.178.192.0/23",
       "3.33.48.0/20",
       "15.248.0.0/21",
@@ -20,6 +23,6 @@
       "162.221.160.0/21",
       "172.96.104.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

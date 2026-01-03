@@ -1,14 +1,17 @@
 {
-  "asn": 205206,
-  "handle": "NETSITE",
-  "description": "Netsite A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205206,
+  "metadata" : {
+    "handle" : "NETSITE",
+    "description" : "Netsite A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.207.214.0/23",
       "185.224.16.0/22",
       "193.29.201.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:cc00::/32"
     ]
   }

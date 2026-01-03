@@ -1,11 +1,14 @@
 {
-  "asn": 401930,
-  "handle": "JFK-NTO",
-  "description": "New Terminal One",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401930,
+  "metadata" : {
+    "handle" : "JFK-NTO",
+    "description" : "New Terminal One",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.106.32.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

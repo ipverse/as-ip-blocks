@@ -1,9 +1,12 @@
 {
-  "asn": 30838,
-  "handle": "TELPOL",
-  "description": "Jerzy Krempa Telpol PPMUE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30838,
+  "metadata" : {
+    "handle" : "TELPOL",
+    "description" : "Jerzy Krempa Telpol PPMUE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.133.16.0/21",
       "46.148.0.0/20",
       "83.242.64.0/19",
@@ -13,6 +16,6 @@
       "193.106.84.0/22",
       "193.203.208.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

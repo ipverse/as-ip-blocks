@@ -1,14 +1,17 @@
 {
-  "asn": 48303,
-  "handle": "OVISIT",
-  "description": "OVIS IT Consulting GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48303,
+  "metadata" : {
+    "handle" : "OVISIT",
+    "description" : "OVIS IT Consulting GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.216.44.0/24",
       "185.46.142.0/24",
       "185.199.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:9bc0::/29"
     ]
   }

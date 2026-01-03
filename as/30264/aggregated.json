@@ -1,15 +1,18 @@
 {
-  "asn": 30264,
-  "handle": "COLUMBIAPWS",
-  "description": "Columbia Power and Water Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30264,
+  "metadata" : {
+    "handle" : "COLUMBIAPWS",
+    "description" : "Columbia Power and Water Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.211.16.0/20",
       "76.9.160.0/20",
       "138.43.210.0/23",
       "138.43.212.0/22",
       "138.43.216.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 136785,
-  "handle": "TTPL-AS-AP",
-  "description": "TOFFS TECHNOLOGIES PTE LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136785,
+  "metadata" : {
+    "handle" : "TTPL-AS-AP",
+    "description" : "TOFFS TECHNOLOGIES PTE LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.95.215.0/24",
       "103.142.231.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:cb00::/48",
       "2407:d6c0:1::/48",
       "2407:d6c0:8::/48"

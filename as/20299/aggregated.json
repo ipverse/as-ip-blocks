@@ -1,9 +1,12 @@
 {
-  "asn": 20299,
-  "handle": "NEWCOM-LIMITED",
-  "description": "Newcom Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20299,
+  "metadata" : {
+    "handle" : "NEWCOM-LIMITED",
+    "description" : "Newcom Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.182.7.0/24",
       "65.182.8.0/23",
       "65.182.11.0/24",
@@ -66,7 +69,7 @@
       "209.124.120.0/22",
       "209.124.124.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:f400::/37",
       "2803:f400:800::/39",
       "2803:f400:a00::/40",

@@ -1,12 +1,15 @@
 {
-  "asn": 150123,
-  "handle": "MSSNB-AS-AP",
-  "description": "M/S S.N.B. NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150123,
+  "metadata" : {
+    "handle" : "MSSNB-AS-AP",
+    "description" : "M/S S.N.B. NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.191.84.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:f940::/48"
     ]
   }

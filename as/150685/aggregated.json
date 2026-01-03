@@ -1,12 +1,15 @@
 {
-  "asn": 150685,
-  "handle": "CHINGKUO-AS-AP",
-  "description": "Ching Kuo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150685,
+  "metadata" : {
+    "handle" : "CHINGKUO-AS-AP",
+    "description" : "Ching Kuo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.55.240.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:b3c0::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 55803,
-  "handle": "HOSTOPIA-AU",
-  "description": "Hostopia Australia Web Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55803,
+  "metadata" : {
+    "handle" : "HOSTOPIA-AU",
+    "description" : "Hostopia Australia Web Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.123.30.0/24",
       "49.156.24.0/21",
       "101.0.64.0/18",
@@ -40,7 +43,7 @@
       "203.98.95.0/24",
       "223.27.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:a600::/32",
       "2401:fc00::/32",
       "2402:9400::/32"

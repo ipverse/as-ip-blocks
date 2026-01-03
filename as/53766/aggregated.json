@@ -1,9 +1,12 @@
 {
-  "asn": 53766,
-  "handle": "VMWARE-SASE",
-  "description": "Avago Technologies U.S. Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53766,
+  "metadata" : {
+    "handle" : "VMWARE-SASE",
+    "description" : "Avago Technologies U.S. Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.186.24.0/22",
       "64.186.28.0/23",
       "103.48.252.0/23",
@@ -30,7 +33,7 @@
       "207.66.112.0/23",
       "216.221.24.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:a7c0::/46",
       "2605:a7c0:5::/48",
       "2605:a7c0:6::/47",

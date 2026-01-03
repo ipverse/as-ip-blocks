@@ -1,12 +1,15 @@
 {
-  "asn": 32995,
-  "handle": "LIBERTY-CHRISTIAN-SCHOOL-01",
-  "description": "Liberty Christian School",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32995,
+  "metadata" : {
+    "handle" : "LIBERTY-CHRISTIAN-SCHOOL-01",
+    "description" : "Liberty Christian School",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.137.160.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:4d:a000::/48"
     ]
   }

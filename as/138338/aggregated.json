@@ -1,12 +1,15 @@
 {
-  "asn": 138338,
-  "handle": "CTGNET-AS-AP",
-  "description": "CTG.NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138338,
+  "metadata" : {
+    "handle" : "CTGNET-AS-AP",
+    "description" : "CTG.NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.130.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:bdc0::/32"
     ]
   }

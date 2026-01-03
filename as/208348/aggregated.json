@@ -1,15 +1,18 @@
 {
-  "asn": 208348,
-  "handle": "DOMYNET-AS",
-  "description": "DomyNet Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208348,
+  "metadata" : {
+    "handle" : "DOMYNET-AS",
+    "description" : "DomyNet Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.255.240.0/23",
       "45.142.160.0/22",
       "103.30.226.0/23",
       "170.117.202.0/23",
       "193.3.241.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

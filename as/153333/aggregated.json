@@ -1,10 +1,13 @@
 {
-  "asn": 153333,
-  "handle": "FUJIECHUN-AS-AP",
-  "description": "Fu Jiechun",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 153333,
+  "metadata" : {
+    "handle" : "FUJIECHUN-AS-AP",
+    "description" : "Fu Jiechun",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2406:840:fcb0::/44",
       "2406:840:fea8::/48"
     ]

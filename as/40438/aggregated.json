@@ -1,12 +1,15 @@
 {
-  "asn": 40438,
-  "handle": "CANHOST-INC",
-  "description": "Canhost Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40438,
+  "metadata" : {
+    "handle" : "CANHOST-INC",
+    "description" : "Canhost Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.209.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:7300::/32"
     ]
   }

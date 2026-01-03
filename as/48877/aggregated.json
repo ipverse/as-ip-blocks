@@ -1,12 +1,15 @@
 {
-  "asn": 48877,
-  "handle": "YUNICOM-AS",
-  "description": "Yunicom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48877,
+  "metadata" : {
+    "handle" : "YUNICOM-AS",
+    "description" : "Yunicom Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.34.84.0/23",
       "178.34.86.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

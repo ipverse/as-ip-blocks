@@ -1,9 +1,12 @@
 {
-  "asn": 24867,
-  "handle": "ADAPT-AS",
-  "description": "Adapt Services Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24867,
+  "metadata" : {
+    "handle" : "ADAPT-AS",
+    "description" : "Adapt Services Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.140.192.0/19",
       "78.40.152.0/21",
       "80.83.144.0/20",
@@ -19,6 +22,6 @@
       "195.50.109.0/24",
       "217.150.96.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

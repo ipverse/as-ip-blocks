@@ -1,12 +1,15 @@
 {
-  "asn": 38508,
-  "handle": "CBN-CARRIER-AS-ID",
-  "description": "PT. Cyberindo Aditama",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38508,
+  "metadata" : {
+    "handle" : "CBN-CARRIER-AS-ID",
+    "description" : "PT. Cyberindo Aditama",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "101.50.18.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:9800:4003::/48"
     ]
   }

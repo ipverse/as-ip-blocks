@@ -1,11 +1,14 @@
 {
-  "asn": 19302,
-  "handle": "USCC-DC",
-  "description": "US Chamber of Commerce",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19302,
+  "metadata" : {
+    "handle" : "USCC-DC",
+    "description" : "US Chamber of Commerce",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.3.198.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

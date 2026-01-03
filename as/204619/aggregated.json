@@ -1,12 +1,15 @@
 {
-  "asn": 204619,
-  "handle": "PRIMONET-AS",
-  "description": "PP Sidor",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204619,
+  "metadata" : {
+    "handle" : "PRIMONET-AS",
+    "description" : "PP Sidor",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.143.144.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:360::/48"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 395563,
-  "handle": "EDISON-CARRIER-SOLUTIONS",
-  "description": "Southern California Edison",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395563,
+  "metadata" : {
+    "handle" : "EDISON-CARRIER-SOLUTIONS",
+    "description" : "Southern California Edison",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.235.193.0/24",
       "163.235.201.0/24",
       "163.235.224.0/19",
       "204.2.198.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

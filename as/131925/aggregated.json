@@ -1,9 +1,12 @@
 {
-  "asn": 131925,
-  "handle": "CYBERHOME-2",
-  "description": "FAMILY NET JAPAN INCORPORATED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131925,
+  "metadata" : {
+    "handle" : "CYBERHOME-2",
+    "description" : "FAMILY NET JAPAN INCORPORATED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "150.91.192.0/20",
       "160.237.96.0/19",
       "160.237.160.0/20",
@@ -14,7 +17,7 @@
       "202.247.168.0/21",
       "219.100.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:4d44::/30",
       "2406:1940::/32"
     ]

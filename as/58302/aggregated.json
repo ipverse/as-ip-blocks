@@ -1,14 +1,17 @@
 {
-  "asn": 58302,
-  "handle": "SAMFUNDET-AS",
-  "description": "Studentersamfundet i Trondhjem",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58302,
+  "metadata" : {
+    "handle" : "SAMFUNDET-AS",
+    "description" : "Studentersamfundet i Trondhjem",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.31.76.0/24",
       "44.141.132.0/24",
       "193.35.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:29f4::/48"
     ]
   }

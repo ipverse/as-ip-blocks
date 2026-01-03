@@ -1,9 +1,12 @@
 {
-  "asn": 2895,
-  "handle": "FREE-NET-AS",
-  "description": "OOO FREEnet Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2895,
+  "metadata" : {
+    "handle" : "FREE-NET-AS",
+    "description" : "OOO FREEnet Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.45.0.0/19",
       "147.45.32.0/23",
       "147.45.194.0/23",
@@ -11,7 +14,7 @@
       "193.233.4.0/24",
       "193.233.10.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:640::/32"
     ]
   }

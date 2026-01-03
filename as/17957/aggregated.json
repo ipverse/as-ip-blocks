@@ -1,9 +1,12 @@
 {
-  "asn": 17957,
-  "handle": "CTS",
-  "description": "SOUTH TOKYO CABLETELEVISION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17957,
+  "metadata" : {
+    "handle" : "CTS",
+    "description" : "SOUTH TOKYO CABLETELEVISION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.236.232.0/21",
       "110.232.236.0/22",
       "115.165.184.0/21",
@@ -11,6 +14,6 @@
       "210.191.128.0/19",
       "219.103.96.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

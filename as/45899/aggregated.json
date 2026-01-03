@@ -1,9 +1,12 @@
 {
-  "asn": 45899,
-  "handle": "VNPT-AS-VN",
-  "description": "VNPT Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45899,
+  "metadata" : {
+    "handle" : "VNPT-AS-VN",
+    "description" : "VNPT Corp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.160.0.0/11",
       "14.224.0.0/16",
       "14.226.0.0/15",
@@ -103,7 +106,7 @@
       "221.132.52.0/22",
       "222.252.0.0/14"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:ee0::/31",
       "2001:ee2::/32"
     ]

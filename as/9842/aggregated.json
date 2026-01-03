@@ -1,9 +1,12 @@
 {
-  "asn": 9842,
-  "handle": "LDCC-AS",
-  "description": "LOTTE INNOVATE Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9842,
+  "metadata" : {
+    "handle" : "LDCC-AS",
+    "description" : "LOTTE INNOVATE Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.180.188.0/24",
       "58.180.191.0/24",
       "124.243.0.0/17",
@@ -12,6 +15,6 @@
       "210.93.128.0/18",
       "223.253.0.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 210123,
-  "handle": "NUBBITEL",
-  "description": "NUBBITEL TELECOM S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210123,
+  "metadata" : {
+    "handle" : "NUBBITEL",
+    "description" : "NUBBITEL TELECOM S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.61.248.0/21",
       "154.62.68.0/22",
       "185.50.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:ace0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 56048,
-  "handle": "CMNET-BEIJING-AP",
-  "description": "China Mobile Communications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56048,
+  "metadata" : {
+    "handle" : "CMNET-BEIJING-AP",
+    "description" : "China Mobile Communications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "39.134.133.0/24",
       "39.134.134.0/23",
       "39.134.164.0/24",
@@ -70,7 +73,7 @@
       "223.160.128.0/22",
       "223.161.196.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2409:8000::/40",
       "2409:8000:800::/40",
       "2409:8000:1000::/40",

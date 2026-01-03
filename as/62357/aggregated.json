@@ -1,14 +1,17 @@
 {
-  "asn": 62357,
-  "handle": "MEDNET",
-  "description": "2M-IT Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62357,
+  "metadata" : {
+    "handle" : "MEDNET",
+    "description" : "2M-IT Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.98.192.0/22",
       "185.39.184.0/22",
       "193.143.192.0/19",
       "193.143.253.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

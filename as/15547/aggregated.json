@@ -1,9 +1,12 @@
 {
-  "asn": 15547,
-  "handle": "NETPLUS",
-  "description": "netplus.ch SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15547,
+  "metadata" : {
+    "handle" : "NETPLUS",
+    "description" : "netplus.ch SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.31.48.0/20",
       "37.0.32.0/19",
       "77.242.160.0/20",
@@ -41,7 +44,7 @@
       "213.238.0.0/19",
       "217.79.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:14a8::/32",
       "2a02:26a0::/29",
       "2a03:4380::/32"

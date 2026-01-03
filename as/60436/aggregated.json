@@ -1,9 +1,12 @@
 {
-  "asn": 60436,
-  "handle": "AS-KBCGROUP-DCBE",
-  "description": "KBC GLOBAL SERVICES NV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60436,
+  "metadata" : {
+    "handle" : "AS-KBCGROUP-DCBE",
+    "description" : "KBC GLOBAL SERVICES NV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.244.1.0/24",
       "193.244.4.0/22",
       "193.244.9.0/24",
@@ -45,7 +48,7 @@
       "193.244.253.0/24",
       "193.245.3.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e040:c08::/48",
       "2a00:e040:c0c::/48"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 56339,
-  "handle": "BOCAL",
-  "description": "Ionis Group - Ionis Schools of Technology and Management SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56339,
+  "metadata" : {
+    "handle" : "BOCAL",
+    "description" : "Ionis Group - Ionis Schools of Technology and Management SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.5.0.0/24",
       "163.5.3.0/24",
       "163.5.4.0/24",
@@ -13,6 +16,6 @@
       "163.5.55.0/24",
       "163.5.68.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

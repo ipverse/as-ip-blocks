@@ -1,9 +1,12 @@
 {
-  "asn": 61098,
-  "handle": "EXOSCALE",
-  "description": "Akenes SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61098,
+  "metadata" : {
+    "handle" : "EXOSCALE",
+    "description" : "Akenes SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.217.160.0/22",
       "85.217.172.0/22",
       "85.217.184.0/22",
@@ -25,7 +28,7 @@
       "185.150.8.0/22",
       "194.182.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:c41::/32",
       "2a04:c42::/31",
       "2a04:c44::/30",

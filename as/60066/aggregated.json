@@ -1,11 +1,14 @@
 {
-  "asn": 60066,
-  "handle": "TELE2LV-AS",
-  "description": "Tele2 SIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60066,
+  "metadata" : {
+    "handle" : "TELE2LV-AS",
+    "description" : "Tele2 SIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.148.119.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

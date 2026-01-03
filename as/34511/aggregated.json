@@ -1,14 +1,17 @@
 {
-  "asn": 34511,
-  "handle": "F-INTEGRA-AS",
-  "description": "Fundacion Integra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34511,
+  "metadata" : {
+    "handle" : "F-INTEGRA-AS",
+    "description" : "Fundacion Integra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.73.144.0/20",
       "155.54.0.0/16",
       "185.190.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:250:f000::/36"
     ]
   }

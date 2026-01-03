@@ -1,15 +1,18 @@
 {
-  "asn": 21449,
-  "handle": "ETATGE",
-  "description": "ETAT DE GENEVE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21449,
+  "metadata" : {
+    "handle" : "ETATGE",
+    "description" : "ETAT DE GENEVE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.217.128.0/24",
       "159.241.0.0/16",
       "160.53.0.0/16",
       "193.134.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:2911::/32"
     ]
   }

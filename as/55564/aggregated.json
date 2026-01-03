@@ -1,13 +1,16 @@
 {
-  "asn": 55564,
-  "handle": "JETNET-AU",
-  "description": "Malcolm Weatherley",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55564,
+  "metadata" : {
+    "handle" : "JETNET-AU",
+    "description" : "Malcolm Weatherley",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.112.72.0/23",
       "103.212.240.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:ae00:a::/48",
       "2406:ae00:100::/48",
       "2406:ae00:f00d::/48"

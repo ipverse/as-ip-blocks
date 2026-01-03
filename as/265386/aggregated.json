@@ -1,12 +1,15 @@
 {
-  "asn": 265386,
-  "handle": "NETWIRELESS-INTERNET",
-  "description": "NetWireless Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265386,
+  "metadata" : {
+    "handle" : "NETWIRELESS-INTERNET",
+    "description" : "NetWireless Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.194.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3348::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 18447,
-  "handle": "AFFINITY-INTER",
-  "description": "Ntirety Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18447,
+  "metadata" : {
+    "handle" : "AFFINITY-INTER",
+    "description" : "Ntirety Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.58.62.0/24",
       "64.26.0.0/24",
       "64.26.28.0/24",
@@ -48,7 +51,7 @@
       "216.185.130.0/23",
       "216.189.148.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:7e00:8::/48"
     ]
   }

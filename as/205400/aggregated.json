@@ -1,13 +1,16 @@
 {
-  "asn": 205400,
-  "handle": "VIVOCONNECTION",
-  "description": "VIVO CONNECTION spol. s r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205400,
+  "metadata" : {
+    "handle" : "VIVOCONNECTION",
+    "description" : "VIVO CONNECTION spol. s r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.132.136.0/22",
       "185.219.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:e7c0::/29"
     ]
   }

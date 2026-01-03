@@ -1,12 +1,15 @@
 {
-  "asn": 62024,
-  "handle": "PACS",
-  "description": "SIHTASUTUS EESTI TERVISHOIU PILDIPANK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62024,
+  "metadata" : {
+    "handle" : "PACS",
+    "description" : "SIHTASUTUS EESTI TERVISHOIU PILDIPANK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.50.96.0/23",
       "185.50.98.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

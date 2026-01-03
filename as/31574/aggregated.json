@@ -1,12 +1,15 @@
 {
-  "asn": 31574,
-  "handle": "SE-BGC-AS",
-  "description": "Bankgirocentralen BGC AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31574,
+  "metadata" : {
+    "handle" : "SE-BGC-AS",
+    "description" : "Bankgirocentralen BGC AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.242.109.0/24",
       "194.242.110.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

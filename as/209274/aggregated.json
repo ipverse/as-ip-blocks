@@ -1,13 +1,16 @@
 {
-  "asn": 209274,
-  "handle": "KRAKEN-NETWORK-ISP",
-  "description": "Kraken Network ISP LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209274,
+  "metadata" : {
+    "handle" : "KRAKEN-NETWORK-ISP",
+    "description" : "Kraken Network ISP LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.71.224.0/24",
       "151.243.109.0/24",
       "169.40.135.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

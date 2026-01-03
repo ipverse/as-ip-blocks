@@ -1,9 +1,12 @@
 {
-  "asn": 264617,
-  "handle": "GRUPO-PANAGLOBAL-15",
-  "description": "GRUPO PANAGLOBAL 15 S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264617,
+  "metadata" : {
+    "handle" : "GRUPO-PANAGLOBAL-15",
+    "description" : "GRUPO PANAGLOBAL 15 S.A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.245.119.0/24",
       "45.38.72.0/24",
       "45.38.75.0/24",
@@ -43,7 +46,7 @@
       "212.42.198.0/24",
       "212.42.202.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:9e40::/32",
       "2a0a:20c0::/29"
     ]

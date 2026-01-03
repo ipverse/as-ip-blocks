@@ -1,12 +1,15 @@
 {
-  "asn": 53423,
-  "handle": "BRAZOSWIFI",
-  "description": "Brazos WiFi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53423,
+  "metadata" : {
+    "handle" : "BRAZOSWIFI",
+    "description" : "Brazos WiFi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.5.192.0/19",
       "192.171.200.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

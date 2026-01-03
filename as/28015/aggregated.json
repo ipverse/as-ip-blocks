@@ -1,9 +1,12 @@
 {
-  "asn": 28015,
-  "handle": "MERCO-COMUNICACIONES",
-  "description": "MERCO COMUNICACIONES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28015,
+  "metadata" : {
+    "handle" : "MERCO-COMUNICACIONES",
+    "description" : "MERCO COMUNICACIONES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.5.160.0/19",
       "190.6.208.0/20",
       "190.107.96.0/19",
@@ -17,6 +20,6 @@
       "201.217.239.0/24",
       "201.219.160.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 399542,
-  "handle": "FGS-NETWORK",
-  "description": "Flying Goose Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399542,
+  "metadata" : {
+    "handle" : "FGS-NETWORK",
+    "description" : "Flying Goose Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.143.111.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f8ef::/40"
     ]
   }

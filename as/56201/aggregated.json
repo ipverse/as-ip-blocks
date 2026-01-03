@@ -1,9 +1,12 @@
 {
-  "asn": 56201,
-  "handle": "ZOHO-IN",
-  "description": "ZOHO Corporation Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56201,
+  "metadata" : {
+    "handle" : "ZOHO-IN",
+    "description" : "ZOHO Corporation Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.239.212.0/22",
       "103.84.216.0/22",
       "103.89.74.0/23",
@@ -20,7 +23,7 @@
       "199.67.76.0/22",
       "199.67.94.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:6d20:10::/47",
       "2400:6d20:fc02::/47"
     ]

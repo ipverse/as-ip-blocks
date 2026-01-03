@@ -1,9 +1,12 @@
 {
-  "asn": 17878,
-  "handle": "MARK1-AS",
-  "description": "DREAMMARK1",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17878,
+  "metadata" : {
+    "handle" : "MARK1-AS",
+    "description" : "DREAMMARK1",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.238.192.0/19",
       "49.238.224.0/22",
       "49.238.231.0/24",
@@ -49,6 +52,6 @@
       "220.230.243.0/24",
       "220.230.254.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

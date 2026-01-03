@@ -1,12 +1,15 @@
 {
-  "asn": 135586,
-  "handle": "INTERLINK-CSLOXINFO-AS-AP",
-  "description": "INTERLINK COMMUNICATION PCL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135586,
+  "metadata" : {
+    "handle" : "INTERLINK-CSLOXINFO-AS-AP",
+    "description" : "INTERLINK COMMUNICATION PCL.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.159.65.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:b0:1005::/48"
     ]
   }

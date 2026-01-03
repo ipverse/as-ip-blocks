@@ -1,12 +1,15 @@
 {
-  "asn": 141621,
-  "handle": "GMS-AS-ID",
-  "description": "PT Galuh Multidata Solution",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141621,
+  "metadata" : {
+    "handle" : "GMS-AS-ID",
+    "description" : "PT Galuh Multidata Solution",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.161.164.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:f540::/48"
     ]
   }

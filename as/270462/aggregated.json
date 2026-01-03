@@ -1,12 +1,15 @@
 {
-  "asn": 270462,
-  "handle": "CHUINET-PROVEDOR",
-  "description": "CHUINET Provedor",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270462,
+  "metadata" : {
+    "handle" : "CHUINET-PROVEDOR",
+    "description" : "CHUINET Provedor",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.73.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6c58::/32"
     ]
   }

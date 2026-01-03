@@ -1,9 +1,12 @@
 {
-  "asn": 31673,
-  "handle": "UNISERVER-AS",
-  "description": "Uniserver Internet B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31673,
+  "metadata" : {
+    "handle" : "UNISERVER-AS",
+    "description" : "Uniserver Internet B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.39.168.0/21",
       "31.171.200.0/21",
       "62.148.160.0/19",
@@ -42,7 +45,7 @@
       "194.56.84.0/22",
       "195.69.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:16e8::/32",
       "2a00:f80::/32",
       "2a01:baa0::/32",

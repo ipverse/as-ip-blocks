@@ -1,12 +1,15 @@
 {
-  "asn": 263194,
-  "handle": "ADVANTUN",
-  "description": "Advantun SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263194,
+  "metadata" : {
+    "handle" : "ADVANTUN",
+    "description" : "Advantun SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.43.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:c480::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 42532,
-  "handle": "VEESP-LV-AS",
-  "description": "SIA VEESP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42532,
+  "metadata" : {
+    "handle" : "VEESP-LV-AS",
+    "description" : "SIA VEESP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.34.208.0/21",
       "37.128.204.0/22",
       "45.43.76.0/22",
@@ -28,7 +31,7 @@
       "212.6.44.0/24",
       "216.173.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1838:9100::/48",
       "2a0c:16c0::/30",
       "2a11:8100::/32"

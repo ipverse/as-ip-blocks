@@ -1,11 +1,14 @@
 {
-  "asn": 43883,
-  "handle": "CITY-AS",
-  "description": "Citynet OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43883,
+  "metadata" : {
+    "handle" : "CITY-AS",
+    "description" : "Citynet OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.238.64.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 150966,
-  "handle": "IDNIC-CENTRALDIGITALNETWORK-AS-ID",
-  "description": "PT Central Digital Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150966,
+  "metadata" : {
+    "handle" : "IDNIC-CENTRALDIGITALNETWORK-AS-ID",
+    "description" : "PT Central Digital Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.130.82.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:56c0::/48"
     ]
   }

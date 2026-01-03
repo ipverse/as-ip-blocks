@@ -1,9 +1,12 @@
 {
-  "asn": 36530,
-  "handle": "FUTURE-LAIN",
-  "description": "IDC Cube",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36530,
+  "metadata" : {
+    "handle" : "FUTURE-LAIN",
+    "description" : "IDC Cube",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.56.27.0/24",
       "23.142.132.0/24",
       "23.185.104.0/24",
@@ -38,7 +41,7 @@
       "202.155.155.0/24",
       "217.145.75.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f864:121::/48",
       "2602:f864:fff::/48",
       "2602:f921:f00::/47",

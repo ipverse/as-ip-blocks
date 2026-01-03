@@ -1,9 +1,12 @@
 {
-  "asn": 204996,
-  "handle": "TMNET",
-  "description": "Telemix AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204996,
+  "metadata" : {
+    "handle" : "TMNET",
+    "description" : "Telemix AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.67.8.0/22",
       "185.170.248.0/22",
       "193.30.134.0/24",
@@ -11,7 +14,7 @@
       "193.30.165.0/24",
       "193.30.166.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:ed00::/29"
     ]
   }

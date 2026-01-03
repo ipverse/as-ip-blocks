@@ -1,16 +1,19 @@
 {
-  "asn": 39217,
-  "handle": "ELMEC-AS",
-  "description": "ELMEC INFORMATICA S.P.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39217,
+  "metadata" : {
+    "handle" : "ELMEC-AS",
+    "description" : "ELMEC INFORMATICA S.P.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.53.148.0/22",
       "185.98.74.0/23",
       "185.132.168.0/22",
       "185.173.244.0/22",
       "194.79.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4760::/32"
     ]
   }

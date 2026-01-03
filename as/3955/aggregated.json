@@ -1,9 +1,12 @@
 {
-  "asn": 3955,
-  "handle": "CMPC-2008",
-  "description": "Compucom Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3955,
+  "metadata" : {
+    "handle" : "CMPC-2008",
+    "description" : "Compucom Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.108.123.0/24",
       "161.108.128.0/24",
       "161.108.130.0/24",
@@ -13,6 +16,6 @@
       "192.33.232.0/24",
       "192.84.69.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

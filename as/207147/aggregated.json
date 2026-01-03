@@ -1,9 +1,12 @@
 {
-  "asn": 207147,
-  "handle": "NETCOM-AS",
-  "description": "Nexera SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207147,
+  "metadata" : {
+    "handle" : "NETCOM-AS",
+    "description" : "Nexera SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.11.68.0/22",
       "45.88.128.0/22",
       "45.89.112.0/22",
@@ -19,6 +22,6 @@
       "185.194.120.0/22",
       "185.237.40.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

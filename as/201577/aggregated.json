@@ -1,13 +1,16 @@
 {
-  "asn": 201577,
-  "handle": "MONSTERNETT",
-  "description": "Monsternett AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201577,
+  "metadata" : {
+    "handle" : "MONSTERNETT",
+    "description" : "Monsternett AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.20.168.0/22",
       "217.171.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:15a0::/32"
     ]
   }

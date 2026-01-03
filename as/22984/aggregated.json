@@ -1,9 +1,12 @@
 {
-  "asn": 22984,
-  "handle": "ECC-65",
-  "description": "Lightspeed Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22984,
+  "metadata" : {
+    "handle" : "ECC-65",
+    "description" : "Lightspeed Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.128.100.0/23",
       "64.128.167.0/24",
       "64.132.178.0/23",
@@ -12,6 +15,6 @@
       "168.215.98.0/24",
       "168.215.103.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

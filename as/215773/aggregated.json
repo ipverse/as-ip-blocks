@@ -1,13 +1,16 @@
 {
-  "asn": 215773,
-  "handle": "TXRX",
-  "description": "TX RX SHPK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215773,
+  "metadata" : {
+    "handle" : "TXRX",
+    "description" : "TX RX SHPK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.56.182.0/24",
       "212.32.43.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:5580::/29"
     ]
   }

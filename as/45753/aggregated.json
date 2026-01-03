@@ -1,9 +1,12 @@
 {
-  "asn": 45753,
-  "handle": "NETSEC-HK",
-  "description": "Netsec Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45753,
+  "metadata" : {
+    "handle" : "NETSEC-HK",
+    "description" : "Netsec Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.225.197.0/24",
       "43.225.198.0/23",
       "52.128.224.0/19",
@@ -70,7 +73,7 @@
       "203.7.167.0/24",
       "216.118.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:8680::/32"
     ]
   }

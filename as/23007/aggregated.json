@@ -1,12 +1,15 @@
 {
-  "asn": 23007,
-  "handle": "UNIVERSIDAD-LOS-ANDES",
-  "description": "Universidad de Los Andes",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23007,
+  "metadata" : {
+    "handle" : "UNIVERSIDAD-LOS-ANDES",
+    "description" : "Universidad de Los Andes",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "150.185.128.0/18",
       "190.168.0.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

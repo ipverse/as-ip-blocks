@@ -1,9 +1,12 @@
 {
-  "asn": 989,
-  "handle": "ANAXA3-ASN",
-  "description": "ASPnix",
-  "subnets": {
-    "ipv4": [
+  "asn" : 989,
+  "metadata" : {
+    "handle" : "ANAXA3-ASN",
+    "description" : "ASPnix",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.8.244.0/22",
       "8.8.248.0/23",
       "8.18.120.0/23",
@@ -15,7 +18,7 @@
       "8.44.142.0/23",
       "209.0.50.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fb29::/48"
     ]
   }

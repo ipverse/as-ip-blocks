@@ -1,9 +1,12 @@
 {
-  "asn": 7560,
-  "handle": "CHONBUK-AS",
-  "description": "Jeonbuk National University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7560,
+  "metadata" : {
+    "handle" : "CHONBUK-AS",
+    "description" : "Jeonbuk National University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.1.40.0/23",
       "113.198.32.0/19",
       "113.198.64.0/21",
@@ -15,6 +18,6 @@
       "210.117.128.0/18",
       "220.69.160.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

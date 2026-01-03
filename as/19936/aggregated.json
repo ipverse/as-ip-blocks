@@ -1,14 +1,17 @@
 {
-  "asn": 19936,
-  "handle": "GORDONFOODS",
-  "description": "Gordon Food Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19936,
+  "metadata" : {
+    "handle" : "GORDONFOODS",
+    "description" : "Gordon Food Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.111.54.0/23",
       "98.158.228.0/23",
       "104.194.24.0/23",
       "208.74.116.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 58519,
-  "handle": "CHINATELECOM-CTCLOUD",
-  "description": "Cloud Computing Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58519,
+  "metadata" : {
+    "handle" : "CHINATELECOM-CTCLOUD",
+    "description" : "Cloud Computing Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.111.128.0/18",
       "36.114.0.0/16",
       "42.123.64.0/18",
@@ -123,7 +126,7 @@
       "222.86.169.0/24",
       "223.255.252.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:c080:1800::/37",
       "240e:40:8::/48",
       "240e:40:c::/48",

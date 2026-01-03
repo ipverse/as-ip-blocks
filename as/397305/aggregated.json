@@ -1,9 +1,12 @@
 {
-  "asn": 397305,
-  "handle": "FMCTC",
-  "description": "FMCTC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397305,
+  "metadata" : {
+    "handle" : "FMCTC",
+    "description" : "FMCTC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.55.164.0/24",
       "67.55.240.0/24",
       "167.142.167.0/24",
@@ -30,6 +33,6 @@
       "216.49.169.0/24",
       "216.51.217.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

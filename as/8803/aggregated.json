@@ -1,9 +1,12 @@
 {
-  "asn": 8803,
-  "handle": "MIGROS",
-  "description": "Migros-Genossenschafts-Bund",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8803,
+  "metadata" : {
+    "handle" : "MIGROS",
+    "description" : "Migros-Genossenschafts-Bund",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.180.0.0/16",
       "146.67.0.0/16",
       "159.179.0.0/16",
@@ -14,6 +17,6 @@
       "193.8.180.0/24",
       "194.124.217.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

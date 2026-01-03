@@ -1,12 +1,15 @@
 {
-  "asn": 28500,
-  "handle": "NETWORK-INFORMATION-CENTER",
-  "description": "Network Information Center México",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28500,
+  "metadata" : {
+    "handle" : "NETWORK-INFORMATION-CENTER",
+    "description" : "Network Information Center México",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.248.68.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:c4:d0::/48"
     ]
   }

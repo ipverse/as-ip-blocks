@@ -1,12 +1,15 @@
 {
-  "asn": 265873,
-  "handle": "FIBER-TO-THE-HOME-FTTH",
-  "description": "FIBER TO THE HOME FTTH SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265873,
+  "metadata" : {
+    "handle" : "FIBER-TO-THE-HOME-FTTH",
+    "description" : "FIBER TO THE HOME FTTH SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.226.64.0/24",
       "45.226.66.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

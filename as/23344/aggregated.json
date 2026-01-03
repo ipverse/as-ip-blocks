@@ -1,9 +1,12 @@
 {
-  "asn": 23344,
-  "handle": "DSS-EDGE",
-  "description": "Disney Worldwide Services Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23344,
+  "metadata" : {
+    "handle" : "DSS-EDGE",
+    "description" : "Disney Worldwide Services Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.104.96.0/22",
       "139.104.100.0/23",
       "139.104.102.0/24",
@@ -15,7 +18,7 @@
       "139.104.122.0/23",
       "157.23.228.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:dc0:800b::/48",
       "2405:dc0:80ff::/48",
       "2620:138:3010::/47",

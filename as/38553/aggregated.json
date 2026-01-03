@@ -1,9 +1,12 @@
 {
-  "asn": 38553,
-  "handle": "DCTECHMSI-AS-AP",
-  "description": "DC Tech Micro Services Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38553,
+  "metadata" : {
+    "handle" : "DCTECHMSI-AS-AP",
+    "description" : "DC Tech Micro Services Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.123.40.0/23",
       "103.123.42.0/24",
       "120.72.16.0/22",
@@ -12,6 +15,6 @@
       "120.72.24.0/21",
       "202.137.112.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

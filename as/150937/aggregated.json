@@ -1,12 +1,15 @@
 {
-  "asn": 150937,
-  "handle": "IDNIC-NEUTRON-AS-ID",
-  "description": "PT Neutron Mitra Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150937,
+  "metadata" : {
+    "handle" : "IDNIC-NEUTRON-AS-ID",
+    "description" : "PT Neutron Mitra Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.110.100.0/23",
       "103.225.46.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

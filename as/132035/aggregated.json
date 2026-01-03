@@ -1,12 +1,15 @@
 {
-  "asn": 132035,
-  "handle": "UUM-MY-AS-AP",
-  "description": "Universiti Utara Malaysia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132035,
+  "metadata" : {
+    "handle" : "UUM-MY-AS-AP",
+    "description" : "Universiti Utara Malaysia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.5.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:1100::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 7632,
-  "handle": "LINKNET-EXCHANGE-AS-ID",
-  "description": "Linknet-Exchange ASN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7632,
+  "metadata" : {
+    "handle" : "LINKNET-EXCHANGE-AS-ID",
+    "description" : "Linknet-Exchange ASN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "111.95.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:4c80::/32"
     ]
   }

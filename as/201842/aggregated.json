@@ -1,12 +1,15 @@
 {
-  "asn": 201842,
-  "handle": "RCSI-ASN",
-  "description": "RCSI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201842,
+  "metadata" : {
+    "handle" : "RCSI-ASN",
+    "description" : "RCSI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.45.206.0/24",
       "193.233.79.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

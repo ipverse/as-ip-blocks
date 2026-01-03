@@ -1,12 +1,15 @@
 {
-  "asn": 198866,
-  "handle": "CROSSNET-AS",
-  "description": "Crossnet AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198866,
+  "metadata" : {
+    "handle" : "CROSSNET-AS",
+    "description" : "Crossnet AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.71.114.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:280:3b0::/48"
     ]
   }

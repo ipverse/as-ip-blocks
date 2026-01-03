@@ -1,13 +1,16 @@
 {
-  "asn": 397449,
-  "handle": "HAYWIRE-ASN-01",
-  "description": "Haywire",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397449,
+  "metadata" : {
+    "handle" : "HAYWIRE-ASN-01",
+    "description" : "Haywire",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.251.172.0/23",
       "167.150.192.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:34c0::/32"
     ]
   }

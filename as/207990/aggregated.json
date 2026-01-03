@@ -1,9 +1,12 @@
 {
-  "asn": 207990,
-  "handle": "HR-CUSTOMER",
-  "description": "HostRoyale Technologies Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207990,
+  "metadata" : {
+    "handle" : "HR-CUSTOMER",
+    "description" : "HostRoyale Technologies Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.76.0/22",
       "5.62.152.0/21",
       "23.249.161.0/24",
@@ -305,7 +308,7 @@
       "217.194.151.0/24",
       "217.194.152.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:2900::/32",
       "2600:2902::/31"
     ]

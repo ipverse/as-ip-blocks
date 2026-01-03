@@ -1,9 +1,12 @@
 {
-  "asn": 9922,
-  "handle": "NKB-AS-TW",
-  "description": "New Kaohsiung Broadband LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9922,
+  "metadata" : {
+    "handle" : "NKB-AS-TW",
+    "description" : "New Kaohsiung Broadband LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "39.1.0.0/18",
       "39.1.64.0/20",
       "61.61.4.0/23",
@@ -17,6 +20,6 @@
       "124.218.128.0/19",
       "203.190.16.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

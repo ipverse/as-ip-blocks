@@ -1,12 +1,15 @@
 {
-  "asn": 28960,
-  "handle": "DREI-BANKEN-AS",
-  "description": "3 Banken IT GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28960,
+  "metadata" : {
+    "handle" : "DREI-BANKEN-AS",
+    "description" : "3 Banken IT GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.138.123.0/24",
       "194.107.40.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

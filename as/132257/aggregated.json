@@ -1,13 +1,16 @@
 {
-  "asn": 132257,
-  "handle": "AREA9-AU",
-  "description": "Area9 IT Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132257,
+  "metadata" : {
+    "handle" : "AREA9-AU",
+    "description" : "Area9 IT Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.8.236.0/23",
       "103.243.150.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:2b1::/48",
       "2404:2940::/32"
     ]

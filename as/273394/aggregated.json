@@ -1,13 +1,16 @@
 {
-  "asn": 273394,
-  "handle": "TEEB-WEB",
-  "description": "TEEB WEB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273394,
+  "metadata" : {
+    "handle" : "TEEB-WEB",
+    "description" : "TEEB WEB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "191.7.32.0/24",
       "191.7.34.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8dfc::/32"
     ]
   }

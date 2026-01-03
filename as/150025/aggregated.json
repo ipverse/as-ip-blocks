@@ -1,12 +1,15 @@
 {
-  "asn": 150025,
-  "handle": "MMSPL-AS-IN",
-  "description": "Milan Multiservices Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150025,
+  "metadata" : {
+    "handle" : "MMSPL-AS-IN",
+    "description" : "Milan Multiservices Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.160.142.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:5140::/48"
     ]
   }

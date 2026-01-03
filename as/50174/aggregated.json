@@ -1,9 +1,12 @@
 {
-  "asn": 50174,
-  "handle": "INTEXCOM-AS",
-  "description": "Intexcom OOO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50174,
+  "metadata" : {
+    "handle" : "INTEXCOM-AS",
+    "description" : "Intexcom OOO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.40.64.0/23",
       "31.40.67.0/24",
       "31.40.76.0/23",
@@ -16,6 +19,6 @@
       "109.229.46.0/24",
       "193.106.4.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

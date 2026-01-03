@@ -1,9 +1,12 @@
 {
-  "asn": 131536,
-  "handle": "SHGWBNNET",
-  "description": "Shanghai Great Wall Broadband Network Service Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131536,
+  "metadata" : {
+    "handle" : "SHGWBNNET",
+    "description" : "Shanghai Great Wall Broadband Network Service Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "124.14.2.0/23",
       "124.14.5.0/24",
       "124.14.7.0/24",
@@ -17,6 +20,6 @@
       "211.161.209.0/24",
       "211.161.221.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

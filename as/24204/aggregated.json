@@ -1,12 +1,15 @@
 {
-  "asn": 24204,
-  "handle": "SATNETCOM-AS-ID",
-  "description": "Satnetcom Balikpapan PT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24204,
+  "metadata" : {
+    "handle" : "SATNETCOM-AS-ID",
+    "description" : "Satnetcom Balikpapan PT.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.80.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:8e00::/32"
     ]
   }

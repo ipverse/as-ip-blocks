@@ -1,11 +1,14 @@
 {
-  "asn": 50006,
-  "handle": "TAMA-AS",
-  "description": "TAMA GROUP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50006,
+  "metadata" : {
+    "handle" : "TAMA-AS",
+    "description" : "TAMA GROUP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.104.77.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 268983,
-  "handle": "NAXOS-TELECOM",
-  "description": "NAXOS TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268983,
+  "metadata" : {
+    "handle" : "NAXOS-TELECOM",
+    "description" : "NAXOS TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.177.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5da0::/32"
     ]
   }

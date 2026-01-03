@@ -1,14 +1,17 @@
 {
-  "asn": 396507,
-  "handle": "EMERALD-ONION",
-  "description": "Emerald Onion",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396507,
+  "metadata" : {
+    "handle" : "EMERALD-ONION",
+    "description" : "Emerald Onion",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.129.64.0/24",
       "23.190.144.0/24",
       "103.232.206.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:18c::/36"
     ]
   }

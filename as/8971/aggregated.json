@@ -1,9 +1,12 @@
 {
-  "asn": 8971,
-  "handle": "EVIDEN-AUSTRIA-GMBH",
-  "description": "Eviden Austria GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8971,
+  "metadata" : {
+    "handle" : "EVIDEN-AUSTRIA-GMBH",
+    "description" : "Eviden Austria GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.138.228.0/24",
       "193.80.22.0/24",
       "193.80.42.0/24",
@@ -12,6 +15,6 @@
       "194.138.12.0/24",
       "194.242.37.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

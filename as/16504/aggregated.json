@@ -1,9 +1,12 @@
 {
-  "asn": 16504,
-  "handle": "GRANITE",
-  "description": "Granite Telecommunications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16504,
+  "metadata" : {
+    "handle" : "GRANITE",
+    "description" : "Granite Telecommunications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.38.33.0/24",
       "8.42.0.0/23",
       "63.210.209.0/24",
@@ -46,7 +49,7 @@
       "207.40.1.0/24",
       "208.65.249.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ffde::/36",
       "2606:6440::/32"
     ]

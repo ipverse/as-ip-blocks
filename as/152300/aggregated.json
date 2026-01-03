@@ -1,11 +1,14 @@
 {
-  "asn": 152300,
-  "handle": "SKYLINKNET-AS-AP",
-  "description": "Sky Link Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152300,
+  "metadata" : {
+    "handle" : "SKYLINKNET-AS-AP",
+    "description" : "Sky Link Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.10.64.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

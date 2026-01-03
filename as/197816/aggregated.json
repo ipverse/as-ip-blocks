@@ -1,9 +1,12 @@
 {
-  "asn": 197816,
-  "handle": "ETIX-EVERYWHERE",
-  "description": "Etix Everywhere Ouest SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197816,
+  "metadata" : {
+    "handle" : "ETIX-EVERYWHERE",
+    "description" : "Etix Everywhere Ouest SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.222.192.0/21",
       "94.140.4.0/24",
       "185.42.28.0/22",
@@ -11,7 +14,7 @@
       "185.188.160.0/22",
       "185.188.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:89c0::/29",
       "2a10:13c0:ef1c::/48"
     ]

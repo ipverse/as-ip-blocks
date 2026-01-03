@@ -1,13 +1,16 @@
 {
-  "asn": 393759,
-  "handle": "CITY-OF-AUSTIN",
-  "description": "City of Austin Texas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393759,
+  "metadata" : {
+    "handle" : "CITY-OF-AUSTIN",
+    "description" : "City of Austin Texas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.89.0.0/20",
       "162.89.100.0/24",
       "162.89.200.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

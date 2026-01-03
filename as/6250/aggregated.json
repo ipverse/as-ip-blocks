@@ -1,9 +1,12 @@
 {
-  "asn": 6250,
-  "handle": "NEONOVA-NET",
-  "description": "NeoNova Network Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6250,
+  "metadata" : {
+    "handle" : "NEONOVA-NET",
+    "description" : "NeoNova Network Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.58.80.0/24",
       "67.218.174.0/24",
       "74.51.121.0/24",
@@ -35,6 +38,6 @@
       "216.163.120.0/22",
       "216.228.85.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 24982,
-  "handle": "BANKMED",
-  "description": "BankMed sal",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24982,
+  "metadata" : {
+    "handle" : "BANKMED",
+    "description" : "BankMed sal",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.57.2.0/24",
       "85.112.68.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

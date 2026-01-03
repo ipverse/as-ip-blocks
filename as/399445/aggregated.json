@@ -1,11 +1,14 @@
 {
-  "asn": 399445,
-  "handle": "TVCC-NET1",
-  "description": "TVCC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399445,
+  "metadata" : {
+    "handle" : "TVCC-NET1",
+    "description" : "TVCC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.69.48.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

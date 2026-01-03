@@ -1,13 +1,16 @@
 {
-  "asn": 149920,
-  "handle": "METRO-RB-AS-ID",
-  "description": "PT Metro Ring Bersama",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149920,
+  "metadata" : {
+    "handle" : "METRO-RB-AS-ID",
+    "description" : "PT Metro Ring Bersama",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.161.1.0/24",
       "103.191.129.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:3940::/48"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 42139,
-  "handle": "RIPN-RU-NSK",
-  "description": "Join-stock company Internet ExchangeMSK-IX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42139,
+  "metadata" : {
+    "handle" : "RIPN-RU-NSK",
+    "description" : "Join-stock company Internet ExchangeMSK-IX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.232.230.0/24",
       "193.232.240.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1211::/48",
       "2a0c:a9c7:240::/48"
     ]

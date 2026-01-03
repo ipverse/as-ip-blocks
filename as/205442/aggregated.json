@@ -1,12 +1,15 @@
 {
-  "asn": 205442,
-  "handle": "SMSTRAFFIC",
-  "description": "SMS Traffic LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205442,
+  "metadata" : {
+    "handle" : "SMSTRAFFIC",
+    "description" : "SMS Traffic LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.226.114.0/24",
       "212.92.99.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

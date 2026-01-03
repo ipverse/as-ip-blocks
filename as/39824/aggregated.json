@@ -1,9 +1,12 @@
 {
-  "asn": 39824,
-  "handle": "ALMANET-AS",
-  "description": "JSC Alma Telecommunications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39824,
+  "metadata" : {
+    "handle" : "ALMANET-AS",
+    "description" : "JSC Alma Telecommunications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.36.128.0/19",
       "62.84.32.0/19",
       "79.134.32.0/20",
@@ -33,7 +36,7 @@
       "213.232.244.0/24",
       "213.232.246.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:1a00::/33"
     ]
   }

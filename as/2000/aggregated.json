@@ -1,13 +1,16 @@
 {
-  "asn": 2000,
-  "handle": "IA-AS",
-  "description": "Internet Awareness Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2000,
+  "metadata" : {
+    "handle" : "IA-AS",
+    "description" : "Internet Awareness Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.41.171.0/24",
       "192.147.174.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:418:1410::/48"
     ]
   }

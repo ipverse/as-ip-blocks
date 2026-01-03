@@ -1,15 +1,18 @@
 {
-  "asn": 34383,
-  "handle": "TELOISE-AS",
-  "description": "Teloise",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34383,
+  "metadata" : {
+    "handle" : "TELOISE-AS",
+    "description" : "Teloise",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.117.128.0/19",
       "85.192.192.0/18",
       "89.170.0.0/16",
       "95.136.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:5e80::/32"
     ]
   }

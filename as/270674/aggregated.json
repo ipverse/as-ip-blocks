@@ -1,12 +1,15 @@
 {
-  "asn": 270674,
-  "handle": "WEBFIBER-TELECOM",
-  "description": "WebFiber Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270674,
+  "metadata" : {
+    "handle" : "WEBFIBER-TELECOM",
+    "description" : "WebFiber Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "189.45.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6fa4::/32"
     ]
   }

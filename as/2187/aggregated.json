@@ -1,12 +1,15 @@
 {
-  "asn": 2187,
-  "handle": "FR-SYVIK",
-  "description": "Renater",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2187,
+  "metadata" : {
+    "handle" : "FR-SYVIK",
+    "description" : "Renater",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.93.101.0/24",
       "192.93.212.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

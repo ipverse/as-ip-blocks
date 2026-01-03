@@ -1,14 +1,17 @@
 {
-  "asn": 213929,
-  "handle": "UP-NETWORK",
-  "description": "UP-NETWORK Sarl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213929,
+  "metadata" : {
+    "handle" : "UP-NETWORK",
+    "description" : "UP-NETWORK Sarl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.59.100.0/24",
       "82.21.4.0/24",
       "173.214.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:7d43::/35",
       "2a0e:7d43:2000::/36"
     ]

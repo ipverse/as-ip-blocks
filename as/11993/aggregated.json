@@ -1,15 +1,18 @@
 {
-  "asn": 11993,
-  "handle": "BANCO-BRASIL",
-  "description": "BANCO DO BRASIL S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11993,
+  "metadata" : {
+    "handle" : "BANCO-BRASIL",
+    "description" : "BANCO DO BRASIL S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.66.0.0/16",
       "198.184.161.0/24",
       "201.33.144.0/21",
       "201.33.152.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:8e::/36",
       "2801:8e:a000::/36",
       "2801:8e:f000::/48"

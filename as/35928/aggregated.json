@@ -1,9 +1,12 @@
 {
-  "asn": 35928,
-  "handle": "BECKMAN-COULTER-ASN",
-  "description": "BECKMAN COULTER INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35928,
+  "metadata" : {
+    "handle" : "BECKMAN-COULTER-ASN",
+    "description" : "BECKMAN COULTER INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.217.0.0/22",
       "134.217.6.0/24",
       "134.217.30.0/24",
@@ -49,6 +52,6 @@
       "134.217.244.0/23",
       "134.217.246.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

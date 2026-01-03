@@ -1,9 +1,12 @@
 {
-  "asn": 9982,
-  "handle": "PAICHAI-AS",
-  "description": "PAICHAI UNIVERSITY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9982,
+  "metadata" : {
+    "handle" : "PAICHAI-AS",
+    "description" : "PAICHAI UNIVERSITY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.150.248.0/21",
       "61.41.214.0/23",
       "114.70.82.0/23",
@@ -15,6 +18,6 @@
       "203.250.144.0/22",
       "203.250.188.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

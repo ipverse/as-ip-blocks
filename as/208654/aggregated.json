@@ -1,12 +1,15 @@
 {
-  "asn": 208654,
-  "handle": "GOUDA",
-  "description": "Gemeente Gouda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208654,
+  "metadata" : {
+    "handle" : "GOUDA",
+    "description" : "Gemeente Gouda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.85.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:c680::/32"
     ]
   }

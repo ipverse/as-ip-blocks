@@ -1,12 +1,15 @@
 {
-  "asn": 210125,
-  "handle": "PRIAMNET",
-  "description": "PRIAM NET Sh.p.k",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210125,
+  "metadata" : {
+    "handle" : "PRIAMNET",
+    "description" : "PRIAM NET Sh.p.k.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.174.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:ab40::/32"
     ]
   }

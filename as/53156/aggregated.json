@@ -1,12 +1,15 @@
 {
-  "asn": 53156,
-  "handle": "PORTALSAT-TELECOM",
-  "description": "PortalSAT Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53156,
+  "metadata" : {
+    "handle" : "PORTALSAT-TELECOM",
+    "description" : "PortalSAT Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.211.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4a04::/32"
     ]
   }

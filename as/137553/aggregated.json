@@ -1,13 +1,16 @@
 {
-  "asn": 137553,
-  "handle": "GLOBALCOM-AS-AP",
-  "description": "Global Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137553,
+  "metadata" : {
+    "handle" : "GLOBALCOM-AS-AP",
+    "description" : "Global Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.113.16.0/23",
       "103.113.18.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:b5c0::/32"
     ]
   }

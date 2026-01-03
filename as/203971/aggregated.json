@@ -1,15 +1,18 @@
 {
-  "asn": 203971,
-  "handle": "AZFIBERNET-ASN",
-  "description": "AzFiberNet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203971,
+  "metadata" : {
+    "handle" : "AZFIBERNET-ASN",
+    "description" : "AzFiberNet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.93.91.0/24",
       "185.118.48.0/22",
       "185.222.92.0/22",
       "217.179.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:91c0::/29"
     ]
   }

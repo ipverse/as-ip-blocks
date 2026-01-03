@@ -1,11 +1,14 @@
 {
-  "asn": 395820,
-  "handle": "ISG-SECURITY",
-  "description": "Integrated Security Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395820,
+  "metadata" : {
+    "handle" : "ISG-SECURITY",
+    "description" : "Integrated Security Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.226.29.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

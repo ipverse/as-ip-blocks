@@ -1,12 +1,15 @@
 {
-  "asn": 395712,
-  "handle": "MPUA-MILINK",
-  "description": "Milan Public Utilities Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395712,
+  "metadata" : {
+    "handle" : "MPUA-MILINK",
+    "description" : "Milan Public Utilities Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.199.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:fe0::/32"
     ]
   }

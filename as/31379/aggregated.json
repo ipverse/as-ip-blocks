@@ -1,11 +1,14 @@
 {
-  "asn": 31379,
-  "handle": "FPF-AS",
-  "description": "Federal Agency for State Property Management",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31379,
+  "metadata" : {
+    "handle" : "FPF-AS",
+    "description" : "Federal Agency for State Property Management",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.151.0.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

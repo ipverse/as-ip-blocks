@@ -1,14 +1,17 @@
 {
-  "asn": 64146,
-  "handle": "PIT-PERU",
-  "description": "PIT PERU S.A.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64146,
+  "metadata" : {
+    "handle" : "PIT-PERU",
+    "description" : "PIT PERU S.A.C",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.56.120.0/24",
       "38.199.93.0/24",
       "138.185.13.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:cd60:100::/48",
       "2803:cd60:102::/48"
     ]

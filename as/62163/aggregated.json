@@ -1,9 +1,12 @@
 {
-  "asn": 62163,
-  "handle": "IPRIVER-AS",
-  "description": "IP River Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62163,
+  "metadata" : {
+    "handle" : "IPRIVER-AS",
+    "description" : "IP River Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.157.64.0/21",
       "46.161.216.0/22",
       "154.47.82.0/24",
@@ -20,6 +23,6 @@
       "212.104.137.0/24",
       "213.146.175.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

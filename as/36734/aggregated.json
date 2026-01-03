@@ -1,9 +1,12 @@
 {
-  "asn": 36734,
-  "handle": "PAXIO-SFBA",
-  "description": "Paxio Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36734,
+  "metadata" : {
+    "handle" : "PAXIO-SFBA",
+    "description" : "Paxio Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.17.88.0/21",
       "63.216.64.0/21",
       "64.201.240.0/20",
@@ -17,7 +20,7 @@
       "204.153.192.0/22",
       "216.38.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:7f00::/28",
       "2604:4780::/32",
       "2607:5100::/28"

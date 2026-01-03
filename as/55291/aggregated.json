@@ -1,12 +1,15 @@
 {
-  "asn": 55291,
-  "handle": "HARRIS-COUNTY-AS",
-  "description": "Harris County",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55291,
+  "metadata" : {
+    "handle" : "HARRIS-COUNTY-AS",
+    "description" : "Harris County",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.124.60.0/24",
       "162.216.48.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

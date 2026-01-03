@@ -1,9 +1,12 @@
 {
-  "asn": 327901,
-  "handle": "LEVEL7-AS",
-  "description": "Level 7 Wireless (Pty) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 327901,
+  "metadata" : {
+    "handle" : "LEVEL7-AS",
+    "description" : "Level 7 Wireless (Pty) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.220.0.0/19",
       "102.141.128.0/18",
       "102.215.100.0/22",
@@ -19,6 +22,6 @@
       "169.255.196.0/22",
       "196.201.232.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

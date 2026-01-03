@@ -1,9 +1,12 @@
 {
-  "asn": 51007,
-  "handle": "MEDIAPRO-AS",
-  "description": "Servicios Audiovisuales Overon S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51007,
+  "metadata" : {
+    "handle" : "MEDIAPRO-AS",
+    "description" : "Servicios Audiovisuales Overon S.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.187.68.0/24",
       "80.84.128.0/21",
       "80.84.148.0/24",
@@ -11,6 +14,6 @@
       "80.84.152.0/21",
       "178.249.8.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

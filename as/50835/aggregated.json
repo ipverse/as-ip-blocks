@@ -1,9 +1,12 @@
 {
-  "asn": 50835,
-  "handle": "EANCENTERTELECOM",
-  "description": "EANCENTER TELECOM LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50835,
+  "metadata" : {
+    "handle" : "EANCENTERTELECOM",
+    "description" : "EANCENTER TELECOM LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.97.121.0/24",
       "46.173.248.0/22",
       "46.173.254.0/23",
@@ -26,6 +29,6 @@
       "176.121.108.0/23",
       "194.33.66.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

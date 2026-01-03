@@ -1,11 +1,14 @@
 {
-  "asn": 140101,
-  "handle": "IDNIC-SKYLINKNET-ID",
-  "description": "PT Skylink Sinaya Sejahtera",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140101,
+  "metadata" : {
+    "handle" : "IDNIC-SKYLINKNET-ID",
+    "description" : "PT Skylink Sinaya Sejahtera",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.99.28.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

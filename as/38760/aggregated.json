@@ -1,12 +1,15 @@
 {
-  "asn": 38760,
-  "handle": "IDNIC-MSA-AS-ID",
-  "description": "PT Media Sarana Akses",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38760,
+  "metadata" : {
+    "handle" : "IDNIC-MSA-AS-ID",
+    "description" : "PT Media Sarana Akses",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.217.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:9b60:3::/48",
       "2400:9b60:4::/48"
     ]

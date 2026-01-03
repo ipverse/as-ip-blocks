@@ -1,9 +1,12 @@
 {
-  "asn": 10655,
-  "handle": "BUREAU-NAT-AFF",
-  "description": "BLOOMBERG INDUSTRY GROUP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10655,
+  "metadata" : {
+    "handle" : "BUREAU-NAT-AFF",
+    "description" : "BLOOMBERG INDUSTRY GROUP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.79.49.0/24",
       "149.79.50.0/24",
       "149.79.52.0/24",
@@ -14,6 +17,6 @@
       "170.75.234.0/23",
       "170.75.236.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

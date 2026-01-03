@@ -1,9 +1,12 @@
 {
-  "asn": 26356,
-  "handle": "CRUSOE",
-  "description": "CRUSOE ENERGY SYSTEMS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26356,
+  "metadata" : {
+    "handle" : "CRUSOE",
+    "description" : "CRUSOE ENERGY SYSTEMS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.106.220.0/22",
       "160.211.45.0/24",
       "160.211.46.0/23",
@@ -17,6 +20,6 @@
       "216.147.112.0/24",
       "216.147.118.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

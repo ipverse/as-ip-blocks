@@ -1,9 +1,12 @@
 {
-  "asn": 48037,
-  "handle": "SSO-ICT",
-  "description": "SSC-ICT Haaglanden",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48037,
+  "metadata" : {
+    "handle" : "SSO-ICT",
+    "description" : "SSC-ICT Haaglanden",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.43.0.0/17",
       "144.43.128.0/18",
       "144.43.192.0/19",
@@ -15,7 +18,7 @@
       "193.176.222.0/23",
       "193.176.224.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:9a00:1004::/48",
       "2a04:9a00:111c::/48",
       "2a04:9a00:1121::/48",

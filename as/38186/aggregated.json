@@ -1,9 +1,12 @@
 {
-  "asn": 38186,
-  "handle": "FTG-AS-AP",
-  "description": "Forewin Telecom Group Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38186,
+  "metadata" : {
+    "handle" : "FTG-AS-AP",
+    "description" : "Forewin Telecom Group Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.50.32.0/24",
       "27.126.176.0/20",
       "43.228.88.0/22",
@@ -48,6 +51,6 @@
       "163.53.216.0/22",
       "202.59.152.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

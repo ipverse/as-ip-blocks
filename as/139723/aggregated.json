@@ -1,12 +1,15 @@
 {
-  "asn": 139723,
-  "handle": "CLOUDCONNECT-AS-AP",
-  "description": "Cloud Connect WA Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139723,
+  "metadata" : {
+    "handle" : "CLOUDCONNECT-AS-AP",
+    "description" : "Cloud Connect WA Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.144.23.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:af80::/48"
     ]
   }

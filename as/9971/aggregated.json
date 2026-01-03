@@ -1,9 +1,12 @@
 {
-  "asn": 9971,
-  "handle": "SKB-DONGDAEMUNCABLEINTERNET-AS",
-  "description": "SK Broadband Co Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9971,
+  "metadata" : {
+    "handle" : "SKB-DONGDAEMUNCABLEINTERNET-AS",
+    "description" : "SK Broadband Co Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.115.128.0/18",
       "45.112.100.0/22",
       "103.51.188.0/22",
@@ -11,6 +14,6 @@
       "124.197.128.0/18",
       "124.197.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

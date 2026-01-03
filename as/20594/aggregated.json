@@ -1,14 +1,17 @@
 {
-  "asn": 20594,
-  "handle": "MOSAICDE-ATOS",
-  "description": "Atos Information Technology GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20594,
+  "metadata" : {
+    "handle" : "MOSAICDE-ATOS",
+    "description" : "Atos Information Technology GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.62.144.0/23",
       "185.62.146.0/24",
       "217.194.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:8180:2000::/36"
     ]
   }

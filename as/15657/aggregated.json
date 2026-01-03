@@ -1,15 +1,18 @@
 {
-  "asn": 15657,
-  "handle": "SPEEDBONE-AS",
-  "description": "Speedbone Internet \u0026 Connectivity GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15657,
+  "metadata" : {
+    "handle" : "SPEEDBONE-AS",
+    "description" : "Speedbone Internet & Connectivity GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.81.240.0/20",
       "95.173.96.0/19",
       "185.79.208.0/22",
       "217.13.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:8b8::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 10615,
-  "handle": "PAINEWEBBER-ASN",
-  "description": "UBS AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10615,
+  "metadata" : {
+    "handle" : "PAINEWEBBER-ASN",
+    "description" : "UBS AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.112.144.0/22",
       "148.112.158.0/23",
       "151.191.170.0/23",
@@ -20,6 +23,6 @@
       "161.239.252.0/22",
       "162.65.246.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

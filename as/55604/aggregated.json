@@ -1,11 +1,14 @@
 {
-  "asn": 55604,
-  "handle": "KOMSCO-AS",
-  "description": "KOMSCO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55604,
+  "metadata" : {
+    "handle" : "KOMSCO-AS",
+    "description" : "KOMSCO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.4.48.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

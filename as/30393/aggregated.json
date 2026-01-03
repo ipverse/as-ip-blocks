@@ -1,11 +1,14 @@
 {
-  "asn": 30393,
-  "handle": "BMLPROD2",
-  "description": "Bill Me Later",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30393,
+  "metadata" : {
+    "handle" : "BMLPROD2",
+    "description" : "Bill Me Later",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.76.140.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

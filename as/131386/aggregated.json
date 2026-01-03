@@ -1,9 +1,12 @@
 {
-  "asn": 131386,
-  "handle": "LVSS-AS-VN",
-  "description": "Long Van System Solution JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131386,
+  "metadata" : {
+    "handle" : "LVSS-AS-VN",
+    "description" : "Long Van System Solution JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.119.80.0/21",
       "103.2.228.0/22",
       "103.27.236.0/22",
@@ -12,7 +15,7 @@
       "103.95.156.0/22",
       "103.200.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:bf40::/48",
       "2403:bf40:2::/48",
       "2403:bf40:6::/48",

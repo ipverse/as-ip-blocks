@@ -1,13 +1,16 @@
 {
-  "asn": 31275,
-  "handle": "SAMTELECOM-AS",
-  "description": "LLC Telecom-Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31275,
+  "metadata" : {
+    "handle" : "SAMTELECOM-AS",
+    "description" : "LLC Telecom-Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.220.64.0/19",
       "93.93.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:e380::/29"
     ]
   }

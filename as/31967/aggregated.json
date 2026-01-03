@@ -1,14 +1,17 @@
 {
-  "asn": 31967,
-  "handle": "FLTECH",
-  "description": "Florida Institute of Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31967,
+  "metadata" : {
+    "handle" : "FLTECH",
+    "description" : "Florida Institute of Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.118.0.0/16",
       "192.42.239.0/24",
       "192.203.97.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:9c0::/32"
     ]
   }

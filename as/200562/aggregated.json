@@ -1,13 +1,16 @@
 {
-  "asn": 200562,
-  "handle": "WELLTEL-IE",
-  "description": "Welltel (Ireland) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200562,
+  "metadata" : {
+    "handle" : "WELLTEL-IE",
+    "description" : "Welltel (Ireland) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.255.116.0/22",
       "185.75.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:5300::/29"
     ]
   }

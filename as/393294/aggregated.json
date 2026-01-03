@@ -1,9 +1,12 @@
 {
-  "asn": 393294,
-  "handle": "MEGATEL-NETCOM",
-  "description": "Megatel Netcom Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393294,
+  "metadata" : {
+    "handle" : "MEGATEL-NETCOM",
+    "description" : "Megatel Netcom Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.77.248.0/24",
       "38.102.165.0/24",
       "45.199.161.0/24",
@@ -12,7 +15,7 @@
       "45.199.166.0/23",
       "45.199.168.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:2d8::/40"
     ]
   }

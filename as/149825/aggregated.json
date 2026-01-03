@@ -1,12 +1,15 @@
 {
-  "asn": 149825,
-  "handle": "RFINETWORK-AS-AP",
-  "description": "RFi Fiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149825,
+  "metadata" : {
+    "handle" : "RFINETWORK-AS-AP",
+    "description" : "RFi Fiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.187.28.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:b740::/48"
     ]
   }

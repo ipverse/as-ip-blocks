@@ -1,13 +1,16 @@
 {
-  "asn": 273993,
-  "handle": "EDGEUNO",
-  "description": "EDGEUNO S.A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273993,
+  "metadata" : {
+    "handle" : "EDGEUNO",
+    "description" : "EDGEUNO S.A.S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "76.72.168.0/24",
       "148.222.238.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:1e1:100::/40"
     ]
   }

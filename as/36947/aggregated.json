@@ -1,9 +1,12 @@
 {
-  "asn": 36947,
-  "handle": "ALGTEL-AS",
-  "description": "Telecom Algeria",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36947,
+  "metadata" : {
+    "handle" : "ALGTEL-AS",
+    "description" : "Telecom Algeria",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.96.0.0/12",
       "41.200.128.0/17",
       "41.201.0.0/16",
@@ -20,7 +23,7 @@
       "197.200.0.0/13",
       "213.140.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f858::/32"
     ]
   }

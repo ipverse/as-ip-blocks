@@ -1,9 +1,12 @@
 {
-  "asn": 28889,
-  "handle": "LINZNET-AS",
-  "description": "LinzNet Internet Service Provider GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28889,
+  "metadata" : {
+    "handle" : "LINZNET-AS",
+    "description" : "LinzNet Internet Service Provider GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.66.32.0/19",
       "85.193.128.0/20",
       "85.193.176.0/20",
@@ -15,6 +18,6 @@
       "193.187.252.0/23",
       "193.187.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

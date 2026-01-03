@@ -1,9 +1,12 @@
 {
-  "asn": 24785,
-  "handle": "JOINTTRANSIT-AS",
-  "description": "Broadband Hosting B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24785,
+  "metadata" : {
+    "handle" : "JOINTTRANSIT-AS",
+    "description" : "Broadband Hosting B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.207.0.0/24",
       "213.207.3.0/24",
       "213.207.4.0/24",
@@ -20,7 +23,7 @@
       "217.170.20.0/24",
       "217.170.23.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:10::/29"
     ]
   }

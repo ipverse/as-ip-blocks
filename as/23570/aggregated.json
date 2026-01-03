@@ -1,9 +1,12 @@
 {
-  "asn": 23570,
-  "handle": "INCHEON-AS",
-  "description": "UNIVERSITY OF INCHEON",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23570,
+  "metadata" : {
+    "handle" : "INCHEON-AS",
+    "description" : "UNIVERSITY OF INCHEON",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "117.16.191.0/24",
       "117.16.192.0/19",
       "117.16.224.0/21",
@@ -16,6 +19,6 @@
       "117.17.220.0/22",
       "117.17.224.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

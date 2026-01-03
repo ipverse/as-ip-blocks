@@ -1,13 +1,16 @@
 {
-  "asn": 262928,
-  "handle": "DIRECTV-COLOMBIA",
-  "description": "DIRECTV COLOMBIA LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262928,
+  "metadata" : {
+    "handle" : "DIRECTV-COLOMBIA",
+    "description" : "DIRECTV COLOMBIA LTDA.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "191.102.192.0/19",
       "191.102.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:2a80::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 58057,
-  "handle": "SECUREBIT",
-  "description": "Securebit AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58057,
+  "metadata" : {
+    "handle" : "SECUREBIT",
+    "description" : "Securebit AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.136.136.0/22",
       "103.189.238.0/23",
       "103.190.102.0/23",
@@ -12,7 +15,7 @@
       "193.163.86.0/24",
       "194.50.92.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:10d4::/48",
       "2a04:ccc0:ffff::/48",
       "2a04:ccc3::/32",

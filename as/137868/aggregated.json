@@ -1,15 +1,18 @@
 {
-  "asn": 137868,
-  "handle": "SIS-AS-AP",
-  "description": "Star Internet Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137868,
+  "metadata" : {
+    "handle" : "SIS-AS-AP",
+    "description" : "Star Internet Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.115.252.0/22",
       "103.151.60.0/24",
       "103.170.141.0/24",
       "160.250.8.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:f1c0::/32"
     ]
   }

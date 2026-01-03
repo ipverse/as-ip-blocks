@@ -1,9 +1,12 @@
 {
-  "asn": 19662,
-  "handle": "UNISERVE-ONLINE",
-  "description": "Uniserve On Line",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19662,
+  "metadata" : {
+    "handle" : "UNISERVE-ONLINE",
+    "description" : "Uniserve On Line",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.161.21.0/24",
       "198.162.16.0/22",
       "199.60.19.0/24",
@@ -31,7 +34,7 @@
       "216.113.192.0/19",
       "216.210.96.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:1000::/32"
     ]
   }

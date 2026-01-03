@@ -1,13 +1,16 @@
 {
-  "asn": 24198,
-  "handle": "DATAKOMNAP-AS-ID",
-  "description": "PT. Datakom Padma Jaya (DatakomNAP)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24198,
+  "metadata" : {
+    "handle" : "DATAKOMNAP-AS-ID",
+    "description" : "PT. Datakom Padma Jaya (DatakomNAP)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.155.186.0/23",
       "202.93.242.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:b240::/32"
     ]
   }

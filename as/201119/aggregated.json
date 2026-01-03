@@ -1,16 +1,19 @@
 {
-  "asn": 201119,
-  "handle": "ICEWOOD",
-  "description": "Icewood LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201119,
+  "metadata" : {
+    "handle" : "ICEWOOD",
+    "description" : "Icewood LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.16.90.0/24",
       "45.132.151.0/24",
       "91.228.202.0/24",
       "185.32.180.0/24",
       "185.195.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:5bc0::/47"
     ]
   }

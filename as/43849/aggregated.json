@@ -1,15 +1,18 @@
 {
-  "asn": 43849,
-  "handle": "SEVER-SVYAZ-AS",
-  "description": "Sever-Svyaz LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43849,
+  "metadata" : {
+    "handle" : "SEVER-SVYAZ-AS",
+    "description" : "Sever-Svyaz LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.158.0.0/22",
       "146.158.4.0/23",
       "146.158.6.0/24",
       "146.158.8.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:128:17::/48"
     ]
   }

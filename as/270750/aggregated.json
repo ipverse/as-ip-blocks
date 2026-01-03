@@ -1,12 +1,15 @@
 {
-  "asn": 270750,
-  "handle": "LINK-NET-TELECOM",
-  "description": "Link Net Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270750,
+  "metadata" : {
+    "handle" : "LINK-NET-TELECOM",
+    "description" : "Link Net Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.12.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:70d0::/34",
       "2804:70d0:8000::/34"
     ]

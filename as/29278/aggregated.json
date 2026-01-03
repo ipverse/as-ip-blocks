@@ -1,9 +1,12 @@
 {
-  "asn": 29278,
-  "handle": "RACKHOST-HU-AS",
-  "description": "Rackhost Zrt",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29278,
+  "metadata" : {
+    "handle" : "RACKHOST-HU-AS",
+    "description" : "Rackhost Zrt.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.172.196.0/24",
       "79.172.199.0/24",
       "79.172.203.0/24",
@@ -58,7 +61,7 @@
       "217.144.48.0/23",
       "217.144.50.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:730::/32"
     ]
   }

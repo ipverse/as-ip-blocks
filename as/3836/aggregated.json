@@ -1,13 +1,16 @@
 {
-  "asn": 3836,
-  "handle": "THAISARN-TH-AS-AP",
-  "description": "National Electronics and Computer Technology Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3836,
+  "metadata" : {
+    "handle" : "THAISARN-TH-AS-AP",
+    "description" : "National Electronics and Computer Technology Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.150.250.0/23",
       "203.185.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:f00::/32"
     ]
   }

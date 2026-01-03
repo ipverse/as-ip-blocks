@@ -1,11 +1,14 @@
 {
-  "asn": 138665,
-  "handle": "GKNETWORK-AS-AP",
-  "description": "GK Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138665,
+  "metadata" : {
+    "handle" : "GKNETWORK-AS-AP",
+    "description" : "GK Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.136.0.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

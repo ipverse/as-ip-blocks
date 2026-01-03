@@ -1,12 +1,15 @@
 {
-  "asn": 270322,
-  "handle": "MAIS-IP",
-  "description": "MAIS IP LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270322,
+  "metadata" : {
+    "handle" : "MAIS-IP",
+    "description" : "MAIS IP LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.191.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6a40::/32"
     ]
   }

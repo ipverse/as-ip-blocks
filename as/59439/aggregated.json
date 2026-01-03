@@ -1,13 +1,16 @@
 {
-  "asn": 59439,
-  "handle": "VOICEFACTORY-AS",
-  "description": "EvolveIP LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59439,
+  "metadata" : {
+    "handle" : "VOICEFACTORY-AS",
+    "description" : "EvolveIP LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.240.178.0/24",
       "185.168.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:c0c0:3e1::/48",
       "2a0d:c0c0:4e1::/48"
     ]

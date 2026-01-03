@@ -1,9 +1,12 @@
 {
-  "asn": 54576,
-  "handle": "RESTORE-ASN-54576-FOR-HOAG-MEMORIAL-HOSPITAL",
-  "description": "Hoag Memorial Hospital Presbyterian",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54576,
+  "metadata" : {
+    "handle" : "RESTORE-ASN-54576-FOR-HOAG-MEMORIAL-HOSPITAL",
+    "description" : "Hoag Memorial Hospital Presbyterian",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.190.34.0/23",
       "198.190.36.0/24",
       "198.190.38.0/23",
@@ -11,6 +14,6 @@
       "198.190.52.0/22",
       "198.190.59.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

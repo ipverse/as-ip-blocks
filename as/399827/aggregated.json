@@ -1,14 +1,17 @@
 {
-  "asn": 399827,
-  "handle": "2PIFI",
-  "description": "2pifi Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399827,
+  "metadata" : {
+    "handle" : "2PIFI",
+    "description" : "2pifi Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.214.224.0/22",
       "142.214.252.0/22",
       "185.208.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fa52::/40"
     ]
   }

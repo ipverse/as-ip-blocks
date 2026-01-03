@@ -1,9 +1,12 @@
 {
-  "asn": 137289,
-  "handle": "IDNIC-SIGMA-AS-ID",
-  "description": "PT. SIGMA CIPTA CARAKA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137289,
+  "metadata" : {
+    "handle" : "IDNIC-SIGMA-AS-ID",
+    "description" : "PT. SIGMA CIPTA CARAKA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.51.106.0/23",
       "103.79.50.0/23",
       "103.107.100.0/22",
@@ -11,6 +14,6 @@
       "103.147.2.0/23",
       "103.147.4.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

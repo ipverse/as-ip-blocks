@@ -1,11 +1,14 @@
 {
-  "asn": 200630,
-  "handle": "VALTORI-DC-AS",
-  "description": "Valtion tieto - Ja viestintatekniikkakeskus Valtori",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200630,
+  "metadata" : {
+    "handle" : "VALTORI-DC-AS",
+    "description" : "Valtion tieto - Ja viestintatekniikkakeskus Valtori",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.69.36.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 49628,
-  "handle": "SKYTEL-AS",
-  "description": "LLC Skytel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49628,
+  "metadata" : {
+    "handle" : "SKYTEL-AS",
+    "description" : "LLC Skytel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.187.8.0/21",
       "37.75.128.0/21",
       "78.40.104.0/22",
@@ -13,7 +16,7 @@
       "188.227.192.0/22",
       "193.176.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:2900::/29"
     ]
   }

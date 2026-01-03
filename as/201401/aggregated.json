@@ -1,9 +1,12 @@
 {
-  "asn": 201401,
-  "handle": "NEWVM-AS",
-  "description": "NewVM B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201401,
+  "metadata" : {
+    "handle" : "NEWVM-AS",
+    "description" : "NewVM B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.14.11.0/24",
       "31.14.32.0/24",
       "31.14.44.0/24",
@@ -14,7 +17,7 @@
       "185.76.168.0/22",
       "185.168.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:52a0::/30",
       "2a0a:1d00::/32",
       "2a10:c240::/32"

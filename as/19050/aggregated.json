@@ -1,9 +1,12 @@
 {
-  "asn": 19050,
-  "handle": "TIC-DHHS-INTERIOR",
-  "description": "U.S. Department of Health \u0026 Human Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19050,
+  "metadata" : {
+    "handle" : "TIC-DHHS-INTERIOR",
+    "description" : "U.S. Department of Health & Human Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "156.40.93.0/24",
       "156.40.94.0/23",
       "156.40.197.0/24",
@@ -13,7 +16,7 @@
       "198.179.3.0/24",
       "198.179.4.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f220:10::/44",
       "2607:f220:f1::/48",
       "2607:f220:200::/44"

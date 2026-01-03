@@ -1,12 +1,15 @@
 {
-  "asn": 132400,
-  "handle": "CCVC-AS-AP",
-  "description": "COMMUNITY CABLE VISION CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132400,
+  "metadata" : {
+    "handle" : "CCVC-AS-AP",
+    "description" : "COMMUNITY CABLE VISION CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.72.188.0/22",
       "160.20.40.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

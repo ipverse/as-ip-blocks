@@ -1,9 +1,12 @@
 {
-  "asn": 199945,
-  "handle": "RU-RADUGA-M9",
-  "description": "BILLING SOLUTION Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199945,
+  "metadata" : {
+    "handle" : "RU-RADUGA-M9",
+    "description" : "BILLING SOLUTION Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "92.43.152.0/23",
       "92.43.154.0/24",
       "92.43.156.0/24",
@@ -12,6 +15,6 @@
       "185.3.242.0/23",
       "195.69.64.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

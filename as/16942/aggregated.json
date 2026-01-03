@@ -1,9 +1,12 @@
 {
-  "asn": 16942,
-  "handle": "CITIZENS",
-  "description": "Citizens Telephone Cooperative",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16942,
+  "metadata" : {
+    "handle" : "CITIZENS",
+    "description" : "Citizens Telephone Cooperative",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.31.57.0/24",
       "66.37.64.0/19",
       "170.117.220.0/22",
@@ -13,7 +16,7 @@
       "208.85.172.0/22",
       "216.222.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4828::/32"
     ]
   }

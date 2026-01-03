@@ -1,9 +1,12 @@
 {
-  "asn": 394417,
-  "handle": "AS-SONJ",
-  "description": "NJOIT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394417,
+  "metadata" : {
+    "handle" : "AS-SONJ",
+    "description" : "NJOIT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.93.0.0/24",
       "160.93.5.0/24",
       "160.93.6.0/23",
@@ -62,6 +65,6 @@
       "205.148.56.0/23",
       "205.148.60.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

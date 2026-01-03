@@ -1,15 +1,18 @@
 {
-  "asn": 55611,
-  "handle": "KYUNGMIN-AS",
-  "description": "kyungmin university",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55611,
+  "metadata" : {
+    "handle" : "KYUNGMIN-AS",
+    "description" : "kyungmin university",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.232.161.0/24",
       "203.232.162.0/23",
       "203.232.180.0/23",
       "203.232.186.0/24",
       "203.249.38.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

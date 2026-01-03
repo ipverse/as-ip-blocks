@@ -1,12 +1,15 @@
 {
-  "asn": 18807,
-  "handle": "COMM-WIRELESS-N",
-  "description": "Community Wireless",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18807,
+  "metadata" : {
+    "handle" : "COMM-WIRELESS-N",
+    "description" : "Community Wireless",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.130.204.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:e640::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 16158,
-  "handle": "COMVERSE-AS",
-  "description": "Mavenir Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16158,
+  "metadata" : {
+    "handle" : "COMVERSE-AS",
+    "description" : "Mavenir Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.145.172.0/23",
       "45.145.174.0/24",
       "63.64.185.0/24",
@@ -13,6 +16,6 @@
       "198.187.250.0/24",
       "204.130.158.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

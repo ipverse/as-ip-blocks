@@ -1,10 +1,13 @@
 {
-  "asn": 49134,
-  "handle": "AS-10VPN",
-  "description": "10VPN Research Network LTD",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 49134,
+  "metadata" : {
+    "handle" : "AS-10VPN",
+    "description" : "10VPN Research Network LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2602:fd60:11::/48",
       "2602:fed2:31::/48",
       "2602:fed2:fd0::/44"

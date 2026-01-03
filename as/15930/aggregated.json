@@ -1,13 +1,16 @@
 {
-  "asn": 15930,
-  "handle": "WIPLINE-AS",
-  "description": "WIPLINE LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15930,
+  "metadata" : {
+    "handle" : "WIPLINE-AS",
+    "description" : "WIPLINE LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.18.128.0/19",
       "185.24.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:65a0::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 149672,
-  "handle": "IDNIC-FASTLINK-AS-ID",
-  "description": "PT Aktech Digital Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149672,
+  "metadata" : {
+    "handle" : "IDNIC-FASTLINK-AS-ID",
+    "description" : "PT Aktech Digital Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.184.50.0/23",
       "154.58.230.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:5e40::/48"
     ]
   }

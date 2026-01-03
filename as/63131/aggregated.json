@@ -1,9 +1,12 @@
 {
-  "asn": 63131,
-  "handle": "AKIT-NETWORKING-INC",
-  "description": "TNEXT Communication Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63131,
+  "metadata" : {
+    "handle" : "AKIT-NETWORKING-INC",
+    "description" : "TNEXT Communication Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.20.160.0/20",
       "38.20.184.0/21",
       "38.45.232.0/21",
@@ -12,6 +15,6 @@
       "142.120.24.0/21",
       "142.120.32.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

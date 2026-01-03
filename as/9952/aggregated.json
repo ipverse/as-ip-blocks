@@ -1,9 +1,12 @@
 {
-  "asn": 9952,
-  "handle": "HOSTWAY-AS",
-  "description": "Hostway IDC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9952,
+  "metadata" : {
+    "handle" : "HOSTWAY-AS",
+    "description" : "Hostway IDC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.100.0.0/20",
       "61.100.180.0/22",
       "61.100.184.0/22",
@@ -48,6 +51,6 @@
       "211.239.168.0/22",
       "211.239.172.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

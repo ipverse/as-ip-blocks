@@ -1,9 +1,12 @@
 {
-  "asn": 135607,
-  "handle": "INFINIVAN-AS-AP",
-  "description": "Infinivan Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135607,
+  "metadata" : {
+    "handle" : "INFINIVAN-AS-AP",
+    "description" : "Infinivan Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.255.60.0/22",
       "61.245.4.0/22",
       "61.245.8.0/23",
@@ -48,7 +51,7 @@
       "154.50.127.0/24",
       "209.146.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:e740::/32",
       "2402:2dc0::/32"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 8540,
-  "handle": "AMANET-AS",
-  "description": "AMA netwoRX GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8540,
+  "metadata" : {
+    "handle" : "AMANET-AS",
+    "description" : "AMA netwoRX GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.186.5.0/24",
       "45.155.184.0/22",
       "77.220.109.0/24",
@@ -20,7 +23,7 @@
       "185.236.166.0/24",
       "195.128.151.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:7540::/29",
       "2a0b:4c40::/29",
       "2a0b:6c40::/29"

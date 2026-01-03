@@ -1,12 +1,15 @@
 {
-  "asn": 50029,
-  "handle": "TELECOM",
-  "description": "Telecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50029,
+  "metadata" : {
+    "handle" : "TELECOM",
+    "description" : "Telecom Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "176.96.64.0/21",
       "195.178.24.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

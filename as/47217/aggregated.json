@@ -1,9 +1,12 @@
 {
-  "asn": 47217,
-  "handle": "PLANETEL-SPA",
-  "description": "Planetel SPA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47217,
+  "metadata" : {
+    "handle" : "PLANETEL-SPA",
+    "description" : "Planetel SPA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.11.32.0/21",
       "46.21.176.0/20",
       "77.244.176.0/20",
@@ -21,7 +24,7 @@
       "194.69.192.0/23",
       "212.103.202.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:670::/32",
       "2a02:5c80::/32",
       "2a0a:27c0::/32"

@@ -1,14 +1,17 @@
 {
-  "asn": 25115,
-  "handle": "DIEHL-CORP-AS",
-  "description": "DIEHL Informatik GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25115,
+  "metadata" : {
+    "handle" : "DIEHL-CORP-AS",
+    "description" : "DIEHL Informatik GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.23.243.0/24",
       "193.201.236.0/22",
       "194.15.176.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:20c0::/31"
     ]
   }

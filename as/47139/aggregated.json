@@ -1,9 +1,12 @@
 {
-  "asn": 47139,
-  "handle": "INDIGO-TAJIKISTAN-AS",
-  "description": "CJSC INDIGO TAJIKISTAN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47139,
+  "metadata" : {
+    "handle" : "INDIGO-TAJIKISTAN-AS",
+    "description" : "CJSC INDIGO TAJIKISTAN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.75.48.0/21",
       "109.75.56.0/23",
       "109.75.59.0/24",
@@ -12,7 +15,7 @@
       "185.42.96.0/22",
       "195.246.102.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:5d60::/30"
     ]
   }

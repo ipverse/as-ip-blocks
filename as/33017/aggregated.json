@@ -1,12 +1,15 @@
 {
-  "asn": 33017,
-  "handle": "HARDFAULT",
-  "description": "Hardfault",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33017,
+  "metadata" : {
+    "handle" : "HARDFAULT",
+    "description" : "Hardfault",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.174.144.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fcbd::/48"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 40793,
-  "handle": "LINKEDIN",
-  "description": "LinkedIn Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40793,
+  "metadata" : {
+    "handle" : "LINKEDIN",
+    "description" : "LinkedIn Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "108.174.5.0/24",
       "108.174.6.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:109:c003::/48"
     ]
   }

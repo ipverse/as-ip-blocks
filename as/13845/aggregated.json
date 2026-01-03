@@ -1,9 +1,12 @@
 {
-  "asn": 13845,
-  "handle": "ESTRUXTURE-AB-13845",
-  "description": "eStruxture Data Centers Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13845,
+  "metadata" : {
+    "handle" : "ESTRUXTURE-AB-13845",
+    "description" : "eStruxture Data Centers Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.121.74.0/24",
       "66.51.16.0/21",
       "69.165.88.0/21",
@@ -13,7 +16,7 @@
       "204.235.80.0/24",
       "205.209.2.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:3000:5100::/40"
     ]
   }

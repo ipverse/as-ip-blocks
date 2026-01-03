@@ -1,12 +1,15 @@
 {
-  "asn": 46044,
-  "handle": "UNPAD-AS-ID",
-  "description": "Universitas Padjadjaran",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46044,
+  "metadata" : {
+    "handle" : "UNPAD-AS-ID",
+    "description" : "Universitas Padjadjaran",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "111.223.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:9940::/32"
     ]
   }

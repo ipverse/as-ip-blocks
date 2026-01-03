@@ -1,12 +1,15 @@
 {
-  "asn": 39293,
-  "handle": "RTCENTER-AS",
-  "description": "RT Center LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39293,
+  "metadata" : {
+    "handle" : "RTCENTER-AS",
+    "description" : "RT Center LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.248.236.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:244c::/48"
     ]
   }

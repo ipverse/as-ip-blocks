@@ -1,9 +1,12 @@
 {
-  "asn": 2572,
-  "handle": "MORENET",
-  "description": "University of Missouri - dba the Missouri Research and Education Network (MOREnet)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2572,
+  "metadata" : {
+    "handle" : "MORENET",
+    "description" : "University of Missouri - dba the Missouri Research and Education Network (MOREnet)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.124.0.0/16",
       "146.7.0.0/16",
       "150.167.0.0/16",
@@ -21,7 +24,7 @@
       "209.106.128.0/18",
       "209.106.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:e0::/32",
       "2620:1a:4000::/48"
     ]

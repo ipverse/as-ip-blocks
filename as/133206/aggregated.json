@@ -1,9 +1,12 @@
 {
-  "asn": 133206,
-  "handle": "DPL-AS-AP",
-  "description": "DGTEK PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133206,
+  "metadata" : {
+    "handle" : "DPL-AS-AP",
+    "description" : "DGTEK PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.75.134.0/23",
       "103.80.170.0/23",
       "103.169.140.0/23",
@@ -12,7 +15,7 @@
       "194.127.104.0/23",
       "203.76.224.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:d4c0::/32"
     ]
   }

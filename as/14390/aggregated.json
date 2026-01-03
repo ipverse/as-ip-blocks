@@ -1,9 +1,12 @@
 {
-  "asn": 14390,
-  "handle": "CORENET",
-  "description": "Coretel America Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14390,
+  "metadata" : {
+    "handle" : "CORENET",
+    "description" : "Coretel America Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.72.0.0/22",
       "69.72.4.0/23",
       "69.72.6.0/24",
@@ -13,6 +16,6 @@
       "209.163.108.0/23",
       "209.163.113.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

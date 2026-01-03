@@ -1,9 +1,12 @@
 {
-  "asn": 24708,
-  "handle": "GRZ-AT",
-  "description": "RAITEC GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24708,
+  "metadata" : {
+    "handle" : "GRZ-AT",
+    "description" : "RAITEC GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.154.103.0/24",
       "193.17.222.0/24",
       "193.110.129.0/24",
@@ -11,7 +14,7 @@
       "194.37.240.0/21",
       "194.116.224.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2204::/48"
     ]
   }

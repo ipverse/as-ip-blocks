@@ -1,9 +1,12 @@
 {
-  "asn": 55259,
-  "handle": "NEUTRONA-NETWORKS-INTERNATIONAL",
-  "description": "Transtelco Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55259,
+  "metadata" : {
+    "handle" : "NEUTRONA-NETWORKS-INTERNATIONAL",
+    "description" : "Transtelco Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.251.217.0/24",
       "162.251.219.0/24",
       "186.250.153.0/24",
@@ -11,6 +14,6 @@
       "199.101.140.0/24",
       "200.7.184.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

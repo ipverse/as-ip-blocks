@@ -1,13 +1,16 @@
 {
-  "asn": 12577,
-  "handle": "MMC-AT-AS",
-  "description": "MMC GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12577,
+  "metadata" : {
+    "handle" : "MMC-AT-AS",
+    "description" : "MMC GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.104.224.0/22",
       "212.108.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1618::/29"
     ]
   }

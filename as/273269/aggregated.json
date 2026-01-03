@@ -1,14 +1,17 @@
 {
-  "asn": 273269,
-  "handle": "ISP-EBEN-EZER",
-  "description": "ISP EBEN-EZER",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273269,
+  "metadata" : {
+    "handle" : "ISP-EBEN-EZER",
+    "description" : "ISP EBEN-EZER",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.7.146.0/24",
       "38.159.177.0/24",
       "198.242.54.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:444:3000::/36",
       "2806:444:4000::/35"
     ]

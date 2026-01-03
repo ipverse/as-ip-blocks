@@ -1,9 +1,12 @@
 {
-  "asn": 28855,
-  "handle": "OCTOPUCE-AS",
-  "description": "Octopuce s.a.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28855,
+  "metadata" : {
+    "handle" : "OCTOPUCE-AS",
+    "description" : "Octopuce s.a.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.91.215.0/24",
       "91.194.60.0/23",
       "185.34.32.0/22",
@@ -11,7 +14,7 @@
       "194.36.166.0/24",
       "217.24.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:288::/48",
       "2001:1b78::/32",
       "2a00:99a0::/33"

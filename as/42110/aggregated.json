@@ -1,9 +1,12 @@
 {
-  "asn": 42110,
-  "handle": "STK-AS",
-  "description": "PJSC Vimpelcom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42110,
+  "metadata" : {
+    "handle" : "STK-AS",
+    "description" : "PJSC Vimpelcom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.106.192.0/18",
       "95.25.72.0/21",
       "95.25.80.0/22",
@@ -12,6 +15,6 @@
       "95.31.197.0/24",
       "95.31.200.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

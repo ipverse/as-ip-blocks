@@ -1,12 +1,15 @@
 {
-  "asn": 138600,
-  "handle": "ABI-AS-AP",
-  "description": "Achiever Broadband Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138600,
+  "metadata" : {
+    "handle" : "ABI-AS-AP",
+    "description" : "Achiever Broadband Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.134.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:84e0::/32"
     ]
   }

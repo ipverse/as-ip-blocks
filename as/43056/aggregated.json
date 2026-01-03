@@ -1,13 +1,16 @@
 {
-  "asn": 43056,
-  "handle": "I-SHACK",
-  "description": "iShack SAL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43056,
+  "metadata" : {
+    "handle" : "I-SHACK",
+    "description" : "iShack SAL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.38.28.0/22",
       "185.95.252.0/23",
       "185.95.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

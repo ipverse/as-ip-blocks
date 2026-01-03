@@ -1,13 +1,16 @@
 {
-  "asn": 199933,
-  "handle": "ELEKTRANET-AS",
-  "description": "Elektranet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199933,
+  "metadata" : {
+    "handle" : "ELEKTRANET-AS",
+    "description" : "Elektranet Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.144.223.0/24",
       "185.41.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:4de0::/32"
     ]
   }

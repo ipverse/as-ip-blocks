@@ -1,15 +1,18 @@
 {
-  "asn": 39383,
-  "handle": "TELESYSTEM-AS",
-  "description": "Annarsy SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39383,
+  "metadata" : {
+    "handle" : "TELESYSTEM-AS",
+    "description" : "Annarsy SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.170.0/23",
       "81.181.129.0/24",
       "93.114.82.0/24",
       "188.212.100.0/22",
       "193.84.64.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

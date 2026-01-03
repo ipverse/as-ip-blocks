@@ -1,15 +1,18 @@
 {
-  "asn": 203500,
-  "handle": "ABEILLE-AS",
-  "description": "ABEILLE SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203500,
+  "metadata" : {
+    "handle" : "ABEILLE-AS",
+    "description" : "ABEILLE SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.22.130.0/24",
       "185.178.184.0/23",
       "185.178.186.0/24",
       "193.25.200.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:6780::/29",
       "2a0a:6680:bee::/48",
       "2a0a:6680:1000::/36",

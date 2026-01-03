@@ -1,9 +1,12 @@
 {
-  "asn": 23932,
-  "handle": "WINTH-AS-AP",
-  "description": "World Internetwork Corporation Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23932,
+  "metadata" : {
+    "handle" : "WINTH-AS-AP",
+    "description" : "World Internetwork Corporation Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "180.128.0.0/20",
       "180.128.16.0/23",
       "180.128.19.0/24",
@@ -13,6 +16,6 @@
       "202.44.52.0/22",
       "202.52.6.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

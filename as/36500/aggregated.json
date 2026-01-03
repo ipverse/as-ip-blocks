@@ -1,11 +1,14 @@
 {
-  "asn": 36500,
-  "handle": "REDI-US",
-  "description": "Refinitiv US LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36500,
+  "metadata" : {
+    "handle" : "REDI-US",
+    "description" : "Refinitiv US LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.134.15.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

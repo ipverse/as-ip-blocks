@@ -1,12 +1,15 @@
 {
-  "asn": 33138,
-  "handle": "AS-NYPD",
-  "description": "New York City Police Department",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33138,
+  "metadata" : {
+    "handle" : "AS-NYPD",
+    "description" : "New York City Police Department",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "172.85.62.0/23",
       "206.212.128.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

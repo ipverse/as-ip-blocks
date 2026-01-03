@@ -1,9 +1,12 @@
 {
-  "asn": 7270,
-  "handle": "NET2PHONE",
-  "description": "IDT Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7270,
+  "metadata" : {
+    "handle" : "NET2PHONE",
+    "description" : "IDT Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.33.132.0/24",
       "66.33.137.0/24",
       "66.33.141.0/24",
@@ -41,6 +44,6 @@
       "216.53.116.0/22",
       "216.53.120.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

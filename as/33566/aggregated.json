@@ -1,9 +1,12 @@
 {
-  "asn": 33566,
-  "handle": "KUB-FIBER-01",
-  "description": "Knoxville Utilities Board",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33566,
+  "metadata" : {
+    "handle" : "KUB-FIBER-01",
+    "description" : "Knoxville Utilities Board",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.81.6.0/23",
       "162.81.8.0/24",
       "162.81.12.0/22",
@@ -28,7 +31,7 @@
       "192.147.142.0/23",
       "192.147.144.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:83c0:c00::/38",
       "2606:83c0:1000::/36",
       "2606:83c0:2000::/37",

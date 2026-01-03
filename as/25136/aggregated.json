@@ -1,11 +1,14 @@
 {
-  "asn": 25136,
-  "handle": "PORTIMA-AS",
-  "description": "Portima",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25136,
+  "metadata" : {
+    "handle" : "PORTIMA-AS",
+    "description" : "Portima",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.79.64.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

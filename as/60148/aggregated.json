@@ -1,9 +1,12 @@
 {
-  "asn": 60148,
-  "handle": "ITO-AS",
-  "description": "Iran Information Technology Company PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60148,
+  "metadata" : {
+    "handle" : "ITO-AS",
+    "description" : "Iran Information Technology Company PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.180.254.0/23",
       "2.181.222.0/23",
       "2.182.255.0/24",
@@ -15,7 +18,7 @@
       "78.39.152.0/24",
       "195.146.59.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4188:17::/48",
       "2001:4188:19::/48",
       "2001:4188:1a::/48"

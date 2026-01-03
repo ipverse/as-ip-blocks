@@ -1,15 +1,18 @@
 {
-  "asn": 202046,
-  "handle": "FAIRNETZ",
-  "description": "FairNetz GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202046,
+  "metadata" : {
+    "handle" : "FAIRNETZ",
+    "description" : "FairNetz GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.73.108.0/24",
       "77.73.110.0/23",
       "185.111.176.0/22",
       "213.143.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:a540::/29"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 50698,
-  "handle": "TETA",
-  "description": "TETA s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50698,
+  "metadata" : {
+    "handle" : "TETA",
+    "description" : "TETA s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.202.64.0/19",
       "159.253.232.0/21",
       "185.116.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:4400::/29"
     ]
   }

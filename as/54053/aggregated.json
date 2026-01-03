@@ -1,9 +1,12 @@
 {
-  "asn": 54053,
-  "handle": "REALOGY-DDC",
-  "description": "Realogy Group LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54053,
+  "metadata" : {
+    "handle" : "REALOGY-DDC",
+    "description" : "Realogy Group LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.182.1.0/24",
       "167.182.2.0/23",
       "167.182.6.0/23",
@@ -20,6 +23,6 @@
       "198.151.42.0/24",
       "198.175.44.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

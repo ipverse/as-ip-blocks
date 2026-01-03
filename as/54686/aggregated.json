@@ -1,13 +1,16 @@
 {
-  "asn": 54686,
-  "handle": "AS54686-CFBROADBAND",
-  "description": "Central Florida Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54686,
+  "metadata" : {
+    "handle" : "AS54686-CFBROADBAND",
+    "description" : "Central Florida Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.169.24.0/24",
       "216.40.66.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f9b8::/40"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 8801,
-  "handle": "ROCKETFIBRE",
-  "description": "Rocket Fibre Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8801,
+  "metadata" : {
+    "handle" : "ROCKETFIBRE",
+    "description" : "Rocket Fibre Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.167.176.0/21",
       "83.167.184.0/22",
       "154.51.145.0/24",
@@ -11,7 +14,7 @@
       "185.222.21.0/24",
       "193.56.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:f300::/29"
     ]
   }

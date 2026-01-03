@@ -1,9 +1,12 @@
 {
-  "asn": 394541,
-  "handle": "PVN-STW",
-  "description": "Professional Value Internet Services Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394541,
+  "metadata" : {
+    "handle" : "PVN-STW",
+    "description" : "Professional Value Internet Services Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.210.62.0/23",
       "69.27.150.0/24",
       "206.246.15.0/24",
@@ -13,6 +16,6 @@
       "206.246.24.0/23",
       "206.246.31.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

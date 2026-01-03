@@ -1,13 +1,16 @@
 {
-  "asn": 62775,
-  "handle": "INTERNET2-ISS",
-  "description": "Internet2",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62775,
+  "metadata" : {
+    "handle" : "INTERNET2-ISS",
+    "description" : "Internet2",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.253.26.0/23",
       "163.253.60.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:468:1f20::/47"
     ]
   }

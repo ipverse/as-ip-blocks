@@ -1,9 +1,12 @@
 {
-  "asn": 63911,
-  "handle": "NETACTUATE-AS-AP",
-  "description": "NetActuate Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63911,
+  "metadata" : {
+    "handle" : "NETACTUATE-AS-AP",
+    "description" : "NetActuate Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.54.11.0/24",
       "45.54.16.0/23",
       "45.54.18.0/24",
@@ -73,7 +76,7 @@
       "157.53.244.0/23",
       "157.53.246.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f740:45::/48",
       "2607:f740:e003::/48",
       "2607:f740:e006::/47",

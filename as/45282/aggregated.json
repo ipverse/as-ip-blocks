@@ -1,13 +1,16 @@
 {
-  "asn": 45282,
-  "handle": "MIRTELECOM-AS-AP",
-  "description": "Mir Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45282,
+  "metadata" : {
+    "handle" : "MIRTELECOM-AS-AP",
+    "description" : "Mir Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "123.176.57.0/24",
       "202.129.192.0/24",
       "202.129.194.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 396032,
-  "handle": "GIGABITNOW-NORCAL",
-  "description": "GigabitNow Norcal LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396032,
+  "metadata" : {
+    "handle" : "GIGABITNOW-NORCAL",
+    "description" : "GigabitNow Norcal LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.38.142.0/23",
       "64.38.146.0/24",
       "64.38.149.0/24",
@@ -14,6 +17,6 @@
       "66.114.135.0/24",
       "66.114.158.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

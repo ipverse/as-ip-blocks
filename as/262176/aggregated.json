@@ -1,11 +1,14 @@
 {
-  "asn": 262176,
-  "handle": "BANCO-EXTERIOR",
-  "description": "BANCO EXTERIOR",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262176,
+  "metadata" : {
+    "handle" : "BANCO-EXTERIOR",
+    "description" : "BANCO EXTERIOR",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.16.95.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

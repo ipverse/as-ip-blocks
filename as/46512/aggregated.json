@@ -1,13 +1,16 @@
 {
-  "asn": 46512,
-  "handle": "UT-MEDICAL-CENTER",
-  "description": "University of Tennessee Medical Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46512,
+  "metadata" : {
+    "handle" : "UT-MEDICAL-CENTER",
+    "description" : "University of Tennessee Medical Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.144.16.0/24",
       "165.6.0.0/17",
       "165.6.128.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

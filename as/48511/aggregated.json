@@ -1,13 +1,16 @@
 {
-  "asn": 48511,
-  "handle": "SECTOR-TELECOM-AS",
-  "description": "Sector Telecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48511,
+  "metadata" : {
+    "handle" : "SECTOR-TELECOM-AS",
+    "description" : "Sector Telecom Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.46.196.0/24",
       "146.120.223.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:128:22::/48"
     ]
   }

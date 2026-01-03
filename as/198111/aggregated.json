@@ -1,12 +1,15 @@
 {
-  "asn": 198111,
-  "handle": "IPDIRECTIONS-AS",
-  "description": "IP Directions SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198111,
+  "metadata" : {
+    "handle" : "IPDIRECTIONS-AS",
+    "description" : "IP Directions SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.140.144.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:480::/29"
     ]
   }

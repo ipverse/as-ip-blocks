@@ -1,9 +1,12 @@
 {
-  "asn": 51399,
-  "handle": "PL-FIBERWAY-AS",
-  "description": "Fiberway Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51399,
+  "metadata" : {
+    "handle" : "PL-FIBERWAY-AS",
+    "description" : "Fiberway Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.103.144.0/22",
       "91.217.0.0/23",
       "91.218.200.0/22",
@@ -11,7 +14,7 @@
       "110.172.146.0/24",
       "185.157.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:a080::/29"
     ]
   }

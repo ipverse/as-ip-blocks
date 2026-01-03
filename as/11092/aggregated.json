@@ -1,11 +1,14 @@
 {
-  "asn": 11092,
-  "handle": "HEVANET",
-  "description": "Hevanet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11092,
+  "metadata" : {
+    "handle" : "HEVANET",
+    "description" : "Hevanet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.5.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

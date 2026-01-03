@@ -1,9 +1,12 @@
 {
-  "asn": 198417,
-  "handle": "DSM-AS",
-  "description": "DSM Grup Danismanlik Iletisim ve Satis Ticaret Anonim Sirketi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198417,
+  "metadata" : {
+    "handle" : "DSM-AS",
+    "description" : "DSM Grup Danismanlik Iletisim ve Satis Ticaret Anonim Sirketi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.32.124.0/24",
       "89.32.128.0/24",
       "89.32.201.0/24",
@@ -26,7 +29,7 @@
       "188.240.16.0/24",
       "188.240.46.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:3ec0:32::/48"
     ]
   }

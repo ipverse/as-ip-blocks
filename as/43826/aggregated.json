@@ -1,12 +1,15 @@
 {
-  "asn": 43826,
-  "handle": "SPNETRU-AS",
-  "description": "CSIT LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43826,
+  "metadata" : {
+    "handle" : "SPNETRU-AS",
+    "description" : "CSIT LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.132.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:e600::/29"
     ]
   }

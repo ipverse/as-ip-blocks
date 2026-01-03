@@ -1,9 +1,12 @@
 {
-  "asn": 17158,
-  "handle": "DATTO-INT",
-  "description": "Datto LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17158,
+  "metadata" : {
+    "handle" : "DATTO-INT",
+    "description" : "Datto LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.109.128.0/22",
       "139.28.145.0/24",
       "139.28.146.0/24",
@@ -21,6 +24,6 @@
       "203.23.127.0/24",
       "206.201.134.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

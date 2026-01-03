@@ -1,9 +1,12 @@
 {
-  "asn": 55361,
-  "handle": "LUCKYTONE-NET-HK",
-  "description": "Lucky Tone Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55361,
+  "metadata" : {
+    "handle" : "LUCKYTONE-NET-HK",
+    "description" : "Lucky Tone Communications Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.6.6.0/23",
       "103.140.170.0/24",
       "103.254.220.0/22",
@@ -22,6 +25,6 @@
       "122.8.84.0/22",
       "122.8.88.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

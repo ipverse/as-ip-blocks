@@ -1,9 +1,12 @@
 {
-  "asn": 56864,
-  "handle": "WELLSERVER-AS",
-  "description": "Xeon LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56864,
+  "metadata" : {
+    "handle" : "WELLSERVER-AS",
+    "description" : "Xeon LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.202.176.0/21",
       "89.20.52.0/22",
       "89.20.56.0/22",
@@ -12,7 +15,7 @@
       "185.196.168.0/22",
       "212.48.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:6fc0::/29"
     ]
   }

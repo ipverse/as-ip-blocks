@@ -1,9 +1,12 @@
 {
-  "asn": 204957,
-  "handle": "GREENFLOID-AS",
-  "description": "GREEN FLOID LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204957,
+  "metadata" : {
+    "handle" : "GREENFLOID-AS",
+    "description" : "GREEN FLOID LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.34.176.0/23",
       "5.183.129.0/24",
       "31.222.242.0/24",
@@ -118,7 +121,7 @@
       "217.12.206.0/23",
       "217.12.215.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:9400::/30",
       "2a05:9404::/32",
       "2a05:9406::/32",

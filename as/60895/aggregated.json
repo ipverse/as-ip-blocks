@@ -1,12 +1,15 @@
 {
-  "asn": 60895,
-  "handle": "LEKOS",
-  "description": "LEKOS s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60895,
+  "metadata" : {
+    "handle" : "LEKOS",
+    "description" : "LEKOS s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.23.112.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:6d20::/29"
     ]
   }

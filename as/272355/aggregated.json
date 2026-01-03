@@ -1,12 +1,15 @@
 {
-  "asn": 272355,
-  "handle": "BMW-SLP",
-  "description": "BMW SLP S.A. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272355,
+  "metadata" : {
+    "handle" : "BMW-SLP",
+    "description" : "BMW SLP S.A. de C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.34.243.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:c5:e000::/48"
     ]
   }

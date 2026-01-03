@@ -1,14 +1,17 @@
 {
-  "asn": 59741,
-  "handle": "SINAVPS",
-  "description": "Marco Sandro Naef",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59741,
+  "metadata" : {
+    "handle" : "SINAVPS",
+    "description" : "Marco Sandro Naef",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.73.240.0/23",
       "185.73.242.0/24",
       "195.190.7.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:4740::/32",
       "2a05:4742::/32"
     ]

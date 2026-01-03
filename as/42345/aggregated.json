@@ -1,11 +1,14 @@
 {
-  "asn": 42345,
-  "handle": "GRANAROLO-AS",
-  "description": "Granarolo SpA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42345,
+  "metadata" : {
+    "handle" : "GRANAROLO-AS",
+    "description" : "Granarolo SpA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.88.168.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

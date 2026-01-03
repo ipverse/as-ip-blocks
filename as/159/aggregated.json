@@ -1,9 +1,12 @@
 {
-  "asn": 159,
-  "handle": "OSUNET-AS",
-  "description": "Ohio State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 159,
+  "metadata" : {
+    "handle" : "OSUNET-AS",
+    "description" : "Ohio State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.146.0.0/16",
       "140.254.0.0/16",
       "164.107.0.0/16",
@@ -12,7 +15,7 @@
       "192.153.26.0/24",
       "198.30.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:1a10::/48"
     ]
   }

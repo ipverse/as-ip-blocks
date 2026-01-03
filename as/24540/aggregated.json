@@ -1,11 +1,14 @@
 {
-  "asn": 24540,
-  "handle": "TG-AS-AP",
-  "description": "Thai Airways International",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24540,
+  "metadata" : {
+    "handle" : "TG-AS-AP",
+    "description" : "Thai Airways International",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.122.131.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

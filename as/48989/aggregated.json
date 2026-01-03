@@ -1,12 +1,15 @@
 {
-  "asn": 48989,
-  "handle": "CLUSTER-IQ",
-  "description": "Cluster LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48989,
+  "metadata" : {
+    "handle" : "CLUSTER-IQ",
+    "description" : "Cluster LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.253.20.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:8582::/32"
     ]
   }

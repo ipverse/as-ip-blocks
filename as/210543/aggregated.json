@@ -1,12 +1,15 @@
 {
-  "asn": 210543,
-  "handle": "KAGES",
-  "description": "Steiermaerkische Krankenanstaltengesellschaft mbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210543,
+  "metadata" : {
+    "handle" : "KAGES",
+    "description" : "Steiermaerkische Krankenanstaltengesellschaft mbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "145.244.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:151c::/48"
     ]
   }

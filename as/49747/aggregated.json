@@ -1,9 +1,12 @@
 {
-  "asn": 49747,
-  "handle": "QHOST-AS",
-  "description": "QHost LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49747,
+  "metadata" : {
+    "handle" : "QHOST-AS",
+    "description" : "QHost LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.23.111.0/24",
       "146.19.1.0/24",
       "146.19.238.0/24",
@@ -11,7 +14,7 @@
       "193.56.182.0/24",
       "193.200.206.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:c6c::/48"
     ]
   }

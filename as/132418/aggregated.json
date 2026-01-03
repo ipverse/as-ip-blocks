@@ -1,12 +1,15 @@
 {
-  "asn": 132418,
-  "handle": "OUTSCALE-AP",
-  "description": "Outscale SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132418,
+  "metadata" : {
+    "handle" : "OUTSCALE-AP",
+    "description" : "Outscale SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.230.16.0/20",
       "103.20.172.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

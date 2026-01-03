@@ -1,12 +1,15 @@
 {
-  "asn": 9367,
-  "handle": "ISCT",
-  "description": "Institute of Science Tokyo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9367,
+  "metadata" : {
+    "handle" : "ISCT",
+    "description" : "Institute of Science Tokyo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.112.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:4440::/32"
     ]
   }

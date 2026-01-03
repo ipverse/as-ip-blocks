@@ -1,13 +1,16 @@
 {
-  "asn": 4858,
-  "handle": "CORPITA-AS-AP",
-  "description": "Corpita Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4858,
+  "metadata" : {
+    "handle" : "CORPITA-AS-AP",
+    "description" : "Corpita Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.90.24.0/22",
       "203.90.29.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:ca00:1::/48",
       "2406:ca00:2::/47"
     ]

@@ -1,11 +1,14 @@
 {
-  "asn": 200204,
-  "handle": "A-ZZ-A-AS",
-  "description": "A-ZZ-A Service Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200204,
+  "metadata" : {
+    "handle" : "A-ZZ-A-AS",
+    "description" : "A-ZZ-A Service Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.248.56.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

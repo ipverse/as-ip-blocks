@@ -1,16 +1,19 @@
 {
-  "asn": 14544,
-  "handle": "RETEK",
-  "description": "Oracle Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14544,
+  "metadata" : {
+    "handle" : "RETEK",
+    "description" : "Oracle Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.208.192.0/19",
       "130.110.30.0/23",
       "164.152.96.0/22",
       "207.127.64.0/21",
       "207.127.80.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2603:c050::/40",
       "2603:c050:1000::/39",
       "2603:c050:2000::/40",

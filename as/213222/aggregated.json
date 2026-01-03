@@ -1,13 +1,16 @@
 {
-  "asn": 213222,
-  "handle": "TIDA",
-  "description": "Tida Data Processing Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213222,
+  "metadata" : {
+    "handle" : "TIDA",
+    "description" : "Tida Data Processing Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.220.113.0/24",
       "176.126.120.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:ef00::/29"
     ]
   }

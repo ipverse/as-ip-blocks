@@ -1,13 +1,16 @@
 {
-  "asn": 20255,
-  "handle": "TECNOWIND",
-  "description": "Tecnowind S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20255,
+  "metadata" : {
+    "handle" : "TECNOWIND",
+    "description" : "Tecnowind S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.108.0.0/19",
       "200.108.192.0/18",
       "201.221.0.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 3685,
-  "handle": "BUFFALO-ASN",
-  "description": "State University of New York at Buffalo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3685,
+  "metadata" : {
+    "handle" : "BUFFALO-ASN",
+    "description" : "State University of New York at Buffalo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.22.104.0/21",
       "8.35.160.0/20",
       "8.37.48.0/21",
@@ -16,7 +19,7 @@
       "137.170.132.0/22",
       "199.33.167.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:cc:8000::/48"
     ]
   }

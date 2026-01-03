@@ -1,9 +1,12 @@
 {
-  "asn": 42148,
-  "handle": "BEIREL-AS",
-  "description": "Beirel Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42148,
+  "metadata" : {
+    "handle" : "BEIREL-AS",
+    "description" : "Beirel Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.94.116.0/22",
       "45.134.64.0/22",
       "89.222.164.0/22",
@@ -11,7 +14,7 @@
       "185.150.152.0/22",
       "188.35.16.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:7180::/29"
     ]
   }

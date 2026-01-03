@@ -1,9 +1,12 @@
 {
-  "asn": 136000,
-  "handle": "LIGHTNING-AS-AP",
-  "description": "Lightning Broadband Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136000,
+  "metadata" : {
+    "handle" : "LIGHTNING-AS-AP",
+    "description" : "Lightning Broadband Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.21.4.0/23",
       "103.79.104.0/22",
       "103.114.190.0/23",
@@ -37,7 +40,7 @@
       "203.98.90.0/24",
       "203.168.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:3740::/32"
     ]
   }

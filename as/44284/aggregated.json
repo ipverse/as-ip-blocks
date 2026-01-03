@@ -1,13 +1,16 @@
 {
-  "asn": 44284,
-  "handle": "TRONIC-AS",
-  "description": "P.H.U TRONIC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44284,
+  "metadata" : {
+    "handle" : "TRONIC-AS",
+    "description" : "P.H.U TRONIC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.177.36.0/24",
       "91.194.198.0/23",
       "195.93.162.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

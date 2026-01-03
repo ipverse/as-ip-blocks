@@ -1,9 +1,12 @@
 {
-  "asn": 51396,
-  "handle": "PFCLOUD",
-  "description": "Pfcloud UG (haftungsbeschrankt)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51396,
+  "metadata" : {
+    "handle" : "PFCLOUD",
+    "description" : "Pfcloud UG (haftungsbeschrankt)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.40.201.0/24",
       "45.135.193.0/24",
       "45.135.194.0/24",
@@ -25,7 +28,7 @@
       "195.216.154.0/24",
       "204.76.203.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:9080:13::/48",
       "2a05:b0c6:a200::/39",
       "2a05:b0c7:6000::/36",

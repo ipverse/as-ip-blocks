@@ -1,9 +1,12 @@
 {
-  "asn": 328475,
-  "handle": "AFRIQ-NETWORK-SOLUTIONS-AS",
-  "description": "AFRIQ NETWORK SOLUTIONS LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328475,
+  "metadata" : {
+    "handle" : "AFRIQ-NETWORK-SOLUTIONS-AS",
+    "description" : "AFRIQ NETWORK SOLUTIONS LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.69.224.0/21",
       "102.207.68.0/22",
       "102.211.136.0/22",
@@ -12,7 +15,7 @@
       "102.218.232.0/22",
       "102.220.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:e818::/36",
       "2c0f:e818:3000::/36",
       "2c0f:e818:4000::/34",

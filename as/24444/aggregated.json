@@ -1,9 +1,12 @@
 {
-  "asn": 24444,
-  "handle": "CMNET-V4SHANDONG-AS-AP",
-  "description": "China Mobile",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24444,
+  "metadata" : {
+    "handle" : "CMNET-V4SHANDONG-AS-AP",
+    "description" : "China Mobile",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.140.254.0/24",
       "39.134.143.0/24",
       "39.134.144.0/22",
@@ -83,7 +86,7 @@
       "223.160.160.0/21",
       "223.161.252.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2409:803c::/40",
       "2409:803c:800::/40",
       "2409:803c:1000::/40",

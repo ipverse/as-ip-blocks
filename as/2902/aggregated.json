@@ -1,14 +1,17 @@
 {
-  "asn": 2902,
-  "handle": "WN-WY-AS",
-  "description": "University of Wyoming",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2902,
+  "metadata" : {
+    "handle" : "WN-WY-AS",
+    "description" : "University of Wyoming",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.72.0.0/16",
       "192.65.143.0/24",
       "192.84.113.0/24",
       "198.59.192.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

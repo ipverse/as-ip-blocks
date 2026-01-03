@@ -1,14 +1,17 @@
 {
-  "asn": 19152,
-  "handle": "IBMCCH-TOR",
-  "description": "IBM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19152,
+  "metadata" : {
+    "handle" : "IBMCCH-TOR",
+    "description" : "IBM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.33.162.0/24",
       "170.226.56.0/24",
       "198.235.143.0/24",
       "199.185.26.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

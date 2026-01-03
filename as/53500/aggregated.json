@@ -1,11 +1,14 @@
 {
-  "asn": 53500,
-  "handle": "WIDOJ",
-  "description": "Wisconsin Department of Justice",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53500,
+  "metadata" : {
+    "handle" : "WIDOJ",
+    "description" : "Wisconsin Department of Justice",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.161.200.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

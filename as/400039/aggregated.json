@@ -1,9 +1,12 @@
 {
-  "asn": 400039,
-  "handle": "WT-AUR",
-  "description": "Wolverine Trading LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400039,
+  "metadata" : {
+    "handle" : "WT-AUR",
+    "description" : "Wolverine Trading LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.56.0/24",
       "5.181.129.0/24",
       "5.181.179.0/24",
@@ -43,6 +46,6 @@
       "204.14.78.0/24",
       "216.185.32.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

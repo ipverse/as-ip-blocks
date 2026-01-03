@@ -1,16 +1,19 @@
 {
-  "asn": 205376,
-  "handle": "DINOEX",
-  "description": "Dirk Meyer",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205376,
+  "metadata" : {
+    "handle" : "DINOEX",
+    "description" : "Dirk Meyer",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.220.148.0/24",
       "185.220.150.0/23",
       "193.141.67.0/24",
       "194.45.71.0/24",
       "194.120.16.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:303::/48",
       "2001:67c:2e58::/48",
       "2a0b:f840::/32",

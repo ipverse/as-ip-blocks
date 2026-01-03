@@ -1,9 +1,12 @@
 {
-  "asn": 131090,
-  "handle": "NTPCL-AS-AP",
-  "description": "National Telecom Public Company Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131090,
+  "metadata" : {
+    "handle" : "NTPCL-AS-AP",
+    "description" : "National Telecom Public Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.157.88.0/22",
       "61.7.128.0/18",
       "103.10.228.0/22",
@@ -14,7 +17,7 @@
       "134.236.0.0/16",
       "159.192.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:c38:b000::/36"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 26914,
-  "handle": "SYNOPTEK",
-  "description": "Synoptek LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26914,
+  "metadata" : {
+    "handle" : "SYNOPTEK",
+    "description" : "Synoptek LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.79.149.0/24",
       "64.127.122.0/24",
       "64.147.160.0/22",
@@ -29,7 +32,7 @@
       "216.115.79.0/24",
       "216.115.86.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1898:2400::/40",
       "2001:1898:3200::/40",
       "2001:1898:8001::/48"

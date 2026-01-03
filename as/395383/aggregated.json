@@ -1,9 +1,12 @@
 {
-  "asn": 395383,
-  "handle": "DATAVERGE",
-  "description": "Cologuard",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395383,
+  "metadata" : {
+    "handle" : "DATAVERGE",
+    "description" : "Cologuard",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "9.179.232.0/24",
       "64.118.80.0/20",
       "66.109.16.0/20",
@@ -16,7 +19,7 @@
       "209.104.192.0/19",
       "209.151.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:eb80::/32"
     ]
   }

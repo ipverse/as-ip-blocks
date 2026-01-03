@@ -1,12 +1,15 @@
 {
-  "asn": 215044,
-  "handle": "OBT-AG",
-  "description": "OBT AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215044,
+  "metadata" : {
+    "handle" : "OBT-AG",
+    "description" : "OBT AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.157.48.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:9840::/29"
     ]
   }

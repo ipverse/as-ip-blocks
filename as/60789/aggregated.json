@@ -1,11 +1,14 @@
 {
-  "asn": 60789,
-  "handle": "QITS-AS",
-  "description": "QITS GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60789,
+  "metadata" : {
+    "handle" : "QITS-AS",
+    "description" : "QITS GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.26.36.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

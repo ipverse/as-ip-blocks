@@ -1,9 +1,12 @@
 {
-  "asn": 208397,
-  "handle": "INFOSTROY-AS",
-  "description": "INFOSTROY LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208397,
+  "metadata" : {
+    "handle" : "INFOSTROY-AS",
+    "description" : "INFOSTROY LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.246.248.0/21",
       "91.210.176.0/22",
       "176.99.96.0/19",
@@ -12,6 +15,6 @@
       "185.138.200.0/23",
       "185.141.40.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

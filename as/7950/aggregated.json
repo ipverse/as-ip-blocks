@@ -1,11 +1,14 @@
 {
-  "asn": 7950,
-  "handle": "HC-AS",
-  "description": "Holland College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7950,
+  "metadata" : {
+    "handle" : "HC-AS",
+    "description" : "Holland College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.87.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 38690,
-  "handle": "HYOSUNGITX-AS",
-  "description": "HyosungITX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38690,
+  "metadata" : {
+    "handle" : "HYOSUNGITX-AS",
+    "description" : "HyosungITX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.236.128.0/22",
       "49.236.168.0/21",
       "49.236.176.0/20",
@@ -17,6 +20,6 @@
       "182.173.176.0/22",
       "223.26.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

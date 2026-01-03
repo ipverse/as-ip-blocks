@@ -1,9 +1,12 @@
 {
-  "asn": 61431,
-  "handle": "VOLS-AS",
-  "description": "TELECOMMUNICATION COMPANY KAMA - LINK LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61431,
+  "metadata" : {
+    "handle" : "VOLS-AS",
+    "description" : "TELECOMMUNICATION COMPANY KAMA - LINK LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.196.136.0/24",
       "91.196.138.0/24",
       "95.181.214.0/23",
@@ -13,6 +16,6 @@
       "109.196.136.0/21",
       "188.68.5.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

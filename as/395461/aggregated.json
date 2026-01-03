@@ -1,9 +1,12 @@
 {
-  "asn": 395461,
-  "handle": "APOG-AUSTIN",
-  "description": "Apogee Telecom Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395461,
+  "metadata" : {
+    "handle" : "APOG-AUSTIN",
+    "description" : "Apogee Telecom Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.189.47.0/24",
       "64.189.54.0/24",
       "64.189.88.0/21",
@@ -28,7 +31,7 @@
       "209.166.110.0/24",
       "209.166.120.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:7700:1::/48",
       "2606:7700:2::/48"
     ]

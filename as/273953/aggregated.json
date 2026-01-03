@@ -1,15 +1,18 @@
 {
-  "asn": 273953,
-  "handle": "TV-COLOMBIA-DIGITAL",
-  "description": "TV COLOMBIA DIGITAL SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273953,
+  "metadata" : {
+    "handle" : "TV-COLOMBIA-DIGITAL",
+    "description" : "TV COLOMBIA DIGITAL SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.199.65.0/24",
       "38.199.66.0/23",
       "131.72.138.0/24",
       "187.102.194.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:df50::/32"
     ]
   }

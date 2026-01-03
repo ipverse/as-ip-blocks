@@ -1,13 +1,16 @@
 {
-  "asn": 215273,
-  "handle": "HEXABYTE",
-  "description": "Hexabyte AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215273,
+  "metadata" : {
+    "handle" : "HEXABYTE",
+    "description" : "Hexabyte AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.194.137.0/24",
       "194.104.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:6000:1::/48",
       "2a14:2640::/29"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 210140,
-  "handle": "AS-REGION-GAVLEBORG",
-  "description": "GAVLEBORGS LANS LANDSTING",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210140,
+  "metadata" : {
+    "handle" : "AS-REGION-GAVLEBORG",
+    "description" : "GAVLEBORGS LANS LANDSTING",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.235.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2e48::/48"
     ]
   }

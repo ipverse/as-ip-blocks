@@ -1,12 +1,15 @@
 {
-  "asn": 271000,
-  "handle": "MM-NET",
-  "description": "MM NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271000,
+  "metadata" : {
+    "handle" : "MM-NET",
+    "description" : "MM NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.223.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:74bc::/32"
     ]
   }

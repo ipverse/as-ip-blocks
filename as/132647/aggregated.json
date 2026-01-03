@@ -1,13 +1,16 @@
 {
-  "asn": 132647,
-  "handle": "IDNIC-PANDI-AS-ID",
-  "description": "Pengelola Nama Domain Internet Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132647,
+  "metadata" : {
+    "handle" : "IDNIC-PANDI-AS-ID",
+    "description" : "Pengelola Nama Domain Internet Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.126.56.0/22",
       "103.19.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:4000::/48",
       "2402:ee80:b::/48",
       "2402:ee80:c::/47",

@@ -1,9 +1,12 @@
 {
-  "asn": 22442,
-  "handle": "HOU-PHONOSCOPE",
-  "description": "Phonoscope Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22442,
+  "metadata" : {
+    "handle" : "HOU-PHONOSCOPE",
+    "description" : "Phonoscope Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.60.224.0/23",
       "66.60.227.0/24",
       "66.60.228.0/22",
@@ -52,7 +55,7 @@
       "205.196.184.0/22",
       "205.196.188.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:f000::/32"
     ]
   }

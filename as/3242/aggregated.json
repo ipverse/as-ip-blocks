@@ -1,9 +1,12 @@
 {
-  "asn": 3242,
-  "handle": "ASN-ITNET",
-  "description": "REEVO S.P.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3242,
+  "metadata" : {
+    "handle" : "ASN-ITNET",
+    "description" : "REEVO S.P.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.134.120.0/21",
       "91.207.150.0/23",
       "151.1.0.0/18",
@@ -25,7 +28,7 @@
       "212.115.96.0/22",
       "217.73.216.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:65c0::/32"
     ]
   }

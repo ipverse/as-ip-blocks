@@ -1,9 +1,12 @@
 {
-  "asn": 50625,
-  "handle": "KROSOFT-AS",
-  "description": "Krosnienskie Centrum Informatyczne KROSOFT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50625,
+  "metadata" : {
+    "handle" : "KROSOFT-AS",
+    "description" : "Krosnienskie Centrum Informatyczne KROSOFT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.182.144.0/21",
       "82.177.204.0/24",
       "91.207.202.0/23",
@@ -15,7 +18,7 @@
       "192.162.172.0/22",
       "194.183.60.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:c47::/48"
     ]
   }

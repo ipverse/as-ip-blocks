@@ -1,13 +1,16 @@
 {
-  "asn": 136948,
-  "handle": "TODAYVISION-BD",
-  "description": "Today Vision",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136948,
+  "metadata" : {
+    "handle" : "TODAYVISION-BD",
+    "description" : "Today Vision",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.99.249.0/24",
       "103.99.250.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:b640::/47",
       "2401:b640:3::/48"
     ]

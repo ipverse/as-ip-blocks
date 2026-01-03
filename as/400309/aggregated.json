@@ -1,11 +1,14 @@
 {
-  "asn": 400309,
-  "handle": "VAULT-HOST-SGP",
-  "description": "Vault Host",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400309,
+  "metadata" : {
+    "handle" : "VAULT-HOST-SGP",
+    "description" : "Vault Host",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.73.156.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

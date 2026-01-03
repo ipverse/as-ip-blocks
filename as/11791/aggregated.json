@@ -1,12 +1,15 @@
 {
-  "asn": 11791,
-  "handle": "SLC-IDENT-AS",
-  "description": "IdenTrust",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11791,
+  "metadata" : {
+    "handle" : "SLC-IDENT-AS",
+    "description" : "IdenTrust",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.35.174.0/23",
       "192.35.176.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

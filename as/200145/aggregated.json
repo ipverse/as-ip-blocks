@@ -1,13 +1,16 @@
 {
-  "asn": 200145,
-  "handle": "AARHUSNETWORK",
-  "description": "Aarhus Kommune",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200145,
+  "metadata" : {
+    "handle" : "AARHUSNETWORK",
+    "description" : "Aarhus Kommune",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.155.132.0/22",
       "193.33.148.0/23",
       "193.105.220.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

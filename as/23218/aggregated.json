@@ -1,12 +1,15 @@
 {
-  "asn": 23218,
-  "handle": "TMC",
-  "description": "Texas Medical Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23218,
+  "metadata" : {
+    "handle" : "TMC",
+    "description" : "Texas Medical Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.42.226.0/24",
       "208.110.193.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

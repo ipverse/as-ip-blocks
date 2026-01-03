@@ -1,12 +1,15 @@
 {
-  "asn": 33111,
-  "handle": "CALIX-PACIFIC",
-  "description": "Calix Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33111,
+  "metadata" : {
+    "handle" : "CALIX-PACIFIC",
+    "description" : "Calix Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.136.96.0/23",
       "192.111.10.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

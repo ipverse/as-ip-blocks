@@ -1,9 +1,12 @@
 {
-  "asn": 198479,
-  "handle": "BPLAN",
-  "description": "Nunsys SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198479,
+  "metadata" : {
+    "handle" : "BPLAN",
+    "description" : "Nunsys SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.128.168.0/22",
       "37.128.172.0/23",
       "37.128.174.0/24",
@@ -13,6 +16,6 @@
       "185.5.236.0/23",
       "185.9.192.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

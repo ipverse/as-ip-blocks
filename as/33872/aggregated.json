@@ -1,13 +1,16 @@
 {
-  "asn": 33872,
-  "handle": "AMS-AS",
-  "description": "Alpha Medien Service GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33872,
+  "metadata" : {
+    "handle" : "AMS-AS",
+    "description" : "Alpha Medien Service GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.187.4.0/22",
       "193.187.9.0/24",
       "193.187.10.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

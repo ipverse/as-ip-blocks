@@ -1,9 +1,12 @@
 {
-  "asn": 146996,
-  "handle": "DEX-AS-AP",
-  "description": "DEXSERVER",
-  "subnets": {
-    "ipv4": [
+  "asn" : 146996,
+  "metadata" : {
+    "handle" : "DEX-AS-AP",
+    "description" : "DEXSERVER",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.91.204.0/23",
       "141.11.33.0/24",
       "143.14.4.0/23",
@@ -15,6 +18,6 @@
       "168.222.55.0/24",
       "168.222.60.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 210232,
-  "handle": "PACTOO",
-  "description": "PACTOO SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210232,
+  "metadata" : {
+    "handle" : "PACTOO",
+    "description" : "PACTOO SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.238.4.0/22",
       "193.243.149.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:6840::/29"
     ]
   }

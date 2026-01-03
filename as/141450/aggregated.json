@@ -1,12 +1,15 @@
 {
-  "asn": 141450,
-  "handle": "CONNECT-ICT-AS-AP",
-  "description": "Connect Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141450,
+  "metadata" : {
+    "handle" : "CONNECT-ICT-AS-AP",
+    "description" : "Connect Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "39.34.160.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:d00:160::/47"
     ]
   }

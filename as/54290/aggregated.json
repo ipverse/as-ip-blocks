@@ -1,9 +1,12 @@
 {
-  "asn": 54290,
-  "handle": "HOSTWINDS",
-  "description": "Hostwinds LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54290,
+  "metadata" : {
+    "handle" : "HOSTWINDS",
+    "description" : "Hostwinds LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.238.0.0/17",
       "23.254.128.0/17",
       "36.255.24.0/22",
@@ -28,7 +31,7 @@
       "198.143.96.0/19",
       "199.59.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:5500::/31",
       "2a0d:7c40::/32"
     ]

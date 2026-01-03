@@ -1,13 +1,16 @@
 {
-  "asn": 140057,
-  "handle": "IPV4SUPERHUB",
-  "description": "IPv4 Superhub Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140057,
+  "metadata" : {
+    "handle" : "IPV4SUPERHUB",
+    "description" : "IPv4 Superhub Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.163.133.0/24",
       "149.57.11.0/24",
       "149.57.16.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

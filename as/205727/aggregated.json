@@ -1,13 +1,16 @@
 {
-  "asn": 205727,
-  "handle": "ARUBAPL-AS",
-  "description": "Aruba S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205727,
+  "metadata" : {
+    "handle" : "ARUBAPL-AS",
+    "description" : "Aruba S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.211.240.0/20",
       "176.107.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:6d47::/36"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 264460,
-  "handle": "SIGA-FIBRA",
-  "description": "SIGA FIBRA LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264460,
+  "metadata" : {
+    "handle" : "SIGA-FIBRA",
+    "description" : "SIGA FIBRA LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.255.100.0/22",
       "168.197.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2004::/32"
     ]
   }

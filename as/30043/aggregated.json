@@ -1,9 +1,12 @@
 {
-  "asn": 30043,
-  "handle": "RBAND-AS30043",
-  "description": "ResortInternet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30043,
+  "metadata" : {
+    "handle" : "RBAND-AS30043",
+    "description" : "ResortInternet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.110.0.0/22",
       "64.110.4.0/23",
       "64.110.7.0/24",
@@ -16,6 +19,6 @@
       "69.7.118.0/23",
       "69.7.120.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

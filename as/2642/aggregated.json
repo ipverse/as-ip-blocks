@@ -1,15 +1,18 @@
 {
-  "asn": 2642,
-  "handle": "LEG-CA-GOV",
-  "description": "California Department of Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2642,
+  "metadata" : {
+    "handle" : "LEG-CA-GOV",
+    "description" : "California Department of Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.66.0.0/16",
       "165.107.0.0/16",
       "192.234.213.0/24",
       "192.234.214.0/24",
       "198.135.224.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

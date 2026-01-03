@@ -1,9 +1,12 @@
 {
-  "asn": 34931,
-  "handle": "AWARESOFT",
-  "description": "Awareness Software Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34931,
+  "metadata" : {
+    "handle" : "AWARESOFT",
+    "description" : "Awareness Software Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.159.248.0/21",
       "89.28.168.0/21",
       "149.255.56.0/21",
@@ -11,6 +14,6 @@
       "185.88.108.0/22",
       "194.9.32.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

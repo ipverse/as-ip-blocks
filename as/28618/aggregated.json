@@ -1,9 +1,12 @@
 {
-  "asn": 28618,
-  "handle": "LINKTEL-TELECOM-BRASIL",
-  "description": "Linktel Telecom do Brasil Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28618,
+  "metadata" : {
+    "handle" : "LINKTEL-TELECOM-BRASIL",
+    "description" : "Linktel Telecom do Brasil Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.250.32.0/22",
       "177.152.128.0/22",
       "177.152.132.0/24",
@@ -13,7 +16,7 @@
       "177.152.140.0/22",
       "201.54.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:12b0::/32"
     ]
   }

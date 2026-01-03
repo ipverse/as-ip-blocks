@@ -1,9 +1,12 @@
 {
-  "asn": 15623,
-  "handle": "CYBERLINK",
-  "description": "Cyberlink AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15623,
+  "metadata" : {
+    "handle" : "CYBERLINK",
+    "description" : "Cyberlink AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.255.56.0/24",
       "45.83.68.0/22",
       "45.94.88.0/22",
@@ -41,7 +44,7 @@
       "217.14.64.0/20",
       "217.75.16.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:8a8::/32",
       "2a03:17e0::/32",
       "2a03:24e0::/48",

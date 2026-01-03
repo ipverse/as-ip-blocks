@@ -1,9 +1,12 @@
 {
-  "asn": 23342,
-  "handle": "UNITEDLAYER",
-  "description": "Unitedlayer Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23342,
+  "metadata" : {
+    "handle" : "UNITEDLAYER",
+    "description" : "Unitedlayer Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.135.65.0/24",
       "64.29.128.0/20",
       "67.221.160.0/20",
@@ -22,7 +25,7 @@
       "209.237.224.0/19",
       "216.39.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f3a0::/32",
       "2620:8d::/48"
     ]

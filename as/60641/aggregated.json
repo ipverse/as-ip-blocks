@@ -1,9 +1,12 @@
 {
-  "asn": 60641,
-  "handle": "HEXATEL",
-  "description": "HEXATEL SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60641,
+  "metadata" : {
+    "handle" : "HEXATEL",
+    "description" : "HEXATEL SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.39.233.0/24",
       "5.39.234.0/24",
       "5.39.236.0/24",
@@ -13,6 +16,6 @@
       "185.45.172.0/23",
       "185.52.44.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

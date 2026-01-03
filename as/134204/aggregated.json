@@ -1,9 +1,12 @@
 {
-  "asn": 134204,
-  "handle": "BUSINESSNETWORK-AS-AP",
-  "description": "Business Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134204,
+  "metadata" : {
+    "handle" : "BUSINESSNETWORK-AS-AP",
+    "description" : "Business Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.58.72.0/22",
       "103.122.46.0/23",
       "103.138.123.0/24",
@@ -11,7 +14,7 @@
       "138.252.84.0/24",
       "203.76.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:4d40::/32"
     ]
   }

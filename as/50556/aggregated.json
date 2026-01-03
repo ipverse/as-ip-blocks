@@ -1,9 +1,12 @@
 {
-  "asn": 50556,
-  "handle": "OOO-KISS",
-  "description": "OOO KISS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50556,
+  "metadata" : {
+    "handle" : "OOO-KISS",
+    "description" : "OOO KISS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.11.214.0/23",
       "62.76.216.0/21",
       "95.66.175.0/24",
@@ -12,6 +15,6 @@
       "95.66.236.0/24",
       "217.17.112.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

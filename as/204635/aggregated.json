@@ -1,13 +1,16 @@
 {
-  "asn": 204635,
-  "handle": "RDW",
-  "description": "Dienst Wegverkeer",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204635,
+  "metadata" : {
+    "handle" : "RDW",
+    "description" : "Dienst Wegverkeer",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.213.37.0/24",
       "185.244.196.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:26ac::/48",
       "2a0d:3d80::/29"
     ]

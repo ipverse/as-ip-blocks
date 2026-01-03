@@ -1,9 +1,12 @@
 {
-  "asn": 60602,
-  "handle": "INOVARE-AS",
-  "description": "Inovare-Prim SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60602,
+  "metadata" : {
+    "handle" : "INOVARE-AS",
+    "description" : "Inovare-Prim SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.101.80.0/24",
       "80.66.79.0/24",
       "82.25.203.0/24",
@@ -14,7 +17,7 @@
       "185.181.230.0/24",
       "194.33.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:d580::/32"
     ]
   }

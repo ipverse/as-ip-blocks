@@ -1,9 +1,12 @@
 {
-  "asn": 215733,
-  "handle": "BKBB",
-  "description": "Blacknight Internet Solutions Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215733,
+  "metadata" : {
+    "handle" : "BKBB",
+    "description" : "Blacknight Internet Solutions Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.11.168.0/22",
       "92.51.208.0/21",
       "185.97.236.0/22",
@@ -12,7 +15,7 @@
       "194.36.58.0/23",
       "194.36.64.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:ac::/31"
     ]
   }

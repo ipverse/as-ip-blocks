@@ -1,9 +1,12 @@
 {
-  "asn": 14148,
-  "handle": "EXLIBRIS",
-  "description": "Ex Libris (USA) Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14148,
+  "metadata" : {
+    "handle" : "EXLIBRIS",
+    "description" : "Ex Libris (USA) Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.186.254.0/24",
       "64.74.237.0/24",
       "66.151.7.0/24",
@@ -19,7 +22,7 @@
       "216.147.218.0/23",
       "216.147.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:f0:c001::/48",
       "2620:f0:c002::/47",
       "2620:f0:c004::/47",

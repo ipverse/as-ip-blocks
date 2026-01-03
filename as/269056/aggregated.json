@@ -1,12 +1,15 @@
 {
-  "asn": 269056,
-  "handle": "LNK-TELECOM",
-  "description": "LNK Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269056,
+  "metadata" : {
+    "handle" : "LNK-TELECOM",
+    "description" : "LNK Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.178.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5ec8::/32"
     ]
   }

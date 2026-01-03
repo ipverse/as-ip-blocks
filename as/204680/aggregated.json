@@ -1,12 +1,15 @@
 {
-  "asn": 204680,
-  "handle": "KIT-STUDENT",
-  "description": "Karlsruhe Institute of Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204680,
+  "metadata" : {
+    "handle" : "KIT-STUDENT",
+    "description" : "Karlsruhe Institute of Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.67.189.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:139b::/32"
     ]
   }

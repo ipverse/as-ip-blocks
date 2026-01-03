@@ -1,9 +1,12 @@
 {
-  "asn": 131627,
-  "handle": "PEICITY-AS-TW",
-  "description": "Peicity Digital Cable Television. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131627,
+  "metadata" : {
+    "handle" : "PEICITY-AS-TW",
+    "description" : "Peicity Digital Cable Television. LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.64.228.0/22",
       "61.61.70.0/23",
       "61.61.144.0/21",
@@ -38,6 +41,6 @@
       "219.91.0.0/17",
       "223.26.104.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

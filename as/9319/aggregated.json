@@ -1,9 +1,12 @@
 {
-  "asn": 9319,
-  "handle": "HCNCHUNGJU-AS",
-  "description": "HCN CHUNGBUK CABLE TV SYSTEMS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9319,
+  "metadata" : {
+    "handle" : "HCNCHUNGJU-AS",
+    "description" : "HCN CHUNGBUK CABLE TV SYSTEMS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.222.206.0/23",
       "27.35.80.0/20",
       "39.126.154.0/23",
@@ -76,6 +79,6 @@
       "211.40.242.0/24",
       "211.40.248.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

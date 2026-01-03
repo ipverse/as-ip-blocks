@@ -1,9 +1,12 @@
 {
-  "asn": 142002,
-  "handle": "SCLOUDPTELTD-AS",
-  "description": "Scloud Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142002,
+  "metadata" : {
+    "handle" : "SCLOUDPTELTD-AS",
+    "description" : "Scloud Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.195.8.0/22",
       "45.197.12.0/22",
       "103.43.87.0/24",
@@ -16,6 +19,6 @@
       "165.154.216.0/23",
       "165.154.224.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

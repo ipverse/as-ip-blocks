@@ -1,9 +1,12 @@
 {
-  "asn": 36992,
-  "handle": "ETISALAT-MISR",
-  "description": "ETISALAT MISR",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36992,
+  "metadata" : {
+    "handle" : "ETISALAT-MISR",
+    "description" : "ETISALAT MISR",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.64.0.0/15",
       "41.152.0.0/15",
       "41.176.32.0/20",
@@ -346,7 +349,7 @@
       "217.55.96.0/20",
       "217.55.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:42b8::/32",
       "2c0f:fc88::/31"
     ]

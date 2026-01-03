@@ -1,12 +1,15 @@
 {
-  "asn": 395395,
-  "handle": "INDIANATECH",
-  "description": "Indiana Tech",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395395,
+  "metadata" : {
+    "handle" : "INDIANATECH",
+    "description" : "Indiana Tech",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.8.54.0/23",
       "199.8.64.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

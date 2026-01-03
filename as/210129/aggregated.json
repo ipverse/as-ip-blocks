@@ -1,14 +1,17 @@
 {
-  "asn": 210129,
-  "handle": "ATOMONET-AS",
-  "description": "ATOMO NETWORKS SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210129,
+  "metadata" : {
+    "handle" : "ATOMONET-AS",
+    "description" : "ATOMO NETWORKS SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.56.32.0/19",
       "185.94.132.0/22",
       "185.227.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:52c0::/29"
     ]
   }

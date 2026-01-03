@@ -1,9 +1,12 @@
 {
-  "asn": 64429,
-  "handle": "OPTIKNET-AS",
-  "description": "DDS Service LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64429,
+  "metadata" : {
+    "handle" : "OPTIKNET-AS",
+    "description" : "DDS Service LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.72.86.0/24",
       "78.24.200.0/24",
       "79.171.119.0/24",
@@ -12,6 +15,6 @@
       "185.236.131.0/24",
       "192.144.6.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

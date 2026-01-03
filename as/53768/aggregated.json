@@ -1,9 +1,12 @@
 {
-  "asn": 53768,
-  "handle": "LABCORP",
-  "description": "Laboratory Corporation of America",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53768,
+  "metadata" : {
+    "handle" : "LABCORP",
+    "description" : "Laboratory Corporation of America",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.35.188.0/22",
       "12.39.198.0/23",
       "12.145.88.0/21",
@@ -13,6 +16,6 @@
       "162.134.160.0/20",
       "162.134.250.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

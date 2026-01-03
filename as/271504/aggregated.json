@@ -1,12 +1,15 @@
 {
-  "asn": 271504,
-  "handle": "SYSTEC-TELECOM",
-  "description": "SYSTEC TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271504,
+  "metadata" : {
+    "handle" : "SYSTEC-TELECOM",
+    "description" : "SYSTEC TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.53.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7c90::/32"
     ]
   }

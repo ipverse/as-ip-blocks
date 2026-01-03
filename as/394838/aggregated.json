@@ -1,15 +1,18 @@
 {
-  "asn": 394838,
-  "handle": "PULSE",
-  "description": "Pulse",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394838,
+  "metadata" : {
+    "handle" : "PULSE",
+    "description" : "Pulse",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.142.240.0/23",
       "149.106.96.0/19",
       "162.142.32.0/19",
       "216.110.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:6dc0::/32"
     ]
   }

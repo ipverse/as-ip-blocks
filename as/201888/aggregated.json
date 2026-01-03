@@ -1,12 +1,15 @@
 {
-  "asn": 201888,
-  "handle": "CEGAL",
-  "description": "Cegal AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201888,
+  "metadata" : {
+    "handle" : "CEGAL",
+    "description" : "Cegal AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.62.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:4a0::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 50880,
-  "handle": "SEVENI-AS",
-  "description": "SEVEN EYES FOR MARKETING LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50880,
+  "metadata" : {
+    "handle" : "SEVENI-AS",
+    "description" : "SEVEN EYES FOR MARKETING LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.110.0.0/20",
       "185.69.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:9940::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 27281,
-  "handle": "QUANTCAST",
-  "description": "Quantcast Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27281,
+  "metadata" : {
+    "handle" : "QUANTCAST",
+    "description" : "Quantcast Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.229.8.0/22",
       "192.184.67.0/24",
       "192.184.69.0/24",
@@ -11,7 +14,7 @@
       "192.184.74.0/23",
       "192.184.76.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:116:801a::/47",
       "2620:116:801c::/47",
       "2620:116:801e::/48",

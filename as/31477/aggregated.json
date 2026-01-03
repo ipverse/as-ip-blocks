@@ -1,9 +1,12 @@
 {
-  "asn": 31477,
-  "handle": "DUOCAST-AS",
-  "description": "Duocast B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31477,
+  "metadata" : {
+    "handle" : "DUOCAST-AS",
+    "description" : "Duocast B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.9.160.0/21",
       "45.82.188.0/22",
       "82.150.139.0/24",
@@ -37,7 +40,7 @@
       "195.137.165.0/24",
       "195.137.169.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:750::/48",
       "2001:678:d0c::/48",
       "2001:67c:6b8::/48",

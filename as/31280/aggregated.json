@@ -1,11 +1,14 @@
 {
-  "asn": 31280,
-  "handle": "BPS-SA",
-  "description": "Bank Polskiej Spoldzielczosci SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31280,
+  "metadata" : {
+    "handle" : "BPS-SA",
+    "description" : "Bank Polskiej Spoldzielczosci SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.30.160.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

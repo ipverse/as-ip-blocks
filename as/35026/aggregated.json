@@ -1,13 +1,16 @@
 {
-  "asn": 35026,
-  "handle": "GELICON-AS",
-  "description": "Gelicon-Apple Limited liability company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35026,
+  "metadata" : {
+    "handle" : "GELICON-AS",
+    "description" : "Gelicon-Apple Limited liability company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.139.80.0/23",
       "37.139.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:cf40::/40"
     ]
   }

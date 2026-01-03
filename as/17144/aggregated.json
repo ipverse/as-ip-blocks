@@ -1,15 +1,18 @@
 {
-  "asn": 17144,
-  "handle": "NUANCE-NOD",
-  "description": "Microsoft Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17144,
+  "metadata" : {
+    "handle" : "NUANCE-NOD",
+    "description" : "Microsoft Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.151.66.0/24",
       "67.208.167.0/24",
       "74.123.179.0/24",
       "192.135.86.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fdbb:a::/47",
       "2602:fdbb:c::/48"
     ]

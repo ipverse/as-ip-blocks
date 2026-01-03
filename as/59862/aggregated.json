@@ -1,9 +1,12 @@
 {
-  "asn": 59862,
-  "handle": "PLINK-AS",
-  "description": "Professional Link S.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59862,
+  "metadata" : {
+    "handle" : "PLINK-AS",
+    "description" : "Professional Link S.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.247.36.0/22",
       "85.8.172.0/22",
       "85.204.172.0/22",
@@ -18,6 +21,6 @@
       "185.195.4.0/22",
       "188.215.20.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

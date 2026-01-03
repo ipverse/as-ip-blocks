@@ -1,12 +1,15 @@
 {
-  "asn": 16601,
-  "handle": "CBTECH-ASN",
-  "description": "Calexico Business Technologies",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16601,
+  "metadata" : {
+    "handle" : "CBTECH-ASN",
+    "description" : "Calexico Business Technologies",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.22.44.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:550:a505::/48",
       "2607:a9c0::/32"
     ]

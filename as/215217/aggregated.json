@@ -1,13 +1,16 @@
 {
-  "asn": 215217,
-  "handle": "AS-VADIAN2",
-  "description": "Vadian.Net AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215217,
+  "metadata" : {
+    "handle" : "AS-VADIAN2",
+    "description" : "Vadian.Net AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.34.124.0/23",
       "89.150.55.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:ac84::/31"
     ]
   }

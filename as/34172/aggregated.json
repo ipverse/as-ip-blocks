@@ -1,14 +1,17 @@
 {
-  "asn": 34172,
-  "handle": "ELK-BAWUE-AS",
-  "description": "Evangelische Landeskirche Wuerttemberg",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34172,
+  "metadata" : {
+    "handle" : "ELK-BAWUE-AS",
+    "description" : "Evangelische Landeskirche Wuerttemberg",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.59.169.0/24",
       "194.145.232.0/23",
       "194.145.234.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:5ec::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 62005,
-  "handle": "BV-EU-AS",
-  "description": "BlueVPS OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62005,
+  "metadata" : {
+    "handle" : "BV-EU-AS",
+    "description" : "BlueVPS OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.216.0/23",
       "2.59.218.0/24",
       "5.42.221.0/24",
@@ -63,7 +66,7 @@
       "213.109.147.0/24",
       "213.109.192.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:1fc0:1::/48",
       "2a10:1fc0:2::/47",
       "2a10:1fc0:4::/47",

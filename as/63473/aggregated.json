@@ -1,9 +1,12 @@
 {
-  "asn": 63473,
-  "handle": "HOSTHATCH",
-  "description": "HostHatch LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63473,
+  "metadata" : {
+    "handle" : "HOSTHATCH",
+    "description" : "HostHatch LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.231.73.0/24",
       "31.56.62.0/24",
       "31.56.232.0/24",
@@ -74,7 +77,7 @@
       "212.52.0.0/24",
       "216.250.96.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:ef80:1::/48",
       "2406:ef80:2::/47",
       "2406:ef80:4::/47",

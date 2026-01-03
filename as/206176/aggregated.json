@@ -1,13 +1,16 @@
 {
-  "asn": 206176,
-  "handle": "GREENEDGE",
-  "description": "GreenEdge B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206176,
+  "metadata" : {
+    "handle" : "GREENEDGE",
+    "description" : "GreenEdge B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.135.56.0/22",
       "195.114.30.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:c900::/29"
     ]
   }

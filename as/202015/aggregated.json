@@ -1,9 +1,12 @@
 {
-  "asn": 202015,
-  "handle": "HZ-US-AS",
-  "description": "HZ Hosting Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202015,
+  "metadata" : {
+    "handle" : "HZ-US-AS",
+    "description" : "HZ Hosting Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.38.68.0/23",
       "45.38.76.0/24",
       "45.38.80.0/23",
@@ -51,7 +54,7 @@
       "209.40.216.0/21",
       "209.92.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:8640:4::/47",
       "2a01:8640:b::/48",
       "2a01:8640:e::/48",

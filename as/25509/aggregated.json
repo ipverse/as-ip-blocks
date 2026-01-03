@@ -1,12 +1,15 @@
 {
-  "asn": 25509,
-  "handle": "VORTEX-AS",
-  "description": "Hringidan ehf / Vortex Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25509,
+  "metadata" : {
+    "handle" : "VORTEX-AS",
+    "description" : "Hringidan ehf / Vortex Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.190.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:5380::/29"
     ]
   }

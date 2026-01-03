@@ -1,12 +1,15 @@
 {
-  "asn": 55333,
-  "handle": "TATA-2-NET-IN",
-  "description": "Tatanet Services Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55333,
+  "metadata" : {
+    "handle" : "TATA-2-NET-IN",
+    "description" : "Tatanet Services Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.144.56.0/23",
       "182.173.64.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 50657,
-  "handle": "WESTNET-AS",
-  "description": "WestNet Telekommunikations- und Informationsdienstleistungs GesmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50657,
+  "metadata" : {
+    "handle" : "WESTNET-AS",
+    "description" : "WestNet Telekommunikations- und Informationsdienstleistungs GesmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.107.156.0/22",
       "193.109.140.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

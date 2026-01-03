@@ -1,9 +1,12 @@
 {
-  "asn": 213291,
-  "handle": "NEBIUSCLOUD",
-  "description": "Nebius B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213291,
+  "metadata" : {
+    "handle" : "NEBIUSCLOUD",
+    "description" : "Nebius B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.169.96.0/20",
       "89.169.112.0/22",
       "195.242.0.0/23",
@@ -11,7 +14,7 @@
       "195.242.8.0/21",
       "195.242.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:5940::/32",
       "2a13:5945:7::/48",
       "2a13:5945:c::/48",

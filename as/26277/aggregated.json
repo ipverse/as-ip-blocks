@@ -1,9 +1,12 @@
 {
-  "asn": 26277,
-  "handle": "SERVERPOINT",
-  "description": "ServerPoint.com",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26277,
+  "metadata" : {
+    "handle" : "SERVERPOINT",
+    "description" : "ServerPoint.com",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.235.33.0/24",
       "64.235.34.0/23",
       "64.235.36.0/22",
@@ -25,7 +28,7 @@
       "216.108.235.0/24",
       "216.108.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:3fc0:20::/43",
       "2607:3fc0:40::/47",
       "2607:3fc0:42::/48"

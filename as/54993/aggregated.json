@@ -1,14 +1,17 @@
 {
-  "asn": 54993,
-  "handle": "OPSRP-IP-1",
-  "description": "OpsRamp LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54993,
+  "metadata" : {
+    "handle" : "OPSRP-IP-1",
+    "description" : "OpsRamp LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.108.189.0/24",
       "63.251.89.0/24",
       "74.217.75.0/24",
       "199.250.248.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

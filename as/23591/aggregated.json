@@ -1,9 +1,12 @@
 {
-  "asn": 23591,
-  "handle": "LS-AS",
-  "description": "LS ITC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23591,
+  "metadata" : {
+    "handle" : "LS-AS",
+    "description" : "LS ITC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.72.242.0/24",
       "61.41.152.0/24",
       "61.42.107.0/24",
@@ -32,6 +35,6 @@
       "211.236.20.0/24",
       "211.236.61.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

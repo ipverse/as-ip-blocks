@@ -1,9 +1,12 @@
 {
-  "asn": 6086,
-  "handle": "INFOMAGIC",
-  "description": "MagicNET Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6086,
+  "metadata" : {
+    "handle" : "INFOMAGIC",
+    "description" : "MagicNET Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.27.180.0/22",
       "12.44.144.0/23",
       "12.164.196.0/23",
@@ -12,6 +15,6 @@
       "198.136.155.0/24",
       "206.43.34.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

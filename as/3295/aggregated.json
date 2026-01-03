@@ -1,9 +1,12 @@
 {
-  "asn": 3295,
-  "handle": "SOCIETE-GENERALE-SA",
-  "description": "Societe Generale S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3295,
+  "metadata" : {
+    "handle" : "SOCIETE-GENERALE-SA",
+    "description" : "Societe Generale S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.246.246.0/24",
       "194.119.2.0/23",
       "194.119.8.0/22",
@@ -16,6 +19,6 @@
       "194.119.116.0/24",
       "194.119.118.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

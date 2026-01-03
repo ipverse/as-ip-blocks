@@ -1,9 +1,12 @@
 {
-  "asn": 38710,
-  "handle": "WORLDCALL-AS-LHR",
-  "description": "WORLDCALL TELECOM LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38710,
+  "metadata" : {
+    "handle" : "WORLDCALL-AS-LHR",
+    "description" : "WORLDCALL TELECOM LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "111.88.233.0/24",
       "115.186.17.0/24",
       "115.186.18.0/24",
@@ -34,7 +37,7 @@
       "203.81.230.0/24",
       "203.81.239.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:7000::/44",
       "2406:7000:10::/45",
       "2406:7000:18::/47",

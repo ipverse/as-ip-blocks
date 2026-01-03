@@ -1,12 +1,15 @@
 {
-  "asn": 135609,
-  "handle": "RBPL-AS-AP",
-  "description": "Robert Bosch (Australia) Proprietary Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135609,
+  "metadata" : {
+    "handle" : "RBPL-AS-AP",
+    "description" : "Robert Bosch (Australia) Proprietary Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.248.8.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:e2a0::/32"
     ]
   }

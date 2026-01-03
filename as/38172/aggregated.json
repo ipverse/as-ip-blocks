@@ -1,9 +1,12 @@
 {
-  "asn": 38172,
-  "handle": "IPSTAR-AS-AU",
-  "description": "IPSTAR Australia Pty. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38172,
+  "metadata" : {
+    "handle" : "IPSTAR-AS-AU",
+    "description" : "IPSTAR Australia Pty. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.84.216.0/22",
       "58.84.220.0/23",
       "103.153.242.0/23",
@@ -18,6 +21,6 @@
       "122.129.152.0/21",
       "203.169.16.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 39202,
-  "handle": "GCAP-AS",
-  "description": "Global Radio Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39202,
+  "metadata" : {
+    "handle" : "GCAP-AS",
+    "description" : "Global Radio Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.20.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6000::/32"
     ]
   }

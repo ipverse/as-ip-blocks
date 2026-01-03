@@ -1,9 +1,12 @@
 {
-  "asn": 22051,
-  "handle": "BTES-AS",
-  "description": "Bristol Tennessee Essential Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22051,
+  "metadata" : {
+    "handle" : "BTES-AS",
+    "description" : "Bristol Tennessee Essential Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.223.0.0/19",
       "74.118.104.0/22",
       "162.221.28.0/22",
@@ -17,6 +20,6 @@
       "216.41.240.0/20",
       "216.59.128.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

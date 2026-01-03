@@ -1,14 +1,17 @@
 {
-  "asn": 53050,
-  "handle": "SUPER-CABO-TV-CARATINGA",
-  "description": "Super Cabo TV Caratinga Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53050,
+  "metadata" : {
+    "handle" : "SUPER-CABO-TV-CARATINGA",
+    "description" : "Super Cabo TV Caratinga Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.136.192.0/21",
       "186.233.160.0/21",
       "187.63.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:fa8::/32"
     ]
   }

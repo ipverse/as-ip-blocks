@@ -1,9 +1,12 @@
 {
-  "asn": 13325,
-  "handle": "STOMI",
-  "description": "Michigan State Government",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13325,
+  "metadata" : {
+    "handle" : "STOMI",
+    "description" : "Michigan State Government",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "136.181.0.0/16",
       "148.149.0.0/16",
       "162.108.0.0/16",
@@ -14,6 +17,6 @@
       "204.25.0.0/17",
       "204.25.128.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

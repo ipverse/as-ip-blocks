@@ -1,14 +1,17 @@
 {
-  "asn": 25039,
-  "handle": "ASN-LINDE",
-  "description": "Linde GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25039,
+  "metadata" : {
+    "handle" : "ASN-LINDE",
+    "description" : "Linde GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "145.225.16.0/23",
       "145.225.36.0/23",
       "145.225.60.0/24",
       "145.225.63.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

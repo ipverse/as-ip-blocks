@@ -1,12 +1,15 @@
 {
-  "asn": 204482,
-  "handle": "EPICLINK-AS",
-  "description": "Epiclink SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204482,
+  "metadata" : {
+    "handle" : "EPICLINK-AS",
+    "description" : "Epiclink SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.70.116.0/22",
       "185.204.198.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 133501,
-  "handle": "QCSGROUP-AS-AP",
-  "description": "Quality Computer Services Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133501,
+  "metadata" : {
+    "handle" : "QCSGROUP-AS-AP",
+    "description" : "Quality Computer Services Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.87.216.0/24",
       "103.232.140.0/23",
       "192.156.153.0/24",
       "203.32.33.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

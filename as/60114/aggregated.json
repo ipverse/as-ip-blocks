@@ -1,10 +1,13 @@
 {
-  "asn": 60114,
-  "handle": "SIEL-ANYCAST",
-  "description": "SIEL d.o.o",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 60114,
+  "metadata" : {
+    "handle" : "SIEL-ANYCAST",
+    "description" : "SIEL d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a04:dd40::/32"
     ]
   }

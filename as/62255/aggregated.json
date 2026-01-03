@@ -1,13 +1,16 @@
 {
-  "asn": 62255,
-  "handle": "BEMYLINK",
-  "description": "BiMajLink d.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62255,
+  "metadata" : {
+    "handle" : "BEMYLINK",
+    "description" : "BiMajLink d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.203.28.0/24",
       "212.108.101.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:180::/29"
     ]
   }

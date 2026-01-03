@@ -1,11 +1,14 @@
 {
-  "asn": 30890,
-  "handle": "TENNET",
-  "description": "TENNET TELECOM SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30890,
+  "metadata" : {
+    "handle" : "TENNET",
+    "description" : "TENNET TELECOM SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.28.2.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

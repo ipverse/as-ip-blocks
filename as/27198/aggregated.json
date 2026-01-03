@@ -1,9 +1,12 @@
 {
-  "asn": 27198,
-  "handle": "INDIANA-EXTERNAL",
-  "description": "Indiana University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27198,
+  "metadata" : {
+    "handle" : "INDIANA-EXTERNAL",
+    "description" : "Indiana University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.159.128.0/17",
       "149.160.128.0/17",
       "149.165.244.0/23",
@@ -11,6 +14,6 @@
       "192.68.133.0/24",
       "198.49.214.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

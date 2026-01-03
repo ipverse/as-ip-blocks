@@ -1,9 +1,12 @@
 {
-  "asn": 41616,
-  "handle": "TELESERVICE-PLUS-AS",
-  "description": "Teleservis-plus LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41616,
+  "metadata" : {
+    "handle" : "TELESERVICE-PLUS-AS",
+    "description" : "Teleservis-plus LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.163.80.0/21",
       "91.237.144.0/24",
       "91.247.152.0/23",
@@ -11,6 +14,6 @@
       "91.247.156.0/22",
       "176.122.206.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

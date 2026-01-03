@@ -1,11 +1,14 @@
 {
-  "asn": 150431,
-  "handle": "ACTN-AS-AP",
-  "description": "ADS Cable TV Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150431,
+  "metadata" : {
+    "handle" : "ACTN-AS-AP",
+    "description" : "ADS Cable TV Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.39.146.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

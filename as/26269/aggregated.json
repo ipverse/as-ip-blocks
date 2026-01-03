@@ -1,9 +1,12 @@
 {
-  "asn": 26269,
-  "handle": "HAEFELETV",
-  "description": "Haefele Connect",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26269,
+  "metadata" : {
+    "handle" : "HAEFELETV",
+    "description" : "Haefele Connect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.223.176.0/22",
       "162.216.232.0/22",
       "173.45.176.0/20",
@@ -11,7 +14,7 @@
       "199.58.144.0/22",
       "199.241.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff89::/36"
     ]
   }

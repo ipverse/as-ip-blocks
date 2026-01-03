@@ -1,13 +1,16 @@
 {
-  "asn": 211615,
-  "handle": "NETARIO",
-  "description": "Netaris SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211615,
+  "metadata" : {
+    "handle" : "NETARIO",
+    "description" : "Netaris SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.152.70.0/24",
       "79.172.200.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:5840:2410::/47"
     ]
   }

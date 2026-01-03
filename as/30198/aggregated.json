@@ -1,9 +1,12 @@
 {
-  "asn": 30198,
-  "handle": "KENT-SCHOOL-DISTRICT",
-  "description": "Kent School District",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30198,
+  "metadata" : {
+    "handle" : "KENT-SCHOOL-DISTRICT",
+    "description" : "Kent School District",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.116.192.0/19",
       "164.116.224.0/20",
       "164.116.240.0/21",
@@ -11,6 +14,6 @@
       "164.116.252.0/24",
       "164.116.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

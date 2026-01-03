@@ -1,9 +1,12 @@
 {
-  "asn": 23889,
-  "handle": "RESERVED",
-  "description": "APNIC ASN block",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23889,
+  "metadata" : {
+    "handle" : "MAURITIUSTELECOM",
+    "description" : "Mauritius Telecom Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.136.0.0/16",
       "41.212.128.0/17",
       "41.223.220.0/22",
@@ -18,7 +21,7 @@
       "202.60.0.0/21",
       "202.123.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4290::/32",
       "2001:43f8:280::/48"
     ]

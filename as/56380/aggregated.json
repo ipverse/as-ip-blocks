@@ -1,16 +1,19 @@
 {
-  "asn": 56380,
-  "handle": "AS-ITFRUIT",
-  "description": "\u0027\u0027IT FRUIT\u0027\u0027 S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56380,
+  "metadata" : {
+    "handle" : "AS-ITFRUIT",
+    "description" : "IT FRUIT S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.101.87.0/24",
       "45.83.178.0/23",
       "185.153.196.0/22",
       "193.36.38.0/24",
       "194.41.115.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:bcc0::/29"
     ]
   }

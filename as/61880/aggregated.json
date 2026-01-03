@@ -1,12 +1,15 @@
 {
-  "asn": 61880,
-  "handle": "HOSPITAL-CLINICAS-PORTO",
-  "description": "Hospital de Clínicas de Porto Alegre",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61880,
+  "metadata" : {
+    "handle" : "HOSPITAL-CLINICAS-PORTO-ALEGRE",
+    "description" : "Hospital de Clínicas de Porto Alegre",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.0.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:80:c10::/48"
     ]
   }

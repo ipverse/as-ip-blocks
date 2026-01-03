@@ -1,9 +1,12 @@
 {
-  "asn": 28716,
-  "handle": "RETELIT-AS",
-  "description": "Retelit Digital Services S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28716,
+  "metadata" : {
+    "handle" : "RETELIT-AS",
+    "description" : "Retelit Digital Services S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.89.180.0/22",
       "46.183.232.0/21",
       "46.243.32.0/21",
@@ -37,7 +40,7 @@
       "213.178.220.0/24",
       "217.19.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1bd0::/29",
       "2a01:5d20::/29",
       "2a03:9c0::/32",

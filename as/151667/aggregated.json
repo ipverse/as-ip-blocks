@@ -1,11 +1,14 @@
 {
-  "asn": 151667,
-  "handle": "GNETSERVICE-AS-AP",
-  "description": "G Net Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151667,
+  "metadata" : {
+    "handle" : "GNETSERVICE-AS-AP",
+    "description" : "G Net Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.253.102.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

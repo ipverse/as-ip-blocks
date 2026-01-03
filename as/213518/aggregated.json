@@ -1,13 +1,16 @@
 {
-  "asn": 213518,
-  "handle": "NEXT",
-  "description": "Next Kraftwerke GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213518,
+  "metadata" : {
+    "handle" : "NEXT",
+    "description" : "Next Kraftwerke GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.170.96.0/23",
       "79.170.99.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:d300::/29"
     ]
   }

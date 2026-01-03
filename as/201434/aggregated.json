@@ -1,16 +1,19 @@
 {
-  "asn": 201434,
-  "handle": "CITYSTRADAPL-AS",
-  "description": "CITYSTRADA S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201434,
+  "metadata" : {
+    "handle" : "CITYSTRADAPL-AS",
+    "description" : "CITYSTRADA S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.194.138.0/24",
       "146.255.190.0/24",
       "185.75.36.0/22",
       "193.29.207.0/24",
       "194.126.238.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:4620::/32"
     ]
   }

@@ -1,11 +1,15 @@
 {
-  "asn": 140915,
-  "handle": "DFA-AS-AP",
-  "description": "Xiang Xuanchen",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
-      "2406:840:e230::/44",
+  "asn" : 140915,
+  "metadata" : {
+    "handle" : "DFA-AS-AP",
+    "description" : "Xiang Xuanchen",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
+      "2406:840:e231::/48",
+      "2406:840:e234::/48",
       "2406:840:fec8::/48",
       "2602:f92a:e100::/44"
     ]

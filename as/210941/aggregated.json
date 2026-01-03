@@ -1,10 +1,13 @@
 {
-  "asn": 210941,
-  "handle": "MSRTG-AS",
-  "description": "Markus Schmelter",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 210941,
+  "metadata" : {
+    "handle" : "MSRTG-AS",
+    "description" : "Markus Schmelter",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:67c:810::/48"
     ]
   }

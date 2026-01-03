@@ -1,10 +1,13 @@
 {
-  "asn": 212625,
-  "handle": "CLEMENTD",
-  "description": "Clement Dubreuil",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 212625,
+  "metadata" : {
+    "handle" : "CLEMENTD",
+    "description" : "Clement Dubreuil",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0c:b641:2b0::/47",
       "2a0c:b641:2b2::/48"
     ]

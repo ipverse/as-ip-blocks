@@ -1,12 +1,15 @@
 {
-  "asn": 22234,
-  "handle": "RELATED-COMPANIES-BGP-AS1",
-  "description": "The Related Companies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22234,
+  "metadata" : {
+    "handle" : "RELATED-COMPANIES-BGP-AS1",
+    "description" : "The Related Companies Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.45.3.0/24",
       "208.217.1.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

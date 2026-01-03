@@ -1,9 +1,12 @@
 {
-  "asn": 149020,
-  "handle": "WEBHORIZON-AS-AP",
-  "description": "WebHorizon Internet Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149020,
+  "metadata" : {
+    "handle" : "WEBHORIZON-AS-AP",
+    "description" : "WebHorizon Internet Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.131.24.0/24",
       "45.142.105.0/24",
       "103.170.216.0/23",
@@ -17,7 +20,7 @@
       "194.5.98.0/24",
       "202.1.31.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:4520:1000::/36",
       "2401:4520:2000::/36",
       "2403:cfc0:1120::/44",

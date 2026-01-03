@@ -1,12 +1,15 @@
 {
-  "asn": 151334,
-  "handle": "LTA-AS-AP",
-  "description": "Land Transport Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151334,
+  "metadata" : {
+    "handle" : "LTA-AS-AP",
+    "description" : "Land Transport Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.191.213.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:93c0::/48"
     ]
   }

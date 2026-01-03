@@ -1,9 +1,12 @@
 {
-  "asn": 24378,
-  "handle": "ENGTAC-AS-TH-AP",
-  "description": "Total Access Communication PLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24378,
+  "metadata" : {
+    "handle" : "ENGTAC-AS-TH-AP",
+    "description" : "Total Access Communication PLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.46.0.0/15",
       "59.153.208.0/24",
       "59.153.210.0/23",
@@ -21,7 +24,7 @@
       "111.84.240.0/24",
       "203.156.106.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:8d00::/32"
     ]
   }

@@ -1,15 +1,18 @@
 {
-  "asn": 18127,
-  "handle": "IBARAKI",
-  "description": "Ibaraki Prefectural Government",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18127,
+  "metadata" : {
+    "handle" : "IBARAKI",
+    "description" : "Ibaraki Prefectural Government",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "219.112.225.0/24",
       "219.112.226.0/24",
       "219.112.228.0/22",
       "219.112.232.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:e480::/32"
     ]
   }

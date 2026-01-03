@@ -1,13 +1,16 @@
 {
-  "asn": 54111,
-  "handle": "US-SIGNAL-OR01",
-  "description": "US Signal Company L.L.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54111,
+  "metadata" : {
+    "handle" : "US-SIGNAL-OR01",
+    "description" : "US Signal Company L.L.C.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.42.120.0/21",
       "216.155.11.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:18c8:800::/40"
     ]
   }

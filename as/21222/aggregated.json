@@ -1,11 +1,14 @@
 {
-  "asn": 21222,
-  "handle": "ASN-ROLEX",
-  "description": "ROLEX SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21222,
+  "metadata" : {
+    "handle" : "ASN-ROLEX",
+    "description" : "ROLEX SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.8.16.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 8468,
-  "handle": "ENTANET",
-  "description": "Cityfibre Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8468,
+  "metadata" : {
+    "handle" : "ENTANET",
+    "description" : "Cityfibre Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.254.0.0/21",
       "62.249.192.0/18",
       "78.32.0.0/15",
@@ -45,7 +48,7 @@
       "212.124.199.0/24",
       "212.187.239.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4d48::/29",
       "2a05:8940::/29"
     ]

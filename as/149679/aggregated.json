@@ -1,12 +1,15 @@
 {
-  "asn": 149679,
-  "handle": "IDNIC-JATIMPROV-AS-ID",
-  "description": "Pemerintah Provinsi Jawa Timur",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149679,
+  "metadata" : {
+    "handle" : "IDNIC-JATIMPROV-AS-ID",
+    "description" : "Pemerintah Provinsi Jawa Timur",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.183.92.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:dd40::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 214286,
-  "handle": "IBERICADEREDES-AS",
-  "description": "OPERADORA IBERICA DE REDES Y SERVICIOS DE TELECOMUNICACIONES S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214286,
+  "metadata" : {
+    "handle" : "IBERICADEREDES-AS",
+    "description" : "OPERADORA IBERICA DE REDES Y SERVICIOS DE TELECOMUNICACIONES S.L",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.181.220.0/22",
       "38.226.252.0/22",
       "45.88.244.0/23",
@@ -13,7 +16,7 @@
       "213.182.211.0/24",
       "213.182.215.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:43c0:1000::/36",
       "2a14:43c0:2000::/35",
       "2a14:43c0:4000::/36"

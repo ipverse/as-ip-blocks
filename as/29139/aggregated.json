@@ -1,9 +1,12 @@
 {
-  "asn": 29139,
-  "handle": "SCL-AS",
-  "description": "A.P. MOLLER - MAERSK A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29139,
+  "metadata" : {
+    "handle" : "SCL-AS",
+    "description" : "A.P. MOLLER - MAERSK A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.163.241.0/24",
       "193.163.242.0/23",
       "193.163.244.0/22",
@@ -13,6 +16,6 @@
       "194.242.42.0/24",
       "195.85.204.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

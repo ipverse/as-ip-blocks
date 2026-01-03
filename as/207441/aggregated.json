@@ -1,12 +1,15 @@
 {
-  "asn": 207441,
-  "handle": "HYDRO-12345",
-  "description": "NORSK HYDRO ASA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207441,
+  "metadata" : {
+    "handle" : "HYDRO-12345",
+    "description" : "NORSK HYDRO ASA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.209.0.0/16",
       "163.34.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

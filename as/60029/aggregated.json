@@ -1,11 +1,14 @@
 {
-  "asn": 60029,
-  "handle": "TV-MYTISCHI",
-  "description": "TV Mytischi MAU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60029,
+  "metadata" : {
+    "handle" : "TV-MYTISCHI",
+    "description" : "TV Mytischi MAU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.152.120.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

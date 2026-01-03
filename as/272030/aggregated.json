@@ -1,15 +1,18 @@
 {
-  "asn": 272030,
-  "handle": "SMARTNET",
-  "description": "SMARTNET S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272030,
+  "metadata" : {
+    "handle" : "SMARTNET",
+    "description" : "SMARTNET S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.46.0.0/21",
       "149.78.56.0/23",
       "149.78.58.0/24",
       "189.90.230.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:5510::/38"
     ]
   }

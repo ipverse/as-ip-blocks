@@ -1,12 +1,15 @@
 {
-  "asn": 30736,
-  "handle": "ASERGO-AS",
-  "description": "Asergo Holding ApS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30736,
+  "metadata" : {
+    "handle" : "ASERGO-AS",
+    "description" : "Asergo Holding ApS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.103.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:9080::/32"
     ]
   }

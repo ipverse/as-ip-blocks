@@ -1,12 +1,15 @@
 {
-  "asn": 40981,
-  "handle": "UNIVCG",
-  "description": "University of Montenegro",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40981,
+  "metadata" : {
+    "handle" : "UNIVCG",
+    "description" : "University of Montenegro",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.188.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:4280::/32"
     ]
   }

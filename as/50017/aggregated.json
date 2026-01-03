@@ -1,13 +1,16 @@
 {
-  "asn": 50017,
-  "handle": "FUX",
-  "description": "fux eG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50017,
+  "metadata" : {
+    "handle" : "FUX",
+    "description" : "fux eG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.66.88.0/24",
       "185.161.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:c480::/29",
       "2a09:6644:2::/47"
     ]

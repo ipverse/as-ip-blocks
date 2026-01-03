@@ -1,9 +1,12 @@
 {
-  "asn": 197991,
-  "handle": "HISPASAT",
-  "description": "Hispasat S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197991,
+  "metadata" : {
+    "handle" : "HISPASAT",
+    "description" : "Hispasat S.A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.144.144.0/21",
       "45.170.132.0/23",
       "89.150.46.0/24",
@@ -13,7 +16,7 @@
       "185.239.56.0/22",
       "200.112.204.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:4b80::/34",
       "2a0d:a5c0::/36"
     ]

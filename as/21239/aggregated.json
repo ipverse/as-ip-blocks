@@ -1,12 +1,15 @@
 {
-  "asn": 21239,
-  "handle": "DNS-BELGIUM",
-  "description": "DNS-Belgium VZW",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21239,
+  "metadata" : {
+    "handle" : "DNS-BELGIUM",
+    "description" : "DNS-Belgium VZW",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.109.126.0/24",
       "195.22.138.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

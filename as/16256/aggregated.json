@@ -1,14 +1,17 @@
 {
-  "asn": 16256,
-  "handle": "RECOM-AS",
-  "description": "MTS PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16256,
+  "metadata" : {
+    "handle" : "RECOM-AS",
+    "description" : "MTS PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.23.172.0/24",
       "84.17.224.0/19",
       "91.135.208.0/20",
       "95.139.75.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

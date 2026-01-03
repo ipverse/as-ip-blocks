@@ -1,13 +1,16 @@
 {
-  "asn": 150735,
-  "handle": "KURIGRAMISP-AS-AP",
-  "description": "Kurigram I.S.P",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150735,
+  "metadata" : {
+    "handle" : "KURIGRAMISP-AS-AP",
+    "description" : "Kurigram I.S.P",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.76.154.0/23",
       "103.122.122.0/24",
       "103.182.219.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 17794,
-  "handle": "HTCL-ORANGE-HK-AP",
-  "description": "Hutchison Telecommunications (Hong Kong) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17794,
+  "metadata" : {
+    "handle" : "HTCL-ORANGE-HK-AP",
+    "description" : "Hutchison Telecommunications (Hong Kong) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.247.92.0/24",
       "103.247.94.0/24",
       "202.45.82.0/23",
@@ -16,6 +19,6 @@
       "203.145.78.0/24",
       "203.145.82.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

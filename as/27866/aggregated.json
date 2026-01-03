@@ -1,9 +1,12 @@
 {
-  "asn": 27866,
-  "handle": "COMPANIA-PARAGUAYA-COMUNICACIONES",
-  "description": "COMPAÑIA PARAGUAYA DE COMUNICACIONES S.A. (COPACO S.A.)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27866,
+  "metadata" : {
+    "handle" : "COMPANIA-PARAGUAYA-COMUNICACIONES",
+    "description" : "COMPAÑIA PARAGUAYA DE COMUNICACIONES S.A. (COPACO S.A.)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.250.252.0/22",
       "190.52.128.0/18",
       "201.217.12.0/24",
@@ -15,6 +18,6 @@
       "201.217.56.0/23",
       "201.217.60.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

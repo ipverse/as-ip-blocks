@@ -1,12 +1,15 @@
 {
-  "asn": 214197,
-  "handle": "VIRTION",
-  "description": "virtion GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214197,
+  "metadata" : {
+    "handle" : "VIRTION",
+    "description" : "virtion GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.28.40.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:e980::/32",
       "2a05:e987::/32"
     ]

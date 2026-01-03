@@ -1,9 +1,12 @@
 {
-  "asn": 57487,
-  "handle": "MIXTELECOM-AS",
-  "description": "Advanced Solutions LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57487,
+  "metadata" : {
+    "handle" : "MIXTELECOM-AS",
+    "description" : "Advanced Solutions LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.90.212.0/22",
       "91.228.238.0/23",
       "91.232.132.0/22",
@@ -12,7 +15,7 @@
       "185.30.96.0/22",
       "185.48.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:3600::/29",
       "2a11:6505::/32",
       "2a11:8445::/32",

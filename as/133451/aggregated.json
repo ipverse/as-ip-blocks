@@ -1,14 +1,17 @@
 {
-  "asn": 133451,
-  "handle": "PCSOFTLIMITED-AS-AP",
-  "description": "PC Soft Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133451,
+  "metadata" : {
+    "handle" : "PCSOFTLIMITED-AS-AP",
+    "description" : "PC Soft Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.132.232.0/24",
       "103.163.206.0/23",
       "103.212.192.0/23",
       "103.229.248.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

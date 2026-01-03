@@ -1,15 +1,18 @@
 {
-  "asn": 28513,
-  "handle": "UNINET",
-  "description": "UNINET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28513,
+  "metadata" : {
+    "handle" : "UNINET",
+    "description" : "UNINET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "189.247.245.0/24",
       "189.247.246.0/23",
       "201.147.30.0/24",
       "201.147.120.0/23",
       "201.147.205.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

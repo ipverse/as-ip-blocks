@@ -1,12 +1,15 @@
 {
-  "asn": 70,
-  "handle": "NLM-GW",
-  "description": "National Library of Medicine",
-  "subnets": {
-    "ipv4": [
+  "asn" : 70,
+  "metadata" : {
+    "handle" : "NLM-GW",
+    "description" : "National Library of Medicine",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.14.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f220:411::/48",
       "2607:f220:41e::/48"
     ]

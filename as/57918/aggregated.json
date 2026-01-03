@@ -1,9 +1,12 @@
 {
-  "asn": 57918,
-  "handle": "ACOD-AS",
-  "description": "ACOD JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57918,
+  "metadata" : {
+    "handle" : "ACOD-AS",
+    "description" : "ACOD JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.249.135.0/24",
       "80.249.136.0/24",
       "91.236.24.0/24",
@@ -14,6 +17,6 @@
       "213.232.249.0/24",
       "213.232.250.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

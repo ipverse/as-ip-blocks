@@ -1,12 +1,15 @@
 {
-  "asn": 270994,
-  "handle": "LEOMAX-TELECOM",
-  "description": "LeoMax Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270994,
+  "metadata" : {
+    "handle" : "LEOMAX-TELECOM",
+    "description" : "LeoMax Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.59.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:74a4::/32"
     ]
   }

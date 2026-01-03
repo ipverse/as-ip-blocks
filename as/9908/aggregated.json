@@ -1,9 +1,12 @@
 {
-  "asn": 9908,
-  "handle": "HKCABLE2-HK-AP",
-  "description": "Hong Kong Cable Television Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9908,
+  "metadata" : {
+    "handle" : "HKCABLE2-HK-AP",
+    "description" : "Hong Kong Cable Television Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.10.0.0/16",
       "61.15.0.0/18",
       "61.15.64.0/21",
@@ -25,6 +28,6 @@
       "222.167.64.0/19",
       "222.167.128.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

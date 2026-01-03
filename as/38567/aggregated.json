@@ -1,13 +1,16 @@
 {
-  "asn": 38567,
-  "handle": "REKIND-AS-ID-AP",
-  "description": "PT. Rekayasa Industri",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38567,
+  "metadata" : {
+    "handle" : "REKIND-AS-ID-AP",
+    "description" : "PT. Rekayasa Industri",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.45.149.0/24",
       "203.14.176.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:65::/48"
     ]
   }

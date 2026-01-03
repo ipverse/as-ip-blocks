@@ -1,12 +1,15 @@
 {
-  "asn": 10110,
-  "handle": "MITNZ-AS-AP",
-  "description": "Te Pukenga - New Zealand Institute of Skills and Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10110,
+  "metadata" : {
+    "handle" : "MITNZ-AS-AP",
+    "description" : "Te Pukenga - New Zealand Institute of Skills and Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.14.216.0/24",
       "203.176.154.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

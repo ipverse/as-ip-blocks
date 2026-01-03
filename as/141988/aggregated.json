@@ -1,9 +1,12 @@
 {
-  "asn": 141988,
-  "handle": "OPTIMUS-AS-AP",
-  "description": "Optimus Technologies",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141988,
+  "metadata" : {
+    "handle" : "OPTIMUS-AS-AP",
+    "description" : "Optimus Technologies",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.163.246.0/23",
       "138.252.31.0/24",
       "160.20.121.0/24",
@@ -11,7 +14,7 @@
       "163.61.45.0/24",
       "165.101.101.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:3180::/48",
       "2402:e20::/40",
       "2402:e20:1000::/40"

@@ -1,9 +1,12 @@
 {
-  "asn": 21385,
-  "handle": "TNIB",
-  "description": "Trusted Network GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21385,
+  "metadata" : {
+    "handle" : "TNIB",
+    "description" : "Trusted Network GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.92.160.0/20",
       "86.110.64.0/19",
       "185.55.120.0/22",
@@ -16,7 +19,7 @@
       "212.82.160.0/19",
       "217.151.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1b18::/32"
     ]
   }

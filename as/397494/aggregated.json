@@ -1,16 +1,19 @@
 {
-  "asn": 397494,
-  "handle": "NETSAPIENS-HYPERSCALE-AS01",
-  "description": "netsapiens",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397494,
+  "metadata" : {
+    "handle" : "NETSAPIENS-HYPERSCALE-AS01",
+    "description" : "netsapiens",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "136.175.204.0/22",
       "136.179.46.0/24",
       "155.130.141.0/24",
       "162.217.15.0/24",
       "185.123.181.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:5240::/32"
     ]
   }

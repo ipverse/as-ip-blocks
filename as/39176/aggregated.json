@@ -1,13 +1,16 @@
 {
-  "asn": 39176,
-  "handle": "EXPEREO-FRANCE",
-  "description": "EXPEREO FRANCE SASU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39176,
+  "metadata" : {
+    "handle" : "EXPEREO-FRANCE",
+    "description" : "EXPEREO FRANCE SASU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.86.52.0/23",
       "185.86.54.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:b500:52::/47",
       "2a05:b500:54::/48"
     ]

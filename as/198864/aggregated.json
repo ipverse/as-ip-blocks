@@ -1,16 +1,19 @@
 {
-  "asn": 198864,
-  "handle": "QMW-AC-UK",
-  "description": "Queen Mary and Westfield College University of London",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198864,
+  "metadata" : {
+    "handle" : "QMW-AC-UK",
+    "description" : "Queen Mary and Westfield College University of London",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.37.0.0/16",
       "161.23.0.0/16",
       "192.135.231.0/24",
       "192.135.232.0/23",
       "194.36.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:56c0::/32",
       "2a01:56c1:10::/44"
     ]

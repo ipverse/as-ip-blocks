@@ -1,9 +1,12 @@
 {
-  "asn": 30931,
-  "handle": "IGINDEX-PLC",
-  "description": "IG Index Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30931,
+  "metadata" : {
+    "handle" : "IGINDEX-PLC",
+    "description" : "IG Index Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.223.203.0/24",
       "91.223.218.0/24",
       "185.109.140.0/22",
@@ -12,7 +15,7 @@
       "194.107.118.0/24",
       "195.234.39.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1b24::/48",
       "2a0c:c900::/29"
     ]

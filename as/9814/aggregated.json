@@ -1,9 +1,12 @@
 {
-  "asn": 9814,
-  "handle": "FIBRLINK",
-  "description": "Beijing FibrLINK Networks Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9814,
+  "metadata" : {
+    "handle" : "FIBRLINK",
+    "description" : "Beijing FibrLINK Networks Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "125.98.122.0/24",
       "125.98.128.0/17",
       "180.203.0.0/23",
@@ -48,7 +51,7 @@
       "211.160.246.0/23",
       "211.160.248.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:3c00::/32"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 34000,
-  "handle": "FR-RR-CG13",
-  "description": "Conseil General des Bouches-du-Rhone",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34000,
+  "metadata" : {
+    "handle" : "FR-RR-CG13",
+    "description" : "Conseil General des Bouches-du-Rhone",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.97.56.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

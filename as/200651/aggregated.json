@@ -1,9 +1,12 @@
 {
-  "asn": 200651,
-  "handle": "FLOKINET",
-  "description": "FlokiNET ehf",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200651,
+  "metadata" : {
+    "handle" : "FLOKINET",
+    "description" : "FlokiNET ehf",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.156.68.0/24",
       "37.228.128.0/23",
       "185.10.68.0/24",
@@ -15,7 +18,7 @@
       "185.247.224.0/23",
       "185.247.226.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:1700::/46",
       "2a06:1700:4::/48",
       "2a06:1700:100::/48"

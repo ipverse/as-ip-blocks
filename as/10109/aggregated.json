@@ -1,14 +1,17 @@
 {
-  "asn": 10109,
-  "handle": "TOPNET-AS-MN-AP",
-  "description": "Topica Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10109,
+  "metadata" : {
+    "handle" : "TOPNET-AS-MN-AP",
+    "description" : "Topica Co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "119.40.96.0/22",
       "119.40.100.0/24",
       "119.40.102.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:d4e0::/32"
     ]
   }

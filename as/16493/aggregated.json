@@ -1,9 +1,12 @@
 {
-  "asn": 16493,
-  "handle": "ABERCROMBIE-FITCH",
-  "description": "Abercrombie \u0026 Fitch",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16493,
+  "metadata" : {
+    "handle" : "ABERCROMBIE-FITCH",
+    "description" : "Abercrombie & Fitch",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.21.99.0/24",
       "8.25.72.0/24",
       "65.210.129.0/24",
@@ -12,6 +15,6 @@
       "207.158.142.0/24",
       "209.31.93.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

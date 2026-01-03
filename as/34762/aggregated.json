@@ -1,9 +1,12 @@
 {
-  "asn": 34762,
-  "handle": "COMBELL-AS",
-  "description": "Combell NV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34762,
+  "metadata" : {
+    "handle" : "COMBELL-AS",
+    "description" : "Combell NV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.134.0.0/21",
       "31.193.176.0/21",
       "37.72.160.0/21",
@@ -59,7 +62,7 @@
       "217.19.224.0/20",
       "217.21.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:13b7::/44",
       "2a00:1c98::/32",
       "2a00:7000::/32",

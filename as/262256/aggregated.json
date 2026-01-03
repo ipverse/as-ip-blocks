@@ -1,9 +1,12 @@
 {
-  "asn": 262256,
-  "handle": "SERVICIOS-INFORMATICOS-HOSTNAME",
-  "description": "Servicios Informáticos Hostname Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262256,
+  "metadata" : {
+    "handle" : "SERVICIOS-INFORMATICOS-HOSTNAME",
+    "description" : "Servicios Informáticos Hostname Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.236.164.0/23",
       "45.236.166.0/24",
       "190.110.120.0/22",
@@ -18,6 +21,6 @@
       "201.159.173.0/24",
       "201.159.174.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

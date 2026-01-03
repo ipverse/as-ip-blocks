@@ -1,13 +1,16 @@
 {
-  "asn": 44295,
-  "handle": "LAB-AS",
-  "description": "Lab Luxembourg S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44295,
+  "metadata" : {
+    "handle" : "LAB-AS",
+    "description" : "Lab Luxembourg S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "92.42.176.0/21",
       "185.202.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:cf40::/29"
     ]
   }

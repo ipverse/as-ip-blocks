@@ -1,12 +1,15 @@
 {
-  "asn": 270357,
-  "handle": "WF-TELECOM",
-  "description": "WF TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270357,
+  "metadata" : {
+    "handle" : "WF-TELECOM",
+    "description" : "WF TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.89.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6ac0::/32"
     ]
   }

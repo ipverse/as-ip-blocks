@@ -1,9 +1,12 @@
 {
-  "asn": 37350,
-  "handle": "DDS55",
-  "description": "Dimension Data Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37350,
+  "metadata" : {
+    "handle" : "DDS55",
+    "description" : "Dimension Data Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.22.10.0/23",
       "102.22.12.0/22",
       "102.22.20.0/24",
@@ -11,7 +14,7 @@
       "102.22.24.0/21",
       "197.221.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fd88:ffff::/48"
     ]
   }

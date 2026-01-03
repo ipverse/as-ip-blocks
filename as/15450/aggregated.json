@@ -1,9 +1,12 @@
 {
-  "asn": 15450,
-  "handle": "ALHAMBRA",
-  "description": "Alhambra Systems SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15450,
+  "metadata" : {
+    "handle" : "ALHAMBRA",
+    "description" : "Alhambra Systems SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.246.169.0/24",
       "91.240.173.0/24",
       "109.234.64.0/21",
@@ -13,7 +16,7 @@
       "199.58.191.0/24",
       "209.99.50.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7d00::/32"
     ]
   }

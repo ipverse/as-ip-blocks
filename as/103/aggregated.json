@@ -1,9 +1,12 @@
 {
-  "asn": 103,
-  "handle": "NWU-AS",
-  "description": "Northwestern University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 103,
+  "metadata" : {
+    "handle" : "NWU-AS",
+    "description" : "Northwestern University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.28.178.0/23",
       "8.30.248.0/22",
       "38.124.97.0/24",
@@ -27,7 +30,7 @@
       "199.249.166.0/23",
       "199.249.168.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:10d:2000::/41"
     ]
   }

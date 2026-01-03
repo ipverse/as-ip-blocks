@@ -1,9 +1,12 @@
 {
-  "asn": 133385,
-  "handle": "ATOMMYANMAR-AS-AP",
-  "description": "Atom Myanmar Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133385,
+  "metadata" : {
+    "handle" : "ATOMMYANMAR-AS-AP",
+    "description" : "Atom Myanmar Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.111.0.0/20",
       "37.111.32.0/24",
       "37.111.34.0/24",
@@ -22,7 +25,7 @@
       "45.120.84.0/22",
       "103.255.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8480:1000::/48",
       "2400:8480:1100::/48",
       "2400:8480:2010::/44",

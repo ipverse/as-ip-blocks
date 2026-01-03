@@ -1,9 +1,12 @@
 {
-  "asn": 395965,
-  "handle": "CARRY-TELECOM",
-  "description": "Carrytel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395965,
+  "metadata" : {
+    "handle" : "CARRY-TELECOM",
+    "description" : "Carrytel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.220.192.0/20",
       "67.216.32.0/19",
       "69.194.32.0/24",
@@ -30,6 +33,6 @@
       "199.59.76.0/22",
       "209.202.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

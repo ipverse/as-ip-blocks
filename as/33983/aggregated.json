@@ -1,14 +1,17 @@
 {
-  "asn": 33983,
-  "handle": "ARTMOTION-AS",
-  "description": "ARTMOTION SH.P.K",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33983,
+  "metadata" : {
+    "handle" : "ARTMOTION-AS",
+    "description" : "ARTMOTION SH.P.K.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.35.64.0/21",
       "84.22.32.0/19",
       "185.173.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:6300::/29"
     ]
   }

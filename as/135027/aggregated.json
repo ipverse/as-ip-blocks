@@ -1,9 +1,12 @@
 {
-  "asn": 135027,
-  "handle": "VIRTUALPLATFORM-AS-AP",
-  "description": "Virtualplatform",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135027,
+  "metadata" : {
+    "handle" : "VIRTUALPLATFORM-AS-AP",
+    "description" : "Virtualplatform",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.219.62.0/23",
       "103.223.184.0/24",
       "103.251.134.0/23",
@@ -16,6 +19,6 @@
       "190.93.80.0/24",
       "190.93.90.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

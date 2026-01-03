@@ -1,13 +1,16 @@
 {
-  "asn": 203248,
-  "handle": "BURTINET",
-  "description": "Burak Buylu trading as BurtiNET Internet Hizmetleri",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203248,
+  "metadata" : {
+    "handle" : "BURTINET",
+    "description" : "Burak Buylu trading as BurtiNET Internet Hizmetleri",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.19.208.0/24",
       "185.165.46.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:7580::/44",
       "2a0a:7580:10::/48"
     ]
