@@ -113,7 +113,7 @@ Check out this blog post: https://blog.jiayu.co/2018/10/quick-url-to-asn-lookups
 
 ## Questions or issues?
 
-Head over to the [feedback repo](https://github.com/ipverse/feedback) if you have questions, issues, or suggestions.
+Head over to the [feedback repository](https://github.com/ipverse/feedback) if you have questions, issues, or suggestions.
 
 ## License
 
