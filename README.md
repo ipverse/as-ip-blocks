@@ -1,7 +1,6 @@
 # as-ip-blocks (formerly asn-ip)
 
 > **📢 New and improved:** This repo has been upgraded with a clearer name (`as-ip-blocks`) and enhanced JSON format. 
->
 > Check out [MIGRATION.md](MIGRATION.md) for the quick changes needed (plaintext files are unchanged).
 
 Daily-updated datasets about every autonomous system (AS), sourced from BGP routing table announcements. 
