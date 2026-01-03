@@ -1,10 +1,15 @@
 # as-ip-blocks (formerly asn-ip)
 
-> **📢 New and improved:** This repo has been upgraded with a clearer name (`as-ip-blocks`) and enhanced JSON format. Metadata is now properly nested, and data quality indicators have been added via the `origin` field to show whether metadata comes from authoritative sources, is inferred, or overlaid. If you're using the JSON format in production, check out [MIGRATION.md](MIGRATION.md) for the quick changes needed (plaintext files are unchanged). The data is provided as-is on a best-effort basis.
+> **📢 New and improved:** This repo has been upgraded with a clearer name (`as-ip-blocks`) and enhanced JSON format. 
+>
+> Check out [MIGRATION.md](MIGRATION.md) for the quick changes needed (plaintext files are unchanged).
 
-Daily-updated datasets about every autonomous system (AS), sourced from BGP routing table announcements. No APIs, no databases - just simple file downloads.
+Daily-updated datasets about every autonomous system (AS), sourced from BGP routing table announcements. 
+No APIs, no databases - just simple file downloads.
 
-Each AS gets its own directory with aggregated IPv4 and IPv6 prefixes in both JSON and plaintext formats. Perfect for firewall rules, network analysis, or tracking what IP ranges belong to specific organizations. Git history lets you see how an AS's announcements change over time.
+Each AS gets its own directory with aggregated IPv4 and IPv6 prefixes in both JSON and plaintext formats. 
+Perfect for firewall rules, network analysis, or tracking what IP ranges belong to specific organizations. 
+Git history lets you see how an AS's announcements change over time.
 
 Available formats: JSON and plaintext
 
@@ -52,7 +57,7 @@ Available formats: JSON and plaintext
 - **origin**: Metadata source indicator
   - `authoritative`: From authoritative source
   - `inferred`: Inferred from routing information; may be inaccurate
-  - `overlaid`: Overlay from [as-overlay](https://github.com/ipverse/as-overlay) applied
+  - `overlaid`: Metadata overlay from [as-overlay](https://github.com/ipverse/as-overlay) applied
   - `none`: No metadata available
 
 For AS metadata (ASN, handle, description, country code) see [as-metadata](https://github.com/ipverse/as-metadata)
@@ -66,7 +71,6 @@ For AS metadata (ASN, handle, description, country code) see [as-metadata](https
 ## How to use
 
 Download the announced prefixes for a specific autonomous system:
-
 
 **AS1234 in JSON format:**
 ```bash
@@ -94,7 +98,7 @@ If you plan to use the routing data for firewalling purposes, have a look at:
 
 ### How do I get the ASN for an IP address?
 
-Check out this excellent blog post: https://blog.jiayu.co/2018/10/quick-url-to-asn-lookups/
+Check out this blog post: https://blog.jiayu.co/2018/10/quick-url-to-asn-lookups/
 
 ## Use cases
 - Block entire AS at the firewall (goodbye spam-friendly hosting providers)
