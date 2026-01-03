@@ -1,9 +1,12 @@
 {
-  "asn": 44308,
-  "handle": "VAPOURMEDIA-AS",
-  "description": "Vapour Media Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44308,
+  "metadata" : {
+    "handle" : "VAPOURMEDIA-AS",
+    "description" : "Vapour Media Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.117.140.0/24",
       "149.5.118.0/24",
       "154.47.67.0/24",
@@ -16,6 +19,6 @@
       "193.109.14.0/23",
       "213.146.163.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 50118,
-  "handle": "CARITELE-AS",
-  "description": "Caribbean Telecom S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50118,
+  "metadata" : {
+    "handle" : "CARITELE-AS",
+    "description" : "Caribbean Telecom S.A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.192.93.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fb92:c00::/44"
     ]
   }

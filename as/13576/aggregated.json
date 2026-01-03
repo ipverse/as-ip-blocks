@@ -1,9 +1,12 @@
 {
-  "asn": 13576,
-  "handle": "SDNW-13576",
-  "description": "SOUTH DAKOTA NETWORK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13576,
+  "metadata" : {
+    "handle" : "SDNW-13576",
+    "description" : "SOUTH DAKOTA NETWORK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.50.52.0/22",
       "38.67.248.0/21",
       "38.191.156.0/22",
@@ -33,7 +36,7 @@
       "216.106.192.0/18",
       "216.249.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:4900::/32",
       "2607:fc00::/32"
     ]

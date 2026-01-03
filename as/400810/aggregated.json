@@ -1,9 +1,12 @@
 {
-  "asn": 400810,
-  "handle": "BREEZETECH",
-  "description": "BreezeHost",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400810,
+  "metadata" : {
+    "handle" : "BREEZETECH",
+    "description" : "BreezeHost",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.26.227.0/24",
       "31.43.164.0/24",
       "31.56.20.0/23",
@@ -38,7 +41,7 @@
       "216.74.81.0/24",
       "216.239.104.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fa62::/38"
     ]
   }

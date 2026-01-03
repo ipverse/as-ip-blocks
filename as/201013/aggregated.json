@@ -1,14 +1,17 @@
 {
-  "asn": 201013,
-  "handle": "MICROTEC-ASN",
-  "description": "Micro Tec i Laholm AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201013,
+  "metadata" : {
+    "handle" : "MICROTEC-ASN",
+    "description" : "Micro Tec i Laholm AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.85.156.0/22",
       "192.36.117.0/24",
       "192.176.115.0/24",
       "192.176.253.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 60350,
-  "handle": "VP",
-  "description": "VENTE-PRIVEE.COM SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60350,
+  "metadata" : {
+    "handle" : "VP",
+    "description" : "VENTE-PRIVEE.COM SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.137.176.0/22",
       "91.221.146.0/23",
       "185.45.180.0/22",
@@ -13,7 +16,7 @@
       "193.164.2.0/23",
       "195.189.178.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:c80::/29"
     ]
   }

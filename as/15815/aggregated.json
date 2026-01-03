@@ -1,12 +1,15 @@
 {
-  "asn": 15815,
-  "handle": "INTRANS-AS",
-  "description": "INTRA Network Systems Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15815,
+  "metadata" : {
+    "handle" : "INTRANS-AS",
+    "description" : "INTRA Network Systems Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "217.14.96.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:7da0::/32"
     ]
   }

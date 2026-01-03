@@ -1,11 +1,14 @@
 {
-  "asn": 400694,
-  "handle": "RPTA-ASN-01",
-  "description": "Valley Metro",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400694,
+  "metadata" : {
+    "handle" : "RPTA-ASN-01",
+    "description" : "Valley Metro",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.122.242.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

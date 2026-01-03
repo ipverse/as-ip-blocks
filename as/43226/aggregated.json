@@ -1,16 +1,19 @@
 {
-  "asn": 43226,
-  "handle": "SAFEDATA",
-  "description": "Data Storage Center JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43226,
+  "metadata" : {
+    "handle" : "SAFEDATA",
+    "description" : "Data Storage Center JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.95.128.0/21",
       "185.15.172.0/22",
       "185.27.160.0/22",
       "185.129.204.0/22",
       "185.152.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1b68::/32"
     ]
   }

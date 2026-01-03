@@ -1,12 +1,15 @@
 {
-  "asn": 149019,
-  "handle": "PENTASIX-AS-AP",
-  "description": "Penta-Six Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149019,
+  "metadata" : {
+    "handle" : "PENTASIX-AS-AP",
+    "description" : "Penta-Six Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.176.174.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:1660::/44",
       "2401:1660:10::/46"
     ]

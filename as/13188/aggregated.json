@@ -1,9 +1,12 @@
 {
-  "asn": 13188,
-  "handle": "TRIOLAN",
-  "description": "CONTENT DELIVERY NETWORK LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13188,
+  "metadata" : {
+    "handle" : "TRIOLAN",
+    "description" : "CONTENT DELIVERY NETWORK LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.46.224.0/19",
       "37.57.0.0/16",
       "80.73.0.0/20",
@@ -32,7 +35,7 @@
       "185.38.216.0/22",
       "193.138.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:7380:40::/42",
       "2a03:7380:80::/41",
       "2a03:7380:100::/40",

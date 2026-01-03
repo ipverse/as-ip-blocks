@@ -1,9 +1,12 @@
 {
-  "asn": 13030,
-  "handle": "INIT7",
-  "description": "Init7 (Switzerland) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13030,
+  "metadata" : {
+    "handle" : "INIT7",
+    "description" : "Init7 (Switzerland) Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.180.132.0/22",
       "37.17.232.0/21",
       "45.80.136.0/22",
@@ -52,7 +55,7 @@
       "217.118.192.0/21",
       "217.118.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:7ac::/48",
       "2001:67c:2648::/48",
       "2001:1620::/32",

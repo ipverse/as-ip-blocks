@@ -1,9 +1,12 @@
 {
-  "asn": 58791,
-  "handle": "GMOOSK-NET",
-  "description": "GMO Internet Group Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58791,
+  "metadata" : {
+    "handle" : "GMOOSK-NET",
+    "description" : "GMO Internet Group Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "118.27.224.0/20",
       "124.110.208.0/23",
       "133.88.96.0/19",
@@ -16,7 +19,7 @@
       "163.44.128.0/19",
       "210.131.236.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8500:2000::/36",
       "2400:8500:7000::/36"
     ]

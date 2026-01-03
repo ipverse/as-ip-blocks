@@ -1,9 +1,12 @@
 {
-  "asn": 34949,
-  "handle": "INTERPC-AS",
-  "description": "IDLINE SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34949,
+  "metadata" : {
+    "handle" : "INTERPC-AS",
+    "description" : "IDLINE SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.239.112.0/23",
       "109.239.116.0/22",
       "109.239.122.0/23",
@@ -17,6 +20,6 @@
       "185.85.224.0/22",
       "217.112.48.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

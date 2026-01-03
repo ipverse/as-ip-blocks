@@ -1,12 +1,15 @@
 {
-  "asn": 34948,
-  "handle": "TYPHON-AS",
-  "description": "Claranet SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34948,
+  "metadata" : {
+    "handle" : "TYPHON-AS",
+    "description" : "Claranet SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.109.80.0/20",
       "193.189.143.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 215074,
-  "handle": "ROSSTEL",
-  "description": "RossTel Company LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215074,
+  "metadata" : {
+    "handle" : "ROSSTEL",
+    "description" : "RossTel Company LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.8.184.0/24",
       "85.202.164.0/24",
       "85.235.80.0/24",
@@ -17,6 +20,6 @@
       "194.85.86.0/23",
       "195.208.40.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 24492,
-  "handle": "IIT-WICAM-AS-AP",
-  "description": "WiCAM Corporation Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24492,
+  "metadata" : {
+    "handle" : "IIT-WICAM-AS-AP",
+    "description" : "WiCAM Corporation Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.111.8.0/22",
       "38.150.104.0/22",
       "43.245.216.0/22",
@@ -15,7 +18,7 @@
       "202.79.24.0/21",
       "218.100.71.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:1a00::/32"
     ]
   }

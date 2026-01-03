@@ -1,13 +1,16 @@
 {
-  "asn": 394470,
-  "handle": "ECLOUD360",
-  "description": "Ecloud360",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394470,
+  "metadata" : {
+    "handle" : "ECLOUD360",
+    "description" : "Ecloud360",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "172.83.150.0/24",
       "216.10.70.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:25:a000::/48"
     ]
   }

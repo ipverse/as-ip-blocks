@@ -1,14 +1,17 @@
 {
-  "asn": 212860,
-  "handle": "AIRNET-AS",
-  "description": "AIRNET llc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212860,
+  "metadata" : {
+    "handle" : "AIRNET-AS",
+    "description" : "AIRNET llc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.182.117.0/24",
       "95.182.118.0/23",
       "176.96.241.0/24",
       "176.96.243.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

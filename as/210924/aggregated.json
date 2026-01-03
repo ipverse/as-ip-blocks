@@ -1,13 +1,16 @@
 {
-  "asn": 210924,
-  "handle": "SSDNETWORKS",
-  "description": "ssd networks limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210924,
+  "metadata" : {
+    "handle" : "SSDNETWORKS",
+    "description" : "ssd networks limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.210.157.0/24",
       "195.96.138.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:c100::/29"
     ]
   }

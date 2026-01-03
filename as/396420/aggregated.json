@@ -1,9 +1,12 @@
 {
-  "asn": 396420,
-  "handle": "VALLEYFIBER",
-  "description": "Valley Fiber Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396420,
+  "metadata" : {
+    "handle" : "VALLEYFIBER",
+    "description" : "Valley Fiber Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.62.64.0/19",
       "38.62.96.0/20",
       "38.62.112.0/23",
@@ -33,7 +36,7 @@
       "208.81.141.0/24",
       "216.122.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:4b4d:ffff::/48",
       "2604:4b4e::/32"
     ]

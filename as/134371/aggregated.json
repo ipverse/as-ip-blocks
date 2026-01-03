@@ -1,9 +1,12 @@
 {
-  "asn": 134371,
-  "handle": "CIRCLENETWORK-BD",
-  "description": "CIRCLE NETWORK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134371,
+  "metadata" : {
+    "handle" : "CIRCLENETWORK-BD",
+    "description" : "CIRCLE NETWORK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.18.204.0/23",
       "103.62.140.0/22",
       "103.129.209.0/24",
@@ -15,7 +18,7 @@
       "202.136.88.0/22",
       "203.31.169.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:3dc0::/36"
     ]
   }

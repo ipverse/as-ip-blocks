@@ -1,13 +1,16 @@
 {
-  "asn": 137841,
-  "handle": "NET360-AS-AP",
-  "description": "NET360",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137841,
+  "metadata" : {
+    "handle" : "NET360-AS-AP",
+    "description" : "NET360",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.115.112.0/22",
       "103.232.164.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:12e0::/32",
       "2402:e640::/32"
     ]

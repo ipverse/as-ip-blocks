@@ -1,13 +1,16 @@
 {
-  "asn": 150208,
-  "handle": "IDNIC-IDMNET-AS-ID",
-  "description": "PT Internusa Duta Makmur",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150208,
+  "metadata" : {
+    "handle" : "IDNIC-IDMNET-AS-ID",
+    "description" : "PT Internusa Duta Makmur",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.160.182.0/23",
       "157.15.186.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:c440::/48"
     ]
   }

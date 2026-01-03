@@ -1,14 +1,17 @@
 {
-  "asn": 15958,
-  "handle": "CETIN-DOO-AS",
-  "description": "CETIN Ltd. Belgrade",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15958,
+  "metadata" : {
+    "handle" : "CETIN-DOO-AS",
+    "description" : "CETIN Ltd. Belgrade",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.106.224.0/20",
       "109.245.0.0/16",
       "217.65.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:ac80::/32"
     ]
   }

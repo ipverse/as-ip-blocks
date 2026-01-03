@@ -1,12 +1,15 @@
 {
-  "asn": 12313,
-  "handle": "VERSATEL-NGN",
-  "description": "1\u00261 Versatel GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12313,
+  "metadata" : {
+    "handle" : "VERSATEL-NGN",
+    "description" : "1&1 Versatel GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.130.236.0/22",
       "88.130.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 7521,
-  "handle": "MFEED",
-  "description": "INTERNET MULTIFEED CO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7521,
+  "metadata" : {
+    "handle" : "MFEED",
+    "description" : "INTERNET MULTIFEED CO.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "115.69.237.0/24",
       "210.173.160.0/21",
       "210.173.168.0/24",
@@ -13,7 +16,7 @@
       "210.173.180.0/22",
       "210.173.186.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:3a0::/32"
     ]
   }

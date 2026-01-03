@@ -1,9 +1,12 @@
 {
-  "asn": 15935,
-  "handle": "HA-VEL-LOCAL-AS",
-  "description": "ha-vel internet s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15935,
+  "metadata" : {
+    "handle" : "HA-VEL-LOCAL-AS",
+    "description" : "ha-vel internet s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.30.224.0/19",
       "93.185.48.0/20",
       "95.173.64.0/19",
@@ -13,7 +16,7 @@
       "213.195.192.0/18",
       "217.66.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:368::/48",
       "2001:678:1064::/48",
       "2001:67c:1314::/48",

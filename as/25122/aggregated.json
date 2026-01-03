@@ -1,9 +1,12 @@
 {
-  "asn": 25122,
-  "handle": "GULFSAT-COMMUNICATIONS-AS",
-  "description": "GULFSATCOMMUNICATIONS COMPANY K.S.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25122,
+  "metadata" : {
+    "handle" : "GULFSAT-COMMUNICATIONS-AS",
+    "description" : "GULFSATCOMMUNICATIONS COMPANY K.S.C.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.126.32.0/21",
       "194.126.40.0/23",
       "194.126.42.0/24",
@@ -13,7 +16,7 @@
       "194.126.54.0/23",
       "194.126.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5780:197::/48",
       "2a03:5780:198::/48"
     ]

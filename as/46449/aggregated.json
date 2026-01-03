@@ -1,9 +1,12 @@
 {
-  "asn": 46449,
-  "handle": "ASTREA-NORTHWI-WESTUPMI",
-  "description": "Astrea",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46449,
+  "metadata" : {
+    "handle" : "ASTREA-NORTHWI-WESTUPMI",
+    "description" : "Astrea",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.50.144.0/20",
       "38.51.96.0/20",
       "38.71.66.0/23",
@@ -19,7 +22,7 @@
       "208.95.208.0/21",
       "208.101.239.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fe58::/32"
     ]
   }

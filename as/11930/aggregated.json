@@ -1,12 +1,15 @@
 {
-  "asn": 11930,
-  "handle": "CAT",
-  "description": "Cat Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11930,
+  "metadata" : {
+    "handle" : "CAT",
+    "description" : "Cat Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.141.32.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:e4c0::/32"
     ]
   }

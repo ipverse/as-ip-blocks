@@ -1,9 +1,12 @@
 {
-  "asn": 394564,
-  "handle": "SPECTROTEL-INC",
-  "description": "Spectrotel Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394564,
+  "metadata" : {
+    "handle" : "SPECTROTEL-INC",
+    "description" : "Spectrotel Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.112.192.0/21",
       "66.112.200.0/22",
       "66.112.204.0/24",
@@ -11,6 +14,6 @@
       "68.66.4.0/23",
       "156.146.102.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 393508,
-  "handle": "VALLEYINTERNET",
-  "description": "PERSONAL NETWORK COMPUTING",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393508,
+  "metadata" : {
+    "handle" : "VALLEYINTERNET",
+    "description" : "PERSONAL NETWORK COMPUTING",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.97.64.0/23",
       "12.97.66.0/24",
       "12.153.242.0/23",
@@ -17,6 +20,6 @@
       "206.170.45.0/24",
       "209.65.184.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

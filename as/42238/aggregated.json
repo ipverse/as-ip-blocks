@@ -1,13 +1,16 @@
 {
-  "asn": 42238,
-  "handle": "BOSPOR-AS",
-  "description": "Bospor-Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42238,
+  "metadata" : {
+    "handle" : "BOSPOR-AS",
+    "description" : "Bospor-Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.162.56.0/21",
       "193.106.184.0/22",
       "193.200.22.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

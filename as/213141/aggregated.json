@@ -1,13 +1,16 @@
 {
-  "asn": 213141,
-  "handle": "BBRAUN-AS",
-  "description": "B. Braun Melsungen AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213141,
+  "metadata" : {
+    "handle" : "BBRAUN-AS",
+    "description" : "B. Braun Melsungen AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.254.64.0/18",
       "194.45.142.0/24",
       "212.0.0.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

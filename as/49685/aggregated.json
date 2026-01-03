@@ -1,9 +1,12 @@
 {
-  "asn": 49685,
-  "handle": "SIGNET-AS",
-  "description": "Signet B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49685,
+  "metadata" : {
+    "handle" : "SIGNET-AS",
+    "description" : "Signet B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.223.175.0/24",
       "80.246.207.0/24",
       "193.30.170.0/24",
@@ -12,7 +15,7 @@
       "194.59.138.0/24",
       "217.149.141.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4cb8:40b::/48",
       "2001:4cb8:59c::/48",
       "2a07:cb80::/32"

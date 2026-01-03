@@ -1,12 +1,15 @@
 {
-  "asn": 208868,
-  "handle": "CLAAS-AS",
-  "description": "Claas KGaA mbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208868,
+  "metadata" : {
+    "handle" : "CLAAS-AS",
+    "description" : "Claas KGaA mbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.239.177.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1274::/48"
     ]
   }

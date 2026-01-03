@@ -1,13 +1,16 @@
 {
-  "asn": 137104,
-  "handle": "IPPB-AS-IN",
-  "description": "India Post Payments Bank Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137104,
+  "metadata" : {
+    "handle" : "IPPB-AS-IN",
+    "description" : "India Post Payments Bank Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.108.118.0/24",
       "160.25.19.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:c7c0::/47"
     ]
   }

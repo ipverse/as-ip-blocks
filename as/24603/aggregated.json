@@ -1,15 +1,18 @@
 {
-  "asn": 24603,
-  "handle": "XOO-AS",
-  "description": "Ulf Kieber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24603,
+  "metadata" : {
+    "handle" : "XOO-AS",
+    "description" : "Ulf Kieber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.152.100.0/22",
       "185.105.80.0/22",
       "193.108.179.0/24",
       "195.42.100.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:ef4::/48",
       "2001:67c:12e8::/47"
     ]

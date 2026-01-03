@@ -1,11 +1,14 @@
 {
-  "asn": 154295,
-  "handle": "IT3-AS-AP",
-  "description": "IT Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 154295,
+  "metadata" : {
+    "handle" : "IT3-AS-AP",
+    "description" : "IT Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.252.40.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 14038,
-  "handle": "DRAKE-UNIVERSITY",
-  "description": "Drake University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14038,
+  "metadata" : {
+    "handle" : "DRAKE-UNIVERSITY",
+    "description" : "Drake University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.7.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:802:4000::/48"
     ]
   }

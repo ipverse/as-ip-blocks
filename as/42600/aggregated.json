@@ -1,13 +1,16 @@
 {
-  "asn": 42600,
-  "handle": "GMS-NET",
-  "description": "Global Message Services Ukraine LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42600,
+  "metadata" : {
+    "handle" : "GMS-NET",
+    "description" : "Global Message Services Ukraine LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.154.140.0/22",
       "185.46.88.0/22",
       "185.139.200.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

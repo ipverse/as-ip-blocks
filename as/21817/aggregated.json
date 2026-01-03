@@ -1,9 +1,12 @@
 {
-  "asn": 21817,
-  "handle": "NORCAST-AS",
-  "description": "Wave Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21817,
+  "metadata" : {
+    "handle" : "NORCAST-AS",
+    "description" : "Wave Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.152.100.0/22",
       "198.161.144.0/22",
       "198.180.225.0/24",
@@ -15,7 +18,7 @@
       "207.114.183.0/24",
       "207.114.190.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:8100::/32",
       "2607:6200::/32"
     ]

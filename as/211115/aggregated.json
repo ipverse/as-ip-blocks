@@ -1,12 +1,15 @@
 {
-  "asn": 211115,
-  "handle": "MAIBORN",
-  "description": "MaibornWolff GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211115,
+  "metadata" : {
+    "handle" : "MAIBORN",
+    "description" : "MaibornWolff GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.45.227.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1b84::/48"
     ]
   }

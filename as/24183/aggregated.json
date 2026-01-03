@@ -1,9 +1,12 @@
 {
-  "asn": 24183,
-  "handle": "DTS-ISP-CORE1-AP",
-  "description": "DTS Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24183,
+  "metadata" : {
+    "handle" : "DTS-ISP-CORE1-AP",
+    "description" : "DTS Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.125.168.0/22",
       "103.111.76.0/23",
       "103.226.32.0/22",
@@ -13,7 +16,7 @@
       "202.68.80.0/20",
       "202.174.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:9e00::/32"
     ]
   }

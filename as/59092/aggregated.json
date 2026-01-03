@@ -1,9 +1,12 @@
 {
-  "asn": 59092,
-  "handle": "KRONOS",
-  "description": "kronos.Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59092,
+  "metadata" : {
+    "handle" : "KRONOS",
+    "description" : "kronos.Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.131.240.0/21",
       "27.133.248.0/22",
       "103.13.152.0/22",
@@ -20,6 +23,6 @@
       "180.131.127.0/24",
       "182.54.248.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

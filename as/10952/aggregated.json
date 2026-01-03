@@ -1,12 +1,15 @@
 {
-  "asn": 10952,
-  "handle": "ECU-AS",
-  "description": "East Carolina University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10952,
+  "metadata" : {
+    "handle" : "ECU-AS",
+    "description" : "East Carolina University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "150.216.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:28:3020::/48"
     ]
   }

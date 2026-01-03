@@ -1,9 +1,12 @@
 {
-  "asn": 16835,
-  "handle": "CENTURYLINK-LEGACY-MR-MEBLANE-AND-RCMT",
-  "description": "CenturyLink Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16835,
+  "metadata" : {
+    "handle" : "CENTURYLINK-LEGACY-MR-MEBLANE-AND-RCMT",
+    "description" : "CenturyLink Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.40.64.0/24",
       "64.40.67.0/24",
       "64.40.80.0/23",
@@ -19,6 +22,6 @@
       "216.166.232.0/22",
       "216.166.236.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

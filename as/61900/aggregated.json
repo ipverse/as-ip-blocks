@@ -1,15 +1,18 @@
 {
-  "asn": 61900,
-  "handle": "MAIS-INTERNET",
-  "description": "Mais Internet LTDA EPP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61900,
+  "metadata" : {
+    "handle" : "MAIS-INTERNET",
+    "description" : "Mais Internet LTDA EPP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.97.32.0/22",
       "170.247.4.0/22",
       "177.74.172.0/22",
       "191.243.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:12a0::/32"
     ]
   }

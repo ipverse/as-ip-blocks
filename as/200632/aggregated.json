@@ -1,12 +1,15 @@
 {
-  "asn": 200632,
-  "handle": "NEBIUS",
-  "description": "Nebius B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200632,
+  "metadata" : {
+    "handle" : "NEBIUS",
+    "description" : "Nebius B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.82.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:5943:20::/44",
       "2a13:5947:133::/48"
     ]

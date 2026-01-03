@@ -1,9 +1,12 @@
 {
-  "asn": 399244,
-  "handle": "BLOOM-HOST",
-  "description": "AME Hosting LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399244,
+  "metadata" : {
+    "handle" : "BLOOM-HOST",
+    "description" : "AME Hosting LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.139.82.0/24",
       "45.59.168.0/24",
       "45.59.171.0/24",
@@ -20,7 +23,7 @@
       "204.77.4.0/23",
       "208.92.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fb89::/44",
       "2602:fb89:10::/45"
     ]

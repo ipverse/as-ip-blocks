@@ -1,13 +1,16 @@
 {
-  "asn": 49940,
-  "handle": "FIRABCN-AS",
-  "description": "FERIA INTERNACIONAL DE BARCELONA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49940,
+  "metadata" : {
+    "handle" : "FIRABCN-AS",
+    "description" : "FERIA INTERNACIONAL DE BARCELONA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.34.64.0/21",
       "95.215.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:f8c0::/29"
     ]
   }

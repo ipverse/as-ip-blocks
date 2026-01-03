@@ -1,13 +1,16 @@
 {
-  "asn": 59258,
-  "handle": "IGSSPL-SG",
-  "description": "IIJ Global Soltuions Singapore Pte. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59258,
+  "metadata" : {
+    "handle" : "IGSSPL-SG",
+    "description" : "IIJ Global Soltuions Singapore Pte. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.255.32.0/22",
       "220.100.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:7e80::/32"
     ]
   }

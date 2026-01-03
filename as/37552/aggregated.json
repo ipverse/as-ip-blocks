@@ -1,15 +1,18 @@
 {
-  "asn": 37552,
-  "handle": "GAMTEL",
-  "description": "Comium Gambia Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37552,
+  "metadata" : {
+    "handle" : "GAMTEL",
+    "description" : "Comium Gambia Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.206.88.0/22",
       "130.117.170.0/24",
       "154.53.192.0/23",
       "197.231.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:740::/48",
       "2c0f:740:70::/48"
     ]

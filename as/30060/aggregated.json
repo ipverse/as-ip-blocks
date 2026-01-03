@@ -1,9 +1,12 @@
 {
-  "asn": 30060,
-  "handle": "VERISIGN-ILG1",
-  "description": "VeriSign Infrastructure \u0026 Operations",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30060,
+  "metadata" : {
+    "handle" : "VERISIGN-ILG1",
+    "description" : "VeriSign Infrastructure & Operations",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.6.90.0/23",
       "69.36.150.0/24",
       "69.36.152.0/24",
@@ -32,7 +35,7 @@
       "216.168.235.0/24",
       "216.168.236.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:79c0:f008::/48",
       "2402:79c0:f00a::/47",
       "2620:74:7::/48",

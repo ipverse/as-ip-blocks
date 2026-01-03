@@ -1,9 +1,12 @@
 {
-  "asn": 16713,
-  "handle": "NOANET-WA",
-  "description": "Northwest Open Access Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16713,
+  "metadata" : {
+    "handle" : "NOANET-WA",
+    "description" : "Northwest Open Access Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.133.24.0/24",
       "64.49.61.0/24",
       "64.49.62.0/24",
@@ -29,7 +32,7 @@
       "208.70.151.0/24",
       "216.169.151.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:5e0::/32",
       "2605:b340::/32"
     ]

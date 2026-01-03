@@ -1,9 +1,12 @@
 {
-  "asn": 6621,
-  "handle": "HNS-DIRECPC",
-  "description": "Hughes Network Systems LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6621,
+  "metadata" : {
+    "handle" : "HNS-DIRECPC",
+    "description" : "Hughes Network Systems LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.88.96.0/20",
       "66.82.0.0/18",
       "66.82.64.0/19",
@@ -158,7 +161,7 @@
       "198.77.116.0/23",
       "206.71.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:5b0::/38",
       "2001:5b0:1f00::/40",
       "2001:5b0:2100::/40",

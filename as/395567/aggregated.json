@@ -1,9 +1,12 @@
 {
-  "asn": 395567,
-  "handle": "BLOXNET",
-  "description": "dcBLOX Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395567,
+  "metadata" : {
+    "handle" : "BLOXNET",
+    "description" : "dcBLOX Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.45.213.0/24",
       "50.59.186.0/24",
       "64.225.240.0/22",
@@ -36,7 +39,7 @@
       "205.233.18.0/24",
       "216.226.183.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fead::/36",
       "2605:3c80:f8::/47",
       "2605:3c80:fd::/48",

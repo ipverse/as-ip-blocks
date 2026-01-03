@@ -1,14 +1,17 @@
 {
-  "asn": 264144,
-  "handle": "ASAP-GLOBAL-TELECOM",
-  "description": "ASAP GLOBAL TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264144,
+  "metadata" : {
+    "handle" : "ASAP-GLOBAL-TELECOM",
+    "description" : "ASAP GLOBAL TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.97.124.0/22",
       "168.197.168.0/22",
       "189.51.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2320::/32"
     ]
   }

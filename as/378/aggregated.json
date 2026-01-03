@@ -1,9 +1,12 @@
 {
-  "asn": 378,
-  "handle": "MACHBA-AS",
-  "description": "IUCC - Israel InterUniversity Computation Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 378,
+  "metadata" : {
+    "handle" : "MACHBA-AS",
+    "description" : "IUCC - Israel InterUniversity Computation Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.139.0.0/16",
       "132.64.0.0/13",
       "132.72.0.0/14",
@@ -28,7 +31,7 @@
       "192.115.192.0/21",
       "192.117.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:bf8::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 35654,
-  "handle": "CORESNET",
-  "description": "Cores Networks EOOD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35654,
+  "metadata" : {
+    "handle" : "CORESNET",
+    "description" : "Cores Networks EOOD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.72.66.0/24",
       "80.72.68.0/23",
       "80.72.75.0/24",
@@ -13,6 +16,6 @@
       "80.72.92.0/23",
       "80.72.95.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

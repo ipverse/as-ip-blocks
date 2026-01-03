@@ -1,12 +1,15 @@
 {
-  "asn": 30644,
-  "handle": "PATH-NETWORK-BYOIP",
-  "description": "Path Network Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30644,
+  "metadata" : {
+    "handle" : "PATH-NETWORK-BYOIP",
+    "description" : "Path Network Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.140.38.0/24",
       "64.40.149.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

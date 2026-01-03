@@ -1,16 +1,19 @@
 {
-  "asn": 23467,
-  "handle": "NEWRELIC-AS-1",
-  "description": "New Relic",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23467,
+  "metadata" : {
+    "handle" : "NEWRELIC-AS-1",
+    "description" : "New Relic",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.251.192.0/20",
       "152.38.128.0/19",
       "162.247.240.0/23",
       "162.247.242.0/24",
       "212.32.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:816:5000::/48",
       "2602:816:5002::/48"
     ]

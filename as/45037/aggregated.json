@@ -1,9 +1,12 @@
 {
-  "asn": 45037,
-  "handle": "HISPAWEB-NETWORK",
-  "description": "Propelin Consulting S.L.U",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45037,
+  "metadata" : {
+    "handle" : "HISPAWEB-NETWORK",
+    "description" : "Propelin Consulting S.L.U.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.207.88.0/23",
       "31.207.90.0/24",
       "31.207.92.0/22",
@@ -11,6 +14,6 @@
       "109.70.128.0/22",
       "185.56.108.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

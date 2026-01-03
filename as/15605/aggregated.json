@@ -1,9 +1,12 @@
 {
-  "asn": 15605,
-  "handle": "CONNESI",
-  "description": "Connesi s.p.a",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15605,
+  "metadata" : {
+    "handle" : "CONNESI",
+    "description" : "Connesi s.p.a.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.128.0/22",
       "5.154.192.0/19",
       "5.154.237.0/24",
@@ -17,7 +20,7 @@
       "185.5.244.0/22",
       "185.37.180.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1cc8::/30"
     ]
   }

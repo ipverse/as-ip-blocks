@@ -1,9 +1,12 @@
 {
-  "asn": 59,
-  "handle": "WISC-MADISON-AS",
-  "description": "University of Wisconsin Madison",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59,
+  "metadata" : {
+    "handle" : "WISC-MADISON-AS",
+    "description" : "University of Wisconsin Madison",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.33.0.0/16",
       "128.104.0.0/15",
       "144.92.0.0/16",
@@ -17,7 +20,7 @@
       "198.133.224.0/23",
       "205.213.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f388::/32"
     ]
   }

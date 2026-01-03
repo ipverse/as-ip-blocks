@@ -1,9 +1,12 @@
 {
-  "asn": 199152,
-  "handle": "VDC-USA",
-  "description": "Virtual Data Center Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199152,
+  "metadata" : {
+    "handle" : "VDC-USA",
+    "description" : "Virtual Data Center Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.239.23.0/24",
       "146.19.84.0/24",
       "193.68.80.0/24",
@@ -12,7 +15,7 @@
       "213.21.222.0/24",
       "213.21.227.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:2e83::/36",
       "2a0a:2e86::/31",
       "2a11:7e41:1::/48",

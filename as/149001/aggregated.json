@@ -1,12 +1,15 @@
 {
-  "asn": 149001,
-  "handle": "SHAFI-AS-AP",
-  "description": "Shafi Enterprise",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149001,
+  "metadata" : {
+    "handle" : "SHAFI-AS-AP",
+    "description" : "Shafi Enterprise",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.175.232.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:fe80::/48"
     ]
   }

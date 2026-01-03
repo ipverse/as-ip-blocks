@@ -1,9 +1,12 @@
 {
-  "asn": 39729,
-  "handle": "REGISTER-AS",
-  "description": "REGISTER S.P.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39729,
+  "metadata" : {
+    "handle" : "REGISTER-AS",
+    "description" : "REGISTER S.P.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.88.48.0/20",
       "185.2.4.0/22",
       "185.110.66.0/23",
@@ -15,7 +18,7 @@
       "195.110.120.0/21",
       "213.158.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:8100:2000::/36"
     ]
   }

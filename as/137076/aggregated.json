@@ -1,15 +1,18 @@
 {
-  "asn": 137076,
-  "handle": "TTSL-AS-BB",
-  "description": "TTSL-ISP DIVISION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137076,
+  "metadata" : {
+    "handle" : "TTSL-AS-BB",
+    "description" : "TTSL-ISP DIVISION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.96.24.0/21",
       "14.96.32.0/22",
       "14.96.36.0/23",
       "14.96.40.0/23",
       "14.96.44.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

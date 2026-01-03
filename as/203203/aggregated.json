@@ -1,12 +1,15 @@
 {
-  "asn": 203203,
-  "handle": "RTS-TENDER-AS",
-  "description": "Limited Liability Company RTS-tender",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203203,
+  "metadata" : {
+    "handle" : "RTS-TENDER-AS",
+    "description" : "Limited Liability Company RTS-tender",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.179.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:7e80::/29"
     ]
   }

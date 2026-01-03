@@ -1,9 +1,12 @@
 {
-  "asn": 25693,
-  "handle": "VIRMACH",
-  "description": "Virtual Machine Solutions LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25693,
+  "metadata" : {
+    "handle" : "VIRMACH",
+    "description" : "Virtual Machine Solutions LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.253.38.0/24",
       "8.43.33.0/24",
       "23.136.108.0/24",
@@ -28,7 +31,7 @@
       "193.93.55.0/24",
       "193.108.56.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f6b0::/40"
     ]
   }

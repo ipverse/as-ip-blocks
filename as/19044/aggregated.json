@@ -1,11 +1,14 @@
 {
-  "asn": 19044,
-  "handle": "INNER",
-  "description": "The Inner Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19044,
+  "metadata" : {
+    "handle" : "INNER",
+    "description" : "The Inner Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.33.248.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

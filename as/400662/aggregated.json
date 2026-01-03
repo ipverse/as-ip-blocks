@@ -1,9 +1,12 @@
 {
-  "asn": 400662,
-  "handle": "DOBSON-ASN-02",
-  "description": "Dobson Technologies - Transport and Telecom Solutions LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400662,
+  "metadata" : {
+    "handle" : "DOBSON-ASN-02",
+    "description" : "Dobson Technologies - Transport and Telecom Solutions LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "57.138.1.0/24",
       "57.138.2.0/23",
       "57.138.4.0/24",
@@ -70,6 +73,6 @@
       "150.253.127.0/24",
       "206.72.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 210062,
-  "handle": "BARRITEL-LON-THN",
-  "description": "Barritel Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210062,
+  "metadata" : {
+    "handle" : "BARRITEL-LON-THN",
+    "description" : "Barritel Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.151.43.0/24",
       "88.151.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:8341::/32"
     ]
   }

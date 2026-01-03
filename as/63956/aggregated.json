@@ -1,9 +1,12 @@
 {
-  "asn": 63956,
-  "handle": "INT-5GN-AS-AP",
-  "description": "5G NETWORK OPERATIONS PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63956,
+  "metadata" : {
+    "handle" : "INT-5GN-AS-AP",
+    "description" : "5G NETWORK OPERATIONS PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.112.244.0/22",
       "45.114.116.0/24",
       "45.137.245.0/24",
@@ -39,7 +42,7 @@
       "203.209.192.0/19",
       "203.210.102.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:1b80::/32",
       "2402:2f80:4::/48",
       "2406:180:8000::/40"

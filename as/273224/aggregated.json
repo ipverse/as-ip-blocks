@@ -1,14 +1,17 @@
 {
-  "asn": 273224,
-  "handle": "BRAVIC",
-  "description": "BRAVIC SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273224,
+  "metadata" : {
+    "handle" : "BRAVIC",
+    "description" : "BRAVIC SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.123.48.0/24",
       "38.156.14.0/24",
       "38.226.220.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:ae50::/32"
     ]
   }

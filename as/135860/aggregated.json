@@ -1,11 +1,14 @@
 {
-  "asn": 135860,
-  "handle": "NDMC-AS",
-  "description": "New Delhi Municipal Council",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135860,
+  "metadata" : {
+    "handle" : "NDMC-AS",
+    "description" : "New Delhi Municipal Council",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.101.92.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

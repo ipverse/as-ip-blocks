@@ -1,12 +1,15 @@
 {
-  "asn": 16094,
-  "handle": "MAGTELECOM-AS",
-  "description": "Magistralny Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16094,
+  "metadata" : {
+    "handle" : "MAGTELECOM-AS",
+    "description" : "Magistralny Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.26.204.0/23",
       "217.22.174.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

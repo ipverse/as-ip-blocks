@@ -1,9 +1,12 @@
 {
-  "asn": 31319,
-  "handle": "ESTRACOM-AS",
-  "description": "ESTRACOM SPA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31319,
+  "metadata" : {
+    "handle" : "ESTRACOM-AS",
+    "description" : "ESTRACOM SPA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.149.128.0/18",
       "91.109.48.0/21",
       "185.119.244.0/22",
@@ -12,7 +15,7 @@
       "193.43.108.0/24",
       "193.238.84.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:63c0::/32",
       "2a03:8c80::/29"
     ]

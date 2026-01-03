@@ -1,9 +1,12 @@
 {
-  "asn": 7020,
-  "handle": "QDATA-AS",
-  "description": "Business Connexion Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7020,
+  "metadata" : {
+    "handle" : "QDATA-AS",
+    "description" : "Business Connexion Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.233.0.0/16",
       "196.4.250.0/23",
       "196.10.1.0/24",
@@ -17,6 +20,6 @@
       "196.29.128.0/19",
       "196.45.168.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

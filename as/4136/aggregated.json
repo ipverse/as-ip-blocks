@@ -1,9 +1,12 @@
 {
-  "asn": 4136,
-  "handle": "QTS",
-  "description": "Quality Technology Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4136,
+  "metadata" : {
+    "handle" : "QTS",
+    "description" : "Quality Technology Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.197.115.0/24",
       "66.197.116.0/24",
       "69.5.68.0/24",
@@ -23,7 +26,7 @@
       "209.208.128.0/20",
       "209.208.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f858::/32"
     ]
   }

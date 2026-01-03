@@ -1,9 +1,12 @@
 {
-  "asn": 205769,
-  "handle": "MAINZER-BREITBAND",
-  "description": "Mainzer Breitband GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205769,
+  "metadata" : {
+    "handle" : "MAINZER-BREITBAND",
+    "description" : "Mainzer Breitband GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.249.252.0/22",
       "185.207.60.0/22",
       "193.29.233.0/24",
@@ -13,7 +16,7 @@
       "193.141.224.0/24",
       "194.121.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:1ec0::/32"
     ]
   }

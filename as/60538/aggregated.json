@@ -1,12 +1,15 @@
 {
-  "asn": 60538,
-  "handle": "BROADRIDGE-AS",
-  "description": "Broadridge (Deutschland) GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60538,
+  "metadata" : {
+    "handle" : "BROADRIDGE-AS",
+    "description" : "Broadridge (Deutschland) GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.212.64.0/23",
       "193.36.1.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

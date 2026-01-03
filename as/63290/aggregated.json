@@ -1,12 +1,15 @@
 {
-  "asn": 63290,
-  "handle": "QCSTE-AS",
-  "description": "QCSTelecom Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63290,
+  "metadata" : {
+    "handle" : "QCSTE-AS",
+    "description" : "QCSTelecom Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.245.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:c880::/32"
     ]
   }

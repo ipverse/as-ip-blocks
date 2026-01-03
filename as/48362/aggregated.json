@@ -1,9 +1,12 @@
 {
-  "asn": 48362,
-  "handle": "TKSWF-AS",
-  "description": "Stadtwerke Feldkirch",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48362,
+  "metadata" : {
+    "handle" : "TKSWF-AS",
+    "description" : "Stadtwerke Feldkirch",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.152.52.0/22",
       "86.111.44.0/22",
       "91.195.116.0/23",
@@ -12,7 +15,7 @@
       "185.101.8.0/22",
       "185.252.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1688::/32"
     ]
   }

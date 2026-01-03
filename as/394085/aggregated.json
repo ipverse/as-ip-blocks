@@ -1,9 +1,12 @@
 {
-  "asn": 394085,
-  "handle": "THINKON-GUBOV",
-  "description": "Think On Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394085,
+  "metadata" : {
+    "handle" : "THINKON-GUBOV",
+    "description" : "Think On Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.117.68.0/23",
       "38.117.70.0/24",
       "104.153.59.0/24",
@@ -12,6 +15,6 @@
       "216.83.9.0/24",
       "216.83.29.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

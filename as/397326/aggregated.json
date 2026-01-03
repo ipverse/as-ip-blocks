@@ -1,13 +1,16 @@
 {
-  "asn": 397326,
-  "handle": "SFN-ASN",
-  "description": "South Front Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397326,
+  "metadata" : {
+    "handle" : "SFN-ASN",
+    "description" : "South Front Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.142.48.0/24",
       "147.160.170.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:13e:3000::/40"
     ]
   }

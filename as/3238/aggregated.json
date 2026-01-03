@@ -1,9 +1,12 @@
 {
-  "asn": 3238,
-  "handle": "ALCOM",
-  "description": "Alands Telekommunikation Ab",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3238,
+  "metadata" : {
+    "handle" : "ALCOM",
+    "description" : "Alands Telekommunikation Ab",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.133.0.0/19",
       "82.199.160.0/19",
       "194.110.176.0/20",
@@ -13,7 +16,7 @@
       "212.17.184.0/22",
       "213.204.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:5500::/32"
     ]
   }

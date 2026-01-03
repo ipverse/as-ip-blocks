@@ -1,11 +1,14 @@
 {
-  "asn": 25285,
-  "handle": "BOE-AS",
-  "description": "Boletin Oficial del Estado",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25285,
+  "metadata" : {
+    "handle" : "BOE-AS",
+    "description" : "Boletin Oficial del Estado",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.89.32.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

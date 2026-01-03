@@ -1,9 +1,12 @@
 {
-  "asn": 36925,
-  "handle": "ASMEDI",
-  "description": "MEDITELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36925,
+  "metadata" : {
+    "handle" : "ASMEDI",
+    "description" : "MEDITELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.87.128.0/19",
       "41.92.0.0/17",
       "41.205.192.0/19",
@@ -17,7 +20,7 @@
       "197.247.0.0/16",
       "197.253.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0e:6000::/24",
       "2c0f:fb20::/32"
     ]

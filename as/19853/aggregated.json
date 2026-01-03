@@ -1,13 +1,16 @@
 {
-  "asn": 19853,
-  "handle": "ORANGEHOST",
-  "description": "OrangeHost",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19853,
+  "metadata" : {
+    "handle" : "ORANGEHOST",
+    "description" : "OrangeHost",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.45.23.0/24",
       "173.252.167.0/24",
       "209.172.2.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

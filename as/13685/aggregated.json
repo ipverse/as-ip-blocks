@@ -1,12 +1,15 @@
 {
-  "asn": 13685,
-  "handle": "ASN-RCSD-01",
-  "description": "Rochester City School District",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13685,
+  "metadata" : {
+    "handle" : "ASN-RCSD-01",
+    "description" : "Rochester City School District",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.190.208.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc1f::/36"
     ]
   }

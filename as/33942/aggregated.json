@@ -1,9 +1,12 @@
 {
-  "asn": 33942,
-  "handle": "IREN-ENERGIA-AS",
-  "description": "IREN ENERGIA S.P.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33942,
+  "metadata" : {
+    "handle" : "IREN-ENERGIA-AS",
+    "description" : "IREN ENERGIA S.P.A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.213.64.0/23",
       "82.213.67.0/24",
       "82.213.68.0/23",
@@ -17,6 +20,6 @@
       "83.139.201.0/24",
       "83.139.208.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

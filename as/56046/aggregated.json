@@ -1,9 +1,12 @@
 {
-  "asn": 56046,
-  "handle": "CMNET-JIANGSU-AP",
-  "description": "China Mobile Communications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56046,
+  "metadata" : {
+    "handle" : "CMNET-JIANGSU-AP",
+    "description" : "China Mobile Communications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.134.96.0/22",
       "36.134.106.0/23",
       "36.134.108.0/23",
@@ -188,7 +191,7 @@
       "223.160.152.0/21",
       "223.161.198.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2409:8020::/32",
       "2409:8021:1010::/48",
       "2409:8021:1020::/48",

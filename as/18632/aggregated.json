@@ -1,9 +1,12 @@
 {
-  "asn": 18632,
-  "handle": "VOLCANO-VISION",
-  "description": "Volcano Vision Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18632,
+  "metadata" : {
+    "handle" : "VOLCANO-VISION",
+    "description" : "Volcano Vision Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.166.164.0/23",
       "63.170.118.0/23",
       "65.165.164.0/22",
@@ -19,6 +22,6 @@
       "208.1.38.0/23",
       "208.3.194.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

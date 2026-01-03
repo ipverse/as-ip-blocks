@@ -1,9 +1,12 @@
 {
-  "asn": 9641,
-  "handle": "KDB-AS",
-  "description": "Korea Development Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9641,
+  "metadata" : {
+    "handle" : "KDB-AS",
+    "description" : "Korea Development Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.32.249.0/24",
       "106.241.135.0/24",
       "115.91.205.0/24",
@@ -16,6 +19,6 @@
       "211.181.119.0/24",
       "211.181.165.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

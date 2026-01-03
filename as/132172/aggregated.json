@@ -1,11 +1,14 @@
 {
-  "asn": 132172,
-  "handle": "FPO-AS-AP",
-  "description": "Fiscal Policy Office",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132172,
+  "metadata" : {
+    "handle" : "FPO-AS-AP",
+    "description" : "Fiscal Policy Office",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.6.165.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

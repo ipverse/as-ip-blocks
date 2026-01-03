@@ -1,15 +1,18 @@
 {
-  "asn": 46012,
-  "handle": "INDUK-AS",
-  "description": "Induk University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46012,
+  "metadata" : {
+    "handle" : "INDUK-AS",
+    "description" : "Induk University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.246.96.0/22",
       "210.102.226.0/23",
       "210.102.228.0/22",
       "220.67.172.0/22",
       "220.67.176.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

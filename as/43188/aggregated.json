@@ -1,12 +1,15 @@
 {
-  "asn": 43188,
-  "handle": "LDC-AS",
-  "description": "Lauku atbalsta dienests",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43188,
+  "metadata" : {
+    "handle" : "LDC-AS",
+    "description" : "Lauku atbalsta dienests",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.198.175.0/24",
       "85.254.156.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

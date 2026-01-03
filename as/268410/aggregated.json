@@ -1,12 +1,15 @@
 {
-  "asn": 268410,
-  "handle": "BKUP-TELECOM",
-  "description": "BKup Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268410,
+  "metadata" : {
+    "handle" : "BKUP-TELECOM",
+    "description" : "BKup Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.160.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:50c8::/32"
     ]
   }

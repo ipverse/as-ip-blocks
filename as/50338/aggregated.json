@@ -1,14 +1,17 @@
 {
-  "asn": 50338,
-  "handle": "GAMERHOST",
-  "description": "GamerHost s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50338,
+  "metadata" : {
+    "handle" : "GAMERHOST",
+    "description" : "GamerHost s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.39.202.0/23",
       "147.79.58.0/24",
       "151.243.10.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:7bc1::/32"
     ]
   }

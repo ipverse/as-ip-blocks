@@ -1,9 +1,12 @@
 {
-  "asn": 59094,
-  "handle": "S2-NET",
-  "description": "esu2 Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59094,
+  "metadata" : {
+    "handle" : "S2-NET",
+    "description" : "esu2 Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.37.108.0/22",
       "103.37.112.0/22",
       "103.55.12.0/22",
@@ -11,6 +14,6 @@
       "103.231.192.0/22",
       "103.236.144.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

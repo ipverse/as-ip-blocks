@@ -1,9 +1,12 @@
 {
-  "asn": 23661,
-  "handle": "CLARA-AS-AP",
-  "description": "CLARA Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23661,
+  "metadata" : {
+    "handle" : "CLARA-AS-AP",
+    "description" : "CLARA Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "42.123.32.0/22",
       "110.50.240.0/20",
       "116.197.136.0/21",
@@ -16,7 +19,7 @@
       "202.45.160.0/21",
       "202.51.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:800::/32"
     ]
   }

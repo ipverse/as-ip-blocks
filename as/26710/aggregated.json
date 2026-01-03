@@ -1,9 +1,12 @@
 {
-  "asn": 26710,
-  "handle": "ICANN-ANYCASTED-SERVICES",
-  "description": "ICANN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26710,
+  "metadata" : {
+    "handle" : "ICANN-ANYCASTED-SERVICES",
+    "description" : "ICANN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.0.42.0/24",
       "199.4.31.0/24",
       "199.4.138.0/24",
@@ -11,7 +14,7 @@
       "199.43.135.0/24",
       "199.253.182.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:500:86::/47",
       "2001:500:89::/48",
       "2001:500:8d::/48",

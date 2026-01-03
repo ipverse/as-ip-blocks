@@ -1,14 +1,17 @@
 {
-  "asn": 32620,
-  "handle": "JELLY-TELECOM",
-  "description": "Jelly Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32620,
+  "metadata" : {
+    "handle" : "JELLY-TELECOM",
+    "description" : "Jelly Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.93.184.0/21",
       "66.253.80.0/22",
       "66.253.88.0/22",
       "82.38.20.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

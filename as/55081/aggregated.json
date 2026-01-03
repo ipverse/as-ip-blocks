@@ -1,9 +1,12 @@
 {
-  "asn": 55081,
-  "handle": "24SHELLS",
-  "description": "24 SHELLS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55081,
+  "metadata" : {
+    "handle" : "24SHELLS",
+    "description" : "24 SHELLS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.227.128.0/19",
       "45.62.165.0/24",
       "67.220.176.0/20",
@@ -14,7 +17,7 @@
       "198.147.24.0/21",
       "209.205.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:8dc0::/32",
       "2607:4f00::/32",
       "2607:6b80:6::/48",

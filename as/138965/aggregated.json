@@ -1,9 +1,12 @@
 {
-  "asn": 138965,
-  "handle": "SSTI-AS-AP",
-  "description": "Streamtech Systems Technologies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138965,
+  "metadata" : {
+    "handle" : "SSTI-AS-AP",
+    "description" : "Streamtech Systems Technologies Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.6.104.0/24",
       "103.36.19.0/24",
       "103.137.204.0/22",
@@ -13,7 +16,7 @@
       "154.223.8.0/21",
       "156.236.88.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:d3e0::/35"
     ]
   }

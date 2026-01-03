@@ -1,13 +1,16 @@
 {
-  "asn": 52527,
-  "handle": "IWNET-TELECOM",
-  "description": "IWNET TELECOM LTDA ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52527,
+  "metadata" : {
+    "handle" : "IWNET-TELECOM",
+    "description" : "IWNET TELECOM LTDA ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.152.80.0/21",
       "200.150.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:dec::/32"
     ]
   }

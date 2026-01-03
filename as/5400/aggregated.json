@@ -1,9 +1,12 @@
 {
-  "asn": 5400,
-  "handle": "BT",
-  "description": "British Telecommunications PLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5400,
+  "metadata" : {
+    "handle" : "BT",
+    "description" : "British Telecommunications PLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.95.0.0/21",
       "31.95.16.0/20",
       "31.95.48.0/21",
@@ -61,7 +64,7 @@
       "213.194.0.0/18",
       "213.236.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:740::/32",
       "2a00:2000::/23",
       "2a00:2200::/24",

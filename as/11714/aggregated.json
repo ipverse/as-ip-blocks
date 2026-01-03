@@ -1,9 +1,12 @@
 {
-  "asn": 11714,
-  "handle": "NETWORK-NEBRASKA",
-  "description": "Network Nebraska",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11714,
+  "metadata" : {
+    "handle" : "NETWORK-NEBRASKA",
+    "description" : "Network Nebraska",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "72.15.160.0/19",
       "160.102.0.0/16",
       "162.127.0.0/16",
@@ -31,7 +34,7 @@
       "204.234.0.0/16",
       "205.202.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:1c00::/32",
       "2620:130:5000::/44"
     ]

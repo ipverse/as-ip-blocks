@@ -1,9 +1,12 @@
 {
-  "asn": 21263,
-  "handle": "TELEDATA-AS",
-  "description": "TeleData GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21263,
+  "metadata" : {
+    "handle" : "TELEDATA-AS",
+    "description" : "TeleData GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.104.144.0/21",
       "5.154.177.0/24",
       "5.154.178.0/24",
@@ -43,7 +46,7 @@
       "217.31.208.0/20",
       "217.73.152.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:76c0::/29",
       "2a02:590::/29",
       "2a05:7ac0::/29",

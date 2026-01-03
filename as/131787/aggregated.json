@@ -1,11 +1,14 @@
 {
-  "asn": 131787,
-  "handle": "KELTRON-IN",
-  "description": "KSEDC (Keltron)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131787,
+  "metadata" : {
+    "handle" : "KELTRON-IN",
+    "description" : "KSEDC (Keltron)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.10.168.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

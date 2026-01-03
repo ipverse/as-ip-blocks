@@ -1,9 +1,12 @@
 {
-  "asn": 17539,
-  "handle": "ASN-NCKHI-AP",
-  "description": "Netsol Connect (Pvt) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17539,
+  "metadata" : {
+    "handle" : "ASN-NCKHI-AP",
+    "description" : "Netsol Connect (Pvt) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.64.180.0/22",
       "58.84.28.0/22",
       "103.77.8.0/24",
@@ -19,6 +22,6 @@
       "203.170.72.0/21",
       "221.120.213.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

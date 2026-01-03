@@ -1,15 +1,18 @@
 {
-  "asn": 200698,
-  "handle": "GLOBALHOST-BOSNIA-AS",
-  "description": "Globalhost d.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200698,
+  "metadata" : {
+    "handle" : "GLOBALHOST-BOSNIA-AS",
+    "description" : "Globalhost d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.156.248.0/22",
       "185.99.0.0/22",
       "185.164.32.0/22",
       "185.212.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8620::/32"
     ]
   }

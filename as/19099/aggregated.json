@@ -1,12 +1,15 @@
 {
-  "asn": 19099,
-  "handle": "RAMBUS",
-  "description": "Rambus",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19099,
+  "metadata" : {
+    "handle" : "RAMBUS",
+    "description" : "Rambus",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.86.86.0/24",
       "198.147.243.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

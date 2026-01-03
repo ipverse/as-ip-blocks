@@ -1,11 +1,14 @@
 {
-  "asn": 30472,
-  "handle": "EAST-WEST-CENTER-HOUSINGNET",
-  "description": "East-West Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30472,
+  "metadata" : {
+    "handle" : "EAST-WEST-CENTER-HOUSINGNET",
+    "description" : "East-West Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.162.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

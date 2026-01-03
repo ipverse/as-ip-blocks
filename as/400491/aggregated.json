@@ -1,11 +1,14 @@
 {
-  "asn": 400491,
-  "handle": "PCEWEST",
-  "description": "PCE Systems",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400491,
+  "metadata" : {
+    "handle" : "PCEWEST",
+    "description" : "PCE Systems",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.168.184.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

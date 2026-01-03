@@ -1,9 +1,12 @@
 {
-  "asn": 50957,
-  "handle": "MEMSET",
-  "description": "MEMSET Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50957,
+  "metadata" : {
+    "handle" : "MEMSET",
+    "description" : "MEMSET Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.153.248.0/21",
       "31.25.184.0/21",
       "37.128.128.0/21",
@@ -13,7 +16,7 @@
       "185.98.196.0/22",
       "213.170.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:24e0::/32"
     ]
   }

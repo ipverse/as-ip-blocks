@@ -1,11 +1,14 @@
 {
-  "asn": 269114,
-  "handle": "NRCONNECT-INTERNET",
-  "description": "NRConnect Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269114,
+  "metadata" : {
+    "handle" : "NRCONNECT-INTERNET",
+    "description" : "NRConnect Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.180.28.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

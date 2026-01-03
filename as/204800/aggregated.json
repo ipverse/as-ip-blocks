@@ -1,14 +1,17 @@
 {
-  "asn": 204800,
-  "handle": "WHG-SGP",
-  "description": "WHG Hosting Services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204800,
+  "metadata" : {
+    "handle" : "WHG-SGP",
+    "description" : "WHG Hosting Services Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.138.189.0/24",
       "192.250.228.0/24",
       "192.250.235.0/24",
       "198.38.91.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

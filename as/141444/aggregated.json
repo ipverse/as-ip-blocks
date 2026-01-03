@@ -1,12 +1,15 @@
 {
-  "asn": 141444,
-  "handle": "WICKED-AS-AP",
-  "description": "Wicked Networks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141444,
+  "metadata" : {
+    "handle" : "WICKED-AS-AP",
+    "description" : "Wicked Networks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.159.138.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:d340::/32"
     ]
   }

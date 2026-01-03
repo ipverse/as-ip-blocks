@@ -1,12 +1,15 @@
 {
-  "asn": 48109,
-  "handle": "CIO-AS",
-  "description": "Information and eGovernment Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48109,
+  "metadata" : {
+    "handle" : "CIO-AS",
+    "description" : "Information and eGovernment Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.31.192.0/22",
       "89.31.196.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

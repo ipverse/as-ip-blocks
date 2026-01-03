@@ -1,11 +1,14 @@
 {
-  "asn": 150397,
-  "handle": "UNIVERSE-AS-AP",
-  "description": "Universe Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150397,
+  "metadata" : {
+    "handle" : "UNIVERSE-AS-AP",
+    "description" : "Universe Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.30.62.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

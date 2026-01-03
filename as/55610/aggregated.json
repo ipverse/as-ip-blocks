@@ -1,12 +1,15 @@
 {
-  "asn": 55610,
-  "handle": "MSAFER-AS",
-  "description": "KAIT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55610,
+  "metadata" : {
+    "handle" : "MSAFER-AS",
+    "description" : "KAIT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.108.110.0/24",
       "211.55.53.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 18526,
-  "handle": "DDPS",
-  "description": "DDPS Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18526,
+  "metadata" : {
+    "handle" : "DDPS",
+    "description" : "DDPS Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.95.45.0/24",
       "23.95.159.0/24",
       "23.176.40.0/24",
@@ -24,7 +27,7 @@
       "200.229.24.0/24",
       "206.125.175.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd6f:20::/44",
       "2602:fd6f:50::/44",
       "2602:fd6f:80::/42",

@@ -1,9 +1,12 @@
 {
-  "asn": 34718,
-  "handle": "TPSUZ-AS",
-  "description": "IST TELEKOM JV LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34718,
+  "metadata" : {
+    "handle" : "TPSUZ-AS",
+    "description" : "IST TELEKOM JV LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.209.128.0/19",
       "80.80.208.0/20",
       "89.236.192.0/18",
@@ -19,7 +22,7 @@
       "185.248.44.0/22",
       "194.55.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:f10::/29",
       "2a03:540::/32"
     ]

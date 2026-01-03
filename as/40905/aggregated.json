@@ -1,11 +1,14 @@
 {
-  "asn": 40905,
-  "handle": "BGP-INFOSYNC",
-  "description": "InfoSync Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40905,
+  "metadata" : {
+    "handle" : "BGP-INFOSYNC",
+    "description" : "InfoSync Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "98.174.24.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

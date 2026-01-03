@@ -1,9 +1,12 @@
 {
-  "asn": 149440,
-  "handle": "EVOXTENTERPRISE-AS-AP",
-  "description": "Evoxt Enterprise",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149440,
+  "metadata" : {
+    "handle" : "EVOXTENTERPRISE-AS-AP",
+    "description" : "Evoxt Enterprise",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.26.204.0/24",
       "23.26.237.0/24",
       "23.27.0.0/24",
@@ -123,7 +126,7 @@
       "216.173.64.0/22",
       "223.165.6.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8d60:1::/48",
       "2400:8d60:2::/47",
       "2400:8d60:4::/46",

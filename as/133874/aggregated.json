@@ -1,12 +1,15 @@
 {
-  "asn": 133874,
-  "handle": "MYNIC-AS-AP",
-  "description": "MYNIC Berhad",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133874,
+  "metadata" : {
+    "handle" : "MYNIC-AS-AP",
+    "description" : "MYNIC Berhad",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.44.108.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:ddc::/48"
     ]
   }

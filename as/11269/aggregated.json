@@ -1,9 +1,12 @@
 {
-  "asn": 11269,
-  "handle": "LINKBERMUDA",
-  "description": "LinkBermuda LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11269,
+  "metadata" : {
+    "handle" : "LINKBERMUDA",
+    "description" : "LinkBermuda LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.17.192.0/19",
       "185.66.23.0/24",
       "194.15.241.0/24",
@@ -17,7 +20,7 @@
       "208.82.164.0/22",
       "208.89.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:e80::/32"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 40381,
-  "handle": "AS-ADM-DC2",
-  "description": "ADM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40381,
+  "metadata" : {
+    "handle" : "AS-ADM-DC2",
+    "description" : "ADM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.49.49.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

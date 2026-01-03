@@ -1,15 +1,18 @@
 {
-  "asn": 40351,
-  "handle": "AS-PLDPC",
-  "description": "Pennsylvania Legislative Data Processing Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40351,
+  "metadata" : {
+    "handle" : "AS-PLDPC",
+    "description" : "Pennsylvania Legislative Data Processing Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.157.112.0/23",
       "216.157.114.0/24",
       "216.157.120.0/22",
       "216.157.124.0/24",
       "216.157.127.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

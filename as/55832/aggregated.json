@@ -1,9 +1,12 @@
 {
-  "asn": 55832,
-  "handle": "HOMESYSTEM-AS-AP",
-  "description": "HOME SYSTEMS PVT.LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55832,
+  "metadata" : {
+    "handle" : "HOMESYSTEM-AS-AP",
+    "description" : "HOME SYSTEMS PVT.LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.123.216.0/22",
       "45.64.16.0/22",
       "45.64.208.0/22",
@@ -14,7 +17,7 @@
       "120.88.180.0/22",
       "120.88.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:2a00::/32"
     ]
   }

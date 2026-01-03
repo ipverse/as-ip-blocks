@@ -1,12 +1,15 @@
 {
-  "asn": 21256,
-  "handle": "LUXLINK-AS",
-  "description": "Luxlink ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21256,
+  "metadata" : {
+    "handle" : "LUXLINK-AS",
+    "description" : "Luxlink ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.109.144.0/22",
       "194.187.104.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

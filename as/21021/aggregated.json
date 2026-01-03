@@ -1,9 +1,12 @@
 {
-  "asn": 21021,
-  "handle": "MULTIMEDIA-AS",
-  "description": "Multimedia Polska Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21021,
+  "metadata" : {
+    "handle" : "MULTIMEDIA-AS",
+    "description" : "Multimedia Polska Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.6.128.0/18",
       "31.6.192.0/19",
       "31.42.16.0/20",
@@ -46,7 +49,7 @@
       "217.144.192.0/19",
       "217.172.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1c00::/32",
       "2a02:2a40::/32"
     ]

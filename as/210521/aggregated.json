@@ -1,12 +1,15 @@
 {
-  "asn": 210521,
-  "handle": "IKS-GATEWAY",
-  "description": "iks Informations- und Kommunikationssysteme GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210521,
+  "metadata" : {
+    "handle" : "IKS-GATEWAY",
+    "description" : "iks Informations- und Kommunikationssysteme GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.204.46.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:a200::/29"
     ]
   }

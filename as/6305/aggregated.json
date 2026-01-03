@@ -1,12 +1,15 @@
 {
-  "asn": 6305,
-  "handle": "AENT-AS",
-  "description": "Alliance Entertainment",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6305,
+  "metadata" : {
+    "handle" : "AENT-AS",
+    "description" : "Alliance Entertainment",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.12.55.0/24",
       "192.48.210.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

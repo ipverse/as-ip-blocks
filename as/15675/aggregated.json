@@ -1,9 +1,12 @@
 {
-  "asn": 15675,
-  "handle": "ETAT-DE-VAUD",
-  "description": "Direction des Systemes d\u0027Information Etat de Vaud",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15675,
+  "metadata" : {
+    "handle" : "ETAT-DE-VAUD",
+    "description" : "Direction des Systemes d'Information Etat de Vaud",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "145.232.0.0/16",
       "193.5.240.0/21",
       "193.5.248.0/23",
@@ -11,6 +14,6 @@
       "193.135.138.0/24",
       "194.56.250.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

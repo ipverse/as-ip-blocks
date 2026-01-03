@@ -1,9 +1,12 @@
 {
-  "asn": 24750,
-  "handle": "CISBG",
-  "description": "MyAcct LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24750,
+  "metadata" : {
+    "handle" : "CISBG",
+    "description" : "MyAcct LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.239.157.0/24",
       "92.62.243.0/24",
       "92.62.244.0/24",
@@ -11,7 +14,7 @@
       "194.146.232.0/22",
       "195.69.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:4c00::/29"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 23120,
-  "handle": "LEGACY-OKC-ASN",
-  "description": "Legacy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23120,
+  "metadata" : {
+    "handle" : "LEGACY-OKC-ASN",
+    "description" : "Legacy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.204.59.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

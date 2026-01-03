@@ -1,9 +1,12 @@
 {
-  "asn": 59692,
-  "handle": "IQWEB",
-  "description": "IQWeb FZ-LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59692,
+  "metadata" : {
+    "handle" : "IQWEB",
+    "description" : "IQWeb FZ-LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.132.16.0/24",
       "45.135.239.0/24",
       "93.171.200.0/24",
@@ -20,6 +23,6 @@
       "190.115.24.0/22",
       "190.115.30.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

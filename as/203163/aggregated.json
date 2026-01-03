@@ -1,12 +1,15 @@
 {
-  "asn": 203163,
-  "handle": "INTERNET04-AS",
-  "description": "OOO Internet 04",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203163,
+  "metadata" : {
+    "handle" : "INTERNET04-AS",
+    "description" : "OOO Internet 04",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.233.155.0/24",
       "193.233.156.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

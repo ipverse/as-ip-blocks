@@ -1,9 +1,12 @@
 {
-  "asn": 205948,
-  "handle": "CREOLINE-AS",
-  "description": "creoline GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205948,
+  "metadata" : {
+    "handle" : "CREOLINE-AS",
+    "description" : "creoline GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.1.73.0/24",
       "5.1.77.0/24",
       "5.1.78.0/24",
@@ -12,7 +15,7 @@
       "5.1.86.0/24",
       "5.1.89.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:6fc0::/47"
     ]
   }

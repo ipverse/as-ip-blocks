@@ -1,9 +1,12 @@
 {
-  "asn": 131464,
-  "handle": "DJBL-AS-AP",
-  "description": "Digi Jadoo Broadband Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131464,
+  "metadata" : {
+    "handle" : "DJBL-AS-AP",
+    "description" : "Digi Jadoo Broadband Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.69.148.0/22",
       "103.109.96.0/22",
       "103.115.242.0/23",
@@ -14,7 +17,7 @@
       "161.248.205.0/24",
       "180.149.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:f280::/32"
     ]
   }

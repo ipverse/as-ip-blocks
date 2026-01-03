@@ -1,9 +1,12 @@
 {
-  "asn": 397501,
-  "handle": "PURDUE-RESNET",
-  "description": "Purdue University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397501,
+  "metadata" : {
+    "handle" : "PURDUE-RESNET",
+    "description" : "Purdue University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.211.64.0/24",
       "128.211.96.0/24",
       "128.211.112.0/24",
@@ -13,7 +16,7 @@
       "128.211.184.0/21",
       "128.211.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:ac80:400::/40"
     ]
   }

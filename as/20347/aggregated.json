@@ -1,9 +1,12 @@
 {
-  "asn": 20347,
-  "handle": "GFN-US",
-  "description": "Nvidia Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20347,
+  "metadata" : {
+    "handle" : "GFN-US",
+    "description" : "Nvidia Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.51.25.0/24",
       "66.22.128.0/24",
       "66.22.132.0/22",
@@ -13,6 +16,6 @@
       "66.22.148.0/22",
       "118.128.102.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

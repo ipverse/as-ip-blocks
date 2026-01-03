@@ -1,12 +1,15 @@
 {
-  "asn": 48755,
-  "handle": "ILJOJA-AS",
-  "description": "ILJOJA Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48755,
+  "metadata" : {
+    "handle" : "ILJOJA-AS",
+    "description" : "ILJOJA Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.56.151.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:2e00::/29"
     ]
   }

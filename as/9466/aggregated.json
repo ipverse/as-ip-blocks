@@ -1,9 +1,12 @@
 {
-  "asn": 9466,
-  "handle": "UUNET-JP-AP",
-  "description": "Verizon Japan Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9466,
+  "metadata" : {
+    "handle" : "UUNET-JP-AP",
+    "description" : "Verizon Japan Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.3.198.0/24",
       "103.109.16.0/24",
       "138.198.0.0/16",
@@ -21,7 +24,7 @@
       "203.10.217.0/24",
       "203.11.0.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:6bff::/40",
       "2401:6bff:8000::/40"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 133256,
-  "handle": "TANGEDCO-AS-IN",
-  "description": "TANGEDCO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133256,
+  "metadata" : {
+    "handle" : "TANGEDCO-AS-IN",
+    "description" : "TANGEDCO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.61.230.0/24",
       "103.234.149.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

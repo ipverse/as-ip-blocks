@@ -1,9 +1,12 @@
 {
-  "asn": 56167,
-  "handle": "PTML-PK",
-  "description": "PTML",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56167,
+  "metadata" : {
+    "handle" : "PTML-PK",
+    "description" : "PTML",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "42.83.84.0/22",
       "58.181.100.0/22",
       "59.103.88.0/22",
@@ -18,7 +21,7 @@
       "182.191.128.0/19",
       "203.135.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:ba80:a100::/40",
       "2401:ba80:a300::/40",
       "2401:ba80:aa00::/43",

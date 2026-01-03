@@ -1,12 +1,15 @@
 {
-  "asn": 14235,
-  "handle": "STATE-NM-US",
-  "description": "State of New Mexico",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14235,
+  "metadata" : {
+    "handle" : "STATE-NM-US",
+    "description" : "State of New Mexico",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.64.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:5940::/32"
     ]
   }

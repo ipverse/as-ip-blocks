@@ -1,11 +1,14 @@
 {
-  "asn": 30120,
-  "handle": "SGNE-AS",
-  "description": "Sempra Global",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30120,
+  "metadata" : {
+    "handle" : "SGNE-AS",
+    "description" : "Sempra Global",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.130.144.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

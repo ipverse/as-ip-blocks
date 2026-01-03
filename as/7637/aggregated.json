@@ -1,9 +1,12 @@
 {
-  "asn": 7637,
-  "handle": "SLVTSD-AS-AP",
-  "description": "State Library of Victoria",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7637,
+  "metadata" : {
+    "handle" : "SLVTSD-AS-AP",
+    "description" : "State Library of Victoria",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.190.180.0/24",
       "202.137.64.0/19",
       "203.10.72.0/23",
@@ -11,6 +14,6 @@
       "203.27.47.0/24",
       "203.30.97.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

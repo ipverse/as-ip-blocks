@@ -1,11 +1,14 @@
 {
-  "asn": 46588,
-  "handle": "CDW-CONFIGS-01",
-  "description": "CDW",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46588,
+  "metadata" : {
+    "handle" : "CDW-CONFIGS-01",
+    "description" : "CDW",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.73.8.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

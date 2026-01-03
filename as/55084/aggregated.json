@@ -1,11 +1,14 @@
 {
-  "asn": 55084,
-  "handle": "DRMC-AS-1",
-  "description": "DuBois Regional Medical Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55084,
+  "metadata" : {
+    "handle" : "DRMC-AS-1",
+    "description" : "DuBois Regional Medical Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.199.12.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

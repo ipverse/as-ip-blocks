@@ -1,12 +1,15 @@
 {
-  "asn": 136530,
-  "handle": "ULTRANET-AS-AP",
-  "description": "Ultranet Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136530,
+  "metadata" : {
+    "handle" : "ULTRANET-AS-AP",
+    "description" : "Ultranet Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.90.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:f6c0::/32"
     ]
   }

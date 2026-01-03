@@ -1,9 +1,12 @@
 {
-  "asn": 4511,
-  "handle": "MIAMI-EDU",
-  "description": "University of Miami",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4511,
+  "metadata" : {
+    "handle" : "MIAMI-EDU",
+    "description" : "University of Miami",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.56.84.0/24",
       "129.171.0.0/16",
       "192.31.89.0/24",
@@ -12,6 +15,6 @@
       "204.68.64.0/19",
       "204.145.157.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

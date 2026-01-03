@@ -1,9 +1,12 @@
 {
-  "asn": 133296,
-  "handle": "WEBWERKS-AS-IN",
-  "description": "Web Werks India Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133296,
+  "metadata" : {
+    "handle" : "WEBWERKS-AS-IN",
+    "description" : "Web Werks India Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.57.68.0/22",
       "31.58.0.0/21",
       "31.58.8.0/24",
@@ -136,7 +139,7 @@
       "210.89.49.0/24",
       "212.69.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:1400::/48",
       "2001:df5:4480::/48",
       "2001:df5:f500::/48",

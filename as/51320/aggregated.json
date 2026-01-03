@@ -1,9 +1,12 @@
 {
-  "asn": 51320,
-  "handle": "WIRELESSLOGIC-UK",
-  "description": "Wireless Logic Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51320,
+  "metadata" : {
+    "handle" : "WIRELESSLOGIC-UK",
+    "description" : "Wireless Logic Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.87.232.0/22",
       "45.128.104.0/22",
       "78.41.40.0/23",
@@ -26,6 +29,6 @@
       "193.192.192.0/19",
       "194.0.158.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

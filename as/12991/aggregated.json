@@ -1,14 +1,17 @@
 {
-  "asn": 12991,
-  "handle": "LAND-OOE",
-  "description": "Amt der Ooe. Landesregierung",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12991,
+  "metadata" : {
+    "handle" : "LAND-OOE",
+    "description" : "Amt der Ooe. Landesregierung",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.48.4.0/22",
       "194.48.32.0/19",
       "194.48.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:148::/48"
     ]
   }

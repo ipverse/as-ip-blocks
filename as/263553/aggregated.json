@@ -1,14 +1,17 @@
 {
-  "asn": 263553,
-  "handle": "GIGANET-SERVICOS-INTERNET",
-  "description": "GIGANET SERVIÇOS DE INTERNET -LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263553,
+  "metadata" : {
+    "handle" : "GIGANET-SERVICOS-INTERNET",
+    "description" : "GIGANET SERVIÇOS DE INTERNET -LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.237.152.0/22",
       "186.237.156.0/23",
       "186.237.159.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:edc::/32"
     ]
   }

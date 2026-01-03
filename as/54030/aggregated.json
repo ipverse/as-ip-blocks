@@ -1,12 +1,15 @@
 {
-  "asn": 54030,
-  "handle": "SUMMIT-SOL-ASN",
-  "description": "Summit Solutions LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54030,
+  "metadata" : {
+    "handle" : "SUMMIT-SOL-ASN",
+    "description" : "Summit Solutions LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.58.191.0/24",
       "199.119.228.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 3455,
-  "handle": "WAUSAU-INS",
-  "description": "Liberty Mutual Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3455,
+  "metadata" : {
+    "handle" : "WAUSAU-INS",
+    "description" : "Liberty Mutual Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.26.58.0/24",
       "136.184.0.0/20",
       "136.184.32.0/20",
@@ -33,6 +36,6 @@
       "198.8.232.0/21",
       "199.115.40.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

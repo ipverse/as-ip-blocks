@@ -1,10 +1,13 @@
 {
-  "asn": 33654,
-  "handle": "CMCS",
-  "description": "Comcast Cable Communications LLC",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 33654,
+  "metadata" : {
+    "handle" : "CMCS",
+    "description" : "Comcast Cable Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:559:ba::/47",
       "2001:559:12b::/48",
       "2001:559:24d::/48",

@@ -1,12 +1,15 @@
 {
-  "asn": 918,
-  "handle": "IPEX",
-  "description": "IP Excess AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 918,
+  "metadata" : {
+    "handle" : "IPEX",
+    "description" : "IP Excess AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.211.0.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:3507::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 803,
-  "handle": "SASKTEL",
-  "description": "Saskatchewan Telecommunications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 803,
+  "metadata" : {
+    "handle" : "SASKTEL",
+    "description" : "Saskatchewan Telecommunications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.110.192.0/18",
       "64.201.192.0/19",
       "67.225.0.0/17",
@@ -47,7 +50,7 @@
       "216.174.128.0/19",
       "216.197.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f4a8::/32",
       "2620:19:2000::/48"
     ]

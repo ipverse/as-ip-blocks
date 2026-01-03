@@ -1,9 +1,12 @@
 {
-  "asn": 23764,
-  "handle": "CTGNET",
-  "description": "China Telecom Global Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23764,
+  "metadata" : {
+    "handle" : "CTGNET",
+    "description" : "China Telecom Global Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.10.136.0/24",
       "5.154.128.0/23",
       "5.154.130.0/24",
@@ -123,7 +126,7 @@
       "220.247.140.0/23",
       "220.247.143.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:9380:9115::/48",
       "2400:9380:9116::/48",
       "2400:9380:9206::/48",

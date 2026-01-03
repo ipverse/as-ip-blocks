@@ -1,15 +1,18 @@
 {
-  "asn": 12675,
-  "handle": "UAIC-NETWORK",
-  "description": "Alexandru Ioan Cuza University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12675,
+  "metadata" : {
+    "handle" : "UAIC-NETWORK",
+    "description" : "Alexandru Ioan Cuza University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.122.16.0/20",
       "193.226.23.0/24",
       "193.226.24.0/23",
       "193.231.30.0/23",
       "194.176.164.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

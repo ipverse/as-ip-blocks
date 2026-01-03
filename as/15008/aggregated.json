@@ -1,12 +1,15 @@
 {
-  "asn": 15008,
-  "handle": "AISG",
-  "description": "AISG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15008,
+  "metadata" : {
+    "handle" : "AISG",
+    "description" : "AISG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.64.108.0/22",
       "216.238.16.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 396226,
-  "handle": "ITXBB",
-  "description": "In the Stix Broadband LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396226,
+  "metadata" : {
+    "handle" : "ITXBB",
+    "description" : "In the Stix Broadband LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.128.108.0/24",
       "44.31.237.0/24",
       "66.146.226.0/23",
@@ -15,6 +18,6 @@
       "209.142.72.0/23",
       "209.142.74.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

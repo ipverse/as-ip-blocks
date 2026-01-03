@@ -1,11 +1,14 @@
 {
-  "asn": 32175,
-  "handle": "RTD-DENVER",
-  "description": "REGIONAL TRANSPORTATION DISTRICT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32175,
+  "metadata" : {
+    "handle" : "RTD-DENVER",
+    "description" : "REGIONAL TRANSPORTATION DISTRICT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.114.238.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

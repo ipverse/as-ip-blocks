@@ -1,9 +1,12 @@
 {
-  "asn": 17421,
-  "handle": "EMOME-NET",
-  "description": "Mobile Business Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17421,
+  "metadata" : {
+    "handle" : "EMOME-NET",
+    "description" : "Mobile Business Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "42.70.0.0/15",
       "42.72.0.0/13",
       "111.70.0.0/18",
@@ -63,7 +66,7 @@
       "223.143.224.0/20",
       "223.143.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:b400::/23"
     ]
   }

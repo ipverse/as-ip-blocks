@@ -1,13 +1,16 @@
 {
-  "asn": 12730,
-  "handle": "INECO-AS",
-  "description": "PJSC Rostelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12730,
+  "metadata" : {
+    "handle" : "INECO-AS",
+    "description" : "PJSC Rostelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.143.192.0/19",
       "95.106.0.0/17",
       "212.26.224.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

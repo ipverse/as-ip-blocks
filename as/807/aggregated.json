@@ -1,14 +1,17 @@
 {
-  "asn": 807,
-  "handle": "FORKSYSTEMS",
-  "description": "FORK SYSTEMS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 807,
+  "metadata" : {
+    "handle" : "FORKSYSTEMS",
+    "description" : "FORK SYSTEMS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.147.64.0/24",
       "193.57.200.0/24",
       "193.57.223.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:39:6000::/48"
     ]
   }

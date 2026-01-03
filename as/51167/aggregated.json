@@ -1,9 +1,12 @@
 {
-  "asn": 51167,
-  "handle": "CONTABO",
-  "description": "Contabo GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51167,
+  "metadata" : {
+    "handle" : "CONTABO",
+    "description" : "Contabo GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.80.0/22",
       "2.59.156.0/24",
       "5.180.148.0/23",
@@ -253,7 +256,7 @@
       "213.199.32.0/19",
       "217.76.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:c202::/32",
       "2a02:c204::/30"
     ]

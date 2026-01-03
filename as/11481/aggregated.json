@@ -1,13 +1,16 @@
 {
-  "asn": 11481,
-  "handle": "AS-UTRGV",
-  "description": "University of Texas Rio Grande Valley",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11481,
+  "metadata" : {
+    "handle" : "AS-UTRGV",
+    "description" : "University of Texas Rio Grande Valley",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.207.0.0/19",
       "129.113.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:2800:c300::/48"
     ]
   }

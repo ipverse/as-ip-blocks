@@ -1,9 +1,12 @@
 {
-  "asn": 39032,
-  "handle": "ISPETC",
-  "description": "IST TELEKOM JV LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39032,
+  "metadata" : {
+    "handle" : "ISPETC",
+    "description" : "IST TELEKOM JV LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.237.232.0/21",
       "89.236.216.0/22",
       "94.141.68.0/23",
@@ -12,6 +15,6 @@
       "94.141.92.0/24",
       "217.30.160.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 204373,
-  "handle": "POLINEO",
-  "description": "POLINEO Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204373,
+  "metadata" : {
+    "handle" : "POLINEO",
+    "description" : "POLINEO Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.39.108.0/24",
       "89.39.240.0/24",
       "89.40.139.0/24",
@@ -14,6 +17,6 @@
       "185.118.212.0/22",
       "185.230.200.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

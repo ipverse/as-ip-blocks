@@ -1,9 +1,12 @@
 {
-  "asn": 9860,
-  "handle": "NHIS-AS",
-  "description": "National Health Insurance Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9860,
+  "metadata" : {
+    "handle" : "NHIS-AS",
+    "description" : "National Health Insurance Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.255.227.0/24",
       "58.122.126.0/24",
       "58.227.185.0/24",
@@ -15,6 +18,6 @@
       "211.109.135.0/24",
       "211.214.206.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

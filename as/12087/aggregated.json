@@ -1,9 +1,12 @@
 {
-  "asn": 12087,
-  "handle": "SALSGIVER",
-  "description": "Salsgiver Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12087,
+  "metadata" : {
+    "handle" : "SALSGIVER",
+    "description" : "Salsgiver Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.124.140.0/22",
       "65.199.16.0/24",
       "65.199.18.0/24",
@@ -15,6 +18,6 @@
       "216.221.10.0/24",
       "216.221.15.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

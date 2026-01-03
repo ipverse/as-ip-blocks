@@ -1,9 +1,12 @@
 {
-  "asn": 54841,
-  "handle": "O-NET",
-  "description": "TELUS Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54841,
+  "metadata" : {
+    "handle" : "O-NET",
+    "description" : "TELUS Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.41.236.0/22",
       "66.244.244.0/23",
       "104.192.76.0/22",
@@ -12,6 +15,6 @@
       "192.139.35.0/24",
       "192.236.12.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

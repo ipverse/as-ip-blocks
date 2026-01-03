@@ -1,9 +1,12 @@
 {
-  "asn": 7872,
-  "handle": "USAP-ASN",
-  "description": "United States Antarctic Program",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7872,
+  "metadata" : {
+    "handle" : "USAP-ASN",
+    "description" : "United States Antarctic Program",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.132.0.0/16",
       "192.150.224.0/24",
       "192.207.225.0/24",
@@ -14,7 +17,7 @@
       "204.89.132.0/23",
       "204.238.237.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:11d:3000::/44"
     ]
   }

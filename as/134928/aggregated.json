@@ -1,9 +1,12 @@
 {
-  "asn": 134928,
-  "handle": "SPIDERLINK-AS",
-  "description": "Spiderlink Networks Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134928,
+  "metadata" : {
+    "handle" : "SPIDERLINK-AS",
+    "description" : "Spiderlink Networks Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.23.239.0/24",
       "103.36.48.0/24",
       "103.157.168.0/23",
@@ -17,7 +20,7 @@
       "115.178.98.0/24",
       "175.111.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:6c80::/48"
     ]
   }

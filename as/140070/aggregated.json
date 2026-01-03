@@ -1,12 +1,15 @@
 {
-  "asn": 140070,
-  "handle": "AOSMA-AS-AP",
-  "description": "Adelaide Oval SMA Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140070,
+  "metadata" : {
+    "handle" : "AOSMA-AS-AP",
+    "description" : "Adelaide Oval SMA Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.148.16.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:b680::/48"
     ]
   }

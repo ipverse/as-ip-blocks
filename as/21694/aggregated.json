@@ -1,13 +1,16 @@
 {
-  "asn": 21694,
-  "handle": "FRESNOCOE",
-  "description": "Fresno County Office of Education",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21694,
+  "metadata" : {
+    "handle" : "FRESNOCOE",
+    "description" : "Fresno County Office of Education",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.78.32.0/19",
       "206.78.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff2e::/36"
     ]
   }

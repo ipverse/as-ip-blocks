@@ -1,14 +1,17 @@
 {
-  "asn": 16780,
-  "handle": "BANCO-SANTANDER",
-  "description": "Banco Santander",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16780,
+  "metadata" : {
+    "handle" : "BANCO-SANTANDER",
+    "description" : "Banco Santander",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.18.1.0/24",
       "170.18.20.0/24",
       "170.18.32.0/24",
       "170.18.191.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

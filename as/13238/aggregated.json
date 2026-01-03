@@ -1,9 +1,12 @@
 {
-  "asn": 13238,
-  "handle": "YANDEX",
-  "description": "YANDEX LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13238,
+  "metadata" : {
+    "handle" : "YANDEX",
+    "description" : "YANDEX LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.45.192.0/18",
       "5.255.192.0/18",
       "37.9.64.0/18",
@@ -19,7 +22,7 @@
       "185.32.187.0/24",
       "213.180.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:6b8::/29"
     ]
   }

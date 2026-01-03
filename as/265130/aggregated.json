@@ -1,14 +1,17 @@
 {
-  "asn": 265130,
-  "handle": "FIBRA-EMPRESAS",
-  "description": "FIBRA EMPRESAS LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265130,
+  "metadata" : {
+    "handle" : "FIBRA-EMPRESAS",
+    "description" : "FIBRA EMPRESAS LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.208.152.0/22",
       "170.254.200.0/22",
       "187.62.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2b00::/32"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 16782,
-  "handle": "CORELAB-AS",
-  "description": "Core Laboratories",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16782,
+  "metadata" : {
+    "handle" : "CORELAB-AS",
+    "description" : "Core Laboratories",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.45.169.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

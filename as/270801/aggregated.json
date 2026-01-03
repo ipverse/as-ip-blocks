@@ -1,13 +1,16 @@
 {
-  "asn": 270801,
-  "handle": "SALVADOR-DIGITAL-ISP",
-  "description": "Salvador Digital ISP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270801,
+  "metadata" : {
+    "handle" : "SALVADOR-DIGITAL-ISP",
+    "description" : "Salvador Digital ISP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.219.48.0/23",
       "200.219.50.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:71a0::/32"
     ]
   }

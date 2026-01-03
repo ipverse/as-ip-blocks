@@ -1,9 +1,12 @@
 {
-  "asn": 44356,
-  "handle": "EPSILON",
-  "description": "Epsilon Telecommunications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44356,
+  "metadata" : {
+    "handle" : "EPSILON",
+    "description" : "Epsilon Telecommunications Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.13.152.0/21",
       "79.99.192.0/21",
       "80.84.144.0/24",
@@ -12,7 +15,7 @@
       "180.178.72.0/21",
       "185.60.178.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:4400::/32",
       "2a00:1538::/32"
     ]

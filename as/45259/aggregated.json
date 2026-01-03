@@ -1,13 +1,16 @@
 {
-  "asn": 45259,
-  "handle": "BRUHAAS-BN",
-  "description": "BRUHAAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45259,
+  "metadata" : {
+    "handle" : "BRUHAAS-BN",
+    "description" : "BRUHAAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.139.109.0/24",
       "103.170.170.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:ba00::/48"
     ]
   }

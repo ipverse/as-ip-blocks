@@ -1,13 +1,16 @@
 {
-  "asn": 205330,
-  "handle": "ARIANET",
-  "description": "Ari@net SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205330,
+  "metadata" : {
+    "handle" : "ARIANET",
+    "description" : "Ari@net SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.130.216.0/21",
       "185.109.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:cec0::/32"
     ]
   }

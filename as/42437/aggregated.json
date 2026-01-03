@@ -1,14 +1,17 @@
 {
-  "asn": 42437,
-  "handle": "T2-ROSTOV-AS",
-  "description": "T2 Mobile LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42437,
+  "metadata" : {
+    "handle" : "T2-ROSTOV-AS",
+    "description" : "T2 Mobile LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.69.154.0/24",
       "80.115.192.0/19",
       "176.59.64.0/19",
       "185.78.92.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 26054,
-  "handle": "THRYV",
-  "description": "Thryv",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26054,
+  "metadata" : {
+    "handle" : "THRYV",
+    "description" : "Thryv",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "151.138.66.0/23",
       "151.138.129.0/24",
       "151.138.130.0/23",
@@ -13,6 +16,6 @@
       "208.93.104.0/22",
       "209.251.251.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 87,
-  "handle": "INDIANA-AS",
-  "description": "Indiana University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 87,
+  "metadata" : {
+    "handle" : "INDIANA-AS",
+    "description" : "Indiana University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.79.0.0/16",
       "134.68.0.0/16",
       "140.182.0.0/16",
@@ -14,7 +17,7 @@
       "156.56.0.0/16",
       "198.49.177.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:18e8::/44"
     ]
   }

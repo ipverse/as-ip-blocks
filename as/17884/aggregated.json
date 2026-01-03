@@ -1,15 +1,18 @@
 {
-  "asn": 17884,
-  "handle": "UNINET-AP",
-  "description": "PT. Uninet Media Sakti (ISP)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17884,
+  "metadata" : {
+    "handle" : "UNINET-AP",
+    "description" : "PT. Uninet Media Sakti (ISP)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.155.250.0/23",
       "103.158.56.0/23",
       "103.174.234.0/23",
       "202.145.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:7980::/32"
     ]
   }

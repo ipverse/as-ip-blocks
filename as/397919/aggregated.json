@@ -1,12 +1,15 @@
 {
-  "asn": 397919,
-  "handle": "NETSPI-CORPORATE",
-  "description": "NetSPI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397919,
+  "metadata" : {
+    "handle" : "NETSPI-CORPORATE",
+    "description" : "NetSPI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "76.76.14.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:809:8000::/44"
     ]
   }

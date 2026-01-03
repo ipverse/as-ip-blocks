@@ -1,9 +1,12 @@
 {
-  "asn": 11031,
-  "handle": "ORBIS-INVESTMENTS",
-  "description": "Orbis Investments (Canada) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11031,
+  "metadata" : {
+    "handle" : "ORBIS-INVESTMENTS",
+    "description" : "Orbis Investments (Canada) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.58.182.0/23",
       "103.61.42.0/23",
       "162.219.232.0/22",
@@ -12,6 +15,6 @@
       "185.108.12.0/24",
       "185.108.14.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

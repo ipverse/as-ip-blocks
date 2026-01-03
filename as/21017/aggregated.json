@@ -1,14 +1,17 @@
 {
-  "asn": 21017,
-  "handle": "VSI-AS",
-  "description": "PJSC Rostelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21017,
+  "metadata" : {
+    "handle" : "VSI-AS",
+    "description" : "PJSC Rostelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.45.128.0/17",
       "80.82.32.0/19",
       "88.83.192.0/19",
       "95.32.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

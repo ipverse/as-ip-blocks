@@ -1,14 +1,17 @@
 {
-  "asn": 54056,
-  "handle": "PCA-AS",
-  "description": "Packaging Corporation of America",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54056,
+  "metadata" : {
+    "handle" : "PCA-AS",
+    "description" : "Packaging Corporation of America",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.140.128.0/24",
       "204.99.208.0/23",
       "204.99.211.0/24",
       "204.99.223.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

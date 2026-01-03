@@ -1,13 +1,16 @@
 {
-  "asn": 41550,
-  "handle": "HBUA-AS",
-  "description": "First Ukrainian Internet Registrar LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41550,
+  "metadata" : {
+    "handle" : "HBUA-AS",
+    "description" : "First Ukrainian Internet Registrar LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.196.0.0/24",
       "91.207.44.0/23",
       "195.138.198.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

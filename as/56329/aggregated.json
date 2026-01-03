@@ -1,9 +1,12 @@
 {
-  "asn": 56329,
-  "handle": "GIGACLEAR",
-  "description": "Gigaclear Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56329,
+  "metadata" : {
+    "handle" : "GIGACLEAR",
+    "description" : "Gigaclear Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.227.144.0/21",
       "78.143.192.0/19",
       "82.163.144.0/20",
@@ -32,7 +35,7 @@
       "213.18.128.0/18",
       "216.213.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:d200::/29",
       "2a02:fb8::/32",
       "2a06:61c0::/29"

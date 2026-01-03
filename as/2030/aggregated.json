@@ -1,9 +1,12 @@
 {
-  "asn": 2030,
-  "handle": "TBCASN2",
-  "description": "The Boeing Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2030,
+  "metadata" : {
+    "handle" : "TBCASN2",
+    "description" : "The Boeing Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.48.15.0/24",
       "192.48.18.0/23",
       "192.48.20.0/23",
@@ -11,6 +14,6 @@
       "192.48.25.0/24",
       "192.76.224.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 2497,
-  "handle": "IIJ",
-  "description": "Internet Initiative Japan Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2497,
+  "metadata" : {
+    "handle" : "IIJ",
+    "description" : "Internet Initiative Japan Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.239.64.0/18",
       "58.138.0.0/17",
       "58.138.128.0/18",
@@ -144,7 +147,7 @@
       "220.208.192.0/19",
       "220.210.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:240::/32",
       "2001:300::/32",
       "2001:48b0::/32",

@@ -1,12 +1,15 @@
 {
-  "asn": 139073,
-  "handle": "FSIX-AS-AP",
-  "description": "Fantasy Sky Internet eXchange",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139073,
+  "metadata" : {
+    "handle" : "FSIX-AS-AP",
+    "description" : "Fantasy Sky Internet eXchange",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.31.96.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:e380:100::/40"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 135629,
-  "handle": "WESTCLOUDDATA",
-  "description": "Ningxia West Cloud Data Technology Co.Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135629,
+  "metadata" : {
+    "handle" : "WESTCLOUDDATA",
+    "description" : "Ningxia West Cloud Data Technology Co.Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.192.0.0/16",
       "43.193.0.0/18",
       "43.193.64.0/24",
@@ -35,7 +38,7 @@
       "69.235.128.0/18",
       "161.189.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:c2c0::/40",
       "2404:c2c0:240::/44",
       "2404:c2c0:280::/44",

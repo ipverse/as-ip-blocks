@@ -1,14 +1,17 @@
 {
-  "asn": 11430,
-  "handle": "BESTNAP",
-  "description": "Austin Bestline",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11430,
+  "metadata" : {
+    "handle" : "BESTNAP",
+    "description" : "Austin Bestline",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.71.96.0/20",
       "208.247.20.0/22",
       "216.16.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:4800::/32"
     ]
   }

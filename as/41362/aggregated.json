@@ -1,9 +1,12 @@
 {
-  "asn": 41362,
-  "handle": "BGNET",
-  "description": "Royal London Management Services Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41362,
+  "metadata" : {
+    "handle" : "BGNET",
+    "description" : "Royal London Management Services Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.250.32.0/23",
       "89.250.34.0/24",
       "89.250.36.0/24",
@@ -14,6 +17,6 @@
       "89.250.46.0/24",
       "194.35.20.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

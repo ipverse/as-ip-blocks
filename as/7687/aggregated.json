@@ -1,9 +1,12 @@
 {
-  "asn": 7687,
-  "handle": "D-CRUISENET",
-  "description": "TOYOTA SYSTEMS CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7687,
+  "metadata" : {
+    "handle" : "D-CRUISENET",
+    "description" : "TOYOTA SYSTEMS CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "115.126.144.0/20",
       "119.15.32.0/19",
       "133.240.0.0/16",
@@ -25,6 +28,6 @@
       "210.211.48.0/21",
       "219.99.144.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

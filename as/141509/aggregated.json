@@ -1,12 +1,15 @@
 {
-  "asn": 141509,
-  "handle": "UTEL-AS-IN",
-  "description": "Uteleservices",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141509,
+  "metadata" : {
+    "handle" : "UTEL-AS-IN",
+    "description" : "Uteleservices",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.160.216.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:aec0::/48"
     ]
   }

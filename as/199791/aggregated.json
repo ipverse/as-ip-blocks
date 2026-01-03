@@ -1,14 +1,17 @@
 {
-  "asn": 199791,
-  "handle": "EMBRIQ-NO",
-  "description": "Embriq AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199791,
+  "metadata" : {
+    "handle" : "EMBRIQ-NO",
+    "description" : "Embriq AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.175.16.0/22",
       "147.111.0.0/16",
       "185.45.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:79e0::/32"
     ]
   }

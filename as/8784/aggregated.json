@@ -1,9 +1,12 @@
 {
-  "asn": 8784,
-  "handle": "AS8784",
-  "description": "Odigo SASU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8784,
+  "metadata" : {
+    "handle" : "AS8784",
+    "description" : "Odigo SASU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.169.66.0/23",
       "83.169.69.0/24",
       "83.169.70.0/23",
@@ -23,6 +26,6 @@
       "212.37.192.0/19",
       "213.139.96.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

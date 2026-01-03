@@ -1,12 +1,15 @@
 {
-  "asn": 271628,
-  "handle": "GIGANET-FIBRA",
-  "description": "GIGANET FIBRA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271628,
+  "metadata" : {
+    "handle" : "GIGANET-FIBRA",
+    "description" : "GIGANET FIBRA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.3.242.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7e80::/32"
     ]
   }

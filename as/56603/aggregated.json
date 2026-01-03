@@ -1,12 +1,15 @@
 {
-  "asn": 56603,
-  "handle": "NET-AS",
-  "description": "Aleksey Ershov",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56603,
+  "metadata" : {
+    "handle" : "NET-AS",
+    "description" : "Aleksey Ershov",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.128.133.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:6280:1::/48",
       "2a09:6280:4::/48"
     ]

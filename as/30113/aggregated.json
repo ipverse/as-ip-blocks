@@ -1,15 +1,18 @@
 {
-  "asn": 30113,
-  "handle": "DEMATIC-US",
-  "description": "Dematic Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30113,
+  "metadata" : {
+    "handle" : "DEMATIC-US",
+    "description" : "Dematic Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "205.159.94.0/24",
       "209.130.240.0/22",
       "209.130.244.0/24",
       "209.130.250.0/23",
       "209.130.252.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

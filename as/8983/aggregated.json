@@ -1,9 +1,12 @@
 {
-  "asn": 8983,
-  "handle": "NOKIA-AS",
-  "description": "Nokia Solutions and Networks Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8983,
+  "metadata" : {
+    "handle" : "NOKIA-AS",
+    "description" : "Nokia Solutions and Networks Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.254.192.0/21",
       "87.254.209.0/24",
       "87.254.210.0/23",
@@ -20,7 +23,7 @@
       "131.228.14.0/24",
       "135.245.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8a00:4000::/35",
       "2a00:8a02:90::/44",
       "2a03:5342::/44"

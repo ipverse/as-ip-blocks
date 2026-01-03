@@ -1,11 +1,14 @@
 {
-  "asn": 32375,
-  "handle": "HP-ASN",
-  "description": "The Herald-Palladium",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32375,
+  "metadata" : {
+    "handle" : "HP-ASN",
+    "description" : "The Herald-Palladium",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.206.213.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

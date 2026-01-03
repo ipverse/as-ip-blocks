@@ -1,12 +1,15 @@
 {
-  "asn": 197912,
-  "handle": "AKTEK-BGP",
-  "description": "Aktek Bilgi Iletisim Teknolojisi Sanayi Ve Ticaret AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197912,
+  "metadata" : {
+    "handle" : "AKTEK-BGP",
+    "description" : "Aktek Bilgi Iletisim Teknolojisi Sanayi Ve Ticaret AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.127.168.0/23",
       "128.127.170.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 32160,
-  "handle": "CTIFIBER",
-  "description": "CTI Fiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32160,
+  "metadata" : {
+    "handle" : "CTIFIBER",
+    "description" : "CTI Fiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.11.232.0/21",
       "72.9.112.0/20",
       "160.32.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f4c0::/32"
     ]
   }

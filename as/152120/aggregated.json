@@ -1,9 +1,12 @@
 {
-  "asn": 152120,
-  "handle": "UNICOM-TJGC-IDC",
-  "description": "China Unicom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152120,
+  "metadata" : {
+    "handle" : "UNICOM-TJGC-IDC",
+    "description" : "China Unicom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "60.24.140.0/22",
       "60.24.144.0/20",
       "60.24.160.0/21",
@@ -12,7 +15,7 @@
       "116.130.24.0/23",
       "117.8.188.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2408:8000:2014::/47",
       "2408:8710:6010::/48",
       "2408:8710:6020::/43"

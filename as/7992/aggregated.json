@@ -1,9 +1,12 @@
 {
-  "asn": 7992,
-  "handle": "COGECOWAVE",
-  "description": "Cogeco Connexion Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7992,
+  "metadata" : {
+    "handle" : "COGECOWAVE",
+    "description" : "Cogeco Connexion Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.91.80.0/20",
       "24.36.0.0/16",
       "24.50.32.0/19",
@@ -41,7 +44,7 @@
       "216.121.128.0/17",
       "216.221.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1970::/32",
       "2602:200::/32"
     ]

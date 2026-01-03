@@ -1,13 +1,16 @@
 {
-  "asn": 210036,
-  "handle": "RAYHAANNET",
-  "description": "Rayhaan Ahmad Jaufeerally",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210036,
+  "metadata" : {
+    "handle" : "RAYHAANNET",
+    "description" : "Rayhaan Ahmad Jaufeerally",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.36.104.0/23",
       "193.36.106.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:d740::/48",
       "2a0d:d740:105::/48",
       "2a0d:d740:c001::/48",

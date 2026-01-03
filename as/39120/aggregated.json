@@ -1,9 +1,12 @@
 {
-  "asn": 39120,
-  "handle": "CONVERGENZE-AS",
-  "description": "Convergenze S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39120,
+  "metadata" : {
+    "handle" : "CONVERGENZE-AS",
+    "description" : "Convergenze S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.56.8.0/21",
       "5.83.120.0/21",
       "31.7.144.0/20",
@@ -32,7 +35,7 @@
       "213.178.215.0/24",
       "217.28.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:9a80::/30"
     ]
   }

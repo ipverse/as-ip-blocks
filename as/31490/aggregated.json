@@ -1,9 +1,12 @@
 {
-  "asn": 31490,
-  "handle": "NETIX-MGMT-AS",
-  "description": "NetIX Communications JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31490,
+  "metadata" : {
+    "handle" : "NETIX-MGMT-AS",
+    "description" : "NetIX Communications JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.217.188.0/24",
       "87.121.121.0/24",
       "93.123.23.0/24",
@@ -11,7 +14,7 @@
       "94.156.233.0/24",
       "185.219.124.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1728:20::/48",
       "2a14:44c0::/48"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 58397,
-  "handle": "INFINYS-AS-ID",
-  "description": "PT Infinys System Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58397,
+  "metadata" : {
+    "handle" : "INFINYS-AS-ID",
+    "description" : "PT Infinys System Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.224.16.0/24",
       "43.224.18.0/23",
       "43.245.180.0/22",
@@ -15,7 +18,7 @@
       "117.53.44.0/22",
       "117.53.144.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:f800::/48"
     ]
   }

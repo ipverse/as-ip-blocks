@@ -1,9 +1,12 @@
 {
-  "asn": 210150,
-  "handle": "VOSSFIBER",
-  "description": "Voss Fiber AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210150,
+  "metadata" : {
+    "handle" : "VOSSFIBER",
+    "description" : "Voss Fiber AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.18.48.0/21",
       "45.144.76.0/22",
       "79.171.64.0/21",
@@ -11,7 +14,7 @@
       "152.89.184.0/22",
       "217.145.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:9c40::/29"
     ]
   }

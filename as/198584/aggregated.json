@@ -1,9 +1,12 @@
 {
-  "asn": 198584,
-  "handle": "PIO-HOSTING",
-  "description": "PIO-Hosting GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198584,
+  "metadata" : {
+    "handle" : "PIO-HOSTING",
+    "description" : "PIO-Hosting GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.135.192.0/24",
       "45.135.195.0/24",
       "45.153.33.0/24",
@@ -31,7 +34,7 @@
       "195.62.32.0/24",
       "195.254.165.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:9080:5::/48",
       "2a10:ca80::/48"
     ]

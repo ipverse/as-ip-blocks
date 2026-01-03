@@ -1,9 +1,12 @@
 {
-  "asn": 6799,
-  "handle": "OTENET-GR",
-  "description": "Ote SA (Hellenic Telecommunications Organisation)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6799,
+  "metadata" : {
+    "handle" : "OTENET-GR",
+    "description" : "Ote SA (Hellenic Telecommunications Organisation)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.84.0.0/14",
       "31.217.160.0/19",
       "45.139.212.0/22",
@@ -26,7 +29,7 @@
       "212.205.0.0/16",
       "217.195.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:580::/29"
     ]
   }

@@ -1,16 +1,19 @@
 {
-  "asn": 132692,
-  "handle": "GLOBICOMLIMITED-AS-AP",
-  "description": "GlobiCom Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132692,
+  "metadata" : {
+    "handle" : "GLOBICOMLIMITED-AS-AP",
+    "description" : "GlobiCom Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.79.175.0/24",
       "45.64.60.0/23",
       "45.64.62.0/24",
       "103.18.56.0/24",
       "103.18.58.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:7100::/32"
     ]
   }

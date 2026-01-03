@@ -1,9 +1,12 @@
 {
-  "asn": 43989,
-  "handle": "EHIWEB",
-  "description": "Ehinet Srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43989,
+  "metadata" : {
+    "handle" : "EHIWEB",
+    "description" : "Ehinet Srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.98.40.0/21",
       "93.188.96.0/21",
       "109.234.56.0/21",
@@ -12,7 +15,7 @@
       "195.216.202.0/23",
       "213.217.7.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:b600::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 50667,
-  "handle": "MSP-ROMANIA-AS",
-  "description": "NETPROTECT SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50667,
+  "metadata" : {
+    "handle" : "MSP-ROMANIA-AS",
+    "description" : "NETPROTECT SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.99.88.0/23",
       "185.99.90.0/24",
       "188.214.156.0/24",
       "188.240.12.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 200402,
-  "handle": "SIRO-DE-AS",
-  "description": "Sirona Dental Systems GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200402,
+  "metadata" : {
+    "handle" : "SIRO-DE-AS",
+    "description" : "Sirona Dental Systems GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.84.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:6ee0::/32"
     ]
   }

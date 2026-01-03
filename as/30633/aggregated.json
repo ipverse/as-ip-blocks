@@ -1,9 +1,12 @@
 {
-  "asn": 30633,
-  "handle": "LEASEWEB-USA-WDC",
-  "description": "Leaseweb USA Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30633,
+  "metadata" : {
+    "handle" : "LEASEWEB-USA-WDC",
+    "description" : "Leaseweb USA Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.181.40.0/23",
       "23.82.8.0/21",
       "23.82.128.0/22",
@@ -83,7 +86,7 @@
       "216.22.0.0/18",
       "216.38.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:9a00::/32",
       "2607:f5b7::/32",
       "2a00:9d20:101::/48",

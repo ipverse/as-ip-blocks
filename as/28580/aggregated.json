@@ -1,9 +1,12 @@
 {
-  "asn": 28580,
-  "handle": "CILNET-COMUNICACAO-INFORMATICA",
-  "description": "Cilnet Comunicação e Informática S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28580,
+  "metadata" : {
+    "handle" : "CILNET-COMUNICACAO-INFORMATICA",
+    "description" : "Cilnet Comunicação e Informática S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.7.204.0/22",
       "45.166.124.0/22",
       "45.170.140.0/22",
@@ -32,7 +35,7 @@
       "201.46.32.0/19",
       "201.150.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:90::/32",
       "2804:5f4:c001::/48",
       "2804:5f4:c002::/47",

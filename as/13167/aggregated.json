@@ -1,13 +1,16 @@
 {
-  "asn": 13167,
-  "handle": "MERCK-KGAA",
-  "description": "Merck KGaA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13167,
+  "metadata" : {
+    "handle" : "MERCK-KGAA",
+    "description" : "Merck KGaA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.238.136.0/21",
       "155.250.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4cf8::/32"
     ]
   }

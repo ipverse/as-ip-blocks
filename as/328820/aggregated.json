@@ -1,12 +1,15 @@
 {
-  "asn": 328820,
-  "handle": "TF-TELECOM-AS",
-  "description": "TF TELECOMS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328820,
+  "metadata" : {
+    "handle" : "TF-TELECOM-AS",
+    "description" : "TF TELECOMS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.220.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:1200::/32"
     ]
   }

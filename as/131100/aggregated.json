@@ -1,13 +1,16 @@
 {
-  "asn": 131100,
-  "handle": "FDNSKR-AS",
-  "description": "Korea Internet Security Agency",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131100,
+  "metadata" : {
+    "handle" : "FDNSKR-AS",
+    "description" : "Korea Internet Security Agency",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.18.119.0/24",
       "210.101.62.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:dcc:6::/48",
       "2001:dcc:600::/48"
     ]

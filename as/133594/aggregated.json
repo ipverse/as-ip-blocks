@@ -1,9 +1,12 @@
 {
-  "asn": 133594,
-  "handle": "WPIS-AS",
-  "description": "World Phone Infrastructure services private ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133594,
+  "metadata" : {
+    "handle" : "WPIS-AS",
+    "description" : "World Phone Infrastructure services private ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.102.3.0/24",
       "14.102.12.0/24",
       "14.102.43.0/24",
@@ -25,6 +28,6 @@
       "118.91.176.0/24",
       "202.89.70.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

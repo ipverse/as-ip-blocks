@@ -1,15 +1,18 @@
 {
-  "asn": 5656,
-  "handle": "ACCESSUS-DOM",
-  "description": "accessU.S./BASENet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5656,
+  "metadata" : {
+    "handle" : "ACCESSUS-DOM",
+    "description" : "accessU.S./BASENet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.206.128.0/18",
       "207.230.32.0/19",
       "209.74.128.0/18",
       "209.145.128.0/18",
       "216.178.0.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,16 +1,19 @@
 {
-  "asn": 21737,
-  "handle": "SPRINGNET2-NET",
-  "description": "SpringNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21737,
+  "metadata" : {
+    "handle" : "SPRINGNET2-NET",
+    "description" : "SpringNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.22.224.0/19",
       "66.119.0.0/19",
       "75.98.96.0/20",
       "76.77.128.0/20",
       "198.246.200.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:49b8::/32"
     ]
   }

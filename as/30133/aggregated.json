@@ -1,9 +1,12 @@
 {
-  "asn": 30133,
-  "handle": "ISC-F-AS",
-  "description": "Internet Systems Consortium Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30133,
+  "metadata" : {
+    "handle" : "ISC-F-AS",
+    "description" : "Internet Systems Consortium Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.11.221.0/24",
       "192.158.250.0/23",
       "192.228.80.0/22",
@@ -30,7 +33,7 @@
       "203.119.57.0/24",
       "203.119.79.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:500:61::/48",
       "2001:500:62::/47",
       "2001:500:64::/46",

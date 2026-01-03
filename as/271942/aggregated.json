@@ -1,16 +1,19 @@
 {
-  "asn": 271942,
-  "handle": "CV-HOTSPOT",
-  "description": "CV HOTSPOT S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271942,
+  "metadata" : {
+    "handle" : "CV-HOTSPOT",
+    "description" : "CV HOTSPOT S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.51.52.0/24",
       "38.252.128.0/21",
       "38.252.136.0/22",
       "38.252.140.0/23",
       "38.252.143.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:2610::/32"
     ]
   }

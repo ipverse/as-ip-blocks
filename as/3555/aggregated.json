@@ -1,9 +1,12 @@
 {
-  "asn": 3555,
-  "handle": "ATS-NET",
-  "description": "AT\u0026T Technical Services Company Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3555,
+  "metadata" : {
+    "handle" : "ATS-NET",
+    "description" : "AT&T Technical Services Company Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.31.9.0/24",
       "192.246.37.0/24",
       "198.17.99.0/24",
@@ -17,6 +20,6 @@
       "204.89.153.0/24",
       "204.89.154.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

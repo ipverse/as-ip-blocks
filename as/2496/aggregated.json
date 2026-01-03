@@ -1,12 +1,15 @@
 {
-  "asn": 2496,
-  "handle": "UKANS",
-  "description": "University of Kansas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2496,
+  "metadata" : {
+    "handle" : "UKANS",
+    "description" : "University of Kansas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.237.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:49d0:8400::/38"
     ]
   }

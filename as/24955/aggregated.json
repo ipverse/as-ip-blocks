@@ -1,9 +1,12 @@
 {
-  "asn": 24955,
-  "handle": "UBN-AS",
-  "description": "JSC Ufanet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24955,
+  "metadata" : {
+    "handle" : "UBN-AS",
+    "description" : "JSC Ufanet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.191.128.0/20",
       "46.191.144.0/21",
       "46.191.152.0/22",
@@ -36,7 +39,7 @@
       "178.214.224.0/19",
       "213.5.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1c8::/47",
       "2a02:1c8:10::/44",
       "2a02:1c8:90::/44",

@@ -1,9 +1,12 @@
 {
-  "asn": 56876,
-  "handle": "GPORTAL",
-  "description": "Ociris GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56876,
+  "metadata" : {
+    "handle" : "GPORTAL",
+    "description" : "Ociris GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.130.107.0/24",
       "45.137.244.0/24",
       "45.137.246.0/23",
@@ -25,6 +28,6 @@
       "194.113.65.0/24",
       "194.233.0.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

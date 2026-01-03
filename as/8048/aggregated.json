@@ -1,9 +1,12 @@
 {
-  "asn": 8048,
-  "handle": "CANTV-SERVICIOS-VENEZUELA",
-  "description": "CANTV Servicios Venezuela",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8048,
+  "metadata" : {
+    "handle" : "CANTV-SERVICIOS-VENEZUELA",
+    "description" : "CANTV Servicios Venezuela",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.196.0.0/16",
       "186.88.0.0/16",
       "186.89.0.0/17",
@@ -189,7 +192,7 @@
       "201.249.214.0/23",
       "201.249.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:1000:aba::/48",
       "2800:1058:37::/48"
     ]

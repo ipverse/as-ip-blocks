@@ -1,9 +1,12 @@
 {
-  "asn": 4628,
-  "handle": "PACIFICINTERNET-AS-AP",
-  "description": "PACIFIC INTERNET (S) PTE. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4628,
+  "metadata" : {
+    "handle" : "PACIFICINTERNET-AS-AP",
+    "description" : "PACIFIC INTERNET (S) PTE. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.117.188.0/22",
       "58.145.226.0/24",
       "58.145.231.0/24",
@@ -204,7 +207,7 @@
       "210.24.244.0/23",
       "210.24.246.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:1700::/32"
     ]
   }

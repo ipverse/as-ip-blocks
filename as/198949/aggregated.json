@@ -1,9 +1,12 @@
 {
-  "asn": 198949,
-  "handle": "RADWARE",
-  "description": "Radware Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198949,
+  "metadata" : {
+    "handle" : "RADWARE",
+    "description" : "Radware Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.137.107.0/24",
       "41.137.109.0/24",
       "62.189.114.0/24",
@@ -121,7 +124,7 @@
       "217.147.71.0/24",
       "218.253.207.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:13b3:2::/48",
       "2403:2c00:f02b::/48",
       "2602:281::/32",

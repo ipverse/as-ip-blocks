@@ -1,9 +1,12 @@
 {
-  "asn": 56311,
-  "handle": "MS-SG-AS-AP",
-  "description": "Morgan Stanley Management Service (Singapore) Pte. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56311,
+  "metadata" : {
+    "handle" : "MS-SG-AS-AP",
+    "description" : "Morgan Stanley Management Service (Singapore) Pte. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.168.70.0/23",
       "103.168.88.0/23",
       "205.228.11.0/24",
@@ -11,6 +14,6 @@
       "205.228.41.0/24",
       "205.228.50.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

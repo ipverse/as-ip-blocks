@@ -1,9 +1,12 @@
 {
-  "asn": 63402,
-  "handle": "UCDP-ORLCORP",
-  "description": "Universal Orlando",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63402,
+  "metadata" : {
+    "handle" : "UCDP-ORLCORP",
+    "description" : "Universal Orlando",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.3.54.0/23",
       "8.19.138.0/24",
       "8.19.252.0/23",
@@ -19,6 +22,6 @@
       "192.135.92.0/24",
       "208.116.209.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 16851,
-  "handle": "NEBRASKALINK",
-  "description": "NebraskaLink",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16851,
+  "metadata" : {
+    "handle" : "NEBRASKALINK",
+    "description" : "NebraskaLink",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.152.240.0/22",
       "104.218.80.0/22",
       "107.167.242.0/23",
@@ -12,7 +15,7 @@
       "199.58.136.0/24",
       "209.94.54.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:3700::/32"
     ]
   }

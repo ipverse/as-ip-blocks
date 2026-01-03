@@ -1,9 +1,12 @@
 {
-  "asn": 2685,
-  "handle": "ATGS-MMD-AS",
-  "description": "AT\u0026T Enterprises LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2685,
+  "metadata" : {
+    "handle" : "ATGS-MMD-AS",
+    "description" : "AT&T Enterprises LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "7.193.230.0/24",
       "15.92.161.0/24",
       "15.92.162.0/24",
@@ -35,7 +38,7 @@
       "198.161.227.0/24",
       "205.207.232.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f9a8::/32"
     ]
   }

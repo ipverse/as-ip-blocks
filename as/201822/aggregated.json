@@ -1,13 +1,16 @@
 {
-  "asn": 201822,
-  "handle": "BP-AS",
-  "description": "Buypass AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201822,
+  "metadata" : {
+    "handle" : "BP-AS",
+    "description" : "Buypass AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.173.42.0/24",
       "185.62.160.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:521::/32"
     ]
   }

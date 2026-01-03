@@ -1,16 +1,19 @@
 {
-  "asn": 270564,
-  "handle": "MASTER-WEB-DATACENTER",
-  "description": "MASTER DA WEB DATACENTER LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270564,
+  "metadata" : {
+    "handle" : "MASTER-WEB-DATACENTER",
+    "description" : "MASTER DA WEB DATACENTER LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.152.36.0/22",
       "45.40.96.0/24",
       "179.0.176.0/22",
       "181.41.200.0/24",
       "181.224.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6dec::/44"
     ]
   }

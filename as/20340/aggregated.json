@@ -1,9 +1,12 @@
 {
-  "asn": 20340,
-  "handle": "CALLTOWER",
-  "description": "CallTower Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20340,
+  "metadata" : {
+    "handle" : "CALLTOWER",
+    "description" : "CallTower Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.34.45.0/24",
       "65.39.213.0/24",
       "67.213.176.0/20",
@@ -17,6 +20,6 @@
       "208.70.112.0/21",
       "209.40.224.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

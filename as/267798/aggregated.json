@@ -1,14 +1,17 @@
 {
-  "asn": 267798,
-  "handle": "GENERACION-WI-FI",
-  "description": "GENERACION WI-FI SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267798,
+  "metadata" : {
+    "handle" : "GENERACION-WI-FI",
+    "description" : "GENERACION WI-FI SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.173.16.0/22",
       "45.173.192.0/22",
       "45.181.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:3fa0::/32",
       "2803:5460::/32",
       "2803:a160::/32"

@@ -1,9 +1,12 @@
 {
-  "asn": 39737,
-  "handle": "PRIME-TELECOM-AS",
-  "description": "Prime Telecom srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39737,
+  "metadata" : {
+    "handle" : "PRIME-TELECOM-AS",
+    "description" : "Prime Telecom srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.153.136.0/24",
       "77.93.160.0/23",
       "77.93.162.0/24",
@@ -44,7 +47,7 @@
       "194.102.221.0/24",
       "195.20.145.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1480::/47",
       "2a00:1480:5::/48",
       "2a00:1480:6::/48"

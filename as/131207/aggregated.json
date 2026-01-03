@@ -1,9 +1,12 @@
 {
-  "asn": 131207,
-  "handle": "SINET-KH",
-  "description": "S.I Group",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131207,
+  "metadata" : {
+    "handle" : "SINET-KH",
+    "description" : "S.I Group",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.245.202.0/23",
       "96.9.64.0/19",
       "103.14.248.0/22",
@@ -15,7 +18,7 @@
       "180.178.126.0/23",
       "203.217.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:b300:1::/48",
       "2404:b300:2::/48",
       "2404:b300:11::/48",

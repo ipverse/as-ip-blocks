@@ -1,9 +1,12 @@
 {
-  "asn": 60707,
-  "handle": "KAPTEYANAS",
-  "description": "Kapteyan Bilisim Teknolojileri Sanayi ve Ticaret A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60707,
+  "metadata" : {
+    "handle" : "KAPTEYANAS",
+    "description" : "Kapteyan Bilisim Teknolojileri Sanayi ve Ticaret A.S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.253.244.0/24",
       "80.253.247.0/24",
       "91.151.81.0/24",
@@ -13,7 +16,7 @@
       "213.142.143.0/24",
       "213.238.172.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:a280::/32"
     ]
   }

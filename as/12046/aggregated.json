@@ -1,13 +1,16 @@
 {
-  "asn": 12046,
-  "handle": "ASN-CSC-UOM",
-  "description": "Malta Internet Foundation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12046,
+  "metadata" : {
+    "handle" : "ASN-CSC-UOM",
+    "description" : "Malta Internet Foundation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "94.138.224.0/19",
       "193.188.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1a70::/32"
     ]
   }

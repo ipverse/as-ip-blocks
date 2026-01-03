@@ -1,9 +1,12 @@
 {
-  "asn": 26439,
-  "handle": "CITY-OF-ABQ",
-  "description": "City of Albuquerque",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26439,
+  "metadata" : {
+    "handle" : "CITY-OF-ABQ",
+    "description" : "City of Albuquerque",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.120.0.0/16",
       "198.175.173.0/24",
       "198.175.175.0/24",
@@ -13,6 +16,6 @@
       "198.206.237.0/24",
       "198.206.238.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

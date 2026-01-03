@@ -1,10 +1,13 @@
 {
-  "asn": 273361,
-  "handle": "STAR-FIBRA-PROVEDOR",
-  "description": "STAR FIBRA PROVEDOR DE INTERNET BANDA LARGA",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 273361,
+  "metadata" : {
+    "handle" : "STAR-FIBRA-PROVEDOR",
+    "description" : "STAR FIBRA PROVEDOR DE INTERNET BANDA LARGA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2804:8d80::/32"
     ]
   }

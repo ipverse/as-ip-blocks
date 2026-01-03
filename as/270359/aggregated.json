@@ -1,12 +1,15 @@
 {
-  "asn": 270359,
-  "handle": "IXNET-FIBRA",
-  "description": "iXnet Fibra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270359,
+  "metadata" : {
+    "handle" : "IXNET-FIBRA",
+    "description" : "iXnet Fibra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.89.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:6acc::/32"
     ]
   }

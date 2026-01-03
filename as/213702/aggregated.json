@@ -1,9 +1,12 @@
 {
-  "asn": 213702,
-  "handle": "QWINS-LTD",
-  "description": "QWINS LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213702,
+  "metadata" : {
+    "handle" : "QWINS-LTD",
+    "description" : "QWINS LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.40.209.0/24",
       "80.253.249.0/24",
       "84.21.189.0/24",
@@ -20,7 +23,7 @@
       "185.238.191.0/24",
       "195.66.27.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:bec4:150::/44",
       "2a12:bec4:1460::/44",
       "2a12:bec4:1a70::/44",

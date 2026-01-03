@@ -1,9 +1,12 @@
 {
-  "asn": 9776,
-  "handle": "KBSTAR",
-  "description": "KOOKMIN BANK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9776,
+  "metadata" : {
+    "handle" : "KBSTAR",
+    "description" : "KOOKMIN BANK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.10.244.0/24",
       "61.42.246.0/24",
       "116.124.143.0/24",
@@ -15,6 +18,6 @@
       "211.181.199.0/24",
       "218.152.189.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

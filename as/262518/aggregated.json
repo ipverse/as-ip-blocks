@@ -1,13 +1,16 @@
 {
-  "asn": 262518,
-  "handle": "LWSA",
-  "description": "LWSA S/A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262518,
+  "metadata" : {
+    "handle" : "LWSA",
+    "description" : "LWSA S/A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.122.172.0/22",
       "177.67.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:580::/32"
     ]
   }

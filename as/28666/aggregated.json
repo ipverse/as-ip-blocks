@@ -1,14 +1,17 @@
 {
-  "asn": 28666,
-  "handle": "HOSTLOCATION",
-  "description": "HOSTLOCATION LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28666,
+  "metadata" : {
+    "handle" : "HOSTLOCATION",
+    "description" : "HOSTLOCATION LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.72.60.0/22",
       "177.8.160.0/20",
       "189.1.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3414::/32"
     ]
   }

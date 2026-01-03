@@ -1,9 +1,12 @@
 {
-  "asn": 41564,
-  "handle": "AS41564",
-  "description": "Orion Network Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41564,
+  "metadata" : {
+    "handle" : "AS41564",
+    "description" : "Orion Network Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.57.169.0/24",
       "5.153.236.0/24",
       "5.153.239.0/24",
@@ -143,7 +146,7 @@
       "196.247.248.0/23",
       "196.247.250.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5740::/47",
       "2a02:5740:11::/48",
       "2a02:5740:18::/48",

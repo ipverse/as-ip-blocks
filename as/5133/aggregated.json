@@ -1,9 +1,12 @@
 {
-  "asn": 5133,
-  "handle": "DNIC-ASBLK-05120-05376",
-  "description": "United States Department of Defense (DoD)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5133,
+  "metadata" : {
+    "handle" : "DNIC-ASBLK-05120-05376",
+    "description" : "United States Department of Defense (DoD)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.249.8.0/23",
       "163.249.100.0/22",
       "163.249.104.0/21",
@@ -12,6 +15,6 @@
       "163.249.160.0/21",
       "163.249.168.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

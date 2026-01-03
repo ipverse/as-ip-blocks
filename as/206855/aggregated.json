@@ -1,12 +1,15 @@
 {
-  "asn": 206855,
-  "handle": "DEHOSTED-AS",
-  "description": "NetTask GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206855,
+  "metadata" : {
+    "handle" : "DEHOSTED-AS",
+    "description" : "NetTask GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.136.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:edc0::/29"
     ]
   }

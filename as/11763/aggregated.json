@@ -1,14 +1,17 @@
 {
-  "asn": 11763,
-  "handle": "IBX-CHICAGO",
-  "description": "MitoTec",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11763,
+  "metadata" : {
+    "handle" : "IBX-CHICAGO",
+    "description" : "MitoTec",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.255.176.0/21",
       "208.78.192.0/21",
       "208.86.216.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:7380::/32"
     ]
   }

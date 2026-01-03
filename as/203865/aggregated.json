@@ -1,16 +1,19 @@
 {
-  "asn": 203865,
-  "handle": "OVERTURN",
-  "description": "overturn technologies GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203865,
+  "metadata" : {
+    "handle" : "OVERTURN",
+    "description" : "overturn technologies GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.89.64.0/22",
       "80.89.68.0/23",
       "93.94.0.0/23",
       "93.94.2.0/24",
       "185.121.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1a8::/32",
       "2a03:1e02::/32",
       "2a0a:3a00::/32"

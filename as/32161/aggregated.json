@@ -1,12 +1,15 @@
 {
-  "asn": 32161,
-  "handle": "CCBILL-ASN2",
-  "description": "CCBill",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32161,
+  "metadata" : {
+    "handle" : "CCBILL-ASN2",
+    "description" : "CCBill",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.38.212.0/23",
       "74.119.30.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

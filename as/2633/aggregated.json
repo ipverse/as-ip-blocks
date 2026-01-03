@@ -1,12 +1,15 @@
 {
-  "asn": 2633,
-  "handle": "NAS1-AS",
-  "description": "National Academy of Sciences",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2633,
+  "metadata" : {
+    "handle" : "NAS1-AS",
+    "description" : "National Academy of Sciences",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.49.206.0/24",
       "214.9.168.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 139030,
-  "handle": "CNETCOMMUNICATION-AS-AP",
-  "description": "Cnet Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139030,
+  "metadata" : {
+    "handle" : "CNETCOMMUNICATION-AS-AP",
+    "description" : "Cnet Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.138.174.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

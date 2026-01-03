@@ -1,13 +1,16 @@
 {
-  "asn": 41955,
-  "handle": "SERNET",
-  "description": "SerNet Service Network GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41955,
+  "metadata" : {
+    "handle" : "SERNET",
+    "description" : "SerNet Service Network GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.199.216.0/22",
       "194.26.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:a3c0::/32"
     ]
   }

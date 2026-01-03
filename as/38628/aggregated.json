@@ -1,9 +1,12 @@
 {
-  "asn": 38628,
-  "handle": "WINK-NET",
-  "description": "HIMEJI CABLE TELEVISION CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38628,
+  "metadata" : {
+    "handle" : "WINK-NET",
+    "description" : "HIMEJI CABLE TELEVISION CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.75.0.0/17",
       "61.245.32.0/19",
       "103.16.236.0/22",
@@ -17,7 +20,7 @@
       "163.131.96.0/21",
       "219.100.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:e700::/32"
     ]
   }

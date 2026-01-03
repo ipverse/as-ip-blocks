@@ -1,15 +1,18 @@
 {
-  "asn": 26788,
-  "handle": "ROGERS-COMMUNICATIONS",
-  "description": "Rogers Communications Canada Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26788,
+  "metadata" : {
+    "handle" : "ROGERS-COMMUNICATIONS",
+    "description" : "Rogers Communications Canada Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.252.144.0/20",
       "72.14.160.0/20",
       "173.46.0.0/19",
       "216.183.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fcf8::/32"
     ]
   }

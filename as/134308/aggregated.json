@@ -1,13 +1,16 @@
 {
-  "asn": 134308,
-  "handle": "CLICKIAN-AS",
-  "description": "Clickian Network Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134308,
+  "metadata" : {
+    "handle" : "CLICKIAN-AS",
+    "description" : "Clickian Network Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.134.100.0/23",
       "103.134.102.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:50c0::/32"
     ]
   }

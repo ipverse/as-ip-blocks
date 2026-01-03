@@ -1,11 +1,14 @@
 {
-  "asn": 45387,
-  "handle": "KOCES-AS",
-  "description": "KOCES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45387,
+  "metadata" : {
+    "handle" : "KOCES-AS",
+    "description" : "KOCES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "211.53.211.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

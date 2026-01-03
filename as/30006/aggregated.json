@@ -1,14 +1,17 @@
 {
-  "asn": 30006,
-  "handle": "TOP-BUSINESS-INC",
-  "description": "TOP BUSINESS INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30006,
+  "metadata" : {
+    "handle" : "TOP-BUSINESS-INC",
+    "description" : "TOP BUSINESS INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.169.56.0/24",
       "23.171.216.0/24",
       "23.191.152.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f7df::/40",
       "2602:fb26:810::/48"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 6147,
-  "handle": "INTEGRATEL-PERU",
-  "description": "INTEGRATEL PERÚ S.A.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6147,
+  "metadata" : {
+    "handle" : "INTEGRATEL-PERU",
+    "description" : "INTEGRATEL PERÚ S.A.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.170.48.0/22",
       "45.178.196.0/24",
       "170.79.36.0/22",
@@ -27,7 +30,7 @@
       "201.230.0.0/16",
       "201.240.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1388::/32"
     ]
   }

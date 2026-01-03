@@ -1,9 +1,12 @@
 {
-  "asn": 48964,
-  "handle": "ENTERRA-AS",
-  "description": "Private Enterprise Enterra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48964,
+  "metadata" : {
+    "handle" : "ENTERRA-AS",
+    "description" : "Private Enterprise Enterra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.22.157.0/24",
       "31.133.114.0/24",
       "31.133.119.0/24",
@@ -15,6 +18,6 @@
       "193.19.241.0/24",
       "193.19.243.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

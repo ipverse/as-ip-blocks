@@ -1,9 +1,12 @@
 {
-  "asn": 29644,
-  "handle": "AIRSPEED-AS",
-  "description": "AIRSPEED COMMUNICATIONS LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29644,
+  "metadata" : {
+    "handle" : "AIRSPEED-AS",
+    "description" : "AIRSPEED COMMUNICATIONS LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.193.216.0/21",
       "77.75.96.0/21",
       "148.252.8.0/21",
@@ -12,7 +15,7 @@
       "185.69.212.0/22",
       "185.113.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5f00::/32"
     ]
   }

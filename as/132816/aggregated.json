@@ -1,13 +1,16 @@
 {
-  "asn": 132816,
-  "handle": "SIMPLERCLOUD-AS-AP",
-  "description": "SimplerCloud Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132816,
+  "metadata" : {
+    "handle" : "SIMPLERCLOUD-AS-AP",
+    "description" : "SimplerCloud Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.25.200.0/22",
       "150.107.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:c980::/40"
     ]
   }

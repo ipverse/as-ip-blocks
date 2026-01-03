@@ -1,9 +1,12 @@
 {
-  "asn": 9435,
-  "handle": "SCSPL-AS-AP",
-  "description": "Suncorp Corporate Services Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9435,
+  "metadata" : {
+    "handle" : "SCSPL-AS-AP",
+    "description" : "Suncorp Corporate Services Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.5.6.0/23",
       "203.0.193.0/24",
       "203.0.194.0/24",
@@ -18,6 +21,6 @@
       "203.0.220.0/22",
       "203.21.154.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

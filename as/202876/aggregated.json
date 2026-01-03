@@ -1,12 +1,15 @@
 {
-  "asn": 202876,
-  "handle": "AS-BBNW",
-  "description": "BBNW s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202876,
+  "metadata" : {
+    "handle" : "AS-BBNW",
+    "description" : "BBNW s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.152.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:7d40::/29"
     ]
   }

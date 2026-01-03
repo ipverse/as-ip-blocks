@@ -1,13 +1,16 @@
 {
-  "asn": 63972,
-  "handle": "SOCIAL-TH",
-  "description": "Social Security Office",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63972,
+  "metadata" : {
+    "handle" : "SOCIAL-TH",
+    "description" : "Social Security Office",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.55.59.0/24",
       "103.172.50.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:ac00::/47"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 5089,
-  "handle": "NTL",
-  "description": "Virgin Media Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5089,
+  "metadata" : {
+    "handle" : "NTL",
+    "description" : "Virgin Media Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.43.168.0/22",
       "45.67.196.0/22",
       "45.90.41.0/24",
@@ -122,7 +125,7 @@
       "217.77.24.0/21",
       "217.137.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:8801::/32",
       "2a02:8880::/25"
     ]

@@ -1,15 +1,18 @@
 {
-  "asn": 22006,
-  "handle": "PRONSS-PULKCO-AS",
-  "description": "PRONSS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22006,
+  "metadata" : {
+    "handle" : "PRONSS-PULKCO-AS",
+    "description" : "PRONSS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.191.96.0/20",
       "97.64.64.0/21",
       "174.46.12.0/22",
       "199.21.224.0/21",
       "208.91.8.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

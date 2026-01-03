@@ -1,14 +1,17 @@
 {
-  "asn": 198259,
-  "handle": "ECOM-SERVICE-AS",
-  "description": "ECOM SERVICE AD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198259,
+  "metadata" : {
+    "handle" : "ECOM-SERVICE-AS",
+    "description" : "ECOM SERVICE AD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "145.255.192.0/20",
       "145.255.208.0/21",
       "145.255.216.0/22",
       "145.255.220.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

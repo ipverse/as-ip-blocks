@@ -1,9 +1,12 @@
 {
-  "asn": 34038,
-  "handle": "COMTEL-TMN-AS",
-  "description": "PJSC Vimpelcom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34038,
+  "metadata" : {
+    "handle" : "COMTEL-TMN-AS",
+    "description" : "PJSC Vimpelcom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.94.106.0/24",
       "78.106.48.0/20",
       "87.254.128.0/19",
@@ -22,6 +25,6 @@
       "128.73.208.0/24",
       "217.195.208.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

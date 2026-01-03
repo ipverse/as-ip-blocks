@@ -1,13 +1,16 @@
 {
-  "asn": 48748,
-  "handle": "MY-HOME-AS",
-  "description": "Modern Telecommunications Network LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48748,
+  "metadata" : {
+    "handle" : "MY-HOME-AS",
+    "description" : "Modern Telecommunications Network LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.214.132.0/22",
       "193.107.132.0/22",
       "195.88.26.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

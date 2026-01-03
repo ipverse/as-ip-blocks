@@ -1,9 +1,12 @@
 {
-  "asn": 17583,
-  "handle": "KCNNET-AS",
-  "description": "Keumgang Cable Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17583,
+  "metadata" : {
+    "handle" : "KCNNET-AS",
+    "description" : "Keumgang Cable Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.186.42.0/24",
       "61.35.70.0/24",
       "61.36.9.0/24",
@@ -30,6 +33,6 @@
       "211.175.116.0/24",
       "211.181.128.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

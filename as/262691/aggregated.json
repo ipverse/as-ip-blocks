@@ -1,9 +1,12 @@
 {
-  "asn": 262691,
-  "handle": "CONECTA",
-  "description": "CONECTA LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262691,
+  "metadata" : {
+    "handle" : "CONECTA",
+    "description" : "CONECTA LTDA.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.108.200.0/22",
       "177.72.20.0/22",
       "177.87.204.0/22",
@@ -13,7 +16,7 @@
       "186.224.48.0/20",
       "187.94.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1cd8::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 137616,
-  "handle": "FIBERNTI-AS-IN",
-  "description": "Fibernetisp Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137616,
+  "metadata" : {
+    "handle" : "FIBERNTI-AS-IN",
+    "description" : "Fibernetisp Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.114.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:7440::/48"
     ]
   }

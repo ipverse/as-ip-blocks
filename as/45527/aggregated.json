@@ -1,11 +1,14 @@
 {
-  "asn": 45527,
-  "handle": "MCEC-AS-AP",
-  "description": "Melbourne Convention and Exhibition Centre",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45527,
+  "metadata" : {
+    "handle" : "MCEC-AS-AP",
+    "description" : "Melbourne Convention and Exhibition Centre",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.56.3.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

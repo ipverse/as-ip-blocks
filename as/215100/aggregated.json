@@ -1,13 +1,16 @@
 {
-  "asn": 215100,
-  "handle": "IQDC-AS",
-  "description": "SoftLine Direct LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215100,
+  "metadata" : {
+    "handle" : "IQDC-AS",
+    "description" : "SoftLine Direct LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.16.35.0/24",
       "194.117.83.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:3cc0::/29"
     ]
   }

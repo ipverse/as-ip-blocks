@@ -1,9 +1,12 @@
 {
-  "asn": 262388,
-  "handle": "VIA-REDE-SUL",
-  "description": "Via Rede Sul Serviço de Informatica Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262388,
+  "metadata" : {
+    "handle" : "VIA-REDE-SUL",
+    "description" : "Via Rede Sul Serviço de Informatica Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.131.96.0/23",
       "177.131.99.0/24",
       "177.131.100.0/22",
@@ -11,6 +14,6 @@
       "177.131.108.0/24",
       "177.131.110.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

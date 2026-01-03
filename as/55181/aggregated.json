@@ -1,12 +1,15 @@
 {
-  "asn": 55181,
-  "handle": "KEUKA-COLLEGE",
-  "description": "Keuka College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55181,
+  "metadata" : {
+    "handle" : "KEUKA-COLLEGE",
+    "description" : "Keuka College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.94.79.0/24",
       "216.234.132.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

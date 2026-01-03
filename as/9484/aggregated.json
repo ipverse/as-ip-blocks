@@ -1,9 +1,12 @@
 {
-  "asn": 9484,
-  "handle": "MOBINET-AS-MN",
-  "description": "Mobinet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9484,
+  "metadata" : {
+    "handle" : "MOBINET-AS-MN",
+    "description" : "Mobinet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.117.32.0/22",
       "103.168.34.0/23",
       "138.252.28.0/23",
@@ -12,7 +15,7 @@
       "202.126.92.0/22",
       "202.131.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:6400::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 38572,
-  "handle": "MATERHOSPITAL-AS-AP",
-  "description": "Mater Misericordiae Health Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38572,
+  "metadata" : {
+    "handle" : "MATERHOSPITAL-AS-AP",
+    "description" : "Mater Misericordiae Health Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.150.171.0/24",
       "203.27.62.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

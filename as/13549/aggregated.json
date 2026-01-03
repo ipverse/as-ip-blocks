@@ -1,12 +1,15 @@
 {
-  "asn": 13549,
-  "handle": "MERCURY",
-  "description": "Mercury Network Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13549,
+  "metadata" : {
+    "handle" : "MERCURY",
+    "description" : "Mercury Network Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.7.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:8fc0::/32"
     ]
   }

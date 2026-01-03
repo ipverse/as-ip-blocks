@@ -1,12 +1,15 @@
 {
-  "asn": 25518,
-  "handle": "ZUCCHETTI-AS",
-  "description": "ZUCCHETTI SPA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25518,
+  "metadata" : {
+    "handle" : "ZUCCHETTI-AS",
+    "description" : "ZUCCHETTI SPA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.108.224.0/19",
       "92.119.224.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,16 +1,19 @@
 {
-  "asn": 42446,
-  "handle": "VISCOMP-AS",
-  "description": "Viscomp Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42446,
+  "metadata" : {
+    "handle" : "VISCOMP-AS",
+    "description" : "Viscomp Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.120.197.0/24",
       "91.92.232.0/22",
       "91.199.247.0/24",
       "93.123.104.0/22",
       "193.142.0.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1728:30::/48"
     ]
   }

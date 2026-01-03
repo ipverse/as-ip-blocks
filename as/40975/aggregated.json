@@ -1,9 +1,12 @@
 {
-  "asn": 40975,
-  "handle": "CHML-AS",
-  "description": "CHML Web Services SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40975,
+  "metadata" : {
+    "handle" : "CHML-AS",
+    "description" : "CHML Web Services SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.102.235.0/24",
       "86.104.254.0/23",
       "86.107.192.0/24",
@@ -13,6 +16,6 @@
       "195.138.214.0/24",
       "217.19.14.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

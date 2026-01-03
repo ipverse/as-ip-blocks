@@ -1,9 +1,12 @@
 {
-  "asn": 49824,
-  "handle": "ACTPA-AS",
-  "description": "PC Astra-net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49824,
+  "metadata" : {
+    "handle" : "ACTPA-AS",
+    "description" : "PC Astra-net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.12.24.0/23",
       "45.12.26.0/24",
       "45.87.90.0/23",
@@ -21,7 +24,7 @@
       "193.93.216.0/22",
       "212.23.203.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:604::/48",
       "2a10:2f40::/46",
       "2a10:2f40:4::/47",

@@ -1,9 +1,12 @@
 {
-  "asn": 33363,
-  "handle": "BHN-33363",
-  "description": "Charter Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33363,
+  "metadata" : {
+    "handle" : "BHN-33363",
+    "description" : "Charter Communications Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "16.98.0.0/17",
       "24.43.184.0/21",
       "24.73.0.0/17",
@@ -219,7 +222,7 @@
       "204.76.244.0/23",
       "209.16.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:107:4420::/44",
       "2602:107:4720::/44",
       "2602:107:4830::/44",

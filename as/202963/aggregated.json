@@ -1,12 +1,15 @@
 {
-  "asn": 202963,
-  "handle": "MASTER-AS",
-  "description": "Master-Integration Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202963,
+  "metadata" : {
+    "handle" : "MASTER-AS",
+    "description" : "Master-Integration Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.248.46.0/24",
       "185.17.66.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

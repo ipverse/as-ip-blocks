@@ -1,12 +1,15 @@
 {
-  "asn": 271607,
-  "handle": "WLINK-PROVEDOR-ACESSO",
-  "description": "WLINK PROVEDOR DE ACESSO A REDES DE TELECOM EIRELI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271607,
+  "metadata" : {
+    "handle" : "WLINK-PROVEDOR-ACESSO",
+    "description" : "WLINK PROVEDOR DE ACESSO A REDES DE TELECOM EIRELI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.9.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7e2c::/32"
     ]
   }

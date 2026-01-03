@@ -1,12 +1,15 @@
 {
-  "asn": 30671,
-  "handle": "DATABRIDGE",
-  "description": "Data Bridge Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30671,
+  "metadata" : {
+    "handle" : "DATABRIDGE",
+    "description" : "Data Bridge Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.160.24.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fa45::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 211458,
-  "handle": "IH-NET",
-  "description": "IH-NETWORK SHPK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211458,
+  "metadata" : {
+    "handle" : "IH-NET",
+    "description" : "IH-NETWORK SHPK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.23.110.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:df40::/29"
     ]
   }

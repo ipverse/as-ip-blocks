@@ -1,11 +1,14 @@
 {
-  "asn": 35005,
-  "handle": "VILTEL-AS",
-  "description": "VilTel Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35005,
+  "metadata" : {
+    "handle" : "VILTEL-AS",
+    "description" : "VilTel Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.161.140.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

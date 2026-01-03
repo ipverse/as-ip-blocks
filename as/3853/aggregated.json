@@ -1,14 +1,17 @@
 {
-  "asn": 3853,
-  "handle": "WHIDBEY",
-  "description": "Whidbey Telephone Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3853,
+  "metadata" : {
+    "handle" : "WHIDBEY",
+    "description" : "Whidbey Telephone Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.165.0.0/19",
       "66.235.64.0/20",
       "209.166.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fde8::/32"
     ]
   }

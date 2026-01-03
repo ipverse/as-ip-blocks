@@ -1,9 +1,12 @@
 {
-  "asn": 401776,
-  "handle": "AS-CUSTOMER",
-  "description": "IDC Cube",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401776,
+  "metadata" : {
+    "handle" : "AS-CUSTOMER",
+    "description" : "IDC Cube",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.6.59.0/24",
       "31.57.132.0/24",
       "31.58.41.0/24",
@@ -73,7 +76,7 @@
       "212.134.18.0/24",
       "216.180.250.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f864:a01::/48"
     ]
   }

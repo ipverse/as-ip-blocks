@@ -1,15 +1,18 @@
 {
-  "asn": 38442,
-  "handle": "VODAFONEFIJI-AS-FJ",
-  "description": "Vodafone Fiji Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38442,
+  "metadata" : {
+    "handle" : "VODAFONEFIJI-AS-FJ",
+    "description" : "Vodafone Fiji Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.123.128.0/18",
       "80.92.59.0/24",
       "103.244.228.0/22",
       "183.81.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:5100::/32"
     ]
   }

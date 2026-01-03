@@ -1,9 +1,12 @@
 {
-  "asn": 200628,
-  "handle": "BGO-CLOUD",
-  "description": "BGO Cloud OOD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200628,
+  "metadata" : {
+    "handle" : "BGO-CLOUD",
+    "description" : "BGO Cloud OOD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.72.130.0/24",
       "77.76.2.0/24",
       "78.142.25.0/24",
@@ -13,6 +16,6 @@
       "91.148.166.0/24",
       "91.191.215.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

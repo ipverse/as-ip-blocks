@@ -1,12 +1,15 @@
 {
-  "asn": 198807,
-  "handle": "PROJECT-A",
-  "description": "Project A Services GmbH \u0026 Co. KG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198807,
+  "metadata" : {
+    "handle" : "PROJECT-A",
+    "description" : "Project A Services GmbH & Co. KG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.145.176.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:88c0::/32"
     ]
   }

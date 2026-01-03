@@ -1,14 +1,17 @@
 {
-  "asn": 136908,
-  "handle": "SBPL-AS-AP",
-  "description": "Sky Broadband Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136908,
+  "metadata" : {
+    "handle" : "SBPL-AS-AP",
+    "description" : "Sky Broadband Pvt. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.121.32.0/22",
       "103.96.244.0/22",
       "117.121.230.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:7f40::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 395945,
-  "handle": "HBPW",
-  "description": "Holland Board of Public Works",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395945,
+  "metadata" : {
+    "handle" : "HBPW",
+    "description" : "Holland Board of Public Works",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "35.62.16.0/21",
       "35.62.24.0/22",
       "104.36.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:7840::/32"
     ]
   }

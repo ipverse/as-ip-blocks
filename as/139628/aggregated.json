@@ -1,9 +1,12 @@
 {
-  "asn": 139628,
-  "handle": "MEGATRUENET-AS-AP",
-  "description": "Mega Truenet Communication Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139628,
+  "metadata" : {
+    "handle" : "MEGATRUENET-AS-AP",
+    "description" : "Mega Truenet Communication Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.254.120.0/22",
       "43.255.114.0/23",
       "45.120.132.0/22",
@@ -24,6 +27,6 @@
       "202.58.16.0/22",
       "203.80.170.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

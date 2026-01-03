@@ -1,9 +1,12 @@
 {
-  "asn": 8708,
-  "handle": "DIGI-ROMANIA",
-  "description": "DIGI ROMANIA S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8708,
+  "metadata" : {
+    "handle" : "DIGI-ROMANIA",
+    "description" : "DIGI ROMANIA S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.17.116.0/22",
       "5.2.128.0/17",
       "5.12.0.0/14",
@@ -105,7 +108,7 @@
       "217.156.41.0/24",
       "217.156.97.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2f00::/28",
       "2a03:9c20::/32",
       "2a05:91c3:2::/48"

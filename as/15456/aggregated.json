@@ -1,14 +1,17 @@
 {
-  "asn": 15456,
-  "handle": "INTERNETX-AS",
-  "description": "InterNetX GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15456,
+  "metadata" : {
+    "handle" : "INTERNETX-AS",
+    "description" : "InterNetX GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.116.128.0/18",
       "85.236.32.0/19",
       "185.91.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4178::/29"
     ]
   }

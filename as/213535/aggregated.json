@@ -1,9 +1,12 @@
 {
-  "asn": 213535,
-  "handle": "YOTTASRC",
-  "description": "YottaSrc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213535,
+  "metadata" : {
+    "handle" : "YOTTASRC",
+    "description" : "YottaSrc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.13.226.0/24",
       "45.67.136.0/24",
       "45.67.139.0/24",
@@ -20,7 +23,7 @@
       "198.105.115.0/24",
       "198.105.123.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:bec4:1560::/44",
       "2a12:bec4:16f0::/44",
       "2a12:bec4:1b10::/44",

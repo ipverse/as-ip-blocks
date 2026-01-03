@@ -1,12 +1,15 @@
 {
-  "asn": 48231,
-  "handle": "CRENET-AS",
-  "description": "CRE Network LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48231,
+  "metadata" : {
+    "handle" : "CRENET-AS",
+    "description" : "CRE Network LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.150.56.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fa93::/48",
       "2602:fa93:10::/44",
       "2602:fa93:20::/43",

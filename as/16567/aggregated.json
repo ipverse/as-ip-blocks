@@ -1,9 +1,12 @@
 {
-  "asn": 16567,
-  "handle": "NETRIX-16567",
-  "description": "Netrix LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16567,
+  "metadata" : {
+    "handle" : "NETRIX-16567",
+    "description" : "Netrix LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.25.162.0/23",
       "64.68.16.0/20",
       "64.135.144.0/20",
@@ -24,7 +27,7 @@
       "208.83.8.0/22",
       "208.144.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:c100::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 137718,
-  "handle": "VOLCANO-ENGINE",
-  "description": "Beijing Volcano Engine Technology Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137718,
+  "metadata" : {
+    "handle" : "VOLCANO-ENGINE",
+    "description" : "Beijing Volcano Engine Technology Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.103.0.0/24",
       "14.103.2.0/23",
       "14.103.56.0/23",
@@ -42,7 +45,7 @@
       "180.184.190.0/23",
       "180.184.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:d440:100::/43",
       "2406:d440:200::/44",
       "2406:d440:300::/43"

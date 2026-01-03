@@ -1,9 +1,12 @@
 {
-  "asn": 62917,
-  "handle": "GIGABITFIBER-ICFN",
-  "description": "Gigabit Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62917,
+  "metadata" : {
+    "handle" : "GIGABITFIBER-ICFN",
+    "description" : "Gigabit Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.249.32.0/22",
       "172.83.32.0/22",
       "172.83.36.0/23",
@@ -11,7 +14,7 @@
       "199.87.248.0/22",
       "199.244.53.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:82c0::/32"
     ]
   }

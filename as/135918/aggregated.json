@@ -1,9 +1,12 @@
 {
-  "asn": 135918,
-  "handle": "DVS-AS-VN",
-  "description": "VIET DIGITAL TECHNOLOGY LIABILITY COMPANY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135918,
+  "metadata" : {
+    "handle" : "DVS-AS-VN",
+    "description" : "VIET DIGITAL TECHNOLOGY LIABILITY COMPANY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "42.96.0.0/22",
       "45.117.164.0/23",
       "45.117.166.0/24",
@@ -75,7 +78,7 @@
       "165.101.252.0/23",
       "202.158.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:e6c0::/48",
       "2401:5ec0::/48"
     ]

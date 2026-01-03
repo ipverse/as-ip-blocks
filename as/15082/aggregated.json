@@ -1,12 +1,15 @@
 {
-  "asn": 15082,
-  "handle": "OMEG-LCN",
-  "description": "OMEGAI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15082,
+  "metadata" : {
+    "handle" : "OMEG-LCN",
+    "description" : "OMEGAI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.129.244.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f78b:a00::/44",
       "2602:f78b:a32::/47"
     ]

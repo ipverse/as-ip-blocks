@@ -1,12 +1,15 @@
 {
-  "asn": 12209,
-  "handle": "GIROSOL",
-  "description": "Girosol Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12209,
+  "metadata" : {
+    "handle" : "GIROSOL",
+    "description" : "Girosol Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.27.105.0/24",
       "208.176.215.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,16 +1,19 @@
 {
-  "asn": 62707,
-  "handle": "GLEXIA-AS",
-  "description": "Glexia Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62707,
+  "metadata" : {
+    "handle" : "GLEXIA-AS",
+    "description" : "Glexia Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.166.225.0/24",
       "103.140.164.0/23",
       "142.202.192.0/22",
       "173.243.224.0/22",
       "208.80.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:ffc0::/32",
       "2602:fe12:1::/48",
       "2602:fe12:3::/48",

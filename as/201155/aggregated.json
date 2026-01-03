@@ -1,13 +1,16 @@
 {
-  "asn": 201155,
-  "handle": "EMBEDD-AS",
-  "description": "embeDD GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201155,
+  "metadata" : {
+    "handle" : "EMBEDD-AS",
+    "description" : "embeDD GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.143.212.0/22",
       "185.84.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2964::/48",
       "2a05:a1c0::/32",
       "2a05:a1c5::/47",

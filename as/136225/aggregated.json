@@ -1,12 +1,15 @@
 {
-  "asn": 136225,
-  "handle": "SMARTTELECOM-AS-AP",
-  "description": "Smart Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136225,
+  "metadata" : {
+    "handle" : "SMARTTELECOM-AS-AP",
+    "description" : "Smart Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.84.53.0/24",
       "103.84.54.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 29134,
-  "handle": "IGNUM-AS",
-  "description": "Webglobe s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29134,
+  "metadata" : {
+    "handle" : "IGNUM-AS",
+    "description" : "Webglobe s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.46.80.0/21",
       "62.109.128.0/19",
       "130.185.176.0/22",
@@ -16,7 +19,7 @@
       "213.109.164.0/22",
       "217.31.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1ab0::/32",
       "2a00:1e40::/32",
       "2a03:b280::/36",

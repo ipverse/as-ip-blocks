@@ -1,12 +1,15 @@
 {
-  "asn": 271034,
-  "handle": "GM-TELECOM",
-  "description": "GM Telecom LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271034,
+  "metadata" : {
+    "handle" : "GM-TELECOM",
+    "description" : "GM Telecom LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.5.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7540::/35",
       "2804:7540:2000::/48",
       "2804:7540:6000::/35",

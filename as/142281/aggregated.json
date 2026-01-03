@@ -1,10 +1,13 @@
 {
-  "asn": 142281,
-  "handle": "YUUTA-BACKBONE",
-  "description": "Yuuta Backbone",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 142281,
+  "metadata" : {
+    "handle" : "YUUTA-BACKBONE",
+    "description" : "Yuuta Backbone",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2404:f4c0:f9c3::/48",
       "2404:f4c0:f9cf::/48",
       "2a0d:2580:8001::/48",

@@ -1,11 +1,14 @@
 {
-  "asn": 8234,
-  "handle": "RAI-AS",
-  "description": "RAI RadioTelevisione Italiana SPA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8234,
+  "metadata" : {
+    "handle" : "RAI-AS",
+    "description" : "RAI RadioTelevisione Italiana SPA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.162.64.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

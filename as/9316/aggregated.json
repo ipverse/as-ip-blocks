@@ -1,9 +1,12 @@
 {
-  "asn": 9316,
-  "handle": "DACOM-PUBNETPLUS-AS",
-  "description": "DACOM-PUBNETPLUS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9316,
+  "metadata" : {
+    "handle" : "DACOM-PUBNETPLUS-AS",
+    "description" : "DACOM-PUBNETPLUS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.29.0.0/16",
       "61.108.0.0/16",
       "112.76.0.0/15",
@@ -22,6 +25,6 @@
       "211.241.0.0/17",
       "220.65.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

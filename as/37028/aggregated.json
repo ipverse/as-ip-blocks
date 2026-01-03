@@ -1,9 +1,12 @@
 {
-  "asn": 37028,
-  "handle": "FNBCONNECT",
-  "description": "First Rand Bank Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37028,
+  "metadata" : {
+    "handle" : "FNBCONNECT",
+    "description" : "First Rand Bank Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.183.0.0/16",
       "196.4.163.0/24",
       "196.4.164.0/23",
@@ -15,6 +18,6 @@
       "196.11.132.0/23",
       "196.11.134.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

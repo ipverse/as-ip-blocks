@@ -1,11 +1,14 @@
 {
-  "asn": 131074,
-  "handle": "APNIC-JP-RD",
-  "description": "APNIC Research and Development",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131074,
+  "metadata" : {
+    "handle" : "APNIC-JP-RD",
+    "description" : "APNIC Research and Development",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.0.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

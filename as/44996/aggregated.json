@@ -1,12 +1,15 @@
 {
-  "asn": 44996,
-  "handle": "YARNET-AS",
-  "description": "Yarnet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44996,
+  "metadata" : {
+    "handle" : "YARNET-AS",
+    "description" : "Yarnet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.10.90.0/24",
       "185.175.94.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

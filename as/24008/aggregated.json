@@ -1,9 +1,12 @@
 {
-  "asn": 24008,
-  "handle": "HANSEN-AU",
-  "description": "Hansen Corporation Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24008,
+  "metadata" : {
+    "handle" : "HANSEN-AU",
+    "description" : "Hansen Corporation Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.206.145.0/24",
       "160.206.168.0/21",
       "192.120.11.0/24",
@@ -11,6 +14,6 @@
       "192.120.14.0/24",
       "203.0.149.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

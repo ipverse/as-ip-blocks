@@ -1,14 +1,17 @@
 {
-  "asn": 11131,
-  "handle": "UMBC-AS",
-  "description": "University of Maryland Baltimore County (UMBC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11131,
+  "metadata" : {
+    "handle" : "UMBC-AS",
+    "description" : "University of Maryland Baltimore County (UMBC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.85.0.0/16",
       "136.160.0.0/18",
       "199.201.245.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:5300::/44"
     ]
   }

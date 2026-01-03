@@ -1,13 +1,16 @@
 {
-  "asn": 42032,
-  "handle": "ASCOMMUNITY",
-  "description": "Sandro Bolliger trading as Bolliger Network Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42032,
+  "metadata" : {
+    "handle" : "ASCOMMUNITY",
+    "description" : "Sandro Bolliger trading as Bolliger Network Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.14.60.0/22",
       "185.119.105.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:8a02::/32"
     ]
   }

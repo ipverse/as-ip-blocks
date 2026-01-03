@@ -1,9 +1,12 @@
 {
-  "asn": 24560,
-  "handle": "AIRTELBROADBAND-AS-AP",
-  "description": "Bharti Airtel Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24560,
+  "metadata" : {
+    "handle" : "AIRTELBROADBAND-AS-AP",
+    "description" : "Bharti Airtel Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.56.128.0/18",
       "27.57.0.0/20",
       "27.57.16.0/21",
@@ -502,7 +505,7 @@
       "223.239.14.0/24",
       "223.239.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:4900:1c00::/46",
       "2401:4900:1c06::/47",
       "2401:4900:1c08::/46",

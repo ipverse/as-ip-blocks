@@ -1,9 +1,12 @@
 {
-  "asn": 47465,
-  "handle": "HTCZ-AS",
-  "description": "Limited liability company Sovtest IP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47465,
+  "metadata" : {
+    "handle" : "HTCZ-AS",
+    "description" : "Limited liability company Sovtest IP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.243.0.0/20",
       "91.204.144.0/22",
       "128.65.136.0/21",
@@ -11,6 +14,6 @@
       "195.49.184.0/22",
       "195.93.164.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

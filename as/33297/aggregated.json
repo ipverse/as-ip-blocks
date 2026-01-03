@@ -1,13 +1,16 @@
 {
-  "asn": 33297,
-  "handle": "VEGAS",
-  "description": "Sumofiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33297,
+  "metadata" : {
+    "handle" : "VEGAS",
+    "description" : "Sumofiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.41.232.0/24",
       "162.252.244.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc38:1::/48",
       "2606:a600:8::/48"
     ]

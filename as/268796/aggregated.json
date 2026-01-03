@@ -1,12 +1,15 @@
 {
-  "asn": 268796,
-  "handle": "DAS-PROVEDOR-INTERNET",
-  "description": "D.A.S PROVEDOR DE INTERNET FIBRA OTICA E BANDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268796,
+  "metadata" : {
+    "handle" : "DAS-PROVEDOR-INTERNET",
+    "description" : "D.A.S PROVEDOR DE INTERNET FIBRA OTICA E BANDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.172.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5ac8::/34",
       "2804:5ac8:8000::/33"
     ]

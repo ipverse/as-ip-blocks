@@ -1,14 +1,17 @@
 {
-  "asn": 136462,
-  "handle": "MOOTECHASIA-AS-AP",
-  "description": "Mootech Asia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136462,
+  "metadata" : {
+    "handle" : "MOOTECHASIA-AS-AP",
+    "description" : "Mootech Asia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.251.64.0/22",
       "103.89.20.0/24",
       "103.89.22.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:d340::/32"
     ]
   }

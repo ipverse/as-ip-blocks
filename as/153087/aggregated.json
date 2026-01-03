@@ -1,13 +1,16 @@
 {
-  "asn": 153087,
-  "handle": "TPN-AS-ID",
-  "description": "PT Telemedia Prima Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153087,
+  "metadata" : {
+    "handle" : "TPN-AS-ID",
+    "description" : "PT Telemedia Prima Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.136.162.0/23",
       "160.25.222.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:97c0:200::/40",
       "2404:97c0:1600::/40",
       "2404:97c0:3100::/40",

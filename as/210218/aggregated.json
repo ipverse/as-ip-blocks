@@ -1,9 +1,12 @@
 {
-  "asn": 210218,
-  "handle": "OPENFIBER-ITALY",
-  "description": "Open Fiber S.P.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210218,
+  "metadata" : {
+    "handle" : "OPENFIBER-ITALY",
+    "description" : "Open Fiber S.P.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.93.0/24",
       "2.58.94.0/24",
       "2.58.136.0/22",
@@ -127,7 +130,7 @@
       "212.24.0.0/19",
       "212.73.135.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:e6c0:8::/48",
       "2a09:e6c7:f800::/48"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 33425,
-  "handle": "COREWEAVE",
-  "description": "CoreWeave Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33425,
+  "metadata" : {
+    "handle" : "COREWEAVE",
+    "description" : "CoreWeave Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.228.128.0/18",
       "166.19.0.0/16",
       "192.112.160.0/20",
@@ -11,7 +14,7 @@
       "207.53.232.0/22",
       "216.153.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:240::/31"
     ]
   }

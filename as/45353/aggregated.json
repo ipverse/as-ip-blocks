@@ -1,12 +1,15 @@
 {
-  "asn": 45353,
-  "handle": "NITC-AS-AP",
-  "description": "National Information Technology Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45353,
+  "metadata" : {
+    "handle" : "NITC-AS-AP",
+    "description" : "National Information Technology Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.175.192.0/23",
       "202.45.144.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

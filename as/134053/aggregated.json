@@ -1,9 +1,12 @@
 {
-  "asn": 134053,
-  "handle": "EXPL-AS-IN",
-  "description": "ETHERNET XPRESS PVT. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134053,
+  "metadata" : {
+    "handle" : "EXPL-AS-IN",
+    "description" : "ETHERNET XPRESS PVT. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.255.232.0/22",
       "45.116.0.0/22",
       "103.40.72.0/22",
@@ -14,7 +17,7 @@
       "103.187.80.0/24",
       "103.210.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:cc00::/48",
       "2406:9840::/32"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 29061,
-  "handle": "SAIMANET-AS",
-  "description": "CJSC SAIMA TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29061,
+  "metadata" : {
+    "handle" : "SAIMANET-AS",
+    "description" : "CJSC SAIMA TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "92.62.64.0/20",
       "95.87.72.0/21",
       "95.87.80.0/21",
@@ -12,6 +15,6 @@
       "185.53.228.0/22",
       "217.29.16.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

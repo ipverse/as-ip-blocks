@@ -1,12 +1,15 @@
 {
-  "asn": 27386,
-  "handle": "PSEGLI",
-  "description": "PSEG Long Island LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27386,
+  "metadata" : {
+    "handle" : "PSEGLI",
+    "description" : "PSEG Long Island LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.10.80.0/23",
       "8.39.70.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

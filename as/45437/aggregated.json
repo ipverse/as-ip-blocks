@@ -1,9 +1,12 @@
 {
-  "asn": 45437,
-  "handle": "RWTS-AS-AP",
-  "description": "Real World Technology Solutions Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45437,
+  "metadata" : {
+    "handle" : "RWTS-AS-AP",
+    "description" : "Real World Technology Solutions Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.1.16.0/22",
       "45.116.108.0/22",
       "103.16.96.0/22",
@@ -15,7 +18,7 @@
       "114.141.110.0/23",
       "203.170.88.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:3540::/32",
       "2406:4d40::/32",
       "2406:a800::/32"

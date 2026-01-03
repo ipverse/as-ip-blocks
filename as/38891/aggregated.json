@@ -1,9 +1,12 @@
 {
-  "asn": 38891,
-  "handle": "MEASAT-AS-MY",
-  "description": "Measat Satellite Systems Sdn Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38891,
+  "metadata" : {
+    "handle" : "MEASAT-AS-MY",
+    "description" : "Measat Satellite Systems Sdn Bhd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.142.66.0/24",
       "103.198.84.0/22",
       "103.242.16.0/22",
@@ -13,6 +16,6 @@
       "203.99.136.0/22",
       "223.25.248.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

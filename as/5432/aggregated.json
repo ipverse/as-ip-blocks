@@ -1,9 +1,12 @@
 {
-  "asn": 5432,
-  "handle": "PROXIMUS-ISP-AS",
-  "description": "Proximus NV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5432,
+  "metadata" : {
+    "handle" : "PROXIMUS-ISP-AS",
+    "description" : "Proximus NV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.61.4.0/22",
       "23.201.208.0/22",
       "37.62.0.0/16",
@@ -44,7 +47,7 @@
       "213.181.32.0/19",
       "217.136.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:a000::/26",
       "2a04:6c40::/29",
       "2a04:9f80::/29"

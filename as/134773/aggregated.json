@@ -1,9 +1,12 @@
 {
-  "asn": 134773,
-  "handle": "CHINANET-GUANGDONG-GUANGZHOU-MAN",
-  "description": "CHINANET Guangdong province Guangzhou MAN network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134773,
+  "metadata" : {
+    "handle" : "CHINANET-GUANGDONG-GUANGZHOU-MAN",
+    "description" : "CHINANET Guangdong province Guangzhou MAN network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.37.0.0/23",
       "59.107.0.0/17",
       "61.29.128.0/18",
@@ -30,7 +33,7 @@
       "219.137.159.0/24",
       "219.137.193.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:f8c0:2::/48",
       "240e:108:4041::/48",
       "240e:108:405a::/48",

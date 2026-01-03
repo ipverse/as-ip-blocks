@@ -1,12 +1,15 @@
 {
-  "asn": 273517,
-  "handle": "RUPI-TELECOM",
-  "description": "RUPI Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273517,
+  "metadata" : {
+    "handle" : "RUPI-TELECOM",
+    "description" : "RUPI Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.0.192.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:8fdc::/32"
     ]
   }

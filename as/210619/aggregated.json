@@ -1,9 +1,12 @@
 {
-  "asn": 210619,
-  "handle": "MTH-NETWORKS",
-  "description": "Monkey Tree Hosting Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210619,
+  "metadata" : {
+    "handle" : "MTH-NETWORKS",
+    "description" : "Monkey Tree Hosting Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.233.63.0/24",
       "104.239.49.0/24",
       "104.239.50.0/24",
@@ -13,7 +16,7 @@
       "185.137.223.0/24",
       "195.54.59.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:a501::/48",
       "2a0a:a502::/48",
       "2a0a:a503::/32",

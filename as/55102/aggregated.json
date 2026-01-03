@@ -1,9 +1,12 @@
 {
-  "asn": 55102,
-  "handle": "NRG-NS-2",
-  "description": "NRG Energy Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55102,
+  "metadata" : {
+    "handle" : "NRG-NS-2",
+    "description" : "NRG Energy Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "158.81.128.0/24",
       "158.81.136.0/21",
       "158.81.150.0/24",
@@ -12,6 +15,6 @@
       "158.81.199.0/24",
       "158.81.200.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

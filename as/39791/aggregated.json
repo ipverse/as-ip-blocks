@@ -1,14 +1,17 @@
 {
-  "asn": 39791,
-  "handle": "TPS-AS",
-  "description": "Telco Pro Services a. s",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39791,
+  "metadata" : {
+    "handle" : "TPS-AS",
+    "description" : "Telco Pro Services a. s.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.111.64.0/18",
       "185.115.182.0/24",
       "193.109.176.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:a040::/32",
       "2a07:7a00::/48"
     ]

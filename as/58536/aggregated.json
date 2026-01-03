@@ -1,15 +1,18 @@
 {
-  "asn": 58536,
-  "handle": "AP-CONAC-AS-AP",
-  "description": "CONAC (China Organizational Name Administration Center)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58536,
+  "metadata" : {
+    "handle" : "AP-CONAC-AS-AP",
+    "description" : "CONAC (China Organizational Name Administration Center)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "111.235.162.0/23",
       "111.235.164.0/23",
       "111.235.168.0/23",
       "111.235.172.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:b400:8::/47",
       "2401:b400:11::/48"
     ]

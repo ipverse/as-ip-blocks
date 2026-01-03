@@ -1,9 +1,12 @@
 {
-  "asn": 47359,
-  "handle": "CITYNET-ZP-AS",
-  "description": "Tvoi Net Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47359,
+  "metadata" : {
+    "handle" : "CITYNET-ZP-AS",
+    "description" : "Tvoi Net Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.193.80.0/21",
       "31.193.88.0/23",
       "31.193.92.0/22",
@@ -14,6 +17,6 @@
       "185.5.104.0/22",
       "195.211.148.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

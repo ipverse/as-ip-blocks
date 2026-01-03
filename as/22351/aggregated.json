@@ -1,9 +1,12 @@
 {
-  "asn": 22351,
-  "handle": "INTELSAT-1",
-  "description": "INTELSAT GLOBAL SERVICE CORPORATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22351,
+  "metadata" : {
+    "handle" : "INTELSAT-1",
+    "description" : "INTELSAT GLOBAL SERVICE CORPORATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.78.196.0/24",
       "41.194.0.0/16",
       "64.88.224.0/20",
@@ -36,7 +39,7 @@
       "216.139.160.0/19",
       "216.250.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43a8::/32",
       "2607:f668::/32",
       "2a00:fd8::/32"

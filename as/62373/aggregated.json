@@ -1,14 +1,17 @@
 {
-  "asn": 62373,
-  "handle": "SINGERL-AS",
-  "description": "futurenet.gmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62373,
+  "metadata" : {
+    "handle" : "SINGERL-AS",
+    "description" : "futurenet.gmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.38.4.0/22",
       "185.229.140.0/22",
       "185.240.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:7501::/32"
     ]
   }

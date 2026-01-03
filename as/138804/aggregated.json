@@ -1,13 +1,16 @@
 {
-  "asn": 138804,
-  "handle": "IDNIC-SPEED-AS-ID",
-  "description": "PT Speed Network Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138804,
+  "metadata" : {
+    "handle" : "IDNIC-SPEED-AS-ID",
+    "description" : "PT Speed Network Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.66.37.0/24",
       "163.61.87.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:5fc0::/48"
     ]
   }

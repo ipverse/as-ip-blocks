@@ -1,9 +1,12 @@
 {
-  "asn": 2280,
-  "handle": "OCBHONEY",
-  "description": "Orange S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2280,
+  "metadata" : {
+    "handle" : "OCBHONEY",
+    "description" : "Orange S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "90.84.11.0/24",
       "90.84.14.0/23",
       "90.84.16.0/21",
@@ -17,7 +20,7 @@
       "90.84.251.0/24",
       "90.84.252.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:c9c0:8000::/48",
       "2a01:c9c0:800f::/48"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 23077,
-  "handle": "SPICA",
-  "description": "SPICA Industry LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23077,
+  "metadata" : {
+    "handle" : "SPICA",
+    "description" : "SPICA Industry LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.170.24.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f9aa:10::/44"
     ]
   }

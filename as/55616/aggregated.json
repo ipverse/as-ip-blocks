@@ -1,9 +1,12 @@
 {
-  "asn": 55616,
-  "handle": "DGIST-AS",
-  "description": "DGIST",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55616,
+  "metadata" : {
+    "handle" : "DGIST-AS",
+    "description" : "DGIST",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "114.71.96.0/21",
       "114.71.104.0/22",
       "114.71.108.0/23",
@@ -12,6 +15,6 @@
       "210.119.38.0/23",
       "211.63.235.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 19038,
-  "handle": "SCOTIABANK-INVERLAT",
-  "description": "SCOTIABANK INVERLAT SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19038,
+  "metadata" : {
+    "handle" : "SCOTIABANK-INVERLAT",
+    "description" : "SCOTIABANK INVERLAT SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.165.1.0/24",
       "168.165.2.0/24",
       "168.165.8.0/23",
@@ -16,6 +19,6 @@
       "168.165.202.0/24",
       "168.165.208.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

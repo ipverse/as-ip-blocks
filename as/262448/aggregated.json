@@ -1,14 +1,17 @@
 {
-  "asn": 262448,
-  "handle": "DIALHOST-INTERNET-EIRELI",
-  "description": "DIALHOST INTERNET EIRELI",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262448,
+  "metadata" : {
+    "handle" : "DIALHOST-INTERNET-EIRELI",
+    "description" : "DIALHOST INTERNET EIRELI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.118.172.0/22",
       "177.52.160.0/24",
       "177.52.162.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:b44::/35",
       "2804:b44:4000::/34",
       "2804:b44:8000::/33"

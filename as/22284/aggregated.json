@@ -1,9 +1,12 @@
 {
-  "asn": 22284,
-  "handle": "AS22284-DOI-OPS",
-  "description": "U.S. Department of the Interior",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22284,
+  "metadata" : {
+    "handle" : "AS22284-DOI-OPS",
+    "description" : "U.S. Department of the Interior",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.11.0.0/16",
       "130.118.0.0/16",
       "136.177.0.0/16",
@@ -55,7 +58,7 @@
       "205.173.0.0/21",
       "206.197.40.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:49c8::/32"
     ]
   }

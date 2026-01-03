@@ -1,12 +1,15 @@
 {
-  "asn": 402038,
-  "handle": "DNS-ASN-1",
-  "description": "Distributed Network Solutions LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 402038,
+  "metadata" : {
+    "handle" : "DNS-ASN-1",
+    "description" : "Distributed Network Solutions LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.146.180.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f538::/40"
     ]
   }

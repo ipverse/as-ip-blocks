@@ -1,9 +1,12 @@
 {
-  "asn": 134768,
-  "handle": "CHINANET-SHAANXI-CLOUD-BASE",
-  "description": "CHINANET SHAANXI province Cloud Base network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134768,
+  "metadata" : {
+    "handle" : "CHINANET-SHAANXI-CLOUD-BASE",
+    "description" : "CHINANET SHAANXI province Cloud Base network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.81.0.0/21",
       "1.82.219.0/24",
       "1.82.232.0/21",
@@ -53,7 +56,7 @@
       "203.83.224.0/21",
       "219.144.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:d0e0:3::/48",
       "240e:f:b000::/36",
       "240e:bf:b000::/36",

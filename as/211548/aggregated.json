@@ -1,12 +1,15 @@
 {
-  "asn": 211548,
-  "handle": "ECCN",
-  "description": "Eric Charest",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211548,
+  "metadata" : {
+    "handle" : "ECCN",
+    "description" : "Eric Charest",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.144.8.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:facc:ff0::/44",
       "2a0e:97c0:2c0::/44"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 6866,
-  "handle": "CYTA-NETWORK",
-  "description": "Cyprus Telecommunications Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6866,
+  "metadata" : {
+    "handle" : "CYTA-NETWORK",
+    "description" : "Cyprus Telecommunications Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.153.0.0/16",
       "37.149.0.0/16",
       "46.198.0.0/17",
@@ -31,7 +34,7 @@
       "213.7.0.0/16",
       "213.149.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1358::/29"
     ]
   }

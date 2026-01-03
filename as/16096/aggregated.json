@@ -1,9 +1,12 @@
 {
-  "asn": 16096,
-  "handle": "BETFAIR",
-  "description": "The Sporting Exchange (Clients) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16096,
+  "metadata" : {
+    "handle" : "BETFAIR",
+    "description" : "The Sporting Exchange (Clients) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.20.192.0/22",
       "84.20.197.0/24",
       "84.20.199.0/24",
@@ -13,6 +16,6 @@
       "84.20.214.0/24",
       "84.20.221.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

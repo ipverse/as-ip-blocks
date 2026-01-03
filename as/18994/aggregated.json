@@ -1,9 +1,12 @@
 {
-  "asn": 18994,
-  "handle": "LABCORP-BLS",
-  "description": "Laboratory Corporation of America",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18994,
+  "metadata" : {
+    "handle" : "LABCORP-BLS",
+    "description" : "Laboratory Corporation of America",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "113.29.67.0/24",
       "162.134.132.0/23",
       "162.134.144.0/23",
@@ -11,6 +14,6 @@
       "208.66.164.0/24",
       "208.66.166.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

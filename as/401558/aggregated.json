@@ -1,9 +1,12 @@
 {
-  "asn": 401558,
-  "handle": "KSOL",
-  "description": "Kage Solutions LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401558,
+  "metadata" : {
+    "handle" : "KSOL",
+    "description" : "Kage Solutions LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "40.27.23.0/24",
       "64.204.7.0/24",
       "64.204.254.0/23",
@@ -21,6 +24,6 @@
       "157.254.175.0/24",
       "172.99.22.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 211559,
-  "handle": "VODAFONEQA-ISP",
-  "description": "Vodafone Qatar P.Q.S.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211559,
+  "metadata" : {
+    "handle" : "VODAFONEQA-ISP",
+    "description" : "Vodafone Qatar P.Q.S.C",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.11.48.0/21",
       "37.186.38.0/24",
       "37.186.56.0/23",
@@ -22,6 +25,6 @@
       "212.70.120.0/22",
       "212.70.124.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

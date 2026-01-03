@@ -1,13 +1,16 @@
 {
-  "asn": 41088,
-  "handle": "CZNSYS",
-  "description": "N-SYS s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41088,
+  "metadata" : {
+    "handle" : "CZNSYS",
+    "description" : "N SYS s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.190.64.0/19",
       "185.125.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:e8::/48",
       "2a00:bfe0::/32"
     ]

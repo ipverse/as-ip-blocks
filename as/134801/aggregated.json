@@ -1,11 +1,14 @@
 {
-  "asn": 134801,
-  "handle": "HIS-AS-AP",
-  "description": "Himel Internet Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134801,
+  "metadata" : {
+    "handle" : "HIS-AS-AP",
+    "description" : "Himel Internet Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.250.68.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

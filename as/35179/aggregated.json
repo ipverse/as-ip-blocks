@@ -1,9 +1,12 @@
 {
-  "asn": 35179,
-  "handle": "KORBANK-AS",
-  "description": "Korbank S. A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35179,
+  "metadata" : {
+    "handle" : "KORBANK-AS",
+    "description" : "Korbank S. A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.110.192.0/20",
       "83.168.64.0/22",
       "83.168.71.0/24",
@@ -30,7 +33,7 @@
       "212.127.88.0/21",
       "213.109.46.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:96e0::/32",
       "2a0a:e640::/32"
     ]

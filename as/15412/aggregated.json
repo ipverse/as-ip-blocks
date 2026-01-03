@@ -1,9 +1,12 @@
 {
-  "asn": 15412,
-  "handle": "FLAG-AS",
-  "description": "FLAG TELECOM UK LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15412,
+  "metadata" : {
+    "handle" : "FLAG-AS",
+    "description" : "FLAG TELECOM UK LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.248.216.0/22",
       "45.125.188.0/22",
       "62.216.128.0/19",
@@ -20,7 +23,7 @@
       "103.225.192.0/22",
       "203.79.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1a00::/32"
     ]
   }

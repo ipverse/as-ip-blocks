@@ -1,9 +1,12 @@
 {
-  "asn": 9916,
-  "handle": "NCTU-TW",
-  "description": "National Yang Ming Chiao Tung University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9916,
+  "metadata" : {
+    "handle" : "NCTU-TW",
+    "description" : "National Yang Ming Chiao Tung University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "120.126.32.0/19",
       "120.126.64.0/19",
       "120.126.96.0/20",
@@ -14,7 +17,7 @@
       "140.129.64.0/20",
       "140.129.80.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:f18::/32"
     ]
   }

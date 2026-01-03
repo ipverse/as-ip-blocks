@@ -1,9 +1,12 @@
 {
-  "asn": 31197,
-  "handle": "FNH-AS",
-  "description": "FNH media KG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31197,
+  "metadata" : {
+    "handle" : "FNH-AS",
+    "description" : "FNH media KG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.209.144.0/22",
       "81.209.179.0/24",
       "81.209.185.0/24",
@@ -15,6 +18,6 @@
       "178.250.232.0/21",
       "185.33.188.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

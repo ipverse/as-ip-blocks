@@ -1,11 +1,14 @@
 {
-  "asn": 271331,
-  "handle": "MASTER-CONNECT",
-  "description": "MASTER CONNECT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271331,
+  "metadata" : {
+    "handle" : "MASTER-CONNECT",
+    "description" : "MASTER CONNECT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.0.80.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

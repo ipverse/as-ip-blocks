@@ -1,9 +1,12 @@
 {
-  "asn": 5056,
-  "handle": "AUREON-5056",
-  "description": "Aureon Network Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5056,
+  "metadata" : {
+    "handle" : "AUREON-5056",
+    "description" : "Aureon Network Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.43.192.0/18",
       "67.55.128.0/17",
       "67.224.64.0/20",
@@ -37,7 +40,7 @@
       "216.51.128.0/17",
       "216.248.64.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:5f8::/32",
       "2602:231::/32"
     ]

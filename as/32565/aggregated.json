@@ -1,11 +1,14 @@
 {
-  "asn": 32565,
-  "handle": "AFSCME-ASN",
-  "description": "AFSCME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32565,
+  "metadata" : {
+    "handle" : "AFSCME-ASN",
+    "description" : "AFSCME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.100.61.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

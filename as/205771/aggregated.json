@@ -1,9 +1,12 @@
 {
-  "asn": 205771,
-  "handle": "OCTAPLUSUK",
-  "description": "OCTAPLUS NETWORKS LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205771,
+  "metadata" : {
+    "handle" : "OCTAPLUSUK",
+    "description" : "OCTAPLUS NETWORKS LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.21.65.0/24",
       "128.127.149.0/24",
       "128.127.150.0/24",
@@ -13,7 +16,7 @@
       "154.62.140.0/22",
       "191.101.24.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:740::/31",
       "2a13:742::/32"
     ]

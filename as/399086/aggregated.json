@@ -1,12 +1,15 @@
 {
-  "asn": 399086,
-  "handle": "FLIGHTAWARE-02",
-  "description": "FlightAware",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399086,
+  "metadata" : {
+    "handle" : "FLIGHTAWARE-02",
+    "description" : "FlightAware",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.253.80.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:13d:c000::/44"
     ]
   }

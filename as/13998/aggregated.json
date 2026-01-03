@@ -1,9 +1,12 @@
 {
-  "asn": 13998,
-  "handle": "SWMED",
-  "description": "University of Texas Southwestern Medical Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13998,
+  "metadata" : {
+    "handle" : "SWMED",
+    "description" : "University of Texas Southwestern Medical Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.112.0.0/16",
       "198.215.36.0/22",
       "198.215.48.0/20",
@@ -16,7 +19,7 @@
       "199.242.236.0/22",
       "199.249.214.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:840::/48"
     ]
   }

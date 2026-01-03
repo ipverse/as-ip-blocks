@@ -1,9 +1,12 @@
 {
-  "asn": 16686,
-  "handle": "EDNS",
-  "description": "easyDNS Technologies Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16686,
+  "metadata" : {
+    "handle" : "EDNS",
+    "description" : "easyDNS Technologies Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.68.192.0/23",
       "64.68.196.0/22",
       "64.68.200.0/22",
@@ -11,7 +14,7 @@
       "64.68.207.0/24",
       "205.210.42.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:49:1::/48",
       "2620:49:2::/47",
       "2620:49:4::/48",

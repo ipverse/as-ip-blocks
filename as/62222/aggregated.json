@@ -1,15 +1,18 @@
 {
-  "asn": 62222,
-  "handle": "QS-AS",
-  "description": "QuickSoft LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62222,
+  "metadata" : {
+    "handle" : "QS-AS",
+    "description" : "QuickSoft LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.75.44.0/22",
       "185.75.88.0/22",
       "185.125.16.0/22",
       "185.125.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:7320::/48",
       "2a05:5080::/48"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 398913,
-  "handle": "NTSPARK",
-  "description": "NT Spark LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398913,
+  "metadata" : {
+    "handle" : "NTSPARK",
+    "description" : "NT Spark LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.41.96.0/20",
       "66.199.156.0/22",
       "160.32.4.0/22",
@@ -11,7 +14,7 @@
       "208.85.24.0/22",
       "208.91.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:340::/32"
     ]
   }

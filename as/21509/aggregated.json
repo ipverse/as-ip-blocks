@@ -1,9 +1,12 @@
 {
-  "asn": 21509,
-  "handle": "APOLLONYC",
-  "description": "Apollo Management L.P",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21509,
+  "metadata" : {
+    "handle" : "APOLLONYC",
+    "description" : "Apollo Management L.P.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.143.235.0/24",
       "63.151.42.0/23",
       "63.233.105.0/24",
@@ -13,6 +16,6 @@
       "89.167.135.0/24",
       "208.86.104.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

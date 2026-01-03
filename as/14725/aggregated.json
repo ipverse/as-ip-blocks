@@ -1,9 +1,12 @@
 {
-  "asn": 14725,
-  "handle": "AS14725",
-  "description": "Crawford \u0026 Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14725,
+  "metadata" : {
+    "handle" : "AS14725",
+    "description" : "Crawford & Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.101.135.0/24",
       "168.247.5.0/24",
       "168.247.8.0/22",
@@ -18,6 +21,6 @@
       "198.50.14.0/23",
       "198.203.220.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

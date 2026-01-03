@@ -1,13 +1,16 @@
 {
-  "asn": 20221,
-  "handle": "IATA",
-  "description": "International Air Transport Association",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20221,
+  "metadata" : {
+    "handle" : "IATA",
+    "description" : "International Air Transport Association",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.194.0.0/21",
       "144.194.8.0/24",
       "144.194.16.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

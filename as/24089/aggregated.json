@@ -1,12 +1,15 @@
 {
-  "asn": 24089,
-  "handle": "VNNIC-AS-AP",
-  "description": "Vietnam Internet Network Information Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24089,
+  "metadata" : {
+    "handle" : "VNNIC-AS-AP",
+    "description" : "Vietnam Internet Network Information Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.119.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:dc8:8000::/48"
     ]
   }

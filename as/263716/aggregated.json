@@ -1,12 +1,15 @@
 {
-  "asn": 263716,
-  "handle": "SIDECOM",
-  "description": "SIDECOM SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263716,
+  "metadata" : {
+    "handle" : "SIDECOM",
+    "description" : "SIDECOM SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.255.224.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:a780::/32"
     ]
   }

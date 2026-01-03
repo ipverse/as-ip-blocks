@@ -1,14 +1,17 @@
 {
-  "asn": 37098,
-  "handle": "GLOBE-AS",
-  "description": "globe internet limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37098,
+  "metadata" : {
+    "handle" : "GLOBE-AS",
+    "description" : "globe internet limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.77.8.0/21",
       "41.216.228.0/22",
       "154.66.120.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f9a0::/35"
     ]
   }

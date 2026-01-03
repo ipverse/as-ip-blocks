@@ -1,12 +1,15 @@
 {
-  "asn": 30232,
-  "handle": "M3C-AS30232",
-  "description": "M3 Consulting LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30232,
+  "metadata" : {
+    "handle" : "M3C-AS30232",
+    "description" : "M3 Consulting LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.135.194.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fb81::/36"
     ]
   }

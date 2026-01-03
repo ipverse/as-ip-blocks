@@ -1,9 +1,12 @@
 {
-  "asn": 33874,
-  "handle": "VFM-AS",
-  "description": "Epic Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33874,
+  "metadata" : {
+    "handle" : "VFM-AS",
+    "description" : "Epic Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.75.32.0/19",
       "77.25.128.0/17",
       "77.243.64.0/20",
@@ -14,7 +17,7 @@
       "188.172.0.0/18",
       "188.172.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:5500::/32"
     ]
   }

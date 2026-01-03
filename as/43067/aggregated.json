@@ -1,13 +1,16 @@
 {
-  "asn": 43067,
-  "handle": "PRETCHER-AS",
-  "description": "PE Pretcher",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43067,
+  "metadata" : {
+    "handle" : "PRETCHER-AS",
+    "description" : "PE Pretcher",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.196.80.0/22",
       "91.234.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:a900:2::/48"
     ]
   }

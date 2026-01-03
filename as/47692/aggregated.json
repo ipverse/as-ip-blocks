@@ -1,9 +1,12 @@
 {
-  "asn": 47692,
-  "handle": "NESSUS",
-  "description": "Nessus GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47692,
+  "metadata" : {
+    "handle" : "NESSUS",
+    "description" : "Nessus GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.132.157.0/24",
       "5.132.159.0/24",
       "5.132.160.0/24",
@@ -56,7 +59,7 @@
       "212.232.24.0/21",
       "217.74.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2af4::/48",
       "2a02:1b8::/29",
       "2a03:3180:f::/48"

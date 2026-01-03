@@ -1,11 +1,14 @@
 {
-  "asn": 140009,
-  "handle": "R1NET-AS-ID",
-  "description": "PT. Riau Satu Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140009,
+  "metadata" : {
+    "handle" : "R1NET-AS-ID",
+    "description" : "PT. Riau Satu Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.149.18.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

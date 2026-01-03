@@ -1,13 +1,16 @@
 {
-  "asn": 20413,
-  "handle": "CHS1-20413",
-  "description": "Chesconet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20413,
+  "metadata" : {
+    "handle" : "CHS1-20413",
+    "description" : "Chesconet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.108.128.0/19",
       "204.108.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:2a80::/32"
     ]
   }

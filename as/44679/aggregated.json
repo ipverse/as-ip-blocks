@@ -1,9 +1,12 @@
 {
-  "asn": 44679,
-  "handle": "BINBOX-GLOBAL-SERVICES",
-  "description": "INVITE Systems SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44679,
+  "metadata" : {
+    "handle" : "BINBOX-GLOBAL-SERVICES",
+    "description" : "INVITE Systems SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.180.240.0/21",
       "84.239.4.0/24",
       "84.239.8.0/23",
@@ -25,7 +28,7 @@
       "185.193.54.0/24",
       "193.201.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2160:8000::/36"
     ]
   }

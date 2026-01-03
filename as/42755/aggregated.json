@@ -1,9 +1,12 @@
 {
-  "asn": 42755,
-  "handle": "DATAFIBER",
-  "description": "DataFiber Group B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42755,
+  "metadata" : {
+    "handle" : "DATAFIBER",
+    "description" : "DataFiber Group B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.21.160.0/20",
       "91.195.200.0/23",
       "91.196.168.0/22",
@@ -14,7 +17,7 @@
       "185.138.208.0/22",
       "195.184.64.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:27f8::/32"
     ]
   }

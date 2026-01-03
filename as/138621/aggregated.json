@@ -1,12 +1,15 @@
 {
-  "asn": 138621,
-  "handle": "CITY-NET-COM-AS-AP",
-  "description": "City Net Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138621,
+  "metadata" : {
+    "handle" : "CITY-NET-COM-AS-AP",
+    "description" : "City Net Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.134.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:abe0::/39"
     ]
   }

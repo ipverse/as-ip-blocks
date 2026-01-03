@@ -1,15 +1,18 @@
 {
-  "asn": 139555,
-  "handle": "ABROCOMM-AS-IN",
-  "description": "Abronics Communications Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139555,
+  "metadata" : {
+    "handle" : "ABROCOMM-AS-IN",
+    "description" : "Abronics Communications Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.229.163.0/24",
       "103.134.116.0/23",
       "103.176.138.0/23",
       "103.181.213.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:d7c0::/48"
     ]
   }

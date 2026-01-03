@@ -1,9 +1,12 @@
 {
-  "asn": 13189,
-  "handle": "LIDERO",
-  "description": "Liden Data Internetwork AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13189,
+  "metadata" : {
+    "handle" : "LIDERO",
+    "description" : "Liden Data Internetwork AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.44.204.0/22",
       "62.101.32.0/20",
       "62.101.48.0/22",
@@ -34,7 +37,7 @@
       "195.170.187.0/24",
       "212.112.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:132c::/48",
       "2001:67c:2c54::/48",
       "2001:be8::/32"

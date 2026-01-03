@@ -1,9 +1,12 @@
 {
-  "asn": 134009,
-  "handle": "NETCOMENTERPRISES-AS",
-  "description": "NETCOM ENTERPRISES PVT LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134009,
+  "metadata" : {
+    "handle" : "NETCOMENTERPRISES-AS",
+    "description" : "NETCOM ENTERPRISES PVT LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.169.157.0/24",
       "103.171.8.0/24",
       "103.174.158.0/23",
@@ -11,6 +14,6 @@
       "103.181.141.0/24",
       "103.206.134.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

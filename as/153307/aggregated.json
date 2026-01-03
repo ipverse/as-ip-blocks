@@ -1,12 +1,15 @@
 {
-  "asn": 153307,
-  "handle": "BOS-AS-AP",
-  "description": "Bangladesh Online Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153307,
+  "metadata" : {
+    "handle" : "BOS-AS-AP",
+    "description" : "Bangladesh Online Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.30.179.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:3340::/48"
     ]
   }

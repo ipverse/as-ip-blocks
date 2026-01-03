@@ -1,9 +1,12 @@
 {
-  "asn": 25883,
-  "handle": "CITIGROUP",
-  "description": "Citigroup Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25883,
+  "metadata" : {
+    "handle" : "CITIGROUP",
+    "description" : "Citigroup Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.193.8.0/24",
       "192.193.39.0/24",
       "192.193.40.0/23",
@@ -15,6 +18,6 @@
       "192.193.222.0/24",
       "199.67.180.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

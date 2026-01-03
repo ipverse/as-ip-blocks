@@ -1,12 +1,15 @@
 {
-  "asn": 9029,
-  "handle": "HOMETVPRO-AS",
-  "description": "SIA HomeTV Pro",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9029,
+  "metadata" : {
+    "handle" : "HOMETVPRO-AS",
+    "description" : "SIA HomeTV Pro",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.116.209.0/24",
       "185.116.211.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

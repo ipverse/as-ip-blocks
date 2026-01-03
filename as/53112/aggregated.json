@@ -1,9 +1,12 @@
 {
-  "asn": 53112,
-  "handle": "SULNET-TELECOM",
-  "description": "SULNET TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53112,
+  "metadata" : {
+    "handle" : "SULNET-TELECOM",
+    "description" : "SULNET TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.97.4.0/22",
       "143.255.60.0/22",
       "170.231.72.0/22",
@@ -11,7 +14,7 @@
       "187.109.16.0/20",
       "189.90.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:d0c::/32"
     ]
   }

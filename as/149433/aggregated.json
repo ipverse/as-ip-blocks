@@ -1,12 +1,15 @@
 {
-  "asn": 149433,
-  "handle": "FM-AS-AP",
-  "description": "FM Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149433,
+  "metadata" : {
+    "handle" : "FM-AS-AP",
+    "description" : "FM Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.179.128.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:eee0::/32"
     ]
   }

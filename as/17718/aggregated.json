@@ -1,11 +1,14 @@
 {
-  "asn": 17718,
-  "handle": "TWNIC",
-  "description": "Taiwan Network Information center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17718,
+  "metadata" : {
+    "handle" : "TWNIC",
+    "description" : "Taiwan Network Information center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "150.242.102.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

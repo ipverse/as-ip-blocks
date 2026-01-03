@@ -1,12 +1,15 @@
 {
-  "asn": 64152,
-  "handle": "EDGEUNO-SPA",
-  "description": "EDGEUNO SPA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64152,
+  "metadata" : {
+    "handle" : "EDGEUNO-SPA",
+    "description" : "EDGEUNO SPA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.222.224.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:ef90::/32"
     ]
   }

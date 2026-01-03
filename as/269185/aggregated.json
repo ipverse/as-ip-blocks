@@ -1,12 +1,15 @@
 {
-  "asn": 269185,
-  "handle": "GLOBALFIBER-TELECOM",
-  "description": "Globalfiber Telecom LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269185,
+  "metadata" : {
+    "handle" : "GLOBALFIBER-TELECOM",
+    "description" : "Globalfiber Telecom LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.181.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5bcc:8000::/40",
       "2804:60b4::/33",
       "2804:60b4:c000::/34"

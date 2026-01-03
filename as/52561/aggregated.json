@@ -1,13 +1,16 @@
 {
-  "asn": 52561,
-  "handle": "GFOUR-TELECOM",
-  "description": "GFOUR TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52561,
+  "metadata" : {
+    "handle" : "GFOUR-TELECOM",
+    "description" : "GFOUR TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.86.76.0/22",
       "186.227.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:e8c::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 28753,
-  "handle": "LEASEWEB-DE-FRA-10",
-  "description": "Leaseweb Deutschland GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28753,
+  "metadata" : {
+    "handle" : "LEASEWEB-DE-FRA-10",
+    "description" : "Leaseweb Deutschland GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.61.32.0/20",
       "31.56.138.0/24",
       "31.57.43.0/24",
@@ -109,7 +112,7 @@
       "216.245.88.0/24",
       "217.20.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:c98::/32",
       "2a00:9d20:49::/48",
       "2a01:9260::/32",

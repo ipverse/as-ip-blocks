@@ -1,13 +1,16 @@
 {
-  "asn": 400767,
-  "handle": "TX-FIBER",
-  "description": "TX Fiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400767,
+  "metadata" : {
+    "handle" : "TX-FIBER",
+    "description" : "TX Fiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.141.136.0/24",
       "142.248.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:e1c0::/32"
     ]
   }

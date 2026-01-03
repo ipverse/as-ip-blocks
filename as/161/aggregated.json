@@ -1,9 +1,12 @@
 {
-  "asn": 161,
-  "handle": "TI-AS",
-  "description": "Texas Instruments Incorporated",
-  "subnets": {
-    "ipv4": [
+  "asn" : 161,
+  "metadata" : {
+    "handle" : "TI-AS",
+    "description" : "Texas Instruments Incorporated",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.91.66.0/24",
       "192.91.75.0/24",
       "192.91.101.0/24",
@@ -13,6 +16,6 @@
       "198.47.26.0/23",
       "198.47.28.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 12804,
-  "handle": "ADISAM",
-  "description": "Adisam Telecom S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12804,
+  "metadata" : {
+    "handle" : "ADISAM",
+    "description" : "Adisam Telecom S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "217.19.0.0/24",
       "217.19.3.0/24",
       "217.19.5.0/24",
       "217.19.8.0/24",
       "217.19.11.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

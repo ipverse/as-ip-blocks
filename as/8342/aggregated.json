@@ -1,9 +1,12 @@
 {
-  "asn": 8342,
-  "handle": "RTCOMM-AS",
-  "description": "JSC RTComm.RU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8342,
+  "metadata" : {
+    "handle" : "RTCOMM-AS",
+    "description" : "JSC RTComm.RU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.84.3.0/24",
       "45.151.60.0/24",
       "45.153.74.0/23",
@@ -80,7 +83,7 @@
       "217.107.200.0/21",
       "217.107.208.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1bb0::/32",
       "2a05:540::/31",
       "2a05:542::/32",

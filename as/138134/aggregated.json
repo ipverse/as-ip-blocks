@@ -1,12 +1,15 @@
 {
-  "asn": 138134,
-  "handle": "TLINK-AS-ID",
-  "description": "PT Tunas Link Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138134,
+  "metadata" : {
+    "handle" : "TLINK-AS-ID",
+    "description" : "PT Tunas Link Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.133.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:48c0::/32"
     ]
   }

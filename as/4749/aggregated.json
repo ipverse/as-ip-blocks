@@ -1,9 +1,12 @@
 {
-  "asn": 4749,
-  "handle": "WISETECHGLOBAL-AU-SYD",
-  "description": "WiseTechGlobal Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4749,
+  "metadata" : {
+    "handle" : "WISETECHGLOBAL-AU-SYD",
+    "description" : "WiseTechGlobal Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.189.32.0/21",
       "147.189.40.0/23",
       "147.189.42.0/24",
@@ -14,6 +17,6 @@
       "203.62.210.0/23",
       "203.62.212.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

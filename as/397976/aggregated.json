@@ -1,9 +1,12 @@
 {
-  "asn": 397976,
-  "handle": "CA-1546-ASN-1",
-  "description": "Central Access Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397976,
+  "metadata" : {
+    "handle" : "CA-1546-ASN-1",
+    "description" : "Central Access Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.214.0.0/20",
       "143.223.224.0/20",
       "146.12.128.0/19",
@@ -14,6 +17,6 @@
       "195.85.118.0/23",
       "206.82.96.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

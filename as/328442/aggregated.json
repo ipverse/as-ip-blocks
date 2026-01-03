@@ -1,9 +1,12 @@
 {
-  "asn": 328442,
-  "handle": "UNITED-SA",
-  "description": "United SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328442,
+  "metadata" : {
+    "handle" : "UNITED-SA",
+    "description" : "United SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.211.216.0/21",
       "102.68.56.0/21",
       "102.213.120.0/22",
@@ -11,7 +14,7 @@
       "154.72.53.0/24",
       "154.72.54.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:ed00::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 62336,
-  "handle": "PURTEL-AS",
-  "description": "PURtel.com GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62336,
+  "metadata" : {
+    "handle" : "PURTEL-AS",
+    "description" : "PURtel.com GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.63.32.0/19",
       "37.228.144.0/22",
       "45.81.44.0/22",
@@ -43,7 +46,7 @@
       "212.122.128.0/19",
       "213.244.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:41e0::/31",
       "2a01:41e3::/32",
       "2a02:2761::/32",

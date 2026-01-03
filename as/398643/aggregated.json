@@ -1,14 +1,17 @@
 {
-  "asn": 398643,
-  "handle": "SRU-ASN",
-  "description": "Slippery Rock University of Pennsylvania",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398643,
+  "metadata" : {
+    "handle" : "SRU-ASN",
+    "description" : "Slippery Rock University of Pennsylvania",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.148.234.0/24",
       "204.108.178.0/23",
       "205.149.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:2240:9000::/36"
     ]
   }

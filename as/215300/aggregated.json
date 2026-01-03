@@ -1,13 +1,16 @@
 {
-  "asn": 215300,
-  "handle": "GLOBALLAYER-SA",
-  "description": "Global Layer B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215300,
+  "metadata" : {
+    "handle" : "GLOBALLAYER-SA",
+    "description" : "Global Layer B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.123.211.0/24",
       "37.123.212.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1678:5a::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 25504,
-  "handle": "CRONON-AS",
-  "description": "Vautron Rechenzentrum AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25504,
+  "metadata" : {
+    "handle" : "CRONON-AS",
+    "description" : "Vautron Rechenzentrum AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.151.160.0/21",
       "46.175.56.0/21",
       "83.243.56.0/21",
@@ -23,7 +26,7 @@
       "193.254.184.0/21",
       "195.191.92.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2394::/48",
       "2a00:19e0::/29",
       "2a14:ea80::/48"

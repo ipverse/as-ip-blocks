@@ -1,9 +1,12 @@
 {
-  "asn": 398940,
-  "handle": "USA-NETWORKING",
-  "description": "University of South Alabama",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398940,
+  "metadata" : {
+    "handle" : "USA-NETWORKING",
+    "description" : "University of South Alabama",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.85.215.0/24",
       "69.85.216.0/23",
       "192.245.221.0/24",
@@ -13,7 +16,7 @@
       "199.33.132.0/23",
       "199.33.134.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:db40::/32"
     ]
   }

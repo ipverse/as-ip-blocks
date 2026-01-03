@@ -1,9 +1,12 @@
 {
-  "asn": 34977,
-  "handle": "PROCONO-AS",
-  "description": "PROCONO S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34977,
+  "metadata" : {
+    "handle" : "PROCONO-AS",
+    "description" : "PROCONO S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.23.12.0/22",
       "37.61.144.0/20",
       "46.37.64.0/19",
@@ -36,7 +39,7 @@
       "195.82.126.0/23",
       "212.225.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:a680:41::/48",
       "2a03:a680:45::/48"
     ]

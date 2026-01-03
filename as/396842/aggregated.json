@@ -1,13 +1,16 @@
 {
-  "asn": 396842,
-  "handle": "RURALNET",
-  "description": "RuralNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396842,
+  "metadata" : {
+    "handle" : "RURALNET",
+    "description" : "RuralNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.135.160.0/24",
       "199.193.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe6c::/36"
     ]
   }

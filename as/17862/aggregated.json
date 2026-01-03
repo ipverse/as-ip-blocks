@@ -1,9 +1,12 @@
 {
-  "asn": 17862,
-  "handle": "KWNU-AS",
-  "description": "Kangwon National University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17862,
+  "metadata" : {
+    "handle" : "KWNU-AS",
+    "description" : "Kangwon National University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "114.70.74.0/23",
       "114.70.98.0/23",
       "114.70.100.0/22",
@@ -39,6 +42,6 @@
       "218.152.222.0/24",
       "220.149.44.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

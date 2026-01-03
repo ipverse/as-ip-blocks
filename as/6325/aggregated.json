@@ -1,9 +1,12 @@
 {
-  "asn": 6325,
-  "handle": "ILLINOIS-CENTURY",
-  "description": "Illinois Century Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6325,
+  "metadata" : {
+    "handle" : "ILLINOIS-CENTURY",
+    "description" : "Illinois Century Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.107.0.0/16",
       "64.150.0.0/17",
       "65.79.0.0/17",
@@ -19,7 +22,7 @@
       "209.174.0.0/15",
       "216.124.0.0/15"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1848::/32"
     ]
   }

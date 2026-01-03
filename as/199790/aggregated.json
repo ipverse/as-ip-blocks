@@ -1,12 +1,15 @@
 {
-  "asn": 199790,
-  "handle": "IPTELECOMBULGARIA-AS",
-  "description": "IP Telecom Bulgaria",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199790,
+  "metadata" : {
+    "handle" : "IPTELECOMBULGARIA-AS",
+    "description" : "IP Telecom Bulgaria",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.45.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7e60::/47"
     ]
   }

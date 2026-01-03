@@ -1,13 +1,16 @@
 {
-  "asn": 11470,
-  "handle": "RSNA-ASN",
-  "description": "Radiological Society of North America",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11470,
+  "metadata" : {
+    "handle" : "RSNA-ASN",
+    "description" : "Radiological Society of North America",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.203.117.0/24",
       "192.203.125.0/24",
       "192.203.126.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

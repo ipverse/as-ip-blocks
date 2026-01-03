@@ -1,13 +1,16 @@
 {
-  "asn": 400940,
-  "handle": "RAILWAY",
-  "description": "Railway",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400940,
+  "metadata" : {
+    "handle" : "RAILWAY",
+    "description" : "Railway",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.33.22.0/23",
       "162.220.232.0/22",
       "208.77.244.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

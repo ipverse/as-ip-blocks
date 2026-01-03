@@ -1,9 +1,12 @@
 {
-  "asn": 395222,
-  "handle": "HOSTIOUS-PRIMARY",
-  "description": "Hostious LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395222,
+  "metadata" : {
+    "handle" : "HOSTIOUS-PRIMARY",
+    "description" : "Hostious LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.12.4.0/22",
       "140.228.17.0/24",
       "142.249.24.0/22",
@@ -13,6 +16,6 @@
       "217.60.128.0/20",
       "217.60.152.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 12400,
-  "handle": "PARTNER-AS",
-  "description": "Partner Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12400,
+  "metadata" : {
+    "handle" : "PARTNER-AS",
+    "description" : "Partner Communications Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.22.233.0/24",
       "2.52.0.0/14",
       "23.45.120.0/24",
@@ -57,7 +60,7 @@
       "212.199.0.0/16",
       "213.8.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:40a8::/32",
       "2a0d:6fc0::/29"
     ]

@@ -1,11 +1,14 @@
 {
-  "asn": 30499,
-  "handle": "YSU-AS",
-  "description": "Youngstown State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30499,
+  "metadata" : {
+    "handle" : "YSU-AS",
+    "description" : "Youngstown State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "150.134.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

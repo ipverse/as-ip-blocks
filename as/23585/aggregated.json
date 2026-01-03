@@ -1,12 +1,15 @@
 {
-  "asn": 23585,
-  "handle": "MOJNET-AS",
-  "description": "Ministry of Justice",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23585,
+  "metadata" : {
+    "handle" : "MOJNET-AS",
+    "description" : "Ministry of Justice",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.178.29.0/24",
       "210.178.30.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

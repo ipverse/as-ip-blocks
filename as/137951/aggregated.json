@@ -1,9 +1,12 @@
 {
-  "asn": 137951,
-  "handle": "ASLINE-AS-AP",
-  "description": "ASLINE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137951,
+  "metadata" : {
+    "handle" : "ASLINE-AS-AP",
+    "description" : "ASLINE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.134.147.0/24",
       "154.212.132.0/22",
       "154.215.4.0/22",
@@ -14,6 +17,6 @@
       "156.224.32.0/19",
       "168.76.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

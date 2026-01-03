@@ -1,13 +1,16 @@
 {
-  "asn": 59348,
-  "handle": "SKYCABLE-AS-AP",
-  "description": "Sky Cable Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59348,
+  "metadata" : {
+    "handle" : "SKYCABLE-AS-AP",
+    "description" : "Sky Cable Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "111.68.37.0/24",
       "130.105.145.0/24",
       "202.78.64.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

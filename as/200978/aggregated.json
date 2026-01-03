@@ -1,13 +1,16 @@
 {
-  "asn": 200978,
-  "handle": "BIT-SERV",
-  "description": "Biesterfeld SE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200978,
+  "metadata" : {
+    "handle" : "BIT-SERV",
+    "description" : "Biesterfeld SE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.227.98.0/23",
       "185.89.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:d980::/29"
     ]
   }

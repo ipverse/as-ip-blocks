@@ -1,11 +1,14 @@
 {
-  "asn": 36300,
-  "handle": "PCSB-ASN",
-  "description": "Pinellas County Schools",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36300,
+  "metadata" : {
+    "handle" : "PCSB-ASN",
+    "description" : "Pinellas County Schools",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.213.0.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

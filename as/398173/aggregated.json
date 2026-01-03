@@ -1,9 +1,12 @@
 {
-  "asn": 398173,
-  "handle": "SEAGATE-USA-CA-2",
-  "description": "Seagate Technology LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398173,
+  "metadata" : {
+    "handle" : "SEAGATE-USA-CA-2",
+    "description" : "Seagate Technology LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.204.250.0/23",
       "134.204.252.0/23",
       "134.204.255.0/24",
@@ -11,6 +14,6 @@
       "192.55.8.0/23",
       "192.55.20.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

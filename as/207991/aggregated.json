@@ -1,13 +1,16 @@
 {
-  "asn": 207991,
-  "handle": "AM-ACHON",
-  "description": "ACHON LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207991,
+  "metadata" : {
+    "handle" : "AM-ACHON",
+    "description" : "ACHON LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.30.176.0/23",
       "194.31.4.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:9c0::/29"
     ]
   }

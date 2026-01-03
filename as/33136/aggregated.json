@@ -1,9 +1,12 @@
 {
-  "asn": 33136,
-  "handle": "OZARK-FIBER",
-  "description": "Ozark Fiber LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33136,
+  "metadata" : {
+    "handle" : "OZARK-FIBER",
+    "description" : "Ozark Fiber LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.9.30.0/23",
       "138.129.1.0/24",
       "138.129.2.0/23",
@@ -11,6 +14,6 @@
       "216.47.0.0/20",
       "216.47.16.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

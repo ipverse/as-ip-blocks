@@ -1,9 +1,12 @@
 {
-  "asn": 216365,
-  "handle": "CLOUD-SOLUTIONS-2",
-  "description": "LIMITED LIABILITY COMPANY CLOUD SOLUTIONS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216365,
+  "metadata" : {
+    "handle" : "CLOUD-SOLUTIONS-2",
+    "description" : "LIMITED LIABILITY COMPANY CLOUD SOLUTIONS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.192.16.0/23",
       "89.208.72.0/23",
       "89.208.160.0/23",
@@ -12,7 +15,7 @@
       "92.38.212.0/23",
       "213.219.216.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:c90::/48",
       "2001:67c:73c::/48"
     ]

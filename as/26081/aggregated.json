@@ -1,9 +1,12 @@
 {
-  "asn": 26081,
-  "handle": "SANTEECOOPER",
-  "description": "Santee Cooper",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26081,
+  "metadata" : {
+    "handle" : "SANTEECOOPER",
+    "description" : "Santee Cooper",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.32.1.0/24",
       "170.32.2.0/23",
       "170.32.12.0/24",
@@ -17,6 +20,6 @@
       "170.32.208.0/23",
       "204.116.178.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 136468,
-  "handle": "IBM-SG-AP",
-  "description": "IBM Singapore Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136468,
+  "metadata" : {
+    "handle" : "IBM-SG-AP",
+    "description" : "IBM Singapore Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.114.204.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:cf80:100a::/47"
     ]
   }

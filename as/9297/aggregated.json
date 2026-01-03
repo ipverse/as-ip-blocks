@@ -1,14 +1,17 @@
 {
-  "asn": 9297,
-  "handle": "COLOCITY-AS-AP",
-  "description": "Colocity Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9297,
+  "metadata" : {
+    "handle" : "COLOCITY-AS-AP",
+    "description" : "Colocity Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.248.44.0/22",
       "119.252.0.0/19",
       "202.12.71.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:1400::/32"
     ]
   }

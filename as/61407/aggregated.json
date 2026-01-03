@@ -1,12 +1,15 @@
 {
-  "asn": 61407,
-  "handle": "NEWTELCO-AS",
-  "description": "NewTelco GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61407,
+  "metadata" : {
+    "handle" : "NEWTELCO-AS",
+    "description" : "NewTelco GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.29.211.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:5240::/29"
     ]
   }

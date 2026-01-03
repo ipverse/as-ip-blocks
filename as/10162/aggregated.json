@@ -1,14 +1,17 @@
 {
-  "asn": 10162,
-  "handle": "SNUH-AS",
-  "description": "SNUH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10162,
+  "metadata" : {
+    "handle" : "SNUH-AS",
+    "description" : "SNUH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "115.187.20.0/23",
       "203.229.128.0/20",
       "210.117.213.0/24",
       "211.168.196.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

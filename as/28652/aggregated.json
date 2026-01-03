@@ -1,9 +1,12 @@
 {
-  "asn": 28652,
-  "handle": "TELECOMUNICACOES-NORDESTE",
-  "description": "Telecomunicações Nordeste Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28652,
+  "metadata" : {
+    "handle" : "TELECOMUNICACOES-NORDESTE",
+    "description" : "Telecomunicações Nordeste Ltda.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.255.48.0/22",
       "177.47.32.0/19",
       "177.155.96.0/22",
@@ -13,7 +16,7 @@
       "189.90.176.0/20",
       "201.76.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:45c::/32"
     ]
   }

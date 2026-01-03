@@ -1,9 +1,12 @@
 {
-  "asn": 23140,
-  "handle": "UNIVERSIDAD-CHILE",
-  "description": "Universidad de Chile",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23140,
+  "metadata" : {
+    "handle" : "UNIVERSIDAD-CHILE",
+    "description" : "Universidad de Chile",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.83.2.0/23",
       "146.83.4.0/22",
       "146.83.8.0/21",
@@ -15,7 +18,7 @@
       "200.9.100.0/24",
       "200.89.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:7ce0::/32"
     ]
   }

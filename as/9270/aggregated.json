@@ -1,9 +1,12 @@
 {
-  "asn": 9270,
-  "handle": "APAN-KR-AS",
-  "description": "National Infomation Society Agency",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9270,
+  "metadata" : {
+    "handle" : "APAN-KR-AS",
+    "description" : "National Infomation Society Agency",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.248.72.0/22",
       "61.252.52.0/22",
       "61.252.56.0/22",
@@ -16,7 +19,7 @@
       "203.255.248.0/21",
       "210.114.88.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:c000::/32"
     ]
   }

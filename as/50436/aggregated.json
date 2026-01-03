@@ -1,9 +1,12 @@
 {
-  "asn": 50436,
-  "handle": "TC-CIN",
-  "description": "Tele Columbus AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50436,
+  "metadata" : {
+    "handle" : "TC-CIN",
+    "description" : "Tele Columbus AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.28.64.0/18",
       "37.120.0.0/17",
       "77.64.172.0/24",
@@ -27,7 +30,7 @@
       "94.139.0.0/19",
       "217.68.167.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2455:8000::/35",
       "2a02:2455:a000::/36"
     ]

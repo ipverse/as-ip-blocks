@@ -1,12 +1,15 @@
 {
-  "asn": 150114,
-  "handle": "CITYINTERNETCOM-AS-AP",
-  "description": "City Internet.Com",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150114,
+  "metadata" : {
+    "handle" : "CITYINTERNETCOM-AS-AP",
+    "description" : "City Internet.Com",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.66.228.0/24",
       "103.190.226.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 141296,
-  "handle": "DINET-AS-IN",
-  "description": "Daman I Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141296,
+  "metadata" : {
+    "handle" : "DINET-AS-IN",
+    "description" : "Daman I Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.159.156.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:37c0::/48"
     ]
   }

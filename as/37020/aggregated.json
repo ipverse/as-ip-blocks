@@ -1,9 +1,12 @@
 {
-  "asn": 37020,
-  "handle": "CELTEL-DRC",
-  "description": "CELTEL DRC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37020,
+  "metadata" : {
+    "handle" : "CELTEL-DRC",
+    "description" : "CELTEL DRC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.222.196.0/24",
       "41.222.198.0/23",
       "41.243.1.0/24",
@@ -23,6 +26,6 @@
       "41.243.75.0/24",
       "41.243.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

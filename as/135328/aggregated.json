@@ -1,13 +1,16 @@
 {
-  "asn": 135328,
-  "handle": "TSL-AS-AP",
-  "description": "TANGELO SERVICES LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135328,
+  "metadata" : {
+    "handle" : "TSL-AS-AP",
+    "description" : "TANGELO SERVICES LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.214.104.0/24",
       "103.214.106.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:c480::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 33555,
-  "handle": "STONEMARCHE",
-  "description": "Stonemarche Network CoOp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33555,
+  "metadata" : {
+    "handle" : "STONEMARCHE",
+    "description" : "Stonemarche Network CoOp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.89.177.0/24",
       "205.166.65.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 30417,
-  "handle": "BTIG-LLC",
-  "description": "BTIG LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30417,
+  "metadata" : {
+    "handle" : "BTIG-LLC",
+    "description" : "BTIG LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.133.137.0/24",
       "38.146.48.0/24",
       "64.124.70.0/24",
@@ -16,6 +19,6 @@
       "199.85.245.0/24",
       "209.214.224.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

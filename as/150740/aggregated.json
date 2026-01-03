@@ -1,13 +1,16 @@
 {
-  "asn": 150740,
-  "handle": "SARKER2-AS-AP",
-  "description": "SARKER COMMUNICATION",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150740,
+  "metadata" : {
+    "handle" : "SARKER2-AS-AP",
+    "description" : "SARKER COMMUNICATION",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.20.242.0/24",
       "103.170.230.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:65c0::/48"
     ]
   }

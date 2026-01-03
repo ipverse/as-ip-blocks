@@ -1,13 +1,16 @@
 {
-  "asn": 11967,
-  "handle": "HOP179",
-  "description": "Hop179 LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11967,
+  "metadata" : {
+    "handle" : "HOP179",
+    "description" : "Hop179 LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.133.172.0/24",
       "130.12.194.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f72e::/43",
       "2602:f72e:179::/48",
       "2a02:2fc0:1b::/48",

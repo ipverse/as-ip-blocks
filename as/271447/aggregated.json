@@ -1,12 +1,15 @@
 {
-  "asn": 271447,
-  "handle": "SOFTLINK-INTERNET",
-  "description": "SOFTLINK INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271447,
+  "metadata" : {
+    "handle" : "SOFTLINK-INTERNET",
+    "description" : "SOFTLINK INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.49.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7bac::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 43541,
-  "handle": "VSHOSTING",
-  "description": "VSHosting s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43541,
+  "metadata" : {
+    "handle" : "VSHOSTING",
+    "description" : "VSHosting s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.243.48.0/23",
       "46.243.50.0/24",
       "46.243.55.0/24",
@@ -20,7 +23,7 @@
       "185.234.28.0/22",
       "217.16.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:aac::/48",
       "2a00:1ed0::/31",
       "2a02:5420:11::/48",

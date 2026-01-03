@@ -1,9 +1,12 @@
 {
-  "asn": 3949,
-  "handle": "NTTA-3946",
-  "description": "NTT America Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3949,
+  "metadata" : {
+    "handle" : "NTTA-3946",
+    "description" : "NTT America Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.149.225.0/24",
       "45.149.226.0/24",
       "62.73.186.0/24",
@@ -45,7 +48,7 @@
       "204.2.186.0/24",
       "205.132.16.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:a280:ff00::/44",
       "2405:a280:ff80::/44",
       "2407:a800:3e11::/48"

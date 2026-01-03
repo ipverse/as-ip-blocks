@@ -1,9 +1,12 @@
 {
-  "asn": 13768,
-  "handle": "COGECO-PEER1",
-  "description": "Aptum Technologies",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13768,
+  "metadata" : {
+    "handle" : "COGECO-PEER1",
+    "description" : "Aptum Technologies",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.44.16.0/20",
       "23.180.80.0/24",
       "36.255.72.0/22",
@@ -376,7 +379,7 @@
       "216.247.255.0/24",
       "217.198.98.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1978:202::/48",
       "2001:1978:1100::/40",
       "2001:1978:1300::/40",

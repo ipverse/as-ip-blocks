@@ -1,14 +1,17 @@
 {
-  "asn": 60099,
-  "handle": "RES",
-  "description": "UAB Radijo elektronines sistemos",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60099,
+  "metadata" : {
+    "handle" : "RES",
+    "description" : "UAB Radijo elektronines sistemos",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.32.12.0/23",
       "84.32.72.0/22",
       "88.216.4.0/22",
       "88.216.80.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 54989,
-  "handle": "DUNCAN-TV",
-  "description": "DUNCAN TELECOMMUNICATIONS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54989,
+  "metadata" : {
+    "handle" : "DUNCAN-TV",
+    "description" : "DUNCAN TELECOMMUNICATIONS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.17.97.0/24",
       "64.17.119.0/24",
       "198.168.37.0/24",
@@ -12,6 +15,6 @@
       "216.114.149.0/24",
       "216.114.178.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 2046,
-  "handle": "DNIC-AS-02046",
-  "description": "United States Department of Defense (DoD)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2046,
+  "metadata" : {
+    "handle" : "DNIC-AS-02046",
+    "description" : "United States Department of Defense (DoD)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.241.14.0/24",
       "192.207.163.0/24",
       "209.22.64.0/22",
@@ -11,6 +14,6 @@
       "209.22.96.0/24",
       "214.54.0.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

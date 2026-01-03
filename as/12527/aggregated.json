@@ -1,12 +1,15 @@
 {
-  "asn": 12527,
-  "handle": "MILLENNIUMBCP-AS",
-  "description": "Millennium BCP-Prestacao de Servicos ACE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12527,
+  "metadata" : {
+    "handle" : "MILLENNIUMBCP-AS",
+    "description" : "Millennium BCP-Prestacao de Servicos ACE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.157.230.0/23",
       "91.90.170.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

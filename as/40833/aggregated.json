@@ -1,13 +1,16 @@
 {
-  "asn": 40833,
-  "handle": "NYTD-SEA1",
-  "description": "The New York Times Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40833,
+  "metadata" : {
+    "handle" : "NYTD-SEA1",
+    "description" : "The New York Times Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.149.226.0/23",
       "170.149.232.0/23",
       "170.149.238.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

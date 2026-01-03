@@ -1,9 +1,12 @@
 {
-  "asn": 15465,
-  "handle": "SIEMENSDE",
-  "description": "Siemens AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15465,
+  "metadata" : {
+    "handle" : "SIEMENSDE",
+    "description" : "Siemens AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.23.204.0/22",
       "143.99.146.0/23",
       "143.99.196.0/23",
@@ -13,7 +16,7 @@
       "194.138.36.0/22",
       "194.138.40.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:ad87:1300::/48",
       "2a00:ad87:1302::/48"
     ]

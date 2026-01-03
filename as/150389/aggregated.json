@@ -1,13 +1,16 @@
 {
-  "asn": 150389,
-  "handle": "SPRINTNET-AS-AP",
-  "description": "Sprint Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150389,
+  "metadata" : {
+    "handle" : "SPRINTNET-AS-AP",
+    "description" : "Sprint Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.29.8.0/23",
       "103.170.208.0/23",
       "118.179.10.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

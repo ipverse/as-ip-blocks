@@ -1,12 +1,15 @@
 {
-  "asn": 137396,
-  "handle": "BBARIANET-AS-AP",
-  "description": "B-Baria Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137396,
+  "metadata" : {
+    "handle" : "BBARIANET-AS-AP",
+    "description" : "B-Baria Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.107.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:cf40::/32"
     ]
   }

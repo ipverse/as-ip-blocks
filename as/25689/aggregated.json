@@ -1,9 +1,12 @@
 {
-  "asn": 25689,
-  "handle": "SSC-299-25689",
-  "description": "Shared Services Canada",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25689,
+  "metadata" : {
+    "handle" : "SSC-299-25689",
+    "description" : "Shared Services Canada",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.246.0.0/16",
       "167.37.244.0/22",
       "167.37.249.0/24",
@@ -14,7 +17,7 @@
       "192.139.198.0/24",
       "204.174.103.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1920::/32",
       "2604:8400::/32"
     ]

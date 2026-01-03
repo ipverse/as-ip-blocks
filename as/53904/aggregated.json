@@ -1,13 +1,16 @@
 {
-  "asn": 53904,
-  "handle": "CANARIE-INC",
-  "description": "CANARIE Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53904,
+  "metadata" : {
+    "handle" : "CANARIE-INC",
+    "description" : "CANARIE Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.244.229.0/24",
       "205.189.33.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:410:102::/48"
     ]
   }

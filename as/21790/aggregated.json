@@ -1,12 +1,15 @@
 {
-  "asn": 21790,
-  "handle": "TCABH-AS",
-  "description": "The Church at Brook Hills",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21790,
+  "metadata" : {
+    "handle" : "TCABH-AS",
+    "description" : "The Church at Brook Hills",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.190.140.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:81a:4000::/44"
     ]
   }

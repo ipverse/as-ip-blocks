@@ -1,12 +1,15 @@
 {
-  "asn": 25771,
-  "handle": "MAXIM-60",
-  "description": "PSI/Maximus",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25771,
+  "metadata" : {
+    "handle" : "MAXIM-60",
+    "description" : "PSI/Maximus",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "172.81.80.0/22",
       "172.81.86.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

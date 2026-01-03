@@ -1,12 +1,15 @@
 {
-  "asn": 134997,
-  "handle": "YFNET-AS-AP",
-  "description": "YFNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134997,
+  "metadata" : {
+    "handle" : "YFNET-AS-AP",
+    "description" : "YFNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.155.202.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:9e80:40::/48",
       "2406:77c0::/48"
     ]

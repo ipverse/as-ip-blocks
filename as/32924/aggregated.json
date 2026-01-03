@@ -1,12 +1,15 @@
 {
-  "asn": 32924,
-  "handle": "GREENWAY-HEALTH",
-  "description": "Greenway Health LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32924,
+  "metadata" : {
+    "handle" : "GREENWAY-HEALTH",
+    "description" : "Greenway Health LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "172.81.136.0/23",
       "172.81.138.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

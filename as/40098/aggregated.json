@@ -1,9 +1,12 @@
 {
-  "asn": 40098,
-  "handle": "CASNET",
-  "description": "Community Antenna Service Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40098,
+  "metadata" : {
+    "handle" : "CASNET",
+    "description" : "Community Antenna Service Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.20.123.0/24",
       "12.27.33.0/24",
       "12.109.102.0/24",
@@ -15,7 +18,7 @@
       "198.179.6.0/24",
       "216.20.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:480::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 10798,
-  "handle": "SBICSA",
-  "description": "The Standard Bank of South Africa (Proprietary) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10798,
+  "metadata" : {
+    "handle" : "SBICSA",
+    "description" : "The Standard Bank of South Africa (Proprietary) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "166.85.5.0/24",
       "166.85.16.0/23",
       "166.85.18.0/24",
@@ -59,6 +62,6 @@
       "196.8.238.0/24",
       "196.8.245.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

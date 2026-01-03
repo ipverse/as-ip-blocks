@@ -1,15 +1,18 @@
 {
-  "asn": 55009,
-  "handle": "ROUTER12",
-  "description": "Router12 Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55009,
+  "metadata" : {
+    "handle" : "ROUTER12",
+    "description" : "Router12 Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.176.32.0/24",
       "167.142.207.0/24",
       "192.225.104.0/23",
       "209.152.67.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff05::/36"
     ]
   }

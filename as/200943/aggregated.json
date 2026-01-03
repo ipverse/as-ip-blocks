@@ -1,9 +1,12 @@
 {
-  "asn": 200943,
-  "handle": "FRAUNHOFER-MUENCHEN",
-  "description": "Fraunhofer-Gesellschaft zur Foerderung der angewandten Forschung e.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200943,
+  "metadata" : {
+    "handle" : "FRAUNHOFER-MUENCHEN",
+    "description" : "Fraunhofer-Gesellschaft zur Foerderung der angewandten Forschung e.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.233.200.0/23",
       "129.233.202.0/24",
       "153.96.62.0/23",
@@ -23,7 +26,7 @@
       "192.102.166.0/24",
       "192.102.173.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:61c::/48",
       "2a03:db80:5460::/48",
       "2a03:db80:5464::/48",

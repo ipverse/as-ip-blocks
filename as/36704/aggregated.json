@@ -1,12 +1,15 @@
 {
-  "asn": 36704,
-  "handle": "CSM-AS",
-  "description": "Colorado School of Mines",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36704,
+  "metadata" : {
+    "handle" : "CSM-AS",
+    "description" : "Colorado School of Mines",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.67.0.0/16",
       "192.26.83.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 60706,
-  "handle": "ASN-SARDWIFI",
-  "description": "SARDEGNA WIFI SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60706,
+  "metadata" : {
+    "handle" : "ASN-SARDWIFI",
+    "description" : "SARDEGNA WIFI SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.104.252.0/22",
       "185.26.196.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8c60:1::/48",
       "2a00:8c60:a::/47"
     ]

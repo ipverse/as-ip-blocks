@@ -1,14 +1,17 @@
 {
-  "asn": 1704,
-  "handle": "KAIST-SEOUL-AS",
-  "description": "Korea Advanced Institute of Science and Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1704,
+  "metadata" : {
+    "handle" : "KAIST-SEOUL-AS",
+    "description" : "Korea Advanced Institute of Science and Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.68.64.0/18",
       "137.68.128.0/17",
       "210.107.145.0/24",
       "210.107.147.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 395323,
-  "handle": "SMC",
-  "description": "County of San Mateo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395323,
+  "metadata" : {
+    "handle" : "SMC",
+    "description" : "County of San Mateo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.114.32.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

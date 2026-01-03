@@ -1,11 +1,14 @@
 {
-  "asn": 19094,
-  "handle": "RESERVED-IPADMIN",
-  "description": "Level 3 Parent LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19094,
+  "metadata" : {
+    "handle" : "RESERVED-IPADMIN",
+    "description" : "Level 3 Parent LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "152.50.3.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

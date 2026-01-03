@@ -1,9 +1,12 @@
 {
-  "asn": 19165,
-  "handle": "WEBPASS",
-  "description": "Webpass Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19165,
+  "metadata" : {
+    "handle" : "WEBPASS",
+    "description" : "Webpass Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "136.24.0.0/15",
       "136.26.0.0/17",
       "136.26.128.0/18",
@@ -31,7 +34,7 @@
       "209.40.90.0/23",
       "209.40.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:5500::/42",
       "2604:5500:800::/42",
       "2604:5500:c00::/42",

@@ -1,10 +1,13 @@
 {
-  "asn": 14338,
-  "handle": "KORE-WIRELESS",
-  "description": "KORE Wireless",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 14338,
+  "metadata" : {
+    "handle" : "KORE-WIRELESS",
+    "description" : "KORE Wireless",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2607:9480:10::/44",
       "2607:9480:f0::/44",
       "2607:9480:f000::/44"

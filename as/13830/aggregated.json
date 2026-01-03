@@ -1,15 +1,18 @@
 {
-  "asn": 13830,
-  "handle": "NEXRIL",
-  "description": "PureVoltage Hosting Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13830,
+  "metadata" : {
+    "handle" : "NEXRIL",
+    "description" : "PureVoltage Hosting Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.202.220.0/22",
       "161.129.152.0/22",
       "163.123.204.0/22",
       "208.99.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:4d40:4000::/36",
       "2604:4d40:8000::/36",
       "2604:fbc0::/36",

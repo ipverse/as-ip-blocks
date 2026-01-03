@@ -1,12 +1,15 @@
 {
-  "asn": 400101,
-  "handle": "AS-RINGFREE",
-  "description": "Ringfree Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400101,
+  "metadata" : {
+    "handle" : "AS-RINGFREE",
+    "description" : "Ringfree Communications Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.249.189.0/24",
       "199.16.191.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

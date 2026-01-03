@@ -1,13 +1,16 @@
 {
-  "asn": 137176,
-  "handle": "CCIL-AS",
-  "description": "The Clearing Corporation Of India Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137176,
+  "metadata" : {
+    "handle" : "CCIL-AS",
+    "description" : "The Clearing Corporation Of India Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.110.222.0/24",
       "103.113.150.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:7700::/47",
       "2001:df4:7702::/48"
     ]

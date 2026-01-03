@@ -1,9 +1,12 @@
 {
-  "asn": 24435,
-  "handle": "SUPERNET-PAKISTAN-AS-AP",
-  "description": "Supernet PDS Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24435,
+  "metadata" : {
+    "handle" : "SUPERNET-PAKISTAN-AS-AP",
+    "description" : "Supernet PDS Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.0.184.0/22",
       "103.27.22.0/24",
       "116.0.35.0/24",
@@ -21,7 +24,7 @@
       "175.111.4.0/23",
       "203.130.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:fe8::/46",
       "2001:fe8:9::/48",
       "2001:fe8:10::/47",

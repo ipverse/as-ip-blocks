@@ -1,9 +1,12 @@
 {
-  "asn": 198352,
-  "handle": "ESPRESSO-AS",
-  "description": "Espresso Gridpoint BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198352,
+  "metadata" : {
+    "handle" : "ESPRESSO-AS",
+    "description" : "Espresso Gridpoint BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.151.120.0/21",
       "91.190.98.0/24",
       "151.237.160.0/21",
@@ -11,7 +14,7 @@
       "193.37.108.0/22",
       "195.246.116.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:a0c0::/32",
       "2a0c:b4c0::/29"
     ]

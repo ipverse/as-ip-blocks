@@ -1,12 +1,15 @@
 {
-  "asn": 132438,
-  "handle": "APONIT-AS-AP",
-  "description": "APON IT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132438,
+  "metadata" : {
+    "handle" : "APONIT-AS-AP",
+    "description" : "APON IT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.73.44.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:ec80::/32"
     ]
   }

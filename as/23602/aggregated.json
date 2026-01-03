@@ -1,11 +1,14 @@
 {
-  "asn": 23602,
-  "handle": "DTAC-CRIE-AS-AP",
-  "description": "DTAC (CRIE Project)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23602,
+  "metadata" : {
+    "handle" : "DTAC-CRIE-AS-AP",
+    "description" : "DTAC (CRIE Project)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "124.40.232.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

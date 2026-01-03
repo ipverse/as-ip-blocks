@@ -1,12 +1,15 @@
 {
-  "asn": 63797,
-  "handle": "CUTEIP",
-  "description": "CuteIP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63797,
+  "metadata" : {
+    "handle" : "CUTEIP",
+    "description" : "CuteIP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.48.40.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:c7e0::/32"
     ]
   }

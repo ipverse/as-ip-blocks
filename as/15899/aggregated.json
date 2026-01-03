@@ -1,9 +1,12 @@
 {
-  "asn": 15899,
-  "handle": "ERNIS-AS",
-  "description": "ERNIS SIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15899,
+  "metadata" : {
+    "handle" : "ERNIS-AS",
+    "description" : "ERNIS SIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.42.91.0/24",
       "31.42.92.0/23",
       "31.42.95.0/24",
@@ -15,6 +18,6 @@
       "176.106.96.0/22",
       "185.47.9.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

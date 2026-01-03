@@ -1,14 +1,17 @@
 {
-  "asn": 398163,
-  "handle": "FIBERWEST",
-  "description": "Fiber West",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398163,
+  "metadata" : {
+    "handle" : "FIBERWEST",
+    "description" : "Fiber West",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.123.200.0/24",
       "206.123.209.0/24",
       "206.123.210.0/24",
       "209.203.137.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

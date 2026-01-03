@@ -1,12 +1,15 @@
 {
-  "asn": 57198,
-  "handle": "PARTITIONWARE-AS",
-  "description": "OV Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57198,
+  "metadata" : {
+    "handle" : "PARTITIONWARE-AS",
+    "description" : "OV Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.180.168.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:aa80::/32"
     ]
   }

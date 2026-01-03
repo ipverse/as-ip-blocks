@@ -1,9 +1,12 @@
 {
-  "asn": 29492,
-  "handle": "EIDSIVA-ASN",
-  "description": "EIDSIVA DIGITAL AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29492,
+  "metadata" : {
+    "handle" : "EIDSIVA-ASN",
+    "description" : "EIDSIVA DIGITAL AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.143.48.0/22",
       "37.148.144.0/21",
       "46.226.24.0/21",
@@ -15,7 +18,7 @@
       "109.203.0.0/19",
       "185.20.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:a18::/32"
     ]
   }

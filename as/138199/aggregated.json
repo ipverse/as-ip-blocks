@@ -1,15 +1,18 @@
 {
-  "asn": 138199,
-  "handle": "TRANSATEL1-AS-AP",
-  "description": "Transatel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138199,
+  "metadata" : {
+    "handle" : "TRANSATEL1-AS-AP",
+    "description" : "Transatel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.251.99.0/24",
       "103.122.52.0/24",
       "185.24.232.0/22",
       "202.37.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:8d00::/48",
       "2401:42a0::/39",
       "2401:42a0:200::/40"

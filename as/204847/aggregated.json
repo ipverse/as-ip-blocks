@@ -1,13 +1,16 @@
 {
-  "asn": 204847,
-  "handle": "SE-BORGHOLM",
-  "description": "Borgholms Kommun",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204847,
+  "metadata" : {
+    "handle" : "SE-BORGHOLM",
+    "description" : "Borgholms Kommun",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.183.78.0/24",
       "194.68.122.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2a84::/48",
       "2001:67c:2bd0::/48"
     ]

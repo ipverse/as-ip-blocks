@@ -1,9 +1,12 @@
 {
-  "asn": 200899,
-  "handle": "INTERSPACE-EUROPE",
-  "description": "INTERSPACE DOOEL Skopje",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200899,
+  "metadata" : {
+    "handle" : "INTERSPACE-EUROPE",
+    "description" : "INTERSPACE DOOEL Skopje",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.83.252.0/22",
       "185.226.0.0/22",
       "185.229.24.0/22",
@@ -12,7 +15,7 @@
       "185.232.120.0/22",
       "185.250.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:a100::/29",
       "2a0d:5c80::/29",
       "2a0d:5d80::/29",

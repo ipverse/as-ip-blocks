@@ -1,12 +1,15 @@
 {
-  "asn": 39315,
-  "handle": "COMCOR-SERVICE-AS",
-  "description": "Comcor Service LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39315,
+  "metadata" : {
+    "handle" : "COMCOR-SERVICE-AS",
+    "description" : "Comcor Service LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.80.140.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:fb00:1::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 264768,
-  "handle": "ANTENA-DELTA",
-  "description": "ANTENA DELTA SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264768,
+  "metadata" : {
+    "handle" : "ANTENA-DELTA",
+    "description" : "ANTENA DELTA SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.196.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:d0c0::/32"
     ]
   }

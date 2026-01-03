@@ -1,15 +1,18 @@
 {
-  "asn": 2013,
-  "handle": "PACIFIC-GAS",
-  "description": "PG\u0026E",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2013,
+  "metadata" : {
+    "handle" : "PACIFIC-GAS",
+    "description" : "PG&E",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.19.0.0/16",
       "131.89.0.0/16",
       "192.68.118.0/24",
       "192.68.122.0/24",
       "192.80.251.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

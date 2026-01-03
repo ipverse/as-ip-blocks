@@ -1,9 +1,12 @@
 {
-  "asn": 21003,
-  "handle": "GPTC-AS",
-  "description": "General Post and Telecommunication Company (GPTC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21003,
+  "metadata" : {
+    "handle" : "GPTC-AS",
+    "description" : "General Post and Telecommunication Company (GPTC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.208.64.0/18",
       "41.252.0.0/14",
       "62.68.32.0/19",
@@ -18,7 +21,7 @@
       "154.73.28.0/23",
       "154.73.30.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fb10::/48"
     ]
   }

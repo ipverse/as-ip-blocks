@@ -1,9 +1,12 @@
 {
-  "asn": 9578,
-  "handle": "CJNET-AS",
-  "description": "Cheiljedang.Co.Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9578,
+  "metadata" : {
+    "handle" : "CJNET-AS",
+    "description" : "Cheiljedang.Co.Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.34.8.0/21",
       "61.33.235.0/24",
       "115.88.13.0/24",
@@ -25,6 +28,6 @@
       "220.126.159.0/24",
       "222.239.32.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

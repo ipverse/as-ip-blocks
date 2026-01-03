@@ -1,9 +1,12 @@
 {
-  "asn": 395341,
-  "handle": "WCT-16",
-  "description": "White Cloud Technologies LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395341,
+  "metadata" : {
+    "handle" : "WCT-16",
+    "description" : "White Cloud Technologies LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.205.204.0/22",
       "141.193.8.0/23",
       "141.193.11.0/24",
@@ -14,6 +17,6 @@
       "209.206.120.0/22",
       "216.180.115.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

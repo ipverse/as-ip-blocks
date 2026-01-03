@@ -1,9 +1,12 @@
 {
-  "asn": 5742,
-  "handle": "CCINET",
-  "description": "Fidium",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5742,
+  "metadata" : {
+    "handle" : "CCINET",
+    "description" : "Fidium",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.116.0.0/18",
       "66.243.220.0/23",
       "67.58.248.0/21",
@@ -40,7 +43,7 @@
       "216.227.85.0/24",
       "216.227.121.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:db80::/32"
     ]
   }

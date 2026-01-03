@@ -1,11 +1,14 @@
 {
-  "asn": 34211,
-  "handle": "LANPORT-AS",
-  "description": "Lanport-S LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34211,
+  "metadata" : {
+    "handle" : "LANPORT-AS",
+    "description" : "Lanport-S LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.44.68.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

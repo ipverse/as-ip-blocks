@@ -1,9 +1,12 @@
 {
-  "asn": 50596,
-  "handle": "ITNET33",
-  "description": "Informatsionnye Tekhnologii LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50596,
+  "metadata" : {
+    "handle" : "ITNET33",
+    "description" : "Informatsionnye Tekhnologii LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.75.200.0/21",
       "46.254.160.0/21",
       "93.179.104.0/21",
@@ -15,7 +18,7 @@
       "188.68.168.0/21",
       "188.68.192.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:3cc0::/29"
     ]
   }

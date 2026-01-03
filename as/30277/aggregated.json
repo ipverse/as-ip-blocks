@@ -1,9 +1,12 @@
 {
-  "asn": 30277,
-  "handle": "DFW-DATACENTER",
-  "description": "DFW Datacenter",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30277,
+  "metadata" : {
+    "handle" : "DFW-DATACENTER",
+    "description" : "DFW Datacenter",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.222.128.0/19",
       "72.9.144.0/20",
       "158.106.184.0/21",
@@ -13,7 +16,7 @@
       "199.26.84.0/22",
       "209.236.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:db00::/32"
     ]
   }

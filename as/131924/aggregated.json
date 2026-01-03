@@ -1,12 +1,15 @@
 {
-  "asn": 131924,
-  "handle": "KAP-NET",
-  "description": "Kansai Airports",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131924,
+  "metadata" : {
+    "handle" : "KAP-NET",
+    "description" : "Kansai Airports",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.102.3.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:c300::/48"
     ]
   }

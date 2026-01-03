@@ -1,9 +1,12 @@
 {
-  "asn": 19605,
-  "handle": "3RC",
-  "description": "3 Rivers Telephone Cooperative Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19605,
+  "metadata" : {
+    "handle" : "3RC",
+    "description" : "3 Rivers Telephone Cooperative Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.112.190.0/24",
       "64.124.207.0/24",
       "66.113.38.0/24",
@@ -34,6 +37,6 @@
       "216.146.110.0/24",
       "216.220.16.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 150288,
-  "handle": "METAGE-AS-AP",
-  "description": "METAGE TECHNOLOGY PTE. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150288,
+  "metadata" : {
+    "handle" : "METAGE-AS-AP",
+    "description" : "METAGE TECHNOLOGY PTE. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.126.142.0/23",
       "103.129.136.0/22",
       "103.135.116.0/22",
       "202.148.216.0/23",
       "211.79.96.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

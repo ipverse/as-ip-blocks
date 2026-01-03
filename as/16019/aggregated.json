@@ -1,9 +1,12 @@
 {
-  "asn": 16019,
-  "handle": "VODAFONE-CZ-AS",
-  "description": "Vodafone Czech Republic a.s",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16019,
+  "metadata" : {
+    "handle" : "VODAFONE-CZ-AS",
+    "description" : "Vodafone Czech Republic a.s.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.30.0.0/16",
       "31.169.128.0/17",
       "46.135.0.0/16",
@@ -51,7 +54,7 @@
       "213.220.192.0/18",
       "217.77.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:95c::/48",
       "2001:36c0::/32",
       "2a00:11b0::/29",

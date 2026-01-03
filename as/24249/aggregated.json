@@ -1,9 +1,12 @@
 {
-  "asn": 24249,
-  "handle": "JWAY",
-  "description": "JWAY co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24249,
+  "metadata" : {
+    "handle" : "JWAY",
+    "description" : "JWAY co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.0.16.0/21",
       "103.120.180.0/22",
       "124.150.144.0/21",
@@ -13,7 +16,7 @@
       "202.223.44.0/22",
       "219.124.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:df40::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 54834,
-  "handle": "CDP",
-  "description": "CUSTOM DATA PROCESSING",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54834,
+  "metadata" : {
+    "handle" : "CDP",
+    "description" : "CUSTOM DATA PROCESSING",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.185.196.0/24",
       "12.203.160.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

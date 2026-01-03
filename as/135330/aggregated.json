@@ -1,9 +1,12 @@
 {
-  "asn": 135330,
-  "handle": "ADCDATACOM-AS-AP",
-  "description": "Adcdata.com",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135330,
+  "metadata" : {
+    "handle" : "ADCDATACOM-AS-AP",
+    "description" : "Adcdata.com",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.192.233.0/24",
       "103.15.220.0/24",
       "103.79.120.0/22",
@@ -13,7 +16,7 @@
       "193.233.193.0/24",
       "202.91.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:c680::/32",
       "2a0a:eec0:8::/48",
       "2a0d:6c2:4::/47"

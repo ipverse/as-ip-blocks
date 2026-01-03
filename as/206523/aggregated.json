@@ -1,9 +1,12 @@
 {
-  "asn": 206523,
-  "handle": "PUT",
-  "description": "Poznan University of Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206523,
+  "metadata" : {
+    "handle" : "PUT",
+    "description" : "Poznan University of Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "150.254.1.0/24",
       "150.254.2.0/23",
       "150.254.4.0/22",
@@ -21,6 +24,6 @@
       "150.254.132.0/22",
       "150.254.140.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

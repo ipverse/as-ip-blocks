@@ -1,9 +1,12 @@
 {
-  "asn": 8926,
-  "handle": "MOLDTELECOM-AS",
-  "description": "Moldtelecom SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8926,
+  "metadata" : {
+    "handle" : "MOLDTELECOM-AS",
+    "description" : "Moldtelecom SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.56.64.0/18",
       "37.75.16.0/20",
       "37.75.64.0/18",
@@ -92,7 +95,7 @@
       "212.0.200.0/21",
       "212.0.208.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:a30::/29"
     ]
   }

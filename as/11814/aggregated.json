@@ -1,9 +1,12 @@
 {
-  "asn": 11814,
-  "handle": "DISTRIBUTEL-AS11814",
-  "description": "Distributel Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11814,
+  "metadata" : {
+    "handle" : "DISTRIBUTEL-AS11814",
+    "description" : "Distributel Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.91.224.0/19",
       "45.42.96.0/19",
       "66.11.160.0/19",
@@ -41,7 +44,7 @@
       "216.58.0.0/17",
       "216.246.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:1e8::/32"
     ]
   }

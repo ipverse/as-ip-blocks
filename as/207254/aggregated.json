@@ -1,14 +1,17 @@
 {
-  "asn": 207254,
-  "handle": "EE-EMEEDIA",
-  "description": "AS Postimees Grupp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207254,
+  "metadata" : {
+    "handle" : "EE-EMEEDIA",
+    "description" : "AS Postimees Grupp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "184.104.225.0/24",
       "185.154.220.0/22",
       "195.130.196.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:6140:1::/48",
       "2a0b:6140:2::/48"
     ]

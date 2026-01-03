@@ -1,11 +1,14 @@
 {
-  "asn": 39400,
-  "handle": "LBH-AS",
-  "description": "London Borough of Hackney",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39400,
+  "metadata" : {
+    "handle" : "LBH-AS",
+    "description" : "London Borough of Hackney",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "156.61.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

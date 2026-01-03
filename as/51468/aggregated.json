@@ -1,9 +1,12 @@
 {
-  "asn": 51468,
-  "handle": "ONECOM",
-  "description": "One.com A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51468,
+  "metadata" : {
+    "handle" : "ONECOM",
+    "description" : "One.com A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.249.224.0/19",
       "46.30.208.0/21",
       "77.111.240.0/22",
@@ -18,7 +21,7 @@
       "193.202.110.0/24",
       "195.47.247.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:3c0::/48",
       "2a02:2350::/32",
       "2a03:53c0::/32"

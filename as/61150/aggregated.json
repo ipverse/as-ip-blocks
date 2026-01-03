@@ -1,12 +1,15 @@
 {
-  "asn": 61150,
-  "handle": "RIX-SERVICE-AS",
-  "description": "Verein Rheintal IX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61150,
+  "metadata" : {
+    "handle" : "RIX-SERVICE-AS",
+    "description" : "Verein Rheintal IX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.18.111.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:11c0::/32"
     ]
   }

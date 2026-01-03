@@ -1,13 +1,16 @@
 {
-  "asn": 9234,
-  "handle": "SOLONE-SG",
-  "description": "Sol One PTE LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9234,
+  "metadata" : {
+    "handle" : "SOLONE-SG",
+    "description" : "Sol One PTE LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.11.140.0/24",
       "103.29.106.0/23",
       "203.78.150.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

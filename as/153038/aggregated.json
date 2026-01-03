@@ -1,9 +1,12 @@
 {
-  "asn": 153038,
-  "handle": "BUSINESSZONELIMITED-AS-BD",
-  "description": "Business Zone Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153038,
+  "metadata" : {
+    "handle" : "BUSINESSZONELIMITED-AS-BD",
+    "description" : "Business Zone Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.20.89.0/24",
       "103.83.233.0/24",
       "103.107.41.0/24",
@@ -17,7 +20,7 @@
       "160.250.83.0/24",
       "203.89.126.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:c7c0:43e0::/43"
     ]
   }

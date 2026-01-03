@@ -1,13 +1,16 @@
 {
-  "asn": 267127,
-  "handle": "PH-TELECOM",
-  "description": "PH Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267127,
+  "metadata" : {
+    "handle" : "PH-TELECOM",
+    "description" : "PH Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.229.140.0/23",
       "45.229.143.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4888::/32"
     ]
   }

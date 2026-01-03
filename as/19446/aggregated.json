@@ -1,9 +1,12 @@
 {
-  "asn": 19446,
-  "handle": "3ZCANADA-01",
-  "description": "3Z Canada",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19446,
+  "metadata" : {
+    "handle" : "3ZCANADA-01",
+    "description" : "3Z Canada",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.78.46.0/24",
       "67.227.24.0/23",
       "67.227.28.0/23",
@@ -15,7 +18,7 @@
       "140.99.237.0/24",
       "205.189.47.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:b440::/32"
     ]
   }

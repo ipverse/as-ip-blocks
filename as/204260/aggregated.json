@@ -1,14 +1,17 @@
 {
-  "asn": 204260,
-  "handle": "ROS",
-  "description": "Registers of Scotland",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204260,
+  "metadata" : {
+    "handle" : "ROS",
+    "description" : "Registers of Scotland",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.109.8.0/22",
       "194.34.0.0/22",
       "194.34.4.0/23",
       "194.34.6.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

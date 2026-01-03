@@ -1,15 +1,18 @@
 {
-  "asn": 9228,
-  "handle": "CENTRALONLINE-ID-AS-AP",
-  "description": "PT. Total Info Kharisma",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9228,
+  "metadata" : {
+    "handle" : "CENTRALONLINE-ID-AS-AP",
+    "description" : "PT. Total Info Kharisma",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.77.224.0/21",
       "203.77.232.0/22",
       "203.77.237.0/24",
       "203.77.238.0/23",
       "203.77.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

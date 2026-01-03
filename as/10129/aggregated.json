@@ -1,14 +1,17 @@
 {
-  "asn": 10129,
-  "handle": "SSMB-AS-AP",
-  "description": "AAPT Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10129,
+  "metadata" : {
+    "handle" : "SSMB-AS-AP",
+    "description" : "AAPT Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.193.0.0/22",
       "199.67.160.0/23",
       "199.67.191.0/24",
       "199.67.194.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

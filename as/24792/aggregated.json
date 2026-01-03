@@ -1,12 +1,15 @@
 {
-  "asn": 24792,
-  "handle": "KITZNET-AS",
-  "description": "Stadtwerke Kitzbuehel e.U",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24792,
+  "metadata" : {
+    "handle" : "KITZNET-AS",
+    "description" : "Stadtwerke Kitzbuehel e.U.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.105.20.0/23",
       "217.14.224.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

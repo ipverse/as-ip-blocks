@@ -1,11 +1,14 @@
 {
-  "asn": 205130,
-  "handle": "TELM-AS",
-  "description": "LLC TELEMETRICA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205130,
+  "metadata" : {
+    "handle" : "TELM-AS",
+    "description" : "LLC TELEMETRICA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.137.129.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

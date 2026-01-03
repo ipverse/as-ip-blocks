@@ -1,13 +1,16 @@
 {
-  "asn": 3630,
-  "handle": "NYSERNET-BLK",
-  "description": "NYSERNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3630,
+  "metadata" : {
+    "handle" : "NYSERNET-BLK",
+    "description" : "NYSERNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.109.94.0/24",
       "199.109.99.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:f:7::/48"
     ]
   }

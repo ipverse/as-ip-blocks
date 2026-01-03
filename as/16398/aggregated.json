@@ -1,11 +1,14 @@
 {
-  "asn": 16398,
-  "handle": "SMC-GP",
-  "description": "Supermicro Computer",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16398,
+  "metadata" : {
+    "handle" : "SMC-GP",
+    "description" : "Supermicro Computer",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.151.37.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

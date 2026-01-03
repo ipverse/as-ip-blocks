@@ -1,9 +1,12 @@
 {
-  "asn": 394356,
-  "handle": "ICI",
-  "description": "INTERNET COMMUNICATIONS INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394356,
+  "metadata" : {
+    "handle" : "ICI",
+    "description" : "INTERNET COMMUNICATIONS INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.86.64.0/22",
       "38.86.78.0/23",
       "104.204.128.0/21",
@@ -11,6 +14,6 @@
       "158.51.152.0/23",
       "207.135.222.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

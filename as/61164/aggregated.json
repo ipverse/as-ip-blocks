@@ -1,10 +1,13 @@
 {
-  "asn": 61164,
-  "handle": "LIR-AS",
-  "description": "LIR Limited",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 61164,
+  "metadata" : {
+    "handle" : "LIR-AS",
+    "description" : "LIR Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a01:5f20::/29",
       "2a04:ee80::/29",
       "2a07:1f00::/29",

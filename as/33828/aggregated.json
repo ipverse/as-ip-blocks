@@ -1,14 +1,17 @@
 {
-  "asn": 33828,
-  "handle": "IPTOX-AS",
-  "description": "iptoX GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33828,
+  "metadata" : {
+    "handle" : "IPTOX-AS",
+    "description" : "iptoX GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.235.200.0/21",
       "95.128.200.0/21",
       "185.43.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1200::/32"
     ]
   }

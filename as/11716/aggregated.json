@@ -1,9 +1,12 @@
 {
-  "asn": 11716,
-  "handle": "WON-AS",
-  "description": "William O\u0027Neil \u0026 Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11716,
+  "metadata" : {
+    "handle" : "WON-AS",
+    "description" : "William O'Neil & Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.71.211.0/24",
       "65.197.220.0/24",
       "198.190.229.0/24",
@@ -13,6 +16,6 @@
       "204.87.244.0/24",
       "204.87.253.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

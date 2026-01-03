@@ -1,9 +1,12 @@
 {
-  "asn": 149419,
-  "handle": "AA2-AS-AP",
-  "description": "A.A Networks PVT Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149419,
+  "metadata" : {
+    "handle" : "AA2-AS-AP",
+    "description" : "A.A Networks PVT Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.178.216.0/23",
       "111.88.170.0/23",
       "111.88.239.0/24",
@@ -13,7 +16,7 @@
       "123.108.92.0/23",
       "165.99.45.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:4440::/48"
     ]
   }

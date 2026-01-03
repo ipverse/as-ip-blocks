@@ -1,12 +1,15 @@
 {
-  "asn": 55901,
-  "handle": "SCEI-NET",
-  "description": "Sony Computer Entertainment Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55901,
+  "metadata" : {
+    "handle" : "SCEI-NET",
+    "description" : "Sony Computer Entertainment Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.123.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:266::/48"
     ]
   }

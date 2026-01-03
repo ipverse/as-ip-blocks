@@ -1,12 +1,15 @@
 {
-  "asn": 26734,
-  "handle": "PWR-NET",
-  "description": "Shelby Electric Cooperative",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26734,
+  "metadata" : {
+    "handle" : "PWR-NET",
+    "description" : "Shelby Electric Cooperative",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.104.112.0/20",
       "208.124.124.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

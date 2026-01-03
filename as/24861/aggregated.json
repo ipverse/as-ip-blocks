@@ -1,14 +1,17 @@
 {
-  "asn": 24861,
-  "handle": "PALLAS-AS",
-  "description": "SITS Deutschland GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24861,
+  "metadata" : {
+    "handle" : "PALLAS-AS",
+    "description" : "SITS Deutschland GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.215.204.0/22",
       "192.109.14.0/24",
       "194.45.33.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:265c::/48",
       "2a04:93c0::/29"
     ]

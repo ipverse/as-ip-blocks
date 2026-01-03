@@ -1,11 +1,14 @@
 {
-  "asn": 59120,
-  "handle": "TINS-NET",
-  "description": "Tsukuba Internet Service Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59120,
+  "metadata" : {
+    "handle" : "TINS-NET",
+    "description" : "Tsukuba Internet Service Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.222.10.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

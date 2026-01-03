@@ -1,12 +1,15 @@
 {
-  "asn": 400910,
-  "handle": "MOOSE",
-  "description": "Uptown Moose Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400910,
+  "metadata" : {
+    "handle" : "MOOSE",
+    "description" : "Uptown Moose Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.138.212.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:fa0::/32"
     ]
   }

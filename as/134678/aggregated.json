@@ -1,11 +1,14 @@
 {
-  "asn": 134678,
-  "handle": "PSC-AS-AP",
-  "description": "Port Stephens Council",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134678,
+  "metadata" : {
+    "handle" : "PSC-AS-AP",
+    "description" : "Port Stephens Council",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.195.206.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

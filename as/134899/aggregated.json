@@ -1,9 +1,12 @@
 {
-  "asn": 134899,
-  "handle": "CITYZONE-AS-IN",
-  "description": "Cityzone Infonet Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134899,
+  "metadata" : {
+    "handle" : "CITYZONE-AS-IN",
+    "description" : "Cityzone Infonet Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.255.248.0/22",
       "45.118.216.0/23",
       "45.118.218.0/24",
@@ -12,7 +15,7 @@
       "103.175.250.0/23",
       "103.210.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:9fc0::/32"
     ]
   }

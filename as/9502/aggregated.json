@@ -1,9 +1,12 @@
 {
-  "asn": 9502,
-  "handle": "OOCL-HKG-AP",
-  "description": "Orient Overseas Container Line Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9502,
+  "metadata" : {
+    "handle" : "OOCL-HKG-AP",
+    "description" : "Orient Overseas Container Line Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.222.1.0/24",
       "146.222.2.0/23",
       "146.222.4.0/22",
@@ -43,6 +46,6 @@
       "146.222.246.0/23",
       "146.222.248.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

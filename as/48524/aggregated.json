@@ -1,9 +1,12 @@
 {
-  "asn": 48524,
-  "handle": "INTERRA-AS",
-  "description": "INTERRA telecommunications group Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48524,
+  "metadata" : {
+    "handle" : "INTERRA-AS",
+    "description" : "INTERRA telecommunications group Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.28.96.0/19",
       "37.1.128.0/20",
       "37.131.192.0/19",
@@ -12,7 +15,7 @@
       "185.17.16.0/22",
       "217.28.72.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:dec0::/32"
     ]
   }

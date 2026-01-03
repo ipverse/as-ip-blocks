@@ -1,15 +1,18 @@
 {
-  "asn": 28032,
-  "handle": "INTERNEXA-PERU",
-  "description": "INTERNEXA PERU S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28032,
+  "metadata" : {
+    "handle" : "INTERNEXA-PERU",
+    "description" : "INTERNEXA PERU S.A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.51.248.0/22",
       "179.1.144.0/20",
       "191.97.63.0/24",
       "200.233.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:650::/32"
     ]
   }

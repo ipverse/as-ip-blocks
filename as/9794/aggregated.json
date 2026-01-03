@@ -1,9 +1,12 @@
 {
-  "asn": 9794,
-  "handle": "DNET-ID-AP",
-  "description": "PT. Core Mediatech (D-NET)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9794,
+  "metadata" : {
+    "handle" : "DNET-ID-AP",
+    "description" : "PT. Core Mediatech (D-NET)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "115.178.128.0/23",
       "115.178.130.0/24",
       "115.178.132.0/24",
@@ -16,7 +19,7 @@
       "203.201.160.0/21",
       "203.201.168.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:1b8::/32"
     ]
   }

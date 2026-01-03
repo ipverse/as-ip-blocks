@@ -1,16 +1,19 @@
 {
-  "asn": 207176,
-  "handle": "OPENFIBER",
-  "description": "OPENFIBER B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207176,
+  "metadata" : {
+    "handle" : "OPENFIBER",
+    "description" : "OPENFIBER B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.93.48.0/22",
       "88.202.160.0/21",
       "171.22.64.0/22",
       "185.40.96.0/22",
       "185.177.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:8400::/32"
     ]
   }

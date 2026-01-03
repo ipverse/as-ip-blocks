@@ -1,13 +1,16 @@
 {
-  "asn": 39602,
-  "handle": "TCG-AS",
-  "description": "The Cent.re Group Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39602,
+  "metadata" : {
+    "handle" : "TCG-AS",
+    "description" : "The Cent.re Group Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.71.76.0/24",
       "195.210.38.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:3340::/29"
     ]
   }

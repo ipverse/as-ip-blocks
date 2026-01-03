@@ -1,9 +1,12 @@
 {
-  "asn": 6700,
-  "handle": "BEOTEL-AS",
-  "description": "TELEKOM SRBIJA a.d",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6700,
+  "metadata" : {
+    "handle" : "BEOTEL-AS",
+    "description" : "TELEKOM SRBIJA a.d.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.108.96.0/19",
       "62.193.128.0/19",
       "91.148.64.0/18",
@@ -15,7 +18,7 @@
       "213.244.232.0/21",
       "217.26.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:8c8::/32",
       "2a02:e40::/32"
     ]

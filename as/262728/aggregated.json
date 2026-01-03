@@ -1,12 +1,15 @@
 {
-  "asn": 262728,
-  "handle": "ELETRODATA",
-  "description": "ELETRODATA LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262728,
+  "metadata" : {
+    "handle" : "ELETRODATA",
+    "description" : "ELETRODATA LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.192.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:c88:1::/48",
       "2804:c88:cade::/48",
       "2804:c88:cafe::/48",

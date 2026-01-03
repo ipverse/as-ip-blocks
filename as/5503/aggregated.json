@@ -1,9 +1,12 @@
 {
-  "asn": 5503,
-  "handle": "RMIFL",
-  "description": "RM Education Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5503,
+  "metadata" : {
+    "handle" : "RMIFL",
+    "description" : "RM Education Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.171.192.0/19",
       "62.171.224.0/22",
       "62.171.252.0/22",
@@ -47,7 +50,7 @@
       "217.180.48.0/22",
       "217.181.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:fb0::/32"
     ]
   }

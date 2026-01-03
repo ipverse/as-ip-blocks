@@ -1,11 +1,14 @@
 {
-  "asn": 24105,
-  "handle": "GB-AS-AP",
-  "description": "Green Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24105,
+  "metadata" : {
+    "handle" : "GB-AS-AP",
+    "description" : "Green Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "110.34.36.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

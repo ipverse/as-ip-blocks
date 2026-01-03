@@ -1,13 +1,16 @@
 {
-  "asn": 131262,
-  "handle": "KELNET-AS-AP",
-  "description": "Kelnet Communication Services (P) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131262,
+  "metadata" : {
+    "handle" : "KELNET-AS-AP",
+    "description" : "Kelnet Communication Services (P) Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.79.220.0/22",
       "202.191.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:640::/32"
     ]
   }

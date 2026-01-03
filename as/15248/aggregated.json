@@ -1,14 +1,17 @@
 {
-  "asn": 15248,
-  "handle": "METASWITCH-AS1",
-  "description": "Metaswitch Networks Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15248,
+  "metadata" : {
+    "handle" : "METASWITCH-AS1",
+    "description" : "Metaswitch Networks Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.91.191.0/24",
       "198.147.226.0/24",
       "205.196.118.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:104:4000::/46",
       "2620:104:4008::/48",
       "2620:104:400c::/48",

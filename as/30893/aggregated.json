@@ -1,9 +1,12 @@
 {
-  "asn": 30893,
-  "handle": "NOACKHOSTING-AS",
-  "description": "No ACK Group Holding AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30893,
+  "metadata" : {
+    "handle" : "NOACKHOSTING-AS",
+    "description" : "No ACK Group Holding AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.22.91.0/24",
       "31.22.92.0/24",
       "31.22.94.0/24",
@@ -11,7 +14,7 @@
       "192.121.239.0/24",
       "195.47.238.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:5700::/29"
     ]
   }

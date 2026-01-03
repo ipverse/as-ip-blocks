@@ -1,14 +1,17 @@
 {
-  "asn": 7194,
-  "handle": "BWP",
-  "description": "City of Burbank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7194,
+  "metadata" : {
+    "handle" : "BWP",
+    "description" : "City of Burbank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.59.164.0/22",
       "199.27.172.0/22",
       "199.48.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:2500::/32"
     ]
   }

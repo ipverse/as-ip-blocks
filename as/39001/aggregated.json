@@ -1,9 +1,12 @@
 {
-  "asn": 39001,
-  "handle": "MTS",
-  "description": "MTS PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39001,
+  "metadata" : {
+    "handle" : "MTS",
+    "description" : "MTS PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.227.124.0/22",
       "77.245.112.0/20",
       "81.23.163.0/24",
@@ -14,6 +17,6 @@
       "91.185.64.0/21",
       "92.39.208.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

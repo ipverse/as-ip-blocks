@@ -1,12 +1,15 @@
 {
-  "asn": 329481,
-  "handle": "LIGHTSTRUCK-CONNECT",
-  "description": "Lightstruck Connect",
-  "subnets": {
-    "ipv4": [
+  "asn" : 329481,
+  "metadata" : {
+    "handle" : "LIGHTSTRUCK-CONNECT",
+    "description" : "Lightstruck Connect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.208.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:46c0::/32"
     ]
   }

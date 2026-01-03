@@ -1,9 +1,12 @@
 {
-  "asn": 50606,
-  "handle": "VIRTUAOPERATOR-AS",
-  "description": "Horyzont Technologie Internetowe sp.z.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50606,
+  "metadata" : {
+    "handle" : "VIRTUAOPERATOR-AS",
+    "description" : "Horyzont Technologie Internetowe sp.z.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.6.247.0/24",
       "45.93.160.0/22",
       "45.137.224.0/22",
@@ -24,7 +27,7 @@
       "213.92.152.0/22",
       "213.156.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:54e0::/29"
     ]
   }

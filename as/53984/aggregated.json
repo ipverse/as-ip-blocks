@@ -1,11 +1,14 @@
 {
-  "asn": 53984,
-  "handle": "AS-WELLSTAR",
-  "description": "Wellstar Health System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53984,
+  "metadata" : {
+    "handle" : "AS-WELLSTAR",
+    "description" : "Wellstar Health System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.41.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

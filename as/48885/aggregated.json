@@ -1,9 +1,12 @@
 {
-  "asn": 48885,
-  "handle": "NEOCARRIER",
-  "description": "Neocarrier Communications Sarl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48885,
+  "metadata" : {
+    "handle" : "NEOCARRIER",
+    "description" : "Neocarrier Communications Sarl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.252.128.0/19",
       "91.221.192.0/23",
       "185.165.209.0/24",
@@ -14,7 +17,7 @@
       "217.146.52.0/24",
       "217.146.55.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:dbc0::/32"
     ]
   }

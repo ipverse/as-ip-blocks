@@ -1,9 +1,12 @@
 {
-  "asn": 43775,
-  "handle": "DSP-AS",
-  "description": "Digital Solutions Provider",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43775,
+  "metadata" : {
+    "handle" : "DSP-AS",
+    "description" : "Digital Solutions Provider",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.147.132.0/22",
       "91.147.152.0/23",
       "91.147.154.0/24",
@@ -15,6 +18,6 @@
       "91.147.187.0/24",
       "91.147.188.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

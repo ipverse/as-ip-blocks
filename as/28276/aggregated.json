@@ -1,9 +1,12 @@
 {
-  "asn": 28276,
-  "handle": "MIKROCENTER-INFORMATICA",
-  "description": "Mikrocenter Informática Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28276,
+  "metadata" : {
+    "handle" : "MIKROCENTER-INFORMATICA",
+    "description" : "Mikrocenter Informática Ltda.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.249.96.0/19",
       "187.102.96.0/21",
       "187.102.104.0/22",
@@ -11,7 +14,7 @@
       "187.102.110.0/24",
       "189.14.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:56a4::/32"
     ]
   }

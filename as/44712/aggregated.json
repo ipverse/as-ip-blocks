@@ -1,12 +1,15 @@
 {
-  "asn": 44712,
-  "handle": "EHAMNET-AS",
-  "description": "eHAMnet s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44712,
+  "metadata" : {
+    "handle" : "EHAMNET-AS",
+    "description" : "eHAMnet s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "151.249.104.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:a8c0::/29"
     ]
   }

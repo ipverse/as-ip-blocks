@@ -1,15 +1,18 @@
 {
-  "asn": 60284,
-  "handle": "AS-AXSY",
-  "description": "Axpo Systems AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60284,
+  "metadata" : {
+    "handle" : "AS-AXSY",
+    "description" : "Axpo Systems AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.9.27.0/24",
       "193.135.96.0/23",
       "193.135.98.0/24",
       "193.228.198.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:a200::/29"
     ]
   }

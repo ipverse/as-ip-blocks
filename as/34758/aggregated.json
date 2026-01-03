@@ -1,9 +1,12 @@
 {
-  "asn": 34758,
-  "handle": "AXERA-ASN34758",
-  "description": "Axera SpA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34758,
+  "metadata" : {
+    "handle" : "AXERA-ASN34758",
+    "description" : "Axera SpA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.6.80.0/20",
       "45.13.88.0/22",
       "45.93.36.0/22",
@@ -31,7 +34,7 @@
       "213.178.192.0/20",
       "217.72.32.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7540::/32",
       "2a04:2080::/29"
     ]

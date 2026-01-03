@@ -1,12 +1,15 @@
 {
-  "asn": 60115,
-  "handle": "CH-IDS",
-  "description": "Stadtverwaltung St. Gallen",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60115,
+  "metadata" : {
+    "handle" : "CH-IDS",
+    "description" : "Stadtverwaltung St. Gallen",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.102.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:2918:6000::/36"
     ]
   }

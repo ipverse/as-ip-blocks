@@ -1,9 +1,12 @@
 {
-  "asn": 25252,
-  "handle": "VOLVOIT",
-  "description": "Volvo Information Technology AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25252,
+  "metadata" : {
+    "handle" : "VOLVOIT",
+    "description" : "Volvo Information Technology AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.170.16.0/21",
       "153.112.132.0/22",
       "153.112.139.0/24",
@@ -23,7 +26,7 @@
       "193.183.228.0/22",
       "193.183.236.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:f784:20::/48",
       "2a02:f784:30::/48",
       "2a02:f784:8000::/47"

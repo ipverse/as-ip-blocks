@@ -1,16 +1,19 @@
 {
-  "asn": 47745,
-  "handle": "INTERLAN",
-  "description": "INTERLAN BG Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47745,
+  "metadata" : {
+    "handle" : "INTERLAN",
+    "description" : "INTERLAN BG Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.187.1.0/24",
       "151.237.7.0/24",
       "151.237.60.0/23",
       "185.255.59.0/24",
       "212.5.56.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:5a40::/29"
     ]
   }

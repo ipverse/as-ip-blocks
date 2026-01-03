@@ -1,9 +1,12 @@
 {
-  "asn": 16347,
-  "handle": "INHERENT",
-  "description": "ADISTA SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16347,
+  "metadata" : {
+    "handle" : "INHERENT",
+    "description" : "ADISTA SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.59.144.0/22",
       "5.10.128.0/21",
       "5.182.252.0/22",
@@ -143,7 +146,7 @@
       "217.171.23.0/24",
       "217.171.28.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:41e0::/29",
       "2a00:6780::/29",
       "2a00:bc80::/32",

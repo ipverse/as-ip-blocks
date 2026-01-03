@@ -1,9 +1,12 @@
 {
-  "asn": 10405,
-  "handle": "UPRR-ASN-01",
-  "description": "Union Pacific Railroad Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10405,
+  "metadata" : {
+    "handle" : "UPRR-ASN-01",
+    "description" : "Union Pacific Railroad Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.54.128.0/17",
       "67.206.0.0/18",
       "69.58.192.0/18",
@@ -12,6 +15,6 @@
       "173.229.128.0/17",
       "198.47.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

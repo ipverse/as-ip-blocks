@@ -1,14 +1,17 @@
 {
-  "asn": 20830,
-  "handle": "GLOBALAIRNETWORK-AS",
-  "description": "The Cloud Networks Germany GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20830,
+  "metadata" : {
+    "handle" : "GLOBALAIRNETWORK-AS",
+    "description" : "The Cloud Networks Germany GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.92.24.0/24",
       "81.92.26.0/24",
       "217.194.64.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:9680::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 1970,
-  "handle": "TAMUS-NET",
-  "description": "Texas A\u0026M University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1970,
+  "metadata" : {
+    "handle" : "TAMUS-NET",
+    "description" : "Texas A&M University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.71.80.0/20",
       "66.171.223.0/24",
       "68.232.0.0/19",
@@ -13,7 +16,7 @@
       "192.58.112.0/22",
       "204.56.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:efc0::/32",
       "2607:b800::/32",
       "2620:92::/44",

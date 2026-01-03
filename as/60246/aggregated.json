@@ -1,9 +1,12 @@
 {
-  "asn": 60246,
-  "handle": "PG-19",
-  "description": "Consumer Internet Cooperative PG-19",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60246,
+  "metadata" : {
+    "handle" : "PG-19",
+    "description" : "Consumer Internet Cooperative PG-19",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.72.20.0/23",
       "80.72.24.0/23",
       "85.198.120.0/24",
@@ -21,7 +24,7 @@
       "185.230.240.0/23",
       "185.230.242.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8740::/46",
       "2a00:8740:10::/44",
       "2a00:8740:20::/43",

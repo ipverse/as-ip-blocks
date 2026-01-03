@@ -1,13 +1,16 @@
 {
-  "asn": 18628,
-  "handle": "NYMEX",
-  "description": "NEW YORK MERCANTILE EXCHANGE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18628,
+  "metadata" : {
+    "handle" : "NYMEX",
+    "description" : "NEW YORK MERCANTILE EXCHANGE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.74.130.0/24",
       "204.10.8.0/24",
       "204.10.11.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 268111,
-  "handle": "S-NET-TELECOM",
-  "description": "S-NET TELECOM ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268111,
+  "metadata" : {
+    "handle" : "S-NET-TELECOM",
+    "description" : "S-NET TELECOM ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.169.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:582c::/32"
     ]
   }

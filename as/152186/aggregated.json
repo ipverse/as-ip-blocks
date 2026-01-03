@@ -1,12 +1,15 @@
 {
-  "asn": 152186,
-  "handle": "MINTEL-AS-AP",
-  "description": "Mintel Holding Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152186,
+  "metadata" : {
+    "handle" : "MINTEL-AS-AP",
+    "description" : "Mintel Holding Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "113.192.62.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:840:fec5::/48"
     ]
   }

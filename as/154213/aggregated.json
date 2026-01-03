@@ -1,11 +1,14 @@
 {
-  "asn": 154213,
-  "handle": "MOI-AS-AP",
-  "description": "Ministry of Interior",
-  "subnets": {
-    "ipv4": [
+  "asn" : 154213,
+  "metadata" : {
+    "handle" : "MOI-AS-AP",
+    "description" : "Ministry of Interior",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.133.92.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

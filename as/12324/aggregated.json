@@ -1,9 +1,12 @@
 {
-  "asn": 12324,
-  "handle": "LUBMAN-EDU-AS",
-  "description": "Maria Curie-Sklodowska University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12324,
+  "metadata" : {
+    "handle" : "LUBMAN-EDU-AS",
+    "description" : "Maria Curie-Sklodowska University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.201.0.0/17",
       "87.246.192.0/19",
       "87.246.240.0/20",
@@ -12,6 +15,6 @@
       "212.182.0.0/18",
       "212.182.64.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

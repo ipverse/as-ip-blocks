@@ -1,14 +1,17 @@
 {
-  "asn": 136758,
-  "handle": "HONGKONG10-AS-AP",
-  "description": "HONGKONG CENTURY-ONE LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136758,
+  "metadata" : {
+    "handle" : "HONGKONG10-AS-AP",
+    "description" : "HONGKONG CENTURY-ONE LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.123.193.0/24",
       "45.123.194.0/24",
       "103.95.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:a100::/48"
     ]
   }

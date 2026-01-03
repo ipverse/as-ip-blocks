@@ -1,9 +1,12 @@
 {
-  "asn": 262595,
-  "handle": "ONNET-TELECOMUNICACOES",
-  "description": "OnNet Telecomunicacoes LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262595,
+  "metadata" : {
+    "handle" : "ONNET-TELECOMUNICACOES",
+    "description" : "OnNet Telecomunicacoes LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.162.188.0/22",
       "45.179.180.0/22",
       "138.0.64.0/22",
@@ -15,7 +18,7 @@
       "179.106.16.0/20",
       "191.7.8.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:690::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 210110,
-  "handle": "KVMCLOUD-AS",
-  "description": "Kvmcloud Network CO. LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210110,
+  "metadata" : {
+    "handle" : "KVMCLOUD-AS",
+    "description" : "Kvmcloud Network CO. LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.232.212.0/24",
       "156.224.31.0/24",
       "185.145.244.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:9f81:5701::/48"
     ]
   }

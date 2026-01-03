@@ -1,9 +1,12 @@
 {
-  "asn": 42910,
-  "handle": "PREMIERDC-VERI-MERKEZI-ANONIM-SIRKETI",
-  "description": "PremierDC Veri Merkezi Anonim Sirketi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42910,
+  "metadata" : {
+    "handle" : "PREMIERDC-VERI-MERKEZI-ANONIM-SIRKETI",
+    "description" : "PremierDC Veri Merkezi Anonim Sirketi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.210.32.0/23",
       "31.210.51.0/24",
       "31.210.56.0/23",
@@ -59,7 +62,7 @@
       "212.68.61.0/24",
       "217.195.199.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:26b0:8000::/48",
       "2a02:26b0:800e::/48"
     ]

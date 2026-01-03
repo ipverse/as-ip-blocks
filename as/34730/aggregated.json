@@ -1,11 +1,14 @@
 {
-  "asn": 34730,
-  "handle": "BGK-AS",
-  "description": "Bank Gospodarstwa Krajowego",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34730,
+  "metadata" : {
+    "handle" : "BGK-AS",
+    "description" : "Bank Gospodarstwa Krajowego",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.238.245.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

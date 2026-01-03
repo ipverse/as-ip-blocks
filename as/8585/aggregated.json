@@ -1,9 +1,12 @@
 {
-  "asn": 8585,
-  "handle": "INTERNET-CG",
-  "description": "Crnogorski Telekom a.d.Podgorica",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8585,
+  "metadata" : {
+    "handle" : "INTERNET-CG",
+    "description" : "Crnogorski Telekom a.d.Podgorica",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.204.192.0/18",
       "37.122.160.0/19",
       "46.33.192.0/19",
@@ -16,7 +19,7 @@
       "195.66.160.0/19",
       "213.149.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:fe80::/32"
     ]
   }

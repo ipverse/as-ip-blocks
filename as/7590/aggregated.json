@@ -1,9 +1,12 @@
 {
-  "asn": 7590,
-  "handle": "COMSATS",
-  "description": "COMSATS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7590,
+  "metadata" : {
+    "handle" : "COMSATS",
+    "description" : "COMSATS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.152.254.0/24",
       "203.124.32.0/23",
       "203.124.35.0/24",
@@ -20,7 +23,7 @@
       "210.56.8.0/21",
       "210.56.16.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:1760::/32",
       "2402:1680:1::/48",
       "2402:1680:2::/47",

@@ -1,12 +1,15 @@
 {
-  "asn": 141680,
-  "handle": "SUPERNET1-AS-AP",
-  "description": "SuperNet Infocomm",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141680,
+  "metadata" : {
+    "handle" : "SUPERNET1-AS-AP",
+    "description" : "SuperNet Infocomm",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.161.248.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:d881::/48"
     ]
   }

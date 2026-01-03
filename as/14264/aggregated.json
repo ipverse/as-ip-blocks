@@ -1,13 +1,16 @@
 {
-  "asn": 14264,
-  "handle": "SAU-AS",
-  "description": "Southern Adventist University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14264,
+  "metadata" : {
+    "handle" : "SAU-AS",
+    "description" : "Southern Adventist University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.229.224.0/20",
       "216.249.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:2280::/48"
     ]
   }

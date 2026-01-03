@@ -1,14 +1,17 @@
 {
-  "asn": 329010,
-  "handle": "SDN1-AS",
-  "description": "Société d\u0027Infrastructures Numériques (SIN)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 329010,
+  "metadata" : {
+    "handle" : "SDN1-AS",
+    "description" : "Société d'Infrastructures Numériques (SIN)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.217.12.0/24",
       "160.242.201.0/24",
       "160.242.202.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:4080::/32"
     ]
   }

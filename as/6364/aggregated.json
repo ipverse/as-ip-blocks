@@ -1,9 +1,12 @@
 {
-  "asn": 6364,
-  "handle": "ATLANTIC-NET-1",
-  "description": "Atlantic.net Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6364,
+  "metadata" : {
+    "handle" : "ATLANTIC-NET-1",
+    "description" : "Atlantic.net Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.228.212.0/22",
       "45.58.32.0/20",
       "69.28.64.0/19",
@@ -31,7 +34,7 @@
       "216.98.8.0/22",
       "216.98.13.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:4180:100::/44",
       "2607:f170::/43",
       "2607:f170:30::/44",

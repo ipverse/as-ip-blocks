@@ -1,9 +1,12 @@
 {
-  "asn": 131646,
-  "handle": "COREWINNER-AS-TW",
-  "description": "CORE WINNER CO. LIMITED TAIWAN BRANCH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131646,
+  "metadata" : {
+    "handle" : "COREWINNER-AS-TW",
+    "description" : "CORE WINNER CO. LIMITED TAIWAN BRANCH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.224.23.0/24",
       "43.229.155.0/24",
       "49.128.203.0/24",
@@ -11,6 +14,6 @@
       "103.183.126.0/24",
       "150.107.60.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

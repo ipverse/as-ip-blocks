@@ -1,12 +1,15 @@
 {
-  "asn": 135472,
-  "handle": "IDNIC-SLEMAN-AS-ID",
-  "description": "Dinas Kominfo SLEMAN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135472,
+  "metadata" : {
+    "handle" : "IDNIC-SLEMAN-AS-ID",
+    "description" : "Dinas Kominfo SLEMAN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.71.190.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:fce0::/32"
     ]
   }

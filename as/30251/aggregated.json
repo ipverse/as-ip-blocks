@@ -1,11 +1,14 @@
 {
-  "asn": 30251,
-  "handle": "FALKEN",
-  "description": "Falken Tire Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30251,
+  "metadata" : {
+    "handle" : "FALKEN",
+    "description" : "Falken Tire Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.207.152.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

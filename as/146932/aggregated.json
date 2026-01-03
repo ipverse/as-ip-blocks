@@ -1,14 +1,17 @@
 {
-  "asn": 146932,
-  "handle": "SCCNET-AS",
-  "description": "SCC NETWORK PVT LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 146932,
+  "metadata" : {
+    "handle" : "SCCNET-AS",
+    "description" : "SCC NETWORK PVT LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.78.170.0/23",
       "103.126.72.0/22",
       "103.172.98.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:cf40::/32"
     ]
   }

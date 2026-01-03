@@ -1,9 +1,12 @@
 {
-  "asn": 1403,
-  "handle": "EBOX",
-  "description": "EBOX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1403,
+  "metadata" : {
+    "handle" : "EBOX",
+    "description" : "EBOX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.58.32.0/20",
       "64.72.225.0/24",
       "64.72.228.0/23",
@@ -53,7 +56,7 @@
       "204.244.240.0/20",
       "216.25.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:d400::/28",
       "2606:6d00::/32"
     ]

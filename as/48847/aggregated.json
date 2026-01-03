@@ -1,9 +1,12 @@
 {
-  "asn": 48847,
-  "handle": "CONNECT",
-  "description": "WAVES S.A.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48847,
+  "metadata" : {
+    "handle" : "CONNECT",
+    "description" : "WAVES S.A.L",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.233.16.0/21",
       "147.78.44.0/24",
       "185.12.220.0/22",
@@ -12,7 +15,7 @@
       "193.84.114.0/23",
       "193.84.118.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:6900::/32",
       "2a06:3480::/29"
     ]

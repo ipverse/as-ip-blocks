@@ -1,9 +1,12 @@
 {
-  "asn": 205952,
-  "handle": "RUSONYX-AERO",
-  "description": "LLC ASTRA CLOUD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205952,
+  "metadata" : {
+    "handle" : "RUSONYX-AERO",
+    "description" : "LLC ASTRA CLOUD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.113.95.0/24",
       "62.213.72.0/21",
       "62.213.94.0/23",
@@ -22,7 +25,7 @@
       "217.23.139.0/24",
       "217.23.152.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:9860::/32"
     ]
   }

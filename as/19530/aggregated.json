@@ -1,13 +1,16 @@
 {
-  "asn": 19530,
-  "handle": "NDIN-STATE",
-  "description": "State of North Dakota ITD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19530,
+  "metadata" : {
+    "handle" : "NDIN-STATE",
+    "description" : "State of North Dakota ITD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.129.0.0/16",
       "165.234.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4930::/32"
     ]
   }

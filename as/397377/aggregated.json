@@ -1,9 +1,12 @@
 {
-  "asn": 397377,
-  "handle": "ESTES-PARK",
-  "description": "Town of Estes Park",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397377,
+  "metadata" : {
+    "handle" : "ESTES-PARK",
+    "description" : "Town of Estes Park",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.19.176.0/21",
       "38.75.212.0/22",
       "38.147.224.0/21",
@@ -12,6 +15,6 @@
       "207.229.66.0/24",
       "208.74.67.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

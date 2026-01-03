@@ -1,12 +1,15 @@
 {
-  "asn": 205108,
-  "handle": "DIRLINGER-AS",
-  "description": "Matthias Dirlinger",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205108,
+  "metadata" : {
+    "handle" : "DIRLINGER-AS",
+    "description" : "Matthias Dirlinger",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.230.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:1f00::/29"
     ]
   }

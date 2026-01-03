@@ -1,13 +1,16 @@
 {
-  "asn": 50235,
-  "handle": "EUIPO-AS",
-  "description": "European Union Intellectual Property Office",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50235,
+  "metadata" : {
+    "handle" : "EUIPO-AS",
+    "description" : "European Union Intellectual Property Office",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.232.208.0/24",
       "109.232.212.0/23",
       "109.232.215.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

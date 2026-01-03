@@ -1,14 +1,17 @@
 {
-  "asn": 41898,
-  "handle": "DTG-AS",
-  "description": "SIA Datu Tehnologiju Grupa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41898,
+  "metadata" : {
+    "handle" : "DTG-AS",
+    "description" : "SIA Datu Tehnologiju Grupa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.135.16.0/20",
       "95.130.32.0/21",
       "158.255.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:bae0::/32"
     ]
   }

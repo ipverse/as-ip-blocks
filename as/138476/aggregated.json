@@ -1,11 +1,14 @@
 {
-  "asn": 138476,
-  "handle": "MSSKYLINK-AS-AP",
-  "description": "SKY LINK ISP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138476,
+  "metadata" : {
+    "handle" : "MSSKYLINK-AS-AP",
+    "description" : "SKY LINK ISP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.126.184.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

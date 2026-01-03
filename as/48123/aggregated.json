@@ -1,9 +1,12 @@
 {
-  "asn": 48123,
-  "handle": "STREAM-TV-KALUGA",
-  "description": "MTS PJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48123,
+  "metadata" : {
+    "handle" : "STREAM-TV-KALUGA",
+    "description" : "MTS PJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.140.56.0/22",
       "85.140.72.0/23",
       "93.187.176.0/22",
@@ -12,6 +15,6 @@
       "193.194.96.0/22",
       "193.194.100.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

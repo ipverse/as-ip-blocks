@@ -1,12 +1,15 @@
 {
-  "asn": 38230,
-  "handle": "NAVICENET-AS-AP",
-  "description": "Navice Consulting",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38230,
+  "metadata" : {
+    "handle" : "NAVICENET-AS-AP",
+    "description" : "Navice Consulting",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.158.222.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:7d46::/36"
     ]
   }

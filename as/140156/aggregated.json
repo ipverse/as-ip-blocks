@@ -1,13 +1,16 @@
 {
-  "asn": 140156,
-  "handle": "APMGROUP-AS-IN",
-  "description": "Karnataka Gramin Bank",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140156,
+  "metadata" : {
+    "handle" : "APMGROUP-AS-IN",
+    "description" : "Karnataka Gramin Bank",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.149.166.0/24",
       "103.175.105.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:7c80::/48"
     ]
   }

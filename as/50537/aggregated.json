@@ -1,13 +1,16 @@
 {
-  "asn": 50537,
-  "handle": "QSS-AS",
-  "description": "QSS D.O.O. Sarajevo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50537,
+  "metadata" : {
+    "handle" : "QSS-AS",
+    "description" : "QSS D.O.O. Sarajevo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.205.32.0/21",
       "193.222.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:1600::/32"
     ]
   }

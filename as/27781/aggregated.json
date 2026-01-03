@@ -1,9 +1,12 @@
 {
-  "asn": 27781,
-  "handle": "SMITCOMS-NV",
-  "description": "SMITCOMS N.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27781,
+  "metadata" : {
+    "handle" : "SMITCOMS-NV",
+    "description" : "SMITCOMS N.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.198.230.0/24",
       "65.217.50.0/24",
       "65.248.160.0/24",
@@ -14,7 +17,7 @@
       "190.124.216.0/22",
       "201.220.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:280::/32",
       "2803:7380:8000::/33"
     ]

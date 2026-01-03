@@ -1,9 +1,12 @@
 {
-  "asn": 45363,
-  "handle": "SUNMOON-AS",
-  "description": "SunMoon University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45363,
+  "metadata" : {
+    "handle" : "SUNMOON-AS",
+    "description" : "SunMoon University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.34.253.0/24",
       "61.34.254.0/24",
       "203.230.4.0/23",
@@ -20,6 +23,6 @@
       "210.119.102.0/23",
       "220.69.166.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

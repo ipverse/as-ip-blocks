@@ -1,9 +1,12 @@
 {
-  "asn": 397423,
-  "handle": "TIER-NET",
-  "description": "Tier.Net Technologies LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397423,
+  "metadata" : {
+    "handle" : "TIER-NET",
+    "description" : "Tier.Net Technologies LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.39.234.0/23",
       "23.142.82.0/23",
       "23.144.108.0/24",
@@ -229,7 +232,7 @@
       "216.227.218.0/24",
       "216.239.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:2c8::/48",
       "2602:f94c::/40",
       "2602:fed2:7116::/48",

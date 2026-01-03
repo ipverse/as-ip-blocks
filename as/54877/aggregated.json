@@ -1,11 +1,14 @@
 {
-  "asn": 54877,
-  "handle": "DMR-AS001",
-  "description": "City of Maple Ridge",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54877,
+  "metadata" : {
+    "handle" : "DMR-AS001",
+    "description" : "City of Maple Ridge",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.147.168.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

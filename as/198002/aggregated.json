@@ -1,12 +1,15 @@
 {
-  "asn": 198002,
-  "handle": "CEZNET-AS",
-  "description": "CEZNET s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198002,
+  "metadata" : {
+    "handle" : "CEZNET-AS",
+    "description" : "CEZNET s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.255.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:1180::/32"
     ]
   }

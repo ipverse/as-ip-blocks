@@ -1,9 +1,12 @@
 {
-  "asn": 23724,
-  "handle": "CHINANET-IDC-BJ-AP",
-  "description": "IDC China Telecommunications Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23724,
+  "metadata" : {
+    "handle" : "CHINANET-IDC-BJ-AP",
+    "description" : "IDC China Telecommunications Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.203.94.0/23",
       "1.203.115.0/24",
       "1.203.124.0/22",
@@ -327,7 +330,7 @@
       "221.123.112.0/20",
       "221.123.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:89c0:1050::/46",
       "2400:89c0:6000::/48",
       "2400:b700::/48",

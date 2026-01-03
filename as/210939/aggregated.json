@@ -1,14 +1,17 @@
 {
-  "asn": 210939,
-  "handle": "PROCOPA",
-  "description": "Procopa IT ApS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210939,
+  "metadata" : {
+    "handle" : "PROCOPA",
+    "description" : "Procopa IT ApS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.130.188.0/24",
       "185.130.190.0/23",
       "185.237.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:9700::/32"
     ]
   }

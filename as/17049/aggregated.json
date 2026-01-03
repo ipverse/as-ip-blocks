@@ -1,9 +1,12 @@
 {
-  "asn": 17049,
-  "handle": "MBO-NET",
-  "description": "MBO Video LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17049,
+  "metadata" : {
+    "handle" : "MBO-NET",
+    "description" : "MBO Video LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.111.224.0/19",
       "66.212.32.0/20",
       "67.217.192.0/20",
@@ -12,7 +15,7 @@
       "209.213.128.0/19",
       "216.150.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:500::/32"
     ]
   }

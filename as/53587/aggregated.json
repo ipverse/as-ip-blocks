@@ -1,9 +1,12 @@
 {
-  "asn": 53587,
-  "handle": "AZT",
-  "description": "AZURE TECHNOLOGY CO. LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53587,
+  "metadata" : {
+    "handle" : "AZT",
+    "description" : "AZURE TECHNOLOGY CO. LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.248.168.0/22",
       "43.250.184.0/22",
       "45.61.192.0/19",
@@ -21,7 +24,7 @@
       "116.206.94.0/24",
       "168.235.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:5d00::/32"
     ]
   }

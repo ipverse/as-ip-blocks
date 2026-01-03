@@ -1,13 +1,16 @@
 {
-  "asn": 3847,
-  "handle": "NYC-REGIONAL",
-  "description": "ENV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3847,
+  "metadata" : {
+    "handle" : "NYC-REGIONAL",
+    "description" : "ENV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.236.68.0/24",
       "65.117.166.0/24",
       "199.165.204.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

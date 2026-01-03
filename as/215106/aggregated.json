@@ -1,14 +1,17 @@
 {
-  "asn": 215106,
-  "handle": "SISZ",
-  "description": "OOO Svyaz\u0027-Invest Severo-Zapad",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215106,
+  "metadata" : {
+    "handle" : "SISZ",
+    "description" : "OOO Svyaz'-Invest Severo-Zapad",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.89.216.0/24",
       "81.23.13.0/24",
       "95.161.23.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1c78:1::/48"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 138040,
-  "handle": "DNSVAULT-AS-AP",
-  "description": "DNSVAULT SDN BHD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138040,
+  "metadata" : {
+    "handle" : "DNSVAULT-AS-AP",
+    "description" : "DNSVAULT SDN BHD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.120.136.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

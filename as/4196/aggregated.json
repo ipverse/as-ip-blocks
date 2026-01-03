@@ -1,9 +1,12 @@
 {
-  "asn": 4196,
-  "handle": "WELLSFARGO-4196",
-  "description": "Wells Fargo Bank N.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4196,
+  "metadata" : {
+    "handle" : "WELLSFARGO-4196",
+    "description" : "Wells Fargo Bank N.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.45.64.0/18",
       "159.45.128.0/19",
       "159.45.192.0/19",
@@ -17,7 +20,7 @@
       "171.72.196.0/23",
       "171.72.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:160:e300::/44",
       "2620:160:e320::/44",
       "2620:160:e720::/44",

@@ -1,14 +1,17 @@
 {
-  "asn": 138855,
-  "handle": "IFORTE-ISP-AS-ID",
-  "description": "PT iForte Solusi Infotek",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138855,
+  "metadata" : {
+    "handle" : "IFORTE-ISP-AS-ID",
+    "description" : "PT iForte Solusi Infotek",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.169.222.0/23",
       "103.170.234.0/23",
       "103.170.236.0/23",
       "103.171.22.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

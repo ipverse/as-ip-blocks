@@ -1,12 +1,15 @@
 {
-  "asn": 149369,
-  "handle": "IDNIC-DEKADATA-AS-ID",
-  "description": "PT Dekadata Lingkar Nusantara",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149369,
+  "metadata" : {
+    "handle" : "IDNIC-DEKADATA-AS-ID",
+    "description" : "PT Dekadata Lingkar Nusantara",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.180.196.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:60c0::/48"
     ]
   }

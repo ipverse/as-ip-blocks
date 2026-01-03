@@ -1,15 +1,18 @@
 {
-  "asn": 135845,
-  "handle": "KRISHII-AS",
-  "description": "Krishiinet Infocom Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135845,
+  "metadata" : {
+    "handle" : "KRISHII-AS",
+    "description" : "Krishiinet Infocom Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.4.192.0/22",
       "103.81.236.0/22",
       "103.117.37.0/24",
       "103.117.39.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:a2c0::/32"
     ]
   }

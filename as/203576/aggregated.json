@@ -1,9 +1,12 @@
 {
-  "asn": 203576,
-  "handle": "INTERNETBILISIM",
-  "description": "Onur Ekren",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203576,
+  "metadata" : {
+    "handle" : "INTERNETBILISIM",
+    "description" : "Onur Ekren",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.180.184.0/22",
       "5.252.96.0/23",
       "77.93.148.0/24",
@@ -17,7 +20,7 @@
       "188.132.196.0/24",
       "194.110.169.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:c400::/29"
     ]
   }

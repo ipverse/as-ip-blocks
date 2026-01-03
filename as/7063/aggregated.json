@@ -1,14 +1,17 @@
 {
-  "asn": 7063,
-  "handle": "LESTE-FLU-SERVICOS",
-  "description": "LESTE FLU SERVIÇOS DE TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7063,
+  "metadata" : {
+    "handle" : "LESTE-FLU-SERVICOS",
+    "description" : "LESTE FLU SERVIÇOS DE TELECOM LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.65.156.0/22",
       "138.94.60.0/22",
       "200.202.96.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3d28::/32"
     ]
   }

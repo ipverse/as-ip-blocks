@@ -1,15 +1,18 @@
 {
-  "asn": 18424,
-  "handle": "ASN-CM-CRAFT-AESTHETIC-GLOBAL",
-  "description": "CM Craft Aesthetic",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18424,
+  "metadata" : {
+    "handle" : "ASN-CM-CRAFT-AESTHETIC-GLOBAL",
+    "description" : "CM Craft Aesthetic",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.30.44.0/23",
       "103.30.46.0/24",
       "103.136.61.0/24",
       "121.50.144.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:8700:9900::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 53338,
-  "handle": "ITCI",
-  "description": "ITCI Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53338,
+  "metadata" : {
+    "handle" : "ITCI",
+    "description" : "ITCI Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.26.16.0/20",
       "38.29.26.0/23",
       "38.62.0.0/18",
@@ -18,7 +21,7 @@
       "216.123.67.0/24",
       "216.191.21.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:2b80::/32"
     ]
   }

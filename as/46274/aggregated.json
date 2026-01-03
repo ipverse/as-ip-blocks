@@ -1,12 +1,15 @@
 {
-  "asn": 46274,
-  "handle": "UPHS",
-  "description": "Penn Medicine",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46274,
+  "metadata" : {
+    "handle" : "UPHS",
+    "description" : "Penn Medicine",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.212.0.0/24",
       "170.212.48.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

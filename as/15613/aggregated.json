@@ -1,13 +1,16 @@
 {
-  "asn": 15613,
-  "handle": "COLOGNE-FRANKFURT",
-  "description": "FactSet GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15613,
+  "metadata" : {
+    "handle" : "COLOGNE-FRANKFURT",
+    "description" : "FactSet GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.173.171.0/24",
       "217.11.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:fd00::/29"
     ]
   }

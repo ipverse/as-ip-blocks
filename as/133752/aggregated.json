@@ -1,9 +1,12 @@
 {
-  "asn": 133752,
-  "handle": "LEASEWEB-APAC-HKG-10",
-  "description": "LEASEWEB HONG KONG LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133752,
+  "metadata" : {
+    "handle" : "LEASEWEB-APAC-HKG-10",
+    "description" : "LEASEWEB HONG KONG LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.0.232.0/24",
       "43.249.36.0/23",
       "45.39.117.0/24",
@@ -31,7 +34,7 @@
       "205.189.160.0/24",
       "209.58.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:801::/48",
       "2402:9e80:2402::/48",
       "2402:a7c1::/32",

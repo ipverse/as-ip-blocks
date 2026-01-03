@@ -1,9 +1,12 @@
 {
-  "asn": 48147,
-  "handle": "AMINIDC",
-  "description": "Asre Pardazeshe Ettelaate Amin Institute",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48147,
+  "metadata" : {
+    "handle" : "AMINIDC",
+    "description" : "Asre Pardazeshe Ettelaate Amin Institute",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.189.242.0/23",
       "2.189.254.0/23",
       "45.135.241.0/24",
@@ -24,7 +27,7 @@
       "212.80.18.0/23",
       "212.80.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:30c0::/48",
       "2a05:9080:8::/48",
       "2a07:4280::/29"

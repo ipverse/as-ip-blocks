@@ -1,9 +1,12 @@
 {
-  "asn": 20712,
-  "handle": "AS20712",
-  "description": "Andrews \u0026 Arnold Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20712,
+  "metadata" : {
+    "handle" : "AS20712",
+    "description" : "Andrews & Arnold Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.172.160.0/20",
       "44.31.166.0/24",
       "44.31.241.0/24",
@@ -68,7 +71,7 @@
       "212.134.228.0/24",
       "217.169.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:3c4::/48",
       "2001:678:c40::/48",
       "2001:67c:1270::/48",

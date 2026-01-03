@@ -1,12 +1,15 @@
 {
-  "asn": 40226,
-  "handle": "GLOBALFCU",
-  "description": "Global Credit Union",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40226,
+  "metadata" : {
+    "handle" : "GLOBALFCU",
+    "description" : "Global Credit Union",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.69.197.0/24",
       "208.69.198.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

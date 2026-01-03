@@ -1,9 +1,12 @@
 {
-  "asn": 5539,
-  "handle": "SPACENET",
-  "description": "SpaceNet AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5539,
+  "metadata" : {
+    "handle" : "SPACENET",
+    "description" : "SpaceNet AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.182.154.0/23",
       "31.214.222.0/23",
       "45.15.240.0/24",
@@ -23,7 +26,7 @@
       "195.30.0.0/16",
       "195.230.114.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:608::/32",
       "2001:67c:158c::/48",
       "2001:4150::/32",

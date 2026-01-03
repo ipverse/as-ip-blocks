@@ -1,9 +1,12 @@
 {
-  "asn": 41729,
-  "handle": "ATEA-AOS-AS",
-  "description": "Atea AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41729,
+  "metadata" : {
+    "handle" : "ATEA-AOS-AS",
+    "description" : "Atea AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.158.92.0/22",
       "88.151.160.0/21",
       "89.248.0.0/20",
@@ -14,7 +17,7 @@
       "195.177.96.0/23",
       "195.177.99.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1a78::/32"
     ]
   }

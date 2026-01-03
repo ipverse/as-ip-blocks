@@ -1,12 +1,15 @@
 {
-  "asn": 46169,
-  "handle": "GTOWN",
-  "description": "City of Georgetown",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46169,
+  "metadata" : {
+    "handle" : "GTOWN",
+    "description" : "City of Georgetown",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "173.219.37.0/24",
       "216.117.212.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

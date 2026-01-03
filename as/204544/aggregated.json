@@ -1,9 +1,12 @@
 {
-  "asn": 204544,
-  "handle": "MOBINHOST",
-  "description": "Dade Pardazi Mobinhost Co LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204544,
+  "metadata" : {
+    "handle" : "MOBINHOST",
+    "description" : "Dade Pardazi Mobinhost Co LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.220.126.0/24",
       "81.12.24.0/23",
       "81.12.26.0/24",
@@ -11,6 +14,6 @@
       "95.128.194.0/24",
       "185.53.140.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

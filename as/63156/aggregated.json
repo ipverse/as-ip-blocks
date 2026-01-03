@@ -1,9 +1,12 @@
 {
-  "asn": 63156,
-  "handle": "TGNA-WFAA",
-  "description": "TEGNA Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63156,
+  "metadata" : {
+    "handle" : "TGNA-WFAA",
+    "description" : "TEGNA Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.8.0.0/24",
       "167.8.4.0/24",
       "167.8.7.0/24",
@@ -17,6 +20,6 @@
       "167.8.108.0/23",
       "167.8.125.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

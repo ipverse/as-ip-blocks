@@ -1,13 +1,16 @@
 {
-  "asn": 213572,
-  "handle": "JSC-TSI-SERVICE",
-  "description": "TSI Service JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213572,
+  "metadata" : {
+    "handle" : "JSC-TSI-SERVICE",
+    "description" : "TSI Service JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.17.192.0/20",
       "217.197.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1390::/32"
     ]
   }

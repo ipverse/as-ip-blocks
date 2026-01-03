@@ -1,9 +1,12 @@
 {
-  "asn": 133159,
-  "handle": "MAMMOTHMEDIA-AS-AP",
-  "description": "Mammoth Media Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133159,
+  "metadata" : {
+    "handle" : "MAMMOTHMEDIA-AS-AP",
+    "description" : "Mammoth Media Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.224.180.0/22",
       "43.229.60.0/22",
       "44.31.48.0/24",
@@ -30,7 +33,7 @@
       "203.57.50.0/23",
       "203.57.114.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:9400::/46",
       "2404:9400:4::/47",
       "2404:9400:6::/48",

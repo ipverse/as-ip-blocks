@@ -1,9 +1,12 @@
 {
-  "asn": 13693,
-  "handle": "NTS-ONLINE",
-  "description": "Vexus Fiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13693,
+  "metadata" : {
+    "handle" : "NTS-ONLINE",
+    "description" : "Vexus Fiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.177.112.0/24",
       "38.28.80.0/22",
       "38.28.84.0/24",
@@ -65,7 +68,7 @@
       "216.131.28.0/24",
       "216.167.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:1600::/32"
     ]
   }

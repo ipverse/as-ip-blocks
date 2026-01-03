@@ -1,9 +1,12 @@
 {
-  "asn": 7792,
-  "handle": "3M-HDQ-AS",
-  "description": "3M Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7792,
+  "metadata" : {
+    "handle" : "3M-HDQ-AS",
+    "description" : "3M Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.99.0.0/16",
       "136.229.0.0/16",
       "143.122.0.0/16",
@@ -16,6 +19,6 @@
       "204.126.212.0/23",
       "205.153.108.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

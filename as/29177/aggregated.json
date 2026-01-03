@@ -1,9 +1,12 @@
 {
-  "asn": 29177,
-  "handle": "ASCOTLC-AS",
-  "description": "HERABIT S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29177,
+  "metadata" : {
+    "handle" : "ASCOTLC-AS",
+    "description" : "HERABIT S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.216.240.0/20",
       "80.86.144.0/20",
       "185.182.196.0/22",
@@ -11,6 +14,6 @@
       "194.20.142.0/23",
       "194.20.144.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

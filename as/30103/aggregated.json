@@ -1,9 +1,12 @@
 {
-  "asn": 30103,
-  "handle": "ZOOM-VIDEO-COMM-AS",
-  "description": "Zoom Video Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30103,
+  "metadata" : {
+    "handle" : "ZOOM-VIDEO-COMM-AS",
+    "description" : "Zoom Video Communications Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.99.124.0/24",
       "38.111.222.0/24",
       "38.145.72.0/21",
@@ -36,7 +39,7 @@
       "204.80.108.0/23",
       "206.247.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:550:409::/48",
       "2620:123:2005::/48",
       "2620:123:2009::/48",

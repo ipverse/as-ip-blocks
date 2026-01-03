@@ -1,14 +1,17 @@
 {
-  "asn": 49489,
-  "handle": "CLEARMEDIA-AS",
-  "description": "ClearMedia AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49489,
+  "metadata" : {
+    "handle" : "CLEARMEDIA-AS",
+    "description" : "ClearMedia AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.190.144.0/22",
       "185.36.220.0/22",
       "193.169.82.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:efe0::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 47046,
-  "handle": "WADSWORTH-CITYLINK",
-  "description": "CityLink",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47046,
+  "metadata" : {
+    "handle" : "WADSWORTH-CITYLINK",
+    "description" : "CityLink",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.33.16.0/22",
       "204.11.88.0/21",
       "208.71.250.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:11e0::/32"
     ]
   }

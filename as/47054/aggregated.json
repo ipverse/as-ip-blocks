@@ -1,9 +1,12 @@
 {
-  "asn": 47054,
-  "handle": "JETWASN",
-  "description": "JetWire INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47054,
+  "metadata" : {
+    "handle" : "JETWASN",
+    "description" : "JetWire INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.3.51.0/24",
       "8.19.133.0/24",
       "8.34.117.0/24",
@@ -12,6 +15,6 @@
       "172.99.128.0/22",
       "204.13.160.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 37988,
-  "handle": "ALPHA-LAYER-AS-AP",
-  "description": "FlowVPS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37988,
+  "metadata" : {
+    "handle" : "ALPHA-LAYER-AS-AP",
+    "description" : "FlowVPS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.108.228.0/24",
       "195.114.14.0/23",
       "195.114.126.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:7340:1::/48",
       "2402:7340:2::/47",
       "2402:7340:5::/48",

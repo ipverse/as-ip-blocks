@@ -1,9 +1,12 @@
 {
-  "asn": 27365,
-  "handle": "CENGAGE-OHCIN",
-  "description": "Cengage Learning Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27365,
+  "metadata" : {
+    "handle" : "CENGAGE-OHCIN",
+    "description" : "Cengage Learning Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.32.123.0/24",
       "69.32.127.0/24",
       "69.32.128.0/21",
@@ -27,6 +30,6 @@
       "69.32.246.0/23",
       "69.32.252.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

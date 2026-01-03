@@ -1,15 +1,18 @@
 {
-  "asn": 44843,
-  "handle": "MALOCO-AS",
-  "description": "MSS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44843,
+  "metadata" : {
+    "handle" : "MALOCO-AS",
+    "description" : "MSS LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.207.66.0/23",
       "31.207.71.0/24",
       "152.89.134.0/24",
       "178.236.128.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1710:4::/48"
     ]
   }

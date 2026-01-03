@@ -1,12 +1,15 @@
 {
-  "asn": 33347,
-  "handle": "NAVICENT",
-  "description": "NAVICENT HEALTH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33347,
+  "metadata" : {
+    "handle" : "NAVICENT",
+    "description" : "NAVICENT HEALTH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "98.164.60.0/24",
       "198.199.186.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 39582,
-  "handle": "VAULTR",
-  "description": "Vaultr Veri Merkezi Hizmetleri Anonim Sirketi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39582,
+  "metadata" : {
+    "handle" : "VAULTR",
+    "description" : "Vaultr Veri Merkezi Hizmetleri Anonim Sirketi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.77.1.0/24",
       "37.77.2.0/24",
       "37.77.4.0/23",
@@ -15,7 +18,7 @@
       "37.77.24.0/24",
       "78.135.80.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:4300::/29"
     ]
   }

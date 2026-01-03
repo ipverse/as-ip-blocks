@@ -1,12 +1,15 @@
 {
-  "asn": 271579,
-  "handle": "TEC-NET",
-  "description": "TEC NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271579,
+  "metadata" : {
+    "handle" : "TEC-NET",
+    "description" : "TEC NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.9.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7dbc::/32"
     ]
   }

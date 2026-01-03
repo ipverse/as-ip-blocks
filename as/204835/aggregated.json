@@ -1,12 +1,15 @@
 {
-  "asn": 204835,
-  "handle": "IMS3",
-  "description": "Caisse Nationale des Allocations Familiales (CNAF)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204835,
+  "metadata" : {
+    "handle" : "IMS3",
+    "description" : "Caisse Nationale des Allocations Familiales (CNAF)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.231.174.0/24",
       "195.138.204.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

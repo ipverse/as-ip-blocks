@@ -1,9 +1,12 @@
 {
-  "asn": 4181,
-  "handle": "TDS-AS",
-  "description": "TDS TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4181,
+  "metadata" : {
+    "handle" : "TDS-AS",
+    "description" : "TDS TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.40.80.0/20",
       "24.49.96.0/20",
       "24.49.128.0/20",
@@ -87,7 +90,7 @@
       "216.228.160.0/19",
       "217.143.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:3400::/28",
       "2604:ad00::/32",
       "2610:1f0::/32"

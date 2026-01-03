@@ -1,15 +1,18 @@
 {
-  "asn": 28169,
-  "handle": "BITCOM-PROVEDOR-SERVICOS",
-  "description": "BITCOM PROVEDOR DE SERVICOS DE INTERNET LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28169,
+  "metadata" : {
+    "handle" : "BITCOM-PROVEDOR-SERVICOS",
+    "description" : "BITCOM PROVEDOR DE SERVICOS DE INTERNET LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.254.40.0/22",
       "177.152.32.0/20",
       "187.63.160.0/19",
       "200.185.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:30::/32"
     ]
   }

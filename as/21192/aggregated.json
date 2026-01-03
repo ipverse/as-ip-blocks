@@ -1,9 +1,12 @@
 {
-  "asn": 21192,
-  "handle": "DPA-AS",
-  "description": "dpa Deutsche Presse-Agentur GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21192,
+  "metadata" : {
+    "handle" : "DPA-AS",
+    "description" : "dpa Deutsche Presse-Agentur GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.96.105.0/24",
       "193.102.128.0/22",
       "193.201.168.0/24",
@@ -11,6 +14,6 @@
       "194.77.48.0/22",
       "194.77.52.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

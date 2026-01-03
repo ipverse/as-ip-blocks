@@ -1,11 +1,14 @@
 {
-  "asn": 910,
-  "handle": "NORTA-CANAL",
-  "description": "RTA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 910,
+  "metadata" : {
+    "handle" : "NORTA-CANAL",
+    "description" : "RTA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.190.113.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

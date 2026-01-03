@@ -1,14 +1,17 @@
 {
-  "asn": 45276,
-  "handle": "NREACH-AS-AP",
-  "description": "NReach Net (Pvt.) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45276,
+  "metadata" : {
+    "handle" : "NREACH-AS-AP",
+    "description" : "NReach Net (Pvt.) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "115.69.208.0/22",
       "115.69.212.0/23",
       "115.69.214.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:1020::/32"
     ]
   }

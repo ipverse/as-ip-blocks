@@ -1,14 +1,17 @@
 {
-  "asn": 10998,
-  "handle": "BAC-MLAMRS",
-  "description": "Bank of America National Association",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10998,
+  "metadata" : {
+    "handle" : "BAC-MLAMRS",
+    "description" : "Bank of America National Association",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.3.80.0/22",
       "199.43.32.0/20",
       "199.43.72.0/24",
       "209.65.16.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

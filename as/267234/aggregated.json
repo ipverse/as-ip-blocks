@@ -1,12 +1,15 @@
 {
-  "asn": 267234,
-  "handle": "VALE-INTERNET-TV",
-  "description": "Vale Internet e TV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267234,
+  "metadata" : {
+    "handle" : "VALE-INTERNET-TV",
+    "description" : "Vale Internet e TV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.231.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4a58::/32"
     ]
   }

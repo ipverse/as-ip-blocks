@@ -1,10 +1,13 @@
 {
-  "asn": 18799,
-  "handle": "AS-GREMLIN",
-  "description": "gremlin.ca",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 18799,
+  "metadata" : {
+    "handle" : "AS-GREMLIN",
+    "description" : "gremlin.ca",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2620:d2:6000::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 16696,
-  "handle": "ITELNETWORKS",
-  "description": "iTel Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16696,
+  "metadata" : {
+    "handle" : "ITELNETWORKS",
+    "description" : "iTel Networks Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.164.176.0/24",
       "45.248.124.0/23",
       "64.255.230.0/23",
@@ -65,7 +68,7 @@
       "216.247.68.0/23",
       "216.247.252.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:4280::/36",
       "2606:4280:4000::/36",
       "2606:4280:8000::/36"

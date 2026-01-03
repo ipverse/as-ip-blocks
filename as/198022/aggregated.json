@@ -1,9 +1,12 @@
 {
-  "asn": 198022,
-  "handle": "STARFACE",
-  "description": "STARFACE GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198022,
+  "metadata" : {
+    "handle" : "STARFACE",
+    "description" : "STARFACE GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.120.180.0/23",
       "45.143.184.0/22",
       "185.92.160.0/23",
@@ -13,7 +16,7 @@
       "212.79.200.0/21",
       "212.79.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:aae0:a0::/48"
     ]
   }

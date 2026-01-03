@@ -1,16 +1,19 @@
 {
-  "asn": 22512,
-  "handle": "OPENBSD",
-  "description": "OpenBSD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22512,
+  "metadata" : {
+    "handle" : "OPENBSD",
+    "description" : "OpenBSD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.185.136.0/23",
       "199.185.178.0/24",
       "199.185.230.0/23",
       "204.174.115.0/24",
       "204.209.252.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:3d:c000::/48"
     ]
   }

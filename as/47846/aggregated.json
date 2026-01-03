@@ -1,13 +1,16 @@
 {
-  "asn": 47846,
-  "handle": "SEDO-AS",
-  "description": "SEDO GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47846,
+  "metadata" : {
+    "handle" : "SEDO-AS",
+    "description" : "SEDO GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.190.62.0/23",
       "91.195.240.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:64c::/48"
     ]
   }

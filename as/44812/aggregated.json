@@ -1,9 +1,12 @@
 {
-  "asn": 44812,
-  "handle": "IPSERVER-RU-NET",
-  "description": "IP SERVER LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44812,
+  "metadata" : {
+    "handle" : "IPSERVER-RU-NET",
+    "description" : "IP SERVER LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.8.64.0/24",
       "5.252.192.0/22",
       "92.119.159.0/24",
@@ -14,7 +17,7 @@
       "193.19.118.0/23",
       "195.62.52.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:ac80::/29",
       "2a09:3703::/32",
       "2a09:4d40::/32",

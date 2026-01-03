@@ -1,9 +1,12 @@
 {
-  "asn": 262231,
-  "handle": "COOP-ELECTRICA-SERVICIOS",
-  "description": "COOP. ELÉCTRICA Y DE SERVICIOS MARIANO MORENO LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262231,
+  "metadata" : {
+    "handle" : "COOP-ELECTRICA-SERVICIOS",
+    "description" : "COOP. ELÉCTRICA Y DE SERVICIOS MARIANO MORENO LTDA.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.21.80.0/20",
       "143.0.80.0/22",
       "170.245.168.0/22",
@@ -17,7 +20,7 @@
       "201.251.123.0/24",
       "201.251.221.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:2c00::/32"
     ]
   }

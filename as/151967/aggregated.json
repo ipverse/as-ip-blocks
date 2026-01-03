@@ -1,13 +1,16 @@
 {
-  "asn": 151967,
-  "handle": "DLIS-AS-AP",
-  "description": "Dream Line IT Solution",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151967,
+  "metadata" : {
+    "handle" : "DLIS-AS-AP",
+    "description" : "Dream Line IT Solution",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.65.138.0/23",
       "160.25.5.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:8c0::/48"
     ]
   }

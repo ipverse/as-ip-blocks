@@ -1,9 +1,12 @@
 {
-  "asn": 45544,
-  "handle": "SUPERDATA-AS-VN",
-  "description": "SUPERDATA-VN",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45544,
+  "metadata" : {
+    "handle" : "SUPERDATA-AS-VN",
+    "description" : "SUPERDATA-VN",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.0.12.0/22",
       "45.117.168.0/22",
       "45.251.112.0/22",
@@ -15,7 +18,7 @@
       "103.252.252.0/22",
       "112.213.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:9c80::/48",
       "2406:9c80:af00::/48"
     ]

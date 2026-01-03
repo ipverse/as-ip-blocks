@@ -1,12 +1,15 @@
 {
-  "asn": 21171,
-  "handle": "SCHIBSTED",
-  "description": "Schibsted Media AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21171,
+  "metadata" : {
+    "handle" : "SCHIBSTED",
+    "description" : "Schibsted Media AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.91.32.0/20",
       "152.90.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

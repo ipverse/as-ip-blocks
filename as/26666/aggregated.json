@@ -1,9 +1,12 @@
 {
-  "asn": 26666,
-  "handle": "INTERSERVER-LAX",
-  "description": "Interserver Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26666,
+  "metadata" : {
+    "handle" : "INTERSERVER-LAX",
+    "description" : "Interserver Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.81.183.0/24",
       "67.211.208.0/24",
       "69.10.50.0/24",
@@ -25,7 +28,7 @@
       "216.219.90.0/24",
       "216.219.95.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2601:2010::/30",
       "2604:a00:101::/48",
       "2604:a00:1ac1::/48",

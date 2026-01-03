@@ -1,9 +1,12 @@
 {
-  "asn": 24800,
-  "handle": "BORNFIBER",
-  "description": "BornFiber Service Provider ApS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24800,
+  "metadata" : {
+    "handle" : "BORNFIBER",
+    "description" : "BornFiber Service Provider ApS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.96.88.0/22",
       "185.96.180.0/22",
       "185.107.168.0/22",
@@ -16,7 +19,7 @@
       "185.109.76.0/22",
       "185.109.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4020::/32",
       "2a00:4820::/32"
     ]

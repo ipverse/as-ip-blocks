@@ -1,9 +1,12 @@
 {
-  "asn": 12189,
-  "handle": "AS12189",
-  "description": "PhoenixNAP LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12189,
+  "metadata" : {
+    "handle" : "AS12189",
+    "description" : "PhoenixNAP LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "98.143.32.0/24",
       "131.153.36.0/24",
       "131.153.56.0/21",
@@ -12,7 +15,7 @@
       "131.153.112.0/20",
       "131.153.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:bc40:100::/40",
       "2401:bc40:300::/40",
       "2401:bc40:500::/40",

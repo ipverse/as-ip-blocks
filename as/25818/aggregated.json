@@ -1,9 +1,12 @@
 {
-  "asn": 25818,
-  "handle": "CMCNETWORKS",
-  "description": "cmcnetworks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25818,
+  "metadata" : {
+    "handle" : "CMCNETWORKS",
+    "description" : "cmcnetworks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.202.32.0/19",
       "69.67.32.0/20",
       "102.64.96.0/20",
@@ -14,7 +17,7 @@
       "196.32.8.0/21",
       "197.231.160.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4210::/32"
     ]
   }

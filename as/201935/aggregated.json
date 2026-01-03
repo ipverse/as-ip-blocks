@@ -1,9 +1,12 @@
 {
-  "asn": 201935,
-  "handle": "AS-SKLMED",
-  "description": "Skylogic Mediterraneo s.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201935,
+  "metadata" : {
+    "handle" : "AS-SKLMED",
+    "description" : "Skylogic Mediterraneo s.r.l",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.39.88.0/24",
       "82.85.176.0/24",
       "84.254.144.0/23",
@@ -12,6 +15,6 @@
       "178.219.64.0/20",
       "185.23.98.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

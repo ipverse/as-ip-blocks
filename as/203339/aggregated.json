@@ -1,13 +1,16 @@
 {
-  "asn": 203339,
-  "handle": "NOC",
-  "description": "SIA Network Operations Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203339,
+  "metadata" : {
+    "handle" : "NOC",
+    "description" : "SIA Network Operations Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.38.128.0/24",
       "185.220.116.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:4840:1111::/48",
       "2a0b:f6c0::/48"
     ]

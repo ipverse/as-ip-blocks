@@ -1,12 +1,15 @@
 {
-  "asn": 62138,
-  "handle": "AU-ASN",
-  "description": "Aarhus Universitet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62138,
+  "metadata" : {
+    "handle" : "AU-ASN",
+    "description" : "Aarhus Universitet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.45.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:79a0::/32"
     ]
   }

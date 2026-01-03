@@ -1,9 +1,12 @@
 {
-  "asn": 33748,
-  "handle": "DSCI",
-  "description": "DSCI Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33748,
+  "metadata" : {
+    "handle" : "DSCI",
+    "description" : "DSCI Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "76.191.41.0/24",
       "199.125.64.0/24",
       "199.125.96.0/22",
@@ -21,6 +24,6 @@
       "209.104.251.0/24",
       "209.104.252.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 21996,
-  "handle": "GUAMCELL",
-  "description": "GUAMCELL Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21996,
+  "metadata" : {
+    "handle" : "GUAMCELL",
+    "description" : "GUAMCELL Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.103.50.0/23",
       "103.17.113.0/24",
       "103.17.114.0/23",
@@ -11,6 +14,6 @@
       "202.22.176.0/23",
       "202.47.144.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

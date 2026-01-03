@@ -1,11 +1,14 @@
 {
-  "asn": 35564,
-  "handle": "LINKNV-AS",
-  "description": "Link LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35564,
+  "metadata" : {
+    "handle" : "LINKNV-AS",
+    "description" : "Link LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.242.48.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

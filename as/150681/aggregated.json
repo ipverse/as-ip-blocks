@@ -1,11 +1,14 @@
 {
-  "asn": 150681,
-  "handle": "R1DOTNET-AS-AP",
-  "description": "R-1 dot net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150681,
+  "metadata" : {
+    "handle" : "R1DOTNET-AS-AP",
+    "description" : "R-1 dot net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.53.160.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 31363,
-  "handle": "MOSCOW-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31363,
+  "metadata" : {
+    "handle" : "MOSCOW-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.3.96.0/20",
       "5.16.128.0/20",
       "5.16.160.0/19",
@@ -58,7 +61,7 @@
       "217.28.216.0/22",
       "217.29.48.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2698:9800::/38"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 138487,
-  "handle": "FNFNETWORK-AS-AP",
-  "description": "FNF NETWORK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138487,
+  "metadata" : {
+    "handle" : "FNFNETWORK-AS-AP",
+    "description" : "FNF NETWORK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.126.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:1140:1::/48",
       "2404:1140:2::/47",
       "2404:1140:4::/46",

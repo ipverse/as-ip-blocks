@@ -1,9 +1,12 @@
 {
-  "asn": 43647,
-  "handle": "AS-SERVERCORE-UZ",
-  "description": "SERVERCORE CIS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43647,
+  "metadata" : {
+    "handle" : "AS-SERVERCORE-UZ",
+    "description" : "SERVERCORE CIS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.122.216.0/22",
       "82.148.0.0/21",
       "89.232.184.0/22",
@@ -17,6 +20,6 @@
       "213.232.225.0/24",
       "213.232.245.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 43594,
-  "handle": "SVYAZ-AS",
-  "description": "Svyaz LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43594,
+  "metadata" : {
+    "handle" : "SVYAZ-AS",
+    "description" : "Svyaz LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.215.124.0/22",
       "185.184.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:4380::/32"
     ]
   }

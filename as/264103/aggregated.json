@@ -1,12 +1,15 @@
 {
-  "asn": 264103,
-  "handle": "PINHEIRO-NET",
-  "description": "Pinheiro Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264103,
+  "metadata" : {
+    "handle" : "PINHEIRO-NET",
+    "description" : "Pinheiro Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.59.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2278::/32"
     ]
   }

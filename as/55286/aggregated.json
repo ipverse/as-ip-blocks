@@ -1,9 +1,12 @@
 {
-  "asn": 55286,
-  "handle": "SERVER-MANIA",
-  "description": "B2 Net Solutions Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55286,
+  "metadata" : {
+    "handle" : "SERVER-MANIA",
+    "description" : "B2 Net Solutions Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.229.0.0/20",
       "23.229.16.0/24",
       "23.229.19.0/24",
@@ -236,7 +239,7 @@
       "209.234.253.0/24",
       "212.47.85.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:c980:4200::/40",
       "2606:b300:b300::/40",
       "2607:4300::/46",

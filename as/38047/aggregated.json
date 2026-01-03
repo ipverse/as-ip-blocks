@@ -1,9 +1,12 @@
 {
-  "asn": 38047,
-  "handle": "TAIWAN-TELECOM",
-  "description": "Taiwan Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38047,
+  "metadata" : {
+    "handle" : "TAIWAN-TELECOM",
+    "description" : "Taiwan Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.106.52.0/23",
       "103.106.54.0/24",
       "103.123.100.0/23",
@@ -14,7 +17,7 @@
       "103.183.78.0/23",
       "160.187.200.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:61a0::/32",
       "2602:f83b:1::/48",
       "2602:f83b:2::/48",

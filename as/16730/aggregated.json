@@ -1,9 +1,12 @@
 {
-  "asn": 16730,
-  "handle": "AS16730",
-  "description": "Royal Bank of Canada",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16730,
+  "metadata" : {
+    "handle" : "AS16730",
+    "description" : "Royal Bank of Canada",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.245.64.0/22",
       "142.245.68.0/24",
       "142.245.71.0/24",
@@ -17,6 +20,6 @@
       "142.245.95.0/24",
       "198.96.129.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

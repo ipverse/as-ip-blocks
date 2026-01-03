@@ -1,15 +1,18 @@
 {
-  "asn": 55805,
-  "handle": "MOBICOM-AS-MN",
-  "description": "MobiCom Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55805,
+  "metadata" : {
+    "handle" : "MOBICOM-AS-MN",
+    "description" : "MobiCom Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.123.212.0/22",
       "103.29.144.0/22",
       "103.98.71.0/24",
       "202.126.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:600::/32"
     ]
   }

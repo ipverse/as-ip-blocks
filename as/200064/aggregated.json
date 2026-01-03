@@ -1,9 +1,12 @@
 {
-  "asn": 200064,
-  "handle": "IB-REDAS",
-  "description": "Red digital de telecomunicaciones de las Islas Baleares S.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200064,
+  "metadata" : {
+    "handle" : "IB-REDAS",
+    "description" : "Red digital de telecomunicaciones de las Islas Baleares S.L",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.156.40.0/22",
       "79.98.216.0/21",
       "92.118.172.0/22",
@@ -13,7 +16,7 @@
       "141.170.208.0/23",
       "185.28.140.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2f80::/29"
     ]
   }

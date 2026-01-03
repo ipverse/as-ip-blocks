@@ -1,14 +1,17 @@
 {
-  "asn": 38113,
-  "handle": "KUMC-AS",
-  "description": "KUMC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38113,
+  "metadata" : {
+    "handle" : "KUMC-AS",
+    "description" : "KUMC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.152.144.0/21",
       "220.116.28.0/23",
       "220.116.32.0/24",
       "220.149.136.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

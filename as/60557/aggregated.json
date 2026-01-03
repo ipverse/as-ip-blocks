@@ -1,12 +1,15 @@
 {
-  "asn": 60557,
-  "handle": "ALPINE-NORTH-AS",
-  "description": "Krik van der Vinne trading as Alpine North",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60557,
+  "metadata" : {
+    "handle" : "ALPINE-NORTH-AS",
+    "description" : "Krik van der Vinne trading as Alpine North",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "176.119.215.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:ce4::/48",
       "2001:678:ce8::/48",
       "2001:678:cec::/48",

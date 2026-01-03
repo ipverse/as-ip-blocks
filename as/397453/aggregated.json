@@ -1,9 +1,12 @@
 {
-  "asn": 397453,
-  "handle": "MEEKER-01",
-  "description": "Meeker Cooperative Light \u0026 Power Association",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397453,
+  "metadata" : {
+    "handle" : "MEEKER-01",
+    "description" : "Meeker Cooperative Light & Power Association",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.138.164.0/22",
       "72.26.192.0/20",
       "137.83.60.0/22",
@@ -15,7 +18,7 @@
       "199.103.16.0/22",
       "216.120.139.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:3240::/32"
     ]
   }

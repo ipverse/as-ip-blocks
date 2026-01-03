@@ -1,15 +1,18 @@
 {
-  "asn": 23943,
-  "handle": "HYPERSPIKE-AS-AU-AP",
-  "description": "Hyperspike Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23943,
+  "metadata" : {
+    "handle" : "HYPERSPIKE-AS-AU-AP",
+    "description" : "Hyperspike Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.121.124.0/22",
       "103.168.144.0/23",
       "116.118.240.0/20",
       "203.32.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:e40::/32"
     ]
   }

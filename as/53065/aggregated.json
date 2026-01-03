@@ -1,9 +1,12 @@
 {
-  "asn": 53065,
-  "handle": "OPCAO-TELECOM",
-  "description": "Opcao Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53065,
+  "metadata" : {
+    "handle" : "OPCAO-TELECOM",
+    "description" : "Opcao Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.233.248.0/22",
       "131.100.8.0/22",
       "170.82.80.0/22",
@@ -13,7 +16,7 @@
       "187.86.48.0/20",
       "189.113.48.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1844::/32"
     ]
   }

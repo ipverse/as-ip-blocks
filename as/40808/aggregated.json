@@ -1,12 +1,15 @@
 {
-  "asn": 40808,
-  "handle": "YVRAA",
-  "description": "Vancouver International Airport Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40808,
+  "metadata" : {
+    "handle" : "YVRAA",
+    "description" : "Vancouver International Airport Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.239.248.0/22",
       "204.239.252.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 140482,
-  "handle": "IDEANET-AS-ID",
-  "description": "IdeaNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140482,
+  "metadata" : {
+    "handle" : "IDEANET-AS-ID",
+    "description" : "IdeaNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.112.77.0/24",
       "103.22.136.0/22",
       "103.152.140.0/23",
       "103.231.171.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

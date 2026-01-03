@@ -1,13 +1,16 @@
 {
-  "asn": 2740,
-  "handle": "CARIBCABLE",
-  "description": "Caribbean Cable Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2740,
+  "metadata" : {
+    "handle" : "CARIBCABLE",
+    "description" : "Caribbean Cable Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.14.250.0/24",
       "204.14.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd72::/36"
     ]
   }

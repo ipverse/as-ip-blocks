@@ -1,13 +1,16 @@
 {
-  "asn": 48258,
-  "handle": "SPIE-ICS-AS",
-  "description": "SPIE ICS AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48258,
+  "metadata" : {
+    "handle" : "SPIE-ICS-AS",
+    "description" : "SPIE ICS AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.209.53.0/24",
       "185.254.224.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2488::/48"
     ]
   }

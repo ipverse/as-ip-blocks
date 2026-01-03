@@ -1,15 +1,18 @@
 {
-  "asn": 207869,
-  "handle": "GANZRUND-AT-AS",
-  "description": "GANZRUND Informatik GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207869,
+  "metadata" : {
+    "handle" : "GANZRUND-AT-AS",
+    "description" : "GANZRUND Informatik GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.230.82.0/24",
       "91.230.134.0/24",
       "91.230.143.0/24",
       "91.230.147.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:70c0:100::/48"
     ]
   }

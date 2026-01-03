@@ -1,9 +1,12 @@
 {
-  "asn": 133775,
-  "handle": "CHINATELECOM-FUJIAN-XIAMEN-IDC1",
-  "description": "Xiamen",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133775,
+  "metadata" : {
+    "handle" : "CHINATELECOM-FUJIAN-XIAMEN-IDC1",
+    "description" : "Xiamen",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.159.96.0/21",
       "43.243.128.0/22",
       "101.251.176.0/22",
@@ -18,7 +21,7 @@
       "218.98.104.0/22",
       "218.98.108.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:14:7000::/37",
       "240e:d6:6800::/37",
       "240e:108:28::/48",

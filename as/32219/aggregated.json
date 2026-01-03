@@ -1,11 +1,14 @@
 {
-  "asn": 32219,
-  "handle": "SHS-AS-1",
-  "description": "Sparrow Health System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32219,
+  "metadata" : {
+    "handle" : "SHS-AS-1",
+    "description" : "Sparrow Health System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.232.14.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 45432,
-  "handle": "MBTNET-IN",
-  "description": "Tech Mahindra Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45432,
+  "metadata" : {
+    "handle" : "MBTNET-IN",
+    "description" : "Tech Mahindra Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.67.193.0/24",
       "119.151.0.0/19",
       "119.151.32.0/20",
@@ -26,7 +29,7 @@
       "119.151.174.0/24",
       "119.151.185.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:a300:1000::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 54038,
-  "handle": "CALLIDUS-SOFTWARE",
-  "description": "Callidus Software Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54038,
+  "metadata" : {
+    "handle" : "CALLIDUS-SOFTWARE",
+    "description" : "Callidus Software Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.213.80.0/23",
       "162.213.82.0/24",
       "165.254.192.0/23",
@@ -14,6 +17,6 @@
       "205.166.181.0/24",
       "208.17.89.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 29180,
-  "handle": "O2-ONLINE-AS",
-  "description": "Telefonica UK Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29180,
+  "metadata" : {
+    "handle" : "O2-ONLINE-AS",
+    "description" : "Telefonica UK Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.132.128.0/21",
       "82.132.136.0/23",
       "82.132.140.0/22",
@@ -17,6 +20,6 @@
       "82.132.252.0/22",
       "185.238.16.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

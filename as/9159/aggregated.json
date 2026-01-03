@@ -1,15 +1,18 @@
 {
-  "asn": 9159,
-  "handle": "CREDIT-AGRICOLE-SA",
-  "description": "Credit Agricole SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9159,
+  "metadata" : {
+    "handle" : "CREDIT-AGRICOLE-SA",
+    "description" : "Credit Agricole SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.227.0.0/16",
       "158.190.0.0/15",
       "158.192.0.0/16",
       "192.44.63.0/24",
       "193.110.152.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 268222,
-  "handle": "FENIX-TELECOM",
-  "description": "FENIX TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268222,
+  "metadata" : {
+    "handle" : "FENIX-TELECOM",
+    "description" : "FENIX TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.236.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4dd4::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 136054,
-  "handle": "COMTELINDO-AS-ID",
-  "description": "PT.COMTELINDO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136054,
+  "metadata" : {
+    "handle" : "COMTELINDO-AS-ID",
+    "description" : "PT.COMTELINDO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.80.240.0/23",
       "103.80.243.0/24",
       "217.216.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:5ec0:13::/48",
       "2400:5ec0:cb31::/48"
     ]

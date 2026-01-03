@@ -1,9 +1,12 @@
 {
-  "asn": 393238,
-  "handle": "IMONC",
-  "description": "ImOn Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393238,
+  "metadata" : {
+    "handle" : "IMONC",
+    "description" : "ImOn Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.199.254.0/23",
       "68.169.252.0/22",
       "72.50.240.0/24",
@@ -24,7 +27,7 @@
       "207.191.192.0/19",
       "209.252.168.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:3f80::/28"
     ]
   }

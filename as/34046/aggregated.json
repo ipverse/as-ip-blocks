@@ -1,12 +1,15 @@
 {
-  "asn": 34046,
-  "handle": "SHIELD-AS",
-  "description": "ShieldTelecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34046,
+  "metadata" : {
+    "handle" : "SHIELD-AS",
+    "description" : "ShieldTelecom Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.242.112.0/23",
       "195.245.80.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

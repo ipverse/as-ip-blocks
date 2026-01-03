@@ -1,9 +1,12 @@
 {
-  "asn": 209622,
-  "handle": "UPRESS-DRB",
-  "description": "uPress Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209622,
+  "metadata" : {
+    "handle" : "UPRESS-DRB",
+    "description" : "uPress Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.154.240.0/24",
       "88.218.116.0/22",
       "185.108.148.0/23",
@@ -12,7 +15,7 @@
       "185.201.148.0/22",
       "194.231.220.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:4300:31::/48",
       "2a07:4300:61::/48",
       "2a07:4300:972::/48",

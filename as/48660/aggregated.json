@@ -1,9 +1,12 @@
 {
-  "asn": 48660,
-  "handle": "VERIUP",
-  "description": "VERIUP Bulut Internet Hizmetleri A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48660,
+  "metadata" : {
+    "handle" : "VERIUP",
+    "description" : "VERIUP Bulut Internet Hizmetleri A.S.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.111.111.0/24",
       "109.104.120.0/24",
       "178.251.238.0/24",
@@ -12,6 +15,6 @@
       "217.195.202.0/24",
       "217.195.207.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

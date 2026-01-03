@@ -1,9 +1,12 @@
 {
-  "asn": 6059,
-  "handle": "UMS2-ASN",
-  "description": "University System of Maryland",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6059,
+  "metadata" : {
+    "handle" : "UMS2-ASN",
+    "description" : "University System of Maryland",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.118.0.0/16",
       "136.160.0.0/16",
       "198.175.248.0/24",
@@ -11,7 +14,7 @@
       "204.52.128.0/22",
       "216.152.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:116:5000::/40"
     ]
   }

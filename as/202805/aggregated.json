@@ -1,12 +1,15 @@
 {
-  "asn": 202805,
-  "handle": "I-TEL-AS",
-  "description": "I-TEL Pawel Bak",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202805,
+  "metadata" : {
+    "handle" : "I-TEL-AS",
+    "description" : "I-TEL Pawel Bak",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.216.0/24",
       "188.241.25.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

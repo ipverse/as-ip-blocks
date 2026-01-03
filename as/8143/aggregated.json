@@ -1,9 +1,12 @@
 {
-  "asn": 8143,
-  "handle": "NEBUSRT",
-  "description": "Neburst LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8143,
+  "metadata" : {
+    "handle" : "NEBUSRT",
+    "description" : "Neburst LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.128.188.0/24",
       "23.145.36.0/24",
       "23.145.44.0/24",
@@ -11,7 +14,7 @@
       "23.149.108.0/24",
       "23.189.248.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f732:1::/48",
       "2602:f732:2::/48",
       "2602:f732:a::/48"

@@ -1,9 +1,12 @@
 {
-  "asn": 7030,
-  "handle": "EXWIRE",
-  "description": "Exwire Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7030,
+  "metadata" : {
+    "handle" : "EXWIRE",
+    "description" : "Exwire Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.171.192.0/22",
       "216.171.196.0/24",
       "216.171.201.0/24",
@@ -14,7 +17,7 @@
       "216.171.218.0/23",
       "216.171.220.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:fe80::/32"
     ]
   }

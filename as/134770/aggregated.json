@@ -1,9 +1,12 @@
 {
-  "asn": 134770,
-  "handle": "CHINANET-JIANGSU-SUZHOU-TAIHU-IDC",
-  "description": "CHINANET Jiangsu province Suzhou taihu IDC network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134770,
+  "metadata" : {
+    "handle" : "CHINANET-JIANGSU-SUZHOU-TAIHU-IDC",
+    "description" : "CHINANET Jiangsu province Suzhou taihu IDC network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.211.215.0/24",
       "61.155.134.0/23",
       "61.155.139.0/24",
@@ -38,7 +41,7 @@
       "221.224.139.0/24",
       "221.224.220.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:1a:150::/44",
       "240e:e9:6800::/37",
       "240e:979:e00::/40",

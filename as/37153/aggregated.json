@@ -1,9 +1,12 @@
 {
-  "asn": 37153,
-  "handle": "XNEELO",
-  "description": "Xneelo (Pty) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37153,
+  "metadata" : {
+    "handle" : "XNEELO",
+    "description" : "Xneelo (Pty) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.72.128.0/19",
       "41.203.0.0/19",
       "41.204.192.0/19",
@@ -37,7 +40,7 @@
       "197.242.80.0/22",
       "197.242.88.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:840:32::/48",
       "2c0f:fce8::/33"
     ]

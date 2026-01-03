@@ -1,9 +1,12 @@
 {
-  "asn": 398232,
-  "handle": "CONNECTANZA",
-  "description": "Anza Electric Cooperative Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398232,
+  "metadata" : {
+    "handle" : "CONNECTANZA",
+    "description" : "Anza Electric Cooperative Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.113.144.0/22",
       "74.209.172.0/23",
       "107.182.138.0/23",
@@ -12,6 +15,6 @@
       "161.199.42.0/23",
       "208.69.184.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

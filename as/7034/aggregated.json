@@ -1,13 +1,16 @@
 {
-  "asn": 7034,
-  "handle": "PHIREPHLY-DESIGN",
-  "description": "PhirePhly Design",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7034,
+  "metadata" : {
+    "handle" : "PHIREPHLY-DESIGN",
+    "description" : "PhirePhly Design",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.152.160.0/24",
       "44.4.17.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:7c80:55::/48",
       "2620:13b::/48"
     ]

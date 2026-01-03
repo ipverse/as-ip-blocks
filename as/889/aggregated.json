@@ -1,12 +1,15 @@
 {
-  "asn": 889,
-  "handle": "DVFIBER-VT",
-  "description": "Deerfield Valley Communications Union District",
-  "subnets": {
-    "ipv4": [
+  "asn" : 889,
+  "metadata" : {
+    "handle" : "DVFIBER-VT",
+    "description" : "Deerfield Valley Communications Union District",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.138.82.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:de40::/32"
     ]
   }

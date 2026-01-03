@@ -1,12 +1,15 @@
 {
-  "asn": 154083,
-  "handle": "DFNWIS-AS-AP",
-  "description": "DC FIBER NETWORK WIRED INTERNET SERVICES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 154083,
+  "metadata" : {
+    "handle" : "DFNWIS-AS-AP",
+    "description" : "DC FIBER NETWORK WIRED INTERNET SERVICES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.101.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:1c60::/32"
     ]
   }

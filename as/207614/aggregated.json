@@ -1,9 +1,12 @@
 {
-  "asn": 207614,
-  "handle": "AS-FUENLAN",
-  "description": "Sistemas informaticos y Servicios de internet FuenLan SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207614,
+  "metadata" : {
+    "handle" : "AS-FUENLAN",
+    "description" : "Sistemas informaticos y Servicios de internet FuenLan SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.154.7.0/24",
       "45.128.236.0/22",
       "78.136.79.0/24",
@@ -11,7 +14,7 @@
       "185.133.4.0/22",
       "185.238.84.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:4200::/29"
     ]
   }

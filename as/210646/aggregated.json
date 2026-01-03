@@ -1,16 +1,19 @@
 {
-  "asn": 210646,
-  "handle": "ATLANTIS-SAT-AS",
-  "description": "ATLANTIS SAT LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210646,
+  "metadata" : {
+    "handle" : "ATLANTIS-SAT-AS",
+    "description" : "ATLANTIS SAT LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.233.37.0/24",
       "89.25.24.0/24",
       "89.25.119.0/24",
       "151.251.66.0/23",
       "213.145.105.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:9d40::/29"
     ]
   }

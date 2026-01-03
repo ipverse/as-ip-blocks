@@ -1,11 +1,14 @@
 {
-  "asn": 393723,
-  "handle": "GCLS-BGP-01",
-  "description": "Greenville County Library System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393723,
+  "metadata" : {
+    "handle" : "GCLS-BGP-01",
+    "description" : "Greenville County Library System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.249.190.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

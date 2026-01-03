@@ -1,15 +1,18 @@
 {
-  "asn": 132399,
-  "handle": "ATICLOUD-AP",
-  "description": "International organization of Aeronautics Telecommunications (SITA)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132399,
+  "metadata" : {
+    "handle" : "ATICLOUD-AP",
+    "description" : "International organization of Aeronautics Telecommunications (SITA)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "57.191.95.0/24",
       "57.191.96.0/19",
       "57.191.160.0/19",
       "57.250.49.0/24",
       "57.250.51.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

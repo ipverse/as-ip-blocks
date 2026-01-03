@@ -1,14 +1,17 @@
 {
-  "asn": 201984,
-  "handle": "ESOLUTIONS-AS",
-  "description": "E-Solutions BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201984,
+  "metadata" : {
+    "handle" : "ESOLUTIONS-AS",
+    "description" : "E-Solutions BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.54.248.0/22",
       "185.106.68.0/22",
       "193.111.12.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:47e0::/29"
     ]
   }

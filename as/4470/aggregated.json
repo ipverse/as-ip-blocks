@@ -1,9 +1,12 @@
 {
-  "asn": 4470,
-  "handle": "ASN-CITENET",
-  "description": "Citenet Telecom Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4470,
+  "metadata" : {
+    "handle" : "ASN-CITENET",
+    "description" : "Citenet Telecom Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.53.26.0/23",
       "199.84.38.0/24",
       "204.19.170.0/23",
@@ -17,6 +20,6 @@
       "209.41.133.0/24",
       "209.41.153.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

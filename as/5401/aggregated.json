@@ -1,12 +1,15 @@
 {
-  "asn": 5401,
-  "handle": "ASN-CLUENET",
-  "description": "Daniel Roesen",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5401,
+  "metadata" : {
+    "handle" : "ASN-CLUENET",
+    "description" : "Daniel Roesen",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.20.120.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1440:201::/48",
       "2001:1440:202::/47"
     ]

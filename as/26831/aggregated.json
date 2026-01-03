@@ -1,9 +1,12 @@
 {
-  "asn": 26831,
-  "handle": "CAMERON-COMMUNICATIONS",
-  "description": "Cameron Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26831,
+  "metadata" : {
+    "handle" : "CAMERON-COMMUNICATIONS",
+    "description" : "Cameron Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.2.224.0/22",
       "38.2.228.0/24",
       "38.2.230.0/23",
@@ -65,6 +68,6 @@
       "216.84.142.0/23",
       "216.110.70.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

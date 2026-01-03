@@ -1,9 +1,12 @@
 {
-  "asn": 39600,
-  "handle": "BUNNY-TECHNOLOGY-LLC",
-  "description": "BUNNY TECHNOLOGY LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39600,
+  "metadata" : {
+    "handle" : "BUNNY-TECHNOLOGY-LLC",
+    "description" : "BUNNY TECHNOLOGY LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.195.156.0/22",
       "50.114.119.0/24",
       "64.145.2.0/24",
@@ -29,6 +32,6 @@
       "207.145.42.0/24",
       "216.254.93.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

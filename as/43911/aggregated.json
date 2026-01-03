@@ -1,12 +1,15 @@
 {
-  "asn": 43911,
-  "handle": "TE3-AS",
-  "description": "Tom Merlin Eichhorn",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43911,
+  "metadata" : {
+    "handle" : "TE3-AS",
+    "description" : "Tom Merlin Eichhorn",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.195.220.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:220::/48"
     ]
   }

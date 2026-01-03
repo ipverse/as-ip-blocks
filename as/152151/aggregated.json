@@ -1,11 +1,14 @@
 {
-  "asn": 152151,
-  "handle": "DOMAINBRIDGE-AS-AP",
-  "description": "Domain Bridge",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152151,
+  "metadata" : {
+    "handle" : "DOMAINBRIDGE-AS-AP",
+    "description" : "Domain Bridge",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.62.234.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

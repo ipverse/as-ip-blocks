@@ -1,12 +1,15 @@
 {
-  "asn": 400806,
-  "handle": "CLEARLYIP-CA",
-  "description": "Clearly IP Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400806,
+  "metadata" : {
+    "handle" : "CLEARLYIP-CA",
+    "description" : "Clearly IP Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.182.133.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:3880:1300::/48"
     ]
   }

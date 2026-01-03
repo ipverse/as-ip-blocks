@@ -1,12 +1,15 @@
 {
-  "asn": 268924,
-  "handle": "MELOLINK-INTERNET-FIBRA",
-  "description": "MELOLINK INTERNET FIBRA OPTICA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268924,
+  "metadata" : {
+    "handle" : "MELOLINK-INTERNET-FIBRA-OPTICA",
+    "description" : "MELOLINK INTERNET FIBRA OPTICA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.176.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5cb0::/32"
     ]
   }

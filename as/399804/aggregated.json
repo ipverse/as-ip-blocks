@@ -1,14 +1,17 @@
 {
-  "asn": 399804,
-  "handle": "HOSTODO",
-  "description": "Hostodo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399804,
+  "metadata" : {
+    "handle" : "HOSTODO",
+    "description" : "Hostodo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.43.93.0/24",
       "66.187.6.0/23",
       "158.51.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:4cc0:11::/48",
       "2606:65c0:10::/48",
       "2606:65c0:20::/48",

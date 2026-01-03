@@ -1,9 +1,12 @@
 {
-  "asn": 12789,
-  "handle": "DMG-MEDIA-LIMITED",
-  "description": "DMG Media Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12789,
+  "metadata" : {
+    "handle" : "DMG-MEDIA-LIMITED",
+    "description" : "DMG Media Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.234.240.0/22",
       "213.165.16.0/23",
       "213.165.19.0/24",
@@ -13,6 +16,6 @@
       "213.165.26.0/23",
       "213.165.28.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

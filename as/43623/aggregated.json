@@ -1,9 +1,12 @@
 {
-  "asn": 43623,
-  "handle": "ARD-STERNPUNKT",
-  "description": "Hessischer Rundfunk",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43623,
+  "metadata" : {
+    "handle" : "ARD-STERNPUNKT",
+    "description" : "Hessischer Rundfunk",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.195.78.0/23",
       "149.219.8.0/24",
       "149.219.249.0/24",
@@ -17,7 +20,7 @@
       "194.156.7.0/24",
       "217.66.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:880::/29"
     ]
   }

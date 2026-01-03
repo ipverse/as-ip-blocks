@@ -1,13 +1,16 @@
 {
-  "asn": 51004,
-  "handle": "SCTS-AS",
-  "description": "Sakhalin Cable Telesystems Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51004,
+  "metadata" : {
+    "handle" : "SCTS-AS",
+    "description" : "Sakhalin Cable Telesystems Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.74.228.0/22",
       "188.113.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:e2a0::/32"
     ]
   }

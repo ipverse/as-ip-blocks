@@ -1,9 +1,12 @@
 {
-  "asn": 34245,
-  "handle": "MAGNET-AS",
-  "description": "Magnet Networks Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34245,
+  "metadata" : {
+    "handle" : "MAGNET-AS",
+    "description" : "Magnet Networks Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.91.0.0/19",
       "87.192.80.0/24",
       "87.192.220.0/23",
@@ -21,7 +24,7 @@
       "213.79.32.0/19",
       "213.159.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:148::/29"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 149872,
-  "handle": "PMCI-AS-AP",
-  "description": "Peter MacCallum Cancer Centre",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149872,
+  "metadata" : {
+    "handle" : "PMCI-AS-AP",
+    "description" : "Peter MacCallum Cancer Centre",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.4.164.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

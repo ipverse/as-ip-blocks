@@ -1,13 +1,16 @@
 {
-  "asn": 28009,
-  "handle": "DAVITEL",
-  "description": "Davitel S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28009,
+  "metadata" : {
+    "handle" : "DAVITEL",
+    "description" : "Davitel S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "190.93.192.0/19",
       "200.85.176.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:4440::/32"
     ]
   }

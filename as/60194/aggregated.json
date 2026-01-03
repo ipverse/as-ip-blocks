@@ -1,9 +1,12 @@
 {
-  "asn": 60194,
-  "handle": "VTG-AS",
-  "description": "Anchor Computer Systems Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60194,
+  "metadata" : {
+    "handle" : "VTG-AS",
+    "description" : "Anchor Computer Systems Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.169.32.0/23",
       "31.169.35.0/24",
       "31.169.39.0/24",
@@ -27,6 +30,6 @@
       "185.35.124.0/22",
       "188.241.12.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

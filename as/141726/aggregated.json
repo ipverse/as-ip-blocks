@@ -1,12 +1,15 @@
 {
-  "asn": 141726,
-  "handle": "STAR5-AS-AP",
-  "description": "Star Online",
-  "subnets": {
-    "ipv4": [
+  "asn" : 141726,
+  "metadata" : {
+    "handle" : "STAR5-AS-AP",
+    "description" : "Star Online",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.162.208.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:fc80::/48"
     ]
   }

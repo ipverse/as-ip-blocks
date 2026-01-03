@@ -1,12 +1,15 @@
 {
-  "asn": 39360,
-  "handle": "MOSOBLCOM-AS",
-  "description": "MOSOBLCOM LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39360,
+  "metadata" : {
+    "handle" : "MOSOBLCOM-AS",
+    "description" : "MOSOBLCOM LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.226.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:4980::/32"
     ]
   }

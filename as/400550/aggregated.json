@@ -1,13 +1,16 @@
 {
-  "asn": 400550,
-  "handle": "SM-AS",
-  "description": "Suburban Marine Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400550,
+  "metadata" : {
+    "handle" : "SM-AS",
+    "description" : "Suburban Marine Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.133.232.0/24",
       "134.195.194.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fb9e::/46",
       "2602:fb9e:16::/48"
     ]

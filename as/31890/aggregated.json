@@ -1,9 +1,12 @@
 {
-  "asn": 31890,
-  "handle": "ROCKET",
-  "description": "Rocket LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31890,
+  "metadata" : {
+    "handle" : "ROCKET",
+    "description" : "Rocket LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.165.188.0/24",
       "63.151.90.0/23",
       "67.37.198.0/24",
@@ -13,6 +16,6 @@
       "162.252.136.0/21",
       "209.119.140.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

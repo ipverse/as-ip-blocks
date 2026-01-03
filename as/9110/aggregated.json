@@ -1,9 +1,12 @@
 {
-  "asn": 9110,
-  "handle": "AGTELECOM-AS",
-  "description": "AMT GROUP TELECOM Limited Liability Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9110,
+  "metadata" : {
+    "handle" : "AGTELECOM-AS",
+    "description" : "AMT GROUP TELECOM Limited Liability Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.75.250.0/24",
       "194.246.80.0/24",
       "212.111.64.0/21",
@@ -18,7 +21,7 @@
       "212.233.112.0/21",
       "212.233.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:6d80::/29"
     ]
   }

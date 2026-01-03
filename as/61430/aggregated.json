@@ -1,15 +1,18 @@
 {
-  "asn": 61430,
-  "handle": "AS-MILDE",
-  "description": "Marc Milde",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61430,
+  "metadata" : {
+    "handle" : "AS-MILDE",
+    "description" : "Marc Milde",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.213.252.0/24",
       "91.228.190.0/23",
       "185.126.100.0/22",
       "185.237.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1944::/48",
       "2001:67c:2ad4::/48",
       "2a06:c040::/31"

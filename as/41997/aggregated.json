@@ -1,15 +1,18 @@
 {
-  "asn": 41997,
-  "handle": "CONNECT-AS-1",
-  "description": "Connect CJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41997,
+  "metadata" : {
+    "handle" : "CONNECT-AS-1",
+    "description" : "Connect CJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.22.224.0/24",
       "91.191.192.0/23",
       "91.191.206.0/23",
       "130.0.8.0/23",
       "130.0.10.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

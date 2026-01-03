@@ -1,9 +1,12 @@
 {
-  "asn": 14626,
-  "handle": "COLUMBIA-HCA",
-  "description": "Columbia/HCA Healthcare Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14626,
+  "metadata" : {
+    "handle" : "COLUMBIA-HCA",
+    "description" : "Columbia/HCA Healthcare Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.214.4.0/24",
       "165.214.11.0/24",
       "165.214.12.0/24",
@@ -25,6 +28,6 @@
       "199.91.36.0/22",
       "199.91.40.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

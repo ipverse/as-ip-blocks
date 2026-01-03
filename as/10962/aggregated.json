@@ -1,15 +1,18 @@
 {
-  "asn": 10962,
-  "handle": "CERNER-CORP-ASN",
-  "description": "Cerner Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10962,
+  "metadata" : {
+    "handle" : "CERNER-CORP-ASN",
+    "description" : "Cerner Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.46.192.0/18",
       "170.253.64.0/19",
       "199.21.18.0/24",
       "199.21.23.0/24",
       "199.21.28.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

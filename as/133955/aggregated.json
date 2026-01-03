@@ -1,9 +1,12 @@
 {
-  "asn": 133955,
-  "handle": "WLINCL-AS",
-  "description": "World Link International Network Co. Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133955,
+  "metadata" : {
+    "handle" : "WLINCL-AS",
+    "description" : "World Link International Network Co. Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.235.4.0/22",
       "150.129.208.0/24",
       "150.129.210.0/23",
@@ -12,6 +15,6 @@
       "223.165.12.0/23",
       "223.165.15.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

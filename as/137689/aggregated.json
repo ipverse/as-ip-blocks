@@ -1,9 +1,12 @@
 {
-  "asn": 137689,
-  "handle": "CHINATELECOM-IOT-JIANGSU-NETWORK",
-  "description": "IOT Jiangsu network Chinatelecom P.R.China",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137689,
+  "metadata" : {
+    "handle" : "CHINATELECOM-IOT-JIANGSU-NETWORK",
+    "description" : "IOT Jiangsu network Chinatelecom P.R.China.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.113.16.0/20",
       "36.113.32.0/19",
       "36.113.64.0/21",
@@ -24,7 +27,7 @@
       "117.61.222.0/23",
       "117.61.254.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:100:30::/44",
       "240e:100:40::/43",
       "240e:100:60::/44",

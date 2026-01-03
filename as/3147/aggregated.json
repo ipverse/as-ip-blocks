@@ -1,15 +1,18 @@
 {
-  "asn": 3147,
-  "handle": "US-BANCORP",
-  "description": "U.S. BANCORP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3147,
+  "metadata" : {
+    "handle" : "US-BANCORP",
+    "description" : "U.S. BANCORP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.135.0.0/16",
       "199.245.216.0/23",
       "199.245.218.0/24",
       "204.137.40.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:16e:87::/48",
       "2620:16e:89::/48",
       "2620:16e:487::/48",

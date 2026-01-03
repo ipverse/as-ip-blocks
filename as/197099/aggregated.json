@@ -1,9 +1,12 @@
 {
-  "asn": 197099,
-  "handle": "MULTINET24PL",
-  "description": "Multinet24 Sp.zoo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197099,
+  "metadata" : {
+    "handle" : "MULTINET24PL",
+    "description" : "Multinet24 Sp.zoo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.216.149.0/24",
       "178.217.136.0/21",
       "185.81.106.0/23",
@@ -13,7 +16,7 @@
       "195.95.185.0/24",
       "217.30.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:63e0::/29",
       "2a11:a000::/29"
     ]

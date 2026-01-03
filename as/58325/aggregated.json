@@ -1,9 +1,12 @@
 {
-  "asn": 58325,
-  "handle": "BANDWIDTH-ASIA",
-  "description": "Hydra Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58325,
+  "metadata" : {
+    "handle" : "BANDWIDTH-ASIA",
+    "description" : "Hydra Communications Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.231.167.0/24",
       "64.204.92.0/22",
       "64.204.116.0/22",
@@ -24,7 +27,7 @@
       "212.135.136.0/21",
       "212.135.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:4020:40::/44"
     ]
   }

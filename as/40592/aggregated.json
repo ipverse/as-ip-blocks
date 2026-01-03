@@ -1,12 +1,15 @@
 {
-  "asn": 40592,
-  "handle": "DACSCX-US",
-  "description": "DACS Cloud",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40592,
+  "metadata" : {
+    "handle" : "DACSCX-US",
+    "description" : "DACS Cloud",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.59.210.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ffa9::/48",
       "2602:ffa9:68::/48",
       "2602:ffa9:72::/47",

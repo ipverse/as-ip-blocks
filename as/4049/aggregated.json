@@ -1,9 +1,12 @@
 {
-  "asn": 4049,
-  "handle": "CELLO-AS-AP",
-  "description": "CELLO GROUP LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4049,
+  "metadata" : {
+    "handle" : "CELLO-AS-AP",
+    "description" : "CELLO GROUP LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.153.20.0/22",
       "103.16.20.0/22",
       "103.47.3.0/24",
@@ -43,7 +46,7 @@
       "202.134.32.0/20",
       "222.152.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:e840::/32",
       "2406:2b00::/32"
     ]

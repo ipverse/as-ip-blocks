@@ -1,12 +1,15 @@
 {
-  "asn": 57204,
-  "handle": "WOLFSEC-AS2",
-  "description": "Stephan Roland Wolf",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57204,
+  "metadata" : {
+    "handle" : "WOLFSEC-AS2",
+    "description" : "Stephan Roland Wolf",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.83.108.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:9a80::/29"
     ]
   }

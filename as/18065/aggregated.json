@@ -1,12 +1,15 @@
 {
-  "asn": 18065,
-  "handle": "CENTRAL-AS-AP",
-  "description": "Central Data System Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18065,
+  "metadata" : {
+    "handle" : "CENTRAL-AS-AP",
+    "description" : "Central Data System Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.92.208.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:fa00::/32"
     ]
   }

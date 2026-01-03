@@ -1,14 +1,17 @@
 {
-  "asn": 151374,
-  "handle": "IWK-WORKS",
-  "description": "IX-layers Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151374,
+  "metadata" : {
+    "handle" : "IWK-WORKS",
+    "description" : "IX-layers Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "121.50.48.0/21",
       "202.126.20.0/22",
       "210.158.180.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:ac00::/32"
     ]
   }

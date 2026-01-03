@@ -1,12 +1,15 @@
 {
-  "asn": 17582,
-  "handle": "KIC-AS",
-  "description": "Korea Investment Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17582,
+  "metadata" : {
+    "handle" : "KIC-AS",
+    "description" : "Korea Investment Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.108.163.0/24",
       "220.65.225.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 54502,
-  "handle": "DATA-STREAM",
-  "description": "Data Stream",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54502,
+  "metadata" : {
+    "handle" : "DATA-STREAM",
+    "description" : "Data Stream",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.247.220.0/22",
       "38.209.80.0/20",
       "38.209.96.0/20",
@@ -13,7 +16,7 @@
       "184.105.116.0/23",
       "184.105.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:7640::/32"
     ]
   }

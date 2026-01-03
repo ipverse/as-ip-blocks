@@ -1,10 +1,13 @@
 {
-  "asn": 204093,
-  "handle": "WIITGROUP",
-  "description": "WIIT AG",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 204093,
+  "metadata" : {
+    "handle" : "WIITGROUP",
+    "description" : "WIIT AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0a:db80::/48",
       "2a0a:db80:f00::/40",
       "2a0a:db80:1000::/40",

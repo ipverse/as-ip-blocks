@@ -1,11 +1,14 @@
 {
-  "asn": 59254,
-  "handle": "BRAINNET-AS",
-  "description": "Brain Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59254,
+  "metadata" : {
+    "handle" : "BRAINNET-AS",
+    "description" : "Brain Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.224.12.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

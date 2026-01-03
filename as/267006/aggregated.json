@@ -1,12 +1,15 @@
 {
-  "asn": 267006,
-  "handle": "TOP-LAN-NET",
-  "description": "TOP LAN NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267006,
+  "metadata" : {
+    "handle" : "TOP-LAN-NET",
+    "description" : "TOP LAN NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.226.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:46b4::/38",
       "2804:46b4:1000::/38"
     ]

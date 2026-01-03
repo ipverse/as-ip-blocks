@@ -1,13 +1,16 @@
 {
-  "asn": 35223,
-  "handle": "HOI-AS",
-  "description": "Hoi Internet AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35223,
+  "metadata" : {
+    "handle" : "HOI-AS",
+    "description" : "Hoi Internet AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.117.0.0/19",
       "193.168.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5480::/29"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 138840,
-  "handle": "HSP-NAP-AS-ID",
-  "description": "PT. PARSAORAN GLOBAL DATATRANS - NAP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138840,
+  "metadata" : {
+    "handle" : "HSP-NAP-AS-ID",
+    "description" : "PT. PARSAORAN GLOBAL DATATRANS - NAP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.134.184.0/24",
       "103.139.163.0/24",
       "113.192.10.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:2f80:10::/48"
     ]
   }

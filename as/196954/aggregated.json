@@ -1,9 +1,12 @@
 {
-  "asn": 196954,
-  "handle": "EPCAN",
-  "description": "Epcan GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 196954,
+  "metadata" : {
+    "handle" : "EPCAN",
+    "description" : "Epcan GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.190.248.0/22",
       "85.208.238.0/23",
       "91.194.132.0/23",
@@ -16,7 +19,7 @@
       "185.118.124.0/24",
       "185.190.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:9740::/29"
     ]
   }

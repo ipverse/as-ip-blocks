@@ -1,9 +1,12 @@
 {
-  "asn": 132813,
-  "handle": "AISI-AS-AP",
-  "description": "HK AISI CLOUD COMPUTING LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132813,
+  "metadata" : {
+    "handle" : "AISI-AS-AP",
+    "description" : "HK AISI CLOUD COMPUTING LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.195.52.0/22",
       "45.195.56.0/23",
       "45.204.8.0/21",
@@ -22,6 +25,6 @@
       "156.254.126.0/23",
       "216.250.104.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

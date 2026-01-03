@@ -1,9 +1,12 @@
 {
-  "asn": 201975,
-  "handle": "UNISCAPEB",
-  "description": "Uniscape B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201975,
+  "metadata" : {
+    "handle" : "UNISCAPEB",
+    "description" : "Uniscape B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.210.19.0/24",
       "45.86.176.0/22",
       "86.58.208.0/21",
@@ -12,7 +15,7 @@
       "185.54.180.0/22",
       "193.148.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:4660::/32"
     ]
   }

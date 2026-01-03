@@ -1,9 +1,12 @@
 {
-  "asn": 21799,
-  "handle": "MWDSC",
-  "description": "Metropolitan Water District of Southern California",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21799,
+  "metadata" : {
+    "handle" : "MWDSC",
+    "description" : "Metropolitan Water District of Southern California",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.166.53.0/24",
       "144.166.55.0/24",
       "144.166.56.0/24",
@@ -12,6 +15,6 @@
       "144.166.176.0/24",
       "144.166.178.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

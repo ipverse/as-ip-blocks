@@ -1,9 +1,12 @@
 {
-  "asn": 29748,
-  "handle": "QTS-ASH",
-  "description": "Quality Technology Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29748,
+  "metadata" : {
+    "handle" : "QTS-ASH",
+    "description" : "Quality Technology Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.192.185.0/24",
       "66.117.32.0/19",
       "66.197.0.0/18",
@@ -28,7 +31,7 @@
       "209.222.144.0/20",
       "216.12.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4838::/32",
       "2610:60::/32"
     ]

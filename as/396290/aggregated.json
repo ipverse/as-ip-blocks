@@ -1,9 +1,12 @@
 {
-  "asn": 396290,
-  "handle": "NCL-203-396290",
-  "description": "Nielsen Consumer LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396290,
+  "metadata" : {
+    "handle" : "NCL-203-396290",
+    "description" : "Nielsen Consumer LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.108.0.0/23",
       "138.108.2.0/24",
       "138.108.13.0/24",
@@ -16,6 +19,6 @@
       "138.108.46.0/23",
       "138.108.54.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

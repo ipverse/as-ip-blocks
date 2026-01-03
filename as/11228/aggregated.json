@@ -1,9 +1,12 @@
 {
-  "asn": 11228,
-  "handle": "ARINC",
-  "description": "ARINC INCORPORATED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11228,
+  "metadata" : {
+    "handle" : "ARINC",
+    "description" : "ARINC INCORPORATED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.243.192.0/24",
       "144.243.201.0/24",
       "144.243.202.0/23",
@@ -12,7 +15,7 @@
       "144.243.212.0/23",
       "144.243.216.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:3500::/48",
       "2607:3500:f00::/40"
     ]

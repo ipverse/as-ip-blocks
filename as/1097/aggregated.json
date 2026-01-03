@@ -1,9 +1,12 @@
 {
-  "asn": 1097,
-  "handle": "CORE-TRANSIT",
-  "description": "Core Transit LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1097,
+  "metadata" : {
+    "handle" : "CORE-TRANSIT",
+    "description" : "Core Transit LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.145.20.0/24",
       "50.20.192.0/24",
       "50.20.195.0/24",
@@ -13,7 +16,7 @@
       "192.34.112.0/23",
       "216.146.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:81c:3000::/44",
       "2607:77c0::/34",
       "2607:77c0:4000::/47"

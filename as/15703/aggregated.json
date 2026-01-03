@@ -1,9 +1,12 @@
 {
-  "asn": 15703,
-  "handle": "TRUESERVER-AS",
-  "description": "TrueFullstaq B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15703,
+  "metadata" : {
+    "handle" : "TRUESERVER-AS",
+    "description" : "TrueFullstaq B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.31.48.0/21",
       "80.247.220.0/24",
       "87.233.0.0/16",
@@ -16,7 +19,7 @@
       "213.239.136.0/24",
       "213.239.154.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:9a8::/32",
       "2a0b:b600:3000::/48"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 201172,
-  "handle": "SUNET-IP-RUNKO",
-  "description": "Suupohjan Seutuverkko Oy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201172,
+  "metadata" : {
+    "handle" : "SUNET-IP-RUNKO",
+    "description" : "Suupohjan Seutuverkko Oy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.13.60.0/22",
       "45.85.232.0/22",
       "45.156.92.0/22",
@@ -13,7 +16,7 @@
       "193.104.188.0/24",
       "194.8.226.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:8c40::/29"
     ]
   }

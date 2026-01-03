@@ -1,9 +1,12 @@
 {
-  "asn": 26783,
-  "handle": "MARICOPA-COUNTY-COMMUNITY-COLLEGE-DISTRICT",
-  "description": "Maricopa County Community College District",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26783,
+  "metadata" : {
+    "handle" : "MARICOPA-COUNTY-COMMUNITY-COLLEGE-DISTRICT",
+    "description" : "Maricopa County Community College District",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "140.198.0.0/17",
       "140.198.128.0/18",
       "140.198.192.0/19",
@@ -13,6 +16,6 @@
       "140.198.250.0/23",
       "140.198.252.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

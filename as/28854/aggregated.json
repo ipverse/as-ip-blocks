@@ -1,9 +1,12 @@
 {
-  "asn": 28854,
-  "handle": "HIGHLANDNET-SWEDEN",
-  "description": "SavMAN AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28854,
+  "metadata" : {
+    "handle" : "HIGHLANDNET-SWEDEN",
+    "description" : "SavMAN AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.84.32.0/20",
       "88.206.128.0/23",
       "88.206.132.0/24",
@@ -19,7 +22,7 @@
       "185.60.128.0/22",
       "195.49.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:f40::/32",
       "2a04:f47::/32"
     ]

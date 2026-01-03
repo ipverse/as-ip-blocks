@@ -1,12 +1,15 @@
 {
-  "asn": 56963,
-  "handle": "SKIDATA-AG-AS",
-  "description": "Skidata GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56963,
+  "metadata" : {
+    "handle" : "SKIDATA-AG-AS",
+    "description" : "Skidata GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.230.2.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2330::/48"
     ]
   }

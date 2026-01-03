@@ -1,13 +1,16 @@
 {
-  "asn": 134237,
-  "handle": "ERICSSON-NETWORK-APAC-AS-AP",
-  "description": "Ericsson Expertise Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134237,
+  "metadata" : {
+    "handle" : "ERICSSON-NETWORK-APAC-AS-AP",
+    "description" : "Ericsson Expertise Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.192.240.0/24",
       "169.144.24.0/24",
       "192.71.175.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

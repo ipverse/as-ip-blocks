@@ -1,16 +1,19 @@
 {
-  "asn": 55652,
-  "handle": "DASHNET-AS-ID",
-  "description": "Sumidhaz Permata Bunda PT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55652,
+  "metadata" : {
+    "handle" : "DASHNET-AS-ID",
+    "description" : "Sumidhaz Permata Bunda PT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.121.80.0/23",
       "27.121.83.0/24",
       "27.121.84.0/23",
       "27.121.87.0/24",
       "103.24.196.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:5a00::/32"
     ]
   }

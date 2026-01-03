@@ -1,13 +1,16 @@
 {
-  "asn": 41321,
-  "handle": "FUJITSU-TS-SOP-AS",
-  "description": "Fsas Technologies GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41321,
+  "metadata" : {
+    "handle" : "FUJITSU-TS-SOP-AS",
+    "description" : "Fsas Technologies GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.3.150.0/23",
       "80.70.171.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:d340:ffe0::/48"
     ]
   }

@@ -1,10 +1,13 @@
 {
-  "asn": 204375,
-  "handle": "ADAM-GOODENOUGH",
-  "description": "Adam Goodenough",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 204375,
+  "metadata" : {
+    "handle" : "ADAM-GOODENOUGH",
+    "description" : "Adam Goodenough",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a06:a005:2d3::/48",
       "2a06:a005:ad0::/44"
     ]

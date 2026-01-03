@@ -1,9 +1,12 @@
 {
-  "asn": 15305,
-  "handle": "SYRINGANETWORKS",
-  "description": "Syringa Networks LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15305,
+  "metadata" : {
+    "handle" : "SYRINGANETWORKS",
+    "description" : "Syringa Networks LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.33.222.0/23",
       "64.136.100.0/22",
       "66.232.64.0/19",
@@ -33,7 +36,7 @@
       "209.141.112.0/20",
       "216.182.96.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:5800::/32",
       "2606:6580::/34"
     ]

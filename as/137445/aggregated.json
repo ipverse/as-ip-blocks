@@ -1,9 +1,12 @@
 {
-  "asn": 137445,
-  "handle": "AS-PFLINK-JP",
-  "description": "PF LINK SYSTEMS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137445,
+  "metadata" : {
+    "handle" : "AS-PFLINK-JP",
+    "description" : "PF LINK SYSTEMS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.95.30.0/24",
       "103.108.236.0/23",
       "103.108.238.0/24",
@@ -11,6 +14,6 @@
       "103.218.6.0/24",
       "123.253.218.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

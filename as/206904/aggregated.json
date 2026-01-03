@@ -1,12 +1,15 @@
 {
-  "asn": 206904,
-  "handle": "CITILINK-AS",
-  "description": "LLC Citilink",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206904,
+  "metadata" : {
+    "handle" : "CITILINK-AS",
+    "description" : "LLC Citilink",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.131.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:bb8::/48"
     ]
   }

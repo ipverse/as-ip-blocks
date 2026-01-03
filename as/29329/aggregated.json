@@ -1,9 +1,12 @@
 {
-  "asn": 29329,
-  "handle": "NODEX-AS",
-  "description": "Resource-M LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29329,
+  "metadata" : {
+    "handle" : "NODEX-AS",
+    "description" : "Resource-M LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.243.72.0/21",
       "91.151.192.0/20",
       "93.157.120.0/21",
@@ -12,7 +15,7 @@
       "193.84.8.0/24",
       "195.135.232.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:6a40::/29"
     ]
   }

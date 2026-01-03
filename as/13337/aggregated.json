@@ -1,9 +1,12 @@
 {
-  "asn": 13337,
-  "handle": "EVWI-NET-01",
-  "description": "e-vergent.com LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13337,
+  "metadata" : {
+    "handle" : "EVWI-NET-01",
+    "description" : "e-vergent.com LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.96.0.0/20",
       "137.83.100.0/23",
       "199.5.193.0/24",
@@ -14,6 +17,6 @@
       "209.225.96.0/20",
       "209.251.80.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

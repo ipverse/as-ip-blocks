@@ -1,12 +1,15 @@
 {
-  "asn": 265931,
-  "handle": "CONECTA-TELECOM",
-  "description": "Conecta Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265931,
+  "metadata" : {
+    "handle" : "CONECTA-TELECOM",
+    "description" : "Conecta Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.196.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4010::/32"
     ]
   }

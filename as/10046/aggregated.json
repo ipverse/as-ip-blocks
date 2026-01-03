@@ -1,12 +1,15 @@
 {
-  "asn": 10046,
-  "handle": "HOWON-AS",
-  "description": "HOWON UNIVERSITY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10046,
+  "metadata" : {
+    "handle" : "HOWON-AS",
+    "description" : "HOWON UNIVERSITY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.230.152.0/22",
       "203.246.64.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

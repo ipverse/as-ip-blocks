@@ -1,9 +1,12 @@
 {
-  "asn": 39923,
-  "handle": "AS-UNIXSOLUTIONS",
-  "description": "Unix-Solutions BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39923,
+  "metadata" : {
+    "handle" : "AS-UNIXSOLUTIONS",
+    "description" : "Unix-Solutions BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.153.152.0/22",
       "46.19.0.0/22",
       "85.159.114.0/24",
@@ -31,7 +34,7 @@
       "195.14.31.0/24",
       "195.189.202.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2d64::/48",
       "2a02:2a08::/32",
       "2a03:b0a0:1::/48",

@@ -1,12 +1,14 @@
 {
-  "asn": 45715,
-  "handle": "IDNIC-KEMHAN-AS-ID",
-  "description": "PUSDATIN KEMHAN RI",
-  "subnets": {
-    "ipv4": [
-      "45.250.100.0/23",
+  "asn" : 45715,
+  "metadata" : {
+    "handle" : "IDNIC-KEMHAN-AS-ID",
+    "description" : "PUSDATIN KEMHAN RI",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.250.103.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 60983,
-  "handle": "LIOPEN-AS",
-  "description": "LIOPEN SARL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60983,
+  "metadata" : {
+    "handle" : "LIOPEN-AS",
+    "description" : "LIOPEN SARL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.22.128.0/22",
       "193.169.46.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:6060::/32"
     ]
   }

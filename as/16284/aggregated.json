@@ -1,9 +1,12 @@
 {
-  "asn": 16284,
-  "handle": "INQ-DIGITAL-NIGERIA-AS",
-  "description": "Inq. Digital Nigeria",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16284,
+  "metadata" : {
+    "handle" : "INQ-DIGITAL-NIGERIA-AS",
+    "description" : "Inq. Digital Nigeria",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.73.224.0/20",
       "41.73.240.0/22",
       "41.73.245.0/24",
@@ -36,6 +39,6 @@
       "217.117.13.0/24",
       "217.117.14.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

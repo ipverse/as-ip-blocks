@@ -1,12 +1,15 @@
 {
-  "asn": 23913,
-  "handle": "BLUEPACKETS-AU",
-  "description": "Blue Packets Trust",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23913,
+  "metadata" : {
+    "handle" : "BLUEPACKETS-AU",
+    "description" : "Blue Packets Trust",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.69.198.0/24",
       "113.20.24.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

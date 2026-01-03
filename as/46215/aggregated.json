@@ -1,12 +1,15 @@
 {
-  "asn": 46215,
-  "handle": "TERRANOVANET-ASN1",
-  "description": "TerraNovaNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46215,
+  "metadata" : {
+    "handle" : "TERRANOVANET-ASN1",
+    "description" : "TerraNovaNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.91.90.0/24",
       "216.182.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 63501,
-  "handle": "MEGAHUB-AS-ID",
-  "description": "PT Mega Mentari Mandiri",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63501,
+  "metadata" : {
+    "handle" : "MEGAHUB-AS-ID",
+    "description" : "PT Mega Mentari Mandiri",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.14.248.0/23",
       "103.39.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:fc80::/32"
     ]
   }

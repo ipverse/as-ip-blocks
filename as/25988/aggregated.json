@@ -1,12 +1,15 @@
 {
-  "asn": 25988,
-  "handle": "PLATANUM",
-  "description": "Platanum",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25988,
+  "metadata" : {
+    "handle" : "PLATANUM",
+    "description" : "Platanum",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.133.112.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fdee::/36"
     ]
   }

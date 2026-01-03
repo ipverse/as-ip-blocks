@@ -1,13 +1,16 @@
 {
-  "asn": 15810,
-  "handle": "BBVA-AS",
-  "description": "Banco Bilbao Vizcaya Argentaria S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15810,
+  "metadata" : {
+    "handle" : "BBVA-AS",
+    "description" : "Banco Bilbao Vizcaya Argentaria S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.107.176.0/21",
       "185.24.4.0/24",
       "185.24.6.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

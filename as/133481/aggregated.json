@@ -1,9 +1,12 @@
 {
-  "asn": 133481,
-  "handle": "AIS-FIBRE-AS-AP",
-  "description": "ADVANCED WIRELESS NETWORK COMPANY LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133481,
+  "metadata" : {
+    "handle" : "AIS-FIBRE-AS-AP",
+    "description" : "ADVANCED WIRELESS NETWORK COMPANY LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.207.160.0/24",
       "14.207.163.0/24",
       "49.0.64.0/19",
@@ -45,7 +48,7 @@
       "203.170.216.0/21",
       "203.170.240.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:44c8:bf00::/41",
       "2001:44c8:bfff::/48",
       "2405:9800:b002::/47",

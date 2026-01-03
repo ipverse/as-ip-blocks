@@ -1,9 +1,12 @@
 {
-  "asn": 60175,
-  "handle": "WAG",
-  "description": "WORTMANN AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60175,
+  "metadata" : {
+    "handle" : "WAG",
+    "description" : "WORTMANN AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.63.0.0/18",
       "89.63.240.0/20",
       "91.212.83.0/24",
@@ -15,7 +18,7 @@
       "195.4.208.0/21",
       "213.179.71.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:dca0::/29"
     ]
   }

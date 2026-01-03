@@ -1,10 +1,13 @@
 {
-  "asn": 209577,
-  "handle": "NIMH-AS",
-  "description": "NIMH",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 209577,
+  "metadata" : {
+    "handle" : "NIMH-AS",
+    "description" : "NIMH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:678:908::/48"
     ]
   }

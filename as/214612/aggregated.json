@@ -1,11 +1,14 @@
 {
-  "asn": 214612,
-  "handle": "NNPF-AS",
-  "description": "JSC National NPF",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214612,
+  "metadata" : {
+    "handle" : "NNPF-AS",
+    "description" : "JSC National NPF",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.242.54.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

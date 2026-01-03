@@ -1,9 +1,12 @@
 {
-  "asn": 73,
-  "handle": "WASHINGTON-AS",
-  "description": "University of Washington",
-  "subnets": {
-    "ipv4": [
+  "asn" : 73,
+  "metadata" : {
+    "handle" : "WASHINGTON-AS",
+    "description" : "University of Washington",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.91.192.0/18",
       "108.179.140.0/22",
       "128.95.0.0/16",
@@ -14,7 +17,7 @@
       "198.48.64.0/19",
       "205.175.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:4000::/32"
     ]
   }

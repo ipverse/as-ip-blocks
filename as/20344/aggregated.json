@@ -1,12 +1,15 @@
 {
-  "asn": 20344,
-  "handle": "BILLERICAPS-MA-ASN",
-  "description": "Billerica Public Schools",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20344,
+  "metadata" : {
+    "handle" : "BILLERICAPS-MA-ASN",
+    "description" : "Billerica Public Schools",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.152.76.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:84:2000::/48"
     ]
   }

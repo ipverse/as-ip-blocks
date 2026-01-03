@@ -1,9 +1,12 @@
 {
-  "asn": 15204,
-  "handle": "ITC-SD-01",
-  "description": "INTERSTATE TELECOMMUNICATIONS COOPERATIVE INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15204,
+  "metadata" : {
+    "handle" : "ITC-SD-01",
+    "description" : "INTERSTATE TELECOMMUNICATIONS COOPERATIVE INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.33.224.0/21",
       "66.6.0.0/20",
       "66.128.162.0/23",
@@ -15,7 +18,7 @@
       "204.15.52.0/22",
       "216.106.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:d600::/32"
     ]
   }

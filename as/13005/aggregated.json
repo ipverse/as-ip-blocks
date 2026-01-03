@@ -1,9 +1,12 @@
 {
-  "asn": 13005,
-  "handle": "C2INTERNET",
-  "description": "Atlas Business Group of Companies Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13005,
+  "metadata" : {
+    "handle" : "C2INTERNET",
+    "description" : "Atlas Business Group of Companies Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.113.68.0/23",
       "213.170.128.0/22",
       "213.170.132.0/24",
@@ -17,7 +20,7 @@
       "213.170.152.0/23",
       "213.170.154.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:be0::/32"
     ]
   }

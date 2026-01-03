@@ -1,9 +1,12 @@
 {
-  "asn": 32708,
-  "handle": "ROOT-NETWORKS",
-  "description": "LoadEdge Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32708,
+  "metadata" : {
+    "handle" : "ROOT-NETWORKS",
+    "description" : "LoadEdge Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.191.192.0/24",
       "23.228.95.0/24",
       "45.65.44.0/22",
@@ -19,7 +22,7 @@
       "156.0.78.0/24",
       "185.211.78.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:b000:2::/48"
     ]
   }

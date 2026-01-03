@@ -1,15 +1,18 @@
 {
-  "asn": 263189,
-  "handle": "GLG-PERU",
-  "description": "GLG PERU SAC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263189,
+  "metadata" : {
+    "handle" : "GLG-PERU",
+    "description" : "GLG PERU SAC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.10.104.0/22",
       "38.226.24.0/22",
       "45.177.196.0/23",
       "179.43.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:3a60::/32",
       "2803:4480:4000::/34"
     ]

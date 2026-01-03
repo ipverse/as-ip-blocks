@@ -1,9 +1,12 @@
 {
-  "asn": 32382,
-  "handle": "ATOS-CARROLLTON",
-  "description": "Atos IT Solutions and Services Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32382,
+  "metadata" : {
+    "handle" : "ATOS-CARROLLTON",
+    "description" : "Atos IT Solutions and Services Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.46.135.0/24",
       "67.222.209.0/24",
       "67.222.210.0/24",
@@ -12,6 +15,6 @@
       "143.99.200.0/23",
       "206.208.4.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

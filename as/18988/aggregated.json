@@ -1,9 +1,12 @@
 {
-  "asn": 18988,
-  "handle": "CITYWEST-CORP",
-  "description": "City West Cable \u0026 Telephone Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18988,
+  "metadata" : {
+    "handle" : "CITYWEST-CORP",
+    "description" : "City West Cable & Telephone Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.132.176.0/24",
       "24.244.64.0/20",
       "38.158.0.0/19",
@@ -14,7 +17,7 @@
       "199.247.224.0/19",
       "209.145.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:ef00::/32"
     ]
   }

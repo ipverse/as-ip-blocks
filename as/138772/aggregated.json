@@ -1,13 +1,16 @@
 {
-  "asn": 138772,
-  "handle": "MISPLR-AS",
-  "description": "Mahrth Internet Service Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138772,
+  "metadata" : {
+    "handle" : "MISPLR-AS",
+    "description" : "Mahrth Internet Service Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.138.185.0/24",
       "103.147.139.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:14c0::/48"
     ]
   }

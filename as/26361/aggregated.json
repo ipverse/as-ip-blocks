@@ -1,12 +1,15 @@
 {
-  "asn": 26361,
-  "handle": "MB-EHEALTH",
-  "description": "Saint Boniface General Hospital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26361,
+  "metadata" : {
+    "handle" : "MB-EHEALTH",
+    "description" : "Saint Boniface General Hospital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "142.200.192.0/18",
       "142.233.192.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

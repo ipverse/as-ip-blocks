@@ -1,9 +1,12 @@
 {
-  "asn": 9260,
-  "handle": "MULTINET-AS-AP",
-  "description": "Multinet Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9260,
+  "metadata" : {
+    "handle" : "MULTINET-AS-AP",
+    "description" : "Multinet Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.10.161.0/24",
       "38.10.162.0/23",
       "38.10.164.0/22",
@@ -33,7 +36,7 @@
       "202.141.224.0/19",
       "202.142.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:8e00::/32"
     ]
   }

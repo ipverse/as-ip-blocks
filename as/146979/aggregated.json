@@ -1,14 +1,17 @@
 {
-  "asn": 146979,
-  "handle": "SUNDAICHI",
-  "description": "University of Nagasaki",
-  "subnets": {
-    "ipv4": [
+  "asn" : 146979,
+  "metadata" : {
+    "handle" : "SUNDAICHI",
+    "description" : "University of Nagasaki",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.180.130.0/23",
       "202.236.88.0/23",
       "202.236.90.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:5320::/48"
     ]
   }

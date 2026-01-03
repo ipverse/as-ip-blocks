@@ -1,9 +1,12 @@
 {
-  "asn": 39700,
-  "handle": "SIGNETBREEDBAND",
-  "description": "Signet B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39700,
+  "metadata" : {
+    "handle" : "SIGNETBREEDBAND",
+    "description" : "Signet B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.108.131.0/24",
       "80.246.202.0/24",
       "81.30.38.0/24",
@@ -16,7 +19,7 @@
       "193.33.180.0/23",
       "194.242.54.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4cb8:3::/48",
       "2001:4cb8:10::/48",
       "2001:4cb8:2a::/48",

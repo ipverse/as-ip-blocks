@@ -1,12 +1,15 @@
 {
-  "asn": 8324,
-  "handle": "URC-AS",
-  "description": "South Ural State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8324,
+  "metadata" : {
+    "handle" : "URC-AS",
+    "description" : "South Ural State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.75.248.0/21",
       "37.220.176.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 28771,
-  "handle": "VIE-AS",
-  "description": "Flughafen Wien Aktiengesellschaft",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28771,
+  "metadata" : {
+    "handle" : "VIE-AS",
+    "description" : "Flughafen Wien Aktiengesellschaft",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.68.143.0/24",
       "83.68.146.0/24",
       "92.118.216.0/22",
@@ -12,7 +15,7 @@
       "193.43.158.0/24",
       "217.61.241.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2b04::/48",
       "2a09:d7c0::/29"
     ]

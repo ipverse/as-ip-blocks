@@ -1,10 +1,13 @@
 {
-  "asn": 152999,
-  "handle": "SIP-VN",
-  "description": "Smart IP Company Limited",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 152999,
+  "metadata" : {
+    "handle" : "SIP-VN",
+    "description" : "Smart IP Company Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2401:c660::/32"
     ]
   }

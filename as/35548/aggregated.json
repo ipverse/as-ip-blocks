@@ -1,9 +1,12 @@
 {
-  "asn": 35548,
-  "handle": "SMARTTERRA-AS",
-  "description": "smartTERRA GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35548,
+  "metadata" : {
+    "handle" : "SMARTTERRA-AS",
+    "description" : "smartTERRA GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.254.64.0/23",
       "84.254.76.0/23",
       "84.254.78.0/24",
@@ -13,7 +16,7 @@
       "84.254.124.0/22",
       "195.225.134.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:14a8::/32",
       "2a00:6480::/32"
     ]

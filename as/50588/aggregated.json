@@ -1,14 +1,17 @@
 {
-  "asn": 50588,
-  "handle": "FR-MAE",
-  "description": "MINISTERE DE L\u0027EUROPE ET DES AFFAIRES ETRANGERES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50588,
+  "metadata" : {
+    "handle" : "FR-MAE",
+    "description" : "MINISTERE DE L'EUROPE ET DES AFFAIRES ETRANGERES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.145.120.0/23",
       "185.149.12.0/23",
       "193.109.63.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:f7c0::/29"
     ]
   }

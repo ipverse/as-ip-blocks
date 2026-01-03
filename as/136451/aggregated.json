@@ -1,13 +1,16 @@
 {
-  "asn": 136451,
-  "handle": "NNC-AS-AP",
-  "description": "Nur Network Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136451,
+  "metadata" : {
+    "handle" : "NNC-AS-AP",
+    "description" : "Nur Network Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.184.136.0/24",
       "160.30.70.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:9140::/48"
     ]
   }

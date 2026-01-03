@@ -1,16 +1,19 @@
 {
-  "asn": 42687,
-  "handle": "IZARLINK1",
-  "description": "IZARLINK SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42687,
+  "metadata" : {
+    "handle" : "IZARLINK1",
+    "description" : "IZARLINK SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.182.168.0/22",
       "185.203.176.0/22",
       "185.217.141.0/24",
       "185.219.240.0/22",
       "193.142.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:25c0::/29"
     ]
   }

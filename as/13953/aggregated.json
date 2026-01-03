@@ -1,12 +1,15 @@
 {
-  "asn": 13953,
-  "handle": "SVCC-EDU",
-  "description": "Sauk Valley Community College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13953,
+  "metadata" : {
+    "handle" : "SVCC-EDU",
+    "description" : "Sauk Valley Community College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "108.59.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:103:4000::/44"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 16604,
-  "handle": "FWB-NE",
-  "description": "HUNTEL.NET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16604,
+  "metadata" : {
+    "handle" : "FWB-NE",
+    "description" : "HUNTEL.NET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.2.232.0/21",
       "38.22.208.0/21",
       "38.45.192.0/21",
@@ -17,7 +20,7 @@
       "209.222.176.0/20",
       "216.145.151.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:1900::/32"
     ]
   }

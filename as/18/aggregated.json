@@ -1,9 +1,12 @@
 {
-  "asn": 18,
-  "handle": "UTEXAS",
-  "description": "University of Texas at Austin",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18,
+  "metadata" : {
+    "handle" : "UTEXAS",
+    "description" : "University of Texas at Austin",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.62.0.0/16",
       "128.83.0.0/16",
       "129.116.0.0/16",
@@ -13,6 +16,6 @@
       "198.214.250.0/23",
       "206.76.64.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

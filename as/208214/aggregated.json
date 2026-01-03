@@ -1,10 +1,13 @@
 {
-  "asn": 208214,
-  "handle": "LINK2LINK-CUSTOMER",
-  "description": "Link2Link SA",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 208214,
+  "metadata" : {
+    "handle" : "LINK2LINK-CUSTOMER",
+    "description" : "Link2Link SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0f:8d00::/48"
     ]
   }

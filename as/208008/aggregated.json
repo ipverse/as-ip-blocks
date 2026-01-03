@@ -1,12 +1,15 @@
 {
-  "asn": 208008,
-  "handle": "LMV-AS",
-  "description": "Le Monlid LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208008,
+  "metadata" : {
+    "handle" : "LMV-AS",
+    "description" : "Le Monlid LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.216.114.0/24",
       "212.176.94.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

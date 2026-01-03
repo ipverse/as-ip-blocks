@@ -1,9 +1,12 @@
 {
-  "asn": 8339,
-  "handle": "KABSI-AS",
-  "description": "kabelplus GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8339,
+  "metadata" : {
+    "handle" : "KABSI-AS",
+    "description" : "kabelplus GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.40.128.0/17",
       "81.217.0.0/16",
       "82.149.96.0/19",
@@ -26,7 +29,7 @@
       "195.230.160.0/19",
       "202.170.80.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:1d8::/48",
       "2a00:1b38::/32",
       "2a02:e200::/30"

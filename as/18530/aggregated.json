@@ -1,9 +1,12 @@
 {
-  "asn": 18530,
-  "handle": "ISOMEDIA-1",
-  "description": "Isomedia Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18530,
+  "metadata" : {
+    "handle" : "ISOMEDIA-1",
+    "description" : "Isomedia Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.76.240.0/23",
       "46.243.160.0/24",
       "64.38.128.0/18",
@@ -43,7 +46,7 @@
       "216.9.0.0/19",
       "216.18.239.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:560::/32"
     ]
   }

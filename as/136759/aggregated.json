@@ -1,9 +1,12 @@
 {
-  "asn": 136759,
-  "handle": "COSMOPOLITAN1-AS-AP",
-  "description": "Cosmopolitan Communications Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136759,
+  "metadata" : {
+    "handle" : "COSMOPOLITAN1-AS-AP",
+    "description" : "Cosmopolitan Communications Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.36.255.0/24",
       "103.95.96.0/22",
       "103.102.42.0/24",
@@ -11,7 +14,7 @@
       "103.197.204.0/22",
       "160.25.184.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:5a40::/32"
     ]
   }

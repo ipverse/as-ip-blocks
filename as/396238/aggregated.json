@@ -1,9 +1,12 @@
 {
-  "asn": 396238,
-  "handle": "FAIRLAWNGIG-NET",
-  "description": "FairlawnGig.net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396238,
+  "metadata" : {
+    "handle" : "FAIRLAWNGIG-NET",
+    "description" : "FairlawnGig.net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.2.130.0/23",
       "8.2.176.0/23",
       "8.2.186.0/23",
@@ -17,7 +20,7 @@
       "38.94.200.0/22",
       "172.82.24.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:9fc0::/32"
     ]
   }

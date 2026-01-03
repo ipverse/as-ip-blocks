@@ -1,11 +1,14 @@
 {
-  "asn": 208243,
-  "handle": "HSI",
-  "description": "HSI doo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208243,
+  "metadata" : {
+    "handle" : "HSI",
+    "description" : "HSI doo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.78.83.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 6495,
-  "handle": "HSBC-MEXICO",
-  "description": "HSBC MEXICO SA INSTITUCION DE BANCA MULTIPLE GRUPO FINANCIERO HSBC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6495,
+  "metadata" : {
+    "handle" : "HSBC-MEXICO",
+    "description" : "HSBC MEXICO SA INSTITUCION DE BANCA MULTIPLE GRUPO FINANCIERO HSBC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.16.32.0/23",
       "200.16.35.0/24",
       "200.16.38.0/23",
@@ -12,6 +15,6 @@
       "200.16.53.0/24",
       "200.16.54.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

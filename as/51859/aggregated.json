@@ -1,9 +1,12 @@
 {
-  "asn": 51859,
-  "handle": "MNSHA-AS",
-  "description": "Mainstream doo Beograd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51859,
+  "metadata" : {
+    "handle" : "MNSHA-AS",
+    "description" : "Mainstream doo Beograd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.237.200.0/21",
       "91.185.199.0/24",
       "91.185.218.0/23",
@@ -18,7 +21,7 @@
       "212.72.214.0/24",
       "213.91.181.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:2e40::/29"
     ]
   }

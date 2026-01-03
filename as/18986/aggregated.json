@@ -1,9 +1,12 @@
 {
-  "asn": 18986,
-  "handle": "PACIFICONLINE",
-  "description": "Calligo (Canada) Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18986,
+  "metadata" : {
+    "handle" : "PACIFICONLINE",
+    "description" : "Calligo (Canada) Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.51.160.0/20",
       "148.163.160.0/20",
       "173.255.152.0/23",
@@ -17,6 +20,6 @@
       "203.34.15.0/24",
       "203.57.110.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

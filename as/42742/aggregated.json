@@ -1,9 +1,12 @@
 {
-  "asn": 42742,
-  "handle": "INTERKAMSERVICE-AS",
-  "description": "InterkamService LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42742,
+  "metadata" : {
+    "handle" : "INTERKAMSERVICE-AS",
+    "description" : "InterkamService LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.157.224.0/19",
       "91.189.232.0/21",
       "91.203.44.0/22",
@@ -14,6 +17,6 @@
       "194.79.4.0/22",
       "195.211.64.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 14103,
-  "handle": "ACDNET-ASN1",
-  "description": "ACD.net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14103,
+  "metadata" : {
+    "handle" : "ACDNET-ASN1",
+    "description" : "ACD.net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.46.88.0/21",
       "69.2.16.0/20",
       "69.63.224.0/20",
@@ -14,7 +17,7 @@
       "208.77.128.0/22",
       "216.163.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:fd80::/32"
     ]
   }

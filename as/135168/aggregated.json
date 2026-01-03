@@ -1,13 +1,16 @@
 {
-  "asn": 135168,
-  "handle": "CARDGATE-NET-AS-AP",
-  "description": "CardGate.net Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135168,
+  "metadata" : {
+    "handle" : "CARDGATE-NET-AS-AP",
+    "description" : "CardGate.net Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.136.122.0/24",
       "103.195.14.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:8e80:1::/48"
     ]
   }

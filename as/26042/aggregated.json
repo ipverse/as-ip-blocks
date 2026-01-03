@@ -1,9 +1,12 @@
 {
-  "asn": 26042,
-  "handle": "FIBERSTATE",
-  "description": "FiberState LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26042,
+  "metadata" : {
+    "handle" : "FIBERSTATE",
+    "description" : "FiberState LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.133.52.0/24",
       "23.145.120.0/24",
       "23.158.72.0/24",
@@ -64,7 +67,7 @@
       "216.227.217.0/24",
       "216.250.247.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:294::/47",
       "2602:294:2::/48",
       "2602:f919:100::/48",

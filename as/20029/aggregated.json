@@ -1,9 +1,12 @@
 {
-  "asn": 20029,
-  "handle": "HCDL-DENVER-DATA-CENTER",
-  "description": "H5 Data Centers",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20029,
+  "metadata" : {
+    "handle" : "HCDL-DENVER-DATA-CENTER",
+    "description" : "H5 Data Centers",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.176.96.0/24",
       "64.129.78.0/24",
       "69.67.152.0/24",
@@ -16,7 +19,7 @@
       "207.188.13.0/24",
       "207.188.14.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:3ac0::/36"
     ]
   }

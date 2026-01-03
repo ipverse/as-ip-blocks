@@ -1,16 +1,19 @@
 {
-  "asn": 14026,
-  "handle": "NUCLEO-INF-COORD",
-  "description": "Núcleo de Inf. e Coord. do Ponto BR - NIC.BR",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14026,
+  "metadata" : {
+    "handle" : "NUCLEO-INF-COORD",
+    "description" : "Núcleo de Inf. e Coord. do Ponto BR - NIC.BR",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.192.104.0/24",
       "200.194.128.0/24",
       "200.194.132.0/24",
       "200.194.136.0/24",
       "200.194.148.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:80:1e11::/48",
       "2801:80:1e21::/48",
       "2801:80:1e48::/48",

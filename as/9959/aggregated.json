@@ -1,9 +1,12 @@
 {
-  "asn": 9959,
-  "handle": "KOREASTOCKEXCHANGE-AS",
-  "description": "KOREA STOCK EXCHANGE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9959,
+  "metadata" : {
+    "handle" : "KOREASTOCKEXCHANGE-AS",
+    "description" : "KOREA STOCK EXCHANGE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "106.249.45.0/24",
       "115.22.32.0/23",
       "203.235.0.0/23",
@@ -17,6 +20,6 @@
       "210.206.132.0/24",
       "211.180.155.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

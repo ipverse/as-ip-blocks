@@ -1,12 +1,15 @@
 {
-  "asn": 58116,
-  "handle": "ASMAMBA",
-  "description": "Mamba JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58116,
+  "metadata" : {
+    "handle" : "ASMAMBA",
+    "description" : "Mamba JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.0.170.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:568::/48"
     ]
   }

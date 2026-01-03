@@ -1,16 +1,19 @@
 {
-  "asn": 50819,
-  "handle": "STAR-STORAGE-AS",
-  "description": "Cloud Vault SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50819,
+  "metadata" : {
+    "handle" : "STAR-STORAGE-AS",
+    "description" : "Cloud Vault SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.96.50.0/24",
       "91.234.168.0/23",
       "185.18.226.0/23",
       "185.102.88.0/22",
       "194.1.169.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1480:3::/48",
       "2a0c:eec0::/29"
     ]

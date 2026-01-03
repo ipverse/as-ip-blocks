@@ -1,12 +1,15 @@
 {
-  "asn": 268458,
-  "handle": "VIRTUAL-NET-TELECOM",
-  "description": "VIRTUAL NET TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268458,
+  "metadata" : {
+    "handle" : "VIRTUAL-NET-TELECOM",
+    "description" : "VIRTUAL NET TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.161.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5188::/32"
     ]
   }

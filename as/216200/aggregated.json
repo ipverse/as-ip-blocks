@@ -1,13 +1,16 @@
 {
-  "asn": 216200,
-  "handle": "DINNET",
-  "description": "Dinnet d.o.o. Gracanica",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216200,
+  "metadata" : {
+    "handle" : "DINNET",
+    "description" : "Dinnet d.o.o. Gracanica",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.191.116.0/22",
       "46.255.27.0/24",
       "109.176.240.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

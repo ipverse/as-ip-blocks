@@ -1,12 +1,15 @@
 {
-  "asn": 34625,
-  "handle": "OSHS-AS",
-  "description": "OSHS Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34625,
+  "metadata" : {
+    "handle" : "OSHS-AS",
+    "description" : "OSHS Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.75.232.0/24",
       "195.242.236.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 210855,
-  "handle": "MEETSCALE",
-  "description": "Meetscale SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210855,
+  "metadata" : {
+    "handle" : "MEETSCALE",
+    "description" : "Meetscale SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.181.53.0/24",
       "193.200.175.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:5f80::/29"
     ]
   }

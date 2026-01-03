@@ -1,9 +1,12 @@
 {
-  "asn": 208864,
-  "handle": "WESERVE",
-  "description": "Weserve B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208864,
+  "metadata" : {
+    "handle" : "WESERVE",
+    "description" : "Weserve B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.59.188.0/22",
       "5.59.200.0/22",
       "45.11.15.0/24",
@@ -30,7 +33,7 @@
       "188.120.44.0/22",
       "193.151.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:dfa0::/32",
       "2a0a:6f80::/32"
     ]

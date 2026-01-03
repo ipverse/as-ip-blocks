@@ -1,9 +1,12 @@
 {
-  "asn": 29303,
-  "handle": "PIC-AS",
-  "description": "Perm Internet Company LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29303,
+  "metadata" : {
+    "handle" : "PIC-AS",
+    "description" : "Perm Internet Company LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.250.208.0/21",
       "89.250.216.0/23",
       "89.250.218.0/24",
@@ -12,6 +15,6 @@
       "185.246.124.0/22",
       "195.137.200.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

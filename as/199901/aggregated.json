@@ -1,11 +1,14 @@
 {
-  "asn": 199901,
-  "handle": "S-TELECOM-AS",
-  "description": "S-Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199901,
+  "metadata" : {
+    "handle" : "S-TELECOM-AS",
+    "description" : "S-Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.62.34.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 17639,
-  "handle": "CONVERGE-AS",
-  "description": "ComClark Network \u0026 Technology Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17639,
+  "metadata" : {
+    "handle" : "CONVERGE-AS",
+    "description" : "ComClark Network & Technology Corp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.45.0.0/20",
       "23.8.144.0/20",
       "23.46.96.0/20",
@@ -53,7 +56,7 @@
       "210.4.96.0/19",
       "223.130.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:4c0::/32",
       "2405:3200::/32"
     ]

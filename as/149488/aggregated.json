@@ -1,12 +1,15 @@
 {
-  "asn": 149488,
-  "handle": "APOLLO-AS-AP",
-  "description": "Apollo Labs Pty. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149488,
+  "metadata" : {
+    "handle" : "APOLLO-AS-AP",
+    "description" : "Apollo Labs Pty. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.187.239.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:6440::/48"
     ]
   }

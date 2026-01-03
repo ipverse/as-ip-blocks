@@ -1,9 +1,12 @@
 {
-  "asn": 204914,
-  "handle": "LABIXE",
-  "description": "LABIXE LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204914,
+  "metadata" : {
+    "handle" : "LABIXE",
+    "description" : "LABIXE LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.165.0/24",
       "2.57.19.0/24",
       "45.88.9.0/24",
@@ -13,7 +16,7 @@
       "194.56.226.0/24",
       "212.107.14.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:9a40:8350::/48"
     ]
   }

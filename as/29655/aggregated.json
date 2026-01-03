@@ -1,15 +1,18 @@
 {
-  "asn": 29655,
-  "handle": "TRENKA",
-  "description": "Trenka Informatik AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29655,
+  "metadata" : {
+    "handle" : "TRENKA",
+    "description" : "Trenka Informatik AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.217.247.0/24",
       "93.188.72.0/21",
       "185.227.164.0/22",
       "193.16.211.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2a8::/32",
       "2a09:2200::/29"
     ]

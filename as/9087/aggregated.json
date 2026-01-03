@@ -1,9 +1,12 @@
 {
-  "asn": 9087,
-  "handle": "RACKDOG-EU",
-  "description": "Rackdog LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9087,
+  "metadata" : {
+    "handle" : "RACKDOG-EU",
+    "description" : "Rackdog LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.182.113.0/24",
       "77.74.231.0/24",
       "141.11.224.0/23",
@@ -14,6 +17,6 @@
       "193.46.0.0/24",
       "193.46.200.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

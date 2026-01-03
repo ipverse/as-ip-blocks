@@ -1,13 +1,16 @@
 {
-  "asn": 57332,
-  "handle": "TOM-NET-AS",
-  "description": "TOM-NET s.c. Dariusz Koper Radoslaw Koper",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57332,
+  "metadata" : {
+    "handle" : "TOM-NET-AS",
+    "description" : "TOM-NET s.c. Dariusz Koper Radoslaw Koper",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.206.240.0/20",
       "45.85.8.0/22",
       "159.255.176.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

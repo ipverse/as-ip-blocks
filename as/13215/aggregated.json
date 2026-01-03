@@ -1,15 +1,18 @@
 {
-  "asn": 13215,
-  "handle": "CPLUS1-AS",
-  "description": "JSC Telecommunication company Convey Plus",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13215,
+  "metadata" : {
+    "handle" : "CPLUS1-AS",
+    "description" : "JSC Telecommunication company Convey Plus",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.255.96.0/24",
       "89.255.98.0/24",
       "89.255.103.0/24",
       "185.97.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:a8c0::/29"
     ]
   }

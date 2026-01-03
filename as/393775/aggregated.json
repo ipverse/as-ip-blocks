@@ -1,9 +1,12 @@
 {
-  "asn": 393775,
-  "handle": "IPP-AS",
-  "description": "IP Pathways LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393775,
+  "metadata" : {
+    "handle" : "IPP-AS",
+    "description" : "IP Pathways LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.235.14.0/23",
       "64.199.252.0/24",
       "65.61.48.0/23",
@@ -19,7 +22,7 @@
       "199.116.142.0/23",
       "209.127.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:4180::/35"
     ]
   }

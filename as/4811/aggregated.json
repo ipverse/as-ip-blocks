@@ -1,9 +1,12 @@
 {
-  "asn": 4811,
-  "handle": "CHINANET-SHANGHAI-MAN",
-  "description": "China Telecom (Group)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4811,
+  "metadata" : {
+    "handle" : "CHINANET-SHANGHAI-MAN",
+    "description" : "China Telecom (Group)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.103.0.0/16",
       "27.109.124.0/22",
       "36.111.16.0/20",
@@ -221,7 +224,7 @@
       "218.83.160.0/23",
       "222.68.195.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:1d40:2000::/48",
       "2401:1d40:2100::/48",
       "2401:1d40:2f00::/48",

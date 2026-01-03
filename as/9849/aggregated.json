@@ -1,14 +1,17 @@
 {
-  "asn": 9849,
-  "handle": "CWD-AS",
-  "description": "Office of the president",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9849,
+  "metadata" : {
+    "handle" : "CWD-AS",
+    "description" : "Office of the president",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "175.114.137.0/24",
       "203.254.1.0/24",
       "203.254.2.0/24",
       "211.61.48.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

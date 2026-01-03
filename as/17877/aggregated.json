@@ -1,9 +1,12 @@
 {
-  "asn": 17877,
-  "handle": "NEXG-AS",
-  "description": "KX NexG Co. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17877,
+  "metadata" : {
+    "handle" : "NEXG-AS",
+    "description" : "KX NexG Co. LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.181.0.0/18",
       "112.136.128.0/17",
       "122.199.128.0/17",
@@ -14,6 +17,6 @@
       "211.232.128.0/18",
       "221.132.64.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

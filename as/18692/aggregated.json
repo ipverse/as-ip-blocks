@@ -1,9 +1,12 @@
 {
-  "asn": 18692,
-  "handle": "NEUBERGER",
-  "description": "Neuberger Berman",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18692,
+  "metadata" : {
+    "handle" : "NEUBERGER",
+    "description" : "Neuberger Berman",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.190.81.0/24",
       "63.116.212.0/23",
       "63.117.8.0/23",
@@ -14,6 +17,6 @@
       "203.193.19.0/24",
       "210.80.198.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

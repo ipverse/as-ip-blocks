@@ -1,9 +1,12 @@
 {
-  "asn": 31242,
-  "handle": "TKPSA-AS",
-  "description": "P4 Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31242,
+  "metadata" : {
+    "handle" : "TKPSA-AS",
+    "description" : "P4 Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.172.176.0/20",
       "80.249.130.0/24",
       "83.175.162.0/24",
@@ -51,7 +54,7 @@
       "195.242.68.0/23",
       "213.179.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:13a0::/32",
       "2a10:ac00::/32"
     ]

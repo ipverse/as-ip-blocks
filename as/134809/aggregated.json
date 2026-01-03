@@ -1,9 +1,12 @@
 {
-  "asn": 134809,
-  "handle": "VIEWQWEST-AS-AP",
-  "description": "ViewQwest Sdn. Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134809,
+  "metadata" : {
+    "handle" : "VIEWQWEST-AS-AP",
+    "description" : "ViewQwest Sdn. Bhd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.228.200.0/22",
       "43.252.216.0/22",
       "96.9.160.0/20",
@@ -22,7 +25,7 @@
       "221.133.32.0/20",
       "223.27.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:6400::/48",
       "2400:6e80::/32",
       "2402:7481::/32",

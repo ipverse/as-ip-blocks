@@ -1,9 +1,12 @@
 {
-  "asn": 14789,
-  "handle": "CLOUDFLARENET",
-  "description": "Cloudflare Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14789,
+  "metadata" : {
+    "handle" : "CLOUDFLARENET",
+    "description" : "Cloudflare Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.22.5.0/24",
       "104.22.6.0/24",
       "104.22.27.0/24",
@@ -73,7 +76,7 @@
       "172.71.220.0/24",
       "172.71.230.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:cb00:41::/48",
       "2400:cb00:60::/48",
       "2400:cb00:142::/48",

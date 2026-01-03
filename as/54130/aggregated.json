@@ -1,11 +1,14 @@
 {
-  "asn": 54130,
-  "handle": "AFBA-AS",
-  "description": "AFBA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54130,
+  "metadata" : {
+    "handle" : "AFBA-AS",
+    "description" : "AFBA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.52.10.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

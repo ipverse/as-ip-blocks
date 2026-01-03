@@ -1,12 +1,15 @@
 {
-  "asn": 21795,
-  "handle": "MSMC-ASN",
-  "description": "Mount Saint Mary College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21795,
+  "metadata" : {
+    "handle" : "MSMC-ASN",
+    "description" : "Mount Saint Mary College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.245.86.0/24",
       "208.138.48.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

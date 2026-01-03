@@ -1,9 +1,12 @@
 {
-  "asn": 17995,
-  "handle": "SOLUSINET-AS-ID",
-  "description": "PT iForte Global Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17995,
+  "metadata" : {
+    "handle" : "SOLUSINET-AS-ID",
+    "description" : "PT iForte Global Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.0.24.0/23",
       "103.85.148.0/22",
       "103.105.64.0/21",
@@ -101,7 +104,7 @@
       "202.47.92.0/23",
       "202.51.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:4e00::/32"
     ]
   }

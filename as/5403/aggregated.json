@@ -1,9 +1,12 @@
 {
-  "asn": 5403,
-  "handle": "AS5403",
-  "description": "APA-IT Informations Technologie G.m.b.H",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5403,
+  "metadata" : {
+    "handle" : "AS5403",
+    "description" : "APA-IT Informations Technologie G.m.b.H",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.85.28.0/22",
       "192.5.162.0/24",
       "192.111.104.0/24",
@@ -18,7 +21,7 @@
       "194.158.128.0/19",
       "194.232.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:468::/29"
     ]
   }

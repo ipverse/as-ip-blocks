@@ -1,11 +1,14 @@
 {
-  "asn": 399276,
-  "handle": "KCCURRENT",
-  "description": "KC Current",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399276,
+  "metadata" : {
+    "handle" : "KCCURRENT",
+    "description" : "KC Current",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.238.56.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

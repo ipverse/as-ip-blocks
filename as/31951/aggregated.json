@@ -1,11 +1,14 @@
 {
-  "asn": 31951,
-  "handle": "NASADSN-AS",
-  "description": "NASA Deep Space Network (DSN)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31951,
+  "metadata" : {
+    "handle" : "NASADSN-AS",
+    "description" : "NASA Deep Space Network (DSN)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.243.16.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

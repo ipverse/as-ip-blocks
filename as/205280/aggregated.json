@@ -1,12 +1,15 @@
 {
-  "asn": 205280,
-  "handle": "JENS-ANDERSEN",
-  "description": "Jens Andersen",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205280,
+  "metadata" : {
+    "handle" : "JENS-ANDERSEN",
+    "description" : "Jens Andersen",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.30.47.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:9a40:88d0::/47",
       "2a0c:9a40:88da::/47",
       "2a0c:9a40:88dc::/48",

@@ -1,12 +1,15 @@
 {
-  "asn": 201905,
-  "handle": "DSPOT",
-  "description": "Dspot d.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201905,
+  "metadata" : {
+    "handle" : "DSPOT",
+    "description" : "Dspot d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.60.116.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:71e0::/48"
     ]
   }

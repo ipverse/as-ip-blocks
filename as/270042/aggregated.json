@@ -1,13 +1,16 @@
 {
-  "asn": 270042,
-  "handle": "RED-DOT-TECHNOLOGIES-CA",
-  "description": "RED DOT TECHNOLOGIES C.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270042,
+  "metadata" : {
+    "handle" : "RED-DOT-TECHNOLOGIES-CA",
+    "description" : "RED DOT TECHNOLOGIES C.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.35.148.0/23",
       "200.35.150.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:f5e0::/32"
     ]
   }

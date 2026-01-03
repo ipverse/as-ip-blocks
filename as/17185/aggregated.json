@@ -1,9 +1,12 @@
 {
-  "asn": 17185,
-  "handle": "D102-PHL-1",
-  "description": "Data102",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17185,
+  "metadata" : {
+    "handle" : "D102-PHL-1",
+    "description" : "Data102",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.115.168.0/21",
       "76.8.48.0/20",
       "173.195.144.0/20",
@@ -12,7 +15,7 @@
       "208.82.128.0/22",
       "208.88.48.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:bf00::/32"
     ]
   }

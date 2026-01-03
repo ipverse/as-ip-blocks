@@ -1,16 +1,19 @@
 {
-  "asn": 206844,
-  "handle": "RIKS",
-  "description": "Riigi Info- ja Kommunikatsioonitehnoloogia Keskus",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206844,
+  "metadata" : {
+    "handle" : "RIKS",
+    "description" : "Riigi Info- ja Kommunikatsioonitehnoloogia Keskus",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.156.32.0/22",
       "45.158.54.0/23",
       "171.22.244.0/22",
       "185.125.241.0/24",
       "185.174.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:1280::/32"
     ]
   }

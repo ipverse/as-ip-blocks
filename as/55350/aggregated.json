@@ -1,13 +1,16 @@
 {
-  "asn": 55350,
-  "handle": "VSCGT-HK",
-  "description": "VSC Global Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55350,
+  "metadata" : {
+    "handle" : "VSCGT-HK",
+    "description" : "VSC Global Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.4.244.0/22",
       "175.100.164.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:8500::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 57710,
-  "handle": "KOREX-AS",
-  "description": "KOREX networks s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57710,
+  "metadata" : {
+    "handle" : "KOREX-AS",
+    "description" : "KOREX networks s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.61.160.0/20",
       "185.235.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:9640::/32"
     ]
   }

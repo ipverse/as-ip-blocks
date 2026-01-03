@@ -1,9 +1,12 @@
 {
-  "asn": 5009,
-  "handle": "EATEL",
-  "description": "REV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5009,
+  "metadata" : {
+    "handle" : "EATEL",
+    "description" : "REV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.41.16.0/22",
       "64.56.0.0/19",
       "64.237.64.0/19",
@@ -20,7 +23,7 @@
       "209.124.192.0/18",
       "216.115.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:e300::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 216456,
-  "handle": "AS-DCENT",
-  "description": "Dcent Investments BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216456,
+  "metadata" : {
+    "handle" : "AS-DCENT",
+    "description" : "Dcent Investments BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.54.146.0/24",
       "203.28.15.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:2080::/47"
     ]
   }

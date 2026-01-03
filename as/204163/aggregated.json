@@ -1,12 +1,15 @@
 {
-  "asn": 204163,
-  "handle": "HRVATSKEVODE",
-  "description": "Hrvatske vode",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204163,
+  "metadata" : {
+    "handle" : "HRVATSKEVODE",
+    "description" : "Hrvatske vode",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.152.213.0/24",
       "194.152.238.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 38695,
-  "handle": "BC-AS",
-  "description": "bucheon university",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38695,
+  "metadata" : {
+    "handle" : "BC-AS",
+    "description" : "bucheon university",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "114.70.138.0/24",
       "114.70.148.0/23",
       "114.70.154.0/23",
@@ -17,6 +20,6 @@
       "220.90.124.0/24",
       "221.140.237.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 15359,
-  "handle": "DATTO-DOM",
-  "description": "Datto LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15359,
+  "metadata" : {
+    "handle" : "DATTO-DOM",
+    "description" : "Datto LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.34.161.0/24",
       "8.34.165.0/24",
       "8.34.176.0/23",
@@ -29,6 +32,6 @@
       "206.201.133.0/24",
       "206.201.136.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

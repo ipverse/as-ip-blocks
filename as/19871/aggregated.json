@@ -1,9 +1,12 @@
 {
-  "asn": 19871,
-  "handle": "NETWORK-SOLUTIONS-HOSTING",
-  "description": "Network Solutions LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19871,
+  "metadata" : {
+    "handle" : "NETWORK-SOLUTIONS-HOSTING",
+    "description" : "Network Solutions LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.6.128.0/17",
       "50.116.72.0/21",
       "50.116.84.0/22",
@@ -164,7 +167,7 @@
       "216.172.184.0/22",
       "216.172.190.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f408:1::/48",
       "2607:f408:10::/45",
       "2607:f408:1010::/47",

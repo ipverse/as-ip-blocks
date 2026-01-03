@@ -1,12 +1,15 @@
 {
-  "asn": 50476,
-  "handle": "GRPMUT",
-  "description": "Groupe Mutuel Association",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50476,
+  "metadata" : {
+    "handle" : "GRPMUT",
+    "description" : "Groupe Mutuel Association",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.249.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2de8::/48",
       "2a03:c8c0::/29"
     ]

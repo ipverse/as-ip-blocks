@@ -1,14 +1,17 @@
 {
-  "asn": 55427,
-  "handle": "BROADLINK-AS-AP",
-  "description": "BroadLink Networks and Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55427,
+  "metadata" : {
+    "handle" : "BROADLINK-AS-AP",
+    "description" : "BroadLink Networks and Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.245.92.0/22",
       "103.232.228.0/22",
       "182.50.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:a300::/32"
     ]
   }

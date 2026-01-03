@@ -1,9 +1,12 @@
 {
-  "asn": 39264,
-  "handle": "METROMAX-AS",
-  "description": "Region Svyaz Konsalt LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39264,
+  "metadata" : {
+    "handle" : "METROMAX-AS",
+    "description" : "Region Svyaz Konsalt LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.245.208.0/20",
       "81.22.48.0/20",
       "81.200.208.0/20",
@@ -24,7 +27,7 @@
       "217.77.100.0/24",
       "217.77.102.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1410::/32"
     ]
   }

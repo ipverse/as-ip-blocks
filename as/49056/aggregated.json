@@ -1,9 +1,12 @@
 {
-  "asn": 49056,
-  "handle": "INEL-AS-MK",
-  "description": "Inel Internacional Dooel Kavadarci",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49056,
+  "metadata" : {
+    "handle" : "INEL-AS-MK",
+    "description" : "Inel Internacional Dooel Kavadarci",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.86.0.0/22",
       "95.86.12.0/22",
       "95.86.16.0/21",
@@ -13,6 +16,6 @@
       "95.86.44.0/22",
       "185.252.188.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

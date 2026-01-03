@@ -1,12 +1,15 @@
 {
-  "asn": 45164,
-  "handle": "ATLL-AS-AP",
-  "description": "Allied Telesis Labs Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45164,
+  "metadata" : {
+    "handle" : "ATLL-AS-AP",
+    "description" : "Allied Telesis Labs Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.36.163.0/24",
       "202.49.72.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

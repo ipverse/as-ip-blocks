@@ -1,9 +1,12 @@
 {
-  "asn": 397270,
-  "handle": "NETINF-TRANSIT-AS",
-  "description": "NetInformatik Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397270,
+  "metadata" : {
+    "handle" : "NETINF-TRANSIT-AS",
+    "description" : "NetInformatik Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.148.248.0/24",
       "23.160.192.0/22",
       "64.112.32.0/22",
@@ -14,7 +17,7 @@
       "208.86.32.0/23",
       "208.86.34.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fa9a::/40",
       "2602:fea7::/39",
       "2602:fea7:200::/40",

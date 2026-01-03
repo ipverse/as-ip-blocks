@@ -1,9 +1,12 @@
 {
-  "asn": 19842,
-  "handle": "COLOSSEUM-ONL",
-  "description": "Colosseum Online Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19842,
+  "metadata" : {
+    "handle" : "COLOSSEUM-ONL",
+    "description" : "Colosseum Online Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "98.158.128.0/20",
       "104.192.52.0/22",
       "104.218.92.0/22",
@@ -20,7 +23,7 @@
       "207.61.175.0/24",
       "216.105.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:2600::/32"
     ]
   }

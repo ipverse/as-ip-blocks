@@ -1,14 +1,17 @@
 {
-  "asn": 61748,
-  "handle": "DKIROSNET-SERVICOS-INTERNET",
-  "description": "Dkirosnet Serviços de Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61748,
+  "metadata" : {
+    "handle" : "DKIROSNET-SERVICOS-INTERNET",
+    "description" : "Dkirosnet Serviços de Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.100.52.0/22",
       "168.181.192.0/22",
       "170.245.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1bc4::/32"
     ]
   }

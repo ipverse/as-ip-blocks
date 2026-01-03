@@ -1,12 +1,15 @@
 {
-  "asn": 13833,
-  "handle": "ASN-NOS",
-  "description": "Nos Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13833,
+  "metadata" : {
+    "handle" : "ASN-NOS",
+    "description" : "Nos Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "70.103.75.0/24",
       "70.103.230.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

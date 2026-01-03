@@ -1,9 +1,12 @@
 {
-  "asn": 2381,
-  "handle": "WISCNET1-AS",
-  "description": "WiscNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2381,
+  "metadata" : {
+    "handle" : "WISCNET1-AS",
+    "description" : "WiscNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.189.15.0/24",
       "140.104.0.0/16",
       "140.189.0.0/16",
@@ -35,7 +38,7 @@
       "208.85.28.0/22",
       "216.56.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4e0::/32",
       "2620:11f:f000::/40"
     ]

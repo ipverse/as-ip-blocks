@@ -1,9 +1,12 @@
 {
-  "asn": 12552,
-  "handle": "GLOBALCONNECT-AS12552",
-  "description": "GlobalConnect AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12552,
+  "metadata" : {
+    "handle" : "GLOBALCONNECT-AS12552",
+    "description" : "GlobalConnect AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.28.0/22",
       "31.204.64.0/21",
       "31.209.176.0/21",
@@ -214,7 +217,7 @@
       "217.75.96.0/19",
       "217.140.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:55c::/48",
       "2001:67c:43c::/48",
       "2001:67c:674::/48",

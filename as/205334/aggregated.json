@@ -1,9 +1,12 @@
 {
-  "asn": 205334,
-  "handle": "FIBERPLUS2AS",
-  "description": "FIBERPLUS COMUNICATIONS SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205334,
+  "metadata" : {
+    "handle" : "FIBERPLUS2AS",
+    "description" : "FIBERPLUS COMUNICATIONS SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "146.19.117.0/24",
       "176.119.132.0/23",
       "176.119.135.0/24",
@@ -13,6 +16,6 @@
       "185.214.169.0/24",
       "185.214.170.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

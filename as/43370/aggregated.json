@@ -1,9 +1,12 @@
 {
-  "asn": 43370,
-  "handle": "OBIT-KZ-AS",
-  "description": "OBIT-telecommunications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43370,
+  "metadata" : {
+    "handle" : "OBIT-KZ-AS",
+    "description" : "OBIT-telecommunications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.46.48.0/22",
       "37.77.128.0/24",
       "37.221.202.0/24",
@@ -20,6 +23,6 @@
       "178.16.157.0/24",
       "185.244.132.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

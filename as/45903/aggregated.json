@@ -1,9 +1,12 @@
 {
-  "asn": 45903,
-  "handle": "CMCTELECOM-VN",
-  "description": "CMC Telecom Infrastructure Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45903,
+  "metadata" : {
+    "handle" : "CMCTELECOM-VN",
+    "description" : "CMC Telecom Infrastructure Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "42.96.32.0/19",
       "45.122.232.0/21",
       "45.122.240.0/21",
@@ -40,7 +43,7 @@
       "203.205.16.0/20",
       "203.205.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:5300::/34",
       "2402:5300:4000::/35"
     ]

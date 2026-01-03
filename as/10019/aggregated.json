@@ -1,9 +1,12 @@
 {
-  "asn": 10019,
-  "handle": "MCTV",
-  "description": "Matsusaka Cable-TV Station Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10019,
+  "metadata" : {
+    "handle" : "MCTV",
+    "description" : "Matsusaka Cable-TV Station Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.115.240.0/20",
       "61.122.208.0/20",
       "103.26.152.0/22",
@@ -16,7 +19,7 @@
       "219.100.20.0/22",
       "219.105.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:3200::/32"
     ]
   }

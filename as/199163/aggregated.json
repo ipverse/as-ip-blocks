@@ -1,9 +1,12 @@
 {
-  "asn": 199163,
-  "handle": "UBL-IS-ASN",
-  "description": "DATAGROUP Operations GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199163,
+  "metadata" : {
+    "handle" : "UBL-IS-ASN",
+    "description" : "DATAGROUP Operations GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.253.8.0/22",
       "5.253.92.0/22",
       "81.91.16.0/21",
@@ -14,7 +17,7 @@
       "185.169.124.0/22",
       "195.216.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:ae40::/32",
       "2a05:cf40::/29",
       "2a07:c600::/29",

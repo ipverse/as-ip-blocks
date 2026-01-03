@@ -1,11 +1,14 @@
 {
-  "asn": 14128,
-  "handle": "NU-EDU",
-  "description": "National University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14128,
+  "metadata" : {
+    "handle" : "NU-EDU",
+    "description" : "National University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.17.145.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

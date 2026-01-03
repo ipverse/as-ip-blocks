@@ -1,12 +1,15 @@
 {
-  "asn": 209916,
-  "handle": "VIASYS",
-  "description": "viasys OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209916,
+  "metadata" : {
+    "handle" : "VIASYS",
+    "description" : "viasys OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.39.79.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:8a80::/29"
     ]
   }

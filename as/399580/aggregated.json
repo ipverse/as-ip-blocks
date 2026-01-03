@@ -1,12 +1,15 @@
 {
-  "asn": 399580,
-  "handle": "RADISHNETWORKS-NET-01",
-  "description": "Radish Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399580,
+  "metadata" : {
+    "handle" : "RADISHNETWORKS-NET-01",
+    "description" : "Radish Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.209.88.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:5040::/40",
       "2606:5040:ffff::/48"
     ]

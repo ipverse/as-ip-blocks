@@ -1,11 +1,14 @@
 {
-  "asn": 63136,
-  "handle": "SIPRADIUS",
-  "description": "SipRadius",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63136,
+  "metadata" : {
+    "handle" : "SIPRADIUS",
+    "description" : "SipRadius",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.247.56.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

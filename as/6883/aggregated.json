@@ -1,12 +1,15 @@
 {
-  "asn": 6883,
-  "handle": "PARLAMENTSDIREKTION",
-  "description": "Parlamentsdirektion",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6883,
+  "metadata" : {
+    "handle" : "PARLAMENTSDIREKTION",
+    "description" : "Parlamentsdirektion",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.110.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:f500::/32"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 136175,
-  "handle": "SERVERHOSH-AS-AP",
-  "description": "Serverhosh Internet Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136175,
+  "metadata" : {
+    "handle" : "SERVERHOSH-AS-AP",
+    "description" : "Serverhosh Internet Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.90.232.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

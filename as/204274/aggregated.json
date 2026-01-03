@@ -1,15 +1,18 @@
 {
-  "asn": 204274,
-  "handle": "AURA-A-S",
-  "description": "AURA Fiber A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204274,
+  "metadata" : {
+    "handle" : "AURA-A-S",
+    "description" : "AURA Fiber A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.184.128.0/18",
       "85.191.0.0/17",
       "87.104.64.0/18",
       "185.107.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7dc0::/32"
     ]
   }

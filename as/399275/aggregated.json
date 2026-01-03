@@ -1,9 +1,12 @@
 {
-  "asn": 399275,
-  "handle": "SOLID",
-  "description": "Solid Systems LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399275,
+  "metadata" : {
+    "handle" : "SOLID",
+    "description" : "Solid Systems LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.70.138.0/24",
       "38.111.111.0/24",
       "79.172.251.0/24",
@@ -22,7 +25,7 @@
       "167.253.64.0/22",
       "172.81.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fcc0:1111::/48",
       "2602:fcc0:1112::/47",
       "2602:fcc0:2222::/47",

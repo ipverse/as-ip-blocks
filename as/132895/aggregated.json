@@ -1,13 +1,16 @@
 {
-  "asn": 132895,
-  "handle": "PCPL-AS-AP",
-  "description": "Prodigy Communications Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132895,
+  "metadata" : {
+    "handle" : "PCPL-AS-AP",
+    "description" : "Prodigy Communications Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.27.172.0/23",
       "103.40.70.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:5e80::/32"
     ]
   }

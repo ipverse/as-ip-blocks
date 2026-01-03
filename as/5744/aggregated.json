@@ -1,13 +1,16 @@
 {
-  "asn": 5744,
-  "handle": "USPTO",
-  "description": "United States Patent and Trademark Office",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5744,
+  "metadata" : {
+    "handle" : "USPTO",
+    "description" : "United States Patent and Trademark Office",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "151.207.232.0/22",
       "151.207.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:20:5010::/44",
       "2610:20:5020::/44",
       "2610:20:5100::/40"

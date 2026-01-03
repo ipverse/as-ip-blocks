@@ -1,11 +1,14 @@
 {
-  "asn": 3410,
-  "handle": "CORNELLCOLLEGE",
-  "description": "Cornell College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3410,
+  "metadata" : {
+    "handle" : "CORNELLCOLLEGE",
+    "description" : "Cornell College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.62.0.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 210556,
-  "handle": "SMTPSERVER",
-  "description": "NBI SIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210556,
+  "metadata" : {
+    "handle" : "SMTPSERVER",
+    "description" : "NBI SIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.26.199.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

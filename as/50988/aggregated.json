@@ -1,12 +1,15 @@
 {
-  "asn": 50988,
-  "handle": "BGWM-AS",
-  "description": "Wojewodztwo Mazowiecki",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50988,
+  "metadata" : {
+    "handle" : "BGWM-AS",
+    "description" : "Wojewodztwo Mazowiecki",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.216.64.0/24",
       "193.200.232.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

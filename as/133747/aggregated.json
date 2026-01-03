@@ -1,9 +1,12 @@
 {
-  "asn": 133747,
-  "handle": "TRIUMPH-AS-AP",
-  "description": "TRIUMPH DYNASTY Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133747,
+  "metadata" : {
+    "handle" : "TRIUMPH-AS-AP",
+    "description" : "TRIUMPH DYNASTY Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.241.32.0/23",
       "43.241.164.0/22",
       "43.249.100.0/22",
@@ -16,6 +19,6 @@
       "103.226.100.0/22",
       "115.30.64.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

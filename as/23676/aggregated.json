@@ -1,12 +1,15 @@
 {
-  "asn": 23676,
-  "handle": "MARIIX-GU",
-  "description": "University of Guam",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23676,
+  "metadata" : {
+    "handle" : "MARIIX-GU",
+    "description" : "University of Guam",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.115.192.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:df80::/48"
     ]
   }

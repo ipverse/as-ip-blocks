@@ -1,12 +1,15 @@
 {
-  "asn": 142627,
-  "handle": "MULTILINK-AS-AP",
-  "description": "Multilink International",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142627,
+  "metadata" : {
+    "handle" : "MULTILINK-AS-AP",
+    "description" : "Multilink International",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.171.68.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:3b80::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 60468,
-  "handle": "TVKG",
-  "description": "Zaklad Uslug Telewizji Kablowej Leslaw Dorobek",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60468,
+  "metadata" : {
+    "handle" : "TVKG",
+    "description" : "Zaklad Uslug Telewizji Kablowej Leslaw Dorobek",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.15.206.0/23",
       "81.15.248.0/22",
       "88.220.86.0/23",
@@ -11,6 +14,6 @@
       "185.27.188.0/22",
       "194.183.44.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

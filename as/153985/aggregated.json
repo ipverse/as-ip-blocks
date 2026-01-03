@@ -1,12 +1,15 @@
 {
-  "asn": 153985,
-  "handle": "IDNIC-LSI-ID",
-  "description": "PT LAYANAN SERVER INDONESIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153985,
+  "metadata" : {
+    "handle" : "IDNIC-LSI-ID",
+    "description" : "PT LAYANAN SERVER INDONESIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.101.18.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:be40::/48"
     ]
   }

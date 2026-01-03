@@ -1,14 +1,17 @@
 {
-  "asn": 149940,
-  "handle": "IDNIC-MULIABATAMNET-AS-ID",
-  "description": "PT Mulia Batam Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149940,
+  "metadata" : {
+    "handle" : "IDNIC-MULIABATAMNET-AS-ID",
+    "description" : "PT Mulia Batam Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.198.1.0/24",
       "45.198.12.0/24",
       "103.191.250.0/23",
       "149.100.71.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

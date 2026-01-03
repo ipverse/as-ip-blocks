@@ -1,15 +1,18 @@
 {
-  "asn": 262296,
-  "handle": "WINDX-TELECOMUNICACOES",
-  "description": "Windx Telecomunicações",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262296,
+  "metadata" : {
+    "handle" : "WINDX-TELECOMUNICACOES",
+    "description" : "Windx Telecomunicações",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.181.196.0/22",
       "170.81.0.0/22",
       "177.11.120.0/21",
       "177.85.76.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:a84::/32"
     ]
   }

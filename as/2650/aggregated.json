@@ -1,12 +1,15 @@
 {
-  "asn": 2650,
-  "handle": "EOP-ASN",
-  "description": "Executive Office Of The President",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2650,
+  "metadata" : {
+    "handle" : "EOP-ASN",
+    "description" : "Executive Office Of The President",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.119.0.0/16",
       "204.68.207.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

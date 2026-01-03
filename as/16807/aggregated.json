@@ -1,9 +1,12 @@
 {
-  "asn": 16807,
-  "handle": "KYN-EVENTS",
-  "description": "Kyndryl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16807,
+  "metadata" : {
+    "handle" : "KYN-EVENTS",
+    "description" : "Kyndryl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.42.5.0/24",
       "129.42.6.0/24",
       "129.42.12.0/24",
@@ -11,6 +14,6 @@
       "129.42.40.0/24",
       "129.42.48.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

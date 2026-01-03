@@ -1,9 +1,12 @@
 {
-  "asn": 3738,
-  "handle": "SSB-ASN-3738",
-  "description": "State Street Bank and Trust Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3738,
+  "metadata" : {
+    "handle" : "SSB-ASN-3738",
+    "description" : "State Street Bank and Trust Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.250.32.0/22",
       "192.250.36.0/23",
       "192.250.44.0/24",
@@ -60,6 +63,6 @@
       "205.181.240.0/24",
       "205.181.242.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

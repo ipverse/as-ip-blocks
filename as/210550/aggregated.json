@@ -1,13 +1,16 @@
 {
-  "asn": 210550,
-  "handle": "KRUAS",
-  "description": "Andrey Krukover",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210550,
+  "metadata" : {
+    "handle" : "KRUAS",
+    "description" : "Andrey Krukover",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.108.86.0/24",
       "195.178.12.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:88c0:1::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 214401,
-  "handle": "MAINCUBES-AS",
-  "description": "maincubes one GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214401,
+  "metadata" : {
+    "handle" : "MAINCUBES-AS",
+    "description" : "maincubes one GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.241.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:a480::/29"
     ]
   }

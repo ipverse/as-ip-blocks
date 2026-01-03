@@ -1,9 +1,12 @@
 {
-  "asn": 131921,
-  "handle": "GMOCL",
-  "description": "GMO GlobalSign Holdings K.K",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131921,
+  "metadata" : {
+    "handle" : "GMOCL",
+    "description" : "GMO GlobalSign Holdings K.K.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "133.117.148.0/22",
       "133.117.152.0/21",
       "153.122.0.0/16",
@@ -15,7 +18,7 @@
       "202.237.148.0/23",
       "210.158.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:a1c0:2::/48",
       "2406:a1c0:100::/40",
       "2406:a1c0:200::/39",

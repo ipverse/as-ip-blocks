@@ -1,9 +1,12 @@
 {
-  "asn": 8524,
-  "handle": "EG-AUC",
-  "description": "The American University in Cairo (AUC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8524,
+  "metadata" : {
+    "handle" : "EG-AUC",
+    "description" : "The American University in Cairo (AUC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.181.224.0/22",
       "213.181.228.0/23",
       "213.181.230.0/24",
@@ -11,6 +14,6 @@
       "213.181.240.0/24",
       "213.181.245.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

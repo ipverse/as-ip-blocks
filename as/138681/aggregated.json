@@ -1,14 +1,17 @@
 {
-  "asn": 138681,
-  "handle": "ASIC-AS-AP",
-  "description": "AUSTRALIAN SECURITIES \u0026 INVESTMENTS COMMISSION (ASIC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138681,
+  "metadata" : {
+    "handle" : "ASIC-AS-AP",
+    "description" : "AUSTRALIAN SECURITIES & INVESTMENTS COMMISSION (ASIC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.55.66.0/23",
       "144.55.68.0/22",
       "144.55.134.0/23",
       "144.55.136.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

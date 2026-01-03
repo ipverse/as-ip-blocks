@@ -1,13 +1,16 @@
 {
-  "asn": 138910,
-  "handle": "ACL-AS-AP",
-  "description": "N/A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138910,
+  "metadata" : {
+    "handle" : "ACL-AS-AP",
+    "description" : "N/A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.195.240.0/23",
       "103.167.254.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:e420::/32"
     ]
   }

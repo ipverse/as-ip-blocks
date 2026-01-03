@@ -1,13 +1,16 @@
 {
-  "asn": 132366,
-  "handle": "ALFAZNETWORK-AS-AP",
-  "description": "Alfaz Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132366,
+  "metadata" : {
+    "handle" : "ALFAZNETWORK-AS-AP",
+    "description" : "Alfaz Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.159.127.0/24",
       "103.242.8.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:1d20:4::/48"
     ]
   }

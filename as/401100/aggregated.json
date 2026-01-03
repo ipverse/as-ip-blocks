@@ -1,10 +1,13 @@
 {
-  "asn": 401100,
-  "handle": "BMUS-ISP-AS01",
-  "description": "Bradley Morrissey (US) LLC",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 401100,
+  "metadata" : {
+    "handle" : "BMUS-ISP-AS01",
+    "description" : "Bradley Morrissey (US) LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2602:f972:fd::/48",
       "2602:f972:fe::/47"
     ]

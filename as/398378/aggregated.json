@@ -1,9 +1,12 @@
 {
-  "asn": 398378,
-  "handle": "BOOST-MOBILE",
-  "description": "Boost Mobile",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398378,
+  "metadata" : {
+    "handle" : "BOOST-MOBILE",
+    "description" : "Boost Mobile",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "35.33.128.0/17",
       "35.39.96.0/19",
       "161.188.128.0/22",
@@ -13,7 +16,7 @@
       "206.204.93.0/24",
       "216.234.176.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:c540:c001::/48",
       "2605:c540:c002::/48"
     ]

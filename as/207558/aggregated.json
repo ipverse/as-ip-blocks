@@ -1,14 +1,17 @@
 {
-  "asn": 207558,
-  "handle": "EXPRES",
-  "description": "Sergey Kus",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207558,
+  "metadata" : {
+    "handle" : "EXPRES",
+    "description" : "Sergey Kus",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.196.228.0/22",
       "91.224.171.0/24",
       "91.247.182.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:d840::/29"
     ]
   }

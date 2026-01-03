@@ -1,9 +1,12 @@
 {
-  "asn": 46186,
-  "handle": "GILD-SCI",
-  "description": "Gilead Sciences",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46186,
+  "metadata" : {
+    "handle" : "GILD-SCI",
+    "description" : "Gilead Sciences",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.4.226.0/24",
       "8.20.113.0/24",
       "8.46.63.0/24",
@@ -14,6 +17,6 @@
       "192.156.236.0/23",
       "199.184.253.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

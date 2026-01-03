@@ -1,14 +1,17 @@
 {
-  "asn": 17706,
-  "handle": "HKAIRPORT-AS",
-  "description": "Airport Authority Hong Kong",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17706,
+  "metadata" : {
+    "handle" : "HKAIRPORT-AS",
+    "description" : "Airport Authority Hong Kong",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.106.2.0/23",
       "168.106.5.0/24",
       "168.106.6.0/24",
       "168.106.22.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 395535,
-  "handle": "WEISS-INTERNET",
-  "description": "Weiss Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395535,
+  "metadata" : {
+    "handle" : "WEISS-INTERNET",
+    "description" : "Weiss Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.29.184.0/24",
       "38.66.212.0/24",
       "38.66.214.0/23",
@@ -14,6 +17,6 @@
       "66.85.254.0/24",
       "199.96.144.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

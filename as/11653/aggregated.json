@@ -1,9 +1,12 @@
 {
-  "asn": 11653,
-  "handle": "ESS-PR-WEBMASTERS",
-  "description": "Puerto Rico Webmasters",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11653,
+  "metadata" : {
+    "handle" : "ESS-PR-WEBMASTERS",
+    "description" : "Puerto Rico Webmasters",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.98.12.0/24",
       "65.218.144.0/21",
       "69.89.32.0/22",
@@ -16,7 +19,7 @@
       "208.249.78.0/23",
       "208.249.80.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:faca::/36"
     ]
   }

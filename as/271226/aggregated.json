@@ -1,13 +1,16 @@
 {
-  "asn": 271226,
-  "handle": "G4-INTERNET",
-  "description": "G4 Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271226,
+  "metadata" : {
+    "handle" : "G4-INTERNET",
+    "description" : "G4 Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "179.49.220.0/24",
       "179.49.222.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7830::/32"
     ]
   }

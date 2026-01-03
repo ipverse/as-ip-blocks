@@ -1,11 +1,14 @@
 {
-  "asn": 150451,
-  "handle": "SBNETCITY-AS-AP",
-  "description": "SB Net City",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150451,
+  "metadata" : {
+    "handle" : "SBNETCITY-AS-AP",
+    "description" : "SB Net City",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.42.229.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

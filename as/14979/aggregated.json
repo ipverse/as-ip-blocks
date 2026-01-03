@@ -1,9 +1,12 @@
 {
-  "asn": 14979,
-  "handle": "AERONET-WIRELESS",
-  "description": "Aeronet Wireless",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14979,
+  "metadata" : {
+    "handle" : "AERONET-WIRELESS",
+    "description" : "Aeronet Wireless",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.50.64.0/20",
       "38.50.80.0/23",
       "38.50.84.0/22",
@@ -28,7 +31,7 @@
       "207.15.198.0/24",
       "209.51.177.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470:13e::/48",
       "2606:d6c0::/32"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 35617,
-  "handle": "AIR2BITE-AS",
-  "description": "air2bite s.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35617,
+  "metadata" : {
+    "handle" : "AIR2BITE-AS",
+    "description" : "air2bite s.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.133.96.0/22",
       "45.131.220.0/22",
       "46.21.16.0/22",
@@ -18,7 +21,7 @@
       "185.225.128.0/22",
       "212.81.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:e240::/29"
     ]
   }

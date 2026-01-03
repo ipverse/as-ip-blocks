@@ -1,9 +1,12 @@
 {
-  "asn": 30962,
-  "handle": "COMTRANCE-AS",
-  "description": "comtrance service GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30962,
+  "metadata" : {
+    "handle" : "COMTRANCE-AS",
+    "description" : "comtrance service GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.108.32.0/19",
       "84.19.0.0/19",
       "89.107.64.0/21",
@@ -21,7 +24,7 @@
       "195.191.114.0/23",
       "195.225.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:94c::/48",
       "2001:67c:208::/48",
       "2a00:f70::/32",

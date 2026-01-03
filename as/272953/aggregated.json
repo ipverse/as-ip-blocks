@@ -1,13 +1,17 @@
 {
-  "asn": 272953,
-  "handle": "HS-NETWORKS",
-  "description": "HS NETWORKS SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272953,
+  "metadata" : {
+    "handle" : "HS-NETWORKS",
+    "description" : "HS NETWORKS SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.99.32.0/24"
     ],
-    "ipv6": [
-      "2803:1990::/36"
+    "ipv6" : [
+      "2803:1990::/36",
+      "2803:1990:2000::/36"
     ]
   }
 }

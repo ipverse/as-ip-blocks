@@ -1,9 +1,12 @@
 {
-  "asn": 139285,
-  "handle": "WGCC-AS-AP",
-  "description": "Wingel cooperation co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139285,
+  "metadata" : {
+    "handle" : "WGCC-AS-AP",
+    "description" : "Wingel cooperation co. Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.28.0.0/22",
       "103.140.236.0/23",
       "103.148.228.0/23",
@@ -13,7 +16,7 @@
       "116.214.26.0/23",
       "116.214.28.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:96a0::/32"
     ]
   }

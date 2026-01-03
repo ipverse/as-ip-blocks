@@ -1,14 +1,17 @@
 {
-  "asn": 35370,
-  "handle": "AINET-AS",
-  "description": "Ainet Telekommunikations-Netzwerk Betriebs GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35370,
+  "metadata" : {
+    "handle" : "AINET-AS",
+    "description" : "Ainet Telekommunikations-Netzwerk Betriebs GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.152.64.0/19",
       "87.243.128.0/18",
       "160.20.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:9e00::/29"
     ]
   }

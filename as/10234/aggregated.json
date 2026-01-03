@@ -1,9 +1,12 @@
 {
-  "asn": 10234,
-  "handle": "ZURICH-AUSTRALIA-AS-AP",
-  "description": "Zurich Financial Services Australia Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10234,
+  "metadata" : {
+    "handle" : "ZURICH-AUSTRALIA-AS-AP",
+    "description" : "Zurich Financial Services Australia Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.0.95.0/24",
       "202.20.71.0/24",
       "202.20.72.0/23",
@@ -12,6 +15,6 @@
       "203.0.243.0/24",
       "203.0.248.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

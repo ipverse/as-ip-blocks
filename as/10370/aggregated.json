@@ -1,12 +1,15 @@
 {
-  "asn": 10370,
-  "handle": "NORTHWEST-AIRLINES",
-  "description": "Northwest Airlines",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10370,
+  "metadata" : {
+    "handle" : "NORTHWEST-AIRLINES",
+    "description" : "Northwest Airlines",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.72.0.0/16",
       "147.118.0.0/16"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

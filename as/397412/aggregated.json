@@ -1,9 +1,12 @@
 {
-  "asn": 397412,
-  "handle": "TACHUS",
-  "description": "TACHUS INFRASTRUCTURE LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397412,
+  "metadata" : {
+    "handle" : "TACHUS",
+    "description" : "TACHUS INFRASTRUCTURE LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.110.128.0/21",
       "69.8.64.0/19",
       "98.96.0.0/17",
@@ -15,7 +18,7 @@
       "143.109.96.0/19",
       "149.106.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:e2c0::/32"
     ]
   }

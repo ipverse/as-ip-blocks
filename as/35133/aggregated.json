@@ -1,13 +1,16 @@
 {
-  "asn": 35133,
-  "handle": "ERANIUM",
-  "description": "Eranium B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35133,
+  "metadata" : {
+    "handle" : "ERANIUM",
+    "description" : "Eranium B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.13.117.0/24",
       "217.18.95.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:5500::/29",
       "2a09:e240:22::/48",
       "2a09:e244::/33"

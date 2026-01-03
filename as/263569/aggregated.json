@@ -1,9 +1,12 @@
 {
-  "asn": 263569,
-  "handle": "DIRECT-INTERNET",
-  "description": "DIRECT INTERNET LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263569,
+  "metadata" : {
+    "handle" : "DIRECT-INTERNET",
+    "description" : "DIRECT INTERNET LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.5.220.0/22",
       "45.163.152.0/22",
       "45.172.252.0/22",
@@ -19,7 +22,7 @@
       "186.249.216.0/22",
       "200.4.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:f30::/32"
     ]
   }

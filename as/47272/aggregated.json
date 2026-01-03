@@ -1,16 +1,19 @@
 {
-  "asn": 47272,
-  "handle": "HYEHOST",
-  "description": "HYEHOST LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47272,
+  "metadata" : {
+    "handle" : "HYEHOST",
+    "description" : "HYEHOST LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.172.120.0/24",
       "23.178.72.0/24",
       "192.0.1.0/24",
       "192.67.35.0/24",
       "199.47.240.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:d84::/48",
       "2001:67c:d88::/48",
       "2001:67c:d8c::/48",

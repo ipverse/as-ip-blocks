@@ -1,9 +1,12 @@
 {
-  "asn": 12390,
-  "handle": "KINGSTON-UK-AS",
-  "description": "KCOM GROUP LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12390,
+  "metadata" : {
+    "handle" : "KINGSTON-UK-AS",
+    "description" : "KCOM GROUP LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.198.0.0/17",
       "77.86.0.0/17",
       "79.170.192.0/21",
@@ -19,7 +22,7 @@
       "212.50.160.0/19",
       "213.249.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:4900::/32",
       "2a00:4902::/32"
     ]

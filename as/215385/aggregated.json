@@ -1,13 +1,16 @@
 {
-  "asn": 215385,
-  "handle": "ASN-ALONET",
-  "description": "ALONET S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215385,
+  "metadata" : {
+    "handle" : "ASN-ALONET",
+    "description" : "ALONET S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.117.232.0/22",
       "176.119.217.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:9340::/32"
     ]
   }

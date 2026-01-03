@@ -1,9 +1,12 @@
 {
-  "asn": 22724,
-  "handle": "PUNTONET",
-  "description": "PUNTONET S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22724,
+  "metadata" : {
+    "handle" : "PUNTONET",
+    "description" : "PUNTONET S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.19.64.0/20",
       "38.51.32.0/20",
       "38.224.80.0/21",
@@ -26,7 +29,7 @@
       "200.29.245.0/24",
       "200.105.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:5f0::/32"
     ]
   }

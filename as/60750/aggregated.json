@@ -1,12 +1,15 @@
 {
-  "asn": 60750,
-  "handle": "AERDATA",
-  "description": "Falco ISP Services B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60750,
+  "metadata" : {
+    "handle" : "AERDATA",
+    "description" : "Falco ISP Services B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.26.108.0/22",
       "213.244.193.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

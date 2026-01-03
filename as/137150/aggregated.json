@@ -1,12 +1,15 @@
 {
-  "asn": 137150,
-  "handle": "WINGSNET-AS",
-  "description": "Wingsnet Internet Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137150,
+  "metadata" : {
+    "handle" : "WINGSNET-AS",
+    "description" : "Wingsnet Internet Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.108.98.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:2840::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 62663,
-  "handle": "TELECALL",
-  "description": "Telecall",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62663,
+  "metadata" : {
+    "handle" : "TELECALL",
+    "description" : "Telecall",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.54.166.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fe8a::/36"
     ]
   }

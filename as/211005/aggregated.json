@@ -1,12 +1,15 @@
 {
-  "asn": 211005,
-  "handle": "FUSIX-OOB-AS",
-  "description": "Fusix Networks B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211005,
+  "metadata" : {
+    "handle" : "FUSIX-OOB-AS",
+    "description" : "Fusix Networks B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.3.37.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:fe0::/48"
     ]
   }

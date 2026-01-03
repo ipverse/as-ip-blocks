@@ -1,9 +1,12 @@
 {
-  "asn": 272027,
-  "handle": "LAUAM-MEGARED-TELECOM",
-  "description": "LAUAM MEGARED TELECOM S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272027,
+  "metadata" : {
+    "handle" : "LAUAM-MEGARED-TELECOM",
+    "description" : "LAUAM MEGARED TELECOM S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.51.190.0/23",
       "38.191.88.0/23",
       "38.191.90.0/24",
@@ -16,7 +19,7 @@
       "200.35.152.0/22",
       "206.85.1.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:1510::/48",
       "2803:1510:2::/48",
       "2803:1510:4::/48",

@@ -1,11 +1,14 @@
 {
-  "asn": 18610,
-  "handle": "SEQUOIA-AS",
-  "description": "Sequoia Capital",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18610,
+  "metadata" : {
+    "handle" : "SEQUOIA-AS",
+    "description" : "Sequoia Capital",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.226.91.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

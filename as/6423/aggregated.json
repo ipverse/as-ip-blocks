@@ -1,9 +1,12 @@
 {
-  "asn": 6423,
-  "handle": "DF-PTL2-3",
-  "description": "Digital Fortress",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6423,
+  "metadata" : {
+    "handle" : "DF-PTL2-3",
+    "description" : "Digital Fortress",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.30.0.0/18",
       "69.30.80.0/22",
       "69.30.88.0/24",
@@ -12,7 +15,7 @@
       "69.30.96.0/19",
       "209.162.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:19d0:100::/40",
       "2001:19d0:200::/40"
     ]

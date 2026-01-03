@@ -1,9 +1,12 @@
 {
-  "asn": 9129,
-  "handle": "KE-NET2000",
-  "description": "MTN SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9129,
+  "metadata" : {
+    "handle" : "KE-NET2000",
+    "description" : "MTN SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.209.3.0/24",
       "41.209.5.0/24",
       "41.209.8.0/21",
@@ -12,7 +15,7 @@
       "195.202.64.0/19",
       "217.199.144.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4368::/32"
     ]
   }

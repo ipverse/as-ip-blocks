@@ -1,9 +1,12 @@
 {
-  "asn": 18028,
-  "handle": "GSNU-AS",
-  "description": "GyeongSang National University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18028,
+  "metadata" : {
+    "handle" : "GSNU-AS",
+    "description" : "GyeongSang National University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "114.70.132.0/22",
       "114.71.234.0/23",
       "117.16.57.0/24",
@@ -26,6 +29,6 @@
       "203.255.0.0/18",
       "222.96.8.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

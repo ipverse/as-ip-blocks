@@ -1,12 +1,15 @@
 {
-  "asn": 37524,
-  "handle": "AFRICELL-GM",
-  "description": "Africell Gambia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37524,
+  "metadata" : {
+    "handle" : "AFRICELL-GM",
+    "description" : "Africell Gambia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "197.148.72.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:140::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 38247,
-  "handle": "VIETNAMOBILE-AS-VN",
-  "description": "Vietnamobile Telecommunications Joint Stock Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38247,
+  "metadata" : {
+    "handle" : "VIETNAMOBILE-AS-VN",
+    "description" : "Vietnamobile Telecommunications Joint Stock Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.126.96.0/22",
       "103.7.36.0/22",
       "103.19.96.0/22",
@@ -14,7 +17,7 @@
       "202.79.232.0/21",
       "203.170.26.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:e240::/44",
       "2400:e240:4000::/44",
       "2400:e240:c000::/34"

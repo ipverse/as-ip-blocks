@@ -1,9 +1,12 @@
 {
-  "asn": 24541,
-  "handle": "HOSTAWAYPTYLTD-AS-AP",
-  "description": "HostAway Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24541,
+  "metadata" : {
+    "handle" : "HOSTAWAYPTYLTD-AS-AP",
+    "description" : "HostAway Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.54.128.0/20",
       "202.43.2.0/24",
       "203.30.44.0/22",
@@ -11,7 +14,7 @@
       "203.82.212.0/23",
       "203.82.214.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:8000::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 134334,
-  "handle": "LOTUSBROADBAND-AS",
-  "description": "LOTUS BROADBAND PVT LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134334,
+  "metadata" : {
+    "handle" : "LOTUSBROADBAND-AS",
+    "description" : "LOTUS BROADBAND PVT LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.200.56.0/22",
       "203.191.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:8780::/39",
       "2403:8780:200::/40"
     ]

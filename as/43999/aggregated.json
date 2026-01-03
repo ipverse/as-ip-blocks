@@ -1,11 +1,14 @@
 {
-  "asn": 43999,
-  "handle": "ALA-IX-AS",
-  "description": "Association Internet Traffic Exchange Centre",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43999,
+  "metadata" : {
+    "handle" : "ALA-IX-AS",
+    "description" : "Association Internet Traffic Exchange Centre",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.2.230.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

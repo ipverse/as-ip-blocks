@@ -1,16 +1,19 @@
 {
-  "asn": 207029,
-  "handle": "WIME-AS",
-  "description": "Wime Srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207029,
+  "metadata" : {
+    "handle" : "WIME-AS",
+    "description" : "Wime Srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.85.20.0/24",
       "185.85.24.0/22",
       "185.134.8.0/22",
       "185.210.112.0/22",
       "213.226.104.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:a580::/29",
       "2a06:ea00::/29"
     ]

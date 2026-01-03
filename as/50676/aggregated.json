@@ -1,12 +1,15 @@
 {
-  "asn": 50676,
-  "handle": "TELCOMNET",
-  "description": "TelCom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50676,
+  "metadata" : {
+    "handle" : "TELCOMNET",
+    "description" : "TelCom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.162.40.0/22",
       "195.191.82.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

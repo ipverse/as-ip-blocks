@@ -1,12 +1,15 @@
 {
-  "asn": 54419,
-  "handle": "LIGHTPATH-PHOENIX",
-  "description": "Cablevision Lightpath LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54419,
+  "metadata" : {
+    "handle" : "LIGHTPATH-PHOENIX",
+    "description" : "Cablevision Lightpath LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.72.68.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:2e80:1::/48"
     ]
   }

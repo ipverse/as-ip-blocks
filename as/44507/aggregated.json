@@ -1,9 +1,12 @@
 {
-  "asn": 44507,
-  "handle": "KMTN-AS",
-  "description": "OJSC Kostroma Municipal Telephone Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44507,
+  "metadata" : {
+    "handle" : "KMTN-AS",
+    "description" : "OJSC Kostroma Municipal Telephone Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.175.88.0/21",
       "46.42.0.0/18",
       "46.228.96.0/20",
@@ -16,6 +19,6 @@
       "194.58.160.0/21",
       "194.58.176.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 212629,
-  "handle": "SGSW",
-  "description": "Sankt Galler Stadtwerke",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212629,
+  "metadata" : {
+    "handle" : "SGSW",
+    "description" : "Sankt Galler Stadtwerke",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.145.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:48c0::/29"
     ]
   }

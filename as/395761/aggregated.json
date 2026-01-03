@@ -1,9 +1,12 @@
 {
-  "asn": 395761,
-  "handle": "TELEDISTRIBUTION-AMOS-INC",
-  "description": "Videotron Ltee",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395761,
+  "metadata" : {
+    "handle" : "TELEDISTRIBUTION-AMOS-INC",
+    "description" : "Videotron Ltee",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.48.176.0/22",
       "24.48.180.0/23",
       "66.185.48.0/24",
@@ -16,6 +19,6 @@
       "69.24.55.0/24",
       "69.24.57.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,16 +1,19 @@
 {
-  "asn": 21034,
-  "handle": "MICSO-SRL-AS",
-  "description": "Micso s.r.l",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21034,
+  "metadata" : {
+    "handle" : "MICSO-SRL-AS",
+    "description" : "Micso s.r.l.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.2.146.0/23",
       "185.179.103.0/24",
       "195.32.69.0/24",
       "195.32.80.0/20",
       "212.43.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1be0::/32"
     ]
   }

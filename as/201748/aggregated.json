@@ -1,9 +1,12 @@
 {
-  "asn": 201748,
-  "handle": "INFOTELECOM",
-  "description": "INFOTELECOM NETWORKS SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201748,
+  "metadata" : {
+    "handle" : "INFOTELECOM",
+    "description" : "INFOTELECOM NETWORKS SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.40.158.0/24",
       "5.154.176.0/24",
       "5.154.179.0/24",
@@ -14,6 +17,6 @@
       "95.39.17.0/24",
       "185.142.12.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

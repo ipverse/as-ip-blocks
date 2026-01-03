@@ -1,11 +1,14 @@
 {
-  "asn": 7420,
-  "handle": "ZAMNET-AS",
-  "description": "Zamnet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7420,
+  "metadata" : {
+    "handle" : "ZAMNET-AS",
+    "description" : "Zamnet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "196.46.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

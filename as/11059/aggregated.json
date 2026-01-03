@@ -1,9 +1,12 @@
 {
-  "asn": 11059,
-  "handle": "MIFFLIN-COUNTY-WIRELESS",
-  "description": "MIFFLIN COUNTY WIRELESS LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11059,
+  "metadata" : {
+    "handle" : "MIFFLIN-COUNTY-WIRELESS",
+    "description" : "MIFFLIN COUNTY WIRELESS LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.93.16.0/24",
       "64.234.228.0/22",
       "82.39.230.0/23",
@@ -19,7 +22,7 @@
       "216.132.144.0/22",
       "216.132.200.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:c40::/32"
     ]
   }

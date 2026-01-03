@@ -1,9 +1,12 @@
 {
-  "asn": 8542,
-  "handle": "EVINY-AS8542",
-  "description": "Eviny Fiber AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8542,
+  "metadata" : {
+    "handle" : "EVINY-AS8542",
+    "description" : "Eviny Fiber AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.97.192.0/18",
       "82.134.0.0/17",
       "85.200.0.0/16",
@@ -14,7 +17,7 @@
       "193.161.80.0/22",
       "213.153.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:14d8::/29"
     ]
   }

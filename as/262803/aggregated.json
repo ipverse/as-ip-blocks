@@ -1,12 +1,15 @@
 {
-  "asn": 262803,
-  "handle": "NETULTRA-PROVEDOR-INTERNET",
-  "description": "NETULTRA PROVEDOR DE INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262803,
+  "metadata" : {
+    "handle" : "NETULTRA-PROVEDOR-INTERNET",
+    "description" : "NETULTRA PROVEDOR DE INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "186.250.16.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:250::/32"
     ]
   }

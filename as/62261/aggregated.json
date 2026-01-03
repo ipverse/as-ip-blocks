@@ -1,15 +1,18 @@
 {
-  "asn": 62261,
-  "handle": "MSK-IX-AS",
-  "description": "Join-stock company Internet ExchangeMSK-IX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62261,
+  "metadata" : {
+    "handle" : "MSK-IX-AS",
+    "description" : "Join-stock company Internet ExchangeMSK-IX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.192.230.0/23",
       "212.192.232.0/24",
       "212.192.234.0/23",
       "212.192.236.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:bd00:10::/44",
       "2a09:bd00:20::/44"
     ]

@@ -1,12 +1,15 @@
 {
-  "asn": 133081,
-  "handle": "SRO-AS-AP",
-  "description": "State Revenue Office Victoria",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133081,
+  "metadata" : {
+    "handle" : "SRO-AS-AP",
+    "description" : "State Revenue Office Victoria",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.2.168.0/21",
       "203.16.128.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

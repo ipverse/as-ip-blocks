@@ -1,12 +1,15 @@
 {
-  "asn": 148975,
-  "handle": "KCAN-AS-AP",
-  "description": "KT Computer and Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 148975,
+  "metadata" : {
+    "handle" : "KCAN-AS-AP",
+    "description" : "KT Computer and Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.175.20.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df7:e880::/48"
     ]
   }

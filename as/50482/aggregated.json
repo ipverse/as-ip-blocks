@@ -1,13 +1,16 @@
 {
-  "asn": 50482,
-  "handle": "KAZAKHTELECOM-AS",
-  "description": "JSC Kazakhtelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50482,
+  "metadata" : {
+    "handle" : "KAZAKHTELECOM-AS",
+    "description" : "JSC Kazakhtelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "92.46.0.0/15",
       "212.19.128.0/19",
       "212.154.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

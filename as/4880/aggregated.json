@@ -1,11 +1,14 @@
 {
-  "asn": 4880,
-  "handle": "LIFELINE-ASN",
-  "description": "Lifeline Systems Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4880,
+  "metadata" : {
+    "handle" : "LIFELINE-ASN",
+    "description" : "Lifeline Systems Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.36.96.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 30046,
-  "handle": "EIC",
-  "description": "Erie Indemnity Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30046,
+  "metadata" : {
+    "handle" : "EIC",
+    "description" : "Erie Indemnity Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.68.35.0/24",
       "199.68.38.0/24",
       "199.68.40.0/24",
       "199.68.50.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

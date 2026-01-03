@@ -1,13 +1,16 @@
 {
-  "asn": 33917,
-  "handle": "SPOE-AS",
-  "description": "Sozialdemokratische Partei Oesterreichs",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33917,
+  "metadata" : {
+    "handle" : "SPOE-AS",
+    "description" : "Sozialdemokratische Partei Oesterreichs",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.0.64.0/22",
       "193.80.191.0/24",
       "194.145.176.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

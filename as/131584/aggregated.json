@@ -1,9 +1,12 @@
 {
-  "asn": 131584,
-  "handle": "TAIFO-AS-TW",
-  "description": "Taiwan Intelligent Fiber Optic Network Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131584,
+  "metadata" : {
+    "handle" : "TAIFO-AS-TW",
+    "description" : "Taiwan Intelligent Fiber Optic Network Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.255.12.0/22",
       "101.3.0.0/22",
       "101.3.4.0/23",
@@ -26,7 +29,7 @@
       "210.203.52.0/24",
       "210.203.56.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:4e80::/32"
     ]
   }

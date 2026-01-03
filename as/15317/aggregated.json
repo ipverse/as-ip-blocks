@@ -1,9 +1,12 @@
 {
-  "asn": 15317,
-  "handle": "SERVEREL-AS",
-  "description": "Serverel Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15317,
+  "metadata" : {
+    "handle" : "SERVEREL-AS",
+    "description" : "Serverel Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "162.221.224.0/22",
       "162.252.20.0/22",
       "173.214.240.0/20",
@@ -11,7 +14,7 @@
       "199.182.160.0/21",
       "216.172.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:5b00::/32"
     ]
   }

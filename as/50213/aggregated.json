@@ -1,12 +1,15 @@
 {
-  "asn": 50213,
-  "handle": "UNDERWORLD-AS",
-  "description": "Underworld",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50213,
+  "metadata" : {
+    "handle" : "UNDERWORLD-AS",
+    "description" : "Underworld",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.213.203.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:398::/48"
     ]
   }

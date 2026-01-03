@@ -1,16 +1,19 @@
 {
-  "asn": 149422,
-  "handle": "VYBETELECOMPVTLTD-AS-AP",
-  "description": "VYBETELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149422,
+  "metadata" : {
+    "handle" : "VYBETELECOMPVTLTD-AS-AP",
+    "description" : "VYBETELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.68.176.0/24",
       "103.88.102.0/23",
       "103.102.86.0/23",
       "103.126.34.0/23",
       "103.154.207.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:e0a0::/32"
     ]
   }

@@ -1,11 +1,14 @@
 {
-  "asn": 135400,
-  "handle": "CONTACTENERGY-AS-AP",
-  "description": "Contact Energy Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135400,
+  "metadata" : {
+    "handle" : "CONTACTENERGY-AS-AP",
+    "description" : "Contact Energy Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.176.122.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 18023,
-  "handle": "KMU-AS",
-  "description": "Korea Maritime and Ocean University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18023,
+  "metadata" : {
+    "handle" : "KMU-AS",
+    "description" : "Korea Maritime and Ocean University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.82.252.0/22",
       "121.144.249.0/24",
       "121.144.250.0/24",
@@ -18,6 +21,6 @@
       "220.69.252.0/23",
       "220.149.72.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

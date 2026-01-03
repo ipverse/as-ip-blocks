@@ -1,9 +1,12 @@
 {
-  "asn": 44533,
-  "handle": "DAVYDOV-NET",
-  "description": "Davydov Vladimir Dmitrievich",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44533,
+  "metadata" : {
+    "handle" : "DAVYDOV-NET",
+    "description" : "Davydov Vladimir Dmitrievich",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.66.168.0/22",
       "45.155.6.0/24",
       "89.251.160.0/20",
@@ -21,6 +24,6 @@
       "193.162.130.0/24",
       "193.163.197.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

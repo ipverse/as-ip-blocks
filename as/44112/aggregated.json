@@ -1,9 +1,12 @@
 {
-  "asn": 44112,
-  "handle": "SWEB-AS",
-  "description": "SpaceWeb Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44112,
+  "metadata" : {
+    "handle" : "SWEB-AS",
+    "description" : "SpaceWeb Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.222.32.0/24",
       "77.222.36.0/22",
       "77.222.40.0/22",
@@ -12,7 +15,7 @@
       "77.222.48.0/20",
       "80.93.60.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:408:7722::/48"
     ]
   }

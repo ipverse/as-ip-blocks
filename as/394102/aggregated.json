@@ -1,9 +1,12 @@
 {
-  "asn": 394102,
-  "handle": "NETFIRE-MSTR01",
-  "description": "NetFire LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394102,
+  "metadata" : {
+    "handle" : "NETFIRE-MSTR01",
+    "description" : "NetFire LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.226.208.0/24",
       "147.160.243.0/24",
       "148.59.122.0/23",
@@ -11,7 +14,7 @@
       "199.189.62.0/23",
       "216.250.4.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:3f80::/32"
     ]
   }

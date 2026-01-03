@@ -1,9 +1,12 @@
 {
-  "asn": 32444,
-  "handle": "ANTHEMBB",
-  "description": "Anthem Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32444,
+  "metadata" : {
+    "handle" : "ANTHEMBB",
+    "description" : "Anthem Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.162.32.0/24",
       "38.13.224.0/19",
       "38.18.192.0/19",
@@ -17,7 +20,7 @@
       "199.33.218.0/23",
       "216.57.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:e900::/32"
     ]
   }

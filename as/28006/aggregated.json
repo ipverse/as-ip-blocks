@@ -1,9 +1,12 @@
 {
-  "asn": 28006,
-  "handle": "CORPORACION-NACIONAL-TELECOMUNICACIONES",
-  "description": "CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28006,
+  "metadata" : {
+    "handle" : "CORPORACION-NACIONAL-TELECOMUNICACIONES",
+    "description" : "CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "181.112.8.0/22",
       "181.112.12.0/24",
       "181.112.32.0/19",
@@ -301,7 +304,7 @@
       "201.219.0.0/18",
       "205.235.5.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:370::/48",
       "2800:370:3::/48",
       "2800:370:5::/48",

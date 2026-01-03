@@ -1,9 +1,12 @@
 {
-  "asn": 30815,
-  "handle": "DETASAD",
-  "description": "Detecon Al Saudia Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30815,
+  "metadata" : {
+    "handle" : "DETASAD",
+    "description" : "Detecon Al Saudia Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "88.209.128.0/21",
       "88.209.136.0/22",
       "88.209.160.0/21",
@@ -12,7 +15,7 @@
       "185.63.232.0/22",
       "194.46.38.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:11e0::/48"
     ]
   }

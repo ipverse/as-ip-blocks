@@ -1,11 +1,14 @@
 {
-  "asn": 149980,
-  "handle": "AONENETWORK-AS-AP",
-  "description": "A One Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149980,
+  "metadata" : {
+    "handle" : "AONENETWORK-AS-AP",
+    "description" : "A One Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.189.242.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

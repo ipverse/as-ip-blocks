@@ -1,9 +1,12 @@
 {
-  "asn": 7195,
-  "handle": "EDGEUNO",
-  "description": "EDGEUNO S.A.S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7195,
+  "metadata" : {
+    "handle" : "EDGEUNO",
+    "description" : "EDGEUNO S.A.S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.242.227.0/24",
       "8.242.228.0/24",
       "103.57.250.0/24",
@@ -32,7 +35,7 @@
       "200.25.122.0/24",
       "200.25.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:1e0::/36",
       "2800:1e0:1000::/41",
       "2800:1e0:1080::/43",

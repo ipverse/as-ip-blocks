@@ -1,10 +1,13 @@
 {
-  "asn": 200372,
-  "handle": "DORFHOSTER-AS",
-  "description": "Lars Ewald",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 200372,
+  "metadata" : {
+    "handle" : "DORFHOSTER-AS",
+    "description" : "Lars Ewald",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:67c:b40::/48",
       "2a14:8b80::/30"
     ]

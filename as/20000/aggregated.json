@@ -1,11 +1,14 @@
 {
-  "asn": 20000,
-  "handle": "FULCRM-00",
-  "description": "Fulcrum Analytics Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20000,
+  "metadata" : {
+    "handle" : "FULCRM-00",
+    "description" : "Fulcrum Analytics Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "134.195.120.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

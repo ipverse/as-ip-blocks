@@ -1,13 +1,16 @@
 {
-  "asn": 204599,
-  "handle": "OODRIVE",
-  "description": "OODRIVE SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204599,
+  "metadata" : {
+    "handle" : "OODRIVE",
+    "description" : "OODRIVE SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.245.136.0/22",
       "193.105.18.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:5b80::/29"
     ]
   }

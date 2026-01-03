@@ -1,12 +1,15 @@
 {
-  "asn": 58394,
-  "handle": "BPK-AS-ID",
-  "description": "Badan Pemeriksa Keuangan (BPK RI)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58394,
+  "metadata" : {
+    "handle" : "BPK-AS-ID",
+    "description" : "Badan Pemeriksa Keuangan (BPK RI)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.11.179.0/24",
       "103.51.158.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

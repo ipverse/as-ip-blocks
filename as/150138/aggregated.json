@@ -1,11 +1,14 @@
 {
-  "asn": 150138,
-  "handle": "NEA-AS-AP",
-  "description": "Nepal Electricity Authority",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150138,
+  "metadata" : {
+    "handle" : "NEA-AS-AP",
+    "description" : "Nepal Electricity Authority",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.16.208.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 197638,
-  "handle": "SA-EMEA-AS",
-  "description": "Sanofi SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197638,
+  "metadata" : {
+    "handle" : "SA-EMEA-AS",
+    "description" : "Sanofi SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.10.220.0/24",
       "193.202.91.0/24",
       "193.202.92.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

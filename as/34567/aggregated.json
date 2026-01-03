@@ -1,10 +1,13 @@
 {
-  "asn": 34567,
-  "handle": "NEXT-AS",
-  "description": "Next Limited",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 34567,
+  "metadata" : {
+    "handle" : "NEXT-AS",
+    "description" : "Next Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a07:f600:4058::/48",
       "2a0d:8cc0::/29",
       "2a0d:ad40::/29",

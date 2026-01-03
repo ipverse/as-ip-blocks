@@ -1,9 +1,12 @@
 {
-  "asn": 12902,
-  "handle": "LUNA",
-  "description": "Luna.nl B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12902,
+  "metadata" : {
+    "handle" : "LUNA",
+    "description" : "Luna.nl B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.98.168.0/21",
       "176.124.253.0/24",
       "185.32.232.0/22",
@@ -13,7 +16,7 @@
       "185.211.210.0/23",
       "217.77.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:9c0::/32"
     ]
   }

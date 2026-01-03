@@ -1,12 +1,15 @@
 {
-  "asn": 51465,
-  "handle": "FIXMAP-M3NET-TRANSIT",
-  "description": "M3.NET Sp. zoo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51465,
+  "metadata" : {
+    "handle" : "FIXMAP-M3NET-TRANSIT",
+    "description" : "M3.NET Sp. zoo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.91.5.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:ae40::/48",
       "2a13:2800::/32"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 31122,
-  "handle": "DIGIWEB-AS",
-  "description": "Digiweb ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31122,
+  "metadata" : {
+    "handle" : "DIGIWEB-AS",
+    "description" : "Digiweb ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.77.58.0/23",
       "45.88.184.0/23",
       "45.88.246.0/23",
@@ -49,7 +52,7 @@
       "212.126.32.0/19",
       "217.78.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:15b8::/32",
       "2a01:258::/32",
       "2a01:8aa0::/32",

@@ -1,9 +1,12 @@
 {
-  "asn": 136988,
-  "handle": "LEASEWEB-AS-AP",
-  "description": "LEASEWEB AUSTRALIA PTY LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136988,
+  "metadata" : {
+    "handle" : "LEASEWEB-AS-AP",
+    "description" : "LEASEWEB AUSTRALIA PTY LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.106.240.0/21",
       "31.186.38.0/23",
       "45.39.219.0/24",
@@ -15,7 +18,7 @@
       "173.234.104.0/21",
       "204.217.133.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:d040::/35",
       "2405:a280:32::/48"
     ]

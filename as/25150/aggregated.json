@@ -1,12 +1,15 @@
 {
-  "asn": 25150,
-  "handle": "DCTEL-AS",
-  "description": "DCTel Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25150,
+  "metadata" : {
+    "handle" : "DCTEL-AS",
+    "description" : "DCTel Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.0.228.0/24",
       "195.189.8.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

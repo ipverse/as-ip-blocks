@@ -1,9 +1,12 @@
 {
-  "asn": 62386,
-  "handle": "BTG-AS",
-  "description": "Bulgarian Telecommunication Group EOOD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62386,
+  "metadata" : {
+    "handle" : "BTG-AS",
+    "description" : "Bulgarian Telecommunication Group EOOD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.94.94.0/24",
       "85.187.234.0/23",
       "89.25.35.0/24",
@@ -13,7 +16,7 @@
       "151.237.39.0/24",
       "151.237.63.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:2c40:20::/44"
     ]
   }

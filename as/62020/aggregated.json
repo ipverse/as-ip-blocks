@@ -1,13 +1,16 @@
 {
-  "asn": 62020,
-  "handle": "NETSAT",
-  "description": "Net Sat AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62020,
+  "metadata" : {
+    "handle" : "NETSAT",
+    "description" : "Net Sat AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.9.0.0/24",
       "185.9.2.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:4440::/32"
     ]
   }

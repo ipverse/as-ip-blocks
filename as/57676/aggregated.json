@@ -1,12 +1,15 @@
 {
-  "asn": 57676,
-  "handle": "AET",
-  "description": "Azienda elettrica ticinese",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57676,
+  "metadata" : {
+    "handle" : "AET",
+    "description" : "Azienda elettrica ticinese",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.79.204.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5de0::/32"
     ]
   }

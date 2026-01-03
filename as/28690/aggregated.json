@@ -1,9 +1,12 @@
 {
-  "asn": 28690,
-  "handle": "ING-DIRECT-UK",
-  "description": "Barclays Bank PLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28690,
+  "metadata" : {
+    "handle" : "ING-DIRECT-UK",
+    "description" : "Barclays Bank PLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.228.19.0/24",
       "141.228.63.0/24",
       "141.228.80.0/20",
@@ -15,6 +18,6 @@
       "157.83.96.0/21",
       "157.83.120.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

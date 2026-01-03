@@ -1,11 +1,14 @@
 {
-  "asn": 69,
-  "handle": "UPENN-NETWORK-LAB",
-  "description": "University of Pennsylvania",
-  "subnets": {
-    "ipv4": [
+  "asn" : 69,
+  "metadata" : {
+    "handle" : "UPENN-NETWORK-LAB",
+    "description" : "University of Pennsylvania",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.5.44.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

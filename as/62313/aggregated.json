@@ -1,9 +1,12 @@
 {
-  "asn": 62313,
-  "handle": "PROACT-AS",
-  "description": "Proact IT UK Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62313,
+  "metadata" : {
+    "handle" : "PROACT-AS",
+    "description" : "Proact IT UK Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.209.240.0/24",
       "91.233.35.0/24",
       "149.5.94.0/24",
@@ -21,6 +24,6 @@
       "213.32.226.0/24",
       "213.32.228.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

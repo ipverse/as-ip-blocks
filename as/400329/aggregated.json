@@ -1,12 +1,15 @@
 {
-  "asn": 400329,
-  "handle": "CLEARPATH-FIBER-01",
-  "description": "ClearPath Fiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400329,
+  "metadata" : {
+    "handle" : "CLEARPATH-FIBER-01",
+    "description" : "ClearPath Fiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "136.175.125.0/24",
       "136.175.127.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

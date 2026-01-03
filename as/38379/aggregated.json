@@ -1,9 +1,12 @@
 {
-  "asn": 38379,
-  "handle": "MAGINETWORK",
-  "description": "No.9 Building No.619 Longchang Road Shanghai China",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38379,
+  "metadata" : {
+    "handle" : "MAGINETWORK",
+    "description" : "No.9 Building No.619 Longchang Road Shanghai China",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.66.120.0/24",
       "116.66.123.0/24",
       "118.242.238.0/24",
@@ -12,6 +15,6 @@
       "119.18.234.0/24",
       "119.18.236.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

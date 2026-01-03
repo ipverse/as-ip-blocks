@@ -1,13 +1,16 @@
 {
-  "asn": 139364,
-  "handle": "IDNIC-KOMINFOGUNUNGKIDUL-AS-ID",
-  "description": "Pemerintah Kabupaten Gunungkidul",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139364,
+  "metadata" : {
+    "handle" : "IDNIC-KOMINFOGUNUNGKIDUL-AS-ID",
+    "description" : "Pemerintah Kabupaten Gunungkidul",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.141.234.0/24",
       "103.169.200.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:cb20::/32"
     ]
   }

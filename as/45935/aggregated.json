@@ -1,14 +1,17 @@
 {
-  "asn": 45935,
-  "handle": "WNL-AS-AP",
-  "description": "Wantok Network Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45935,
+  "metadata" : {
+    "handle" : "WNL-AS-AP",
+    "description" : "Wantok Network Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.36.144.0/23",
       "103.36.147.0/24",
       "180.222.208.0/22",
       "203.191.128.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

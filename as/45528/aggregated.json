@@ -1,9 +1,12 @@
 {
-  "asn": 45528,
-  "handle": "TIKONAIN-AS",
-  "description": "Tikona Infinet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45528,
+  "metadata" : {
+    "handle" : "TIKONAIN-AS",
+    "description" : "Tikona Infinet Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.22.3.0/24",
       "1.22.4.0/23",
       "1.22.6.0/24",
@@ -246,7 +249,7 @@
       "203.90.124.0/23",
       "203.90.127.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:3c0:15::/48",
       "2401:3c0:100::/46",
       "2401:3c0:104::/47",

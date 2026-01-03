@@ -1,11 +1,14 @@
 {
-  "asn": 138983,
-  "handle": "ROUNDNETWORK-AS-AP",
-  "description": "Round Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138983,
+  "metadata" : {
+    "handle" : "ROUNDNETWORK-AS-AP",
+    "description" : "Round Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.138.30.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

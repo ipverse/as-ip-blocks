@@ -1,9 +1,12 @@
 {
-  "asn": 35251,
-  "handle": "ANTI-DDOS",
-  "description": "NetLab Global",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35251,
+  "metadata" : {
+    "handle" : "ANTI-DDOS",
+    "description" : "NetLab Global",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.138.68.0/22",
       "45.158.20.0/22",
       "46.3.114.0/23",
@@ -17,6 +20,6 @@
       "154.13.7.0/24",
       "154.64.229.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

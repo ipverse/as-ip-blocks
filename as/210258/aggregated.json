@@ -1,13 +1,16 @@
 {
-  "asn": 210258,
-  "handle": "WILDANET",
-  "description": "Wildanet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210258,
+  "metadata" : {
+    "handle" : "WILDANET",
+    "description" : "Wildanet Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.28.208.0/22",
       "185.254.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:4f40::/29"
     ]
   }

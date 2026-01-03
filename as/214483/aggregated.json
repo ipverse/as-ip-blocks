@@ -1,9 +1,12 @@
 {
-  "asn": 214483,
-  "handle": "FIBERPOWER-AS",
-  "description": "FiberPower LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214483,
+  "metadata" : {
+    "handle" : "FIBERPOWER-AS",
+    "description" : "FiberPower LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.136.164.0/24",
       "23.136.188.0/24",
       "23.137.204.0/24",
@@ -40,7 +43,7 @@
       "145.79.169.0/24",
       "151.243.51.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f4e0::/40"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 36601,
-  "handle": "TNT",
-  "description": "Terra Nova Telecom Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36601,
+  "metadata" : {
+    "handle" : "TNT",
+    "description" : "Terra Nova Telecom Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.243.209.0/24",
       "192.109.92.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:e580::/32"
     ]
   }

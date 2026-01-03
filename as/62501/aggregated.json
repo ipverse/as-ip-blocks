@@ -1,12 +1,15 @@
 {
-  "asn": 62501,
-  "handle": "SA10",
-  "description": "Security Arsenal",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62501,
+  "metadata" : {
+    "handle" : "SA10",
+    "description" : "Security Arsenal",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.164.24.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:c0:a000::/48"
     ]
   }

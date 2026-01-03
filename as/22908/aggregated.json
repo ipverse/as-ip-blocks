@@ -1,9 +1,12 @@
 {
-  "asn": 22908,
-  "handle": "SIXSIGMA-NETWORKS-MEXICO",
-  "description": "Sixsigma Networks Mexico S.A. de C.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22908,
+  "metadata" : {
+    "handle" : "SIXSIGMA-NETWORKS-MEXICO",
+    "description" : "Sixsigma Networks Mexico S.A. de C.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.137.108.0/24",
       "143.137.110.0/23",
       "168.181.79.0/24",
@@ -40,7 +43,7 @@
       "201.175.30.0/23",
       "201.175.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1270:1000::/36",
       "2001:1270:2000::/35",
       "2001:1270:f000::/36"

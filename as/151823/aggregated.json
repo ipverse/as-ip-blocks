@@ -1,12 +1,15 @@
 {
-  "asn": 151823,
-  "handle": "CT-CENTRALSOUTH-CHINA-IIP",
-  "description": "China Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151823,
+  "metadata" : {
+    "handle" : "CT-CENTRALSOUTH-CHINA-IIP",
+    "description" : "China Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "175.12.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:106:aa00::/39",
       "240e:96a:4000::/36",
       "240e:982:9b00::/40",

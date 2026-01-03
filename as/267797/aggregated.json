@@ -1,9 +1,12 @@
 {
-  "asn": 267797,
-  "handle": "EMPRESA-NACIONAL-TRANSMISION",
-  "description": "EMPRESA NACIONAL DE TRANSMISIÓN ELÉCTRICA (ENATREL)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267797,
+  "metadata" : {
+    "handle" : "EMPRESA-NACIONAL-TRANSMISION",
+    "description" : "EMPRESA NACIONAL DE TRANSMISIÓN ELÉCTRICA (ENATREL)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.226.160.0/20",
       "45.170.224.0/22",
       "165.98.1.0/24",
@@ -26,7 +29,7 @@
       "192.136.42.0/24",
       "200.9.187.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:10:11::/48",
       "2803:dfa0::/32"
     ]

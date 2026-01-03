@@ -1,9 +1,12 @@
 {
-  "asn": 50261,
-  "handle": "ACENET",
-  "description": "ACE Telecom Kft",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50261,
+  "metadata" : {
+    "handle" : "ACENET",
+    "description" : "ACE Telecom Kft",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.220.128.0/20",
       "77.111.112.0/22",
       "80.64.64.0/20",
@@ -12,7 +15,7 @@
       "194.152.152.0/24",
       "213.157.107.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:d400::/29"
     ]
   }

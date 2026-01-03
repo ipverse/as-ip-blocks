@@ -1,9 +1,12 @@
 {
-  "asn": 58273,
-  "handle": "B4RN-AS",
-  "description": "Broadband for the Rural North Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58273,
+  "metadata" : {
+    "handle" : "B4RN-AS",
+    "description" : "Broadband for the Rural North Limited.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.83.8.0/21",
       "88.97.112.0/20",
       "88.97.128.0/20",
@@ -20,7 +23,7 @@
       "194.31.187.0/24",
       "194.113.44.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:6240::/48",
       "2a01:6240:19::/48",
       "2a01:6240:22::/47",

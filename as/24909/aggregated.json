@@ -1,13 +1,16 @@
 {
-  "asn": 24909,
-  "handle": "TIMOCOM-AS",
-  "description": "TIMOCOM GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24909,
+  "metadata" : {
+    "handle" : "TIMOCOM-AS",
+    "description" : "TIMOCOM GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.111.167.0/24",
       "195.234.149.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:214c::/48"
     ]
   }

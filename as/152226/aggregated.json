@@ -1,12 +1,15 @@
 {
-  "asn": 152226,
-  "handle": "PARADISE-AS",
-  "description": "PARADISE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 152226,
+  "metadata" : {
+    "handle" : "PARADISE-AS",
+    "description" : "PARADISE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.108.50.0/23",
       "211.173.106.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

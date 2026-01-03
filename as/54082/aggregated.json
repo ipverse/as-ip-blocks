@@ -1,12 +1,15 @@
 {
-  "asn": 54082,
-  "handle": "MULTICABLE-NETWORK-GT-LLC",
-  "description": "MULTICABLE NETWORK LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54082,
+  "metadata" : {
+    "handle" : "MULTICABLE-NETWORK-GT-LLC",
+    "description" : "MULTICABLE NETWORK LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.168.104.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:8040::/32"
     ]
   }

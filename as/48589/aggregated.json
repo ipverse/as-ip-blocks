@@ -1,13 +1,16 @@
 {
-  "asn": 48589,
-  "handle": "TIGER",
-  "description": "Tiger Network Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48589,
+  "metadata" : {
+    "handle" : "TIGER",
+    "description" : "Tiger Network Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "120.30.64.0/18",
       "211.102.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:68c0:5::/48"
     ]
   }

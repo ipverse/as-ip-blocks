@@ -1,9 +1,12 @@
 {
-  "asn": 26190,
-  "handle": "SENTRY",
-  "description": "Sentry Insurance a Mutual Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26190,
+  "metadata" : {
+    "handle" : "SENTRY",
+    "description" : "Sentry Insurance a Mutual Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "157.248.85.0/24",
       "157.248.90.0/23",
       "157.248.92.0/22",
@@ -12,6 +15,6 @@
       "157.248.108.0/22",
       "157.248.124.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

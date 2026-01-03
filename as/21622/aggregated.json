@@ -1,9 +1,12 @@
 {
-  "asn": 21622,
-  "handle": "PR-NEWSWIRE-USA-1",
-  "description": "PR Newswire",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21622,
+  "metadata" : {
+    "handle" : "PR-NEWSWIRE-USA-1",
+    "description" : "PR Newswire",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.236.100.0/24",
       "64.14.144.0/24",
       "65.123.29.0/24",
@@ -16,6 +19,6 @@
       "199.230.28.0/23",
       "206.155.72.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

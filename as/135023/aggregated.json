@@ -1,13 +1,16 @@
 {
-  "asn": 135023,
-  "handle": "MAXCONTROL-AS-AP",
-  "description": "Maximum Control Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135023,
+  "metadata" : {
+    "handle" : "MAXCONTROL-AS-AP",
+    "description" : "Maximum Control Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.206.32.0/22",
       "182.161.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:9740::/32"
     ]
   }

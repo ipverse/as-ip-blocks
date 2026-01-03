@@ -1,9 +1,12 @@
 {
-  "asn": 399226,
-  "handle": "SPEEDFI",
-  "description": "SpeedFI Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399226,
+  "metadata" : {
+    "handle" : "SPEEDFI",
+    "description" : "SpeedFI Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.165.72.0/23",
       "23.171.208.0/24",
       "23.172.8.0/24",
@@ -19,6 +22,6 @@
       "199.241.36.0/22",
       "209.59.254.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

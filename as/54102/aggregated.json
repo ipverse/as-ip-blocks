@@ -1,12 +1,15 @@
 {
-  "asn": 54102,
-  "handle": "FABFIBERNET",
-  "description": "Fabulous Fiber LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54102,
+  "metadata" : {
+    "handle" : "FABFIBERNET",
+    "description" : "Fabulous Fiber LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.81.228.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f841::/36"
     ]
   }

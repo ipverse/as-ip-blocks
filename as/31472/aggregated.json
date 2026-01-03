@@ -1,9 +1,12 @@
 {
-  "asn": 31472,
-  "handle": "VOICEHOST",
-  "description": "VoiceHost Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31472,
+  "metadata" : {
+    "handle" : "VOICEHOST",
+    "description" : "VoiceHost Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.157.48.0/21",
       "84.247.32.0/22",
       "89.35.164.0/22",
@@ -16,7 +19,7 @@
       "185.91.40.0/22",
       "195.206.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:b840::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 54578,
-  "handle": "FIBERCOMM",
-  "description": "FiberComm LC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54578,
+  "metadata" : {
+    "handle" : "FIBERCOMM",
+    "description" : "FiberComm LC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.102.172.0/22",
       "96.63.176.0/20",
       "103.206.84.0/22",
@@ -15,6 +18,6 @@
       "206.223.144.0/22",
       "216.152.240.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

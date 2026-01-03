@@ -1,9 +1,12 @@
 {
-  "asn": 16612,
-  "handle": "NEIT-AS1",
-  "description": "NEIT Services LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16612,
+  "metadata" : {
+    "handle" : "NEIT-AS1",
+    "description" : "NEIT Services LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.59.48.0/20",
       "67.55.242.0/23",
       "67.55.254.0/24",
@@ -12,7 +15,7 @@
       "209.152.65.0/24",
       "216.51.150.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:abc0::/32"
     ]
   }

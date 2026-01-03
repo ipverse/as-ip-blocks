@@ -1,9 +1,12 @@
 {
-  "asn": 21603,
-  "handle": "UNIVERSIDAD-LA-SALLE-AC",
-  "description": "Universidad La Salle AC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21603,
+  "metadata" : {
+    "handle" : "UNIVERSIDAD-LA-SALLE-AC",
+    "description" : "Universidad La Salle AC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.100.202.0/24",
       "200.10.243.0/24",
       "200.13.88.0/21",
@@ -12,6 +15,6 @@
       "200.33.100.0/22",
       "200.33.104.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

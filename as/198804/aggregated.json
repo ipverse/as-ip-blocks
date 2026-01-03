@@ -1,10 +1,13 @@
 {
-  "asn": 198804,
-  "handle": "RISHI-AS",
-  "description": "Rishi Ram Panthee",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 198804,
+  "metadata" : {
+    "handle" : "RISHI-AS",
+    "description" : "Rishi Ram Panthee",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a05:dfc1:2e00::/40",
       "2a0f:b240:7a00::/40"
     ]

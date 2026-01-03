@@ -1,9 +1,12 @@
 {
-  "asn": 6360,
-  "handle": "UNIVHAWAII",
-  "description": "University of Hawaii",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6360,
+  "metadata" : {
+    "handle" : "UNIVHAWAII",
+    "description" : "University of Hawaii",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "128.171.0.0/16",
       "132.160.0.0/17",
       "132.160.128.0/18",
@@ -13,7 +16,7 @@
       "168.105.0.0/16",
       "205.166.205.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f278::/32"
     ]
   }

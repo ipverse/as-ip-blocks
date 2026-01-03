@@ -1,13 +1,16 @@
 {
-  "asn": 13895,
-  "handle": "FIBERCONX",
-  "description": "FiberConX",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13895,
+  "metadata" : {
+    "handle" : "FIBERCONX",
+    "description" : "FiberConX",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.212.36.0/24",
       "199.246.76.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1978:802::/48",
       "2602:fd51::/36"
     ]

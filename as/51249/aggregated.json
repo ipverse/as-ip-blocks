@@ -1,13 +1,16 @@
 {
-  "asn": 51249,
-  "handle": "SILKO-AS",
-  "description": "SIA SILKO serviss",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51249,
+  "metadata" : {
+    "handle" : "SILKO-AS",
+    "description" : "SIA SILKO serviss",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "87.99.71.0/24",
       "91.218.52.0/22",
       "193.169.12.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

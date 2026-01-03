@@ -1,9 +1,12 @@
 {
-  "asn": 7393,
-  "handle": "CYBERCON",
-  "description": "CYBERCON INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7393,
+  "metadata" : {
+    "handle" : "CYBERCON",
+    "description" : "CYBERCON INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.57.213.0/24",
       "5.172.176.0/24",
       "5.172.180.0/24",
@@ -133,7 +136,7 @@
       "213.173.38.0/24",
       "217.119.135.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:c000::/32"
     ]
   }

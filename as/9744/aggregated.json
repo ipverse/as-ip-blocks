@@ -1,14 +1,17 @@
 {
-  "asn": 9744,
-  "handle": "XLC-AS-AP",
-  "description": "XLC GLOBAL Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9744,
+  "metadata" : {
+    "handle" : "XLC-AS-AP",
+    "description" : "XLC GLOBAL Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.127.24.0/22",
       "182.16.62.0/24",
       "203.33.189.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:1a40::/32"
     ]
   }

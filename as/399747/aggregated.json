@@ -1,12 +1,15 @@
 {
-  "asn": 399747,
-  "handle": "AMSP-ASN",
-  "description": "Aaron McDaniel Sole Proprietor",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399747,
+  "metadata" : {
+    "handle" : "AMSP-ASN",
+    "description" : "Aaron McDaniel Sole Proprietor",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.181.144.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc6a::/48",
       "2602:fc6a:200::/48",
       "2602:fc6a:210::/48"

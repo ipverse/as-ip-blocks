@@ -1,9 +1,12 @@
 {
-  "asn": 395088,
-  "handle": "CONVERGIA-US",
-  "description": "Convergia inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395088,
+  "metadata" : {
+    "handle" : "CONVERGIA-US",
+    "description" : "Convergia inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.87.226.0/23",
       "65.77.244.0/23",
       "65.124.203.0/24",
@@ -15,6 +18,6 @@
       "206.47.173.0/24",
       "206.47.178.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

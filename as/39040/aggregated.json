@@ -1,12 +1,15 @@
 {
-  "asn": 39040,
-  "handle": "NTSWORKSPACEAG-AS39040",
-  "description": "NTS workspace AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39040,
+  "metadata" : {
+    "handle" : "NTSWORKSPACEAG-AS39040",
+    "description" : "NTS workspace AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.187.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:388::/32"
     ]
   }

@@ -1,16 +1,19 @@
 {
-  "asn": 211007,
-  "handle": "AS-NETZLEIPZIG",
-  "description": "Netz Leipzig GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211007,
+  "metadata" : {
+    "handle" : "AS-NETZLEIPZIG",
+    "description" : "Netz Leipzig GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.208.192.0/24",
       "185.207.244.0/22",
       "185.249.156.0/24",
       "195.85.222.0/24",
       "212.6.40.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:1f40::/29"
     ]
   }

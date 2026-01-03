@@ -1,13 +1,16 @@
 {
-  "asn": 208668,
-  "handle": "NETSPACE-AS",
-  "description": "NetSpace s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208668,
+  "metadata" : {
+    "handle" : "NETSPACE-AS",
+    "description" : "NetSpace s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.169.184.0/21",
       "92.245.24.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:6723::/32"
     ]
   }

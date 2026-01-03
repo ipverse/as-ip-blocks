@@ -1,11 +1,14 @@
 {
-  "asn": 399327,
-  "handle": "CONNECT-MOBILITY",
-  "description": "Connect",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399327,
+  "metadata" : {
+    "handle" : "CONNECT-MOBILITY",
+    "description" : "Connect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "172.99.152.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 58466,
-  "handle": "CT-GUANGZHOU-IDC",
-  "description": "CHINANET Guangdong province network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58466,
+  "metadata" : {
+    "handle" : "CT-GUANGZHOU-IDC",
+    "description" : "CHINANET Guangdong province network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "36.111.32.0/22",
       "42.240.128.0/17",
       "45.116.32.0/22",
@@ -68,7 +71,7 @@
       "203.33.158.0/23",
       "218.245.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:1d40:3100::/47",
       "2401:1d40:3f00::/48",
       "2401:1d40:3f02::/48",

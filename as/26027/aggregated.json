@@ -1,12 +1,15 @@
 {
-  "asn": 26027,
-  "handle": "BDIASN",
-  "description": "Big Dog Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26027,
+  "metadata" : {
+    "handle" : "BDIASN",
+    "description" : "Big Dog Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.193.240.0/22",
       "199.229.244.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

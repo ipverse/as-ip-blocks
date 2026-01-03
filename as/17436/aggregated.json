@@ -1,9 +1,12 @@
 {
-  "asn": 17436,
-  "handle": "ICICIBANK-AS",
-  "description": "ICICI Bank Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17436,
+  "metadata" : {
+    "handle" : "ICICIBANK-AS",
+    "description" : "ICICI Bank Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.60.4.0/23",
       "103.87.40.0/22",
       "103.166.216.0/23",
@@ -14,7 +17,7 @@
       "203.171.210.0/23",
       "203.189.92.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:2fd::/48",
       "2001:df7:f400::/46"
     ]

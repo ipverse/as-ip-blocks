@@ -1,9 +1,12 @@
 {
-  "asn": 55577,
-  "handle": "CABLELITE-AS-AP",
-  "description": "Atria Convergence Technologies Pvt. Ltd.",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55577,
+  "metadata" : {
+    "handle" : "CABLELITE-AS-AP",
+    "description" : "Atria Convergence Technologies Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.112.252.0/22",
       "49.204.0.0/19",
       "49.204.96.0/20",
@@ -65,7 +68,7 @@
       "202.53.10.0/23",
       "202.53.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:b400:17::/48",
       "2406:b400:1a::/47",
       "2406:b400:1c::/46",

@@ -1,13 +1,16 @@
 {
-  "asn": 35779,
-  "handle": "MCLOUD-AS",
-  "description": "mCloud doo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35779,
+  "metadata" : {
+    "handle" : "MCLOUD-AS",
+    "description" : "mCloud doo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "188.93.124.0/22",
       "194.146.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:de80::/29"
     ]
   }

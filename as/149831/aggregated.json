@@ -1,11 +1,14 @@
 {
-  "asn": 149831,
-  "handle": "FNBNETWORK-AS-AP",
-  "description": "FNB Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 149831,
+  "metadata" : {
+    "handle" : "FNBNETWORK-AS-AP",
+    "description" : "FNB Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.187.124.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

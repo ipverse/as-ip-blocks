@@ -1,9 +1,12 @@
 {
-  "asn": 208328,
-  "handle": "L2N",
-  "description": "Luigi Labate",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208328,
+  "metadata" : {
+    "handle" : "L2N",
+    "description" : "Luigi Labate",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.133.119.0/24",
       "82.22.2.0/24",
       "85.155.148.0/23",
@@ -11,7 +14,7 @@
       "194.36.26.0/24",
       "194.56.224.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:9f42::/32",
       "2a0d:b287:ec00::/40",
       "2a0d:b287:ee00::/40"

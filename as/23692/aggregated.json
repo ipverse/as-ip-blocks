@@ -1,12 +1,15 @@
 {
-  "asn": 23692,
-  "handle": "ER-ID-AS",
-  "description": "Estiko Ramanda AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23692,
+  "metadata" : {
+    "handle" : "ER-ID-AS",
+    "description" : "Estiko Ramanda AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.81.34.0/23",
       "202.81.36.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

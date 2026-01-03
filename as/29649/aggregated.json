@@ -1,16 +1,19 @@
 {
-  "asn": 29649,
-  "handle": "LIMES-AS",
-  "description": "Limes sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29649,
+  "metadata" : {
+    "handle" : "LIMES-AS",
+    "description" : "Limes sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.206.0.0/18",
       "188.252.0.0/17",
       "193.107.212.0/22",
       "193.110.228.0/22",
       "195.64.150.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:9300::/32"
     ]
   }

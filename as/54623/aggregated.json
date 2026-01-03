@@ -1,9 +1,12 @@
 {
-  "asn": 54623,
-  "handle": "ONE-INTERNET-AMERICA",
-  "description": "One Internet America LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54623,
+  "metadata" : {
+    "handle" : "ONE-INTERNET-AMERICA",
+    "description" : "One Internet America LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.23.241.0/24",
       "23.166.128.0/24",
       "38.91.105.0/24",
@@ -11,6 +14,6 @@
       "172.83.136.0/21",
       "172.102.240.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

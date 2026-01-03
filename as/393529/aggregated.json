@@ -1,12 +1,15 @@
 {
-  "asn": 393529,
-  "handle": "VUMC",
-  "description": "Vanderbilt University Medical Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393529,
+  "metadata" : {
+    "handle" : "VUMC",
+    "description" : "Vanderbilt University Medical Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.129.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:4e:a000::/48"
     ]
   }

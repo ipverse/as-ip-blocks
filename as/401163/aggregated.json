@@ -1,9 +1,12 @@
 {
-  "asn": 401163,
-  "handle": "ACGNODE",
-  "description": "ACGNODE INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401163,
+  "metadata" : {
+    "handle" : "ACGNODE",
+    "description" : "ACGNODE INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.128.219.0/24",
       "61.97.249.0/24",
       "103.86.84.0/24",
@@ -14,7 +17,7 @@
       "103.140.220.0/24",
       "112.196.203.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:d900::/30"
     ]
   }

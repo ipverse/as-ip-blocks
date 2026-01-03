@@ -1,12 +1,15 @@
 {
-  "asn": 64424,
-  "handle": "ASN-NETSECURITY",
-  "description": "NETSECURITY AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64424,
+  "metadata" : {
+    "handle" : "ASN-NETSECURITY",
+    "description" : "NETSECURITY AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.97.192.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:774::/48"
     ]
   }

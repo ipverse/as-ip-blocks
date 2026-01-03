@@ -1,12 +1,15 @@
 {
-  "asn": 58207,
-  "handle": "POLYUS-AS",
-  "description": "JSC Polyus Krasnoyarsk",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58207,
+  "metadata" : {
+    "handle" : "POLYUS-AS",
+    "description" : "JSC Polyus Krasnoyarsk",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.129.124.0/24",
       "195.16.93.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

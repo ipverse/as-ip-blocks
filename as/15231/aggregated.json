@@ -1,12 +1,15 @@
 {
-  "asn": 15231,
-  "handle": "STARNOVA-LLC",
-  "description": "Starnova LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15231,
+  "metadata" : {
+    "handle" : "STARNOVA-LLC",
+    "description" : "Starnova LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.82.184.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:ff67::/36"
     ]
   }

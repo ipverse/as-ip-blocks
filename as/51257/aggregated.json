@@ -1,12 +1,15 @@
 {
-  "asn": 51257,
-  "handle": "CERIZ",
-  "description": "CERIZ SASU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51257,
+  "metadata" : {
+    "handle" : "CERIZ",
+    "description" : "CERIZ SASU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "171.22.146.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:d80::/29"
     ]
   }

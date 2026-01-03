@@ -1,9 +1,12 @@
 {
-  "asn": 8681,
-  "handle": "JT",
-  "description": "JT (Jersey) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8681,
+  "metadata" : {
+    "handle" : "JT",
+    "description" : "JT (Jersey) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.35.160.0/21",
       "31.129.125.0/24",
       "31.186.112.0/21",
@@ -40,7 +43,7 @@
       "209.251.252.0/23",
       "212.9.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:c28::/29",
       "2a04:6b40::/29"
     ]

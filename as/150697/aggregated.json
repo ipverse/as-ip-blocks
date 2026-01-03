@@ -1,13 +1,16 @@
 {
-  "asn": 150697,
-  "handle": "SNFIBER-AS-AP",
-  "description": "S N FIBER",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150697,
+  "metadata" : {
+    "handle" : "SNFIBER-AS-AP",
+    "description" : "S N FIBER",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.117.104.0/24",
       "103.59.216.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:bac0::/48"
     ]
   }

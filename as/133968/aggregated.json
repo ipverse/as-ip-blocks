@@ -1,14 +1,17 @@
 {
-  "asn": 133968,
-  "handle": "LOGON-AS-IN",
-  "description": "Logon Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133968,
+  "metadata" : {
+    "handle" : "LOGON-AS-IN",
+    "description" : "Logon Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.133.168.0/22",
       "103.158.244.0/23",
       "103.203.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:100::/48"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 64432,
-  "handle": "VARITI-AS",
-  "description": "Variti+ LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64432,
+  "metadata" : {
+    "handle" : "VARITI-AS",
+    "description" : "Variti+ LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.165.120.0/24",
       "185.165.122.0/23",
       "185.203.74.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:e00::/48"
     ]
   }

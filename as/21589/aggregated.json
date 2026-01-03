@@ -1,9 +1,12 @@
 {
-  "asn": 21589,
-  "handle": "CSJ-INTERNET",
-  "description": "City of San Jose",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21589,
+  "metadata" : {
+    "handle" : "CSJ-INTERNET",
+    "description" : "City of San Jose",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "156.39.0.0/22",
       "156.39.5.0/24",
       "156.39.10.0/23",
@@ -22,7 +25,7 @@
       "156.39.131.0/24",
       "156.39.160.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:470:f0::/48"
     ]
   }

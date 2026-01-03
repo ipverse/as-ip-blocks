@@ -1,12 +1,15 @@
 {
-  "asn": 32898,
-  "handle": "NTS-ALBUQUERQUE-01",
-  "description": "Vexus Fiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32898,
+  "metadata" : {
+    "handle" : "NTS-ALBUQUERQUE-01",
+    "description" : "Vexus Fiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.158.184.0/21",
       "38.172.82.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,14 +1,17 @@
 {
-  "asn": 21666,
-  "handle": "OSF-ASN-01",
-  "description": "OSF Healthcare System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21666,
+  "metadata" : {
+    "handle" : "OSF-ASN-01",
+    "description" : "OSF Healthcare System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.65.207.0/24",
       "38.131.231.0/24",
       "198.246.176.0/24",
       "204.238.189.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

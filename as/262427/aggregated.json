@@ -1,9 +1,12 @@
 {
-  "asn": 262427,
-  "handle": "INVISTA-NET-PROVEDOR",
-  "description": "Invista Net Provedor de Acesso Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262427,
+  "metadata" : {
+    "handle" : "INVISTA-NET-PROVEDOR",
+    "description" : "Invista Net Provedor de Acesso Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.99.48.0/22",
       "143.202.28.0/22",
       "168.228.172.0/22",
@@ -11,7 +14,7 @@
       "177.39.152.0/22",
       "177.71.24.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:448::/32"
     ]
   }

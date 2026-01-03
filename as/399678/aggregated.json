@@ -1,9 +1,12 @@
 {
-  "asn": 399678,
-  "handle": "CARRIER-AMER",
-  "description": "Carrier Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399678,
+  "metadata" : {
+    "handle" : "CARRIER-AMER",
+    "description" : "Carrier Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "161.145.48.0/23",
       "161.145.96.0/23",
       "161.145.133.0/24",
@@ -11,6 +14,6 @@
       "161.145.172.0/22",
       "161.145.246.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

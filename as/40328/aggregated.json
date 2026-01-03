@@ -1,15 +1,18 @@
 {
-  "asn": 40328,
-  "handle": "ACENTEK-MN",
-  "description": "AcenTek",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40328,
+  "metadata" : {
+    "handle" : "ACENTEK-MN",
+    "description" : "AcenTek",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "108.59.96.0/20",
       "162.249.96.0/21",
       "205.185.128.0/19",
       "208.74.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:ec00:1000::/36",
       "2606:ec00:a100::/40"
     ]

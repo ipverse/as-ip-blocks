@@ -1,9 +1,12 @@
 {
-  "asn": 25,
-  "handle": "UCB",
-  "description": "University of California at Berkeley",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25,
+  "metadata" : {
+    "handle" : "UCB",
+    "description" : "University of California at Berkeley",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.21.36.0/24",
       "128.32.0.0/16",
       "136.152.0.0/16",
@@ -16,7 +19,7 @@
       "192.154.6.0/24",
       "208.68.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f140::/32"
     ]
   }

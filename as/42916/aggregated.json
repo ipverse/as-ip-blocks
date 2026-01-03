@@ -1,14 +1,17 @@
 {
-  "asn": 42916,
-  "handle": "IT-AS",
-  "description": "IT Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42916,
+  "metadata" : {
+    "handle" : "IT-AS",
+    "description" : "IT Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.193.236.0/22",
       "91.195.204.0/23",
       "91.201.252.0/22",
       "91.238.98.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

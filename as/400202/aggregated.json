@@ -1,9 +1,12 @@
 {
-  "asn": 400202,
-  "handle": "MUNICIPALITY-PICTOUCOUNTY-NS-CA",
-  "description": "Municipality of the County of Pictou",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400202,
+  "metadata" : {
+    "handle" : "MUNICIPALITY-PICTOUCOUNTY-NS-CA",
+    "description" : "Municipality of the County of Pictou",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.128.232.0/24",
       "66.92.209.0/24",
       "66.92.210.0/23",
@@ -11,6 +14,6 @@
       "66.92.217.0/24",
       "170.39.236.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

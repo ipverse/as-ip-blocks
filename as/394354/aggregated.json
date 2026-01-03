@@ -1,9 +1,12 @@
 {
-  "asn": 394354,
-  "handle": "CIRA-CLOUD2",
-  "description": "CIRA Canadian Internet Registration Authority Autorit Canadienne pour les enregistrements Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394354,
+  "metadata" : {
+    "handle" : "CIRA-CLOUD2",
+    "description" : "CIRA Canadian Internet Registration Authority Autorit Canadienne pour les enregistrements Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.112.127.0/24",
       "149.112.161.0/24",
       "162.219.49.0/24",
@@ -12,7 +15,7 @@
       "185.159.196.0/24",
       "185.159.198.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:10a:8017::/48",
       "2620:10a:8018::/46",
       "2620:10a:801e::/48",

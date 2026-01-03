@@ -1,12 +1,15 @@
 {
-  "asn": 134260,
-  "handle": "ZERONE-AS-IN",
-  "description": "ZERONE Networks pvt ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134260,
+  "metadata" : {
+    "handle" : "ZERONE-AS-IN",
+    "description" : "ZERONE Networks pvt ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.197.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:f600::/48"
     ]
   }

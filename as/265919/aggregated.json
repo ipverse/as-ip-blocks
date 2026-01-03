@@ -1,9 +1,12 @@
 {
-  "asn": 265919,
-  "handle": "BB-HOST",
-  "description": "BB Host LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265919,
+  "metadata" : {
+    "handle" : "BB-HOST",
+    "description" : "BB Host LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.89.30.0/24",
       "45.146.81.0/24",
       "45.149.153.0/24",
@@ -19,7 +22,7 @@
       "191.96.81.0/24",
       "212.18.114.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3fd8::/32"
     ]
   }

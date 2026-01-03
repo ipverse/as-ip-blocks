@@ -1,9 +1,12 @@
 {
-  "asn": 36511,
-  "handle": "NETDT-GUA",
-  "description": "Dauphin Telecom Guadeloupe",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36511,
+  "metadata" : {
+    "handle" : "NETDT-GUA",
+    "description" : "Dauphin Telecom Guadeloupe",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.116.92.0/23",
       "74.116.94.0/24",
       "137.83.76.0/24",
@@ -18,7 +21,7 @@
       "216.230.17.0/24",
       "216.230.19.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:2480::/32"
     ]
   }

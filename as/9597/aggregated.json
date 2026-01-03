@@ -1,9 +1,12 @@
 {
-  "asn": 9597,
-  "handle": "CPI-NET",
-  "description": "KDDI Web Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9597,
+  "metadata" : {
+    "handle" : "CPI-NET",
+    "description" : "KDDI Web Communications Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.34.128.0/19",
       "27.34.160.0/21",
       "103.197.12.0/22",
@@ -25,7 +28,7 @@
       "211.9.192.0/19",
       "219.100.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:3d00::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 7540,
-  "handle": "HKCIX-AS-AP",
-  "description": "IXTech Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7540,
+  "metadata" : {
+    "handle" : "HKCIX-AS-AP",
+    "description" : "IXTech Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.79.92.0/22",
       "117.18.96.0/24",
       "117.18.98.0/24",
@@ -43,6 +46,6 @@
       "202.181.224.0/20",
       "202.181.240.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

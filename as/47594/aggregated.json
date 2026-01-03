@@ -1,14 +1,17 @@
 {
-  "asn": 47594,
-  "handle": "NETCOMLINK-AS",
-  "description": "LC COMLINK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47594,
+  "metadata" : {
+    "handle" : "NETCOMLINK-AS",
+    "description" : "LC COMLINK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.171.1.0/24",
       "213.171.2.0/24",
       "213.171.11.0/24",
       "213.171.13.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

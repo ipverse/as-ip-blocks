@@ -1,14 +1,17 @@
 {
-  "asn": 34694,
-  "handle": "STWW-AS",
-  "description": "Stadtwerke Woergl GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34694,
+  "metadata" : {
+    "handle" : "STWW-AS",
+    "description" : "Stadtwerke Woergl GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.34.16.0/22",
       "83.219.160.0/19",
       "185.106.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:3980::/29"
     ]
   }

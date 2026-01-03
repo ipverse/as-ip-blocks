@@ -1,9 +1,12 @@
 {
-  "asn": 27800,
-  "handle": "DIGICEL-TRINIDAD",
-  "description": "Digicel Trinidad and Tobago Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27800,
+  "metadata" : {
+    "handle" : "DIGICEL-TRINIDAD",
+    "description" : "Digicel Trinidad and Tobago Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.100.36.0/22",
       "161.0.152.0/21",
       "170.82.208.0/22",
@@ -12,7 +15,7 @@
       "181.118.32.0/19",
       "200.7.88.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:1500::/32"
     ]
   }

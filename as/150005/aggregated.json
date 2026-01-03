@@ -1,11 +1,14 @@
 {
-  "asn": 150005,
-  "handle": "MARUF-AS-AP",
-  "description": "Maruf Online BD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150005,
+  "metadata" : {
+    "handle" : "MARUF-AS-AP",
+    "description" : "Maruf Online BD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.190.136.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

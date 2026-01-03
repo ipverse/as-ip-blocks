@@ -1,9 +1,12 @@
 {
-  "asn": 22925,
-  "handle": "ALLIED-TELECOM",
-  "description": "Allied Telecom Group LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22925,
+  "metadata" : {
+    "handle" : "ALLIED-TELECOM",
+    "description" : "Allied Telecom Group LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.208.0.0/18",
       "75.103.224.0/19",
       "107.181.96.0/20",
@@ -26,7 +29,7 @@
       "216.59.96.0/19",
       "216.185.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:f0::/32"
     ]
   }

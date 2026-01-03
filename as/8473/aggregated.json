@@ -1,9 +1,12 @@
 {
-  "asn": 8473,
-  "handle": "BAHNHOF",
-  "description": "Bahnhof AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8473,
+  "metadata" : {
+    "handle" : "BAHNHOF",
+    "description" : "Bahnhof AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.150.192.0/18",
       "37.123.128.0/18",
       "46.59.0.0/17",
@@ -104,7 +107,7 @@
       "217.27.160.0/19",
       "217.31.160.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:648::/48",
       "2001:678:1140::/48",
       "2001:9b0::/29",

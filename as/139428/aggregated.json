@@ -1,14 +1,17 @@
 {
-  "asn": 139428,
-  "handle": "IDNIC-LEXXADATA-AS-ID",
-  "description": "PT.LEXXA DATA INDONUSA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139428,
+  "metadata" : {
+    "handle" : "IDNIC-LEXXADATA-AS-ID",
+    "description" : "PT.LEXXA DATA INDONUSA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.144.146.0/23",
       "103.183.98.0/23",
       "157.20.176.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:c680::/48"
     ]
   }

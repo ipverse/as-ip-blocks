@@ -1,11 +1,14 @@
 {
-  "asn": 138206,
-  "handle": "VTMB-AS-AP",
-  "description": "Bank First",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138206,
+  "metadata" : {
+    "handle" : "VTMB-AS-AP",
+    "description" : "Bank First",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.251.148.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

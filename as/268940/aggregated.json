@@ -1,12 +1,15 @@
 {
-  "asn": 268940,
-  "handle": "KAYROS-LINK",
-  "description": "Kayros Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268940,
+  "metadata" : {
+    "handle" : "KAYROS-LINK",
+    "description" : "Kayros Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "189.39.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5cf0::/32"
     ]
   }

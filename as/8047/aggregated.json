@@ -1,9 +1,12 @@
 {
-  "asn": 8047,
-  "handle": "GCI",
-  "description": "GENERAL COMMUNICATION INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8047,
+  "metadata" : {
+    "handle" : "GCI",
+    "description" : "GENERAL COMMUNICATION INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.237.0.0/16",
       "64.110.28.0/22",
       "65.74.0.0/17",
@@ -25,7 +28,7 @@
       "208.69.196.0/23",
       "209.165.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2610:100::/32"
     ]
   }

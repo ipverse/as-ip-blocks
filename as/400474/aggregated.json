@@ -1,12 +1,15 @@
 {
-  "asn": 400474,
-  "handle": "GHOSTFIBER",
-  "description": "GhostFiber",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400474,
+  "metadata" : {
+    "handle" : "GHOSTFIBER",
+    "description" : "GhostFiber",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.132.168.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fbbf::/36"
     ]
   }

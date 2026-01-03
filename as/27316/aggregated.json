@@ -1,9 +1,12 @@
 {
-  "asn": 27316,
-  "handle": "EICCD",
-  "description": "Eastern Iowa Community College District",
-  "subnets": {
-    "ipv4": [
+  "asn" : 27316,
+  "metadata" : {
+    "handle" : "EICCD",
+    "description" : "Eastern Iowa Community College District",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "205.221.78.0/23",
       "207.165.229.0/24",
       "207.165.238.0/23",
@@ -13,6 +16,6 @@
       "216.159.82.0/24",
       "216.159.176.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

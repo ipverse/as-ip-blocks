@@ -1,12 +1,15 @@
 {
-  "asn": 200600,
-  "handle": "SEZNAM-CZ-DC",
-  "description": "Seznam.cz datova centra s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200600,
+  "metadata" : {
+    "handle" : "SEZNAM-CZ-DC",
+    "description" : "Seznam.cz datova centra s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.101.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:2140::/29"
     ]
   }

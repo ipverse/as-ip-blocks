@@ -1,12 +1,15 @@
 {
-  "asn": 268600,
-  "handle": "GIRONET-PROVEDOR-INTERNET",
-  "description": "GiroNet Provedor de Internet e Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268600,
+  "metadata" : {
+    "handle" : "GIRONET-PROVEDOR-INTERNET",
+    "description" : "GiroNet Provedor de Internet e Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.162.252.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:53b0::/32"
     ]
   }

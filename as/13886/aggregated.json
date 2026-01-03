@@ -1,9 +1,12 @@
 {
-  "asn": 13886,
-  "handle": "CLOUD-SOUTH",
-  "description": "Cloud South",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13886,
+  "metadata" : {
+    "handle" : "CLOUD-SOUTH",
+    "description" : "Cloud South",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.17.115.0/24",
       "8.30.124.0/24",
       "8.38.76.0/22",
@@ -48,6 +51,6 @@
       "199.34.24.0/24",
       "199.189.195.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

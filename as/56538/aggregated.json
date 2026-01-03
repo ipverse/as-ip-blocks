@@ -1,13 +1,16 @@
 {
-  "asn": 56538,
-  "handle": "ASN-NETACCESS",
-  "description": "Blix Group AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56538,
+  "metadata" : {
+    "handle" : "ASN-NETACCESS",
+    "description" : "Blix Group AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.74.216.0/22",
       "163.174.32.0/23",
       "163.174.121.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

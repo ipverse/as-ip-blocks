@@ -1,9 +1,12 @@
 {
-  "asn": 36184,
-  "handle": "VIRTU-FINANCIAL",
-  "description": "Virtu Financial Operating LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36184,
+  "metadata" : {
+    "handle" : "VIRTU-FINANCIAL",
+    "description" : "Virtu Financial Operating LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.119.235.0/24",
       "66.119.236.0/23",
       "205.167.86.0/23",
@@ -18,6 +21,6 @@
       "217.10.230.0/24",
       "217.10.236.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

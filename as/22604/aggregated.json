@@ -1,9 +1,12 @@
 {
-  "asn": 22604,
-  "handle": "DSS-MT",
-  "description": "Disney Streaming Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22604,
+  "metadata" : {
+    "handle" : "DSS-MT",
+    "description" : "Disney Streaming Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "139.104.112.0/24",
       "139.104.209.0/24",
       "139.104.211.0/24",
@@ -13,7 +16,7 @@
       "157.23.232.0/22",
       "157.23.236.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:dc0:8009::/48",
       "2405:dc0:800a::/48",
       "2620:138:3009::/48",

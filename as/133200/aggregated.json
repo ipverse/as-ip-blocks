@@ -1,9 +1,12 @@
 {
-  "asn": 133200,
-  "handle": "NEOCOMISP-AS-AP",
-  "description": "NeocomISP Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133200,
+  "metadata" : {
+    "handle" : "NEOCOMISP-AS-AP",
+    "description" : "NeocomISP Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.23.136.0/24",
       "103.23.138.0/23",
       "103.25.92.0/24",
@@ -28,6 +31,6 @@
       "203.80.162.0/23",
       "203.80.164.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

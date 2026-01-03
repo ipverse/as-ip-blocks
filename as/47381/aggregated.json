@@ -1,9 +1,12 @@
 {
-  "asn": 47381,
-  "handle": "SERVERGARDEN-AS",
-  "description": "Servergarden Kft",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47381,
+  "metadata" : {
+    "handle" : "SERVERGARDEN-AS",
+    "description" : "Servergarden Kft.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.159.232.0/22",
       "80.77.112.0/23",
       "80.77.117.0/24",
@@ -18,7 +21,7 @@
       "193.28.86.0/24",
       "195.5.177.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:950::/32",
       "2a00:c760::/32",
       "2a01:ae20::/32"

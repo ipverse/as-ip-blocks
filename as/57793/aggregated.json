@@ -1,9 +1,12 @@
 {
-  "asn": 57793,
-  "handle": "THIRTEENTEN",
-  "description": "1310 Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57793,
+  "metadata" : {
+    "handle" : "THIRTEENTEN",
+    "description" : "1310 Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.83.168.0/22",
       "91.227.26.0/24",
       "95.131.81.0/24",
@@ -21,7 +24,7 @@
       "193.47.147.0/24",
       "212.18.110.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:ef8::/32",
       "2a05:5240::/29",
       "2a12:8400::/32"

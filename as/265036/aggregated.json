@@ -1,12 +1,15 @@
 {
-  "asn": 265036,
-  "handle": "BMJNET-TELECOM",
-  "description": "BMJnet Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265036,
+  "metadata" : {
+    "handle" : "BMJNET-TELECOM",
+    "description" : "BMJnet Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.150.224.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:31c4::/32"
     ]
   }

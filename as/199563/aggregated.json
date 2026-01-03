@@ -1,9 +1,12 @@
 {
-  "asn": 199563,
-  "handle": "VMS-AS",
-  "description": "Siemens Healthineers AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199563,
+  "metadata" : {
+    "handle" : "VMS-AS",
+    "description" : "Siemens Healthineers AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "132.190.1.0/24",
       "132.190.2.0/23",
       "132.190.5.0/24",
@@ -28,6 +31,6 @@
       "132.190.242.0/24",
       "185.174.107.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

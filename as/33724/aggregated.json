@@ -1,9 +1,12 @@
 {
-  "asn": 33724,
-  "handle": "BIZNESSHOSTING-DBA-VOLICO",
-  "description": "VOLICO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33724,
+  "metadata" : {
+    "handle" : "BIZNESSHOSTING-DBA-VOLICO",
+    "description" : "VOLICO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.6.240.0/23",
       "38.100.193.0/24",
       "38.100.194.0/23",
@@ -30,7 +33,7 @@
       "208.88.120.0/21",
       "208.94.132.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:240:1::/48",
       "2607:f3c8::/32"
     ]

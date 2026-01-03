@@ -1,9 +1,12 @@
 {
-  "asn": 39087,
-  "handle": "PAKT-AS",
-  "description": "P.A.K.T LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39087,
+  "metadata" : {
+    "handle" : "PAKT-AS",
+    "description" : "P.A.K.T LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.8.36.0/22",
       "46.8.6.0/23",
       "79.174.191.0/24",
@@ -20,7 +23,7 @@
       "194.39.101.0/24",
       "217.78.230.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1b78::/29"
     ]
   }

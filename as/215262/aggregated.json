@@ -1,13 +1,16 @@
 {
-  "asn": 215262,
-  "handle": "CLOUDNORD-UKNODE-AS",
-  "description": "Cloud Nord Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215262,
+  "metadata" : {
+    "handle" : "CLOUDNORD-UKNODE-AS",
+    "description" : "Cloud Nord Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.230.54.0/24",
       "212.100.172.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:85c1:d3f::/48"
     ]
   }

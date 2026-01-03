@@ -1,11 +1,14 @@
 {
-  "asn": 135721,
-  "handle": "NETSOL-AS",
-  "description": "Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135721,
+  "metadata" : {
+    "handle" : "NETSOL-AS",
+    "description" : "Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.80.56.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

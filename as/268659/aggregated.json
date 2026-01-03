@@ -1,13 +1,16 @@
 {
-  "asn": 268659,
-  "handle": "D-S-ALVES-SERVICOS-INTERNET",
-  "description": "D. S. ALVES SERVICOS DE INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268659,
+  "metadata" : {
+    "handle" : "D-S-ALVES-SERVICOS-INTERNET",
+    "description" : "D. S. ALVES SERVICOS DE INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.165.64.0/22",
       "45.165.88.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5494::/32"
     ]
   }

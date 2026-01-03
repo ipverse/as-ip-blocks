@@ -1,9 +1,12 @@
 {
-  "asn": 2,
-  "handle": "UDEL-DCN",
-  "description": "University of Delaware",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2,
+  "metadata" : {
+    "handle" : "UDEL-DCN",
+    "description" : "University of Delaware",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.161.25.0/24",
       "91.143.144.0/20",
       "128.4.0.0/16",
@@ -12,6 +15,6 @@
       "186.194.192.0/20",
       "191.240.224.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

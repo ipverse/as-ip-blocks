@@ -1,9 +1,12 @@
 {
-  "asn": 3573,
-  "handle": "ACCENTURE",
-  "description": "Accenture LLP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3573,
+  "metadata" : {
+    "handle" : "ACCENTURE",
+    "description" : "Accenture LLP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.240.184.0/21",
       "144.36.1.0/24",
       "144.36.62.0/24",
@@ -75,7 +78,7 @@
       "204.63.156.0/22",
       "206.18.152.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:3d00::/32",
       "2610:b0::/32",
       "2801:1f0:4002::/47",

@@ -1,9 +1,12 @@
 {
-  "asn": 51659,
-  "handle": "ASBAXET",
-  "description": "LLC Baxet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 51659,
+  "metadata" : {
+    "handle" : "ASBAXET",
+    "description" : "LLC Baxet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.129.2.0/23",
       "45.135.134.0/23",
       "45.136.244.0/23",
@@ -24,7 +27,7 @@
       "195.133.5.0/24",
       "195.133.23.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:b700:1::/48",
       "2a00:b700:5::/48",
       "2a00:b706::/32"

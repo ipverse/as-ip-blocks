@@ -1,11 +1,14 @@
 {
-  "asn": 10025,
-  "handle": "IUSN-AS-AP",
-  "description": "The IUSN Foundation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10025,
+  "metadata" : {
+    "handle" : "IUSN-AS-AP",
+    "description" : "The IUSN Foundation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.59.4.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

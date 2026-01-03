@@ -1,9 +1,12 @@
 {
-  "asn": 4770,
-  "handle": "ICONZ-AS",
-  "description": "INTERNET COMPANY OF NEW ZEALAND LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4770,
+  "metadata" : {
+    "handle" : "ICONZ-AS",
+    "description" : "INTERNET COMPANY OF NEW ZEALAND LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.116.188.0/23",
       "202.14.100.0/24",
       "202.36.36.0/22",
@@ -17,7 +20,7 @@
       "210.56.32.0/20",
       "210.185.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:5d00::/48",
       "2405:6000::/32"
     ]

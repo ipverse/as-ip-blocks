@@ -1,9 +1,12 @@
 {
-  "asn": 151719,
-  "handle": "TACT-AS-IN",
-  "description": "TACT COMMUNICATION PVT LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151719,
+  "metadata" : {
+    "handle" : "TACT-AS-IN",
+    "description" : "TACT COMMUNICATION PVT LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.16.12.0/23",
       "103.16.14.0/24",
       "154.59.92.0/23",
@@ -11,7 +14,7 @@
       "157.20.180.0/23",
       "157.66.118.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:7920::/36",
       "2401:86e0::/36"
     ]

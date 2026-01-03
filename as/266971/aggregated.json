@@ -1,13 +1,16 @@
 {
-  "asn": 266971,
-  "handle": "REDE-MEGAS-INTERNET",
-  "description": "Rede Megas Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266971,
+  "metadata" : {
+    "handle" : "REDE-MEGAS-INTERNET",
+    "description" : "Rede Megas Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.225.9.0/24",
       "45.225.10.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4624::/32"
     ]
   }

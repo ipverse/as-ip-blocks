@@ -1,9 +1,12 @@
 {
-  "asn": 48539,
-  "handle": "BIFROST-SYSTEMS",
-  "description": "Bifrost Systems OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48539,
+  "metadata" : {
+    "handle" : "BIFROST-SYSTEMS",
+    "description" : "Bifrost Systems OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.205.189.0/24",
       "146.19.131.0/24",
       "178.212.137.0/24",
@@ -12,7 +15,7 @@
       "194.63.144.0/24",
       "194.147.218.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a11:6a00::/48",
       "2a12:2780::/48",
       "2a12:8200::/48",

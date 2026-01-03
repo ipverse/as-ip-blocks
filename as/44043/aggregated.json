@@ -1,9 +1,12 @@
 {
-  "asn": 44043,
-  "handle": "CYBER-FOLKS-RO-DC-CLJ",
-  "description": "Cyber-Folks SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44043,
+  "metadata" : {
+    "handle" : "CYBER-FOLKS-RO-DC-CLJ",
+    "description" : "Cyber Folks SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.14.12.0/22",
       "31.14.22.0/23",
       "46.102.249.0/24",
@@ -33,6 +36,6 @@
       "188.241.183.0/24",
       "194.102.218.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

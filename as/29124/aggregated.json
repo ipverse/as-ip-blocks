@@ -1,9 +1,12 @@
 {
-  "asn": 29124,
-  "handle": "ISKRATELECOM-AS",
-  "description": "Iskratelecom JSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29124,
+  "metadata" : {
+    "handle" : "ISKRATELECOM-AS",
+    "description" : "Iskratelecom JSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.31.24.0/21",
       "46.39.224.0/19",
       "62.182.72.0/21",
@@ -31,7 +34,7 @@
       "195.234.56.0/24",
       "213.193.0.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2620::/32"
     ]
   }

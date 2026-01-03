@@ -1,13 +1,16 @@
 {
-  "asn": 30698,
-  "handle": "BOSCH",
-  "description": "Robert Bosch LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30698,
+  "metadata" : {
+    "handle" : "BOSCH",
+    "description" : "Robert Bosch LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "209.221.240.0/20",
       "216.213.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:e740::/32",
       "2620:11c:4000::/40"
     ]

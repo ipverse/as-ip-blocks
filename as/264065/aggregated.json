@@ -1,12 +1,15 @@
 {
-  "asn": 264065,
-  "handle": "WAVETECH-INTERNET",
-  "description": "Wavetech Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264065,
+  "metadata" : {
+    "handle" : "WAVETECH-INTERNET",
+    "description" : "Wavetech Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.202.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2a38::/32"
     ]
   }

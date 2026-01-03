@@ -1,12 +1,15 @@
 {
-  "asn": 266566,
-  "handle": "STAMP-PROVEDOR-INTERNET-TV",
-  "description": "Stamp Provedor de Internet \u0026 TV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266566,
+  "metadata" : {
+    "handle" : "STAMP-PROVEDOR-INTERNET-TV",
+    "description" : "Stamp Provedor de Internet & TV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.65.144.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3df8::/32"
     ]
   }

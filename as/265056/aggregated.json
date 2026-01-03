@@ -1,12 +1,15 @@
 {
-  "asn": 265056,
-  "handle": "NSLINK-PROVEDOR-ACESSO",
-  "description": "NSLink Provedor de acesso internet LTDA-ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265056,
+  "metadata" : {
+    "handle" : "NSLINK-PROVEDOR-ACESSO",
+    "description" : "NSLink Provedor de acesso internet LTDA-ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.231.148.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:321c::/32"
     ]
   }

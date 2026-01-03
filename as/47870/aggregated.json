@@ -1,9 +1,12 @@
 {
-  "asn": 47870,
-  "handle": "SNCR-ASN",
-  "description": "SYNCHRONOSS SOFTWARE IRELAND LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47870,
+  "metadata" : {
+    "handle" : "SNCR-ASN",
+    "description" : "SYNCHRONOSS SOFTWARE IRELAND LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.170.20.0/23",
       "68.170.22.0/24",
       "68.170.25.0/24",
@@ -14,7 +17,7 @@
       "74.116.110.0/24",
       "198.17.50.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:11b:4006::/47",
       "2620:11b:400a::/47",
       "2620:11b:400c::/48",

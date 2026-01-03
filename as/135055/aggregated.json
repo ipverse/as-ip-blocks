@@ -1,14 +1,17 @@
 {
-  "asn": 135055,
-  "handle": "RAFINESATELITE-AS-AP",
-  "description": "Rafine Satelite",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135055,
+  "metadata" : {
+    "handle" : "RAFINESATELITE-AS-AP",
+    "description" : "Rafine Satelite",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.18.180.0/24",
       "103.107.38.0/24",
       "103.107.40.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:eac0::/32"
     ]
   }

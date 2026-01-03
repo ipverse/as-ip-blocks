@@ -1,12 +1,15 @@
 {
-  "asn": 3323,
-  "handle": "NTUA",
-  "description": "National Technical University of Athens",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3323,
+  "metadata" : {
+    "handle" : "NTUA",
+    "description" : "National Technical University of Athens",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.102.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:648:2000::/48"
     ]
   }

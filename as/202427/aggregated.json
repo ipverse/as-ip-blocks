@@ -1,10 +1,13 @@
 {
-  "asn": 202427,
-  "handle": "FILLI-AS",
-  "description": "Ursin Filli",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 202427,
+  "metadata" : {
+    "handle" : "FILLI-AS",
+    "description" : "Ursin Filli",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a06:a005:28e0::/48",
       "2a06:a005:28e2::/47",
       "2a06:a005:28e4::/48",

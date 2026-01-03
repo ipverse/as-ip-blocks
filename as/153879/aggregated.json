@@ -1,11 +1,14 @@
 {
-  "asn": 153879,
-  "handle": "HOMELINK-AS-AP",
-  "description": "Home Link",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153879,
+  "metadata" : {
+    "handle" : "HOMELINK-AS-AP",
+    "description" : "Home Link",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.99.35.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

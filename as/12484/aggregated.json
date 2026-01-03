@@ -1,12 +1,15 @@
 {
-  "asn": 12484,
-  "handle": "BORISLTD-AS",
-  "description": "Boris Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12484,
+  "metadata" : {
+    "handle" : "BORISLTD-AS",
+    "description" : "Boris Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "176.107.200.0/21",
       "178.217.120.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

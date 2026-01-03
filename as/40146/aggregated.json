@@ -1,14 +1,17 @@
 {
-  "asn": 40146,
-  "handle": "RTCONN-LAS",
-  "description": "Right Connection Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40146,
+  "metadata" : {
+    "handle" : "RTCONN-LAS",
+    "description" : "Right Connection Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.166.110.0/24",
       "163.123.160.0/23",
       "163.123.163.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fc91:100::/48",
       "2602:fc91:160::/47"
     ]

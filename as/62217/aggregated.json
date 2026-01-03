@@ -1,9 +1,12 @@
 {
-  "asn": 62217,
-  "handle": "VOOSERVERS",
-  "description": "Vinters IT Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62217,
+  "metadata" : {
+    "handle" : "VOOSERVERS",
+    "description" : "Vinters IT Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "82.22.33.0/24",
       "91.212.182.0/24",
       "91.216.93.0/24",
@@ -16,7 +19,7 @@
       "195.60.164.0/23",
       "204.10.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2e68::/47",
       "2605:45c0::/35",
       "2607:6980::/43",

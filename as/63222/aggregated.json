@@ -1,13 +1,16 @@
 {
-  "asn": 63222,
-  "handle": "CARNIVALCORP-ASN1",
-  "description": "Carnival Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63222,
+  "metadata" : {
+    "handle" : "CARNIVALCORP-ASN1",
+    "description" : "Carnival Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "151.124.32.0/21",
       "151.124.40.0/24",
       "151.124.160.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

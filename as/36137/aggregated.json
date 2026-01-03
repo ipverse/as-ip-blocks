@@ -1,9 +1,12 @@
 {
-  "asn": 36137,
-  "handle": "PEG-FR",
-  "description": "PEG TECH INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36137,
+  "metadata" : {
+    "handle" : "PEG-FR",
+    "description" : "PEG TECH INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.177.216.0/22",
       "103.17.201.0/24",
       "103.17.202.0/23",
@@ -18,7 +21,7 @@
       "116.204.166.0/24",
       "192.144.78.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:bc04::/48",
       "2600:bc04:2::/48"
     ]

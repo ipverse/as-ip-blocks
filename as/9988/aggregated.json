@@ -1,9 +1,12 @@
 {
-  "asn": 9988,
-  "handle": "MPT-AP",
-  "description": "Myanma Post \u0026 Telecommunication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9988,
+  "metadata" : {
+    "handle" : "MPT-AP",
+    "description" : "Myanma Post & Telecommunication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.224.40.0/22",
       "45.41.100.0/22",
       "45.41.104.0/21",
@@ -16,7 +19,7 @@
       "136.228.160.0/20",
       "203.81.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:f200::/32"
     ]
   }

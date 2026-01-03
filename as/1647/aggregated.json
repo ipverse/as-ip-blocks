@@ -1,14 +1,17 @@
 {
-  "asn": 1647,
-  "handle": "INTEROP-AS",
-  "description": "Interop Technologies",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1647,
+  "metadata" : {
+    "handle" : "INTEROP-AS",
+    "description" : "Interop Technologies",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.172.54.0/24",
       "74.112.57.0/24",
       "170.55.29.0/24",
       "208.27.104.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

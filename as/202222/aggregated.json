@@ -1,10 +1,13 @@
 {
-  "asn": 202222,
-  "handle": "JOAN-CIRER",
-  "description": "Joan Cirer Capo",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 202222,
+  "metadata" : {
+    "handle" : "JOAN-CIRER",
+    "description" : "Joan Cirer Capo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a06:a005:d2c::/48",
       "2a0e:b107:1ea0::/44"
     ]

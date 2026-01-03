@@ -1,13 +1,16 @@
 {
-  "asn": 13580,
-  "handle": "SOUTHERN-NETWORK-SERVICES",
-  "description": "Parish Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13580,
+  "metadata" : {
+    "handle" : "SOUTHERN-NETWORK-SERVICES",
+    "description" : "Parish Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.193.64.0/24",
       "162.219.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:a6c0::/32"
     ]
   }

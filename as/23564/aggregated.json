@@ -1,12 +1,15 @@
 {
-  "asn": 23564,
-  "handle": "CITIBANKKOREA-AS",
-  "description": "Citibank Korea",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23564,
+  "metadata" : {
+    "handle" : "CITIBANKKOREA-AS",
+    "description" : "Citibank Korea",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.193.189.0/24",
       "192.193.190.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

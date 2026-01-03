@@ -1,12 +1,15 @@
 {
-  "asn": 328950,
-  "handle": "GTL4-AS",
-  "description": "Green Telecom Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328950,
+  "metadata" : {
+    "handle" : "GTL4-AS",
+    "description" : "Green Telecom Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.218.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:700::/32"
     ]
   }

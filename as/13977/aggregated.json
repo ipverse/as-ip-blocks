@@ -1,9 +1,12 @@
 {
-  "asn": 13977,
-  "handle": "CTELCO",
-  "description": "Fidium",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13977,
+  "metadata" : {
+    "handle" : "CTELCO",
+    "description" : "Fidium",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.147.211.0/24",
       "64.222.64.0/21",
       "64.222.72.0/23",
@@ -184,7 +187,7 @@
       "216.227.77.0/24",
       "216.227.84.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:6e00::/32",
       "2620:2a:c000::/48"
     ]

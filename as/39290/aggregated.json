@@ -1,9 +1,12 @@
 {
-  "asn": 39290,
-  "handle": "MGI-DE-AS",
-  "description": "METRO Digital GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39290,
+  "metadata" : {
+    "handle" : "MGI-DE-AS",
+    "description" : "METRO Digital GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.61.168.0/21",
       "164.139.12.0/22",
       "164.139.32.0/20",
@@ -14,7 +17,7 @@
       "194.156.48.0/21",
       "194.156.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4d20:8000::/33"
     ]
   }

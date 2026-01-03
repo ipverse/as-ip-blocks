@@ -1,9 +1,12 @@
 {
-  "asn": 996,
-  "handle": "JY-MOBILE-COMMUNICATIONS",
-  "description": "JY Mobile Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 996,
+  "metadata" : {
+    "handle" : "JY-MOBILE-COMMUNICATIONS",
+    "description" : "JY Mobile Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.111.119.0/24",
       "82.24.0.0/22",
       "89.28.200.0/23",
@@ -22,7 +25,7 @@
       "195.78.57.0/24",
       "217.77.16.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:ba03::/32",
       "2a0b:d503::/32",
       "2a0b:d504::/31"

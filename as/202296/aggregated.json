@@ -1,9 +1,12 @@
 {
-  "asn": 202296,
-  "handle": "MICROGROUP",
-  "description": "MicroGroup Europe AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202296,
+  "metadata" : {
+    "handle" : "MICROGROUP",
+    "description" : "MicroGroup Europe AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "78.31.192.0/22",
       "192.71.145.0/24",
       "192.71.146.0/23",
@@ -31,6 +34,6 @@
       "194.132.165.0/24",
       "194.132.210.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

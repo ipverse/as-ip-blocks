@@ -1,11 +1,14 @@
 {
-  "asn": 61160,
-  "handle": "ASN-VATLIB",
-  "description": "Biblioteca Apostolica Vaticana",
-  "subnets": {
-    "ipv4": [
+  "asn" : 61160,
+  "metadata" : {
+    "handle" : "ASN-VATLIB",
+    "description" : "Biblioteca Apostolica Vaticana",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.43.102.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

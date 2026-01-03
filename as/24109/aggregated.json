@@ -1,9 +1,12 @@
 {
-  "asn": 24109,
-  "handle": "WNSNET",
-  "description": "WNS Global Services Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24109,
+  "metadata" : {
+    "handle" : "WNSNET",
+    "description" : "WNS Global Services Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.120.172.0/23",
       "45.120.174.0/24",
       "103.60.246.0/23",
@@ -14,6 +17,6 @@
       "202.58.132.0/23",
       "202.58.134.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

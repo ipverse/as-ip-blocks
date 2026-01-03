@@ -1,13 +1,16 @@
 {
-  "asn": 8660,
-  "handle": "MATRIX-AS",
-  "description": "Italiaonline S.p.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8660,
+  "metadata" : {
+    "handle" : "MATRIX-AS",
+    "description" : "Italiaonline S.p.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.93.64.0/20",
       "212.48.0.0/19",
       "213.209.0.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

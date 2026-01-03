@@ -1,13 +1,16 @@
 {
-  "asn": 210206,
-  "handle": "METROSECURITY-AS",
-  "description": "Metro Security (GB) PLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210206,
+  "metadata" : {
+    "handle" : "METROSECURITY-AS",
+    "description" : "Metro Security (GB) PLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.5.4.0/23",
       "194.5.7.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:7ac0::/29"
     ]
   }

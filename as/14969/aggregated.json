@@ -1,9 +1,12 @@
 {
-  "asn": 14969,
-  "handle": "JANE-STREET",
-  "description": "JANE STREET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14969,
+  "metadata" : {
+    "handle" : "JANE-STREET",
+    "description" : "JANE STREET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.105.200.0/24",
       "64.215.233.0/24",
       "83.126.61.0/24",
@@ -15,6 +18,6 @@
       "210.57.21.0/24",
       "210.57.63.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

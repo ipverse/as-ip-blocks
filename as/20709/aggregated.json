@@ -1,12 +1,15 @@
 {
-  "asn": 20709,
-  "handle": "TICOM-AS",
-  "description": "Techinform Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20709,
+  "metadata" : {
+    "handle" : "TICOM-AS",
+    "description" : "Techinform Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.17.137.0/24",
       "81.17.143.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

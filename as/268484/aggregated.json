@@ -1,12 +1,15 @@
 {
-  "asn": 268484,
-  "handle": "AIRNET-INTERNET-TELECOM",
-  "description": "AIRNET INTERNET TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268484,
+  "metadata" : {
+    "handle" : "AIRNET-INTERNET-TELECOM",
+    "description" : "AIRNET INTERNET TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.161.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:51e8::/40",
       "2804:51e8:200::/39"
     ]

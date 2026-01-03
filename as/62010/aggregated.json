@@ -1,9 +1,12 @@
 {
-  "asn": 62010,
-  "handle": "THREEDATA-AS",
-  "description": "3DATA LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62010,
+  "metadata" : {
+    "handle" : "THREEDATA-AS",
+    "description" : "3DATA LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.8.110.0/24",
       "46.243.174.0/24",
       "91.208.136.0/24",
@@ -13,6 +16,6 @@
       "188.72.78.0/24",
       "195.128.158.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

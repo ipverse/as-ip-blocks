@@ -1,9 +1,12 @@
 {
-  "asn": 26725,
-  "handle": "LCOM-NET",
-  "description": "Liberty Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26725,
+  "metadata" : {
+    "handle" : "LCOM-NET",
+    "description" : "Liberty Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.93.184.0/21",
       "63.170.122.0/24",
       "65.160.50.0/24",
@@ -16,6 +19,6 @@
       "208.68.112.0/21",
       "208.95.64.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

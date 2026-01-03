@@ -1,15 +1,18 @@
 {
-  "asn": 140072,
-  "handle": "FWCPL-AS-AP",
-  "description": "Fiberworld Communication Pvt.ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140072,
+  "metadata" : {
+    "handle" : "FWCPL-AS-AP",
+    "description" : "Fiberworld Communication Pvt.ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.86.70.0/23",
       "103.148.22.0/23",
       "103.166.172.0/23",
       "103.167.228.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:c840::/32",
       "2407:59c0::/32"
     ]

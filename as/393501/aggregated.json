@@ -1,12 +1,15 @@
 {
-  "asn": 393501,
-  "handle": "JCC-13-AS",
-  "description": "JCC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393501,
+  "metadata" : {
+    "handle" : "JCC-13-AS",
+    "description" : "JCC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.84.218.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:c0:c000::/44"
     ]
   }

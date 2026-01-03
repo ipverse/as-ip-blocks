@@ -1,12 +1,15 @@
 {
-  "asn": 132161,
-  "handle": "VGRID-AS-AP",
-  "description": "vGRID Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132161,
+  "metadata" : {
+    "handle" : "VGRID-AS-AP",
+    "description" : "vGRID Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.14.216.0/22",
       "203.190.208.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

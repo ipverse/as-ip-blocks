@@ -1,13 +1,16 @@
 {
-  "asn": 151413,
-  "handle": "DLBGROUPPTYLTD-AS-AP",
-  "description": "dlbNetworks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151413,
+  "metadata" : {
+    "handle" : "DLBGROUPPTYLTD-AS-AP",
+    "description" : "dlbNetworks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.149.218.0/24",
       "163.223.212.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:9940::/48"
     ]
   }

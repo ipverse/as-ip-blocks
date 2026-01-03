@@ -1,15 +1,18 @@
 {
-  "asn": 53620,
-  "handle": "PINTEREST",
-  "description": "Pinterest Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53620,
+  "metadata" : {
+    "handle" : "PINTEREST",
+    "description" : "Pinterest Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.193.89.0/24",
       "141.193.91.0/24",
       "192.34.198.0/24",
       "192.94.66.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:128:1004::/48",
       "2620:128:1008::/48"
     ]

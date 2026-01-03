@@ -1,16 +1,19 @@
 {
-  "asn": 132563,
-  "handle": "MEGAHOSTZONE-AS-IN",
-  "description": "MegaHostZone",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132563,
+  "metadata" : {
+    "handle" : "MEGAHOSTZONE-AS-IN",
+    "description" : "MegaHostZone",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.64.216.0/22",
       "103.16.100.0/24",
       "103.168.64.0/23",
       "103.252.44.0/23",
       "103.252.46.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:b900::/48"
     ]
   }

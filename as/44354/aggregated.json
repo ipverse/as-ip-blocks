@@ -1,12 +1,15 @@
 {
-  "asn": 44354,
-  "handle": "BROCK",
-  "description": "BROCK VOJKOVIC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44354,
+  "metadata" : {
+    "handle" : "BROCK",
+    "description" : "BROCK VOJKOVIC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.30.31.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:7c0:4b00::/42",
       "2a14:7c0:4b40::/43"
     ]

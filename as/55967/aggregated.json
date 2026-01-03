@@ -1,9 +1,12 @@
 {
-  "asn": 55967,
-  "handle": "BAIDU",
-  "description": "Beijing Baidu Netcom Science and Technology Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55967,
+  "metadata" : {
+    "handle" : "BAIDU",
+    "description" : "Beijing Baidu Netcom Science and Technology Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.113.192.0/23",
       "45.113.194.0/24",
       "103.235.44.0/22",
@@ -20,7 +23,7 @@
       "185.10.104.0/24",
       "202.46.48.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:2b40:7000::/36",
       "2402:2b40:8000::/36"
     ]

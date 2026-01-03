@@ -1,9 +1,12 @@
 {
-  "asn": 203417,
-  "handle": "LHPL",
-  "description": "LH.pl Sp. z o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203417,
+  "metadata" : {
+    "handle" : "LHPL",
+    "description" : "LH.pl Sp. z o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.252.228.0/22",
       "62.122.190.0/24",
       "94.154.117.0/24",
@@ -11,7 +14,7 @@
       "185.135.88.0/22",
       "195.2.222.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:f200::/29"
     ]
   }

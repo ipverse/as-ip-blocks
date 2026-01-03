@@ -1,9 +1,12 @@
 {
-  "asn": 8386,
-  "handle": "KOCNET",
-  "description": "Vodafone Net Iletisim Hizmetler AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8386,
+  "metadata" : {
+    "handle" : "KOCNET",
+    "description" : "Vodafone Net Iletisim Hizmetler AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.145.196.0/22",
       "31.145.208.0/23",
       "31.145.212.0/22",
@@ -222,7 +225,7 @@
       "213.248.186.0/23",
       "213.248.188.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:930:102::/48",
       "2001:930:107::/48",
       "2001:930:108::/48",

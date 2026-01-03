@@ -1,9 +1,12 @@
 {
-  "asn": 6421,
-  "handle": "AS6421",
-  "description": "TATA COMMUNICATIONS (AMERICA) INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6421,
+  "metadata" : {
+    "handle" : "AS6421",
+    "description" : "TATA COMMUNICATIONS (AMERICA) INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.141.246.0/24",
       "59.164.76.0/23",
       "103.16.252.0/22",
@@ -35,7 +38,7 @@
       "202.183.76.0/23",
       "202.183.79.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:2001:100::/48"
     ]
   }

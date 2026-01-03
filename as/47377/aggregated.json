@@ -1,9 +1,12 @@
 {
-  "asn": 47377,
-  "handle": "ORANGE-BELGIUM-SA",
-  "description": "Orange Belgium SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47377,
+  "metadata" : {
+    "handle" : "ORANGE-BELGIUM-SA",
+    "description" : "Orange Belgium SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.93.164.0/23",
       "45.144.128.0/22",
       "45.150.116.0/22",
@@ -31,7 +34,7 @@
       "212.124.94.0/23",
       "212.224.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:c780::/32",
       "2a01:caa0::/32",
       "2a01:cc00::/32",

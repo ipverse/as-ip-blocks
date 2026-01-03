@@ -1,14 +1,17 @@
 {
-  "asn": 400702,
-  "handle": "AS-INVERDIGM",
-  "description": "Inverdigm Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400702,
+  "metadata" : {
+    "handle" : "AS-INVERDIGM",
+    "description" : "Inverdigm Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.118.36.0/22",
       "192.81.172.0/22",
       "199.127.128.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:6580:2920::/48"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 35146,
-  "handle": "ABNET",
-  "description": "AB NET S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35146,
+  "metadata" : {
+    "handle" : "ABNET",
+    "description" : "AB NET S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.160.120.0/23",
       "185.160.122.0/24",
       "185.201.119.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:bcc0::/47"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 7633,
-  "handle": "SOFTNET-AS-AP",
-  "description": "Software Technology Parks of India - Bangalore",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7633,
+  "metadata" : {
+    "handle" : "SOFTNET-AS-AP",
+    "description" : "Software Technology Parks of India - Bangalore",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.164.0.0/20",
       "164.164.16.0/21",
       "164.164.25.0/24",
@@ -35,6 +38,7 @@
       "164.164.181.0/24",
       "164.164.183.0/24",
       "164.164.185.0/24",
+      "164.164.186.0/24",
       "164.164.188.0/23",
       "164.164.191.0/24",
       "164.164.194.0/23",
@@ -85,7 +89,7 @@
       "203.193.189.0/24",
       "203.193.191.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:ef02::/31",
       "2402:ef04::/30",
       "2402:ef19::/32",

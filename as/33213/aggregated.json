@@ -1,12 +1,15 @@
 {
-  "asn": 33213,
-  "handle": "BASIN-NET",
-  "description": "BASIN 2 WAY RADIO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33213,
+  "metadata" : {
+    "handle" : "BASIN-NET",
+    "description" : "BASIN 2 WAY RADIO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.218.244.0/22",
       "208.68.68.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

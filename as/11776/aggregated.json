@@ -1,9 +1,12 @@
 {
-  "asn": 11776,
-  "handle": "ATLANTICBB-JOHNSTOWN",
-  "description": "Breezeline",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11776,
+  "metadata" : {
+    "handle" : "ATLANTICBB-JOHNSTOWN",
+    "description" : "Breezeline",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.244.0.0/15",
       "24.35.31.0/24",
       "24.145.0.0/18",
@@ -219,7 +222,7 @@
       "216.246.128.0/19",
       "216.255.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:5400::/35",
       "2604:5400:4000::/35",
       "2606:f400:1::/48",

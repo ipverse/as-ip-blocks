@@ -1,12 +1,15 @@
 {
-  "asn": 215475,
-  "handle": "ASDGSVC",
-  "description": "Kiwazo CommV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215475,
+  "metadata" : {
+    "handle" : "ASDGSVC",
+    "description" : "Kiwazo CommV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.161.24.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:2f2:1::/48"
     ]
   }

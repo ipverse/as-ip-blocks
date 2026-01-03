@@ -1,9 +1,12 @@
 {
-  "asn": 6908,
-  "handle": "DATAHOP",
-  "description": "Six Degrees Technology Group Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6908,
+  "metadata" : {
+    "handle" : "DATAHOP",
+    "description" : "Six Degrees Technology Group Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.102.184.0/21",
       "46.252.64.0/20",
       "62.149.32.0/19",
@@ -43,7 +46,7 @@
       "217.61.176.0/20",
       "217.169.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2644::/48",
       "2001:1b90::/32",
       "2a01:450::/32",

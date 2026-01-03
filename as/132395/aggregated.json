@@ -1,11 +1,14 @@
 {
-  "asn": 132395,
-  "handle": "DST-AS",
-  "description": "Unified National Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132395,
+  "metadata" : {
+    "handle" : "DST-AS",
+    "description" : "Unified National Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.20.24.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

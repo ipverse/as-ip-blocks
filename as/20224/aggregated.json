@@ -1,9 +1,12 @@
 {
-  "asn": 20224,
-  "handle": "COLUMBIA-ENERGY-LLC",
-  "description": "Columbia Energy L.L.C",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20224,
+  "metadata" : {
+    "handle" : "COLUMBIA-ENERGY-LLC",
+    "description" : "Columbia Energy L.L.C",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.146.146.0/24",
       "64.146.170.0/23",
       "64.146.176.0/22",
@@ -12,7 +15,7 @@
       "162.120.22.0/23",
       "162.250.178.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:5e0:20::/48"
     ]
   }

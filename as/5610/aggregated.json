@@ -1,9 +1,12 @@
 {
-  "asn": 5610,
-  "handle": "O2-CZECH-REPUBLIC",
-  "description": "O2 Czech Republic a.s",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5610,
+  "metadata" : {
+    "handle" : "O2-CZECH-REPUBLIC",
+    "description" : "O2 Czech Republic a.s.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.23.39.0/24",
       "37.188.128.0/17",
       "80.188.0.0/16",
@@ -40,7 +43,7 @@
       "217.117.208.0/20",
       "217.194.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:dd4::/48",
       "2001:41d8::/32",
       "2a00:1028::/29",

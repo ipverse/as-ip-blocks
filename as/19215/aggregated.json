@@ -1,9 +1,12 @@
 {
-  "asn": 19215,
-  "handle": "ENERGIZE",
-  "description": "PES Energize",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19215,
+  "metadata" : {
+    "handle" : "ENERGIZE",
+    "description" : "PES Energize",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.35.68.0/24",
       "12.202.201.0/24",
       "38.79.176.0/22",
@@ -12,6 +15,6 @@
       "192.225.26.0/23",
       "208.82.40.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

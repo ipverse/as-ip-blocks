@@ -1,12 +1,15 @@
 {
-  "asn": 33629,
-  "handle": "NKU-AS1",
-  "description": "Northern Kentucky University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33629,
+  "metadata" : {
+    "handle" : "NKU-AS1",
+    "description" : "Northern Kentucky University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.143.180.0/24",
       "192.122.237.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

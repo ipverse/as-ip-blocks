@@ -1,13 +1,16 @@
 {
-  "asn": 45442,
-  "handle": "DPS-MEM-AS-AP",
-  "description": "Department of Parliamentary Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45442,
+  "metadata" : {
+    "handle" : "DPS-MEM-AS-AP",
+    "description" : "Department of Parliamentary Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.75.64.0/20",
       "164.75.112.0/20",
       "164.75.143.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

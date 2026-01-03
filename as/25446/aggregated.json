@@ -1,15 +1,18 @@
 {
-  "asn": 25446,
-  "handle": "ERTH-CLOUD-AS",
-  "description": "JSC ER-Telecom Holding",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25446,
+  "metadata" : {
+    "handle" : "ERTH-CLOUD-AS",
+    "description" : "JSC ER-Telecom Holding",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.106.68.0/22",
       "93.183.104.0/23",
       "93.183.106.0/24",
       "185.71.196.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1584::/48",
       "2a03:e340:3::/48",
       "2a0c:c580::/48"

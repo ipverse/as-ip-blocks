@@ -1,9 +1,12 @@
 {
-  "asn": 34241,
-  "handle": "NCT-AS",
-  "description": "New Communication Technologies LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34241,
+  "metadata" : {
+    "handle" : "NCT-AS",
+    "description" : "New Communication Technologies LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.206.66.0/23",
       "91.235.72.0/22",
       "185.52.152.0/22",
@@ -18,7 +21,7 @@
       "195.95.252.0/23",
       "195.206.240.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:c480::/29",
       "2a04:e640::/29"
     ]

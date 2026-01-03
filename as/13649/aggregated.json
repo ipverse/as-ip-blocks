@@ -1,9 +1,12 @@
 {
-  "asn": 13649,
-  "handle": "ASN-FLEXENTIAL",
-  "description": "Flexential Colorado Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13649,
+  "metadata" : {
+    "handle" : "ASN-FLEXENTIAL",
+    "description" : "Flexential Colorado Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.7.96.0/21",
       "23.160.112.0/23",
       "23.176.128.0/24",
@@ -168,7 +171,7 @@
       "216.241.160.0/19",
       "216.250.128.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:3000::/29",
       "2602:f788::/38",
       "2607:f758::/32",

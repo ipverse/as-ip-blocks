@@ -1,14 +1,17 @@
 {
-  "asn": 137995,
-  "handle": "SHUANGYU-AS-AP",
-  "description": "Shuangyu Communications Technology Co. Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137995,
+  "metadata" : {
+    "handle" : "SHUANGYU-AS-AP",
+    "description" : "Shuangyu Communications Technology Co. Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.84.137.0/24",
       "103.84.139.0/24",
       "103.131.176.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:cec0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 142622,
-  "handle": "DIL-AS-AP",
-  "description": "Dream Information Laboratory",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142622,
+  "metadata" : {
+    "handle" : "DIL-AS-AP",
+    "description" : "Dream Information Laboratory",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.249.241.0/24",
       "43.251.187.0/24",
       "45.124.60.0/24",
@@ -36,6 +39,6 @@
       "216.254.2.0/23",
       "216.254.92.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

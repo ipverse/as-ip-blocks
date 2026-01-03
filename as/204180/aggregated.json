@@ -1,12 +1,15 @@
 {
-  "asn": 204180,
-  "handle": "AS-INNET",
-  "description": "INNET SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204180,
+  "metadata" : {
+    "handle" : "AS-INNET",
+    "description" : "INNET SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.111.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:6082::/32"
     ]
   }

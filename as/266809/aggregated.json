@@ -1,14 +1,17 @@
 {
-  "asn": 266809,
-  "handle": "NERVICOM-CA",
-  "description": "NERVICOM C.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266809,
+  "metadata" : {
+    "handle" : "NERVICOM-CA",
+    "description" : "NERVICOM C.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.188.240.0/23",
       "38.188.243.0/24",
       "45.236.28.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:60a0::/32"
     ]
   }

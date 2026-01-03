@@ -1,10 +1,13 @@
 {
-  "asn": 25848,
-  "handle": "ICOSA-ASN-PRIM",
-  "description": "Icosa",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 25848,
+  "metadata" : {
+    "handle" : "ICOSA-ASN-PRIM",
+    "description" : "Icosa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2602:fd25::/39"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 19137,
-  "handle": "EPSILON-INTERACTIVE",
-  "description": "Epsilon Interactive LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19137,
+  "metadata" : {
+    "handle" : "EPSILON-INTERACTIVE",
+    "description" : "Epsilon Interactive LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "74.122.218.0/23",
       "93.191.146.0/23",
       "142.54.200.0/24",
@@ -34,6 +37,6 @@
       "208.70.140.0/23",
       "208.70.142.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

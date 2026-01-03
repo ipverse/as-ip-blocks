@@ -1,12 +1,15 @@
 {
-  "asn": 33129,
-  "handle": "CITY-OF-GARDEN-GROVE",
-  "description": "City of Garden Grove",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33129,
+  "metadata" : {
+    "handle" : "CITY-OF-GARDEN-GROVE",
+    "description" : "City of Garden Grove",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.245.206.0/24",
       "204.27.239.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

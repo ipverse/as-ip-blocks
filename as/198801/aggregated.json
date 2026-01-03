@@ -1,11 +1,14 @@
 {
-  "asn": 198801,
-  "handle": "YOUR-HOUSING-GROUP-AS",
-  "description": "Your Housing Group Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198801,
+  "metadata" : {
+    "handle" : "YOUR-HOUSING-GROUP-AS",
+    "description" : "Your Housing Group Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.239.91.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

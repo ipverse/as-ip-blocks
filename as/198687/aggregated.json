@@ -1,12 +1,15 @@
 {
-  "asn": 198687,
-  "handle": "PROVINCIE-NH-AS",
-  "description": "Provincie Noord-Holland",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198687,
+  "metadata" : {
+    "handle" : "PROVINCIE-NH-AS",
+    "description" : "Provincie Noord-Holland",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.227.192.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:3501:1090::/48"
     ]
   }

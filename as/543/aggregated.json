@@ -1,14 +1,17 @@
 {
-  "asn": 543,
-  "handle": "HP-POLY",
-  "description": "HP Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 543,
+  "metadata" : {
+    "handle" : "HP-POLY",
+    "description" : "HP Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.252.224.0/19",
       "140.242.70.0/23",
       "140.242.168.0/24",
       "141.124.50.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 57196,
-  "handle": "CLONOTH",
-  "description": "Clonoth OU",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57196,
+  "metadata" : {
+    "handle" : "CLONOTH",
+    "description" : "Clonoth OU",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.32.100.0/24",
       "194.104.152.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:7a42:100::/40",
       "2a13:7a42:200::/40"
     ]

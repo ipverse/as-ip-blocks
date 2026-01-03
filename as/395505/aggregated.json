@@ -1,9 +1,12 @@
 {
-  "asn": 395505,
-  "handle": "IMANAGE",
-  "description": "iManage LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395505,
+  "metadata" : {
+    "handle" : "IMANAGE",
+    "description" : "iManage LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.12.29.0/24",
       "65.151.0.0/23",
       "130.12.172.0/23",
@@ -12,6 +15,6 @@
       "206.25.45.0/24",
       "207.82.22.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 31950,
-  "handle": "AS-DANS",
-  "description": "Data Network Solutions",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31950,
+  "metadata" : {
+    "handle" : "AS-DANS",
+    "description" : "Data Network Solutions",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.8.192.0/21",
       "208.64.144.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:e5c0::/32"
     ]
   }

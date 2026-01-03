@@ -1,9 +1,12 @@
 {
-  "asn": 2571,
-  "handle": "DHLNET",
-  "description": "DHL Information Services (Europe) s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2571,
+  "metadata" : {
+    "handle" : "DHLNET",
+    "description" : "DHL Information Services (Europe) s.r.o",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "137.98.192.0/22",
       "137.98.208.0/20",
       "137.98.235.0/24",
@@ -19,7 +22,7 @@
       "199.40.0.0/16",
       "199.41.252.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:c580:fff0::/44",
       "2620:1d6:fff0::/44",
       "2a05:4a40:ffdf::/48",

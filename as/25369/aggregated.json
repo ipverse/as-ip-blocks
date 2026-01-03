@@ -1,9 +1,12 @@
 {
-  "asn": 25369,
-  "handle": "BANDWIDTH-AS",
-  "description": "Hydra Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25369,
+  "metadata" : {
+    "handle" : "BANDWIDTH-AS",
+    "description" : "Hydra Communications Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.226.136.0/21",
       "31.14.254.0/24",
       "31.58.60.0/22",
@@ -159,7 +162,7 @@
       "217.144.176.0/21",
       "217.146.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:10e8:101::/48",
       "2a00:1a30::/32",
       "2a01:4020::/32",

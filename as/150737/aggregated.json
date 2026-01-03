@@ -1,12 +1,15 @@
 {
-  "asn": 150737,
-  "handle": "VOLONET-AS-AP",
-  "description": "Volo Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150737,
+  "metadata" : {
+    "handle" : "VOLONET-AS-AP",
+    "description" : "Volo Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.77.116.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:d3c0::/48"
     ]
   }

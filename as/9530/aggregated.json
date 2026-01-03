@@ -1,9 +1,12 @@
 {
-  "asn": 9530,
-  "handle": "SHINSEGAE-AS",
-  "description": "SHINSEGAE I C Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9530,
+  "metadata" : {
+    "handle" : "SHINSEGAE-AS",
+    "description" : "SHINSEGAE I C Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.36.32.0/24",
       "60.196.0.0/24",
       "112.171.12.0/22",
@@ -37,6 +40,6 @@
       "211.169.178.0/24",
       "222.112.221.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

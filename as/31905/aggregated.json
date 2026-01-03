@@ -1,11 +1,14 @@
 {
-  "asn": 31905,
-  "handle": "TEAM-HYDRA",
-  "description": "Team Hydra",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31905,
+  "metadata" : {
+    "handle" : "TEAM-HYDRA",
+    "description" : "Team Hydra",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.150.184.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

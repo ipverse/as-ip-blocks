@@ -1,9 +1,12 @@
 {
-  "asn": 269070,
-  "handle": "HOSTZONE-TECNOLOGIA",
-  "description": "Hostzone Tecnologia LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269070,
+  "metadata" : {
+    "handle" : "HOSTZONE-TECNOLOGIA",
+    "description" : "Hostzone Tecnologia LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.225.219.0/24",
       "38.250.8.0/24",
       "45.137.28.0/24",
@@ -15,7 +18,7 @@
       "179.61.154.0/24",
       "190.93.67.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5f00::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 131284,
-  "handle": "ETISALATAFG-AS-AP",
-  "description": "Etisalat Afghan",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131284,
+  "metadata" : {
+    "handle" : "ETISALATAFG-AS-AP",
+    "description" : "Etisalat Afghan",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.13.64.0/22",
       "103.133.75.0/24",
       "137.59.120.0/22",
@@ -15,6 +18,6 @@
       "203.171.112.0/21",
       "203.171.120.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

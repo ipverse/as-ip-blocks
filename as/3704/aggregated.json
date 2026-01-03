@@ -1,11 +1,14 @@
 {
-  "asn": 3704,
-  "handle": "ISPNET-AS",
-  "description": "isp.net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3704,
+  "metadata" : {
+    "handle" : "ISPNET-AS",
+    "description" : "isp.net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.38.220.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

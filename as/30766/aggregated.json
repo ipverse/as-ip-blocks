@@ -1,9 +1,12 @@
 {
-  "asn": 30766,
-  "handle": "GGEWNET-AS",
-  "description": "GGew net GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30766,
+  "metadata" : {
+    "handle" : "GGEWNET-AS",
+    "description" : "GGew net GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.148.218.0/23",
       "86.62.8.0/22",
       "91.132.220.0/22",
@@ -16,7 +19,7 @@
       "213.232.100.0/22",
       "217.113.176.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:e2c0::/29"
     ]
   }

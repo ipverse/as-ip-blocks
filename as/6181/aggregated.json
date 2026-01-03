@@ -1,9 +1,12 @@
 {
-  "asn": 6181,
-  "handle": "FUSE-NET",
-  "description": "Cincinnati Bell Telephone Company LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6181,
+  "metadata" : {
+    "handle" : "FUSE-NET",
+    "description" : "Cincinnati Bell Telephone Company LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.32.193.0/24",
       "45.59.32.0/20",
       "50.5.0.0/16",
@@ -40,7 +43,7 @@
       "216.116.16.0/20",
       "216.196.128.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:2b00::/28",
       "2607:f500::/32"
     ]

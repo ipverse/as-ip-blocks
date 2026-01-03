@@ -1,9 +1,12 @@
 {
-  "asn": 32867,
-  "handle": "LLI-BLK1",
-  "description": "Long Lines Internet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32867,
+  "metadata" : {
+    "handle" : "LLI-BLK1",
+    "description" : "Long Lines Internet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.5.64.0/20",
       "64.186.16.0/21",
       "66.172.192.0/18",
@@ -14,6 +17,6 @@
       "199.116.180.0/22",
       "199.247.64.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

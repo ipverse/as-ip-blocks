@@ -1,9 +1,12 @@
 {
-  "asn": 10461,
-  "handle": "EZE-CASTLE-SOFTWARE-LLC",
-  "description": "Eze Castle Software LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10461,
+  "metadata" : {
+    "handle" : "EZE-CASTLE-SOFTWARE-LLC",
+    "description" : "Eze Castle Software LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.75.60.0/22",
       "63.160.212.0/22",
       "63.160.216.0/23",
@@ -19,6 +22,6 @@
       "204.213.198.0/23",
       "207.41.88.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

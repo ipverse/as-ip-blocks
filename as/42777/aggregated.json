@@ -1,12 +1,15 @@
 {
-  "asn": 42777,
-  "handle": "WISTA-AS",
-  "description": "WISTA Management GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42777,
+  "metadata" : {
+    "handle" : "WISTA-AS",
+    "description" : "WISTA Management GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.245.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5c40::/32"
     ]
   }

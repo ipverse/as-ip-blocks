@@ -1,16 +1,19 @@
 {
-  "asn": 201647,
-  "handle": "SI-NERGIE",
-  "description": "SI-NERGIE GIE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201647,
+  "metadata" : {
+    "handle" : "SI-NERGIE",
+    "description" : "SI-NERGIE GIE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.198.191.0/24",
       "193.57.66.0/23",
       "193.57.68.0/22",
       "193.57.156.0/23",
       "193.57.158.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:5700::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 40021,
-  "handle": "CONTABO-40021",
-  "description": "Contabo Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40021,
+  "metadata" : {
+    "handle" : "CONTABO-40021",
+    "description" : "Contabo Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.180.151.0/24",
       "5.252.52.0/22",
       "31.220.96.0/21",
@@ -62,7 +65,7 @@
       "217.216.64.0/22",
       "217.216.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:a140::/30"
     ]
   }

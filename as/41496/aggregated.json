@@ -1,9 +1,12 @@
 {
-  "asn": 41496,
-  "handle": "RO-TVSAT-AS",
-  "description": "TV SAT 2002 SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41496,
+  "metadata" : {
+    "handle" : "RO-TVSAT-AS",
+    "description" : "TV SAT 2002 SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.156.227.0/24",
       "77.81.66.0/23",
       "77.81.72.0/23",
@@ -45,7 +48,7 @@
       "193.0.189.0/24",
       "193.32.58.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:187c::/48"
     ]
   }

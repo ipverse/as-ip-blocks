@@ -1,9 +1,12 @@
 {
-  "asn": 49556,
-  "handle": "WEBDADE",
-  "description": "Web Dadeh Paydar Co (Ltd)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49556,
+  "metadata" : {
+    "handle" : "WEBDADE",
+    "description" : "Web Dadeh Paydar Co (Ltd)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.159.49.0/24",
       "5.159.54.0/24",
       "45.89.221.0/24",
@@ -52,7 +55,7 @@
       "195.158.230.0/24",
       "217.18.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:5ac0::/37",
       "2a14:4f80::/38"
     ]

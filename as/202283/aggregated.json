@@ -1,13 +1,16 @@
 {
-  "asn": 202283,
-  "handle": "FVNRW",
-  "description": "Rechenzentrum der Finanzverwaltung NRW",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202283,
+  "metadata" : {
+    "handle" : "FVNRW",
+    "description" : "Rechenzentrum der Finanzverwaltung NRW",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.232.220.0/22",
       "193.109.238.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1041::/32",
       "2a0c:d100::/29"
     ]

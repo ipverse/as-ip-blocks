@@ -1,12 +1,15 @@
 {
-  "asn": 205012,
-  "handle": "GIANT",
-  "description": "Giant Communications Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205012,
+  "metadata" : {
+    "handle" : "GIANT",
+    "description" : "Giant Communications Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "213.134.9.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:7e00::/29"
     ]
   }

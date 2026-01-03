@@ -1,9 +1,12 @@
 {
-  "asn": 133823,
-  "handle": "INFOKOM-AS-ID",
-  "description": "PT Infokom Elektrindo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133823,
+  "metadata" : {
+    "handle" : "INFOKOM-AS-ID",
+    "description" : "PT Infokom Elektrindo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.116.156.0/22",
       "103.54.93.0/24",
       "103.54.94.0/23",
@@ -14,6 +17,6 @@
       "103.162.130.0/23",
       "103.211.232.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 131937,
-  "handle": "JCV",
-  "description": "Joetsu Cable Vision",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131937,
+  "metadata" : {
+    "handle" : "JCV",
+    "description" : "Joetsu Cable Vision",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.118.92.0/22",
       "103.152.66.0/23",
       "126.251.0.0/19",
@@ -14,7 +17,7 @@
       "170.249.96.0/19",
       "202.223.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2403:4040::/32",
       "2406:2b40::/32"
     ]

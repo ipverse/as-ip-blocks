@@ -1,12 +1,15 @@
 {
-  "asn": 5420,
-  "handle": "KEMNET",
-  "description": "Kemira Oyj",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5420,
+  "metadata" : {
+    "handle" : "KEMNET",
+    "description" : "Kemira Oyj",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.40.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:f040::/32"
     ]
   }

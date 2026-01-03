@@ -1,9 +1,12 @@
 {
-  "asn": 135061,
-  "handle": "UNICOM-SHENZHEN-IDC",
-  "description": "China Unicom Guangdong IP network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135061,
+  "metadata" : {
+    "handle" : "UNICOM-SHENZHEN-IDC",
+    "description" : "China Unicom Guangdong IP network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.250.188.0/24",
       "58.250.8.0/21",
       "58.250.87.0/24",
@@ -47,7 +50,7 @@
       "211.95.128.0/19",
       "220.249.240.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2408:8001:3170::/44",
       "2408:80fa:7580::/42",
       "2408:8459:1870::/44",

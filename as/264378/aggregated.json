@@ -1,12 +1,15 @@
 {
-  "asn": 264378,
-  "handle": "ITANET-SERVICOS-PROVEDOR",
-  "description": "ITANET SERVICOS E PROVEDOR DE ACESSO A INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264378,
+  "metadata" : {
+    "handle" : "ITANET-SERVICOS-PROVEDOR",
+    "description" : "ITANET SERVICOS E PROVEDOR DE ACESSO A INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.161.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:1d90::/32"
     ]
   }

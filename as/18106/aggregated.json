@@ -1,9 +1,12 @@
 {
-  "asn": 18106,
-  "handle": "VIEWQWEST-SG-AP",
-  "description": "Viewqwest Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18106,
+  "metadata" : {
+    "handle" : "VIEWQWEST-SG-AP",
+    "description" : "Viewqwest Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.230.96.0/22",
       "45.121.84.0/22",
       "103.4.196.0/22",
@@ -26,7 +29,7 @@
       "223.27.138.0/24",
       "223.27.140.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:d98::/32",
       "2402:7480::/32",
       "2404:4280::/32",

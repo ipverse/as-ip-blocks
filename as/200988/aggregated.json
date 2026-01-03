@@ -1,12 +1,15 @@
 {
-  "asn": 200988,
-  "handle": "BRIDGETEL-AS",
-  "description": "Bridge Telecom LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 200988,
+  "metadata" : {
+    "handle" : "BRIDGETEL-AS",
+    "description" : "Bridge Telecom LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.88.208.0/23",
       "185.88.210.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

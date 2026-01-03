@@ -1,14 +1,17 @@
 {
-  "asn": 395379,
-  "handle": "SCIREMC",
-  "description": "SCI REMC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395379,
+  "metadata" : {
+    "handle" : "SCIREMC",
+    "description" : "SCI REMC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "136.228.64.0/19",
       "143.223.112.0/20",
       "161.129.192.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:e340::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 50719,
-  "handle": "MYSYS-AS",
-  "description": "XINON GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50719,
+  "metadata" : {
+    "handle" : "MYSYS-AS",
+    "description" : "XINON GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.206.200.0/21",
       "91.227.231.0/24",
       "193.228.46.0/23",
       "195.191.252.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

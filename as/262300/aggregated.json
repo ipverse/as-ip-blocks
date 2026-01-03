@@ -1,15 +1,18 @@
 {
-  "asn": 262300,
-  "handle": "SUPER-CONNECT-TELECOM",
-  "description": "SUPER CONNECT TELECOM LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262300,
+  "metadata" : {
+    "handle" : "SUPER-CONNECT-TELECOM",
+    "description" : "SUPER CONNECT TELECOM LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.36.168.0/22",
       "168.181.112.0/22",
       "177.87.104.0/22",
       "179.0.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:788::/32"
     ]
   }

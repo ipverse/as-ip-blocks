@@ -1,13 +1,16 @@
 {
-  "asn": 263498,
-  "handle": "BERTONCELLO-PROVEDOR-INTERNET",
-  "description": "BERTONCELLO PROVEDOR DE INTERNET LTDA ME",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263498,
+  "metadata" : {
+    "handle" : "BERTONCELLO-PROVEDOR-INTERNET",
+    "description" : "BERTONCELLO PROVEDOR DE INTERNET LTDA ME",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.195.140.0/22",
       "191.243.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:12c8::/32"
     ]
   }

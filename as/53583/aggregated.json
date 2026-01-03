@@ -1,12 +1,15 @@
 {
-  "asn": 53583,
-  "handle": "WESTJET",
-  "description": "Westjet Airlines Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53583,
+  "metadata" : {
+    "handle" : "WESTJET",
+    "description" : "Westjet Airlines Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.84.14.0/24",
       "204.144.185.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

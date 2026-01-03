@@ -1,9 +1,12 @@
 {
-  "asn": 265524,
-  "handle": "COEFICIENTE-COMUNICACIONES",
-  "description": "COEFICIENTE COMUNICACIONES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265524,
+  "metadata" : {
+    "handle" : "COEFICIENTE-COMUNICACIONES",
+    "description" : "COEFICIENTE COMUNICACIONES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.231.40.0/22",
       "131.196.248.0/22",
       "160.20.172.0/22",
@@ -17,7 +20,7 @@
       "201.182.20.0/22",
       "207.248.118.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:286::/32",
       "2806:2eb::/32"
     ]

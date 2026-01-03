@@ -1,15 +1,18 @@
 {
-  "asn": 12732,
-  "handle": "GUTCON-NET",
-  "description": "GutCon GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12732,
+  "metadata" : {
+    "handle" : "GUTCON-NET",
+    "description" : "GutCon GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.199.214.0/24",
       "193.34.120.0/22",
       "212.21.71.0/24",
       "212.42.230.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:278c::/48",
       "2001:67c:27fc::/48",
       "2001:bf0::/29"

@@ -1,14 +1,17 @@
 {
-  "asn": 2728,
-  "handle": "GIGSOUTH",
-  "description": "Gigsouth LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2728,
+  "metadata" : {
+    "handle" : "GIGSOUTH",
+    "description" : "Gigsouth LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.143.232.0/23",
       "162.255.88.0/21",
       "199.185.174.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:7b80::/32"
     ]
   }

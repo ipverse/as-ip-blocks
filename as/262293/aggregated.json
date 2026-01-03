@@ -1,9 +1,12 @@
 {
-  "asn": 262293,
-  "handle": "SISTEMA-OESTE-SERVICOS",
-  "description": "Sistema Oeste de Serviços LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262293,
+  "metadata" : {
+    "handle" : "SISTEMA-OESTE-SERVICOS",
+    "description" : "Sistema Oeste de Serviços LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.161.132.0/22",
       "138.94.108.0/22",
       "143.202.240.0/22",
@@ -12,7 +15,7 @@
       "177.154.192.0/19",
       "179.107.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:a80::/32"
     ]
   }

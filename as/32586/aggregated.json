@@ -1,9 +1,12 @@
 {
-  "asn": 32586,
-  "handle": "NIAGARA-WIRELESS-INTERNET-COMPANY",
-  "description": "Niagara Wireless Internet Co",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32586,
+  "metadata" : {
+    "handle" : "NIAGARA-WIRELESS-INTERNET-COMPANY",
+    "description" : "Niagara Wireless Internet Co.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "52.129.28.0/22",
       "52.144.27.0/24",
       "64.112.88.0/22",
@@ -20,6 +23,6 @@
       "204.58.15.0/24",
       "208.103.158.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

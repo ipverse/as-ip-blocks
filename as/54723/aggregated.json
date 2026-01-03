@@ -1,9 +1,12 @@
 {
-  "asn": 54723,
-  "handle": "AS54723-MIDWEST-DATA-CENTER",
-  "description": "Midwest Data Center Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54723,
+  "metadata" : {
+    "handle" : "AS54723-MIDWEST-DATA-CENTER",
+    "description" : "Midwest Data Center Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.111.36.0/24",
       "64.111.45.0/24",
       "64.111.47.0/24",
@@ -25,7 +28,7 @@
       "216.145.133.0/24",
       "216.145.152.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:e40::/32"
     ]
   }

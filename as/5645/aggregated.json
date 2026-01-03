@@ -1,9 +1,12 @@
 {
-  "asn": 5645,
-  "handle": "TEKSAVVY",
-  "description": "TekSavvy Solutions Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 5645,
+  "metadata" : {
+    "handle" : "TEKSAVVY",
+    "description" : "TekSavvy Solutions Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.91.128.0/19",
       "23.233.0.0/17",
       "24.52.192.0/18",
@@ -47,7 +50,7 @@
       "216.154.0.0/17",
       "216.154.128.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:c000::/32",
       "2607:f2c0::/32"
     ]

@@ -1,14 +1,17 @@
 {
-  "asn": 397805,
-  "handle": "AS-DYNASCALE-IAD",
-  "description": "Dynascale Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397805,
+  "metadata" : {
+    "handle" : "AS-DYNASCALE-IAD",
+    "description" : "Dynascale Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.221.209.0/24",
       "206.221.213.0/24",
       "206.221.215.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:6e00:a000::/35"
     ]
   }

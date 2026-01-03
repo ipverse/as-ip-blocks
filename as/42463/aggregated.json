@@ -1,12 +1,15 @@
 {
-  "asn": 42463,
-  "handle": "AS-AGESCI",
-  "description": "AGESCI - Associazione Guide e Scout Cattolici Italiani",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42463,
+  "metadata" : {
+    "handle" : "AS-AGESCI",
+    "description" : "AGESCI - Associazione Guide e Scout Cattolici Italiani",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.242.40.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:c900::/32"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 202921,
-  "handle": "CC-INTERNET",
-  "description": "CC INTERNET s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202921,
+  "metadata" : {
+    "handle" : "CC-INTERNET",
+    "description" : "CC INTERNET s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "147.161.24.0/22",
       "185.148.212.0/22",
       "212.69.128.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:f780::/29"
     ]
   }

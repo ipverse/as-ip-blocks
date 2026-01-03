@@ -1,9 +1,12 @@
 {
-  "asn": 17242,
-  "handle": "UNIPAC",
-  "description": "UNIPAC Service Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17242,
+  "metadata" : {
+    "handle" : "UNIPAC",
+    "description" : "UNIPAC Service Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.45.44.0/24",
       "12.175.4.0/24",
       "152.180.73.0/24",
@@ -13,7 +16,7 @@
       "216.69.106.0/24",
       "216.69.108.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:12c:8000::/40"
     ]
   }

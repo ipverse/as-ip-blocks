@@ -1,15 +1,18 @@
 {
-  "asn": 262175,
-  "handle": "TELEFONICA-MOVILES-ARGENTINA",
-  "description": "Telefónica Móviles Argentina S.A. (Movistar Argentina)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 262175,
+  "metadata" : {
+    "handle" : "TELEFONICA-MOVILES-ARGENTINA",
+    "description" : "Telefónica Móviles Argentina S.A. (Movistar Argentina)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.81.36.0/23",
       "200.81.42.0/23",
       "200.106.240.0/22",
       "201.251.182.0/23",
       "201.251.184.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

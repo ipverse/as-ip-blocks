@@ -1,13 +1,16 @@
 {
-  "asn": 38066,
-  "handle": "DECC-AS-AP",
-  "description": "TPG Internet Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38066,
+  "metadata" : {
+    "handle" : "DECC-AS-AP",
+    "description" : "TPG Internet Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "141.243.8.0/23",
       "141.243.20.0/23",
       "141.243.32.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

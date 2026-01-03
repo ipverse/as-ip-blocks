@@ -1,12 +1,15 @@
 {
-  "asn": 265995,
-  "handle": "LINE-INTERNET",
-  "description": "LINE INTERNET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265995,
+  "metadata" : {
+    "handle" : "LINE-INTERNET",
+    "description" : "LINE INTERNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "164.163.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:40f8:8000::/33"
     ]
   }

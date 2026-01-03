@@ -1,13 +1,16 @@
 {
-  "asn": 43155,
-  "handle": "SW-BIELEFELD-AS",
-  "description": "Stadtwerke Bielefeld GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43155,
+  "metadata" : {
+    "handle" : "SW-BIELEFELD-AS",
+    "description" : "Stadtwerke Bielefeld GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.194.108.0/23",
       "185.99.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:1080::/29"
     ]
   }

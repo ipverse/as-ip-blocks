@@ -1,9 +1,12 @@
 {
-  "asn": 13178,
-  "handle": "DIGCOMM",
-  "description": "LLC Real-net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13178,
+  "metadata" : {
+    "handle" : "DIGCOMM",
+    "description" : "LLC Real-net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.204.20.0/23",
       "91.205.44.0/22",
       "93.88.128.0/20",
@@ -15,7 +18,7 @@
       "185.61.192.0/24",
       "185.175.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:8040::/32",
       "2a02:6160::/32",
       "2a03:6c0::/32",

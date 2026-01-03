@@ -1,9 +1,12 @@
 {
-  "asn": 19224,
-  "handle": "QSGIT",
-  "description": "Quantum Services Group LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19224,
+  "metadata" : {
+    "handle" : "QSGIT",
+    "description" : "Quantum Services Group LLC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.2.132.0/22",
       "8.42.104.0/24",
       "8.42.150.0/23",
@@ -17,7 +20,7 @@
       "204.10.32.0/22",
       "216.230.20.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:bb40::/32"
     ]
   }

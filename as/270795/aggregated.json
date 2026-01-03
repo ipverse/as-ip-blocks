@@ -1,12 +1,15 @@
 {
-  "asn": 270795,
-  "handle": "LD-TELECOM",
-  "description": "LD telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 270795,
+  "metadata" : {
+    "handle" : "LD-TELECOM",
+    "description" : "LD telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "189.36.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7188::/32"
     ]
   }

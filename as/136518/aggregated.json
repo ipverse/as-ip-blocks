@@ -1,9 +1,12 @@
 {
-  "asn": 136518,
-  "handle": "WA-GOVERNMENT-AS-AP",
-  "description": "WA Government project",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136518,
+  "metadata" : {
+    "handle" : "WA-GOVERNMENT-AS-AP",
+    "description" : "WA Government project",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.225.67.0/24",
       "147.76.54.0/23",
       "147.76.60.0/24",
@@ -57,6 +60,6 @@
       "203.62.236.0/23",
       "203.62.239.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

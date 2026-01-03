@@ -1,9 +1,12 @@
 {
-  "asn": 22168,
-  "handle": "SHADOWSERVER-FOUNDATION",
-  "description": "The Shadowserver Foundation Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22168,
+  "metadata" : {
+    "handle" : "SHADOWSERVER-FOUNDATION",
+    "description" : "The Shadowserver Foundation Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.143.160.0/24",
       "50.114.88.0/24",
       "108.165.44.0/24",
@@ -31,7 +34,7 @@
       "191.96.127.0/24",
       "191.101.103.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:550:d0c::/48"
     ]
   }

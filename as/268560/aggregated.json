@@ -1,12 +1,15 @@
 {
-  "asn": 268560,
-  "handle": "FIBRA-VIP",
-  "description": "FIBRA VIP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268560,
+  "metadata" : {
+    "handle" : "FIBRA-VIP",
+    "description" : "FIBRA VIP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.163.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:530c::/32"
     ]
   }

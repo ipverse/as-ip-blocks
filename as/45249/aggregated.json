@@ -1,9 +1,12 @@
 {
-  "asn": 45249,
-  "handle": "WINTEC-AS-AP",
-  "description": "Waikato Institute of Technology",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45249,
+  "metadata" : {
+    "handle" : "WINTEC-AS-AP",
+    "description" : "Waikato Institute of Technology",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.14.32.0/23",
       "202.14.35.0/24",
       "202.14.36.0/23",
@@ -13,6 +16,6 @@
       "202.14.53.0/24",
       "202.14.63.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 16043,
-  "handle": "SAMARA-TELECOM-AS",
-  "description": "PJSC Vimpelcom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16043,
+  "metadata" : {
+    "handle" : "SAMARA-TELECOM-AS",
+    "description" : "PJSC Vimpelcom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.85.176.0/20",
       "217.66.64.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

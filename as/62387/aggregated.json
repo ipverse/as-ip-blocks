@@ -1,9 +1,12 @@
 {
-  "asn": 62387,
-  "handle": "MEERFARBIG-AS",
-  "description": "meerfarbig GmbH \u0026 Co. KG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62387,
+  "metadata" : {
+    "handle" : "MEERFARBIG-AS",
+    "description" : "meerfarbig GmbH & Co. KG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.13.148.0/23",
       "79.132.64.0/19",
       "79.132.176.0/20",
@@ -23,6 +26,6 @@
       "123.98.36.0/22",
       "123.98.52.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,11 +1,14 @@
 {
-  "asn": 139809,
-  "handle": "SWIFTNET-AS-AP",
-  "description": "Swift Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139809,
+  "metadata" : {
+    "handle" : "SWIFTNET-AS-AP",
+    "description" : "Swift Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.145.132.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

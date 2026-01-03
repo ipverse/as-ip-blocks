@@ -1,12 +1,15 @@
 {
-  "asn": 42415,
-  "handle": "AL-JAZEERA",
-  "description": "Aljazeera Media Network Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42415,
+  "metadata" : {
+    "handle" : "AL-JAZEERA",
+    "description" : "Aljazeera Media Network Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.6.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1a11:372::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 60849,
-  "handle": "ILEVANT-AS",
-  "description": "iLevant FZE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60849,
+  "metadata" : {
+    "handle" : "ILEVANT-AS",
+    "description" : "iLevant FZE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.72.165.0/24",
       "62.72.167.0/24",
       "62.72.179.0/24",
@@ -13,7 +16,7 @@
       "185.27.116.0/22",
       "185.40.19.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:2ec0::/29"
     ]
   }

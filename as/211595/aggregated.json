@@ -1,9 +1,12 @@
 {
-  "asn": 211595,
-  "handle": "OTPHU-AS",
-  "description": "OTP Bank Nyrt. Hungary",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211595,
+  "metadata" : {
+    "handle" : "OTPHU-AS",
+    "description" : "OTP Bank Nyrt. Hungary",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.120.220.0/24",
       "82.141.139.0/24",
       "84.1.236.0/24",
@@ -12,7 +15,7 @@
       "195.228.31.0/24",
       "195.228.112.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:f10::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 153259,
-  "handle": "EDG1-AS-IN",
-  "description": "Edgerede Private Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153259,
+  "metadata" : {
+    "handle" : "EDG1-AS-IN",
+    "description" : "Edgerede Private Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "98.98.224.0/24",
       "128.1.122.0/24",
       "128.128.80.0/22",
@@ -17,7 +20,7 @@
       "164.90.123.0/24",
       "169.136.109.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:e220::/46",
       "2602:ffe4:c7e::/48"
     ]

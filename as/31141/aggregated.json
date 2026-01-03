@@ -1,15 +1,18 @@
 {
-  "asn": 31141,
-  "handle": "SWISSQUOTE-AS",
-  "description": "Swissquote Bank SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 31141,
+  "metadata" : {
+    "handle" : "SWISSQUOTE-AS",
+    "description" : "Swissquote Bank SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.192.17.0/24",
       "91.220.23.0/24",
       "94.228.57.0/24",
       "94.228.59.0/24",
       "194.6.188.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "asn": 140214,
-  "handle": "GPIL-AS-AP",
-  "description": "Create Prominent Information Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140214,
+  "metadata" : {
+    "handle" : "GPIL-AS-AP",
+    "description" : "Create Prominent Information Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.12.208.0/23",
       "103.148.145.0/24",
       "103.173.56.0/24",
       "103.175.255.0/24",
       "157.20.198.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

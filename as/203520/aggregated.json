@@ -1,13 +1,16 @@
 {
-  "asn": 203520,
-  "handle": "XANTARO",
-  "description": "Xantaro Holding GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203520,
+  "metadata" : {
+    "handle" : "XANTARO",
+    "description" : "Xantaro Holding GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.16.196.0/23",
       "185.16.199.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:dfc0::/47",
       "2a03:dfc0:3::/48"
     ]

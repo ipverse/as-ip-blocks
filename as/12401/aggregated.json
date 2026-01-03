@@ -1,13 +1,16 @@
 {
-  "asn": 12401,
-  "handle": "INTERNIC-AS12401",
-  "description": "internic Datenkommunikations GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12401,
+  "metadata" : {
+    "handle" : "INTERNIC-AS12401",
+    "description" : "internic Datenkommunikations GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.133.109.0/24",
       "212.126.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:4100::/32"
     ]
   }

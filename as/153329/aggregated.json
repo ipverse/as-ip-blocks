@@ -1,11 +1,14 @@
 {
-  "asn": 153329,
-  "handle": "ROAR-AS-AP",
-  "description": "Roar Zone",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153329,
+  "metadata" : {
+    "handle" : "ROAR-AS-AP",
+    "description" : "Roar Zone",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.187.56.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

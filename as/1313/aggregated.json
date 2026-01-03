@@ -1,9 +1,12 @@
 {
-  "asn": 1313,
-  "handle": "ADOBE1-AS-AS",
-  "description": "Adobe Systems Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1313,
+  "metadata" : {
+    "handle" : "ADOBE1-AS-AS",
+    "description" : "Adobe Systems Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "130.248.10.0/23",
       "130.248.24.0/23",
       "130.248.30.0/23",
@@ -11,7 +14,7 @@
       "192.150.9.0/24",
       "192.150.22.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:108:4028::/48"
     ]
   }

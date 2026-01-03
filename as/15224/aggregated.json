@@ -1,9 +1,12 @@
 {
-  "asn": 15224,
-  "handle": "OMNITURE",
-  "description": "Adobe Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 15224,
+  "metadata" : {
+    "handle" : "OMNITURE",
+    "description" : "Adobe Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.140.40.0/21",
       "63.140.56.0/21",
       "66.117.16.0/23",
@@ -36,7 +39,7 @@
       "216.104.214.0/23",
       "216.104.218.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:fb00:1000::/47",
       "2620:113:1000::/46",
       "2620:113:1004::/47",

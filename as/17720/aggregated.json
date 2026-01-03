@@ -1,13 +1,16 @@
 {
-  "asn": 17720,
-  "handle": "TTECH-AS-AP",
-  "description": "TREEN TECHNOLOGY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17720,
+  "metadata" : {
+    "handle" : "TTECH-AS-AP",
+    "description" : "TREEN TECHNOLOGY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.26.6.0/24",
       "203.29.96.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:be00::/48"
     ]
   }

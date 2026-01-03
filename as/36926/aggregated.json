@@ -1,9 +1,12 @@
 {
-  "asn": 36926,
-  "handle": "CKL1-ASN",
-  "description": "Airtel Networks Kenya Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36926,
+  "metadata" : {
+    "handle" : "CKL1-ASN",
+    "description" : "Airtel Networks Kenya Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.223.57.0/24",
       "41.223.58.0/23",
       "102.0.1.0/24",
@@ -17,7 +20,7 @@
       "154.152.0.0/13",
       "197.157.190.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:e9c8::/32"
     ]
   }

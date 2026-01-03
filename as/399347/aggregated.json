@@ -1,16 +1,19 @@
 {
-  "asn": 399347,
-  "handle": "SIMPLE-FIBER-OPE",
-  "description": "Simple Fiber LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399347,
+  "metadata" : {
+    "handle" : "SIMPLE-FIBER-OPE",
+    "description" : "Simple Fiber LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.83.54.0/24",
       "38.102.14.0/24",
       "130.250.226.0/24",
       "167.150.0.0/24",
       "204.15.43.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:2bc::/36"
     ]
   }

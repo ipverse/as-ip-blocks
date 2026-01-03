@@ -1,12 +1,15 @@
 {
-  "asn": 211170,
-  "handle": "ASN-SNB",
-  "description": "Stromnetz Berlin GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211170,
+  "metadata" : {
+    "handle" : "ASN-SNB",
+    "description" : "Stromnetz Berlin GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.42.22.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a09:3c0::/29"
     ]
   }

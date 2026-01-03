@@ -1,11 +1,14 @@
 {
-  "asn": 7297,
-  "handle": "AP-AS",
-  "description": "The Associated Press",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7297,
+  "metadata" : {
+    "handle" : "AP-AS",
+    "description" : "The Associated Press",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.1.0.0/18"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

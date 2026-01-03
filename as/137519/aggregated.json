@@ -1,12 +1,15 @@
 {
-  "asn": 137519,
-  "handle": "HPL-AS-AP",
-  "description": "Healthcare Pharmaceuticals Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137519,
+  "metadata" : {
+    "handle" : "HPL-AS-AP",
+    "description" : "Healthcare Pharmaceuticals Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.111.126.0/24",
       "103.118.18.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

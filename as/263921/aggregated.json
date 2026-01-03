@@ -1,12 +1,15 @@
 {
-  "asn": 263921,
-  "handle": "PCNET-TELECOM",
-  "description": "PCNET Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263921,
+  "metadata" : {
+    "handle" : "PCNET-TELECOM",
+    "description" : "PCNET Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.185.244.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:27c4::/32"
     ]
   }

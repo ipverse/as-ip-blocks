@@ -1,14 +1,17 @@
 {
-  "asn": 203714,
-  "handle": "LLCFLEX-AS",
-  "description": "LLC Flex",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203714,
+  "metadata" : {
+    "handle" : "LLCFLEX-AS",
+    "description" : "LLC Flex",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.134.60.0/22",
       "176.53.180.0/22",
       "185.53.104.0/23",
       "185.207.2.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

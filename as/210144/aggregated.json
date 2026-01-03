@@ -1,13 +1,16 @@
 {
-  "asn": 210144,
-  "handle": "ZADEASRL",
-  "description": "ZADEA SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210144,
+  "metadata" : {
+    "handle" : "ZADEASRL",
+    "description" : "ZADEA SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.132.48.0/22",
       "185.141.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0d:e800::/29"
     ]
   }

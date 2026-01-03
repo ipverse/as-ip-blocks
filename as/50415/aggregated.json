@@ -1,12 +1,15 @@
 {
-  "asn": 50415,
-  "handle": "AHOSTING",
-  "description": "Ahosting a.s",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50415,
+  "metadata" : {
+    "handle" : "AHOSTING",
+    "description" : "Ahosting a.s.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "95.215.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:7840::/29"
     ]
   }

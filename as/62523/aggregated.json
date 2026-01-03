@@ -1,9 +1,12 @@
 {
-  "asn": 62523,
-  "handle": "CIRBN-LLC",
-  "description": "CIRBN LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62523,
+  "metadata" : {
+    "handle" : "CIRBN-LLC",
+    "description" : "CIRBN LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.89.244.0/22",
       "64.150.64.0/24",
       "76.78.250.0/24",
@@ -19,6 +22,6 @@
       "216.125.244.0/23",
       "216.125.246.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

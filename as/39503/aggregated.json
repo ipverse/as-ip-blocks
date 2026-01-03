@@ -1,14 +1,17 @@
 {
-  "asn": 39503,
-  "handle": "SPBPU-AS",
-  "description": "Peter the Great St. Petersburg Polytechnic University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39503,
+  "metadata" : {
+    "handle" : "SPBPU-AS",
+    "description" : "Peter the Great St. Petersburg Polytechnic University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.216.204.0/22",
       "194.190.225.0/24",
       "195.209.230.0/23",
       "195.209.232.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

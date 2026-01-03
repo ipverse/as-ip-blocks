@@ -1,14 +1,17 @@
 {
-  "asn": 135572,
-  "handle": "ACTINT-AS-AP",
-  "description": "ACT International Telecom Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135572,
+  "metadata" : {
+    "handle" : "ACTINT-AS-AP",
+    "description" : "ACT International Telecom Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.66.100.0/22",
       "103.149.128.0/23",
       "103.229.68.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:e9c0::/32"
     ]
   }

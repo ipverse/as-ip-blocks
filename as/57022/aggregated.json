@@ -1,9 +1,12 @@
 {
-  "asn": 57022,
-  "handle": "DATAVITA-AS",
-  "description": "HFD DATAVITA LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 57022,
+  "metadata" : {
+    "handle" : "DATAVITA-AS",
+    "description" : "HFD DATAVITA LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.70.168.0/22",
       "193.35.28.0/23",
       "193.35.30.0/24",
@@ -12,7 +15,7 @@
       "194.45.169.0/24",
       "194.45.181.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:2b00:1::/48"
     ]
   }

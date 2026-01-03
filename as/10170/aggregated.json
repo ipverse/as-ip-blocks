@@ -1,11 +1,14 @@
 {
-  "asn": 10170,
-  "handle": "BOKNET-AS",
-  "description": "The Bank of Korea",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10170,
+  "metadata" : {
+    "handle" : "BOKNET-AS",
+    "description" : "The Bank of Korea",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.104.132.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

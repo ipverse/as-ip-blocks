@@ -1,11 +1,14 @@
 {
-  "asn": 137579,
-  "handle": "BOLSYSTEM-AS-AP",
-  "description": "BOL System",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137579,
+  "metadata" : {
+    "handle" : "BOLSYSTEM-AS-AP",
+    "description" : "BOL System",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.114.20.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 25660,
-  "handle": "CTC",
-  "description": "Fidium",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25660,
+  "metadata" : {
+    "handle" : "CTC",
+    "description" : "Fidium",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.198.221.0/24",
       "104.193.76.0/22",
       "140.177.16.0/23",
@@ -12,7 +15,7 @@
       "206.221.144.0/20",
       "208.92.196.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f7e0::/32"
     ]
   }

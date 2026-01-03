@@ -1,13 +1,16 @@
 {
-  "asn": 26787,
-  "handle": "NM-01",
-  "description": "Northwestern Mutual Life Insurance Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26787,
+  "metadata" : {
+    "handle" : "NM-01",
+    "description" : "Northwestern Mutual Life Insurance Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "216.20.176.0/21",
       "216.20.184.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:6980:1b0::/47"
     ]
   }

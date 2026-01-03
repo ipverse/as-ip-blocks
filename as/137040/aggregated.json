@@ -1,12 +1,15 @@
 {
-  "asn": 137040,
-  "handle": "NZSPL-AS-AP",
-  "description": "Network Zone Solution Provider Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137040,
+  "metadata" : {
+    "handle" : "NZSPL-AS-AP",
+    "description" : "Network Zone Solution Provider Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.102.221.0/24",
       "103.133.82.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

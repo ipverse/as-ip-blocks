@@ -1,11 +1,14 @@
 {
-  "asn": 17694,
-  "handle": "JPN-DBJP",
-  "description": "Deutsche Bank Group Japan BGP connection",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17694,
+  "metadata" : {
+    "handle" : "JPN-DBJP",
+    "description" : "Deutsche Bank Group Japan BGP connection",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.83.128.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

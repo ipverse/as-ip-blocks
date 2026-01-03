@@ -1,11 +1,14 @@
 {
-  "asn": 9334,
-  "handle": "IMANILA-AS-AP",
-  "description": "iManila",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9334,
+  "metadata" : {
+    "handle" : "IMANILA-AS-AP",
+    "description" : "iManila",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.167.0.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

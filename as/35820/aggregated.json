@@ -1,14 +1,17 @@
 {
-  "asn": 35820,
-  "handle": "G3S-AS-AP",
-  "description": "G3S Technologies Co. Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35820,
+  "metadata" : {
+    "handle" : "G3S-AS-AP",
+    "description" : "G3S Technologies Co. Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.135.140.0/22",
       "103.140.70.0/23",
       "103.155.248.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:7f40::/32"
     ]
   }

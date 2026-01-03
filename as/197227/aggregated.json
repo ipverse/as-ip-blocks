@@ -1,9 +1,12 @@
 {
-  "asn": 197227,
-  "handle": "PSM-WINOGRADY",
-  "description": "Poznanska Spoldzielnia Mieszkaniowa Winogrady w Poznaniu",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197227,
+  "metadata" : {
+    "handle" : "PSM-WINOGRADY",
+    "description" : "Poznanska Spoldzielnia Mieszkaniowa Winogrady w Poznaniu",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.133.248.0/21",
       "37.247.56.0/21",
       "46.175.40.0/21",
@@ -16,7 +19,7 @@
       "195.80.128.0/21",
       "213.5.208.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:1280::/32"
     ]
   }

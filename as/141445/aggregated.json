@@ -1,10 +1,13 @@
 {
-  "asn": 141445,
-  "handle": "PXNET-AS-AP",
-  "description": "Phoenix Network",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 141445,
+  "metadata" : {
+    "handle" : "PXNET-AS-AP",
+    "description" : "Phoenix Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2406:840:feff::/48"
     ]
   }

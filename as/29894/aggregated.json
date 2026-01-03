@@ -1,9 +1,12 @@
 {
-  "asn": 29894,
-  "handle": "SCRTC",
-  "description": "South Central Rural Telecommunications Cooperative Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29894,
+  "metadata" : {
+    "handle" : "SCRTC",
+    "description" : "South Central Rural Telecommunications Cooperative Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.130.128.0/18",
       "66.38.31.0/24",
       "66.38.32.0/21",
@@ -12,6 +15,6 @@
       "169.136.32.0/19",
       "216.122.32.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

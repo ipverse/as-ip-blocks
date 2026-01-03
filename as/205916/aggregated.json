@@ -1,12 +1,15 @@
 {
-  "asn": 205916,
-  "handle": "FREJAEID",
-  "description": "Freja eID Group AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 205916,
+  "metadata" : {
+    "handle" : "FREJAEID",
+    "description" : "Freja eID Group AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.202.64.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0a:d240::/29"
     ]
   }

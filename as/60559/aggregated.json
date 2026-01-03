@@ -1,15 +1,18 @@
 {
-  "asn": 60559,
-  "handle": "ASMAXFON",
-  "description": "Maxfon Srl",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60559,
+  "metadata" : {
+    "handle" : "ASMAXFON",
+    "description" : "Maxfon Srl",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.29.160.0/23",
       "185.29.162.0/24",
       "195.32.16.0/22",
       "195.32.21.0/24",
       "195.32.22.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

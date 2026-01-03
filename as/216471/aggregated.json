@@ -1,13 +1,16 @@
 {
-  "asn": 216471,
-  "handle": "DEVOUT",
-  "description": "Devout BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 216471,
+  "metadata" : {
+    "handle" : "DEVOUT",
+    "description" : "Devout BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.179.91.0/24",
       "193.36.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:aa40::/29"
     ]
   }

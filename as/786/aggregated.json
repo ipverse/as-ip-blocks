@@ -1,9 +1,12 @@
 {
-  "asn": 786,
-  "handle": "JANET",
-  "description": "Jisc Services Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 786,
+  "metadata" : {
+    "handle" : "JANET",
+    "description" : "Jisc Services Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.88.80.0/23",
       "46.254.200.0/21",
       "77.241.76.0/22",
@@ -191,7 +194,7 @@
       "212.121.192.0/19",
       "212.219.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:630::/32",
       "2001:678:718::/48",
       "2a03:aba0::/29",

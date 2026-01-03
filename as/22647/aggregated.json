@@ -1,9 +1,12 @@
 {
-  "asn": 22647,
-  "handle": "CONSOLIDATED-FLORIDA",
-  "description": "Fidium",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22647,
+  "metadata" : {
+    "handle" : "CONSOLIDATED-FLORIDA",
+    "description" : "Fidium",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.243.227.0/24",
       "66.243.228.0/22",
       "67.158.128.0/22",
@@ -34,6 +37,6 @@
       "216.227.86.0/23",
       "216.227.124.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

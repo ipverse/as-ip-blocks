@@ -1,9 +1,12 @@
 {
-  "asn": 48166,
-  "handle": "FORTEX-AS",
-  "description": "FORTEX CJSC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48166,
+  "metadata" : {
+    "handle" : "FORTEX-AS",
+    "description" : "FORTEX CJSC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.250.232.0/21",
       "89.22.16.0/20",
       "91.133.0.0/19",
@@ -12,7 +15,7 @@
       "185.61.92.0/22",
       "194.9.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:7760::/32"
     ]
   }

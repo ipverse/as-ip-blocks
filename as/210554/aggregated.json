@@ -1,15 +1,18 @@
 {
-  "asn": 210554,
-  "handle": "METEORCLOUD",
-  "description": "Meteor Cloud LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210554,
+  "metadata" : {
+    "handle" : "METEORCLOUD",
+    "description" : "Meteor Cloud LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "151.243.24.0/24",
       "151.244.40.0/24",
       "198.1.195.0/24",
       "198.89.99.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:b641:390::/44",
       "2a14:67c1:b300::/48"
     ]

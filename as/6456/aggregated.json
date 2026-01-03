@@ -1,12 +1,15 @@
 {
-  "asn": 6456,
-  "handle": "ALTOPIA",
-  "description": "Altopia Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6456,
+  "metadata" : {
+    "handle" : "ALTOPIA",
+    "description" : "Altopia Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.90.168.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:cf0::/48"
     ]
   }

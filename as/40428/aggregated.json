@@ -1,9 +1,12 @@
 {
-  "asn": 40428,
-  "handle": "PANDORA-EQX-SJL",
-  "description": "Pandora Media LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40428,
+  "metadata" : {
+    "handle" : "PANDORA-EQX-SJL",
+    "description" : "Pandora Media LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.116.161.0/24",
       "199.116.162.0/24",
       "199.116.164.0/23",
@@ -12,7 +15,7 @@
       "208.85.46.0/23",
       "209.196.209.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:106:e001::/48",
       "2620:106:e002::/48",
       "2620:106:e007::/48",

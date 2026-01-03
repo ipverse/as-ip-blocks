@@ -1,9 +1,12 @@
 {
-  "asn": 8732,
-  "handle": "COMCOR-AS",
-  "description": "JSC Comcor",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8732,
+  "metadata" : {
+    "handle" : "COMCOR-AS",
+    "description" : "JSC Comcor",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.13.32.0/19",
       "62.117.64.0/18",
       "77.108.64.0/18",
@@ -19,7 +22,7 @@
       "213.79.64.0/18",
       "213.171.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:290::/32"
     ]
   }

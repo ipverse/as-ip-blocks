@@ -1,9 +1,12 @@
 {
-  "asn": 137910,
-  "handle": "WAVECOMM-AS-AP",
-  "description": "Wavecomm (Private) Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137910,
+  "metadata" : {
+    "handle" : "WAVECOMM-AS-AP",
+    "description" : "Wavecomm (Private) Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "59.103.48.0/23",
       "59.103.59.0/24",
       "59.103.60.0/22",
@@ -11,6 +14,6 @@
       "160.30.175.0/24",
       "163.61.136.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

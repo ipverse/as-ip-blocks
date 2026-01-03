@@ -1,14 +1,17 @@
 {
-  "asn": 197831,
-  "handle": "DISKUS-AS",
-  "description": "Telekom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197831,
+  "metadata" : {
+    "handle" : "DISKUS-AS",
+    "description" : "Telekom Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.228.30.0/23",
       "91.234.80.0/22",
       "91.244.80.0/20",
       "176.104.120.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 45040,
-  "handle": "EXTRAIP-AS",
-  "description": "ExtraIP B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45040,
+  "metadata" : {
+    "handle" : "EXTRAIP-AS",
+    "description" : "ExtraIP B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.152.76.0/22",
       "185.216.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:b9c0::/32"
     ]
   }

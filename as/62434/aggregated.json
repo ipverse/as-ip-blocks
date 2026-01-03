@@ -1,9 +1,12 @@
 {
-  "asn": 62434,
-  "handle": "DFS",
-  "description": "DFS Deutsche Flugsicherung GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62434,
+  "metadata" : {
+    "handle" : "DFS",
+    "description" : "DFS Deutsche Flugsicherung GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.28.130.0/23",
       "193.28.132.0/24",
       "194.49.134.0/24",
@@ -15,7 +18,7 @@
       "194.49.218.0/24",
       "194.49.220.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:194c::/48"
     ]
   }

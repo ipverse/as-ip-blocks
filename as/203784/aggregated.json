@@ -1,12 +1,15 @@
 {
-  "asn": 203784,
-  "handle": "FIBERTELECOM-AS",
-  "description": "Fiber Telecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203784,
+  "metadata" : {
+    "handle" : "FIBERTELECOM-AS",
+    "description" : "Fiber Telecom Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "178.170.245.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:5a00:2f::/48"
     ]
   }

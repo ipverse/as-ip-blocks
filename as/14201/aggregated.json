@@ -1,9 +1,12 @@
 {
-  "asn": 14201,
-  "handle": "TELETECH",
-  "description": "TeleTech Holdings Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14201,
+  "metadata" : {
+    "handle" : "TELETECH",
+    "description" : "TeleTech Holdings Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "170.65.32.0/22",
       "170.65.88.0/23",
       "170.65.94.0/24",
@@ -12,6 +15,6 @@
       "170.65.172.0/22",
       "170.65.237.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 49832,
-  "handle": "AS-QBIC",
-  "description": "QBIC COMMUNICATIONS DMCC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49832,
+  "metadata" : {
+    "handle" : "AS-QBIC",
+    "description" : "QBIC COMMUNICATIONS DMCC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "167.160.20.0/24",
       "185.88.11.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:1ec7:100::/48"
     ]
   }

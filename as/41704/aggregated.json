@@ -1,9 +1,12 @@
 {
-  "asn": 41704,
-  "handle": "OGS-AS",
-  "description": "JSC Ufanet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41704,
+  "metadata" : {
+    "handle" : "OGS-AS",
+    "description" : "JSC Ufanet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.191.184.0/21",
       "46.191.240.0/20",
       "79.140.16.0/20",
@@ -14,7 +17,7 @@
       "136.169.240.0/20",
       "145.255.16.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:1c8:7::/48",
       "2a02:1c8:700::/40"
     ]

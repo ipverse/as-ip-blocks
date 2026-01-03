@@ -1,15 +1,18 @@
 {
-  "asn": 32989,
-  "handle": "BYTESIZEDNETWORKS",
-  "description": "QuickCentralNetworks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32989,
+  "metadata" : {
+    "handle" : "BYTESIZEDNETWORKS",
+    "description" : "QuickCentralNetworks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.142.40.0/24",
       "130.12.220.0/22",
       "199.33.118.0/24",
       "207.228.204.0/23",
       "207.228.206.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

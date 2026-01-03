@@ -1,12 +1,15 @@
 {
-  "asn": 36112,
-  "handle": "PHSD-DATACENTER",
-  "description": "Park Hill School District",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36112,
+  "metadata" : {
+    "handle" : "PHSD-DATACENTER",
+    "description" : "Park Hill School District",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "70.251.179.0/24",
       "199.27.188.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

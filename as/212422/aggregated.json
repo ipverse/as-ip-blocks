@@ -1,9 +1,12 @@
 {
-  "asn": 212422,
-  "handle": "CERT-PL",
-  "description": "NAUKOWA I AKADEMICKA SIEC KOMPUTEROWA - PANSTWOWY INSTYTUT BADAWCZY",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212422,
+  "metadata" : {
+    "handle" : "CERT-PL",
+    "description" : "NAUKOWA I AKADEMICKA SIEC KOMPUTEROWA - PANSTWOWY INSTYTUT BADAWCZY",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.59.94.0/23",
       "193.59.98.0/24",
       "193.59.102.0/23",
@@ -12,6 +15,6 @@
       "195.187.35.0/24",
       "195.187.53.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

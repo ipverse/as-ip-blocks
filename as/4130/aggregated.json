@@ -1,15 +1,18 @@
 {
-  "asn": 4130,
-  "handle": "UPITT-AS",
-  "description": "University of Pittsburgh",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4130,
+  "metadata" : {
+    "handle" : "UPITT-AS",
+    "description" : "University of Pittsburgh",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "136.142.0.0/16",
       "192.52.163.0/24",
       "192.52.164.0/23",
       "192.52.240.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:102:4000::/42"
     ]
   }

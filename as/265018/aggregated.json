@@ -1,13 +1,16 @@
 {
-  "asn": 265018,
-  "handle": "DOMUS-TELECOM",
-  "description": "DOMUS TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265018,
+  "metadata" : {
+    "handle" : "DOMUS-TELECOM",
+    "description" : "DOMUS TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "160.238.200.0/22",
       "170.84.196.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:317c::/32"
     ]
   }

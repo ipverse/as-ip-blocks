@@ -1,9 +1,12 @@
 {
-  "asn": 37133,
-  "handle": "AIRTEL-TZ-AS",
-  "description": "Airtel Tanzania",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37133,
+  "metadata" : {
+    "handle" : "AIRTEL-TZ-AS",
+    "description" : "Airtel Tanzania",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.75.208.0/20",
       "156.156.66.0/24",
       "156.156.128.0/19",
@@ -27,7 +30,7 @@
       "197.186.56.0/21",
       "197.186.64.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f2f8::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 399073,
-  "handle": "TBB-ASN",
-  "description": "BUNNY TECHNOLOGY LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 399073,
+  "metadata" : {
+    "handle" : "TBB-ASN",
+    "description" : "BUNNY TECHNOLOGY LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.6.51.0/24",
       "31.56.115.0/24",
       "31.56.210.0/24",
@@ -186,6 +189,6 @@
       "216.254.1.0/24",
       "217.145.78.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

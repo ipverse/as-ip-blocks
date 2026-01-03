@@ -1,9 +1,12 @@
 {
-  "asn": 40772,
-  "handle": "VELOCITER-WIRELESS-INC",
-  "description": "ezWave Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 40772,
+  "metadata" : {
+    "handle" : "VELOCITER-WIRELESS-INC",
+    "description" : "ezWave Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.173.96.0/24",
       "68.113.49.0/24",
       "68.189.29.0/24",
@@ -12,6 +15,6 @@
       "208.89.36.0/22",
       "208.92.155.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

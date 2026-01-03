@@ -1,13 +1,16 @@
 {
-  "asn": 273890,
-  "handle": "SERVICIOS-NAP-VEN-CA",
-  "description": "SERVICIOS NAP VEN C.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 273890,
+  "metadata" : {
+    "handle" : "SERVICIOS-NAP-VEN-CA",
+    "description" : "SERVICIOS NAP VEN C.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.68.90.0/23",
       "45.68.102.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2801:18d:1::/48",
       "2801:18d:2::/47",
       "2801:18d:a::/47",

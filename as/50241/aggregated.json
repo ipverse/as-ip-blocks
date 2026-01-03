@@ -1,12 +1,15 @@
 {
-  "asn": 50241,
-  "handle": "UNITTEL-AS",
-  "description": "UnitTelecom Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50241,
+  "metadata" : {
+    "handle" : "UNITTEL-AS",
+    "description" : "UnitTelecom Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.95.80.0/21",
       "176.115.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

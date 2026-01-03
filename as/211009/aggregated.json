@@ -1,10 +1,13 @@
 {
-  "asn": 211009,
-  "handle": "KAA-AS",
-  "description": "Kazyanin Andrei Anatolevich",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 211009,
+  "metadata" : {
+    "handle" : "KAA-AS",
+    "description" : "Kazyanin Andrei Anatolevich",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a09:9300::/29",
       "2a09:ba40::/29",
       "2a0b:9480::/29",

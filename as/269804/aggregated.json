@@ -1,15 +1,18 @@
 {
-  "asn": 269804,
-  "handle": "SEPCOM-COMUNICACIONES",
-  "description": "SEPCOM COMUNICACIONES SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 269804,
+  "metadata" : {
+    "handle" : "SEPCOM-COMUNICACIONES",
+    "description" : "SEPCOM COMUNICACIONES SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.199.71.0/24",
       "45.167.124.0/23",
       "45.167.126.0/24",
       "206.84.79.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:b5a0::/32"
     ]
   }

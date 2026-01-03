@@ -1,9 +1,12 @@
 {
-  "asn": 35986,
-  "handle": "VYVE-BROADBAND",
-  "description": "Vyve Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35986,
+  "metadata" : {
+    "handle" : "VYVE-BROADBAND",
+    "description" : "Vyve Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.40.160.0/19",
       "8.40.192.0/20",
       "24.31.0.0/22",
@@ -224,7 +227,7 @@
       "216.79.140.0/23",
       "216.240.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:1d40::/32",
       "2604:8900::/32",
       "2606:2200::/32"

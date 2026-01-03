@@ -1,12 +1,15 @@
 {
-  "asn": 10023,
-  "handle": "TERRYCREWS-AS-AP",
-  "description": "Terry Crews",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10023,
+  "metadata" : {
+    "handle" : "TERRYCREWS-AS-AP",
+    "description" : "Terry Crews",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.86.48.0/22",
       "203.22.251.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

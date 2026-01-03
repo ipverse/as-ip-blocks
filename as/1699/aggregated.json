@@ -1,9 +1,12 @@
 {
-  "asn": 1699,
-  "handle": "ANS-1699-AS",
-  "description": "Verizon Business",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1699,
+  "metadata" : {
+    "handle" : "ANS-1699-AS",
+    "description" : "Verizon Business",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.65.22.0/24",
       "63.65.25.0/24",
       "63.65.236.0/23",
@@ -42,6 +45,6 @@
       "213.71.173.0/24",
       "213.71.243.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

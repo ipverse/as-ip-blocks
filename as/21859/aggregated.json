@@ -1,9 +1,12 @@
 {
-  "asn": 21859,
-  "handle": "ZEN-ECN",
-  "description": "Zenlayer Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21859,
+  "metadata" : {
+    "handle" : "ZEN-ECN",
+    "description" : "Zenlayer Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.252.82.0/24",
       "8.23.192.0/23",
       "23.90.128.0/18",
@@ -514,7 +517,7 @@
       "217.198.191.0/24",
       "223.26.72.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:3700::/48",
       "2404:3880::/32",
       "240d:c010:14b::/48",

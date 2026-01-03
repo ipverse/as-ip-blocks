@@ -1,15 +1,18 @@
 {
-  "asn": 132974,
-  "handle": "SURAJ-AS",
-  "description": "Suraj Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132974,
+  "metadata" : {
+    "handle" : "SURAJ-AS",
+    "description" : "Suraj Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.230.36.0/22",
       "103.72.6.0/23",
       "103.77.186.0/23",
       "103.243.54.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:b000::/48"
     ]
   }

@@ -1,14 +1,17 @@
 {
-  "asn": 64457,
-  "handle": "PIPEHOST-AS",
-  "description": "Matteo Fruhwald trading as PipeHost e.U",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64457,
+  "metadata" : {
+    "handle" : "PIPEHOST-AS",
+    "description" : "Matteo Fruhwald trading as PipeHost e.U.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "151.242.144.0/24",
       "185.224.3.0/24",
       "188.137.159.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:7c0:f100::/40",
       "2a14:7c0:f300::/40"
     ]

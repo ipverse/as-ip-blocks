@@ -1,12 +1,15 @@
 {
-  "asn": 6801,
-  "handle": "NATIONAL-RESEARCH-CENTER",
-  "description": "National Research Center Kurchatov Institute",
-  "subnets": {
-    "ipv4": [
+  "asn" : 6801,
+  "metadata" : {
+    "handle" : "NATIONAL-RESEARCH-CENTER",
+    "description" : "National Research Center Kurchatov Institute",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.206.0.0/17",
       "144.206.160.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

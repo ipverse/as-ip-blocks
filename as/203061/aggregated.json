@@ -1,9 +1,12 @@
 {
-  "asn": 203061,
-  "handle": "ITPROXIMUS",
-  "description": "UAB code200",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203061,
+  "metadata" : {
+    "handle" : "ITPROXIMUS",
+    "description" : "UAB code200",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.32.0/22",
       "5.180.220.0/22",
       "5.181.88.0/22",
@@ -91,7 +94,7 @@
       "213.201.132.0/24",
       "213.201.139.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a14:c881::/33"
     ]
   }

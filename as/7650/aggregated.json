@@ -1,9 +1,12 @@
 {
-  "asn": 7650,
-  "handle": "EDUHK-AS-AP",
-  "description": "Joint Universities Computer Centre Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7650,
+  "metadata" : {
+    "handle" : "EDUHK-AS-AP",
+    "description" : "Joint Universities Computer Centre Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "175.159.128.0/20",
       "175.159.244.0/22",
       "202.40.217.0/24",
@@ -14,7 +17,7 @@
       "203.188.114.0/23",
       "203.188.116.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:ce0:2900::/48"
     ]
   }

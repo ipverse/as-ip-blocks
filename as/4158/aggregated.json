@@ -1,9 +1,12 @@
 {
-  "asn": 4158,
-  "handle": "CITYUNI-AS-AP",
-  "description": "City University of Hong Kong",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4158,
+  "metadata" : {
+    "handle" : "CITYUNI-AS-AP",
+    "description" : "City University of Hong Kong",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.214.0.0/16",
       "175.159.64.0/19",
       "175.159.200.0/21",
@@ -13,7 +16,7 @@
       "203.188.80.0/21",
       "203.188.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:ce0:5::/48"
     ]
   }

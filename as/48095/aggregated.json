@@ -1,9 +1,12 @@
 {
-  "asn": 48095,
-  "handle": "XTGLOBAL",
-  "description": "XT GLOBAL NETWORKS LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48095,
+  "metadata" : {
+    "handle" : "XTGLOBAL",
+    "description" : "XT GLOBAL NETWORKS LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.44.0/22",
       "2.56.48.0/22",
       "5.253.116.0/22",
@@ -52,6 +55,6 @@
       "195.242.208.0/22",
       "212.115.60.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

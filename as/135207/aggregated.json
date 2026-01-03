@@ -1,13 +1,16 @@
 {
-  "asn": 135207,
-  "handle": "CLOUDNET-AS",
-  "description": "Cloudnet Communications Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135207,
+  "metadata" : {
+    "handle" : "CLOUDNET-AS",
+    "description" : "Cloudnet Communications Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.123.48.0/23",
       "103.215.148.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:fe40::/48"
     ]
   }

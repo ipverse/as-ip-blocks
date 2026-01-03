@@ -1,9 +1,12 @@
 {
-  "asn": 202120,
-  "handle": "COMSAVE-AS",
-  "description": "Expereo International BV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202120,
+  "metadata" : {
+    "handle" : "COMSAVE-AS",
+    "description" : "Expereo International BV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.94.172.0/22",
       "45.94.180.0/22",
       "45.94.188.0/22",
@@ -24,6 +27,6 @@
       "185.234.220.0/22",
       "193.160.128.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

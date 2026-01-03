@@ -1,12 +1,15 @@
 {
-  "asn": 264887,
-  "handle": "VOAR-TELECOM",
-  "description": "VOAR TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 264887,
+  "metadata" : {
+    "handle" : "VOAR-TELECOM",
+    "description" : "VOAR TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.227.184.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2f60::/32"
     ]
   }

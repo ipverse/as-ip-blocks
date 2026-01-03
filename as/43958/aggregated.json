@@ -1,13 +1,16 @@
 {
-  "asn": 43958,
-  "handle": "TALLINK-AS",
-  "description": "AS Tallink Grupp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43958,
+  "metadata" : {
+    "handle" : "TALLINK-AS",
+    "description" : "AS Tallink Grupp",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.195.246.0/23",
       "193.143.8.0/21",
       "193.143.240.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

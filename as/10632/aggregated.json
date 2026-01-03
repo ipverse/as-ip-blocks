@@ -1,12 +1,15 @@
 {
-  "asn": 10632,
-  "handle": "PSE-AS",
-  "description": "Puget Sound Energy",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10632,
+  "metadata" : {
+    "handle" : "PSE-AS",
+    "description" : "Puget Sound Energy",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "204.61.32.0/24",
       "204.61.56.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

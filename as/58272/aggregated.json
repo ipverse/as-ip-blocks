@@ -1,9 +1,12 @@
 {
-  "asn": 58272,
-  "handle": "LEADERTELECOMBV-AS",
-  "description": "LeaderTelecom B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58272,
+  "metadata" : {
+    "handle" : "LEADERTELECOMBV-AS",
+    "description" : "LeaderTelecom B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.18.0.0/24",
       "37.18.23.0/24",
       "37.18.60.0/24",
@@ -95,7 +98,7 @@
       "217.150.93.0/24",
       "217.150.94.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:fd40:1::/48"
     ]
   }

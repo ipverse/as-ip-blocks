@@ -1,13 +1,16 @@
 {
-  "asn": 58927,
-  "handle": "MDGIT-AS-AP",
-  "description": "M.D.G. IT Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 58927,
+  "metadata" : {
+    "handle" : "MDGIT-AS-AP",
+    "description" : "M.D.G. IT Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.249.116.0/22",
       "103.9.68.0/22",
       "103.21.128.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

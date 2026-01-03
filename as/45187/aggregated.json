@@ -1,9 +1,12 @@
 {
-  "asn": 45187,
-  "handle": "RACKSPACE-AP",
-  "description": "Rackspace.com Hong Kong Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45187,
+  "metadata" : {
+    "handle" : "RACKSPACE-AP",
+    "description" : "Rackspace.com Hong Kong Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.70.1.0/24",
       "66.70.92.0/22",
       "66.70.107.0/24",
@@ -16,7 +19,7 @@
       "202.168.208.0/21",
       "203.60.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:1800::/32",
       "2407:fa00::/32"
     ]

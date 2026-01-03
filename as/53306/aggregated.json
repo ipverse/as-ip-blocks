@@ -1,9 +1,12 @@
 {
-  "asn": 53306,
-  "handle": "OUTSCALE-INC",
-  "description": "OUTSCALE INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53306,
+  "metadata" : {
+    "handle" : "OUTSCALE-INC",
+    "description" : "OUTSCALE INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "68.169.224.0/20",
       "157.250.12.0/22",
       "157.250.16.0/20",
@@ -11,6 +14,6 @@
       "199.244.92.0/23",
       "216.168.192.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

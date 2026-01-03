@@ -1,14 +1,17 @@
 {
-  "asn": 142451,
-  "handle": "AKDNET-AS-IN",
-  "description": "AKD NETWORK PVT LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142451,
+  "metadata" : {
+    "handle" : "AKDNET-AS-IN",
+    "description" : "AKD NETWORK PVT LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.171.124.0/23",
       "103.186.224.0/23",
       "160.19.58.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:c440::/38",
       "2407:c440:400::/39",
       "2407:c440:600::/40"

@@ -1,9 +1,12 @@
 {
-  "asn": 34450,
-  "handle": "WDC-AS",
-  "description": "NET GATE COMUNICATII SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34450,
+  "metadata" : {
+    "handle" : "WDC-AS",
+    "description" : "NET GATE COMUNICATII SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.74.3.0/24",
       "86.106.80.0/24",
       "86.106.104.0/24",
@@ -26,7 +29,7 @@
       "188.240.14.0/24",
       "188.241.209.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:b680:1::/48"
     ]
   }

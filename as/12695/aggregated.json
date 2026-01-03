@@ -1,9 +1,12 @@
 {
-  "asn": 12695,
-  "handle": "DINET-AS",
-  "description": "LLC Digital Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12695,
+  "metadata" : {
+    "handle" : "DINET-AS",
+    "description" : "LLC Digital Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "77.90.189.0/24",
       "79.137.144.0/22",
       "79.137.148.0/24",
@@ -101,7 +104,7 @@
       "213.219.248.0/22",
       "213.248.0.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:b18::/48",
       "2a00:1c48::/31",
       "2a00:f940::/48",

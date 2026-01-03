@@ -1,12 +1,15 @@
 {
-  "asn": 209039,
-  "handle": "BENOCS",
-  "description": "Benocs GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209039,
+  "metadata" : {
+    "handle" : "BENOCS",
+    "description" : "Benocs GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.42.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:1780::/47"
     ]
   }

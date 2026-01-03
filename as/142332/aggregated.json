@@ -1,13 +1,16 @@
 {
-  "asn": 142332,
-  "handle": "TELNETINDONESIA-AS-ID",
-  "description": "Telnet Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142332,
+  "metadata" : {
+    "handle" : "TELNETINDONESIA-AS-ID",
+    "description" : "Telnet Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.169.40.0/23",
       "160.22.236.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:7bc0::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 211261,
-  "handle": "FIBRANET",
-  "description": "Fibranet Tecnologia y Sistemas SL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 211261,
+  "metadata" : {
+    "handle" : "FIBRANET",
+    "description" : "Fibranet Tecnologia y Sistemas SL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.253.157.0/24",
       "103.229.168.0/24",
       "185.117.46.0/24",
@@ -13,6 +16,6 @@
       "185.210.193.0/24",
       "185.223.177.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

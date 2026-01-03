@@ -1,12 +1,15 @@
 {
-  "asn": 18338,
-  "handle": "STARVAN-AS",
-  "description": "DAOUDATA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 18338,
+  "metadata" : {
+    "handle" : "STARVAN-AS",
+    "description" : "DAOUDATA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "123.140.121.0/24",
       "222.106.99.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

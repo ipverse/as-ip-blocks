@@ -1,9 +1,12 @@
 {
-  "asn": 37333,
-  "handle": "COMTEL",
-  "description": "Comtel Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37333,
+  "metadata" : {
+    "handle" : "COMTEL",
+    "description" : "Comtel Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.76.32.0/21",
       "41.77.200.0/21",
       "41.138.64.0/21",
@@ -13,7 +16,7 @@
       "154.73.244.0/24",
       "154.73.246.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:fba0::/46",
       "2c0f:fba0:4::/47",
       "2c0f:fba0:7::/48",

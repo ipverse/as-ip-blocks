@@ -1,14 +1,17 @@
 {
-  "asn": 9590,
-  "handle": "SEHK-AP",
-  "description": "Hong Kong Exchanges and Clearing Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9590,
+  "metadata" : {
+    "handle" : "SEHK-AP",
+    "description" : "Hong Kong Exchanges and Clearing Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.162.185.0/24",
       "202.162.187.0/24",
       "203.78.5.0/24",
       "203.78.6.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

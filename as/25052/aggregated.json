@@ -1,9 +1,12 @@
 {
-  "asn": 25052,
-  "handle": "OMC-ASN",
-  "description": "O.M.C. COMPUTERS \u0026 COMMUNICATIONS LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25052,
+  "metadata" : {
+    "handle" : "OMC-ASN",
+    "description" : "O.M.C. COMPUTERS & COMMUNICATIONS LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.133.101.0/24",
       "83.229.80.0/23",
       "109.207.77.0/24",
@@ -11,7 +14,7 @@
       "185.162.127.0/24",
       "185.220.206.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:c5c0:400::/48"
     ]
   }

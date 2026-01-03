@@ -1,9 +1,12 @@
 {
-  "asn": 50593,
-  "handle": "T1-GROUP-AS",
-  "description": "T1-Group LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50593,
+  "metadata" : {
+    "handle" : "T1-GROUP-AS",
+    "description" : "T1-Group LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "93.125.50.0/24",
       "178.172.204.0/24",
       "178.172.214.0/24",
@@ -11,6 +14,6 @@
       "178.172.234.0/24",
       "213.184.234.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

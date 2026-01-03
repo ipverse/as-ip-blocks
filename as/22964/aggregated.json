@@ -1,9 +1,12 @@
 {
-  "asn": 22964,
-  "handle": "ISPT",
-  "description": "ISP Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22964,
+  "metadata" : {
+    "handle" : "ISPT",
+    "description" : "ISP Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.90.49.0/24",
       "198.133.32.0/24",
       "198.133.34.0/24",
@@ -22,7 +25,7 @@
       "209.167.173.0/24",
       "216.95.255.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:106:f000::/47"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 43319,
-  "handle": "GP-INTERNET-AS",
-  "description": "GP Internet Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43319,
+  "metadata" : {
+    "handle" : "GP-INTERNET-AS",
+    "description" : "GP Internet Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.131.144.0/20",
       "91.197.8.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

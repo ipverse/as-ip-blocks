@@ -1,15 +1,18 @@
 {
-  "asn": 201186,
-  "handle": "DINET-PROTECT-AS",
-  "description": "LLC Digital Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201186,
+  "metadata" : {
+    "handle" : "DINET-PROTECT-AS",
+    "description" : "LLC Digital Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.24.108.0/24",
       "185.79.134.0/23",
       "185.112.58.0/24",
       "185.168.209.0/24",
       "185.177.236.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

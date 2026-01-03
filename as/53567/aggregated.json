@@ -1,12 +1,15 @@
 {
-  "asn": 53567,
-  "handle": "VOLSTATE",
-  "description": "VOLstate LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53567,
+  "metadata" : {
+    "handle" : "VOLSTATE",
+    "description" : "VOLstate LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.15.152.0/21",
       "209.235.188.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

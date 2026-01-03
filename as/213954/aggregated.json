@@ -1,9 +1,12 @@
 {
-  "asn": 213954,
-  "handle": "GTS-AS",
-  "description": "Global Transit Systems LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213954,
+  "metadata" : {
+    "handle" : "GTS-AS",
+    "description" : "Global Transit Systems LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "104.245.240.0/22",
       "157.22.16.0/22",
       "157.22.44.0/22",
@@ -13,6 +16,6 @@
       "172.83.252.0/22",
       "216.40.72.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,9 +1,12 @@
 {
-  "asn": 201838,
-  "handle": "ASN-COMMUNITYFIBRE",
-  "description": "Community Fibre Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201838,
+  "metadata" : {
+    "handle" : "ASN-COMMUNITYFIBRE",
+    "description" : "Community Fibre Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.12.172.0/22",
       "45.81.72.0/22",
       "45.86.8.0/22",
@@ -106,7 +109,7 @@
       "212.132.192.0/18",
       "213.32.248.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:6b60::/28",
       "2a03:3820::/32"
     ]

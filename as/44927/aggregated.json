@@ -1,9 +1,12 @@
 {
-  "asn": 44927,
-  "handle": "TELECOM-MPK",
-  "description": "LLC Telecom MPK",
-  "subnets": {
-    "ipv4": [
+  "asn" : 44927,
+  "metadata" : {
+    "handle" : "TELECOM-MPK",
+    "description" : "LLC Telecom MPK",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "62.84.104.0/21",
       "91.203.80.0/22",
       "91.224.76.0/23",
@@ -15,6 +18,6 @@
       "192.162.250.0/23",
       "193.201.88.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

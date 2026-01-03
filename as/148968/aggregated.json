@@ -1,9 +1,12 @@
 {
-  "asn": 148968,
-  "handle": "FALCORE-AS-AP",
-  "description": "Falcore Investments Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 148968,
+  "metadata" : {
+    "handle" : "FALCORE-AS-AP",
+    "description" : "Falcore Investments Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.74.190.0/23",
       "103.118.161.0/24",
       "103.174.228.0/23",
@@ -14,7 +17,7 @@
       "203.19.132.0/24",
       "203.25.98.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:d500::/47",
       "2001:df7:d980::/48",
       "2400:5be0::/32"

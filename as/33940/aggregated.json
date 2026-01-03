@@ -1,12 +1,15 @@
 {
-  "asn": 33940,
-  "handle": "WICHMANN-AS",
-  "description": "Wichmann IT-Services GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33940,
+  "metadata" : {
+    "handle" : "WICHMANN-AS",
+    "description" : "Wichmann IT-Services GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.17.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:f200::/29"
     ]
   }

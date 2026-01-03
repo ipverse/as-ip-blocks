@@ -1,16 +1,19 @@
 {
-  "asn": 21069,
-  "handle": "ASN-METANET",
-  "description": "METANET AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21069,
+  "metadata" : {
+    "handle" : "ASN-METANET",
+    "description" : "METANET AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.231.200.0/21",
       "80.74.128.0/19",
       "81.173.82.0/23",
       "94.126.16.0/21",
       "185.46.56.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:1128::/32"
     ]
   }

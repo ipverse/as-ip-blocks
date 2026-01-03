@@ -1,13 +1,16 @@
 {
-  "asn": 64213,
-  "handle": "AS-ERCELITE",
-  "description": "ERC Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64213,
+  "metadata" : {
+    "handle" : "AS-ERCELITE",
+    "description" : "ERC Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.53.142.0/24",
       "206.83.137.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:504:57::/48"
     ]
   }

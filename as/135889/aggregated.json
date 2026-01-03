@@ -1,9 +1,12 @@
 {
-  "asn": 135889,
-  "handle": "SOFTSOURCE-AS-AP",
-  "description": "Softsource Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135889,
+  "metadata" : {
+    "handle" : "SOFTSOURCE-AS-AP",
+    "description" : "Softsource Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.79.23.0/24",
       "103.102.50.0/23",
       "103.102.52.0/24",
@@ -11,6 +14,6 @@
       "202.36.224.0/23",
       "202.62.245.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

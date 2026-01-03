@@ -1,15 +1,18 @@
 {
-  "asn": 17693,
-  "handle": "NEKONET",
-  "description": "YAMATO SYSTEM DEVELOPMENT CO. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17693,
+  "metadata" : {
+    "handle" : "NEKONET",
+    "description" : "YAMATO SYSTEM DEVELOPMENT CO. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.2.24.0/22",
       "202.130.60.0/22",
       "218.40.0.0/20",
       "219.100.32.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:7b00::/32"
     ]
   }

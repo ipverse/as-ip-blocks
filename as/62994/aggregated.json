@@ -1,9 +1,12 @@
 {
-  "asn": 62994,
-  "handle": "LCLOUD",
-  "description": "LITE CLOUD INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62994,
+  "metadata" : {
+    "handle" : "LCLOUD",
+    "description" : "LITE CLOUD INC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.23.54.0/24",
       "16.7.77.0/24",
       "16.7.78.0/24",
@@ -15,6 +18,6 @@
       "209.124.175.0/24",
       "216.73.128.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

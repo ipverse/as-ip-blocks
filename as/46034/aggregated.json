@@ -1,14 +1,17 @@
 {
-  "asn": 46034,
-  "handle": "DEPKES-AS-ID",
-  "description": "Departemen Kesehatan",
-  "subnets": {
-    "ipv4": [
+  "asn" : 46034,
+  "metadata" : {
+    "handle" : "DEPKES-AS-ID",
+    "description" : "Departemen Kesehatan",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.53.20.0/24",
       "103.74.143.0/24",
       "103.74.164.0/24",
       "202.70.136.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

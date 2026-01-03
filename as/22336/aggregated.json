@@ -1,12 +1,15 @@
 {
-  "asn": 22336,
-  "handle": "PELLA",
-  "description": "Pella Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22336,
+  "metadata" : {
+    "handle" : "PELLA",
+    "description" : "Pella Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "148.78.65.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:81b:f000::/48"
     ]
   }

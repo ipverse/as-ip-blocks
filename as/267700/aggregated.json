@@ -1,13 +1,16 @@
 {
-  "asn": 267700,
-  "handle": "GUESTCHOICE-TV-RD",
-  "description": "GUESTCHOICE TV RD S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 267700,
+  "metadata" : {
+    "handle" : "GUESTCHOICE-TV-RD",
+    "description" : "GUESTCHOICE TV RD S.R.L",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.78.150.0/24",
       "45.164.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2803:d1a0:8000::/33"
     ]
   }

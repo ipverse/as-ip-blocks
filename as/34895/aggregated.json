@@ -1,13 +1,16 @@
 {
-  "asn": 34895,
-  "handle": "HOSTNET-DE-AS",
-  "description": "hostNET Medien GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34895,
+  "metadata" : {
+    "handle" : "HOSTNET-DE-AS",
+    "description" : "hostNET Medien GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.138.64.0/18",
       "185.171.136.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:4da0::/48"
     ]
   }

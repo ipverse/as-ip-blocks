@@ -1,13 +1,16 @@
 {
-  "asn": 35052,
-  "handle": "AS-AT-TLD-SERVICES",
-  "description": "ACONET",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35052,
+  "metadata" : {
+    "handle" : "AS-AT-TLD-SERVICES",
+    "description" : "ACONET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.76.243.0/24",
       "192.92.125.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:1c::/48",
       "2001:67c:133c::/48"
     ]

@@ -1,16 +1,19 @@
 {
-  "asn": 199221,
-  "handle": "TBG-NET-AS",
-  "description": "TBG OOD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199221,
+  "metadata" : {
+    "handle" : "TBG-NET-AS",
+    "description" : "TBG OOD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.172.201.0/24",
       "38.172.202.0/24",
       "78.142.21.0/24",
       "79.124.48.0/24",
       "130.185.228.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a06:9687::/32"
     ]
   }

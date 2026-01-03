@@ -1,9 +1,12 @@
 {
-  "asn": 398779,
-  "handle": "ACEHOST",
-  "description": "Ace Host LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 398779,
+  "metadata" : {
+    "handle" : "ACEHOST",
+    "description" : "Ace Host LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.183.78.0/24",
       "23.173.136.0/24",
       "31.40.193.0/24",
@@ -30,7 +33,7 @@
       "209.216.92.0/23",
       "209.216.94.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:6680:8::/48",
       "2606:6680:49::/48",
       "2606:6680:50::/48",

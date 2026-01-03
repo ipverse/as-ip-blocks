@@ -1,9 +1,12 @@
 {
-  "asn": 137226,
-  "handle": "ACCTN-AS-AP",
-  "description": "ANGELES CITY CABLE TELEVISION NETWORK INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137226,
+  "metadata" : {
+    "handle" : "ACCTN-AS-AP",
+    "description" : "ANGELES CITY CABLE TELEVISION NETWORK INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.105.90.0/24",
       "111.125.108.0/22",
       "111.125.120.0/22",
@@ -16,6 +19,6 @@
       "120.29.117.0/24",
       "204.145.4.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

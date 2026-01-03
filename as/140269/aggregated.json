@@ -1,12 +1,15 @@
 {
-  "asn": 140269,
-  "handle": "KOTALIPARANET-AS-AP",
-  "description": "Kotalipara Net",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140269,
+  "metadata" : {
+    "handle" : "KOTALIPARANET-AS-AP",
+    "description" : "Kotalipara Net",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.191.162.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:96e0:1000::/36"
     ]
   }

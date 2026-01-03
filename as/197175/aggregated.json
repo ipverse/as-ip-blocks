@@ -1,9 +1,12 @@
 {
-  "asn": 197175,
-  "handle": "VITA-AS",
-  "description": "Albina Anatoljevna Kolesnik PE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 197175,
+  "metadata" : {
+    "handle" : "VITA-AS",
+    "description" : "Albina Anatoljevna Kolesnik PE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.206.212.0/23",
       "91.225.72.0/22",
       "91.244.232.0/22",
@@ -14,6 +17,6 @@
       "185.237.248.0/22",
       "193.176.154.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

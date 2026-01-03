@@ -1,9 +1,12 @@
 {
-  "asn": 133772,
-  "handle": "NELNET-AS-AP",
-  "description": "New Eagle Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133772,
+  "metadata" : {
+    "handle" : "NELNET-AS-AP",
+    "description" : "New Eagle Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.235.24.0/21",
       "43.229.0.0/22",
       "61.14.172.0/24",
@@ -33,7 +36,7 @@
       "208.87.166.0/24",
       "210.16.116.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:f400::/48"
     ]
   }

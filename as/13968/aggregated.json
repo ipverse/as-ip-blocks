@@ -1,9 +1,12 @@
 {
-  "asn": 13968,
-  "handle": "CAISO-NET-BLK",
-  "description": "CALIFORNIA ISO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13968,
+  "metadata" : {
+    "handle" : "CAISO-NET-BLK",
+    "description" : "CALIFORNIA ISO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "12.200.57.0/24",
       "12.200.60.0/24",
       "12.231.58.0/24",
@@ -11,6 +14,6 @@
       "45.42.19.0/24",
       "45.42.22.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

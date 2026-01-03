@@ -1,12 +1,15 @@
 {
-  "asn": 16622,
-  "handle": "NOVARAD",
-  "description": "Novarad Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16622,
+  "metadata" : {
+    "handle" : "NOVARAD",
+    "description" : "Novarad Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "198.246.26.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fd54::/48"
     ]
   }

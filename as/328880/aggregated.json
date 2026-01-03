@@ -1,9 +1,12 @@
 {
-  "asn": 328880,
-  "handle": "STE-INTERNET-SMART-SOLUTIONS-AS",
-  "description": "STE INTERNET SMART SOLUTIONS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328880,
+  "metadata" : {
+    "handle" : "STE-INTERNET-SMART-SOLUTIONS-AS",
+    "description" : "STE INTERNET SMART SOLUTIONS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.231.12.0/22",
       "41.231.103.0/24",
       "41.231.104.0/21",
@@ -23,6 +26,6 @@
       "197.11.144.0/21",
       "197.11.160.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

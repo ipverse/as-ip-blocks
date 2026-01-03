@@ -1,9 +1,12 @@
 {
-  "asn": 199654,
-  "handle": "OXIDE-GROUP-LIMITED",
-  "description": "Oxide Group Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199654,
+  "metadata" : {
+    "handle" : "OXIDE-GROUP-LIMITED",
+    "description" : "Oxide Group Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.56.164.0/24",
       "31.57.166.0/24",
       "45.149.27.0/24",
@@ -13,7 +16,7 @@
       "191.96.207.0/24",
       "195.58.58.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a12:bec0:20a::/47",
       "2a12:bec0:20c::/48"
     ]

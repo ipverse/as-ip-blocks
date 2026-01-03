@@ -1,9 +1,12 @@
 {
-  "asn": 17207,
-  "handle": "COLOR-COLL",
-  "description": "Colorado College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17207,
+  "metadata" : {
+    "handle" : "COLOR-COLL",
+    "description" : "Colorado College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.70.253.0/24",
       "192.188.250.0/24",
       "198.59.3.0/24",
@@ -12,6 +15,6 @@
       "198.62.148.0/22",
       "204.228.84.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

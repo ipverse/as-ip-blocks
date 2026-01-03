@@ -1,12 +1,15 @@
 {
-  "asn": 24789,
-  "handle": "NOVGORODTELECOM-AS",
-  "description": "PJSC Rostelecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24789,
+  "metadata" : {
+    "handle" : "NOVGORODTELECOM-AS",
+    "description" : "PJSC Rostelecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.16.80.0/20",
       "81.25.0.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

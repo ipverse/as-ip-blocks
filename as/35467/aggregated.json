@@ -1,9 +1,12 @@
 {
-  "asn": 35467,
-  "handle": "DDF-AS",
-  "description": "DDFR IT Infra \u0026 Security B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35467,
+  "metadata" : {
+    "handle" : "DDF-AS",
+    "description" : "DDFR IT Infra & Security B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.186.160.0/21",
       "37.0.16.0/21",
       "81.92.176.0/20",
@@ -18,7 +21,7 @@
       "212.52.224.0/19",
       "217.27.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:5b0::/32"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 265523,
-  "handle": "SIERRA-MADRE-INTERNET",
-  "description": "Sierra Madre Internet SA de CV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265523,
+  "metadata" : {
+    "handle" : "SIERRA-MADRE-INTERNET",
+    "description" : "Sierra Madre Internet SA de CV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.181.12.0/22",
       "45.188.92.0/22",
       "45.235.128.0/22",
@@ -12,7 +15,7 @@
       "186.209.92.0/22",
       "190.123.124.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2806:364::/32"
     ]
   }

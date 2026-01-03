@@ -1,9 +1,12 @@
 {
-  "asn": 131916,
-  "handle": "BAYNET",
-  "description": "Tokyo Bay Network Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131916,
+  "metadata" : {
+    "handle" : "BAYNET",
+    "description" : "Tokyo Bay Network Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.91.4.0/22",
       "157.65.216.0/21",
       "163.131.112.0/20",
@@ -13,7 +16,7 @@
       "202.247.184.0/21",
       "219.100.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:5b60::/32"
     ]
   }

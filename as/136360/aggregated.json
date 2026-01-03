@@ -1,13 +1,16 @@
 {
-  "asn": 136360,
-  "handle": "INSPL-IN",
-  "description": "Isolnet Network Solution Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 136360,
+  "metadata" : {
+    "handle" : "INSPL-IN",
+    "description" : "Isolnet Network Solution Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.91.96.0/22",
       "103.160.46.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:f680::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 134922,
-  "handle": "RGTECHNOSOLUTIONS-AS",
-  "description": "R G TECHNOSOLUTIONS PVT LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134922,
+  "metadata" : {
+    "handle" : "RGTECHNOSOLUTIONS-AS",
+    "description" : "R G TECHNOSOLUTIONS PVT LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.116.136.0/23",
       "103.121.204.0/23",
       "103.171.168.0/23",
@@ -12,7 +15,7 @@
       "103.224.48.0/24",
       "103.224.54.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:fbc0::/32"
     ]
   }

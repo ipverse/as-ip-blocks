@@ -1,13 +1,16 @@
 {
-  "asn": 37546,
-  "handle": "MIA-TELECOMS",
-  "description": "MIA Telecoms",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37546,
+  "metadata" : {
+    "handle" : "MIA-TELECOMS",
+    "description" : "MIA Telecoms",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.73.192.0/21",
       "165.90.224.0/20",
       "197.234.232.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

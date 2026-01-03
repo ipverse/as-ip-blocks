@@ -1,9 +1,12 @@
 {
-  "asn": 13855,
-  "handle": "CFU-NET",
-  "description": "The Municipal Communications Utility of the City of Cedar Falls Iowa",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13855,
+  "metadata" : {
+    "handle" : "CFU-NET",
+    "description" : "The Municipal Communications Utility of the City of Cedar Falls Iowa",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "24.149.0.0/19",
       "64.191.8.0/22",
       "67.212.96.0/19",
@@ -15,7 +18,7 @@
       "199.168.104.0/22",
       "209.40.80.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f070::/32"
     ]
   }

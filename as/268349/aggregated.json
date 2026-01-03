@@ -1,13 +1,16 @@
 {
-  "asn": 268349,
-  "handle": "ALAGOINHAS-TELECOM",
-  "description": "ALAGOINHAS TELECOM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268349,
+  "metadata" : {
+    "handle" : "ALAGOINHAS-TELECOM",
+    "description" : "ALAGOINHAS TELECOM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.239.4.0/23",
       "45.239.6.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:4fc8::/33",
       "2804:4fc8:8000::/34"
     ]

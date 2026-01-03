@@ -1,9 +1,12 @@
 {
-  "asn": 1267,
-  "handle": "ASN-WINDTRE",
-  "description": "WIND TRE S.P.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1267,
+  "metadata" : {
+    "handle" : "ASN-WINDTRE",
+    "description" : "WIND TRE S.P.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.21.164.0/22",
       "5.77.64.0/19",
       "23.10.244.0/22",
@@ -47,7 +50,7 @@
       "217.20.0.0/20",
       "217.171.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:b000::/23",
       "2a0b:a540::/29"
     ]

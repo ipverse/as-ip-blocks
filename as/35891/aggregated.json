@@ -1,16 +1,19 @@
 {
-  "asn": 35891,
-  "handle": "NLB-ASN",
-  "description": "Norwood Light Broadband",
-  "subnets": {
-    "ipv4": [
+  "asn" : 35891,
+  "metadata" : {
+    "handle" : "NLB-ASN",
+    "description" : "Norwood Light Broadband",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.83.205.0/24",
       "199.59.120.0/22",
       "199.254.124.0/22",
       "208.93.248.0/21",
       "216.211.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:bf00::/32"
     ]
   }

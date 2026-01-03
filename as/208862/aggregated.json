@@ -1,14 +1,17 @@
 {
-  "asn": 208862,
-  "handle": "SIRINFO-AS",
-  "description": "SIRIANNI INFORMATICA S.R.L. IN SIGLA SIRINFO S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208862,
+  "metadata" : {
+    "handle" : "SIRINFO-AS",
+    "description" : "SIRIANNI INFORMATICA S.R.L. IN SIGLA SIRINFO S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.83.105.0/24",
       "5.83.106.0/23",
       "5.83.108.0/22",
       "45.82.0.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

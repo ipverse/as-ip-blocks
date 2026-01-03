@@ -1,14 +1,17 @@
 {
-  "asn": 49627,
-  "handle": "SPEAKUP",
-  "description": "Speakup B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49627,
+  "metadata" : {
+    "handle" : "SPEAKUP",
+    "description" : "Speakup B.V",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.232.130.0/24",
       "185.68.160.0/22",
       "193.169.138.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:2c60::/32"
     ]
   }

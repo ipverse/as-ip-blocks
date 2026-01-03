@@ -1,16 +1,19 @@
 {
-  "asn": 3595,
-  "handle": "DATABANK-ZCOLO",
-  "description": "zColo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3595,
+  "metadata" : {
+    "handle" : "DATABANK-ZCOLO",
+    "description" : "zColo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.64.222.0/23",
       "75.127.82.0/24",
       "199.16.45.0/24",
       "205.214.72.0/21",
       "207.210.105.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:ef80:6::/48"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 272606,
-  "handle": "DNS-FIBRA",
-  "description": "DNS FIBRA LTDA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 272606,
+  "metadata" : {
+    "handle" : "DNS-FIBRA",
+    "description" : "DNS FIBRA LTDA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "177.185.104.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:85e0::/32"
     ]
   }

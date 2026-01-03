@@ -1,9 +1,12 @@
 {
-  "asn": 55915,
-  "handle": "CLASSIC-NP",
-  "description": "Classic Tech Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55915,
+  "metadata" : {
+    "handle" : "CLASSIC-NP",
+    "description" : "Classic Tech Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.231.208.0/22",
       "45.64.160.0/22",
       "45.123.220.0/22",
@@ -13,7 +16,7 @@
       "103.192.76.0/22",
       "202.94.66.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:5200::/32"
     ]
   }

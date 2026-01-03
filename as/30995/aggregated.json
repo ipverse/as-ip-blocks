@@ -1,11 +1,14 @@
 {
-  "asn": 30995,
-  "handle": "CIBEG-AS",
-  "description": "Vodafone Data",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30995,
+  "metadata" : {
+    "handle" : "CIBEG-AS",
+    "description" : "Vodafone Data",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.223.240.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

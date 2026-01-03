@@ -1,12 +1,15 @@
 {
-  "asn": 400154,
-  "handle": "THUNDERNET-AS-01",
-  "description": "Thundernet Wireless",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400154,
+  "metadata" : {
+    "handle" : "THUNDERNET-AS-01",
+    "description" : "Thundernet Wireless",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.128.168.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:8cc0::/32"
     ]
   }

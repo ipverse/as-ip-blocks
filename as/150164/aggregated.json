@@ -1,11 +1,14 @@
 {
-  "asn": 150164,
-  "handle": "MAMINNETWORK-AS-AP",
-  "description": "M AMIN Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150164,
+  "metadata" : {
+    "handle" : "MAMINNETWORK-AS-AP",
+    "description" : "M AMIN Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.142.0.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

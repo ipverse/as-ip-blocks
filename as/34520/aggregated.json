@@ -1,12 +1,15 @@
 {
-  "asn": 34520,
-  "handle": "DFG-AS",
-  "description": "Deutsche Forschungsgemeinschaft e.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34520,
+  "metadata" : {
+    "handle" : "DFG-AS",
+    "description" : "Deutsche Forschungsgemeinschaft e.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "83.143.0.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:a460::/32"
     ]
   }

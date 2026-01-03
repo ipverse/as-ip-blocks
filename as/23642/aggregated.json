@@ -1,12 +1,15 @@
 {
-  "asn": 23642,
-  "handle": "OBIS",
-  "description": "OBIS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23642,
+  "metadata" : {
+    "handle" : "OBIS",
+    "description" : "OBIS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.4.250.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:1800::/48"
     ]
   }

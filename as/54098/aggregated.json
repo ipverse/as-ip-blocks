@@ -1,9 +1,12 @@
 {
-  "asn": 54098,
-  "handle": "LIONLINK-NETWORKS",
-  "description": "LIONLINK NETWORKS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54098,
+  "metadata" : {
+    "handle" : "LIONLINK-NETWORKS",
+    "description" : "LIONLINK NETWORKS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.29.53.0/24",
       "23.92.32.0/20",
       "91.198.115.0/24",
@@ -13,7 +16,7 @@
       "199.116.84.0/24",
       "209.222.252.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:d500::/32"
     ]
   }

@@ -1,13 +1,16 @@
 {
-  "asn": 4813,
-  "handle": "BACKBONE-GUANGDONG-AP",
-  "description": "China Telecom(Group)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4813,
+  "metadata" : {
+    "handle" : "BACKBONE-GUANGDONG-AP",
+    "description" : "China Telecom(Group)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.22.56.0/21",
       "14.22.64.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "240e:982:ec00::/40"
     ]
   }

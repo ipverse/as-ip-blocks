@@ -1,13 +1,16 @@
 {
-  "asn": 1149,
-  "handle": "SURFNET-AS",
-  "description": "SURF B.V",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1149,
+  "metadata" : {
+    "handle" : "SURFNET-AS",
+    "description" : "SURF B.V.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "145.100.118.0/23",
       "145.116.218.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:610:9000::/40"
     ]
   }

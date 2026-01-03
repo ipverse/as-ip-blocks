@@ -1,9 +1,12 @@
 {
-  "asn": 41998,
-  "handle": "NETCOMBW-AS",
-  "description": "NetCom BW GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41998,
+  "metadata" : {
+    "handle" : "NETCOMBW-AS",
+    "description" : "NetCom BW GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "5.42.136.0/21",
       "31.25.40.0/21",
       "37.25.48.0/21",
@@ -43,7 +46,7 @@
       "217.66.136.0/21",
       "217.78.160.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:79c0::/32",
       "2a02:17b0::/32"
     ]

@@ -1,9 +1,12 @@
 {
-  "asn": 36963,
-  "handle": "OBO",
-  "description": "Orange Botswana (PTY) Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36963,
+  "metadata" : {
+    "handle" : "OBO",
+    "description" : "Orange Botswana (PTY) Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.74.48.0/20",
       "41.77.88.0/21",
       "41.138.72.0/21",
@@ -11,6 +14,6 @@
       "41.223.140.0/22",
       "105.235.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

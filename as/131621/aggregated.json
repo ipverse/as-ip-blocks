@@ -1,12 +1,15 @@
 {
-  "asn": 131621,
-  "handle": "TWNIC-NET-AS",
-  "description": "Taiwan Network Information Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131621,
+  "metadata" : {
+    "handle" : "TWNIC-NET-AS",
+    "description" : "Taiwan Network Information Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "182.173.1.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:de4::/48"
     ]
   }

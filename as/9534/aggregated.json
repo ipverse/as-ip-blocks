@@ -1,9 +1,12 @@
 {
-  "asn": 9534,
-  "handle": "MAXIS-AS1-AP",
-  "description": "Maxis Broadband Sdn Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9534,
+  "metadata" : {
+    "handle" : "MAXIS-AS1-AP",
+    "description" : "Maxis Broadband Sdn Bhd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.192.192.0/18",
       "23.34.128.0/22",
       "23.76.108.0/22",
@@ -21,7 +24,7 @@
       "202.151.192.0/18",
       "202.179.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:d08::/32",
       "2405:7c00:a000::/45"
     ]

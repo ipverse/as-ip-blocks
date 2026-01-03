@@ -1,14 +1,17 @@
 {
-  "asn": 134980,
-  "handle": "INTERPHONEPTYLTD-AS-AP",
-  "description": "Interphone Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134980,
+  "metadata" : {
+    "handle" : "INTERPHONEPTYLTD-AS-AP",
+    "description" : "Interphone Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.204.117.0/24",
       "103.210.154.0/23",
       "103.210.192.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:1600::/48",
       "2406:3d40::/32"
     ]

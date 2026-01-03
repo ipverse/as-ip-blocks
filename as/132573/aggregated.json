@@ -1,9 +1,12 @@
 {
-  "asn": 132573,
-  "handle": "SAINGN-AS-IN",
-  "description": "SAI NGN Network Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132573,
+  "metadata" : {
+    "handle" : "SAINGN-AS-IN",
+    "description" : "SAI NGN Network Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.0.48.0/24",
       "27.0.61.0/24",
       "27.0.63.0/24",
@@ -16,6 +19,6 @@
       "115.69.253.0/24",
       "157.119.85.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

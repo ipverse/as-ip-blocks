@@ -1,14 +1,17 @@
 {
-  "asn": 214256,
-  "handle": "VALVEA-AS",
-  "description": "Valvea AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214256,
+  "metadata" : {
+    "handle" : "VALVEA-AS",
+    "description" : "Valvea AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.28.144.0/21",
       "185.167.84.0/22",
       "193.42.159.0/24",
       "194.68.80.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

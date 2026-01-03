@@ -1,13 +1,16 @@
 {
-  "asn": 52916,
-  "handle": "DATANET-PROVEDOR-INTERNET",
-  "description": "Datanet Provedor de Internet Ltda",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52916,
+  "metadata" : {
+    "handle" : "DATANET-PROVEDOR-INTERNET",
+    "description" : "Datanet Provedor de Internet Ltda",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "143.255.16.0/22",
       "177.10.20.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2b10::/37"
     ]
   }

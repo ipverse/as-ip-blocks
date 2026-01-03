@@ -1,9 +1,12 @@
 {
-  "asn": 24324,
-  "handle": "KORDIA-TRANSIT-AS-AP",
-  "description": "Kordia Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 24324,
+  "metadata" : {
+    "handle" : "KORDIA-TRANSIT-AS-AP",
+    "description" : "Kordia Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "122.200.176.0/20",
       "124.157.64.0/18",
       "153.111.220.0/24",
@@ -19,7 +22,7 @@
       "202.50.117.0/24",
       "203.161.187.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:6c00::/32"
     ]
   }

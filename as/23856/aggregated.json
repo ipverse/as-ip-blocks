@@ -1,9 +1,12 @@
 {
-  "asn": 23856,
-  "handle": "SPTEL-AS-AP",
-  "description": "SPTEL PTE. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23856,
+  "metadata" : {
+    "handle" : "SPTEL-AS-AP",
+    "description" : "SPTEL PTE. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.13.192.0/18",
       "61.16.48.0/20",
       "61.16.64.0/18",
@@ -12,7 +15,7 @@
       "203.149.192.0/19",
       "203.149.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:9880::/32"
     ]
   }

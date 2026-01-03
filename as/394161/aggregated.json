@@ -1,9 +1,12 @@
 {
-  "asn": 394161,
-  "handle": "TESLA",
-  "description": "Tesla Motors Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 394161,
+  "metadata" : {
+    "handle" : "TESLA",
+    "description" : "Tesla Motors Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.21.14.0/24",
       "8.45.124.0/24",
       "8.47.24.0/24",
@@ -32,7 +35,7 @@
       "209.133.79.0/24",
       "213.244.145.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:137:d000::/46",
       "2620:137:d004::/47",
       "2620:137:d006::/48",

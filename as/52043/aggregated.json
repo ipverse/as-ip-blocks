@@ -1,15 +1,18 @@
 {
-  "asn": 52043,
-  "handle": "TAIGET-AS",
-  "description": "LLC Multiservice",
-  "subnets": {
-    "ipv4": [
+  "asn" : 52043,
+  "metadata" : {
+    "handle" : "TAIGET-AS",
+    "description" : "LLC Multiservice",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "46.151.240.0/21",
       "176.106.8.0/21",
       "176.106.16.0/20",
       "176.124.116.0/22",
       "176.124.120.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

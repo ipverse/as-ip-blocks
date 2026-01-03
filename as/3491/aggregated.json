@@ -1,9 +1,12 @@
 {
-  "asn": 3491,
-  "handle": "CONSOLE-CONNECT-ASN",
-  "description": "PCCW Global Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3491,
+  "metadata" : {
+    "handle" : "CONSOLE-CONNECT-ASN",
+    "description" : "PCCW Global Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.59.78.0/24",
       "41.79.244.0/22",
       "41.79.248.0/23",
@@ -67,7 +70,7 @@
       "217.113.64.0/19",
       "217.156.160.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8800::/32",
       "2606:9dc0:fc00::/48",
       "2c0f:f3c0::/32",

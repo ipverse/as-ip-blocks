@@ -1,14 +1,17 @@
 {
-  "asn": 36813,
-  "handle": "HCC-IL",
-  "description": "Hamilton County Communications Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36813,
+  "metadata" : {
+    "handle" : "HCC-IL",
+    "description" : "Hamilton County Communications Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.127.80.0/20",
       "66.220.80.0/20",
       "139.60.80.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:2c80::/32"
     ]
   }

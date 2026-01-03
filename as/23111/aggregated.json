@@ -1,11 +1,14 @@
 {
-  "asn": 23111,
-  "handle": "GSC-ATLANTAVPC",
-  "description": "Gannett Supply Corp. - Atlanta GA (VPC)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23111,
+  "metadata" : {
+    "handle" : "GSC-ATLANTAVPC",
+    "description" : "Gannett Supply Corp. - Atlanta GA (VPC)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "159.54.20.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

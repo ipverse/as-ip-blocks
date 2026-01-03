@@ -1,13 +1,16 @@
 {
-  "asn": 41829,
-  "handle": "REGIONSET-AS",
-  "description": "Regionset Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 41829,
+  "metadata" : {
+    "handle" : "REGIONSET-AS",
+    "description" : "Regionset Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.143.128.0/20",
       "93.189.16.0/21",
       "185.16.176.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

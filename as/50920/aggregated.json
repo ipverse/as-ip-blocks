@@ -1,9 +1,12 @@
 {
-  "asn": 50920,
-  "handle": "KABEL-BRAUNAU",
-  "description": "Kabel Braunau GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50920,
+  "metadata" : {
+    "handle" : "KABEL-BRAUNAU",
+    "description" : "Kabel Braunau GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "81.16.24.0/22",
       "92.39.160.0/20",
       "176.61.160.0/21",
@@ -13,7 +16,7 @@
       "193.151.60.0/22",
       "194.103.64.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:f680::/29"
     ]
   }

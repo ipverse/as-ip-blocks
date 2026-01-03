@@ -1,9 +1,12 @@
 {
-  "asn": 38091,
-  "handle": "HELLONET-AS",
-  "description": "LG HelloVision Corp",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38091,
+  "metadata" : {
+    "handle" : "HELLONET-AS",
+    "description" : "LG HelloVision Corp.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.11.0.0/16",
       "1.176.0.0/15",
       "36.38.0.0/15",
@@ -53,6 +56,6 @@
       "211.173.160.0/19",
       "211.239.186.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

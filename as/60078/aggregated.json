@@ -1,12 +1,15 @@
 {
-  "asn": 60078,
-  "handle": "NEXTLAN-AS",
-  "description": "NEXTLAN SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60078,
+  "metadata" : {
+    "handle" : "NEXTLAN-AS",
+    "description" : "NEXTLAN SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "85.204.248.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:52c0::/48"
     ]
   }

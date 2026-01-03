@@ -1,13 +1,16 @@
 {
-  "asn": 62320,
-  "handle": "SSC-AS",
-  "description": "Safe Swiss Cloud AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62320,
+  "metadata" : {
+    "handle" : "SSC-AS",
+    "description" : "Safe Swiss Cloud AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.45.84.0/22",
       "185.39.228.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:4aa0::/32"
     ]
   }

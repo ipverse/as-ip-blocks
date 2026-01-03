@@ -1,9 +1,12 @@
 {
-  "asn": 214054,
-  "handle": "CHARTVPS-1",
-  "description": "Nitrode Corporation trading as ChartVPS Technologies",
-  "subnets": {
-    "ipv4": [
+  "asn" : 214054,
+  "metadata" : {
+    "handle" : "CHARTVPS-1",
+    "description" : "Nitrode Corporation trading as ChartVPS Technologies",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.40.97.0/24",
       "67.227.46.0/24",
       "69.171.208.0/24",
@@ -18,6 +21,6 @@
       "216.122.172.0/24",
       "216.122.180.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

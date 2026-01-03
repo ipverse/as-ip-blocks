@@ -1,12 +1,15 @@
 {
-  "asn": 14301,
-  "handle": "EVEREST-INTERNET",
-  "description": "Everest Global Services",
-  "subnets": {
-    "ipv4": [
+  "asn" : 14301,
+  "metadata" : {
+    "handle" : "EVEREST-INTERNET",
+    "description" : "Everest Global Services",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "206.208.232.0/23",
       "206.208.237.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

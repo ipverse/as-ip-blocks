@@ -1,9 +1,12 @@
 {
-  "asn": 1921,
-  "handle": "RCODEZERO-ANYCAST-SEC1-TLD",
-  "description": "ipcom GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 1921,
+  "metadata" : {
+    "handle" : "RCODEZERO-ANYCAST-SEC1-TLD",
+    "description" : "ipcom GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.237.67.0/24",
       "185.80.188.0/24",
       "185.102.12.0/24",
@@ -15,7 +18,7 @@
       "194.0.25.0/24",
       "194.0.182.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:20::/48",
       "2001:67c:1bc::/48",
       "2a02:850:ffe0::/48",

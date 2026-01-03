@@ -1,12 +1,15 @@
 {
-  "asn": 19779,
-  "handle": "SGFD",
-  "description": "St. George Fire Department",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19779,
+  "metadata" : {
+    "handle" : "SGFD",
+    "description" : "St. George Fire Department",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.135.132.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f6ce::/40"
     ]
   }

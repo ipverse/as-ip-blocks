@@ -1,9 +1,12 @@
 {
-  "asn": 34946,
-  "handle": "WETTERNET-AS",
-  "description": "Jonkoping Energi AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 34946,
+  "metadata" : {
+    "handle" : "WETTERNET-AS",
+    "description" : "Jonkoping Energi AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.244.192.0/20",
       "92.42.72.0/21",
       "94.126.80.0/21",
@@ -12,7 +15,7 @@
       "193.183.126.0/23",
       "193.234.149.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:f600::/32"
     ]
   }

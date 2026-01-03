@@ -1,9 +1,12 @@
 {
-  "asn": 23673,
-  "handle": "ONLINE-AS",
-  "description": "COGETEL LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23673,
+  "metadata" : {
+    "handle" : "ONLINE-AS",
+    "description" : "COGETEL LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.230.192.0/22",
       "103.197.240.0/22",
       "103.206.68.0/22",
@@ -13,7 +16,7 @@
       "202.62.32.0/19",
       "203.189.128.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:c100::/32"
     ]
   }

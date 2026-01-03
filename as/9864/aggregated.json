@@ -1,12 +1,15 @@
 {
-  "asn": 9864,
-  "handle": "KSDNET-AS",
-  "description": "Korea Securities Depository",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9864,
+  "metadata" : {
+    "handle" : "KSDNET-AS",
+    "description" : "Korea Securities Depository",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "58.102.135.0/24",
       "203.24.188.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

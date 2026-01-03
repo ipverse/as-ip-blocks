@@ -1,12 +1,15 @@
 {
-  "asn": 48776,
-  "handle": "RICOLA-AS",
-  "description": "Ricola AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 48776,
+  "metadata" : {
+    "handle" : "RICOLA-AS",
+    "description" : "Ricola AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.8.239.0/24",
       "193.8.245.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

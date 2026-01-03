@@ -1,13 +1,16 @@
 {
-  "asn": 133716,
-  "handle": "SSNETCOM-AS",
-  "description": "SS NetCom Pvt. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133716,
+  "metadata" : {
+    "handle" : "SSNETCOM-AS",
+    "description" : "SS NetCom Pvt. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.38.89.0/24",
       "103.99.184.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:f640::/48"
     ]
   }

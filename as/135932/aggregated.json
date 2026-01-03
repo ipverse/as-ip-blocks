@@ -1,9 +1,12 @@
 {
-  "asn": 135932,
-  "handle": "VNDATA-AS-VN",
-  "description": "Viet Storage Technology Joint Stock Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 135932,
+  "metadata" : {
+    "handle" : "VNDATA-AS-VN",
+    "description" : "Viet Storage Technology Joint Stock Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.70.12.0/23",
       "103.104.120.0/22",
       "103.140.248.0/23",
@@ -12,7 +15,7 @@
       "103.155.160.0/23",
       "160.25.80.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df4:4c0::/48"
     ]
   }

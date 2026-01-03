@@ -1,12 +1,15 @@
 {
-  "asn": 206362,
-  "handle": "LV-OSSNET-AS",
-  "description": "SIA OSS Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 206362,
+  "metadata" : {
+    "handle" : "LV-OSSNET-AS",
+    "description" : "SIA OSS Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.70.186.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:678:fdc::/48"
     ]
   }

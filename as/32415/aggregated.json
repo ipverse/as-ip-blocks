@@ -1,9 +1,12 @@
 {
-  "asn": 32415,
-  "handle": "C3-LLC",
-  "description": "C3",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32415,
+  "metadata" : {
+    "handle" : "C3-LLC",
+    "description" : "C3",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.139.128.0/24",
       "64.139.142.0/23",
       "64.139.145.0/24",
@@ -16,6 +19,6 @@
       "162.245.36.0/22",
       "205.237.192.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

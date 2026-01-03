@@ -1,9 +1,12 @@
 {
-  "asn": 59939,
-  "handle": "WIBO-AS",
-  "description": "WIBO Baltic UAB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 59939,
+  "metadata" : {
+    "handle" : "WIBO-AS",
+    "description" : "WIBO Baltic UAB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.240.20.0/23",
       "171.25.240.0/24",
       "185.43.220.0/22",
@@ -11,7 +14,7 @@
       "185.207.188.0/22",
       "195.16.88.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a04:9640::/31",
       "2a04:9642::/32",
       "2a0b:22c0::/29"

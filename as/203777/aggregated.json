@@ -1,12 +1,15 @@
 {
-  "asn": 203777,
-  "handle": "CLOUDOPSERVE-AS",
-  "description": "cloudopserve GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203777,
+  "metadata" : {
+    "handle" : "CLOUDOPSERVE-AS",
+    "description" : "cloudopserve GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "109.205.198.0/24",
       "194.104.121.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 154071,
-  "handle": "ADVANCETELECOM-AS-AP",
-  "description": "Advance Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 154071,
+  "metadata" : {
+    "handle" : "ADVANCETELECOM-AS-AP",
+    "description" : "Advance Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "165.101.238.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df5:e4c0::/48"
     ]
   }

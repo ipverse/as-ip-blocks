@@ -1,13 +1,16 @@
 {
-  "asn": 50084,
-  "handle": "RAPID-LINK-AS",
-  "description": "S.A.Rapid Link S.R.L",
-  "subnets": {
-    "ipv4": [
+  "asn" : 50084,
+  "metadata" : {
+    "handle" : "RAPID-LINK-AS",
+    "description" : "S.A.Rapid Link S.R.L.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.96.176.0/22",
       "194.247.164.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:4140::/29"
     ]
   }

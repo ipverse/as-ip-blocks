@@ -1,12 +1,15 @@
 {
-  "asn": 204403,
-  "handle": "HOTCITY",
-  "description": "HOTCITY SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 204403,
+  "metadata" : {
+    "handle" : "HOTCITY",
+    "description" : "HOTCITY SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.250.16.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0b:c700::/29"
     ]
   }

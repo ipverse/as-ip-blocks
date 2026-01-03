@@ -1,12 +1,15 @@
 {
-  "asn": 8239,
-  "handle": "NEXTLEVEL-CONNECTIVITY-ISP",
-  "description": "LYNTIA NETWORKS S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8239,
+  "metadata" : {
+    "handle" : "NEXTLEVEL-CONNECTIVITY-ISP",
+    "description" : "LYNTIA NETWORKS S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "212.59.192.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:ac0:c800::/44"
     ]
   }

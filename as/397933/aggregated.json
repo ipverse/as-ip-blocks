@@ -1,14 +1,17 @@
 {
-  "asn": 397933,
-  "handle": "DC2-WAN",
-  "description": "Clark Associates Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397933,
+  "metadata" : {
+    "handle" : "DC2-WAN",
+    "description" : "Clark Associates Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.159.200.0/24",
       "158.51.243.0/24",
       "198.246.233.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:a600:4::/48"
     ]
   }

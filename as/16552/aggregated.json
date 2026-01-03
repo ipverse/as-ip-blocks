@@ -1,9 +1,12 @@
 {
-  "asn": 16552,
-  "handle": "DIGICERT",
-  "description": "Tiggee LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16552,
+  "metadata" : {
+    "handle" : "DIGICERT",
+    "description" : "Tiggee LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.128.120.0/23",
       "23.128.122.0/24",
       "43.247.168.0/22",
@@ -36,7 +39,7 @@
       "208.80.120.0/21",
       "208.94.144.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:1800::/30",
       "2600:1805:ff11::/48",
       "2600:1806:10::/45",

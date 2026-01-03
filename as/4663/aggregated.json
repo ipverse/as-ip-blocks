@@ -1,9 +1,12 @@
 {
-  "asn": 4663,
-  "handle": "ELIMNET-AS",
-  "description": "ELIMNET INC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4663,
+  "metadata" : {
+    "handle" : "ELIMNET-AS",
+    "description" : "ELIMNET INC.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.239.128.0/18",
       "61.106.32.0/19",
       "203.239.128.0/18",
@@ -20,6 +23,6 @@
       "211.174.128.0/17",
       "211.240.0.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

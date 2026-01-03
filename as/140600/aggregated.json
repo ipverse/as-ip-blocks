@@ -1,12 +1,15 @@
 {
-  "asn": 140600,
-  "handle": "MSNETZONE-AS-AP",
-  "description": "M/S. NET ZONE",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140600,
+  "metadata" : {
+    "handle" : "MSNETZONE-AS-AP",
+    "description" : "M/S. NET ZONE",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.166.230.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:9d80::/48"
     ]
   }

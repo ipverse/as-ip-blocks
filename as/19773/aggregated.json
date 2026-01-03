@@ -1,9 +1,12 @@
 {
-  "asn": 19773,
-  "handle": "MOTOROLA-SOLUTIONS",
-  "description": "Motorola Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19773,
+  "metadata" : {
+    "handle" : "MOTOROLA-SOLUTIONS",
+    "description" : "Motorola Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.112.30.0/24",
       "129.188.0.0/16",
       "131.197.0.0/16",
@@ -74,7 +77,7 @@
       "204.27.140.0/24",
       "204.52.138.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:6b:4000::/48"
     ]
   }

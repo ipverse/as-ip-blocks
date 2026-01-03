@@ -1,9 +1,12 @@
 {
-  "asn": 137386,
-  "handle": "CW-AS-AP",
-  "description": "Child Wisdom Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 137386,
+  "metadata" : {
+    "handle" : "CW-AS-AP",
+    "description" : "Child Wisdom Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.249.96.0/23",
       "103.94.148.0/23",
       "103.95.28.0/24",
@@ -15,6 +18,6 @@
       "123.253.219.0/24",
       "157.119.54.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

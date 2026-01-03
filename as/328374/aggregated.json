@@ -1,12 +1,15 @@
 {
-  "asn": 328374,
-  "handle": "SPAR-AS",
-  "description": "The SPAR Group Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328374,
+  "metadata" : {
+    "handle" : "SPAR-AS",
+    "description" : "The SPAR Group Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "196.50.3.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:43f8:c90::/48"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 199758,
-  "handle": "NEXYLAN",
-  "description": "SAS Nexylan",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199758,
+  "metadata" : {
+    "handle" : "NEXYLAN",
+    "description" : "SAS Nexylan",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.132.252.0/22",
       "185.46.228.0/22",
       "185.86.196.0/22",
@@ -12,7 +15,7 @@
       "195.13.51.0/24",
       "195.14.7.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:8760::/32",
       "2a03:ac60::/32"
     ]

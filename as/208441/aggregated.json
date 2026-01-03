@@ -1,12 +1,15 @@
 {
-  "asn": 208441,
-  "handle": "LAND-SALZBURG-AS",
-  "description": "Amt der Salzburger Landesregierung",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208441,
+  "metadata" : {
+    "handle" : "LAND-SALZBURG-AS",
+    "description" : "Amt der Salzburger Landesregierung",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.41.228.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:1750::/48"
     ]
   }

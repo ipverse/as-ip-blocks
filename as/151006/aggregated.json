@@ -1,16 +1,19 @@
 {
-  "asn": 151006,
-  "handle": "IDNIC-NIMNET-AS-ID",
-  "description": "PT Nesta Indo Media",
-  "subnets": {
-    "ipv4": [
+  "asn" : 151006,
+  "metadata" : {
+    "handle" : "IDNIC-NIMNET-AS-ID",
+    "description" : "PT Nesta Indo Media",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.156.95.0/24",
       "38.188.63.0/24",
       "103.203.234.0/24",
       "103.217.224.0/24",
       "154.49.252.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:a40::/48"
     ]
   }

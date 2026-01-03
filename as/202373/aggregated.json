@@ -1,14 +1,17 @@
 {
-  "asn": 202373,
-  "handle": "STADTWERKE-ROSTOCK",
-  "description": "Stadtwerke Rostock AG",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202373,
+  "metadata" : {
+    "handle" : "STADTWERKE-ROSTOCK",
+    "description" : "Stadtwerke Rostock AG",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "84.38.76.0/23",
       "194.34.156.0/22",
       "194.55.96.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:cac0::/29"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 207638,
-  "handle": "TOP-IX-OPENEDGE",
-  "description": "CONSORZIO TOPIX - TORINO E PIEMONTE EXCHANGE POINT",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207638,
+  "metadata" : {
+    "handle" : "TOP-IX-OPENEDGE",
+    "description" : "CONSORZIO TOPIX - TORINO E PIEMONTE EXCHANGE POINT",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "194.116.104.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:848:1::/48",
       "2001:848:2::/48"
     ]

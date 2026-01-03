@@ -1,13 +1,16 @@
 {
-  "asn": 17595,
-  "handle": "KINSNET-AS",
-  "description": "Korea Institute of Nuclear Safety",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17595,
+  "metadata" : {
+    "handle" : "KINSNET-AS",
+    "description" : "Korea Institute of Nuclear Safety",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.230.32.0/20",
       "203.250.168.0/22",
       "210.218.197.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

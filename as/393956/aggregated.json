@@ -1,12 +1,15 @@
 {
-  "asn": 393956,
-  "handle": "CITY-OF-RICHMOND",
-  "description": "City of Richmond",
-  "subnets": {
-    "ipv4": [
+  "asn" : 393956,
+  "metadata" : {
+    "handle" : "CITY-OF-RICHMOND",
+    "description" : "City of Richmond",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.175.128.0/23",
       "199.175.130.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 22014,
-  "handle": "INNOVATION-NETWORK",
-  "description": "City of Las Vegas",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22014,
+  "metadata" : {
+    "handle" : "INNOVATION-NETWORK",
+    "description" : "City of Las Vegas",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.112.64.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f9c9::/40"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 20317,
-  "handle": "ABN-AS",
-  "description": "Abnormal Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20317,
+  "metadata" : {
+    "handle" : "ABN-AS",
+    "description" : "Abnormal Inc",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.140.60.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:f8a2::/40"
     ]
   }

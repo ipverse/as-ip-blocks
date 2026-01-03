@@ -1,13 +1,16 @@
 {
-  "asn": 56074,
-  "handle": "NET-AS01-AP",
-  "description": "NetStrategy Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 56074,
+  "metadata" : {
+    "handle" : "NET-AS01-AP",
+    "description" : "NetStrategy Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.252.128.0/24",
       "43.252.130.0/24",
       "103.4.86.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

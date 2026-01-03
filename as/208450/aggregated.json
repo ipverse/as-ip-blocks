@@ -1,14 +1,17 @@
 {
-  "asn": 208450,
-  "handle": "MEGAHOST-KZ",
-  "description": "Megahost Kazakhstan TOO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208450,
+  "metadata" : {
+    "handle" : "MEGAHOST-KZ",
+    "description" : "Megahost Kazakhstan TOO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.56.240.0/24",
       "45.136.56.0/22",
       "193.39.68.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:9340::/48"
     ]
   }

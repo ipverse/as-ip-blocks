@@ -1,9 +1,12 @@
 {
-  "asn": 20214,
-  "handle": "COMCAST-20214",
-  "description": "Comcast Cable Communications LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 20214,
+  "metadata" : {
+    "handle" : "COMCAST-20214",
+    "description" : "Comcast Cable Communications LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "50.150.146.0/24",
       "50.200.25.0/24",
       "50.200.159.0/24",
@@ -26,7 +29,7 @@
       "147.137.0.0/16",
       "168.221.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:559:89::/48",
       "2001:559:ea::/48",
       "2001:559:ec::/47",

@@ -1,13 +1,16 @@
 {
-  "asn": 28756,
-  "handle": "EPO-AS",
-  "description": "European Patent Organisation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 28756,
+  "metadata" : {
+    "handle" : "EPO-AS",
+    "description" : "European Patent Organisation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "145.64.128.0/19",
       "145.64.160.0/20",
       "145.64.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

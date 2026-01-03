@@ -1,12 +1,15 @@
 {
-  "asn": 142412,
-  "handle": "NEXWORKS-AS-AP",
-  "description": "NEXWORKS COMMUNICATIONS SDN. BHD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142412,
+  "metadata" : {
+    "handle" : "NEXWORKS-AS-AP",
+    "description" : "NEXWORKS COMMUNICATIONS SDN. BHD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.168.6.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2407:7a40::/32"
     ]
   }

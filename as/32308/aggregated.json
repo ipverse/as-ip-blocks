@@ -1,9 +1,12 @@
 {
-  "asn": 32308,
-  "handle": "8X8-AS",
-  "description": "8x8 Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32308,
+  "metadata" : {
+    "handle" : "8X8-AS",
+    "description" : "8x8 Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.21.164.0/24",
       "8.25.198.0/24",
       "8.28.0.0/22",
@@ -12,6 +15,6 @@
       "192.84.16.0/22",
       "216.59.136.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

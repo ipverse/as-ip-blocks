@@ -1,13 +1,16 @@
 {
-  "asn": 202101,
-  "handle": "MTH-AS",
-  "description": "MTH Retail Services (Austria) GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202101,
+  "metadata" : {
+    "handle" : "MTH-AS",
+    "description" : "MTH Retail Services (Austria) GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.108.22.0/24",
       "193.108.40.0/23",
       "195.42.230.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

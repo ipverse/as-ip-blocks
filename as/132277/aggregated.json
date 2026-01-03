@@ -1,13 +1,16 @@
 {
-  "asn": 132277,
-  "handle": "XTRA-COMMUNICATION-SG",
-  "description": "X-TRA Communication Pte Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132277,
+  "metadata" : {
+    "handle" : "XTRA-COMMUNICATION-SG",
+    "description" : "X-TRA Communication Pte Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.12.2.0/24",
       "103.96.108.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:2ba::/48"
     ]
   }

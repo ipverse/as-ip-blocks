@@ -1,9 +1,12 @@
 {
-  "asn": 133199,
-  "handle": "SONDERCLOUDLIMITED-AS-AP",
-  "description": "SonderCloud Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133199,
+  "metadata" : {
+    "handle" : "SONDERCLOUDLIMITED-AS-AP",
+    "description" : "SonderCloud Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.190.192.0/18",
       "43.225.44.0/22",
       "43.240.28.0/22",
@@ -26,6 +29,6 @@
       "208.87.200.0/21",
       "217.194.132.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

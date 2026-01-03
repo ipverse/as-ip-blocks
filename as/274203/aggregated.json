@@ -1,10 +1,13 @@
 {
-  "asn": 274203,
-  "handle": "LINK-NETWORK-CA",
-  "description": "LINK NETWORK CA",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 274203,
+  "metadata" : {
+    "handle" : "LINK-NETWORK-CA",
+    "description" : "LINK NETWORK CA.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2803:43d0::/32"
     ]
   }

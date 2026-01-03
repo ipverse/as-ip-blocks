@@ -1,9 +1,12 @@
 {
-  "asn": 9002,
-  "handle": "RETN-AS",
-  "description": "RETN Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9002,
+  "metadata" : {
+    "handle" : "RETN-AS",
+    "description" : "RETN Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "2.58.98.0/24",
       "23.56.98.0/24",
       "31.128.32.0/22",
@@ -52,7 +55,7 @@
       "213.218.244.0/23",
       "213.218.246.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2d8::/32"
     ]
   }

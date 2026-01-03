@@ -1,9 +1,12 @@
 {
-  "asn": 62738,
-  "handle": "ZOCHNET1",
-  "description": "ZochNet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62738,
+  "metadata" : {
+    "handle" : "ZOCHNET1",
+    "description" : "ZochNet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.2.192.0/22",
       "8.9.160.0/22",
       "8.29.84.0/22",
@@ -20,6 +23,6 @@
       "209.163.194.0/23",
       "209.245.220.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

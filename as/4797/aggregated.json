@@ -1,9 +1,12 @@
 {
-  "asn": 4797,
-  "handle": "WSM-AS-IN",
-  "description": "Wipro Spectramind Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4797,
+  "metadata" : {
+    "handle" : "WSM-AS-IN",
+    "description" : "Wipro Spectramind Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "112.198.30.0/24",
       "121.240.174.0/24",
       "202.54.210.0/24",
@@ -18,6 +21,6 @@
       "202.81.155.0/24",
       "202.81.157.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

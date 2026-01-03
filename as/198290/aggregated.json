@@ -1,13 +1,16 @@
 {
-  "asn": 198290,
-  "handle": "AS-GITS",
-  "description": "Global IT Services PSF SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198290,
+  "metadata" : {
+    "handle" : "AS-GITS",
+    "description" : "Global IT Services PSF SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.44.56.0/22",
       "193.169.158.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7360::/32"
     ]
   }

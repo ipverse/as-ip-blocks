@@ -1,13 +1,16 @@
 {
-  "asn": 400393,
-  "handle": "DIGITAL-EXAMPLE",
-  "description": "Digital Example LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400393,
+  "metadata" : {
+    "handle" : "DIGITAL-EXAMPLE",
+    "description" : "Digital Example LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.130.24.0/24",
       "23.167.120.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:271::/40",
       "2602:271:400::/40",
       "2602:271:800::/40"

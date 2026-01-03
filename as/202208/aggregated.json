@@ -1,9 +1,12 @@
 {
-  "asn": 202208,
-  "handle": "TEUTEL",
-  "description": "teutel GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202208,
+  "metadata" : {
+    "handle" : "TEUTEL",
+    "description" : "teutel GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.154.224.0/22",
       "185.42.252.0/22",
       "193.111.168.0/24",
@@ -11,7 +14,7 @@
       "193.111.226.0/24",
       "193.111.229.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:66a0::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 213972,
-  "handle": "FIBERLOOP",
-  "description": "Etere SRLS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213972,
+  "metadata" : {
+    "handle" : "FIBERLOOP",
+    "description" : "Etere SRLS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "154.63.160.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:fac0::/47",
       "2a01:fac4::/44"
     ]

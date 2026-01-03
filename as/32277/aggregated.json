@@ -1,9 +1,12 @@
 {
-  "asn": 32277,
-  "handle": "TBAYTEL",
-  "description": "TBayTel",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32277,
+  "metadata" : {
+    "handle" : "TBAYTEL",
+    "description" : "TBayTel",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.18.96.0/19",
       "38.39.64.0/19",
       "204.50.141.0/24",
@@ -19,7 +22,7 @@
       "216.26.192.0/19",
       "216.211.0.0/17"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:ab00::/32"
     ]
   }

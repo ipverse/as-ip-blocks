@@ -1,9 +1,12 @@
 {
-  "asn": 25467,
-  "handle": "AKTON-AS",
-  "description": "Akton d.o.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 25467,
+  "metadata" : {
+    "handle" : "AKTON-AS",
+    "description" : "Akton d.o.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.153.126.0/24",
       "46.183.184.0/23",
       "62.77.137.0/24",
@@ -29,7 +32,7 @@
       "185.78.240.0/22",
       "185.193.50.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a02:2230:200::/39",
       "2a02:2230:400::/40",
       "2a02:2230:1200::/39",

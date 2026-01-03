@@ -1,9 +1,12 @@
 {
-  "asn": 203447,
-  "handle": "CENTERTPA-AS",
-  "description": "Miratel Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 203447,
+  "metadata" : {
+    "handle" : "CENTERTPA-AS",
+    "description" : "Miratel Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.210.117.0/24",
       "91.210.119.0/24",
       "91.228.58.0/23",
@@ -11,7 +14,7 @@
       "185.32.61.0/24",
       "185.132.0.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:4d80::/29"
     ]
   }

@@ -1,9 +1,12 @@
 {
-  "asn": 63251,
-  "handle": "METRO-WIRELESS",
-  "description": "Metro Wireless International Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 63251,
+  "metadata" : {
+    "handle" : "METRO-WIRELESS",
+    "description" : "Metro Wireless International Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.113.60.0/22",
       "64.237.96.0/22",
       "104.245.52.0/22",
@@ -17,7 +20,7 @@
       "204.152.129.0/24",
       "216.250.244.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:c680::/32"
     ]
   }

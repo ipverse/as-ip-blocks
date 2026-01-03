@@ -1,9 +1,12 @@
 {
-  "asn": 2522,
-  "handle": "PPP-EXP",
-  "description": "Japan Network Information Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 2522,
+  "metadata" : {
+    "handle" : "PPP-EXP",
+    "description" : "Japan Network Information Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.122.16.0/22",
       "103.210.108.0/22",
       "133.112.0.0/16",
@@ -20,6 +23,6 @@
       "219.101.112.0/20",
       "220.213.240.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

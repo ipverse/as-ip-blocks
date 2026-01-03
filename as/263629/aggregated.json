@@ -1,14 +1,17 @@
 {
-  "asn": 263629,
-  "handle": "MASTER-TECNOLOGIA",
-  "description": "MASTER TECNOLOGIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 263629,
+  "metadata" : {
+    "handle" : "MASTER-TECNOLOGIA",
+    "description" : "MASTER TECNOLOGIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.0.248.0/22",
       "170.0.40.0/22",
       "179.125.40.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:104c::/40",
       "2804:104c:400::/40",
       "2804:104c:800::/40",

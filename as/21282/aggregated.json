@@ -1,12 +1,15 @@
 {
-  "asn": 21282,
-  "handle": "KAZNIC-AS",
-  "description": "KazNIC Organization",
-  "subnets": {
-    "ipv4": [
+  "asn" : 21282,
+  "metadata" : {
+    "handle" : "KAZNIC-AS",
+    "description" : "KazNIC Organization",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.241.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:7640::/38"
     ]
   }

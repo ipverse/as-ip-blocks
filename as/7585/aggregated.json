@@ -1,14 +1,17 @@
 {
-  "asn": 7585,
-  "handle": "SUPERLOOP-AS-AP",
-  "description": "SUPERLOOP (AUSTRALIA) PTY LTD (PEX)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7585,
+  "metadata" : {
+    "handle" : "SUPERLOOP-AS-AP",
+    "description" : "SUPERLOOP (AUSTRALIA) PTY LTD (PEX)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.20.102.0/23",
       "203.22.96.0/24",
       "203.24.11.0/24",
       "203.30.138.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

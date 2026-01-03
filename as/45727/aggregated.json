@@ -1,9 +1,12 @@
 {
-  "asn": 45727,
-  "handle": "THREE-AS-ID",
-  "description": "PT Indosat Ooredoo Hutchison",
-  "subnets": {
-    "ipv4": [
+  "asn" : 45727,
+  "metadata" : {
+    "handle" : "THREE-AS-ID",
+    "description" : "PT Indosat Ooredoo Hutchison",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.10.66.0/24",
       "103.108.24.0/24",
       "104.81.252.0/22",
@@ -19,7 +22,7 @@
       "223.255.229.0/24",
       "223.255.230.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:8b00:200::/42",
       "2400:8b00:500::/42",
       "2400:8b00:800::/42",

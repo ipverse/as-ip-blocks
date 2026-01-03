@@ -1,15 +1,18 @@
 {
-  "asn": 54209,
-  "handle": "MONON-TEL",
-  "description": "Monon Telephone Company Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 54209,
+  "metadata" : {
+    "handle" : "MONON-TEL",
+    "description" : "Monon Telephone Company Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.184.16.0/22",
       "64.184.22.0/24",
       "65.97.48.0/22",
       "104.218.0.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:a480::/32"
     ]
   }

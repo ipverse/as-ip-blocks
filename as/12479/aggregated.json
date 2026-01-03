@@ -1,9 +1,12 @@
 {
-  "asn": 12479,
-  "handle": "UNI2-AS",
-  "description": "Orange Espagne SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12479,
+  "metadata" : {
+    "handle" : "UNI2-AS",
+    "description" : "Orange Espagne SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "1.178.224.0/19",
       "37.11.0.0/16",
       "37.14.0.0/15",
@@ -154,7 +157,7 @@
       "213.179.96.0/19",
       "217.173.112.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a01:c500::/28",
       "2a02:2e00:2000::/36",
       "2a02:2e00:f000::/36",

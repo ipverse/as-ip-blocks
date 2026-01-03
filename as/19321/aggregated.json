@@ -1,11 +1,14 @@
 {
-  "asn": 19321,
-  "handle": "UMC-HEALTH-SYSTEM",
-  "description": "University Medical Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19321,
+  "metadata" : {
+    "handle" : "UMC-HEALTH-SYSTEM",
+    "description" : "University Medical Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.21.252.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

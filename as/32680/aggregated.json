@@ -1,11 +1,14 @@
 {
-  "asn": 32680,
-  "handle": "CHNCTORG",
-  "description": "Community Health Network of Connecticut",
-  "subnets": {
-    "ipv4": [
+  "asn" : 32680,
+  "metadata" : {
+    "handle" : "CHNCTORG",
+    "description" : "Community Health Network of Connecticut",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.25.116.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

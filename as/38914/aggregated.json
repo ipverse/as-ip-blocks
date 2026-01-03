@@ -1,12 +1,15 @@
 {
-  "asn": 38914,
-  "handle": "TSI-MMS-MNT",
-  "description": "Deutsche Telekom MMS GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38914,
+  "metadata" : {
+    "handle" : "TSI-MMS-MNT",
+    "description" : "Deutsche Telekom MMS GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.13.40.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:6c4::/48"
     ]
   }

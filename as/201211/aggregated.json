@@ -1,9 +1,12 @@
 {
-  "asn": 201211,
-  "handle": "DRUGOYTEL-AS",
-  "description": "LLC Drugoy Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201211,
+  "metadata" : {
+    "handle" : "DRUGOYTEL-AS",
+    "description" : "LLC Drugoy Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.94.21.0/24",
       "45.94.104.0/22",
       "45.133.217.0/24",
@@ -21,7 +24,7 @@
       "193.178.118.0/24",
       "194.110.8.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a05:3e80::/29"
     ]
   }

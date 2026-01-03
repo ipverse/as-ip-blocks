@@ -1,9 +1,12 @@
 {
-  "asn": 133001,
-  "handle": "AIRNETNETWORKS-AS-IN",
-  "description": "Airnet Cable And Datacom Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133001,
+  "metadata" : {
+    "handle" : "AIRNETNETWORKS-AS-IN",
+    "description" : "Airnet Cable And Datacom Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.225.160.0/22",
       "43.251.216.0/22",
       "45.117.220.0/24",
@@ -27,7 +30,7 @@
       "183.87.252.0/22",
       "202.94.160.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:b240::/45",
       "2401:b240:8::/47",
       "2401:b240:c::/47"

@@ -1,13 +1,16 @@
 {
-  "asn": 266157,
-  "handle": "WD-PRODUTOS-SERVICOS",
-  "description": "WD Produtos e Servicos Tecnologicos",
-  "subnets": {
-    "ipv4": [
+  "asn" : 266157,
+  "metadata" : {
+    "handle" : "WD-PRODUTOS-SERVICOS",
+    "description" : "WD Produtos e Servicos Tecnologicos",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.6.116.0/23",
       "45.6.118.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:3b90::/36"
     ]
   }

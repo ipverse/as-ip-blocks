@@ -1,14 +1,17 @@
 {
-  "asn": 23657,
-  "handle": "BLUESKY-AS-AP",
-  "description": "Blue Sky Communications",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23657,
+  "metadata" : {
+    "handle" : "BLUESKY-AS-AP",
+    "description" : "Blue Sky Communications",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "38.134.236.0/22",
       "67.218.48.0/20",
       "198.52.28.0/22",
       "202.70.112.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

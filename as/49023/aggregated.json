@@ -1,9 +1,12 @@
 {
-  "asn": 49023,
-  "handle": "INOVO-AS",
-  "description": "INOVO SOLUTIONS SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 49023,
+  "metadata" : {
+    "handle" : "INOVO-AS",
+    "description" : "INOVO SOLUTIONS SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "80.96.60.0/22",
       "85.120.181.0/24",
       "85.120.219.0/24",
@@ -14,6 +17,6 @@
       "193.36.37.0/24",
       "194.153.251.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

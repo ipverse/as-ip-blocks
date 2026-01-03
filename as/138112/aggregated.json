@@ -1,12 +1,15 @@
 {
-  "asn": 138112,
-  "handle": "MEGARAP-AS-ID",
-  "description": "PT. Megarap Mitra Solusi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 138112,
+  "metadata" : {
+    "handle" : "MEGARAP-AS-ID",
+    "description" : "PT. Megarap Mitra Solusi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.126.172.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2404:ec0::/32"
     ]
   }

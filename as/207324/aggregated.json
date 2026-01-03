@@ -1,15 +1,18 @@
 {
-  "asn": 207324,
-  "handle": "TIERSBOX",
-  "description": "Tiersbox SCOP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 207324,
+  "metadata" : {
+    "handle" : "TIERSBOX",
+    "description" : "Tiersbox SCOP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "195.85.248.0/24",
       "195.88.181.0/24",
       "195.95.128.0/24",
       "195.95.130.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:6c0::/29"
     ]
   }

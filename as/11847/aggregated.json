@@ -1,9 +1,12 @@
 {
-  "asn": 11847,
-  "handle": "OTT",
-  "description": "GoNetSpeed",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11847,
+  "metadata" : {
+    "handle" : "OTT",
+    "description" : "GoNetSpeed",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.135.128.0/20",
       "66.181.112.0/20",
       "66.252.32.0/20",
@@ -22,7 +25,7 @@
       "199.191.0.0/20",
       "216.220.224.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:f718::/32"
     ]
   }

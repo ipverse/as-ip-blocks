@@ -1,9 +1,12 @@
 {
-  "asn": 42845,
-  "handle": "BRETAGNETELECOM",
-  "description": "BLUE SAS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 42845,
+  "metadata" : {
+    "handle" : "BRETAGNETELECOM",
+    "description" : "BLUE SAS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.157.224.0/21",
       "45.137.144.0/22",
       "77.74.208.0/21",
@@ -18,7 +21,7 @@
       "193.104.205.0/24",
       "194.150.92.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:7200::/32"
     ]
   }

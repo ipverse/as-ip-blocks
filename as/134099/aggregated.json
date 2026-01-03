@@ -1,12 +1,15 @@
 {
-  "asn": 134099,
-  "handle": "THETREASURY-AS-AP",
-  "description": "The Treasury",
-  "subnets": {
-    "ipv4": [
+  "asn" : 134099,
+  "metadata" : {
+    "handle" : "THETREASURY-AS-AP",
+    "description" : "The Treasury",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.36.47.0/24",
       "202.36.172.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,12 +1,15 @@
 {
-  "asn": 7712,
-  "handle": "CNE-AS-AP",
-  "description": "Cambodian Network Exchange Co. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7712,
+  "metadata" : {
+    "handle" : "CNE-AS-AP",
+    "description" : "Cambodian Network Exchange Co. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "118.67.200.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:aa00::/32"
     ]
   }

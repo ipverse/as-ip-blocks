@@ -1,10 +1,13 @@
 {
-  "asn": 141221,
-  "handle": "EKWINOX-AS-AP",
-  "description": "Equinox",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 141221,
+  "metadata" : {
+    "handle" : "EKWINOX-AS-AP",
+    "description" : "Equinox",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2602:feda:aeb::/48",
       "2602:feda:cdc::/48",
       "2602:feda:cde::/48"

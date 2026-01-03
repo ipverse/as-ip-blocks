@@ -1,12 +1,15 @@
 {
-  "asn": 150710,
-  "handle": "CWNETPTYLTD-AS-AP",
-  "description": "CWNet Pty Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150710,
+  "metadata" : {
+    "handle" : "CWNETPTYLTD-AS-AP",
+    "description" : "CWNet Pty Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.65.220.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df1:c7c0::/48"
     ]
   }

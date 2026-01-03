@@ -1,12 +1,15 @@
 {
-  "asn": 30515,
-  "handle": "USP",
-  "description": "USP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 30515,
+  "metadata" : {
+    "handle" : "USP",
+    "description" : "USP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "63.99.74.0/24",
       "207.188.255.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

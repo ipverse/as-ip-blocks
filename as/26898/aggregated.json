@@ -1,13 +1,16 @@
 {
-  "asn": 26898,
-  "handle": "CONNECT-ASN",
-  "description": "Connect",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26898,
+  "metadata" : {
+    "handle" : "CONNECT-ASN",
+    "description" : "Connect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "131.187.248.0/22",
       "208.108.80.0/20",
       "208.108.152.0/21"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

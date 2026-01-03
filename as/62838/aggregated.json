@@ -1,9 +1,12 @@
 {
-  "asn": 62838,
-  "handle": "REPRISE-HOSTING",
-  "description": "Reprise Hosting",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62838,
+  "metadata" : {
+    "handle" : "REPRISE-HOSTING",
+    "description" : "Reprise Hosting",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.179.32.0/24",
       "104.37.168.0/22",
       "104.219.16.0/22",
@@ -12,6 +15,6 @@
       "162.253.152.0/22",
       "185.179.204.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

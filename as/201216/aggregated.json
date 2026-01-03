@@ -1,9 +1,12 @@
 {
-  "asn": 201216,
-  "handle": "LOLO-COMPANY",
-  "description": "Lolo Company AB",
-  "subnets": {
-    "ipv4": [
+  "asn" : 201216,
+  "metadata" : {
+    "handle" : "LOLO-COMPANY",
+    "description" : "Lolo Company AB",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.253.108.0/24",
       "192.36.107.0/24",
       "192.36.108.0/24",
@@ -24,7 +27,7 @@
       "194.68.38.0/24",
       "194.132.29.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:1e41::/43",
       "2a07:1e41:53::/48",
       "2a07:1e47:1::/48",

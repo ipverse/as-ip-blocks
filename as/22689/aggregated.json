@@ -1,9 +1,12 @@
 {
-  "asn": 22689,
-  "handle": "SERCOMTEL",
-  "description": "SERCOMTEL S/A TELECOMUNICACOES",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22689,
+  "metadata" : {
+    "handle" : "SERCOMTEL",
+    "description" : "SERCOMTEL S/A TELECOMUNICACOES",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "138.59.88.0/22",
       "186.236.128.0/18",
       "187.0.64.0/18",
@@ -17,7 +20,7 @@
       "201.54.64.0/18",
       "201.94.192.0/18"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:22c::/32"
     ]
   }

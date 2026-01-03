@@ -1,12 +1,15 @@
 {
-  "asn": 12201,
-  "handle": "SCC-LAKELAND",
-  "description": "Saddle Creek Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12201,
+  "metadata" : {
+    "handle" : "SCC-LAKELAND",
+    "description" : "Saddle Creek Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.123.226.0/24",
       "173.227.159.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

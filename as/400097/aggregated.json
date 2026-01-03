@@ -1,12 +1,15 @@
 {
-  "asn": 400097,
-  "handle": "NATIONALWIFI",
-  "description": "National Wi-Fi",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400097,
+  "metadata" : {
+    "handle" : "NATIONALWIFI",
+    "description" : "National Wi-Fi",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.123.220.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:3d40:2::/47",
       "2606:3d40:5::/48",
       "2606:3d40:7::/48",

@@ -1,9 +1,12 @@
 {
-  "asn": 12462,
-  "handle": "ECE-MAD-DATA",
-  "description": "Evolutio Cloud Enabler S.A. Unipersonal",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12462,
+  "metadata" : {
+    "handle" : "ECE-MAD-DATA",
+    "description" : "Evolutio Cloud Enabler S.A. Unipersonal",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.123.120.0/22",
       "212.49.189.0/24",
       "212.66.160.0/24",
@@ -11,7 +14,7 @@
       "212.163.31.0/24",
       "213.170.32.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0c:f5c0::/32"
     ]
   }

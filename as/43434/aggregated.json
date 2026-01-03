@@ -1,13 +1,16 @@
 {
-  "asn": 43434,
-  "handle": "CONTACTTV-AS",
-  "description": "CJSC Contact TV",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43434,
+  "metadata" : {
+    "handle" : "CONTACTTV-AS",
+    "description" : "CJSC Contact TV",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.194.252.0/23",
       "94.232.0.0/21",
       "176.109.16.0/20"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

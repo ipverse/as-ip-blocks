@@ -1,11 +1,14 @@
 {
-  "asn": 53634,
-  "handle": "AMDAF-AS",
-  "description": "AM-DAF",
-  "subnets": {
-    "ipv4": [
+  "asn" : 53634,
+  "metadata" : {
+    "handle" : "AMDAF-AS",
+    "description" : "AM-DAF",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "199.227.162.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

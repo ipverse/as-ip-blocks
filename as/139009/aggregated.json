@@ -1,9 +1,12 @@
 {
-  "asn": 139009,
-  "handle": "WSCL-AS-AP",
-  "description": "Windstream Communication Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 139009,
+  "metadata" : {
+    "handle" : "WSCL-AS-AP",
+    "description" : "Windstream Communication Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "14.1.101.0/24",
       "14.1.103.0/24",
       "103.29.238.0/23",
@@ -24,7 +27,7 @@
       "160.187.117.0/24",
       "202.173.120.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2401:c680:e::/48",
       "2407:d40::/32"
     ]

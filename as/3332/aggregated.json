@@ -1,12 +1,15 @@
 {
-  "asn": 3332,
-  "handle": "SWEDBANK-AS",
-  "description": "Swedbank AS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3332,
+  "metadata" : {
+    "handle" : "SWEDBANK-AS",
+    "description" : "Swedbank AS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.40.195.0/24",
       "193.203.196.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

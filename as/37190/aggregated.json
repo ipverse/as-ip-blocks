@@ -1,9 +1,12 @@
 {
-  "asn": 37190,
-  "handle": "ATLANTIQUE-TELECOM-CI",
-  "description": "Atlantique Telecom (Cote d\u0027Ivoire)",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37190,
+  "metadata" : {
+    "handle" : "ATLANTIQUE-TELECOM-CI",
+    "description" : "Atlantique Telecom (Cote d'Ivoire)",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.191.68.0/22",
       "102.206.120.0/22",
       "102.207.0.0/22",
@@ -12,7 +15,7 @@
       "102.215.252.0/22",
       "154.0.24.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:4c40:800::/40",
       "2c0f:4c40:a00::/40",
       "2c0f:4c40:c00::/40",

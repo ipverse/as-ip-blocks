@@ -1,15 +1,18 @@
 {
-  "asn": 210973,
-  "handle": "DATAMATIX-AS",
-  "description": "DATAMATIX Datensysteme GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210973,
+  "metadata" : {
+    "handle" : "DATAMATIX-AS",
+    "description" : "DATAMATIX Datensysteme GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "149.62.35.0/24",
       "194.0.132.0/24",
       "212.236.9.0/24",
       "212.236.10.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:fd00::/32"
     ]
   }

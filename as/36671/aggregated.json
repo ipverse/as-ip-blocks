@@ -1,9 +1,12 @@
 {
-  "asn": 36671,
-  "handle": "TWOSIGMA2",
-  "description": "TWO SIGMA INVESTMENTS LP",
-  "subnets": {
-    "ipv4": [
+  "asn" : 36671,
+  "metadata" : {
+    "handle" : "TWOSIGMA2",
+    "description" : "TWO SIGMA INVESTMENTS LP",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "8.2.105.0/24",
       "8.245.33.0/24",
       "38.27.161.0/24",
@@ -15,7 +18,7 @@
       "208.77.212.0/22",
       "212.133.79.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:106:3000::/40"
     ]
   }

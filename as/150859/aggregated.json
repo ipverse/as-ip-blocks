@@ -1,9 +1,12 @@
 {
-  "asn": 150859,
-  "handle": "SANDCLOCK-VN",
-  "description": "SANDCLOCK SERVICE TRADING COMPANY LIMITED",
-  "subnets": {
-    "ipv4": [
+  "asn" : 150859,
+  "metadata" : {
+    "handle" : "SANDCLOCK-VN",
+    "description" : "SANDCLOCK SERVICE TRADING COMPANY LIMITED",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.236.174.0/23",
       "157.66.12.0/24",
       "157.66.98.0/23",
@@ -13,6 +16,6 @@
       "160.30.22.0/23",
       "160.187.74.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

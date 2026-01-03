@@ -1,12 +1,15 @@
 {
-  "asn": 60396,
-  "handle": "WW-AS",
-  "description": "Wilhelm Wijkander",
-  "subnets": {
-    "ipv4": [
+  "asn" : 60396,
+  "metadata" : {
+    "handle" : "WW-AS",
+    "description" : "Wilhelm Wijkander",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.209.0.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:2e74::/48"
     ]
   }

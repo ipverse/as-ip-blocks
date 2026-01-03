@@ -1,12 +1,15 @@
 {
-  "asn": 39952,
-  "handle": "SPECTRA-AS",
-  "description": "Spectra Logic Corporation",
-  "subnets": {
-    "ipv4": [
+  "asn" : 39952,
+  "metadata" : {
+    "handle" : "SPECTRA-AS",
+    "description" : "Spectra Logic Corporation",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.30.190.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:a3:e030::/48"
     ]
   }

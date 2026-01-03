@@ -1,9 +1,12 @@
 {
-  "asn": 268976,
-  "handle": "WECLIX-TELECOM",
-  "description": "Weclix Telecom S/A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 268976,
+  "metadata" : {
+    "handle" : "WECLIX-TELECOM",
+    "description" : "Weclix Telecom S/A",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.165.204.0/22",
       "45.171.244.0/22",
       "45.176.48.0/22",
@@ -34,7 +37,7 @@
       "200.33.152.0/21",
       "201.71.240.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:5d80::/32"
     ]
   }

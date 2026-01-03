@@ -1,13 +1,16 @@
 {
-  "asn": 3634,
-  "handle": "SFASU-AS",
-  "description": "Stephen F. Austin State University",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3634,
+  "metadata" : {
+    "handle" : "SFASU-AS",
+    "description" : "Stephen F. Austin State University",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "144.96.0.0/16",
       "192.70.161.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:2100::/32"
     ]
   }

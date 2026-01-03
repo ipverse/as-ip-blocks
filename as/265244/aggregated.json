@@ -1,12 +1,15 @@
 {
-  "asn": 265244,
-  "handle": "MAFRA-TELECOM",
-  "description": "Mafra Telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 265244,
+  "metadata" : {
+    "handle" : "MAFRA-TELECOM",
+    "description" : "Mafra Telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "168.0.36.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:2ccc::/32"
     ]
   }

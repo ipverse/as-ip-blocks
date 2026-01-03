@@ -1,13 +1,16 @@
 {
-  "asn": 215128,
-  "handle": "IONLINE-ISP-UK",
-  "description": "IONLINE INTERNET SOLUTIONS PROVIDER LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 215128,
+  "metadata" : {
+    "handle" : "IONLINE-ISP-UK",
+    "description" : "IONLINE INTERNET SOLUTIONS PROVIDER LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.151.244.0/24",
       "213.198.6.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a13:6040::/29"
     ]
   }

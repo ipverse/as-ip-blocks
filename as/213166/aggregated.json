@@ -1,14 +1,17 @@
 {
-  "asn": 213166,
-  "handle": "UA-HOSTING",
-  "description": "UA-Hosting SIA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 213166,
+  "metadata" : {
+    "handle" : "UA-HOSTING",
+    "description" : "UA-Hosting SIA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "37.44.214.0/24",
       "86.105.182.0/24",
       "91.194.110.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0f:ea81::/32",
       "2a0f:ea83::/32"
     ]

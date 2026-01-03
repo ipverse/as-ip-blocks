@@ -1,12 +1,15 @@
 {
-  "asn": 271608,
-  "handle": "PLUS-INTERNET-TELECOM",
-  "description": "plus internet telecom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 271608,
+  "metadata" : {
+    "handle" : "PLUS-INTERNET-TELECOM",
+    "description" : "plus internet telecom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.24.100.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2804:7e30::/33",
       "2804:7e30:8000::/34"
     ]

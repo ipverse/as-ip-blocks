@@ -1,12 +1,15 @@
 {
-  "asn": 209669,
-  "handle": "PRIMONET-AS",
-  "description": "Ashley Primo",
-  "subnets": {
-    "ipv4": [
+  "asn" : 209669,
+  "metadata" : {
+    "handle" : "PRIMONET-AS",
+    "description" : "Ashley Primo",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.251.232.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a10:cc40:153::/48",
       "2a10:cc40:154::/48",
       "2a10:cc40:15f::/48"

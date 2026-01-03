@@ -1,12 +1,15 @@
 {
-  "asn": 22548,
-  "handle": "NUCLEO-INF-COORD",
-  "description": "Núcleo de Inf. e Coord. do Ponto BR - NIC.BR",
-  "subnets": {
-    "ipv4": [
+  "asn" : 22548,
+  "metadata" : {
+    "handle" : "NUCLEO-INF-COORD",
+    "description" : "Núcleo de Inf. e Coord. do Ponto BR - NIC.BR",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "200.160.0.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:12ff::/32"
     ]
   }

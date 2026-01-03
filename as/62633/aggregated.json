@@ -1,14 +1,17 @@
 {
-  "asn": 62633,
-  "handle": "SERVERDIME-SERVERCHEAP-HOSTRUSH",
-  "description": "HostRush",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62633,
+  "metadata" : {
+    "handle" : "SERVERDIME-SERVERCHEAP-HOSTRUSH",
+    "description" : "HostRush",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "65.75.200.0/24",
       "207.231.104.0/23",
       "207.231.110.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2606:cc0:11::/48",
       "2606:cc0:200::/40",
       "2606:cc0:400::/40"

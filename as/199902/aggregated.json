@@ -1,9 +1,12 @@
 {
-  "asn": 199902,
-  "handle": "SE-LM",
-  "description": "Lantmateriet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199902,
+  "metadata" : {
+    "handle" : "SE-LM",
+    "description" : "Lantmateriet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "192.36.83.0/24",
       "192.36.97.0/24",
       "192.71.188.0/24",
@@ -11,7 +14,7 @@
       "192.121.3.0/24",
       "192.121.120.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:67c:268c::/48",
       "2a01:280:301::/48"
     ]

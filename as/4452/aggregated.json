@@ -1,9 +1,12 @@
 {
-  "asn": 4452,
-  "handle": "ZCORUM",
-  "description": "ZCorum",
-  "subnets": {
-    "ipv4": [
+  "asn" : 4452,
+  "metadata" : {
+    "handle" : "ZCORUM",
+    "description" : "ZCorum",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.77.192.0/22",
       "64.77.219.0/24",
       "68.68.176.0/24",
@@ -18,7 +21,7 @@
       "208.101.203.0/24",
       "208.101.204.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:ae00:3::/48"
     ]
   }

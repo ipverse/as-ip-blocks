@@ -1,12 +1,15 @@
 {
-  "asn": 328107,
-  "handle": "GUILAB-AS",
-  "description": "GUILAB SA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 328107,
+  "metadata" : {
+    "handle" : "GUILAB-AS",
+    "description" : "GUILAB SA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.220.52.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:5b80::/32"
     ]
   }

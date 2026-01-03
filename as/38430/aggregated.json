@@ -1,11 +1,14 @@
 {
-  "asn": 38430,
-  "handle": "SHINHANCARD-AS",
-  "description": "Shinhan card",
-  "subnets": {
-    "ipv4": [
+  "asn" : 38430,
+  "metadata" : {
+    "handle" : "SHINHANCARD-AS",
+    "description" : "Shinhan card",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "211.168.45.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

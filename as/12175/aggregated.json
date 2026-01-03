@@ -1,9 +1,12 @@
 {
-  "asn": 12175,
-  "handle": "YELMNET",
-  "description": "Rainier Connect",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12175,
+  "metadata" : {
+    "handle" : "YELMNET",
+    "description" : "Rainier Connect",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.243.212.0/22",
       "66.243.223.0/24",
       "66.243.225.0/24",
@@ -19,6 +22,6 @@
       "216.227.112.0/22",
       "216.227.116.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

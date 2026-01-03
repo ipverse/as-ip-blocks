@@ -1,9 +1,12 @@
 {
-  "asn": 64095,
-  "handle": "BRSL-AS-AP",
-  "description": "Blue Reach Services Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 64095,
+  "metadata" : {
+    "handle" : "BRSL-AS-AP",
+    "description" : "Blue Reach Services Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.60.99.0/24",
       "103.133.88.0/23",
       "103.212.52.0/22",
@@ -11,7 +14,7 @@
       "160.25.130.0/23",
       "163.47.231.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:faa0::/32",
       "2401:b120::/32",
       "2404:9e80::/32"

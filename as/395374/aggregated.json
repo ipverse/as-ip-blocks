@@ -1,9 +1,12 @@
 {
-  "asn": 395374,
-  "handle": "CYSA-MAIN",
-  "description": "Cyber Sainik",
-  "subnets": {
-    "ipv4": [
+  "asn" : 395374,
+  "metadata" : {
+    "handle" : "CYSA-MAIN",
+    "description" : "Cyber Sainik",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.6.57.0/24",
       "31.57.98.0/24",
       "31.58.65.0/24",
@@ -43,6 +46,6 @@
       "194.60.92.0/24",
       "194.147.4.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

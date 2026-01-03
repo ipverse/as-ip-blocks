@@ -1,12 +1,15 @@
 {
-  "asn": 55667,
-  "handle": "IPTELECOM-AS-ID",
-  "description": "PT IP Telecom Multimedia Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55667,
+  "metadata" : {
+    "handle" : "IPTELECOM-AS-ID",
+    "description" : "PT IP Telecom Multimedia Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "49.156.56.0/23",
       "49.156.60.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

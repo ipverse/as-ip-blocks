@@ -1,12 +1,15 @@
 {
-  "asn": 142029,
-  "handle": "AMCL-AS-AP",
-  "description": "Ascend Money",
-  "subnets": {
-    "ipv4": [
+  "asn" : 142029,
+  "metadata" : {
+    "handle" : "AMCL-AS-AP",
+    "description" : "Ascend Money",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.165.56.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:5e80::/48"
     ]
   }

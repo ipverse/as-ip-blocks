@@ -1,12 +1,15 @@
 {
-  "asn": 11808,
-  "handle": "UIDAHO",
-  "description": "University of Idaho",
-  "subnets": {
-    "ipv4": [
+  "asn" : 11808,
+  "metadata" : {
+    "handle" : "UIDAHO",
+    "description" : "University of Idaho",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "129.101.64.0/18",
       "129.101.128.0/17"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

@@ -1,13 +1,16 @@
 {
-  "asn": 29544,
-  "handle": "MAURITEL",
-  "description": "Mauritanian Telecommunication Company",
-  "subnets": {
-    "ipv4": [
+  "asn" : 29544,
+  "metadata" : {
+    "handle" : "MAURITEL",
+    "description" : "Mauritanian Telecommunication Company",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "41.188.64.0/18",
       "82.151.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:f998::/32"
     ]
   }

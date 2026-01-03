@@ -1,9 +1,12 @@
 {
-  "asn": 396443,
-  "handle": "WESTERN-IOWA-NETWORKS-396443",
-  "description": "Western Iowa Networks",
-  "subnets": {
-    "ipv4": [
+  "asn" : 396443,
+  "metadata" : {
+    "handle" : "WESTERN-IOWA-NETWORKS-396443",
+    "description" : "Western Iowa Networks",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "67.55.169.0/24",
       "69.63.23.0/24",
       "70.39.5.0/24",
@@ -27,7 +30,7 @@
       "216.51.130.0/24",
       "216.248.105.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2607:480::/32"
     ]
   }

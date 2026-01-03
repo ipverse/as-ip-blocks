@@ -1,9 +1,12 @@
 {
-  "asn": 210667,
-  "handle": "SMISHCRAFT",
-  "description": "Adam Goodenough",
-  "subnets": {
-    "ipv4": [
+  "asn" : 210667,
+  "metadata" : {
+    "handle" : "SMISHCRAFT",
+    "description" : "Adam Goodenough",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.31.80.0/24",
       "44.31.238.0/24",
       "64.49.14.0/24",
@@ -13,7 +16,7 @@
       "192.67.34.0/24",
       "204.10.192.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fa9b:c0::/48",
       "2a0a:6040:5101::/48",
       "2a0a:6040:5102::/47",

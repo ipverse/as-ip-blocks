@@ -1,9 +1,12 @@
 {
-  "asn": 10143,
-  "handle": "EXETEL-AS-AP",
-  "description": "SUPERLOOP (AUSTRALIA) PTY LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 10143,
+  "metadata" : {
+    "handle" : "EXETEL-AS-AP",
+    "description" : "SUPERLOOP (AUSTRALIA) PTY LTD",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.239.102.0/24",
       "44.31.240.0/24",
       "58.96.0.0/17",
@@ -36,7 +39,7 @@
       "203.57.144.0/24",
       "220.233.0.0/16"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df0:24a::/48",
       "2406:3400::/32"
     ]

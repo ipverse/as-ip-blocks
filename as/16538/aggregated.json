@@ -1,11 +1,14 @@
 {
-  "asn": 16538,
-  "handle": "PDC",
-  "description": "Pacific Disaster Center",
-  "subnets": {
-    "ipv4": [
+  "asn" : 16538,
+  "metadata" : {
+    "handle" : "PDC",
+    "description" : "Pacific Disaster Center",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "208.65.120.0/22"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

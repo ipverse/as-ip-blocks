@@ -1,9 +1,12 @@
 {
-  "asn": 19429,
-  "handle": "ETB-COLOMBIA",
-  "description": "ETB - Colombia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19429,
+  "metadata" : {
+    "handle" : "ETB-COLOMBIA",
+    "description" : "ETB - Colombia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.177.53.0/24",
       "138.97.80.0/23",
       "138.97.82.0/24",
@@ -22,7 +25,7 @@
       "201.244.0.0/15",
       "208.30.40.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2800:260::/31",
       "2800:26a::/31",
       "2800:26c::/32",

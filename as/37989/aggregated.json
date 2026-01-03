@@ -1,13 +1,16 @@
 {
-  "asn": 37989,
-  "handle": "DCS1PTELTD-AS-AP",
-  "description": "DCS1 Pte. Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 37989,
+  "metadata" : {
+    "handle" : "DCS1PTELTD-AS-AP",
+    "description" : "DCS1 Pte. Ltd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "44.32.99.0/24",
       "203.123.48.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:fc00::/32"
     ]
   }

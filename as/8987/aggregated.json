@@ -1,9 +1,12 @@
 {
-  "asn": 8987,
-  "handle": "AWS-GOVCLOUD",
-  "description": "Amazon Data Services Ireland Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 8987,
+  "metadata" : {
+    "handle" : "AWS-GOVCLOUD",
+    "description" : "Amazon Data Services Ireland Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "3.2.99.0/24",
       "3.2.100.0/24",
       "3.4.24.0/22",
@@ -85,7 +88,7 @@
       "216.221.163.0/24",
       "216.221.166.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2600:1f00:5000::/40",
       "2600:1f12::/36",
       "2600:1f15::/36",

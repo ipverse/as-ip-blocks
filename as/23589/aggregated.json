@@ -1,12 +1,15 @@
 {
-  "asn": 23589,
-  "handle": "MOEDR-AS",
-  "description": "KERIS",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23589,
+  "metadata" : {
+    "handle" : "MOEDR-AS",
+    "description" : "KERIS",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "210.102.123.0/24",
       "210.102.125.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

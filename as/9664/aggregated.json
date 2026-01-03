@@ -1,13 +1,16 @@
 {
-  "asn": 9664,
-  "handle": "SATPL-AS-AP",
-  "description": "SOUTHEAST ASIA TELECOM(SG) PTE. LTD",
-  "subnets": {
-    "ipv4": [
+  "asn" : 9664,
+  "metadata" : {
+    "handle" : "SATPL-AS-AP",
+    "description" : "SOUTHEAST ASIA TELECOM(SG) PTE. LTD.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "163.61.198.0/24",
       "210.79.186.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df3:3fc0::/48",
       "2400:9ce0:5000::/36",
       "2401:f1e0::/32"

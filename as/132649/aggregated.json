@@ -1,12 +1,15 @@
 {
-  "asn": 132649,
-  "handle": "ADAUNET-AS-ID",
-  "description": "PT Adau Putra Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132649,
+  "metadata" : {
+    "handle" : "ADAUNET-AS-ID",
+    "description" : "PT Adau Putra Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.24.212.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2406:e900::/48"
     ]
   }

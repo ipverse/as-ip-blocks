@@ -1,9 +1,12 @@
 {
-  "asn": 133127,
-  "handle": "FEDEX-AS-AP",
-  "description": "Federal Express Corporation Hong Kong Branch",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133127,
+  "metadata" : {
+    "handle" : "FEDEX-AS-AP",
+    "description" : "Federal Express Corporation Hong Kong Branch",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "155.161.8.0/24",
       "155.161.12.0/23",
       "155.161.20.0/24",
@@ -14,6 +17,6 @@
       "155.161.220.0/24",
       "155.161.250.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

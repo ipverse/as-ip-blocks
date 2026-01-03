@@ -1,12 +1,15 @@
 {
-  "asn": 140204,
-  "handle": "OMSCN-AS",
-  "description": "Om Sai Cable Network",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140204,
+  "metadata" : {
+    "handle" : "OMSCN-AS",
+    "description" : "Om Sai Cable Network",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.155.226.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df6:6fc0::/48"
     ]
   }

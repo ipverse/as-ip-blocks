@@ -1,9 +1,12 @@
 {
-  "asn": 153706,
-  "handle": "STACKNETWORK-AS-AP",
-  "description": "Stack Network Sdn. Bhd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 153706,
+  "metadata" : {
+    "handle" : "STACKNETWORK-AS-AP",
+    "description" : "Stack Network Sdn. Bhd.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "43.229.153.0/24",
       "66.212.56.0/22",
       "103.133.136.0/23",
@@ -14,6 +17,6 @@
       "156.254.21.0/24",
       "163.223.146.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

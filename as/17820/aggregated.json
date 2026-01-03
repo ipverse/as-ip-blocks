@@ -1,9 +1,12 @@
 {
-  "asn": 17820,
-  "handle": "DIL-AP",
-  "description": "TATA Communications Internet Services Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 17820,
+  "metadata" : {
+    "handle" : "DIL-AP",
+    "description" : "TATA Communications Internet Services Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "61.12.0.0/21",
       "61.12.20.0/22",
       "61.12.24.0/21",
@@ -34,7 +37,7 @@
       "203.196.190.0/23",
       "210.7.64.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:8400::/46",
       "2402:8400:200::/40",
       "2402:8400:400::/40",

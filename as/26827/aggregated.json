@@ -1,9 +1,12 @@
 {
-  "asn": 26827,
-  "handle": "EPBTELECOM",
-  "description": "EPB Fiber Optics",
-  "subnets": {
-    "ipv4": [
+  "asn" : 26827,
+  "metadata" : {
+    "handle" : "EPBTELECOM",
+    "description" : "EPB Fiber Optics",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.251.64.0/19",
       "45.43.96.0/20",
       "66.18.32.0/19",
@@ -24,7 +27,7 @@
       "204.93.96.0/19",
       "204.117.223.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2605:8600::/32"
     ]
   }

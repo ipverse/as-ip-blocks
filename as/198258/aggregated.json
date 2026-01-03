@@ -1,11 +1,14 @@
 {
-  "asn": 198258,
-  "handle": "NAUMEN-AS",
-  "description": "JSC NAU Service",
-  "subnets": {
-    "ipv4": [
+  "asn" : 198258,
+  "metadata" : {
+    "handle" : "NAUMEN-AS",
+    "description" : "JSC NAU Service",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.232.196.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

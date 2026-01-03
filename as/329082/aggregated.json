@@ -1,13 +1,16 @@
 {
-  "asn": 329082,
-  "handle": "CSLL1-AS",
-  "description": "Connect Services Liberia LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 329082,
+  "metadata" : {
+    "handle" : "CSLL1-AS",
+    "description" : "Connect Services Liberia LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "102.215.52.0/22",
       "154.41.76.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2c0f:6080::/32"
     ]
   }

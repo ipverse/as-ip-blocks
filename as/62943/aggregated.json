@@ -1,9 +1,12 @@
 {
-  "asn": 62943,
-  "handle": "AS62943-BLUEBIRD-NETWORK",
-  "description": "Missouri Network Alliance LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 62943,
+  "metadata" : {
+    "handle" : "AS62943-BLUEBIRD-NETWORK",
+    "description" : "Missouri Network Alliance LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "52.119.36.0/22",
       "64.32.48.0/24",
       "64.39.226.0/23",
@@ -75,7 +78,7 @@
       "216.146.248.0/24",
       "216.213.32.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:fce9::/36",
       "2604:2980::/32",
       "2604:2a40::/32"

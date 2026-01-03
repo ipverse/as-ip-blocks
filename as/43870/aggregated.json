@@ -1,9 +1,12 @@
 {
-  "asn": 43870,
-  "handle": "ASDANIS",
-  "description": "DANIS SRL",
-  "subnets": {
-    "ipv4": [
+  "asn" : 43870,
+  "metadata" : {
+    "handle" : "ASDANIS",
+    "description" : "DANIS SRL",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "79.140.160.0/21",
       "79.140.168.0/22",
       "79.140.172.0/24",
@@ -17,7 +20,7 @@
       "149.3.185.0/24",
       "149.3.187.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:cce0::/32"
     ]
   }

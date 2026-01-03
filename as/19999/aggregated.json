@@ -1,13 +1,16 @@
 {
-  "asn": 19999,
-  "handle": "UNIONASN",
-  "description": "Union College",
-  "subnets": {
-    "ipv4": [
+  "asn" : 19999,
+  "metadata" : {
+    "handle" : "UNIONASN",
+    "description" : "Union College",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.80.186.0/24",
       "76.78.88.0/24",
       "149.106.0.0/19"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

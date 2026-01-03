@@ -1,9 +1,12 @@
 {
-  "asn": 400175,
-  "handle": "MICROTRONIX-ESOLUTIONS",
-  "description": "Microtronix ESolutions LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 400175,
+  "metadata" : {
+    "handle" : "MICROTRONIX-ESOLUTIONS",
+    "description" : "Microtronix ESolutions LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "45.135.163.0/24",
       "45.141.15.0/24",
       "66.253.116.0/22",
@@ -18,7 +21,7 @@
       "193.221.195.0/24",
       "194.26.223.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2602:2a8::/36",
       "2606:6680:47::/48",
       "2606:6680:48::/48"

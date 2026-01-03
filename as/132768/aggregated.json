@@ -1,9 +1,12 @@
 {
-  "asn": 132768,
-  "handle": "FIVENETWORK-AS-IN",
-  "description": "Five network Broadband Solution Pvt Ltd",
-  "subnets": {
-    "ipv4": [
+  "asn" : 132768,
+  "metadata" : {
+    "handle" : "FIVENETWORK-AS-IN",
+    "description" : "Five network Broadband Solution Pvt Ltd",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.16.144.0/22",
       "103.16.196.0/24",
       "103.18.68.0/22",
@@ -21,7 +24,7 @@
       "150.107.92.0/22",
       "183.87.12.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2405:ec0::/35",
       "2405:ec0:2000::/36",
       "2407:a780:1000::/36"

@@ -1,13 +1,16 @@
 {
-  "asn": 212944,
-  "handle": "THUR-AS",
-  "description": "Thurgroup Partners GmbH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 212944,
+  "metadata" : {
+    "handle" : "THUR-AS",
+    "description" : "Thurgroup Partners GmbH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "89.35.78.0/23",
       "185.163.51.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a07:dfc0::/32"
     ]
   }

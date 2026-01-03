@@ -1,9 +1,12 @@
 {
-  "asn": 397325,
-  "handle": "DATACANOPY",
-  "description": "Data Canopy Colocation LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 397325,
+  "metadata" : {
+    "handle" : "DATACANOPY",
+    "description" : "Data Canopy Colocation LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.29.49.0/24",
       "23.29.51.0/24",
       "23.29.54.0/24",
@@ -22,6 +25,6 @@
       "208.73.234.0/24",
       "216.117.12.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

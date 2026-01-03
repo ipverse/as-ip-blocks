@@ -1,12 +1,15 @@
 {
-  "asn": 208719,
-  "handle": "LAREGIE-NR",
-  "description": "Vialis SEM",
-  "subnets": {
-    "ipv4": [
+  "asn" : 208719,
+  "metadata" : {
+    "handle" : "LAREGIE-NR",
+    "description" : "Vialis SEM",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.127.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a03:9960::/32"
     ]
   }

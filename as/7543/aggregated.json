@@ -1,9 +1,12 @@
 {
-  "asn": 7543,
-  "handle": "PRNSI-AS-AP",
-  "description": "PT Reach Network Services Indonesia",
-  "subnets": {
-    "ipv4": [
+  "asn" : 7543,
+  "metadata" : {
+    "handle" : "PRNSI-AS-AP",
+    "description" : "PT Reach Network Services Indonesia",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "202.47.192.0/24",
       "202.47.195.0/24",
       "202.47.196.0/24",
@@ -11,6 +14,6 @@
       "202.47.202.0/23",
       "210.176.128.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

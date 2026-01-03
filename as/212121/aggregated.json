@@ -1,10 +1,13 @@
 {
-  "asn": 212121,
-  "handle": "VAGUE",
-  "description": "James Ray",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 212121,
+  "metadata" : {
+    "handle" : "VAGUE",
+    "description" : "James Ray",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2a0e:b107:1130::/46",
       "2a0e:b107:113f::/48"
     ]

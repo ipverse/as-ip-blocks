@@ -1,12 +1,15 @@
 {
-  "asn": 140421,
-  "handle": "IDNIC-APLIKADATA-AS-ID",
-  "description": "PT APLIKA DATA NUSANTARA",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140421,
+  "metadata" : {
+    "handle" : "IDNIC-APLIKADATA-AS-ID",
+    "description" : "PT APLIKA DATA NUSANTARA",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.148.88.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:df2:c980::/48"
     ]
   }

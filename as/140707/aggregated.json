@@ -1,13 +1,16 @@
 {
-  "asn": 140707,
-  "handle": "UNICOM-NXZW-IDC",
-  "description": "China Unicom",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140707,
+  "metadata" : {
+    "handle" : "UNICOM-NXZW-IDC",
+    "description" : "China Unicom",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "116.172.64.0/19",
       "116.172.96.0/21"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2408:81a3:c800::/48",
       "2408:81a3:ca66::/48",
       "2408:8779:c000::/45"

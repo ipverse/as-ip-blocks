@@ -1,12 +1,15 @@
 {
-  "asn": 55342,
-  "handle": "HOMENET6837-AS-AP",
-  "description": "Homenet",
-  "subnets": {
-    "ipv4": [
+  "asn" : 55342,
+  "metadata" : {
+    "handle" : "HOMENET6837-AS-AP",
+    "description" : "Homenet",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.157.184.0/23",
       "202.131.1.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

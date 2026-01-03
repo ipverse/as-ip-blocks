@@ -1,12 +1,15 @@
 {
-  "asn": 401831,
-  "handle": "VUVANET",
-  "description": "VuvaNet LLC",
-  "subnets": {
-    "ipv4": [
+  "asn" : 401831,
+  "metadata" : {
+    "handle" : "VUVANET",
+    "description" : "VuvaNet LLC",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "23.142.236.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:17e0::/32"
     ]
   }

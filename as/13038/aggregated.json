@@ -1,9 +1,12 @@
 {
-  "asn": 13038,
-  "handle": "HELEX-RP",
-  "description": "HELLENIC EXCHANGES-ATHENS STOCK EXCHANGE S.A",
-  "subnets": {
-    "ipv4": [
+  "asn" : 13038,
+  "metadata" : {
+    "handle" : "HELEX-RP",
+    "description" : "HELLENIC EXCHANGES-ATHENS STOCK EXCHANGE S.A.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "193.242.240.0/24",
       "193.242.243.0/24",
       "193.242.244.0/23",
@@ -12,6 +15,6 @@
       "193.242.253.0/24",
       "193.242.254.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

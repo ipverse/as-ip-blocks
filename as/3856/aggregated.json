@@ -1,12 +1,15 @@
 {
-  "asn": 3856,
-  "handle": "PCH-AS",
-  "description": "Packet Clearing House Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 3856,
+  "metadata" : {
+    "handle" : "PCH-AS",
+    "description" : "Packet Clearing House Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "69.166.10.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2620:0:870::/48"
     ]
   }

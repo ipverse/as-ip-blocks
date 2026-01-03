@@ -1,12 +1,15 @@
 {
-  "asn": 202643,
-  "handle": "NETSERV-AS",
-  "description": "NetSERV s.r.o",
-  "subnets": {
-    "ipv4": [
+  "asn" : 202643,
+  "metadata" : {
+    "handle" : "NETSERV-AS",
+    "description" : "NetSERV s.r.o.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "185.116.115.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a0e:bec0::/29"
     ]
   }

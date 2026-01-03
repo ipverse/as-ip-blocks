@@ -1,10 +1,13 @@
 {
-  "asn": 2832,
-  "handle": "AS-SUNET-TESTBED",
-  "description": "Vetenskapsradet / SUNET",
-  "subnets": {
-    "ipv4": [],
-    "ipv6": [
+  "asn" : 2832,
+  "metadata" : {
+    "handle" : "AS-SUNET-TESTBED",
+    "description" : "Vetenskapsradet / SUNET",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
       "2001:6b0:4::/48"
     ]
   }

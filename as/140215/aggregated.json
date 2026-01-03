@@ -1,11 +1,14 @@
 {
-  "asn": 140215,
-  "handle": "LUC-AS-AP",
-  "description": "Link Up Communication",
-  "subnets": {
-    "ipv4": [
+  "asn" : 140215,
+  "metadata" : {
+    "handle" : "LUC-AS-AP",
+    "description" : "Link Up Communication",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "103.148.176.0/23"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

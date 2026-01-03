@@ -1,9 +1,12 @@
 {
-  "asn": 33544,
-  "handle": "WILINE",
-  "description": "WiLine Networks Inc",
-  "subnets": {
-    "ipv4": [
+  "asn" : 33544,
+  "metadata" : {
+    "handle" : "WILINE",
+    "description" : "WiLine Networks Inc.",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "64.71.0.0/19",
       "64.79.112.0/20",
       "67.23.192.0/24",
@@ -24,7 +27,7 @@
       "208.185.100.0/24",
       "216.75.224.0/20"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2604:c200::/32"
     ]
   }

@@ -1,12 +1,15 @@
 {
-  "asn": 12096,
-  "handle": "AMPNET-ASN",
-  "description": "AMP Telephones",
-  "subnets": {
-    "ipv4": [
+  "asn" : 12096,
+  "metadata" : {
+    "handle" : "AMPNET-ASN",
+    "description" : "AMP Telephones",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "207.34.32.0/24",
       "207.34.40.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }

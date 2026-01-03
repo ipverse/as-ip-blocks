@@ -1,9 +1,12 @@
 {
-  "asn": 133798,
-  "handle": "SMARTFREN-AS-ID",
-  "description": "PT. Smartfren Telecom Tbk",
-  "subnets": {
-    "ipv4": [
+  "asn" : 133798,
+  "metadata" : {
+    "handle" : "SMARTFREN-AS-ID",
+    "description" : "PT. Smartfren Telecom Tbk",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "66.96.240.0/20",
       "103.44.36.0/24",
       "103.44.38.0/24",
@@ -11,7 +14,7 @@
       "203.128.248.0/23",
       "203.174.5.0/24"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2402:5680::/36",
       "2402:5680:2000::/36",
       "2402:5680:4000::/36",

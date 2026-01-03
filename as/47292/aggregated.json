@@ -1,9 +1,12 @@
 {
-  "asn": 47292,
-  "handle": "SENTIA",
-  "description": "Sentia Denmark A/S",
-  "subnets": {
-    "ipv4": [
+  "asn" : 47292,
+  "metadata" : {
+    "handle" : "SENTIA",
+    "description" : "Sentia Denmark A/S",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "31.31.80.0/21",
       "46.183.136.0/24",
       "46.183.138.0/23",
@@ -101,7 +104,7 @@
       "217.145.48.0/21",
       "217.145.56.0/23"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2001:1448::/32",
       "2a00:49c0::/32",
       "2a01:6200::/32",

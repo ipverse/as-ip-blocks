@@ -1,14 +1,17 @@
 {
-  "asn": 199624,
-  "handle": "DKTEL-AS",
-  "description": "DK Svyaz OOO",
-  "subnets": {
-    "ipv4": [
+  "asn" : 199624,
+  "metadata" : {
+    "handle" : "DKTEL-AS",
+    "description" : "DK Svyaz OOO",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "91.208.171.0/24",
       "185.8.4.0/22",
       "185.166.240.0/22"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2a00:7b60::/32",
       "2a03:13c0::/32",
       "2a0a:2100::/29"

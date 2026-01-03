@@ -1,9 +1,12 @@
 {
-  "asn": 23688,
-  "handle": "LINK3-TECH-AS-BD-AP",
-  "description": "Link3 Technologies Limited",
-  "subnets": {
-    "ipv4": [
+  "asn" : 23688,
+  "metadata" : {
+    "handle" : "LINK3-TECH-AS-BD-AP",
+    "description" : "Link3 Technologies Limited",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "27.147.128.0/17",
       "43.225.204.0/24",
       "103.44.151.0/24",
@@ -15,7 +18,7 @@
       "163.47.32.0/22",
       "203.76.96.0/19"
     ],
-    "ipv6": [
+    "ipv6" : [
       "2400:ca00::/28"
     ]
   }

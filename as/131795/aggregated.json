@@ -1,9 +1,12 @@
 {
-  "asn": 131795,
-  "handle": "KIER-AS",
-  "description": "KOREA INSTITUTE OF ENERGY RESEARCH",
-  "subnets": {
-    "ipv4": [
+  "asn" : 131795,
+  "metadata" : {
+    "handle" : "KIER-AS",
+    "description" : "KOREA INSTITUTE OF ENERGY RESEARCH",
+    "origin" : "authoritative"
+  },
+  "prefixes" : {
+    "ipv4" : [
       "203.241.220.0/22",
       "210.98.0.0/22",
       "210.98.4.0/24",
@@ -12,6 +15,6 @@
       "210.98.57.0/24",
       "210.98.58.0/24"
     ],
-    "ipv6": []
+    "ipv6" : [ ]
   }
 }
