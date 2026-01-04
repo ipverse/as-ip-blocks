@@ -4,7 +4,7 @@ This repository will be renamed from **asn-ip** to **as-ip-blocks**.
 
 ## Migration steps
 
-1. If only consuming raw TXT files: just update the download URL, no code changes needed
+1. If only consuming plaintext files: just update the download URL, no code changes needed
 2. Update repository URLs in your code from `ipverse/asn-ip` to `ipverse/as-ip-blocks`
 3. If parsing JSON: handle the `metadata` nested object and `subnets` → `prefixes` rename
 
@@ -71,9 +71,9 @@ as/1/ipv6-aggregated.txt
 - Added `origin` field in metadata (values: `authoritative`, `inferred`, `overlaid`, `none`)
 - Added `lastAnnounced` field in metadata (ISO 8601 timestamp or `null`)
 
-### TXT format
+### Plaintext format
 
-The TXT format remains the same with separate IPv4 and IPv6 files:
+The plaintext format remains the same with separate IPv4 and IPv6 files:
 
 ipv4-aggregated.txt:
 ```
