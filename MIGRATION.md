@@ -49,7 +49,7 @@ as/1/ipv6-aggregated.txt
     "handle": "LVLT-1",
     "description": "Level 3 Parent LLC",
     "origin": "authoritative",
-    "lastAnnounced": "2026-01-03"
+    "lastAnnounced": "2026-01-04T07:48:56.025859Z"
   },
   "prefixes": {
     "ipv4": [
@@ -65,7 +65,7 @@ as/1/ipv6-aggregated.txt
 - `subnets` renamed to `prefixes`
 - `handle`, `description` now nested under `metadata` object
 - Added `origin` field in metadata (values: `authoritative`, `inferred`, `overlaid`, `none`)
-- Added `lastAnnounced` field in metadata (date or `null` for older files)
+- Added `lastAnnounced` field in metadata (ISO 8601 timestamp or `null` for older files)
 
 ### TXT format
 
