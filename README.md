@@ -19,6 +19,8 @@ Available formats: JSON and plaintext
   "metadata": {
     "handle": "FORTUM",
     "description": "Fortum",
+    "countryCode": "FI",
+    "country": "Finland",
     "origin": "authoritative",
     "lastAnnounced": "2026-01-04T07:48:56.025859Z"
   },
@@ -54,14 +56,14 @@ Available formats: JSON and plaintext
 ```
 
 **Metadata fields:**
+- **countryCode**: ISO 3166-1 alpha-2 country code (may be `null` if unknown)
+- **country**: Country name in English (may be `null` if unknown)
 - **origin**: Metadata source indicator
   - `authoritative`: From authoritative source
   - `inferred`: Inferred from routing information; may be inaccurate
   - `overlaid`: Metadata overlay from [as-overlay](https://github.com/ipverse/as-overlay) applied
   - `none`: No metadata available
-- **lastAnnounced**: ISO 8601 timestamp when the AS was last seen announcing prefixes (may be `null` for older files)
-
-For AS metadata (ASN, handle, description, country code) see [as-metadata](https://github.com/ipverse/as-metadata)
+- **lastAnnounced**: ISO 8601 timestamp when the AS was last seen announcing prefixes (may be `null`)
 
 ## Update notes
 
