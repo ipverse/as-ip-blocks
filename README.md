@@ -20,7 +20,7 @@ Available formats: JSON and plaintext
     "handle": "FORTUM",
     "description": "Fortum",
     "origin": "authoritative",
-    "lastAnnounced": "2026-01-03"
+    "lastAnnounced": "2026-01-04T07:48:56.025859Z"
   },
   "prefixes": {
     "ipv4": [
@@ -59,7 +59,7 @@ Available formats: JSON and plaintext
   - `inferred`: Inferred from routing information; may be inaccurate
   - `overlaid`: Metadata overlay from [as-overlay](https://github.com/ipverse/as-overlay) applied
   - `none`: No metadata available
-- **lastAnnounced**: Date when the AS was last seen announcing prefixes (may be `null` for older files)
+- **lastAnnounced**: ISO 8601 timestamp when the AS was last seen announcing prefixes (may be `null` for older files)
 
 For AS metadata (ASN, handle, description, country code) see [as-metadata](https://github.com/ipverse/as-metadata)
 
