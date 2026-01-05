@@ -50,8 +50,7 @@ as/1/ipv6-aggregated.txt
     "description": "Level 3 Parent LLC",
     "countryCode": "US",
     "country": "United States",
-    "origin": "authoritative",
-    "lastAnnounced": "2026-01-04T07:48:56.025859Z"
+    "origin": "authoritative"
   },
   "prefixes": {
     "ipv4": [
@@ -69,7 +68,6 @@ as/1/ipv6-aggregated.txt
 - Added `countryCode` field in metadata (ISO 3166-1 alpha-2 code or `null`)
 - Added `country` field in metadata (country name in English or `null`)
 - Added `origin` field in metadata (values: `authoritative`, `inferred`, `overlaid`, `none`)
-- Added `lastAnnounced` field in metadata (ISO 8601 timestamp or `null`)
 
 ### Plaintext format
 
