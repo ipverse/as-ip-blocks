@@ -21,8 +21,7 @@ Available formats: JSON and plaintext
     "description": "Fortum",
     "countryCode": "FI",
     "country": "Finland",
-    "origin": "authoritative",
-    "lastAnnounced": "2026-01-04T07:48:56.025859Z"
+    "origin": "authoritative"
   },
   "prefixes": {
     "ipv4": [
@@ -63,10 +62,10 @@ Available formats: JSON and plaintext
   - `inferred`: Inferred from routing information; may be inaccurate
   - `overlaid`: Metadata overlay from [as-overlay](https://github.com/ipverse/as-overlay) applied
   - `none`: No metadata available
-- **lastAnnounced**: ISO 8601 timestamp when the AS was last seen announcing prefixes (may be `null`)
 
 ## Update notes
 
+- **2026-01-05**: Removed `lastAnnounced` field to reduce git delta size. This field is still available in [as-metadata](https://github.com/ipverse/as-metadata).
 - **2026-01-03**: Repository renamed to `as-ip-blocks`, JSON format changed (`subnets` → `prefixes`, metadata nested). See [MIGRATION.md](MIGRATION.md) for details.
 - 2025-08-03: Removed opinionated handle cleanup
 - 2023-09-03: Removed PEM certificates from description field
@@ -113,6 +112,7 @@ Check out this blog post: https://blog.jiayu.co/2018/10/quick-url-to-asn-lookups
 
 ## Related projects
 
+- **[as-metadata](https://github.com/ipverse/as-metadata)**: Complete AS metadata including `lastAnnounced` timestamps and additional fields not included in the per-AS files here.
 - **[as-overlay](https://github.com/ipverse/as-overlay)**: Autonomous system metadata overlays that supplement and enhance the authoritative data in this repository. When overlay data is applied, entries will have an `origin` value of `overlaid` in the JSON format.
 
 ## Questions or issues?
