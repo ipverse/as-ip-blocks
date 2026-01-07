@@ -1,14 +1,17 @@
 {
-  "asn": 19190,
-  "metadata": {
-    "handle": "FASTWIRE-COM",
-    "description": "TELUS Communications Inc.",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+  "asn" : 19190,
+  "metadata" : {
+    "handle" : "FASTWIRE-COM",
+    "description" : "TELUS Communications Inc.",
+    "countryCode" : "CA",
+    "country" : "Canada",
+    "origin" : "authoritative"
   },
-  "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+  "prefixes" : {
+    "ipv4" : [
+      "142.168.0.0/20",
+      "142.168.32.0/20"
+    ],
+    "ipv6" : [ ]
   }
 }
