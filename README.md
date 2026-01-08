@@ -65,6 +65,7 @@ Available formats: JSON and plaintext
 
 ## Update notes
 
+- **2026-01-08**: AS directories are now removed if no prefixes have been announced in the last 90 days. Historical metadata for removed ASes may still be available in [as-metadata](https://github.com/ipverse/as-metadata).
 - **2026-01-05**: Removed `lastAnnounced` field to reduce git delta size. This field is still available in [as-metadata](https://github.com/ipverse/as-metadata).
 - **2026-01-03**: Repository renamed to `as-ip-blocks`, JSON format changed (`subnets` → `prefixes`, metadata nested). See [MIGRATION.md](MIGRATION.md) for details.
 - 2025-08-03: Removed opinionated handle cleanup
