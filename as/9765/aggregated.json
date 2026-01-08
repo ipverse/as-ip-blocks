@@ -1,14 +1,18 @@
 {
-  "asn": 9765,
-  "metadata": {
-    "handle": "AS9765",
-    "description": "Unknown AS 9765",
-    "countryCode": null,
-    "country": null,
-    "origin": "none"
+  "asn" : 9765,
+  "metadata" : {
+    "handle" : "CHINA-INTERNET-NETWORK",
+    "description" : "China Internet Network Information Center.",
+    "countryCode" : "AU",
+    "country" : "Australia",
+    "origin" : "inferred"
   },
-  "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+  "prefixes" : {
+    "ipv4" : [
+      "111.66.192.0/19",
+      "161.248.110.0/23",
+      "161.248.112.0/23"
+    ],
+    "ipv6" : [ ]
   }
 }
