@@ -3,10 +3,12 @@
 > **📢 New and improved:** This repo has been upgraded with a clearer name (`as-ip-blocks`) and enhanced JSON format. 
 > Check out [MIGRATION.md](MIGRATION.md) for the quick changes needed (plaintext files are unchanged).
 
-Daily-updated datasets about every autonomous system (AS), sourced from BGP routing table announcements. 
+Daily-updated datasets of autonomous systems (AS) with active BGP prefix announcements.
+Only includes AS that have announced at least one prefix within the last 90 days.
 No APIs, no databases - just simple file downloads.
 
-Each AS gets its own directory with aggregated IPv4 and IPv6 prefixes in both JSON and plaintext formats. 
+Each AS gets its own directory with aggregated IPv4 and IPv6 prefixes in both JSON and plaintext formats.
+Prefixes are aggregated (adjacent and overlapping CIDR blocks are merged into larger blocks where possible). 
 Perfect for firewall rules, network analysis, or tracking what IP ranges belong to specific organizations. 
 Git history lets you see how an AS's announcements change over time.
 
@@ -65,7 +67,7 @@ Available formats: JSON and plaintext
 
 ## Update notes
 
-- **2026-01-08**: AS directories are now removed if no prefixes have been announced in the last 90 days. Historical metadata for removed ASes may still be available in [as-metadata](https://github.com/ipverse/as-metadata).
+- **2026-01-08**: AS directories are now removed if no prefixes have been announced in the last 90 days. Historical metadata for removed AS may still be available in [as-metadata](https://github.com/ipverse/as-metadata).
 - **2026-01-05**: Removed `lastAnnounced` field to reduce git delta size. This field is still available in [as-metadata](https://github.com/ipverse/as-metadata).
 - **2026-01-03**: Repository renamed to `as-ip-blocks`, JSON format changed (`subnets` → `prefixes`, metadata nested). See [MIGRATION.md](MIGRATION.md) for details.
 - 2025-08-03: Removed opinionated handle cleanup
