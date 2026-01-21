@@ -1,14 +1,18 @@
 {
-  "asn": 20431,
-  "metadata": {
-    "handle": "VGRS-AC19",
-    "description": "VeriSign Global Registry Services",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+  "asn" : 20431,
+  "metadata" : {
+    "handle" : "VGRS-AC19",
+    "description" : "VeriSign Global Registry Services",
+    "countryCode" : "US",
+    "country" : "United States",
+    "origin" : "authoritative"
   },
-  "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
+      "2001:500:30ff::/48",
+      "2001:501:8a29::/48",
+      "2620:74:20::/48"
+    ]
   }
 }

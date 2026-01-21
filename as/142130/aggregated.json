@@ -1,14 +1,18 @@
 {
-  "asn": 142130,
-  "metadata": {
-    "handle": "NICONET-AS-US",
-    "description": "NICHONET Inter-Continental Hosting Operation Network",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+  "asn" : 142130,
+  "metadata" : {
+    "handle" : "NICONET-AS-US",
+    "description" : "NICHONET Inter-Continental Hosting Operation Network",
+    "countryCode" : "US",
+    "country" : "United States",
+    "origin" : "authoritative"
   },
-  "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+  "prefixes" : {
+    "ipv4" : [ ],
+    "ipv6" : [
+      "2602:feda:b42::/47",
+      "2602:feda:b44::/48",
+      "2a0e:b107:1204::/48"
+    ]
   }
 }
