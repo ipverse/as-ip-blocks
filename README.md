@@ -20,6 +20,7 @@ Git history lets you see how an AS's announcements change over time.
 
 ## Update notes
 
+- **2026-02-08**: Added `category` and `networkRole` fields to JSON metadata
 - **2026-01-17**: Added bulk download archive in [releases](https://github.com/ipverse/as-ip-blocks/releases/latest)
 - **2026-01-08**: AS directories are now removed if no prefixes have been announced in the last 90 days. Historical metadata for removed AS may still be available in [as-metadata](https://github.com/ipverse/as-metadata).
 - **2026-01-05**: Removed `lastAnnounced` field to reduce git delta size. This field is still available in [as-metadata](https://github.com/ipverse/as-metadata).
@@ -40,7 +41,9 @@ JSON and plaintext
     "description": "Fortum",
     "countryCode": "FI",
     "country": "Finland",
-    "origin": "authoritative"
+    "origin": "authoritative",
+    "category": "business",
+    "networkRole": "stub"
   },
   "prefixes": {
     "ipv4": [
@@ -81,6 +84,8 @@ JSON and plaintext
   - `inferred`: Inferred from routing information; may be inaccurate
   - `overlaid`: Metadata overlay from [as-overlay](https://github.com/ipverse/as-overlay) applied
   - `none`: No metadata available
+- **category**: AS classification (`isp`, `hosting`, `business`, `education_research`, `government`); `null` if unclassified
+- **networkRole**: Network role (`tier1_transit`, `major_transit`, `midsize_transit`, `access_provider`, `content_network`, `stub`); `null` if unknown
 
 ## How to use
 
