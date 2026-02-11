@@ -1,14 +1,16 @@
 {
-  "asn": 9207,
-  "metadata": {
-    "handle": "MARLINK-MPLS",
-    "description": "Marlink AS",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+  "asn" : 9207,
+  "metadata" : {
+    "handle" : "MARLINK-MPLS",
+    "description" : "Marlink AS",
+    "countryCode" : "NO",
+    "country" : "Norway",
+    "origin" : "authoritative",
+    "category" : null,
+    "networkRole" : "stub"
   },
-  "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+  "prefixes" : {
+    "ipv4" : [ "128.201.91.0/24" ],
+    "ipv6" : [ ]
   }
 }
