@@ -1,14 +1,16 @@
 {
-  "asn": 38037,
-  "metadata": {
-    "handle": "INTERNET-AP",
-    "description": "InternetNZ",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+  "asn" : 38037,
+  "metadata" : {
+    "handle" : "INTERNET-AS-AP",
+    "description" : "InternetNZ",
+    "countryCode" : "NZ",
+    "country" : "New Zealand",
+    "origin" : "authoritative",
+    "category" : "business",
+    "networkRole" : "stub"
   },
-  "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+  "prefixes" : {
+    "ipv4" : [ "202.46.176.0/24" ],
+    "ipv6" : [ "2001:dce:ff00::/48" ]
   }
 }
