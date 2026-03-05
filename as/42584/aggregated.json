@@ -1,16 +1,16 @@
 {
-  "asn" : 42584,
-  "metadata" : {
-    "handle" : "TR-NGNCLOUD",
-    "description" : "NGN Bilgi Teknolojileri Veri Merkezi ve Danismanlik Hizmetleri A.S.",
-    "countryCode" : "TR",
-    "country" : "Türkiye",
-    "origin" : "authoritative",
-    "category" : "business",
-    "networkRole" : "stub"
+  "asn": 42584,
+  "metadata": {
+    "handle": "TR-NGNCLOUD",
+    "description": "NGN Bilgi Teknolojileri Veri Merkezi ve Danismanlik Hizmetleri A.S.",
+    "countryCode": "TR",
+    "country": "Türkiye",
+    "origin": "authoritative",
+    "category": "business",
+    "networkRole": "stub"
   },
-  "prefixes" : {
-    "ipv4" : [ "185.200.28.0/22" ],
-    "ipv6" : [ "2a0a:b240::/29" ]
+  "prefixes": {
+    "ipv4": [ "185.200.28.0/24", "185.200.31.0/24" ],
+    "ipv6": [ "2a0a:b240::/29" ]
   }
 }
