@@ -2,10 +2,10 @@
 
 | Metric | Count |
 |:-------|------:|
-| IPv4 Prefixes | 1 116 841 |
-| IPv6 Prefixes | 252 515 |
-| Total Prefixes | 1 369 356 |
-| Autonomous Systems | 85 422 |
+| IPv4 Prefixes | 1 118 553 |
+| IPv6 Prefixes | 254 615 |
+| Total Prefixes | 1 373 168 |
+| Autonomous Systems | 85 438 |
 | Overlay Applied | 21 |
 | Stale Skipped | 0 |
-| Stopped Announcing | 1 825 |
+| Stopped Announcing | 1 847 |
