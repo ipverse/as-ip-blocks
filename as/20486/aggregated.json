@@ -1,14 +1,16 @@
 {
   "asn": 20486,
   "metadata": {
-    "handle": "PAYPRO-SPOLKA-AKCYJNA",
+    "handle": "ECARD-AS",
     "description": "PayPro Spolka Akcyjna",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "PL",
+    "country": "Poland",
+    "origin": "authoritative",
+    "category": "business",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "5.252.202.0/24" ],
+    "ipv6": [ ]
   }
 }

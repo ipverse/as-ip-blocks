@@ -3,12 +3,14 @@
   "metadata": {
     "handle": "IT-AS",
     "description": "iternas GmbH",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "DE",
+    "country": "Germany",
+    "origin": "authoritative",
+    "category": "business",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "198.51.200.0/24" ],
+    "ipv6": [ "2a0a:fc00::/29" ]
   }
 }
