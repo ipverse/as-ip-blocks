@@ -1,14 +1,16 @@
 {
   "asn": 60699,
   "metadata": {
-    "handle": "CLOUD66",
+    "handle": "SIXTYNET",
     "description": "66 Cloud Technology Company Limited",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "HK",
+    "country": "Hong Kong SAR China",
+    "origin": "authoritative",
+    "category": "hosting",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "111.66.8.0/22", "111.66.20.0/22", "111.66.24.0/22", "111.66.40.0/22", "111.66.48.0/22", "111.66.56.0/22" ],
+    "ipv6": [ ]
   }
 }
