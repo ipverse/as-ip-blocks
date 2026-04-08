@@ -1,14 +1,16 @@
 {
   "asn": 134273,
   "metadata": {
-    "handle": "DMBPL-IN",
+    "handle": "DMBPL-AS-IN",
     "description": "D M Broadband",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "IN",
+    "country": "India",
+    "origin": "authoritative",
+    "category": "isp",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "103.113.110.0/23" ],
+    "ipv6": [ ]
   }
 }

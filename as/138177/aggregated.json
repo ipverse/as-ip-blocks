@@ -1,14 +1,16 @@
 {
   "asn": 138177,
   "metadata": {
-    "handle": "NOMINET-AP-RESMDNS",
+    "handle": "NOMINET-AS-AP-RESMDNS",
     "description": "NOMINET UK",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "GB",
+    "country": "United Kingdom",
+    "origin": "authoritative",
+    "category": null,
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "194.227.193.0/24", "213.248.192.0/23", "213.248.194.0/24", "213.248.206.0/23", "213.248.254.0/24" ],
+    "ipv6": [ "2401:fd80:4ff::/48", "2a01:618:2fc::/46", "2a01:618:4ff::/48", "2a01:61e:fffc::/47", "2a01:61e:fffe::/48" ]
   }
 }
