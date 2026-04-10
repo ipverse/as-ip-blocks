@@ -3,12 +3,14 @@
   "metadata": {
     "handle": "SIGMATEL",
     "description": "Sigma Telecom LLC",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "US",
+    "country": "United States",
+    "origin": "authoritative",
+    "category": "isp",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "185.133.255.0/24" ],
+    "ipv6": [ ]
   }
 }
