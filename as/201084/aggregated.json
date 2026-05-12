@@ -3,12 +3,14 @@
   "metadata": {
     "handle": "GENERIS-SYSTEM",
     "description": "Generis System Telecom SAS",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "FR",
+    "country": "France",
+    "origin": "authoritative",
+    "category": "isp",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "185.43.68.0/24" ],
+    "ipv6": [ ]
   }
 }
