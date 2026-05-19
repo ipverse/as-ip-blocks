@@ -1,14 +1,16 @@
 {
   "asn": 204652,
   "metadata": {
-    "handle": "ZITCOM",
+    "handle": "TEAM-BLUE-DENMARK-ANYCAST",
     "description": "team.blue Denmark A/S",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "DK",
+    "country": "Denmark",
+    "origin": "authoritative",
+    "category": "business",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "217.61.236.0/24", "217.61.239.0/24" ],
+    "ipv6": [ "2a03:2740:8000::/48", "2a03:2740:9000::/48" ]
   }
 }
