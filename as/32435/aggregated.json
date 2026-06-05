@@ -1,14 +1,16 @@
 {
   "asn": 32435,
   "metadata": {
-    "handle": "DOTALLIANCE-ANYCAST",
+    "handle": "DOTALLIANCE-PRIMARY",
     "description": "DotAlliance",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "CA",
+    "country": "Canada",
+    "origin": "authoritative",
+    "category": null,
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "199.189.200.0/22" ],
+    "ipv6": [ "2602:fac3::/40" ]
   }
 }
