@@ -1,14 +1,16 @@
 {
   "asn": 140803,
   "metadata": {
-    "handle": "RESERVED",
-    "description": "Vietnam Internet Network Information Center (VNNIC)",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "handle": "VTA-VN",
+    "description": "Telecommunications Company Limited A",
+    "countryCode": "VN",
+    "country": "Vietnam",
+    "origin": "authoritative",
+    "category": "isp",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "103.161.176.0/23", "103.162.28.0/23", "103.178.228.0/23", "103.179.186.0/23" ],
+    "ipv6": [ ]
   }
 }
