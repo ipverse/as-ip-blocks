@@ -3,12 +3,14 @@
   "metadata": {
     "handle": "DATARGO-AS",
     "description": "Datargo GmbH",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "DE",
+    "country": "Germany",
+    "origin": "authoritative",
+    "category": "business",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "45.147.85.0/24", "45.147.86.0/24" ],
+    "ipv6": [ ]
   }
 }

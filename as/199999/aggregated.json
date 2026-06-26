@@ -3,12 +3,14 @@
   "metadata": {
     "handle": "BNNIT",
     "description": "AKVA group ASA",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "NO",
+    "country": "Norway",
+    "origin": "authoritative",
+    "category": null,
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "185.38.68.0/22", "185.101.0.0/22" ],
+    "ipv6": [ "2a04:7600::/29" ]
   }
 }
