@@ -3,12 +3,14 @@
   "metadata": {
     "handle": "CHINANET-GANSU-JIAYUGUAN-5G-MAN-NETWORK",
     "description": "China Telecom",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "CN",
+    "country": "China",
+    "origin": "authoritative",
+    "category": "isp",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "138.252.118.0/24" ],
+    "ipv6": [ ]
   }
 }

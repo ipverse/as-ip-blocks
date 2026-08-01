@@ -1,14 +1,16 @@
 {
   "asn": 49203,
   "metadata": {
-    "handle": "IRM-AS",
-    "description": "Internet Resources Management SRL",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "handle": "EAD-AS",
+    "description": "EAD.RO INTERACTIVE SRL",
+    "countryCode": "RO",
+    "country": "Romania",
+    "origin": "authoritative",
+    "category": "business",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "195.138.214.0/24" ],
+    "ipv6": [ "2001:67c:630::/48" ]
   }
 }
