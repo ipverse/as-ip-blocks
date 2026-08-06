@@ -2,13 +2,15 @@
   "asn": 393809,
   "metadata": {
     "handle": "WISPER-EASYN",
-    "description": "Wisper ISP, LLC",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "description": "Wisper ISP LLC",
+    "countryCode": "US",
+    "country": "United States",
+    "origin": "authoritative",
+    "category": "isp",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "192.225.110.0/24" ],
+    "ipv6": [ ]
   }
 }

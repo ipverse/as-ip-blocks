@@ -3,12 +3,14 @@
   "metadata": {
     "handle": "LUNA-CDN",
     "description": "Luna USA LLC",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "US",
+    "country": "United States",
+    "origin": "authoritative",
+    "category": "business",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "142.248.229.0/24" ],
+    "ipv6": [ ]
   }
 }
