@@ -1,14 +1,16 @@
 {
   "asn": 141404,
   "metadata": {
-    "handle": "MAKBROADBAND-AP",
+    "handle": "MAKBROADBAND-AS-AP",
     "description": "MAK BROADBAND",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "BD",
+    "country": "Bangladesh",
+    "origin": "authoritative",
+    "category": "isp",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "103.158.86.0/23" ],
+    "ipv6": [ ]
   }
 }
