@@ -1,14 +1,16 @@
 {
   "asn": 9547,
   "metadata": {
-    "handle": "WESTPAC-AP",
+    "handle": "WESTPAC-AS-AP",
     "description": "Westpac Banking Corporation",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "AU",
+    "country": "Australia",
+    "origin": "authoritative",
+    "category": "business",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "110.5.92.0/23", "110.5.94.0/24", "166.120.66.0/23" ],
+    "ipv6": [ ]
   }
 }
