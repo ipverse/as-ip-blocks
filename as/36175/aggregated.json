@@ -2,17 +2,15 @@
   "asn": 36175,
   "metadata": {
     "handle": "MYFAM-DC1",
-    "description": "Myfamily.com, Inc.",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "description": "Myfamily.com Inc.",
+    "countryCode": "US",
+    "country": "United States",
+    "origin": "authoritative",
+    "category": "business",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [
-      "66.43.24.0/23",
-      "66.43.27.0/24",
-      "66.43.29.0/24"
-    ],
-    "ipv6": []
+    "ipv4": [ "66.43.24.0/22" ],
+    "ipv6": [ ]
   }
 }
