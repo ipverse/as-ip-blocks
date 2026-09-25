@@ -1,14 +1,16 @@
 {
   "asn": 141495,
   "metadata": {
-    "handle": "SBMBRO-IN",
+    "handle": "SBMBRO-AS-IN",
     "description": "Sbm Broadband",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "IN",
+    "country": "India",
+    "origin": "authoritative",
+    "category": "isp",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "154.84.134.0/24", "154.84.178.0/24", "154.84.181.0/24" ],
+    "ipv6": [ ]
   }
 }
