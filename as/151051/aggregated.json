@@ -1,14 +1,16 @@
 {
   "asn": 151051,
   "metadata": {
-    "handle": "CLASSICBROADBAND-AP",
+    "handle": "CLASSICBROADBAND-AS-AP",
     "description": "Classic Broadband",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "PK",
+    "country": "Pakistan",
+    "origin": "authoritative",
+    "category": "isp",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "103.121.178.0/24" ],
+    "ipv6": [ ]
   }
 }
