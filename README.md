@@ -122,7 +122,6 @@ If you plan to use the routing data for firewalling purposes, have a look at:
 ## Related projects
 
 - **[as-metadata](https://github.com/ipverse/as-metadata)**: Complete AS metadata including `lastAnnounced` timestamps and additional fields not included in the per-AS files here.
-- **[as-overlay](https://github.com/ipverse/as-overlay)**: Autonomous system metadata overlays that supplement and enhance the authoritative data in this repository. When overlay data is applied, entries will have an `origin` value of `overlaid` in the JSON format.
 
 ## Questions or issues?
 
