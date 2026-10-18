@@ -1,14 +1,16 @@
 {
   "asn": 207142,
   "metadata": {
-    "handle": "YENPIN-KUO",
-    "description": "YenPin Kuo",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "handle": "HMX",
+    "description": "HMX Hungarian Media Exchange Kft",
+    "countryCode": "HU",
+    "country": "Hungary",
+    "origin": "authoritative",
+    "category": "business",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "45.136.120.0/22", "185.188.59.0/24" ],
+    "ipv6": [ "2a0b:b980:3::/48", "2a0e:9740::/29" ]
   }
 }
