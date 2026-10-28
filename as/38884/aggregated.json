@@ -3,12 +3,14 @@
   "metadata": {
     "handle": "WORKCOVER-AS-AP",
     "description": "WorkCover Queensland",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "AU",
+    "country": "Australia",
+    "origin": "authoritative",
+    "category": null,
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "203.82.216.0/23" ],
+    "ipv6": [ ]
   }
 }
