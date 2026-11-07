@@ -2,13 +2,15 @@
   "asn": 197288,
   "metadata": {
     "handle": "NORLYS-DIGITAL",
-    "description": "Norlys Digital A/S",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "description": "Norlys Telco A/S",
+    "countryCode": "DK",
+    "country": "Denmark",
+    "origin": "authoritative",
+    "category": "isp",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "85.27.172.0/24" ],
+    "ipv6": [ "2a13:8a07::/32" ]
   }
 }
