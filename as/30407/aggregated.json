@@ -3,12 +3,14 @@
   "metadata": {
     "handle": "VELCOM",
     "description": "Velcom",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "CA",
+    "country": "Canada",
+    "origin": "authoritative",
+    "category": null,
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "98.142.255.0/24", "104.234.216.0/24", "104.234.223.0/24" ],
+    "ipv6": [ ]
   }
 }
