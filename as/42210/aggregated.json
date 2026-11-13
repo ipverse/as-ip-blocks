@@ -1,14 +1,16 @@
 {
   "asn": 42210,
   "metadata": {
-    "handle": "HOSTVIRTUAL",
+    "handle": "HOSTVIRTUAL-AS",
     "description": "NetActuate Inc",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "US",
+    "country": "United States",
+    "origin": "authoritative",
+    "category": "hosting",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "45.54.13.0/24", "148.163.213.0/24" ],
+    "ipv6": [ "2400:a1c0:64::/48", "2607:f740:e021::/48" ]
   }
 }
