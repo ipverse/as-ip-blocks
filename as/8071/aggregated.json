@@ -1,14 +1,16 @@
 {
   "asn": 8071,
   "metadata": {
-    "handle": "MICROSOFT-CORP-MSN-BLOCK",
+    "handle": "MICROSOFT-CORP-MSN-AS-BLOCK",
     "description": "Microsoft Corporation",
-    "countryCode": null,
-    "country": null,
-    "origin": "authoritative"
+    "countryCode": "US",
+    "country": "United States",
+    "origin": "authoritative",
+    "category": "business",
+    "networkRole": "stub"
   },
   "prefixes": {
-    "ipv4": [],
-    "ipv6": []
+    "ipv4": [ "157.58.216.0/24" ],
+    "ipv6": [ "2001:4898:b080::/48" ]
   }
 }
